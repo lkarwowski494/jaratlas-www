@@ -8,7 +8,7 @@ Zucchini is a low-acid food with a pH above 4.6. [T:ACI-026]
 
 The FDA list gives cooked zucchini a pH of about 5.69–6.10. [T:ACI-086]
 
-Canning zucchini without pickling it is not recommended; USDA withdrew its earlier directions because the processing times were uncertain. [T:SZY-026]
+Canning zucchini without pickling is no longer recommended, because research-based processing times are uncertain. [T:SZY-026]
 
 The whole product must contain a minimum, uniform level of acid so that botulism bacteria cannot grow. [T:ACI-017]
 

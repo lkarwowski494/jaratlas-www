@@ -28,7 +28,7 @@ NCHFP podaje dla agrestu także sposób na gorąco (hot pack); ta karta opisuje 
 
 Do każdego czystego słoika wlej 1/2 szklanki gorącego syropu. [T:ACI-247]
 
-Napełnij słoiki surowymi owocami, delikatnie nimi potrząsając. [T:ACI-249]
+Napełnij słoiki surowymi owocami, delikatnie potrząsając słoikiem, żeby owoce się ułożyły. [T:ACI-249]
 
 Zalej owoce gorącym syropem, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:ACI-249]
 
