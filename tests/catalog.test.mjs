@@ -123,6 +123,18 @@ test('produkt graniczny w kąpieli wodnej z acidBasis low-acid albo not-applicab
   }
 });
 
+test('produkt niskokwasowy w kąpieli wodnej tylko z acidBasis acidified: sugar-acid, fermented, null, spoza słownika = błąd; jeden komunikat (07-jakosc-fix P2, obserwacja D-043 partii 6)', () => {
+  const kat = (ab) => { const c = base(); Object.assign(c.variants[1], { preservationMethod: 'water-bath', acidBasis: ab }); return c; };
+  // Kontrola pozytywna: zakwaszony wariant niskokwasowy (np. pikle octowe) w kąpieli wodnej przechodzi.
+  assert.deepEqual(errs(kat('acidified')), []);
+  for (const ab of ['sugar-acid', 'fermented', null, 'xyz']) {
+    assert.ok(has(errs(kat(ab)), /green-beans-v01: produkt niskokwasowy w water-bath wymaga zakwaszenia/), String(ab));
+  }
+  for (const ab of ['sugar-acid', 'fermented']) assert.equal(errs(kat(ab)).length, 1, ab);
+  // Bez drugiego komunikatu tam, gdzie błąd zgłasza już inna reguła (low-acid, not-applicable, natural-acid).
+  for (const ab of ['low-acid', 'not-applicable', 'natural-acid']) assert.equal(errs(kat(ab)).length, 1, ab);
+});
+
 test('ok-zrodlo bez źródła to błąd', () => {
   const c = base(); c.variants[0].sources = [];
   assert.ok(has(errs(c), /apple-v01.*ok-zrodlo.*źródł/));

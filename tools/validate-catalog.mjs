@@ -82,6 +82,10 @@ export function validateCatalog(cat, rejestr = []) {
       const wyjOk = wyj?.warning && wzor?.warning === wyj.warning && wzor.decyzja === wyj.decyzja && v.safetyStatus === 'ok-zrodlo' && (v.requiredWarnings ?? []).includes(wyj.warning) && (v.sources ?? []).some((z) => z.szczebel === 1 && z.adres && (z.cytat || z.miejsce) && /^\d{4}-\d\d-\d\d$/.test(z.odczyt ?? ''));
       // Wariant ostrożny (P3-4 przeglądu D-043, 2026-11-02): każdy acidBasis inny niż acidified, nie tylko natural-acid.
       // P3-4 drugiego przeglądu D-043: przy low-acid/not-applicable błąd zgłasza już reguła wyżej, bez drugiego komunikatu.
+      // Produkt niskokwasowy (07-jakosc-fix P2, obserwacja D-043 partii 6, 2026-11-02): w kąpieli wodnej tylko zakwaszony (acidified), wariant ostrożny
+      // jak przy produkcie granicznym. fermented też błąd: przyszła karta (np. kapusta kiszona w słoikach) wymaga świadomej decyzji i zmiany reguły.
+      // Bez drugiego komunikatu, gdy błąd zgłasza już reguła niskokwasowa wyżej albo reguła natural-acid.
+      if (!niskokwasowy && p?.acidity === 'low-acid' && v.acidBasis !== 'acidified' && v.acidBasis !== 'natural-acid') errors.push(`${g}: produkt niskokwasowy w water-bath wymaga zakwaszenia (acidBasis acidified); fermented i sugar-acid nie wystarczą bez decyzji i zmiany reguły`);
       if (!niskokwasowy && p?.acidity === 'borderline' && v.acidBasis !== 'acidified' && !(v.acidBasis === 'natural-acid' && wyjOk)) errors.push(`${g}: produkt graniczny w water-bath wymaga zakwaszenia (acidBasis acidified) albo wyjątku acidityException z listy WYJATKI_KWAS (acidBasis natural-acid, ok-zrodlo, przepis szczebla 1, ostrzeżenie w requiredWarnings, decyzja z listy)`);
     }
     // acidityException (P3 z przeglądu D-043, 2026-11-02): wyjątek musi wskazywać decyzję (ID wpisu tablicy decyzji, zaczyna się datą),

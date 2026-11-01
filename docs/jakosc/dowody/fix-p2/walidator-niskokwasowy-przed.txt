@@ -1,0 +1,30 @@
+TAP version 13
+# Subtest: produkt niskokwasowy w kąpieli wodnej tylko z acidBasis acidified: sugar-acid, fermented, null, spoza słownika = błąd; jeden komunikat (07-jakosc-fix P2, obserwacja D-043 partii 6)
+not ok 1 - produkt niskokwasowy w kąpieli wodnej tylko z acidBasis acidified: sugar-acid, fermented, null, spoza słownika = błąd; jeden komunikat (07-jakosc-fix P2, obserwacja D-043 partii 6)
+  ---
+  duration_ms: 3.16348
+  type: 'test'
+  location: '/home/user/jaratlas-www/tests/catalog.test.mjs:126:1'
+  failureType: 'testCodeFailure'
+  error: 'sugar-acid'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///home/user/jaratlas-www/tests/catalog.test.mjs:131:12)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 0
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 73.915454

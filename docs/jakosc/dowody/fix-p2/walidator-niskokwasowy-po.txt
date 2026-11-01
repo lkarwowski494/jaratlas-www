@@ -1,0 +1,614 @@
+
+> test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: prawdziwe dane: kod 0, przekierowania.json zapisany, 0 stron treści
+ok 1 - prawdziwe dane: kod 0, przekierowania.json zapisany, 0 stron treści
+  ---
+  duration_ms: 88.343857
+  type: 'test'
+  ...
+# Subtest: błąd kontroli: kod 1, poprzedni dist/ nietknięty, brak katalogu tymczasowego
+ok 2 - błąd kontroli: kod 1, poprzedni dist/ nietknięty, brak katalogu tymczasowego
+  ---
+  duration_ms: 90.517592
+  type: 'test'
+  ...
+# Subtest: slug „..” w piśmie niełacińskim: kod 1, nic nie zapisane poza katalogiem wyjścia, dist/ nietknięty (07-jakosc-003, sonda S3)
+ok 3 - slug „..” w piśmie niełacińskim: kod 1, nic nie zapisane poza katalogiem wyjścia, dist/ nietknięty (07-jakosc-003, sonda S3)
+  ---
+  duration_ms: 65.576997
+  type: 'test'
+  ...
+# Subtest: poprawny katalog przechodzi
+ok 4 - poprawny katalog przechodzi
+  ---
+  duration_ms: 3.309465
+  type: 'test'
+  ...
+# Subtest: wariant niskokwasowy w kąpieli wodnej to błąd
+ok 5 - wariant niskokwasowy w kąpieli wodnej to błąd
+  ---
+  duration_ms: 0.792018
+  type: 'test'
+  ...
+# Subtest: produkt niskokwasowy nie może mieć acidBasis natural-acid
+ok 6 - produkt niskokwasowy nie może mieć acidBasis natural-acid
+  ---
+  duration_ms: 0.586277
+  type: 'test'
+  ...
+# Subtest: produkt graniczny (np. pomidor) w kąpieli wodnej wymaga zakwaszenia
+ok 7 - produkt graniczny (np. pomidor) w kąpieli wodnej wymaga zakwaszenia
+  ---
+  duration_ms: 0.409567
+  type: 'test'
+  ...
+# Subtest: produkt graniczny bez zakwaszenia tylko z jawnym wyjątkiem z listy w walidatorze (morele, E3-002), ok-zrodlo, przepis szczebla 1 i wymagane ostrzeżenie (06, 2026-11-02)
+ok 8 - produkt graniczny bez zakwaszenia tylko z jawnym wyjątkiem z listy w walidatorze (morele, E3-002), ok-zrodlo, przepis szczebla 1 i wymagane ostrzeżenie (06, 2026-11-02)
+  ---
+  duration_ms: 1.314927
+  type: 'test'
+  ...
+# Subtest: acidityException: wymagana decyzja (ID wpisu tablicy) i błąd, gdy wyjątek nie ma zastosowania (P3 z przeglądu D-043, 2026-11-02)
+ok 9 - acidityException: wymagana decyzja (ID wpisu tablicy) i błąd, gdy wyjątek nie ma zastosowania (P3 z przeglądu D-043, 2026-11-02)
+  ---
+  duration_ms: 3.004957
+  type: 'test'
+  ...
+# Subtest: produkt graniczny w kąpieli wodnej bez acidBasis acidified (np. sugar-acid, fermented) to błąd — wariant ostrożny (P3-4 przeglądu D-043, 2026-11-02)
+ok 10 - produkt graniczny w kąpieli wodnej bez acidBasis acidified (np. sugar-acid, fermented) to błąd — wariant ostrożny (P3-4 przeglądu D-043, 2026-11-02)
+  ---
+  duration_ms: 0.58722
+  type: 'test'
+  ...
+# Subtest: produkt graniczny w kąpieli wodnej z acidBasis low-acid albo not-applicable: dokładnie jeden błąd (niskokwasowy), bez drugiego komunikatu o produkcie granicznym (P3-4 drugiego przeglądu D-043, zdublowany komunikat)
+ok 11 - produkt graniczny w kąpieli wodnej z acidBasis low-acid albo not-applicable: dokładnie jeden błąd (niskokwasowy), bez drugiego komunikatu o produkcie granicznym (P3-4 drugiego przeglądu D-043, zdublowany komunikat)
+  ---
+  duration_ms: 0.553808
+  type: 'test'
+  ...
+# Subtest: produkt niskokwasowy w kąpieli wodnej tylko z acidBasis acidified: sugar-acid, fermented, null, spoza słownika = błąd; jeden komunikat (07-jakosc-fix P2, obserwacja D-043 partii 6)
+ok 12 - produkt niskokwasowy w kąpieli wodnej tylko z acidBasis acidified: sugar-acid, fermented, null, spoza słownika = błąd; jeden komunikat (07-jakosc-fix P2, obserwacja D-043 partii 6)
+  ---
+  duration_ms: 0.735915
+  type: 'test'
+  ...
+# Subtest: ok-zrodlo bez źródła to błąd
+ok 13 - ok-zrodlo bez źródła to błąd
+  ---
+  duration_ms: 0.652266
+  type: 'test'
+  ...
+# Subtest: ok-zrodlo ze źródłem szczebla 4 to błąd
+ok 14 - ok-zrodlo ze źródłem szczebla 4 to błąd
+  ---
+  duration_ms: 0.423449
+  type: 'test'
+  ...
+# Subtest: status inny niż do-researchu bez twierdzenia to błąd
+ok 15 - status inny niż do-researchu bez twierdzenia to błąd
+  ---
+  duration_ms: 0.314627
+  type: 'test'
+  ...
+# Subtest: twierdzenie nieznane albo niepotwierdzone to błąd
+ok 16 - twierdzenie nieznane albo niepotwierdzone to błąd
+  ---
+  duration_ms: 0.215347
+  type: 'test'
+  ...
+# Subtest: metoda spoza dozwolonych w rodzinie to błąd
+ok 17 - metoda spoza dozwolonych w rodzinie to błąd
+  ---
+  duration_ms: 0.211242
+  type: 'test'
+  ...
+# Subtest: nieznana metoda, w tym tyndalizacja, to błąd
+ok 18 - nieznana metoda, w tym tyndalizacja, to błąd
+  ---
+  duration_ms: 0.142818
+  type: 'test'
+  ...
+# Subtest: publikacja wymaga ok-zrodlo i treści karty
+ok 19 - publikacja wymaga ok-zrodlo i treści karty
+  ---
+  duration_ms: 0.25379
+  type: 'test'
+  ...
+# Subtest: powtórzone ID i nieznany produkt lub rodzina to błąd
+ok 20 - powtórzone ID i nieznany produkt lub rodzina to błąd
+  ---
+  duration_ms: 0.167881
+  type: 'test'
+  ...
+# Subtest: próg rodziny bez twierdzenia musi mieć pytanie otwarte
+ok 21 - próg rodziny bez twierdzenia musi mieć pytanie otwarte
+  ---
+  duration_ms: 0.163324
+  type: 'test'
+  ...
+# Subtest: wariant wycofany wskazuje następcę i nie jest publikowany
+ok 22 - wariant wycofany wskazuje następcę i nie jest publikowany
+  ---
+  duration_ms: 0.266933
+  type: 'test'
+  ...
+# Subtest: ryzyko-wysokie i nie-publikowac z publikacją tylko jako ostrzeżenie
+ok 23 - ryzyko-wysokie i nie-publikowac z publikacją tylko jako ostrzeżenie
+  ---
+  duration_ms: 0.257244
+  type: 'test'
+  ...
+# Subtest: ryzyko-wysokie i nie-publikowac zawsze z cardType warning; inne statusy bez niego (06, 2026-11-01)
+ok 24 - ryzyko-wysokie i nie-publikowac zawsze z cardType warning; inne statusy bez niego (06, 2026-11-01)
+  ---
+  duration_ms: 0.606632
+  type: 'test'
+  ...
+# Subtest: metoda nieustalona (null) dozwolona tylko bez ok-zrodlo
+ok 25 - metoda nieustalona (null) dozwolona tylko bez ok-zrodlo
+  ---
+  duration_ms: 0.207253
+  type: 'test'
+  ...
+# Subtest: rodzina nieustalona (null) dozwolona tylko przy do-researchu
+ok 26 - rodzina nieustalona (null) dozwolona tylko przy do-researchu
+  ---
+  duration_ms: 0.20306
+  type: 'test'
+  ...
+# Subtest: ID unikalne w obrębie typu (produkt może mieć ID jak rodzina)
+ok 27 - ID unikalne w obrębie typu (produkt może mieć ID jak rodzina)
+  ---
+  duration_ms: 0.109828
+  type: 'test'
+  ...
+# Subtest: obowiązkowe ostrzeżenie musi być potwierdzonym twierdzeniem
+ok 28 - obowiązkowe ostrzeżenie musi być potwierdzonym twierdzeniem
+  ---
+  duration_ms: 0.182427
+  type: 'test'
+  ...
+# Subtest: katalog repozytorium przechodzi walidację
+ok 29 - katalog repozytorium przechodzi walidację
+  ---
+  duration_ms: 37.239787
+  type: 'test'
+  ...
+# Subtest: oczysc usuwa znaczniki i spacje przed nimi, zostawia claim i obraz
+ok 30 - oczysc usuwa znaczniki i spacje przed nimi, zostawia claim i obraz
+  ---
+  duration_ms: 1.107222
+  type: 'test'
+  ...
+# Subtest: doMd: tytuł i nagłówki jako nagłówki (kontrola je pomija), każde zdanie ze znacznikiem
+ok 31 - doMd: tytuł i nagłówki jako nagłówki (kontrola je pomija), każde zdanie ze znacznikiem
+  ---
+  duration_ms: 3.554527
+  type: 'test'
+  ...
+# Subtest: pliki pochodne (.md i JSON strony) są aktualne względem źródła kart
+ok 32 - pliki pochodne (.md i JSON strony) są aktualne względem źródła kart
+  ---
+  duration_ms: 7.447418
+  type: 'test'
+  ...
+# Subtest: karty: wariant w katalogu, wymagane ostrzeżenia, karta-ostrzeżenie z ostrzeżeniem, slugi
+ok 33 - karty: wariant w katalogu, wymagane ostrzeżenia, karta-ostrzeżenie z ostrzeżeniem, slugi
+  ---
+  duration_ms: 1.578309
+  type: 'test'
+  ...
+# Subtest: karty: każde zdanie ze znacznikiem potwierdzonego twierdzenia, liczby zgodne z rejestrem
+ok 34 - karty: każde zdanie ze znacznikiem potwierdzonego twierdzenia, liczby zgodne z rejestrem
+  ---
+  duration_ms: 67.663063
+  type: 'test'
+  ...
+# Subtest: npm run check: pięć kontroli i rozmiar dist/ w jednym łańcuchu &&, build przed rozmiarem (07-jakosc-008)
+ok 35 - npm run check: pięć kontroli i rozmiar dist/ w jednym łańcuchu &&, build przed rozmiarem (07-jakosc-008)
+  ---
+  duration_ms: 1.432311
+  type: 'test'
+  ...
+# Subtest: CI woła npm run check, nie listę kroków (jedno źródło: package.json) (07-jakosc-008)
+ok 36 - CI woła npm run check, nie listę kroków (jedno źródło: package.json) (07-jakosc-008)
+  ---
+  duration_ms: 0.428682
+  type: 'test'
+  ...
+# Subtest: rozmiar dist/: poniżej progu kod 0; od progu ostrzeżenia UWAGA i kod 0; od limitu BŁĄD i kod 1; brak katalogu kod 1 (07-jakosc-008)
+ok 37 - rozmiar dist/: poniżej progu kod 0; od progu ostrzeżenia UWAGA i kod 0; od limitu BŁĄD i kod 1; brak katalogu kod 1 (07-jakosc-008)
+  ---
+  duration_ms: 165.237182
+  type: 'test'
+  ...
+# Subtest: rozmiar dist/: progi domyślne z konfiguracji (800 MB ostrzeżenie, 1 GB limit GitHub Pages, jednostki dziesiętne) (07-jakosc-008)
+ok 38 - rozmiar dist/: progi domyślne z konfiguracji (800 MB ostrzeżenie, 1 GB limit GitHub Pages, jednostki dziesiętne) (07-jakosc-008)
+  ---
+  duration_ms: 0.904665
+  type: 'test'
+  ...
+# Subtest: znaczniki [T:ID] w kolejności, bez zmian
+ok 39 - znaczniki [T:ID] w kolejności, bez zmian
+  ---
+  duration_ms: 26.747677
+  type: 'test'
+  ...
+# Subtest: liczby: wartości po normalizacji przecinka dziesiętnego, ułamki i znak minus
+ok 40 - liczby: wartości po normalizacji przecinka dziesiętnego, ułamki i znak minus
+  ---
+  duration_ms: 1.208902
+  type: 'test'
+  ...
+# Subtest: liczby: zmieniona wartość, zgubiony minus, separator tysięcy i kropka dziesiętna w języku docelowym są odrzucane
+ok 41 - liczby: zmieniona wartość, zgubiony minus, separator tysięcy i kropka dziesiętna w języku docelowym są odrzucane
+  ---
+  duration_ms: 17.049868
+  type: 'test'
+  ...
+# Subtest: liczby: zakres z półpauzą to nie minus; dodana liczba jest odrzucana
+ok 42 - liczby: zakres z półpauzą to nie minus; dodana liczba jest odrzucana
+  ---
+  duration_ms: 10.34362
+  type: 'test'
+  ...
+# Subtest: symbole jednostek: °F/°C, ml, l, cm, m, %, pH bez zmian
+ok 43 - symbole jednostek: °F/°C, ml, l, cm, m, %, pH bez zmian
+  ---
+  duration_ms: 5.079385
+  type: 'test'
+  ...
+# Subtest: jednostki słowne: minuty, cale, stopy, pint/quart (nazwy słoików US zostają), szklanki
+ok 44 - jednostki słowne: minuty, cale, stopy, pint/quart (nazwy słoików US zostają), szklanki
+  ---
+  duration_ms: 11.708662
+  type: 'test'
+  ...
+# Subtest: half-pint w źródle to 1/2 pint: liczba 1/2 musi być w przekładzie
+ok 45 - half-pint w źródle to 1/2 pint: liczba 1/2 musi być w przekładzie
+  ---
+  duration_ms: 5.425405
+  type: 'test'
+  ...
+# Subtest: nazwy własne (NCHFP, USDA, JarAtlas) bez tłumaczenia
+ok 46 - nazwy własne (NCHFP, USDA, JarAtlas) bez tłumaczenia
+  ---
+  duration_ms: 0.225585
+  type: 'test'
+  ...
+# Subtest: slugi: małe litery ASCII, cyfry i łączniki
+ok 47 - slugi: małe litery ASCII, cyfry i łączniki
+  ---
+  duration_ms: 0.401165
+  type: 'test'
+  ...
+# Subtest: kalibracja na prawdziwych danych: istniejące karty pl przechodzą kontrolę względem en (0 problemów)
+ok 48 - kalibracja na prawdziwych danych: istniejące karty pl przechodzą kontrolę względem en (0 problemów)
+  ---
+  duration_ms: 114.120046
+  type: 'test'
+  ...
+# Subtest: mutacje na prawdziwych danych: każda zmiana jednej liczby, zamiana °F↔°C i usunięcie znacznika w kartach pl są wykrywane
+ok 49 - mutacje na prawdziwych danych: każda zmiana jednej liczby, zamiana °F↔°C i usunięcie znacznika w kartach pl są wykrywane
+  ---
+  duration_ms: 118.540412
+  type: 'test'
+  ...
+# Subtest: przegląd D-043: liczba związana z jednostką i kolejność — zamiany wartości między jednostkami są odrzucane
+ok 50 - przegląd D-043: liczba związana z jednostką i kolejność — zamiany wartości między jednostkami są odrzucane
+  ---
+  duration_ms: 40.701533
+  type: 'test'
+  ...
+# Subtest: przegląd D-043: limit kosztu liczony od najgorszego przypadku (max_tokens), nie tylko od szacunku
+ok 51 - przegląd D-043: limit kosztu liczony od najgorszego przypadku (max_tokens), nie tylko od szacunku
+  ---
+  duration_ms: 8.075089
+  type: 'test'
+  ...
+# Subtest: przegląd D-043: --szacuj z --wznow odrzucone; wyniki tylko z api.anthropic.com; --wyjscie nie w docs/ ani site/
+ok 52 - przegląd D-043: --szacuj z --wznow odrzucone; wyniki tylko z api.anthropic.com; --wyjscie nie w docs/ ani site/
+  ---
+  duration_ms: 4.26339
+  type: 'test'
+  ...
+# Subtest: przegląd D-043: zastosuj nie nadpisuje istniejących (przejrzanych) przekładów bez --nadpisz
+ok 53 - przegląd D-043: zastosuj nie nadpisuje istniejących (przejrzanych) przekładów bez --nadpisz
+  ---
+  duration_ms: 11.649561
+  type: 'test'
+  ...
+# Subtest: segmenty: stałe identyfikatory pól karty
+ok 54 - segmenty: stałe identyfikatory pól karty
+  ---
+  duration_ms: 0.271773
+  type: 'test'
+  ...
+# Subtest: parsujOdpowiedz: przyjmuje zgodne, odrzuca niezgodne z powodem, brakujące oznacza
+ok 55 - parsujOdpowiedz: przyjmuje zgodne, odrzuca niezgodne z powodem, brakujące oznacza
+  ---
+  duration_ms: 1.144614
+  type: 'test'
+  ...
+# Subtest: parsujOdpowiedz: slug z diakrytykiem albo zdublowany w grupie jest odrzucany
+ok 56 - parsujOdpowiedz: slug z diakrytykiem albo zdublowany w grupie jest odrzucany
+  ---
+  duration_ms: 0.396362
+  type: 'test'
+  ...
+# Subtest: odczytajLinie: sukces, ucięcie, odmowa, błąd z maskowaniem klucza
+ok 57 - odczytajLinie: sukces, ucięcie, odmowa, błąd z maskowaniem klucza
+  ---
+  duration_ms: 0.416581
+  type: 'test'
+  ...
+# Subtest: budujZadanieBatcha: model, effort, max_tokens; bez thinking ani temperatury (Opus 5.5 odrzuca)
+ok 58 - budujZadanieBatcha: model, effort, max_tokens; bez thinking ani temperatury (Opus 5.5 odrzuca)
+  ---
+  duration_ms: 0.251053
+  type: 'test'
+  ...
+# Subtest: parsujArgumenty: domyślnie tylko szacunek; płatny przebieg wymaga --wyslij
+ok 59 - parsujArgumenty: domyślnie tylko szacunek; płatny przebieg wymaga --wyslij
+  ---
+  duration_ms: 0.443309
+  type: 'test'
+  ...
+# Subtest: kosztUsd: cennik Batch −50% (Opus 5.5: 4/20 USD za mln, Batch 2/10)
+ok 60 - kosztUsd: cennik Batch −50% (Opus 5.5: 4/20 USD za mln, Batch 2/10)
+  ---
+  duration_ms: 0.077645
+  type: 'test'
+  ...
+# Subtest: main bez klucza: tylko szacunek, zero wywołań sieci, kod 0, plik szacunek.json
+ok 61 - main bez klucza: tylko szacunek, zero wywołań sieci, kod 0, plik szacunek.json
+  ---
+  duration_ms: 1.965239
+  type: 'test'
+  ...
+# Subtest: main z kluczem bez --wyslij: tylko count_tokens (darmowe), żadnego batcha
+ok 62 - main z kluczem bez --wyslij: tylko count_tokens (darmowe), żadnego batcha
+  ---
+  duration_ms: 2.941972
+  type: 'test'
+  ...
+# Subtest: main: szacunek powyżej limitu zatrzymuje przebieg (kod 3) przed wysłaniem batcha
+ok 63 - main: szacunek powyżej limitu zatrzymuje przebieg (kod 3) przed wysłaniem batcha
+  ---
+  duration_ms: 2.572721
+  type: 'test'
+  ...
+# Subtest: main --wyslij bez klucza: kod 2, nic nie wysłano
+ok 64 - main --wyslij bez klucza: kod 2, nic nie wysłano
+  ---
+  duration_ms: 1.545212
+  type: 'test'
+  ...
+# Subtest: main --wyslij z atrapą: batch, raport z propozycjami; klucz nie trafia do raportu ani logu
+ok 65 - main --wyslij z atrapą: batch, raport z propozycjami; klucz nie trafia do raportu ani logu
+  ---
+  duration_ms: 3.00904
+  type: 'test'
+  ...
+# Subtest: main --wznow: tylko odbiór wyników istniejącego batcha, bez szacunku i bez nowego batcha
+ok 66 - main --wznow: tylko odbiór wyników istniejącego batcha, bez szacunku i bez nowego batcha
+  ---
+  duration_ms: 2.368936
+  type: 'test'
+  ...
+# Subtest: main: batch w toku po czasie oczekiwania → kod 4 z poleceniem --wznow
+ok 67 - main: batch w toku po czasie oczekiwania → kod 4 z poleceniem --wznow
+  ---
+  duration_ms: 1.970508
+  type: 'test'
+  ...
+# Subtest: zastosuj: zapisuje przekłady ze statusem „do przeglądu” poza kartami i stroną; publikacja bez zmian
+ok 68 - zastosuj: zapisuje przekłady ze statusem „do przeglądu” poza kartami i stroną; publikacja bez zmian
+  ---
+  duration_ms: 3.852116
+  type: 'test'
+  ...
+# Subtest: zastosuj: karta z odrzuconym zdaniem albo zmienionym źródłem nie jest zapisywana
+ok 69 - zastosuj: karta z odrzuconym zdaniem albo zmienionym źródłem nie jest zapisywana
+  ---
+  duration_ms: 6.998298
+  type: 'test'
+  ...
+# Subtest: bramka: tylko publikowalne warianty i produkty z ≥1 takim wariantem mają strony
+ok 70 - bramka: tylko publikowalne warianty i produkty z ≥1 takim wariantem mają strony
+  ---
+  duration_ms: 3.927127
+  type: 'test'
+  ...
+# Subtest: mapa strony: tylko strony z planu, bez ukrytych, wycofanych, do-researchu i strony wyboru języka
+ok 71 - mapa strony: tylko strony z planu, bez ukrytych, wycofanych, do-researchu i strony wyboru języka
+  ---
+  duration_ms: 2.743676
+  type: 'test'
+  ...
+# Subtest: hreflang: dwukierunkowy, z sobą samym, absolutny, x-default; tylko istniejące wersje
+ok 72 - hreflang: dwukierunkowy, z sobą samym, absolutny, x-default; tylko istniejące wersje
+  ---
+  duration_ms: 1.108939
+  type: 'test'
+  ...
+# Subtest: karta-ostrzeżenie: bez Recipe i bez miejsc reklam, z ostrzeżeniem i uwagą D-027 (c)
+ok 73 - karta-ostrzeżenie: bez Recipe i bez miejsc reklam, z ostrzeżeniem i uwagą D-027 (c)
+  ---
+  duration_ms: 0.436658
+  type: 'test'
+  ...
+# Subtest: Recipe tylko na ok-zrodlo z obrazem; każda strona encji ma uwagę D-027 (c)
+ok 74 - Recipe tylko na ok-zrodlo z obrazem; każda strona encji ma uwagę D-027 (c)
+  ---
+  duration_ms: 0.672319
+  type: 'test'
+  ...
+# Subtest: brak wymaganego ostrzeżenia w treści = błąd budowania
+ok 75 - brak wymaganego ostrzeżenia w treści = błąd budowania
+  ---
+  duration_ms: 0.575287
+  type: 'test'
+  ...
+# Subtest: slugi: format, unikalność, kolizja z prefiksem; pismo niełacińskie dozwolone
+ok 76 - slugi: format, unikalność, kolizja z prefiksem; pismo niełacińskie dozwolone
+  ---
+  duration_ms: 5.086976
+  type: 'test'
+  ...
+# Subtest: brak slugu albo treści w języku = brak strony w tym języku (fale)
+ok 77 - brak slugu albo treści w języku = brak strony w tym języku (fale)
+  ---
+  duration_ms: 0.36315
+  type: 'test'
+  ...
+# Subtest: mapa strony dzieli się powyżej limitu i ma indeks
+ok 78 - mapa strony dzieli się powyżej limitu i ma indeks
+  ---
+  duration_ms: 0.566062
+  type: 'test'
+  ...
+# Subtest: treść escapowana; brak odnośników z parametrem zapytania; brak automatycznego przekierowania
+ok 79 - treść escapowana; brak odnośników z parametrem zapytania; brak automatycznego przekierowania
+  ---
+  duration_ms: 0.902449
+  type: 'test'
+  ...
+# Subtest: brak tekstów interfejsu dla języka ze stronami = błąd
+ok 80 - brak tekstów interfejsu dla języka ze stronami = błąd
+  ---
+  duration_ms: 0.427415
+  type: 'test'
+  ...
+# Subtest: prawdziwy katalog: dziś 0 stron treści, mapa pusta (nic ukrytego nie wycieka)
+ok 81 - prawdziwy katalog: dziś 0 stron treści, mapa pusta (nic ukrytego nie wycieka)
+  ---
+  duration_ms: 15.263394
+  type: 'test'
+  ...
+# Subtest: cardType warning nigdy nie dostaje Recipe, nawet przy ok-zrodlo z obrazem
+ok 82 - cardType warning nigdy nie dostaje Recipe, nawet przy ok-zrodlo z obrazem
+  ---
+  duration_ms: 0.467287
+  type: 'test'
+  ...
+# Subtest: R2 zaślepka w treści albo tekście interfejsu strony = błąd budowania
+ok 83 - R2 zaślepka w treści albo tekście interfejsu strony = błąd budowania
+  ---
+  duration_ms: 1.403325
+  type: 'test'
+  ...
+# Subtest: R2 tryb testowy z zaślepkami nie zgłasza ich (tylko dane [PRZYKŁAD] w testach)
+ok 84 - R2 tryb testowy z zaślepkami nie zgłasza ich (tylko dane [PRZYKŁAD] w testach)
+  ---
+  duration_ms: 0.438552
+  type: 'test'
+  ...
+# Subtest: R3 karta-ostrzeżenie bez ostrzeżenia albo z pustym tekstem = błąd
+ok 85 - R3 karta-ostrzeżenie bez ostrzeżenia albo z pustym tekstem = błąd
+  ---
+  duration_ms: 0.736407
+  type: 'test'
+  ...
+# Subtest: R3 pusta uwaga D-027 (c) w tekstach interfejsu = błąd
+ok 86 - R3 pusta uwaga D-027 (c) w tekstach interfejsu = błąd
+  ---
+  duration_ms: 0.418577
+  type: 'test'
+  ...
+# Subtest: R4 opublikowany adres zniknął bez przekierowania = błąd; z przekierowaniem do istniejącej strony = OK
+ok 87 - R4 opublikowany adres zniknął bez przekierowania = błąd; z przekierowaniem do istniejącej strony = OK
+  ---
+  duration_ms: 1.582865
+  type: 'test'
+  ...
+# Subtest: R5 prywatność: kontrola zasobów obcych łapie adres bez protokołu, srcset, object, embed, @import (07-jakosc-005)
+ok 88 - R5 prywatność: kontrola zasobów obcych łapie adres bez protokołu, srcset, object, embed, @import (07-jakosc-005)
+  ---
+  duration_ms: 2.715002
+  type: 'test'
+  ...
+# Subtest: R5 prywatność: wygenerowany HTML nie ładuje nic spoza domeny (0 skryptów i zasobów stron trzecich)
+ok 89 - R5 prywatność: wygenerowany HTML nie ładuje nic spoza domeny (0 skryptów i zasobów stron trzecich)
+  ---
+  duration_ms: 1.860629
+  type: 'test'
+  ...
+# Subtest: K1 jedno miejsce konfiguracji: process.env i adres domeny tylko w site/konfiguracja.mjs
+ok 90 - K1 jedno miejsce konfiguracji: process.env i adres domeny tylko w site/konfiguracja.mjs
+  ---
+  duration_ms: 0.771179
+  type: 'test'
+  ...
+# Subtest: R1 bramka zamknięta domyślnie: brak albo nieznany safetyStatus = brak strony
+ok 91 - R1 bramka zamknięta domyślnie: brak albo nieznany safetyStatus = brak strony
+  ---
+  duration_ms: 1.084262
+  type: 'test'
+  ...
+# Subtest: R1 bramka: poza zakresem, bez treści albo ryzyko bez karty-ostrzeżenia = brak strony (07-jakosc-001)
+ok 92 - R1 bramka: poza zakresem, bez treści albo ryzyko bez karty-ostrzeżenia = brak strony (07-jakosc-001)
+  ---
+  duration_ms: 1.677451
+  type: 'test'
+  ...
+# Subtest: R8 kolizja adresów: dwa warianty produktu z tym samym slugiem = błąd planu i błąd slugów (07-jakosc-002)
+ok 93 - R8 kolizja adresów: dwa warianty produktu z tym samym slugiem = błąd planu i błąd slugów (07-jakosc-002)
+  ---
+  duration_ms: 0.290557
+  type: 'test'
+  ...
+# Subtest: slugi niełacińskie: lista dozwolonych (małe litery, cyfry, znaki łączące, łączniki) (07-jakosc-003)
+ok 94 - slugi niełacińskie: lista dozwolonych (małe litery, cyfry, znaki łączące, łączniki) (07-jakosc-003)
+  ---
+  duration_ms: 1.509613
+  type: 'test'
+  ...
+# Subtest: slugi niełacińskie: znaki niewidoczne (Default_Ignorable_Code_Point) odrzucone, także między literami (obserwacja przeglądu D-043 07-jakosc-003)
+ok 95 - slugi niełacińskie: znaki niewidoczne (Default_Ignorable_Code_Point) odrzucone, także między literami (obserwacja przeglądu D-043 07-jakosc-003)
+  ---
+  duration_ms: 0.276222
+  type: 'test'
+  ...
+# Subtest: ostrzeżenia przed treścią: sekcja ostrzeżeń przed wstępem i przed krokami (ADR 0005, 07-jakosc-006)
+ok 96 - ostrzeżenia przed treścią: sekcja ostrzeżeń przed wstępem i przed krokami (ADR 0005, 07-jakosc-006)
+  ---
+  duration_ms: 0.611617
+  type: 'test'
+  ...
+# Subtest: R2 zaślepki w wygenerowanych plikach: katalog, nazwy języków, rodziny, [ZAŁOŻENIE] i [DO DECYZJI] = błąd (07-jakosc-004)
+ok 97 - R2 zaślepki w wygenerowanych plikach: katalog, nazwy języków, rodziny, [ZAŁOŻENIE] i [DO DECYZJI] = błąd (07-jakosc-004)
+  ---
+  duration_ms: 5.10035
+  type: 'test'
+  ...
+# Subtest: build.test.mjs: po przebiegu 0 katalogów w TMPDIR
+ok 98 - build.test.mjs: po przebiegu 0 katalogów w TMPDIR
+  ---
+  duration_ms: 322.982359
+  type: 'test'
+  ...
+# Subtest: przeklad.test.mjs: po przebiegu 0 katalogów w TMPDIR
+ok 99 - przeklad.test.mjs: po przebiegu 0 katalogów w TMPDIR
+  ---
+  duration_ms: 479.847753
+  type: 'test'
+  ...
+# Subtest: kontrola-wszystko.test.mjs: po przebiegu 0 katalogów w TMPDIR
+ok 100 - kontrola-wszystko.test.mjs: po przebiegu 0 katalogów w TMPDIR
+  ---
+  duration_ms: 274.78704
+  type: 'test'
+  ...
+1..100
+# tests 100
+# suites 0
+# pass 100
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1537.631938
