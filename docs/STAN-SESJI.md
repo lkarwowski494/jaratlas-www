@@ -1,24 +1,24 @@
 # Stan pracy JarAtlas
 
-Aktualizacja: 2026-11-02, noc (sesja session_01T66VBwaWEG6L2FEx6GaxxH). Historia: `docs/archiwum/` (poprzedni stan: `STAN-SESJI-2026-11-02-karty-p4.md`).
+Aktualizacja: 2026-11-02, noc (sesja session_01T66VBxEZhBXa2ebYMsWBLa). Historia: `docs/archiwum/` (poprzedni stan: `STAN-SESJI-2026-11-02-karty-p5.md`).
 
 ## Rola i etap
-06-tresci · build · partia 5 kart fali 1 (en, pl) + P3 walidatora · **STOP** (przekazanie do koordynatora, tryb nocny). Prompt: tablica, kolekcja `prompty`, `06-tresci-build-d32b4b8`.
+06-tresci · build · partia 6 kart fali 1 (en, pl) + P3-4 walidatora · **STOP** (przekazanie do koordynatora, tryb nocny). Prompt: tablica, kolekcja `prompty`, `06-tresci-build-d32b4b8`.
 
 ## Wynik
-- Partia 5 en+pl (6 kart): tomato-v08 (passata = NCHFP Standard Tomato Sauce), raspberry-blackberry-v08 (dżem malinowy bez pestek, bez dodanej pektyny), sweet-cherry-v08 (kompot z czereśni = całe czereśnie w syropie bardzo lekkim); twierdzenia ACI-228–243, SLO-145–156; slugi en/pl. Łącznie 18 wariantów, 36 kart.
-- Weryfikacja zastępcza D-027: przebieg 1 78 POPARTE, 3 CZĘŚCIOWO (poprawione), 0 NIEPOPARTE/SPRZECZNE; przebieg 2 bez NIEPOPARTE/SPRZECZNE; przegląd zastępczy 44 twierdzeń krytycznych. Raport: `docs/tresci/E3-karty-p5-2026-11-02.md`.
-- Walidator (P3 z przeglądu katalogu 1.0.4, przegląd D-043 w 2 przebiegach): `acidityException.decyzja` wymagane i związane z `WYJATKI_KWAS`; wyjątek bez zastosowania = błąd; pełne źródło szczebla 1; wariant ostrożny: produkt graniczny w kąpieli wodnej bez `acidified` = błąd. Katalog bez zmian (1.0.4).
-- Kontrole: `npm test` 88/88, `check:granice`, `check:catalog`, `check:tresci` (0/0), `build` — kod 0. Karty `publication: ukryta`.
+- Partia 6 en+pl (6 kart): gooseberry-v09 (kompot z agrestu = NCHFP Berries-Whole, na surowo, syrop bardzo lekki), raspberry-blackberry-v14 (kompot jeżynowy, jw.; hot pack dla jeżyn niedopuszczony), zucchini-v05 (słodko-kwaśne pikle z cukinii = NCHFP Bread-and-Butter Zucchini, ocet według ACI-211); twierdzenia ACI-244–258; slugi en/pl (nowe produkty gooseberry/agrest, zucchini/cukinia). Łącznie 21 wariantów, 42 karty.
+- Weryfikacja zastępcza D-027: przebieg 1 75 POPARTE, 1 CZĘŚCIOWO (SZY-026, poprawione), 0 NIEPOPARTE/SPRZECZNE; przebieg 2 3 POPARTE, SZY-026 przeformułowane. Przegląd zastępczy 27 twierdzeń krytycznych. Raport: `docs/tresci/E3-karty-p6-2026-11-02.md`.
+- Walidator P3-4 (zdublowany komunikat low-acid/not-applicable przy produkcie granicznym): zamknięte; przegląd D-043 bez P1/P2 (6480 kombinacji przed/po: 0 przypadków bez błędu), P3-1 poprawione.
+- Kontrole: `npm test` 89/89, `check:granice`, `check:catalog`, `check:tresci` (0/0), `build` — kod 0. Karty `publication: ukryta`.
 
-## Decyzje Claude, do weta (tablica `2026-11-02-jaratlas-06-karty-p5`)
-Zakres partii 5; passata bez opcji octu (jak tomato-v09/v10, ACI-211 nie dotyczy); dżem bez pestek: owoce odmierzane przed przetarciem (SLO-156); test temperatury z tabeli NCHFP dla dżemu; „kompot” tylko w tytule pl; slugi; walidator: produkt graniczny bez `acidified` = błąd.
+## Decyzje Claude, do weta (tablica `2026-11-02-jaratlas-06-karty-p6`)
+Zakres partii 6; agrest tylko na surowo (raw pack); cukinia bez pasteryzacji w niskiej temperaturze; SZY-026 bez „USDA wycofało”; walidator: jeden komunikat zamiast dwóch.
 
 ## Otwarte
-Morele pH do 4,8 (E3-002) — ekspert (D-027 d). Cukry żelujące 2:1/3:1 (źródło; wyszukiwanie 2026-11-02 bez wyniku szczebla 1–3). tomato-v08/v09/v10: opcjonalnie „disease-free… firm fruit” i granica pH 4,6. Konwencja `sha12`. Walidator P3-4 (zdublowany komunikat low-acid). Teksty UI `site/teksty/{en,pl}.json` i tekst D-027 (c) (rola 04).
+Morele pH do 4,8 (E3-002) — ekspert (D-027 d). Cukry żelujące 2:1/3:1 (źródło). tomato-v08/v09/v10: opcjonalnie „disease-free… firm fruit” i granica pH 4,6. Konwencja `sha12` (strony NCHFP dynamiczne). Teksty UI `site/teksty/{en,pl}.json` i tekst D-027 (c) (rola 04). Opcjonalne z E3 p6: źródło Berries-Whole do ACI-067, powiązanie ACI-244 z ACI-068/SLO-055, „Measure or weigh amounts carefully” i sól niejodowana w zucchini-v05, odsyłacz do obsługi kąpieli wodnej (04/05). Strona Clemson (SZY-026) — HTTP 403, cytat do ręcznego potwierdzenia albo usunięcia.
 
 ## Backlog przed pierwszą publikacją
-07-jakosc-004, 005, 008; asercja segmentów `.`/`..` w ścieżkach buildu; niewidoczne znaki w slugach (U+3164, U+034F); sprzątanie katalogów `ja-*` po testach build; zbędna stara reguła cardType przy publikacji (`tools/validate-catalog.mjs`, P2).
+07-jakosc-004, 005, 008; asercja segmentów `.`/`..` w ścieżkach buildu; niewidoczne znaki w slugach (U+3164, U+034F); sprzątanie katalogów `ja-*` po testach build; zbędna stara reguła cardType przy publikacji (`tools/validate-catalog.mjs`, P2). Walidator (obserwacja D-043 p6): produkt niskokwasowy w kąpieli wodnej z acidBasis sugar-acid/fermented daje 0 błędów (dziś 0 takich wariantów; teoretyczne).
 
 ## Następny krok
-Partia 6 en/pl w nowej sesji, decyzje we wpisie `2026-11-02-jaratlas-06-karty-p6`; kandydaci z czystym przepisem NCHFP: kompot z agrestu (gooseberry-v09), kompot jeżynowy (raspberry-blackberry-v14), słodko-kwaśne pikle z cukinii (zucchini-v05, ocet ACI-211). Przekład: po zgodzie właściciela (rola 09).
+Kolejka: 268 wariantów ok-zrodlo bez kart (249 ze źródłem szczebla 1–3 z cytatem, 19 bez cytatu; w kąpieli wodnej 59, z cytatem 40). Partia 7 w nowej sesji według planu koordynatora. Przekład: po zgodzie właściciela (rola 09).

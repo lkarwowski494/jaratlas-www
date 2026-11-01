@@ -3289,7 +3289,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "e6e1d1ee0a4b"
+   "sha": "e62d123e61dc"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -3315,7 +3315,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "84de34666233"
+   "sha": "4bfdbc405cd5"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -3341,7 +3341,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "727ffb23e44e"
+   "sha": "690a7968cdcd"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -3367,7 +3367,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "b0a6cfe75718"
+   "sha": "7795279fa8ed"
   },
   "wielkosc": "kwasowość octu",
   "wartosc": 5,
@@ -3578,15 +3578,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "63bc1ad4f57c"
   },
   "wielkosc": "pH · ACI-026",
   "wartosc": 4.6,
   "jednostka": "pH",
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-027",
@@ -4866,8 +4866,8 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "38d1002c8891"
   },
   "wielkosc": "czas kąpieli wodnej (hot, 1 qt) · ACI-069",
   "wartosc": 15,
@@ -4876,7 +4876,7 @@
   "klaster": "ACI",
   "brzmienieE2": "Całe owoce jagodowe z listy, kąpiel wodna, 0–1000 stóp: hot pack 1 pt i 1 qt 15 min; raw pack 1 pt 15 min, 1 qt 20 min.",
   "weryfikacjaE3": "Czasy zgodne, ale według NCHFP hot pack dotyczy tylko borówek, porzeczek, agrestu i huckleberry; pozostałe owoce z listy tylko raw pack.",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-070",
@@ -5367,8 +5367,8 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "e50dd2837af6"
   },
   "wielkosc": "pH · ACI-086",
   "wartosc": "5.69 - 6.10",
@@ -5377,7 +5377,7 @@
   "klaster": "ACI",
   "brzmienieE2": "Przybliżone pH: Zucchini, cooked — 5,69–6,10 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
   "weryfikacjaE3": "Wartość zgodna, ale pozycja w liście jest wyraźnie oznaczona jako przetworzona lub przygotowana, a lista mówi o stanie naturalnym tylko „unless otherwise designated”; formuła o stanie naturalnym jest tu błędna.",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-087",
@@ -8574,7 +8574,7 @@
  },
  {
   "id": "SZY-026",
-  "twierdzenie": "Wekowanie dyni letniej (cukinia, patison) bez marynowania nie jest (już) zalecane; dawne zalecenia wycofano z powodu niepewności co do czasów obróbki opartych na badaniach.",
+  "twierdzenie": "Wekowanie dyni letniej (cukinia, patison) bez marynowania nie jest (już) zalecane z powodu niepewności co do czasów obróbki opartych na badaniach.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/blog/so-long-summer-squash...see-you-this-winter",
@@ -8609,12 +8609,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "1604c85c759f"
   },
   "klaster": "SZY",
-  "weryfikacjaZastepcza": "2026-11-01",
-  "weryfikacjaE3": "2026-11-02 (partia 6): usunięte „USDA” z twierdzenia — cytaty nie przypisują wycofania USDA; Penn State (ACI-027) pisze o braku czasów USDA."
+  "weryfikacjaZastepcza": "2026-11-02",
+  "weryfikacjaE3": "2026-11-02 (partia 6, 2 przebiegi): bez „USDA” i bez „wycofano” — wycofanie poparte tylko stroną Clemson (HTTP 403 w obu przebiegach); twierdzenie oparte na NCHFP i Oregon State."
  },
  {
   "id": "SZY-027",
@@ -23536,7 +23536,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "a1f7be2a7a5a"
+   "sha": "f1c465e3ab8f"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -23562,7 +23562,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "7c2a1c020e26"
+   "sha": "1c9ed3d510f9"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -23593,7 +23593,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "6782f30f02c9"
+   "sha": "b10305977250"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -25531,7 +25531,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "97aa7d71461e"
+   "sha": "ef0e0d280503"
   },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
@@ -25557,7 +25557,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "97aa7d71461e"
+   "sha": "ef0e0d280503"
   },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
@@ -25619,7 +25619,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "6a8933ab9793"
+   "sha": "e57a109666b0"
   },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
@@ -27260,9 +27260,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "cd00c4168704"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-245",
@@ -27332,9 +27337,14 @@
   "status": "potwierdzone",
   "uproszczenie": "Przeliczenie quartów na litry to rachunek JarAtlas (quart US ≈ 0,946 l), zaokrąglony; ilość mytych naraz owoców nie wpływa na bezpieczeństwo.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "ad5d812e5a84"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-248",
@@ -27362,9 +27372,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "f3a9642fe700"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-249",
@@ -27383,9 +27398,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "9471e5dc207c"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-250",
@@ -27404,9 +27424,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "5cec1e07e412"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-251",
@@ -27425,9 +27450,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "0ef5d29a8fa7"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-252",
@@ -27446,9 +27476,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "b605a1173a24"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-253",
@@ -27539,9 +27574,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "6aac5e030186"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-254",
@@ -27560,9 +27600,14 @@
   "status": "potwierdzone",
   "uproszczenie": "Brzmienie „zalać wodą na 1 cal” to odczytanie JarAtlas zdania „cover … with 1 inch of water and salt”; 1 cal = 2,54 cm (ok. 2,5 cm).",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "c79951f8fd7c"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-255",
@@ -27590,9 +27635,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "17f11f1d7f49"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-256",
@@ -27611,9 +27661,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "a085fb8181dd"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-257",
@@ -27632,9 +27687,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "d330dec9045c"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-258",
@@ -27653,8 +27713,13 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "d58e7b014cf8"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  }
 ]
