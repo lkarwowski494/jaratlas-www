@@ -79,7 +79,7 @@ test('brak wymaganego ostrzeżenia w treści = błąd budowania', () => {
 });
 
 test('slugi: format, unikalność, kolizja z prefiksem; pismo niełacińskie dozwolone', () => {
-  assert.deepEqual(sprawdzSlugi(slugi()), []);
+  assert.deepEqual(sprawdzSlugi(slugi(), katalog()), []);
   const b = sprawdzSlugi({ pl: { rodziny: { _prefiks: 'jablko' }, produkty: { a: 'jablko', b: 'Jabłko', c: 'x', d: 'x' }, warianty: {} } });
   assert.ok(b.some((x) => /zły slug b/.test(x)));
   assert.ok(b.some((x) => /powtórzone slugi produktów: x/.test(x)));
@@ -210,4 +210,16 @@ test('R1 bramka: poza zakresem, bez treści albo ryzyko bez karty-ostrzeżenia =
       assert.ok(!ma(k, 'beans-v01'), `${status} cardType=${cardType}`);
     }
   }
+});
+
+test('R8 kolizja adresów: dwa warianty produktu z tym samym slugiem = błąd planu i błąd slugów (07-jakosc-002)', () => {
+  const k = katalog(); k.variants.push({ id: 'apple-v05', productId: 'apple', safetyStatus: 'ok-zrodlo', ...pub });
+  const s = slugi(); s.pl.warianty['apple-v05'] = 'mus';
+  const t = tresci(); t.pl.warianty['apple-v05'] = karta('Mus drugi');
+  // Komunikat planu sprawdzany dokładnie: błąd slugów sam nie może zastąpić kontroli kolizji ścieżek.
+  assert.ok(planStron(k, s, t).bledy.includes('kolizja adresów: /pl/jablko/mus/'));
+  assert.ok(sprawdzSlugi(s, k).some((b) => b === 'pl: powtórzone slugi wariantów produktu apple: mus (site/slugi/pl.json)'));
+  // Ten sam slug wariantu w różnych produktach to inne adresy: dozwolony.
+  const s2 = slugi(); s2.pl.warianty['beans-v01'] = 'mus';
+  assert.deepEqual(sprawdzSlugi(s2, katalog()), []);
 });

@@ -13,8 +13,10 @@ export function wariantPublikowalny(v) {
 }
 
 // slugi: { [lang]: { rodziny: {_prefiks, id: slug}, produkty: {id: slug}, warianty: {id: slug} } }
-export function sprawdzSlugi(slugi) {
+// katalog: do grupowania slugów wariantów po produkcie (R8); wariant spoza katalogu trafia do jednej grupy „?” (ostrzej, nie pomija).
+export function sprawdzSlugi(slugi, katalog) {
   const bledy = [];
+  const produktWariantu = new Map((katalog?.variants ?? []).map((v) => [v.id, v.productId]));
   for (const [lang, s] of Object.entries(slugi)) {
     if (!JEZYKI.includes(lang)) { bledy.push(`${lang}: język spoza listy 35`); continue; }
     const wzor = PISMA_NIELACINSKIE.includes(lang) ? SLUG_INNY : SLUG_LACINSKI;
@@ -26,13 +28,24 @@ export function sprawdzSlugi(slugi) {
     if (s.rodziny?._prefiks && prod.includes(s.rodziny._prefiks)) bledy.push(`${lang}: slug produktu koliduje z prefiksem rodzin "${s.rodziny._prefiks}"`);
     const rodz = Object.entries(s.rodziny ?? {}).filter(([k]) => k !== '_prefiks').map(([, x]) => x);
     if (rodz.some((x, i) => rodz.indexOf(x) !== i)) bledy.push(`${lang}: powtórzone slugi rodzin`);
+    // R8: dwa warianty jednego produktu z tym samym slugiem = jeden adres, druga karta znika.
+    const wProd = new Map();
+    for (const [id, slug] of Object.entries(s.warianty ?? {})) {
+      const p = produktWariantu.get(id) ?? '?';
+      if (!wProd.has(p)) wProd.set(p, []);
+      wProd.get(p).push(slug);
+    }
+    for (const [p, w] of wProd) {
+      const d = [...new Set(w.filter((x, i) => w.indexOf(x) !== i))];
+      if (d.length) bledy.push(`${lang}: powtórzone slugi wariantów produktu ${p}: ${d.join(', ')} (site/slugi/${lang}.json)`);
+    }
   }
   return bledy;
 }
 
 // tresci: { [lang]: { warianty: {id: {...}}, rodziny: {id: {...}} } }
 export function planStron(katalog, slugi, tresci) {
-  const bledy = sprawdzSlugi(slugi);
+  const bledy = sprawdzSlugi(slugi, katalog);
   const strony = [];
   const wariantyProduktu = new Map();
   for (const lang of Object.keys(slugi)) {
