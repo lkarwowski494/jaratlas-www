@@ -60,6 +60,7 @@ test('produkt graniczny bez zakwaszenia tylko z jawnym wyjątkiem z listy w wali
     ['status do-researchu', { safetyStatus: 'do-researchu' }],
     ['status nie-publikowac', { safetyStatus: 'nie-publikowac', cardType: 'warning' }],
     ['przepis tylko szczebla 3', { sources: [{ ...recipe, szczebel: 3 }] }],
+    ['pusty wpis szczebla 1 obok pełnego źródła szczebla 3 (P3-2 drugiego przeglądu D-043)', { sources: [{ szczebel: 1 }, { ...recipe, szczebel: 3 }] }],
     ['inne ostrzeżenie niż na liście', { acidityException: { warning: 'T-1', decyzja: '2026-11-02-jaratlas-06-katalog-p4' }, requiredWarnings: ['T-1'] }],
   ]) assert.ok(has(errs(kat(zm), r), /apricot-v08.*graniczn/), opis);
   // Pomidor z tym samym wyjątkiem i ostrzeżeniem moreli: nadal błąd (przegląd D-043, 2026-11-02).
@@ -82,6 +83,7 @@ test('acidityException: wymagana decyzja (ID wpisu tablicy) i błąd, gdy wyjąt
     ['decyzja nie jest tekstem', { acidityException: { warning: 'E3-002', decyzja: 20261102 } }],
     ['decyzja jako tablica (po rzutowaniu pasowałaby do wzorca)', { acidityException: { warning: 'E3-002', decyzja: ['2026-11-02-jaratlas-06-katalog-p4'] } }],
     ['sama data', { acidityException: { warning: 'E3-002', decyzja: '2026-11-02' } }],
+    ['data z samym myślnikiem', { acidityException: { warning: 'E3-002', decyzja: '2026-11-02-' } }],
     ['wyjątek jako pusty tekst', { acidityException: '' }],
     ['tekst przed datą', { acidityException: { warning: 'E3-002', decyzja: 'x2026-11-02-jaratlas-06-katalog-p4' } }],
     ['spacja na końcu', { acidityException: { warning: 'E3-002', decyzja: '2026-11-02-jaratlas-06-katalog-p4 ' } }],

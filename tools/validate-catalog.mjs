@@ -74,11 +74,11 @@ export function validateCatalog(cat, rejestr = []) {
     if (v.preservationMethod === 'water-bath') {
       if (v.acidBasis === 'low-acid' || v.acidBasis === 'not-applicable') errors.push(`${g}: wariant niskokwasowy z metodą water-bath`);
       // Wyjątek (06, 2026-11-02, morele): przetestowany przepis szczebla 1 bez dodatku kwasu przy produkcie granicznym tylko z listy
-      // WYJATKI_KWAS (produkt → ostrzeżenie), z ostrzeżeniem wymaganym na karcie. Dlaczego lista w kodzie: reguła chroni przed
+      // WYJATKI_KWAS (produkt → ostrzeżenie i decyzja), z ostrzeżeniem wymaganym na karcie. Dlaczego lista w kodzie: reguła chroni przed
       // niezakwaszonymi pomidorami; nowy wyjątek wymaga zmiany kodu, testu i przeglądu D-043, nie tylko danych (przegląd D-043, 2026-11-02).
       const wyj = v.acidityException;
       const wzor = WYJATKI_KWAS[v.productId];
-      const wyjOk = wyj?.warning && wzor?.warning === wyj.warning && wzor.decyzja === wyj.decyzja && v.safetyStatus === 'ok-zrodlo' && (v.requiredWarnings ?? []).includes(wyj.warning) && (v.sources ?? []).some((z) => z.szczebel === 1);
+      const wyjOk = wyj?.warning && wzor?.warning === wyj.warning && wzor.decyzja === wyj.decyzja && v.safetyStatus === 'ok-zrodlo' && (v.requiredWarnings ?? []).includes(wyj.warning) && (v.sources ?? []).some((z) => z.szczebel === 1 && z.adres && (z.cytat || z.miejsce) && /^\d{4}-\d\d-\d\d$/.test(z.odczyt ?? ''));
       // Wariant ostrożny (P3-4 przeglądu D-043, 2026-11-02): każdy acidBasis inny niż acidified, nie tylko natural-acid.
       if (p?.acidity === 'borderline' && v.acidBasis !== 'acidified' && !(v.acidBasis === 'natural-acid' && wyjOk)) errors.push(`${g}: produkt graniczny w water-bath wymaga zakwaszenia (acidBasis acidified) albo wyjątku acidityException z listy WYJATKI_KWAS (acidBasis natural-acid, ok-zrodlo, przepis szczebla 1, ostrzeżenie w requiredWarnings, decyzja z listy)`);
     }
