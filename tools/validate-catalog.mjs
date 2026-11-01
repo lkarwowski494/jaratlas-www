@@ -12,6 +12,9 @@ export const ACIDITY = ['acid', 'low-acid', 'borderline'];
 export const ACID_BASIS = ['natural-acid', 'acidified', 'fermented', 'sugar-acid', 'low-acid', 'not-applicable'];
 export const SCOPE = ['in', 'out-of-scope', 'bridge'];
 
+// Produkt graniczny → twierdzenie ostrzeżenia, z którym przepis szczebla 1 bez zakwaszenia może być w kąpieli wodnej (decyzja 2026-11-02-jaratlas-06-katalog-p4).
+export const WYJATKI_KWAS = Object.freeze({ apricot: 'E3-002' });
+
 export function validateCatalog(cat, rejestr = []) {
   const errors = [], warnings = [];
   const claims = new Map(rejestr.map((t) => [t.id, t]));
@@ -70,10 +73,11 @@ export function validateCatalog(cat, rejestr = []) {
     if (p?.acidity === 'low-acid' && v.acidBasis === 'natural-acid') errors.push(`${g}: produkt niskokwasowy nie może mieć acidBasis natural-acid`);
     if (v.preservationMethod === 'water-bath') {
       if (v.acidBasis === 'low-acid' || v.acidBasis === 'not-applicable') errors.push(`${g}: wariant niskokwasowy z metodą water-bath`);
-      // Wyjątek (06, 2026-11-02, morele): przetestowany przepis szczebla 1 bez dodatku kwasu przy produkcie granicznym tylko jawnie,
-      // z ostrzeżeniem wymaganym na karcie; dlaczego wąsko: reguła chroni przed niezakwaszonymi pomidorami i nie może się rozmyć.
+      // Wyjątek (06, 2026-11-02, morele): przetestowany przepis szczebla 1 bez dodatku kwasu przy produkcie granicznym tylko z listy
+      // WYJATKI_KWAS (produkt → ostrzeżenie), z ostrzeżeniem wymaganym na karcie. Dlaczego lista w kodzie: reguła chroni przed
+      // niezakwaszonymi pomidorami; nowy wyjątek wymaga zmiany kodu, testu i przeglądu D-043, nie tylko danych (przegląd D-043, 2026-11-02).
       const wyj = v.acidityException;
-      const wyjOk = wyj?.warning && v.safetyStatus === 'ok-zrodlo' && (v.requiredWarnings ?? []).includes(wyj.warning) && (v.sources ?? []).some((z) => z.szczebel === 1);
+      const wyjOk = wyj?.warning && WYJATKI_KWAS[v.productId] === wyj.warning && v.safetyStatus === 'ok-zrodlo' && (v.requiredWarnings ?? []).includes(wyj.warning) && (v.sources ?? []).some((z) => z.szczebel === 1);
       if (p?.acidity === 'borderline' && v.acidBasis === 'natural-acid' && !wyjOk) errors.push(`${g}: produkt graniczny w water-bath wymaga zakwaszenia (acidBasis acidified) albo wyjątku acidityException (ok-zrodlo, przepis szczebla 1, ostrzeżenie w requiredWarnings)`);
     }
     for (const id of v.claims ?? []) claimOk(id, g);

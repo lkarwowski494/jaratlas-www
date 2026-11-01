@@ -46,18 +46,25 @@ test('produkt graniczny (np. pomidor) w kąpieli wodnej wymaga zakwaszenia', () 
   assert.ok(has(errs(c), /tomato-v01.*graniczn/));
 });
 
-test('produkt graniczny bez zakwaszenia tylko z jawnym wyjątkiem: ok-zrodlo, przepis szczebla 1 i wymagane ostrzeżenie (06, 2026-11-02, morele)', () => {
-  const v = () => ({ id: 'tomato-v02', productId: 'tomato', processFamilyId: 'canned-foods', preservationMethod: 'water-bath', acidBasis: 'natural-acid', safetyStatus: 'ok-zrodlo', claims: ['T-1'], sources: [recipe], publication: 'ukryta', scope: 'in', acidityException: { warning: 'T-1' }, requiredWarnings: ['T-1'] });
-  const ok = base(); ok.variants.push(v());
-  assert.deepEqual(errs(ok), []);
-  const bezOstrz = base(); bezOstrz.variants.push({ ...v(), requiredWarnings: [] });
-  assert.ok(has(errs(bezOstrz), /tomato-v02.*graniczn/));
-  const status = base(); status.variants.push({ ...v(), safetyStatus: 'do-researchu' });
-  assert.ok(has(errs(status), /tomato-v02.*graniczn/));
-  const szczebel = base(); szczebel.variants.push({ ...v(), sources: [{ ...recipe, szczebel: 3 }] });
-  assert.ok(has(errs(szczebel), /tomato-v02.*graniczn/));
-  const nieznane = base(); nieznane.variants.push({ ...v(), acidityException: { warning: 'T-9' }, requiredWarnings: ['T-9'] });
-  assert.ok(has(errs(nieznane), /tomato-v02.*T-9/));
+test('produkt graniczny bez zakwaszenia tylko z jawnym wyjątkiem z listy w walidatorze (morele, E3-002), ok-zrodlo, przepis szczebla 1 i wymagane ostrzeżenie (06, 2026-11-02)', () => {
+  const r = [claim('T-1'), claim('E3-002')];
+  const kat = (zm = {}) => {
+    const c = base(); c.products.push({ id: 'apricot', acidity: 'borderline', acidityClaim: 'T-1' });
+    c.variants.push({ id: 'apricot-v08', productId: 'apricot', processFamilyId: 'canned-foods', preservationMethod: 'water-bath', acidBasis: 'natural-acid', safetyStatus: 'ok-zrodlo', claims: ['T-1'], sources: [recipe], publication: 'ukryta', scope: 'in', acidityException: { warning: 'E3-002' }, requiredWarnings: ['E3-002'], ...zm });
+    return c;
+  };
+  assert.deepEqual(errs(kat(), r), []);
+  for (const [opis, zm] of [
+    ['bez pola acidityException', { acidityException: undefined }],
+    ['bez ostrzeżenia w requiredWarnings', { requiredWarnings: [] }],
+    ['status do-researchu', { safetyStatus: 'do-researchu' }],
+    ['status nie-publikowac', { safetyStatus: 'nie-publikowac', cardType: 'warning' }],
+    ['przepis tylko szczebla 3', { sources: [{ ...recipe, szczebel: 3 }] }],
+    ['inne ostrzeżenie niż na liście', { acidityException: { warning: 'T-1' }, requiredWarnings: ['T-1'] }],
+  ]) assert.ok(has(errs(kat(zm), r), /apricot-v08.*graniczn/), opis);
+  // Pomidor z tym samym wyjątkiem i ostrzeżeniem moreli: nadal błąd (przegląd D-043, 2026-11-02).
+  const c = base(); c.variants.push({ id: 'tomato-v02', productId: 'tomato', processFamilyId: 'canned-foods', preservationMethod: 'water-bath', acidBasis: 'natural-acid', safetyStatus: 'ok-zrodlo', claims: ['T-1'], sources: [recipe], publication: 'ukryta', scope: 'in', acidityException: { warning: 'E3-002' }, requiredWarnings: ['E3-002'] });
+  assert.ok(has(errs(c, r), /tomato-v02.*graniczn/));
 });
 
 test('ok-zrodlo bez źródła to błąd', () => {
