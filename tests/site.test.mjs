@@ -241,3 +241,29 @@ test('ostrzeżenia przed treścią: sekcja ostrzeżeń przed wstępem i przed kr
     assert.ok(ostrz < wstep && ostrz < kroki, p);
   }
 });
+
+// 07-jakosc-004 (sondy S4, S5 audytu 07): kontrola zaślepek na gotowych plikach łapie każde źródło tekstu (katalog, nazwy języków, rodziny).
+const czyste = (x) => JSON.parse(JSON.stringify(x).replaceAll('[PRZYKŁAD]', '').replaceAll('[DO USTALENIA]', 'U'));
+const daneCzyste = (zm = {}) => ({ ...czyste({ katalog: katalog(), slugi: slugi(), tresci: tresci(), ui: { pl: uiL, en: uiL } }), dozwolZaslepki: false, ...zm });
+test('R2 zaślepki w wygenerowanych plikach: katalog, nazwy języków, rodziny, [ZAŁOŻENIE] i [DO DECYZJI] = błąd (07-jakosc-004)', () => {
+  // Kontrola pozytywna: dane bez znaczników dają 0 błędów, więc każdy błąd niżej pochodzi z wstrzykniętego znacznika.
+  assert.deepEqual(generuj(daneCzyste()).bledy, []);
+  const blad = (zm, plik, znacznik) => {
+    const b = generuj(daneCzyste(zm)).bledy;
+    assert.ok(b.includes(`${plik}: zaślepka „${znacznik}” w wygenerowanym pliku`), `${plik} ${znacznik}\n${b.join('\n')}`);
+  };
+  const k1 = czyste(katalog()); k1.variants[0].sources[0].miejsce = '[DO USTALENIA]';
+  blad({ katalog: k1 }, 'pl/jablko/mus/index.html', '[DO USTALENIA]');
+  const k2 = czyste(katalog()); k2.products[0].name = { pl: '[PRZYKŁAD] Ogórek' };
+  blad({ katalog: k2 }, 'pl/jablko/index.html', '[PRZYKŁAD]');
+  blad({ nazwyJezykow: { pl: 'Polski [DO USTALENIA]' } }, 'index.html', '[DO USTALENIA]');
+  for (const z of ['[ZAŁOŻENIE]', '[DO DECYZJI]']) {
+    const t = czyste(tresci()); t.en.warianty['apple-v01'].wstep = `w ${z}`;
+    blad({ tresci: t }, 'en/apple/sauce/index.html', z);
+  }
+  const t2 = czyste(tresci()); t2.pl.rodziny['canned-foods'].tytul = 'Wekowanie TODO';
+  blad({ tresci: t2 }, 'pl/procesy/wekowanie/index.html', 'TODO');
+  // Hiszpańskie i portugalskie „todo” (wszystko) to słowo, nie znacznik: wielkość liter ma znaczenie.
+  const t3 = czyste(tresci()); t3.en.warianty['apple-v01'].wstep = 'todo el año';
+  assert.deepEqual(generuj(daneCzyste({ tresci: t3 })).bledy, []);
+});

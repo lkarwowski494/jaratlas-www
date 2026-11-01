@@ -11,5 +11,6 @@ export const DOMENA = process.env.JARATLAS_DOMENA || 'https://jaratlas.com';
 export const LIMIT_ADRESOW_MAPY = 50000;
 export const katalogJezyka = (kod) => kod.toLowerCase(); // /pt-br/, /zh-hant/; hreflang zachowuje kod
 // Znaczniki zaślepek: strona z nimi nie powstaje (ścieżka ryzyka R2, docs/architektura/ryzyka.md).
-// Źródło: konwencje projektu ([PRZYKŁAD] — testy, [DO USTALENIA] — zasada 3 biblioteki); TODO/lorem — typowe zaślepki.
-export const ZNACZNIKI_ZASLEPEK = [/\[PRZYKŁAD\]/, /\[DO USTALENIA\]/, /\bTODO\b/, /lorem ipsum/i];
+// Źródło: konwencje projektu ([PRZYKŁAD] — testy, [DO USTALENIA] — zasada 3 biblioteki, [ZAŁOŻENIE], [DO DECYZJI] — dokumenty ról); TODO/lorem — typowe zaślepki.
+// TODO z wielkością liter: hiszpańskie i portugalskie „todo” to zwykłe słowo (07-jakosc-004).
+export const ZNACZNIKI_ZASLEPEK = [/\[PRZYKŁAD\]/, /\[DO USTALENIA\]/, /\[ZAŁOŻENIE\]/, /\[DO DECYZJI\]/, /\bTODO\b/, /lorem ipsum/i];

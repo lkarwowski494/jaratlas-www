@@ -2,7 +2,7 @@
 import { planStron } from './plan.mjs';
 import { mapyStrony } from './mapa.mjs';
 import { DOMENA } from './konfiguracja.mjs';
-import { kontrolaZaslepek, kontrolaOstrzezen, kontrolaPrzekierowan } from './kontrole.mjs';
+import { kontrolaZaslepek, kontrolaZaslepekPlikow, kontrolaOstrzezen, kontrolaPrzekierowan } from './kontrole.mjs';
 import { stronaWariantu, stronaProduktu, stronaRodziny, stronaWyboruJezyka, okruszki } from './szablony.mjs';
 
 const plikDla = (sciezka) => (sciezka === '/' ? 'index.html' : sciezka.slice(1) + 'index.html');
@@ -38,5 +38,6 @@ export function generuj({ katalog, slugi, tresci, ui, nazwyJezykow = {}, adresy 
   }
   Object.assign(pliki, mapyStrony(strony));
   pliki['robots.txt'] = `User-agent: *\nAllow: /\nSitemap: ${DOMENA}/sitemap.xml\n`;
+  if (!dozwolZaslepki) bledy.push(...kontrolaZaslepekPlikow(pliki));
   return { bledy, pliki, strony, przekierowania };
 }

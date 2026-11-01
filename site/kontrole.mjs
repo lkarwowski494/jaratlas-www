@@ -17,6 +17,14 @@ export function kontrolaZaslepek(strony, tresci, ui) {
   return bledy;
 }
 
+// R2, druga warstwa (07-jakosc-004): zaślepki w gotowych plikach łapią każde źródło tekstu (katalog, nazwy języków, rodziny, szablony).
+// Pierwsza warstwa zostaje, bo wskazuje plik treści, nie tylko stronę.
+export function kontrolaZaslepekPlikow(pliki) {
+  const bledy = [];
+  for (const [plik, tekst] of Object.entries(pliki)) for (const z of znalezione(tekst)) bledy.push(`${plik}: zaślepka „${z}” w wygenerowanym pliku`);
+  return bledy;
+}
+
 // R3: ostrzeżenia i uwaga D-027 (c) nie mogą być puste.
 export function kontrolaOstrzezen(strony, katalog, tresci, ui) {
   const bledy = [], V = new Map(katalog.variants.map((v) => [v.id, v]));
