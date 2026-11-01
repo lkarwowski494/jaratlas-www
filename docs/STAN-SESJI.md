@@ -14,12 +14,14 @@ Aktualizacja: 2026-11-01 (sesja session_01T66VBynJwE9R3enQnFumVg). Historia: `do
 ## Decyzje właściciela (obowiązują)
 `2026-11-01-jaratlas-e3-stop` (zastosowana), `-tlumaczenia-api` (otwarte: kwota, termin, konto, limit, klucz w sekretach), `-szkielet-e0`, przyciski: E2–E4 potem przegląd 07; D-051 budżet kontekstu.
 
+## Decyzje 2026-11-01 (tablica `2026-11-01-jaratlas-e4-decyzje`)
+- Tekst uwagi D-027 (c): przygotuje rola 04.
+- CI: `.github/workflows/kontrole.yml` (zastosowane na gałęzi; na `main` po scaleniu, za zgodą).
+- `CLAUDE.md` ze ścieżkami wrażliwymi: dodany.
+
 ## Decyzje czekające
-1. Hosting i domena (ADR 0007; potrzebny serwerowy 301).
-2. Tekst uwagi D-027 (c) (dziś `[DO USTALENIA]`, build prawdziwej strony padnie na R2: zamierzone).
-3. Treść „ukryta” w publicznym repo (R1b): akceptacja nazwana albo prywatne repo treści.
-4. CI GitHub Actions (wymaga scalenia z `main`).
-5. Sekcja „Ścieżki wrażliwe” w `CLAUDE.md` (repo nie ma `CLAUDE.md`): `site/plan.mjs`, `site/kontrole.mjs`, `site/szablony.mjs`, `site/adresy.json`, `tools/buduj-strone.mjs`, `catalog/catalog-seed.json`.
+1. Hosting i domena (ADR 0007): właściciel zapytał, po co 301 (wyjaśnienie w czacie).
+2. Treść „ukryta” w publicznym repo (R1b): właściciel zapytał, co to za treść (wyjaśnienie w czacie).
 
 ## Następny krok
 Przegląd 07 w świeżym kontekście (gałąź `claude/happy-brown-yncplj`, od `de8b7d2`), potem 06: treść kart fali 1 i slugi `site/slugi/{lang}.json`.

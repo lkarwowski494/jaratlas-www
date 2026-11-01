@@ -1,0 +1,20 @@
+# Kontrole automatyczne strony (docs/architektura/ryzyka.md, lista dla roli 07). Decyzja właściciela 2026-11-01.
+# Koszt: standardowe runnery w repo publicznym są darmowe (docs.github.com, „GitHub Actions billing”, odczyt 2026-11-01).
+name: kontrole
+on:
+  push:
+  pull_request:
+jobs:
+  kontrole:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node -v
+      - run: npm test
+      - run: npm run check:granice
+      - run: npm run check:catalog
+      - run: npm run check:tresci
+      - run: npm run build

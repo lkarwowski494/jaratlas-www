@@ -67,9 +67,9 @@ Symulacja nie zastępuje pomiaru na urządzeniu; liczby to punkt odniesienia dla
 ## 9. Ryzyka, otwarte pytania, decyzje właściciela
 Ścieżki ryzyka i lista kontroli dla 07: `ryzyka.md`. Decyzje czekające:
 1. Hosting i domena (ADR 0007): potrzebny serwerowy 301 (R4).
-2. Tekst uwagi D-027 (c): dziś `[DO USTALENIA]`, więc build pierwszej prawdziwej strony padnie na R2 (zamierzone).
+2. Tekst uwagi D-027 (c): przygotuje rola 04 (decyzja 2026-11-01); do tego czasu build prawdziwej strony padnie na R2 (zamierzone).
 3. Treść „ukryta” w publicznym repo (R1b): akceptacja z nazwą albo osobne prywatne repo treści.
-4. CI na GitHub Actions (`ryzyka.md` pkt 5).
+4. CI: przyjęte 2026-11-01, `.github/workflows/kontrole.yml`.
 5. Reklamy i analityka; adres stron rodzin; obrazy do Recipe; wersja formatu katalogu (06).
 
 ## 10. Definicja ukończenia (build) z dowodami, 2026-11-01
