@@ -14,9 +14,13 @@ NCHFP warns not to reduce the sugar in traditional recipes: too little sugar pre
 
 Sterilize the jars and prepare two-piece lids according to the manufacturer's directions. [T:SLO-111]
 
+NCHFP puts the empty jars right side up on the rack in a boiling-water canner and fills the canner and jars with hot (not boiling) water to 1 inch (about 2.5 cm) above the tops of the jars. [T:SLO-120]
+
 To sterilize empty jars, NCHFP boils them for 10 minutes below 1000 ft, and above that 1 minute longer for each additional thousand feet. [T:SLO-118]
 
 JarAtlas rule for metres: boil the jars for 10 minutes up to 300 m, and add 1 minute for every further 300 m or part of it. [T:SLO-119]
+
+Remove and drain the hot sterilized jars one at a time. [T:SLO-120]
 
 Sort and wash fully ripe cherries, remove the stems and pits, and grind or finely chop the cherries. [T:SLO-111]
 

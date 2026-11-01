@@ -1,0 +1,57 @@
+# Papryka marynowana w occie (NCHFP)
+
+Ta karta opisuje paprykę marynowaną według NCHFP w zalewie z octu, cukru i wody, nakładaną do sterylnych słoików i wekowaną w kąpieli wodnej. [T:ACI-202]
+
+## Dlaczego nie wolno zmieniać przepisu
+
+W całym produkcie musi być minimalny, równomierny poziom kwasu, żeby nie rozwinęły się bakterie jadu kiełbasianego. [T:ACI-017]
+
+Nie zmieniaj proporcji octu, warzyw i wody i nie używaj octu o nieznanej kwasowości; korzystaj tylko z przepisów o przetestowanych proporcjach. [T:ACI-016]
+
+Do pikli zalecany jest biały ocet destylowany i ocet jabłkowy o kwasowości 5%. [T:ACI-018]
+
+## Składniki
+
+NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
+
+Na ok. 9 słoików pint NCHFP podaje 7 funtów (ok. 3,2 kg) jędrnej papryki, 3 1/2 szklanki cukru, 3 szklanki octu o kwasowości 5%, 3 szklanki wody, 9 ząbków czosnku i 4 1/2 łyżeczki soli do konserw i pikli. [T:ACI-202]
+
+## Sterylizacja słoików
+
+NCHFP stawia puste słoiki otworem do góry na kratce w garnku do wekowania i napełnia garnek oraz słoiki gorącą (nie wrzącą) wodą do 1 cala (ok. 2,5 cm) ponad górną krawędź słoików. [T:SLO-120]
+
+Puste słoiki NCHFP sterylizuje, gotując je 10 minut poniżej 1000 stóp, a wyżej o 1 minutę dłużej na każde kolejne tysiąc stóp. [T:SLO-118]
+
+Reguła JarAtlas dla metrów: gotuj słoiki 10 minut do 300 m, a wyżej dodaj 1 minutę za każde kolejne rozpoczęte 300 m. [T:SLO-119]
+
+Gorące, wysterylizowane słoiki wyjmuj i odsączaj pojedynczo. [T:SLO-120]
+
+## Przygotowanie i napełnianie
+
+Paprykę umyj, pokrój na ćwiartki, usuń gniazda i nasiona, wytnij uszkodzone miejsca i pokrój w paski. [T:ACI-203]
+
+Cukier, ocet i wodę gotuj 1 minutę, dodaj paprykę i doprowadź do wrzenia. [T:ACI-203]
+
+Do każdego sterylnego słoika 1/2 pinty włóż 1/2 ząbka czosnku i 1/4 łyżeczki soli, a do słoików pint podwój te ilości. [T:ACI-204]
+
+Dodaj paski papryki i zalej je gorącą zalewą octową, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:ACI-204]
+
+Załóż pokrywki i wekuj. [T:ACI-204]
+
+## Wekowanie
+
+Na wysokości 0–1000 stóp (do 300 m) wekuj słoiki 1/2 pinty i pint w kąpieli wodnej 5 minut. [T:ACI-205,ACI-176]
+
+Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
+
+Na wysokości 1001–6000 stóp (powyżej 300 m do 1800 m) wekuj słoiki 1/2 pinty i pint 10 minut. [T:ACI-206,ACI-176]
+
+Powyżej 6000 stóp (powyżej 1800 m) wekuj słoiki 1/2 pinty i pint 15 minut. [T:ACI-207,ACI-176]
+
+Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, a 6000 stóp to 1800 m. [T:ACI-176]
+
+Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsuciem. [T:ACI-015]
+
+Tabela NCHFP podaje czasy tylko dla słoików 1/2 pinty i pint. [T:ACI-208]
+
+Reguła JarAtlas (NCHFP nie bada słoików metrycznych): pint mieści ok. 473 ml, więc słoik 0,5 l nie ma w tym przepisie przetestowanego czasu; użyj słoików do 473 ml. [T:ACI-179,ACI-174]

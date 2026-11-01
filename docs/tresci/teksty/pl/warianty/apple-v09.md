@@ -1,0 +1,51 @@
+# Mus jabłkowy (NCHFP)
+
+Ta karta opisuje mus jabłkowy według NCHFP, nakładany na gorąco i wekowany w kąpieli wodnej. [T:SLO-092]
+
+## Wybór jabłek
+
+NCHFP utrzymuje swoje przepisy z jabłek, ale zaleca świeże, zdrowe jabłka, a przy wątpliwości co do ich pH przetwory z jabłek trzymaj w lodówce albo zamrażarce zamiast w temperaturze pokojowej. [T:SLO-048]
+
+## Przygotowanie musu
+
+NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
+
+Jabłka umyj, obierz i usuń gniazda nasienne. [T:SLO-121]
+
+Jeśli chcesz, krój je do wody z kwasem askorbinowym, żeby nie ciemniały. [T:SLO-121]
+
+Odsączone plastry włóż do dużego garnka 8–10 quart (ok. 7,5–9,5 l) i dodaj 1/2 szklanki wody. [T:SLO-121]
+
+Podgrzewaj szybko do miękkości, mieszając od czasu do czasu, żeby się nie przypaliły; trwa to 5–20 minut, zależnie od dojrzałości i odmiany jabłek. [T:SLO-121]
+
+Przetrzyj przez sito albo młynek do przecierania albo pomiń ten krok, jeśli wolisz mus z kawałkami. [T:SLO-121]
+
+Mus można nakładać bez cukru albo dodać 1/8 szklanki cukru na quart musu i więcej do smaku. [T:SLO-122]
+
+## Napełnianie słoików
+
+Mus ponownie zagotuj i napełnij słoiki gorącym musem, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:SLO-122]
+
+Załóż pokrywki i wekuj. [T:SLO-122]
+
+## Wekowanie
+
+Na wysokości 0–1000 stóp (do 300 m) wekuj słoiki pint w kąpieli wodnej 15 minut, a quart 20. [T:SLO-123,ACI-176]
+
+Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
+
+Na wysokości 1001–3000 stóp (powyżej 300 m do 900 m) wekuj słoiki pint 20 minut, a quart 25. [T:SLO-124,ACI-176]
+
+Na wysokości 3001–6000 stóp (powyżej 900 m do 1800 m) wekuj słoiki pint 20 minut, a quart 30. [T:SLO-125,ACI-176]
+
+Powyżej 6000 stóp (powyżej 1800 m) wekuj słoiki pint 25 minut, a quart 35. [T:SLO-126,ACI-176]
+
+Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, 3000 stóp to 900 m, a 6000 stóp to 1800 m. [T:ACI-176]
+
+Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsuciem. [T:ACI-015]
+
+Czasy NCHFP dotyczą amerykańskich słoików: pint mieści ok. 473 ml, a quart ok. 946 ml. [T:ACI-174]
+
+Reguła JarAtlas (NCHFP nie bada słoików metrycznych): dla słoika do 473 ml stosuj czas dla pint, a dla większego, do 946 ml, np. 0,5 l albo 0,9 l, czas dla quart. [T:ACI-175]
+
+Ten przepis NCHFP nie podaje czasu dla słoików większych niż quart, np. 1 l, więc użyj mniejszych słoików. [T:ACI-175]

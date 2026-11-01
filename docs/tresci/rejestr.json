@@ -3271,7 +3271,7 @@
  },
  {
   "id": "ACI-015",
-  "twierdzenie": "Żywność kwaśna w kąpieli wodnej może się zepsuć, jeśli powyżej 1000 stóp n.p.m. (ok. 305 m) nie wydłuży się czasu, skróci się czas lub schłodzi słoiki w zimnej wodzie.",
+  "twierdzenie": "Żywność kwaśna w kąpieli wodnej może się zepsuć, jeśli powyżej 1000 stóp n.p.m. nie wydłuży się czasu, skróci się czas lub schłodzi słoiki w zimnej wodzie.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/can/general-information/selecting-the-correct-processing-time/",
@@ -10048,15 +10048,6 @@
     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
     "miejsce": "Storing Home-Canned Jams and Jellies",
     "cytat": "Opened home-canned jams and jellies should be kept in the refrigerator at 40°F or lower.",
-    "odczyt": "2026-11-01",
-    "szczebel": 1,
-    "weryfikacja": "curl+grep",
-    "sha12": "65822aac6a58"
-   },
-   {
-    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
-    "miejsce": "jw.",
-    "cytat": "cooked jams and jellies are best stored for 1 month in the refrigerator after opening.",
     "odczyt": "2026-11-01",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
@@ -24571,5 +24562,776 @@
   "przeglad": null,
   "wazne_do": "2027-11-01",
   "klaster": "FRZ"
+ },
+ {
+  "id": "SLO-120",
+  "twierdzenie": "NCHFP sterylizacja pustych słoików: postawić słoiki otworem do góry na kratce w garnku do wekowania w kąpieli wodnej, napełnić garnek i słoiki gorącą (nie wrzącą) wodą do 1 cala (ok. 2,5 cm) ponad górną krawędź słoików; po gotowaniu wyjmować i odsączać gorące słoiki pojedynczo.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/sterilization-of-empty-jars/",
+    "miejsce": "Sterilization of Empty Jars",
+    "cytat": "To sterilize empty jars, put them right side up on the rack in a boiling-water canner. Fill the canner and jars with hot (not boiling) water to 1 inch above the tops of the jars.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "01f83c57b818"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/sterilization-of-empty-jars/",
+    "miejsce": "Sterilization of Empty Jars",
+    "cytat": "Remove and drain hot sterilized jars one at a time.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "01f83c57b818"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Rachunek: 1 cal = 2,54 cm, w treści „ok. 2,5 cm”; poziom wody to minimum („do 1 cala ponad”), więcej wody nie szkodzi.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "ACI-196",
+  "twierdzenie": "NCHFP pomidory całe lub połówki w soku: pomidory umyć, zanurzyć we wrzącej wodzie na 30–60 sekund, aż skórka pęknie, potem w zimnej wodzie; zdjąć skórkę, usunąć twarde gniazdo przy szypułce, zostawić całe albo przekroić na pół; do słoików dodać butelkowany sok z cytryny albo kwas cytrynowy; sól opcjonalnie, 1 łyżeczka na słoik quart.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-in-tomato-juice/",
+    "miejsce": "Whole or Halved Tomatoes (packed in tomato juice), Procedure",
+    "cytat": "Wash tomatoes. Dip in boiling water for 30 to 60 seconds or until skins split, then dip in cold water. Slip off skins and remove cores. Leave whole or halve.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da267fbdd201"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-in-tomato-juice/",
+    "miejsce": "Whole or Halved Tomatoes (packed in tomato juice), Procedure",
+    "cytat": "Add bottled lemon juice or citric acid to the jars (See acidification instructions ). Add 1 teaspoon of salt per quart to the jars, if desired.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da267fbdd201"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-197",
+  "twierdzenie": "NCHFP pomidory w soku, na surowo (raw pack): podgrzać sok pomidorowy w garnku; napełnić słoiki surowymi pomidorami, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, i zalać je gorącym sokiem pomidorowym, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-in-tomato-juice/",
+    "miejsce": "Whole or Halved Tomatoes (packed in tomato juice), Raw pack",
+    "cytat": "Raw pack – Heat tomato juice in a saucepan. Fill jars with raw tomatoes, leaving ½-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da267fbdd201"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-in-tomato-juice/",
+    "miejsce": "Whole or Halved Tomatoes (packed in tomato juice), Raw pack",
+    "cytat": "Cover tomatoes in the jars with hot tomato juice, leaving ½-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da267fbdd201"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-198",
+  "twierdzenie": "NCHFP pomidory w soku, na gorąco (hot pack): pomidory włożyć do dużego garnka, zalać sokiem pomidorowym tak, żeby były całkiem przykryte, i gotować łagodnie 5 minut; napełnić słoiki gorącymi pomidorami, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, dolać gorącego soku do przykrycia pomidorów, zostawiając 1/2 cala (ok. 1,3 cm); założyć pokrywki i wekować.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-in-tomato-juice/",
+    "miejsce": "Whole or Halved Tomatoes (packed in tomato juice), Hot pack",
+    "cytat": "Hot pack – Put tomatoes in a large saucepan and add enough tomato juice to completely cover them. Boil tomatoes and juice gently for 5 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da267fbdd201"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-in-tomato-juice/",
+    "miejsce": "Whole or Halved Tomatoes (packed in tomato juice), Hot pack",
+    "cytat": "Fill jars with hot tomatoes, leaving ½-inch headspace. Add hot tomato juice to the jars to cover the tomatoes, leaving ½-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da267fbdd201"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-in-tomato-juice/",
+    "miejsce": "Whole or Halved Tomatoes (packed in tomato juice), Hot pack",
+    "cytat": "Adjust lids and process according to the recommendations in Table 1",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da267fbdd201"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-199",
+  "twierdzenie": "NCHFP pomidory całe lub połówki w soku, kąpiel wodna, 1001–3000 stóp: 90 minut dla słoików pint i quart (hot i raw pack).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-in-tomato-juice/",
+    "miejsce": "Table 1, kolumna 1,001 - 3,000 ft",
+    "cytat": "Hot & Raw Pints or Quarts 85 min 90 95 100",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da267fbdd201"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-200",
+  "twierdzenie": "NCHFP pomidory całe lub połówki w soku, kąpiel wodna, 3001–6000 stóp: 95 minut dla słoików pint i quart (hot i raw pack).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-in-tomato-juice/",
+    "miejsce": "Table 1, kolumna 3,001 - 6,000 ft",
+    "cytat": "Hot & Raw Pints or Quarts 85 min 90 95 100",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da267fbdd201"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-201",
+  "twierdzenie": "NCHFP pomidory całe lub połówki w soku, kąpiel wodna, powyżej 6000 stóp: 100 minut dla słoików pint i quart (hot i raw pack).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-in-tomato-juice/",
+    "miejsce": "Table 1, kolumna Above 6,000 ft",
+    "cytat": "Hot & Raw Pints or Quarts 85 min 90 95 100",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da267fbdd201"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "SLO-121",
+  "twierdzenie": "NCHFP mus jabłkowy: jabłka umyć, obrać i usunąć gniazda nasienne; opcjonalnie kroić do wody z kwasem askorbinowym, żeby nie ciemniały; odsączone plastry włożyć do garnka 8–10 quart (ok. 7,5–9,5 l) i dodać 1/2 szklanki wody; mieszając od czasu do czasu, żeby nie przypalić, szybko podgrzewać do miękkości (5–20 minut, zależnie od dojrzałości i odmiany); przetrzeć przez sito albo młynek do przecierania albo pominąć przecieranie, jeśli mus ma być z kawałkami.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/applesauce/",
+    "miejsce": "Applesauce, Procedure",
+    "cytat": "Wash, peel, and core apples. If desired, slice apples into water containing ascorbic acid to prevent browning.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e22f25794f24"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/applesauce/",
+    "miejsce": "Applesauce, Procedure",
+    "cytat": "Placed drained slices in an 8- to 10-quart pot. Add ½ cup water.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e22f25794f24"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/applesauce/",
+    "miejsce": "Applesauce, Procedure",
+    "cytat": "Stirring occasionally to prevent burning, heat quickly until tender (5 to 20 minutes, depending on maturity and variety). Press through a sieve or food mill, or skip the pressing step if you prefer chunk-style sauce.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e22f25794f24"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Rachunek: 8 × 0,946 = 7,57 l, 10 × 0,946 = 9,46 l (quart ACI-174), w treści ok. 7,5–9,5 l; wielkość garnka nie wpływa na bezpieczeństwo.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-122",
+  "twierdzenie": "NCHFP mus jabłkowy: mus można pakować bez cukru albo dodać 1/8 szklanki cukru na quart musu i więcej do smaku; mus ponownie doprowadzić do wrzenia, napełnić słoiki gorącym musem, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, założyć pokrywki i wekować (tylko hot pack).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/applesauce/",
+    "miejsce": "Applesauce, Procedure",
+    "cytat": "Sauce may be packed without sugar. If desired, add 1/8 cup sugar per quart of sauce.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e22f25794f24"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/applesauce/",
+    "miejsce": "Applesauce, Procedure",
+    "cytat": "Taste and add more, if preferred. Reheat sauce to boiling.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e22f25794f24"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/applesauce/",
+    "miejsce": "Applesauce, Procedure",
+    "cytat": "Fill jars with hot sauce, leaving ½-inch headspace. Adjust lids and process.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e22f25794f24"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-123",
+  "twierdzenie": "NCHFP mus jabłkowy, kąpiel wodna, hot pack, 0–1000 stóp: słoiki pint 15 minut, quart 20 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/applesauce/",
+    "miejsce": "Table 1, kolumna 0 - 1,000 ft",
+    "cytat": "Hot Pints 15 min 20 20 25 Quarts 20 25 30 35",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e22f25794f24"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-124",
+  "twierdzenie": "NCHFP mus jabłkowy, kąpiel wodna, hot pack, 1001–3000 stóp: słoiki pint 20 minut, quart 25 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/applesauce/",
+    "miejsce": "Table 1, kolumna 1,001 - 3,000 ft",
+    "cytat": "Hot Pints 15 min 20 20 25 Quarts 20 25 30 35",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e22f25794f24"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-125",
+  "twierdzenie": "NCHFP mus jabłkowy, kąpiel wodna, hot pack, 3001–6000 stóp: słoiki pint 20 minut, quart 30 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/applesauce/",
+    "miejsce": "Table 1, kolumna 3,001 - 6,000 ft",
+    "cytat": "Hot Pints 15 min 20 20 25 Quarts 20 25 30 35",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e22f25794f24"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-126",
+  "twierdzenie": "NCHFP mus jabłkowy, kąpiel wodna, hot pack, powyżej 6000 stóp: słoiki pint 25 minut, quart 35 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/applesauce/",
+    "miejsce": "Table 1, kolumna Above 6,000 ft",
+    "cytat": "Hot Pints 15 min 20 20 25 Quarts 20 25 30 35",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e22f25794f24"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-127",
+  "twierdzenie": "NCHFP: naturalne pH niektórych brzoskwiń o białym miąższu może przekraczać 4,6 (żywność niskokwasowa); nie ma dla nich procesu w szybkowarze ani zbadanego zakwaszenia do kąpieli wodnej, a zalecaną metodą ich przechowywania jest mrożenie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "Peaches-Halved or Sliced, CAUTION",
+    "cytat": "The natural pH of some white peaches can exceed 4.6, making them a low-acid food for canning purposes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b48c4f5574ca"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "Peaches-Halved or Sliced, CAUTION",
+    "cytat": "At this time there is no low-acid pressure process available for white-flesh peaches nor a researched acidification procedure for safe boiling water canning. Freezing is the recommended method of preserving white-flesh peaches.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b48c4f5574ca"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-128",
+  "twierdzenie": "NCHFP brzoskwinie: wybierać dojrzałe brzoskwinie o żółtym miąższu; zanurzyć we wrzącej wodzie na 30–60 sekund, aż skórka zacznie odchodzić, szybko zanurzyć w zimnej wodzie i zdjąć skórkę; przekroić na pół, usunąć pestki, opcjonalnie pokroić w plastry; obrane owoce trzymać w roztworze kwasu askorbinowego, żeby nie ciemniały.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "Peaches-Halved or Sliced, Quality i Procedure",
+    "cytat": "Choose ripe, mature yellow-flesh peaches of ideal quality for eating fresh or cooking.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b48c4f5574ca"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "Peaches-Halved or Sliced, Quality i Procedure",
+    "cytat": "Dip fruit in boiling water for 30 to 60 seconds until skins loosen. Dip quickly in cold water and slip off skins.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b48c4f5574ca"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "Peaches-Halved or Sliced, Quality i Procedure",
+    "cytat": "Cut in half, remove pits and slice if desired. To prevent darkening, keep peeled fruit in ascorbic acid solution .",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b48c4f5574ca"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-129",
+  "twierdzenie": "NCHFP brzoskwinie: przygotować i zagotować syrop bardzo lekki, lekki albo średni albo pakować brzoskwinie w wodzie, soku jabłkowym lub soku z białych winogron; pakowanie na surowo daje brzoskwinie słabej jakości.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "Peaches-Halved or Sliced, Procedure",
+    "cytat": "Prepare and boil a very light, light, or medium syrup or pack peaches in water, apple juice, or white grape juice. Raw packs make poor quality peaches.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b48c4f5574ca"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-130",
+  "twierdzenie": "NCHFP brzoskwinie, na gorąco (hot pack): odsączone owoce włożyć do dużego garnka z syropem, wodą albo sokiem i doprowadzić do wrzenia; napełnić słoiki gorącymi owocami i płynem, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; połówki układać warstwami, przekrojem w dół.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "Peaches-Halved or Sliced, Hot pack",
+    "cytat": "Hot pack – In a large saucepan place drained fruit in syrup, water, or juice and bring to boil. Fill jars with hot fruit and cooking liquid, leaving ½-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b48c4f5574ca"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "Peaches-Halved or Sliced, Hot pack",
+    "cytat": "Place halves in layers, cut side down.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b48c4f5574ca"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-131",
+  "twierdzenie": "NCHFP brzoskwinie, na surowo (raw pack): napełnić słoiki surowymi owocami przekrojem w dół i dolać gorącej wody, soku albo syropu, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; w obu sposobach założyć pokrywki i wekować.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "Peaches-Halved or Sliced, Raw pack",
+    "cytat": "Raw pack – Fill jars with raw fruit, cut side down, and add hot water, juice, or syrup, leaving ½-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b48c4f5574ca"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "Peaches-Halved or Sliced, Raw pack",
+    "cytat": "Adjust lids and process.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b48c4f5574ca"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-132",
+  "twierdzenie": "NCHFP brzoskwinie, kąpiel wodna, 0–1000 stóp: hot pack słoiki pint 20 minut, quart 25 minut; raw pack słoiki pint 25 minut, quart 30 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "Table 1, kolumna 0 - 1,000 ft",
+    "cytat": "Hot Pints 20 min 25 30 35 Quarts 25 min 30 35 40 Raw Pints 25 min 30 35 40 Quarts 30 min 35 40 45",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b48c4f5574ca"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-133",
+  "twierdzenie": "NCHFP brzoskwinie, kąpiel wodna, 1001–3000 stóp: hot pack słoiki pint 25 minut, quart 30 minut; raw pack słoiki pint 30 minut, quart 35 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "Table 1, kolumna 1,001 - 3,000 ft",
+    "cytat": "Hot Pints 20 min 25 30 35 Quarts 25 min 30 35 40 Raw Pints 25 min 30 35 40 Quarts 30 min 35 40 45",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b48c4f5574ca"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-134",
+  "twierdzenie": "NCHFP brzoskwinie, kąpiel wodna, 3001–6000 stóp: hot pack słoiki pint 30 minut, quart 35 minut; raw pack słoiki pint 35 minut, quart 40 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "Table 1, kolumna 3,001 - 6,000 ft",
+    "cytat": "Hot Pints 20 min 25 30 35 Quarts 25 min 30 35 40 Raw Pints 25 min 30 35 40 Quarts 30 min 35 40 45",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b48c4f5574ca"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-135",
+  "twierdzenie": "NCHFP brzoskwinie, kąpiel wodna, powyżej 6000 stóp: hot pack słoiki pint 35 minut, quart 40 minut; raw pack słoiki pint 40 minut, quart 45 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "Table 1, kolumna Above 6,000 ft",
+    "cytat": "Hot Pints 20 min 25 30 35 Quarts 25 min 30 35 40 Raw Pints 25 min 30 35 40 Quarts 30 min 35 40 45",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b48c4f5574ca"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "ACI-202",
+  "twierdzenie": "NCHFP papryka marynowana (Pickled Bell Peppers), na ok. 9 słoików pint: 7 funtów (ok. 3,2 kg) jędrnej papryki, 3 1/2 szklanki cukru, 3 szklanki octu o kwasowości 5%, 3 szklanki wody, 9 ząbków czosnku i 4 1/2 łyżeczki soli do konserw i pikli.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bell-peppers/",
+    "miejsce": "Pickled Bell Peppers, składniki",
+    "cytat": "7 lbs firm bell peppers 3-1/2 cups sugar 3 cups vinegar (5 percent) 3 cups water",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "615edbf42cc9"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bell-peppers/",
+    "miejsce": "Pickled Bell Peppers, składniki",
+    "cytat": "9 cloves garlic 4-1/2 tsp canning or pickling salt Yield: About 9 pints",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "615edbf42cc9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Rachunek: 1 funt = 0,4536 kg, 7 × 0,4536 = 3,18 kg, w treści ok. 3,2 kg (masa warzyw; proporcje zalewy podane w szklankach bez zmian).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-203",
+  "twierdzenie": "NCHFP papryka marynowana: paprykę umyć, pokroić na ćwiartki, usunąć gniazda i nasiona oraz wyciąć uszkodzone miejsca, pokroić w paski; cukier, ocet i wodę gotować 1 minutę, dodać paprykę i doprowadzić do wrzenia.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bell-peppers/",
+    "miejsce": "Pickled Bell Peppers, Procedure",
+    "cytat": "Wash peppers, cut into quarters, remove cores and seeds, and cut away any blemishes. Slice peppers in strips.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "615edbf42cc9"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bell-peppers/",
+    "miejsce": "Pickled Bell Peppers, Procedure",
+    "cytat": "Boil sugar, vinegar, and water for 1 minute. Add peppers and bring to a boil.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "615edbf42cc9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-204",
+  "twierdzenie": "NCHFP papryka marynowana: do każdego sterylnego słoika 1/2 pinty włożyć 1/2 ząbka czosnku i 1/4 łyżeczki soli, do słoika pint podwójnie (1 ząbek i 1/2 łyżeczki); dodać paski papryki i zalać gorącą zalewą octową, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; założyć pokrywki i wekować.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bell-peppers/",
+    "miejsce": "Pickled Bell Peppers, Procedure",
+    "cytat": "Place 1/2 clove of garlic and 1/4 teaspoon salt in each sterile half-pint jar; double the amounts for pint jars.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "615edbf42cc9"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bell-peppers/",
+    "miejsce": "Pickled Bell Peppers, Procedure",
+    "cytat": "Add pepper strips and cover with hot vinegar mixture, leaving 1/2-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "615edbf42cc9"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bell-peppers/",
+    "miejsce": "Pickled Bell Peppers, Procedure",
+    "cytat": "Adjust lids and process according to the recommendations in Table 1.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "615edbf42cc9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-205",
+  "twierdzenie": "NCHFP papryka marynowana, kąpiel wodna, hot pack, 0–1000 stóp: słoiki 1/2 pinty i pint 5 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bell-peppers/",
+    "miejsce": "Table 1, kolumna 0 - 1,000 ft",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "615edbf42cc9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-206",
+  "twierdzenie": "NCHFP papryka marynowana, kąpiel wodna, hot pack, 1001–6000 stóp: słoiki 1/2 pinty i pint 10 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bell-peppers/",
+    "miejsce": "Table 1, kolumna 1,001 - 6,000 ft",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "615edbf42cc9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-207",
+  "twierdzenie": "NCHFP papryka marynowana, kąpiel wodna, hot pack, powyżej 6000 stóp: słoiki 1/2 pinty i pint 15 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bell-peppers/",
+    "miejsce": "Table 1, kolumna Above 6,000 ft",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "615edbf42cc9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-208",
+  "twierdzenie": "NCHFP papryka marynowana: tabela 1 podaje czasy tylko dla słoików 1/2 pinty i pint.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bell-peppers/",
+    "miejsce": "Pickled Bell Peppers, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "615edbf42cc9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
  }
 ]

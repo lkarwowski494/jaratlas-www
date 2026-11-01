@@ -14,9 +14,13 @@ NCHFP ostrzega, żeby w tradycyjnych przepisach nie zmniejszać cukru: za mało 
 
 Wysterylizuj słoiki, a dwuczęściowe pokrywki przygotuj według producenta. [T:SLO-111]
 
+NCHFP stawia puste słoiki otworem do góry na kratce w garnku do wekowania i napełnia garnek oraz słoiki gorącą (nie wrzącą) wodą do 1 cala (ok. 2,5 cm) ponad górną krawędź słoików. [T:SLO-120]
+
 Puste słoiki NCHFP sterylizuje, gotując je 10 minut poniżej 1000 stóp, a wyżej o 1 minutę dłużej na każde kolejne tysiąc stóp. [T:SLO-118]
 
 Reguła JarAtlas dla metrów: gotuj słoiki 10 minut do 300 m, a wyżej dodaj 1 minutę za każde kolejne rozpoczęte 300 m. [T:SLO-119]
+
+Gorące, wysterylizowane słoiki wyjmuj i odsączaj pojedynczo. [T:SLO-120]
 
 W pełni dojrzałe wiśnie przebierz i umyj, usuń szypułki i pestki, a owoce zmiel albo drobno posiekaj. [T:SLO-111]
 
