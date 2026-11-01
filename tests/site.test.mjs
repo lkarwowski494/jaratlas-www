@@ -5,6 +5,7 @@ import { readFileSync } from 'node:fs';
 import { generuj } from '../site/generuj.mjs';
 import { sprawdzSlugi, planStron } from '../site/plan.mjs';
 import { mapyStrony } from '../site/mapa.mjs';
+import { DOMENA } from '../site/konfiguracja.mjs';
 
 const pub = { publication: 'opublikowana', scope: 'in', content: 'tak' };
 const katalog = () => ({
@@ -30,7 +31,7 @@ const tresci = () => ({
 });
 const uiL = { uwagaBezpieczenstwa: '[DO USTALENIA]', zrodla: 'Z', ostrzezenia: 'O', wariant: 'W', status: 'S', statusy: {} };
 const dane = (zm = {}) => ({ katalog: katalog(), slugi: slugi(), tresci: tresci(), ui: { pl: uiL, en: uiL }, dozwolZaslepki: true, ...zm }); // dane [PRZYKŁAD]: zaślepki dozwolone tylko tu (R2)
-const D = 'https://jaratlas.com';
+const D = DOMENA; // 07-jakosc-007: z konfiguracji, nie literał (JARATLAS_DOMENA dla podglądu)
 
 test('bramka: tylko publikowalne warianty i produkty z ≥1 takim wariantem mają strony', () => {
   const { bledy, pliki } = generuj(dane());
