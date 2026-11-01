@@ -20,15 +20,37 @@ At 21–24 °C full fermentation takes about 3–4 weeks, and at 16–18 °C it 
 
 Below 60 °F (16 °C) the cabbage may not ferment, and above 75 °F (24 °C) it may become soft. [T:FER-034]
 
+If you weigh the cabbage down with a brine-filled bag, do not disturb the container until fermentation is complete, when bubbling stops. [T:FER-035]
+
+If you weigh it down with jars, check the sauerkraut 2–3 times a week and remove scum if it forms. [T:FER-035]
+
 ## Storing
 
 Fully fermented sauerkraut may be kept tightly covered in the refrigerator for several months, or it may be canned. [T:FER-036]
 
-Water-bath canning at 0–1000 ft above sea level takes 10 minutes for pint jars and 15 minutes for quart jars when hot packed, and 20 minutes for pints and 25 minutes for quarts when raw packed. [T:FER-037]
+For hot pack, slowly bring the sauerkraut and its juice to a boil, stirring often, take it off the heat and pack the jars fairly firmly with sauerkraut and juice. [T:FER-097]
 
-At higher altitudes the time is longer, according to the NCHFP table. [T:FER-037]
+For raw pack, pack the jars firmly with sauerkraut and cover it with juice. [T:FER-097]
+
+Either way, leave 1/2 inch (about 1.3 cm) of headspace. [T:FER-097]
+
+Water-bath canning at 0–1000 ft (up to 300 m) above sea level takes 10 minutes for pint jars and 15 minutes for quart jars when hot packed, and 20 minutes for pints and 25 minutes for quarts when raw packed. [T:FER-037,ACI-176]
+
+At 1001–3000 ft (above 300 m up to 900 m): hot pack 15 minutes for pints and 20 for quarts, raw pack 25 and 30 minutes. [T:FER-098,ACI-176]
+
+At 3001–6000 ft (above 900 m up to 1800 m): hot pack 15 minutes for pints and 20 for quarts, raw pack 30 and 35 minutes. [T:FER-100,ACI-176]
+
+Above 6000 ft (above 1800 m): hot pack 20 minutes for pints and 25 for quarts, raw pack 35 and 40 minutes. [T:FER-101,ACI-176]
+
+The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m, 3000 ft becomes 900 m and 6000 ft becomes 1800 m. [T:ACI-176]
 
 Shortening the time or cooling jars in cold water can lead to spoilage. [T:ACI-015]
+
+NCHFP times are for US jar sizes: a pint holds about 473 ml and a quart about 946 ml. [T:ACI-174]
+
+For a jar of up to 473 ml use the pint time, and for a larger jar of up to 946 ml, for example 0.5 l or 0.9 l, use the quart time. [T:ACI-175]
+
+NCHFP gives no time for jars larger than a quart, such as 1 l, so use smaller jars. [T:ACI-175]
 
 ## When to throw it out
 

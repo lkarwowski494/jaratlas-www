@@ -30,9 +30,23 @@ Fully fermented pickles may be kept in the original container in the refrigerato
 
 NCHFP calls canning a better way to store them. [T:FER-045]
 
-Water-bath canning, raw pack, at 0–1000 ft above sea level takes 10 minutes for pint jars and 15 minutes for quart jars, and the brine must be brought to a boil and boiled for 5 minutes. [T:FER-046]
+Water-bath canning, raw pack, at 0–1000 ft (up to 300 m) above sea level takes 10 minutes for pint jars and 15 minutes for quart jars, and the brine must be brought to a boil and boiled for 5 minutes. [T:FER-046,ACI-176]
 
-Above 1000 ft (about 305 m) the time must be increased, or the food may spoil. [T:ACI-015]
+Fill the jars with the pickles and hot brine, leaving 1/2 inch (about 1.3 cm) of headspace. [T:FER-095]
+
+Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
+
+At 1001–6000 ft (above 300 m up to 1800 m) process pints for 15 minutes and quarts for 20. [T:FER-096,ACI-176]
+
+Above 6000 ft (above 1800 m) process pints for 20 minutes and quarts for 25. [T:FER-099,ACI-176]
+
+The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m, 3000 ft becomes 900 m and 6000 ft becomes 1800 m. [T:ACI-176]
+
+NCHFP times are for US jar sizes: a pint holds about 473 ml and a quart about 946 ml. [T:ACI-174]
+
+For a jar of up to 473 ml use the pint time, and for a larger jar of up to 946 ml, for example 0.5 l or 0.9 l, use the quart time. [T:ACI-175]
+
+NCHFP gives no time for jars larger than a quart, such as 1 l, so use smaller jars. [T:ACI-175]
 
 Shortening the time or cooling jars in cold water can also lead to spoilage. [T:ACI-015]
 

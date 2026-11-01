@@ -1377,7 +1377,7 @@
  },
  {
   "id": "FER-047",
-  "twierdzenie": "Pasteryzacja niskotemperaturowa (zamiast wekowania ogórków): woda 180–185 °F (82–85 °C) utrzymana przez 30 min, nigdy poniżej 180 °F; stosować tylko, gdy przepis ją przewiduje.",
+  "twierdzenie": "Pasteryzacja niskotemperaturowa (zamiast wekowania ogórków): wymaga starannego prowadzenia, bo inaczej produkt może się zepsuć; woda 180–185 °F utrzymana przez 30 min i przez całe 30 min co najmniej 180 °F (sprawdzać termometrem); w °C: 83–85 °C, dolna granica zaokrąglona w górę (180 °F = 82,2 °C); stosować tylko, gdy przepis ją przewiduje.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/low-temperature-pasteurization-treatment/",
@@ -1396,22 +1396,37 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "d387fe94ce25"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/low-temperature-pasteurization-treatment/",
+    "miejsce": "Low-Temperature Pasteurization Treatment",
+    "cytat": "The following treatment results in a better product texture but must be carefully managed to avoid possible spoilage.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4a057aa375df"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/low-temperature-pasteurization-treatment/",
+    "miejsce": "Low-Temperature Pasteurization Treatment",
+    "cytat": "Check with a candy or jelly thermometer to be certain that the water temperature is at least 180ºF during the entire 30 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4a057aa375df"
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": null,
+  "uproszczenie": "Przeliczenie °F→°C to rachunek: (180 − 32) × 5/9 = 82,22 °C, (185 − 32) × 5/9 = 85,0 °C. Dolną granicę zaokrąglono w górę do 83 °C (strona bezpieczna); wcześniejsze 82 °C = 179,6 °F leżało poniżej granicy źródła (E3 p1).",
   "krytyczne": true,
-  "przeglad": {
-   "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
-  },
+  "przeglad": null,
   "wazne_do": "2027-11-01",
   "wielkosc": "temperatura pasteryzacji",
   "wartosc": 180,
   "jednostka": "°F",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-01",
+  "decyzja": "2026-11-02-jaratlas-06-karty-p2"
  },
  {
   "id": "FER-048",
@@ -9490,10 +9505,19 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "21e6a8033f3c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/ensuring-safe-canned-foods/",
+    "miejsce": "treść strony (Ensuring Safe Canned Foods)",
+    "cytat": "Blanching also helps, but the vital controls are the method of canning and making sure the recommended research-based process times found in the USDA's Complete Guide to Home Canning are used.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "60399e1d89ba"
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "Synteza SZY-001/006: źródło nie używa słowa „wyłącznie”; wniosek z podziału pH i zakazu dla mięsa/warzyw.",
+  "uproszczenie": "Synteza SZY-001/006: źródło nie używa słowa „wyłącznie”; wniosek z podziału pH i zakazu dla mięsa/warzyw. Klauzula „tylko według przetestowanego przepisu” oddaje „research-based process times … are used” (to samo źródło, 2026-11-01): „przetestowany” = oparty na badaniach USDA.",
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
@@ -23145,5 +23169,353 @@
   "wazne_do": "2027-11-01",
   "klaster": "E3",
   "weryfikacjaZastepcza": "2026-11-01"
+ },
+ {
+  "id": "FER-095",
+  "twierdzenie": "NCHFP ogórki (wekowanie po fermentacji): słoik napełnić ogórkami i gorącą solanką, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Fermented Dill Pickles, Procedure",
+    "cytat": "Fill jar with pickles and hot brine, leaving 1/2-inch headspace.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "74f3342ca4a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "FER"
+ },
+ {
+  "id": "FER-096",
+  "twierdzenie": "NCHFP ogórki, kąpiel wodna, raw pack, Table 1, na wysokości 1001–6000 stóp: pint 15 min, quart 20 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Table 1, kolumny 0 - 1,000 ft / 1,001 - 6,000 ft / Above 6,000 ft",
+    "cytat": "Raw Pints 10 min 15 20 Quarts 15 20 25",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "74f3342ca4a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "FER"
+ },
+ {
+  "id": "FER-097",
+  "twierdzenie": "NCHFP kapusta kiszona do wekowania: hot pack (kapustę z sokiem powoli doprowadzić do wrzenia, często mieszając, zdjąć z ognia, napełnić słoiki dość ciasno kapustą i sokiem) albo raw pack (słoiki ciasno kapustą, zalać sokiem); w obu 1/2 cala (ok. 1,3 cm) wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Sauerkraut, Hot pack",
+    "cytat": "Remove from heat and fill jars rather firmly with kraut and juices, leaving 1/2-inch headspace.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ff60be57443f"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Sauerkraut, Raw pack",
+    "cytat": "Raw pack – Fill jars firmly with kraut and cover with juices, leaving 1/2-inch headspace.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ff60be57443f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "FER"
+ },
+ {
+  "id": "FER-098",
+  "twierdzenie": "NCHFP kapusta, kąpiel wodna, Table 1, na wysokości 1001–3000 stóp: hot pack pint 15 min, quart 20 min; raw pack pint 25 min, quart 30 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Table 1, kolumny 0 - 1,000 ft / 1,001 - 3,000 ft / 3,001 - 6,000 ft / Above 6,000 ft",
+    "cytat": "Hot Pints 10 min 15 15 20 Quarts 15 20 20 25 Raw Pints 20 25 30 35 Quarts 25 30 35 40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ff60be57443f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "FER"
+ },
+ {
+  "id": "FER-099",
+  "twierdzenie": "NCHFP ogórki, kąpiel wodna, raw pack, Table 1, powyżej 6000 stóp: pint 20 min, quart 25 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Table 1, kolumny 0 - 1,000 ft / 1,001 - 6,000 ft / Above 6,000 ft",
+    "cytat": "Raw Pints 10 min 15 20 Quarts 15 20 25",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "74f3342ca4a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "FER"
+ },
+ {
+  "id": "FER-100",
+  "twierdzenie": "NCHFP kapusta, kąpiel wodna, Table 1, na wysokości 3001–6000 stóp: hot pack pint 15 min, quart 20 min; raw pack pint 30 min, quart 35 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Table 1, kolumny 0 - 1,000 ft / 1,001 - 3,000 ft / 3,001 - 6,000 ft / Above 6,000 ft",
+    "cytat": "Hot Pints 10 min 15 15 20 Quarts 15 20 20 25 Raw Pints 20 25 30 35 Quarts 25 30 35 40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ff60be57443f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "FER"
+ },
+ {
+  "id": "FER-101",
+  "twierdzenie": "NCHFP kapusta, kąpiel wodna, Table 1, powyżej 6000 stóp: hot pack pint 20 min, quart 25 min; raw pack pint 35 min, quart 40 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Table 1, kolumny 0 - 1,000 ft / 1,001 - 3,000 ft / 3,001 - 6,000 ft / Above 6,000 ft",
+    "cytat": "Hot Pints 10 min 15 15 20 Quarts 15 20 20 25 Raw Pints 20 25 30 35 Quarts 25 30 35 40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ff60be57443f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "FER"
+ },
+ {
+  "id": "ACI-171",
+  "twierdzenie": "NCHFP sok pomidorowy: butelkowany sok z cytryny lub kwas cytrynowy dodać do słoików, sok ponownie doprowadzić do wrzenia, napełnić słoiki gorącym sokiem, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-juice/",
+    "miejsce": "Tomato Juice, Procedure",
+    "cytat": "Add bottled lemon juice or citric acid to jars (See acidification instructions ). Heat juice again to boiling.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8fc423713915"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-juice/",
+    "miejsce": "Tomato Juice, Procedure",
+    "cytat": "Fill jars with hot tomato juice, leaving 1/2-inch headspace.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8fc423713915"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-172",
+  "twierdzenie": "NCHFP sok pomidorowy, kąpiel wodna, hot pack, Table 1, na wysokości 1001–3000 stóp: pint 40 min, quart 45 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-juice/",
+    "miejsce": "Table 1 (boiling-water canner), kolumny 0 - 1,000 ft / 1,001 - 3,000 ft / 3,001 - 6,000 ft / Above 6,000 ft",
+    "cytat": "Hot Pints 35 min 40 45 50 Quarts 40 45 50 55",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8fc423713915"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-173",
+  "twierdzenie": "W tabelach USDA Complete Guide (NCHFP) czasy dla słoików 1/2 pinty i pinty są takie same, a czasy dla słoików 1 1/2 pinty i quart też są takie same.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/selecting-the-correct-processing-time/",
+    "miejsce": "Using tables for determining proper process times",
+    "cytat": "Process times for ½-pint and pint jars are the same, as are times for 1-½ pint and quart jars.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4c13a120a047"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-174",
+  "twierdzenie": "Pinta płynu USA to 473,1765 ml (ok. 473 ml), a quart płynu USA to 946,3529 ml (ok. 946 ml). Rachunek: słoik 0,5 l mieści ok. 27 ml więcej niż pinta i mniej niż 1 1/2 pinty (ok. 710 ml); słoik 1 l mieści ok. 54 ml więcej niż quart.",
+  "zrodla": [
+   {
+    "adres": "https://nvlpubs.nist.gov/nistpubs/hb/2025/NIST.HB.44-2025.pdf",
+    "miejsce": "NIST Handbook 44 (2025), Appendix C, Units of Liquid Volume, s. C-17 (strona PDF 539)",
+    "cytat": "1 liquid pint (pt) = 0.016 710 07 473.176 5 0.473 176 5",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "3f762eb83ea0"
+   },
+   {
+    "adres": "https://nvlpubs.nist.gov/nistpubs/hb/2025/NIST.HB.44-2025.pdf",
+    "miejsce": "jak wyżej",
+    "cytat": "1 liquid quart (qt) = 0.033 420 14 946.352 9 0.946 352 9",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "3f762eb83ea0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Rachunek ze źródła: 1,5 × 473,1765 = 709,76 ml; 500 − 473,18 = 26,82 ml; 1000 − 946,35 = 53,65 ml. Wyniki przybliżone do 1 ml.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-175",
+  "twierdzenie": "Ostrożna reguła JarAtlas dla słoików metrycznych w przepisach NCHFP: słoik do 473 ml — czas dla pint; słoik większy niż pinta, do 946 ml, np. 0,5 l albo 0,9 l — czas dla quart (czas dla quart obowiązuje już od słoików 1 1/2 pinty, ok. 710 ml, a słoik 0,5 l jest mniejszy); słoik większy niż quart, np. 1 l — przepisy NCHFP nie podają czasu, więc JarAtlas zaleca mniejszy słoik.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/selecting-the-correct-processing-time/",
+    "miejsce": "Using tables for determining proper process times",
+    "cytat": "Process times for ½-pint and pint jars are the same, as are times for 1-½ pint and quart jars.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4c13a120a047"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła: źródło nie mówi o słoikach metrycznych. Kierunek ostrożny: słoik między dwoma przetestowanymi rozmiarami dostaje czas większego z nich, a słoik większy niż największy przetestowany nie dostaje czasu. Granice 473 i 946 ml zaokrąglone w dół (rachunek ACI-174).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI",
+  "decyzja": "2026-11-02-jaratlas-06-karty-p2",
+  "zalezy_od": [
+   "ACI-173",
+   "ACI-174"
+  ]
+ },
+ {
+  "id": "ACI-176",
+  "twierdzenie": "1 stopa = 0,3048 m dokładnie, więc 1000 stóp = 304,8 m, 3000 stóp = 914,4 m, 6000 stóp = 1828,8 m. Karty podają te granice w metrach zaokrąglone w dół, w stronę dłuższego czasu: 1000 stóp jako 300 m, 3000 stóp jako 900 m, 6000 stóp jako 1800 m.",
+  "zrodla": [
+   {
+    "adres": "https://nvlpubs.nist.gov/nistpubs/hb/2025/NIST.HB.44-2025.pdf",
+    "miejsce": "NIST Handbook 44 (2025), Appendix C, General Tables of Units of Measurement (definicja stopy międzynarodowej)",
+    "cytat": "1 foot = 0.3048 meter",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "3f762eb83ea0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Rachunek; zaokrąglenie w dół granicy górnej przedziału przenosi użytkownika tuż poniżej granicy do przedziału z dłuższym czasem (strona bezpieczna).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI",
+  "decyzja": "2026-11-02-jaratlas-06-karty-p2"
+ },
+ {
+  "id": "ACI-177",
+  "twierdzenie": "NCHFP sok pomidorowy, kąpiel wodna, hot pack, Table 1, na wysokości 3001–6000 stóp: pint 45 min, quart 50 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-juice/",
+    "miejsce": "Table 1 (boiling-water canner), kolumny 0 - 1,000 ft / 1,001 - 3,000 ft / 3,001 - 6,000 ft / Above 6,000 ft",
+    "cytat": "Hot Pints 35 min 40 45 50 Quarts 40 45 50 55",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8fc423713915"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-178",
+  "twierdzenie": "NCHFP sok pomidorowy, kąpiel wodna, hot pack, Table 1, powyżej 6000 stóp: pint 50 min, quart 55 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-juice/",
+    "miejsce": "Table 1 (boiling-water canner), kolumny 0 - 1,000 ft / 1,001 - 3,000 ft / 3,001 - 6,000 ft / Above 6,000 ft",
+    "cytat": "Hot Pints 35 min 40 45 50 Quarts 40 45 50 55",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8fc423713915"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
  }
 ]

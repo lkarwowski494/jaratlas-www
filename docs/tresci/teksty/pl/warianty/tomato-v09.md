@@ -18,8 +18,24 @@ Nie wekuj pomidorów z obumarłych ani przemarzniętych krzaków. [T:ACI-049]
 
 ## Wekowanie
 
-Na wysokości 0–1000 stóp nad poziomem morza sok wekuje się w kąpieli wodnej 35 minut w słoikach pint i 40 minut w słoikach quart. [T:ACI-051]
+Butelkowany sok z cytryny albo kwas cytrynowy dodaj do słoików, sok ponownie zagotuj i napełnij słoiki gorącym sokiem, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:ACI-171]
 
-Powyżej 1000 stóp (ok. 305 m) nad poziomem morza czas trzeba wydłużyć, inaczej przetwór może się zepsuć. [T:ACI-015]
+Na wysokości 0–1000 stóp (do 300 m) nad poziomem morza sok wekuje się w kąpieli wodnej 35 minut w słoikach pint i 40 minut w słoikach quart. [T:ACI-051,ACI-176]
+
+Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
+
+Na wysokości 1001–3000 stóp (powyżej 300 m do 900 m) wekuj słoiki pint 40 minut, a quart 45. [T:ACI-172,ACI-176]
+
+Na wysokości 3001–6000 stóp (powyżej 900 m do 1800 m) wekuj słoiki pint 45 minut, a quart 50. [T:ACI-177,ACI-176]
+
+Powyżej 6000 stóp (powyżej 1800 m) wekuj słoiki pint 50 minut, a quart 55. [T:ACI-178,ACI-176]
+
+Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, 3000 stóp to 900 m, a 6000 stóp to 1800 m. [T:ACI-176]
 
 Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsuciem. [T:ACI-015]
+
+Czasy NCHFP dotyczą amerykańskich słoików: pint mieści ok. 473 ml, a quart ok. 946 ml. [T:ACI-174]
+
+Dla słoika do 473 ml stosuj czas dla pint, a dla większego, do 946 ml, np. 0,5 l albo 0,9 l, czas dla quart. [T:ACI-175]
+
+Dla słoików większych niż quart, np. 1 l, NCHFP nie podaje czasu, więc użyj mniejszych słoików. [T:ACI-175]
