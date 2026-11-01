@@ -1069,7 +1069,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "7ed58b73a228"
+  },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
   "weryfikacjaZastepcza": "2026-11-01"
@@ -1120,7 +1124,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-01",
-   "sha": "7d6ae6f53198"
+   "sha": "02aa4eab6a62"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
@@ -1383,7 +1387,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-01",
-   "sha": "aaee0a7a9af3"
+   "sha": "ea36cd1dc8f0"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
@@ -1433,7 +1437,11 @@
   "status": "potwierdzone",
   "uproszczenie": "Przeliczenie °F→°C to rachunek: (180 − 32) × 5/9 = 82,22 °C, (185 − 32) × 5/9 = 85,0 °C. Dolną granicę zaokrąglono w górę do 83 °C (strona bezpieczna); wcześniejsze 82 °C = 179,6 °F leżało poniżej granicy źródła (E3 p1).",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-01",
   "wielkosc": "temperatura pasteryzacji",
   "wartosc": 180,
@@ -3281,7 +3289,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-01",
-   "sha": "d108ab8f04c3"
+   "sha": "16cf528208d3"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -4258,7 +4266,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-01",
-   "sha": "92e5d73ab1f3"
+   "sha": "b31abe67704b"
   },
   "wielkosc": "czas kąpieli wodnej (1 qt) · ACI-051",
   "wartosc": 40,
@@ -4881,7 +4889,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "sha": "5faafaaea05c"
   },
   "wielkosc": "czas kąpieli wodnej (hot, 1 qt) · ACI-070",
   "wartosc": 20,
@@ -5028,7 +5036,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "sha": "0b44e723cbc0"
   },
   "wielkosc": "czas kąpieli wodnej (1 qt) · ACI-075",
   "wartosc": 25,
@@ -9563,7 +9571,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "sha": "0e40fafcc271"
   },
   "klaster": "SLO",
   "weryfikacjaZastepcza": "2026-11-01"
@@ -9879,7 +9887,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "sha": "5e53521d00f5"
   },
   "klaster": "SLO",
   "weryfikacjaZastepcza": "2026-11-01"
@@ -10067,7 +10075,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "bbd0feaa3c83"
+  },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
   "weryfikacjaZastepcza": "2026-11-01"
@@ -12375,7 +12387,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "sha": "8035ae9b8278"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
@@ -12507,7 +12519,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "sha": "be6b5248d9a4"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
@@ -15496,7 +15508,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "sha": "afaa2ff0d927"
   },
   "wielkosc": "temperatura zamrażarki",
   "wartosc": -18,
@@ -15696,7 +15708,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "sha": "d0b542441288"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -23206,9 +23218,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "cf71e26ef08f"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "FER"
+  "klaster": "FER",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "FER-096",
@@ -23227,9 +23244,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "c4a126d71f37"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "FER"
+  "klaster": "FER",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "FER-097",
@@ -23266,9 +23288,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "1829a3130070"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "FER"
+  "klaster": "FER",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "FER-098",
@@ -23287,9 +23314,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "e7dcc4d7c0cb"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "FER"
+  "klaster": "FER",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "FER-099",
@@ -23308,9 +23340,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "b1beabeec67c"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "FER"
+  "klaster": "FER",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "FER-100",
@@ -23329,9 +23366,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "048cb0773201"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "FER"
+  "klaster": "FER",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "FER-101",
@@ -23350,9 +23392,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "95867f8beb1f"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "FER"
+  "klaster": "FER",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-171",
@@ -23380,9 +23427,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "5d3fbc628600"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-172",
@@ -23401,9 +23453,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "12e88eaa3d1a"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-173",
@@ -23422,9 +23479,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-174",
@@ -23452,9 +23514,14 @@
   "status": "potwierdzone",
   "uproszczenie": "Rachunek ze źródła: 1,5 × 473,1765 = 709,76 ml; 500 − 473,18 = 26,82 ml; 1000 − 946,35 = 53,65 ml. Wyniki przybliżone do 1 ml.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "d04e6fad5751"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-175",
@@ -23473,14 +23540,19 @@
   "status": "potwierdzone",
   "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła: źródło nie mówi o słoikach metrycznych. Kierunek ostrożny: słoik między dwoma przetestowanymi rozmiarami dostaje czas większego z nich, a słoik większy niż największy przetestowany nie dostaje czasu. Granice 473 i 946 ml zaokrąglone w dół (rachunek ACI-174).",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "92cfab983b22"
+  },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
   "decyzja": "2026-11-02-jaratlas-06-karty-p2",
   "zalezy_od": [
    "ACI-173",
    "ACI-174"
-  ]
+  ],
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-176",
@@ -23499,10 +23571,15 @@
   "status": "potwierdzone",
   "uproszczenie": "Rachunek; zaokrąglenie w dół granicy górnej przedziału przenosi użytkownika tuż poniżej granicy do przedziału z dłuższym czasem (strona bezpieczna).",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "2d4964d46e9c"
+  },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
-  "decyzja": "2026-11-02-jaratlas-06-karty-p2"
+  "decyzja": "2026-11-02-jaratlas-06-karty-p2",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-177",
@@ -23521,9 +23598,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "89b1dd4b8973"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-178",
@@ -23542,9 +23624,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "2d93cb7a9436"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-193",
@@ -23572,7 +23659,11 @@
   "status": "potwierdzone",
   "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła: dawka na pint w słoiku 0,5 l dałaby ok. 5% mniej kwasu na ml niż przepis (473/500); dawka na quart w słoiku do 946 ml daje co najmniej tyle kwasu na ml, ile przepis (strona bezpieczna, kwaśniej). Uwaga weryfikacji E3 2026-11-01.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "cfd62b196071"
+  },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
   "decyzja": "2026-11-02-jaratlas-06-karty-p2",
@@ -23581,12 +23672,17 @@
    "ACI-045",
    "ACI-174",
    "ACI-175"
-  ]
+  ],
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "status": "potwierdzone",
   "uproszczenie": null,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "5607a1838133"
+  },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
   "id": "ACI-194",
@@ -23602,7 +23698,8 @@
     "weryfikacja": "curl+grep",
     "sha12": "808f2fc7087d"
    }
-  ]
+  ],
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "status": "potwierdzone",
@@ -23612,7 +23709,7 @@
   "klaster": "ACI",
   "id": "ACI-195",
   "krytyczne": false,
-  "twierdzenie": "Miarka „cup” w przepisach USA (NIST: cup, measuring) to 237 ml, czyli ok. 237 ml.",
+  "twierdzenie": "Miarka „cup” w przepisach USA (NIST: cup, measuring) to ok. 237 ml.",
   "zrodla": [
    {
     "adres": "https://nvlpubs.nist.gov/nistpubs/hb/2025/NIST.HB.44-2025.pdf",
@@ -23651,9 +23748,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "eacdc23182aa"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "SLO-111",
@@ -23681,9 +23783,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "3f02145fee85"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "SLO-112",
@@ -23711,9 +23818,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "f62c54a62c40"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "SLO-113",
@@ -23732,9 +23844,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "16aa7c3aa315"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "SLO-114",
@@ -23753,9 +23870,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "4df61aff4810"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "SLO-115",
@@ -23774,9 +23896,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "251a8aa1e433"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "SLO-116",
@@ -23795,9 +23922,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "81e3c693dbcf"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "SLO-117",
@@ -23816,14 +23948,23 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "bc0aa6c83177"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "status": "potwierdzone",
   "uproszczenie": null,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "6ab7d0b48f23"
+  },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
   "id": "SLO-118",
@@ -23857,12 +23998,17 @@
     "weryfikacja": "curl+grep",
     "sha12": "61d6bcdf60a3"
    }
-  ]
+  ],
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "status": "potwierdzone",
   "uproszczenie": "Wniosek JarAtlas: 1000 stóp = 304,8 m zaokrąglone w dół do 300 m (ACI-176), a każde rozpoczęte 300 m liczy się jak pełne (dłuższe gotowanie).",
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "d803de5fb4a5"
+  },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
   "id": "SLO-119",
@@ -23882,7 +24028,8 @@
   "decyzja": "2026-11-02-jaratlas-06-karty-p2",
   "zalezy_od": [
    "ACI-176"
-  ]
+  ],
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-179",
@@ -23901,14 +24048,19 @@
   "status": "potwierdzone",
   "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła (jak ACI-175): słoik większy niż największy przetestowany rozmiar nie dostaje czasu. Granica 473 ml zaokrąglona w dół (ACI-174).",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "677f8f38027d"
+  },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
   "decyzja": "2026-11-02-jaratlas-06-karty-p2",
   "zalezy_od": [
    "ACI-173",
    "ACI-174"
-  ]
+  ],
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-180",
@@ -23927,9 +24079,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "91a6612b3b71"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-181",
@@ -23948,9 +24105,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "ece51d953711"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-182",
@@ -23978,9 +24140,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "8529c0d994c7"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-183",
@@ -23999,9 +24166,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "568edf0bd79c"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-184",
@@ -24020,9 +24192,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "962f3518d122"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-185",
@@ -24041,9 +24218,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "598a43823957"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-186",
@@ -24071,9 +24253,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "13bbde5344a6"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-187",
@@ -24092,9 +24279,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "25acdc25c56f"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-188",
@@ -24113,9 +24305,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "b4990385f76e"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-189",
@@ -24134,9 +24331,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "806d8ed816f7"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-190",
@@ -24155,9 +24357,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "aba81b791952"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-191",
@@ -24176,9 +24383,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "82a7ebb08337"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-01"
  },
  {
   "id": "ACI-192",

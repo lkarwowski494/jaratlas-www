@@ -30,9 +30,9 @@ Raw pack: put 1/2 cup of hot water, juice or syrup into each jar and fill it wit
 
 Add more hot liquid, leaving 1/2 inch (about 1.3 cm) of headspace. [T:ACI-182]
 
-Put on the lids and process. [T:ACI-182]
-
 ## Processing
+
+Put on the lids and process. [T:ACI-182]
 
 At 0–1000 ft (up to 300 m) process hot-packed pints for 15 minutes and quarts for 20, and raw-packed pints or quarts for 25 minutes. [T:ACI-070,ACI-176]
 

@@ -30,9 +30,9 @@ Na surowo (raw pack): do każdego słoika wlej 1/2 szklanki gorącej wody, soku 
 
 Dolej gorącego płynu, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:ACI-182]
 
-Załóż pokrywki i wekuj. [T:ACI-182]
-
 ## Wekowanie
+
+Załóż pokrywki i wekuj. [T:ACI-182]
 
 Na wysokości 0–1000 stóp (do 300 m) wekuj na gorąco słoiki pint 15 minut i quart 20 minut, a na surowo słoiki pint albo quart 25 minut. [T:ACI-070,ACI-176]
 
