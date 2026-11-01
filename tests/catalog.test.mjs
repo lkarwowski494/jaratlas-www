@@ -114,6 +114,19 @@ test('ryzyko-wysokie i nie-publikowac z publikacją tylko jako ostrzeżenie', ()
   assert.deepEqual(errs(d), []);
 });
 
+test('ryzyko-wysokie i nie-publikowac zawsze z cardType warning; inne statusy bez niego (06, 2026-11-01)', () => {
+  for (const st of ['ryzyko-wysokie', 'nie-publikowac']) {
+    const c = base(); Object.assign(c.variants[1], { safetyStatus: st, claims: ['T-1'] });
+    assert.ok(has(errs(c), new RegExp(`green-beans-v01.*${st}.*cardType`)), st);
+    const d = base(); Object.assign(d.variants[1], { safetyStatus: st, claims: ['T-1'], cardType: 'warning' });
+    assert.deepEqual(errs(d), [], st);
+  }
+  const e = base(); e.variants[0].cardType = 'warning';
+  assert.ok(has(errs(e), /apple-v01.*cardType/));
+  const f = base(); Object.assign(f.variants[1], { safetyStatus: 'ryzyko-wysokie', claims: ['T-1'], cardType: 'ostrzezenie' });
+  assert.ok(has(errs(f), /green-beans-v01.*cardType/));
+});
+
 test('metoda nieustalona (null) dozwolona tylko bez ok-zrodlo', () => {
   const c = base(); c.variants[1].preservationMethod = null;
   assert.deepEqual(errs(c), []);

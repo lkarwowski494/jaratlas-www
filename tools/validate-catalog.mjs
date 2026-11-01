@@ -80,6 +80,12 @@ export function validateCatalog(cat, rejestr = []) {
       if (!s.length) errors.push(`${g}: ok-zrodlo bez źródła (przetestowany przepis)`);
       else if (!s.some((z) => [1, 2, 3].includes(z.szczebel) && z.adres && (z.cytat || z.miejsce) && /^\d{4}-\d\d-\d\d$/.test(z.odczyt ?? ''))) errors.push(`${g}: ok-zrodlo bez źródła ze szczebla 1–3 z adresem, miejscem i datą odczytu`);
     }
+    // Typ karty wynika ze statusu (06, 2026-11-01): ryzyko-wysokie i nie-publikowac tylko jako karta-ostrzeżenie, także ukryte,
+    // żeby zmiana publication nie mogła wypuścić zwykłej karty; inne statusy bez cardType, żeby zmiana statusu wymagała świadomej zmiany typu.
+    const OSTRZEGAWCZE = ['ryzyko-wysokie', 'nie-publikowac'];
+    if (v.cardType !== undefined && v.cardType !== 'warning') errors.push(`${g}: cardType „${v.cardType}” spoza słownika (tylko warning)`);
+    else if (OSTRZEGAWCZE.includes(v.safetyStatus) && v.cardType !== 'warning') errors.push(`${g}: ${v.safetyStatus} wymaga cardType warning`);
+    else if (!OSTRZEGAWCZE.includes(v.safetyStatus) && v.cardType === 'warning') errors.push(`${g}: cardType warning tylko przy ryzyko-wysokie i nie-publikowac (jest ${v.safetyStatus})`);
     if (v.publication === 'opublikowana') {
       if (v.scope !== 'in') errors.push(`${g}: opublikowana poza zakresem`);
       if (!v.content) errors.push(`${g}: opublikowana bez treści karty (content)`);

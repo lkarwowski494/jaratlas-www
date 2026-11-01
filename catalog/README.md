@@ -1,6 +1,6 @@
 # Katalog JarAtlas (`catalog-seed.json`)
 
-Jedno źródło danych dla strony JarAtlas.com i aplikacji JAR. Wersja 1.0.2 (2026-11-01; 1.0.2: decyzja `2026-11-01-jaratlas-e3-stop`), zadanie B (katalog v0 → v1). Decyzje: tablica decyzji, wpisy `2026-11-01-jaratlas-katalog-v1-model` i `2026-11-01-jaratlas-katalog-v1-e1`.
+Jedno źródło danych dla strony JarAtlas.com i aplikacji JAR. Wersja 1.0.3 (2026-11-01; 1.0.2: decyzja `2026-11-01-jaratlas-e3-stop`; 1.0.3: `cardType: warning` przy ryzyko-wysokie i nie-publikowac, reguła walidatora), zadanie B (katalog v0 → v1). Decyzje: tablica decyzji, wpisy `2026-11-01-jaratlas-katalog-v1-model` i `2026-11-01-jaratlas-katalog-v1-e1`.
 
 Katalog **nie zawiera treści kart**. Mówi, jakie warianty istnieją, w jakim procesie i jaki mają status bezpieczeństwa. Każdy status inny niż `do-researchu` wskazuje twierdzenia z `docs/tresci/rejestr.json`, a każde twierdzenie ma przeczytane źródło (adres, miejsce, cytat, data, szczebel).
 
@@ -23,7 +23,7 @@ npm test                 # testy walidatora (node --test)
 npm run check:catalog    # walidacja katalogu względem rejestru
 node tools/kontrole-tresci.mjs docs/tresci/rejestr.json <teksty> --przed-przegladem   # kontrola treści (moduł kontrole-mechaniczne)
 ```
-Reguły walidatora: niskokwasowe w kąpieli wodnej = błąd; produkt graniczny w kąpieli wodnej wymaga `acidBasis: acidified`; `ok-zrodlo` bez źródła szczebla 1–3 = błąd; status ze stwierdzeniem bez potwierdzonego twierdzenia = błąd; publikacja bez treści = błąd; wycofany bez następcy lub powodu = błąd.
+Reguły walidatora: niskokwasowe w kąpieli wodnej = błąd; produkt graniczny w kąpieli wodnej wymaga `acidBasis: acidified`; `ok-zrodlo` bez źródła szczebla 1–3 = błąd; status ze stwierdzeniem bez potwierdzonego twierdzenia = błąd; publikacja bez treści = błąd; wycofany bez następcy lub powodu = błąd; `ryzyko-wysokie`/`nie-publikowac` bez `cardType: warning` albo `cardType` przy innym statusie = błąd (także przy wariancie ukrytym, żeby zmiana `publication` nie wypuściła zwykłej karty).
 
 ## Granice
 - Czasy wekowania pochodzą z USDA/NCHFP i dotyczą słoików USA pint (ok. 0,47 l) i quart (ok. 0,95 l), nie 0,5 l i 1 l.
