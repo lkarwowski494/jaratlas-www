@@ -172,10 +172,50 @@ test('R4 opublikowany adres zniknął bez przekierowania = błąd; z przekierowa
   assert.ok(aktywny.some((x) => /przekierowanie z adresu, który nadal ma stronę: \/pl\/jablko\/mus\//.test(x)));
 });
 
+// R5 (07-jakosc-005): lista dozwolonych zamiast zakazanych. Zasób ładowany przez przeglądarkę (src, srcset, data, poster, href zasobów <link>,
+// url() i @import w stylach) jest względny albo na DOMENA. Adres bez protokołu („//cdn…”, „/\\cdn…”) i każdy inny schemat = zasób obcy.
+const adresyZasobow = (h) => {
+  const out = [];
+  for (const [, tag, attrs] of h.matchAll(/<([a-z][a-z0-9]*)\b([^>]*)>/gi)) {
+    const t = tag.toLowerCase(), at = Object.fromEntries([...attrs.matchAll(/([a-z-]+)\s*=\s*("([^"]*)"|'([^']*)'|([^\s>]+))/gi)].map((m) => [m[1].toLowerCase(), m[3] ?? m[4] ?? m[5]]));
+    if (t === 'link' && /^(canonical|alternate)$/i.test(at.rel ?? '')) continue; // odnośniki, nie zasoby
+    if (t === 'a') continue; // nawigacja (źródła na karcie), nic nie ładuje
+    for (const k of ['src', 'data', 'poster', 'background']) if (at[k] != null) out.push(at[k]);
+    if (t === 'link' && at.href != null) out.push(at.href);
+    for (const k of ['srcset', 'imagesrcset']) if (at[k] != null) out.push(...at[k].split(',').map((x) => x.trim().split(/\s+/)[0]));
+    if (at.style) out.push(...[...at.style.matchAll(/url\(\s*['"]?([^'")]+)/gi)].map((m) => m[1]));
+  }
+  for (const [, css] of h.matchAll(/<style[^>]*>([\s\S]*?)<\/style>/gi)) {
+    out.push(...[...css.matchAll(/url\(\s*['"]?([^'")]+)/gi)].map((m) => m[1]), ...[...css.matchAll(/@import\s+(?:url\()?\s*['"]?([^'")\s;]+)/gi)].map((m) => m[1]));
+  }
+  return out;
+};
+const zasobDozwolony = (u) => {
+  const a = u.trim().replace(/&amp;/g, '&');
+  if (a.startsWith(DOMENA + '/')) return true;
+  if (/^[\\/]{2}|^\/\\/.test(a)) return false; // //cdn, \\cdn, /\cdn: przeglądarka traktuje jak adres bez protokołu
+  return !/^[a-z][a-z0-9+.-]*:/i.test(a); // http:, https:, data:, javascript: … poza domeną
+};
+const obceZasoby = (h) => adresyZasobow(h).filter((u) => !zasobDozwolony(u));
+
+test('R5 prywatność: kontrola zasobów obcych łapie adres bez protokołu, srcset, object, embed, @import (07-jakosc-005)', () => {
+  // Kontrola, że kontrola potrafi paść (mutant M6 audytu i warianty z pola „Mechanizm”).
+  for (const zly of ['<script src="//cdn.example.com/a.js" defer></script>', '<img src="x.png" srcset="/a.png 1x, //cdn.example.com/b.png 2x">', '<object data="https://example.com/a.swf"></object>',
+    '<embed src="//example.com/e">', '<style>@import url("https://fonts.example.com/f.css");</style>', '<style>@import "//x.example/a.css";</style>', '<div style="background:url(//x.example/a.png)"></div>',
+    '<link rel="stylesheet" href="https://cdn.example.com/a.css">', '<link rel="preload" href="//cdn.example.com/f.woff2">', '<img src="/\\cdn.example.com/a.png">', "<iframe src='https://example.com/'></iframe>", '<video poster="http://x.example/p.jpg"></video>']) {
+    assert.ok(obceZasoby(zly).length > 0, zly);
+  }
+  for (const dobry of ['<script src="/static/filtry.js" defer></script>', `<img src="${DOMENA}/i/a.jpg">`, '<img src="a.png" srcset="/a.png 1x, /b.png 2x">', `<link rel="canonical" href="https://example.com/">`, '<a href="https://nchfp.uga.edu/" rel="nofollow">x</a>']) {
+    assert.deepEqual(obceZasoby(dobry), [], dobry);
+  }
+});
+
 test('R5 prywatność: wygenerowany HTML nie ładuje nic spoza domeny (0 skryptów i zasobów stron trzecich)', () => {
-  for (const [p, h] of Object.entries(generuj(dane()).pliki)) {
+  const { pliki } = generuj(dane());
+  assert.ok(adresyZasobow(pliki['pl/jablko/index.html']).includes('/static/filtry.js')); // kontrola pozytywna: parser widzi zasoby szablonów
+  for (const [p, h] of Object.entries(pliki)) {
     if (!p.endsWith('.html')) continue;
-    assert.ok(!/<(script|img|iframe|link|source|video|audio)\b[^>]*\s(src|href)="https?:\/\/(?!jaratlas\.com\/)/i.test(h.replace(/<link rel="(canonical|alternate)"[^>]*>/g, '')), p);
+    assert.deepEqual(obceZasoby(h), [], p);
     assert.ok(!/<iframe/i.test(h), p);
   }
 });

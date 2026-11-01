@@ -1,0 +1,9 @@
+== M6, test R5 sprzed zmiany (78d9b9a) ==
+ok 1 - R5 prywatność: wygenerowany HTML nie ładuje nic spoza domeny (0 skryptów i zasobów stron trzecich)
+# pass 1
+# fail 0
+== M6, nowe testy R5 ==
+ok 1 - R5 prywatność: kontrola zasobów obcych łapie adres bez protokołu, srcset, object, embed, @import (07-jakosc-005)
+not ok 2 - R5 prywatność: wygenerowany HTML nie ładuje nic spoza domeny (0 skryptów i zasobów stron trzecich)
+# pass 1
+# fail 1
