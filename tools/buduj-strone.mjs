@@ -3,7 +3,7 @@
 // Czyta katalog oraz <dane>/slugi/*.json, <dane>/teksty/*.json, <dane>/tresci/<lang>/{warianty,rodziny}/*.json, <dane>/jezyki.json, <dane>/adresy.json.
 // Polityka błędów (README §6): każdy błąd kontroli = kod 1 i nietknięty poprzedni <wyjście>; zapis przez <wyjście>.tmp i podmianę.
 import { readFileSync, readdirSync, existsSync, mkdirSync, writeFileSync, rmSync, cpSync, renameSync } from 'node:fs';
-import { join, dirname, basename } from 'node:path';
+import { join, dirname, basename, resolve, relative, isAbsolute, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { generuj } from '../site/generuj.mjs';
 
@@ -22,6 +22,10 @@ const opcjonalny = (n) => (existsSync(join(dane, n)) ? json(join(dane, n)) : {})
 const { bledy, pliki, strony, przekierowania } = generuj({ katalog: json(katalogPlik), slugi, tresci, ui, nazwyJezykow: opcjonalny('jezyki.json'), adresy: opcjonalny('adresy.json') });
 if (bledy.length) { console.error(bledy.map((b) => `BŁĄD ${b}`).join('\n')); process.exit(1); }
 const tmp = wyjscie + '.tmp';
+// Druga linia obrony (07-jakosc-003): każda ścieżka pliku po resolve leży wewnątrz katalogu tymczasowego; sprawdzane przed pierwszym zapisem.
+const baza = resolve(tmp);
+const poza = Object.keys(pliki).filter((p) => { const r = relative(baza, resolve(baza, p)); return !r || r === '..' || r.startsWith('..' + sep) || isAbsolute(r); });
+if (poza.length) { console.error(poza.map((p) => `BŁĄD ścieżka pliku poza katalogiem wyjścia: ${p}`).join('\n')); process.exit(1); }
 rmSync(tmp, { recursive: true, force: true });
 for (const [p, t] of Object.entries(pliki)) { mkdirSync(dirname(join(tmp, p)), { recursive: true }); writeFileSync(join(tmp, p), t); }
 // Plik przekierowań neutralny wobec hostingu; format hostingu po ADR 0007.

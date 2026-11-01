@@ -29,3 +29,20 @@ test('błąd kontroli: kod 1, poprzedni dist/ nietknięty, brak katalogu tymczas
   assert.equal(readFileSync(join(wyj, 'stary.html'), 'utf8'), 'poprzednie wdrożenie');
   assert.ok(!existsSync(wyj + '.tmp'));
 });
+
+test('slug „..” w piśmie niełacińskim: kod 1, nic nie zapisane poza katalogiem wyjścia, dist/ nietknięty (07-jakosc-003, sonda S3)', () => {
+  const tmp = mkdtempSync(join(tmpdir(), 'ja-')), dane = join(tmp, 'site'), wyj = join(tmp, 'dist');
+  cpSync(SITE, dane, { recursive: true });
+  mkdirSync(wyj); writeFileSync(join(wyj, 'stary.html'), 'poprzednie wdrożenie');
+  const kat = join(tmp, 'katalog.json');
+  writeFileSync(kat, JSON.stringify({ processFamilies: [], products: [{ id: 'p' }], variants: [{ id: 'v1', productId: 'p', safetyStatus: 'ok-zrodlo', publication: 'opublikowana', scope: 'in', content: 'x' }] }));
+  for (const d of ['slugi', 'teksty', 'tresci/ru/warianty']) mkdirSync(join(dane, d), { recursive: true });
+  writeFileSync(join(dane, 'slugi', 'ru.json'), JSON.stringify({ produkty: { p: '..' }, warianty: { v1: '..' } }));
+  writeFileSync(join(dane, 'teksty', 'ru.json'), JSON.stringify({ uwagaBezpieczenstwa: 'u', zrodla: 'z', ostrzezenia: 'o', wariant: 'w', status: 's', statusy: {} }));
+  writeFileSync(join(dane, 'tresci', 'ru', 'warianty', 'v1.json'), JSON.stringify({ tytul: 'A', wstep: 'w', sekcje: [] }));
+  const r = spawnSync(process.execPath, [BUILD, dane, wyj, kat], { encoding: 'utf8' });
+  assert.equal(r.status, 1, r.stdout);
+  assert.ok(!existsSync(join(tmp, 'index.html')), 'plik zapisany poza dist.tmp');
+  assert.equal(readFileSync(join(wyj, 'stary.html'), 'utf8'), 'poprzednie wdrożenie');
+  assert.ok(!existsSync(wyj + '.tmp'));
+});

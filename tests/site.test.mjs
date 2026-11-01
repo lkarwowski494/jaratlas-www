@@ -223,3 +223,11 @@ test('R8 kolizja adresów: dwa warianty produktu z tym samym slugiem = błąd pl
   const s2 = slugi(); s2.pl.warianty['beans-v01'] = 'mus';
   assert.deepEqual(sprawdzSlugi(s2, katalog()), []);
 });
+
+test('slugi niełacińskie: lista dozwolonych (małe litery, cyfry, znaki łączące, łączniki) (07-jakosc-003)', () => {
+  const zle = (lang, slug) => sprawdzSlugi({ [lang]: { produkty: { p: slug }, warianty: {} } }).length > 0;
+  for (const s of ['..', '.', 'a.b', 'a\\b', 'Огурец', 'a"b', 'a<b', 'a>b', "a'b", 'a&b', 'a b', '-a', 'a-', 'a--b', '']) assert.ok(zle('ru', s), JSON.stringify(s));
+  for (const [lang, s] of [['ru', 'огурец'], ['ru', 'процессы'], ['ru', 'солёные-огурцы'], ['ja', 'きゅうり'], ['ja', 'ピーマン'], ['ko', '오이'], ['zh-Hant', '黃瓜'], ['el', 'αγγούρι'], ['el', 'σύκο'], ['uk', 'огірок-2']]) {
+    assert.ok(!zle(lang, s), `${lang} ${s}`);
+  }
+});
