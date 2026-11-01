@@ -19,4 +19,4 @@ Aktualizacja: 2026-11-01 (sesja session_01T66VBydUNZSWLkpAUxjXNL). Historia: `do
 - Biblioteka: `lkarwowski494/prompts` (prywatne; add_repo za zgodą właściciela).
 
 ## Następny krok
-E3: weryfikacja zastępcza (D-027) + drugi werdykt dla ryzyko-wysokie/nie-publikowac, raport v0→v1, przekazanie.
+**E3 w toku** (decyzja `2026-11-01-jaratlas-katalog-v1-e3-zakres`): 6 weryfikatorów w świeżym kontekście (twierdzenia krytyczne A/B/C, drugi werdykt 197 ostrzeżeń, odpowiedniość 312 ok-zrodlo); instrukcja `docs/tresci/badania/E3/BRIEF-WERYFIKATOR.md`. Wyniki w scratchpadzie `…/scratchpad/e3/wyniki/` (po restarcie kontenera: uruchomić weryfikację ponownie). Potem: poprawki według werdyktów, `kontrole-tresci --przeglad zastępczy`, raport v0→v1, przekazanie.
