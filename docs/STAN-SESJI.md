@@ -2,21 +2,34 @@
 
 Aktualizacja: 2026-11-01 (sesja session_01T66VBydUNZSWLkpAUxjXNL). Historia: `docs/archiwum/`.
 
-## Gdzie jesteśmy
-- Rola: 06-tresci, tryb build, moduły tresci-krytyczne, kontrole-mechaniczne. Zadanie B: katalog v0 → v1 (decyzja `2026-11-01-jaratlas-katalog-b`).
-- E0 zrobione (`docs/tresci/E0-rozpoznanie-2026-11-01.md`); decyzje: `2026-11-01-jaratlas-katalog-v1-model`, `2026-11-01-jaratlas-hierarchia-zrodel`.
-- **E1 zrobione, STOP:** raport `docs/tresci/E1-rejestr-2026-11-01.md`; rejestr `docs/tresci/rejestr.json` (759 twierdzeń), katalog roboczy `catalog/catalog-seed.json` (1.0.0-e1, walidator 0 błędów), parametry `docs/tresci/parametry.json`, pytania `docs/tresci/pytania-otwarte.md`, wyniki badaczy `docs/tresci/badania/`. Decyzje E1: `2026-11-01-jaratlas-katalog-v1-e1`.
-- **E2 zrobione, STOP:** `docs/tresci/E2-katalog-2026-11-01.md`; `catalog/catalog-seed.json` 1.0.0 (1432 rekordy; ok 312, do-res. 886, ryzyko 148, nie-publ. 49, wycofane 37), `catalog/README.md`.
-- Odtworzenie: `node tools/katalog-v1/scal.mjs <S>` wymaga kopii tekstów źródeł (scratchpad, poza repo; indeks `docs/tresci/badania/zrodla-indeks.tsv`).
-- Bramka 02 zamknięta: wynik graniczny, budujemy (tablica `2026-11-01-jaratlas-bramka-wynik`); przegląd treści krytycznych zastępczy + drugi werdykt dla ryzyko-wysokie/nie-publikowac (`2026-11-01-jaratlas-bramka-zakres`).
+## Rola i etap
+06-tresci · build · moduły tresci-krytyczne, kontrole-mechaniczne · zadanie B (katalog v0 → v1). E0, E1, E2 zrobione; **E3 w toku** (weryfikacja zastępcza).
 
-## Ograniczenia środowiska
-- cdc.gov i fsis.usda.gov: 403 (Akamai) dla UA `Apps4Brew-research/1.0`; reszta źródeł 200.
-- Repo `jaratlas-www` publiczne: bez kopii surowych stron źródeł.
+## Co zrobione (dowody)
+- E0: `docs/tresci/E0-rozpoznanie-2026-11-01.md`. E1: `docs/tresci/E1-rejestr-2026-11-01.md`. E2: `docs/tresci/E2-katalog-2026-11-01.md`.
+- Katalog `catalog/catalog-seed.json` 1.0.0, model `catalog/README.md`; walidator `tools/validate-catalog.mjs`; testy `npm test` 20/20; `npm run check:catalog` kod 0.
+- Rejestr `docs/tresci/rejestr.json`: 819 twierdzeń (806 potwierdzonych curl+grep, 13 roboczych). `tools/kontrole-tresci.mjs docs/tresci/rejestr.json <pusty katalog> --przed-przegladem` kod 0 (655 uwag: krytyczne bez przeglądu).
+- Parametry `docs/tresci/parametry.json` (148, 102 z wektorami); pytania `docs/tresci/pytania-otwarte.md` (133); wyniki badaczy `docs/tresci/badania/<klaster>/`; skrypty `tools/katalog-v1/`.
 
-## Wejście
-- Słoik (publiczne): `docs/jaratlas/00-PRZEKAZANIE.md` (§5 zadanie B, §6 SEO), `01-katalog-v0.md`, `docs/research/27-atlas-fala1-zrodla.md`.
-- Biblioteka: `lkarwowski494/prompts` (prywatne; add_repo za zgodą właściciela).
+## Liczby (catalog-seed 1.0.0)
+1432 rekordy wariantów: ok-zrodlo 312 · do-researchu 886 · ryzyko-wysokie 148 · nie-publikowac 49 · wycofane 37 (28 poza zakresem, 6 duplikatów, 3 rozdzielone). Wszystkie `publication: ukryta`.
+
+## Decyzje (tablica, 2026-11-01)
+`jaratlas-hierarchia-zrodel`, `jaratlas-katalog-v1-model`, `jaratlas-katalog-v1-e1`, `jaratlas-katalog-v1-e3-zakres` (E3: twierdzenia krytyczne + drugi werdykt dla 197 ostrzeżeń + odpowiedniość 312 ok-zrodlo). Rozstrzygnięcia agenta do weta: raport E1 §4.
+
+## E3: gdzie przerwano
+- 6 weryfikatorów uruchomionych w poprzedniej sesji (instrukcja `docs/tresci/badania/E3/BRIEF-WERYFIKATOR.md`); ich wyniki były tylko w scratchpadzie poprzedniego kontenera. **Nowa sesja uruchamia weryfikację od nowa.**
+- Wejście weryfikatorów: twierdzenia krytyczne potwierdzone z `rejestr.json` (podział A: FER+ACI 227, B: SZY+SLO+OLE 206, C: SUS+NAP+MLE+MIE+E2-FRZ 222), warianty ryzyko-wysokie/nie-publikowac (197), ok-zrodlo (312, dwie połowy), `produkty`; bez pól `notes` (niezależność).
+- Teksty źródeł nie są w repo: pobrać ponownie z `docs/tresci/badania/zrodla-indeks.tsv` (sha12, URL, data; UA `Apps4Brew-research/1.0`) do `<scratchpad>/zrodla/<sha12>.txt` (HTML → tekst jak w BRIEF badacza; PDF `pdftotext -layout`). Uwaga: kilka źródeł pobrano przez Europe PMC API i publications.europa.eu, a 13 twierdzeń jest roboczych.
+
+## Ograniczenia
+cdc.gov, fsis.usda.gov, efsa.europa.eu, anrcatalog.ucanr.edu: 403; eur-lex: 202 bez treści; pmc.ncbi.nlm.nih.gov: reCAPTCHA. Repo publiczne: bez kopii stron źródeł.
+
+## Otwarte (najważniejsze)
+- Słoiki: czasy USDA dla pint/quart (0,47/0,95 l), nie 0,5/1 l [DO USTALENIA].
+- Procedury niemal wyłącznie USA; brak unijnego/polskiego odpowiednika domowego wekowania.
+- Oliwki: UC ANR 8267 tylko przez narzędzie (krok właściciela: pobrać PDF w przeglądarce).
+- Kroki właściciela później: przegląd eksperta treści krytycznych, gdy strona zyska użytkowników (D-027 d).
 
 ## Następny krok
-**E3 w toku** (decyzja `2026-11-01-jaratlas-katalog-v1-e3-zakres`): 6 weryfikatorów w świeżym kontekście (twierdzenia krytyczne A/B/C, drugi werdykt 197 ostrzeżeń, odpowiedniość 312 ok-zrodlo); instrukcja `docs/tresci/badania/E3/BRIEF-WERYFIKATOR.md`. Wyniki w scratchpadzie `…/scratchpad/e3/wyniki/` (po restarcie kontenera: uruchomić weryfikację ponownie). Potem: poprawki według werdyktów, `kontrole-tresci --przeglad zastępczy`, raport v0→v1, przekazanie.
+E3: (1) pobrać źródła z indeksu; (2) uruchomić 6 weryfikatorów według BRIEF-WERYFIKATOR; (3) poprawki według werdyktów (CZĘŚCIOWO → brzmienie, NIEPOPARTE/SPRZECZNE → robocze/usunięcie, statusy wariantów); (4) `przeglad: { kto: "weryfikacja zastępcza (subagent)", data, sha }` dla POPARTE, `kontrole-tresci --przeglad zastępczy` bez `--przed-przegladem` kod 0; (5) raport v0 → v1, `docs/sztafeta.md`, przekazanie → STOP.
