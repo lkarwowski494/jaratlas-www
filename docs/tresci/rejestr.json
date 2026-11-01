@@ -25536,7 +25536,7 @@
  },
  {
   "id": "ACI-211",
-  "twierdzenie": "Ostrożna reguła JarAtlas dla przepisów NCHFP z octem 5%: używaj octu z etykietą 5% albo 6%; octu 10% nie używaj i nie rozcieńczaj go samodzielnie wodą.",
+  "twierdzenie": "Ostrożna reguła JarAtlas dla przepisów NCHFP z octem 5%: używać białego octu destylowanego (spirytusowego) albo jabłkowego z etykietą 5% albo 6%; octu 10% nie używać i nie rozcieńczać go wodą, żeby uzyskać 5%; wody dodawać tylko tyle, ile podaje przepis.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/",
@@ -25564,10 +25564,28 @@
     "szczebel": 3,
     "weryfikacja": "curl+grep",
     "sha12": "840e97bac395"
+   },
+   {
+    "adres": "https://extension.psu.edu/advice-about-vinegar",
+    "miejsce": "Penn State Extension: Advice about Vinegar (M. Zepp, aktualizacja 2026-07-08), Other Tips",
+    "cytat": "If your research-tested recipe does not specify a particular type of vinegar, you may safely use either white or cider vinegar as long as it is labeled as 5% acidity.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "840e97bac395"
+   },
+   {
+    "adres": "https://extension.psu.edu/advice-about-vinegar",
+    "miejsce": "Penn State Extension: Advice about Vinegar (M. Zepp, aktualizacja 2026-07-08), Other Tips",
+    "cytat": "Specialty vinegars include red or white wine vinegar, malt vinegar, balsamic, and other flavored vinegars. Use these only when specified in a research-tested recipe.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "840e97bac395"
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła. Ocet 6% w miejscu 5% daje ok. 1,2 raza więcej kwasu (strona bezpieczna, smak kwaśniejszy) i mieści się w zakresie Penn State 5–7% (ACI-209). Ocet 10% jest poza tym zakresem, a rozcieńczenie 1:1 zmienia proporcję wody w przepisie (ACI-016) i nie jest w przepisie przebadanym (ACI-210); błąd odmierzenia obniżyłby kwasowość. Odrzucone: tylko 5% (bez zysku dla bezpieczeństwa, trudno dostępny w części Europy — teza niesprawdzona, nie trafia do kart); 10% rozcieńczony 1:1 (sprzeczny z ACI-210).",
+  "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła. Ocet 6% w miejscu 5% daje ok. 1,2 raza więcej kwasu (strona bezpieczna, smak kwaśniejszy) i mieści się w zakresie Penn State 5–7% (ACI-209). Ocet 10% jest poza tym zakresem, a rozcieńczenie 1:1 zmienia proporcję wody w przepisie (ACI-016) i nie jest w przepisie przebadanym (ACI-210); błąd odmierzenia obniżyłby kwasowość. Odrzucone: tylko 5% (bez zysku dla bezpieczeństwa, trudno dostępny w części Europy — teza niesprawdzona, nie trafia do kart); 10% rozcieńczony 1:1 (sprzeczny z ACI-210). Rodzaj octu: Penn State dopuszcza biały albo jabłkowy z etykietą 5%, octy specjalne (winne, słodowe, balsamiczne, smakowe) tylko gdy przepis je podaje; „ocet spirytusowy” to polski odpowiednik octu białego destylowanego (z alkoholu destylowanego) — przekład nazwy, do przeglądu eksperta. Brzmienie „nie rozcieńczaj, żeby uzyskać 5%; tylko woda z przepisu” według uwagi weryfikacji zastępczej 2026-11-02.",
   "krytyczne": true,
   "przeglad": null,
   "wazne_do": "2027-11-02",
@@ -25612,7 +25630,7 @@
  },
  {
   "id": "ACI-213",
-  "twierdzenie": "NCHFP Pickled Beets: odciąć liście, zostawiając 1 cal (ok. 2,5 cm) łodygi i korzenie, żeby buraki nie traciły barwy; dokładnie umyć, posortować według wielkości; buraki podobnej wielkości zalać wrzącą wodą i gotować do miękkości (ok. 25–30 minut); wodę odlać i wylać; buraki ostudzić, odciąć korzenie i łodygi, zdjąć skórkę i pokroić w plastry grubości 1/4 cala (ok. 0,6 cm); cebulę obrać i cienko pokroić.",
+  "twierdzenie": "NCHFP Pickled Beets: odciąć liście, zostawiając 1 cal (ok. 2,5 cm) łodygi i korzenie, żeby buraki nie traciły barwy; dokładnie umyć, posortować według wielkości; buraki podobnej wielkości zalać wrzącą wodą i gotować do miękkości (ok. 25–30 minut); uwaga (wyróżniona w źródle): wodę odlać i wylać; buraki ostudzić, odciąć korzenie i łodygi, zdjąć skórkę i pokroić w plastry grubości 1/4 cala (ok. 0,6 cm); cebulę obrać i cienko pokroić.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
@@ -25626,7 +25644,7 @@
    {
     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
     "miejsce": "NCHFP (nchfp.uga.edu): Pickled Beets, Procedure",
-    "cytat": "Drain and discard liquid. Cool beets. Trim off roots and stems and slip off skins. Slice into 1/4-inch slices. Peel and thinly slice onions.",
+    "cytat": "Caution: Drain and discard liquid. Cool beets. Trim off roots and stems and slip off skins. Slice into 1/4-inch slices. Peel and thinly slice onions.",
     "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
@@ -26077,7 +26095,7 @@
  },
  {
   "id": "SLO-144",
-  "twierdzenie": "Ostrożna reguła JarAtlas: do dżemu brzoskwiniowego NCHFP używać brzoskwiń o żółtym miąższu, bo NCHFP nie ma przetestowanego procesu wekowania brzoskwiń o białym miąższu (część odmian ma pH powyżej 4,6), a strona przepisu na dżem nie mówi, czy jego badanie obejmowało brzoskwinie o białym miąższu.",
+  "twierdzenie": "Ostrożna reguła JarAtlas: do dżemu brzoskwiniowego NCHFP używać brzoskwiń o żółtym miąższu, bo NCHFP nie ma przetestowanego procesu wekowania brzoskwiń o białym miąższu (część odmian ma pH powyżej 4,6), a strona przepisu na dżem nie mówi, czy jego badanie obejmowało brzoskwinie o białym miąższu. Przepis NCHFP na dżem dotyczy brzoskwiń i nie obejmuje nektarynek (strona ich nie wymienia).",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
@@ -26092,6 +26110,15 @@
     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
     "miejsce": "NCHFP (nchfp.uga.edu): Peach Jam Pectin, Procedure",
     "cytat": "Sort and wash fully ripe peaches. Remove stems, skins, and pits. Crush peaches.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "85c7099f8c88"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peach Jam Pectin, składniki",
+    "cytat": "3¾ cups crushed peaches (about 3 pounds peaches)",
     "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",

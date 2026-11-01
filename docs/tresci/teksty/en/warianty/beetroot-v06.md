@@ -4,7 +4,7 @@ This card describes NCHFP pickled beets: cooked beets in a vinegar, sugar and wa
 
 ## Why the recipe must not be changed
 
-Beets are not an acid food: their natural pH is about 5.30–6.60. [T:ACI-104]
+Beets are not an acid food: their natural pH is about 5.30–6.60. [T:ACI-104,FER-001]
 
 Rules in the USA count as acid foods only those with a natural pH of 4.6 or below. [T:FER-001]
 
@@ -16,7 +16,7 @@ For pickles, white distilled vinegar and cider vinegar with 5% acidity are recom
 
 Penn State Extension advises vinegar of 5–7% acidity for home food preservation and advises against diluting vinegar with water unless a research-tested recipe says so. [T:ACI-209,ACI-210]
 
-JarAtlas rule (cautious, for readers outside the USA): use vinegar labelled 5% or 6% acidity; do not use 10% vinegar and do not dilute it with water yourself. [T:ACI-211]
+JarAtlas rule (cautious, for readers outside the USA): use white distilled (spirit) vinegar or cider vinegar labelled 5% or 6% acidity; do not use 10% vinegar and do not dilute it with water to make 5% vinegar; add only the water the recipe lists. [T:ACI-211,ACI-018]
 
 ## Ingredients
 
@@ -34,7 +34,7 @@ Wash the beets thoroughly and sort them by size. [T:ACI-213]
 
 Cover beets of similar size with boiling water and cook until tender, about 25–30 minutes. [T:ACI-213]
 
-Drain and discard the cooking liquid, then cool the beets. [T:ACI-213]
+Caution (NCHFP): drain and discard the cooking liquid; then cool the beets. [T:ACI-213]
 
 Trim off the roots and stems, slip off the skins and cut the beets into slices 1/4 inch (about 0.6 cm) thick. [T:ACI-213]
 

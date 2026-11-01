@@ -10,7 +10,9 @@ NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
 
 NCHFP ostrzega, żeby w tradycyjnych przepisach nie zmniejszać cukru: za mało cukru uniemożliwia żelowanie i może pozwolić na rozwój drożdży i pleśni. [T:SLO-001]
 
-Reguła JarAtlas (ostrożna): używaj brzoskwiń o żółtym miąższu, bo NCHFP nie ma przetestowanego procesu wekowania brzoskwiń o białym miąższu, a przepis na dżem nie mówi, czy jego badanie je obejmowało. [T:SLO-144]
+Reguła JarAtlas (ostrożna): używaj brzoskwiń o żółtym miąższu, bo NCHFP nie ma przetestowanego procesu wekowania brzoskwiń o białym miąższu, a przepis na dżem nie mówi, czy jego badanie je obejmowało. [T:SLO-144,SLO-127]
+
+Reguła JarAtlas: ten przepis NCHFP dotyczy brzoskwiń; nie obejmuje nektarynek. [T:SLO-144]
 
 ## Przygotowanie
 

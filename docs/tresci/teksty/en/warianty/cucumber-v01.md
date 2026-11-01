@@ -6,11 +6,11 @@ This card describes the NCHFP recipe for fermented dill pickles, in which the br
 
 For each gallon of container capacity, NCHFP lists 4 pounds of 4-inch pickling cucumbers, 1/2 cup of salt, 1/4 cup of 5% vinegar and 8 cups of water. [T:FER-042]
 
+Garlic and dried red pepper are optional. [T:FER-042]
+
 Penn State Extension advises vinegar of 5–7% acidity for home food preservation and advises against diluting vinegar with water unless a research-tested recipe says so. [T:ACI-209,ACI-210]
 
-JarAtlas rule (cautious, for readers outside the USA): use vinegar labelled 5% or 6% acidity; do not use 10% vinegar and do not dilute it with water yourself. [T:ACI-211]
-
-Garlic and dried red pepper are optional. [T:FER-042]
+JarAtlas rule (cautious, for readers outside the USA): use white distilled (spirit) vinegar or cider vinegar labelled 5% or 6% acidity; do not use 10% vinegar and do not dilute it with water to make 5% vinegar; add only the water the recipe lists. [T:ACI-211,ACI-018]
 
 Cut off and discard a 1/16-inch slice from the blossom end, because it may contain softening enzymes. [T:FER-048]
 

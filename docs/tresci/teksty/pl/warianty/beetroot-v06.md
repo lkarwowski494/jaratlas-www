@@ -4,7 +4,7 @@ Ta karta opisuje buraczki w occie według NCHFP: ugotowane buraki w zalewie z oc
 
 ## Dlaczego nie wolno zmieniać przepisu
 
-Buraki nie są żywnością kwaśną: ich naturalne pH wynosi ok. 5,30–6,60. [T:ACI-104]
+Buraki nie są żywnością kwaśną: ich naturalne pH wynosi ok. 5,30–6,60. [T:ACI-104,FER-001]
 
 Przepisy USA uznają za żywność kwaśną tylko żywność o naturalnym pH 4,6 lub niższym. [T:FER-001]
 
@@ -16,7 +16,7 @@ Do pikli zalecany jest biały ocet destylowany i ocet jabłkowy o kwasowości 5%
 
 Penn State Extension zaleca do domowych przetworów ocet o kwasowości 5–7% i odradza rozcieńczanie octu wodą, chyba że przebadany przepis wyraźnie to nakazuje. [T:ACI-209,ACI-210]
 
-Reguła JarAtlas (ostrożna, dla czytelników spoza USA): używaj octu z etykietą 5% albo 6%; nie używaj octu 10% i nie rozcieńczaj go samodzielnie wodą. [T:ACI-211]
+Reguła JarAtlas (ostrożna, dla czytelników spoza USA): używaj octu spirytusowego (białego destylowanego) albo jabłkowego z etykietą 5% albo 6%; nie używaj octu 10% i nie rozcieńczaj go wodą, żeby uzyskać 5%; dodawaj tylko tyle wody, ile podaje przepis. [T:ACI-211,ACI-018]
 
 ## Składniki
 
@@ -34,7 +34,7 @@ Buraki dokładnie umyj i posortuj według wielkości. [T:ACI-213]
 
 Buraki podobnej wielkości zalej wrzącą wodą i gotuj do miękkości, ok. 25–30 minut. [T:ACI-213]
 
-Wodę z gotowania odlej i wylej, a buraki ostudź. [T:ACI-213]
+Uwaga (NCHFP): wodę z gotowania odlej i wylej; potem buraki ostudź. [T:ACI-213]
 
 Odetnij korzenie i łodygi, zdejmij skórkę i pokrój buraki w plastry grubości 1/4 cala (ok. 0,6 cm). [T:ACI-213]
 
