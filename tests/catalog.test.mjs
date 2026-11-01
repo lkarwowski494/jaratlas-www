@@ -50,7 +50,7 @@ test('produkt graniczny bez zakwaszenia tylko z jawnym wyjątkiem z listy w wali
   const r = [claim('T-1'), claim('E3-002')];
   const kat = (zm = {}) => {
     const c = base(); c.products.push({ id: 'apricot', acidity: 'borderline', acidityClaim: 'T-1' });
-    c.variants.push({ id: 'apricot-v08', productId: 'apricot', processFamilyId: 'canned-foods', preservationMethod: 'water-bath', acidBasis: 'natural-acid', safetyStatus: 'ok-zrodlo', claims: ['T-1'], sources: [recipe], publication: 'ukryta', scope: 'in', acidityException: { warning: 'E3-002' }, requiredWarnings: ['E3-002'], ...zm });
+    c.variants.push({ id: 'apricot-v08', productId: 'apricot', processFamilyId: 'canned-foods', preservationMethod: 'water-bath', acidBasis: 'natural-acid', safetyStatus: 'ok-zrodlo', claims: ['T-1'], sources: [recipe], publication: 'ukryta', scope: 'in', acidityException: { warning: 'E3-002', decyzja: '2026-11-02-jaratlas-06-katalog-p4' }, requiredWarnings: ['E3-002'], ...zm });
     return c;
   };
   assert.deepEqual(errs(kat(), r), []);
@@ -60,11 +60,34 @@ test('produkt graniczny bez zakwaszenia tylko z jawnym wyjątkiem z listy w wali
     ['status do-researchu', { safetyStatus: 'do-researchu' }],
     ['status nie-publikowac', { safetyStatus: 'nie-publikowac', cardType: 'warning' }],
     ['przepis tylko szczebla 3', { sources: [{ ...recipe, szczebel: 3 }] }],
-    ['inne ostrzeżenie niż na liście', { acidityException: { warning: 'T-1' }, requiredWarnings: ['T-1'] }],
+    ['inne ostrzeżenie niż na liście', { acidityException: { warning: 'T-1', decyzja: '2026-11-02-jaratlas-06-katalog-p4' }, requiredWarnings: ['T-1'] }],
   ]) assert.ok(has(errs(kat(zm), r), /apricot-v08.*graniczn/), opis);
   // Pomidor z tym samym wyjątkiem i ostrzeżeniem moreli: nadal błąd (przegląd D-043, 2026-11-02).
-  const c = base(); c.variants.push({ id: 'tomato-v02', productId: 'tomato', processFamilyId: 'canned-foods', preservationMethod: 'water-bath', acidBasis: 'natural-acid', safetyStatus: 'ok-zrodlo', claims: ['T-1'], sources: [recipe], publication: 'ukryta', scope: 'in', acidityException: { warning: 'E3-002' }, requiredWarnings: ['E3-002'] });
+  const c = base(); c.variants.push({ id: 'tomato-v02', productId: 'tomato', processFamilyId: 'canned-foods', preservationMethod: 'water-bath', acidBasis: 'natural-acid', safetyStatus: 'ok-zrodlo', claims: ['T-1'], sources: [recipe], publication: 'ukryta', scope: 'in', acidityException: { warning: 'E3-002', decyzja: '2026-11-02-jaratlas-06-katalog-p4' }, requiredWarnings: ['E3-002'] });
   assert.ok(has(errs(c, r), /tomato-v02.*graniczn/));
+});
+
+test('acidityException: wymagana decyzja (ID wpisu tablicy) i błąd, gdy wyjątek nie ma zastosowania (P3 z przeglądu D-043, 2026-11-02)', () => {
+  const r = [claim('T-1'), claim('E3-002')];
+  const kat = (zm = {}, prod = {}) => {
+    const c = base(); c.products.push({ id: 'apricot', acidity: 'borderline', acidityClaim: 'T-1', ...prod });
+    c.variants.push({ id: 'apricot-v08', productId: 'apricot', processFamilyId: 'canned-foods', preservationMethod: 'water-bath', acidBasis: 'natural-acid', safetyStatus: 'ok-zrodlo', claims: ['T-1'], sources: [recipe], publication: 'ukryta', scope: 'in', acidityException: { warning: 'E3-002', decyzja: '2026-11-02-jaratlas-06-katalog-p4' }, requiredWarnings: ['E3-002'], ...zm });
+    return c;
+  };
+  assert.deepEqual(errs(kat(), r), []);
+  for (const [opis, zm] of [
+    ['bez decyzji', { acidityException: { warning: 'E3-002' } }],
+    ['pusta decyzja', { acidityException: { warning: 'E3-002', decyzja: '' } }],
+    ['decyzja bez daty', { acidityException: { warning: 'E3-002', decyzja: 'katalog-p4' } }],
+    ['decyzja nie jest tekstem', { acidityException: { warning: 'E3-002', decyzja: 20261102 } }],
+    ['decyzja jako tablica (po rzutowaniu pasowałaby do wzorca)', { acidityException: { warning: 'E3-002', decyzja: ['2026-11-02-jaratlas-06-katalog-p4'] } }],
+  ]) assert.ok(has(errs(kat(zm), r), /apricot-v08.*acidityException.*decyzj/), opis);
+  // Martwy wyjątek: pole zostało po zmianie wariantu albo produktu, a reguła go już nie używa.
+  for (const [opis, zm, prod] of [
+    ['acidBasis acidified', { acidBasis: 'acidified' }, {}],
+    ['metoda inna niż water-bath', { preservationMethod: 'refrigerator' }, {}],
+    ['produkt niegraniczny', {}, { acidity: 'acid' }],
+  ]) assert.ok(has(errs(kat(zm, prod), r), /apricot-v08.*acidityException.*bez zastosowania/), opis);
 });
 
 test('ok-zrodlo bez źródła to błąd', () => {

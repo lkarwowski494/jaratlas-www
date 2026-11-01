@@ -80,6 +80,13 @@ export function validateCatalog(cat, rejestr = []) {
       const wyjOk = wyj?.warning && WYJATKI_KWAS[v.productId] === wyj.warning && v.safetyStatus === 'ok-zrodlo' && (v.requiredWarnings ?? []).includes(wyj.warning) && (v.sources ?? []).some((z) => z.szczebel === 1);
       if (p?.acidity === 'borderline' && v.acidBasis === 'natural-acid' && !wyjOk) errors.push(`${g}: produkt graniczny w water-bath wymaga zakwaszenia (acidBasis acidified) albo wyjątku acidityException z listy WYJATKI_KWAS (ok-zrodlo, przepis szczebla 1, ostrzeżenie w requiredWarnings)`);
     }
+    // acidityException (P3 z przeglądu D-043, 2026-11-02): wyjątek musi wskazywać decyzję (ID wpisu tablicy decyzji, zaczyna się datą),
+    // a pole bez zastosowania to błąd, żeby martwy wyjątek nie został po zmianie wariantu albo produktu.
+    if (v.acidityException != null) {
+      const d = v.acidityException.decyzja;
+      if (typeof d !== 'string' || !/^\d{4}-\d\d-\d\d-\S+$/.test(d)) errors.push(`${g}: acidityException bez decyzji (pole decyzja: ID wpisu tablicy decyzji w formacie RRRR-MM-DD-…)`);
+      if (!(v.preservationMethod === 'water-bath' && p?.acidity === 'borderline' && v.acidBasis === 'natural-acid')) errors.push(`${g}: acidityException bez zastosowania (wyjątek dotyczy tylko produktu granicznego w water-bath z acidBasis natural-acid); usuń pole albo popraw wariant`);
+    }
     for (const id of v.claims ?? []) claimOk(id, g);
     for (const id of v.requiredWarnings ?? []) claimOk(id, `${g} ostrzeżenie`);
     if (v.safetyStatus !== 'do-researchu' && !(v.claims ?? []).length) errors.push(`${g}: status ${v.safetyStatus} bez twierdzenia (claims)`);
