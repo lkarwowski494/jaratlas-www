@@ -1,0 +1,953 @@
+[
+ {
+  "id": "cucumber-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Dill Pickles (szczebel 1) to przetestowany przepis na fermentowane ogórki z koprem: 1/2 szklanki soli + 1/4 szklanki octu 5% na 8 szklanek wody, 3–4 tyg. w 70–75°F, potem lodówka 4–6 mies. Wariant zgodny co do składników i procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "cucumber-v03",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Ten sam przepis NCHFP Dill Pickles; czosnek (2 ząbki) jest w nim wymieniony jako składnik opcjonalny. Nazwa nie wskazuje zmiany soli ani octu.",
+  "claims_uwagi": "Warunek: 'po żydowsku' nie może oznaczać ogórków małosolnych ani half-sour (mniej soli, krótka fermentacja). FER-053 i FER-011 mówią, że takich wariantów nikt nie testował; podać pełną sól i occ wg FER-042."
+ },
+ {
+  "id": "cucumber-v18",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pickle Relish (szczebel 1): ogórki, papryka, cebula, 6 szklanek octu 5%, kąpiel wodna 10 min. 'Bostoński' to nazwa regionalnego relishu z ogórków, która nie wskazuje dodatku spoza przepisu.",
+  "claims_uwagi": "Warunek: strona musi podawać przepis NCHFP, a nie inny przepis 'Boston relish'."
+ },
+ {
+  "id": "cucumber-v20",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Clemson HGIC 3085 wymienia ogórek tylko w zdaniu 'Vegetables to try include … cucumber … chips'. W tabeli Clemson nie ma wiersza dla ogórka (przygotowanie, blanszowanie, czas); nie ma go też w tabelach CSU ani MSU. Wzmianka 'warto spróbować' to nie przetestowana procedura. Zagrożenie niskie, ale podstawa słabsza niż wymagana.",
+  "claims_uwagi": "SUS-039 opiera się na tej samej wzmiance; pozostałe twierdzenia są ogólne dla warzyw."
+ },
+ {
+  "id": "white-cabbage-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Sauerkraut (szczebel 1): 25 funtów kapusty na 3/4 szklanki soli (ok. 2,25–2,5%, potwierdza Wisconsin), 70–75°F 3–4 tyg., lodówka albo kąpiel wodna. Wariant to przepis bazowy.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "white-cabbage-v03",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Przepis NCHFP Sauerkraut; kminek to sucha przyprawa w małej ilości, nie zmienia soli, proporcji ani procesu fermentacji.",
+  "claims_uwagi": "Kminku nie ma w przepisie NCHFP; dopuszczone jako przyprawa bez wpływu na bezpieczeństwo. Sól 2,25–2,5% bez zmian."
+ },
+ {
+  "id": "white-cabbage-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla kapusty (paski 1/8\", blanszowanie, 10–12 h, kruche).",
+  "claims_uwagi": "MSU: kapusta 'Fair', łatwo chłonie wilgoć z powietrza (jakość, szczelne opakowanie)."
+ },
+ {
+  "id": "red-savoy-cabbage-v06",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "NCHFP Sauerkraut mówi tylko 'cabbage'; Wisconsin (FER-040) dopuszcza kapustę zieloną i czerwoną i zaznacza, że skład (cukry) zależy od odmiany. Kapusty włoskiej (savoy, luźna główka, inny skład) żadne źródło nie wymienia, a fermentacja zależy od cukrów. Nazwa wariantu ('włoska') wskazuje surowiec spoza przepisu.",
+  "claims_uwagi": "FER-040 obejmuje tylko kapustę czerwoną. Dla czerwonej kiszonej ok-zrodlo byłoby uzasadnione."
+ },
+ {
+  "id": "red-savoy-cabbage-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla kapusty; czerwona i włoska to ta sama kategoria surowca do suszenia (paski, blanszowanie, do kruchości).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "red-savoy-cabbage-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla kapusty; proszek z całkowicie wysuszonych warzyw opisuje Clemson (SUS-040).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "napa-cabbage-v01",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Źródła to przepis CSU (UC ANR 384790) na baechu kimchi w stylu 'mak' (kapusta krojona na kawałki 2\", zanurzenie w solance i 1 szklanka soli na 3–6 h) oraz przepisy OSU, też z kapustą krojoną. Tongbaechu to kimchi z całych połówek główek, solonych inaczej (dłużej, nierówna penetracja soli), czyli inny proces solenia niż w źródłach; końcowa sól 2–5% (FER-061) nie jest w nim sprawdzona.",
+  "claims_uwagi": "FER-066 opisuje przepis 'mak' (kawałki), a nie tongbaechu."
+ },
+ {
+  "id": "napa-cabbage-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Przepis CSU baechu kimchi (szczebel 3): sos rybny opcjonalny (1 łyżeczka); pierwszy przepis OSU Kimchi Basics też jest bez sosu rybnego. Wersja wegańska mieści się w przepisie.",
+  "claims_uwagi": "Pominąć też krewetki i pastę rybną; inne zamienniki (np. pasta miso) są poza przepisem."
+ },
+ {
+  "id": "napa-cabbage-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Przepis CSU baechu kimchi zawiera imbir (ok. 3 plastry); Newell/OSU 3 łyżki imbiru. Wariant mieści się w przepisie.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "napa-cabbage-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Przepis CSU baechu kimchi zawiera 'Asian pear (optional)'. Gruszka to składnik przewidziany w przepisie.",
+  "claims_uwagi": "Przepis podaje gruszkę azjatycką (nashi); zwykła gruszka w tej samej ilości to minimalna zmiana bez wpływu na sól. Lepiej napisać 'gruszka (nashi)'."
+ },
+ {
+  "id": "cauliflower-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla kalafiora (blanszowanie 4–5 min, 12–15 h).",
+  "claims_uwagi": "MSU: jakość 'Poor'."
+ },
+ {
+  "id": "broccoli-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla brokułu (blanszowanie, łodygi ćwiartowane, 12–15 h, kruche).",
+  "claims_uwagi": "MSU ocenia brokuł do suszenia jako 'Not recommended' (jakość, nie bezpieczeństwo); warto o tym wspomnieć."
+ },
+ {
+  "id": "broccoli-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla brokułu; proszek wg Clemson (SUS-040).",
+  "claims_uwagi": "MSU: 'Not recommended' (jakość)."
+ },
+ {
+  "id": "brussels-kohlrabi-v07",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "NCHFP Pickled Cauliflower or Brussel Sprouts (szczebel 1) podaje 4 szklanki octu BIAŁEGO 5%, cukier, gorczycę, kurkumę, kąpiel wodną 10 min. Gorczyca jest w przepisie, ale nazwa wariantu wskazuje inny ocet (jabłkowy), a brief wymienia to wprost jako przypadek bez ok-zrodlo. ACI-018/019 (NCHFP) mówią, że jabłkowy 5% jest zalecany do pikli, a wybór biały/jabłkowy to kwestia koloru; jeśli redakcja uzna to za bezpośredni odpowiednik i wymusi kwasowość min. 5% bez zmiany ilości, można przywrócić ok-zrodlo.",
+  "claims_uwagi": "ACI-019 jako podstawa zamiany octu: do decyzji; dopisać wymóg 'ocet jabłkowy min. 5%'."
+ },
+ {
+  "id": "zucchini-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pickled Bread-and-Butter Zucchini (szczebel 1): cukinia, cebula, ocet biały 5%, cukier, gorczyca, seler, kurkuma. Słodko-kwaśne pikle z kurkumą to dokładnie ten przepis.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "zucchini-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Zucchini-Pineapple (szczebel 1): cukinia, niesłodzony sok ananasowy, 1,5 szklanki butelkowanego soku z cytryny, cukier; kąpiel wodna 15 min (półlitrowe/pinty). Wariant zgodny.",
+  "claims_uwagi": "Tylko słoiki do 1 pinty, sok z cytryny butelkowany (bez zamiany na świeży)."
+ },
+ {
+  "id": "zucchini-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Tomatoes with Okra or Zucchini (szczebel 1): ok. 3 funty pomidorów na 1 funt cukinii, żywność niskokwasowa, tylko szybkowar 30/35 min. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "zucchini-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla cukinii (dynia letnia: plastry 1/4\", blanszowanie, 10–12 h); chipsy z cukinii wymienia Clemson.",
+  "claims_uwagi": "MSU: zucchini 'Poor to fair' (jakość)."
+ },
+ {
+  "id": "pumpkin-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla dyni (pumpkin & hubbard: paski, blanszowanie, 10–16 h).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pumpkin-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pumpkin Seeds (szczebel 1): suszenie 115–120°F 1–2 h (lub piekarnik), potem prażenie z olejem i/lub solą w 250°F 10–15 min. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "leafy-greens-v07",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "NCHFP Spinach and Other Greens (szczebel 1): same liście, z wyciętymi twardymi łodygami i nerwami, zblanszowane parą, luźno w słoikach, zalane wrzątkiem, 70/90 min. Nazwa wskazuje dodatek spoza przepisu (koperek) i przeznaczenie 'na barszcz' (zwykle z łodygami lub botwinką z buraczkami, gęściej pakowane). Gęstość i skład wsadu wpływają na penetrację ciepła; NCHFP wyklucza zieleninę z mieszanek (SZY-022).",
+  "claims_uwagi": "SZY-038 obejmuje wyłącznie liście; w nazwie nie powinno być koperku ani 'na barszcz'. Sama boćwina wg SZY-038 to ok-zrodlo."
+ },
+ {
+  "id": "leafy-greens-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Freezing Pesto (szczebel 1, So Easy to Preserve) dotyczy pesto jako kategorii (surowa mieszanka zieleniny, czosnku, orzechów i oleju): lodówka maks. 3 dni albo zamrażanie. Bezpieczeństwo zapewnia zamrażanie, niezależne od rodzaju zieleniny; pesto z jarmużu mieści się w tej kategorii.",
+  "claims_uwagi": "requiredWarnings jest puste, a OLE-043 (lodówka maks. 3 dni) to granica krytyczna; dodać ostrzeżenie: bez przechowywania w temperaturze pokojowej, w lodówce maks. 3 dni."
+ },
+ {
+  "id": "leafy-greens-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Freezing Pesto (szczebel 1, So Easy to Preserve) dotyczy pesto jako kategorii (surowa mieszanka zieleniny, czosnku, orzechów i oleju): lodówka maks. 3 dni albo zamrażanie. Bezpieczeństwo zapewnia zamrażanie, niezależne od rodzaju zieleniny; pesto ze szpinaku mieści się w tej kategorii.",
+  "claims_uwagi": "requiredWarnings jest puste, a OLE-043 (lodówka maks. 3 dni) to granica krytyczna; dodać ostrzeżenie: bez przechowywania w temperaturze pokojowej, w lodówce maks. 3 dni."
+ },
+ {
+  "id": "leafy-greens-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla jarmużu (wiersz 'Spinach; greens like Kale, Chard': blanszowanie, 6–10 h, kruche).",
+  "claims_uwagi": "Warunek: chipsy bez oleju i mokrych przypraw przed suszeniem (tego tabele nie obejmują). MSU: jarmuż 'Poor' (jakość)."
+ },
+ {
+  "id": "leafy-greens-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla szpinaku; Clemson podaje 'powdered spinach' (Tabela 1) i proszki (SUS-040).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "leafy-greens-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla boćwiny (chard w wierszu Greens).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "vine-leaves-greens-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Freezing Pesto (szczebel 1, So Easy to Preserve) dotyczy pesto jako kategorii (surowa mieszanka zieleniny, czosnku, orzechów i oleju): lodówka maks. 3 dni albo zamrażanie. Bezpieczeństwo zapewnia zamrażanie, niezależne od rodzaju zieleniny; pesto z rukwi wodnej mieści się w tej kategorii.",
+  "claims_uwagi": "requiredWarnings jest puste, a OLE-043 (lodówka maks. 3 dni) to granica krytyczna; dodać ostrzeżenie: bez przechowywania w temperaturze pokojowej, w lodówce maks. 3 dni."
+ },
+ {
+  "id": "vine-leaves-greens-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Herbs (szczebel 1): ogólna procedura suszenia liści ziół w suszarce w 95–115°F (do 125°F), 1–4 h, do kruchości. Młode liście jęczmienia to miękkie liście, które suszy się tak samo; bezpośredni odpowiednik.",
+  "claims_uwagi": "SUS-033: miękkie liście szybko pleśnieją, więc suszyć szybko i do kruchości."
+ },
+ {
+  "id": "vine-leaves-greens-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Herbs: ogólna procedura suszenia liści ziół; pokrzywa to typowe ziele liściaste, suszone tak samo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "tomato-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Standard Tomato Sauce (szczebel 1) z zakwaszeniem wg Tomato Acidification Directions (1 łyżka soku z cytryny lub 1/4 łyżeczki kwasu cytrynowego na pint), kąpiel wodna 35/40 min. Passata to rzadki przecier pomidorowy, czyli ten sam produkt.",
+  "claims_uwagi": "Bez dodatków (cebula, oliwa, bazylia); inaczej to nie jest przepis standardowy."
+ },
+ {
+  "id": "tomato-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Tomato Juice (szczebel 1) z zakwaszeniem, kąpiel wodna 35/40 min. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "tomato-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Whole or Halved Tomatoes packed in tomato juice (szczebel 1), zakwaszone, 85 min. Pelati to całe obrane pomidory w soku, czyli ten sam produkt.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "tomato-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Tomato Paste (szczebel 1): pomidory typu Roma, kwas cytrynowy dodany przed odparowaniem, tylko słoiki 1/2 pinty, 45 min. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "tomato-v12",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Źródło NCHFP Spaghetti Sauce with Meat (szczebel 1, szybkowar 60/70 min) zawiera pomidory, mięso mielone, cebulę, czosnek, seler lub zieloną paprykę, pieczarki i przyprawy. Nazwa 'sos boloński' sugeruje klasyczne ragù z marchwią, mlekiem lub śmietaną, winem i pancettą; tych składników nie ma w przepisie (nabiału w domowych przetworach się nie wekuje). Nazwa sugeruje skład spoza przepisu. Po zmianie nazwy na 'sos do spaghetti z mięsem (NCHFP)' wariant mógłby dostać ok-zrodlo.",
+  "claims_uwagi": "acidBasis 'acidified' jest niezgodne ze źródłem: NCHFP wprost mówi, że ten przepis to żywność niskokwasowa i nie wymaga dodatku kwasu ('does not need added acid'). Poprawić na 'low-acid'."
+ },
+ {
+  "id": "tomato-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Tomato Ketchup (ocet jabłkowy 5%) i Blender Ketchup (szczebel 1), kąpiel wodna 15 min (pinty). Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "tomato-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Trzy przetestowane salsy NCHFP (szczebel 1): Tomato Salsa with Paste Tomatoes, Chile Salsa, Choice Salsa. Salsa meksykańska z pomidorów, papryczek i cebuli mieści się w nich; NCHFP pozwala zmieniać tylko ilość przypraw i ziół.",
+  "claims_uwagi": "Warunek: wybrać jeden z trzech przepisów bez zmian proporcji (ACI-040, ACI-041); kolendra jest opcjonalna."
+ },
+ {
+  "id": "tomato-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla pomidorów (sparzenie, obranie, zanurzenie w kwasie cytrynowym wg CSU, 6–24 h, kruche).",
+  "claims_uwagi": "'Na sucho' oznacza samo suszenie, bez zalewania oliwą (pomidory w oliwie to inny proces, OLE)."
+ },
+ {
+  "id": "green-cherry-tomato-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pickled Green Tomato Relish (szczebel 1): zielone pomidory, papryka, cebula, ocet 5%, cukier, musztarda, skrobia (w przepisie), kąpiel wodna 5 min, słoiki sterylne. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "green-cherry-tomato-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Tomatillo Green Salsa (szczebel 1) zawiera notę: 'You may use green tomatoes in this recipe instead of tomatillos'. Salsa verde z zielonych pomidorów jest więc wprost dopuszczona.",
+  "claims_uwagi": "Inne zmiany tylko w ilości przypraw i ziół; sok z cytryny lub limonki butelkowany."
+ },
+ {
+  "id": "green-cherry-tomato-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Whole or Halved Tomatoes packed raw without added liquid (szczebel 1), zakwaszone, 85 min. Pomidory koktajlowe to pomidory w całości, czyli bezpośredni odpowiednik bez zmiany kwasu ani procesu.",
+  "claims_uwagi": "Kwas (ACI-044/045) obowiązkowo w każdym słoiku. Jeśli w wariancie są zielone pomidory koktajlowe, NCHFP je dopuszcza."
+ },
+ {
+  "id": "bell-pepper-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pickled Bell Peppers (szczebel 1): ocet 5%, woda, cukier, czosnek, sól, kąpiel wodna 5 min. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "bell-pepper-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pickled Hot Peppers (szczebel 1, odmiany Hungarian, Banana, Chile, Jalapeno): 5 szklanek octu 5% na 1 szklankę wody, 10 min. Peperoni (ostre włoskie papryczki) mieszczą się w kategorii 'hot long peppers'.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "bell-pepper-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Marinated Peppers (szczebel 1): papryka z opaloną i zdjętą skórką, 1 szklanka butelkowanego soku z cytryny, 2 szklanki octu 5%, 1 szklanka oliwy, czosnek (opcjonalnie), kąpiel wodna 15 min (do 1/2 pinty). Wszystkie składniki z nazwy są w przepisie.",
+  "claims_uwagi": "WARUNEK: nazwa 'pieczona w oliwie z czosnkiem' pomija kwas, a papryka w samym oleju to produkt z ognisk botulizmu (OLE-024). Zmienić nazwę na 'papryka pieczona marynowana (ocet, sok z cytryny, oliwa)' i w treści nie dopuszczać wersji bez kwasu."
+ },
+ {
+  "id": "bell-pepper-v17",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla papryki (paski lub krążki, bez blanszowania wg Clemson i MSU, 8–12 h).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "chili-pepper-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pickled Hot Peppers (szczebel 1); piri-piri to małe ostre papryczki: całe, nacięte 2–4 razy, jak w przepisie.",
+  "claims_uwagi": "Zamieniać tylko rodzaje papryki przy tej samej łącznej masie; proporcja octu bez zmian."
+ },
+ {
+  "id": "chili-pepper-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Golden Pepper Jelly i Mayhaw-Pepper Jelly (szczebel 1): przetestowane galaretki z papryczek z octem 5% i pektyną, kąpiel wodna. Wariant zgodny.",
+  "claims_uwagi": "W Polsce praktyczny jest Golden Pepper Jelly (owoce mayhaw są niedostępne); bez zmiany proporcji octu i cukru."
+ },
+ {
+  "id": "chili-pepper-v18",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabela CSU Drying Vegetables (szczebel 3) ma wiersze 'Chili peppers, green/red' (12–24 h, test suchości); płatki to rozkruszony susz.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "eggplant-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla bakłażana (plastry 1/4\", blanszowanie, 12–14 h).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "potato-sunchoke-v03",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Artichoke (Jerusalem) Pickles (szczebel 1, So Easy to Preserve): 'Vinegar (5%)' bez wskazania rodzaju, sól, kurkuma, cukier, kąpiel wodna 10 min. Ocet jabłkowy 5% spełnia przepis.",
+  "claims_uwagi": "Warunek: ocet jabłkowy min. 5%."
+ },
+ {
+  "id": "potato-sunchoke-v08",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "nie-publikowac",
+  "dlaczego": "Proces szybkowarowy jest przetestowany (NCHFP Potatoes, White – Cubed or Whole, 35/40 min; młode ziemniaki 1–2\" w całości są w przepisie), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione.",
+  "claims_uwagi": "SZY-004/005/009 w claims są sprzeczne z ok-zrodlo dla wariantu, który w nazwie ma tyndalizację."
+ },
+ {
+  "id": "potato-sunchoke-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla ziemniaków (paski 1/4\" lub plastry 1/8\", blanszowanie 5–8 min, kruche).",
+  "claims_uwagi": "Warunek: kostka nie grubsza niż ok. 1/4\" (6 mm), suszyć do kruchości."
+ },
+ {
+  "id": "tomatillo-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Tangy Tomatillo Relish (szczebel 1), przetestowany przepis dla tomatillo. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "green-beans-v08",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "nie-publikowac",
+  "dlaczego": "Proces szybkowarowy jest przetestowany (NCHFP Beans, Snap and Italian, 20/25 min), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006; strona źródłowa: 'There is no safe option for processing green beans in a boiling water canner'). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione.",
+  "claims_uwagi": "Nazwa podaje WYŁĄCZNIE tyndalizację. SZY-034 i strona źródłowa ('no safe option … boiling water canner') przeczą wariantowi w obecnym brzmieniu."
+ },
+ {
+  "id": "green-beans-v09",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Źródło NCHFP Mixed Vegetables (szczebel 1) pozwala łączyć fasolkę i pomidory (całe lub kruszone), ale zalane WODĄ, 75/90 min. 'W sosie pomidorowym' to gęsty płyn zalewowy, którego nie testowano; gęstość zmienia penetrację ciepła w szybkowarze. To zmiana procesu i proporcji poza przepisem.",
+  "claims_uwagi": "SZY-022/023 obejmują mieszankę zalaną wodą, nie sos. Ok-zrodlo byłoby uzasadnione dla 'fasolka z pomidorami (Mixed Vegetables), zalana wodą'."
+ },
+ {
+  "id": "green-beans-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla fasolki szparagowej (blanszowanie 2–4 min, 8–14 h, bardzo sucha, krucha).",
+  "claims_uwagi": "Tabele każą kroić na kawałki lub wzdłuż; całe strąki schną wolniej. Warunek: kroić wg tabeli, suszyć w suszarce lub piekarniku, nie na sznurku na powietrzu (SUS-003)."
+ },
+ {
+  "id": "green-beans-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla fasolki szparagowej; fasolka chińska (długa, Vigna) to strąk jadalny tego samego typu, więc to bezpośredni odpowiednik bez zmiany procesu (blanszowanie, suszarka, do kruchości).",
+  "claims_uwagi": "Warunek: tylko suszarka lub piekarnik; tradycyjne suszenie na słońcu jest niezalecane (SUS-003, w claims)."
+ },
+ {
+  "id": "peas-chickpeas-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Peas, Green or English, Shelled (szczebel 1), szybkowar 40 min (pinty i kwarty). Sól opcjonalna. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "peas-chickpeas-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Beans or Peas – Shelled, Dried, All Varieties (szczebel 1): namaczanie, gotowanie 30 min, 75/90 min. Ciecierzyca to suche nasiona strączkowe, objęte określeniem 'all varieties'.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "peas-chickpeas-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla zielonego groszku (blanszowanie 3 min, 8–10 h).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "beans-soy-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pickled Three-Bean Salad (szczebel 1), przetestowany przepis. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "beans-soy-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Beans, Dry, with Tomato or Molasses Sauce (szczebel 1), szybkowar 65/75 min. Fasola w sosie pomidorowym to dokładnie ten przepis.",
+  "claims_uwagi": "Sos wg przepisu NCHFP, bez zagęszczania mąką."
+ },
+ {
+  "id": "beans-soy-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Beans or Peas – Shelled, Dried, All Varieties (szczebel 1), 75/90 min. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "beans-soy-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Vine Drying (szczebel 1): fasola i soja suszone na krzaku do grzechotania, dosuszanie, pasteryzacja w zamrażarce (0°F, 48 h) albo w piekarniku (160°F, 30 min). Wariant zgodny.",
+  "claims_uwagi": "'Strączki' to dojrzałe strąki suszone na krzaku, z których przechowuje się nasiona; zielonych strąków nie suszyć na powietrzu (SUS-003)."
+ },
+ {
+  "id": "beetroot-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pickled Beets (szczebel 1) ma wariant 'Pickled whole baby beets'; ocet 5%, cynamon, goździki. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "beetroot-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla buraków (gotowane, paski 1/8\", 10–12 h); chipsy z buraków wymienia Clemson.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "beetroot-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla buraków; proszek wg Clemson (SUS-040).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "carrot-v05",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "NCHFP Pickled Carrots (szczebel 1) podaje 5,5 szklanki octu BIAŁEGO destylowanego 5%, gorczycę i nasiona selera. Nazwa wskazuje inny ocet (jabłkowy); brief wymienia to wprost jako przypadek bez ok-zrodlo. Kolendra jest suchą przyprawą bez znaczenia. ACI-018/019 dają podstawę, by uznać ocet jabłkowy 5% za odpowiednik; to decyzja redakcyjna.",
+  "claims_uwagi": "Jeśli redakcja przyjmie ACI-019 jako dopuszczenie zamiany, wymóg 'ocet jabłkowy min. 5%, ta sama ilość' i przywrócić ok-zrodlo."
+ },
+ {
+  "id": "carrot-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Carrots – Sliced or Diced (szczebel 1), szybkowar 25/30 min, sól opcjonalna. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "carrot-v10",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "nie-publikowac",
+  "dlaczego": "Proces szybkowarowy jest przetestowany (NCHFP Mixed Vegetables, 75/90 min; groszek nie jest na liście wykluczeń), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione.",
+  "claims_uwagi": "Nazwa podaje WYŁĄCZNIE tyndalizację; SZY-004/005/009 w claims przeczą statusowi ok-zrodlo."
+ },
+ {
+  "id": "garlic-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Freezing Garlic-In-Oil (szczebel 1): czosnek w oleju świeżo przygotowany, w lodówce maks. 4 dni albo zamrożony; badania NCHFP (Nummer i in. 2011). Konfitowanie (gotowanie w oleju) nie zmienia zagrożenia (OLE-006), a mrożenie je kontroluje. Rozmaryn to zioło w oleju, objęte tym samym zagrożeniem i tą samą kontrolą (zamrażanie).",
+  "claims_uwagi": "requiredWarnings jest puste, a OLE-002/OLE-004 (lodówka maks. 4 dni) to granica krytyczna; dodać ostrzeżenie: bez przechowywania w temperaturze pokojowej, w lodówce maks. 4 dni, potem zamrażać."
+ },
+ {
+  "id": "garlic-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Freezing Garlic-In-Oil (szczebel 1) plus OLE-006 (UC ANR, szczebel 3): to samo zagrożenie dotyczy pieczonego czosnku w oleju. Zamrażanie jest przetestowaną kontrolą.",
+  "claims_uwagi": "requiredWarnings jest puste, a OLE-002/OLE-004 (lodówka maks. 4 dni) to granica krytyczna; dodać ostrzeżenie: bez przechowywania w temperaturze pokojowej, w lodówce maks. 4 dni, potem zamrażać."
+ },
+ {
+  "id": "garlic-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Clemson HGIC 3085 i MSU MT200907HR (szczebel 3) mają wiersz 'Garlic': obrać, drobno posiekać, bez blanszowania, 6–8 h. Płatki to krojenie zamiast siekania; ten sam proces, do kruchości.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "garlic-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Clemson i MSU mają wiersz 'Garlic'; granulat lub proszek z całkowicie wysuszonego czosnku wg Clemson (SUS-040).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "onion-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla cebuli (krążki 1/8–1/4\", 3–10 h, bardzo kruche).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "onion-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Clemson i MSU mają wiersz 'Onions'; proszek cebulowy to najczęstszy proszek wg Clemson (SUS-040).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "shallot-pearl-onion-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pickled Pearl Onions (szczebel 1): białe cebulki perłowe, ocet BIAŁY destylowany 5%, gorczyca, seler. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "shallot-pearl-onion-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Clemson i MSU mają wiersz 'Onions'; czerwona cebula to ta sama kategoria surowca i ten sam proces.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "leek-chives-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA C1334 (szczebel 3) opisuje metodę z NIEZAKWASZONYMI świeżymi ziołami: olej ogrzany do 180°F, potem zioła, w lodówce i wyrzucić po 4 dniach albo zamrozić (OLE-018, OLE-019). Szczypiorek to świeże zioło, więc metoda go obejmuje, a kontrola zagrożenia (lodówka maks. 4 dni lub zamrażanie) nie zależy od rodzaju zioła.",
+  "claims_uwagi": "Cytat w sources jest NIETRAFNY: dotyczy metody zakwaszania, która obejmuje tylko czosnek, bazylię, oregano i rozmaryn, a nie szczypiorek (OLE-016). Zamienić na fragment 'Nonacidified Dried or Fresh Garlic and Herbs … discarded 4 days after being made'. requiredWarnings jest puste; dodać ostrzeżenie: lodówka maks. 4 dni, nigdy temperatura pokojowa."
+ },
+ {
+  "id": "radish-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Freezing Pesto (szczebel 1, So Easy to Preserve) dotyczy pesto jako kategorii (surowa mieszanka zieleniny, czosnku, orzechów i oleju): lodówka maks. 3 dni albo zamrażanie. Bezpieczeństwo zapewnia zamrażanie, niezależne od rodzaju zieleniny; pesto z liści rzodkiewki mieści się w tej kategorii.",
+  "claims_uwagi": "requiredWarnings jest puste, a OLE-043 (lodówka maks. 3 dni) to granica krytyczna; dodać ostrzeżenie: bez przechowywania w temperaturze pokojowej, w lodówce maks. 3 dni."
+ },
+ {
+  "id": "horseradish-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pickled Horseradish Sauce (szczebel 1): 2 szklanki tartego chrzanu, 1 szklanka octu białego 5%, sól, kwas askorbinowy; przechowywanie w lodówce, bez wekowania. Wariant zgodny.",
+  "claims_uwagi": "Bez dodatku śmietany ani buraków (to inne produkty)."
+ },
+ {
+  "id": "horseradish-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla chrzanu ('Horseradish': obrać, zetrzeć, bez blanszowania, 4–10 h, kruchy, proszkujący).",
+  "claims_uwagi": "Tabele każą chrzan ścierać; plastry muszą być cienkie i wysuszone do kruchości. MSU: bardzo silny zapach, wietrzyć."
+ },
+ {
+  "id": "horseradish-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla chrzanu (starty, do stanu 'brittle, powdery'); proszek wg SUS-040.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "parsnip-parsley-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Freezing Pesto (szczebel 1, So Easy to Preserve) dotyczy pesto jako kategorii (surowa mieszanka zieleniny, czosnku, orzechów i oleju): lodówka maks. 3 dni albo zamrażanie. Bezpieczeństwo zapewnia zamrażanie, niezależne od rodzaju zieleniny; pesto z natki i czosnku mieści się w tej kategorii (zielenina, czosnek, olej).",
+  "claims_uwagi": "requiredWarnings jest puste, a OLE-043 (lodówka maks. 3 dni) to granica krytyczna; dodać ostrzeżenie: bez przechowywania w temperaturze pokojowej, w lodówce maks. 3 dni."
+ },
+ {
+  "id": "parsnip-parsley-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU Drying Vegetables (szczebel 3) ma wiersz 'Carrots, parsnips' (plastry 1/8\", blanszowanie 4 min, 6–10 h); chipsy z pasternaku wymienia Clemson (SUS-039).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "turnip-rutabaga-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Penn State 'Let's Preserve: Root Vegetables' (szczebel 3), sekcja 'Turnips (Root) and Rutabaga': gotowanie 5 min, kostka lub plastry, szybkowar pint 30 min, quart 35 min. Cytat pasuje do tej sekcji (identyczny czas jest też dla buraków). Sól opcjonalna.",
+  "claims_uwagi": "PSU: brukiew zwykle ciemnieje i nabiera mocnego smaku, lepiej mrozić (SZY-051); NCHFP nie publikuje własnej procedury dla rzepy, a podstawą jest szczebel 3."
+ },
+ {
+  "id": "turnip-rutabaga-v10",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Jedyne źródło to Clemson HGIC 3085, które wymienia rzepę tylko w zdaniu o chipsach ('Vegetables to try include … turnip'). W tabeli Clemson rzepa jest tylko jako liście (Greens); korzenia rzepy nie ma też w tabeli CSU. MSU ocenia rzepę do suszenia jako 'Fair to good', ale bez wiersza z przygotowaniem i nie jest cytowane. Brak przetestowanej procedury dla korzenia.",
+  "claims_uwagi": "Do uzupełnienia: źródło z procedurą (blanszowanie, czas) dla korzenia rzepy."
+ },
+ {
+  "id": "asparagus-v04",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pickled Asparagus (szczebel 1): ocet biały 5% i woda 1:1, sól, czosnek, koperek, 'small hot peppers (optional)'. Pikantna wersja z chili jest w przepisie.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "asparagus-v06",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "nie-publikowac",
+  "dlaczego": "Proces szybkowarowy jest przetestowany (NCHFP Asparagus – Spears or Pieces, 30/40 min; białe i zielone to szparagi), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione.",
+  "claims_uwagi": "Nazwa podaje WYŁĄCZNIE tyndalizację."
+ },
+ {
+  "id": "asparagus-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Freezing Pesto (szczebel 1, So Easy to Preserve) dotyczy pesto jako kategorii (surowa mieszanka zieleniny, czosnku, orzechów i oleju): lodówka maks. 3 dni albo zamrażanie. Bezpieczeństwo zapewnia zamrażanie, niezależne od rodzaju zieleniny; pesto ze szparagów mieści się w tej kategorii (zamrażanie).",
+  "claims_uwagi": "requiredWarnings jest puste, a OLE-043 (lodówka maks. 3 dni) to granica krytyczna; dodać ostrzeżenie: bez przechowywania w temperaturze pokojowej, w lodówce maks. 3 dni. Szparagi to surowiec niskokwasowy, nie liść; bezpieczeństwo zależy wyłącznie od zamrażania."
+ },
+ {
+  "id": "asparagus-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Tabele CSU Drying Vegetables / Clemson HGIC 3085 / MSU MT200907HR (szczebel 3) mają wiersz z przygotowaniem, blanszowaniem, czasem i testem kruchości dla szparagów (blanszowanie 4–5 min, kruche lub skórzaste).",
+  "claims_uwagi": "MSU: 'Poor to Fair' (jakość)."
+ },
+ {
+  "id": "fennel-artichoke-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Herbs (szczebel 1): suszenie liści, kwiatów i NASION ziół w ciepłym suchym powietrzu lub w suszarce w 95–115°F; nać i nasiona kopru włoskiego mieszczą się w tej procedurze.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "corn-v04",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pickled Corn Relish (szczebel 1): kukurydza, papryka, SELER, cebula, ocet 5%, MUSZTARDA w proszku, kurkuma. Gorczyca i seler z nazwy są w przepisie.",
+  "claims_uwagi": "Zagęszczenie mąką jest w tym przepisie opcjonalne i dozwolone; nie przenosić tego na inne przepisy."
+ },
+ {
+  "id": "corn-v06",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "nie-publikowac",
+  "dlaczego": "Proces szybkowarowy jest przetestowany (NCHFP Corn – Whole Kernel, 55/85 min), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione.",
+  "claims_uwagi": "SZY-004/005/009 w claims przeczą statusowi ok-zrodlo dla nazwy z tyndalizacją."
+ },
+ {
+  "id": "corn-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Corn – Cream Style (szczebel 1): kukurydza i woda, tylko słoiki pint, 85 min; quart niezalecane. 'Creamed corn' to amerykańska nazwa tego produktu.",
+  "claims_uwagi": "Warunek: nazwa 'krem' nie może sugerować dodatku śmietany, masła ani mleka (nabiał nie jest w przepisie, SZY-032); tylko pinty."
+ },
+ {
+  "id": "corn-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Corncob Jelly with Pectin (szczebel 1), kąpiel wodna wg tabeli. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "capers-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Freezing Pesto (szczebel 1, So Easy to Preserve) dotyczy pesto jako kategorii (surowa mieszanka zieleniny, czosnku, orzechów i oleju): lodówka maks. 3 dni albo zamrażanie. Bezpieczeństwo zapewnia zamrażanie, niezależne od rodzaju zieleniny; pasta z kaparów, czosnku i oliwy to pokrewna surowa mieszanka do mrożenia; kapary (solone lub w zalewie) nie zwiększają zagrożenia, a czosnek w oleju kontroluje zamrażanie (OLE-001/OLE-003).",
+  "claims_uwagi": "requiredWarnings jest puste, a OLE-043 (lodówka maks. 3 dni) to granica krytyczna; dodać ostrzeżenie: bez przechowywania w temperaturze pokojowej, w lodówce maks. 3 dni. Kategoria jest przybliżona (to nie pesto), ale zagrożenie i kontrola są te same."
+ },
+ {
+  "id": "asian-american-mix-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Piccalilli (szczebel 1): zielone pomidory, KAPUSTA, papryka, cebula, ocet 5%, brązowy cukier, kąpiel wodna 5 min. 'Kreolski relish z zielonych pomidorów i kapusty' to ten skład.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "apple-v04",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Spiced Apple Rings (szczebel 1): jabłka, cukier, woda, ocet biały 5%, goździki, cynamon. Wariant zgodny.",
+  "claims_uwagi": "NCHFP zaznacza, że to starsza, nadal ważna wersja z bardzo dużą ilością cukru; cukru nie zmniejszać."
+ },
+ {
+  "id": "apple-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Applesauce (szczebel 1), kąpiel wodna wg tabeli. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "apple-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Apple Butter i Apple Butter, Reduced Sugar (szczebel 1), oba przetestowane. 'Ciemne gęste' opisuje efekt długiego odparowania.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "apple-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Apples-Sliced (szczebel 1, hot pack 20 min) z syropem wg Preparing and Using Syrups. Kompot to owoc w lekkim syropie lub wodzie; więcej płynu nie pogarsza bezpieczeństwa owocu kwaśnego.",
+  "claims_uwagi": "Warunek: hot pack (NCHFP: raw pack daje słabą jakość), plastry jak w przepisie."
+ },
+ {
+  "id": "apple-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Apple Chutney (szczebel 1): jabłka, cebula, papryka, złote rodzynki, cukier, ocet jabłkowy 5%. Rodzynki są w przepisie.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "apple-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Apple Juice (szczebel 1), kąpiel wodna 5/10 min. Sok tłoczony wekowany wg przepisu.",
+  "claims_uwagi": "'Pasteryzowany' oznacza wekowanie wg tabeli NCHFP, nie samo podgrzanie i zakręcenie."
+ },
+ {
+  "id": "apple-v17",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU Drying Fruits / Clemson HGIC 3084 (szczebel 3) mają wiersz z obróbką wstępną (kwas/askorbinian, nacinanie skórki) i testem suchości dla jabłek (plastry lub krążki, zanurzenie w kwasie lub askorbinianie, 140°F).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "apple-v18",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Fruit Leathers (szczebel 1): przecier z dodatkiem soku z cytryny lub kwasu askorbinowego, warstwa 1/8\", 140°F, do braku odcisku. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pear-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pear Pickles (szczebel 1): cukier, ocet biały 5%, woda, CYNAMON, GOŹDZIKI, ziele angielskie, gruszki Seckel lub inne. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pear-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pear Relish (szczebel 1): gruszki, cebula, papryka, seler, cukier, ziele angielskie, ocet 5%. Gorczyca to sucha przyprawa w małej ilości, bez wpływu na kwas.",
+  "claims_uwagi": "Gorczycy nie ma w przepisie (dopuszczona jako przyprawa). 'Pikantny' nie może oznaczać dodatku ostrej papryki ponad ilość papryki w przepisie."
+ },
+ {
+  "id": "pear-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pears-Halved (szczebel 1, hot pack 20/25 min) w syropie bardzo lekkim do średniego. Wanilia to aromat bez wpływu na proces.",
+  "claims_uwagi": "acidBasis 'acidified' jest niezgodne ze źródłem: Pears-Halved nie dodaje kwasu (askorbinian tylko przeciw ciemnieniu); ACI-063 dotyczy gruszek AZJATYCKICH. Poprawić na 'natural-acid' i dodać wyłączenie gruszek nashi (osobny przepis z kwasem)."
+ },
+ {
+  "id": "pear-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pears-Halved (szczebel 1, hot pack) plus syropy NCHFP. Kompot to gruszki w lekkim syropie.",
+  "claims_uwagi": "Jak pear-v07: acidBasis powinno być 'natural-acid'; raw pack daje słabą jakość, więc tylko hot pack; gruszki azjatyckie wyłącznie z kwasem (ACI-063)."
+ },
+ {
+  "id": "pear-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU Drying Fruits / Clemson HGIC 3084 (szczebel 3) mają wiersz z obróbką wstępną (kwas/askorbinian, nacinanie skórki) i testem suchości dla gruszek (połówki lub plastry, obróbka kwasem lub askorbinianem).",
+  "claims_uwagi": "Bez wędzenia (susz wigilijny bywa wędzony; to inny proces)."
+ },
+ {
+  "id": "quince-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Quince Jelly without Pectin (szczebel 1), kąpiel wodna wg tabeli. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "plum-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Plums-Halved or Whole (szczebel 1, 20/25 min) w wodzie lub syropie. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "plum-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Plum Jam Pectin (szczebel 1). Renkloda to odmiana śliwki domowej, czyli ten sam surowiec.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "plum-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Fruit Leathers (szczebel 1): ogólny przepis dla przecierów owocowych, cukier opcjonalny, 140°F. Tklapi to skóra ze śliwkowego przecieru.",
+  "claims_uwagi": "Warunek: suszyć wg NCHFP (suszarka lub piekarnik 140°F), bez dodatków spoza przepisu."
+ },
+ {
+  "id": "plum-v17",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU Drying Fruits / Clemson HGIC 3084 (szczebel 3) mają wiersz z obróbką wstępną (kwas/askorbinian, nacinanie skórki) i testem suchości dla śliwek (nacinanie skórki wrzątkiem lub połówki z kwasem, 24–36 h).",
+  "claims_uwagi": "Bez wędzenia (to inny proces)."
+ },
+ {
+  "id": "mirabelle-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Plum Jam Pectin (szczebel 1); mirabelka to śliwka. Przetarcie bez pestek nie zmienia proporcji owoc/cukier/pektyna, jeśli odmierza się 6 szklanek przecieru.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "mirabelle-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Plums-Halved or Whole (szczebel 1); mirabelka to śliwka żółta (pH 3,9–4,45, ACI-130), owoc kwaśny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "mirabelle-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Fruit Leathers (szczebel 1); ałycza (śliwka wiśniowa) to owoc kwaśny, ogólny przepis na skórę owocową.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "mirabelle-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU Drying Fruits / Clemson HGIC 3084 (szczebel 3) mają wiersz z obróbką wstępną (kwas/askorbinian, nacinanie skórki) i testem suchości dla śliwek; mirabelka mieści się w wierszu 'Plums and prunes'.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sour-cherry-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Cherry Jam Pectin (szczebel 1), przepis na wiśnie (sour cherries). Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sour-cherry-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Cherries-Whole (szczebel 1): sweet or sour, w wodzie, soku lub syropie, hot pack z płynem z gotowania. 'We własnym soku' to hot pack.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sour-cherry-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Berry Syrup (szczebel 1); wiśnie są na zamkniętej liście owoców ('cherries'). Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sour-cherry-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Cherries-Whole (szczebel 1) plus syropy NCHFP. Kompot to wiśnie w lekkim syropie.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sour-cherry-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU Drying Fruits / Clemson HGIC 3084 (szczebel 3) mają wiersz z obróbką wstępną (kwas/askorbinian, nacinanie skórki) i testem suchości dla wiśni (nacinanie skórki, pestki usunięte).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sweet-cherry-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Cherries-Whole (szczebel 1) w syropie; wanilia to aromat bez wpływu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sweet-cherry-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Cherries-Whole (szczebel 1) plus syropy NCHFP. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sweet-cherry-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU Drying Fruits / Clemson HGIC 3084 (szczebel 3) mają wiersz z obróbką wstępną (kwas/askorbinian, nacinanie skórki) i testem suchości dla czereśni ('Cherries').",
+  "claims_uwagi": null
+ },
+ {
+  "id": "peach-nectarine-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Peaches-Halved or Sliced (szczebel 1) w lekkim syropie. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "peach-nectarine-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Peach Jam Pectin (szczebel 1). Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "peach-nectarine-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Canning Fruit-based Baby Foods (szczebel 1, słoiki 1/2 pinty i pinty, 20 min) plus Fruit Purees; brzoskwinie nie są na liście wyłączeń.",
+  "claims_uwagi": "SLO-036: bez miodu dla dzieci poniżej 12 mies.; nie dotyczy przecierów warzywnych ani mięsnych (SLO-059)."
+ },
+ {
+  "id": "peach-nectarine-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Peaches-Halved or Sliced i Nectarines-Halved or Sliced (szczebel 1) plus syropy. Kompot to owoc w lekkim syropie.",
+  "claims_uwagi": "Nektaryny: raw pack daje słabą jakość, więc tylko hot pack."
+ },
+ {
+  "id": "peach-nectarine-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU Drying Fruits / Clemson HGIC 3084 (szczebel 3) mają wiersz z obróbką wstępną (kwas/askorbinian, nacinanie skórki) i testem suchości dla brzoskwiń i nektaryn (kwas cytrynowy lub askorbinian 10 min).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "apricot-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Apricot Jam without Pectin (szczebel 1): morele, 1/4 szklanki soku z cytryny, cukier. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "apricot-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Apricots-Halved or Sliced (szczebel 1, hot 20/25 min, raw 25/30 min) w syropie. Wariant zgodny.",
+  "claims_uwagi": "acidBasis 'acidified' jest niezgodne ze źródłem: przepis nie dodaje kwasu (askorbinian tylko przeciw ciemnieniu). Poprawić na 'natural-acid'."
+ },
+ {
+  "id": "apricot-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Fruit Leathers (szczebel 1) dla przecieru morelowego (z sokiem z cytryny lub askorbinianem). Qamar al-din to skóra morelowa.",
+  "claims_uwagi": "Warunek: wg NCHFP (140°F, 1/8\"); tradycyjne smarowanie desek oliwą i suszenie na słońcu nie jest częścią przepisu."
+ },
+ {
+  "id": "apricot-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Apricots-Halved or Sliced (szczebel 1) plus syropy NCHFP. Wariant zgodny.",
+  "claims_uwagi": "Jak apricot-v08: acidBasis powinno być 'natural-acid'."
+ },
+ {
+  "id": "apricot-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU Drying Fruits / Clemson HGIC 3084 (szczebel 3) mają wiersz z obróbką wstępną (kwas/askorbinian, nacinanie skórki) i testem suchości dla moreli (połówki, askorbinian 10 min).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "strawberry-v07",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "NCHFP Strawberry Jam Pectin (szczebel 1) to przepis na zwykłą pektynę i pełny cukier (5,5 szklanki owoców, 8 szklanek cukru). Wariant łączy go z wersją 'niskosłodzoną', na którą źródło nie podaje przepisu. SLO-001 zabrania zmniejszania cukru w tradycyjnych przepisach, a SLO-006 odsyła do instrukcji producenta pektyny o niskim metoksylowaniu. Zmiana cukru wpływa na bezpieczeństwo (pleśnie, drożdże), a nazwa wskazuje ją wprost.",
+  "claims_uwagi": "Rozdzielić: 'klasyczny z pektyną' to ok-zrodlo (SLO-072); 'niskosłodzony' wymaga osobnego przepisu (pektyna LM i instrukcja producenta albo przepis NCHFP reduced-sugar)."
+ },
+ {
+  "id": "strawberry-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Strawberry Preserves (szczebel 1): całe truskawki w syropie, kąpiel wodna wg tabeli. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "strawberry-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Fruit Purees (szczebel 1), 15 min; truskawek nie ma na liście wyłączeń. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "strawberry-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU Drying Fruits / Clemson HGIC 3084 (szczebel 3) mają wiersz z obróbką wstępną (kwas/askorbinian, nacinanie skórki) i testem suchości dla truskawek (owoce miękkie, askorbinian wg CSU; Clemson 'Boysenberries and strawberries').",
+  "claims_uwagi": null
+ },
+ {
+  "id": "raspberry-blackberry-v02",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA/NCHFP FDNS-E-43 i OSU SP 50-736 (szczebel 3): procedura octów smakowych z owocami (jeżyny są na liście OSU) i ziołami; ocet komercyjny, podgrzany do 190–195°F, przechowywanie w lodówce lub chłodzie. Rozmaryn jest wymieniany jako zioło do octów.",
+  "claims_uwagi": "Ocet winny lub ryżowy niezalecany (NAP-037); octu smakowego nie używać do pikli, jeśli nie ma 5% (NAP-042)."
+ },
+ {
+  "id": "raspberry-blackberry-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Berry Syrup (szczebel 1); maliny (czarne lub czerwone) są na zamkniętej liście. 'Gęsty' oznacza najwyżej dłuższe odparowanie, bez zmniejszania cukru.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "raspberry-blackberry-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UC ANR Steam Juicing Basics (szczebel 3): kwaśne soki z owoców jagodowych (bez czarnego bzu) wekowane 15 min w kąpieli wodnej; 'bottling' bez wekowania jest wprost niebezpieczne. Wariant zgodny, jeśli sok jest wekowany.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "raspberry-blackberry-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Berry Jams without Pectin (szczebel 1) z notą o wersji bez pestek: owoce podgrzane i przetarte przez sito, potem cukier. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "raspberry-blackberry-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Fruit Purees (szczebel 1); malin nie ma na liście wyłączeń. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "raspberry-blackberry-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Berries-Whole (szczebel 1); jeżyny są na zamkniętej liście (ACI-068). Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "raspberry-blackberry-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU Drying Fruits / Clemson HGIC 3084 (szczebel 3) mają wiersz z obróbką wstępną (kwas/askorbinian, nacinanie skórki) i testem suchości dla malin (owoce jagodowe miękkie), a NCHFP Herbs (szczebel 1) obejmuje suszenie liści; liście malin to liście ziołowe, suszone tak samo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "currant-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UC ANR Steam Juicing Basics (szczebel 3): porzeczki ('currents') są na liście kwaśnych soków, 15 min w kąpieli wodnej. Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "currant-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Berries-Whole (szczebel 1); porzeczki są na liście (hot pack). Wariant zgodny.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "currant-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU Drying Fruits / Clemson HGIC 3084 (szczebel 3) mają wiersz z obróbką wstępną (kwas/askorbinian, nacinanie skórki) i testem suchości dla porzeczek (CSU 'Grapes and Black Currants'; Clemson 'Berries, Firm … currants': nacinanie skórki wrzątkiem).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "gooseberry-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Berries-Whole (szczebel 1); agrest jest na liście (hot pack, obcięte szypułki i resztki kwiatów). Wariant zgodny.",
+  "claims_uwagi": null
+ }
+]

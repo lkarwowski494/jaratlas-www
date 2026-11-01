@@ -3,7 +3,7 @@
 Aktualizacja: 2026-11-01 (sesja session_01T66VBydUNZSWLkpAUxjXNL). Historia: `docs/archiwum/`.
 
 ## Rola i etap
-06-tresci · build · moduły tresci-krytyczne, kontrole-mechaniczne · zadanie B (katalog v0 → v1). E0, E1, E2 zrobione; **E3 w toku** (weryfikacja zastępcza).
+06-tresci · build · moduły tresci-krytyczne, kontrole-mechaniczne · zadanie B (katalog v0 → v1). E0, E1, E2 zrobione; **E3 prawie gotowe**: werdykty 6 weryfikatorów wprowadzone (`docs/tresci/badania/E3/`, `tools/katalog-v1/e3.mjs`), katalog 1.0.1 (ok 294, do-res. 915, ryzyko 139, nie-publ. 47, wycofane 37), przegląd zastępczy 655 twierdzeń; czeka 1 werdykt (E3-001 i rozstrzygnięcia agenta, `rozstrzygniecia.json`), potem kontrola bez flagi kod 0, sztafeta, przekazanie.
 
 ## Co zrobione (dowody)
 - E0: `docs/tresci/E0-rozpoznanie-2026-11-01.md`. E1: `docs/tresci/E1-rejestr-2026-11-01.md`. E2: `docs/tresci/E2-katalog-2026-11-01.md`.

@@ -1,5 +1,5 @@
 {
- "version": "1.0.0",
+ "version": "1.0.1",
  "generated": "2026-11-01",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -2970,9 +2970,9 @@
     "pl": "Gruszka"
    },
    "category": 5,
-   "acidity": "borderline",
+   "acidity": "acid",
    "acidityClaim": "ACI-127",
-   "acidityNote": "Gruszki europejskie do 4,60 (FDA, Bartlett); gruszki azjatyckie graniczne i wymagają zakwaszenia — najniższa kwasowość w grupie.",
+   "acidityNote": "E3: gruszki europejskie kwaśne (ACI-127); gruszki azjatyckie graniczne (NCHFP), w katalogu brak.",
    "season": null
   },
   {
@@ -3683,7 +3683,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "FER"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cucumber-v02",
@@ -3768,7 +3769,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "FER"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cucumber-v04",
@@ -3987,7 +3989,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cucumber-v10",
@@ -4280,7 +4283,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cucumber-v19",
@@ -4325,22 +4329,14 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SUS-039",
     "SUS-001",
     "SUS-017",
     "SUS-021"
    ],
-   "sources": [
-    {
-     "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
-     "miejsce": "Clemson HGIC 3085 Drying Vegetables (2024); Packaging & Storing Dried Foods",
-     "cytat": "Vegetables have about half the shelf-life of fruits, and can generally be stored for six months at 60 °F or three months at 80 °F.",
-     "odczyt": "2026-11-01",
-     "szczebel": 3
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -4348,13 +4344,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Clemson wymienia chipsy z ogórka jako ogólne zalecenie, bez tabeli czasu; brak ogórka w tabelach CSU/MSU. Suszyć do stanu kruchego."
+    "[SUS*] Clemson wymienia chipsy z ogórka jako ogólne zalecenie, bez tabeli czasu; brak ogórka w tabelach CSU/MSU. Suszyć do stanu kruchego.",
+    "[E3] ok-zrodlo → do-researchu: Clemson HGIC 3085 wymienia ogórek tylko w zdaniu 'Vegetables to try include … cucumber … chips'. W tabeli Clemson nie ma wiersza dla ogórka (przygotowanie, blanszowanie, czas); nie ma go też w tabelach CSU ani MSU. Wzmianka 'warto spróbować' to nie przetestowana procedura. Zagrożenie niskie, ale podstawa słabsza niż wymagana."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "white-cabbage-v01",
@@ -4408,7 +4406,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "FER"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "white-cabbage-v02",
@@ -4499,7 +4498,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "FER"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "white-cabbage-v04",
@@ -4848,6 +4848,10 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "SUS-035"
    ]
   },
   {
@@ -4888,7 +4892,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "white-cabbage-v15",
@@ -4976,7 +4981,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "red-savoy-cabbage-v01",
@@ -5160,7 +5166,7 @@
    "processFamilyId": "lacto-fermentation",
    "preservationMethod": "refrigerator",
    "acidBasis": "fermented",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "FER-029",
     "FER-030",
@@ -5173,22 +5179,7 @@
     "FER-055",
     "FER-040"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
-     "miejsce": "Sauerkraut, składniki",
-     "cytat": "25 lbs cabbage 3/4 cup canning or pickling salt",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    },
-    {
-     "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/341219.pdf",
-     "miejsce": "Ingredients, Salt",
-     "cytat": "Salt. Use a non-iodized salt, because iodine will prevent the bacterial",
-     "odczyt": "2026-11-01",
-     "szczebel": 3
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -5196,13 +5187,15 @@
     "difficulty": null
    },
    "notes": [
-    "[FER*] Kapusta włoska (sabaudzka) kiszona jak kapusta biała wg NCHFP; ten sam gatunek i proces (uznanie odpowiedniości do przeglądu)."
+    "[FER*] Kapusta włoska (sabaudzka) kiszona jak kapusta biała wg NCHFP; ten sam gatunek i proces (uznanie odpowiedniości do przeglądu).",
+    "[E3] ok-zrodlo → do-researchu: NCHFP Sauerkraut mówi tylko 'cabbage'; Wisconsin (FER-040) dopuszcza kapustę zieloną i czerwoną i zaznacza, że skład (cukry) zależy od odmiany. Kapusty włoskiej (savoy, luźna główka, inny skład) żadne źródło nie wymienia, a fermentacja zależy od cukrów. Nazwa wariantu ('włoska') wskazuje surowiec spoza przepisu."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "FER"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "red-savoy-cabbage-v07",
@@ -5239,7 +5232,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "red-savoy-cabbage-v08",
@@ -5314,7 +5308,8 @@
    "researchedBy": [
     "ACI",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "red-savoy-cabbage-v10",
@@ -5397,7 +5392,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "red-savoy-cabbage-v12",
@@ -5448,7 +5444,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "napa-cabbage-v01",
@@ -5461,7 +5458,7 @@
    "processFamilyId": "lacto-fermentation",
    "preservationMethod": "refrigerator",
    "acidBasis": "fermented",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "FER-066",
     "FER-061",
@@ -5472,22 +5469,7 @@
     "FER-064",
     "FER-067"
    ],
-   "sources": [
-    {
-     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
-     "miejsce": "Equipment",
-     "cytat": "earthenware with cracks or chips. Container(s)",
-     "odczyt": "2026-11-01",
-     "szczebel": 3
-    },
-    {
-     "adres": "https://extension.oregonstate.edu/sites/default/files/2023-08/sp_50_1007_kimchibasics.pdf",
-     "miejsce": "Newell Kimchi, krok 9",
-     "cytat": "lid. Store in refrigerator up to 6 months.",
-     "odczyt": "2026-11-01",
-     "szczebel": 3
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -5495,13 +5477,15 @@
     "difficulty": null
    },
    "notes": [
-    "[FER*] Przepis CSU (baechu), sos rybny opcjonalnie; 1–2 dni w ok. 20 °C, potem lodówka ≤5 °C (UGA). Wersja z fermentowanymi owocami morza (jeotgal) w ilościach tradycyjnych nie jest objęta przepisem; brak źródła o jadzie kiełbasianym (pytanie)."
+    "[FER*] Przepis CSU (baechu), sos rybny opcjonalnie; 1–2 dni w ok. 20 °C, potem lodówka ≤5 °C (UGA). Wersja z fermentowanymi owocami morza (jeotgal) w ilościach tradycyjnych nie jest objęta przepisem; brak źródła o jadzie kiełbasianym (pytanie).",
+    "[E3] ok-zrodlo → do-researchu: Źródła to przepis CSU (UC ANR 384790) na baechu kimchi w stylu 'mak' (kapusta krojona na kawałki 2\", zanurzenie w solance i 1 szklanka soli na 3–6 h) oraz przepisy OSU, też z kapustą krojoną. Tongbaechu to kimchi z całych połówek główek, solonych inaczej (dłużej, nierówna penetracja soli), czyli inny proces solenia niż w źródłach; końcowa sól 2–5% (FER-061) nie jest w nim sprawdzona."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "FER"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "napa-cabbage-v02",
@@ -5666,7 +5650,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "FER"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "napa-cabbage-v06",
@@ -5758,7 +5743,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "FER"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "napa-cabbage-v08",
@@ -5804,7 +5790,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "FER"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "napa-cabbage-v09",
@@ -5972,7 +5959,8 @@
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "napa-cabbage-v14",
@@ -6320,7 +6308,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cauliflower-v09",
@@ -6359,7 +6348,8 @@
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cauliflower-v10",
@@ -6426,7 +6416,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cauliflower-v12",
@@ -6466,7 +6457,8 @@
    "researchedBy": [
     "ACI",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cauliflower-v13",
@@ -6516,7 +6508,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "broccoli-v01",
@@ -6767,7 +6760,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "broccoli-v08",
@@ -6806,7 +6800,8 @@
    "researchedBy": [
     "SZY",
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "broccoli-v09",
@@ -6891,7 +6886,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "broccoli-v11",
@@ -6942,7 +6938,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "brussels-kohlrabi-v01",
@@ -7197,13 +7194,15 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Odpowiednik: NCHFP Pickled Cauliflower or Brussel Sprouts (z gorczycą). Ocet jabłkowy 5% zamiast białego 5% — oba zalecane, biały tylko dla koloru (uproszczenie w ACI-vin_color)."
+    "[ACI*] Odpowiednik: NCHFP Pickled Cauliflower or Brussel Sprouts (z gorczycą). Ocet jabłkowy 5% zamiast białego 5% — oba zalecane, biały tylko dla koloru (uproszczenie w ACI-vin_color).",
+    "[E3] Ocet jabłkowy 5% w miejsce białego 5%: oba zalecane przez NCHFP (ACI-018/019), w tej samej ilości (uproszczenie nazwane)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "uproszczenie: ocet 5%"
   },
   {
    "id": "brussels-kohlrabi-v08",
@@ -7332,7 +7331,8 @@
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "brussels-kohlrabi-v12",
@@ -7545,7 +7545,8 @@
    "researchedBy": [
     "ACI",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "zucchini-v06",
@@ -7660,7 +7661,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "zucchini-v09",
@@ -7728,7 +7730,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "zucchini-v11",
@@ -7766,7 +7769,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "zucchini-v12",
@@ -7802,7 +7806,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "zucchini-v13",
@@ -7815,7 +7820,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SLO-047",
     "SLO-023"
@@ -7828,13 +7833,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Cukinia jest warzywem niskokwasowym, a zalecenia jej wekowania wycofano; brak przetestowanego dżemu z cukinią. Jedyny przetestowany przetwór słodki z cukinią to zucchini-pineapple (inny produkt)."
+    "[SLO*] Cukinia jest warzywem niskokwasowym, a zalecenia jej wekowania wycofano; brak przetestowanego dżemu z cukinią. Jedyny przetestowany przetwór słodki z cukinią to zucchini-pineapple (inny produkt).",
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-047 dotyczy wekowania samej dyni letniej, nie dżemu w lodówce."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "zmieniony z ryzyko-wysokie"
   },
   {
    "id": "zucchini-v14",
@@ -7903,7 +7910,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "zucchini-v16",
@@ -7961,7 +7969,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pattypan-squash-v01",
@@ -8204,7 +8213,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pattypan-squash-v08",
@@ -8243,7 +8253,8 @@
    "researchedBy": [
     "ACI",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pattypan-squash-v09",
@@ -8281,7 +8292,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pattypan-squash-v10",
@@ -8294,7 +8306,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SLO-047",
     "SLO-023",
@@ -8309,14 +8321,16 @@
    },
    "notes": [
     "[ACI] Kandyzowany patison w syropie: warzywo niskokwasowe, brak przepisu.",
-    "[SLO*] Patison (dynia letnia) jest niskokwasowy; brak przetestowanego przepisu na owoce kandyzowane w syropie. Karta: tylko ostrzeżenie."
+    "[SLO*] Patison (dynia letnia) jest niskokwasowy; brak przetestowanego przepisu na owoce kandyzowane w syropie. Karta: tylko ostrzeżenie.",
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-047 dotyczy wekowania samej dyni letniej; SLO-069 (owoce kandyzowane: lodówka do tygodnia) dotyczy owoców i pleśni, nie botulizmu."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "zmieniony z ryzyko-wysokie"
   },
   {
    "id": "pumpkin-v01",
@@ -8594,7 +8608,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pumpkin-v09",
@@ -8607,7 +8622,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "freezer",
    "acidBasis": "low-acid",
-   "safetyStatus": "nie-publikowac",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SLO-044",
     "SLO-045",
@@ -8623,14 +8638,16 @@
    },
    "notes": [
     "[SLO*] NCHFP wprost: brak procesu wekowania masła dyniowego; zrobić na świeżo do lodówki albo zamrozić. Karta wyjaśnia, dlaczego nie wekować (jad kiełbasiany, gęstość, aktywność wody).",
-    "[OLE] Masło owocowe/dyniowe to przetwór słodki, nie tłuszcz. Dla masła dyniowego sprawdzić NCHFP (prawdopodobny zakaz wekowania; niezweryfikowane)."
+    "[OLE] Masło owocowe/dyniowe to przetwór słodki, nie tłuszcz. Dla masła dyniowego sprawdzić NCHFP (prawdopodobny zakaz wekowania; niezweryfikowane).",
+    "[E3] nie-publikowac → ryzyko-wysokie: Proces v1 to zamrażarka. SLO-044 (NCHFP FAQ, szczebel 1, przeczytane w kontekście) mówi tylko, że brak procesu wekowania masła dyniowego, i zaleca robić je na świeżo do krótkiego przechowywania w lodówce albo zamrażać. Źródło szczebla 1 nie odradza więc tego procesu, tylko go zaleca. Ryzyko-wysokie tak, jak przy pumpkin-v08 (te same twierdzenia): NCHFP nazywa problem dla tego produktu (SLO-045, SZY-015), a przetestowanego przepisu nie ma."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO",
     "OLE"
-   ]
+   ],
+   "e3": "zmieniony z nie-publikowac"
   },
   {
    "id": "pumpkin-v10",
@@ -8670,7 +8687,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pumpkin-v11",
@@ -8749,12 +8767,15 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-036",
     "ACI-088",
     "ACI-017",
-    "ACI-010"
+    "ACI-010",
+    "SZY-015",
+    "SLO-044",
+    "SLO-046"
    ],
    "sources": [],
    "filters": {
@@ -8764,13 +8785,15 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Keczup dyniowy = przecier z dyni: NCHFP zakazuje wekowania dyni rozgniecionej/przecieru nawet w szybkowarze; brak przetestowanej procedury. Karta tylko jako ostrzeżenie lub wersja lodówkowa/mrożona."
+    "[ACI*] Keczup dyniowy = przecier z dyni: NCHFP zakazuje wekowania dyni rozgniecionej/przecieru nawet w szybkowarze; brak przetestowanej procedury. Karta tylko jako ostrzeżenie lub wersja lodówkowa/mrożona.",
+    "[E3] ryzyko-wysokie → nie-publikowac: Keczup dyniowy to zakwaszony przecier z dyni w kąpieli wodnej. NCHFP (szczebel 1) wprost: „home canning is NOT recommended for pumpkin butter or any mashed or pureed pumpkin” (SZY-015, blog 5b7656bb4c88) i „Caution: Do not mash or puree” (ACI-036). FAQ (4da3ffbf7fed, przeczytane) dodaje, że brak danych o proporcjach zakwaszania przecieru dyniowego do kąpieli wodnej, „regardless of acidity”. Zakaz szczebla 1 obejmuje więc ten proces dla tego produktu; spójnie z pumpkin-v10 (nie-publikowac)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "zmieniony z ryzyko-wysokie"
   },
   {
    "id": "pumpkin-v14",
@@ -8859,7 +8882,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pumpkin-v16",
@@ -8898,7 +8922,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "leafy-greens-v01",
@@ -9118,7 +9143,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "leafy-greens-v07",
@@ -9131,22 +9157,14 @@
    "processFamilyId": "canned-foods",
    "preservationMethod": "pressure-canning",
    "acidBasis": "low-acid",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SZY-001",
     "SZY-003",
     "SZY-006",
     "SZY-038"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/spinach-and-other-greens/",
-     "miejsce": "treść strony",
-     "cytat": "Hot Pints 70 min 11 lb 12 lb 13 lb 14 lb Quarts 90",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -9154,13 +9172,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Boćwina (liście) jako „other greens” NCHFP: blanszowanie parą, luźno, zalać wrzątkiem, szybkowar; koperek tylko w ilości przyprawowej. Młode buraczki osobno wg procesu dla buraków (SZY-053). Odpowiedniość: ten sam produkt i proces, NCHFP nie wymienia boćwiny z nazwy."
+    "[SZY*] Boćwina (liście) jako „other greens” NCHFP: blanszowanie parą, luźno, zalać wrzątkiem, szybkowar; koperek tylko w ilości przyprawowej. Młode buraczki osobno wg procesu dla buraków (SZY-053). Odpowiedniość: ten sam produkt i proces, NCHFP nie wymienia boćwiny z nazwy.",
+    "[E3] ok-zrodlo → do-researchu: NCHFP Spinach and Other Greens (szczebel 1): same liście, z wyciętymi twardymi łodygami i nerwami, zblanszowane parą, luźno w słoikach, zalane wrzątkiem, 70/90 min. Nazwa wskazuje dodatek spoza przepisu (koperek) i przeznaczenie 'na barszcz' (zwykle z łodygami lub botwinką z buraczkami, gęściej pakowane). Gęstość i skład wsadu wpływają na penetrację ciepła; NCHFP wyklucza zieleninę z mieszanek (SZY-022)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "leafy-greens-v08",
@@ -9201,6 +9221,10 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-043"
    ]
   },
   {
@@ -9242,6 +9266,10 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-043"
    ]
   },
   {
@@ -9292,7 +9320,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "leafy-greens-v11",
@@ -9343,7 +9372,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "leafy-greens-v12",
@@ -9393,7 +9423,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "vine-leaves-greens-v01",
@@ -9643,7 +9674,8 @@
    "researchedBy": [
     "ACI",
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "vine-leaves-greens-v08",
@@ -9680,7 +9712,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "vine-leaves-greens-v09",
@@ -9721,6 +9754,10 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-043"
    ]
   },
   {
@@ -9796,7 +9833,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "vine-leaves-greens-v12",
@@ -9837,7 +9875,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "tomato-v01",
@@ -10136,7 +10175,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "tomato-v09",
@@ -10189,7 +10229,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "tomato-v10",
@@ -10239,7 +10280,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "tomato-v11",
@@ -10279,7 +10321,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "tomato-v12",
@@ -10292,20 +10335,12 @@
    "processFamilyId": "canned-foods",
    "preservationMethod": "pressure-canning",
    "acidBasis": "acidified",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "ACI-057",
     "ACI-011"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/spaghetti-sauce-with-meat/",
-     "miejsce": "NCHFP (nchfp.uga.edu): Spaghetti Sauce with Meat",
-     "cytat": "This recipe is considered a low-acid food and must be processed in a pressure canner for safety.",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -10313,13 +10348,15 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Odpowiednik: NCHFP Spaghetti Sauce with Meat — tylko szybkowar; skład stały (dodatki mleka/wina/śmietany w ragù nieprzetestowane). Wersja bez mięsa: NCHFP Spaghetti Sauce without Meat (też szybkowar)."
+    "[ACI*] Odpowiednik: NCHFP Spaghetti Sauce with Meat — tylko szybkowar; skład stały (dodatki mleka/wina/śmietany w ragù nieprzetestowane). Wersja bez mięsa: NCHFP Spaghetti Sauce without Meat (też szybkowar).",
+    "[E3] ok-zrodlo → do-researchu: Źródło NCHFP Spaghetti Sauce with Meat (szczebel 1, szybkowar 60/70 min) zawiera pomidory, mięso mielone, cebulę, czosnek, seler lub zieloną paprykę, pieczarki i przyprawy. Nazwa 'sos boloński' sugeruje klasyczne ragù z marchwią, mlekiem lub śmietaną, winem i pancettą; tych składników nie ma w przepisie (nabiału w domowych przetworach się nie wekuje). Nazwa sugeruje skład spoza przepisu. Po zmianie nazwy na 'sos do spaghetti z mięsem (NCHFP)' wariant mógłby dostać ok-zrodlo."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "tomato-v13",
@@ -10366,7 +10403,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "tomato-v14",
@@ -10423,7 +10461,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "tomato-v15",
@@ -10513,7 +10552,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "tomato-v17",
@@ -10832,7 +10872,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "green-cherry-tomato-v08",
@@ -10972,7 +11013,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "green-cherry-tomato-v12",
@@ -11084,7 +11126,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "bell-pepper-v01",
@@ -11127,7 +11170,8 @@
    "researchedBy": [
     "ACI",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "bell-pepper-v02",
@@ -11345,7 +11389,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "bell-pepper-v08",
@@ -11389,7 +11434,7 @@
    "id": "bell-pepper-v09",
    "productId": "bell-pepper",
    "name": {
-    "pl": "pieczona w oliwie z czosnkiem"
+    "pl": "papryka pieczona marynowana w oliwie z octem i sokiem z cytryny"
    },
    "groupV0": "Pasteryzacja, olej i susz",
    "lineV0": 79,
@@ -11425,6 +11470,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "nameV0": "pieczona w oliwie z czosnkiem",
+   "requiredWarnings": [
+    "OLE-002"
    ]
   },
   {
@@ -11566,7 +11616,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "bell-pepper-v14",
@@ -11667,7 +11718,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "bell-pepper-v17",
@@ -11724,7 +11776,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "bell-pepper-v18",
@@ -12036,7 +12089,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "chili-pepper-v09",
@@ -12139,7 +12193,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "chili-pepper-v12",
@@ -12222,7 +12277,8 @@
    "researchedBy": [
     "SZY",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "chili-pepper-v14",
@@ -12254,7 +12310,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "chili-pepper-v15",
@@ -12291,7 +12348,8 @@
    "researchedBy": [
     "OLE",
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "chili-pepper-v16",
@@ -12398,7 +12456,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "eggplant-v01",
@@ -12637,7 +12696,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "eggplant-v08",
@@ -12672,7 +12732,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "eggplant-v09",
@@ -12707,7 +12768,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "eggplant-v10",
@@ -12848,7 +12910,8 @@
    "researchedBy": [
     "ACI",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "eggplant-v14",
@@ -12884,7 +12947,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "eggplant-v15",
@@ -12941,7 +13005,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "potato-sunchoke-v01",
@@ -13057,7 +13122,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "potato-sunchoke-v04",
@@ -13205,7 +13271,7 @@
    "id": "potato-sunchoke-v08",
    "productId": "potato-sunchoke",
    "name": {
-    "pl": "młode ziemniaki w solance (szybkowar/tyndalizacja)"
+    "pl": "młode ziemniaki w solance (szybkowar)"
    },
    "groupV0": "Pasteryzacja, olej i susz",
    "lineV0": 91,
@@ -13241,14 +13307,17 @@
    },
    "notes": [
     "[FER] Przetestowany proces tylko w autoklawie: Guide 4, sekcja „Potatoes, white” (czasy odczytać u SZY). Tyndalizacja i kąpiel wodna nie są przetestowane (FER-005).",
-    "[SZY*] Młode ziemniaki (1–2 cale) całe w zalewie z wrzątku: przepis NCHFP White Potatoes, szybkowar; wariant „tyndalizacja” z v0 odrzucony."
+    "[SZY*] Młode ziemniaki (1–2 cale) całe w zalewie z wrzątku: przepis NCHFP White Potatoes, szybkowar; wariant „tyndalizacja” z v0 odrzucony.",
+    "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Potatoes, White – Cubed or Whole, 35/40 min; młode ziemniaki 1–2\" w całości są w przepisie), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "e3": "nazwa poprawiona",
+   "nameV0": "młode ziemniaki w solance (szybkowar/tyndalizacja)"
   },
   {
    "id": "potato-sunchoke-v09",
@@ -13314,7 +13383,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "potato-sunchoke-v11",
@@ -13400,7 +13470,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "potato-sunchoke-v13",
@@ -13611,7 +13682,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "tomatillo-v06",
@@ -14055,7 +14127,7 @@
    "id": "green-beans-v08",
    "productId": "green-beans",
    "name": {
-    "pl": "konserwowa w solance (tyndalizacja)"
+    "pl": "konserwowa w solance (szybkowar)"
    },
    "groupV0": "Pasteryzacja, olej i susz",
    "lineV0": 99,
@@ -14091,14 +14163,17 @@
    },
    "notes": [
     "[FER] Przetestowany proces tylko w autoklawie: Guide 4, sekcja „Beans, snap and Italian” (czasy odczytać u SZY). Tyndalizacja i kąpiel wodna nie są przetestowane (FER-005).",
-    "[SZY*] Fasolka szparagowa w zalewie: przepis NCHFP, szybkowar 20/25 min; tyndalizacja z v0 odrzucona – NCHFP: brak bezpiecznej opcji w kąpieli wodnej."
+    "[SZY*] Fasolka szparagowa w zalewie: przepis NCHFP, szybkowar 20/25 min; tyndalizacja z v0 odrzucona – NCHFP: brak bezpiecznej opcji w kąpieli wodnej.",
+    "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Beans, Snap and Italian, 20/25 min), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006; strona źródłowa: 'There is no safe option for processing green beans in a boiling water canner'). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "e3": "nazwa poprawiona",
+   "nameV0": "konserwowa w solance (tyndalizacja)"
   },
   {
    "id": "green-beans-v09",
@@ -14111,7 +14186,7 @@
    "processFamilyId": "canned-foods",
    "preservationMethod": "pressure-canning",
    "acidBasis": "low-acid",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -14120,15 +14195,7 @@
     "SZY-022",
     "SZY-023"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mixed-vegetables/",
-     "miejsce": "treść strony",
-     "cytat": "substitute other favorite vegetables except leafy greens, dried beans, cream-style corn, winter squash, sweet potatoes, broccoli, cauliflower or cabbage.",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -14137,14 +14204,16 @@
    },
    "notes": [
     "[ACI] Fasolka w sosie pomidorowym: niskokwasowa mieszanina, brak przetestowanego procesu.",
-    "[SZY*] Fasolka w pomidorach jako Mixed Vegetables NCHFP (wolno zmieniać proporcje: fasolka + pomidory krojone, zalane wodą, bez zagęszczania), 75/90 min. Gęsty, redukowany sos pomidorowy nie jest objęty."
+    "[SZY*] Fasolka w pomidorach jako Mixed Vegetables NCHFP (wolno zmieniać proporcje: fasolka + pomidory krojone, zalane wodą, bez zagęszczania), 75/90 min. Gęsty, redukowany sos pomidorowy nie jest objęty.",
+    "[E3] ok-zrodlo → do-researchu: Źródło NCHFP Mixed Vegetables (szczebel 1) pozwala łączyć fasolkę i pomidory (całe lub kruszone), ale zalane WODĄ, 75/90 min. 'W sosie pomidorowym' to gęsty płyn zalewowy, którego nie testowano; gęstość zmienia penetrację ciepła w szybkowarze. To zmiana procesu i proporcji poza przepisem."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SZY"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "green-beans-v10",
@@ -14183,7 +14252,8 @@
     "ACI",
     "OLE",
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "green-beans-v11",
@@ -14250,7 +14320,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "green-beans-v13",
@@ -14307,7 +14378,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "green-beans-v14",
@@ -14358,7 +14430,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "peas-chickpeas-v01",
@@ -14614,7 +14687,8 @@
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "peas-chickpeas-v08",
@@ -14660,7 +14734,8 @@
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "peas-chickpeas-v09",
@@ -14694,7 +14769,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "peas-chickpeas-v10",
@@ -14729,7 +14805,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "peas-chickpeas-v11",
@@ -14766,7 +14843,8 @@
    "researchedBy": [
     "SZY",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "peas-chickpeas-v12",
@@ -14804,7 +14882,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "peas-chickpeas-v13",
@@ -14895,7 +14974,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "peas-chickpeas-v15",
@@ -14971,7 +15051,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beans-soy-v02",
@@ -15172,7 +15253,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beans-soy-v08",
@@ -15218,7 +15300,8 @@
    "researchedBy": [
     "ACI",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beans-soy-v09",
@@ -15264,7 +15347,8 @@
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beans-soy-v10",
@@ -15299,7 +15383,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beans-soy-v11",
@@ -15434,7 +15519,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beetroot-v01",
@@ -15653,7 +15739,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beetroot-v07",
@@ -15756,7 +15843,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beetroot-v10",
@@ -15860,7 +15948,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SLO-032",
     "SLO-023"
@@ -15873,13 +15961,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Burak jest niskokwasowy; brak przetestowanego dżemu/konfitury z buraka. Dodatek wina nie jest ustaloną dawką kwasu."
+    "[SLO*] Burak jest niskokwasowy; brak przetestowanego dżemu/konfitury z buraka. Dodatek wina nie jest ustaloną dawką kwasu.",
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-032 to tylko pH buraka."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "zmieniony z ryzyko-wysokie"
   },
   {
    "id": "beetroot-v14",
@@ -15914,7 +16004,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beetroot-v15",
@@ -15972,7 +16063,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beetroot-v16",
@@ -16023,7 +16115,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "carrot-v01",
@@ -16201,13 +16294,15 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Odpowiednik: NCHFP Pickled Carrots (ocet biały 5%); ocet jabłkowy 5% zamiast białego (ACI-vin_color); kolendra jako sucha przyprawa — DO USTALENIA tolerancja przypraw."
+    "[ACI*] Odpowiednik: NCHFP Pickled Carrots (ocet biały 5%); ocet jabłkowy 5% zamiast białego (ACI-vin_color); kolendra jako sucha przyprawa — DO USTALENIA tolerancja przypraw.",
+    "[E3] Ocet jabłkowy 5% w miejsce białego 5%: oba zalecane przez NCHFP (ACI-018/019), w tej samej ilości (uproszczenie nazwane)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "uproszczenie: ocet 5%"
   },
   {
    "id": "carrot-v06",
@@ -16346,13 +16441,14 @@
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "carrot-v10",
    "productId": "carrot",
    "name": {
-    "pl": "marchewka z groszkiem (tyndalizacja)"
+    "pl": "marchewka z groszkiem (szybkowar)"
    },
    "groupV0": "Pasteryzacja, słodkie i susz",
    "lineV0": 119,
@@ -16386,13 +16482,16 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Marchew z groszkiem jako Mixed Vegetables NCHFP (wolno zmieniać proporcje), 75/90 min; tyndalizacja z v0 odrzucona."
+    "[SZY*] Marchew z groszkiem jako Mixed Vegetables NCHFP (wolno zmieniać proporcje), 75/90 min; tyndalizacja z v0 odrzucona.",
+    "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Mixed Vegetables, 75/90 min; groszek nie jest na liście wykluczeń), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "nazwa poprawiona",
+   "nameV0": "marchewka z groszkiem (tyndalizacja)"
   },
   {
    "id": "carrot-v11",
@@ -16405,7 +16504,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SLO-031",
     "SLO-023"
@@ -16418,13 +16517,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Marchew jest niskokwasowa; brak przetestowanego dżemu marchewkowego. Pomarańcza nie jest ustaloną dawką kwasu."
+    "[SLO*] Marchew jest niskokwasowa; brak przetestowanego dżemu marchewkowego. Pomarańcza nie jest ustaloną dawką kwasu.",
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-031 to tylko pH marchwi."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "zmieniony z ryzyko-wysokie"
   },
   {
    "id": "carrot-v12",
@@ -16437,7 +16538,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SLO-031",
     "SLO-023",
@@ -16452,14 +16553,16 @@
    },
    "notes": [
     "[ACI] Kandyzowana marchew — rodzina słodka, warzywo niskokwasowe.",
-    "[SLO*] Marchew kandyzowana w syropie: produkt niskokwasowy w syropie, brak przetestowanego przepisu."
+    "[SLO*] Marchew kandyzowana w syropie: produkt niskokwasowy w syropie, brak przetestowanego przepisu.",
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-069 dotyczy owoców kandyzowanych (pleśń); przeniesienie na marchew to analogia."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "zmieniony z ryzyko-wysokie"
   },
   {
    "id": "carrot-v13",
@@ -16523,7 +16626,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "carrot-v15",
@@ -16587,7 +16691,8 @@
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "garlic-v02",
@@ -16620,7 +16725,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "FER"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "garlic-v03",
@@ -16658,7 +16764,8 @@
    "researchedBy": [
     "FER",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "garlic-v04",
@@ -16867,6 +16974,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-002",
+    "OLE-019"
    ]
   },
   {
@@ -16910,13 +17022,18 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-002",
+    "OLE-019"
    ]
   },
   {
    "id": "garlic-v11",
    "productId": "garlic",
    "name": {
-    "pl": "pasta czosnkowa z solą ($20\\%$)"
+    "pl": "pasta czosnkowa z solą (20%)"
    },
    "groupV0": "Olej, temperatura i susz",
    "lineV0": 123,
@@ -16946,13 +17063,15 @@
    "researchedBy": [
     "OLE",
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony",
+   "nameV0": "pasta czosnkowa z solą ($20\\%$)"
   },
   {
    "id": "garlic-v12",
    "productId": "garlic",
    "name": {
-    "pl": "czarny czosnek (długa inkubacja w $60^\\circ\\text{C}$)"
+    "pl": "czarny czosnek (długa inkubacja w 60°C)"
    },
    "groupV0": "Olej, temperatura i susz",
    "lineV0": 123,
@@ -16979,7 +17098,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "nameV0": "czarny czosnek (długa inkubacja w $60^\\circ\\text{C}$)"
   },
   {
    "id": "garlic-v13",
@@ -17015,7 +17135,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "garlic-v14",
@@ -17049,7 +17170,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "garlic-v15",
@@ -17098,7 +17220,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "garlic-v16",
@@ -17146,7 +17269,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "onion-v01",
@@ -17369,7 +17493,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SLO-033",
     "SLO-023"
@@ -17382,13 +17506,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Cebula jest niskokwasowa; brak przetestowanego przepisu na konfiturę cebulową. Wino i ocet w przepisach domowych nie mają ustalonej dawki."
+    "[SLO*] Cebula jest niskokwasowa; brak przetestowanego przepisu na konfiturę cebulową. Wino i ocet w przepisach domowych nie mają ustalonej dawki.",
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-033 to pH cebuli czerwonej, a produkt dotyczy cebuli żółtej i białej."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "zmieniony z ryzyko-wysokie"
   },
   {
    "id": "onion-v08",
@@ -17401,7 +17527,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SLO-033",
     "SLO-023"
@@ -17414,13 +17540,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Jak onion-v07."
+    "[SLO*] Jak onion-v07.",
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-033 to pH cebuli czerwonej, a produkt dotyczy cebuli żółtej i białej."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "zmieniony z ryzyko-wysokie"
   },
   {
    "id": "onion-v09",
@@ -17496,7 +17624,8 @@
    "researchedBy": [
     "SZY",
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "onion-v11",
@@ -17529,7 +17658,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "onion-v12",
@@ -17620,7 +17750,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "onion-v14",
@@ -17671,7 +17802,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "shallot-pearl-onion-v01",
@@ -17839,7 +17971,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "shallot-pearl-onion-v06",
@@ -17986,7 +18119,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SLO-033",
     "SLO-023"
@@ -18000,14 +18133,16 @@
    },
    "notes": [
     "[SLO*] Konfitura z czerwonej cebuli z żurawiną: cebula niskokwasowa, żurawina nie jest przetestowaną dawką kwasu.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SLO."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SLO.",
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-033 to tylko pH czerwonej cebuli."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO",
     "NAP"
-   ]
+   ],
+   "e3": "zmieniony z ryzyko-wysokie"
   },
   {
    "id": "shallot-pearl-onion-v11",
@@ -18042,7 +18177,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "shallot-pearl-onion-v12",
@@ -18079,7 +18215,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "shallot-pearl-onion-v13",
@@ -18164,7 +18301,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "leek-chives-v01",
@@ -18407,7 +18545,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "leek-chives-v08",
@@ -18449,6 +18588,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-002",
+    "OLE-019"
    ]
   },
   {
@@ -18521,7 +18665,8 @@
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "leek-chives-v11",
@@ -18869,7 +19014,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "daikon-black-radish-v10",
@@ -18939,7 +19085,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "daikon-black-radish-v12",
@@ -19006,7 +19153,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "daikon-black-radish-v14",
@@ -19317,7 +19465,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "radish-v09",
@@ -19391,6 +19540,10 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-043"
    ]
   },
   {
@@ -19467,7 +19620,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "horseradish-v02",
@@ -19540,7 +19694,7 @@
    "id": "horseradish-v04",
    "productId": "horseradish",
    "name": {
-    "pl": "ćwikła chrzanowa ($70\\%$ chrzanu)"
+    "pl": "ćwikła chrzanowa (70% chrzanu)"
    },
    "groupV0": "Kiszenie i ocet",
    "lineV0": 146,
@@ -19565,7 +19719,8 @@
    "researchedBy": [
     "FER",
     "NAP"
-   ]
+   ],
+   "nameV0": "ćwikła chrzanowa ($70\\%$ chrzanu)"
   },
   {
    "id": "horseradish-v05",
@@ -19759,7 +19914,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "horseradish-v11",
@@ -19816,7 +19972,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "horseradish-v12",
@@ -19874,7 +20031,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "celeriac-celery-v01",
@@ -20118,7 +20276,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "celeriac-celery-v08",
@@ -20153,7 +20312,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "celeriac-celery-v09",
@@ -20224,7 +20384,8 @@
    "researchedBy": [
     "SZY",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "celeriac-celery-v11",
@@ -20496,6 +20657,10 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-043"
    ]
   },
   {
@@ -20563,7 +20728,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "parsnip-parsley-v09",
@@ -20614,7 +20780,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "parsnip-parsley-v10",
@@ -20903,7 +21070,8 @@
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "turnip-rutabaga-v08",
@@ -20978,22 +21146,14 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SUS-039",
     "SUS-001",
     "SUS-017",
     "SUS-021"
    ],
-   "sources": [
-    {
-     "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
-     "miejsce": "Clemson HGIC 3085 Drying Vegetables (2024); Packaging & Storing Dried Foods",
-     "cytat": "Vegetables have about half the shelf-life of fruits, and can generally be stored for six months at 60 °F or three months at 80 °F.",
-     "odczyt": "2026-11-01",
-     "szczebel": 3
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -21001,13 +21161,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Clemson wymienia chipsy z rzepy; MSU ocenia rzepę i brukiew „Fair to good”, ale bez tabeli czasu. Brukiew bez procedury."
+    "[SUS*] Clemson wymienia chipsy z rzepy; MSU ocenia rzepę i brukiew „Fair to good”, ale bez tabeli czasu. Brukiew bez procedury.",
+    "[E3] ok-zrodlo → do-researchu: Jedyne źródło to Clemson HGIC 3085, które wymienia rzepę tylko w zdaniu o chipsach ('Vegetables to try include … turnip'). W tabeli Clemson rzepa jest tylko jako liście (Greens); korzenia rzepy nie ma też w tabeli CSU. MSU ocenia rzepę do suszenia jako 'Fair to good', ale bez wiersza z przygotowaniem i nie jest cytowane. Brak przetestowanej procedury dla korzenia."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "asparagus-v01",
@@ -21154,7 +21316,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "asparagus-v05",
@@ -21196,7 +21359,7 @@
    "id": "asparagus-v06",
    "productId": "asparagus",
    "name": {
-    "pl": "białe i zielone szparagi konserwowe w solance (tyndalizacja)"
+    "pl": "białe i zielone szparagi konserwowe w solance (szybkowar)"
    },
    "groupV0": "Pasteryzacja, olej i susz",
    "lineV0": 163,
@@ -21232,14 +21395,17 @@
    },
    "notes": [
     "[FER] Przetestowany proces tylko w autoklawie: Guide 4, sekcja „Asparagus—spears or pieces” (czasy odczytać u SZY). Tyndalizacja i kąpiel wodna nie są przetestowane (FER-005).",
-    "[SZY*] Szparagi w zalewie: NCHFP, szybkowar 30/40 min; tyndalizacja z v0 odrzucona."
+    "[SZY*] Szparagi w zalewie: NCHFP, szybkowar 30/40 min; tyndalizacja z v0 odrzucona.",
+    "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Asparagus – Spears or Pieces, 30/40 min; białe i zielone to szparagi), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "e3": "nazwa poprawiona",
+   "nameV0": "białe i zielone szparagi konserwowe w solance (tyndalizacja)"
   },
   {
    "id": "asparagus-v07",
@@ -21275,7 +21441,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "asparagus-v08",
@@ -21311,7 +21478,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "asparagus-v09",
@@ -21352,6 +21520,10 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-043"
    ]
   },
   {
@@ -21411,7 +21583,8 @@
    "researchedBy": [
     "SZY",
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "fennel-artichoke-v01",
@@ -21623,7 +21796,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "fennel-artichoke-v07",
@@ -21658,7 +21832,8 @@
    "researchedBy": [
     "OLE",
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "fennel-artichoke-v08",
@@ -21724,7 +21899,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "fennel-artichoke-v10",
@@ -21765,7 +21941,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "corn-v01",
@@ -21912,7 +22089,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "corn-v05",
@@ -21956,7 +22134,7 @@
    "id": "corn-v06",
    "productId": "corn",
    "name": {
-    "pl": "ziarna kukurydzy w solance (szybkowar/tyndalizacja)"
+    "pl": "ziarna kukurydzy w solance (szybkowar)"
    },
    "groupV0": "Pasteryzacja, słodkie i susz",
    "lineV0": 175,
@@ -21992,14 +22170,17 @@
    },
    "notes": [
     "[FER] Przetestowany proces tylko w autoklawie: Guide 4, sekcja „Corn—whole kernel” (czasy odczytać u SZY). Tyndalizacja i kąpiel wodna nie są przetestowane (FER-005).",
-    "[SZY*] Ziarna kukurydzy w zalewie: NCHFP, szybkowar 55/85 min; tyndalizacja z v0 odrzucona; nie zeskrobywać kolby."
+    "[SZY*] Ziarna kukurydzy w zalewie: NCHFP, szybkowar 55/85 min; tyndalizacja z v0 odrzucona; nie zeskrobywać kolby.",
+    "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Corn – Whole Kernel, 55/85 min), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "e3": "nazwa poprawiona",
+   "nameV0": "ziarna kukurydzy w solance (szybkowar/tyndalizacja)"
   },
   {
    "id": "corn-v07",
@@ -22037,7 +22218,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "corn-v08",
@@ -22079,7 +22261,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "corn-v09",
@@ -22125,7 +22308,8 @@
    "researchedBy": [
     "SZY",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "corn-v10",
@@ -22160,7 +22344,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "corn-v11",
@@ -22534,7 +22719,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "olives-v10",
@@ -22567,7 +22753,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "olives-v11",
@@ -22667,7 +22854,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "olives-v14",
@@ -22733,7 +22921,7 @@
    "id": "capers-v02",
    "productId": "capers",
    "name": {
-    "pl": "kapary w solance ($7\\text{--}10\\%$)"
+    "pl": "kapary w solance (7–10%)"
    },
    "groupV0": "Solanka, sól i ocet",
    "lineV0": 182,
@@ -22760,7 +22948,8 @@
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "nameV0": "kapary w solance ($7\\text{--}10\\%$)"
   },
   {
    "id": "capers-v03",
@@ -22933,6 +23122,10 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-043"
    ]
   },
   {
@@ -23293,7 +23486,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "FER"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "ginger-turmeric-v09",
@@ -23486,7 +23680,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "ginger-turmeric-v15",
@@ -23778,7 +23973,8 @@
    "researchedBy": [
     "ACI",
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "european-mixed-veg-v09",
@@ -23816,7 +24012,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "european-mixed-veg-v10",
@@ -23854,7 +24051,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "european-mixed-veg-v11",
@@ -23893,7 +24091,8 @@
    "researchedBy": [
     "ACI",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "european-mixed-veg-v12",
@@ -24271,7 +24470,8 @@
    "researchedBy": [
     "OLE",
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "balkan-oriental-mix-v09",
@@ -24309,7 +24509,8 @@
    "researchedBy": [
     "OLE",
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "balkan-oriental-mix-v10",
@@ -24378,7 +24579,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "balkan-oriental-mix-v12",
@@ -24415,7 +24617,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "balkan-oriental-mix-v13",
@@ -24705,7 +24908,8 @@
     "FER",
     "OLE",
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "asian-american-mix-v09",
@@ -24785,7 +24989,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "asian-american-mix-v11",
@@ -24853,7 +25058,8 @@
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "asian-american-mix-v13",
@@ -24887,7 +25093,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apple-v01",
@@ -25050,7 +25257,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apple-v05",
@@ -25224,7 +25432,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apple-v10",
@@ -25276,7 +25485,8 @@
    "researchedBy": [
     "SLO",
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apple-v11",
@@ -25390,7 +25600,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apple-v14",
@@ -25432,7 +25643,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apple-v15",
@@ -25511,7 +25723,8 @@
    "researchedBy": [
     "SZY",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apple-v17",
@@ -25563,7 +25776,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apple-v18",
@@ -25605,7 +25819,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pear-v01",
@@ -25647,7 +25862,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pear-v02",
@@ -25800,7 +26016,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pear-v06",
@@ -25843,7 +26060,7 @@
    "lineV0": 211,
    "processFamilyId": "canned-foods",
    "preservationMethod": "water-bath",
-   "acidBasis": "acidified",
+   "acidBasis": "natural-acid",
    "safetyStatus": "ok-zrodlo",
    "claims": [
     "ACI-074",
@@ -25875,7 +26092,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pear-v08",
@@ -26007,7 +26225,7 @@
    "lineV0": 211,
    "processFamilyId": "canned-foods",
    "preservationMethod": "water-bath",
-   "acidBasis": "acidified",
+   "acidBasis": "natural-acid",
    "safetyStatus": "ok-zrodlo",
    "claims": [
     "ACI-074",
@@ -26046,7 +26264,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pear-v13",
@@ -26101,7 +26320,8 @@
     "ACI",
     "SLO",
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pear-v14",
@@ -26407,7 +26627,8 @@
    "researchedBy": [
     "SZY",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "quince-v09",
@@ -27002,7 +27223,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "plum-v14",
@@ -27045,7 +27267,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "plum-v15",
@@ -27119,7 +27342,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "plum-v17",
@@ -27171,7 +27395,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "plum-v18",
@@ -27426,7 +27651,8 @@
    "researchedBy": [
     "SZY",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "mirabelle-v07",
@@ -27470,7 +27696,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "mirabelle-v08",
@@ -27569,7 +27796,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "mirabelle-v11",
@@ -27621,7 +27849,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sour-cherry-v01",
@@ -27902,7 +28131,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sour-cherry-v09",
@@ -27942,7 +28172,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sour-cherry-v10",
@@ -27982,7 +28213,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sour-cherry-v11",
@@ -28033,7 +28265,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sour-cherry-v12",
@@ -28177,7 +28410,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sour-cherry-v16",
@@ -28451,7 +28685,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sweet-cherry-v08",
@@ -28502,7 +28737,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sweet-cherry-v09",
@@ -28649,7 +28885,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "peach-nectarine-v01",
@@ -28858,6 +29095,10 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "E3-001"
    ]
   },
   {
@@ -28901,7 +29142,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "peach-nectarine-v08",
@@ -29077,6 +29319,10 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "E3-001"
    ]
   },
   {
@@ -29136,6 +29382,10 @@
    "researchedBy": [
     "ACI",
     "SLO"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "E3-001"
    ]
   },
   {
@@ -29188,7 +29438,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apricot-v01",
@@ -29393,7 +29644,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apricot-v07",
@@ -29424,7 +29676,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apricot-v08",
@@ -29468,7 +29721,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apricot-v09",
@@ -29510,7 +29764,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apricot-v10",
@@ -29594,7 +29849,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apricot-v12",
@@ -29675,7 +29931,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apricot-v14",
@@ -30246,7 +30503,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "water-bath",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SLO-001",
     "SLO-003",
@@ -30255,15 +30512,7 @@
     "SLO-006",
     "SLO-072"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/strawberry-jam-pectin/",
-     "miejsce": "Strawberry Jam Pectin, Table 1",
-     "cytat": "Recommended process time for  Strawberry Jam  in a boiling water canner",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -30271,13 +30520,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Strawberry Jam Pectin (NCHFP). Wersja niskosłodzona tylko z pektyną modyfikowaną według instrukcji producenta (dłuższy czas)."
+    "[SLO*] Strawberry Jam Pectin (NCHFP). Wersja niskosłodzona tylko z pektyną modyfikowaną według instrukcji producenta (dłuższy czas).",
+    "[E3] ok-zrodlo → do-researchu: NCHFP Strawberry Jam Pectin (szczebel 1) to przepis na zwykłą pektynę i pełny cukier (5,5 szklanki owoców, 8 szklanek cukru). Wariant łączy go z wersją 'niskosłodzoną', na którą źródło nie podaje przepisu. SLO-001 zabrania zmniejszania cukru w tradycyjnych przepisach, a SLO-006 odsyła do instrukcji producenta pektyny o niskim metoksylowaniu. Zmiana cukru wpływa na bezpieczeństwo (pleśnie, drożdże), a nazwa wskazuje ją wprost."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "strawberry-v08",
@@ -30320,7 +30571,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "strawberry-v09",
@@ -30516,7 +30768,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "strawberry-v15",
@@ -30596,7 +30849,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "raspberry-blackberry-v01",
@@ -30698,7 +30952,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "raspberry-blackberry-v03",
@@ -30841,7 +31096,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "raspberry-blackberry-v07",
@@ -30884,7 +31140,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "raspberry-blackberry-v08",
@@ -30929,7 +31186,8 @@
    "researchedBy": [
     "SZY",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "raspberry-blackberry-v09",
@@ -31061,7 +31319,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "raspberry-blackberry-v13",
@@ -31143,7 +31402,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "raspberry-blackberry-v15",
@@ -31203,7 +31463,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "currant-v01",
@@ -31537,7 +31798,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "currant-v11",
@@ -31651,7 +31913,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "currant-v14",
@@ -31703,7 +31966,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "gooseberry-v01",
@@ -32013,7 +32277,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "gooseberry-v10",
@@ -32095,7 +32360,8 @@
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "blueberry-bilberry-v01",
@@ -32168,7 +32434,7 @@
    "id": "blueberry-bilberry-v03",
    "productId": "blueberry-bilberry",
    "name": {
-    "pl": "borówki kiszone w solance (styl Noma, $2\\%$ soli)"
+    "pl": "borówki kiszone w solance (styl Noma, 2% soli)"
    },
    "groupV0": "Ocet i fermentacja",
    "lineV0": 266,
@@ -32200,7 +32466,8 @@
    "researchedBy": [
     "FER",
     "SZY"
-   ]
+   ],
+   "nameV0": "borówki kiszone w solance (styl Noma, $2\\%$ soli)"
   },
   {
    "id": "blueberry-bilberry-v04",
@@ -32281,21 +32548,13 @@
    "processFamilyId": "canned-foods",
    "preservationMethod": "water-bath",
    "acidBasis": "natural-acid",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "ACI-069",
     "ACI-068",
     "ACI-140"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
-     "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole",
-     "cytat": "Blackberries, blueberries, currants, dewberries, gooseberries, huckleberries, loganberries, mulberries, raspberries.",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -32303,13 +32562,15 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] NCHFP Berries whole (borówki, hot pack) — dopuszcza sok/wodę zamiast syropu. Jagoda leśna (Vaccinium myrtillus) nie jest wymieniona wprost (huckleberries/blueberries) — uproszczenie."
+    "[ACI*] NCHFP Berries whole (borówki, hot pack) — dopuszcza sok/wodę zamiast syropu. Jagoda leśna (Vaccinium myrtillus) nie jest wymieniona wprost (huckleberries/blueberries) — uproszczenie.",
+    "[E3] ok-zrodlo → do-researchu: Jagody leśne (borówka czarna, Vaccinium myrtillus) nie są na liście NCHFP Berries-Whole, a źródło mówi wprost: „Use these directions only with the berries listed.” Pakowanie w soku/bez cukru jest dozwolone, ale owoc spoza listy = brak przetestowanego przepisu. Po zmianie na borówkę amerykańską ok-zrodlo by przysługiwało."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "blueberry-bilberry-v07",
@@ -32477,29 +32738,14 @@
    "processFamilyId": "canned-foods",
    "preservationMethod": "water-bath",
    "acidBasis": "natural-acid",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "ACI-069",
     "ACI-068",
     "ACI-067",
     "ACI-140"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
-     "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole",
-     "cytat": "Blackberries, blueberries, currants, dewberries, gooseberries, huckleberries, loganberries, mulberries, raspberries.",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    },
-    {
-     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
-     "miejsce": "NCHFP (nchfp.uga.edu): Preparing and Using Syrups for Canning Fruit",
-     "cytat": "It does not prevent spoilage of these foods.",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -32508,14 +32754,16 @@
    },
    "notes": [
     "[ACI*] Kompot ≈ NCHFP Berries whole (borówki) w syropie bardzo lekkim.",
-    "[SLO] Najbliższy: Berries-Whole (borówki amerykańskie); jagoda czarna to inny gatunek."
+    "[SLO] Najbliższy: Berries-Whole (borówki amerykańskie); jagoda czarna to inny gatunek.",
+    "[E3] ok-zrodlo → do-researchu: „Kompot jagodowy” po polsku to zwykle kompot z jagód leśnych (borówki czarnej), których nie ma na liście NCHFP Berries-Whole („Use these directions only with the berries listed”). Jeśli wariant dotyczy borówki amerykańskiej, wystarczy zmienić nazwę i ok-zrodlo przysługuje (syrop/woda dozwolone, ACI-067)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "blueberry-bilberry-v13",
@@ -32567,7 +32815,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cranberry-lingonberry-v01",
@@ -32784,7 +33033,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cranberry-lingonberry-v07",
@@ -32891,7 +33141,8 @@
    "researchedBy": [
     "SLO",
     "NAP"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cranberry-lingonberry-v10",
@@ -32934,7 +33185,8 @@
     "SZY",
     "SLO",
     "NAP"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cranberry-lingonberry-v11",
@@ -33057,7 +33309,8 @@
    "researchedBy": [
     "SUS",
     "NAP"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "chokeberry-seabuckthorn-v01",
@@ -33429,7 +33682,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "chokeberry-seabuckthorn-v12",
@@ -33473,7 +33727,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "elderberry-elderflower-v01",
@@ -33685,7 +33940,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SLO-061",
     "SLO-062",
@@ -33696,15 +33951,7 @@
     "SLO-052",
     "SLO-109"
    ],
-   "sources": [
-    {
-     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/Elderberries-OSU%202024.pdf",
-     "miejsce": "Oregon State Univ. Ext., EM 9446 Play it safe when preserving elderberries (XI 2024), wstep",
-     "cytat": "Because raw elderberry products may contain elevated levels of toxic compounds, you should always cook elderberries before eating them.",
-     "odczyt": "2026-11-01",
-     "szczebel": 3
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -33712,13 +33959,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Syrop z owoców czarnego bzu: wyłącznie według proporcji wagowej OSU (16 oz soku : 19,5 oz cukru), owoce gotowane, bez szypułek. Sam gęsty sok bez cukru: mrozić (brak procesu wekowania; czarny bez wykluczony z procedury soków UC)."
+    "[SLO*] Syrop z owoców czarnego bzu: wyłącznie według proporcji wagowej OSU (16 oz soku : 19,5 oz cukru), owoce gotowane, bez szypułek. Sam gęsty sok bez cukru: mrozić (brak procesu wekowania; czarny bez wykluczony z procedury soków UC).",
+    "[E3] ok-zrodlo → ryzyko-wysokie: OSU EM 9446 (szczebel 3): bez czarny europejski i amerykański może mieć pH > 4,6; wekować wolno tylko według przepisu wysokocukrowego (16 oz soku na 19,5 oz cukru, ważone, sam cukier kryształ, gotowane do punktu żelowania). Przepisu na „gęsty sok” nie ma, a UC wyklucza bez z soków z sokownika (SLO-052). Nazwa obejmuje sok, więc dla tej części: zagrożenie nazwane, brak procedury. Rozwiązanie: ograniczyć wariant do syropu według proporcji OSU, wtedy ok-zrodlo."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "elderberry-elderflower-v08",
@@ -33828,7 +34077,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "elderberry-elderflower-v11",
@@ -33869,6 +34119,10 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "SUS-041"
    ]
   },
   {
@@ -34452,7 +34706,8 @@
    "researchedBy": [
     "SZY",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "grapes-v07",
@@ -34502,7 +34757,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "grapes-v08",
@@ -34621,7 +34877,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "rhubarb-v01",
@@ -34802,7 +35059,8 @@
     "ACI",
     "SZY",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "rhubarb-v06",
@@ -34943,7 +35201,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "FER"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "lemon-v02",
@@ -35154,7 +35413,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "lemon-v08",
@@ -35265,7 +35525,8 @@
    "researchedBy": [
     "SZY",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "lemon-v11",
@@ -35464,7 +35725,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "FER"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "lime-bergamot-v02",
@@ -35639,7 +35901,8 @@
    "researchedBy": [
     "SZY",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "lime-bergamot-v07",
@@ -35956,7 +36219,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "orange-kumquat-v06",
@@ -36309,7 +36573,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "grapefruit-v03",
@@ -36377,7 +36642,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "grapefruit-v05",
@@ -36772,7 +37038,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "mango-papaya-v08",
@@ -36876,7 +37143,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "mango-papaya-v11",
@@ -37191,7 +37459,8 @@
     "ACI",
     "SZY",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pineapple-banana-v08",
@@ -37237,7 +37506,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SLO-027",
     "SLO-054",
@@ -37251,13 +37520,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Banan ma pH 4,5-5,2 i jest wykluczony z przecierów NCHFP; brak przetestowanego dżemu bananowego."
+    "[SLO*] Banan ma pH 4,5-5,2 i jest wykluczony z przecierów NCHFP; brak przetestowanego dżemu bananowego.",
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-054 (NCHFP, szczebel 1) wyklucza banany z przepisu na przeciery do wekowania i mówi o braku zaleceń wekowania, ale nie nazywa zagrożenia i nie dotyczy lodówki; SLO-027 (pH 4,5–5,2) jest graniczne."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "e3": "zmieniony z ryzyko-wysokie"
   },
   {
    "id": "pineapple-banana-v10",
@@ -37308,7 +37579,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "fig-pomegranate-v01",
@@ -37767,7 +38039,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "watermelon-melon-v04",
@@ -37820,7 +38093,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "do-researchu",
    "claims": [
     "ACI-066",
     "ACI-065",
@@ -37841,14 +38114,16 @@
    },
    "notes": [
     "[ACI] Syrop z soku arbuza: sok niskokwasowy, NCHFP nie zaleca wekowania arbuza, brak przetestowanej procedury. Karta tylko jako ostrzeżenie (albo mrożenie).",
-    "[SLO*] Sok z arbuza ma pH 5,2-5,8 (niskokwasowy); melony wykluczone z przecierów i soków; brak przetestowanego syropu."
+    "[SLO*] Sok z arbuza ma pH 5,2-5,8 (niskokwasowy); melony wykluczone z przecierów i soków; brak przetestowanego syropu.",
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). ACI-066 (NCHFP nie zaleca wekowania arbuza, przez SDSU), ACI-065, SLO-054 i SLO-052 (wyłączenia z przecierów i soków) oraz ACI-027 (brak czasów USDA) dotyczą wekowania. Syrop odparowany do lodówki nie ma nazwanego zagrożenia."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "zmieniony z ryzyko-wysokie"
   },
   {
    "id": "watermelon-melon-v06",
@@ -37933,7 +38208,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SLO-025",
     "SLO-054",
@@ -37948,14 +38223,16 @@
    },
    "notes": [
     "[ACI] Dżem z kantalupa: melon niskokwasowy, wyłączony z przecierów NCHFP; brak przepisu. Sygnał ryzyka.",
-    "[SLO*] Kantalupa ma pH 6,17-7,13; melony wykluczone z przecierów NCHFP; brak przetestowanego dżemu."
+    "[SLO*] Kantalupa ma pH 6,17-7,13; melony wykluczone z przecierów NCHFP; brak przetestowanego dżemu.",
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-054 (wyłączenie melonów z przecierów do wekowania) dotyczy wekowania; SLO-025 to pH."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "e3": "zmieniony z ryzyko-wysokie"
   },
   {
    "id": "watermelon-melon-v09",
@@ -37968,7 +38245,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SLO-024",
     "SLO-023"
@@ -37983,7 +38260,8 @@
    "notes": [
     "[ACI] Galaretka arbuzowa: sok niskokwasowy; brak przetestowanego przepisu. Sygnał ryzyka.",
     "[SZY] Galaretka (SLO).",
-    "[SLO*] Sok z arbuza ma pH 5,2-5,8; brak przetestowanej galaretki."
+    "[SLO*] Sok z arbuza ma pH 5,2-5,8; brak przetestowanej galaretki.",
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-024 to pH arbuza."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37991,7 +38269,8 @@
     "ACI",
     "SZY",
     "SLO"
-   ]
+   ],
+   "e3": "zmieniony z ryzyko-wysokie"
   },
   {
    "id": "watermelon-melon-v10",
@@ -38037,7 +38316,8 @@
    "researchedBy": [
     "ACI",
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "walnut-nuts-v01",
@@ -38408,7 +38688,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "boletes-v02",
@@ -38444,7 +38725,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "boletes-v03",
@@ -38553,7 +38835,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "boletes-v06",
@@ -38591,7 +38874,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "boletes-v07",
@@ -38633,7 +38917,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "boletes-v08",
@@ -38646,7 +38931,7 @@
    "processFamilyId": "oil-and-fat",
    "preservationMethod": "freezer",
    "acidBasis": "not-applicable",
-   "safetyStatus": "nie-publikowac",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "OLE-040",
     "OLE-026",
@@ -38660,7 +38945,8 @@
     "difficulty": null
    },
    "notes": [
-    "[OLE*] Dzikie grzyby w słoikach pod oliwą/tłuszczem: NCHFP wprost odradza wekowanie dzikich grzybów, a grzyby w oleju wywoływały jad kiełbasiany. Karta może pokazać mrożenie podsmażonych grzybów."
+    "[OLE*] Dzikie grzyby w słoikach pod oliwą/tłuszczem: NCHFP wprost odradza wekowanie dzikich grzybów, a grzyby w oleju wywoływały jad kiełbasiany. Karta może pokazać mrożenie podsmażonych grzybów.",
+    "[E3] nie-publikowac → ryzyko-wysokie: Proces v1 to zamrażarka. Zakaz szczebla 1 dotyczy wekowania grzybów leśnych (OLE-040, strona wekowania ciśnieniowego 1f808143a32c), nie mrożenia ani oleju. Strona NCHFP o mrożeniu grzybów (616a728226ff, przeczytana) dopuszcza mrożenie po podsmażeniu na tłuszczu (OLE-041) bez ograniczenia gatunków. Brak źródła szczebla 1, które wprost odradza ten proces, więc nie-publikowac nie przysługuje. Ryzyko-wysokie tak: OLE-026 (szczebel 2) nazywa botulizm z domowych grzybów w oleju, przetestowanej procedury sott'olio nie ma, a SUS-035 nazywa ryzyko pomylenia gatunków."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -38669,7 +38955,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "zmieniony z nie-publikowac"
   },
   {
    "id": "boletes-v09",
@@ -38711,7 +38998,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "boletes-v10",
@@ -38750,7 +39038,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "boletes-v11",
@@ -38811,7 +39100,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "boletes-v12",
@@ -38873,7 +39163,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "boletes-v13",
@@ -39029,7 +39320,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "chanterelle-milkcap-v04",
@@ -39067,7 +39359,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "chanterelle-milkcap-v05",
@@ -39105,7 +39398,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "chanterelle-milkcap-v06",
@@ -39142,7 +39436,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "chanterelle-milkcap-v07",
@@ -39187,7 +39482,7 @@
    "processFamilyId": "oil-and-fat",
    "preservationMethod": "freezer",
    "acidBasis": "not-applicable",
-   "safetyStatus": "nie-publikowac",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "OLE-040",
     "OLE-026",
@@ -39202,7 +39497,8 @@
    },
    "notes": [
     "[SZY] Rydze smażone pod warstwą tłuszczu: warstwa tłuszczu tworzy warunki beztlenowe dla wilgotnej, niskokwasowej żywności (SZY-008); brak procesu; dzikie grzyby. Tylko lodówka krótko/mrożenie (OLE).",
-    "[OLE*] Dzikie grzyby w słoikach pod oliwą/tłuszczem: NCHFP wprost odradza wekowanie dzikich grzybów, a grzyby w oleju wywoływały jad kiełbasiany. Karta może pokazać mrożenie podsmażonych grzybów."
+    "[OLE*] Dzikie grzyby w słoikach pod oliwą/tłuszczem: NCHFP wprost odradza wekowanie dzikich grzybów, a grzyby w oleju wywoływały jad kiełbasiany. Karta może pokazać mrożenie podsmażonych grzybów.",
+    "[E3] nie-publikowac → ryzyko-wysokie: Proces v1 to zamrażarka. Zakaz szczebla 1 (OLE-040) dotyczy wekowania, nie mrożenia. NCHFP (616a728226ff, przeczytana) wprost dopuszcza mrożenie grzybów podsmażonych na maśle lub margarynie (OLE-041) bez ograniczenia gatunków. Nie-publikowac nie przysługuje. Ryzyko-wysokie tak: OLE-026 (szczebel 2) nazywa botulizm z grzybów pod olejem, procedury dla „słoików pod warstwą tłuszczu” nie ma, a SUS-035 nazywa ryzyko pomylenia gatunków."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -39212,7 +39508,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "zmieniony z nie-publikowac"
   },
   {
    "id": "chanterelle-milkcap-v09",
@@ -39254,7 +39551,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "chanterelle-milkcap-v10",
@@ -39296,7 +39594,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "chanterelle-milkcap-v11",
@@ -39335,7 +39634,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "chanterelle-milkcap-v12",
@@ -39374,7 +39674,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "chanterelle-milkcap-v13",
@@ -39435,7 +39736,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "wild-mushrooms-v01",
@@ -39473,7 +39775,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "wild-mushrooms-v02",
@@ -39551,7 +39854,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "wild-mushrooms-v04",
@@ -39588,7 +39892,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "wild-mushrooms-v05",
@@ -39668,7 +39973,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "wild-mushrooms-v07",
@@ -39707,7 +40013,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "wild-mushrooms-v08",
@@ -39749,7 +40056,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "wild-mushrooms-v09",
@@ -39810,7 +40118,8 @@
    ],
    "requiredWarnings": [
     "SUS-035"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "wild-mushrooms-v10",
@@ -39859,7 +40168,7 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "ACI-016",
     "ACI-018",
@@ -39867,15 +40176,7 @@
     "ACI-031",
     "ACI-159"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-whole-mushrooms/",
-     "miejsce": "NCHFP (nchfp.uga.edu): Marinated Whole Mushrooms",
-     "cytat": "Select very fresh unopened mushrooms with caps less than 1-1/4 inch in diameter.",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -39884,14 +40185,16 @@
    },
    "notes": [
     "[ACI*] Odpowiednik: NCHFP Marinated Whole Mushrooms — małe zamknięte pieczarki, blanszowanie z sokiem z cytryny, ocet 5% (+olej w oryginale). Wersja „klasyczna” bez oleju — tylko według proporcji NCHFP; DO USTALENIA, czy pominięcie oleju jest dopuszczalne.",
-    "[SZY] Pieczarki w occie – NCHFP Marinated Whole Mushrooms (ACI)."
+    "[SZY] Pieczarki w occie – NCHFP Marinated Whole Mushrooms (ACI).",
+    "[E3] ok-zrodlo → do-researchu: NCHFP Marinated Whole Mushrooms to marynata z oliwą (2 szkl. oleju, 2,5 szkl. octu 5%, 1/2 szkl. butelkowanego soku z cytryny), tylko słoiki half-pint, 20 min. „Klasyczne pieczarki w occie” to polska zalewa octowa o innych proporcjach (bez oleju i soku z cytryny, inne rozcieńczenie i cukier, zwykle inne słoiki). Grzyby mają pH 6,0–6,7 (ACI-159), więc proporcje kwasu są krytyczne (ACI-016, ACI-017). To nie jest bezpośredni odpowiednik."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SZY"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "cultivated-mushrooms-v02",
@@ -40154,7 +40457,8 @@
    "researchedBy": [
     "SZY",
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cultivated-mushrooms-v09",
@@ -40225,7 +40529,8 @@
    "researchedBy": [
     "SZY",
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cultivated-mushrooms-v11",
@@ -40282,7 +40587,8 @@
    "researchedBy": [
     "SZY",
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cultivated-mushrooms-v12",
@@ -40316,7 +40622,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "wild-garlic-v01",
@@ -40484,7 +40791,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "FER"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "wild-garlic-v06",
@@ -40554,13 +40862,17 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-043"
    ]
   },
   {
    "id": "wild-garlic-v08",
    "productId": "wild-garlic",
    "name": {
-    "pl": "pasta z liści zmiksowanych wyłącznie z solą ($20\\%$) i oliwą (baza całoroczna)"
+    "pl": "pasta z liści zmiksowanych wyłącznie z solą (20%) i oliwą (baza całoroczna)"
    },
    "groupV0": "Olej, sól i susz",
    "lineV0": 355,
@@ -40586,7 +40898,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "nameV0": "pasta z liści zmiksowanych wyłącznie z solą ($20\\%$) i oliwą (baza całoroczna)"
   },
   {
    "id": "wild-garlic-v09",
@@ -40628,6 +40941,12 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-002",
+    "OLE-019",
+    "OLE-018"
    ]
   },
   {
@@ -40662,7 +40981,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "wild-garlic-v11",
@@ -40734,6 +41054,10 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-043"
    ]
   },
   {
@@ -40775,6 +41099,10 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-043"
    ]
   },
   {
@@ -40818,6 +41146,10 @@
    "researchedBy": [
     "ACI",
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-043"
    ]
   },
   {
@@ -40859,6 +41191,10 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-043"
    ]
   },
   {
@@ -40943,6 +41279,11 @@
    "researchedBy": [
     "ACI",
     "OLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-002",
+    "OLE-019"
    ]
   },
   {
@@ -40988,7 +41329,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "garden-herbs-v08",
@@ -41162,7 +41504,8 @@
    "researchedBy": [
     "SZY",
     "SLO"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "garden-herbs-v13",
@@ -41233,7 +41576,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "foraged-blossoms-v01",
@@ -41662,7 +42006,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "koji-ferments-v01",
@@ -41910,7 +42255,7 @@
    "id": "koji-ferments-v08",
    "productId": "koji-ferments",
    "name": {
-    "pl": "gęste słodkie amazake (inkubacja w $55\\text{--}60^\\circ\\text{C}$ bez cukru)"
+    "pl": "gęste słodkie amazake (inkubacja w 55–60°C bez cukru)"
    },
    "groupV0": "Słodkie, pikle i dojrzewanie",
    "lineV0": 367,
@@ -41936,7 +42281,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
-   ]
+   ],
+   "nameV0": "gęste słodkie amazake (inkubacja w $55\\text{--}60^\\circ\\text{C}$ bez cukru)"
   },
   {
    "id": "koji-ferments-v09",
@@ -42472,7 +42818,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "miso-garum-v11",
@@ -42977,6 +43324,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "NAP-029",
+    "NAP-030"
    ]
   },
   {
@@ -43403,7 +43755,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "fermented-beverages-v02",
@@ -43816,7 +44169,7 @@
    "id": "yogurt-skyr-v01",
    "productId": "yogurt-skyr",
    "name": {
-    "pl": "jogurt naturalny gęsty (z mleka podgrzewanego do $85^\\circ\\text{C}$ i inkubowanego w $42^\\circ\\text{C}$)"
+    "pl": "jogurt naturalny gęsty (z mleka podgrzewanego do 85°C i inkubowanego w 42°C)"
    },
    "groupV0": "Termofilne",
    "lineV0": 390,
@@ -43856,7 +44209,9 @@
    "publication": "ukryta",
    "researchedBy": [
     "MLE"
-   ]
+   ],
+   "e3": "potwierdzony",
+   "nameV0": "jogurt naturalny gęsty (z mleka podgrzewanego do $85^\\circ\\text{C}$ i inkubowanego w $42^\\circ\\text{C}$)"
   },
   {
    "id": "yogurt-skyr-v02",
@@ -43900,7 +44255,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "yogurt-skyr-v03",
@@ -43983,7 +44339,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "yogurt-skyr-v05",
@@ -44200,7 +44557,8 @@
    "researchedBy": [
     "OLE",
     "MLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "yogurt-skyr-v11",
@@ -44536,7 +44894,7 @@
    "id": "kefir-cream-v07",
    "productId": "kefir-cream",
    "name": {
-    "pl": "polska śmietana $18\\%$ i $30\\%$ ukwaszana kulturami mezofilnymi"
+    "pl": "polska śmietana 18% i 30% ukwaszana kulturami mezofilnymi"
    },
    "groupV0": "Śmietany ukwaszane i serwatka",
    "lineV0": 395,
@@ -44564,13 +44922,14 @@
    "publication": "ukryta",
    "researchedBy": [
     "MLE"
-   ]
+   ],
+   "nameV0": "polska śmietana $18\\%$ i $30\\%$ ukwaszana kulturami mezofilnymi"
   },
   {
    "id": "kefir-cream-v08",
    "productId": "kefir-cream",
    "name": {
-    "pl": "francuska gęsta crème fraîche ($30\\text{--}36\\%$ tłuszczu)"
+    "pl": "francuska gęsta crème fraîche (30–36% tłuszczu)"
    },
    "groupV0": "Śmietany ukwaszane i serwatka",
    "lineV0": 395,
@@ -44600,7 +44959,8 @@
    "researchedBy": [
     "OLE",
     "MLE"
-   ]
+   ],
+   "nameV0": "francuska gęsta crème fraîche ($30\\text{--}36\\%$ tłuszczu)"
   },
   {
    "id": "kefir-cream-v09",
@@ -44746,7 +45106,7 @@
    "id": "quark-acid-cheese-v01",
    "productId": "quark-acid-cheese",
    "name": {
-    "pl": "tradycyjny polski twaróg półtłusty i tłusty w klinku (powolne dogrzewanie skrzepu do $40\\text{--}45^\\circ\\text{C}$)"
+    "pl": "tradycyjny polski twaróg półtłusty i tłusty w klinku (powolne dogrzewanie skrzepu do 40–45°C)"
    },
    "groupV0": "Twarogi",
    "lineV0": 398,
@@ -44778,7 +45138,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MLE"
-   ]
+   ],
+   "nameV0": "tradycyjny polski twaróg półtłusty i tłusty w klinku (powolne dogrzewanie skrzepu do $40\\text{--}45^\\circ\\text{C}$)"
   },
   {
    "id": "quark-acid-cheese-v02",
@@ -45015,13 +45376,14 @@
    "researchedBy": [
     "NAP",
     "MLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "quark-acid-cheese-v08",
    "productId": "quark-acid-cheese",
    "name": {
-    "pl": "włoskie mascarpone (śmietanka $36\\%$ zakwaszana kwasem winowym lub cytrynowym w $85^\\circ\\text{C}$)"
+    "pl": "włoskie mascarpone (śmietanka 36% zakwaszana kwasem winowym lub cytrynowym w 85°C)"
    },
    "groupV0": "Sery kwasowo-termiczne",
    "lineV0": 399,
@@ -45053,7 +45415,8 @@
    "researchedBy": [
     "NAP",
     "MLE"
-   ]
+   ],
+   "nameV0": "włoskie mascarpone (śmietanka $36\\%$ zakwaszana kwasem winowym lub cytrynowym w $85^\\circ\\text{C}$)"
   },
   {
    "id": "quark-acid-cheese-v09",
@@ -45401,6 +45764,12 @@
    "publication": "ukryta",
    "researchedBy": [
     "MLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MLE-043",
+    "MLE-046",
+    "MLE-047"
    ]
   },
   {
@@ -45478,13 +45847,14 @@
     "SZY",
     "OLE",
     "MLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "fresh-brined-cheese-v08",
    "productId": "fresh-brined-cheese",
    "name": {
-    "pl": "grecka feta dojrzewająca w solance ($7\\text{--}10\\%$)"
+    "pl": "grecka feta dojrzewająca w solance (7–10%)"
    },
    "groupV0": "Solankowe i do grillowania",
    "lineV0": 403,
@@ -45519,7 +45889,8 @@
     "FER",
     "SZY",
     "MLE"
-   ]
+   ],
+   "nameV0": "grecka feta dojrzewająca w solance ($7\\text{--}10\\%$)"
   },
   {
    "id": "fresh-brined-cheese-v09",
@@ -45742,13 +46113,14 @@
     "ACI",
     "OLE",
     "MLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pasta-filata-cheese-v01",
    "productId": "pasta-filata-cheese",
    "name": {
-    "pl": "włoska mozzarella świeża (rozciągana w wodzie o temperaturze $80^\\circ\\text{C}$ przy $\\text{pH } 5.2$)"
+    "pl": "włoska mozzarella świeża (rozciągana w gorącej wodzie)"
    },
    "groupV0": "Świeże rozciągane",
    "lineV0": 406,
@@ -45783,7 +46155,9 @@
    "publication": "ukryta",
    "researchedBy": [
     "MLE"
-   ]
+   ],
+   "e3": "potwierdzony",
+   "nameV0": "włoska mozzarella świeża (rozciągana w wodzie o temperaturze $80^\\circ\\text{C}$ przy $\\text{pH } 5.2$)"
   },
   {
    "id": "pasta-filata-cheese-v02",
@@ -45831,7 +46205,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pasta-filata-cheese-v03",
@@ -46829,7 +47204,8 @@
     "ACI",
     "OLE",
     "MLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "mold-ripened-cheese-v06",
@@ -47191,7 +47567,8 @@
    "researchedBy": [
     "OLE",
     "MLE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "butter-whey-cheese-v06",
@@ -47228,13 +47605,17 @@
     "SZY",
     "OLE",
     "MLE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "SUS-035"
    ]
   },
   {
    "id": "butter-whey-cheese-v07",
    "productId": "butter-whey-cheese",
    "name": {
-    "pl": "włoska ricotta ze słodkiej serwatki podgrzanej do $90^\\circ\\text{C}$ z octem/cytryną"
+    "pl": "włoska ricotta ze słodkiej serwatki podgrzanej do 90°C z octem/cytryną"
    },
    "groupV0": "Sery z serwatki",
    "lineV0": 419,
@@ -47268,7 +47649,9 @@
    "publication": "ukryta",
    "researchedBy": [
     "MLE"
-   ]
+   ],
+   "e3": "potwierdzony",
+   "nameV0": "włoska ricotta ze słodkiej serwatki podgrzanej do $90^\\circ\\text{C}$ z octem/cytryną"
   },
   {
    "id": "butter-whey-cheese-v08",
@@ -47431,7 +47814,7 @@
    "id": "pork-loin-ham-v01",
    "productId": "pork-loin-ham",
    "name": {
-    "pl": "szynka tradycyjna peklowana na mokro, wędzona dymem olchowo-owocowym i parzona do $75^\\circ\\text{C}$"
+    "pl": "szynka tradycyjna peklowana na mokro, wędzona dymem olchowo-owocowym i parzona do 75°C"
    },
    "groupV0": "Wędzone i parzone",
    "lineV0": 426,
@@ -47464,7 +47847,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "nameV0": "szynka tradycyjna peklowana na mokro, wędzona dymem olchowo-owocowym i parzona do $75^\\circ\\text{C}$"
   },
   {
    "id": "pork-loin-ham-v02",
@@ -47589,7 +47973,7 @@
    "id": "pork-loin-ham-v05",
    "productId": "pork-loin-ham",
    "name": {
-    "pl": "schab gotowany w majeranku (metoda $2 \\times 5$ minut)"
+    "pl": "schab gotowany w majeranku (metoda 2 × 5 minut)"
    },
    "groupV0": "Wędzone i parzone",
    "lineV0": 426,
@@ -47615,7 +47999,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "nameV0": "schab gotowany w majeranku (metoda $2 \\times 5$ minut)"
   },
   {
    "id": "pork-loin-ham-v06",
@@ -47767,7 +48152,7 @@
    "id": "pork-loin-ham-v10",
    "productId": "pork-loin-ham",
    "name": {
-    "pl": "polędwiczka wieprzowa suszona w ziołach ($5\\text{--}7$ dni)"
+    "pl": "polędwiczka wieprzowa suszona w ziołach (5–7 dni)"
    },
    "groupV0": "Dojrzewające i słoikowe",
    "lineV0": 427,
@@ -47799,7 +48184,8 @@
    "researchedBy": [
     "SUS",
     "MIE"
-   ]
+   ],
+   "nameV0": "polędwiczka wieprzowa suszona w ziołach ($5\\text{--}7$ dni)"
   },
   {
    "id": "pork-loin-ham-v11",
@@ -47882,7 +48268,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pork-loin-ham-v13",
@@ -47920,7 +48307,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pork-loin-ham-v14",
@@ -47956,7 +48344,8 @@
    "researchedBy": [
     "OLE",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pork-loin-ham-v15",
@@ -47994,7 +48383,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pork-shoulder-neck-v01",
@@ -48221,7 +48611,7 @@
    "id": "pork-shoulder-neck-v07",
    "productId": "pork-shoulder-neck",
    "name": {
-    "pl": "klasyczna tuszonka wieprzowa z łopatki w galarecie (potrójna tyndalizacja w $100^\\circ\\text{C}$ lub szybkowar/autoklaw w $121^\\circ\\text{C}$)"
+    "pl": "klasyczna tuszonka wieprzowa z łopatki w galarecie (szybkowar)"
    },
    "groupV0": "Słoiki — tyndalizacja i szybkowar",
    "lineV0": 431,
@@ -48256,14 +48646,17 @@
    },
    "notes": [
     "[SZY*] Tuszonka z łopatki: przetestowany proces NCHFP dla kawałków wieprzowiny (na gorąco z bulionem lub na surowo bez płynu), szybkowar 75/90 min. Wariant „potrójna tyndalizacja w 100 °C” z v0 – odrzucony; „autoklaw 121 °C” = szybkowar 15 PSI (nie przekraczać 15 PSI).",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[E3] Weryfikator: Nazwa podaje jako równorzędną opcję „potrójną tyndalizację w 100°C”, czyli proces, który źródło szczebla 1 wprost odradza. SZY-006 (NCHFP, szczebel 1): wekowanie ciśnieniowe to jedyna zalecana metoda dla mięsa i drobiu, a kąpiel wodna „poses a real risk of botulism poisoning”; NCHFP nie ma żadnej procedury z wrzątkiem (SZY-005), a tyndalizacja nie jest niezawodna (SZY-009). Metoda w polu preservationMethod (szybkowar) ma przepis NCHFP Meat Strips/Cubes (pint 75 min, quart 90 min), więc po usunięciu tyndalizacji z nazwy przysługuje ok-zrodlo. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "nazwa poprawiona",
+   "nameV0": "klasyczna tuszonka wieprzowa z łopatki w galarecie (potrójna tyndalizacja w $100^\\circ\\text{C}$ lub szybkowar/autoklaw w $121^\\circ\\text{C}$)"
   },
   {
    "id": "pork-shoulder-neck-v08",
@@ -48304,7 +48697,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pork-shoulder-neck-v09",
@@ -48342,7 +48736,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pork-shoulder-neck-v10",
@@ -48386,7 +48781,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pork-shoulder-neck-v11",
@@ -48426,7 +48822,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pork-shoulder-neck-v12",
@@ -48469,7 +48866,8 @@
     "SZY",
     "OLE",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pork-shoulder-neck-v13",
@@ -48508,7 +48906,8 @@
     "SZY",
     "SLO",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pork-belly-jowl-v01",
@@ -48521,7 +48920,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "MIE-019",
     "MIE-020",
@@ -48533,15 +48932,7 @@
     "MIE-011",
     "MIE-012"
    ],
-   "sources": [
-    {
-     "adres": "https://extension.missouri.edu/publications/g2528",
-     "miejsce": "MU Extension G2528 Home Curing Bacon for a Mild Flavor",
-     "cytat": "Bacon cured and smoked in this fashion is perishable and needs to be frozen or stored in a refrigerator until eaten.",
-     "odczyt": "2026-11-01",
-     "szczebel": 3
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -48549,13 +48940,15 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Przepis MU Extension G2528 (odsyła NCHFP). Produkt nietrwały: lodówka lub zamrażarka (MIE-019)."
+    "[MIE*] Przepis MU Extension G2528 (odsyła NCHFP). Produkt nietrwały: lodówka lub zamrażarka (MIE-019).",
+    "[E3] ok-zrodlo → do-researchu: MU Extension G2528 (szczebel 3) opisuje boczek peklowany na sucho 7 dni i wędzony 36–48 h jako surowy, nietrwały produkt do obróbki przed jedzeniem. „Wędzony na ciepło i parzony” to inny proces: wędzenie w podwyższonej temperaturze i parzenie do produktu gotowego do jedzenia. Źródło nie podaje dla niego temperatur, czasów ani temperatury wewnętrznej, a zmiana procesu wpływa na bezpieczeństwo."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "pork-belly-jowl-v02",
@@ -48568,7 +48961,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "MIE-019",
     "MIE-020",
@@ -48580,15 +48973,7 @@
     "MIE-011",
     "MIE-012"
    ],
-   "sources": [
-    {
-     "adres": "https://extension.missouri.edu/publications/g2528",
-     "miejsce": "MU Extension G2528 Home Curing Bacon for a Mild Flavor",
-     "cytat": "Bacon cured and smoked in this fashion is perishable and needs to be frozen or stored in a refrigerator until eaten.",
-     "odczyt": "2026-11-01",
-     "szczebel": 3
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -48596,13 +48981,15 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Jak v01; produkt nietrwały."
+    "[MIE*] Jak v01; produkt nietrwały.",
+    "[E3] ok-zrodlo → do-researchu: MU Extension G2528 dotyczy płatów boczku (bellies). Boczek rolowany przenosi zewnętrzną, zanieczyszczoną powierzchnię do środka zwoju, co zmienia penetrację peklosoli i wymaga ogrzania środka. Źródło tego nie obejmuje, a zmiana procesu wpływa na bezpieczeństwo."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "pork-belly-jowl-v03",
@@ -48809,7 +49196,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pork-belly-jowl-v09",
@@ -49052,7 +49440,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "smoked-cooked-sausages-v02",
@@ -49409,7 +49798,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "smoked-cooked-sausages-v11",
@@ -49447,7 +49837,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "smoked-cooked-sausages-v12",
@@ -49487,7 +49878,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "smoked-cooked-sausages-v13",
@@ -49527,7 +49919,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "smoked-cooked-sausages-v14",
@@ -49567,7 +49960,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "smoked-cooked-sausages-v15",
@@ -49683,7 +50077,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "dry-cured-sausages-v02",
@@ -49721,13 +50116,14 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "dry-cured-sausages-v03",
    "productId": "dry-cured-sausages",
    "name": {
-    "pl": "włoskie salami milano i napoli (z kulturami starterowymi obniżającymi $\\text{pH}$ i białą pleśnią *Penicillium nalgiovense*)"
+    "pl": "włoskie salami milano i napoli (z kulturami starterowymi obniżającymi pH i białą pleśnią *Penicillium nalgiovense*)"
    },
    "groupV0": "Dojrzewające twarde",
    "lineV0": 442,
@@ -49760,7 +50156,9 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony",
+   "nameV0": "włoskie salami milano i napoli (z kulturami starterowymi obniżającymi $\\text{pH}$ i białą pleśnią *Penicillium nalgiovense*)"
   },
   {
    "id": "dry-cured-sausages-v04",
@@ -49799,7 +50197,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "dry-cured-sausages-v05",
@@ -49836,7 +50235,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "dry-cured-sausages-v06",
@@ -49873,7 +50273,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "dry-cured-sausages-v07",
@@ -49910,7 +50311,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "dry-cured-sausages-v08",
@@ -49950,7 +50352,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "dry-cured-sausages-v09",
@@ -49991,7 +50394,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "dry-cured-sausages-v10",
@@ -50025,7 +50429,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "dry-cured-sausages-v11",
@@ -50064,7 +50469,8 @@
    "researchedBy": [
     "SLO",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "dry-cured-sausages-v12",
@@ -50136,7 +50542,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beef-veal-v01",
@@ -50255,7 +50662,7 @@
    "id": "beef-veal-v04",
    "productId": "beef-veal",
    "name": {
-    "pl": "tuszonka wołowa w słoikach (tyndalizacja)"
+    "pl": "tuszonka wołowa w słoikach (szybkowar)"
    },
    "groupV0": "Wędzone, peklowane i słoikowe",
    "lineV0": 446,
@@ -50289,14 +50696,17 @@
    },
    "notes": [
     "[SZY*] Tuszonka wołowa: NCHFP kawałki wołowiny, szybkowar 75/90 min; tyndalizacja z v0 odrzucona.",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[E3] Weryfikator: Nazwa „tuszonka wołowa w słoikach (tyndalizacja)” wskazuje proces z wrzątkiem, który źródło szczebla 1 wprost odradza. SZY-006 (NCHFP, szczebel 1): wekowanie ciśnieniowe to jedyna zalecana metoda dla mięsa i drobiu, a kąpiel wodna „poses a real risk of botulism poisoning”; NCHFP nie ma żadnej procedury z wrzątkiem (SZY-005), a tyndalizacja nie jest niezawodna (SZY-009). Dla wołowiny jest NCHFP Meat Strips/Cubes (szybkowar: pint 75 min, quart 90 min); po zmianie nazwy (bez tyndalizacji) przysługuje ok-zrodlo. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "nazwa poprawiona",
+   "nameV0": "tuszonka wołowa w słoikach (tyndalizacja)"
   },
   {
    "id": "beef-veal-v05",
@@ -50335,7 +50745,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beef-veal-v06",
@@ -50379,7 +50790,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beef-veal-v07",
@@ -50420,13 +50832,14 @@
     "SZY",
     "SLO",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beef-veal-v08",
    "productId": "beef-veal",
    "name": {
-    "pl": "amerykańskie beef jerky (cienkie paski marynowane w sosie sojowym/worcestershire i suszone w $65^\\circ\\text{C}$)"
+    "pl": "amerykańskie beef jerky (cienkie paski marynowane w sosie sojowym/worcestershire i suszone w 65°C)"
    },
    "groupV0": "Suszona, dojrzewająca i tłuszcze",
    "lineV0": 447,
@@ -50470,7 +50883,9 @@
     "SZY",
     "SUS",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony",
+   "nameV0": "amerykańskie beef jerky (cienkie paski marynowane w sosie sojowym/worcestershire i suszone w $65^\\circ\\text{C}$)"
   },
   {
    "id": "beef-veal-v09",
@@ -50976,7 +51391,8 @@
     "SZY",
     "OLE",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "poultry-v09",
@@ -51019,13 +51435,14 @@
     "SZY",
     "OLE",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "poultry-v10",
    "productId": "poultry",
    "name": {
-    "pl": "kurczak w galarecie w słoiku (tyndalizacja)"
+    "pl": "kurczak w galarecie w słoiku (szybkowar)"
    },
    "groupV0": "Konfitowanie i słoiki",
    "lineV0": 451,
@@ -51059,14 +51476,17 @@
    },
    "notes": [
     "[SZY*] Kurczak w galarecie: NCHFP Chicken – na gorąco z bulionem (z kośćmi 65/75, bez kości 75/90 min); galareta z wywaru, bez dodawania żelatyny; tyndalizacja z v0 odrzucona.",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[E3] Weryfikator: Nazwa „kurczak w galarecie w słoiku (tyndalizacja)” wskazuje proces z wrzątkiem, który źródło szczebla 1 wprost odradza. SZY-006 (NCHFP, szczebel 1): wekowanie ciśnieniowe to jedyna zalecana metoda dla mięsa i drobiu, a kąpiel wodna „poses a real risk of botulism poisoning”; NCHFP nie ma żadnej procedury z wrzątkiem (SZY-005), a tyndalizacja nie jest niezawodna (SZY-009). Dla kurczaka jest NCHFP Chicken or Rabbit (szybkowar, SZY-040); po zmianie nazwy (bez tyndalizacji) przysługuje ok-zrodlo. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "nazwa poprawiona",
+   "nameV0": "kurczak w galarecie w słoiku (tyndalizacja)"
   },
   {
    "id": "poultry-v11",
@@ -51143,7 +51563,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "poultry-v13",
@@ -51179,7 +51600,8 @@
    "researchedBy": [
     "OLE",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "poultry-v14",
@@ -51192,7 +51614,7 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "MIE-042",
     "MIE-036",
@@ -51203,15 +51625,7 @@
     "MIE-041",
     "MIE-021"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/dry/jerky",
-     "miejsce": "NCHFP: Jerky (z So Easy to Preserve, 6 wyd.)",
-     "cytat": "freeze a portion that is 6 inches or less thick at 0ºF or below for at least 30 days",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -51220,14 +51634,16 @@
    },
    "notes": [
     "[SUS] jerky z indyka: NCHFP ma stronę Jerky (160°F wewnątrz mięsa); dziczyzna: pytanie o włośnie. Decyduje MIE.",
-    "[MIE*] Tylko z wędzonej (ugotowanej) piersi indyka; z surowego drobiu NCHFP nie zaleca. Podgrzanie do 160°F jak przy jerky wołowym; drób gotowany do 165°F (MIE-021)."
+    "[MIE*] Tylko z wędzonej (ugotowanej) piersi indyka; z surowego drobiu NCHFP nie zaleca. Podgrzanie do 160°F jak przy jerky wołowym; drób gotowany do 165°F (MIE-021).",
+    "[E3] ok-zrodlo → do-researchu: NCHFP Jerky wymienia tylko wędzoną pierś indyka, a surowego drobiu do jerky nie zaleca („Raw poultry is generally not recommended”). Procedura z ogrzaniem do 160°F jest podana dla mięsa czerwonego, a drób wymaga 165°F (MIE-021). Nazwa nie mówi o wędzonej piersi, więc nie ma przetestowanej procedury dla surowego indyka."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS",
     "MIE"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "game-lamb-v01",
@@ -51348,7 +51764,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "game-lamb-v04",
@@ -51462,7 +51879,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "game-lamb-v07",
@@ -51503,6 +51921,10 @@
    "researchedBy": [
     "SZY",
     "MIE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "SUS-035"
    ]
   },
   {
@@ -51542,7 +51964,8 @@
     "SZY",
     "NAP",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "game-lamb-v09",
@@ -51591,7 +52014,8 @@
    "researchedBy": [
     "SUS",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "game-lamb-v10",
@@ -51627,7 +52051,8 @@
    "researchedBy": [
     "OLE",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "offal-pates-v01",
@@ -51664,7 +52089,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "offal-pates-v02",
@@ -51704,7 +52130,8 @@
     "SLO",
     "OLE",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "offal-pates-v03",
@@ -51740,7 +52167,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "offal-pates-v04",
@@ -51777,7 +52205,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "offal-pates-v05",
@@ -51814,7 +52243,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "offal-pates-v06",
@@ -51880,7 +52310,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "offal-pates-v08",
@@ -51918,7 +52349,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "offal-pates-v09",
@@ -51957,7 +52389,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "offal-pates-v10",
@@ -51994,7 +52427,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "offal-pates-v11",
@@ -52031,7 +52465,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sea-fish-v01",
@@ -52075,6 +52510,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
+   ],
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-056",
+    "MIE-057"
    ]
   },
   {
@@ -52114,7 +52554,8 @@
    "researchedBy": [
     "OLE",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sea-fish-v03",
@@ -52201,7 +52642,8 @@
    "researchedBy": [
     "ACI",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sea-fish-v05",
@@ -52273,7 +52715,8 @@
     "ACI",
     "OLE",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sea-fish-v07",
@@ -52315,7 +52758,7 @@
    "id": "sea-fish-v08",
    "productId": "sea-fish",
    "name": {
-    "pl": "łosoś wędzony na zimno (poniżej $25^\\circ\\text{C}$) oraz na gorąco (stremel)"
+    "pl": "łosoś wędzony na zimno (poniżej 25°C) oraz na gorąco (stremel)"
    },
    "groupV0": "Wędzenie i słoiki ciśnieniowe",
    "lineV0": 463,
@@ -52355,7 +52798,8 @@
     "reason": "rozdzielony na sea-fish-v15 i sea-fish-v16 (dwa procesy w jednej pozycji v0)",
     "replacedBy": "sea-fish-v16",
     "decision": "2026-11-01-jaratlas-katalog-v1-e1"
-   }
+   },
+   "nameV0": "łosoś wędzony na zimno (poniżej $25^\\circ\\text{C}$) oraz na gorąco (stremel)"
   },
   {
    "id": "sea-fish-v09",
@@ -52408,7 +52852,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sea-fish-v10",
@@ -52442,7 +52887,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sea-fish-v11",
@@ -52455,7 +52901,7 @@
    "processFamilyId": "canned-foods",
    "preservationMethod": "pressure-canning",
    "acidBasis": "low-acid",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -52465,29 +52911,7 @@
     "SZY-046",
     "OLE-050"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/tuna/",
-     "miejsce": "treść strony",
-     "cytat": "Tuna may be packed in water or oil, whichever is preferred.",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    },
-    {
-     "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/fish-pint-jars-usda/",
-     "miejsce": "treść strony",
-     "cytat": "Do not add liquids.",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    },
-    {
-     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE05_HomeCan_rev0715.pdf",
-     "miejsce": "Guide 5, Poultry, Red Meats, and Seafoods",
-     "cytat": "any fish oil. Adjust lids and process. Fish in half-pint or 12-ounce jars would be processed for the",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -52497,7 +52921,8 @@
    "notes": [
     "[SZY*] Tuńczyk w oliwie: NCHFP Tuna (woda lub olej), half-pint/pint 100 min. Makrela: przetestowana tylko bez płynu (pint 100 min, quart 160 min) – oliwy do makreli nie dodawać (SZY-013).",
     "[OLE] Tuńczyk w oleju wekowany w szybkowarze wg NCHFP Tuna; makrela – sprawdzić NCHFP Fish (pint jars).",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[E3] ok-zrodlo → do-researchu: NCHFP Tuna (szczebel 1) dopuszcza tuńczyka w wodzie lub oleju (100 min). NCHFP Fish (pint jars, USDA) dla innych ryb, w tym makreli, mówi „Do not add liquids” (SZY-044). „Makrela w oliwie” to dodanie płynu, którego przepis zabrania; zmienia to przenikanie ciepła i nie jest przetestowane."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -52505,7 +52930,8 @@
     "SZY",
     "OLE",
     "MIE"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "sea-fish-v12",
@@ -52546,7 +52972,8 @@
     "ACI",
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sea-fish-v13",
@@ -52584,7 +53011,8 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sea-fish-v14",
@@ -52623,7 +53051,8 @@
     "SZY",
     "OLE",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "freshwater-fish-v01",
@@ -52679,7 +53108,8 @@
     "FER",
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "freshwater-fish-v02",
@@ -52724,7 +53154,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "freshwater-fish-v03",
@@ -52769,7 +53200,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "freshwater-fish-v04",
@@ -52814,7 +53246,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "freshwater-fish-v05",
@@ -52896,7 +53329,8 @@
    "researchedBy": [
     "ACI",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "freshwater-fish-v07",
@@ -52935,7 +53369,8 @@
     "ACI",
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "freshwater-fish-v08",
@@ -53008,13 +53443,14 @@
    "researchedBy": [
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "freshwater-fish-v10",
    "productId": "freshwater-fish",
    "name": {
-    "pl": "domowy kawior ze szczupaka, pstrąga lub okonia (ikra solona $3\\text{--}5\\%$)"
+    "pl": "domowy kawior ze szczupaka, pstrąga lub okonia (ikra solona 3–5%)"
    },
    "groupV0": "Słoiki, kawior i suszenie",
    "lineV0": 467,
@@ -53042,7 +53478,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "nameV0": "domowy kawior ze szczupaka, pstrąga lub okonia (ikra solona $3\\text{--}5\\%$)"
   },
   {
    "id": "freshwater-fish-v11",
@@ -53079,7 +53516,8 @@
    "researchedBy": [
     "SUS",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "eggs-v01",
@@ -53092,7 +53530,7 @@
    "processFamilyId": "egg-preservation",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "ACI-032",
     "ACI-033",
@@ -53107,22 +53545,7 @@
     "MIE-090",
     "MIE-087"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
-     "miejsce": "NCHFP (nchfp.uga.edu): Pickled Eggs",
-     "cytat": "There are no home canning directions for pickled eggs.",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    },
-    {
-     "adres": "https://nchfp.uga.edu/blog/how-do-you-like-your-eggs-scrambled-friedaor-pickled",
-     "miejsce": "NCHFP blog, 2014-04-03",
-     "cytat": "consume refrigerated pickled eggs within 2 to 3 months for best quality",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -53131,14 +53554,16 @@
    },
    "notes": [
     "[ACI] NCHFP Pickled Eggs: wyłącznie lodówka; nie wekować, nie trzymać w temperaturze pokojowej (przypadki jadu kiełbasianego).",
-    "[MIE*] Tylko w lodówce; NCHFP nie ma instrukcji wekowania (MIE-082); w temperaturze pokojowej był jad kiełbasiany (MIE-083). Ocet słodowy nie występuje w przepisach NCHFP."
+    "[MIE*] Tylko w lodówce; NCHFP nie ma instrukcji wekowania (MIE-082); w temperaturze pokojowej był jad kiełbasiany (MIE-083). Ocet słodowy nie występuje w przepisach NCHFP.",
+    "[E3] ok-zrodlo → do-researchu: Przepisy NCHFP na jaja marynowane (lodówka) używają tylko octu białego lub jabłkowego. Nazwa wskazuje ocet słodowy, czyli inny kwas, a jaja mają niską kwasowość i słabą penetrację octu (MIE-087), więc rodzaj i moc octu są istotne dla bezpieczeństwa. Wersja „w occie białym” jest pokryta; po usunięciu „słodowego” z nazwy przysługuje ok-zrodlo."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "MIE"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "eggs-v02",
@@ -53151,7 +53576,7 @@
    "processFamilyId": "egg-preservation",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "ACI-032",
     "ACI-033",
@@ -53165,15 +53590,7 @@
     "MIE-090",
     "MIE-087"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
-     "miejsce": "NCHFP (nchfp.uga.edu): Pickled Eggs",
-     "cytat": "There are no home canning directions for pickled eggs.",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -53183,7 +53600,8 @@
    "notes": [
     "[ACI] NCHFP Red Beet Eggs (lodówka). Zakwas buraczany zamiast buraków z puszki — DO USTALENIA (zmiana składu).",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster MIE. Jaja w zakwasie buraczanym: produkt niskokwasowy w zalewie – NCHFP ma osobne zasady dla jaj marynowanych.",
-    "[MIE*] Przepis NCHFP używa soku z buraków konserwowych, nie zakwasu; zamiana na zakwas buraczany wymaga osobnej oceny. Tylko w lodówce."
+    "[MIE*] Przepis NCHFP używa soku z buraków konserwowych, nie zakwasu; zamiana na zakwas buraczany wymaga osobnej oceny. Tylko w lodówce.",
+    "[E3] ok-zrodlo → do-researchu: NCHFP Red Beet Eggs: 1 szkl. soku z buraków z puszki i 1,5 szkl. octu jabłkowego. „Zakwas buraczany” (fermentowany, surowy sok o nieznanej kwasowości) zastępuje składnik przepisu płynem spoza niego, w produkcie o niskiej kwasowości (MIE-087). To nie jest bezpośredni odpowiednik."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -53191,7 +53609,8 @@
     "ACI",
     "NAP",
     "MIE"
-   ]
+   ],
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "eggs-v03",
@@ -53241,7 +53660,8 @@
     "ACI",
     "SZY",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "eggs-v04",
@@ -53351,7 +53771,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "eggs-v07",
@@ -53390,7 +53811,8 @@
    "researchedBy": [
     "OLE",
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "eggs-v08",
@@ -53459,7 +53881,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "eggs-v10",
@@ -53547,7 +53970,8 @@
    "sources": [],
    "notes": [
     "[E2] Ścieżka z mleka surowego z kefir-cream-v03 (MLE: produkt wysokiego ryzyka wg FDA)."
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "kefir-cream-v14",
@@ -53619,7 +54043,8 @@
    "sources": [],
    "notes": [
     "[E2] Część „na zimno” z sea-fish-v08: temperatury nie zabijają bakterii (MIE-076), C. botulinum typu E rośnie od 3,3 °C (MIE-059)."
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sea-fish-v16",
@@ -53672,7 +54097,8 @@
    ],
    "notes": [
     "[E2] Część „na gorąco” z sea-fish-v08; przepis jak freshwater-fish-v01 (wędzenie ryb na gorąco, MIE-071)."
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "raspberry-blackberry-v16",
@@ -53718,7 +54144,8 @@
    ],
    "notes": [
     "[E2] Wersja macerowana z raspberry-blackberry-v01 (UGA/NCHFP Raspberry Vinegar)."
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "raspberry-blackberry-v17",
@@ -53791,7 +54218,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "red-savoy-cabbage-v13",
@@ -53834,7 +54262,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "napa-cabbage-v16",
@@ -53877,7 +54306,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cauliflower-v14",
@@ -53920,7 +54350,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "broccoli-v12",
@@ -53963,7 +54394,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "brussels-kohlrabi-v13",
@@ -54006,7 +54438,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "brussels-kohlrabi-v14",
@@ -54049,7 +54482,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "zucchini-v17",
@@ -54092,7 +54526,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pattypan-squash-v11",
@@ -54135,7 +54570,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pumpkin-v17",
@@ -54178,7 +54614,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "leafy-greens-v13",
@@ -54221,7 +54658,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "tomato-v19",
@@ -54264,7 +54702,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "green-cherry-tomato-v15",
@@ -54307,7 +54746,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "bell-pepper-v19",
@@ -54350,7 +54790,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "eggplant-v16",
@@ -54393,7 +54834,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "potato-sunchoke-v14",
@@ -54436,7 +54878,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "green-beans-v15",
@@ -54479,7 +54922,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "peas-chickpeas-v16",
@@ -54522,7 +54966,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "peas-chickpeas-v17",
@@ -54565,7 +55010,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beetroot-v17",
@@ -54608,7 +55054,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "carrot-v16",
@@ -54651,7 +55098,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "garlic-v17",
@@ -54694,7 +55142,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "onion-v15",
@@ -54738,7 +55187,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "celeriac-celery-v13",
@@ -54781,7 +55231,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "parsnip-parsley-v11",
@@ -54824,7 +55275,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "turnip-rutabaga-v11",
@@ -54867,7 +55319,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "asparagus-v11",
@@ -54910,7 +55363,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "fennel-artichoke-v11",
@@ -54953,7 +55407,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "corn-v12",
@@ -54996,7 +55451,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "garden-herbs-v15",
@@ -55039,7 +55495,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "garden-herbs-v16",
@@ -55082,7 +55539,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cultivated-mushrooms-v13",
@@ -55125,7 +55583,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apple-v19",
@@ -55168,7 +55627,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pear-v15",
@@ -55211,7 +55671,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "plum-v19",
@@ -55254,7 +55715,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sour-cherry-v17",
@@ -55297,7 +55759,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sweet-cherry-v13",
@@ -55340,7 +55803,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "peach-nectarine-v15",
@@ -55383,7 +55847,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "apricot-v15",
@@ -55426,7 +55891,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "strawberry-v17",
@@ -55469,7 +55935,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "raspberry-blackberry-v18",
@@ -55512,7 +55979,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "raspberry-blackberry-v19",
@@ -55555,7 +56023,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "currant-v15",
@@ -55598,7 +56067,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "gooseberry-v12",
@@ -55641,7 +56111,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "blueberry-bilberry-v14",
@@ -55684,7 +56155,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "cranberry-lingonberry-v14",
@@ -55727,7 +56199,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "grapes-v11",
@@ -55770,7 +56243,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "rhubarb-v09",
@@ -55813,7 +56287,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "lemon-v16",
@@ -55856,7 +56331,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "lemon-v17",
@@ -55899,7 +56375,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "orange-kumquat-v15",
@@ -55942,7 +56419,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "grapefruit-v10",
@@ -55985,7 +56463,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "mango-papaya-v13",
@@ -56028,7 +56507,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pineapple-banana-v11",
@@ -56071,7 +56551,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pineapple-banana-v12",
@@ -56114,7 +56595,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "fig-pomegranate-v11",
@@ -56157,7 +56639,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "fig-pomegranate-v12",
@@ -56200,7 +56683,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "watermelon-melon-v11",
@@ -56243,7 +56727,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "butter-whey-cheese-v13",
@@ -56286,7 +56771,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "aged-hard-cheese-v16",
@@ -56330,7 +56816,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pork-loin-ham-v16",
@@ -56373,7 +56860,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "beef-veal-v15",
@@ -56416,7 +56904,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "game-lamb-v11",
@@ -56459,7 +56948,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "poultry-v15",
@@ -56502,7 +56992,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "pork-belly-jowl-v15",
@@ -56545,7 +57036,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "sea-fish-v17",
@@ -56588,7 +57080,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "freshwater-fish-v12",
@@ -56631,7 +57124,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   },
   {
    "id": "eggs-v11",
@@ -56674,7 +57168,8 @@
    "publication": "ukryta",
    "researchedBy": [
     "E2-FRZ"
-   ]
+   ],
+   "e3": "potwierdzony"
   }
  ]
 }

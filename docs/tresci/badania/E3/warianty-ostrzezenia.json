@@ -1,0 +1,1200 @@
+[
+ {
+  "id": "cucumber-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014 (Guide 1, szczebel 1): nie wekować przecierów warzywnych żadną metodą.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "white-cabbage-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Zakaz dla samej formy produktu (każdą metodą) jest tylko wtedy, gdy grzyby są leśne (SZY-020); kapusta z grzybami w polskiej praktyce to zwykle grzyby leśne.",
+  "claims_uwagi": "SZY-024 dotyczy brokułu i kalafiora, nie kapusty, więc tu nie pasuje. Przy grzybach leśnych brak ostrzeżenia SUS-035 w requiredWarnings. Przy grzybach hodowlanych zostałby tylko SZY-006 (proces), a status powinien być spójny z bigosem (white-cabbage-v14, ryzyko-wysokie)."
+ },
+ {
+  "id": "white-cabbage-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. SZY-022 i SZY-025: kapusta bez procesu i nieprzydatna do wekowania ciśnieniowego (szczebel 3).",
+  "claims_uwagi": "SZY-024 dotyczy brokułu i kalafiora (nie pasuje); SZY-017 dotyczy zup (analogia). Niespójność z gołąbkami (red-savoy-cabbage-v09: nie-publikowac przy tej samej podstawie)."
+ },
+ {
+  "id": "red-savoy-cabbage-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. SZY-025: kapusta nie nadaje się do wekowania ciśnieniowego (szczebel 3).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "red-savoy-cabbage-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Innego zakazu szczebla 1 dla gołąbków nie ma.",
+  "claims_uwagi": "SZY-017 i SZY-018 dotyczą zup; na gołąbki (ryż w środku) przeniesione przez analogię. Niespójność: bigos i groch z kapustą (podobne mieszanki z mięsem i kapustą) mają ryzyko-wysokie."
+ },
+ {
+  "id": "napa-cabbage-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": "Kimchi jest kwaśne (fermentowane), ale duszone z innymi składnikami daje mieszankę o nieznanym pH (SZY-002)."
+ },
+ {
+  "id": "cauliflower-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "cauliflower-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces ciśnieniowy jest właściwą metodą (SZY-003, SZY-006), ale dla tego produktu nie ma przetestowanego czasu ani przepisu USDA (SZY-007), a botulizm przy niedogrzaniu żywności niskokwasowej jest zagrożeniem nazwanym dla tego rodzaju produktu. Penn State (szczebel 3): brak naukowo przetestowanych przepisów na kalafior jako zwykłe warzywo (SZY-024), a kalafior nie nadaje się do wekowania ciśnieniowego (SZY-025).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "cauliflower-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014 (szczebel 1): nie wekować przecierów warzywnych.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "cauliflower-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Brak testów dla kalafiora potwierdzają SZY-024 i SZY-025 (Penn State, szczebel 3).",
+  "claims_uwagi": "Bez SZY-006 podstawą byłby tylko szczebel 3. SZY-022 (wyłączenie z Mixed Vegetables) to brak procesu, nie zakaz."
+ },
+ {
+  "id": "broccoli-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "broccoli-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014 (przecier warzywny) i SZY-013 (nie dodawać tłuszczu do słoików), oba szczebla 1.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "brussels-kohlrabi-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces ciśnieniowy jest właściwą metodą (SZY-003, SZY-006), ale dla tego produktu nie ma przetestowanego czasu ani przepisu USDA (SZY-007), a botulizm przy niedogrzaniu żywności niskokwasowej jest zagrożeniem nazwanym dla tego rodzaju produktu. Penn State (szczebel 3): brukselka i kalarepa nie nadają się do wekowania ciśnieniowego (SZY-025).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "zucchini-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "zucchini-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. SZY-026 (NCHFP, szczebel 1): wekowanie dyni letniej bez marynowania niezalecane; jedyny przetestowany wyjątek (SZY-027: pomidory z cukinią 3:1, szybkowar) nie jest odpowiednikiem tej mieszanki. Zakaz szczebla 1 dotyczy wprost tego produktu, więc można rozważyć nie-publikowac.",
+  "claims_uwagi": "SZY-028 dotyczy sosu spaghetti (analogia na proporcje)."
+ },
+ {
+  "id": "zucchini-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014 (przecier) i SZY-026 (NCHFP: wekowanie dyni letniej bez marynowania niezalecane), oba szczebla 1.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "zucchini-v13",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-047 dotyczy wekowania samej dyni letniej, nie dżemu w lodówce.",
+  "claims_uwagi": "Penn State (ACI-026, ACI-027) wymienia jako wyjątki dla dyni letniej tylko pikle i relishe; o dżemach milczy."
+ },
+ {
+  "id": "pattypan-squash-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pattypan-squash-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. SZY-026 (NCHFP, szczebel 1): wekowanie dyni letniej bez marynowania niezalecane; jedyny przetestowany wyjątek (SZY-027: pomidory z cukinią 3:1, szybkowar) nie jest odpowiednikiem tej mieszanki. Zakaz szczebla 1 dotyczy wprost tego produktu, więc można rozważyć nie-publikowac.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pattypan-squash-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. SZY-026 (NCHFP, szczebel 1): wekowanie dyni letniej bez marynowania niezalecane; jedyny przetestowany wyjątek (SZY-027: pomidory z cukinią 3:1, szybkowar) nie jest odpowiednikiem tej mieszanki. Zakaz szczebla 1 dotyczy wprost tego produktu, więc można rozważyć nie-publikowac.",
+  "claims_uwagi": "SZY-028 to analogia."
+ },
+ {
+  "id": "pattypan-squash-v10",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-047 dotyczy wekowania samej dyni letniej; SLO-069 (owoce kandyzowane: lodówka do tygodnia) dotyczy owoców i pleśni, nie botulizmu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pumpkin-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP (szczebel 1) nazywa problem dla tego rodzaju produktu (przetwór z przecieru dyni: SLO-044 i SLO-046 — brak procesu, niezalecane; SLO-045 — C. botulinum). Przetestowanego przepisu nie ma, więc ryzyko-wysokie wynika z twierdzeń.",
+  "claims_uwagi": "Zamrażarka (v1) to wariant zalecany przez samo NCHFP (SLO-044); karta powinna to powiedzieć zamiast ogólnego „wysokie ryzyko”."
+ },
+ {
+  "id": "pumpkin-v09",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "ryzyko-wysokie",
+  "dlaczego": "Proces v1 to zamrażarka. SLO-044 (NCHFP FAQ, szczebel 1, przeczytane w kontekście) mówi tylko, że brak procesu wekowania masła dyniowego, i zaleca robić je na świeżo do krótkiego przechowywania w lodówce albo zamrażać. Źródło szczebla 1 nie odradza więc tego procesu, tylko go zaleca. Ryzyko-wysokie tak, jak przy pumpkin-v08 (te same twierdzenia): NCHFP nazywa problem dla tego produktu (SLO-045, SZY-015), a przetestowanego przepisu nie ma.",
+  "claims_uwagi": "Te same twierdzenia co pumpkin-v08, który ma ryzyko-wysokie; statusy powinny być spójne."
+ },
+ {
+  "id": "pumpkin-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014 i SZY-015 (NCHFP: wekowanie rozgniecionej lub przecierowej dyni niezalecane); tyndalizacja jest niepewna (SZY-009).",
+  "claims_uwagi": "SZY-016 (proces dla dyni w kostce) to tylko kontekst."
+ },
+ {
+  "id": "pumpkin-v13",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "nie-publikowac",
+  "dlaczego": "Keczup dyniowy to zakwaszony przecier z dyni w kąpieli wodnej. NCHFP (szczebel 1) wprost: „home canning is NOT recommended for pumpkin butter or any mashed or pureed pumpkin” (SZY-015, blog 5b7656bb4c88) i „Caution: Do not mash or puree” (ACI-036). FAQ (4da3ffbf7fed, przeczytane) dodaje, że brak danych o proporcjach zakwaszania przecieru dyniowego do kąpieli wodnej, „regardless of acidity”. Zakaz szczebla 1 obejmuje więc ten proces dla tego produktu; spójnie z pumpkin-v10 (nie-publikowac).",
+  "claims_uwagi": "Dodać SZY-015, SLO-044 i SLO-046 (dokładnie ten zakaz). ACI-017 i ACI-010 są ogólne."
+ },
+ {
+  "id": "leafy-greens-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. Proces ciśnieniowy dla szpinaku istnieje (SZY-038), ale wersja duszona z czosnkiem i tyndalizowana nie jest odpowiednikiem (SZY-009, SZY-013).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "vine-leaves-greens-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "vine-leaves-greens-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Innego zakazu szczebla 1 dla gołąbków nie ma.",
+  "claims_uwagi": "SZY-017 i SZY-018 dotyczą zup (analogia); ta sama niespójność co przy red-savoy-cabbage-v09 i bigosie."
+ },
+ {
+  "id": "bell-pepper-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. Proces dla papryki (SZY-039) dotyczy samej papryki, nie mieszanki do leczo (SZY-028, analogia).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "bell-pepper-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt). Papryka jest wymieniona z nazwy (OLE-024).",
+  "claims_uwagi": "Feta w oleju to drugi składnik niskokwasowy; dodać MLE-060 i MLE-062 (ser w oleju, CFIA)."
+ },
+ {
+  "id": "chili-pepper-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Papryka i czosnek w oleju to zagrożenie nazwane (OLE-024, szczebel 2; OLE-001, szczebel 1); zwalidowanego procesu brak (OLE-028). Zamrożenie to najbezpieczniejsze zalecenie (OLE-029), a nie przetestowany przepis.",
+  "claims_uwagi": "Karta powinna wprost mówić, że zamrażarka jest zabezpieczeniem, a w lodówce najwyżej 4 dni."
+ },
+ {
+  "id": "chili-pepper-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "K-State (szczebel 3) nazywa ryzyko botulizmu dla warzywa niskokwasowego w surowym miodzie (SLO-037: zmienna kwasowość miodu, nieznana aw). Przykładem w źródle jest czosnek, ale uzasadnienie dotyczy rodzaju produktu. SLO-036 (FDA, szczebel 1) nazywa botulizm niemowląt dla miodu. Przetestowanej procedury nie ma.",
+  "claims_uwagi": "SLO-037 dotyczy czosnku; przeniesienie na chili to analogia w obrębie rodzaju (niskokwasowe warzywo w miodzie). Status jest ważny dzięki SLO-036 i uzasadnieniu źródła."
+ },
+ {
+  "id": "chili-pepper-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "eggplant-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt). Bakłażan jest wymieniony z nazwy (OLE-024, OLE-025: ogniska z domowego bakłażana w oleju).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "eggplant-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014 (przecier warzywny, szczebel 1).",
+  "claims_uwagi": "Można dodać ACI-026 i ACI-027 (Penn State: bakłażan niskokwasowy, brak czasów USDA)."
+ },
+ {
+  "id": "eggplant-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014 (przecier warzywny, szczebel 1).",
+  "claims_uwagi": "Jak eggplant-v08: można dodać ACI-026 i ACI-027."
+ },
+ {
+  "id": "eggplant-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": "Dodać ACI-026 i ACI-027 (Penn State: brak czasów USDA dla bakłażana)."
+ },
+ {
+  "id": "eggplant-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt). Bakłażan jest wymieniony z nazwy (OLE-024, OLE-025).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "potato-sunchoke-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "green-beans-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "green-beans-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. SZY-034 (NCHFP, szczebel 1): „There is no safe option for processing green beans in a boiling water canner” — zakaz dla tego produktu i procesu v0.",
+  "claims_uwagi": "Kryterium nie-publikowac spełnione wprost dla procesu v0; ryzyko-wysokie tylko, jeśli karta nie odnosi się do kąpieli wodnej. Proces ciśnieniowy dla fasolki (SZY-034) jest, ale nie dla duszonej z czosnkiem i tłuszczem (SZY-013)."
+ },
+ {
+  "id": "peas-chickpeas-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces ciśnieniowy jest właściwą metodą (SZY-003, SZY-006), ale dla tego produktu nie ma przetestowanego czasu ani przepisu USDA (SZY-007), a botulizm przy niedogrzaniu żywności niskokwasowej jest zagrożeniem nazwanym dla tego rodzaju produktu.",
+  "claims_uwagi": "Twierdzenia są tylko ogólne. USDA ma proces dla fasoli lima, ale bób to inny gatunek, więc to nie bezpośredni odpowiednik. Warto dodać twierdzenie o braku procesu dla bobu, jeśli źródło istnieje."
+ },
+ {
+  "id": "peas-chickpeas-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "peas-chickpeas-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014: hummus to przecier z warzywa strączkowego (w USDA sucha fasola należy do warzyw).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "peas-chickpeas-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. Kapusta wykluczona z mieszanek (SZY-022).",
+  "claims_uwagi": "SZY-017 i SZY-018 dotyczą zup (analogia)."
+ },
+ {
+  "id": "beans-soy-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. Tyndalizacja niepewna (SZY-009); przetestowana fasola w sosie (SZY-031) to szybkowar i najwyżej kostka boczku na słoik, nie fasolka po bretońsku z kiełbasą.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "beans-soy-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014 (przecier, szczebel 1).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "beetroot-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. Proces dla buraków (SZY-053) dotyczy całych, kostek i plastrów, nie tartych zasmażanych.",
+  "claims_uwagi": "„Brak procesu dla tartych” w SZY-053 to wniosek redakcji (oznaczony w rejestrze). SZY-017 (mąka w zupach) to analogia na zasmażkę."
+ },
+ {
+  "id": "beetroot-v13",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-032 to tylko pH buraka.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "beetroot-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "carrot-v11",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-031 to tylko pH marchwi.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "carrot-v12",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-069 dotyczy owoców kandyzowanych (pleśń); przeniesienie na marchew to analogia.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "carrot-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "garlic-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "FER-068 (Ask Extension, szczebel 3) odpowiada wprost na pytanie o fermentację czosnku w solance i paście: fermentacja nie jest zatwierdzoną, bezpieczną metodą, zwalidowanych przepisów nie ma, ryzyko botulizmu. Ryzyko-wysokie wynika z twierdzeń (nie-publikowac wymagałoby szczebla 1).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "garlic-v02",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "FER-068 (szczebel 3): fermentacja czosnku nie jest zatwierdzoną metodą, ryzyko botulizmu. Dodatek buraka tego nie zmienia.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "garlic-v03",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "FER-069, FER-070 i SLO-037 (K-State, Ask Extension, szczebel 3) nazywają ryzyko botulizmu dla czosnku fermentowanego w surowym miodzie i brak przepisów opartych na badaniach; SLO-036 dotyczy niemowląt.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "garlic-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Zagrożenie dla czosnku konserwowanego metodą niezwalidowaną jest nazwane (OLE-001 dla oleju, szczebel 1; OLE-008), a Nummer (szczebel 2) stwierdza, że bariery solne (poza suszeniem) nie są zalecane konsumentom (OLE-033). Przetestowanej procedury nie ma.",
+  "claims_uwagi": "OLE-032 (progi soli) przy 20% soli wagowo daje rachunkowo ok. 29% soli w fazie wodnej (czosnek ok. 60% wody), więc powyżej progów hamowania. Karta nie może jednak tego sugerować jako zabezpieczenia, bo OLE-033 odradza bariery solne w domu. Dodać FER-068 (czosnek trzeba konserwować metodą zwalidowaną, inaczej ryzyko botulizmu). Tytuł zawiera artefakt LaTeX „($20\\%$)”."
+ },
+ {
+  "id": "garlic-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014 (przecier, szczebel 1).",
+  "claims_uwagi": "Można dodać OLE-008 (UC: wekowanie czosnku niezalecane, szczebel 3)."
+ },
+ {
+  "id": "garlic-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) stwierdza brak badań, że dodanie ziół lub warzyw do masła daje produkt bezpieczny w temperaturze pokojowej albo w lodówce (OLE-034), i przytacza ostrzeżenie FDA z 1993 r. (OLE-035). Zagrożenie jest więc nazwane dla tego rodzaju produktu, a przetestowanej procedury nie ma. Zamrażarka (OLE-045) to zalecane zabezpieczenie, nie przetestowany przepis; karta nie może sugerować, że lodówka wystarcza na dłużej niż kilka dni. Czosnek: OLE-001 (szczebel 1).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "onion-v07",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-033 to pH cebuli czerwonej, a produkt dotyczy cebuli żółtej i białej.",
+  "claims_uwagi": "SLO-033 mówi o czerwonej cebuli; dla tego produktu inny wpis pH (sprawdzić ACI dla cebuli)."
+ },
+ {
+  "id": "onion-v08",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-033 to pH cebuli czerwonej, a produkt dotyczy cebuli żółtej i białej.",
+  "claims_uwagi": "Jak onion-v07."
+ },
+ {
+  "id": "onion-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. Warzywa w oleju: OLE-024, OLE-027, OLE-028.",
+  "claims_uwagi": "Można dodać SZY-013 (nie dodawać tłuszczu do słoików, szczebel 1)."
+ },
+ {
+  "id": "onion-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SLO-037 (K-State, szczebel 3) nazywa ryzyko botulizmu dla niskokwasowego warzywa w miodzie; SLO-036 (FDA, szczebel 1) nazywa botulizm niemowląt. To trafne zagrożenie, bo syrop z cebuli bywa podawany dzieciom. Przetestowanej procedury nie ma.",
+  "claims_uwagi": "SLO-037 dotyczy czosnku (analogia w obrębie rodzaju). Karta musi zawierać zakaz podawania dzieciom poniżej 12. miesiąca (SLO-036)."
+ },
+ {
+  "id": "shallot-pearl-onion-v10",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-033 to tylko pH czerwonej cebuli.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "shallot-pearl-onion-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "shallot-pearl-onion-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "leek-chives-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "leek-chives-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces ciśnieniowy jest właściwą metodą (SZY-003, SZY-006), ale dla tego produktu nie ma przetestowanego czasu ani przepisu USDA (SZY-007), a botulizm przy niedogrzaniu żywności niskokwasowej jest zagrożeniem nazwanym dla tego rodzaju produktu.",
+  "claims_uwagi": "Twierdzenia są tylko ogólne (pH pora jest w ACI-109). Warto dodać źródło o braku procesu dla pora."
+ },
+ {
+  "id": "daikon-black-radish-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Jak onion-v11: SLO-037 (warzywo niskokwasowe w miodzie, szczebel 3) i SLO-036 (botulizm niemowląt, FDA, szczebel 1). Syrop z rzodkwi to domowy lek dla dzieci. Przetestowanej procedury nie ma.",
+  "claims_uwagi": "SLO-023 jest ogólne. Karta musi zawierać zakaz dla dzieci poniżej 12. miesiąca."
+ },
+ {
+  "id": "daikon-black-radish-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "daikon-black-radish-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "radish-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "horseradish-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt). OLE-018 (UGA, szczebel 3): oleje z niezakwaszonymi dodatkami w lodówce i wyrzucić po 4 dniach.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "celeriac-celery-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": "Sałatka waldorfska zawiera zwykle majonez i orzechy; twierdzeń o tych składnikach brak."
+ },
+ {
+  "id": "celeriac-celery-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "celeriac-celery-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "parsnip-parsley-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014 (przecier) i SZY-009 (tyndalizacja niepewna).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "asparagus-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt). ANSES wymienia szparagi wśród konserw wywołujących botulizm (OLE-046).",
+  "claims_uwagi": "OLE-046 dotyczy konserw, nie oleju; podstawą jest Nummer."
+ },
+ {
+  "id": "asparagus-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014 (przecier) i SZY-017 (bez śmietany i zagęstników).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "fennel-artichoke-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "fennel-artichoke-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ANSES (szczebel 1) wymienia tapenadę wśród źródeł botulizmu (OLE-046); OLE-049: pasta oliwkowa. Karczoch to warzywo niskokwasowe w oleju, więc ten sam rodzaj produktu. Zwalidowanego procesu brak (OLE-028).",
+  "claims_uwagi": "Dodać OLE-024, OLE-027 i OLE-029 (warzywa w oleju, lodówka najwyżej 4 dni); OLE-049 dotyczy oliwek, nie karczocha."
+ },
+ {
+  "id": "fennel-artichoke-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "corn-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. SZY-022: kukurydza kremowa i sucha fasola wykluczone z mieszanek.",
+  "claims_uwagi": "SZY-019 (czasy zup) to kontekst, nie odpowiednik."
+ },
+ {
+  "id": "corn-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": "Huitlacoche to grzyb (głownia kukurydzy); twierdzeń o nim brak, status opiera się na ogólnej zasadzie dla żywności niskokwasowej. Warto znaleźć źródło."
+ },
+ {
+  "id": "olives-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ANSES (szczebel 1) wymienia oliwki po grecku wśród źródeł botulizmu (OLE-046); dla domowych produktów w oleju brak zwalidowanych procesów (OLE-028), lodówka najwyżej 4 dni albo zamrażarka (OLE-029).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "olives-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ANSES (szczebel 1) wymienia tapenadę i oliwki po grecku wśród głównych źródeł botulizmu (OLE-046); Eurosurveillance: ogniska z pasty z zielonych oliwek (OLE-049). Zwalidowanego procesu domowego brak (OLE-028).",
+  "claims_uwagi": "OLE-046 mówi o konserwach; dla wersji lodówkowej dodać OLE-029 (najwyżej 4 dni w lodówce albo zamrażarka) i OLE-031."
+ },
+ {
+  "id": "olives-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Pasta oliwkowa: ANSES (OLE-046, szczebel 1) i ogniska z pasty oliwkowej (OLE-049). Zwalidowanego procesu domowego brak (OLE-028).",
+  "claims_uwagi": "Jak olives-v10: dodać OLE-029 i OLE-031."
+ },
+ {
+  "id": "ginger-turmeric-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Pasta zawiera czosnek, a FER-068 (szczebel 3) dotyczy właśnie fermentacji czosnku jako pasty. Ryzyko-wysokie wynika z twierdzeń.",
+  "claims_uwagi": "Dla samego imbiru lub kurkumy twierdzeń brak; status opiera się na składniku czosnkowym."
+ },
+ {
+  "id": "ginger-turmeric-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt). OLE-018 (UGA, szczebel 3): oleje z niezakwaszonymi dodatkami w lodówce, wyrzucić po 4 dniach.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "european-mixed-veg-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "european-mixed-veg-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. SZY-026 (NCHFP, szczebel 1): wekowanie dyni letniej bez marynowania niezalecane; jedyny przetestowany wyjątek (SZY-027: pomidory z cukinią 3:1, szybkowar) nie jest odpowiednikiem tej mieszanki. Zakaz szczebla 1 dotyczy wprost tego produktu, więc można rozważyć nie-publikowac.",
+  "claims_uwagi": "SZY-026 i SZY-027 pasują tylko, jeśli leczo zawiera cukinię; nazwa tego nie mówi."
+ },
+ {
+  "id": "european-mixed-veg-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. SZY-026 (NCHFP, szczebel 1): wekowanie dyni letniej bez marynowania niezalecane; jedyny przetestowany wyjątek (SZY-027: pomidory z cukinią 3:1, szybkowar) nie jest odpowiednikiem tej mieszanki. Zakaz szczebla 1 dotyczy wprost tego produktu, więc można rozważyć nie-publikowac.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "european-mixed-veg-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. SZY-028 (szczebel 1): w przetestowanym sosie nie zwiększać udziału papryki ani grzybów.",
+  "claims_uwagi": "SZY-021 (proces dla grzybów hodowlanych) to kontekst."
+ },
+ {
+  "id": "balkan-oriental-mix-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt). Papryka i bakłażan są wymienione z nazwy (OLE-024).",
+  "claims_uwagi": "OLE-046 dotyczy konserw (kontekst)."
+ },
+ {
+  "id": "balkan-oriental-mix-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt). Papryka i bakłażan są wymienione z nazwy (OLE-024).",
+  "claims_uwagi": "OLE-046 dotyczy konserw (kontekst)."
+ },
+ {
+  "id": "balkan-oriental-mix-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "balkan-oriental-mix-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "asian-american-mix-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) nazywa jad kiełbasiany dla domowych warzyw i ziół w oleju jako kategorii (OLE-024, OLE-027), stwierdza brak zwalidowanych procesów (OLE-028) i daje tylko zalecenie: lodówka najwyżej 4 dni albo zamrażarka (OLE-029). Zagrożenie dotyczy też produktu w lodówce (bakterie grupy II rosną od ok. 3,3 °C), więc ryzyko-wysokie wynika z twierdzeń. OLE-016 to tylko kontekst (metody zakwaszania nie wolno przenosić na ten produkt).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "asian-american-mix-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces ciśnieniowy jest właściwą metodą (SZY-003, SZY-006), ale dla tego produktu nie ma przetestowanego czasu ani przepisu USDA (SZY-007), a botulizm przy niedogrzaniu żywności niskokwasowej jest zagrożeniem nazwanym dla tego rodzaju produktu. SZY-022 (szczebel 1): w Mixed Vegetables nie wolno zamieniać kapusty, brokułu ani kalafiora, a są one typowe dla mieszanek stir-fry; SZY-025 (szczebel 3).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "asian-american-mix-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Pasta z czosnkiem, szalotką i chili w oleju: zagrożenie nazwane (OLE-024, OLE-001); zwalidowanego procesu brak (OLE-028). Zamrożenie jako zabezpieczenie (OLE-029).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "apricot-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "EFSA (szczebel 1, SLO-070) nazywa konkretne zagrożenie dla pestek moreli: amigdalina rozkłada się do cyjanku, ARfD 20 µg/kg m.c., dla dorosłego tylko ok. 0,37 g surowych pestek. Przetestowany jest dżem morelowy (SLO-075), ale bez pestek; z pestkami przepisu nie ma.",
+  "claims_uwagi": "Liczby EFSA dotyczą surowych pestek; wpływ gotowania w dżemie nie jest w twierdzeniach, więc karta nie może podawać „bezpiecznej” ilości dla dżemu."
+ },
+ {
+  "id": "pineapple-banana-v09",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-054 (NCHFP, szczebel 1) wyklucza banany z przepisu na przeciery do wekowania i mówi o braku zaleceń wekowania, ale nie nazywa zagrożenia i nie dotyczy lodówki; SLO-027 (pH 4,5–5,2) jest graniczne.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "watermelon-melon-v05",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). ACI-066 (NCHFP nie zaleca wekowania arbuza, przez SDSU), ACI-065, SLO-054 i SLO-052 (wyłączenia z przecierów i soków) oraz ACI-027 (brak czasów USDA) dotyczą wekowania. Syrop odparowany do lodówki nie ma nazwanego zagrożenia.",
+  "claims_uwagi": "Dużo twierdzeń, ale wszystkie dotyczą wekowania."
+ },
+ {
+  "id": "watermelon-melon-v08",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-054 (wyłączenie melonów z przecierów do wekowania) dotyczy wekowania; SLO-025 to pH.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "watermelon-melon-v09",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-024 to pH arbuza.",
+  "claims_uwagi": "Można dodać ACI-066, ale dotyczy wekowania."
+ },
+ {
+  "id": "boletes-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ACI-030 (NCHFP, szczebel 1): „Caution: Do not can wild mushrooms”. To zastrzeżenie o wekowaniu grzybów leśnych w ogóle, a słoik z zalewą octową w kąpieli wodnej to także wekowanie. Przetestowany przepis NCHFP „Marinated Whole Mushrooms” (e5048b66582b) mówi tylko o małych, zamkniętych kapeluszach, nie o grzybach leśnych, a ACI-016 zabrania zmieniania przepisu. Uwaga: cytat stoi na stronie wekowania ciśnieniowego, a strona grzybów marynowanych nie wspomina o leśnych. Zakres odczytuję ostrożnie, więc potwierdzam nie-publikowac. Ostrzeżenie SUS-035 jest na miejscu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "boletes-v02",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ACI-030 (NCHFP, szczebel 1): „Caution: Do not can wild mushrooms”. To zastrzeżenie o wekowaniu grzybów leśnych w ogóle, a słoik z zalewą octową w kąpieli wodnej to także wekowanie. Przetestowany przepis NCHFP „Marinated Whole Mushrooms” (e5048b66582b) mówi tylko o małych, zamkniętych kapeluszach, nie o grzybach leśnych, a ACI-016 zabrania zmieniania przepisu. Uwaga: cytat stoi na stronie wekowania ciśnieniowego, a strona grzybów marynowanych nie wspomina o leśnych. Zakres odczytuję ostrożnie, więc potwierdzam nie-publikowac. Ostrzeżenie SUS-035 jest na miejscu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "boletes-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ACI-030 (NCHFP, szczebel 1): „Caution: Do not can wild mushrooms”. To zastrzeżenie o wekowaniu grzybów leśnych w ogóle, a słoik z zalewą octową w kąpieli wodnej to także wekowanie. Przetestowany przepis NCHFP „Marinated Whole Mushrooms” (e5048b66582b) mówi tylko o małych, zamkniętych kapeluszach, nie o grzybach leśnych, a ACI-016 zabrania zmieniania przepisu. Uwaga: cytat stoi na stronie wekowania ciśnieniowego, a strona grzybów marynowanych nie wspomina o leśnych. Zakres odczytuję ostrożnie, więc potwierdzam nie-publikowac. Ostrzeżenie SUS-035 jest na miejscu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "boletes-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ACI-030 (NCHFP, szczebel 1): „Caution: Do not can wild mushrooms”. To zastrzeżenie o wekowaniu grzybów leśnych w ogóle, a słoik z zalewą octową w kąpieli wodnej to także wekowanie. Przetestowany przepis NCHFP „Marinated Whole Mushrooms” (e5048b66582b) mówi tylko o małych, zamkniętych kapeluszach, nie o grzybach leśnych, a ACI-016 zabrania zmieniania przepisu. Uwaga: cytat stoi na stronie wekowania ciśnieniowego, a strona grzybów marynowanych nie wspomina o leśnych. Zakres odczytuję ostrożnie, więc potwierdzam nie-publikowac. Ostrzeżenie SUS-035 jest na miejscu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "boletes-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-020 (nie wekować grzybów leśnych, szczebel 1) i SZY-013 (nie dodawać masła do słoików).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "boletes-v08",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "ryzyko-wysokie",
+  "dlaczego": "Proces v1 to zamrażarka. Zakaz szczebla 1 dotyczy wekowania grzybów leśnych (OLE-040, strona wekowania ciśnieniowego 1f808143a32c), nie mrożenia ani oleju. Strona NCHFP o mrożeniu grzybów (616a728226ff, przeczytana) dopuszcza mrożenie po podsmażeniu na tłuszczu (OLE-041) bez ograniczenia gatunków. Brak źródła szczebla 1, które wprost odradza ten proces, więc nie-publikowac nie przysługuje. Ryzyko-wysokie tak: OLE-026 (szczebel 2) nazywa botulizm z domowych grzybów w oleju, przetestowanej procedury sott'olio nie ma, a SUS-035 nazywa ryzyko pomylenia gatunków.",
+  "claims_uwagi": "Nazwa „sott'olio” sugeruje przechowywanie w temperaturze pokojowej, niezgodne z metodą v1. Karta musi mówić wyłącznie o zamrażarce. Gdyby wariant miał być w oleju poza zamrażarką, dochodzi OLE-001 (NCHFP: czosnek w oleju w temperaturze pokojowej grozi botulizmem), który wtedy uzasadnia nie-publikowac."
+ },
+ {
+  "id": "boletes-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-020 i FER-006 (NCHFP, szczebel 1): nie wekować grzybów leśnych żadną metodą. Dla v0 (kąpiel wodna) dochodzi SZY-006.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "boletes-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-020 (szczebel 1): nie wekować grzybów leśnych. Dla v0 dochodzi SZY-006, a dla sosu zagęszczanego SZY-017.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "chanterelle-milkcap-v03",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ACI-030 (NCHFP, szczebel 1): „Caution: Do not can wild mushrooms”. To zastrzeżenie o wekowaniu grzybów leśnych w ogóle, a słoik z zalewą octową w kąpieli wodnej to także wekowanie. Przetestowany przepis NCHFP „Marinated Whole Mushrooms” (e5048b66582b) mówi tylko o małych, zamkniętych kapeluszach, nie o grzybach leśnych, a ACI-016 zabrania zmieniania przepisu. Uwaga: cytat stoi na stronie wekowania ciśnieniowego, a strona grzybów marynowanych nie wspomina o leśnych. Zakres odczytuję ostrożnie, więc potwierdzam nie-publikowac. Ostrzeżenie SUS-035 jest na miejscu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "chanterelle-milkcap-v04",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ACI-030 (NCHFP, szczebel 1): „Caution: Do not can wild mushrooms”. To zastrzeżenie o wekowaniu grzybów leśnych w ogóle, a słoik z zalewą octową w kąpieli wodnej to także wekowanie. Przetestowany przepis NCHFP „Marinated Whole Mushrooms” (e5048b66582b) mówi tylko o małych, zamkniętych kapeluszach, nie o grzybach leśnych, a ACI-016 zabrania zmieniania przepisu. Uwaga: cytat stoi na stronie wekowania ciśnieniowego, a strona grzybów marynowanych nie wspomina o leśnych. Zakres odczytuję ostrożnie, więc potwierdzam nie-publikowac. Ostrzeżenie SUS-035 jest na miejscu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "chanterelle-milkcap-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ACI-030 (NCHFP, szczebel 1): „Caution: Do not can wild mushrooms”. To zastrzeżenie o wekowaniu grzybów leśnych w ogóle, a słoik z zalewą octową w kąpieli wodnej to także wekowanie. Przetestowany przepis NCHFP „Marinated Whole Mushrooms” (e5048b66582b) mówi tylko o małych, zamkniętych kapeluszach, nie o grzybach leśnych, a ACI-016 zabrania zmieniania przepisu. Uwaga: cytat stoi na stronie wekowania ciśnieniowego, a strona grzybów marynowanych nie wspomina o leśnych. Zakres odczytuję ostrożnie, więc potwierdzam nie-publikowac. Ostrzeżenie SUS-035 jest na miejscu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "chanterelle-milkcap-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ACI-030 (NCHFP, szczebel 1): „Caution: Do not can wild mushrooms”. To zastrzeżenie o wekowaniu grzybów leśnych w ogóle, a słoik z zalewą octową w kąpieli wodnej to także wekowanie. Przetestowany przepis NCHFP „Marinated Whole Mushrooms” (e5048b66582b) mówi tylko o małych, zamkniętych kapeluszach, nie o grzybach leśnych, a ACI-016 zabrania zmieniania przepisu. Uwaga: cytat stoi na stronie wekowania ciśnieniowego, a strona grzybów marynowanych nie wspomina o leśnych. Zakres odczytuję ostrożnie, więc potwierdzam nie-publikowac. Ostrzeżenie SUS-035 jest na miejscu. Mieszanka z pomidorami: ACI-006.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "chanterelle-milkcap-v08",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "ryzyko-wysokie",
+  "dlaczego": "Proces v1 to zamrażarka. Zakaz szczebla 1 (OLE-040) dotyczy wekowania, nie mrożenia. NCHFP (616a728226ff, przeczytana) wprost dopuszcza mrożenie grzybów podsmażonych na maśle lub margarynie (OLE-041) bez ograniczenia gatunków. Nie-publikowac nie przysługuje. Ryzyko-wysokie tak: OLE-026 (szczebel 2) nazywa botulizm z grzybów pod olejem, procedury dla „słoików pod warstwą tłuszczu” nie ma, a SUS-035 nazywa ryzyko pomylenia gatunków.",
+  "claims_uwagi": "Tradycyjna wersja (rydze pod smalcem lub masłem w spiżarni) jest niezgodna z metodą v1. Karta musi mówić tylko o zamrażarce; trzymanie w spiżarni ma oparcie wyłącznie w szczeblu 2 (OLE-026)."
+ },
+ {
+  "id": "chanterelle-milkcap-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-020 (szczebel 1): nie wekować grzybów leśnych. Do tego SZY-006 (kąpiel wodna), SZY-009 (tyndalizacja niepewna) i SZY-013 (masło w słoiku).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "chanterelle-milkcap-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-020 i FER-006 (szczebel 1): nie wekować grzybów leśnych. Do tego SZY-006.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "chanterelle-milkcap-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-020 (grzyby leśne) i SZY-014 (przecier), oba szczebla 1. Do tego SZY-006.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "chanterelle-milkcap-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-020 (grzyby leśne) i SZY-014 (przecier), oba szczebla 1. Do tego SZY-006.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "wild-mushrooms-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ACI-030 (NCHFP, szczebel 1): „Caution: Do not can wild mushrooms”. To zastrzeżenie o wekowaniu grzybów leśnych w ogóle, a słoik z zalewą octową w kąpieli wodnej to także wekowanie. Przetestowany przepis NCHFP „Marinated Whole Mushrooms” (e5048b66582b) mówi tylko o małych, zamkniętych kapeluszach, nie o grzybach leśnych, a ACI-016 zabrania zmieniania przepisu. Uwaga: cytat stoi na stronie wekowania ciśnieniowego, a strona grzybów marynowanych nie wspomina o leśnych. Zakres odczytuję ostrożnie, więc potwierdzam nie-publikowac. Ostrzeżenie SUS-035 jest na miejscu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "wild-mushrooms-v03",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ACI-030 (NCHFP, szczebel 1): „Caution: Do not can wild mushrooms”. To zastrzeżenie o wekowaniu grzybów leśnych w ogóle, a słoik z zalewą octową w kąpieli wodnej to także wekowanie. Przetestowany przepis NCHFP „Marinated Whole Mushrooms” (e5048b66582b) mówi tylko o małych, zamkniętych kapeluszach, nie o grzybach leśnych, a ACI-016 zabrania zmieniania przepisu. Uwaga: cytat stoi na stronie wekowania ciśnieniowego, a strona grzybów marynowanych nie wspomina o leśnych. Zakres odczytuję ostrożnie, więc potwierdzam nie-publikowac. Ostrzeżenie SUS-035 jest na miejscu.",
+  "claims_uwagi": "Brak ACI-016 (zakaz zmiany przepisu), który mają pozostałe warianty w occie."
+ },
+ {
+  "id": "wild-mushrooms-v04",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ACI-030 (NCHFP, szczebel 1): „Caution: Do not can wild mushrooms”. To zastrzeżenie o wekowaniu grzybów leśnych w ogóle, a słoik z zalewą octową w kąpieli wodnej to także wekowanie. Przetestowany przepis NCHFP „Marinated Whole Mushrooms” (e5048b66582b) mówi tylko o małych, zamkniętych kapeluszach, nie o grzybach leśnych, a ACI-016 zabrania zmieniania przepisu. Uwaga: cytat stoi na stronie wekowania ciśnieniowego, a strona grzybów marynowanych nie wspomina o leśnych. Zakres odczytuję ostrożnie, więc potwierdzam nie-publikowac. Ostrzeżenie SUS-035 jest na miejscu. Ciasto i sos pomidorowy to dodatkowe niezbadane składniki (ACI-006).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "wild-mushrooms-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-020 (szczebel 1): nie wekować grzybów leśnych. Do tego SZY-006 i SZY-013.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "wild-mushrooms-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-020 (szczebel 1, kania jest grzybem leśnym). Do tego SZY-006 i SZY-017.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "wild-mushrooms-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-020 i FER-006 (szczebel 1): nie wekować grzybów leśnych. Do tego SZY-006.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "cultivated-mushrooms-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna grzybów w oleju. Zagrożenie nazwane: domowe grzyby zalane olejem powodowały botulizm (OLE-026, szczebel 2), a kąpiel wodna warzyw grozi botulizmem (SZY-006, szczebel 1). Przetestowanej procedury nie ma. Kryterium nie-publikowac dla v0 (SZY-006) też jest spełnione.",
+  "claims_uwagi": "OLE-041 (mrożenie po podsmażeniu) to alternatywa, nie podstawa. Można dodać SZY-013 (nie dodawać tłuszczu do słoików)."
+ },
+ {
+  "id": "cultivated-mushrooms-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. SZY-014 pasuje, jeśli duxelles jest zmiksowane na pastę.",
+  "claims_uwagi": "Grzyby hodowlane, więc SZY-020 tu nie dotyczy. Przy duxelles tylko siekanym podstawą zostaje SZY-006 (proces v0)."
+ },
+ {
+  "id": "cultivated-mushrooms-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces ciśnieniowy jest właściwą metodą (SZY-003, SZY-006), ale dla tego produktu nie ma przetestowanego czasu ani przepisu USDA (SZY-007), a botulizm przy niedogrzaniu żywności niskokwasowej jest zagrożeniem nazwanym dla tego rodzaju produktu.",
+  "claims_uwagi": "Grzyby hodowlane mają własny proces (SZY-021), a procedura zup (SZY-018, SZY-019) obejmuje składniki z własnymi zaleceniami, więc dla wywaru z samych grzybów hodowlanych odpowiednik może istnieć; kombu i grzyby suszone nie mają zaleceń. Sprawdzić, czy dashi nie jest bliskim odpowiednikiem zupy NCHFP."
+ },
+ {
+  "id": "wild-garlic-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "FER-068 (szczebel 3) dotyczy fermentacji czosnku (Allium sativum); czosnek niedźwiedzi to inny gatunek tego samego rodzaju, też niskokwasowa cebulka z gleby. Uznaję to za ten sam rodzaj produktu, choć to granica analogii.",
+  "claims_uwagi": "Brak źródła wprost o czosnku niedźwiedzim; warto poszukać. FER-004 i FER-003 są ogólne."
+ },
+ {
+  "id": "wild-garlic-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) stwierdza brak badań, że dodanie ziół lub warzyw do masła daje produkt bezpieczny w temperaturze pokojowej albo w lodówce (OLE-034), i przytacza ostrzeżenie FDA z 1993 r. (OLE-035). Zagrożenie jest więc nazwane dla tego rodzaju produktu, a przetestowanej procedury nie ma. Zamrażarka (OLE-045) to zalecane zabezpieczenie, nie przetestowany przepis; karta nie może sugerować, że lodówka wystarcza na dłużej niż kilka dni.",
+  "claims_uwagi": "OLE-001 dotyczy czosnku w oleju (analogia na czosnek niedźwiedzi w maśle); podstawą jest OLE-034."
+ },
+ {
+  "id": "miso-garum-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Zagrożenie nazwane dla fermentowanych produktów rybnych: botulizm typu E z fermentowanych ryb (NAP-047, szczebel 2), fesikh z niewypatroszonych ryb (NAP-048, BCCDC, urzędowe); Codex podaje wymagania (sól co najmniej 200 g/l, co najmniej 6 miesięcy, histamina najwyżej 40 mg/100 g; NAP-045, NAP-046). Przetestowanej procedury domowej dla garum z koji nie ma.",
+  "claims_uwagi": "NAP-045 i NAP-046 to normy dla przemysłu; nie podawać ich jako domowego progu bezpieczeństwa."
+ },
+ {
+  "id": "yogurt-skyr-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CFIA (Kanada, urzędowe) wycofała labneh w oleju, bo produkt może pozwalać na wzrost C. botulinum (MLE-062); MLE-060 (szczebel 3) mówi to samo o żywności niskokwasowej w oleju. To ten sam rodzaj produktu (miękki ser lub jogurt odcieknięty, zalany olejem). Nie ma przetestowanej procedury, więc ryzyko-wysokie wynika z twierdzeń. Tu to dokładnie ten produkt (labneh w oleju).",
+  "claims_uwagi": "MLE-061 (zioła w oleju, 4 dni) to analogia oznaczona w rejestrze; MLE-030 i MLE-035 to kontekst."
+ },
+ {
+  "id": "fresh-brined-cheese-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CFIA (Kanada, urzędowe) wycofała labneh w oleju, bo produkt może pozwalać na wzrost C. botulinum (MLE-062); MLE-060 (szczebel 3) mówi to samo o żywności niskokwasowej w oleju. To ten sam rodzaj produktu (miękki ser lub jogurt odcieknięty, zalany olejem). Nie ma przetestowanej procedury, więc ryzyko-wysokie wynika z twierdzeń. Dodatkowo FDA (szczebel 1) nazywa Listerię dla serów świeżych (MLE-043–045).",
+  "claims_uwagi": "MLE-061 to analogia (zioła, a nie ser)."
+ },
+ {
+  "id": "fresh-brined-cheese-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CFIA (Kanada, urzędowe) wycofała labneh w oleju, bo produkt może pozwalać na wzrost C. botulinum (MLE-062); MLE-060 (szczebel 3) mówi to samo o żywności niskokwasowej w oleju. To ten sam rodzaj produktu (miękki ser lub jogurt odcieknięty, zalany olejem). Nie ma przetestowanej procedury, więc ryzyko-wysokie wynika z twierdzeń.",
+  "claims_uwagi": "MLE-061 to analogia. Można dodać MLE-045 (Listeria rośnie w lodówce)."
+ },
+ {
+  "id": "mold-ripened-cheese-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CFIA (Kanada, urzędowe) wycofała labneh w oleju, bo produkt może pozwalać na wzrost C. botulinum (MLE-062); MLE-060 (szczebel 3) mówi to samo o żywności niskokwasowej w oleju. To ten sam rodzaj produktu (miękki ser lub jogurt odcieknięty, zalany olejem). Nie ma przetestowanej procedury, więc ryzyko-wysokie wynika z twierdzeń. Cebula i papryka w oleju (OLE-024) zwiększają zagrożenie.",
+  "claims_uwagi": "Dodać OLE-024 (papryka w oleju) i OLE-029. MLE-061 to analogia."
+ },
+ {
+  "id": "butter-whey-cheese-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) stwierdza brak badań, że dodanie ziół lub warzyw do masła daje produkt bezpieczny w temperaturze pokojowej albo w lodówce (OLE-034), i przytacza ostrzeżenie FDA z 1993 r. (OLE-035). Zagrożenie jest więc nazwane dla tego rodzaju produktu, a przetestowanej procedury nie ma. Zamrażarka (OLE-045) to zalecane zabezpieczenie, nie przetestowany przepis; karta nie może sugerować, że lodówka wystarcza na dłużej niż kilka dni.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "butter-whey-cheese-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Nummer 2011 (szczebel 2) stwierdza brak badań, że dodanie ziół lub warzyw do masła daje produkt bezpieczny w temperaturze pokojowej albo w lodówce (OLE-034), i przytacza ostrzeżenie FDA z 1993 r. (OLE-035). Zagrożenie jest więc nazwane dla tego rodzaju produktu, a przetestowanej procedury nie ma. Zamrażarka (OLE-045) to zalecane zabezpieczenie, nie przetestowany przepis; karta nie może sugerować, że lodówka wystarcza na dłużej niż kilka dni.",
+  "claims_uwagi": "Borowik jest grzybem leśnym: brak ostrzeżenia SUS-035 w requiredWarnings (spójnie z wariantami boletes-*). Można dodać OLE-026 (grzyby pod olejem lub tłuszczem)."
+ },
+ {
+  "id": "pork-loin-ham-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. Tyndalizacja niepewna (SZY-009).",
+  "claims_uwagi": "SZY-041 (proces dla mięsa w kostkach) to kontekst."
+ },
+ {
+  "id": "pork-loin-ham-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces ciśnieniowy jest właściwą metodą (SZY-003, SZY-006), ale dla tego produktu nie ma przetestowanego czasu ani przepisu USDA (SZY-007), a botulizm przy niedogrzaniu żywności niskokwasowej jest zagrożeniem nazwanym dla tego rodzaju produktu. Proces dla mięsa w kostkach (SZY-041) istnieje, ale schab w galarecie ma dodatki (żelatyna, warzywa, jajko) spoza przepisu (SZY-013).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pork-loin-ham-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ANSES (szczebel 1) wymienia domowe i rzemieślnicze terriny i pasztety wśród głównych źródeł botulizmu (OLE-046) i wymaga łańcucha chłodniczego dla produktów gotowanych, ale niesterylizowanych (OLE-047); gotowanie nie niszczy przetrwalników (OLE-048), a dla żywności o obniżonej zawartości tlenu obowiązują limity czasu i temperatury (OLE-031). Nie ma przetestowanej procedury domowej, więc ryzyko-wysokie wynika z twierdzeń.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pork-loin-ham-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pork-shoulder-neck-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. Tyndalizacja niepewna (SZY-009).",
+  "claims_uwagi": "Niespójność z smoked-cooked-sausages-v12 (ta sama technika, nie-publikowac). SZY-014 (przeciery) do mielonki naciągnięte; dla mielonego mięsa proces jest tylko w formie kotletów lub kulek (SZY-042)."
+ },
+ {
+  "id": "pork-shoulder-neck-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pork-shoulder-neck-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": "SZY-017 i SZY-018 dotyczą zup (analogia); SZY-041 to kontekst."
+ },
+ {
+  "id": "pork-shoulder-neck-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ANSES (szczebel 1) wymienia domowe i rzemieślnicze terriny i pasztety wśród głównych źródeł botulizmu (OLE-046) i wymaga łańcucha chłodniczego dla produktów gotowanych, ale niesterylizowanych (OLE-047); gotowanie nie niszczy przetrwalników (OLE-048), a dla żywności o obniżonej zawartości tlenu obowiązują limity czasu i temperatury (OLE-031). Nie ma przetestowanej procedury domowej, więc ryzyko-wysokie wynika z twierdzeń.",
+  "claims_uwagi": "SZY-001, SZY-003, SZY-006, SZY-008 i SZY-014 dotyczą wekowania, a proces v1 to lodówka; jako podstawa statusu nie pasują (najwyżej kontekst: nie wekować)."
+ },
+ {
+  "id": "pork-shoulder-neck-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pork-belly-jowl-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. Tyndalizacja niepewna (SZY-009).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "smoked-cooked-sausages-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces to wekowanie w piekarniku. SZY-010 (NCHFP, szczebel 1) wprost: wekowanie w piekarniku niezalecane; SZY-011 (szczebel 3): skrajnie niebezpieczne.",
+  "claims_uwagi": "preservationMethod = \"none\" (string), a nie null jak w pozostałych wariantach: anomalia danych. SZY-042 pokazuje, że istnieje proces ciśnieniowy dla świeżej kiełbasy w kawałkach (obsmażona, zalana płynem), ale nie dla wersji zapiekanej z cebulą."
+ },
+ {
+  "id": "smoked-cooked-sausages-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-009 (tyndalizacja niepewna).",
+  "claims_uwagi": "SZY-014 (przeciery) naciągnięte: mięso kiełbasiane to mięso mielone, nie przecier, a dla mielonego istnieje proces ciśnieniowy (SZY-042, formowane i obsmażone). Niespójność: pork-shoulder-v08 (mielonka z peklosolą, ta sama technika) ma ryzyko-wysokie."
+ },
+ {
+  "id": "dry-cured-sausages-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA (szczebel 3): kiełbasy surowe wędzone wędzi się dla smaku i MUSZĄ być ugotowane przed jedzeniem (MIE-022); trwałe są dopiero przy aw poniżej 0,85 i pH poniżej 5,3 (MIE-023); do tego włośnie (MIE-026, MIE-030) i E. coli i Salmonella (MIE-024, MIE-027). Zagrożenie nazwane, procedury nie ma.",
+  "claims_uwagi": "MIE-076 pochodzi z publikacji o wędzeniu ryb (analogia ryba → mięso); MIE-022 wystarcza."
+ },
+ {
+  "id": "dry-cured-sausages-v02",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA B1437 (szczebel 3) nazywa zagrożenia dla kiełbas surowych dojrzewających: E. coli O157:H7 (MIE-024), Salmonellę (MIE-027), wzrost bakterii bez kultury starterowej (MIE-025), włośnie (MIE-026, MIE-030) i warunek trwałości aw poniżej 0,85 i pH poniżej 5,3 (MIE-023). Przepisy UGA (dry beef salami, summer sausage) nie są bezpośrednimi odpowiednikami tego wyrobu (inny surowiec, sól, proces, czas). Ryzyko-wysokie wynika z twierdzeń. MIE-006 i MIE-009 (limity azotynów i azotanów w UE) to kontekst, nie podstawa statusu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "dry-cured-sausages-v03",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA B1437 (szczebel 3) nazywa zagrożenia dla kiełbas surowych dojrzewających: E. coli O157:H7 (MIE-024), Salmonellę (MIE-027), wzrost bakterii bez kultury starterowej (MIE-025), włośnie (MIE-026, MIE-030) i warunek trwałości aw poniżej 0,85 i pH poniżej 5,3 (MIE-023). Przepisy UGA (dry beef salami, summer sausage) nie są bezpośrednimi odpowiednikami tego wyrobu (inny surowiec, sól, proces, czas). Ryzyko-wysokie wynika z twierdzeń. MIE-006 i MIE-009 (limity azotynów i azotanów w UE) to kontekst, nie podstawa statusu.",
+  "claims_uwagi": "MIE-032 dotyczy przepisu UGA na salami wołowe (kontekst); to nie jest odpowiednik salami milano ani napoli."
+ },
+ {
+  "id": "dry-cured-sausages-v04",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA B1437 (szczebel 3) nazywa zagrożenia dla kiełbas surowych dojrzewających: E. coli O157:H7 (MIE-024), Salmonellę (MIE-027), wzrost bakterii bez kultury starterowej (MIE-025), włośnie (MIE-026, MIE-030) i warunek trwałości aw poniżej 0,85 i pH poniżej 5,3 (MIE-023). Przepisy UGA (dry beef salami, summer sausage) nie są bezpośrednimi odpowiednikami tego wyrobu (inny surowiec, sól, proces, czas). Ryzyko-wysokie wynika z twierdzeń. MIE-006 i MIE-009 (limity azotynów i azotanów w UE) to kontekst, nie podstawa statusu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "dry-cured-sausages-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA B1437 (szczebel 3) nazywa zagrożenia dla kiełbas surowych dojrzewających: E. coli O157:H7 (MIE-024), Salmonellę (MIE-027), wzrost bakterii bez kultury starterowej (MIE-025), włośnie (MIE-026, MIE-030) i warunek trwałości aw poniżej 0,85 i pH poniżej 5,3 (MIE-023). Przepisy UGA (dry beef salami, summer sausage) nie są bezpośrednimi odpowiednikami tego wyrobu (inny surowiec, sól, proces, czas). Ryzyko-wysokie wynika z twierdzeń. MIE-006 i MIE-009 (limity azotynów i azotanów w UE) to kontekst, nie podstawa statusu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "dry-cured-sausages-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA B1437 (szczebel 3) nazywa zagrożenia dla kiełbas surowych dojrzewających: E. coli O157:H7 (MIE-024), Salmonellę (MIE-027), wzrost bakterii bez kultury starterowej (MIE-025), włośnie (MIE-026, MIE-030) i warunek trwałości aw poniżej 0,85 i pH poniżej 5,3 (MIE-023). Przepisy UGA (dry beef salami, summer sausage) nie są bezpośrednimi odpowiednikami tego wyrobu (inny surowiec, sól, proces, czas). Ryzyko-wysokie wynika z twierdzeń. MIE-006 i MIE-009 (limity azotynów i azotanów w UE) to kontekst, nie podstawa statusu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "dry-cured-sausages-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA B1437 (szczebel 3) nazywa zagrożenia dla kiełbas surowych dojrzewających: E. coli O157:H7 (MIE-024), Salmonellę (MIE-027), wzrost bakterii bez kultury starterowej (MIE-025), włośnie (MIE-026, MIE-030) i warunek trwałości aw poniżej 0,85 i pH poniżej 5,3 (MIE-023). Przepisy UGA (dry beef salami, summer sausage) nie są bezpośrednimi odpowiednikami tego wyrobu (inny surowiec, sól, proces, czas). Ryzyko-wysokie wynika z twierdzeń. MIE-006 i MIE-009 (limity azotynów i azotanów w UE) to kontekst, nie podstawa statusu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "dry-cured-sausages-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Metka jest jedzona na surowo; UGA (szczebel 3): kiełbasy surowe wędzone MUSZĄ być ugotowane (MIE-022); do tego włośnie (MIE-026, MIE-030) i ryzyko błędu z azotynem (MIE-011, MIE-012). Zagrożenie nazwane, procedury nie ma.",
+  "claims_uwagi": "MIE-076 to źródło o rybach (analogia). „Łososiowa” w nazwie to rodzaj metki wieprzowej, nie ryba; upewnić się, że karta tego nie myli."
+ },
+ {
+  "id": "dry-cured-sausages-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Teewurst to surowa kiełbasa smarowna; UGA (szczebel 3): kiełbasy surowe wędzone MUSZĄ być ugotowane (MIE-022); bez kultury starterowej ryzyko wzrostu bakterii (MIE-025); włośnie (MIE-026, MIE-030). Zagrożenie nazwane, procedury nie ma.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "dry-cured-sausages-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "'Nduja to surowa kiełbasa smarowna, wędzona; UGA (szczebel 3): MIE-022, MIE-023 (aw i pH dla trwałości; 'nduja ma wysoką aw), MIE-025, MIE-026. Zagrożenie nazwane, procedury nie ma.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "dry-cured-sausages-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA B1437 (szczebel 3) nazywa zagrożenia dla kiełbas surowych dojrzewających: E. coli O157:H7 (MIE-024), Salmonellę (MIE-027), wzrost bakterii bez kultury starterowej (MIE-025), włośnie (MIE-026, MIE-030) i warunek trwałości aw poniżej 0,85 i pH poniżej 5,3 (MIE-023). Przepisy UGA (dry beef salami, summer sausage) nie są bezpośrednimi odpowiednikami tego wyrobu (inny surowiec, sól, proces, czas). Ryzyko-wysokie wynika z twierdzeń. MIE-006 i MIE-009 (limity azotynów i azotanów w UE) to kontekst, nie podstawa statusu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "dry-cured-sausages-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA B1437 (szczebel 3) nazywa zagrożenia dla kiełbas surowych dojrzewających: E. coli O157:H7 (MIE-024), Salmonellę (MIE-027), wzrost bakterii bez kultury starterowej (MIE-025), włośnie (MIE-026, MIE-030) i warunek trwałości aw poniżej 0,85 i pH poniżej 5,3 (MIE-023). Przepisy UGA (dry beef salami, summer sausage) nie są bezpośrednimi odpowiednikami tego wyrobu (inny surowiec, sól, proces, czas). Ryzyko-wysokie wynika z twierdzeń. MIE-006 i MIE-009 (limity azotynów i azotanów w UE) to kontekst, nie podstawa statusu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "beef-veal-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": "SZY-041 (kostki w szybkowarze) to najbliższy proces, ale gulasz zawiera zagęstnik i przyprawy (SZY-017, analogia)."
+ },
+ {
+  "id": "beef-veal-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": "Wino i sos to dodatki spoza przepisu SZY-041."
+ },
+ {
+  "id": "poultry-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ANSES (szczebel 1) wymienia domowe i rzemieślnicze terriny i pasztety wśród głównych źródeł botulizmu (OLE-046) i wymaga łańcucha chłodniczego dla produktów gotowanych, ale niesterylizowanych (OLE-047); gotowanie nie niszczy przetrwalników (OLE-048), a dla żywności o obniżonej zawartości tlenu obowiązują limity czasu i temperatury (OLE-031). Nie ma przetestowanej procedury domowej, więc ryzyko-wysokie wynika z twierdzeń.",
+  "claims_uwagi": "SZY-001, SZY-003, SZY-006, SZY-008 i SZY-014 dotyczą wekowania, a proces v1 to lodówka; jako podstawa statusu nie pasują (najwyżej kontekst: nie wekować)."
+ },
+ {
+  "id": "poultry-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ANSES (szczebel 1) wymienia domowe i rzemieślnicze terriny i pasztety wśród głównych źródeł botulizmu (OLE-046) i wymaga łańcucha chłodniczego dla produktów gotowanych, ale niesterylizowanych (OLE-047); gotowanie nie niszczy przetrwalników (OLE-048), a dla żywności o obniżonej zawartości tlenu obowiązują limity czasu i temperatury (OLE-031). Nie ma przetestowanej procedury domowej, więc ryzyko-wysokie wynika z twierdzeń.",
+  "claims_uwagi": "SZY-001, SZY-003, SZY-006, SZY-008 i SZY-014 dotyczą wekowania, a proces v1 to lodówka; jako podstawa statusu nie pasują (najwyżej kontekst: nie wekować)."
+ },
+ {
+  "id": "poultry-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ANSES (szczebel 1) wymienia domowe i rzemieślnicze terriny i pasztety wśród głównych źródeł botulizmu (OLE-046) i wymaga łańcucha chłodniczego dla produktów gotowanych, ale niesterylizowanych (OLE-047); gotowanie nie niszczy przetrwalników (OLE-048), a dla żywności o obniżonej zawartości tlenu obowiązują limity czasu i temperatury (OLE-031). Nie ma przetestowanej procedury domowej, więc ryzyko-wysokie wynika z twierdzeń.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "game-lamb-v03",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UE (szczebel 1) nazywa zagrożenie dla tego rodzaju produktu: Trichinella w zwierzynie łownej jest odporna na zamrażanie (MIE-033), a mięso trzeba zbadać metodą wytrawiania (MIE-034). NCHFP: dziczyzna zanieczyszczona tylko do dokładnego gotowania (MIE-043). Przetestowanej procedury suszenia polędwicy z dziczyzny nie ma.",
+  "claims_uwagi": "MIE-016 (country ham) i MIE-023 (kiełbasy) to analogie z innych produktów; nie podawać ich progów jako granic dla polędwicy z jelenia. MIE-026 (144 °F) nie dotyczy produktu niegotowanego."
+ },
+ {
+  "id": "game-lamb-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-020 (szczebel 1): nie wekować grzybów leśnych. Do tego SZY-006 (kąpiel wodna mięsa), SZY-009 i SZY-017.",
+  "claims_uwagi": "Brak ostrzeżenia SUS-035 w requiredWarnings (grzyby leśne)."
+ },
+ {
+  "id": "game-lamb-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014: pasztet to przecier z mięsa czerwonego, nie wekować w domu żadną metodą.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "game-lamb-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ANSES (szczebel 1) wymienia domowe i rzemieślnicze terriny i pasztety wśród głównych źródeł botulizmu (OLE-046) i wymaga łańcucha chłodniczego dla produktów gotowanych, ale niesterylizowanych (OLE-047); gotowanie nie niszczy przetrwalników (OLE-048), a dla żywności o obniżonej zawartości tlenu obowiązują limity czasu i temperatury (OLE-031). Nie ma przetestowanej procedury domowej, więc ryzyko-wysokie wynika z twierdzeń.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "offal-pates-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014 (przecier z mięsa czerwonego i drobiu, szczebel 1).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "offal-pates-v02",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "ANSES (szczebel 1) wymienia domowe i rzemieślnicze terriny i pasztety wśród głównych źródeł botulizmu (OLE-046) i wymaga łańcucha chłodniczego dla produktów gotowanych, ale niesterylizowanych (OLE-047); gotowanie nie niszczy przetrwalników (OLE-048), a dla żywności o obniżonej zawartości tlenu obowiązują limity czasu i temperatury (OLE-031). Nie ma przetestowanej procedury domowej, więc ryzyko-wysokie wynika z twierdzeń.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "offal-pates-v03",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Pasteryzacja w niskiej temperaturze nie jest sterylizacją żywności niskokwasowej (SZY-003: wymagane 240–250 °F), a przetestowanej procedury nie ma (SZY-007). Zagrożenie botulizmem jest nazwane dla tego rodzaju produktu.",
+  "claims_uwagi": "Dodać OLE-046 i OLE-047 (ANSES: pasztety i produkty gotowane, ale niesterylizowane, wymagają łańcucha chłodniczego): to dokładniejsza podstawa niż ogólne SZY."
+ },
+ {
+  "id": "offal-pates-v04",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014 (wątrobianka to przecier mięsny).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "offal-pates-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces v0 to kąpiel wodna produktu niskokwasowego; SZY-006 (NCHFP, szczebel 1) wprost: jedyną zalecaną metodą dla warzyw, mięsa, drobiu i ryb jest szybkowar, a kąpiel wodna oznacza realne ryzyko botulizmu. Do tego SZY-014 (przecier mięsny).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "offal-pates-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "offal-pates-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": "Kasza w słoiku: SZY-017 (analogia z zup)."
+ },
+ {
+  "id": "offal-pates-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": "Proces zup (SZY-018, SZY-019) obejmuje tylko składniki z własnymi zaleceniami; flaki ich nie mają."
+ },
+ {
+  "id": "offal-pates-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "offal-pates-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sea-fish-v02",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "FDA (szczebel 1) nazywa zagrożenia: solenie nie eliminuje pasożytów (MIE-049, MIE-050); UE wymaga zamrożenia, gdy obróbka ich nie zabija (MIE-052, MIE-053); niewypatroszone ryby solone to zagrożenie życia (MIE-067, MIE-069). Olej z cebulą dokłada warunki beztlenowe. Przetestowanej procedury nie ma.",
+  "claims_uwagi": "Matjas jest tradycyjnie tylko częściowo patroszony (trzustka zostaje); CPG 540.650 wymienia solone niewypatroszone śledzie („bloaters”). Jeśli wariant zakłada domowe solenie ryby niewypatroszonej, przysługuje nie-publikowac (MIE-067, szczebel 1). Dla gotowego matjasa z handlu ryzyko-wysokie wystarcza."
+ },
+ {
+  "id": "sea-fish-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "FDA (szczebel 1): marynowanie i solenie nie eliminują pasożytów (MIE-049); UE i FDA podają zamrożenie jako zabezpieczenie (MIE-052, MIE-046). Zagrożenie nazwane dla tego rodzaju produktu; przetestowanej procedury domowej nie ma.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sea-fish-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "FDA CPG (szczebel 1) nazywa niewypatroszone ryby wędzone jako zagrożenie życia (MIE-067); małe ryby (poniżej 5 cali, szproty) są wyłączone tylko przy 10% soli w fazie wodnej albo aw poniżej 0,85 lub pH 4,6 i niższym (MIE-066).",
+  "claims_uwagi": "Śledzie wędzone w całości (ponad 5 cali, niewypatroszone) spełniają kryterium nie-publikowac (MIE-067, MIE-069). Ryba wypatroszona i wędzona na gorąco ma procedurę extension (MIE-071, 160 °F przez 30 min), więc wtedy „brak procedury” nie jest prawdą. Nazwa nie rozstrzyga formy; rozdzielić wariant albo zawęzić kartę."
+ },
+ {
+  "id": "sea-fish-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu. Ryż jest wykluczony z wekowanych zup (SZY-017, analogia na pastę).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sea-fish-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sea-fish-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces ciśnieniowy jest właściwą metodą (SZY-003, SZY-006), ale dla tego produktu nie ma przetestowanego czasu ani przepisu USDA (SZY-007), a botulizm przy niedogrzaniu żywności niskokwasowej jest zagrożeniem nazwanym dla tego rodzaju produktu. Przetestowany proces dla ryb (SZY-044) każe nie dodawać płynów, a SZY-013 nie dodawać tłuszczów spoza przepisu (oba szczebla 1), więc szproty w oleju odchodzą od przepisu.",
+  "claims_uwagi": "SZY-044 i SZY-013 (szczebel 1) wprost odradzają dodanie oleju, więc można rozważyć nie-publikowac."
+ },
+ {
+  "id": "freshwater-fish-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Proces ciśnieniowy jest właściwą metodą (SZY-003, SZY-006), ale dla tego produktu nie ma przetestowanego czasu ani przepisu USDA (SZY-007), a botulizm przy niedogrzaniu żywności niskokwasowej jest zagrożeniem nazwanym dla tego rodzaju produktu. SZY-044 (szczebel 1): przy wekowaniu ryb nie dodawać płynów, a sos pomidorowy jest płynem spoza przepisu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "freshwater-fish-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "SZY-006 (NCHFP, szczebel 1) nazywa zagrożenie (botulizm) dla kąpieli wodnej tego rodzaju produktu, a dla tego dania nie ma przetestowanej procedury (SZY-007), więc ryzyko-wysokie wynika z twierdzeń. Dla procesu v0 (kąpiel wodna) spełnione jest też kryterium nie-publikowac; ryzyko-wysokie jest dopuszczalne tylko jako karta ostrzegawcza bez opisu procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "freshwater-fish-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "FDA CPG 540.650 (szczebel 1): niewypatroszone ryby solone lub suszone dłuższe niż 5 cali to potencjalnie śmiertelne zagrożenie i produkt zafałszowany (MIE-067, MIE-069), niebezpieczny bez względu na przechowywanie (MIE-070). Kapchunka spowodowała zgony (MIE-068). Tradycyjna wobła i taran są suszone w całości, niewypatroszone, i mają ponad 5 cali.",
+  "claims_uwagi": "Status zakłada wersję niewypatroszoną (tradycyjną). Wersja wypatroszona nie ma zakazu szczebla 1, tylko wymagania (MIE-061, MIE-066), i byłaby ryzyko-wysokie; nazwa wariantu tego nie rozstrzyga."
+ },
+ {
+  "id": "eggs-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "FDA (szczebel 1) nazywa zagrożenie (Salmonella) dla potraw z surowymi lub niedogotowanymi jajami i każe do nich używać jaj pasteryzowanych (MIE-091); żółtka peklowane są surowe. Przetestowanej procedury nie ma.",
+  "claims_uwagi": "MIE-091 daje zabezpieczenie (jaja pasteryzowane); karta powinna je podać."
+ },
+ {
+  "id": "eggs-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Zagrożenie nazwane dla składnika: czosnek w oleju (OLE-001, OLE-002, szczebel 1; MIE-094 i MIE-095, szczebel 3), jaja niskokwasowe, do których ocet może nie przeniknąć (MIE-087), domowe jaja marynowane w temperaturze pokojowej powodowały botulizm (MIE-083). Procedury dla jaj w oleju brak (OLE-028).",
+  "claims_uwagi": "MIE-083 dotyczy jaj marynowanych w occie (analogia). Wędzenie na zimno jaj nie ma twierdzeń."
+ },
+ {
+  "id": "eggs-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "USU Extension (szczebel 3) wprost: przechowywanie jaj metodą water glassing jest niebezpieczne (MIE-093). Ryzyko-wysokie wynika z twierdzeń (nie-publikowac wymaga szczebla 1).",
+  "claims_uwagi": "Abstrakt mówi tylko „unsafe”, bez nazwy zagrożenia; konkretne zagrożenie (np. Salmonella, brak chłodzenia) warto wziąć z pełnego tekstu fact sheetu."
+ },
+ {
+  "id": "kefir-cream-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "FDA (szczebel 1) nazywa zagrożenia dla surowego mleka (MLE-001–003, MLE-005) i wymienia jogurt z mleka niepasteryzowanego wśród wyborów wysokiego ryzyka (MLE-004). Fermentowany nabiał musi osiągnąć pH 4,6 w ciągu 48 h (MLE-021), czego samoistne kwaśnienie nie gwarantuje. Przetestowanej procedury dla surowego mleka nie ma.",
+  "claims_uwagi": "MLE-014 (NMSU 140–145 °F) to sprzeczność; na karcie tylko 63 °C przez 30 min (MLE-009). MLE-019 i MLE-020 to przepisy dla producentów (kontekst)."
+ },
+ {
+  "id": "sea-fish-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UAF (szczebel 3) nazywa zagrożenia wędzenia na zimno: temperatura nie zabija bakterii (MIE-076), cały proces w strefie zagrożenia (MIE-077), produkt tylko w lodówce lub zamrażarce (MIE-079). FDA: C. botulinum typu E w surowych rybach, wzrost od 3,3 °C (MIE-059, MIE-060), pasożyty (MIE-046, MIE-052).",
+  "claims_uwagi": "UAF podaje jednak domowe zalecenia dla wędzenia na zimno (zamrożenie na pasożyty, wnętrze najwyżej 90 °F); to nie zwalidowany proces, ale karta nie powinna twierdzić, że źródła milczą. MIE-062 i MIE-063 to wymagania przemysłowe FDA (kontekst)."
+ }
+]

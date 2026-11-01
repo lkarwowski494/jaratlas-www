@@ -1,0 +1,951 @@
+[
+ {
+  "id": "gooseberry-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Berries-Whole (szczebel 1) wymienia agrest; syrop dowolny (ACI-067). Bezpośredni przepis, nazwa bez zmian istotnych dla bezpieczeństwa.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "blueberry-bilberry-v06",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Jagody leśne (borówka czarna, Vaccinium myrtillus) nie są na liście NCHFP Berries-Whole, a źródło mówi wprost: „Use these directions only with the berries listed.” Pakowanie w soku/bez cukru jest dozwolone, ale owoc spoza listy = brak przetestowanego przepisu. Po zmianie na borówkę amerykańską ok-zrodlo by przysługiwało.",
+  "claims_uwagi": "ACI-140 dotyczy borówki amerykańskiej (Blueberries, Maine), nie jagody leśnej. „na żołądek” to twierdzenie zdrowotne bez źródła."
+ },
+ {
+  "id": "blueberry-bilberry-v12",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "„Kompot jagodowy” po polsku to zwykle kompot z jagód leśnych (borówki czarnej), których nie ma na liście NCHFP Berries-Whole („Use these directions only with the berries listed”). Jeśli wariant dotyczy borówki amerykańskiej, wystarczy zmienić nazwę i ok-zrodlo przysługuje (syrop/woda dozwolone, ACI-067).",
+  "claims_uwagi": "ACI-140 = pH borówki amerykańskiej, nie jagody leśnej."
+ },
+ {
+  "id": "blueberry-bilberry-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Suszenie owoców jagodowych: CSU (Berries, ogólnie, z nacinaniem skórki) i Clemson (firm berries: blueberries, huckleberries), szczebel 3; procedura nie zależy od gatunku jagody, liczby SUS-001/016/020 z NCHFP.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "cranberry-lingonberry-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Ocet smakowy na occie komercyjnym: UGA FDNS-E-43-17 i OSU SP 50-736 (szczebel 3); OSU wymienia żurawinę wśród owoców do octów smakowych (NAP-044). Proces ten sam co w źródle.",
+  "claims_uwagi": "Nazwa „ocet żurawinowy” w rodzinie vinegar-making może sugerować ocet fermentowany z soku; twierdzenia opisują wyłącznie macerat na occie kupnym, więc warto dopisać „na occie kupnym” (jak w raspberry-blackberry-v16)."
+ },
+ {
+  "id": "cranberry-lingonberry-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Cranberries (całe owoce w gęstym syropie) i Cranberry Sauce (wariant whole) to bezpośredni odpowiednik konfitury żurawinowej; kąpiel wodna, czas z tabeli (SLO-104, SLO-105).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "cranberry-lingonberry-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Cranberry Sauce w wersji przetartej przez sito (4 szkl. żurawiny, 1 szkl. wody, 2 szkl. cukru) to galaretka żurawinowa (jellied sauce); ten sam kwaśny produkt i proces, 15 min half-pint/pint.",
+  "claims_uwagi": "Wariant musi trzymać proporcje i czas z Cranberry Sauce (15 min), a nie 5 min z ogólnego przepisu na galaretki."
+ },
+ {
+  "id": "cranberry-lingonberry-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Clemson wymienia żurawinę wśród twardych jagód do suszenia; CSU ogólnie Berries (szczebel 3). Moczenie w soku jabłkowym to dodatek smakowy przed suszeniem do pełnej suchości; nie obniża bezpieczeństwa suszu.",
+  "claims_uwagi": "Sok jabłkowy nie jest na liście Clemson soków do zaprawy (orange, lemon, pineapple, grape, cranberry), więc nie liczyć go jako zaprawy przeciwbakteryjnej z SUS-011."
+ },
+ {
+  "id": "chokeberry-seabuckthorn-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU Drying Fruits, sekcja Berries (ogólna, z nacinaniem twardej skórki), szczebel 3; aronia to twarda jagoda, proces bez zmian. Przeznaczenie na herbatę nie zmienia procedury.",
+  "claims_uwagi": "Aronia nie jest wymieniona z nazwy; podstawą jest ogólna procedura dla jagód."
+ },
+ {
+  "id": "chokeberry-seabuckthorn-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU Drying Fruits, sekcja Berries (ogólna), szczebel 3; rokitnik suszy się tą samą procedurą do stanu twardego.",
+  "claims_uwagi": "Rokitnik nie jest wymieniony z nazwy; podstawą jest ogólna procedura CSU dla jagód. SUS-015 (nacinanie skórki) nie jest w claims, choć CSU zaleca je dla jagód o twardej skórce."
+ },
+ {
+  "id": "elderberry-elderflower-v07",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "ryzyko-wysokie",
+  "dlaczego": "OSU EM 9446 (szczebel 3): bez czarny europejski i amerykański może mieć pH > 4,6; wekować wolno tylko według przepisu wysokocukrowego (16 oz soku na 19,5 oz cukru, ważone, sam cukier kryształ, gotowane do punktu żelowania). Przepisu na „gęsty sok” nie ma, a UC wyklucza bez z soków z sokownika (SLO-052). Nazwa obejmuje sok, więc dla tej części: zagrożenie nazwane, brak procedury. Rozwiązanie: ograniczyć wariant do syropu według proporcji OSU, wtedy ok-zrodlo.",
+  "claims_uwagi": "acidBasis „acidified” jest błędny: przepis OSU opiera się na cukrze (aktywność wody), nie na kwasie; dodatek kwasku nie zastępuje proporcji cukru. requiredWarnings puste, a SLO-061, SLO-062 i SLO-066 powinny być wymagane. „Rozkład sambunigryny” nie pada w źródle, które mówi tylko, że gotowanie usuwa ryzyko."
+ },
+ {
+  "id": "elderberry-elderflower-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Herbs (szczebel 1): suszy się liście, kwiaty i nasiona, 95–115°F; OSU EM 9446 opisuje też suszenie baldachów bzu w niskiej temperaturze (≤80°F) i odrzucanie liści i szypułek.",
+  "claims_uwagi": "Brakuje ostrzeżenia, że liście i szypułki mają więcej toksyn (OSU: „discard any stray pieces of leaf or stem”), i źródła OSU w sources; warto je dodać do requiredWarnings."
+ },
+ {
+  "id": "elderberry-elderflower-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "OSU EM 9446 (szczebel 3; cytat sprawdzony na świeżo pobranej stronie extension.oregonstate.edu, której brak w Z): owoce bzu wolno suszyć na surowo, ale trzeba je ugotować przed jedzeniem. Do tego ogólne parametry suszenia owoców (SUS-001).",
+  "claims_uwagi": "Krytyczne: requiredWarnings jest puste, a SUS-041 (ugotować przed jedzeniem, ryzyko cyjanku) musi być ostrzeżeniem wymaganym. Należy też wykluczyć bez koralowy (SLO-066) i usuwać szypułki (SLO-062). Źródła brak w Z (bez sha12)."
+ },
+ {
+  "id": "grapes-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Grape Jelly Powdered Pectin (szczebel 1) jest robiona z winogron Concord; bezpośredni przepis.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "grapes-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UC ANR Steam Juicing Basics (szczebel 3): procedura „Canned Apple or Grape Juice from Steamed Juice”, 5 min half-pint/pint (słoiki sterylne), 10 min quart; ostrzega, że samo „bottling” jest niebezpieczne. NCHFP Grape Juice potwierdza wekowanie soku winogronowego.",
+  "claims_uwagi": "Ostrzeżenie SLO-051 (nie „butelkować” bez wekowania) warto dać do requiredWarnings."
+ },
+ {
+  "id": "grapes-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU i Clemson podają suszenie winogron (nacinanie skórki), NCHFP Sun Drying dopuszcza owoce na słońcu z pasteryzacją (SUS-004, SUS-006). Bezpośredni odpowiednik.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "rhubarb-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Rhubarb-Stewed (szczebel 1): rabarbar z cukrem, gorący wsad, 15 min. Rabarbar jest silnie kwaśny (pH 3,1–3,4, ACI-143); kompot w lekkim syropie to bezpośredni odpowiednik, a ogólne zasady NCHFP dopuszczają owoce w syropie lub wodzie (ACI-067).",
+  "claims_uwagi": "Przepis NCHFP nie dolewa płynu; jeśli kompot ma więcej syropu niż sok własny, zaznaczyć, że czas (15 min) bierze się z Rhubarb-Stewed. ACI-067 można dodać do claims."
+ },
+ {
+  "id": "lemon-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UCCE MFP Solano/Yolo (przepis Ball, szczebel 3): cytryny konserwowane w soli i soku z cytryn, dojrzewanie 2–4 tygodnie w chłodnej temperaturze pokojowej, potem lodówka (FER-087, FER-088). Ten sam skład i proces.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "lemon-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA i OSU (szczebel 3): ocet smakowy ze skórką cytryny (1 skórka na pint) na occie komercyjnym. Cytryna jest kwaśna, więc żaden składnik nie podnosi ryzyka.",
+  "claims_uwagi": "Brak OSU NAP-044 w sources (jest w claims, OK). Nazwa „ocet cytrynowy” może sugerować ocet fermentowany; doprecyzować „na occie kupnym, ze skórką”."
+ },
+ {
+  "id": "lemon-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Canned Lemon Curd (szczebel 1): przetestowany przepis, 15 min half-pint, woda ≤180°F przy wkładaniu słoików, butelkowany sok. Bezpośredni przepis.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "lime-bergamot-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UCCE MFP Orange County (szczebel 3): wariant „Preserved Mexican Limes” z chili (oraz czosnkiem i cebulą); co najmniej 1 łyżka soli na owoc, 2–4 tygodnie w temperaturze pokojowej, potem lodówka (FER-089). Limonki w soli i chili mieszczą się w tej procedurze.",
+  "claims_uwagi": "Jeśli „indyjskie” oznacza dodatek oleju lub suszenie na słońcu (achar), to wychodzi poza źródło; nazwa tego nie mówi."
+ },
+ {
+  "id": "lime-bergamot-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Canned Lemon Curd ma wariant Lime Curd (butelkowany sok z limonki, 1 szkl.); inne kurdy są niezalecane (SLO-043). Bezpośredni przepis.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "orange-kumquat-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA FDNS-E-43-17 (skórka 1 pomarańczy na pint octu) i OSU (szczebel 3); ocet komercyjny podgrzany do 190–195°F. Bezpośredni przepis.",
+  "claims_uwagi": "Doprecyzować w nazwie „ze skórką pomarańczy, na occie kupnym” (nie ocet fermentowany z soku)."
+ },
+ {
+  "id": "grapefruit-v02",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Citrus Marmalade (szczebel 1): skórka i miąższ grejpfruta, pomarańczy i cytryny. Dokładnie ten przepis.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "grapefruit-v04",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Grapefruit and Orange Sections (szczebel 1): grejpfrut można wekować bez pomarańczy, w lekkim syropie; raw pack 10 min. Bezpośredni przepis.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "mango-papaya-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Mango Chutney (szczebel 1) ma rodzynki (golden raisins) i świeży imbir, ocet 5%, 10 min. Nazwa odpowiada przepisowi.",
+  "claims_uwagi": "W sources pole cytat = null (wpis bez cytatu dosłownego); sprawdziłem tekst źródła (Z/8a1b9f56d802), ale wpis źródła trzeba uzupełnić o cytat i sha12. Przepis używa niedojrzałego mango (ACI-151 pasuje)."
+ },
+ {
+  "id": "mango-papaya-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Mango Leather (szczebel 1): suszarka 140°F, ok. 10 h, przechowywanie do 1 miesiąca w temperaturze pokojowej lub do roku w zamrażarce (SUS-028, SUS-030).",
+  "claims_uwagi": "Tradycyjny aam papad suszy się na słońcu i z przyprawami; wariant musi trzymać się suszarki 140°F z NCHFP."
+ },
+ {
+  "id": "pineapple-banana-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pineapple (szczebel 1): ananas w syropie bardzo lekkim do średniego, gorący wsad, pint 15 min, quart 20 min. Bezpośredni przepis.",
+  "claims_uwagi": "acidBasis „acidified” nie wynika ze źródła: NCHFP nie dodaje kwasu, a ananas ma pH 3,2–4,0 (ACI-153). Lepiej „natural-acid”."
+ },
+ {
+  "id": "pineapple-banana-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Clemson Drying Fruits (szczebel 3) podaje suszenie ananasa (plastry 1/2 cala) i bananów; CSU podaje banany. „Chipsy” oznaczają tu plastry suszone, nie smażone.",
+  "claims_uwagi": "Jeśli „chipsy bananowe” miałyby być smażone w oleju, wychodzi to poza źródło; nazwa nie mówi tego wprost."
+ },
+ {
+  "id": "watermelon-melon-v03",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Watermelon Rind Pickles (szczebel 1): ocet 5% z goździkami, cynamonem i cytryną, 10 min pint. Bezpośredni przepis.",
+  "claims_uwagi": "W sources cytat = null; tekst źródła (Z/06a9f97e08e5) sprawdzony, wpis trzeba uzupełnić o cytat i sha12. ACI-028 (PSU, melony w kostkach) nie dotyczy skórki arbuza."
+ },
+ {
+  "id": "watermelon-melon-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU Drying Fruits (szczebel 3), sekcja Melons; bezpośrednia procedura.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "boletes-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU, Clemson i MontGuide (szczebel 3) podają suszenie grzybów (plastry, bez blanszowania, 8–12 h, do stanu skórzastego). Ostrzeżenie SUS-035 jest wymagane.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "boletes-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU, Clemson i MontGuide (szczebel 3) podają suszenie grzybów (plastry, bez blanszowania, 8–12 h, do stanu skórzastego). Proszek z całkowicie wysuszonego produktu (Clemson, SUS-040). Ostrzeżenie SUS-035 jest wymagane.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "chanterelle-milkcap-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU, Clemson i MontGuide (szczebel 3) podają suszenie grzybów (plastry, bez blanszowania, 8–12 h, do stanu skórzastego). Ostrzeżenie SUS-035 jest wymagane.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "wild-mushrooms-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU, Clemson i MontGuide (szczebel 3) podają suszenie grzybów (plastry, bez blanszowania, 8–12 h, do stanu skórzastego). Ostrzeżenie SUS-035 jest wymagane.",
+  "claims_uwagi": "Kania (czubajka) to gatunek szczególnie łatwy do pomylenia ze śmiertelnie trującymi muchomorami; SUS-035 musi być wyeksponowane. Status dotyczy samego procesu suszenia, nie identyfikacji grzyba."
+ },
+ {
+  "id": "cultivated-mushrooms-v01",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "NCHFP Marinated Whole Mushrooms to marynata z oliwą (2 szkl. oleju, 2,5 szkl. octu 5%, 1/2 szkl. butelkowanego soku z cytryny), tylko słoiki half-pint, 20 min. „Klasyczne pieczarki w occie” to polska zalewa octowa o innych proporcjach (bez oleju i soku z cytryny, inne rozcieńczenie i cukier, zwykle inne słoiki). Grzyby mają pH 6,0–6,7 (ACI-159), więc proporcje kwasu są krytyczne (ACI-016, ACI-017). To nie jest bezpośredni odpowiednik.",
+  "claims_uwagi": "ok-zrodlo przysługuje tylko, jeśli wariant to dokładnie przepis NCHFP (wtedy zmienić nazwę na „pieczarki marynowane z oliwą (NCHFP)”)."
+ },
+ {
+  "id": "cultivated-mushrooms-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "CSU, Clemson i MontGuide (szczebel 3) podają suszenie grzybów (plastry, bez blanszowania, 8–12 h, do stanu skórzastego). Shiitake to grzyb hodowlany, bez ryzyka pomylenia.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "wild-garlic-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Freezing Pesto (szczebel 1): surowa mieszanka ziół, czosnku i oleju; w lodówce najwyżej 3 dni, długo tylko w zamrażarce. Bezpieczeństwo daje mrożenie, a nie skład, więc inne zioła, orzechy, ser czy kapary nie zmieniają procesu.",
+  "claims_uwagi": "Czosnek niedźwiedzi łatwo pomylić z konwalią lub zimowitem (trujące); w zestawie źródeł brak twierdzenia o tym. Warto dodać ostrzeżenie z osobnym źródłem."
+ },
+ {
+  "id": "wild-garlic-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA C1334 (szczebel 3), metoda bez zakwaszania: olej z czosnkiem lub ziołami trzymać w lodówce i wyrzucić po 4 dniach albo zamrozić (OLE-018, OLE-019). Metoda dotyczy ogólnie „garlic and herbs”, więc obejmuje liście czosnku niedźwiedziego. Zakwaszania nie stosować (OLE-016).",
+  "claims_uwagi": "Krytyczne: requiredWarnings puste, a limit „lodówka maks. 4 dni albo zamrażarka” (OLE-018, OLE-019) musi być wymaganym ostrzeżeniem. Źródło przewiduje dodanie ziół do oleju ogrzanego do 180°F; zielona oliwa miksowana na zimno nie jest opisana, ale limit 4 dni i tak obowiązuje."
+ },
+ {
+  "id": "garden-herbs-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Freezing Pesto (szczebel 1): surowa mieszanka ziół, czosnku i oleju; w lodówce najwyżej 3 dni, długo tylko w zamrażarce. Bezpieczeństwo daje mrożenie, a nie skład, więc inne zioła, orzechy, ser czy kapary nie zmieniają procesu. Genovese to dokładnie pesto z opisu NCHFP.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "garden-herbs-v02",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Freezing Pesto (szczebel 1): surowa mieszanka ziół, czosnku i oleju; w lodówce najwyżej 3 dni, długo tylko w zamrażarce. Bezpieczeństwo daje mrożenie, a nie skład, więc inne zioła, orzechy, ser czy kapary nie zmieniają procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "garden-herbs-v03",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Freezing Pesto (szczebel 1): surowa mieszanka ziół, czosnku i oleju; w lodówce najwyżej 3 dni, długo tylko w zamrażarce. Bezpieczeństwo daje mrożenie, a nie skład, więc inne zioła, orzechy, ser czy kapary nie zmieniają procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "garden-herbs-v04",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Freezing Pesto (szczebel 1): surowa mieszanka ziół, czosnku i oleju; w lodówce najwyżej 3 dni, długo tylko w zamrażarce. Bezpieczeństwo daje mrożenie, a nie skład, więc inne zioła, orzechy, ser czy kapary nie zmieniają procesu.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "garden-herbs-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA C1334 i Univ. of Idaho (szczebel 3): metoda zakwaszania czosnku (1:3) i rozmarynu (1:10) w 3% kwasie cytrynowym przez 24 h pozwala trzymać olej w temperaturze pokojowej. Idaho wprost dopuszcza dowolną kombinację, jeśli czosnek zakwasza się osobno.",
+  "claims_uwagi": "Twierdzenie o osobnym zakwaszaniu czosnku i dowolnej kombinacji (uiext33171) warto dodać do claims. Krytyczne proporcje (OLE-012, OLE-013, OLE-014) powinny być ostrzeżeniami."
+ },
+ {
+  "id": "garden-herbs-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA FDNS-E-43-17 ma przepis na ocet estragonowy na occie komercyjnym (NAP-043); szczebel 3. Bezpośredni przepis.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "garden-herbs-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Mint Jelly Pectin (szczebel 1); bezpośredni przepis.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "garden-herbs-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Herbs (szczebel 1): suszenie ziół w bukietach (pęczki ziół twardych na powietrzu, ziół miękkich w torbach). Bezpośrednia procedura.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "foraged-blossoms-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Herbs (szczebel 1) obejmuje suszenie kwiatów ziół w 95–115°F; lipa i rumianek to typowe zioła kwiatowe, proces bez zmian.",
+  "claims_uwagi": "Kwiaty lipy i rumianku nie są wymienione z nazwy; podstawą jest ogólna procedura dla ziół."
+ },
+ {
+  "id": "artisanal-vinegars-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "PSU/OSU „Making Cider Vinegar at Home” (szczebel 3): fermentacja cydru w 60–80°F, filtracja, pasteryzacja 140–160°F (NAP-032 do NAP-035). Proces jak w źródle.",
+  "claims_uwagi": "Źródło odfiltrowuje matkę octową przed butelkowaniem („removes the mother of vinegar, preventing further fermentation or spoilage”). Jeśli „z matką” oznacza ocet niefiltrowany, różnica dotyczy psucia, nie patogenów. requiredWarnings puste, a NAP-029 i NAP-030 (nie do pikli, wekowania ani przechowywania w temperaturze pokojowej) muszą być wymagane."
+ },
+ {
+  "id": "fermented-beverages-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Kombucha Tea (szczebel 1): przepis na mieszance herbaty czarnej i zielonej, pH startera ≤4,0, 68–77°F przez 7–10 dni, lodówka, 30 dni. Dokładnie ten przepis.",
+  "claims_uwagi": "NAP-022 (nie dla osób w ciąży, karmiących, z obniżoną odpornością) i NAP-007 (bez glazurowanej ceramiki) warto dać do requiredWarnings."
+ },
+ {
+  "id": "yogurt-skyr-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Illinois Extension Yogurt (szczebel 3): mleko do 180–185°F (82–85°C), studzenie i inkubacja 108–115°F (42–46°C) przez 6–10 h, lodówka, 14 dni. Parametry z nazwy się zgadzają.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "yogurt-skyr-v02",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Illinois Extension Yogurt (szczebel 3): odciekanie w lodówce pod przykryciem przez 2–4 h (MLE-030). Bezpośredni przepis.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "yogurt-skyr-v04",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Illinois Extension Yogurt (szczebel 3) z kulturą jogurtową; Codex (MLE-031) definiuje jogurt kulturami S. thermophilus i L. bulgaricus. „Kwaśny” to tylko dłuższa inkubacja w zakresie 6–10 h.",
+  "claims_uwagi": "Nazwa sugeruje sam L. bulgaricus; Codex mówi o kulturze symbiotycznej z S. thermophilus."
+ },
+ {
+  "id": "quark-acid-cheese-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NMSU E-216 (szczebel 3) wymienia paneer wśród serów ścinanych kwasem (ocet albo sok z cytryny) w gorącym mleku; procedura queso blanco: 176°F (80°C) przez 20 min. Paneer z mleka gotowanego, ścinany sokiem z cytryny i prasowany, to bezpośredni odpowiednik.",
+  "claims_uwagi": "Źródło nie podaje osobnego przepisu na paneer; parametry (80°C/20 min, lodówka) brać z queso blanco. MLE-046 (Listeria, grupy wrażliwe) pasuje."
+ },
+ {
+  "id": "fresh-brined-cheese-v05",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UCCE PNW539 Queso Fresco i NMSU E-216 Queso Blanco (szczebel 3): przetestowane przepisy na mleku pasteryzowanym.",
+  "claims_uwagi": "requiredWarnings puste, a ostrzeżenia FDA o Listerii (MLE-043, MLE-046, MLE-047) powinny być wymagane: FDA odradza osobom wrażliwym wszystkie sery typu queso fresco."
+ },
+ {
+  "id": "pasta-filata-cheese-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NMSU E-216 (szczebel 3): mozzarella z mleka pasteryzowanego z kulturą i podpuszczką, rozciągana w wodzie 180°F (82°C), solanka 24 h, lodówka do 1 tygodnia (MLE-056).",
+  "claims_uwagi": "Parametry z nazwy (80°C, pH 5,2) nie pochodzą ze źródła, które podaje 82°C i nie podaje pH. Rozciąganie następuje po pasteryzacji mleka, więc nie jest to krok zabijający, ale nazwę lub treść trzeba ujednolicić ze źródłem."
+ },
+ {
+  "id": "pasta-filata-cheese-v02",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UCCE MFP Amador/Calaveras (szczebel 3, wg Univ. of Alaska): mozzarella na kwasku cytrynowym (1,5 łyżeczki na galon mleka niepoddanego UHT), zjeść w tydzień albo zamrozić (MLE-057). Bezpośredni przepis.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "butter-whey-cheese-v07",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UCCE MFP (szczebel 3, wg NMSU): ricotta z serwatki z dodatkiem mleka, ogrzewana do 185°F (85°C), ścinana octem 5%; na tej samej stronie jest wariant z sokiem z cytryny. 90°C to więcej niż w źródle, czyli bezpieczniej.",
+  "claims_uwagi": "Przepis UC dodaje do serwatki mleko pełne; jeśli wariant pomija mleko, uzysk będzie inny, ale bezpieczeństwo się nie zmienia."
+ },
+ {
+  "id": "pork-shoulder-neck-v07",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "nie-publikowac",
+  "dlaczego": "Nazwa podaje jako równorzędną opcję „potrójną tyndalizację w 100°C”, czyli proces, który źródło szczebla 1 wprost odradza. SZY-006 (NCHFP, szczebel 1): wekowanie ciśnieniowe to jedyna zalecana metoda dla mięsa i drobiu, a kąpiel wodna „poses a real risk of botulism poisoning”; NCHFP nie ma żadnej procedury z wrzątkiem (SZY-005), a tyndalizacja nie jest niezawodna (SZY-009). Metoda w polu preservationMethod (szybkowar) ma przepis NCHFP Meat Strips/Cubes (pint 75 min, quart 90 min), więc po usunięciu tyndalizacji z nazwy przysługuje ok-zrodlo.",
+  "claims_uwagi": "„W galarecie”: NCHFP dopuszcza jako płyn bulion, wytopiony sos, wodę lub sok pomidorowy i każe usunąć nadmiar tłuszczu; dodatek skórek lub żelatyny nie jest opisany. SZY-004 i SZY-009 uzasadniają ostrzeżenie, nie metodę."
+ },
+ {
+  "id": "pork-shoulder-neck-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Meat Strips/Cubes/Chunks (szczebel 1): wieprzowina, surowy wsad bez dolewania płynu (mięso we własnym sosie), pint 75 min, quart 90 min. Bezpośredni przepis.",
+  "claims_uwagi": "Źródło każe usunąć nadmiar tłuszczu (karkówka jest tłusta)."
+ },
+ {
+  "id": "pork-belly-jowl-v01",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "MU Extension G2528 (szczebel 3) opisuje boczek peklowany na sucho 7 dni i wędzony 36–48 h jako surowy, nietrwały produkt do obróbki przed jedzeniem. „Wędzony na ciepło i parzony” to inny proces: wędzenie w podwyższonej temperaturze i parzenie do produktu gotowego do jedzenia. Źródło nie podaje dla niego temperatur, czasów ani temperatury wewnętrznej, a zmiana procesu wpływa na bezpieczeństwo.",
+  "claims_uwagi": "MIE-001, MIE-005, MIE-007 i MIE-008 to limity prawne azotynów, nie procedura. MIE-020 opisuje inny proces."
+ },
+ {
+  "id": "pork-belly-jowl-v02",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "MU Extension G2528 dotyczy płatów boczku (bellies). Boczek rolowany przenosi zewnętrzną, zanieczyszczoną powierzchnię do środka zwoju, co zmienia penetrację peklosoli i wymaga ogrzania środka. Źródło tego nie obejmuje, a zmiana procesu wpływa na bezpieczeństwo.",
+  "claims_uwagi": "Jak wyżej: claims o azotynach to limity prawne, nie procedura."
+ },
+ {
+  "id": "smoked-cooked-sausages-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA B1437 (szczebel 3), przepis Polish Sausage (Kielbasa): wieprzowina z wołowiną, czosnek, majeranek, azotyn lub azotan, wędzenie 2 h w 90–100°F, potem 165–170°F do temperatury wewnętrznej. Kiełbasa swojska z czosnkiem i majerankiem to bezpośredni odpowiednik.",
+  "claims_uwagi": "Przepis UGA kończy przy 150°F wewnątrz, ogólne zalecenie tej samej publikacji to 160°F (MIE-031, MIE-021); w treści stosować 160°F. Używać gotowej mieszanki peklującej (MIE-012)."
+ },
+ {
+  "id": "smoked-cooked-sausages-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA B1437 (szczebel 3): kiełbasa świeża (surowa) to produkt chłodzony, gotowany przed jedzeniem do 160°F, 7–10 dni w lodówce (MIE-028, MIE-021). Wersja parzona odpowiada gotowaniu w wodzie (Bratwurst: 170°F do 155°F wewnątrz, potem lodówka). Przyprawy nie wpływają na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "smoked-cooked-sausages-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA B1437 (szczebel 3) ma przepis Bratwurst (świeża, gotowana parą lub w wodzie w 170°F do 155°F wewnątrz, lodówka). Bezpośredni przepis.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "smoked-cooked-sausages-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA B1437 (szczebel 3): kategoria kiełbas świeżych (surowe, chłodzone, gotowane do 160°F, MIE-028, MIE-021); świeże chorizo do grillowania to kiełbasa świeża, przyprawy (papryka, czosnek) nie zmieniają procesu.",
+  "claims_uwagi": "UGA nie ma przepisu na chorizo z nazwy; podstawą jest kategoria kiełbas świeżych (np. Italian Style Pork Sausage). Jeśli wariant dodaje peklosól lub podsuszanie, to wychodzi poza źródło."
+ },
+ {
+  "id": "beef-veal-v04",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "nie-publikowac",
+  "dlaczego": "Nazwa „tuszonka wołowa w słoikach (tyndalizacja)” wskazuje proces z wrzątkiem, który źródło szczebla 1 wprost odradza. SZY-006 (NCHFP, szczebel 1): wekowanie ciśnieniowe to jedyna zalecana metoda dla mięsa i drobiu, a kąpiel wodna „poses a real risk of botulism poisoning”; NCHFP nie ma żadnej procedury z wrzątkiem (SZY-005), a tyndalizacja nie jest niezawodna (SZY-009). Dla wołowiny jest NCHFP Meat Strips/Cubes (szybkowar: pint 75 min, quart 90 min); po zmianie nazwy (bez tyndalizacji) przysługuje ok-zrodlo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "beef-veal-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Meat Stock (szczebel 1): bulion z kości wołowych gotowany 3–4 h, odtłuszczony, gorący wsad, szybkowar: pint 20 min, quart 25 min. Bone broth to ten sam produkt.",
+  "claims_uwagi": "„Pasteryzowany ciśnieniowo” to niewłaściwy termin (jest to sterylizacja w szybkowarze, 240–250°F). Odtłuszczanie jest wymagane przez źródło. Dłuższe gotowanie kości nie zmienia procesu wekowania."
+ },
+ {
+  "id": "beef-veal-v08",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Jerky (szczebel 1): marynata z sosem sojowym i Worcestershire jest w przepisie; paski ≤1/4 cala, ogrzanie do 160°F (marynata 5 min wrzenia albo 275°F po suszeniu), suszenie w 140°F. 65°C w nazwie to więcej niż 140°F.",
+  "claims_uwagi": "Status zależy od kroku ogrzania do 160°F (MIE-036, MIE-037, MIE-039); nazwa „suszone w 65°C” nie może sugerować, że samo suszenie wystarcza."
+ },
+ {
+  "id": "poultry-v10",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "nie-publikowac",
+  "dlaczego": "Nazwa „kurczak w galarecie w słoiku (tyndalizacja)” wskazuje proces z wrzątkiem, który źródło szczebla 1 wprost odradza. SZY-006 (NCHFP, szczebel 1): wekowanie ciśnieniowe to jedyna zalecana metoda dla mięsa i drobiu, a kąpiel wodna „poses a real risk of botulism poisoning”; NCHFP nie ma żadnej procedury z wrzątkiem (SZY-005), a tyndalizacja nie jest niezawodna (SZY-009). Dla kurczaka jest NCHFP Chicken or Rabbit (szybkowar, SZY-040); po zmianie nazwy (bez tyndalizacji) przysługuje ok-zrodlo.",
+  "claims_uwagi": "„W galarecie” jako płyn: NCHFP przewiduje bulion, wodę lub sos; żelatyna i skórki nie są opisane."
+ },
+ {
+  "id": "poultry-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Meat Stock (szczebel 1), sekcja Chicken or turkey: 30–45 min gotowania, odtłuszczenie, szybkowar: pint 20 min, quart 25 min. Bezpośredni przepis.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "poultry-v14",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "NCHFP Jerky wymienia tylko wędzoną pierś indyka, a surowego drobiu do jerky nie zaleca („Raw poultry is generally not recommended”). Procedura z ogrzaniem do 160°F jest podana dla mięsa czerwonego, a drób wymaga 165°F (MIE-021). Nazwa nie mówi o wędzonej piersi, więc nie ma przetestowanej procedury dla surowego indyka.",
+  "claims_uwagi": "Jeśli wariant dotyczy wędzonej (już ugotowanej) piersi indyka, wystarczy zmiana nazwy i ok-zrodlo przysługuje. MIE-021 dotyczy kiełbas mielonych, nie jerky."
+ },
+ {
+  "id": "game-lamb-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Meat Strips/Cubes/Chunks (szczebel 1): wieprzowina i dziczyzna („soak strong-flavored wild meats”), pint 75 min, quart 90 min. Dzik to wieprzowina dzika, bezpośredni odpowiednik.",
+  "claims_uwagi": "Lista NCHFP wymienia jelenia (venison), a dzika nie; podstawą jest wieprzowina i ogólna uwaga o dziczyźnie."
+ },
+ {
+  "id": "game-lamb-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Jerky (szczebel 1) obejmuje dziczyznę (venison), z ogrzaniem do 160°F i uwagami o zanieczyszczeniu tuszy (MIE-043). Bezpośredni przepis.",
+  "claims_uwagi": "Słusznie: dla dziczyzny polegać na 160°F, nie na zamrażaniu (MIE-033, MIE-035)."
+ },
+ {
+  "id": "sea-fish-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UCCE MFP Amador/Calaveras Gravlax (szczebel 3): łosoś w soli, cukrze i koprze, opcjonalnie alkohol; wyłącznie łosoś mrożony przemysłowo, lodówka 5–7 dni. Skład z nazwy się zgadza.",
+  "claims_uwagi": "Krytyczne: requiredWarnings puste, a MIE-056 i MIE-057 (tylko łosoś mrożony przemysłowo, sól nie zabija pasożytów) muszą być wymagane. Bez tego „surowy łosoś” z nazwy jest ryzykowny."
+ },
+ {
+  "id": "sea-fish-v04",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Wisconsin Sea Grant / UMN Home Pickling of Fish (szczebel 3): śledź jest wprost wskazany; filety solankowane 12–24 h, 24 h w occie, zalewa z octu destylowanego i przypraw, lodówka, 6 tygodni. Rolmopsy to te same filety zwinięte z cebulą.",
+  "claims_uwagi": "Rolmopsy zwijać po etapie octu; jeśli wariant zaczyna od śledzia solonego (matjasa) zamiast świeżego, to wychodzi poza źródło. Mrożenie przeciw pasożytom: MIE-055 wg szczebla 1 (MIE-046, MIE-052)."
+ },
+ {
+  "id": "sea-fish-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Wisconsin Sea Grant Home Smoking of Fish (szczebel 3; „any fish can be smoked”, metody naukowo przetestowane): wędzenie na gorąco do 160°F wewnątrz przez co najmniej 30 min, lodówka. Makrela wędzona na gorąco to bezpośredni odpowiednik.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sea-fish-v11",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "NCHFP Tuna (szczebel 1) dopuszcza tuńczyka w wodzie lub oleju (100 min). NCHFP Fish (pint jars, USDA) dla innych ryb, w tym makreli, mówi „Do not add liquids” (SZY-044). „Makrela w oliwie” to dodanie płynu, którego przepis zabrania; zmienia to przenikanie ciepła i nie jest przetestowane.",
+  "claims_uwagi": "Rozwiązanie: rozdzielić wariant na tuńczyka w oliwie (ok-zrodlo, OLE-050, SZY-046) i makrelę bez płynu (ok-zrodlo, SZY-044) albo zmienić nazwę."
+ },
+ {
+  "id": "freshwater-fish-v01",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Wisconsin Sea Grant / UMN Home Smoking of Fish (szczebel 3): „any fish can be smoked”, metody naukowo przetestowane; 160°F wewnątrz przez co najmniej 30 min, lodówka, wypatroszenie (MIE-061, MIE-069). Pstrąg jest wymieniony wśród ulubionych ryb do wędzenia. Czosnek i zioła w solance nie obniżają zasolenia.",
+  "claims_uwagi": "Zasolenie solanki trzymać jak w źródle; dodatki tylko smakowe."
+ },
+ {
+  "id": "freshwater-fish-v02",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Wisconsin Sea Grant / UMN Home Smoking of Fish (szczebel 3): „any fish can be smoked”, metody naukowo przetestowane; 160°F wewnątrz przez co najmniej 30 min, lodówka, wypatroszenie (MIE-061, MIE-069). Węgorz mieści się w „any fish”.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "freshwater-fish-v03",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Wisconsin Sea Grant / UMN Home Smoking of Fish (szczebel 3): „any fish can be smoked”, metody naukowo przetestowane; 160°F wewnątrz przez co najmniej 30 min, lodówka, wypatroszenie (MIE-061, MIE-069). Sielawa i sieja (whitefish i chubs) są wymienione w źródle.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "freshwater-fish-v04",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Wisconsin Sea Grant / UMN Home Smoking of Fish (szczebel 3): „any fish can be smoked”, metody naukowo przetestowane; 160°F wewnątrz przez co najmniej 30 min, lodówka, wypatroszenie (MIE-061, MIE-069). Karp jest wymieniony, lin mieści się w „any fish”.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "freshwater-fish-v06",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Wisconsin Sea Grant / UMN Home Pickling of Fish (szczebel 3): „any species of fish can be used” w stylu filetowym; drobne ryby o miękkich ościach nadają się do stylu kawałkowego. Lodówka, 6 tygodni, bez pasteryzacji (MIE-080, MIE-081).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "eggs-v01",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "Przepisy NCHFP na jaja marynowane (lodówka) używają tylko octu białego lub jabłkowego. Nazwa wskazuje ocet słodowy, czyli inny kwas, a jaja mają niską kwasowość i słabą penetrację octu (MIE-087), więc rodzaj i moc octu są istotne dla bezpieczeństwa. Wersja „w occie białym” jest pokryta; po usunięciu „słodowego” z nazwy przysługuje ok-zrodlo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "eggs-v02",
+  "werdykt": "ZMIENIĆ",
+  "proponowany_status": "do-researchu",
+  "dlaczego": "NCHFP Red Beet Eggs: 1 szkl. soku z buraków z puszki i 1,5 szkl. octu jabłkowego. „Zakwas buraczany” (fermentowany, surowy sok o nieznanej kwasowości) zastępuje składnik przepisu płynem spoza niego, w produkcie o niskiej kwasowości (MIE-087). To nie jest bezpośredni odpowiednik.",
+  "claims_uwagi": "Rozwiązanie: sok z gotowanych buraków wg NCHFP zamiast zakwasu."
+ },
+ {
+  "id": "eggs-v03",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP Pickled Eggs (szczebel 1): przepisy chłodzone (np. Dilled Eggs: 1,5 szkl. octu białego na 1 szkl. wody); curry i kurkuma to suche przyprawy, które nie zmieniają kwasu, soli ani proporcji. Status zależy od lodówki (MIE-083, MIE-084).",
+  "claims_uwagi": "Warunek: płyn bazowy w proporcjach z jednego przepisu NCHFP; curry tylko jako sucha przyprawa (bez dodatku oleju, mleka kokosowego ani rozcieńczania)."
+ },
+ {
+  "id": "sea-fish-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "Wisconsin Sea Grant / UMN Home Smoking of Fish (szczebel 3): „any fish can be smoked”, metody naukowo przetestowane; 160°F wewnątrz przez co najmniej 30 min, lodówka, wypatroszenie (MIE-061, MIE-069). Łosoś jest wymieniony w źródle; stremel to łosoś wędzony na gorąco.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "raspberry-blackberry-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "UGA FDNS-E-43-17 ma przepis na ocet malinowy (2 szkl. malin) na occie komercyjnym (NAP-043); szczebel 3. Bezpośredni przepis.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "white-cabbage-v17",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Cabbage or Chinese Cabbage” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "red-savoy-cabbage-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Cabbage or Chinese Cabbage” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Kapusta czerwona i włoska to odmiany kapusty, ta sama procedura.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "napa-cabbage-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Cabbage or Chinese Cabbage” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Kapusta pekińska = Chinese cabbage.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "cauliflower-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Cauliflower” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "broccoli-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Broccoli” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "brussels-kohlrabi-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Brussels Sprouts” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "brussels-kohlrabi-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Kohlrabi” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "zucchini-v17",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Summer Squash” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Cukinia jest wymieniona z nazwy.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pattypan-squash-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Summer Squash” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Patison to dynia letnia (summer squash).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pumpkin-v17",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Pumpkin” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "leafy-greens-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Greens (Including Spinach)” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Boćwina to warzywo liściaste („all other greens”, 2 min blanszowania).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "tomato-v19",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Tomatoes” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "green-cherry-tomato-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Green Tomatoes” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "bell-pepper-v19",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Bell or Sweet Peppers” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "eggplant-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Eggplant” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "potato-sunchoke-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing New Irish Potatoes” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "green-beans-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Beans: Green, Snap, or Wax” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "peas-chickpeas-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Green Peas” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "peas-chickpeas-v17",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Edible Pea Pods” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "beetroot-v17",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Beets” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "carrot-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Carrots” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "garlic-v17",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Garlic-In-Oil” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Źródło: czosnek w oleju w temperaturze pokojowej grozi botulizmem; w lodówce maks. 4 dni, długo tylko w zamrażarce.",
+  "claims_uwagi": "Ostrzeżenie o 4 dniach w lodówce i zakazie temperatury pokojowej (OLE-018, OLE-019 lub treść FRZ-019) warto dać do requiredWarnings."
+ },
+ {
+  "id": "onion-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Onions” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Cebula pokrojona: bez blanszowania.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "celeriac-celery-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Celery” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "parsnip-parsley-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Turnips or Parsnips” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "turnip-rutabaga-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Rutabagas” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Brukiew = rutabaga.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "asparagus-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Asparagus” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "fennel-artichoke-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Artichokes” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "corn-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Corn” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "garden-herbs-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Fresh Herbs” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "garden-herbs-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Pesto” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. W lodówce najwyżej 3 dni (OLE-043).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "cultivated-mushrooms-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Mushrooms” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "apple-v19",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Apples” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pear-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Pears” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "plum-v19",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Plums” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sour-cherry-v17",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Cherries: Sour” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sweet-cherry-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Cherries: Sweet” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "peach-nectarine-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Peaches or Nectarines” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "apricot-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Apricots” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "strawberry-v17",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Strawberries” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "raspberry-blackberry-v18",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Raspberries” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "raspberry-blackberry-v19",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Blackberries or Dewberries” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "currant-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Currants” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "gooseberry-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Gooseberries” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "blueberry-bilberry-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Blueberries or Huckleberries” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "cranberry-lingonberry-v14",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Cranberries” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "grapes-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Grapes” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "rhubarb-v09",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Rhubarb” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "lemon-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Citrus Fruits” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Strona dotyczy cytrusów ogólnie (z nazwy pomarańcze i grejpfruty); cytryna mieści się w kategorii, a mrożenie nie zależy od gatunku.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "lemon-v17",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Lemon Curd, Freezer” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "orange-kumquat-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Citrus Fruits” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "grapefruit-v10",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Citrus Fruits” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "mango-papaya-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Mangos” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pineapple-banana-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Pineapple” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pineapple-banana-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Bananas” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "fig-pomegranate-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Figs” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "fig-pomegranate-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Pomegranates” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "watermelon-melon-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Melons” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "butter-whey-cheese-v13",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Butter” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Źródło: mrozić tylko masło ze śmietany pasteryzowanej.",
+  "claims_uwagi": "Warunek „made from pasteurized cream” warto zapisać w treści wariantu (masło domowe ze śmietany surowej nie jest objęte)."
+ },
+ {
+  "id": "aged-hard-cheese-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Cheese” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Ser twardy w kawałkach do 1 funta, 6 miesięcy.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pork-loin-ham-v16",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Meats” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Wieprzowina jest wymieniona; wędliny peklowane tylko 1–3 miesiące (jakość).",
+  "claims_uwagi": null
+ },
+ {
+  "id": "beef-veal-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Meats” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "game-lamb-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Meats” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Jagnięcina jest wymieniona, a sekcje Large Game i Small Game obejmują dziczyznę.",
+  "claims_uwagi": "Mrożenie nie zabija wszystkich gatunków Trichinella u dziczyzny (MIE-033); treść nie może sugerować, że mrożenie odkaża dziczyznę."
+ },
+ {
+  "id": "poultry-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Poultry and Game Birds” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Nie faszerować przed mrożeniem.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "pork-belly-jowl-v15",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Bacon” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Limity 1–3 miesiące dotyczą jakości.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "sea-fish-v17",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Fish” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "freshwater-fish-v12",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Fish” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo. Źródło zalicza większość ryb słodkowodnych do ryb chudych.",
+  "claims_uwagi": null
+ },
+ {
+  "id": "eggs-v11",
+  "werdykt": "POTWIERDZAM",
+  "dlaczego": "NCHFP „Freezing Eggs” (szczebel 1) to przetestowana instrukcja mrożenia tego produktu; 0°F (SUS-050). Nazwa nie sugeruje zmiany wpływającej na bezpieczeństwo.",
+  "claims_uwagi": null
+ }
+]
