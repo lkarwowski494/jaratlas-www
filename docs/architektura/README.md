@@ -6,7 +6,7 @@ Stan: 2026-11-01, rola 05-architekt (build), E0–E4 zakończone. Szkielet kodu 
 Statyczna strona z `catalog/catalog-seed.json`: karty wariantów, strony produktów i rodzin procesów w 35 językach (fala 1: 6). Bez kont, formularzy i danych użytkownika. Kontraktu zakresu roli 03 brak: zakres to przekazanie Słoika (`docs/jaratlas/00-PRZEKAZANIE.md` §6), jawne założenie z E0 (`E0-rozpoznanie-2026-11-01.md`). Świadomie poza zakresem: aplikacja JAR, wyszukiwarka, komentarze, reklamy i analityka (do decyzji).
 
 ## 2. Rejestr ograniczeń platformy
-W raporcie E0 (`E0-rozpoznanie-2026-11-01.md`, wartości z cytatami, odczyt 2026-11-01): limit mapy strony Google, hreflang, kanoniczne, dane strukturalne Recipe. Limity hostingu: ADR 0007, do odczytu w dniu decyzji.
+W raporcie E0 (`E0-rozpoznanie-2026-11-01.md`, wartości z cytatami, odczyt 2026-11-01): limit mapy strony Google, hreflang, kanoniczne, dane strukturalne Recipe. Limity hostingu: ADR 0007 (odczyt 2026-11-01).
 
 ## 3. Kontekst
 ```mermaid
@@ -16,7 +16,7 @@ flowchart LR
   A[site/adresy.json<br>rejestr adresów] --> B
   B[tools/buduj-strone.mjs<br>jedyne I/O] --> G[site/generuj.mjs<br>czyste moduły]
   G --> D[dist/: HTML, sitemap.xml, robots.txt, przekierowania.json]
-  D --> H[hosting statyczny<br>ADR 0007, do decyzji]
+  D --> H[GitHub Pages<br>ADR 0007]
   H --> U[czytelnik / Googlebot]
 ```
 
