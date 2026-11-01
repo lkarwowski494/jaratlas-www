@@ -232,3 +232,12 @@ test('slugi niełacińskie: lista dozwolonych (małe litery, cyfry, znaki łącz
     assert.ok(!zle(lang, s), `${lang} ${s}`);
   }
 });
+
+test('ostrzeżenia przed treścią: sekcja ostrzeżeń przed wstępem i przed krokami (ADR 0005, 07-jakosc-006)', () => {
+  for (const p of ['pl/fasola/fasola-w-kapieli/index.html', 'en/beans/beans-water-bath/index.html']) {
+    const h = generuj(dane()).pliki[p], m = h.slice(h.indexOf('<main'));
+    const ostrz = m.indexOf('<section data-ostrzezenia'), wstep = m.indexOf('<p>w</p>'), kroki = m.indexOf('<section><h2>');
+    assert.ok(ostrz > 0 && wstep > 0 && kroki > 0, p);
+    assert.ok(ostrz < wstep && ostrz < kroki, p);
+  }
+});
