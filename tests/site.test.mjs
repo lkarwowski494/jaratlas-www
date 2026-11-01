@@ -194,3 +194,20 @@ test('R1 bramka zamknięta domyślnie: brak albo nieznany safetyStatus = brak st
     assert.ok(!generuj(dane({ katalog: k })).strony.some((x) => x.id === 'apple-v01'), String(s));
   }
 });
+
+test('R1 bramka: poza zakresem, bez treści albo ryzyko bez karty-ostrzeżenia = brak strony (07-jakosc-001)', () => {
+  const ma = (k, id) => generuj(dane({ katalog: k })).strony.some((x) => x.id === id);
+  // Kontrola pozytywna: bez niej test przeszedłby także wtedy, gdy wariant nigdy nie dostaje strony.
+  assert.ok(ma(katalog(), 'apple-v01') && ma(katalog(), 'beans-v01'));
+  for (const [opis, zmien] of [['scope out-of-scope', (v) => { v.scope = 'out-of-scope'; }], ['bez content', (v) => { delete v.content; }]]) {
+    const k = katalog(); zmien(k.variants[0]);
+    assert.ok(!ma(k, 'apple-v01'), opis);
+  }
+  // 189 wariantów ryzyka w prawdziwym katalogu nie ma dziś cardType (stan 2026-11-01).
+  for (const status of ['nie-publikowac', 'ryzyko-wysokie']) {
+    for (const cardType of [undefined, 'recipe']) {
+      const k = katalog(); Object.assign(k.variants[2], { safetyStatus: status, cardType });
+      assert.ok(!ma(k, 'beans-v01'), `${status} cardType=${cardType}`);
+    }
+  }
+});
