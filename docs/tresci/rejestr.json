@@ -10034,7 +10034,7 @@
  },
  {
   "id": "SLO-018",
-  "twierdzenie": "Otwarte domowe dżemy trzyma się w lodówce w 40 °F (ok. 4 °C) lub niżej; dżemy pełnocukrowe najlepiej zużyć w ciągu 1 miesiąca od otwarcia.",
+  "twierdzenie": "Otwarte domowe dżemy trzyma się w lodówce w 40 °F (ok. 4 °C) lub niżej; „zwykłe” gotowane dżemy pełnocukrowe (także z dodaną pektyną) najlepiej trzymać w lodówce przez 1 miesiąc od otwarcia.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
@@ -10053,16 +10053,21 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "65822aac6a58"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+    "miejsce": "Storing Home-Canned Jams and Jellies",
+    "cytat": "“Regular” – or pectin-added, full-sugar – cooked jams and jellies are best stored for 1 month in the refrigerator after opening.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8a195479aeb3"
    }
   ],
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": {
-   "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
-  },
+  "przeglad": null,
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
   "weryfikacjaZastepcza": "2026-11-01"
@@ -23579,6 +23584,48 @@
   ]
  },
  {
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI",
+  "id": "ACI-194",
+  "krytyczne": true,
+  "twierdzenie": "NCHFP śliwki: po napełnieniu słoików (hot albo raw pack) założyć pokrywki i wekować.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/plums-halved-or-whole/",
+    "miejsce": "Procedure, po Raw pack",
+    "cytat": "leaving 1/2-inch headspace. Adjust lids and process.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "808f2fc7087d"
+   }
+  ]
+ },
+ {
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI",
+  "id": "ACI-195",
+  "krytyczne": false,
+  "twierdzenie": "Miarka „cup” w przepisach USA (NIST: cup, measuring) to 237 ml, czyli ok. 237 ml.",
+  "zrodla": [
+   {
+    "adres": "https://nvlpubs.nist.gov/nistpubs/hb/2025/NIST.HB.44-2025.pdf",
+    "miejsce": "NIST Handbook 44 (2025), Appendix C, Units of Liquid Volume (miary kuchenne)",
+    "cytat": "1 cup, measuring 237 milliliters",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "3f762eb83ea0"
+   }
+  ]
+ },
+ {
   "id": "SLO-110",
   "twierdzenie": "NCHFP Cherry Jam Pectin (sproszkowana pektyna): 4 szklanki zmielonych lub drobno posiekanych wiśni bez pestek (ok. 3 funtów, czyli 2 pudełek po kwarcie wiśni), 1 opakowanie sproszkowanej pektyny, 5 szklanek cukru; wychodzi ok. 6 słoików 1/2 pinty.",
   "zrodla": [
@@ -23774,6 +23821,70 @@
   "klaster": "SLO"
  },
  {
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "SLO",
+  "id": "SLO-118",
+  "krytyczne": true,
+  "twierdzenie": "NCHFP sterylizacja pustych słoików: gotować 10 minut na wysokości poniżej 1000 stóp, a wyżej o 1 minutę dłużej na każde kolejne 1000 stóp; słoiki sterylne są wymagane dla dżemów, galaretek i pikli wekowanych krócej niż 10 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/sterilization-of-empty-jars/",
+    "miejsce": "Sterilization of Empty Jars",
+    "cytat": "Boil 10 minutes at elevations of less than 1,000 ft.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "61d6bcdf60a3"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/sterilization-of-empty-jars/",
+    "miejsce": "Sterilization of Empty Jars",
+    "cytat": "At higher elevations, boil 1 additional minute for each additional 1,000 ft.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "61d6bcdf60a3"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/sterilization-of-empty-jars/",
+    "miejsce": "Sterilization of Empty Jars",
+    "cytat": "All jams, jellies, and pickled products processed less than 10 minutes should be filled into sterile empty jars.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "61d6bcdf60a3"
+   }
+  ]
+ },
+ {
+  "status": "potwierdzone",
+  "uproszczenie": "Wniosek JarAtlas: 1000 stóp = 304,8 m zaokrąglone w dół do 300 m (ACI-176), a każde rozpoczęte 300 m liczy się jak pełne (dłuższe gotowanie).",
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "SLO",
+  "id": "SLO-119",
+  "krytyczne": true,
+  "twierdzenie": "Ostrożna reguła JarAtlas dla sterylizacji słoików w metrach: 10 minut do 300 m, a wyżej 1 minuta więcej za każde kolejne rozpoczęte 300 m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/sterilization-of-empty-jars/",
+    "miejsce": "Sterilization of Empty Jars",
+    "cytat": "At higher elevations, boil 1 additional minute for each additional 1,000 ft.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "61d6bcdf60a3"
+   }
+  ],
+  "decyzja": "2026-11-02-jaratlas-06-karty-p2",
+  "zalezy_od": [
+   "ACI-176"
+  ]
+ },
+ {
   "id": "ACI-179",
   "twierdzenie": "Ostrożna reguła JarAtlas: gdy tabela przepisu NCHFP podaje czasy tylko dla słoików do pinty, słoik większy niż pinta (473 ml), np. 0,5 l, nie ma przetestowanego czasu, więc JarAtlas zaleca słoik do 473 ml (np. 0,2 l albo 0,25 l lub słoik 1/2 pinty).",
   "zrodla": [
@@ -23843,12 +23954,21 @@
  },
  {
   "id": "ACI-182",
-  "twierdzenie": "NCHFP wiśnie i czereśnie całe, raw pack: do każdego słoika 1/2 szklanki gorącej wody, soku albo syropu; napełnić odsączonymi owocami, delikatnie potrząsając; dolać gorącego płynu, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni.",
+  "twierdzenie": "NCHFP wiśnie i czereśnie całe, raw pack: do każdego słoika 1/2 szklanki gorącej wody, soku albo syropu; napełnić odsączonymi owocami, delikatnie potrząsając; dolać gorącego płynu, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. Potem założyć pokrywki i wekować.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
     "miejsce": "Raw pack",
     "cytat": "Raw pack – Add ½ cup hot water, juice, or syrup to each jar. Fill jars with drained cherries, shaking down gently as you fill. Add more hot liquid, leaving ½-inch headspace.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2905e627ff47"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "Raw pack",
+    "cytat": "Add more hot liquid, leaving ½-inch headspace. Adjust lids and process.",
     "odczyt": "2026-11-01",
     "szczebel": 1,
     "weryfikacja": "curl+grep",

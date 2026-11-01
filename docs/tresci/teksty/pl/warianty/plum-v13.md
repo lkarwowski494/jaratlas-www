@@ -6,6 +6,8 @@ Ta karta opisuje metodę NCHFP wekowania śliwek w połówkach albo w całości 
 
 Oberwij szypułki i umyj śliwki. [T:ACI-186]
 
+NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
+
 Całe śliwki nakłuj widelcem z dwóch stron, żeby nie pękały. [T:ACI-186]
 
 Odmiany z łatwo odchodzącą pestką można przekroić na pół i wydrylować. [T:ACI-186]
@@ -25,6 +27,8 @@ Na gorąco (hot pack): włóż śliwki do wody albo gorącego syropu i gotuj 2 m
 Napełnij słoiki gorącymi śliwkami i płynem albo syropem, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:ACI-187]
 
 Na surowo (raw pack): ciasno napełnij słoiki surowymi śliwkami i dolej gorącej wody albo syropu, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:ACI-188]
+
+W obu sposobach załóż pokrywki i wekuj. [T:ACI-194]
 
 ## Wekowanie
 

@@ -10,6 +10,8 @@ Umyj truskawki i usuń szypułki z listkami. [T:FRZ-061]
 
 ## Z cukrem
 
+NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
+
 Do 1 kwarty (1 1/3 funta) truskawek dodaj 3/4 szklanki cukru i dokładnie wymieszaj. [T:FRZ-063]
 
 Mieszaj, aż większość cukru się rozpuści, albo odstaw na 15 minut. [T:FRZ-063]

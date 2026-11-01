@@ -6,6 +6,8 @@ Ta karta opisuje metodę NCHFP wekowania całych czereśni lub wiśni w kąpieli
 
 Oberwij szypułki i umyj wiśnie; pestki możesz usunąć. [T:ACI-180]
 
+NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
+
 Wydrylowane wiśnie włóż do wody z kwasem askorbinowym, żeby nie ciemniały przy szypułce. [T:ACI-180]
 
 Jeśli zostawiasz pestki, nakłuj skórkę czystą igłą z dwóch przeciwnych stron, żeby owoce nie pękały. [T:ACI-180]
@@ -27,6 +29,8 @@ Napełnij słoiki wiśniami i płynem z gotowania, zostawiając 1/2 cala (ok. 1,
 Na surowo (raw pack): do każdego słoika wlej 1/2 szklanki gorącej wody, soku albo syropu i napełnij go odsączonymi wiśniami, delikatnie potrząsając. [T:ACI-182]
 
 Dolej gorącego płynu, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:ACI-182]
+
+Załóż pokrywki i wekuj. [T:ACI-182]
 
 ## Wekowanie
 

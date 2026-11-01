@@ -42,7 +42,7 @@ At 1001–6000 ft (above 300 m up to 1800 m) process pints for 15 minutes and qu
 
 Above 6000 ft (above 1800 m) process pints for 20 minutes and quarts for 25. [T:FER-099,ACI-176]
 
-The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m, 3000 ft becomes 900 m and 6000 ft becomes 1800 m. [T:ACI-176]
+The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m and 6000 ft becomes 1800 m. [T:ACI-176]
 
 NCHFP times are for US jar sizes: a pint holds about 473 ml and a quart about 946 ml. [T:ACI-174]
 

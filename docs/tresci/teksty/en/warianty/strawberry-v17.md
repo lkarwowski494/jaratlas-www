@@ -10,6 +10,8 @@ Wash the strawberries and remove the caps. [T:FRZ-061]
 
 ## With sugar
 
+NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
+
 Add 3/4 cup of sugar to 1 quart (1 1/3 pounds) of strawberries and mix thoroughly. [T:FRZ-063]
 
 Stir until most of the sugar has dissolved, or let stand for 15 minutes. [T:FRZ-063]

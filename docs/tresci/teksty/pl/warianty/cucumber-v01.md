@@ -42,7 +42,7 @@ Na wysokości 1001–6000 stóp (powyżej 300 m do 1800 m) wekuj słoiki pint 15
 
 Powyżej 6000 stóp (powyżej 1800 m) wekuj słoiki pint 20 minut, a quart 25. [T:FER-099,ACI-176]
 
-Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, 3000 stóp to 900 m, a 6000 stóp to 1800 m. [T:ACI-176]
+Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, a 6000 stóp to 1800 m. [T:ACI-176]
 
 Czasy NCHFP dotyczą amerykańskich słoików: pint mieści ok. 473 ml, a quart ok. 946 ml. [T:ACI-174]
 

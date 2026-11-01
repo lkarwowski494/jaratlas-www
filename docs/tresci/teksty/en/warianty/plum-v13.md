@@ -6,6 +6,8 @@ This card describes the NCHFP method for canning halved or whole plums in a boil
 
 Stem and wash the plums. [T:ACI-186]
 
+NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
+
 To can them whole, prick the skins on two sides with a fork so they do not split. [T:ACI-186]
 
 Freestone varieties may be halved and pitted. [T:ACI-186]
@@ -25,6 +27,8 @@ Hot pack: add the plums to water or hot syrup and boil for 2 minutes, then cover
 Fill the jars with the hot plums and cooking liquid or syrup, leaving 1/2 inch (about 1.3 cm) of headspace. [T:ACI-187]
 
 Raw pack: pack raw plums firmly into the jars and add hot water or syrup, leaving 1/2 inch (about 1.3 cm) of headspace. [T:ACI-188]
+
+For both packs, put on the lids and process. [T:ACI-194]
 
 ## Processing
 

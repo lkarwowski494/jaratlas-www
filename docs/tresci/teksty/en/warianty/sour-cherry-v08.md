@@ -6,11 +6,17 @@ This card describes the NCHFP recipe for cherry jam made with sour cherries and 
 
 NCHFP uses 4 cups of ground or finely chopped pitted sour cherries (about 3 pounds), 1 package of powdered pectin and 5 cups of sugar, which makes about 6 half-pint jars. [T:SLO-110]
 
+NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
+
 NCHFP warns not to reduce the sugar in traditional recipes: too little sugar prevents gelling and may allow yeasts and molds to grow. [T:SLO-001]
 
 ## Preparing
 
 Sterilize the jars and prepare two-piece lids according to the manufacturer's directions. [T:SLO-111]
+
+To sterilize empty jars, NCHFP boils them for 10 minutes below 1000 ft, and above that 1 minute longer for each additional thousand feet. [T:SLO-118]
+
+JarAtlas rule for metres: boil the jars for 10 minutes up to 300 m, and add 1 minute for every further 300 m or part of it. [T:SLO-119]
 
 Sort and wash fully ripe cherries, remove the stems and pits, and grind or finely chop the cherries. [T:SLO-111]
 
@@ -46,7 +52,7 @@ JarAtlas rule (NCHFP does not test metric jars): a pint holds about 473 ml, so a
 
 Keep opened jam in the refrigerator at 40 °F (about 4 °C) or lower. [T:SLO-018]
 
-Cooked jams are best kept in the refrigerator for 1 month after opening. [T:SLO-018]
+Regular full-sugar cooked jams like this one are best kept in the refrigerator for 1 month after opening. [T:SLO-018]
 
 ## When to throw it out
 

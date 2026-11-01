@@ -6,6 +6,8 @@ This card describes the NCHFP method for canning whole sweet or sour cherries in
 
 Stem and wash the cherries; you may remove the pits. [T:ACI-180]
 
+NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
+
 If you pit them, put them in water containing ascorbic acid so they do not darken at the stem end. [T:ACI-180]
 
 If you leave the pits in, prick the skins on opposite sides with a clean needle so they do not split. [T:ACI-180]
@@ -27,6 +29,8 @@ Fill the jars with the cherries and cooking liquid, leaving 1/2 inch (about 1.3 
 Raw pack: put 1/2 cup of hot water, juice or syrup into each jar and fill it with drained cherries, shaking them down gently as you fill. [T:ACI-182]
 
 Add more hot liquid, leaving 1/2 inch (about 1.3 cm) of headspace. [T:ACI-182]
+
+Put on the lids and process. [T:ACI-182]
 
 ## Processing
 
