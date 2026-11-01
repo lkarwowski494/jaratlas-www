@@ -13,7 +13,7 @@ export const ACID_BASIS = ['natural-acid', 'acidified', 'fermented', 'sugar-acid
 export const SCOPE = ['in', 'out-of-scope', 'bridge'];
 
 // Produkt graniczny → twierdzenie ostrzeżenia, z którym przepis szczebla 1 bez zakwaszenia może być w kąpieli wodnej (decyzja 2026-11-02-jaratlas-06-katalog-p4).
-export const WYJATKI_KWAS = Object.freeze({ apricot: 'E3-002' });
+export const WYJATKI_KWAS = Object.freeze({ apricot: Object.freeze({ warning: 'E3-002', decyzja: '2026-11-02-jaratlas-06-katalog-p4' }) });
 
 export function validateCatalog(cat, rejestr = []) {
   const errors = [], warnings = [];
@@ -77,14 +77,16 @@ export function validateCatalog(cat, rejestr = []) {
       // WYJATKI_KWAS (produkt → ostrzeżenie), z ostrzeżeniem wymaganym na karcie. Dlaczego lista w kodzie: reguła chroni przed
       // niezakwaszonymi pomidorami; nowy wyjątek wymaga zmiany kodu, testu i przeglądu D-043, nie tylko danych (przegląd D-043, 2026-11-02).
       const wyj = v.acidityException;
-      const wyjOk = wyj?.warning && WYJATKI_KWAS[v.productId] === wyj.warning && v.safetyStatus === 'ok-zrodlo' && (v.requiredWarnings ?? []).includes(wyj.warning) && (v.sources ?? []).some((z) => z.szczebel === 1);
-      if (p?.acidity === 'borderline' && v.acidBasis === 'natural-acid' && !wyjOk) errors.push(`${g}: produkt graniczny w water-bath wymaga zakwaszenia (acidBasis acidified) albo wyjątku acidityException z listy WYJATKI_KWAS (ok-zrodlo, przepis szczebla 1, ostrzeżenie w requiredWarnings)`);
+      const wzor = WYJATKI_KWAS[v.productId];
+      const wyjOk = wyj?.warning && wzor?.warning === wyj.warning && wzor.decyzja === wyj.decyzja && v.safetyStatus === 'ok-zrodlo' && (v.requiredWarnings ?? []).includes(wyj.warning) && (v.sources ?? []).some((z) => z.szczebel === 1);
+      // Wariant ostrożny (P3-4 przeglądu D-043, 2026-11-02): każdy acidBasis inny niż acidified, nie tylko natural-acid.
+      if (p?.acidity === 'borderline' && v.acidBasis !== 'acidified' && !(v.acidBasis === 'natural-acid' && wyjOk)) errors.push(`${g}: produkt graniczny w water-bath wymaga zakwaszenia (acidBasis acidified) albo wyjątku acidityException z listy WYJATKI_KWAS (acidBasis natural-acid, ok-zrodlo, przepis szczebla 1, ostrzeżenie w requiredWarnings, decyzja z listy)`);
     }
     // acidityException (P3 z przeglądu D-043, 2026-11-02): wyjątek musi wskazywać decyzję (ID wpisu tablicy decyzji, zaczyna się datą),
     // a pole bez zastosowania to błąd, żeby martwy wyjątek nie został po zmianie wariantu albo produktu.
     if (v.acidityException != null) {
       const d = v.acidityException.decyzja;
-      if (typeof d !== 'string' || !/^\d{4}-\d\d-\d\d-\S+$/.test(d)) errors.push(`${g}: acidityException bez decyzji (pole decyzja: ID wpisu tablicy decyzji w formacie RRRR-MM-DD-…)`);
+      if (typeof d !== 'string' || !/^\d{4}-\d\d-\d\d-\S+$/.test(d)) errors.push(`${g}: acidityException bez poprawnej decyzji (jest: ${JSON.stringify(d)}; oczekiwane ID wpisu tablicy decyzji RRRR-MM-DD-…)`);
       if (!(v.preservationMethod === 'water-bath' && p?.acidity === 'borderline' && v.acidBasis === 'natural-acid')) errors.push(`${g}: acidityException bez zastosowania (wyjątek dotyczy tylko produktu granicznego w water-bath z acidBasis natural-acid); usuń pole albo popraw wariant`);
     }
     for (const id of v.claims ?? []) claimOk(id, g);

@@ -81,13 +81,35 @@ test('acidityException: wymagana decyzja (ID wpisu tablicy) i błąd, gdy wyjąt
     ['decyzja bez daty', { acidityException: { warning: 'E3-002', decyzja: 'katalog-p4' } }],
     ['decyzja nie jest tekstem', { acidityException: { warning: 'E3-002', decyzja: 20261102 } }],
     ['decyzja jako tablica (po rzutowaniu pasowałaby do wzorca)', { acidityException: { warning: 'E3-002', decyzja: ['2026-11-02-jaratlas-06-katalog-p4'] } }],
-  ]) assert.ok(has(errs(kat(zm), r), /apricot-v08.*acidityException.*decyzj/), opis);
+    ['sama data', { acidityException: { warning: 'E3-002', decyzja: '2026-11-02' } }],
+    ['wyjątek jako pusty tekst', { acidityException: '' }],
+    ['tekst przed datą', { acidityException: { warning: 'E3-002', decyzja: 'x2026-11-02-jaratlas-06-katalog-p4' } }],
+    ['spacja na końcu', { acidityException: { warning: 'E3-002', decyzja: '2026-11-02-jaratlas-06-katalog-p4 ' } }],
+  ]) assert.ok(has(errs(kat(zm), r), /apricot-v08: acidityException bez poprawnej decyzji/), opis);
   // Martwy wyjątek: pole zostało po zmianie wariantu albo produktu, a reguła go już nie używa.
   for (const [opis, zm, prod] of [
     ['acidBasis acidified', { acidBasis: 'acidified' }, {}],
     ['metoda inna niż water-bath', { preservationMethod: 'refrigerator' }, {}],
     ['produkt niegraniczny', {}, { acidity: 'acid' }],
+    ['acidBasis sugar-acid', { acidBasis: 'sugar-acid' }, {}],
   ]) assert.ok(has(errs(kat(zm, prod), r), /apricot-v08.*acidityException.*bez zastosowania/), opis);
+  // Decyzja w poprawnym formacie, ale inna niż przypisana wyjątkowi w WYJATKI_KWAS: wyjątek nie działa.
+  assert.ok(has(errs(kat({ acidityException: { warning: 'E3-002', decyzja: '2026-13-45-cokolwiek' } }), r), /apricot-v08: produkt graniczny/));
+  // Poprawny wyjątek moreli nie chroni wariantu z acidBasis innym niż natural-acid.
+  assert.ok(has(errs(kat({ acidBasis: 'sugar-acid' }), r), /apricot-v08: produkt graniczny/));
+  // acidityException: null — tylko błąd reguły granicznej, bez wyjątku JS.
+  const e = errs(kat({ acidityException: null }), r);
+  assert.ok(has(e, /apricot-v08: produkt graniczny/)); assert.ok(!has(e, /acidityException bez/));
+  // Nieznany produkt z wyjątkiem: komunikaty, bez wyjątku JS.
+  const u = kat(); u.variants.at(-1).productId = 'nieznany';
+  assert.ok(has(errs(u, r), /apricot-v08.*bez zastosowania/));
+});
+
+test('produkt graniczny w kąpieli wodnej bez acidBasis acidified (np. sugar-acid, fermented) to błąd — wariant ostrożny (P3-4 przeglądu D-043, 2026-11-02)', () => {
+  for (const ab of ['sugar-acid', 'fermented']) {
+    const c = base(); c.variants.push({ id: 'tomato-v03', productId: 'tomato', processFamilyId: 'canned-foods', preservationMethod: 'water-bath', acidBasis: ab, safetyStatus: 'do-researchu', claims: [], sources: [], publication: 'ukryta', scope: 'in' });
+    assert.ok(has(errs(c), /tomato-v03.*graniczn/), ab);
+  }
 });
 
 test('ok-zrodlo bez źródła to błąd', () => {
