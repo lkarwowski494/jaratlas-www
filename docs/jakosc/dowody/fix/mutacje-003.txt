@@ -1,0 +1,6 @@
+baza: kod 0 # pass 47
+M12 kolizja adresów niewykrywana: WYKRYTY (kod 1, fail 1) ← R8 kolizja adresów: dwa warianty produktu z tym samym slugie
+M13 powtórzone slugi wariantów w produkcie niewykrywane: WYKRYTY (kod 1, fail 1) ← R8 kolizja adresów: dwa warianty produktu z tym samym slugie
+M14 wzorzec slugu niełacińskiego jak przed naprawą (lista zakazanych): WYKRYTY (kod 1, fail 1) ← slugi niełacińskie: lista dozwolonych (małe litery, cyfry, z
+M15 build bez asercji ścieżek w dist.tmp: PRZEŻYŁ (kod 0, fail 0)
+M16 M14 + M15 razem (slug przechodzi, build bez asercji): WYKRYTY (kod 1, fail 2) ← slug „..” w piśmie niełacińskim: kod 1, nic nie zapisane poz | slugi niełacińskie: lista dozwolonych (małe litery, cyfry, z

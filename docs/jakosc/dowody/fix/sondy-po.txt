@@ -1,0 +1,8 @@
+S1 sprawdzSlugi: ["pl: powtórzone slugi wariantów produktu ?: kiszony (site/slugi/pl.json)"] | bledy generuj: ["pl: powtórzone slugi wariantów produktu p: kiszony (site/slugi/pl.json)","kolizja adresów: /pl/ogorek/kiszony/"]
+S2 slug ".." → błędy sprawdzSlugi: 1
+S2 slug "." → błędy sprawdzSlugi: 1
+S2 slug "a\\b" → błędy sprawdzSlugi: 1
+S2 slug "Огурец" → błędy sprawdzSlugi: 1
+S2 slug "a\"b" → błędy sprawdzSlugi: 1
+S2 slug "a<b" → błędy sprawdzSlugi: 1
+S3 pliki: ru/../../index.html, ru/../b/index.html, ru/../index.html, index.html, sitemap.xml, robots.txt | bledy: 2

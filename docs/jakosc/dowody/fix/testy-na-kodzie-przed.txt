@@ -1,0 +1,8 @@
+0b1ef43 Decyzja: naprawa 001–003 w jednej sesji 07 fix (tablica 2026-11-01-jaratlas-przeglad-07)
+ M tests/build.test.mjs
+ M tests/site.test.mjs
+not ok 3 - slug „..” w piśmie niełacińskim: kod 1, nic nie zapisane poza katalogiem wyjścia, dist/ nietknięty (07-jakosc-003, sonda S3)
+not ok 46 - R8 kolizja adresów: dwa warianty produktu z tym samym slugiem = błąd planu i błąd slugów (07-jakosc-002)
+not ok 47 - slugi niełacińskie: lista dozwolonych (małe litery, cyfry, znaki łączące, łączniki) (07-jakosc-003)
+# pass 45
+# fail 3

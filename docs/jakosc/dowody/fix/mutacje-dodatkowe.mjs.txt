@@ -1,0 +1,27 @@
+// Mutanty dla napraw 002/003 (dopisane w sesji 07 fix); użycie jak mutacje.mjs: node dodatkowe.mjs <kopia>
+import { readFileSync, writeFileSync } from 'node:fs';
+import { spawnSync } from 'node:child_process';
+const K = process.argv[2];
+export const M = [
+  ['M12 kolizja adresów niewykrywana', 'site/plan.mjs', "if (dup.length) bledy.push(`kolizja", "if (false) bledy.push(`kolizja"],
+  ['M13 powtórzone slugi wariantów w produkcie niewykrywane', 'site/plan.mjs', "if (d.length) bledy.push", "if (false) bledy.push"],
+  ['M14 wzorzec slugu niełacińskiego jak przed naprawą (lista zakazanych)', 'site/plan.mjs', "const SLUG_INNY = /^[\\p{Ll}\\p{Lm}\\p{Lo}\\p{Nd}\\p{M}]+(-[\\p{Ll}\\p{Lm}\\p{Lo}\\p{Nd}\\p{M}]+)*$/u;", "const SLUG_INNY = /^[^\\s/?#%A-Z]+$/u;"],
+  ['M15 build bez asercji ścieżek w dist.tmp', 'tools/buduj-strone.mjs', "if (poza.length)", "if (false)"],
+  ['M16 M14 + M15 razem (slug przechodzi, build bez asercji)', null],
+];
+const run = () => spawnSync('sh', ['-c', 'node --test tests/*.test.mjs'], { cwd: K, encoding: 'utf8' });
+{ const b = run(); console.log('baza: kod', b.status, (b.stdout.match(/^# pass (\d+)/m) || [])[0]); }
+const wybrane = process.argv.slice(3);
+for (const [nazwa, plik, z, na] of M) {
+  if (wybrane.length && !wybrane.some((w) => nazwa.startsWith(w + ' '))) continue;
+  const zmiany = plik ? [[plik, z, na]] : M.filter((x) => x[0].startsWith('M14') || x[0].startsWith('M15')).map((x) => x.slice(1));
+  const org = zmiany.map(([p]) => [p, readFileSync(`${K}/${p}`, 'utf8')]);
+  let ok = true;
+  for (const [p, zz, nn] of zmiany) { const t = readFileSync(`${K}/${p}`, 'utf8'); if (!t.includes(zz)) ok = false; else writeFileSync(`${K}/${p}`, t.replace(zz, nn)); }
+  if (!ok) { for (const [p, t] of org) writeFileSync(`${K}/${p}`, t); console.log(`${nazwa}: NIE ZASTOSOWANO (brak wzorca)`); continue; }
+  const r = run();
+  for (const [p, t] of org) writeFileSync(`${K}/${p}`, t);
+  const fail = (r.stdout.match(/^# fail (\d+)/m) || [])[1];
+  const nie = [...r.stdout.matchAll(/^not ok \d+ - (.+)$/gm)].map((m) => m[1].slice(0, 60));
+  console.log(`${nazwa}: ${r.status === 0 ? 'PRZEŻYŁ' : 'WYKRYTY'} (kod ${r.status}, fail ${fail})${nie.length ? ' ← ' + nie.join(' | ') : ''}`);
+}
