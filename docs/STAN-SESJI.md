@@ -13,9 +13,11 @@ Aktualizacja: 2026-11-01 (sesja session_01T66VBwpeXoWf62RJV3mYDN). Historia: `do
 - **Werdykt: gałąź może być scalona z `main`.** CI `kontrole` success (run 41344096356, 4c28c6a).
 - **Rozstrzygnięte 2026-11-01** (tablica `2026-11-01-jaratlas-fix-07-main`): właściciel wybrał „B”, odpowiedź przekazała sesja koordynatora; `main` utworzył koordynator z d25f1f2 (`git ls-remote`: main = d25f1f2). Czyste repo przed publikacją bez zmian.
 
+## Decyzje
+- **Rozstrzygnięte 2026-11-01** (przyciski, tablica `2026-11-01-jaratlas-fix-07-main`): M15 zostawić (odrzucone: osobna funkcja z testem); nowa sesja 06-tresci z przekazaniem, ta do archiwum.
+
 ## Decyzje czekające (właściciel)
-1. M15: zostawić (rekomendacja, asercja to druga linia) / wydzielić funkcję ścieżek z własnym testem (ok. 10 min).
-2. Z poprzedniego stanu: strategia testów (b) bez osobnej do pierwszej publikacji (rekomendacja) / (a) 07 build; workflow Pages i DNS — osobna zgoda w nowym repo.
+1. Z poprzedniego stanu: strategia testów (b) bez osobnej do pierwszej publikacji (rekomendacja) / (a) 07 build; workflow Pages i DNS — osobna zgoda w nowym repo.
 
 ## Backlog przed pierwszą publikacją
 07-jakosc-004, 005, 008; asercja segmentów `.`/`..` w ścieżkach buildu (nie tylko wyjście poza katalog); niewidoczne znaki w slugach (U+3164, U+034F); sprzątanie katalogów `ja-*` po testach build.
