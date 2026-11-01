@@ -23,7 +23,7 @@ npm test                 # testy walidatora (node --test)
 npm run check:catalog    # walidacja katalogu względem rejestru
 node tools/kontrole-tresci.mjs docs/tresci/rejestr.json <teksty> --przed-przegladem   # kontrola treści (moduł kontrole-mechaniczne)
 ```
-Reguły walidatora: niskokwasowe w kąpieli wodnej = błąd; produkt graniczny w kąpieli wodnej wymaga `acidBasis: acidified`; `ok-zrodlo` bez źródła szczebla 1–3 = błąd; status ze stwierdzeniem bez potwierdzonego twierdzenia = błąd; publikacja bez treści = błąd; wycofany bez następcy lub powodu = błąd; `ryzyko-wysokie`/`nie-publikowac` bez `cardType: warning` albo `cardType` przy innym statusie = błąd (także przy wariancie ukrytym, żeby zmiana `publication` nie wypuściła zwykłej karty).
+Reguły walidatora: niskokwasowe w kąpieli wodnej = błąd; produkt graniczny w kąpieli wodnej wymaga `acidBasis: acidified`; `ok-zrodlo` bez źródła szczebla 1–3 = błąd; status ze stwierdzeniem bez potwierdzonego twierdzenia = błąd; publikacja bez treści = błąd; wycofany bez następcy lub powodu = błąd; `ryzyko-wysokie`/`nie-publikowac` bez `cardType: warning` albo `cardType` przy innym statusie = błąd (także przy wariancie ukrytym, żeby zmiana `publication` nie wypuściła zwykłej karty; wycofanych walidator nie sprawdza, bo ich nie da się opublikować).
 
 ## Granice
 - Czasy wekowania pochodzą z USDA/NCHFP i dotyczą słoików USA pint (ok. 0,47 l) i quart (ok. 0,95 l), nie 0,5 l i 1 l.
