@@ -1,0 +1,6 @@
+npm test → kod 0: # pass 100
+npm run check:granice → kod 0: OK: 7 plików, bez naruszeń
+npm run check:catalog → kod 0: 1432 wariantów (ok-zrodlo 288, do-researchu 921, ryzyko-wysokie 97, nie-publikowac 89, wycofane 37); 0 błędów, 0 uwag
+npm run check:tresci → kod 0: 0 błędów, 0 uwag
+npm run build → kod 0: OK: 4 plików → /home/user/jaratlas-www/dist (warianty 0, produkty 0, rodziny 0)
+npm run check → kod 0: OK: dist/ 991 B (0.0 MB, 5 plików), limit 1000000000 B

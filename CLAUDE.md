@@ -2,7 +2,7 @@
 Statyczna strona-katalog domowego przetwórstwa (wekowanie, kiszenie, mrożenie) w 35 językach, z bramką bezpieczeństwa treści. Stan i następny krok: `docs/sztafeta.md`, `docs/STAN-SESJI.md`.
 
 ## Stan projektu (aktualizacja: 2026-11-02)
-- Etap: w budowie; 06 karty fali 1 partie 1–6 (en/pl, 21 wariantów, ukryte) na claude/happy-brown-yncplj, main = 56f07d2, 0 opublikowanych stron, dane użytkowników: brak
+- Etap: w budowie; 06 karty fali 1 partie 1–6 (en/pl, 21 wariantów, ukryte) + 07 fix P2 na claude/happy-brown-yncplj, main = 78d9b9a, 0 opublikowanych stron, dane użytkowników: brak
 - Sklep: nie dotyczy (strona WWW); hosting GitHub Pages (ADR 0007); domena jaratlas.com (Porkbun, odnowienie przed 2027-11-01)
 - Przed pierwszą publikacją: przeniesienie do czystego repo (wzór: trening `docs/46-przeniesienie-1.0.md`)
 - Polityka języków: szeroka, 35 (fala 1: en, fr, es, de, it, pl)
@@ -17,7 +17,8 @@ Node 22, własny generator bez zależności npm (ADR 0001); decyzje w `docs/adr/
 - testy: `npm test` · granice modułów: `npm run check:granice`
 - katalog: `npm run check:catalog` · treści: `npm run check:tresci`
 - build: `npm run build` → `dist/` (kod 1 przy każdym błędzie kontroli)
-- CI: `.github/workflows/kontrole.yml` (te same kontrole przy każdym pushu)
+- wszystko: `npm run check` (testy, granice, katalog, treści, build, rozmiar `dist/`: UWAGA od 800 MB, błąd od 1 GB; 07-jakosc-008)
+- CI: `.github/workflows/kontrole.yml` woła `npm run check` przy każdym pushu (jedno źródło listy: `package.json`)
 
 ## Dokumenty (źródło prawdy, rola)
 - decyzje właściciela: tablica decyzji (artifact `2m3gT4XfaeuMfT5EGqeT1i`, kolekcja `decisions`)
