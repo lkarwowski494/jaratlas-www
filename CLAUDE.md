@@ -2,7 +2,7 @@
 Statyczna strona-katalog domowego przetwórstwa (wekowanie, kiszenie, mrożenie) w 35 językach, z bramką bezpieczeństwa treści. Stan i następny krok: `docs/sztafeta.md`, `docs/STAN-SESJI.md`.
 
 ## Stan projektu (aktualizacja: 2026-11-01)
-- Etap: w budowie; szkielet generatora: 07 fix 001–003 zrobione (docs/jakosc/07-jakosc-fix-2026-11-01.md), scalenie z main czeka na zgodę, 0 opublikowanych stron, dane użytkowników: brak
+- Etap: w budowie; szkielet generatora: 07 fix 001–003 zrobione (docs/jakosc/07-jakosc-fix-2026-11-01.md), main = d25f1f2 (decyzja 2026-11-01-jaratlas-fix-07-main), 0 opublikowanych stron, dane użytkowników: brak
 - Sklep: nie dotyczy (strona WWW); hosting GitHub Pages (ADR 0007); domena jaratlas.com (Porkbun, odnowienie przed 2027-11-01)
 - Przed pierwszą publikacją: przeniesienie do czystego repo (wzór: trening `docs/46-przeniesienie-1.0.md`)
 - Polityka języków: szeroka, 35 (fala 1: en, fr, es, de, it, pl)
