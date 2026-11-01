@@ -273,6 +273,15 @@ test('slugi niełacińskie: lista dozwolonych (małe litery, cyfry, znaki łącz
   }
 });
 
+test('slugi niełacińskie: znaki niewidoczne (Default_Ignorable_Code_Point) odrzucone, także między literami (obserwacja przeglądu D-043 07-jakosc-003)', () => {
+  const zle = (lang, slug) => sprawdzSlugi({ [lang]: { produkty: { p: slug }, warianty: {} } }).length > 0;
+  // U+3164 wypełniacz hangul (Lo), U+115F/U+1160 wypełniacze jamo, U+034F łącznik grafemów (Mn), U+180B selektor mongolski (Mn), U+FE0F selektor wariantu (Mn).
+  for (const [lang, s] of [['ko', '오\u3164이'], ['ko', '\u3164'], ['ko', '오\u115F이'], ['ko', '오\u1160'], ['ru', 'огу\u034Fрец'], ['ru', 'огурец\u180B'], ['ja', 'きゅうり\uFE0F']]) {
+    assert.ok(zle(lang, s), `${lang} U+${[...s].map((c) => c.codePointAt(0).toString(16)).join(' ')}`);
+  }
+  for (const [lang, s] of [['ko', '오이-김치'], ['ja', 'ピーマン'], ['ru', 'солёные'], ['el', 'σύκο']]) assert.ok(!zle(lang, s), `${lang} ${s}`);
+});
+
 test('ostrzeżenia przed treścią: sekcja ostrzeżeń przed wstępem i przed krokami (ADR 0005, 07-jakosc-006)', () => {
   for (const p of ['pl/fasola/fasola-w-kapieli/index.html', 'en/beans/beans-water-bath/index.html']) {
     const h = generuj(dane()).pliki[p], m = h.slice(h.indexOf('<main'));

@@ -4,7 +4,8 @@ import { JEZYKI, PISMA_NIELACINSKIE, katalogJezyka } from './konfiguracja.mjs';
 const SLUG_LACINSKI = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 // Lista dozwolonych (07-jakosc-003): małe litery (Ll), znaki modyfikujące (Lm, np. japońskie „ー”), litery bez wielkości (Lo: kana, hangul, han),
 // cyfry (Nd) i znaki łączące (M), łączniki tylko między członami. Bez kropek, ukośników, cudzysłowów, znaków HTML i wielkich liter.
-const SLUG_INNY = /^[\p{Ll}\p{Lm}\p{Lo}\p{Nd}\p{M}]+(-[\p{Ll}\p{Lm}\p{Lo}\p{Nd}\p{M}]+)*$/u;
+// Bez znaków niewidocznych (Default_Ignorable_Code_Point, np. U+3164 wypełniacz hangul w Lo, U+034F w Mn): adres wyglądałby jak inny (obserwacja D-043 07-jakosc-003).
+const SLUG_INNY = /^(?!.*\p{Default_Ignorable_Code_Point})[\p{Ll}\p{Lm}\p{Lo}\p{Nd}\p{M}]+(-[\p{Ll}\p{Lm}\p{Lo}\p{Nd}\p{M}]+)*$/u;
 
 export function wariantPublikowalny(v) {
   if (v.publication !== 'opublikowana' || v.scope !== 'in' || v.retired) return false;
