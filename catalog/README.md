@@ -1,6 +1,6 @@
 # Katalog JarAtlas (`catalog-seed.json`)
 
-Jedno źródło danych dla strony JarAtlas.com i aplikacji JAR. Wersja 1.0.0 (2026-11-01), zadanie B (katalog v0 → v1). Decyzje: tablica decyzji, wpisy `2026-11-01-jaratlas-katalog-v1-model` i `2026-11-01-jaratlas-katalog-v1-e1`.
+Jedno źródło danych dla strony JarAtlas.com i aplikacji JAR. Wersja 1.0.2 (2026-11-01; 1.0.2: decyzja `2026-11-01-jaratlas-e3-stop`), zadanie B (katalog v0 → v1). Decyzje: tablica decyzji, wpisy `2026-11-01-jaratlas-katalog-v1-model` i `2026-11-01-jaratlas-katalog-v1-e1`.
 
 Katalog **nie zawiera treści kart**. Mówi, jakie warianty istnieją, w jakim procesie i jaki mają status bezpieczeństwa. Każdy status inny niż `do-researchu` wskazuje twierdzenia z `docs/tresci/rejestr.json`, a każde twierdzenie ma przeczytane źródło (adres, miejsce, cytat, data, szczebel).
 

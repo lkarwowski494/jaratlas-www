@@ -1,5 +1,5 @@
 {
- "version": "1.0.1",
+ "version": "1.0.2",
  "generated": "2026-11-01",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -4866,7 +4866,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -4886,7 +4886,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Bigos (kapusta kiszona + świeża, mięso, kiełbasa, grzyby, tłuszcz): danie mieszane bez przetestowanego procesu ani w kąpieli wodnej, ani w szybkowarze. Karta tylko ostrzegawcza; alternatywa: mrożenie porcji."
+    "[SZY*] Bigos (kapusta kiszona + świeża, mięso, kiełbasa, grzyby, tłuszcz): danie mieszane bez przetestowanego procesu ani w kąpieli wodnej, ani w szybkowarze. Karta tylko ostrzegawcza; alternatywa: mrożenie porcji.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -5209,7 +5210,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -5226,7 +5227,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Duszona czerwona kapusta: kapusta nie nadaje się do szybkowaru (PSU), brak przetestowanego procesu. Jeśli przepis jest zakwaszony (ocet, jabłko) – ocena ACI; poza tym mrożenie."
+    "[SZY*] Duszona czerwona kapusta: kapusta nie nadaje się do szybkowaru (PSU), brak przetestowanego procesu. Jeśli przepis jest zakwaszony (ocet, jabłko) – ocena ACI; poza tym mrożenie.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -5935,7 +5937,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -5952,7 +5954,8 @@
    },
    "notes": [
     "[FER] Kimchi duszone i wekowane: brak przetestowanego procesu; mieszanka może być niskokwasowa po obróbce — sprawdzić u SZY.",
-    "[SZY*] Duszone kimchi (często z wieprzowiną, tofu) wekowane: po duszeniu i z dodatkami pH nieznane; brak przetestowanego procesu. Fermentacja – FER."
+    "[SZY*] Duszone kimchi (często z wieprzowiną, tofu) wekowane: po duszeniu i z dodatkami pH nieznane; brak przetestowanego procesu. Fermentacja – FER.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -7738,7 +7741,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -7756,7 +7759,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Leczo z cukinii: dynia letnia bez marynowania – wekowanie niezalecane; leczo (dużo papryki, cebuli, olej) wykracza poza przetestowane receptury. Przetestowana alternatywa: pomidory z cukinią 3:1 w szybkowarze (SZY-027)."
+    "[SZY*] Leczo z cukinii: dynia letnia bez marynowania – wekowanie niezalecane; leczo (dużo papryki, cebuli, olej) wykracza poza przetestowane receptury. Przetestowana alternatywa: pomidory z cukinią 3:1 w szybkowarze (SZY-027).",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -8221,7 +8225,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -8239,7 +8243,8 @@
    },
    "notes": [
     "[ACI] Najbliższy: NCHFP Tomatoes with Zucchini (szybkowar), ale patison w sosie (nie w pomidorach krojonych) to inny produkt; brak przetestowanego procesu.",
-    "[SZY*] Patisony w sosie pomidorowym: dynia letnia – brak zalecanego procesu; najbliższy przetestowany: pomidory z cukinią 3:1 (szybkowar), patison nie jest w nim wymieniony."
+    "[SZY*] Patisony w sosie pomidorowym: dynia letnia – brak zalecanego procesu; najbliższy przetestowany: pomidory z cukinią 3:1 (szybkowar), patison nie jest w nim wymieniony.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -8261,7 +8266,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -8279,7 +8284,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Leczo z patisonem: jak zucchini-v11."
+    "[SZY*] Leczo z patisonem: jak zucchini-v11.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -9111,7 +9117,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -9130,7 +9136,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Szpinak duszony z czosnkiem (tyndalizacja): tyndalizacja odrzucona; duszenie z tłuszczem/czosnkiem wykracza poza przepis. Przetestowane: szpinak blanszowany parą, zalany wrzątkiem, szybkowar 70/90 min (SZY-038)."
+    "[SZY*] Szpinak duszony z czosnkiem (tyndalizacja): tyndalizacja odrzucona; duszenie z tłuszczem/czosnkiem wykracza poza przepis. Przetestowane: szpinak blanszowany parą, zalany wrzątkiem, szybkowar 70/90 min (SZY-038).",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -11586,7 +11593,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -11603,7 +11610,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Baza do leczo (papryka, cebula, pomidory): NCHFP nie pozwala zwiększać udziału papryki i cebuli w sosie pomidorowym; brak procesu dla leczo. Przetestowane alternatywy: papryka sama w szybkowarze (SZY-039), sos bez mięsa (SZY-028)."
+    "[SZY*] Baza do leczo (papryka, cebula, pomidory): NCHFP nie pozwala zwiększać udziału papryki i cebuli w sosie pomidorowym; brak procesu dla leczo. Przetestowane alternatywy: papryka sama w szybkowarze (SZY-039), sos bez mięsa (SZY-028).",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -12879,7 +12887,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -12896,7 +12904,8 @@
    },
    "notes": [
     "[ACI] Bakłażan w sosie pomidorowym: niskokwasowe, brak przetestowanego procesu.",
-    "[SZY*] Bakłażan w sosie pomidorowym: USDA nie ma żadnego procesu dla bakłażana; mieszanina niskokwasowa."
+    "[SZY*] Bakłażan w sosie pomidorowym: USDA nie ma żadnego procesu dla bakłażana; mieszanina niskokwasowa.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -14301,7 +14310,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -14317,7 +14326,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Fasolka duszona z czosnkiem (z tłuszczem): wykracza poza przepis; dodatek tłuszczu niedozwolony. Przetestowana alternatywa: fasolka w wodzie, szybkowar (SZY-034)."
+    "[SZY*] Fasolka duszona z czosnkiem (z tłuszczem): wykracza poza przepis; dodatek tłuszczu niedozwolony. Przetestowana alternatywa: fasolka w wodzie, szybkowar (SZY-034).",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -14861,7 +14871,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -14879,7 +14889,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Groch z kapustą: kapusta (kiszona/świeża) z grochem, często z zasmażką; brak procesu, zagęstniki zakazane. Alternatywa: groch suchy wg SZY-030, kapusta osobno (kiszonka)."
+    "[SZY*] Groch z kapustą: kapusta (kiszona/świeża) z grochem, często z zasmażką; brak procesu, zagęstniki zakazane. Alternatywa: groch suchy wg SZY-030, kapusta osobno (kiszonka).",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -15231,7 +15242,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -15250,7 +15261,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Fasolka po bretońsku (tyndalizacja): tyndalizacja odrzucona; tradycyjna wersja (dużo kiełbasy, zasmażka) wykracza poza przepis. Przetestowany odpowiednik: fasola w sosie pomidorowym z kostką boczku (SZY-031), patrz beans-soy-v08."
+    "[SZY*] Fasolka po bretońsku (tyndalizacja): tyndalizacja odrzucona; tradycyjna wersja (dużo kiełbasy, zasmażka) wykracza poza przepis. Przetestowany odpowiednik: fasola w sosie pomidorowym z kostką boczku (SZY-031), patrz beans-soy-v08.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -15824,7 +15836,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -15840,7 +15852,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Tarte buraczki zasmażane: forma tarta i zasmażka (mąka) poza przepisem; NCHFP ma proces tylko dla buraków całych/kostki/plastrów (SZY-053). Wersja zakwaszona octem – ocena ACI."
+    "[SZY*] Tarte buraczki zasmażane: forma tarta i zasmażka (mąka) poza przepisem; NCHFP ma proces tylko dla buraków całych/kostki/plastrów (SZY-053). Wersja zakwaszona octem – ocena ACI.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -17596,7 +17609,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -17618,7 +17631,8 @@
    },
    "notes": [
     "[SZY*] Cebula duszona w oleju do słoików: niskokwasowe warzywo pod olejem w temperaturze pokojowej spełnia warunki wzrostu C. botulinum; brak procesu. Ocena OLE.",
-    "[OLE] Warzywo niskokwasowe w oleju; brak przetestowanego procesu domowego (zakwaszanie Idaho nie obejmuje tego warzywa). Wersja przechowalnicza = tylko ostrzeżenie; ewentualnie lodówka do 4 dni albo zamrażarka. Wersja „do słoików” z pasteryzacją: brak procesu (SZY)."
+    "[OLE] Warzywo niskokwasowe w oleju; brak przetestowanego procesu domowego (zakwaszanie Idaho nie obejmuje tego warzywa). Wersja przechowalnicza = tylko ostrzeżenie; ewentualnie lodówka do 4 dni albo zamrażarka. Wersja „do słoików” z pasteryzacją: brak procesu (SZY).",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -18193,7 +18207,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -18210,7 +18224,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Stifado cebulowe (cebulki w sosie pomidorowo-winnym z oliwą): brak przetestowanego procesu; NCHFP nie ma wekowania cebuli jako takiej (tylko jako dodatek w tomatoes with okra/zucchini)."
+    "[SZY*] Stifado cebulowe (cebulki w sosie pomidorowo-winnym z oliwą): brak przetestowanego procesu; NCHFP nie ma wekowania cebuli jako takiej (tylko jako dodatek w tomatoes with okra/zucchini).",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -19064,7 +19079,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -19080,7 +19095,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Daikon duszony w bulionie sojowym: brak procesu dla daikonu (USDA ma tylko rzepę/brukiew przez PSU); bulion sojowy nie zakwasza."
+    "[SZY*] Daikon duszony w bulionie sojowym: brak procesu dla daikonu (USDA ma tylko rzepę/brukiew przez PSU); bulion sojowy nie zakwasza.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -20255,7 +20271,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -20271,7 +20287,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Baza sałatki waldorfskiej (seler, jabłko, orzechy) w słoiku: brak procesu; jeśli w zalewie octowej – ACI."
+    "[SZY*] Baza sałatki waldorfskiej (seler, jabłko, orzechy) w słoiku: brak procesu; jeśli w zalewie octowej – ACI.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -20362,7 +20379,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -20378,7 +20395,8 @@
    },
    "notes": [
     "[SZY*] Sok z selera naciowego „pasteryzowany”: płynne warzywo niskokwasowe; brak przetestowanego procesu (seler występuje u NCHFP tylko jako dodatek w soku pomidorowo-warzywnym). Tylko świeży/lodówka/mrożenie.",
-    "[SLO] Sok z selera to produkt niskokwasowy; obszar SZY."
+    "[SLO] Sok z selera to produkt niskokwasowy; obszar SZY.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -22205,7 +22223,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -22223,7 +22241,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Kukurydza z fasolą w sosie meksykańskim: sucha fasola wyłączona z Mixed Vegetables; jako zupa (bez zagęszczania, fasola nawodniona) mieściłaby się w procedurze zup NCHFP (SZY-018/019) – gęsty sos nie."
+    "[SZY*] Kukurydza z fasolą w sosie meksykańskim: sucha fasola wyłączona z Mixed Vegetables; jako zupa (bez zagęszczania, fasola nawodniona) mieściłaby się w procedurze zup NCHFP (SZY-018/019) – gęsty sos nie.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -22334,7 +22353,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -22349,7 +22368,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Huitlacoche w słoiku: grzyb (głownia kukurydzy), brak jakiegokolwiek przetestowanego procesu; NCHFP dopuszcza tylko grzyby hodowlane typu pieczarka."
+    "[SZY*] Huitlacoche w słoiku: grzyb (głownia kukurydzy), brak jakiegokolwiek przetestowanego procesu; NCHFP dopuszcza tylko grzyby hodowlane typu pieczarka.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -23999,7 +24019,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -24017,7 +24037,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Leczo węgierskie: brak przetestowanego procesu; NCHFP zakazuje zwiększania udziału papryki i cebuli w sosach pomidorowych. Alternatywa: SZY-027 lub mrożenie."
+    "[SZY*] Leczo węgierskie: brak przetestowanego procesu; NCHFP zakazuje zwiększania udziału papryki i cebuli w sosach pomidorowych. Alternatywa: SZY-027 lub mrożenie.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -24038,7 +24059,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -24056,7 +24077,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Ratatouille (bakłażan, cukinia, papryka, oliwa): dynia letnia i bakłażan bez procesu; olej spoza przepisu. Mrożenie."
+    "[SZY*] Ratatouille (bakłażan, cukinia, papryka, oliwa): dynia letnia i bakłażan bez procesu; olej spoza przepisu. Mrożenie.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -24077,7 +24099,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -24095,7 +24117,8 @@
    },
    "notes": [
     "[ACI] Sałatka paprykowo-pieczarkowa w pomidorach: niskokwasowa mieszanina, brak przetestowanego procesu (NCHFP: nie zwiększać udziału papryki/grzybów w sosach pomidorowych).",
-    "[SZY*] Sałatka paprykowo-pieczarkowa w pomidorach: proporcje papryki i grzybów wyższe niż w przetestowanym sosie (zakaz zwiększania); jeśli z octem – ACI."
+    "[SZY*] Sałatka paprykowo-pieczarkowa w pomidorach: proporcje papryki i grzybów wyższe niż w przetestowanym sosie (zakaz zwiększania); jeśli z octem – ACI.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -24605,7 +24628,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -24622,7 +24645,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Adżapsandali (bakłażan, papryka, pomidory, olej): brak procesu USDA dla bakłażana i takich mieszanin."
+    "[SZY*] Adżapsandali (bakłażan, papryka, pomidory, olej): brak procesu USDA dla bakłażana i takich mieszanin.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -40414,7 +40438,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -40436,7 +40460,8 @@
    },
    "notes": [
     "[SZY*] Boczniaki w oleju z cebulą: niskokwasowe pod olejem (SZY-008), brak procesu; boczniak poza przepisem NCHFP. Ocena OLE.",
-    "[OLE] Boczniaki/duxelles pod olejem: przepis NCHFP obejmuje tylko małe całe pieczarki z octem. Bezpieczna alternatywa: grzyby podsmażone na tłuszczu i zamrożone (NCHFP)."
+    "[OLE] Boczniaki/duxelles pod olejem: przepis NCHFP obejmuje tylko małe całe pieczarki z octem. Bezpieczna alternatywa: grzyby podsmażone na tłuszczu i zamrożone (NCHFP).",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -48227,7 +48252,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -48247,7 +48272,8 @@
    },
    "notes": [
     "[SZY*] Szynka konserwowa w słoiku (tyndalizacja): tyndalizacja odrzucona; peklowany, ubity blok mięsa nie odpowiada przetestowanemu procesowi kawałków mięsa w płynie (SZY-041). Peklowanie – MIE.",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -48345,7 +48371,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -48362,7 +48388,8 @@
    },
    "notes": [
     "[SZY*] Wędzonka ze słoika: wędzone/peklowane mięso w słoiku – brak procesu USDA (dla wędzonych istnieje tylko proces ryb). Peklowanie i wędzenie – MIE.",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -48653,7 +48680,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -48673,7 +48700,8 @@
    },
    "notes": [
     "[SZY*] Mielonka z peklosolą: zwarta, ubita masa mięsna (bliżej puree niż uformowanych klopsików z bulionem, SZY-042); brak procesu; peklosól – MIE.",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -48695,7 +48723,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -48712,7 +48740,8 @@
    },
    "notes": [
     "[SZY*] Golonka w galarecie piwnej: duże kości (przepis każe je usunąć), piwo i galareta spoza przepisu; brak procesu.",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -48779,7 +48808,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -48798,7 +48827,8 @@
    },
    "notes": [
     "[SZY*] Gulasz wieprzowy: USDA nie ma przepisu na gulasz; zagęszczanie zakazane. Przetestowana alternatywa: kawałki mięsa z bulionem/sokiem pomidorowym (SZY-041), zagęścić przy podaniu.",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -48864,7 +48894,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -48881,7 +48911,8 @@
    "notes": [
     "[SZY*] Zimne nóżki (galareta) w słoiku: brak procesu; to produkt lodówkowy (MIE).",
     "[SLO] Galaretka mięsna w słoiku, obszar MIE/SZY.",
-    "[MIE] Galareta w słoiku: jeśli wekowana, bada SZY; jeśli tylko w lodówce, to potrawa na bieżąco."
+    "[MIE] Galareta w słoiku: jeśli wekowana, bada SZY; jeśli tylko w lodówce, to potrawa na bieżąco.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -49152,7 +49183,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -49172,7 +49203,8 @@
    },
    "notes": [
     "[SZY*] Boczek w słoiku (tyndalizacja w galarecie): tyndalizacja odrzucona; NCHFP każe usuwać nadmiar tłuszczu – boczek tego nie spełnia; brak procesu.",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -50708,7 +50740,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -50726,7 +50758,8 @@
    },
    "notes": [
     "[SZY*] Gulasz wołowy: jak pork-shoulder-neck-v11; alternatywa SZY-041.",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -50793,7 +50826,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -50812,7 +50845,8 @@
    "notes": [
     "[SZY*] Policzki w winie: sos winny, zwykle redukowany/zagęszczony; brak procesu. Alternatywa: SZY-041.",
     "[SLO] Mięso w słoiku, obszar MIE/SZY.",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -52272,7 +52306,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -52288,7 +52322,8 @@
    },
    "notes": [
     "[SZY*] Salceson w wersji słoikowej: zwarta masa podrobów i galarety, brak procesu. Wersje tradycyjne – MIE.",
-    "[MIE] Salceson parzony; wersja słoikowa: SZY. Bez przepisu."
+    "[MIE] Salceson parzony; wersja słoikowa: SZY. Bez przepisu.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -52310,7 +52345,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -52327,7 +52362,8 @@
    },
    "notes": [
     "[SZY*] Kaszanka słoikowa: kasza (skrobia) z krwią i podrobami, zwarta masa; ryż/zagęstniki zakazane w wekowanych zupach; brak procesu. Wersja parzona – MIE.",
-    "[MIE] Kaszanka parzona; wersja słoikowa: SZY. Bez przepisu."
+    "[MIE] Kaszanka parzona; wersja słoikowa: SZY. Bez przepisu.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -52349,7 +52385,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -52367,7 +52403,8 @@
    },
    "notes": [
     "[SZY*] Flaczki wołowe w rosole: procedura zup NCHFP obejmuje tylko składniki z własnym procesem – flaki (podroby) go nie mają; zwykle zasmażka. Brak procesu.",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -52389,7 +52426,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -52405,7 +52442,8 @@
    },
    "notes": [
     "[SZY*] Ozorki w galarecie: ozór nie jest wymieniony w procesie kawałków mięsa, galareta spoza przepisu.",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -52427,7 +52465,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -52443,7 +52481,8 @@
    },
    "notes": [
     "[SZY*] Żołądki drobiowe w sosie: NCHFP ma proces dla kurczaka/królika, nie dla podrobów; brak procesu.",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -52930,7 +52969,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -52949,7 +52988,8 @@
    "notes": [
     "[ACI] Paprykarz (ryba + ryż + pomidory) w słoiku: niskokwasowy; poza ACI.",
     "[SZY*] Paprykarz szczeciński (ryba, ryż, koncentrat): gęsta mieszanina z ryżem, brak procesu. Mrożenie.",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -52972,7 +53012,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-002",
@@ -52989,7 +53029,8 @@
    },
    "notes": [
     "[SZY*] Ryba po grecku: smażona ryba w warzywnym sosie pomidorowym; brak procesu (ryby przetestowane tylko surowe, bez płynu). Lodówka.",
-    "[MIE] Ryba po grecku: jeśli wekowana, bada SZY; inaczej potrawa z lodówki."
+    "[MIE] Ryba po grecku: jeśli wekowana, bada SZY; inaczej potrawa z lodówki.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -53405,7 +53446,7 @@
    "preservationMethod": null,
    "preservationMethodV0": "water-bath",
    "acidBasis": "low-acid",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -53421,7 +53462,8 @@
    },
    "notes": [
     "[SZY*] Karp w galarecie w słoiku: brak procesu (karp to ryba chuda, nie „fatty fish”; galareta spoza przepisu). Lodówka.",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów."
    ],
    "scope": "in",
    "publication": "ukryta",
