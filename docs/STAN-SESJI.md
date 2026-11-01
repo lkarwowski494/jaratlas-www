@@ -32,10 +32,13 @@ Przed decyzją sprawdź repo `lkarwowski494/trening`; pełna analogia = to samo 
 ## Hosting (tablica `2026-11-01-jaratlas-hosting`, ADR 0007 przyjęta)
 GitHub Pages teraz, jak apps4brew.com w Treningu. Droga wyjścia: Cloudflare Workers Paid 5 USD/mies. (100 000 plików) albo Pro 20–25 USD/mies. Cloudflare Pages Free odpada przy 35 językach (limit 20 000 plików, dziś ok. 20 800 stron).
 
+## Repo i domena (tablica `2026-11-01-jaratlas-przeniesienie-domena`)
+- Przeniesienie do czystego repo **przed pierwszą publikacją**; GitHub Pages i `site/adresy.json` żyją od początku w nowym repo. Plan według trening `docs/46-przeniesienie-1.0.md` (podgląd, decyzje, jeden commit, obecne repo → prywatne archiwum).
+- Domena `jaratlas.com` kupiona: RDAP Verisign 2026-11-01, rejestrator Porkbun, ważna do 2027-11-01, DNS Porkbun. Konfiguracja DNS pod Pages: krok właściciela w nowym repo.
+
 ## Decyzje czekające
-1. Moment przeniesienia do czystego repo (przed pierwszą publikacją albo po niej).
-2. Opublikowana karta, której źródło się zmieni: adres zostaje, treść aktualizowana.
-3. Domena (zakup) i workflow publikacji Pages: osobna zgoda.
+1. Opublikowana karta, której źródło się zmieni: adres zostaje, treść aktualizowana.
+2. Uruchomienie workflow publikacji Pages i zmiana DNS: osobna zgoda, w nowym repo.
 
 ## Następny krok
 Przegląd 07 w świeżym kontekście (gałąź `claude/happy-brown-yncplj`, od `de8b7d2`), potem 06: treść kart fali 1 i slugi `site/slugi/{lang}.json`.

@@ -3,7 +3,8 @@ Statyczna strona-katalog domowego przetwórstwa (wekowanie, kiszenie, mrożenie)
 
 ## Stan projektu (aktualizacja: 2026-11-01)
 - Etap: w budowie; szkielet generatora gotowy, 0 opublikowanych stron, dane użytkowników: brak
-- Sklep: nie dotyczy (strona WWW); hosting i domena: `[DO USTALENIA]` (ADR 0007)
+- Sklep: nie dotyczy (strona WWW); hosting GitHub Pages (ADR 0007); domena jaratlas.com (Porkbun, odnowienie przed 2027-11-01)
+- Przed pierwszą publikacją: przeniesienie do czystego repo (wzór: trening `docs/46-przeniesienie-1.0.md`)
 - Polityka języków: szeroka, 35 (fala 1: en, fr, es, de, it, pl)
 - Przegląd treści krytycznych: zastępczy (D-027), przegląd eksperta później (D-027 d)
 - Bramka opłacalności: tablica decyzji `2026-11-01-jaratlas-bramka-wynik` (rola 02)

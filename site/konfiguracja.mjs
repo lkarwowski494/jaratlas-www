@@ -5,7 +5,7 @@ export const JEZYKI = ['bg', 'cs', 'da', 'de', 'el', 'en', 'es', 'es-419', 'et',
 export const FALA_1 = ['en', 'fr', 'es', 'de', 'it', 'pl'];
 // Pisma niełacińskie: slug w swoim piśmie (ADR 0002).
 export const PISMA_NIELACINSKIE = ['bg', 'el', 'ja', 'ko', 'ru', 'sr', 'uk', 'zh-Hant'];
-// Domena: [DO USTALENIA] do zakupu (przekazanie §8). Bez końcowego ukośnika.
+// Domena: kupiona 2026-11-01 (Porkbun, ważna do 2027-11-01). Bez końcowego ukośnika.
 export const DOMENA = process.env.JARATLAS_DOMENA || 'https://jaratlas.com';
 // Google build-sitemap (odczyt 2026-11-01): „50MB (uncompressed) or 50,000 URLs”.
 export const LIMIT_ADRESOW_MAPY = 50000;

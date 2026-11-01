@@ -7,7 +7,7 @@ Stan: 2026-11-01. Kod: `site/konfiguracja.mjs` jest jedynym miejscem liczb i lis
 | `JEZYKI` | kody BCP 47 | 35 kodów | decyzja `2026-11-01-sloik-atlas-domena-jezyki` (przekazanie Słoika §4) |
 | `FALA_1` | kody BCP 47 | en, fr, es, de, it, pl | przekazanie Słoika §4 |
 | `PISMA_NIELACINSKIE` | kody BCP 47 | 8 kodów | ADR 0002 |
-| `DOMENA` | adres URL bez końcowego `/` | `https://jaratlas.com`, nadpisanie zmienną `JARATLAS_DOMENA` | `[DO USTALENIA]`: zakup domeny (przekazanie §8) |
+| `DOMENA` | adres URL bez końcowego `/` | `https://jaratlas.com`, nadpisanie zmienną `JARATLAS_DOMENA` | domena kupiona 2026-11-01 (Porkbun, ważna do 2027-11-01; RDAP Verisign), tablica `2026-11-01-jaratlas-przeniesienie-domena` |
 | `LIMIT_ADRESOW_MAPY` | adresy na plik mapy | 50 000 | Google, „Build and submit a sitemap”: „50MB (uncompressed) or 50,000 URLs” (odczyt 2026-11-01, rejestr E0) |
 | limit 50 MB pliku mapy | MB | nieegzekwowany | rachunek: 50 000 × ok. 100 B na wpis ≈ 5 MB < 50 MB, więc limit adresów zadziała pierwszy (teoretyczny) |
 | `ZNACZNIKI_ZASLEPEK` | wzorce tekstu | `[PRZYKŁAD]`, `[DO USTALENIA]`, `TODO`, `lorem ipsum` | konwencje projektu (R2) |
