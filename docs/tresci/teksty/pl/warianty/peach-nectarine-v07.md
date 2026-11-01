@@ -12,7 +12,7 @@ NCHFP ostrzega, żeby w tradycyjnych przepisach nie zmniejszać cukru: za mało 
 
 Reguła JarAtlas (ostrożna): używaj brzoskwiń o żółtym miąższu, bo NCHFP nie ma przetestowanego procesu wekowania brzoskwiń o białym miąższu, a przepis na dżem nie mówi, czy jego badanie je obejmowało. [T:SLO-144,SLO-127]
 
-Reguła JarAtlas: ten przepis NCHFP dotyczy brzoskwiń; nie obejmuje nektarynek. [T:SLO-144]
+Reguła JarAtlas: ten przepis NCHFP dotyczy brzoskwiń; nie obejmuje nektarynek, więc nie zastępuj nimi brzoskwiń. [T:SLO-144]
 
 ## Przygotowanie
 

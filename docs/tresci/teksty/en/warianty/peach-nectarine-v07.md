@@ -12,7 +12,7 @@ NCHFP warns not to reduce the sugar in traditional recipes: too little sugar pre
 
 JarAtlas rule (cautious): use yellow-flesh peaches, because NCHFP has no tested canning process for white-flesh peaches and the jam recipe does not say whether its testing covered them. [T:SLO-144,SLO-127]
 
-JarAtlas rule: this NCHFP recipe is for peaches; it does not cover nectarines. [T:SLO-144]
+JarAtlas rule: this NCHFP recipe is for peaches; it does not cover nectarines, so do not use them in place of peaches. [T:SLO-144]
 
 ## Preparing
 
