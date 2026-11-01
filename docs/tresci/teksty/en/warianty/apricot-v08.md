@@ -2,6 +2,10 @@
 
 This card describes the NCHFP method for canning halved or sliced apricots in a boiling-water bath. [T:SLO-097]
 
+## !
+
+- Apricot pH varies: the FDA list gives 3.30–4.80, so the upper end is above 4.6. [T:E3-002] NCHFP tests this process without added acid, and JarAtlas knows no tested amount of acid for this recipe; follow the recipe exactly, or freeze the apricots if you prefer the more cautious option. [T:E3-002]
+
 ## Preparing
 
 Choose firm, well-colored, mature apricots of a quality fit for eating fresh. [T:ACI-218]

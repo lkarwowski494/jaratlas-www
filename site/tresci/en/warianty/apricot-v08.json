@@ -1,7 +1,12 @@
 {
   "tytul": "Canned apricots, halved or sliced (NCHFP)",
   "wstep": "This card describes the NCHFP method for canning halved or sliced apricots in a boiling-water bath.",
-  "ostrzezenia": [],
+  "ostrzezenia": [
+    {
+      "claim": "E3-002",
+      "tekst": "Apricot pH varies: the FDA list gives 3.30–4.80, so the upper end is above 4.6. NCHFP tests this process without added acid, and JarAtlas knows no tested amount of acid for this recipe; follow the recipe exactly, or freeze the apricots if you prefer the more cautious option."
+    }
+  ],
   "sekcje": [
     {
       "naglowek": "Preparing",

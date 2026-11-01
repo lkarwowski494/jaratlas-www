@@ -46,6 +46,20 @@ test('produkt graniczny (np. pomidor) w kąpieli wodnej wymaga zakwaszenia', () 
   assert.ok(has(errs(c), /tomato-v01.*graniczn/));
 });
 
+test('produkt graniczny bez zakwaszenia tylko z jawnym wyjątkiem: ok-zrodlo, przepis szczebla 1 i wymagane ostrzeżenie (06, 2026-11-02, morele)', () => {
+  const v = () => ({ id: 'tomato-v02', productId: 'tomato', processFamilyId: 'canned-foods', preservationMethod: 'water-bath', acidBasis: 'natural-acid', safetyStatus: 'ok-zrodlo', claims: ['T-1'], sources: [recipe], publication: 'ukryta', scope: 'in', acidityException: { warning: 'T-1' }, requiredWarnings: ['T-1'] });
+  const ok = base(); ok.variants.push(v());
+  assert.deepEqual(errs(ok), []);
+  const bezOstrz = base(); bezOstrz.variants.push({ ...v(), requiredWarnings: [] });
+  assert.ok(has(errs(bezOstrz), /tomato-v02.*graniczn/));
+  const status = base(); status.variants.push({ ...v(), safetyStatus: 'do-researchu' });
+  assert.ok(has(errs(status), /tomato-v02.*graniczn/));
+  const szczebel = base(); szczebel.variants.push({ ...v(), sources: [{ ...recipe, szczebel: 3 }] });
+  assert.ok(has(errs(szczebel), /tomato-v02.*graniczn/));
+  const nieznane = base(); nieznane.variants.push({ ...v(), acidityException: { warning: 'T-9' }, requiredWarnings: ['T-9'] });
+  assert.ok(has(errs(nieznane), /tomato-v02.*T-9/));
+});
+
 test('ok-zrodlo bez źródła to błąd', () => {
   const c = base(); c.variants[0].sources = [];
   assert.ok(has(errs(c), /apple-v01.*ok-zrodlo.*źródł/));

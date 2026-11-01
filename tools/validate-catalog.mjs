@@ -70,7 +70,11 @@ export function validateCatalog(cat, rejestr = []) {
     if (p?.acidity === 'low-acid' && v.acidBasis === 'natural-acid') errors.push(`${g}: produkt niskokwasowy nie może mieć acidBasis natural-acid`);
     if (v.preservationMethod === 'water-bath') {
       if (v.acidBasis === 'low-acid' || v.acidBasis === 'not-applicable') errors.push(`${g}: wariant niskokwasowy z metodą water-bath`);
-      if (p?.acidity === 'borderline' && v.acidBasis === 'natural-acid') errors.push(`${g}: produkt graniczny w water-bath wymaga zakwaszenia (acidBasis acidified)`);
+      // Wyjątek (06, 2026-11-02, morele): przetestowany przepis szczebla 1 bez dodatku kwasu przy produkcie granicznym tylko jawnie,
+      // z ostrzeżeniem wymaganym na karcie; dlaczego wąsko: reguła chroni przed niezakwaszonymi pomidorami i nie może się rozmyć.
+      const wyj = v.acidityException;
+      const wyjOk = wyj?.warning && v.safetyStatus === 'ok-zrodlo' && (v.requiredWarnings ?? []).includes(wyj.warning) && (v.sources ?? []).some((z) => z.szczebel === 1);
+      if (p?.acidity === 'borderline' && v.acidBasis === 'natural-acid' && !wyjOk) errors.push(`${g}: produkt graniczny w water-bath wymaga zakwaszenia (acidBasis acidified) albo wyjątku acidityException (ok-zrodlo, przepis szczebla 1, ostrzeżenie w requiredWarnings)`);
     }
     for (const id of v.claims ?? []) claimOk(id, g);
     for (const id of v.requiredWarnings ?? []) claimOk(id, `${g} ostrzeżenie`);

@@ -26339,5 +26339,50 @@
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "E3-002",
+  "twierdzenie": "Ostrożne ostrzeżenie JarAtlas dla moreli w słoikach: według listy FDA pH moreli wynosi 3,30–4,80, więc górna granica jest powyżej 4,6; NCHFP podaje przetestowany proces kąpieli wodnej bez dodatku kwasu, a JarAtlas nie zna przetestowanej ilości kwasu dla tego przepisu; ostrożniejsza możliwość to mrożenie moreli według NCHFP.",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Apricots                                            3.30 - 4.80",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricots-Halved or Sliced",
+    "cytat": "Hot Pints 20 min 25 30 35 Quarts 25 30 35 40 Raw Pints 25 30 35 40 Quarts 30 35 40 45",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e5c5c57c8540"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-apricots/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-apricots",
+    "cytat": "Syrup Pack  – Use cold 40 percent  syrup .",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "20c2fef18901"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła: NCHFP (szczebel 1, przetestowany przepis) nie dodaje kwasu i nie ostrzega o odmianach; lista FDA podaje zakres pH części jadalnej w stanie naturalnym. Przepisy SDSU Extension i UC Master Food Preserver (odczyt 2026-11-02) też nie dodają kwasu do moreli w syropie (sok z cytryny tylko w dżemach), więc karta nie podaje dawki kwasu. Punkt dla eksperta (D-027 d). Odrzucone: zakwaszenie bez źródła dawki; status do-researchu (przepis szczebla 1 istnieje); brak uwagi.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "E3",
+  "decyzja": "2026-11-02-jaratlas-06-katalog-p4",
+  "zalezy_od": [
+   "ACI-135",
+   "ACI-072",
+   "FRZ-036"
+  ]
  }
 ]

@@ -2,6 +2,10 @@
 
 Ta karta opisuje metodę NCHFP wekowania połówek albo plastrów moreli w kąpieli wodnej. [T:SLO-097]
 
+## !
+
+- pH moreli bywa różne: lista FDA podaje 3,30–4,80, więc górna granica jest powyżej 4,6. [T:E3-002] NCHFP testuje ten proces bez dodatku kwasu, a JarAtlas nie zna przetestowanej ilości kwasu dla tego przepisu; trzymaj się dokładnie przepisu albo, jeśli wolisz ostrożniej, zamroź morele. [T:E3-002]
+
 ## Przygotowanie
 
 Wybierz jędrne, dobrze wybarwione, dojrzałe morele w jakości do jedzenia na surowo. [T:ACI-218]

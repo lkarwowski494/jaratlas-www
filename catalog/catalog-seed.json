@@ -1,5 +1,5 @@
 {
- "version": "1.0.3",
+ "version": "1.0.4",
  "generated": "2026-11-01",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -29182,7 +29182,7 @@
    "id": "peach-nectarine-v06",
    "productId": "peach-nectarine",
    "name": {
-    "pl": "połówki brzoskwiń w lekkim syropie"
+    "pl": "połówki lub plastry brzoskwiń o żółtym miąższu w syropie"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 235,
@@ -29209,7 +29209,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Peaches-Halved or Sliced (NCHFP)."
+    "[SLO*] Peaches-Halved or Sliced (NCHFP).",
+    "[06 2026-11-02] Przepis NCHFP dotyczy brzoskwiń o żółtym miąższu, nie nektarynek; syrop bardzo lekki, lekki albo średni (dawniej „w lekkim syropie”)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29238,7 +29239,8 @@
     "SLO-003",
     "SLO-012",
     "SLO-018",
-    "SLO-074"
+    "SLO-074",
+    "SLO-144"
    ],
    "sources": [
     {
@@ -29256,7 +29258,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Peach Jam Pectin (NCHFP)."
+    "[SLO*] Peach Jam Pectin (NCHFP).",
+    "[06 2026-11-02] Przepis NCHFP dotyczy brzoskwiń (o żółtym miąższu, reguła JarAtlas SLO-144), nie nektarynek."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29792,13 +29795,14 @@
    "lineV0": 239,
    "processFamilyId": "canned-foods",
    "preservationMethod": "water-bath",
-   "acidBasis": "acidified",
+   "acidBasis": "natural-acid",
    "safetyStatus": "ok-zrodlo",
    "claims": [
     "ACI-072",
     "ACI-067",
     "ACI-135",
-    "SLO-097"
+    "SLO-097",
+    "E3-002"
    ],
    "sources": [
     {
@@ -29817,7 +29821,8 @@
    },
    "notes": [
     "[ACI*] NCHFP Apricots halved w syropie.",
-    "[SLO] Apricots-Halved or Sliced (NCHFP)."
+    "[SLO] Apricots-Halved or Sliced (NCHFP).",
+    "[06 2026-11-02] Przepis NCHFP bez dodatku kwasu: acidBasis natural-acid z wyjątkiem acidityException i ostrzeżeniem E3-002 (pH FDA do 4,80); punkt dla eksperta (D-027 d)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29825,7 +29830,14 @@
     "ACI",
     "SLO"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "acidityException": {
+    "warning": "E3-002",
+    "decyzja": "2026-11-02-jaratlas-06-katalog-p4"
+   },
+   "requiredWarnings": [
+    "E3-002"
+   ]
   },
   {
    "id": "apricot-v09",
