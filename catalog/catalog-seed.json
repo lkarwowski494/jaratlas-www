@@ -1,5 +1,5 @@
 {
- "version": "1.0.0-e1",
+ "version": "1.0.0",
  "generated": "2026-11-01",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -1367,7 +1367,9 @@
    "researchedBy": [
     "SUS"
    ],
-   "allowedMethods": []
+   "allowedMethods": [
+    "freezer"
+   ]
   },
   {
    "id": "fermented-beverages",
@@ -12735,7 +12737,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: danie do zjedzenia w ciągu kilku dni, nie przetwór",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "eggplant-v11",
@@ -13765,7 +13771,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: wyrób cukierniczy (owoc w czekoladzie), nie przetwór utrwalany",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "tomatillo-v11",
@@ -14554,7 +14564,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: zaczyn piekarski",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "peas-chickpeas-v07",
@@ -14820,7 +14834,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: przekąska prażona/pieczona, nie przetwór",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "peas-chickpeas-v14",
@@ -14907,7 +14925,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: mielenie kupnych suchych nasion, nie utrwalanie",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "beans-soy-v01",
@@ -15307,7 +15329,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: pasta kanapkowa na bieżąco",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "beans-soy-v12",
@@ -17533,7 +17559,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: smażona cebula jako dodatek na bieżąco; jeśli w oleju na zapas, OLE",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "onion-v13",
@@ -22966,7 +22996,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: dodatek do potrawy na bieżąco, nie przetwór",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "capers-v10",
@@ -24706,7 +24740,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: dodatek na bieżąco, nie przetwór do przechowywania",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "asian-american-mix-v10",
@@ -30603,7 +30641,12 @@
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
-   ]
+   ],
+   "retired": {
+    "reason": "rozdzielony na raspberry-blackberry-v16 i raspberry-blackberry-v17 (dwa procesy w jednej pozycji v0)",
+    "replacedBy": "raspberry-blackberry-v16",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "raspberry-blackberry-v02",
@@ -33986,7 +34029,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: hydrolat/napar, brak rodziny w słowniku (propozycja w raporcie)",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "rosehip-rowan-v06",
@@ -38251,7 +38298,11 @@
    "researchedBy": [
     "SZY",
     "SLO"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: wyrób cukierniczy (krem orzechowy), nie typowy przetwór owocowy; do decyzji redakcji",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "walnut-nuts-v09",
@@ -38281,7 +38332,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: prażenie orzechów to krok kulinarny, nie utrwalanie",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "walnut-nuts-v10",
@@ -38311,7 +38366,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: wyrób cukierniczy, nie przetwór",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "boletes-v01",
@@ -41973,7 +42032,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: zaczyn piekarski",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "koji-ferments-v12",
@@ -43957,7 +44020,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "MLE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: napój przygotowywany na bieżąco z gotowego jogurtu",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "yogurt-skyr-v06",
@@ -44231,7 +44298,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "MLE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: napój podawany od razu, nie przetwór",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "kefir-cream-v01",
@@ -44349,7 +44420,12 @@
    "researchedBy": [
     "SZY",
     "MLE"
-   ]
+   ],
+   "retired": {
+    "reason": "rozdzielony na kefir-cream-v13 i kefir-cream-v14 (dwa procesy w jednej pozycji v0)",
+    "replacedBy": "kefir-cream-v14",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "kefir-cream-v04",
@@ -44660,7 +44736,11 @@
    "researchedBy": [
     "NAP",
     "MLE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: napój mieszany na bieżąco",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "quark-acid-cheese-v01",
@@ -45076,7 +45156,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "MLE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: danie podawane od razu, nie przetwór",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "quark-acid-cheese-v12",
@@ -45223,7 +45307,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "MLE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: deser na bieżąco",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "fresh-brined-cheese-v04",
@@ -47557,7 +47645,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: danie pieczone na bieżąco",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "pork-loin-ham-v07",
@@ -48119,7 +48211,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: danie na bieżąco (barbecue)",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "pork-shoulder-neck-v07",
@@ -50579,7 +50675,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: etap przygotowania mięsa, nie przetwór",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "poultry-v01",
@@ -52051,7 +52151,11 @@
     "ACI",
     "SLO",
     "MIE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: danie z gotowych płatów śledziowych",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "sea-fish-v04",
@@ -52127,7 +52231,11 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: danie z gotowych płatów śledziowych",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "sea-fish-v06",
@@ -52197,7 +52305,11 @@
    "researchedBy": [
     "NAP",
     "MIE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: danie z gotowych płatów śledziowych",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "sea-fish-v08",
@@ -52238,7 +52350,12 @@
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
-   ]
+   ],
+   "retired": {
+    "reason": "rozdzielony na sea-fish-v15 i sea-fish-v16 (dwa procesy w jednej pozycji v0)",
+    "replacedBy": "sea-fish-v16",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "sea-fish-v09",
@@ -53163,7 +53280,11 @@
     "ACI",
     "SZY",
     "MIE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: dodatek przygotowywany na bieżąco",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "eggs-v05",
@@ -53303,7 +53424,11 @@
    "researchedBy": [
     "ACI",
     "MIE"
-   ]
+   ],
+   "retired": {
+    "reason": "poza zakresem: danie na bieżąco",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
   },
   {
    "id": "eggs-v09",
@@ -53372,6 +53497,3183 @@
    "researchedBy": [
     "FER",
     "MIE"
+   ],
+   "retired": {
+    "reason": "poza zakresem: sos przygotowywany na bieżąco",
+    "decision": "2026-11-01-jaratlas-katalog-v1-e1"
+   }
+  },
+  {
+   "id": "kefir-cream-v13",
+   "productId": "kefir-cream",
+   "groupV0": "Fermentacja mleka",
+   "lineV0": 394,
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "scope": "in",
+   "publication": "ukryta",
+   "splitFrom": "kefir-cream-v03",
+   "researchedBy": [
+    "SZY",
+    "MLE"
+   ],
+   "name": {
+    "pl": "zsiadłe mleko z mleka niepasteryzowanego (samoistne kwaśnienie)"
+   },
+   "processFamilyId": "dairy-cheese",
+   "preservationMethod": "refrigerator",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "MLE-001",
+    "MLE-002",
+    "MLE-004",
+    "MLE-005",
+    "MLE-003",
+    "MLE-009",
+    "MLE-012",
+    "MLE-011",
+    "MLE-014",
+    "MLE-021",
+    "MLE-017",
+    "MLE-018",
+    "MLE-019",
+    "MLE-020"
+   ],
+   "sources": [],
+   "notes": [
+    "[E2] Ścieżka z mleka surowego z kefir-cream-v03 (MLE: produkt wysokiego ryzyka wg FDA)."
+   ]
+  },
+  {
+   "id": "kefir-cream-v14",
+   "productId": "kefir-cream",
+   "groupV0": "Fermentacja mleka",
+   "lineV0": 394,
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "scope": "in",
+   "publication": "ukryta",
+   "splitFrom": "kefir-cream-v03",
+   "researchedBy": [
+    "SZY",
+    "MLE"
+   ],
+   "name": {
+    "pl": "zsiadłe mleko z mleka pasteryzowanego, zaszczepiane kulturą"
+   },
+   "processFamilyId": "dairy-cheese",
+   "preservationMethod": "refrigerator",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "do-researchu",
+   "claims": [],
+   "sources": [],
+   "notes": [
+    "[E2] Ścieżka szczepiona z kefir-cream-v03; brak przetestowanego przepisu domowego (MLE)."
+   ]
+  },
+  {
+   "id": "sea-fish-v15",
+   "productId": "sea-fish",
+   "groupV0": "Wędzenie i słoiki ciśnieniowe",
+   "lineV0": 463,
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "scope": "in",
+   "publication": "ukryta",
+   "splitFrom": "sea-fish-v08",
+   "researchedBy": [
+    "MIE"
+   ],
+   "name": {
+    "pl": "łosoś wędzony na zimno"
+   },
+   "processFamilyId": "fish-curing-smoking",
+   "preservationMethod": "refrigerator",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "MIE-059",
+    "MIE-060",
+    "MIE-076",
+    "MIE-077",
+    "MIE-063",
+    "MIE-062",
+    "MIE-046",
+    "MIE-052",
+    "MIE-074",
+    "MIE-079"
+   ],
+   "sources": [],
+   "notes": [
+    "[E2] Część „na zimno” z sea-fish-v08: temperatury nie zabijają bakterii (MIE-076), C. botulinum typu E rośnie od 3,3 °C (MIE-059)."
+   ]
+  },
+  {
+   "id": "sea-fish-v16",
+   "productId": "sea-fish",
+   "groupV0": "Wędzenie i słoiki ciśnieniowe",
+   "lineV0": 463,
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "scope": "in",
+   "publication": "ukryta",
+   "splitFrom": "sea-fish-v08",
+   "researchedBy": [
+    "MIE"
+   ],
+   "name": {
+    "pl": "łosoś wędzony na gorąco (stremel)"
+   },
+   "processFamilyId": "fish-curing-smoking",
+   "preservationMethod": "refrigerator",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "MIE-071",
+    "MIE-072",
+    "MIE-073",
+    "MIE-074",
+    "MIE-061",
+    "MIE-069",
+    "MIE-079"
+   ],
+   "sources": [
+    {
+     "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+     "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish",
+     "cytat": "The internal temperature of the fish must reach 160",
+     "odczyt": "2026-11-01",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/340862.pdf",
+     "miejsce": "Univ. of Alaska Fairbanks FNH-00325 Smoking Fish at Home (kopia UC ANR)",
+     "cytat": "Cold smoke temperatures are not hot enough to",
+     "odczyt": "2026-11-01",
+     "szczebel": 3
+    }
+   ],
+   "notes": [
+    "[E2] Część „na gorąco” z sea-fish-v08; przepis jak freshwater-fish-v01 (wędzenie ryb na gorąco, MIE-071)."
+   ]
+  },
+  {
+   "id": "raspberry-blackberry-v16",
+   "productId": "raspberry-blackberry",
+   "groupV0": "Ocet i fermentacja",
+   "lineV0": 254,
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "scope": "in",
+   "publication": "ukryta",
+   "splitFrom": "raspberry-blackberry-v01",
+   "researchedBy": [
+    "NAP"
+   ],
+   "name": {
+    "pl": "ocet malinowy macerowany (na occie kupnym)"
+   },
+   "processFamilyId": "vinegar-making",
+   "preservationMethod": "refrigerator",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "NAP-037",
+    "NAP-038",
+    "NAP-039",
+    "NAP-040",
+    "NAP-041",
+    "NAP-042",
+    "NAP-043"
+   ],
+   "sources": [
+    {
+     "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+     "miejsce": "Andress & Harrison, Preserving Food: Flavored Vinegars, UGA/NCHFP FDNS-E-43",
+     "cytat": "safety, use only commercially produced vinegars.",
+     "odczyt": "2026-11-01",
+     "szczebel": 3
+    }
+   ],
+   "notes": [
+    "[E2] Wersja macerowana z raspberry-blackberry-v01 (UGA/NCHFP Raspberry Vinegar)."
+   ]
+  },
+  {
+   "id": "raspberry-blackberry-v17",
+   "productId": "raspberry-blackberry",
+   "groupV0": "Ocet i fermentacja",
+   "lineV0": 254,
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "scope": "in",
+   "publication": "ukryta",
+   "splitFrom": "raspberry-blackberry-v01",
+   "researchedBy": [
+    "NAP"
+   ],
+   "name": {
+    "pl": "żywy ocet malinowy (fermentowany)"
+   },
+   "processFamilyId": "vinegar-making",
+   "preservationMethod": null,
+   "acidBasis": "not-applicable",
+   "safetyStatus": "do-researchu",
+   "claims": [],
+   "sources": [],
+   "notes": [
+    "[E2] Wersja fermentowana z raspberry-blackberry-v01; domowego octu nie używać do marynat (NAP)."
+   ]
+  },
+  {
+   "id": "white-cabbage-v17",
+   "productId": "white-cabbage",
+   "name": {
+    "pl": "kapusta biała mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-001",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-cabbage-or-chinese-cabbage/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-cabbage-or-chinese-cabbage",
+     "cytat": "Water blanch 1½ minutes.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "b2d0f6d70996"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "red-savoy-cabbage-v13",
+   "productId": "red-savoy-cabbage",
+   "name": {
+    "pl": "kapusta czerwona lub włoska mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-001",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-cabbage-or-chinese-cabbage/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-cabbage-or-chinese-cabbage",
+     "cytat": "Water blanch 1½ minutes.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "b2d0f6d70996"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "napa-cabbage-v16",
+   "productId": "napa-cabbage",
+   "name": {
+    "pl": "kapusta pekińska mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-001",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-cabbage-or-chinese-cabbage/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-cabbage-or-chinese-cabbage",
+     "cytat": "Water blanch 1½ minutes.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "b2d0f6d70996"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "cauliflower-v14",
+   "productId": "cauliflower",
+   "name": {
+    "pl": "kalafior mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-002",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-cauliflower/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-cauliflower",
+     "cytat": "Water  blanch  for 3 minutes in water containing 4 teaspoons salt per gallon water.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "f58109ecf784"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "broccoli-v12",
+   "productId": "broccoli",
+   "name": {
+    "pl": "brokuł mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-003",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-broccoli/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-broccoli",
+     "cytat": "Water  blanch  3 minutes in boiling water or steam  blanch  5 minutes.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "56d944b111df"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "brussels-kohlrabi-v13",
+   "productId": "brussels-kohlrabi",
+   "name": {
+    "pl": "brukselka mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-004",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-brussels-sprouts/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-brussels-sprouts",
+     "cytat": "Water  blanch  small heads 3 minutes, medium heads 4 minutes and large heads 5 minutes.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "d3a8cbb2b9ee"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "brussels-kohlrabi-v14",
+   "productId": "brussels-kohlrabi",
+   "name": {
+    "pl": "kalarepa mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-005",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-kohlrabi/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-kohlrabi",
+     "cytat": "Wash and peel off the tough bark.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "1a9e693e8006"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "zucchini-v17",
+   "productId": "zucchini",
+   "name": {
+    "pl": "cukinia mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-006",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-summer-squash/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-summer-squash",
+     "cytat": "Wash and cut in 1/2-inch slices.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "ba2232f05ce9"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "pattypan-squash-v11",
+   "productId": "pattypan-squash",
+   "name": {
+    "pl": "patison mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-006",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-summer-squash/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-summer-squash",
+     "cytat": "Wash and cut in 1/2-inch slices.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "ba2232f05ce9"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "pumpkin-v17",
+   "productId": "pumpkin",
+   "name": {
+    "pl": "dynia mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-007",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-pumpkin/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-pumpkin",
+     "cytat": "Wash, cut into cooking-size sections and remove seeds.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "90b793430ad7"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "leafy-greens-v13",
+   "productId": "leafy-greens",
+   "name": {
+    "pl": "szpinak i boćwina mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-008",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-greens-including-spinach/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-greens-including-spinach",
+     "cytat": "Wash thoroughly and cut off woody stems.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "ffecedbed162"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "tomato-v19",
+   "productId": "tomato",
+   "name": {
+    "pl": "pomidory mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-009",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-tomatoes/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-tomatoes",
+     "cytat": "Raw  – Wash and dip in boiling water for 30 seconds to loosen skins.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "3dc746cca85c"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "green-cherry-tomato-v15",
+   "productId": "green-cherry-tomato",
+   "name": {
+    "pl": "zielone pomidory mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-010",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-green-tomatoes/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-green-tomatoes",
+     "cytat": "Wash, core, and slice 1/4-inch thick.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "9142916bac61"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "bell-pepper-v19",
+   "productId": "bell-pepper",
+   "name": {
+    "pl": "papryka słodka mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-011",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-bell-or-sweet-peppers/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-bell-or-sweet-peppers",
+     "cytat": "Wash, cut out stems, cut in half and remove seeds.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "58a3bf94e4ab"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "eggplant-v16",
+   "productId": "eggplant",
+   "name": {
+    "pl": "bakłażan mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-012",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-eggplant/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-eggplant",
+     "cytat": "Wash, peel and slice 1/3-inch thick.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "a5b8d4b72209"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "potato-sunchoke-v14",
+   "productId": "potato-sunchoke",
+   "name": {
+    "pl": "młode ziemniaki mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-013",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-new-irish-potatoes/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-new-irish-potatoes",
+     "cytat": "Water  blanch  for 3 to 5 minutes, depending on the size.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "319398d0b1d0"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "green-beans-v15",
+   "productId": "green-beans",
+   "name": {
+    "pl": "fasolka szparagowa mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-014",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-beans-green-snap-or-wax/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-beans-green-snap-or-wax",
+     "cytat": "Wash in cold water, snip and cut into 2 to 4-inch lengths.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "4a5f223dc839"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "peas-chickpeas-v16",
+   "productId": "peas-chickpeas",
+   "name": {
+    "pl": "zielony groszek mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-015",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-green-peas/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-green-peas",
+     "cytat": "Wash and shell; water  blanch  1 1/2 minutes, cool and drain.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "d6dfe2dc9558"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "peas-chickpeas-v17",
+   "productId": "peas-chickpeas",
+   "name": {
+    "pl": "groszek cukrowy w strąkach mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-016",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-edible-pea-pods/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-edible-pea-pods",
+     "cytat": "Water  blanch  11/2 minutes for small pods; 2 minutes for large pods.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "629c7be8d7de"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "beetroot-v17",
+   "productId": "beetroot",
+   "name": {
+    "pl": "buraki mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-017",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-beets/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-beets",
+     "cytat": "Wash and sort according to size.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "12a3a535b90e"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "carrot-v16",
+   "productId": "carrot",
+   "name": {
+    "pl": "marchew mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-018",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-carrots/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-carrots",
+     "cytat": "Water  blanch  small whole carrots 5 minutes, diced or sliced 2 minutes and lengthwise strips 2 minutes.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "71c653d2bd01"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "garlic-v17",
+   "productId": "garlic",
+   "name": {
+    "pl": "czosnek w oleju mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-019",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-garlic-in-oil",
+     "cytat": "It may be frozen for long term storage for up to several months.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "d977de150cb6"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "onion-v15",
+   "productId": "onion",
+   "name": {
+    "pl": "cebula pokrojona mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-020",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-onions/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-onions",
+     "cytat": "No blanching is required.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "c559b9e70a5d"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1).",
+    "Uwaga ze źródła: „Freezing is usually not recommended for preserving whole onions”; wariant dotyczy cebuli pokrojonej."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "celeriac-celery-v13",
+   "productId": "celeriac-celery",
+   "name": {
+    "pl": "seler naciowy mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-021",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-celery/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-celery",
+     "cytat": "Wash thoroughly, trim and cut stalks into l-inch lengths.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "6ab9f42133b4"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "parsnip-parsley-v11",
+   "productId": "parsnip-parsley",
+   "name": {
+    "pl": "pasternak mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-022",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-turnips-or-parsnips/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-turnips-or-parsnips",
+     "cytat": "Wash, peel and cut into 1/2-inch cubes.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "1d13566df04c"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "turnip-rutabaga-v11",
+   "productId": "turnip-rutabaga",
+   "name": {
+    "pl": "brukiew mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-023",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-rutabagas/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-rutabagas",
+     "cytat": "Cubed – Cut into cubes and water  blanch  3 minutes.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "7fb606c4c5a5"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "asparagus-v11",
+   "productId": "asparagus",
+   "name": {
+    "pl": "szparagi mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-024",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-asparagus/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-asparagus",
+     "cytat": "Wash thoroughly and sort into sizes.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "674d3687f89c"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "fennel-artichoke-v11",
+   "productId": "fennel-artichoke",
+   "name": {
+    "pl": "karczochy mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-025",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-artichokes/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-artichokes",
+     "cytat": "Wash hearts in cold water and drain.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "adc352c6a76f"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "corn-v12",
+   "productId": "corn",
+   "name": {
+    "pl": "kukurydza mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-026",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-corn/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-corn",
+     "cytat": "Corn-on-the-cob  – Water  blanch  small ears (1¼ inches or less in diameter) 7 minutes, medium ears (1¼ to 1½ inches in diameter) 9 minutes and large ears (over 1½ inches in diameter) 11 minutes.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "2dc5a6573063"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "garden-herbs-v15",
+   "productId": "garden-herbs",
+   "name": {
+    "pl": "zioła świeże mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-027",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-fresh-herbs/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-fresh-herbs",
+     "cytat": "Wrap a few sprigs or leaves in freezer wrap and place in a freezer bag.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "0ee2594c04bd"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "garden-herbs-v16",
+   "productId": "garden-herbs",
+   "name": {
+    "pl": "pesto mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-028",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-pesto/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-pesto",
+     "cytat": "It may be frozen for long term storage.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "aa4dbad6bf30"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "cultivated-mushrooms-v13",
+   "productId": "cultivated-mushrooms",
+   "name": {
+    "pl": "pieczarki mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-029",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-mushrooms/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-mushrooms",
+     "cytat": "Pack into containers, leaving 1/2-inch headspace.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "ed0e857fcaaa"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "apple-v19",
+   "productId": "apple",
+   "name": {
+    "pl": "jabłka mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-030",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-apples/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-apples",
+     "cytat": "A sugar or dry pack is good for pie making.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "687de6dc4b55"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "pear-v15",
+   "productId": "pear",
+   "name": {
+    "pl": "gruszki mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-031",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-pears/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-pears",
+     "cytat": "Slice medium pears into twelfths, large ones into sixteenths.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "9b3ae0ec5b08"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "plum-v19",
+   "productId": "plum",
+   "name": {
+    "pl": "śliwki mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-032",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-plums/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-plums",
+     "cytat": "Syrup Pack  – Use cold 40 to 50 percent  syrup , depending on tartness of fruit.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "f6d513183b4a"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "sour-cherry-v17",
+   "productId": "sour-cherry",
+   "name": {
+    "pl": "wiśnie mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-033",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-cherries-sour/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-cherries-sour",
+     "cytat": "Syrup Pack  – Pack cherries into containers and cover with cold 50 per cent  syrup .",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "f69aee543258"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "sweet-cherry-v13",
+   "productId": "sweet-cherry",
+   "name": {
+    "pl": "czereśnie mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-034",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-cherries-sweet/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-cherries-sweet",
+     "cytat": "Syrup Pack  – Use cold, 40 percent  syrup .",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "128f07ee8ff7"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "peach-nectarine-v15",
+   "productId": "peach-nectarine",
+   "name": {
+    "pl": "brzoskwinie i nektarynki mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-035",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-peaches-or-nectarines/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-peaches-or-nectarines",
+     "cytat": "Syrup Pack  – Use 40 percent  syrup .",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "9d7170171e30"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "apricot-v15",
+   "productId": "apricot",
+   "name": {
+    "pl": "morele mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-036",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-apricots/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-apricots",
+     "cytat": "Syrup Pack  – Use cold 40 percent  syrup .",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "20c2fef18901"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "strawberry-v17",
+   "productId": "strawberry",
+   "name": {
+    "pl": "truskawki mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-037",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-strawberries/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-strawberries",
+     "cytat": "Whole Berries Syrup Pack  – Put berries into containers and cover with cold 50 percent  syrup , leaving  headspace .",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "7e9afec6ad90"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "raspberry-blackberry-v18",
+   "productId": "raspberry-blackberry",
+   "name": {
+    "pl": "maliny mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-038",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-raspberries/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-raspberries",
+     "cytat": "Dry Pack  – Pack raspberries into containers, leaving  headspace .",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "2f7a9e2294ab"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "raspberry-blackberry-v19",
+   "productId": "raspberry-blackberry",
+   "name": {
+    "pl": "jeżyny mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-039",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-blackberries-or-dewberries/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-blackberries-or-dewberries",
+     "cytat": "Wash carefully in cold water, discarding soft, under-ripe or defective fruit.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "1bc19d2a24b4"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "currant-v15",
+   "productId": "currant",
+   "name": {
+    "pl": "porzeczki mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-040",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-currants/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-currants",
+     "cytat": "Wash in cold water and remove stems.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "133251e404e8"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "gooseberry-v12",
+   "productId": "gooseberry",
+   "name": {
+    "pl": "agrest mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-041",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-gooseberries/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-gooseberries",
+     "cytat": "The dry pack is best for use in pies or preserves.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "bd2279d804e7"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "blueberry-bilberry-v14",
+   "productId": "blueberry-bilberry",
+   "name": {
+    "pl": "borówki mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-042",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-blueberries-or-huckleberries/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-blueberries-or-huckleberries",
+     "cytat": "Dry Pack  – Do not wash blueberries.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "3139648349f8"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "cranberry-lingonberry-v14",
+   "productId": "cranberry-lingonberry",
+   "name": {
+    "pl": "żurawina mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-043",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-cranberries/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-cranberries",
+     "cytat": "Dry Pack  – Pack cranberries into containers, leaving  headspace .",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "c77d13b02795"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "grapes-v11",
+   "productId": "grapes",
+   "name": {
+    "pl": "winogrona mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-044",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-grapes/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-grapes",
+     "cytat": "Syrup Pack  – Pack into containers and cover with cold 40 percent  syrup .",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "89c5703c3540"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "rhubarb-v09",
+   "productId": "rhubarb",
+   "name": {
+    "pl": "rabarbar mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-045",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-rhubarb/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-rhubarb",
+     "cytat": "Wash, trim and cut into lengths to fit the package.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "bd97100ebaa6"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "lemon-v16",
+   "productId": "lemon",
+   "name": {
+    "pl": "cytrusy mrożone (cytryna)"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-046",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-citrus-fruits/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-citrus-fruits",
+     "cytat": "Syrup Pack  – Pack fruit into containers.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "7c1a72e27f4d"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "lemon-v17",
+   "productId": "lemon",
+   "name": {
+    "pl": "lemon curd mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-047",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/lemon-curd-freezer/",
+     "miejsce": "NCHFP, How do I Freeze, lemon-curd-freezer",
+     "cytat": "Wash freezer container(s) with warm, soapy water.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "fa48af41ff81"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "orange-kumquat-v15",
+   "productId": "orange-kumquat",
+   "name": {
+    "pl": "pomarańcze mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-046",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-citrus-fruits/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-citrus-fruits",
+     "cytat": "Syrup Pack  – Pack fruit into containers.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "7c1a72e27f4d"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "grapefruit-v10",
+   "productId": "grapefruit",
+   "name": {
+    "pl": "grejpfrut mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-046",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-citrus-fruits/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-citrus-fruits",
+     "cytat": "Syrup Pack  – Pack fruit into containers.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "7c1a72e27f4d"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "mango-papaya-v13",
+   "productId": "mango-papaya",
+   "name": {
+    "pl": "mango mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-048",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-mangos/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-mangos",
+     "cytat": "Syrup Pack  – Pack slices in containers.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "8ed65ed6e9f4"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "pineapple-banana-v11",
+   "productId": "pineapple-banana",
+   "name": {
+    "pl": "ananas mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-049",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-pineapple/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-pineapple",
+     "cytat": "Slice, dice, crush or cut the pineapple into wedges or sticks.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "59a8f5bb86e5"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "pineapple-banana-v12",
+   "productId": "pineapple-banana",
+   "name": {
+    "pl": "banany mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-050",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-bananas/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-bananas",
+     "cytat": "Add 1/2 teaspoon (1500 mg) ascorbic acid per cup of mashed banana.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "f7bcd4fea4a1"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "fig-pomegranate-v11",
+   "productId": "fig-pomegranate",
+   "name": {
+    "pl": "figi mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-051",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-figs/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-figs",
+     "cytat": "Syrup Pack  – Use 40 percent  syrup .",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "206ce6be3317"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "fig-pomegranate-v12",
+   "productId": "fig-pomegranate",
+   "name": {
+    "pl": "granat mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-052",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-pomegranates/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-pomegranates",
+     "cytat": "Syrup Pack  – Pack juice and pulp into containers.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "e95e4d92528b"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "watermelon-melon-v11",
+   "productId": "watermelon-melon",
+   "name": {
+    "pl": "melon mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-053",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-melons/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-melons",
+     "cytat": "Syrup Pack  – Pack into containers and cover with cold 30 percent  syrup .",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "bce3c33fcc52"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "butter-whey-cheese-v13",
+   "productId": "butter-whey-cheese",
+   "name": {
+    "pl": "masło mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-054",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-butter/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-butter",
+     "cytat": "Mold into squares, patties or other desired shapes, and wrap tightly in aluminum foil, transparent film or freezer paper, or seal in moisture-vapor resistant containers.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "363d62b589e3"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "aged-hard-cheese-v16",
+   "productId": "aged-hard-cheese",
+   "name": {
+    "pl": "ser twardy mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-055",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-cheese/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-cheese",
+     "cytat": "Recommended freezer shelf life: Hard cheese (such as cheddar and Swiss), 6 months",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "000fd1dbef39"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1).",
+    "Uwaga ze źródła: część serów (m.in. ricotta, twarożek) źle znosi mrożenie; wariant dotyczy serów twardych."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "pork-loin-ham-v16",
+   "productId": "pork-loin-ham",
+   "name": {
+    "pl": "wieprzowina mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-056",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-meats/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-meats",
+     "cytat": "Packaging— Package the meat in freezer paper or wrap, using either the drugstore or butcher wrap.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "d05ffab8aeb4"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "beef-veal-v15",
+   "productId": "beef-veal",
+   "name": {
+    "pl": "wołowina mrożona"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-056",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-meats/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-meats",
+     "cytat": "Packaging— Package the meat in freezer paper or wrap, using either the drugstore or butcher wrap.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "d05ffab8aeb4"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "game-lamb-v11",
+   "productId": "game-lamb",
+   "name": {
+    "pl": "dziczyzna i jagnięcina mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-056",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-meats/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-meats",
+     "cytat": "Packaging— Package the meat in freezer paper or wrap, using either the drugstore or butcher wrap.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "d05ffab8aeb4"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "poultry-v15",
+   "productId": "poultry",
+   "name": {
+    "pl": "drób mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-057",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-poultry-and-game-birds/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-poultry-and-game-birds",
+     "cytat": "Package poultry in freezer paper or wrap using the drugstore or butcher wrap, or place in freezer bags.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "e6043062aba0"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "pork-belly-jowl-v15",
+   "productId": "pork-belly-jowl",
+   "name": {
+    "pl": "boczek mrożony"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-058",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-bacon/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-bacon",
+     "cytat": "To freeze unopened bacon, overwrap the store package with heavy duty foil or other freezer wrapping, being sure to push all the air out of the package and tightly close the wrapping around the inside package.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "b9292943337e"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "sea-fish-v17",
+   "productId": "sea-fish",
+   "name": {
+    "pl": "ryby morskie mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-059",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/seafood-products/freezing-fish/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-fish",
+     "cytat": "Preparation — Wash fish, and remove scales by scraping fish gently from tail to head with the dull edge of a knife or spoon.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "e1baf7f627fb"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "freshwater-fish-v12",
+   "productId": "freshwater-fish",
+   "name": {
+    "pl": "ryby słodkowodne mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-059",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/seafood-products/freezing-fish/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-fish",
+     "cytat": "Preparation — Wash fish, and remove scales by scraping fish gently from tail to head with the dull edge of a knife or spoon.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "e1baf7f627fb"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
+   ]
+  },
+  {
+   "id": "eggs-v11",
+   "productId": "eggs",
+   "name": {
+    "pl": "jaja mrożone"
+   },
+   "groupV0": null,
+   "lineV0": null,
+   "processFamilyId": "freezing",
+   "preservationMethod": "freezer",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FRZ-060",
+    "SUS-050",
+    "SUS-059"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-eggs/",
+     "miejsce": "NCHFP, How do I Freeze, freezing-eggs",
+     "cytat": "Select fresh eggs and break each separately into a clean saucer.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "9adbcd657e77"
+    }
+   ],
+   "filters": {
+    "flavor": null,
+    "readyTime": null,
+    "equipment": null,
+    "difficulty": null
+   },
+   "notes": [
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+   ],
+   "scope": "in",
+   "publication": "ukryta",
+   "researchedBy": [
+    "E2-FRZ"
    ]
   }
  ]

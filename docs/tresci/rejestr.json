@@ -18381,5 +18381,1265 @@
   "krytyczne": true,
   "przeglad": null,
   "klaster": "MIE"
+ },
+ {
+  "id": "FRZ-001",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: cabbage or chinese cabbage (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-cabbage-or-chinese-cabbage/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-cabbage-or-chinese-cabbage",
+    "cytat": "Water blanch 1½ minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b2d0f6d70996"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-002",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: cauliflower (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-cauliflower/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-cauliflower",
+    "cytat": "Water  blanch  for 3 minutes in water containing 4 teaspoons salt per gallon water.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f58109ecf784"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-003",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: broccoli (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-broccoli/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-broccoli",
+    "cytat": "Water  blanch  3 minutes in boiling water or steam  blanch  5 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "56d944b111df"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-004",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: brussels sprouts (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-brussels-sprouts/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-brussels-sprouts",
+    "cytat": "Water  blanch  small heads 3 minutes, medium heads 4 minutes and large heads 5 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d3a8cbb2b9ee"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-005",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: kohlrabi (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-kohlrabi/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-kohlrabi",
+    "cytat": "Wash and peel off the tough bark.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1a9e693e8006"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-006",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: summer squash (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-summer-squash/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-summer-squash",
+    "cytat": "Wash and cut in 1/2-inch slices.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ba2232f05ce9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-007",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: pumpkin (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-pumpkin/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-pumpkin",
+    "cytat": "Wash, cut into cooking-size sections and remove seeds.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "90b793430ad7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-008",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: greens including spinach (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-greens-including-spinach/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-greens-including-spinach",
+    "cytat": "Wash thoroughly and cut off woody stems.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ffecedbed162"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-009",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: tomatoes (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-tomatoes/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-tomatoes",
+    "cytat": "Raw  – Wash and dip in boiling water for 30 seconds to loosen skins.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3dc746cca85c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-010",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: green tomatoes (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-green-tomatoes/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-green-tomatoes",
+    "cytat": "Wash, core, and slice 1/4-inch thick.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "9142916bac61"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-011",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: bell or sweet peppers (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-bell-or-sweet-peppers/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-bell-or-sweet-peppers",
+    "cytat": "Wash, cut out stems, cut in half and remove seeds.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "58a3bf94e4ab"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-012",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: eggplant (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-eggplant/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-eggplant",
+    "cytat": "Wash, peel and slice 1/3-inch thick.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a5b8d4b72209"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-013",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: new irish potatoes (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-new-irish-potatoes/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-new-irish-potatoes",
+    "cytat": "Water  blanch  for 3 to 5 minutes, depending on the size.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "319398d0b1d0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-014",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: beans green snap or wax (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-beans-green-snap-or-wax/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-beans-green-snap-or-wax",
+    "cytat": "Wash in cold water, snip and cut into 2 to 4-inch lengths.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4a5f223dc839"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-015",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: green peas (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-green-peas/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-green-peas",
+    "cytat": "Wash and shell; water  blanch  1 1/2 minutes, cool and drain.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d6dfe2dc9558"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-016",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: edible pea pods (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-edible-pea-pods/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-edible-pea-pods",
+    "cytat": "Water  blanch  11/2 minutes for small pods; 2 minutes for large pods.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "629c7be8d7de"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-017",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: beets (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-beets/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-beets",
+    "cytat": "Wash and sort according to size.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "12a3a535b90e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-018",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: carrots (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-carrots/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-carrots",
+    "cytat": "Water  blanch  small whole carrots 5 minutes, diced or sliced 2 minutes and lengthwise strips 2 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "71c653d2bd01"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-019",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: garlic in oil (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-garlic-in-oil",
+    "cytat": "It may be frozen for long term storage for up to several months.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d977de150cb6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-020",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: onions (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-onions/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-onions",
+    "cytat": "No blanching is required.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c559b9e70a5d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-021",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: celery (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-celery/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-celery",
+    "cytat": "Wash thoroughly, trim and cut stalks into l-inch lengths.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6ab9f42133b4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-022",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: turnips or parsnips (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-turnips-or-parsnips/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-turnips-or-parsnips",
+    "cytat": "Wash, peel and cut into 1/2-inch cubes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1d13566df04c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-023",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: rutabagas (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-rutabagas/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-rutabagas",
+    "cytat": "Cubed – Cut into cubes and water  blanch  3 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7fb606c4c5a5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-024",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: asparagus (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-asparagus/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-asparagus",
+    "cytat": "Wash thoroughly and sort into sizes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "674d3687f89c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-025",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: artichokes (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-artichokes/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-artichokes",
+    "cytat": "Wash hearts in cold water and drain.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "adc352c6a76f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-026",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: corn (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-corn/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-corn",
+    "cytat": "Corn-on-the-cob  – Water  blanch  small ears (1¼ inches or less in diameter) 7 minutes, medium ears (1¼ to 1½ inches in diameter) 9 minutes and large ears (over 1½ inches in diameter) 11 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2dc5a6573063"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-027",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: fresh herbs (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-fresh-herbs/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-fresh-herbs",
+    "cytat": "Wrap a few sprigs or leaves in freezer wrap and place in a freezer bag.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0ee2594c04bd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-028",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: pesto (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-pesto/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-pesto",
+    "cytat": "It may be frozen for long term storage.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "aa4dbad6bf30"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-029",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: mushrooms (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-mushrooms/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-mushrooms",
+    "cytat": "Pack into containers, leaving 1/2-inch headspace.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ed0e857fcaaa"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-030",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: apples (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-apples/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-apples",
+    "cytat": "A sugar or dry pack is good for pie making.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "687de6dc4b55"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-031",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: pears (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-pears/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-pears",
+    "cytat": "Slice medium pears into twelfths, large ones into sixteenths.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "9b3ae0ec5b08"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-032",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: plums (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-plums/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-plums",
+    "cytat": "Syrup Pack  – Use cold 40 to 50 percent  syrup , depending on tartness of fruit.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f6d513183b4a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-033",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: cherries sour (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-cherries-sour/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-cherries-sour",
+    "cytat": "Syrup Pack  – Pack cherries into containers and cover with cold 50 per cent  syrup .",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f69aee543258"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-034",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: cherries sweet (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-cherries-sweet/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-cherries-sweet",
+    "cytat": "Syrup Pack  – Use cold, 40 percent  syrup .",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "128f07ee8ff7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-035",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: peaches or nectarines (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-peaches-or-nectarines/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-peaches-or-nectarines",
+    "cytat": "Syrup Pack  – Use 40 percent  syrup .",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "9d7170171e30"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-036",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: apricots (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-apricots/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-apricots",
+    "cytat": "Syrup Pack  – Use cold 40 percent  syrup .",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "20c2fef18901"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-037",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: strawberries (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-strawberries/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-strawberries",
+    "cytat": "Whole Berries Syrup Pack  – Put berries into containers and cover with cold 50 percent  syrup , leaving  headspace .",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7e9afec6ad90"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-038",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: raspberries (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-raspberries/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-raspberries",
+    "cytat": "Dry Pack  – Pack raspberries into containers, leaving  headspace .",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2f7a9e2294ab"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-039",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: blackberries or dewberries (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-blackberries-or-dewberries/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-blackberries-or-dewberries",
+    "cytat": "Wash carefully in cold water, discarding soft, under-ripe or defective fruit.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1bc19d2a24b4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-040",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: currants (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-currants/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-currants",
+    "cytat": "Wash in cold water and remove stems.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "133251e404e8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-041",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: gooseberries (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-gooseberries/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-gooseberries",
+    "cytat": "The dry pack is best for use in pies or preserves.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bd2279d804e7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-042",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: blueberries or huckleberries (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-blueberries-or-huckleberries/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-blueberries-or-huckleberries",
+    "cytat": "Dry Pack  – Do not wash blueberries.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3139648349f8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-043",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: cranberries (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-cranberries/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-cranberries",
+    "cytat": "Dry Pack  – Pack cranberries into containers, leaving  headspace .",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c77d13b02795"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-044",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: grapes (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-grapes/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-grapes",
+    "cytat": "Syrup Pack  – Pack into containers and cover with cold 40 percent  syrup .",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "89c5703c3540"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-045",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: rhubarb (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-rhubarb/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-rhubarb",
+    "cytat": "Wash, trim and cut into lengths to fit the package.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bd97100ebaa6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-046",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: citrus fruits (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-citrus-fruits/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-citrus-fruits",
+    "cytat": "Syrup Pack  – Pack fruit into containers.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7c1a72e27f4d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-047",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: lemon curd freezer (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/lemon-curd-freezer/",
+    "miejsce": "NCHFP, How do I Freeze, lemon-curd-freezer",
+    "cytat": "Wash freezer container(s) with warm, soapy water.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fa48af41ff81"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-048",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: mangos (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-mangos/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-mangos",
+    "cytat": "Syrup Pack  – Pack slices in containers.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8ed65ed6e9f4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-049",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: pineapple (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-pineapple/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-pineapple",
+    "cytat": "Slice, dice, crush or cut the pineapple into wedges or sticks.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "59a8f5bb86e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-050",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: bananas (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-bananas/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-bananas",
+    "cytat": "Add 1/2 teaspoon (1500 mg) ascorbic acid per cup of mashed banana.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f7bcd4fea4a1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-051",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: figs (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-figs/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-figs",
+    "cytat": "Syrup Pack  – Use 40 percent  syrup .",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "206ce6be3317"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-052",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: pomegranates (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-pomegranates/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-pomegranates",
+    "cytat": "Syrup Pack  – Pack juice and pulp into containers.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e95e4d92528b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-053",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: melons (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-melons/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-melons",
+    "cytat": "Syrup Pack  – Pack into containers and cover with cold 30 percent  syrup .",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bce3c33fcc52"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-054",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: butter (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-butter/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-butter",
+    "cytat": "Mold into squares, patties or other desired shapes, and wrap tightly in aluminum foil, transparent film or freezer paper, or seal in moisture-vapor resistant containers.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "363d62b589e3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-055",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: cheese (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-cheese/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-cheese",
+    "cytat": "Recommended freezer shelf life: Hard cheese (such as cheddar and Swiss), 6 months",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "000fd1dbef39"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-056",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: meats (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-meats/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-meats",
+    "cytat": "Packaging— Package the meat in freezer paper or wrap, using either the drugstore or butcher wrap.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d05ffab8aeb4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-057",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: poultry and game birds (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-poultry-and-game-birds/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-poultry-and-game-birds",
+    "cytat": "Package poultry in freezer paper or wrap using the drugstore or butcher wrap, or place in freezer bags.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e6043062aba0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-058",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: bacon (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-bacon/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-bacon",
+    "cytat": "To freeze unopened bacon, overwrap the store package with heavy duty foil or other freezer wrapping, being sure to push all the air out of the package and tightly close the wrapping around the inside package.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b9292943337e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-059",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: fish (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/seafood-products/freezing-fish/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-fish",
+    "cytat": "Preparation — Wash fish, and remove scales by scraping fish gently from tail to head with the dull edge of a knife or spoon.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e1baf7f627fb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
+ },
+ {
+  "id": "FRZ-060",
+  "twierdzenie": "NCHFP podaje instrukcję domowego mrożenia: eggs (strona „How do I freeze”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-eggs/",
+    "miejsce": "NCHFP, How do I Freeze, freezing-eggs",
+    "cytat": "Select fresh eggs and break each separately into a clean saucer.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "9adbcd657e77"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "E2-FRZ"
  }
 ]
