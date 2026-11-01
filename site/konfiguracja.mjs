@@ -10,3 +10,6 @@ export const DOMENA = process.env.JARATLAS_DOMENA || 'https://jaratlas.com';
 // Google build-sitemap (odczyt 2026-11-01): „50MB (uncompressed) or 50,000 URLs”.
 export const LIMIT_ADRESOW_MAPY = 50000;
 export const katalogJezyka = (kod) => kod.toLowerCase(); // /pt-br/, /zh-hant/; hreflang zachowuje kod
+// Znaczniki zaślepek: strona z nimi nie powstaje (ścieżka ryzyka R2, docs/architektura/ryzyka.md).
+// Źródło: konwencje projektu ([PRZYKŁAD] — testy, [DO USTALENIA] — zasada 3 biblioteki); TODO/lorem — typowe zaślepki.
+export const ZNACZNIKI_ZASLEPEK = [/\[PRZYKŁAD\]/, /\[DO USTALENIA\]/, /\bTODO\b/, /lorem ipsum/i];

@@ -6,9 +6,10 @@ const SLUG_INNY = /^[^\s/?#%A-Z]+$/u;
 
 export function wariantPublikowalny(v) {
   if (v.publication !== 'opublikowana' || v.scope !== 'in' || v.retired) return false;
-  if (!v.content || v.safetyStatus === 'do-researchu') return false;
-  if (['ryzyko-wysokie', 'nie-publikowac'].includes(v.safetyStatus) && v.cardType !== 'warning') return false;
-  return true;
+  if (!v.content) return false;
+  // Lista dozwolonych, nie zakazanych: nieznany albo brakujący status = brak strony (R1).
+  if (v.safetyStatus === 'ok-zrodlo') return true;
+  return ['ryzyko-wysokie', 'nie-publikowac'].includes(v.safetyStatus) && v.cardType === 'warning';
 }
 
 // slugi: { [lang]: { rodziny: {_prefiks, id: slug}, produkty: {id: slug}, warianty: {id: slug} } }

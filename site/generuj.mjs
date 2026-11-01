@@ -1,12 +1,19 @@
 // Składanie wszystkich plików strony z planu. Czysta funkcja: (dane) → { bledy, pliki: {sciezka: tekst} }.
 import { planStron } from './plan.mjs';
 import { mapyStrony } from './mapa.mjs';
+import { DOMENA } from './konfiguracja.mjs';
+import { kontrolaZaslepek, kontrolaOstrzezen, kontrolaPrzekierowan } from './kontrole.mjs';
 import { stronaWariantu, stronaProduktu, stronaRodziny, stronaWyboruJezyka, okruszki } from './szablony.mjs';
 
 const plikDla = (sciezka) => (sciezka === '/' ? 'index.html' : sciezka.slice(1) + 'index.html');
 
-export function generuj({ katalog, slugi, tresci, ui, nazwyJezykow = {} }) {
+// dozwolZaslepki: tylko testy z danymi [PRZYKŁAD]; build.mjs nigdy go nie ustawia (R2).
+export function generuj({ katalog, slugi, tresci, ui, nazwyJezykow = {}, adresy = {}, dozwolZaslepki = false }) {
   const { strony, bledy } = planStron(katalog, slugi, tresci);
+  if (!dozwolZaslepki) bledy.push(...kontrolaZaslepek(strony, tresci, ui));
+  bledy.push(...kontrolaOstrzezen(strony, katalog, tresci, ui));
+  const { bledy: bPrzek, przekierowania } = kontrolaPrzekierowan(strony, adresy);
+  bledy.push(...bPrzek);
   const V = new Map(katalog.variants.map((v) => [v.id, v]));
   const P = new Map(katalog.products.map((p) => [p.id, p]));
   const pliki = {};
@@ -30,6 +37,6 @@ export function generuj({ katalog, slugi, tresci, ui, nazwyJezykow = {} }) {
     }
   }
   Object.assign(pliki, mapyStrony(strony));
-  pliki['robots.txt'] = `User-agent: *\nAllow: /\nSitemap: ${(process.env.JARATLAS_DOMENA || 'https://jaratlas.com')}/sitemap.xml\n`;
-  return { bledy, pliki, strony };
+  pliki['robots.txt'] = `User-agent: *\nAllow: /\nSitemap: ${DOMENA}/sitemap.xml\n`;
+  return { bledy, pliki, strony, przekierowania };
 }

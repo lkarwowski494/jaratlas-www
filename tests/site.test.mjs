@@ -29,7 +29,7 @@ const tresci = () => ({
   en: { warianty: { 'apple-v01': karta('Sauce <script>alert(1)</script>'), 'beans-v01': karta('Beans', { ostrzezenia: [{ claim: 'SZY-006', tekst: 'Pressure only.' }] }) }, rodziny: {} },
 });
 const uiL = { uwagaBezpieczenstwa: '[DO USTALENIA]', zrodla: 'Z', ostrzezenia: 'O', wariant: 'W', status: 'S', statusy: {} };
-const dane = (zm = {}) => ({ katalog: katalog(), slugi: slugi(), tresci: tresci(), ui: { pl: uiL, en: uiL }, ...zm });
+const dane = (zm = {}) => ({ katalog: katalog(), slugi: slugi(), tresci: tresci(), ui: { pl: uiL, en: uiL }, dozwolZaslepki: true, ...zm }); // dane [PRZYKŁAD]: zaślepki dozwolone tylko tu (R2)
 const D = 'https://jaratlas.com';
 
 test('bramka: tylko publikowalne warianty i produkty z ≥1 takim wariantem mają strony', () => {
@@ -129,4 +129,68 @@ test('cardType warning nigdy nie dostaje Recipe, nawet przy ok-zrodlo z obrazem'
   const h = generuj(dane({ katalog: k })).pliki['pl/jablko/mus/index.html'];
   assert.ok(!h.includes('"Recipe"'));
   assert.match(h, /data-typ="karta-ostrzezenie"/);
+});
+
+// --- Ścieżki ryzyka (E2 roli 05, docs/architektura/ryzyka.md). Testy napisane przed kodem.
+const zaslepki = (zm = {}) => ({ ...dane(zm), dozwolZaslepki: false });
+
+test('R2 zaślepka w treści albo tekście interfejsu strony = błąd budowania', () => {
+  const b = generuj(zaslepki()).bledy;
+  assert.ok(b.some((x) => /pl\/apple-v01: zaślepka „\[PRZYKŁAD\]”/.test(x)), b.join('\n'));
+  assert.ok(b.some((x) => /pl: zaślepka „\[DO USTALENIA\]” w tekstach interfejsu/.test(x)), b.join('\n'));
+  const t = tresci(); t.en.warianty['apple-v01'].sekcje[0].akapity = ['TODO: dopisać'];
+  assert.ok(generuj({ ...dane({ tresci: t }), dozwolZaslepki: false }).bledy.some((x) => /en\/apple-v01: zaślepka „TODO”/.test(x)));
+});
+
+test('R2 tryb testowy z zaślepkami nie zgłasza ich (tylko dane [PRZYKŁAD] w testach)', () => {
+  assert.ok(!generuj(dane()).bledy.some((x) => /zaślepka/.test(x)));
+});
+
+test('R3 karta-ostrzeżenie bez ostrzeżenia albo z pustym tekstem = błąd', () => {
+  const t = tresci(); t.pl.warianty['beans-v01'].ostrzezenia = [];
+  const k = katalog(); k.variants[2].requiredWarnings = [];
+  assert.ok(generuj(dane({ katalog: k, tresci: t })).bledy.some((x) => /pl\/beans-v01: karta-ostrzeżenie bez ostrzeżenia/.test(x)));
+  const t2 = tresci(); t2.en.warianty['beans-v01'].ostrzezenia[0].tekst = '  ';
+  assert.ok(generuj(dane({ tresci: t2 })).bledy.some((x) => /en\/beans-v01: puste ostrzeżenie SZY-006/.test(x)));
+});
+
+test('R3 pusta uwaga D-027 (c) w tekstach interfejsu = błąd', () => {
+  assert.ok(generuj(dane({ ui: { pl: { ...uiL, uwagaBezpieczenstwa: '' }, en: uiL } })).bledy.some((x) => /pl: pusta uwaga D-027 \(c\)/.test(x)));
+});
+
+test('R4 opublikowany adres zniknął bez przekierowania = błąd; z przekierowaniem do istniejącej strony = OK', () => {
+  const stary = '/pl/jablko/stary-mus/';
+  const bez = generuj({ ...dane(), adresy: { opublikowane: [stary, '/pl/jablko/mus/'], przekierowania: {} } }).bledy;
+  assert.ok(bez.some((x) => x === `adres opublikowany zniknął bez przekierowania 301: ${stary}`), bez.join('\n'));
+  const z = generuj({ ...dane(), adresy: { opublikowane: [stary], przekierowania: { [stary]: '/pl/jablko/mus/' } } });
+  assert.ok(!z.bledy.some((x) => /przekierowan/.test(x)), z.bledy.join('\n'));
+  assert.deepEqual(z.przekierowania, [{ z: stary, do: '/pl/jablko/mus/' }]);
+  const zly = generuj({ ...dane(), adresy: { opublikowane: [stary], przekierowania: { [stary]: '/pl/nie-ma/' } } }).bledy;
+  assert.ok(zly.some((x) => /przekierowanie .* do adresu spoza planu: \/pl\/nie-ma\//.test(x)));
+  const aktywny = generuj({ ...dane(), adresy: { opublikowane: [], przekierowania: { '/pl/jablko/mus/': '/pl/jablko/' } } }).bledy;
+  assert.ok(aktywny.some((x) => /przekierowanie z adresu, który nadal ma stronę: \/pl\/jablko\/mus\//.test(x)));
+});
+
+test('R5 prywatność: wygenerowany HTML nie ładuje nic spoza domeny (0 skryptów i zasobów stron trzecich)', () => {
+  for (const [p, h] of Object.entries(generuj(dane()).pliki)) {
+    if (!p.endsWith('.html')) continue;
+    assert.ok(!/<(script|img|iframe|link|source|video|audio)\b[^>]*\s(src|href)="https?:\/\/(?!jaratlas\.com\/)/i.test(h.replace(/<link rel="(canonical|alternate)"[^>]*>/g, '')), p);
+    assert.ok(!/<iframe/i.test(h), p);
+  }
+});
+
+test('K1 jedno miejsce konfiguracji: process.env i adres domeny tylko w site/konfiguracja.mjs', async () => {
+  const { readdirSync } = await import('node:fs');
+  const dir = new URL('../site/', import.meta.url);
+  for (const n of readdirSync(dir).filter((x) => x.endsWith('.mjs') && x !== 'konfiguracja.mjs')) {
+    const kod = readFileSync(new URL(n, dir), 'utf8');
+    assert.ok(!/process\.env|jaratlas\.com/.test(kod), `site/${n}`);
+  }
+});
+
+test('R1 bramka zamknięta domyślnie: brak albo nieznany safetyStatus = brak strony', () => {
+  for (const s of [undefined, 'ok-zródło', 'wycofane']) {
+    const k = katalog(); k.variants[0].safetyStatus = s;
+    assert.ok(!generuj(dane({ katalog: k })).strony.some((x) => x.id === 'apple-v01'), String(s));
+  }
 });

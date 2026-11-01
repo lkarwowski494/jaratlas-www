@@ -1,32 +1,25 @@
 # Stan pracy JarAtlas
 
-Aktualizacja: 2026-11-01 (sesja session_01T66VBy41EWmC51a2YDB8zQ). Historia: `docs/archiwum/`.
+Aktualizacja: 2026-11-01 (sesja session_01T66VBynJwE9R3enQnFumVg). Historia: `docs/archiwum/`.
 
 ## Rola i etap
-05-architekt · build · szkielet strony. E0 i E1 zakończone 2026-11-01; szkielet kodu gotowy (wyjątek ADR 0006). **STOP** przed E2–E4. Prompt: `node /home/user/prompts/tools/assemble.mjs 05-architekt --tryb build` (prompts @ eb3b4e7).
+05-architekt · build · E0–E4 zakończone 2026-11-01. **STOP** po E4. Prompt: `node /home/user/prompts/tools/assemble.mjs 05-architekt --tryb build` (prompts @ c9a47cd).
 
-## Decyzje właściciela (2026-11-01, tablica decyzji)
-- `2026-11-01-jaratlas-e3-stop`: 42 warianty niskokwasowe z kąpielą wodną w v0 (SZY-006 szczebla 1 odradza) → `nie-publikowac`. **Zastosowane** w `catalog/catalog-seed.json` 1.0.2 (notatka `[DEC …]` przy każdym). Dowód: `npm test` 20/20, `check:catalog` kod 0, `check:tresci` kod 0.
-- `2026-11-01-jaratlas-tlumaczenia-api`: tłumaczenia kart przez Claude API w ramach darmowego kredytu 200 USD, nie w sesjach Claude Code (sesje przygotowują skrypt wsadowy i kontrolę jakości). **Otwarte:** kwota, termin i konto kredytu; szacunek kosztu; twardy limit wydatków; klucz API w sekretach środowiska, nigdy w repo.
-- D-051 budżet kontekstu: praca do ok. 35% okna; od 30% domknięcie kroku, zapis stanu, przekazanie.
+## Wynik E2–E4 (dowody)
+- `docs/architektura/README.md` (moduły z sygnaturami, polityka błędów, budżety z pomiarem, definicja ukończenia), `ryzyka.md` (R1–R9 + lista kontroli dla 07), `konfiguracja.md`, `prywatnosc.md`, `narzedzia/granice.mjs`.
+- Kod (wyjątek ADR 0006): `site/kontrole.mjs` (zaślepki, ostrzeżenia, 301), bramka zamknięta domyślnie w `site/plan.mjs`, adapter I/O przeniesiony do `tools/buduj-strone.mjs` (zapis atomowy), rejestr `site/adresy.json`, domena tylko z `konfiguracja.mjs`.
+- `npm test` 43/43; `check:granice`, `check:catalog`, `check:tresci`, `build`: kod 0. Testy nowych kontroli czerwone przed kodem; mutacje R1, R2, R4, R5, K1 wykryte.
+- Lighthouse 12.8.2 (próbka, mobilny symulowany, mediana z 5): LCP karty 752 ms, produktu 807 ms, CLS 0.
 
-## Katalog (stan)
-`catalog/catalog-seed.json` 1.0.2: 1432 rekordy; ok-zrodlo 288, do-researchu 921, ryzyko-wysokie 97, nie-publikowac 89, wycofane 37; wszystkie ukryte.
-
-## Otwarte (najważniejsze)
-Słoiki USA pint/quart vs 0,5/1 l; procedury głównie USA; oliwki (UC ANR 8267); 133 pytania w `docs/tresci/pytania-otwarte.md`; przegląd eksperta później (D-027 d). Repo/hosting i push na main: tylko za zgodą właściciela.
-
-## Decyzje 2026-11-01 (tablica `2026-11-01-jaratlas-szkielet-e0`)
-Kod szkieletu pisze 05 z wyjątkiem (przegląd 07 w świeżym kontekście przed scaleniem); slugi w języku odbiorcy; własny generator Node bez zależności.
-
-## Wynik (dowody)
-- ADR 0001–0006 przyjęte, 0007 hosting proponowana: `docs/adr/`; indeks `docs/architektura/README.md`.
-- `site/` + `npm run build` → `dist/`; na prawdziwym katalogu: 0 stron treści, pusta mapa (kod 0).
-- `npm test` 33/33 (13 testów strony; mutacje bramki, produktu, x-default, Recipe wykrywane); `check:catalog` 0; `check:tresci` 0.
+## Decyzje właściciela (obowiązują)
+`2026-11-01-jaratlas-e3-stop` (zastosowana), `-tlumaczenia-api` (otwarte: kwota, termin, konto, limit, klucz w sekretach), `-szkielet-e0`, przyciski: E2–E4 potem przegląd 07; D-051 budżet kontekstu.
 
 ## Decyzje czekające
-1. Hosting (ADR 0007) i domena.
-2. Tekst uwagi D-027 (c), adres stron rodzin, reklamy/analityka, obrazy do Recipe.
+1. Hosting i domena (ADR 0007; potrzebny serwerowy 301).
+2. Tekst uwagi D-027 (c) (dziś `[DO USTALENIA]`, build prawdziwej strony padnie na R2: zamierzone).
+3. Treść „ukryta” w publicznym repo (R1b): akceptacja nazwana albo prywatne repo treści.
+4. CI GitHub Actions (wymaga scalenia z `main`).
+5. Sekcja „Ścieżki wrażliwe” w `CLAUDE.md` (repo nie ma `CLAUDE.md`): `site/plan.mjs`, `site/kontrole.mjs`, `site/szablony.mjs`, `site/adresy.json`, `tools/buduj-strone.mjs`, `catalog/catalog-seed.json`.
 
 ## Następny krok
-E2–E4 roli 05 (konfiguracja, ścieżki ryzyka, lista kontroli dla 07, przekazanie), potem przegląd 07 w świeżym kontekście; równolegle 06: treść pierwszych kart fali 1 i slugi `site/slugi/{lang}.json`.
+Przegląd 07 w świeżym kontekście (gałąź `claude/happy-brown-yncplj`, od `de8b7d2`), potem 06: treść kart fali 1 i slugi `site/slugi/{lang}.json`.

@@ -7,6 +7,7 @@
     "test": "node --test tests/*.test.mjs",
     "check:catalog": "node tools/validate-catalog.mjs catalog/catalog-seed.json docs/tresci/rejestr.json",
     "check:tresci": "node tools/kontrole-tresci.mjs docs/tresci/rejestr.json docs/tresci/teksty --przeglad zastępczy --konfiguracja docs/tresci/konfiguracja.json",
-    "build": "node site/build.mjs"
+    "build": "node tools/buduj-strone.mjs",
+    "check:granice": "node docs/architektura/narzedzia/granice.mjs site ."
   }
 }
