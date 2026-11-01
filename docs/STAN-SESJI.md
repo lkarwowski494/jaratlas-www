@@ -13,10 +13,16 @@ Aktualizacja: 2026-11-01 (sesja session_01T66VBzskdaRZU4fApkBw7X). Historia: `do
 - Dziś nic nie wycieka: 0 wariantów opublikowanych, 0 stron treści.
 - Nazwany wyjątek (zasada 7): raport audytu zapisany w repo (`docs/jakosc/`), choć tryb audit go nie commituje, bo kontener chmury jest ulotny; raport bez sekretów (`sprawdz-raport.mjs` kod 0). Kod pod przeglądem nietknięty.
 
+## Analogia z Treningiem (zasada `2026-11-01-zasada-analogia-trening`, D-052; pełna)
+Trening `CLAUDE.md:91-106` @ 2e4b0f8, „Audyty i wydania” (zasada właściciela 09.10.2026), sprawdzone u źródła 2026-11-01:
+- pkt 2 „Jeden audyt na wydanie, bez pętli: naprawy znalezisk sprawdza test odtwarzający + verify + E2E, nie kolejny audyt” → bez reaudytu: każda naprawa P1 ma test odtwarzający (czerwony przed, zielony po) + pełne kontrole (`npm test`, `check:*`, `build`, CI).
+- pkt 1: średnie i niskie nie blokują → P2 (004–008) do backlogu z etapem „przed pierwszą publikacją”; tanie (007, 006) wolno przy okazji.
+- pkt 6 realność: 001 brzegowy + tani → naprawa; 002 realny → naprawa; 003 brzegowy, bezpieczeństwo (zapis poza `dist/`) → naprawa; 005, 006 teoretyczne → notatka.
+
 ## Decyzje czekające (właściciel)
-1. Naprawa: (a) 07 fix testy + 08 fix kod; (b) jedna sesja 07 fix na wszystkie ID z rozszerzeniem wyjątku ADR 0006, potem reaudit w świeżym kontekście (rekomendacja).
+1. Wykonawca naprawy 001–003: (a) jedna sesja 07 fix z rozszerzeniem wyjątku ADR 0006 (rekomendacja: małe zmiany, sprawdzenie testem odtwarzającym); (b) 08 fix (kod) po 07 fix (testy) — dwie sesje.
 2. Strategia testów: (b) bez osobnej strategii do pierwszej publikacji, rejestr ryzyk = `ryzyka.md` (rekomendacja) albo (a) 07 build.
 3. Z poprzedniego stanu: opublikowana karta ze zmienionym źródłem (adres zostaje); workflow Pages i DNS — osobna zgoda w nowym repo.
 
 ## Następny krok
-Po decyzji 1: `node tools/assemble.mjs 07-jakosc --tryb fix --zadania 07-jakosc-001,…,07-jakosc-008` (nowa sesja opus/high), potem `07-jakosc --tryb reaudit --baza 08f2ae2`; scalenie z `main` tylko za zgodą. Potem 06 (treść kart fali 1, slugi) i przeniesienie do czystego repo przed pierwszą publikacją.
+Po decyzji 1: `node tools/assemble.mjs 07-jakosc --tryb fix --zadania 07-jakosc-001,07-jakosc-002,07-jakosc-003` (nowa sesja opus/high; P2 tylko tanie przy okazji, reszta backlog). Bez reaudytu (analogia wyżej). Scalenie z `main` tylko za zgodą. Potem 06 (treść kart fali 1, slugi) i przeniesienie do czystego repo przed pierwszą publikacją.
