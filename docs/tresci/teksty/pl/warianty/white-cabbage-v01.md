@@ -16,7 +16,7 @@ Przez całą fermentację kapusta musi być 1–2 cale (ok. 2,5–5 cm) pod sola
 
 Jeśli sok jej nie przykrywa, dolej przegotowanej i ostudzonej solanki: 1,5 łyżki soli na kwartę wody. [T:FER-030]
 
-W 21–24 °C pełna fermentacja trwa ok. 3–4 tygodnie, a w 16–18 °C trwa 5–6 tygodni. [T:FER-034]
+W 21–24 °C pełna fermentacja trwa ok. 3–4 tygodnie, a w 16–18 °C może trwać 5–6 tygodni. [T:FER-034]
 
 Poniżej 60 °F (16 °C) kapusta może nie fermentować, a powyżej 75 °F (24 °C) może zmięknąć. [T:FER-034]
 

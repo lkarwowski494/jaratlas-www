@@ -8,7 +8,7 @@ Na każdy galon pojemności naczynia NCHFP podaje 4 funty ogórków o długości
 
 Czosnek i suszona czerwona papryka są opcjonalne. [T:FER-042]
 
-Od strony kwiatu odetnij i wyrzuć plaster grubości 1/16 cala, bo zawiera enzymy zmiękczające. [T:FER-048]
+Od strony kwiatu odetnij i wyrzuć plaster grubości 1/16 cala, bo może zawierać enzymy zmiękczające. [T:FER-048]
 
 Nie zmniejszaj ilości soli. [T:FER-011]
 
@@ -35,8 +35,6 @@ Wekowanie w kąpieli wodnej metodą raw pack na wysokości 0–1000 stóp nad po
 Powyżej 1000 stóp (ok. 305 m) nad poziomem morza czas trzeba wydłużyć, inaczej przetwór może się zepsuć. [T:ACI-015]
 
 Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsuciem. [T:ACI-015]
-
-Pasteryzację niskotemperaturową stosuj tylko wtedy, gdy przepis ją przewiduje: wodę o temperaturze 82–85 °C utrzymuje się przez 30 minut, nigdy poniżej 180 °F. [T:FER-047]
 
 ## Kiedy wyrzucić
 

@@ -8,7 +8,7 @@ For each gallon of container capacity, NCHFP lists 4 pounds of 4-inch pickling c
 
 Garlic and dried red pepper are optional. [T:FER-042]
 
-Cut off and discard a 1/16-inch slice from the blossom end, because it contains softening enzymes. [T:FER-048]
+Cut off and discard a 1/16-inch slice from the blossom end, because it may contain softening enzymes. [T:FER-048]
 
 Do not reduce the amount of salt. [T:FER-011]
 
@@ -35,8 +35,6 @@ Water-bath canning, raw pack, at 0–1000 ft above sea level takes 10 minutes fo
 Above 1000 ft (about 305 m) the time must be increased, or the food may spoil. [T:ACI-015]
 
 Shortening the time or cooling jars in cold water can also lead to spoilage. [T:ACI-015]
-
-Use low-temperature pasteurization only when the recipe indicates it: the water is held at 82–85 °C for 30 minutes and never below 180 °F. [T:FER-047]
 
 ## When to throw it out
 
