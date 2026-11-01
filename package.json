@@ -9,6 +9,8 @@
     "check:tresci": "node tools/kontrole-tresci.mjs docs/tresci/rejestr.json docs/tresci/teksty --przeglad zastępczy --konfiguracja docs/tresci/konfiguracja.json",
     "build": "node tools/buduj-strone.mjs",
     "check:granice": "node docs/architektura/narzedzia/granice.mjs site .",
-    "przeklad:szacuj": "node tools/i18n/przeklad-api.mjs"
+    "przeklad:szacuj": "node tools/i18n/przeklad-api.mjs",
+    "check:rozmiar": "node tools/rozmiar-dist.mjs dist",
+    "check": "npm test && npm run check:granice && npm run check:catalog && npm run check:tresci && npm run build && npm run check:rozmiar"
   }
 }

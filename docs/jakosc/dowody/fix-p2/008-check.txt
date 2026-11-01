@@ -1,0 +1,1403 @@
+
+> check
+> npm test && npm run check:granice && npm run check:catalog && npm run check:tresci && npm run build && npm run check:rozmiar
+
+
+> test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: prawdziwe dane: kod 0, przekierowania.json zapisany, 0 stron treści
+ok 1 - prawdziwe dane: kod 0, przekierowania.json zapisany, 0 stron treści
+  ---
+  duration_ms: 90.352505
+  type: 'test'
+  ...
+# Subtest: błąd kontroli: kod 1, poprzedni dist/ nietknięty, brak katalogu tymczasowego
+ok 2 - błąd kontroli: kod 1, poprzedni dist/ nietknięty, brak katalogu tymczasowego
+  ---
+  duration_ms: 91.575761
+  type: 'test'
+  ...
+# Subtest: slug „..” w piśmie niełacińskim: kod 1, nic nie zapisane poza katalogiem wyjścia, dist/ nietknięty (07-jakosc-003, sonda S3)
+ok 3 - slug „..” w piśmie niełacińskim: kod 1, nic nie zapisane poza katalogiem wyjścia, dist/ nietknięty (07-jakosc-003, sonda S3)
+  ---
+  duration_ms: 72.48476
+  type: 'test'
+  ...
+# Subtest: poprawny katalog przechodzi
+ok 4 - poprawny katalog przechodzi
+  ---
+  duration_ms: 2.274617
+  type: 'test'
+  ...
+# Subtest: wariant niskokwasowy w kąpieli wodnej to błąd
+ok 5 - wariant niskokwasowy w kąpieli wodnej to błąd
+  ---
+  duration_ms: 0.54225
+  type: 'test'
+  ...
+# Subtest: produkt niskokwasowy nie może mieć acidBasis natural-acid
+ok 6 - produkt niskokwasowy nie może mieć acidBasis natural-acid
+  ---
+  duration_ms: 0.548675
+  type: 'test'
+  ...
+# Subtest: produkt graniczny (np. pomidor) w kąpieli wodnej wymaga zakwaszenia
+ok 7 - produkt graniczny (np. pomidor) w kąpieli wodnej wymaga zakwaszenia
+  ---
+  duration_ms: 0.264086
+  type: 'test'
+  ...
+# Subtest: produkt graniczny bez zakwaszenia tylko z jawnym wyjątkiem z listy w walidatorze (morele, E3-002), ok-zrodlo, przepis szczebla 1 i wymagane ostrzeżenie (06, 2026-11-02)
+ok 8 - produkt graniczny bez zakwaszenia tylko z jawnym wyjątkiem z listy w walidatorze (morele, E3-002), ok-zrodlo, przepis szczebla 1 i wymagane ostrzeżenie (06, 2026-11-02)
+  ---
+  duration_ms: 0.987392
+  type: 'test'
+  ...
+# Subtest: acidityException: wymagana decyzja (ID wpisu tablicy) i błąd, gdy wyjątek nie ma zastosowania (P3 z przeglądu D-043, 2026-11-02)
+ok 9 - acidityException: wymagana decyzja (ID wpisu tablicy) i błąd, gdy wyjątek nie ma zastosowania (P3 z przeglądu D-043, 2026-11-02)
+  ---
+  duration_ms: 2.337795
+  type: 'test'
+  ...
+# Subtest: produkt graniczny w kąpieli wodnej bez acidBasis acidified (np. sugar-acid, fermented) to błąd — wariant ostrożny (P3-4 przeglądu D-043, 2026-11-02)
+ok 10 - produkt graniczny w kąpieli wodnej bez acidBasis acidified (np. sugar-acid, fermented) to błąd — wariant ostrożny (P3-4 przeglądu D-043, 2026-11-02)
+  ---
+  duration_ms: 0.538961
+  type: 'test'
+  ...
+# Subtest: produkt graniczny w kąpieli wodnej z acidBasis low-acid albo not-applicable: dokładnie jeden błąd (niskokwasowy), bez drugiego komunikatu o produkcie granicznym (P3-4 drugiego przeglądu D-043, zdublowany komunikat)
+ok 11 - produkt graniczny w kąpieli wodnej z acidBasis low-acid albo not-applicable: dokładnie jeden błąd (niskokwasowy), bez drugiego komunikatu o produkcie granicznym (P3-4 drugiego przeglądu D-043, zdublowany komunikat)
+  ---
+  duration_ms: 0.608223
+  type: 'test'
+  ...
+# Subtest: ok-zrodlo bez źródła to błąd
+ok 12 - ok-zrodlo bez źródła to błąd
+  ---
+  duration_ms: 0.510537
+  type: 'test'
+  ...
+# Subtest: ok-zrodlo ze źródłem szczebla 4 to błąd
+ok 13 - ok-zrodlo ze źródłem szczebla 4 to błąd
+  ---
+  duration_ms: 0.621276
+  type: 'test'
+  ...
+# Subtest: status inny niż do-researchu bez twierdzenia to błąd
+ok 14 - status inny niż do-researchu bez twierdzenia to błąd
+  ---
+  duration_ms: 0.44745
+  type: 'test'
+  ...
+# Subtest: twierdzenie nieznane albo niepotwierdzone to błąd
+ok 15 - twierdzenie nieznane albo niepotwierdzone to błąd
+  ---
+  duration_ms: 0.375342
+  type: 'test'
+  ...
+# Subtest: metoda spoza dozwolonych w rodzinie to błąd
+ok 16 - metoda spoza dozwolonych w rodzinie to błąd
+  ---
+  duration_ms: 0.213607
+  type: 'test'
+  ...
+# Subtest: nieznana metoda, w tym tyndalizacja, to błąd
+ok 17 - nieznana metoda, w tym tyndalizacja, to błąd
+  ---
+  duration_ms: 0.236802
+  type: 'test'
+  ...
+# Subtest: publikacja wymaga ok-zrodlo i treści karty
+ok 18 - publikacja wymaga ok-zrodlo i treści karty
+  ---
+  duration_ms: 0.327741
+  type: 'test'
+  ...
+# Subtest: powtórzone ID i nieznany produkt lub rodzina to błąd
+ok 19 - powtórzone ID i nieznany produkt lub rodzina to błąd
+  ---
+  duration_ms: 0.192822
+  type: 'test'
+  ...
+# Subtest: próg rodziny bez twierdzenia musi mieć pytanie otwarte
+ok 20 - próg rodziny bez twierdzenia musi mieć pytanie otwarte
+  ---
+  duration_ms: 0.178685
+  type: 'test'
+  ...
+# Subtest: wariant wycofany wskazuje następcę i nie jest publikowany
+ok 21 - wariant wycofany wskazuje następcę i nie jest publikowany
+  ---
+  duration_ms: 0.247411
+  type: 'test'
+  ...
+# Subtest: ryzyko-wysokie i nie-publikowac z publikacją tylko jako ostrzeżenie
+ok 22 - ryzyko-wysokie i nie-publikowac z publikacją tylko jako ostrzeżenie
+  ---
+  duration_ms: 0.233068
+  type: 'test'
+  ...
+# Subtest: ryzyko-wysokie i nie-publikowac zawsze z cardType warning; inne statusy bez niego (06, 2026-11-01)
+ok 23 - ryzyko-wysokie i nie-publikowac zawsze z cardType warning; inne statusy bez niego (06, 2026-11-01)
+  ---
+  duration_ms: 0.541727
+  type: 'test'
+  ...
+# Subtest: metoda nieustalona (null) dozwolona tylko bez ok-zrodlo
+ok 24 - metoda nieustalona (null) dozwolona tylko bez ok-zrodlo
+  ---
+  duration_ms: 0.332221
+  type: 'test'
+  ...
+# Subtest: rodzina nieustalona (null) dozwolona tylko przy do-researchu
+ok 25 - rodzina nieustalona (null) dozwolona tylko przy do-researchu
+  ---
+  duration_ms: 0.236742
+  type: 'test'
+  ...
+# Subtest: ID unikalne w obrębie typu (produkt może mieć ID jak rodzina)
+ok 26 - ID unikalne w obrębie typu (produkt może mieć ID jak rodzina)
+  ---
+  duration_ms: 0.12495
+  type: 'test'
+  ...
+# Subtest: obowiązkowe ostrzeżenie musi być potwierdzonym twierdzeniem
+ok 27 - obowiązkowe ostrzeżenie musi być potwierdzonym twierdzeniem
+  ---
+  duration_ms: 0.202384
+  type: 'test'
+  ...
+# Subtest: katalog repozytorium przechodzi walidację
+ok 28 - katalog repozytorium przechodzi walidację
+  ---
+  duration_ms: 39.185531
+  type: 'test'
+  ...
+# Subtest: oczysc usuwa znaczniki i spacje przed nimi, zostawia claim i obraz
+ok 29 - oczysc usuwa znaczniki i spacje przed nimi, zostawia claim i obraz
+  ---
+  duration_ms: 1.329242
+  type: 'test'
+  ...
+# Subtest: doMd: tytuł i nagłówki jako nagłówki (kontrola je pomija), każde zdanie ze znacznikiem
+ok 30 - doMd: tytuł i nagłówki jako nagłówki (kontrola je pomija), każde zdanie ze znacznikiem
+  ---
+  duration_ms: 3.213466
+  type: 'test'
+  ...
+# Subtest: pliki pochodne (.md i JSON strony) są aktualne względem źródła kart
+ok 31 - pliki pochodne (.md i JSON strony) są aktualne względem źródła kart
+  ---
+  duration_ms: 8.268678
+  type: 'test'
+  ...
+# Subtest: karty: wariant w katalogu, wymagane ostrzeżenia, karta-ostrzeżenie z ostrzeżeniem, slugi
+ok 32 - karty: wariant w katalogu, wymagane ostrzeżenia, karta-ostrzeżenie z ostrzeżeniem, slugi
+  ---
+  duration_ms: 2.281683
+  type: 'test'
+  ...
+# Subtest: karty: każde zdanie ze znacznikiem potwierdzonego twierdzenia, liczby zgodne z rejestrem
+ok 33 - karty: każde zdanie ze znacznikiem potwierdzonego twierdzenia, liczby zgodne z rejestrem
+  ---
+  duration_ms: 94.270733
+  type: 'test'
+  ...
+# Subtest: npm run check: pięć kontroli i rozmiar dist/ w jednym łańcuchu &&, build przed rozmiarem (07-jakosc-008)
+ok 34 - npm run check: pięć kontroli i rozmiar dist/ w jednym łańcuchu &&, build przed rozmiarem (07-jakosc-008)
+  ---
+  duration_ms: 1.835225
+  type: 'test'
+  ...
+# Subtest: CI woła npm run check, nie listę kroków (jedno źródło: package.json) (07-jakosc-008)
+ok 35 - CI woła npm run check, nie listę kroków (jedno źródło: package.json) (07-jakosc-008)
+  ---
+  duration_ms: 0.580111
+  type: 'test'
+  ...
+# Subtest: rozmiar dist/: poniżej progu kod 0; od progu ostrzeżenia UWAGA i kod 0; od limitu BŁĄD i kod 1; brak katalogu kod 1 (07-jakosc-008)
+ok 36 - rozmiar dist/: poniżej progu kod 0; od progu ostrzeżenia UWAGA i kod 0; od limitu BŁĄD i kod 1; brak katalogu kod 1 (07-jakosc-008)
+  ---
+  duration_ms: 166.641843
+  type: 'test'
+  ...
+# Subtest: rozmiar dist/: progi domyślne z konfiguracji (800 MB ostrzeżenie, 1 GB limit GitHub Pages, jednostki dziesiętne) (07-jakosc-008)
+ok 37 - rozmiar dist/: progi domyślne z konfiguracji (800 MB ostrzeżenie, 1 GB limit GitHub Pages, jednostki dziesiętne) (07-jakosc-008)
+  ---
+  duration_ms: 1.265896
+  type: 'test'
+  ...
+# Subtest: znaczniki [T:ID] w kolejności, bez zmian
+ok 38 - znaczniki [T:ID] w kolejności, bez zmian
+  ---
+  duration_ms: 42.331492
+  type: 'test'
+  ...
+# Subtest: liczby: wartości po normalizacji przecinka dziesiętnego, ułamki i znak minus
+ok 39 - liczby: wartości po normalizacji przecinka dziesiętnego, ułamki i znak minus
+  ---
+  duration_ms: 1.167782
+  type: 'test'
+  ...
+# Subtest: liczby: zmieniona wartość, zgubiony minus, separator tysięcy i kropka dziesiętna w języku docelowym są odrzucane
+ok 40 - liczby: zmieniona wartość, zgubiony minus, separator tysięcy i kropka dziesiętna w języku docelowym są odrzucane
+  ---
+  duration_ms: 16.766072
+  type: 'test'
+  ...
+# Subtest: liczby: zakres z półpauzą to nie minus; dodana liczba jest odrzucana
+ok 41 - liczby: zakres z półpauzą to nie minus; dodana liczba jest odrzucana
+  ---
+  duration_ms: 9.74245
+  type: 'test'
+  ...
+# Subtest: symbole jednostek: °F/°C, ml, l, cm, m, %, pH bez zmian
+ok 42 - symbole jednostek: °F/°C, ml, l, cm, m, %, pH bez zmian
+  ---
+  duration_ms: 5.033268
+  type: 'test'
+  ...
+# Subtest: jednostki słowne: minuty, cale, stopy, pint/quart (nazwy słoików US zostają), szklanki
+ok 43 - jednostki słowne: minuty, cale, stopy, pint/quart (nazwy słoików US zostają), szklanki
+  ---
+  duration_ms: 10.162138
+  type: 'test'
+  ...
+# Subtest: half-pint w źródle to 1/2 pint: liczba 1/2 musi być w przekładzie
+ok 44 - half-pint w źródle to 1/2 pint: liczba 1/2 musi być w przekładzie
+  ---
+  duration_ms: 6.165521
+  type: 'test'
+  ...
+# Subtest: nazwy własne (NCHFP, USDA, JarAtlas) bez tłumaczenia
+ok 45 - nazwy własne (NCHFP, USDA, JarAtlas) bez tłumaczenia
+  ---
+  duration_ms: 0.229052
+  type: 'test'
+  ...
+# Subtest: slugi: małe litery ASCII, cyfry i łączniki
+ok 46 - slugi: małe litery ASCII, cyfry i łączniki
+  ---
+  duration_ms: 0.376085
+  type: 'test'
+  ...
+# Subtest: kalibracja na prawdziwych danych: istniejące karty pl przechodzą kontrolę względem en (0 problemów)
+ok 47 - kalibracja na prawdziwych danych: istniejące karty pl przechodzą kontrolę względem en (0 problemów)
+  ---
+  duration_ms: 96.883381
+  type: 'test'
+  ...
+# Subtest: mutacje na prawdziwych danych: każda zmiana jednej liczby, zamiana °F↔°C i usunięcie znacznika w kartach pl są wykrywane
+ok 48 - mutacje na prawdziwych danych: każda zmiana jednej liczby, zamiana °F↔°C i usunięcie znacznika w kartach pl są wykrywane
+  ---
+  duration_ms: 68.774333
+  type: 'test'
+  ...
+# Subtest: przegląd D-043: liczba związana z jednostką i kolejność — zamiany wartości między jednostkami są odrzucane
+ok 49 - przegląd D-043: liczba związana z jednostką i kolejność — zamiany wartości między jednostkami są odrzucane
+  ---
+  duration_ms: 29.825149
+  type: 'test'
+  ...
+# Subtest: przegląd D-043: limit kosztu liczony od najgorszego przypadku (max_tokens), nie tylko od szacunku
+ok 50 - przegląd D-043: limit kosztu liczony od najgorszego przypadku (max_tokens), nie tylko od szacunku
+  ---
+  duration_ms: 5.455962
+  type: 'test'
+  ...
+# Subtest: przegląd D-043: --szacuj z --wznow odrzucone; wyniki tylko z api.anthropic.com; --wyjscie nie w docs/ ani site/
+ok 51 - przegląd D-043: --szacuj z --wznow odrzucone; wyniki tylko z api.anthropic.com; --wyjscie nie w docs/ ani site/
+  ---
+  duration_ms: 2.282818
+  type: 'test'
+  ...
+# Subtest: przegląd D-043: zastosuj nie nadpisuje istniejących (przejrzanych) przekładów bez --nadpisz
+ok 52 - przegląd D-043: zastosuj nie nadpisuje istniejących (przejrzanych) przekładów bez --nadpisz
+  ---
+  duration_ms: 7.446424
+  type: 'test'
+  ...
+# Subtest: segmenty: stałe identyfikatory pól karty
+ok 53 - segmenty: stałe identyfikatory pól karty
+  ---
+  duration_ms: 0.152624
+  type: 'test'
+  ...
+# Subtest: parsujOdpowiedz: przyjmuje zgodne, odrzuca niezgodne z powodem, brakujące oznacza
+ok 54 - parsujOdpowiedz: przyjmuje zgodne, odrzuca niezgodne z powodem, brakujące oznacza
+  ---
+  duration_ms: 0.462442
+  type: 'test'
+  ...
+# Subtest: parsujOdpowiedz: slug z diakrytykiem albo zdublowany w grupie jest odrzucany
+ok 55 - parsujOdpowiedz: slug z diakrytykiem albo zdublowany w grupie jest odrzucany
+  ---
+  duration_ms: 0.263062
+  type: 'test'
+  ...
+# Subtest: odczytajLinie: sukces, ucięcie, odmowa, błąd z maskowaniem klucza
+ok 56 - odczytajLinie: sukces, ucięcie, odmowa, błąd z maskowaniem klucza
+  ---
+  duration_ms: 0.285487
+  type: 'test'
+  ...
+# Subtest: budujZadanieBatcha: model, effort, max_tokens; bez thinking ani temperatury (Opus 5.5 odrzuca)
+ok 57 - budujZadanieBatcha: model, effort, max_tokens; bez thinking ani temperatury (Opus 5.5 odrzuca)
+  ---
+  duration_ms: 0.190296
+  type: 'test'
+  ...
+# Subtest: parsujArgumenty: domyślnie tylko szacunek; płatny przebieg wymaga --wyslij
+ok 58 - parsujArgumenty: domyślnie tylko szacunek; płatny przebieg wymaga --wyslij
+  ---
+  duration_ms: 0.345234
+  type: 'test'
+  ...
+# Subtest: kosztUsd: cennik Batch −50% (Opus 5.5: 4/20 USD za mln, Batch 2/10)
+ok 59 - kosztUsd: cennik Batch −50% (Opus 5.5: 4/20 USD za mln, Batch 2/10)
+  ---
+  duration_ms: 0.066865
+  type: 'test'
+  ...
+# Subtest: main bez klucza: tylko szacunek, zero wywołań sieci, kod 0, plik szacunek.json
+ok 60 - main bez klucza: tylko szacunek, zero wywołań sieci, kod 0, plik szacunek.json
+  ---
+  duration_ms: 1.38576
+  type: 'test'
+  ...
+# Subtest: main z kluczem bez --wyslij: tylko count_tokens (darmowe), żadnego batcha
+ok 61 - main z kluczem bez --wyslij: tylko count_tokens (darmowe), żadnego batcha
+  ---
+  duration_ms: 1.630367
+  type: 'test'
+  ...
+# Subtest: main: szacunek powyżej limitu zatrzymuje przebieg (kod 3) przed wysłaniem batcha
+ok 62 - main: szacunek powyżej limitu zatrzymuje przebieg (kod 3) przed wysłaniem batcha
+  ---
+  duration_ms: 2.254386
+  type: 'test'
+  ...
+# Subtest: main --wyslij bez klucza: kod 2, nic nie wysłano
+ok 63 - main --wyslij bez klucza: kod 2, nic nie wysłano
+  ---
+  duration_ms: 1.435173
+  type: 'test'
+  ...
+# Subtest: main --wyslij z atrapą: batch, raport z propozycjami; klucz nie trafia do raportu ani logu
+ok 64 - main --wyslij z atrapą: batch, raport z propozycjami; klucz nie trafia do raportu ani logu
+  ---
+  duration_ms: 2.223446
+  type: 'test'
+  ...
+# Subtest: main --wznow: tylko odbiór wyników istniejącego batcha, bez szacunku i bez nowego batcha
+ok 65 - main --wznow: tylko odbiór wyników istniejącego batcha, bez szacunku i bez nowego batcha
+  ---
+  duration_ms: 1.626332
+  type: 'test'
+  ...
+# Subtest: main: batch w toku po czasie oczekiwania → kod 4 z poleceniem --wznow
+ok 66 - main: batch w toku po czasie oczekiwania → kod 4 z poleceniem --wznow
+  ---
+  duration_ms: 1.618682
+  type: 'test'
+  ...
+# Subtest: zastosuj: zapisuje przekłady ze statusem „do przeglądu” poza kartami i stroną; publikacja bez zmian
+ok 67 - zastosuj: zapisuje przekłady ze statusem „do przeglądu” poza kartami i stroną; publikacja bez zmian
+  ---
+  duration_ms: 3.123228
+  type: 'test'
+  ...
+# Subtest: zastosuj: karta z odrzuconym zdaniem albo zmienionym źródłem nie jest zapisywana
+ok 68 - zastosuj: karta z odrzuconym zdaniem albo zmienionym źródłem nie jest zapisywana
+  ---
+  duration_ms: 4.952094
+  type: 'test'
+  ...
+# Subtest: bramka: tylko publikowalne warianty i produkty z ≥1 takim wariantem mają strony
+ok 69 - bramka: tylko publikowalne warianty i produkty z ≥1 takim wariantem mają strony
+  ---
+  duration_ms: 6.516236
+  type: 'test'
+  ...
+# Subtest: mapa strony: tylko strony z planu, bez ukrytych, wycofanych, do-researchu i strony wyboru języka
+ok 70 - mapa strony: tylko strony z planu, bez ukrytych, wycofanych, do-researchu i strony wyboru języka
+  ---
+  duration_ms: 3.062073
+  type: 'test'
+  ...
+# Subtest: hreflang: dwukierunkowy, z sobą samym, absolutny, x-default; tylko istniejące wersje
+ok 71 - hreflang: dwukierunkowy, z sobą samym, absolutny, x-default; tylko istniejące wersje
+  ---
+  duration_ms: 1.617339
+  type: 'test'
+  ...
+# Subtest: karta-ostrzeżenie: bez Recipe i bez miejsc reklam, z ostrzeżeniem i uwagą D-027 (c)
+ok 72 - karta-ostrzeżenie: bez Recipe i bez miejsc reklam, z ostrzeżeniem i uwagą D-027 (c)
+  ---
+  duration_ms: 0.712022
+  type: 'test'
+  ...
+# Subtest: Recipe tylko na ok-zrodlo z obrazem; każda strona encji ma uwagę D-027 (c)
+ok 73 - Recipe tylko na ok-zrodlo z obrazem; każda strona encji ma uwagę D-027 (c)
+  ---
+  duration_ms: 1.081045
+  type: 'test'
+  ...
+# Subtest: brak wymaganego ostrzeżenia w treści = błąd budowania
+ok 74 - brak wymaganego ostrzeżenia w treści = błąd budowania
+  ---
+  duration_ms: 0.723024
+  type: 'test'
+  ...
+# Subtest: slugi: format, unikalność, kolizja z prefiksem; pismo niełacińskie dozwolone
+ok 75 - slugi: format, unikalność, kolizja z prefiksem; pismo niełacińskie dozwolone
+  ---
+  duration_ms: 8.066433
+  type: 'test'
+  ...
+# Subtest: brak slugu albo treści w języku = brak strony w tym języku (fale)
+ok 76 - brak slugu albo treści w języku = brak strony w tym języku (fale)
+  ---
+  duration_ms: 0.450609
+  type: 'test'
+  ...
+# Subtest: mapa strony dzieli się powyżej limitu i ma indeks
+ok 77 - mapa strony dzieli się powyżej limitu i ma indeks
+  ---
+  duration_ms: 0.791013
+  type: 'test'
+  ...
+# Subtest: treść escapowana; brak odnośników z parametrem zapytania; brak automatycznego przekierowania
+ok 78 - treść escapowana; brak odnośników z parametrem zapytania; brak automatycznego przekierowania
+  ---
+  duration_ms: 1.545475
+  type: 'test'
+  ...
+# Subtest: brak tekstów interfejsu dla języka ze stronami = błąd
+ok 79 - brak tekstów interfejsu dla języka ze stronami = błąd
+  ---
+  duration_ms: 0.675629
+  type: 'test'
+  ...
+# Subtest: prawdziwy katalog: dziś 0 stron treści, mapa pusta (nic ukrytego nie wycieka)
+ok 80 - prawdziwy katalog: dziś 0 stron treści, mapa pusta (nic ukrytego nie wycieka)
+  ---
+  duration_ms: 20.380809
+  type: 'test'
+  ...
+# Subtest: cardType warning nigdy nie dostaje Recipe, nawet przy ok-zrodlo z obrazem
+ok 81 - cardType warning nigdy nie dostaje Recipe, nawet przy ok-zrodlo z obrazem
+  ---
+  duration_ms: 0.623687
+  type: 'test'
+  ...
+# Subtest: R2 zaślepka w treści albo tekście interfejsu strony = błąd budowania
+ok 82 - R2 zaślepka w treści albo tekście interfejsu strony = błąd budowania
+  ---
+  duration_ms: 2.285525
+  type: 'test'
+  ...
+# Subtest: R2 tryb testowy z zaślepkami nie zgłasza ich (tylko dane [PRZYKŁAD] w testach)
+ok 83 - R2 tryb testowy z zaślepkami nie zgłasza ich (tylko dane [PRZYKŁAD] w testach)
+  ---
+  duration_ms: 0.594663
+  type: 'test'
+  ...
+# Subtest: R3 karta-ostrzeżenie bez ostrzeżenia albo z pustym tekstem = błąd
+ok 84 - R3 karta-ostrzeżenie bez ostrzeżenia albo z pustym tekstem = błąd
+  ---
+  duration_ms: 1.276602
+  type: 'test'
+  ...
+# Subtest: R3 pusta uwaga D-027 (c) w tekstach interfejsu = błąd
+ok 85 - R3 pusta uwaga D-027 (c) w tekstach interfejsu = błąd
+  ---
+  duration_ms: 0.663187
+  type: 'test'
+  ...
+# Subtest: R4 opublikowany adres zniknął bez przekierowania = błąd; z przekierowaniem do istniejącej strony = OK
+ok 86 - R4 opublikowany adres zniknął bez przekierowania = błąd; z przekierowaniem do istniejącej strony = OK
+  ---
+  duration_ms: 2.75982
+  type: 'test'
+  ...
+# Subtest: R5 prywatność: kontrola zasobów obcych łapie adres bez protokołu, srcset, object, embed, @import (07-jakosc-005)
+ok 87 - R5 prywatność: kontrola zasobów obcych łapie adres bez protokołu, srcset, object, embed, @import (07-jakosc-005)
+  ---
+  duration_ms: 2.70826
+  type: 'test'
+  ...
+# Subtest: R5 prywatność: wygenerowany HTML nie ładuje nic spoza domeny (0 skryptów i zasobów stron trzecich)
+ok 88 - R5 prywatność: wygenerowany HTML nie ładuje nic spoza domeny (0 skryptów i zasobów stron trzecich)
+  ---
+  duration_ms: 2.735345
+  type: 'test'
+  ...
+# Subtest: K1 jedno miejsce konfiguracji: process.env i adres domeny tylko w site/konfiguracja.mjs
+ok 89 - K1 jedno miejsce konfiguracji: process.env i adres domeny tylko w site/konfiguracja.mjs
+  ---
+  duration_ms: 1.08041
+  type: 'test'
+  ...
+# Subtest: R1 bramka zamknięta domyślnie: brak albo nieznany safetyStatus = brak strony
+ok 90 - R1 bramka zamknięta domyślnie: brak albo nieznany safetyStatus = brak strony
+  ---
+  duration_ms: 3.693125
+  type: 'test'
+  ...
+# Subtest: R1 bramka: poza zakresem, bez treści albo ryzyko bez karty-ostrzeżenia = brak strony (07-jakosc-001)
+ok 91 - R1 bramka: poza zakresem, bez treści albo ryzyko bez karty-ostrzeżenia = brak strony (07-jakosc-001)
+  ---
+  duration_ms: 1.937315
+  type: 'test'
+  ...
+# Subtest: R8 kolizja adresów: dwa warianty produktu z tym samym slugiem = błąd planu i błąd slugów (07-jakosc-002)
+ok 92 - R8 kolizja adresów: dwa warianty produktu z tym samym slugiem = błąd planu i błąd slugów (07-jakosc-002)
+  ---
+  duration_ms: 0.314937
+  type: 'test'
+  ...
+# Subtest: slugi niełacińskie: lista dozwolonych (małe litery, cyfry, znaki łączące, łączniki) (07-jakosc-003)
+ok 93 - slugi niełacińskie: lista dozwolonych (małe litery, cyfry, znaki łączące, łączniki) (07-jakosc-003)
+  ---
+  duration_ms: 1.945115
+  type: 'test'
+  ...
+# Subtest: ostrzeżenia przed treścią: sekcja ostrzeżeń przed wstępem i przed krokami (ADR 0005, 07-jakosc-006)
+ok 94 - ostrzeżenia przed treścią: sekcja ostrzeżeń przed wstępem i przed krokami (ADR 0005, 07-jakosc-006)
+  ---
+  duration_ms: 0.665737
+  type: 'test'
+  ...
+# Subtest: R2 zaślepki w wygenerowanych plikach: katalog, nazwy języków, rodziny, [ZAŁOŻENIE] i [DO DECYZJI] = błąd (07-jakosc-004)
+ok 95 - R2 zaślepki w wygenerowanych plikach: katalog, nazwy języków, rodziny, [ZAŁOŻENIE] i [DO DECYZJI] = błąd (07-jakosc-004)
+  ---
+  duration_ms: 4.246553
+  type: 'test'
+  ...
+1..95
+# tests 95
+# suites 0
+# pass 95
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 650.638866
+
+> check:granice
+> node docs/architektura/narzedzia/granice.mjs site .
+
+OK: 7 plików, bez naruszeń
+
+> check:catalog
+> node tools/validate-catalog.mjs catalog/catalog-seed.json docs/tresci/rejestr.json
+
+1432 wariantów (ok-zrodlo 288, do-researchu 921, ryzyko-wysokie 97, nie-publikowac 89, wycofane 37); 0 błędów, 0 uwag
+
+> check:tresci
+> node tools/kontrole-tresci.mjs docs/tresci/rejestr.json docs/tresci/teksty --przeglad zastępczy --konfiguracja docs/tresci/konfiguracja.json
+
+PRZEGLĄD FER-001 zastępczy
+PRZEGLĄD FER-003 zastępczy
+PRZEGLĄD FER-004 zastępczy
+PRZEGLĄD FER-005 zastępczy
+PRZEGLĄD FER-006 zastępczy
+PRZEGLĄD FER-007 zastępczy
+PRZEGLĄD FER-008 zastępczy
+PRZEGLĄD FER-009 zastępczy
+PRZEGLĄD FER-010 zastępczy
+PRZEGLĄD FER-011 zastępczy
+PRZEGLĄD FER-012 zastępczy
+PRZEGLĄD FER-013 zastępczy
+PRZEGLĄD FER-017 zastępczy
+PRZEGLĄD FER-018 zastępczy
+PRZEGLĄD FER-019 zastępczy
+PRZEGLĄD FER-020 zastępczy
+PRZEGLĄD FER-021 zastępczy
+PRZEGLĄD FER-022 zastępczy
+PRZEGLĄD FER-024 zastępczy
+PRZEGLĄD FER-026 zastępczy
+PRZEGLĄD FER-027 zastępczy
+PRZEGLĄD FER-028 zastępczy
+PRZEGLĄD FER-029 zastępczy
+PRZEGLĄD FER-030 zastępczy
+PRZEGLĄD FER-031 zastępczy
+PRZEGLĄD FER-033 zastępczy
+PRZEGLĄD FER-034 zastępczy
+PRZEGLĄD FER-035 zastępczy
+PRZEGLĄD FER-036 zastępczy
+PRZEGLĄD FER-037 zastępczy
+PRZEGLĄD FER-039 zastępczy
+PRZEGLĄD FER-041 zastępczy
+PRZEGLĄD FER-042 zastępczy
+PRZEGLĄD FER-043 zastępczy
+PRZEGLĄD FER-044 zastępczy
+PRZEGLĄD FER-045 zastępczy
+PRZEGLĄD FER-046 zastępczy
+PRZEGLĄD FER-047 zastępczy
+PRZEGLĄD FER-049 zastępczy
+PRZEGLĄD FER-050 zastępczy
+PRZEGLĄD FER-052 zastępczy
+PRZEGLĄD FER-053 zastępczy
+PRZEGLĄD FER-054 zastępczy
+PRZEGLĄD FER-055 zastępczy
+PRZEGLĄD FER-056 zastępczy
+PRZEGLĄD FER-057 zastępczy
+PRZEGLĄD FER-059 zastępczy
+PRZEGLĄD FER-061 zastępczy
+PRZEGLĄD FER-062 zastępczy
+PRZEGLĄD FER-063 zastępczy
+PRZEGLĄD FER-064 zastępczy
+PRZEGLĄD FER-066 zastępczy
+PRZEGLĄD FER-068 zastępczy
+PRZEGLĄD FER-069 zastępczy
+PRZEGLĄD FER-070 zastępczy
+PRZEGLĄD FER-071 zastępczy
+PRZEGLĄD FER-076 zastępczy
+PRZEGLĄD FER-084 zastępczy
+PRZEGLĄD FER-086 zastępczy
+PRZEGLĄD FER-087 zastępczy
+PRZEGLĄD FER-089 zastępczy
+PRZEGLĄD FER-091 zastępczy
+PRZEGLĄD FER-092 zastępczy
+PRZEGLĄD FER-093 zastępczy
+PRZEGLĄD FER-094 zastępczy
+PRZEGLĄD ACI-001 zastępczy
+PRZEGLĄD ACI-002 zastępczy
+PRZEGLĄD ACI-003 zastępczy
+PRZEGLĄD ACI-004 zastępczy
+PRZEGLĄD ACI-005 zastępczy
+PRZEGLĄD ACI-006 zastępczy
+PRZEGLĄD ACI-007 zastępczy
+PRZEGLĄD ACI-008 zastępczy
+PRZEGLĄD ACI-009 zastępczy
+PRZEGLĄD ACI-010 zastępczy
+PRZEGLĄD ACI-011 zastępczy
+PRZEGLĄD ACI-012 zastępczy
+PRZEGLĄD ACI-013 zastępczy
+PRZEGLĄD ACI-014 zastępczy
+PRZEGLĄD ACI-015 zastępczy
+PRZEGLĄD ACI-016 zastępczy
+PRZEGLĄD ACI-017 zastępczy
+PRZEGLĄD ACI-018 zastępczy
+PRZEGLĄD ACI-021 zastępczy
+PRZEGLĄD ACI-022 zastępczy
+PRZEGLĄD ACI-024 zastępczy
+PRZEGLĄD ACI-026 zastępczy
+PRZEGLĄD ACI-027 zastępczy
+PRZEGLĄD ACI-029 zastępczy
+PRZEGLĄD ACI-030 zastępczy
+PRZEGLĄD ACI-031 zastępczy
+PRZEGLĄD ACI-032 zastępczy
+PRZEGLĄD ACI-033 zastępczy
+PRZEGLĄD ACI-034 zastępczy
+PRZEGLĄD ACI-035 zastępczy
+PRZEGLĄD ACI-036 zastępczy
+PRZEGLĄD ACI-037 zastępczy
+PRZEGLĄD ACI-038 zastępczy
+PRZEGLĄD ACI-039 zastępczy
+PRZEGLĄD ACI-040 zastępczy
+PRZEGLĄD ACI-041 zastępczy
+PRZEGLĄD ACI-042 zastępczy
+PRZEGLĄD ACI-044 zastępczy
+PRZEGLĄD ACI-045 zastępczy
+PRZEGLĄD ACI-046 zastępczy
+PRZEGLĄD ACI-047 zastępczy
+PRZEGLĄD ACI-048 zastępczy
+PRZEGLĄD ACI-049 zastępczy
+PRZEGLĄD ACI-051 zastępczy
+PRZEGLĄD ACI-052 zastępczy
+PRZEGLĄD ACI-053 zastępczy
+PRZEGLĄD ACI-054 zastępczy
+PRZEGLĄD ACI-055 zastępczy
+PRZEGLĄD ACI-056 zastępczy
+PRZEGLĄD ACI-057 zastępczy
+PRZEGLĄD ACI-058 zastępczy
+PRZEGLĄD ACI-059 zastępczy
+PRZEGLĄD ACI-060 zastępczy
+PRZEGLĄD ACI-061 zastępczy
+PRZEGLĄD ACI-062 zastępczy
+PRZEGLĄD ACI-063 zastępczy
+PRZEGLĄD ACI-064 zastępczy
+PRZEGLĄD ACI-065 zastępczy
+PRZEGLĄD ACI-066 zastępczy
+PRZEGLĄD ACI-068 zastępczy
+PRZEGLĄD ACI-069 zastępczy
+PRZEGLĄD ACI-070 zastępczy
+PRZEGLĄD ACI-071 zastępczy
+PRZEGLĄD ACI-072 zastępczy
+PRZEGLĄD ACI-073 zastępczy
+PRZEGLĄD ACI-074 zastępczy
+PRZEGLĄD ACI-075 zastępczy
+PRZEGLĄD ACI-076 zastępczy
+PRZEGLĄD ACI-077 zastępczy
+PRZEGLĄD ACI-078 zastępczy
+PRZEGLĄD ACI-079 zastępczy
+PRZEGLĄD ACI-080 zastępczy
+PRZEGLĄD ACI-081 zastępczy
+PRZEGLĄD ACI-082 zastępczy
+PRZEGLĄD ACI-083 zastępczy
+PRZEGLĄD ACI-084 zastępczy
+PRZEGLĄD ACI-085 zastępczy
+PRZEGLĄD ACI-086 zastępczy
+PRZEGLĄD ACI-087 zastępczy
+PRZEGLĄD ACI-088 zastępczy
+PRZEGLĄD ACI-089 zastępczy
+PRZEGLĄD ACI-090 zastępczy
+PRZEGLĄD ACI-091 zastępczy
+PRZEGLĄD ACI-092 zastępczy
+PRZEGLĄD ACI-093 zastępczy
+PRZEGLĄD ACI-094 zastępczy
+PRZEGLĄD ACI-095 zastępczy
+PRZEGLĄD ACI-096 zastępczy
+PRZEGLĄD ACI-097 zastępczy
+PRZEGLĄD ACI-098 zastępczy
+PRZEGLĄD ACI-099 zastępczy
+PRZEGLĄD ACI-100 zastępczy
+PRZEGLĄD ACI-101 zastępczy
+PRZEGLĄD ACI-102 zastępczy
+PRZEGLĄD ACI-103 zastępczy
+PRZEGLĄD ACI-104 zastępczy
+PRZEGLĄD ACI-105 zastępczy
+PRZEGLĄD ACI-106 zastępczy
+PRZEGLĄD ACI-107 zastępczy
+PRZEGLĄD ACI-108 zastępczy
+PRZEGLĄD ACI-109 zastępczy
+PRZEGLĄD ACI-110 zastępczy
+PRZEGLĄD ACI-111 zastępczy
+PRZEGLĄD ACI-112 zastępczy
+PRZEGLĄD ACI-113 zastępczy
+PRZEGLĄD ACI-114 zastępczy
+PRZEGLĄD ACI-115 zastępczy
+PRZEGLĄD ACI-116 zastępczy
+PRZEGLĄD ACI-117 zastępczy
+PRZEGLĄD ACI-118 zastępczy
+PRZEGLĄD ACI-119 zastępczy
+PRZEGLĄD ACI-120 zastępczy
+PRZEGLĄD ACI-121 zastępczy
+PRZEGLĄD ACI-122 zastępczy
+PRZEGLĄD ACI-123 zastępczy
+PRZEGLĄD ACI-124 zastępczy
+PRZEGLĄD ACI-125 zastępczy
+PRZEGLĄD ACI-126 zastępczy
+PRZEGLĄD ACI-127 zastępczy
+PRZEGLĄD ACI-128 zastępczy
+PRZEGLĄD ACI-129 zastępczy
+PRZEGLĄD ACI-130 zastępczy
+PRZEGLĄD ACI-131 zastępczy
+PRZEGLĄD ACI-132 zastępczy
+PRZEGLĄD ACI-133 zastępczy
+PRZEGLĄD ACI-134 zastępczy
+PRZEGLĄD ACI-135 zastępczy
+PRZEGLĄD ACI-136 zastępczy
+PRZEGLĄD ACI-137 zastępczy
+PRZEGLĄD ACI-138 zastępczy
+PRZEGLĄD ACI-139 zastępczy
+PRZEGLĄD ACI-140 zastępczy
+PRZEGLĄD ACI-141 zastępczy
+PRZEGLĄD ACI-142 zastępczy
+PRZEGLĄD ACI-143 zastępczy
+PRZEGLĄD ACI-144 zastępczy
+PRZEGLĄD ACI-145 zastępczy
+PRZEGLĄD ACI-146 zastępczy
+PRZEGLĄD ACI-147 zastępczy
+PRZEGLĄD ACI-148 zastępczy
+PRZEGLĄD ACI-149 zastępczy
+PRZEGLĄD ACI-150 zastępczy
+PRZEGLĄD ACI-151 zastępczy
+PRZEGLĄD ACI-152 zastępczy
+PRZEGLĄD ACI-153 zastępczy
+PRZEGLĄD ACI-154 zastępczy
+PRZEGLĄD ACI-155 zastępczy
+PRZEGLĄD ACI-156 zastępczy
+PRZEGLĄD ACI-157 zastępczy
+PRZEGLĄD ACI-158 zastępczy
+PRZEGLĄD ACI-159 zastępczy
+PRZEGLĄD ACI-160 zastępczy
+PRZEGLĄD ACI-161 zastępczy
+PRZEGLĄD ACI-162 zastępczy
+PRZEGLĄD ACI-163 zastępczy
+PRZEGLĄD ACI-164 zastępczy
+PRZEGLĄD ACI-165 zastępczy
+PRZEGLĄD ACI-166 zastępczy
+PRZEGLĄD ACI-167 zastępczy
+PRZEGLĄD ACI-168 zastępczy
+PRZEGLĄD ACI-169 zastępczy
+PRZEGLĄD ACI-170 zastępczy
+PRZEGLĄD SZY-001 zastępczy
+PRZEGLĄD SZY-002 zastępczy
+PRZEGLĄD SZY-003 zastępczy
+PRZEGLĄD SZY-004 zastępczy
+PRZEGLĄD SZY-005 zastępczy
+PRZEGLĄD SZY-006 zastępczy
+PRZEGLĄD SZY-007 zastępczy
+PRZEGLĄD SZY-008 zastępczy
+PRZEGLĄD SZY-009 zastępczy
+PRZEGLĄD SZY-010 zastępczy
+PRZEGLĄD SZY-011 zastępczy
+PRZEGLĄD SZY-012 zastępczy
+PRZEGLĄD SZY-013 zastępczy
+PRZEGLĄD SZY-014 zastępczy
+PRZEGLĄD SZY-015 zastępczy
+PRZEGLĄD SZY-016 zastępczy
+PRZEGLĄD SZY-017 zastępczy
+PRZEGLĄD SZY-018 zastępczy
+PRZEGLĄD SZY-019 zastępczy
+PRZEGLĄD SZY-020 zastępczy
+PRZEGLĄD SZY-021 zastępczy
+PRZEGLĄD SZY-022 zastępczy
+PRZEGLĄD SZY-023 zastępczy
+PRZEGLĄD SZY-024 zastępczy
+PRZEGLĄD SZY-025 zastępczy
+PRZEGLĄD SZY-026 zastępczy
+PRZEGLĄD SZY-027 zastępczy
+PRZEGLĄD SZY-028 zastępczy
+PRZEGLĄD SZY-029 zastępczy
+PRZEGLĄD SZY-030 zastępczy
+PRZEGLĄD SZY-031 zastępczy
+PRZEGLĄD SZY-032 zastępczy
+PRZEGLĄD SZY-033 zastępczy
+PRZEGLĄD SZY-034 zastępczy
+PRZEGLĄD SZY-035 zastępczy
+PRZEGLĄD SZY-036 zastępczy
+PRZEGLĄD SZY-037 zastępczy
+PRZEGLĄD SZY-038 zastępczy
+PRZEGLĄD SZY-039 zastępczy
+PRZEGLĄD SZY-040 zastępczy
+PRZEGLĄD SZY-041 zastępczy
+PRZEGLĄD SZY-042 zastępczy
+PRZEGLĄD SZY-043 zastępczy
+PRZEGLĄD SZY-044 zastępczy
+PRZEGLĄD SZY-045 zastępczy
+PRZEGLĄD SZY-046 zastępczy
+PRZEGLĄD SZY-047 zastępczy
+PRZEGLĄD SZY-048 zastępczy
+PRZEGLĄD SZY-049 zastępczy
+PRZEGLĄD SZY-051 zastępczy
+PRZEGLĄD SZY-053 zastępczy
+PRZEGLĄD SZY-054 zastępczy
+PRZEGLĄD SLO-001 zastępczy
+PRZEGLĄD SLO-002 zastępczy
+PRZEGLĄD SLO-003 zastępczy
+PRZEGLĄD SLO-004 zastępczy
+PRZEGLĄD SLO-005 zastępczy
+PRZEGLĄD SLO-006 zastępczy
+PRZEGLĄD SLO-007 zastępczy
+PRZEGLĄD SLO-008 zastępczy
+PRZEGLĄD SLO-009 zastępczy
+PRZEGLĄD SLO-010 zastępczy
+PRZEGLĄD SLO-011 zastępczy
+PRZEGLĄD SLO-012 zastępczy
+PRZEGLĄD SLO-013 zastępczy
+PRZEGLĄD SLO-014 zastępczy
+PRZEGLĄD SLO-015 zastępczy
+PRZEGLĄD SLO-016 zastępczy
+PRZEGLĄD SLO-018 zastępczy
+PRZEGLĄD SLO-019 zastępczy
+PRZEGLĄD SLO-020 zastępczy
+PRZEGLĄD SLO-021 zastępczy
+PRZEGLĄD SLO-022 zastępczy
+PRZEGLĄD SLO-023 zastępczy
+PRZEGLĄD SLO-024 zastępczy
+PRZEGLĄD SLO-025 zastępczy
+PRZEGLĄD SLO-026 zastępczy
+PRZEGLĄD SLO-027 zastępczy
+PRZEGLĄD SLO-028 zastępczy
+PRZEGLĄD SLO-029 zastępczy
+PRZEGLĄD SLO-030 zastępczy
+PRZEGLĄD SLO-031 zastępczy
+PRZEGLĄD SLO-032 zastępczy
+PRZEGLĄD SLO-033 zastępczy
+PRZEGLĄD SLO-034 zastępczy
+PRZEGLĄD SLO-035 zastępczy
+PRZEGLĄD SLO-036 zastępczy
+PRZEGLĄD SLO-037 zastępczy
+PRZEGLĄD SLO-038 zastępczy
+PRZEGLĄD SLO-039 zastępczy
+PRZEGLĄD SLO-040 zastępczy
+PRZEGLĄD SLO-041 zastępczy
+PRZEGLĄD SLO-042 zastępczy
+PRZEGLĄD SLO-043 zastępczy
+PRZEGLĄD SLO-044 zastępczy
+PRZEGLĄD SLO-045 zastępczy
+PRZEGLĄD SLO-046 zastępczy
+PRZEGLĄD SLO-047 zastępczy
+PRZEGLĄD SLO-048 zastępczy
+PRZEGLĄD SLO-049 zastępczy
+PRZEGLĄD SLO-050 zastępczy
+PRZEGLĄD SLO-051 zastępczy
+PRZEGLĄD SLO-052 zastępczy
+PRZEGLĄD SLO-053 zastępczy
+PRZEGLĄD SLO-054 zastępczy
+PRZEGLĄD SLO-055 zastępczy
+PRZEGLĄD SLO-056 zastępczy
+PRZEGLĄD SLO-057 zastępczy
+PRZEGLĄD SLO-058 zastępczy
+PRZEGLĄD SLO-059 zastępczy
+PRZEGLĄD SLO-060 zastępczy
+PRZEGLĄD SLO-061 zastępczy
+PRZEGLĄD SLO-062 zastępczy
+PRZEGLĄD SLO-063 zastępczy
+PRZEGLĄD SLO-064 zastępczy
+PRZEGLĄD SLO-065 zastępczy
+PRZEGLĄD SLO-066 zastępczy
+PRZEGLĄD SLO-067 zastępczy
+PRZEGLĄD SLO-068 zastępczy
+PRZEGLĄD SLO-069 zastępczy
+PRZEGLĄD SLO-070 zastępczy
+PRZEGLĄD SLO-071 zastępczy
+PRZEGLĄD SLO-072 zastępczy
+PRZEGLĄD SLO-073 zastępczy
+PRZEGLĄD SLO-074 zastępczy
+PRZEGLĄD SLO-075 zastępczy
+PRZEGLĄD SLO-076 zastępczy
+PRZEGLĄD SLO-077 zastępczy
+PRZEGLĄD SLO-078 zastępczy
+PRZEGLĄD SLO-079 zastępczy
+PRZEGLĄD SLO-080 zastępczy
+PRZEGLĄD SLO-081 zastępczy
+PRZEGLĄD SLO-082 zastępczy
+PRZEGLĄD SLO-083 zastępczy
+PRZEGLĄD SLO-084 zastępczy
+PRZEGLĄD SLO-085 zastępczy
+PRZEGLĄD SLO-086 zastępczy
+PRZEGLĄD SLO-087 zastępczy
+PRZEGLĄD SLO-088 zastępczy
+PRZEGLĄD SLO-089 zastępczy
+PRZEGLĄD SLO-090 zastępczy
+PRZEGLĄD SLO-091 zastępczy
+PRZEGLĄD SLO-092 zastępczy
+PRZEGLĄD SLO-093 zastępczy
+PRZEGLĄD SLO-094 zastępczy
+PRZEGLĄD SLO-095 zastępczy
+PRZEGLĄD SLO-096 zastępczy
+PRZEGLĄD SLO-097 zastępczy
+PRZEGLĄD SLO-098 zastępczy
+PRZEGLĄD SLO-099 zastępczy
+PRZEGLĄD SLO-100 zastępczy
+PRZEGLĄD SLO-101 zastępczy
+PRZEGLĄD SLO-102 zastępczy
+PRZEGLĄD SLO-103 zastępczy
+PRZEGLĄD SLO-104 zastępczy
+PRZEGLĄD SLO-105 zastępczy
+PRZEGLĄD SLO-106 zastępczy
+PRZEGLĄD SLO-107 zastępczy
+PRZEGLĄD SLO-108 zastępczy
+PRZEGLĄD SLO-109 zastępczy
+PRZEGLĄD OLE-001 zastępczy
+PRZEGLĄD OLE-002 zastępczy
+PRZEGLĄD OLE-003 zastępczy
+PRZEGLĄD OLE-004 zastępczy
+PRZEGLĄD OLE-005 zastępczy
+PRZEGLĄD OLE-006 zastępczy
+PRZEGLĄD OLE-007 zastępczy
+PRZEGLĄD OLE-008 zastępczy
+PRZEGLĄD OLE-009 zastępczy
+PRZEGLĄD OLE-010 zastępczy
+PRZEGLĄD OLE-011 zastępczy
+PRZEGLĄD OLE-012 zastępczy
+PRZEGLĄD OLE-013 zastępczy
+PRZEGLĄD OLE-014 zastępczy
+PRZEGLĄD OLE-015 zastępczy
+PRZEGLĄD OLE-016 zastępczy
+PRZEGLĄD OLE-017 zastępczy
+PRZEGLĄD OLE-018 zastępczy
+PRZEGLĄD OLE-019 zastępczy
+PRZEGLĄD OLE-020 zastępczy
+PRZEGLĄD OLE-021 zastępczy
+PRZEGLĄD OLE-022 zastępczy
+PRZEGLĄD OLE-023 zastępczy
+PRZEGLĄD OLE-024 zastępczy
+PRZEGLĄD OLE-025 zastępczy
+PRZEGLĄD OLE-026 zastępczy
+PRZEGLĄD OLE-027 zastępczy
+PRZEGLĄD OLE-028 zastępczy
+PRZEGLĄD OLE-029 zastępczy
+PRZEGLĄD OLE-031 zastępczy
+PRZEGLĄD OLE-032 zastępczy
+PRZEGLĄD OLE-033 zastępczy
+PRZEGLĄD OLE-034 zastępczy
+PRZEGLĄD OLE-035 zastępczy
+PRZEGLĄD OLE-036 zastępczy
+PRZEGLĄD OLE-037 zastępczy
+PRZEGLĄD OLE-038 zastępczy
+PRZEGLĄD OLE-039 zastępczy
+PRZEGLĄD OLE-040 zastępczy
+PRZEGLĄD OLE-043 zastępczy
+PRZEGLĄD OLE-044 zastępczy
+PRZEGLĄD OLE-046 zastępczy
+PRZEGLĄD OLE-047 zastępczy
+PRZEGLĄD OLE-048 zastępczy
+PRZEGLĄD OLE-049 zastępczy
+PRZEGLĄD OLE-050 zastępczy
+PRZEGLĄD SUS-001 zastępczy
+PRZEGLĄD SUS-002 zastępczy
+PRZEGLĄD SUS-003 zastępczy
+PRZEGLĄD SUS-008 zastępczy
+PRZEGLĄD SUS-009 zastępczy
+PRZEGLĄD SUS-010 zastępczy
+PRZEGLĄD SUS-011 zastępczy
+PRZEGLĄD SUS-012 zastępczy
+PRZEGLĄD SUS-013 zastępczy
+PRZEGLĄD SUS-014 zastępczy
+PRZEGLĄD SUS-016 zastępczy
+PRZEGLĄD SUS-017 zastępczy
+PRZEGLĄD SUS-018 zastępczy
+PRZEGLĄD SUS-019 zastępczy
+PRZEGLĄD SUS-022 zastępczy
+PRZEGLĄD SUS-023 zastępczy
+PRZEGLĄD SUS-024 zastępczy
+PRZEGLĄD SUS-025 zastępczy
+PRZEGLĄD SUS-027 zastępczy
+PRZEGLĄD SUS-028 zastępczy
+PRZEGLĄD SUS-029 zastępczy
+PRZEGLĄD SUS-030 zastępczy
+PRZEGLĄD SUS-033 zastępczy
+PRZEGLĄD SUS-035 zastępczy
+PRZEGLĄD SUS-041 zastępczy
+PRZEGLĄD SUS-043 zastępczy
+PRZEGLĄD SUS-044 zastępczy
+PRZEGLĄD SUS-045 zastępczy
+PRZEGLĄD SUS-046 zastępczy
+PRZEGLĄD SUS-047 zastępczy
+PRZEGLĄD SUS-050 zastępczy
+PRZEGLĄD SUS-059 zastępczy
+PRZEGLĄD SUS-060 zastępczy
+PRZEGLĄD NAP-001 zastępczy
+PRZEGLĄD NAP-002 zastępczy
+PRZEGLĄD NAP-003 zastępczy
+PRZEGLĄD NAP-004 zastępczy
+PRZEGLĄD NAP-005 zastępczy
+PRZEGLĄD NAP-006 zastępczy
+PRZEGLĄD NAP-007 zastępczy
+PRZEGLĄD NAP-008 zastępczy
+PRZEGLĄD NAP-009 zastępczy
+PRZEGLĄD NAP-010 zastępczy
+PRZEGLĄD NAP-012 zastępczy
+PRZEGLĄD NAP-013 zastępczy
+PRZEGLĄD NAP-014 zastępczy
+PRZEGLĄD NAP-015 zastępczy
+PRZEGLĄD NAP-016 zastępczy
+PRZEGLĄD NAP-017 zastępczy
+PRZEGLĄD NAP-018 zastępczy
+PRZEGLĄD NAP-019 zastępczy
+PRZEGLĄD NAP-020 zastępczy
+PRZEGLĄD NAP-021 zastępczy
+PRZEGLĄD NAP-022 zastępczy
+PRZEGLĄD NAP-023 zastępczy
+PRZEGLĄD NAP-024 zastępczy
+PRZEGLĄD NAP-025 zastępczy
+PRZEGLĄD NAP-027 zastępczy
+PRZEGLĄD NAP-028 zastępczy
+PRZEGLĄD NAP-029 zastępczy
+PRZEGLĄD NAP-030 zastępczy
+PRZEGLĄD NAP-031 zastępczy
+PRZEGLĄD NAP-034 zastępczy
+PRZEGLĄD NAP-035 zastępczy
+PRZEGLĄD NAP-036 zastępczy
+PRZEGLĄD NAP-037 zastępczy
+PRZEGLĄD NAP-040 zastępczy
+PRZEGLĄD NAP-041 zastępczy
+PRZEGLĄD NAP-042 zastępczy
+PRZEGLĄD NAP-045 zastępczy
+PRZEGLĄD NAP-046 zastępczy
+PRZEGLĄD NAP-047 zastępczy
+PRZEGLĄD NAP-048 zastępczy
+PRZEGLĄD NAP-049 zastępczy
+PRZEGLĄD NAP-050 zastępczy
+PRZEGLĄD NAP-051 zastępczy
+PRZEGLĄD NAP-052 zastępczy
+PRZEGLĄD NAP-053 zastępczy
+PRZEGLĄD NAP-054 zastępczy
+PRZEGLĄD NAP-055 zastępczy
+PRZEGLĄD NAP-056 zastępczy
+PRZEGLĄD NAP-057 zastępczy
+PRZEGLĄD NAP-058 zastępczy
+PRZEGLĄD NAP-059 zastępczy
+PRZEGLĄD NAP-060 zastępczy
+PRZEGLĄD NAP-061 zastępczy
+PRZEGLĄD MLE-001 zastępczy
+PRZEGLĄD MLE-002 zastępczy
+PRZEGLĄD MLE-003 zastępczy
+PRZEGLĄD MLE-004 zastępczy
+PRZEGLĄD MLE-005 zastępczy
+PRZEGLĄD MLE-007 zastępczy
+PRZEGLĄD MLE-008 zastępczy
+PRZEGLĄD MLE-009 zastępczy
+PRZEGLĄD MLE-010 zastępczy
+PRZEGLĄD MLE-011 zastępczy
+PRZEGLĄD MLE-012 zastępczy
+PRZEGLĄD MLE-013 zastępczy
+PRZEGLĄD MLE-014 zastępczy
+PRZEGLĄD MLE-015 zastępczy
+PRZEGLĄD MLE-016 zastępczy
+PRZEGLĄD MLE-017 zastępczy
+PRZEGLĄD MLE-019 zastępczy
+PRZEGLĄD MLE-021 zastępczy
+PRZEGLĄD MLE-022 zastępczy
+PRZEGLĄD MLE-023 zastępczy
+PRZEGLĄD MLE-026 zastępczy
+PRZEGLĄD MLE-027 zastępczy
+PRZEGLĄD MLE-028 zastępczy
+PRZEGLĄD MLE-037 zastępczy
+PRZEGLĄD MLE-038 zastępczy
+PRZEGLĄD MLE-039 zastępczy
+PRZEGLĄD MLE-040 zastępczy
+PRZEGLĄD MLE-041 zastępczy
+PRZEGLĄD MLE-042 zastępczy
+PRZEGLĄD MLE-043 zastępczy
+PRZEGLĄD MLE-044 zastępczy
+PRZEGLĄD MLE-045 zastępczy
+PRZEGLĄD MLE-046 zastępczy
+PRZEGLĄD MLE-047 zastępczy
+PRZEGLĄD MLE-048 zastępczy
+PRZEGLĄD MLE-049 zastępczy
+PRZEGLĄD MLE-050 zastępczy
+PRZEGLĄD MLE-051 zastępczy
+PRZEGLĄD MLE-052 zastępczy
+PRZEGLĄD MLE-055 zastępczy
+PRZEGLĄD MLE-056 zastępczy
+PRZEGLĄD MLE-057 zastępczy
+PRZEGLĄD MLE-059 zastępczy
+PRZEGLĄD MLE-060 zastępczy
+PRZEGLĄD MLE-061 zastępczy
+PRZEGLĄD MLE-062 zastępczy
+PRZEGLĄD MLE-063 zastępczy
+PRZEGLĄD MLE-064 zastępczy
+PRZEGLĄD MIE-001 zastępczy
+PRZEGLĄD MIE-002 zastępczy
+PRZEGLĄD MIE-003 zastępczy
+PRZEGLĄD MIE-004 zastępczy
+PRZEGLĄD MIE-005 zastępczy
+PRZEGLĄD MIE-006 zastępczy
+PRZEGLĄD MIE-007 zastępczy
+PRZEGLĄD MIE-008 zastępczy
+PRZEGLĄD MIE-009 zastępczy
+PRZEGLĄD MIE-010 zastępczy
+PRZEGLĄD MIE-011 zastępczy
+PRZEGLĄD MIE-012 zastępczy
+PRZEGLĄD MIE-013 zastępczy
+PRZEGLĄD MIE-014 zastępczy
+PRZEGLĄD MIE-016 zastępczy
+PRZEGLĄD MIE-018 zastępczy
+PRZEGLĄD MIE-019 zastępczy
+PRZEGLĄD MIE-021 zastępczy
+PRZEGLĄD MIE-022 zastępczy
+PRZEGLĄD MIE-023 zastępczy
+PRZEGLĄD MIE-024 zastępczy
+PRZEGLĄD MIE-025 zastępczy
+PRZEGLĄD MIE-026 zastępczy
+PRZEGLĄD MIE-027 zastępczy
+PRZEGLĄD MIE-028 zastępczy
+PRZEGLĄD MIE-030 zastępczy
+PRZEGLĄD MIE-031 zastępczy
+PRZEGLĄD MIE-032 zastępczy
+PRZEGLĄD MIE-033 zastępczy
+PRZEGLĄD MIE-034 zastępczy
+PRZEGLĄD MIE-035 zastępczy
+PRZEGLĄD MIE-036 zastępczy
+PRZEGLĄD MIE-037 zastępczy
+PRZEGLĄD MIE-038 zastępczy
+PRZEGLĄD MIE-039 zastępczy
+PRZEGLĄD MIE-040 zastępczy
+PRZEGLĄD MIE-041 zastępczy
+PRZEGLĄD MIE-043 zastępczy
+PRZEGLĄD MIE-044 zastępczy
+PRZEGLĄD MIE-045 zastępczy
+PRZEGLĄD MIE-046 zastępczy
+PRZEGLĄD MIE-047 zastępczy
+PRZEGLĄD MIE-048 zastępczy
+PRZEGLĄD MIE-049 zastępczy
+PRZEGLĄD MIE-050 zastępczy
+PRZEGLĄD MIE-051 zastępczy
+PRZEGLĄD MIE-052 zastępczy
+PRZEGLĄD MIE-053 zastępczy
+PRZEGLĄD MIE-054 zastępczy
+PRZEGLĄD MIE-055 zastępczy
+PRZEGLĄD MIE-056 zastępczy
+PRZEGLĄD MIE-057 zastępczy
+PRZEGLĄD MIE-058 zastępczy
+PRZEGLĄD MIE-059 zastępczy
+PRZEGLĄD MIE-060 zastępczy
+PRZEGLĄD MIE-061 zastępczy
+PRZEGLĄD MIE-062 zastępczy
+PRZEGLĄD MIE-063 zastępczy
+PRZEGLĄD MIE-064 zastępczy
+PRZEGLĄD MIE-065 zastępczy
+PRZEGLĄD MIE-066 zastępczy
+PRZEGLĄD MIE-067 zastępczy
+PRZEGLĄD MIE-068 zastępczy
+PRZEGLĄD MIE-069 zastępczy
+PRZEGLĄD MIE-070 zastępczy
+PRZEGLĄD MIE-071 zastępczy
+PRZEGLĄD MIE-073 zastępczy
+PRZEGLĄD MIE-074 zastępczy
+PRZEGLĄD MIE-075 zastępczy
+PRZEGLĄD MIE-076 zastępczy
+PRZEGLĄD MIE-077 zastępczy
+PRZEGLĄD MIE-078 zastępczy
+PRZEGLĄD MIE-079 zastępczy
+PRZEGLĄD MIE-080 zastępczy
+PRZEGLĄD MIE-082 zastępczy
+PRZEGLĄD MIE-083 zastępczy
+PRZEGLĄD MIE-084 zastępczy
+PRZEGLĄD MIE-087 zastępczy
+PRZEGLĄD MIE-088 zastępczy
+PRZEGLĄD MIE-089 zastępczy
+PRZEGLĄD MIE-090 zastępczy
+PRZEGLĄD MIE-091 zastępczy
+PRZEGLĄD MIE-092 zastępczy
+PRZEGLĄD MIE-093 zastępczy
+PRZEGLĄD MIE-094 zastępczy
+PRZEGLĄD MIE-095 zastępczy
+PRZEGLĄD FRZ-019 zastępczy
+PRZEGLĄD FRZ-028 zastępczy
+PRZEGLĄD E3-001 zastępczy
+PRZEGLĄD FER-095 zastępczy
+PRZEGLĄD FER-096 zastępczy
+PRZEGLĄD FER-097 zastępczy
+PRZEGLĄD FER-098 zastępczy
+PRZEGLĄD FER-099 zastępczy
+PRZEGLĄD FER-100 zastępczy
+PRZEGLĄD FER-101 zastępczy
+PRZEGLĄD ACI-171 zastępczy
+PRZEGLĄD ACI-172 zastępczy
+PRZEGLĄD ACI-173 zastępczy
+PRZEGLĄD ACI-174 zastępczy
+PRZEGLĄD ACI-175 zastępczy
+PRZEGLĄD ACI-176 zastępczy
+PRZEGLĄD ACI-177 zastępczy
+PRZEGLĄD ACI-178 zastępczy
+PRZEGLĄD ACI-193 zastępczy
+PRZEGLĄD ACI-194 zastępczy
+PRZEGLĄD SLO-110 zastępczy
+PRZEGLĄD SLO-111 zastępczy
+PRZEGLĄD SLO-112 zastępczy
+PRZEGLĄD SLO-113 zastępczy
+PRZEGLĄD SLO-114 zastępczy
+PRZEGLĄD SLO-115 zastępczy
+PRZEGLĄD SLO-116 zastępczy
+PRZEGLĄD SLO-117 zastępczy
+PRZEGLĄD SLO-118 zastępczy
+PRZEGLĄD SLO-119 zastępczy
+PRZEGLĄD ACI-179 zastępczy
+PRZEGLĄD ACI-180 zastępczy
+PRZEGLĄD ACI-181 zastępczy
+PRZEGLĄD ACI-182 zastępczy
+PRZEGLĄD ACI-183 zastępczy
+PRZEGLĄD ACI-184 zastępczy
+PRZEGLĄD ACI-185 zastępczy
+PRZEGLĄD ACI-186 zastępczy
+PRZEGLĄD ACI-187 zastępczy
+PRZEGLĄD ACI-188 zastępczy
+PRZEGLĄD ACI-189 zastępczy
+PRZEGLĄD ACI-190 zastępczy
+PRZEGLĄD ACI-191 zastępczy
+PRZEGLĄD SLO-120 zastępczy
+PRZEGLĄD ACI-196 zastępczy
+PRZEGLĄD ACI-197 zastępczy
+PRZEGLĄD ACI-198 zastępczy
+PRZEGLĄD ACI-199 zastępczy
+PRZEGLĄD ACI-200 zastępczy
+PRZEGLĄD ACI-201 zastępczy
+PRZEGLĄD SLO-121 zastępczy
+PRZEGLĄD SLO-122 zastępczy
+PRZEGLĄD SLO-123 zastępczy
+PRZEGLĄD SLO-124 zastępczy
+PRZEGLĄD SLO-125 zastępczy
+PRZEGLĄD SLO-126 zastępczy
+PRZEGLĄD SLO-127 zastępczy
+PRZEGLĄD SLO-128 zastępczy
+PRZEGLĄD SLO-130 zastępczy
+PRZEGLĄD SLO-131 zastępczy
+PRZEGLĄD SLO-132 zastępczy
+PRZEGLĄD SLO-133 zastępczy
+PRZEGLĄD SLO-134 zastępczy
+PRZEGLĄD SLO-135 zastępczy
+PRZEGLĄD ACI-202 zastępczy
+PRZEGLĄD ACI-203 zastępczy
+PRZEGLĄD ACI-204 zastępczy
+PRZEGLĄD ACI-205 zastępczy
+PRZEGLĄD ACI-206 zastępczy
+PRZEGLĄD ACI-207 zastępczy
+PRZEGLĄD ACI-208 zastępczy
+PRZEGLĄD ACI-209 zastępczy
+PRZEGLĄD ACI-210 zastępczy
+PRZEGLĄD ACI-211 zastępczy
+PRZEGLĄD ACI-212 zastępczy
+PRZEGLĄD ACI-213 zastępczy
+PRZEGLĄD ACI-214 zastępczy
+PRZEGLĄD ACI-215 zastępczy
+PRZEGLĄD ACI-216 zastępczy
+PRZEGLĄD ACI-217 zastępczy
+PRZEGLĄD ACI-218 zastępczy
+PRZEGLĄD ACI-219 zastępczy
+PRZEGLĄD ACI-220 zastępczy
+PRZEGLĄD ACI-221 zastępczy
+PRZEGLĄD ACI-222 zastępczy
+PRZEGLĄD ACI-223 zastępczy
+PRZEGLĄD ACI-224 zastępczy
+PRZEGLĄD SLO-136 zastępczy
+PRZEGLĄD SLO-137 zastępczy
+PRZEGLĄD SLO-138 zastępczy
+PRZEGLĄD SLO-139 zastępczy
+PRZEGLĄD SLO-140 zastępczy
+PRZEGLĄD SLO-141 zastępczy
+PRZEGLĄD SLO-142 zastępczy
+PRZEGLĄD SLO-143 zastępczy
+PRZEGLĄD SLO-144 zastępczy
+PRZEGLĄD ACI-225 zastępczy
+PRZEGLĄD ACI-226 zastępczy
+PRZEGLĄD ACI-227 zastępczy
+PRZEGLĄD E3-002 zastępczy
+PRZEGLĄD ACI-228 zastępczy
+PRZEGLĄD ACI-229 zastępczy
+PRZEGLĄD ACI-230 zastępczy
+PRZEGLĄD ACI-231 zastępczy
+PRZEGLĄD ACI-232 zastępczy
+PRZEGLĄD ACI-233 zastępczy
+PRZEGLĄD ACI-236 zastępczy
+PRZEGLĄD ACI-237 zastępczy
+PRZEGLĄD ACI-238 zastępczy
+PRZEGLĄD ACI-239 zastępczy
+PRZEGLĄD ACI-240 zastępczy
+PRZEGLĄD ACI-241 zastępczy
+PRZEGLĄD ACI-242 zastępczy
+PRZEGLĄD ACI-243 zastępczy
+PRZEGLĄD SLO-145 zastępczy
+PRZEGLĄD SLO-146 zastępczy
+PRZEGLĄD SLO-147 zastępczy
+PRZEGLĄD SLO-148 zastępczy
+PRZEGLĄD SLO-149 zastępczy
+PRZEGLĄD SLO-150 zastępczy
+PRZEGLĄD SLO-151 zastępczy
+PRZEGLĄD SLO-152 zastępczy
+PRZEGLĄD SLO-153 zastępczy
+PRZEGLĄD SLO-156 zastępczy
+PRZEGLĄD ACI-244 zastępczy
+PRZEGLĄD ACI-247 zastępczy
+PRZEGLĄD ACI-248 zastępczy
+PRZEGLĄD ACI-249 zastępczy
+PRZEGLĄD ACI-250 zastępczy
+PRZEGLĄD ACI-251 zastępczy
+PRZEGLĄD ACI-252 zastępczy
+PRZEGLĄD ACI-253 zastępczy
+PRZEGLĄD ACI-254 zastępczy
+PRZEGLĄD ACI-255 zastępczy
+PRZEGLĄD ACI-256 zastępczy
+PRZEGLĄD ACI-257 zastępczy
+PRZEGLĄD ACI-258 zastępczy
+0 błędów, 0 uwag
+
+> build
+> node tools/buduj-strone.mjs
+
+OK: 4 plików → /home/user/jaratlas-www/dist (warianty 0, produkty 0, rodziny 0)
+
+> check:rozmiar
+> node tools/rozmiar-dist.mjs dist
+
+OK: dist/ 991 B (0.0 MB, 5 plików), limit 1000000000 B

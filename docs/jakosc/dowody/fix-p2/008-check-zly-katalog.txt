@@ -1,0 +1,14 @@
+kod npm run check: 1
+> check
+> npm test && npm run check:granice && npm run check:catalog && npm run check:tresci && npm run build && npm run check:rozmiar
+> test
+> node --test tests/*.test.mjs
+# Subtest: rozmiar dist/: poniżej progu kod 0; od progu ostrzeżenia UWAGA i kod 0; od limitu BŁĄD i kod 1; brak katalogu kod 1 (07-jakosc-008)
+ok 36 - rozmiar dist/: poniżej progu kod 0; od progu ostrzeżenia UWAGA i kod 0; od limitu BŁĄD i kod 1; brak katalogu kod 1 (07-jakosc-008)
+== który test padł ==
+not ok 28 - katalog repozytorium przechodzi walidację
+== ten sam katalog, samo npm run check:catalog ==
+BŁĄD wariant cucumber-v01: safetyStatus „zly-status” spoza słownika
+1432 wariantów (ok-zrodlo 287, do-researchu 921, ryzyko-wysokie 97, nie-publikowac 89, wycofane 37); 1 błędów, 0 uwag
+kod: 1
+kod check:catalog: 1

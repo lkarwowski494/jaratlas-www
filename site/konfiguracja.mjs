@@ -14,3 +14,7 @@ export const katalogJezyka = (kod) => kod.toLowerCase(); // /pt-br/, /zh-hant/; 
 // Źródło: konwencje projektu ([PRZYKŁAD] — testy, [DO USTALENIA] — zasada 3 biblioteki, [ZAŁOŻENIE], [DO DECYZJI] — dokumenty ról); TODO/lorem — typowe zaślepki.
 // TODO z wielkością liter: hiszpańskie i portugalskie „todo” to zwykłe słowo (07-jakosc-004).
 export const ZNACZNIKI_ZASLEPEK = [/\[PRZYKŁAD\]/, /\[DO USTALENIA\]/, /\[ZAŁOŻENIE\]/, /\[DO DECYZJI\]/, /\bTODO\b/, /lorem ipsum/i];
+// Rozmiar dist/ (07-jakosc-008): GitHub Pages „Published GitHub Pages sites may be no larger than 1 GB” (ADR 0007, odczyt 2026-11-01);
+// ostrzeżenie przy 800 MB (ADR 0007 „Potwierdzenie”). Jednostki dziesiętne: niższy z dwóch odczytów „GB”, więc ostrożniej.
+export const ROZMIAR_DIST_OSTRZEZENIE = 800e6;
+export const ROZMIAR_DIST_LIMIT = 1e9;
