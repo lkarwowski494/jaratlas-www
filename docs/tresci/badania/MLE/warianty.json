@@ -1,0 +1,1544 @@
+[
+ {
+  "id": "yogurt-skyr-v01",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "MLE-024",
+   "MLE-025",
+   "MLE-026",
+   "MLE-027",
+   "MLE-028",
+   "MLE-029",
+   "MLE-021",
+   "MLE-001"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "nazwa": "Univ. of Illinois Extension, Making Yogurt at Home (2024)",
+    "szczebel": 3,
+    "sha12": "7f7aa3c19c8e",
+    "odczyt": "2026-11-01"
+   }
+  ],
+  "uwagi": "Przepis Illinois Extension (2024) to ten sam produkt i proces; temperatury z v0 (85/42 °C) mieszczą się w zakresach źródła. Mleko pasteryzowane albo spasteryzowane w domu."
+ },
+ {
+  "id": "yogurt-skyr-v02",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "MLE-024",
+   "MLE-025",
+   "MLE-026",
+   "MLE-027",
+   "MLE-028",
+   "MLE-030"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "nazwa": "Univ. of Illinois Extension, Making Yogurt at Home (2024)",
+    "szczebel": 3,
+    "sha12": "7f7aa3c19c8e",
+    "odczyt": "2026-11-01"
+   }
+  ],
+  "uwagi": "Jogurt z przepisu Illinois odciekany w lodówce 2–4 h (Greek-style) według tego samego źródła."
+ },
+ {
+  "id": "yogurt-skyr-v03",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-024",
+   "MLE-025",
+   "MLE-026",
+   "MLE-027",
+   "MLE-028",
+   "MLE-030",
+   "MLE-021"
+  ],
+  "sources": [],
+  "uwagi": "Skyr (inne kultury, podpuszczka, długie odciekanie) nie ma przetestowanego przepisu domowego; zbliżony jest jogurt odciekany Illinois (ser jogurtowy 8–24 h w lodówce)."
+ },
+ {
+  "id": "yogurt-skyr-v04",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "MLE-024",
+   "MLE-025",
+   "MLE-026",
+   "MLE-027",
+   "MLE-028",
+   "MLE-031"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "nazwa": "Univ. of Illinois Extension, Making Yogurt at Home (2024)",
+    "szczebel": 3,
+    "sha12": "7f7aa3c19c8e",
+    "odczyt": "2026-11-01"
+   }
+  ],
+  "uwagi": "Jogurt bułgarski to jogurt w rozumieniu Codex (S. thermophilus + L. bulgaricus); proces jak w przepisie Illinois."
+ },
+ {
+  "id": "yogurt-skyr-v05",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "none",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-036",
+   "MLE-024",
+   "MLE-025",
+   "MLE-026",
+   "MLE-027",
+   "MLE-028"
+  ],
+  "sources": [],
+  "uwagi": "Ajran to jogurt rozcieńczony wodą z solą, pity od razu; bezpieczeństwo wynika z bazy jogurtowej (yogurt-skyr-v01).",
+  "poza_zakresem": "napój przygotowywany na bieżąco z gotowego jogurtu"
+ },
+ {
+  "id": "yogurt-skyr-v06",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-021",
+   "MLE-022",
+   "MLE-027"
+  ],
+  "sources": [],
+  "uwagi": "Riażenka (fermentowane mleko długo pieczone): brak przetestowanego przepisu; pieczenie mleka przekracza temperatury pasteryzacji, ale czas/temperatury fermentacji niesprawdzone."
+ },
+ {
+  "id": "yogurt-skyr-v07",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-024",
+   "MLE-025",
+   "MLE-026",
+   "MLE-027",
+   "MLE-028",
+   "MLE-021",
+   "MLE-022"
+  ],
+  "sources": [],
+  "uwagi": "Maconi: jogurt termofilny na własnym starterze; brak przetestowanego przepisu dla tego startera. Proces zbliżony do yogurt-skyr-v01."
+ },
+ {
+  "id": "yogurt-skyr-v08",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-021",
+   "MLE-022",
+   "MLE-023"
+  ],
+  "sources": [],
+  "uwagi": "Viili: fermentacja mezofilna w temperaturze pokojowej; brak przetestowanego przepisu. Wymóg: pH 4,6 lub niższe w 48 h, mleko pasteryzowane."
+ },
+ {
+  "id": "yogurt-skyr-v09",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-021",
+   "MLE-022",
+   "MLE-023"
+  ],
+  "sources": [],
+  "uwagi": "Filmjölk: jak viili, fermentacja mezofilna w temperaturze pokojowej; brak przetestowanego przepisu."
+ },
+ {
+  "id": "yogurt-skyr-v10",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "MLE-035",
+   "MLE-030",
+   "MLE-060",
+   "MLE-061",
+   "MLE-062",
+   "MLE-063"
+  ],
+  "sources": [],
+  "uwagi": "Labneh odciekany jest produktem znanym (ser jogurtowy, Illinois), ale przechowywanie kulek w oliwie z ziołami: CFIA wycofało labneh w oleju z powodu ryzyka C. botulinum; brak przetestowanej procedury domowej dla długiego przechowywania. Najwyżej lodówka i krótko."
+ },
+ {
+  "id": "yogurt-skyr-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-021",
+   "MLE-022"
+  ],
+  "sources": [],
+  "uwagi": "Kashk suszony: brak przetestowanego procesu suszenia (temperatura, aktywność wody) w źródłach szczebla 1–3."
+ },
+ {
+  "id": "yogurt-skyr-v12",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-023",
+   "MLE-022"
+  ],
+  "sources": [],
+  "uwagi": "Jogurt roślinny (kokosowy, sojowy) to nie produkt mleczny; brak źródeł w tym klastrze. Reguła pH 4,6 w 48 h dotyczy produktów mlecznych i nie została potwierdzona dla mlek roślinnych.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "yogurt-skyr-v13",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "none",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-036"
+  ],
+  "sources": [],
+  "uwagi": "Lassi mango to napój z jogurtu robiony na bieżąco.",
+  "poza_zakresem": "napój podawany od razu, nie przetwór"
+ },
+ {
+  "id": "kefir-cream-v01",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-032",
+   "MLE-021",
+   "MLE-022",
+   "MLE-001",
+   "MLE-002",
+   "MLE-004"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanej instrukcji domowej dla kefiru z ziaren (proporcje, temperatura, czas). Reguły: mleko pasteryzowane, pH 4,6 lub niższe w 48 h, potem lodówka."
+ },
+ {
+  "id": "kefir-cream-v02",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-032",
+   "MLE-023",
+   "MLE-021",
+   "MLE-022"
+  ],
+  "sources": [],
+  "uwagi": "Kultury liofilizowane: temperaturę i czas podaje opakowanie kultury (USU); brak niezależnego przetestowanego przepisu."
+ },
+ {
+  "id": "kefir-cream-v03",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "MLE-001",
+   "MLE-002",
+   "MLE-004",
+   "MLE-005",
+   "MLE-003",
+   "MLE-009",
+   "MLE-012",
+   "MLE-011",
+   "MLE-014",
+   "MLE-021",
+   "MLE-017",
+   "MLE-018",
+   "MLE-019",
+   "MLE-020"
+  ],
+  "sources": [],
+  "uwagi": "Ścieżka z mleka niepasteryzowanego (samoistne kwaśnienie) to produkt wysokiego ryzyka według FDA. Wariant zaszczepiany na mleku pasteryzowanym powinien być osobną pozycją (do-researchu). Proponuję rozdzielić."
+ },
+ {
+  "id": "kefir-cream-v04",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-021",
+   "MLE-022",
+   "MLE-001"
+  ],
+  "sources": [],
+  "uwagi": "Maślanka: brak przetestowanego przepisu domowego; maślanka z ubijania masła zależy od śmietany (pasteryzowana). USU opisuje maślankę hodowlaną tylko ogólnie."
+ },
+ {
+  "id": "kefir-cream-v05",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-036",
+   "MLE-021",
+   "MLE-022"
+  ],
+  "sources": [],
+  "uwagi": "Ajran kaukaski gazowany: brak źródła; fermentacja w zamkniętym naczyniu (gaz) niesprawdzona."
+ },
+ {
+  "id": "kefir-cream-v06",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-033",
+   "MLE-034",
+   "MLE-001",
+   "MLE-002",
+   "MLE-004",
+   "MLE-021",
+   "MLE-022"
+  ],
+  "sources": [],
+  "uwagi": "Kumys: definicja Codex (kultury, min. 0,5% etanolu). Tradycyjnie z surowego mleka klaczy, co daje ryzyko mleka surowego; brak przetestowanego przepisu domowego."
+ },
+ {
+  "id": "kefir-cream-v07",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-021",
+   "MLE-022",
+   "MLE-008",
+   "MLE-023"
+  ],
+  "sources": [],
+  "uwagi": "Polska śmietana ukwaszana: brak przetestowanego przepisu domowego. Reguły: śmietana pasteryzowana (dla ≥10% tłuszczu temperatura pasteryzacji o 3 °C wyższa), pH 4,6 lub niższe w 48 h, lodówka."
+ },
+ {
+  "id": "kefir-cream-v08",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-021",
+   "MLE-022",
+   "MLE-008",
+   "MLE-023"
+  ],
+  "sources": [],
+  "uwagi": "Crème fraîche: brak przetestowanego przepisu domowego. Reguły: śmietana pasteryzowana (dla ≥10% tłuszczu temperatura pasteryzacji o 3 °C wyższa), pH 4,6 lub niższe w 48 h, lodówka."
+ },
+ {
+  "id": "kefir-cream-v09",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-021",
+   "MLE-022",
+   "MLE-008",
+   "MLE-023"
+  ],
+  "sources": [],
+  "uwagi": "Crema meksykańska: brak przetestowanego przepisu domowego. Reguły: śmietana pasteryzowana (dla ≥10% tłuszczu temperatura pasteryzacji o 3 °C wyższa), pH 4,6 lub niższe w 48 h, lodówka."
+ },
+ {
+  "id": "kefir-cream-v10",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-021",
+   "MLE-022",
+   "MLE-008",
+   "MLE-023"
+  ],
+  "sources": [],
+  "uwagi": "Smietana rosyjska: brak przetestowanego przepisu domowego. Reguły: śmietana pasteryzowana (dla ≥10% tłuszczu temperatura pasteryzacji o 3 °C wyższa), pH 4,6 lub niższe w 48 h, lodówka."
+ },
+ {
+  "id": "kefir-cream-v11",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-021",
+   "MLE-022"
+  ],
+  "sources": [],
+  "uwagi": "Serwatka kwasowa to produkt uboczny twarogu; brak źródła o przechowywaniu."
+ },
+ {
+  "id": "kefir-cream-v12",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "none",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Napój z serwatki i soku pomarańczowego, przygotowywany na bieżąco.",
+  "poza_zakresem": "napój mieszany na bieżąco",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "quark-acid-cheese-v01",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051",
+   "MLE-009",
+   "MLE-012",
+   "MLE-021"
+  ],
+  "sources": [],
+  "uwagi": "Twaróg tradycyjny: brak przetestowanego przepisu domowego szczebla 1–3. Ser świeży o wysokiej wilgotności: krótka trwałość w lodówce, Listeria rośnie w lodówce."
+ },
+ {
+  "id": "quark-acid-cheese-v02",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051",
+   "MLE-009",
+   "MLE-012",
+   "MLE-021"
+  ],
+  "sources": [],
+  "uwagi": "Quark: brak przetestowanego przepisu domowego szczebla 1–3. Ser świeży o wysokiej wilgotności: krótka trwałość w lodówce, Listeria rośnie w lodówce."
+ },
+ {
+  "id": "quark-acid-cheese-v03",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051",
+   "MLE-009",
+   "MLE-012",
+   "MLE-021"
+  ],
+  "sources": [],
+  "uwagi": "Serek wiejski (cottage): brak przetestowanego przepisu domowego szczebla 1–3. Ser świeży o wysokiej wilgotności: krótka trwałość w lodówce, Listeria rośnie w lodówce."
+ },
+ {
+  "id": "quark-acid-cheese-v04",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051",
+   "MLE-009",
+   "MLE-012",
+   "MLE-021"
+  ],
+  "sources": [],
+  "uwagi": "Fromage blanc: brak przetestowanego przepisu domowego szczebla 1–3. Ser świeży o wysokiej wilgotności: krótka trwałość w lodówce, Listeria rośnie w lodówce."
+ },
+ {
+  "id": "quark-acid-cheese-v05",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Twaróg kozi w popiele: brak źródła; dodatek popiołu drzewnego niesprawdzony."
+ },
+ {
+  "id": "quark-acid-cheese-v06",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051"
+  ],
+  "sources": [],
+  "uwagi": "Twaróg wędzony: brak źródła dla wędzenia twarogu (zimne wędzenie nie podgrzewa produktu)."
+ },
+ {
+  "id": "quark-acid-cheese-v07",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "MLE-054",
+   "MLE-053",
+   "MLE-055",
+   "MLE-046"
+  ],
+  "sources": [
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "nazwa": "NMSU Cooperative Extension Guide E-216, Making Homemade Cheese",
+    "szczebel": 3,
+    "sha12": "b5f7d5d197a0",
+    "odczyt": "2026-11-01"
+   },
+   {
+    "adres": "https://vms-mfp.ucanr.edu/files/mfp/documents/97892025_Handouts106425.pdf",
+    "nazwa": "UCCE Master Food Preservers Amador/Calaveras, Say Cheese! (IV 2025)",
+    "szczebel": 3,
+    "sha12": "be3d39e510d4",
+    "odczyt": "2026-11-01"
+   }
+  ],
+  "uwagi": "Odpowiednik: queso blanco kwasowo-termiczne NMSU E-216 (ten sam proces: gorące mleko ścinane kwasem i prasowane); NMSU wymienia paneer w tej samej grupie. Uwaga: FDA odradza takie sery osobom podatnym na listeriozę."
+ },
+ {
+  "id": "quark-acid-cheese-v08",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051",
+   "MLE-008"
+  ],
+  "sources": [],
+  "uwagi": "Mascarpone: brak przetestowanego przepisu domowego."
+ },
+ {
+  "id": "quark-acid-cheese-v09",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-001",
+   "MLE-002",
+   "MLE-004",
+   "MLE-003"
+  ],
+  "sources": [],
+  "uwagi": "Ser z siary: siara pochodzi zwykle prosto od krowy (surowa); brak źródła o bezpiecznej obróbce cieplnej siary. Pytanie otwarte."
+ },
+ {
+  "id": "quark-acid-cheese-v10",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051"
+  ],
+  "sources": [],
+  "uwagi": "Jāņu siers: brak źródła; zawiera jaja (do sprawdzenia temperatura gotowania masy)."
+ },
+ {
+  "id": "quark-acid-cheese-v11",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "none",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043"
+  ],
+  "sources": [],
+  "uwagi": "Gzik to danie z twarogu na bieżąco.",
+  "poza_zakresem": "danie podawane od razu, nie przetwór"
+ },
+ {
+  "id": "quark-acid-cheese-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kurt (twaróg suszony na kamień): brak źródła szczebla 1–3 dla procesu suszenia."
+ },
+ {
+  "id": "fresh-brined-cheese-v01",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051",
+   "MLE-009",
+   "MLE-012",
+   "MLE-001",
+   "MLE-002",
+   "MLE-004"
+  ],
+  "sources": [],
+  "uwagi": "Ser koryciński: brak przetestowanego przepisu domowego; wersja tradycyjna bywa z mleka surowego (do sprawdzenia w specyfikacji ChOG). Z mleka surowego: wysokie ryzyko."
+ },
+ {
+  "id": "fresh-brined-cheese-v02",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051",
+   "MLE-001",
+   "MLE-002",
+   "MLE-004"
+  ],
+  "sources": [],
+  "uwagi": "Bundz: tradycyjnie z surowego mleka owczego (do sprawdzenia w specyfikacji ChNP); bez pasteryzacji wysokie ryzyko."
+ },
+ {
+  "id": "fresh-brined-cheese-v03",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "none",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Junket to deser z mleka i podpuszczki, jedzony od razu.",
+  "poza_zakresem": "deser na bieżąco"
+ },
+ {
+  "id": "fresh-brined-cheese-v04",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Chèvre świeży: brak przetestowanego przepisu domowego."
+ },
+ {
+  "id": "fresh-brined-cheese-v05",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "MLE-016",
+   "MLE-052",
+   "MLE-053",
+   "MLE-055",
+   "MLE-043",
+   "MLE-046",
+   "MLE-047",
+   "MLE-048"
+  ],
+  "sources": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341228.pdf",
+    "nazwa": "WSU/OSU/UI Extension PNW539, Fresh Cheese Made Safely (kopia na serwerze UC ANR)",
+    "szczebel": 3,
+    "sha12": "0415cfe4091c",
+    "odczyt": "2026-11-01"
+   },
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "nazwa": "NMSU Cooperative Extension Guide E-216, Making Homemade Cheese",
+    "szczebel": 3,
+    "sha12": "b5f7d5d197a0",
+    "odczyt": "2026-11-01"
+   }
+  ],
+  "uwagi": "Przetestowane przepisy: SAFE queso fresco (PNW539, też NMSU E-216) i queso blanco (NMSU E-216). FDA: osoby z grup ryzyka powinny unikać wszystkich serów typu queso fresco, także z mleka pasteryzowanego."
+ },
+ {
+  "id": "fresh-brined-cheese-v06",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051"
+  ],
+  "sources": [],
+  "uwagi": "Cotija świeży: brak przetestowanego przepisu; ser typu queso fresco (zalecenia FDA dla grup ryzyka)."
+ },
+ {
+  "id": "fresh-brined-cheese-v07",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "MLE-060",
+   "MLE-061",
+   "MLE-062",
+   "MLE-063",
+   "MLE-043",
+   "MLE-044"
+  ],
+  "sources": [],
+  "uwagi": "Ser w oliwie z ziołami: zioła w oleju sprzyjają C. botulinum (lodówka do 4 dni albo zamrożenie); CFIA wycofało ser (labneh) w oleju z tego powodu. Brak przetestowanej procedury długiego przechowywania."
+ },
+ {
+  "id": "fresh-brined-cheese-v08",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "NMSU E-216 ma przepis na świeży ser „typu feta” (solanka z serwatki 3,5%), ale nie na fetę dojrzewającą w solance 7–10%; dojrzewanie w solance niesprawdzone."
+ },
+ {
+  "id": "fresh-brined-cheese-v09",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Sirene: brak przetestowanego przepisu domowego szczebla 1–3."
+ },
+ {
+  "id": "fresh-brined-cheese-v10",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Halloumi: brak przetestowanego przepisu domowego szczebla 1–3."
+ },
+ {
+  "id": "fresh-brined-cheese-v11",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Imeruli i sulguni: brak przetestowanego przepisu domowego szczebla 1–3."
+ },
+ {
+  "id": "fresh-brined-cheese-v12",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Queijo coalho: brak przetestowanego przepisu domowego szczebla 1–3."
+ },
+ {
+  "id": "fresh-brined-cheese-v13",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Czeczil: brak przetestowanego przepisu domowego szczebla 1–3."
+ },
+ {
+  "id": "fresh-brined-cheese-v14",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "MLE-060",
+   "MLE-061",
+   "MLE-062",
+   "MLE-063"
+  ],
+  "sources": [],
+  "uwagi": "Feta w oliwie z chili: jak fresh-brined-cheese-v07; chili to warzywo niskokwasowe w oleju (OSU). Najwyżej lodówka, krótko."
+ },
+ {
+  "id": "pasta-filata-cheese-v01",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "MLE-056",
+   "MLE-015",
+   "MLE-050"
+  ],
+  "sources": [
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "nazwa": "NMSU Cooperative Extension Guide E-216, Making Homemade Cheese",
+    "szczebel": 3,
+    "sha12": "b5f7d5d197a0",
+    "odczyt": "2026-11-01"
+   }
+  ],
+  "uwagi": "Odpowiednik: „Pizza Cheese” (mozzarella) NMSU E-216 z kulturą i rozciąganiem w gorącej wodzie; pH 5,2 z v0 nie jest w źródle."
+ },
+ {
+  "id": "pasta-filata-cheese-v02",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "MLE-057",
+   "MLE-015",
+   "MLE-013"
+  ],
+  "sources": [
+   {
+    "adres": "https://vms-mfp.ucanr.edu/files/mfp/documents/97892025_Handouts106425.pdf",
+    "nazwa": "UCCE Master Food Preservers Amador/Calaveras, Say Cheese! (IV 2025)",
+    "szczebel": 3,
+    "sha12": "be3d39e510d4",
+    "odczyt": "2026-11-01"
+   },
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2020-07/329613.pdf",
+    "nazwa": "UCCE Master Food Preserver Program, Cheesemaking Recipes (III 2020)",
+    "szczebel": 3,
+    "sha12": "39e313d997e7",
+    "odczyt": "2026-11-01"
+   }
+  ],
+  "uwagi": "Przepis na mozzarellę z kwaskiem cytrynowym: UCCE Master Food Preservers (2020 i 2025), za Univ. of Alaska FNH-00063."
+ },
+ {
+  "id": "pasta-filata-cheese-v03",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-057",
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051"
+  ],
+  "sources": [],
+  "uwagi": "Burrata (nadzienie ze śmietanki): brak przetestowanego przepisu; baza jak mozzarella, ale produkt inny."
+ },
+ {
+  "id": "pasta-filata-cheese-v04",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-057",
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051"
+  ],
+  "sources": [],
+  "uwagi": "Stracciatella: brak przetestowanego przepisu; baza jak mozzarella, ale produkt inny."
+ },
+ {
+  "id": "pasta-filata-cheese-v05",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-057",
+   "MLE-043",
+   "MLE-044",
+   "MLE-045",
+   "MLE-050",
+   "MLE-051"
+  ],
+  "sources": [],
+  "uwagi": "Oaxaca: brak przetestowanego przepisu; baza jak mozzarella, ale produkt inny."
+ },
+ {
+  "id": "pasta-filata-cheese-v06",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-015",
+   "MLE-037",
+   "MLE-039"
+  ],
+  "sources": [],
+  "uwagi": "Scamorza (w tym wędzona): brak przetestowanego przepisu domowego dla podsuszania/dojrzewania."
+ },
+ {
+  "id": "pasta-filata-cheese-v07",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-015",
+   "MLE-037",
+   "MLE-039"
+  ],
+  "sources": [],
+  "uwagi": "Caciocavallo: brak przetestowanego przepisu domowego dla podsuszania/dojrzewania."
+ },
+ {
+  "id": "pasta-filata-cheese-v08",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-015",
+   "MLE-037",
+   "MLE-039"
+  ],
+  "sources": [],
+  "uwagi": "Provolone: brak przetestowanego przepisu domowego dla podsuszania/dojrzewania."
+ },
+ {
+  "id": "pasta-filata-cheese-v09",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-001",
+   "MLE-002",
+   "MLE-004",
+   "MLE-003",
+   "MLE-037",
+   "MLE-039"
+  ],
+  "sources": [],
+  "uwagi": "Oscypek: tradycyjnie z surowego mleka owczego (do sprawdzenia w specyfikacji ChNP); brak przetestowanego przepisu domowego. Z mleka surowego: grupy ryzyka nie powinny jeść."
+ },
+ {
+  "id": "pasta-filata-cheese-v10",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-001",
+   "MLE-002",
+   "MLE-004",
+   "MLE-015"
+  ],
+  "sources": [],
+  "uwagi": "Korbacze: brak źródła; tradycyjnie z mleka surowego (do sprawdzenia)."
+ },
+ {
+  "id": "aged-hard-cheese-v01",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-037",
+   "MLE-039",
+   "MLE-049",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Gouda: brak aktualnego przetestowanego przepisu domowego szczebla 1–3. Mleko pasteryzowane; dla mleka surowego USA wymaga min. 60 dni w temp. nie niższej niż 35 °F, co nie gwarantuje bezpieczeństwa."
+ },
+ {
+  "id": "aged-hard-cheese-v02",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-037",
+   "MLE-039",
+   "MLE-049",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Gouda z przyprawami: brak aktualnego przetestowanego przepisu domowego szczebla 1–3. Mleko pasteryzowane; dla mleka surowego USA wymaga min. 60 dni w temp. nie niższej niż 35 °F, co nie gwarantuje bezpieczeństwa."
+ },
+ {
+  "id": "aged-hard-cheese-v03",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-037",
+   "MLE-039",
+   "MLE-049",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Edam woskowany: brak aktualnego przetestowanego przepisu domowego szczebla 1–3. Mleko pasteryzowane; dla mleka surowego USA wymaga min. 60 dni w temp. nie niższej niż 35 °F, co nie gwarantuje bezpieczeństwa."
+ },
+ {
+  "id": "aged-hard-cheese-v04",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-037",
+   "MLE-039",
+   "MLE-049",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Maasdam/emmental: brak aktualnego przetestowanego przepisu domowego szczebla 1–3. Mleko pasteryzowane; dla mleka surowego USA wymaga min. 60 dni w temp. nie niższej niż 35 °F, co nie gwarantuje bezpieczeństwa."
+ },
+ {
+  "id": "aged-hard-cheese-v05",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-037",
+   "MLE-039",
+   "MLE-049",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Havarti: brak aktualnego przetestowanego przepisu domowego szczebla 1–3. Mleko pasteryzowane; dla mleka surowego USA wymaga min. 60 dni w temp. nie niższej niż 35 °F, co nie gwarantuje bezpieczeństwa."
+ },
+ {
+  "id": "aged-hard-cheese-v06",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-037",
+   "MLE-039",
+   "MLE-049",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Tylżycki: brak aktualnego przetestowanego przepisu domowego szczebla 1–3. Mleko pasteryzowane; dla mleka surowego USA wymaga min. 60 dni w temp. nie niższej niż 35 °F, co nie gwarantuje bezpieczeństwa."
+ },
+ {
+  "id": "aged-hard-cheese-v07",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-037",
+   "MLE-039",
+   "MLE-049",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Ser moczony w piwie: brak aktualnego przetestowanego przepisu domowego szczebla 1–3. Mleko pasteryzowane; dla mleka surowego USA wymaga min. 60 dni w temp. nie niższej niż 35 °F, co nie gwarantuje bezpieczeństwa."
+ },
+ {
+  "id": "aged-hard-cheese-v08",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-037",
+   "MLE-039",
+   "MLE-049",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Cheddar: brak aktualnego przetestowanego przepisu domowego szczebla 1–3. Mleko pasteryzowane; dla mleka surowego USA wymaga min. 60 dni w temp. nie niższej niż 35 °F, co nie gwarantuje bezpieczeństwa."
+ },
+ {
+  "id": "aged-hard-cheese-v09",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-037",
+   "MLE-039",
+   "MLE-049",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Cheddar wędzony: brak aktualnego przetestowanego przepisu domowego szczebla 1–3. Mleko pasteryzowane; dla mleka surowego USA wymaga min. 60 dni w temp. nie niższej niż 35 °F, co nie gwarantuje bezpieczeństwa."
+ },
+ {
+  "id": "aged-hard-cheese-v10",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-037",
+   "MLE-039",
+   "MLE-049",
+   "MLE-001",
+   "MLE-002",
+   "MLE-004",
+   "MLE-042"
+  ],
+  "sources": [],
+  "uwagi": "Parmezan/grana: oryginał zwykle z mleka surowego (do sprawdzenia w specyfikacji ChNP); brak przetestowanego przepisu domowego. Z mleka surowego: wysokie ryzyko dla grup ryzyka."
+ },
+ {
+  "id": "aged-hard-cheese-v11",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-037",
+   "MLE-039",
+   "MLE-049",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Pecorino/caciotta: brak aktualnego przetestowanego przepisu domowego szczebla 1–3. Mleko pasteryzowane; dla mleka surowego USA wymaga min. 60 dni w temp. nie niższej niż 35 °F, co nie gwarantuje bezpieczeństwa."
+ },
+ {
+  "id": "aged-hard-cheese-v12",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-037",
+   "MLE-039",
+   "MLE-049",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Manchego: brak aktualnego przetestowanego przepisu domowego szczebla 1–3. Mleko pasteryzowane; dla mleka surowego USA wymaga min. 60 dni w temp. nie niższej niż 35 °F, co nie gwarantuje bezpieczeństwa."
+ },
+ {
+  "id": "aged-hard-cheese-v13",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-037",
+   "MLE-039",
+   "MLE-049",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Gruyère/tomme: brak aktualnego przetestowanego przepisu domowego szczebla 1–3. Mleko pasteryzowane; dla mleka surowego USA wymaga min. 60 dni w temp. nie niższej niż 35 °F, co nie gwarantuje bezpieczeństwa."
+ },
+ {
+  "id": "aged-hard-cheese-v14",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-037",
+   "MLE-039",
+   "MLE-049",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Cheddar woskowany z dodatkami: brak aktualnego przetestowanego przepisu domowego szczebla 1–3. Mleko pasteryzowane; dla mleka surowego USA wymaga min. 60 dni w temp. nie niższej niż 35 °F, co nie gwarantuje bezpieczeństwa."
+ },
+ {
+  "id": "aged-hard-cheese-v15",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-037",
+   "MLE-039",
+   "MLE-049",
+   "MLE-009",
+   "MLE-012"
+  ],
+  "sources": [],
+  "uwagi": "Stara gouda: brak aktualnego przetestowanego przepisu domowego szczebla 1–3. Mleko pasteryzowane; dla mleka surowego USA wymaga min. 60 dni w temp. nie niższej niż 35 °F, co nie gwarantuje bezpieczeństwa."
+ },
+ {
+  "id": "mold-ripened-cheese-v01",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-038",
+   "MLE-040",
+   "MLE-041",
+   "MLE-042",
+   "MLE-045",
+   "MLE-006",
+   "MLE-049"
+  ],
+  "sources": [],
+  "uwagi": "Camembert/brie: brak przetestowanego przepisu domowego. Tylko mleko pasteryzowane: ser miękki dojrzewający z mleka surowego ma 50–160 razy wyższe ryzyko listeriozy, a 60 dni dojrzewania je zwiększa."
+ },
+ {
+  "id": "mold-ripened-cheese-v02",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-038",
+   "MLE-040",
+   "MLE-041",
+   "MLE-042",
+   "MLE-045",
+   "MLE-006",
+   "MLE-049"
+  ],
+  "sources": [],
+  "uwagi": "Saint-maure: brak przetestowanego przepisu domowego. Tylko mleko pasteryzowane: ser miękki dojrzewający z mleka surowego ma 50–160 razy wyższe ryzyko listeriozy, a 60 dni dojrzewania je zwiększa."
+ },
+ {
+  "id": "mold-ripened-cheese-v03",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-038",
+   "MLE-040",
+   "MLE-041",
+   "MLE-042",
+   "MLE-045",
+   "MLE-006",
+   "MLE-049"
+  ],
+  "sources": [],
+  "uwagi": "Neufchâtel pleśniowy: brak przetestowanego przepisu domowego. Tylko mleko pasteryzowane: ser miękki dojrzewający z mleka surowego ma 50–160 razy wyższe ryzyko listeriozy, a 60 dni dojrzewania je zwiększa."
+ },
+ {
+  "id": "mold-ripened-cheese-v04",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-038",
+   "MLE-040",
+   "MLE-041",
+   "MLE-042",
+   "MLE-045",
+   "MLE-006",
+   "MLE-049"
+  ],
+  "sources": [],
+  "uwagi": "Coulommiers: brak przetestowanego przepisu domowego. Tylko mleko pasteryzowane: ser miękki dojrzewający z mleka surowego ma 50–160 razy wyższe ryzyko listeriozy, a 60 dni dojrzewania je zwiększa."
+ },
+ {
+  "id": "mold-ripened-cheese-v05",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "MLE-060",
+   "MLE-061",
+   "MLE-062",
+   "MLE-063",
+   "MLE-045"
+  ],
+  "sources": [],
+  "uwagi": "Nakládaný hermelín: ser pleśniowy z cebulą i papryką w oleju, tradycyjnie dojrzewa w słoiku; warzywa niskokwasowe w oleju i ser w oleju to sygnał C. botulinum (OSU, CFIA). Brak przetestowanej procedury."
+ },
+ {
+  "id": "mold-ripened-cheese-v06",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-038",
+   "MLE-040",
+   "MLE-041",
+   "MLE-042",
+   "MLE-045",
+   "MLE-006",
+   "MLE-049"
+  ],
+  "sources": [],
+  "uwagi": "Typ roquefort: brak przetestowanego przepisu domowego. Tylko mleko pasteryzowane: ser miękki dojrzewający z mleka surowego ma 50–160 razy wyższe ryzyko listeriozy, a 60 dni dojrzewania je zwiększa."
+ },
+ {
+  "id": "mold-ripened-cheese-v07",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-038",
+   "MLE-040",
+   "MLE-041",
+   "MLE-042",
+   "MLE-045",
+   "MLE-006",
+   "MLE-049"
+  ],
+  "sources": [],
+  "uwagi": "Gorgonzola/stilton: brak przetestowanego przepisu domowego. Tylko mleko pasteryzowane: ser miękki dojrzewający z mleka surowego ma 50–160 razy wyższe ryzyko listeriozy, a 60 dni dojrzewania je zwiększa."
+ },
+ {
+  "id": "mold-ripened-cheese-v08",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-038",
+   "MLE-040",
+   "MLE-041",
+   "MLE-042",
+   "MLE-045",
+   "MLE-006",
+   "MLE-049"
+  ],
+  "sources": [],
+  "uwagi": "Cambozola: brak przetestowanego przepisu domowego. Tylko mleko pasteryzowane: ser miękki dojrzewający z mleka surowego ma 50–160 razy wyższe ryzyko listeriozy, a 60 dni dojrzewania je zwiększa."
+ },
+ {
+  "id": "mold-ripened-cheese-v09",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-038",
+   "MLE-040",
+   "MLE-041",
+   "MLE-042",
+   "MLE-045",
+   "MLE-006",
+   "MLE-049"
+  ],
+  "sources": [],
+  "uwagi": "Sery maziowe: brak przetestowanego przepisu domowego. Tylko mleko pasteryzowane: ser miękki dojrzewający z mleka surowego ma 50–160 razy wyższe ryzyko listeriozy, a 60 dni dojrzewania je zwiększa."
+ },
+ {
+  "id": "mold-ripened-cheese-v10",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-043",
+   "MLE-044",
+   "MLE-045"
+  ],
+  "sources": [],
+  "uwagi": "Ser smażony z gliwiałego twarogu: twaróg dojrzewa kilka dni w temperaturze pokojowej przed gotowaniem; brak źródła o bezpieczeństwie tego etapu. Pytanie otwarte."
+ },
+ {
+  "id": "butter-whey-cheese-v01",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-001",
+   "MLE-008"
+  ],
+  "sources": [],
+  "uwagi": "Masło ze słodkiej śmietanki: brak przetestowanego przepisu domowego; śmietana pasteryzowana."
+ },
+ {
+  "id": "butter-whey-cheese-v02",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-021",
+   "MLE-022",
+   "MLE-008"
+  ],
+  "sources": [],
+  "uwagi": "Masło z ukwaszonej śmietany: brak przepisu; ukwaszanie jak przy śmietanie (pH 4,6 w 48 h)."
+ },
+ {
+  "id": "butter-whey-cheese-v03",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-064",
+   "MLE-065"
+  ],
+  "sources": [],
+  "uwagi": "Ghee: jedyne znalezione źródło to przykładowy plan BC FOODSAFE dla gastronomii (lodówka do roku, temp. pokojowa do 3 miesięcy); nie ma przetestowanego przepisu domowego. Teza v0 „trwałe miesiącami poza lodówką” tylko częściowo zgodna."
+ },
+ {
+  "id": "butter-whey-cheese-v04",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-022"
+  ],
+  "sources": [],
+  "uwagi": "Smen: masło solone fermentowane w temperaturze pokojowej; w PubMed tylko prace o aromacie i etnomedycynie, brak danych o bezpieczeństwie. Pytanie otwarte."
+ },
+ {
+  "id": "butter-whey-cheese-v05",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-060",
+   "MLE-061"
+  ],
+  "sources": [],
+  "uwagi": "Masło czosnkowo-ziołowe: brak źródła dla masła; czosnek i zioła w tłuszczu to analogia do ziół w oleju (lodówka do 4 dni albo zamrażarka). Uproszczenie do potwierdzenia."
+ },
+ {
+  "id": "butter-whey-cheese-v06",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-060",
+   "MLE-061"
+  ],
+  "sources": [],
+  "uwagi": "Masło borowikowe/truflowe: brak źródła; grzyby niskokwasowe w tłuszczu (analogia do warzyw w oleju)."
+ },
+ {
+  "id": "butter-whey-cheese-v07",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "MLE-058",
+   "MLE-059"
+  ],
+  "sources": [
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2020-07/329613.pdf",
+    "nazwa": "UCCE Master Food Preserver Program, Cheesemaking Recipes (III 2020)",
+    "szczebel": 3,
+    "sha12": "39e313d997e7",
+    "odczyt": "2026-11-01"
+   }
+  ],
+  "uwagi": "Przepis UCCE (2020, za NMSU E-216): ricotta z serwatki z dodatkiem mleka, 185 °F (85 °C) i ocet. v0 podaje 90 °C; źródło 85 °C."
+ },
+ {
+  "id": "butter-whey-cheese-v08",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-059"
+  ],
+  "sources": [],
+  "uwagi": "UCCE opisuje tylko świeżą ricottę salata (prasowaną w lodówce przez noc); wersja suszona do tarcia niesprawdzona."
+ },
+ {
+  "id": "butter-whey-cheese-v09",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-059"
+  ],
+  "sources": [],
+  "uwagi": "Ricotta wędzona: brak źródła dla wędzenia."
+ },
+ {
+  "id": "butter-whey-cheese-v10",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-058"
+  ],
+  "sources": [],
+  "uwagi": "Urda/serwatczok: brak źródła; tradycyjnie z serwatki owczej po bundzu (możliwe mleko surowe, ale serwatka jest gotowana)."
+ },
+ {
+  "id": "butter-whey-cheese-v11",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brunost/mysost: brak źródła szczebla 1–3 (Codex CXS 284 niedostępny pod sprawdzonym adresem)."
+ },
+ {
+  "id": "butter-whey-cheese-v12",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "MLE-058"
+  ],
+  "sources": [],
+  "uwagi": "Mizithra: brak przetestowanego przepisu; świeża wersja zbliżona do ricotty z serwatki."
+ }
+]

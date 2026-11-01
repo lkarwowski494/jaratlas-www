@@ -1,0 +1,1632 @@
+[
+ {
+  "id": "NAP-001",
+  "twierdzenie": "Przed nastawem kombuchy pH płynu startowego musi wynosić 4,0 lub mniej; przy pH wyższym niż 4,0 nie należy robić kombuchy z tym startem.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "NCHFP, Kombucha Tea (przepis)",
+    "cytat": "If the pH is GREATER THAN 4.0 do not make kombucha with the starter liquid.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4a67dd4ba88b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH startera",
+  "wartosc": 4.0,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-002",
+  "twierdzenie": "Przepis NCHFP: fermentacja kombuchy w temperaturze pokojowej 68–77°F (20–25°C) przez 7–10 dni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "NCHFP, Kombucha Tea (przepis)",
+    "cytat": "allow the kombucha to ferment at room temperature (68° - 77°F) for 7 – 10 days.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4a67dd4ba88b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas fermentacji F1",
+  "wartosc": "7-10",
+  "jednostka": "dni",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-003",
+  "twierdzenie": "Po pełnej fermentacji kombuchę przelewa się do czystych, zdezynfekowanych słoików lub butelek, od razu chłodzi i spożywa w ciągu 30 dni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "NCHFP, Kombucha Tea (przepis)",
+    "cytat": "pour it into clean and sanitized jars or bottles and promptly refrigerate. Use within 30 days.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4a67dd4ba88b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "przechowywanie w lodówce",
+  "wartosc": 30,
+  "jednostka": "dni",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-004",
+  "twierdzenie": "Przechowywanie kombuchy w szczelnych pojemnikach powoduje gromadzenie CO2 i może prowadzić do wybuchu, jeśli nie jest regularnie kontrolowane.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "NCHFP, Kombucha Tea (przepis)",
+    "cytat": "Storing kombucha in airtight containers can cause the accumulation of CO2 (carbonation), potentially leading to an explosion if not regularly monitored.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4a67dd4ba88b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-005",
+  "twierdzenie": "NCHFP: dodatki smakowe miesza się z kombuchą dopiero po fermentacji i pije od razu albo trzyma w lodówce do 2 dni (przepis nie obejmuje drugiej fermentacji w zamkniętej butelce).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "NCHFP, Kombucha Tea (przepis)",
+    "cytat": "If mixing additional ingredients (after fermentation), drink immediately or refrigerate for up to 2 days.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4a67dd4ba88b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Nawias to interpretacja zakresu przepisu, nie cytat.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "trwałość kombuchy z dodatkami",
+  "wartosc": 2,
+  "jednostka": "dni",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-006",
+  "twierdzenie": "Herbata musi mieć poniżej 95°F (35°C), zanim doda się SCOBY i płyn startowy.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "NCHFP, Kombucha Tea (przepis)",
+    "cytat": "Take the temperature of the tea to make sure it is below 95°F before proceeding to step 8.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4a67dd4ba88b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura herbaty przy zaszczepieniu",
+  "wartosc": 95,
+  "jednostka": "°F",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-007",
+  "twierdzenie": "Do fermentacji i przechowywania kombuchy nie wolno używać naczyń z glazurowanej ceramiki (earthenware), bo kwaśny napój może wypłukiwać metale ciężkie.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1312/whats-the-word-on-homemade-kombucha/",
+    "miejsce": "UGA Extension Circular 1312 (rev. 2026-04-10), sekcja Safe Kombucha Brewing",
+    "cytat": "it is crucial not to use fermentation or storage containers made of materials like glazed earthenware, which can leach heavy metals once exposed to such an acidic environment.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "83020835072f"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/kombucha1.pdf",
+    "miejsce": "BCCDC, Food Safety Assessment of Kombucha Tea Recipe (2015, upd. 2020)",
+    "cytat": "cases of lead poisoning were observed with KT brewed or stored in glazed earthenware.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5f678e25ecf4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-008",
+  "twierdzenie": "BCCDC zaleca fermentację i pakowanie kombuchy w szkle spożywczym ze względu na możliwość wypłukiwania ołowiu.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/kombucha1.pdf",
+    "miejsce": "BCCDC, Food Safety Assessment of Kombucha Tea Recipe (2015, upd. 2020)",
+    "cytat": "contaminants such as lead, the sweetened tea should be fermented and packaged in food-grade glass.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5f678e25ecf4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-009",
+  "twierdzenie": "Ołowiu z ceramiki nie usuwa żadne mycie, gotowanie ani inny zabieg; źle wypalona glazura może oddawać ołów do żywności i napojów.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/environmental-contaminants-food/questions-and-answers-lead-glazed-traditional-pottery",
+    "miejsce": "FDA, Q&A on Lead-Glazed Traditional Pottery",
+    "cytat": "Be aware that no amount of washing, boiling, or other process can remove lead from pottery.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d56534d8d70c"
+   },
+   {
+    "adres": "https://www.fda.gov/food/environmental-contaminants-food/questions-and-answers-lead-glazed-traditional-pottery",
+    "miejsce": "FDA, Q&A on Lead-Glazed Traditional Pottery",
+    "cytat": "If the pottery is not manufactured properly, this lead can leach into food and drink that is prepared, stored, or served in the dishes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d56534d8d70c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-010",
+  "twierdzenie": "W pewnych warunkach zawartość alkoholu w napoju może przekroczyć 0,5% obj., czyli limit napoju bezalkoholowego TTB (USA).",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1312/whats-the-word-on-homemade-kombucha/",
+    "miejsce": "UGA Extension Circular 1312 (rev. 2026-04-10), sekcja Safe Kombucha Brewing",
+    "cytat": "certain circumstances can cause alcohol levels in the beverage to exceed the 0.5% alcohol-by-volume limit for nonalcoholic beverages set by the Alcohol and Tobacco Tax and Trade Bureau (TTB).",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "83020835072f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "alkohol",
+  "wartosc": 0.5,
+  "jednostka": "% obj."
+ },
+ {
+  "id": "NAP-011",
+  "twierdzenie": "USA (TTB): kombucha, w której alkohol w dowolnym momencie po butelkowaniu (dalsza fermentacja w butelce) osiągnie 0,5% obj. lub więcej, podlega przepisom o napojach alkoholowych.",
+  "zrodla": [
+   {
+    "adres": "https://www.ttb.gov/regulated-commodities/beverage-alcohol/kombucha/general-requirements",
+    "miejsce": "TTB, Kombucha: General TTB Requirements, IMPORTANT",
+    "cytat": "TTB regulations on alcohol beverages DO APPLY to any kombucha that has less than 0.5 percent alcohol by volume when bottled BUT the alcohol content increases to 0.5 percent or more alcohol by volume at any point afterwards as a result of continued fermentation in the bottle.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d93d6487ea66"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "alkohol (USA, próg prawny)",
+  "wartosc": 0.5,
+  "jednostka": "% obj.",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-012",
+  "twierdzenie": "Zabutelkowana kombucha, która dalej fermentuje, może wytworzyć w opakowaniu do 3% alkoholu.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/kombucha1.pdf",
+    "miejsce": "BCCDC, Food Safety Assessment of Kombucha Tea Recipe (2015, upd. 2020)",
+    "cytat": "to ferment, and produced up to 3% alcohol in the package.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5f678e25ecf4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "alkohol",
+  "wartosc": 3,
+  "jednostka": "% obj.",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-013",
+  "twierdzenie": "Cukier i dodatki z cukrem dodane po drugim etapie fermentacji kombuchy/jun mogą powodować nadmierne powstawanie alkoholu, jeśli fermentacja trwa dalej.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.11 Kombucha & Jun (upd. 12/2024), s. 5",
+    "cytat": "Sugars and flavourings with added sugar added after this second step",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a0f5ee9819dd"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.11 Kombucha & Jun (upd. 12/2024), s. 5",
+    "cytat": "may cause formation of excess alcohol if fermentation persists.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a0f5ee9819dd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-014",
+  "twierdzenie": "Nadmiar gazu w butelkach i puszkach z kombuchą/jun może rozerwać pojemnik pod ciśnieniem.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.11 Kombucha & Jun (upd. 12/2024), s. 5",
+    "cytat": "Excess formation of gas in bottles and cans may cause containers to rupture under added pressure.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a0f5ee9819dd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-015",
+  "twierdzenie": "Zalecane pH gotowej kombuchy i jun: między 2,5 a 4,2.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.11 Kombucha & Jun (upd. 12/2024), s. 5",
+    "cytat": "Recommended pH is between 2.5 and 4.2.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a0f5ee9819dd"
+   },
+   {
+    "adres": "https://agriculture.ny.gov/food-safety/kombucha-processing",
+    "miejsce": "NYS Agriculture & Markets, Kombucha Processing, Process Flow",
+    "cytat": "Test to ensure the pH of the of the product is below 4.2 but greater than or equal to 2.5.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d788397cb9b3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH produktu",
+  "wartosc": "2.5-4.2",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-016",
+  "twierdzenie": "Kombucha o pH poniżej 2,5 lub wyraźnie zbyt kwaśna nie powinna być podawana konsumentom.",
+  "zrodla": [
+   {
+    "adres": "https://agriculture.ny.gov/food-safety/kombucha-processing",
+    "miejsce": "NYS Agriculture & Markets, Kombucha Processing, Process Flow",
+    "cytat": "Kombucha with a pH of below 2.5 or that tastes especially acidic should not be offered to consumers.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d788397cb9b3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH produktu (dolna granica)",
+  "wartosc": 2.5,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-017",
+  "twierdzenie": "Przy fermentacji dłuższej niż 10 dni kwasowość kombuchy może wzrosnąć do poziomu potencjalnie szkodliwego.",
+  "zrodla": [
+   {
+    "adres": "https://agriculture.ny.gov/food-safety/kombucha-processing",
+    "miejsce": "NYS Agriculture & Markets, Kombucha Processing, Process Flow",
+    "cytat": "When the fermentation is allowed to continue beyond 10 days, acidity may rise to levels potentially harmful to consumers",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d788397cb9b3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas fermentacji (górna granica)",
+  "wartosc": 10,
+  "jednostka": "dni",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-018",
+  "twierdzenie": "Jeśli kombucha nie osiągnie pH 4,2 lub niższego w ciągu 7 dni, kultura jest prawdopodobnie zanieczyszczona albo temperatura zbyt niska; partię należy wyrzucić.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/kombucha1.pdf",
+    "miejsce": "BCCDC, Food Safety Assessment of Kombucha Tea Recipe (2015, upd. 2020)",
+    "cytat": "If the pH does not reach pH ≤ 4.2 in seven days, the culture is",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5f678e25ecf4"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/kombucha1.pdf",
+    "miejsce": "BCCDC, Food Safety Assessment of Kombucha Tea Recipe (2015, upd. 2020)",
+    "cytat": "is recommended. Start a new batch with a newly purchased commercial culture.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5f678e25ecf4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas dojścia do pH 4,2",
+  "wartosc": 7,
+  "jednostka": "dni",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-019",
+  "twierdzenie": "Niepasteryzowana kombucha w obrocie (NY) musi być stale chłodzona w 41°F (5°C) lub niżej, bo dalej fermentuje i zwiększa zawartość alkoholu.",
+  "zrodla": [
+   {
+    "adres": "https://agriculture.ny.gov/food-safety/kombucha-processing",
+    "miejsce": "NYS Agriculture & Markets, Kombucha Processing, Process Flow",
+    "cytat": "Unpasteurized kombucha must be refrigerated at or below 41 o F at all times.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d788397cb9b3"
+   },
+   {
+    "adres": "https://agriculture.ny.gov/food-safety/kombucha-processing",
+    "miejsce": "NYS Agriculture & Markets, Kombucha Processing, Process Flow",
+    "cytat": "can continue to ferment and raise alcohol content over time",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d788397cb9b3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura przechowywania",
+  "wartosc": 41,
+  "jednostka": "°F",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-020",
+  "twierdzenie": "Przy pierwszym nastawie należy użyć kupionej kultury (SCOBY) z handlu; kolejne można zaszczepiać z poprzednich partii bez pleśni.",
+  "zrodla": [
+   {
+    "adres": "https://agriculture.ny.gov/food-safety/kombucha-processing",
+    "miejsce": "NYS Agriculture & Markets, Kombucha Processing, Process Flow",
+    "cytat": "Use a commercially purchased culture on first use.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d788397cb9b3"
+   },
+   {
+    "adres": "https://agriculture.ny.gov/food-safety/kombucha-processing",
+    "miejsce": "NYS Agriculture & Markets, Kombucha Processing, Process Flow",
+    "cytat": "Reuse only culture from kombucha that shows no signs of mold or unusual contamination.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d788397cb9b3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-021",
+  "twierdzenie": "Suche, puszyste plamy (białe lub kolorowe) na SCOBY lub powierzchni kombuchy oznaczają zepsucie; napój i SCOBY należy wyrzucić.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1312/whats-the-word-on-homemade-kombucha/",
+    "miejsce": "UGA Extension Circular 1312 (rev. 2026-04-10), sekcja Safe Kombucha Brewing",
+    "cytat": "If you see dry, fuzzy patches on your SCOBY and/or the liquid surface of the kombucha that are either white or colored, this is an indicator that the brew is spoiled.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "83020835072f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "NAP-022",
+  "twierdzenie": "UGA: do 4 uncji płynnych (ok. 120 ml) kombuchy dziennie uznaje się za bezpieczne dla większości zdrowych osób; osobom z podatnością na kwasicę, obniżoną odpornością, w ciąży i karmiącym nie jest zalecana.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1312/whats-the-word-on-homemade-kombucha/",
+    "miejsce": "UGA Extension Circular 1312 (rev. 2026-04-10), sekcja Safe Kombucha Brewing",
+    "cytat": "consuming up to 4 fluid ounces of kombucha per day is considered safe for most healthy individuals",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "83020835072f"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1312/whats-the-word-on-homemade-kombucha/",
+    "miejsce": "UGA Extension Circular 1312 (rev. 2026-04-10), sekcja Safe Kombucha Brewing",
+    "cytat": "by pregnant and/or lactating individuals is not advised as potential health risks are unknown.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "83020835072f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "porcja dzienna",
+  "wartosc": 4,
+  "jednostka": "fl oz"
+ },
+ {
+  "id": "NAP-023",
+  "twierdzenie": "Kefir wodny jest dobrze udokumentowanym źródłem podwyższonej zawartości alkoholu.",
+  "zrodla": [
+   {
+    "adres": "https://www.gov.mb.ca/agriculture/food-safety/education-resources/pubs/fermented-kefir.pdf",
+    "miejsce": "Fermented Food Guidance 3.12 Kefir (Manitoba/BCCDC working group, 12/2024)",
+    "cytat": "Water kefir is well documented to contain elevated alcohol, although residual alcohol levels have been",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fa7107451657"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-024",
+  "twierdzenie": "Health Canada wskazuje etanol w bezalkoholowych napojach fermentowanych jako problem w kombuczy, kefirze i niektórych napojach, w tym piwie imbirowym (ginger beer).",
+  "zrodla": [
+   {
+    "adres": "https://www.gov.mb.ca/agriculture/food-safety/education-resources/pubs/fermented-kefir.pdf",
+    "miejsce": "Fermented Food Guidance 3.12 Kefir (Manitoba/BCCDC working group, 12/2024)",
+    "cytat": "Health Canada acknowledges ethanol in non-alcoholic fermented beverages as a concern in kombucha, kefir, and some soft",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fa7107451657"
+   },
+   {
+    "adres": "https://www.gov.mb.ca/agriculture/food-safety/education-resources/pubs/fermented-kefir.pdf",
+    "miejsce": "Fermented Food Guidance 3.12 Kefir (Manitoba/BCCDC working group, 12/2024)",
+    "cytat": "drinks including ginger beer.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fa7107451657"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-025",
+  "twierdzenie": "Do fermentacji kefiru (mlecznego i wodnego) należy używać wyłącznie pasteryzowanego mleka i soku.",
+  "zrodla": [
+   {
+    "adres": "https://www.gov.mb.ca/agriculture/food-safety/education-resources/pubs/fermented-kefir.pdf",
+    "miejsce": "Fermented Food Guidance 3.12 Kefir (Manitoba/BCCDC working group, 12/2024)",
+    "cytat": "Only use pasteurized milk and juice for fermentation media.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fa7107451657"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-026",
+  "twierdzenie": "UE: napój musi być oznakowany zawartością alkoholu, jeśli ma ponad 1,2% obj. (rozporządzenie 1169/2011, za przeglądem recenzowanym).",
+  "zrodla": [
+   {
+    "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7466267/fullTextXML",
+    "miejsce": "Current Functionality and Potential Improvements of Non-Alcoholic Fermented Cereal Beverages, Foods 2020, doi:10.3390/foods9081031 (PMC7466267)",
+    "cytat": "1169/2011 simply states that a beverage must be labelled as an alcoholic drink if it has an alcoholic strength by volume (ABV) of over 1.2%.",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "47b47702cc21"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Przepis UE cytowany za przeglądem (szczebel 2); tekstu eur-lex nie odczytano (HTTP 202). Do potwierdzenia u źródła.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "alkohol (UE, próg znakowania)",
+  "wartosc": 1.2,
+  "jednostka": "% obj."
+ },
+ {
+  "id": "NAP-027",
+  "twierdzenie": "Nie wolno zmieniać proporcji octu, żywności i wody w przepisie ani używać octu o nieznanej kwasowości; minimalna, równomierna kwasowość chroni przed jadem kiełbasianym.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/",
+    "miejsce": "NCHFP, General Information on Pickling",
+    "cytat": "Do not alter vinegar, food, or water proportions in a recipe or use a vinegar with unknown acidity.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b326e7775e9"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/",
+    "miejsce": "NCHFP, General Information on Pickling",
+    "cytat": "There must be a minimum, uniform level of acid throughout the mixed product to prevent the growth of botulinum bacteria.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b326e7775e9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-028",
+  "twierdzenie": "Do marynat zaleca się ocet spirytusowy biały lub jabłkowy o kwasowości 5% (50 grain).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/",
+    "miejsce": "NCHFP, General Information on Pickling",
+    "cytat": "White distilled and cider vinegars of 5 percent acidity (50 grain) are recommended.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b326e7775e9"
+   },
+   {
+    "adres": "https://extension.psu.edu/advice-about-vinegar",
+    "miejsce": "Penn State Extension, Advice about Vinegar (upd. 2026-07-08)",
+    "cytat": "Acidity levels below 5% may result in spoilage as it is not adequate to control microbial growth.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "e0a202b72134"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "kwasowość octu do marynat",
+  "wartosc": 5,
+  "jednostka": "%",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-029",
+  "twierdzenie": "Domowego octu nie używa się do marynowania, bo jego kwasowość nie jest stała.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/advice-about-vinegar",
+    "miejsce": "Penn State Extension, Advice about Vinegar (upd. 2026-07-08)",
+    "cytat": "Do not use homemade vinegar when pickling. The acidity of homemade vinegar is not consistent.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "e0a202b72134"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "NAP-030",
+  "twierdzenie": "Domowego octu nie używa się w żywności wekowanej ani przechowywanej w temperaturze pokojowej; nadaje się do sałatek, gotowania oraz pikli lodówkowych i mrożonych.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension (za Ohio State Univ. Extension), Making Cider Vinegar at Home (upd. 2025-12-16)",
+    "cytat": "Because the acidity of homemade vinegars will vary, do not use them in foods to be canned or stored at room temperature.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "535e57c1a1bf"
+   },
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension (za Ohio State Univ. Extension), Making Cider Vinegar at Home (upd. 2025-12-16)",
+    "cytat": "Homemade vinegar is, however, excellent in salads, cooking, or freezer and refrigerator pickled products.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "535e57c1a1bf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "NAP-031",
+  "twierdzenie": "Niefiltrowany ocet z matką jest bezpieczny do marynat tylko wtedy, gdy jest produkowany komercyjnie i ma co najmniej 5% kwasu.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/advice-about-vinegar",
+    "miejsce": "Penn State Extension, Advice about Vinegar (upd. 2026-07-08)",
+    "cytat": "Unfiltered vinegars are safe to use for pickling as long as they are commercially manufactured, contain at least 5% acid",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "e0a202b72134"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "NAP-032",
+  "twierdzenie": "Fermentujący cydr przy robieniu octu utrzymuje się w 60–80°F (16–27°C); niższa temperatura nie zawsze daje ocet, wyższa przeszkadza tworzeniu matki octowej.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension (za Ohio State Univ. Extension), Making Cider Vinegar at Home (upd. 2025-12-16)",
+    "cytat": "The temperature of fermenting cider should be kept between 60 and 80 degrees Fahrenheit (F).",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "535e57c1a1bf"
+   },
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension (za Ohio State Univ. Extension), Making Cider Vinegar at Home (upd. 2025-12-16)",
+    "cytat": "Lower temperatures do not always produce a usable vinegar, and higher ones interfere with the formation of the “mother of vinegar.\"",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "535e57c1a1bf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "temperatura fermentacji octu",
+  "wartosc": "60-80",
+  "jednostka": "°F"
+ },
+ {
+  "id": "NAP-033",
+  "twierdzenie": "Pełna fermentacja octu jabłkowego z cydru trwa ok. 3–4 tygodni.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension (za Ohio State Univ. Extension), Making Cider Vinegar at Home (upd. 2025-12-16)",
+    "cytat": "Full fermentation will take about 3 to 4 weeks.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "535e57c1a1bf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "czas fermentacji octu",
+  "wartosc": "3-4",
+  "jednostka": "tygodnie"
+ },
+ {
+  "id": "NAP-034",
+  "twierdzenie": "Pasteryzacja domowego octu: ocet musi osiągnąć co najmniej 140°F (60°C) i nie przekroczyć 160°F (71°C).",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension (za Ohio State Univ. Extension), Making Cider Vinegar at Home (upd. 2025-12-16)",
+    "cytat": "the temperature of the vinegar must reach at least 140 degrees F to pasteurize the product, and should not exceed 160 degrees F.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "535e57c1a1bf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura pasteryzacji octu",
+  "wartosc": "140-160",
+  "jednostka": "°F"
+ },
+ {
+  "id": "NAP-035",
+  "twierdzenie": "Do robienia i przechowywania octu nie używa się naczyń metalowych (kwas koroduje metal i aluminium); właściwe są szkło, plastik, drewno, emalia, stal nierdzewna.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension (za Ohio State Univ. Extension), Making Cider Vinegar at Home (upd. 2025-12-16)",
+    "cytat": "Do not use a metal container when making vinegar; acid in the mixture will corrode metal or aluminum objects.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "535e57c1a1bf"
+   },
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension (za Ohio State Univ. Extension), Making Cider Vinegar at Home (upd. 2025-12-16)",
+    "cytat": "Glass, plastic, wood, enamel, or stainless steel containers should be used for making or storing vinegar.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "535e57c1a1bf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "NAP-036",
+  "twierdzenie": "Zbyt dużo materiału roślinnego w occie smakowym może zneutralizować kwas i zniszczyć jego właściwości konserwujące.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension (za Ohio State Univ. Extension), Making Cider Vinegar at Home (upd. 2025-12-16)",
+    "cytat": "Too much vegetable matter can destroy the acid and ruin the preservative quality of the vinegar.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "535e57c1a1bf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "NAP-037",
+  "twierdzenie": "Do octów smakowych dla bezpieczeństwa używa się wyłącznie octu produkowanego komercyjnie; octy winne i ryżowe zawierają białko sprzyjające wzrostowi bakterii.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "Andress & Harrison, Preserving Food: Flavored Vinegars, UGA/NCHFP FDNS-E-43",
+    "cytat": "safety, use only commercially produced vinegars.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "Andress & Harrison, Preserving Food: Flavored Vinegars, UGA/NCHFP FDNS-E-43",
+    "cytat": "protein that provides an excellent medium for bacterial",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "NAP-038",
+  "twierdzenie": "Ocet do octu smakowego podgrzewa się tuż poniżej wrzenia, co najmniej do 190–195°F (88–91°C), i zalewa składniki smakowe w wysterylizowanym szkle.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "Andress & Harrison, Preserving Food: Flavored Vinegars, UGA/NCHFP FDNS-E-43",
+    "cytat": "least 190-195° F.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "Andress & Harrison, Preserving Food: Flavored Vinegars, UGA/NCHFP FDNS-E-43",
+    "cytat": "Only glass containers are recommended for your flavored vinegars.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "temperatura octu przy zalewaniu",
+  "wartosc": "190-195",
+  "jednostka": "°F"
+ },
+ {
+  "id": "NAP-039",
+  "twierdzenie": "Prawidłowo przygotowane octy smakowe zachowują jakość do 3 miesięcy w chłodnym miejscu, a w lodówce 6–8 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "Andress & Harrison, Preserving Food: Flavored Vinegars, UGA/NCHFP FDNS-E-43",
+    "cytat": "should keep for up to 3 months in cool storage.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "Andress & Harrison, Preserving Food: Flavored Vinegars, UGA/NCHFP FDNS-E-43",
+    "cytat": "all flavored vinegars may extend the quality for 6 to 8",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "trwałość octu smakowego (chłód/lodówka)",
+  "wartosc": "3 / 6-8",
+  "jednostka": "miesiące"
+ },
+ {
+  "id": "NAP-040",
+  "twierdzenie": "Niektóre bakterie chorobotwórcze mogą przetrwać, a nawet powoli się namnażać w niektórych octach; octy smakowe trzyma się w lodówce lub chłodzie.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "Andress & Harrison, Preserving Food: Flavored Vinegars, UGA/NCHFP FDNS-E-43",
+    "cytat": "Some harmful bacteria may survive and even multiply slowly in some vinegars.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "Andress & Harrison, Preserving Food: Flavored Vinegars, UGA/NCHFP FDNS-E-43",
+    "cytat": "store flavored vinegars in the refrigerator or cool places",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "NAP-041",
+  "twierdzenie": "Ocet smakowy z pleśnią lub oznakami fermentacji (bąbelki, zmętnienie, śluzowatość) wyrzuca się bez próbowania.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/flavored-vinegars-sp-50-736",
+    "miejsce": "OSU Extension, Flavored Vinegars SP 50-736 (rev. 12/2025)",
+    "cytat": "If flavored vinegar molds or shows signs of fermentation such as bubbling, cloudiness or sliminess, it should be discarded without tasting.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "a11f3c986420"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "NAP-042",
+  "twierdzenie": "Octu ziołowego nie używa się do robienia pikli, chyba że ma kwasowość 5%.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/flavored-vinegars-sp-50-736",
+    "miejsce": "OSU Extension, Flavored Vinegars SP 50-736 (rev. 12/2025)",
+    "cytat": "Note: Flavored herb vinegar should not be used for pickle making unless it has 5% acidity level.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "a11f3c986420"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "NAP-043",
+  "twierdzenie": "Przetestowane przepisy UGA/NCHFP obejmują m.in. ocet estragonowy i ocet malinowy (macerat na occie komercyjnym).",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "Andress & Harrison, Preserving Food: Flavored Vinegars, UGA/NCHFP FDNS-E-43",
+    "cytat": "flavored, use 3 (3 inch) sprigs of fresh tarragon, or 1 cup of fresh",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "Andress & Harrison, Preserving Food: Flavored Vinegars, UGA/NCHFP FDNS-E-43",
+    "cytat": "Wash 2 cups fresh raspberries gently but thoroughly.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "NAP-044",
+  "twierdzenie": "OSU wymienia jako owoce do octów smakowych m.in. maliny, truskawki, borówki, żurawinę, jeżyny i ananasa; można dodać skórkę pomarańczy i cytryny.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/flavored-vinegars-sp-50-736",
+    "miejsce": "OSU Extension, Flavored Vinegars SP 50-736 (rev. 12/2025)",
+    "cytat": "Especially flavorful fruits include raspberries, strawberries, blueberries, cranberries, blackberries and pineapple.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "a11f3c986420"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/flavored-vinegars-sp-50-736",
+    "miejsce": "OSU Extension, Flavored Vinegars SP 50-736 (rev. 12/2025)",
+    "cytat": "Orange and lemon peel can be added.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "a11f3c986420"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "NAP-045",
+  "twierdzenie": "Codex: sos rybny to produkt fermentacji ryby z solą; zawartość soli nie mniej niż 200 g/l (jako NaCl), fermentacja zwykle nie krócej niż 6 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://www.fao.org/input/download/standards/11796/CXS_302e.pdf",
+    "miejsce": "Codex CXS 302-2011 Standard for Fish Sauce",
+    "cytat": "This standard applies to fish sauce produced by means of fermentation by mixing fish and salt and may include other",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "717b164c2c02"
+   },
+   {
+    "adres": "https://www.fao.org/input/download/standards/11796/CXS_302e.pdf",
+    "miejsce": "Codex CXS 302-2011 Standard for Fish Sauce",
+    "cytat": "salt: not less than 200g/l, calculated as NaCl.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "717b164c2c02"
+   },
+   {
+    "adres": "https://www.fao.org/input/download/standards/11796/CXS_302e.pdf",
+    "miejsce": "Codex CXS 302-2011 Standard for Fish Sauce",
+    "cytat": "fermentation process takes not less than 6 months.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "717b164c2c02"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "sól w sosie rybnym",
+  "wartosc": 200,
+  "jednostka": "g/l",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-046",
+  "twierdzenie": "Codex: sos rybny nie może zawierać więcej niż 40 mg histaminy na 100 g w żadnej próbce.",
+  "zrodla": [
+   {
+    "adres": "https://www.fao.org/input/download/standards/11796/CXS_302e.pdf",
+    "miejsce": "Codex CXS 302-2011 Standard for Fish Sauce",
+    "cytat": "The product shall not contain more than 40 mg histamine /100g of fish sauce in any sample unit tested.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "717b164c2c02"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "histamina w sosie rybnym",
+  "wartosc": 40,
+  "jednostka": "mg/100 g",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-047",
+  "twierdzenie": "Toksyna typu E odpowiada za ponad 85% przypadków botulizmu na Alasce, bo tradycyjne potrawy (głowy łososia, ikra, foki, tłuszcz wielorybi) są fermentowane w warunkach sprzyjających C. botulinum typu E; typ E wiąże się wyłącznie ze zwierzętami wodnymi.",
+  "zrodla": [
+   {
+    "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3320302/fullTextXML",
+    "miejsce": "McLaughlin i in., Emerg Infect Dis 2004;10(9), doi:10.3201/eid1009.040131",
+    "cytat": "E toxin is responsible for >85% of all botulism cases in Alaska because many traditional Alaska Native foods, including salmon heads, whale blubber, seal flesh and oil, and fish eggs are prepared by fermentation under conditions that may favor germination and vegetation of toxin type E–producing Clostridium botulinum",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "5641a71d4d0c"
+   },
+   {
+    "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3320302/fullTextXML",
+    "miejsce": "McLaughlin i in., Emerg Infect Dis 2004;10(9), doi:10.3201/eid1009.040131",
+    "cytat": "intoxication with toxin type E is exclusively associated with eating aquatic animals.",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "5641a71d4d0c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "NAP-048",
+  "twierdzenie": "Ogniska botulizmu wiązano z fesikh (fermentowaną solona rybą) robionym z niewypatroszonych ryb.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guidance%20-%203.5%20Fesikh.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.5 Fesikh (upd. 12/2024), s. 5",
+    "cytat": "Clostridium botulinum outbreaks have been associated with uneviscerated fish used to prepare fesikh.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "00697d0d475e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-049",
+  "twierdzenie": "Fermentacja koji nie jest kwaśna: pH koji i produktów z koji pozostaje powyżej 4,6 (spada z ok. 6,0 do ok. 5,0).",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "This is not an acidic fermentation. The final pH of koji and other koji products are above a pH of 4.6.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "During fermentation, the pH of rice koji and miso will drop from a starting pH of approximately 6.0 to a",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH koji/miso",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-050",
+  "twierdzenie": "Miso i shio koji (z solą) powinny mieć aw poniżej 0,85; ryżowe koji bez soli może nie osiągać ochronnej aw.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "Miso and salt koji (with added salt) should have aw of less than 0.85; rice koji without added salt may or",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "aw miso/shio koji",
+  "wartosc": 0.85,
+  "jednostka": "aw",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-051",
+  "twierdzenie": "Aflatoksyny nie są problemem przy komercyjnej kulturze Aspergillus; odnawianie koji z poprzedniej partii (backslopping) nie jest zalecane, bo może wprowadzić dzikie, toksynotwórcze szczepy Aspergillus.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "Aflatoxin is not a concern when commercially sourced Aspergillus starter culture (as described above)",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "is not recommended in these ferments as wild strains of Aspergillus that contain toxins may be",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-052",
+  "twierdzenie": "Przetrwalniki Bacillus mogą kiełkować i tworzyć toksynę, jeśli ugotowany ryż/jęczmień/zboże nie zostanie schłodzony w ciągu 2 godzin przed zaszczepieniem.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "Bacillus spores may germinate and produce toxin if rice, barley, or other cereal cooling step is not",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "Cooling of cooked rice or barley within 2 hours before inoculation",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas chłodzenia przed zaszczepieniem",
+  "wartosc": 2,
+  "jednostka": "h",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-053",
+  "twierdzenie": "Koji: zaszczepienie w 35°C lub niżej, optymalny wzrost 35–38°C; podczas fermentacji utrzymywać poniżej 40°C; 50°C i więcej zabija pleśń.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "Inoculation at or below 35oC, optimal growth in range of 35 to 38oC.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "Keep koji starter cooled to below 40oC for optimal growth",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "for cooling as temperatures of 50oC and higher will kill the Aspergillus mould",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura hodowli koji",
+  "wartosc": "<=35 / <40",
+  "jednostka": "°C",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-054",
+  "twierdzenie": "Miso: stężenie soli powyżej 4%; dojrzałe miso powinno mieć aw 0,85 lub niższą (zwykle ok. 0,80).",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "Salt concentration should be >4%. Salt inhibits further mould, i.e., Aspergillus growth",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "Matured miso should have aw of 0.85 or lower; finished miso usually has an aw of approximately 0.80.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "sól w miso",
+  "wartosc": 4,
+  "jednostka": "%",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-055",
+  "twierdzenie": "Sos sojowy wymaga wysokiego zasolenia 18%.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "High salt of 18% required to promote growth of desired microbes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "sól w sosie sojowym",
+  "wartosc": 18,
+  "jednostka": "%",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-056",
+  "twierdzenie": "Amazake: inkubację prowadzi się powyżej 50°C, by zapobiec wzrostowi gronkowca; tradycyjne amazake z koji ryżowego nie zawiera alkoholu (wersje z drożdżami lub z wytłoków sake mogą).",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "Keep incubation temp >50oC to avoid growth of Staphylococcus.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "Traditional rice-koji-based amazake does not contain alcohol.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "therefore alcohol should be considered a hazard.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura inkubacji amazake",
+  "wartosc": 50,
+  "jednostka": "°C",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-057",
+  "twierdzenie": "Z sosem sojowym i miso wiązano aminy biogenne, np. histaminę.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.10 Koji & Miso (upd. 12/2024), s. 5-6",
+    "cytat": "Biogenic amines such as histamine have been associated with soy sauce and miso products.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21c9860dd7d0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-058",
+  "twierdzenie": "Natto: w źle ugotowanej i źle schłodzonej soi mogą rosnąć Bacillus cereus i Clostridium perfringens.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guidance%20-%203.8%20Natto.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.8 Natto (upd. 12/2024), s. 5",
+    "cytat": "Bacillus cereus and Clostridium perfringens can grow in soybeans that are improperly cooked and cooled.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "459405bb7115"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-059",
+  "twierdzenie": "Natto: fermentacja zasadowa w ok. 40–50°C, pH rośnie z 7 do 9; po fermentacji schłodzić do 10°C lub mniej w ciągu 4 godzin.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guidance%20-%203.8%20Natto.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.8 Natto (upd. 12/2024), s. 5",
+    "cytat": "Alkaline fermentation occurs at temperatures of approximately 40oC to 50oC. pH increases from 7 to 9",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "459405bb7115"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guidance%20-%203.8%20Natto.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.8 Natto (upd. 12/2024), s. 5",
+    "cytat": "After fermentation, soybeans are cooled to 10oC or less within 4 hours to prevent secondary",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "459405bb7115"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura fermentacji natto",
+  "wartosc": "40-50",
+  "jednostka": "°C",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-060",
+  "twierdzenie": "Tempeh: fermentacja zasadowa (pH z 4 do 7); temperatura hodowli nie powinna przekraczać 42°C; używać komercyjnej kultury Rhizopus.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guidance%20-%203.9%20Tempeh.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.9 Tempeh (upd. 12/2024)",
+    "cytat": "This is an alkaline fermentation, pH increases from pH 4 to pH 7 during the process.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4ef68035a119"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guidance%20-%203.9%20Tempeh.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.9 Tempeh (upd. 12/2024)",
+    "cytat": "Fermentation conditions: temperatures during culture should not exceed 42oC, relative humidity should",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4ef68035a119"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guidance%20-%203.9%20Tempeh.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.9 Tempeh (upd. 12/2024)",
+    "cytat": "Use of commercial Rhizopus culture from an approved supplier.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4ef68035a119"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura hodowli tempeh",
+  "wartosc": 42,
+  "jednostka": "°C",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-061",
+  "twierdzenie": "Tempeh z kokosa (mleko i makuch kokosowy) skażony kwasem bongkrekowym (Burkholderia gladioli pv. cocovenenans) powodował zatrucia w Indonezji.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guidance%20-%203.9%20Tempeh.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.9 Tempeh (upd. 12/2024)",
+    "cytat": "In Indonesia, tempeh made with coconut milk and coconut cake contaminated with a mitochondrial toxin, bongkrekic acid caused",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4ef68035a119"
+   },
+   {
+    "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9833544/fullTextXML",
+    "miejsce": "Epidemiology of foodborne bongkrekic acid poisoning outbreaks in China 2010-2020, PLoS One 2023, doi:10.1371/journal.pone.0279957",
+    "cytat": "in Indonesia, an outbreak was attributed to a traditional food made of coconut pulp fermented by Rhizopus oligosporum",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "59403ee3d8bc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "NAP-062",
+  "twierdzenie": "Shiokara-natto (natto solone) robi się z fermentowanej czarnej soi zaszczepionej koji (Aspergillus oryzae) – proces najbliższy douchi.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guidance%20-%203.8%20Natto.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.8 Natto (upd. 12/2024), s. 5",
+    "cytat": "Shiokara-natto (salted natto) is made",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "459405bb7115"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Porównanie z douchi to wniosek badacza, nie treść źródła.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ }
+]

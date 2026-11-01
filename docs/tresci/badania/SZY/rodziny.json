@@ -1,0 +1,118 @@
+[
+ {
+  "id": "canned-foods",
+  "thresholds": [
+   {
+    "wielkosc": "pH (granica żywności kwaśnej; kąpiel wodna dopuszczalna tylko przy przetestowanym przepisie)",
+    "wartosc": 4.6,
+    "jednostka": "pH",
+    "granica": "<=",
+    "claim": "SZY-054"
+   },
+   {
+    "wielkosc": "pH żywności niskokwasowej (wymaga szybkowaru)",
+    "wartosc": 4.6,
+    "jednostka": "pH",
+    "granica": ">",
+    "claim": "SZY-001"
+   },
+   {
+    "wielkosc": "temperatura sterylizacji żywności niskokwasowej (dolna)",
+    "wartosc": 240,
+    "jednostka": "°F",
+    "granica": ">=",
+    "claim": "SZY-003"
+   },
+   {
+    "wielkosc": "ciśnienie robocze szybkowaru (dolne)",
+    "wartosc": 10,
+    "jednostka": "PSIG",
+    "granica": ">=",
+    "claim": "SZY-003"
+   },
+   {
+    "wielkosc": "ciśnienie robocze w nowym sprzęcie (górne)",
+    "wartosc": 15,
+    "jednostka": "PSI",
+    "granica": "<=",
+    "claim": "SZY-052"
+   },
+   {
+    "wielkosc": "czas obróbki niskokwasowej w 240–250 °F (zakres wg produktu, słoika i sposobu pakowania)",
+    "wartosc": null,
+    "pytanie": "Czas zależy od produktu: brać wyłącznie z tabeli przepisu (SZY-016…051); źródło podaje zakres 20–100 min, ale ryby w słoikach quart wymagają 160 min (SZY-045), więc zakresu nie publikować jako reguły."
+   },
+   {
+    "wielkosc": "liczba i czas cykli tyndalizacji w 100 °C",
+    "wartosc": null,
+    "pytanie": "Brak jakiegokolwiek przetestowanego procesu szczebla 1–3; nie publikować wartości (SZY-005, SZY-009)."
+   }
+  ],
+  "regulyZakazu": [
+   {
+    "opis": "Żywności niskokwasowej (warzywa, mięso, drób, ryby, mieszaniny bez zakwaszenia) nie wekować w kąpieli wodnej.",
+    "claim": "SZY-006"
+   },
+   {
+    "opis": "Tyndalizacja (wielokrotne gotowanie w 100 °C) nie zastępuje szybkowaru dla żywności niskokwasowej.",
+    "claim": "SZY-009"
+   },
+   {
+    "opis": "Wekować żywność niskokwasową tylko wg przetestowanych procedur USDA/NCHFP (bez własnych receptur).",
+    "claim": "SZY-007"
+   },
+   {
+    "opis": "Nie wekować puree z warzyw, mięsa czerwonego ani drobiu (pasztety, przeciery, kremy, hummus, kawiory warzywne).",
+    "claim": "SZY-014"
+   },
+   {
+    "opis": "Nie wekować masła dyniowego ani rozgniecionej/zmiksowanej dyni.",
+    "claim": "SZY-015"
+   },
+   {
+    "opis": "Nie dodawać do wekowanych zup i dań makaronu, ryżu, mąki, śmietany, mleka ani innych zagęstników.",
+    "claim": "SZY-017"
+   },
+   {
+    "opis": "Nie wekować grzybów dzikich (leśnych).",
+    "claim": "SZY-020"
+   },
+   {
+    "opis": "Nie dodawać brokułu, kalafiora, kapusty, warzyw liściastych, suchej fasoli, kukurydzy kremowej, dyni zimowej ani batatów do mieszanek warzyw.",
+    "claim": "SZY-022"
+   },
+   {
+    "opis": "Brokuł, kalafior, kapusta, kalarepa, brukselka: brak procesu wekowania (mrozić lub marynować).",
+    "claim": "SZY-025"
+   },
+   {
+    "opis": "Nie wekować dyni letniej (cukinia, patison) bez marynowania; wyjątek: przetestowane pomidory z cukinią.",
+    "claim": "SZY-026"
+   },
+   {
+    "opis": "Nie stosować open-kettle, piekarnika, mikrofalówki ani zmywarki do obróbki słoików.",
+    "claim": "SZY-010"
+   },
+   {
+    "opis": "Nie wekować „na sucho” (bez płynu zalewowego wymaganego przez przepis).",
+    "claim": "SZY-012"
+   },
+   {
+    "opis": "Nie dodawać masła, ghee, oleju ani innych składników spoza przetestowanego przepisu.",
+    "claim": "SZY-013"
+   },
+   {
+    "opis": "W sosach pomidorowych nie zwiększać udziału cebuli, papryki ani grzybów.",
+    "claim": "SZY-028"
+   },
+   {
+    "opis": "Kukurydza kremowa tylko w słoikach pint; ryby wędzone tylko w słoikach do pint.",
+    "claim": "SZY-032"
+   },
+   {
+    "opis": "Wilgotna żywność niskokwasowa pod warstwą tłuszczu/oleju w temperaturze pokojowej to warunki wytwarzania toksyny botulinowej (konfity, rillettes, grzyby pod tłuszczem).",
+    "claim": "SZY-008"
+   }
+  ]
+ }
+]

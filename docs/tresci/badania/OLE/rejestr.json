@@ -1,0 +1,1133 @@
+[
+ {
+  "id": "OLE-001",
+  "twierdzenie": "Mieszanki czosnku w oleju przechowywane w temperaturze pokojowej grożą rozwojem jadu kiełbasianego (badania NCHFP).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/",
+    "miejsce": "Freezing Garlic-In-Oil, akapit 1",
+    "cytat": "mixtures of garlic in oil stored at room temperature are at risk for the development of botulism",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8849be649751"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-002",
+  "twierdzenie": "Czosnek w oleju: przygotować na świeżo, przechowywać w lodówce w 40°F (4,4°C) lub niżej, nie dłużej niż 4 dni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/",
+    "miejsce": "Freezing Garlic-In-Oil, akapit 1",
+    "cytat": "Garlic-in-oil should be made fresh and stored in the refrigerator at 40°F or lower for no more than 4 days.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8849be649751"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335681.pdf",
+    "miejsce": "s. 3, Storing Garlic in Oil",
+    "cytat": "the refrigerator for no more than 4 days.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "7337c0196db5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas przechowywania w lodówce",
+  "wartosc": 4,
+  "jednostka": "dni",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-003",
+  "twierdzenie": "Czosnek w oleju można zamrozić do długiego przechowywania, do kilku miesięcy (słoiki/pojemniki do mrożenia, 1/2 cala, ok. 1,3 cm, wolnej przestrzeni).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/",
+    "miejsce": "Freezing Garlic-In-Oil, akapit 1",
+    "cytat": "It may be frozen for long term storage for up to several months.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8849be649751"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-004",
+  "twierdzenie": "Przechowywanie czosnku w oleju w lodówce dłużej niż 4 dni może potencjalnie pozwolić na wzrost Clostridium botulinum.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/preserving-garlic",
+    "miejsce": "Garlic stored in oil, Cold storage",
+    "cytat": "Storage at refrigerator temperatures for longer than four days could potentially allow for Clostridium botulinum growth.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d23ce3762c7d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-005",
+  "twierdzenie": "Purée z czosnku z olejem (2 części oleju : 1 część czosnku) zamrozić od razu; nie trzymać w temperaturze pokojowej.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/preserving-garlic",
+    "miejsce": "Freezing",
+    "cytat": "Peel the cloves and puree them with oil in a blender or food processor, using two parts oil to one part garlic. Freeze immediately and do not hold at room temperature.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d23ce3762c7d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-006",
+  "twierdzenie": "To samo zagrożenie (jad kiełbasiany w temperaturze pokojowej) dotyczy pieczonego czosnku przechowywanego w oleju.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335681.pdf",
+    "miejsce": "s. 3, Storing Garlic in Oil",
+    "cytat": "The same hazard exists for roasted garlic stored in",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "7337c0196db5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-007",
+  "twierdzenie": "Odnotowano co najmniej 4 ogniska jadu kiełbasianego związane z czosnkiem w oleju w Ameryce Północnej (koniec lat 80. i 90.); ogniska z 1991 (Kalifornia) i 1999 (Floryda) dotyczyły wyrobów domowych.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335681.pdf",
+    "miejsce": "s. 3, Storing Garlic in Oil",
+    "cytat": "At least four outbreaks of botulism associated with garlic in oil",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "7337c0196db5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-008",
+  "twierdzenie": "Pasteryzacja/wekowanie czosnku nie jest zalecane; nie ustalono odpowiednich czasów obróbki.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335681.pdf",
+    "miejsce": "s. 2, ramka CAUTION",
+    "cytat": "CAUTION: Canning garlic is not recommended.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "7337c0196db5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-009",
+  "twierdzenie": "Nie ma zalecanych procedur wekowania olejów smakowych.",
+  "zrodla": [
+   {
+    "adres": "https://objects.lib.uidaho.edu/uiext/uiext33171.pdf",
+    "miejsce": "s. 3, Q&A",
+    "cytat": "There are no recommended procedures for canning",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1574f1aa0c9e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-010",
+  "twierdzenie": "Przetestowana metoda Uniwersytetu Idaho zakwasza czosnek, bazylię, oregano lub rozmaryn do pH 4,2 lub niższego w ciągu 24 h.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+    "miejsce": "Acidified Fresh Garlic and Herbs",
+    "cytat": "developed a safe method to acidify garlic, basil, oregano, or rosemary to a pH of 4.2 or less within 24 hr.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9f600ac4721f"
+   },
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jul-Aug-14-Abo.pdf",
+    "miejsce": "Materials and methods, Acidification target",
+    "cytat": "The acidification target was set to achieve a pH value of 4.2",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "3d382487eb1a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH zakwaszonego czosnku/ziół",
+  "wartosc": 4.2,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-011",
+  "twierdzenie": "Roztwór do zakwaszania: 1 łyżka kwasu cytrynowego na 2 szklanki wody (roztwór 3%), moczenie 24 h w temperaturze pokojowej.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+    "miejsce": "Garlic Acidification Steps",
+    "cytat": "Mix 1 tablespoon of citric acid into 2 cups of water.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9f600ac4721f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "stężenie kwasu cytrynowego",
+  "wartosc": 3,
+  "jednostka": "%",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-012",
+  "twierdzenie": "Czosnek obrany i posiekany na kawałki 1/4 cala (ok. 6 mm) lub mniejsze; proporcja 1 część czosnku : 3 części roztworu kwasu cytrynowego jest krytyczna.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+    "miejsce": "Garlic Acidification Steps",
+    "cytat": "These measurements give you a ratio of 1 part garlic to 3 parts citric acid solution, which is critical!",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9f600ac4721f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-013",
+  "twierdzenie": "Świeże zioła (bazylia, oregano, rozmaryn): proporcja 1 część ziół : 10 części roztworu kwasu cytrynowego jest krytyczna.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+    "miejsce": "Fresh Herb Acidification Steps",
+    "cytat": "These measurements give you a ratio of 1 part herbs to 10 parts citric acid solution, which is critical!",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9f600ac4721f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-014",
+  "twierdzenie": "Roztworu kwasu cytrynowego nie wolno zastępować octem ani sokiem z cytryny: nie zostały przetestowane.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+    "miejsce": "Garlic Acidification Steps",
+    "cytat": "Do not replace the citric acid solution with vinegar or lemon juice, as they have not been tested and may result in an unsafe final product.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9f600ac4721f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-015",
+  "twierdzenie": "Olej z czosnkiem/ziołami zakwaszonymi tą metodą można przechowywać w temperaturze pokojowej (lodówka tylko dla jakości).",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+    "miejsce": "Acidified Fresh Garlic and Herbs",
+    "cytat": "This method, if followed properly, allows you to store your infused oils at room temperature.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9f600ac4721f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-016",
+  "twierdzenie": "Metoda zakwaszania jest opracowana wyłącznie dla czosnku, bazylii, oregano i rozmarynu; nie stosować jej do innych warzyw ani ziół (np. papryki, grzybów).",
+  "zrodla": [
+   {
+    "adres": "https://objects.lib.uidaho.edu/uiext/uiext33171.pdf",
+    "miejsce": "s. 2, Garlic and herbs",
+    "cytat": "developed for garlic, basil, oregano, and rosemary. Do",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1574f1aa0c9e"
+   },
+   {
+    "adres": "https://objects.lib.uidaho.edu/uiext/uiext33171.pdf",
+    "miejsce": "s. 3, Q&A",
+    "cytat": "No. Research to determine acidification procedures",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1574f1aa0c9e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-017",
+  "twierdzenie": "Całe ząbki czosnku zakwaszają się znacznie wolniej niż posiekane i nie osiągają wymaganej kwasowości w 24 h; metoda wymaga siekania.",
+  "zrodla": [
+   {
+    "adres": "https://objects.lib.uidaho.edu/uiext/uiext33171.pdf",
+    "miejsce": "s. 3, Q&A",
+    "cytat": "No. Whole garlic acidifies much more slowly than",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1574f1aa0c9e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-018",
+  "twierdzenie": "Olej z niezakwaszonym (suszonym lub świeżym) czosnkiem i ziołami, dodanymi do oleju ogrzanego do 180°F (82°C), trzymać w lodówce i wyrzucić po 4 dniach od przygotowania albo zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+    "miejsce": "Nonacidified Dried or Fresh Garlic and Herbs",
+    "cytat": "infused oils made with this method must be kept in the refrigerator and discarded 4 days after being made.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9f600ac4721f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas przechowywania w lodówce",
+  "wartosc": 4,
+  "jednostka": "dni",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-019",
+  "twierdzenie": "Domowych olejów z niezakwaszonym czosnkiem lub ziołami nie wolno przechowywać w temperaturze pokojowej; kontrola to lodówka maks. 2–4 dni albo zamrażanie.",
+  "zrodla": [
+   {
+    "adres": "https://objects.lib.uidaho.edu/uiext/uiext33171.pdf",
+    "miejsce": "s. 1, Botulism and flavored oils",
+    "cytat": "freezing. It is unsafe to store these home-prepared",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1574f1aa0c9e"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/preserving-garlic",
+    "miejsce": "Garlic stored in oil",
+    "cytat": "Raw, untreated garlic should not be stored in oil at room temperature.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d23ce3762c7d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-020",
+  "twierdzenie": "Suszony czosnek i suszone zioła (niska aktywność wody) nie gwarantują bezpieczeństwa oleju: bez pomiaru laboratoryjnego nie wiadomo, czy są dość suche; olej z suszonymi dodatkami trzymać w lodówce do 4 dni lub zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+    "miejsce": "Nonacidified Dried or Fresh Garlic and Herbs, Note",
+    "cytat": "Using dried garlic and herbs, which have little available water (lower water activity), still does not ensure that your ingredients are dried enough to provide a safe product.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9f600ac4721f"
+   },
+   {
+    "adres": "https://objects.lib.uidaho.edu/uiext/uiext33171.pdf",
+    "miejsce": "s. 3, Q&A",
+    "cytat": "If you season oil with dried garlic, dried herbs, or",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1574f1aa0c9e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-021",
+  "twierdzenie": "UC ANR: całkowicie wysuszony (kruchy) czosnek można bezpiecznie użyć do aromatyzowania oleju, jeśli nie został ponownie nawilżony (wilgotność względna powyżej 60% grozi wchłonięciem wody). Stoi to w sprzeczności z PNW 664 i UGA C1334.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335681.pdf",
+    "miejsce": "s. 3, Dried Garlic in Oil",
+    "cytat": "garlic may be safely used to flavor oils as long as",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "7337c0196db5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Sprzeczność na tym samym szczeblu (3); część wspólna: lodówka/zamrażarka zawsze bezpieczne. Do karty przyjąć wersję ostrożniejszą (lodówka do 4 dni).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-022",
+  "twierdzenie": "Starsze wytyczne WSU (2004–2005) podawały do 3 tygodni w lodówce dla olejów z warzywami i ziołami oraz temperaturę pokojową dla suszonych pomidorów w oleju; nowsze źródła (NCHFP, Nummer 2011) ograniczają to do 4 dni.",
+  "zrodla": [
+   {
+    "adres": "https://wpcdn.web.wsu.edu/extension/uploads/sites/64/2014/05/Herb-and-Vegetable-Flavored-Oils1.pdf",
+    "miejsce": "punktory",
+    "cytat": "The infused oil will keep in the refrigerator for up to 3 weeks.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f155cf981a47"
+   },
+   {
+    "adres": "https://wpcdn.web.wsu.edu/extension/uploads/sites/57/2014/03/09-11-05-Preserving-Herbs-and-Vegetables.pdf",
+    "miejsce": "Clarification of infused oil and vinegar",
+    "cytat": "Oil mixtures may be refrigerated for up to three weeks, or",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "2b4c51ec20d4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wytyczna przestarzała; nie używać na kartach. Wyższy szczebel (NCHFP 1, Nummer 2) wygrywa.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-023",
+  "twierdzenie": "Warzywa i zioła w oleju spełniają warunki produkcji toksyny botulinowej: obecność przetrwalników, środowisko beztlenowe, pH powyżej 4,6 i aktywność wody powyżej 0,85.",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 336, Introduction",
+    "cytat": "(c) a pH greater than 4.6, and (d) a water",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH graniczne",
+  "wartosc": 4.6,
+  "jednostka": "pH"
+ },
+ {
+  "id": "OLE-024",
+  "twierdzenie": "W ogniskach jadu kiełbasianego z warzyw i ziół w oleju (głównie wyroby domowe) występowały: papryka, czosnek, grzyby i bakłażan.",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 336, Abstract",
+    "cytat": "foods include peppers, garlic, mushrooms, and eggplant.",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "OLE-025",
+  "twierdzenie": "We Włoszech w 1993 r. dwa zdarzenia jadu kiełbasianego wywołał domowy bakłażan w oleju.",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 337",
+    "cytat": "to contaminated home-prepared eggplant",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "OLE-026",
+  "twierdzenie": "Przypadki jadu kiełbasianego wiązano z domowymi grzybami zalanymi olejem (m.in. dwa przypadki w Wielkiej Brytanii).",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 337",
+    "cytat": "home-prepared mushrooms covered in oil",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "OLE-027",
+  "twierdzenie": "Wygląd, zapach ani smak nie pozwalają wykryć zagrożenia jadem kiełbasianym w warzywach w oleju.",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 336, Abstract",
+    "cytat": "other organoleptic clues do not provide adequate information to",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "OLE-028",
+  "twierdzenie": "Dla domowych warzyw i ziół w oleju nie ma zwalidowanych procesów (przepisy FDA 21 CFR 114 dotyczą tylko przetwórców komercyjnych; USA).",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 336, Introduction",
+    "cytat": "but there are no validated processes for",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "OLE-029",
+  "twierdzenie": "Najbezpieczniejsze zalecenie dla warzyw i ziół w oleju to zamrożenie; jeśli produkt nie jest zamrożony, trzymać w lodówce i zjeść w ciągu 4 dni albo wyrzucić.",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 336, Abstract",
+    "cytat": "acidifying as alternatives.The safest recommendation is to freeze",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   },
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 336, Abstract",
+    "cytat": "should be refrigerated and then either consumed within four days",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas przechowywania w lodówce",
+  "wartosc": 4,
+  "jednostka": "dni"
+ },
+ {
+  "id": "OLE-030",
+  "twierdzenie": "Lodówka sama w sobie nie jest w USA wiarygodną barierą: w badaniu 939 lodówek domowych 27,4% miało temperaturę powyżej 5°C.",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 340",
+    "cytat": "not be a reliable hurdle in the U.S. The",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "OLE-031",
+  "twierdzenie": "Bariery czas–temperatura dla żywności o obniżonej zawartości tlenu bez dodatkowych barier: od 4 do 10 dni przy 3–10°C (3–5°C: poniżej 10 dni; 5–10°C: poniżej 4 dni).",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 339, Preservation hurdles; Table 3",
+    "cytat": "These range from 4 to 10 days for tem-",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "OLE-032",
+  "twierdzenie": "Szczepy proteolityczne (grupa I) są hamowane przy pH 4,6 lub niższym i soli powyżej 10% w fazie wodnej; nieproteolityczne (grupa II, rosną w lodówce do ok. 3,3°C) przy pH 5,0 lub niższym i soli powyżej 5%.",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 337, Group I",
+    "cytat": "by acid (pH ≤ 4.6) and salt concentra-",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   },
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 337, Group II",
+    "cytat": "hibited by acid (pH ≤ 5.0) and salt",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "OLE-033",
+  "twierdzenie": "Bariery solne i aktywności wody (poza suszeniem) nie są stosowane jako domowe zabezpieczenie i nie są zalecane konsumentom.",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 341, Multiple hurdles",
+    "cytat": "and would not be recommended. Salted",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "OLE-034",
+  "twierdzenie": "Brak badań wskazujących, że dodanie ziół lub warzyw do masła daje produkt bezpieczny w temperaturze pokojowej lub w lodówce.",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 341",
+    "cytat": "no research-based information for con-",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "OLE-035",
+  "twierdzenie": "FDA w biuletynie z 1993 r. ostrzegała przed domowym przygotowywaniem przypraw w oleju, margarynie lub maśle do dłuższego przechowywania (USA).",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 337, Recommendations",
+    "cytat": "margarine or butter for extended stor-",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "OLE-036",
+  "twierdzenie": "USDA Complete Guide zawiera tylko 3 przetestowane procedury warzyw z olejem: marynowana papryka, marynowane całe pieczarki i marynowana sałatka z trzech fasol; wszystkie z kwasem.",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 337",
+    "cytat": "for marinated whole mushrooms (35)",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "OLE-037",
+  "twierdzenie": "Suszenie zagęszcza kwasy pomidora (pH ok. 4,0); suszone pomidory w oleju uznaje się za niskie ryzyko pod warunkiem dostatecznego usunięcia wilgoci (CSIRO, cytowane przez Nummer 2011).",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 340, Acidification",
+    "cytat": "acidic food with a pH of approximately",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   },
+   {
+    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+    "miejsce": "s. 340, Acidification",
+    "cytat": "are considered low risk as long as suffi-",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "a10afa7dac92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Twierdzenie wtórne (Nummer cytuje CSIRO); brak przetestowanego przepisu domowego.",
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "OLE-038",
+  "twierdzenie": "NCHFP Marinated Peppers: papryka obrana z opalonej skórki zalewana gorącą mieszanką 1 szklanki butelkowanego soku z cytryny, 2 szklanek octu 5% i 1 szklanki oliwy; kąpiel wodna 15 min (półlitrowe i mniejsze, 0–1000 ft).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-peppers/",
+    "miejsce": "Ingredients; Table 1",
+    "cytat": "1 cup bottled lemon juice 2 cups white vinegar (5 percent) 1 tbsp oregano leaves 1 cup olive or salad oil",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "75a36ba2b40f"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-peppers/",
+    "miejsce": "Table 1",
+    "cytat": "Raw Half-pints and pints 15 min 20 20 25",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "75a36ba2b40f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (0–1000 ft)",
+  "wartosc": 15,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-039",
+  "twierdzenie": "NCHFP Marinated Whole Mushrooms: bardzo świeże, zamknięte pieczarki o kapeluszach poniżej 1-1/4 cala (ok. 3 cm), blanszowane 5 min z sokiem z cytryny, zalane gorącą mieszanką oliwy i octu 5%; kąpiel wodna 20 min (słoiki 0,25 l, 0–1000 ft).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-whole-mushrooms/",
+    "miejsce": "Procedure",
+    "cytat": "Select very fresh unopened mushrooms with caps less than 1-1/4 inch in diameter.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e5048b66582b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-whole-mushrooms/",
+    "miejsce": "Table 1",
+    "cytat": "Hot Half-pints 20 min 25 30 35",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e5048b66582b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (0–1000 ft)",
+  "wartosc": 20,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-040",
+  "twierdzenie": "NCHFP: nie wekować grzybów dziko rosnących.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mushrooms-whole-or-sliced/",
+    "miejsce": "Mushrooms Whole or Sliced, Caution",
+    "cytat": "Do not can wild mushrooms.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1f808143a32c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-041",
+  "twierdzenie": "Grzyby można zamrozić po krótkim podsmażeniu na tłuszczu na patelni (lub po blanszowaniu parą).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-mushrooms/",
+    "miejsce": "Freezing Mushrooms",
+    "cytat": "Mushrooms can be steamed or heated in fat in a fry pan.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "616a728226ff"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-042",
+  "twierdzenie": "Pesto to surowa mieszanka przyprawowa, zwykle ze świeżej bazylii, czosnku, orzeszków piniowych i oleju.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-pesto/",
+    "miejsce": "Freezing Pesto",
+    "cytat": "Pesto is an uncooked seasoning mixture that usually includes fresh basil, garlic, pine nuts and oil.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8bc5715f94f1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-043",
+  "twierdzenie": "Pesto przygotować na świeżo i trzymać w lodówce nie dłużej niż 3 dni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-pesto/",
+    "miejsce": "Freezing Pesto",
+    "cytat": "It should be made fresh and stored in the refrigerator no more than 3 days.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8bc5715f94f1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas przechowywania pesto w lodówce",
+  "wartosc": 3,
+  "jednostka": "dni",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-044",
+  "twierdzenie": "Pesto można zamrozić do długiego przechowywania (słoiki/pojemniki do mrożenia, 1/2 cala, ok. 1,3 cm, wolnej przestrzeni).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-pesto/",
+    "miejsce": "Freezing Pesto",
+    "cytat": "It may be frozen for long term storage.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8bc5715f94f1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-045",
+  "twierdzenie": "Mrozić tylko masło dobrej jakości z pasteryzowanej śmietanki; zalecany czas w zamrażarce 6–9 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-butter/",
+    "miejsce": "Freezing Butter",
+    "cytat": "Freeze only high quality butter made from pasteurized cream.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "efb3c70c962e"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-butter/",
+    "miejsce": "Freezing Butter",
+    "cytat": "Recommended freezer shelf life: 6 to 9 months",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "efb3c70c962e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "czas w zamrażarce (masło)",
+  "wartosc": 9,
+  "jednostka": "miesiące",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-046",
+  "twierdzenie": "ANSES (Francja): wśród żywności najczęściej wywołującej jad kiełbasiany są konserwy warzywne (m.in. papryka, oliwki po grecku, tapenada) i mięsne (terriny, pasztety), zwykle domowe lub rzemieślnicze.",
+  "zrodla": [
+   {
+    "adres": "https://www.anses.fr/en/content/botulism-how-can-you-prevent-it",
+    "miejsce": "What foods are involved?",
+    "cytat": "canned vegetables (asparagus, green beans, carrots and carrot juice, peppers, Greek-style olives, pumpkin, tapenade, etc.), meat (terrine, pâté)",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "61d7acfcccf6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-047",
+  "twierdzenie": "ANSES: dla produktów gotowanych, ale niesterylizowanych (np. pasztet, dania gotowe) utrzymanie łańcucha chłodniczego jest niezbędne.",
+  "zrodla": [
+   {
+    "adres": "https://www.anses.fr/en/content/botulism-how-can-you-prevent-it",
+    "miejsce": "How can you prevent it?",
+    "cytat": "Compliance with the cold chain is essential for cooked but non-sterilised products that need to be kept cold: ready-to-eat meals, pâté, etc.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "61d7acfcccf6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-048",
+  "twierdzenie": "Gotowanie (100°C) nie wystarcza do sterylizacji: przetrwalniki C. botulinum są odporne na wrzącą wodę.",
+  "zrodla": [
+   {
+    "adres": "https://www.anses.fr/en/content/botulism-how-can-you-prevent-it",
+    "miejsce": "How can you prevent it?",
+    "cytat": "Note that boiling is not sufficient to sterilise food, as Clostridium botulinum spores are resistant even to boiling water.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "61d7acfcccf6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "OLE-049",
+  "twierdzenie": "We Francji (wrzesień 2011) dwa rodzinne ogniska jadu kiełbasianego (toksyna typu A) wywołała pasta z zielonych oliwek od rzemieślniczego producenta z niewłaściwą sterylizacją.",
+  "zrodla": [
+   {
+    "adres": "https://www.eurosurveillance.org/content/10.2807/ese.16.49.20035-en",
+    "miejsce": "Abstract",
+    "cytat": "The source of infection was considered to be a ground green olive paste.",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "c5da3e998881"
+   },
+   {
+    "adres": "https://www.eurosurveillance.org/content/10.2807/ese.16.49.20035-en",
+    "miejsce": "Abstract",
+    "cytat": "Incorrect sterilisation techniques were observed at the artisanal producer's workshop.",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "c5da3e998881"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "OLE-050",
+  "twierdzenie": "NCHFP Tuna: tuńczyka można zalać wodą lub olejem i wekować w szybkowarze (autoklaw) wg tabeli NCHFP.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/tuna/",
+    "miejsce": "Tuna, Procedure",
+    "cytat": "Tuna may be packed in water or oil, whichever is preferred.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "af20485dc9a6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ }
+]

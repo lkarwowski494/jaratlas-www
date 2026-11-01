@@ -1,0 +1,146 @@
+[
+ {
+  "id": "dairy-cheese",
+  "thresholds": [
+   {
+    "wielkosc": "temperatura pasteryzacji mleka (metoda długa)",
+    "wartosc": 63,
+    "jednostka": "°C",
+    "granica": ">=",
+    "claim": "MLE-007"
+   },
+   {
+    "wielkosc": "czas pasteryzacji w 63 °C",
+    "wartosc": 30,
+    "jednostka": "min",
+    "granica": ">=",
+    "claim": "MLE-009"
+   },
+   {
+    "wielkosc": "temperatura pasteryzacji mleka (metoda krótka)",
+    "wartosc": 72,
+    "jednostka": "°C",
+    "granica": ">=",
+    "claim": "MLE-010"
+   },
+   {
+    "wielkosc": "czas pasteryzacji w 72 °C",
+    "wartosc": 15,
+    "jednostka": "s",
+    "granica": ">=",
+    "claim": "MLE-010"
+   },
+   {
+    "wielkosc": "podwyższenie temperatury pasteryzacji dla produktów z ≥10% tłuszczu lub słodzonych",
+    "wartosc": 3,
+    "jednostka": "°C",
+    "granica": ">=",
+    "claim": "MLE-008"
+   },
+   {
+    "wielkosc": "pH mlecznego produktu fermentowanego",
+    "wartosc": 4.6,
+    "jednostka": "pH",
+    "granica": "<=",
+    "claim": "MLE-021"
+   },
+   {
+    "wielkosc": "czas dojścia do pH 4,6",
+    "wartosc": 48,
+    "jednostka": "h",
+    "granica": "<=",
+    "claim": "MLE-021"
+   },
+   {
+    "wielkosc": "temperatura przechowywania jogurtu i serów świeżych",
+    "wartosc": 4.4,
+    "jednostka": "°C",
+    "granica": "<=",
+    "claim": "MLE-027"
+   },
+   {
+    "wielkosc": "trwałość jogurtu domowego w lodówce",
+    "wartosc": 14,
+    "jednostka": "dni",
+    "granica": "<=",
+    "claim": "MLE-028"
+   },
+   {
+    "wielkosc": "trwałość sera miękkiego (>45% wody) w lodówce",
+    "wartosc": 7,
+    "jednostka": "dni",
+    "granica": "<=",
+    "claim": "MLE-050"
+   },
+   {
+    "wielkosc": "trwałość queso fresco, mozzarelli, ricotty domowej w lodówce",
+    "wartosc": 7,
+    "jednostka": "dni",
+    "granica": "<=",
+    "claim": "MLE-052"
+   },
+   {
+    "wielkosc": "przechowywanie ziół/warzyw w oleju (dodatki do sera w oleju) w lodówce",
+    "wartosc": 4,
+    "jednostka": "dni",
+    "granica": "<=",
+    "claim": "MLE-061"
+   },
+   {
+    "wielkosc": "temperatura wewnętrzna przy podgrzewaniu sera świeżego dla grup ryzyka",
+    "wartosc": 74,
+    "jednostka": "°C",
+    "granica": ">=",
+    "claim": "MLE-048"
+   },
+   {
+    "wielkosc": "minimalny czas dojrzewania sera z mleka surowego (USA, wymóg prawny, nie gwarancja bezpieczeństwa)",
+    "wartosc": 60,
+    "jednostka": "dni",
+    "granica": ">=",
+    "claim": "MLE-037"
+   },
+   {
+    "wielkosc": "temperatura i czas inkubacji kefiru z ziaren",
+    "wartosc": null,
+    "pytanie": "Brak przetestowanego przepisu szczebla 1–3; tylko reguła pH 4,6 w 48 h."
+   },
+   {
+    "wielkosc": "aktywność wody / wilgotność dla suszonych produktów mlecznych (kurt, kashk)",
+    "wartosc": null,
+    "pytanie": "Brak źródła; poszukać w literaturze recenzowanej lub normach krajowych (Iran, Kazachstan)."
+   },
+   {
+    "wielkosc": "bezpieczna trwałość ghee w temperaturze pokojowej (dom)",
+    "wartosc": null,
+    "pytanie": "Jedynie przykładowy plan gastronomiczny BC FOODSAFE (3 miesiące); brak źródła domowego."
+   }
+  ],
+  "regulyZakazu": [
+   {
+    "opis": "Nie publikować instrukcji wyrobu z mleka surowego bez pasteryzacji (lub z pasteryzacją poniżej 63 °C/30 min); karta może tylko ostrzegać i kierować do pasteryzacji.",
+    "claim": "MLE-004"
+   },
+   {
+    "opis": "Nie podawać pasteryzacji w kuchence mikrofalowej jako metody domowej.",
+    "claim": "MLE-013"
+   },
+   {
+    "opis": "Nie przedstawiać 60 dni dojrzewania jako sposobu na bezpieczny ser z mleka surowego.",
+    "claim": "MLE-039"
+   },
+   {
+    "opis": "Nie publikować przechowywania sera (zwłaszcza z ziołami, czosnkiem, warzywami) w oleju w temperaturze pokojowej ani długo w lodówce.",
+    "claim": "MLE-062"
+   },
+   {
+    "opis": "Każda karta sera świeżego i miękkiego dojrzewającego ma ostrzeżenie dla kobiet w ciąży, dzieci, osób starszych i z obniżoną odpornością.",
+    "claim": "MLE-046"
+   },
+   {
+    "opis": "Fermentowane produkty mleczne nie są trwałe w temperaturze pokojowej: po fermentacji lodówka.",
+    "claim": "MLE-022"
+   }
+  ]
+ }
+]

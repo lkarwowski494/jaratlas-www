@@ -1,0 +1,3083 @@
+[
+ {
+  "id": "cucumber-v12",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pikle octowe, obszar ACI (NCHFP ma przepis Bread-and-Butter Pickles, do sprawdzenia przez ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "white-cabbage-v08",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sok z kiszenia kapusty, obszar FER.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "brussels-kohlrabi-v08",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Marynata octowa, obszar ACI.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "zucchini-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-047",
+   "SLO-106"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/zucchini-pineapple/",
+    "tytul": "NCHFP: Zucchini-Pineapple",
+    "sha12": "ad1f13eaeda3",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Cukinia „a la ananas”: bezpośredni odpowiednik Zucchini-Pineapple (NCHFP) – cukinia w soku ananasowym z butelkowanym sokiem z cytryny. Tylko według tego przepisu; wersje z octem/kwaskiem bez proporcji z przepisu nie są objęte.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "zucchini-v13",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-047",
+   "SLO-023"
+  ],
+  "sources": [],
+  "uwagi": "Cukinia jest warzywem niskokwasowym, a zalecenia jej wekowania wycofano; brak przetestowanego dżemu z cukinią. Jedyny przetestowany przetwór słodki z cukinią to zucchini-pineapple (inny produkt)."
+ },
+ {
+  "id": "pattypan-squash-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-047",
+   "SLO-023",
+   "SLO-069"
+  ],
+  "sources": [],
+  "uwagi": "Patison (dynia letnia) jest niskokwasowy; brak przetestowanego przepisu na owoce kandyzowane w syropie. Karta: tylko ostrzeżenie."
+ },
+ {
+  "id": "pumpkin-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "freezer",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-044",
+   "SLO-045",
+   "SLO-046",
+   "SLO-034"
+  ],
+  "sources": [],
+  "uwagi": "Dżem z dyni to zmiksowana/rozgotowana dynia z cukrem; NCHFP nie ma procesu dla takich produktów i odradza wekowanie rozgniecionej dyni. Alternatywa: lodówka krótko lub zamrażarka."
+ },
+ {
+  "id": "pumpkin-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "freezer",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SLO-044",
+   "SLO-045",
+   "SLO-046",
+   "SLO-034"
+  ],
+  "sources": [],
+  "uwagi": "NCHFP wprost: brak procesu wekowania masła dyniowego; zrobić na świeżo do lodówki albo zamrozić. Karta wyjaśnia, dlaczego nie wekować (jad kiełbasiany, gęstość, aktywność wody)."
+ },
+ {
+  "id": "pumpkin-v12",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-044",
+   "SLO-045"
+  ],
+  "sources": [],
+  "uwagi": "Syrop korzenny: jeśli zawiera puree dyniowe, obowiązuje reguła masła dyniowego (nie wekować). Sam syrop cukrowy z przyprawami: brak przetestowanego przepisu."
+ },
+ {
+  "id": "pumpkin-v14",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-069",
+   "SLO-045"
+  ],
+  "sources": [],
+  "uwagi": "Dynia kandyzowana: przechowywanie według reguły owoców kandyzowanych (lodówka do tygodnia albo całkowite dosuszenie). Przechowywanie w syropie w temp. pokojowej: brak źródła, dynia niskokwasowa."
+ },
+ {
+  "id": "tomato-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sok pomidorowy wymaga zakwaszenia według przepisu NCHFP; obszar SZY/ACI.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "green-cherry-tomato-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Przepisy NCHFP z pomidorami (Tomato Jam, Tomato Marmalade) dotyczą dojrzałych pomidorów i mają ustalony dodatek kwasu."
+ },
+ {
+  "id": "green-cherry-tomato-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Jak wyżej; wanilia to dodatek poza przepisem."
+ },
+ {
+  "id": "bell-pepper-v15",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-079"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Najbliższy przetestowany: Golden Pepper Jelly (galaretka z octem 5%), nie dżem."
+ },
+ {
+  "id": "chili-pepper-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Cowboy candy to marynata octowo-cukrowa (ACI). Pepper jelly NCHFP nie jest odpowiednikiem.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "chili-pepper-v12",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Najbliższy przetestowany: Golden Pepper Jelly / Mayhaw-Pepper Jelly (galaretki z octem), nie dżem."
+ },
+ {
+  "id": "chili-pepper-v13",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-001",
+   "SLO-003",
+   "SLO-012",
+   "SLO-018",
+   "SLO-079",
+   "SLO-080"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+    "tytul": "NCHFP: Golden Pepper Jelly",
+    "sha12": "a1ad8180c9ea",
+    "szczebel": 1
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/mayhaw-pepper-jelly-pectin/",
+    "tytul": "NCHFP: Mayhaw-Pepper Jelly Pectin",
+    "sha12": "a13531d5a7a2",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Pepper jelly: przetestowane przepisy NCHFP; tylko z octem 5% i proporcjami z przepisu."
+ },
+ {
+  "id": "chili-pepper-v14",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-037",
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Niskokwasowe warzywo zanurzone w miodzie: ryzyko jak w czosnku w miodzie (K-State), brak przetestowanej procedury. Analogia do czosnku, nie źródło bezpośrednie. Miód: nie dla niemowląt."
+ },
+ {
+  "id": "potato-sunchoke-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-023"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Topinambur jest warzywem; syrop redukowany bez danych o pH i aktywności wody."
+ },
+ {
+  "id": "tomatillo-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Miechunka peruwiańska (Physalis peruviana): brak danych o pH w przeczytanych źródłach."
+ },
+ {
+  "id": "tomatillo-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "peas-chickpeas-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Hummus to pasta niskokwasowa; poza obszarem słodkich przetworów.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "beetroot-v13",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-032",
+   "SLO-023"
+  ],
+  "sources": [],
+  "uwagi": "Burak jest niskokwasowy; brak przetestowanego dżemu/konfitury z buraka. Dodatek wina nie jest ustaloną dawką kwasu."
+ },
+ {
+  "id": "carrot-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-031",
+   "SLO-023"
+  ],
+  "sources": [],
+  "uwagi": "Marchew jest niskokwasowa; brak przetestowanego dżemu marchewkowego. Pomarańcza nie jest ustaloną dawką kwasu."
+ },
+ {
+  "id": "carrot-v12",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-031",
+   "SLO-023",
+   "SLO-069"
+  ],
+  "sources": [],
+  "uwagi": "Marchew kandyzowana w syropie: produkt niskokwasowy w syropie, brak przetestowanego przepisu."
+ },
+ {
+  "id": "garlic-v03",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-037",
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Czosnek fermentowany w surowym miodzie: K-State wskazuje ryzyko botulizmu i nieznane pH/aktywność wody. Karta tylko jako ostrzeżenie; miód nie dla niemowląt."
+ },
+ {
+  "id": "onion-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-033",
+   "SLO-023"
+  ],
+  "sources": [],
+  "uwagi": "Cebula jest niskokwasowa; brak przetestowanego przepisu na konfiturę cebulową. Wino i ocet w przepisach domowych nie mają ustalonej dawki."
+ },
+ {
+  "id": "onion-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-033",
+   "SLO-023"
+  ],
+  "sources": [],
+  "uwagi": "Jak onion-v07."
+ },
+ {
+  "id": "onion-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-033",
+   "SLO-037",
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Surowa cebula w miodzie/cukrze: niskokwasowe warzywo w miodzie, ryzyko jak dla czosnku w miodzie (analogia). Miód nie dla niemowląt."
+ },
+ {
+  "id": "shallot-pearl-onion-v08",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-023",
+   "SLO-033"
+  ],
+  "sources": [],
+  "uwagi": "Cebulka w winie: produkt niskokwasowy, obszar ACI.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "shallot-pearl-onion-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-033",
+   "SLO-023"
+  ],
+  "sources": [],
+  "uwagi": "Konfitura z czerwonej cebuli z żurawiną: cebula niskokwasowa, żurawina nie jest przetestowaną dawką kwasu."
+ },
+ {
+  "id": "daikon-black-radish-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-037",
+   "SLO-036",
+   "SLO-023"
+  ],
+  "sources": [],
+  "uwagi": "Surowa rzodkiew w miodzie: niskokwasowe warzywo w miodzie (analogia do czosnku w miodzie). Miód nie dla niemowląt."
+ },
+ {
+  "id": "horseradish-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Chrzan w occie z miodem, obszar ACI; miód: ostrzeżenie dla niemowląt.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "celeriac-celery-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-023"
+  ],
+  "sources": [],
+  "uwagi": "Sok z selera to produkt niskokwasowy; obszar SZY.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "fennel-artichoke-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-023"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Fenkuł: brak pH w przeczytanych źródłach, prawdopodobnie niskokwasowy; traktować ostrożnie."
+ },
+ {
+  "id": "corn-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-001",
+   "SLO-003",
+   "SLO-012",
+   "SLO-018",
+   "SLO-035",
+   "SLO-081"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/corncob-jelly-with-pectin/",
+    "tytul": "NCHFP: Corncob Jelly with Pectin",
+    "sha12": "4c9934be4187",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Corncob Jelly NCHFP: bezpośredni odpowiednik (galaretka z wywaru z kolb, pektyna). Uwaga: przepis używa kolb czerwonej kukurydzy pastewnej; kukurydza sama w sobie jest niskokwasowa, więc tylko według przepisu."
+ },
+ {
+  "id": "ginger-turmeric-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-069"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Przechowywanie według reguły owoców kandyzowanych."
+ },
+ {
+  "id": "ginger-turmeric-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-036",
+   "SLO-037"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Imbir z cytryną w miodzie: nieznane pH mieszaniny; miód nie dla niemowląt."
+ },
+ {
+  "id": "ginger-turmeric-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "ginger-turmeric-v13",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "apple-v05",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kiszony mus jabłkowy, obszar FER.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "apple-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-048",
+   "SLO-092"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/applesauce/",
+    "tytul": "NCHFP: Applesauce",
+    "sha12": "7ecbba6cb5db",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Applesauce NCHFP; świeże jabłka (zastrzeżenie NCHFP o pH starych jabłek).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "apple-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-048",
+   "SLO-012",
+   "SLO-018",
+   "SLO-087",
+   "SLO-088"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-butter/",
+    "tytul": "NCHFP: Apple Butter",
+    "sha12": "29aee132f8d9",
+    "szczebel": 1
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-butter-reduced-sugar/",
+    "tytul": "NCHFP: Apple Butter, Reduced Sugar",
+    "sha12": "7907dfdca105",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Apple Butter NCHFP (z octem i cukrem) oraz wersja o obniżonej zawartości cukru (dłuższy czas). Świeże jabłka."
+ },
+ {
+  "id": "apple-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-048"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Najbliższy: Apple Jelly without Pectin (sok z całych jabłek), nie z samych ogryzków."
+ },
+ {
+  "id": "apple-v12",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Mint Jelly i Apple Jelly osobno, nie dżem jabłkowo-miętowy."
+ },
+ {
+  "id": "apple-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-048",
+   "SLO-096"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apples-sliced/",
+    "tytul": "NCHFP: Apples-Sliced",
+    "sha12": "54dc5e070982",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Kompot = jabłka w lekkim syropie według Apples-Sliced (NCHFP).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "apple-v15",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-048",
+   "SLO-096"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apples-sliced/",
+    "tytul": "NCHFP: Apples-Sliced",
+    "sha12": "54dc5e070982",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Apples-Sliced NCHFP (ćwiartki/plastry w syropie); połówki nie są opisane wprost, do sprawdzenia przy pisaniu karty.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "apple-v16",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-048",
+   "SLO-050",
+   "SLO-090"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-juice/",
+    "tytul": "NCHFP: Apple Juice",
+    "sha12": "4ca1170f95ac",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Apple Juice NCHFP (5 min dla pint i quart do 1000 stóp).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "pear-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-099"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy przetestowany: Pears-Halved (NCHFP); wanilia to dodatek poza przepisem.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "pear-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Pear Preserves (konfitura w syropie), nie dżem z przyprawami."
+ },
+ {
+  "id": "pear-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Dodatek czekolady/kakao zmienia skład; brak źródła."
+ },
+ {
+  "id": "pear-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-099"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pears-halved/",
+    "tytul": "NCHFP: Pears-Halved",
+    "sha12": "9e866e44d160",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Kompot gruszkowy = gruszki połówki w lekkim syropie (NCHFP).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "pear-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Suszenie, obszar SUS.",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "quince-v03",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-020"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Syrop z surowych owoców pigwowca zasypanych cukrem: reguła przetworów niegotowanych (lodówka/zamrażarka)."
+ },
+ {
+  "id": "quince-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "quince-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Ser pigwowy (membrillo): brak źródła szczebla 1-3."
+ },
+ {
+  "id": "quince-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-001",
+   "SLO-003",
+   "SLO-012",
+   "SLO-018",
+   "SLO-083"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/quince-jelly-without-pectin/",
+    "tytul": "NCHFP: Quince Jelly without Pectin",
+    "sha12": "29118226924d",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Quince Jelly without Pectin (NCHFP), z sokiem z cytryny."
+ },
+ {
+  "id": "quince-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "quince-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Orzechy (składnik niskokwasowy) poza przepisem."
+ },
+ {
+  "id": "quince-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt."
+ },
+ {
+  "id": "quince-v12",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-069"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "plum-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-021",
+   "SLO-001"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu na powidła bez cukru. Tradycyjne zakręcanie na gorąco bez wekowania (open kettle) NCHFP odradza."
+ },
+ {
+  "id": "plum-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Czekolada/kakao poza przepisem."
+ },
+ {
+  "id": "plum-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-100"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy: Plums-Halved or Whole (NCHFP); rum to dodatek poza przepisem.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "plum-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-100"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/plums-halved-or-whole/",
+    "tytul": "NCHFP: Plums-Halved or Whole",
+    "sha12": "e411d79482b0",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Kompot śliwkowy = śliwki w syropie (NCHFP).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "plum-v14",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-001",
+   "SLO-003",
+   "SLO-012",
+   "SLO-018",
+   "SLO-076"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/plum-jam-pectin/",
+    "tytul": "NCHFP: Plum Jam Pectin",
+    "sha12": "1a257f49f618",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Renkloda to odmiana śliwy domowej; Plum Jam (NCHFP) jako odpowiednik. Opisać odpowiedniość na karcie."
+ },
+ {
+  "id": "plum-v18",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Wędzenie/suszenie śliwek, obszar SUS.",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "mirabelle-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-001",
+   "SLO-003",
+   "SLO-012",
+   "SLO-018",
+   "SLO-076"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/plum-jam-pectin/",
+    "tytul": "NCHFP: Plum Jam Pectin",
+    "sha12": "1a257f49f618",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Mirabelka to podgatunek śliwy domowej; Plum Jam (NCHFP) jako odpowiednik, przecieranie bez pestek jak w przepisie na owoce rozgniecione."
+ },
+ {
+  "id": "mirabelle-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-100"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/plums-halved-or-whole/",
+    "tytul": "NCHFP: Plums-Halved or Whole",
+    "sha12": "e411d79482b0",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Mirabelki całe w syropie według Plums-Halved or Whole (NCHFP).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "mirabelle-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Najbliższy: Plum Preserves (NCHFP) dla kwaśnych śliwek; mirabelki są słodsze, odpowiedniość niepewna."
+ },
+ {
+  "id": "sour-cherry-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Fermentacja owoców w miodzie: brak źródła; miód nie dla niemowląt."
+ },
+ {
+  "id": "sour-cherry-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Cherry Jam, nie konfiturę z całych wiśni."
+ },
+ {
+  "id": "sour-cherry-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-001",
+   "SLO-003",
+   "SLO-012",
+   "SLO-018",
+   "SLO-073"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/cherry-jam-pectin/",
+    "tytul": "NCHFP: Cherry Jam Pectin",
+    "sha12": "a8e6bb18f7cd",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Cherry Jam Pectin (NCHFP) na wiśniach (sour cherries)."
+ },
+ {
+  "id": "sour-cherry-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-049",
+   "SLO-089"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+    "tytul": "NCHFP: Berry Syrup",
+    "sha12": "decab6570676",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Berry Syrup NCHFP obejmuje wiśnie/czereśnie (cherries)."
+ },
+ {
+  "id": "sour-cherry-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-095"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "tytul": "NCHFP: Cherries-Whole",
+    "sha12": "74cc552d518e",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Kompot = wiśnie całe w syropie (NCHFP).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "sour-cherry-v12",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Domowe wiśnie maraschino: brak źródła."
+ },
+ {
+  "id": "sour-cherry-v13",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Owoce w alkoholu: nie znaleziono przetestowanego przepisu szczebla 1-3."
+ },
+ {
+  "id": "sour-cherry-v16",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-069"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "sweet-cherry-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "sweet-cherry-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-095"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy: Cherries-Whole (NCHFP); wanilia to dodatek poza przepisem.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "sweet-cherry-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-095"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "tytul": "NCHFP: Cherries-Whole",
+    "sha12": "74cc552d518e",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Kompot = czereśnie całe w syropie (NCHFP).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "sweet-cherry-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. NCHFP ma osobno Cherry Jam i Strawberry Jam."
+ },
+ {
+  "id": "sweet-cherry-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-095"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy: Cherries-Whole; amaretto (alkohol) poza przepisem.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "sweet-cherry-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-069"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "peach-nectarine-v06",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-098"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "tytul": "NCHFP: Peaches-Halved or Sliced",
+    "sha12": "245688b4abb6",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Peaches-Halved or Sliced (NCHFP).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "peach-nectarine-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-001",
+   "SLO-003",
+   "SLO-012",
+   "SLO-018",
+   "SLO-074"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+    "tytul": "NCHFP: Peach Jam Pectin",
+    "sha12": "e333c6c0d053",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Peach Jam Pectin (NCHFP)."
+ },
+ {
+  "id": "peach-nectarine-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Apple Butter; masła brzoskwiniowego nie znaleziono."
+ },
+ {
+  "id": "peach-nectarine-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-098"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy: Peaches-Halved; alkohol poza przepisem.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "peach-nectarine-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Lawenda poza przepisem."
+ },
+ {
+  "id": "peach-nectarine-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-059",
+   "SLO-036",
+   "SLO-093"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/canning-fruit-based-baby-foods/",
+    "tytul": "NCHFP: Canning Fruit-based Baby Foods",
+    "sha12": "8abe3dddad1d",
+    "szczebel": 1
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/fruit-purees/",
+    "tytul": "NCHFP: Fruit Pureés",
+    "sha12": "ba7574ae4aa4",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Przetwory owocowe dla niemowląt (NCHFP): słoiki 1/2 pinty lub pinty, 20 min. Bez miodu.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "peach-nectarine-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-098"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "tytul": "NCHFP: Peaches-Halved or Sliced",
+    "sha12": "245688b4abb6",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Kompot = brzoskwinie w lekkim syropie (NCHFP).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "apricot-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-001",
+   "SLO-003",
+   "SLO-012",
+   "SLO-018",
+   "SLO-075"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/apricot-jam-without-pectin/",
+    "tytul": "NCHFP: Apricot Jam without Pectin",
+    "sha12": "4b2a9b654d52",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Apricot Jam without Pectin (NCHFP)."
+ },
+ {
+  "id": "apricot-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-070"
+  ],
+  "sources": [],
+  "uwagi": "Dodatek pestek (jąder) moreli: amigdalina, cyjanek; EFSA: 0,37 g surowych pestek dla dorosłego, 0,06 g dla małego dziecka. Brak danych o redukcji w dżemie. Dżem bez pestek: Apricot Jam (NCHFP)."
+ },
+ {
+  "id": "apricot-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-097"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "tytul": "NCHFP: Apricots-Halved or Sliced",
+    "sha12": "e5c5c57c8540",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Apricots-Halved or Sliced (NCHFP).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "apricot-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-097"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "tytul": "NCHFP: Apricots-Halved or Sliced",
+    "sha12": "e5c5c57c8540",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Kompot = morele w syropie (NCHFP).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "apricot-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Owoce w alkoholu: brak przetestowanego przepisu."
+ },
+ {
+  "id": "cornelian-cherry-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "freezer",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-020"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Ucierane na surowo z cukrem: reguła przetworów niegotowanych (lodówka do 3 tygodni albo zamrażarka)."
+ },
+ {
+  "id": "cornelian-cherry-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "cornelian-cherry-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-049"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Dereń nie jest na liście Berry Syrup NCHFP."
+ },
+ {
+  "id": "cornelian-cherry-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Dereń nie ma przepisu NCHFP na owoce w syropie.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "strawberry-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-001",
+   "SLO-003",
+   "SLO-012",
+   "SLO-018",
+   "SLO-006",
+   "SLO-072"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/strawberry-jam-pectin/",
+    "tytul": "NCHFP: Strawberry Jam Pectin",
+    "sha12": "3f7859872f4a",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Strawberry Jam Pectin (NCHFP). Wersja niskosłodzona tylko z pektyną modyfikowaną według instrukcji producenta (dłuższy czas)."
+ },
+ {
+  "id": "strawberry-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-001",
+   "SLO-003",
+   "SLO-012",
+   "SLO-018",
+   "SLO-085"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/strawberry-preserves/",
+    "tytul": "NCHFP: Strawberry Preserves",
+    "sha12": "a996ae796fe2",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Strawberry Preserves (NCHFP) jako odpowiednik konfitury z całych owoców."
+ },
+ {
+  "id": "strawberry-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-020",
+   "SLO-049"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Syrop zasypowy (na surowo): reguła przetworów niegotowanych. Wersja gotowana: Berry Syrup NCHFP (truskawki na liście)."
+ },
+ {
+  "id": "strawberry-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-055"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Truskawek nie ma na liście owoców jagodowych NCHFP do wekowania w całości.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "strawberry-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Prosecco poza przepisem."
+ },
+ {
+  "id": "strawberry-v12",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. NCHFP ma tylko Strawberry-Rhubarb Jelly (galaretka), nie dżem."
+ },
+ {
+  "id": "strawberry-v13",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-085"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy: Strawberry Preserves (NCHFP); poziomka to inny gatunek (Fragaria vesca)."
+ },
+ {
+  "id": "strawberry-v14",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-054",
+   "SLO-093"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/fruit-purees/",
+    "tytul": "NCHFP: Fruit Pureés",
+    "sha12": "ba7574ae4aa4",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Fruit Purees (NCHFP); truskawki nie są na liście wykluczeń.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "raspberry-blackberry-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-049",
+   "SLO-089"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+    "tytul": "NCHFP: Berry Syrup",
+    "sha12": "decab6570676",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Berry Syrup NCHFP (maliny na liście)."
+ },
+ {
+  "id": "raspberry-blackberry-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-051",
+   "SLO-052",
+   "SLO-053",
+   "SLO-050",
+   "SLO-108"
+  ],
+  "sources": [
+   {
+    "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
+    "tytul": "UCCE Master Food Preservers of El Dorado County, Steam Juicing Basics (IV 2026)",
+    "sha12": "13f9aec2f85b",
+    "szczebel": 3
+   }
+  ],
+  "uwagi": "Sok z sokownika: procedura UC dla kwaśnych soków (owoce jagodowe) z wekowaniem; nie przechowywać „na gorąco” bez wekowania.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "raspberry-blackberry-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-001",
+   "SLO-003",
+   "SLO-012",
+   "SLO-018",
+   "SLO-077"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
+    "tytul": "NCHFP: Berry Jams without Pectin",
+    "sha12": "7c9a9886987b",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Berry Jams without Pectin (NCHFP), z wariantem bez pestek (przecieranie)."
+ },
+ {
+  "id": "raspberry-blackberry-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-020"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Maliny zasypane cukrem bez gotowania: reguła przetworów niegotowanych."
+ },
+ {
+  "id": "raspberry-blackberry-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Najbliższy: Blackberry Jelly without Pectin (NCHFP); dodatek jabłka poza przepisem."
+ },
+ {
+  "id": "raspberry-blackberry-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Najbliższy: Blackberry Jam Pectin / Berry Jams (NCHFP); cynamon poza przepisem."
+ },
+ {
+  "id": "raspberry-blackberry-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-093"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/fruit-purees/",
+    "tytul": "NCHFP: Fruit Pureés",
+    "sha12": "ba7574ae4aa4",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Fruit Purees (NCHFP).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "raspberry-blackberry-v14",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-055",
+   "SLO-094"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "tytul": "NCHFP: Berries-Whole",
+    "sha12": "ec2bd5d24dec",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Berries-Whole (NCHFP), jeżyny na liście.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "currant-v01",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "freezer",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-020"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Ucierana na surowo z cukrem: lodówka do 3 tygodni albo zamrażarka (reguła przetworów niegotowanych)."
+ },
+ {
+  "id": "currant-v04",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt."
+ },
+ {
+  "id": "currant-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Nie znaleziono galaretki porzeczkowej w zbiorze NCHFP."
+ },
+ {
+  "id": "currant-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "currant-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Najbliższy: Blueberry-Currant Jam without Pectin (NCHFP), mieszanka; brak dżemu z samej czarnej porzeczki."
+ },
+ {
+  "id": "currant-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-058"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Frużelina na skrobi: NCHFP dopuszcza w nadzieniach tylko Clear Jel; inne skrobie się rozpadają."
+ },
+ {
+  "id": "currant-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-051",
+   "SLO-052",
+   "SLO-053",
+   "SLO-108"
+  ],
+  "sources": [
+   {
+    "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
+    "tytul": "UCCE Master Food Preservers of El Dorado County, Steam Juicing Basics (IV 2026)",
+    "sha12": "13f9aec2f85b",
+    "szczebel": 3
+   }
+  ],
+  "uwagi": "Sok z sokownika: procedura UC obejmuje porzeczki; wekować.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "currant-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-049"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Porzeczek nie ma na liście Berry Syrup NCHFP."
+ },
+ {
+  "id": "currant-v12",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Sos z winem i musztardą."
+ },
+ {
+  "id": "currant-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-055",
+   "SLO-094"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "tytul": "NCHFP: Berries-Whole",
+    "sha12": "ec2bd5d24dec",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Berries-Whole (NCHFP), porzeczki na liście.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "gooseberry-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-063"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Kwiat bzu: tylko same kwiaty, bez łodyg i liści."
+ },
+ {
+  "id": "gooseberry-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "gooseberry-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "gooseberry-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-055",
+   "SLO-094"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "tytul": "NCHFP: Berries-Whole",
+    "sha12": "ec2bd5d24dec",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Berries-Whole (NCHFP), agrest na liście.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "gooseberry-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "gooseberry-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-055",
+   "SLO-094"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "tytul": "NCHFP: Berries-Whole",
+    "sha12": "ec2bd5d24dec",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Agrest w syropie według Berries-Whole (NCHFP).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "blueberry-bilberry-v02",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Fermentacja owoców w miodzie; miód nie dla niemowląt."
+ },
+ {
+  "id": "blueberry-bilberry-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-020"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Bez gotowania: reguła przetworów niegotowanych."
+ },
+ {
+  "id": "blueberry-bilberry-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Najbliższy: Berry Jams without Pectin (NCHFP); jagoda czarna (V. myrtillus) to inny gatunek niż borówka amerykańska, odpowiedniość do potwierdzenia."
+ },
+ {
+  "id": "blueberry-bilberry-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Najbliższy: Berry Jams / Blueberry-Spice Jam (NCHFP); wanilia poza przepisem."
+ },
+ {
+  "id": "blueberry-bilberry-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-049"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy: Berry Syrup (borówki amerykańskie na liście); jagoda czarna to inny gatunek."
+ },
+ {
+  "id": "blueberry-bilberry-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-055"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy: Berries-Whole (borówki amerykańskie); jagoda czarna to inny gatunek.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "cranberry-lingonberry-v02",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-020"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Rårörda (ucierana na surowo): reguła przetworów niegotowanych."
+ },
+ {
+  "id": "cranberry-lingonberry-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-104",
+   "SLO-105"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberries/",
+    "tytul": "NCHFP: Cranberries",
+    "sha12": "1256e0a8ab4d",
+    "szczebel": 1
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberry-sauce/",
+    "tytul": "NCHFP: Cranberry Sauce",
+    "sha12": "a309c77cdfab",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Konfitura żurawinowa: Cranberries w gęstym syropie lub Cranberry Sauce (NCHFP). Dotyczy żurawiny (Vaccinium macrocarpon/oxycoccos), nie borówki brusznicy."
+ },
+ {
+  "id": "cranberry-lingonberry-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-105"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberry-sauce/",
+    "tytul": "NCHFP: Cranberry Sauce",
+    "sha12": "a309c77cdfab",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Galaretka żurawinowa = przetarty sos żurawinowy (Cranberry Sauce, NCHFP)."
+ },
+ {
+  "id": "cranberry-lingonberry-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-052",
+   "SLO-050"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższa: procedura UC dla soków kwaśnych z owoców jagodowych (sok z sokownika); brak przepisu na sok żurawinowy innej metody.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "cranberry-lingonberry-v12",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-058"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Frużelina na skrobi: w nadzieniach do wekowania tylko Clear Jel."
+ },
+ {
+  "id": "chokeberry-seabuckthorn-v01",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "freezer",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-020",
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Ucierany na surowo: reguła przetworów niegotowanych; miód nie dla niemowląt."
+ },
+ {
+  "id": "chokeberry-seabuckthorn-v06",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Dodatek liści wiśni nie ma źródła (glikozydy cyjanogenne w liściach roślin pestkowych: do sprawdzenia).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "chokeberry-seabuckthorn-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "chokeberry-seabuckthorn-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "low-temp-pasteurization",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-060"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Pasteryzacja niskotemperaturowa tylko tam, gdzie przewiduje ją przepis (NCHFP); dla syropu takiego przepisu nie ma."
+ },
+ {
+  "id": "chokeberry-seabuckthorn-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "chokeberry-seabuckthorn-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-069"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "elderberry-elderflower-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-061",
+   "SLO-062"
+  ],
+  "sources": [],
+  "uwagi": "Sos octowy z owoców bzu (ACI). Owoce bzu muszą być gotowane, bez szypułek.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "elderberry-elderflower-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-068",
+   "SLO-063"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Syrop z kwiatów (napar kwiatowy) nie jest kwaśny z natury; tylko same kwiaty, bez łodyg i liści."
+ },
+ {
+  "id": "elderberry-elderflower-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-061",
+   "SLO-062",
+   "SLO-064",
+   "SLO-065",
+   "SLO-066",
+   "SLO-067",
+   "SLO-052",
+   "SLO-109"
+  ],
+  "sources": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/Elderberries-OSU%202024.pdf",
+    "tytul": "Oregon State Univ. Ext. EM 9446 Play it safe when preserving elderberries (XI 2024), High-sugar jams and jellies",
+    "sha12": "d87a241c8da7",
+    "szczebel": 3
+   }
+  ],
+  "uwagi": "Syrop z owoców czarnego bzu: wyłącznie według proporcji wagowej OSU (16 oz soku : 19,5 oz cukru), owoce gotowane, bez szypułek. Sam gęsty sok bez cukru: mrozić (brak procesu wekowania; czarny bez wykluczony z procedury soków UC)."
+ },
+ {
+  "id": "elderberry-elderflower-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-061",
+   "SLO-062",
+   "SLO-064",
+   "SLO-065"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy: przepis wysokocukrowy OSU (sam miąższ bzu); dodatek jabłek poza przepisem. Owoce gotowane, bez szypułek."
+ },
+ {
+  "id": "elderberry-elderflower-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-068",
+   "SLO-063"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Galaretka z naparu kwiatowego wymaga przetestowanej dawki kwasu/cukru; Uniwersytet Wyoming wycofał podobny przepis (wg wyszukiwarki, niesprawdzone)."
+ },
+ {
+  "id": "rosehip-rowan-v01",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-020"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Płatki ucierane z cukrem na surowo: reguła przetworów niegotowanych."
+ },
+ {
+  "id": "rosehip-rowan-v04",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt."
+ },
+ {
+  "id": "rosehip-rowan-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "rosehip-rowan-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Surowa jarzębina: kwas parasorbinowy, do sprawdzenia."
+ },
+ {
+  "id": "rosehip-rowan-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "rosehip-rowan-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. NCHFP ma galaretki z mayhaw (Crataegus, gatunki amerykańskie), nie dżem z głogu."
+ },
+ {
+  "id": "rosehip-rowan-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-069"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "grapes-v04",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Redukowany sok winogronowy (badagi): brak źródła."
+ },
+ {
+  "id": "grapes-v05",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Saba/sapa: brak źródła."
+ },
+ {
+  "id": "grapes-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-001",
+   "SLO-003",
+   "SLO-012",
+   "SLO-018",
+   "SLO-084"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/grape-jelly-powdered-pectin/",
+    "tytul": "NCHFP: Grape Jelly Powdered Pectin",
+    "sha12": "4f8348d00858",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Grape Jelly (NCHFP) na winogronach Concord."
+ },
+ {
+  "id": "grapes-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-051",
+   "SLO-053",
+   "SLO-050",
+   "SLO-108",
+   "SLO-091"
+  ],
+  "sources": [
+   {
+    "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
+    "tytul": "UCCE Master Food Preservers of El Dorado County, Steam Juicing Basics (IV 2026)",
+    "sha12": "13f9aec2f85b",
+    "szczebel": 3
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/grape-juice/",
+    "tytul": "NCHFP: Grape Juice",
+    "sha12": "a083f72ca7de",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Sok winogronowy z sokownika: procedura UC (apple or grape juice) oraz Grape Juice NCHFP; wekować, nie „butelkować”.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "grapes-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Najbliższy: Grape Jam without Pectin (NCHFP, Concord); winogrona bezpestkowe innych odmian - odpowiedniość do potwierdzenia."
+ },
+ {
+  "id": "grapes-v09",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Czurczchela suszy się; obszar SUS. Brak źródła.",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "rhubarb-v05",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-102"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/rhubarb-stewed/",
+    "tytul": "NCHFP: Rhubarb-Stewed",
+    "sha12": "f116a5fbd9e9",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Rhubarb-Stewed (NCHFP).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "rhubarb-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-052"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Rabarbar jest na liście soków kwaśnych UC (sok), syrop z cukrem: brak przepisu."
+ },
+ {
+  "id": "rhubarb-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. NCHFP ma tylko Strawberry-Rhubarb Jelly."
+ },
+ {
+  "id": "rhubarb-v08",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-069"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "lemon-v05",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Fermentacja w miodzie; miód nie dla niemowląt."
+ },
+ {
+  "id": "lemon-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "lemon-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt."
+ },
+ {
+  "id": "lemon-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-038",
+   "SLO-039",
+   "SLO-040",
+   "SLO-041",
+   "SLO-042",
+   "SLO-043"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "tytul": "NCHFP: Lemon Curd, Canned (UGA, E. Andress, 2004)",
+    "sha12": "6e36d81d9450",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Lemon Curd, Canned (NCHFP/UGA): bezpośredni odpowiednik. Tylko butelkowany sok, woda w wekowniku do 180 °F przed włożeniem słoików, 15 min (1/2 pinty, do 1000 stóp), spożyć w 3-4 miesiące; albo zamrażarka do roku."
+ },
+ {
+  "id": "lemon-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Najbliższy: Citrus Marmalade / Orange Marmalade (NCHFP, z cytryną w składzie); marmolady z samej cytryny nie znaleziono."
+ },
+ {
+  "id": "lemon-v12",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-069"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "lime-bergamot-v04",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt."
+ },
+ {
+  "id": "lime-bergamot-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-043",
+   "SLO-038",
+   "SLO-040",
+   "SLO-041",
+   "SLO-042"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "tytul": "NCHFP: Lemon Curd, Canned (UGA, E. Andress, 2004)",
+    "sha12": "6e36d81d9450",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Lime Curd: wariant przepisu Lemon Curd, Canned (NCHFP) z butelkowanym sokiem z limonki."
+ },
+ {
+  "id": "lime-bergamot-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "lime-bergamot-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-069"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "lime-bergamot-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "lime-bergamot-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "orange-kumquat-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Kumkwaty w occie i miodzie, obszar ACI.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "orange-kumquat-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Najbliższy: Orange Marmalade (NCHFP); gorzka pomarańcza (Citrus aurantium) to inny gatunek, odpowiedniość do potwierdzenia."
+ },
+ {
+  "id": "orange-kumquat-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "orange-kumquat-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "orange-kumquat-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-069"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "orange-kumquat-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-069"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "orange-kumquat-v12",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "grapefruit-v02",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-001",
+   "SLO-003",
+   "SLO-012",
+   "SLO-018",
+   "SLO-086"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/marmalades/citrus-marmalade/",
+    "tytul": "NCHFP: Citrus Marmalade",
+    "sha12": "2b33e2dd6ce4",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Citrus Marmalade (NCHFP): grejpfrut, pomarańcza, cytryna; bezpośredni odpowiednik."
+ },
+ {
+  "id": "grapefruit-v03",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "grapefruit-v04",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-103"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/grapefruit-and-orange-sections/",
+    "tytul": "NCHFP: Grapefruit and Orange Sections",
+    "sha12": "ed57d0810e1c",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Grapefruit and Orange Sections (NCHFP).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "grapefruit-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-069"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "grapefruit-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "grapefruit-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-071"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Kora chinowca: domowa dawka chininy niekontrolowana; w USA chinina dozwolona tylko do 83 ppm w napojach gazowanych. Potrzebne źródło o toksyczności."
+ },
+ {
+  "id": "mango-papaya-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-029",
+   "SLO-054"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Dojrzałe mango ma pH do 4,6 i jest wykluczone z przecierów NCHFP."
+ },
+ {
+  "id": "mango-papaya-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-026",
+   "SLO-057",
+   "SLO-069"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Papaja dojrzała ma pH 5,2-5,7 (zielonej brak danych); wekowanie papai wymaga dodatku soku z cytryny."
+ },
+ {
+  "id": "pineapple-banana-v01",
+  "processFamilyId": "fermented-beverages",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Tepache, napój fermentowany, obszar NAP.",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "pineapple-banana-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Rum i wanilia poza przepisem."
+ },
+ {
+  "id": "pineapple-banana-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-101"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pineapple/",
+    "tytul": "NCHFP: Pineapple",
+    "sha12": "e2747afab639",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Pineapple (NCHFP).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "pineapple-banana-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-027",
+   "SLO-054",
+   "SLO-023"
+  ],
+  "sources": [],
+  "uwagi": "Banan ma pH 4,5-5,2 i jest wykluczony z przecierów NCHFP; brak przetestowanego dżemu bananowego."
+ },
+ {
+  "id": "fig-pomegranate-v01",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Granat ma niskie pH, ale melasa redukowana nie ma źródła."
+ },
+ {
+  "id": "fig-pomegranate-v03",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-030",
+   "SLO-054"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Daktyle mają pH 6,3-6,6 i są wykluczone z przecierów NCHFP."
+ },
+ {
+  "id": "fig-pomegranate-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-028",
+   "SLO-056"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy: Fig Jam without Pectin (NCHFP, z sokiem z cytryny); orzechy i rozmaryn poza przepisem. Figi mają pH około 4,6 i wymagają dodatku kwasu."
+ },
+ {
+  "id": "fig-pomegranate-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-028",
+   "SLO-056",
+   "SLO-010"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższe: Fig Preserves / Figs (NCHFP, dojrzałe figi z kwasem); niedojrzałe zielone figi nie są objęte."
+ },
+ {
+  "id": "fig-pomegranate-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "watermelon-melon-v05",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-024",
+   "SLO-054",
+   "SLO-052",
+   "SLO-023"
+  ],
+  "sources": [],
+  "uwagi": "Sok z arbuza ma pH 5,2-5,8 (niskokwasowy); melony wykluczone z przecierów i soków; brak przetestowanego syropu."
+ },
+ {
+  "id": "watermelon-melon-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-107"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy: Watermelon Rind Preserves (NCHFP: imbir, sok z cytryny); wanilia zamiast imbiru poza przepisem. Sok z cytryny obowiązkowy."
+ },
+ {
+  "id": "watermelon-melon-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-069",
+   "SLO-024",
+   "SLO-025"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Melon i arbuz niskokwasowe."
+ },
+ {
+  "id": "watermelon-melon-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-025",
+   "SLO-054",
+   "SLO-023"
+  ],
+  "sources": [],
+  "uwagi": "Kantalupa ma pH 6,17-7,13; melony wykluczone z przecierów NCHFP; brak przetestowanego dżemu."
+ },
+ {
+  "id": "watermelon-melon-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SLO-024",
+   "SLO-023"
+  ],
+  "sources": [],
+  "uwagi": "Sok z arbuza ma pH 5,2-5,8; brak przetestowanej galaretki."
+ },
+ {
+  "id": "walnut-nuts-v05",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Moczenie w wodzie wapiennej: brak źródła dla tego produktu."
+ },
+ {
+  "id": "walnut-nuts-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt."
+ },
+ {
+  "id": "walnut-nuts-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Krem czekoladowo-orzechowy to wyrób cukierniczy z tłuszczem; zakres do decyzji.",
+  "poza_zakresem": "wyrób cukierniczy (krem orzechowy), nie typowy przetwór owocowy; do decyzji redakcji"
+ },
+ {
+  "id": "walnut-nuts-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Orzechy w karmelu to wyrób cukierniczy.",
+  "poza_zakresem": "wyrób cukierniczy, nie przetwór"
+ },
+ {
+  "id": "garden-herbs-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-068"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Napar z ziół nie jest kwaśny; do wekowania potrzebny przetestowany przepis."
+ },
+ {
+  "id": "garden-herbs-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-068"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "garden-herbs-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-068"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Syrop „na kaszel”: twierdzeń zdrowotnych nie oceniamy."
+ },
+ {
+  "id": "garden-herbs-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-068"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "garden-herbs-v12",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SLO-001",
+   "SLO-003",
+   "SLO-012",
+   "SLO-018",
+   "SLO-082"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/mint-jelly-pectin/",
+    "tytul": "NCHFP: Mint Jelly Pectin",
+    "sha12": "59b6eb0ad0cf",
+    "szczebel": 1
+   }
+  ],
+  "uwagi": "Mint Jelly (NCHFP) z sokiem z cytryny i pektyną."
+ },
+ {
+  "id": "garden-herbs-v13",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Kandyzowanie liści (często z surowym białkiem jaja): brak źródła."
+ },
+ {
+  "id": "foraged-blossoms-v01",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-020",
+   "SLO-068"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Pędy sosny zasypane cukrem bez gotowania: reguła przetworów niegotowanych; nazwa „miód” myląca."
+ },
+ {
+  "id": "foraged-blossoms-v02",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-068"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Napar z kwiatów mniszka nie jest kwaśny; do wekowania tylko przetestowany przepis z kwasem/cukrem (OSU). Nazwa „miód” myląca."
+ },
+ {
+  "id": "foraged-blossoms-v03",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-068"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "foraged-blossoms-v04",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-068"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Robinia: inne części rośliny trujące, do sprawdzenia."
+ },
+ {
+  "id": "foraged-blossoms-v05",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-068"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "foraged-blossoms-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-068"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. Wiązówka zawiera salicylany, do sprawdzenia."
+ },
+ {
+  "id": "foraged-blossoms-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-068"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu dla tego wariantu. "
+ },
+ {
+  "id": "koji-ferments-v10",
+  "processFamilyId": "koji-soy-ferments",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Syrop słodowy z koji (amazake), obszar NAP.",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "mustard-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Mostarda z olejkiem gorczycowym, obszar NAP/ACI; olejek gorczycowy wymaga osobnego sprawdzenia.",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "mustard-v12",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Ziarna gorczycy w occie i syropie, obszar NAP/ACI.",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "fermented-beverages-v03",
+  "processFamilyId": "fermented-beverages",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SLO-036"
+  ],
+  "sources": [],
+  "uwagi": "Jun (kombucha na miodzie), obszar NAP.",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "butter-whey-cheese-v02",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Masło z kulturami, obszar MLE.",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "butter-whey-cheese-v11",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Brunost, obszar MLE.",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "pork-loin-ham-v04",
+  "processFamilyId": "meat-curing-smoking",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Wędliny, obszar MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "pork-shoulder-neck-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka mięsna w słoiku, obszar MIE/SZY.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "dry-cured-sausages-v11",
+  "processFamilyId": "meat-curing-smoking",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kiełbasa dojrzewająca, obszar MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "beef-veal-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Mięso w słoiku, obszar MIE/SZY.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "beef-veal-v10",
+  "processFamilyId": "meat-curing-smoking",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Bresaola, obszar MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "offal-pates-v02",
+  "processFamilyId": "meat-curing-smoking",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pasztet z wątróbek pod masłem, obszar MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "sea-fish-v03",
+  "processFamilyId": "fish-curing-smoking",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Śledzie z dodatkiem powideł: danie rybne, obszar MIE. Powidła jako składnik według kart powideł.",
+  "inny_klaster": "MIE"
+ }
+]

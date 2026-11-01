@@ -1,0 +1,19 @@
+# MIE: pytania otwarte
+
+- [DO USTALENIA] NCHFP „Curing and Smoking Meats for Home Food Preservation” (przegląd literatury, Andress): adresy z wyszukiwarki (`/publications/nchfp-publications/literature-reviews/...`) zwracają 404 po zmianie serwisu. Potrzebny do: dojrzewania mięsa (dry-aged), temperatur wędzenia, ryb. Szukać kopii PDF albo w archiwum UGA.
+- [DO USTALENIA] PNW 238 „Smoking Fish at Home—Safely” (szczebel 3): kopie WSU (404), OSU IR i UNT webarchive (błąd TLS) nieosiągalne. Te same parametry są w UAF FNH-00325 (MIE-071, MIE-076–079), który z niej korzysta.
+- [DO USTALENIA] Peklowanie na mokro (szynka, schab, pastrami, corned beef): nie znaleziono przetestowanego przepisu domowego z solanką i stężeniem azotynu. Szukać: MU Extension „Country Curing Hams”, PSU „Curing and Smoking Meats”, Wisconsin/UMN meat science.
+- [DO USTALENIA] Wyroby surowe dojrzewające jedzone na surowo (prosciutto, coppa, lonzino, bresaola, pancetta, lardo, salami): czy istnieje przetestowany domowy proces z pomiarem pH/aw? FSIS „Shelf-Stable” i „Salmonella/E. coli lethality” guidelines blokują UA (403). Pokazać zamiast: country ham (UKY/VT) jako produkt gotowany przed jedzeniem.
+- [DO USTALENIA] Przepis VT 458-223 podaje 2 oz azotynu sodu na 100 lb (MIE-013), dwa razy więcej niż limit 9 CFR 424.21 dla peklowania na sucho (MIE-002). Do weryfikacji przez przegląd; na kartach nie przenosić.
+- [DO USTALENIA] UE: limit dodanych azotynów dla produktów peklowanych na sucho (kat. 08.3.4.2) i tradycyjnych zalewowych (08.3.4.1) od 2025-10-09: w rozp. 2023/2108 są wpisy 105 mg/kg dla konkretnych produktów; nie wpisano ich jako twierdzeń (tylko 08.3.1/08.3.2). Do uzupełnienia, jeśli karty mają podawać limity dla szynek.
+- [DO USTALENIA] Pełny tekst skonsolidowany rozp. 1333/2008 (eur-lex zwraca 202 bez treści); użyto aktów zmieniających z portalu Publications Office (cellar).
+- [DO USTALENIA] Trichinella: 9 CFR 318.10 jest „[Reserved]” w eCFR (przeniesione do wytycznych FSIS). Aktualne czasy zamrażania wieprzowiny (USA) są w FSIS Compliance Guideline (403). Dla UE metody zamrażania są w zał. II rozp. 2015/1375 (przeczytane, ale nie wpisane jako twierdzenia: dotyczą zakładów).
+- [DO USTALENIA] Zamrażanie ryb: UW Sea Grant każe 4 dni w domowej zamrażarce (MIE-055), FDA -20°C przez 7 dni (MIE-046), UE -20°C przez 24 h w całej masie (MIE-052). Ustalić, jak karta ma to podawać (proponuję: ryba mrożona przemysłowo albo -20°C przez 7 dni).
+- [DO USTALENIA] Przechowywanie ryby wędzonej: 2 tygodnie (PNW 450, MIE-074) wobec miesiąca (UW Sea Grant, MIE-073). Proponuję część wspólną: 2 tygodnie.
+- [DO USTALENIA] Jaja marynowane: jakość 3–4 miesiące (strona NCHFP, MIE-085), 2–3 miesiące (blog NCHFP, MIE-086), miesiąc (przepis So Easy to Preserve). Proponuję podawać najkrótszy dla danego przepisu.
+- [DO USTALENIA] Jaja w zakwasie buraczanym (eggs-v02): NCHFP używa soku z buraków konserwowych. Zakwas buraczany (fermentowany, pH?) to inna zalewa: ocenić z klastrem FER.
+- [DO USTALENIA] Solone jaja kacze, kawior domowy, biltong w warunkach domowych, dry-aged: brak źródła szczebla 1–3 z przepisem domowym. Szukać: Codex/FAO dla jaj solonych, Alaska Sea Grant dla ikry (UAF ma TLS bez pełnego łańcucha: uaf.edu nieosiągalne).
+- [DO USTALENIA] Water glassing: jedyne źródło (USU, szczebel 3) to abstrakt; PDF zwraca 403. Szukać stanowiska szczebla 1 (USDA/NCHFP). PSU cytowane tylko przez blog.
+- [DO USTALENIA] Wariant sea-fish-v08 łączy wędzenie na zimno i na gorąco: rozdzielić w katalogu.
+- [DO USTALENIA] Przepis UGA na kiełbasę polską kończy na 150°F wewnątrz (MIE-031), ogólne zalecenie tej publikacji to 160°F (MIE-021).
+- [DO USTALENIA] Propozycja słownika: brak metody `cured-shelf-stable` dla wyrobów dojrzewających; użyto `cool-storage`, co sugeruje piwnicę bez kontroli. Rozważyć osobną wartość albo regułę.

@@ -1,0 +1,259 @@
+[
+ {
+  "id": "sweet-preserves",
+  "thresholds": [
+   {
+    "wielkosc": "pH produktu wekowanego w kąpieli wodnej / wekowniku parowym",
+    "wartosc": 4.6,
+    "jednostka": "pH",
+    "granica": "<=",
+    "claim": "SLO-022"
+   },
+   {
+    "wielkosc": "pH, powyżej którego C. botulinum może rosnąć",
+    "wartosc": 4.6,
+    "jednostka": "pH",
+    "granica": ">",
+    "claim": "SLO-023"
+   },
+   {
+    "wielkosc": "czas wekowania dżemu/galaretki w kąpieli wodnej, słoiki sterylne, 0-1000 ft",
+    "wartosc": 5,
+    "jednostka": "min",
+    "granica": ">=",
+    "claim": "SLO-003"
+   },
+   {
+    "wielkosc": "czas wekowania dżemu/galaretki, słoiki niesterylne",
+    "wartosc": 10,
+    "jednostka": "min",
+    "granica": ">=",
+    "claim": "SLO-005"
+   },
+   {
+    "wielkosc": "korekta czasu na wysokość",
+    "wartosc": 1,
+    "jednostka": "min na każde 1000 ft",
+    "granica": ">=",
+    "claim": "SLO-004"
+   },
+   {
+    "wielkosc": "wolna przestrzeń w słoiku z dżemem",
+    "wartosc": 0.25,
+    "jednostka": "cal",
+    "granica": "=",
+    "claim": "SLO-003"
+   },
+   {
+    "wielkosc": "temperatura przechowywania słoików (dolna)",
+    "wartosc": 50,
+    "jednostka": "°F",
+    "granica": ">=",
+    "claim": "SLO-017"
+   },
+   {
+    "wielkosc": "temperatura przechowywania słoików (górna)",
+    "wartosc": 70,
+    "jednostka": "°F",
+    "granica": "<=",
+    "claim": "SLO-017"
+   },
+   {
+    "wielkosc": "najlepsza jakość od zawekowania",
+    "wartosc": 1,
+    "jednostka": "rok",
+    "granica": "<=",
+    "claim": "SLO-017"
+   },
+   {
+    "wielkosc": "lodówka po otwarciu",
+    "wartosc": 40,
+    "jednostka": "°F",
+    "granica": "<=",
+    "claim": "SLO-018"
+   },
+   {
+    "wielkosc": "dżem pełnocukrowy po otwarciu, w lodówce (jakość)",
+    "wartosc": 1,
+    "jednostka": "miesiąc",
+    "granica": "<=",
+    "claim": "SLO-018"
+   },
+   {
+    "wielkosc": "dżem mrożony/lodówkowy w lodówce",
+    "wartosc": 3,
+    "jednostka": "tydzień",
+    "granica": "<=",
+    "claim": "SLO-019"
+   },
+   {
+    "wielkosc": "dżem mrożony w zamrażarce",
+    "wartosc": 1,
+    "jednostka": "rok",
+    "granica": "<=",
+    "claim": "SLO-019"
+   },
+   {
+    "wielkosc": "dżem niegotowany w lodówce",
+    "wartosc": 3,
+    "jednostka": "tydzień",
+    "granica": "<=",
+    "claim": "SLO-020"
+   },
+   {
+    "wielkosc": "smarowidło na żelatynie w lodówce",
+    "wartosc": 4,
+    "jednostka": "tydzień",
+    "granica": "<=",
+    "claim": "SLO-008"
+   },
+   {
+    "wielkosc": "lemon curd wekowany: czas, 1/2 pinty, 0-1000 ft",
+    "wartosc": 15,
+    "jednostka": "min",
+    "granica": "=",
+    "claim": "SLO-038"
+   },
+   {
+    "wielkosc": "lemon curd: woda w wekowniku przed włożeniem słoików",
+    "wartosc": 180,
+    "jednostka": "°F",
+    "granica": "<=",
+    "claim": "SLO-040"
+   },
+   {
+    "wielkosc": "lemon curd wekowany: okres spożycia",
+    "wartosc": 4,
+    "jednostka": "miesiąc",
+    "granica": "<=",
+    "claim": "SLO-041"
+   },
+   {
+    "wielkosc": "lemon curd zamrożony",
+    "wartosc": 1,
+    "jednostka": "rok",
+    "granica": "<=",
+    "claim": "SLO-042"
+   },
+   {
+    "wielkosc": "czarny bez (przepis OSU): cukier na 16 oz miąższu/soku, masa",
+    "wartosc": 19.5,
+    "jednostka": "oz",
+    "granica": ">=",
+    "claim": "SLO-065"
+   },
+   {
+    "wielkosc": "wiek, przed którym nie podawać miodu",
+    "wartosc": 12,
+    "jednostka": "miesiąc",
+    "granica": "<",
+    "claim": "SLO-036"
+   },
+   {
+    "wielkosc": "owoce kandyzowane niedosuszone w lodówce",
+    "wartosc": 1,
+    "jednostka": "tydzień",
+    "granica": "<=",
+    "claim": "SLO-069"
+   },
+   {
+    "wielkosc": "pasteryzacja niskotemperaturowa: temperatura wody (tylko gdy przewiduje przepis)",
+    "wartosc": 180,
+    "jednostka": "°F",
+    "granica": ">=",
+    "claim": "SLO-060"
+   },
+   {
+    "wielkosc": "surowe pestki moreli, dorosły (EFSA ARfD)",
+    "wartosc": 0.37,
+    "jednostka": "g",
+    "granica": "<=",
+    "claim": "SLO-070"
+   },
+   {
+    "wielkosc": "minimalna zawartość cukru (°Brix) lub aktywność wody dżemu przechowywanego w temperaturze pokojowej",
+    "wartosc": null,
+    "pytanie": "Brak liczby w przeczytanych źródłach; NCHFP mówi tylko „nie zmniejszać cukru w tradycyjnych przepisach”. Szukać: Codex STAN 296-2009 (jams), dyrektywa 2001/113/WE (min. zawartość ekstraktu), literatura aw."
+   },
+   {
+    "wielkosc": "czas i temperatura dla syropów z naparów kwiatowych/ziołowych",
+    "wartosc": null,
+    "pytanie": "Brak przetestowanego przepisu szczebla 1-3."
+   }
+  ],
+  "regulyZakazu": [
+   {
+    "opis": "Nie zamykać przetworów parafiną ani woskiem.",
+    "claim": "SLO-002"
+   },
+   {
+    "opis": "Nie zdejmować pleśni z dżemu: wyrzucić całą zawartość słoika.",
+    "claim": "SLO-012"
+   },
+   {
+    "opis": "Każdy domowy przetwór z pleśnią wyrzucić (pleśń podnosi pH).",
+    "claim": "SLO-014"
+   },
+   {
+    "opis": "Dżem sfermentowany (drożdże) wyrzucić; ruchome pęcherzyki = nie używać.",
+    "claim": "SLO-015"
+   },
+   {
+    "opis": "Nie zmniejszać cukru w tradycyjnych przepisach; niskosłodzone tylko z pektyną modyfikowaną według producenta albo do lodówki/zamrażarki.",
+    "claim": "SLO-001"
+   },
+   {
+    "opis": "Nie zastępować cukru słodzikiem w dżemach bez pektyny lub długo gotowanych do przechowywania w temp. pokojowej.",
+    "claim": "SLO-009"
+   },
+   {
+    "opis": "Nie stosować metody open kettle (zakręcanie na gorąco bez wekowania), także przy powidłach.",
+    "claim": "SLO-021"
+   },
+   {
+    "opis": "Nie wekować masła dyniowego ani przetworów z rozgniecionej dyni; tylko lodówka krótko albo zamrażarka.",
+    "claim": "SLO-044"
+   },
+   {
+    "opis": "Nie wekować przecierów/dżemów z bananów, fig bez kwasu, melonów, papai, dojrzałego mango, daktyli bez przetestowanego przepisu.",
+    "claim": "SLO-054"
+   },
+   {
+    "opis": "Do wekowania nadaje się tylko lemon curd i lime curd według przepisu NCHFP; inne kurdy nie.",
+    "claim": "SLO-043"
+   },
+   {
+    "opis": "Nie „butelkować” soku z sokownika bez wekowania.",
+    "claim": "SLO-051"
+   },
+   {
+    "opis": "Owoce czarnego bzu zawsze gotować; usuwać szypułki i liście; nie używać bzu koralowego (czerwonego).",
+    "claim": "SLO-061"
+   },
+   {
+    "opis": "Bzu czarnego nie wekować według zwykłych przepisów na owoce jagodowe; tylko proporcja wysokocukrowa OSU.",
+    "claim": "SLO-064"
+   },
+   {
+    "opis": "Nie podawać miodu ani przetworów z miodem niemowlętom poniżej 12. miesiąca.",
+    "claim": "SLO-036"
+   },
+   {
+    "opis": "Nie fermentować czosnku (ani innych warzyw niskokwasowych) w surowym miodzie w temperaturze pokojowej.",
+    "claim": "SLO-037"
+   },
+   {
+    "opis": "Pasteryzacja niskotemperaturowa tylko tam, gdzie przewiduje ją przepis.",
+    "claim": "SLO-060"
+   },
+   {
+    "opis": "W nadzieniach (frużelinach) do wekowania nie używać mąki ani zwykłej skrobi; nie zmieniać ilości soku z cytryny.",
+    "claim": "SLO-058"
+   },
+   {
+    "opis": "Nie dodawać surowych pestek (jąder) moreli do przetworów bez oceny dawki cyjanku.",
+    "claim": "SLO-070"
+   }
+  ]
+ }
+]

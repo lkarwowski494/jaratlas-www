@@ -114,6 +114,32 @@ test('ryzyko-wysokie i nie-publikowac z publikacją tylko jako ostrzeżenie', ()
   assert.deepEqual(errs(d), []);
 });
 
+test('metoda nieustalona (null) dozwolona tylko bez ok-zrodlo', () => {
+  const c = base(); c.variants[1].preservationMethod = null;
+  assert.deepEqual(errs(c), []);
+  const d = base(); d.variants[0].preservationMethod = null;
+  assert.ok(has(errs(d), /apple-v01.*metod/));
+});
+
+test('rodzina nieustalona (null) dozwolona tylko przy do-researchu', () => {
+  const c = base(); Object.assign(c.variants[1], { processFamilyId: null, preservationMethod: null });
+  assert.deepEqual(errs(c), []);
+  const d = base(); Object.assign(d.variants[1], { processFamilyId: null, safetyStatus: 'ryzyko-wysokie', claims: ['T-1'] });
+  assert.ok(has(errs(d), /green-beans-v01.*rodzin/));
+});
+
+test('ID unikalne w obrębie typu (produkt może mieć ID jak rodzina)', () => {
+  const c = base(); c.products.push({ id: 'canned-foods', acidity: 'acid', acidityClaim: 'T-1' });
+  assert.deepEqual(errs(c), []);
+});
+
+test('obowiązkowe ostrzeżenie musi być potwierdzonym twierdzeniem', () => {
+  const c = base(); c.variants[0].requiredWarnings = ['T-9'];
+  assert.ok(has(errs(c), /apple-v01.*T-9/));
+  const d = base(); d.variants[0].requiredWarnings = ['T-1'];
+  assert.deepEqual(errs(d), []);
+});
+
 test('katalog repozytorium przechodzi walidację', { skip: !exists('catalog/catalog-seed.json') }, () => {
   const cat = JSON.parse(readFileSync('catalog/catalog-seed.json', 'utf8'));
   const r = JSON.parse(readFileSync('docs/tresci/rejestr.json', 'utf8'));

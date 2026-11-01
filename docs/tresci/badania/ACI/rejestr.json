@@ -1,0 +1,4157 @@
+[
+ {
+  "id": "ACI-001",
+  "klucz": "def_acid",
+  "twierdzenie": "Żywność kwaśna (acid foods, USA) to żywność o naturalnym pH 4,6 lub niższym.",
+  "zrodla": [
+   {
+    "adres": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-29/title-21.xml?part=114&section=114.3",
+    "miejsce": "21 CFR 114.3 Definitions (eCFR, stan na 2026-10-29), USA",
+    "cytat": "Acid foods means foods that have a natural pH of 4.6 or below.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c00adc0da949"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-002",
+  "klucz": "def_acidified",
+  "twierdzenie": "Żywność zakwaszona (acidified foods, USA) to żywność niskokwasowa z dodatkiem kwasu lub żywności kwaśnej, o aktywności wody powyżej 0,85 i końcowym równowagowym pH 4,6 lub niższym; może nosić nazwę „pikle”.",
+  "zrodla": [
+   {
+    "adres": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-29/title-21.xml?part=114&section=114.3",
+    "miejsce": "21 CFR 114.3 Definitions (eCFR, stan na 2026-10-29), USA",
+    "cytat": "They have a water activity (a w ) greater than 0.85 and have a finished equilibrium pH of 4.6 or below.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c00adc0da949"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-003",
+  "klucz": "def_lowacid",
+  "twierdzenie": "Żywność niskokwasowa (low-acid foods, USA) to żywność (poza napojami alkoholowymi) o końcowym równowagowym pH powyżej 4,6 i aktywności wody powyżej 0,85.",
+  "zrodla": [
+   {
+    "adres": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-29/title-21.xml?part=114&section=114.3",
+    "miejsce": "21 CFR 114.3 Definitions (eCFR, stan na 2026-10-29), USA",
+    "cytat": "Low-acid foods means any foods, other than alcoholic beverages, with a finished equilibrium pH greater than 4.6 and a water activity (a w ) greater than 0.85.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c00adc0da949"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-004",
+  "klucz": "def_tomato47",
+  "twierdzenie": "Pomidory i przetwory pomidorowe o końcowym równowagowym pH poniżej 4,7 nie są w przepisach USA klasyfikowane jako żywność niskokwasowa (wyjątek regulacyjny; w kuchni domowej NCHFP i tak wymaga zakwaszania).",
+  "zrodla": [
+   {
+    "adres": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-29/title-21.xml?part=114&section=114.3",
+    "miejsce": "21 CFR 114.3 Definitions (eCFR, stan na 2026-10-29), USA",
+    "cytat": "Tomatoes and tomato products having a finished equilibrium pH less than 4.7 are not classed as low-acid foods.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c00adc0da949"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Część w nawiasie to zestawienie z ACI-tomato_acid, nie treść 21 CFR.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.7,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-005",
+  "klucz": "g1_lowacid",
+  "twierdzenie": "Żywność niskokwasowa ma pH wyższe niż 4,6; należą do niej czerwone mięso, owoce morza, drób, mleko i wszystkie świeże warzywa z wyjątkiem większości pomidorów.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 1: Principles of Home Canning",
+    "cytat": "Low-acid foods have pH values higher than 4.6. They include red meats, seafood, poultry, milk,",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 1: Principles of Home Canning",
+    "cytat": "and all fresh vegetables except for most tomatoes. Most mixtures of low-acid and acid foods also",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-006",
+  "klucz": "g1_mix",
+  "twierdzenie": "Większość mieszanin żywności niskokwasowej i kwaśnej ma pH powyżej 4,6, chyba że przepis zawiera dość soku z cytryny, kwasu cytrynowego lub octu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 1: Principles of Home Canning",
+    "cytat": "and all fresh vegetables except for most tomatoes. Most mixtures of low-acid and acid foods also",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 1: Principles of Home Canning",
+    "cytat": "have pH values above 4.6 unless their recipes include enough lemon juice, citric acid, or vinegar",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-007",
+  "klucz": "g1_acid",
+  "twierdzenie": "Żywność kwaśna ma pH 4,6 lub niższe; należą do niej owoce, pikle, kapusta kiszona, dżemy, galaretki, marmolady i masła owocowe.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 1: Principles of Home Canning",
+    "cytat": "to make them acid foods. Acid foods have a pH of 4.6 or lower. They include fruits, pickles,",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 1: Principles of Home Canning",
+    "cytat": "sauerkraut, jams, jellies, marmalades, and fruit butters.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-008",
+  "klucz": "g1_tomfig",
+  "twierdzenie": "Niektóre pomidory i figi mają pH nieco powyżej 4,6; jeśli mają być wekowane jako żywność kwaśna, trzeba je zakwasić do pH 4,6 lub niższego sokiem z cytryny lub kwasem cytrynowym; prawidłowo zakwaszone można pasteryzować w kąpieli wodnej (wrzątku).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 1: Principles of Home Canning",
+    "cytat": "slightly above 4.6. Figs also have pH values slightly above 4.6. Therefore, if they are to be canned",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 1: Principles of Home Canning",
+    "cytat": "as acid foods, these products must be acidified to a pH of 4.6 or lower with lemon juice or citric",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-009",
+  "klucz": "g1_allfruits",
+  "twierdzenie": "Słowniczek USDA: do żywności kwaśnej należą wszystkie owoce z wyjątkiem fig, większość pomidorów, warzywa fermentowane i marynowane, relishe, dżemy i galaretki (inne strony NCHFP wyłączają też m.in. melony, gruszki azjatyckie, papaję, dojrzałe mango, banany — patrz ACI-purees).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 1: Principles of Home Canning",
+    "cytat": "Includes all fruits except figs; most tomatoes; fermented and pickled",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ogólna reguła USDA; dla owoców bez pomiaru pH przyjęta jako „acid”.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-010",
+  "klucz": "g1_glow",
+  "twierdzenie": "Słowniczek USDA: warzywa, niektóre pomidory, figi, wszystkie mięsa, ryby, owoce morza i część nabiału są niskokwasowe; dla kontroli jadu kiełbasianego trzeba je pasteryzować w szybkowarze (pressure canner) albo zakwasić do pH 4,6 lub niżej przed kąpielą wodną.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 1: Principles of Home Canning",
+    "cytat": "bacterium Clostridium botulinum. Vegetables, some tomatoes, figs, all",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 1: Principles of Home Canning",
+    "cytat": "a pressure canner, or (2) acidified to a pH of 4.6 or lower before",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-011",
+  "klucz": "g1_pressure",
+  "twierdzenie": "Żywność niskokwasowa musi być pasteryzowana w szybkowarze (pressure canner), aby wyeliminować ryzyko jadu kiełbasianego.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 1: Principles of Home Canning",
+    "cytat": "Low-acid foods must be processed in a pressure canner to be free of botulism risks.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-012",
+  "klucz": "g1_pickling",
+  "twierdzenie": "Słowniczek USDA: marynowanie (pickling) to dodanie tyle octu lub soku z cytryny do żywności niskokwasowej, by obniżyć pH do 4,6 lub niżej; prawidłowo zamarynowaną żywność można bezpiecznie pasteryzować w kąpieli wodnej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 1: Principles of Home Canning",
+    "cytat": "The practice of adding enough vinegar or lemon juice to a low-acid",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 1: Principles of Home Canning",
+    "cytat": "food to lower its pH to 4.6 or lower. Properly pickled foods may",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-013",
+  "klucz": "botul_cond",
+  "twierdzenie": "Przetrwalniki C. botulinum mogą w ciągu 3–4 dni wytworzyć toksynę w wilgotnej żywności niskokwasowej, w temperaturze 40–120°F (ok. 4–49°C) i przy zawartości tlenu poniżej 2%.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/ensuring-safe-canned-foods/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Ensuring Safe Canned Foods",
+    "cytat": "a moist, low-acid food a temperature between 40° and 120°F less than 2 percent oxygen",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "83e3c63c1dad"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie °F na °C zaokrąglone.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-014",
+  "klucz": "openkettle",
+  "twierdzenie": "Metoda „open kettle” (zakręcanie gorącego produktu bez pasteryzacji) oraz pasteryzacja słoików w piekarniku, kuchence mikrofalowej lub zmywarce nie są zalecane, bo nie zapobiegają wszystkim ryzykom zepsucia.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/equipment-and-methods-not-recommended/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Equipment and Methods Not Recommended",
+    "cytat": "Open-kettle canning and the processing of freshly filled jars in conventional ovens, microwave ovens, and dishwashers are not recommended, because these practices do not prevent all risks of spoilage.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "caf9fae9a56d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-015",
+  "klucz": "altitude",
+  "twierdzenie": "Żywność kwaśna w kąpieli wodnej może się zepsuć, jeśli powyżej 1000 stóp n.p.m. (ok. 305 m) nie wydłuży się czasu, skróci się czas lub schłodzi słoiki w zimnej wodzie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/selecting-the-correct-processing-time/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Selecting the Correct Processing Time",
+    "cytat": "The food may spoil if you fail to add process time for lower boiling-water temperatures at elevations above 1,000 feet, process for fewer minutes than specified, or cool jars in cold water.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "57373b8964a4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-016",
+  "klucz": "alter",
+  "twierdzenie": "Nie wolno zmieniać proporcji octu, warzyw/owoców i wody w przepisie ani używać octu o nieznanej kwasowości; używać tylko przepisów o przetestowanych proporcjach.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/",
+    "miejsce": "NCHFP (nchfp.uga.edu): General Information on Pickling",
+    "cytat": "Do not alter vinegar, food, or water proportions in a recipe or use a vinegar with unknown acidity.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b326e7775e9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-017",
+  "klucz": "uniform",
+  "twierdzenie": "W całym produkcie musi być minimalny, równomierny poziom kwasu, aby zapobiec rozwojowi bakterii jadu kiełbasianego.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/",
+    "miejsce": "NCHFP (nchfp.uga.edu): General Information on Pickling",
+    "cytat": "There must be a minimum, uniform level of acid throughout the mixed product to prevent the growth of botulinum bacteria.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b326e7775e9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-018",
+  "klucz": "vin5",
+  "twierdzenie": "Do pikli zalecany jest biały ocet destylowany i ocet jabłkowy o kwasowości 5% (50 grain).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/",
+    "miejsce": "NCHFP (nchfp.uga.edu): General Information on Pickling",
+    "cytat": "White distilled and cider vinegars of 5 percent acidity (50 grain) are recommended.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b326e7775e9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "kwasowość octu",
+  "wartosc": 5,
+  "jednostka": "%",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-019",
+  "klucz": "vin_color",
+  "twierdzenie": "Biały ocet wybiera się, gdy pożądany jest jasny kolor (np. owoce, kalafior) — wybór między białym a jabłkowym 5% jest w NCHFP kwestią koloru.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/",
+    "miejsce": "NCHFP (nchfp.uga.edu): General Information on Pickling",
+    "cytat": "White vinegar is usually preferred when light color is desirable, as is the case with fruits and cauliflower.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b326e7775e9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wniosek o wymienności octu białego i jabłkowego 5% wyprowadzony z ACI-vin5 i tego zdania; źródło nie pisze wprost „wymienne”.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-020",
+  "klucz": "bwb_pickles",
+  "twierdzenie": "Pasteryzacja pikli w kąpieli wodnej (wrzątku) zapobiega psuciu przez drożdże, pleśnie i enzymy.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/",
+    "miejsce": "NCHFP (nchfp.uga.edu): General Information on Pickling",
+    "cytat": "Processing the pickles in a boiling-water canner will prevent both of these problems.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b326e7775e9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-021",
+  "klucz": "ltp",
+  "twierdzenie": "Pasteryzacja niskotemperaturowa pikli: woda 180–185°F (ok. 82–85°C) przez 30 minut, tylko gdy przepis ją przewiduje.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/low-temperature-pasteurization-treatment/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Low-Temperature Pasteurization Treatment",
+    "cytat": "Heat the water enough to maintain 180º to 185º F water temperature for 30 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "25aa8d231bef"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/low-temperature-pasteurization-treatment/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Low-Temperature Pasteurization Treatment",
+    "cytat": "Caution: Use only when recipe indicates.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "25aa8d231bef"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie na °C zaokrąglone.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura wody",
+  "wartosc": "180-185",
+  "jednostka": "°F",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-022",
+  "klucz": "umn_fridge",
+  "twierdzenie": "Pikle lodówkowe nie są trwałe w temperaturze pokojowej, bo nie są pasteryzowane (wekowane).",
+  "zrodla": [
+   {
+    "adres": "https://extension.umn.edu/preserving-and-preparing/pickling-basics",
+    "miejsce": "University of Minnesota Extension: Preserving food at home: Pickling produce",
+    "cytat": "Refrigerator pickles These are not shelf-stable as they are not processed (canned).",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "e59efe37cff2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-023",
+  "klucz": "umn_fridge_opt",
+  "twierdzenie": "Pikle lodówkowe są dobrą opcją dla produktów, które nie mają przepisów do wekowania opartych na badaniach.",
+  "zrodla": [
+   {
+    "adres": "https://extension.umn.edu/preserving-and-preparing/pickling-basics",
+    "miejsce": "University of Minnesota Extension: Preserving food at home: Pickling produce",
+    "cytat": "Making refrigerator pickles is a great option for produce that do not have research-based canning recipes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "e59efe37cff2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-024",
+  "klucz": "umn_quick",
+  "twierdzenie": "Przepisy nazywane „quick pickled” nie są trwałe w temperaturze pokojowej — to w rzeczywistości pikle lodówkowe.",
+  "zrodla": [
+   {
+    "adres": "https://extension.umn.edu/preserving-and-preparing/pickling-basics",
+    "miejsce": "University of Minnesota Extension: Preserving food at home: Pickling produce",
+    "cytat": "some recipes might use the term “quick pickled,” but these are not shelf-stable and are actually refrigerator pickles.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "e59efe37cff2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-025",
+  "klucz": "squash_bb",
+  "twierdzenie": "USDA dopuszcza wariant pikli „bread-and-butter” z cienkiej (1–1,5 cala średnicy) cukinii lub żółtej dyni letniej zamiast ogórków, bez wariantu z wapnem.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 6: Fermented Foods and Pickled Vegetables",
+    "cytat": "Variation: Squash bread-and-butter pickles. Substitute slender (1 to 1-1/2 inches in diameter)",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94cbdc2b4f7c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf",
+    "miejsce": "USDA Complete Guide to Home Canning (2015), Guide 6: Fermented Foods and Pickled Vegetables",
+    "cytat": "zucchini or yellow summer squash for cucumbers. Do not use the liming variation.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94cbdc2b4f7c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-026",
+  "klucz": "psu_lowacid",
+  "twierdzenie": "Bakłażan, dynia letnia (cukinia, patison) i melony są żywnością niskokwasową o pH powyżej 4,6.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/the-uncanny-trio-eggplant-summer-squash-melon",
+    "miejsce": "Penn State Extension: The Uncanny Trio—Eggplant, Summer Squash, Melon (2024)",
+    "cytat": "Eggplant, summer squash, and melon are low acid foods having a pH above 4.6 .",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f2643479e448"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-027",
+  "klucz": "psu_notimes",
+  "twierdzenie": "Dla bakłażana, dyni letniej i melona wekowanych samodzielnie nie opracowano czasów USDA.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/the-uncanny-trio-eggplant-summer-squash-melon",
+    "miejsce": "Penn State Extension: The Uncanny Trio—Eggplant, Summer Squash, Melon (2024)",
+    "cytat": "As a result, no USDA process times have been developed for these products.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f2643479e448"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-028",
+  "klucz": "psu_melonpickle",
+  "twierdzenie": "Wyjątek: niektóre melony można pokroić w kostkę lub kulki i zamarynować (przepis zwiększający kwasowość).",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/the-uncanny-trio-eggplant-summer-squash-melon",
+    "miejsce": "Penn State Extension: The Uncanny Trio—Eggplant, Summer Squash, Melon (2024)",
+    "cytat": "Some melons can be cubed or cut into melon balls and pickled.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f2643479e448"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-029",
+  "klucz": "psu_broccoli",
+  "twierdzenie": "Kalafior, seler i ogórki występują w przetestowanych przepisach na pikle do kąpieli wodnej, brokuł — nie.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/the-uncanny-trio-eggplant-summer-squash-melon",
+    "miejsce": "Penn State Extension: The Uncanny Trio—Eggplant, Summer Squash, Melon (2024)",
+    "cytat": "All the above (except broccoli) may be found in recipes for pickled products processed in a boiling water bath.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f2643479e448"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-030",
+  "klucz": "wildmush",
+  "twierdzenie": "Nie wekować grzybów leśnych (dzikich); przetestowane wekowanie dotyczy tylko małych/średnich grzybów hodowlanych z zamkniętym kapeluszem.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mushrooms-whole-or-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mushrooms – Whole or Sliced",
+    "cytat": "Caution: Do not can wild mushrooms.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1f808143a32c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mushrooms-whole-or-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mushrooms – Whole or Sliced",
+    "cytat": "Select only brightly colored, small to medium-size domestic mushrooms with short stems, tight veils (unopened caps), and no discoloration.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1f808143a32c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-031",
+  "klucz": "marmush",
+  "twierdzenie": "Przepis NCHFP na marynowane całe grzyby (kąpiel wodna) wymaga bardzo świeżych, zamkniętych grzybów o kapeluszach poniżej 1-1/4 cala (ok. 3 cm).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-whole-mushrooms/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Marinated Whole Mushrooms",
+    "cytat": "Select very fresh unopened mushrooms with caps less than 1-1/4 inch in diameter.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e5048b66582b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "średnica kapelusza",
+  "wartosc": 1.25,
+  "jednostka": "cal",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-032",
+  "klucz": "eggs_nocan",
+  "twierdzenie": "Nie ma domowych instrukcji wekowania jaj marynowanych; wszystkie przepisy NCHFP są do przechowywania w lodówce.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Eggs",
+    "cytat": "There are no home canning directions for pickled eggs.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "302edf65fc98"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Eggs",
+    "cytat": "All of the following pickled egg recipes are for storage in the refrigerator.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "302edf65fc98"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-033",
+  "klucz": "eggs_botul",
+  "twierdzenie": "Domowe jaja marynowane przechowywane w temperaturze pokojowej powodowały zatrucia jadem kiełbasianym.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Eggs",
+    "cytat": "Home pickled eggs stored at room temperature have caused botulism.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "302edf65fc98"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-034",
+  "klucz": "eggs_2h",
+  "twierdzenie": "Jaja marynowane nie powinny przebywać w temperaturze pokojowej poza podawaniem, maksymalnie 2 godziny w strefie 40–140°F (ok. 4–60°C).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Eggs",
+    "cytat": "Pickled eggs should never be at room temperature except for serving time, when they should be limited to no more than 2 hours in the temperature danger zone of 40 to 140 degrees F.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "302edf65fc98"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas w temp. pokojowej",
+  "wartosc": 2,
+  "jednostka": "h",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-035",
+  "klucz": "horse_fridge",
+  "twierdzenie": "Przetestowany sos chrzanowy NCHFP (chrzan, ocet 5%, sól, kwas askorbinowy) przechowuje się w lodówce, nie weckuje.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-horseradish-sauce/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Horseradish Sauce",
+    "cytat": "Seal jars tightly and store in a refrigerator.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7e6bd73bc8b3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-036",
+  "klucz": "pumpkin_nopuree",
+  "twierdzenie": "Dyni ani dyni zimowej nie wolno wekować w postaci rozgniecionej ani przecieru (tylko kostka w szybkowarze).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/pumpkins-and-winter-squash-cubed/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pumpkins and Winter Squash – Cubed",
+    "cytat": "Caution: Do not mash or puree.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "04b9da7dcb43"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-037",
+  "klucz": "salsa_acid",
+  "twierdzenie": "Do wekowanych salsy trzeba dodać kwas, bo naturalna kwasowość może być niewystarczająca.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/ingredients-for-salsa-recipes/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Ingredients for Salsa Recipes",
+    "cytat": "You must add acid to canned salsas because the natural acidity may not be high enough.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2849552bb28c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-038",
+  "klucz": "salsa_vin",
+  "twierdzenie": "W salsach wolno zamienić ocet na tę samą ilość soku z cytryny, ale nie wolno zamieniać soku z cytryny na ocet (salsa byłaby mniej kwaśna i potencjalnie niebezpieczna).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/ingredients-for-salsa-recipes/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Ingredients for Salsa Recipes",
+    "cytat": "Do not substitute vinegar for lemon juice.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2849552bb28c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-039",
+  "klucz": "salsa_vin5",
+  "twierdzenie": "Do salsy używać tylko octu o kwasowości co najmniej 5% i tylko butelkowanego soku z cytryny.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/ingredients-for-salsa-recipes/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Ingredients for Salsa Recipes",
+    "cytat": "Use only vinegar that is at least 5% acid and use only commercially bottled lemon juice.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2849552bb28c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "kwasowość octu",
+  "wartosc": 5,
+  "jednostka": "%",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-040",
+  "klucz": "salsa_pep",
+  "twierdzenie": "Nie zwiększać łącznej ilości papryki w przepisie na salsę (można zamieniać rodzaje papryki).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/ingredients-for-salsa-recipes/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Ingredients for Salsa Recipes",
+    "cytat": "Do not increase the total amount of peppers in any recipe.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2849552bb28c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-041",
+  "klucz": "salsa_tested",
+  "twierdzenie": "Nie wekować salsy, która nie trzyma się przepisu przetestowanego; taką można zamrozić lub trzymać w lodówce.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/ingredients-for-salsa-recipes/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Ingredients for Salsa Recipes",
+    "cytat": "Do not can salsas that do not follow these or other research tested recipes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2849552bb28c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/ingredients-for-salsa-recipes/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Ingredients for Salsa Recipes",
+    "cytat": "(They may be frozen or stored in the refrigerator.)",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2849552bb28c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-042",
+  "klucz": "salsa_thick",
+  "twierdzenie": "Nie zagęszczać salsy mąką ani skrobią przed wekowaniem.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/ingredients-for-salsa-recipes/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Ingredients for Salsa Recipes",
+    "cytat": "Do not thicken salsas with flour or cornstarch before canning.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2849552bb28c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-043",
+  "klucz": "salsa_green",
+  "twierdzenie": "W przepisach na salsę z Washington State University można zastąpić pomidory zielonymi pomidorami lub tomatillo.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/ingredients-for-salsa-recipes/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Ingredients for Salsa Recipes",
+    "cytat": "You may substitute green tomatoes or tomatillos for tomatoes in any of the salsa recipes developed by Washington State University.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2849552bb28c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-044",
+  "klucz": "tomato_acid",
+  "twierdzenie": "Do pomidorów całych, kruszonych i soku dodaje się na słoik 1 qt (ok. 0,95 l) 2 łyżki butelkowanego soku z cytryny albo 1/2 łyżeczki kwasu cytrynowego.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/canning-tomatoes-introduction/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Canning Tomatoes, Introduction",
+    "cytat": "To ensure safe acidity in whole, crushed, or juiced tomatoes, add two tablespoons of bottled lemon juice or 1/2 teaspoon of citric acid per quart of tomatoes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "79835c156d8c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "kwas cytrynowy na słoik 1 qt",
+  "wartosc": 0.5,
+  "jednostka": "łyżeczki",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-045",
+  "klucz": "tomato_acid_pt",
+  "twierdzenie": "Na słoik 1 pt (ok. 0,47 l) pomidorów: 1 łyżka butelkowanego soku z cytryny albo 1/4 łyżeczki kwasu cytrynowego.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/canning-tomatoes-introduction/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Canning Tomatoes, Introduction",
+    "cytat": "For pints, use one tablespoon bottled lemon juice or 1/4 teaspoon citric acid.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "79835c156d8c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "kwas cytrynowy na słoik 1 pt",
+  "wartosc": 0.25,
+  "jednostka": "łyżeczki",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-046",
+  "klucz": "tomato_vin",
+  "twierdzenie": "Zamiast soku z cytryny lub kwasu cytrynowego można dodać 4 łyżki octu 5% na słoik 1 qt pomidorów (może zmienić smak).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/canning-tomatoes-introduction/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Canning Tomatoes, Introduction",
+    "cytat": "Four tablespoons of a 5 percent acidity vinegar per quart may be used instead of lemon juice or citric acid.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "79835c156d8c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "ocet 5% na słoik 1 qt",
+  "wartosc": 4,
+  "jednostka": "łyżki",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-047",
+  "klucz": "tomato_noomit",
+  "twierdzenie": "Do pomidorów można dodać cukier dla złagodzenia smaku, ale nie wolno pominąć kwasu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-acidification-directions/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato acidification directions",
+    "cytat": "If desired, add sugar to balance the acidic taste, but do not leave acid out.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "9e6b0421ce91"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-048",
+  "klucz": "tomato_pressacid",
+  "twierdzenie": "Zakwaszanie pomidorów jest wymagane także w wariantach z szybkowarem — te czasy nie były opracowane dla pomidorów bez kwasu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/canning-tomatoes-introduction/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Canning Tomatoes, Introduction",
+    "cytat": "The pressure processing options in these products were not developed for tomatoes without added acid.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "79835c156d8c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-049",
+  "klucz": "tomato_frost",
+  "twierdzenie": "Nie wekować pomidorów z obumarłych lub przemarzniętych krzaków.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/canning-tomatoes-introduction/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Canning Tomatoes, Introduction",
+    "cytat": "Caution: Do not can tomatoes from dead or frost-killed vines.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "79835c156d8c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-050",
+  "klucz": "tomato_green",
+  "twierdzenie": "Zielone pomidory są kwaśniejsze od dojrzałych i można je wekować według tych samych zaleceń (z zakwaszeniem).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/canning-tomatoes-introduction/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Canning Tomatoes, Introduction",
+    "cytat": "Green tomatoes are more acidic than ripened fruit and can be canned safely with any of the following recommendations.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "79835c156d8c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-051",
+  "klucz": "t_juice",
+  "twierdzenie": "Sok pomidorowy (zakwaszony), kąpiel wodna, hot pack, 0–1000 stóp: słoiki 1 pt 35 min, 1 qt 40 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-juice/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Juice",
+    "cytat": "Hot Pints 35 min 40 45 50 Quarts 40 45 50 55",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d9a17a46bed0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (1 qt)",
+  "wartosc": 40,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-052",
+  "klucz": "t_sauce",
+  "twierdzenie": "Standardowy sos pomidorowy (passata, zakwaszony), kąpiel wodna, 0–1000 stóp: 1 pt 35 min, 1 qt 40 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/standard-tomato-sauce/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Standard Tomato Sauce",
+    "cytat": "Hot Pints 35 min 40 45 50 Quarts 40 45 50 55",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "87ebc5e92da8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (1 qt)",
+  "wartosc": 40,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-053",
+  "klucz": "t_whole",
+  "twierdzenie": "Pomidory całe lub połówki w soku pomidorowym (zakwaszone), kąpiel wodna, 0–1000 stóp: 85 min dla słoików 1 pt i 1 qt.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-in-tomato-juice/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Whole or Halved Tomatoes (packed in tomato juice)",
+    "cytat": "Hot & Raw Pints or Quarts 85 min 90 95 100",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "770e14fac937"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej",
+  "wartosc": 85,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-054",
+  "klucz": "t_raw",
+  "twierdzenie": "Pomidory całe lub połówki bez dodatku płynu (raw pack, zakwaszone), kąpiel wodna, 0–1000 stóp: 85 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-raw-without-added-liquid/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Whole or Halved Tomatoes (packed raw without added liquid)",
+    "cytat": "Raw Pints or Quarts 85 min 90 95 100",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4e4c6abcad49"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej",
+  "wartosc": 85,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-055",
+  "klucz": "t_paste",
+  "twierdzenie": "Koncentrat pomidorowy NCHFP: kwas cytrynowy dodaje się do przetartych pomidorów przed odparowaniem (nie do słoików); słoiki 1/2 pt 45 min w kąpieli wodnej (0–1000 stóp).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Paste",
+    "cytat": "The citric acid in this recipe needs to be added into the sieved tomatoes before they are cooked down into paste (Step 4).",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1f40f378d9b5"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Paste",
+    "cytat": "Hot Half-pints 45 50 55 60",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1f40f378d9b5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (1/2 pt)",
+  "wartosc": 45,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-056",
+  "klucz": "t_ketchup",
+  "twierdzenie": "Keczup pomidorowy NCHFP (ocet jabłkowy 5%), kąpiel wodna, słoiki 1 pt: 15 min (0–1000 stóp).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-ketchup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Ketchup",
+    "cytat": "3 cups cider vinegar (5 percent)",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b571fa11f79a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-ketchup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Ketchup",
+    "cytat": "Hot Pints 15 min 20 25",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b571fa11f79a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej",
+  "wartosc": 15,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-057",
+  "klucz": "t_meat",
+  "twierdzenie": "Sos spaghetti z mięsem to żywność niskokwasowa — tylko szybkowar; 1 pt 60 min, 1 qt 70 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/spaghetti-sauce-with-meat/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Spaghetti Sauce with Meat",
+    "cytat": "This recipe is considered a low-acid food and must be processed in a pressure canner for safety.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a7172fd083e8"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/spaghetti-sauce-with-meat/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Spaghetti Sauce with Meat",
+    "cytat": "Hot Pints 60 min 11 lb 12 lb 13 lb 14 lb Quarts 70 11 12 13 14",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a7172fd083e8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas w szybkowarze (1 qt)",
+  "wartosc": 70,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-058",
+  "klucz": "t_nomeat_prop",
+  "twierdzenie": "W sosie spaghetti bez mięsa nie zwiększać proporcji cebuli, papryki ani grzybów; przepis jest niskokwasowy i wymaga szybkowaru.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/spaghetti-sauce-without-meat/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Spaghetti Sauce without Meat",
+    "cytat": "Caution: Do not increase the proportion of onions, peppers, or mushrooms.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6c34ff5f6764"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/spaghetti-sauce-without-meat/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Spaghetti Sauce without Meat",
+    "cytat": "This recipe is considered a low-acid food and must be processed in a pressure canner for safety.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6c34ff5f6764"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-059",
+  "klucz": "t_zucchini",
+  "twierdzenie": "Pomidory z okrą lub cukinią (ok. 3 funty pomidorów na 1 funt cukinii) to żywność niskokwasowa — tylko szybkowar; 1 pt 30 min, 1 qt 35 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatoes with Okra or Zucchini",
+    "cytat": "This recipe is considered a low-acid food and must be processed in a pressure canner for safety.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5e3b5aab2e0a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatoes with Okra or Zucchini",
+    "cytat": "Hot Pints 30 min 11 lb 12 lb 13 lb 14 lb Quarts 35 11 12 13 14",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5e3b5aab2e0a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas w szybkowarze (1 qt)",
+  "wartosc": 35,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-060",
+  "klucz": "tomatillo_acid",
+  "twierdzenie": "Tomatillo w wodzie wymagają zakwaszenia jak pomidory; kąpiel wodna 0–1000 stóp: 1 pt 40 min, 1 qt 45 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatillos-packed-in-water/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatillos (packed in water)",
+    "cytat": "Add bottled lemon juice or citric acid to jars  (see  acidification directions ).",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7739d525d98b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatillos-packed-in-water/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatillos (packed in water)",
+    "cytat": "Hot Pints 40 min 45 50 55 Quarts 45 50 55 60",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7739d525d98b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (1 qt)",
+  "wartosc": 45,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-061",
+  "klucz": "figs_acid",
+  "twierdzenie": "Figi do wekowania: 2 łyżki butelkowanego soku z cytryny na słoik 1 qt lub 1 łyżka na 1 pt, albo 1/2 łyżeczki kwasu cytrynowego na 1 qt lub 1/4 na 1 pt.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/figs/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Figs",
+    "cytat": "Add 2 tablespoons bottled lemon juice per quart or 1 tablespoon per pint to the jars; or add 1/2 teaspoon citric acid per quart or 1/4 teaspoon per pint to the jars.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3584fcf64ef7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "kwas cytrynowy na słoik 1 qt",
+  "wartosc": 0.5,
+  "jednostka": "łyżeczki",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-062",
+  "klucz": "figs_time",
+  "twierdzenie": "Figi w lekkim syropie (zakwaszone), kąpiel wodna, 0–1000 stóp: 1 pt 45 min, 1 qt 50 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/figs/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Figs",
+    "cytat": "Hot Pints 45 min 50 55 60 Quarts 50 55 60 65",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3584fcf64ef7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (1 qt)",
+  "wartosc": 50,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-063",
+  "klucz": "asian_acid",
+  "twierdzenie": "Wszystkie domowe gruszki azjatyckie muszą być zakwaszone przed kąpielą wodną (1 łyżka butelkowanego soku z cytryny na 1 pt, 2 łyżki na 1 qt).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pears-asian/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pears, Asian",
+    "cytat": "All home canned Asian Pears must be acidified before canning in a boiling water canner to make them safe from the microorganism that causes botulism.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0c52a9f88238"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pears-asian/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pears, Asian",
+    "cytat": "Add 1 tablespoon bottled lemon juice per pint jar or 2 tablespoons per quart jar.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0c52a9f88238"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-064",
+  "klucz": "asian_border",
+  "twierdzenie": "Gruszki azjatyckie są graniczne pod względem kwasowości (borderline low-acid); procedurę zakwaszania opracowało Oregon State University.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pears-asian/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pears, Asian",
+    "cytat": "The acidification procedure for borderline low-acid Asian pears was developed in their laboratories.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0c52a9f88238"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-065",
+  "klucz": "purees",
+  "twierdzenie": "Zaleceń NCHFP dla przecierów owocowych nie stosuje się do bananów, daktyli, fig, gruszek azjatyckich, pomidorów, kantalupa i innych melonów, papai, persymony, dojrzałego mango ani kokosa.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/fruit-purees/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Fruit Pureés",
+    "cytat": "Caution: These recommendations should not be used with bananas, dates, figs, Asian pears, tomatoes, cantaloupe and other melons, papaya, persimmons, ripe mango or coconut.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ba7574ae4aa4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-066",
+  "klucz": "sdsu_wm",
+  "twierdzenie": "NCHFP nie zaleca wekowania arbuza (SDSU Extension).",
+  "zrodla": [
+   {
+    "adres": "https://extension.sdstate.edu/sites/default/files/2024-04/S-0001-42-Watermelon-Preserve_It.pdf",
+    "miejsce": "South Dakota State University Extension: Watermelon (Preserve It), 2024",
+    "cytat": "The National Center for Home Food Preservation does not",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "71efa72bcd63"
+   },
+   {
+    "adres": "https://extension.sdstate.edu/sites/default/files/2024-04/S-0001-42-Watermelon-Preserve_It.pdf",
+    "miejsce": "South Dakota State University Extension: Watermelon (Preserve It), 2024",
+    "cytat": "recommend canning watermelon.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "71efa72bcd63"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-067",
+  "klucz": "syrup",
+  "twierdzenie": "Syrop w wekowanych owocach chroni smak, kolor i kształt, ale nie zapobiega zepsuciu; owoce można pakować w syropie bardzo lekkim (ok. 10% cukru) do ciężkiego, w soku lub wodzie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Preparing and Using Syrups for Canning Fruit",
+    "cytat": "It does not prevent spoilage of these foods.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e16de398eeee"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Preparing and Using Syrups for Canning Fruit",
+    "cytat": "Very Light 10 6-1/2 3/4 10-1/2 1-1/4",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e16de398eeee"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-068",
+  "klucz": "berries_list",
+  "twierdzenie": "Instrukcje NCHFP dla całych owoców jagodowych dotyczą tylko: jeżyn, borówek, porzeczek, dewberry, agrestu, huckleberry, loganberry, morwy i malin (truskawek i bzu brak na liście).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole",
+    "cytat": "Blackberries, blueberries, currants, dewberries, gooseberries, huckleberries, loganberries, mulberries, raspberries.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ec2bd5d24dec"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole",
+    "cytat": "Use these directions only with the berries listed.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ec2bd5d24dec"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-069",
+  "klucz": "f_berries",
+  "twierdzenie": "Całe owoce jagodowe z listy, kąpiel wodna, 0–1000 stóp: hot pack 1 pt i 1 qt 15 min; raw pack 1 pt 15 min, 1 qt 20 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole",
+    "cytat": "Hot Pints or Quarts 15 min 20 20 25 Raw Pints 15 20 20 25 Quarts 20 25 30 35",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ec2bd5d24dec"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (hot, 1 qt)",
+  "wartosc": 15,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-070",
+  "klucz": "f_cherries",
+  "twierdzenie": "Wiśnie i czereśnie całe, kąpiel wodna, 0–1000 stóp: hot pack 1 pt 15 min, 1 qt 20 min; raw pack 25 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cherries-Whole",
+    "cytat": "Hot Pints 15 min 20 20 25 Quarts 20 25 30 35 Raw Pints or Quarts 25 30 35 40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "74cc552d518e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (hot, 1 qt)",
+  "wartosc": 20,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-071",
+  "klucz": "f_apples",
+  "twierdzenie": "Jabłka w plastrach (hot pack; raw pack daje słabą jakość), kąpiel wodna, 0–1000 stóp: 20 min dla 1 pt i 1 qt.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apples-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apples-Sliced",
+    "cytat": "Hot Pints or Quarts 20 min 25 30 35",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "54dc5e070982"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej",
+  "wartosc": 20,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-072",
+  "klucz": "f_apricots",
+  "twierdzenie": "Morele połówki/plastry, kąpiel wodna, 0–1000 stóp: hot pack 1 pt 20 min, 1 qt 25 min; raw pack 1 pt 25 min, 1 qt 30 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricots-Halved or Sliced",
+    "cytat": "Hot Pints 20 min 25 30 35 Quarts 25 30 35 40 Raw Pints 25 30 35 40 Quarts 30 35 40 45",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e5c5c57c8540"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (hot, 1 qt)",
+  "wartosc": 25,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-073",
+  "klucz": "f_peaches",
+  "twierdzenie": "Brzoskwinie połówki/plastry, kąpiel wodna, 0–1000 stóp: hot pack 1 pt 20 min, 1 qt 25 min; raw pack 1 pt 25 min, 1 qt 30 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peaches-Halved or Sliced",
+    "cytat": "Hot Pints 20 min 25 30 35 Quarts 25 min 30 35 40 Raw Pints 25 min 30 35 40 Quarts 30 min 35 40 45",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "245688b4abb6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (hot, 1 qt)",
+  "wartosc": 25,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-074",
+  "klucz": "f_pears",
+  "twierdzenie": "Gruszki połówki (hot pack), kąpiel wodna, 0–1000 stóp: 1 pt 20 min, 1 qt 25 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pears-halved/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pears-Halved",
+    "cytat": "Hot Pints 20 min 25 30 35 Quarts 25 min 30 35 40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "9e866e44d160"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (1 qt)",
+  "wartosc": 25,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-075",
+  "klucz": "f_plums",
+  "twierdzenie": "Śliwki połówki lub całe, kąpiel wodna, 0–1000 stóp: 1 pt 20 min, 1 qt 25 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/plums-halved-or-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Plums-Halved or Whole",
+    "cytat": "Hot and Raw Pints 20 min 25 30 35 Quarts 25 min 30 35 40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e411d79482b0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (1 qt)",
+  "wartosc": 25,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-076",
+  "klucz": "f_pineapple",
+  "twierdzenie": "Ananas (hot pack), kąpiel wodna, 0–1000 stóp: 1 pt 15 min, 1 qt 20 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pineapple/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pineapple",
+    "cytat": "Hot Pints 15 min 20 20 25 Quarts 20 min 25 30 35",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e2747afab639"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (1 qt)",
+  "wartosc": 20,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-077",
+  "klucz": "f_rhubarb",
+  "twierdzenie": "Rabarbar duszony z cukrem (hot pack), kąpiel wodna, 0–1000 stóp: 15 min dla 1 pt i 1 qt.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/rhubarb-stewed/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Rhubarb-Stewed",
+    "cytat": "Hot Pints or Quarts 15 min 20 25",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f116a5fbd9e9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej",
+  "wartosc": 15,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-078",
+  "klucz": "f_grapes",
+  "twierdzenie": "Winogrona całe, kąpiel wodna, 0–1000 stóp: hot pack 10 min; raw pack 1 pt 15 min, 1 qt 20 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/grapes-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Grapes Whole",
+    "cytat": "Hot Pint or Quarts 10 min 15 15 20 Raw Pints 15 20 20 25 Quarts 20 25 30 35",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7ee4dd5a63e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (raw, 1 qt)",
+  "wartosc": 20,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-079",
+  "klucz": "f_applejuice",
+  "twierdzenie": "Sok jabłkowy (hot, do wysterylizowanych słoików), kąpiel wodna, 0–1000 stóp: 1 pt i 1 qt 5 min, 1/2 galona 10 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-juice/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apple Juice",
+    "cytat": "Hot Pints or Quarts 5 min 10 15 Half-Gallons 10 min 15 20",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4ca1170f95ac"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (1 qt)",
+  "wartosc": 5,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-080",
+  "klucz": "f_grapejuice",
+  "twierdzenie": "Sok winogronowy, kąpiel wodna, 0–1000 stóp: 1 pt i 1 qt 5 min, 1/2 galona 10 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/grape-juice/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Grape Juice",
+    "cytat": "Hot Pints or Quarts 5 min 10 15 Half-Gallons 10min 15 20",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a083f72ca7de"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kąpieli wodnej (1 qt)",
+  "wartosc": 5,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-081",
+  "klucz": "ph_cucumber",
+  "twierdzenie": "Przybliżone pH: Cucumbers — 5,12–5,78 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Cucumbers                                5.12 - 5.78",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.12 - 5.78",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-082",
+  "klucz": "ph_cabbage",
+  "twierdzenie": "Przybliżone pH: Cabbage — 5,20–6,80 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Cabbage                                  5.20 - 6.80",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.20 - 6.80",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-083",
+  "klucz": "ph_cauliflower",
+  "twierdzenie": "Przybliżone pH: Cauliflower — 5,60 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Cauliflower                              5.60",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.60",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-084",
+  "klucz": "ph_broccoli",
+  "twierdzenie": "Przybliżone pH: Broccoli, cooked — 6,30–6,52 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Broccoli, cooked                         6.30 - 6.52",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6.30 - 6.52",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-085",
+  "klucz": "ph_brussels",
+  "twierdzenie": "Przybliżone pH: Brussels sprout — 6,00–6,30 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Brussels sprout                          6.00 - 6.30",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6.00 - 6.30",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-086",
+  "klucz": "ph_zucchini",
+  "twierdzenie": "Przybliżone pH: Zucchini, cooked — 5,69–6,10 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Zucchini, cooked                                       5.69 - 6.10",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.69 - 6.10",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-087",
+  "klucz": "ph_squashwhite",
+  "twierdzenie": "Przybliżone pH: Squash, white, cooked — 5,52–5,80 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Squash, white, cooked                  5.52 - 5.80",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.52 - 5.80",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-088",
+  "klucz": "ph_pumpkin",
+  "twierdzenie": "Przybliżone pH: Pumpkin — 4,90–5,50 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Pumpkin                                  4.90 - 5.50",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "4.90 - 5.50",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-089",
+  "klucz": "ph_spinach",
+  "twierdzenie": "Przybliżone pH: Spinach — 5,50–6,80 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Spinach                                5.50 - 6.80",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.50 - 6.80",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-090",
+  "klucz": "ph_chard",
+  "twierdzenie": "Przybliżone pH: Swiss Chard, cooked — 6,17–6,78 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Swiss Chard, cooked                    6.17 - 6.78",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6.17 - 6.78",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-091",
+  "klucz": "ph_lettuce",
+  "twierdzenie": "Przybliżone pH: Lettuce — 5,80–6,15 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Lettuce                                  5.80 - 6.15",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.80 - 6.15",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-092",
+  "klucz": "ph_watercress",
+  "twierdzenie": "Przybliżone pH: Watercress — 5,88–6,18 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Watercress                                             5.88 - 6.18",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.88 - 6.18",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-093",
+  "klucz": "ph_tomato",
+  "twierdzenie": "Przybliżone pH: Tomatoes — 4,30–4,90 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Tomatoes                               4.30 - 4.90",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "4.30 - 4.90",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-094",
+  "klucz": "ph_peppers",
+  "twierdzenie": "Przybliżone pH: Peppers — 4,65–5,45 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Peppers                                  4.65 - 5.45",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "4.65 - 5.45",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-095",
+  "klucz": "ph_eggplant",
+  "twierdzenie": "Przybliżone pH: Eggplant — 5,50–6,50 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Eggplant                                 5.50 - 6.50",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.50 - 6.50",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-096",
+  "klucz": "ph_potato",
+  "twierdzenie": "Przybliżone pH: Potatoes — 5,40–5,90 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Potatoes                                 5.40 - 5.90",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.40 - 5.90",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-097",
+  "klucz": "ph_sunchoke",
+  "twierdzenie": "Przybliżone pH: Artichokes, Jerusalem, cooked — 5,93–6,00 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Artichokes, Jerusalem, cooked             5.93 - 6.00",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.93 - 6.00",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-098",
+  "klucz": "ph_tomatillo",
+  "twierdzenie": "Przybliżone pH: Tomatillo (resembling Cherry tomatoes) — 3,83 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Tomatillo (resembling Cherry tomatoes) 3.83",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.83",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-099",
+  "klucz": "ph_string",
+  "twierdzenie": "Przybliżone pH: String — 5,60 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "String                               5.60",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.60",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-100",
+  "klucz": "ph_chickpea",
+  "twierdzenie": "Przybliżone pH: Peas, Chick, Garbanzo — 6,48–6,80 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Peas, Chick, Garbanzo                    6.48 - 6.80",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6.48 - 6.80",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-101",
+  "klucz": "ph_peas",
+  "twierdzenie": "Przybliżone pH: Peas, cooked — 6,22–6,88 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Peas, cooked                             6.22 - 6.88",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6.22 - 6.88",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-102",
+  "klucz": "ph_beans",
+  "twierdzenie": "Przybliżone pH: Beans — 5,60–6,50 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Beans                                     5.60 - 6.50",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.60 - 6.50",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-103",
+  "klucz": "ph_soy",
+  "twierdzenie": "Przybliżone pH: Soy — 6,00–6,60 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Soy                                  6.00 - 6.60",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6.00 - 6.60",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-104",
+  "klucz": "ph_beets",
+  "twierdzenie": "Przybliżone pH: Beets — 5,30–6,60 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Beets                                     5.30 - 6.60",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.30 - 6.60",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-105",
+  "klucz": "ph_carrots",
+  "twierdzenie": "Przybliżone pH: Carrots — 5,88–6,40 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Carrots                                  5.88 - 6.40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.88 - 6.40",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-106",
+  "klucz": "ph_garlic",
+  "twierdzenie": "Przybliżone pH: Garlic — 5,80 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Garlic                                   5.80",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.80",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-107",
+  "klucz": "ph_onionw",
+  "twierdzenie": "Przybliżone pH: Onion white — 5,37–5,85 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Onion white                              5.37 - 5.85",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.37 - 5.85",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-108",
+  "klucz": "ph_shallot",
+  "twierdzenie": "Przybliżone pH: Shallots, cooked — 5,30–5,70 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Shallots, cooked                         5.30 - 5.70",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.30 - 5.70",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-109",
+  "klucz": "ph_leeks",
+  "twierdzenie": "Przybliżone pH: Leeks — 5,50–6,17 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Leeks                                    5.50 - 6.17",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.50 - 6.17",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-110",
+  "klucz": "ph_chives",
+  "twierdzenie": "Przybliżone pH: Chives — 5,20–6,31 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Chives                                   5.20 - 6.31",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.20 - 6.31",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-111",
+  "klucz": "ph_radw",
+  "twierdzenie": "Przybliżone pH: Radishes, white — 5,52–5,69 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Radishes, white                          5.52 - 5.69",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.52 - 5.69",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-112",
+  "klucz": "ph_radr",
+  "twierdzenie": "Przybliżone pH: Radishes, red — 5,85–6,05 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Radishes, red                            5.85 - 6.05",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.85 - 6.05",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-113",
+  "klucz": "ph_horse",
+  "twierdzenie": "Przybliżone pH: Horseradish, freshly ground — 5,35 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Horseradish, freshly ground              5.35",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.35",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-114",
+  "klucz": "ph_celery",
+  "twierdzenie": "Przybliżone pH: Celery — 5,70–6,00 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Celery                                   5.70 - 6.00",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.70 - 6.00",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-115",
+  "klucz": "ph_celeriac",
+  "twierdzenie": "Przybliżone pH: Celery Knob, cooked — 5,71–5,85 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Celery Knob, cooked                      5.71 - 5.85",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.71 - 5.85",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-116",
+  "klucz": "ph_parsnip",
+  "twierdzenie": "Przybliżone pH: Parsnip — 5,30–5,70 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Parsnip                                  5.30 - 5.70",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.30 - 5.70",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-117",
+  "klucz": "ph_parsley",
+  "twierdzenie": "Przybliżone pH: Parsley — 5,70–6,00 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Parsley                                  5.70 - 6.00",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.70 - 6.00",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-118",
+  "klucz": "ph_turnip",
+  "twierdzenie": "Przybliżone pH: Turnips — 5,29–5,90 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Turnips                                                5.29 - 5.90",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.29 - 5.90",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-119",
+  "klucz": "ph_asparagus",
+  "twierdzenie": "Przybliżone pH: Asparagus — 6,00–6,70 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Asparagus                                 6.00 - 6.70",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6.00 - 6.70",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-120",
+  "klucz": "ph_fennel",
+  "twierdzenie": "Przybliżone pH: Fennel (Anise) — 5,48–5,88 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Fennel (Anise)                           5.48 - 5.88",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.48 - 5.88",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-121",
+  "klucz": "ph_artichoke",
+  "twierdzenie": "Przybliżone pH: Artichokes — 5,50–6,00 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Artichokes                                5.50 - 6.00",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.50 - 6.00",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-122",
+  "klucz": "ph_corn",
+  "twierdzenie": "Przybliżone pH: Corn — 5,90–7,30 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Corn                                     5.90 - 7.30",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.90 - 7.30",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-123",
+  "klucz": "ph_olives",
+  "twierdzenie": "Przybliżone pH: Olives, ripe — 6,00 -7,50 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Olives, ripe                             6.00 -7.50",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6.00 -7.50",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-124",
+  "klucz": "ph_capers",
+  "twierdzenie": "Przybliżone pH: Capers — 6,00 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Capers                                   6.00",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6.00",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-125",
+  "klucz": "ph_ginger",
+  "twierdzenie": "Przybliżone pH: Ginger — 5,60–5,90 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Ginger                                   5.60 - 5.90",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.60 - 5.90",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-126",
+  "klucz": "ph_apple",
+  "twierdzenie": "Przybliżone pH: Apple, eating — 3,30–4,00 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Apple, eating                                       3.30 - 4.00",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.30 - 4.00",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-127",
+  "klucz": "ph_pear",
+  "twierdzenie": "Przybliżone pH: Pears, Bartlett — 3,50–4,60 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Pears, Bartlett                          3.50 - 4.60",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.50 - 4.60",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-128",
+  "klucz": "ph_quince",
+  "twierdzenie": "Przybliżone pH: Quince, fresh, stewed — 3,12–3,40 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Quince, fresh, stewed                    3.12 - 3.40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.12 - 3.40",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-129",
+  "klucz": "ph_plumblue",
+  "twierdzenie": "Przybliżone pH: Plums, Blue — 2,80–3,40 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Plums, Blue                              2.80 - 3.40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "2.80 - 3.40",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-130",
+  "klucz": "ph_plumyellow",
+  "twierdzenie": "Przybliżone pH: Plums, Yellow — 3,90–4,45 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Plums, Yellow                            3.90 - 4.45",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.90 - 4.45",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-131",
+  "klucz": "ph_cherryred",
+  "twierdzenie": "Przybliżone pH: Cherries, red, Water pack — 3,25–3,82 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Cherries, red, Water pack                3.25 - 3.82",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.25 - 3.82",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-132",
+  "klucz": "ph_cherrycal",
+  "twierdzenie": "Przybliżone pH: Cherries, California — 4,01–4,54 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Cherries, California                     4.01 - 4.54",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "4.01 - 4.54",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-133",
+  "klucz": "ph_peach",
+  "twierdzenie": "Przybliżone pH: Peaches — 3,30–4,05 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Peaches                                  3.30 - 4.05",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.30 - 4.05",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-134",
+  "klucz": "ph_nectarine",
+  "twierdzenie": "Przybliżone pH: Nectarines — 3,92–4,18 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Nectarines                               3.92 - 4.18",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.92 - 4.18",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-135",
+  "klucz": "ph_apricot",
+  "twierdzenie": "Przybliżone pH: Apricots — 3,30–4,80 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Apricots                                            3.30 - 4.80",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.30 - 4.80",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-136",
+  "klucz": "ph_strawberry",
+  "twierdzenie": "Przybliżone pH: Strawberries — 3,00–3,90 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Strawberries                           3.00 - 3.90",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.00 - 3.90",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-137",
+  "klucz": "ph_raspberry",
+  "twierdzenie": "Przybliżone pH: Raspberries — 3,22–3,95 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Raspberries                              3.22 - 3.95",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.22 - 3.95",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-138",
+  "klucz": "ph_blackberry",
+  "twierdzenie": "Przybliżone pH: Blackberries, Washington — 3,85–4,50 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Blackberries, Washington                 3.85 - 4.50",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.85 - 4.50",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-139",
+  "klucz": "ph_gooseberry",
+  "twierdzenie": "Przybliżone pH: Gooseberries — 2,80–3,10 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Gooseberries                             2.80 - 3.10",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "2.80 - 3.10",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-140",
+  "klucz": "ph_blueberry",
+  "twierdzenie": "Przybliżone pH: Blueberries, Maine — 3,12–3,33 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Blueberries, Maine                       3.12 - 3.33",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.12 - 3.33",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-141",
+  "klucz": "ph_cranjuice",
+  "twierdzenie": "Przybliżone pH: Cranberry Juice, canned — 2,30–2,52 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Cranberry Juice, canned                  2.30 - 2.52",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "2.30 - 2.52",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-142",
+  "klucz": "ph_grapes",
+  "twierdzenie": "Przybliżone pH: Grapes, Concord — 2,80–3,00 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Grapes, Concord                          2.80 - 3.00",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "2.80 - 3.00",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-143",
+  "klucz": "ph_rhubarb",
+  "twierdzenie": "Przybliżone pH: Rhubarb — 3,10–3,40 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Rhubarb                                  3.10 - 3.40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.10 - 3.40",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-144",
+  "klucz": "ph_lemon",
+  "twierdzenie": "Przybliżone pH: Lemon Juice — 2,00–2,60 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Lemon Juice                              2.00 - 2.60",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "2.00 - 2.60",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-145",
+  "klucz": "ph_lime",
+  "twierdzenie": "Przybliżone pH: Lime — 2,00–2,80 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Lime                                     2.00 - 2.80",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "2.00 - 2.80",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-146",
+  "klucz": "ph_orange",
+  "twierdzenie": "Przybliżone pH: Oranges, Florida — 3,69–4,34 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Oranges, Florida                         3.69 - 4.34",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.69 - 4.34",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-147",
+  "klucz": "ph_kumquat",
+  "twierdzenie": "Przybliżone pH: Kumquat, Florida — 3,64–4,25 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Kumquat, Florida                         3.64 - 4.25",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.64 - 4.25",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-148",
+  "klucz": "ph_grapefruit",
+  "twierdzenie": "Przybliżone pH: Grapefruit — 3,00–3,75 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Grapefruit                               3.00 - 3.75",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.00 - 3.75",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-149",
+  "klucz": "ph_papaya",
+  "twierdzenie": "Przybliżone pH: Papaya — 5,20–6,00 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Papaya                                   5.20 - 6.00",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.20 - 6.00",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-150",
+  "klucz": "ph_mangoripe",
+  "twierdzenie": "Przybliżone pH: Mangoes, ripe — 3,40–4,80 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Mangoes, ripe                            3.40 - 4.80",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.40 - 4.80",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-151",
+  "klucz": "ph_mangogreen",
+  "twierdzenie": "Przybliżone pH: Mangoes, green — 5,80–6,00 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Mangoes, green                           5.80 - 6.00",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.80 - 6.00",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-152",
+  "klucz": "ph_banana",
+  "twierdzenie": "Przybliżone pH: Banana, yellow — 5,00–5,29 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Banana, yellow                            5.00 - 5.29",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.00 - 5.29",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-153",
+  "klucz": "ph_pineapple",
+  "twierdzenie": "Przybliżone pH: Pineapple — 3,20–4,00 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Pineapple                                3.20 - 4.00",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.20 - 4.00",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-154",
+  "klucz": "ph_fig",
+  "twierdzenie": "Przybliżone pH: Figs, Calamyrna — 5,05–5,98 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Figs, Calamyrna                          5.05 - 5.98",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.05 - 5.98",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-155",
+  "klucz": "ph_pomegranate",
+  "twierdzenie": "Przybliżone pH: Pomegranate — 2,93–3,20 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Pomegranate                              2.93 - 3.20",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "2.93 - 3.20",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-156",
+  "klucz": "ph_watermelon",
+  "twierdzenie": "Przybliżone pH: Watermelon — 5,18–5,60 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Watermelon                                             5.18 - 5.60",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.18 - 5.60",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-157",
+  "klucz": "ph_cantaloupe",
+  "twierdzenie": "Przybliżone pH: Cantaloupe — 6,13–6,58 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Cantaloupe                               6.13 - 6.58",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6.13 - 6.58",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-158",
+  "klucz": "ph_walnut",
+  "twierdzenie": "Przybliżone pH: Walnuts, English — 5,42 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Walnuts, English                                       5.42",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.42",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-159",
+  "klucz": "ph_mushrooms",
+  "twierdzenie": "Przybliżone pH: Mushrooms — 6,00–6,70 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Mushrooms                                6.00 - 6.70",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6.00 - 6.70",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-160",
+  "klucz": "ph_oyster",
+  "twierdzenie": "Przybliżone pH: Oyster mushrooms — 5,00–6,00 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Oyster mushrooms                         5.00 - 6.00",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.00 - 6.00",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-161",
+  "klucz": "ph_rice",
+  "twierdzenie": "Przybliżone pH: White — 6,00–6,70 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "White                               6.00 - 6.70",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6.00 - 6.70",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-162",
+  "klucz": "ph_mustard",
+  "twierdzenie": "Przybliżone pH: Mustard — 3,55–6,00 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Mustard                                  3.55 - 6.00",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3.55 - 6.00",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-163",
+  "klucz": "ph_vinegar",
+  "twierdzenie": "Przybliżone pH: Vinegar — 2,40–3,40 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Vinegar                                                2.40 - 3.40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "2.40 - 3.40",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-164",
+  "klucz": "ph_tea",
+  "twierdzenie": "Przybliżone pH: Tea — 7,20 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Tea                                    7.20",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "7.20",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-165",
+  "klucz": "ph_milk",
+  "twierdzenie": "Przybliżone pH: Milk, cow — 6,40–6,80 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Milk, cow                                6.40 - 6.80",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6.40 - 6.80",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-166",
+  "klucz": "ph_egg",
+  "twierdzenie": "Przybliżone pH: Eggs, new-laid, whole — 6,58 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Eggs, new-laid, whole                    6.58",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6.58",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-167",
+  "klucz": "ph_herring",
+  "twierdzenie": "Przybliżone pH: Herring — 6,10 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Herring                                  6.10",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6.10",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-168",
+  "klucz": "ph_dates",
+  "twierdzenie": "Przybliżone pH: Dates, Dromedary — 4,14–4,88 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Dates, Dromedary                         4.14 - 4.88",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "4.14 - 4.88",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-169",
+  "klucz": "ph_cukepickled",
+  "twierdzenie": "Przybliżone pH: Cucumbers, pickled — 4,20–4,60 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Cucumbers, pickled                       4.20 - 4.60",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "4.20 - 4.60",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "ACI-170",
+  "klucz": "ph_threebean",
+  "twierdzenie": "Przybliżone pH: Three-Bean Salad — 5,40 (lista FDA/CFSAN; część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN „Approximate pH of Foods and Food Products” (IV 2007), kopia wydruku strony FDA na riverstonehealth.org (oryginał cfsan.fda.gov niedostępny)",
+    "cytat": "Three-Bean Salad                       5.40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b6fe7f1831a7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło: kopia wydruku strony FDA z 2007 r. hostowana przez lokalny urząd zdrowia (riverstonehealth.org); oryginał na fda.gov niedostępny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5.40",
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ }
+]

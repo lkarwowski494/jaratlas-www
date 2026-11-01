@@ -1,0 +1,3150 @@
+[
+ {
+  "parametr": "lacto-fermentation.pH_gotowego_produktu_(granica_żywności_kwaśnej,_USA_21_CFR_114.3;_kryterium_gotowości_UMN)",
+  "rodzina": "lacto-fermentation",
+  "wielkosc": "pH gotowego produktu (granica żywności kwaśnej, USA 21 CFR 114.3; kryterium gotowości UMN)",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "granica": "<=",
+  "twierdzenie": "FER-001",
+  "krytyczne": true,
+  "zrodlo": "https://www.law.cornell.edu/cfr/text/21/114.3",
+  "wektory": [
+   {
+    "wejscie": 4.5,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.6,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.7,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "lacto-fermentation.pH_gotowości_kiszonki_przy_ustaniu_bąbelkowania_(UMN)",
+  "rodzina": "lacto-fermentation",
+  "wielkosc": "pH gotowości kiszonki przy ustaniu bąbelkowania (UMN)",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "granica": "<=",
+  "twierdzenie": "FER-007",
+  "krytyczne": true,
+  "zrodlo": "https://extension.umn.edu/food-safety-basics/fermentation",
+  "wektory": [
+   {
+    "wejscie": 4.5,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.6,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.7,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "lacto-fermentation.warstwa_solanki_nad_kapustą_i_ogórkami_podczas_fermentacji_(1–2_cale)",
+  "rodzina": "lacto-fermentation",
+  "wielkosc": "warstwa solanki nad kapustą i ogórkami podczas fermentacji (1–2 cale)",
+  "wartosc": 1,
+  "jednostka": "cal",
+  "granica": ">=",
+  "twierdzenie": "FER-021",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/suitable-containers-covers-and-weights-for-fermenting-food/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „cal”"
+ },
+ {
+  "parametr": "lacto-fermentation.sól_w_kiszonej_kapuście,_wagowo_(zalecenie_Wisconsin_2,25–2,5%)",
+  "rodzina": "lacto-fermentation",
+  "wielkosc": "sól w kiszonej kapuście, wagowo (zalecenie Wisconsin 2,25–2,5%)",
+  "wartosc": 2.25,
+  "jednostka": "%",
+  "granica": ">=",
+  "twierdzenie": "FER-031",
+  "krytyczne": true,
+  "zrodlo": "https://oc4h.ucanr.edu/sites/default/files/2020-12/341219.pdf",
+  "wektory": [
+   {
+    "wejscie": 2.15,
+    "spelnia": false
+   },
+   {
+    "wejscie": 2.25,
+    "spelnia": true
+   },
+   {
+    "wejscie": 2.35,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "lacto-fermentation.sól_w_kiszonej_kapuście,_dolna_granica_jakości_(poniżej_kapusta_gnije,_UC_MFP)",
+  "rodzina": "lacto-fermentation",
+  "wielkosc": "sól w kiszonej kapuście, dolna granica jakości (poniżej kapusta gnije, UC MFP)",
+  "wartosc": 1.5,
+  "jednostka": "%",
+  "granica": ">=",
+  "twierdzenie": "FER-033",
+  "krytyczne": true,
+  "zrodlo": "https://class.ucanr.edu/sites/default/files/2020-11/339529.pdf",
+  "wektory": [
+   {
+    "wejscie": 1.4,
+    "spelnia": false
+   },
+   {
+    "wejscie": 1.5,
+    "spelnia": true
+   },
+   {
+    "wejscie": 1.6,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "lacto-fermentation.temperatura_fermentacji_kapusty,_górna_(powyżej_może_zmięknąć;_zalecane_70–75_°F)",
+  "rodzina": "lacto-fermentation",
+  "wielkosc": "temperatura fermentacji kapusty, górna (powyżej może zmięknąć; zalecane 70–75 °F)",
+  "wartosc": 75,
+  "jednostka": "°F",
+  "granica": "<=",
+  "twierdzenie": "FER-034",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+  "wektory": [
+   {
+    "wejscie": 74,
+    "spelnia": true
+   },
+   {
+    "wejscie": 75,
+    "spelnia": true
+   },
+   {
+    "wejscie": 76,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "lacto-fermentation.temperatura_fermentacji_ogórków,_górna_(powyżej_80_°F_zbyt_miękkie)",
+  "rodzina": "lacto-fermentation",
+  "wielkosc": "temperatura fermentacji ogórków, górna (powyżej 80 °F zbyt miękkie)",
+  "wartosc": 80,
+  "jednostka": "°F",
+  "granica": "<=",
+  "twierdzenie": "FER-043",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+  "wektory": [
+   {
+    "wejscie": 79,
+    "spelnia": true
+   },
+   {
+    "wejscie": 80,
+    "spelnia": true
+   },
+   {
+    "wejscie": 81,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "lacto-fermentation.temperatura_przechowywania_kimchi",
+  "rodzina": "lacto-fermentation",
+  "wielkosc": "temperatura przechowywania kimchi",
+  "wartosc": 41,
+  "jednostka": "°F",
+  "granica": "<=",
+  "twierdzenie": "FER-062",
+  "krytyczne": true,
+  "zrodlo": "https://fieldreport.caes.uga.edu/publications/C1362/",
+  "wektory": [
+   {
+    "wejscie": 40,
+    "spelnia": true
+   },
+   {
+    "wejscie": 41,
+    "spelnia": true
+   },
+   {
+    "wejscie": 42,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "lacto-fermentation.sól_w_kimchi_z_kapusty_pekińskiej,_górna_(Codex_1,0–4,0%_m/m)",
+  "rodzina": "lacto-fermentation",
+  "wielkosc": "sól w kimchi z kapusty pekińskiej, górna (Codex 1,0–4,0% m/m)",
+  "wartosc": 4,
+  "jednostka": "% m/m",
+  "granica": "<=",
+  "twierdzenie": "FER-059",
+  "krytyczne": true,
+  "zrodlo": "https://www.fao.org/input/download/standards/365/CXS_223e.pdf",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „% m/m”"
+ },
+ {
+  "parametr": "lacto-fermentation.sól_w_kimchi_z_kapusty_pekińskiej,_dolna_(Codex)",
+  "rodzina": "lacto-fermentation",
+  "wielkosc": "sól w kimchi z kapusty pekińskiej, dolna (Codex)",
+  "wartosc": 1,
+  "jednostka": "% m/m",
+  "granica": ">=",
+  "twierdzenie": "FER-059",
+  "krytyczne": true,
+  "zrodlo": "https://www.fao.org/input/download/standards/365/CXS_223e.pdf",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „% m/m”"
+ },
+ {
+  "parametr": "lacto-fermentation.pasteryzacja_niskotemperaturowa_ogórków_(tylko_gdy_przepis_przewiduje):_temperatura_wody_przez_30_min",
+  "rodzina": "lacto-fermentation",
+  "wielkosc": "pasteryzacja niskotemperaturowa ogórków (tylko gdy przepis przewiduje): temperatura wody przez 30 min, 180–185 °F",
+  "wartosc": 180,
+  "jednostka": "°F",
+  "granica": ">=",
+  "twierdzenie": "FER-047",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/low-temperature-pasteurization-treatment/",
+  "wektory": [
+   {
+    "wejscie": 179,
+    "spelnia": false
+   },
+   {
+    "wejscie": 180,
+    "spelnia": true
+   },
+   {
+    "wejscie": 181,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "salt-preservation.cytryny_i_limonki_w_soli:_sól_na_owoc_(UCCE_MFP_OC:_co_najmniej_1_łyżka)",
+  "rodzina": "salt-preservation",
+  "wielkosc": "cytryny i limonki w soli: sól na owoc (UCCE MFP OC: co najmniej 1 łyżka)",
+  "wartosc": 1,
+  "jednostka": "łyżka na owoc",
+  "granica": ">=",
+  "twierdzenie": "FER-089",
+  "krytyczne": true,
+  "zrodlo": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2021-03/346172.pdf",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „łyżka na owoc”"
+ },
+ {
+  "parametr": "vinegar-pickling.pH_końcowe_(równowagowe)_produktu",
+  "rodzina": "vinegar-pickling",
+  "wielkosc": "pH końcowe (równowagowe) produktu",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "granica": "<=",
+  "twierdzenie": "ACI-002",
+  "krytyczne": true,
+  "zrodlo": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-29/title-21.xml?part=114&section=114.3",
+  "wektory": [
+   {
+    "wejscie": 4.5,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.6,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.7,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "vinegar-pickling.kwasowość_octu",
+  "rodzina": "vinegar-pickling",
+  "wielkosc": "kwasowość octu",
+  "wartosc": 5,
+  "jednostka": "%",
+  "granica": ">=",
+  "twierdzenie": "ACI-039",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/can/canning-salsa/ingredients-for-salsa-recipes/",
+  "wektory": [
+   {
+    "wejscie": 4.9,
+    "spelnia": false
+   },
+   {
+    "wejscie": 5,
+    "spelnia": true
+   },
+   {
+    "wejscie": 5.1,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "vinegar-pickling.jaja_marynowane:_maks._czas_w_temperaturze_pokojowej",
+  "rodzina": "vinegar-pickling",
+  "wielkosc": "jaja marynowane: maks. czas w temperaturze pokojowej",
+  "wartosc": 2,
+  "jednostka": "h",
+  "granica": "<=",
+  "twierdzenie": "ACI-034",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+  "wektory": [
+   {
+    "wejscie": 1,
+    "spelnia": true
+   },
+   {
+    "wejscie": 2,
+    "spelnia": true
+   },
+   {
+    "wejscie": 3,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "canned-foods.pH_żywności_do_kąpieli_wodnej",
+  "rodzina": "canned-foods",
+  "wielkosc": "pH żywności do kąpieli wodnej",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "granica": "<=",
+  "twierdzenie": "ACI-001",
+  "krytyczne": true,
+  "zrodlo": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-29/title-21.xml?part=114&section=114.3",
+  "wektory": [
+   {
+    "wejscie": 4.5,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.6,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.7,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "canned-foods.pH_powyżej_którego_wymagany_szybkowar_(o_ile_nie_zakwaszono)",
+  "rodzina": "canned-foods",
+  "wielkosc": "pH powyżej którego wymagany szybkowar (o ile nie zakwaszono)",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "granica": ">",
+  "twierdzenie": "ACI-010",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+  "wektory": [
+   {
+    "wejscie": 4.5,
+    "spelnia": false
+   },
+   {
+    "wejscie": 4.6,
+    "spelnia": false
+   },
+   {
+    "wejscie": 4.7,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "canned-foods.wysokość_n.p.m.,_powyżej_której_wydłuża_się_czas_kąpieli_wodnej",
+  "rodzina": "canned-foods",
+  "wielkosc": "wysokość n.p.m., powyżej której wydłuża się czas kąpieli wodnej",
+  "wartosc": 1000,
+  "jednostka": "ft",
+  "granica": ">",
+  "twierdzenie": "ACI-015",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/can/general-information/selecting-the-correct-processing-time/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „ft”"
+ },
+ {
+  "parametr": "canned-foods.pH_(granica_żywności_kwaśnej;_kąpiel_wodna_dopuszczalna_tylko_przy_przetestowanym_przepisie)",
+  "rodzina": "canned-foods",
+  "wielkosc": "pH (granica żywności kwaśnej; kąpiel wodna dopuszczalna tylko przy przetestowanym przepisie)",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "granica": "<=",
+  "twierdzenie": "SZY-054",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/can/general-information/ensuring-safe-canned-foods/",
+  "wektory": [
+   {
+    "wejscie": 4.5,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.6,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.7,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "canned-foods.pH_żywności_niskokwasowej_(wymaga_szybkowaru)",
+  "rodzina": "canned-foods",
+  "wielkosc": "pH żywności niskokwasowej (wymaga szybkowaru)",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "granica": ">",
+  "twierdzenie": "SZY-001",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/can/general-information/ensuring-safe-canned-foods/",
+  "wektory": [
+   {
+    "wejscie": 4.5,
+    "spelnia": false
+   },
+   {
+    "wejscie": 4.6,
+    "spelnia": false
+   },
+   {
+    "wejscie": 4.7,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "canned-foods.temperatura_sterylizacji_żywności_niskokwasowej_(dolna)",
+  "rodzina": "canned-foods",
+  "wielkosc": "temperatura sterylizacji żywności niskokwasowej (dolna)",
+  "wartosc": 240,
+  "jednostka": "°F",
+  "granica": ">=",
+  "twierdzenie": "SZY-003",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/can/general-information/ensuring-safe-canned-foods/",
+  "wektory": [
+   {
+    "wejscie": 239,
+    "spelnia": false
+   },
+   {
+    "wejscie": 240,
+    "spelnia": true
+   },
+   {
+    "wejscie": 241,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "canned-foods.ciśnienie_robocze_szybkowaru_(dolne)",
+  "rodzina": "canned-foods",
+  "wielkosc": "ciśnienie robocze szybkowaru (dolne)",
+  "wartosc": 10,
+  "jednostka": "PSIG",
+  "granica": ">=",
+  "twierdzenie": "SZY-003",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/can/general-information/ensuring-safe-canned-foods/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „PSIG”"
+ },
+ {
+  "parametr": "canned-foods.ciśnienie_robocze_w_nowym_sprzęcie_(górne)",
+  "rodzina": "canned-foods",
+  "wielkosc": "ciśnienie robocze w nowym sprzęcie (górne)",
+  "wartosc": 15,
+  "jednostka": "PSI",
+  "granica": "<=",
+  "twierdzenie": "SZY-052",
+  "krytyczne": false,
+  "zrodlo": "https://nchfp.uga.edu/how/can/general-information/equipment-and-methods-not-recommended/",
+  "wektory": [
+   {
+    "wejscie": 14,
+    "spelnia": true
+   },
+   {
+    "wejscie": 15,
+    "spelnia": true
+   },
+   {
+    "wejscie": 16,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "sweet-preserves.pH_produktu_wekowanego_w_kąpieli_wodnej_/_wekowniku_parowym",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "pH produktu wekowanego w kąpieli wodnej / wekowniku parowym",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "granica": "<=",
+  "twierdzenie": "SLO-022",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/faqs/general-canning/category/faq-canning",
+  "wektory": [
+   {
+    "wejscie": 4.5,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.6,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.7,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "sweet-preserves.pH,_powyżej_którego_C._botulinum_może_rosnąć",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "pH, powyżej którego C. botulinum może rosnąć",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "granica": ">",
+  "twierdzenie": "SLO-023",
+  "krytyczne": true,
+  "zrodlo": "https://www.fda.gov/media/83271/download",
+  "wektory": [
+   {
+    "wejscie": 4.5,
+    "spelnia": false
+   },
+   {
+    "wejscie": 4.6,
+    "spelnia": false
+   },
+   {
+    "wejscie": 4.7,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "sweet-preserves.czas_wekowania_dżemu/galaretki_w_kąpieli_wodnej,_słoiki_sterylne,_0-1000_ft",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "czas wekowania dżemu/galaretki w kąpieli wodnej, słoiki sterylne, 0-1000 ft",
+  "wartosc": 5,
+  "jednostka": "min",
+  "granica": ">=",
+  "twierdzenie": "SLO-003",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/general-information-on-canning-jams-jellies-and-marmalades/",
+  "wektory": [
+   {
+    "wejscie": 4,
+    "spelnia": false
+   },
+   {
+    "wejscie": 5,
+    "spelnia": true
+   },
+   {
+    "wejscie": 6,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "sweet-preserves.czas_wekowania_dżemu/galaretki,_słoiki_niesterylne",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "czas wekowania dżemu/galaretki, słoiki niesterylne",
+  "wartosc": 10,
+  "jednostka": "min",
+  "granica": ">=",
+  "twierdzenie": "SLO-005",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/general-information-on-canning-jams-jellies-and-marmalades/",
+  "wektory": [
+   {
+    "wejscie": 9,
+    "spelnia": false
+   },
+   {
+    "wejscie": 10,
+    "spelnia": true
+   },
+   {
+    "wejscie": 11,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "sweet-preserves.korekta_czasu_na_wysokość",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "korekta czasu na wysokość",
+  "wartosc": 1,
+  "jednostka": "min na każde 1000 ft",
+  "granica": ">=",
+  "twierdzenie": "SLO-004",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/general-information-on-canning-jams-jellies-and-marmalades/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „min na każde 1000 ft”"
+ },
+ {
+  "parametr": "sweet-preserves.temperatura_przechowywania_słoików_(dolna)",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "temperatura przechowywania słoików (dolna)",
+  "wartosc": 50,
+  "jednostka": "°F",
+  "granica": ">=",
+  "twierdzenie": "SLO-017",
+  "krytyczne": false,
+  "zrodlo": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+  "wektory": [
+   {
+    "wejscie": 49,
+    "spelnia": false
+   },
+   {
+    "wejscie": 50,
+    "spelnia": true
+   },
+   {
+    "wejscie": 51,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "sweet-preserves.temperatura_przechowywania_słoików_(górna)",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "temperatura przechowywania słoików (górna)",
+  "wartosc": 70,
+  "jednostka": "°F",
+  "granica": "<=",
+  "twierdzenie": "SLO-017",
+  "krytyczne": false,
+  "zrodlo": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+  "wektory": [
+   {
+    "wejscie": 69,
+    "spelnia": true
+   },
+   {
+    "wejscie": 70,
+    "spelnia": true
+   },
+   {
+    "wejscie": 71,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "sweet-preserves.najlepsza_jakość_od_zawekowania",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "najlepsza jakość od zawekowania",
+  "wartosc": 1,
+  "jednostka": "rok",
+  "granica": "<=",
+  "twierdzenie": "SLO-017",
+  "krytyczne": false,
+  "zrodlo": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „rok”"
+ },
+ {
+  "parametr": "sweet-preserves.lodówka_po_otwarciu",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "lodówka po otwarciu",
+  "wartosc": 40,
+  "jednostka": "°F",
+  "granica": "<=",
+  "twierdzenie": "SLO-018",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+  "wektory": [
+   {
+    "wejscie": 39,
+    "spelnia": true
+   },
+   {
+    "wejscie": 40,
+    "spelnia": true
+   },
+   {
+    "wejscie": 41,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "sweet-preserves.dżem_pełnocukrowy_po_otwarciu,_w_lodówce_(jakość)",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "dżem pełnocukrowy po otwarciu, w lodówce (jakość)",
+  "wartosc": 1,
+  "jednostka": "miesiąc",
+  "granica": "<=",
+  "twierdzenie": "SLO-018",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „miesiąc”"
+ },
+ {
+  "parametr": "sweet-preserves.dżem_mrożony/lodówkowy_w_lodówce",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "dżem mrożony/lodówkowy w lodówce",
+  "wartosc": 3,
+  "jednostka": "tydzień",
+  "granica": "<=",
+  "twierdzenie": "SLO-019",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „tydzień”"
+ },
+ {
+  "parametr": "sweet-preserves.dżem_mrożony_w_zamrażarce",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "dżem mrożony w zamrażarce",
+  "wartosc": 1,
+  "jednostka": "rok",
+  "granica": "<=",
+  "twierdzenie": "SLO-019",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „rok”"
+ },
+ {
+  "parametr": "sweet-preserves.dżem_niegotowany_w_lodówce",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "dżem niegotowany w lodówce",
+  "wartosc": 3,
+  "jednostka": "tydzień",
+  "granica": "<=",
+  "twierdzenie": "SLO-020",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jam-uncooked/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „tydzień”"
+ },
+ {
+  "parametr": "sweet-preserves.smarowidło_na_żelatynie_w_lodówce",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "smarowidło na żelatynie w lodówce",
+  "wartosc": 4,
+  "jednostka": "tydzień",
+  "granica": "<=",
+  "twierdzenie": "SLO-008",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/make-jam-jelly/reduced-sugar-recipes/making-reduced-sugar-fruit-spreads/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „tydzień”"
+ },
+ {
+  "parametr": "sweet-preserves.lemon_curd:_woda_w_wekowniku_przed_włożeniem_słoików",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "lemon curd: woda w wekowniku przed włożeniem słoików",
+  "wartosc": 180,
+  "jednostka": "°F",
+  "granica": "<=",
+  "twierdzenie": "SLO-040",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+  "wektory": [
+   {
+    "wejscie": 179,
+    "spelnia": true
+   },
+   {
+    "wejscie": 180,
+    "spelnia": true
+   },
+   {
+    "wejscie": 181,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "sweet-preserves.lemon_curd_wekowany:_okres_spożycia",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "lemon curd wekowany: okres spożycia",
+  "wartosc": 4,
+  "jednostka": "miesiąc",
+  "granica": "<=",
+  "twierdzenie": "SLO-041",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „miesiąc”"
+ },
+ {
+  "parametr": "sweet-preserves.lemon_curd_zamrożony",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "lemon curd zamrożony",
+  "wartosc": 1,
+  "jednostka": "rok",
+  "granica": "<=",
+  "twierdzenie": "SLO-042",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „rok”"
+ },
+ {
+  "parametr": "sweet-preserves.czarny_bez_(przepis_OSU):_cukier_na_16_oz_miąższu/soku,_masa",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "czarny bez (przepis OSU): cukier na 16 oz miąższu/soku, masa",
+  "wartosc": 19.5,
+  "jednostka": "oz",
+  "granica": ">=",
+  "twierdzenie": "SLO-065",
+  "krytyczne": true,
+  "zrodlo": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/Elderberries-OSU%202024.pdf",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „oz”"
+ },
+ {
+  "parametr": "sweet-preserves.wiek,_przed_którym_nie_podawać_miodu",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "wiek, przed którym nie podawać miodu",
+  "wartosc": 12,
+  "jednostka": "miesiąc",
+  "granica": "<",
+  "twierdzenie": "SLO-036",
+  "krytyczne": true,
+  "zrodlo": "https://www.fda.gov/media/83271/download",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „miesiąc”"
+ },
+ {
+  "parametr": "sweet-preserves.owoce_kandyzowane_niedosuszone_w_lodówce",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "owoce kandyzowane niedosuszone w lodówce",
+  "wartosc": 1,
+  "jednostka": "tydzień",
+  "granica": "<=",
+  "twierdzenie": "SLO-069",
+  "krytyczne": true,
+  "zrodlo": "https://extension.missouri.edu/sites/default/files/2026-09/hes173.pdf",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „tydzień”"
+ },
+ {
+  "parametr": "sweet-preserves.pasteryzacja_niskotemperaturowa:_temperatura_wody_(tylko_gdy_przewiduje_przepis)",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "pasteryzacja niskotemperaturowa: temperatura wody (tylko gdy przewiduje przepis)",
+  "wartosc": 180,
+  "jednostka": "°F",
+  "granica": ">=",
+  "twierdzenie": "SLO-060",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/low-temperature-pasteurization-treatment/",
+  "wektory": [
+   {
+    "wejscie": 179,
+    "spelnia": false
+   },
+   {
+    "wejscie": 180,
+    "spelnia": true
+   },
+   {
+    "wejscie": 181,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "sweet-preserves.surowe_pestki_moreli,_dorosły_(EFSA_ARfD)",
+  "rodzina": "sweet-preserves",
+  "wielkosc": "surowe pestki moreli, dorosły (EFSA ARfD)",
+  "wartosc": 0.37,
+  "jednostka": "g",
+  "granica": "<=",
+  "twierdzenie": "SLO-070",
+  "krytyczne": true,
+  "zrodlo": "https://air.unimi.it/retrieve/handle/2434/472274/774772/EFSA%20Journal.pdf",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „g”"
+ },
+ {
+  "parametr": "oil-and-fat.czas_przechowywania_w_lodówce:_czosnek/zioła/warzywa_w_oleju_bez_zakwaszenia",
+  "rodzina": "oil-and-fat",
+  "wielkosc": "czas przechowywania w lodówce: czosnek/zioła/warzywa w oleju bez zakwaszenia",
+  "wartosc": 4,
+  "jednostka": "dni",
+  "granica": "<=",
+  "twierdzenie": "OLE-002",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/",
+  "wektory": [
+   {
+    "wejscie": 3,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4,
+    "spelnia": true
+   },
+   {
+    "wejscie": 5,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "oil-and-fat.temperatura_lodówki",
+  "rodzina": "oil-and-fat",
+  "wielkosc": "temperatura lodówki",
+  "wartosc": 4.4,
+  "jednostka": "°C (40°F)",
+  "granica": "<=",
+  "twierdzenie": "OLE-002",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „°C (40°F)”"
+ },
+ {
+  "parametr": "oil-and-fat.czas_przechowywania_pesto_w_lodówce",
+  "rodzina": "oil-and-fat",
+  "wielkosc": "czas przechowywania pesto w lodówce",
+  "wartosc": 3,
+  "jednostka": "dni",
+  "granica": "<=",
+  "twierdzenie": "OLE-043",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-pesto/",
+  "wektory": [
+   {
+    "wejscie": 2,
+    "spelnia": true
+   },
+   {
+    "wejscie": 3,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "oil-and-fat.pH_czosnku/ziół_po_zakwaszeniu_(metoda_Idaho)",
+  "rodzina": "oil-and-fat",
+  "wielkosc": "pH czosnku/ziół po zakwaszeniu (metoda Idaho)",
+  "wartosc": 4.2,
+  "jednostka": "pH",
+  "granica": "<=",
+  "twierdzenie": "OLE-010",
+  "krytyczne": true,
+  "zrodlo": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+  "wektory": [
+   {
+    "wejscie": 4.1,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.2,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.3,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "oil-and-fat.czas_moczenia_w_kwasie_cytrynowym",
+  "rodzina": "oil-and-fat",
+  "wielkosc": "czas moczenia w kwasie cytrynowym",
+  "wartosc": 24,
+  "jednostka": "h",
+  "granica": ">=",
+  "twierdzenie": "OLE-010",
+  "krytyczne": true,
+  "zrodlo": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+  "wektory": [
+   {
+    "wejscie": 23,
+    "spelnia": false
+   },
+   {
+    "wejscie": 24,
+    "spelnia": true
+   },
+   {
+    "wejscie": 25,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "oil-and-fat.pH,_powyżej_którego_rośnie_C._botulinum_grupy_I",
+  "rodzina": "oil-and-fat",
+  "wielkosc": "pH, powyżej którego rośnie C. botulinum grupy I",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "granica": ">",
+  "twierdzenie": "OLE-023",
+  "krytyczne": true,
+  "zrodlo": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+  "wektory": [
+   {
+    "wejscie": 4.5,
+    "spelnia": false
+   },
+   {
+    "wejscie": 4.6,
+    "spelnia": false
+   },
+   {
+    "wejscie": 4.7,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "drying.temperatura_suszenia_ziół",
+  "rodzina": "drying",
+  "wielkosc": "temperatura suszenia ziół",
+  "wartosc": 46,
+  "jednostka": "°C",
+  "granica": "<=",
+  "twierdzenie": "SUS-031",
+  "krytyczne": false,
+  "zrodlo": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+  "wektory": [
+   {
+    "wejscie": 45,
+    "spelnia": true
+   },
+   {
+    "wejscie": 46,
+    "spelnia": true
+   },
+   {
+    "wejscie": 47,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "drying.wilgotność_końcowa_suszu_owocowego",
+  "rodzina": "drying",
+  "wielkosc": "wilgotność końcowa suszu owocowego",
+  "wartosc": 20,
+  "jednostka": "%",
+  "granica": "<=",
+  "twierdzenie": "SUS-016",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+  "wektory": [
+   {
+    "wejscie": 19.9,
+    "spelnia": true
+   },
+   {
+    "wejscie": 20,
+    "spelnia": true
+   },
+   {
+    "wejscie": 20.1,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "drying.wilgotność_końcowa_suszu_warzywnego",
+  "rodzina": "drying",
+  "wielkosc": "wilgotność końcowa suszu warzywnego",
+  "wartosc": 10,
+  "jednostka": "%",
+  "granica": "<=",
+  "twierdzenie": "SUS-017",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+  "wektory": [
+   {
+    "wejscie": 9.9,
+    "spelnia": true
+   },
+   {
+    "wejscie": 10,
+    "spelnia": true
+   },
+   {
+    "wejscie": 10.1,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "drying.czas_kondycjonowania_suszu_owocowego",
+  "rodzina": "drying",
+  "wielkosc": "czas kondycjonowania suszu owocowego",
+  "wartosc": 7,
+  "jednostka": "dni",
+  "granica": ">=",
+  "twierdzenie": "SUS-018",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+  "wektory": [
+   {
+    "wejscie": 6,
+    "spelnia": false
+   },
+   {
+    "wejscie": 7,
+    "spelnia": true
+   },
+   {
+    "wejscie": 8,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "drying.minimalna_temperatura_suszenia_owoców_na_słońcu",
+  "rodzina": "drying",
+  "wielkosc": "minimalna temperatura suszenia owoców na słońcu",
+  "wartosc": 29,
+  "jednostka": "°C",
+  "granica": ">=",
+  "twierdzenie": "SUS-004",
+  "krytyczne": false,
+  "zrodlo": "https://nchfp.uga.edu/how/dry/drying-general/sun-drying/",
+  "wektory": [
+   {
+    "wejscie": 28,
+    "spelnia": false
+   },
+   {
+    "wejscie": 29,
+    "spelnia": true
+   },
+   {
+    "wejscie": 30,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "drying.wilgotność_powietrza_przy_suszeniu_na_słońcu",
+  "rodzina": "drying",
+  "wielkosc": "wilgotność powietrza przy suszeniu na słońcu",
+  "wartosc": 60,
+  "jednostka": "%",
+  "granica": "<",
+  "twierdzenie": "SUS-005",
+  "krytyczne": false,
+  "zrodlo": "https://nchfp.uga.edu/how/dry/drying-general/sun-drying/",
+  "wektory": [
+   {
+    "wejscie": 59.9,
+    "spelnia": true
+   },
+   {
+    "wejscie": 60,
+    "spelnia": false
+   },
+   {
+    "wejscie": 60.1,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "drying.pasteryzacja_suszu_w_zamrażarce:_czas_w_-18°C_lub_niżej",
+  "rodzina": "drying",
+  "wielkosc": "pasteryzacja suszu w zamrażarce: czas w -18°C lub niżej",
+  "wartosc": 48,
+  "jednostka": "h",
+  "granica": ">=",
+  "twierdzenie": "SUS-006",
+  "krytyczne": false,
+  "zrodlo": "https://nchfp.uga.edu/how/dry/drying-general/vine-drying/",
+  "wektory": [
+   {
+    "wejscie": 47,
+    "spelnia": false
+   },
+   {
+    "wejscie": 48,
+    "spelnia": true
+   },
+   {
+    "wejscie": 49,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "drying.przechowywanie_suszu_owocowego_w_16°C",
+  "rodzina": "drying",
+  "wielkosc": "przechowywanie suszu owocowego w 16°C",
+  "wartosc": 12,
+  "jednostka": "mies.",
+  "granica": "<=",
+  "twierdzenie": "SUS-020",
+  "krytyczne": false,
+  "zrodlo": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „mies.”"
+ },
+ {
+  "parametr": "drying.przechowywanie_suszu_warzywnego_w_16°C",
+  "rodzina": "drying",
+  "wielkosc": "przechowywanie suszu warzywnego w 16°C",
+  "wartosc": 6,
+  "jednostka": "mies.",
+  "granica": "<=",
+  "twierdzenie": "SUS-021",
+  "krytyczne": false,
+  "zrodlo": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „mies.”"
+ },
+ {
+  "parametr": "drying.przechowywanie_skóry_owocowej_w_temperaturze_pokojowej",
+  "rodzina": "drying",
+  "wielkosc": "przechowywanie skóry owocowej w temperaturze pokojowej",
+  "wartosc": 1,
+  "jednostka": "mies.",
+  "granica": "<=",
+  "twierdzenie": "SUS-028",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/dry/recipes/fruit-leathers/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „mies.”"
+ },
+ {
+  "parametr": "freezing.temperatura_zamrażarki",
+  "rodzina": "freezing",
+  "wielkosc": "temperatura zamrażarki",
+  "wartosc": -18,
+  "jednostka": "°C",
+  "granica": "<=",
+  "twierdzenie": "SUS-050",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/freeze/freeze-general-information/freezing-pointers/",
+  "wektory": [
+   {
+    "wejscie": -19,
+    "spelnia": true
+   },
+   {
+    "wejscie": -18,
+    "spelnia": true
+   },
+   {
+    "wejscie": -17,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "freezing.temperatura_wody_do_schładzania_po_blanszowaniu",
+  "rodzina": "freezing",
+  "wielkosc": "temperatura wody do schładzania po blanszowaniu",
+  "wartosc": 16,
+  "jednostka": "°C",
+  "granica": "<=",
+  "twierdzenie": "SUS-056",
+  "krytyczne": false,
+  "zrodlo": "https://nchfp.uga.edu/how/freeze/freeze-general-information/blanching-vegetables/",
+  "wektory": [
+   {
+    "wejscie": 15,
+    "spelnia": true
+   },
+   {
+    "wejscie": 16,
+    "spelnia": true
+   },
+   {
+    "wejscie": 17,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "freezing.czas_powrotu_wody_do_wrzenia_przy_blanszowaniu",
+  "rodzina": "freezing",
+  "wielkosc": "czas powrotu wody do wrzenia przy blanszowaniu",
+  "wartosc": 1,
+  "jednostka": "min",
+  "granica": "<=",
+  "twierdzenie": "SUS-055",
+  "krytyczne": false,
+  "zrodlo": "https://nchfp.uga.edu/how/freeze/freeze-general-information/blanching-vegetables/",
+  "wektory": [
+   {
+    "wejscie": 0,
+    "spelnia": true
+   },
+   {
+    "wejscie": 1,
+    "spelnia": true
+   },
+   {
+    "wejscie": 2,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "freezing.przechowywanie_mrożonych_owoców_i_warzyw_w_-18°C_(jakość)",
+  "rodzina": "freezing",
+  "wielkosc": "przechowywanie mrożonych owoców i warzyw w -18°C (jakość)",
+  "wartosc": 12,
+  "jednostka": "mies.",
+  "granica": "<=",
+  "twierdzenie": "SUS-058",
+  "krytyczne": false,
+  "zrodlo": "https://nchfp.uga.edu/how/freeze/freeze-general-information/how-long-can-i-store-frozen-foods/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „mies.”"
+ },
+ {
+  "parametr": "freezing.temperatura,_powyżej_której_rozmrożona_żywność_pozwala_na_wzrost_bakterii",
+  "rodzina": "freezing",
+  "wielkosc": "temperatura, powyżej której rozmrożona żywność pozwala na wzrost bakterii",
+  "wartosc": 4,
+  "jednostka": "°C",
+  "granica": ">",
+  "twierdzenie": "SUS-059",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/freeze/freeze-general-information/thawing-and-preparing-foods-for-serving/",
+  "wektory": [
+   {
+    "wejscie": 3,
+    "spelnia": false
+   },
+   {
+    "wejscie": 4,
+    "spelnia": false
+   },
+   {
+    "wejscie": 5,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "fermented-beverages.pH_płynu_startowego_kombuchy",
+  "rodzina": "fermented-beverages",
+  "wielkosc": "pH płynu startowego kombuchy",
+  "wartosc": 4,
+  "jednostka": "pH",
+  "granica": "<=",
+  "twierdzenie": "NAP-001",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+  "wektory": [
+   {
+    "wejscie": 3.9,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.1,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "fermented-beverages.temperatura_herbaty_przy_dodaniu_SCOBY",
+  "rodzina": "fermented-beverages",
+  "wielkosc": "temperatura herbaty przy dodaniu SCOBY",
+  "wartosc": 95,
+  "jednostka": "°F",
+  "granica": "<",
+  "twierdzenie": "NAP-006",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+  "wektory": [
+   {
+    "wejscie": 94,
+    "spelnia": true
+   },
+   {
+    "wejscie": 95,
+    "spelnia": false
+   },
+   {
+    "wejscie": 96,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "fermented-beverages.czas_dojścia_kombuchy_do_pH_4,2_(inaczej_wyrzucić)",
+  "rodzina": "fermented-beverages",
+  "wielkosc": "czas dojścia kombuchy do pH 4,2 (inaczej wyrzucić)",
+  "wartosc": 7,
+  "jednostka": "dni",
+  "granica": "<=",
+  "twierdzenie": "NAP-018",
+  "krytyczne": true,
+  "zrodlo": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/kombucha1.pdf",
+  "wektory": [
+   {
+    "wejscie": 6,
+    "spelnia": true
+   },
+   {
+    "wejscie": 7,
+    "spelnia": true
+   },
+   {
+    "wejscie": 8,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "fermented-beverages.pH_gotowej_kombuchy/jun_(górna_granica)",
+  "rodzina": "fermented-beverages",
+  "wielkosc": "pH gotowej kombuchy/jun (górna granica)",
+  "wartosc": 4.2,
+  "jednostka": "pH",
+  "granica": "<=",
+  "twierdzenie": "NAP-015",
+  "krytyczne": true,
+  "zrodlo": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+  "wektory": [
+   {
+    "wejscie": 4.1,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.2,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.3,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "fermented-beverages.pH_gotowej_kombuchy/jun_(dolna_granica)",
+  "rodzina": "fermented-beverages",
+  "wielkosc": "pH gotowej kombuchy/jun (dolna granica)",
+  "wartosc": 2.5,
+  "jednostka": "pH",
+  "granica": ">=",
+  "twierdzenie": "NAP-016",
+  "krytyczne": true,
+  "zrodlo": "https://agriculture.ny.gov/food-safety/kombucha-processing",
+  "wektory": [
+   {
+    "wejscie": 2.4,
+    "spelnia": false
+   },
+   {
+    "wejscie": 2.5,
+    "spelnia": true
+   },
+   {
+    "wejscie": 2.6,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "fermented-beverages.przechowywanie_kombuchy_w_lodówce",
+  "rodzina": "fermented-beverages",
+  "wielkosc": "przechowywanie kombuchy w lodówce",
+  "wartosc": 30,
+  "jednostka": "dni",
+  "granica": "<=",
+  "twierdzenie": "NAP-003",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+  "wektory": [
+   {
+    "wejscie": 29,
+    "spelnia": true
+   },
+   {
+    "wejscie": 30,
+    "spelnia": true
+   },
+   {
+    "wejscie": 31,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "fermented-beverages.kombucha_z_dodatkami_po_fermentacji,_w_lodówce",
+  "rodzina": "fermented-beverages",
+  "wielkosc": "kombucha z dodatkami po fermentacji, w lodówce",
+  "wartosc": 2,
+  "jednostka": "dni",
+  "granica": "<=",
+  "twierdzenie": "NAP-005",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+  "wektory": [
+   {
+    "wejscie": 1,
+    "spelnia": true
+   },
+   {
+    "wejscie": 2,
+    "spelnia": true
+   },
+   {
+    "wejscie": 3,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "fermented-beverages.temperatura_przechowywania_niepasteryzowanej_kombuchy_(NY,_obrót)",
+  "rodzina": "fermented-beverages",
+  "wielkosc": "temperatura przechowywania niepasteryzowanej kombuchy (NY, obrót)",
+  "wartosc": 41,
+  "jednostka": "°F",
+  "granica": "<=",
+  "twierdzenie": "NAP-019",
+  "krytyczne": true,
+  "zrodlo": "https://agriculture.ny.gov/food-safety/kombucha-processing",
+  "wektory": [
+   {
+    "wejscie": 40,
+    "spelnia": true
+   },
+   {
+    "wejscie": 41,
+    "spelnia": true
+   },
+   {
+    "wejscie": 42,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "fermented-beverages.alkohol_–_próg_napoju_bezalkoholowego_USA_(TTB)",
+  "rodzina": "fermented-beverages",
+  "wielkosc": "alkohol – próg napoju bezalkoholowego USA (TTB)",
+  "wartosc": 0.5,
+  "jednostka": "% obj.",
+  "granica": "<",
+  "twierdzenie": "NAP-011",
+  "krytyczne": false,
+  "zrodlo": "https://www.ttb.gov/regulated-commodities/beverage-alcohol/kombucha/general-requirements",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „% obj.”"
+ },
+ {
+  "parametr": "vinegar-making.kwasowość_octu_do_marynat_i_wekowania",
+  "rodzina": "vinegar-making",
+  "wielkosc": "kwasowość octu do marynat i wekowania",
+  "wartosc": 5,
+  "jednostka": "%",
+  "granica": ">=",
+  "twierdzenie": "NAP-028",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/",
+  "wektory": [
+   {
+    "wejscie": 4.9,
+    "spelnia": false
+   },
+   {
+    "wejscie": 5,
+    "spelnia": true
+   },
+   {
+    "wejscie": 5.1,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "vinegar-making.temperatura_pasteryzacji_octu_(min.)",
+  "rodzina": "vinegar-making",
+  "wielkosc": "temperatura pasteryzacji octu (min.)",
+  "wartosc": 140,
+  "jednostka": "°F",
+  "granica": ">=",
+  "twierdzenie": "NAP-034",
+  "krytyczne": true,
+  "zrodlo": "https://extension.psu.edu/making-cider-vinegar-at-home",
+  "wektory": [
+   {
+    "wejscie": 139,
+    "spelnia": false
+   },
+   {
+    "wejscie": 140,
+    "spelnia": true
+   },
+   {
+    "wejscie": 141,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "vinegar-making.temperatura_pasteryzacji_octu_(maks.)",
+  "rodzina": "vinegar-making",
+  "wielkosc": "temperatura pasteryzacji octu (maks.)",
+  "wartosc": 160,
+  "jednostka": "°F",
+  "granica": "<=",
+  "twierdzenie": "NAP-034",
+  "krytyczne": true,
+  "zrodlo": "https://extension.psu.edu/making-cider-vinegar-at-home",
+  "wektory": [
+   {
+    "wejscie": 159,
+    "spelnia": true
+   },
+   {
+    "wejscie": 160,
+    "spelnia": true
+   },
+   {
+    "wejscie": 161,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "vinegar-making.trwałość_octu_smakowego_w_chłodnym_miejscu",
+  "rodzina": "vinegar-making",
+  "wielkosc": "trwałość octu smakowego w chłodnym miejscu",
+  "wartosc": 3,
+  "jednostka": "miesiące",
+  "granica": "<=",
+  "twierdzenie": "NAP-039",
+  "krytyczne": false,
+  "zrodlo": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „miesiące”"
+ },
+ {
+  "parametr": "koji-soy-ferments.pH_produktów_koji/miso_(niekwaśne)",
+  "rodzina": "koji-soy-ferments",
+  "wielkosc": "pH produktów koji/miso (niekwaśne)",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "granica": ">",
+  "twierdzenie": "NAP-049",
+  "krytyczne": true,
+  "zrodlo": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+  "wektory": [
+   {
+    "wejscie": 4.5,
+    "spelnia": false
+   },
+   {
+    "wejscie": 4.6,
+    "spelnia": false
+   },
+   {
+    "wejscie": 4.7,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "koji-soy-ferments.czas_chłodzenia_ugotowanego_ziarna/soi_przed_zaszczepieniem",
+  "rodzina": "koji-soy-ferments",
+  "wielkosc": "czas chłodzenia ugotowanego ziarna/soi przed zaszczepieniem",
+  "wartosc": 2,
+  "jednostka": "h",
+  "granica": "<=",
+  "twierdzenie": "NAP-052",
+  "krytyczne": true,
+  "zrodlo": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+  "wektory": [
+   {
+    "wejscie": 1,
+    "spelnia": true
+   },
+   {
+    "wejscie": 2,
+    "spelnia": true
+   },
+   {
+    "wejscie": 3,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "koji-soy-ferments.temperatura_zaszczepienia_koji",
+  "rodzina": "koji-soy-ferments",
+  "wielkosc": "temperatura zaszczepienia koji",
+  "wartosc": 35,
+  "jednostka": "°C",
+  "granica": "<=",
+  "twierdzenie": "NAP-053",
+  "krytyczne": true,
+  "zrodlo": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+  "wektory": [
+   {
+    "wejscie": 34,
+    "spelnia": true
+   },
+   {
+    "wejscie": 35,
+    "spelnia": true
+   },
+   {
+    "wejscie": 36,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "koji-soy-ferments.temperatura_hodowli_koji",
+  "rodzina": "koji-soy-ferments",
+  "wielkosc": "temperatura hodowli koji",
+  "wartosc": 40,
+  "jednostka": "°C",
+  "granica": "<",
+  "twierdzenie": "NAP-053",
+  "krytyczne": true,
+  "zrodlo": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+  "wektory": [
+   {
+    "wejscie": 39,
+    "spelnia": true
+   },
+   {
+    "wejscie": 40,
+    "spelnia": false
+   },
+   {
+    "wejscie": 41,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "koji-soy-ferments.aw_miso_i_shio_koji",
+  "rodzina": "koji-soy-ferments",
+  "wielkosc": "aw miso i shio koji",
+  "wartosc": 0.85,
+  "jednostka": "aw",
+  "granica": "<=",
+  "twierdzenie": "NAP-054",
+  "krytyczne": true,
+  "zrodlo": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „aw”"
+ },
+ {
+  "parametr": "koji-soy-ferments.sól_w_miso",
+  "rodzina": "koji-soy-ferments",
+  "wielkosc": "sól w miso",
+  "wartosc": 4,
+  "jednostka": "%",
+  "granica": ">",
+  "twierdzenie": "NAP-054",
+  "krytyczne": true,
+  "zrodlo": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+  "wektory": [
+   {
+    "wejscie": 3.9,
+    "spelnia": false
+   },
+   {
+    "wejscie": 4,
+    "spelnia": false
+   },
+   {
+    "wejscie": 4.1,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "koji-soy-ferments.sól_w_sosie_sojowym",
+  "rodzina": "koji-soy-ferments",
+  "wielkosc": "sól w sosie sojowym",
+  "wartosc": 18,
+  "jednostka": "%",
+  "granica": ">=",
+  "twierdzenie": "NAP-055",
+  "krytyczne": true,
+  "zrodlo": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+  "wektory": [
+   {
+    "wejscie": 17.9,
+    "spelnia": false
+   },
+   {
+    "wejscie": 18,
+    "spelnia": true
+   },
+   {
+    "wejscie": 18.1,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "koji-soy-ferments.temperatura_inkubacji_amazake",
+  "rodzina": "koji-soy-ferments",
+  "wielkosc": "temperatura inkubacji amazake",
+  "wartosc": 50,
+  "jednostka": "°C",
+  "granica": ">",
+  "twierdzenie": "NAP-056",
+  "krytyczne": true,
+  "zrodlo": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.10%20Koji%20and%20Miso.pdf",
+  "wektory": [
+   {
+    "wejscie": 49,
+    "spelnia": false
+   },
+   {
+    "wejscie": 50,
+    "spelnia": false
+   },
+   {
+    "wejscie": 51,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "koji-soy-ferments.chłodzenie_natto_po_fermentacji_do_10°C",
+  "rodzina": "koji-soy-ferments",
+  "wielkosc": "chłodzenie natto po fermentacji do 10°C",
+  "wartosc": 4,
+  "jednostka": "h",
+  "granica": "<=",
+  "twierdzenie": "NAP-059",
+  "krytyczne": true,
+  "zrodlo": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guidance%20-%203.8%20Natto.pdf",
+  "wektory": [
+   {
+    "wejscie": 3,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4,
+    "spelnia": true
+   },
+   {
+    "wejscie": 5,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "koji-soy-ferments.temperatura_hodowli_tempeh",
+  "rodzina": "koji-soy-ferments",
+  "wielkosc": "temperatura hodowli tempeh",
+  "wartosc": 42,
+  "jednostka": "°C",
+  "granica": "<=",
+  "twierdzenie": "NAP-060",
+  "krytyczne": true,
+  "zrodlo": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guidance%20-%203.9%20Tempeh.pdf",
+  "wektory": [
+   {
+    "wejscie": 41,
+    "spelnia": true
+   },
+   {
+    "wejscie": 42,
+    "spelnia": true
+   },
+   {
+    "wejscie": 43,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "koji-soy-ferments.sól_w_sosie_rybnym_(Codex)",
+  "rodzina": "koji-soy-ferments",
+  "wielkosc": "sól w sosie rybnym (Codex)",
+  "wartosc": 200,
+  "jednostka": "g/l",
+  "granica": ">=",
+  "twierdzenie": "NAP-045",
+  "krytyczne": true,
+  "zrodlo": "https://www.fao.org/input/download/standards/11796/CXS_302e.pdf",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „g/l”"
+ },
+ {
+  "parametr": "koji-soy-ferments.histamina_w_sosie_rybnym_(Codex)",
+  "rodzina": "koji-soy-ferments",
+  "wielkosc": "histamina w sosie rybnym (Codex)",
+  "wartosc": 40,
+  "jednostka": "mg/100 g",
+  "granica": "<=",
+  "twierdzenie": "NAP-046",
+  "krytyczne": true,
+  "zrodlo": "https://www.fao.org/input/download/standards/11796/CXS_302e.pdf",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „mg/100 g”"
+ },
+ {
+  "parametr": "dairy-cheese.temperatura_pasteryzacji_mleka_(metoda_długa)",
+  "rodzina": "dairy-cheese",
+  "wielkosc": "temperatura pasteryzacji mleka (metoda długa)",
+  "wartosc": 63,
+  "jednostka": "°C",
+  "granica": ">=",
+  "twierdzenie": "MLE-007",
+  "krytyczne": true,
+  "zrodlo": "https://www.law.cornell.edu/cfr/text/21/1240.61",
+  "wektory": [
+   {
+    "wejscie": 62,
+    "spelnia": false
+   },
+   {
+    "wejscie": 63,
+    "spelnia": true
+   },
+   {
+    "wejscie": 64,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "dairy-cheese.czas_pasteryzacji_w_63_°C",
+  "rodzina": "dairy-cheese",
+  "wielkosc": "czas pasteryzacji w 63 °C",
+  "wartosc": 30,
+  "jednostka": "min",
+  "granica": ">=",
+  "twierdzenie": "MLE-009",
+  "krytyczne": true,
+  "zrodlo": "https://ohioline.osu.edu/factsheet/hyg-5817",
+  "wektory": [
+   {
+    "wejscie": 29,
+    "spelnia": false
+   },
+   {
+    "wejscie": 30,
+    "spelnia": true
+   },
+   {
+    "wejscie": 31,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "dairy-cheese.temperatura_pasteryzacji_mleka_(metoda_krótka)",
+  "rodzina": "dairy-cheese",
+  "wielkosc": "temperatura pasteryzacji mleka (metoda krótka)",
+  "wartosc": 72,
+  "jednostka": "°C",
+  "granica": ">=",
+  "twierdzenie": "MLE-010",
+  "krytyczne": true,
+  "zrodlo": "https://ohioline.osu.edu/factsheet/hyg-5817",
+  "wektory": [
+   {
+    "wejscie": 71,
+    "spelnia": false
+   },
+   {
+    "wejscie": 72,
+    "spelnia": true
+   },
+   {
+    "wejscie": 73,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "dairy-cheese.czas_pasteryzacji_w_72_°C",
+  "rodzina": "dairy-cheese",
+  "wielkosc": "czas pasteryzacji w 72 °C",
+  "wartosc": 15,
+  "jednostka": "s",
+  "granica": ">=",
+  "twierdzenie": "MLE-010",
+  "krytyczne": true,
+  "zrodlo": "https://ohioline.osu.edu/factsheet/hyg-5817",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „s”"
+ },
+ {
+  "parametr": "dairy-cheese.podwyższenie_temperatury_pasteryzacji_dla_produktów_z_≥10%_tłuszczu_lub_słodzonych",
+  "rodzina": "dairy-cheese",
+  "wielkosc": "podwyższenie temperatury pasteryzacji dla produktów z ≥10% tłuszczu lub słodzonych",
+  "wartosc": 3,
+  "jednostka": "°C",
+  "granica": ">=",
+  "twierdzenie": "MLE-008",
+  "krytyczne": true,
+  "zrodlo": "https://www.law.cornell.edu/cfr/text/21/1240.61",
+  "wektory": [
+   {
+    "wejscie": 2,
+    "spelnia": false
+   },
+   {
+    "wejscie": 3,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "dairy-cheese.pH_mlecznego_produktu_fermentowanego",
+  "rodzina": "dairy-cheese",
+  "wielkosc": "pH mlecznego produktu fermentowanego",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "granica": "<=",
+  "twierdzenie": "MLE-021",
+  "krytyczne": true,
+  "zrodlo": "https://extension.usu.edu/preserve-the-harvest/research/tips-to-safely-ferment-at-home",
+  "wektory": [
+   {
+    "wejscie": 4.5,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.6,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.7,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "dairy-cheese.czas_dojścia_do_pH_4,6",
+  "rodzina": "dairy-cheese",
+  "wielkosc": "czas dojścia do pH 4,6",
+  "wartosc": 48,
+  "jednostka": "h",
+  "granica": "<=",
+  "twierdzenie": "MLE-021",
+  "krytyczne": true,
+  "zrodlo": "https://extension.usu.edu/preserve-the-harvest/research/tips-to-safely-ferment-at-home",
+  "wektory": [
+   {
+    "wejscie": 47,
+    "spelnia": true
+   },
+   {
+    "wejscie": 48,
+    "spelnia": true
+   },
+   {
+    "wejscie": 49,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "dairy-cheese.temperatura_przechowywania_jogurtu_i_serów_świeżych",
+  "rodzina": "dairy-cheese",
+  "wielkosc": "temperatura przechowywania jogurtu i serów świeżych",
+  "wartosc": 4.4,
+  "jednostka": "°C",
+  "granica": "<=",
+  "twierdzenie": "MLE-027",
+  "krytyczne": true,
+  "zrodlo": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+  "wektory": [
+   {
+    "wejscie": 3.4,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.4,
+    "spelnia": true
+   },
+   {
+    "wejscie": 5.4,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "dairy-cheese.trwałość_jogurtu_domowego_w_lodówce",
+  "rodzina": "dairy-cheese",
+  "wielkosc": "trwałość jogurtu domowego w lodówce",
+  "wartosc": 14,
+  "jednostka": "dni",
+  "granica": "<=",
+  "twierdzenie": "MLE-028",
+  "krytyczne": true,
+  "zrodlo": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+  "wektory": [
+   {
+    "wejscie": 13,
+    "spelnia": true
+   },
+   {
+    "wejscie": 14,
+    "spelnia": true
+   },
+   {
+    "wejscie": 15,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "dairy-cheese.trwałość_sera_miękkiego_(>45%_wody)_w_lodówce",
+  "rodzina": "dairy-cheese",
+  "wielkosc": "trwałość sera miękkiego (>45% wody) w lodówce",
+  "wartosc": 7,
+  "jednostka": "dni",
+  "granica": "<=",
+  "twierdzenie": "MLE-050",
+  "krytyczne": true,
+  "zrodlo": "https://pubs.nmsu.edu/_e/E216.pdf",
+  "wektory": [
+   {
+    "wejscie": 6,
+    "spelnia": true
+   },
+   {
+    "wejscie": 7,
+    "spelnia": true
+   },
+   {
+    "wejscie": 8,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "dairy-cheese.trwałość_queso_fresco,_mozzarelli,_ricotty_domowej_w_lodówce",
+  "rodzina": "dairy-cheese",
+  "wielkosc": "trwałość queso fresco, mozzarelli, ricotty domowej w lodówce",
+  "wartosc": 7,
+  "jednostka": "dni",
+  "granica": "<=",
+  "twierdzenie": "MLE-052",
+  "krytyczne": true,
+  "zrodlo": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341228.pdf",
+  "wektory": [
+   {
+    "wejscie": 6,
+    "spelnia": true
+   },
+   {
+    "wejscie": 7,
+    "spelnia": true
+   },
+   {
+    "wejscie": 8,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "dairy-cheese.przechowywanie_ziół/warzyw_w_oleju_(dodatki_do_sera_w_oleju)_w_lodówce",
+  "rodzina": "dairy-cheese",
+  "wielkosc": "przechowywanie ziół/warzyw w oleju (dodatki do sera w oleju) w lodówce",
+  "wartosc": 4,
+  "jednostka": "dni",
+  "granica": "<=",
+  "twierdzenie": "MLE-061",
+  "krytyczne": true,
+  "zrodlo": "https://extension.oregonstate.edu/node/154041",
+  "wektory": [
+   {
+    "wejscie": 3,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4,
+    "spelnia": true
+   },
+   {
+    "wejscie": 5,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "dairy-cheese.temperatura_wewnętrzna_przy_podgrzewaniu_sera_świeżego_dla_grup_ryzyka",
+  "rodzina": "dairy-cheese",
+  "wielkosc": "temperatura wewnętrzna przy podgrzewaniu sera świeżego dla grup ryzyka",
+  "wartosc": 74,
+  "jednostka": "°C",
+  "granica": ">=",
+  "twierdzenie": "MLE-048",
+  "krytyczne": true,
+  "zrodlo": "https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance",
+  "wektory": [
+   {
+    "wejscie": 73,
+    "spelnia": false
+   },
+   {
+    "wejscie": 74,
+    "spelnia": true
+   },
+   {
+    "wejscie": 75,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "dairy-cheese.minimalny_czas_dojrzewania_sera_z_mleka_surowego_(USA,_wymóg_prawny,_nie_gwarancja_bezpieczeństwa)",
+  "rodzina": "dairy-cheese",
+  "wielkosc": "minimalny czas dojrzewania sera z mleka surowego (USA, wymóg prawny, nie gwarancja bezpieczeństwa)",
+  "wartosc": 60,
+  "jednostka": "dni",
+  "granica": ">=",
+  "twierdzenie": "MLE-037",
+  "krytyczne": true,
+  "zrodlo": "https://www.law.cornell.edu/cfr/text/21/133.113",
+  "wektory": [
+   {
+    "wejscie": 59,
+    "spelnia": false
+   },
+   {
+    "wejscie": 60,
+    "spelnia": true
+   },
+   {
+    "wejscie": 61,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.azotyn_w_produkcie_gotowym_USA_(jako_NaNO2)",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "azotyn_w_produkcie_gotowym_USA (jako NaNO2)",
+  "wartosc": 200,
+  "jednostka": "ppm",
+  "granica": "<=",
+  "twierdzenie": "MIE-001",
+  "krytyczne": true,
+  "zrodlo": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-9?part=424&section=424.21",
+  "wektory": [
+   {
+    "wejscie": 199,
+    "spelnia": true
+   },
+   {
+    "wejscie": 200,
+    "spelnia": true
+   },
+   {
+    "wejscie": 201,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.azotyn_sodu_peklowanie_na_sucho_USA",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "azotyn_sodu_peklowanie_na_sucho_USA",
+  "wartosc": 1,
+  "jednostka": "oz/100 lb mięsa",
+  "granica": "<=",
+  "twierdzenie": "MIE-002",
+  "krytyczne": true,
+  "zrodlo": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-9?part=424&section=424.21",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „oz/100 lb mięsa”"
+ },
+ {
+  "parametr": "meat-curing-smoking.azotan_peklowanie_na_sucho_USA",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "azotan_peklowanie_na_sucho_USA",
+  "wartosc": 3.5,
+  "jednostka": "oz/100 lb mięsa",
+  "granica": "<=",
+  "twierdzenie": "MIE-003",
+  "krytyczne": true,
+  "zrodlo": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-9?part=424&section=424.21",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „oz/100 lb mięsa”"
+ },
+ {
+  "parametr": "meat-curing-smoking.azotyn_boczek_na_sucho_USA_(ingoing)",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "azotyn_boczek_na_sucho_USA (ingoing)",
+  "wartosc": 200,
+  "jednostka": "ppm",
+  "granica": "<=",
+  "twierdzenie": "MIE-005",
+  "krytyczne": true,
+  "zrodlo": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-9?part=424&section=424.22",
+  "wektory": [
+   {
+    "wejscie": 199,
+    "spelnia": true
+   },
+   {
+    "wejscie": 200,
+    "spelnia": true
+   },
+   {
+    "wejscie": 201,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.azotyny_dodane_UE_kat_08.3.1_(od_2025-10-09,_jako_NO2)",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "azotyny_dodane_UE_kat_08.3.1 (od 2025-10-09, jako NO2)",
+  "wartosc": 80,
+  "jednostka": "mg/kg",
+  "granica": "<=",
+  "twierdzenie": "MIE-006",
+  "krytyczne": true,
+  "zrodlo": "http://publications.europa.eu/resource/cellar/e8600120-6640-11ee-9220-01aa75ed71a1.0006.03/DOC_1",
+  "wektory": [
+   {
+    "wejscie": 79,
+    "spelnia": true
+   },
+   {
+    "wejscie": 80,
+    "spelnia": true
+   },
+   {
+    "wejscie": 81,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.azotyny_dodane_UE_kat_08.3.2_niesterylizowane_(od_2025-10-09)",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "azotyny_dodane_UE_kat_08.3.2_niesterylizowane (od 2025-10-09)",
+  "wartosc": 80,
+  "jednostka": "mg/kg",
+  "granica": "<=",
+  "twierdzenie": "MIE-008",
+  "krytyczne": true,
+  "zrodlo": "http://publications.europa.eu/resource/cellar/e8600120-6640-11ee-9220-01aa75ed71a1.0006.03/DOC_1",
+  "wektory": [
+   {
+    "wejscie": 79,
+    "spelnia": true
+   },
+   {
+    "wejscie": 80,
+    "spelnia": true
+   },
+   {
+    "wejscie": 81,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.azotyny_pozostalosc_UE_(jako_NO2)",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "azotyny_pozostalosc_UE (jako NO2)",
+  "wartosc": 45,
+  "jednostka": "mg/kg",
+  "granica": "<=",
+  "twierdzenie": "MIE-007",
+  "krytyczne": true,
+  "zrodlo": "http://publications.europa.eu/resource/cellar/e8600120-6640-11ee-9220-01aa75ed71a1.0006.03/DOC_1",
+  "wektory": [
+   {
+    "wejscie": 44,
+    "spelnia": true
+   },
+   {
+    "wejscie": 45,
+    "spelnia": true
+   },
+   {
+    "wejscie": 46,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.azotany_dodane_UE_kat_08.3.1_(od_2025-10-09,_jako_NO3)",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "azotany_dodane_UE_kat_08.3.1 (od 2025-10-09, jako NO3)",
+  "wartosc": 90,
+  "jednostka": "mg/kg",
+  "granica": "<=",
+  "twierdzenie": "MIE-009",
+  "krytyczne": true,
+  "zrodlo": "http://publications.europa.eu/resource/cellar/e8600120-6640-11ee-9220-01aa75ed71a1.0006.03/DOC_1",
+  "wektory": [
+   {
+    "wejscie": 89,
+    "spelnia": true
+   },
+   {
+    "wejscie": 90,
+    "spelnia": true
+   },
+   {
+    "wejscie": 91,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.temperatura_peklowania_szynki",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "temperatura_peklowania_szynki",
+  "wartosc": 40,
+  "jednostka": "°F",
+  "granica": "<=",
+  "twierdzenie": "MIE-014",
+  "krytyczne": true,
+  "zrodlo": "https://vtechworks.lib.vt.edu/server/api/core/bitstreams/f875ee1c-c353-4c0a-a5c6-76e7761de62b/content",
+  "wektory": [
+   {
+    "wejscie": 39,
+    "spelnia": true
+   },
+   {
+    "wejscie": 40,
+    "spelnia": true
+   },
+   {
+    "wejscie": 41,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.ubytek_masy_szynki_dojrzewajacej_(trwałość_bez_lodówki)",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "ubytek_masy_szynki_dojrzewajacej (trwałość bez lodówki)",
+  "wartosc": 18,
+  "jednostka": "%",
+  "granica": ">=",
+  "twierdzenie": "MIE-016",
+  "krytyczne": true,
+  "zrodlo": "https://publications.mgcafe.uky.edu/files/ASC213.pdf",
+  "wektory": [
+   {
+    "wejscie": 17.9,
+    "spelnia": false
+   },
+   {
+    "wejscie": 18,
+    "spelnia": true
+   },
+   {
+    "wejscie": 18.1,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.sol_w_szynce_dojrzewajacej_(trwałość_bez_lodówki)",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "sol_w_szynce_dojrzewajacej (trwałość bez lodówki)",
+  "wartosc": 4,
+  "jednostka": "%",
+  "granica": ">=",
+  "twierdzenie": "MIE-016",
+  "krytyczne": true,
+  "zrodlo": "https://publications.mgcafe.uky.edu/files/ASC213.pdf",
+  "wektory": [
+   {
+    "wejscie": 3.9,
+    "spelnia": false
+   },
+   {
+    "wejscie": 4,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.1,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.temperatura_wewnetrzna_kielbasy_wieprzowina_wolowina",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "temperatura_wewnetrzna_kielbasy_wieprzowina_wolowina",
+  "wartosc": 160,
+  "jednostka": "°F",
+  "granica": ">=",
+  "twierdzenie": "MIE-021",
+  "krytyczne": true,
+  "zrodlo": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+  "wektory": [
+   {
+    "wejscie": 159,
+    "spelnia": false
+   },
+   {
+    "wejscie": 160,
+    "spelnia": true
+   },
+   {
+    "wejscie": 161,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.temperatura_wewnetrzna_kielbasy_drob",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "temperatura_wewnetrzna_kielbasy_drob",
+  "wartosc": 165,
+  "jednostka": "°F",
+  "granica": ">=",
+  "twierdzenie": "MIE-021",
+  "krytyczne": true,
+  "zrodlo": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+  "wektory": [
+   {
+    "wejscie": 164,
+    "spelnia": false
+   },
+   {
+    "wejscie": 165,
+    "spelnia": true
+   },
+   {
+    "wejscie": 166,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.temperatura_wewnetrzna_szynki_pieczonej",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "temperatura_wewnetrzna_szynki_pieczonej",
+  "wartosc": 155,
+  "jednostka": "°F",
+  "granica": ">=",
+  "twierdzenie": "MIE-018",
+  "krytyczne": true,
+  "zrodlo": "https://vtechworks.lib.vt.edu/server/api/core/bitstreams/f875ee1c-c353-4c0a-a5c6-76e7761de62b/content",
+  "wektory": [
+   {
+    "wejscie": 154,
+    "spelnia": false
+   },
+   {
+    "wejscie": 155,
+    "spelnia": true
+   },
+   {
+    "wejscie": 156,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.temperatura_zabijajaca_wlosnie",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "temperatura_zabijajaca_wlosnie",
+  "wartosc": 144,
+  "jednostka": "°F",
+  "granica": ">=",
+  "twierdzenie": "MIE-026",
+  "krytyczne": true,
+  "zrodlo": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+  "wektory": [
+   {
+    "wejscie": 143,
+    "spelnia": false
+   },
+   {
+    "wejscie": 144,
+    "spelnia": true
+   },
+   {
+    "wejscie": 145,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.aw_kielbasy_trwalej",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "aw_kielbasy_trwalej",
+  "wartosc": 0.85,
+  "jednostka": "aw",
+  "granica": "<",
+  "twierdzenie": "MIE-023",
+  "krytyczne": true,
+  "zrodlo": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „aw”"
+ },
+ {
+  "parametr": "meat-curing-smoking.pH_kielbasy_trwalej",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "pH_kielbasy_trwalej",
+  "wartosc": 5.3,
+  "jednostka": "pH",
+  "granica": "<",
+  "twierdzenie": "MIE-023",
+  "krytyczne": true,
+  "zrodlo": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+  "wektory": [
+   {
+    "wejscie": 5.2,
+    "spelnia": true
+   },
+   {
+    "wejscie": 5.3,
+    "spelnia": false
+   },
+   {
+    "wejscie": 5.4,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.podgrzanie_po_fermentacji_(E._coli_O157:H7)",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "podgrzanie_po_fermentacji (E. coli O157:H7)",
+  "wartosc": 145,
+  "jednostka": "°F",
+  "granica": ">=",
+  "twierdzenie": "MIE-024",
+  "krytyczne": true,
+  "zrodlo": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+  "wektory": [
+   {
+    "wejscie": 144,
+    "spelnia": false
+   },
+   {
+    "wejscie": 145,
+    "spelnia": true
+   },
+   {
+    "wejscie": 146,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.lodowka_kielbasa_swieza",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "lodowka_kielbasa_swieza",
+  "wartosc": 10,
+  "jednostka": "dni",
+  "granica": "<=",
+  "twierdzenie": "MIE-028",
+  "krytyczne": true,
+  "zrodlo": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+  "wektory": [
+   {
+    "wejscie": 9,
+    "spelnia": true
+   },
+   {
+    "wejscie": 10,
+    "spelnia": true
+   },
+   {
+    "wejscie": 11,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.lodowka_kielbasa_wedzona_parzona",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "lodowka_kielbasa_wedzona_parzona",
+  "wartosc": 4,
+  "jednostka": "tygodnie",
+  "granica": "<=",
+  "twierdzenie": "MIE-029",
+  "krytyczne": false,
+  "zrodlo": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „tygodnie”"
+ },
+ {
+  "parametr": "meat-curing-smoking.temperatura_wewnetrzna_jerky",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "temperatura_wewnetrzna_jerky",
+  "wartosc": 160,
+  "jednostka": "°F",
+  "granica": ">=",
+  "twierdzenie": "MIE-036",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/dry/jerky",
+  "wektory": [
+   {
+    "wejscie": 159,
+    "spelnia": false
+   },
+   {
+    "wejscie": 160,
+    "spelnia": true
+   },
+   {
+    "wejscie": 161,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "meat-curing-smoking.grubosc_paskow_jerky",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "grubosc_paskow_jerky",
+  "wartosc": 0.25,
+  "jednostka": "cala",
+  "granica": "<=",
+  "twierdzenie": "MIE-040",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/dry/jerky",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „cala”"
+ },
+ {
+  "parametr": "meat-curing-smoking.jerky_temperatura_pokojowa",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "jerky_temperatura_pokojowa",
+  "wartosc": 2,
+  "jednostka": "tygodnie",
+  "granica": "<=",
+  "twierdzenie": "MIE-041",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/dry/jerky",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „tygodnie”"
+ },
+ {
+  "parametr": "meat-curing-smoking.zamrazanie_wieprzowiny_na_jerky_(kawałki_do_6_cali,_0°F)",
+  "rodzina": "meat-curing-smoking",
+  "wielkosc": "zamrazanie_wieprzowiny_na_jerky (kawałki do 6 cali, 0°F)",
+  "wartosc": 30,
+  "jednostka": "dni",
+  "granica": ">=",
+  "twierdzenie": "MIE-035",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/dry/jerky",
+  "wektory": [
+   {
+    "wejscie": 29,
+    "spelnia": false
+   },
+   {
+    "wejscie": 30,
+    "spelnia": true
+   },
+   {
+    "wejscie": 31,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "fish-curing-smoking.zamrazanie_ryb_FDA_(-20°C)",
+  "rodzina": "fish-curing-smoking",
+  "wielkosc": "zamrazanie_ryb_FDA (-20°C)",
+  "wartosc": 7,
+  "jednostka": "dni",
+  "granica": ">=",
+  "twierdzenie": "MIE-046",
+  "krytyczne": true,
+  "zrodlo": "https://www.fda.gov/media/80777/download",
+  "wektory": [
+   {
+    "wejscie": 6,
+    "spelnia": false
+   },
+   {
+    "wejscie": 7,
+    "spelnia": true
+   },
+   {
+    "wejscie": 8,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "fish-curing-smoking.zamrazanie_ryb_UE_(-20°C_w_całej_masie)",
+  "rodzina": "fish-curing-smoking",
+  "wielkosc": "zamrazanie_ryb_UE (-20°C w całej masie)",
+  "wartosc": 24,
+  "jednostka": "h",
+  "granica": ">=",
+  "twierdzenie": "MIE-052",
+  "krytyczne": true,
+  "zrodlo": "http://publications.europa.eu/resource/cellar/d32807a9-4bbf-4610-84e0-1cc8fb70feef.0022.03/DOC_1",
+  "wektory": [
+   {
+    "wejscie": 23,
+    "spelnia": false
+   },
+   {
+    "wejscie": 24,
+    "spelnia": true
+   },
+   {
+    "wejscie": 25,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "fish-curing-smoking.zamrazanie_ryb_UE_(-35°C_w_całej_masie)",
+  "rodzina": "fish-curing-smoking",
+  "wielkosc": "zamrazanie_ryb_UE (-35°C w całej masie)",
+  "wartosc": 15,
+  "jednostka": "h",
+  "granica": ">=",
+  "twierdzenie": "MIE-052",
+  "krytyczne": true,
+  "zrodlo": "http://publications.europa.eu/resource/cellar/d32807a9-4bbf-4610-84e0-1cc8fb70feef.0022.03/DOC_1",
+  "wektory": [
+   {
+    "wejscie": 14,
+    "spelnia": false
+   },
+   {
+    "wejscie": 15,
+    "spelnia": true
+   },
+   {
+    "wejscie": 16,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "fish-curing-smoking.grubosc_ryby_dla_zamrazania_FDA",
+  "rodzina": "fish-curing-smoking",
+  "wielkosc": "grubosc_ryby_dla_zamrazania_FDA",
+  "wartosc": 6,
+  "jednostka": "cali",
+  "granica": "<=",
+  "twierdzenie": "MIE-048",
+  "krytyczne": true,
+  "zrodlo": "https://www.fda.gov/media/80777/download",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „cali”"
+ },
+ {
+  "parametr": "fish-curing-smoking.temperatura_rdzenia_zwalniajaca_z_zamrazania_UE",
+  "rodzina": "fish-curing-smoking",
+  "wielkosc": "temperatura_rdzenia_zwalniajaca_z_zamrazania_UE",
+  "wartosc": 60,
+  "jednostka": "°C przez 1 min",
+  "granica": ">=",
+  "twierdzenie": "MIE-054",
+  "krytyczne": true,
+  "zrodlo": "http://publications.europa.eu/resource/cellar/d32807a9-4bbf-4610-84e0-1cc8fb70feef.0022.03/DOC_1",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „°C przez 1 min”"
+ },
+ {
+  "parametr": "fish-curing-smoking.temperatura_wewnetrzna_wedzenie_ryb_dom",
+  "rodzina": "fish-curing-smoking",
+  "wielkosc": "temperatura_wewnetrzna_wedzenie_ryb_dom",
+  "wartosc": 160,
+  "jednostka": "°F przez 30 min",
+  "granica": ">=",
+  "twierdzenie": "MIE-071",
+  "krytyczne": true,
+  "zrodlo": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „°F przez 30 min”"
+ },
+ {
+  "parametr": "fish-curing-smoking.temperatura_wewnetrzna_wedzenie_na_goraco_FDA_przemysl",
+  "rodzina": "fish-curing-smoking",
+  "wielkosc": "temperatura_wewnetrzna_wedzenie_na_goraco_FDA_przemysl",
+  "wartosc": 145,
+  "jednostka": "°F przez 30 min",
+  "granica": ">=",
+  "twierdzenie": "MIE-064",
+  "krytyczne": true,
+  "zrodlo": "https://www.fda.gov/media/80310/download",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „°F przez 30 min”"
+ },
+ {
+  "parametr": "fish-curing-smoking.temperatura_wedzarni_na_zimno_FDA",
+  "rodzina": "fish-curing-smoking",
+  "wielkosc": "temperatura_wedzarni_na_zimno_FDA",
+  "wartosc": 90,
+  "jednostka": "°F",
+  "granica": "<=",
+  "twierdzenie": "MIE-063",
+  "krytyczne": true,
+  "zrodlo": "https://www.fda.gov/media/80310/download",
+  "wektory": [
+   {
+    "wejscie": 89,
+    "spelnia": true
+   },
+   {
+    "wejscie": 90,
+    "spelnia": true
+   },
+   {
+    "wejscie": 91,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "fish-curing-smoking.min_temp_wzrostu_C_botulinum_E",
+  "rodzina": "fish-curing-smoking",
+  "wielkosc": "min_temp_wzrostu_C_botulinum_E",
+  "wartosc": 3.3,
+  "jednostka": "°C",
+  "granica": ">=",
+  "twierdzenie": "MIE-059",
+  "krytyczne": true,
+  "zrodlo": "https://www.fda.gov/media/80310/download",
+  "wektory": [
+   {
+    "wejscie": 2.3,
+    "spelnia": false
+   },
+   {
+    "wejscie": 3.3,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4.3,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "fish-curing-smoking.sol_w_fazie_wodnej_ryba_wedzona_FDA",
+  "rodzina": "fish-curing-smoking",
+  "wielkosc": "sol_w_fazie_wodnej_ryba_wedzona_FDA",
+  "wartosc": 3.5,
+  "jednostka": "% WPS",
+  "granica": ">=",
+  "twierdzenie": "MIE-062",
+  "krytyczne": true,
+  "zrodlo": "https://www.fda.gov/media/80310/download",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „% WPS”"
+ },
+ {
+  "parametr": "fish-curing-smoking.sol_w_fazie_wodnej_kawior_ryba_solona_ROP",
+  "rodzina": "fish-curing-smoking",
+  "wielkosc": "sol_w_fazie_wodnej_kawior_ryba_solona_ROP",
+  "wartosc": 5,
+  "jednostka": "% WPS",
+  "granica": ">=",
+  "twierdzenie": "MIE-065",
+  "krytyczne": true,
+  "zrodlo": "https://www.fda.gov/media/80310/download",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „% WPS”"
+ },
+ {
+  "parametr": "fish-curing-smoking.sol_w_fazie_wodnej_male_niewypatroszone_chlodzone",
+  "rodzina": "fish-curing-smoking",
+  "wielkosc": "sol_w_fazie_wodnej_male_niewypatroszone_chlodzone",
+  "wartosc": 10,
+  "jednostka": "% WPS",
+  "granica": ">=",
+  "twierdzenie": "MIE-066",
+  "krytyczne": true,
+  "zrodlo": "https://www.fda.gov/media/80310/download",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „% WPS”"
+ },
+ {
+  "parametr": "fish-curing-smoking.lodowka_ryba_wedzona",
+  "rodzina": "fish-curing-smoking",
+  "wielkosc": "lodowka_ryba_wedzona",
+  "wartosc": 2,
+  "jednostka": "tygodnie",
+  "granica": "<=",
+  "twierdzenie": "MIE-074",
+  "krytyczne": true,
+  "zrodlo": "https://objects.lib.uidaho.edu/uiext/uiext32324.pdf",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „tygodnie”"
+ },
+ {
+  "parametr": "fish-curing-smoking.lodowka_ryba_marynowana",
+  "rodzina": "fish-curing-smoking",
+  "wielkosc": "lodowka_ryba_marynowana",
+  "wartosc": 6,
+  "jednostka": "tygodnie",
+  "granica": "<=",
+  "twierdzenie": "MIE-080",
+  "krytyczne": true,
+  "zrodlo": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „tygodnie”"
+ },
+ {
+  "parametr": "fish-curing-smoking.lodowka_gravlax",
+  "rodzina": "fish-curing-smoking",
+  "wielkosc": "lodowka_gravlax",
+  "wartosc": 7,
+  "jednostka": "dni",
+  "granica": "<=",
+  "twierdzenie": "MIE-058",
+  "krytyczne": true,
+  "zrodlo": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-06/327757.pdf",
+  "wektory": [
+   {
+    "wejscie": 6,
+    "spelnia": true
+   },
+   {
+    "wejscie": 7,
+    "spelnia": true
+   },
+   {
+    "wejscie": 8,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "egg-preservation.jaja_marynowane_poza_lodowka",
+  "rodzina": "egg-preservation",
+  "wielkosc": "jaja_marynowane_poza_lodowka",
+  "wartosc": 2,
+  "jednostka": "h",
+  "granica": "<=",
+  "twierdzenie": "MIE-084",
+  "krytyczne": true,
+  "zrodlo": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+  "wektory": [
+   {
+    "wejscie": 1,
+    "spelnia": true
+   },
+   {
+    "wejscie": 2,
+    "spelnia": true
+   },
+   {
+    "wejscie": 3,
+    "spelnia": false
+   }
+  ]
+ },
+ {
+  "parametr": "egg-preservation.jaja_marynowane_jakosc",
+  "rodzina": "egg-preservation",
+  "wielkosc": "jaja_marynowane_jakosc",
+  "wartosc": 4,
+  "jednostka": "miesiące",
+  "granica": "<=",
+  "twierdzenie": "MIE-085",
+  "krytyczne": false,
+  "zrodlo": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+  "wektory": null,
+  "uwaga": "brak rozdzielczości dla jednostki „miesiące”"
+ },
+ {
+  "parametr": "egg-preservation.temperatura_potraw_z_jajami",
+  "rodzina": "egg-preservation",
+  "wielkosc": "temperatura_potraw_z_jajami",
+  "wartosc": 160,
+  "jednostka": "°F",
+  "granica": ">=",
+  "twierdzenie": "MIE-092",
+  "krytyczne": true,
+  "zrodlo": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+  "wektory": [
+   {
+    "wejscie": 159,
+    "spelnia": false
+   },
+   {
+    "wejscie": 160,
+    "spelnia": true
+   },
+   {
+    "wejscie": 161,
+    "spelnia": true
+   }
+  ]
+ },
+ {
+  "parametr": "egg-preservation.lodowka_olej_z_czosnkiem",
+  "rodzina": "egg-preservation",
+  "wielkosc": "lodowka_olej_z_czosnkiem",
+  "wartosc": 4,
+  "jednostka": "dni",
+  "granica": "<=",
+  "twierdzenie": "MIE-094",
+  "krytyczne": true,
+  "zrodlo": "https://objects.lib.uidaho.edu/uiext/uiext33171.pdf",
+  "wektory": [
+   {
+    "wejscie": 3,
+    "spelnia": true
+   },
+   {
+    "wejscie": 4,
+    "spelnia": true
+   },
+   {
+    "wejscie": 5,
+    "spelnia": false
+   }
+  ]
+ }
+]

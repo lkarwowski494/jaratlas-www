@@ -1,0 +1,2344 @@
+[
+ {
+  "id": "FER-001",
+  "twierdzenie": "USA (21 CFR 114.3): żywność kwaśna to żywność o naturalnym pH 4,6 lub niższym.",
+  "zrodla": [
+   {
+    "adres": "https://www.law.cornell.edu/cfr/text/21/114.3",
+    "miejsce": "§ 114.3(a)",
+    "cytat": "Acid foods means foods that have a natural pH of 4.6 or below.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "70805787bc5e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH"
+ },
+ {
+  "id": "FER-002",
+  "twierdzenie": "USA (21 CFR 114.3): przepisy części 114 o żywności zakwaszonej nie obejmują żywności przechowywanej, dystrybuowanej i sprzedawanej w chłodzie; definicja dotyczy dodanego kwasu, nie fermentacji. Przenoszenie części 114 na domowe kiszonki to ekstrapolacja.",
+  "zrodla": [
+   {
+    "adres": "https://www.law.cornell.edu/cfr/text/21/114.3",
+    "miejsce": "§ 114.3(b)",
+    "cytat": "foods that are stored, distributed, and retailed under refrigeration are excluded from the coverage of this part.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "70805787bc5e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-003",
+  "twierdzenie": "W całym produkcie musi być minimalny, równomierny poziom kwasowości, aby zapobiec rozwojowi bakterii jadu kiełbasianego.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/general-information-on-fermenting/",
+    "miejsce": "Caution (sekcja wstępna)",
+    "cytat": "There must be a minimum, uniform level of acid throughout the mixed product to prevent the growth of botulinum bacteria.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f54cac5cdeb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-004",
+  "twierdzenie": "Żywność niskokwasowa ma pH powyżej 4,6; należą do niej m.in. wszystkie świeże warzywa z wyjątkiem większości pomidorów; kiszona kapusta i pikle należą do żywności kwaśnej (pH 4,6 lub niższe).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 1, Ensuring safe canned foods",
+    "cytat": "and all fresh vegetables except for most tomatoes. Most mixtures of low-acid and acid foods also",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 1",
+    "cytat": "Low-acid foods have pH values higher than 4.6. They include red meats, seafood, poultry, milk,",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH"
+ },
+ {
+  "id": "FER-005",
+  "twierdzenie": "Żywność niskokwasową trzeba wekować w autoklawie (pressure canner), żeby nie było ryzyka jadu kiełbasianego.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 1",
+    "cytat": "Low-acid foods must be processed in a pressure canner to be free of botulism risks. Although",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-006",
+  "twierdzenie": "Nie wekować grzybów leśnych (dzikich); przetestowany proces Guide 4 dotyczy tylko grzybów hodowlanych.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE04_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 4, Mushrooms—whole or sliced",
+    "cytat": "Caution: Do not can wild mushrooms.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8d81bb0ea1f9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-007",
+  "twierdzenie": "Kryterium gotowości kiszonki (UMN): pH 4,60 lub niższe i ustanie bąbelkowania; jeśli bąbelkowanie ustało, a pH jest powyżej 4,60, fermentować dalej i mierzyć pH co 1–2 dni.",
+  "zrodla": [
+   {
+    "adres": "https://extension.umn.edu/food-safety-basics/fermentation",
+    "miejsce": "6. Monitor the fermenting produce",
+    "cytat": "When a pH of 4.60 or lower is reached and bubbling has stopped, the ferment is ready.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "070a8cf734b3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH"
+ },
+ {
+  "id": "FER-008",
+  "twierdzenie": "USU: bez pomiaru pH miernikiem lub paskiem nie można zagwarantować, że fermentowana żywność jest wolna od patogenów.",
+  "zrodla": [
+   {
+    "adres": "https://extension.usu.edu/preserve-the-harvest/research/tips-to-safely-ferment-at-home",
+    "miejsce": "Importance of Measuring pH Levels",
+    "cytat": "Foods can NOT be guaranteed to be safe and free from harmful potential pathogens unless it is verified using a pH meter or test strip.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "2be139dc31c7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-009",
+  "twierdzenie": "USU: w większości przypadków sama fermentacja nie daje produktu trwałego w temperaturze pokojowej; prawie każda kiszonka wymaga wekowania albo lodówki.",
+  "zrodla": [
+   {
+    "adres": "https://extension.usu.edu/preserve-the-harvest/research/tips-to-safely-ferment-at-home",
+    "miejsce": "wstęp",
+    "cytat": "In most cases, fermentation alone cannot produce a shelf-stable (room temperature) food product.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "2be139dc31c7"
+   },
+   {
+    "adres": "https://extension.usu.edu/preserve-the-harvest/research/tips-to-safely-ferment-at-home",
+    "miejsce": "wstęp",
+    "cytat": "Nearly all fermented foods require canning to preserve or refrigeration.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "2be139dc31c7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-010",
+  "twierdzenie": "Praktyka małych zakładów (przegląd recenzowany): jedynym krytycznym punktem kontroli dla tradycyjnie fermentowanych warzyw jest stały i trwały spadek pH poniżej 4,6.",
+  "zrodla": [
+   {
+    "adres": "https://www.foodprotection.org/publications/food-protection-trends/archive/2020-07-manufacture-of-traditionally-fermented-vegetable-products-best-practice-for-small-businesses/",
+    "miejsce": "Abstract (Snyder, Breidt, Andress, Ingham 2020, Food Prot. Trends 40(4))",
+    "cytat": "namely a steady and sustained pH decline to < 4.6",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "d41efbc27159"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH"
+ },
+ {
+  "id": "FER-011",
+  "twierdzenie": "Nie robić kiszonej kapusty ani kiszonych ogórków ze zmniejszoną ilością soli (cytat sprawdzony dosłownie; zgodny z research 27).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/general-information-on-fermenting/",
+    "miejsce": "Pickles with reduced salt content",
+    "cytat": "Caution: Do not attempt to make sauerkraut or fermented pickles by cutting back on the salt required.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f54cac5cdeb"
+   },
+   {
+    "adres": "https://extension.psu.edu/salt-in-canning",
+    "miejsce": "Salt in Canning",
+    "cytat": "Therefore, do not attempt to make sauerkraut or fermented pickles by cutting back on the salt required.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "94e21703a6ba"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-012",
+  "twierdzenie": "W kiszonkach sól jest niezbędna dla bezpieczeństwa i tekstury: sprzyja pożądanym bakteriom i hamuje inne.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/general-information-on-fermenting/",
+    "miejsce": "Pickles with reduced salt content",
+    "cytat": "the salt used in making fermented sauerkraut and brined pickles not only provides characteristic flavor but also is vital to safety and texture.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f54cac5cdeb"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/general-information-on-fermenting/",
+    "miejsce": "Pickles with reduced salt content",
+    "cytat": "In fermented foods, salt favors the growth of desirable bacteria while inhibiting the growth of others.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f54cac5cdeb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-013",
+  "twierdzenie": "Używać soli do konserw/peklowania (canning or pickling salt); soli płatkowej nie zaleca się, bo ma zmienną gęstość.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/general-information-on-fermenting/",
+    "miejsce": "Ingredients",
+    "cytat": "Use canning or pickling salt.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f54cac5cdeb"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/general-information-on-fermenting/",
+    "miejsce": "Ingredients",
+    "cytat": "Since flake salt varies in density, it is not recommended for making pickled and fermented foods.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f54cac5cdeb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-014",
+  "twierdzenie": "USDA Guide 6 (2015): pikle fermentowane i niefermentowane można bezpiecznie robić na soli kuchennej jodowanej lub niejodowanej; dodatki przeciwzbrylające mogą zmętnić solankę. Sól do konserw jest zalecana, ale jod nie jest kwestią bezpieczeństwa wg szczebla 1.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 6, Salts used in pickling",
+    "cytat": "safely made using either iodized or noniodized table salt. However, noncaking materials added to",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94cbdc2b4f7c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-015",
+  "twierdzenie": "UMN i Wisconsin (szczebel 3): sól ma być bez jodu, bo jod przeszkadza fermentacji (Wisconsin: „zapobiega”). Sprzeczne z Guide 6 (FER-014) co do bezpieczeństwa; zgodne co do zalecenia soli do konserw.",
+  "zrodla": [
+   {
+    "adres": "https://extension.umn.edu/food-safety-basics/fermentation",
+    "miejsce": "Ingredients",
+    "cytat": "Salt should be iodine-free, as iodine can interfere with fermentation.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "070a8cf734b3"
+   },
+   {
+    "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/341219.pdf",
+    "miejsce": "Ingredients, Salt",
+    "cytat": "Salt. Use a non-iodized salt, because iodine will prevent the bacterial",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "496f81c8629c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Na karcie: „sól do konserw, bez jodu” jako zalecenie jakościowe; nie twierdzić, że sól jodowana jest niebezpieczna (szczebel 1 mówi, że jest bezpieczna).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-016",
+  "twierdzenie": "Sól jodowana jest jedną z przyczyn ciemnych/przebarwionych ogórków kiszonych (problem jakości).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/causes-and-possible-solutions-for-problems-with-fermented-pickles/",
+    "miejsce": "Dark or discolored pickles",
+    "cytat": "5. Iodized salt used. 5. Use canning or pickling salt.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e71b365ab69a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-017",
+  "twierdzenie": "Nie używać soli o obniżonej zawartości sodu (mieszanki NaCl/KCl) ani zamienników soli w kiszonkach.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 6, Salts used in pickling (zdanie kończy się w następnej linii: „recommended.”)",
+    "cytat": "taste than expected. Caution: Use of reduced-sodium salt in fermented pickle recipes is not",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94cbdc2b4f7c"
+   },
+   {
+    "adres": "https://extension.psu.edu/salt-in-canning",
+    "miejsce": "Remember",
+    "cytat": "Salt substitutes are not safe for fermented foods.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "94e21703a6ba"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-018",
+  "twierdzenie": "Nie płukać kiszonek z soli przed wekowaniem: obniżenie zawartości soli przed wekowaniem podnosi pH i może uczynić produkt niebezpiecznym (płukać można tuż przed podaniem).",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/salt-in-canning",
+    "miejsce": "Ways to Reduce Sodium",
+    "cytat": "Lowering the salt content of fermented products before canning will lower the acid content (raise the pH) and possibly render the product unsafe to eat or quick to spoil.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "94e21703a6ba"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-019",
+  "twierdzenie": "Za dużo soli w solance: fermentacja nie zachodzi i pH nie spada.",
+  "zrodla": [
+   {
+    "adres": "https://extension.umn.edu/food-safety-basics/fermentation",
+    "miejsce": "2. Brine the produce",
+    "cytat": "If there is too much salt in the brine, fermentation will not occur and the pH will not drop to become more acidic.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "070a8cf734b3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-020",
+  "twierdzenie": "UMN (ogólna metoda, nie przepis dla konkretnego warzywa): solenie na sucho 3 łyżki do 3 łyżek + 1 łyżeczka soli na 5 funtów warzyw; solanka „dla większości warzyw” 1–3 łyżki soli na 1 kwartę wody, ogórki, cebula i rzodkiewki do 5 łyżek na kwartę. UMN wymienia solankę jako metodę także dla papryki na sos i „większości owoców”.",
+  "zrodla": [
+   {
+    "adres": "https://extension.umn.edu/food-safety-basics/fermentation",
+    "miejsce": "Dry brines",
+    "cytat": "Add between 3 tablespoons and 3 tablespoons plus 1 teaspoon of salt per five pounds of produce.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "070a8cf734b3"
+   },
+   {
+    "adres": "https://extension.umn.edu/food-safety-basics/fermentation",
+    "miejsce": "Wet brines",
+    "cytat": "Mix 1 to 3 tablespoons of salt per 1 quart (4 cups) of water.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "070a8cf734b3"
+   },
+   {
+    "adres": "https://extension.umn.edu/food-safety-basics/fermentation",
+    "miejsce": "Wet brines",
+    "cytat": "Cucumbers, onions and radishes may require up to 5 tablespoons of salt per 1 quart of water.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "070a8cf734b3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ogólna wskazówka UMN, nie przetestowany przepis dla poszczególnych wariantów; nie wystarcza do statusu ok-zrodlo.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-021",
+  "twierdzenie": "Kapusta i ogórki muszą być podczas fermentacji 1–2 cale (ok. 2,5–5 cm) pod solanką.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/suitable-containers-covers-and-weights-for-fermenting-food/",
+    "miejsce": "Suitable Containers",
+    "cytat": "Cabbage and cucumbers must be kept 1 to 2 inches under brine while fermenting.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5b85d80691a0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "warstwa solanki nad warzywami",
+  "wartosc": 1,
+  "jednostka": "cal"
+ },
+ {
+  "id": "FER-022",
+  "twierdzenie": "Żywność może stykać się tylko z tworzywami dopuszczonymi do żywności; nie używać worków na śmieci.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/suitable-containers-covers-and-weights-for-fermenting-food/",
+    "miejsce": "Suitable Containers",
+    "cytat": "Caution: Be certain that foods contact only food-grade plastics. Do not use garbage bags or trash liners.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5b85d80691a0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-023",
+  "twierdzenie": "Plastik i szkło dopuszczone do żywności to dobre zamienniki kamionki; kiszenie kapusty w słoikach (kwarta, pół galonu) jest dopuszczalne, ale może dawać więcej strat przez zepsucie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/suitable-containers-covers-and-weights-for-fermenting-food/",
+    "miejsce": "Suitable Containers",
+    "cytat": "Food-grade plastic and glass containers are excellent substitutes for stone crocks.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5b85d80691a0"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/suitable-containers-covers-and-weights-for-fermenting-food/",
+    "miejsce": "Suitable Containers",
+    "cytat": "Fermenting sauerkraut in quart and half-gallon Mason jars is an acceptable practice, but may result in more spoilage losses.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5b85d80691a0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-024",
+  "twierdzenie": "Jeśli używano przyborów lub sprzętu z mosiądzu, miedzi lub cynku, ogórków nie spożywać; przyczyną ciemnienia mogą być też przybory żelazne.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/causes-and-possible-solutions-for-problems-with-fermented-pickles/",
+    "miejsce": "Dark or discolored pickles",
+    "cytat": "(If brass, copper or zinc utensils and brining equipment were used, do not use pickles.)",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e71b365ab69a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/causes-and-possible-solutions-for-problems-with-fermented-pickles/",
+    "miejsce": "Dark or discolored pickles",
+    "cytat": "4. Brass, iron, copper or zinc utensils used.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e71b365ab69a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-025",
+  "twierdzenie": "Zalecane przybory: emalia bez odprysków dopuszczona do żywności, szkło, stal nierdzewna lub kamionka (NCHFP; dotyczy przyborów, „utensils”).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/causes-and-possible-solutions-for-problems-with-fermented-pickles/",
+    "miejsce": "Dark or discolored pickles",
+    "cytat": "4. Use food-grade unchipped enamelware, glass, stainless steel, or stoneware utensils.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e71b365ab69a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-026",
+  "twierdzenie": "Szczebel 3: unikać metalowych pojemników do fermentacji (metal reaguje z kwasem mlekowym); Wisconsin: nie używać metalowych pojemników żadnego rodzaju; CSU: ani metalowych pojemników, ani kamionki z pęknięciami lub odpryskami. NCHFP (FER-025) dopuszcza stal nierdzewną jako przybory.",
+  "zrodla": [
+   {
+    "adres": "https://extension.umn.edu/food-safety-basics/fermentation",
+    "miejsce": "Equipment",
+    "cytat": "Avoid metal containers as the metal will react with the lactic acid that the bacteria produce.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "070a8cf734b3"
+   },
+   {
+    "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/341219.pdf",
+    "miejsce": "Container, Note",
+    "cytat": "containers of any type. The dyes used in nonfood plastic containers and",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "496f81c8629c"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Equipment",
+    "cytat": "earthenware with cracks or chips. Container(s)",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "45767867f814"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Na karcie: naczynie do fermentacji szkło, kamionka bez uszkodzeń, plastik spożywczy; stal nierdzewna tylko jako przybory (miski, łyżki), dopóki nie ma źródła o naczyniach ze stali.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-027",
+  "twierdzenie": "Wisconsin: używanych kamionek z aukcji lub po rodzinie nie używać, jeśli mają słabe szkliwo lub odpryski; sprawdzać pęknięcia.",
+  "zrodla": [
+   {
+    "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/341219.pdf",
+    "miejsce": "Container, Note",
+    "cytat": "glaze or is chipped, don’t use it for making sauerkraut. Do not use metal",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "496f81c8629c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-028",
+  "twierdzenie": "FDA (USA): ołów może być obecny w szkliwach lub zdobieniach tradycyjnej ceramiki i przy złym wypale przechodzić do żywności przygotowywanej lub przechowywanej w naczyniu; ryzykowne typy: ręcznie robione o surowym wyglądzie, antyczne, uszkodzone lub mocno zużyte, z pchlich targów, jaskrawo zdobione na pomarańczowo, czerwono lub żółto.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/environmental-contaminants-food/questions-and-answers-lead-glazed-traditional-pottery",
+    "miejsce": "Q&A, wstęp",
+    "cytat": "If the pottery is not manufactured properly, this lead can leach into food and drink that is prepared, stored, or served in the dishes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d56534d8d70c"
+   },
+   {
+    "adres": "https://www.fda.gov/food/environmental-contaminants-food/questions-and-answers-lead-glazed-traditional-pottery",
+    "miejsce": "What should I look for",
+    "cytat": "handmade with a crude appearance or irregular shape antique damaged or excessively worn",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d56534d8d70c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-029",
+  "twierdzenie": "NCHFP kapusta kiszona: 25 funtów kapusty na 3/4 szklanki soli do konserw; praca partiami po 5 funtów z 3 łyżkami soli.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Sauerkraut, składniki",
+    "cytat": "25 lbs cabbage 3/4 cup canning or pickling salt",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1450dd471489"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Procedure",
+    "cytat": "and add 3 tablespoons of salt.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1450dd471489"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-030",
+  "twierdzenie": "Jeśli sok nie przykrywa kapusty, dolać przegotowanej i ostudzonej solanki: 1,5 łyżki soli na kwartę wody.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Procedure",
+    "cytat": "If juice does not cover cabbage, add boiled and cooled brine (1-1/2 tablespoons of salt per quart of water).",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1450dd471489"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-031",
+  "twierdzenie": "Wisconsin (szczebel 3): do kapusty 2,25–2,5% soli wagowo, sól do konserw bez jodu (3 łyżki na 5 funtów).",
+  "zrodla": [
+   {
+    "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/341219.pdf",
+    "miejsce": "Ingredients, Salt",
+    "cytat": "sauerkraut. Add 2.25 to 2.5 percent salt by weight (see Procedure 3",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "496f81c8629c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "sól w kapuście (wagowo)",
+  "wartosc": 2.25,
+  "jednostka": "%"
+ },
+ {
+  "id": "FER-032",
+  "twierdzenie": "OSU: miękka kapusta (słaba jakość, ale bezpieczna, jeśli ma czysty, kwaśny zapach i smak) wynika m.in. ze zbyt małej ilości soli: poniżej 1,7%.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/sauerkraut-problems-solutions-sp-50-745",
+    "miejsce": "Soft kraut",
+    "cytat": "Insufficient salt (less than 1.7% concentration).",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "de4b4f0b44dd"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/sauerkraut-problems-solutions-sp-50-745",
+    "miejsce": "Soft kraut",
+    "cytat": "Soft kraut (poor quality but safe if it has a clean, acid aroma and taste)",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "de4b4f0b44dd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "sól w kapuście (próg jakości)",
+  "wartosc": 1.7,
+  "jednostka": "%"
+ },
+ {
+  "id": "FER-033",
+  "twierdzenie": "UC MFP Humboldt (szczebel 3–4): sól 2–2,5% masy szatkowanej kapusty; poniżej 1,5% kapusta gnije.",
+  "zrodla": [
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2020-11/339529.pdf",
+    "miejsce": "Salt",
+    "cytat": "2.5% in relation to the weight of the sliced cabbage.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "64eb62b53e04"
+   },
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2020-11/339529.pdf",
+    "miejsce": "Salt",
+    "cytat": "Decreasing salt levels will create quality problems, going",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "64eb62b53e04"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "sól w kapuście (dolna granica)",
+  "wartosc": 1.5,
+  "jednostka": "%"
+ },
+ {
+  "id": "FER-034",
+  "twierdzenie": "NCHFP kapusta: zalecana temperatura fermentacji 70–75 °F (21–24 °C), pełna fermentacja w ok. 3–4 tygodnie; w 60–65 °F (16–18 °C) 5–6 tygodni; poniżej 60 °F (16 °C) kapusta może nie fermentować; powyżej 75 °F (24 °C) może zmięknąć.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Procedure",
+    "cytat": "the USDA recommendation is to store at 70º to 75ºF while fermenting.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1450dd471489"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Procedure",
+    "cytat": "At temperatures lower than 60ºF, kraut may not ferment. Above 75ºF, kraut may become soft.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1450dd471489"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "temperatura fermentacji kapusty",
+  "wartosc": 75,
+  "jednostka": "°F"
+ },
+ {
+  "id": "FER-035",
+  "twierdzenie": "NCHFP kapusta: przy obciążeniu workiem z solanką nie ruszać naczynia do końca fermentacji (gdy ustanie bąbelkowanie); przy obciążeniu słoikami sprawdzać 2–3 razy w tygodniu i zbierać kożuch.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Procedure",
+    "cytat": "If you use jars as weight, you will have to check the kraut 2 to 3 times each week and remove scum if it forms.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1450dd471489"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-036",
+  "twierdzenie": "NCHFP: w pełni ukiszoną kapustę można trzymać szczelnie przykrytą w lodówce przez kilka miesięcy albo zawekować.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Procedure",
+    "cytat": "Fully fermented kraut may be kept tightly covered in the refrigerator for several months or it may be canned as follows:",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1450dd471489"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-037",
+  "twierdzenie": "NCHFP: wekowanie kapusty w kąpieli wodnej, 0–1000 stóp n.p.m.: hot pack słoiki pint 10 min, quart 15 min; raw pack pint 20 min, quart 25 min (wyżej dłużej wg tabeli).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Table 1",
+    "cytat": "Hot Pints 10 min 15 15 20 Quarts 15 20 20 25 Raw Pints 20 25 30 35 Quarts 25 30 35 40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1450dd471489"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-038",
+  "twierdzenie": "Wisconsin 1994 (szczebel 3): wekowanie kapusty 15 min (pint) / 20 min (quart) w kąpieli wodnej; dłużej niż NCHFP hot pack. Przy sprzeczności wygrywa NCHFP (szczebel 1).",
+  "zrodla": [
+   {
+    "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/341219.pdf",
+    "miejsce": "Long-Term Storage, Canning",
+    "cytat": "Process in a boiling water canner (212 degrees F) 15 minutes for",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "496f81c8629c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-039",
+  "twierdzenie": "Wisconsin (szczebel 3): w chłodnej piwnicy kapusta może zostać w kamionce bez lodówki „bezterminowo”, dopóki górna powierzchnia nie jest wystawiona na powietrze. NCHFP podaje tylko lodówkę lub wekowanie.",
+  "zrodla": [
+   {
+    "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/341219.pdf",
+    "miejsce": "4. Leaving in the Crock",
+    "cytat": "may be kept in the crock indefinitely as long as the top surface is not",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "496f81c8629c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Na karcie podać wariant NCHFP (lodówka/wekowanie); piwnica tylko jako tradycja z zastrzeżeniem.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-040",
+  "twierdzenie": "Wisconsin: do kiszenia można użyć także odmian kapusty czerwonej.",
+  "zrodla": [
+   {
+    "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/341219.pdf",
+    "miejsce": "Ingredients, Cabbage",
+    "cytat": "use ordinary green cabbage for making sauerkraut, you may also use red",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "496f81c8629c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-041",
+  "twierdzenie": "Wisconsin, małe partie: słoik 2 kwarty mieści ok. 3 1/3 funta kapusty i 2 łyżki + 1 łyżeczkę soli; fermentacja w 68–72 °F do ustania bąbelkowania, zwykle 2–3 tygodnie; potem lodówka lub bardzo chłodne miejsce.",
+  "zrodla": [
+   {
+    "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/341219.pdf",
+    "miejsce": "Making Small Amounts",
+    "cytat": "To this amount, add 2 tablespoons plus 1 teaspoon canning or pickling",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "496f81c8629c"
+   },
+   {
+    "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/341219.pdf",
+    "miejsce": "Making Small Amounts",
+    "cytat": "until the bubbling stops. This will usually take 2 to 3 weeks.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "496f81c8629c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-042",
+  "twierdzenie": "NCHFP ogórki kiszone (dill pickles), na galon pojemności: 4 funty ogórków 4-calowych, 1/2 szklanki soli, 1/4 szklanki octu 5%, 8 szklanek wody; czosnek i suszona czerwona papryka opcjonalnie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Dill Pickles, składniki",
+    "cytat": "4 lbs of 4-inch pickling cucumbers 2 tbsp dill seed or 4 to 5 heads fresh or dry dill weed 1/2 cup salt 1/4 cup vinegar (5 percent) 8 cups water",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da87598aafd2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-043",
+  "twierdzenie": "NCHFP ogórki: fermentacja w 70–75 °F (21–24 °C) ok. 3–4 tygodnie; 55–65 °F (13–18 °C) dopuszczalne, ale 5–6 tygodni; unikać powyżej 80 °F (27 °C), bo ogórki zmiękną.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Procedure",
+    "cytat": "Store where temperature is between 70ºF and 75ºF for about 3 to 4 weeks while fermenting.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da87598aafd2"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Procedure",
+    "cytat": "Avoid temperatures above 80ºF, or pickles will become too soft during fermentation.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da87598aafd2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "temperatura fermentacji ogórków",
+  "wartosc": 80,
+  "jednostka": "°F"
+ },
+ {
+  "id": "FER-044",
+  "twierdzenie": "NCHFP ogórki: sprawdzać naczynie kilka razy w tygodniu i od razu zbierać kożuch lub pleśń z powierzchni; jeśli ogórki zmiękną, staną się śliskie lub nieprzyjemnie pachną, wyrzucić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Procedure",
+    "cytat": "Check the container several times a week and promptly remove surface scum or mold.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da87598aafd2"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Procedure",
+    "cytat": "Caution: If the pickles become soft, slimy, or develop a disagreeable odor, discard them.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da87598aafd2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-045",
+  "twierdzenie": "NCHFP ogórki: w pełni ukiszone można trzymać w oryginalnym naczyniu ok. 4–6 miesięcy w lodówce, regularnie zbierając kożuch i pleśń; wekowanie jest lepszym sposobem przechowywania.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Procedure",
+    "cytat": "Fully fermented pickles may be stored in the original container for about 4 to 6 months, provided they are refrigerated and surface scum and molds are removed regularly.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da87598aafd2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-046",
+  "twierdzenie": "NCHFP ogórki: wekowanie w kąpieli wodnej, raw pack, 0–1000 stóp: pint 10 min, quart 15 min (solankę zagotować i gotować 5 min).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Table 1",
+    "cytat": "Raw Pints 10 min 15 20 Quarts 15 20 25",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "da87598aafd2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-047",
+  "twierdzenie": "Pasteryzacja niskotemperaturowa (zamiast wekowania ogórków): woda 180–185 °F (82–85 °C) utrzymana przez 30 min, nigdy poniżej 180 °F; stosować tylko, gdy przepis ją przewiduje.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/low-temperature-pasteurization-treatment/",
+    "miejsce": "Low-Temperature Pasteurization Treatment",
+    "cytat": "Heat the water enough to maintain 180º to 185º F water temperature for 30 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d387fe94ce25"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/low-temperature-pasteurization-treatment/",
+    "miejsce": "Low-Temperature Pasteurization Treatment",
+    "cytat": "Caution: Use only when recipe indicates.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d387fe94ce25"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "temperatura pasteryzacji",
+  "wartosc": 180,
+  "jednostka": "°F"
+ },
+ {
+  "id": "FER-048",
+  "twierdzenie": "Odciąć i wyrzucić plaster 1/16 cala od strony kwiatu ogórka (enzymy zmiękczające).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/general-information-on-fermenting/",
+    "miejsce": "wstęp",
+    "cytat": "Be sure to remove and discard a 1/16-inch slice from the blossom end of fresh cucumbers.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f54cac5cdeb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-049",
+  "twierdzenie": "Miękkie lub śliskie ogórki: jeśli widać zepsucie, nie jeść; przyczyny m.in. za słaba solanka, za wysoka temperatura, za mało solanki.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/causes-and-possible-solutions-for-problems-with-fermented-pickles/",
+    "miejsce": "Soft or slippery pickles",
+    "cytat": "Soft or slippery pickles. (If spoilage is evident, do not eat.) 1. Salt brine too weak during fermentation.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e71b365ab69a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-050",
+  "twierdzenie": "Kożuch na solance podczas kiszenia ogórków (dzikie drożdże i bakterie zjadające kwas): zbierać tak często, jak trzeba.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/causes-and-possible-solutions-for-problems-with-fermented-pickles/",
+    "miejsce": "Scum on the brine surfaces",
+    "cytat": "1. Remove scum as often as needed.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e71b365ab69a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-051",
+  "twierdzenie": "NCHFP (opis ogólny): zwykłe ogórki i kapusta fermentują ok. 3 tygodnie, „refrigerator dills” ok. 1 tygodnia; NCHFP nie publikuje przepisu na tę krótką wersję.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/general-information-on-fermenting/",
+    "miejsce": "wstęp",
+    "cytat": "Regular dill pickles and sauerkraut are fermented and cured for about 3 weeks. Refrigerator dills are fermented for about 1 week.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f54cac5cdeb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-052",
+  "twierdzenie": "Penn State: stosować przetestowany przepis (np. NCHFP) dokładnie; nie pomijać ani nie zmniejszać octu i soli; przechowywanie w lodówce do 6 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/fermenting-dill-pickles",
+    "miejsce": "Recipe and Ingredients",
+    "cytat": "Do not omit or reduce the amount of ingredients such as vinegar or salt.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "cd8611460fb7"
+   },
+   {
+    "adres": "https://extension.psu.edu/fermenting-dill-pickles",
+    "miejsce": "Storage",
+    "cytat": "Refrigerate up to 6 months",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "cd8611460fb7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-053",
+  "twierdzenie": "Przemysł (USDA-ARS, recenzowane): solanki do masowego kiszenia ogórków wyrównują się do co najmniej 5% NaCl; 2% NaCl to stężenie stosowane dla kapusty i innych warzyw gotowych do spożycia. Żadne przeczytane źródło nie testuje domowych ogórków 2% bez octu ani małosolnych.",
+  "zrodla": [
+   {
+    "adres": "https://ars.usda.gov/ARSUserFiles/60702500/Fermented%20Veg%20Manuscripts/p428.pdf",
+    "miejsce": "McMurtrie i in. 2019, J. Food Sci., wstęp",
+    "cytat": "to at least 5% sodium chloride (0.86 M NaCl) are used to select",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "cca7bb7b3e16"
+   },
+   {
+    "adres": "https://ars.usda.gov/ARSUserFiles/60702500/Fermented%20Veg%20Manuscripts/p427.pdf",
+    "miejsce": "Dupree i in. 2019, J. Food Prot. 82(4), Abstract",
+    "cytat": "chloride (NaCl) concentrations, including 1 M (6%) NaCl used in commercial cucumber fermentations and 0.34 M (2%) NaCl",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "f5ee7fc6d9a0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Na karcie: ogórki „po polsku” 2% bez octu i małosolne nie mają przetestowanego przepisu domowego.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-054",
+  "twierdzenie": "Dupree i in. 2019 (USDA-ARS/UGA): patogenne E. coli (STEC) należą do najbardziej kwasoodpornych patogenów w warzywach fermentowanych i zakwaszanych; dodatek soli wspiera wzrost bakterii mlekowych względem STEC.",
+  "zrodla": [
+   {
+    "adres": "https://ars.usda.gov/ARSUserFiles/60702500/Fermented%20Veg%20Manuscripts/p427.pdf",
+    "miejsce": "Abstract",
+    "cytat": "that lack added NaCl. STEC strains have previously been shown to be among the most acid-resistant pathogens in fermented or",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "f5ee7fc6d9a0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-055",
+  "twierdzenie": "OSU (kapusta): małe plamy pleśni można zebrać, przy dużej ilości wyrzucić całą partię; śliska kapusta oznacza zepsucie, wyrzucić; różowa bezpieczna, jeśli nie jest śliska; gnijące części wyrzucić.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/sauerkraut-problems-solutions-sp-50-745",
+    "miejsce": "Moldy kraut",
+    "cytat": "Moldy kraut (small mold patches may be skimmed off, but large amounts require discarding)",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "de4b4f0b44dd"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/sauerkraut-problems-solutions-sp-50-745",
+    "miejsce": "Moldy kraut",
+    "cytat": "Discard the batch if large amounts of mold are visible.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "de4b4f0b44dd"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/sauerkraut-problems-solutions-sp-50-745",
+    "miejsce": "Slimy kraut",
+    "cytat": "Slimy kraut (indicates spoilage; discard kraut)",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "de4b4f0b44dd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-056",
+  "twierdzenie": "Wisconsin (kapusta): sprawdzać codziennie; kożuch drożdżowy lub pleśń zebrać; przebarwioną górną warstwę (do 1 cala) usunąć.",
+  "zrodla": [
+   {
+    "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/341219.pdf",
+    "miejsce": "6. Check the container daily",
+    "cytat": "molds may form on the liquid’s surface. If they appear, skim them",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "496f81c8629c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-057",
+  "twierdzenie": "Kimchi (UGA): pleśń, nieprzyjemny zapach inny niż typowy zapach fermentacji lub nietypowa tekstura to oznaki zepsucia; wtedy kimchi wyrzucić. CSU: wyrzucić przy oznakach pleśni na powierzchni.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1362/",
+    "miejsce": "Spoilage",
+    "cytat": "If any of these signs are observed, discard the kimchi to prevent potential foodborne illness.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "3e96e366a7e3"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "6. Store and enjoy!",
+    "cytat": "time. Discard if you observe indications of surface",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "45767867f814"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Kimchi: pleśń = wyrzucić (bez zbierania).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-058",
+  "twierdzenie": "Oliwki (UC ANR 8267): jeśli w którymkolwiek momencie oliwki spleśnieją, zmiękną lub brzydko pachną, nie jeść ani nie próbować. Fresno UCCE: kożuch lub pleśń na solance zbierać od razu; przy obfitej pleśni oliwki zniszczyć.",
+  "zrodla": [
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "Introduction, CAUTION (margines)",
+    "cytat": "CAUTION: If at any time",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "narzędzie",
+    "sha12": "cec958cd79a3"
+   },
+   {
+    "adres": "https://ucanr.edu/sites/fresnonutrition/files/14350.pdf",
+    "miejsce": "Spoilage",
+    "cytat": "Mold or scum may form on the brine. Skim it off as soon as",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "2fa064833eee"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-059",
+  "twierdzenie": "Codex STAN 223-2001 (kimchi z kapusty pekińskiej): zawartość soli 1,0–4,0% m/m; kwasowość całkowita (jako kwas mlekowy) nie więcej niż 1,0% m/m.",
+  "zrodla": [
+   {
+    "adres": "https://www.fao.org/input/download/standards/365/CXS_223e.pdf",
+    "miejsce": "3.1.3 Other Composition",
+    "cytat": "(b)   Salt (sodium chloride) content   1.0 ~ 4.0% m/m",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e8d397263274"
+   },
+   {
+    "adres": "https://www.fao.org/input/download/standards/365/CXS_223e.pdf",
+    "miejsce": "3.1.3 Other Composition",
+    "cytat": "(c)   Total acidity (as lactic acid)   not more than 1.0% m/m",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e8d397263274"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "sól w kimchi",
+  "wartosc": 4.0,
+  "jednostka": "% m/m"
+ },
+ {
+  "id": "FER-060",
+  "twierdzenie": "Codex STAN 223: dozwolone składniki kimchi obejmują solone i fermentowane owoce morza, owoce, orzechy, sezam; norma dotyczy kimchi z kapusty pekińskiej (zakres).",
+  "zrodla": [
+   {
+    "adres": "https://www.fao.org/input/download/standards/365/CXS_223e.pdf",
+    "miejsce": "3.1.2 Other Permitted Ingredients",
+    "cytat": "(d)     salted and fermented seafood;",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e8d397263274"
+   },
+   {
+    "adres": "https://www.fao.org/input/download/standards/365/CXS_223e.pdf",
+    "miejsce": "1 Scope",
+    "cytat": "prepared with Chinese cabbage as a predominant ingredient",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e8d397263274"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-061",
+  "twierdzenie": "CSU (szczebel 3): końcowe stężenie soli w kimchi 2–5%; optymalne pH ok. 4,2; fermentacja w temperaturze pokojowej 1–2 dni lub wolniej w lodówce; dla bezpieczeństwa przechowywać w lodówce, najlepiej zjeść w ciągu tygodnia.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Quick facts",
+    "cytat": "concentration ranges from 2-5%.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "45767867f814"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Quick facts",
+    "cytat": "kimchi should be stored refrigerated",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "45767867f814"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "sól w kimchi (CSU)",
+  "wartosc": 5,
+  "jednostka": "%"
+ },
+ {
+  "id": "FER-062",
+  "twierdzenie": "UGA C1362 (2025): po zapakowaniu słoiki luźno przykryć i trzymać w temperaturze pokojowej przez pierwsze 48 h, potem do lodówki; przechowywanie w 41 °F (5 °C) lub niżej.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1362/",
+    "miejsce": "Start Making Your Own Kimchi",
+    "cytat": "The jars should then be loosely covered and left at room temperature for the first 48 hr.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "3e96e366a7e3"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1362/",
+    "miejsce": "Stages of Fermentation",
+    "cytat": "Maintaining a storage temperature of 41 °F or below helps ensure both the safety and quality of the final product",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "3e96e366a7e3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "temperatura przechowywania kimchi",
+  "wartosc": 41,
+  "jednostka": "°F"
+ },
+ {
+  "id": "FER-063",
+  "twierdzenie": "UGA C1362: po ok. 2 tygodniach fermentacja daje środowisko dostatecznie kwaśne (pH poniżej 4,6), hamujące większość patogenów; we wczesnej fazie pH może być jeszcze za wysokie.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1362/",
+    "miejsce": "Stages of Fermentation",
+    "cytat": "After approximately 2 weeks, the fermentation process leads to a sufficiently acidic environment—a pH below 4.6—that inhibits the growth of most foodborne pathogens.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "3e96e366a7e3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-064",
+  "twierdzenie": "UGA C1362: kimchi może zawierać alergeny (sos rybny, pasta krewetkowa, solone anchois, olej sezamowy, sos sojowy, orzechy).",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1362/",
+    "miejsce": "Be Aware of Allergens",
+    "cytat": "fish sauce, shrimp paste, or salted anchovies are often used to enhance flavor",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "3e96e366a7e3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-065",
+  "twierdzenie": "UGA C1362: kapustę natrzeć solą i odstawić na 2 h, masując co 30 min; używać zwalidowanych przepisów. Publikacja nie podaje ilości soli.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1362/",
+    "miejsce": "Start Making Your Own Kimchi",
+    "cytat": "rub it with salt and allow it to rest, massaging it every 30 min for 2 hr.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "3e96e366a7e3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-066",
+  "twierdzenie": "CSU przepis baechu kimchi (szczebel 3): 2 główki kapusty pekińskiej (6–8 funtów), 1,5 szklanki grubej soli bez jodu (zanurzenie w solance 1/2 szklanki soli na galon, potem 1 szklanka soli na 3–6 h i płukanie), sos rybny opcjonalnie (1 łyżeczka), gruszka azjatycka opcjonalnie, imbir; fermentacja 1–2 dni w ok. 68 °F lub 3–4 dni w lodówce.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Ingredients",
+    "cytat": "1 1/2 cups coarse salt, non-iodized, divided (baked",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "45767867f814"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Ingredients",
+    "cytat": "1 tsp. fish sauce (optional)",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "45767867f814"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "5. Ferment!",
+    "cytat": "temperature, around 68°F is ideal. Ferment only 1",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "45767867f814"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-067",
+  "twierdzenie": "Czas przechowywania kimchi w lodówce: CSU „najlepiej w ciągu tygodnia” (jakość), OSU Kimchi Basics (przepis Newell/Ball) „do 6 miesięcy”, OSU Ask Extension „miesiącami”. Wszystko szczebel 3; część wspólna: lodówka, jakość spada z czasem.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/sites/default/files/2023-08/sp_50_1007_kimchibasics.pdf",
+    "miejsce": "Newell Kimchi, krok 9",
+    "cytat": "lid. Store in refrigerator up to 6 months.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "46b2f6f4cf6d"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/ask-extension/featured/my-kimchi-safe-eat",
+    "miejsce": "A:",
+    "cytat": "It will keep in the refrigerator for months and keep fermenting.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9e79edc3d942"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-068",
+  "twierdzenie": "Ask Extension (ekspert extension, 05.2026): fermentacja nie jest zatwierdzoną, bezpieczną metodą utrwalania czosnku; obecnie nie ma zwalidowanych przepisów na fermentowany czosnek; czosnek to żywność niskokwasowa, ryzyko jadu kiełbasianego.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=930666",
+    "miejsce": "Expert Response, 11.05.2026",
+    "cytat": "Fermentation is not an approved, safe method of preserving garlic. There are currently no validated recipes for fermenting garlic.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0911d9be0c5b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-069",
+  "twierdzenie": "Czosnek fermentowany w miodzie: K-State (2020) — ryzykowne; czosnek jest niskokwasowy, kwasowość miodu zmienna, końcowa aktywność wody mieszaniny nieznana; obawa przed jadem kiełbasianym; miód bywa źródłem botulizmu niemowląt (poniżej 1. roku).",
+  "zrodla": [
+   {
+    "adres": "https://www.k-state.edu/news/you-asked-it/articles/2020/10/honey-fermented-garlic-may-be-risky.html",
+    "miejsce": "Honey Fermented Garlic May Be Risky",
+    "cytat": "Other concerns are the risk of botulism, due to the fact that botulism has occurred in garlic in oil.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "cf4de74e4384"
+   },
+   {
+    "adres": "https://www.k-state.edu/news/you-asked-it/articles/2020/10/honey-fermented-garlic-may-be-risky.html",
+    "miejsce": "Honey Fermented Garlic May Be Risky",
+    "cytat": "Honey can also be a source of infant botulism in children under age one.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "cf4de74e4384"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-070",
+  "twierdzenie": "Ask Extension (2023): nie ma przepisów opartych na badaniach dowodzących, że fermentowanie czosnku w surowym miodzie jest bezpieczne; czosnek pH ok. 5,8, miód pH 3,4–6,1; pomiar paskiem pH nie jest dokładny.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=822985",
+    "miejsce": "Expert Response",
+    "cytat": "There are no research-based recipes to prove that fermenting garlic in raw honey is a safe practice or how to do it safely.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "b92badb235f4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-071",
+  "twierdzenie": "Ask Extension (OSU, 2023): nie ma konkretnego (przetestowanego) przepisu na fermentowany sos z papryki chili; ekspert zaleca dokumentować kroki i mierzyć pH każdej partii.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=819582",
+    "miejsce": "Expert Response",
+    "cytat": "There isn't a specific recipe for creating a fermented pepper hot sauce",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "18fe4290bcb6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-072",
+  "twierdzenie": "UC ANR 8267 (2007): jeśli oliwki mają być wekowane, tylko w autoklawie (co najmniej 240 °F); nigdy w kąpieli wodnej ani w parze; oliwki są żywnością niskokwasową.",
+  "zrodla": [
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "Canning cured olives, Disclaimer",
+    "cytat": "A pressure canner must be used if you choose to process olives. Olives are low-acid",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "narzędzie",
+    "sha12": "cec958cd79a3"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2024-11/404165.pdf",
+    "miejsce": "UCCE MFP Amador/Calaveras 2019",
+    "cytat": "Olives are a low-acid food and must be pressure canned if processed; not a boiling water canner to process olives.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ece076018c4a"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-073",
+  "twierdzenie": "UC ANR 8267: oliwki ługowane niefermentowane są żywnością niskokwasową; źle domowo zawekowane oliwki powodowały zatrucia jadem kiełbasianym.",
+  "zrodla": [
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "Disposal of spoiled and questionable olives",
+    "cytat": "(>pH 4.6) in the absence of air. Lye-cured non-fermented olives are low-acid foods.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "narzędzie",
+    "sha12": "cec958cd79a3"
+   },
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "Disposal of spoiled and questionable olives",
+    "cytat": "Olives canned improperly at home have caused botulism poisoning.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "narzędzie",
+    "sha12": "cec958cd79a3"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-074",
+  "twierdzenie": "UC ANR 8267, tabela 1: oliwki solankowe (greckie czarne w solance, sycylijskie zielone w solance) i ługowane-fermentowane (hiszpańskie) można przechowywać w solance; wekowanie w autoklawie przewidziano tylko dla oliwek ługowanych (zielonych, ciemnych) i ługowanych-fermentowanych.",
+  "zrodla": [
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "Table 1",
+    "cytat": "Sicilian-style green olives in brine    √                √",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "narzędzie",
+    "sha12": "cec958cd79a3"
+   },
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "Table 1",
+    "cytat": "Spanish-style green olives              √                √                                                        √",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "narzędzie",
+    "sha12": "cec958cd79a3"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-075",
+  "twierdzenie": "UC ANR 8267: oba style oliwek solankowych (greckie, sycylijskie) można bezpiecznie przechowywać w solance 1 rok; greckie czarne w mocnej solance w chłodnym, ciemnym miejscu co najmniej rok, jeśli słoiki są szczelne.",
+  "zrodla": [
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "Brine-cured olives",
+    "cytat": "instructions below. You can safely store both styles of olive in brine for 1 year.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "narzędzie",
+    "sha12": "cec958cd79a3"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-076",
+  "twierdzenie": "UC ANR 8267 / MFP Amador: oliwki solankowe fermentują naturalnie (bakterie mlekowe); solanka na start 3/4 szklanki (8 uncji) soli na galon, po 7 dniach mocna solanka 1,5 szklanki (1 funt) soli na galon; co najmniej 2 miesiące.",
+  "zrodla": [
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2024-11/404165.pdf",
+    "miejsce": "Brine-Cured Olives",
+    "cytat": "3.   Prepare the brine using ¾ cup (8 ounces) pickling salt per gallon of cool water.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ece076018c4a"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2024-11/404165.pdf",
+    "miejsce": "Brine-Cured Olives",
+    "cytat": "5. After 7 days, replace the brine with a fresh batch of strong brine made with 1½ cups (1 pound) pickling salt per gallon",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ece076018c4a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-077",
+  "twierdzenie": "UC ANR 8267: oliwki w stylu kalamata (moczone w wodzie): solanka końcowa 1 funt soli na galon wody + 1 kwarta octu z czerwonego wina, warstwa oliwy na wierzchu; przechowywanie w chłodnym ciemnym miejscu lub lodówce ok. 1 roku przy szczelnym pojemniku.",
+  "zrodla": [
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "Kalamata-style olives, krok 9",
+    "cytat": "dark place or refrigerated for about 1 year if the container remains airtight.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "narzędzie",
+    "sha12": "cec958cd79a3"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-078",
+  "twierdzenie": "UC ANR 8267: oliwki śródziemnomorskie łamane (zielone, moczone w wodzie, solanka z octem) muszą być trzymane w lodówce.",
+  "zrodla": [
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "Mediterranean-style cracked olives",
+    "cytat": "and garlic cloves. Close the container lid firmly and refrigerate. Note: These olives",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "narzędzie",
+    "sha12": "cec958cd79a3"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-079",
+  "twierdzenie": "UC ANR 8267: oliwki sycylijskie w solance: można dodać nasiona kopru włoskiego (1/2 łyżeczki na kwartę) albo gałązkę świeżego kopru włoskiego; fermentacja ok. 2 miesięcy w ok. 70 °F, potem kolejne 2–4 miesiące.",
+  "zrodla": [
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "Sicilian-style olives",
+    "cytat": "You may also try adding a little fennel seed (1⁄2 teaspoon per quart) or a sprig of fresh",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "narzędzie",
+    "sha12": "cec958cd79a3"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-080",
+  "twierdzenie": "UC ANR 8267: oliwki hiszpańskie (ługowane i fermentowane) można przechowywać w solance do roku.",
+  "zrodla": [
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "Lye-cured fermented olives",
+    "cytat": "Lye-cured fermented olives can be stored for up to a year in brine, as described",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "narzędzie",
+    "sha12": "cec958cd79a3"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-081",
+  "twierdzenie": "UC ANR 8267: oliwki ługowane (niefermentowane) w solance: do 2 miesięcy; w lekkiej solance w lodówce do 2 tygodni, w średniej do 2 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "Lye-cured olives",
+    "cytat": "Lye-cured olives can be stored for up to 2 months in brine, as described below,",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "narzędzie",
+    "sha12": "cec958cd79a3"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-082",
+  "twierdzenie": "UC ANR 8267: mikrobiologicznemu mięknięciu oliwek zapobiega m.in. solanka do przechowywania o co najmniej 10% soli (13 uncji soli na galon), lodówka albo wekowanie w autoklawie.",
+  "zrodla": [
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "Softening",
+    "cytat": "age brine that is at least 10 percent salt (13 ounces [11⁄4 cups] of pickling salt per gal-",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "narzędzie",
+    "sha12": "cec958cd79a3"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "sól w solance do przechowywania oliwek",
+  "wartosc": 10,
+  "jednostka": "%"
+ },
+ {
+  "id": "FER-083",
+  "twierdzenie": "UC ANR 8267: po otwarciu pojemnika oliwki przechowywać w lodówce (pleśń); oliwki po odsoleniu można zalać odrobiną oliwy — w lodówce. Źródło nie podaje procedury długiego przechowywania oliwek w oliwie w temperaturze pokojowej.",
+  "zrodla": [
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "Greek-style, krok 9",
+    "cytat": "9. To avoid mold growth on the surface after opening an olive container, refrigerate",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "narzędzie",
+    "sha12": "cec958cd79a3"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-084",
+  "twierdzenie": "Naczynia do oliwek (MFP Amador): szkło, kamionka, stal nierdzewna, plastik spożywczy; unikać aluminium i ocynku (możliwe zatrucie metalem).",
+  "zrodla": [
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2024-11/404165.pdf",
+    "miejsce": "Containers",
+    "cytat": "Avoid aluminum and galvanized containers; metal poisoning may result.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ece076018c4a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-085",
+  "twierdzenie": "Oliwki suszone solą (MFP Amador): ok. 1 funt soli na 2 funty oliwek; gotowe po 5–6 tygodniach; w lodówce do 6 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2024-11/404165.pdf",
+    "miejsce": "Dry Salt-Cured Olives",
+    "cytat": "4. Weigh the sorted olives and place them into the container. Add about 1 pound (1 ½ cups) of pickling salt for every 2",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ece076018c4a"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2024-11/404165.pdf",
+    "miejsce": "Dry Salt-Cured Olives",
+    "cytat": "• Store dry salt cured olives for up to 6 months in a refrigerator, or freeze them.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ece076018c4a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-086",
+  "twierdzenie": "Ask Extension (OSU, 2018): połączenie cytryn i soli to produkt bardzo niskiego ryzyka; pierwsze dni w temperaturze pokojowej, potem lodówka; sól musi być w odpowiedniej ilości; przy śluzie lub pleśni wyrzucić; cytryna z solą koroduje metalowe wieczko.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=441067",
+    "miejsce": "Expert Response",
+    "cytat": "The combination of lemons and salt makes this product very low risk for any pathogens.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "170cd46d9655"
+   },
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=441067",
+    "miejsce": "Expert Response",
+    "cytat": "Watch for any signs of sliminess or mold and discard the mixture if that happens.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "170cd46d9655"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-087",
+  "twierdzenie": "UCCE MFP Solano/Yolo (przepis z Ball Complete Book of Home Preserving): cytryny lub limonki konserwowane — 10 cytryn, 1/2 szklanki soli do konserw, sok z cytryn do 1/2 cala pod brzeg; dojrzewanie w chłodnej temperaturze pokojowej 2–4 tygodnie; przechowywać w lodówce.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341442.pdf",
+    "miejsce": "Preserved Lemons or Limes",
+    "cytat": "10 organic lemons, divided",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "37293ff64a19"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341442.pdf",
+    "miejsce": "Preserved Lemons or Limes",
+    "cytat": "every day for 2-4 weeks, or until the rinds are tender to the bite. They are ready in 2 weeks.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "37293ff64a19"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-088",
+  "twierdzenie": "UCCE MFP El Dorado: cytryny konserwowane w lodówce do 6 miesięcy (szczelny pojemnik).",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "Traditional Preserved Lemons",
+    "cytat": "paper towels. Store preserved lemons in a container with an airtight lid. Refrigerate for",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "69b76eb7cc92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-089",
+  "twierdzenie": "UCCE MFP Orange County (2017): wariant „Preserved Mexican Limes” z chili, czosnkiem i cebulą; co najmniej 1 łyżka soli niejodowanej na cytrynę, cząstki pod sokiem, 2–4 tygodnie w temperaturze pokojowej, potem lodówka co najmniej 6 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2021-03/346172.pdf",
+    "miejsce": "OPTIONS",
+    "cytat": "Preserved Mexican Limes: (bay leaf, oregano, cumin, various chili peppers, garlic, onions)",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f30793f11f1c"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2021-03/346172.pdf",
+    "miejsce": "DIRECTIONS",
+    "cytat": "4. Use at least 1 tablespoon of salt per lemon. Use a pure, non-iodized salt. Sprinkle some salt in",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f30793f11f1c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-090",
+  "twierdzenie": "UMN: wekowanie zabija pożyteczne bakterie Lactobacillus (kiszonka wekowana nie ma już żywych kultur); w lodówce ukiszone warzywa do 9 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://extension.umn.edu/food-safety-basics/fermentation",
+    "miejsce": "Canning",
+    "cytat": "However, the high temperatures of canning will kill any beneficial",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "070a8cf734b3"
+   },
+   {
+    "adres": "https://extension.umn.edu/food-safety-basics/fermentation",
+    "miejsce": "Refrigeration",
+    "cytat": "Fermented produce can be kept refrigerated for up to 9 months.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "070a8cf734b3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-091",
+  "twierdzenie": "UMN: idealna temperatura fermentacji 68–72 °F; powyżej 78 °F nadmierna fermentacja i zepsucie; poniżej 60 °F fermentacja hamowana.",
+  "zrodla": [
+   {
+    "adres": "https://extension.umn.edu/food-safety-basics/fermentation",
+    "miejsce": "Temperature",
+    "cytat": "A temperature between 68 and 72 degrees Fahrenheit is ideal. Temperatures over 78 degrees Fahrenheit can cause over fermentation and spoilage.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "070a8cf734b3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-092",
+  "twierdzenie": "Kombucha (NCHFP, cytat z research 27 sprawdzony dosłownie): jeśli pH płynu startowego wynosi 4,0 lub mniej, kontynuować; jeśli powyżej 4,0, nie robić kombuchy z tym płynem.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "How to measure pH of the starter liquid",
+    "cytat": "If the pH is GREATER THAN 4.0 do not make kombucha with the starter liquid.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4a67dd4ba88b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "How to measure pH of the starter liquid",
+    "cytat": "If the pH is 4.0 OR LESS",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4a67dd4ba88b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "wielkosc": "pH startera kombuchy",
+  "wartosc": 4.0,
+  "jednostka": "pH"
+ },
+ {
+  "id": "FER-093",
+  "twierdzenie": "Kombucha (NCHFP, cytat z research 27 sprawdzony dosłownie): fermentacja w temperaturze pokojowej 68–77 °F przez 7–10 dni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "Procedure",
+    "cytat": "allow the kombucha to ferment at room temperature (68° - 77°F) for 7 – 10 days.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4a67dd4ba88b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "FER-094",
+  "twierdzenie": "Problemy z kapustą (Wisconsin): różowa barwa od drożdży na powierzchni przy nadmiarze lub nierównym rozłożeniu soli albo słabym przykryciu; gnicie zwykle na powierzchni nieprzykrytej od powietrza; konieczne szczelne przykrycie (warunki beztlenowe).",
+  "zrodla": [
+   {
+    "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/341219.pdf",
+    "miejsce": "Procedure 4, Note",
+    "cytat": "Note: It is absolutely essential that you cover the cabbage and liquid to",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "496f81c8629c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ }
+]

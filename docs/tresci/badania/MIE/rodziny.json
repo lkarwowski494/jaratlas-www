@@ -1,0 +1,426 @@
+[
+ {
+  "id": "meat-curing-smoking",
+  "thresholds": [
+   {
+    "wielkosc": "azotyn_w_produkcie_gotowym_USA (jako NaNO2)",
+    "wartosc": 200,
+    "jednostka": "ppm",
+    "granica": "<=",
+    "claim": "MIE-001"
+   },
+   {
+    "wielkosc": "azotyn_sodu_peklowanie_na_sucho_USA",
+    "wartosc": 1,
+    "jednostka": "oz/100 lb mięsa",
+    "granica": "<=",
+    "claim": "MIE-002"
+   },
+   {
+    "wielkosc": "azotan_peklowanie_na_sucho_USA",
+    "wartosc": 3.5,
+    "jednostka": "oz/100 lb mięsa",
+    "granica": "<=",
+    "claim": "MIE-003"
+   },
+   {
+    "wielkosc": "azotyn_boczek_nastrzyk_USA (ingoing)",
+    "wartosc": 120,
+    "jednostka": "ppm",
+    "granica": "=",
+    "claim": "MIE-004"
+   },
+   {
+    "wielkosc": "azotyn_boczek_na_sucho_USA (ingoing)",
+    "wartosc": 200,
+    "jednostka": "ppm",
+    "granica": "<=",
+    "claim": "MIE-005"
+   },
+   {
+    "wielkosc": "azotyny_dodane_UE_kat_08.3.1 (od 2025-10-09, jako NO2)",
+    "wartosc": 80,
+    "jednostka": "mg/kg",
+    "granica": "<=",
+    "claim": "MIE-006"
+   },
+   {
+    "wielkosc": "azotyny_dodane_UE_kat_08.3.2_niesterylizowane (od 2025-10-09)",
+    "wartosc": 80,
+    "jednostka": "mg/kg",
+    "granica": "<=",
+    "claim": "MIE-008"
+   },
+   {
+    "wielkosc": "azotyny_pozostalosc_UE (jako NO2)",
+    "wartosc": 45,
+    "jednostka": "mg/kg",
+    "granica": "<=",
+    "claim": "MIE-007"
+   },
+   {
+    "wielkosc": "azotany_dodane_UE_kat_08.3.1 (od 2025-10-09, jako NO3)",
+    "wartosc": 90,
+    "jednostka": "mg/kg",
+    "granica": "<=",
+    "claim": "MIE-009"
+   },
+   {
+    "wielkosc": "temperatura_peklowania_szynki",
+    "wartosc": 40,
+    "jednostka": "°F",
+    "granica": "<=",
+    "claim": "MIE-014"
+   },
+   {
+    "wielkosc": "ubytek_masy_szynki_dojrzewajacej (trwałość bez lodówki)",
+    "wartosc": 18,
+    "jednostka": "%",
+    "granica": ">=",
+    "claim": "MIE-016"
+   },
+   {
+    "wielkosc": "sol_w_szynce_dojrzewajacej (trwałość bez lodówki)",
+    "wartosc": 4,
+    "jednostka": "%",
+    "granica": ">=",
+    "claim": "MIE-016"
+   },
+   {
+    "wielkosc": "temperatura_wewnetrzna_kielbasy_wieprzowina_wolowina",
+    "wartosc": 160,
+    "jednostka": "°F",
+    "granica": ">=",
+    "claim": "MIE-021"
+   },
+   {
+    "wielkosc": "temperatura_wewnetrzna_kielbasy_drob",
+    "wartosc": 165,
+    "jednostka": "°F",
+    "granica": ">=",
+    "claim": "MIE-021"
+   },
+   {
+    "wielkosc": "temperatura_wewnetrzna_szynki_pieczonej",
+    "wartosc": 155,
+    "jednostka": "°F",
+    "granica": ">=",
+    "claim": "MIE-018"
+   },
+   {
+    "wielkosc": "temperatura_zabijajaca_wlosnie",
+    "wartosc": 144,
+    "jednostka": "°F",
+    "granica": ">=",
+    "claim": "MIE-026"
+   },
+   {
+    "wielkosc": "aw_kielbasy_trwalej",
+    "wartosc": 0.85,
+    "jednostka": "aw",
+    "granica": "<",
+    "claim": "MIE-023"
+   },
+   {
+    "wielkosc": "pH_kielbasy_trwalej",
+    "wartosc": 5.3,
+    "jednostka": "pH",
+    "granica": "<",
+    "claim": "MIE-023"
+   },
+   {
+    "wielkosc": "podgrzanie_po_fermentacji (E. coli O157:H7)",
+    "wartosc": 145,
+    "jednostka": "°F",
+    "granica": ">=",
+    "claim": "MIE-024"
+   },
+   {
+    "wielkosc": "lodowka_kielbasa_swieza",
+    "wartosc": 10,
+    "jednostka": "dni",
+    "granica": "<=",
+    "claim": "MIE-028"
+   },
+   {
+    "wielkosc": "lodowka_kielbasa_wedzona_parzona",
+    "wartosc": 4,
+    "jednostka": "tygodnie",
+    "granica": "<=",
+    "claim": "MIE-029"
+   },
+   {
+    "wielkosc": "temperatura_wewnetrzna_jerky",
+    "wartosc": 160,
+    "jednostka": "°F",
+    "granica": ">=",
+    "claim": "MIE-036"
+   },
+   {
+    "wielkosc": "temperatura_suszenia_jerky",
+    "wartosc": 140,
+    "jednostka": "°F",
+    "granica": "=",
+    "claim": "MIE-038"
+   },
+   {
+    "wielkosc": "grubosc_paskow_jerky",
+    "wartosc": 0.25,
+    "jednostka": "cala",
+    "granica": "<=",
+    "claim": "MIE-040"
+   },
+   {
+    "wielkosc": "jerky_temperatura_pokojowa",
+    "wartosc": 2,
+    "jednostka": "tygodnie",
+    "granica": "<=",
+    "claim": "MIE-041"
+   },
+   {
+    "wielkosc": "zamrazanie_wieprzowiny_na_jerky (kawałki do 6 cali, 0°F)",
+    "wartosc": 30,
+    "jednostka": "dni",
+    "granica": ">=",
+    "claim": "MIE-035"
+   },
+   {
+    "wielkosc": "temperatura_i_wilgotnosc_dojrzewania_wyrobow_surowych",
+    "wartosc": null,
+    "pytanie": "Brak źródła szczebla 1–3 dla domowych warunków dojrzewania wyrobów jedzonych na surowo (coppa, bresaola, prosciutto)."
+   },
+   {
+    "wielkosc": "pH_po_fermentacji_kielbas_domowych",
+    "wartosc": null,
+    "pytanie": "Czy jest przetestowany domowy protokół z pomiarem pH (np. ≤5,3 w określonym czasie)? Szukać: FSIS Shelf-Stable guideline, PSU/Wisconsin Meat Science."
+   }
+  ],
+  "regulyZakazu": [
+   {
+    "opis": "Azotyn do żywności tylko w mieszaninie z solą (sól peklowa); nie stosować czystego azotynu.",
+    "claim": "MIE-010"
+   },
+   {
+    "opis": "Nie przekraczać ilości azotynu/azotanu z przepisu; ilość azotynu z przepisu VT na szynkę przekracza limit USA.",
+    "claim": "MIE-013"
+   },
+   {
+    "opis": "Kiełbasy surowe wędzone muszą być w pełni ugotowane przed jedzeniem.",
+    "claim": "MIE-022"
+   },
+   {
+    "opis": "Dziczyzna (dzik): zamrażanie nie wystarcza przeciw włośniom; mięso badane i ogrzane.",
+    "claim": "MIE-033"
+   },
+   {
+    "opis": "Dziczyzny zanieczyszczonej treścią jelit nie używać na jerky ani wyroby surowe.",
+    "claim": "MIE-043"
+   },
+   {
+    "opis": "Szynek peklowanych w domu nie wolno sprzedawać (USA).",
+    "claim": "MIE-017"
+   }
+  ]
+ },
+ {
+  "id": "fish-curing-smoking",
+  "thresholds": [
+   {
+    "wielkosc": "zamrazanie_ryb_FDA (-20°C)",
+    "wartosc": 7,
+    "jednostka": "dni",
+    "granica": ">=",
+    "claim": "MIE-046"
+   },
+   {
+    "wielkosc": "zamrazanie_ryb_UE (-20°C w całej masie)",
+    "wartosc": 24,
+    "jednostka": "h",
+    "granica": ">=",
+    "claim": "MIE-052"
+   },
+   {
+    "wielkosc": "zamrazanie_ryb_UE (-35°C w całej masie)",
+    "wartosc": 15,
+    "jednostka": "h",
+    "granica": ">=",
+    "claim": "MIE-052"
+   },
+   {
+    "wielkosc": "grubosc_ryby_dla_zamrazania_FDA",
+    "wartosc": 6,
+    "jednostka": "cali",
+    "granica": "<=",
+    "claim": "MIE-048"
+   },
+   {
+    "wielkosc": "temperatura_rdzenia_zwalniajaca_z_zamrazania_UE",
+    "wartosc": 60,
+    "jednostka": "°C przez 1 min",
+    "granica": ">=",
+    "claim": "MIE-054"
+   },
+   {
+    "wielkosc": "temperatura_wewnetrzna_wedzenie_ryb_dom",
+    "wartosc": 160,
+    "jednostka": "°F przez 30 min",
+    "granica": ">=",
+    "claim": "MIE-071"
+   },
+   {
+    "wielkosc": "temperatura_wewnetrzna_wedzenie_na_goraco_FDA_przemysl",
+    "wartosc": 145,
+    "jednostka": "°F przez 30 min",
+    "granica": ">=",
+    "claim": "MIE-064"
+   },
+   {
+    "wielkosc": "temperatura_wedzarni_na_zimno_FDA",
+    "wartosc": 90,
+    "jednostka": "°F",
+    "granica": "<=",
+    "claim": "MIE-063"
+   },
+   {
+    "wielkosc": "min_temp_wzrostu_C_botulinum_E",
+    "wartosc": 3.3,
+    "jednostka": "°C",
+    "granica": ">=",
+    "claim": "MIE-059"
+   },
+   {
+    "wielkosc": "sol_w_fazie_wodnej_ryba_wedzona_FDA",
+    "wartosc": 3.5,
+    "jednostka": "% WPS",
+    "granica": ">=",
+    "claim": "MIE-062"
+   },
+   {
+    "wielkosc": "sol_w_fazie_wodnej_kawior_ryba_solona_ROP",
+    "wartosc": 5,
+    "jednostka": "% WPS",
+    "granica": ">=",
+    "claim": "MIE-065"
+   },
+   {
+    "wielkosc": "sol_w_fazie_wodnej_male_niewypatroszone_chlodzone",
+    "wartosc": 10,
+    "jednostka": "% WPS",
+    "granica": ">=",
+    "claim": "MIE-066"
+   },
+   {
+    "wielkosc": "lodowka_ryba_wedzona",
+    "wartosc": 2,
+    "jednostka": "tygodnie",
+    "granica": "<=",
+    "claim": "MIE-074"
+   },
+   {
+    "wielkosc": "lodowka_ryba_marynowana",
+    "wartosc": 6,
+    "jednostka": "tygodnie",
+    "granica": "<=",
+    "claim": "MIE-080"
+   },
+   {
+    "wielkosc": "lodowka_gravlax",
+    "wartosc": 7,
+    "jednostka": "dni",
+    "granica": "<=",
+    "claim": "MIE-058"
+   },
+   {
+    "wielkosc": "sol_i_czas_domowego_solenia_sledzi",
+    "wartosc": null,
+    "pytanie": "Brak przetestowanego domowego procesu solenia śledzi (matjas, beczka)."
+   }
+  ],
+  "regulyZakazu": [
+   {
+    "opis": "Niewypatroszone ryby solone, suszone lub wędzone (powyżej 5 cali) to potencjalnie śmiertelne zagrożenie jadem kiełbasianym; nie publikować procesów na całych rybach.",
+    "claim": "MIE-067"
+   },
+   {
+    "opis": "Produkty z ryb utrwalane soleniem, suszeniem, marynowaniem lub fermentacją patroszyć przed obróbką.",
+    "claim": "MIE-061"
+   },
+   {
+    "opis": "Solenie i marynowanie nie zabijają pasożytów: ryby jedzone na surowo, marynowane i solone najpierw zamrozić.",
+    "claim": "MIE-049"
+   },
+   {
+    "opis": "Wędzenie na zimno nie zabija bakterii; brak przetestowanego domowego procesu dla ryby wędzonej na zimno jedzonej bez gotowania.",
+    "claim": "MIE-076"
+   },
+   {
+    "opis": "Ryby wędzonej (także próżniowo) nigdy nie trzymać w temperaturze pokojowej.",
+    "claim": "MIE-079"
+   },
+   {
+    "opis": "Nie pasteryzować/wekować ryb marynowanych.",
+    "claim": "MIE-081"
+   }
+  ]
+ },
+ {
+  "id": "egg-preservation",
+  "thresholds": [
+   {
+    "wielkosc": "jaja_marynowane_poza_lodowka",
+    "wartosc": 2,
+    "jednostka": "h",
+    "granica": "<=",
+    "claim": "MIE-084"
+   },
+   {
+    "wielkosc": "jaja_marynowane_jakosc",
+    "wartosc": 4,
+    "jednostka": "miesiące",
+    "granica": "<=",
+    "claim": "MIE-085"
+   },
+   {
+    "wielkosc": "temperatura_potraw_z_jajami",
+    "wartosc": 160,
+    "jednostka": "°F",
+    "granica": ">=",
+    "claim": "MIE-092"
+   },
+   {
+    "wielkosc": "lodowka_olej_z_czosnkiem",
+    "wartosc": 4,
+    "jednostka": "dni",
+    "granica": "<=",
+    "claim": "MIE-094"
+   },
+   {
+    "wielkosc": "solone_jaja_kacze",
+    "wartosc": null,
+    "pytanie": "Brak źródła szczebla 1–3 dla solenia jaj kaczych w solance."
+   }
+  ],
+  "regulyZakazu": [
+   {
+    "opis": "Brak domowych instrukcji wekowania jaj marynowanych: tylko lodówka.",
+    "claim": "MIE-082"
+   },
+   {
+    "opis": "Jaja marynowane w temperaturze pokojowej spowodowały jad kiełbasiany.",
+    "claim": "MIE-083"
+   },
+   {
+    "opis": "Potrawy z surowymi jajami tylko z jaj pasteryzowanych.",
+    "claim": "MIE-091"
+   },
+   {
+    "opis": "Water glassing określone jako niebezpieczne (szczebel 3).",
+    "claim": "MIE-093"
+   },
+   {
+    "opis": "Jaja lub czosnek w oleju nie w temperaturze pokojowej.",
+    "claim": "MIE-095"
+   }
+  ]
+ }
+]

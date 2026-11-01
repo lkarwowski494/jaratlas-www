@@ -1,0 +1,2511 @@
+[
+ {
+  "id": "SLO-001",
+  "twierdzenie": "W tradycyjnych przepisach na dżemy i galaretki nie wolno zmniejszać ilości cukru: za mało cukru uniemożliwia żelowanie i może pozwolić na rozwój drożdży i pleśni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/general-information-on-canning-jams-jellies-and-marmalades/",
+    "miejsce": "General Information on Canning Jams, Jellies, and Marmalades, sekcja Ingredients",
+    "cytat": "Do not try to reduce the amount of sugar in traditional recipes. Too little sugar prevents gelling and may allow yeasts and molds to grow.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41934d466d0b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-002",
+  "twierdzenie": "Zamknięcia parafiną lub woskiem nie są już zalecane dla żadnych słodkich przetworów, w tym galaretek, z powodu ryzyka pleśni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/general-information-on-canning-jams-jellies-and-marmalades/",
+    "miejsce": "General Information..., sekcja Preventing spoilage",
+    "cytat": "Because of possible mold contamination, paraffin or wax seals are no longer recommended for any sweet spread, including jellies.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41934d466d0b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-003",
+  "twierdzenie": "Dżemy i galaretki: nalewać na gorąco do wysterylizowanych słoików, zostawić 1/4 cala (ok. 0,6 cm) wolnej przestrzeni, zamknąć pokrywkami samouszczelniającymi i wekować 5 minut we wrzącej kąpieli wodnej (do 1000 stóp n.p.m.).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/general-information-on-canning-jams-jellies-and-marmalades/",
+    "miejsce": "General Information..., sekcja Preventing spoilage",
+    "cytat": "To prevent growth of molds and loss of good flavor or color, fill products hot into sterile Mason jars, leaving 1/4-inch headspace, seal with self-sealing lids, and process 5 minutes in a boiling-water canner.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41934d466d0b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas wekowania w kapieli wodnej (sloiki sterylne)",
+  "wartosc": 5,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-004",
+  "twierdzenie": "Czas wekowania dżemów wydłuża się o 1 minutę na każde 1000 stóp (ok. 305 m) powyżej poziomu morza.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/general-information-on-canning-jams-jellies-and-marmalades/",
+    "miejsce": "General Information..., sekcja Preventing spoilage",
+    "cytat": "Correct process time at higher elevations by adding 1 additional minute per 1,000 ft above sea level.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41934d466d0b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "korekta czasu na wysokosc",
+  "wartosc": 1,
+  "jednostka": "min na 1000 ft",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-005",
+  "twierdzenie": "Gdy używa się niesterylizowanych słoików, napełnione słoiki z dżemem wekuje się 10 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/general-information-on-canning-jams-jellies-and-marmalades/",
+    "miejsce": "General Information..., sekcja Preventing spoilage",
+    "cytat": "If unsterile jars are used, the filled jars should be processed 10 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41934d466d0b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas wekowania w kapieli wodnej (sloiki niesterylne)",
+  "wartosc": 10,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-006",
+  "twierdzenie": "Dżemy na pektynie modyfikowanej (mniej cukru) trzeba wekować dłużej, ściśle według przepisu producenta pektyny; nie wolno zmieniać proporcji kwasu i owoców.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/general-information-on-canning-jams-jellies-and-marmalades/",
+    "miejsce": "General Information..., sekcja Jams and jellies with reduced sugar",
+    "cytat": "To prevent spoilage, jars of these products must be processed longer in a boiling-water canner.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41934d466d0b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/general-information-on-canning-jams-jellies-and-marmalades/",
+    "miejsce": "jw.",
+    "cytat": "The proportions of acids and fruits should not be altered, as spoilage may result.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41934d466d0b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-007",
+  "twierdzenie": "Przetwory lodówkowe na żelatynie ze słodzikami psują się w temperaturze pokojowej, muszą być w lodówce i należy je zjeść w ciągu 1 miesiąca.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/general-information-on-canning-jams-jellies-and-marmalades/",
+    "miejsce": "General Information..., sekcja Jams and jellies with reduced sugar",
+    "cytat": "Such products spoil at room temperature, must be refrigerated, and should be eaten within 1 month.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41934d466d0b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "przechowywanie w lodowce",
+  "wartosc": 1,
+  "jednostka": "miesiac",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-008",
+  "twierdzenie": "Niskosłodzone smarowidła zagęszczone żelatyną nie są wekowane; przechowuje się je w lodówce i zużywa w ciągu 4 tygodni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/reduced-sugar-recipes/making-reduced-sugar-fruit-spreads/",
+    "miejsce": "Making Reduced-Sugar Fruit Spreads",
+    "cytat": "When gelatin is used in the recipe, the jars of spread should not be processed. They should be refrigerated and used within 4 weeks.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "15d34cf66bd4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "przechowywanie w lodowce",
+  "wartosc": 4,
+  "jednostka": "tydzien",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-009",
+  "twierdzenie": "Słodzika (sukralozy) nie należy używać zamiast cukru w dżemach długo gotowanych lub bez dodanej pektyny przeznaczonych do przechowywania w temperaturze pokojowej; takie eksperymenty tylko do zamrażarki lub lodówki.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/general-information-on-canning-jams-jellies-and-marmalades/",
+    "miejsce": "FAQ Can Splenda (sucralose) be used in preserving food? (na stronie General Information...)",
+    "cytat": "If you want to experiment with making these kind of fruit spreads we recommend freezing or refrigeration for storage.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41934d466d0b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-010",
+  "twierdzenie": "W tradycyjnych konfiturach z całych owoców w gęstym syropie (figi, brzoskwinie, gruszki) cukier jest wymagany do utrwalenia przy bardzo krótkim wekowaniu; bez niego produkt wymaga czasów dla owoców w lekkim syropie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/general-information-on-canning-jams-jellies-and-marmalades/",
+    "miejsce": "FAQ o Splenda na stronie General Information...",
+    "cytat": "Sugar is required for the preservation of these syrupy fruit preserves as published, with very short boiling water canner processes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41934d466d0b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-011",
+  "twierdzenie": "Mykotoksyny wykryto w niektórych słoikach galaretek z pleśnią na powierzchni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/general-information-on-canning-jams-jellies-and-marmalades/",
+    "miejsce": "General Information..., sekcja Preventing spoilage",
+    "cytat": "Mycotoxins have been found in some jars of jelly having surface mold growth.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41934d466d0b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-012",
+  "twierdzenie": "Dżem lub galaretkę z pleśnią należy wyrzucić; USDA i mikrobiolodzy odradzają zbieranie pleśni i jedzenie reszty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/general-jams-and-jellies/category/faq-jams-and-jellies",
+    "miejsce": "FAQ General Jams and Jellies: What do I do if there's mold on my jellied fruit product?",
+    "cytat": "Discard jams and jellies with mold on them.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "382b4ef110e0"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/faqs/general-jams-and-jellies/category/faq-jams-and-jellies",
+    "miejsce": "jw.",
+    "cytat": "USDA and microbiologists recommend against scooping out the mold and using the remaining jam or jelly.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "382b4ef110e0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-013",
+  "twierdzenie": "Przy jakiejkolwiek pleśni lub innych oznakach zepsucia wyrzuca się całą zawartość słoika.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+    "miejsce": "Storing Home-Canned Jams and Jellies",
+    "cytat": "If there is any mold on a jar of jam or jelly, or signs of other spoilage, discard the entire contents of the jar or container.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "65822aac6a58"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-014",
+  "twierdzenie": "Pleśń może podnieść pH żywności, przez co produkt kwaśny może stać się niskokwasowy i grozić jadem kiełbasianym; każdy domowy przetwór z pleśnią należy wyrzucić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/general-canning/category/faq-canning",
+    "miejsce": "FAQ General Canning: If I find mold growing inside a jar of canned food...",
+    "cytat": "Mold growth in foods can raise the pH of the food.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6a6e64630f82"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/faqs/general-canning/category/faq-canning",
+    "miejsce": "jw.",
+    "cytat": "Thus, any home canned product that shows signs of mold growth should be discarded.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6a6e64630f82"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-015",
+  "twierdzenie": "Dżem, który sfermentował (drożdże; złe wekowanie lub mało cukru), należy wyrzucić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/general-jams-and-jellies/category/faq-jams-and-jellies",
+    "miejsce": "FAQ: Why did my jellied fruit product ferment...",
+    "cytat": "This can occur if the product is improperly processed and sealed, or if the sugar content is low.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "382b4ef110e0"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/faqs/general-jams-and-jellies/category/faq-jams-and-jellies",
+    "miejsce": "jw.",
+    "cytat": "Fermented fruit products have a disagreeable taste. Discard them.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "382b4ef110e0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-016",
+  "twierdzenie": "Ruchome pęcherzyki w galaretce lub dżemie mogą oznaczać zepsucie; takiego przetworu nie używać.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/causes-and-possible-solutions-for-problems-with-jellied-fruit-products/",
+    "miejsce": "Causes and Possible Solutions for Problems with Jellied Fruit Products, Bubbles",
+    "cytat": "If bubbles are moving, do not use.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "89342e46088b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-017",
+  "twierdzenie": "Domowe przetwory przechowuje się w chłodnym, ciemnym i suchym miejscu w 50-70 °F (ok. 10-21 °C); dla najlepszej jakości zużyć w ciągu roku.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+    "miejsce": "Storing Home-Canned Jams and Jellies",
+    "cytat": "All home-canned foods should be stored in a cool, dark, dry place, between 50-70°F.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "65822aac6a58"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+    "miejsce": "jw.",
+    "cytat": "For best quality, it is recommended that all home-canned foods be used within a year.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "65822aac6a58"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-018",
+  "twierdzenie": "Otwarte domowe dżemy trzyma się w lodówce w 40 °F (ok. 4 °C) lub niżej; dżemy pełnocukrowe najlepiej zużyć w ciągu 1 miesiąca od otwarcia.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+    "miejsce": "Storing Home-Canned Jams and Jellies",
+    "cytat": "Opened home-canned jams and jellies should be kept in the refrigerator at 40°F or lower.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "65822aac6a58"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+    "miejsce": "jw.",
+    "cytat": "cooked jams and jellies are best stored for 1 month in the refrigerator after opening.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "65822aac6a58"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-019",
+  "twierdzenie": "Dżemy mrożone i lodówkowe przechowuje się w lodówce (zwykle do 3 tygodni) albo w zamrażarce do roku.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+    "miejsce": "Storing Home-Canned Jams and Jellies",
+    "cytat": "Freezer/refrigerator jams and jellies are a distinct category of products that have to be stored in the refrigerator (usually up to 3 weeks) or frozen for up to a year.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "65822aac6a58"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-020",
+  "twierdzenie": "Dżemy niegotowane (owoce z cukrem bez obróbki cieplnej) w temperaturze pokojowej szybko pleśnieją lub fermentują; przechowuje się je do 3 tygodni w lodówce albo do roku w zamrażarce.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jam-uncooked/",
+    "miejsce": "Berry Jam (Uncooked), To store",
+    "cytat": "If kept at room temperature they will mold or ferment in a short time.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "44752f7838a0"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jam-uncooked/",
+    "miejsce": "jw.",
+    "cytat": "They can be held up to 3 weeks in the refrigerator or up to a year in a freezer.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "44752f7838a0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-021",
+  "twierdzenie": "Metoda \"open kettle\" (gorące nalanie i zakręcenie bez wekowania) nie jest zalecana: temperatury nie niszczą wszystkich drobnoustrojów, a przy przelewaniu mogą dostać się nowe.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/general-canning/category/faq-canning",
+    "miejsce": "FAQ General Canning: Why is open kettle canning not recommended?",
+    "cytat": "The temperatures obtained in open kettle canning are not high enough to destroy all spoilage and food poisoning organisms that may be in the food.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6a6e64630f82"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/equipment-and-methods-not-recommended/",
+    "miejsce": "Equipment and Methods Not Recommended",
+    "cytat": "Open-kettle canning and the processing of freshly filled jars in conventional ovens, microwave ovens, and dishwashers are not recommended, because these practices do not prevent all risks of spoilage.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "caf9fae9a56d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-022",
+  "twierdzenie": "Atmosferyczne wekowniki parowe służą tylko do żywności naturalnie kwaśnej lub prawidłowo zakwaszonej o pH 4,6 lub niższym.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/general-canning/category/faq-canning",
+    "miejsce": "FAQ General Canning: Can acid foods be processed in steam canners?",
+    "cytat": "Atmospheric steam canners are used for processing naturally acid or properly acidified foods with natural or equilibrated pH values of 4.6 or below.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6a6e64630f82"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH"
+ },
+ {
+  "id": "SLO-023",
+  "twierdzenie": "Niemal każda żywność o pH powyżej 4,6 może umożliwić wzrost C. botulinum i wytwarzanie toksyny.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA Bad Bug Book, 2nd ed. (2012), rozdz. Clostridium botulinum, Food Sources",
+    "cytat": "Almost any type of food that is not very acidic (pH above 4.6) can support growth and toxin",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a6e641484193"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH"
+ },
+ {
+  "id": "SLO-024",
+  "twierdzenie": "pH: arbuza wynosi 5,2-5,8 (tabela FDA, wartości przybliżone).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA Bad Bug Book, 2nd ed., Appendix: Approximate pH of foods, wiersz Watermelon",
+    "cytat": "Watermelon             5.2 ‐ 5.8",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a6e641484193"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5,2-5,8",
+  "jednostka": "pH"
+ },
+ {
+  "id": "SLO-025",
+  "twierdzenie": "pH: melona kantalupa wynosi 6,17-7,13 (tabela FDA, wartości przybliżone).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA Bad Bug Book, 2nd ed., Appendix: Approximate pH of foods, wiersz Cantaloupe",
+    "cytat": "Cantaloupe             6.17‐7.13",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a6e641484193"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6,17-7,13",
+  "jednostka": "pH"
+ },
+ {
+  "id": "SLO-026",
+  "twierdzenie": "pH: papai wynosi 5,2-5,7 (tabela FDA, wartości przybliżone).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA Bad Bug Book, 2nd ed., Appendix: Approximate pH of foods, wiersz Papaya",
+    "cytat": "Papaya                 5.2 ‐ 5.7",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a6e641484193"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5,2-5,7",
+  "jednostka": "pH"
+ },
+ {
+  "id": "SLO-027",
+  "twierdzenie": "pH: bananów wynosi 4,5-5,2 (tabela FDA, wartości przybliżone).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA Bad Bug Book, 2nd ed., Appendix: Approximate pH of foods, wiersz Bananas",
+    "cytat": "Bananas                4.5 ‐ 5.2",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a6e641484193"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "4,5-5,2",
+  "jednostka": "pH"
+ },
+ {
+  "id": "SLO-028",
+  "twierdzenie": "pH: fig wynosi 4,6 (tabela FDA, wartości przybliżone).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA Bad Bug Book, 2nd ed., Appendix: Approximate pH of foods, wiersz Figs",
+    "cytat": "Figs                   4.6",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a6e641484193"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "4,6",
+  "jednostka": "pH"
+ },
+ {
+  "id": "SLO-029",
+  "twierdzenie": "pH: mango wynosi 3,9-4,6 (tabela FDA, wartości przybliżone).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA Bad Bug Book, 2nd ed., Appendix: Approximate pH of foods, wiersz Mangos",
+    "cytat": "Mangos                 3.9 ‐ 4.6",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a6e641484193"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "3,9-4,6",
+  "jednostka": "pH"
+ },
+ {
+  "id": "SLO-030",
+  "twierdzenie": "pH: daktyli wynosi 6,3-6,6 (tabela FDA, wartości przybliżone).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA Bad Bug Book, 2nd ed., Appendix: Approximate pH of foods, wiersz Dates",
+    "cytat": "Dates                  6.3 ‐ 6.6",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a6e641484193"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "6,3-6,6",
+  "jednostka": "pH"
+ },
+ {
+  "id": "SLO-031",
+  "twierdzenie": "pH: marchwi wynosi 4,9-5,2 (tabela FDA, wartości przybliżone).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA Bad Bug Book, 2nd ed., Appendix: Approximate pH of foods, wiersz Carrots",
+    "cytat": "Carrots              4.9 ‐ 5.2",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a6e641484193"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "4,9-5,2",
+  "jednostka": "pH"
+ },
+ {
+  "id": "SLO-032",
+  "twierdzenie": "pH: buraka wynosi 4,9-5,6 (tabela FDA, wartości przybliżone).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA Bad Bug Book, 2nd ed., Appendix: Approximate pH of foods, wiersz Beets",
+    "cytat": "Beets                4.9 ‐ 5.6",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a6e641484193"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "4,9-5,6",
+  "jednostka": "pH"
+ },
+ {
+  "id": "SLO-033",
+  "twierdzenie": "pH: czerwonej cebuli wynosi 5,3-5,8 (tabela FDA, wartości przybliżone).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA Bad Bug Book, 2nd ed., Appendix: Approximate pH of foods, wiersz Onions, Red",
+    "cytat": "Onions, Red          5.3 ‐ 5.8",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a6e641484193"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "5,3-5,8",
+  "jednostka": "pH"
+ },
+ {
+  "id": "SLO-034",
+  "twierdzenie": "pH: dyni wynosi 4,8-5,2 (tabela FDA, wartości przybliżone).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA Bad Bug Book, 2nd ed., Appendix: Approximate pH of foods, wiersz Pumpkin",
+    "cytat": "Pumpkin              4.8 ‐ 5.2",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a6e641484193"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "4,8-5,2",
+  "jednostka": "pH"
+ },
+ {
+  "id": "SLO-035",
+  "twierdzenie": "pH: kukurydzy cukrowej wynosi 7,3 (tabela FDA, wartości przybliżone).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA Bad Bug Book, 2nd ed., Appendix: Approximate pH of foods, wiersz Corn, Sweet",
+    "cytat": "Corn, Sweet          7.3",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a6e641484193"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": "7,3",
+  "jednostka": "pH"
+ },
+ {
+  "id": "SLO-036",
+  "twierdzenie": "Miód nie powinien być podawany niemowlętom poniżej 12. miesiąca życia; to jedyne źródło żywnościowe zarodników C. botulinum powiązane z botulizmem niemowlęcym w badaniach laboratoryjnych i epidemiologicznych.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA Bad Bug Book, 2nd ed., Clostridium botulinum, Infant botulism",
+    "cytat": "Honey should not be fed to infants under 12 months",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a6e641484193"
+   },
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "jw.",
+    "cytat": "honey is the one dietary reservoir of C. botulinum spores linked to infant botulism by",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a6e641484193"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "wiek",
+  "wartosc": 12,
+  "jednostka": "miesiac"
+ },
+ {
+  "id": "SLO-037",
+  "twierdzenie": "Fermentowanie czosnku w surowym miodzie jest ryzykowne: czosnek jest niskokwasowy, kwasowość miodu jest zmienna, a aktywność wody mieszaniny nieznana; związane jest z tym ryzyko botulizmu (botulizm wystąpił w czosnku w oleju).",
+  "zrodla": [
+   {
+    "adres": "https://www.k-state.edu/news/you-asked-it/articles/2020/10/honey-fermented-garlic-may-be-risky.html",
+    "miejsce": "K-State Research and Extension, You Asked It!, Honey Fermented Garlic May Be Risky (K. Blakeslee, 15.10.2020)",
+    "cytat": "But this is risky for many factors.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "cf4de74e4384"
+   },
+   {
+    "adres": "https://www.k-state.edu/news/you-asked-it/articles/2020/10/honey-fermented-garlic-may-be-risky.html",
+    "miejsce": "jw.",
+    "cytat": "Garlic is a low acid plant food, and honey varies from low to high acidity.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "cf4de74e4384"
+   },
+   {
+    "adres": "https://www.k-state.edu/news/you-asked-it/articles/2020/10/honey-fermented-garlic-may-be-risky.html",
+    "miejsce": "jw.",
+    "cytat": "Other concerns are the risk of botulism, due to the fact that botulism has occurred in garlic in oil.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "cf4de74e4384"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-038",
+  "twierdzenie": "NCHFP (UGA, 2004) ma przetestowany przepis na wekowany lemon curd: słoiki 1/2 pinty, gorący wsad, 15 min w kąpieli wodnej do 1000 stóp (20 min do 6000, 25 min powyżej).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "Lemon Curd, Canned, Table 1",
+    "cytat": "Recommended process time for  Canned Lemon Curd  in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6e36d81d9450"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "jw., Table 1",
+    "cytat": "Hot Half-pints 15 min 20 25",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6e36d81d9450"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas wekowania",
+  "wartosc": 15,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-039",
+  "twierdzenie": "W lemon curd używa się butelkowanego soku z cytryny dla standaryzacji kwasowości; świeży sok nie jest zalecany.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "Lemon Curd, Canned, Preparation Notes",
+    "cytat": "Fresh lemon juice can vary in acidity and is not recommended.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6e36d81d9450"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-040",
+  "twierdzenie": "Przy lemon curd wody w wekowniku nie podgrzewa się powyżej 180 °F (ok. 82 °C) przed włożeniem słoików, bo czas procesu byłby za krótki.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "Lemon Curd, Canned, Procedure p. 2",
+    "cytat": "Do not heat the water in the canner to more than 180°F before jars are added.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6e36d81d9450"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura wody przed wlozeniem sloikow",
+  "wartosc": 180,
+  "jednostka": "F",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-041",
+  "twierdzenie": "Wekowany lemon curd zużywa się w ciągu 3-4 miesięcy; brązowienie lub rozwarstwienie oznacza wyrzucenie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "Lemon Curd, Canned, Shelf Life",
+    "cytat": "Plan to use canned lemon curd within 3 to 4 months.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6e36d81d9450"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "jw.",
+    "cytat": "Browning and/or separation may occur with longer storage; discard any time these changes are observed.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6e36d81d9450"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "okres przechowywania",
+  "wartosc": "3-4",
+  "jednostka": "miesiac",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-042",
+  "twierdzenie": "Lemon curd można zamrozić do 1 roku; po rozmrożeniu (w lodówce) zjeść w ciągu 4 tygodni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "Lemon Curd, Canned, Shelf Life",
+    "cytat": "Prepared lemon curd can also be frozen instead of canned for up to 1 year without quality changes when thawed.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6e36d81d9450"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "jw.",
+    "cytat": "After thawing, consume within 4 weeks.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6e36d81d9450"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-043",
+  "twierdzenie": "Lime curd robi się według tego samego przepisu z butelkowanym sokiem z limonki; inne kurdy cytrusowe i owocowe nie są obecnie zalecane do wekowania.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "Lemon Curd, Canned, Variation",
+    "cytat": "Variation: For Lime Curd, use the same recipe but substitute 1 cup bottled lime juice and ¼ cup fresh lime zest for the lemon juice and zest.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6e36d81d9450"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "jw.",
+    "cytat": "Other citrus or fruit curds are not recommended for canning at this time.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6e36d81d9450"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-044",
+  "twierdzenie": "NCHFP/UGA nie ma zalecenia ani procesu wekowania masła dyniowego w domu; zaleca robienie go na świeżo do krótkiego przechowywania w lodówce albo mrożenie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/canning-vegetables/category/faq-canning",
+    "miejsce": "FAQ Canning Vegetables: Can you provide a process time for pumpkin butter?",
+    "cytat": "the University of Georgia Cooperative Extension does not have a recommendation for canning pumpkin butter at home.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4da3ffbf7fed"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/faqs/canning-vegetables/category/faq-canning",
+    "miejsce": "jw.",
+    "cytat": "It is best to make pumpkin butters fresh for shorter refrigerator storage, or to freeze them.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4da3ffbf7fed"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/faqs/canning-vegetables/category/faq-canning",
+    "miejsce": "jw.",
+    "cytat": "We do not have a process we can recommend.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4da3ffbf7fed"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-045",
+  "twierdzenie": "Dynia jest żywnością niskokwasową (pH powyżej 4,6), w której może rozwijać się C. botulinum.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/canning-vegetables/category/faq-canning",
+    "miejsce": "FAQ Canning Vegetables: pumpkin butter",
+    "cytat": "Pumpkin is naturally a low-acid food for canning considerations (pH>4.6)",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4da3ffbf7fed"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH"
+ },
+ {
+  "id": "SLO-046",
+  "twierdzenie": "Domowe wekowanie rozgniecionej lub zmiksowanej dyni nie jest zalecane; dynię wekuje się tylko w kostce, w szybkowarze.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/canning-vegetables/category/faq-canning",
+    "miejsce": "FAQ Canning Vegetables: Why do you say not to can mashed or pureed pumpkin...",
+    "cytat": "Home canning is not recommended for mashed or pureed pumpkin or winter squash.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4da3ffbf7fed"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/pumpkins-and-winter-squash-cubed/",
+    "miejsce": "Pumpkins and Winter Squash - Cubed",
+    "cytat": "Caution: Do not mash or puree.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "04b9da7dcb43"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-047",
+  "twierdzenie": "Zalecenia wekowania cukinii i innych dyni letnich wycofano; to warzywa niskokwasowe wymagające wekowania ciśnieniowego o znanym czasie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/canning-vegetables/category/faq-canning",
+    "miejsce": "FAQ Canning Vegetables: Why is canning summer squash or zucchini not recommended?",
+    "cytat": "Squashes are low-acid vegetables and require pressure canning for a known period of time that will destroy the bacteria that cause botulism.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4da3ffbf7fed"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-048",
+  "twierdzenie": "NCHFP utrzymuje swoje przepisy z jabłek, ale zaleca używanie świeżych, zdrowych jabłek; przy wątpliwości co do pH produkty z jabłek należy chłodzić lub mrozić zamiast przechowywać w temp. pokojowej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/canning-vegetables/category/faq-canning",
+    "miejsce": "FAQ: Should I add acid to apple recipes intended for canning?",
+    "cytat": "In addition to following proper canning guidelines, we advise always using fresh apples",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4da3ffbf7fed"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/faqs/canning-vegetables/category/faq-canning",
+    "miejsce": "jw.",
+    "cytat": "individuals are encouraged to refrigerate or freeze products made with apples if there is",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4da3ffbf7fed"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-049",
+  "twierdzenie": "Przepis NCHFP na syrop owocowy (Berry Syrup) dotyczy tylko soków z borówek amerykańskich, wiśni/czereśni, winogron, malin (czarnych lub czerwonych) i truskawek.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+    "miejsce": "Berry Syrup",
+    "cytat": "Juices from fresh or frozen blueberries, cherries, grapes, raspberries (black or red), and strawberries can be made into toppings for use on ice cream and pastries.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "decab6570676"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+    "miejsce": "jw.",
+    "cytat": "Use these directions only with the berries listed.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "decab6570676"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-050",
+  "twierdzenie": "Soki owocowe w słoikach muszą być wekowane we wrzącej kąpieli wodnej wystarczająco długo, by zniszczyć drobnoustroje psujące.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/causes-and-possible-solutions-for-problems-with-canned-fruit-juices/",
+    "miejsce": "Causes and Possible Solutions for Problems with Canned Fruit Juices",
+    "cytat": "Filled jars of juices should be processed in a boiling water canner long enough to destroy spoilage organisms.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a32d80c38b79"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-051",
+  "twierdzenie": "Nalewanie soku z sokownika parowego prosto do sterylnych słoików, zakręcanie i przechowywanie w temp. pokojowej bez dalszej obróbki (\"bottling\") nie jest bezpieczne; sok trzeba wekować według zaleceń zgodnych z NCHFP.",
+  "zrodla": [
+   {
+    "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
+    "miejsce": "UCCE Master Food Preservers of El Dorado County, Steam Juicing Basics (IV 2026), SAFETY NOTE",
+    "cytat": "temperature without any further processing, a process known as “bottling”. This is not safe!",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "13f9aec2f85b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-052",
+  "twierdzenie": "Procedura UC dla soku z sokownika: kwaśne soki z moreli, owoców jagodowych (bez czarnego bzu), wiśni, cytrusów, porzeczek, kiwi, żółtych brzoskwiń i nektarynek, gruszek, ananasa, granatów, śliwek, rabarbaru i pigwy; nie dla bananów, fig, melonów, papai, dojrzałego mango, daktyli, owoców czarnego bzu.",
+  "zrodla": [
+   {
+    "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
+    "miejsce": "Steam Juicing Basics, Canned High-Acid Fruit Juices from Steamed Juice",
+    "cytat": "Apricots; berries (except elderberries), cherries; citrus; currents; kiwi;",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "13f9aec2f85b"
+   },
+   {
+    "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
+    "miejsce": "jw., lista wykluczen",
+    "cytat": "Asian pears; bananas; coconut; dates, elderberries; figs; ripe mangoes; melons;",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "13f9aec2f85b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-053",
+  "twierdzenie": "Sok kwaśny z sokownika (procedura UC): słoiki pint lub quart 15 min w kąpieli wodnej do 1000 stóp; sok jabłkowy i winogronowy: 1/2 pinty i pinty 5 min (słoiki sterylne), quart 10 min.",
+  "zrodla": [
+   {
+    "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
+    "miejsce": "Steam Juicing Basics, Canned High-Acid Fruit Juices, p. 5",
+    "cytat": "15 minutes at 0-1,000 feet elevation",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "13f9aec2f85b"
+   },
+   {
+    "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
+    "miejsce": "jw., Canned Apple or Grape Juice from Steamed Juice, p. 5",
+    "cytat": "5 minutes* at 0-1,000 feet elevation *(jars must first be sterilized)",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "13f9aec2f85b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-054",
+  "twierdzenie": "Przepis NCHFP na przeciery owocowe nie dotyczy bananów, daktyli, fig, gruszek azjatyckich, pomidorów, melonów, papai, persymon, dojrzałego mango ani kokosa; dla przecierów z tych owoców nie ma zaleceń domowego wekowania.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/fruit-purees/",
+    "miejsce": "Fruit Purees, Caution",
+    "cytat": "There are no home canning recommendations available for purees of these products.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ba7574ae4aa4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/fruit-purees/",
+    "miejsce": "jw.",
+    "cytat": "These recommendations should not be used with bananas, dates, figs, Asian pears, tomatoes, cantaloupe and other melons, papaya, persimmons, ripe mango or coconut.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ba7574ae4aa4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-055",
+  "twierdzenie": "Przepis NCHFP na całe owoce jagodowe w słoikach obejmuje tylko jeżyny, borówki amerykańskie, porzeczki, jeżyny popielice, agrest, borówki huckleberry, loganberry, morwy i maliny (truskawek nie ma na liście).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "Berries-Whole",
+    "cytat": "Blackberries, blueberries, currants, dewberries, gooseberries, huckleberries, loganberries, mulberries, raspberries. Use these directions only with the berries listed.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ec2bd5d24dec"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-056",
+  "twierdzenie": "Przy wekowaniu fig trzeba dodać kwas: 2 łyżki butelkowanego soku z cytryny na quart (1 łyżka na pintę) albo kwas cytrynowy.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/figs/",
+    "miejsce": "Figs, Procedure",
+    "cytat": "Add 2 tablespoons bottled lemon juice per quart or 1 tablespoon per pint to the jars",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3584fcf64ef7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-057",
+  "twierdzenie": "Przy wekowaniu papai w syropie dodaje się 1/4 szklanki soku z cytryny na quart syropu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/papaya/",
+    "miejsce": "Papaya, Hot Pack (So Easy to Preserve, 6th ed.)",
+    "cytat": "Add ¼ cup lemon juice to each quart of syrup.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "aa3b975f900e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-058",
+  "twierdzenie": "W nadzieniach owocowych do wekowania NCHFP używa tylko Clear Jel (modyfikowanej skrobi kukurydzianej); inne skrobie się rozpadają; ilości soku z cytryny nie wolno zmieniać, bo odpowiada za bezpieczeństwo.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pie-fillings/",
+    "miejsce": "Pie Fillings, General",
+    "cytat": "Other available starches break down when used in these pie fillings, causing a runny sauce consistency.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2f24ad09d01f"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pie-fillings/",
+    "miejsce": "jw.",
+    "cytat": "The amount of lemon juice should not be altered, as it aids in controlling the safety and storage stability of the fillings.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2f24ad09d01f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-059",
+  "twierdzenie": "NCHFP: owocowe przetwory dla niemowląt (kawałki lub przecier, z cukrem lub bez) wekuje się w słoikach 1/2 pinty lub pinty: 20 min do 1000 stóp; przecierów warzywnych i mięsnych nie wekować.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/canning-fruit-based-baby-foods/",
+    "miejsce": "Canning Fruit-based Baby Foods, tabela",
+    "cytat": "Hot Half-pints Pints 20 min 25 30",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8abe3dddad1d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/canning-fruit-based-baby-foods/",
+    "miejsce": "jw., Caution",
+    "cytat": "Do not attempt to can pureed vegetables, red meats, or poultry meats, because proper processing times for pureed foods have not been determined for home use.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8abe3dddad1d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas wekowania",
+  "wartosc": 20,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-060",
+  "twierdzenie": "Pasteryzacja niskotemperaturowa (180-185 °F, ok. 82-85 °C, przez 30 min) tylko tam, gdzie przewiduje ją przepis.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/low-temperature-pasteurization-treatment/",
+    "miejsce": "Low-Temperature Pasteurization Treatment",
+    "cytat": "Caution: Use only when recipe indicates.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d387fe94ce25"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/low-temperature-pasteurization-treatment/",
+    "miejsce": "jw.",
+    "cytat": "Heat the water enough to maintain 180º to 185º F water temperature for 30 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d387fe94ce25"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-061",
+  "twierdzenie": "Surowe owoce czarnego bzu mogą zawierać podwyższone ilości toksycznych glikozydów cyjanogennych; owoce bzu zawsze trzeba ugotować przed jedzeniem.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/Elderberries-OSU%202024.pdf",
+    "miejsce": "Oregon State Univ. Ext., EM 9446 Play it safe when preserving elderberries (XI 2024), wstep",
+    "cytat": "Because raw elderberry products may contain elevated levels of toxic compounds, you should always cook elderberries before eating them.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d87a241c8da7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-062",
+  "twierdzenie": "Szypułki i liście czarnego bzu zawierają więcej toksyn; trzeba je usunąć przed przetwarzaniem.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/Elderberries-OSU%202024.pdf",
+    "miejsce": "EM 9446, Harvesting",
+    "cytat": "Stems and leaves contain higher levels of toxins, so it is important to remove these before processing.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d87a241c8da7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-063",
+  "twierdzenie": "Kwiaty czarnego bzu zbiera się w całych baldachach i obrywa, odrzucając kawałki liści i łodyg, które zawierają więcej toksyn.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/Elderberries-OSU%202024.pdf",
+    "miejsce": "EM 9446, Harvesting",
+    "cytat": "Remove the flowers by rubbing them in a bowl, being careful to discard any stray pieces of leaf or stem, which contain higher levels of toxins.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d87a241c8da7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-064",
+  "twierdzenie": "Czarny bez europejski (Sambucus nigra ssp. nigra) trudno odróżnić od amerykańskiego, więc przy wekowaniu stosuje się tylko przepisy wysokocukrowe dla bzu amerykańskiego, który nie ma pH stale poniżej 4,6.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/Elderberries-OSU%202024.pdf",
+    "miejsce": "EM 9446, European elderberry",
+    "cytat": "Since European elderberries are difficult to distinguish from American elderberries, follow recommended recipes for American elderberries using high-sugar ratios when canning",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d87a241c8da7"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/Elderberries-OSU%202024.pdf",
+    "miejsce": "EM 9446, American elderberry",
+    "cytat": "are not consistently below 4.6",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d87a241c8da7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-065",
+  "twierdzenie": "Wysokocukrowy przepis OSU na dżemy, galaretki i syropy z bzu amerykańskiego i europejskiego: 16 uncji miąższu lub soku na 19,5 uncji cukru (lub więcej), składniki ważone, tylko cukier kryształ (bez miodu, bez pektyny niskocukrowej); wekowanie 5 min do 1000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/Elderberries-OSU%202024.pdf",
+    "miejsce": "EM 9446, High-sugar jams and jellies",
+    "cytat": "Ingredients MUST be weighed to get the correct sugar ratio.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d87a241c8da7"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/Elderberries-OSU%202024.pdf",
+    "miejsce": "jw.",
+    "cytat": "19.5 ounces granulated sugar, or more.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d87a241c8da7"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/Elderberries-OSU%202024.pdf",
+    "miejsce": "jw.",
+    "cytat": "Do not use low-sugar pectin.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d87a241c8da7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "stosunek cukru do miazszu (masa)",
+  "wartosc": "19,5:16",
+  "jednostka": "oz:oz",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-066",
+  "twierdzenie": "Bzu koralowego (czerwonego, Sambucus racemosa) należy unikać w przetworach, bo może zawierać więcej toksyn.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/Elderberries-OSU%202024.pdf",
+    "miejsce": "EM 9446, Red elderberries",
+    "cytat": "Avoid creating food products from red elderberry.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d87a241c8da7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-067",
+  "twierdzenie": "Owoce czarnego bzu można mrozić i suszyć na surowo, ale przed jedzeniem trzeba je ugotować; sok i syropy z bzu można mrozić.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/Elderberries-OSU%202024.pdf",
+    "miejsce": "EM 9446, Freezing and drying elderberries",
+    "cytat": "You can also freeze elderberry juice and syrups for long-term storage.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d87a241c8da7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-068",
+  "twierdzenie": "Zioła, kwiaty i napar z nich nie są naturalnie kwaśne; do wekowania wymagają przetestowanego przepisu z dodanym kwasem i/lub cukrem, nawet gdy napar jest przecedzony.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/ask-extension/featured/jelly-made-dandelion-or-grape-hyacinth-tea-considered-safe",
+    "miejsce": "OSU Extension, Ask Extension: Is jelly made from dandelion or grape hyacinth tea considered safe?",
+    "cytat": "The tea itself is likely not acidic enough to prevent pathogen growth.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "bdec21a1b488"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/ask-extension/featured/jelly-made-dandelion-or-grape-hyacinth-tea-considered-safe",
+    "miejsce": "jw.",
+    "cytat": "To be safe for canning, you would need to add a tested amount of acid (like lemon juice), sugar or a combination of the two.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "bdec21a1b488"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SLO-069",
+  "twierdzenie": "Owoce kandyzowane zatrzymują nieco wody: przechowuje się je w szczelnym pojemniku w lodówce i zużywa w ciągu tygodnia, albo dosusza całkowicie i trzyma w chłodnym, ciemnym miejscu.",
+  "zrodla": [
+   {
+    "adres": "https://extension.missouri.edu/sites/default/files/2026-09/hes173.pdf",
+    "miejsce": "North Central Food Safety Extension Network (Univ. of Missouri Ext.), Preserve It Fresh, Preserve It Safe, t. 12 nr 6 (XI/XII 2026), Candied fruit for the holidays, Storage Tips",
+    "cytat": "Because candied fruit retains a bit of moisture, store it in an airtight container in the refrigerator to prevent mold, and use it within a week.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "e54a4863f5da"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przepis na kandyzowanie w tym biuletynie jest zaczerpniety z serwisu kulinarnego; ze źródła bierzemy tylko zalecenie przechowywania.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-070",
+  "twierdzenie": "Amigdalina z pestek moreli rozkłada się do cyjanku; EFSA (2016) ustaliła ARfD 20 µg/kg m.c. i szacuje, że bez przekroczenia można zjeść 0,06 g (małe dziecko) i 0,37 g (dorosły) surowych pestek.",
+  "zrodla": [
+   {
+    "adres": "https://air.unimi.it/retrieve/handle/2434/472274/774772/EFSA%20Journal.pdf",
+    "miejsce": "EFSA Journal 2016;14(4):4424, doi:10.2903/j.efsa.2016.4424, streszczenie (kopia PDF opinii w repozytorium Uniw. w Mediolanie; efsa.europa.eu i wiley zwracaja 403)",
+    "cytat": "Amygdalin is the major cyanogenic glycoside present in apricot kernels",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d07afc6de064"
+   },
+   {
+    "adres": "https://air.unimi.it/retrieve/handle/2434/472274/774772/EFSA%20Journal.pdf",
+    "miejsce": "EFSA Journal 2016;14(4):4424, doi:10.2903/j.efsa.2016.4424, streszczenie (kopia PDF opinii w repozytorium Uniw. w Mediolanie; efsa.europa.eu i wiley zwracaja 403)",
+    "cytat": "consumed without exceeding the ARfD is 0.06 and 0.37 g in toddlers and adults, respectively. Thus",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d07afc6de064"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "maks. ilosc surowych pestek moreli (dorosly)",
+  "wartosc": 0.37,
+  "jednostka": "g"
+ },
+ {
+  "id": "SLO-071",
+  "twierdzenie": "USA: chinina jest dozwolona tylko jako aromat w napojach gazowanych, w ilości nieprzekraczającej 83 ppm (21 CFR 172.575).",
+  "zrodla": [
+   {
+    "adres": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-21?part=172&section=172.575",
+    "miejsce": "eCFR 21 CFR 172.575 Quinine",
+    "cytat": "In carbonated beverages as a flavor Not to exceed 83 parts per million, as quinine.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d0d6fbc31648"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "chinina w napoju",
+  "wartosc": 83,
+  "jednostka": "ppm"
+ },
+ {
+  "id": "SLO-072",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Strawberry Jam Pectin\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/strawberry-jam-pectin/",
+    "miejsce": "Strawberry Jam Pectin, Table 1",
+    "cytat": "Recommended process time for  Strawberry Jam  in a boiling water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3f7859872f4a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-073",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Cherry Jam Pectin\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m. Przepis na wiśnie (sour cherries).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/cherry-jam-pectin/",
+    "miejsce": "Cherry Jam Pectin, Table 1",
+    "cytat": "Recommended process time for  Cherry Jam  in a boiling water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a8e6bb18f7cd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-074",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Peach Jam Pectin\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+    "miejsce": "Peach Jam Pectin, Table 1",
+    "cytat": "Recommended process time for  Peach Jam  in a boiling water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e333c6c0d053"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-075",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Apricot Jam without Pectin\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/apricot-jam-without-pectin/",
+    "miejsce": "Apricot Jam without Pectin, Table 1",
+    "cytat": "Recommended process time for  Apricot Jam  in a boiling water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4b2a9b654d52"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-076",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Plum Jam Pectin\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/plum-jam-pectin/",
+    "miejsce": "Plum Jam Pectin, Table 1",
+    "cytat": "Recommended process time for  Plum Jam  in a boiling water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1a257f49f618"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-077",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Berry Jams without Pectin\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m. Wariant bez pestek: owoce podgrzane i przetarte przez sito.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
+    "miejsce": "Berry Jams without Pectin, Table 1",
+    "cytat": "Recommended process time for  Berry Jams  in a boiling water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7c9a9886987b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-078",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Blackberry Jam Pectin\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/blackberry-jam-pectin/",
+    "miejsce": "Blackberry Jam Pectin, Table 1",
+    "cytat": "Recommended process time for  Blackberry Jam  in a boiling water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "18e9837abbee"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-079",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Golden Pepper Jelly\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m. Przepis zawiera ocet 5%.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+    "miejsce": "Golden Pepper Jelly, Table 1",
+    "cytat": "Recommended process time for  Golden Pepper Jelly  in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a1ad8180c9ea"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-080",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Mayhaw-Pepper Jelly Pectin\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/mayhaw-pepper-jelly-pectin/",
+    "miejsce": "Mayhaw-Pepper Jelly Pectin, Table 1",
+    "cytat": "Recommended process time for  Mayhaw Pepper Jelly  in a boiling water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a13531d5a7a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-081",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Corncob Jelly with Pectin\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/corncob-jelly-with-pectin/",
+    "miejsce": "Corncob Jelly with Pectin, Table 1",
+    "cytat": "Recommended process time for  Corncob Jelly  in a boiling water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4c9934be4187"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-082",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Mint Jelly Pectin\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/mint-jelly-pectin/",
+    "miejsce": "Mint Jelly Pectin, Table 1",
+    "cytat": "Recommended process time for  Mint Jelly  in a boiling water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "59b6eb0ad0cf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-083",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Quince Jelly without Pectin\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/quince-jelly-without-pectin/",
+    "miejsce": "Quince Jelly without Pectin, Table 1",
+    "cytat": "Recommended process time for  Quince Jelly  in a boiling water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "29118226924d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-084",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Grape Jelly Powdered Pectin\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/grape-jelly-powdered-pectin/",
+    "miejsce": "Grape Jelly Powdered Pectin, Table 1",
+    "cytat": "Recommended process time for  Grape Jelly  in a boiling water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4f8348d00858"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-085",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Strawberry Preserves\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/strawberry-preserves/",
+    "miejsce": "Strawberry Preserves, Table 1",
+    "cytat": "Recommended process time for  Strawberry Preserves  in a boiling water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a996ae796fe2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-086",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Citrus Marmalade\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m. Skład: skórka i miąższ grejpfruta, pomarańczy i cytryny.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/marmalades/citrus-marmalade/",
+    "miejsce": "Citrus Marmalade, Table 1",
+    "cytat": "Recommended process time for  Citrus Marmalade  in a boiling water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2b33e2dd6ce4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-087",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Apple Butter\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m. Przepis zawiera ocet.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-butter/",
+    "miejsce": "Apple Butter, Table 1",
+    "cytat": "Recommended process time for Apple Butter  in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "29aee132f8d9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-088",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Apple Butter, Reduced Sugar\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-butter-reduced-sugar/",
+    "miejsce": "Apple Butter, Reduced Sugar, Table 1",
+    "cytat": "Recommended process time for Reduced Sugar Apple Butter  in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7907dfdca105"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-089",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Berry Syrup\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+    "miejsce": "Berry Syrup, Table 1",
+    "cytat": "Recommended process time for  Berry Syrup  in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "decab6570676"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-090",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Apple Juice\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-juice/",
+    "miejsce": "Apple Juice, Table 1",
+    "cytat": "Recommended process time for Apple Juice in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4ca1170f95ac"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-091",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Grape Juice\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/grape-juice/",
+    "miejsce": "Grape Juice, Table 1",
+    "cytat": "Recommended process time for  Grape Juice  in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a083f72ca7de"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-092",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Applesauce\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/applesauce/",
+    "miejsce": "Applesauce, Table 1",
+    "cytat": "Recommended process time for Applesauce in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7ecbba6cb5db"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-093",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Fruit Pureés\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/fruit-purees/",
+    "miejsce": "Fruit Pureés, Table 1",
+    "cytat": "Recommended process time for  Fruit Purees  in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ba7574ae4aa4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-094",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Berries-Whole\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "Berries-Whole, Table 1",
+    "cytat": "Recommended process time for  Berries, whole  in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ec2bd5d24dec"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-095",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Cherries-Whole\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m. Dotyczy czereśni i wiśni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "Cherries-Whole, Table 1",
+    "cytat": "Recommended Process Time for  Sweet or Sour Cherries, Whole  in boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "74cc552d518e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-096",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Apples-Sliced\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apples-sliced/",
+    "miejsce": "Apples-Sliced, Table 1",
+    "cytat": "Recommended process time for Apples, sliced  in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "54dc5e070982"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-097",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Apricots-Halved or Sliced\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "miejsce": "Apricots-Halved or Sliced, Table 1",
+    "cytat": "Recommended process time for Apricots, halved or sliced in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e5c5c57c8540"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-098",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Peaches-Halved or Sliced\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "Peaches-Halved or Sliced, Table 1",
+    "cytat": "Recommended process time for  Peaches , halved or sliced in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "245688b4abb6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-099",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Pears-Halved\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pears-halved/",
+    "miejsce": "Pears-Halved, Table 1",
+    "cytat": "Recommended process time for  Pears , halved in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "9e866e44d160"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-100",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Plums-Halved or Whole\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/plums-halved-or-whole/",
+    "miejsce": "Plums-Halved or Whole, Table 1",
+    "cytat": "Recommended process time for  Plums , halved or whole in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e411d79482b0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-101",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Pineapple\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pineapple/",
+    "miejsce": "Pineapple, Table 1",
+    "cytat": "Recommended process time for  Pineapple  in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e2747afab639"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-102",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Rhubarb-Stewed\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/rhubarb-stewed/",
+    "miejsce": "Rhubarb-Stewed, Table 1",
+    "cytat": "Recommended process time for  Rhubarb , stewed in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f116a5fbd9e9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-103",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Grapefruit and Orange Sections\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/grapefruit-and-orange-sections/",
+    "miejsce": "Grapefruit and Orange Sections, Table 1",
+    "cytat": "Recommended process time for  Grapefruit and Orange Sections  in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ed57d0810e1c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-104",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Cranberries\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m. Żurawina w gęstym syropie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberries/",
+    "miejsce": "Cranberries, Table 1",
+    "cytat": "Recommended process time for  Cranberries  in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1256e0a8ab4d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-105",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Cranberry Sauce\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m. Żurawina przetarta przez sito, z cukrem.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberry-sauce/",
+    "miejsce": "Cranberry Sauce, Table 1",
+    "cytat": "Recommended process time for  Cranberry Sauce  in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a309c77cdfab"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-106",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Zucchini-Pineapple\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m. Skład: cukinia, sok ananasowy, butelkowany sok z cytryny, cukier.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/zucchini-pineapple/",
+    "miejsce": "Zucchini-Pineapple, Table 1",
+    "cytat": "Recommended process time for  Zucchini-Pineapple  in a boiling-water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ad1f13eaeda3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-107",
+  "twierdzenie": "NCHFP podaje przetestowany przepis \"Watermelon Rind Preserves\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/watermelon-rind-preserves/",
+    "miejsce": "Watermelon Rind Preserves, Table 1",
+    "cytat": "Recommended process time for  Watermelon Rind Preserves  in a boiling water canner",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "96ca5e1fdcd9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-108",
+  "twierdzenie": "UC ANR (Master Food Preservers) podaje procedurę wekowania soku z sokownika parowego (sok jabłkowy, winogronowy i kwaśne soki owocowe) w kąpieli wodnej lub atmosferycznym wekowniku parowym.",
+  "zrodla": [
+   {
+    "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
+    "miejsce": "Steam Juicing Basics (IV 2026), s. 6",
+    "cytat": "Canned High-Acid Fruit Juices from Steamed Juice",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "13f9aec2f85b"
+   },
+   {
+    "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
+    "miejsce": "jw., s. 5",
+    "cytat": "Canned Apple or Grape Juice from Steamed Juice",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "13f9aec2f85b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SLO-109",
+  "twierdzenie": "Oregon State Univ. Ext. (EM 9446) podaje przepis wysokocukrowy na dżemy, galaretki i syropy z czarnego bzu (proporcja wagowa, wekowanie 5 min do 1000 stóp).",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/Elderberries-OSU%202024.pdf",
+    "miejsce": "EM 9446, High-sugar jams and jellies",
+    "cytat": "Carefully follow the recipe below to preserve American and European elderberry jams, jellies and syrups.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d87a241c8da7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ }
+]

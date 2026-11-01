@@ -1,0 +1,1341 @@
+[
+ {
+  "id": "MLE-001",
+  "twierdzenie": "Surowe (niepasteryzowane) mleko może zawierać groźne drobnoustroje, m.in. Salmonella, E. coli, Listeria i Campylobacter.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/dangers-raw-milk-unpasteurized-milk-can-pose-serious-health-risk",
+    "miejsce": "akapit o surowym mleku",
+    "cytat": "Raw milk can carry dangerous germs such as Salmonella , E. coli , Listeria , Campylobacter, and others that cause foodborne illness",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e111d26d56"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-002",
+  "twierdzenie": "Drobnoustroje z surowego mleka są szczególnie groźne dla osób z obniżoną odpornością, dzieci, osób starszych i kobiet w ciąży.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/dangers-raw-milk-unpasteurized-milk-can-pose-serious-health-risk",
+    "miejsce": "akapit o surowym mleku",
+    "cytat": "especially dangerous to people with weakened immune systems (such as transplant patients and individuals with HIV/AIDS, cancer, and diabetes), children, older adults, and pregnant women",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e111d26d56"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-003",
+  "twierdzenie": "Listeria, często obecna w surowym mleku, u kobiet w ciąży może spowodować poronienie, chorobę lub śmierć noworodka.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/dangers-raw-milk-unpasteurized-milk-can-pose-serious-health-risk",
+    "miejsce": "The Dangers of Listeria and Pregnancy",
+    "cytat": "Pregnant women run a serious risk of becoming ill from the germ Listeria , which is often found in raw milk and can cause miscarriage, or illness, or death of the newborn baby.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e111d26d56"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-004",
+  "twierdzenie": "FDA zalicza do wyborów wysokiego ryzyka niepasteryzowane mleko i śmietanę, sery miękkie i twarde z mleka niepasteryzowanego oraz jogurt z mleka niepasteryzowanego.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/dangers-raw-milk-unpasteurized-milk-can-pose-serious-health-risk",
+    "miejsce": "High Risk Choices",
+    "cytat": "High Risk Choices Unpasteurized milk or cream Unpasteurized soft and hard cheeses Unpasteurized queso fresco-type cheeses Yogurt made from unpasteurized milk",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e111d26d56"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-005",
+  "twierdzenie": "Surowe mleko samo z siebie nie unieszkodliwia groźnych patogenów.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/dangers-raw-milk-unpasteurized-milk-can-pose-serious-health-risk",
+    "miejsce": "Debunking Milk Myths",
+    "cytat": "Raw milk DOES NOT kill dangerous pathogens by itself.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e111d26d56"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-006",
+  "twierdzenie": "FDA zalicza pasteryzowane sery miękkie (np. brie, camembert, sery z niebieską pleśnią) do wyborów niskiego ryzyka (dotyczy produktów handlowych).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/dangers-raw-milk-unpasteurized-milk-can-pose-serious-health-risk",
+    "miejsce": "Low Risk Choices",
+    "cytat": "Pasteurized soft cheeses, such as Brie, Camembert, blue-veined cheeses",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e111d26d56"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Lista FDA dotyczy serów kupowanych; nie jest oceną serów pleśniowych robionych w domu.",
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-007",
+  "twierdzenie": "USA: pasteryzacja mleka to ogrzanie każdej cząstki do 63 °C (145 °F) i utrzymanie co najmniej 30 minut albo do 72 °C (161 °F) przez co najmniej 15 sekund (definicja dla obrotu).",
+  "zrodla": [
+   {
+    "adres": "https://www.law.cornell.edu/cfr/text/21/1240.61",
+    "miejsce": "§ 1240.61(b), tabela",
+    "cytat": "Temperature Time 145 °F (63 °C) 1 30 minutes. 161 °F (72 °C) 1 15 seconds.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "24d13571cea7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura pasteryzacji (metoda długa)",
+  "wartosc": 63,
+  "jednostka": "°C",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MLE-008",
+  "twierdzenie": "USA: dla produktu mlecznego o zawartości tłuszczu 10% lub więcej albo z dodatkiem substancji słodzących temperaturę pasteryzacji podnosi się o 3 °C (5 °F).",
+  "zrodla": [
+   {
+    "adres": "https://www.law.cornell.edu/cfr/text/21/1240.61",
+    "miejsce": "§ 1240.61(b), przypis 1",
+    "cytat": "If the fat content of the milk product is 10 percent or more, or if it contains added sweeteners, the specified temperature shall be increased by 5 °F (3 °C).",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "24d13571cea7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MLE-009",
+  "twierdzenie": "Domowa pasteryzacja metodą długą: każda cząstka mleka, łącznie z pianą, ma osiągnąć co najmniej 145 °F (63 °C) i pozostać w tej temperaturze co najmniej 30 minut.",
+  "zrodla": [
+   {
+    "adres": "https://ohioline.osu.edu/factsheet/hyg-5817",
+    "miejsce": "opis metod",
+    "cytat": "every particle of milk, including the foam, be heated to a minimum of 145 degrees Fahrenheit and held at that temperature for at least 30 minutes",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "fcb0c934661e"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/home-pasteurization-raw-milk-sp-50-932",
+    "miejsce": "Lower temperature method",
+    "cytat": "Heat raw milk to 145°F and hold at that temperature for 30 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "8e81646b8809"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas pasteryzacji w 63 °C",
+  "wartosc": 30,
+  "jednostka": "min"
+ },
+ {
+  "id": "MLE-010",
+  "twierdzenie": "Domowa pasteryzacja metodą krótką: ogrzać mleko do 161 °F (72 °C), stale mieszając, i utrzymać co najmniej 15 sekund.",
+  "zrodla": [
+   {
+    "adres": "https://ohioline.osu.edu/factsheet/hyg-5817",
+    "miejsce": "Stovetop method",
+    "cytat": "Heat the milk to 161 F while stirring constantly and hold at that temperature for at least 15 seconds.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "fcb0c934661e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas pasteryzacji w 72 °C",
+  "wartosc": 15,
+  "jednostka": "s"
+ },
+ {
+  "id": "MLE-011",
+  "twierdzenie": "Jeśli podczas pasteryzacji temperatura spadnie poniżej 145 °F (63 °C), należy ją podnieść i odmierzać 30 minut od nowa.",
+  "zrodla": [
+   {
+    "adres": "https://ohioline.osu.edu/factsheet/hyg-5817",
+    "miejsce": "Double boiler method",
+    "cytat": "If at any time the temperature drops below 145 F, reheat and hold at 145 F or above for 30 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "fcb0c934661e"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/home-pasteurization-raw-milk-sp-50-932",
+    "miejsce": "stove top",
+    "cytat": "If the temperature drops below 145°F at any time during heating, raise the temperature and restart the timer for 30 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "8e81646b8809"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-012",
+  "twierdzenie": "Temperatury poniżej 145 °F (63 °C) nie zabijają szkodliwych bakterii w mleku.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/home-pasteurization-raw-milk-sp-50-932",
+    "miejsce": "Caution",
+    "cytat": "Caution: Temperatures under 145°F will not kill harmful bacteria.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "8e81646b8809"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341228.pdf",
+    "miejsce": "Heat Treatment of Fresh, Unpasteurized Milk",
+    "cytat": "Caution: Temperatures under 145°F will not kill",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0415cfe4091c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-013",
+  "twierdzenie": "Pasteryzacja mleka w kuchence mikrofalowej nie jest zalecana w domu, bo trudno o równomierne ogrzanie całej objętości.",
+  "zrodla": [
+   {
+    "adres": "https://ohioline.osu.edu/factsheet/hyg-5817",
+    "miejsce": "Microwave Oven",
+    "cytat": "It is possible to pasteurize with a microwave oven, but this is not recommended for home pasteurization",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "fcb0c934661e"
+   },
+   {
+    "adres": "https://vms-mfp.ucanr.edu/files/mfp/documents/97892025_Handouts106425.pdf",
+    "miejsce": "Pasteurization",
+    "cytat": "Microwaving raw milk is not an effective means of pasteurization because of uneven heat distribution.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "be3d39e510d4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-014",
+  "twierdzenie": "NMSU E-216 podaje dla mleka do sera zakres 140–145 °F (60–62,8 °C) przez 30 minut; dolna granica jest niższa niż 145 °F wymagane przez FDA i inne extension (sprzeczność, wygrywa szczebel 1).",
+  "zrodla": [
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "miejsce": "s. 2, Pasteurization of raw milk",
+    "cytat": "ized by heating to 140–145°F (60–62.8°C) and stirred",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "b5f7d5d197a0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Na kartach podawać 63 °C / 30 min (MLE-007, MLE-009); zakres NMSU tylko jako sprzeczność.",
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-015",
+  "twierdzenie": "Surowe mleko należy spasteryzować przed użyciem do sera miękkiego; mleko do sera powinno być zawsze pasteryzowane.",
+  "zrodla": [
+   {
+    "adres": "https://vms-mfp.ucanr.edu/files/mfp/documents/97892025_Handouts106425.pdf",
+    "miejsce": "Milk",
+    "cytat": "Raw milk should be pasteurized before it is used in the production of soft cheese.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "be3d39e510d4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-016",
+  "twierdzenie": "Do queso fresco surowe mleko ogrzewa się w otwartym garnku do 145 °F (63 °C) przez 30 minut, a następnie studzi poniżej 90 °F (32 °C) przed robieniem sera.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341228.pdf",
+    "miejsce": "Heat Treatment of Fresh, Unpasteurized Milk",
+    "cytat": "Heat raw milk in uncovered pan to 145°F for 30",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0415cfe4091c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-017",
+  "twierdzenie": "UE: „mleko surowe” to mleko zwierząt gospodarskich nieogrzane powyżej 40 °C ani niepoddane zabiegowi o równoważnym skutku.",
+  "zrodla": [
+   {
+    "adres": "https://publications.europa.eu/resource/celex/32004R0853",
+    "miejsce": "załącznik I pkt 4.1",
+    "cytat": "\"Raw milk\" means milk produced by the secretion of the mammary gland of farmed animals that has not been heated to more than 40 o C or undergone any treatment that has an equivalent effect.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "284c0fb1d26e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MLE-018",
+  "twierdzenie": "UE: państwo członkowskie może utrzymać lub wprowadzić krajowe przepisy zakazujące lub ograniczające wprowadzanie na rynek mleka surowego i surowej śmietany do bezpośredniego spożycia.",
+  "zrodla": [
+   {
+    "adres": "https://publications.europa.eu/resource/celex/32004R0853",
+    "miejsce": "art. 10 ust. 8",
+    "cytat": "prohibiting or restricting the placing on the market within its territory of raw milk or raw cream intended for direct human consumption",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "284c0fb1d26e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MLE-019",
+  "twierdzenie": "UE (producenci): mleko surowe po udoju schładza się niezwłocznie do nie więcej niż 8 °C przy odbiorze codziennym albo 6 °C, gdy odbiór nie jest codzienny.",
+  "zrodla": [
+   {
+    "adres": "https://publications.europa.eu/resource/celex/32004R0853",
+    "miejsce": "załącznik III sekcja IX rozdz. I",
+    "cytat": "It must be cooled immediately to not more than 8 o C in the case of daily collection, or not more than 6 o C if collection is not daily.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "284c0fb1d26e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przepis dla podmiotów spożywczych; w kontekście domowym tylko wskazówka.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MLE-020",
+  "twierdzenie": "UE: produkty z mleka surowego bez obróbki cieplnej oznacza się napisem „made with raw milk” (w PL: „wyprodukowano z mleka surowego”).",
+  "zrodla": [
+   {
+    "adres": "https://publications.europa.eu/resource/celex/32004R0853",
+    "miejsce": "załącznik III sekcja IX rozdz. IV",
+    "cytat": "the words \"made with raw milk\"",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "284c0fb1d26e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Polskie brzmienie napisu nie zostało sprawdzone w polskiej wersji rozporządzenia.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MLE-021",
+  "twierdzenie": "Produkty mleczne fermentowane muszą osiągnąć pH 4,6 lub niższe w ciągu 48 godzin, by uznać je za wolne od patogenów.",
+  "zrodla": [
+   {
+    "adres": "https://extension.usu.edu/preserve-the-harvest/research/tips-to-safely-ferment-at-home",
+    "miejsce": "Starter cultures",
+    "cytat": "Dairy products must reach a pH of 4.6 or less within 48 hours to be considered pathogen-free.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "2be139dc31c7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH"
+ },
+ {
+  "id": "MLE-022",
+  "twierdzenie": "W większości przypadków sama fermentacja nie daje produktu trwałego w temperaturze pokojowej; fermentowana żywność wymaga lodówki albo pasteryzacji/wekowania.",
+  "zrodla": [
+   {
+    "adres": "https://extension.usu.edu/preserve-the-harvest/research/tips-to-safely-ferment-at-home",
+    "miejsce": "wstęp",
+    "cytat": "In most cases, fermentation alone cannot produce a shelf-stable (room temperature) food product.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "2be139dc31c7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-023",
+  "twierdzenie": "Przy kulturach starterowych właściwą temperaturę i dopuszczalny czas fermentacji podaje opakowanie kultury.",
+  "zrodla": [
+   {
+    "adres": "https://extension.usu.edu/preserve-the-harvest/research/tips-to-safely-ferment-at-home",
+    "miejsce": "Starter cultures",
+    "cytat": "The specific temperature and allotted time safety interval your food requires will be listed on your starter culture packet.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "2be139dc31c7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-024",
+  "twierdzenie": "Jogurt domowy: mleko podgrzewa się powoli do 180–185 °F (82–85 °C).",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "miejsce": "Basic Yogurt Recipe, krok 3",
+    "cytat": "3. Turn off the heat when the milk reaches 180-185 F.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f7aa3c19c8e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-025",
+  "twierdzenie": "Jogurt domowy: po podgrzaniu mleko studzi się do 108–115 °F (42–46 °C) przed dodaniem startera.",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "miejsce": "Basic Yogurt Recipe, krok 3",
+    "cytat": "room temperature. Cool milk to between 108-115 F.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f7aa3c19c8e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-026",
+  "twierdzenie": "Jogurt domowy: inkubacja w 108–115 °F (42–46 °C) przez 6–10 godzin bez poruszania.",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "miejsce": "Basic Yogurt Recipe, krok 6",
+    "cytat": "6. Incubate yogurt between 108-115 F for 6 to 10",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f7aa3c19c8e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas inkubacji jogurtu",
+  "wartosc": 10,
+  "jednostka": "h"
+ },
+ {
+  "id": "MLE-027",
+  "twierdzenie": "Jogurt po stężeniu przechowuje się w lodówce w 40 °F (4,4 °C) lub niżej.",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "miejsce": "Basic Yogurt Recipe, krok 7",
+    "cytat": "7. Store the yogurt in the refrigerator at 40 F",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f7aa3c19c8e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura lodówki",
+  "wartosc": 4.4,
+  "jednostka": "°C"
+ },
+ {
+  "id": "MLE-028",
+  "twierdzenie": "Jogurt domowy należy zjeść w ciągu 14 dni.",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "miejsce": "Basic Yogurt Recipe, krok 7",
+    "cytat": "yogurt taste increasingly sour. Eat within 14 days.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f7aa3c19c8e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "okres przydatności jogurtu w lodówce",
+  "wartosc": 14,
+  "jednostka": "dni"
+ },
+ {
+  "id": "MLE-029",
+  "twierdzenie": "Domowy jogurt użyty jako starter należy wykorzystać w ciągu 5–7 dni od jego zrobienia.",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "miejsce": "Yogurt Starter",
+    "cytat": "as a starter within 5 to 7 days from when the yogurt",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f7aa3c19c8e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-030",
+  "twierdzenie": "Jogurt typu greckiego odcieka się w lodówce, pod przykryciem, przez 2–4 godziny (ser jogurtowy 8–24 godziny).",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "miejsce": "Yogurt Cheese and Greek-style Yogurt, krok 3",
+    "cytat": "yogurt, drain for 2 to 4 hours.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f7aa3c19c8e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-031",
+  "twierdzenie": "Codex: jogurt to mleko fermentowane symbiotycznymi kulturami Streptococcus thermophilus i Lactobacillus delbrueckii subsp. bulgaricus.",
+  "zrodla": [
+   {
+    "adres": "https://www.fao.org/input/download/standards/400/CXS_243e.pdf",
+    "miejsce": "pkt 2.1",
+    "cytat": "Symbiotic cultures of Streptococcus thermophilus and Lactobacillus",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "99ade599579d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-032",
+  "twierdzenie": "Codex: kefir fermentuje się kulturą przygotowaną z ziaren kefirowych (Lactobacillus kefiri, Leuconostoc, Lactococcus, Acetobacter oraz drożdże).",
+  "zrodla": [
+   {
+    "adres": "https://www.fao.org/input/download/standards/400/CXS_243e.pdf",
+    "miejsce": "pkt 2.1",
+    "cytat": "Starter culture prepared from kefir grains, Lactobacillus kefiri, species",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "99ade599579d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-033",
+  "twierdzenie": "Codex: kumys fermentuje się kulturą Lactobacillus delbrueckii subsp. bulgaricus i Kluyveromyces marxianus.",
+  "zrodla": [
+   {
+    "adres": "https://www.fao.org/input/download/standards/400/CXS_243e.pdf",
+    "miejsce": "pkt 2.1",
+    "cytat": "Lactobacillus delbrueckii subsp. bulgaricus and Kluyveromyces marxianus.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "99ade599579d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-034",
+  "twierdzenie": "Codex: kumys zawiera co najmniej 0,5% etanolu (% obj./m).",
+  "zrodla": [
+   {
+    "adres": "https://www.fao.org/input/download/standards/400/CXS_243e.pdf",
+    "miejsce": "pkt 3.3, tabela",
+    "cytat": "Ethanol (% vol./w)",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "99ade599579d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wartość min. 0.5% stoi w tej samej linii tabeli w kolumnie Kumys.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "etanol w kumysie",
+  "wartosc": 0.5,
+  "jednostka": "% obj."
+ },
+ {
+  "id": "MLE-035",
+  "twierdzenie": "Codex: labneh i jogurt odcedzany należą do zagęszczonych mlek fermentowanych (białko min. 5,6%).",
+  "zrodla": [
+   {
+    "adres": "https://www.fao.org/input/download/standards/400/CXS_243e.pdf",
+    "miejsce": "pkt 2.2",
+    "cytat": "traditional products such as Stragisto (strained yoghurt), Labneh, Ymer and Ylette.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "99ade599579d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-036",
+  "twierdzenie": "Codex: napoje na bazie mleka fermentowanego (np. typu ajran) zawierają co najmniej 40% (m/m) mleka fermentowanego.",
+  "zrodla": [
+   {
+    "adres": "https://www.fao.org/input/download/standards/400/CXS_243e.pdf",
+    "miejsce": "pkt 2.4",
+    "cytat": "Drinks Based on Fermented Milk contain a minimum of 40% (m/m) fermented milk.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "99ade599579d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-037",
+  "twierdzenie": "USA: cheddar z niepasteryzowanych składników mlecznych dojrzewa w temperaturze nie niższej niż 35 °F (ok. 1,7 °C) przez co najmniej 60 dni.",
+  "zrodla": [
+   {
+    "adres": "https://www.law.cornell.edu/cfr/text/21/133.113",
+    "miejsce": "§ 133.113(a)(1)",
+    "cytat": "If the dairy ingredients used are not pasteurized, the cheese is cured at a temperature of not less than 35 °F for at least 60 days.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1a18c80bb8ba"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie 35 °F na 1,7 °C nasze; FDA/Health Canada zaokrągla do 2 °C. To wymóg tożsamości handlowej, nie gwarancja bezpieczeństwa (zob. badanie D'Amico 2010).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "minimalny czas dojrzewania sera z mleka surowego (USA)",
+  "wartosc": 60,
+  "jednostka": "dni",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MLE-038",
+  "twierdzenie": "USA: ser miękki dojrzewający z mleka niepasteryzowanego dojrzewa w temperaturze nie niższej niż 35 °F (ok. 1,7 °C) przez nie mniej niż 60 dni.",
+  "zrodla": [
+   {
+    "adres": "https://www.law.cornell.edu/cfr/text/21/133.182",
+    "miejsce": "§ 133.182",
+    "cytat": "If the milk used is not pasteurized, the cheese so made is cured at a temperature of not less than 35 °F for not less than 60 days.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "949aaebcecd8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MLE-039",
+  "twierdzenie": "Badanie goudy i cheddara z surowego mleka skażonego E. coli O157:H7: 60 dni dojrzewania samo w sobie nie usuwa żywych bakterii; wykrywano je po ponad 270 dniach.",
+  "zrodla": [
+   {
+    "adres": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=21219739&rettype=abstract&retmode=text",
+    "miejsce": "abstrakt",
+    "cytat": "our results suggest that the 60-day aging requirement alone is insufficient to completely eliminate levels of viable E. coli O157:H7",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "d7ea75ba5cd9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-040",
+  "twierdzenie": "Porcja sera miękkiego dojrzewającego z mleka surowego niesie ok. 50–160 razy wyższe ryzyko listeriozy niż ser z mleka pasteryzowanego.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/90493/download",
+    "miejsce": "s. 2",
+    "cytat": "The net result is approximately, a 50- to 160-fold increase in the risk of listeriosis from a serving",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6859a85d26c1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-041",
+  "twierdzenie": "Dla serów miękkich dojrzewających z mleka surowego wymóg 60 dni dojrzewania zwiększa ryzyko listeriozy (Listeria ma czas na wzrost).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/90493/download",
+    "miejsce": "Data gaps and research needs",
+    "cytat": "aging regulation actually increases the risk of listeriosis for consumption of raw-milk cheeses,",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6859a85d26c1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-042",
+  "twierdzenie": "By ser z mleka surowego był równie bezpieczny pod względem listeriozy jak ser z mleka pasteryzowanego, potrzebna jest redukcja skażenia mleka o 6 log (lub równoważna).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/90493/download",
+    "miejsce": "Data gaps and research needs",
+    "cytat": "that a 6 log reduction (or equivalent) of the contamination in milk is necessary to make raw-milk",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6859a85d26c1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-043",
+  "twierdzenie": "Sery typu queso fresco (świeże, bez dojrzewania) mogą sprzyjać wzrostowi Listeria.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance",
+    "miejsce": "main food safety concern",
+    "cytat": "Queso fresco-type cheeses can support the growth of Listeria",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e869f3419197"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-044",
+  "twierdzenie": "Sery typu queso fresco mają wysoką wilgotność i niską kwasowość, co sprzyja wzrostowi Listeria.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance",
+    "miejsce": "Why is Listeria a concern",
+    "cytat": "high in moisture and low in acidity, which provides a favorable environment for the growth of Listeria",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e869f3419197"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-045",
+  "twierdzenie": "Listeria może się namnażać w niskiej temperaturze, także w lodówce.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance",
+    "miejsce": "Why is Listeria a concern",
+    "cytat": "Listeria can thrive in cold environments, including inside refrigerators.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e869f3419197"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-046",
+  "twierdzenie": "FDA zaleca osobom podatnym na listeriozę unikanie wszystkich serów typu queso fresco, także z mleka pasteryzowanego.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance",
+    "miejsce": "main food safety concern",
+    "cytat": "the FDA recommends that people vulnerable to listeriosis avoid eating all queso fresco-type cheeses.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e869f3419197"
+   },
+   {
+    "adres": "https://www.fda.gov/food/health-educators/listeria-food-safety-moms-be",
+    "miejsce": "To Eat or Not to Eat? Avoid",
+    "cytat": "Queso fresco-type cheeses, like queso fresco, queso blanco, and requesón, made from either pasteurized or unpasteurized milk",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c58d1d4e2d4d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-047",
+  "twierdzenie": "W USA ryzyko listeriozy u kobiet w ciąży jest ok. 10 razy wyższe niż w populacji ogólnej.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance",
+    "miejsce": "Pregnant women",
+    "cytat": "the risk of pregnant women getting listeriosis is about 10 times greater than that of the general population.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e869f3419197"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-048",
+  "twierdzenie": "Ser typu queso fresco warto w miarę możliwości gotować w potrawie do co najmniej 165 °F (74 °C) wewnątrz.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance",
+    "miejsce": "reduce their risk",
+    "cytat": "to a minimum internal temperature of 165° F (74° C).",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e869f3419197"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura wewnętrzna przy podgrzewaniu sera świeżego",
+  "wartosc": 74,
+  "jednostka": "°C"
+ },
+ {
+  "id": "MLE-049",
+  "twierdzenie": "Kobiety w ciąży powinny unikać serów z mleka niepasteryzowanego.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/health-educators/listeria-food-safety-moms-be",
+    "miejsce": "To Eat or Not to Eat? Avoid",
+    "cytat": "Cheeses made with unpasteurized (raw) milk.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c58d1d4e2d4d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-050",
+  "twierdzenie": "Ser miękki (ponad 45% wody) jest bardzo nietrwały: w lodówce wytrzymuje tylko 5–7 dni.",
+  "zrodla": [
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "miejsce": "s. 2",
+    "cytat": "45% water, it is highly perishable and has a refriger-",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "b5f7d5d197a0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Cytat urwany przez układ kolumn; ciąg dalszy w następnej linii: „ated life of only five to seven days.”",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "trwałość sera miękkiego w lodówce",
+  "wartosc": 7,
+  "jednostka": "dni"
+ },
+ {
+  "id": "MLE-051",
+  "twierdzenie": "Z serami świeżymi wiążą się cztery główne patogeny: Salmonella, E. coli, Listeria monocytogenes i Staphylococcus aureus.",
+  "zrodla": [
+   {
+    "adres": "https://vms-mfp.ucanr.edu/files/mfp/documents/97892025_Handouts106425.pdf",
+    "miejsce": "Food Safety Basics",
+    "cytat": "Salmonella, E. coli, Listeria monocytogenes, and Staphylococcus aureus.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "be3d39e510d4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-052",
+  "twierdzenie": "Queso fresco z przepisu PNW539 można przechowywać w lodówce w 40 °F (4,4 °C) lub niżej do tygodnia albo w zamrażarce do miesiąca.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341228.pdf",
+    "miejsce": "Helpful Hints",
+    "cytat": "a refrigerator at 40°F or below for up to one week, or",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0415cfe4091c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "trwałość queso fresco w lodówce",
+  "wartosc": 7,
+  "jednostka": "dni"
+ },
+ {
+  "id": "MLE-053",
+  "twierdzenie": "Queso blanco bez podpuszczki (kwasowo-termiczny): mleko ogrzewa się do 176 °F (80 °C) przez 20 minut, potem ścina octem 5%.",
+  "zrodla": [
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "miejsce": "s. 6, No-rennet Queso Blanco",
+    "cytat": "1. Heat milk to 176°F (80°C) for 20 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "b5f7d5d197a0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-054",
+  "twierdzenie": "Paneer, queso fresco i queso blanco należą do serów ścinanych kwasem (ocet, sok z cytryny) w gorącym mleku, bez kultur i podpuszczki.",
+  "zrodla": [
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "miejsce": "s. 2",
+    "cytat": "paneer (traditionally eaten in India), which are made",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "b5f7d5d197a0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-055",
+  "twierdzenie": "Queso blanco pakowane szczelnie i sparzone 5 minut we wrzątku może w lodówce wytrzymać kilka tygodni, ale najlepiej jeść je świeże.",
+  "zrodla": [
+   {
+    "adres": "https://vms-mfp.ucanr.edu/files/mfp/documents/97892025_Handouts106425.pdf",
+    "miejsce": "s. 3, Queso Blanco",
+    "cytat": "Queso Blanco may keep for several weeks if properly packed and stored in a refrigerator, but should be eaten",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "be3d39e510d4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-056",
+  "twierdzenie": "Mozzarella („pizza cheese”) NMSU: skrzep z kulturą jogurtową rozciąga się w gorącej wodzie 180 °F (82 °C), solankuje 24 h i przechowuje w lodówce do tygodnia.",
+  "zrodla": [
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "miejsce": "s. 10, Pizza Cheese",
+    "cytat": "tion for 1 week.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "b5f7d5d197a0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Cytat urwany przez układ kolumn: „...stored under refrigera-/tion for 1 week.”",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "trwałość mozzarelli w lodówce",
+  "wartosc": 7,
+  "jednostka": "dni"
+ },
+ {
+  "id": "MLE-057",
+  "twierdzenie": "Mozzarella na kwasku cytrynowym (UC ANR, za Univ. of Alaska FNH-00063): zjeść w ciągu tygodnia albo zamrozić do miesiąca.",
+  "zrodla": [
+   {
+    "adres": "https://vms-mfp.ucanr.edu/files/mfp/documents/97892025_Handouts106425.pdf",
+    "miejsce": "s. 5, Mozzarella, krok 17",
+    "cytat": "within one week or freeze for up to one month.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "be3d39e510d4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "trwałość mozzarelli w lodówce",
+  "wartosc": 7,
+  "jednostka": "dni"
+ },
+ {
+  "id": "MLE-058",
+  "twierdzenie": "Ricotta z serwatki: do świeżej serwatki dodaje się mleko pełne, ogrzewa do 185 °F (85 °C) i powoli dodaje ocet; ogrzewanie zaczyna się od razu po oddzieleniu serwatki.",
+  "zrodla": [
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2020-07/329613.pdf",
+    "miejsce": "Whey Ricotta Cheese, krok 1",
+    "cytat": "185°F (85°C). Heating must begin imme-",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "39e313d997e7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Cytat urwany przez układ kolumn.",
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-059",
+  "twierdzenie": "Świeżą ricottę przechowuje się w lodówce w szczelnym pojemniku do tygodnia albo zamraża do 6 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2020-07/329613.pdf",
+    "miejsce": "Ricotta Cheese, krok 6",
+    "cytat": "container for up to a week. For longer stor-",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "39e313d997e7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Cytat urwany przez układ kolumn.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "trwałość ricotty w lodówce",
+  "wartosc": 7,
+  "jednostka": "dni"
+ },
+ {
+  "id": "MLE-060",
+  "twierdzenie": "Żywność niskokwasowa przechowywana w oleju tworzy środowisko beztlenowe sprzyjające wzrostowi Clostridium botulinum.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/node/154041",
+    "miejsce": "wstęp",
+    "cytat": "Low acid foods stored in oil create an oxygen-free environment which is perfect for growth of Clostridium botulinum bacteria.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "43a854de9f37"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-061",
+  "twierdzenie": "Domowe mieszaniny ziół lub warzyw w oleju (poza przebadanymi przepisami zakwaszanymi) przechowuje się w lodówce do 4 dni albo zamraża.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/node/154041",
+    "miejsce": "wstęp",
+    "cytat": "It is essential for all other flavored oils made at home, including pesto, to be stored in the refrigerator for up to 4 days or frozen for long term storage.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "43a854de9f37"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło dotyczy ziół i warzyw w oleju; przeniesienie na ser w oleju z ziołami to analogia.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "przechowywanie ziół w oleju w lodówce",
+  "wartosc": 4,
+  "jednostka": "dni"
+ },
+ {
+  "id": "MLE-062",
+  "twierdzenie": "Kanada (CFIA): wycofano labneh w oleju roślinnym, bo produkt może umożliwiać wzrost Clostridium botulinum.",
+  "zrodla": [
+   {
+    "adres": "https://recalls-rappels.canada.ca/en/alert-recall/mounet-group-brand-labneh-soft-unripened-cheese-vegetable-oil-recalled-due-potential",
+    "miejsce": "Issue",
+    "cytat": "The affected product is being recalled from the marketplace because it may permit the growth of Clostridium botulinum .",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ba602de887e6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-063",
+  "twierdzenie": "Żywność skażona toksyną botulinową może wyglądać i pachnieć normalnie, a mimo to wywołać chorobę.",
+  "zrodla": [
+   {
+    "adres": "https://recalls-rappels.canada.ca/en/alert-recall/mounet-group-brand-labneh-soft-unripened-cheese-vegetable-oil-recalled-due-potential",
+    "miejsce": "What you should do",
+    "cytat": "Food contaminated with Clostridium botulinum toxin may not look or smell spoiled but can still make you sick.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ba602de887e6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MLE-064",
+  "twierdzenie": "Ghee (procedura BC FOODSAFE dla gastronomii): w lodówce (4 °C) do roku, w temperaturze pokojowej do 3 miesięcy, w szczelnym pojemniku.",
+  "zrodla": [
+   {
+    "adres": "https://foodsafetyplans.foodsafe.ca/pdf/dairy/13-Ghee.pdf",
+    "miejsce": "krok 8 Package/Label/Store",
+    "cytat": "Store Ghee in refrigerator (4°C) for up to 1 year. It can be",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "16e85c06bc32"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Dokument przykładowy dla zakładów gastronomii; nie jest przetestowanym przepisem domowym. Ciąg dalszy: „held at room temperature for 3 months.”",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "przechowywanie ghee w temp. pokojowej",
+  "wartosc": 3,
+  "jednostka": "miesiące"
+ },
+ {
+  "id": "MLE-065",
+  "twierdzenie": "Ghee: po odparowaniu większości wody temperaturę podnosi się do 105–118 °C, by usunąć wodę związaną i rozwinąć smak.",
+  "zrodla": [
+   {
+    "adres": "https://foodsafetyplans.foodsafe.ca/pdf/dairy/13-Ghee.pdf",
+    "miejsce": "krok 4 Heat Butter",
+    "cytat": "Finally, the temperature is raised to between 105°C and",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "16e85c06bc32"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Cytat urwany przez układ kolumn.",
+  "krytyczne": false,
+  "przeglad": null
+ }
+]

@@ -1,0 +1,202 @@
+[
+ {
+  "id": "vinegar-pickling",
+  "zakres_ACI": "pikle octowe, relishe, chutneye, salsy, keczupy, owoce marynowane",
+  "thresholds": [
+   {
+    "wielkosc": "pH końcowe (równowagowe) produktu",
+    "wartosc": 4.6,
+    "jednostka": "pH",
+    "granica": "<=",
+    "claim": "ACI-002"
+   },
+   {
+    "wielkosc": "kwasowość octu",
+    "wartosc": 5,
+    "jednostka": "%",
+    "granica": ">=",
+    "claim": "ACI-039"
+   },
+   {
+    "wielkosc": "pasteryzacja niskotemperaturowa (tylko gdy przepis przewiduje): temperatura wody",
+    "wartosc": "180-185",
+    "jednostka": "°F",
+    "granica": "=",
+    "claim": "ACI-021"
+   },
+   {
+    "wielkosc": "pasteryzacja niskotemperaturowa: czas",
+    "wartosc": 30,
+    "jednostka": "min",
+    "granica": "=",
+    "claim": "ACI-021"
+   },
+   {
+    "wielkosc": "jaja marynowane: maks. czas w temperaturze pokojowej",
+    "wartosc": 2,
+    "jednostka": "h",
+    "granica": "<=",
+    "claim": "ACI-034"
+   },
+   {
+    "wielkosc": "trwałość pikli lodówkowych (tygodnie)",
+    "wartosc": null,
+    "pytanie": "Brak źródła szczebla 1–3 z liczbą tygodni dla pikli lodówkowych (poza NCHFP pepper-onion relish: 1 miesiąc, jaja: 3–4 miesiące dla jakości)."
+   },
+   {
+    "wielkosc": "kwasowość octu ryżowego/winnego/balsamicznego/słodowego",
+    "wartosc": null,
+    "pytanie": "Czy NCHFP/USDA dopuszcza ocet winny lub ryżowy z etykietą ≥5% jako zamiennik w przetestowanych przepisach?"
+   }
+  ],
+  "regulyZakazu": [
+   {
+    "opis": "Nie zmieniać proporcji octu, produktu i wody; nie używać octu o nieznanej kwasowości (w tym domowego).",
+    "claim": "ACI-016"
+   },
+   {
+    "opis": "Wekować wyłącznie przetestowane przepisy; minimalny równomierny poziom kwasu w całym produkcie.",
+    "claim": "ACI-017"
+   },
+   {
+    "opis": "W salsach nie zastępować soku z cytryny octem, nie zwiększać ilości papryki/cebuli, nie zagęszczać mąką ani skrobią przed wekowaniem.",
+    "claim": "ACI-038"
+   },
+   {
+    "opis": "Salsy spoza przetestowanych przepisów: tylko lodówka lub zamrażarka.",
+    "claim": "ACI-041"
+   },
+   {
+    "opis": "Jaj marynowanych nie wekować i nie przechowywać w temperaturze pokojowej (przypadki jadu kiełbasianego).",
+    "claim": "ACI-033"
+   },
+   {
+    "opis": "Nie wekować grzybów leśnych (także w occie).",
+    "claim": "ACI-030"
+   },
+   {
+    "opis": "„Quick pickles”/pikle lodówkowe nie są trwałe bez lodówki.",
+    "claim": "ACI-024"
+   },
+   {
+    "opis": "Nie stosować metody open-kettle (zakręcanie na gorąco bez pasteryzacji), piekarnika, mikrofali, zmywarki.",
+    "claim": "ACI-014"
+   }
+  ]
+ },
+ {
+  "id": "canned-foods",
+  "zakres_ACI": "tylko żywność kwaśna i zakwaszana w kąpieli wodnej: owoce w syropie, kompoty, soki owocowe, pomidory i przetwory pomidorowe",
+  "thresholds": [
+   {
+    "wielkosc": "pH żywności do kąpieli wodnej",
+    "wartosc": 4.6,
+    "jednostka": "pH",
+    "granica": "<=",
+    "claim": "ACI-001"
+   },
+   {
+    "wielkosc": "pH powyżej którego wymagany szybkowar (o ile nie zakwaszono)",
+    "wartosc": 4.6,
+    "jednostka": "pH",
+    "granica": ">",
+    "claim": "ACI-010"
+   },
+   {
+    "wielkosc": "kwas cytrynowy na słoik 1 qt pomidorów",
+    "wartosc": 0.5,
+    "jednostka": "łyżeczki",
+    "granica": "=",
+    "claim": "ACI-044"
+   },
+   {
+    "wielkosc": "butelkowany sok z cytryny na słoik 1 qt pomidorów",
+    "wartosc": 2,
+    "jednostka": "łyżki",
+    "granica": "=",
+    "claim": "ACI-044"
+   },
+   {
+    "wielkosc": "kwas cytrynowy na słoik 1 pt pomidorów",
+    "wartosc": 0.25,
+    "jednostka": "łyżeczki",
+    "granica": "=",
+    "claim": "ACI-045"
+   },
+   {
+    "wielkosc": "butelkowany sok z cytryny na słoik 1 pt pomidorów",
+    "wartosc": 1,
+    "jednostka": "łyżka",
+    "granica": "=",
+    "claim": "ACI-045"
+   },
+   {
+    "wielkosc": "ocet 5% na słoik 1 qt pomidorów (alternatywa)",
+    "wartosc": 4,
+    "jednostka": "łyżki",
+    "granica": "=",
+    "claim": "ACI-046"
+   },
+   {
+    "wielkosc": "kwas cytrynowy na słoik 1 qt fig",
+    "wartosc": 0.5,
+    "jednostka": "łyżeczki",
+    "granica": "=",
+    "claim": "ACI-061"
+   },
+   {
+    "wielkosc": "butelkowany sok z cytryny na słoik 1 qt gruszek azjatyckich",
+    "wartosc": 2,
+    "jednostka": "łyżki",
+    "granica": "=",
+    "claim": "ACI-063"
+   },
+   {
+    "wielkosc": "wysokość n.p.m., powyżej której wydłuża się czas kąpieli wodnej",
+    "wartosc": 1000,
+    "jednostka": "ft",
+    "granica": ">",
+    "claim": "ACI-015"
+   },
+   {
+    "wielkosc": "przeliczenie słoików 1 pt/1 qt na słoiki metryczne (0,5/0,9/1 l)",
+    "wartosc": null,
+    "pytanie": "Czasy NCHFP dotyczą słoików pint/quart; czy istnieje źródło szczebla 1–3 na przeliczenie na słoiki europejskie (np. 0,72 l)?"
+   }
+  ],
+  "regulyZakazu": [
+   {
+    "opis": "Pomidory, przetwory pomidorowe i tomatillo zawsze zakwaszać — także przy szybkowarze; nie pomijać kwasu.",
+    "claim": "ACI-047"
+   },
+   {
+    "opis": "Figi i gruszki azjatyckie wekować wyłącznie po zakwaszeniu.",
+    "claim": "ACI-008"
+   },
+   {
+    "opis": "Przecierów owocowych NCHFP nie stosować do bananów, daktyli, fig, gruszek azjatyckich, pomidorów, melonów, papai, persymony, dojrzałego mango, kokosa.",
+    "claim": "ACI-065"
+   },
+   {
+    "opis": "Melony i arbuz: brak czasów wekowania samodzielnego; wyjątkiem są przetestowane pikle (skórka arbuza, kantalup).",
+    "claim": "ACI-027"
+   },
+   {
+    "opis": "Mieszaniny pomidorów z warzywami niskokwasowymi (cukinia, okra, mięso, sos spaghetti) — tylko szybkowar.",
+    "claim": "ACI-059"
+   },
+   {
+    "opis": "Nie wekować pomidorów z obumarłych lub przemarzniętych krzaków.",
+    "claim": "ACI-049"
+   },
+   {
+    "opis": "Nie stosować metody open-kettle, piekarnika, mikrofali ani zmywarki.",
+    "claim": "ACI-014"
+   },
+   {
+    "opis": "Instrukcje „Berries whole” stosować tylko do wymienionych owoców (bez truskawek, bzu).",
+    "claim": "ACI-068"
+   }
+  ]
+ }
+]

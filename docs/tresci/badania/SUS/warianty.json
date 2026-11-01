@@ -1,0 +1,2861 @@
+[
+ {
+  "id": "cucumber-v11",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pikle octowe (korniszony); nie suszenie. Metoda wstępna, decyduje ACI.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "cucumber-v13",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pikle octowe (po królewsku); nie suszenie. Metoda wstępna, decyduje ACI.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "cucumber-v15",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pikle octowe (w curry); nie suszenie. Metoda wstępna, decyduje ACI.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "cucumber-v16",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pikle octowe (z miodem i chili); nie suszenie. Metoda wstępna, decyduje ACI.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "cucumber-v17",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pressgurka: szybka surówka octowa na bieżąco; możliwe poza_zakresem. Decyduje ACI.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "cucumber-v20",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-039",
+   "SUS-001",
+   "SUS-017",
+   "SUS-021"
+  ],
+  "sources": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   }
+  ],
+  "uwagi": "Clemson wymienia chipsy z ogórka jako ogólne zalecenie, bez tabeli czasu; brak ogórka w tabelach CSU/MSU. Suszyć do stanu kruchego."
+ },
+ {
+  "id": "white-cabbage-v11",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kapusta po koreańsku: sałatka marynowana; nie suszenie.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "white-cabbage-v12",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sałatka octowa w słoikach; nie suszenie.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "white-cabbage-v15",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kapusta z grochem: danie gotowane w słoikach (niskokwasowe); nie suszenie.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "white-cabbage-v16",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Kapusta w paskach 1/8 cala, blanszowana; MSU: susz kapusty łatwo chłonie wilgoć z powietrza."
+ },
+ {
+  "id": "red-savoy-cabbage-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   }
+  ],
+  "uwagi": "Jak kapusta w tabelach CSU/Clemson (paski, blanszowanie). Odpowiednik: kapusta czerwona/włoska = kapusta."
+ },
+ {
+  "id": "red-savoy-cabbage-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022",
+   "SUS-040"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   }
+  ],
+  "uwagi": "Puder = zmielony susz kapusty (Clemson: proszki z wysuszonych warzyw)."
+ },
+ {
+  "id": "napa-cabbage-v10",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kapusta słodko-kwaśna po syczuańsku; nie suszenie.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "napa-cabbage-v14",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kapusty pekińskiej/pak choi brak w tabelach suszenia (jest tylko w tabeli mrożenia NCHFP razem z kapustą). Najbliższe: kapusta lub liście (CSU)."
+ },
+ {
+  "id": "napa-cabbage-v15",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-040"
+  ],
+  "sources": [],
+  "uwagi": "Puder z suszonego kimchi: brak przetestowanego przepisu; suszenie produktu fermentowanego (FER ocenia kimchi)."
+ },
+ {
+  "id": "cauliflower-v10",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sałatka wielowarzywna w zalewie; nie suszenie.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "cauliflower-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   }
+  ],
+  "uwagi": "Różyczki blanszowane wg tabel; MSU ocenia kalafior jako słaby do suszenia (jakość)."
+ },
+ {
+  "id": "broccoli-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   }
+  ],
+  "uwagi": "Tabele CSU/Clemson podają procedurę; MSU ocenia brokuł „Not recommended” do suszenia (jakość, bez powodu bezpieczeństwa)."
+ },
+ {
+  "id": "broccoli-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022",
+   "SUS-040"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   }
+  ],
+  "uwagi": "Proszek = zmielony susz brokuła; uwaga MSU o niskiej jakości."
+ },
+ {
+  "id": "brussels-kohlrabi-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kalarepa tylko w ocenie przydatności MSU („Fair”), bez procedury; brak przetestowanego przepisu na chipsy."
+ },
+ {
+  "id": "zucchini-v16",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022",
+   "SUS-039"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Cukinia = dynia letnia (summer squash), plastry 1/4 cala, blanszowanie; Clemson wymienia chipsy z cukinii."
+ },
+ {
+  "id": "pumpkin-v15",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Miąższ dyni w paskach ok. 1/8 cala, blanszowany (pumpkin/winter squash)."
+ },
+ {
+  "id": "pumpkin-v16",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-034"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/pumpkin-seeds/",
+    "sha12": "d774747984ac",
+    "opis": "NCHFP, Pumpkin Seeds"
+   }
+  ],
+  "uwagi": "NCHFP: suszenie pestek, potem opcjonalne prażenie. Utrwala suszenie; samo prażenie to krok kulinarny. Nie poza_zakresem, bo jest przepis NCHFP."
+ },
+ {
+  "id": "leafy-greens-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   }
+  ],
+  "uwagi": "Jarmuż jak zielone liście (blanszowanie, do chrupkości); MSU: jarmuż słaby do suszenia (jakość). Chipsy pieczone z olejem to inna technika."
+ },
+ {
+  "id": "leafy-greens-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022",
+   "SUS-040"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   }
+  ],
+  "uwagi": "Proszek ze szpinaku z suszu (Clemson podaje ekwiwalent proszku szpinakowego)."
+ },
+ {
+  "id": "leafy-greens-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   }
+  ],
+  "uwagi": "Boćwina (chard) w tabelach jako zielone liście."
+ },
+ {
+  "id": "vine-leaves-greens-v10",
+  "processFamilyId": "salt-preservation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pasta solna ze świeżych liści: brak przetestowanego przepisu; nie suszenie.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "vine-leaves-greens-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-031",
+   "SUS-033",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+    "sha12": "e3e1903fe031",
+    "opis": "NCHFP, Herbs (suszenie ziół)"
+   }
+  ],
+  "uwagi": "Liście młodego jęczmienia suszone jak zioła liściaste (NCHFP Herbs: liście, kwiaty, nasiona). Odpowiedniość: ten sam proces dla liści."
+ },
+ {
+  "id": "vine-leaves-greens-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-031",
+   "SUS-033",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+    "sha12": "e3e1903fe031",
+    "opis": "NCHFP, Herbs (suszenie ziół)"
+   }
+  ],
+  "uwagi": "Pokrzywa suszona jak zioło liściaste. Zbiór z dziko rosnących: rozpoznanie i miejsce zbioru poza zakresem źródła."
+ },
+ {
+  "id": "tomato-v16",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022",
+   "SUS-013"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Pomidory obrane, plastry/ćwiartki; CSU: zanurzenie w kwasie cytrynowym, susz „crisp”. MSU: susz pomidorów łatwo chłonie wilgoć."
+ },
+ {
+  "id": "tomato-v17",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-045",
+   "SUS-046"
+  ],
+  "sources": [],
+  "uwagi": "Suszone pomidory w oliwie: suszenie nie gwarantuje bezpieczeństwa w oleju (analogia z czosnkiem/ziołami, UGA); decyduje OLE.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "tomato-v18",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-040"
+  ],
+  "sources": [],
+  "uwagi": "Puder ze skórek pomidorów: brak przepisu; Clemson opisuje proszek pomidorowy z suszu pomidorów, nie ze skórek."
+ },
+ {
+  "id": "green-cherry-tomato-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-017"
+  ],
+  "sources": [],
+  "uwagi": "Półsuszone pomidory nie osiągają stanu kruchego (ok. 10% wilgoci) wymaganego dla warzyw; nie są suszem do spiżarni. Wymagają lodówki/zamrażarki; brak przepisu."
+ },
+ {
+  "id": "bell-pepper-v14",
+  "processFamilyId": "salt-preservation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pasta paprykowa z solą (eros pista): brak przetestowanego przepisu; nie suszenie.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "bell-pepper-v17",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Papryka w paskach; Clemson/MSU bez blanszowania, CSU 4 min."
+ },
+ {
+  "id": "bell-pepper-v18",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Suszenie papryki przetestowane, wędzenie nie; brak przepisu na wędzoną paprykę mieloną."
+ },
+ {
+  "id": "chili-pepper-v15",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Bomba calabrese: pasta warzywna w oleju; nie suszenie.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "chili-pepper-v16",
+  "processFamilyId": "salt-preservation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pasta chili z solą: brak przetestowanego przepisu.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "chili-pepper-v18",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022",
+   "SUS-040"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   }
+  ],
+  "uwagi": "Czerwone chili (CSU: „Chili peppers, red”, blanszowanie 4 min), potem kruszenie na płatki."
+ },
+ {
+  "id": "eggplant-v15",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Bakłażan w plastrach 1/4 cala, blanszowany; MSU: słaby do suszenia (jakość)."
+ },
+ {
+  "id": "potato-sunchoke-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Topinambur (Jerusalem artichoke) jest tylko w tabeli blanszowania do mrożenia, nie w tabelach suszenia."
+ },
+ {
+  "id": "potato-sunchoke-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Ziemniaki obrane, słupki/plastry, blanszowane (CSU 7 min)."
+ },
+ {
+  "id": "potato-sunchoke-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Domowa skrobia ziemniaczana: wyrób spiżarniany, nie suszenie warzywa; brak źródła. Możliwe poza_zakresem."
+ },
+ {
+  "id": "tomatillo-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "none",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Miechunka w czekoladzie to wyrób cukierniczy na bieżąco.",
+  "poza_zakresem": "wyrób cukierniczy (owoc w czekoladzie), nie przetwór utrwalany"
+ },
+ {
+  "id": "tomatillo-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Physalis (złote jagody) nie ma w tabelach suszenia owoców."
+ },
+ {
+  "id": "green-beans-v10",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-045"
+  ],
+  "sources": [],
+  "uwagi": "Fasolka w oliwie z suszonymi pomidorami: ryzyko warzyw w oleju; decyduje OLE.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "green-beans-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Fasolka szparagowa, blanszowanie; Clemson/MSU: opcjonalne mrożenie 30–40 min po blanszowaniu."
+ },
+ {
+  "id": "green-beans-v14",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022",
+   "SUS-003"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   }
+  ],
+  "uwagi": "Jak fasolka szparagowa; tylko suszarka/piekarnik, bo suszenie warzyw na słońcu nie jest zalecane (tradycja chińska bywa słoneczna)."
+ },
+ {
+  "id": "peas-chickpeas-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "none",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Prażona ciecierzyca: przekąska z ugotowanych nasion.",
+  "poza_zakresem": "przekąska prażona/pieczona, nie przetwór"
+ },
+ {
+  "id": "peas-chickpeas-v14",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Groszek łuskany, blanszowany, suszony do twardego, pomarszczonego."
+ },
+ {
+  "id": "peas-chickpeas-v15",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Mąka z ciecierzycy: mielenie suchych nasion.",
+  "poza_zakresem": "mielenie kupnych suchych nasion, nie utrwalanie"
+ },
+ {
+  "id": "beans-soy-v14",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-048",
+   "SUS-006",
+   "SUS-007"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/vine-drying/",
+    "sha12": "577d1c2f6684",
+    "opis": "NCHFP, Vine Drying"
+   }
+  ],
+  "uwagi": "Suszenie strąków fasoli/soi na krzaku (NCHFP Vine Drying, soja wymieniona) + pasteryzacja przeciw owadom."
+ },
+ {
+  "id": "beetroot-v10",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sałatka buraczana w zalewie; nie suszenie.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "beetroot-v11",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Koncentrat barszczu: płyn z buraków zakwaszony; nie suszenie; decyduje ACI/SZY.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "beetroot-v15",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022",
+   "SUS-039"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Buraki ugotowane, obrane, słupki 1/8 cala; Clemson: chipsy z buraka."
+ },
+ {
+  "id": "beetroot-v16",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022",
+   "SUS-040"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   }
+  ],
+  "uwagi": "Proszek z suszu buraków."
+ },
+ {
+  "id": "carrot-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pasta marchewkowo-paprykowa: niskokwasowa pasta w słoikach; brak przepisu; nie suszenie.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "carrot-v15",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Włoszczyzna: marchew, pasternak i seler naciowy mają procedury (CSU/Clemson), por i korzeń pietruszki/selera nie. Mieszanka bez przepisu."
+ },
+ {
+  "id": "garlic-v11",
+  "processFamilyId": "salt-preservation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pasta czosnkowa z solą: brak przetestowanego przepisu; czosnek niskokwasowy.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "garlic-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-042",
+   "SUS-043",
+   "SUS-044"
+  ],
+  "sources": [],
+  "uwagi": "Czarny czosnek: długie przetrzymanie w cieple i wilgoci, nie suszenie; brak przetestowanego przepisu domowego; aw ok. 0,93, więc nie jest suszem do spiżarni. Do ustalenia przechowywanie; ostrożnie lodówka."
+ },
+ {
+  "id": "garlic-v15",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-037",
+   "SUS-001",
+   "SUS-017",
+   "SUS-021"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   }
+  ],
+  "uwagi": "Płatki czosnku: MSU/Clemson podają czosnek (drobno posiekany, bez blanszowania, 6–8 h). Plastry zamiast siekania: odpowiednik."
+ },
+ {
+  "id": "garlic-v16",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-037",
+   "SUS-040",
+   "SUS-017"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   }
+  ],
+  "uwagi": "Granulat = zmielony susz czosnku."
+ },
+ {
+  "id": "onion-v12",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "none",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Cebula prażona (smażona) domowa.",
+  "poza_zakresem": "smażona cebula jako dodatek na bieżąco; jeśli w oleju na zapas, OLE"
+ },
+ {
+  "id": "onion-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Krążki cebuli 1/8–1/4 cala; Clemson/MSU bez blanszowania, CSU 4 min."
+ },
+ {
+  "id": "onion-v14",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022",
+   "SUS-040"
+  ],
+  "sources": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Proszek cebulowy wymieniony przez Clemson jako najczęstszy proszek."
+ },
+ {
+  "id": "shallot-pearl-onion-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Cebulki w glazurze balsamicznej; nie suszenie.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "shallot-pearl-onion-v13",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Prażona szalotka w oleju; nie suszenie.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "shallot-pearl-onion-v14",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Czerwona cebula jak cebula w tabelach."
+ },
+ {
+  "id": "leek-chives-v09",
+  "processFamilyId": "salt-preservation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pasta z pora i czosnku z solą: brak przepisu.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "leek-chives-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pora nie ma w tabelach suszenia (CSU, MSU, Clemson); najbliższa cebula."
+ },
+ {
+  "id": "daikon-black-radish-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-038",
+   "SUS-003"
+  ],
+  "sources": [],
+  "uwagi": "Mumallaengi: brak przepisu; MSU ocenia rzodkiewki jako nienadające się do suszenia (jakość); tradycyjnie suszone na słońcu, czego dla warzyw się nie zaleca."
+ },
+ {
+  "id": "daikon-black-radish-v14",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-038"
+  ],
+  "sources": [],
+  "uwagi": "Chipsy z rzodkwi: brak przepisu; ocena MSU „Not recommended” (jakość)."
+ },
+ {
+  "id": "horseradish-v08",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Chrzan ze śmietaną i jabłkiem: świeży dodatek z nabiałem; krótko w lodówce.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "horseradish-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Chrzan typu wasabi; nie suszenie.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "horseradish-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Tabele podają chrzan tarty, bez blanszowania, do kruchego/proszkowego; plastry zamiast tarcia: dłuższe suszenie."
+ },
+ {
+  "id": "horseradish-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022",
+   "SUS-040"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Tarty chrzan suszony do „Brittle, powdery” (CSU), potem mielenie."
+ },
+ {
+  "id": "celeriac-celery-v09",
+  "processFamilyId": "salt-preservation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pasta warzywna z selerem i solą: brak przepisu.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "celeriac-celery-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Seler naciowy (łodygi, liście) ma procedurę CSU/Clemson; korzenia selera brak w tabelach."
+ },
+ {
+  "id": "celeriac-celery-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-040"
+  ],
+  "sources": [],
+  "uwagi": "Sól selerowa: mieszanka suszu z solą bez przetestowanego przepisu; seler naciowy suszony ma procedurę, proszek selerowy wymienia Clemson."
+ },
+ {
+  "id": "parsnip-parsley-v09",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022",
+   "SUS-039"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   }
+  ],
+  "uwagi": "CSU: „Carrots, parsnips”; Clemson: chipsy z pasternaku."
+ },
+ {
+  "id": "parsnip-parsley-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Natka pietruszki ma procedurę (CSU, MSU, Clemson); korzenia pietruszki brak w tabelach."
+ },
+ {
+  "id": "turnip-rutabaga-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-039",
+   "SUS-001",
+   "SUS-017",
+   "SUS-021"
+  ],
+  "sources": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   }
+  ],
+  "uwagi": "Clemson wymienia chipsy z rzepy; MSU ocenia rzepę i brukiew „Fair to good”, ale bez tabeli czasu. Brukiew bez procedury."
+ },
+ {
+  "id": "asparagus-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-014",
+   "SUS-017",
+   "SUS-021",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Szparagi blanszowane 4–5 min (CSU)."
+ },
+ {
+  "id": "fennel-artichoke-v07",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pasta z karczochów (tapenade); nie suszenie.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "fennel-artichoke-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-031",
+   "SUS-033",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+    "sha12": "e3e1903fe031",
+    "opis": "NCHFP, Herbs (suszenie ziół)"
+   }
+  ],
+  "uwagi": "Nasiona i nać fenkułu jak zioła (NCHFP: liście, kwiaty, nasiona; łuskanie nasion)."
+ },
+ {
+  "id": "corn-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Tabele podają tylko kukurydzę cukrową (blanszowaną); suszenie ziarna kukurydzy pastewnej/zwykłej do nixtamalizacji bez przepisu (pytanie o mykotoksyny)."
+ },
+ {
+  "id": "olives-v08",
+  "processFamilyId": "salt-preservation",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Oliwki suszone w soli na sucho: przepis UC ANR 8267 niedostępny (403); nie suszenie w suszarce.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "olives-v14",
+  "processFamilyId": "salt-preservation",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Suszone oliwki: jak wyżej; brak przeczytanego przepisu.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "capers-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kapary solone i suszone: brak przepisu."
+ },
+ {
+  "id": "ginger-turmeric-v15",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Imbiru i kurkumy brak w tabelach suszenia."
+ },
+ {
+  "id": "european-mixed-veg-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Baza warzywna do ryby po grecku w słoikach (niskokwasowa); nie suszenie.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "european-mixed-veg-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Domowa „vegeta”: mieszanka warzyw z solą (zwykle suszona razem) bez przetestowanego przepisu."
+ },
+ {
+  "id": "european-mixed-veg-v14",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Susz warzywny do bulionu: mieszanka; część składników ma procedury, nie wszystkie (por, korzeń selera)."
+ },
+ {
+  "id": "balkan-oriental-mix-v08",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Malidzano: pasta z pieczonej papryki i bakłażana; nie suszenie.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "balkan-oriental-mix-v09",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kyopolou: pasta warzywna; nie suszenie.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "balkan-oriental-mix-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Szarena sól: suszone zioła z solą i papryką; mieszanka bez przepisu (suszenie ziół ma procedurę NCHFP)."
+ },
+ {
+  "id": "asian-american-mix-v08",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Achar w oleju gorczycowym; nie suszenie (FER/OLE).",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "apple-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Jabłka prażone na szarlotkę w słoikach; nie suszenie.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "apple-v17",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022",
+   "SUS-012"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "sha12": "ac1029a3ba09",
+    "opis": "Clemson HGIC 3084 Drying Fruits (2024)"
+   }
+  ],
+  "uwagi": "Krążki 1/8–1/4 cala, zanurzenie w kwasie askorbinowym 10 min (CSU)."
+ },
+ {
+  "id": "apple-v18",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-027",
+   "SUS-028",
+   "SUS-022",
+   "SUS-026"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/fruit-leathers/",
+    "sha12": "b28118148d2c",
+    "opis": "NCHFP, Fruit Leathers"
+   }
+  ],
+  "uwagi": "Przepis NCHFP na skórę owocową; mus jabłkowy wymieniony wprost."
+ },
+ {
+  "id": "pear-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "sha12": "ac1029a3ba09",
+    "opis": "Clemson HGIC 3084 Drying Fruits (2024)"
+   }
+  ],
+  "uwagi": "Gruszki połówki/plastry, zanurzenie w kwasie; susz na kompot = zwykły susz gruszek."
+ },
+ {
+  "id": "pear-v14",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Suszenie gruszek przetestowane, wędzenie nie (pytanie o WWA)."
+ },
+ {
+  "id": "quince-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pigwowca (Chaenomeles) brak w tabelach suszenia."
+ },
+ {
+  "id": "plum-v16",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-027",
+   "SUS-028",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/fruit-leathers/",
+    "sha12": "b28118148d2c",
+    "opis": "NCHFP, Fruit Leathers"
+   }
+  ],
+  "uwagi": "Tklapi = skóra z przecieru śliwkowego (odpowiednik skóry owocowej NCHFP; NCHFP podaje 1–2 dni na słońcu). Kwaśny przecier bez cukru: przechowywanie jak skóra."
+ },
+ {
+  "id": "plum-v17",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022",
+   "SUS-015"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "sha12": "ac1029a3ba09",
+    "opis": "Clemson HGIC 3084 Drying Fruits (2024)"
+   }
+  ],
+  "uwagi": "Śliwki całe: nacięcie skórki wrzątkiem; połówki: kwas."
+ },
+ {
+  "id": "plum-v18",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Śliwki wędzone (suska sechlońska): suszenie śliwek przetestowane, wędzenie nie (pytanie o WWA)."
+ },
+ {
+  "id": "mirabelle-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sos słodko-kwaśny; nie suszenie.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "mirabelle-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-027",
+   "SUS-028",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/fruit-leathers/",
+    "sha12": "b28118148d2c",
+    "opis": "NCHFP, Fruit Leathers"
+   }
+  ],
+  "uwagi": "Tklapi z ałyczy = skóra owocowa."
+ },
+ {
+  "id": "mirabelle-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022",
+   "SUS-015"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "sha12": "ac1029a3ba09",
+    "opis": "Clemson HGIC 3084 Drying Fruits (2024)"
+   }
+  ],
+  "uwagi": "Mirabelka jako mała śliwka (CSU: „Plums and prunes”, nacinanie skórki)."
+ },
+ {
+  "id": "sour-cherry-v14",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sos wiśniowy; nie suszenie.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "sour-cherry-v15",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022",
+   "SUS-015"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "sha12": "ac1029a3ba09",
+    "opis": "Clemson HGIC 3084 Drying Fruits (2024)"
+   }
+  ],
+  "uwagi": "Wiśnie: Clemson podaje osobno wiśnie kwaśne; nacinanie skórki."
+ },
+ {
+  "id": "sweet-cherry-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022",
+   "SUS-015"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "sha12": "ac1029a3ba09",
+    "opis": "Clemson HGIC 3084 Drying Fruits (2024)"
+   }
+  ],
+  "uwagi": "Czereśnie: wypestkowane, nacięcie skórki wrzątkiem 30 s."
+ },
+ {
+  "id": "peach-nectarine-v14",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022",
+   "SUS-013"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "sha12": "ac1029a3ba09",
+    "opis": "Clemson HGIC 3084 Drying Fruits (2024)"
+   }
+  ],
+  "uwagi": "Brzoskwinie/nektaryny obrane, plastry, kwas cytrynowy 10 min."
+ },
+ {
+  "id": "apricot-v09",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-027",
+   "SUS-028",
+   "SUS-022",
+   "SUS-026"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/fruit-leathers/",
+    "sha12": "b28118148d2c",
+    "opis": "NCHFP, Fruit Leathers"
+   }
+  ],
+  "uwagi": "Qamar al-din = skóra z przecieru morelowego (zwykle z cukrem); odpowiednik skóry owocowej NCHFP."
+ },
+ {
+  "id": "apricot-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022",
+   "SUS-012"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "sha12": "ac1029a3ba09",
+    "opis": "Clemson HGIC 3084 Drying Fruits (2024)"
+   }
+  ],
+  "uwagi": "Morele połówki, nieobrane, kwas askorbinowy 10 min."
+ },
+ {
+  "id": "apricot-v14",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Morele glazurowane (kandyzowane); Clemson opisuje blanszowanie w syropie przed suszeniem, ale to wyrób cukierniczy, decyduje SLO.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "cornelian-cherry-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Derenia brak w tabelach suszenia."
+ },
+ {
+  "id": "strawberry-v15",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Owoce w żelu; nie suszenie.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "strawberry-v16",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "sha12": "ac1029a3ba09",
+    "opis": "Clemson HGIC 3084 Drying Fruits (2024)"
+   }
+  ],
+  "uwagi": "Truskawki: jagody miękkie, kwas askorbinowy (CSU)."
+ },
+ {
+  "id": "raspberry-blackberry-v13",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sos malinowo-chili; nie suszenie.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "raspberry-blackberry-v15",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022",
+   "SUS-031",
+   "SUS-033",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "sha12": "ac1029a3ba09",
+    "opis": "Clemson HGIC 3084 Drying Fruits (2024)"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+    "sha12": "e3e1903fe031",
+    "opis": "NCHFP, Herbs (suszenie ziół)"
+   }
+  ],
+  "uwagi": "Maliny jako jagody miękkie (CSU/Clemson); liście jak zioła (NCHFP)."
+ },
+ {
+  "id": "currant-v05",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-031",
+   "SUS-033",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+    "sha12": "e3e1903fe031",
+    "opis": "NCHFP, Herbs (suszenie ziół)"
+   }
+  ],
+  "uwagi": "Część „suszone”: liście jak zioła (NCHFP). Część „kiszone” należy do FER.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "currant-v14",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022",
+   "SUS-015"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "sha12": "ac1029a3ba09",
+    "opis": "Clemson HGIC 3084 Drying Fruits (2024)"
+   }
+  ],
+  "uwagi": "CSU: „Grapes and Black Currants”; nacinanie skórki."
+ },
+ {
+  "id": "blueberry-bilberry-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022",
+   "SUS-015"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "sha12": "ac1029a3ba09",
+    "opis": "Clemson HGIC 3084 Drying Fruits (2024)"
+   }
+  ],
+  "uwagi": "Clemson: borówki (blueberries) jako jagody twarde, nacinanie wrzątkiem 15–30 s; jagoda czarna (bilberry) jako odpowiednik."
+ },
+ {
+  "id": "cranberry-lingonberry-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Borówka brusznica z gruszką; nie suszenie.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "cranberry-lingonberry-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022",
+   "SUS-015"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "sha12": "ac1029a3ba09",
+    "opis": "Clemson HGIC 3084 Drying Fruits (2024)"
+   }
+  ],
+  "uwagi": "Żurawina: Clemson wymienia ją wśród jagód twardych (nacinanie skórki). Słodzenie sokiem jabłkowym (infuzja) nie jest w przepisie; ocena dotyczy suszenia."
+ },
+ {
+  "id": "chokeberry-seabuckthorn-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022",
+   "SUS-015"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   }
+  ],
+  "uwagi": "Aronia jako jagoda twarda (ogólna kategoria „Berries” CSU); brak osobnej pozycji."
+ },
+ {
+  "id": "chokeberry-seabuckthorn-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   }
+  ],
+  "uwagi": "Rokitnik w ogólnej kategorii „Berries” CSU; brak osobnej pozycji."
+ },
+ {
+  "id": "elderberry-elderflower-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-031",
+   "SUS-033",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+    "sha12": "e3e1903fe031",
+    "opis": "NCHFP, Herbs (suszenie ziół)"
+   }
+  ],
+  "uwagi": "Kwiaty bzu suszone jak zioła (NCHFP: kwiaty)."
+ },
+ {
+  "id": "elderberry-elderflower-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-041",
+   "SUS-001",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.oregonstate.edu/catalog/pub/em-9446-play-it-safe-when-preserving-elderberries",
+    "sha12": "0528262f69a5",
+    "opis": "Oregon State Univ. Extension EM 9446 (2024), elderberries"
+   }
+  ],
+  "uwagi": "OSU: owoce bzu można suszyć na surowo, ale przed spożyciem zawsze gotować (cyjanogenne glikozydy). Karta musi to podać."
+ },
+ {
+  "id": "rosehip-rowan-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Dzikiej róży brak w tabelach suszenia."
+ },
+ {
+  "id": "rosehip-rowan-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Głogu i jarzębiny brak w tabelach; pytanie o kwas parasorbowy w surowej jarzębinie."
+ },
+ {
+  "id": "grapes-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022",
+   "SUS-015",
+   "SUS-004",
+   "SUS-006"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "sha12": "ac1029a3ba09",
+    "opis": "Clemson HGIC 3084 Drying Fruits (2024)"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/sun-drying/",
+    "sha12": "f5451a425618",
+    "opis": "NCHFP, Sun Drying"
+   }
+  ],
+  "uwagi": "Rodzynki: winogrona bezpestkowe, nacięcie skórki; NCHFP opisuje rodzynki suszone na słońcu (warunki: min. 85°F, wilgotność <60%, pasteryzacja)."
+ },
+ {
+  "id": "rhubarb-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kandyzowane czipsy z rabarbaru; brak rabarbaru w tabelach suszenia; decyduje SLO.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "lemon-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sól cytrynowa: mieszanka skórki z solą bez przepisu; suszenie skórki cytrusów ma procedurę CSU."
+ },
+ {
+  "id": "lemon-v15",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "CSU podaje tylko suszenie skórki cytrusów (bez białej części); całych plastrów cytrusów brak w tabelach."
+ },
+ {
+  "id": "lime-bergamot-v02",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Loomi (limonki gotowane w solance i suszone): brak przepisu szczebla 1–3."
+ },
+ {
+  "id": "orange-kumquat-v13",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pasta pomarańczowa do wypieków; nie suszenie.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "orange-kumquat-v14",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Plastrów pomarańczy brak w tabelach (jest tylko skórka, CSU)."
+ },
+ {
+  "id": "grapefruit-v09",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Plastrów grejpfruta brak w tabelach (jest tylko skórka cytrusów, CSU)."
+ },
+ {
+  "id": "mango-papaya-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-030",
+   "SUS-028",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/mango-leather/",
+    "sha12": "8e88a08479ac",
+    "opis": "NCHFP, Mango Leather (przepis UGA/NCHFP)"
+   }
+  ],
+  "uwagi": "Aam papad = skóra z mango; przepis NCHFP Mango Leather (140°F, ok. 10 h). Tradycyjne suszenie na słońcu poza przepisem."
+ },
+ {
+  "id": "mango-papaya-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Paski mango: brak w tabelach suszenia owoców (NCHFP ma tylko skórę z mango)."
+ },
+ {
+  "id": "pineapple-banana-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "sha12": "ac1029a3ba09",
+    "opis": "Clemson HGIC 3084 Drying Fruits (2024)"
+   },
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   }
+  ],
+  "uwagi": "Ananas: Clemson (plastry 1/2 cala, bez obróbki); banany: CSU (kwas cytrynowy) i Clemson."
+ },
+ {
+  "id": "fig-pomegranate-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pasta daktylowa z kardamonem; nie suszenie.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "fig-pomegranate-v10",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-045"
+  ],
+  "sources": [],
+  "uwagi": "Suszone figi w oliwie z ziołami: zioła i susz w oleju; decyduje OLE.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "watermelon-melon-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-001",
+   "SUS-011",
+   "SUS-016",
+   "SUS-018",
+   "SUS-020",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "sha12": "a05dfedababc",
+    "opis": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025)"
+   }
+  ],
+  "uwagi": "Melon w plastrach 1/4–1/2 cala, kwas askorbinowy; CSU: kantalupa suszy się lepiej niż arbuz."
+ },
+ {
+  "id": "walnut-nuts-v09",
+  "processFamilyId": "drying",
+  "preservationMethod": "none",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Solone migdały prażone: prażenie kupnych suchych orzechów.",
+  "poza_zakresem": "prażenie orzechów to krok kulinarny, nie utrwalanie"
+ },
+ {
+  "id": "boletes-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-035",
+   "SUS-036",
+   "SUS-017",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Grzyby w plastrach wg tabel; grzyby dzikie: identyfikacja przez eksperta, toksyn nie niszczy suszenie ani gotowanie."
+ },
+ {
+  "id": "boletes-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-035",
+   "SUS-036",
+   "SUS-017",
+   "SUS-022",
+   "SUS-040"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Puder = zmielony susz grzybów; jak wyżej."
+ },
+ {
+  "id": "boletes-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-035"
+  ],
+  "sources": [],
+  "uwagi": "Sól borowikowa: mieszanka suszu z solą bez przepisu; ostrzeżenie o identyfikacji grzybów obowiązuje."
+ },
+ {
+  "id": "chanterelle-milkcap-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-035",
+   "SUS-036",
+   "SUS-017",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Kurki suszone wg ogólnej procedury grzybów (jakość: twardnieją); identyfikacja przez eksperta."
+ },
+ {
+  "id": "wild-mushrooms-v09",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-035",
+   "SUS-036",
+   "SUS-017",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Kania: procedura ogólna dla grzybów; ryzyko pomylenia z muchomorem jest krytyczne (toksyn nie niszczy suszenie). Karta musi to wyeksponować."
+ },
+ {
+  "id": "wild-mushrooms-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-035"
+  ],
+  "sources": [],
+  "uwagi": "Proszek z trzonów kani i opieniek: brak źródła o bezpieczeństwie opieniek suszonych bez obróbki cieplnej; ostrzeżenie o identyfikacji."
+ },
+ {
+  "id": "cultivated-mushrooms-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Boczniaki po kaszubsku: danie/przetwór w słoikach; nie suszenie.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "cultivated-mushrooms-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-036",
+   "SUS-017",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "sha12": "1ce950ceecb5",
+    "opis": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed)"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "sha12": "124e1e8232d2",
+    "opis": "Clemson HGIC 3085 Drying Vegetables (2024)"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "sha12": "08d93d22a962",
+    "opis": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017)"
+   }
+  ],
+  "uwagi": "Shiitake z uprawy: procedura ogólna dla grzybów."
+ },
+ {
+  "id": "wild-garlic-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-031"
+  ],
+  "sources": [],
+  "uwagi": "Liście czosnku niedźwiedziego można suszyć jak zioła (NCHFP), ale „sól zielona” (świeże liście z solą) nie ma przepisu. Ryzyko pomylenia z konwalią/zimowitem: do ustalenia."
+ },
+ {
+  "id": "garden-herbs-v14",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-031",
+   "SUS-033",
+   "SUS-022",
+   "SUS-032"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+    "sha12": "e3e1903fe031",
+    "opis": "NCHFP, Herbs (suszenie ziół)"
+   }
+  ],
+  "uwagi": "Bukiety ziół twardolistnych suszone w pęczkach (NCHFP: rozmaryn, szałwia, tymianek, cząber, pietruszka)."
+ },
+ {
+  "id": "foraged-blossoms-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SUS-031",
+   "SUS-033",
+   "SUS-022"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+    "sha12": "e3e1903fe031",
+    "opis": "NCHFP, Herbs (suszenie ziół)"
+   }
+  ],
+  "uwagi": "Kwiat lipy i rumianku suszony jak zioła (NCHFP: kwiaty). Identyfikacja roślin dzikich poza zakresem źródła."
+ },
+ {
+  "id": "koji-ferments-v14",
+  "processFamilyId": "koji-soy-ferments",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Suszone koji: decyduje NAP.",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "yogurt-skyr-v11",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kashk: suszony nabiał.",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "quark-acid-cheese-v12",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kurt: suszony twaróg.",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "fresh-brined-cheese-v01",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Ser koryciński: ser świeży; suszone pomidory to tylko dodatek.",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "butter-whey-cheese-v08",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Ricotta salata: ser solony i suszony.",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "pork-loin-ham-v10",
+  "processFamilyId": "meat-curing-smoking",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "polędwiczka suszona: mięso peklowane/suszone; decyduje MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "pork-loin-ham-v11",
+  "processFamilyId": "meat-curing-smoking",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "szynka dojrzewająca: mięso peklowane/suszone; decyduje MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "smoked-cooked-sausages-v02",
+  "processFamilyId": "meat-curing-smoking",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "kiełbasa krakowska sucha: mięso peklowane/suszone; decyduje MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "dry-cured-sausages-v12",
+  "processFamilyId": "meat-curing-smoking",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "kabanosy: mięso peklowane/suszone; decyduje MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "beef-veal-v08",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-047"
+  ],
+  "sources": [],
+  "uwagi": "beef jerky: NCHFP ma stronę Jerky (160°F wewnątrz mięsa); dziczyzna: pytanie o włośnie. Decyduje MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "beef-veal-v09",
+  "processFamilyId": "meat-curing-smoking",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-047"
+  ],
+  "sources": [],
+  "uwagi": "Biltong: suszenie na powietrzu bez podgrzania do 160°F; decyduje MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "poultry-v14",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-047"
+  ],
+  "sources": [],
+  "uwagi": "jerky z indyka: NCHFP ma stronę Jerky (160°F wewnątrz mięsa); dziczyzna: pytanie o włośnie. Decyduje MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "game-lamb-v04",
+  "processFamilyId": "meat-curing-smoking",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "fenalår: mięso peklowane/suszone; decyduje MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "game-lamb-v09",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SUS-047"
+  ],
+  "sources": [],
+  "uwagi": "jerky z jelenia: NCHFP ma stronę Jerky (160°F wewnątrz mięsa); dziczyzna: pytanie o włośnie. Decyduje MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "freshwater-fish-v11",
+  "processFamilyId": "fish-curing-smoking",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Wobła/taran: ryba solona i suszona; decyduje MIE (pasożyty, jad kiełbasiany).",
+  "inny_klaster": "MIE"
+ }
+]

@@ -1,0 +1,1985 @@
+[
+ {
+  "id": "MIE-001",
+  "twierdzenie": "USA: azotyny, azotany lub ich połączenie nie mogą dać więcej niż 200 ppm azotynu (liczonego jako azotyn sodu) w produkcie gotowym; boczek ma osobne zasady.",
+  "zrodla": [
+   {
+    "adres": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-9?part=424&section=424.21",
+    "miejsce": "9 CFR 424.21(c), tabela, Curing Agents",
+    "cytat": "The use of nitrites, nitrates or combination shall not result in more than 200 ppm of nitrite, calculated as sodium nitrite in finished product",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "df2249fa624b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "azotyn_w_produkcie_gotowym_USA",
+  "wartosc": 200,
+  "jednostka": "ppm",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-002",
+  "twierdzenie": "USA: limit azotynu sodu (lub potasu) przy peklowaniu na sucho: 1 uncja na 100 funtów mięsa; w solance 2 funty na 100 galonów przy nastrzyku 10%; w mięsie rozdrobnionym 1/4 uncji na 100 funtów.",
+  "zrodla": [
+   {
+    "adres": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-9?part=424&section=424.21",
+    "miejsce": "9 CFR 424.21(c), tabela, Curing Agents",
+    "cytat": "1 oz to 100 lb meat or poultry product (dry cure)",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "df2249fa624b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "azotyn_sodu_peklowanie_na_sucho_USA",
+  "wartosc": 1,
+  "jednostka": "oz/100 lb",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-003",
+  "twierdzenie": "USA: limit azotanu sodu lub potasu przy peklowaniu na sucho: 3 1/2 uncji na 100 funtów; azotanów nie wolno stosować w boczku.",
+  "zrodla": [
+   {
+    "adres": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-9?part=424&section=424.21",
+    "miejsce": "9 CFR 424.21(c), tabela, Curing Agents",
+    "cytat": "3 1 ⁄ 2 oz to 100 lb meat or poultry product (dry cure)",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "df2249fa624b"
+   },
+   {
+    "adres": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-9?part=424&section=424.21",
+    "miejsce": "9 CFR 424.21(c), tabela, Curing Agents",
+    "cytat": "Cured meat products other than bacon. Nitrates may not be used in baby, junior, and toddler foods.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "df2249fa624b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "azotan_peklowanie_na_sucho_USA",
+  "wartosc": 3.5,
+  "jednostka": "oz/100 lb",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-004",
+  "twierdzenie": "USA: boczek nastrzykiwany: azotyn sodu 120 ppm dodanego (ingoing) oraz 550 ppm askorbinianu lub erytorbinianu sodu.",
+  "zrodla": [
+   {
+    "adres": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-9?part=424&section=424.22",
+    "miejsce": "9 CFR 424.22(b) bacon",
+    "cytat": "sodium nitrite shall be used at 120 parts per million (ppm) ingoing",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "44cd76cb27a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "azotyn_boczek_nastrzyk_USA",
+  "wartosc": 120,
+  "jednostka": "ppm",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-005",
+  "twierdzenie": "USA: boczek peklowany na sucho: azotyn sodu nie więcej niż 200 ppm dodanego (potasu 246 ppm).",
+  "zrodla": [
+   {
+    "adres": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-9?part=424&section=424.22",
+    "miejsce": "9 CFR 424.22(b) bacon",
+    "cytat": "Sodium nitrite shall not exceed 200 ppm ingoing or an equivalent amount of potassium nitrite (246 ppm ingoing) in dry cured bacon",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "44cd76cb27a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "azotyn_boczek_na_sucho_USA",
+  "wartosc": 200,
+  "jednostka": "ppm",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-006",
+  "twierdzenie": "UE: produkty mięsne niepoddane obróbce cieplnej (kat. 08.3.1): od 9 października 2025 maksymalna dodana ilość azotynów E 249–250 to 80 mg/kg (jako jon NO2); wcześniej 150 mg/kg.",
+  "zrodla": [
+   {
+    "adres": "http://publications.europa.eu/resource/cellar/e8600120-6640-11ee-9220-01aa75ed71a1.0006.03/DOC_1",
+    "miejsce": "Rozporządzenie (UE) 2023/2108, załącznik I, kat. 08.3.1/08.3.2 (zmiana zał. II rozp. 1333/2008)",
+    "cytat": "E 249–250 Nitrites 80 (XC) (XD) Period of application: from 9 October 2025",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "75cc02be2014"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "azotyny_dodane_UE_08.3.1",
+  "wartosc": 80,
+  "jednostka": "mg/kg NO2",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-007",
+  "twierdzenie": "UE: maksymalna pozostałość azotynów ze wszystkich źródeł w gotowym produkcie (kat. 08.3.1 i 08.3.2 poza sterylizowanymi) przez cały okres przydatności: 45 mg/kg jako jon NO2.",
+  "zrodla": [
+   {
+    "adres": "http://publications.europa.eu/resource/cellar/e8600120-6640-11ee-9220-01aa75ed71a1.0006.03/DOC_1",
+    "miejsce": "Rozporządzenie (UE) 2023/2108, załącznik I, kat. 08.3.1/08.3.2 (zmiana zał. II rozp. 1333/2008)",
+    "cytat": "The maximum residual amount from all sources for the product ready for marketing throughout the shelf-life of the product shall not exceed 45 mg/kg expressed as NO 2 ion.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "75cc02be2014"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "azotyny_pozostalosc_UE",
+  "wartosc": 45,
+  "jednostka": "mg/kg NO2",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-008",
+  "twierdzenie": "UE: produkty mięsne poddane obróbce cieplnej, niesterylizowane (kat. 08.3.2): od 9 października 2025 maksymalnie 80 mg/kg dodanych azotynów (jako NO2); sterylizowane (Fo > 3,00): 55 mg/kg.",
+  "zrodla": [
+   {
+    "adres": "http://publications.europa.eu/resource/cellar/e8600120-6640-11ee-9220-01aa75ed71a1.0006.03/DOC_1",
+    "miejsce": "Rozporządzenie (UE) 2023/2108, załącznik I, kat. 08.3.1/08.3.2 (zmiana zał. II rozp. 1333/2008)",
+    "cytat": "E 249–250 Nitrites 80 (59) (XC) (XD) except sterilised meat products (Fo > 3,00) Period of application: from 9 October 2025",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "75cc02be2014"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "azotyny_dodane_UE_08.3.2",
+  "wartosc": 80,
+  "jednostka": "mg/kg NO2",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-009",
+  "twierdzenie": "UE: produkty mięsne niepoddane obróbce cieplnej (kat. 08.3.1): od 9 października 2025 maksymalna dodana ilość azotanów E 251–252 to 90 mg/kg (jako jon NO3); 110 mg/kg tylko dla dużych elementów boczku i kiełbas surowych dojrzewających bez dodatku azotynów.",
+  "zrodla": [
+   {
+    "adres": "http://publications.europa.eu/resource/cellar/e8600120-6640-11ee-9220-01aa75ed71a1.0006.03/DOC_1",
+    "miejsce": "Rozporządzenie (UE) 2023/2108, załącznik I, kat. 08.3.1/08.3.2 (zmiana zał. II rozp. 1333/2008)",
+    "cytat": "E 251–252 Nitrates 90 (XA) (XE) Period of application: from 9 October 2025",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "75cc02be2014"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "azotany_dodane_UE_08.3.1",
+  "wartosc": 90,
+  "jednostka": "mg/kg NO3",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-010",
+  "twierdzenie": "UE: azotyn oznaczony „do żywności” może być sprzedawany wyłącznie w mieszaninie z solą lub substytutem soli (stąd sól peklowa).",
+  "zrodla": [
+   {
+    "adres": "http://publications.europa.eu/resource/cellar/d825de4c-0061-429c-8e72-60b800cf41b3.0001.03/DOC_1",
+    "miejsce": "Rozporządzenie (UE) 1129/2011 (zał. II rozp. 1333/2008), część A, pkt 7",
+    "cytat": "nitrite may be sold only in a mixture with salt or a salt substitute",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d8d83cffb4cd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-011",
+  "twierdzenie": "Za dużo azotanu lub azotynu może być toksyczne dla człowieka; nigdy nie dodawać więcej niż podaje przepis.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making",
+    "cytat": "Extreme caution must be exercised in adding nitrate or nitrite to meat, since too much of either of",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0bd59ab355e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-012",
+  "twierdzenie": "Zalecana jest gotowa mieszanka peklująca (rozcieńczona solą) zamiast odważania czystego azotynu lub azotanu, by ograniczyć ryzyko poważnego błędu.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making",
+    "cytat": "Since these small quantities are difficult to weigh on most available scales, it is strongly recommended",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0bd59ab355e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-013",
+  "twierdzenie": "Przepis Virginia Tech na szynkę peklowaną na sucho podaje 2 uncje saletry LUB azotynu sodu na 100 funtów mięsa (wraz z 8 funtami soli i 2 funtami cukru).",
+  "zrodla": [
+   {
+    "adres": "https://vtechworks.lib.vt.edu/server/api/core/bitstreams/f875ee1c-c353-4c0a-a5c6-76e7761de62b/content",
+    "miejsce": "Virginia Cooperative Extension 458-223 Dry Curing Virginia-Style Ham",
+    "cytat": "2 ounces saltpeter or sodium nitrite (available at",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "83bfec17ebbf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Dla azotynu sodu to dwukrotność limitu USA dla peklowania na sucho (MIE-002: 1 oz/100 lb); dla saletry mieści się w limicie (MIE-003). Nie przenosić tej ilości azotynu.",
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-014",
+  "twierdzenie": "Szynki w stylu Virginia podczas peklowania należy trzymać w temperaturze 36–40°F (ok. 2–4°C).",
+  "zrodla": [
+   {
+    "adres": "https://vtechworks.lib.vt.edu/server/api/core/bitstreams/f875ee1c-c353-4c0a-a5c6-76e7761de62b/content",
+    "miejsce": "Virginia Cooperative Extension 458-223 Dry Curing Virginia-Style Ham",
+    "cytat": "keep hams at a temperature of 36 to 40° F",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "83bfec17ebbf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura_peklowania_szynki",
+  "wartosc": 40,
+  "jednostka": "°F"
+ },
+ {
+  "id": "MIE-015",
+  "twierdzenie": "Szynki w stylu Virginia peklować 7 dni na cal grubości „poduszki” albo 1,5 dnia na funt szynki.",
+  "zrodla": [
+   {
+    "adres": "https://vtechworks.lib.vt.edu/server/api/core/bitstreams/f875ee1c-c353-4c0a-a5c6-76e7761de62b/content",
+    "miejsce": "Virginia Cooperative Extension 458-223 Dry Curing Virginia-Style Ham",
+    "cytat": "Virginia-style hams should be cured for seven days per",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "83bfec17ebbf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-016",
+  "twierdzenie": "Country ham może być przechowywana bez chłodzenia, bo straciła co najmniej 18% masy surowej i zawiera co najmniej 4% soli.",
+  "zrodla": [
+   {
+    "adres": "https://publications.mgcafe.uky.edu/files/ASC213.pdf",
+    "miejsce": "Univ. of Kentucky ASC-213 How to Make a Country Ham",
+    "cytat": "Country hams must have lost at least 18 percent of their green",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "4791a2af1b99"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "ubytek_masy_szynki_dojrzewajacej",
+  "wartosc": 18,
+  "jednostka": "%"
+ },
+ {
+  "id": "MIE-017",
+  "twierdzenie": "Szynki peklowanej w domu (bez inspekcji) nie wolno sprzedawać (USA).",
+  "zrodla": [
+   {
+    "adres": "https://vtechworks.lib.vt.edu/server/api/core/bitstreams/f875ee1c-c353-4c0a-a5c6-76e7761de62b/content",
+    "miejsce": "Virginia Cooperative Extension 458-223 Dry Curing Virginia-Style Ham",
+    "cytat": "It is against the law to sell uninspected home-cured hams either commercially or privately.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "83bfec17ebbf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-018",
+  "twierdzenie": "Pieczoną szynkę dojrzewającą (Virginia) gotuje się do temperatury wewnętrznej 155°F w najgrubszym miejscu.",
+  "zrodla": [
+   {
+    "adres": "https://vtechworks.lib.vt.edu/server/api/core/bitstreams/f875ee1c-c353-4c0a-a5c6-76e7761de62b/content",
+    "miejsce": "Virginia Cooperative Extension 458-223 Dry Curing Virginia-Style Ham",
+    "cytat": "perature of 155° F, as indicated by a meat thermometer",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "83bfec17ebbf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura_wewnetrzna_szynki",
+  "wartosc": 155,
+  "jednostka": "°F"
+ },
+ {
+  "id": "MIE-019",
+  "twierdzenie": "Boczek peklowany i wędzony w domu metodą MU Extension jest nietrwały: trzymać w zamrażarce lub lodówce do spożycia.",
+  "zrodla": [
+   {
+    "adres": "https://extension.missouri.edu/publications/g2528",
+    "miejsce": "MU Extension G2528 Home Curing Bacon for a Mild Flavor",
+    "cytat": "Bacon cured and smoked in this fashion is perishable and needs to be frozen or stored in a refrigerator until eaten.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9f23f1180d85"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-020",
+  "twierdzenie": "MU Extension: boczek peklować na sucho 7 dni, potem osuszyć i wędzić 36–48 godzin.",
+  "zrodla": [
+   {
+    "adres": "https://extension.missouri.edu/publications/g2528",
+    "miejsce": "MU Extension G2528 Home Curing Bacon for a Mild Flavor",
+    "cytat": "allow to cure 7 days",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9f23f1180d85"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-021",
+  "twierdzenie": "Wyroby z mięsa mielonego gotować do temperatury wewnętrznej 160°F (wieprzowina, wołowina) i 165°F (drób).",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making",
+    "cytat": "(160 °F for ground beef or pork sausage and to 165 °F for ground",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0bd59ab355e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura_wewnetrzna_kielbasy",
+  "wartosc": 160,
+  "jednostka": "°F"
+ },
+ {
+  "id": "MIE-022",
+  "twierdzenie": "Kiełbasy surowe wędzone wędzi się dla smaku i MUSZĄ zostać w pełni ugotowane przed jedzeniem; przechowywać w lodówce lub zamrażarce.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making",
+    "cytat": "in casings, and smoked. These sausages are smoked for flavor development; they MUST be fully cooked",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0bd59ab355e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-023",
+  "twierdzenie": "Kiełbasa jest trwała bez chłodzenia (shelf stable) dopiero przy aw poniżej 0,85 i pH poniżej 5,3.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making",
+    "cytat": "Sausage products must have an aw below 0.85 and a pH under 5.3 to be shelf stable",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0bd59ab355e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "aw_kielbasy_trwalej",
+  "wartosc": 0.85,
+  "jednostka": "aw"
+ },
+ {
+  "id": "MIE-024",
+  "twierdzenie": "E. coli O157:H7 w kiełbasach surowych dojrzewających ogranicza się ścisłą kontrolą fermentacji i kwasowości oraz podgrzaniem po fermentacji do 145°F lub wyżej.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making",
+    "cytat": "heating process and the acid content and via post-fermentation heating to 145 °F or above.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0bd59ab355e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "podgrzanie_po_fermentacji",
+  "wartosc": 145,
+  "jednostka": "°F"
+ },
+ {
+  "id": "MIE-025",
+  "twierdzenie": "Bez skutecznej kultury starterowej temperatury fermentacji (80–100°F) stwarzają ryzyko mikrobiologiczne, bo pozwalają rosnąć groźnym bakteriom.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making",
+    "cytat": "temperatures can pose a microbiological safety risk by allowing dangerous bacteria to grow in the meat",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0bd59ab355e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-026",
+  "twierdzenie": "Temperatura 144°F jest uznawana za zabójczą dla wszystkich włośni (Trichinella).",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making",
+    "cytat": "144 °F is considered fatal to all trichinae organisms",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0bd59ab355e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura_zabijajaca_wlosnie",
+  "wartosc": 144,
+  "jednostka": "°F"
+ },
+ {
+  "id": "MIE-027",
+  "twierdzenie": "W kiełbasach surowych dojrzewających kontrola Salmonella wymaga połączenia kultury starterowej, temperatury fermentacji oraz kontroli pH, peklosoli i soli.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making",
+    "cytat": "In dry sausages, the producer must follow a combination of processes to control",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0bd59ab355e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-028",
+  "twierdzenie": "Kiełbasa świeża (surowa) wytrzymuje 7–10 dni w lodówce (35–40°F); zamrożona 4–6 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making",
+    "cytat": "highly perishable and will only last seven to 10 days under refrigeration (35 to 40 °F)",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0bd59ab355e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "lodowka_kielbasa_swieza",
+  "wartosc": 10,
+  "jednostka": "dni"
+ },
+ {
+  "id": "MIE-029",
+  "twierdzenie": "Kiełbasy wędzone z solą i azotynem, ugotowane, wytrzymują 2–4 tygodnie w lodówce.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making",
+    "cytat": "zip bags. Smoked sausages that contain salt and nitrite and have been cooked, may last from two to",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0bd59ab355e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "lodowka_kielbasa_wedzona_parzona",
+  "wartosc": 4,
+  "jednostka": "tygodnie"
+ },
+ {
+  "id": "MIE-030",
+  "twierdzenie": "USA: FSIS wymaga, by każda wieprzowina była poddana obróbce niszczącej włośnie (ogrzewanie, chłodzenie, zamrażanie lub peklowanie).",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making",
+    "cytat": "USDA FSIS requires that all pork be treated to destroy the parasite via heating,",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0bd59ab355e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przepis FSIS cytowany przez extension (FSIS niedostępny dla UA).",
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-031",
+  "twierdzenie": "Przepis UGA na kiełbasę polską: wędzenie 2 h w 90–100°F, potem stopniowo 165–170°F w wędzarni do temperatury wewnętrznej 150°F (niżej niż ogólne zalecenie 160°F z tej samej publikacji).",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making",
+    "cytat": "cure to react. Smoke at 90 °F to 100 °F for 2 hours.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0bd59ab355e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-032",
+  "twierdzenie": "W przepisie UGA na suche salami wołowe dojrzewanie (20 dni w 50–60°F) albo ugotowanie do 140°F jest konieczne do zabicia włośni, jeśli użyto wieprzowiny.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making",
+    "cytat": "The holding time or the cooking requirement is necessary to",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0bd59ab355e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-033",
+  "twierdzenie": "UE: zamrażanie w zalecanych warunkach zabija pasożyty, ale niektóre gatunki Trichinella występujące u zwierzyny łownej i koni są na nie odporne.",
+  "zrodla": [
+   {
+    "adres": "http://publications.europa.eu/resource/cellar/20fdcc04-3ff1-11e5-9f5a-01aa75ed71a1.0006.03/DOC_1",
+    "miejsce": "Rozporządzenie wykonawcze (UE) 2015/1375 (Trichinella)",
+    "cytat": "certain Trichinella species occurring in game and horses are resistant when freezing is carried out using the recommended temperature and time combinations",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "61485ae104e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-034",
+  "twierdzenie": "UE: mięso koni, zwierzyny łownej i innych zwierząt mogących zawierać Trichinella musi być zbadane metodą wytrawiania.",
+  "zrodla": [
+   {
+    "adres": "http://publications.europa.eu/resource/cellar/20fdcc04-3ff1-11e5-9f5a-01aa75ed71a1.0006.03/DOC_1",
+    "miejsce": "Rozporządzenie wykonawcze (UE) 2015/1375 (Trichinella)",
+    "cytat": "Horse meat, wild game meat and other meat that could contain Trichinella parasites must be examined",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "61485ae104e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-035",
+  "twierdzenie": "NCHFP: wieprzowinę lub dziczyznę na jerky przed krojeniem zamrozić w kawałkach do 6 cali grubości w 0°F lub niżej przez co najmniej 30 dni (włośnie).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/jerky",
+    "miejsce": "NCHFP: Jerky (z So Easy to Preserve, 6 wyd.)",
+    "cytat": "freeze a portion that is 6 inches or less thick at 0ºF or below for at least 30 days",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0431d149d100"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "UE (MIE-033): część gatunków Trichinella u zwierzyny jest odporna na zamrażanie; dla dziczyzny polegać na ogrzaniu do 160°F, nie na zamrożeniu.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "zamrazanie_wieprzowiny_wlosnie_NCHFP",
+  "wartosc": 30,
+  "jednostka": "dni w 0°F",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-036",
+  "twierdzenie": "Ryzyko zatrucia jerky zmniejsza się, gdy temperatura wewnętrzna mięsa osiągnie 160°F: przez podgrzanie pasków w marynacie przed suszeniem albo w piekarniku po suszeniu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/jerky",
+    "miejsce": "NCHFP: Jerky (z So Easy to Preserve, 6 wyd.)",
+    "cytat": "The risk of foodborne illness from home-dried jerky can be decreased by allowing the internal temperature of the meat to reach 160ºF",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0431d149d100"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura_wewnetrzna_jerky",
+  "wartosc": 160,
+  "jednostka": "°F",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-037",
+  "twierdzenie": "Podgrzanie przed suszeniem: paski z marynatą doprowadzić do wrzenia i gotować 5 minut, potem odsączyć i suszyć.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/jerky",
+    "miejsce": "NCHFP: Jerky (z So Easy to Preserve, 6 wyd.)",
+    "cytat": "bring strips and marinade to a boil and boil for 5 minutes before draining and drying",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0431d149d100"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-038",
+  "twierdzenie": "Jerky suszyć w suszarce lub piekarniku nagrzanym do 140°F.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/jerky",
+    "miejsce": "NCHFP: Jerky (z So Easy to Preserve, 6 wyd.)",
+    "cytat": "Place the racks in a dehydrator or oven preheated to 140ºF.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0431d149d100"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura_suszenia_jerky",
+  "wartosc": 140,
+  "jednostka": "°F",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-039",
+  "twierdzenie": "Podgrzanie po suszeniu: paski o grubości do 1/4 cala 10 minut w piekarniku nagrzanym do 275°F.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/jerky",
+    "miejsce": "NCHFP: Jerky (z So Easy to Preserve, 6 wyd.)",
+    "cytat": "heat 10 minutes in an oven preheated to 275ºF",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0431d149d100"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-040",
+  "twierdzenie": "Mięso na jerky kroić nie grubiej niż 1/4 cala.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/jerky",
+    "miejsce": "NCHFP: Jerky (z So Easy to Preserve, 6 wyd.)",
+    "cytat": "Slice meat no thicker than ¼ inch.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0431d149d100"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "grubosc_paskow_jerky",
+  "wartosc": 0.25,
+  "jednostka": "cala",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-041",
+  "twierdzenie": "Prawidłowo wysuszone jerky wytrzymuje w temperaturze pokojowej dwa tygodnie w szczelnym pojemniku; dłużej w lodówce lub zamrażarce.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/jerky",
+    "miejsce": "NCHFP: Jerky (z So Easy to Preserve, 6 wyd.)",
+    "cytat": "Properly dried jerky will keep at room temperature two weeks in a sealed container.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0431d149d100"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "jerky_temperatura_pokojowa",
+  "wartosc": 2,
+  "jednostka": "tygodnie",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-042",
+  "twierdzenie": "Surowy drób zwykle nie jest zalecany do jerky (tekstura i smak); NCHFP wymienia wędzoną pierś indyka.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/jerky",
+    "miejsce": "NCHFP: Jerky (z So Easy to Preserve, 6 wyd.)",
+    "cytat": "Raw poultry is generally not recommended for use in making jerky because of the texture and flavor of the finished product.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0431d149d100"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-043",
+  "twierdzenie": "Dziczyzny zanieczyszczonej treścią przewodu pokarmowego nie używać na jerky; tylko do potraw dokładnie gotowanych.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/jerky",
+    "miejsce": "NCHFP: Jerky (z So Easy to Preserve, 6 wyd.)",
+    "cytat": "It is best to avoid making jerky from this meat and use it only in ways that it will be thoroughly cooked.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0431d149d100"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-044",
+  "twierdzenie": "Biltong: według autorów to pierwsza opublikowana praca, w której proces biltongu bez etapu letalnego cieplnego osiągnął redukcję Salmonella > 5 log (wymóg walidacji FSIS); suszenie w 22,2–25°C.",
+  "zrodla": [
+   {
+    "adres": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7285303/",
+    "miejsce": "Karolenko i in., Microorganisms 2020;8(5):791, abstrakt",
+    "cytat": "We believe this is the first published report of a biltong process achieving >5.0 log",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "85441f7cdc78"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-045",
+  "twierdzenie": "W walidowanym procesie biltongu wilgotność względna wynosiła 55%, a aw spadała poniżej 0,85 po 6–8 dniach suszenia.",
+  "zrodla": [
+   {
+    "adres": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7285303/",
+    "miejsce": "Karolenko i in., Microorganisms 2020;8(5):791, abstrakt",
+    "cytat": "maintained at 55% relative humidity",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "85441f7cdc78"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-046",
+  "twierdzenie": "FDA: zamrażanie i przechowywanie w -20°C (-4°F) lub niżej przez 7 dni (łącznie) zabija pasożyty w rybach.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/80777/download",
+    "miejsce": "FDA Fish and Fishery Products Hazards and Controls Guidance (2022), rozdz. 5 Parasites",
+    "cytat": "of -4°F (-20°C) or below for 7 days (total time);",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94adeff0ee03"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "zamrazanie_ryb_FDA",
+  "wartosc": 7,
+  "jednostka": "dni w -20°C",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-047",
+  "twierdzenie": "FDA: alternatywnie zamrożenie w -35°C do stanu stałego i przechowywanie w -35°C przez 15 godzin albo zamrożenie w -35°C do stanu stałego i przechowywanie w -20°C przez 24 godziny.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/80777/download",
+    "miejsce": "FDA Fish and Fishery Products Hazards and Controls Guidance (2022), rozdz. 5 Parasites",
+    "cytat": "(-35°C) or below until solid and storing at",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94adeff0ee03"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-048",
+  "twierdzenie": "FDA: te warunki zamrażania mogą nie wystarczyć dla szczególnie dużych ryb (np. grubszych niż 6 cali).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/80777/download",
+    "miejsce": "FDA Fish and Fishery Products Hazards and Controls Guidance (2022), rozdz. 5 Parasites",
+    "cytat": "particularly large fish (e.g., thicker than 6 inches).",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94adeff0ee03"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-049",
+  "twierdzenie": "FDA: solenie w solance i marynowanie mogą zmniejszyć zagrożenie pasożytami, ale go nie eliminują ani nie sprowadzają do akceptowalnego poziomu.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/80777/download",
+    "miejsce": "FDA Fish and Fishery Products Hazards and Controls Guidance (2022), rozdz. 5 Parasites",
+    "cytat": "Brining and pickling may reduce the parasite",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94adeff0ee03"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-050",
+  "twierdzenie": "FDA: larwy nicieni przeżywały 28 dni w solance 80° salinometru (21% soli wagowo).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/80777/download",
+    "miejsce": "FDA Fish and Fishery Products Hazards and Controls Guidance (2022), rozdz. 5 Parasites",
+    "cytat": "28 days in an 80° salinometer brine (21% salt",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94adeff0ee03"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-051",
+  "twierdzenie": "FDA: ikra wyjęta z worka (skeinu) i wypłukana zwykle nie zawiera pasożytów; ikra niepłukana lub w worku ma zagrożenie pasożytami, jeśli gatunek je ma.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/80777/download",
+    "miejsce": "FDA Fish and Fishery Products Hazards and Controls Guidance (2022), rozdz. 5 Parasites",
+    "cytat": "and rinsed are not likely to contain parasites.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94adeff0ee03"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-052",
+  "twierdzenie": "UE: produkty rybne spożywane na surowo oraz marynowane, solone i inne, jeśli obróbka nie zabija pasożytów, muszą być zamrożone: w całej masie co najmniej -20°C przez min. 24 h albo -35°C przez min. 15 h.",
+  "zrodla": [
+   {
+    "adres": "http://publications.europa.eu/resource/cellar/d32807a9-4bbf-4610-84e0-1cc8fb70feef.0022.03/DOC_1",
+    "miejsce": "Rozporządzenie (UE) 1276/2011, załącznik: rozp. 853/2004 zał. III sekcja VIII rozdz. III część D",
+    "cytat": "(a) – 20 °C for not less than 24 hours; or (b) – 35 °C for not less than 15 hours",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7772d765b4f9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "zamrazanie_ryb_UE",
+  "wartosc": 24,
+  "jednostka": "h w -20°C",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-053",
+  "twierdzenie": "UE: wymóg zamrażania dotyczy produktów marynowanych, solonych i innych, jeśli obróbka nie wystarcza do zabicia żywych pasożytów.",
+  "zrodla": [
+   {
+    "adres": "http://publications.europa.eu/resource/cellar/d32807a9-4bbf-4610-84e0-1cc8fb70feef.0022.03/DOC_1",
+    "miejsce": "Rozporządzenie (UE) 1276/2011, załącznik: rozp. 853/2004 zał. III sekcja VIII rozdz. III część D",
+    "cytat": "marinated, salted and any other treated fishery products, if the treatment is insufficient to kill the viable parasite",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7772d765b4f9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-054",
+  "twierdzenie": "UE: zwolnienie z zamrażania dla produktów ogrzanych do temperatury w środku 60°C lub więcej przez co najmniej minutę (pasożyty inne niż przywry).",
+  "zrodla": [
+   {
+    "adres": "http://publications.europa.eu/resource/cellar/d32807a9-4bbf-4610-84e0-1cc8fb70feef.0022.03/DOC_1",
+    "miejsce": "Rozporządzenie (UE) 1276/2011, załącznik: rozp. 853/2004 zał. III sekcja VIII rozdz. III część D",
+    "cytat": "the product is heated to a core temperature of 60 °C or more for at least one minute",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7772d765b4f9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-055",
+  "twierdzenie": "Ryby do marynowania: najlepiej mrożone przemysłowo; zamrażane w domu trzymać zamrożone co najmniej 4 dni.",
+  "zrodla": [
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish",
+    "cytat": "keep it frozen for at least four days.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "c6e9814fa237"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Sprzeczność: FDA (MIE-046) -20°C przez 7 dni, UE (MIE-052) -20°C przez 24 h w całej masie; zamrażarka domowa nie gwarantuje -20°C. Wygrywa szczebel 1.",
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-056",
+  "twierdzenie": "UCCE: łososia przed peklowaniem (gravlax) trzeba zamrozić; sól ani kwas nie zabijają pasożytów.",
+  "zrodla": [
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-06/327757.pdf",
+    "miejsce": "UCCE Master Food Preservers Amador/Calaveras: Gravlax (Cured Salmon), 2019",
+    "cytat": "not sufficient for killing parasites.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "71e46f9a95ed"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-057",
+  "twierdzenie": "UCCE: większość zamrażarek domowych nie osiąga tych temperatur, więc do gravlaxu zalecany jest wyłącznie łosoś mrożony przemysłowo.",
+  "zrodla": [
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-06/327757.pdf",
+    "miejsce": "UCCE Master Food Preservers Amador/Calaveras: Gravlax (Cured Salmon), 2019",
+    "cytat": "recommend the use of commercially frozen salmon only.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "71e46f9a95ed"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-058",
+  "twierdzenie": "UCCE: gotowy gravlax trzymać w lodówce szczelnie owinięty do 5–7 dni.",
+  "zrodla": [
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-06/327757.pdf",
+    "miejsce": "UCCE Master Food Preservers Amador/Calaveras: Gravlax (Cured Salmon), 2019",
+    "cytat": "plastic wrap, for up to 5 to 7 days.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "71e46f9a95ed"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "lodowka_gravlax",
+  "wartosc": 7,
+  "jednostka": "dni"
+ },
+ {
+  "id": "MIE-059",
+  "twierdzenie": "FDA: minimalna temperatura wzrostu i wytwarzania toksyny przez C. botulinum typu E oraz nieproteolityczne typy B i F to 38°F (3,3°C).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/80310/download",
+    "miejsce": "FDA Fish and Fishery Products Hazards and Controls Guidance, rozdz. 13 Clostridium botulinum Toxin Formation",
+    "cytat": "proteolytic types B and F is 38°F (3.3°C). For",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8070ebf36ae6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "min_temp_C_botulinum_E",
+  "wartosc": 3.3,
+  "jednostka": "°C",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-060",
+  "twierdzenie": "FDA: C. botulinum typu E to najczęstsza postać w środowisku słodkowodnym i morskim; należy zakładać jej obecność w każdej surowej rybie, zwłaszcza w trzewiach.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/80310/download",
+    "miejsce": "FDA Fish and Fishery Products Hazards and Controls Guidance, rozdz. 13 Clostridium botulinum Toxin Formation",
+    "cytat": "botulinum type E is the most common form found",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8070ebf36ae6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-061",
+  "twierdzenie": "FDA: każdy produkt utrwalany przez solenie, suszenie, marynowanie lub fermentację powinien być wypatroszony przed obróbką.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/80310/download",
+    "miejsce": "FDA Fish and Fishery Products Hazards and Controls Guidance, rozdz. 13 Clostridium botulinum Toxin Formation",
+    "cytat": "be eviscerated prior to processing (see the",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8070ebf36ae6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-062",
+  "twierdzenie": "FDA (przemysł): ryby wędzone muszą mieć co najmniej 3,5% soli w fazie wodnej (albo 3% przy co najmniej 100 ppm azotynu).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/80310/download",
+    "miejsce": "FDA Fish and Fishery Products Hazards and Controls Guidance, rozdz. 13 Clostridium botulinum Toxin Formation",
+    "cytat": "product has not less than 3.5% wps or, where",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8070ebf36ae6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "sol_w_fazie_wodnej_ryba_wedzona",
+  "wartosc": 3.5,
+  "jednostka": "% WPS",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-063",
+  "twierdzenie": "FDA (przemysł): przy wędzeniu na zimno temperatura w wędzarni nie może przekroczyć 90°F (32,2°C).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/80310/download",
+    "miejsce": "FDA Fish and Fishery Products Hazards and Controls Guidance, rozdz. 13 Clostridium botulinum Toxin Formation",
+    "cytat": "The smoker temperature must not exceed",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8070ebf36ae6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura_wedzarni_na_zimno",
+  "wartosc": 90,
+  "jednostka": "°F",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-064",
+  "twierdzenie": "FDA (przemysł): przy wędzeniu na gorąco temperatura wewnętrzna ryby musi wynosić co najmniej 145°F (62,8°C) w całej rybie przez co najmniej 30 minut.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/80310/download",
+    "miejsce": "FDA Fish and Fishery Products Hazards and Controls Guidance, rozdz. 13 Clostridium botulinum Toxin Formation",
+    "cytat": "be maintained at or above 145°F (62.8°C)",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8070ebf36ae6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura_wewnetrzna_wedzenie_na_goraco_FDA",
+  "wartosc": 145,
+  "jednostka": "°F",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-065",
+  "twierdzenie": "FDA: chłodzone, pakowane beztlenowo ryby marynowane, solone i kawior bez trwałości półkowej: m.in. co najmniej 5% soli w fazie wodnej, plus ścisłe chłodzenie do 40°F (4,4°C).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/80310/download",
+    "miejsce": "FDA Fish and Fishery Products Hazards and Controls Guidance, rozdz. 13 Clostridium botulinum Toxin Formation",
+    "cytat": "portion of the fish flesh) of at least 5%;",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8070ebf36ae6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "sol_w_fazie_wodnej_kawior_ryba_solona",
+  "wartosc": 5,
+  "jednostka": "% WPS",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-066",
+  "twierdzenie": "FDA: niewypatroszone małe ryby (poniżej 5 cali, np. szproty, sardele) są zwolnione z zalecenia patroszenia tylko przy 10% soli w fazie wodnej (chłodzone) albo aw poniżej 0,85 lub pH 4,6 lub niższym (trwałe).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/80310/download",
+    "miejsce": "FDA Fish and Fishery Products Hazards and Controls Guidance, rozdz. 13 Clostridium botulinum Toxin Formation",
+    "cytat": "content of 10% in refrigerated finished products,",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8070ebf36ae6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "sol_w_fazie_wodnej_male_niewypatroszone",
+  "wartosc": 10,
+  "jednostka": "% WPS",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-067",
+  "twierdzenie": "FDA: niewypatroszone ryby solone, suszone lub wędzone (oraz produkty z nich) uznaje się za potencjalnie śmiertelne zagrożenie i za zafałszowane.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-540650-uneviscerated-fish-products-are-salt-cured-dried-or-smoked-revised",
+    "miejsce": "FDA CPG Sec. 540.650 Uneviscerated Fish Products",
+    "cytat": "FDA considers uneviscerated fish that are salt-cured, dried, or smoked to represent a potentially life-threatening health hazard.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d5642ec2f709"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-068",
+  "twierdzenie": "FDA: kapchunka (niewypatroszona, solona, suszona ryba) spowodowała w USA w latach 1981–1987 trzy ogniska jadu kiełbasianego: 3 zgony i 11 zachorowań.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-540650-uneviscerated-fish-products-are-salt-cured-dried-or-smoked-revised",
+    "miejsce": "FDA CPG Sec. 540.650 Uneviscerated Fish Products",
+    "cytat": "Three outbreaks of botulism, causing 3 deaths and 11 illnesses, resulted from kapchunka",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d5642ec2f709"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-069",
+  "twierdzenie": "FDA: działania wobec każdej niewypatroszonej ryby dłuższej niż 5 cali, solonej, suszonej lub wędzonej.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-540650-uneviscerated-fish-products-are-salt-cured-dried-or-smoked-revised",
+    "miejsce": "FDA CPG Sec. 540.650 Uneviscerated Fish Products",
+    "cytat": "against any uneviscerated fish greater than five inches in length that is salt-cured, dried, or smoked",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d5642ec2f709"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "dlugosc_ryby_niewypatroszonej",
+  "wartosc": 5,
+  "jednostka": "cali",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-070",
+  "twierdzenie": "FDA: takie produkty są niebezpieczne niezależnie od przechowywania (temperatura pokojowa, lodówka, zamrażarka) i pakowania.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-540650-uneviscerated-fish-products-are-salt-cured-dried-or-smoked-revised",
+    "miejsce": "FDA CPG Sec. 540.650 Uneviscerated Fish Products",
+    "cytat": "These products are hazardous whether stored at ambient temperature, refrigerated, or frozen",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d5642ec2f709"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-071",
+  "twierdzenie": "Wędzenie ryb w domu: temperatura wewnętrzna ryby musi osiągnąć 160°F i utrzymać się co najmniej 30 minut; jeśli wędzarnia nie da rady, dopiec w piekarniku w ciągu 2 godzin.",
+  "zrodla": [
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish",
+    "cytat": "The internal temperature of the fish must reach 160",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "2ea21bc8f4f1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura_wewnetrzna_wedzenie_ryb_dom",
+  "wartosc": 160,
+  "jednostka": "°F przez 30 min"
+ },
+ {
+  "id": "MIE-072",
+  "twierdzenie": "Metody wędzenia ryb z publikacji UW Sea Grant/UMN zostały naukowo przetestowane pod kątem bezpieczeństwa.",
+  "zrodla": [
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish",
+    "cytat": "The smoking methods presented here have been scien",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "2ea21bc8f4f1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-073",
+  "twierdzenie": "Ryby wędzone przechowywać w lodówce (40°F lub niżej) nie dłużej niż miesiąc albo zamrozić do 4 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish",
+    "cytat": "and kept no longer than a month, or it may be frozen and kept",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "2ea21bc8f4f1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "PNW 450 (MIE-074) podaje krócej: 2 tygodnie. Część wspólna: lodówka, do 2 tygodni.",
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-074",
+  "twierdzenie": "Przechowywanie w lodówce w pełni uwędzonej ryby jest ograniczone do 2 tygodni; dłużej: zamrażać lub wekować.",
+  "zrodla": [
+   {
+    "adres": "https://objects.lib.uidaho.edu/uiext/uiext32324.pdf",
+    "miejsce": "PNW 450 Canning Smoked Fish at Home",
+    "cytat": "fish is limited to 2 weeks.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ffb753925ee6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "lodowka_ryba_wedzona",
+  "wartosc": 2,
+  "jednostka": "tygodnie"
+ },
+ {
+  "id": "MIE-075",
+  "twierdzenie": "Gotowe do jedzenia ryby wędzone osiągają temperaturę wewnętrzną 150–160°F przez co najmniej 30 minut.",
+  "zrodla": [
+   {
+    "adres": "https://objects.lib.uidaho.edu/uiext/uiext32324.pdf",
+    "miejsce": "PNW 450 Canning Smoked Fish at Home",
+    "cytat": "ready-to-eat products (150° to 160°F for at least",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ffb753925ee6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-076",
+  "twierdzenie": "Temperatury wędzenia na zimno nie zabijają bakterii, a mogą sprzyjać ich wzrostowi.",
+  "zrodla": [
+   {
+    "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/340862.pdf",
+    "miejsce": "Univ. of Alaska Fairbanks FNH-00325 Smoking Fish at Home (kopia UC ANR)",
+    "cytat": "Cold smoke temperatures are not hot enough to",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "4c3c92024207"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-077",
+  "twierdzenie": "Cały proces wędzenia na zimno przebiega w strefie zagrożenia (40–140°F); produkt może się zepsuć lub stać niebezpieczny, zanim zostanie uwędzony.",
+  "zrodla": [
+   {
+    "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/340862.pdf",
+    "miejsce": "Univ. of Alaska Fairbanks FNH-00325 Smoking Fish at Home (kopia UC ANR)",
+    "cytat": "Caution: The entire cold smoking process takes",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "4c3c92024207"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-078",
+  "twierdzenie": "Wędzenie na gorąco do 160°F przekracza 150°F potrzebne do zabicia pasożytów, więc zamrażać trzeba tylko ryby do wędzenia na zimno.",
+  "zrodla": [
+   {
+    "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/340862.pdf",
+    "miejsce": "Univ. of Alaska Fairbanks FNH-00325 Smoking Fish at Home (kopia UC ANR)",
+    "cytat": "exceeds the 150°F required to kill parasites, only",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "4c3c92024207"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-079",
+  "twierdzenie": "Nawet ryba wędzona pakowana próżniowo MUSI być w lodówce lub zamrażarce; nigdy w temperaturze pokojowej.",
+  "zrodla": [
+   {
+    "adres": "https://oc4h.ucanr.edu/sites/default/files/2020-12/340862.pdf",
+    "miejsce": "Univ. of Alaska Fairbanks FNH-00325 Smoking Fish at Home (kopia UC ANR)",
+    "cytat": "vacuum-packaged smoked fish MUST be kept",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "4c3c92024207"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-080",
+  "twierdzenie": "Ryby marynowane w domu przechowywać w lodówce i zjeść w ciągu 6 tygodni.",
+  "zrodla": [
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish",
+    "cytat": "refrigerator and consumed within 6 weeks.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "c6e9814fa237"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "lodowka_ryba_marynowana",
+  "wartosc": 6,
+  "jednostka": "tygodnie"
+ },
+ {
+  "id": "MIE-081",
+  "twierdzenie": "Pasteryzacja lub wekowanie ryb marynowanych nie jest zalecane.",
+  "zrodla": [
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish",
+    "cytat": "Heat-processing pickled fish is not recommended.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "c6e9814fa237"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-082",
+  "twierdzenie": "NCHFP: nie ma domowych instrukcji wekowania jaj marynowanych; wszystkie przepisy są do przechowywania w lodówce.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "NCHFP: Pickled Eggs",
+    "cytat": "There are no home canning directions for pickled eggs.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "302edf65fc98"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-083",
+  "twierdzenie": "Jaja marynowane w domu przechowywane w temperaturze pokojowej spowodowały jad kiełbasiany (raport CDC).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "NCHFP: Pickled Eggs",
+    "cytat": "Home pickled eggs stored at room temperature have caused botulism.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "302edf65fc98"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-084",
+  "twierdzenie": "Jaja marynowane nigdy w temperaturze pokojowej, poza podaniem: najwyżej 2 godziny w strefie 40–140°F.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "NCHFP: Pickled Eggs",
+    "cytat": "no more than 2 hours in the temperature danger zone of 40 to 140 degrees F",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "302edf65fc98"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "jaja_marynowane_poza_lodowka",
+  "wartosc": 2,
+  "jednostka": "h",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-085",
+  "twierdzenie": "Jaja marynowane zużyć w ciągu 3–4 miesięcy dla najlepszej jakości.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "NCHFP: Pickled Eggs",
+    "cytat": "Use the eggs within 3 to 4 months for best quality.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "302edf65fc98"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Blog NCHFP (MIE-086) podaje 2–3 miesiące, przepis z So Easy to Preserve: w ciągu miesiąca. To granice jakości, nie bezpieczeństwa.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-086",
+  "twierdzenie": "Blog NCHFP: jaja marynowane w lodówce zjeść w ciągu 2–3 miesięcy dla najlepszej jakości.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/blog/how-do-you-like-your-eggs-scrambled-friedaor-pickled",
+    "miejsce": "NCHFP blog, 2014-04-03",
+    "cytat": "consume refrigerated pickled eggs within 2 to 3 months for best quality",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "77a029016cbc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-087",
+  "twierdzenie": "Jaja to produkt o niskiej kwasowości (pH 6,4–9,0); ocet może nie przeniknąć wszystkich części jajka.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/blog/how-do-you-like-your-eggs-scrambled-friedaor-pickled",
+    "miejsce": "NCHFP blog, 2014-04-03",
+    "cytat": "very low acidity of eggs (pH ranges between 6.4 and 9.0)",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "77a029016cbc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-088",
+  "twierdzenie": "Zalewę do jaj doprowadza się do wrzenia, gotuje 5 minut i wylewa na obrane jaja na twardo.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "NCHFP: Pickled Eggs",
+    "cytat": "Pickling solutions are heated to boiling, simmered for 5 minutes, and poured over the peeled eggs.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "302edf65fc98"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-089",
+  "twierdzenie": "Jaja muszą być przez cały czas przechowywania całkowicie przykryte zalewą.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "NCHFP: Pickled Eggs",
+    "cytat": "The eggs are to be completely covered with the pickling solution during storage.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "302edf65fc98"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-090",
+  "twierdzenie": "Nie jest bezpieczne wekowanie jaj marynowanych w domu.",
+  "zrodla": [
+   {
+    "adres": "https://extension.missouri.edu/media/wysiwyg/Extensiondata/Pub/pdf/hesguide/foodnut/hes145.pdf",
+    "miejsce": "MU Extension HES145 Preserve It Fresh, Preserve It Safe 2022",
+    "cytat": "not safe to can pickled eggs at home.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "80392f10f684"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-091",
+  "twierdzenie": "FDA: do potraw z jajami surowymi lub niedogotowanymi używać jaj w skorupce poddanych obróbce niszczącej Salmonella (np. pasteryzacji) albo pasteryzowanych produktów jajecznych.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+    "miejsce": "FDA: What You Need to Know About Egg Safety",
+    "cytat": "use either shell eggs that have been treated to destroy Salmonella",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8e8180261b3e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-092",
+  "twierdzenie": "FDA: jajka gotować, aż żółtko i białko będą ścięte; potrawy z jajami do 160°F.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+    "miejsce": "FDA: What You Need to Know About Egg Safety",
+    "cytat": "Casseroles and other dishes containing eggs should be cooked to 160° F.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8e8180261b3e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura_potraw_z_jajami",
+  "wartosc": 160,
+  "jednostka": "°F",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "MIE-093",
+  "twierdzenie": "USU Extension: przechowywanie jaj metodą „water glassing” (popularną na początku XX w.) jest niebezpieczne.",
+  "zrodla": [
+   {
+    "adres": "https://digitalcommons.usu.edu/extension_curall/2361",
+    "miejsce": "Utah State Univ. Extension: Storing Eggs Safely (2023), abstrakt",
+    "cytat": "but it is unsafe",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d4a27623ed35"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "MIE-094",
+  "twierdzenie": "Domowe oleje z czosnkiem lub ziołami: przechowywać w lodówce najwyżej 2–4 dni albo zamrozić (jad kiełbasiany).",
+  "zrodla": [
+   {
+    "adres": "https://objects.lib.uidaho.edu/uiext/uiext33171.pdf",
+    "miejsce": "PNW 664 Making Garlic- and Herb-Infused Oils at Home",
+    "cytat": "is refrigeration for a maximum of 2 to 4 days or",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1574f1aa0c9e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "lodowka_olej_z_czosnkiem",
+  "wartosc": 4,
+  "jednostka": "dni"
+ },
+ {
+  "id": "MIE-095",
+  "twierdzenie": "Przechowywanie domowych olejów z czosnkiem lub ziołami w temperaturze pokojowej jest niebezpieczne.",
+  "zrodla": [
+   {
+    "adres": "https://objects.lib.uidaho.edu/uiext/uiext33171.pdf",
+    "miejsce": "PNW 664 Making Garlic- and Herb-Infused Oils at Home",
+    "cytat": "It is unsafe to store these home-prepared",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1574f1aa0c9e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ }
+]

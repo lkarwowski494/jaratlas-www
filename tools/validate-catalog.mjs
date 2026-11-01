@@ -15,8 +15,8 @@ export const SCOPE = ['in', 'out-of-scope', 'bridge'];
 export function validateCatalog(cat, rejestr = []) {
   const errors = [], warnings = [];
   const claims = new Map(rejestr.map((t) => [t.id, t]));
-  const ids = new Set();
-  const uniq = (id, co) => { if (ids.has(id)) errors.push(`${co}: powtórzone ID ${id}`); ids.add(id); };
+  const ids = new Map(); // ID unikalne w obrębie typu: rodzina, produkt, wariant
+  const uniq = (id, co) => { const s = ids.get(co) ?? new Set(); if (s.has(id)) errors.push(`${co}: powtórzone ID ${id}`); s.add(id); ids.set(co, s); };
   const claimOk = (id, gdzie) => {
     const t = claims.get(id);
     if (!t) errors.push(`${gdzie}: nieznane twierdzenie ${id}`);
@@ -57,8 +57,11 @@ export function validateCatalog(cat, rejestr = []) {
       continue;
     }
     const f = fam.get(v.processFamilyId), p = prod.get(v.productId);
-    if (!f) errors.push(`${g}: nieznana rodzina ${v.processFamilyId}`);
-    if (!METHODS.includes(v.preservationMethod)) errors.push(`${g}: nieznana metoda ${v.preservationMethod}`);
+    // Rodzina i metoda „nieustalone” (null) są uczciwym stanem wiedzy, ale nie przy statusach, które coś twierdzą.
+    if (v.processFamilyId == null) { if (v.safetyStatus !== 'do-researchu') errors.push(`${g}: rodzina nieustalona przy statusie ${v.safetyStatus}`); }
+    else if (!f) errors.push(`${g}: nieznana rodzina ${v.processFamilyId}`);
+    if (v.preservationMethod == null) { if (v.safetyStatus === 'ok-zrodlo') errors.push(`${g}: ok-zrodlo bez metody utrwalania`); }
+    else if (!METHODS.includes(v.preservationMethod)) errors.push(`${g}: nieznana metoda ${v.preservationMethod}`);
     else if (f && !(f.allowedMethods ?? []).includes(v.preservationMethod)) errors.push(`${g}: metoda ${v.preservationMethod} niedozwolona w rodzinie ${f.id}`);
     if (!STATUSES.includes(v.safetyStatus)) errors.push(`${g}: safetyStatus „${v.safetyStatus}” spoza słownika`);
     if (!ACID_BASIS.includes(v.acidBasis)) errors.push(`${g}: acidBasis „${v.acidBasis}” spoza słownika`);
@@ -70,6 +73,7 @@ export function validateCatalog(cat, rejestr = []) {
       if (p?.acidity === 'borderline' && v.acidBasis === 'natural-acid') errors.push(`${g}: produkt graniczny w water-bath wymaga zakwaszenia (acidBasis acidified)`);
     }
     for (const id of v.claims ?? []) claimOk(id, g);
+    for (const id of v.requiredWarnings ?? []) claimOk(id, `${g} ostrzeżenie`);
     if (v.safetyStatus !== 'do-researchu' && !(v.claims ?? []).length) errors.push(`${g}: status ${v.safetyStatus} bez twierdzenia (claims)`);
     if (v.safetyStatus === 'ok-zrodlo') {
       const s = v.sources ?? [];

@@ -1,0 +1,854 @@
+[
+ {
+  "productId": "cucumber",
+  "acidity": "low-acid",
+  "claim": "ACI-081",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "white-cabbage",
+  "acidity": "low-acid",
+  "claim": "ACI-082",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "red-savoy-cabbage",
+  "acidity": "low-acid",
+  "claim": "ACI-082",
+  "claimsDodatkowe": [],
+  "opis": "FDA: kapusta czerwona i włoska w tym samym zakresie."
+ },
+ {
+  "productId": "napa-cabbage",
+  "acidity": "low-acid",
+  "claim": "ACI-005",
+  "claimsDodatkowe": [
+   "ACI-082"
+  ],
+  "opis": "Brak pomiaru FDA dla pekińskiej/pak choi; świeże warzywo — Ogólna reguła USDA (Guide 1)."
+ },
+ {
+  "productId": "cauliflower",
+  "acidity": "low-acid",
+  "claim": "ACI-083",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "broccoli",
+  "acidity": "low-acid",
+  "claim": "ACI-084",
+  "claimsDodatkowe": [],
+  "opis": "Romanesco bez pomiaru — jak brokuł."
+ },
+ {
+  "productId": "brussels-kohlrabi",
+  "acidity": "low-acid",
+  "claim": "ACI-085",
+  "claimsDodatkowe": [
+   "ACI-005"
+  ],
+  "opis": "Kalarepa bez pomiaru — Ogólna reguła USDA (Guide 1)."
+ },
+ {
+  "productId": "zucchini",
+  "acidity": "low-acid",
+  "claim": "ACI-086",
+  "claimsDodatkowe": [
+   "ACI-026"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "pattypan-squash",
+  "acidity": "low-acid",
+  "claim": "ACI-087",
+  "claimsDodatkowe": [
+   "ACI-026"
+  ],
+  "opis": "Patison = dynia letnia (white scallop)."
+ },
+ {
+  "productId": "pumpkin",
+  "acidity": "low-acid",
+  "claim": "ACI-088",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "leafy-greens",
+  "acidity": "low-acid",
+  "claim": "ACI-089",
+  "claimsDodatkowe": [
+   "ACI-090"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "vine-leaves-greens",
+  "acidity": "low-acid",
+  "claim": "ACI-091",
+  "claimsDodatkowe": [
+   "ACI-092",
+   "ACI-005"
+  ],
+  "opis": "Liście winogron bez pomiaru — Ogólna reguła USDA (Guide 1)."
+ },
+ {
+  "productId": "tomato",
+  "acidity": "borderline",
+  "claim": "ACI-093",
+  "claimsDodatkowe": [
+   "ACI-008",
+   "ACI-004"
+  ],
+  "opis": "pH 4,30–4,90: część pomidorów powyżej 4,6; do wekowania zawsze zakwaszać (ACI tomato_acid)."
+ },
+ {
+  "productId": "green-cherry-tomato",
+  "acidity": "borderline",
+  "claim": "ACI-093",
+  "claimsDodatkowe": [
+   "ACI-050",
+   "ACI-008"
+  ],
+  "opis": "Zielone kwaśniejsze od dojrzałych, ale koktajlowe jak pomidory — graniczne; zakwaszać."
+ },
+ {
+  "productId": "bell-pepper",
+  "acidity": "low-acid",
+  "claim": "ACI-094",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "chili-pepper",
+  "acidity": "low-acid",
+  "claim": "ACI-094",
+  "claimsDodatkowe": [],
+  "opis": "FDA „Peppers” bez rozróżnienia ostrości."
+ },
+ {
+  "productId": "eggplant",
+  "acidity": "low-acid",
+  "claim": "ACI-095",
+  "claimsDodatkowe": [
+   "ACI-026"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "potato-sunchoke",
+  "acidity": "low-acid",
+  "claim": "ACI-096",
+  "claimsDodatkowe": [
+   "ACI-097"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "tomatillo",
+  "acidity": "borderline",
+  "claim": "ACI-098",
+  "claimsDodatkowe": [
+   "ACI-060"
+  ],
+  "opis": "FDA podaje 3,83 (jeden pomiar), ale NCHFP wymaga zakwaszania jak dla pomidorów; miechunka peruwiańska bez pomiaru — ostrożnie graniczne."
+ },
+ {
+  "productId": "green-beans",
+  "acidity": "low-acid",
+  "claim": "ACI-099",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "peas-chickpeas",
+  "acidity": "low-acid",
+  "claim": "ACI-101",
+  "claimsDodatkowe": [
+   "ACI-100"
+  ],
+  "opis": "Bób bez pomiaru — Ogólna reguła USDA (Guide 1)."
+ },
+ {
+  "productId": "beans-soy",
+  "acidity": "low-acid",
+  "claim": "ACI-102",
+  "claimsDodatkowe": [
+   "ACI-103"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "beetroot",
+  "acidity": "low-acid",
+  "claim": "ACI-104",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "carrot",
+  "acidity": "low-acid",
+  "claim": "ACI-105",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "garlic",
+  "acidity": "low-acid",
+  "claim": "ACI-106",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "onion",
+  "acidity": "low-acid",
+  "claim": "ACI-107",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "shallot-pearl-onion",
+  "acidity": "low-acid",
+  "claim": "ACI-108",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "leek-chives",
+  "acidity": "low-acid",
+  "claim": "ACI-109",
+  "claimsDodatkowe": [
+   "ACI-110"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "daikon-black-radish",
+  "acidity": "low-acid",
+  "claim": "ACI-111",
+  "claimsDodatkowe": [],
+  "opis": "Czarna rzodkiew bez pomiaru — jak biała."
+ },
+ {
+  "productId": "radish",
+  "acidity": "low-acid",
+  "claim": "ACI-112",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "horseradish",
+  "acidity": "low-acid",
+  "claim": "ACI-113",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "celeriac-celery",
+  "acidity": "low-acid",
+  "claim": "ACI-114",
+  "claimsDodatkowe": [
+   "ACI-115"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "parsnip-parsley",
+  "acidity": "low-acid",
+  "claim": "ACI-116",
+  "claimsDodatkowe": [
+   "ACI-117"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "turnip-rutabaga",
+  "acidity": "low-acid",
+  "claim": "ACI-118",
+  "claimsDodatkowe": [],
+  "opis": "Brukiew bez osobnego pomiaru (FDA: turnip yellow cooked)."
+ },
+ {
+  "productId": "asparagus",
+  "acidity": "low-acid",
+  "claim": "ACI-119",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "fennel-artichoke",
+  "acidity": "low-acid",
+  "claim": "ACI-120",
+  "claimsDodatkowe": [
+   "ACI-121"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "corn",
+  "acidity": "low-acid",
+  "claim": "ACI-122",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "olives",
+  "acidity": "low-acid",
+  "claim": "ACI-123",
+  "claimsDodatkowe": [],
+  "opis": "Surowe oliwki; zielone fermentowane mają niższe pH (produkt przetworzony)."
+ },
+ {
+  "productId": "capers",
+  "acidity": "low-acid",
+  "claim": "ACI-124",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "ginger-turmeric",
+  "acidity": "low-acid",
+  "claim": "ACI-125",
+  "claimsDodatkowe": [
+   "ACI-005"
+  ],
+  "opis": "Kurkuma, galangal bez pomiaru — Ogólna reguła USDA (Guide 1)."
+ },
+ {
+  "productId": "european-mixed-veg",
+  "acidity": "low-acid",
+  "claim": "ACI-006",
+  "claimsDodatkowe": [
+   "ACI-005"
+  ],
+  "opis": "Mieszanka warzyw — najniższa kwasowość składników."
+ },
+ {
+  "productId": "balkan-oriental-mix",
+  "acidity": "low-acid",
+  "claim": "ACI-006",
+  "claimsDodatkowe": [
+   "ACI-094",
+   "ACI-095"
+  ],
+  "opis": "Papryka, bakłażan, warzywa — niskokwasowe."
+ },
+ {
+  "productId": "asian-american-mix",
+  "acidity": "low-acid",
+  "claim": "ACI-006",
+  "claimsDodatkowe": [
+   "ACI-005"
+  ],
+  "opis": "Mieszanka warzyw."
+ },
+ {
+  "productId": "apple",
+  "acidity": "acid",
+  "claim": "ACI-126",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "pear",
+  "acidity": "borderline",
+  "claim": "ACI-127",
+  "claimsDodatkowe": [
+   "ACI-064",
+   "ACI-063"
+  ],
+  "opis": "Gruszki europejskie do 4,60 (FDA, Bartlett); gruszki azjatyckie graniczne i wymagają zakwaszenia — najniższa kwasowość w grupie."
+ },
+ {
+  "productId": "quince",
+  "acidity": "acid",
+  "claim": "ACI-128",
+  "claimsDodatkowe": [],
+  "opis": "Pomiar FDA dla pigwy duszonej; pigwowiec bez pomiaru — Ogólna reguła USDA (Guide 1)."
+ },
+ {
+  "productId": "plum",
+  "acidity": "acid",
+  "claim": "ACI-129",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "mirabelle",
+  "acidity": "acid",
+  "claim": "ACI-130",
+  "claimsDodatkowe": [],
+  "opis": "Ałycza bez pomiaru — jak śliwki żółte."
+ },
+ {
+  "productId": "sour-cherry",
+  "acidity": "acid",
+  "claim": "ACI-131",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "sweet-cherry",
+  "acidity": "acid",
+  "claim": "ACI-132",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "peach-nectarine",
+  "acidity": "acid",
+  "claim": "ACI-133",
+  "claimsDodatkowe": [
+   "ACI-134"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "apricot",
+  "acidity": "borderline",
+  "claim": "ACI-135",
+  "claimsDodatkowe": [
+   "ACI-009"
+  ],
+  "opis": "FDA 3,30–4,80 (górna granica powyżej 4,6); NCHFP weckuje morele jako kwaśne bez dodatku kwasu — klasyfikacja ostrożna."
+ },
+ {
+  "productId": "cornelian-cherry",
+  "acidity": "acid",
+  "claim": "ACI-009",
+  "claimsDodatkowe": [],
+  "opis": "Brak pomiaru pH; Ogólna reguła USDA (Guide 1)."
+ },
+ {
+  "productId": "strawberry",
+  "acidity": "acid",
+  "claim": "ACI-136",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "raspberry-blackberry",
+  "acidity": "acid",
+  "claim": "ACI-137",
+  "claimsDodatkowe": [
+   "ACI-138"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "currant",
+  "acidity": "acid",
+  "claim": "ACI-009",
+  "claimsDodatkowe": [
+   "ACI-068"
+  ],
+  "opis": "Brak pomiaru FDA; porzeczki na liście NCHFP Berries whole (kąpiel wodna bez zakwaszania)."
+ },
+ {
+  "productId": "gooseberry",
+  "acidity": "acid",
+  "claim": "ACI-139",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "blueberry-bilberry",
+  "acidity": "acid",
+  "claim": "ACI-140",
+  "claimsDodatkowe": [],
+  "opis": "Jagoda leśna bez osobnego pomiaru."
+ },
+ {
+  "productId": "cranberry-lingonberry",
+  "acidity": "acid",
+  "claim": "ACI-141",
+  "claimsDodatkowe": [
+   "ACI-009"
+  ],
+  "opis": "Pomiar dla soku żurawinowego; brusznica bez pomiaru."
+ },
+ {
+  "productId": "chokeberry-seabuckthorn",
+  "acidity": "acid",
+  "claim": "ACI-009",
+  "claimsDodatkowe": [],
+  "opis": "Brak pomiaru pH; Ogólna reguła USDA (Guide 1)."
+ },
+ {
+  "productId": "elderberry-elderflower",
+  "acidity": "low-acid",
+  "claim": "ACI-009",
+  "claimsDodatkowe": [
+   "ACI-068",
+   "ACI-005"
+  ],
+  "opis": "Owoce bzu: brak pomiaru i brak na liście NCHFP Berries whole; kwiaty bzu — materiał roślinny bez pomiaru, traktowany jak niskokwasowy (uproszczenie: reguła dla świeżych warzyw). Najniższa kwasowość w grupie."
+ },
+ {
+  "productId": "rosehip-rowan",
+  "acidity": "acid",
+  "claim": "ACI-009",
+  "claimsDodatkowe": [],
+  "opis": "Brak pomiaru pH; Ogólna reguła USDA (Guide 1)."
+ },
+ {
+  "productId": "grapes",
+  "acidity": "acid",
+  "claim": "ACI-142",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "rhubarb",
+  "acidity": "acid",
+  "claim": "ACI-143",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "lemon",
+  "acidity": "acid",
+  "claim": "ACI-144",
+  "claimsDodatkowe": [],
+  "opis": null
+ },
+ {
+  "productId": "lime-bergamot",
+  "acidity": "acid",
+  "claim": "ACI-145",
+  "claimsDodatkowe": [],
+  "opis": "Bergamotka bez pomiaru."
+ },
+ {
+  "productId": "orange-kumquat",
+  "acidity": "acid",
+  "claim": "ACI-146",
+  "claimsDodatkowe": [
+   "ACI-147"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "grapefruit",
+  "acidity": "acid",
+  "claim": "ACI-148",
+  "claimsDodatkowe": [],
+  "opis": "Pomelo bez pomiaru."
+ },
+ {
+  "productId": "mango-papaya",
+  "acidity": "low-acid",
+  "claim": "ACI-149",
+  "claimsDodatkowe": [
+   "ACI-151",
+   "ACI-150",
+   "ACI-065"
+  ],
+  "opis": "Papaja i zielone mango niskokwasowe, dojrzałe mango graniczne; NCHFP wyklucza papaję i dojrzałe mango z przecierów."
+ },
+ {
+  "productId": "pineapple-banana",
+  "acidity": "low-acid",
+  "claim": "ACI-152",
+  "claimsDodatkowe": [
+   "ACI-153",
+   "ACI-065"
+  ],
+  "opis": "Ananas kwaśny, banan niskokwasowy — najniższa kwasowość w grupie."
+ },
+ {
+  "productId": "fig-pomegranate",
+  "acidity": "low-acid",
+  "claim": "ACI-154",
+  "claimsDodatkowe": [
+   "ACI-008",
+   "ACI-168",
+   "ACI-155"
+  ],
+  "opis": "Figi powyżej 4,6 (wymagają zakwaszenia), daktyle 4,14–4,88; granat kwaśny — najniższa: figi."
+ },
+ {
+  "productId": "watermelon-melon",
+  "acidity": "low-acid",
+  "claim": "ACI-156",
+  "claimsDodatkowe": [
+   "ACI-157",
+   "ACI-026",
+   "ACI-065"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "walnut-nuts",
+  "acidity": "low-acid",
+  "claim": "ACI-158",
+  "claimsDodatkowe": [],
+  "opis": "Orzechy laskowe, migdały bez pomiaru."
+ },
+ {
+  "productId": "boletes",
+  "acidity": "low-acid",
+  "claim": "ACI-159",
+  "claimsDodatkowe": [],
+  "opis": "Pomiar dla pieczarek; grzyby leśne bez pomiaru."
+ },
+ {
+  "productId": "chanterelle-milkcap",
+  "acidity": "low-acid",
+  "claim": "ACI-159",
+  "claimsDodatkowe": [],
+  "opis": "J.w."
+ },
+ {
+  "productId": "wild-mushrooms",
+  "acidity": "low-acid",
+  "claim": "ACI-159",
+  "claimsDodatkowe": [],
+  "opis": "J.w."
+ },
+ {
+  "productId": "cultivated-mushrooms",
+  "acidity": "low-acid",
+  "claim": "ACI-159",
+  "claimsDodatkowe": [
+   "ACI-160"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "wild-garlic",
+  "acidity": "low-acid",
+  "claim": "ACI-005",
+  "claimsDodatkowe": [
+   "ACI-106"
+  ],
+  "opis": "Liście czosnku niedźwiedziego bez pomiaru — Ogólna reguła USDA (Guide 1)."
+ },
+ {
+  "productId": "garden-herbs",
+  "acidity": "low-acid",
+  "claim": "ACI-117",
+  "claimsDodatkowe": [
+   "ACI-005"
+  ],
+  "opis": "Pomiar dla pietruszki; inne zioła bez pomiaru."
+ },
+ {
+  "productId": "foraged-blossoms",
+  "acidity": "low-acid",
+  "claim": "ACI-005",
+  "claimsDodatkowe": [],
+  "opis": "Pędy, kwiaty, mniszek: brak pomiarów; traktowane jak świeże warzywa (uproszczenie)."
+ },
+ {
+  "productId": "koji-ferments",
+  "acidity": "low-acid",
+  "claim": "ACI-161",
+  "claimsDodatkowe": [
+   "ACI-103"
+  ],
+  "opis": "Surowce: ryż, soja (przed fermentacją)."
+ },
+ {
+  "productId": "miso-garum",
+  "acidity": "low-acid",
+  "claim": "ACI-103",
+  "claimsDodatkowe": [
+   "ACI-005"
+  ],
+  "opis": "Soja, ryby — surowce niskokwasowe."
+ },
+ {
+  "productId": "mustard",
+  "acidity": "low-acid",
+  "claim": "ACI-162",
+  "claimsDodatkowe": [],
+  "opis": "FDA podaje 3,55–6,00 dla musztardy gotowej; ziarna bez pomiaru — najbezpieczniej niskokwasowe."
+ },
+ {
+  "productId": "artisanal-vinegars",
+  "acidity": "acid",
+  "claim": "ACI-163",
+  "claimsDodatkowe": [],
+  "opis": "Produkt (ocet) kwaśny; kwasowość octu domowego nieznana — nie do pikli (ACI alter)."
+ },
+ {
+  "productId": "fermented-beverages",
+  "acidity": "low-acid",
+  "claim": "ACI-164",
+  "claimsDodatkowe": [
+   "ACI-005"
+  ],
+  "opis": "Surowce (herbata, woda z cukrem, chleb) niskokwasowe; kwaśne dopiero po fermentacji."
+ },
+ {
+  "productId": "yogurt-skyr",
+  "acidity": "low-acid",
+  "claim": "ACI-165",
+  "claimsDodatkowe": [
+   "ACI-005"
+  ],
+  "opis": "Surowiec: mleko."
+ },
+ {
+  "productId": "kefir-cream",
+  "acidity": "low-acid",
+  "claim": "ACI-165",
+  "claimsDodatkowe": [
+   "ACI-005"
+  ],
+  "opis": "Surowiec: mleko/śmietana."
+ },
+ {
+  "productId": "quark-acid-cheese",
+  "acidity": "low-acid",
+  "claim": "ACI-165",
+  "claimsDodatkowe": [],
+  "opis": "Surowiec: mleko."
+ },
+ {
+  "productId": "fresh-brined-cheese",
+  "acidity": "low-acid",
+  "claim": "ACI-165",
+  "claimsDodatkowe": [],
+  "opis": "Surowiec: mleko."
+ },
+ {
+  "productId": "pasta-filata-cheese",
+  "acidity": "low-acid",
+  "claim": "ACI-165",
+  "claimsDodatkowe": [],
+  "opis": "Surowiec: mleko."
+ },
+ {
+  "productId": "aged-hard-cheese",
+  "acidity": "low-acid",
+  "claim": "ACI-165",
+  "claimsDodatkowe": [],
+  "opis": "Surowiec: mleko."
+ },
+ {
+  "productId": "mold-ripened-cheese",
+  "acidity": "low-acid",
+  "claim": "ACI-165",
+  "claimsDodatkowe": [],
+  "opis": "Surowiec: mleko."
+ },
+ {
+  "productId": "butter-whey-cheese",
+  "acidity": "low-acid",
+  "claim": "ACI-165",
+  "claimsDodatkowe": [],
+  "opis": "Surowiec: mleko/śmietana/serwatka."
+ },
+ {
+  "productId": "pork-loin-ham",
+  "acidity": "low-acid",
+  "claim": "ACI-005",
+  "claimsDodatkowe": [
+   "ACI-010"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "pork-shoulder-neck",
+  "acidity": "low-acid",
+  "claim": "ACI-005",
+  "claimsDodatkowe": [
+   "ACI-010"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "pork-belly-jowl",
+  "acidity": "low-acid",
+  "claim": "ACI-005",
+  "claimsDodatkowe": [
+   "ACI-010"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "smoked-cooked-sausages",
+  "acidity": "low-acid",
+  "claim": "ACI-005",
+  "claimsDodatkowe": [
+   "ACI-010"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "dry-cured-sausages",
+  "acidity": "low-acid",
+  "claim": "ACI-005",
+  "claimsDodatkowe": [
+   "ACI-010"
+  ],
+  "opis": "Surowiec mięsny; fermentacja salami obniża pH, ale surowiec niskokwasowy."
+ },
+ {
+  "productId": "beef-veal",
+  "acidity": "low-acid",
+  "claim": "ACI-005",
+  "claimsDodatkowe": [
+   "ACI-010"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "poultry",
+  "acidity": "low-acid",
+  "claim": "ACI-005",
+  "claimsDodatkowe": [
+   "ACI-010"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "game-lamb",
+  "acidity": "low-acid",
+  "claim": "ACI-005",
+  "claimsDodatkowe": [
+   "ACI-010"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "offal-pates",
+  "acidity": "low-acid",
+  "claim": "ACI-005",
+  "claimsDodatkowe": [
+   "ACI-010"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "sea-fish",
+  "acidity": "low-acid",
+  "claim": "ACI-005",
+  "claimsDodatkowe": [
+   "ACI-167"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "freshwater-fish",
+  "acidity": "low-acid",
+  "claim": "ACI-005",
+  "claimsDodatkowe": [
+   "ACI-010"
+  ],
+  "opis": null
+ },
+ {
+  "productId": "eggs",
+  "acidity": "low-acid",
+  "claim": "ACI-166",
+  "claimsDodatkowe": [],
+  "opis": null
+ }
+]

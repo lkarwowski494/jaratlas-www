@@ -1,0 +1,196 @@
+[
+ {
+  "id": "drying",
+  "thresholds": [
+   {
+    "wielkosc": "temperatura suszenia owoców i warzyw",
+    "wartosc": 60,
+    "jednostka": "°C",
+    "granica": "=",
+    "claim": "SUS-001"
+   },
+   {
+    "wielkosc": "temperatura suszenia ziół",
+    "wartosc": 46,
+    "jednostka": "°C",
+    "granica": "<=",
+    "claim": "SUS-031"
+   },
+   {
+    "wielkosc": "wilgotność końcowa suszu owocowego",
+    "wartosc": 20,
+    "jednostka": "%",
+    "granica": "<=",
+    "claim": "SUS-016"
+   },
+   {
+    "wielkosc": "wilgotność końcowa suszu warzywnego",
+    "wartosc": 10,
+    "jednostka": "%",
+    "granica": "<=",
+    "claim": "SUS-017"
+   },
+   {
+    "wielkosc": "czas kondycjonowania suszu owocowego",
+    "wartosc": 7,
+    "jednostka": "dni",
+    "granica": ">=",
+    "claim": "SUS-018"
+   },
+   {
+    "wielkosc": "minimalna temperatura suszenia owoców na słońcu",
+    "wartosc": 29,
+    "jednostka": "°C",
+    "granica": ">=",
+    "claim": "SUS-004"
+   },
+   {
+    "wielkosc": "wilgotność powietrza przy suszeniu na słońcu",
+    "wartosc": 60,
+    "jednostka": "%",
+    "granica": "<",
+    "claim": "SUS-005"
+   },
+   {
+    "wielkosc": "pasteryzacja suszu w zamrażarce: czas w -18°C lub niżej",
+    "wartosc": 48,
+    "jednostka": "h",
+    "granica": ">=",
+    "claim": "SUS-006"
+   },
+   {
+    "wielkosc": "pasteryzacja suszu w piekarniku: temperatura (30 min)",
+    "wartosc": 71,
+    "jednostka": "°C",
+    "granica": "=",
+    "claim": "SUS-007"
+   },
+   {
+    "wielkosc": "przechowywanie suszu owocowego w 16°C",
+    "wartosc": 12,
+    "jednostka": "mies.",
+    "granica": "<=",
+    "claim": "SUS-020"
+   },
+   {
+    "wielkosc": "przechowywanie suszu warzywnego w 16°C",
+    "wartosc": 6,
+    "jednostka": "mies.",
+    "granica": "<=",
+    "claim": "SUS-021"
+   },
+   {
+    "wielkosc": "przechowywanie skóry owocowej w temperaturze pokojowej",
+    "wartosc": 1,
+    "jednostka": "mies.",
+    "granica": "<=",
+    "claim": "SUS-028"
+   },
+   {
+    "wielkosc": "stężenie kwasu askorbinowego w kąpieli owoców",
+    "wartosc": 34,
+    "jednostka": "g/l",
+    "granica": "=",
+    "claim": "SUS-012"
+   },
+   {
+    "wielkosc": "aktywność wody bezpiecznego suszu",
+    "wartosc": null,
+    "pytanie": "Brak źródła szczebla 1–3 z docelowym aw dla domowego suszu; źródła podają wilgotność (20%/10%) i testy dotykowe."
+   }
+  ],
+  "regulyZakazu": [
+   {
+    "opis": "Nie suszyć warzyw (poza fasolą na krzaku) ani mięsa na wolnym powietrzu.",
+    "claim": "SUS-003"
+   },
+   {
+    "opis": "Nie używać sit ocynkowanych, miedzianych ani aluminiowych w kontakcie z żywnością.",
+    "claim": "SUS-008"
+   },
+   {
+    "opis": "Nie siarkować przez spalanie siarki (CSU; Clemson inaczej, patrz twierdzenie).",
+    "claim": "SUS-009"
+   },
+   {
+    "opis": "Nie stosować pirosiarczynu, gdy ktoś ze spożywających jest wrażliwy na siarczyny.",
+    "claim": "SUS-010"
+   },
+   {
+    "opis": "Nie suszyć dzikich grzybów bez identyfikacji przez eksperta; suszenie nie usuwa toksyn.",
+    "claim": "SUS-035"
+   },
+   {
+    "opis": "Nie jeść surowych (także suszonych na surowo) owoców bzu czarnego bez gotowania.",
+    "claim": "SUS-041"
+   },
+   {
+    "opis": "Nie traktować pakowania próżniowego jako metody utrwalania.",
+    "claim": "SUS-025"
+   },
+   {
+    "opis": "Nie pakować ciepłego suszu; spleśniały wyrzucić.",
+    "claim": "SUS-024"
+   },
+   {
+    "opis": "Nie zalewać suszonych warzyw/ziół olejem do przechowywania w temperaturze pokojowej bez przetestowanej metody.",
+    "claim": "SUS-045"
+   }
+  ]
+ },
+ {
+  "id": "freezing",
+  "thresholds": [
+   {
+    "wielkosc": "temperatura zamrażarki",
+    "wartosc": -18,
+    "jednostka": "°C",
+    "granica": "<=",
+    "claim": "SUS-050"
+   },
+   {
+    "wielkosc": "temperatura wody do schładzania po blanszowaniu",
+    "wartosc": 16,
+    "jednostka": "°C",
+    "granica": "<=",
+    "claim": "SUS-056"
+   },
+   {
+    "wielkosc": "czas powrotu wody do wrzenia przy blanszowaniu",
+    "wartosc": 1,
+    "jednostka": "min",
+    "granica": "<=",
+    "claim": "SUS-055"
+   },
+   {
+    "wielkosc": "przechowywanie mrożonych owoców i warzyw w -18°C (jakość)",
+    "wartosc": 12,
+    "jednostka": "mies.",
+    "granica": "<=",
+    "claim": "SUS-058"
+   },
+   {
+    "wielkosc": "temperatura, powyżej której rozmrożona żywność pozwala na wzrost bakterii",
+    "wartosc": 4,
+    "jednostka": "°C",
+    "granica": ">",
+    "claim": "SUS-059"
+   },
+   {
+    "wielkosc": "czasy blanszowania poszczególnych warzyw",
+    "wartosc": null,
+    "pytanie": "Tabela NCHFP (sha 0a2a5d52d040) do rozpisania na warianty, jeśli rodzina freezing wejdzie do v1."
+   }
+  ],
+  "regulyZakazu": [
+   {
+    "opis": "Nie rozmrażać w temperaturze pokojowej.",
+    "claim": "SUS-060"
+   },
+   {
+    "opis": "Nie niedoblanszowywać (gorsze niż brak blanszowania).",
+    "claim": "SUS-054"
+   }
+  ]
+ }
+]

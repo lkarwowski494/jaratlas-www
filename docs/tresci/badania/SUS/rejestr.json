@@ -1,0 +1,1331 @@
+[
+ {
+  "id": "SUS-001",
+  "twierdzenie": "Suszarki domowe są projektowane do suszenia w 140°F (60°C); owoce i warzywa suszy się w piekarniku lub suszarce w 140°F (60°C).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/food-dehydrators/",
+    "miejsce": "NCHFP, Food Dehydrators (So Easy to Preserve 6th ed.); akapit 1",
+    "cytat": "Dehydrators are efficiently designed to dry foods fast at 140ºF.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "75bb5c8d47f8"
+   },
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025); Drying Methods",
+    "cytat": "Dry at 140 degrees F (60°C) in an oven or dehydrator.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "a05dfedababc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura suszenia",
+  "wartosc": 60,
+  "jednostka": "°C",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-002",
+  "twierdzenie": "Zbyt niska temperatura na początku suszenia pozwala mikroorganizmom przeżyć, a nawet rosnąć, zanim produkt wyschnie.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "miejsce": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed); Introduction",
+    "cytat": "If the temperature is too low in the beginning, microorganisms may survive and even grow before the food is adequately dried.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1ce950ceecb5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-003",
+  "twierdzenie": "Suszenie warzyw (poza fasolą suszoną na krzaku) i mięsa na wolnym powietrzu nie jest zalecane; warzywa i mięso suszy się w kontrolowanych warunkach piekarnika lub suszarki.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/sun-drying/",
+    "miejsce": "NCHFP, Sun Drying; akapit 1",
+    "cytat": "Vegetables (with the exception of vine dried beans) and meats are not recommended for out-of-doors drying.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f5451a425618"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-004",
+  "twierdzenie": "Do suszenia owoców na słońcu potrzeba co najmniej 85°F (ok. 29°C); wyższa temperatura jest lepsza.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/sun-drying/",
+    "miejsce": "NCHFP, Sun Drying; akapit 2",
+    "cytat": "A minimum temperature of 85ºF is needed with higher temperatures being better.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f5451a425618"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie °F na °C zaokrąglone przez badacza",
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "minimalna temperatura suszenia na słońcu",
+  "wartosc": 29,
+  "jednostka": "°C",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-005",
+  "twierdzenie": "Do suszenia owoców na słońcu najlepsza jest wilgotność powietrza poniżej 60%.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/sun-drying/",
+    "miejsce": "NCHFP, Sun Drying; akapit 2",
+    "cytat": "A humidity below 60 percent is best.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f5451a425618"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "wilgotność względna powietrza",
+  "wartosc": 60,
+  "jednostka": "%",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-006",
+  "twierdzenie": "Produkty suszone na krzaku/słońcu pasteryzuje się przeciw owadom i ich jajom: w zamrażarce w 0°F (-18°C) lub niżej przez co najmniej 48 godzin.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/vine-drying/",
+    "miejsce": "NCHFP, Vine Drying; Pasteurization",
+    "cytat": "Place the bags in a freezer set at 0ºF or below and leave them at least 48 hours.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "577d1c2f6684"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "miejsce": "Clemson HGIC 3084 Drying Fruits (2024); Determining Dryness of Fruit",
+    "cytat": "If you’ve dried fruit out-of-doors, pasteurize it before packaging",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ac1029a3ba09"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie °F na °C zaokrąglone przez badacza",
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "czas pasteryzacji w zamrażarce",
+  "wartosc": 48,
+  "jednostka": "h",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-007",
+  "twierdzenie": "Alternatywna pasteryzacja suszu: pojedyncza warstwa w piekarniku nagrzanym do 160°F (ok. 71°C) przez 30 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/vine-drying/",
+    "miejsce": "NCHFP, Vine Drying; Pasteurization",
+    "cytat": "Place in an oven preheated to 160ºF for 30 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "577d1c2f6684"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie °F na °C zaokrąglone przez badacza",
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "pasteryzacja suszu w piekarniku",
+  "wartosc": 71,
+  "jednostka": "°C",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-008",
+  "twierdzenie": "Nie używać sit z siatki ocynkowanej (cynk, kadm) jako dna tac; unikać też siatek miedzianych i aluminiowych.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025); Drying Trays",
+    "cytat": "If preparing your own trays, do not use galvanized screening for tray bottoms.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "a05dfedababc"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/sun-drying/",
+    "miejsce": "NCHFP, Sun Drying; Equipment",
+    "cytat": "Also avoid copper and aluminum screening.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f5451a425618"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-009",
+  "twierdzenie": "Ze względów zdrowotnych i bezpieczeństwa nie siarkować owoców przez spalanie siarki (CSU). Clemson HGIC nadal opisuje siarkowanie na zewnątrz: sprzeczność na tym samym szczeblu.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025); Sodium Metabisulfite Pretreatment",
+    "cytat": "Due to health and safety concerns, do not use burning sulfur to pretreat fruits for drying.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "a05dfedababc"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "miejsce": "Clemson HGIC 3084 Drying Fruits (2024); Sulfuring",
+    "cytat": "Fruits must be sulfured out-of-doors where there is adequate air circulation.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ac1029a3ba09"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "część wspólna: siarczyny groźne dla osób wrażliwych; różnica: CSU zakazuje spalania siarki, Clemson je opisuje",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-010",
+  "twierdzenie": "Obróbka pirosiarczynem sodu nie jest zalecana, jeśli ktokolwiek ze spożywających ma znaną nadwrażliwość na siarczyny.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025); Sodium Metabisulfite Pretreatment",
+    "cytat": "Caution: Pretreating with sodium metabisulfite is not recommended if you or others who will be consuming the dried fruit have known sulfite sensitivity.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "a05dfedababc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-011",
+  "twierdzenie": "Obróbka wstępna owoców roztworem kwaśnym lub pirosiarczynem zwiększa niszczenie E. coli O157:H7, Salmonella i Listeria monocytogenes podczas suszenia.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025); Selecting and Pretreating Fruits",
+    "cytat": "Research studies have shown that pretreating with an acidic solution or sodium metabisulfite dip also enhances the destruction of potentially harmful bacteria during drying, including Escherichia coli O157:H7, Salmonella species and Listeria monocytogenes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "a05dfedababc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-012",
+  "twierdzenie": "Roztwór kwasu askorbinowego do owoców: 34 g (2,5 łyżki) czystego kwasu na 1 litr (1 kwartę) zimnej wody; moczyć 10 minut.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025); Ascorbic Acid Pretreatment",
+    "cytat": "Stir 2 1/2 tablespoons (34 grams) of pure ascorbic acid crystals into one quart (1000 milliliters) of cold water.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "a05dfedababc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "stężenie kwasu askorbinowego",
+  "wartosc": 34,
+  "jednostka": "g/l",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-013",
+  "twierdzenie": "Roztwór kwasu cytrynowego do owoców: 5 g (1 łyżeczka) na 1 litr zimnej wody; alternatywnie sok z cytryny z wodą 1:1; moczyć 10 minut.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025); Citric Acid or Lemon Juice Pretreatment",
+    "cytat": "Prepare the citric acid solution by stirring 1 teaspoon (5 grams) of citric acid into one quart (1000 milliliters) of cold water.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "a05dfedababc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "stężenie kwasu cytrynowego",
+  "wartosc": 5,
+  "jednostka": "g/l",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-014",
+  "twierdzenie": "Warzywa blanszuje się przed suszeniem, żeby zatrzymać enzymy i zwiększyć niszczenie mikroorganizmów.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "miejsce": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed); Quick facts",
+    "cytat": "Blanch vegetables before drying to stop enzyme action and enhance destruction of microorganisms.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1ce950ceecb5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-015",
+  "twierdzenie": "Owoce o twardej, woskowej skórce (winogrona, śliwki, wiśnie, figi, twarde jagody) przed suszeniem w całości „nacina się” wrzątkiem 30–60 s i schładza w bardzo zimnej wodzie.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025); Cracking Skins",
+    "cytat": "To crack skins, dip fruit in briskly boiling water for 30 to 60 seconds, then dip in very cold water.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "a05dfedababc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-016",
+  "twierdzenie": "Wilgotność domowego suszu owocowego powinna wynosić około 20%.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+    "miejsce": "NCHFP, Packaging and Storing Dried Foods; Conditioning Fruits",
+    "cytat": "The moisture content of home dried fruit should be about 20 percent.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b7e480dd8a3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "wilgotność suszu owocowego",
+  "wartosc": 20,
+  "jednostka": "%",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-017",
+  "twierdzenie": "Warzywa suszy się do stanu kruchego (łamliwego); zawierają wtedy około 10% wilgoci i nie wymagają kondycjonowania.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+    "miejsce": "NCHFP, Packaging and Storing Dried Foods; Determining Dryness of Vegetables",
+    "cytat": "At this stage, they should contain about 10 percent moisture.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b7e480dd8a3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "wilgotność suszu warzywnego",
+  "wartosc": 10,
+  "jednostka": "%",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-018",
+  "twierdzenie": "Kondycjonowanie owoców: luźno w zamkniętych słojach przez 7–10 dni, codziennie potrząsać (CSU: 4–10 dni).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+    "miejsce": "NCHFP, Packaging and Storing Dried Foods; Conditioning Fruits",
+    "cytat": "Seal the containers and let them stand for 7 to 10 days.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b7e480dd8a3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "CSU podaje 4–10 dni; wygrywa szczebel 1 (NCHFP)",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas kondycjonowania",
+  "wartosc": 7,
+  "jednostka": "dni",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-019",
+  "twierdzenie": "Jeśli podczas kondycjonowania w słoju pojawi się kondensacja, owoce wracają do suszarki.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+    "miejsce": "NCHFP, Packaging and Storing Dried Foods; Conditioning Fruits",
+    "cytat": "If condensation develops in the jar, return the fruit to the dehydrator for more drying.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b7e480dd8a3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-020",
+  "twierdzenie": "Większość suszonych owoców można przechowywać 1 rok w 60°F (ok. 16°C) i 6 miesięcy w 80°F (ok. 27°C); im cieplej, tym krócej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+    "miejsce": "NCHFP, Packaging and Storing Dried Foods; akapit o przechowywaniu",
+    "cytat": "Most dried fruits can be stored for 1 year at 60ºF, 6 months at 80ºF.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b7e480dd8a3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie °F na °C zaokrąglone przez badacza",
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "okres przechowywania suszu owocowego w 16°C",
+  "wartosc": 12,
+  "jednostka": "mies.",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-021",
+  "twierdzenie": "Susz warzywny ma około połowy trwałości suszu owocowego (Clemson: 6 miesięcy w 60°F, 3 miesiące w 80°F). Montana MSU podaje dla warzyw 1 rok/6 miesięcy: sprzeczność, wygrywa NCHFP.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+    "miejsce": "NCHFP, Packaging and Storing Dried Foods; akapit o przechowywaniu",
+    "cytat": "Vegetables have about half the shelf-life of fruits.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b7e480dd8a3"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "miejsce": "Clemson HGIC 3085 Drying Vegetables (2024); Packaging & Storing Dried Foods",
+    "cytat": "Vegetables have about half the shelf-life of fruits, and can generally be stored for six months at 60 °F or three months at 80 °F.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "124e1e8232d2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "MSU (szczebel 3) podaje dłużej; przyjęto NCHFP (szczebel 1)",
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "okres przechowywania suszu warzywnego w 16°C",
+  "wartosc": 6,
+  "jednostka": "mies.",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-022",
+  "twierdzenie": "Spleśniały susz należy wyrzucić; wyrzucić także susz o obcym zapachu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+    "miejsce": "NCHFP, Packaging and Storing Dried Foods; akapit o przechowywaniu",
+    "cytat": "Moldy foods should be discarded.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b7e480dd8a3"
+   },
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025); Packaging and Storage",
+    "cytat": "Discard foods that have off odors or show signs of mold.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "a05dfedababc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-023",
+  "twierdzenie": "Susz, który wchłonął wilgoć, ale nie jest zepsuty, zużyć od razu albo dosuszyć i zapakować ponownie; susz sprawdzać często (szkło pokazuje kondensację).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+    "miejsce": "NCHFP, Packaging and Storing Dried Foods; akapit o przechowywaniu",
+    "cytat": "Foods affected by moisture, but not spoiled, should be used immediately or redried and repackaged.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b7e480dd8a3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-024",
+  "twierdzenie": "Susz pakuje się dopiero po całkowitym ostygnięciu: ciepły produkt „poci się”, a ta wilgoć wystarcza do rozwoju pleśni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+    "miejsce": "NCHFP, Packaging and Storing Dried Foods; akapit 1",
+    "cytat": "Warm food causes sweating which could provide enough moisture for mold to grow.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b7e480dd8a3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-025",
+  "twierdzenie": "Pakowanie próżniowe nie jest samodzielną metodą utrwalania; usunięcie tlenu zwiększa ryzyko jadu kiełbasianego, a produkt wymagający chłodzenia nadal go wymaga.",
+  "zrodla": [
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "miejsce": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017); Vacuum Sealing",
+    "cytat": "Vacuum sealing foods can increase the shelf life of some foods, but it is NOT a food preservation method by itself.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "08d93d22a962"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-026",
+  "twierdzenie": "Skóra owocowa: na każde 2 szklanki jasnego przecieru 2 łyżeczki soku z cytryny albo 1/8 łyżeczki (375 mg) kwasu askorbinowego, przeciw ciemnieniu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/fruit-leathers/",
+    "miejsce": "NCHFP, Fruit Leathers; For Leathers from Fresh Fruit",
+    "cytat": "Add 2 tsp lemon juice OR 1/8 tsp (375mg) ascorbic acid for every",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b28118148d2c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-027",
+  "twierdzenie": "Skórę owocową rozprowadza się na ok. 1/8 cala (ok. 3 mm) i suszy w 140°F (60°C); sucha, gdy w środku nie zostaje odcisk palca.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/fruit-leathers/",
+    "miejsce": "NCHFP, Fruit Leathers; Drying the Leather",
+    "cytat": "Dry fruit leathers at 140ºF.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b28118148d2c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura suszenia skóry owocowej",
+  "wartosc": 60,
+  "jednostka": "°C",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-028",
+  "twierdzenie": "Skóra owocowa: do 1 miesiąca w temperaturze pokojowej; do 1 roku w zamrażarce, szczelnie owinięta.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/fruit-leathers/",
+    "miejsce": "NCHFP, Fruit Leathers; Drying the Leather",
+    "cytat": "If it does, it will keep up to 1 month at room temperature.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b28118148d2c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/mango-leather/",
+    "miejsce": "NCHFP, Mango Leather (przepis UGA/NCHFP); krok 6",
+    "cytat": "For longer storage up to 1 year, place tightly wrapped rolls in the freezer.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8e88a08479ac"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "przechowywanie skóry owocowej w temp. pokojowej",
+  "wartosc": 1,
+  "jednostka": "mies.",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-029",
+  "twierdzenie": "Skórę warzywną (dynia, pomidor, mieszanka warzyw) robi się z ugotowanego, przetartego przecieru i suszy w 140°F (60°C).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/vegetable-leathers/",
+    "miejsce": "NCHFP, Vegetable Leathers; akapit 1",
+    "cytat": "Purée cooked vegetables and strain.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8f6446bc2b2e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-030",
+  "twierdzenie": "Skórę z mango NCHFP suszy w suszarce w stałej temperaturze powietrza 140°F (60°C), ok. 10 godzin, warstwa 1/4 cala.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/mango-leather/",
+    "miejsce": "NCHFP, Mango Leather (przepis UGA/NCHFP); krok 4",
+    "cytat": "Maintain dehydrator air temperature steadily at 140°F.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8e88a08479ac"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-031",
+  "twierdzenie": "Zioła w suszarce: 95–115°F (ok. 35–46°C); w wilgotnym klimacie do 125°F (ok. 52°C); 1–4 godziny.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+    "miejsce": "NCHFP, Herbs (suszenie ziół); Dehydrator drying",
+    "cytat": "Pre-heat dehydrator with the thermostat set to 95°F to 115°F.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e3e1903fe031"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie °F na °C zaokrąglone przez badacza",
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "temperatura suszenia ziół",
+  "wartosc": 46,
+  "jednostka": "°C",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-032",
+  "twierdzenie": "Suszenie ziół na słońcu nie jest zalecane (utrata smaku i barwy; powód jakościowy).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+    "miejsce": "NCHFP, Herbs (suszenie ziół); akapit 1",
+    "cytat": "Sun drying is not recommended because the herbs can lose flavor and color.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e3e1903fe031"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-033",
+  "twierdzenie": "Ziele o miękkich liściach (bazylia, oregano, estragon, melisa, mięty) ma dużo wody i spleśnieje, jeśli nie wyschnie szybko.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+    "miejsce": "NCHFP, Herbs (suszenie ziół); Tender-Leaf Herbs",
+    "cytat": "Basil, oregano, tarragon, lemon balm and the mints have a high moisture content and will mold if not dried quickly.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e3e1903fe031"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-034",
+  "twierdzenie": "Pestki dyni: suszenie na słońcu, w suszarce 115–120°F (ok. 46–49°C) 1–2 h lub w piekarniku 3–4 h; prażenie suszonych pestek w 250°F (ok. 121°C) 10–15 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/pumpkin-seeds/",
+    "miejsce": "NCHFP, Pumpkin Seeds; akapit 1",
+    "cytat": "Pumpkin seeds can be dried in the sun, in a dehydrator at 115-120ºF for 1 to 2 hours, or in an oven on warm for 3 to 4 hours.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d774747984ac"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie °F na °C zaokrąglone przez badacza",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-035",
+  "twierdzenie": "Toksyny grzybów trujących nie są niszczone przez suszenie ani gotowanie; odróżnić gatunki jadalne od trujących może tylko ekspert.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "miejsce": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed); przypis do Table 2",
+    "cytat": "WARNING: The toxins of poisonous varieties of mushrooms are not destroyed by drying or by cooking.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1ce950ceecb5"
+   },
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "miejsce": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017); przypis *** do tabeli",
+    "cytat": "Only a certified expert can differentiate between poisonous and edible varieties.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "08d93d22a962"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-036",
+  "twierdzenie": "Grzyby do suszenia: oczyścić, kroić w plastry ok. 1/4 cala, bez blanszowania (CSU: zanurzenie 10 min w roztworze 1 łyżeczki kwasu cytrynowego na kwartę wody), suszyć 8–12 h do stanu suchego i skórzastego.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "miejsce": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed); Table 2, Mushrooms",
+    "cytat": "None 8-12 Dry and leathery",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1ce950ceecb5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-037",
+  "twierdzenie": "Czosnek do suszenia: obrać i drobno posiekać; bez innej obróbki wstępnej; 6–8 h w suszarce.",
+  "zrodla": [
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "miejsce": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017); Table 1, Garlic",
+    "cytat": "Peel and finely chop garlic bulbs. No other pretreatment is needed.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "08d93d22a962"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-038",
+  "twierdzenie": "Rzodkiewki są oceniane jako nienadające się do suszenia (niska jakość produktu; powód jakościowy, nie bezpieczeństwa).",
+  "zrodla": [
+   {
+    "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
+    "miejsce": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017); Vegetable Suitability for Drying",
+    "cytat": "Radishes Not recommended",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "08d93d22a962"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "ocena jakościowa, przypis 5: Product would be of low quality",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-039",
+  "twierdzenie": "Chipsy warzywne z cienko krojonych warzyw suszonych: cukinia, pomidor, dynia, pasternak, rzepa, ogórek, burak, marchew.",
+  "zrodla": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "miejsce": "Clemson HGIC 3085 Drying Vegetables (2024); Vegetables Chips",
+    "cytat": "Vegetables to try include zucchini, tomato, squash, parsnip, turnip, cucumber, beet or carrot chips.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "124e1e8232d2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "ogólne zalecenie bez osobnej tabeli czasu; suszyć jak warzywa do stanu kruchego",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-040",
+  "twierdzenie": "Proszki warzywne robi się, mieląc całkowicie wysuszone warzywa w młynku, malakserze lub blenderze; najczęstsze: cebula, seler, pomidor.",
+  "zrodla": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
+    "miejsce": "Clemson HGIC 3085 Drying Vegetables (2024); Vegetable Flakes & Powders",
+    "cytat": "Powders are finer than flakes and are made by using a food mill, food processor or blender.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "124e1e8232d2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-041",
+  "twierdzenie": "Owoce bzu czarnego można bezpiecznie suszyć na surowo, ale przed spożyciem trzeba je ugotować (glikozydy cyjanogenne, ryzyko zatrucia cyjankiem).",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/catalog/pub/em-9446-play-it-safe-when-preserving-elderberries",
+    "miejsce": "Oregon State Univ. Extension EM 9446 (2024), elderberries; Freezing and drying elderberries",
+    "cytat": "Elderberries can safely be frozen and dried raw but must be cooked before being consumed to prevent risk of cyanide poisoning.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0528262f69a5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-042",
+  "twierdzenie": "Czarny czosnek powstaje przez długie przetrzymywanie surowego czosnku w wysokiej temperaturze (60–90°C) i wilgotności (70–90%).",
+  "zrodla": [
+   {
+    "adres": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8401630/",
+    "miejsce": "Molecules 2021, 26:5028 (PMC8401630), przegląd: czarny czosnek; Abstract",
+    "cytat": "under high temperature (60–90 °C) and humidity (70–90%) for a period of time",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "241aa77d7b69"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "SUS-043",
+  "twierdzenie": "Parametry produkcji czarnego czosnku w literaturze nie są ujednolicone: 30–90°C, 50–90% wilgotności względnej, 10–80 dni.",
+  "zrodla": [
+   {
+    "adres": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8401630/",
+    "miejsce": "Molecules 2021, 26:5028 (PMC8401630), przegląd: czarny czosnek; Thermal Processing of Black Garlic",
+    "cytat": "BG is commonly processed in temperature ranges between 30–90 °C, 50–90% relative humidity, and an incubation period of 10–80 days",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "241aa77d7b69"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SUS-044",
+  "twierdzenie": "W czarnym czosnku (60°C, 90% RH, 45 dni) aktywność wody spadła tylko z 0,97 do 0,93: produkt nie jest suszem o niskiej aktywności wody.",
+  "zrodla": [
+   {
+    "adres": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8401630/",
+    "miejsce": "Molecules 2021, 26:5028 (PMC8401630), przegląd: czarny czosnek; Thermal Processing of Black Garlic",
+    "cytat": "water activity declined slightly from 0.97 to 0.93.",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "241aa77d7b69"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "wniosek „nie jest suszem” jest interpretacją badacza",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "aktywność wody czarnego czosnku",
+  "wartosc": 0.93,
+  "jednostka": "aw"
+ },
+ {
+  "id": "SUS-045",
+  "twierdzenie": "Użycie suszonego czosnku i ziół (niższa aktywność wody) nie gwarantuje, że składniki są dość suche, by olej z nimi był bezpieczny (jad kiełbasiany).",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+    "miejsce": "UGA Extension C1334, How to Safely Make Infused Oils; Nonacidified Dried or Fresh Garlic and Herbs",
+    "cytat": "Note: Using dried garlic and herbs, which have little available water (lower water activity), still does not ensure that your ingredients are dried enough to provide a safe product.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9f600ac4721f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-046",
+  "twierdzenie": "Czosnek w oleju trzymany w temperaturze pokojowej grozi jadem kiełbasianym; przechowywać w lodówce w 40°F (ok. 4°C) lub niżej najwyżej 4 dni albo zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/",
+    "miejsce": "NCHFP, Freezing Garlic-in-Oil; akapit 1",
+    "cytat": "Garlic-in-oil should be made fresh and stored in the refrigerator at 40°F or lower for no more than 4 days.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8849be649751"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie °F na °C zaokrąglone przez badacza",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "przechowywanie czosnku w oleju w lodówce",
+  "wartosc": 4,
+  "jednostka": "dni",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-047",
+  "twierdzenie": "Jerky: temperatura wewnątrz mięsa musi osiągnąć 160°F (ok. 71°C), z ominięciem stwardnienia powierzchni (dla klastra MIE).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/recipes/jerky/",
+    "miejsce": "NCHFP, Jerky; akapit o bezpieczeństwie",
+    "cytat": "The risk of foodborne illness from home-dried jerky can be decreased by allowing the internal temperature of the meat to reach 160ºF, but in such a way as to prevent case hardening.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8fb348ee429a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie °F na °C zaokrąglone przez badacza",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura wewnętrzna mięsa jerky",
+  "wartosc": 71,
+  "jednostka": "°C",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-048",
+  "twierdzenie": "Fasolę (w tym soję) suszy się na krzaku, aż nasiona grzechoczą w strąkach; wilgotne nasiona trzeba dosuszyć, inaczej spleśnieją.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/vine-drying/",
+    "miejsce": "NCHFP, Vine Drying; akapit 1",
+    "cytat": "leave bean pods on the vine in the garden until the beans inside rattle.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "577d1c2f6684"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-050",
+  "twierdzenie": "Zamraża się w 0°F (-18°C) lub niżej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/freezing-pointers/",
+    "miejsce": "NCHFP, Freezing Pointers; Freezing Pointers",
+    "cytat": "Freeze foods at 0°F or lower.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "75f97ffdfe0a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie °F na °C zaokrąglone przez badacza",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura zamrażarki",
+  "wartosc": -18,
+  "jednostka": "°C",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-051",
+  "twierdzenie": "Do szybszego mrożenia ustawić zamrażarkę na -10°F (ok. -23°C) lub niżej około 24 h wcześniej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/freezing-pointers/",
+    "miejsce": "NCHFP, Freezing Pointers; Freezing Pointers",
+    "cytat": "To facilitate more rapid freezing, set the temperature control at -10°F or lower about 24 hours in advance.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "75f97ffdfe0a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie °F na °C zaokrąglone przez badacza",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-052",
+  "twierdzenie": "Nie przeładowywać zamrażarki: dodawać tylko tyle, ile zamarznie w 24 h, zwykle 2–3 funty na stopę sześcienną (ok. 32–48 kg/m³).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/freezing-pointers/",
+    "miejsce": "NCHFP, Freezing Pointers; Freezing Pointers",
+    "cytat": "Add only the amount that will freeze within 24 hours, which is usually 2 to 3 pounds of food per cubic foot of storage space.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "75f97ffdfe0a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie na kg/m³ przez badacza",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-053",
+  "twierdzenie": "Blanszowanie jest konieczne dla prawie wszystkich warzyw przeznaczonych do mrożenia (zatrzymuje enzymy).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/blanching-vegetables/",
+    "miejsce": "NCHFP, Blanching Vegetables; akapit 1",
+    "cytat": "Blanching (scalding vegetables in boiling water or steam for a short time) is a must for almost all vegetables to be frozen.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0a2a5d52d040"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-054",
+  "twierdzenie": "Niedoblanszowanie pobudza enzymy i jest gorsze niż brak blanszowania.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/blanching-vegetables/",
+    "miejsce": "NCHFP, Blanching Vegetables; akapit 1",
+    "cytat": "Underblanching stimulates the activity of enzymes and is worse than no blanching.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0a2a5d52d040"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-055",
+  "twierdzenie": "Blanszowanie w wodzie: 1 galon (ok. 3,8 l) wody na funt (ok. 0,45 kg) warzyw; woda musi wrócić do wrzenia w ciągu 1 minuty, czas liczy się od ponownego wrzenia.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/blanching-vegetables/",
+    "miejsce": "NCHFP, Blanching Vegetables; Water Blanching",
+    "cytat": "The water should return to boiling within 1 minute, or you are using too much vegetable for the amount of boiling water.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0a2a5d52d040"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie jednostek przez badacza",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-056",
+  "twierdzenie": "Po blanszowaniu schładzać od razu w dużej ilości zimnej wody 60°F (ok. 16°C) lub zimniejszej, przez tyle samo czasu co blanszowanie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/blanching-vegetables/",
+    "miejsce": "NCHFP, Blanching Vegetables; Cooling",
+    "cytat": "Cooling vegetables should take the same amount of time as blanching.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0a2a5d52d040"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie °F na °C zaokrąglone przez badacza",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-057",
+  "twierdzenie": "Blanszowanie w mikrofalówce może nie inaktywować części enzymów.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/blanching-vegetables/",
+    "miejsce": "NCHFP, Blanching Vegetables; Microwave Blanching",
+    "cytat": "Microwave blanching may not be effective, since research shows that some enzymes may not be inactivated.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0a2a5d52d040"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-058",
+  "twierdzenie": "Owoce i warzywa przechowuje się w 0°F (-18°C) orientacyjnie 8–12 miesięcy; po tym czasie są nadal bezpieczne, tylko gorszej jakości.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/how-long-can-i-store-frozen-foods/",
+    "miejsce": "NCHFP, How Long Can I Store Frozen Foods; tabela",
+    "cytat": "After these times, the food should still be safe, just lower in quality.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "71d9ddf2b0a8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wielkosc": "okres przechowywania mrożonych owoców i warzyw",
+  "wartosc": 12,
+  "jednostka": "mies.",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-059",
+  "twierdzenie": "Żywność zamrożona jest bezpieczna, dopóki pozostaje zamrożona; po rozmrożeniu powyżej 40°F (ok. 4°C) bakterie obecne przed zamrożeniem mogą się namnażać.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/thawing-and-preparing-foods-for-serving/",
+    "miejsce": "NCHFP, Thawing and Preparing Foods; akapit 1",
+    "cytat": "as soon as food begins to defrost and become warmer than 40°F, any bacteria that may have been present before freezing can begin to multiply.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0dd6396f258c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie °F na °C zaokrąglone przez badacza",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-060",
+  "twierdzenie": "Rozmrażanie w temperaturze pokojowej zwiększa ryzyko rozwoju bakterii i zepsucia.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/thawing-and-preparing-foods-for-serving/",
+    "miejsce": "NCHFP, Thawing and Preparing Foods; akapit o rozmrażaniu",
+    "cytat": "There is greater danger of bacterial growth and food spoilage for food thawed at room temperature.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0dd6396f258c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SUS-061",
+  "twierdzenie": "Grzyby do mrożenia: po zanurzeniu przeciw ciemnieniu blanszować parą: całe 5 min, ćwiartki 3,5 min, plastry 3 min (albo podsmażyć).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-mushrooms/",
+    "miejsce": "NCHFP, Freezing Mushrooms; To Steam",
+    "cytat": "Then steam whole mushrooms 5 minutes, buttons or quarters 31/2 minutes and slices 3 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "616a728226ff"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ }
+]

@@ -1,0 +1,75 @@
+[
+ {"id": "fermented-beverages",
+  "thresholds": [
+   {"wielkosc": "pH płynu startowego kombuchy", "wartosc": 4.0, "jednostka": "pH", "granica": "<=", "claim": "NAP-001"},
+   {"wielkosc": "temperatura herbaty przy dodaniu SCOBY", "wartosc": 95, "jednostka": "°F", "granica": "<", "claim": "NAP-006"},
+   {"wielkosc": "czas fermentacji kombuchy F1 (przepis NCHFP)", "wartosc": "7-10", "jednostka": "dni", "granica": "=", "claim": "NAP-002"},
+   {"wielkosc": "czas dojścia kombuchy do pH 4,2 (inaczej wyrzucić)", "wartosc": 7, "jednostka": "dni", "granica": "<=", "claim": "NAP-018"},
+   {"wielkosc": "pH gotowej kombuchy/jun (górna granica)", "wartosc": 4.2, "jednostka": "pH", "granica": "<=", "claim": "NAP-015"},
+   {"wielkosc": "pH gotowej kombuchy/jun (dolna granica)", "wartosc": 2.5, "jednostka": "pH", "granica": ">=", "claim": "NAP-016"},
+   {"wielkosc": "przechowywanie kombuchy w lodówce", "wartosc": 30, "jednostka": "dni", "granica": "<=", "claim": "NAP-003"},
+   {"wielkosc": "kombucha z dodatkami po fermentacji, w lodówce", "wartosc": 2, "jednostka": "dni", "granica": "<=", "claim": "NAP-005"},
+   {"wielkosc": "temperatura przechowywania niepasteryzowanej kombuchy (NY, obrót)", "wartosc": 41, "jednostka": "°F", "granica": "<=", "claim": "NAP-019"},
+   {"wielkosc": "alkohol – próg napoju bezalkoholowego USA (TTB)", "wartosc": 0.5, "jednostka": "% obj.", "granica": "<", "claim": "NAP-011"},
+   {"wielkosc": "alkohol – próg obowiązkowego znakowania UE (1169/2011)", "wartosc": 1.2, "jednostka": "% obj.", "granica": ">", "claim": "NAP-026"},
+   {"wielkosc": "zawartość alkoholu w domowym kefirze wodnym, piwie imbirowym, kwasie chlebowym, tepache", "wartosc": null, "pytanie": "Brak liczb ze źródeł szczebla 1–3 dla tych napojów; tylko jakościowo (NAP-023, NAP-024)."},
+   {"wielkosc": "bezpieczna procedura drugiej fermentacji w butelce (F2)", "wartosc": null, "pytanie": "Brak przetestowanego czasu/temperatury F2; NCHFP podaje tylko mieszanie po fermentacji i 2 dni w lodówce."}
+  ],
+  "regulyZakazu": [
+   {"opis": "Nie fermentować ani nie przechowywać kombuchy (i innych kwaśnych napojów) w glazurowanej ceramice; ołowiu nie usuwa mycie ani gotowanie.", "claim": "NAP-007"},
+   {"opis": "Ceramika nieznanego pochodzenia, ręcznie robiona, antyczna, uszkodzona lub z targu: nie do żywności, chyba że test wykluczy ołów.", "claim": "NAP-009"},
+   {"opis": "Nie nastawiać kombuchy na płynie startowym o pH wyższym niż 4,0.", "claim": "NAP-001"},
+   {"opis": "Wyrzucić kombuchę i SCOBY z suchymi, puszystymi plamami pleśni.", "claim": "NAP-021"},
+   {"opis": "Nie podawać kombuchy o pH poniżej 2,5.", "claim": "NAP-016"},
+   {"opis": "Nie przechowywać kombuchy w szczelnych butelkach bez kontroli ciśnienia (ryzyko wybuchu).", "claim": "NAP-004"},
+   {"opis": "Do kefiru (także wodnego) tylko pasteryzowane mleko i sok.", "claim": "NAP-025"}
+  ]
+ },
+ {"id": "vinegar-making",
+  "thresholds": [
+   {"wielkosc": "kwasowość octu do marynat i wekowania", "wartosc": 5, "jednostka": "%", "granica": ">=", "claim": "NAP-028"},
+   {"wielkosc": "temperatura fermentacji octu z cydru", "wartosc": "60-80", "jednostka": "°F", "granica": "=", "claim": "NAP-032"},
+   {"wielkosc": "czas fermentacji octu z cydru", "wartosc": "3-4", "jednostka": "tygodnie", "granica": "=", "claim": "NAP-033"},
+   {"wielkosc": "temperatura pasteryzacji octu (min.)", "wartosc": 140, "jednostka": "°F", "granica": ">=", "claim": "NAP-034"},
+   {"wielkosc": "temperatura pasteryzacji octu (maks.)", "wartosc": 160, "jednostka": "°F", "granica": "<=", "claim": "NAP-034"},
+   {"wielkosc": "temperatura octu przy zalewaniu ziół/owoców (ocet smakowy)", "wartosc": "190-195", "jednostka": "°F", "granica": ">=", "claim": "NAP-038"},
+   {"wielkosc": "trwałość octu smakowego w chłodnym miejscu", "wartosc": 3, "jednostka": "miesiące", "granica": "<=", "claim": "NAP-039"},
+   {"wielkosc": "trwałość octu smakowego w lodówce", "wartosc": "6-8", "jednostka": "miesiące", "granica": "<=", "claim": "NAP-039"},
+   {"wielkosc": "kwasowość domowego octu fermentowanego", "wartosc": null, "pytanie": "Nieznana i zmienna; czy karta może wskazać pomiar (miareczkowanie) jako warunek użycia do marynat? Źródła tego nie dopuszczają."},
+   {"wielkosc": "proporcja warzyw do octu w fire cider / oksymelu", "wartosc": null, "pytanie": "Brak przetestowanej proporcji; źródło ostrzega, że nadmiar warzyw niszczy kwas (NAP-036)."}
+  ],
+  "regulyZakazu": [
+   {"opis": "Domowego octu (i octu o nieznanej kwasowości) nie używać do marynat, wekowania ani przetworów trzymanych w temperaturze pokojowej.", "claim": "NAP-030"},
+   {"opis": "Nie używać octu o nieznanej kwasowości ani nie zmieniać proporcji octu w przepisach.", "claim": "NAP-027"},
+   {"opis": "Do octów smakowych tylko ocet komercyjny.", "claim": "NAP-037"},
+   {"opis": "Nie robić ani nie przechowywać octu w naczyniach metalowych.", "claim": "NAP-035"},
+   {"opis": "Ocet smakowy z pleśnią lub oznakami fermentacji wyrzucić bez próbowania.", "claim": "NAP-041"},
+   {"opis": "Octu ziołowego bez 5% kwasowości nie używać do pikli.", "claim": "NAP-042"}
+  ]
+ },
+ {"id": "koji-soy-ferments",
+  "thresholds": [
+   {"wielkosc": "pH produktów koji/miso (niekwaśne)", "wartosc": 4.6, "jednostka": "pH", "granica": ">", "claim": "NAP-049"},
+   {"wielkosc": "czas chłodzenia ugotowanego ziarna/soi przed zaszczepieniem", "wartosc": 2, "jednostka": "h", "granica": "<=", "claim": "NAP-052"},
+   {"wielkosc": "temperatura zaszczepienia koji", "wartosc": 35, "jednostka": "°C", "granica": "<=", "claim": "NAP-053"},
+   {"wielkosc": "temperatura hodowli koji", "wartosc": 40, "jednostka": "°C", "granica": "<", "claim": "NAP-053"},
+   {"wielkosc": "aw miso i shio koji", "wartosc": 0.85, "jednostka": "aw", "granica": "<=", "claim": "NAP-054"},
+   {"wielkosc": "sól w miso", "wartosc": 4, "jednostka": "%", "granica": ">", "claim": "NAP-054"},
+   {"wielkosc": "sól w sosie sojowym", "wartosc": 18, "jednostka": "%", "granica": ">=", "claim": "NAP-055"},
+   {"wielkosc": "temperatura inkubacji amazake", "wartosc": 50, "jednostka": "°C", "granica": ">", "claim": "NAP-056"},
+   {"wielkosc": "temperatura fermentacji natto", "wartosc": "40-50", "jednostka": "°C", "granica": "=", "claim": "NAP-059"},
+   {"wielkosc": "chłodzenie natto po fermentacji do 10°C", "wartosc": 4, "jednostka": "h", "granica": "<=", "claim": "NAP-059"},
+   {"wielkosc": "temperatura hodowli tempeh", "wartosc": 42, "jednostka": "°C", "granica": "<=", "claim": "NAP-060"},
+   {"wielkosc": "sól w sosie rybnym (Codex)", "wartosc": 200, "jednostka": "g/l", "granica": ">=", "claim": "NAP-045"},
+   {"wielkosc": "histamina w sosie rybnym (Codex)", "wartosc": 40, "jednostka": "mg/100 g", "granica": "<=", "claim": "NAP-046"},
+   {"wielkosc": "zasolenie i temperatura domowego garum z koji (ryba, mięso)", "wartosc": null, "pytanie": "Brak źródła szczebla 1–3 dla garum z koji o niższej soli i inkubacji w cieple."},
+   {"wielkosc": "czas i warunki przechowywania domowego miso/shoyu", "wartosc": null, "pytanie": "BCCDC podaje tylko aw; brak przetestowanego przepisu domowego."}
+  ],
+  "regulyZakazu": [
+   {"opis": "Tylko komercyjne kultury Aspergillus; nie odnawiać koji z poprzedniej partii (backslopping) – ryzyko dzikich szczepów z aflatoksynami.", "claim": "NAP-051"},
+   {"opis": "Tylko komercyjna kultura Rhizopus do tempeh.", "claim": "NAP-060"},
+   {"opis": "Nie robić tempeh z kokosa (mleko, makuch) – kwas bongkrekowy.", "claim": "NAP-061"},
+   {"opis": "Garum/sos rybny domowy: karta tylko jako ostrzeżenie (botulizm typu E z fermentowanych ryb).", "claim": "NAP-047"}
+  ]
+ }
+]

@@ -1,0 +1,1378 @@
+[
+ {
+  "id": "SZY-001",
+  "twierdzenie": "Żywność niskokwasowa ma pH wyższe niż 4,6; obejmuje mięso czerwone, owoce morza i ryby, drób, mleko i wszystkie świeże warzywa poza większością pomidorów (USA, USDA/NCHFP).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/ensuring-safe-canned-foods/",
+    "miejsce": "treść strony",
+    "cytat": "Low-acid foods have pH values higher than 4.6. They include red meats, seafood, poultry, milk, and all fresh vegetables except for most tomatoes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "83e3c63c1dad"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "pH",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-002",
+  "twierdzenie": "Większość mieszanin żywności niskokwasowej i kwaśnej ma pH powyżej 4,6, chyba że przepis zawiera dość soku z cytryny, kwasu cytrynowego lub octu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/ensuring-safe-canned-foods/",
+    "miejsce": "treść strony",
+    "cytat": "Most mixtures of low-acid and acid foods also have pH values above 4.6 unless their recipes include enough lemon juice, citric acid, or vinegar to make them acid foods.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "83e3c63c1dad"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-003",
+  "twierdzenie": "Całą żywność niskokwasową należy sterylizować w 240–250 °F (ok. 116–121 °C), osiągalnych w szybkowarze do wekowania pracującym przy 10–15 PSIG (USA, USDA/NCHFP).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/ensuring-safe-canned-foods/",
+    "miejsce": "treść strony",
+    "cytat": "all low-acid foods should be sterilized at temperatures of 240° to 250°F, attainable with pressure canners operated at 10 to 15 PSIG.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "83e3c63c1dad"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 1, Principles of Home Canning",
+    "cytat": "at temperatures of 240° to 250°F, attainable with pressure canners operated at 10 to 15 PSIG. PSIG",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie °F→°C nasze (240 °F ≈ 115,6 °C; 250 °F ≈ 121,1 °C).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "temperatura sterylizacji",
+  "wartosc": "240-250",
+  "jednostka": "°F",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-004",
+  "twierdzenie": "Przetrwalniki jadu kiełbasianego (C. botulinum) bardzo trudno zniszczyć w temperaturze wrzącej wody; im wyższa temperatura w urządzeniu, tym łatwiej giną.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/ensuring-safe-canned-foods/",
+    "miejsce": "treść strony",
+    "cytat": "Botulinum spores are very hard to destroy at boiling-water temperatures; the higher the canner temperature, the more easily they are destroyed.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "83e3c63c1dad"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-005",
+  "twierdzenie": "W 240–250 °F czas potrzebny do zniszczenia bakterii w żywności niskokwasowej wynosi 20–100 min; w kąpieli wodnej (wrzątek) ten czas wynosiłby 7–11 godzin. NCHFP nie podaje żadnej procedury kąpieli wodnej dla żywności niskokwasowej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/ensuring-safe-canned-foods/",
+    "miejsce": "treść strony",
+    "cytat": "The time needed to safely process low-acid foods in a boiling-water canner ranges from 7 to 11 hours",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "83e3c63c1dad"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Liczba 7–11 h to wartość teoretyczna z wytycznych, nie przetestowana procedura; nie wolno jej podawać jako przepisu.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas w kąpieli wodnej (teoretyczny)",
+  "wartosc": "7-11",
+  "jednostka": "h"
+ },
+ {
+  "id": "SZY-006",
+  "twierdzenie": "Wekowanie w szybkowarze (pressure canning) to jedyna zalecana metoda wekowania mięsa, drobiu, ryb i owoców morza oraz warzyw; kąpiel wodna dla tych produktów oznacza realne ryzyko zatrucia jadem kiełbasianym.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/for-safetys-sake/",
+    "miejsce": "treść strony",
+    "cytat": "Pressure canning is the only recommended method for canning meat, poultry, seafood, and vege",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21e6a8033f3c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/for-safetys-sake/",
+    "miejsce": "treść strony",
+    "cytat": "Using boiling water canners for these foods poses a real risk of botulism poisoning.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21e6a8033f3c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Cytat 1 urwany na znaku miękkiego dzielenia w słowie „vege­tables” w źródle.",
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-007",
+  "twierdzenie": "NCHFP zaleca wekować żywność niskokwasową i pomidory wyłącznie według procedur USDA Complete Guide to Home Canning (2015) lub innych zaleceń zatwierdzonych przez USDA.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/for-safetys-sake/",
+    "miejsce": "treść strony",
+    "cytat": "The recommendation is to only can low-acid foods and tomatoes and tomato products according to the procedures in the USDA",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21e6a8033f3c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-008",
+  "twierdzenie": "C. botulinum może wytworzyć toksynę w ciągu 3–4 dni wzrostu w środowisku: wilgotna żywność niskokwasowa, temperatura 40–120 °F (ok. 4–49 °C), mniej niż 2% tlenu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/ensuring-safe-canned-foods/",
+    "miejsce": "treść strony",
+    "cytat": "may produce a deadly toxin within 3 to 4 days of growth in an environment consisting of: a moist, low-acid food a temperature between 40° and 120°F less than 2 percent oxygen",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "83e3c63c1dad"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie °F→°C nasze.",
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-009",
+  "twierdzenie": "Tyndalizacja (wielokrotne ogrzewanie z przerwami na kiełkowanie przetrwalników) nie jest uznawana za w pełni niezawodną, bo część przetrwalników (superdormant) nie kiełkuje między ogrzewaniami.",
+  "zrodla": [
+   {
+    "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6328458/fullTextXML",
+    "miejsce": "Front. Microbiol. 2018; doi:10.3389/fmicb.2018.03163, wstęp",
+    "cytat": "the tyndallization strategy is based on a germination-inactivation concept ( Tyndall, 1877 ), and is considered to not be fully reliable due to the presence of superdormant spores",
+    "odczyt": "2026-11-01",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "3d0885c9befc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-010",
+  "twierdzenie": "Wekowanie metodą „open kettle” (gorące do słoika i zakręcenie bez obróbki) oraz obróbka słoików w piekarniku, mikrofalówce i zmywarce nie są zalecane, bo nie usuwają wszystkich ryzyk zepsucia.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/equipment-and-methods-not-recommended/",
+    "miejsce": "treść strony",
+    "cytat": "Open-kettle canning and the processing of freshly filled jars in conventional ovens, microwave ovens, and dishwashers are not recommended, because these practices do not prevent all risks of spoilage.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "caf9fae9a56d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-011",
+  "twierdzenie": "Wekowanie w piekarniku jest skrajnie niebezpieczne; produkt w odkrytych słoikach nie przekracza temperatury wrzenia, więc metoda nie nadaje się do żywności niskokwasowej (mięso, większość warzyw).",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-10/337831.pdf",
+    "miejsce": "UC ANR (przedruk), Canners and Canning Methods that are Not Recommended",
+    "cytat": "Oven Canning is extremely hazardous.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f40e857907b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-012",
+  "twierdzenie": "Wekowanie warzyw lub kawałków żywności bez płynu zalewowego użytego w badaniach procesu („dry canning”) może skutkować niedogrzaniem, a w przypadku warzyw ryzykiem jadu kiełbasianego.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/equipment-and-methods-not-recommended/",
+    "miejsce": "treść strony",
+    "cytat": "Canning vegetables or any food pieces without the covering liquid that was used in process research can result in under-processing and in the case of vegetables, a risk of botulism.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "caf9fae9a56d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-013",
+  "twierdzenie": "Do słoików w przetestowanych procesach nie należy dodawać masła, ghee ani innych składników, których oryginalna instrukcja nie przewiduje.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/blog/dry-canning-raw-vegetables-is-an-unsafe-practice",
+    "miejsce": "treść strony",
+    "cytat": "And these should not be added to the jars even with liquid in research-based processes if not called for in the original instructions.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "500937e37e2c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-014",
+  "twierdzenie": "Nie wolno wekować w domu przecierów (puree) z warzyw, mięsa czerwonego ani drobiu, bo nie ustalono dla nich czasów obróbki; należy wekować standardowo i miksować przed podaniem.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 1, Principles of Home Canning",
+    "cytat": "Caution: Do not attempt to can pureed vegetables, red meats, or poultry meats, because",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 1, Principles of Home Canning",
+    "cytat": "proper processing times for pureed foods have not been determined for home use.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "608bd2ea78e5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-015",
+  "twierdzenie": "Domowe wekowanie masła dyniowego oraz rozgniecionej lub zmiksowanej dyni i dyni zimowej nie jest zalecane (zmienne pH, lepkość i aktywność wody); instrukcja USDA: „nie rozgniatać ani nie miksować”.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/blog/beware-pumpkin-butter",
+    "miejsce": "treść strony",
+    "cytat": "home canning is NOT recommended for pumpkin butter or any mashed or pureed pumpkin or winter squash.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5b7656bb4c88"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/pumpkins-and-winter-squash-cubed/",
+    "miejsce": "treść strony",
+    "cytat": "Caution: Do not mash or puree.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "04b9da7dcb43"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-016",
+  "twierdzenie": "Dynia i dynia zimowa w kostkach 1 cal (ok. 2,5 cm), na gorąco, w szybkowarze: słoiki 0,5 l (pint) 55 min, 1 l (quart) 90 min (10–15 PSI zależnie od wysokości i typu manometru).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/pumpkins-and-winter-squash-cubed/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Pints 55 min 11 lb 12 lb 13 lb 14 lb Quarts 90",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "04b9da7dcb43"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "pint ≈ 0,47 l, quart ≈ 0,95 l; w kartach w przybliżeniu 0,5 l i 1 l.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "55/90",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-017",
+  "twierdzenie": "Do wekowanych zup nie wolno dodawać makaronu, ryżu, mąki, śmietany, mleka ani innych zagęstników.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/soups/",
+    "miejsce": "treść strony",
+    "cytat": "Do not add noodles or other pasta, rice, flour, cream, milk or other thickening agents to home canned soups.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bc5c19934bcb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-018",
+  "twierdzenie": "Procedura NCHFP dla zup (warzywnych, z suchej fasoli lub grochu, mięsnych, drobiowych, rybnych) dotyczy tylko składników, które mają własne zalecenia wekowania.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/soups/",
+    "miejsce": "treść strony",
+    "cytat": "These directions are intended for use with ingredients that already have separate canning recommendations for those foods.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bc5c19934bcb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-019",
+  "twierdzenie": "Zupy (bez zagęszczania) w szybkowarze: pint 60 min, quart 75 min; 100 min, jeśli zupa zawiera owoce morza lub ryby.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/soups/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Pints 60* min 11 lb 12 lb 13 lb 14 lb Quarts 75*",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bc5c19934bcb"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/soups/",
+    "miejsce": "treść strony",
+    "cytat": "Process 100 minutes if soup contains seafoods.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bc5c19934bcb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "60/75/100",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-020",
+  "twierdzenie": "Nie wolno wekować grzybów dzikich (leśnych).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mushrooms-whole-or-sliced/",
+    "miejsce": "treść strony",
+    "cytat": "Caution: Do not can wild mushrooms.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1f808143a32c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-021",
+  "twierdzenie": "Grzyby hodowlane (jasne, małe i średnie, z zamkniętymi kapeluszami), obgotowane 5 min, w słoikach 0,25 l lub 0,5 l (half-pint/pint) – 45 min w szybkowarze; większych słoików nie ma w przepisie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mushrooms-whole-or-sliced/",
+    "miejsce": "treść strony",
+    "cytat": "Select only brightly colored, small to medium-size domestic mushrooms with short stems, tight veils (unopened caps), and no discoloration.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1f808143a32c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mushrooms-whole-or-sliced/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Half-pints or Pints 45 min 11 lb",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1f808143a32c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": 45,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-022",
+  "twierdzenie": "W przepisie na mieszankę warzyw (Mixed Vegetables) wolno zmieniać proporcje i zamieniać warzywa z wyjątkiem warzyw liściastych, suchej fasoli, kukurydzy kremowej, dyni zimowej, batatów, brokułu, kalafiora i kapusty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mixed-vegetables/",
+    "miejsce": "treść strony",
+    "cytat": "substitute other favorite vegetables except leafy greens, dried beans, cream-style corn, winter squash, sweet potatoes, broccoli, cauliflower or cabbage.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "afd1887c846b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-023",
+  "twierdzenie": "Mieszanka warzyw (marchew, kukurydza, fasolka szparagowa, fasola lima, pomidory, cukinia; gorąco, zalane wodą): pint 75 min, quart 90 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mixed-vegetables/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Pints 75 min 11 lb 12 lb 13 lb 14 lb Quarts 90",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "afd1887c846b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "75/90",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-024",
+  "twierdzenie": "Brokuł i kalafior jako warzywo niskokwasowe wymagałyby szybkowaru, ale nie ma naukowo przetestowanych przepisów na ich wekowanie jako zwykłego warzywa; kalafior można wekować tylko jako marynatę (pikle).",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/preserving-broccoli-and-cauliflower",
+    "miejsce": "treść strony",
+    "cytat": "there are no scientifically tested recipes for canning broccoli or cauliflower as a plain vegetable",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1048dd720996"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-025",
+  "twierdzenie": "Brokuł, kalafior, kapusta, kalarepa i brukselka nie nadają się do wekowania w szybkowarze (Penn State Extension).",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/preserving-late-season-fall-vegetables",
+    "miejsce": "treść strony",
+    "cytat": "Broccoli, cauliflower, cabbage, kohlrabi, and Brussels sprouts are not suitable for pressure canning.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "86c80dfdeb39"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-026",
+  "twierdzenie": "Wekowanie dyni letniej (cukinia, patison) bez marynowania nie jest zalecane; USDA wycofało dawne zalecenia z powodu niepewności co do czasów obróbki.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/blog/so-long-summer-squash...see-you-this-winter",
+    "miejsce": "treść strony",
+    "cytat": "Canning summer squash (without pickling) is not recommended",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "72d6bb4a4135"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/preserving-summer-squash/",
+    "miejsce": "treść strony",
+    "cytat": "The reason for withdrawal is uncertainty about the determination of adequate processing times.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "296360e735aa"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/es/catalog/sp-50-447-preserving-summer-squash",
+    "miejsce": "treść strony",
+    "cytat": "There is uncertainty related to the determination of research-based processing times.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "62f9f136ec75"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-027",
+  "twierdzenie": "Przetestowany wyjątek dla cukinii: pomidory z cukinią (ok. 3 funty pomidorów na 1 funt cukinii), na gorąco, szybkowar: pint 30 min, quart 35 min; produkt niskokwasowy, bez dodatku kwasu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "treść strony",
+    "cytat": "Use about 3 pounds of tomatoes to 1 pound of okra or",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5e3b5aab2e0a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Pints 30 min 11 lb 12 lb 13 lb 14 lb Quarts 35",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5e3b5aab2e0a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "30/35",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-028",
+  "twierdzenie": "W przetestowanym sosie pomidorowym bez mięsa (szybkowar) nie wolno zwiększać udziału cebuli, papryki ani grzybów.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/spaghetti-sauce-without-meat/",
+    "miejsce": "treść strony",
+    "cytat": "Caution: Do not increase the proportion of onions, peppers, or mushrooms.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6c34ff5f6764"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-029",
+  "twierdzenie": "Ziemniaki białe w kostkach 1/2 cala lub całe (1–2 cale średnicy), zalane świeżym wrzątkiem (nie wodą z gotowania – za dużo skrobi): pint 35 min, quart 40 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/potatoes-white-cubed-or-whole/",
+    "miejsce": "treść strony",
+    "cytat": "Do not use the water you cooked the potatoes in; it contains too much starch.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c63afb8ae008"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/potatoes-white-cubed-or-whole/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Pints 35 min 11 lb 12 lb 13 lb 14 lb Quarts 40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c63afb8ae008"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "35/40",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-030",
+  "twierdzenie": "Suche nasiona fasoli lub grochu (wszystkie odmiany), namoczone i gotowane 30 min: pint 75 min, quart 90 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-or-peas-shelled-dried-all-varieties/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Pints 75 min 11 lb 12 lb 13 lb 14 lb Quarts 90",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f2ba91ef201d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "75/90",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-031",
+  "twierdzenie": "Sucha fasola w sosie pomidorowym lub melasowym (opcjonalnie kostka 3/4 cala wieprzowiny/boczku na słoik): pint 65 min, quart 75 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Pints 65 min 11 lb 12 lb 13 lb 14 lb Quarts 75",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b4fa458b21ea"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
+    "miejsce": "treść strony",
+    "cytat": "Add a 3/4-inch cube of pork, ham, or bacon to each jar, if desired.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b4fa458b21ea"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "65/75",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-032",
+  "twierdzenie": "Kukurydza kremowa (cream style; kukurydza + woda, bez nabiału): tylko słoiki pint, 85 min; słoiki quart niezalecane z powodu gęstości.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-cream-style/",
+    "miejsce": "treść strony",
+    "cytat": "Quart jars are not recommended due to the denseness of the canned product.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a8ad31b88ed0"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-cream-style/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Pints 85 min",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a8ad31b88ed0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": 85,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-033",
+  "twierdzenie": "Kukurydza w ziarnach: pint 55 min, quart 85 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-whole-kernel/",
+    "miejsce": "treść strony",
+    "cytat": "Hot and Raw Pints 55 min 11 lb 12 lb 13 lb 14 lb Quarts 85",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3c6fccb2fc18"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "55/85",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-034",
+  "twierdzenie": "Fasolka szparagowa: pint 20 min, quart 25 min w szybkowarze; nie ma bezpiecznej opcji wekowania jej w kąpieli wodnej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/",
+    "miejsce": "treść strony",
+    "cytat": "There is no safe option for processing green beans in a boiling water canner.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c47820c498dc"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/",
+    "miejsce": "treść strony",
+    "cytat": "Hot and Raw Pints 20 min 11 lb 12 lb 13 lb 14 lb Quarts 25",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c47820c498dc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "20/25",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-035",
+  "twierdzenie": "Zielony groszek łuskany: pint lub quart 40 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/peas-green-or-english-shelled/",
+    "miejsce": "treść strony",
+    "cytat": "Hot and Raw Pints or Quarts 40 min",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f4295193217a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": 40,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-036",
+  "twierdzenie": "Marchew w plasterkach lub kostce: pint 25 min, quart 30 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/carrots-sliced-or-diced/",
+    "miejsce": "treść strony",
+    "cytat": "Hot and Raw Pints 25 min 11 lb 12 lb 13 lb 14 lb Quarts 30",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "dde9c59bd252"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "25/30",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-037",
+  "twierdzenie": "Szparagi (całe lub w kawałkach): pint 30 min, quart 40 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/asparagus-spear-or-pieces/",
+    "miejsce": "treść strony",
+    "cytat": "Hot and Raw Pints 30 min 11 lb 12 lb 13 lb 14 lb Quarts 40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "467d151acb0a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "30/40",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-038",
+  "twierdzenie": "Szpinak i inne warzywa liściaste (zblanszowane parą, luźno, zalane wrzątkiem): pint 70 min, quart 90 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/spinach-and-other-greens/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Pints 70 min 11 lb 12 lb 13 lb 14 lb Quarts 90",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "67ce1a01a20e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "70/90",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-039",
+  "twierdzenie": "Papryka słodka i ostra (obrana, zalana wrzątkiem): słoiki half-pint lub pint, 35 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/peppers/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Half-pints or Pints 35 min",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "189f704d8f6d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": 35,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-040",
+  "twierdzenie": "Kurczak lub królik: bez kości pint 75 min, quart 90 min; z kośćmi pint 65 min, quart 75 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/chicken-or-rabbit/",
+    "miejsce": "treść strony",
+    "cytat": "Hot and Raw Pints 75 min 11 lb 12 lb 13 lb 14 lb Quarts 90",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0e7960584ba8"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/chicken-or-rabbit/",
+    "miejsce": "treść strony",
+    "cytat": "Hot and Raw Pints 65 min 11 lb 12 lb 13 lb 14 lb Quarts 75",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0e7960584ba8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "75/90; 65/75",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-041",
+  "twierdzenie": "Mięso w paskach, kostkach lub kawałkach (niedźwiedź, wołowina, jagnięcina, wieprzowina, cielęcina, dziczyzna z jelenia): pint 75 min, quart 90 min; mocno pachnącą dziczyznę namoczyć 1 h w solance.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/",
+    "miejsce": "treść strony",
+    "cytat": "Bear, Beef, Lamb, Pork, Veal, Venison",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ea78ddeea668"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/",
+    "miejsce": "treść strony",
+    "cytat": "Hot and Raw Pints 75 min 11 lb 12 lb 13 lb 14 lb Quarts 90",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ea78ddeea668"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "75/90",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-042",
+  "twierdzenie": "Mięso mielone lub siekane (także świeża kiełbasa w kawałkach 3–4 cale), uformowane i obsmażone, zalane wrzącym bulionem/sokiem pomidorowym/wodą: pint 75 min, quart 90 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-ground-or-chopped/",
+    "miejsce": "treść strony",
+    "cytat": "Shape chopped meat into patties or balls or cut cased sausage into 3- to 4-inch links.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "cac090f2b46b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-ground-or-chopped/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Pints 75 min 11 lb 12 lb 13 lb 14 lb Quarts 90",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "cac090f2b46b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "75/90",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-043",
+  "twierdzenie": "Bulion mięsny (kości wołowe 3–4 h; drobiowy) po odtłuszczeniu: pint 20 min, quart 25 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-stock/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Pints 20 min 11 lb 12 lb 13 lb 14 lb Quarts 25",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4e095b149435"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-stock/",
+    "miejsce": "treść strony",
+    "cytat": "skim off excess fat and discard.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4e095b149435"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "20/25",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-044",
+  "twierdzenie": "Ryby tłuste (np. makrela, łosoś, pstrąg) na surowo w słoikach pint, bez dodawania płynów: 100 min; słoiki half-pint – ten sam czas.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/fish-pint-jars-usda/",
+    "miejsce": "treść strony",
+    "cytat": "Do not add liquids.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e659bafb5c5d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/fish-pint-jars-usda/",
+    "miejsce": "treść strony",
+    "cytat": "Raw Pints 100 min",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e659bafb5c5d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE05_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 5, Poultry, Red Meats, and Seafoods",
+    "cytat": "any fish oil. Adjust lids and process. Fish in half-pint or 12-ounce jars would be processed for the",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8b7373869c82"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": 100,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-045",
+  "twierdzenie": "Ryby tłuste w słoikach quart: osobna procedura odpowietrzania i nieprzerwane 160 min (2 h 40 min) pod wymaganym ciśnieniem.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE05_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 5, Poultry, Red Meats, and Seafoods",
+    "cytat": "have a complete, uninterrupted 160 minutes (2 hours and 40 minutes) at a minimum",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8b7373869c82"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": 160,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-046",
+  "twierdzenie": "Tuńczyk (podgotowany lub surowy) w wodzie lub oleju, słoiki half-pint i pint: 100 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/tuna/",
+    "miejsce": "treść strony",
+    "cytat": "Tuna may be packed in water or oil, whichever is preferred.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "af20485dc9a6"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/tuna/",
+    "miejsce": "treść strony",
+    "cytat": "Pints and Half-pints 100 min",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "af20485dc9a6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": 100,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-047",
+  "twierdzenie": "Ryby wędzone (łosoś, karmazyn, flądrowate i inne): tylko słoiki pint, 110 min, bez płynu, kanner 16–22 qt; czasów dla innych wędzonych owoców morza nie ustalono – mrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/fish-smoked/",
+    "miejsce": "treść strony",
+    "cytat": "Safe processing times for other smoked seafoods have not been determined.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "eb4966c1b049"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/fish-smoked/",
+    "miejsce": "treść strony",
+    "cytat": "Do not use quart jars or tin cans.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "eb4966c1b049"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/fish-smoked/",
+    "miejsce": "treść strony",
+    "cytat": "Raw Pints 110 min",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "eb4966c1b049"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": 110,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-048",
+  "twierdzenie": "Chili con carne (fasola, mielona wołowina, pomidory): tylko pint, 75 min; nie zagęszczać.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/chili-con-carne/",
+    "miejsce": "treść strony",
+    "cytat": "Caution: Do not thicken.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "cf030c7a982d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/chili-con-carne/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Pints 75 min",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "cf030c7a982d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": 75,
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-049",
+  "twierdzenie": "Sos pomidorowy z mięsem mielonym (szybkowar): pint 60 min, quart 70 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/spaghetti-sauce-with-meat/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Pints 60 min 11 lb 12 lb 13 lb 14 lb Quarts 70",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a7172fd083e8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "60/70",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-050",
+  "twierdzenie": "Extension/USDA nie ma przetestowanego procesu wekowania (także ciśnieniowego) tłuszczów takich jak łój i smalec.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=356751",
+    "miejsce": "treść strony",
+    "cytat": "We have no tested pressure canning for fats like tallow and lard.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "a1436885ee8c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-051",
+  "twierdzenie": "Rzepa i brukiew w kostkach/plastrach w szybkowarze: pint 30 min, quart 35 min (Penn State); brukiew zwykle ciemnieje i nabiera mocnego smaku, lepiej mrozić.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/lets-preserve-root-vegetables-beets-carrots-turnips-and-rutabagas",
+    "miejsce": "treść strony",
+    "cytat": "Process pints for 30 minutes and quarts for 35 minutes",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "e9084255cd53"
+   },
+   {
+    "adres": "https://extension.psu.edu/lets-preserve-root-vegetables-beets-carrots-turnips-and-rutabagas",
+    "miejsce": "treść strony",
+    "cytat": "Rutabagas may be canned by these directions, but they usually discolor and develop a strong flavor when canned.",
+    "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "e9084255cd53"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "30/35",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-052",
+  "twierdzenie": "Nie zaleca się w nowym sprzęcie ciśnieniowym procesów powyżej 15 PSI.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/equipment-and-methods-not-recommended/",
+    "miejsce": "treść strony",
+    "cytat": "It is not recommended that pressure processes in excess of 15 PSI be applied when using new pressure canning equipment.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "caf9fae9a56d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null
+ },
+ {
+  "id": "SZY-053",
+  "twierdzenie": "Buraki (całe, w kostce lub plastrach), na gorąco: pint 30 min, quart 35 min; brak procesu dla tartych.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beets-whole-cubed-or-sliced/",
+    "miejsce": "treść strony",
+    "cytat": "Hot Pints 30 min 11 lb 12 lb 13 lb 14 lb Quarts 35",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e735f0a8b70c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„brak procesu dla tartych” to nasz wniosek z braku takiej formy w przepisie.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wielkosc": "czas",
+  "wartosc": "30/35",
+  "jednostka": "min",
+  "wazne_do": "2027-11-01"
+ },
+ {
+  "id": "SZY-054",
+  "twierdzenie": "Wekowania żywności niskokwasowej nie wolno prowadzić w kąpieli wodnej: kąpiel wodna nadaje się wyłącznie do żywności kwaśnej (pH 4,6 lub niższe), np. owoców, pikli, kiszonej kapusty, dżemów.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/ensuring-safe-canned-foods/",
+    "miejsce": "treść strony",
+    "cytat": "Acid foods have a pH of 4.6 or lower. They include fruits, pickles, sauerkraut, jams, jellies, marmalades, and fruit butters.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "83e3c63c1dad"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/for-safetys-sake/",
+    "miejsce": "treść strony",
+    "cytat": "Using boiling water canners for these foods poses a real risk of botulism poisoning.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "21e6a8033f3c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Synteza SZY-001/006: źródło nie używa słowa „wyłącznie”; wniosek z podziału pH i zakazu dla mięsa/warzyw.",
+  "krytyczne": true,
+  "przeglad": null
+ }
+]

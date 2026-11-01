@@ -1,0 +1,4595 @@
+[
+ {
+  "id": "cucumber-v18",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/pickle-relish/",
+    "tytul": "NCHFP: Pickle Relish",
+    "szczebel": 1,
+    "sha12": "b9fa23cfa2e5"
+   }
+  ],
+  "uwagi": "Odpowiednik: NCHFP Pickle Relish (ogórki, papryka, cebula, kurkuma, ocet 5%) — relish bostoński ma ten sam skład bazowy; karta wg proporcji NCHFP."
+ },
+ {
+  "id": "white-cabbage-v10",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-082"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu NCHFP na marynowaną kapustę białą słodko-kwaśną (jest tylko w mieszankach: Piccalilli). Brak przetestowanego przepisu dla tego warzywa w tej zalewie; warzywo niskokwasowe — nie przenosić proporcji z innych przepisów. Alternatywa do sprawdzenia: wersja lodówkowa."
+ },
+ {
+  "id": "red-savoy-cabbage-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-082"
+  ],
+  "sources": [],
+  "uwagi": "Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "red-savoy-cabbage-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-082"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu na czerwoną kapustę w occie jabłkowym. Brak przetestowanego przepisu dla tego warzywa w tej zalewie; warzywo niskokwasowe — nie przenosić proporcji z innych przepisów. Alternatywa do sprawdzenia: wersja lodówkowa."
+ },
+ {
+  "id": "red-savoy-cabbage-v08",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Sałatka kapusta+cebula w zalewie: mieszanina niskokwasowa, brak przetestowanego przepisu."
+ },
+ {
+  "id": "red-savoy-cabbage-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005",
+   "ACI-011",
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Gołąbki (mięso/ryż w liściach) w sosie pomidorowym: niskokwasowe, brak przetestowanego procesu domowego; poza obszarem kwaśnym.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "red-savoy-cabbage-v10",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-017",
+   "ACI-016",
+   "ACI-082"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego chutneyu z kapusty (NCHFP ma chutneye: jabłkowy, mango, pomidorowo-jabłkowy, żurawinowo-pomarańczowy)."
+ },
+ {
+  "id": "napa-cabbage-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-022",
+   "ACI-024",
+   "ACI-023"
+  ],
+  "sources": [],
+  "uwagi": "Pikle w occie ryżowym: kwasowość octu ryżowego zmienna (sprawdzić etykietę ≥5%); brak przetestowanego przepisu do weków — kandydat na wersję lodówkową."
+ },
+ {
+  "id": "napa-cabbage-v11",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Sos sojowy + ocet chinkiang: kwasowość nieznana, sos sojowy niskokwasowy; brak przetestowanego przepisu."
+ },
+ {
+  "id": "cauliflower-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-083"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy przetestowany: NCHFP Pickled Cauliflower (ocet biały 5%). Ocet winny nie jest w zaleceniu NCHFP — Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "cauliflower-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Brytyjski piccalilli musztardowy (kalafior, zagęszczony mąką/skrobią) ≠ amerykański Piccalilli NCHFP (zielone pomidory+kapusta). Brak przetestowanego przepisu."
+ },
+ {
+  "id": "cauliflower-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-083"
+  ],
+  "sources": [],
+  "uwagi": "Zalewa curry: brak przetestowanego przepisu. Brak przetestowanego przepisu dla tego warzywa w tej zalewie; warzywo niskokwasowe — nie przenosić proporcji z innych przepisów. Alternatywa do sprawdzenia: wersja lodówkowa."
+ },
+ {
+  "id": "cauliflower-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-006",
+   "ACI-011",
+   "ACI-083",
+   "ACI-029"
+  ],
+  "sources": [],
+  "uwagi": "Kalafior w sosie pomidorowym: mieszanina niskokwasowa, brak przetestowanego procesu (PSU: kalafior nienadający się do szybkowaru samodzielnie).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "broccoli-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-029",
+   "ACI-084"
+  ],
+  "sources": [],
+  "uwagi": "PSU: brokuł nie występuje w przetestowanych przepisach na pikle. Brak procesu."
+ },
+ {
+  "id": "broccoli-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-029"
+  ],
+  "sources": [],
+  "uwagi": "Romanesco w białym occie winnym: brak przetestowanego przepisu; Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "broccoli-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-029",
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Sałatka brokułowa: brak przetestowanego przepisu (PSU: brokułu brak w przepisach na pikle)."
+ },
+ {
+  "id": "brussels-kohlrabi-v07",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017",
+   "ACI-019"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-cauliflower-or-brussel-sprouts/",
+    "tytul": "NCHFP: Pickled Cauliflower or Brussel Sprouts",
+    "szczebel": 1,
+    "sha12": "08022add8de8"
+   }
+  ],
+  "uwagi": "Odpowiednik: NCHFP Pickled Cauliflower or Brussel Sprouts (z gorczycą). Ocet jabłkowy 5% zamiast białego 5% — oba zalecane, biały tylko dla koloru (uproszczenie w ACI-vin_color)."
+ },
+ {
+  "id": "brussels-kohlrabi-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Kalarepa w occie ryżowym: brak przetestowanego przepisu; kandydat na wersję lodówkową."
+ },
+ {
+  "id": "zucchini-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-026"
+  ],
+  "sources": [],
+  "uwagi": "Cukinia w curry: brak przetestowanego przepisu. Brak przetestowanego przepisu dla tego warzywa w tej zalewie; warzywo niskokwasowe — nie przenosić proporcji z innych przepisów. Alternatywa do sprawdzenia: wersja lodówkowa."
+ },
+ {
+  "id": "zucchini-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-026"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu „po kaszubsku”. Najbliższy: NCHFP Pickled Bread-and-Butter Zucchini."
+ },
+ {
+  "id": "zucchini-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-026"
+  ],
+  "sources": [],
+  "uwagi": "Zalewa musztardowa: brak przetestowanego przepisu dla cukinii."
+ },
+ {
+  "id": "zucchini-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017",
+   "ACI-025"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "tytul": "NCHFP: Pickled Bread-and-Butter Zucchini",
+    "szczebel": 1,
+    "sha12": "afb219e251eb"
+   }
+  ],
+  "uwagi": "Odpowiednik: NCHFP Pickled Bread-and-Butter Zucchini (cukier, kurkuma, gorczyca, ocet biały 5%)."
+ },
+ {
+  "id": "zucchini-v07",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-019",
+   "ACI-026"
+  ],
+  "sources": [],
+  "uwagi": "Cukinia w occie jabłkowym (wytrawna): brak przepisu; NCHFP ma tylko wersję bread-and-butter i relish."
+ },
+ {
+  "id": "zucchini-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-017",
+   "ACI-026"
+  ],
+  "sources": [],
+  "uwagi": "Polska „cukinia a la ananas” (syrop z octem/kwasem) ≠ NCHFP Zucchini-Pineapple (sok ananasowy + butelkowany sok z cytryny). Brak przetestowanego przepisu w tej formie.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "zucchini-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-017",
+   "ACI-026",
+   "ACI-027"
+  ],
+  "sources": [],
+  "uwagi": "Keczup z cukinii: przecier z warzywa niskokwasowego, brak przetestowanego przepisu."
+ },
+ {
+  "id": "zucchini-v15",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-059",
+   "ACI-011"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "tytul": "NCHFP: Tomatoes with Okra or Zucchini",
+    "szczebel": 1,
+    "sha12": "5e3b5aab2e0a"
+   }
+  ],
+  "uwagi": "Odpowiednik: NCHFP Tomatoes with Okra or Zucchini — tylko szybkowar (niskokwasowe). Kąpiel wodna niedozwolona."
+ },
+ {
+  "id": "pattypan-squash-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-026",
+   "ACI-025"
+  ],
+  "sources": [],
+  "uwagi": "Patison (dynia letnia) w occie: brak przetestowanego przepisu; wariant USDA dotyczy cienkiej cukinii/żółtej dyni letniej."
+ },
+ {
+  "id": "pattypan-squash-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-026"
+  ],
+  "sources": [],
+  "uwagi": "Zalewa miodowo-gorczycowa: brak przepisu."
+ },
+ {
+  "id": "pattypan-squash-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-026"
+  ],
+  "sources": [],
+  "uwagi": "Zalewa curry: brak przepisu."
+ },
+ {
+  "id": "pattypan-squash-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-059",
+   "ACI-026",
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy: NCHFP Tomatoes with Zucchini (szybkowar), ale patison w sosie (nie w pomidorach krojonych) to inny produkt; brak przetestowanego procesu.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "pattypan-squash-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-026",
+   "ACI-027"
+  ],
+  "sources": [],
+  "uwagi": "Kandyzowany patison w syropie: warzywo niskokwasowe, brak przepisu.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "pumpkin-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-088"
+  ],
+  "sources": [],
+  "uwagi": "Dynia w occie korzennym: brak przetestowanego przepisu NCHFP. Gęsta, niskokwasowa."
+ },
+ {
+  "id": "pumpkin-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-088"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu."
+ },
+ {
+  "id": "pumpkin-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-088"
+  ],
+  "sources": [],
+  "uwagi": "Brak przetestowanego przepisu."
+ },
+ {
+  "id": "pumpkin-v11",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-017",
+   "ACI-016",
+   "ACI-088",
+   "ACI-036"
+  ],
+  "sources": [],
+  "uwagi": "Chutney dyniowo-jabłkowy: brak przepisu; dynia rozgotowana zbliża się do przecieru (NCHFP: nie wekować dyni rozgniecionej)."
+ },
+ {
+  "id": "pumpkin-v13",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "ACI-036",
+   "ACI-088",
+   "ACI-017",
+   "ACI-010"
+  ],
+  "sources": [],
+  "uwagi": "Keczup dyniowy = przecier z dyni: NCHFP zakazuje wekowania dyni rozgniecionej/przecieru nawet w szybkowarze; brak przetestowanej procedury. Karta tylko jako ostrzeżenie lub wersja lodówkowa/mrożona."
+ },
+ {
+  "id": "leafy-greens-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-090"
+  ],
+  "sources": [],
+  "uwagi": "Łodygi boćwiny w occie winnym: brak przepisu; Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "vine-leaves-greens-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-091"
+  ],
+  "sources": [],
+  "uwagi": "Liście winogron w occie: brak przetestowanego przepisu NCHFP."
+ },
+ {
+  "id": "vine-leaves-greens-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-091"
+  ],
+  "sources": [],
+  "uwagi": "Sałata łodygowa w occie: brak przepisu."
+ },
+ {
+  "id": "vine-leaves-greens-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Kapusta morska (wodorosty) w occie: brak przepisu i danych pH."
+ },
+ {
+  "id": "vine-leaves-greens-v07",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Liście w oliwie: rodzina olejowa (ryzyko jadu w oleju) — poza obszarem ACI.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "tomato-v01",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-093"
+  ],
+  "sources": [],
+  "uwagi": "Fermentacja — poza ACI.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "tomato-v04",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-093",
+   "ACI-044"
+  ],
+  "sources": [],
+  "uwagi": "Przecier z kiszonych pomidorów: fermentacja + wekowanie bez przetestowanego przepisu.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "tomato-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-093",
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Dojrzałe pomidory w zalewie octowej z cebulą: NCHFP ma przepisy tylko dla zielonych pomidorów; brak przepisu."
+ },
+ {
+  "id": "tomato-v07",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-093"
+  ],
+  "sources": [],
+  "uwagi": "Pomidory w occie winnym: brak przepisu; Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "tomato-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-052",
+   "ACI-044",
+   "ACI-045",
+   "ACI-047",
+   "ACI-049",
+   "ACI-093"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/standard-tomato-sauce/",
+    "tytul": "NCHFP: Standard Tomato Sauce",
+    "szczebel": 1,
+    "sha12": "87ebc5e92da8"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-acidification-directions/",
+    "tytul": "NCHFP: Tomato acidification directions",
+    "szczebel": 1,
+    "sha12": "9e6b0421ce91"
+   }
+  ],
+  "uwagi": "Odpowiednik: NCHFP Standard Tomato Sauce (cienki) — przetarte pomidory odparowane o ok. 1/3; zakwaszenie obowiązkowe."
+ },
+ {
+  "id": "tomato-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-051",
+   "ACI-044",
+   "ACI-045",
+   "ACI-047",
+   "ACI-049",
+   "ACI-093"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-juice/",
+    "tytul": "NCHFP: Tomato Juice",
+    "szczebel": 1,
+    "sha12": "d9a17a46bed0"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-acidification-directions/",
+    "tytul": "NCHFP: Tomato acidification directions",
+    "szczebel": 1,
+    "sha12": "9e6b0421ce91"
+   }
+  ],
+  "uwagi": "NCHFP Tomato Juice; zakwaszenie obowiązkowe także przy szybkowarze."
+ },
+ {
+  "id": "tomato-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-053",
+   "ACI-044",
+   "ACI-045",
+   "ACI-048",
+   "ACI-093"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-in-tomato-juice/",
+    "tytul": "NCHFP: Whole or Halved Tomatoes (packed in tomato juice)",
+    "szczebel": 1,
+    "sha12": "770e14fac937"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-acidification-directions/",
+    "tytul": "NCHFP: Tomato acidification directions",
+    "szczebel": 1,
+    "sha12": "9e6b0421ce91"
+   }
+  ],
+  "uwagi": "Pelati = NCHFP Whole or Halved Tomatoes packed in tomato juice; zakwaszenie obowiązkowe."
+ },
+ {
+  "id": "tomato-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-055",
+   "ACI-093"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "tytul": "NCHFP: Tomato Paste",
+    "szczebel": 1,
+    "sha12": "1f40f378d9b5"
+   }
+  ],
+  "uwagi": "NCHFP Tomato Paste (2015, UGA): kwas cytrynowy w masie, słoiki 1/2 pt."
+ },
+ {
+  "id": "tomato-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-057",
+   "ACI-011"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/spaghetti-sauce-with-meat/",
+    "tytul": "NCHFP: Spaghetti Sauce with Meat",
+    "szczebel": 1,
+    "sha12": "a7172fd083e8"
+   }
+  ],
+  "uwagi": "Odpowiednik: NCHFP Spaghetti Sauce with Meat — tylko szybkowar; skład stały (dodatki mleka/wina/śmietany w ragù nieprzetestowane). Wersja bez mięsa: NCHFP Spaghetti Sauce without Meat (też szybkowar)."
+ },
+ {
+  "id": "tomato-v13",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-056",
+   "ACI-016"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-ketchup/",
+    "tytul": "NCHFP: Tomato Ketchup",
+    "szczebel": 1,
+    "sha12": "b571fa11f79a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/blender-ketchup/",
+    "tytul": "NCHFP: Blender Ketchup",
+    "szczebel": 1,
+    "sha12": "ae975b58484c"
+   }
+  ],
+  "uwagi": "NCHFP Tomato Ketchup / Blender Ketchup (ocet jabłkowy 5%)."
+ },
+ {
+  "id": "tomato-v14",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-037",
+   "ACI-038",
+   "ACI-040",
+   "ACI-041",
+   "ACI-042"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/tomato-salsa-with-paste-tomatoes/",
+    "tytul": "NCHFP: Tomato Salsa with Paste Tomatoes",
+    "szczebel": 1,
+    "sha12": "c0cce2a6c1f3"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/chile-salsa-hot-tomato-pepper-sauce/",
+    "tytul": "NCHFP: Chile Salsa (Hot Tomato-Pepper Sauce)",
+    "szczebel": 1,
+    "sha12": "191e0a0f4f9f"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/choice-salsa/",
+    "tytul": "NCHFP: Choice Salsa",
+    "szczebel": 1,
+    "sha12": "011272382fa5"
+   }
+  ],
+  "uwagi": "Salsa pomidorowa: tylko przetestowane przepisy (WSU/NCHFP); nie zwiększać papryki/cebuli, nie zamieniać soku cytryny na ocet."
+ },
+ {
+  "id": "green-cherry-tomato-v01",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Fermentacja — poza ACI.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "green-cherry-tomato-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-050"
+  ],
+  "sources": [],
+  "uwagi": "Zielone pomidory z papryką w occie: najbliższe NCHFP Pickled Sweet Green Tomatoes / Kosher Style Dill Green Tomato Pickles, ale bez papryki; brak przepisu w tej formie."
+ },
+ {
+  "id": "green-cherry-tomato-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-093"
+  ],
+  "sources": [],
+  "uwagi": "Koktajlowe w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "green-cherry-tomato-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Sałatka z zielonych pomidorów (z dodatkami warzyw): brak przepisu; najbliższe NCHFP Pickled Green Tomato Relish / Piccalilli."
+ },
+ {
+  "id": "green-cherry-tomato-v07",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/pickled-green-tomato-relish/",
+    "tytul": "NCHFP: Pickled Green Tomato Relish",
+    "szczebel": 1,
+    "sha12": "a7f750759de4"
+   }
+  ],
+  "uwagi": "NCHFP Pickled Green Tomato Relish (z papryką, cebulą, musztardą, ocet 5%)."
+ },
+ {
+  "id": "green-cherry-tomato-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-050"
+  ],
+  "sources": [],
+  "uwagi": "Dżem — rodzina słodka.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "green-cherry-tomato-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-050"
+  ],
+  "sources": [],
+  "uwagi": "Konfitura — rodzina słodka.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "green-cherry-tomato-v10",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017"
+  ],
+  "sources": [],
+  "uwagi": "Chutney z zielonych pomidorów i rodzynek: brak przepisu (NCHFP Tomato-Apple Chutney jest z dojrzałych pomidorów)."
+ },
+ {
+  "id": "green-cherry-tomato-v11",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-037",
+   "ACI-038",
+   "ACI-041",
+   "ACI-043"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/tomatillo-green-salsa/",
+    "tytul": "NCHFP: Tomatillo Green Salsa",
+    "szczebel": 1,
+    "sha12": "bdbcf81a3b37"
+   }
+  ],
+  "uwagi": "NCHFP Tomatillo Green Salsa — przepis dopuszcza zielone pomidory zamiast tomatillo."
+ },
+ {
+  "id": "green-cherry-tomato-v14",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-054",
+   "ACI-044",
+   "ACI-045",
+   "ACI-093"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-raw-without-added-liquid/",
+    "tytul": "NCHFP: Whole or Halved Tomatoes (packed raw without added liquid)",
+    "szczebel": 1,
+    "sha12": "4e4c6abcad49"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-acidification-directions/",
+    "tytul": "NCHFP: Tomato acidification directions",
+    "szczebel": 1,
+    "sha12": "9e6b0421ce91"
+   }
+  ],
+  "uwagi": "Odpowiednik: NCHFP Whole Tomatoes packed raw without added liquid; pomidorki koktajlowe nie są osobno wymienione — DO USTALENIA, czy całe ze skórką (NCHFP obiera)."
+ },
+ {
+  "id": "bell-pepper-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bell-peppers/",
+    "tytul": "NCHFP: Pickled Bell Peppers",
+    "szczebel": 1,
+    "sha12": "fc620eb7e08d"
+   }
+  ],
+  "uwagi": "NCHFP Pickled Bell Peppers (ocet 5%, cukier, czosnek)."
+ },
+ {
+  "id": "bell-pepper-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-094"
+  ],
+  "sources": [],
+  "uwagi": "Zalewa miodowa: brak przetestowanego przepisu (miód zamiast cukru nieprzetestowany)."
+ },
+ {
+  "id": "bell-pepper-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-094"
+  ],
+  "sources": [],
+  "uwagi": "W occie winnym z rozmarynem: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "bell-pepper-v07",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-hot-peppers/",
+    "tytul": "NCHFP: Pickled Hot Peppers",
+    "szczebel": 1,
+    "sha12": "38363d792be8"
+   }
+  ],
+  "uwagi": "Peperoni = NCHFP Pickled Hot Peppers (Hungarian, Banana, Chile, Jalapeño)."
+ },
+ {
+  "id": "bell-pepper-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-006",
+   "ACI-005",
+   "ACI-094",
+   "ACI-095"
+  ],
+  "sources": [],
+  "uwagi": "Ajwar (pieczona papryka ± bakłażan, olej): pasta niskokwasowa, brak przetestowanego procesu domowego.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "bell-pepper-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-006",
+   "ACI-094",
+   "ACI-093"
+  ],
+  "sources": [],
+  "uwagi": "Pindżur (papryka, bakłażan, pomidory, olej): brak przetestowanego procesu.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "bell-pepper-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-006",
+   "ACI-094"
+  ],
+  "sources": [],
+  "uwagi": "Ljutenica: pasta paprykowo-pomidorowa, brak przetestowanego procesu.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "chili-pepper-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-094"
+  ],
+  "sources": [],
+  "uwagi": "Escabeche (jalapeño + marchew + cebula): najbliższe NCHFP Pickled Jalapeño Rings (same papryczki); mieszanka nieprzetestowana."
+ },
+ {
+  "id": "chili-pepper-v08",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-hot-peppers/",
+    "tytul": "NCHFP: Pickled Hot Peppers",
+    "szczebel": 1,
+    "sha12": "38363d792be8"
+   }
+  ],
+  "uwagi": "Odpowiednik: NCHFP Pickled Hot Peppers (ostre papryczki, ocet 5%); piri-piri jako odmiana ostrej papryki — NCHFP pozwala zamieniać typy papryki (w salsach)."
+ },
+ {
+  "id": "eggplant-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-026",
+   "ACI-027"
+  ],
+  "sources": [],
+  "uwagi": "Melanzane sott’aceto: brak przetestowanego przepisu; często dalej w oleju (OLE)."
+ },
+ {
+  "id": "eggplant-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-026"
+  ],
+  "sources": [],
+  "uwagi": "Pikle indyjskie (olej, przyprawy): brak przepisu.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "eggplant-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-026"
+  ],
+  "sources": [],
+  "uwagi": "Bakłażan w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "eggplant-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-006",
+   "ACI-026",
+   "ACI-027"
+  ],
+  "sources": [],
+  "uwagi": "Caponata: mieszanina niskokwasowa z olejem, brak przetestowanego procesu."
+ },
+ {
+  "id": "eggplant-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-006",
+   "ACI-026"
+  ],
+  "sources": [],
+  "uwagi": "Ajwar z bakłażanem: brak przetestowanego procesu.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "eggplant-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-006",
+   "ACI-026",
+   "ACI-027"
+  ],
+  "sources": [],
+  "uwagi": "Bakłażan w sosie pomidorowym: niskokwasowe, brak przetestowanego procesu.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "potato-sunchoke-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017",
+   "ACI-019"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/artichoke-jerusalem-pickles/",
+    "tytul": "NCHFP: Artichoke (Jerusalem) Pickles",
+    "szczebel": 1,
+    "sha12": "41fb084c02bc"
+   }
+  ],
+  "uwagi": "NCHFP Artichoke (Jerusalem) Pickles (ocet 5%, kurkuma, cukier); ocet jabłkowy 5% dopuszczalny jako ocet zalecany."
+ },
+ {
+  "id": "potato-sunchoke-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-096"
+  ],
+  "sources": [],
+  "uwagi": "Sałatka ziemniaczana wekowana: ziemniaki gęste, skrobiowe, niskokwasowe; brak przetestowanego przepisu."
+ },
+ {
+  "id": "tomatillo-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-098",
+   "ACI-060"
+  ],
+  "sources": [],
+  "uwagi": "Tomatillo w occie winnym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "tomatillo-v03",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-098"
+  ],
+  "sources": [],
+  "uwagi": "Fermentowana salsa verde — fermentacja.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "tomatillo-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017"
+  ],
+  "sources": [],
+  "uwagi": "Miechunka peruwiańska (Physalis peruviana) w occie: brak przepisu i danych pH."
+ },
+ {
+  "id": "tomatillo-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/tangy-tomatillo-relish/",
+    "tytul": "NCHFP: Tangy Tomatillo Relish",
+    "szczebel": 1,
+    "sha12": "08b01ce5abc8"
+   }
+  ],
+  "uwagi": "NCHFP Tangy Tomatillo Relish."
+ },
+ {
+  "id": "tomatillo-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-037",
+   "ACI-041",
+   "ACI-060"
+  ],
+  "sources": [],
+  "uwagi": "Pieczona salsa verde: najbliższa NCHFP Tomatillo Green Salsa (bez pieczenia). Pieczenie zmienia produkt — DO USTALENIA, czy dopuszczalne przy zachowaniu odmierzanych objętości."
+ },
+ {
+  "id": "tomatillo-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-098"
+  ],
+  "sources": [],
+  "uwagi": "Konfitura z miechunki — rodzina słodka.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "tomatillo-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-098"
+  ],
+  "sources": [],
+  "uwagi": "Chutney z tomatillo: brak przepisu (relish: tomatillo-v05)."
+ },
+ {
+  "id": "green-beans-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-099"
+  ],
+  "sources": [],
+  "uwagi": "Fasolka słodko-kwaśna: NCHFP ma tylko Dilled Beans (bez cukru); wersja słodka nieprzetestowana."
+ },
+ {
+  "id": "green-beans-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-099"
+  ],
+  "sources": [],
+  "uwagi": "Zalewa musztardowa: brak przepisu."
+ },
+ {
+  "id": "green-beans-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-006",
+   "ACI-011",
+   "ACI-099"
+  ],
+  "sources": [],
+  "uwagi": "Fasolka w sosie pomidorowym: niskokwasowa mieszanina, brak przetestowanego procesu.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "green-beans-v10",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "W oliwie z suszonymi pomidorami — rodzina olejowa.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "peas-chickpeas-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-101"
+  ],
+  "sources": [],
+  "uwagi": "Groszek cukrowy w occie miętowym: brak przepisu; ocet smakowy o nieznanej kwasowości."
+ },
+ {
+  "id": "peas-chickpeas-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-100"
+  ],
+  "sources": [],
+  "uwagi": "Ciecierzyca marynowana: gęsta, niskokwasowa; brak przepisu do weków (w NCHFP tylko jako składnik Three-Bean Salad)."
+ },
+ {
+  "id": "beans-soy-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017",
+   "ACI-170"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/pickled-three-bean-salad/",
+    "tytul": "NCHFP: Pickled Three-Bean Salad",
+    "szczebel": 1,
+    "sha12": "34f7dad8ee63"
+   }
+  ],
+  "uwagi": "NCHFP Pickled Three-Bean Salad (ocet 5% + butelkowany sok z cytryny, olej)."
+ },
+ {
+  "id": "beans-soy-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-102"
+  ],
+  "sources": [],
+  "uwagi": "Fasola Jaś w occie winnym: brak przepisu; gęsta, niskokwasowa."
+ },
+ {
+  "id": "beans-soy-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-011",
+   "ACI-102"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-baked/",
+    "tytul": "NCHFP: Beans, Baked",
+    "szczebel": 1,
+    "sha12": "c14d73f75738"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
+    "tytul": "NCHFP: Beans, Dry, With Tomato or Molasses",
+    "szczebel": 1,
+    "sha12": "b4fa458b21ea"
+   }
+  ],
+  "uwagi": "NCHFP Beans, Baked / Beans Dry with Tomato or Molasses — tylko szybkowar.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "beetroot-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017",
+   "ACI-104"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
+    "tytul": "NCHFP: Pickled Beets",
+    "szczebel": 1,
+    "sha12": "7361ae49abe6"
+   }
+  ],
+  "uwagi": "NCHFP Pickled Beets (buraki 2–2,5 cala; wodę z gotowania wylać)."
+ },
+ {
+  "id": "beetroot-v07",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-104"
+  ],
+  "sources": [],
+  "uwagi": "Buraki w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "beetroot-v08",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-104"
+  ],
+  "sources": [],
+  "uwagi": "Buraki tarte w zalewie: inny rozmiar i stosunek do zalewy niż NCHFP Pickled Beets — brak przepisu."
+ },
+ {
+  "id": "beetroot-v12",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-104"
+  ],
+  "sources": [],
+  "uwagi": "Chutney buraczano-jabłkowy: brak przepisu."
+ },
+ {
+  "id": "carrot-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-105"
+  ],
+  "sources": [],
+  "uwagi": "Escabeche marchew+jalapeño: mieszanka nieprzetestowana (NCHFP osobno: Pickled Carrots, Pickled Jalapeño Rings)."
+ },
+ {
+  "id": "carrot-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017",
+   "ACI-019"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-carrots/",
+    "tytul": "NCHFP: Pickled Carrots",
+    "szczebel": 1,
+    "sha12": "99b3c912d33b"
+   }
+  ],
+  "uwagi": "Odpowiednik: NCHFP Pickled Carrots (ocet biały 5%); ocet jabłkowy 5% zamiast białego (ACI-vin_color); kolendra jako sucha przyprawa — DO USTALENIA tolerancja przypraw."
+ },
+ {
+  "id": "carrot-v12",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005",
+   "ACI-105"
+  ],
+  "sources": [],
+  "uwagi": "Kandyzowana marchew — rodzina słodka, warzywo niskokwasowe.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "garlic-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-106"
+  ],
+  "sources": [],
+  "uwagi": "Czosnek w occie winnym z ziołami: brak przepisu NCHFP; Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "garlic-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005",
+   "ACI-106"
+  ],
+  "sources": [],
+  "uwagi": "Jangajji (sos sojowy, ocet, cukier): kwasowość nieznana, brak przepisu.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "garlic-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-106"
+  ],
+  "sources": [],
+  "uwagi": "Czosnek w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "garlic-v08",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-106"
+  ],
+  "sources": [],
+  "uwagi": "Czosnek w zalewie chili: brak przepisu."
+ },
+ {
+  "id": "onion-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-107"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy: NCHFP Pickled Pearl Onions (gorczyca, seler) — dotyczy cebulek perłowych w całości; zwykła cebula krojona nieprzetestowana."
+ },
+ {
+  "id": "onion-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-107"
+  ],
+  "sources": [],
+  "uwagi": "Ocet słodowy: kwasowość nieznana/zmienna; brak przepisu NCHFP."
+ },
+ {
+  "id": "onion-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-022",
+   "ACI-024",
+   "ACI-023",
+   "ACI-107"
+  ],
+  "sources": [],
+  "uwagi": "Cebula w soku z cytryny i sumaku: typowo na bieżąco/lodówka; brak przepisu."
+ },
+ {
+  "id": "onion-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-019",
+   "ACI-107"
+  ],
+  "sources": [],
+  "uwagi": "Cebula w occie jabłkowym z kurkumą: brak przepisu."
+ },
+ {
+  "id": "onion-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-107"
+  ],
+  "sources": [],
+  "uwagi": "Chutney cebulowy: brak przepisu."
+ },
+ {
+  "id": "shallot-pearl-onion-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-022",
+   "ACI-024",
+   "ACI-023",
+   "ACI-107"
+  ],
+  "sources": [],
+  "uwagi": "Szybka cebula w occie: pikle lodówkowe, brak przetestowanego przepisu do przechowywania; nie jest trwała bez lodówki."
+ },
+ {
+  "id": "shallot-pearl-onion-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-108"
+  ],
+  "sources": [],
+  "uwagi": "Szalotka w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "shallot-pearl-onion-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-pearl-onions/",
+    "tytul": "NCHFP: Pickled Pearl Onions",
+    "szczebel": 1,
+    "sha12": "e4078445bdfe"
+   }
+  ],
+  "uwagi": "NCHFP Pickled Pearl Onions (ocet biały destylowany 5%)."
+ },
+ {
+  "id": "leek-chives-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-109"
+  ],
+  "sources": [],
+  "uwagi": "Pory w occie winnym z estragonem: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "leek-chives-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-110"
+  ],
+  "sources": [],
+  "uwagi": "Kwiaty szczypiorku w occie: to raczej ocet smakowy (NAP) niż pikiel; brak przepisu.",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "daikon-black-radish-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-022",
+   "ACI-024",
+   "ACI-023",
+   "ACI-111",
+   "ACI-105"
+  ],
+  "sources": [],
+  "uwagi": "Do-chua: tradycyjnie pikle lodówkowe; brak przetestowanego przepisu do weków."
+ },
+ {
+  "id": "daikon-black-radish-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-111"
+  ],
+  "sources": [],
+  "uwagi": "Danmuji w occie ryżowym: brak przepisu; kwasowość octu ryżowego zmienna."
+ },
+ {
+  "id": "daikon-black-radish-v10",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-111"
+  ],
+  "sources": [],
+  "uwagi": "Sałatka z białej rzodkwi: brak przepisu."
+ },
+ {
+  "id": "radish-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-112"
+  ],
+  "sources": [],
+  "uwagi": "Rzodkiewka w occie: brak przetestowanego przepisu NCHFP; kandydat na pikle lodówkowe."
+ },
+ {
+  "id": "radish-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-112"
+  ],
+  "sources": [],
+  "uwagi": "Rzodkiewka w occie ryżowym: brak przepisu."
+ },
+ {
+  "id": "radish-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-112"
+  ],
+  "sources": [],
+  "uwagi": "Pikle meksykańskie z rzodkiewki: brak przepisu."
+ },
+ {
+  "id": "radish-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Strąki rzodkiewki (mougri) w occie: brak przepisu i danych pH."
+ },
+ {
+  "id": "horseradish-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-035",
+   "ACI-016",
+   "ACI-113"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-horseradish-sauce/",
+    "tytul": "NCHFP: Pickled Horseradish Sauce",
+    "szczebel": 1,
+    "sha12": "7e6bd73bc8b3"
+   }
+  ],
+  "uwagi": "NCHFP Pickled Horseradish Sauce: tylko lodówka (nie wekować); ostrość zanika w 1–2 miesiące."
+ },
+ {
+  "id": "horseradish-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-035",
+   "ACI-016",
+   "ACI-113"
+  ],
+  "sources": [],
+  "uwagi": "Chrzan z miodem i octem jabłkowym: zmiana składu względem przepisu NCHFP (który jest lodówkowy); brak przepisu."
+ },
+ {
+  "id": "celeriac-celery-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-115"
+  ],
+  "sources": [],
+  "uwagi": "Seler tarty słodko-kwaśny: brak przepisu."
+ },
+ {
+  "id": "celeriac-celery-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-114"
+  ],
+  "sources": [],
+  "uwagi": "Seler naciowy w occie z gorczycą: seler występuje tylko w mieszankach NCHFP (Pickled Mixed Vegetables, Corn Relish); samodzielnie brak przepisu."
+ },
+ {
+  "id": "celeriac-celery-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-006",
+   "ACI-115"
+  ],
+  "sources": [],
+  "uwagi": "Seler z jabłkiem w zalewie: brak przepisu."
+ },
+ {
+  "id": "parsnip-parsley-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-116"
+  ],
+  "sources": [],
+  "uwagi": "Pasternak w occie jabłkowym z miodem: brak przepisu."
+ },
+ {
+  "id": "parsnip-parsley-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-116"
+  ],
+  "sources": [],
+  "uwagi": "Pikle z pasternaku z curry: brak przepisu."
+ },
+ {
+  "id": "turnip-rutabaga-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-118"
+  ],
+  "sources": [],
+  "uwagi": "Senmaizuke (rzepa w occie ryżowym z kombu): tradycyjnie lodówka/krótko; brak przepisu."
+ },
+ {
+  "id": "turnip-rutabaga-v08",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-118"
+  ],
+  "sources": [],
+  "uwagi": "Chutney z brukwi i jabłek: brak przepisu."
+ },
+ {
+  "id": "asparagus-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-119"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy: NCHFP Pickled Asparagus (ocet biały destylowany 5%); ocet winny z estragonem — Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "asparagus-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017",
+   "ACI-119"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-asparagus/",
+    "tytul": "NCHFP: Pickled Asparagus",
+    "szczebel": 1,
+    "sha12": "e8c22ae41f26"
+   }
+  ],
+  "uwagi": "NCHFP Pickled Asparagus (opcjonalnie małe ostre papryczki, czosnek, koper)."
+ },
+ {
+  "id": "asparagus-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-119"
+  ],
+  "sources": [],
+  "uwagi": "Zalewa miodowo-musztardowa: brak przepisu."
+ },
+ {
+  "id": "fennel-artichoke-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-120"
+  ],
+  "sources": [],
+  "uwagi": "Fenkuł w białym occie winnym: brak przepisu; Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "fennel-artichoke-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-121",
+   "ACI-002"
+  ],
+  "sources": [],
+  "uwagi": "Serca karczochów w occie i winie: karczochy są w definicji żywności zakwaszanej (21 CFR 114.3), ale brak domowego przetestowanego przepisu."
+ },
+ {
+  "id": "corn-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-122"
+  ],
+  "sources": [],
+  "uwagi": "Baby corn w zalewie: brak przepisu."
+ },
+ {
+  "id": "corn-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-122"
+  ],
+  "sources": [],
+  "uwagi": "Ziarna kukurydzy w occie z papryką: najbliższy NCHFP Pickled Corn Relish (z selerem, cebulą, musztardą) — wersja uproszczona nieprzetestowana."
+ },
+ {
+  "id": "corn-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/pickled-corn-relish/",
+    "tytul": "NCHFP: Pickled Corn Relish",
+    "szczebel": 1,
+    "sha12": "fb324755a2c9"
+   }
+  ],
+  "uwagi": "NCHFP Pickled Corn Relish (kukurydza, papryka, seler, cebula, musztarda w proszku, ocet 5%)."
+ },
+ {
+  "id": "olives-v03",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-123"
+  ],
+  "sources": [],
+  "uwagi": "Kalamata w solance i occie — fermentacja/solanka.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "olives-v11",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-123"
+  ],
+  "sources": [],
+  "uwagi": "Oliwki w harissie (olej) — rodzina olejowa.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "capers-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-124"
+  ],
+  "sources": [],
+  "uwagi": "Kapary w occie winnym: zwykle po soleniu (FER); brak przepisu do weków.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "capers-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-124"
+  ],
+  "sources": [],
+  "uwagi": "Owoce kaparowca w occie: brak przepisu.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "capers-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-006",
+   "ACI-026"
+  ],
+  "sources": [],
+  "uwagi": "Caponata z kaparami: mieszanina niskokwasowa z olejem; brak procesu.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "ginger-turmeric-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005",
+   "ACI-125"
+  ],
+  "sources": [],
+  "uwagi": "Benishoga w umezu (solanka śliwkowa): brak przepisu.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "ginger-turmeric-v07",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018"
+  ],
+  "sources": [],
+  "uwagi": "Galangal w occie ryżowym: brak przepisu i danych pH."
+ },
+ {
+  "id": "ginger-turmeric-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-125"
+  ],
+  "sources": [],
+  "uwagi": "Imbir kandyzowany — rodzina słodka/suszenie.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "european-mixed-veg-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Giardiniera w occie winnym: najbliższy NCHFP Pickled Mixed Vegetables (inny skład, ocet biały 5%, musztarda) — brak przepisu w tej formie."
+ },
+ {
+  "id": "european-mixed-veg-v02",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Giardiniera fermentowana — fermentacja.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "european-mixed-veg-v08",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Giardiniera sott’olio — rodzina olejowa.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "european-mixed-veg-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-006",
+   "ACI-011",
+   "ACI-159",
+   "ACI-094"
+  ],
+  "sources": [],
+  "uwagi": "Sałatka paprykowo-pieczarkowa w pomidorach: niskokwasowa mieszanina, brak przetestowanego procesu (NCHFP: nie zwiększać udziału papryki/grzybów w sosach pomidorowych).",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "balkan-oriental-mix-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Torshi w occie winogronowym: brak przepisu."
+ },
+ {
+  "id": "balkan-oriental-mix-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Torshi liteh (mielone warzywa w occie): brak przepisu."
+ },
+ {
+  "id": "balkan-oriental-mix-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-006",
+   "ACI-093",
+   "ACI-094"
+  ],
+  "sources": [],
+  "uwagi": "Matbucha (pomidory + pieczona papryka, olej): mieszanina, brak przetestowanego procesu.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "asian-american-mix-v07",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Giardiniera chicagowska w oleju — rodzina olejowa.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "asian-american-mix-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "none",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-006",
+   "ACI-022",
+   "ACI-024",
+   "ACI-023"
+  ],
+  "sources": [],
+  "uwagi": "Ajad: świeża sałatka ogórkowa w zalewie octowej podawana na bieżąco.",
+  "poza_zakresem": "dodatek na bieżąco, nie przetwór do przechowywania"
+ },
+ {
+  "id": "asian-american-mix-v10",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/piccalilli/",
+    "tytul": "NCHFP: Piccalilli",
+    "szczebel": 1,
+    "sha12": "d83910e1ea6d"
+   }
+  ],
+  "uwagi": "Odpowiednik: NCHFP Piccalilli (zielone pomidory, kapusta, papryka, cebula, ocet 5%) = relish z zielonych pomidorów i kapusty (chow-chow)."
+ },
+ {
+  "id": "apple-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017",
+   "ACI-126"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/fruit-pickles/spiced-apple-rings/",
+    "tytul": "NCHFP: Spiced Apple Rings",
+    "szczebel": 1,
+    "sha12": "44ece803f890"
+   }
+  ],
+  "uwagi": "Odpowiednik: NCHFP Spiced Apple Rings (ocet 5%, goździki, cynamon). NCHFP ostrzega o bardzo wysokiej zawartości cukru (stara wersja USDA)."
+ },
+ {
+  "id": "apple-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-071",
+   "ACI-067",
+   "ACI-126"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apples-sliced/",
+    "tytul": "NCHFP: Apples-Sliced",
+    "szczebel": 1,
+    "sha12": "54dc5e070982"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "tytul": "NCHFP: Preparing and Using Syrups for Canning Fruit",
+    "szczebel": 1,
+    "sha12": "e16de398eeee"
+   }
+  ],
+  "uwagi": "Kompot ≈ jabłka w plastrach w syropie bardzo lekkim (NCHFP); czasy dla plastrów, hot pack — ćwiartki/połówki nieprzetestowane."
+ },
+ {
+  "id": "apple-v14",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017",
+   "ACI-126"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/chutneys/apple-chutney/",
+    "tytul": "NCHFP: Apple Chutney",
+    "szczebel": 1,
+    "sha12": "433e383f6546"
+   }
+  ],
+  "uwagi": "NCHFP Apple Chutney (z rodzynkami sułtańskimi, ocet jabłkowy 5%)."
+ },
+ {
+  "id": "apple-v15",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-071",
+   "ACI-126"
+  ],
+  "sources": [],
+  "uwagi": "Połówki jabłek: NCHFP podaje czasy tylko dla plastrów; połówki nieprzetestowane (owoc kwaśny — ryzyko głównie zepsucia)."
+ },
+ {
+  "id": "pear-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017",
+   "ACI-127"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/fruit-pickles/pear-pickles/",
+    "tytul": "NCHFP: Pear Pickles",
+    "szczebel": 1,
+    "sha12": "a12bc901b70c"
+   }
+  ],
+  "uwagi": "NCHFP Pear Pickles (ocet biały 5%, cynamon, goździki, ziele angielskie)."
+ },
+ {
+  "id": "pear-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-127",
+   "ACI-064"
+  ],
+  "sources": [],
+  "uwagi": "Gruszki w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "pear-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/pear-relish/",
+    "tytul": "NCHFP: Pear Relish",
+    "szczebel": 1,
+    "sha12": "bc7628d5e6ea"
+   }
+  ],
+  "uwagi": "Odpowiednik: NCHFP Pear Relish (gruszki, cebula, papryka, seler, ocet 5%); gorczyca jako sucha przyprawa — DO USTALENIA."
+ },
+ {
+  "id": "pear-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-074",
+   "ACI-067",
+   "ACI-127",
+   "ACI-063"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pears-halved/",
+    "tytul": "NCHFP: Pears-Halved",
+    "szczebel": 1,
+    "sha12": "9e866e44d160"
+   }
+  ],
+  "uwagi": "NCHFP Pears halved w syropie; wanilia jako aromat. Gruszki azjatyckie: obowiązkowe zakwaszenie (osobny przepis)."
+ },
+ {
+  "id": "pear-v11",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-127"
+  ],
+  "sources": [],
+  "uwagi": "Chutney gruszkowy: brak przepisu (NCHFP ma Pear Relish i Chayote and Pear Relish)."
+ },
+ {
+  "id": "pear-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-074",
+   "ACI-067",
+   "ACI-063"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pears-halved/",
+    "tytul": "NCHFP: Pears-Halved",
+    "szczebel": 1,
+    "sha12": "9e866e44d160"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "tytul": "NCHFP: Preparing and Using Syrups for Canning Fruit",
+    "szczebel": 1,
+    "sha12": "e16de398eeee"
+   }
+  ],
+  "uwagi": "Kompot ≈ gruszki połówki w syropie bardzo lekkim (NCHFP). Gruszki azjatyckie — zakwasić (c_pears-asian)."
+ },
+ {
+  "id": "pear-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Suszenie — poza ACI.",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "quince-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-128"
+  ],
+  "sources": [],
+  "uwagi": "Pigwa w occie: brak przepisu NCHFP."
+ },
+ {
+  "id": "quince-v06",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-009",
+   "ACI-128",
+   "ACI-067"
+  ],
+  "sources": [],
+  "uwagi": "Plastry pigwy w syropie: owoc kwaśny, ale brak przetestowanego czasu dla pigwy.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "plum-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-129"
+  ],
+  "sources": [],
+  "uwagi": "Śliwki w occie korzennym: brak przepisu NCHFP (lista FDA wymienia „Plums, spiced” ale bez procesu)."
+ },
+ {
+  "id": "plum-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-129"
+  ],
+  "sources": [],
+  "uwagi": "Tkemali (sos śliwkowy z czosnkiem i ziołami): brak przetestowanego przepisu."
+ },
+ {
+  "id": "plum-v07",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-129"
+  ],
+  "sources": [],
+  "uwagi": "Śliwki w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "plum-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-075",
+   "ACI-129"
+  ],
+  "sources": [],
+  "uwagi": "Śliwki we własnym soku (bez dodatku płynu): NCHFP przewiduje wodę lub syrop; wersja bez płynu nieprzetestowana."
+ },
+ {
+  "id": "plum-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-075",
+   "ACI-067"
+  ],
+  "sources": [],
+  "uwagi": "Połówki w syropie z rumem: dodatek alkoholu nieprzetestowany (owoc kwaśny); baza = NCHFP Plums."
+ },
+ {
+  "id": "plum-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-075",
+   "ACI-067",
+   "ACI-129"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/plums-halved-or-whole/",
+    "tytul": "NCHFP: Plums-Halved or Whole",
+    "szczebel": 1,
+    "sha12": "e411d79482b0"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "tytul": "NCHFP: Preparing and Using Syrups for Canning Fruit",
+    "szczebel": 1,
+    "sha12": "e16de398eeee"
+   }
+  ],
+  "uwagi": "Kompot ≈ śliwki całe/połówki w syropie bardzo lekkim lub wodzie (NCHFP)."
+ },
+ {
+  "id": "plum-v15",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-129"
+  ],
+  "sources": [],
+  "uwagi": "Chutney śliwkowy: brak przepisu."
+ },
+ {
+  "id": "mirabelle-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-130"
+  ],
+  "sources": [],
+  "uwagi": "Mirabelki w occie winnym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "mirabelle-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-130"
+  ],
+  "sources": [],
+  "uwagi": "Zielone tkemali: brak przepisu; niedojrzałe owoce — pH nieznane."
+ },
+ {
+  "id": "mirabelle-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-075",
+   "ACI-067",
+   "ACI-130"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/plums-halved-or-whole/",
+    "tytul": "NCHFP: Plums-Halved or Whole",
+    "szczebel": 1,
+    "sha12": "e411d79482b0"
+   }
+  ],
+  "uwagi": "Odpowiednik: NCHFP Plums halved or whole (mirabelka/ałycza to śliwki; FDA „Plums, Yellow”). DO USTALENIA: małe owoce całe — czas jak dla śliwek całych."
+ },
+ {
+  "id": "sour-cherry-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-131"
+  ],
+  "sources": [],
+  "uwagi": "Wiśnie w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "sour-cherry-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-070",
+   "ACI-131"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "tytul": "NCHFP: Cherries-Whole",
+    "szczebel": 1,
+    "sha12": "74cc552d518e"
+   }
+  ],
+  "uwagi": "NCHFP Cherries whole: hot pack z 1/2 szklanki wody, soku lub syropu na 1 qt — sok własny jako płyn."
+ },
+ {
+  "id": "sour-cherry-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-070",
+   "ACI-067",
+   "ACI-131"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "tytul": "NCHFP: Cherries-Whole",
+    "szczebel": 1,
+    "sha12": "74cc552d518e"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "tytul": "NCHFP: Preparing and Using Syrups for Canning Fruit",
+    "szczebel": 1,
+    "sha12": "e16de398eeee"
+   }
+  ],
+  "uwagi": "Kompot ≈ wiśnie całe w syropie bardzo lekkim (NCHFP)."
+ },
+ {
+  "id": "sour-cherry-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-070",
+   "ACI-067"
+  ],
+  "sources": [],
+  "uwagi": "Domowe maraschino (barwienie, aromat migdałowy, często wcześniejsze solenie/bielenie): brak przepisu.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "sweet-cherry-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-132"
+  ],
+  "sources": [],
+  "uwagi": "Czereśnie w occie winnym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "sweet-cherry-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-019",
+   "ACI-132"
+  ],
+  "sources": [],
+  "uwagi": "Czereśnie w occie jabłkowym: brak przepisu."
+ },
+ {
+  "id": "sweet-cherry-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-132"
+  ],
+  "sources": [],
+  "uwagi": "Chutney czereśniowy z chili: brak przepisu."
+ },
+ {
+  "id": "sweet-cherry-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-070",
+   "ACI-067",
+   "ACI-132"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "tytul": "NCHFP: Cherries-Whole",
+    "szczebel": 1,
+    "sha12": "74cc552d518e"
+   }
+  ],
+  "uwagi": "NCHFP Sweet or Sour Cherries whole w syropie; wanilia jako aromat."
+ },
+ {
+  "id": "sweet-cherry-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-070",
+   "ACI-067",
+   "ACI-132"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "tytul": "NCHFP: Cherries-Whole",
+    "szczebel": 1,
+    "sha12": "74cc552d518e"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "tytul": "NCHFP: Preparing and Using Syrups for Canning Fruit",
+    "szczebel": 1,
+    "sha12": "e16de398eeee"
+   }
+  ],
+  "uwagi": "Kompot ≈ czereśnie całe w syropie bardzo lekkim (NCHFP)."
+ },
+ {
+  "id": "sweet-cherry-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-070",
+   "ACI-067"
+  ],
+  "sources": [],
+  "uwagi": "Syrop z amaretto: dodatek alkoholu nieprzetestowany; baza NCHFP Cherries.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "peach-nectarine-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-133"
+  ],
+  "sources": [],
+  "uwagi": "Pickled peaches: brak przepisu w obecnym indeksie NCHFP (DO USTALENIA: Guide 2/So Easy to Preserve)."
+ },
+ {
+  "id": "peach-nectarine-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-133"
+  ],
+  "sources": [],
+  "uwagi": "Grillowane brzoskwinie w occie: brak przepisu."
+ },
+ {
+  "id": "peach-nectarine-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-037",
+   "ACI-041",
+   "ACI-038"
+  ],
+  "sources": [],
+  "uwagi": "Salsa brzoskwiniowa z jalapeño: najbliższa NCHFP Peach-Apple Salsa (z jabłkiem) — inny skład; brak przepisu w tej formie."
+ },
+ {
+  "id": "peach-nectarine-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-133"
+  ],
+  "sources": [],
+  "uwagi": "Chutney brzoskwiniowy z imbirem: brak przepisu."
+ },
+ {
+  "id": "peach-nectarine-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-073",
+   "ACI-067"
+  ],
+  "sources": [],
+  "uwagi": "Brzoskwinie w syropie z bourbonem/brandy: dodatek alkoholu nieprzetestowany; baza NCHFP Peaches.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "peach-nectarine-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-073",
+   "ACI-067",
+   "ACI-133",
+   "ACI-134"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "tytul": "NCHFP: Peaches-Halved or Sliced",
+    "szczebel": 1,
+    "sha12": "245688b4abb6"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/nectarines-halved-or-sliced/",
+    "tytul": "NCHFP: Nectarines-Halved or Sliced",
+    "szczebel": 1,
+    "sha12": "bf75aed25573"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "tytul": "NCHFP: Preparing and Using Syrups for Canning Fruit",
+    "szczebel": 1,
+    "sha12": "e16de398eeee"
+   }
+  ],
+  "uwagi": "Kompot ≈ brzoskwinie/nektarynki połówki w syropie bardzo lekkim (NCHFP)."
+ },
+ {
+  "id": "apricot-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-135"
+  ],
+  "sources": [],
+  "uwagi": "Morele w occie winnym z tymiankiem: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "apricot-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-072",
+   "ACI-067",
+   "ACI-135"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "tytul": "NCHFP: Apricots-Halved or Sliced",
+    "szczebel": 1,
+    "sha12": "e5c5c57c8540"
+   }
+  ],
+  "uwagi": "NCHFP Apricots halved w syropie."
+ },
+ {
+  "id": "apricot-v10",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-135"
+  ],
+  "sources": [],
+  "uwagi": "Chutney morelowy z gorczycą: brak przepisu."
+ },
+ {
+  "id": "apricot-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-072",
+   "ACI-067",
+   "ACI-135"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "tytul": "NCHFP: Apricots-Halved or Sliced",
+    "szczebel": 1,
+    "sha12": "e5c5c57c8540"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "tytul": "NCHFP: Preparing and Using Syrups for Canning Fruit",
+    "szczebel": 1,
+    "sha12": "e16de398eeee"
+   }
+  ],
+  "uwagi": "Kompot ≈ morele połówki w syropie bardzo lekkim (NCHFP)."
+ },
+ {
+  "id": "cornelian-cherry-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-009"
+  ],
+  "sources": [],
+  "uwagi": "Dereń w occie: brak przepisu i pomiaru pH."
+ },
+ {
+  "id": "cornelian-cherry-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-009"
+  ],
+  "sources": [],
+  "uwagi": "Sos z derenia typu tkemali: brak przepisu."
+ },
+ {
+  "id": "cornelian-cherry-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-009",
+   "ACI-067"
+  ],
+  "sources": [],
+  "uwagi": "Kompot dereniowy: owoc kwaśny wg ogólnej reguły USDA, ale brak przetestowanego czasu dla derenia."
+ },
+ {
+  "id": "strawberry-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018"
+  ],
+  "sources": [],
+  "uwagi": "Zielone truskawki w occie: brak przepisu; pH niedojrzałych owoców nieznane."
+ },
+ {
+  "id": "strawberry-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-136"
+  ],
+  "sources": [],
+  "uwagi": "Truskawki w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "strawberry-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018"
+  ],
+  "sources": [],
+  "uwagi": "Szypułki truskawek w occie: to raczej ocet smakowy.",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "strawberry-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-068",
+   "ACI-136"
+  ],
+  "sources": [],
+  "uwagi": "Kompot truskawkowy: truskawek nie ma na liście NCHFP „Berries whole” (instrukcje tylko dla wymienionych owoców); brak przetestowanego czasu."
+ },
+ {
+  "id": "raspberry-blackberry-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-138"
+  ],
+  "sources": [],
+  "uwagi": "Jeżyny w occie winnym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "raspberry-blackberry-v14",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-069",
+   "ACI-068",
+   "ACI-067",
+   "ACI-138"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "tytul": "NCHFP: Berries-Whole",
+    "szczebel": 1,
+    "sha12": "ec2bd5d24dec"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "tytul": "NCHFP: Preparing and Using Syrups for Canning Fruit",
+    "szczebel": 1,
+    "sha12": "e16de398eeee"
+   }
+  ],
+  "uwagi": "Kompot ≈ NCHFP Berries whole (jeżyny) w syropie bardzo lekkim."
+ },
+ {
+  "id": "currant-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018"
+  ],
+  "sources": [],
+  "uwagi": "Porzeczki w occie winnym z goździkami: brak przepisu."
+ },
+ {
+  "id": "currant-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-069",
+   "ACI-068",
+   "ACI-067"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "tytul": "NCHFP: Berries-Whole",
+    "szczebel": 1,
+    "sha12": "ec2bd5d24dec"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "tytul": "NCHFP: Preparing and Using Syrups for Canning Fruit",
+    "szczebel": 1,
+    "sha12": "e16de398eeee"
+   }
+  ],
+  "uwagi": "Kompot ≈ NCHFP Berries whole (porzeczki, hot pack) w syropie bardzo lekkim."
+ },
+ {
+  "id": "gooseberry-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-139"
+  ],
+  "sources": [],
+  "uwagi": "Zielony agrest w occie korzennym: brak przepisu."
+ },
+ {
+  "id": "gooseberry-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-139"
+  ],
+  "sources": [],
+  "uwagi": "Chutney agrestowy: brak przepisu."
+ },
+ {
+  "id": "gooseberry-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-069",
+   "ACI-068",
+   "ACI-067",
+   "ACI-139"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "tytul": "NCHFP: Berries-Whole",
+    "szczebel": 1,
+    "sha12": "ec2bd5d24dec"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "tytul": "NCHFP: Preparing and Using Syrups for Canning Fruit",
+    "szczebel": 1,
+    "sha12": "e16de398eeee"
+   }
+  ],
+  "uwagi": "Kompot ≈ NCHFP Berries whole (agrest, hot pack)."
+ },
+ {
+  "id": "gooseberry-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-069",
+   "ACI-068",
+   "ACI-067",
+   "ACI-139"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "tytul": "NCHFP: Berries-Whole",
+    "szczebel": 1,
+    "sha12": "ec2bd5d24dec"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "tytul": "NCHFP: Preparing and Using Syrups for Canning Fruit",
+    "szczebel": 1,
+    "sha12": "e16de398eeee"
+   }
+  ],
+  "uwagi": "NCHFP Berries whole (agrest) w syropie (dla agrestu tabela syropów sugeruje ciężki)."
+ },
+ {
+  "id": "blueberry-bilberry-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-140"
+  ],
+  "sources": [],
+  "uwagi": "Borówka w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "blueberry-bilberry-v06",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-069",
+   "ACI-068",
+   "ACI-140"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "tytul": "NCHFP: Berries-Whole",
+    "szczebel": 1,
+    "sha12": "ec2bd5d24dec"
+   }
+  ],
+  "uwagi": "NCHFP Berries whole (borówki, hot pack) — dopuszcza sok/wodę zamiast syropu. Jagoda leśna (Vaccinium myrtillus) nie jest wymieniona wprost (huckleberries/blueberries) — uproszczenie."
+ },
+ {
+  "id": "blueberry-bilberry-v11",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Chutney borówkowo-cebulowy: brak przepisu."
+ },
+ {
+  "id": "blueberry-bilberry-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-069",
+   "ACI-068",
+   "ACI-067",
+   "ACI-140"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "tytul": "NCHFP: Berries-Whole",
+    "szczebel": 1,
+    "sha12": "ec2bd5d24dec"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "tytul": "NCHFP: Preparing and Using Syrups for Canning Fruit",
+    "szczebel": 1,
+    "sha12": "e16de398eeee"
+   }
+  ],
+  "uwagi": "Kompot ≈ NCHFP Berries whole (borówki) w syropie bardzo lekkim."
+ },
+ {
+  "id": "cranberry-lingonberry-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-141"
+  ],
+  "sources": [],
+  "uwagi": "Żurawina w occie korzennym: brak przepisu (NCHFP: Cranberries w syropie, Cranberry Orange Chutney)."
+ },
+ {
+  "id": "cranberry-lingonberry-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-113",
+   "ACI-141"
+  ],
+  "sources": [],
+  "uwagi": "Relish żurawinowo-chrzanowy (surowy): wersja lodówkowa/na bieżąco; brak przepisu do weków."
+ },
+ {
+  "id": "chokeberry-seabuckthorn-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-009"
+  ],
+  "sources": [],
+  "uwagi": "Aronia w occie winnym: brak przepisu."
+ },
+ {
+  "id": "chokeberry-seabuckthorn-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-009"
+  ],
+  "sources": [],
+  "uwagi": "Aronia kandyzowana — rodzina słodka.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "elderberry-elderflower-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018"
+  ],
+  "sources": [],
+  "uwagi": "Pąki i niedojrzałe owoce bzu w occie: brak przepisu; surowe/niedojrzałe części bzu — kwestia toksykologiczna DO USTALENIA (poza zakresem kwasowości)."
+ },
+ {
+  "id": "rosehip-rowan-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-009"
+  ],
+  "sources": [],
+  "uwagi": "Jarzębina w occie z miodem: brak przepisu."
+ },
+ {
+  "id": "rosehip-rowan-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-009"
+  ],
+  "sources": [],
+  "uwagi": "Głóg w occie jabłkowym: brak przepisu."
+ },
+ {
+  "id": "grapes-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-142"
+  ],
+  "sources": [],
+  "uwagi": "Winogrona marynowane w occie winnym: brak przepisu."
+ },
+ {
+  "id": "rhubarb-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-143"
+  ],
+  "sources": [],
+  "uwagi": "Rabarbar marynowany w occie jabłkowym: brak przepisu (owoc/warzywo kwaśne, ale bez procesu)."
+ },
+ {
+  "id": "rhubarb-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-006",
+   "ACI-143"
+  ],
+  "sources": [],
+  "uwagi": "Chutney rabarbarowy z cebulą: brak przepisu."
+ },
+ {
+  "id": "rhubarb-v05",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-077",
+   "ACI-143"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/rhubarb-stewed/",
+    "tytul": "NCHFP: Rhubarb-Stewed",
+    "szczebel": 1,
+    "sha12": "f116a5fbd9e9"
+   }
+  ],
+  "uwagi": "Kompot ≈ NCHFP Rhubarb stewed (1/2 szklanki cukru na 1 qt, hot pack). Kompot z większą ilością wody — DO USTALENIA."
+ },
+ {
+  "id": "lemon-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-144",
+   "ACI-067"
+  ],
+  "sources": [],
+  "uwagi": "Plastry cytryny w syropie: brak przepisu NCHFP (jest Grapefruit and Orange Sections).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "lime-bergamot-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-145"
+  ],
+  "sources": [],
+  "uwagi": "Limonki w syropie — rodzina słodka; brak przepisu.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "orange-kumquat-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-147"
+  ],
+  "sources": [],
+  "uwagi": "Kumkwaty w occie ryżowym z miodem: brak przepisu."
+ },
+ {
+  "id": "orange-kumquat-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-146"
+  ],
+  "sources": [],
+  "uwagi": "Chutney pomarańczowy: brak przepisu (NCHFP Cranberry Orange Chutney to inny produkt)."
+ },
+ {
+  "id": "orange-kumquat-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-147",
+   "ACI-067"
+  ],
+  "sources": [],
+  "uwagi": "Całe kumkwaty w syropie: brak przetestowanego czasu.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "orange-kumquat-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-146"
+  ],
+  "sources": [],
+  "uwagi": "Kandyzowane plastry pomarańczy — rodzina słodka.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "grapefruit-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-148"
+  ],
+  "sources": [],
+  "uwagi": "Grejpfrut w occie szampańskim: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "grapefruit-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-148"
+  ],
+  "sources": [],
+  "uwagi": "Kandyzowana skórka pomelo — rodzina słodka.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "mango-papaya-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-151",
+   "ACI-150",
+   "ACI-065"
+  ],
+  "sources": [],
+  "uwagi": "Mango w occie: zielone mango niskokwasowe (FDA), dojrzałe graniczne; brak przepisu (NCHFP ma Mango Chutney, Mango Salsa, Green Mangoes)."
+ },
+ {
+  "id": "mango-papaya-v07",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017",
+   "ACI-151"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/chutneys/mango-chutney/",
+    "tytul": "NCHFP: Mango Chutney",
+    "szczebel": 1,
+    "sha12": "8a1b9f56d802"
+   }
+  ],
+  "uwagi": "NCHFP Mango Chutney: z niedojrzałego, twardego mango, rodzynki, imbir, ocet biały 5%."
+ },
+ {
+  "id": "pineapple-banana-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-153"
+  ],
+  "sources": [],
+  "uwagi": "Ananas w occie z jalapeño: brak przepisu."
+ },
+ {
+  "id": "pineapple-banana-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-065",
+   "ACI-152",
+   "ACI-017"
+  ],
+  "sources": [],
+  "uwagi": "Keczup bananowy: banany niskokwasowe, NCHFP wyklucza je z przecierów owocowych; brak przetestowanego przepisu. Kandydat na ryzyko-wysokie po sprawdzeniu."
+ },
+ {
+  "id": "pineapple-banana-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-076",
+   "ACI-067",
+   "ACI-153"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pineapple/",
+    "tytul": "NCHFP: Pineapple",
+    "szczebel": 1,
+    "sha12": "e2747afab639"
+   }
+  ],
+  "uwagi": "NCHFP Pineapple (w syropie, soku lub wodzie)."
+ },
+ {
+  "id": "pineapple-banana-v08",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-153"
+  ],
+  "sources": [],
+  "uwagi": "Chutney ananasowy z miętą: brak przepisu."
+ },
+ {
+  "id": "fig-pomegranate-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-154",
+   "ACI-008"
+  ],
+  "sources": [],
+  "uwagi": "Figi w occie balsamicznym: figi niskokwasowe; jedyny przetestowany pikiel to NCHFP Fig Pickles; Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+ },
+ {
+  "id": "fig-pomegranate-v05",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-154",
+   "ACI-008"
+  ],
+  "sources": [],
+  "uwagi": "Figi kiszone z miodem — fermentacja.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "fig-pomegranate-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-061",
+   "ACI-062",
+   "ACI-008",
+   "ACI-154"
+  ],
+  "sources": [],
+  "uwagi": "Najbliższy: NCHFP Figs (dojrzałe figi w lekkim syropie z obowiązkowym zakwaszeniem). Zielone (niedojrzałe) figi w gęstym syropie — inny produkt, brak przepisu; bez zakwaszenia niedopuszczalne.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "fig-pomegranate-v10",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-154"
+  ],
+  "sources": [],
+  "uwagi": "Suszone figi w oliwie — rodzina olejowa.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "watermelon-melon-v01",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-156",
+   "ACI-026"
+  ],
+  "sources": [],
+  "uwagi": "Kiszony arbuz — fermentacja.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "watermelon-melon-v02",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-156"
+  ],
+  "sources": [],
+  "uwagi": "Kiszona skórka arbuza — fermentacja.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "watermelon-melon-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017",
+   "ACI-028"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/fruit-pickles/watermelon-rind-pickles/",
+    "tytul": "NCHFP: Watermelon Rind Pickles",
+    "szczebel": 1,
+    "sha12": "06a9f97e08e5"
+   }
+  ],
+  "uwagi": "NCHFP Watermelon Rind Pickles (ocet biały 5%, cukier, goździki, cynamon, cytryna)."
+ },
+ {
+  "id": "watermelon-melon-v04",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-157",
+   "ACI-026",
+   "ACI-028"
+  ],
+  "sources": [],
+  "uwagi": "Melon kiszony — fermentacja. Przetestowany octowy odpowiednik: NCHFP Cantaloupe Pickles.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "watermelon-melon-v05",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "ACI-066",
+   "ACI-065",
+   "ACI-156",
+   "ACI-026",
+   "ACI-027"
+  ],
+  "sources": [],
+  "uwagi": "Syrop z soku arbuza: sok niskokwasowy, NCHFP nie zaleca wekowania arbuza, brak przetestowanej procedury. Karta tylko jako ostrzeżenie (albo mrożenie).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "watermelon-melon-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-156",
+   "ACI-026"
+  ],
+  "sources": [],
+  "uwagi": "Konfitura ze skórki arbuza — rodzina słodka (DO USTALENIA: przepis Watermelon Rind Preserves w Guide 7/So Easy).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "watermelon-melon-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-156"
+  ],
+  "sources": [],
+  "uwagi": "Kandyzowana skórka — rodzina słodka.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "watermelon-melon-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-157",
+   "ACI-065",
+   "ACI-026"
+  ],
+  "sources": [],
+  "uwagi": "Dżem z kantalupa: melon niskokwasowy, wyłączony z przecierów NCHFP; brak przepisu. Sygnał ryzyka.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "watermelon-melon-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-156",
+   "ACI-066",
+   "ACI-026"
+  ],
+  "sources": [],
+  "uwagi": "Galaretka arbuzowa: sok niskokwasowy; brak przetestowanego przepisu. Sygnał ryzyka.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "watermelon-melon-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-157"
+  ],
+  "sources": [],
+  "uwagi": "Suszony melon — suszenie.",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "walnut-nuts-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-158"
+  ],
+  "sources": [],
+  "uwagi": "Pickled walnuts (ocet słodowy, długie solenie, czernienie): brak przepisu NCHFP."
+ },
+ {
+  "id": "walnut-nuts-v05",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-158"
+  ],
+  "sources": [],
+  "uwagi": "Kaklis muraba (woda wapienna, syrop) — rodzina słodka.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "boletes-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "ACI-030",
+   "ACI-159",
+   "ACI-016"
+  ],
+  "sources": [],
+  "uwagi": "NCHFP: nie wekować grzybów leśnych. Wersja w occie pasteryzowana w słoikach = wekowanie; karta najwyżej wyjaśnia dlaczego. Wersja lodówkowa bez przetestowanego przepisu — DO USTALENIA."
+ },
+ {
+  "id": "boletes-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "ACI-030",
+   "ACI-159",
+   "ACI-016"
+  ],
+  "sources": [],
+  "uwagi": "NCHFP: nie wekować grzybów leśnych. Wersja w occie pasteryzowana w słoikach = wekowanie; karta najwyżej wyjaśnia dlaczego. Wersja lodówkowa bez przetestowanego przepisu — DO USTALENIA."
+ },
+ {
+  "id": "boletes-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "ACI-030",
+   "ACI-159",
+   "ACI-016"
+  ],
+  "sources": [],
+  "uwagi": "NCHFP: nie wekować grzybów leśnych. Wersja w occie pasteryzowana w słoikach = wekowanie; karta najwyżej wyjaśnia dlaczego. Wersja lodówkowa bez przetestowanego przepisu — DO USTALENIA."
+ },
+ {
+  "id": "boletes-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "ACI-030",
+   "ACI-159",
+   "ACI-016"
+  ],
+  "sources": [],
+  "uwagi": "NCHFP: nie wekować grzybów leśnych. Wersja w occie pasteryzowana w słoikach = wekowanie; karta najwyżej wyjaśnia dlaczego. Wersja lodówkowa bez przetestowanego przepisu — DO USTALENIA."
+ },
+ {
+  "id": "chanterelle-milkcap-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "ACI-030",
+   "ACI-159",
+   "ACI-016"
+  ],
+  "sources": [],
+  "uwagi": "NCHFP: nie wekować grzybów leśnych. Wersja w occie pasteryzowana w słoikach = wekowanie; karta najwyżej wyjaśnia dlaczego. Wersja lodówkowa bez przetestowanego przepisu — DO USTALENIA."
+ },
+ {
+  "id": "chanterelle-milkcap-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "ACI-030",
+   "ACI-159",
+   "ACI-016"
+  ],
+  "sources": [],
+  "uwagi": "NCHFP: nie wekować grzybów leśnych. Wersja w occie pasteryzowana w słoikach = wekowanie; karta najwyżej wyjaśnia dlaczego. Wersja lodówkowa bez przetestowanego przepisu — DO USTALENIA."
+ },
+ {
+  "id": "chanterelle-milkcap-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "ACI-030",
+   "ACI-159",
+   "ACI-016"
+  ],
+  "sources": [],
+  "uwagi": "NCHFP: nie wekować grzybów leśnych. Wersja w occie pasteryzowana w słoikach = wekowanie; karta najwyżej wyjaśnia dlaczego. Wersja lodówkowa bez przetestowanego przepisu — DO USTALENIA."
+ },
+ {
+  "id": "chanterelle-milkcap-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "ACI-030",
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Maślaki w sosie pomidorowo-octowym: grzyby leśne + mieszanina. NCHFP: nie wekować grzybów leśnych. Wersja w occie pasteryzowana w słoikach = wekowanie; karta najwyżej wyjaśnia dlaczego. Wersja lodówkowa bez przetestowanego przepisu — DO USTALENIA."
+ },
+ {
+  "id": "wild-mushrooms-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "ACI-030",
+   "ACI-159",
+   "ACI-016"
+  ],
+  "sources": [],
+  "uwagi": "NCHFP: nie wekować grzybów leśnych. Wersja w occie pasteryzowana w słoikach = wekowanie; karta najwyżej wyjaśnia dlaczego. Wersja lodówkowa bez przetestowanego przepisu — DO USTALENIA."
+ },
+ {
+  "id": "wild-mushrooms-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "ACI-030",
+   "ACI-159"
+  ],
+  "sources": [],
+  "uwagi": "NCHFP: nie wekować grzybów leśnych. Wersja w occie pasteryzowana w słoikach = wekowanie; karta najwyżej wyjaśnia dlaczego. Wersja lodówkowa bez przetestowanego przepisu — DO USTALENIA. Dodatkowo gąska zielona (Tricholoma equestre) — sygnał toksykologiczny DO USTALENIA."
+ },
+ {
+  "id": "wild-mushrooms-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "ACI-030",
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Kania smażona w cieście w zalewie octowo-pomidorowej: grzyb leśny, panierka (zagęstnik) i mieszanina — nie wekować.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "cultivated-mushrooms-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-017",
+   "ACI-031",
+   "ACI-159"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-whole-mushrooms/",
+    "tytul": "NCHFP: Marinated Whole Mushrooms",
+    "szczebel": 1,
+    "sha12": "e5048b66582b"
+   }
+  ],
+  "uwagi": "Odpowiednik: NCHFP Marinated Whole Mushrooms — małe zamknięte pieczarki, blanszowanie z sokiem z cytryny, ocet 5% (+olej w oryginale). Wersja „klasyczna” bez oleju — tylko według proporcji NCHFP; DO USTALENIA, czy pominięcie oleju jest dopuszczalne."
+ },
+ {
+  "id": "cultivated-mushrooms-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-031"
+  ],
+  "sources": [],
+  "uwagi": "Pieczarki w zalewie miodowo-musztardowej: zmiana składu względem NCHFP Marinated Mushrooms; brak przepisu."
+ },
+ {
+  "id": "cultivated-mushrooms-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-031",
+   "ACI-160"
+  ],
+  "sources": [],
+  "uwagi": "Boczniaki w zalewie korzennej: przepis NCHFP dotyczy małych całych grzybów z zamkniętym kapeluszem; boczniaki nieprzetestowane."
+ },
+ {
+  "id": "cultivated-mushrooms-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005",
+   "ACI-159"
+  ],
+  "sources": [],
+  "uwagi": "Shiitake w sosie sojowym i mirinie: brak kwasu, brak przepisu; tylko lodówka/na bieżąco DO USTALENIA."
+ },
+ {
+  "id": "cultivated-mushrooms-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005",
+   "ACI-031"
+  ],
+  "sources": [],
+  "uwagi": "Pieczarki z papryką w occie: NCHFP Marinated Mushrooms ma tylko pimento w małej ilości; mieszanka nieprzetestowana."
+ },
+ {
+  "id": "wild-garlic-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Ruloniki liści czosnku niedźwiedziego w occie: brak przepisu (liście niskokwasowe — ogólna reguła)."
+ },
+ {
+  "id": "wild-garlic-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Pąki czosnku niedźwiedziego w occie („kapary”): brak przepisu."
+ },
+ {
+  "id": "garden-herbs-v03",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005",
+   "ACI-117"
+  ],
+  "sources": [],
+  "uwagi": "Salsa verde z kaparami (oliwa, zioła) — rodzina olejowa.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "garden-herbs-v06",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005",
+   "ACI-106"
+  ],
+  "sources": [],
+  "uwagi": "Oliwa z czosnkiem — rodzina olejowa (czosnek w oleju: ryzyko jadu).",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "garden-herbs-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-117"
+  ],
+  "sources": [],
+  "uwagi": "Syrop ziołowy — rodzina słodka.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "foraged-blossoms-v08",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Pąki mniszka w occie: brak przepisu i danych pH."
+ },
+ {
+  "id": "foraged-blossoms-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Owoce nasturcji w solance i occie: brak przepisu.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "foraged-blossoms-v10",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-016",
+   "ACI-017",
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Pąki stokrotki w occie: brak przepisu."
+ },
+ {
+  "id": "koji-ferments-v12",
+  "processFamilyId": "koji-soy-ferments",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-161"
+  ],
+  "sources": [],
+  "uwagi": "Bettarazuke (rzodkiew w koji) — koji.",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "mustard-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-009",
+   "ACI-162"
+  ],
+  "sources": [],
+  "uwagi": "Mostarda di frutta (owoce w syropie z olejkiem gorczycowym): brak przepisu.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "mustard-v12",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-162",
+   "ACI-163"
+  ],
+  "sources": [],
+  "uwagi": "Kawior gorczycowy (ziarna w occie i syropie): brak przepisu.",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "fresh-brined-cheese-v01",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-165"
+  ],
+  "sources": [],
+  "uwagi": "Ser — poza ACI (wersje w oleju: także OLE).",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "fresh-brined-cheese-v07",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-165"
+  ],
+  "sources": [],
+  "uwagi": "Ser — poza ACI (wersje w oleju: także OLE).",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "fresh-brined-cheese-v14",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-165"
+  ],
+  "sources": [],
+  "uwagi": "Ser — poza ACI (wersje w oleju: także OLE).",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "aged-hard-cheese-v11",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-165"
+  ],
+  "sources": [],
+  "uwagi": "Ser — poza ACI (wersje w oleju: także OLE).",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "mold-ripened-cheese-v05",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-165"
+  ],
+  "sources": [],
+  "uwagi": "Ser — poza ACI (wersje w oleju: także OLE).",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "beef-veal-v08",
+  "processFamilyId": "meat-curing-smoking",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Jerky — suszenie mięsa, poza ACI.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "beef-veal-v09",
+  "processFamilyId": "meat-curing-smoking",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Biltong (ocet tylko jako marynata przed suszeniem) — poza ACI.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "sea-fish-v03",
+  "processFamilyId": "fish-curing-smoking",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Śledzie — poza ACI.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "sea-fish-v04",
+  "processFamilyId": "fish-curing-smoking",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Śledzie w occie, rolmopsy (surowa ryba marynowana — pasożyty) — poza ACI.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "sea-fish-v06",
+  "processFamilyId": "fish-curing-smoking",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Boquerones (surowa ryba w occie — pasożyty) — poza ACI.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "sea-fish-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005",
+   "ACI-011"
+  ],
+  "sources": [],
+  "uwagi": "Paprykarz (ryba + ryż + pomidory) w słoiku: niskokwasowy; poza ACI.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "freshwater-fish-v05",
+  "processFamilyId": "fish-curing-smoking",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005",
+   "ACI-006"
+  ],
+  "sources": [],
+  "uwagi": "Ryba smażona w zalewie octowo-pomidorowej — poza ACI.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "freshwater-fish-v06",
+  "processFamilyId": "fish-curing-smoking",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005"
+  ],
+  "sources": [],
+  "uwagi": "Sielawa w occie — poza ACI.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "freshwater-fish-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-005",
+   "ACI-011"
+  ],
+  "sources": [],
+  "uwagi": "Ryby w sosie pomidorowym w szybkowarze — poza ACI.",
+  "inny_klaster": "SZY"
+ },
+ {
+  "id": "eggs-v01",
+  "processFamilyId": "egg-preservation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-032",
+   "ACI-033",
+   "ACI-034",
+   "ACI-166"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "tytul": "NCHFP: Pickled Eggs",
+    "szczebel": 1,
+    "sha12": "302edf65fc98"
+   }
+  ],
+  "uwagi": "NCHFP Pickled Eggs: wyłącznie lodówka; nie wekować, nie trzymać w temperaturze pokojowej (przypadki jadu kiełbasianego).",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "eggs-v02",
+  "processFamilyId": "egg-preservation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "ACI-032",
+   "ACI-033",
+   "ACI-034"
+  ],
+  "sources": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "tytul": "NCHFP: Pickled Eggs",
+    "szczebel": 1,
+    "sha12": "302edf65fc98"
+   }
+  ],
+  "uwagi": "NCHFP Red Beet Eggs (lodówka). Zakwas buraczany zamiast buraków z puszki — DO USTALENIA (zmiana składu).",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "eggs-v03",
+  "processFamilyId": "egg-preservation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-032",
+   "ACI-033",
+   "ACI-034"
+  ],
+  "sources": [],
+  "uwagi": "Jaja w zalewie curry: brak takiego przepisu wśród NCHFP Pickled Eggs (są: Red Beet, Dilled, Sweet and Sour, Dark and Spicy, Cidered, Pineapple); tylko lodówka.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "eggs-v04",
+  "processFamilyId": "egg-preservation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-033",
+   "ACI-166"
+  ],
+  "sources": [],
+  "uwagi": "Ajitsuke tamago (jajka na miękko w sosie sojowym, bez kwasu): krótko w lodówce; poza procesem octowym.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "eggs-v08",
+  "processFamilyId": "egg-preservation",
+  "preservationMethod": "none",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "ACI-166"
+  ],
+  "sources": [],
+  "uwagi": "Thit kho — danie duszone.",
+  "poza_zakresem": "danie na bieżąco, nie przetwór",
+  "inny_klaster": "MIE"
+ }
+]

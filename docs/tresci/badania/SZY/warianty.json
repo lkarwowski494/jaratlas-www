@@ -1,0 +1,3406 @@
+[
+ {
+  "id": "cucumber-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Przecier z ogórków na zupę: puree warzywne niskokwasowe; brak przetestowanego procesu, a NCHFP zakazuje wekowania puree warzywnych. Bezpieczna alternatywa: mrożenie."
+ },
+ {
+  "id": "cucumber-v10",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Ogórki konserwowe w occie: marynata (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "white-cabbage-v05",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kiszonka; trafiła do SZY przez regex „kurk(uma)”.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "white-cabbage-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-020",
+   "SZY-022",
+   "SZY-024",
+   "SZY-025"
+  ],
+  "sources": [],
+  "uwagi": "Kapusta z grzybami w słoikach: zwykle grzyby leśne (NCHFP: nie wekować dzikich grzybów); mieszanina z kapustą bez przetestowanego procesu. Jeśli grzyby hodowlane i kapusta kiszona – nadal brak procesu (ryzyko wysokie)."
+ },
+ {
+  "id": "white-cabbage-v14",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-017",
+   "SZY-022",
+   "SZY-024",
+   "SZY-025"
+  ],
+  "sources": [],
+  "uwagi": "Bigos (kapusta kiszona + świeża, mięso, kiełbasa, grzyby, tłuszcz): danie mieszane bez przetestowanego procesu ani w kąpieli wodnej, ani w szybkowarze. Karta tylko ostrzegawcza; alternatywa: mrożenie porcji."
+ },
+ {
+  "id": "red-savoy-cabbage-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-025"
+  ],
+  "sources": [],
+  "uwagi": "Duszona czerwona kapusta: kapusta nie nadaje się do szybkowaru (PSU), brak przetestowanego procesu. Jeśli przepis jest zakwaszony (ocet, jabłko) – ocena ACI; poza tym mrożenie.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "red-savoy-cabbage-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-017",
+   "SZY-018",
+   "SZY-022",
+   "SZY-025"
+  ],
+  "sources": [],
+  "uwagi": "Gołąbki: ryż (NCHFP zakazuje ryżu w wekowanych zupach) + kapusta (wyłączona z mieszanek, nie nadaje się do szybkowaru) + mięso mielone w gęstym zwoju; brak przetestowanego procesu. Alternatywa: mrożenie."
+ },
+ {
+  "id": "napa-cabbage-v11",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pak choi w sosie sojowym i occie: marynata (ACI); część sojowa NAP.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "napa-cabbage-v12",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sałatka w zalewie octowej (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "napa-cabbage-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Duszone kimchi (często z wieprzowiną, tofu) wekowane: po duszeniu i z dodatkami pH nieznane; brak przetestowanego procesu. Fermentacja – FER.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "cauliflower-v03",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kiszony kalafior (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "cauliflower-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-024",
+   "SZY-025"
+  ],
+  "sources": [],
+  "uwagi": "Kalafior w solance: brak naukowo przetestowanego przepisu, PSU: nie nadaje się do szybkowaru. Bezpieczne formy: mrożenie, pikle octowe (ACI)."
+ },
+ {
+  "id": "cauliflower-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-014",
+   "SZY-024"
+  ],
+  "sources": [],
+  "uwagi": "Przecier kalafiorowy: puree warzywne – NCHFP zakazuje; dodatkowo brak procesu dla kalafiora. Alternatywa: mrożenie."
+ },
+ {
+  "id": "cauliflower-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-022",
+   "SZY-024",
+   "SZY-025"
+  ],
+  "sources": [],
+  "uwagi": "Kalafior w sosie pomidorowym: NCHFP wyłącza kalafior z mieszanek warzyw; brak procesu. Alternatywa: mrożenie."
+ },
+ {
+  "id": "broccoli-v08",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-013",
+   "SZY-014",
+   "SZY-024"
+  ],
+  "sources": [],
+  "uwagi": "Pesto z brokułu „pasteryzowane”: puree warzywne z olejem – wekowanie zakazane (puree), brak procesu dla brokułu. Pesto tylko lodówka/zamrażarka (ocena OLE).",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "brussels-kohlrabi-v10",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kalarepa w occie (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "brussels-kohlrabi-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-025"
+  ],
+  "sources": [],
+  "uwagi": "Kalarepa w solance: PSU w tym samym artykule raz wymienia kalarepę jako nadającą się do wekowania, raz jako nienadającą się do szybkowaru; brak przetestowanego czasu w USDA. Do czasu wyjaśnienia: mrożenie lub pikle."
+ },
+ {
+  "id": "zucchini-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pikle słodko-kwaśne (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "zucchini-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-026",
+   "SZY-027",
+   "SZY-028"
+  ],
+  "sources": [],
+  "uwagi": "Leczo z cukinii: dynia letnia bez marynowania – wekowanie niezalecane; leczo (dużo papryki, cebuli, olej) wykracza poza przetestowane receptury. Przetestowana alternatywa: pomidory z cukinią 3:1 w szybkowarze (SZY-027)."
+ },
+ {
+  "id": "zucchini-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-014",
+   "SZY-026"
+  ],
+  "sources": [],
+  "uwagi": "Kawior z cukinii: rozgotowane puree z dyni letniej – NCHFP zakazuje puree warzywnych i nie zaleca wekowania dyni letniej. Wersja mocno zakwaszona – ewentualnie ACI.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "pattypan-squash-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Patisony w occie (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "pattypan-squash-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-026",
+   "SZY-027"
+  ],
+  "sources": [],
+  "uwagi": "Patisony w sosie pomidorowym: dynia letnia – brak zalecanego procesu; najbliższy przetestowany: pomidory z cukinią 3:1 (szybkowar), patison nie jest w nim wymieniony."
+ },
+ {
+  "id": "pattypan-squash-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-026",
+   "SZY-027",
+   "SZY-028"
+  ],
+  "sources": [],
+  "uwagi": "Leczo z patisonem: jak zucchini-v11."
+ },
+ {
+  "id": "pumpkin-v07",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Dynia marynowana z kurkumą (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "pumpkin-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-014",
+   "SZY-015",
+   "SZY-016"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/pumpkins-and-winter-squash-cubed/"
+  ],
+  "uwagi": "Puree dyniowe (tyndalizacja): NCHFP wprost nie zaleca wekowania puree/masła z dyni; tyndalizacja odrzucona. Jedyny proces: kostki 1 cal w szybkowarze (SZY-016), puree robić przy podaniu lub mrozić."
+ },
+ {
+  "id": "leafy-greens-v06",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-013",
+   "SZY-038"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/spinach-and-other-greens/"
+  ],
+  "uwagi": "Szpinak duszony z czosnkiem (tyndalizacja): tyndalizacja odrzucona; duszenie z tłuszczem/czosnkiem wykracza poza przepis. Przetestowane: szpinak blanszowany parą, zalany wrzątkiem, szybkowar 70/90 min (SZY-038)."
+ },
+ {
+  "id": "leafy-greens-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-038"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/spinach-and-other-greens/"
+  ],
+  "uwagi": "Boćwina (liście) jako „other greens” NCHFP: blanszowanie parą, luźno, zalać wrzątkiem, szybkowar; koperek tylko w ilości przyprawowej. Młode buraczki osobno wg procesu dla buraków (SZY-053). Odpowiedniość: ten sam produkt i proces, NCHFP nie wymienia boćwiny z nazwy."
+ },
+ {
+  "id": "vine-leaves-greens-v01",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Liście winogron kiszone (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "vine-leaves-greens-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Liście winogron w occie (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "vine-leaves-greens-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-017",
+   "SZY-018"
+  ],
+  "sources": [],
+  "uwagi": "Gołąbki w liściach winogron (dolma, ryż): ryż wykluczony w wekowanych zupach, brak procesu dla dań z ryżem. Alternatywa: mrożenie."
+ },
+ {
+  "id": "tomato-v04",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Przecier z kiszonych pomidorów: FER/ACI (pomidory).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "tomato-v06",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pomidory w galarecie: pomidory wymagają zakwaszenia (ACI); żelatyna nie występuje w przetestowanych przepisach.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "bell-pepper-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Papryka w occie (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "bell-pepper-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-028",
+   "SZY-039"
+  ],
+  "sources": [],
+  "uwagi": "Baza do leczo (papryka, cebula, pomidory): NCHFP nie pozwala zwiększać udziału papryki i cebuli w sosie pomidorowym; brak procesu dla leczo. Przetestowane alternatywy: papryka sama w szybkowarze (SZY-039), sos bez mięsa (SZY-028)."
+ },
+ {
+  "id": "chili-pepper-v13",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka z papryczek (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "chili-pepper-v17",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Chipotle w adobo: sos octowo-pomidorowy (ACI); wędzenie – SUS.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "eggplant-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Kawior bakłażanowy: puree warzywne; brak procesu USDA dla bakłażana. Wersja zakwaszona octem – ocena ACI.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "eggplant-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Baba ghanoush (puree bakłażana z tahini): puree warzywne – nie wekować; tylko lodówka/zamrażarka."
+ },
+ {
+  "id": "eggplant-v11",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Caponata słodko-kwaśna z octem (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "eggplant-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Bakłażan w sosie pomidorowym: USDA nie ma żadnego procesu dla bakłażana; mieszanina niskokwasowa."
+ },
+ {
+  "id": "potato-sunchoke-v02",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Topinambur kiszony (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "potato-sunchoke-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-029"
+  ],
+  "sources": [],
+  "uwagi": "Sałatka ziemniaczana w occie: brak przetestowanego przepisu w NCHFP (ACI do oceny); skrobia ziemniaczana – patrz SZY-029.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "potato-sunchoke-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-029"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/potatoes-white-cubed-or-whole/"
+  ],
+  "uwagi": "Młode ziemniaki (1–2 cale) całe w zalewie z wrzątku: przepis NCHFP White Potatoes, szybkowar; wariant „tyndalizacja” z v0 odrzucony."
+ },
+ {
+  "id": "tomatillo-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Salsa verde z tomatillo: NCHFP ma przetestowaną zakwaszoną salsę (ACI); wersja pieczona do sprawdzenia.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "green-beans-v07",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Fasolka w zalewie z kurkumą i gorczycą (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "green-beans-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-034"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/"
+  ],
+  "uwagi": "Fasolka szparagowa w zalewie: przepis NCHFP, szybkowar 20/25 min; tyndalizacja z v0 odrzucona – NCHFP: brak bezpiecznej opcji w kąpieli wodnej."
+ },
+ {
+  "id": "green-beans-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-022",
+   "SZY-023"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mixed-vegetables/"
+  ],
+  "uwagi": "Fasolka w pomidorach jako Mixed Vegetables NCHFP (wolno zmieniać proporcje: fasolka + pomidory krojone, zalane wodą, bez zagęszczania), 75/90 min. Gęsty, redukowany sos pomidorowy nie jest objęty."
+ },
+ {
+  "id": "green-beans-v11",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-022"
+  ],
+  "sources": [],
+  "uwagi": "Sałatka do słoików zwykle w zalewie octowej (ACI). Wersja bez octu: jak Mixed Vegetables (SZY-022).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "green-beans-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-013",
+   "SZY-034"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/"
+  ],
+  "uwagi": "Fasolka duszona z czosnkiem (z tłuszczem): wykracza poza przepis; dodatek tłuszczu niedozwolony. Przetestowana alternatywa: fasolka w wodzie, szybkowar (SZY-034)."
+ },
+ {
+  "id": "peas-chickpeas-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-035"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/peas-green-or-english-shelled/"
+  ],
+  "uwagi": "Groszek zielony łuskany w zalewie, szybkowar 40 min (pint lub quart). Groszek cukrowy/strąki – NCHFP zaleca mrożenie."
+ },
+ {
+  "id": "peas-chickpeas-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-030"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-or-peas-shelled-dried-all-varieties/"
+  ],
+  "uwagi": "Ciecierzyca z suchych nasion: przepis NCHFP „Beans or Peas – Shelled, Dried, All Varieties”, szybkowar 75/90 min."
+ },
+ {
+  "id": "peas-chickpeas-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Młody bób: USDA ma proces dla świeżej fasoli lima, ale nie dla bobu (inny gatunek, Vicia faba). Do sprawdzenia w extension; do tego czasu mrożenie."
+ },
+ {
+  "id": "peas-chickpeas-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Hummus pasteryzowany: puree strączkowe z tahini – puree warzyw nie wolno wekować; tylko lodówka/zamrażarka."
+ },
+ {
+  "id": "peas-chickpeas-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-017",
+   "SZY-018",
+   "SZY-022"
+  ],
+  "sources": [],
+  "uwagi": "Groch z kapustą: kapusta (kiszona/świeża) z grochem, często z zasmażką; brak procesu, zagęstniki zakazane. Alternatywa: groch suchy wg SZY-030, kapusta osobno (kiszonka)."
+ },
+ {
+  "id": "beans-soy-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-017",
+   "SZY-031"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/"
+  ],
+  "uwagi": "Fasolka po bretońsku (tyndalizacja): tyndalizacja odrzucona; tradycyjna wersja (dużo kiełbasy, zasmażka) wykracza poza przepis. Przetestowany odpowiednik: fasola w sosie pomidorowym z kostką boczku (SZY-031), patrz beans-soy-v08."
+ },
+ {
+  "id": "beans-soy-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-031"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/"
+  ],
+  "uwagi": "Fasola w sosie pomidorowym/melasowym: przepis NCHFP, szybkowar 65/75 min."
+ },
+ {
+  "id": "beans-soy-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-030"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-or-peas-shelled-dried-all-varieties/"
+  ],
+  "uwagi": "Fasola czerwona i biała z suchych nasion w zalewie: NCHFP, 75/90 min."
+ },
+ {
+  "id": "beans-soy-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Refried beans: rozgniecione puree z fasoli z tłuszczem – zakaz wekowania puree. Alternatywa: wekować fasolę (SZY-030), rozgnieść przy podaniu."
+ },
+ {
+  "id": "beetroot-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-017",
+   "SZY-053"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beets-whole-cubed-or-sliced/"
+  ],
+  "uwagi": "Tarte buraczki zasmażane: forma tarta i zasmażka (mąka) poza przepisem; NCHFP ma proces tylko dla buraków całych/kostki/plastrów (SZY-053). Wersja zakwaszona octem – ocena ACI.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "carrot-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-036"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/carrots-sliced-or-diced/"
+  ],
+  "uwagi": "Marchew w kostce w zalewie: NCHFP, szybkowar 25/30 min."
+ },
+ {
+  "id": "carrot-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-022",
+   "SZY-023"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mixed-vegetables/"
+  ],
+  "uwagi": "Marchew z groszkiem jako Mixed Vegetables NCHFP (wolno zmieniać proporcje), 75/90 min; tyndalizacja z v0 odrzucona."
+ },
+ {
+  "id": "garlic-v01",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Czosnek kiszony (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "garlic-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Jangajji w sosie sojowym (ACI/NAP).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "garlic-v13",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-008",
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Krem czosnkowy „pasteryzowany”: puree warzywne (zakaz); czosnek w oleju – klasyczne warunki jadu kiełbasianego (SZY-008). Tylko lodówka/zamrażarka; ocena OLE.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "onion-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Cebula w occie (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "onion-v10",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-008"
+  ],
+  "sources": [],
+  "uwagi": "Cebula duszona w oleju do słoików: niskokwasowe warzywo pod olejem w temperaturze pokojowej spełnia warunki wzrostu C. botulinum; brak procesu. Ocena OLE.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "shallot-pearl-onion-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-013"
+  ],
+  "sources": [],
+  "uwagi": "Stifado cebulowe (cebulki w sosie pomidorowo-winnym z oliwą): brak przetestowanego procesu; NCHFP nie ma wekowania cebuli jako takiej (tylko jako dodatek w tomatoes with okra/zucchini)."
+ },
+ {
+  "id": "leek-chives-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Por w solance: brak przetestowanego procesu w USDA; mrożenie."
+ },
+ {
+  "id": "daikon-black-radish-v02",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Takuan (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "daikon-black-radish-v07",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Rzodkiew w sosie sojowym (ACI/NAP).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "daikon-black-radish-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Daikon duszony w bulionie sojowym: brak procesu dla daikonu (USDA ma tylko rzepę/brukiew przez PSU); bulion sojowy nie zakwasza."
+ },
+ {
+  "id": "celeriac-celery-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Seler tarty w zalewie słodko-kwaśnej (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "celeriac-celery-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Baza sałatki waldorfskiej (seler, jabłko, orzechy) w słoiku: brak procesu; jeśli w zalewie octowej – ACI.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "celeriac-celery-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Sok z selera naciowego „pasteryzowany”: płynne warzywo niskokwasowe; brak przetestowanego procesu (seler występuje u NCHFP tylko jako dodatek w soku pomidorowo-warzywnym). Tylko świeży/lodówka/mrożenie."
+ },
+ {
+  "id": "parsnip-parsley-v07",
+  "processFamilyId": "salt-preservation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Natka zasypana solą (salt-preservation).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "parsnip-parsley-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Puree z pasternaku (tyndalizacja): zakaz wekowania puree warzyw; tyndalizacja odrzucona; brak procesu dla pasternaku. Mrożenie."
+ },
+ {
+  "id": "turnip-rutabaga-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-051"
+  ],
+  "sources": [
+   "https://extension.psu.edu/lets-preserve-root-vegetables-beets-carrots-turnips-and-rutabagas"
+  ],
+  "uwagi": "Brukiew w kostce w zalewie: Penn State (szczebel 3), szybkowar 30/35 min; PSU zastrzega gorszą jakość (ciemnieje), zaleca mrożenie."
+ },
+ {
+  "id": "turnip-rutabaga-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Rzepa glazurowana miodem i octem (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "asparagus-v06",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-037"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/asparagus-spear-or-pieces/"
+  ],
+  "uwagi": "Szparagi w zalewie: NCHFP, szybkowar 30/40 min; tyndalizacja z v0 odrzucona."
+ },
+ {
+  "id": "asparagus-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-014",
+   "SZY-017"
+  ],
+  "sources": [],
+  "uwagi": "Krem szparagowy: puree warzywne, zwykle ze śmietaną/mąką – oba zakazane. Wekować szparagi (SZY-037), krem robić przy podaniu."
+ },
+ {
+  "id": "asparagus-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Suszone końcówki (SUS).",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "fennel-artichoke-v05",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Fenkuł w solance – grupa „Kiszenie” (FER). Jeśli wekowany bez fermentacji: brak procesu USDA.",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "corn-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kukurydza w occie (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "corn-v05",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kiszona kukurydza na kolbie (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "corn-v06",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-033"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-whole-kernel/"
+  ],
+  "uwagi": "Ziarna kukurydzy w zalewie: NCHFP, szybkowar 55/85 min; tyndalizacja z v0 odrzucona; nie zeskrobywać kolby."
+ },
+ {
+  "id": "corn-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-018",
+   "SZY-019",
+   "SZY-022"
+  ],
+  "sources": [],
+  "uwagi": "Kukurydza z fasolą w sosie meksykańskim: sucha fasola wyłączona z Mixed Vegetables; jako zupa (bez zagęszczania, fasola nawodniona) mieściłaby się w procedurze zup NCHFP (SZY-018/019) – gęsty sos nie."
+ },
+ {
+  "id": "corn-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-032"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-cream-style/"
+  ],
+  "uwagi": "Kukurydza kremowa: przepis NCHFP (kukurydza zeskrobana + woda, bez mleka i śmietany), tylko słoiki pint, 85 min. Wersja z nabiałem/mąką – zakazana (SZY-017)."
+ },
+ {
+  "id": "corn-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka z wywaru z kolb (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "corn-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Huitlacoche w słoiku: grzyb (głownia kukurydzy), brak jakiegokolwiek przetestowanego procesu; NCHFP dopuszcza tylko grzyby hodowlane typu pieczarka."
+ },
+ {
+  "id": "olives-v01",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Oliwki w solance (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "olives-v03",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Oliwki w solance i occie (FER/ACI).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "capers-v02",
+  "processFamilyId": "salt-preservation",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kapary w solance (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "ginger-turmeric-v05",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kurkuma kiszona (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "ginger-turmeric-v06",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Zakwas z kurkumy (FER/NAP).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "ginger-turmeric-v12",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Golden paste z olejem kokosowym (OLE).",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "ginger-turmeric-v15",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Suszony imbir i kurkuma (SUS).",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "european-mixed-veg-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sałatka w occie (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "european-mixed-veg-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-026",
+   "SZY-027",
+   "SZY-028"
+  ],
+  "sources": [],
+  "uwagi": "Leczo węgierskie: brak przetestowanego procesu; NCHFP zakazuje zwiększania udziału papryki i cebuli w sosach pomidorowych. Alternatywa: SZY-027 lub mrożenie."
+ },
+ {
+  "id": "european-mixed-veg-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-013",
+   "SZY-026",
+   "SZY-027"
+  ],
+  "sources": [],
+  "uwagi": "Ratatouille (bakłażan, cukinia, papryka, oliwa): dynia letnia i bakłażan bez procesu; olej spoza przepisu. Mrożenie."
+ },
+ {
+  "id": "european-mixed-veg-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-021",
+   "SZY-028"
+  ],
+  "sources": [],
+  "uwagi": "Sałatka paprykowo-pieczarkowa w pomidorach: proporcje papryki i grzybów wyższe niż w przetestowanym sosie (zakaz zwiększania); jeśli z octem – ACI.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "european-mixed-veg-v14",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Susz warzywny (SUS).",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "balkan-oriental-mix-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-013"
+  ],
+  "sources": [],
+  "uwagi": "Adżapsandali (bakłażan, papryka, pomidory, olej): brak procesu USDA dla bakłażana i takich mieszanin."
+ },
+ {
+  "id": "asian-american-mix-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Fukujinzuke (ACI/NAP).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "asian-american-mix-v11",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sos słodko-kwaśny z ananasem (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "asian-american-mix-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-022",
+   "SZY-025"
+  ],
+  "sources": [],
+  "uwagi": "Mieszanka stir-fry w solance: typowe składniki (kapusta pekińska, brokuł, pędy bambusa, kiełki) są wyłączone z Mixed Vegetables albo nie mają procesu. Bezpieczne tylko jako Mixed Vegetables z dozwolonych warzyw."
+ },
+ {
+  "id": "apple-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "apple-v16",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sok jabłkowy – NCHFP ma przepis (kąpiel wodna); NAP/SLO.",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "pear-v02",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Gruszki kiszone (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "pear-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Gruszki w winie (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "quince-v03",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Syrop z pigwowca na surowo (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "quince-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "quince-v11",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pigwa w miodzie (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "plum-v02",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Śliwki kiszone (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "plum-v18",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Śliwki wędzone (SUS).",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "mirabelle-v01",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Ałycza w solance (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "mirabelle-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Dżem (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "sour-cherry-v03",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Wiśnie w solance (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "peach-nectarine-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Salsa brzoskwiniowa (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "cornelian-cherry-v01",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Dereń w solance (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "cornelian-cherry-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Konfitura na surowo (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "raspberry-blackberry-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Dżem (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "raspberry-blackberry-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Maliny z cukrem (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "raspberry-blackberry-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "currant-v01",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Porzeczka ucierana na surowo (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "currant-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "currant-v12",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sos cumberland (SLO/ACI).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "gooseberry-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sos agrestowy (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "gooseberry-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "blueberry-bilberry-v03",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Borówki kiszone (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "blueberry-bilberry-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Jagody z cukrem (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "cranberry-lingonberry-v02",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Rårörda lingon (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "cranberry-lingonberry-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "cranberry-lingonberry-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sok żurawinowy (NAP/SLO).",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "chokeberry-seabuckthorn-v01",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Rokitnik na surowo (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "chokeberry-seabuckthorn-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "low-temp-pasteurization",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Syrop (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "chokeberry-seabuckthorn-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "elderberry-elderflower-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka z kwiatów bzu (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "rosehip-rowan-v01",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Płatki róży z cukrem (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "rosehip-rowan-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Dżem (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "grapes-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "rhubarb-v05",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kompot rabarbarowy – NCHFP ma „Rhubarb-Stewed” (kąpiel wodna); ACI.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "lemon-v10",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Lemon curd – NCHFP ma przetestowany „Lemon Curd, Canned” (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "lime-bergamot-v02",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Loomi (SUS).",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "lime-bergamot-v06",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Lime curd (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "orange-kumquat-v01",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kumkwaty w solance (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "grapefruit-v07",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "mango-papaya-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Puree z mango: owoce (NCHFP „Fruit Purées”, „Mango Sauce”) – SLO/ACI, zakaz puree dotyczy warzyw i mięsa.",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "pineapple-banana-v01",
+  "processFamilyId": "fermented-beverages",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Tepache (NAP).",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "pineapple-banana-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Ananas w syropie – NCHFP „Pineapple” (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "fig-pomegranate-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "watermelon-melon-v09",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "walnut-nuts-v02",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Zielone orzechy w solance (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "walnut-nuts-v08",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Gianduja (SLO/OLE).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "boletes-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Grzyby leśne w occie: jedyny przepis NCHFP (Marinated Whole Mushrooms) dotyczy małych świeżych grzybów; uwaga: NCHFP nie wekuje grzybów dzikich (SZY-020) – ACI powinien to rozstrzygnąć.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "boletes-v03",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Grzyby kiszone (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "boletes-v04",
+  "processFamilyId": "salt-preservation",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Grzyby solone na sucho (salt-preservation).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "boletes-v07",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-013",
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Grzyby leśne duszone w maśle klarowanym, tyndalizowane: trzy zakazy naraz – dzikie grzyby, tłuszcz spoza przepisu, tyndalizacja. Mrożenie.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "boletes-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Grzyby leśne w solance: NCHFP „Do not can wild mushrooms”. Alternatywa: suszenie, mrożenie."
+ },
+ {
+  "id": "boletes-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-017",
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Sos grzybowy: dzikie grzyby + zagęstnik/śmietana – zakazane. Mrożenie."
+ },
+ {
+  "id": "boletes-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Grzyby suszone (SUS).",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "boletes-v12",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Puder borowikowy (SUS).",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "boletes-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sól borowikowa (SUS).",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "chanterelle-milkcap-v01",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Rydze kiszone (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "chanterelle-milkcap-v02",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Rydze kiszone na maślance (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "chanterelle-milkcap-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Rydze w occie. Grzyby dzikie: NCHFP nie wekuje dzikich grzybów (SZY-020); ACI do rozstrzygnięcia, czy zakaz obejmuje marynaty.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "chanterelle-milkcap-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Kurki w zalewie octowej z winem. Grzyby dzikie: NCHFP nie wekuje dzikich grzybów (SZY-020); ACI do rozstrzygnięcia, czy zakaz obejmuje marynaty.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "chanterelle-milkcap-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Maślaki w occie. Grzyby dzikie: NCHFP nie wekuje dzikich grzybów (SZY-020); ACI do rozstrzygnięcia, czy zakaz obejmuje marynaty.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "chanterelle-milkcap-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Maślaki w sosie pomidorowo-octowym. Grzyby dzikie: NCHFP nie wekuje dzikich grzybów (SZY-020); ACI do rozstrzygnięcia, czy zakaz obejmuje marynaty.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "chanterelle-milkcap-v07",
+  "processFamilyId": "salt-preservation",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Rydze solone na sucho (salt-preservation).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "chanterelle-milkcap-v08",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-008",
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Rydze smażone pod warstwą tłuszczu: warstwa tłuszczu tworzy warunki beztlenowe dla wilgotnej, niskokwasowej żywności (SZY-008); brak procesu; dzikie grzyby. Tylko lodówka krótko/mrożenie (OLE).",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "chanterelle-milkcap-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-013",
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Kurki duszone w maśle (tyndalizacja): dzikie grzyby, tłuszcz, tyndalizacja – wszystko zakazane. Mrożenie."
+ },
+ {
+  "id": "chanterelle-milkcap-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Kurki w solance (wekowane): dzikie grzyby – nie wekować."
+ },
+ {
+  "id": "chanterelle-milkcap-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-014",
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Kawior grzybowy (maślaki, cebula): dzikie grzyby i puree. Lodówka/mrożenie."
+ },
+ {
+  "id": "chanterelle-milkcap-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-014",
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Pasztet grzybowy: puree z grzybów (często z jajem/kaszą) – zakazane. Mrożenie."
+ },
+ {
+  "id": "chanterelle-milkcap-v13",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Suszone kurki (SUS).",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "wild-mushrooms-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Opieńki w occie. Grzyby dzikie: NCHFP nie wekuje dzikich grzybów (SZY-020); ACI do rozstrzygnięcia, czy zakaz obejmuje marynaty.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "wild-mushrooms-v02",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Opieńki kiszone (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "wild-mushrooms-v03",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Gąski w occie. Grzyby dzikie: NCHFP nie wekuje dzikich grzybów (SZY-020); ACI do rozstrzygnięcia, czy zakaz obejmuje marynaty. Gąski (zielonka) – ryzyko toksyczności gatunku, poza zakresem SZY.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "wild-mushrooms-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Kania smażona w zalewie octowo-pomidorowej. Grzyby dzikie: NCHFP nie wekuje dzikich grzybów (SZY-020); ACI do rozstrzygnięcia, czy zakaz obejmuje marynaty.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "wild-mushrooms-v06",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-013",
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Opieńki duszone z cebulą: dzikie grzyby – nie wekować; mrożenie farszu."
+ },
+ {
+  "id": "wild-mushrooms-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-017",
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Flaczki z boczniaków i kani: kania dzika (zakaz), zwykle zagęszczane; boczniak hodowlany nie jest objęty przepisem NCHFP. Mrożenie."
+ },
+ {
+  "id": "wild-mushrooms-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Gąski w solance (wekowane): dzikie grzyby – nie wekować."
+ },
+ {
+  "id": "wild-mushrooms-v09",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Suszone kanie (SUS).",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "wild-mushrooms-v10",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Proszek grzybowy (SUS).",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "cultivated-mushrooms-v01",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pieczarki w occie – NCHFP Marinated Whole Mushrooms (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "cultivated-mushrooms-v02",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pieczarki w zalewie miodowo-musztardowej (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "cultivated-mushrooms-v03",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Boczniaki kiszone (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "cultivated-mushrooms-v04",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Boczniaki w zalewie korzennej (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "cultivated-mushrooms-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Shiitake w sosie sojowym i mirinie (ACI/NAP).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "cultivated-mushrooms-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pieczarki z papryką w occie (ACI).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "cultivated-mushrooms-v07",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Pieczarki à la grecque (oliwa, wino) – blisko NCHFP Marinated Whole Mushrooms (olej + ocet + sok z cytryny); ACI/OLE.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "cultivated-mushrooms-v08",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-008"
+  ],
+  "sources": [],
+  "uwagi": "Boczniaki w oleju z cebulą: niskokwasowe pod olejem (SZY-008), brak procesu; boczniak poza przepisem NCHFP. Ocena OLE.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "cultivated-mushrooms-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-021"
+  ],
+  "sources": [],
+  "uwagi": "Boczniaki po kaszubsku ze śliwką – zwykle w zalewie octowej (ACI). Bez octu: brak procesu, boczniak nie jest objęty przepisem NCHFP.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "cultivated-mushrooms-v10",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-008",
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Duxelles pod oliwą: siekana pasta grzybowa (puree) pod olejem – wekowanie zakazane; tylko lodówka/zamrażarka (OLE).",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "cultivated-mushrooms-v11",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Suszone shiitake (SUS).",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "cultivated-mushrooms-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Bulion dashi z shiitake: brak przetestowanego procesu dla bulionu grzybowego/warzywnego (NCHFP ma buliony mięsne i rybne). Mrożenie."
+ },
+ {
+  "id": "wild-garlic-v01",
+  "processFamilyId": "lacto-fermentation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Czosnek niedźwiedzi kiszony (FER).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "wild-garlic-v06",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Myongi-namul w sosie sojowym (ACI/NAP).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "garden-herbs-v05",
+  "processFamilyId": "salt-preservation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Zioła w soli (salt-preservation).",
+  "inny_klaster": "FER"
+ },
+ {
+  "id": "garden-herbs-v12",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Galaretka miętowa (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "foraged-blossoms-v01",
+  "processFamilyId": "sweet-preserves",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Syrop z pędów sosny (SLO).",
+  "inny_klaster": "SLO"
+ },
+ {
+  "id": "foraged-blossoms-v09",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Nasturcja w solance i occie (ACI/FER).",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "koji-ferments-v05",
+  "processFamilyId": "koji-soy-ferments",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Shoyu koji (NAP).",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "miso-garum-v12",
+  "processFamilyId": "koji-soy-ferments",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Garum grzybowe (NAP).",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "artisanal-vinegars-v11",
+  "processFamilyId": "vinegar-making",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Krem balsamiczny (NAP/SLO).",
+  "inny_klaster": "NAP"
+ },
+ {
+  "id": "yogurt-skyr-v03",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Skyr (MLE).",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "kefir-cream-v01",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Kefir (MLE).",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "kefir-cream-v03",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Zsiadłe mleko (MLE).",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "fresh-brined-cheese-v07",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Ser w oliwie (OLE/MLE).",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "fresh-brined-cheese-v08",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Feta w solance (MLE).",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "aged-hard-cheese-v01",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Gouda (MLE).",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "butter-whey-cheese-v06",
+  "processFamilyId": "dairy-cheese",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Masło borowikowe (MLE/OLE); jeśli z borowikami świeżymi – tylko lodówka/zamrażarka.",
+  "inny_klaster": "MLE"
+ },
+ {
+  "id": "pork-loin-ham-v04",
+  "processFamilyId": "meat-curing-smoking",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Szynka z szynkowaru: parzenie, nie wekowanie (MIE).",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "pork-loin-ham-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-007",
+   "SZY-009",
+   "SZY-041"
+  ],
+  "sources": [],
+  "uwagi": "Szynka konserwowa w słoiku (tyndalizacja): tyndalizacja odrzucona; peklowany, ubity blok mięsa nie odpowiada przetestowanemu procesowi kawałków mięsa w płynie (SZY-041). Peklowanie – MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "pork-loin-ham-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-013",
+   "SZY-041"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/"
+  ],
+  "uwagi": "Schab w galarecie: dodatek żelatyny/galarety spoza przepisu. Przetestowany odpowiednik: kawałki schabu na gorąco z wrzącym bulionem, szybkowar 75/90 min (SZY-041) – galareta tworzy się wtedy sama."
+ },
+ {
+  "id": "pork-loin-ham-v15",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-041"
+  ],
+  "sources": [],
+  "uwagi": "Wędzonka ze słoika: wędzone/peklowane mięso w słoiku – brak procesu USDA (dla wędzonych istnieje tylko proces ryb). Peklowanie i wędzenie – MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "pork-shoulder-neck-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-041",
+   "SZY-052"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/"
+  ],
+  "uwagi": "Tuszonka z łopatki: przetestowany proces NCHFP dla kawałków wieprzowiny (na gorąco z bulionem lub na surowo bez płynu), szybkowar 75/90 min. Wariant „potrójna tyndalizacja w 100 °C” z v0 – odrzucony; „autoklaw 121 °C” = szybkowar 15 PSI (nie przekraczać 15 PSI)."
+ },
+ {
+  "id": "pork-shoulder-neck-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-014",
+   "SZY-042"
+  ],
+  "sources": [],
+  "uwagi": "Mielonka z peklosolą: zwarta, ubita masa mięsna (bliżej puree niż uformowanych klopsików z bulionem, SZY-042); brak procesu; peklosól – MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "pork-shoulder-neck-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-041"
+  ],
+  "sources": [],
+  "uwagi": "Golonka w galarecie piwnej: duże kości (przepis każe je usunąć), piwo i galareta spoza przepisu; brak procesu."
+ },
+ {
+  "id": "pork-shoulder-neck-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-041"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/"
+  ],
+  "uwagi": "Karkówka w sosie własnym: kawałki wieprzowiny podsmażone, zalane wrzącym wywarem/sosem z pieczenia (meat drippings), szybkowar 75/90 min. Bez zagęszczania."
+ },
+ {
+  "id": "pork-shoulder-neck-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-017",
+   "SZY-018",
+   "SZY-041"
+  ],
+  "sources": [],
+  "uwagi": "Gulasz wieprzowy: USDA nie ma przepisu na gulasz; zagęszczanie zakazane. Przetestowana alternatywa: kawałki mięsa z bulionem/sokiem pomidorowym (SZY-041), zagęścić przy podaniu."
+ },
+ {
+  "id": "pork-shoulder-neck-v12",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-008",
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Rillettes wieprzowe: rozdrobnione mięso pod smalcem (warunki beztlenowe, SZY-008); brak procesu wekowania; puree mięsne zakazane. Lodówka/mrożenie (OLE/MIE).",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "pork-shoulder-neck-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Zimne nóżki (galareta) w słoiku: brak procesu; to produkt lodówkowy (MIE).",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "pork-belly-jowl-v06",
+  "processFamilyId": "meat-curing-smoking",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Sało w solance (MIE).",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "pork-belly-jowl-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-007",
+   "SZY-009",
+   "SZY-041"
+  ],
+  "sources": [],
+  "uwagi": "Boczek w słoiku (tyndalizacja w galarecie): tyndalizacja odrzucona; NCHFP każe usuwać nadmiar tłuszczu – boczek tego nie spełnia; brak procesu."
+ },
+ {
+  "id": "pork-belly-jowl-v10",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-008",
+   "SZY-050"
+  ],
+  "sources": [],
+  "uwagi": "Smalec ze skwarkami, jabłkiem i majerankiem: brak przetestowanego procesu dla smalcu (SZY-050); kawałki jabłka/cebuli w tłuszczu to wilgotny dodatek w warunkach beztlenowych (SZY-008) – OLE powinien ocenić „trwałość w słoikach” ostrożnie.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "pork-belly-jowl-v14",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-050"
+  ],
+  "sources": [],
+  "uwagi": "Skwarki w słoiku: brak procesu wekowania (SZY-050); OLE.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "smoked-cooked-sausages-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "none",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-010",
+   "SZY-011",
+   "SZY-042"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-ground-or-chopped/"
+  ],
+  "uwagi": "Biała kiełbasa zapiekana w słoikach (piekarnik): wekowanie w piekarniku niezalecane i skrajnie niebezpieczne. Przetestowana alternatywa: świeża kiełbasa w kawałkach 3–4 cale, obsmażona, zalana wrzącym bulionem, szybkowar 75/90 min (SZY-042). preservationMethod „none”: metoda v0 (piekarnik) nie ma odpowiednika w słowniku."
+ },
+ {
+  "id": "smoked-cooked-sausages-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Kiełbasa słoikowa tyndalizowana: tyndalizacja (kąpiel wodna) dla mięsa – NCHFP: jedyną zalecaną metodą dla mięsa jest szybkowar; zwarta masa mięsna bez procesu. Peklosól – MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "beef-veal-v03",
+  "processFamilyId": "meat-curing-smoking",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Język peklowany w galarecie (MIE); wersja słoikowa – brak procesu (SZY-007).",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "beef-veal-v04",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-041"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/"
+  ],
+  "uwagi": "Tuszonka wołowa: NCHFP kawałki wołowiny, szybkowar 75/90 min; tyndalizacja z v0 odrzucona."
+ },
+ {
+  "id": "beef-veal-v05",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-017",
+   "SZY-041"
+  ],
+  "sources": [],
+  "uwagi": "Gulasz wołowy: jak pork-shoulder-neck-v11; alternatywa SZY-041."
+ },
+ {
+  "id": "beef-veal-v06",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-043"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-stock/"
+  ],
+  "uwagi": "Bulion z kości wołowych: NCHFP Meat Stock (kości gotowane, odtłuszczone), szybkowar pint 20/quart 25 min. „Kolagenowy” długi wywar – ten sam produkt; odtłuścić."
+ },
+ {
+  "id": "beef-veal-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-017",
+   "SZY-041"
+  ],
+  "sources": [],
+  "uwagi": "Policzki w winie: sos winny, zwykle redukowany/zagęszczony; brak procesu. Alternatywa: SZY-041."
+ },
+ {
+  "id": "beef-veal-v08",
+  "processFamilyId": "drying",
+  "preservationMethod": "dry-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Beef jerky (SUS/MIE).",
+  "inny_klaster": "SUS"
+ },
+ {
+  "id": "beef-veal-v13",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-050"
+  ],
+  "sources": [],
+  "uwagi": "Łój wytapiany: brak procesu wekowania tłuszczów (SZY-050); OLE.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "poultry-v08",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-008"
+  ],
+  "sources": [],
+  "uwagi": "Confit pod tłuszczem w słoikach: brak przetestowanego procesu domowego; mięso pod tłuszczem to warunki beztlenowe (SZY-008). Lodówka/mrożenie; ocena OLE/MIE.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "poultry-v09",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-008",
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Rillettes z kaczki/gęsi pod tłuszczem: jak pork-shoulder-neck-v12.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "poultry-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-040"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/chicken-or-rabbit/"
+  ],
+  "uwagi": "Kurczak w galarecie: NCHFP Chicken – na gorąco z bulionem (z kośćmi 65/75, bez kości 75/90 min); galareta z wywaru, bez dodawania żelatyny; tyndalizacja z v0 odrzucona."
+ },
+ {
+  "id": "poultry-v11",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "cool-storage",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-050"
+  ],
+  "sources": [],
+  "uwagi": "Smalec gęsi/kaczy: brak procesu wekowania tłuszczów (SZY-050); OLE.",
+  "inny_klaster": "OLE"
+ },
+ {
+  "id": "poultry-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-043"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-stock/"
+  ],
+  "uwagi": "Bulion drobiowy: NCHFP Chicken or Turkey Stock, szybkowar pint 20/quart 25 min."
+ },
+ {
+  "id": "game-lamb-v06",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-041"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/"
+  ],
+  "uwagi": "Tuszonka z dzika: NCHFP kawałki mięsa (lista: niedźwiedź, wieprzowina, dziczyzna), szybkowar 75/90 min; mocno pachnące mięso dzikie namoczyć 1 h w solance. Dzik nie jest wymieniony z nazwy – odpowiednik wieprzowiny/dziczyzny; włośnie – MIE."
+ },
+ {
+  "id": "game-lamb-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-004",
+   "SZY-005",
+   "SZY-006",
+   "SZY-009",
+   "SZY-017",
+   "SZY-020"
+  ],
+  "sources": [],
+  "uwagi": "Gulasz z jelenia z grzybami (tyndalizacja): tyndalizacja mięsa odrzucona, grzyby leśne zakazane, gulasz bez procesu. Alternatywa: jeleń w kawałkach SZY-041."
+ },
+ {
+  "id": "game-lamb-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Pasztet z dziczyzny wekowany: puree mięsne – USDA zakazuje wekowania puree z mięsa. Mrożenie."
+ },
+ {
+  "id": "offal-pates-v01",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Pasztet pieczony i pasteryzowany w słoikach: puree mięsne – zakaz. Mrożenie."
+ },
+ {
+  "id": "offal-pates-v02",
+  "processFamilyId": "oil-and-fat",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Mus z wątróbki pod masłem: produkt lodówkowy (MIE/OLE); wekować nie wolno (puree, SZY-014).",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "offal-pates-v03",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "low-temp-pasteurization",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Foie gras w słoiku (mi-cuit): niskotemperaturowa pasteryzacja tłustej wątroby – brak domowego procesu; produkt lodówkowy (MIE).",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "offal-pates-v04",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Wątrobianka w słoikach: puree mięsno-wątrobiane – zakaz. Wersja w jelitach – MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "offal-pates-v05",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "nie-publikowac",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-014"
+  ],
+  "sources": [],
+  "uwagi": "Pasztetowa słoikowa: puree mięsne – zakaz."
+ },
+ {
+  "id": "offal-pates-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Salceson w wersji słoikowej: zwarta masa podrobów i galarety, brak procesu. Wersje tradycyjne – MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "offal-pates-v08",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-017"
+  ],
+  "sources": [],
+  "uwagi": "Kaszanka słoikowa: kasza (skrobia) z krwią i podrobami, zwarta masa; ryż/zagęstniki zakazane w wekowanych zupach; brak procesu. Wersja parzona – MIE.",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "offal-pates-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-017",
+   "SZY-018",
+   "SZY-019"
+  ],
+  "sources": [],
+  "uwagi": "Flaczki wołowe w rosole: procedura zup NCHFP obejmuje tylko składniki z własnym procesem – flaki (podroby) go nie mają; zwykle zasmażka. Brak procesu."
+ },
+ {
+  "id": "offal-pates-v10",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Ozorki w galarecie: ozór nie jest wymieniony w procesie kawałków mięsa, galareta spoza przepisu."
+ },
+ {
+  "id": "offal-pates-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Żołądki drobiowe w sosie: NCHFP ma proces dla kurczaka/królika, nie dla podrobów; brak procesu."
+ },
+ {
+  "id": "sea-fish-v11",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ok-zrodlo",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-044",
+   "SZY-045",
+   "SZY-046"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/tuna/",
+   "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/fish-pint-jars-usda/",
+   "https://nchfp.uga.edu/papers/guide/GUIDE05_HomeCan_rev0715.pdf"
+  ],
+  "uwagi": "Tuńczyk w oliwie: NCHFP Tuna (woda lub olej), half-pint/pint 100 min. Makrela: przetestowana tylko bez płynu (pint 100 min, quart 160 min) – oliwy do makreli nie dodawać (SZY-013)."
+ },
+ {
+  "id": "sea-fish-v12",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-017"
+  ],
+  "sources": [],
+  "uwagi": "Paprykarz szczeciński (ryba, ryż, koncentrat): gęsta mieszanina z ryżem, brak procesu. Mrożenie."
+ },
+ {
+  "id": "sea-fish-v13",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-002",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Ryba po grecku: smażona ryba w warzywnym sosie pomidorowym; brak procesu (ryby przetestowane tylko surowe, bez płynu). Lodówka."
+ },
+ {
+  "id": "sea-fish-v14",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-013",
+   "SZY-044"
+  ],
+  "sources": [
+   "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/fish-pint-jars-usda/"
+  ],
+  "uwagi": "Szproty w oleju: przetestowany proces dla ryb tłustych zabrania dodawania płynów; olej spoza przepisu. Alternatywa: szproty jak ryby tłuste, bez oleju, pint 100 min (SZY-044) – do weryfikacji, czy szprot pasuje do „other fatty fish”."
+ },
+ {
+  "id": "freshwater-fish-v01",
+  "processFamilyId": "fish-curing-smoking",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-047"
+  ],
+  "sources": [],
+  "uwagi": "Pstrąg wędzony na gorąco (MIE). Wekowanie wędzonej ryby: NCHFP Smoked Fish, pint 110 min (SZY-047).",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "freshwater-fish-v05",
+  "processFamilyId": "vinegar-pickling",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Ryby smażone w zalewie octowo-pomidorowej (ACI/MIE); brak procesu wekowania.",
+  "inny_klaster": "ACI"
+ },
+ {
+  "id": "freshwater-fish-v07",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "pressure-canning",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007",
+   "SZY-044"
+  ],
+  "sources": [],
+  "uwagi": "Ryby w sosie pomidorowym w szybkowarze: USDA testowało ryby surowe bez płynu; sos pomidorowy zmienia penetrację ciepła – brak procesu."
+ },
+ {
+  "id": "freshwater-fish-v08",
+  "processFamilyId": "fish-curing-smoking",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Pasztet z wędzonego pstrąga pod masłem: produkt lodówkowy (MIE/OLE); wekować nie (brak procesu).",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "freshwater-fish-v09",
+  "processFamilyId": "canned-foods",
+  "preservationMethod": "water-bath",
+  "safetyStatus": "ryzyko-wysokie",
+  "claims": [
+   "SZY-001",
+   "SZY-003",
+   "SZY-006",
+   "SZY-007"
+  ],
+  "sources": [],
+  "uwagi": "Karp w galarecie w słoiku: brak procesu (karp to ryba chuda, nie „fatty fish”; galareta spoza przepisu). Lodówka."
+ },
+ {
+  "id": "eggs-v03",
+  "processFamilyId": "egg-preservation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Jaja w zalewie curry (MIE/ACI).",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "eggs-v04",
+  "processFamilyId": "egg-preservation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Ajitsuke tamago (MIE).",
+  "inny_klaster": "MIE"
+ },
+ {
+  "id": "eggs-v05",
+  "processFamilyId": "egg-preservation",
+  "preservationMethod": "refrigerator",
+  "safetyStatus": "do-researchu",
+  "claims": [],
+  "sources": [],
+  "uwagi": "Solone jaja kacze (MIE).",
+  "inny_klaster": "MIE"
+ }
+]
