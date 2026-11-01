@@ -1,6 +1,6 @@
 # Pickled bell peppers (NCHFP)
 
-This card describes NCHFP pickled bell peppers in a vinegar, sugar and water brine, filled into sterile jars and processed in a boiling-water bath. [T:ACI-202]
+This card describes NCHFP pickled bell peppers in a vinegar, sugar and water brine, filled into sterile jars and processed in a boiling-water bath. [T:ACI-202,ACI-204,ACI-205]
 
 ## Why the recipe must not be changed
 
@@ -24,13 +24,13 @@ To sterilize empty jars, NCHFP boils them for 10 minutes below 1000 ft, and abov
 
 JarAtlas rule for metres: boil the jars for 10 minutes up to 300 m, and add 1 minute for every further 300 m or part of it. [T:SLO-119]
 
-Remove and drain the hot sterilized jars one at a time. [T:SLO-120]
-
 ## Preparing and filling
 
 Wash the peppers, cut them into quarters, remove the cores and seeds, cut away any blemishes and slice the peppers into strips. [T:ACI-203]
 
 Boil the sugar, vinegar and water for 1 minute, add the peppers and bring to a boil. [T:ACI-203]
+
+Remove and drain the hot sterilized jars one at a time, just before filling them. [T:SLO-120]
 
 Put 1/2 clove of garlic and 1/4 teaspoon of salt in each sterile half-pint jar, and double the amounts for pint jars. [T:ACI-204]
 

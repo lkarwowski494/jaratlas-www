@@ -1,6 +1,6 @@
 # Brzoskwinie w słoikach, połówki lub plastry (NCHFP)
 
-Ta karta opisuje metodę NCHFP wekowania połówek albo plastrów brzoskwiń o żółtym miąższu w kąpieli wodnej. [T:SLO-098]
+Ta karta opisuje metodę NCHFP wekowania połówek albo plastrów brzoskwiń o żółtym miąższu w kąpieli wodnej. [T:SLO-098,SLO-128]
 
 ## !
 
@@ -62,4 +62,4 @@ Czasy NCHFP dotyczą amerykańskich słoików: pint mieści ok. 473 ml, a quart 
 
 Reguła JarAtlas (NCHFP nie bada słoików metrycznych): dla słoika do 473 ml stosuj czas dla pint, a dla większego, do 946 ml, np. 0,5 l albo 0,9 l, czas dla quart. [T:ACI-175]
 
-Ten przepis NCHFP nie podaje czasu dla słoików większych niż quart, np. 1 l, więc użyj mniejszych słoików. [T:ACI-175]
+Ten przepis NCHFP nie podaje czasu dla słoików większych niż quart, np. 1 l, więc JarAtlas zaleca mniejsze słoiki. [T:ACI-175]

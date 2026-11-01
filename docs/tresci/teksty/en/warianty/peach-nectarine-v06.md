@@ -1,6 +1,6 @@
 # Canned peaches, halved or sliced (NCHFP)
 
-This card describes the NCHFP method for canning halved or sliced yellow-flesh peaches in a boiling-water bath. [T:SLO-098]
+This card describes the NCHFP method for canning halved or sliced yellow-flesh peaches in a boiling-water bath. [T:SLO-098,SLO-128]
 
 ## !
 
@@ -62,4 +62,4 @@ NCHFP times are for US jar sizes: a pint holds about 473 ml and a quart about 94
 
 JarAtlas rule (NCHFP does not test metric jars): for a jar of up to 473 ml use the pint time, and for a larger jar of up to 946 ml, for example 0.5 l or 0.9 l, use the quart time. [T:ACI-175]
 
-This NCHFP recipe gives no time for jars larger than a quart, such as 1 l, so use smaller jars. [T:ACI-175]
+This NCHFP recipe gives no time for jars larger than a quart, such as 1 l, so JarAtlas recommends smaller jars. [T:ACI-175]

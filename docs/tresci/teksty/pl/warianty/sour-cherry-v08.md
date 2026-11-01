@@ -20,8 +20,6 @@ Puste słoiki NCHFP sterylizuje, gotując je 10 minut poniżej 1000 stóp, a wy�
 
 Reguła JarAtlas dla metrów: gotuj słoiki 10 minut do 300 m, a wyżej dodaj 1 minutę za każde kolejne rozpoczęte 300 m. [T:SLO-119]
 
-Gorące, wysterylizowane słoiki wyjmuj i odsączaj pojedynczo. [T:SLO-120]
-
 W pełni dojrzałe wiśnie przebierz i umyj, usuń szypułki i pestki, a owoce zmiel albo drobno posiekaj. [T:SLO-111]
 
 ## Gotowanie dżemu
@@ -33,6 +31,8 @@ Dodaj cukier, mieszaj dalej, znów doprowadź do pełnego wrzenia i gotuj intens
 Zdejmij z ognia i zbierz pianę. [T:SLO-112]
 
 ## Wekowanie
+
+Tuż przed napełnianiem wyjmuj i odsączaj gorące, wysterylizowane słoiki pojedynczo. [T:SLO-120]
 
 Gorący dżem od razu nalej do gorących, wysterylizowanych słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni. [T:SLO-113]
 

@@ -1,6 +1,6 @@
 # Papryka marynowana w occie (NCHFP)
 
-Ta karta opisuje paprykę marynowaną według NCHFP w zalewie z octu, cukru i wody, nakładaną do sterylnych słoików i wekowaną w kąpieli wodnej. [T:ACI-202]
+Ta karta opisuje paprykę marynowaną według NCHFP w zalewie z octu, cukru i wody, nakładaną do sterylnych słoików i wekowaną w kąpieli wodnej. [T:ACI-202,ACI-204,ACI-205]
 
 ## Dlaczego nie wolno zmieniać przepisu
 
@@ -24,13 +24,13 @@ Puste słoiki NCHFP sterylizuje, gotując je 10 minut poniżej 1000 stóp, a wy�
 
 Reguła JarAtlas dla metrów: gotuj słoiki 10 minut do 300 m, a wyżej dodaj 1 minutę za każde kolejne rozpoczęte 300 m. [T:SLO-119]
 
-Gorące, wysterylizowane słoiki wyjmuj i odsączaj pojedynczo. [T:SLO-120]
-
 ## Przygotowanie i napełnianie
 
 Paprykę umyj, pokrój na ćwiartki, usuń gniazda i nasiona, wytnij uszkodzone miejsca i pokrój w paski. [T:ACI-203]
 
 Cukier, ocet i wodę gotuj 1 minutę, dodaj paprykę i doprowadź do wrzenia. [T:ACI-203]
+
+Gorące, wysterylizowane słoiki wyjmuj i odsączaj pojedynczo tuż przed napełnieniem. [T:SLO-120]
 
 Do każdego sterylnego słoika 1/2 pinty włóż 1/2 ząbka czosnku i 1/4 łyżeczki soli, a do słoików pint podwój te ilości. [T:ACI-204]
 

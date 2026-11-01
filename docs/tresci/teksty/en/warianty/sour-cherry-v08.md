@@ -20,8 +20,6 @@ To sterilize empty jars, NCHFP boils them for 10 minutes below 1000 ft, and abov
 
 JarAtlas rule for metres: boil the jars for 10 minutes up to 300 m, and add 1 minute for every further 300 m or part of it. [T:SLO-119]
 
-Remove and drain the hot sterilized jars one at a time. [T:SLO-120]
-
 Sort and wash fully ripe cherries, remove the stems and pits, and grind or finely chop the cherries. [T:SLO-111]
 
 ## Making the jam
@@ -33,6 +31,8 @@ Add the sugar, keep stirring, bring back to a full bubbling boil and boil hard f
 Remove from the heat and skim. [T:SLO-112]
 
 ## Canning
+
+Just before filling, remove and drain the hot sterilized jars one at a time. [T:SLO-120]
 
 Fill the hot jam immediately into hot, sterile jars, leaving 1/4 inch (about 0.6 cm) of headspace. [T:SLO-113]
 
