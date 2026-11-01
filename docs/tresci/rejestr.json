@@ -26389,5 +26389,680 @@
    "FRZ-036"
   ],
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-228",
+  "twierdzenie": "NCHFP Standard Tomato Sauce: pomidory przygotować i przetrzeć jak sok pomidorowy; gotować w szerokim garnku do pożądanej gęstości: odparować o ok. 1/3 objętości (sos rzadki) albo o 1/2 (sos gęsty).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/standard-tomato-sauce/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Standard Tomato Sauce, Procedure",
+    "cytat": "Prepare and press as for making tomato juice .",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1ed36732bf30"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/standard-tomato-sauce/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Standard Tomato Sauce, Procedure",
+    "cytat": "Simmer in large-diameter saucepan until sauce reaches desired consistency Boil until volume is reduced by about one-third for thin sauce, or by one-half for thick sauce.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1ed36732bf30"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-229",
+  "twierdzenie": "NCHFP Standard Tomato Sauce: butelkowany sok z cytryny albo kwas cytrynowy dodać do słoików (według wskazówek zakwaszania); opcjonalnie 1 łyżeczka soli na słoik quart; słoiki napełnić, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni, zamknąć i wekować.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/standard-tomato-sauce/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Standard Tomato Sauce, Procedure",
+    "cytat": "Add bottled lemon juice or citric acid to jars (See acidification directions ). Add 1 teaspoon of salt per quart to the jars, if desired.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1ed36732bf30"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/standard-tomato-sauce/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Standard Tomato Sauce, Procedure",
+    "cytat": "Fill jars, leaving ¼-inch headspace. Adjust lids and process.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1ed36732bf30"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-230",
+  "twierdzenie": "NCHFP Standard Tomato Sauce, kąpiel wodna, hot pack, Table 1, na wysokości 1001–3000 stóp: pint 40 min, quart 45 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/standard-tomato-sauce/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Standard Tomato Sauce, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 f t 3,001 - 6,000 ft Above 6,000 ft Hot Pints 35 min 40 45 50 Quarts 40 45 50 55",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1ed36732bf30"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-231",
+  "twierdzenie": "NCHFP Standard Tomato Sauce, kąpiel wodna, hot pack, Table 1, na wysokości 3001–6000 stóp: pint 45 min, quart 50 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/standard-tomato-sauce/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Standard Tomato Sauce, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 f t 3,001 - 6,000 ft Above 6,000 ft Hot Pints 35 min 40 45 50 Quarts 40 45 50 55",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1ed36732bf30"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-232",
+  "twierdzenie": "NCHFP Standard Tomato Sauce, kąpiel wodna, hot pack, Table 1, powyżej 6000 stóp: pint 50 min, quart 55 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/standard-tomato-sauce/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Standard Tomato Sauce, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 f t 3,001 - 6,000 ft Above 6,000 ft Hot Pints 35 min 40 45 50 Quarts 40 45 50 55",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1ed36732bf30"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-233",
+  "twierdzenie": "NCHFP sok pomidorowy (przygotowanie, gdy rozwarstwienie soku nie przeszkadza): pomidory umyć, usunąć szypułki, wyciąć obite lub przebarwione miejsca; pokroić w plastry lub ćwiartki do dużego garnka, rozgnieść, podgrzać i gotować na wolnym ogniu 5 minut; gorącą masę przetrzeć przez sito lub przecierak, żeby usunąć skórki i pestki.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-juice/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Juice, Procedure",
+    "cytat": "Wash, remove stems, and trim off bruised or discolored portions.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2b0f923dda25"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-juice/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Juice, Procedure",
+    "cytat": "If you are not concerned about juice separation, simply slice or quarter tomatoes into a large saucepan. Crush, heat, and simmer for 5 minutes before juicing.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2b0f923dda25"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-juice/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Juice, Procedure",
+    "cytat": "Press both types of heated juice through a sieve or food mill to remove skins and seeds.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2b0f923dda25"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Pominięto wariant NCHFP przeciwdziałający rozwarstwieniu soku (szybkie krojenie i wrzucanie do wrzącej masy); dotyczy jakości, nie bezpieczeństwa.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-234",
+  "twierdzenie": "NCHFP Standard Tomato Sauce: na sos rzadki potrzeba średnio 5 funtów (ok. 2,3 kg) pomidorów na słoik quart, na sos gęsty średnio 6 1/2 funta (ok. 2,9 kg).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/standard-tomato-sauce/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Standard Tomato Sauce, Quantity",
+    "cytat": "A bushel weighs 53 pounds and yields 10 to 12 quarts of sauce-an average of 5 pounds per quart.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1ed36732bf30"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/standard-tomato-sauce/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Standard Tomato Sauce, Quantity",
+    "cytat": "A bushel weighs 53 pounds and yields 7 to 9 quarts of sauce-an average of 6½ pounds per quart.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1ed36732bf30"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-235",
+  "twierdzenie": "NCHFP Cherries-Whole: wybierać jasne, równomiernie wybarwione, dojrzałe czereśnie lub wiśnie jakości do jedzenia na surowo lub gotowania.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cherries-Whole, Quality",
+    "cytat": "Select bright, uniformly colored cherries that are mature (of ideal quality for eating fresh or cooking).",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ddc88a4de4a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-236",
+  "twierdzenie": "NCHFP Cherries-Whole: usunąć szypułki i umyć; pestki można usunąć; owoce wydrylowane trzymać w wodzie z kwasem askorbinowym, żeby nie ciemniały przy szypułce; owoce z pestkami nakłuć czystą igłą z dwóch przeciwnych stron, żeby nie pękały.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cherries-Whole, Procedure",
+    "cytat": "Stem and wash cherries. Remove pits if desired.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ddc88a4de4a2"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cherries-Whole, Procedure",
+    "cytat": "If pitted, place cherries in water containing ascorbic acid to prevent stem-end discoloration. If canned unpitted, prick skins on opposite sides with a clean needle to prevent splitting.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ddc88a4de4a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-237",
+  "twierdzenie": "NCHFP Cherries-Whole: czereśnie i wiśnie można wekować w wodzie, soku jabłkowym, soku z białych winogron albo w syropie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cherries-Whole, Procedure",
+    "cytat": "Cherries may be canned in water, apple juice, white-grape juice, or syrup .",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ddc88a4de4a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-238",
+  "twierdzenie": "NCHFP Cherries-Whole, hot pack: w dużym garnku dodać 1/2 szklanki wody, soku lub syropu na każdy quart (ok. 0,95 l) odsączonych owoców i zagotować; napełnić słoiki owocami i płynem z gotowania, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cherries-Whole, Procedure",
+    "cytat": "Hot pack – In a large saucepan add ½ cup water, juice, or syrup for each quart of drained fruit and bring to boil. Fill jars with cherries and cooking liquid, leaving ½-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ddc88a4de4a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-239",
+  "twierdzenie": "NCHFP Cherries-Whole, raw pack: do każdego słoika wlać 1/2 szklanki gorącej wody, soku lub syropu; napełnić słoik odsączonymi owocami, delikatnie potrząsając; dolać gorącego płynu, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; zamknąć i wekować.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cherries-Whole, Procedure",
+    "cytat": "Raw pack – Add ½ cup hot water, juice, or syrup to each jar. Fill jars with drained cherries, shaking down gently as you fill.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ddc88a4de4a2"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cherries-Whole, Procedure",
+    "cytat": "Add more hot liquid, leaving ½-inch headspace. Adjust lids and process.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ddc88a4de4a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-240",
+  "twierdzenie": "NCHFP czereśnie lub wiśnie całe, kąpiel wodna, 1001–3000 stóp: hot pack słoiki pint 20 minut, quart 25 minut; raw pack słoiki pint lub quart 30 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cherries-Whole, Table 1",
+    "cytat": "Process at Elevations of: Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Hot Pints 15 min 20 20 25 Quarts 20 25 30 35 Raw Pints or Quarts 25 30 35 40",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ddc88a4de4a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-241",
+  "twierdzenie": "NCHFP czereśnie lub wiśnie całe, kąpiel wodna, 3001–6000 stóp: hot pack słoiki pint 20 minut, quart 30 minut; raw pack słoiki pint lub quart 35 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cherries-Whole, Table 1",
+    "cytat": "Process at Elevations of: Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Hot Pints 15 min 20 20 25 Quarts 20 25 30 35 Raw Pints or Quarts 25 30 35 40",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ddc88a4de4a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-242",
+  "twierdzenie": "NCHFP czereśnie lub wiśnie całe, kąpiel wodna, powyżej 6000 stóp: hot pack słoiki pint 25 minut, quart 35 minut; raw pack słoiki pint lub quart 40 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cherries-Whole, Table 1",
+    "cytat": "Process at Elevations of: Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Hot Pints 15 min 20 20 25 Quarts 20 25 30 35 Raw Pints or Quarts 25 30 35 40",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ddc88a4de4a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-243",
+  "twierdzenie": "NCHFP Cherries-Whole: tabela czasów dla kąpieli wodnej dotyczy całych czereśni i wiśni (sweet or sour cherries).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cherries-Whole, Table 1",
+    "cytat": "Table 1. Recommended Process Time for Sweet or Sour Cherries, Whole in boiling-water canner.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ddc88a4de4a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "SLO-145",
+  "twierdzenie": "NCHFP Berry Jams without Pectin: 9 szklanek rozgniecionych owoców jagodowych i 6 szklanek cukru; wychodzi ok. 7–8 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Jams without Pectin, składniki",
+    "cytat": "9 cups crushed berries 6 cups sugar Yield: About 7 or 8 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "788f580393e8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-146",
+  "twierdzenie": "NCHFP (dżemy bez dodanej pektyny): do owoców jagodowych („berries”) zalicza jeżyny, boysenberry, dewberry, agrest, loganberry, maliny i truskawki.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/making-jam-without-added-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Making Jam without added Pectin, Table 1, przypis",
+    "cytat": "* Includes blackberries, boysenberries, dewberries, gooseberries, loganberries, raspberries, and strawberries.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f0ccc989cc42"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-147",
+  "twierdzenie": "NCHFP Berry Jams without Pectin: słoiki wysterylizować; owoce umyć przed rozgnieceniem; połączyć owoce z cukrem; powoli doprowadzić do wrzenia, mieszając od czasu do czasu, aż cukier się rozpuści; potem gotować szybko do punktu żelowania albo prawie do niego, zależnie od tego, czy dżem ma być gęsty, czy miękki; gdy masa gęstnieje, często mieszać, żeby nie przywierała.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Jams without Pectin, Procedure",
+    "cytat": "Sterilize canning jars . Wash berries before crushing. Combine berries and sugar.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "788f580393e8"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Jams without Pectin, Procedure",
+    "cytat": "Bring slowly to a boil, stirring occasionally until sugar dissolves. Once sugar is dissolved, cook rapidly to , or almost to, the jellying point , depending upon whether a firm or soft jam is desired.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "788f580393e8"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Jams without Pectin, Procedure",
+    "cytat": "As mixture thickens, stir frequently to prevent sticking.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "788f580393e8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-148",
+  "twierdzenie": "NCHFP Berry Jams without Pectin: zdjąć z ognia i nalać gorący dżem do gorących, sterylnych słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; brzegi słoików przetrzeć zwilżonym czystym ręcznikiem papierowym; nałożyć dwuczęściowe metalowe pokrywki i wekować w kąpieli wodnej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Jams without Pectin, Procedure",
+    "cytat": "Remove from heat and fill hot jam into hot, sterile jars, leaving ¼-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "788f580393e8"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Jams without Pectin, Procedure",
+    "cytat": "Wipe rims of jars with a dampened clean paper towel; adjust two-piece metal canning lids. Process in a Boiling Water Canner.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "788f580393e8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-149",
+  "twierdzenie": "NCHFP Berry Jams without Pectin, dżem bez pestek: rozgniecione owoce podgrzać do zmięknięcia i przetrzeć przez sito lub przecierak; potem dodać cukier i postępować jak w przepisie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Jams without Pectin, NOTE",
+    "cytat": "NOTE : If seedless jam is preferred, crushed berries may be heated until soft and pressed through a sieve or food mill; then add sugar and proceed as above.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "788f580393e8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-150",
+  "twierdzenie": "NCHFP Berry Jams without Pectin, tabela 1, kąpiel wodna, słoiki 1/2 pinty lub pinty, na wysokości 0–1000 stóp: 5 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Jams without Pectin, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "788f580393e8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-151",
+  "twierdzenie": "NCHFP Berry Jams without Pectin, tabela 1, kąpiel wodna, słoiki 1/2 pinty lub pinty, na wysokości 1001–6000 stóp: 10 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Jams without Pectin, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "788f580393e8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-152",
+  "twierdzenie": "NCHFP Berry Jams without Pectin, tabela 1, kąpiel wodna, słoiki 1/2 pinty lub pinty, powyżej 6000 stóp: 15 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Jams without Pectin, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "788f580393e8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-153",
+  "twierdzenie": "NCHFP Berry Jams without Pectin, tabela 1 podaje czasy tylko dla słoików 1/2 pinty i pinty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Jams without Pectin, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "788f580393e8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-154",
+  "twierdzenie": "NCHFP test temperatury dla przetworów bez dodanej pektyny: na poziomie morza masa jest gotowa przy 220 °F (ok. 104 °C), 8 °F powyżej temperatury wrzenia wody; na każde 1000 stóp (ok. 300 m) wysokości odejmuje się 2 °F (ok. 1 °C); dżem gęstnieje jeszcze podczas stygnięcia.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/testing-jelly-without-added-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Testing Jelly without Added Pectin, Temperature Test",
+    "cytat": "When done, the temperature of the jelly should be 220°F, 8°F above the boiling point of water, if you are at sea level.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "61dcf3aaad5c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/testing-jelly-without-added-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Testing Jelly without Added Pectin, Temperature Test, NOTE",
+    "cytat": "For each 1000 feet of elevation above sea level, subtract 2 degrees F.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "61dcf3aaad5c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/making-jam-without-added-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Making Jam without added Pectin, Procedure",
+    "cytat": "Remember to allow for thickening during cooling.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f0ccc989cc42"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie: 220 °F = 104,4 °C (w karcie „ok. 104 °C”), 2 °F = 1,1 °C (w karcie „ok. 1 °C”), 1000 stóp = 304,8 m (w karcie „ok. 300 m”). Test gotowości dotyczy konsystencji, nie bezpieczeństwa; bezpieczeństwo daje przepis z cukrem i czas wekowania.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-155",
+  "twierdzenie": "NCHFP test w zamrażalniku dla dżemu bez dodanej pektyny: zdjąć masę z ognia, nalać trochę wrzącego dżemu na zimny talerz i włożyć na kilka minut do zamrażalnika lodówki; jeśli masa zżeluje, dżem jest gotowy do nalewania.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/making-jam-without-added-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Making Jam without added Pectin, Refrigerator test",
+    "cytat": "Refrigerator test : Remove the jam mixture from the heat. Pour a small amount of boiling jam on a cold plate and put it in the freezing compartment of a refrigerator for a few minutes. If the mixture gels, it is ready to fill.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f0ccc989cc42"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
  }
 ]
