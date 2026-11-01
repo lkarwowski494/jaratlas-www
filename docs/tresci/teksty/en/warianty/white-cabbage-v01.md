@@ -1,0 +1,39 @@
+# Sauerkraut (NCHFP recipe)
+
+This card describes the NCHFP recipe for sauerkraut made with canning salt. [T:FER-029]
+
+## Ingredients
+
+NCHFP uses 3/4 cup of canning salt for 25 pounds of cabbage, working in batches of 5 pounds of cabbage with 3 tablespoons of salt. [T:FER-029]
+
+According to the University of Wisconsin this is 2.25–2.5% salt by weight, and the salt should be non-iodized canning salt. [T:FER-031]
+
+Do not reduce the amount of salt. [T:FER-011]
+
+## Fermenting
+
+Throughout fermentation the cabbage must stay 1–2 inches (about 2.5–5 cm) under the brine. [T:FER-021]
+
+If the juice does not cover the cabbage, add boiled and cooled brine made with 1.5 tablespoons of salt per quart of water. [T:FER-030]
+
+At 21–24 °C full fermentation takes about 3–4 weeks, and at 16–18 °C it takes 5–6 weeks. [T:FER-034]
+
+Below 60 °F (16 °C) the cabbage may not ferment, and above 75 °F (24 °C) it may become soft. [T:FER-034]
+
+## Storing
+
+Fully fermented sauerkraut may be kept tightly covered in the refrigerator for several months, or it may be canned. [T:FER-036]
+
+Water-bath canning at 0–1000 ft above sea level takes 10 minutes for pint jars and 15 minutes for quart jars when hot packed, and 20 minutes for pints and 25 minutes for quarts when raw packed. [T:FER-037]
+
+At higher altitudes the time is longer, according to the NCHFP table. [T:FER-037]
+
+Shortening the time or cooling jars in cold water can lead to spoilage. [T:ACI-015]
+
+## When to throw it out
+
+According to Oregon State University, small spots of mold can be removed, but if there is a lot of mold the whole batch must be discarded. [T:FER-055]
+
+Slimy sauerkraut is spoiled, so discard it. [T:FER-055]
+
+Discard any rotting parts. [T:FER-055]
