@@ -1,0 +1,55 @@
+TAP version 13
+# Subtest: build.test.mjs: po przebiegu 0 katalogów w TMPDIR
+not ok 1 - build.test.mjs: po przebiegu 0 katalogów w TMPDIR
+  ---
+  duration_ms: 342.051339
+  type: 'test'
+  location: '/home/user/jaratlas-www/tests/sprzatanie.test.mjs:11:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+    + [
+    +   'ja-OFkqQs',
+    +   'ja-ZjX0EK',
+    +   'ja-tO9iSQ'
+    + ]
+    - []
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+  actual:
+    0: 'ja-OFkqQs'
+    1: 'ja-ZjX0EK'
+    2: 'ja-tO9iSQ'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///home/user/jaratlas-www/tests/sprzatanie.test.mjs:17:14)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: przeklad.test.mjs: po przebiegu 0 katalogów w TMPDIR
+ok 2 - przeklad.test.mjs: po przebiegu 0 katalogów w TMPDIR
+  ---
+  duration_ms: 506.553449
+  type: 'test'
+  ...
+# Subtest: kontrola-wszystko.test.mjs: po przebiegu 0 katalogów w TMPDIR
+ok 3 - kontrola-wszystko.test.mjs: po przebiegu 0 katalogów w TMPDIR
+  ---
+  duration_ms: 295.017002
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 2
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1206.557779

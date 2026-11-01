@@ -1,17 +1,21 @@
 // Adapter I/O budowania (polityka błędów E3, docs/architektura/README.md §6): błąd = kod 1 i nietknięty poprzedni dist/.
-import { test } from 'node:test';
+import { test, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
-import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, existsSync, cpSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, existsSync, cpSync, rmSync } from 'node:fs';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 
 const BUILD = new URL('../tools/buduj-strone.mjs', import.meta.url).pathname;
 const SITE = new URL('../site/', import.meta.url).pathname;
+// Sprzątanie katalogów tymczasowych (wzór: tests/przeklad.test.mjs, tablica tymczasowe + after); strażnik: tests/sprzatanie.test.mjs.
+const tymczasowe = [];
+after(() => { for (const d of tymczasowe) rmSync(d, { recursive: true, force: true }); });
+const nowyTmp = () => { const d = mkdtempSync(join(tmpdir(), 'ja-')); tymczasowe.push(d); return d; };
 const buduj = (dane, wyj) => spawnSync(process.execPath, [BUILD, dane, wyj], { encoding: 'utf8' });
 
 test('prawdziwe dane: kod 0, przekierowania.json zapisany, 0 stron treści', () => {
-  const wyj = join(mkdtempSync(join(tmpdir(), 'ja-')), 'dist');
+  const wyj = join(nowyTmp(), 'dist');
   const r = buduj(SITE, wyj);
   assert.equal(r.status, 0, r.stderr);
   assert.match(r.stdout, /warianty 0, produkty 0, rodziny 0/);
@@ -19,7 +23,7 @@ test('prawdziwe dane: kod 0, przekierowania.json zapisany, 0 stron treści', () 
 });
 
 test('błąd kontroli: kod 1, poprzedni dist/ nietknięty, brak katalogu tymczasowego', () => {
-  const tmp = mkdtempSync(join(tmpdir(), 'ja-')), dane = join(tmp, 'site'), wyj = join(tmp, 'dist');
+  const tmp = nowyTmp(), dane = join(tmp, 'site'), wyj = join(tmp, 'dist');
   cpSync(SITE, dane, { recursive: true });
   mkdirSync(wyj); writeFileSync(join(wyj, 'stary.html'), 'poprzednie wdrożenie');
   writeFileSync(join(dane, 'adresy.json'), JSON.stringify({ opublikowane: ['/pl/jablko/mus/'], przekierowania: {} }));
@@ -31,7 +35,7 @@ test('błąd kontroli: kod 1, poprzedni dist/ nietknięty, brak katalogu tymczas
 });
 
 test('slug „..” w piśmie niełacińskim: kod 1, nic nie zapisane poza katalogiem wyjścia, dist/ nietknięty (07-jakosc-003, sonda S3)', () => {
-  const tmp = mkdtempSync(join(tmpdir(), 'ja-')), dane = join(tmp, 'site'), wyj = join(tmp, 'dist');
+  const tmp = nowyTmp(), dane = join(tmp, 'site'), wyj = join(tmp, 'dist');
   cpSync(SITE, dane, { recursive: true });
   mkdirSync(wyj); writeFileSync(join(wyj, 'stary.html'), 'poprzednie wdrożenie');
   const kat = join(tmp, 'katalog.json');
