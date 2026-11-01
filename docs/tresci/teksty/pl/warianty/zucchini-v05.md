@@ -1,0 +1,63 @@
+# Słodko-kwaśne pikle z cukinii z kurkumą (NCHFP)
+
+Ta karta opisuje przepis NCHFP na słodko-kwaśne pikle z cukinii (bread-and-butter): cukinia i cebula gotowane w zalewie z octu, cukru i przypraw, nakładane na gorąco i wekowane w kąpieli wodnej. [T:ACI-253,ACI-255,ACI-256]
+
+## Dlaczego nie wolno zmieniać przepisu
+
+Cukinia jest żywnością niskokwasową o pH powyżej 4,6. [T:ACI-026]
+
+Lista FDA podaje dla gotowanej cukinii pH ok. 5,69–6,10. [T:ACI-086]
+
+Wekowanie cukinii bez marynowania nie jest zalecane; USDA wycofało dawne wskazówki, bo czasy obróbki były niepewne. [T:SZY-026]
+
+W całym produkcie musi być minimalny, równomierny poziom kwasu, żeby nie rozwinęły się bakterie jadu kiełbasianego. [T:ACI-017]
+
+Nie zmieniaj proporcji octu, warzyw i wody i nie używaj octu o nieznanej kwasowości; korzystaj tylko z przepisów o przetestowanych proporcjach. [T:ACI-016]
+
+Do pikli zalecany jest biały ocet destylowany i ocet jabłkowy o kwasowości 5%. [T:ACI-018]
+
+Penn State Extension zaleca do domowych przetworów ocet o kwasowości 5–7% i odradza rozcieńczanie octu wodą, chyba że przebadany przepis wyraźnie to nakazuje. [T:ACI-209,ACI-210]
+
+Reguła JarAtlas (ostrożna, dla czytelników spoza USA): używaj octu spirytusowego (białego destylowanego) albo jabłkowego z etykietą 5% albo 6%; nie używaj octu 10% i nie rozcieńczaj go wodą, żeby uzyskać 5%; dodawaj tylko tyle wody, ile podaje przepis. [T:ACI-211,ACI-018]
+
+## Składniki
+
+NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
+
+Na ok. 8–9 słoików pint NCHFP podaje 16 szklanek pokrojonej świeżej cukinii, 4 szklanki cienko pokrojonej cebuli, 1/2 szklanki soli do konserw i pikli, 4 szklanki białego octu (5%) i 2 szklanki cukru. [T:ACI-253]
+
+Przyprawy: 4 łyżki gorczycy, 2 łyżki nasion selera i 2 łyżeczki mielonej kurkumy. [T:ACI-253]
+
+## Solenie i napełnianie
+
+Plastry cukinii i cebuli zalej wodą na 1 cal (ok. 2,5 cm) i dodaj sól. [T:ACI-254]
+
+Odstaw na 2 godziny i dokładnie odsącz. [T:ACI-254]
+
+Połącz ocet, cukier i przyprawy i doprowadź do wrzenia. [T:ACI-255]
+
+Dodaj cukinię i cebulę i gotuj na małym ogniu 5 minut. [T:ACI-255]
+
+Napełnij słoiki warzywami i zalewą, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:ACI-255]
+
+Załóż pokrywki i wekuj. [T:ACI-255]
+
+## Wekowanie
+
+Na wysokości 0–1000 stóp (do 300 m) wekuj słoiki pint i quart w kąpieli wodnej 10 minut. [T:ACI-256,ACI-176]
+
+Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
+
+Na wysokości 1001–6000 stóp (powyżej 300 m do 1800 m) wekuj je 15 minut. [T:ACI-257,ACI-176]
+
+Powyżej 6000 stóp (powyżej 1800 m) wekuj je 20 minut. [T:ACI-258,ACI-176]
+
+Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, a 6000 stóp to 1800 m. [T:ACI-176]
+
+Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsuciem. [T:ACI-015]
+
+Czasy NCHFP dotyczą słoików amerykańskich: pint mieści ok. 473 ml, a quart ok. 946 ml. [T:ACI-174]
+
+Reguła JarAtlas (NCHFP nie bada słoików metrycznych): ten przepis ma jeden czas dla słoików pint i quart, więc obowiązuje on dla słoików do 946 ml, np. 0,5 l albo 0,9 l. [T:ACI-175,ACI-256]
+
+Ten przepis NCHFP nie podaje czasu dla słoików większych niż quart, np. 1 l, więc JarAtlas zaleca mniejsze słoiki. [T:ACI-175]

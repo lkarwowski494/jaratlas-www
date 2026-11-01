@@ -27232,5 +27232,428 @@
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-244",
+  "twierdzenie": "NCHFP Berries-Whole: instrukcje stosować tylko do owoców z listy (jeżyny, borówki, porzeczki, dewberry, agrest, huckleberry, loganberry, morwy, maliny).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole, wstęp",
+    "cytat": "Use these directions only with the berries listed.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8ec597c2d6d5"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole, wstęp",
+    "cytat": "Blackberries, blueberries, currants, dewberries, gooseberries, huckleberries, loganberries, mulberries, raspberries.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8ec597c2d6d5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-245",
+  "twierdzenie": "NCHFP Berries-Whole: wybierać dojrzałe, słodkie owoce o równomiernej barwie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole, Quality",
+    "cytat": "Choose ripe, sweet berries with uniform color.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8ec597c2d6d5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-246",
+  "twierdzenie": "NCHFP Berries-Whole: średnio 12 funtów owoców na wsad 7 słoików quart i 8 funtów na wsad 9 słoików pint. Rachunek: 1 funt = 0,45359237 kg, więc 12 funtów ≈ 5,44 kg (ok. 5,4 kg), 8 funtów ≈ 3,63 kg (ok. 3,6 kg).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole, Quantity",
+    "cytat": "An average of 12 pounds is needed per canner load of 7 quarts; an average of 8 pounds is needed per canner load of 9 pints.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8ec597c2d6d5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie na kg to rachunek JarAtlas (definicja funta), zaokrąglenie do 0,1 kg; ilość owoców nie wpływa na bezpieczeństwo.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-247",
+  "twierdzenie": "NCHFP Berries-Whole: myć po 1–2 quart (ok. 0,95–1,9 l) owoców naraz, odsączyć, w razie potrzeby usunąć szypułki i działki (cap, stem); agrestowi obciąć nożyczkami ogonki i resztki kwiatów (heads and tails); do każdego czystego słoika wlać 1/2 szklanki syropu, soku albo wody.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole, Procedure",
+    "cytat": "Wash 1 or 2 quarts of berries at a time. Drain, cap, and stem if necessary. For gooseberries, snip off heads and tails with scissors.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8ec597c2d6d5"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole, Procedure",
+    "cytat": "Add ½ cup syrup, juice, or water to each clean jar.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8ec597c2d6d5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie quartów na litry to rachunek JarAtlas (quart US ≈ 0,946 l), zaokrąglony; ilość mytych naraz owoców nie wpływa na bezpieczeństwo.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-248",
+  "twierdzenie": "NCHFP Berries-Whole: hot pack tylko dla borówek, porzeczek, agrestu i huckleberry; raw pack dla każdego owocu z listy (więc jeżyny i maliny tylko na surowo).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole, Procedure",
+    "cytat": "Hot pack – For blueberries, currants, gooseberries, and huckleberries.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8ec597c2d6d5"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole, Procedure",
+    "cytat": "Raw pack – Fill jars with any of the raw berries, shaking down gently while filling.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8ec597c2d6d5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-249",
+  "twierdzenie": "NCHFP Berries-Whole, raw pack: napełnić słoiki surowymi owocami, delikatnie potrząsając, zalać gorącym syropem, sokiem albo wodą, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; założyć pokrywki i wekować.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole, Procedure",
+    "cytat": "Raw pack – Fill jars with any of the raw berries, shaking down gently while filling. Cover with hot syrup, juice, or water, leaving ½-inch headspace. Adjust lids and process.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8ec597c2d6d5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-250",
+  "twierdzenie": "NCHFP owoce jagodowe całe, kąpiel wodna, raw pack, 1001–3000 stóp: słoiki pint 20 minut, quart 25 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole, Table 1",
+    "cytat": "Hot Pints or Quarts 15 min 20 20 25 Raw Pints 15 20 20 25 Quarts 20 25 30 35",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8ec597c2d6d5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-251",
+  "twierdzenie": "NCHFP owoce jagodowe całe, kąpiel wodna, raw pack, 3001–6000 stóp: słoiki pint 20 minut, quart 30 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole, Table 1",
+    "cytat": "Hot Pints or Quarts 15 min 20 20 25 Raw Pints 15 20 20 25 Quarts 20 25 30 35",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8ec597c2d6d5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-252",
+  "twierdzenie": "NCHFP owoce jagodowe całe, kąpiel wodna, raw pack, powyżej 6000 stóp: słoiki pint 25 minut, quart 35 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berries-Whole, Table 1",
+    "cytat": "Hot Pints or Quarts 15 min 20 20 25 Raw Pints 15 20 20 25 Quarts 20 25 30 35",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8ec597c2d6d5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-253",
+  "twierdzenie": "NCHFP Pickled Bread-and-Butter Zucchini, składniki: 16 szklanek pokrojonej świeżej cukinii, 4 szklanki cienko pokrojonej cebuli, 1/2 szklanki soli do konserw i pikli, 4 szklanki białego octu (5%), 2 szklanki cukru, 4 łyżki gorczycy, 2 łyżki nasion selera, 2 łyżeczki mielonej kurkumy; wydajność ok. 8–9 słoików pint.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Bread-and-Butter Zucchini, składniki",
+    "cytat": "16 cups fresh zucchini, sliced",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "63193ba8afaf"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Bread-and-Butter Zucchini, składniki",
+    "cytat": "4 cups onions, thinly sliced",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "63193ba8afaf"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Bread-and-Butter Zucchini, składniki",
+    "cytat": "1/2 cup canning or pickling salt",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "63193ba8afaf"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Bread-and-Butter Zucchini, składniki",
+    "cytat": "4 cups white vinegar (5%)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "63193ba8afaf"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Bread-and-Butter Zucchini, składniki",
+    "cytat": "2 cups sugar",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "63193ba8afaf"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Bread-and-Butter Zucchini, składniki",
+    "cytat": "4 tbsp mustard seed",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "63193ba8afaf"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Bread-and-Butter Zucchini, składniki",
+    "cytat": "2 tbsp celery seed",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "63193ba8afaf"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Bread-and-Butter Zucchini, składniki",
+    "cytat": "2 tsp ground turmeric",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "63193ba8afaf"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Bread-and-Butter Zucchini, składniki",
+    "cytat": "Yield: About 8 to 9 pints",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "63193ba8afaf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-254",
+  "twierdzenie": "NCHFP Bread-and-Butter Zucchini: plastry cukinii i cebuli zalać wodą na 1 cal (ok. 2,5 cm) z solą, odstawić na 2 godziny i dokładnie odsączyć.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Bread-and-Butter Zucchini, Procedure",
+    "cytat": "Cover zucchini and onion slices with 1 inch of water and salt. Let stand 2 hours and drain thoroughly.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "63193ba8afaf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Brzmienie „zalać wodą na 1 cal” to odczytanie JarAtlas zdania „cover … with 1 inch of water and salt”; 1 cal = 2,54 cm (ok. 2,5 cm).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-255",
+  "twierdzenie": "NCHFP Bread-and-Butter Zucchini: ocet, cukier i przyprawy połączyć i zagotować, dodać cukinię i cebulę, gotować na małym ogniu 5 minut, napełnić słoiki warzywami i zalewą, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; założyć pokrywki i wekować według tabeli 1.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Bread-and-Butter Zucchini, Procedure",
+    "cytat": "Combine vinegar, sugar, and spices. Bring to a boil and add zucchini and onions. Simmer 5 minutes and fill jars with mixture and pickling solution, leaving 1/2-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "63193ba8afaf"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Bread-and-Butter Zucchini, Procedure",
+    "cytat": "Adjust lids and process according to the recommendations in Table 1",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "63193ba8afaf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-256",
+  "twierdzenie": "NCHFP Pickled Bread-and-Butter Zucchini, tabela 1, kąpiel wodna, hot pack, ten sam czas dla słoików pint i quart; 0–1000 stóp: 10 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Bread-and-Butter Zucchini, Table 1",
+    "cytat": "Hot Pints or Quarts 10 min 15 20",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "63193ba8afaf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-257",
+  "twierdzenie": "NCHFP Pickled Bread-and-Butter Zucchini, tabela 1, kąpiel wodna, hot pack, słoiki pint lub quart, 1001–6000 stóp: 15 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Bread-and-Butter Zucchini, Table 1",
+    "cytat": "Hot Pints or Quarts 10 min 15 20",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "63193ba8afaf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-258",
+  "twierdzenie": "NCHFP Pickled Bread-and-Butter Zucchini, tabela 1, kąpiel wodna, hot pack, słoiki pint lub quart, powyżej 6000 stóp: 20 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Bread-and-Butter Zucchini, Table 1",
+    "cytat": "Hot Pints or Quarts 10 min 15 20",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "63193ba8afaf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
  }
 ]
