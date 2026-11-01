@@ -1,0 +1,11 @@
+S1 sprawdzSlugi: [] | bledy generuj: ["kolizja adresów: /pl/ogorek/kiszony/"]
+S2 slug ".." → błędy sprawdzSlugi: 0
+S2 slug "." → błędy sprawdzSlugi: 0
+S2 slug "a\\b" → błędy sprawdzSlugi: 0
+S2 slug "Огурец" → błędy sprawdzSlugi: 0
+S2 slug "a\"b" → błędy sprawdzSlugi: 0
+S2 slug "a<b" → błędy sprawdzSlugi: 0
+S3 pliki: ru/../../index.html, ru/../b/index.html, ru/../index.html, index.html, sitemap.xml, robots.txt | bledy: 0
+S4 bledy: [] | HTML ma [DO USTALENIA]: true | [PRZYKŁAD]: true
+S5 bledy: []
+kod wyjścia: 0

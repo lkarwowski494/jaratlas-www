@@ -1,0 +1,29 @@
+// Próby mutacji (JAK-04) na kopii w scratchpadzie; każda: podmiana tekstu → npm test → przywrócenie.
+import { readFileSync, writeFileSync } from 'node:fs';
+import { spawnSync } from 'node:child_process';
+const K = process.argv[2];
+const M = [
+  ['M1 ryzyko bez cardType warning publikowane', 'site/plan.mjs', "includes(v.safetyStatus) && v.cardType === 'warning'", 'includes(v.safetyStatus)'],
+  ['M2 retired ignorowane', 'site/plan.mjs', " || v.retired) return false", ") return false"],
+  ['M3 scope ignorowane', 'site/plan.mjs', "v.scope !== 'in' || ", ""],
+  ['M4 content ignorowane', 'site/plan.mjs', "if (!v.content) return false;", ""],
+  ['M5 ostrzeżenia po treści', 'site/szablony.mjs', "    ostrz ? `<section data-ostrzezenia role=\"alert\"><h2>${esc(ui.ostrzezenia)}</h2><ul>${ostrz}</ul></section>` : '',\n    uwagaD027(ui),\n    tr.wstep ? `<p>${esc(tr.wstep)}</p>` : '',\n    sekcje,", "    uwagaD027(ui),\n    tr.wstep ? `<p>${esc(tr.wstep)}</p>` : '',\n    sekcje,\n    ostrz ? `<section data-ostrzezenia role=\"alert\"><h2>${esc(ui.ostrzezenia)}</h2><ul>${ostrz}</ul></section>` : '',"],
+  ['M6 skrypt strony trzeciej protokół względny', 'site/szablony.mjs', '<script src="/static/filtry.js" defer></script>', '<script src="/static/filtry.js" defer></script><script src="//cdn.example.com/a.js"></script>'],
+  ['M7 zaślepki w treści rodzin niesprawdzane', 'site/kontrole.mjs', "st.typ === 'rodzina' ? tresci[st.lang]?.rodziny?.[st.id] : null", "null"],
+  ['M8 zapis wprost do dist (bez tmp)', 'tools/buduj-strone.mjs', "const tmp = wyjscie + '.tmp';", "const tmp = wyjscie;"],
+  ['M9 uwaga D-027 tylko na kartach', 'site/szablony.mjs', "<h1>${esc(nazwa)}</h1>\\n${uwagaD027(ui)}", "<h1>${esc(nazwa)}</h1>"],
+  ['M10 reklama w tabeli produktu', 'site/szablony.mjs', "<td>${esc(ui.statusy[w.status] ?? w.status)}</td></tr>", "<td>${esc(ui.statusy[w.status] ?? w.status)}</td><td data-ad-slot></td></tr>"],
+  ['M11 źródła z katalogu bez kontroli (zaślepka w miejscu źródła)', null],
+  ['M12 kolizja adresów niewykrywana', 'site/plan.mjs', "if (dup.length) bledy.push(`kolizja", "if (false) bledy.push(`kolizja"],
+];
+{ const b = spawnSync('sh', ['-c', 'node --test tests/*.test.mjs'], { cwd: K, encoding: 'utf8' }); console.log('baza: kod', b.status, (b.stdout.match(/^# pass (\d+)/m) || [])[0]); }
+for (const [nazwa, plik, z, na] of M) {
+  if (!plik) continue;
+  const p = `${K}/${plik}`, org = readFileSync(p, 'utf8');
+  if (!org.includes(z)) { console.log(`${nazwa}: NIE ZASTOSOWANO (brak wzorca)`); continue; }
+  writeFileSync(p, org.replace(z, na));
+  const r = spawnSync('sh', ['-c', 'node --test tests/*.test.mjs'], { cwd: K, encoding: 'utf8' });
+  writeFileSync(p, org);
+  const fail = (r.stdout.match(/^# fail (\d+)/m) || [])[1];
+  console.log(`${nazwa}: ${r.status === 0 ? 'PRZEŻYŁ' : 'WYKRYTY'} (kod ${r.status}, fail ${fail})`);
+}

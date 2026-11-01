@@ -1,0 +1,22 @@
+import { generuj } from '/home/user/jaratlas-www/site/generuj.mjs';
+import { sprawdzSlugi } from '/home/user/jaratlas-www/site/plan.mjs';
+const pub = { publication: 'opublikowana', scope: 'in', content: 'x' };
+const kat = { processFamilies: [], products: [{ id: 'p' }], variants: [
+  { id: 'v1', productId: 'p', safetyStatus: 'ok-zrodlo', ...pub },
+  { id: 'v2', productId: 'p', safetyStatus: 'nie-publikowac', cardType: 'warning', requiredWarnings: ['W'], ...pub }] };
+const ui = { uwagaBezpieczenstwa: 'u', zrodla: 'z', ostrzezenia: 'o', wariant: 'w', status: 's', statusy: {} };
+const tr = (t, o) => ({ tytul: t, wstep: 'w', sekcje: [], ...(o ? { ostrzezenia: [{ claim: 'W', tekst: 'Tylko szybkowar' }] } : {}) });
+// S1: dwa warianty z tym samym slugiem (tłumaczenie)
+const r1 = generuj({ katalog: kat, slugi: { pl: { produkty: { p: 'ogorek' }, warianty: { v1: 'kiszony', v2: 'kiszony' } } }, tresci: { pl: { warianty: { v1: tr('A'), v2: tr('B', 1) } } }, ui: { pl: ui } });
+console.log('S1 sprawdzSlugi:', JSON.stringify(sprawdzSlugi({ pl: { produkty: { p: 'ogorek' }, warianty: { v1: 'kiszony', v2: 'kiszony' } } })), '| bledy generuj:', JSON.stringify(r1.bledy));
+// S2: slug „..” w piśmie niełacińskim
+for (const zle of ['..', '.', 'a\\b', 'Огурец', 'a"b', 'a<b']) console.log('S2 slug', JSON.stringify(zle), '→ błędy sprawdzSlugi:', sprawdzSlugi({ ru: { produkty: { p: zle }, warianty: { v1: 'x' } } }).length);
+const r3 = generuj({ katalog: kat, slugi: { ru: { produkty: { p: '..' }, warianty: { v1: '..', v2: 'b' } } }, tresci: { ru: { warianty: { v1: tr('A'), v2: tr('B', 1) } } }, ui: { ru: ui } });
+console.log('S3 pliki:', Object.keys(r3.pliki).join(', '), '| bledy:', r3.bledy.length);
+// S4: zaślepka w danych z katalogu (źródło) i w nazwie produktu z katalogu
+const k4 = structuredClone(kat); k4.variants[0].sources = [{ adres: 'https://x', miejsce: '[DO USTALENIA]', odczyt: 'TODO' }]; k4.products[0].name = { pl: '[PRZYKŁAD] Ogórek' };
+const r4 = generuj({ katalog: k4, slugi: { pl: { produkty: { p: 'ogorek' }, warianty: { v1: 'a', v2: 'b' } } }, tresci: { pl: { warianty: { v1: tr('A'), v2: tr('B', 1) } } }, ui: { pl: ui } });
+console.log('S4 bledy:', JSON.stringify(r4.bledy), '| HTML ma [DO USTALENIA]:', Object.values(r4.pliki).some((h) => h.includes('[DO USTALENIA]')), '| [PRZYKŁAD]:', Object.values(r4.pliki).some((h) => h.includes('[PRZYKŁAD]')));
+// S5: inne znaczniki z projektu
+const r5 = generuj({ katalog: kat, slugi: { pl: { produkty: { p: 'ogorek' }, warianty: { v1: 'a', v2: 'b' } } }, tresci: { pl: { warianty: { v1: tr('A [ZAŁOŻENIE] todo [DO DECYZJI]'), v2: tr('B', 1) } } }, ui: { pl: ui } });
+console.log('S5 bledy:', JSON.stringify(r5.bledy));

@@ -1,44 +1,22 @@
 # Stan pracy JarAtlas
 
-Aktualizacja: 2026-11-01 (sesja session_01T66VBynJwE9R3enQnFumVg). Historia: `docs/archiwum/`.
+Aktualizacja: 2026-11-01 (sesja session_01T66VBzskdaRZU4fApkBw7X). Historia: `docs/archiwum/` (poprzedni stan: `STAN-SESJI-2026-11-01-05-E4.md`).
 
 ## Rola i etap
-05-architekt · build · E0–E4 zakończone 2026-11-01. **STOP** po E4. Prompt: `node /home/user/prompts/tools/assemble.mjs 05-architekt --tryb build` (prompts @ c9a47cd).
+07-jakosc · audit (przegląd szkieletu w świeżym kontekście, ADR 0006) · **STOP po E3**. Prompt: `node /home/user/prompts/tools/assemble.mjs 07-jakosc --tryb audit` (prompts @ d32b4b8).
 
-## Wynik E2–E4 (dowody)
-- `docs/architektura/README.md` (moduły z sygnaturami, polityka błędów, budżety z pomiarem, definicja ukończenia), `ryzyka.md` (R1–R9 + lista kontroli dla 07), `konfiguracja.md`, `prywatnosc.md`, `narzedzia/granice.mjs`.
-- Kod (wyjątek ADR 0006): `site/kontrole.mjs` (zaślepki, ostrzeżenia, 301), bramka zamknięta domyślnie w `site/plan.mjs`, adapter I/O przeniesiony do `tools/buduj-strone.mjs` (zapis atomowy), rejestr `site/adresy.json`, domena tylko z `konfiguracja.mjs`.
-- `npm test` 43/43; `check:granice`, `check:catalog`, `check:tresci`, `build`: kod 0. Testy nowych kontroli czerwone przed kodem; mutacje R1, R2, R4, R5, K1 wykryte.
-- Lighthouse 12.8.2 (próbka, mobilny symulowany, mediana z 5): LCP karty 752 ms, produktu 807 ms, CLS 0.
+## Wynik (commit badany 08f2ae2)
+- **Werdykt: ZABLOKOWANE** (scalenie z `main` wstrzymane): 3 × P1, 5 × P2. Raport: `docs/jakosc/07-jakosc-2026-11-01.md`, dowody `docs/jakosc/dowody/`.
+- Kontrole: `npm test` 43/43, `check:granice`, `check:catalog`, `check:tresci`, `build` — kod 0; CI `kontrole` success (przebieg 41341150847).
+- Mutacje: 3/11 wykryte; przeżyły warunki bramki `scope`/`content`/`cardType` (001), kolizja adresów (002), R5 `//cdn` (005), kolejność ostrzeżeń (006), zaślepki rodzin (004), reklama w tabeli (bez decyzji, nie liczone).
+- P1: 001 bramka bez testów 3 warunków; 002 kolizja slugów wariantów bez testu i walidacji; 003 slug niełaciński `..` przechodzi i build pisze poza `dist/` (sonda S3).
+- Dziś nic nie wycieka: 0 wariantów opublikowanych, 0 stron treści.
+- Nazwany wyjątek (zasada 7): raport audytu zapisany w repo (`docs/jakosc/`), choć tryb audit go nie commituje, bo kontener chmury jest ulotny; raport bez sekretów (`sprawdz-raport.mjs` kod 0). Kod pod przeglądem nietknięty.
 
-## Decyzje właściciela (obowiązują)
-`2026-11-01-jaratlas-e3-stop` (zastosowana), `-tlumaczenia-api` (otwarte: kwota, termin, konto, limit, klucz w sekretach), `-szkielet-e0`, przyciski: E2–E4 potem przegląd 07; D-051 budżet kontekstu.
-
-## Decyzje 2026-11-01 (tablica `2026-11-01-jaratlas-e4-decyzje`)
-- Tekst uwagi D-027 (c): przygotuje rola 04.
-- CI: `.github/workflows/kontrole.yml` (zastosowane na gałęzi; na `main` po scaleniu, za zgodą).
-- `CLAUDE.md` ze ścieżkami wrażliwymi: dodany.
-
-## Decyzje 2026-11-01 (tablica `2026-11-01-jaratlas-adresy-i-repo`)
-- Publikujemy tylko dopracowane karty; adresów po publikacji nie zmieniamy; klasyfikacja bezpieczeństwa ustalana przed publikacją i potem bez zmian. Kontrola R4 zostaje: to ona pilnuje niezmienności. 301 tylko jako wyjątek (błąd slugu, zmiana domeny).
-- R1b: teraz A (treść robocza w publicznym repo, nazwany wyjątek). Później czysta wersja w nowym repo, obecne zarchiwizowane, część materiałów na Dysk, według wzorca Trening `docs/46-przeniesienie-1.0.md`.
-
-## Zasada 2026-11-01-zasada-analogia-trening (tablica)
-Przed decyzją sprawdź repo `lkarwowski494/trening`; pełna analogia = to samo rozwiązanie z odnośnikiem, częściowa = nazwana różnica i pytanie do właściciela. Zastosowane:
-1. Tłumaczenia przez API według trening `.github/workflows/przeklad-tlumaczen.yml`: uruchamiane ręcznie, Message Batches (−50%), sekret `ANTHROPIC_API_KEY` w jednym kroku, domyślnie tylko szacunek kosztu, limit kosztu na przebieg (powyżej tylko za zgodą), wynik jako propozycje do przeglądu, bez zmiany plików. Do zbudowania (rola 08/09).
-2. CI według trening `.github/workflows/tests.yml`: push, PR do `main` tylko z gałęzi tego repo, `permissions: contents: read`, concurrency. Zastosowane w `.github/workflows/kontrole.yml`.
-3. Kontrola adresów na żywo według trening `scripts/check-urls.mjs` i lekcji R-017 (`docs/40-lekcje.md`): po wdrożeniu każdy adres z mapy strony zwraca 200, a treść zgadza się z `dist/`. Do zbudowania razem z wdrożeniem (lista dla 07).
-
-## Hosting (tablica `2026-11-01-jaratlas-hosting`, ADR 0007 przyjęta)
-GitHub Pages teraz, jak apps4brew.com w Treningu. Droga wyjścia: Cloudflare Workers Paid 5 USD/mies. (100 000 plików) albo Pro 20–25 USD/mies. Cloudflare Pages Free odpada przy 35 językach (limit 20 000 plików, dziś ok. 20 800 stron).
-
-## Repo i domena (tablica `2026-11-01-jaratlas-przeniesienie-domena`)
-- Przeniesienie do czystego repo **przed pierwszą publikacją**; GitHub Pages i `site/adresy.json` żyją od początku w nowym repo. Plan według trening `docs/46-przeniesienie-1.0.md` (podgląd, decyzje, jeden commit, obecne repo → prywatne archiwum).
-- Domena `jaratlas.com` kupiona: RDAP Verisign 2026-11-01, rejestrator Porkbun, ważna do 2027-11-01, DNS Porkbun. Konfiguracja DNS pod Pages: krok właściciela w nowym repo.
-
-## Decyzje czekające
-1. Opublikowana karta, której źródło się zmieni: adres zostaje, treść aktualizowana.
-2. Uruchomienie workflow publikacji Pages i zmiana DNS: osobna zgoda, w nowym repo.
+## Decyzje czekające (właściciel)
+1. Naprawa: (a) 07 fix testy + 08 fix kod; (b) jedna sesja 07 fix na wszystkie ID z rozszerzeniem wyjątku ADR 0006, potem reaudit w świeżym kontekście (rekomendacja).
+2. Strategia testów: (b) bez osobnej strategii do pierwszej publikacji, rejestr ryzyk = `ryzyka.md` (rekomendacja) albo (a) 07 build.
+3. Z poprzedniego stanu: opublikowana karta ze zmienionym źródłem (adres zostaje); workflow Pages i DNS — osobna zgoda w nowym repo.
 
 ## Następny krok
-Przegląd 07 w świeżym kontekście (gałąź `claude/happy-brown-yncplj`, od `de8b7d2`), potem 06: treść kart fali 1 i slugi `site/slugi/{lang}.json`.
+Po decyzji 1: `node tools/assemble.mjs 07-jakosc --tryb fix --zadania 07-jakosc-001,…,07-jakosc-008` (nowa sesja opus/high), potem `07-jakosc --tryb reaudit --baza 08f2ae2`; scalenie z `main` tylko za zgodą. Potem 06 (treść kart fali 1, slugi) i przeniesienie do czystego repo przed pierwszą publikacją.

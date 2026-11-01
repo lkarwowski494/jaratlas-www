@@ -1,0 +1,279 @@
+$ npm test
+
+> test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: prawdziwe dane: kod 0, przekierowania.json zapisany, 0 stron treści
+ok 1 - prawdziwe dane: kod 0, przekierowania.json zapisany, 0 stron treści
+  ---
+  duration_ms: 171.159533
+  type: 'test'
+  ...
+# Subtest: błąd kontroli: kod 1, poprzedni dist/ nietknięty, brak katalogu tymczasowego
+ok 2 - błąd kontroli: kod 1, poprzedni dist/ nietknięty, brak katalogu tymczasowego
+  ---
+  duration_ms: 54.245036
+  type: 'test'
+  ...
+# Subtest: poprawny katalog przechodzi
+ok 3 - poprawny katalog przechodzi
+  ---
+  duration_ms: 3.714139
+  type: 'test'
+  ...
+# Subtest: wariant niskokwasowy w kąpieli wodnej to błąd
+ok 4 - wariant niskokwasowy w kąpieli wodnej to błąd
+  ---
+  duration_ms: 0.684852
+  type: 'test'
+  ...
+# Subtest: produkt niskokwasowy nie może mieć acidBasis natural-acid
+ok 5 - produkt niskokwasowy nie może mieć acidBasis natural-acid
+  ---
+  duration_ms: 0.811856
+  type: 'test'
+  ...
+# Subtest: produkt graniczny (np. pomidor) w kąpieli wodnej wymaga zakwaszenia
+ok 6 - produkt graniczny (np. pomidor) w kąpieli wodnej wymaga zakwaszenia
+  ---
+  duration_ms: 0.577628
+  type: 'test'
+  ...
+# Subtest: ok-zrodlo bez źródła to błąd
+ok 7 - ok-zrodlo bez źródła to błąd
+  ---
+  duration_ms: 0.571367
+  type: 'test'
+  ...
+# Subtest: ok-zrodlo ze źródłem szczebla 4 to błąd
+ok 8 - ok-zrodlo ze źródłem szczebla 4 to błąd
+  ---
+  duration_ms: 0.492649
+  type: 'test'
+  ...
+# Subtest: status inny niż do-researchu bez twierdzenia to błąd
+ok 9 - status inny niż do-researchu bez twierdzenia to błąd
+  ---
+  duration_ms: 0.376313
+  type: 'test'
+  ...
+# Subtest: twierdzenie nieznane albo niepotwierdzone to błąd
+ok 10 - twierdzenie nieznane albo niepotwierdzone to błąd
+  ---
+  duration_ms: 0.575813
+  type: 'test'
+  ...
+# Subtest: metoda spoza dozwolonych w rodzinie to błąd
+ok 11 - metoda spoza dozwolonych w rodzinie to błąd
+  ---
+  duration_ms: 0.82519
+  type: 'test'
+  ...
+# Subtest: nieznana metoda, w tym tyndalizacja, to błąd
+ok 12 - nieznana metoda, w tym tyndalizacja, to błąd
+  ---
+  duration_ms: 0.990853
+  type: 'test'
+  ...
+# Subtest: publikacja wymaga ok-zrodlo i treści karty
+ok 13 - publikacja wymaga ok-zrodlo i treści karty
+  ---
+  duration_ms: 0.691159
+  type: 'test'
+  ...
+# Subtest: powtórzone ID i nieznany produkt lub rodzina to błąd
+ok 14 - powtórzone ID i nieznany produkt lub rodzina to błąd
+  ---
+  duration_ms: 4.243063
+  type: 'test'
+  ...
+# Subtest: próg rodziny bez twierdzenia musi mieć pytanie otwarte
+ok 15 - próg rodziny bez twierdzenia musi mieć pytanie otwarte
+  ---
+  duration_ms: 0.44103
+  type: 'test'
+  ...
+# Subtest: wariant wycofany wskazuje następcę i nie jest publikowany
+ok 16 - wariant wycofany wskazuje następcę i nie jest publikowany
+  ---
+  duration_ms: 0.320083
+  type: 'test'
+  ...
+# Subtest: ryzyko-wysokie i nie-publikowac z publikacją tylko jako ostrzeżenie
+ok 17 - ryzyko-wysokie i nie-publikowac z publikacją tylko jako ostrzeżenie
+  ---
+  duration_ms: 0.242014
+  type: 'test'
+  ...
+# Subtest: metoda nieustalona (null) dozwolona tylko bez ok-zrodlo
+ok 18 - metoda nieustalona (null) dozwolona tylko bez ok-zrodlo
+  ---
+  duration_ms: 0.338321
+  type: 'test'
+  ...
+# Subtest: rodzina nieustalona (null) dozwolona tylko przy do-researchu
+ok 19 - rodzina nieustalona (null) dozwolona tylko przy do-researchu
+  ---
+  duration_ms: 0.345802
+  type: 'test'
+  ...
+# Subtest: ID unikalne w obrębie typu (produkt może mieć ID jak rodzina)
+ok 20 - ID unikalne w obrębie typu (produkt może mieć ID jak rodzina)
+  ---
+  duration_ms: 0.117954
+  type: 'test'
+  ...
+# Subtest: obowiązkowe ostrzeżenie musi być potwierdzonym twierdzeniem
+ok 21 - obowiązkowe ostrzeżenie musi być potwierdzonym twierdzeniem
+  ---
+  duration_ms: 0.355239
+  type: 'test'
+  ...
+# Subtest: katalog repozytorium przechodzi walidację
+ok 22 - katalog repozytorium przechodzi walidację
+  ---
+  duration_ms: 89.538425
+  type: 'test'
+  ...
+# Subtest: bramka: tylko publikowalne warianty i produkty z ≥1 takim wariantem mają strony
+ok 23 - bramka: tylko publikowalne warianty i produkty z ≥1 takim wariantem mają strony
+  ---
+  duration_ms: 3.665349
+  type: 'test'
+  ...
+# Subtest: mapa strony: tylko strony z planu, bez ukrytych, wycofanych, do-researchu i strony wyboru języka
+ok 24 - mapa strony: tylko strony z planu, bez ukrytych, wycofanych, do-researchu i strony wyboru języka
+  ---
+  duration_ms: 4.397478
+  type: 'test'
+  ...
+# Subtest: hreflang: dwukierunkowy, z sobą samym, absolutny, x-default; tylko istniejące wersje
+ok 25 - hreflang: dwukierunkowy, z sobą samym, absolutny, x-default; tylko istniejące wersje
+  ---
+  duration_ms: 1.474995
+  type: 'test'
+  ...
+# Subtest: karta-ostrzeżenie: bez Recipe i bez miejsc reklam, z ostrzeżeniem i uwagą D-027 (c)
+ok 26 - karta-ostrzeżenie: bez Recipe i bez miejsc reklam, z ostrzeżeniem i uwagą D-027 (c)
+  ---
+  duration_ms: 0.39506
+  type: 'test'
+  ...
+# Subtest: Recipe tylko na ok-zrodlo z obrazem; każda strona encji ma uwagę D-027 (c)
+ok 27 - Recipe tylko na ok-zrodlo z obrazem; każda strona encji ma uwagę D-027 (c)
+  ---
+  duration_ms: 0.702427
+  type: 'test'
+  ...
+# Subtest: brak wymaganego ostrzeżenia w treści = błąd budowania
+ok 28 - brak wymaganego ostrzeżenia w treści = błąd budowania
+  ---
+  duration_ms: 0.531066
+  type: 'test'
+  ...
+# Subtest: slugi: format, unikalność, kolizja z prefiksem; pismo niełacińskie dozwolone
+ok 29 - slugi: format, unikalność, kolizja z prefiksem; pismo niełacińskie dozwolone
+  ---
+  duration_ms: 0.629845
+  type: 'test'
+  ...
+# Subtest: brak slugu albo treści w języku = brak strony w tym języku (fale)
+ok 30 - brak slugu albo treści w języku = brak strony w tym języku (fale)
+  ---
+  duration_ms: 0.215808
+  type: 'test'
+  ...
+# Subtest: mapa strony dzieli się powyżej limitu i ma indeks
+ok 31 - mapa strony dzieli się powyżej limitu i ma indeks
+  ---
+  duration_ms: 0.884465
+  type: 'test'
+  ...
+# Subtest: treść escapowana; brak odnośników z parametrem zapytania; brak automatycznego przekierowania
+ok 32 - treść escapowana; brak odnośników z parametrem zapytania; brak automatycznego przekierowania
+  ---
+  duration_ms: 3.034741
+  type: 'test'
+  ...
+# Subtest: brak tekstów interfejsu dla języka ze stronami = błąd
+ok 33 - brak tekstów interfejsu dla języka ze stronami = błąd
+  ---
+  duration_ms: 0.580895
+  type: 'test'
+  ...
+# Subtest: prawdziwy katalog: dziś 0 stron treści, mapa pusta (nic ukrytego nie wycieka)
+ok 34 - prawdziwy katalog: dziś 0 stron treści, mapa pusta (nic ukrytego nie wycieka)
+  ---
+  duration_ms: 52.362981
+  type: 'test'
+  ...
+# Subtest: cardType warning nigdy nie dostaje Recipe, nawet przy ok-zrodlo z obrazem
+ok 35 - cardType warning nigdy nie dostaje Recipe, nawet przy ok-zrodlo z obrazem
+  ---
+  duration_ms: 0.388604
+  type: 'test'
+  ...
+# Subtest: R2 zaślepka w treści albo tekście interfejsu strony = błąd budowania
+ok 36 - R2 zaślepka w treści albo tekście interfejsu strony = błąd budowania
+  ---
+  duration_ms: 1.544914
+  type: 'test'
+  ...
+# Subtest: R2 tryb testowy z zaślepkami nie zgłasza ich (tylko dane [PRZYKŁAD] w testach)
+ok 37 - R2 tryb testowy z zaślepkami nie zgłasza ich (tylko dane [PRZYKŁAD] w testach)
+  ---
+  duration_ms: 0.29859
+  type: 'test'
+  ...
+# Subtest: R3 karta-ostrzeżenie bez ostrzeżenia albo z pustym tekstem = błąd
+ok 38 - R3 karta-ostrzeżenie bez ostrzeżenia albo z pustym tekstem = błąd
+  ---
+  duration_ms: 0.454655
+  type: 'test'
+  ...
+# Subtest: R3 pusta uwaga D-027 (c) w tekstach interfejsu = błąd
+ok 39 - R3 pusta uwaga D-027 (c) w tekstach interfejsu = błąd
+  ---
+  duration_ms: 0.328041
+  type: 'test'
+  ...
+# Subtest: R4 opublikowany adres zniknął bez przekierowania = błąd; z przekierowaniem do istniejącej strony = OK
+ok 40 - R4 opublikowany adres zniknął bez przekierowania = błąd; z przekierowaniem do istniejącej strony = OK
+  ---
+  duration_ms: 6.02004
+  type: 'test'
+  ...
+# Subtest: R5 prywatność: wygenerowany HTML nie ładuje nic spoza domeny (0 skryptów i zasobów stron trzecich)
+ok 41 - R5 prywatność: wygenerowany HTML nie ładuje nic spoza domeny (0 skryptów i zasobów stron trzecich)
+  ---
+  duration_ms: 1.883451
+  type: 'test'
+  ...
+# Subtest: K1 jedno miejsce konfiguracji: process.env i adres domeny tylko w site/konfiguracja.mjs
+ok 42 - K1 jedno miejsce konfiguracji: process.env i adres domeny tylko w site/konfiguracja.mjs
+  ---
+  duration_ms: 1.199858
+  type: 'test'
+  ...
+# Subtest: R1 bramka zamknięta domyślnie: brak albo nieznany safetyStatus = brak strony
+ok 43 - R1 bramka zamknięta domyślnie: brak albo nieznany safetyStatus = brak strony
+  ---
+  duration_ms: 1.718537
+  type: 'test'
+  ...
+1..43
+# tests 43
+# suites 0
+# pass 43
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 347.67066
+npm notice
+npm notice New major version of npm available! 10.9.9 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice
+kod wyjścia: 0
