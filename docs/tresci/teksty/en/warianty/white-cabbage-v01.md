@@ -48,9 +48,9 @@ Shortening the time or cooling jars in cold water can lead to spoilage. [T:ACI-0
 
 NCHFP times are for US jar sizes: a pint holds about 473 ml and a quart about 946 ml. [T:ACI-174]
 
-For a jar of up to 473 ml use the pint time, and for a larger jar of up to 946 ml, for example 0.5 l or 0.9 l, use the quart time. [T:ACI-175]
+JarAtlas rule (NCHFP does not test metric jars): for a jar of up to 473 ml use the pint time, and for a larger jar of up to 946 ml, for example 0.5 l or 0.9 l, use the quart time. [T:ACI-175]
 
-NCHFP gives no time for jars larger than a quart, such as 1 l, so use smaller jars. [T:ACI-175]
+This NCHFP recipe gives no time for jars larger than a quart, such as 1 l, so use smaller jars. [T:ACI-175]
 
 ## When to throw it out
 

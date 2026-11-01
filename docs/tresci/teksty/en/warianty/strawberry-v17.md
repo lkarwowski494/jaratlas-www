@@ -1,0 +1,37 @@
+# Frozen strawberries (NCHFP)
+
+This card describes how NCHFP freezes strawberries: whole in syrup, or whole, sliced or crushed with sugar. [T:FRZ-062,FRZ-063]
+
+## Preparing
+
+Choose fully ripe, firm berries with a deep red color and discard immature and defective fruit. [T:FRZ-061]
+
+Wash the strawberries and remove the caps. [T:FRZ-061]
+
+## With sugar
+
+Add 3/4 cup of sugar to 1 quart (1 1/3 pounds) of strawberries and mix thoroughly. [T:FRZ-063]
+
+Stir until most of the sugar has dissolved, or let stand for 15 minutes. [T:FRZ-063]
+
+Sliced or crushed strawberries use the same amount of sugar. [T:FRZ-063]
+
+## In syrup
+
+Put whole berries into containers and cover them with cold 50% syrup. [T:FRZ-062]
+
+For 50% syrup, dissolve 4 cups of sugar in 4 cups of lukewarm water until the solution is clear; this makes about 6 cups, and the syrup must be chilled before use. [T:FRZ-064]
+
+Use just enough cold syrup to cover the fruit, about 1/2–2/3 cup per pint. [T:FRZ-064]
+
+To keep the fruit under the syrup, place a small piece of crumpled parchment paper on top and press the fruit down before sealing. [T:FRZ-064]
+
+## Packing and freezing
+
+Leave headspace: in wide-mouth containers 1/2 inch (about 1.3 cm) for a pint and 1 inch (about 2.5 cm) for a quart, in narrow-mouth containers 3/4 inch (about 1.9 cm) for a pint and 1 1/2 inches (about 3.8 cm) for a quart. [T:FRZ-065]
+
+Seal and freeze. [T:FRZ-062]
+
+Freeze at 0 °F (−18 °C) or lower. [T:SUS-050]
+
+Frozen food is safe as long as it stays frozen; once it thaws above 40 °F (about 4 °C), bacteria present before freezing can begin to multiply. [T:SUS-059]

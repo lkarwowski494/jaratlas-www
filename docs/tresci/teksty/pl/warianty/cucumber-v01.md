@@ -30,9 +30,11 @@ W pełni ukiszone ogórki można trzymać w lodówce w oryginalnym naczyniu ok. 
 
 NCHFP uznaje wekowanie za lepszy sposób przechowywania. [T:FER-045]
 
-Wekowanie w kąpieli wodnej metodą raw pack na wysokości 0–1000 stóp (do 300 m) nad poziomem morza trwa 10 minut dla słoików pint i 15 minut dla słoików quart, a solankę trzeba zagotować i gotować 5 minut. [T:FER-046,ACI-176]
+Do wekowania przelej solankę do garnka, powoli doprowadź do wrzenia i gotuj na małym ogniu 5 minut. [T:FER-046]
 
 Napełnij słoiki ogórkami i gorącą solanką, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:FER-095]
+
+Wekowanie w kąpieli wodnej metodą raw pack na wysokości 0–1000 stóp (do 300 m) nad poziomem morza trwa 10 minut dla słoików pint i 15 minut dla słoików quart. [T:FER-046,ACI-176]
 
 Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
 
@@ -44,9 +46,9 @@ Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższe
 
 Czasy NCHFP dotyczą amerykańskich słoików: pint mieści ok. 473 ml, a quart ok. 946 ml. [T:ACI-174]
 
-Dla słoika do 473 ml stosuj czas dla pint, a dla większego, do 946 ml, np. 0,5 l albo 0,9 l, czas dla quart. [T:ACI-175]
+Reguła JarAtlas (NCHFP nie bada słoików metrycznych): dla słoika do 473 ml stosuj czas dla pint, a dla większego, do 946 ml, np. 0,5 l albo 0,9 l, czas dla quart. [T:ACI-175]
 
-Dla słoików większych niż quart, np. 1 l, NCHFP nie podaje czasu, więc użyj mniejszych słoików. [T:ACI-175]
+Ten przepis NCHFP nie podaje czasu dla słoików większych niż quart, np. 1 l, więc użyj mniejszych słoików. [T:ACI-175]
 
 Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsuciem. [T:ACI-015]
 

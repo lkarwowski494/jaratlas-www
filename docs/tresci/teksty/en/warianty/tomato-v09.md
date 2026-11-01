@@ -14,6 +14,8 @@ Add 2 tablespoons of bottled lemon juice or 1/2 teaspoon of citric acid per quar
 
 For pint jars, use 1 tablespoon of bottled lemon juice or 1/4 teaspoon of citric acid. [T:ACI-045]
 
+JarAtlas rule for metric jars: to a jar larger than a pint, of up to 946 ml (for example 0.5 l or 0.9 l), add acid as for a quart: 2 tablespoons of bottled lemon juice or 1/2 teaspoon of citric acid. [T:ACI-193]
+
 Do not can tomatoes from dead or frost-killed vines. [T:ACI-049]
 
 ## Processing
@@ -36,6 +38,6 @@ Shortening the time or cooling jars in cold water can also lead to spoilage. [T:
 
 NCHFP times are for US jar sizes: a pint holds about 473 ml and a quart about 946 ml. [T:ACI-174]
 
-For a jar of up to 473 ml use the pint time, and for a larger jar of up to 946 ml, for example 0.5 l or 0.9 l, use the quart time. [T:ACI-175]
+JarAtlas rule (NCHFP does not test metric jars): for a jar of up to 473 ml use the pint time, and for a larger jar of up to 946 ml, for example 0.5 l or 0.9 l, use the quart time. [T:ACI-175]
 
-NCHFP gives no time for jars larger than a quart, such as 1 l, so use smaller jars. [T:ACI-175]
+This NCHFP recipe gives no time for jars larger than a quart, such as 1 l, so use smaller jars. [T:ACI-175]

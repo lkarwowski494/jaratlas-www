@@ -1055,16 +1055,21 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "1450dd471489"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Sauerkraut, Procedure",
+    "cytat": "If you weigh the cabbage down with a brine-filled bag, do not disturb the crock until normal fermentation is completed (when bubbling ceases).",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ff60be57443f"
    }
   ],
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": {
-   "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
-  },
+  "przeglad": null,
   "wazne_do": "2027-11-01",
   "klaster": "FER",
   "weryfikacjaZastepcza": "2026-11-01"
@@ -1351,7 +1356,7 @@
  },
  {
   "id": "FER-046",
-  "twierdzenie": "NCHFP ogórki: wekowanie w kąpieli wodnej, raw pack, 0–1000 stóp: pint 10 min, quart 15 min (solankę zagotować i gotować 5 min).",
+  "twierdzenie": "NCHFP ogórki: wekowanie w kąpieli wodnej, raw pack, 0–1000 stóp: pint 10 min, quart 15 min (solankę przelać do garnka, powoli doprowadzić do wrzenia i gotować na małym ogniu 5 min).",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
@@ -1361,6 +1366,15 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "da87598aafd2"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Fermented Dill Pickles, Procedure",
+    "cytat": "To can them, pour the brine into a pan, heat slowly to a boil, and simmer 5 minutes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "74f3342ca4a2"
    }
   ],
   "status": "potwierdzone",
@@ -23219,6 +23233,15 @@
    {
     "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
     "miejsce": "Sauerkraut, Hot pack",
+    "cytat": "Hot pack – Bring kraut and liquid slowly to a boil in a large kettle, stirring frequently.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ff60be57443f"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Sauerkraut, Hot pack",
     "cytat": "Remove from heat and fill jars rather firmly with kraut and juices, leaving 1/2-inch headspace.",
     "odczyt": "2026-11-01",
     "szczebel": 1,
@@ -23430,7 +23453,7 @@
  },
  {
   "id": "ACI-175",
-  "twierdzenie": "Ostrożna reguła JarAtlas dla słoików metrycznych w przepisach NCHFP: słoik do 473 ml — czas dla pint; słoik większy niż pinta, do 946 ml, np. 0,5 l albo 0,9 l — czas dla quart (czas dla quart obowiązuje już od słoików 1 1/2 pinty, ok. 710 ml, a słoik 0,5 l jest mniejszy); słoik większy niż quart, np. 1 l — przepisy NCHFP nie podają czasu, więc JarAtlas zaleca mniejszy słoik.",
+  "twierdzenie": "Ostrożna reguła JarAtlas dla słoików metrycznych (NCHFP nie podaje czasów dla słoików metrycznych): słoik do 473 ml — czas dla pint; słoik większy niż pinta, do 946 ml, np. 0,5 l albo 0,9 l — czas dla quart (czas dla quart obowiązuje już od słoików 1 1/2 pinty, ok. 710 ml, a słoik 0,5 l jest mniejszy); słoik większy niż quart, np. 1 l — ten przepis NCHFP nie podaje dla niego czasu, więc JarAtlas zaleca mniejszy słoik.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/can/general-information/selecting-the-correct-processing-time/",
@@ -23517,5 +23540,704 @@
   "przeglad": null,
   "wazne_do": "2027-11-01",
   "klaster": "ACI"
+ },
+ {
+  "id": "ACI-193",
+  "twierdzenie": "Ostrożna reguła JarAtlas dla zakwaszania pomidorów w słoikach metrycznych: do słoika większego niż pinta, do 946 ml (np. 0,5 l albo 0,9 l), dodać kwas jak na quart: 2 łyżki butelkowanego soku z cytryny albo 1/2 łyżeczki kwasu cytrynowego.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/canning-tomatoes-introduction/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Canning Tomatoes, Introduction",
+    "cytat": "To ensure safe acidity in whole, crushed, or juiced tomatoes, add two tablespoons of bottled lemon juice or 1/2 teaspoon of citric acid per quart of tomatoes.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "79835c156d8c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/canning-tomatoes-introduction/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Canning Tomatoes, Introduction",
+    "cytat": "For pints, use one tablespoon bottled lemon juice or 1/4 teaspoon citric acid.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "79835c156d8c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła: dawka na pint w słoiku 0,5 l dałaby ok. 5% mniej kwasu na ml niż przepis (473/500); dawka na quart w słoiku do 946 ml daje co najmniej tyle kwasu na ml, ile przepis (strona bezpieczna, kwaśniej). Uwaga weryfikacji E3 2026-11-01.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI",
+  "decyzja": "2026-11-02-jaratlas-06-karty-p2",
+  "zalezy_od": [
+   "ACI-044",
+   "ACI-045",
+   "ACI-174",
+   "ACI-175"
+  ]
+ },
+ {
+  "id": "SLO-110",
+  "twierdzenie": "NCHFP Cherry Jam Pectin (sproszkowana pektyna): 4 szklanki zmielonych lub drobno posiekanych wiśni bez pestek (ok. 3 funtów, czyli 2 pudełek po kwarcie wiśni), 1 opakowanie sproszkowanej pektyny, 5 szklanek cukru; wychodzi ok. 6 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/cherry-jam-pectin/",
+    "miejsce": "Cherry Jam Pectin, składniki",
+    "cytat": "4 cups ground or finely chopped pitted cherries (about 3 pounds or 2 quart boxes sour cherries) 1 package powdered pectin 5 cups sugar",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "84f3bed8ef95"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/cherry-jam-pectin/",
+    "miejsce": "Cherry Jam Pectin, Yield",
+    "cytat": "Yield: About 6 half-pint jars",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "84f3bed8ef95"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-111",
+  "twierdzenie": "NCHFP Cherry Jam Pectin: słoiki wysterylizować, a dwuczęściowe pokrywki przygotować według producenta; w pełni dojrzałe wiśnie przebrać i umyć, usunąć szypułki i pestki, zmielić albo drobno posiekać.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/cherry-jam-pectin/",
+    "miejsce": "Procedure",
+    "cytat": "Procedure: Sterilize canning jars and prepare two-piece canning lids according to manufacturer's directions.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "84f3bed8ef95"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/cherry-jam-pectin/",
+    "miejsce": "To prepare fruit",
+    "cytat": "Sort and wash fully ripe cherries; remove any stems and pits. Grind cherries or chop fine.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "84f3bed8ef95"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-112",
+  "twierdzenie": "NCHFP Cherry Jam Pectin: odmierzone wiśnie wymieszać z pektyną, na dużym ogniu, stale mieszając, szybko doprowadzić do pełnego wrzenia (bąble na całej powierzchni); dodać cukier, mieszając znów doprowadzić do pełnego wrzenia, gotować intensywnie 1 minutę, stale mieszając; zdjąć z ognia i zebrać pianę.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/cherry-jam-pectin/",
+    "miejsce": "To make jam",
+    "cytat": "Measure prepared cherries into a kettle. Add pectin and stir well. Place on high heat and, stirring constantly, bring quickly to a full boil with bubbles over the entire surface.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "84f3bed8ef95"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/cherry-jam-pectin/",
+    "miejsce": "To make jam",
+    "cytat": "Add sugar, continue stirring and heat again to full bubbling boil. Boil hard for 1 minute, stirring constantly. Remove from heat; skim",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "84f3bed8ef95"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-113",
+  "twierdzenie": "NCHFP Cherry Jam Pectin: gorący dżem od razu nalać do gorących, wysterylizowanych słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; brzegi przetrzeć zwilżonym czystym ręcznikiem papierowym, założyć dwuczęściowe metalowe pokrywki i wekować w kąpieli wodnej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/cherry-jam-pectin/",
+    "miejsce": "Procedure",
+    "cytat": "Fill hot jam immediately into hot, sterile jars, leaving ¼ inch headspace. Wipe rims of jars with a dampened clean paper towel; adjust two-piece metal canning lids. Process in a Boiling Water Canner .",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "84f3bed8ef95"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-114",
+  "twierdzenie": "NCHFP Cherry Jam Pectin, Table 1, kąpiel wodna, słoiki 1/2 pinty lub pinty, na wysokości 0–1000 stóp: 5 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/cherry-jam-pectin/",
+    "miejsce": "Table 1, kolumna 0 - 1,000 ft",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "84f3bed8ef95"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-115",
+  "twierdzenie": "NCHFP Cherry Jam Pectin, Table 1, kąpiel wodna, słoiki 1/2 pinty lub pinty, na wysokości 1001–6000 stóp: 10 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/cherry-jam-pectin/",
+    "miejsce": "Table 1, kolumna 1,001 - 6,000 ft",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "84f3bed8ef95"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-116",
+  "twierdzenie": "NCHFP Cherry Jam Pectin, Table 1, kąpiel wodna, słoiki 1/2 pinty lub pinty, powyżej 6000 stóp: 15 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/cherry-jam-pectin/",
+    "miejsce": "Table 1, kolumna Above 6,000 ft",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "84f3bed8ef95"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-117",
+  "twierdzenie": "NCHFP Cherry Jam Pectin, Table 1 podaje czasy tylko dla słoików 1/2 pinty i pinty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/cherry-jam-pectin/",
+    "miejsce": "Table 1, kolumna Jar Size",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "84f3bed8ef95"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "SLO"
+ },
+ {
+  "id": "ACI-179",
+  "twierdzenie": "Ostrożna reguła JarAtlas: gdy tabela przepisu NCHFP podaje czasy tylko dla słoików do pinty, słoik większy niż pinta (473 ml), np. 0,5 l, nie ma przetestowanego czasu, więc JarAtlas zaleca słoik do 473 ml (np. 0,2 l albo 0,25 l lub słoik 1/2 pinty).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/selecting-the-correct-processing-time/",
+    "miejsce": "Using tables for determining proper process times",
+    "cytat": "Process times for ½-pint and pint jars are the same, as are times for 1-½ pint and quart jars.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4c13a120a047"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła (jak ACI-175): słoik większy niż największy przetestowany rozmiar nie dostaje czasu. Granica 473 ml zaokrąglona w dół (ACI-174).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI",
+  "decyzja": "2026-11-02-jaratlas-06-karty-p2",
+  "zalezy_od": [
+   "ACI-173",
+   "ACI-174"
+  ]
+ },
+ {
+  "id": "ACI-180",
+  "twierdzenie": "NCHFP wiśnie i czereśnie całe: oberwać szypułki i umyć; pestki można usunąć; wydrylowane włożyć do wody z kwasem askorbinowym, żeby nie ciemniały przy szypułce; niedrylowane nakłuć czystą igłą z dwóch przeciwnych stron, żeby nie pękały; wekować można w wodzie, soku jabłkowym, soku z białych winogron albo w syropie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "Procedure",
+    "cytat": "Procedure: Stem and wash cherries. Remove pits if desired. If pitted, place cherries in water containing ascorbic acid to prevent stem-end discoloration. If canned unpitted, prick skins on opposite sides with a clean needle to prevent splitting. Cherries may be canned in water, apple juice, white-grape juice, or syrup .",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2905e627ff47"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-181",
+  "twierdzenie": "NCHFP wiśnie i czereśnie całe, hot pack: na każdą kwartę odsączonych owoców 1/2 szklanki wody, soku albo syropu, zagotować; napełnić słoiki owocami i płynem z gotowania, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "Hot pack",
+    "cytat": "Hot pack – In a large saucepan add ½ cup water, juice, or syrup for each quart of drained fruit and bring to boil. Fill jars with cherries and cooking liquid, leaving ½-inch headspace.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2905e627ff47"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-182",
+  "twierdzenie": "NCHFP wiśnie i czereśnie całe, raw pack: do każdego słoika 1/2 szklanki gorącej wody, soku albo syropu; napełnić odsączonymi owocami, delikatnie potrząsając; dolać gorącego płynu, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "Raw pack",
+    "cytat": "Raw pack – Add ½ cup hot water, juice, or syrup to each jar. Fill jars with drained cherries, shaking down gently as you fill. Add more hot liquid, leaving ½-inch headspace.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2905e627ff47"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-183",
+  "twierdzenie": "NCHFP wiśnie i czereśnie całe, Table 1, kąpiel wodna, na wysokości 1001–3000 stóp: hot pack pint 20 min, quart 25 min; raw pack (pint albo quart) 30 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "Table 1, kolumna 1,001 - 3,000 ft",
+    "cytat": "Hot Pints 15 min 20 20 25 Quarts 20 25 30 35 Raw Pints or Quarts 25 30 35 40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2905e627ff47"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-184",
+  "twierdzenie": "NCHFP wiśnie i czereśnie całe, Table 1, kąpiel wodna, na wysokości 3001–6000 stóp: hot pack pint 20 min, quart 30 min; raw pack (pint albo quart) 35 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "Table 1, kolumna 3,001 - 6,000 ft",
+    "cytat": "Hot Pints 15 min 20 20 25 Quarts 20 25 30 35 Raw Pints or Quarts 25 30 35 40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2905e627ff47"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-185",
+  "twierdzenie": "NCHFP wiśnie i czereśnie całe, Table 1, kąpiel wodna, powyżej 6000 stóp: hot pack pint 25 min, quart 35 min; raw pack (pint albo quart) 40 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "Table 1, kolumna Above 6,000 ft",
+    "cytat": "Hot Pints 15 min 20 20 25 Quarts 20 25 30 35 Raw Pints or Quarts 25 30 35 40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2905e627ff47"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-186",
+  "twierdzenie": "NCHFP śliwki: oberwać szypułki i umyć; całe śliwki nakłuć widelcem z dwóch stron, żeby nie pękały; odmiany z łatwo odchodzącą pestką można przekroić na pół i wydrylować; wekuje się je w wodzie albo w syropie bardzo lekkim, lekkim lub średnim.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/plums-halved-or-whole/",
+    "miejsce": "Procedure",
+    "cytat": "Procedure: Stem and wash plums. To can whole, prick skins on two sides of plums with fork to prevent splitting. Freestone varieties may be halved and pitted. If you use syrup, prepare very light, light, or medium syrup.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "808f2fc7087d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/plums-halved-or-whole/",
+    "miejsce": "Quality",
+    "cytat": "Plums may be packed in water or syrup .",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "808f2fc7087d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-187",
+  "twierdzenie": "NCHFP śliwki, hot pack: śliwki włożyć do wody albo gorącego syropu i gotować 2 minuty, przykryć i odstawić na 20–30 minut; napełnić słoiki gorącymi śliwkami i płynem, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/plums-halved-or-whole/",
+    "miejsce": "Hot pack",
+    "cytat": "Hot pack – Add plums to water or hot syrup and boil 2 minutes. Cover saucepan and let stand 20 to 30 minutes. Fill jars with hot plums and cooking liquid or syrup, leaving 1/2-inch headspace.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "808f2fc7087d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-188",
+  "twierdzenie": "NCHFP śliwki, raw pack: ciasno napełnić słoiki surowymi śliwkami i dolać gorącej wody albo syropu, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/plums-halved-or-whole/",
+    "miejsce": "Raw pack",
+    "cytat": "Raw pack – Fill jars with raw plums, packing firmly. Add hot water or syrup, leaving 1/2-inch headspace.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "808f2fc7087d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-189",
+  "twierdzenie": "NCHFP śliwki połówki lub całe, Table 1, kąpiel wodna (hot i raw pack), na wysokości 1001–3000 stóp: pint 25 min, quart 30 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/plums-halved-or-whole/",
+    "miejsce": "Table 1, kolumna 1,001 - 3,000 ft",
+    "cytat": "Hot and Raw Pints 20 min 25 30 35 Quarts 25 min 30 35 40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "808f2fc7087d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-190",
+  "twierdzenie": "NCHFP śliwki połówki lub całe, Table 1, kąpiel wodna (hot i raw pack), na wysokości 3001–6000 stóp: pint 30 min, quart 35 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/plums-halved-or-whole/",
+    "miejsce": "Table 1, kolumna 3,001 - 6,000 ft",
+    "cytat": "Hot and Raw Pints 20 min 25 30 35 Quarts 25 min 30 35 40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "808f2fc7087d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-191",
+  "twierdzenie": "NCHFP śliwki połówki lub całe, Table 1, kąpiel wodna (hot i raw pack), powyżej 6000 stóp: pint 35 min, quart 40 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/plums-halved-or-whole/",
+    "miejsce": "Table 1, kolumna Above 6,000 ft",
+    "cytat": "Hot and Raw Pints 20 min 25 30 35 Quarts 25 min 30 35 40",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "808f2fc7087d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-192",
+  "twierdzenie": "NCHFP syrop bardzo lekki (ok. 10% cukru) do wekowania owoców: na wsad 9 słoików pint 6 1/2 szklanki wody i 3/4 szklanki cukru, na wsad 7 słoików quart 10 1/2 szklanki wody i 1 1/4 szklanki cukru; wodę z cukrem zagotować; przy raw pack zalać owoce w słoikach, przy hot pack dodać owoce do wrzącego syropu, znów zagotować i od razu nakładać do słoików.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "miejsce": "Table 1, Very Light",
+    "cytat": "Very Light 10 6-1/2 3/4 10-1/2 1-1/4",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bbb321b2f0c2"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "miejsce": "Procedure",
+    "cytat": "Procedure: Heat water and sugar together. Bring to a boil and pour over raw fruits in jars. For hot packs, bring water and sugar to boil, add fruit, reheat to boil, and fill into jars immediately.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bbb321b2f0c2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "ACI"
+ },
+ {
+  "id": "FRZ-061",
+  "twierdzenie": "NCHFP truskawki do mrożenia: wybrać w pełni dojrzałe, jędrne owoce o głębokim czerwonym kolorze, niedojrzałe i wadliwe odrzucić, umyć i usunąć szypułki z listkami.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-strawberries/",
+    "miejsce": "Preparation",
+    "cytat": "Preparation – Select fully ripe, firm berries with a deep red color. Discard immature and defective fruit. Wash and remove caps.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5466eec3ad0a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-062",
+  "twierdzenie": "NCHFP truskawki całe w syropie: włożyć do pojemników, zalać zimnym syropem 50%, zostawić wolną przestrzeń, zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-strawberries/",
+    "miejsce": "Whole Berries Syrup Pack",
+    "cytat": "Whole Berries Syrup Pack – Put berries into containers and cover with cold 50 percent syrup , leaving headspace . Seal and freeze.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5466eec3ad0a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-063",
+  "twierdzenie": "NCHFP truskawki całe z cukrem: na 1 kwartę (1 1/3 funta) truskawek 3/4 szklanki cukru, dokładnie wymieszać, mieszać, aż większość cukru się rozpuści, albo odstawić na 15 minut; włożyć do pojemników z wolną przestrzenią, zamknąć i zamrozić. Plastry lub rozgniecione: ta sama proporcja.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-strawberries/",
+    "miejsce": "Whole Berries Sugar Pack",
+    "cytat": "Whole Berries Sugar Pack – Add ¾ cup sugar to 1 quart (1 1/3 pounds) strawberries and mix thoroughly. Stir until most of the sugar is dissolved or let stand for 15 minutes. Put into containers, leaving headspace . Seal and freeze.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5466eec3ad0a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-strawberries/",
+    "miejsce": "Sliced or Crushed",
+    "cytat": "To 1 quart (1 1/3 pounds) berries add ¾ cup sugar; mix thoroughly.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5466eec3ad0a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-064",
+  "twierdzenie": "NCHFP syrop 50% do mrożenia owoców: 4 szklanki cukru na 4 szklanki wody daje ok. 6 szklanek syropu; cukier rozpuścić w letniej wodzie do klarowności, syrop schłodzić; użyć tyle zimnego syropu, by przykrył owoce (ok. 1/2–2/3 szklanki na pintę); żeby owoce zostały pod syropem, położyć na wierzchu zmięty kawałek papieru do pieczenia i docisnąć owoce przed zamknięciem.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/syrups/",
+    "miejsce": "tabela syropów, Very Heavy",
+    "cytat": "Very Heavy 50% 4 4 6 cups",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a0d1a9dfb879"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/syrups/",
+    "miejsce": "treść strony",
+    "cytat": "To make the syrup, dissolve sugar in lukewarm water, mixing until the solution is clear. Chill syrup before using.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a0d1a9dfb879"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/syrups/",
+    "miejsce": "treść strony",
+    "cytat": "Use just enough cold syrup to cover the prepared fruit after it has been placed in the container (about 1/2 to 2/3 cup of syrup per pint).",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a0d1a9dfb879"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/syrups/",
+    "miejsce": "treść strony",
+    "cytat": "To keep fruit under the syrup, place a small piece of crumpled parchment paper or other water-resistant wrapping material on top, and press fruit down into the syrup before sealing the container.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a0d1a9dfb879"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-065",
+  "twierdzenie": "NCHFP wolna przestrzeń przy mrożeniu owoców w syropie, cukrze, soku lub wodzie (liquid pack): pojemnik z szerokim otworem pint 1/2 cala (ok. 1,3 cm), quart 1 cal (ok. 2,5 cm); z wąskim otworem pint 3/4 cala (ok. 1,9 cm), quart 1 1/2 cala (ok. 3,8 cm).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/headspace-to-allow/",
+    "miejsce": "Headspace to Allow, wiersz Liquid Pack",
+    "cytat": "Liquid Pack* ½ inch 1 inch ¾ inch 1 ½ inch",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2492af7b7130"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/headspace-to-allow/",
+    "miejsce": "przypis",
+    "cytat": "*Fruit packed in juice, sugar, syrup or water; crushed or pureéd fruit.",
+    "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2492af7b7130"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-01",
+  "klaster": "FRZ"
  }
 ]

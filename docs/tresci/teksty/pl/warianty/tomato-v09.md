@@ -14,6 +14,8 @@ Na słoik quart (ok. 0,95 l) soku dodaj 2 łyżki butelkowanego soku z cytryny a
 
 Na słoik pint dodaj 1 łyżkę butelkowanego soku z cytryny albo 1/4 łyżeczki kwasu cytrynowego. [T:ACI-045]
 
+Reguła JarAtlas dla słoików metrycznych: do słoika większego niż pint, do 946 ml (np. 0,5 l albo 0,9 l), dodaj kwas jak na quart: 2 łyżki butelkowanego soku z cytryny albo 1/2 łyżeczki kwasu cytrynowego. [T:ACI-193]
+
 Nie wekuj pomidorów z obumarłych ani przemarzniętych krzaków. [T:ACI-049]
 
 ## Wekowanie
@@ -36,6 +38,6 @@ Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsucie
 
 Czasy NCHFP dotyczą amerykańskich słoików: pint mieści ok. 473 ml, a quart ok. 946 ml. [T:ACI-174]
 
-Dla słoika do 473 ml stosuj czas dla pint, a dla większego, do 946 ml, np. 0,5 l albo 0,9 l, czas dla quart. [T:ACI-175]
+Reguła JarAtlas (NCHFP nie bada słoików metrycznych): dla słoika do 473 ml stosuj czas dla pint, a dla większego, do 946 ml, np. 0,5 l albo 0,9 l, czas dla quart. [T:ACI-175]
 
-Dla słoików większych niż quart, np. 1 l, NCHFP nie podaje czasu, więc użyj mniejszych słoików. [T:ACI-175]
+Ten przepis NCHFP nie podaje czasu dla słoików większych niż quart, np. 1 l, więc użyj mniejszych słoików. [T:ACI-175]
