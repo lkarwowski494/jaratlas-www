@@ -3,12 +3,22 @@
 Aktualizacja: 2026-11-01 (sesja session_01T66VBwpeXoWf62RJV3mYDN). Historia: `docs/archiwum/` (poprzedni stan: `STAN-SESJI-2026-11-01-07-audit.md`).
 
 ## Rola i etap
-07-jakosc · fix (zadania 001, 002, 003; przy okazji 006, 007) · **E1 zakończony, E2 w toku**: czeka na wynik przeglądu D-043 (subagent, świeży kontekst). Prompt złożony ręcznie z `prompts` @ d32b4b8 (uruchomienie `assemble.mjs` odmówione przez klasyfikator; te same pliki: zasady, tryb fix, kontrakt, rdzeń i wzorce w sekcji fix; moduły e2e/geo/domena/wydanie pominięte jako nieistotne — nazwany wyjątek).
+07-jakosc · fix (001, 002, 003; przy okazji 006, 007) · **STOP E2**. Prompt złożony ręcznie z `prompts` @ d32b4b8: uruchomienie `assemble.mjs` odmówione przez klasyfikator, więc przeczytane te same pliki (zasady, tryb fix, kontrakt, rdzeń i wzorce w sekcji fix). Moduły e2e/geo/domena/wydanie pominięte jako nieistotne (nazwany wyjątek, zasada 7).
 
-## Wynik do tej pory
+## Wynik
+- Raport dowodów: `docs/jakosc/07-jakosc-fix-2026-11-01.md`, dowody `docs/jakosc/dowody/fix/`.
 - Commity: 5da3158 (001), aa3e916 (002), 50efac5 (003), df29e2d (007), fac76f4 (006).
-- `npm test` 48/48, `check:granice`, `check:catalog`, `check:tresci`, `build` — kod 0. Mutanty M1, M3, M4, M5, M12, M13, M14, M16 wykryte; M15 sam przeżywa (obrona warstwowa, opisane). Sonda S3: 2 błędy.
-- Raport dowodów: `docs/jakosc/07-jakosc-fix-2026-11-01.md` (sekcja przeglądu D-043 i wynik `sprawdz-raport` do uzupełnienia).
+- `npm test` 48/48; `check:granice`, `check:catalog`, `check:tresci`, `build` kod 0; mutanty M1, M3, M4, M5, M12, M13, M14, M16 wykryte; M15 sam przeżywa (obrona warstwowa, opisane); sonda S3: 2 błędy.
+- Przegląd D-043 (subagent, świeży kontekst): brak uwag P0/P1; 3 obserwacje poniżej progu → backlog.
+- **Werdykt: gałąź może być scalona z `main`** przy zielonym CI `kontrole`; scalenie tylko za zgodą właściciela.
+
+## Decyzje czekające (właściciel)
+1. Scalenie `claude/happy-brown-yncplj` → `main`: tak (rekomendacja) / później (np. razem z 06).
+2. M15: zostawić (rekomendacja, asercja to druga linia) / wydzielić funkcję ścieżek z własnym testem (ok. 10 min).
+3. Z poprzedniego stanu: strategia testów (b) bez osobnej do pierwszej publikacji (rekomendacja) / (a) 07 build; workflow Pages i DNS — osobna zgoda w nowym repo.
+
+## Backlog przed pierwszą publikacją
+07-jakosc-004, 005, 008; asercja segmentów `.`/`..` w ścieżkach buildu (nie tylko wyjście poza katalog); niewidoczne znaki w slugach (U+3164, U+034F); sprzątanie katalogów `ja-*` po testach build.
 
 ## Następny krok
-Wpisać wynik przeglądu D-043, uruchomić `sprawdz-raport`, werdykt scalenia. Scalenie z `main` tylko za zgodą właściciela. Potem 06 (treść kart fali 1, slugi; uwaga: warianty ryzyka potrzebują `cardType: 'warning'`).
+06-tresci, tryb build: treść kart fali 1 i slugi (warianty ryzyka potrzebują `cardType: 'warning'`, dziś 189 bez niego). Przed pierwszą publikacją przeniesienie do czystego repo.
