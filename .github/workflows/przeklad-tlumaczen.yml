@@ -1,0 +1,99 @@
+# Przekład kart treści i slugów en → fr, es, de, it przez API Anthropic (rola 09, 2026-11-02). Tylko ręcznie (workflow_dispatch), odczyt repozytorium.
+# Wzór (analogia pełna, D-052): repo trening, .github/workflows/przeklad-tlumaczen.yml. Skrypt: tools/i18n/przeklad-api.mjs; kosztorys: docs/lokalizacja/kosztorys-przekladu-2026-11-02.md.
+# PŁATNY tylko przy tylko_szacuj = false (domyślnie true: sam szacunek, nic płatnego). Uruchomienie płatne wyłącznie za zgodą właściciela (CLAUDE.md, zasada 12).
+# Klucz: sekret środowiska ANTHROPIC_API_KEY, użyty w JEDNYM kroku jako zmienna środowiskowa; skrypt nigdy go nie wypisuje (maskowanie sk-ant-…).
+# Repozytorium NIE jest zmieniane: wynik to artefakt `raport-przekladu` (propozycje ze statusem „do przeglądu”, 7 dni). Każde zdanie przeszło kontrolę
+# niezmienników ([T:ID], liczby, °F/°C, czasy, jednostki, nazwy własne); odrzucone są w podsumowaniu. Zapis po przeglądzie lokalnie:
+# node tools/i18n/przeklad-api.mjs --zastosuj <katalog artefaktu> → docs/tresci/przeklady/ (nie trafia na stronę; karty zostają publication: ukryta).
+# Limit kosztu na przebieg: 2 USD (decyzja Claude, do weta; tablica 2026-11-02-jaratlas-09-skrypt-tlumaczen); powyżej — stop bez zgoda_koszt=tak.
+# Przycisk uruchomienia GitHub pokazuje dopiero, gdy ten plik jest na gałęzi domyślnej (push na main tylko za zgodą właściciela).
+name: Przekład tłumaczeń (API, ręcznie)
+on:
+  workflow_dispatch:
+    inputs:
+      model:
+        description: 'Model przekładu (domyślnie Claude Opus 5.5, effort medium)'
+        type: choice
+        default: opus
+        options: [opus, sonnet, fable]
+      jezyki:
+        description: 'Języki po przecinku (puste = fr,es,de,it); przebieg dowodowy: fr'
+        type: string
+        default: ''
+      limit_usd:
+        description: 'Limit kosztu przebiegu w USD (puste = 2)'
+        type: string
+        default: ''
+      tylko_szacuj:
+        description: 'Tylko szacunek kosztu, bez wysyłania niczego płatnego'
+        type: boolean
+        default: true
+      zgoda_koszt:
+        description: 'Zgoda na koszt powyżej limitu (tak / nie)'
+        type: choice
+        default: 'nie'
+        options: ['nie', 'tak']
+      wznow:
+        description: 'Odbiór wyników wysłanego wcześniej batcha (msgbatch_… z logu przebiegu, który przekroczył czas oczekiwania); puste = nowy przekład'
+        type: string
+        default: ''
+permissions:
+  contents: read
+concurrency:
+  group: przeklad-tlumaczen
+  cancel-in-progress: false
+jobs:
+  przeklad:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Kontrola niezmienników i testy skryptu (offline, atrapa API)
+        run: node --test tests/przeklad.test.mjs
+      - name: Szacunek kosztu bez klucza (nic płatnego)
+        env:
+          WEJ_MODEL: ${{ inputs.model }}
+          WEJ_JEZYKI: ${{ inputs.jezyki }}
+          WEJ_LIMIT: ${{ inputs.limit_usd }}
+        run: |
+          set -eu
+          node tools/i18n/przeklad-api.mjs --model "$WEJ_MODEL" --jezyki "$WEJ_JEZYKI" --limit "$WEJ_LIMIT" --wyjscie raport-przekladu
+      - name: Przekład (szacunek dokładny przez count_tokens albo batch)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WEJ_MODEL: ${{ inputs.model }}
+          WEJ_JEZYKI: ${{ inputs.jezyki }}
+          WEJ_LIMIT: ${{ inputs.limit_usd }}
+          WEJ_ZGODA: ${{ inputs.zgoda_koszt }}
+          WEJ_SZACUJ: ${{ inputs.tylko_szacuj }}
+          WEJ_WZNOW: ${{ inputs.wznow }}
+        run: |
+          set -eu
+          ARGS=(--model "$WEJ_MODEL" --jezyki "$WEJ_JEZYKI" --limit "$WEJ_LIMIT" --wyjscie raport-przekladu)
+          if [ "$WEJ_ZGODA" = "tak" ]; then ARGS+=(--zgoda-koszt); fi
+          if [ -n "$WEJ_WZNOW" ]; then
+            # Odbiór wyników już opłaconego batcha (bez nowej wysyłki i bez szacunku); --szacuj się z tym wyklucza.
+            [[ "$WEJ_WZNOW" =~ ^msgbatch_[A-Za-z0-9]+$ ]] || { echo "::error::wznow: oczekiwany identyfikator msgbatch_…"; exit 1; }
+            ARGS+=(--wznow "$WEJ_WZNOW")
+          elif [ "$WEJ_SZACUJ" != "false" ]; then ARGS+=(--szacuj); else ARGS+=(--wyslij); fi
+          node tools/i18n/przeklad-api.mjs "${ARGS[@]}"
+      - name: Podsumowanie w logu przebiegu
+        if: always()
+        run: |
+          if [ -f raport-przekladu/podsumowanie.md ]; then cat raport-przekladu/podsumowanie.md >> "$GITHUB_STEP_SUMMARY"; fi
+          if [ -f raport-przekladu/szacunek.json ]; then node -e "const s=require('./raport-przekladu/szacunek.json');console.log('Szacunek ('+s.zrodlo+'): '+JSON.stringify(s.koszt_wg_modelu))" >> "$GITHUB_STEP_SUMMARY"; fi
+      - name: Artefakt (tylko raporty, 7 dni)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: raport-przekladu
+          path: |
+            raport-przekladu/*.json
+            raport-przekladu/podsumowanie.md
+          if-no-files-found: ignore
+          retention-days: 7
