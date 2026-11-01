@@ -20,9 +20,9 @@ Trening `CLAUDE.md:91-106` @ 2e4b0f8, „Audyty i wydania” (zasada właścicie
 - pkt 6 realność: 001 brzegowy + tani → naprawa; 002 realny → naprawa; 003 brzegowy, bezpieczeństwo (zapis poza `dist/`) → naprawa; 005, 006 teoretyczne → notatka.
 
 ## Decyzje czekające (właściciel)
-1. Wykonawca naprawy 001–003: (a) jedna sesja 07 fix z rozszerzeniem wyjątku ADR 0006 (rekomendacja: małe zmiany, sprawdzenie testem odtwarzającym); (b) 08 fix (kod) po 07 fix (testy) — dwie sesje.
+1. ~~Wykonawca naprawy~~ **rozstrzygnięte 2026-11-01** (tablica `2026-11-01-jaratlas-przeglad-07`): jedna sesja 07 fix z rozszerzeniem wyjątku ADR 0006; nowa sesja, ta zarchiwizowana.
 2. Strategia testów: (b) bez osobnej strategii do pierwszej publikacji, rejestr ryzyk = `ryzyka.md` (rekomendacja) albo (a) 07 build.
 3. Z poprzedniego stanu: opublikowana karta ze zmienionym źródłem (adres zostaje); workflow Pages i DNS — osobna zgoda w nowym repo.
 
 ## Następny krok
-Po decyzji 1: `node tools/assemble.mjs 07-jakosc --tryb fix --zadania 07-jakosc-001,07-jakosc-002,07-jakosc-003` (nowa sesja opus/high; P2 tylko tanie przy okazji, reszta backlog). Bez reaudytu (analogia wyżej). Scalenie z `main` tylko za zgodą. Potem 06 (treść kart fali 1, slugi) i przeniesienie do czystego repo przed pierwszą publikacją.
+`node tools/assemble.mjs 07-jakosc --tryb fix --zadania 07-jakosc-001,07-jakosc-002,07-jakosc-003` (nowa sesja opus/high; P2 tylko tanie przy okazji, reszta backlog). Bez reaudytu (analogia wyżej). Scalenie z `main` tylko za zgodą. Potem 06 (treść kart fali 1, slugi) i przeniesienie do czystego repo przed pierwszą publikacją.
