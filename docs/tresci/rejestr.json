@@ -2836,15 +2836,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "f6a2642b9b5e"
   },
   "wielkosc": "pH · ACI-001",
   "wartosc": 4.6,
   "jednostka": "pH",
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-002",
@@ -25825,7 +25825,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "4dcff23a12ab"
+   "sha": "8d4b073d3d96"
   },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
@@ -26375,7 +26375,11 @@
   "status": "potwierdzone",
   "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła: NCHFP (szczebel 1, przetestowany przepis) nie dodaje kwasu i nie ostrzega o odmianach; lista FDA podaje zakres pH części jadalnej w stanie naturalnym. Przepisy SDSU Extension i UC Master Food Preserver (odczyt 2026-11-02) też nie dodają kwasu do moreli w syropie (sok z cytryny tylko w dżemach), więc karta nie podaje dawki kwasu. Punkt dla eksperta (D-027 d). Odrzucone: zakwaszenie bez źródła dawki; status do-researchu (przepis szczebla 1 istnieje); brak uwagi.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "b354f6b1b35a"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "E3",
   "decyzja": "2026-11-02-jaratlas-06-katalog-p4",
@@ -26383,6 +26387,7 @@
    "ACI-135",
    "ACI-072",
    "FRZ-036"
-  ]
+  ],
+  "weryfikacjaZastepcza": "2026-11-02"
  }
 ]

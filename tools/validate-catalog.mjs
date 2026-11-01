@@ -78,7 +78,7 @@ export function validateCatalog(cat, rejestr = []) {
       // niezakwaszonymi pomidorami; nowy wyjątek wymaga zmiany kodu, testu i przeglądu D-043, nie tylko danych (przegląd D-043, 2026-11-02).
       const wyj = v.acidityException;
       const wyjOk = wyj?.warning && WYJATKI_KWAS[v.productId] === wyj.warning && v.safetyStatus === 'ok-zrodlo' && (v.requiredWarnings ?? []).includes(wyj.warning) && (v.sources ?? []).some((z) => z.szczebel === 1);
-      if (p?.acidity === 'borderline' && v.acidBasis === 'natural-acid' && !wyjOk) errors.push(`${g}: produkt graniczny w water-bath wymaga zakwaszenia (acidBasis acidified) albo wyjątku acidityException (ok-zrodlo, przepis szczebla 1, ostrzeżenie w requiredWarnings)`);
+      if (p?.acidity === 'borderline' && v.acidBasis === 'natural-acid' && !wyjOk) errors.push(`${g}: produkt graniczny w water-bath wymaga zakwaszenia (acidBasis acidified) albo wyjątku acidityException z listy WYJATKI_KWAS (ok-zrodlo, przepis szczebla 1, ostrzeżenie w requiredWarnings)`);
     }
     for (const id of v.claims ?? []) claimOk(id, g);
     for (const id of v.requiredWarnings ?? []) claimOk(id, `${g} ostrzeżenie`);
