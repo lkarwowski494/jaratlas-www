@@ -62,6 +62,20 @@ W('sea-fish-v01', 'MIE-056', 'MIE-057'); W('elderberry-elderflower-v11', 'SUS-04
 W('fresh-brined-cheese-v05', 'MLE-043', 'MLE-046', 'MLE-047'); W('artisanal-vinegars-v01', 'NAP-029', 'NAP-030');
 for (const id of ['butter-whey-cheese-v06', 'game-lamb-v07', 'white-cabbage-v13']) W(id, 'SUS-035');
 
+// 7b. Niezależna weryfikacja rozstrzygnięć agenta (rozstrzygniecia.json): werdykty przyjęte w całości.
+const RZ = J(`${S}/e3/wyniki/rozstrzygniecia.json`);
+for (const w of RZ.twierdzenia) if (w.werdykt === 'POPARTE' && w.cytat_ok !== false) zweryfikowane.add(w.id);
+pear.acidityClaim = 'SLO-099'; pear.acidityNote = 'Tylko gruszki europejskie: przetestowany proces NCHFP bez zakwaszania (SLO-099, ACI-074; pomocniczo ACI-127 Bartlett 3,50–4,60). Gruszek azjatyckich (nashi) nie obejmuje: graniczne, wymagają zakwaszenia (ACI-064, ACI-063).';
+for (const w of RZ.warianty) {
+  const v = V.get(w.id); if (w.werdykt === 'POTWIERDZAM') { v.e3 = 'potwierdzony (rozstrzygnięcie)'; continue; }
+  const z = v.safetyStatus; v.safetyStatus = w.proponowany_status ?? z;
+  if (v.safetyStatus !== 'ok-zrodlo') v.sources = [];
+  if (w.proponowane_requiredWarnings?.length) W(v.id, ...w.proponowane_requiredWarnings);
+  v.notes.push(`[E3, weryfikacja rozstrzygnięć] ${z} → ${v.safetyStatus}: ${w.dlaczego}`); v.e3 = `rozstrzygnięcie zweryfikowane: ${z} → ${v.safetyStatus}`;
+  log.warianty.push(`${v.id}: ${z} → ${v.safetyStatus} (weryfikacja rozstrzygnięć)`);
+}
+V.get('potato-sunchoke-v08').name.pl = 'małe ziemniaki (2,5–5 cm) w zalewie (szybkowar)';
+
 // 8. Status twierdzeń: oznacz zweryfikowane (pole przeglad uzupełnia krok ze skrótami).
 for (const t of rej) if (zweryfikowane.has(t.id)) t.weryfikacjaZastepcza = '2026-11-01';
 cat.version = '1.0.1';

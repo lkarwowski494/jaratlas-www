@@ -6,6 +6,6 @@
   "scripts": {
     "test": "node --test tests/*.test.mjs",
     "check:catalog": "node tools/validate-catalog.mjs catalog/catalog-seed.json docs/tresci/rejestr.json",
-    "check:tresci": "node tools/kontrole-tresci.mjs docs/tresci/rejestr.json docs/tresci/teksty --przed-przegladem"
+    "check:tresci": "node tools/kontrole-tresci.mjs docs/tresci/rejestr.json docs/tresci/teksty --przeglad zastępczy --konfiguracja docs/tresci/konfiguracja.json"
   }
 }

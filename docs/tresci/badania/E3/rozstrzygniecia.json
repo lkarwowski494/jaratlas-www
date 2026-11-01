@@ -1,0 +1,136 @@
+{
+ "twierdzenia": [
+  {
+   "id": "E3-001",
+   "werdykt": "POPARTE",
+   "dlaczego": "Cytat dosłownie w 245688b4abb6 (CAUTION na stronie Peaches-Halved or Sliced). Otoczenie: 'some varieties of white-flesh peaches are higher in pH ... than traditional yellow varieties', 'can exceed 4.6', 'no low-acid pressure process available ... nor a researched acidification procedure for safe boiling water canning'. Twierdzenie mówi tyle co źródło (niektóre odmiany, brak procesu ciśnieniowego i brak zbadanego zakwaszania). Uwaga opcjonalna: źródło zaleca mrożenie ('Freezing is the recommended method') – można dopisać w treści ostrzeżenia. Strona nektarynek (bf75aed25573) nie ma takiego zastrzeżenia, więc twierdzenie dotyczy tylko brzoskwiń.",
+   "poprawka": null,
+   "cytat_ok": true
+  }
+ ],
+ "produkty": [
+  {
+   "id": "pear",
+   "werdykt": "CZĘŚCIOWO",
+   "dlaczego": "Wartość 'acid' można utrzymać dla gruszek europejskich, ale nie wynika ona wystarczająco z samego ACI-127: lista FDA (b6fe7f1831a7, wiersz 'Pears, Bartlett 3.50 - 4.60') dotyczy tylko odmiany Bartlett, górna granica 4,60 leży dokładnie na progu (kwaśne = pH 4,6 lub niższe, bez marginesu), a FDA zastrzega 'Considerable variation exists between varieties'. Mocniejszą podstawą jest NCHFP: przetestowany proces w kąpieli wodnej dla Pears-Halved bez zakwaszania (SLO-099/ACI-074, 9e866e44d160) oraz reguła USDA 'all fruits except figs' (ACI-009), przy czym NCHFP wprost wyłącza gruszki azjatyckie jako graniczne (ACI-064) i wymaga ich zakwaszenia (ACI-063). Minimalna poprawka: acidityClaim -> SLO-099 (lub ACI-074), ACI-127 jako pomocnicze; w acidityNote napisać 'tylko gruszki europejskie; gruszek azjatyckich (nashi) nie obejmuje: graniczne, wymagają zakwaszenia (ACI-064, ACI-063)'. Nashi są w Polsce w sprzedaży, więc 'w katalogu brak' nie wystarcza: warianty gruszek w kąpieli wodnej powinny mieć ostrzeżenie ACI-063."
+  }
+ ],
+ "warianty": [
+  {
+   "id": "brussels-kohlrabi-v07",
+   "werdykt": "ZMIENIĆ",
+   "proponowany_status": "do-researchu",
+   "dlaczego": "Przepis NCHFP Pickled Cauliflower or Brussel Sprouts (08022add8de8) używa '4 cups white vinegar (5 percent)'; nazwa wariantu podaje ocet jabłkowy, czyli inny ocet niż w przepisie, więc według zasad ok-zrodlo nie przysługuje. ACI-018/ACI-019 dopuszczają ocet jabłkowy 5% ogólnie do pikli (wybór dotyczy koloru), ale to wskazówka ogólna, nie ten przetestowany przepis, a polskie octy jabłkowe mają różną moc (ACI-016: nie używać octu o nieznanej kwasowości). Gorczyca jest w przepisie (2 tbsp mustard seed). Rodzina, metoda i acidBasis są poprawne. Minimalna poprawka: nazwa 'w occie spirytusowym (białym) 5% z gorczycą' i proporcje 1:1 z przepisem, wtedy ok-zrodlo. Źródło nie ma cytatu: można dodać '4 cups white vinegar (5 percent)'.",
+   "claims_uwagi": "ACI-018 i ACI-019 nie dają podstawy do zamiany octu w tym konkretnym przepisie. Proponowane requiredWarnings: ACI-016 (nie zmieniać proporcji, tylko ocet o znanej mocy 5%)."
+  },
+  {
+   "id": "potato-sunchoke-v08",
+   "werdykt": "ZMIENIĆ",
+   "proponowany_status": "ok-zrodlo",
+   "dlaczego": "Status, rodzina, metoda i acidBasis są zgodne z NCHFP Potatoes, White (c63afb8ae008): szybkowar, hot pack, pint 35 min, quart 40 min. Do zmiany są ostrzeżenia: nazwa z v0 sugerowała tyndalizację, a requiredWarnings jest puste, choć SZY-009 (tyndalizacja zawodna) i SZY-006 (tylko szybkowar) są w claims. Uwaga do nazwy: źródło wymaga 'small to medium-size mature potatoes'; całe tylko o średnicy 1–2 cali (2,5–5 cm), gotowane 10 min, zalewane świeżym wrzątkiem, nie wodą z gotowania; sól 1 łyżeczka na quart, opcjonalnie. 'Młode' ziemniaki to ziemniaki niedojrzałe, więc lepiej napisać 'małe ziemniaki (2,5–5 cm)', a 'solanka' nie może znaczyć mocniejszej soli niż w przepisie.",
+   "proponowane_requiredWarnings": ["SZY-009", "SZY-006"],
+   "claims_uwagi": "Claims pasują. 'mature' w źródle a 'młode' w nazwie: doprecyzować w treści."
+  },
+  {
+   "id": "green-beans-v08",
+   "werdykt": "ZMIENIĆ",
+   "proponowany_status": "ok-zrodlo",
+   "dlaczego": "Zgodne z NCHFP Beans, Snap (c47820c498dc): szybkowar, pint 20 min, quart 25 min, sól 1 łyżeczka na quart opcjonalnie; nazwa 'konserwowa w solance (szybkowar)' nie wnosi składnika spoza przepisu, o ile nie ma w niej octu ani cukru. requiredWarnings jest puste, choć źródło wprost mówi 'There is no safe option for processing green beans in a boiling water canner', a nazwa v0 brzmiała 'tyndalizacja'. Należy dodać ostrzeżenia.",
+   "proponowane_requiredWarnings": ["SZY-034", "SZY-009"],
+   "claims_uwagi": "Claims pasują."
+  },
+  {
+   "id": "carrot-v05",
+   "werdykt": "ZMIENIĆ",
+   "proponowany_status": "do-researchu",
+   "dlaczego": "Przepis NCHFP Pickled Carrots (99b3c912d33b): '5½ cups white distilled vinegar (5%)', przyprawy to gorczyca i nasiona selera. Nazwa podaje ocet jabłkowy (inny ocet) i kolendrę (spoza przepisu), więc według zasad ok-zrodlo nie przysługuje. Rodzina, metoda (kąpiel wodna, pint 15 min) i acidBasis są poprawne. Minimalna poprawka: nazwa 'w occie spirytusowym (białym) 5%' i przyprawy z przepisu (sucha kolendra w małej ilości zapewne nie zmienia bezpieczeństwa, ale nie jest przetestowana), wtedy ok-zrodlo. Źródło nie ma cytatu.",
+   "claims_uwagi": "ACI-018/ACI-019 nie uprawniają do zamiany octu w tym przepisie. Proponowane requiredWarnings: ACI-016."
+  },
+  {
+   "id": "carrot-v10",
+   "werdykt": "ZMIENIĆ",
+   "proponowany_status": "ok-zrodlo",
+   "dlaczego": "NCHFP Mixed Vegetables (afd1887c846b) pozwala zmieniać proporcje i zamieniać warzywa poza wymienionymi wyjątkami; zielony groszek nie jest wyłączony, więc marchew z groszkiem mieści się w przepisie. Czas jak dla mieszanki: pint 75 min, quart 90 min, hot pack. Rodzina, metoda i acidBasis są poprawne. Groszek musi być świeży (łuskany), bo suche strączkowe są wyłączone. requiredWarnings jest puste mimo tyndalizacji w nazwie v0: należy dodać ostrzeżenia.",
+   "proponowane_requiredWarnings": ["SZY-009", "SZY-006"],
+   "claims_uwagi": "Claims pasują (SZY-022, SZY-023). Można dodać FER-005."
+  },
+  {
+   "id": "asparagus-v06",
+   "werdykt": "ZMIENIĆ",
+   "proponowany_status": "ok-zrodlo",
+   "dlaczego": "Zgodne z NCHFP Asparagus (467d151acb0a): szybkowar, hot lub raw pack, pint 30 min, quart 40 min. Źródło nie rozróżnia szparagów białych i zielonych (ten sam gatunek, 'tender, tight-tipped spears, 4 to 6 inches long'). Uznaję za bezpośredni odpowiednik, ale w treści trzeba przyciąć łodygi do 10–15 cm albo kroić na kawałki 2,5 cm i nie upychać ponad przepis. requiredWarnings jest puste mimo tyndalizacji w nazwie v0: należy dodać ostrzeżenia.",
+   "proponowane_requiredWarnings": ["SZY-009", "SZY-006"],
+   "claims_uwagi": "Claims pasują. Źródło nie wspomina białych szparagów: ostrożna uwaga."
+  },
+  {
+   "id": "corn-v06",
+   "werdykt": "ZMIENIĆ",
+   "proponowany_status": "ok-zrodlo",
+   "dlaczego": "Zgodne z NCHFP Corn, Whole Kernel (3c6fccb2fc18): szybkowar, pint 55 min, quart 85 min; nie zeskrobywać kolby; to nie jest kukurydza kremowa (cream style ma inny przepis). requiredWarnings jest puste mimo tyndalizacji w nazwie v0: należy dodać ostrzeżenia.",
+   "proponowane_requiredWarnings": ["SZY-009", "SZY-006"],
+   "claims_uwagi": "Claims pasują."
+  },
+  {
+   "id": "pear-v07",
+   "werdykt": "ZMIENIĆ",
+   "proponowany_status": "ok-zrodlo",
+   "dlaczego": "NCHFP Pears-Halved (9e866e44d160): połówki, hot pack w syropie (bardzo lekki do średniego), kąpiel wodna, pint 20 min, quart 25 min; acidBasis natural-acid jest właściwe dla gruszek europejskich. Wanilia jako aromat w syropie nie zmienia kwasu, cukru, proporcji ani procesu; dopuszczam pod warunkiem, że syrop ma proporcje NCHFP (ACI-067), a do zalewy nie dodaje się skrobi ani nabiału. Do zmiany jest requiredWarnings: przepis nie dotyczy gruszek azjatyckich (nashi), które są graniczne i wymagają zakwaszenia, a ACI-063 jest w claims, ale nie jako ostrzeżenie.",
+   "proponowane_requiredWarnings": ["ACI-063"],
+   "claims_uwagi": "ACI-127 (Bartlett 3,50–4,60, na progu) traktować jako pomocnicze; podstawą jest SLO-099/ACI-074. Można dodać ACI-064."
+  },
+  {
+   "id": "pear-v12",
+   "werdykt": "ZMIENIĆ",
+   "proponowany_status": "do-researchu",
+   "dlaczego": "Źródłem jest przepis na połówki gruszek w syropie (Pears-Halved), a kompot to inny produkt: dużo zalewy na mało owoców (inne proporcje niż w przepisie; strona o syropach, e16de398eeee, podaje ilości syropu na wsad słoików) i zwykle słoje większe niż 1 qt (do 3 l), których NCHFP nie przewiduje. Proporcje i rozmiar słoika wpływają na bezpieczeństwo, a pH gruszek sięga 4,60 (ACI-127), czyli progu. Minimalna poprawka: jeśli wariant to po prostu połówki według NCHFP w bardzo lekkim syropie, w słoikach do 0,95 l, napełnione jak w przepisie, nazwać go 'gruszki w bardzo lekkim syropie' (wtedy ok-zrodlo) i dodać ostrzeżenie ACI-063 (nie dla nashi).",
+   "proponowane_requiredWarnings": ["ACI-063"],
+   "claims_uwagi": "Claims nie obejmują proporcji ani rozmiaru słoika charakterystycznych dla kompotu."
+  },
+  {
+   "id": "peach-nectarine-v06",
+   "werdykt": "POTWIERDZAM",
+   "dlaczego": "NCHFP Peaches-Halved or Sliced (245688b4abb6): połówki, syrop lekki dozwolony ('very light, light, or medium syrup'), kąpiel wodna, hot pint 20 min i quart 25 min, raw pint 25 min i quart 30 min. Rodzina, metoda i acidBasis są poprawne. requiredWarnings E3-001 (nie dla brzoskwiń o białym miąższu) jest właściwe i konieczne, bo źródło każe wybierać brzoskwinie o żółtym miąższu.",
+   "claims_uwagi": "Claims ubogie: dodać ACI-073 (czasy), ACI-067 (syrop nie konserwuje) i ewentualnie ACI-133."
+  },
+  {
+   "id": "peach-nectarine-v12",
+   "werdykt": "ZMIENIĆ",
+   "proponowany_status": "ok-zrodlo",
+   "dlaczego": "NCHFP Canning Fruit-based Baby Foods (8abe3dddad1d): 'any chunk-style or pureed fruit with or without sugar', słoiki half-pint (zalecane) lub pint, 20 min do 1000 stóp; brzoskwinie nie są wyłączone w Fruit Purees (ba7574ae4aa4). Status, rodzina, metoda i acidBasis są poprawne. E3-001 jest właściwe. Brakuje ostrzeżeń dla żywności dla niemowląt: strona o syropach pozwala zastąpić do połowy cukru miodem ('mild-flavored honey may be used'), a miodu nie podaje się dzieciom poniżej 12 miesięcy (SLO-036, botulizm niemowlęcy). Trzeba też ostrzec przed dodawaniem warzyw lub mięsa do musu (SLO-059). W treści stosować czas dla żywności dla dzieci (20 min, tylko half-pint lub pint), a nie 15 min z Fruit Purees dla pint i quart.",
+   "proponowane_requiredWarnings": ["E3-001", "SLO-036", "SLO-059"],
+   "claims_uwagi": "Claims pasują; SLO-036 i SLO-059 przenieść także do requiredWarnings."
+  },
+  {
+   "id": "peach-nectarine-v13",
+   "werdykt": "ZMIENIĆ",
+   "proponowany_status": "do-researchu",
+   "dlaczego": "Źródłami są przepisy na połówki lub plastry brzoskwiń i nektarynek w syropie. Kompot to inny produkt: większy udział zalewy (inne proporcje) i zwykle słoje większe niż 1 qt (do 3 l), których NCHFP nie przewiduje; proporcje i rozmiar słoika wpływają na bezpieczeństwo. pH (ACI-133 do 4,05, ACI-134 do 4,18) daje margines, ale nie zastępuje przetestowanego procesu. E3-001 jest właściwe; białe nektarynki nie są ujęte (źródło milczy, strona bf75aed25573 nie ma zastrzeżenia). Minimalna poprawka: jeśli to połówki według NCHFP w bardzo lekkim lub lekkim syropie, w słoikach do 0,95 l, napełnione jak w przepisie, nazwać 'brzoskwinie/nektarynki w lekkim syropie', wtedy ok-zrodlo z E3-001.",
+   "proponowane_requiredWarnings": ["E3-001"],
+   "claims_uwagi": "Claims nie obejmują proporcji ani rozmiaru słoika kompotu. Źródło nektarynek bez cytatu."
+  },
+  {
+   "id": "pork-shoulder-neck-v07",
+   "werdykt": "ZMIENIĆ",
+   "proponowany_status": "do-researchu",
+   "dlaczego": "NCHFP Meat, Strips, Cubes or Chunks (ea78ddeea668) obejmuje wieprzowinę: szybkowar, pint 75 min, quart 90 min, 'Remove excess fat', hot pack z bulionem, sosem z pieczenia, wodą lub sokiem pomidorowym albo raw pack 'Do not add liquid'. Nazwa 'klasyczna tuszonka ... w galarecie' sugeruje składniki spoza przepisu: żelatynę, skórki lub nóżki dla galarety, zwykle także tłuszcz lub słoninę. Takie dodatki zmieniają lepkość i nasycenie tłuszczem, więc według zasad ok-zrodlo nie przysługuje. Minimalna poprawka: nazwa 'wieprzowina z łopatki w kawałkach w słoikach (szybkowar)', galareta wyłącznie z własnego soku lub bulionu, bez żelatyny, skórek i słoniny, nadmiar tłuszczu usunięty; wtedy ok-zrodlo. requiredWarnings jest puste, choć nazwa v0 zalecała 'potrójną tyndalizację w 100 °C'.",
+   "proponowane_requiredWarnings": ["SZY-009", "SZY-006"],
+   "claims_uwagi": "SZY-052 dotyczyło wariantu v0 z autoklawem 121 °C; zostaje jako informacja. Claims nie obejmują galarety."
+  },
+  {
+   "id": "beef-veal-v04",
+   "werdykt": "ZMIENIĆ",
+   "proponowany_status": "ok-zrodlo",
+   "dlaczego": "Zgodne z NCHFP Meat, Strips, Cubes or Chunks (ea78ddeea668): wołowina i cielęcina w kawałkach, szybkowar, pint 75 min, quart 90 min. 'Tuszonka' pasuje do hot packu (wstępne duszenie, 'stewing'), o ile mięso jest w kawałkach, nadmiar tłuszczu usunięty, a do zalewy nie dodaje się mąki, zagęstników ani żelatyny. requiredWarnings jest puste mimo tyndalizacji w nazwie v0: należy dodać ostrzeżenia.",
+   "proponowane_requiredWarnings": ["SZY-009", "SZY-006"],
+   "claims_uwagi": "Claims pasują."
+  },
+  {
+   "id": "poultry-v10",
+   "werdykt": "ZMIENIĆ",
+   "proponowany_status": "do-researchu",
+   "dlaczego": "NCHFP Chicken or Rabbit (0e7960584ba8): szybkowar; bez kości pint 75 min i quart 90 min, z kośćmi pint 65 min i quart 75 min; 'Remove excess fat'; hot pack z gorącym bulionem albo raw pack bez płynu. Nazwa 'w galarecie' sugeruje typowe dodatki spoza przepisu (żelatyna, nóżki, skóra), więc według zasad ok-zrodlo nie przysługuje. Minimalna poprawka: galareta tylko z bulionu z przepisu, bez żelatyny i dodatków, albo nazwa 'kurczak w bulionie w słoiku (szybkowar)'; wtedy ok-zrodlo. requiredWarnings jest puste mimo tyndalizacji w nazwie v0.",
+   "proponowane_requiredWarnings": ["SZY-009", "SZY-006"],
+   "claims_uwagi": "SZY-040 pasuje (czasy z kośćmi i bez). Claims nie obejmują galarety."
+  }
+ ]
+}

@@ -2971,8 +2971,8 @@
    },
    "category": 5,
    "acidity": "acid",
-   "acidityClaim": "ACI-127",
-   "acidityNote": "E3: gruszki europejskie kwaśne (ACI-127); gruszki azjatyckie graniczne (NCHFP), w katalogu brak.",
+   "acidityClaim": "SLO-099",
+   "acidityNote": "Tylko gruszki europejskie: przetestowany proces NCHFP bez zakwaszania (SLO-099, ACI-074; pomocniczo ACI-127 Bartlett 3,50–4,60). Gruszek azjatyckich (nashi) nie obejmuje: graniczne, wymagają zakwaszenia (ACI-064, ACI-063).",
    "season": null
   },
   {
@@ -7171,22 +7171,14 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "ACI-016",
     "ACI-018",
     "ACI-017",
     "ACI-019"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-cauliflower-or-brussel-sprouts/",
-     "miejsce": "NCHFP: Pickled Cauliflower or Brussel Sprouts",
-     "cytat": null,
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -7195,14 +7187,15 @@
    },
    "notes": [
     "[ACI*] Odpowiednik: NCHFP Pickled Cauliflower or Brussel Sprouts (z gorczycą). Ocet jabłkowy 5% zamiast białego 5% — oba zalecane, biały tylko dla koloru (uproszczenie w ACI-vin_color).",
-    "[E3] Ocet jabłkowy 5% w miejsce białego 5%: oba zalecane przez NCHFP (ACI-018/019), w tej samej ilości (uproszczenie nazwane)."
+    "[E3] Ocet jabłkowy 5% w miejsce białego 5%: oba zalecane przez NCHFP (ACI-018/019), w tej samej ilości (uproszczenie nazwane).",
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → do-researchu: Przepis NCHFP Pickled Cauliflower or Brussel Sprouts (08022add8de8) używa '4 cups white vinegar (5 percent)'; nazwa wariantu podaje ocet jabłkowy, czyli inny ocet niż w przepisie, więc według zasad ok-zrodlo nie przysługuje. ACI-018/ACI-019 dopuszczają ocet jabłkowy 5% ogólnie do pikli (wybór dotyczy koloru), ale to wskazówka ogólna, nie ten przetestowany przepis, a polskie octy jabłkowe mają różną moc (ACI-016: nie używać octu o nieznanej kwasowości). Gorczyca jest w przepisie (2 tbsp mustard seed). Rodzina, metoda i acidBasis są poprawne. Minimalna poprawka: nazwa 'w occie spirytusowym (białym) 5% z gorczycą' i proporcje 1:1 z przepisem, wtedy ok-zrodlo. Źródło nie ma cytatu: można dodać '4 cups white vinegar (5 percent)'."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
    ],
-   "e3": "uproszczenie: ocet 5%"
+   "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → do-researchu"
   },
   {
    "id": "brussels-kohlrabi-v08",
@@ -13271,7 +13264,7 @@
    "id": "potato-sunchoke-v08",
    "productId": "potato-sunchoke",
    "name": {
-    "pl": "młode ziemniaki w solance (szybkowar)"
+    "pl": "małe ziemniaki (2,5–5 cm) w zalewie (szybkowar)"
    },
    "groupV0": "Pasteryzacja, olej i susz",
    "lineV0": 91,
@@ -13308,7 +13301,8 @@
    "notes": [
     "[FER] Przetestowany proces tylko w autoklawie: Guide 4, sekcja „Potatoes, white” (czasy odczytać u SZY). Tyndalizacja i kąpiel wodna nie są przetestowane (FER-005).",
     "[SZY*] Młode ziemniaki (1–2 cale) całe w zalewie z wrzątku: przepis NCHFP White Potatoes, szybkowar; wariant „tyndalizacja” z v0 odrzucony.",
-    "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Potatoes, White – Cubed or Whole, 35/40 min; młode ziemniaki 1–2\" w całości są w przepisie), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
+    "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Potatoes, White – Cubed or Whole, 35/40 min; młode ziemniaki 1–2\" w całości są w przepisie), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0).",
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → ok-zrodlo: Status, rodzina, metoda i acidBasis są zgodne z NCHFP Potatoes, White (c63afb8ae008): szybkowar, hot pack, pint 35 min, quart 40 min. Do zmiany są ostrzeżenia: nazwa z v0 sugerowała tyndalizację, a requiredWarnings jest puste, choć SZY-009 (tyndalizacja zawodna) i SZY-006 (tylko szybkowar) są w claims. Uwaga do nazwy: źródło wymaga 'small to medium-size mature potatoes'; całe tylko o średnicy 1–2 cali (2,5–5 cm), gotowane 10 min, zalewane świeżym wrzątkiem, nie wodą z gotowania; sól 1 łyżeczka na quart, opcjonalnie. 'Młode' ziemniaki to ziemniaki niedojrzałe, więc lepiej napisać 'małe ziemniaki (2,5–5 cm)', a 'solanka' nie może znaczyć mocniejszej soli niż w przepisie."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -13316,8 +13310,12 @@
     "FER",
     "SZY"
    ],
-   "e3": "nazwa poprawiona",
-   "nameV0": "młode ziemniaki w solance (szybkowar/tyndalizacja)"
+   "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → ok-zrodlo",
+   "nameV0": "młode ziemniaki w solance (szybkowar/tyndalizacja)",
+   "requiredWarnings": [
+    "SZY-009",
+    "SZY-006"
+   ]
   },
   {
    "id": "potato-sunchoke-v09",
@@ -14164,7 +14162,8 @@
    "notes": [
     "[FER] Przetestowany proces tylko w autoklawie: Guide 4, sekcja „Beans, snap and Italian” (czasy odczytać u SZY). Tyndalizacja i kąpiel wodna nie są przetestowane (FER-005).",
     "[SZY*] Fasolka szparagowa w zalewie: przepis NCHFP, szybkowar 20/25 min; tyndalizacja z v0 odrzucona – NCHFP: brak bezpiecznej opcji w kąpieli wodnej.",
-    "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Beans, Snap and Italian, 20/25 min), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006; strona źródłowa: 'There is no safe option for processing green beans in a boiling water canner'). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
+    "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Beans, Snap and Italian, 20/25 min), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006; strona źródłowa: 'There is no safe option for processing green beans in a boiling water canner'). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0).",
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → ok-zrodlo: Zgodne z NCHFP Beans, Snap (c47820c498dc): szybkowar, pint 20 min, quart 25 min, sól 1 łyżeczka na quart opcjonalnie; nazwa 'konserwowa w solance (szybkowar)' nie wnosi składnika spoza przepisu, o ile nie ma w niej octu ani cukru. requiredWarnings jest puste, choć źródło wprost mówi 'There is no safe option for processing green beans in a boiling water canner', a nazwa v0 brzmiała 'tyndalizacja'. Należy dodać ostrzeżenia."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -14172,8 +14171,12 @@
     "FER",
     "SZY"
    ],
-   "e3": "nazwa poprawiona",
-   "nameV0": "konserwowa w solance (tyndalizacja)"
+   "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → ok-zrodlo",
+   "nameV0": "konserwowa w solance (tyndalizacja)",
+   "requiredWarnings": [
+    "SZY-034",
+    "SZY-009"
+   ]
   },
   {
    "id": "green-beans-v09",
@@ -16271,22 +16274,14 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "ACI-016",
     "ACI-018",
     "ACI-017",
     "ACI-019"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-carrots/",
-     "miejsce": "NCHFP: Pickled Carrots",
-     "cytat": null,
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -16295,14 +16290,15 @@
    },
    "notes": [
     "[ACI*] Odpowiednik: NCHFP Pickled Carrots (ocet biały 5%); ocet jabłkowy 5% zamiast białego (ACI-vin_color); kolendra jako sucha przyprawa — DO USTALENIA tolerancja przypraw.",
-    "[E3] Ocet jabłkowy 5% w miejsce białego 5%: oba zalecane przez NCHFP (ACI-018/019), w tej samej ilości (uproszczenie nazwane)."
+    "[E3] Ocet jabłkowy 5% w miejsce białego 5%: oba zalecane przez NCHFP (ACI-018/019), w tej samej ilości (uproszczenie nazwane).",
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → do-researchu: Przepis NCHFP Pickled Carrots (99b3c912d33b): '5½ cups white distilled vinegar (5%)', przyprawy to gorczyca i nasiona selera. Nazwa podaje ocet jabłkowy (inny ocet) i kolendrę (spoza przepisu), więc według zasad ok-zrodlo nie przysługuje. Rodzina, metoda (kąpiel wodna, pint 15 min) i acidBasis są poprawne. Minimalna poprawka: nazwa 'w occie spirytusowym (białym) 5%' i przyprawy z przepisu (sucha kolendra w małej ilości zapewne nie zmienia bezpieczeństwa, ale nie jest przetestowana), wtedy ok-zrodlo. Źródło nie ma cytatu."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
    ],
-   "e3": "uproszczenie: ocet 5%"
+   "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → do-researchu"
   },
   {
    "id": "carrot-v06",
@@ -16483,15 +16479,20 @@
    },
    "notes": [
     "[SZY*] Marchew z groszkiem jako Mixed Vegetables NCHFP (wolno zmieniać proporcje), 75/90 min; tyndalizacja z v0 odrzucona.",
-    "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Mixed Vegetables, 75/90 min; groszek nie jest na liście wykluczeń), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
+    "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Mixed Vegetables, 75/90 min; groszek nie jest na liście wykluczeń), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0).",
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → ok-zrodlo: NCHFP Mixed Vegetables (afd1887c846b) pozwala zmieniać proporcje i zamieniać warzywa poza wymienionymi wyjątkami; zielony groszek nie jest wyłączony, więc marchew z groszkiem mieści się w przepisie. Czas jak dla mieszanki: pint 75 min, quart 90 min, hot pack. Rodzina, metoda i acidBasis są poprawne. Groszek musi być świeży (łuskany), bo suche strączkowe są wyłączone. requiredWarnings jest puste mimo tyndalizacji w nazwie v0: należy dodać ostrzeżenia."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
    ],
-   "e3": "nazwa poprawiona",
-   "nameV0": "marchewka z groszkiem (tyndalizacja)"
+   "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → ok-zrodlo",
+   "nameV0": "marchewka z groszkiem (tyndalizacja)",
+   "requiredWarnings": [
+    "SZY-009",
+    "SZY-006"
+   ]
   },
   {
    "id": "carrot-v11",
@@ -21396,7 +21397,8 @@
    "notes": [
     "[FER] Przetestowany proces tylko w autoklawie: Guide 4, sekcja „Asparagus—spears or pieces” (czasy odczytać u SZY). Tyndalizacja i kąpiel wodna nie są przetestowane (FER-005).",
     "[SZY*] Szparagi w zalewie: NCHFP, szybkowar 30/40 min; tyndalizacja z v0 odrzucona.",
-    "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Asparagus – Spears or Pieces, 30/40 min; białe i zielone to szparagi), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
+    "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Asparagus – Spears or Pieces, 30/40 min; białe i zielone to szparagi), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0).",
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → ok-zrodlo: Zgodne z NCHFP Asparagus (467d151acb0a): szybkowar, hot lub raw pack, pint 30 min, quart 40 min. Źródło nie rozróżnia szparagów białych i zielonych (ten sam gatunek, 'tender, tight-tipped spears, 4 to 6 inches long'). Uznaję za bezpośredni odpowiednik, ale w treści trzeba przyciąć łodygi do 10–15 cm albo kroić na kawałki 2,5 cm i nie upychać ponad przepis. requiredWarnings jest puste mimo tyndalizacji w nazwie v0: należy dodać ostrzeżenia."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -21404,8 +21406,12 @@
     "FER",
     "SZY"
    ],
-   "e3": "nazwa poprawiona",
-   "nameV0": "białe i zielone szparagi konserwowe w solance (tyndalizacja)"
+   "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → ok-zrodlo",
+   "nameV0": "białe i zielone szparagi konserwowe w solance (tyndalizacja)",
+   "requiredWarnings": [
+    "SZY-009",
+    "SZY-006"
+   ]
   },
   {
    "id": "asparagus-v07",
@@ -22171,7 +22177,8 @@
    "notes": [
     "[FER] Przetestowany proces tylko w autoklawie: Guide 4, sekcja „Corn—whole kernel” (czasy odczytać u SZY). Tyndalizacja i kąpiel wodna nie są przetestowane (FER-005).",
     "[SZY*] Ziarna kukurydzy w zalewie: NCHFP, szybkowar 55/85 min; tyndalizacja z v0 odrzucona; nie zeskrobywać kolby.",
-    "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Corn – Whole Kernel, 55/85 min), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
+    "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Corn – Whole Kernel, 55/85 min), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0).",
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → ok-zrodlo: Zgodne z NCHFP Corn, Whole Kernel (3c6fccb2fc18): szybkowar, pint 55 min, quart 85 min; nie zeskrobywać kolby; to nie jest kukurydza kremowa (cream style ma inny przepis). requiredWarnings jest puste mimo tyndalizacji w nazwie v0: należy dodać ostrzeżenia."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -22179,8 +22186,12 @@
     "FER",
     "SZY"
    ],
-   "e3": "nazwa poprawiona",
-   "nameV0": "ziarna kukurydzy w solance (szybkowar/tyndalizacja)"
+   "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → ok-zrodlo",
+   "nameV0": "ziarna kukurydzy w solance (szybkowar/tyndalizacja)",
+   "requiredWarnings": [
+    "SZY-009",
+    "SZY-006"
+   ]
   },
   {
    "id": "corn-v07",
@@ -26085,7 +26096,8 @@
    },
    "notes": [
     "[ACI*] NCHFP Pears halved w syropie; wanilia jako aromat. Gruszki azjatyckie: obowiązkowe zakwaszenie (osobny przepis).",
-    "[SLO] Najbliższy przetestowany: Pears-Halved (NCHFP); wanilia to dodatek poza przepisem."
+    "[SLO] Najbliższy przetestowany: Pears-Halved (NCHFP); wanilia to dodatek poza przepisem.",
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → ok-zrodlo: NCHFP Pears-Halved (9e866e44d160): połówki, hot pack w syropie (bardzo lekki do średniego), kąpiel wodna, pint 20 min, quart 25 min; acidBasis natural-acid jest właściwe dla gruszek europejskich. Wanilia jako aromat w syropie nie zmienia kwasu, cukru, proporcji ani procesu; dopuszczam pod warunkiem, że syrop ma proporcje NCHFP (ACI-067), a do zalewy nie dodaje się skrobi ani nabiału. Do zmiany jest requiredWarnings: przepis nie dotyczy gruszek azjatyckich (nashi), które są graniczne i wymagają zakwaszenia, a ACI-063 jest w claims, ale nie jako ostrzeżenie."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -26093,7 +26105,10 @@
     "ACI",
     "SLO"
    ],
-   "e3": "potwierdzony"
+   "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → ok-zrodlo",
+   "requiredWarnings": [
+    "ACI-063"
+   ]
   },
   {
    "id": "pear-v08",
@@ -26226,29 +26241,14 @@
    "processFamilyId": "canned-foods",
    "preservationMethod": "water-bath",
    "acidBasis": "natural-acid",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "ACI-074",
     "ACI-067",
     "ACI-063",
     "SLO-099"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pears-halved/",
-     "miejsce": "NCHFP (nchfp.uga.edu): Pears-Halved",
-     "cytat": "Hot Pints 20 min 25 30 35 Quarts 25 min 30 35 40",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    },
-    {
-     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
-     "miejsce": "NCHFP (nchfp.uga.edu): Preparing and Using Syrups for Canning Fruit",
-     "cytat": "It does not prevent spoilage of these foods.",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -26257,7 +26257,8 @@
    },
    "notes": [
     "[ACI*] Kompot ≈ gruszki połówki w syropie bardzo lekkim (NCHFP). Gruszki azjatyckie — zakwasić (c_pears-asian).",
-    "[SLO] Kompot gruszkowy = gruszki połówki w lekkim syropie (NCHFP)."
+    "[SLO] Kompot gruszkowy = gruszki połówki w lekkim syropie (NCHFP).",
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → do-researchu: Źródłem jest przepis na połówki gruszek w syropie (Pears-Halved), a kompot to inny produkt: dużo zalewy na mało owoców (inne proporcje niż w przepisie; strona o syropach, e16de398eeee, podaje ilości syropu na wsad słoików) i zwykle słoje większe niż 1 qt (do 3 l), których NCHFP nie przewiduje. Proporcje i rozmiar słoika wpływają na bezpieczeństwo, a pH gruszek sięga 4,60 (ACI-127), czyli progu. Minimalna poprawka: jeśli wariant to po prostu połówki według NCHFP w bardzo lekkim syropie, w słoikach do 0,95 l, napełnione jak w przepisie, nazwać go 'gruszki w bardzo lekkim syropie' (wtedy ok-zrodlo) i dodać ostrzeżenie ACI-063 (nie dla nashi)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -26265,7 +26266,10 @@
     "ACI",
     "SLO"
    ],
-   "e3": "potwierdzony"
+   "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → do-researchu",
+   "requiredWarnings": [
+    "ACI-063"
+   ]
   },
   {
    "id": "pear-v13",
@@ -29096,7 +29100,7 @@
    "researchedBy": [
     "SLO"
    ],
-   "e3": "potwierdzony",
+   "e3": "potwierdzony (rozstrzygnięcie)",
    "requiredWarnings": [
     "E3-001"
    ]
@@ -29313,16 +29317,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Przetwory owocowe dla niemowląt (NCHFP): słoiki 1/2 pinty lub pinty, 20 min. Bez miodu."
+    "[SLO*] Przetwory owocowe dla niemowląt (NCHFP): słoiki 1/2 pinty lub pinty, 20 min. Bez miodu.",
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → ok-zrodlo: NCHFP Canning Fruit-based Baby Foods (8abe3dddad1d): 'any chunk-style or pureed fruit with or without sugar', słoiki half-pint (zalecane) lub pint, 20 min do 1000 stóp; brzoskwinie nie są wyłączone w Fruit Purees (ba7574ae4aa4). Status, rodzina, metoda i acidBasis są poprawne. E3-001 jest właściwe. Brakuje ostrzeżeń dla żywności dla niemowląt: strona o syropach pozwala zastąpić do połowy cukru miodem ('mild-flavored honey may be used'), a miodu nie podaje się dzieciom poniżej 12 miesięcy (SLO-036, botulizm niemowlęcy). Trzeba też ostrzec przed dodawaniem warzyw lub mięsa do musu (SLO-059). W treści stosować czas dla żywności dla dzieci (20 min, tylko half-pint lub pint), a nie 15 min z Fruit Purees dla pint i quart."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
    ],
-   "e3": "potwierdzony",
+   "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → ok-zrodlo",
    "requiredWarnings": [
-    "E3-001"
+    "E3-001",
+    "SLO-036",
+    "SLO-059"
    ]
   },
   {
@@ -29336,7 +29343,7 @@
    "processFamilyId": "canned-foods",
    "preservationMethod": "water-bath",
    "acidBasis": "natural-acid",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "ACI-073",
     "ACI-067",
@@ -29344,29 +29351,7 @@
     "ACI-134",
     "SLO-098"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
-     "miejsce": "NCHFP (nchfp.uga.edu): Peaches-Halved or Sliced",
-     "cytat": "Hot Pints 20 min 25 30 35 Quarts 25 min 30 35 40 Raw Pints 25 min 30 35 40 Quarts 30 min 35 40 45",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    },
-    {
-     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/nectarines-halved-or-sliced/",
-     "miejsce": "NCHFP: Nectarines-Halved or Sliced",
-     "cytat": null,
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    },
-    {
-     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
-     "miejsce": "NCHFP (nchfp.uga.edu): Preparing and Using Syrups for Canning Fruit",
-     "cytat": "It does not prevent spoilage of these foods.",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -29375,7 +29360,8 @@
    },
    "notes": [
     "[ACI*] Kompot ≈ brzoskwinie/nektarynki połówki w syropie bardzo lekkim (NCHFP).",
-    "[SLO] Kompot = brzoskwinie w lekkim syropie (NCHFP)."
+    "[SLO] Kompot = brzoskwinie w lekkim syropie (NCHFP).",
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → do-researchu: Źródłami są przepisy na połówki lub plastry brzoskwiń i nektarynek w syropie. Kompot to inny produkt: większy udział zalewy (inne proporcje) i zwykle słoje większe niż 1 qt (do 3 l), których NCHFP nie przewiduje; proporcje i rozmiar słoika wpływają na bezpieczeństwo. pH (ACI-133 do 4,05, ACI-134 do 4,18) daje margines, ale nie zastępuje przetestowanego procesu. E3-001 jest właściwe; białe nektarynki nie są ujęte (źródło milczy, strona bf75aed25573 nie ma zastrzeżenia). Minimalna poprawka: jeśli to połówki według NCHFP w bardzo lekkim lub lekkim syropie, w słoikach do 0,95 l, napełnione jak w przepisie, nazwać 'brzoskwinie/nektarynki w lekkim syropie', wtedy ok-zrodlo z E3-001."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29383,7 +29369,7 @@
     "ACI",
     "SLO"
    ],
-   "e3": "potwierdzony",
+   "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → do-researchu",
    "requiredWarnings": [
     "E3-001"
    ]
@@ -48618,7 +48604,7 @@
    "processFamilyId": "canned-foods",
    "preservationMethod": "pressure-canning",
    "acidBasis": "low-acid",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -48629,15 +48615,7 @@
     "SZY-041",
     "SZY-052"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/",
-     "miejsce": "treść strony",
-     "cytat": "Bear, Beef, Lamb, Pork, Veal, Venison",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -48647,7 +48625,8 @@
    "notes": [
     "[SZY*] Tuszonka z łopatki: przetestowany proces NCHFP dla kawałków wieprzowiny (na gorąco z bulionem lub na surowo bez płynu), szybkowar 75/90 min. Wariant „potrójna tyndalizacja w 100 °C” z v0 – odrzucony; „autoklaw 121 °C” = szybkowar 15 PSI (nie przekraczać 15 PSI).",
     "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
-    "[E3] Weryfikator: Nazwa podaje jako równorzędną opcję „potrójną tyndalizację w 100°C”, czyli proces, który źródło szczebla 1 wprost odradza. SZY-006 (NCHFP, szczebel 1): wekowanie ciśnieniowe to jedyna zalecana metoda dla mięsa i drobiu, a kąpiel wodna „poses a real risk of botulism poisoning”; NCHFP nie ma żadnej procedury z wrzątkiem (SZY-005), a tyndalizacja nie jest niezawodna (SZY-009). Metoda w polu preservationMethod (szybkowar) ma przepis NCHFP Meat Strips/Cubes (pint 75 min, quart 90 min), więc po usunięciu tyndalizacji z nazwy przysługuje ok-zrodlo. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
+    "[E3] Weryfikator: Nazwa podaje jako równorzędną opcję „potrójną tyndalizację w 100°C”, czyli proces, który źródło szczebla 1 wprost odradza. SZY-006 (NCHFP, szczebel 1): wekowanie ciśnieniowe to jedyna zalecana metoda dla mięsa i drobiu, a kąpiel wodna „poses a real risk of botulism poisoning”; NCHFP nie ma żadnej procedury z wrzątkiem (SZY-005), a tyndalizacja nie jest niezawodna (SZY-009). Metoda w polu preservationMethod (szybkowar) ma przepis NCHFP Meat Strips/Cubes (pint 75 min, quart 90 min), więc po usunięciu tyndalizacji z nazwy przysługuje ok-zrodlo. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0).",
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → do-researchu: NCHFP Meat, Strips, Cubes or Chunks (ea78ddeea668) obejmuje wieprzowinę: szybkowar, pint 75 min, quart 90 min, 'Remove excess fat', hot pack z bulionem, sosem z pieczenia, wodą lub sokiem pomidorowym albo raw pack 'Do not add liquid'. Nazwa 'klasyczna tuszonka ... w galarecie' sugeruje składniki spoza przepisu: żelatynę, skórki lub nóżki dla galarety, zwykle także tłuszcz lub słoninę. Takie dodatki zmieniają lepkość i nasycenie tłuszczem, więc według zasad ok-zrodlo nie przysługuje. Minimalna poprawka: nazwa 'wieprzowina z łopatki w kawałkach w słoikach (szybkowar)', galareta wyłącznie z własnego soku lub bulionu, bez żelatyny, skórek i słoniny, nadmiar tłuszczu usunięty; wtedy ok-zrodlo. requiredWarnings jest puste, choć nazwa v0 zalecała 'potrójną tyndalizację w 100 °C'."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -48655,8 +48634,12 @@
     "SZY",
     "MIE"
    ],
-   "e3": "nazwa poprawiona",
-   "nameV0": "klasyczna tuszonka wieprzowa z łopatki w galarecie (potrójna tyndalizacja w $100^\\circ\\text{C}$ lub szybkowar/autoklaw w $121^\\circ\\text{C}$)"
+   "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → do-researchu",
+   "nameV0": "klasyczna tuszonka wieprzowa z łopatki w galarecie (potrójna tyndalizacja w $100^\\circ\\text{C}$ lub szybkowar/autoklaw w $121^\\circ\\text{C}$)",
+   "requiredWarnings": [
+    "SZY-009",
+    "SZY-006"
+   ]
   },
   {
    "id": "pork-shoulder-neck-v08",
@@ -50697,7 +50680,8 @@
    "notes": [
     "[SZY*] Tuszonka wołowa: NCHFP kawałki wołowiny, szybkowar 75/90 min; tyndalizacja z v0 odrzucona.",
     "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
-    "[E3] Weryfikator: Nazwa „tuszonka wołowa w słoikach (tyndalizacja)” wskazuje proces z wrzątkiem, który źródło szczebla 1 wprost odradza. SZY-006 (NCHFP, szczebel 1): wekowanie ciśnieniowe to jedyna zalecana metoda dla mięsa i drobiu, a kąpiel wodna „poses a real risk of botulism poisoning”; NCHFP nie ma żadnej procedury z wrzątkiem (SZY-005), a tyndalizacja nie jest niezawodna (SZY-009). Dla wołowiny jest NCHFP Meat Strips/Cubes (szybkowar: pint 75 min, quart 90 min); po zmianie nazwy (bez tyndalizacji) przysługuje ok-zrodlo. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
+    "[E3] Weryfikator: Nazwa „tuszonka wołowa w słoikach (tyndalizacja)” wskazuje proces z wrzątkiem, który źródło szczebla 1 wprost odradza. SZY-006 (NCHFP, szczebel 1): wekowanie ciśnieniowe to jedyna zalecana metoda dla mięsa i drobiu, a kąpiel wodna „poses a real risk of botulism poisoning”; NCHFP nie ma żadnej procedury z wrzątkiem (SZY-005), a tyndalizacja nie jest niezawodna (SZY-009). Dla wołowiny jest NCHFP Meat Strips/Cubes (szybkowar: pint 75 min, quart 90 min); po zmianie nazwy (bez tyndalizacji) przysługuje ok-zrodlo. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0).",
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → ok-zrodlo: Zgodne z NCHFP Meat, Strips, Cubes or Chunks (ea78ddeea668): wołowina i cielęcina w kawałkach, szybkowar, pint 75 min, quart 90 min. 'Tuszonka' pasuje do hot packu (wstępne duszenie, 'stewing'), o ile mięso jest w kawałkach, nadmiar tłuszczu usunięty, a do zalewy nie dodaje się mąki, zagęstników ani żelatyny. requiredWarnings jest puste mimo tyndalizacji w nazwie v0: należy dodać ostrzeżenia."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -50705,8 +50689,12 @@
     "SZY",
     "MIE"
    ],
-   "e3": "nazwa poprawiona",
-   "nameV0": "tuszonka wołowa w słoikach (tyndalizacja)"
+   "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → ok-zrodlo",
+   "nameV0": "tuszonka wołowa w słoikach (tyndalizacja)",
+   "requiredWarnings": [
+    "SZY-009",
+    "SZY-006"
+   ]
   },
   {
    "id": "beef-veal-v05",
@@ -51449,7 +51437,7 @@
    "processFamilyId": "canned-foods",
    "preservationMethod": "pressure-canning",
    "acidBasis": "low-acid",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SZY-001",
     "SZY-003",
@@ -51459,15 +51447,7 @@
     "SZY-009",
     "SZY-040"
    ],
-   "sources": [
-    {
-     "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/chicken-or-rabbit/",
-     "miejsce": "treść strony",
-     "cytat": "Hot and Raw Pints 75 min 11 lb 12 lb 13 lb 14 lb Quarts 90",
-     "odczyt": "2026-11-01",
-     "szczebel": 1
-    }
-   ],
+   "sources": [],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -51477,7 +51457,8 @@
    "notes": [
     "[SZY*] Kurczak w galarecie: NCHFP Chicken – na gorąco z bulionem (z kośćmi 65/75, bez kości 75/90 min); galareta z wywaru, bez dodawania żelatyny; tyndalizacja z v0 odrzucona.",
     "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
-    "[E3] Weryfikator: Nazwa „kurczak w galarecie w słoiku (tyndalizacja)” wskazuje proces z wrzątkiem, który źródło szczebla 1 wprost odradza. SZY-006 (NCHFP, szczebel 1): wekowanie ciśnieniowe to jedyna zalecana metoda dla mięsa i drobiu, a kąpiel wodna „poses a real risk of botulism poisoning”; NCHFP nie ma żadnej procedury z wrzątkiem (SZY-005), a tyndalizacja nie jest niezawodna (SZY-009). Dla kurczaka jest NCHFP Chicken or Rabbit (szybkowar, SZY-040); po zmianie nazwy (bez tyndalizacji) przysługuje ok-zrodlo. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0)."
+    "[E3] Weryfikator: Nazwa „kurczak w galarecie w słoiku (tyndalizacja)” wskazuje proces z wrzątkiem, który źródło szczebla 1 wprost odradza. SZY-006 (NCHFP, szczebel 1): wekowanie ciśnieniowe to jedyna zalecana metoda dla mięsa i drobiu, a kąpiel wodna „poses a real risk of botulism poisoning”; NCHFP nie ma żadnej procedury z wrzątkiem (SZY-005), a tyndalizacja nie jest niezawodna (SZY-009). Dla kurczaka jest NCHFP Chicken or Rabbit (szybkowar, SZY-040); po zmianie nazwy (bez tyndalizacji) przysługuje ok-zrodlo. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0).",
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → do-researchu: NCHFP Chicken or Rabbit (0e7960584ba8): szybkowar; bez kości pint 75 min i quart 90 min, z kośćmi pint 65 min i quart 75 min; 'Remove excess fat'; hot pack z gorącym bulionem albo raw pack bez płynu. Nazwa 'w galarecie' sugeruje typowe dodatki spoza przepisu (żelatyna, nóżki, skóra), więc według zasad ok-zrodlo nie przysługuje. Minimalna poprawka: galareta tylko z bulionu z przepisu, bez żelatyny i dodatków, albo nazwa 'kurczak w bulionie w słoiku (szybkowar)'; wtedy ok-zrodlo. requiredWarnings jest puste mimo tyndalizacji w nazwie v0."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -51485,8 +51466,12 @@
     "SZY",
     "MIE"
    ],
-   "e3": "nazwa poprawiona",
-   "nameV0": "kurczak w galarecie w słoiku (tyndalizacja)"
+   "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → do-researchu",
+   "nameV0": "kurczak w galarecie w słoiku (tyndalizacja)",
+   "requiredWarnings": [
+    "SZY-009",
+    "SZY-006"
+   ]
   },
   {
    "id": "poultry-v11",

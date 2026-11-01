@@ -1,0 +1,495 @@
+{
+ "twierdzenia": [
+  {
+   "id": "E3-001",
+   "twierdzenie": "NCHFP: procesu wekowania brzoskwiń nie stosować do brzoskwiń o białym miąższu; niektóre odmiany mają wyższe pH i nie ma dla nich przetestowanego procesu ani zakwaszenia.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+     "miejsce": "NCHFP, Peaches – Halved or Sliced, CAUTION",
+     "cytat": "Do not use this process to can white-flesh peaches.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "245688b4abb6"
+    }
+   ],
+   "status": "potwierdzone",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-01",
+   "klaster": "E3"
+  }
+ ],
+ "produkty": [
+  {
+   "id": "pear",
+   "name": {
+    "pl": "Gruszka"
+   },
+   "category": 5,
+   "acidity": "acid",
+   "acidityClaim": "ACI-127",
+   "acidityNote": "E3: gruszki europejskie kwaśne (ACI-127); gruszki azjatyckie graniczne (NCHFP), w katalogu brak.",
+   "season": null
+  }
+ ],
+ "warianty": [
+  {
+   "id": "brussels-kohlrabi-v07",
+   "productId": "brussels-kohlrabi",
+   "name": "brukselka w occie jabłkowym z gorczycą",
+   "nameV0": null,
+   "processFamilyId": "vinegar-pickling",
+   "preservationMethod": "water-bath",
+   "acidBasis": "acidified",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-016",
+    "ACI-018",
+    "ACI-017",
+    "ACI-019"
+   ],
+   "requiredWarnings": [],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-cauliflower-or-brussel-sprouts/",
+     "miejsce": "NCHFP: Pickled Cauliflower or Brussel Sprouts",
+     "cytat": null,
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    }
+   ]
+  },
+  {
+   "id": "potato-sunchoke-v08",
+   "productId": "potato-sunchoke",
+   "name": "młode ziemniaki w solance (szybkowar)",
+   "nameV0": "młode ziemniaki w solance (szybkowar/tyndalizacja)",
+   "processFamilyId": "canned-foods",
+   "preservationMethod": "pressure-canning",
+   "acidBasis": "low-acid",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FER-004",
+    "FER-005",
+    "SZY-001",
+    "SZY-003",
+    "SZY-004",
+    "SZY-005",
+    "SZY-006",
+    "SZY-009",
+    "SZY-029"
+   ],
+   "requiredWarnings": [],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/potatoes-white-cubed-or-whole/",
+     "miejsce": "treść strony",
+     "cytat": "Do not use the water you cooked the potatoes in; it contains too much starch.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    }
+   ]
+  },
+  {
+   "id": "green-beans-v08",
+   "productId": "green-beans",
+   "name": "konserwowa w solance (szybkowar)",
+   "nameV0": "konserwowa w solance (tyndalizacja)",
+   "processFamilyId": "canned-foods",
+   "preservationMethod": "pressure-canning",
+   "acidBasis": "low-acid",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FER-004",
+    "FER-005",
+    "SZY-001",
+    "SZY-003",
+    "SZY-004",
+    "SZY-005",
+    "SZY-006",
+    "SZY-009",
+    "SZY-034"
+   ],
+   "requiredWarnings": [],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/",
+     "miejsce": "treść strony",
+     "cytat": "There is no safe option for processing green beans in a boiling water canner.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    }
+   ]
+  },
+  {
+   "id": "carrot-v05",
+   "productId": "carrot",
+   "name": "w occie jabłkowym z kolendrą",
+   "nameV0": null,
+   "processFamilyId": "vinegar-pickling",
+   "preservationMethod": "water-bath",
+   "acidBasis": "acidified",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-016",
+    "ACI-018",
+    "ACI-017",
+    "ACI-019"
+   ],
+   "requiredWarnings": [],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-carrots/",
+     "miejsce": "NCHFP: Pickled Carrots",
+     "cytat": null,
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    }
+   ]
+  },
+  {
+   "id": "carrot-v10",
+   "productId": "carrot",
+   "name": "marchewka z groszkiem (szybkowar)",
+   "nameV0": "marchewka z groszkiem (tyndalizacja)",
+   "processFamilyId": "canned-foods",
+   "preservationMethod": "pressure-canning",
+   "acidBasis": "low-acid",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "SZY-001",
+    "SZY-003",
+    "SZY-004",
+    "SZY-005",
+    "SZY-006",
+    "SZY-009",
+    "SZY-022",
+    "SZY-023"
+   ],
+   "requiredWarnings": [],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mixed-vegetables/",
+     "miejsce": "treść strony",
+     "cytat": "substitute other favorite vegetables except leafy greens, dried beans, cream-style corn, winter squash, sweet potatoes, broccoli, cauliflower or cabbage.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    }
+   ]
+  },
+  {
+   "id": "asparagus-v06",
+   "productId": "asparagus",
+   "name": "białe i zielone szparagi konserwowe w solance (szybkowar)",
+   "nameV0": "białe i zielone szparagi konserwowe w solance (tyndalizacja)",
+   "processFamilyId": "canned-foods",
+   "preservationMethod": "pressure-canning",
+   "acidBasis": "low-acid",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FER-004",
+    "FER-005",
+    "SZY-001",
+    "SZY-003",
+    "SZY-004",
+    "SZY-005",
+    "SZY-006",
+    "SZY-009",
+    "SZY-037"
+   ],
+   "requiredWarnings": [],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/asparagus-spear-or-pieces/",
+     "miejsce": "treść strony",
+     "cytat": "Hot and Raw Pints 30 min 11 lb 12 lb 13 lb 14 lb Quarts 40",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    }
+   ]
+  },
+  {
+   "id": "corn-v06",
+   "productId": "corn",
+   "name": "ziarna kukurydzy w solance (szybkowar)",
+   "nameV0": "ziarna kukurydzy w solance (szybkowar/tyndalizacja)",
+   "processFamilyId": "canned-foods",
+   "preservationMethod": "pressure-canning",
+   "acidBasis": "low-acid",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "FER-004",
+    "FER-005",
+    "SZY-001",
+    "SZY-003",
+    "SZY-004",
+    "SZY-005",
+    "SZY-006",
+    "SZY-009",
+    "SZY-033"
+   ],
+   "requiredWarnings": [],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-whole-kernel/",
+     "miejsce": "treść strony",
+     "cytat": "Hot and Raw Pints 55 min 11 lb 12 lb 13 lb 14 lb Quarts 85",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    }
+   ]
+  },
+  {
+   "id": "pear-v07",
+   "productId": "pear",
+   "name": "połówki gruszek w syropie waniliowym",
+   "nameV0": null,
+   "processFamilyId": "canned-foods",
+   "preservationMethod": "water-bath",
+   "acidBasis": "natural-acid",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-074",
+    "ACI-067",
+    "ACI-127",
+    "ACI-063"
+   ],
+   "requiredWarnings": [],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pears-halved/",
+     "miejsce": "NCHFP (nchfp.uga.edu): Pears-Halved",
+     "cytat": "Hot Pints 20 min 25 30 35 Quarts 25 min 30 35 40",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    }
+   ]
+  },
+  {
+   "id": "pear-v12",
+   "productId": "pear",
+   "name": "kompot gruszkowy",
+   "nameV0": null,
+   "processFamilyId": "canned-foods",
+   "preservationMethod": "water-bath",
+   "acidBasis": "natural-acid",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-074",
+    "ACI-067",
+    "ACI-063",
+    "SLO-099"
+   ],
+   "requiredWarnings": [],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pears-halved/",
+     "miejsce": "NCHFP (nchfp.uga.edu): Pears-Halved",
+     "cytat": "Hot Pints 20 min 25 30 35 Quarts 25 min 30 35 40",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+     "miejsce": "NCHFP (nchfp.uga.edu): Preparing and Using Syrups for Canning Fruit",
+     "cytat": "It does not prevent spoilage of these foods.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    }
+   ]
+  },
+  {
+   "id": "peach-nectarine-v06",
+   "productId": "peach-nectarine",
+   "name": "połówki brzoskwiń w lekkim syropie",
+   "nameV0": null,
+   "processFamilyId": "canned-foods",
+   "preservationMethod": "water-bath",
+   "acidBasis": "natural-acid",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "SLO-098"
+   ],
+   "requiredWarnings": [
+    "E3-001"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+     "miejsce": "NCHFP (nchfp.uga.edu): Peaches-Halved or Sliced",
+     "cytat": "Hot Pints 20 min 25 30 35 Quarts 25 min 30 35 40 Raw Pints 25 min 30 35 40 Quarts 30 min 35 40 45",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    }
+   ]
+  },
+  {
+   "id": "peach-nectarine-v12",
+   "productId": "peach-nectarine",
+   "name": "mus dla dzieci",
+   "nameV0": null,
+   "processFamilyId": "canned-foods",
+   "preservationMethod": "water-bath",
+   "acidBasis": "natural-acid",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "SLO-059",
+    "SLO-036",
+    "SLO-093"
+   ],
+   "requiredWarnings": [
+    "E3-001"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/general-information/canning-fruit-based-baby-foods/",
+     "miejsce": "Canning Fruit-based Baby Foods, tabela",
+     "cytat": "Hot Half-pints Pints 20 min 25 30",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/fruit-purees/",
+     "miejsce": "NCHFP (nchfp.uga.edu): Fruit Pureés",
+     "cytat": "Caution: These recommendations should not be used with bananas, dates, figs, Asian pears, tomatoes, cantaloupe and other melons, papaya, persimmons, ripe mango or coconut.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    }
+   ]
+  },
+  {
+   "id": "peach-nectarine-v13",
+   "productId": "peach-nectarine",
+   "name": "kompot",
+   "nameV0": null,
+   "processFamilyId": "canned-foods",
+   "preservationMethod": "water-bath",
+   "acidBasis": "natural-acid",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-073",
+    "ACI-067",
+    "ACI-133",
+    "ACI-134",
+    "SLO-098"
+   ],
+   "requiredWarnings": [
+    "E3-001"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+     "miejsce": "NCHFP (nchfp.uga.edu): Peaches-Halved or Sliced",
+     "cytat": "Hot Pints 20 min 25 30 35 Quarts 25 min 30 35 40 Raw Pints 25 min 30 35 40 Quarts 30 min 35 40 45",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/nectarines-halved-or-sliced/",
+     "miejsce": "NCHFP: Nectarines-Halved or Sliced",
+     "cytat": null,
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+     "miejsce": "NCHFP (nchfp.uga.edu): Preparing and Using Syrups for Canning Fruit",
+     "cytat": "It does not prevent spoilage of these foods.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    }
+   ]
+  },
+  {
+   "id": "pork-shoulder-neck-v07",
+   "productId": "pork-shoulder-neck",
+   "name": "klasyczna tuszonka wieprzowa z łopatki w galarecie (szybkowar)",
+   "nameV0": "klasyczna tuszonka wieprzowa z łopatki w galarecie (potrójna tyndalizacja w $100^\\circ\\text{C}$ lub szybkowar/autoklaw w $121^\\circ\\text{C}$)",
+   "processFamilyId": "canned-foods",
+   "preservationMethod": "pressure-canning",
+   "acidBasis": "low-acid",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "SZY-001",
+    "SZY-003",
+    "SZY-004",
+    "SZY-005",
+    "SZY-006",
+    "SZY-009",
+    "SZY-041",
+    "SZY-052"
+   ],
+   "requiredWarnings": [],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/",
+     "miejsce": "treść strony",
+     "cytat": "Bear, Beef, Lamb, Pork, Veal, Venison",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    }
+   ]
+  },
+  {
+   "id": "beef-veal-v04",
+   "productId": "beef-veal",
+   "name": "tuszonka wołowa w słoikach (szybkowar)",
+   "nameV0": "tuszonka wołowa w słoikach (tyndalizacja)",
+   "processFamilyId": "canned-foods",
+   "preservationMethod": "pressure-canning",
+   "acidBasis": "low-acid",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "SZY-001",
+    "SZY-003",
+    "SZY-004",
+    "SZY-005",
+    "SZY-006",
+    "SZY-009",
+    "SZY-041"
+   ],
+   "requiredWarnings": [],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/",
+     "miejsce": "treść strony",
+     "cytat": "Bear, Beef, Lamb, Pork, Veal, Venison",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    }
+   ]
+  },
+  {
+   "id": "poultry-v10",
+   "productId": "poultry",
+   "name": "kurczak w galarecie w słoiku (szybkowar)",
+   "nameV0": "kurczak w galarecie w słoiku (tyndalizacja)",
+   "processFamilyId": "canned-foods",
+   "preservationMethod": "pressure-canning",
+   "acidBasis": "low-acid",
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "SZY-001",
+    "SZY-003",
+    "SZY-004",
+    "SZY-005",
+    "SZY-006",
+    "SZY-009",
+    "SZY-040"
+   ],
+   "requiredWarnings": [],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/chicken-or-rabbit/",
+     "miejsce": "treść strony",
+     "cytat": "Hot and Raw Pints 75 min 11 lb 12 lb 13 lb 14 lb Quarts 90",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    }
+   ]
+  }
+ ]
+}

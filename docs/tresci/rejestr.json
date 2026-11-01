@@ -23137,8 +23137,13 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-01",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-01",
-  "klaster": "E3"
+  "klaster": "E3",
+  "weryfikacjaZastepcza": "2026-11-01"
  }
 ]

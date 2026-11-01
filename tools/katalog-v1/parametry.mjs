@@ -12,5 +12,9 @@ for (const f of c.processFamilies) for (const t of f.thresholds) {
   out.push({ parametr: `${f.id}.${t.wielkosc}`.replace(/\s+/g, '_').slice(0, 120), rodzina: f.id, wielkosc: t.wielkosc, wartosc: w, jednostka: t.jednostka, granica: t.granica, twierdzenie: t.claim, krytyczne: !!tw.krytyczne, zrodlo: zr?.adres,
     wektory: k ? [w - k, w, w + k].map((x) => ({ wejscie: rnd(x), spelnia: ok(rnd(x)) })) : null, ...(k ? {} : { uwaga: `brak rozdzielczości dla jednostki „${t.jednostka}”` }) });
 }
+// Zgodność z rejestrem: ścisła (pole wartosc twierdzenia) albo liczba w tekście twierdzenia (zakres, słowo); konfiguracja do kontroli tylko ścisłe.
+const SLOWNIE = { 'SLO-017': 'rok', 'SLO-019': 'rok', 'SLO-069': 'tydzień' };
+for (const x of out) { const t = r.get(x.twierdzenie); x.zgodnosc = Number(t.wartosc) === x.wartosc ? 'ścisła' : SLOWNIE[x.twierdzenie] ? `słownie w twierdzeniu („${SLOWNIE[x.twierdzenie]}”)` : 'liczba w tekście twierdzenia'; }
 writeFileSync(`${S}/v1/parametry.json`, JSON.stringify(out, null, 1));
+writeFileSync(`${S}/v1/konfiguracja.json`, JSON.stringify(out.filter((x) => x.zgodnosc === 'ścisła').map(({ parametr, wartosc, twierdzenie }) => ({ parametr, wartosc, jednostka: r.get(twierdzenie).jednostka ?? null, twierdzenie })) /* jednostka z rejestru: 14 zapisów różniło się tylko pisownią lub dopiskiem warunku, sprawdzone 2026-11-01 */, null, 1));
 console.log('parametrów', out.length, 'z wektorami', out.filter((x) => x.wektory).length, '| pominięte (nieliczbowe/bez granicy)', pomin.length);

@@ -12,15 +12,15 @@ Data: 2026-11-01. Katalog: `catalog/catalog-seed.json` 1.0.1. Źródło v0: Sło
 
 | Status v1 | Wariantów |
 |---|---|
-| ok-zrodlo | 294 |
-| do-researchu | 915 |
+| ok-zrodlo | 288 |
+| do-researchu | 921 |
 | ryzyko-wysokie | 139 |
 | nie-publikowac | 47 |
 
 | Rodzina | ok | do-res. | ryzyko | nie-publ. |
 |---|---|---|---|---|
 | (nieustalona) | 0 | 1 | 0 | 0 |
-| canned-foods | 54 | 30 | 50 | 30 |
+| canned-foods | 50 | 34 | 50 | 30 |
 | dairy-cheese | 8 | 76 | 1 | 0 |
 | drying | 69 | 46 | 0 | 0 |
 | egg-preservation | 1 | 3 | 3 | 0 |
@@ -34,7 +34,7 @@ Data: 2026-11-01. Katalog: `catalog/catalog-seed.json` 1.0.1. Źródło v0: Sło
 | salt-preservation | 2 | 18 | 1 | 0 |
 | sweet-preserves | 20 | 155 | 7 | 0 |
 | vinegar-making | 7 | 43 | 0 | 0 |
-| vinegar-pickling | 27 | 224 | 0 | 12 |
+| vinegar-pickling | 25 | 226 | 0 | 12 |
 
 Nowe w v1: 68 wariantów mrożenia (NCHFP) i 6 z rozdzielenia 3 pozycji v0.
 
@@ -164,7 +164,7 @@ Wariant z metodą z v0 przeniesioną do `preservationMethodV0` albo z nazwą v0 
 | cultivated-mushrooms-v10 | pasta truflowo-pieczarkowa (duxelles) pod oliwą | water-bath | oil-and-fat / nieustalona / nie-publikowac |
 | pork-loin-ham-v12 | szynka konserwowa w słoiku (tyndalizacja) | water-bath | canned-foods / nieustalona / ryzyko-wysokie |
 | pork-loin-ham-v15 | wędzonka ze słoika | water-bath | canned-foods / nieustalona / ryzyko-wysokie |
-| pork-shoulder-neck-v07 | klasyczna tuszonka wieprzowa z łopatki w galarecie (potrójna tyndalizacja w $100^\circ\text{C}$ lub szybkowar/autoklaw w $121^\circ\text{C}$) | (w nazwie) | canned-foods / pressure-canning / ok-zrodlo |
+| pork-shoulder-neck-v07 | klasyczna tuszonka wieprzowa z łopatki w galarecie (potrójna tyndalizacja w $100^\circ\text{C}$ lub szybkowar/autoklaw w $121^\circ\text{C}$) | (w nazwie) | canned-foods / pressure-canning / do-researchu |
 | pork-shoulder-neck-v08 | mielonka wieprzowa słoikowa z peklosolą | water-bath | canned-foods / nieustalona / ryzyko-wysokie |
 | pork-shoulder-neck-v09 | golonka w słoiku w galarecie piwnej | water-bath | canned-foods / nieustalona / ryzyko-wysokie |
 | pork-shoulder-neck-v11 | gulasz wieprzowy wekowany | water-bath | canned-foods / nieustalona / ryzyko-wysokie |
@@ -174,7 +174,7 @@ Wariant z metodą z v0 przeniesioną do `preservationMethodV0` albo z nazwą v0 
 | beef-veal-v04 | tuszonka wołowa w słoikach (tyndalizacja) | (w nazwie) | canned-foods / pressure-canning / ok-zrodlo |
 | beef-veal-v05 | gulasz wołowy wekowany | water-bath | canned-foods / nieustalona / ryzyko-wysokie |
 | beef-veal-v07 | policzki wołowe w winie w słoiku | water-bath | canned-foods / nieustalona / ryzyko-wysokie |
-| poultry-v10 | kurczak w galarecie w słoiku (tyndalizacja) | (w nazwie) | canned-foods / pressure-canning / ok-zrodlo |
+| poultry-v10 | kurczak w galarecie w słoiku (tyndalizacja) | (w nazwie) | canned-foods / pressure-canning / do-researchu |
 | game-lamb-v07 | gulasz myśliwski z jelenia z grzybami i jałowcem (tyndalizacja) | water-bath | canned-foods / nieustalona / nie-publikowac |
 | game-lamb-v08 | pasztet z dzika lub zająca z żurawiną wekowany w słoikach | water-bath | canned-foods / nieustalona / nie-publikowac |
 | offal-pates-v01 | pasztet wieprzowo-drobiowy pieczony i pasteryzowany w słoikach | water-bath | canned-foods / nieustalona / nie-publikowac |

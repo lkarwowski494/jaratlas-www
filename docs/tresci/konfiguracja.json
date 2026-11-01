@@ -1,0 +1,632 @@
+[
+ {
+  "parametr": "lacto-fermentation.pH_gotowego_produktu_(granica_żywności_kwaśnej,_USA_21_CFR_114.3;_kryterium_gotowości_UMN)",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "twierdzenie": "FER-001"
+ },
+ {
+  "parametr": "lacto-fermentation.pH_gotowości_kiszonki_przy_ustaniu_bąbelkowania_(UMN)",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "twierdzenie": "FER-007"
+ },
+ {
+  "parametr": "lacto-fermentation.warstwa_solanki_nad_kapustą_i_ogórkami_podczas_fermentacji_(1–2_cale)",
+  "wartosc": 1,
+  "jednostka": "cal",
+  "twierdzenie": "FER-021"
+ },
+ {
+  "parametr": "lacto-fermentation.sól_w_kiszonej_kapuście,_wagowo_(zalecenie_Wisconsin_2,25–2,5%)",
+  "wartosc": 2.25,
+  "jednostka": "%",
+  "twierdzenie": "FER-031"
+ },
+ {
+  "parametr": "lacto-fermentation.sól_w_kiszonej_kapuście,_dolna_granica_jakości_(poniżej_kapusta_gnije,_UC_MFP)",
+  "wartosc": 1.5,
+  "jednostka": "%",
+  "twierdzenie": "FER-033"
+ },
+ {
+  "parametr": "lacto-fermentation.temperatura_fermentacji_kapusty,_górna_(powyżej_może_zmięknąć;_zalecane_70–75_°F)",
+  "wartosc": 75,
+  "jednostka": "°F",
+  "twierdzenie": "FER-034"
+ },
+ {
+  "parametr": "lacto-fermentation.temperatura_fermentacji_ogórków,_górna_(powyżej_80_°F_zbyt_miękkie)",
+  "wartosc": 80,
+  "jednostka": "°F",
+  "twierdzenie": "FER-043"
+ },
+ {
+  "parametr": "lacto-fermentation.temperatura_przechowywania_kimchi",
+  "wartosc": 41,
+  "jednostka": "°F",
+  "twierdzenie": "FER-062"
+ },
+ {
+  "parametr": "lacto-fermentation.sól_w_kimchi_z_kapusty_pekińskiej,_górna_(Codex_1,0–4,0%_m/m)",
+  "wartosc": 4,
+  "jednostka": "% m/m",
+  "twierdzenie": "FER-059"
+ },
+ {
+  "parametr": "lacto-fermentation.pasteryzacja_niskotemperaturowa_ogórków_(tylko_gdy_przepis_przewiduje):_temperatura_wody_przez_30_min",
+  "wartosc": 180,
+  "jednostka": "°F",
+  "twierdzenie": "FER-047"
+ },
+ {
+  "parametr": "vinegar-pickling.pH_końcowe_(równowagowe)_produktu",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "twierdzenie": "ACI-002"
+ },
+ {
+  "parametr": "vinegar-pickling.kwasowość_octu",
+  "wartosc": 5,
+  "jednostka": "%",
+  "twierdzenie": "ACI-039"
+ },
+ {
+  "parametr": "vinegar-pickling.jaja_marynowane:_maks._czas_w_temperaturze_pokojowej",
+  "wartosc": 2,
+  "jednostka": "h",
+  "twierdzenie": "ACI-034"
+ },
+ {
+  "parametr": "canned-foods.pH_żywności_do_kąpieli_wodnej",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "twierdzenie": "ACI-001"
+ },
+ {
+  "parametr": "canned-foods.pH_powyżej_którego_wymagany_szybkowar_(o_ile_nie_zakwaszono)",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "twierdzenie": "ACI-010"
+ },
+ {
+  "parametr": "canned-foods.pH_żywności_niskokwasowej_(wymaga_szybkowaru)",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "twierdzenie": "SZY-001"
+ },
+ {
+  "parametr": "sweet-preserves.pH_produktu_wekowanego_w_kąpieli_wodnej_/_wekowniku_parowym",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "twierdzenie": "SLO-022"
+ },
+ {
+  "parametr": "sweet-preserves.pH,_powyżej_którego_C._botulinum_może_rosnąć",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "twierdzenie": "SLO-023"
+ },
+ {
+  "parametr": "sweet-preserves.czas_wekowania_dżemu/galaretki_w_kąpieli_wodnej,_słoiki_sterylne,_0-1000_ft",
+  "wartosc": 5,
+  "jednostka": "min",
+  "twierdzenie": "SLO-003"
+ },
+ {
+  "parametr": "sweet-preserves.czas_wekowania_dżemu/galaretki,_słoiki_niesterylne",
+  "wartosc": 10,
+  "jednostka": "min",
+  "twierdzenie": "SLO-005"
+ },
+ {
+  "parametr": "sweet-preserves.korekta_czasu_na_wysokość",
+  "wartosc": 1,
+  "jednostka": "min na 1000 ft",
+  "twierdzenie": "SLO-004"
+ },
+ {
+  "parametr": "sweet-preserves.smarowidło_na_żelatynie_w_lodówce",
+  "wartosc": 4,
+  "jednostka": "tydzien",
+  "twierdzenie": "SLO-008"
+ },
+ {
+  "parametr": "sweet-preserves.lemon_curd:_woda_w_wekowniku_przed_włożeniem_słoików",
+  "wartosc": 180,
+  "jednostka": "F",
+  "twierdzenie": "SLO-040"
+ },
+ {
+  "parametr": "sweet-preserves.wiek,_przed_którym_nie_podawać_miodu",
+  "wartosc": 12,
+  "jednostka": "miesiac",
+  "twierdzenie": "SLO-036"
+ },
+ {
+  "parametr": "sweet-preserves.surowe_pestki_moreli,_dorosły_(EFSA_ARfD)",
+  "wartosc": 0.37,
+  "jednostka": "g",
+  "twierdzenie": "SLO-070"
+ },
+ {
+  "parametr": "oil-and-fat.czas_przechowywania_w_lodówce:_czosnek/zioła/warzywa_w_oleju_bez_zakwaszenia",
+  "wartosc": 4,
+  "jednostka": "dni",
+  "twierdzenie": "OLE-002"
+ },
+ {
+  "parametr": "oil-and-fat.czas_przechowywania_pesto_w_lodówce",
+  "wartosc": 3,
+  "jednostka": "dni",
+  "twierdzenie": "OLE-043"
+ },
+ {
+  "parametr": "oil-and-fat.pH_czosnku/ziół_po_zakwaszeniu_(metoda_Idaho)",
+  "wartosc": 4.2,
+  "jednostka": "pH",
+  "twierdzenie": "OLE-010"
+ },
+ {
+  "parametr": "oil-and-fat.pH,_powyżej_którego_rośnie_C._botulinum_grupy_I",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "twierdzenie": "OLE-023"
+ },
+ {
+  "parametr": "drying.temperatura_suszenia_ziół",
+  "wartosc": 46,
+  "jednostka": "°C",
+  "twierdzenie": "SUS-031"
+ },
+ {
+  "parametr": "drying.wilgotność_końcowa_suszu_owocowego",
+  "wartosc": 20,
+  "jednostka": "%",
+  "twierdzenie": "SUS-016"
+ },
+ {
+  "parametr": "drying.wilgotność_końcowa_suszu_warzywnego",
+  "wartosc": 10,
+  "jednostka": "%",
+  "twierdzenie": "SUS-017"
+ },
+ {
+  "parametr": "drying.czas_kondycjonowania_suszu_owocowego",
+  "wartosc": 7,
+  "jednostka": "dni",
+  "twierdzenie": "SUS-018"
+ },
+ {
+  "parametr": "drying.minimalna_temperatura_suszenia_owoców_na_słońcu",
+  "wartosc": 29,
+  "jednostka": "°C",
+  "twierdzenie": "SUS-004"
+ },
+ {
+  "parametr": "drying.wilgotność_powietrza_przy_suszeniu_na_słońcu",
+  "wartosc": 60,
+  "jednostka": "%",
+  "twierdzenie": "SUS-005"
+ },
+ {
+  "parametr": "drying.pasteryzacja_suszu_w_zamrażarce:_czas_w_-18°C_lub_niżej",
+  "wartosc": 48,
+  "jednostka": "h",
+  "twierdzenie": "SUS-006"
+ },
+ {
+  "parametr": "drying.przechowywanie_suszu_owocowego_w_16°C",
+  "wartosc": 12,
+  "jednostka": "mies.",
+  "twierdzenie": "SUS-020"
+ },
+ {
+  "parametr": "drying.przechowywanie_suszu_warzywnego_w_16°C",
+  "wartosc": 6,
+  "jednostka": "mies.",
+  "twierdzenie": "SUS-021"
+ },
+ {
+  "parametr": "drying.przechowywanie_skóry_owocowej_w_temperaturze_pokojowej",
+  "wartosc": 1,
+  "jednostka": "mies.",
+  "twierdzenie": "SUS-028"
+ },
+ {
+  "parametr": "freezing.temperatura_zamrażarki",
+  "wartosc": -18,
+  "jednostka": "°C",
+  "twierdzenie": "SUS-050"
+ },
+ {
+  "parametr": "freezing.przechowywanie_mrożonych_owoców_i_warzyw_w_-18°C_(jakość)",
+  "wartosc": 12,
+  "jednostka": "mies.",
+  "twierdzenie": "SUS-058"
+ },
+ {
+  "parametr": "fermented-beverages.pH_płynu_startowego_kombuchy",
+  "wartosc": 4,
+  "jednostka": "pH",
+  "twierdzenie": "NAP-001"
+ },
+ {
+  "parametr": "fermented-beverages.temperatura_herbaty_przy_dodaniu_SCOBY",
+  "wartosc": 95,
+  "jednostka": "°F",
+  "twierdzenie": "NAP-006"
+ },
+ {
+  "parametr": "fermented-beverages.czas_dojścia_kombuchy_do_pH_4,2_(inaczej_wyrzucić)",
+  "wartosc": 7,
+  "jednostka": "dni",
+  "twierdzenie": "NAP-018"
+ },
+ {
+  "parametr": "fermented-beverages.pH_gotowej_kombuchy/jun_(dolna_granica)",
+  "wartosc": 2.5,
+  "jednostka": "pH",
+  "twierdzenie": "NAP-016"
+ },
+ {
+  "parametr": "fermented-beverages.przechowywanie_kombuchy_w_lodówce",
+  "wartosc": 30,
+  "jednostka": "dni",
+  "twierdzenie": "NAP-003"
+ },
+ {
+  "parametr": "fermented-beverages.kombucha_z_dodatkami_po_fermentacji,_w_lodówce",
+  "wartosc": 2,
+  "jednostka": "dni",
+  "twierdzenie": "NAP-005"
+ },
+ {
+  "parametr": "fermented-beverages.temperatura_przechowywania_niepasteryzowanej_kombuchy_(NY,_obrót)",
+  "wartosc": 41,
+  "jednostka": "°F",
+  "twierdzenie": "NAP-019"
+ },
+ {
+  "parametr": "fermented-beverages.alkohol_–_próg_napoju_bezalkoholowego_USA_(TTB)",
+  "wartosc": 0.5,
+  "jednostka": "% obj.",
+  "twierdzenie": "NAP-011"
+ },
+ {
+  "parametr": "vinegar-making.kwasowość_octu_do_marynat_i_wekowania",
+  "wartosc": 5,
+  "jednostka": "%",
+  "twierdzenie": "NAP-028"
+ },
+ {
+  "parametr": "koji-soy-ferments.pH_produktów_koji/miso_(niekwaśne)",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "twierdzenie": "NAP-049"
+ },
+ {
+  "parametr": "koji-soy-ferments.czas_chłodzenia_ugotowanego_ziarna/soi_przed_zaszczepieniem",
+  "wartosc": 2,
+  "jednostka": "h",
+  "twierdzenie": "NAP-052"
+ },
+ {
+  "parametr": "koji-soy-ferments.sól_w_miso",
+  "wartosc": 4,
+  "jednostka": "%",
+  "twierdzenie": "NAP-054"
+ },
+ {
+  "parametr": "koji-soy-ferments.sól_w_sosie_sojowym",
+  "wartosc": 18,
+  "jednostka": "%",
+  "twierdzenie": "NAP-055"
+ },
+ {
+  "parametr": "koji-soy-ferments.temperatura_inkubacji_amazake",
+  "wartosc": 50,
+  "jednostka": "°C",
+  "twierdzenie": "NAP-056"
+ },
+ {
+  "parametr": "koji-soy-ferments.temperatura_hodowli_tempeh",
+  "wartosc": 42,
+  "jednostka": "°C",
+  "twierdzenie": "NAP-060"
+ },
+ {
+  "parametr": "koji-soy-ferments.sól_w_sosie_rybnym_(Codex)",
+  "wartosc": 200,
+  "jednostka": "g/l",
+  "twierdzenie": "NAP-045"
+ },
+ {
+  "parametr": "koji-soy-ferments.histamina_w_sosie_rybnym_(Codex)",
+  "wartosc": 40,
+  "jednostka": "mg/100 g",
+  "twierdzenie": "NAP-046"
+ },
+ {
+  "parametr": "dairy-cheese.temperatura_pasteryzacji_mleka_(metoda_długa)",
+  "wartosc": 63,
+  "jednostka": "°C",
+  "twierdzenie": "MLE-007"
+ },
+ {
+  "parametr": "dairy-cheese.czas_pasteryzacji_w_63_°C",
+  "wartosc": 30,
+  "jednostka": "min",
+  "twierdzenie": "MLE-009"
+ },
+ {
+  "parametr": "dairy-cheese.czas_pasteryzacji_w_72_°C",
+  "wartosc": 15,
+  "jednostka": "s",
+  "twierdzenie": "MLE-010"
+ },
+ {
+  "parametr": "dairy-cheese.pH_mlecznego_produktu_fermentowanego",
+  "wartosc": 4.6,
+  "jednostka": "pH",
+  "twierdzenie": "MLE-021"
+ },
+ {
+  "parametr": "dairy-cheese.temperatura_przechowywania_jogurtu_i_serów_świeżych",
+  "wartosc": 4.4,
+  "jednostka": "°C",
+  "twierdzenie": "MLE-027"
+ },
+ {
+  "parametr": "dairy-cheese.trwałość_jogurtu_domowego_w_lodówce",
+  "wartosc": 14,
+  "jednostka": "dni",
+  "twierdzenie": "MLE-028"
+ },
+ {
+  "parametr": "dairy-cheese.trwałość_sera_miękkiego_(>45%_wody)_w_lodówce",
+  "wartosc": 7,
+  "jednostka": "dni",
+  "twierdzenie": "MLE-050"
+ },
+ {
+  "parametr": "dairy-cheese.trwałość_queso_fresco,_mozzarelli,_ricotty_domowej_w_lodówce",
+  "wartosc": 7,
+  "jednostka": "dni",
+  "twierdzenie": "MLE-052"
+ },
+ {
+  "parametr": "dairy-cheese.przechowywanie_ziół/warzyw_w_oleju_(dodatki_do_sera_w_oleju)_w_lodówce",
+  "wartosc": 4,
+  "jednostka": "dni",
+  "twierdzenie": "MLE-061"
+ },
+ {
+  "parametr": "dairy-cheese.temperatura_wewnętrzna_przy_podgrzewaniu_sera_świeżego_dla_grup_ryzyka",
+  "wartosc": 74,
+  "jednostka": "°C",
+  "twierdzenie": "MLE-048"
+ },
+ {
+  "parametr": "dairy-cheese.minimalny_czas_dojrzewania_sera_z_mleka_surowego_(USA,_wymóg_prawny,_nie_gwarancja_bezpieczeństwa)",
+  "wartosc": 60,
+  "jednostka": "dni",
+  "twierdzenie": "MLE-037"
+ },
+ {
+  "parametr": "meat-curing-smoking.azotyn_w_produkcie_gotowym_USA_(jako_NaNO2)",
+  "wartosc": 200,
+  "jednostka": "ppm",
+  "twierdzenie": "MIE-001"
+ },
+ {
+  "parametr": "meat-curing-smoking.azotyn_sodu_peklowanie_na_sucho_USA",
+  "wartosc": 1,
+  "jednostka": "oz/100 lb",
+  "twierdzenie": "MIE-002"
+ },
+ {
+  "parametr": "meat-curing-smoking.azotan_peklowanie_na_sucho_USA",
+  "wartosc": 3.5,
+  "jednostka": "oz/100 lb",
+  "twierdzenie": "MIE-003"
+ },
+ {
+  "parametr": "meat-curing-smoking.azotyn_boczek_na_sucho_USA_(ingoing)",
+  "wartosc": 200,
+  "jednostka": "ppm",
+  "twierdzenie": "MIE-005"
+ },
+ {
+  "parametr": "meat-curing-smoking.azotyny_dodane_UE_kat_08.3.1_(od_2025-10-09,_jako_NO2)",
+  "wartosc": 80,
+  "jednostka": "mg/kg NO2",
+  "twierdzenie": "MIE-006"
+ },
+ {
+  "parametr": "meat-curing-smoking.azotyny_dodane_UE_kat_08.3.2_niesterylizowane_(od_2025-10-09)",
+  "wartosc": 80,
+  "jednostka": "mg/kg NO2",
+  "twierdzenie": "MIE-008"
+ },
+ {
+  "parametr": "meat-curing-smoking.azotyny_pozostalosc_UE_(jako_NO2)",
+  "wartosc": 45,
+  "jednostka": "mg/kg NO2",
+  "twierdzenie": "MIE-007"
+ },
+ {
+  "parametr": "meat-curing-smoking.azotany_dodane_UE_kat_08.3.1_(od_2025-10-09,_jako_NO3)",
+  "wartosc": 90,
+  "jednostka": "mg/kg NO3",
+  "twierdzenie": "MIE-009"
+ },
+ {
+  "parametr": "meat-curing-smoking.temperatura_peklowania_szynki",
+  "wartosc": 40,
+  "jednostka": "°F",
+  "twierdzenie": "MIE-014"
+ },
+ {
+  "parametr": "meat-curing-smoking.ubytek_masy_szynki_dojrzewajacej_(trwałość_bez_lodówki)",
+  "wartosc": 18,
+  "jednostka": "%",
+  "twierdzenie": "MIE-016"
+ },
+ {
+  "parametr": "meat-curing-smoking.temperatura_wewnetrzna_kielbasy_wieprzowina_wolowina",
+  "wartosc": 160,
+  "jednostka": "°F",
+  "twierdzenie": "MIE-021"
+ },
+ {
+  "parametr": "meat-curing-smoking.temperatura_wewnetrzna_szynki_pieczonej",
+  "wartosc": 155,
+  "jednostka": "°F",
+  "twierdzenie": "MIE-018"
+ },
+ {
+  "parametr": "meat-curing-smoking.temperatura_zabijajaca_wlosnie",
+  "wartosc": 144,
+  "jednostka": "°F",
+  "twierdzenie": "MIE-026"
+ },
+ {
+  "parametr": "meat-curing-smoking.aw_kielbasy_trwalej",
+  "wartosc": 0.85,
+  "jednostka": "aw",
+  "twierdzenie": "MIE-023"
+ },
+ {
+  "parametr": "meat-curing-smoking.podgrzanie_po_fermentacji_(E._coli_O157:H7)",
+  "wartosc": 145,
+  "jednostka": "°F",
+  "twierdzenie": "MIE-024"
+ },
+ {
+  "parametr": "meat-curing-smoking.lodowka_kielbasa_swieza",
+  "wartosc": 10,
+  "jednostka": "dni",
+  "twierdzenie": "MIE-028"
+ },
+ {
+  "parametr": "meat-curing-smoking.lodowka_kielbasa_wedzona_parzona",
+  "wartosc": 4,
+  "jednostka": "tygodnie",
+  "twierdzenie": "MIE-029"
+ },
+ {
+  "parametr": "meat-curing-smoking.temperatura_wewnetrzna_jerky",
+  "wartosc": 160,
+  "jednostka": "°F",
+  "twierdzenie": "MIE-036"
+ },
+ {
+  "parametr": "meat-curing-smoking.grubosc_paskow_jerky",
+  "wartosc": 0.25,
+  "jednostka": "cala",
+  "twierdzenie": "MIE-040"
+ },
+ {
+  "parametr": "meat-curing-smoking.jerky_temperatura_pokojowa",
+  "wartosc": 2,
+  "jednostka": "tygodnie",
+  "twierdzenie": "MIE-041"
+ },
+ {
+  "parametr": "meat-curing-smoking.zamrazanie_wieprzowiny_na_jerky_(kawałki_do_6_cali,_0°F)",
+  "wartosc": 30,
+  "jednostka": "dni w 0°F",
+  "twierdzenie": "MIE-035"
+ },
+ {
+  "parametr": "fish-curing-smoking.zamrazanie_ryb_FDA_(-20°C)",
+  "wartosc": 7,
+  "jednostka": "dni w -20°C",
+  "twierdzenie": "MIE-046"
+ },
+ {
+  "parametr": "fish-curing-smoking.zamrazanie_ryb_UE_(-20°C_w_całej_masie)",
+  "wartosc": 24,
+  "jednostka": "h w -20°C",
+  "twierdzenie": "MIE-052"
+ },
+ {
+  "parametr": "fish-curing-smoking.temperatura_wewnetrzna_wedzenie_ryb_dom",
+  "wartosc": 160,
+  "jednostka": "°F przez 30 min",
+  "twierdzenie": "MIE-071"
+ },
+ {
+  "parametr": "fish-curing-smoking.temperatura_wewnetrzna_wedzenie_na_goraco_FDA_przemysl",
+  "wartosc": 145,
+  "jednostka": "°F",
+  "twierdzenie": "MIE-064"
+ },
+ {
+  "parametr": "fish-curing-smoking.temperatura_wedzarni_na_zimno_FDA",
+  "wartosc": 90,
+  "jednostka": "°F",
+  "twierdzenie": "MIE-063"
+ },
+ {
+  "parametr": "fish-curing-smoking.min_temp_wzrostu_C_botulinum_E",
+  "wartosc": 3.3,
+  "jednostka": "°C",
+  "twierdzenie": "MIE-059"
+ },
+ {
+  "parametr": "fish-curing-smoking.sol_w_fazie_wodnej_ryba_wedzona_FDA",
+  "wartosc": 3.5,
+  "jednostka": "% WPS",
+  "twierdzenie": "MIE-062"
+ },
+ {
+  "parametr": "fish-curing-smoking.sol_w_fazie_wodnej_kawior_ryba_solona_ROP",
+  "wartosc": 5,
+  "jednostka": "% WPS",
+  "twierdzenie": "MIE-065"
+ },
+ {
+  "parametr": "fish-curing-smoking.sol_w_fazie_wodnej_male_niewypatroszone_chlodzone",
+  "wartosc": 10,
+  "jednostka": "% WPS",
+  "twierdzenie": "MIE-066"
+ },
+ {
+  "parametr": "fish-curing-smoking.lodowka_ryba_wedzona",
+  "wartosc": 2,
+  "jednostka": "tygodnie",
+  "twierdzenie": "MIE-074"
+ },
+ {
+  "parametr": "fish-curing-smoking.lodowka_ryba_marynowana",
+  "wartosc": 6,
+  "jednostka": "tygodnie",
+  "twierdzenie": "MIE-080"
+ },
+ {
+  "parametr": "fish-curing-smoking.lodowka_gravlax",
+  "wartosc": 7,
+  "jednostka": "dni",
+  "twierdzenie": "MIE-058"
+ },
+ {
+  "parametr": "egg-preservation.jaja_marynowane_poza_lodowka",
+  "wartosc": 2,
+  "jednostka": "h",
+  "twierdzenie": "MIE-084"
+ },
+ {
+  "parametr": "egg-preservation.temperatura_potraw_z_jajami",
+  "wartosc": 160,
+  "jednostka": "°F",
+  "twierdzenie": "MIE-092"
+ },
+ {
+  "parametr": "egg-preservation.lodowka_olej_z_czosnkiem",
+  "wartosc": 4,
+  "jednostka": "dni",
+  "twierdzenie": "MIE-094"
+ }
+]
