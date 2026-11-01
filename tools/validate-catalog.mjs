@@ -72,7 +72,8 @@ export function validateCatalog(cat, rejestr = []) {
     // Kwasowość a kąpiel wodna (przekazanie §5.4; NCHFP: żywność niskokwasowa tylko szybkowar).
     if (p?.acidity === 'low-acid' && v.acidBasis === 'natural-acid') errors.push(`${g}: produkt niskokwasowy nie może mieć acidBasis natural-acid`);
     if (v.preservationMethod === 'water-bath') {
-      if (v.acidBasis === 'low-acid' || v.acidBasis === 'not-applicable') errors.push(`${g}: wariant niskokwasowy z metodą water-bath`);
+      const niskokwasowy = v.acidBasis === 'low-acid' || v.acidBasis === 'not-applicable';
+      if (niskokwasowy) errors.push(`${g}: wariant niskokwasowy z metodą water-bath`);
       // Wyjątek (06, 2026-11-02, morele): przetestowany przepis szczebla 1 bez dodatku kwasu przy produkcie granicznym tylko z listy
       // WYJATKI_KWAS (produkt → ostrzeżenie i decyzja), z ostrzeżeniem wymaganym na karcie. Dlaczego lista w kodzie: reguła chroni przed
       // niezakwaszonymi pomidorami; nowy wyjątek wymaga zmiany kodu, testu i przeglądu D-043, nie tylko danych (przegląd D-043, 2026-11-02).
@@ -80,7 +81,8 @@ export function validateCatalog(cat, rejestr = []) {
       const wzor = WYJATKI_KWAS[v.productId];
       const wyjOk = wyj?.warning && wzor?.warning === wyj.warning && wzor.decyzja === wyj.decyzja && v.safetyStatus === 'ok-zrodlo' && (v.requiredWarnings ?? []).includes(wyj.warning) && (v.sources ?? []).some((z) => z.szczebel === 1 && z.adres && (z.cytat || z.miejsce) && /^\d{4}-\d\d-\d\d$/.test(z.odczyt ?? ''));
       // Wariant ostrożny (P3-4 przeglądu D-043, 2026-11-02): każdy acidBasis inny niż acidified, nie tylko natural-acid.
-      if (p?.acidity === 'borderline' && v.acidBasis !== 'acidified' && !(v.acidBasis === 'natural-acid' && wyjOk)) errors.push(`${g}: produkt graniczny w water-bath wymaga zakwaszenia (acidBasis acidified) albo wyjątku acidityException z listy WYJATKI_KWAS (acidBasis natural-acid, ok-zrodlo, przepis szczebla 1, ostrzeżenie w requiredWarnings, decyzja z listy)`);
+      // P3-4 drugiego przeglądu D-043: przy low-acid/not-applicable błąd zgłasza już reguła wyżej, bez drugiego komunikatu.
+      if (!niskokwasowy && p?.acidity === 'borderline' && v.acidBasis !== 'acidified' && !(v.acidBasis === 'natural-acid' && wyjOk)) errors.push(`${g}: produkt graniczny w water-bath wymaga zakwaszenia (acidBasis acidified) albo wyjątku acidityException z listy WYJATKI_KWAS (acidBasis natural-acid, ok-zrodlo, przepis szczebla 1, ostrzeżenie w requiredWarnings, decyzja z listy)`);
     }
     // acidityException (P3 z przeglądu D-043, 2026-11-02): wyjątek musi wskazywać decyzję (ID wpisu tablicy decyzji, zaczyna się datą),
     // a pole bez zastosowania to błąd, żeby martwy wyjątek nie został po zmianie wariantu albo produktu.

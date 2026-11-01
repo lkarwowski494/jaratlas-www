@@ -114,6 +114,15 @@ test('produkt graniczny w kąpieli wodnej bez acidBasis acidified (np. sugar-aci
   }
 });
 
+test('produkt graniczny w kąpieli wodnej z acidBasis low-acid albo not-applicable: dokładnie jeden błąd (niskokwasowy), bez drugiego komunikatu o produkcie granicznym (P3-4 drugiego przeglądu D-043, zdublowany komunikat)', () => {
+  for (const ab of ['low-acid', 'not-applicable']) {
+    const c = base(); c.variants.push({ id: 'tomato-v04', productId: 'tomato', processFamilyId: 'canned-foods', preservationMethod: 'water-bath', acidBasis: ab, safetyStatus: 'do-researchu', claims: [], sources: [], publication: 'ukryta', scope: 'in' });
+    const e = errs(c).filter((x) => x.includes('tomato-v04'));
+    assert.equal(e.length, 1, `${ab}: ${JSON.stringify(e)}`);
+    assert.match(e[0], /niskokwasow.*water-bath/, ab);
+  }
+});
+
 test('ok-zrodlo bez źródła to błąd', () => {
   const c = base(); c.variants[0].sources = [];
   assert.ok(has(errs(c), /apple-v01.*ok-zrodlo.*źródł/));
