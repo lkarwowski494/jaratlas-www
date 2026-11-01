@@ -1,17 +1,29 @@
-# Kontrole automatyczne strony (docs/architektura/ryzyka.md, lista dla roli 07). Decyzja właściciela 2026-11-01.
+# Kontrole automatyczne strony (docs/architektura/ryzyka.md). Decyzja właściciela 2026-11-01.
+# Według trening .github/workflows/tests.yml (zasada 2026-11-01-zasada-analogia-trening): każde wypchnięcie,
+# PR do main tylko z gałęzi tego repo (kod z cudzych forków tego nie odpali), uprawnienia tylko do odczytu, bez sekretów.
+# Różnica: brak zależności npm (ADR 0001), więc bez `npm ci` i cache.
 # Koszt: standardowe runnery w repo publicznym są darmowe (docs.github.com, „GitHub Actions billing”, odczyt 2026-11-01).
 name: kontrole
 on:
   push:
   pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: kontrole-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   kontrole:
-    runs-on: ubuntu-24.04
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
-          node-version: '22'
+          node-version: 22
       - run: node -v
       - run: npm test
       - run: npm run check:granice

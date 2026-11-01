@@ -23,8 +23,14 @@ Aktualizacja: 2026-11-01 (sesja session_01T66VBynJwE9R3enQnFumVg). Historia: `do
 - Publikujemy tylko dopracowane karty; adresów po publikacji nie zmieniamy; klasyfikacja bezpieczeństwa ustalana przed publikacją i potem bez zmian. Kontrola R4 zostaje: to ona pilnuje niezmienności. 301 tylko jako wyjątek (błąd slugu, zmiana domeny).
 - R1b: teraz A (treść robocza w publicznym repo, nazwany wyjątek). Później czysta wersja w nowym repo, obecne zarchiwizowane, część materiałów na Dysk, według wzorca Trening `docs/46-przeniesienie-1.0.md`.
 
+## Zasada 2026-11-01-zasada-analogia-trening (tablica)
+Przed decyzją sprawdź repo `lkarwowski494/trening`; pełna analogia = to samo rozwiązanie z odnośnikiem, częściowa = nazwana różnica i pytanie do właściciela. Zastosowane:
+1. Tłumaczenia przez API według trening `.github/workflows/przeklad-tlumaczen.yml`: uruchamiane ręcznie, Message Batches (−50%), sekret `ANTHROPIC_API_KEY` w jednym kroku, domyślnie tylko szacunek kosztu, limit kosztu na przebieg (powyżej tylko za zgodą), wynik jako propozycje do przeglądu, bez zmiany plików. Do zbudowania (rola 08/09).
+2. CI według trening `.github/workflows/tests.yml`: push, PR do `main` tylko z gałęzi tego repo, `permissions: contents: read`, concurrency. Zastosowane w `.github/workflows/kontrole.yml`.
+3. Kontrola adresów na żywo według trening `scripts/check-urls.mjs` i lekcji R-017 (`docs/40-lekcje.md`): po wdrożeniu każdy adres z mapy strony zwraca 200, a treść zgadza się z `dist/`. Do zbudowania razem z wdrożeniem (lista dla 07).
+
 ## Decyzje czekające
-1. Hosting (ADR 0007): 301 przestaje być warunkiem. GitHub Pages: limit 1 GB witryny, miękki limit 100 GB/mies., zakaz użycia jako darmowego hostingu dla „online business… primarily directed at… commercial transactions” (docs.github.com, odczyt 2026-11-01); strona z reklamami to strefa szara `[DO USTALENIA]`. Cloudflare Pages: limity do odczytu.
+1. Hosting (ADR 0007), analogia częściowa: trening publikuje apps4brew.com przez GitHub Pages z osobnego repo z CNAME (`docs/monetyzacja.md` pkt 4, `docs/40-lekcje.md` R-017); różnica: JarAtlas ma mieć reklamy. 301 przestaje być warunkiem. GitHub Pages: limit 1 GB witryny, miękki limit 100 GB/mies., zakaz użycia jako darmowego hostingu dla „online business… primarily directed at… commercial transactions” (docs.github.com, odczyt 2026-11-01); strona z reklamami to strefa szara `[DO USTALENIA]`. Cloudflare Pages: limity do odczytu.
 2. Moment przeniesienia do czystego repo (przed pierwszą publikacją albo po niej).
 3. Przyszłe nowe źródło sprzeczne z opublikowaną kartą: adres zostaje, treść karty aktualizowana (wyjątek od „bez zmian” tylko dla bezpieczeństwa).
 

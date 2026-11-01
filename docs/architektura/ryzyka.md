@@ -30,6 +30,7 @@ Przegląd 07 w świeżym kontekście jest warunkiem scalenia (ADR 0006). Kontrol
    - po decyzji o reklamach: brak `data-ad-slot` na karcie-ostrzeżeniu i w tabeli wariantów strony produktu z wariantem-ostrzeżeniem (ADR 0005);
    - po ADR 0007: test pliku przekierowań w formacie hostingu i `curl -I` na wdrożeniu (kod 301), dopisywanie `site/adresy.json` po wdrożeniu (R4b);
    - walidacja schematu plików treści `site/tresci/{lang}/warianty/*.json` (pola `tytul`, `wstep`, `sekcje[]`, `ostrzezenia[{claim,tekst}]`, `obraz`) z odrzuceniem nieznanych pól;
+   - po wdrożeniu: kontrola adresów na żywo (każdy adres z mapy = 200, treść = `dist/`) według trening `scripts/check-urls.mjs` (lekcja R-017);
    - Lighthouse na próbce (README §7) jako kontrola regresji, nie bramka (wynik symulowany, zmienny).
 5. **CI:** repo nie ma `.github/`, więc kontrole działają tylko ręcznie (zasada 21). Decyzja 2026-11-01: `.github/workflows/kontrole.yml` (te same kontrole przy każdym pushu). Koszt 0: „Standard GitHub-hosted runners in public repositories” są darmowe (docs.github.com, „GitHub Actions billing”, odczyt 2026-11-01).
 6. **Kroki właściciela (bez automatu):** po pierwszej publikacji sprawdzenie w Search Console (mapa przyjęta, brak stron ukrytych w indeksie); pomiar na prawdziwym telefonie (README §7).
