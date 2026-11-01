@@ -19,9 +19,14 @@ Aktualizacja: 2026-11-01 (sesja session_01T66VBynJwE9R3enQnFumVg). Historia: `do
 - CI: `.github/workflows/kontrole.yml` (zastosowane na gałęzi; na `main` po scaleniu, za zgodą).
 - `CLAUDE.md` ze ścieżkami wrażliwymi: dodany.
 
+## Decyzje 2026-11-01 (tablica `2026-11-01-jaratlas-adresy-i-repo`)
+- Publikujemy tylko dopracowane karty; adresów po publikacji nie zmieniamy; klasyfikacja bezpieczeństwa ustalana przed publikacją i potem bez zmian. Kontrola R4 zostaje: to ona pilnuje niezmienności. 301 tylko jako wyjątek (błąd slugu, zmiana domeny).
+- R1b: teraz A (treść robocza w publicznym repo, nazwany wyjątek). Później czysta wersja w nowym repo, obecne zarchiwizowane, część materiałów na Dysk, według wzorca Trening `docs/46-przeniesienie-1.0.md`.
+
 ## Decyzje czekające
-1. Hosting i domena (ADR 0007): właściciel zapytał, po co 301 (wyjaśnienie w czacie).
-2. Treść „ukryta” w publicznym repo (R1b): właściciel zapytał, co to za treść (wyjaśnienie w czacie).
+1. Hosting (ADR 0007): 301 przestaje być warunkiem. GitHub Pages: limit 1 GB witryny, miękki limit 100 GB/mies., zakaz użycia jako darmowego hostingu dla „online business… primarily directed at… commercial transactions” (docs.github.com, odczyt 2026-11-01); strona z reklamami to strefa szara `[DO USTALENIA]`. Cloudflare Pages: limity do odczytu.
+2. Moment przeniesienia do czystego repo (przed pierwszą publikacją albo po niej).
+3. Przyszłe nowe źródło sprzeczne z opublikowaną kartą: adres zostaje, treść karty aktualizowana (wyjątek od „bez zmian” tylko dla bezpieczeństwa).
 
 ## Następny krok
 Przegląd 07 w świeżym kontekście (gałąź `claude/happy-brown-yncplj`, od `de8b7d2`), potem 06: treść kart fali 1 i slugi `site/slugi/{lang}.json`.
