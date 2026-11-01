@@ -108,7 +108,7 @@ test('acidityException: wymagana decyzja (ID wpisu tablicy) i błąd, gdy wyjąt
 });
 
 test('produkt graniczny w kąpieli wodnej bez acidBasis acidified (np. sugar-acid, fermented) to błąd — wariant ostrożny (P3-4 przeglądu D-043, 2026-11-02)', () => {
-  for (const ab of ['sugar-acid', 'fermented']) {
+  for (const ab of ['sugar-acid', 'fermented', null, 'xyz']) {
     const c = base(); c.variants.push({ id: 'tomato-v03', productId: 'tomato', processFamilyId: 'canned-foods', preservationMethod: 'water-bath', acidBasis: ab, safetyStatus: 'do-researchu', claims: [], sources: [], publication: 'ukryta', scope: 'in' });
     assert.ok(has(errs(c), /tomato-v03.*graniczn/), ab);
   }
