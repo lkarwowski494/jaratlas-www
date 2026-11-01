@@ -66,7 +66,7 @@ Symulacja nie zastępuje pomiaru na urządzeniu; liczby to punkt odniesienia dla
 
 ## 9. Ryzyka, otwarte pytania, decyzje właściciela
 Ścieżki ryzyka i lista kontroli dla 07: `ryzyka.md`. Decyzje czekające:
-1. Hosting i domena (ADR 0007): potrzebny serwerowy 301 (R4).
+1. Hosting: GitHub Pages (ADR 0007 przyjęta 2026-11-01); domena do zakupu.
 2. Tekst uwagi D-027 (c): przygotuje rola 04 (decyzja 2026-11-01); do tego czasu build prawdziwej strony padnie na R2 (zamierzone).
 3. Treść „ukryta” w publicznym repo (R1b): akceptacja z nazwą albo osobne prywatne repo treści.
 4. CI: przyjęte 2026-11-01, `.github/workflows/kontrole.yml`.
@@ -94,4 +94,4 @@ Symulacja nie zastępuje pomiaru na urządzeniu; liczby to punkt odniesienia dla
 | [0004](../adr/0004-hreflang-kanoniczne.md) | hreflang i kanoniczne | przyjęta |
 | [0005](../adr/0005-karty-ostrzezenia-reklamy-filtry.md) | ostrzeżenia, reklamy, filtry | przyjęta |
 | [0006](../adr/0006-wyjatek-roli-kod-szkieletu.md) | wyjątek: kod pisze 05 | przyjęta |
-| [0007](../adr/0007-hosting-statyczny.md) | hosting | proponowana |
+| [0007](../adr/0007-hosting-statyczny.md) | hosting: GitHub Pages, droga wyjścia Cloudflare | przyjęta |

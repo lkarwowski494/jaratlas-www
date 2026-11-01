@@ -29,10 +29,13 @@ Przed decyzją sprawdź repo `lkarwowski494/trening`; pełna analogia = to samo 
 2. CI według trening `.github/workflows/tests.yml`: push, PR do `main` tylko z gałęzi tego repo, `permissions: contents: read`, concurrency. Zastosowane w `.github/workflows/kontrole.yml`.
 3. Kontrola adresów na żywo według trening `scripts/check-urls.mjs` i lekcji R-017 (`docs/40-lekcje.md`): po wdrożeniu każdy adres z mapy strony zwraca 200, a treść zgadza się z `dist/`. Do zbudowania razem z wdrożeniem (lista dla 07).
 
+## Hosting (tablica `2026-11-01-jaratlas-hosting`, ADR 0007 przyjęta)
+GitHub Pages teraz, jak apps4brew.com w Treningu. Droga wyjścia: Cloudflare Workers Paid 5 USD/mies. (100 000 plików) albo Pro 20–25 USD/mies. Cloudflare Pages Free odpada przy 35 językach (limit 20 000 plików, dziś ok. 20 800 stron).
+
 ## Decyzje czekające
-1. Hosting (ADR 0007), analogia częściowa: trening publikuje apps4brew.com przez GitHub Pages z osobnego repo z CNAME (`docs/monetyzacja.md` pkt 4, `docs/40-lekcje.md` R-017); różnica: JarAtlas ma mieć reklamy. 301 przestaje być warunkiem. GitHub Pages: limit 1 GB witryny, miękki limit 100 GB/mies., zakaz użycia jako darmowego hostingu dla „online business… primarily directed at… commercial transactions” (docs.github.com, odczyt 2026-11-01); strona z reklamami to strefa szara `[DO USTALENIA]`. Cloudflare Pages: limity do odczytu.
-2. Moment przeniesienia do czystego repo (przed pierwszą publikacją albo po niej).
-3. Przyszłe nowe źródło sprzeczne z opublikowaną kartą: adres zostaje, treść karty aktualizowana (wyjątek od „bez zmian” tylko dla bezpieczeństwa).
+1. Moment przeniesienia do czystego repo (przed pierwszą publikacją albo po niej).
+2. Opublikowana karta, której źródło się zmieni: adres zostaje, treść aktualizowana.
+3. Domena (zakup) i workflow publikacji Pages: osobna zgoda.
 
 ## Następny krok
 Przegląd 07 w świeżym kontekście (gałąź `claude/happy-brown-yncplj`, od `de8b7d2`), potem 06: treść kart fali 1 i slugi `site/slugi/{lang}.json`.
