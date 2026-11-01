@@ -6,7 +6,7 @@ Ta karta opisuje przepis NCHFP na dżem z owoców jagodowych bez dodanej pektyny
 
 NCHFP podaje 9 szklanek rozgniecionych owoców i 6 szklanek cukru; przepis podstawowy, z pestkami, daje ok. 7–8 słoików 1/2 pinty. [T:SLO-145,SLO-156]
 
-Reguła JarAtlas (ostrożna): 9 szklanek rozgniecionych owoców odmierz przed podgrzaniem i przetarciem; 9 szklanek już przetartej masy dałoby mniej cukru na owoce niż w przepisie. [T:SLO-156,SLO-149]
+Reguła JarAtlas (ostrożna): 9 szklanek rozgniecionych owoców odmierz przed podgrzaniem i przetarciem; 9 szklanek już przetartej masy dałoby mniej cukru na owoce niż odmierzenie przed przetarciem. [T:SLO-156,SLO-149]
 
 W dżemach NCHFP bez dodanej pektyny do owoców jagodowych należą maliny, a także jeżyny, agrest i truskawki. [T:SLO-146]
 

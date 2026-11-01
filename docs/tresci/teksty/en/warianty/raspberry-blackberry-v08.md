@@ -6,7 +6,7 @@ This card describes the NCHFP recipe for berry jam without added pectin, in its 
 
 NCHFP uses 9 cups of crushed berries and 6 cups of sugar; the basic recipe, with seeds, makes about 7 or 8 half-pint jars. [T:SLO-145,SLO-156]
 
-JarAtlas rule (cautious): measure the 9 cups of crushed berries before heating and sieving them; measuring 9 cups of already sieved pulp would give less sugar for the fruit than the recipe. [T:SLO-156,SLO-149]
+JarAtlas rule (cautious): measure the 9 cups of crushed berries before heating and sieving them; measuring 9 cups of already sieved pulp would give less sugar for the fruit than measuring before sieving. [T:SLO-156,SLO-149]
 
 For NCHFP jams without added pectin, berries include raspberries, as well as blackberries, gooseberries and strawberries. [T:SLO-146]
 

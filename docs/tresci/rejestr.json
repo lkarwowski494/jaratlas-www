@@ -3289,7 +3289,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "41b3ae2e13df"
+   "sha": "e6e1d1ee0a4b"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -4080,7 +4080,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "89db4ce8bd88"
+   "sha": "1febffe62d6d"
   },
   "wielkosc": "kwas cytrynowy na słoik 1 qt",
   "wartosc": 0.5,
@@ -4109,7 +4109,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "c063a150f308"
+   "sha": "847613b88b47"
   },
   "wielkosc": "kwas cytrynowy na słoik 1 pt",
   "wartosc": 0.25,
@@ -4167,7 +4167,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "33107679db71"
+   "sha": "cbb3a63931e9"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -4218,12 +4218,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "c71bfb074902"
+   "data": "2026-11-02",
+   "sha": "9afc33dedae0"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-050",
@@ -4294,15 +4294,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "0a471f24a7e4"
   },
   "wielkosc": "czas kąpieli wodnej (1 qt) · ACI-052",
   "wartosc": 40,
   "jednostka": "min",
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-053",
@@ -4897,15 +4897,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "5faafaaea05c"
+   "data": "2026-11-02",
+   "sha": "6d86d6e6e2d4"
   },
   "wielkosc": "czas kąpieli wodnej (hot, 1 qt) · ACI-070",
   "wartosc": 20,
   "jednostka": "min",
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-071",
@@ -5576,7 +5576,7 @@
     "cytat": "Considerable variation exists between varieties, condition of growing and processing methods, etc.",
     "odczyt": "2026-11-02",
     "szczebel": 1,
-    "weryfikacja": "pdftotext+grep",
+    "weryfikacja": "pdftotext+normalizacja spacji+grep",
     "sha12": "43697422659c"
    }
   ],
@@ -5586,7 +5586,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "3ef508e6c8c2"
+   "sha": "5d4e818c6a5d"
   },
   "wielkosc": "pH · ACI-093",
   "wartosc": "4.30 - 4.90",
@@ -9589,7 +9589,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "e91e0cebefed"
+   "sha": "3bb605b823f6"
   },
   "klaster": "SLO",
   "weryfikacjaZastepcza": "2026-11-02"
@@ -9905,7 +9905,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "c2cd4b95f89f"
+   "sha": "034bd1601a8c"
   },
   "klaster": "SLO",
   "weryfikacjaZastepcza": "2026-11-02"
@@ -10087,7 +10087,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "0eefa014fd87"
+   "sha": "9ec8180d3f55"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
@@ -11910,14 +11910,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "9a795d40cc23"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
   "brzmienieE2": "NCHFP podaje przetestowany przepis \"Berry Jams without Pectin\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m. Wariant bez pestek: owoce podgrzane i przetarte przez sito.",
   "weryfikacjaE3": "Przepis i tabela 1 istnieją, ale tabela ma jeden wiersz (half-pint lub pint) i czas nie zależy od wielkości słoika, tylko od wysokości; brzmienie sugeruje też inne rozmiary słoików (np. quart), których przepis nie obejmuje.",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-078",
@@ -23535,7 +23535,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "215b4df92891"
+   "sha": "a1f7be2a7a5a"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -23561,7 +23561,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "2a510c235f53"
+   "sha": "7c2a1c020e26"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -23592,7 +23592,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "58ff3851c462"
+   "sha": "6782f30f02c9"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -23680,7 +23680,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "f153f21be0ac"
+   "sha": "7bab46778e8e"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -23981,7 +23981,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "3c689fb32d6c"
+   "sha": "298f057dd8f0"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
@@ -24025,7 +24025,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "611dde7421cc"
+   "sha": "07acc936ddf0"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
@@ -24069,7 +24069,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "6d6665adbcb4"
+   "sha": "7d3aeb3897c3"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -24619,7 +24619,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "640fd708f60e"
+   "sha": "42ce2dd79f14"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -26434,9 +26434,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "4e61ad78d844"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-229",
@@ -26464,9 +26469,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "ce972dcdf264"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-230",
@@ -26485,9 +26495,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "12e88eaa3d1a"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-231",
@@ -26506,9 +26521,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "89b1dd4b8973"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-232",
@@ -26527,9 +26547,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "2d93cb7a9436"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-233",
@@ -26566,9 +26591,14 @@
   "status": "potwierdzone",
   "uproszczenie": "Pominięto wariant NCHFP przeciwdziałający rozwarstwieniu soku (szybkie krojenie i wrzucanie do wrzącej masy); dotyczy jakości, nie bezpieczeństwa.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "b5877dd8a409"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-234",
@@ -26602,7 +26632,7 @@
  },
  {
   "id": "ACI-235",
-  "twierdzenie": "NCHFP Cherries-Whole: wybierać jasne, równomiernie wybarwione, dojrzałe czereśnie lub wiśnie jakości do jedzenia na surowo lub gotowania.",
+  "twierdzenie": "NCHFP Cherries-Whole: wybierać o żywej, równomiernej barwie, dojrzałe czereśnie lub wiśnie jakości do jedzenia na surowo lub gotowania.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
@@ -26647,9 +26677,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "6df2b121cd3a"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-237",
@@ -26668,9 +26703,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "d8b9d7ffd77c"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-238",
@@ -26689,9 +26729,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "be7b4068be56"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-239",
@@ -26719,9 +26764,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "55f9c7f3e7f3"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-240",
@@ -26740,9 +26790,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "b6ea712e4f24"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-241",
@@ -26761,9 +26816,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "bfb8faaf414c"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-242",
@@ -26782,9 +26842,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "3189603177d6"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-243",
@@ -26803,9 +26868,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "41a37441d341"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "ACI"
+  "klaster": "ACI",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-145",
@@ -26824,9 +26894,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "58f1a9adde5d"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-146",
@@ -26845,9 +26920,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "93072ecee0bf"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-147",
@@ -26884,9 +26964,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "53eaf771c4ee"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-148",
@@ -26914,9 +26999,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "502a06cbf8cf"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-149",
@@ -26935,9 +27025,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "7b3522d5e3dd"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-150",
@@ -26956,9 +27051,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "4df61aff4810"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-151",
@@ -26977,9 +27077,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "251a8aa1e433"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-152",
@@ -26998,9 +27103,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "81e3c693dbcf"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-153",
@@ -27019,9 +27129,14 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "bc0aa6c83177"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-154",
@@ -27085,7 +27200,7 @@
  },
  {
   "id": "SLO-156",
-  "twierdzenie": "Ostrożna reguła JarAtlas dla dżemu bez pestek według NCHFP Berry Jams without Pectin: 9 szklanek rozgniecionych owoców odmierzać przed podgrzaniem i przetarciem (kolejność z przepisu: rozgniecione owoce → podgrzanie i przetarcie → cukier); odmierzenie 9 szklanek już przetartej masy dałoby mniej cukru na masę owoców niż w przepisie. Wydajność 7–8 słoików 1/2 pinty NCHFP podaje dla przepisu podstawowego (z pestkami).",
+  "twierdzenie": "Ostrożna reguła JarAtlas dla dżemu bez pestek według NCHFP Berry Jams without Pectin: 9 szklanek rozgniecionych owoców odmierzać przed podgrzaniem i przetarciem (kolejność z przepisu: rozgniecione owoce → podgrzanie i przetarcie → cukier); odmierzenie 9 szklanek już przetartej masy dałoby mniej cukru na masę owoców niż odmierzenie przed przetarciem. Wydajność 7–8 słoików 1/2 pinty NCHFP podaje dla przepisu podstawowego (z pestkami).",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
@@ -27107,10 +27222,15 @@
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": null,
+  "uproszczenie": "Interpretacja JarAtlas: NCHFP nie mówi wprost, kiedy odmierzać 9 szklanek w wersji bez pestek; ogólna strona NCHFP „Making Jam without added Pectin” przeciera owoce przed odmierzeniem, ale w proporcji 4 szklanki owoców na 4 szklanki cukru. Reguła wybiera wariant z większą ilością cukru na owoce (zgodny z SLO-001). NCHFP nie podaje wydajności wersji bez pestek.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "4e26977b7d14"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  }
 ]

@@ -1,26 +1,24 @@
 # Stan pracy JarAtlas
 
-Aktualizacja: 2026-11-02, noc (sesja session_01T66VBwkHLwdQhw9VGdQ1ra). Historia: `docs/archiwum/` (poprzedni stan: `STAN-SESJI-2026-11-02-karty-p3.md`).
+Aktualizacja: 2026-11-02, noc (sesja session_01T66VBwaWEG6L2FEx6GaxxH). Historia: `docs/archiwum/` (poprzedni stan: `STAN-SESJI-2026-11-02-karty-p4.md`).
 
 ## Rola i etap
-06-tresci · build · partia 4 kart fali 1 (en, pl) + katalog 1.0.4 · **STOP** (przekazanie do koordynatora, tryb nocny). Prompt: tablica, kolekcja `prompty`, `06-tresci-build-d32b4b8`.
+06-tresci · build · partia 5 kart fali 1 (en, pl) + P3 walidatora · **STOP** (przekazanie do koordynatora, tryb nocny). Prompt: tablica, kolekcja `prompty`, `06-tresci-build-d32b4b8`.
 
 ## Wynik
-- Ocet poza USA (bezpieczeństwo żywności): reguła JarAtlas ACI-211 — ocet biały destylowany (spirytusowy) albo jabłkowy z etykietą 5% albo 6%, nie 10%, bez samodzielnego rozcieńczania; źródła NCHFP (ACI-016, 018) i Penn State Extension (ACI-209, 210, szczebel 3). W kartach bell-pepper-v01, cucumber-v01, beetroot-v06.
-- „JarAtlas recommends smaller jars” ujednolicone w 5 kartach p1–p2.
-- Partia 4 en+pl (6 kart): beetroot-v06 (buraczki w occie), apricot-v08 (morele), peach-nectarine-v07 (dżem brzoskwiniowy, tylko żółte brzoskwinie, bez nektarynek); twierdzenia ACI-209–227, SLO-136–144; slugi en/pl. SLO-048 z cytatem o zdrowych jabłkach.
-- Weryfikacja zastępcza D-027: 89 + 10 POPARTE, 6 CZĘŚCIOWO poprawione, 0 NIEPOPARTE/SPRZECZNE; przegląd zastępczy 47 twierdzeń krytycznych. Raport: `docs/tresci/E3-karty-p4-2026-11-02.md`.
-- Katalog 1.0.4 (ścieżka wrażliwa, przegląd D-043 w 2 przebiegach): morele `apricot-v08` natural-acid z wyjątkiem `WYJATKI_KWAS` i ostrzeżeniem E3-002 (pH FDA do 4,80, ekspert D-027 d); brzoskwinie v06/v07: żółty miąższ, bez nektarynek, nazwa bez „lekkiego syropu”. Raport: `docs/tresci/E3-katalog-p4-2026-11-02.md`.
-- Kontrole (po katalogu): `npm test` 86/86 (niezmienniki pl–en dla 15 par kart: 0 problemów), `check:granice`, `check:catalog`, `check:tresci`, `build` — kod 0. Karty `publication: ukryta`.
+- Partia 5 en+pl (6 kart): tomato-v08 (passata = NCHFP Standard Tomato Sauce), raspberry-blackberry-v08 (dżem malinowy bez pestek, bez dodanej pektyny), sweet-cherry-v08 (kompot z czereśni = całe czereśnie w syropie bardzo lekkim); twierdzenia ACI-228–243, SLO-145–156; slugi en/pl. Łącznie 18 wariantów, 36 kart.
+- Weryfikacja zastępcza D-027: przebieg 1 78 POPARTE, 3 CZĘŚCIOWO (poprawione), 0 NIEPOPARTE/SPRZECZNE; przebieg 2 bez NIEPOPARTE/SPRZECZNE; przegląd zastępczy 44 twierdzeń krytycznych. Raport: `docs/tresci/E3-karty-p5-2026-11-02.md`.
+- Walidator (P3 z przeglądu katalogu 1.0.4, przegląd D-043 w 2 przebiegach): `acidityException.decyzja` wymagane i związane z `WYJATKI_KWAS`; wyjątek bez zastosowania = błąd; pełne źródło szczebla 1; wariant ostrożny: produkt graniczny w kąpieli wodnej bez `acidified` = błąd. Katalog bez zmian (1.0.4).
+- Kontrole: `npm test` 88/88, `check:granice`, `check:catalog`, `check:tresci` (0/0), `build` — kod 0. Karty `publication: ukryta`.
 
-## Decyzje Claude, do weta (tablica `2026-11-02-jaratlas-06-karty-p4`, `2026-11-02-jaratlas-06-katalog-p4`)
-Ocet 5%/6%, nie 10%; zakres partii 4; dżem tylko z brzoskwiń o żółtym miąższu i bez nektarynek; slugi (burak, morela). Morele bez zakwaszenia z ostrzeżeniem i wyjątkiem w walidatorze; nazwy brzoskwiń.
+## Decyzje Claude, do weta (tablica `2026-11-02-jaratlas-06-karty-p5`)
+Zakres partii 5; passata bez opcji octu (jak tomato-v09/v10, ACI-211 nie dotyczy); dżem bez pestek: owoce odmierzane przed przetarciem (SLO-156); test temperatury z tabeli NCHFP dla dżemu; „kompot” tylko w tytule pl; slugi; walidator: produkt graniczny bez `acidified` = błąd.
 
 ## Otwarte
-Morele pH do 4,8 (E3-002) — ekspert (D-027 d). P3 walidatora: `acidityException.decyzja` niesprawdzane. Cukry żelujące 2:1/3:1 (źródło). Teksty UI `site/teksty/{en,pl}.json` i tekst D-027 (c) (rola 04).
+Morele pH do 4,8 (E3-002) — ekspert (D-027 d). Cukry żelujące 2:1/3:1 (źródło; wyszukiwanie 2026-11-02 bez wyniku szczebla 1–3). tomato-v08/v09/v10: opcjonalnie „disease-free… firm fruit” i granica pH 4,6. Konwencja `sha12`. Walidator P3-4 (zdublowany komunikat low-acid). Teksty UI `site/teksty/{en,pl}.json` i tekst D-027 (c) (rola 04).
 
 ## Backlog przed pierwszą publikacją
 07-jakosc-004, 005, 008; asercja segmentów `.`/`..` w ścieżkach buildu; niewidoczne znaki w slugach (U+3164, U+034F); sprzątanie katalogów `ja-*` po testach build; zbędna stara reguła cardType przy publikacji (`tools/validate-catalog.mjs`, P2).
 
 ## Następny krok
-Partia 5 en/pl w nowej sesji (okno tej sesji ok. 30%, D-051), decyzje we wpisie `2026-11-02-jaratlas-06-karty-p5`. Przekład: po zgodzie właściciela (rola 09).
+Partia 6 en/pl w nowej sesji, decyzje we wpisie `2026-11-02-jaratlas-06-karty-p6`; kandydaci z czystym przepisem NCHFP: kompot z agrestu (gooseberry-v09), kompot jeżynowy (raspberry-blackberry-v14), słodko-kwaśne pikle z cukinii (zucchini-v05, ocet ACI-211). Przekład: po zgodzie właściciela (rola 09).
