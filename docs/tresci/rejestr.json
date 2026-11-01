@@ -25473,5 +25473,695 @@
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-209",
+  "twierdzenie": "Penn State Extension (szczebel 3, jedno źródło): do domowych przetworów ocet o kwasowości w zakresie 5–7%; octy do sprzątania i ogrodnicze (11–30%) nie są przeznaczone do przetworów.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/advice-about-vinegar",
+    "miejsce": "Penn State Extension: Advice about Vinegar (M. Zepp, aktualizacja 2026-07-08), Other Tips",
+    "cytat": "Stay in the range of 5–7% acidity for home food preservation.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "840e97bac395"
+   },
+   {
+    "adres": "https://extension.psu.edu/advice-about-vinegar",
+    "miejsce": "Penn State Extension: Advice about Vinegar (M. Zepp, aktualizacja 2026-07-08), Other Tips",
+    "cytat": "Do not use vinegars intended for cleaning or for horticultural purposes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "840e97bac395"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Jedno źródło ze szczebla 3; NCHFP (szczebel 1) zaleca 5% (ACI-018) i nie podaje górnej granicy.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-210",
+  "twierdzenie": "Penn State Extension (szczebel 3, jedno źródło): nie rozcieńczać octu wodą, chyba że przepis przebadany naukowo wyraźnie to nakazuje.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/advice-about-vinegar",
+    "miejsce": "Penn State Extension: Advice about Vinegar (M. Zepp, aktualizacja 2026-07-08), Other Tips",
+    "cytat": "Do not dilute the vinegar with water unless it specifically says so in a research-tested recipe.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "840e97bac395"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-211",
+  "twierdzenie": "Ostrożna reguła JarAtlas dla przepisów NCHFP z octem 5%: używaj octu z etykietą 5% albo 6%; octu 10% nie używaj i nie rozcieńczaj go samodzielnie wodą.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/",
+    "miejsce": "NCHFP (nchfp.uga.edu): General Information on Pickling",
+    "cytat": "Do not alter vinegar, food, or water proportions in a recipe or use a vinegar with unknown acidity.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "50cc2167585b"
+   },
+   {
+    "adres": "https://extension.psu.edu/advice-about-vinegar",
+    "miejsce": "Penn State Extension: Advice about Vinegar (M. Zepp, aktualizacja 2026-07-08), Other Tips",
+    "cytat": "Stay in the range of 5–7% acidity for home food preservation.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "840e97bac395"
+   },
+   {
+    "adres": "https://extension.psu.edu/advice-about-vinegar",
+    "miejsce": "Penn State Extension: Advice about Vinegar (M. Zepp, aktualizacja 2026-07-08), Other Tips",
+    "cytat": "Do not dilute the vinegar with water unless it specifically says so in a research-tested recipe.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "840e97bac395"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła. Ocet 6% w miejscu 5% daje ok. 1,2 raza więcej kwasu (strona bezpieczna, smak kwaśniejszy) i mieści się w zakresie Penn State 5–7% (ACI-209). Ocet 10% jest poza tym zakresem, a rozcieńczenie 1:1 zmienia proporcję wody w przepisie (ACI-016) i nie jest w przepisie przebadanym (ACI-210); błąd odmierzenia obniżyłby kwasowość. Odrzucone: tylko 5% (bez zysku dla bezpieczeństwa, trudno dostępny w części Europy — teza niesprawdzona, nie trafia do kart); 10% rozcieńczony 1:1 (sprzeczny z ACI-210).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "decyzja": "2026-11-02-jaratlas-06-karty-p4",
+  "zalezy_od": [
+   "ACI-016",
+   "ACI-018",
+   "ACI-209",
+   "ACI-210"
+  ]
+ },
+ {
+  "id": "ACI-212",
+  "twierdzenie": "NCHFP buraczki w occie (Pickled Beets), na ok. 8 słoików pint: 7 funtów (ok. 3,2 kg) buraków o średnicy 2–2 1/2 cala (ok. 5–6,4 cm), 4 szklanki octu o kwasowości 5%, 1 1/2 łyżeczki soli do konserw i pikli, 2 szklanki cukru, 2 szklanki wody, 2 laski cynamonu, 12 całych goździków i opcjonalnie 4–6 cebul o średnicy 2–2 1/2 cala.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Beets, składniki",
+    "cytat": "7 lbs of 2- to 2-1/2-inch diameter beets 4 cups vinegar (5 percent) 1-1/2 teaspoons canning or pickling salt 2 cups sugar 2 cups water",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e8db8561bc"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Beets, składniki",
+    "cytat": "2 cinnamon sticks 12 whole cloves 4 to 6 onions (2- to 2-1/2-inch diameter) if desired Yield: About 8 pints",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e8db8561bc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Rachunek: 7 × 0,4536 = 3,18 kg, w treści ok. 3,2 kg (masa warzyw; zalewa w szklankach bez zmian); 2 × 2,54 = 5,08 cm, 2,5 × 2,54 = 6,35 cm.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-213",
+  "twierdzenie": "NCHFP Pickled Beets: odciąć liście, zostawiając 1 cal (ok. 2,5 cm) łodygi i korzenie, żeby buraki nie traciły barwy; dokładnie umyć, posortować według wielkości; buraki podobnej wielkości zalać wrzącą wodą i gotować do miękkości (ok. 25–30 minut); wodę odlać i wylać; buraki ostudzić, odciąć korzenie i łodygi, zdjąć skórkę i pokroić w plastry grubości 1/4 cala (ok. 0,6 cm); cebulę obrać i cienko pokroić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Beets, Procedure",
+    "cytat": "Trim off beet tops, leaving 1 inch of stem and roots to prevent bleeding of color. Wash thoroughly. Sort for size. Cover similar sizes together with boiling water and cook until tender (about 25 to 30 minutes).",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e8db8561bc"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Beets, Procedure",
+    "cytat": "Drain and discard liquid. Cool beets. Trim off roots and stems and slip off skins. Slice into 1/4-inch slices. Peel and thinly slice onions.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e8db8561bc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Rachunek: 1 cal = 2,54 cm; 1/4 cala = 0,635 cm, w treści ok. 0,6 cm.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-214",
+  "twierdzenie": "NCHFP Pickled Beets: połączyć ocet, sól, cukier i świeżą wodę; przyprawy włożyć do woreczka z gazy i dodać do zalewy; doprowadzić do wrzenia; dodać buraki i cebulę i gotować na małym ogniu 5 minut; wyjąć woreczek z przyprawami.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Beets, Procedure",
+    "cytat": "Combine vinegar, salt, sugar, and fresh water. Put spices in cheesecloth bag and add to vinegar mixture. Bring to a boil. Add beets and onions. Simmer 5 minutes. Remove spice bag.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e8db8561bc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-215",
+  "twierdzenie": "NCHFP Pickled Beets: napełnić słoiki burakami i cebulą, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; dolać gorącej zalewy octowej, zostawiając 1/2 cala wolnej przestrzeni; założyć pokrywki i wekować według tabeli 1.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Beets, Procedure",
+    "cytat": "Fill jars with beets and onions, leaving 1/2-inch headspace. Add hot vinegar solution, allowing 1/2-inch headspace. Adjust lids and process according to the recommendations in Table 1.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e8db8561bc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Rachunek: 1/2 cala = 1,27 cm, w treści ok. 1,3 cm.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-216",
+  "twierdzenie": "NCHFP Pickled Beets, tabela 1, kąpiel wodna, hot pack, ten sam czas dla słoików pint i quart; 0–1000 stóp: 30 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Beets, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Hot Pints or Quarts 30 min 35 40 45",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e8db8561bc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-217",
+  "twierdzenie": "NCHFP Pickled Beets, wariant: całe małe buraczki o średnicy 1–1 1/2 cala (ok. 2,5–3,8 cm), przygotowane jak wyżej, ale nakładane w całości, bez krojenia; cebulę można pominąć.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Beets, Variation",
+    "cytat": "Variation: Pickled whole baby beets. Follow above directions but use beets that are 1- to 1-1/2 inches in diameter. Pack whole; do not slice. Onions may be omitted.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e8db8561bc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Rachunek: 1,5 × 2,54 = 3,81 cm, w treści ok. 3,8 cm.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-218",
+  "twierdzenie": "NCHFP morele: wybierać jędrne, dobrze wybarwione, dojrzałe owoce jakości do jedzenia na surowo; skórkę można zdjąć (opcjonalnie): umyte owoce zanurzyć we wrzącej wodzie na 30–60 sekund, aż skórka zacznie odchodzić, szybko zanurzyć w zimnej wodzie i zdjąć skórkę; jeśli skórki się nie zdejmuje, owoce dobrze umyć; przekroić na pół, usunąć pestki, opcjonalnie pokroić w plastry; obrane owoce trzymać w roztworze kwasu askorbinowego, żeby nie ciemniały.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricots-Halved or Sliced, Quality",
+    "cytat": "Select firm, well-colored mature fruit of ideal quality for eating fresh.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "087383fe6810"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricots-Halved or Sliced, Procedure",
+    "cytat": "Wash fruit well if skins are not removed. (Optional procedure for removal of skins - Dip washed fruit in boiling water for 30 to 60 seconds until skins loosen. Dip quickly in cold water and slip off skins.)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "087383fe6810"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricots-Halved or Sliced, Procedure",
+    "cytat": "Cut prepared apricots in half, remove pits and slice if desired. To prevent darkening, keep peeled fruit in ascorbic acid solution .",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "087383fe6810"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-219",
+  "twierdzenie": "NCHFP morele: przygotować i zagotować syrop bardzo lekki, lekki albo średni albo pakować morele w wodzie, soku jabłkowym lub soku z białych winogron; pakowanie na surowo daje morele słabej jakości.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricots-Halved or Sliced, Procedure",
+    "cytat": "Prepare and boil a very light, light, or medium syrup or pack apricots in water, apple juice, or white grape juice. Raw packs make poor quality apricots.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "087383fe6810"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-220",
+  "twierdzenie": "NCHFP morele, na gorąco (hot pack): odsączone owoce włożyć do dużego garnka z syropem, wodą albo sokiem i doprowadzić do wrzenia; napełnić słoiki gorącymi owocami i płynem, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; połówki układać warstwami, przekrojem w dół.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricots-Halved or Sliced, Procedure",
+    "cytat": "Hot pack – In a large saucepan place drained fruit in syrup, water, or juice and bring to boil. Fill jars with hot fruit and cooking liquid, leaving ½-inch headspace. Place halves in layers, cut side down.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "087383fe6810"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Rachunek: 1/2 cala = 1,27 cm, w treści ok. 1,3 cm.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-221",
+  "twierdzenie": "NCHFP morele, na surowo (raw pack): napełnić słoiki surowymi owocami przekrojem w dół i dolać gorącej wody, soku albo syropu, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; w obu sposobach założyć pokrywki i wekować.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricots-Halved or Sliced, Procedure",
+    "cytat": "Raw pack – Fill jars with raw fruit, cut side down, and add hot water, juice, or syrup, leaving ½-inch headspace. Adjust lids and process.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "087383fe6810"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Rachunek: 1/2 cala = 1,27 cm, w treści ok. 1,3 cm.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-222",
+  "twierdzenie": "NCHFP morele, kąpiel wodna, 1001–3000 stóp: hot pack słoiki pint 25 minut, quart 30 minut; raw pack słoiki pint 30 minut, quart 35 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricots-Halved or Sliced, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Hot Pints 20 min 25 30 35 Quarts 25 30 35 40 Raw Pints 25 30 35 40 Quarts 30 35 40 45",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "087383fe6810"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-223",
+  "twierdzenie": "NCHFP morele, kąpiel wodna, 3001–6000 stóp: hot pack słoiki pint 30 minut, quart 35 minut; raw pack słoiki pint 35 minut, quart 40 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricots-Halved or Sliced, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Hot Pints 20 min 25 30 35 Quarts 25 30 35 40 Raw Pints 25 30 35 40 Quarts 30 35 40 45",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "087383fe6810"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-224",
+  "twierdzenie": "NCHFP morele, kąpiel wodna, powyżej 6000 stóp: hot pack słoiki pint 35 minut, quart 40 minut; raw pack słoiki pint 40 minut, quart 45 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricots-Halved or Sliced, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Hot Pints 20 min 25 30 35 Quarts 25 30 35 40 Raw Pints 25 30 35 40 Quarts 30 35 40 45",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "087383fe6810"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "SLO-136",
+  "twierdzenie": "NCHFP Peach Jam Pectin (sproszkowana pektyna): 3 3/4 szklanki rozgniecionych brzoskwiń (ok. 3 funtów brzoskwiń), 1/4 szklanki soku z cytryny, 1 opakowanie sproszkowanej pektyny, 5 szklanek cukru; wychodzi ok. 6 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peach Jam Pectin, składniki",
+    "cytat": "3¾ cups crushed peaches (about 3 pounds peaches) ¼ cup lemon juice 1 package powdered pectin 5 cups sugar Yield: About 6 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "85c7099f8c88"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-137",
+  "twierdzenie": "NCHFP Peach Jam Pectin: słoiki wysterylizować, a dwuczęściowe pokrywki przygotować według producenta; w pełni dojrzałe brzoskwinie przebrać i umyć, usunąć szypułki, skórki i pestki, owoce rozgnieść.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peach Jam Pectin, Procedure",
+    "cytat": "Procedure: Sterilize canning jars and prepare two-piece canning lids according to manufacturer's directions.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "85c7099f8c88"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peach Jam Pectin, Procedure",
+    "cytat": "Sort and wash fully ripe peaches. Remove stems, skins, and pits. Crush peaches.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "85c7099f8c88"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-138",
+  "twierdzenie": "NCHFP Peach Jam Pectin: odmierzone rozgniecione brzoskwinie przełożyć do garnka, dodać sok z cytryny i pektynę, dobrze wymieszać; na dużym ogniu, stale mieszając, szybko doprowadzić do pełnego wrzenia (bąble na całej powierzchni); dodać cukier, mieszając znów doprowadzić do pełnego wrzenia, gotować intensywnie 1 minutę, stale mieszając; zdjąć z ognia i zebrać pianę.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peach Jam Pectin, Procedure",
+    "cytat": "Measure crushed peaches into a kettle. Add lemon juice and pectin; stir well. Place on high heat and, stirring constantly, bring quickly to a full boil with bubbles over the entire surface.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "85c7099f8c88"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peach Jam Pectin, Procedure",
+    "cytat": "Add sugar, continue stirring, and heat again to full bubbling boil. Boil hard for 1 minute, stirring constantly. Remove from heat; skim.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "85c7099f8c88"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-139",
+  "twierdzenie": "NCHFP Peach Jam Pectin: gorący dżem od razu nalać do gorących, wysterylizowanych słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; brzegi przetrzeć zwilżonym czystym ręcznikiem papierowym, założyć dwuczęściowe metalowe pokrywki i wekować w kąpieli wodnej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peach Jam Pectin, Procedure",
+    "cytat": "Fill hot jam immediately into hot, sterile jars, leaving ¼ inch headspace. Wipe rims of jars with a dampened clean paper towel; adjust two-piece metal canning lids. Process in a Boiling Water Canner .",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "85c7099f8c88"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Rachunek: 1/4 cala = 0,635 cm, w treści ok. 0,6 cm.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-140",
+  "twierdzenie": "NCHFP Peach Jam Pectin, tabela 1, kąpiel wodna, słoiki 1/2 pinty lub pinty, na wysokości 0–1000 stóp: 5 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peach Jam Pectin, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "85c7099f8c88"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-141",
+  "twierdzenie": "NCHFP Peach Jam Pectin, tabela 1, kąpiel wodna, słoiki 1/2 pinty lub pinty, na wysokości 1001–6000 stóp: 10 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peach Jam Pectin, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "85c7099f8c88"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-142",
+  "twierdzenie": "NCHFP Peach Jam Pectin, tabela 1, kąpiel wodna, słoiki 1/2 pinty lub pinty, powyżej 6000 stóp: 15 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peach Jam Pectin, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "85c7099f8c88"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-143",
+  "twierdzenie": "NCHFP Peach Jam Pectin, tabela 1 podaje czasy tylko dla słoików 1/2 pinty i pinty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peach Jam Pectin, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "85c7099f8c88"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-144",
+  "twierdzenie": "Ostrożna reguła JarAtlas: do dżemu brzoskwiniowego NCHFP używać brzoskwiń o żółtym miąższu, bo NCHFP nie ma przetestowanego procesu wekowania brzoskwiń o białym miąższu (część odmian ma pH powyżej 4,6), a strona przepisu na dżem nie mówi, czy jego badanie obejmowało brzoskwinie o białym miąższu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peaches-Halved or Sliced, White-flesh peaches",
+    "cytat": "Do not use this process to can white-flesh peaches.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b48c4f5574ca"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peach Jam Pectin, Procedure",
+    "cytat": "Sort and wash fully ripe peaches. Remove stems, skins, and pits. Crush peaches.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "85c7099f8c88"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła: strona dżemu nie wyklucza brzoskwiń o białym miąższu ani ich nie wymienia; kierunek ostrożny (jak E3-001). Odrzucone: brak uwagi (cicha zgoda na odmiany bez danych).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "decyzja": "2026-11-02-jaratlas-06-karty-p4",
+  "zalezy_od": [
+   "E3-001",
+   "SLO-127"
+  ]
+ },
+ {
+  "id": "ACI-225",
+  "twierdzenie": "NCHFP Pickled Beets, tabela 1, kąpiel wodna, hot pack, słoiki pint lub quart, 1001–3000 stóp: 35 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Beets, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Hot Pints or Quarts 30 min 35 40 45",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e8db8561bc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-226",
+  "twierdzenie": "NCHFP Pickled Beets, tabela 1, kąpiel wodna, hot pack, słoiki pint lub quart, 3001–6000 stóp: 40 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Beets, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Hot Pints or Quarts 30 min 35 40 45",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e8db8561bc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-227",
+  "twierdzenie": "NCHFP Pickled Beets, tabela 1, kąpiel wodna, hot pack, słoiki pint lub quart, powyżej 6000 stóp: 45 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Pickled Beets, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Hot Pints or Quarts 30 min 35 40 45",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "81e8db8561bc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
  }
 ]

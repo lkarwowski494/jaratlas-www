@@ -6,6 +6,10 @@ Ta karta opisuje przepis NCHFP na ogórki kiszone z koprem, w którym solanka za
 
 Na każdy galon pojemności naczynia NCHFP podaje 4 funty ogórków o długości 4 cali, 1/2 szklanki soli, 1/4 szklanki octu 5% i 8 szklanek wody. [T:FER-042]
 
+Penn State Extension zaleca do domowych przetworów ocet o kwasowości 5–7% i odradza rozcieńczanie octu wodą, chyba że przebadany przepis wyraźnie to nakazuje. [T:ACI-209,ACI-210]
+
+Reguła JarAtlas (ostrożna, dla czytelników spoza USA): używaj octu z etykietą 5% albo 6%; nie używaj octu 10% i nie rozcieńczaj go samodzielnie wodą. [T:ACI-211]
+
 Czosnek i suszona czerwona papryka są opcjonalne. [T:FER-042]
 
 Od strony kwiatu odetnij i wyrzuć plaster grubości 1/16 cala, bo może zawierać enzymy zmiękczające. [T:FER-048]
@@ -48,7 +52,7 @@ Czasy NCHFP dotyczą amerykańskich słoików: pint mieści ok. 473 ml, a quart 
 
 Reguła JarAtlas (NCHFP nie bada słoików metrycznych): dla słoika do 473 ml stosuj czas dla pint, a dla większego, do 946 ml, np. 0,5 l albo 0,9 l, czas dla quart. [T:ACI-175]
 
-Ten przepis NCHFP nie podaje czasu dla słoików większych niż quart, np. 1 l, więc użyj mniejszych słoików. [T:ACI-175]
+Ten przepis NCHFP nie podaje czasu dla słoików większych niż quart, np. 1 l, więc JarAtlas zaleca mniejsze słoiki. [T:ACI-175]
 
 Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsuciem. [T:ACI-015]
 

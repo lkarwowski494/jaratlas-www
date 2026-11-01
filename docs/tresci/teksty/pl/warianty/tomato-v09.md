@@ -40,4 +40,4 @@ Czasy NCHFP dotyczą amerykańskich słoików: pint mieści ok. 473 ml, a quart 
 
 Reguła JarAtlas (NCHFP nie bada słoików metrycznych): dla słoika do 473 ml stosuj czas dla pint, a dla większego, do 946 ml, np. 0,5 l albo 0,9 l, czas dla quart. [T:ACI-175]
 
-Ten przepis NCHFP nie podaje czasu dla słoików większych niż quart, np. 1 l, więc użyj mniejszych słoików. [T:ACI-175]
+Ten przepis NCHFP nie podaje czasu dla słoików większych niż quart, np. 1 l, więc JarAtlas zaleca mniejsze słoiki. [T:ACI-175]

@@ -10,6 +10,10 @@ Nie zmieniaj proporcji octu, warzyw i wody i nie używaj octu o nieznanej kwasow
 
 Do pikli zalecany jest biały ocet destylowany i ocet jabłkowy o kwasowości 5%. [T:ACI-018]
 
+Penn State Extension zaleca do domowych przetworów ocet o kwasowości 5–7% i odradza rozcieńczanie octu wodą, chyba że przebadany przepis wyraźnie to nakazuje. [T:ACI-209,ACI-210]
+
+Reguła JarAtlas (ostrożna, dla czytelników spoza USA): używaj octu z etykietą 5% albo 6%; nie używaj octu 10% i nie rozcieńczaj go samodzielnie wodą. [T:ACI-211]
+
 ## Składniki
 
 NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]

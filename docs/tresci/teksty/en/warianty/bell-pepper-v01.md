@@ -10,6 +10,10 @@ Do not change the proportions of vinegar, vegetables and water, and do not use v
 
 For pickles, white distilled vinegar and cider vinegar with 5% acidity are recommended. [T:ACI-018]
 
+Penn State Extension advises vinegar of 5–7% acidity for home food preservation and advises against diluting vinegar with water unless a research-tested recipe says so. [T:ACI-209,ACI-210]
+
+JarAtlas rule (cautious, for readers outside the USA): use vinegar labelled 5% or 6% acidity; do not use 10% vinegar and do not dilute it with water yourself. [T:ACI-211]
+
 ## Ingredients
 
 NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]

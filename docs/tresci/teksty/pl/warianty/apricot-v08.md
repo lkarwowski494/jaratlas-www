@@ -1,0 +1,57 @@
+# Morele w słoikach, połówki lub plastry (NCHFP)
+
+Ta karta opisuje metodę NCHFP wekowania połówek albo plastrów moreli w kąpieli wodnej. [T:SLO-097]
+
+## Przygotowanie
+
+Wybierz jędrne, dobrze wybarwione, dojrzałe morele w jakości do jedzenia na surowo. [T:ACI-218]
+
+Jeśli nie zdejmujesz skórki, dobrze umyj owoce. [T:ACI-218]
+
+Zdejmowanie skórki jest opcjonalne: umyte owoce zanurz we wrzącej wodzie na 30–60 sekund, aż skórka zacznie odchodzić, szybko zanurz je w zimnej wodzie i zdejmij skórkę. [T:ACI-218]
+
+Przekrój morele na pół, usuń pestki i jeśli chcesz, pokrój w plastry. [T:ACI-218]
+
+Żeby obrane owoce nie ciemniały, trzymaj je w roztworze kwasu askorbinowego. [T:ACI-218]
+
+Przygotuj i zagotuj syrop bardzo lekki, lekki albo średni albo zalej morele wodą, sokiem jabłkowym lub sokiem z białych winogron. [T:ACI-219]
+
+Syrop pomaga zachować smak, kolor i kształt owoców, ale nie chroni przed zepsuciem. [T:ACI-067]
+
+NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
+
+Na syrop bardzo lekki (ok. 10% cukru) NCHFP podaje 6 1/2 szklanki wody i 3/4 szklanki cukru na wsad 9 słoików pint albo 10 1/2 szklanki wody i 1 1/4 szklanki cukru na 7 słoików quart. [T:ACI-192]
+
+## Napełnianie słoików
+
+Na gorąco (hot pack): odsączone owoce włóż do dużego garnka z syropem, wodą albo sokiem i doprowadź do wrzenia. [T:ACI-220]
+
+Napełnij słoiki gorącymi owocami i płynem, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, a połówki układaj warstwami, przekrojem w dół. [T:ACI-220]
+
+Na surowo (raw pack): napełnij słoiki surowymi owocami ułożonymi przekrojem w dół i dolej gorącej wody, soku albo syropu, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:ACI-221]
+
+NCHFP zaznacza, że na surowo morele wychodzą słabej jakości. [T:ACI-219]
+
+W obu sposobach załóż pokrywki i wekuj. [T:ACI-221]
+
+## Wekowanie
+
+Na wysokości 0–1000 stóp (do 300 m) wekuj słoiki pint nakładane na gorąco 20 minut, a quart 25, a nakładane na surowo: pint 25 minut, a quart 30. [T:ACI-072,ACI-176]
+
+Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
+
+Na wysokości 1001–3000 stóp (powyżej 300 m do 900 m): na gorąco pint 25 minut, a quart 30; na surowo pint 30 minut, a quart 35. [T:ACI-222,ACI-176]
+
+Na wysokości 3001–6000 stóp (powyżej 900 m do 1800 m): na gorąco pint 30 minut, a quart 35; na surowo pint 35 minut, a quart 40. [T:ACI-223,ACI-176]
+
+Powyżej 6000 stóp (powyżej 1800 m): na gorąco pint 35 minut, a quart 40; na surowo pint 40 minut, a quart 45. [T:ACI-224,ACI-176]
+
+Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, 3000 stóp to 900 m, a 6000 stóp to 1800 m. [T:ACI-176]
+
+Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsuciem. [T:ACI-015]
+
+Czasy NCHFP dotyczą amerykańskich słoików: pint mieści ok. 473 ml, a quart ok. 946 ml. [T:ACI-174]
+
+Reguła JarAtlas (NCHFP nie bada słoików metrycznych): dla słoika do 473 ml stosuj czas dla pint, a dla większego, do 946 ml, np. 0,5 l albo 0,9 l, czas dla quart. [T:ACI-175]
+
+Ten przepis NCHFP nie podaje czasu dla słoików większych niż quart, np. 1 l, więc JarAtlas zaleca mniejsze słoiki. [T:ACI-175]
