@@ -1,5 +1,5 @@
 # Stan sztafety
-Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-01
+Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-01 (noc)
 
 | Rola | Tryb | Stan | Commit | Artefakty | Otwarte decyzje |
 |---|---|---|---|---|---|
@@ -8,7 +8,8 @@
 | 05 Architekt | build | zakończona 2026-11-01 (E0–E4, szkielet z wyjątkiem ADR 0006) | de8b7d2 + E2–E4 | `docs/architektura/` (README, ryzyka, konfiguracja, prywatnosc, narzedzia/granice.mjs), `docs/adr/0001–0007`, `site/`, `tools/buduj-strone.mjs`, `tests/site.test.mjs`, `tests/build.test.mjs` | domena; tekst D-027 (c) (rola 04); moment przeniesienia do czystego repo |
 | 07 Jakość | audit (przegląd szkieletu, ADR 0006) | STOP E3 2026-11-01: ZABLOKOWANE (3 × P1, 5 × P2) | 08f2ae2 | `docs/jakosc/07-jakosc-2026-11-01.md` | strategia testów; P2 backlog |
 | 07 Jakość | fix (001, 002, 003 + 006, 007) | zakończona 2026-11-01: P1 zamknięte testem i mutantami, przegląd D-043 bez uwag; main utworzony z d25f1f2 (decyzja „B”) | fac76f4 | `docs/jakosc/07-jakosc-fix-2026-11-01.md`, `docs/jakosc/dowody/fix/` | P2 004, 005, 008 + 3 obserwacje recenzenta do backlogu |
+| 06 Treści | build (karty fali 1, partia 1 en/pl) | STOP 2026-11-01 noc: 8 kart, cardType 189, E3 zastępczy, kontrole kod 0 | 0caf35e | `docs/tresci/karty/`, `site/tresci/`, `site/slugi/`, `tools/karty-tresci.mjs`, `docs/tresci/E3-karty-p1-2026-11-01.md` | decyzje do weta `2026-11-01-jaratlas-06-karty-p1`; twierdzenia przed publikacją |
 
 ## Następny krok
-1. **06-tresci**, tryb `build`: treść pierwszych kart fali 1 (`site/tresci/{lang}/warianty/{id}.json`: `tytul`, `wstep`, `sekcje[]`, `ostrzezenia[{claim,tekst}]`, `obraz`) i slugi `site/slugi/{lang}.json` (ADR 0002); bez zaślepek (R2), każda karta z ostrzeżeniami wymaganymi w katalogu; nowa sesja: opus, wysiłek high. Paczka: `docs/architektura/konfiguracja.md`, `catalog/README.md`, `docs/tresci/parametry.json`.
+1. **06-tresci**, tryb `build`, partia 2 kart en/pl; najpierw twierdzenia z listy warunków w `docs/STAN-SESJI.md`. Potem skrypt tłumaczeń (bez płatnych wywołań w nocy).
 2. 08 (kod dalej): najpierw domena i kontrole z testami, potem adapter wdrożenia (po ADR 0007), na końcu wygląd (po 04).
