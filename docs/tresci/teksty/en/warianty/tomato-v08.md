@@ -12,7 +12,7 @@ Sugar may be added to balance the acidic taste, but the acid must not be left ou
 
 For a thin sauce NCHFP counts on an average of 5 pounds (about 2.3 kg) of tomatoes per quart jar, and for a thick sauce 6 1/2 pounds (about 2.9 kg). [T:ACI-234]
 
-Do not can tomatoes from dead or frost-killed vines. [T:ACI-049]
+Caution (NCHFP): do not can tomatoes from dead or frost-killed vines. [T:ACI-049]
 
 Wash the tomatoes, remove the stems and trim off bruised or discolored parts. [T:ACI-233]
 

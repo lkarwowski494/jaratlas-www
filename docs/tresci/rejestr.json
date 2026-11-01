@@ -4780,6 +4780,15 @@
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
     "miejsce": "NCHFP (nchfp.uga.edu): Preparing and Using Syrups for Canning Fruit",
+    "cytat": "Adding syrup to canned fruit helps to retain its flavor, color, and shape.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e16de398eeee"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Preparing and Using Syrups for Canning Fruit",
     "cytat": "It does not prevent spoilage of these foods.",
     "odczyt": "2026-11-01",
     "szczebel": 1,
@@ -5560,6 +5569,15 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "b6fe7f1831a7"
+   },
+   {
+    "adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN Approximate pH of Foods, wstęp",
+    "cytat": "Considerable variation exists between varieties, condition of growing and processing methods, etc.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "43697422659c"
    }
   ],
   "status": "potwierdzone",
@@ -11880,7 +11898,7 @@
    {
     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
     "miejsce": "Berry Jams without Pectin, Table 1",
-    "cytat": "Recommended process time for  Berry Jams  in a boiling water canner",
+    "cytat": "Recommended process time for Berry Jams in a boiling water canner",
     "odczyt": "2026-11-01",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
@@ -27007,21 +27025,12 @@
  },
  {
   "id": "SLO-154",
-  "twierdzenie": "NCHFP test temperatury dla przetworów bez dodanej pektyny: na poziomie morza masa jest gotowa przy 220 °F (ok. 104 °C), 8 °F powyżej temperatury wrzenia wody; na każde 1000 stóp (ok. 300 m) wysokości odejmuje się 2 °F (ok. 1 °C); dżem gęstnieje jeszcze podczas stygnięcia.",
+  "twierdzenie": "NCHFP test temperatury dla dżemu bez dodanej pektyny (Table 3): masa jest gotowa przy 220 °F (ok. 104 °C) na poziomie morza, czyli 8 °F (ok. 4,4 °C) powyżej temperatury wrzenia wody; wyżej według tabeli: 1000 stóp 218 °F, 2000 stóp 216 °F, 3000 stóp 214 °F, 4000 stóp 212 °F, 5000 stóp 211 °F, 6000 stóp 209 °F, 7000 stóp 207 °F, 8000 stóp 205 °F (1000 stóp to ok. 300 m); dżem gęstnieje jeszcze podczas stygnięcia.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/testing-jelly-without-added-pectin/",
     "miejsce": "NCHFP (nchfp.uga.edu): Testing Jelly without Added Pectin, Temperature Test",
     "cytat": "When done, the temperature of the jelly should be 220°F, 8°F above the boiling point of water, if you are at sea level.",
-    "odczyt": "2026-11-02",
-    "szczebel": 1,
-    "weryfikacja": "curl+grep",
-    "sha12": "61dcf3aaad5c"
-   },
-   {
-    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/testing-jelly-without-added-pectin/",
-    "miejsce": "NCHFP (nchfp.uga.edu): Testing Jelly without Added Pectin, Temperature Test, NOTE",
-    "cytat": "For each 1000 feet of elevation above sea level, subtract 2 degrees F.",
     "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
@@ -27035,10 +27044,19 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "f0ccc989cc42"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/making-jam-without-added-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Making Jam without added Pectin, Table 3",
+    "cytat": "Sea Level 1,000 ft 2,000 ft 3,000 ft 4,000 ft 5,000 ft 6,000 ft 7,000 ft 8,000 ft 220°F 218°F 216°F 214°F 212°F 211°F 209°F 207°F 205°F",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f0ccc989cc42"
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "Przeliczenie: 220 °F = 104,4 °C (w karcie „ok. 104 °C”), 2 °F = 1,1 °C (w karcie „ok. 1 °C”), 1000 stóp = 304,8 m (w karcie „ok. 300 m”). Test gotowości dotyczy konsystencji, nie bezpieczeństwa; bezpieczeństwo daje przepis z cukrem i czas wekowania.",
+  "uproszczenie": "Przeliczenie: 220 °F = 104,4 °C (w karcie „ok. 104 °C”), 8 °F = 4,4 °C, 1000 stóp = 304,8 m (w karcie „ok. 300 m”). Test gotowości dotyczy konsystencji, nie bezpieczeństwa; bezpieczeństwo daje przepis z cukrem i czas wekowania. Reguła „2 °F mniej na 1000 stóp” ze strony o galaretkach pominięta, bo powyżej 4000 stóp rozjeżdża się z tabelą dla dżemu.",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",
@@ -27061,6 +27079,36 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-156",
+  "twierdzenie": "Ostrożna reguła JarAtlas dla dżemu bez pestek według NCHFP Berry Jams without Pectin: 9 szklanek rozgniecionych owoców odmierzać przed podgrzaniem i przetarciem (kolejność z przepisu: rozgniecione owoce → podgrzanie i przetarcie → cukier); odmierzenie 9 szklanek już przetartej masy dałoby mniej cukru na masę owoców niż w przepisie. Wydajność 7–8 słoików 1/2 pinty NCHFP podaje dla przepisu podstawowego (z pestkami).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Jams without Pectin, składniki",
+    "cytat": "9 cups crushed berries 6 cups sugar Yield: About 7 or 8 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "788f580393e8"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jams-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Jams without Pectin, NOTE",
+    "cytat": "NOTE : If seedless jam is preferred, crushed berries may be heated until soft and pressed through a sieve or food mill; then add sugar and proceed as above.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "788f580393e8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
   "przeglad": null,
   "wazne_do": "2027-11-02",
   "klaster": "SLO"

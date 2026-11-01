@@ -4,7 +4,7 @@ Ta karta opisuje metodę NCHFP wekowania całych czereśni w bardzo lekkim syrop
 
 ## Przygotowanie
 
-Wybierz jasne, równomiernie wybarwione, dojrzałe czereśnie w jakości do jedzenia na surowo albo do gotowania. [T:ACI-235]
+Wybierz dojrzałe czereśnie o żywej, równomiernej barwie, w jakości do jedzenia na surowo albo do gotowania. [T:ACI-235]
 
 Usuń szypułki i umyj czereśnie; usuwanie pestek jest opcjonalne. [T:ACI-236]
 

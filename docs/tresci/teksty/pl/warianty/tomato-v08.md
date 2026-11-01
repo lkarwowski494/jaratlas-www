@@ -12,7 +12,7 @@ Cukier można dodać dla złagodzenia smaku, ale kwasu nie wolno pominąć. [T:A
 
 Na sos rzadki NCHFP liczy średnio 5 funtów (ok. 2,3 kg) pomidorów na słoik quart, a na sos gęsty 6 1/2 funta (ok. 2,9 kg). [T:ACI-234]
 
-Nie wekuj pomidorów z obumarłych ani przemarzniętych krzaków. [T:ACI-049]
+Uwaga (NCHFP): nie wekuj pomidorów z obumarłych ani przemarzniętych krzaków. [T:ACI-049]
 
 Pomidory umyj, usuń szypułki i wytnij obite albo przebarwione miejsca. [T:ACI-233]
 

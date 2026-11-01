@@ -4,7 +4,9 @@ This card describes the NCHFP recipe for berry jam without added pectin, in its 
 
 ## Ingredients
 
-NCHFP uses 9 cups of crushed berries and 6 cups of sugar, which makes about 7 or 8 half-pint jars. [T:SLO-145]
+NCHFP uses 9 cups of crushed berries and 6 cups of sugar; the basic recipe, with seeds, makes about 7 or 8 half-pint jars. [T:SLO-145,SLO-156]
+
+JarAtlas rule (cautious): measure the 9 cups of crushed berries before heating and sieving them; measuring 9 cups of already sieved pulp would give less sugar for the fruit than the recipe. [T:SLO-156,SLO-149]
 
 For NCHFP jams without added pectin, berries include raspberries, as well as blackberries, gooseberries and strawberries. [T:SLO-146]
 
@@ -38,9 +40,9 @@ As the mixture thickens, stir often to keep it from sticking. [T:SLO-147]
 
 ## How to tell it is ready
 
-Temperature test: at sea level the jam is ready at 220 °F (about 104 °C), 8 °F above the boiling point of water. [T:SLO-154]
+Temperature test: at sea level the jam is ready at 220 °F (about 104 °C), 8 °F (about 4.4 °C) above the boiling point of water. [T:SLO-154]
 
-Higher up, NCHFP lowers this temperature by 2 °F (about 1 °C) for every 1000 ft (about 300 m). [T:SLO-154]
+Higher up, use the NCHFP table for jams: 218 °F at 1000 ft, 216 °F at 2000 ft, 214 °F at 3000 ft, 212 °F at 4000 ft, 211 °F at 5000 ft, 209 °F at 6000 ft, 207 °F at 7000 ft and 205 °F at 8000 ft (1000 ft is about 300 m). [T:SLO-154]
 
 Freezer test: take the jam off the heat, put a little boiling jam on a cold plate and place it in the freezer compartment of the refrigerator for a few minutes; if it gels, the jam is ready to fill. [T:SLO-155]
 

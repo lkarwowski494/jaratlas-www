@@ -4,7 +4,9 @@ Ta karta opisuje przepis NCHFP na dżem z owoców jagodowych bez dodanej pektyny
 
 ## Składniki
 
-NCHFP podaje 9 szklanek rozgniecionych owoców i 6 szklanek cukru; wychodzi ok. 7–8 słoików 1/2 pinty. [T:SLO-145]
+NCHFP podaje 9 szklanek rozgniecionych owoców i 6 szklanek cukru; przepis podstawowy, z pestkami, daje ok. 7–8 słoików 1/2 pinty. [T:SLO-145,SLO-156]
+
+Reguła JarAtlas (ostrożna): 9 szklanek rozgniecionych owoców odmierz przed podgrzaniem i przetarciem; 9 szklanek już przetartej masy dałoby mniej cukru na owoce niż w przepisie. [T:SLO-156,SLO-149]
 
 W dżemach NCHFP bez dodanej pektyny do owoców jagodowych należą maliny, a także jeżyny, agrest i truskawki. [T:SLO-146]
 
@@ -38,9 +40,9 @@ Gdy masa gęstnieje, często mieszaj, żeby nie przywierała. [T:SLO-147]
 
 ## Jak sprawdzić, czy gotowe
 
-Test temperatury: na poziomie morza dżem jest gotowy przy 220 °F (ok. 104 °C), czyli 8 °F powyżej temperatury wrzenia wody. [T:SLO-154]
+Test temperatury: na poziomie morza dżem jest gotowy przy 220 °F (ok. 104 °C), czyli 8 °F (ok. 4,4 °C) powyżej temperatury wrzenia wody. [T:SLO-154]
 
-Wyżej NCHFP obniża tę temperaturę o 2 °F (ok. 1 °C) na każde 1000 stóp (ok. 300 m). [T:SLO-154]
+Wyżej stosuj tabelę NCHFP dla dżemów: 218 °F na 1000 stóp, 216 °F na 2000 stóp, 214 °F na 3000 stóp, 212 °F na 4000 stóp, 211 °F na 5000 stóp, 209 °F na 6000 stóp, 207 °F na 7000 stóp i 205 °F na 8000 stóp (1000 stóp to ok. 300 m). [T:SLO-154]
 
 Test w zamrażalniku: zdejmij dżem z ognia, nałóż trochę wrzącego dżemu na zimny talerz i włóż na kilka minut do zamrażalnika lodówki; jeśli zżeluje, dżem jest gotowy do nalewania. [T:SLO-155]
 
