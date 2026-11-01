@@ -17,10 +17,10 @@ Aktualizacja: 2026-11-01 (sesja session_01T66VBwmW1joo9op6vnZiYC)
 - Źródła z odczytem 2026-11-01: AdSense udział wydawcy 80% (Google Ads ok. 68%, answer/180195), RPM = szacowane zarobki (answer/190515), próg wypłaty 300 zł (answer/1709871), certyfikowany CMP z TCF w EOG/UK/CH (answer/13554116), Privacy & messaging (answer/10961068), Pew 2025-07-22 (8% vs 15% kliknięć przy AI Overviews), Apple SBP 15%.
 - Okres pomiaru Wikipedii ≈ 12 mies. (Kombucha 736 050 X25–IX26 vs 850 737 z danych; Kefir 864 768 XI24–X25 vs 686 502); reszta zapytań HTTP 429.
 
-## Decyzje czekające na właściciela
-1. Werdykt graniczny: (1) budować etapami od en z pomiarem Search Console po 3–6 mies. [rekomendacja] / (2) odłożyć / (3) pełna fala 1.
-2. Model: reklamy + autopromocja jako dodatek [rekomendacja] / sama autopromocja.
-3. Dostęp do `portfel-aplikacji` (krok 4: rozbieżności D-023, okno pomiaru): zgoda na add_repo / pominąć.
+## Decyzje (2026-11-01, tablica: 2026-11-01-jaratlas-bramka-wynik)
+- Stawiamy stronę z pełną strukturą; karty bez pełnej treści ukryte (nie w mapie strony, nie indeksowane). Uzasadnienie: strona pod aplikację JAR; wyjątek od werdyktu granicznego nazwany, kontrola zastępcza: Search Console po 3–6 mies. i odświeżenie bramki.
+- Model: reklamy AdSense za zgodą (CMP/TCF) + autopromocja aplikacji portfela.
+- Krok 4 bramki (portfel) pominięty; okno pomiaru Wikipedii i rozbieżności z portfelem [DO USTALENIA].
 
 ## Następny krok
-Po decyzjach: zapis na tablicy (2026-11-01-jaratlas-bramka-wynik), krok 4 z portfelem, potem 06-tresci --tryb build --moduly tresci-krytyczne,kontrole-mechaniczne (zadanie B, katalog v1).
+06-tresci --tryb build --moduly tresci-krytyczne,kontrole-mechaniczne (zadanie B, katalog v1; decyzja 2026-11-01-jaratlas-katalog-b). W modelu danych katalogu przewidzieć pole kompletności karty (ukrywanie niepełnych).
