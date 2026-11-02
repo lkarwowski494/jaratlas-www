@@ -109,6 +109,19 @@ test('dopasujWariant: rodziny bez słownika rodzajów (mięso, nabiał) nie spra
   assert.equal(dopasujWariant(w, [{ ...P('Bacon', 'peklowanie-wedzenie'), zrodlo: 'T', szczebel: 3 }], pr).wynik, 'mozliwe');
 });
 
+test('dopasujWariant: termin swoisty przepisu wymaga odpowiednika w nazwie wariantu (grupy szerokie)', () => {
+  const pr = [...produkty, { id: 'fermented-beverages', name: { pl: 'Napoje fermentowane' } }, { id: 'pork-loin-ham', name: { pl: 'Szynka, schab i polędwica' } }];
+  const z = (p) => [{ ...p, zrodlo: 'T', szczebel: 1 }];
+  const kwas = W('fermented-beverages-v08', 'fermented-beverages', 'kwas chlebowy', 'refrigerator', 'fermented-beverages');
+  const komb = W('fermented-beverages-v02', 'fermented-beverages', 'kombucha smakowa z maliną', 'refrigerator', 'fermented-beverages');
+  assert.equal(dopasujWariant(kwas, z(P('Kombucha Tea', 'napoj-fermentowany')), pr).wynik, 'brak');
+  assert.equal(dopasujWariant(komb, z(P('Kombucha Tea', 'napoj-fermentowany')), pr).wynik, 'mozliwe');
+  const schab = W('pork-loin-ham-v02', 'pork-loin-ham', 'schab wędzony z kminkiem', 'refrigerator', 'meat-curing-smoking');
+  const szynka = W('pork-loin-ham-v01', 'pork-loin-ham', 'szynka peklowana na mokro', 'refrigerator', 'meat-curing-smoking');
+  assert.equal(dopasujWariant(schab, z(P('Ham', 'peklowanie-wedzenie')), pr).wynik, 'brak');
+  assert.equal(dopasujWariant(szynka, z(P('Ham', 'peklowanie-wedzenie')), pr).wynik, 'mozliwe');
+});
+
 test('dopasujWariant: nieznane słowa w nazwie wariantu blokują pewne', () => {
   const w = W('cucumber-v09', 'cucumber', 'ogórki po kaszubsku', 'water-bath', 'vinegar-pickling');
   const r = dopasujWariant(w, [{ ...P('Dill Pickles', 'kapiel-wodna'), zrodlo: 'T', szczebel: 1 }], produkty);
