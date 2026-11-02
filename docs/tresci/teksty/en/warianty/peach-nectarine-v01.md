@@ -1,0 +1,110 @@
+# Peach pickles (CSU)
+
+This card describes the Colorado State University Extension recipe for peach pickles: small peeled peaches cooked in a spiced vinegar and sugar syrup, hot packed into pint jars and processed in a boiling-water bath. [T:ACI-641,ACI-642,ACI-643]
+
+## !
+
+- Process only pint jars and only up to 10000 ft (up to 3000 m): CSU gives times only for pint jars, no time for quart jars and no time above 10000 ft. [T:ACI-643,ACI-930]
+- Use yellow-flesh peaches: the natural pH of some white peaches can be above 4.6, and NCHFP has no researched acidification procedure for safe boiling-water canning of white-flesh peaches. [T:SLO-127]
+
+## Which peaches
+
+The recipe uses peeled peaches, small to medium size, 1 to 1 1/2 inches (about 2.5–3.8 cm) in diameter. [T:ACI-641]
+
+The FDA list gives peaches a pH of about 3.30–4.05. [T:ACI-133]
+
+The natural pH of some white peaches can be above 4.6, which makes them a low-acid food for canning. [T:SLO-127]
+
+NCHFP has no pressure process and no researched acidification for them, and recommends freezing white-flesh peaches instead. [T:SLO-127]
+
+JarAtlas rule (cautious): the CSU recipe names only peaches, so this card does not cover nectarines. [T:ACI-641]
+
+## Why you must not change the recipe
+
+The whole product must contain a minimum, uniform level of acid so that botulism bacteria cannot grow. [T:ACI-017]
+
+Do not change the proportions of vinegar, fruit and water and do not use vinegar of unknown acidity; use only recipes with tested proportions. [T:ACI-016]
+
+JarAtlas rule (cautious): do not change the amounts of vinegar or peaches and do not add other fruit or vegetables; the recipe is tested only in the proportions given. [T:ACI-265]
+
+White distilled vinegar and cider vinegar of 5% acidity are recommended for pickles. [T:ACI-018]
+
+JarAtlas rule (cautious, for readers outside the USA): use white distilled (spirit) vinegar or cider vinegar labelled 5% or 6% acidity; do not use 10% vinegar and do not dilute it with water to make 5% vinegar; add only the water the recipe lists. [T:ACI-211,ACI-018]
+
+## Ingredients
+
+A US cup holds about 237 ml. [T:ACI-195]
+
+For about 6 pint jars CSU lists 8 pounds (about 3.6 kg) of peeled peaches, 1/2 teaspoon of ascorbic acid, 6 3/4 cups of sugar, 4 cinnamon sticks 2 inches long, 2 tablespoons of whole cloves (crushed), 1 tablespoon of ginger and 1 quart (about 946 ml) of vinegar of 5% acidity. [T:ACI-641,ACI-174]
+
+## Preparing and cooking
+
+To keep the peeled peaches from darkening, drop them into a cold solution of 1/2 teaspoon of ascorbic acid per 2 quarts of water. [T:ACI-642]
+
+Dissolve the sugar in the vinegar in a saucepot, heat it, boil for 5 minutes and skim. [T:ACI-642]
+
+Add the spices tied in cheesecloth. [T:ACI-642]
+
+Drain the peaches and cook them in the boiling syrup until they can be pierced with a fork but are not soft. [T:ACI-642]
+
+Let the peaches stand in the syrup overnight in the refrigerator. [T:ACI-642]
+
+Bring them to a boil again before packing them into hot jars. [T:ACI-642]
+
+## Filling and processing
+
+Fill hot jars with the peaches, leaving 1/2 inch (about 1.3 cm) of headspace, and cover them with syrup, leaving 1/2 inch of headspace. [T:ACI-642]
+
+Close the jars with two-piece canning lids and process them in a boiling-water bath. [T:SLO-223,ACI-643]
+
+Up to 1000 ft (up to 300 m) process pint jars for 20 minutes. [T:ACI-643,ACI-176]
+
+Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
+
+At 1001–3000 ft (above 300 m up to 900 m) process them for 25 minutes. [T:ACI-643,ACI-176]
+
+At 3001–6000 ft (above 900 m up to 1800 m) process them for 30 minutes. [T:ACI-643,ACI-176]
+
+At 6001–10000 ft (above 1800 m up to 3000 m) process them for 35 minutes. [T:ACI-643,ACI-176,ACI-930]
+
+Above 10000 ft (above 3000 m) CSU gives no time, so this card does not cover canning at that elevation. [T:ACI-643,ACI-930]
+
+The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m, 3000 ft becomes 900 m and 6000 ft becomes 1800 m. [T:ACI-176]
+
+10000 ft (3048 m) becomes 3000 m, so the range without a time is wider than in the source. [T:ACI-930]
+
+Shortening the time or cooling jars in cold water can also lead to spoilage. [T:ACI-015]
+
+CSU gives times only for pint jars, not for quart jars. [T:ACI-643]
+
+JarAtlas rule (NCHFP does not test metric jars): a pint holds about 473 ml, so a 0.5 l jar has no tested time in this recipe; use jars of up to 473 ml. [T:ACI-179,ACI-174]
+
+## Cooling and storing
+
+When you take the hot jars out of the canner, do not retighten the lids or bands; this can cut through the gasket and cause seal failures. [T:SLO-210]
+
+Cool the jars at room temperature for 12 to 24 hours, then remove only the screw bands (the metal rings of two-piece lids), leaving the flat lids on the jars, and test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196,SLO-212]
+
+NCHFP calls Mason-type canning jars with self-sealing two-piece lids (a flat lid and a screw band) the best choice, and this seal test and the method on this card assume them; NCHFP does not recommend other commercial jars whose mouths cannot be sealed with two-piece canning lids for canning any food at home. [T:SLO-223,SLO-212]
+
+JarAtlas rule (cautious): use this card only with jars that take two-piece canning lids; it gives no method for twist-off jars or jars with glass lids, so do not use them for this recipe. [T:SLO-223]
+
+A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
+
+If a jar has not sealed at this check, keep it in the refrigerator and eat it within several days. [T:SLO-197]
+
+Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) and not near hot pipes, a stove or a furnace, in an uninsulated attic or in direct sunlight; in such conditions the food may spoil. [T:SLO-198]
+
+JarAtlas rule (cautious): keep an opened jar in the refrigerator and use it within 1 week. [T:SLO-322]
+
+## When to throw it out
+
+Before using a stored jar, check that the lid is tight and holds a vacuum: a good seal has a concave centre. [T:SLO-191]
+
+Look for streaks of dried food running from the top of the jar, rising air bubbles and unnatural colour. [T:SLO-191]
+
+When opening the jar, check for an unnatural smell, spurting liquid and cotton-like mould on the food or under the lid. [T:SLO-191]
+
+Do not taste food from a jar with an unsealed lid or with signs of spoilage. [T:SLO-190]
+
+JarAtlas rule (cautious): throw out such a jar. [T:SLO-190]

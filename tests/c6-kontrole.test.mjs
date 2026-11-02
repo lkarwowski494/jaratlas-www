@@ -91,10 +91,11 @@ test('C6-5: mutacja incydentu C4 — SLO-350 (wekowanie) w karcie mrożenia leaf
   assert.match(b[0], /leafy-greens-v13.*SLO-350.*freezer.*water-bath/);
 });
 
-test('C6-5: twierdzenie wspólne nie przechodzi do trzeciej metody (ACI-195 w karcie lodówkowej)', () => {
-  assert.ok(WSPOLNE['ACI-195']?.includes('freezer'));
-  const lista = podmien(karty(), 'pl', 'cucumber-v01', 'ACI-018', 'ACI-195');
+// p33: ACI-195 (miarka cup) stał się wspólny dla czterech metod, więc przykład trzeciej metody to SLO-222 (wekowanie i mrożenie).
+test('C6-5: twierdzenie wspólne nie przechodzi do trzeciej metody (SLO-222 w karcie lodówkowej)', () => {
+  assert.ok(WSPOLNE['SLO-222']?.includes('freezer') && !WSPOLNE['SLO-222'].includes('refrigerator'));
+  const lista = podmien(karty(), 'pl', 'cucumber-v01', 'ACI-018', 'SLO-222');
   const b = twierdzeniaInnejMetody(lista, katalogSeed());
   assert.equal(b.length, 1);
-  assert.match(b[0], /cucumber-v01.*ACI-195.*refrigerator/);
+  assert.match(b[0], /cucumber-v01.*SLO-222.*refrigerator/);
 });

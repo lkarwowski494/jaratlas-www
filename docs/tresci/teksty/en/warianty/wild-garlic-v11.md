@@ -1,0 +1,20 @@
+# Dried wild garlic leaves and green salt: why there is no recipe here
+
+There is no recipe here for dried wild garlic leaves or for green salt made from fresh leaves and salt. [T:-]
+
+## !
+
+- According to BfR, young wild garlic leaves resemble those of the poisonous lily of the valley and the very poisonous autumn crocus; when in doubt, it is better not to eat them. [T:SUS-337]
+- According to AGES, wild garlic leaves may be contaminated with fox tapeworm eggs, which can cause a life-threatening disease in humans; the eggs survive usual freezing at -18 °C and are killed at around +60 °C. [T:SUS-338]
+
+## Why
+
+In a dehydrator, herbs are dried at 95–115 °F (about 35–46 °C); in humid areas up to 125 °F (about 52 °C) may be needed. [T:SUS-031]
+
+These drying temperatures are lower than the temperature at which, according to AGES, fox tapeworm eggs are killed, around +60 °C. [T:SUS-031,SUS-338]
+
+JarAtlas has no recipe from a checked source for green salt. [T:-]
+
+According to AGES, wild garlic is also confused with spotted arum, Solomon’s seal and wild tulips. [T:SUS-337]
+
+JarAtlas rule: if you are not sure that every leaf is wild garlic, do not use the leaves. [T:SUS-337]

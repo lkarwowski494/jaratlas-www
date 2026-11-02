@@ -1,0 +1,17 @@
+# Dried yogurt (kashk): why there is no recipe here
+
+There is no recipe here for drying yogurt into kashk. [T:-]
+
+## !
+
+- In studies of kurut (dried yogurt or buttermilk) in Turkey, Staphylococcus aureus was found in 16% of samples from the Elazığ area and in 60% of retail samples from Van, and Escherichia coli in 12% of the Elazığ samples. [T:MLE-070]
+
+## Why
+
+JarAtlas has found no tested home process for drying yogurt that gives a drying temperature and water activity. [T:-]
+
+In a study of Turkish Katık Keş, a dried strained yogurt, the product is usually dried in open air for 10–15 days; the samples had a mean water activity of 0.76 and still contained coliform bacteria at 3.36 log CFU/g. [T:MLE-071]
+
+Fermented dairy products must reach a pH of 4.6 or less within 48 hours to be considered pathogen-free. [T:MLE-021]
+
+In most cases, fermentation alone cannot produce a food that keeps at room temperature. [T:MLE-022]

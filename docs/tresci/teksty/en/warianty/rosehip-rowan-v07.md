@@ -1,0 +1,15 @@
+# Rowan and apple preserve: why there is no recipe here
+
+There is no recipe here for rowan and apple preserve. [T:-]
+
+## !
+
+- According to UW-Madison CIAS, raw rowan berries (European mountain ash, Sorbus aucuparia) contain parasorbic acid, described as a known carcinogen; heat treatment and, to a lesser extent, freezing may neutralize it, and the seeds probably contain hydrogen cyanide. [T:SUS-327]
+
+## Why
+
+The source says only that heat treatment, such as cooking, may neutralize parasorbic acid; it gives no time or temperature for it. [T:SUS-327]
+
+JarAtlas has found no tested recipe for rowan preserve. [T:-]
+
+A boiling-water bath is suitable only for acid foods, such as fruits, pickles, jams and fruit butters, and only with the research-based process times of the USDA Complete Guide to Home Canning. [T:SZY-054]

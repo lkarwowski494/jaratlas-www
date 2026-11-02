@@ -1,0 +1,17 @@
+# Frozen rowan berries in vinegar with honey: why there is no recipe here
+
+There is no recipe here for rowan berries in vinegar with honey. [T:-]
+
+## !
+
+- According to UW-Madison CIAS, raw rowan berries (European mountain ash, Sorbus aucuparia) contain parasorbic acid, described as a known carcinogen; heat treatment and, to a lesser extent, freezing may neutralize it, and the seeds probably contain hydrogen cyanide. [T:SUS-327]
+
+## Why
+
+The source says only that heat treatment or freezing may neutralize parasorbic acid; it gives no time or temperature for it. [T:SUS-327]
+
+According to the source, freezing may neutralize it only to a lesser extent than heat treatment. [T:SUS-327]
+
+JarAtlas has found no tested recipe for rowan berries in vinegar. [T:-]
+
+Do not change the proportions of vinegar, fruit and water and do not use vinegar of unknown acidity; use only recipes with tested proportions. [T:ACI-016]

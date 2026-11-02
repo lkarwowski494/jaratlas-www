@@ -74,7 +74,8 @@ const PO_WEKOWANIU = ['SLO-190', 'SLO-191', 'SLO-196', 'SLO-197', 'SLO-198', 'SL
 function brakiPoWekowaniu(lista = wszystkie) {
   const braki = [];
   for (const { lang, id, karta } of lista) {
-    if (V.get(id)?.preservationMethod !== 'water-bath') continue;
+    // Karta-ostrzeżenie nie ma przepisu, więc nie ma bloku po wekowaniu (wzór T1-susz; p33).
+    if (V.get(id)?.preservationMethod !== 'water-bath' || V.get(id)?.cardType === 'warning') continue;
     const t = JSON.stringify(karta);
     const ids = new Set([...t.matchAll(/\[T:([^\]]*)\]/g)].flatMap((m) => m[1].split(',')));
     const wym = [...PO_WEKOWANIU];
@@ -98,7 +99,7 @@ test('T1: karta kąpieli wodnej ma studzenie, test zamknięcia, przechowywanie, 
 test('T1b: karta kąpieli wodnej produktu o niskiej albo granicznej kwasowości ma postępowanie z podejrzanym słoikiem (SLO-350)', () => {
   const P = new Map(katalog.products.map((p) => [p.id, p]));
   const braki = wszystkie
-    .filter(({ id }) => V.get(id)?.preservationMethod === 'water-bath' && ['low-acid', 'borderline'].includes(P.get(V.get(id).productId)?.acidity))
+    .filter(({ id }) => V.get(id)?.preservationMethod === 'water-bath' && V.get(id)?.cardType !== 'warning' && ['low-acid', 'borderline'].includes(P.get(V.get(id).productId)?.acidity))
     .filter(({ karta }) => !/\[T:[^\]]*\bSLO-350\b/.test(JSON.stringify(karta)))
     .map(({ lang, id }) => `${lang}/${id}`);
   assert.deepEqual(braki, []);
@@ -143,7 +144,7 @@ export const ZAMIENNIKI_MROZENIA = {
 export function brakiBlokuMrozenia(lista = wszystkie, zamienniki = ZAMIENNIKI_MROZENIA) {
   const braki = [];
   for (const { lang, id, karta } of lista) {
-    if (V.get(id)?.preservationMethod !== 'freezer') continue;
+    if (V.get(id)?.preservationMethod !== 'freezer' || V.get(id)?.cardType === 'warning') continue; // karta-ostrzeżenie bez przepisu (p33)
     const ids = new Set([...JSON.stringify(karta).matchAll(/\[T:([^\]]*)\]/g)].flatMap((m) => m[1].split(',').map((s) => s.trim())));
     const z = zamienniki[id] ?? {};
     const brak = BLOK_MROZENIA.filter((w) => !ids.has(w) && !(w in z && (z[w] === null || ids.has(z[w]))));
@@ -182,6 +183,9 @@ export const ZAMIENNIKI_SUSZENIA = {
   // p28 (jerky, B7-D1): temperatura suszenia, studzenie i opakowanie z przepisu NCHFP/Penn State na jerky (MIE-038, MIE-113), miejsce i czas z MIE-041.
   'beef-veal-v08': { 'SUS-001': 'MIE-038', 'SUS-024': 'MIE-113', 'SUS-064': 'MIE-113', 'SUS-066': 'MIE-041' },
   'game-lamb-v09': { 'SUS-001': 'MIE-038', 'SUS-024': 'MIE-113', 'SUS-064': 'MIE-113', 'SUS-066': 'MIE-041' },
+  'poultry-v14': { 'SUS-001': 'MIE-038', 'SUS-024': 'MIE-113', 'SUS-064': 'MIE-113', 'SUS-066': 'MIE-041' }, // p33: jerky z indyka, jak jerky wołowe (B7-D1)
+  // p33: sól cytrynowa (UCCE Sacramento, UC ANR): temperatura i czas suszenia z przepisu (SUS-329, SUS-330), taca z przepisu, słoiki z UC ANR; próżnia nie dotyczy (sól)
+  'lemon-v13': { 'SUS-001': 'SUS-330', 'SUS-008': 'SUS-329', 'SUS-064': 'SUS-330', 'SUS-025': null },
 };
 export function brakiBlokuSuszenia(lista = wszystkie, zamienniki = ZAMIENNIKI_SUSZENIA) {
   const braki = [];
