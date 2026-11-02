@@ -83,13 +83,30 @@ test('dopasujWariant: dodatek spoza przepisu obniża do możliwe', () => {
   assert.equal(dopasujWariant(w, zWanilia, produkty).wynik, 'pewne');
 });
 
-test('dopasujWariant: inny typ albo metoda pomocnicza = możliwe; inny produkt albo metoda = brak', () => {
+test('dopasujWariant: metoda pomocnicza = możliwe; inny typ, produkt albo metoda = brak (inny typ liczony osobno)', () => {
   const w = W('peach-nectarine-v01', 'peach-nectarine', 'dżem brzoskwiniowy', 'water-bath', 'sweet-preserves');
   const z = (p) => [{ ...p, zrodlo: 'T', szczebel: 3 }];
-  assert.equal(dopasujWariant(w, z(P('Peach Butter', 'kapiel-wodna')), produkty).wynik, 'mozliwe');
+  const mus = dopasujWariant(w, z(P('Peach Butter', 'kapiel-wodna')), produkty);
+  assert.equal(mus.wynik, 'brak');
+  assert.equal(mus.inny_typ, 1);
   assert.equal(dopasujWariant(w, z(P('Peach Freezer Jam', 'mrozenie')), produkty).wynik, 'mozliwe');
   assert.equal(dopasujWariant(w, z(P('Pear Jam', 'kapiel-wodna')), produkty).wynik, 'brak');
   assert.equal(dopasujWariant(w, z(P('Dried Peaches', 'suszenie')), produkty).wynik, 'brak');
+});
+
+test('dopasujWariant: typ przepisu z metody fermentacji; kompot pasuje do owoców w zalewie', () => {
+  const z = (p) => [{ ...p, zrodlo: 'T', szczebel: 1 }];
+  const ferm = W('cucumber-v02', 'cucumber', 'małosolne', 'refrigerator', 'lacto-fermentation');
+  assert.equal(dopasujWariant(ferm, z(P('Dill Pickles', 'fermentacja')), produkty).wynik, 'pewne');
+  const kompot = W('peach-nectarine-v13', 'peach-nectarine', 'kompot', 'water-bath', 'canned-foods');
+  assert.equal(dopasujWariant(kompot, z(P('Peaches-Halved or Sliced', 'kapiel-wodna')), produkty).wynik, 'pewne');
+  assert.equal(dopasujWariant(kompot, z(P('Peach Jam', 'kapiel-wodna')), produkty).wynik, 'brak');
+});
+
+test('dopasujWariant: rodziny bez słownika rodzajów (mięso, nabiał) nie sprawdzają typu', () => {
+  const pr = [...produkty, { id: 'pork-belly-jowl', name: { pl: 'Boczek, podgardle i słonina' } }];
+  const w = W('pork-belly-jowl-v01', 'pork-belly-jowl', 'boczek wędzony na ciepło', 'refrigerator', 'meat-curing-smoking');
+  assert.equal(dopasujWariant(w, [{ ...P('Bacon', 'peklowanie-wedzenie'), zrodlo: 'T', szczebel: 3 }], pr).wynik, 'mozliwe');
 });
 
 test('dopasujWariant: nieznane słowa w nazwie wariantu blokują pewne', () => {
@@ -101,7 +118,7 @@ test('dopasujWariant: nieznane słowa w nazwie wariantu blokują pewne', () => {
 test('dopasujWariant: wiele trafień — wynik najlepszy, trafienia posortowane (pewne, szczebel)', () => {
   const w = W('peach-nectarine-v01', 'peach-nectarine', 'dżem brzoskwiniowy', 'water-bath', 'sweet-preserves');
   const r = dopasujWariant(w, [
-    { ...P('Peach Butter', 'kapiel-wodna'), zrodlo: 'A', szczebel: 1 },
+    { ...P('Peach Freezer Jam', 'mrozenie'), zrodlo: 'A', szczebel: 1 },
     { ...P('Peach Jam', 'kapiel-wodna'), zrodlo: 'B', szczebel: 3 },
   ], produkty);
   assert.equal(r.wynik, 'pewne');
@@ -133,13 +150,14 @@ test('walidujIndeks: wymagane pola, metoda z listy, szczebel 1–4, unikalne adr
   assert.ok(METODY.includes('fermentacja'));
   const bledy = walidujIndeks({ zrodla: [
     { zrodlo: 'X', szczebel: 7, adres: 'https://a/', data_odczytu: '2026-11-02', przepisy: [{ nazwa: '', adres: 'x', metoda: 'gotowanie' }] },
-    { zrodlo: 'Y', szczebel: 1, adres: 'https://a/', przepisy: [] },
+    { zrodlo: 'X', szczebel: 1, adres: 'https://a/', przepisy: [] },
+    { zrodlo: 'Z', szczebel: 1, adres: 'https://a/', data_odczytu: '2026-11-02', przepisy: [] },
   ] });
   assert.ok(bledy.some((b) => /szczebel/.test(b)));
   assert.ok(bledy.some((b) => /metoda/.test(b)));
   assert.ok(bledy.some((b) => /nazwa/.test(b)));
   assert.ok(bledy.some((b) => /data_odczytu/.test(b)));
-  assert.ok(bledy.some((b) => /powtórzony adres/.test(b)));
+  assert.equal(bledy.filter((b) => /powtórzony adres/.test(b)).length, 1);
   assert.deepEqual(walidujIndeks({}), ['brak tablicy "zrodla"']);
 });
 

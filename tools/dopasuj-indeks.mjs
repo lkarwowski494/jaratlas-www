@@ -34,8 +34,10 @@ const TYPY_EN = [
   ['musztarda', /\bmustard\b(?!\s+(seed|greens))/],
   ['pasta', /\bpastes?\b/],
 ];
-export function typPrzepisu(nazwa) {
+// Bez rodzaju w nazwie (np. „Peaches-Halved or Sliced”) przepis to sam produkt w zalewie: typ null ≡ „owoce”.
+export function typPrzepisu(nazwa, metoda) {
   const n = normalizuj(nazwa);
+  if (metoda === 'fermentacja' && !/\b(relish|salsa|sauce)\b/.test(n)) return 'kiszonka';
   if (/\bbread and butter\b/.test(n)) return 'marynata';
   if (/\b(apple|pear|peach|plum|pumpkin|fruit) ?sauce\b|\bapplesauce\b/.test(n)) return 'mus';
   for (const [typ, re] of TYPY_EN) {
@@ -50,14 +52,16 @@ const TYPY_PL = [
   ['marmolada', /\bmarmolad/], ['syrop', /\b(syrop|sok\b|soki\b|kordial|cordial|shrub|oxymel)/], ['nadzienie', /\bfruzelin/],
   ['sos', /\b(sos\b|sosy\b|ketchup|keczup)/], ['chutney', /\bchutney/], ['relish', /\brelish/], ['salsa', /\bsalsa/],
   ['marynata', /\b(marynow|marynat|occie|octow|konserwow|zalew)/], ['kiszonka', /\b(kiszon|kisz|malosol|fermentow|kimchi)/],
-  ['suszone', /\b(suszon|susz\b|chipsy|czipsy|pastil|skork|proszek|jerky)/], ['musztarda', /\bmusztard/], ['pasta', /\bpast[ay]\b/],
+  ['suszone', /\b(suszon|susz\b|chipsy|czipsy|pastil|skork|proszek|jerky)/], ['musztarda', /\bmusztard/], ['pasta', /\bpast[ay]\b/],  ['owoce', /\b(kompot|syropie|wlasnym)/],
 ];
-const TYP_RODZINY = { 'vinegar-pickling': 'marynata', 'lacto-fermentation': 'kiszonka', drying: 'suszone' };
+const RODZINY_Z_TYPEM = new Set(['sweet-preserves', 'vinegar-pickling', 'canned-foods', 'lacto-fermentation', 'drying']);
+const TYP_RODZINY = { 'vinegar-pickling': 'marynata', 'lacto-fermentation': 'kiszonka', drying: 'suszone', 'canned-foods': 'owoce' };
 export function typyWariantu(w) {
   const n = normalizuj(w?.name?.pl);
   const s = new Set();
   for (const [typ, re] of TYPY_PL) if (re.test(n)) s.add(typ);
   if (s.has('marmolada')) s.add('dzem');
+  if (s.has('kiszonka') && w.processFamilyId === 'vinegar-pickling') s.add('marynata');
   if (s.size === 0 && TYP_RODZINY[w.processFamilyId]) s.add(TYP_RODZINY[w.processFamilyId]);
   return s;
 }
@@ -205,21 +209,23 @@ export function dopasujWariant(w, przepisy, produkty = []) {
   const typy = typyWariantu(w);
   const { dodatki, nieznane } = analizaNazwy(w, produkty);
   const trafienia = [];
+  let innyTyp = 0;
   for (const p of przepisy) {
     const metoda = zgodnoscMetody(w, p.metoda);
     if (!metoda) continue;
     if (!produktyPrzepisu(p.nazwa).has(w.productId)) continue;
     const n = normalizuj(p.nazwa);
-    const typ = typPrzepisu(p.nazwa);
-    const typOk = typ ? typy.has(typ) : typy.size === 0;
+    const typ = typPrzepisu(p.nazwa, p.metoda);
+    const typOk = (typy.size === 0 && !RODZINY_Z_TYPEM.has(w.processFamilyId)) || typy.has(typ ?? 'owoce');
+    if (!typOk) { innyTyp++; continue; }
     const dodatkiOk = dodatki.every((r) => r.test(n));
-    const pewne = metoda === 'glowna' && typOk && dodatkiOk && nieznane.length === 0;
+    const pewne = metoda === 'glowna' && dodatkiOk && nieznane.length === 0;
     trafienia.push({ nazwa: p.nazwa, adres: p.adres, metoda: p.metoda, zrodlo: p.zrodlo, szczebel: p.szczebel,
       wynik: pewne ? 'pewne' : 'mozliwe', typ_przepisu: typ });
   }
   trafienia.sort((a, b) => (a.wynik === b.wynik ? 0 : a.wynik === 'pewne' ? -1 : 1) || (a.szczebel ?? 9) - (b.szczebel ?? 9));
   const wynik = trafienia.length === 0 ? 'brak' : trafienia[0].wynik;
-  return { wynik, trafienia, nieznane, typy_wariantu: [...typy] };
+  return { wynik, trafienia, inny_typ: innyTyp, nieznane, typy_wariantu: [...typy] };
 }
 
 export function walidujIndeks(idx) {
@@ -230,8 +236,9 @@ export function walidujIndeks(idx) {
     const gdzie = `zrodla[${i}] (${z?.zrodlo ?? '?'})`;
     for (const pole of ['zrodlo', 'adres', 'data_odczytu']) if (!z?.[pole]) bledy.push(`${gdzie}: brak pola ${pole}`);
     if (![1, 2, 3, 4].includes(z?.szczebel)) bledy.push(`${gdzie}: szczebel spoza 1–4 (${z?.szczebel})`);
-    if (z?.adres && adresy.has(z.adres)) bledy.push(`${gdzie}: powtórzony adres źródła ${z.adres}`);
-    if (z?.adres) adresy.add(z.adres);
+    const klucz = `${z?.zrodlo}\u0000${z?.adres}`;
+    if (z?.adres && adresy.has(klucz)) bledy.push(`${gdzie}: powtórzony adres źródła ${z.adres}`);
+    if (z?.adres) adresy.add(klucz);
     if (!Array.isArray(z?.przepisy)) { bledy.push(`${gdzie}: brak tablicy przepisy`); return; }
     z.przepisy.forEach((p, j) => {
       if (!p?.nazwa) bledy.push(`${gdzie} przepisy[${j}]: pusta nazwa`);
