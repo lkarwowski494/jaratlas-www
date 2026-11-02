@@ -10,7 +10,9 @@ NCHFP: słoiki z sokiem owocowym trzeba wekować w kąpieli wodnej wystarczając
 
 Według UC niewekowany sok trzymaj w lodówce do tygodnia; dłużej przechowuj go tylko zamrożony. [T:SLO-207]
 
-Według UC sok zamrażaj w pojemnikach do zamrażarki, np. metalowych, ze sztywnego plastiku albo w słoikach, i zostaw wolną przestrzeń, bo sok przy zamrażaniu się rozszerza: ok. 1/2 cala (ok. 1,3 cm) w pojemnikach sztywnych, 1/2 cala w pojemnikach pint albo 1 cal (ok. 2,5 cm) w pojemnikach z szerokim otworem i 1 1/2 cala (ok. 3,8 cm) w pojemnikach z wąską szyjką. [T:SLO-214]
+Według UC sok zamrażaj w pojemnikach do zamrażarki, np. metalowych, ze sztywnego plastiku albo w słoikach, i zostaw wolną przestrzeń, bo sok przy zamrażaniu się rozszerza. [T:SLO-214]
+
+Dla soku NCHFP podaje: w pojemnikach z szerokim otworem 1/2 cala (ok. 1,3 cm) wolnej przestrzeni dla pint i 1 cal (ok. 2,5 cm) dla quart, a w pojemnikach z wąską szyjką 1 1/2 cala (ok. 3,8 cm) dla obu wielkości. [T:SLO-222]
 
 Do mrożenia UC zaleca słoiki szklane o prostych ściankach, żeby nie pękały. [T:SLO-214]
 
@@ -40,7 +42,7 @@ Tuż przed napełnianiem wyjmuj gorące, wysterylizowane słoiki po jednym i ods
 
 Według UC gorący sok nalej chochlą do gorących słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni. [T:SLO-202]
 
-Brzegi słoików przetrzyj zwilżonym czystym ręcznikiem papierowym albo ściereczką, nałóż pokrywki i dokręć zakrętki tylko palcami. [T:SLO-202]
+Brzegi słoików przetrzyj zwilżonym czystym ręcznikiem papierowym albo ściereczką, nałóż pokrywki i dokręć metalowe pierścienie tylko palcami. [T:SLO-202]
 
 Według UC na wysokości 0–1000 stóp (do 300 m) wekuj słoiki 1/2 pinty i pint 5 minut, ale tylko wtedy, gdy zostały najpierw wysterylizowane, a słoiki quart 10 minut. [T:SLO-205,ACI-176]
 
@@ -68,9 +70,9 @@ UC dopuszcza dla soku winogronowego także słoiki o pojemności pół galona, t
 
 Według UC po wekowaniu wyłącz ogień, zdejmij pokrywę garnka i odczekaj 5 minut, zanim wyjmiesz słoiki. [T:SLO-204]
 
-Po wyjęciu gorących słoików z garnka nie dokręcaj zakrętek ani pokrywek; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
+Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek ani metalowych pierścieni; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
 
-Słoiki studź w temperaturze pokojowej 12–24 godziny, potem zdejmij metalowe pierścienie (zakrętki) dwuczęściowych pokrywek, nie ruszając płaskich pokrywek, i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
+Słoiki studź w temperaturze pokojowej 12–24 godziny, potem zdejmij same metalowe pierścienie dwuczęściowych pokrywek; płaskie pokrywki zostaw na słoikach i niczego nie odkręcaj, a potem sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
 
 Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
 

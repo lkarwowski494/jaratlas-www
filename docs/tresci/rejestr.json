@@ -31283,6 +31283,15 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "ad40ff4468d7"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/recommended-jars-and-lids/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Recommended Jars and Lids",
+    "cytat": "Screw bands are not needed on stored jars. They can be removed easily after jars are cooled.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ad40ff4468d7"
    }
   ],
   "status": "potwierdzone",
@@ -31325,6 +31334,15 @@
    {
     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
     "miejsce": "NCHFP (nchfp.uga.edu): Storing Home-Canned Jams and Jellies, Q: How long can I keep… once I open them?",
+    "cytat": "store your opened jar of jam or jelly in the refrigerator until consumed",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "59a73517d572"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Storing Home-Canned Jams and Jellies, Q: How long can I keep… once I open them?",
     "cytat": "Discard the product immediately if any signs of spoilage are detected.",
     "odczyt": "2026-11-02",
     "szczebel": 1,
@@ -31340,7 +31358,7 @@
  },
  {
   "id": "SLO-214",
-  "twierdzenie": "UC Steam Juicing Basics (szczebel 3), mrożenie soku: pojemniki do zamrażarki (metalowe, ze sztywnego plastiku albo słoiki); sok rozszerza się przy zamrażaniu, więc zostawić wolną przestrzeń, ok. 1/2 cala (ok. 1,3 cm) w pojemnikach sztywnych, 1/2 cala w pojemnikach pint albo 1 cal (ok. 2,5 cm) w pojemnikach z szerokim otworem i 1 1/2 cala (ok. 3,8 cm) w pojemnikach z wąską szyjką; przy słoikach szklanych zalecane słoiki o prostych ściankach, żeby nie pękały.",
+  "twierdzenie": "UC Steam Juicing Basics (szczebel 3), mrożenie soku: pojemniki do zamrażarki (metalowe, ze sztywnego plastiku albo słoiki); sok rozszerza się przy zamrażaniu, więc trzeba zostawić wolną przestrzeń; przy słoikach szklanych zalecane słoiki o prostych ściankach, żeby nie pękały.",
   "zrodla": [
    {
     "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
@@ -31363,24 +31381,6 @@
    {
     "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
     "miejsce": "UC ANR, Steam Juicing Basics (IV 2026), s. 4, Storing Fresh Juice",
-    "cytat": "½” in pint or 1” in wide-mouth containers;",
-    "odczyt": "2026-11-02",
-    "szczebel": 3,
-    "weryfikacja": "curl+pdftotext+grep",
-    "sha12": "e17f870455a1"
-   },
-   {
-    "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
-    "miejsce": "UC ANR, Steam Juicing Basics (IV 2026), s. 4, Storing Fresh Juice",
-    "cytat": "and 1 ½” in narrow-top containers.",
-    "odczyt": "2026-11-02",
-    "szczebel": 3,
-    "weryfikacja": "curl+pdftotext+grep",
-    "sha12": "e17f870455a1"
-   },
-   {
-    "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
-    "miejsce": "UC ANR, Steam Juicing Basics (IV 2026), s. 4, Storing Fresh Juice",
     "cytat": "Note: When using glass jars, the use of straight-sides jars is recommended to help prevent breakage.",
     "odczyt": "2026-11-02",
     "szczebel": 3,
@@ -31389,7 +31389,7 @@
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "Przeliczenie cali na cm to rachunek JarAtlas (1 cal = 2,54 cm), zaokrąglony. Karta przytacza zdanie UC w całości (sztywne, pint albo szeroki otwór, wąska szyjka).",
+  "uproszczenie": "Wartości wolnej przestrzeni karta podaje według tabeli NCHFP Headspace to Allow (SLO-222), bo skrót w zdaniu UC jest niejednoznaczny.",
   "krytyczne": true,
   "wazne_do": "2027-11-02",
   "klaster": "SLO"
@@ -31711,6 +31711,35 @@
   "status": "potwierdzone",
   "uproszczenie": "Syrop nie wpływa na bezpieczeństwo (ACI-067).",
   "krytyczne": false,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-222",
+  "twierdzenie": "NCHFP Headspace to Allow (mrożenie), soki: w pojemnikach z szerokim otworem 1/2 cala (ok. 1,3 cm) dla pinty (ok. 0,47 l) i 1 cal (ok. 2,5 cm) dla quarta (ok. 0,95 l); w pojemnikach z wąskim otworem 1 1/2 cala (ok. 3,8 cm) dla obu pojemności.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/headspace-to-allow/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Headspace to Allow, tabela",
+    "cytat": "Container with wide top opening Container with narrow top opening Pint Quart Pint Quart",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a522a03dcf3d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/headspace-to-allow/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Headspace to Allow, tabela",
+    "cytat": "Juices ½ inch 1 inch 1½ inch 1½ inch",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a522a03dcf3d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenia cali, pint i quartów to rachunek JarAtlas, zaokrąglone.",
+  "krytyczne": true,
   "wazne_do": "2027-11-02",
   "klaster": "SLO"
  }
