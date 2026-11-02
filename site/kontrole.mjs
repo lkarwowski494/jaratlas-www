@@ -40,6 +40,19 @@ export function kontrolaOstrzezen(strony, katalog, tresci, ui) {
   return bledy;
 }
 
+// Teksty strony języka (rola 04, zmiana 2026-11-02): nagłówek listy wymagany, gdy lista się pojawia; opis zawsze.
+// Tylko niepusty napis (przegląd D-043 P2-2: obiekt dawał „[object Object]”). [DO USTALENIA] łapie R2.
+export function kontrolaTekstowJezyka(strony, ui) {
+  const bledy = [];
+  for (const st of strony.filter((s) => s.typ === 'jezyk')) {
+    for (const [k, potrzebny] of [['produkty', st.produkty.length], ['rodziny', st.rodziny.length], ['opisStronyJezyka', 1]]) {
+      const t = ui?.[st.lang]?.[k];
+      if (potrzebny && !(typeof t === 'string' && t.trim())) bledy.push(`${st.lang}: brak tekstu interfejsu „${k}” (site/teksty/${st.lang}.json)`);
+    }
+  }
+  return bledy;
+}
+
 // R4: adres raz opublikowany nie znika bez 301 (ADR 0002, 0003). adresy = { opublikowane: [sciezka], przekierowania: {stara: nowa} }.
 export function kontrolaPrzekierowan(strony, adresy = {}) {
   const bledy = [], plan = new Set(strony.map((s) => s.sciezka));

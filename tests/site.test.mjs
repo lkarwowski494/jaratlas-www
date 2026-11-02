@@ -5,6 +5,7 @@ import { readFileSync } from 'node:fs';
 import { generuj } from '../site/generuj.mjs';
 import { sprawdzSlugi, planStron } from '../site/plan.mjs';
 import { mapyStrony } from '../site/mapa.mjs';
+import { kontrolaTekstowJezyka } from '../site/kontrole.mjs';
 import { DOMENA } from '../site/konfiguracja.mjs';
 
 const pub = { publication: 'opublikowana', scope: 'in', content: 'tak' };
@@ -378,6 +379,10 @@ test('strona języka: hreflang między stronami języków, x-default = /en/, kan
 test('strona języka: brak tekstu interfejsu dla nagłówka listy albo opisu = błąd (zaślepka roli 04 łapana przez R2)', () => {
   const bez = (k) => { const u = { ...uiL }; delete u[k]; return generuj(dane({ ui: { pl: u, en: uiL } })).bledy; };
   for (const k of ['produkty', 'rodziny', 'opisStronyJezyka']) assert.ok(bez(k).includes(`pl: brak tekstu interfejsu „${k}” (site/teksty/pl.json)`), k);
+  // Przegląd D-043 P2-2/P3-2d: obiekt, tablica albo same spacje to też brak tekstu (było: <h2>[object Object]</h2> bez błędu).
+  for (const zla of [{ apple: 'Apple' }, ['P'], '   ']) assert.ok(generuj(dane({ ui: { pl: { ...uiL, produkty: zla }, en: uiL } })).bledy.includes('pl: brak tekstu interfejsu „produkty” (site/teksty/pl.json)'), JSON.stringify(zla));
+  // Czysta funkcja w kontrole.mjs (jak R3 dla uwagi D-027 c), niezależna od generuj.mjs.
+  assert.deepEqual(kontrolaTekstowJezyka([{ typ: 'jezyk', lang: 'de', produkty: ['a'], rodziny: [] }], {}), ['de: brak tekstu interfejsu „produkty” (site/teksty/de.json)', 'de: brak tekstu interfejsu „opisStronyJezyka” (site/teksty/de.json)']);
   // en nie ma stron rodzin: brak „rodziny” w en nie jest błędem.
   const u = { ...uiL }; delete u.rodziny;
   assert.deepEqual(generuj(dane({ ui: { pl: uiL, en: u } })).bledy, []);
