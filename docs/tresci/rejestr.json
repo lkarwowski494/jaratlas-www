@@ -3289,7 +3289,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "0335cf8fbb83"
+   "sha": "3639c56181a5"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -4677,12 +4677,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "b1f2c5880424"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-064",
@@ -4935,15 +4935,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "bd2242d31a35"
   },
   "wielkosc": "czas kąpieli wodnej · ACI-071",
   "wartosc": 20,
   "jednostka": "min",
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-072",
@@ -5024,15 +5024,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "4db4efd260fb"
   },
   "wielkosc": "czas kąpieli wodnej (1 qt) · ACI-074",
   "wartosc": 25,
   "jednostka": "min",
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-075",
@@ -5111,15 +5111,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "0a6af35d2fed"
   },
   "wielkosc": "czas kąpieli wodnej · ACI-077",
   "wartosc": 15,
   "jednostka": "min",
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-078",
@@ -5169,15 +5169,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "a218b3e7a3d4"
   },
   "wielkosc": "czas kąpieli wodnej (1 qt) · ACI-079",
   "wartosc": 5,
   "jednostka": "min",
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-080",
@@ -11039,7 +11039,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "832e44dc0dc1"
+   "sha": "1bd2ab14b943"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
@@ -11100,7 +11100,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "1c326ffaa88f"
+   "sha": "3a48004f4f46"
   },
   "klaster": "SLO",
   "weryfikacjaZastepcza": "2026-11-02"
@@ -12282,12 +12282,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "71c92d29e6a9"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-091",
@@ -12440,14 +12440,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "9aec0842fa8c"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
   "brzmienieE2": "NCHFP podaje przetestowany przepis \"Apples-Sliced\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
   "weryfikacjaE3": "Przepis i tabela 1 istnieją, ale tabela ma jeden wiersz (pint lub quart (na gorąco)) i czas nie zależy od wielkości słoika, tylko od wysokości; brzmienie sugeruje też inne rozmiary słoików (np. quart), których przepis nie obejmuje.",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-097",
@@ -12520,12 +12520,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "6fc2dc3c8609"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-100",
@@ -12598,14 +12598,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "eb984020e172"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
   "brzmienieE2": "NCHFP podaje przetestowany przepis \"Rhubarb-Stewed\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
   "weryfikacjaE3": "Przepis i tabela 1 istnieją, ale tabela ma jeden wiersz (pint lub quart (na gorąco)) i czas nie zależy od wielkości słoika, tylko od wysokości; brzmienie sugeruje też inne rozmiary słoików (np. quart), których przepis nie obejmuje.",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-103",
@@ -12626,14 +12626,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "f2bb22da5659"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
   "brzmienieE2": "NCHFP podaje przetestowany przepis \"Grapefruit and Orange Sections\" z wekowaniem w kąpieli wodnej; czas według tabeli 1 zależy od wielkości słoika i wysokości n.p.m.",
   "weryfikacjaE3": "Przepis i tabela 1 istnieją, ale tabela ma jeden wiersz (pint lub quart (na surowo)) i czas nie zależy od wielkości słoika, tylko od wysokości; brzmienie sugeruje też inne rozmiary słoików (np. quart), których przepis nie obejmuje.",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-104",
@@ -23545,7 +23545,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "d79b72e8550a"
+   "sha": "479eb6176cd4"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -23571,7 +23571,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "654335364dfe"
+   "sha": "7b9926d06a32"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -23602,7 +23602,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "6669c9015e46"
+   "sha": "457db80ae3b1"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -23991,7 +23991,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "e459a097a744"
+   "sha": "dc476a29886a"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
@@ -24035,7 +24035,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "0d341b2ba664"
+   "sha": "fd5b1214a5ce"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
@@ -24629,7 +24629,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "12935fab9c0f"
+   "sha": "5e7f61402c7f"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -30560,7 +30560,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "cde404cfb11f"
+   "sha": "58482052a61d"
   },
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -30604,7 +30604,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "21c255fc2d62"
+   "sha": "079ea6413032"
   },
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -30752,7 +30752,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "7f22dafba3b2"
+   "sha": "cb731597a1e7"
   },
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -30778,7 +30778,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "7f9643902c50"
+   "sha": "0d37e26db7fa"
   },
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -30813,7 +30813,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "f43c7c7e9b83"
+   "sha": "064500f28db2"
   },
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -30950,7 +30950,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "8fe71d64cdea"
+   "sha": "ebe1a042e7fc"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -31213,15 +31213,42 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "c499c01eea4b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/cooling-jars-and-testing-jar-seals/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cooling Jars and Testing Jar Seals, Cooling jars",
+    "cytat": "Retightening of hot lids may cut through the gasket and cause seal failures.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b9cceaadfe83"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/recommended-jars-and-lids/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Recommended Jars and Lids",
+    "cytat": "Fill jars with food, add lids, and tighten screw bands.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ad40ff4468d7"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/recommended-jars-and-lids/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Recommended Jars and Lids",
+    "cytat": "Do not retighten lids after processing jars.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ad40ff4468d7"
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": null,
+  "uproszczenie": "„Pokrywki ani pierścienie”: NCHFP zakłada zamknięcie dwuczęściowe (pokrywka + pierścień zakręcany), zakazuje dokręcania pokrywek po wekowaniu; zakaz obejmuje dokręcanie pierścienia, który dociska pokrywkę.",
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "6d83103dc310"
+   "sha": "065ff4df6141"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -31298,7 +31325,13 @@
   "uproszczenie": null,
   "krytyczne": true,
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "bc4acaa05df6"
+  },
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-213",
@@ -31354,7 +31387,13 @@
   "uproszczenie": null,
   "krytyczne": true,
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "da2c2ea0b629"
+  },
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-214",
@@ -31392,7 +31431,13 @@
   "uproszczenie": "Wartości wolnej przestrzeni karta podaje według tabeli NCHFP Headspace to Allow (SLO-222), bo skrót w zdaniu UC jest niejednoznaczny.",
   "krytyczne": true,
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "2d5b8fbf0dba"
+  },
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-215",
@@ -31457,7 +31502,13 @@
   "uproszczenie": "Przeliczenia funtów, pint i cali to rachunek JarAtlas (1 funt ≈ 0,454 kg, pint ≈ 473 ml, 1 cal = 2,54 cm), zaokrąglone.",
   "krytyczne": true,
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "9946bd28c884"
+  },
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-216",
@@ -31504,7 +31555,13 @@
   "uproszczenie": "Słoiki 1/2 galona pominięte na karcie (jak SLO-208); przeliczenie 1/4 cala ≈ 0,6 cm to rachunek JarAtlas.",
   "krytyczne": true,
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "1af58e671362"
+  },
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-217",
@@ -31560,7 +31617,13 @@
   "uproszczenie": "Przeliczenia funtów i cali to rachunek JarAtlas, zaokrąglone.",
   "krytyczne": true,
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "6118d73bfb65"
+  },
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-218",
@@ -31580,7 +31643,13 @@
   "uproszczenie": "Reguła ostrożna z braku źródła (D-027 b): pominięcie dodatku spoza przepisu, jak SLO-201.",
   "krytyczne": true,
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "6cdbc6659d9a"
+  },
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-219",
@@ -31627,7 +31696,13 @@
   "uproszczenie": "Przeliczenia funtów, cali i quartów to rachunek JarAtlas, zaokrąglone.",
   "krytyczne": true,
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "cdeb7f9372a5"
+  },
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-220",
@@ -31683,7 +31758,13 @@
   "uproszczenie": "Przeliczenia funtów i cali to rachunek JarAtlas, zaokrąglone.",
   "krytyczne": true,
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "3fe0bbf03651"
+  },
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-221",
@@ -31741,6 +31822,12 @@
   "uproszczenie": "Przeliczenia cali, pint i quartów to rachunek JarAtlas, zaokrąglone.",
   "krytyczne": true,
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "5ba488db51af"
+  },
+  "weryfikacjaZastepcza": "2026-11-02"
  }
 ]
