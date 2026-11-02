@@ -4,7 +4,7 @@ This card describes a cornelian cherry jam without added pectin from the bylena.
 
 ## !
 
-- Store sealed jars in a cool, dark, dry place at 50–70 °F (about 10–21 °C) and use them within a year: NCHFP says jams and jellies made from a tested recipe and processed for the recommended time keep their best quality for up to a year. [T:ACI-733]
+- Store sealed jars in a cool, dark, dry place at 50–70 °F (about 10–21 °C) and, for best quality, use them within a year: NCHFP gives up to a year of best quality for jams and jellies made from a tested recipe and processed for the recommended time, and this card is not a tested recipe. [T:ACI-733]
 - Do not reduce the sugar: NCHFP warns that in traditional recipes too little sugar prevents gelling and may allow yeasts and molds to grow. [T:SLO-001]
 
 ## About the fruit and the recipe
@@ -61,7 +61,7 @@ Shortening the time or cooling jars in cold water can also lead to spoilage. [T:
 
 The NCHFP table gives times only for half-pint and pint jars. [T:ACI-625]
 
-JarAtlas rule (NCHFP does not test metric jars): a pint holds about 473 ml, so a 0.5 l jar has no tested time in this recipe; use jars of up to 473 ml. [T:ACI-179,ACI-174]
+JarAtlas rule (cautious; the NCHFP table stops at pints): a pint holds about 473 ml, so a 0.5 l jar has no tested time in this recipe; use jars of up to 473 ml. [T:ACI-179,ACI-174]
 
 ## Cooling and storing
 
@@ -81,7 +81,7 @@ Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) a
 
 Keep opened jam in the refrigerator at 40 °F (about 4 °C) or lower. [T:SLO-018]
 
-Regular full-sugar cooked jams, like this one, are best kept in the refrigerator for 1 month after opening. [T:SLO-018]
+JarAtlas rule: keep an opened jar in the refrigerator and use it within 1 month, the time NCHFP gives for regular full-sugar cooked jams. [T:SLO-018]
 
 Opening the jar often or leaving it out at room temperature for long periods shortens this time; you can spoon the amount you need into a bowl and put the jar back in the refrigerator quickly. [T:SLO-213]
 
