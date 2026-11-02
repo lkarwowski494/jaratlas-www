@@ -31,6 +31,8 @@ const ZOSTAJA = ['plum-v11', 'blueberry-bilberry-v06', 'blueberry-bilberry-v12',
   'cranberry-lingonberry-v11', 'cornelian-cherry-v08', 'chokeberry-seabuckthorn-v09', 'grapefruit-v07', 'raspberry-blackberry-v10', 'gooseberry-v08',
   'orange-kumquat-v09', 'grapes-v08', 'pear-v09', 'apple-v12', 'quince-v09', 'gooseberry-v10', 'cultivated-mushrooms-v01', 'european-mixed-veg-v01'];
 // B17: C9-D6 bez weta na tablicy → peach-nectarine-v01 ok-zrodlo (tylko pint); stan pilnuje tests/b17-katalog.test.mjs.
+// B18 (werdykty B16, 2026-11-02-jaratlas-b18-katalog): warianty ze zmienionym statusem; ich stan pilnuje tests/b18-katalog.test.mjs.
+const B18 = new Set(['chili-pepper-v05', 'currant-v08', 'blueberry-bilberry-v08', 'gooseberry-v08', 'strawberry-v09', 'cranberry-lingonberry-v02', 'lime-bergamot-v09', 'quince-v07', 'radish-v09', 'chokeberry-seabuckthorn-v11', 'horseradish-v04', 'white-cabbage-v11', 'cucumber-v11', 'peach-nectarine-v08', 'orange-kumquat-v09', 'chokeberry-seabuckthorn-v07', 'napa-cabbage-v10', 'blueberry-bilberry-v07', 'cornelian-cherry-v10']);
 const B17 = new Set(['peach-nectarine-v01']);
 const NOWE = Array.from({ length: 47 }, (_, i) => `ACI-${600 + i}`);
 const ROBOCZE = ['ACI-631', 'ACI-639']; // po dwóch przebiegach D-027 nadal CZĘŚCIOWO (wady cytatów); bez trzeciego przebiegu (wzór B10-D4)
@@ -55,6 +57,7 @@ test('B11: 42 warianty C9 rozliczone dokładnie raz, ukryte, z notatką [B11]', 
 
 test('B11: ryzyko-wysokie jako karta-ostrzeżenie z obowiązkowymi ostrzeżeniami (także w claims)', () => {
   for (const [id, w] of Object.entries(RYZYKO)) {
+    if (B18.has(id)) continue;
     const v = V.get(id);
     assert.equal(v.safetyStatus, 'ryzyko-wysokie', id);
     assert.equal(v.cardType, 'warning', id);
@@ -88,6 +91,7 @@ test('B11: reszta zostaje do-researchu bez zmiany claims, sources i nazwy (peach
   const PRZED = {"plum-v11":"978cf74e6fda","blueberry-bilberry-v06":"c4424f9bda80","blueberry-bilberry-v12":"603ab230fc9c","currant-v11":"cf012b179bc3","blueberry-bilberry-v10":"5cb5ffa3a470","rhubarb-v06":"105db79e1948","cranberry-lingonberry-v11":"ec14442d2b6f","cornelian-cherry-v08":"c291af2aa246","chokeberry-seabuckthorn-v09":"b900643c44bf","grapefruit-v07":"e4c627c98402","raspberry-blackberry-v10":"2bba94e61c0c","gooseberry-v08":"259de2a9a45e","orange-kumquat-v09":"38111691c16e","grapes-v08":"8f870c702d14","pear-v09":"e2f8027a6271","apple-v12":"36dc79727a5d","quince-v09":"cefb4c7d2333","gooseberry-v10":"da1d2569bd17","cultivated-mushrooms-v01":"05802a9bea05","european-mixed-veg-v01":"815ffb6f738f","peach-nectarine-v01":"873f46122f23"};
   assert.deepEqual(Object.keys(PRZED).sort(), [...ZOSTAJA, ...B17].sort()); // B17: skrót sprzed B11 zostaje jako zapis historii
   for (const id of ZOSTAJA) {
+    if (B18.has(id)) continue;
     const v = V.get(id);
     assert.equal(v.safetyStatus, 'do-researchu', id);
     assert.equal(v.cardType, undefined, id);

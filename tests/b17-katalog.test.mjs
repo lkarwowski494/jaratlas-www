@@ -54,8 +54,8 @@ export const POLA = Object.fromEntries([
 ]);
 const SNAP = {"lemon-v13":"3eb134996b82","lemon-v15":"c2bef80d9774","orange-kumquat-v14":"77461427d195","grapefruit-v09":"b76abb6078f2","poultry-v14":"91e4b5faa7ca","peach-nectarine-v01":"ac08de31b270","wild-garlic-v07":"d357330bea4f","wild-garlic-v11":"9dee88491ef7","rosehip-rowan-v02":"86574d7de08e","rosehip-rowan-v07":"ded2db06f425","rosehip-rowan-v10":"505d39d8524c","rosehip-rowan-v12":"ba6e24f5f73f","yogurt-skyr-v11":"a0b9c96fd48d","quark-acid-cheese-v12":"f68698303ce4","beef-veal-v09":"5be4ea70ea6b","wild-garlic-v09":"3b1b6f092073","raspberry-blackberry-v15":"8861767fdfd0"};
 
-test('B17: katalog 1.0.12 przechodzi walidację bez błędów', () => {
-  assert.equal(cat.version, '1.0.12');
+test('B17: katalog co najmniej 1.0.12 przechodzi walidację bez błędów', () => {
+  assert.ok(cat.version.split('.').map(Number).reduce((a, n) => a * 1000 + n) >= 1000012, `wersja ${cat.version} co najmniej 1.0.12 (B18: 1.0.13)`);
   assert.deepEqual(validateCatalog(cat, rej).errors, []);
 });
 

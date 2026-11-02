@@ -25,6 +25,8 @@ const RYZYKO = {
   'onion-v07': ['ACI-524', 'SLO-023', 'MIE-059'], 'carrot-v11': ['SLO-023', 'MIE-059'], 'beetroot-v13': ['SLO-023', 'MIE-059'],
 };
 const WYCOFANE = { 'corn-v03': 'corn-v04', 'onion-v03': 'shallot-pearl-onion-v05' };
+// B18 (werdykty B16, 2026-11-02-jaratlas-b18-katalog): warianty ze zmienionym statusem; ich stan pilnuje tests/b18-katalog.test.mjs.
+const B18 = new Set(['chili-pepper-v05', 'currant-v08', 'blueberry-bilberry-v08', 'gooseberry-v08', 'strawberry-v09', 'cranberry-lingonberry-v02', 'lime-bergamot-v09', 'quince-v07', 'radish-v09', 'chokeberry-seabuckthorn-v11', 'horseradish-v04', 'white-cabbage-v11', 'cucumber-v11', 'peach-nectarine-v08', 'orange-kumquat-v09', 'chokeberry-seabuckthorn-v07', 'napa-cabbage-v10', 'blueberry-bilberry-v07', 'cornelian-cherry-v10']);
 const ZOSTAJA = ['tomatillo-v06', 'cucumber-v11', 'chili-pepper-v04', 'peach-nectarine-v04', 'apple-v08', 'strawberry-v07', 'strawberry-v12', 'rhubarb-v07', 'lemon-v11', 'orange-kumquat-v07',
   'currant-v06', 'currant-v08', 'rosehip-rowan-v06', 'rosehip-rowan-v08', 'chokeberry-seabuckthorn-v07', 'cranberry-lingonberry-v07', 'blueberry-bilberry-v08', 'apple-v11', 'peach-nectarine-v08',
   'european-mixed-veg-v07', 'daikon-black-radish-v04', 'radish-v04', 'napa-cabbage-v09', 'brussels-kohlrabi-v09', 'turnip-rutabaga-v05', 'onion-v05', 'shallot-pearl-onion-v02',
@@ -119,7 +121,7 @@ test('B10: proste zmiany nazw przy ok-zrodlo (nazwa = przepis)', () => {
 });
 
 test('B10: pozostałe warianty zostają do-researchu (zmiana nie jest prosta albo brak źródła)', () => {
-  for (const id of ZOSTAJA) assert.equal(V.get(id).safetyStatus, 'do-researchu', id);
+  for (const id of ZOSTAJA) if (!B18.has(id)) assert.equal(V.get(id).safetyStatus, 'do-researchu', id);
 });
 
 test('B10: rejestr ma ACI-400–496, ACI-500–525, SLO-460–473, NAP-063 bez kluczy tymczasowych', () => {

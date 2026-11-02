@@ -1,5 +1,5 @@
 {
- "version": "1.0.12",
+ "version": "1.0.13",
  "generated": "2026-11-02",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -4052,8 +4052,11 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "nie-publikowac",
+   "claims": [
+    "SZY-054",
+    "ACI-016"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -4065,7 +4068,8 @@
     "[OLE*] Pikle octowe bez oleju; poza obszarem OLE.",
     "[SUS] Pikle octowe (korniszony); nie suszenie. Metoda wstępna, decyduje ACI.",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
-    "[B10] zostaje do-researchu (C8): proponowana nazwa „słodkie korniszony” (NCHFP Sweet Gherkin) zmienia tożsamość wariantu (korniszony francuskie są niesłodzone); decyzja redakcji (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (C8): proponowana nazwa „słodkie korniszony” (NCHFP Sweet Gherkin) zmienia tożsamość wariantu (korniszony francuskie są niesłodzone); decyzja redakcji (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims SZY-054, ACI-016 to reguła ogólna metody, requiredWarnings SZY-054, ACI-016 (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -4073,6 +4077,11 @@
     "OLE",
     "SUS",
     "NAP"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016"
    ]
   },
   {
@@ -4835,8 +4844,15 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "ACI-868",
+    "ACI-751",
+    "ACI-509",
+    "ACI-508",
+    "ACI-501",
+    "ACI-005"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -4847,13 +4863,20 @@
    "notes": [
     "[SUS*] Kapusta po koreańsku: sałatka marynowana; nie suszenie.",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
-    "[B10] zostaje do-researchu (B9): przepis nieprzetestowany: najwyżej 2 tygodnie (ACI-508) nie podnosi statusu (B9-D4) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (B9): przepis nieprzetestowany: najwyżej 2 tygodnie (ACI-508) nie podnosi statusu (B9-D4) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] do-researchu → ryzyko-wysokie (B16, scenariusz B niespełniony: brak przepisu szczebla 1–3, przepis szczebla 4 ma mniej octu niż innych płynów wbrew ACI-751), karta-ostrzeżenie; requiredWarnings ACI-751, ACI-509, ACI-508 (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS",
     "NAP"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-751",
+    "ACI-509",
+    "ACI-508"
    ]
   },
   {
@@ -5927,8 +5950,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "nie-publikowac",
+   "claims": [
+    "ACI-505",
+    "ACI-508",
+    "ACI-509",
+    "ACI-501"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -5939,13 +5967,19 @@
    "notes": [
     "[SUS*] Kapusta słodko-kwaśna po syczuańsku; nie suszenie.",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
-    "[B12] zostaje do-researchu (C10 sekcja 3): Brak przepisu lodówkowego szczebla 1–3 na kapustę w occie z cukrem: NC State/UC MFP (ACI-505) nie wymieniają kapusty, B2267 (ACI-503) to ogórki z cebulą/papryką/kalafiorem/marchwią. Twierdzenia z raportu poza claims: ACI-501, ACI-509, ACI-016, ACI-508, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10)."
+    "[B12] zostaje do-researchu (C10 sekcja 3): Brak przepisu lodówkowego szczebla 1–3 na kapustę w occie z cukrem: NC State/UC MFP (ACI-505) nie wymieniają kapusty, B2267 (ACI-503) to ogórki z cebulą/papryką/kalafiorem/marchwią. Twierdzenia z raportu poza claims: ACI-501, ACI-509, ACI-016, ACI-508, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10).",
+    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims ACI-505, ACI-508, ACI-509, ACI-501 to reguła ogólna metody, requiredWarnings ACI-508, ACI-501 (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS",
     "NAP"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-508",
+    "ACI-501"
    ]
   },
   {
@@ -12224,7 +12258,8 @@
    },
    "notes": [
     "[ACI*] Escabeche (jalapeño + marchew + cebula): najbliższe NCHFP Pickled Jalapeño Rings (same papryczki); mieszanka nieprzetestowana.",
-    "[B10] zostaje do-researchu (C8): zmiana na NCHFP Pickled Jalapeño Rings usuwa escabeche (marchew, cebula) i zmienia tożsamość; sprawdzić duplikat z chili-pepper-v08 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (C8): zmiana na NCHFP Pickled Jalapeño Rings usuwa escabeche (marchew, cebula) i zmienia tożsamość; sprawdzić duplikat z chili-pepper-v08 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Nazwa „krążki jalapeño w occie jabłkowym (NCHFP)”; usunąć „escabeche”; skład i proces 1:1 wg NCHFP Pickled Jalapeño Rings (wapno 18 h, trzykrotne płukanie). (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -12243,7 +12278,7 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "ryzyko-wysokie",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
     "ACI-094",
     "ACI-016",
@@ -12252,9 +12287,35 @@
     "ACI-414",
     "ACI-415",
     "ACI-416",
-    "ACI-417"
+    "ACI-417",
+    "ACI-720",
+    "ACI-721",
+    "ACI-722",
+    "ACI-267"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://ucanr.edu/sites/default/files/2025-05/Pickled%20Jalapenos_Fair_Checked.pdf",
+     "miejsce": "Pickled Jalapenos (UC MFP San Diego, „Fair Checked”, 2025), składniki i nagłówek",
+     "cytat": "These pickled jalapenos, also known as candied jalapenos, deliver a real punch of sweet heat.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://ucanr.edu/sites/default/files/2025-05/Pickled%20Jalapenos_Fair_Checked.pdf",
+     "miejsce": "Pickled Jalapenos, Directions 3",
+     "cytat": "and simmer for 15 minutes, until jalapenos are dark green",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://ucanr.edu/sites/mfp_of_cs/files/402446.pdf",
+     "miejsce": "Candied Jalapeños, krok 5",
+     "cytat": "process pint jars 15 minutes at 0 – 1,000 feet elevation, 20 minutes",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -12263,14 +12324,14 @@
    },
    "notes": [
     "[SLO*] Cowboy candy to marynata octowo-cukrowa (ACI). Pepper jelly NCHFP nie jest odpowiednikiem.",
-    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-094, ACI-016, ACI-017; C9-D10: cowboy candy tylko Ball/blogi (szczebel 4) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-094, ACI-016, ACI-017; C9-D10: cowboy candy tylko Ball/blogi (szczebel 4) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B18] ryzyko-wysokie → ok-zrodlo (B16 §4, reguła Ball (b)): źródła ACI-720, ACI-721, ACI-722; requiredWarnings ACI-094, ACI-016, ACI-017; parametry karty w B16 JSON (tor A) (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
    ],
-   "cardType": "warning",
    "requiredWarnings": [
     "ACI-094",
     "ACI-016",
@@ -14051,7 +14112,8 @@
     "[zastąpione B10] [ACI*] Pieczona salsa verde: najbliższa NCHFP Tomatillo Green Salsa (bez pieczenia). Pieczenie zmienia produkt — DO USTALENIA, czy dopuszczalne przy zachowaniu odmierzanych objętości.",
     "[SZY] Salsa verde z tomatillo: NCHFP ma przetestowaną zakwaszoną salsę (ACI); wersja pieczona do sprawdzenia.",
     "[B10] nazwa „pieczona salsa verde do słoików (pasteryzacja)” → „salsa verde z tomatillo do słoików” (C8: pieczenie tomatillo poza przepisem NCHFP Tomatillo Green Salsa (zmienia proporcje warzyw do kwasu); usunięte słowo „pieczona”) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
-    "[B10] zostaje do-researchu (C8): przegląd D-043 (P1): twierdzenie o procedurze ACI-428 robocze po dwóch przebiegach D-027, więc bez ok-zrodlo; przepis NCHFP Tomatillo Green Salsa (ACI-427, ACI-429, ACI-430) potwierdzony (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (C8): przegląd D-043 (P1): twierdzenie o procedurze ACI-428 robocze po dwóch przebiegach D-027, więc bez ok-zrodlo; przepis NCHFP Tomatillo Green Salsa (ACI-427, ACI-429, ACI-430) potwierdzony (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Nazwa „salsa verde z tomatillo do słoików (NCHFP)”; usunąć „pieczona”; chili wolno opalić tylko do obrania skórki (ACI-428). (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -16656,7 +16718,8 @@
    },
    "notes": [
     "[ACI*] Escabeche marchew+jalapeño: mieszanka nieprzetestowana (NCHFP osobno: Pickled Carrots, Pickled Jalapeño Rings).",
-    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D8), karta-ostrzeżenie; requiredWarnings ACI-005, ACI-016, ACI-449; mieszanka niskokwasowa (marchew ACI-105) bez przetestowanego przepisu; poprawka zmieniłaby tożsamość wariantu (C8) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D8), karta-ostrzeżenie; requiredWarnings ACI-005, ACI-016, ACI-449; mieszanka niskokwasowa (marchew ACI-105) bez przetestowanego przepisu; poprawka zmieniłaby tożsamość wariantu (C8) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] B16: zostaje ryzyko-wysokie (przedruk Ball Escabeche: niejasna wydajność, brak tabeli wysokości; D-A1 do weta); twierdzenia ACI-864, ACI-865, ACI-723 nie weszły do rejestru (wspierają kandydata, nie kartę-ostrzeżenie) (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -18054,7 +18117,8 @@
    "notes": [
     "[SLO*] Jak onion-v07.",
     "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-033 to pH cebuli czerwonej, a produkt dotyczy cebuli żółtej i białej.",
-    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Jak onion-v07 (B9-D10): dżem warzywny z niskokwasowej cebuli, brak przepisu lodówkowego i limitu; requiredWarnings ACI-524, SLO-023, MIE-059; poza claims (robocze): SLO-491; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
+    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Jak onion-v07 (B9-D10): dżem warzywny z niskokwasowej cebuli, brak przepisu lodówkowego i limitu; requiredWarnings ACI-524, SLO-023, MIE-059; poza claims (robocze): SLO-491; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status ryzyko-wysokie bez zmian do decyzji toru A / roli 03; proponowana zmiana: Zmiana metody (lodówka → kąpiel wodna) i składu: „marmolada z dwóch cebul (Ball)” 1:1, bez tymianku (nie ma go w przepisie), z rodzynkami, pieprzem i laurem w woreczku. (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -19651,7 +19715,8 @@
    },
    "notes": [
     "[ACI*] Sałatka z białej rzodkwi: brak przepisu.",
-    "[B12] wycofany jako duplikat daikon-black-radish-v03 (C10-D12; warunek B9 spełniony: następca ok-zrodlo od B10), status do-researchu bez zmian: Nazwa „sałatka” nie wskazuje proporcji ani kwasu; źródła szczebla 3 mają daikon tylko w UNL (z marchewką). Twierdzenia z raportu poza claims: ACI-511, ACI-505, ACI-506, ACI-501, ACI-509, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10)."
+    "[B12] wycofany jako duplikat daikon-black-radish-v03 (C10-D12; warunek B9 spełniony: następca ok-zrodlo od B10), status do-researchu bez zmian: Nazwa „sałatka” nie wskazuje proporcji ani kwasu; źródła szczebla 3 mają daikon tylko w UNL (z marchewką). Twierdzenia z raportu poza claims: ACI-511, ACI-505, ACI-506, ACI-501, ACI-509, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Ująć jako szybki daikon z marchewką UNL (ACI-511) — to treść daikon-black-radish-v03 (duplikat warunkowy wg E1 p2). (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -20127,13 +20192,34 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
     "ACI-016",
     "ACI-017",
-    "ACI-005"
+    "ACI-005",
+    "ACI-862",
+    "ACI-751",
+    "ACI-509",
+    "ACI-508",
+    "ACI-501",
+    "ACI-523"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/340559.pdf",
+     "miejsce": "OSU SP 50-464 (rev. 2014), Analyzing Pickle Recipes, Type of Pickle: Quick or Fresh Pack (przedruk na stronie UC ANR)",
+     "cytat": "Recipes for fresh or quick pack pickles will have at least as much vinegar as water in the recipe. … 2. Make sure the recipe calls for vinegar that is 5% acidity. 3. For fresh or quick pack pickles, make sure the recipe has at least as much vinegar as water unless it is an OSU/USDA tested recipe.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://redemptionpermaculture.com/wp-content/uploads/2023/06/Pickled-Radish-Seed-Pods.pdf",
+     "miejsce": "Pickled Radish Seed Pods, składniki",
+     "cytat": "1/2 cup of white vinegar",
+     "odczyt": "2026-11-02",
+     "szczebel": 4
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -20142,12 +20228,19 @@
    },
    "notes": [
     "[ACI*] Strąki rzodkiewki (mougri) w occie: brak przepisu i danych pH.",
-    "[B12] zostaje do-researchu (C10 sekcja 3): NC State/UC MFP wymieniają rzodkiewki (korzeń) i strąki groszku, nie strąki rzodkiewki; brak pH strąków w liście FDA; przepisy na mougri tylko na blogach (szczebel 5). Twierdzenia z raportu poza claims: ACI-505, ACI-506, ACI-508. (2026-11-02-jaratlas-06-b12-katalog-c10)."
+    "[B12] zostaje do-researchu (C10 sekcja 3): NC State/UC MFP wymieniają rzodkiewki (korzeń) i strąki groszku, nie strąki rzodkiewki; brak pH strąków w liście FDA; przepisy na mougri tylko na blogach (szczebel 5). Twierdzenia z raportu poza claims: ACI-505, ACI-506, ACI-508. (2026-11-02-jaratlas-06-b12-katalog-c10).",
+    "[B18] do-researchu → ok-zrodlo (B16 §4, reguła B): źródła ACI-751, ACI-862; przepis szczebla 4 (ACI-862) tylko w granicach reguły szczebla 1–3 (ACI-751), krótszy limit wygrywa; requiredWarnings ACI-751, ACI-509, ACI-508, ACI-501; parametry karty w B16 JSON (tor A) (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "requiredWarnings": [
+    "ACI-751",
+    "ACI-509",
+    "ACI-508",
+    "ACI-501"
    ]
   },
   {
@@ -20351,8 +20444,17 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "ACI-867",
+    "ACI-751",
+    "ACI-509",
+    "ACI-508",
+    "ACI-005",
+    "ACI-035",
+    "ACI-700",
+    "ACI-514"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -20363,7 +20465,8 @@
    "notes": [
     "[FER*] Ćwikła chrzanowa: zwykle z octem.",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
-    "[B10] zostaje do-researchu (B9): brak przepisu lodówkowego z proporcjami i limitem dni (ACI-514 tylko jakość) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (B9): brak przepisu lodówkowego z proporcjami i limitem dni (ACI-514 tylko jakość) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] do-researchu → ryzyko-wysokie (B16, scenariusz B niespełniony: brak przepisu szczebla 1–3, przepis szczebla 4 ma mniej octu niż innych płynów wbrew ACI-751), karta-ostrzeżenie; requiredWarnings ACI-751, ACI-509, ACI-508 (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -20371,7 +20474,13 @@
     "FER",
     "NAP"
    ],
-   "nameV0": "ćwikła chrzanowa ($70\\%$ chrzanu)"
+   "nameV0": "ćwikła chrzanowa ($70\\%$ chrzanu)",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-751",
+    "ACI-509",
+    "ACI-508"
+   ]
   },
   {
    "id": "horseradish-v05",
@@ -20401,7 +20510,8 @@
    "notes": [
     "[ACI*] Chrzan z miodem i octem jabłkowym: zmiana składu względem przepisu NCHFP (który jest lodówkowy); brak przepisu.",
     "[SLO] Chrzan w occie z miodem, obszar ACI; miód: ostrzeżenie dla niemowląt.",
-    "[B12] wycofany jako duplikat horseradish-v01 (C10-D6, C10-D12), status do-researchu bez zmian: NCHFP/NDSU mają biały ocet 5%; ocet jabłkowy zamiennie tylko wg reguły Wisconsin dla szybkich pikli (ACI-509), nie w przepisie chrzanowym. Twierdzenia z raportu poza claims: ACI-700, ACI-514, ACI-501, ACI-509, SLO-465, SLO-466. (2026-11-02-jaratlas-06-b12-katalog-c10)."
+    "[B12] wycofany jako duplikat horseradish-v01 (C10-D6, C10-D12), status do-researchu bez zmian: NCHFP/NDSU mają biały ocet 5%; ocet jabłkowy zamiennie tylko wg reguły Wisconsin dla szybkich pikli (ACI-509), nie w przepisie chrzanowym. Twierdzenia z raportu poza claims: ACI-700, ACI-514, ACI-501, ACI-509, SLO-465, SLO-466. (2026-11-02-jaratlas-06-b12-katalog-c10).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Skład: przepis NDSU (ACI-700) z octem jabłkowym 5% zamiast białego, bez miodu w słoiku (miód przy podaniu); limit 2 tygodnie. (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -26478,7 +26588,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Mint Jelly i Apple Jelly osobno, nie dżem jabłkowo-miętowy.",
-    "[B11] zostaje do-researchu (C9: przepis NCHFP Apple Preserves Pectin; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] zostaje do-researchu (C9: przepis NCHFP Apple Preserves Pectin; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: (a) „galaretka miętowa” wg Sure-Jell (ACI-748) lub NCHFP (SLO-082) albo (b) „konfitura jabłkowa” bez mięty wg NCHFP (ACI-622, ACI-623). Mięty do dżemu jabłkowego nie dodawać. (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -27093,7 +27204,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Pear Preserves (konfitura w syropie), nie dżem z przyprawami.",
-    "[B11] zostaje do-researchu (C9: przepis USDA Guide 7 Pear-Apple Jam; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] zostaje do-researchu (C9: przepis USDA Guide 7 Pear-Apple Jam; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Usunąć „lub kardamonem”: „dżem gruszkowy z imbirem” wg Certo UK (ACI-740). (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -27422,7 +27534,8 @@
    "notes": [
     "[SZY] Syrop z pigwowca na surowo (SLO).",
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Syrop z surowych owoców pigwowca zasypanych cukrem: reguła przetworów niegotowanych (lodówka/zamrażarka).",
-    "[B12] zostaje do-researchu (C10-D8): Pigwowiec (Chaenomeles) kwaśny, cukier wysoki, ryzyko niskie, ale brak źródła o tym owocu. Twierdzenia z raportu poza claims: SLO-460. (2026-11-02-jaratlas-06-b12-katalog-c10)."
+    "[B12] zostaje do-researchu (C10-D8): Pigwowiec (Chaenomeles) kwaśny, cukier wysoki, ryzyko niskie, ale brak źródła o tym owocu. Twierdzenia z raportu poza claims: SLO-460. (2026-11-02-jaratlas-06-b12-katalog-c10).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Maceracja w lodówce zamiast „w ciemnym miejscu” (temperatura pokojowa) i limit 3 tygodnie zamiast „do wiosny”. (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -27548,9 +27661,30 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-128",
+    "ACI-759",
+    "ACI-508",
+    "SLO-020",
+    "ACI-523"
+   ],
+   "sources": [
+    {
+     "adres": "https://oconto.extension.wisc.edu/files/2017/04/Time-to-Make-Pickles-2.pdf",
+     "miejsce": "Univ. of Wisconsin Extension, Oconto County, Time to Make Pickles (2017); No approved recipe?",
+     "cytat": "Untested recipes can be prepared and stored in the refrigerator for up to 2 weeks. Do not store on the counter.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://www.foodpreserving.org/2013/05/quince-fruit-paste-membrillo.html",
+     "miejsce": "Quince fruit paste (membrillo), krok 6",
+     "cytat": "add sugar – 3/4 to 1 cup sugar per 1 cup puree is recommended.",
+     "odczyt": "2026-11-02",
+     "szczebel": 4
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -27559,12 +27693,16 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Ser pigwowy (membrillo): brak źródła szczebla 1-3.",
-    "[B12] zostaje do-researchu (C10-D11): Pigwa kwaśna (pH 3,12–3,40, grupa I NCHFP) i dużo cukru: niskie ryzyko, ale brak przepisu na membrillo i liczby dni w lodówce w źródłach 1–3. Twierdzenia z raportu poza claims: ACI-128, ACI-617, SLO-001, ACI-627, SLO-083. (2026-11-02-jaratlas-06-b12-katalog-c10)."
+    "[B12] zostaje do-researchu (C10-D11): Pigwa kwaśna (pH 3,12–3,40, grupa I NCHFP) i dużo cukru: niskie ryzyko, ale brak przepisu na membrillo i liczby dni w lodówce w źródłach 1–3. Twierdzenia z raportu poza claims: ACI-128, ACI-617, SLO-001, ACI-627, SLO-083. (2026-11-02-jaratlas-06-b12-katalog-c10).",
+    "[B18] do-researchu → ok-zrodlo (B16 §4, reguła (c)): źródła ACI-508, ACI-759; przepis szczebla 4 (ACI-759) tylko w granicach reguły szczebla 1–3 (ACI-508), krótszy limit wygrywa; requiredWarnings ACI-508; parametry karty w B16 JSON (tor A) (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "requiredWarnings": [
+    "ACI-508"
    ]
   },
   {
@@ -27635,7 +27773,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
-    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Usunąć jabłka: „dżem z pigwy” wg Certo UK (ACI-741). Inne drogi z E1: masło z pigwy i jabłek (OSU), galaretka z pigwy (NCHFP). (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -27740,7 +27879,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
-    "[B13] zostaje do-researchu (C11-D2): brak przepisu na kandyzowaną pigwę szczebla 1–3. (2026-11-02-jaratlas-06-b13-katalog-c11)."
+    "[B13] zostaje do-researchu (C11-D2): brak przepisu na kandyzowaną pigwę szczebla 1–3. (2026-11-02-jaratlas-06-b13-katalog-c11).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Nazwa/zakres: „pigwa blanszowana w syropie i suszona (kandyzowana na sucho)” — tylko produkt dosuszony do testu SUS-063, bez przechowywania w syropie i bez kandyzowania wielodniowego; pigwy brak w tabeli PNW 651, przy… (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -27770,7 +27910,8 @@
    },
    "notes": [
     "[SUS*] Pigwowca (Chaenomeles) brak w tabelach suszenia.",
-    "[B13] zostaje do-researchu (C11-D2): owoce pigwowca jadalne (SUS-323), ale brak procedury suszenia. Twierdzenia z raportu poza claims: SUS-323. (2026-11-02-jaratlas-06-b13-katalog-c11)."
+    "[B13] zostaje do-researchu (C11-D2): owoce pigwowca jadalne (SUS-323), ale brak procedury suszenia. Twierdzenia z raportu poza claims: SUS-323. (2026-11-02-jaratlas-06-b13-katalog-c11).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: „Suszone plastry pigwowca bez nasion” (plastry 1 cm, gniazda nasienne usunięte); nie całe owoce. (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29139,7 +29280,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Cherry Jam, nie konfiturę z całych wiśni.",
-    "[B11] wycofany jako duplikat sour-cherry-v11 (C9-D7); status bez zmian, karta nie powstaje (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] wycofany jako duplikat sour-cherry-v11 (C9-D7); status bez zmian, karta nie powstaje (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: (a) zalecane: „dżem wiśniowy” (owoce siekane) wg Sure-Jell (ACI-743); (b) do weta: „dżem z całych drylowanych wiśni” wg Certo UK Cherry Jam (ACI-742), gatunek niepodany (wiśnie są kwaśniejsze od czereśni, a przepis i … (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29357,7 +29499,8 @@
    "notes": [
     "[ACI] Domowe maraschino (barwienie, aromat migdałowy, często wcześniejsze solenie/bielenie): brak przepisu.",
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Domowe wiśnie maraschino: brak źródła.",
-    "[B12] zostaje do-researchu (C10-D11): Wiśnie kwaśne w syropie cukrowym: niskie ryzyko, ale brak przepisu i liczby dni w lodówce (szukano: extension „maraschino refrigerator” — tylko blogi 4 tyg.–6 mies., odrzucone). (2026-11-02-jaratlas-06-b12-katalog-c10)."
+    "[B12] zostaje do-researchu (C10-D11): Wiśnie kwaśne w syropie cukrowym: niskie ryzyko, ale brak przepisu i liczby dni w lodówce (szukano: extension „maraschino refrigerator” — tylko blogi 4 tyg.–6 mies., odrzucone). (2026-11-02-jaratlas-06-b12-katalog-c10).",
+    "[B18] B16: werdykt ok-zrodlo nie wchodzi: przepis ACI-860 (umamigirl.com) niedostępny przy D-027 d (HTTP 403, Cloudflare), twierdzenie poza rejestrem; zostaje do-researchu (wariant ostrożniejszy, wzór B17-D2) (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -30304,8 +30447,10 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "water-bath",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "nie-publikowac",
+   "claims": [
+    "SZY-054"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -30316,13 +30461,18 @@
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Apple Butter; masła brzoskwiniowego nie znaleziono.",
     "[OLE] Masło owocowe/dyniowe to przetwór słodki, nie tłuszcz. Dla masła dyniowego sprawdzić NCHFP (prawdopodobny zakaz wekowania; niezweryfikowane).",
-    "[B10] zostaje do-researchu (C8): ogólny schemat OSU bez tabeli wysokości; decyzja, czy wystarcza (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (C8): ogólny schemat OSU bez tabeli wysokości; decyzja, czy wystarcza (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims SZY-054 to reguła ogólna metody, requiredWarnings SZY-054 (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO",
     "OLE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054"
    ]
   },
   {
@@ -31486,8 +31636,10 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "nie-publikowac",
+   "claims": [
+    "SUS-001"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -31496,13 +31648,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Derenia brak w tabelach suszenia."
+    "[SUS*] Derenia brak w tabelach suszenia.",
+    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims SUS-001 to reguła ogólna metody, bez requiredWarnings (brak twierdzenia-ostrzeżenia dla suszenia) (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "cardType": "warning"
   },
   {
    "id": "strawberry-v01",
@@ -31799,12 +31953,30 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
     "SLO-020",
-    "SLO-049"
+    "SLO-049",
+    "ACI-136",
+    "ACI-754",
+    "ACI-523"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jam-uncooked/",
+     "miejsce": "Berry Jam (Uncooked), To store",
+     "cytat": "If kept at room temperature they will mold or ferment in a short time.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    },
+    {
+     "adres": "https://www.cocktailcontessa.com/no-cook-strawberry-syrup-for-cocktails/",
+     "miejsce": "Easiest Ever Strawberry Syrup for Drinks, sekcje Making…, FAQ i karta przepisu",
+     "cytat": "For my cold process syrups, I use a ratio of 2:1 fruit to sugar by weight.",
+     "odczyt": "2026-11-02",
+     "szczebel": 4
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -31813,12 +31985,16 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Syrop zasypowy (na surowo): reguła przetworów niegotowanych. Wersja gotowana: Berry Syrup NCHFP (truskawki na liście).",
-    "[B10] zostaje do-researchu (B9): dżem niegotowany bez przepisu dla tego wariantu (SLO-460, SLO-464) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (B9): dżem niegotowany bez przepisu dla tego wariantu (SLO-460, SLO-464) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] do-researchu → ok-zrodlo (B16 §4, reguła (c)): źródła SLO-020, ACI-754; przepis szczebla 4 (ACI-754) tylko w granicach reguły szczebla 1–3 (SLO-020), krótszy limit wygrywa; requiredWarnings SLO-020; parametry karty w B16 JSON (tor A) (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "requiredWarnings": [
+    "SLO-020"
    ]
   },
   {
@@ -32467,7 +32643,8 @@
    "notes": [
     "[SZY] Maliny z cukrem (SLO).",
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Maliny zasypane cukrem bez gotowania: reguła przetworów niegotowanych.",
-    "[B10] zostaje do-researchu (B9): dżem niegotowany bez przepisu dla tego wariantu (SLO-460, SLO-464) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (B9): dżem niegotowany bez przepisu dla tego wariantu (SLO-460, SLO-464) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Nazwa i metoda: „maliny utarte (zmielone) z cukrem 1 : 2” zamiast „zasypane cukrem w słoikach” (całe owoce warstwami); od razu do lodówki. (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -32499,7 +32676,8 @@
    "notes": [
     "[SZY] Galaretka (SLO).",
     "[SLO*] Najbliższy: Blackberry Jelly without Pectin (NCHFP); dodatek jabłka poza przepisem.",
-    "[B11] zostaje do-researchu (C9: przepis NCHFP Blackberry Jelly without Pectin; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] zostaje do-researchu (C9: przepis NCHFP Blackberry Jelly without Pectin; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: (a) „galaretka jeżynowa” bez jabłka wg Sure-Jell (ACI-745) albo NCHFP (E1: ACI-605–607); albo (b) „dżem jabłkowo-jeżynowy” wg Certo UK (ACI-746). Galaretka z jabłkiem nie ma źródła. (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -32935,7 +33113,8 @@
    "notes": [
     "[SZY] Galaretka (SLO).",
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Nie znaleziono galaretki porzeczkowej w zbiorze NCHFP.",
-    "[B10] zostaje do-researchu (C8): brak przepisu szczebla 1–3 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (C8): brak przepisu szczebla 1–3 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Zawęzić do „klarowna galaretka z czerwonej porzeczki” (bez białej): białej porzeczki żaden przepis nie wymienia. (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -32984,9 +33163,41 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "water-bath",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-737",
+    "ACI-750",
+    "ACI-609",
+    "SLO-003",
+    "ACI-608",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/making-jams-and-jellies-with-added-pectin/",
+     "miejsce": "Recipes available using packaged pectin; Table 1",
+     "cytat": "Recipes available using packaged pectin include: Jellies – Apple, crab apple, blackberry, boysenberry, dewberry, currant, elderberry, grape, mayhaw, mint, peach, plum, black or red raspberry, loganberry, rhubarb, and strawberry. Jams – Apricot, blackberry, boysenberry, dewberry, loganberry, red raspberry, youngberry, blueberry, cherry, currant, fig, gooseberry, grape, orange marmalade, peach, pear, plum, rhubarb, strawberry, and spiced tomato. … Hot Half-pints or pints 5 min 10 15",
+     "odczyt": "2026-11-02",
+     "szczebel": 1
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+     "miejsce": "Storing Home-Canned Jams and Jellies, pytanie o trwałość",
+     "cytat": "For best quality, it is recommended that all home-canned foods be used within a year. Most homemade jams and jellies that use a tested recipe, and have been processed in a canner for the recommended time, should retain best quality and flavor for up to that one year recommended time. All home-canned foods should be stored in a cool, dark, dry place, between 50-70°F.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1
+    },
+    {
+     "adres": "https://certo.co.uk/blackcurrant-jam/",
+     "miejsce": "Blackcurrant Jam, INGREDIENTS",
+     "cytat": "2 lb (900g) Blackcurrants",
+     "odczyt": "2026-11-02",
+     "szczebel": 4
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -32995,12 +33206,17 @@
    },
    "notes": [
     "[SLO*] Najbliższy: Blueberry-Currant Jam without Pectin (NCHFP), mieszanka; brak dżemu z samej czarnej porzeczki.",
-    "[B10] zostaje do-researchu (C8): zmiana gatunku owocu nie jest poprawką (C8-D12) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (C8): zmiana gatunku owocu nie jest poprawką (C8-D12) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] do-researchu → ok-zrodlo (B16 §4, reguła (c)): źródła ACI-609, ACI-733, ACI-737; przepis szczebla 4 (ACI-737) tylko w granicach reguły szczebla 1–3 (ACI-609, ACI-733), krótszy limit wygrywa; requiredWarnings ACI-733, SLO-001; parametry karty w B16 JSON (tor A) (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "requiredWarnings": [
+    "ACI-733",
+    "SLO-001"
    ]
   },
   {
@@ -33498,9 +33714,40 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "water-bath",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-736",
+    "ACI-732",
+    "ACI-626",
+    "ACI-608",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "sources": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/509441-sure-jell-gooseberry-jelly",
+     "miejsce": "SURE.JELL Gooseberry Jelly, Ingredients",
+     "cytat": "ING: 5-1/2 cups prepared juice (buy about 4-1/2 lb. fully ripe gooseberries)",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/tips-tricks",
+     "miejsce": "Tips & Tricks, Processing Time Adjustments For High Altitude",
+     "cytat": "At altitudes above 1,000 feet, increase processing time as follows: 1,001 to 3,000 feet — Add 5 minutes to processing time 3,001 to 6,000 feet — Add 10 minutes to processing time 6,001 to 8,000 feet — Add 15 minutes to processing time 8,001 to 10,000 feet — Add 20 minutes to processing time",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+     "miejsce": "Storing Home-Canned Jams and Jellies, pytanie o trwałość",
+     "cytat": "For best quality, it is recommended that all home-canned foods be used within a year. Most homemade jams and jellies that use a tested recipe, and have been processed in a canner for the recommended time, should retain best quality and flavor for up to that one year recommended time. All home-canned foods should be stored in a cool, dark, dry place, between 50-70°F.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -33510,13 +33757,18 @@
    "notes": [
     "[SZY] Galaretka (SLO).",
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
-    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B18] do-researchu → ok-zrodlo (B16 §4, reguła pektyna (Sure-Jell, jak Ball) + (c)): źródła ACI-736, ACI-732, ACI-733; requiredWarnings ACI-733, SLO-001; parametry karty w B16 JSON (tor A) (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY",
     "SLO"
+   ],
+   "requiredWarnings": [
+    "ACI-733",
+    "SLO-001"
    ]
   },
   {
@@ -33595,7 +33847,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
-    "[B11] zostaje do-researchu (C9: przepis NCHFP Making Jam without added Pectin (Berries); C9-D13: mieszanka agrest + truskawka nietestowana; bez łączenia wierszy tabeli) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] zostaje do-researchu (C9: przepis NCHFP Making Jam without added Pectin (Berries); C9-D13: mieszanka agrest + truskawka nietestowana; bez łączenia wierszy tabeli) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: „Dżem agrestowy” bez truskawek wg NCHFP (ACI-624, ACI-625) albo Certo UK (ACI-749). Mieszanka tylko po decyzji, że owoce z jednego wiersza tabeli NCHFP „Berries” wolno łączyć (pytanie z E1, bez zmian). (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33878,7 +34131,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SLO-020"
    ],
@@ -33892,13 +34145,18 @@
    "notes": [
     "[SZY] Jagody z cukrem (SLO).",
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Bez gotowania: reguła przetworów niegotowanych.",
-    "[B10] zostaje do-researchu (B9): dżem niegotowany bez przepisu dla tego wariantu (SLO-460, SLO-464) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (B9): dżem niegotowany bez przepisu dla tego wariantu (SLO-460, SLO-464) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims SLO-020 to reguła ogólna metody, requiredWarnings SLO-020 (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY",
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-020"
    ]
   },
   {
@@ -33912,9 +34170,41 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "water-bath",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-738",
+    "ACI-750",
+    "ACI-609",
+    "SLO-003",
+    "ACI-477",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/making-jams-and-jellies-with-added-pectin/",
+     "miejsce": "Recipes available using packaged pectin; Table 1",
+     "cytat": "Recipes available using packaged pectin include: Jellies – Apple, crab apple, blackberry, boysenberry, dewberry, currant, elderberry, grape, mayhaw, mint, peach, plum, black or red raspberry, loganberry, rhubarb, and strawberry. Jams – Apricot, blackberry, boysenberry, dewberry, loganberry, red raspberry, youngberry, blueberry, cherry, currant, fig, gooseberry, grape, orange marmalade, peach, pear, plum, rhubarb, strawberry, and spiced tomato. … Hot Half-pints or pints 5 min 10 15",
+     "odczyt": "2026-11-02",
+     "szczebel": 1
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+     "miejsce": "Storing Home-Canned Jams and Jellies, pytanie o trwałość",
+     "cytat": "For best quality, it is recommended that all home-canned foods be used within a year. Most homemade jams and jellies that use a tested recipe, and have been processed in a canner for the recommended time, should retain best quality and flavor for up to that one year recommended time. All home-canned foods should be stored in a cool, dark, dry place, between 50-70°F.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1
+    },
+    {
+     "adres": "https://certo.co.uk/bilberry-jam/",
+     "miejsce": "Bilberry Jam, INGREDIENTS",
+     "cytat": "2 1/4 lbs Bilberry Fruit",
+     "odczyt": "2026-11-02",
+     "szczebel": 4
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -33923,12 +34213,17 @@
    },
    "notes": [
     "[SLO*] Najbliższy: Berry Jams without Pectin (NCHFP); jagoda czarna (V. myrtillus) to inny gatunek niż borówka amerykańska, odpowiedniość do potwierdzenia.",
-    "[B10] zostaje do-researchu (C8): zmiana gatunku owocu nie jest poprawką (C8-D12) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (C8): zmiana gatunku owocu nie jest poprawką (C8-D12) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] do-researchu → ok-zrodlo (B16 §4, reguła (c)): źródła ACI-609, ACI-733, ACI-738; przepis szczebla 4 (ACI-738) tylko w granicach reguły szczebla 1–3 (ACI-609, ACI-733), krótszy limit wygrywa; requiredWarnings ACI-733, SLO-001; parametry karty w B16 JSON (tor A) (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "requiredWarnings": [
+    "ACI-733",
+    "SLO-001"
    ]
   },
   {
@@ -34158,11 +34453,36 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
-    "SLO-020"
+    "SLO-020",
+    "ACI-752",
+    "ACI-756",
+    "ACI-523"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jam-uncooked/",
+     "miejsce": "Berry Jam (Uncooked), To store",
+     "cytat": "If kept at room temperature they will mold or ferment in a short time.",
+     "odczyt": "2026-11-01",
+     "szczebel": 1
+    },
+    {
+     "adres": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10303544/",
+     "miejsce": "Nutritional and Physicochemical Properties of Wild Lingonberry (Molecules 2023), Results, pH i °Brix",
+     "cytat": "showed that the pH levels ranged from 2.66 to 3.03.",
+     "odczyt": "2026-11-02",
+     "szczebel": 2
+    },
+    {
+     "adres": "https://martha.fi/recept/kallrorda-lingon",
+     "miejsce": "Kallrörda lingon, przepis",
+     "cytat": "Lingon innehåller bensoesyra, vilket gör att rårörda lingon har en lång hållbarhetstid i kylskåp.",
+     "odczyt": "2026-11-02",
+     "szczebel": 4
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -34172,13 +34492,17 @@
    "notes": [
     "[SZY] Rårörda lingon (SLO).",
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Rårörda (ucierana na surowo): reguła przetworów niegotowanych.",
-    "[B10] zostaje do-researchu (B9): dżem niegotowany bez przepisu dla tego wariantu (SLO-460) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (B9): dżem niegotowany bez przepisu dla tego wariantu (SLO-460) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] do-researchu → ok-zrodlo (B16 §4, reguła (c)): źródła SLO-020, ACI-752, ACI-756; przepis szczebla 4 (ACI-756) tylko w granicach reguły szczebla 1–3 (SLO-020, ACI-752), krótszy limit wygrywa; requiredWarnings SLO-020; parametry karty w B16 JSON (tor A) (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY",
     "SLO"
+   ],
+   "requiredWarnings": [
+    "SLO-020"
    ]
   },
   {
@@ -34841,8 +35165,11 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "water-bath",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "nie-publikowac",
+   "claims": [
+    "SZY-054",
+    "SLO-001"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -34852,12 +35179,17 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
-    "[B10] zostaje do-researchu (C8): brak przepisu szczebla 1–3 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (C8): brak przepisu szczebla 1–3 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims SZY-054, SLO-001 to reguła ogólna metody, requiredWarnings SZY-054 (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054"
    ]
   },
   {
@@ -34950,7 +35282,8 @@
    },
    "notes": [
     "[ACI] Aronia kandyzowana — rodzina słodka.",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: „Aronia blanszowana w syropie i suszona” — produkt suchy; bez przechowywania owoców w syropie (to byłoby wysokie ryzyko: owoce w syropie). (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -34970,7 +35303,7 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
     "SUS-001",
     "SUS-011",
@@ -34978,15 +35311,28 @@
     "SUS-018",
     "SUS-020",
     "SUS-022",
-    "SUS-015"
+    "SUS-015",
+    "SUS-346",
+    "SUS-354",
+    "SUS-349",
+    "SUS-002",
+    "SUS-063",
+    "SUS-019"
    ],
    "sources": [
     {
-     "adres": "https://extension.colostate.edu/resource/drying-fruits/",
-     "miejsce": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025); Drying Methods",
-     "cytat": "Dry at 140 degrees F (60°C) in an oven or dehydrator.",
-     "odczyt": "2026-11-01",
+     "adres": "https://objects.lib.uidaho.edu/uiext/uiext32185.pdf",
+     "miejsce": "PNW 651 Drying Project Manual (4-H Home Food Preservation Series; Univ. of Idaho, Oregon State, Washington State), s. 18, How to dry fruits in a dehydrator (to samo zdanie s. 26)",
+     "cytat": "start at 140–150°F, and then turn it down to 130°F or 140°F after 2–3 hours.",
+     "odczyt": "2026-11-02",
      "szczebel": 3
+    },
+    {
+     "adres": "https://www.education.ne.gov/wp-content/uploads/2022/11/Aronia-Berries-2.pdf",
+     "miejsce": "Nebraska Dept. of Education, Harvest of the Month: Aronia Berries, ramka Drying Activity",
+     "cytat": "Dry the berries at 140-150℉ in an oven or food dehydrator for 6-16 hours.",
+     "odczyt": "2026-11-02",
+     "szczebel": 4
     }
    ],
    "filters": {
@@ -34997,14 +35343,18 @@
    },
    "notes": [
     "[SUS*] Aronia jako jagoda twarda (ogólna kategoria „Berries” CSU); brak osobnej pozycji.",
-    "[p25] ok-zrodlo → do-researchu (2026-11-02-jaratlas-06-karty-p25): aronia: brak procedury szczebla 1–3 (jedyne źródło: karta szkolna Nebraska DoE, szczebel 4); C7-D3. Wariant ukryty, nie wchodzi do kart do czasu źródła szczebla 1–3 (trening CLAUDE.md:121)."
+    "[p25] ok-zrodlo → do-researchu (2026-11-02-jaratlas-06-karty-p25): aronia: brak procedury szczebla 1–3 (jedyne źródło: karta szkolna Nebraska DoE, szczebel 4); C7-D3. Wariant ukryty, nie wchodzi do kart do czasu źródła szczebla 1–3 (trening CLAUDE.md:121).",
+    "[B18] do-researchu → ok-zrodlo (B16 §4, reguła (c)): źródła SUS-349, SUS-354; przepis szczebla 4 (SUS-354) tylko w granicach reguły szczebla 1–3 (SUS-349), krótszy limit wygrywa; requiredWarnings SUS-002; parametry karty w B16 JSON (tor A) (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
    ],
-   "e3": "zmieniony z ok-zrodlo"
+   "e3": "zmieniony z ok-zrodlo",
+   "requiredWarnings": [
+    "SUS-002"
+   ]
   },
   {
    "id": "chokeberry-seabuckthorn-v12",
@@ -36200,7 +36550,8 @@
    },
    "notes": [
     "[SLO*] Najbliższy: Grape Jam without Pectin (NCHFP, Concord); winogrona bezpestkowe innych odmian - odpowiedniość do potwierdzenia.",
-    "[B11] zostaje do-researchu (C9: przepis NCHFP Grape Jam without Pectin; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] zostaje do-researchu (C9: przepis NCHFP Grape Jam without Pectin; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Zmienić na „dżem z winogron Concord” wg Sure-Jell (ACI-747) albo NCHFP (E1). Konfitury z winogron bezpestkowych źródło nie ma. (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -36398,7 +36749,8 @@
    },
    "notes": [
     "[ACI*] Chutney rabarbarowy z cebulą: brak przepisu.",
-    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-646, ACI-107, ACI-006; C9-D10: chutney spoza czterech przepisów NCHFP (ACI-646) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-646, ACI-107, ACI-006; C9-D10: chutney spoza czterech przepisów NCHFP (ACI-646) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status ryzyko-wysokie bez zmian do decyzji toru A / roli 03; proponowana zmiana: Nazwa „chutney rabarbarowo-pomarańczowy z cebulą i rodzynkami (Ball)”; dodać skórkę i sok pomarańczy, curry, imbir, czosnek wg 2-0012 1:1; tylko słoiki 1/2 pinty; „pikantny” tylko przez przyprawy z przepisu (bez dodat… (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -36579,7 +36931,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
-    "[SUS] Kandyzowane czipsy z rabarbaru; brak rabarbaru w tabelach suszenia; decyduje SLO."
+    "[SUS] Kandyzowane czipsy z rabarbaru; brak rabarbaru w tabelach suszenia; decyduje SLO.",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: „Suszone czipsy rabarbarowe” bez kandyzowania (bez syropu); weryfikacja OSU SP 50-882 u źródła: potwierdzona (rev. 07/2024). (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37248,7 +37601,8 @@
    "notes": [
     "[FER] Loomi: gotowane w solance i suszone.",
     "[SZY] Loomi (SUS).",
-    "[SUS*] Loomi (limonki gotowane w solance i suszone): brak przepisu szczebla 1–3."
+    "[SUS*] Loomi (limonki gotowane w solance i suszone): brak przepisu szczebla 1–3.",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Bez opcji piekarnika 90°C ze źródła 4 (poza regułą); suszarka w 60°C albo słońce wg NCHFP z obowiązkową pasteryzacją. (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37484,9 +37838,29 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-145",
+    "ACI-758",
+    "ACI-508",
+    "ACI-523"
+   ],
+   "sources": [
+    {
+     "adres": "https://oconto.extension.wisc.edu/files/2017/04/Time-to-Make-Pickles-2.pdf",
+     "miejsce": "Univ. of Wisconsin Extension, Oconto County, Time to Make Pickles (2017); No approved recipe?",
+     "cytat": "Untested recipes can be prepared and stored in the refrigerator for up to 2 weeks. Do not store on the counter.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://www.irishtimes.com/life-and-style/food-and-drink/recipes/lime-cordial-1.2884474",
+     "miejsce": "Lime cordial, składniki i sposób",
+     "cytat": "Add the lime juice and citric acid, stir well to combine and simmer for a further minute or two.",
+     "odczyt": "2026-11-02",
+     "szczebel": 4
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -37495,12 +37869,16 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
-    "[B12] zostaje do-researchu (C10-D8): Produkt kwaśny (limonka pH 2,00–2,80, ACI-145) i cukrowy, ryzyko niskie; brak przepisu i liczby dni. Twierdzenia z raportu poza claims: ACI-145, ACI-518, SLO-481, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10)."
+    "[B12] zostaje do-researchu (C10-D8): Produkt kwaśny (limonka pH 2,00–2,80, ACI-145) i cukrowy, ryzyko niskie; brak przepisu i liczby dni. Twierdzenia z raportu poza claims: ACI-145, ACI-518, SLO-481, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10).",
+    "[B18] do-researchu → ok-zrodlo (B16 §4, reguła (c)): źródła ACI-508, ACI-758; przepis szczebla 4 (ACI-758) tylko w granicach reguły szczebla 1–3 (ACI-508), krótszy limit wygrywa; requiredWarnings ACI-508; parametry karty w B16 JSON (tor A) (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "requiredWarnings": [
+    "ACI-508"
    ]
   },
   {
@@ -37787,7 +38165,8 @@
    },
    "notes": [
     "[SLO*] Najbliższy: Orange Marmalade (NCHFP); gorzka pomarańcza (Citrus aurantium) to inny gatunek, odpowiedniość do potwierdzenia.",
-    "[B10] zostaje do-researchu (C8): zmiana na marmoladę pomarańczową zmienia produkt (nie szkocka gorzka) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (C8): zmiana na marmoladę pomarańczową zmienia produkt (nie szkocka gorzka) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Skład wg Certo UK, ale z 1 płaską łyżeczką sody (wersja z książki przepisów 2016, ACI-739), nie z 2 łyżeczkami podanymi na stronie 2026: soda podnosi pH, więc biorę wersję z mniejszą ilością. Nazwa bez słowa „szkocka”… (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37840,8 +38219,10 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "water-bath",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "nie-publikowac",
+   "claims": [
+    "SZY-054"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -37851,12 +38232,17 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
-    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims SZY-054 to reguła ogólna metody, requiredWarnings SZY-054 (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054"
    ]
   },
   {
@@ -38265,7 +38651,8 @@
    "notes": [
     "[SZY] Galaretka (SLO).",
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
-    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Zmiana metody z kąpieli wodnej na galaretkę mrożoną (freezer jelly) wg Ball 1:1; nazwa „galaretka grejpfrutowa do zamrażarki”. (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -43637,7 +44024,8 @@
     "[FER*] Owoce nasturcji w solance i occie.",
     "[ACI] Owoce nasturcji w solance i occie: brak przepisu.",
     "[SZY] Nasturcja w solance i occie (ACI/FER).",
-    "[B12] zostaje do-researchu (C10 sekcja 3): Brak źródła szczebla 1–3 na „kapary z nasturcji”; OSU SP 50-736 (NAP-064) wymienia nasturcje jako kwiaty do octu smakowego, nie zielone owoce. Twierdzenia z raportu poza claims: ACI-508. (2026-11-02-jaratlas-06-b12-katalog-c10)."
+    "[B12] zostaje do-researchu (C10 sekcja 3): Brak źródła szczebla 1–3 na „kapary z nasturcji”; OSU SP 50-736 (NAP-064) wymienia nasturcje jako kwiaty do octu smakowego, nie zielone owoce. Twierdzenia z raportu poza claims: ACI-508. (2026-11-02-jaratlas-06-b12-katalog-c10).",
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Solanka w lodówce (nie w temperaturze pokojowej) i przechowywanie wyłącznie w lodówce do 2 tygodni (nie w spiżarni). (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",

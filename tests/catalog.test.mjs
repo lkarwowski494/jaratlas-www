@@ -401,7 +401,8 @@ test('p23 (A2 otwarte): corn-v09 ma ACI-283 w requiredWarnings, a karta en/pl ma
 test('p25 porcja 1 (C7, B7): suszenie — warianty bez źródła ukryte jako do-researchu, kania ryzyko-wysokie, grzyby dzikie z ostrzeżeniami', () => {
   // Dlaczego: C7-D2/B7-D5 (bez źródła szczebla 1–3 wariant nie wchodzi do kart; trening CLAUDE.md:121) i B7-D3 (kania mylona z muchomorem sromotnikowym, SUS-141).
   const V = new Map(JSON.parse(readFileSync('catalog/catalog-seed.json', 'utf8')).variants.map((v) => [v.id, v]));
-  for (const id of ['chokeberry-seabuckthorn-v11', 'chokeberry-seabuckthorn-v12', 'raspberry-blackberry-v15', 'horseradish-v11', 'green-beans-v14']) {
+  // chokeberry-seabuckthorn-v11 od B18 ok-zrodlo: reguła szczebla 3 (SUS-349) + procedura szczebla 4 w regule (c) polityki-zrodel-ryzyko; pilnuje tests/b18-katalog.test.mjs.
+  for (const id of ['chokeberry-seabuckthorn-v12', 'raspberry-blackberry-v15', 'horseradish-v11', 'green-beans-v14']) {
     assert.equal(V.get(id).safetyStatus, 'do-researchu', id);
     assert.equal(V.get(id).publication, 'ukryta', id);
   }
