@@ -1,0 +1,44 @@
+# Fresh white sausage, raw or simmered (UGA)
+
+This card covers fresh white pork sausage, raw or simmered as a fresh sausage, using the safety rules of the UGA Extension sausage bulletin. [T:MIE-138]
+
+## !
+
+- Fresh sausage is raw: keep it in the refrigerator and cook it thoroughly before eating. [T:MIE-138]
+- UGA recommends cooking products made from ground pork and beef to an internal temperature of 160 °F. [T:MIE-021]
+
+## About this card
+
+JarAtlas rule (cautious): the UGA bulletin has fresh sausage recipes but none for white sausage, so this card gives no ingredients or spices, marjoram included, only the safety rules for fresh sausage. [T:MIE-142]
+
+Fresh sausage is made from ground meat mixed with seasonings, and it must be refrigerated and thoroughly cooked before eating. [T:MIE-138]
+
+## Making
+
+Keep the meat and other ingredients refrigerated at 40 °F or below (about 4 °C), also while you work, and check with a thermometer. [T:MIE-138]
+
+If you will not cook the sausage right away, put it back in the refrigerator as soon as it is made. [T:MIE-138]
+
+## Cooking
+
+UGA recommends cooking products made from ground pork and beef to an internal temperature of 160 °F, and poultry to 165 °F. [T:MIE-021]
+
+JarAtlas rule (cautious): however you cook it, cook fresh sausage until a thermometer shows 160 °F (about 71 °C) inside. [T:MIE-142]
+
+According to the FDA, color and texture are unreliable signs of safety, and a food thermometer is the only way to be sure. [T:MIE-117]
+
+A temperature of 144 °F is considered lethal to all trichinae. [T:MIE-026]
+
+## Storing
+
+According to UGA Extension, fresh sausage keeps 7–10 days in the refrigerator at 35–40 °F, or 4–6 months in the freezer. [T:MIE-028]
+
+NCHFP gives a shorter limit for raw red meat: keep it at 40 °F (about 4 °C) or below and use it within 3–5 days, or freeze it. [T:MIE-110]
+
+JarAtlas rule (cautious): use raw fresh sausage within 3 days, the shortest of these limits, or freeze it. [T:MIE-110,MIE-028]
+
+## When to throw it away
+
+JarAtlas rule (cautious): throw away raw fresh sausage that has been in the refrigerator for more than 3 days. [T:MIE-110,MIE-028]
+
+Do not keep sausage out of the refrigerator for more than 2 hours, or for more than 1 hour when the temperature is above 90 °F (about 32 °C). [T:SLO-408]

@@ -1,0 +1,69 @@
+# Pickled herring in spiced vinegar (Wisconsin Sea Grant)
+
+This card describes home-pickled herring fillets according to Wisconsin Sea Grant and University of Minnesota Extension, kept in the refrigerator. [T:ACI-957,ACI-958]
+
+## !
+
+- According to the FDA, brining and pickling can reduce the parasite hazard in fish, but they do not eliminate it. [T:MIE-049]
+- According to the FDA, freezing and storing fish at −20 °C (−4 °F) or below for 7 days in total kills parasites. [T:MIE-046]
+- Keep home-pickled fish in the refrigerator and eat it within 6 weeks. [T:MIE-080]
+
+## About this recipe
+
+JarAtlas rule (cautious): Wisconsin Sea Grant gives one general recipe for pickled fish fillets, with no separate version for rollmops or for other spices, so this card describes only that recipe; do not change the amounts of vinegar, water or salt. [T:ACI-959]
+
+According to Wisconsin Sea Grant, any species of fish can be pickled as fillets. [T:ACI-957]
+
+## Freezing the fish first
+
+Buy commercially frozen fish for pickling if you can. [T:MIE-055]
+
+Wisconsin Sea Grant gives at least 4 days for fish frozen at home, but that is shorter than the FDA requirement, and a home freezer may not get cold enough; this card follows the FDA. [T:MIE-055]
+
+According to the FDA, freezing and storing at −20 °C (−4 °F) or below for 7 days in total kills parasites in fish. [T:MIE-046]
+
+JarAtlas rule (cautious): freeze the fish this way first even though the recipe later simmers it in the pickling solution. [T:ACI-959]
+
+## Ingredients
+
+Use distilled (white) vinegar with a guaranteed acetic acid content of at least 5%. [T:ACI-956]
+
+Use only pure pickling or canning salt, not sea salt, iodized salt or regular table salt. [T:ACI-956]
+
+Use good-quality drinking water and avoid hard water. [T:ACI-956]
+
+Brine: for each 5 pounds of fish, 2 1/2 cups of pickling or canning salt dissolved in 1 gallon of water. [T:ACI-957]
+
+Pickling solution for 10 pounds of fish: 1/4 oz bay leaves, 2 tablespoons allspice, 2 tablespoons mustard seed, 1 tablespoon whole cloves, 1 tablespoon pepper, 1–2 tablespoons hot ground dried pepper, 1/2 lb sliced onion, 2 quarts distilled vinegar and 5 cups water. [T:ACI-958]
+
+## Making
+
+Fillet the fish, remove the skin, wash the fillets several times in clean cold water and drain them. [T:ACI-957]
+
+Slice fillets that are an inch or more thick into pieces about 1/2 inch thick. [T:ACI-957]
+
+Put the fish in the brine in a container that is not metal, and refrigerate for 12–24 hours. [T:ACI-957]
+
+Rinse the fish in cold water, cover it with undiluted distilled vinegar and refrigerate it for another 24 hours. [T:ACI-957]
+
+Combine all the pickling solution ingredients in a large kettle and bring to a boil. [T:ACI-958]
+
+Add the fish and simmer for 10 minutes, until it is easily pierced with a fork, without overcooking it. [T:ACI-958]
+
+Take the fish out, lay it in a single layer in a shallow pan and refrigerate it. [T:ACI-958]
+
+Pack the cold fish in clean glass jars, adding fresh onion slices, lemon and bay leaves if you like. [T:ACI-958]
+
+Strain the solution, bring it to a boil, pour it over the fish and close the jars at once. [T:ACI-958]
+
+## Storing
+
+Keep home-pickled fish in the refrigerator and eat it within 6 weeks. [T:MIE-080]
+
+Pasteurizing or canning pickled fish is not recommended. [T:MIE-081]
+
+## When to throw it away
+
+Throw away pickled fish that has been in the refrigerator for more than 6 weeks. [T:MIE-080]
+
+Do not keep pickled fish out of the refrigerator for more than 2 hours, or for more than 1 hour when the temperature is above 90 °F (about 32 °C). [T:SLO-408]

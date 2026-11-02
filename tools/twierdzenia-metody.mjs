@@ -37,6 +37,10 @@ export const WSPOLNE = {
   'ACI-953': ['water-bath', 'refrigerator'], // NCHFP Using Boiling Water Canners (p35): karty kąpieli i opcja wekowania w kartach kiszonek lodówkowych cucumber-v03, white-cabbage-v03
   'ACI-954': ['water-bath', 'refrigerator'], // NCHFP Using Boiling Water Canners (p35): karty kąpieli i opcja wekowania w kartach kiszonek lodówkowych cucumber-v03, white-cabbage-v03
   'ACI-955': ['water-bath', 'refrigerator'], // NCHFP Using Boiling Water Canners (p35): karty kąpieli i opcja wekowania w kartach kiszonek lodówkowych cucumber-v03, white-cabbage-v03
+  'MIE-117': ['freezer', 'refrigerator'], // FDA minimalne temperatury wewnętrzne: karty mrożenia mięsa i kiełbasy świeże w lodówce (p35)
+  'SLO-408': ['freezer', 'refrigerator'], // NCHFP/FDA: rozmrażanie i zasada 2 godzin: karty mrożenia i karty lodówkowe mięsa, ryb i jaj (p35)
+  'MIE-110': ['dry-storage', 'refrigerator'], // NCHFP: mięso czerwone w lodówce 3–5 dni: karty suszenia mięsa i reguła JarAtlas dla kiełbas świeżych smoked-cooked-sausages-v10/v13/v14 (p35)
+  'SLO-433': ['freezer', 'refrigerator'], // karty mrożenia i gravlax sea-fish-v01 w lodówce (p35)
   'MLE-021': ['refrigerator', 'dry-storage'], // fermentowane mleko pH 4,6 lub niżej w 48 h: karta-ostrzeżenie kashk yogurt-skyr-v11 (suszenie) i jogurty lodówkowe yogurt-skyr-v01/v02/v04 (p35)
   'SLO-036': ['water-bath', 'dry-storage'], // miód a niemowlęta poniżej 12 miesięcy (FDA): mus dla niemowląt peach-nectarine-v12 (p29) i skóra z mango z miodem mango-papaya-v10 (p30, D4-7-02)
 };

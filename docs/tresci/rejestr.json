@@ -90,6 +90,201 @@
   "twierdzenie_en": "NCHFP (boiling-water canning): when the processing time is up, turn off the heat, remove the canner lid and wait 5 minutes before removing the jars; NCHFP says this wait is not required for food safety when USDA or University of Georgia times are used."
  },
  {
+  "id": "ACI-956",
+  "twierdzenie": "Wisconsin Sea Grant (marynowanie ryb w domu), składniki: ocet destylowany (biały) z gwarantowaną zawartością kwasu octowego co najmniej 5%; octy owocowe mają bardziej zmienną kwasowość; sól wyłącznie czysta do marynat lub konserw, nie morska, jodowana ani zwykła kuchenna; woda dobrej jakości (pitna), unikać twardej; cukier zwykły (trzcinowy lub buraczany).",
+  "twierdzenie_en": "Wisconsin Sea Grant (home pickling of fish), ingredients: distilled (white) vinegar with a guaranteed acetic acid content of at least 5%; fruit vinegars vary more in acidity; only pure pickling or canning salt, not sea salt, iodized salt or regular table salt; good-quality (drinking) water, avoiding hard water; table (cane or beet) sugar.",
+  "zrodla": [
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish, Main Ingredients: Vinegar",
+    "cytat": "Use commercially distilled (white) vinegar",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "ee445547566b"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish, Main Ingredients: Vinegar",
+    "cytat": "and has a guaranteed acetic acid content",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "ee445547566b"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish, Main Ingredients: Salt",
+    "cytat": "similar reasons, do not use sea salt, iodized salt or regular",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "ee445547566b"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish, Main Ingredients: Water",
+    "cytat": "Good quality (drinking) water should be used to make all",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "ee445547566b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p35 (tor C)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "ACI-957",
+  "twierdzenie": "Wisconsin Sea Grant, ryba marynowana (filety): każdy gatunek, tylko ryba dobrej jakości; filetować, zdjąć skórę, umyć kilka razy zimną wodą i odsączyć; filety grubości cala lub więcej pokroić na kawałki ok. 1/2 cala. Solanka: na każde 5 funtów ryby rozpuścić 2 1/2 szklanki soli do marynat lub konserw w 1 galonie wody, pojemnik nie metalowy; rybę w solance trzymać w lodówce 12–24 godzin; opłukać zimną wodą, zalać nierozcieńczonym octem destylowanym i trzymać w lodówce kolejne 24 godziny (ocet ujędrnia mięso i zmiękcza ości).",
+  "twierdzenie_en": "Wisconsin Sea Grant, pickled fish (fillet style): any species, only good-quality fish; fillet and skin the fish, wash the fillets several times in clean cold water and drain; slice fillets an inch or more thick into pieces about 1/2 inch thick. Brine: for each 5 pounds of fish dissolve 2 1/2 cups pickling or canning salt in 1 gallon of water, in a non-metal container; refrigerate the fish in the brine for 12–24 hours; rinse in cold water, cover with undiluted distilled vinegar and refrigerate for another 24 hours (the vinegar firms the flesh and softens the bones).",
+  "zrodla": [
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish, 1. Preparing the Fish: Fillet Style",
+    "cytat": "Fillet the fish and remove the skin. Wash the fillets several",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "ee445547566b"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish, 2. Brining the Fish",
+    "cytat": "canning salt in 1 gallon of water. Place the prepared raw fish",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "ee445547566b"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish, 2. Brining the Fish",
+    "cytat": "in the brine and refrigerate for 12-24 hours. Then rinse the",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "ee445547566b"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish, 2. Brining the Fish",
+    "cytat": "vinegar, and refrigerate it for another 24 hours. The vinegar",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "ee445547566b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p35 (tor C)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "ACI-958",
+  "twierdzenie": "Wisconsin Sea Grant, zalewa (na 10 funtów ryby): 1/4 uncji liści laurowych, 2 łyżki ziela angielskiego, 2 łyżki gorczycy, 1 łyżka całych goździków, 1 łyżka pieprzu, 1–2 łyżki ostrej mielonej suszonej papryki, 1/2 funta pokrojonej cebuli, 2 kwarty octu destylowanego, 5 szklanek wody. Wszystko zagotować w dużym garnku, dodać rybę i gotować na małym ogniu 10 minut, aż łatwo przebić ją widelcem, nie rozgotować; wyjąć, ułożyć jedną warstwą w płytkim naczyniu i wstawić do lodówki; zimną rybę włożyć do czystych szklanych słoików, można dodać świeżą cebulę, cytrynę i liście laurowe; zalewę przecedzić, zagotować i zalać rybę, od razu zamknąć. Rybę marynowaną przechowywać w lodówce i zjeść w ciągu 6 tygodni; pasteryzacja i wekowanie nie są zalecane.",
+  "twierdzenie_en": "Wisconsin Sea Grant, pickling solution (treats 10 pounds of fish): 1/4 oz bay leaves, 2 Tbsp allspice, 2 Tbsp mustard seed, 1 Tbsp whole cloves, 1 Tbsp pepper, 1–2 Tbsp hot ground dried pepper, 1/2 lb sliced onion, 2 quarts distilled vinegar, 5 cups water. Combine everything in a large kettle and bring to a boil, add the fish and simmer for 10 minutes until it is easily pierced with a fork, without overcooking; remove the fish, place it in a single layer in a shallow pan and refrigerate; pack the cold fish in clean glass jars, adding fresh onion slices, lemon and bay leaves if desired; strain the vinegar solution, bring it to a boil, pour it over the fish and seal immediately. Store pickled fish in the refrigerator and eat it within 6 weeks; heat-processing is not recommended.",
+  "zrodla": [
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish, 3. Pickling the Fish: Pickling Solution",
+    "cytat": "(Treats 10 pounds of fish)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "ee445547566b"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish, 3. Pickling the Fish: Pickling Solution",
+    "cytat": "2 quarts distilled vinegar",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "ee445547566b"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish, 3. Pickling the Fish",
+    "cytat": "boil. Add fish, and simmer for 10 minutes until fish is easily",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "ee445547566b"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish, 3. Pickling the Fish",
+    "cytat": "vinegar solution, bring it to a boil and pour into jars to cover",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "ee445547566b"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish, 3. Pickling the Fish",
+    "cytat": "refrigerator and consumed within 6 weeks.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "ee445547566b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p35 (tor C)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "ACI-959",
+  "twierdzenie": "Reguła JarAtlas (ostrożna) dla śledzi w zalewie korzennej, rolmopsów i sielawy w occie: Wisconsin Sea Grant podaje jeden ogólny przepis na rybę marynowaną (filety, ACI-957, ACI-958), bez osobnej wersji dla rolmopsów (zwijanych filetów) ani dla innych przypraw; karta opisuje tylko ten przepis w jego składzie; nie zmieniać ilości octu, wody ani soli. Rybę najpierw zamrozić według FDA (MIE-046), nawet gdy przepis każe ją potem krótko gotować w zalewie, bo źródło zaleca rybę mrożoną ze względu na pasożyty (MIE-055).",
+  "twierdzenie_en": "JarAtlas rule (cautious) for herring in spiced vinegar, rollmops and vendace in vinegar: Wisconsin Sea Grant gives one general recipe for pickled fish (fillets, ACI-957, ACI-958), with no separate version for rollmops (rolled fillets) or for other spices; the card describes only this recipe as written; do not change the amounts of vinegar, water or salt. Freeze the fish first according to the FDA (MIE-046), even though the recipe then simmers it briefly in the solution, because the source advises frozen fish because of parasites (MIE-055).",
+  "zrodla": [
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish, Main Ingredients: Fish",
+    "cytat": "It is best to use high-quality frozen fish to ensure that any",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "ee445547566b"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homepicklingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-013 Home Pickling of Fish, 3. Pickling the Fish: Pickling Solution",
+    "cytat": "(Treats 10 pounds of fish)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "ee445547566b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p35 (tor C)",
+  "jednoZrodlo": true
+ },
+ {
   "id": "FER-001",
   "twierdzenie": "USA (21 CFR 114.3): żywność kwaśna to żywność o naturalnym pH 4,6 lub niższym.",
   "zrodla": [
@@ -50491,6 +50686,636 @@
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-138",
+  "twierdzenie": "UGA B1437: kiełbasa świeża jest z mięsa mielonego grubo lub drobno, z przyprawami, w osłonkach, luzem albo w formie kotletów; musi być trzymana w lodówce i dokładnie ugotowana przed jedzeniem; przykłady: świeża kiełbasa wieprzowa śniadaniowa, kiełbasa włoska i większość bratwurst. Produkty mięsne trzyma się w lodówce, w 40°F lub niżej (ok. 4°C), także surowe mięso i składniki podczas pracy (sprawdzać termometrem); gotowy produkt, jeśli nie będzie od razu gotowany lub wędzony, wraca do lodówki zaraz po zrobieniu; większość kiełbas uznaje się za w pełni ugotowane przy temperaturze wewnętrznej 160°F (ok. 71°C).",
+  "twierdzenie_en": "UGA B1437: fresh sausage is made from coarsely or finely ground meat mixed with seasonings, stuffed into casings, packed in bulk or pressed into patties; it must be refrigerated and thoroughly cooked before eating; examples are fresh pork breakfast sausage, Italian sausage and most bratwurst. Meat products are kept refrigerated at 40°F or below (about 4°C), including raw meat and ingredients while you work (check with a thermometer); a finished product that will not be cooked or smoked right away goes back into the refrigerator as soon as it is made; most sausages are considered fully cooked at an internal temperature of 160°F (about 71°C).",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Types of Sausage: Fresh Sausage",
+    "cytat": "refrigerated and thoroughly cooked before eating.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Types of Sausage: Fresh Sausage",
+    "cytat": "Examples include fresh pork breakfast sausage, Italian sausage, bulk pork sausage, and most bratwurst.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Important Considerations in Sausage Making: Temperature",
+    "cytat": "(40 °F or below). The temperature of drying, smoking, and cooking must be continuously and carefully",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Important Considerations in Sausage Making: Temperature",
+    "cytat": "As a processor, you should return a product to the refrigerator as soon as you finish making it if you are",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Equipment: Thermometer",
+    "cytat": "considered fully cooked when they reach an internal temperature of 160 °F.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor C)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-139",
+  "twierdzenie": "Przepis UGA B1437 na kiełbasę polską (Polish Sausage, Kielbasa), podstawowe przyprawy: czosnek i majeranek; 8 funtów łopatki wieprzowej lub chudych ścinków (75% chudego), 2 funty ścinków wołowych (80% chudego), lód lub woda 4,8 uncji, sól 7 1/4 łyżki (3 uncje), cukier 4 łyżki (1,6 uncji), biały pieprz 2 1/2 łyżki (0,5 uncji), gorczyca 2 1/4 łyżeczki (0,3 uncji), majeranek 4 łyżeczki (0,2 uncji), czosnek w proszku 0,1 uncji, gałka muszkatołowa 2 1/2 łyżeczki (0,2 uncji), mleko w proszku odtłuszczone 1 3/8 szklanki (5,6 uncji), azotan sodu 1 1/4 łyżeczki (0,2 uncji) i opcjonalnie azotyn sodu 1/8 łyżeczki (0,025 uncji); publikacja ostrzega, by używać tylko przepisanych ilości azotynu lub azotanu sodu, bo w dużych ilościach są toksyczne.",
+  "twierdzenie_en": "UGA B1437 recipe for Polish sausage (kielbasa), basic spices garlic and marjoram: 8 pounds pork shoulder or lean trim (75% lean), 2 pounds beef trimmings (80% lean), ice or water 4.8 oz, salt 7 1/4 Tbsp (3 oz), sugar 4 Tbsp (1.6 oz), white pepper 2 1/2 Tbsp (0.5 oz), mustard seed 2 1/4 tsp (0.3 oz), marjoram 4 tsp (0.2 oz), garlic powder 0.1 oz, nutmeg 2 1/2 tsp (0.2 oz), nonfat dry milk 1 3/8 cups (5.6 oz), sodium nitrate 1 1/4 tsp (0.2 oz) and optionally sodium nitrite 1/8 tsp (0.025 oz); the bulletin cautions to use only the prescribed amounts of sodium nitrite or nitrate because they are toxic at high levels.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Cooked Sausage Recipes: Polish Sausage (Kielbasa)",
+    "cytat": "are garlic and marjoram.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Cooked Sausage Recipes: Polish Sausage (Kielbasa)",
+    "cytat": "8 pounds of pork shoulder or lean trim (75 percent lean)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Cooked Sausage Recipes: Polish Sausage (Kielbasa)",
+    "cytat": "2 pounds of beef trimmings (80 percent lean)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Recipes, footnote",
+    "cytat": "*CAUTION: Use only the prescribed amounts of sodium nitrite or nitrate as these are toxic at high levels.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor C)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-140",
+  "twierdzenie": "UGA B1437, kiełbasa polska: wołowinę i wieprzowinę zmielić przez sitko 1/4 cala, dodać przyprawy i wodę, dokładnie wymieszać, zmielić przez sitko 3/16 cala, napełnić naturalne jelita wieprzowe i odstawić na noc, żeby peklosól zareagowała (dalej wędzenie wg MIE-031). UGA zdecydowanie zaleca zamiast czystego azotanu lub azotynu gotową mieszankę peklującą (rozcieńczoną solą): stosuje się ją zamiast ilości soli z przepisu i dostarcza ona potrzebny azotyn.",
+  "twierdzenie_en": "UGA B1437, Polish sausage: grind the beef and pork through a 1/4-inch plate, add the spices and water, mix thoroughly, grind through a 3/16-inch plate, stuff into natural hog casings and hold overnight for the cure to react (then smoke as in MIE-031). UGA strongly recommends a commercial premixed cure (diluted with salt) instead of pure nitrate or nitrite: use the premix instead of the amount of salt in the recipe, and it supplies the needed nitrite.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Cooked Sausage Recipes: Polish Sausage (Kielbasa)",
+    "cytat": "Grind beef and pork through 1/4-inch plate. Add spices",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Cooked Sausage Recipes: Polish Sausage (Kielbasa)",
+    "cytat": "plate. Stuff into natural hog casings and hold overnight for",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Ingredients: Curing Agents",
+    "cytat": "that a commercial premixed cure be used when nitrate or nitrite is called for in the recipe. The premixes",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Ingredients: Curing Agents",
+    "cytat": "Use this premix instead of the amount of salt in the recipe; it will also",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor C)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-141",
+  "twierdzenie": "Przepis UGA B1437 na bratwurst (łagodna świeża kiełbasa niemiecka): 10 funtów ścinków wieprzowych (70% chudego), woda 1 szklanka albo lód 3 funty, sól 6 1/2 łyżki (3,2 uncji), mielony biały pieprz 1 1/2 łyżki (0,3 uncji), cukier 1 3/4 łyżeczki (0,3 uncji), kwiat muszkatołowy 1/2 łyżki (0,1 uncji), cebula w proszku 1 łyżka (0,2 uncji); wieprzowinę zmielić przez sitko 1/4 cala, wymieszać z solą, wodą i przyprawami, napełnić naturalne jelita wieprzowe albo osłonki kolagenowe 32 mm, parzyć na parze lub w wodzie w 170°F (ok. 77°C) do temperatury wewnętrznej 155°F (ok. 68°C); przechowywać w lodówce.",
+  "twierdzenie_en": "UGA B1437 recipe for bratwurst (a mild fresh German-style sausage): 10 pounds pork trim (70% lean), water 1 cup or ice 3 pounds, salt 6 1/2 Tbsp (3.2 oz), ground white pepper 1 1/2 Tbsp (0.3 oz), sugar 1 3/4 tsp (0.3 oz), mace 1/2 Tbsp (0.1 oz), onion powder 1 Tbsp (0.2 oz); grind the pork through a 1/4-inch plate, mix with the salt, water and spices, stuff into natural hog casings or 32 mm collagen casings, steam or water cook at 170°F (about 77°C) to an internal temperature of 155°F (about 68°C); store under refrigeration.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Fresh Sausage Recipes: Bratwurst",
+    "cytat": "Bratwurst is a typical fresh German style sausage. It is a mild sausage and goes well as a main dish.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Fresh Sausage Recipes: Bratwurst",
+    "cytat": "10 pounds of pork trim (70 percent lean)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Fresh Sausage Recipes: Bratwurst",
+    "cytat": "mm collagen casings. Steam or water cook at 170 °F to an",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Fresh Sausage Recipes: Bratwurst",
+    "cytat": "internal temperature of 155 °F. Store under refrigeration.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor C)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-142",
+  "twierdzenie": "Reguła JarAtlas (ostrożna) dla kiełbas: UGA B1437 ma przepisy na kiełbasy świeże (m.in. Fresh Pork Sausage, Italian Style Pork Sausage, Bratwurst), ale nie ma przepisu na białą kiełbasę ani na chorizo; karty tych wariantów nie podają składu ani przypraw, tylko zasady bezpieczeństwa kiełbasy świeżej. Przepisy UGA kończą gotowanie niżej (bratwurst 155°F, kiełbasa polska 150°F), a ta sama publikacja podaje 160°F jako ogólne zalecenie (MIE-021), więc karty podają 160°F (ok. 71°C), mierzone termometrem. Ugotowany bratwurst bez azotynu karta traktuje jak kiełbasę świeżą: lodówka 7–10 dni (MIE-028), nie 2–4 tygodnie podane dla kiełbas wędzonych z solą i azotynem (MIE-029). Czystego azotanu ani azotynu nie odważać w domu; tylko gotowa mieszanka peklująca (MIE-012, MIE-140).",
+  "twierdzenie_en": "JarAtlas rule (cautious) for sausages: UGA B1437 has fresh sausage recipes (including Fresh Pork Sausage, Italian Style Pork Sausage and Bratwurst) but no recipe for Polish white sausage or for chorizo; the cards for these variants give no ingredients or spices, only the safety rules for fresh sausage. The UGA recipes stop cooking lower (bratwurst 155°F, Polish sausage 150°F), while the same bulletin gives 160°F as the general recommendation (MIE-021), so the cards give 160°F (about 71°C), measured with a thermometer. The card treats cooked bratwurst without nitrite as fresh sausage: 7–10 days in the refrigerator (MIE-028), not the 2–4 weeks given for smoked sausages with salt and nitrite (MIE-029). Do not weigh pure nitrate or nitrite at home; use only a commercial premixed cure (MIE-012, MIE-140).",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Sausage Recipes (list)",
+    "cytat": "FRESH SAUSAGE RECIPES",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437 Basics of Sausage Making, Equipment: Thermometer",
+    "cytat": "considered fully cooked when they reach an internal temperature of 160 °F.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor C)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-143",
+  "twierdzenie": "Wisconsin Sea Grant (wędzenie ryb w domu): wędzić można każdą rybę; ulubione w Wisconsin to łosoś, pstrąg, sieja (whitefish), chubs, karp, suckers, buffalo i sum; ryby tłuste wychodzą soczystsze niż chude. Używać tylko ryb dobrej jakości (zła ryba włożona do wędzarni wyjdzie zła). Świeżo złowione ryby oczyścić (wypatroszyć i usunąć skrzela), usunąć nerkę z jamy brzusznej i opłukać wszystkie odsłonięte powierzchnie świeżą wodą; ryby mrożone rozmrozić i umyć w świeżej wodzie. Wędzenie nie chroni ryby przed zepsuciem.",
+  "twierdzenie_en": "Wisconsin Sea Grant (home smoking of fish): any fish can be smoked; Wisconsin favorites are salmon, trout, whitefish, chubs, carp, suckers, buffalo and catfish; fatty fish come out juicier than lean fish. Use only high-quality fish (bad fish into the smokehouse, bad fish out). Clean freshly caught fish (gut and gill), remove the kidney from the belly cavity and rinse all exposed surfaces with fresh water; thaw frozen fish and wash it in fresh water. Smoking does not prevent fish from spoiling.",
+  "zrodla": [
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Choosing the Fish",
+    "cytat": "Any fish can be smoked, but some species taste better and",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Safety and Quality Guidelines",
+    "cytat": "high-quality fish.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Preparing Fish for Brining",
+    "cytat": "Freshly Caught Fish: Clean (gut and gill) each fish. Make",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Preparing Fish for Brining",
+    "cytat": "Frozen Fish: Thaw and wash them in fresh water.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor C)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-144",
+  "twierdzenie": "Wisconsin Sea Grant, solanka do wędzenia ryb: 1 część soli kuchennej (nie jodowanej, bez środka przeciwzbrylającego) na 7 części wody objętościowo; 1 szklanka soli na 7 szklanek wody wystarcza na 2–3 funty ryb; przy większej ilości podwoić, zachowując proporcję 1:7; pojemnik z plastiku lub szkła, nie metalowy. Solić w temperaturze lodówki, w 40°F lub niżej (ok. 4°C); 1 godzina sprawdza się w wielu przypadkach, można też zacząć od 15 minut na każde pół cala grubości; kawałki nie mogą na siebie zachodzić; przepisy z dłuższym soleniem w słabszej solance zwiększają ryzyko wzrostu bakterii i nie są zalecane; po soleniu opłukać powierzchnię ryby.",
+  "twierdzenie_en": "Wisconsin Sea Grant, brine for smoking fish: 1 part table salt (not iodized, without anticaking agent) to 7 parts water by volume; 1 cup salt to 7 cups water brines 2–3 pounds of fish; double it for more fish, keeping the 1:7 ratio; use a plastic or glass container, not metal. Brine at refrigerator temperature, 40°F or below (about 4°C); one hour works well in many cases, or start with 15 minutes for each half-inch of fish; pieces must not overlap; recipes with longer brining in weaker brine increase the chance of bacterial growth and are not recommended; after brining, rinse the fish surface.",
+  "zrodla": [
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Brining",
+    "cytat": "The brine solution should be 1 part table salt (not iodized",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Brining",
+    "cytat": "volume. One batch (1 cup of salt to 7 cups of water) will brine",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Brining",
+    "cytat": "Brining should be done at refrigerator temperatures (40",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Brining",
+    "cytat": "cases. You can also start with 15 minutes of brining for each",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Brining",
+    "cytat": "After brining, rinse the fish surface, and prepare for smoking.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor C)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-145",
+  "twierdzenie": "Wisconsin Sea Grant: rybę ułożyć skórą do dołu na siatce albo zawiesić na hakach lub drążkach; po ułożeniu osuszyć wentylatorem, aż powstanie gładka, błyszcząca skórka (pellicle); przy niskiej wilgotności trwa to zwykle 1–2 godziny; ryby na siatkach od czasu do czasu obracać. Termometr do mięsa wbić w środek najgrubszej części największej ryby (pokazuje najniższą temperaturę wszystkich ryb); drugi termometr, mierzący 50–250°F (ok. 10–121°C), włożyć przez otwór w ściance lub pokrywie wędzarni do pomiaru powietrza.",
+  "twierdzenie_en": "Wisconsin Sea Grant: place the fish skin-side down on a wire mesh screen, or hang them on hooks or dowels; after racking, dry them with a fan until a smooth, shiny skin (pellicle) forms; on low-humidity days this usually takes 1–2 hours; turn fish on screens occasionally. Insert a meat thermometer into the middle of the thickest part of the largest fish (it shows the minimum temperature of all the fish); insert a second thermometer reading 50–250°F (about 10–121°C) through a hole in the smoker to monitor the air.",
+  "zrodla": [
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Preparing the Fish for Smoking",
+    "cytat": "Place the fish skin-side down on a wire mesh screen or",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Preparing the Fish for Smoking",
+    "cytat": "smooth, shiny skin called a pellicle to form on the outer",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Preparing the Fish for Smoking",
+    "cytat": "At this point insert a short-stem meat thermometer into the",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Preparing the Fish for Smoking",
+    "cytat": "temperatures from 50 to 250 degrees F to use as a guide for",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor C)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-146",
+  "twierdzenie": "Wisconsin Sea Grant, wędzenie: ciepło gotuje, suszy i wytapia rybę, a dym nadaje smak i kolor; rybę włożyć, gdy powietrze w wędzarni ma ok. 100°F (ok. 38°C); wędzarnia musi osiągać 200–225°F (ok. 93–107°C) powietrza; przy powietrzu 200–220°F (ok. 93–104°C) mięso ryby ma ok. 160°F (ok. 71°C), ale temperatura powietrza nie gwarantuje temperatury mięsa, więc mięso trzeba mierzyć; po ugotowaniu można obniżyć temperaturę wewnętrzną do ok. 125°F (ok. 52°C) i wędzić dalej dla smaku; delikatny smak wymaga ok. 8 godzin dymu, wędzenie może trwać do 12 godzin. Drewno: dąb, hikora, klon, olcha, buk, jabłoń, brzoza biała, jesion; nie sosna ani inne drewno żywiczne; nie trociny z płyt pilśniowych ani sklejki (kleje, mogą być toksyczne). Po wędzeniu od razu wyjąć ryby i studzić w temperaturze pokojowej ok. godziny, potem owinąć w papier rzeźniczy lub przykryć i wstawić do lodówki.",
+  "twierdzenie_en": "Wisconsin Sea Grant, smoking: heat cooks, dries and renders the fish, while smoke gives flavor and color; put the fish in when the smoker air is about 100°F (about 38°C); the smoker must reach air temperatures of 200–225°F (about 93–107°C); with air at 200–220°F (about 93–104°C) the fish flesh is about 160°F (about 71°C), but air temperature is no guarantee of flesh temperature, so the flesh must be measured; after the fish is cooked, the internal temperature can be lowered to about 125°F (about 52°C) and smoking continued for flavor; a delicate light-smoked flavor needs about 8 hours of smoke, and smoking may take up to 12 hours. Wood: oak, hickory, maple, alder, beech, apple, white birch, ash; not pine or other woods high in pitch; no sawdust from fiberboard or plywood (glue residues, may be toxic). When smoking is done, remove the fish at once, cool at room temperature for about an hour, then wrap in butcher paper or cover and refrigerate.",
+  "zrodla": [
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Heat Sources",
+    "cytat": "cooks, dries and renders the fish, while smoke imparts",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Heat Sources",
+    "cytat": "to about 100 degrees F, put the fish in the smoker.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Smoking Equipment",
+    "cytat": "to be able to reach air temperatures of 200-225 degrees F.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, The Importance of Temperature Control",
+    "cytat": "If the air temperature in the smoker is raised to 200-220",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, The Importance of Temperature Control",
+    "cytat": "be lowered to about 125 F and the smoking process contin-",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Suitable Types of Wood",
+    "cytat": "Wood from oak, hickory, maple, alder, beech, apple, white",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Care and Storage",
+    "cytat": "racked fish from the smoker and allow them to cool at room",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor C)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-147",
+  "twierdzenie": "Reguła JarAtlas (ostrożna) dla ryb wędzonych o nazwach sugerujących więcej (np. „na złoto”, „w solance czosnkowo-ziołowej”): sprawdzona solanka Wisconsin Sea Grant to tylko sól i woda (1:7); źródło nie testuje czosnku, ziół ani innych dodatków w solance, więc karta ich nie podaje; nie zmniejszać soli ani nie wydłużać solenia w słabszej solance (MIE-144); kolor daje dym i proces wędzenia na gorąco (MIE-146), karta nie podaje innych sposobów. Karty zakładają wędzenie na gorąco (160°F, ok. 71°C, przez co najmniej 30 minut); wędzenie na zimno ma osobne zasady (MIE-076, MIE-077).",
+  "twierdzenie_en": "JarAtlas rule (cautious) for smoked fish whose names suggest more (e.g. “golden smoked”, “in garlic and herb brine”): the tested Wisconsin Sea Grant brine is salt and water only (1:7); the source does not test garlic, herbs or other additions to the brine, so the card does not give them; do not reduce the salt or brine longer in a weaker brine (MIE-144); the color comes from the smoke and the hot-smoking process (MIE-146), and the card gives no other method. The cards assume hot smoking (160°F, about 71°C, for at least 30 minutes); cold smoking has separate rules (MIE-076, MIE-077).",
+  "zrodla": [
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Brining",
+    "cytat": "The brine solution should be 1 part table salt (not iodized",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   },
+   {
+    "adres": "https://publications.aqua.wisc.edu/download/homesmokingfish-pdf/",
+    "miejsce": "UW Sea Grant / UMN Extension WISCU-G-14-011 Home Smoking of Fish, Brining",
+    "cytat": "Recipes that call for longer brine times with lower salt",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "131f2ef05315"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor C)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-148",
+  "twierdzenie": "UCCE (Master Food Preservers Amador/Calaveras), przepis Vodka-Dill-Citrus Gravlax na 1 funt fileta łososia ze skórą, wcześniej mrożonego przemysłowo i rozmrożonego: 4 łyżki grubej soli (różowa sól himalajska, grubo mielona lub świeżo kruszona), 3 łyżki cukru, 1/2 łyżeczki świeżo utłuczonego pieprzu, 1/2 szklanki posiekanego świeżego kopru, skórka otarta z 1 cytryny i 1 pomarańczy, 2 łyżki wódki, ginu lub akwawitu. UCCE: minimum soli to 2 łyżki na funt łososia (przy większej rybie przeliczyć proporcjonalnie, np. 1 1/2 funta: 3 łyżki); sól bez jodu i dodatków, np. przeciwzbrylających; kawałek nie większy niż ok. 2 1/2 funta, filet ze skórą, grubość nie większa niż ok. 1 1/2 cala; alkohol nie jest konieczny do peklowania i można go pominąć.",
+  "twierdzenie_en": "UCCE (Master Food Preservers Amador/Calaveras), Vodka-Dill-Citrus Gravlax recipe for 1 pound of skin-on salmon fillet, previously commercially frozen and thawed: 4 Tbsp coarse salt (pink Himalayan sea salt, coarse-grind or freshly cracked), 3 Tbsp sugar, 1/2 tsp freshly cracked peppercorns, 1/2 cup chopped fresh dill, zest of 1 lemon and 1 orange, 2 Tbsp vodka, gin or aquavit. UCCE: the minimum salt is 2 Tbsp per pound of salmon (prorate for larger fish, e.g. 1 1/2 pounds: 3 Tbsp); salt without iodine or additives such as anticaking agents; a piece no bigger than about 2 1/2 pounds, a skin-on fillet, no thicker than about 1 1/2 inches; alcohol is not necessary for curing and may be omitted.",
+  "zrodla": [
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-06/327757.pdf",
+    "miejsce": "UCCE Master Food Preservers Amador/Calaveras: Gravlax (Cured Salmon), 2019, Vodka-Dill-Citrus Gravlax",
+    "cytat": "4 Tbsp coarse-grind or freshly cracked pink Himalayan sea salt",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "2fd6618b713b"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-06/327757.pdf",
+    "miejsce": "UCCE Master Food Preservers Amador/Calaveras: Gravlax (Cured Salmon), 2019, Vodka-Dill-Citrus Gravlax",
+    "cytat": "2 Tbsp vodka, gin or aquavit",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "2fd6618b713b"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-06/327757.pdf",
+    "miejsce": "UCCE Master Food Preservers Amador/Calaveras: Gravlax (Cured Salmon), 2019, The Basic Procedure for Making Gravlax",
+    "cytat": "Salt/Sugar Ratios: Use at least 2 Tbsp of salt per pound of salmon.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "2fd6618b713b"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-06/327757.pdf",
+    "miejsce": "UCCE Master Food Preservers Amador/Calaveras: Gravlax (Cured Salmon), 2019, Ingredients",
+    "cytat": "Alcohol is not necessary for the curing process, so feel free to omit it if you choose.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "2fd6618b713b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor C)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-149",
+  "twierdzenie": "UCCE gravlax, sposób: rybę rozmrozić całkowicie w lodówce (środki peklujące nie wnikają w zamrożone mięso), osuszyć ręcznikiem papierowym, usunąć ości; surowej ryby nie myć; suche składniki wymieszać; rybę ułożyć skórą do dołu na folii, skropić alkoholem, natrzeć mieszanką równo z obu stron, ciasno owinąć folią i jeszcze raz drugą folią; w naczyniu skórą do dołu przykryć talerzem i obciążyć; peklować w lodówce; po 12–24 godzinach odwrócić, znów obciążyć i odwracać nie rzadziej niż co 24 godziny, aż ryba się zapekluje (1–3 dni; ten przepis najlepiej 2–3 dni); gotowa ryba jest jędrna w najgrubszym miejscu, nie surowa ani miękka; zeskrobać przyprawy, osuszyć, kroić cienko. Gravlax nie jest produktem gotowanym. Jeśli pachnie nieświeżo, prawdopodobnie jest zepsuty; w razie wątpliwości wyrzucić. Zamrożenie gotowego gravlaxu pogarsza konsystencję.",
+  "twierdzenie_en": "UCCE gravlax, method: thaw the fish completely in the refrigerator (curing agents cannot penetrate frozen flesh), pat dry with paper towels, remove pin bones; do not wash raw fish; mix the dry ingredients; lay the fish skin-side down on plastic wrap, drizzle with the spirit, apply the rub evenly to top and bottom, wrap tightly and then wrap again in a second piece; set in a dish skin-side down, cover with a plate and weight it; cure in the refrigerator; after 12–24 hours turn it over, replace the weights, and keep turning it at least every 24 hours until cured (1–3 days; this recipe is best at 2–3 days); cured fish is firm at the thickest part, not raw or squishy; brush off the seasonings, pat dry, slice thinly. Gravlax is not a cooked product. If it smells off, it probably is; when in doubt, throw it out. Freezing cured gravlax harms its texture.",
+  "zrodla": [
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-06/327757.pdf",
+    "miejsce": "UCCE Master Food Preservers Amador/Calaveras: Gravlax (Cured Salmon), 2019, Fresh vs. Frozen Salmon",
+    "cytat": "before curing, as the curing agents cannot penetrate frozen flesh.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "2fd6618b713b"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-06/327757.pdf",
+    "miejsce": "UCCE Master Food Preservers Amador/Calaveras: Gravlax (Cured Salmon), 2019, Basic Food Safety & Sanitation",
+    "cytat": "Do not wash raw seafood, meat and poultry",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "2fd6618b713b"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-06/327757.pdf",
+    "miejsce": "UCCE Master Food Preservers Amador/Calaveras: Gravlax (Cured Salmon), 2019, Vodka-Dill-Citrus Gravlax",
+    "cytat": "4. After 12-24 hours, turn the salmon over, replace the weight(s), and return to the fridge.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "2fd6618b713b"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-06/327757.pdf",
+    "miejsce": "UCCE Master Food Preservers Amador/Calaveras: Gravlax (Cured Salmon), 2019, The Basic Procedure for Making Gravlax",
+    "cytat": "Gravlax is not a cooked product, so safe handling is very important.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "2fd6618b713b"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-06/327757.pdf",
+    "miejsce": "UCCE Master Food Preservers Amador/Calaveras: Gravlax (Cured Salmon), 2019, The Basic Procedure for Making Gravlax",
+    "cytat": "If it smells off, it probably is. When in doubt, throw it out.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "2fd6618b713b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor C)",
   "jednoZrodlo": true
  },
  {
