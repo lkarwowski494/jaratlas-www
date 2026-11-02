@@ -12,7 +12,7 @@ Paski blanszuj 4 minuty (CSU). [T:SUS-113]
 
 Warzywa blanszuje się przed suszeniem, żeby zatrzymać enzymy i zwiększyć niszczenie drobnoustrojów. [T:SUS-014]
 
-Do wrzącej wody włóż najwyżej 1 kwartę warzyw w woreczku z gazy; czas licz od włożenia, a woda ma wrzeć przez cały czas. [T:SUS-106]
+Do wrzącej wody włóż najwyżej 1 kwartę (ok. 0,95 l) warzyw w woreczku z gazy; czas licz od włożenia, a woda ma wrzeć przez cały czas. [T:SUS-106]
 
 Potem schładzaj warzywa w bardzo zimnej wodzie tyle samo czasu, ile trwało blanszowanie, i odsącz je. [T:SUS-106]
 
@@ -60,7 +60,7 @@ Pakowanie próżniowe nie jest samodzielną metodą utrwalania: usunięcie tlenu
 
 Przechowuj susz w miejscu chłodnym, suchym i ciemnym. [T:SUS-066]
 
-Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F i 3 miesiące w 80 °F. [T:SUS-021]
+Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F (ok. 15,6 °C) i 3 miesiące w 80 °F (ok. 26,7 °C). [T:SUS-021]
 
 Według MSU, jeśli namaczasz susz warzywny, zalej go zimną wodą i mocz, aż prawie odzyska pierwotną teksturę (1/2–2 godziny); jeśli moczysz go dłużej niż 2 godziny, trzymaj go w lodówce. [T:SUS-204]
 

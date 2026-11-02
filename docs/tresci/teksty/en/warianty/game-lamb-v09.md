@@ -62,6 +62,8 @@ According to Penn State, drying alone may not give a safe product: in 1995, jerk
 
 If you do not heat the strips before drying, heat them after drying, before packing: put strips originally cut 1/4 inch (about 6 mm) thick or less in an oven preheated to 275 °F (135 °C) for 10 minutes; thicker strips may require longer heating to reach 160 °F (71 °C). [T:MIE-039]
 
+JarAtlas rule (cautious): for game, heating in the marinade before drying, checked with a thermometer, is the safer route; if you heat after drying, check several strips with a metal stem-type thermometer to make sure they have reached 160 °F (71 °C). [T:MIE-107,MIE-039]
+
 ## Packing and storing
 
 After drying, pat off beads of oil with absorbent towels, cool the jerky and package it in glass jars or heavy plastic food storage bags. [T:MIE-113]

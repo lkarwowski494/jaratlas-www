@@ -8,7 +8,7 @@ Steam the tomatoes or dip them in boiling water to loosen the skins, then chill 
 
 Slice them 1/2 inch (about 13 mm) thick or cut them into 3/4-inch (about 19 mm) sections. [T:SUS-119]
 
-Dip them for 10 minutes in a solution of 1 tsp citric acid per quart of water. [T:SUS-119]
+Dip them for 10 minutes in a solution of 1 tsp citric acid per quart (about 0.95 l) of water. [T:SUS-119]
 
 According to CSU, apart from steaming or dipping in boiling water to loosen the skins, tomatoes are not blanched. [T:SUS-119]
 
@@ -48,7 +48,7 @@ Vacuum packaging is not a preservation method by itself: removing oxygen increas
 
 Store the dried vegetables in a cool, dry, dark place. [T:SUS-066]
 
-Dried vegetables keep about half as long as dried fruit: according to Clemson HGIC, about 6 months at 60 °F and 3 months at 80 °F. [T:SUS-021]
+Dried vegetables keep about half as long as dried fruit: according to Clemson HGIC, about 6 months at 60 °F (about 15.6 °C) and 3 months at 80 °F (about 26.7 °C). [T:SUS-021]
 
 According to MSU, dried tomatoes readily re-absorb moisture, which causes undesirable colour and flavour changes and shortens shelf life; they can also turn black because of oxidation. [T:SUS-202]
 

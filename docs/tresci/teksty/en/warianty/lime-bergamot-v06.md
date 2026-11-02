@@ -8,7 +8,7 @@ For lime curd NCHFP uses the same recipe as for its canned lemon curd, with 1 cu
 
 The other ingredients are 2 1/2 cups of superfine sugar, 3/4 cup of chilled unsalted butter cut into pieces of about 3/4 inch (about 1.9 cm), 7 large egg yolks and 4 large whole eggs; the lemon curd recipe makes about 3 to 4 half-pint jars. [T:SLO-236]
 
-Use bottled lime juice, as the variation says: NCHFP uses bottled juice to standardize the acidity, because the acidity of fresh juice can vary. [T:SLO-043,SLO-039]
+Use bottled lime juice, as the variation says; for lemon curd NCHFP explains that bottled juice is used to standardize acidity, because fresh lemon juice can vary in acidity. [T:SLO-043,SLO-039]
 
 JarAtlas rule (cautious): NCHFP gives only this recipe (with its lime variation) and does not recommend canning other citrus or fruit curds at this time, so do not change the amounts of juice, sugar, eggs or butter, and do not replace the bottled juice with fresh juice. [T:SLO-763]
 

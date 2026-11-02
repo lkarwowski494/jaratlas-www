@@ -58,7 +58,7 @@ Vacuum packaging is not a preservation method by itself: removing oxygen increas
 
 Store the dried vegetables in a cool, dry, dark place. [T:SUS-066]
 
-Dried vegetables keep about half as long as dried fruit: according to Clemson HGIC, about 6 months at 60 °F and 3 months at 80 °F. [T:SUS-021]
+Dried vegetables keep about half as long as dried fruit: according to Clemson HGIC, about 6 months at 60 °F (about 15.6 °C) and 3 months at 80 °F (about 26.7 °C). [T:SUS-021]
 
 ## When to throw away
 

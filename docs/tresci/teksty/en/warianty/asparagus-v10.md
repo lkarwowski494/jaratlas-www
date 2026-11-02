@@ -14,11 +14,13 @@ MSU rates asparagus as “poor to fair” for drying; MSU gives no reason for th
 
 Vegetables are blanched before drying to stop enzymes and increase the destruction of microorganisms. [T:SUS-014]
 
-Put at most 1 quart of vegetables in a cheesecloth bag into boiling water; start timing when they go in and keep the water boiling the whole time. [T:SUS-106]
+Put at most 1 quart (about 0.95 l) of vegetables in a cheesecloth bag into boiling water; start timing when they go in and keep the water boiling the whole time. [T:SUS-106]
 
 Then cool the vegetables in very cold water for the same time as they were blanched, and drain them. [T:SUS-106]
 
-The blanching times on this card are for 3000–5000 feet (about 900–1500 m); they are slightly shorter at lower altitudes and slightly longer at higher altitudes or for large amounts of vegetables. [T:SUS-105]
+The blanching times on this card are for 3000–5000 feet (about 900–1500 m); CSU says they are slightly shorter at lower altitudes and slightly longer at higher altitudes or for large amounts of vegetables. [T:SUS-105]
+
+JarAtlas rule (cautious): do not shorten the times at lower altitudes, because blanching also helps destroy microorganisms; lengthen them slightly above about 1500 m or for large amounts of vegetables. [T:SUS-105,SUS-014]
 
 ## Drying
 
@@ -60,7 +62,7 @@ Vacuum packaging is not a preservation method by itself: removing oxygen increas
 
 Store the dried vegetables in a cool, dry, dark place. [T:SUS-066]
 
-Dried vegetables keep about half as long as dried fruit: according to Clemson HGIC, about 6 months at 60 °F and 3 months at 80 °F. [T:SUS-021]
+Dried vegetables keep about half as long as dried fruit: according to Clemson HGIC, about 6 months at 60 °F (about 15.6 °C) and 3 months at 80 °F (about 26.7 °C). [T:SUS-021]
 
 According to MSU, if you soak dried vegetables, cover them with cold water until they nearly regain their original texture (1/2–2 hours); if you soak them longer than 2 hours, keep them in the refrigerator. [T:SUS-204]
 

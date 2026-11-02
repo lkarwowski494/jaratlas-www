@@ -14,7 +14,7 @@ Blanch the strips for 7 minutes. [T:SUS-117]
 
 Vegetables are blanched before drying to stop enzymes and increase the destruction of microorganisms. [T:SUS-014]
 
-Put at most 1 quart of vegetables in a cheesecloth bag into boiling water; start timing when they go in and keep the water boiling the whole time. [T:SUS-106]
+Put at most 1 quart (about 0.95 l) of vegetables in a cheesecloth bag into boiling water; start timing when they go in and keep the water boiling the whole time. [T:SUS-106]
 
 Then cool the vegetables in very cold water for the same time as they were blanched, and drain them. [T:SUS-106]
 
@@ -56,7 +56,7 @@ Vacuum packaging is not a preservation method by itself: removing oxygen increas
 
 Store the dried vegetables in a cool, dry, dark place. [T:SUS-066]
 
-Dried vegetables keep about half as long as dried fruit: according to Clemson HGIC, about 6 months at 60 °F and 3 months at 80 °F. [T:SUS-021]
+Dried vegetables keep about half as long as dried fruit: according to Clemson HGIC, about 6 months at 60 °F (about 15.6 °C) and 3 months at 80 °F (about 26.7 °C). [T:SUS-021]
 
 According to MSU, if you soak dried vegetables, cover them with cold water until they nearly regain their original texture (1/2–2 hours); if you soak them longer than 2 hours, keep them in the refrigerator. [T:SUS-204]
 

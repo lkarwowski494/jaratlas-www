@@ -54,7 +54,7 @@ Pakowanie próżniowe nie jest samodzielną metodą utrwalania: usunięcie tlenu
 
 Przechowuj susz w miejscu chłodnym, suchym i ciemnym. [T:SUS-066]
 
-Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F i 3 miesiące w 80 °F. [T:SUS-021]
+Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F (ok. 15,6 °C) i 3 miesiące w 80 °F (ok. 26,7 °C). [T:SUS-021]
 
 ## Kiedy wyrzucić
 
