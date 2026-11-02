@@ -13894,7 +13894,14 @@
   "brzmieniePrzed": "We Włoszech w 1993 r. dwa zdarzenia jadu kiełbasianego wywołał domowy bakłażan w oleju.",
   "twierdzenie_en": "In Italy in 1993, two type B botulism outbreaks were linked to commercially prepared roasted eggplant in oil (CDC MMWR 1995).",
   "uwaga": "B27 (2026-11-02-jaratlas-b27-katalog, B24-Q4): poprzednie źródło Nummer 2011 (Food Protection Trends, s. 337, szczebel 2) pisze „home-prepared eggplant”, a jego przypis 32 (MMWR 1995) mówi „commercially prepared”; wygrywa szczebel 1. Nowe brzmienie: D-027 d 2026-11-02 (B27) POPARTE. Pole przeglad (data, sha b5fe977d2a89) dotyczy STAREGO zdania karty eggplant-v04 (en, „home-prepared”), które przekłamuje źródło: do poprawy w torze A przed publikacją, potem nowy sha.",
-  "wazne_do": "2027-11-02"
+  "wazne_do": "2027-11-02",
+  "kontrolaB30": {
+   "data": "2026-11-02",
+   "metoda": "WebFetch (odczyt narzędziem, niesprawdzony dosłownie na surowym tekście); curl z kontenera odrzucony przez serwer",
+   "curl": "HTTP 403 (Access Denied)",
+   "wynik": "cytat obecny; strona (Page converted 09/19/98) nie podaje numeracji MMWR 44(2):33–36: numeracja w polu miejsce [DO SPRAWDZENIA]",
+   "zadanie": "B30"
+  }
  },
  {
   "id": "OLE-026",
@@ -46871,7 +46878,14 @@
   "jednoZrodlo": true,
   "twierdzenie_en": "CDC: do not give honey or products made with it to infants (younger than 1 year).",
   "uwaga": "Rozszerza SLO-036 o produkty z miodem.",
-  "weryfikacjaZastepcza": "2026-11-02"
+  "weryfikacjaZastepcza": "2026-11-02",
+  "kontrolaB30": {
+   "data": "2026-11-02",
+   "metoda": "WebFetch (odczyt narzędziem, niesprawdzony dosłownie na surowym tekście); curl z kontenera odrzucony przez serwer",
+   "curl": "HTTP 403 (Access Denied)",
+   "wynik": "oba cytaty obecne na stronie (data strony Feb. 26, 2026)",
+   "zadanie": "B30"
+  }
  },
  {
   "id": "SLO-470",
@@ -47057,7 +47071,14 @@
   "jednoZrodlo": true,
   "twierdzenie_en": "According to MU Extension (Preserve It Fresh, Preserve It Safe 2021, No. 4), elderberries in the study had an average pH of 4.92 (range 4.73–5.19), while the maximum pH for safe canning of fruits under research-tested recipes is 4.60; there are no studies on how much acid, or what kind, is needed to safely can elderberry products; to preserve the fruit or juice, Extension recommends freezing.",
   "uwaga": "Uzupełnia SLO-064 (bez amerykański nie ma pH stale poniżej 4,6) liczbami z badania 429 próbek.",
-  "weryfikacjaZastepcza": "2026-11-02"
+  "weryfikacjaZastepcza": "2026-11-02",
+  "kontrolaB30": {
+   "data": "2026-11-02",
+   "metoda": "WebFetch (odczyt narzędziem, niesprawdzony dosłownie na surowym tekście); curl z kontenera odrzucony przez serwer",
+   "curl": "HTTP 406",
+   "wynik": "wszystkie cztery fragmenty cytatu obecne (Preserve It Fresh, Preserve It Safe 2021, No. 4)",
+   "zadanie": "B30"
+  }
  },
  {
   "id": "SLO-481",
@@ -49339,7 +49360,14 @@
   "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
   "jednoZrodlo": true,
   "twierdzenie_en": "According to University of Missouri Extension, there is no FDA-approved method for “detoxifying” corn that contains aflatoxins.",
-  "weryfikacjaZastepcza": "2026-11-02"
+  "weryfikacjaZastepcza": "2026-11-02",
+  "kontrolaB30": {
+   "data": "2026-11-02",
+   "metoda": "WebFetch (odczyt narzędziem, niesprawdzony dosłownie na surowym tekście); curl z kontenera odrzucony przez serwer",
+   "curl": "HTTP 406",
+   "wynik": "cytat obecny; adres prowadzi do https://extension.missouri.edu/publications/g4155 (Aflatoxins in Corn, sekcja Detoxifying)",
+   "zadanie": "B30"
+  }
  },
  {
   "id": "SUS-315",
@@ -64185,5 +64213,284 @@
   "twierdzenie_en": "Illinois Extension (Homemade Ginger Ale): this recipe (a drink fermented in a closed bottle) is never made in glass; if the bottle sits too long without being burped of carbon dioxide, it will explode. The only ginger drink recipe in this publication uses yeast, not a ginger bug.",
   "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog); brzmienie zaproponowane przez przegląd D-027 d B28 (P2-4), cytat sprawdzony skryptem u źródła.",
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-090",
+  "twierdzenie": "NCHFP nie zaleca już domowego wekowania łuskanych orzechów na sucho i obecnie nie ma zastępczego procesu wekowania dla takich orzechów.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/miscellaneous-questions/category/faq-canning",
+    "miejsce": "NCHFP, Miscellaneous Canning FAQs, „Can I can shelled nutmeats?”",
+    "cytat": "We no longer recommend canning a dry pack of shelled nutmeats at home. | There is not a substitute canning process for preserving dry packs of nutmeats at this time.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+html→tekst+grep",
+    "sha12": "2cced652f098"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło mówi o suchych orzechach w słoju, nie o paście orzechowej; dla masła orzechowego brak procesu wynika z OLE-092, nie z cytowanego zakazu.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "weryfikacjaZastepcza": "2026-11-02",
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B30 B30-research-2026-11-02 (claude/jaratlas-b30-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP no longer recommends canning a dry pack of shelled nutmeats at home, and there is currently no substitute canning process for dry packs of nutmeats.",
+  "uwaga": "Wpis B30 (2026-11-02-jaratlas-b30-research), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst): P0 0, P1 0, P2 3 wprowadzone (SLO-900, SLO-901, SLO-902), P3 3 wprowadzone (OLE-092, SLO-903, SLO-904), OLE-091 bez zmian."
+ },
+ {
+  "id": "OLE-091",
+  "twierdzenie": "NCHFP: nowsze badania pokazały, że niektóre gatunki Salmonella znoszą suche warunki (niską aktywność wody).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/miscellaneous-questions/category/faq-canning",
+    "miejsce": "NCHFP, Miscellaneous Canning FAQs, „Can I can shelled nutmeats?”",
+    "cytat": "More recent research has shown that some species of Salmonella are tolerant of drier (low water activity) conditions",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+html→tekst+grep",
+    "sha12": "2cced652f098"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "weryfikacjaZastepcza": "2026-11-02",
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B30 B30-research-2026-11-02 (claude/jaratlas-b30-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP: more recent research has shown that some species of Salmonella tolerate drier (low water activity) conditions.",
+  "uwaga": "Wpis B30 (2026-11-02-jaratlas-b30-research), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst): P0 0, P1 0, P2 3 wprowadzone (SLO-900, SLO-901, SLO-902), P3 3 wprowadzone (OLE-092, SLO-903, SLO-904), OLE-091 bez zmian."
+ },
+ {
+  "id": "OLE-092",
+  "twierdzenie": "W dziale NCHFP „Canning Nuts and Nut Products” jedynym procesem są zielone orzeszki ziemne; NCHFP nie podaje procesu wekowania dla masła orzechowego ani innych past z orzechów (stan na 2026-11-02).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-nuts-and-nut-products/",
+    "miejsce": "NCHFP, How do I… Can, „Canning Nuts and Nut Products”: jedyna pozycja „Peanuts, Green”; grep „peanut butter”, „nut butter” = 0 (odczyt 2026-11-02)",
+    "cytat": "Peanuts, Green",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+html→tekst+grep",
+    "sha12": "81604a1fffe7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Twierdzenie z braku (lista procesów NCHFP w dniu odczytu), nie cytowany zakaz.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "weryfikacjaZastepcza": "2026-11-02",
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B30 B30-research-2026-11-02 (claude/jaratlas-b30-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "In the NCHFP section “Canning Nuts and Nut Products” the only process is green peanuts; NCHFP gives no canning process for peanut butter or other nut butters (as of 2026-11-02).",
+  "uwaga": "Wpis B30 (2026-11-02-jaratlas-b30-research), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst): P0 0, P1 0, P2 3 wprowadzone (SLO-900, SLO-901, SLO-902), P3 3 wprowadzone (OLE-092, SLO-903, SLO-904), OLE-091 bez zmian."
+ },
+ {
+  "id": "OLE-093",
+  "twierdzenie": "EFSA: aflatoksyny mogą występować m.in. w orzeszkach ziemnych i orzechach drzew w wyniku skażenia pleśniami przed zbiorem i po nim; są genotoksyczne i rakotwórcze.",
+  "zrodla": [
+   {
+    "adres": "https://www.efsa.europa.eu/en/topics/topic/aflatoxins",
+    "miejsce": "EFSA, Topics: Aflatoxins in food",
+    "cytat": "Aflatoxins can occur in foods such as groundnuts, tree nuts, maize, rice, figs and other dried foods, spices, crude vegetable oils and cocoa beans, as a result of fungal contamination before and after harvest. | As aflatoxins are known to be genotoxic and carcinogenic",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+html→tekst+grep",
+    "sha12": "568e8eaccea5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "weryfikacjaZastepcza": "2026-11-02",
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B30 B30-research-2026-11-02 (claude/jaratlas-b30-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "EFSA: aflatoxins can occur in foods such as groundnuts and tree nuts as a result of fungal contamination before and after harvest; they are genotoxic and carcinogenic.",
+  "uwaga": "Wpis B30 (2026-11-02-jaratlas-b30-research), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst): P0 0, P1 0, P2 3 wprowadzone (SLO-900, SLO-901, SLO-902), P3 3 wprowadzone (OLE-092, SLO-903, SLO-904), OLE-091 bez zmian."
+ },
+ {
+  "id": "SLO-900",
+  "twierdzenie": "Afssa (obecnie ANSES, opinia 2002-SA-0285, 2003), omawiając artykuł z NEJM (2001): w południowo-zachodniej Francji w latach 1992–2000 opisano 12 przypadków ostrej rabdomiolizy, w tym 3 śmiertelne, u osób, które przez kilka kolejnych posiłków jadły duże ilości grzyba oznaczonego wtedy jako gąska zielonka (Tricholoma equestre).",
+  "zrodla": [
+   {
+    "adres": "https://www.anses.fr/system/files/AUT2002sa0285.pdf",
+    "miejsce": "Avis Afssa 2002-SA-0285 (13.10.2003), omówienie artykułu NEJM 2001",
+    "cytat": "fait état de la survenue de douze cas de rhabdomyolyse aiguë recensés dans le sud-ouest de la France (bassin d’Arcachon) entre 1992 et 2000, dont 3 cas mortels. Tous les malades ont consommé en grandes quantités un champignon identifié alors comme étant le Tricholome équestre (Tricholoma equestre) à l’occasion de plusieurs repas successifs.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "912a26e0089c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "weryfikacjaZastepcza": "2026-11-02",
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B30 B30-research-2026-11-02 (claude/jaratlas-b30-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Afssa (now ANSES, opinion 2002-SA-0285, 2003), reviewing a 2001 NEJM article: in south-western France, 12 cases of acute rhabdomyolysis, 3 of them fatal, were described in 1992–2000 in people who ate large amounts, over several successive meals, of a mushroom identified at the time as the yellow knight (Tricholoma equestre).",
+  "uwaga": "Wpis B30 (2026-11-02-jaratlas-b30-research), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst): P0 0, P1 0, P2 3 wprowadzone (SLO-900, SLO-901, SLO-902), P3 3 wprowadzone (OLE-092, SLO-903, SLO-904), OLE-091 bez zmian."
+ },
+ {
+  "id": "SLO-901",
+  "twierdzenie": "Afssa (2003): na podstawach naukowych nie da się ustalić bezpiecznej dawki gąski zielonki (w szerokim sensie); urząd zalecił rozważenie działań, by tego grzyba nie oferowano do spożycia w żadnej postaci.",
+  "zrodla": [
+   {
+    "adres": "https://www.anses.fr/system/files/AUT2002sa0285.pdf",
+    "miejsce": "Avis Afssa 2002-SA-0285, wnioski",
+    "cytat": "Il n’apparaît pas possible, sur des bases scientifiquement fondées, d’établir une dose d’ingestion de sécurité pour le Tricholome équestre (s.l.). | des mesures soient envisagées pour que ce champignon ne puisse plus être proposé à la consommation sous quelques formes que ce soit",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "912a26e0089c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "weryfikacjaZastepcza": "2026-11-02",
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B30 B30-research-2026-11-02 (claude/jaratlas-b30-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Afssa (2003): no safe intake dose of the yellow knight mushroom can be established on scientific grounds; the agency recommended that measures be considered so that it can no longer be offered for consumption in any form.",
+  "uwaga": "Wpis B30 (2026-11-02-jaratlas-b30-research), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst): P0 0, P1 0, P2 3 wprowadzone (SLO-900, SLO-901, SLO-902), P3 3 wprowadzone (OLE-092, SLO-903, SLO-904), OLE-091 bez zmian."
+ },
+ {
+  "id": "SLO-902",
+  "twierdzenie": "BfR (Niemcy, opinia 009/2005): dane nie pozwalają na ostateczną ocenę ryzyka, a ryzyko w porównaniu z innymi grzybami BfR ocenia jako raczej niskie, ale podtrzymuje zalecenie, by nie jeść gąski zielonki (zapobiegawcze zalecenie BgVV).",
+  "zrodla": [
+   {
+    "adres": "https://www.bfr.bund.de/cm/343/risiken_beim_verzehr_von_gruenlingen.pdf",
+    "miejsce": "BfR Stellungnahme 009/2005 (13.12.2004), streszczenie",
+    "cytat": "Insgesamt ist die Datenlage aber unzureichend und lässt derzeit eine abschließende Risikobewertung nicht zu. | Gleichwohl schätzt das BfR das Gesundheitsrisiko im Vergleich zum Verzehr von anderen Pilzsorten, die ebenfalls Unverträglichkeitsreaktionen hervorrufen können, eher gering ein. Die vorbeugende Empfehlung des BgVV, auf den Verzehr des Grünlings zu verzichten, hält das BfR aber aufrecht.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "9b3daa116662"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "weryfikacjaZastepcza": "2026-11-02",
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B30 B30-research-2026-11-02 (claude/jaratlas-b30-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "BfR (Germany, opinion 009/2005): the data do not allow a final risk assessment and BfR rates the risk as rather low compared with other mushrooms, but it maintains the precautionary BgVV recommendation not to eat the yellow knight mushroom.",
+  "uwaga": "Wpis B30 (2026-11-02-jaratlas-b30-research), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst): P0 0, P1 0, P2 3 wprowadzone (SLO-900, SLO-901, SLO-902), P3 3 wprowadzone (OLE-092, SLO-903, SLO-904), OLE-091 bez zmian."
+ },
+ {
+  "id": "SLO-903",
+  "twierdzenie": "We Włoszech zbiór, obrót i konserwowanie gąski zielonki (Tricholoma equestre) zakazano na całym terytorium (zarządzenie Ministra Zdrowia z 20.08.2002, po opinii ISS z 3.07.2002), a w Hiszpanii zakazano jej obrotu zapobiegawczo i przejściowo (Orden SCO/3303/2006).",
+  "zrodla": [
+   {
+    "adres": "https://faolex.fao.org/docs/pdf/ita33078.pdf",
+    "miejsce": "Ordinanza 20.08.2002, art. 1 (kopia FAOLEX)",
+    "cytat": "La raccolta, la commercializzazione e la conservazione del fungo epigeo denominato Tricholoma equestre e' vietata su tutto il territorio nazionale.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "6308f7391a33"
+   },
+   {
+    "adres": "https://faolex.fao.org/docs/pdf/spa71354.pdf",
+    "miejsce": "Orden SCO/3303/2006, tytuł (kopia FAOLEX)",
+    "cytat": "por la que se prohíbe cautelarmente la comercialización de la seta Tricholoma equestre | con carácter preventivo y transitorio",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "6786c58e8bc0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "weryfikacjaZastepcza": "2026-11-02",
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B30 B30-research-2026-11-02 (claude/jaratlas-b30-research)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "In Italy, picking, selling and preserving the yellow knight mushroom (Tricholoma equestre) was banned nationwide (Ministry of Health ordinance of 20 Aug 2002, after an ISS opinion of 3 Jul 2002); Spain banned its sale as a preventive and temporary measure (Orden SCO/3303/2006).",
+  "uwaga": "Kopie aktów w bazie FAOLEX (FAO); obowiązywanie zarządzenia włoskiego w dniu odczytu niepotwierdzone [DO SPRAWDZENIA]; zdanie mówi tylko o wydaniu aktów. Wpis B30 (2026-11-02-jaratlas-b30-research), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst): P0 0, P1 0, P2 3 wprowadzone (SLO-900, SLO-901, SLO-902), P3 3 wprowadzone (OLE-092, SLO-903, SLO-904), OLE-091 bez zmian."
+ },
+ {
+  "id": "SLO-904",
+  "twierdzenie": "W Polsce gąska zielonka (Tricholoma equestre) jest w wykazie grzybów dopuszczonych do obrotu lub produkcji przetworów grzybowych (tekst jednolity Dz.U. 2026 poz. 258); gąski siwej (Tricholoma portentosum) w tym wykazie nie ma.",
+  "zrodla": [
+   {
+    "adres": "https://api.sejm.gov.pl/eli/acts/DU/2026/258/text.pdf",
+    "miejsce": "Załącznik nr 1, „WYKAZ GRZYBÓW DOPUSZCZONYCH DO OBROTU LUB PRODUKCJI PRZETWORÓW GRZYBOWYCH ORAZ ŚRODKÓW SPOŻYWCZYCH ZAWIERAJĄCYCH GRZYBY”, poz. 11; grep „portentosum”, „siwa” = 0, „Tricholoma” = 1",
+    "cytat": "11) gąska zielonka (zielona) – Tricholoma equestre (L.) P. Kumm.;",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "69b1e01152b0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "weryfikacjaZastepcza": "2026-11-02",
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B30 B30-research-2026-11-02 (claude/jaratlas-b30-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "In Poland the yellow knight mushroom (Tricholoma equestre) is on the list of mushrooms permitted for sale or for producing mushroom products (consolidated text, Journal of Laws 2026 item 258); the grey knight (Tricholoma portentosum) is not on that list.",
+  "uwaga": "Krytyczne (przegląd D-027 d B30 P3): zdanie można odczytać jako zielone światło. Dopuszczenie do obrotu w Polsce nie jest oceną bezpieczeństwa; urzędy FR, IT, ES i BfR oceniają inaczej (SLO-900–903). Jurysdykcja: tylko Polska. Wpis B30 (2026-11-02-jaratlas-b30-research), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst): P0 0, P1 0, P2 3 wprowadzone (SLO-900, SLO-901, SLO-902), P3 3 wprowadzone (OLE-092, SLO-903, SLO-904), OLE-091 bez zmian."
  }
 ]
