@@ -91,3 +91,15 @@ test("B32: raport ma decyzje per propozycja, D-043, decyzje do weta, tor A i res
   for (const s of [...Object.keys(OCZEKIWANE), "SZY-017", "SLO-037", "OLE-046", "B32-D1", "D-043", "toru A", "potrzebny research", DEC]) assert.ok(raport.includes(s), s);
   for (const n of ["Ball ", "Kerr", "Bernardin", "Penguin", "Random House", "Wiley", "Springer", "Elsevier"]) assert.ok(!raport.includes(n), n);
 });
+
+// D-043 B32 P1-1: starsze testy wyłączają 41 wariantów B32 ze skrótów „reszty”, więc tu przypięty jest pełny stan każdego z nich po B32 (skrót całego wariantu).
+const SNAP_PO = {"pork-loin-ham-v01":"b73ffe8c4a9e","pork-belly-jowl-v09":"a0e3ff76fe45","white-cabbage-v14":"f8be4b924b1a","cultivated-mushrooms-v10":"988dd261b495","vine-leaves-greens-v09":"8f11648675a9","beans-soy-v08":"b8f93718dd7b","green-beans-v08":"53f942f58ee4","peas-chickpeas-v07":"2df515630ab8","peas-chickpeas-v08":"c7bf29225ae6","beans-soy-v09":"87d9e9e3a342","carrot-v09":"f98b93ff3791","zucchini-v15":"d3d9449e06ce","elderberry-elderflower-v10":"c212c4852259","artisanal-vinegars-v01":"f4d01d806777","garden-herbs-v06":"9adfb8611135","green-cherry-tomato-v14":"ea989a56f8d2","foraged-blossoms-v13":"3ad7e2c231db","garden-herbs-v01":"7df9f1abb9c4","red-savoy-cabbage-v09":"87cf777eff73","vine-leaves-greens-v08":"79ba2a66d7e7","beetroot-v09":"3b78ccfd3555","beans-soy-v07":"d0aff772bc1e","pork-shoulder-neck-v11":"ec698b8fcc3f","beef-veal-v05":"edb8eb5bc405","beef-veal-v07":"22655a7b2155","offal-pates-v08":"2e01c596dfd5","sea-fish-v12":"62b616f75afe","pork-loin-ham-v13":"0ebc82f6fa79","european-mixed-veg-v09":"cec1fb18d8e3","asian-american-mix-v12":"286f1e1eeede","eggs-v07":"db5db2e815bd","fresh-brined-cheese-v07":"92d7e8c2eb77","asparagus-v07":"10606b0f78ad","balkan-oriental-mix-v08":"035ffc41ffd1","balkan-oriental-mix-v09":"7bb5f385b573","olives-v09":"f6f1d8edcf0b","chili-pepper-v14":"e57a9ceb8b45","onion-v11":"0eda7b1c2e13","daikon-black-radish-v09":"b0a925cc31e4","brussels-kohlrabi-v11":"3eeb8b13f674","strawberry-v12":"32975a2cc3c9"};
+test("B32 (D-043 P1-1): pełny stan 41 wariantów po B32 przypięty (pola bezpieczeństwa, nazwy i notatki)", () => {
+  for (const id of B32) assert.equal(h(V.get(id)), SNAP_PO[id], `${id}: stan po B32`);
+});
+
+// D-027 d B32: przegląd zastępczy 10 twierdzeń, których zdania na kartach zmieniły położenie albo zbiór.
+const PRZEGLAD = {"SZY-024":"a2cf6f411936","OLE-024":"114f02929717","OLE-028":"7cc55c912a1c","MIE-021":"d1f729fa5677","ACI-450":"f0bc67abce5b","OLE-054":"52a68170fadf","SLO-303":"114b8f58fad1","SLO-489":"1bbbb1a96514","MIE-156":"126e99d02c8d","MIE-161":"c7b3de497787"};
+test("B32 (D-027 d): przeglad.sha 10 twierdzeń po przeglądzie zastępczym", () => {
+  for (const [id, sha] of Object.entries(PRZEGLAD)) assert.deepEqual(R.get(id).przeglad, { kto: "weryfikacja zastępcza (subagent)", data: "2026-11-02", sha }, id);
+});
