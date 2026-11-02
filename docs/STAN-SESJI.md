@@ -1,24 +1,26 @@
 # Stan pracy JarAtlas
 
-Aktualizacja: 2026-11-02, dzień (partia 21). Historia: `docs/archiwum/` (poprzedni stan: `STAN-SESJI-2026-11-02-06-karty-p20.md`).
+Aktualizacja: 2026-11-02, dzień (partia 22 + A2). Historia: `docs/archiwum/` (poprzedni stan: `STAN-SESJI-2026-11-02-06-karty-p21.md`).
 
 ## Rola i etap
-06-tresci · build · partia 21 kart fali 1 (en, pl): D5, D6, KAND-2/6/7, mrożenie (pomidory, zielone pomidory, młode ziemniaki, zioła, mango, granat, pieczarki, karczochy) · **STOP** (przekazanie do koordynatora session_01T66VBwcMqoZMzzYKc7CF9o, tryb dzienny, D-051). Prompt: tablica, kolekcja `prompty`, `06-tresci-build-d32b4b8`.
+06-tresci · build · tor A: partia 22 (cytrusy) i partia katalogowa A2 (D-043) · **STOP** (przekazanie do koordynatora session_01T66VBwcMqoZMzzYKc7CF9o, tryb dzienny, D-051). Prompt: tablica, kolekcja `prompty`, `06-tresci-build-d32b4b8`.
 
 ## Wynik
-- Partia 21 en+pl: 8 nowych wariantów (16 kart) + sekcja tartej cukinii (zucchini-v17) + boćwina i jarmuż (leafy-greens-v13); nowe twierdzenia SLO-289–300 (SLO-291 krytyczne, tylko rejestr). Raport: `docs/tresci/E3-karty-p21-2026-11-02.md`.
-- Liczby (poprawione wg C3-07): 97 wariantów z kartami, 194 karty, 43 mrożenia (przed p21: 89 / 178 / 35).
-- Weryfikacja zastępcza D-027 w 3 przebiegach subagenta (porcja 1; porcja 1 po poprawkach + porcja 2; porcja 3): 0 NIEPOPARTE, 0 SPRZECZNE; wszystkie CZĘŚCIOWO poprawione. Przegląd odnowiony: SUS-050, SUS-059, SLO-249, 251, 256, 258, 259, 260, 291.
-- Kontrole: `npm run check` kod 0 przed każdym pushem. Karty `publication: ukryta`; katalog, ścieżki wrażliwe i leksykon pl bez zmian.
-- Mrożenie: zostało 25 wariantów `freezing` ok-zrodlo bez kart (red-savoy-cabbage-v13 świadomie bez karty).
+- Partia 22 en+pl: lemon-v16, orange-kumquat-v15, grapefruit-v10 (cząstki w syropie 40%, sok); SLO-301 (instrukcja NCHFP), SLO-302 (reguły JarAtlas: szkło i sok, krytyczne); SLO-256 „dry sugar” w 12 kartach. Raport `docs/tresci/E3-karty-p22-2026-11-02.md`.
+- Liczby: 100 wariantów z kartami, 200 kart, 46 mrożeń; zostało 22 wariantów `freezing` ok-zrodlo bez kart.
+- Weryfikacja zastępcza: przebieg 1 242/254 POPARTE + 12 CZĘŚCIOWO (poprawione), kontrolny 54/54; przegląd odnowiony: SLO-222, 249, 251, 256, 258, 259, 260, 302, SUS-050, 059.
+- A2 (katalog 1.0.5): `WYJATKI_NISKOKWASOWE` (corn-v09 sugar-acid, pineapple-banana-v07 natural-acid), apricot-v11 natural-acid + E3-002, requiredWarnings C2-04/C3-03 (+ SZY-020 white-cabbage-v13, test T2), beef-veal-v08 140 °F (60 °C), 13 nazw = tytuły kart. Przegląd D-043: 0 × P0–P2, 5 × P3 wprowadzone. Raport `docs/tresci/E3-katalog-a2-2026-11-02.md`.
+- `npm run check` kod 0 (127/127) po rebase na 20eac8a.
 
-## Decyzje Claude, do weta (tablica `2026-11-02-jaratlas-06-karty-p21`)
-- Banany odłożone do bloku z kwasem askorbinowym; cytrusy na następną partię; pieczarki: czasy NCHFP mimo dłuższych w MU, chłodzenie tylko w zimnej wodzie; karczochy: „Cook” w NCHFP jako błąd druku („Cool” w MU i NDSU); pomidory „l-inch” = 1 cal (MU); ziemniaki: przy niepewności 5 min; mango: przecier bez cukru, taca z 1/2 cala (reguła JarAtlas); poprawki weryfikatora bez przebiegu kontrolnego (wyjątek nazwany w raporcie).
+## Decyzje Claude, do weta
+- `2026-11-02-jaratlas-06-karty-p22`: sok tylko w szerokich słoikach do mrożenia i wekowania, bez szklanych słoików z wąskim otworem (także dla cząstek), sok w szkle rozmrażany w lodówce; cytryny według ogólnej instrukcji dla cytrusów; kumkwaty poza kartą; SLO-256 poprawione w 12 kartach spoza partii; U1–U5 bez trzeciego przebiegu (wyjątek nazwany).
+- `2026-11-02-jaratlas-06-katalog-a2`: corn-v09 sugar-acid, pineapple-banana-v07 natural-acid (wyjątek po ID wariantu), white-cabbage-v13 SZY-020, nazwy apricot-v06/corn-v09/cytrusów poza listą, bez drugiego przebiegu D-043 (same P3).
 
 ## Otwarte
-- Nazwy do katalogu (D-043): green-cherry-tomato-v15, potato-sunchoke-v14, fennel-artichoke-v11 (karty węższe niż nazwy produktów) oraz z p14–p20.
-- Od koordynatora bez zmian w p21: white-cabbage-v01 (weto), beef-veal-v08 (C2-05, katalog), 24 karty kąpieli wodnej (tor C4).
-- KAND-1, -3, -4, -5, -8 po wecie D1–D4. Backlog p13–p21, 6 odłożonych kąpieli wodnych, D1–D11 czystego repo, teksty UI i D-027 (c).
+- corn-v09: ACI-283 do requiredWarnings i ostrzeżenie na karcie (karta była w torze C4).
+- Nazwy sweet-cherry-v07, raspberry-blackberry-v06 (następna partia katalogowa). Źródło ACI-153/E3-002 (kopia listy FDA) do przeglądu źródeł.
+- Backlog p22: SLO-253 „na pintę” bez litrów; cytat SUS-059 bez „safe indefinitely while frozen”.
+- Od koordynatora bez zmian: white-cabbage-v01 (weto), KAND-1/3/4/5/8, D1–D11 czystego repo, teksty UI i D-027 (c).
 
 ## Następny krok
-06-tresci partia 22: cytrusy (lemon-v16, orange-kumquat-v15, grapefruit-v10; syrop 40% w SLO-253, sok w szkle), potem blok z kwasem askorbinowym (banany, figi, jabłka, czereśnie, brzoskwinie, morele; gruszki, śliwki do sprawdzenia), czosnek w oleju i pesto, lemon curd, mięso, ryby, nabiał, jaja.
+06-tresci: blok z kwasem askorbinowym (FRZ-066–086, raport B5), czosnek w oleju i pesto (OLE-051–057), potem lemon curd, mięso, ryby, nabiał, jaja.
