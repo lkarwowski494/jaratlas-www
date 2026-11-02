@@ -70,7 +70,7 @@ Mrożone owoce podawaj, gdy mają jeszcze trochę kryształków lodu: są wtedy 
 
 Owoce rozmrażaj w opakowaniu w lodówce, pod bieżącą wodą albo w mikrofalówce, jeśli robisz to tuż przed użyciem. [T:SLO-256]
 
-Opakowanie 1 funta (ok. 0,45 kg) owoców w syropie potrzebuje 6 do 8 godzin w lodówce albo 1/2 do 1 godziny pod chłodną bieżącą wodą; owoce z cukrem rozmrażają się trochę szybciej niż w syropie, a jedne i drugie szybciej niż owoce bez cukru. [T:SLO-256]
+Opakowanie 1 funta (ok. 0,45 kg) owoców w syropie potrzebuje 6 do 8 godzin w lodówce albo 1/2 do 1 godziny pod chłodną bieżącą wodą; owoce zasypane suchym cukrem rozmrażają się trochę szybciej niż w syropie, a jedne i drugie szybciej niż owoce bez cukru. [T:SLO-256]
 
 Rozmrażaj tylko tyle, ile potrzebujesz naraz; resztki rozmrożonych owoców lepiej się trzymają, gdy je ugotujesz. [T:SLO-256]
 

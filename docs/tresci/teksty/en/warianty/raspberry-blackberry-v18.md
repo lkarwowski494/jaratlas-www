@@ -70,7 +70,7 @@ Serve frozen fruit while it still has a few ice crystals: it is then less mushy.
 
 Thaw the fruit in its package in the refrigerator, under running water, or in the microwave oven if you thaw it just before use. [T:SLO-256]
 
-A 1 pound (about 0.45 kg) package of fruit in syrup needs 6 to 8 hours in the refrigerator or 1/2 to 1 hour in cool running water; fruit packed with sugar thaws a little faster than fruit in syrup, and both thaw faster than fruit packed without sugar. [T:SLO-256]
+A 1 pound (about 0.45 kg) package of fruit in syrup needs 6 to 8 hours in the refrigerator or 1/2 to 1 hour in cool running water; fruit packed in dry sugar thaws a little faster than fruit in syrup, and both thaw faster than fruit packed without sugar. [T:SLO-256]
 
 Thaw only as much as you need at one time; leftover thawed fruit keeps better if you cook it. [T:SLO-256]
 
