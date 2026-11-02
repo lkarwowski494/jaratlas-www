@@ -29,7 +29,7 @@ export const WSPOLNE = {
   'OLE-029': ['water-bath', 'freezer'], // warzywa i zioła w oleju: zamrożenie najbezpieczniejsze (papryka w oleju bell-pepper-v09 i karty mrożenia garlic-v09/v10, p28)
   'ACI-125': ['refrigerator', 'dry-storage'], // imbir niskokwasowy: wymagane ostrzeżenie kart-ostrzeżeń imbiru lodówkowych (v11, v13) i kandyzowanego (v09, suszenie), p36
   'ACI-512': ['refrigerator', 'water-bath'], // czosnek w occie w lodówce zamiast wekowania: garlic-v07 (lodówka) i karty-ostrzeżenia garlic-v04/v06/v08 (kąpiel), p36
-  'SLO-023': ['refrigerator', 'dry-storage'], // pH powyżej 4,6 a C. botulinum: wymagane ostrzeżenie kart-ostrzeżeń imbiru (lodówka) i kandyzowanych dyni/imbiru (suszenie), p36
+  'SLO-023': ['refrigerator', 'dry-storage', 'freezer'], // pH powyżej 4,6 a C. botulinum: wymagane ostrzeżenie kart-ostrzeżeń imbiru (lodówka) i kandyzowanych dyni/imbiru (suszenie), p36
   'SLO-482': ['refrigerator', 'dry-storage'], // imbir/sok imbirowy bez przepisu kąpieli (Ask Extension): karty-ostrzeżenia imbiru lodówkowe i kandyzowanego, p36
   'OLE-057': ['freezer', 'refrigerator', 'cool-storage'], // lodówka 40 °F (4 °C) lub niżej, zamrażarka 0 °F: karty mrożenia i karty oleju w lodówce (B24-Q1, p36)
   'ACI-006': ['refrigerator', 'water-bath'], // p36: karty-ostrzeżenia słodkich przetworów lodówkowych (requiredWarnings albo uzasadnienie „Why”) obok kart innej metody
@@ -49,10 +49,19 @@ export const WSPOLNE = {
   'OLE-084': ['refrigerator', 'cool-storage'], // karty smalcu i tłuszczów B27, p36
   'OLE-085': ['refrigerator', 'cool-storage'], // karty smalcu i tłuszczów B27, p36
   'ACI-159': ['refrigerator', 'water-bath'], // pH grzybów: karty-ostrzeżenia pieczarek marynowanych (lodówka i kąpiel), p36
-  'OLE-001': ['freezer', 'water-bath'], // czosnek w oleju nie w temperaturze pokojowej: karty mrożenia czosnku i wymagane ostrzeżenie karty-ostrzeżenia cucumber-v19 (kąpiel), p36
+  'OLE-001': ['freezer', 'water-bath', 'refrigerator'], // czosnek w oleju nie w temperaturze pokojowej: karty mrożenia czosnku i wymagane ostrzeżenie karty-ostrzeżenia cucumber-v19 (kąpiel), p36
   'SUS-141': ['dry-storage', 'water-bath', 'brak'], // p36: karty-ostrzeżenia grzybów leśnych w occie (kąpiel) i w słoikach (metoda nieustalona) obok kart suszenia
   'SUS-335': ['dry-storage', 'water-bath', 'brak'], // p36: karty-ostrzeżenia grzybów leśnych w occie (kąpiel) i w słoikach (metoda nieustalona) obok kart suszenia
   'SUS-336': ['dry-storage', 'water-bath', 'brak'], // p36: karty-ostrzeżenia grzybów leśnych w occie (kąpiel) i w słoikach (metoda nieustalona) obok kart suszenia
+  'ACI-106': ['water-bath', 'refrigerator'], // pH czosnku: karty-ostrzeżenia czosnku w occie (kąpiel) i kiszonego/w miodzie/pasty (lodówka), p36
+  'ACI-441': ['water-bath', 'freezer'], // masło dyniowe a wekowanie (NCHFP): karty-ostrzeżenia dyni w occie/chutneya (kąpiel) i masła dyniowego (mrożenie), p36
+  'ACI-445': ['water-bath', 'freezer'], // dynia: karty-ostrzeżenia dyni w occie (kąpiel) i dżemu dyniowego (mrożenie), p36
+  'MIE-023': ['refrigerator', 'cool-storage'], // kiełbasy fermentowane: karty-ostrzeżenia dojrzewających (chłodne miejsce) i smarownych (lodówka), p36
+  'MIE-025': ['refrigerator', 'cool-storage'], // jw., p36
+  'SLO-045': ['dry-storage', 'freezer'], // dynia niskokwasowa: karty-ostrzeżenia dyni kandyzowanej (suszenie) i dżemu/masła dyniowego (mrożenie), p36
+  'SZY-001': ['pressure-canning', 'brak'], // szybkowar dla żywności niskokwasowej: sea-fish-v14 (szybkowar) i karty grzybów w słoikach (metoda nieustalona), p36
+  'SZY-006': ['pressure-canning', 'brak'], // jw., p36
+  'SZY-013': ['pressure-canning', 'brak'], // jw., p36
   'SUS-035': ['dry-storage', 'brak', 'water-bath', 'freezer'], // toksyny grzybów: karty suszenia grzybów (p28) i karta-ostrzeżenie kapusty z grzybami (white-cabbage-v13, metoda nieustalona)
   'OLE-002': ['water-bath', 'freezer', 'refrigerator'], // czosnek w oleju: lodówka 40°F, 4 dni (NCHFP): ostrzeżenie papryki w oleju (bell-pepper-v09), karta mrożenia garlic-v17 (p24) i wymagane ostrzeżenie oleju szczypiorkowego leek-chives-v08 (p32)
   'OLE-019': ['freezer', 'refrigerator'], // oleje z niezakwaszonymi ziołami nie w temperaturze pokojowej: karty mrożenia garlic-v09/v10 i wymagane ostrzeżenie leek-chives-v08 (p32)
@@ -68,7 +77,7 @@ export const WSPOLNE = {
   'MIE-110': ['dry-storage', 'refrigerator'], // NCHFP: mięso czerwone w lodówce 3–5 dni: karty suszenia mięsa i reguła JarAtlas dla kiełbas świeżych smoked-cooked-sausages-v10/v13/v14 (p35)
   'SLO-433': ['freezer', 'refrigerator'], // karty mrożenia i gravlax sea-fish-v01 w lodówce (p35)
   'MLE-021': ['refrigerator', 'dry-storage'], // fermentowane mleko pH 4,6 lub niżej w 48 h: karta-ostrzeżenie kashk yogurt-skyr-v11 (suszenie) i jogurty lodówkowe yogurt-skyr-v01/v02/v04 (p35)
-  'SLO-036': ['water-bath', 'dry-storage'], // miód a niemowlęta poniżej 12 miesięcy (FDA): mus dla niemowląt peach-nectarine-v12 (p29) i skóra z mango z miodem mango-papaya-v10 (p30, D4-7-02)
+  'SLO-036': ['water-bath', 'dry-storage', 'refrigerator'], // miód a niemowlęta poniżej 12 miesięcy (FDA): mus dla niemowląt peach-nectarine-v12 (p29) i skóra z mango z miodem mango-papaya-v10 (p30, D4-7-02)
 };
 
 const ZNACZNIK = /\[T:([^\]]*)\]/g;

@@ -1,0 +1,16 @@
+# Salame Milano and Napoli: why there is no recipe here
+
+There is no recipe here for Italian salame Milano and salame Napoli, raw dry sausages made with starter cultures and a white mold. [T:-]
+
+## !
+
+- According to UGA, a sausage is shelf stable only when its water activity is below 0.85 and its pH is under 5.3. [T:MIE-023]
+- Without an effective starter culture, fermentation temperatures of 80–100 °F can let dangerous bacteria grow in the meat. [T:MIE-025]
+
+## Why
+
+According to UGA, E. coli O157:H7 in dry fermented sausages is controlled by strict control of fermentation and acidity, and by heating to 145 °F or above after fermentation. [T:MIE-024]
+
+In dry sausages, control of Salmonella takes a combination of a starter culture, the fermentation temperature, and control of pH, curing salt and salt. [T:MIE-027]
+
+JarAtlas has found no tested home recipe for salame Milano or Napoli from a checked source. [T:-]
