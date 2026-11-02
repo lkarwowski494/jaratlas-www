@@ -15,6 +15,8 @@ A powder from honey fungus stems uses the stems, not young caps. [T:SUS-335]
 
 Drying is not the boiling with the water thrown away that ATS Milano requires before honey fungus is eaten. [T:SUS-336]
 
+ATS Milano also says that in some genera of mushrooms the stems must be discarded, for example in honey fungus. [T:SUS-359]
+
 The Polish Minister of Health reminds people to eat only edible mushrooms that have been heat-treated, such as fried or cooked. [T:SUS-146]
 
 JarAtlas has found no checked source on whether honey fungus dried without cooking is safe to eat. [T:-]

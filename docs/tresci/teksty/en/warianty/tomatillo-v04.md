@@ -11,4 +11,6 @@ There is no recipe here for Cape gooseberries (Physalis peruviana) in cider vine
 
 ## Why
 
+According to Penn State Extension, these are ground cherries: at the Cape of Good Hope they were called Cape gooseberries or goldenberries, and their scientific name is Physalis peruviana. [T:SUS-358]
+
 Without a tested recipe, there is no checked process time or vinegar proportion for Cape gooseberries in vinegar. [T:-]

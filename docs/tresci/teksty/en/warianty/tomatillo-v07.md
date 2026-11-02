@@ -8,6 +8,8 @@ There is no recipe here for jam made from cape gooseberries (Physalis peruviana,
 
 ## Why
 
+According to Penn State Extension, these are ground cherries: at the Cape of Good Hope they were called Cape gooseberries or goldenberries, and their scientific name is Physalis peruviana. [T:SUS-358]
+
 JarAtlas has found no tested recipe for this jam from NCHFP, from Ball or from a pectin maker. [T:-]
 
 JarAtlas has found no checked source for the pH of cape gooseberries, so it is not known whether the fruit is acidic enough for a boiling water canner. [T:-]
