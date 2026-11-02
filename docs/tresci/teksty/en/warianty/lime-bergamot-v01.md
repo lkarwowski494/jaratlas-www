@@ -8,11 +8,13 @@ For this recipe: 10 limes and 1/2 cup pickling or canning salt. [T:FER-087]
 
 Use at least 1 tablespoon of pure, non-iodized salt per fruit. [T:FER-089]
 
-The UCCE Orange County material lists bay leaf, oregano, cumin and various chili peppers among the spices for preserved Mexican limes. [T:FER-089]
+A UCCE Master Food Preserver handout lists bay leaf, oregano, cumin and various chili peppers among the spices for preserved Mexican limes. [T:FER-089]
 
 JarAtlas rule (cautious): this card uses only dried whole chili peppers and bay leaves; fresh chili, garlic and onion from the same list are not covered. [T:FER-089]
 
-Ask Extension (Oregon State University) calls the combination of lemons and salt very low risk for pathogens; the salt must be in an adequate amount. [T:FER-086,FER-104]
+JarAtlas rule (cautious): keep the amount of spices from the UCCE recipe, 4 bay leaves, and use up to 4 dried chili peppers in place of its 4 cinnamon sticks. [T:FER-105]
+
+An Ask Extension expert answer calls the combination of lemons and salt very low risk for pathogens; the salt must be in an adequate amount. [T:FER-086,FER-104]
 
 Do not reduce the salt. [T:FER-104]
 
@@ -32,7 +34,9 @@ Pack at least 1 tablespoon of salt into each lime and place the limes in the jar
 
 Fill the jar with lime juice to within 1/2 inch of the top; the fruit must be submerged in juice. [T:FER-105,FER-104]
 
-Lemon and salt corrode a metal canning lid, so use a plastic lid or line a metal lid with plastic wrap. [T:FER-104]
+If it is not covered, juice an additional lime and add the juice to the jar; the UCCE handout gives this step for lemons. [T:FER-106]
+
+Lemon and salt corrode a metal canning lid, so cover the jar loosely: with a loose plastic lid, or with a metal lid lined with plastic wrap and left loose. [T:FER-104]
 
 ## Ripening
 

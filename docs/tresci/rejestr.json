@@ -2541,7 +2541,7 @@
  },
  {
   "id": "FER-086",
-  "twierdzenie": "Ask Extension (OSU, 2018): połączenie cytryn i soli to produkt bardzo niskiego ryzyka; pierwsze dni w temperaturze pokojowej, potem lodówka; sól musi być w odpowiedniej ilości; przy śluzie lub pleśni wyrzucić; cytryna z solą koroduje metalowe wieczko.",
+  "twierdzenie": "Ask Extension (odpowiedź z 2018, hrabstwo Tillamook, Oregon): połączenie cytryn i soli to produkt bardzo niskiego ryzyka; pierwsze dni w temperaturze pokojowej, potem lodówka; sól musi być w odpowiedniej ilości; przy śluzie lub pleśni wyrzucić; cytryna z solą koroduje metalowe wieczko.",
   "zrodla": [
    {
     "adres": "https://ask.extension.org/kb/faq.php?id=441067",
@@ -2618,6 +2618,15 @@
     "miejsce": "Traditional Preserved Lemons",
     "cytat": "paper towels. Store preserved lemons in a container with an airtight lid. Refrigerate for",
     "odczyt": "2026-11-01",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "69b76eb7cc92"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "Traditional Preserved Lemons",
+    "cytat": "up to 6 months.",
+    "odczyt": "2026-11-02",
     "szczebel": 3,
     "weryfikacja": "curl+grep",
     "sha12": "69b76eb7cc92"
@@ -19231,7 +19240,7 @@
  },
  {
   "id": "NAP-037",
-  "twierdzenie": "Do octów smakowych dla bezpieczeństwa używa się wyłącznie octu produkowanego komercyjnie; octy winne i ryżowe zawierają białko sprzyjające wzrostowi bakterii.",
+  "twierdzenie": "Do octów smakowych dla większego bezpieczeństwa używa się wyłącznie octu produkowanego komercyjnie; octy winne i ryżowe zawierają białko, które jest bardzo dobrym podłożem dla bakterii, jeśli octu nie obchodzi się i nie przechowuje właściwie.",
   "zrodla": [
    {
     "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
@@ -19250,6 +19259,15 @@
     "szczebel": 3,
     "weryfikacja": "curl+grep",
     "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Vinegar",
+    "cytat": "growth, if not handled and stored properly.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
    }
   ],
   "status": "potwierdzone",
@@ -19261,7 +19279,8 @@
    "sha": "e3b0c44298fc"
   },
   "klaster": "NAP",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-01",
+  "twierdzenie_en": "For added safety, use only commercially produced vinegars for flavored vinegars; wine and rice vinegars contain some protein that provides an excellent medium for bacterial growth if they are not handled and stored properly."
  },
  {
   "id": "NAP-038",
@@ -19413,7 +19432,7 @@
  },
  {
   "id": "NAP-043",
-  "twierdzenie": "Przetestowane przepisy UGA/NCHFP obejmują m.in. ocet estragonowy i ocet malinowy (macerat na occie komercyjnym).",
+  "twierdzenie": "Przepisy sugerowane przez UGA/NCHFP (Suggested Flavorings) obejmują m.in. ocet estragonowy i ocet malinowy (macerat na occie komercyjnym).",
   "zrodla": [
    {
     "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
@@ -54214,8 +54233,8 @@
  },
  {
   "id": "NAP-071",
-  "twierdzenie": "UGA, octy smakowe: zakrętki z metalu niekorodującego albo z plastiku, albo nowe, fabrycznie wysterylizowane korki.",
-  "twierdzenie_en": "UGA, flavored vinegars: use non-corrodible metal or plastic screw caps, or new, pre-sterilized corks.",
+  "twierdzenie": "UGA, octy smakowe: zakrętki z metalu niekorodującego albo z plastiku, umyte w gorącej wodzie z płynem, wypłukane i sparzone wrzątkiem; albo nowe, fabrycznie wysterylizowane korki, zanurzone szczypcami we wrzącej wodzie 3–4 razy.",
+  "twierdzenie_en": "UGA, flavored vinegars: use non-corrodible metal or plastic screw caps, washed in hot soapy water, rinsed and scalded in boiling water; or new, pre-sterilized corks dipped in and out of boiling water with tongs 3–4 times.",
   "zrodla": [
    {
     "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
@@ -54234,6 +54253,24 @@
     "szczebel": 3,
     "weryfikacja": "pdftotext -layout+grep",
     "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Lids and Caps",
+    "cytat": "If using screw caps, wash in hot soapy water, rinse and scald in boiling water.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Lids and Caps",
+    "cytat": "pre-sterilized corks. Use tongs to dip corks in and out of boiling water 3-4 times.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
    }
   ],
   "status": "potwierdzone",
@@ -54246,8 +54283,8 @@
  },
  {
   "id": "NAP-072",
-  "twierdzenie": "UGA i OSU, octy smakowe: świeże zioła (i warzywa) myć delikatnie, ale dokładnie, i osuszyć czystym ręcznikiem papierowym.",
-  "twierdzenie_en": "UGA and OSU, flavored vinegars: wash fresh herbs (and vegetables) gently but thoroughly and pat them dry with a clean paper towel.",
+  "twierdzenie": "UGA i OSU, octy smakowe: świeże zioła (i warzywa) myć delikatnie, ale dokładnie, i osuszyć czystym ręcznikiem papierowym; UGA każe potem zanurzyć zioła w roztworze dezynfekującym z 1 łyżeczki domowego wybielacza chlorowego na 6 szklanek wody, dokładnie wypłukać pod zimną wodą i osuszyć.",
+  "twierdzenie_en": "UGA and OSU, flavored vinegars: wash fresh herbs (and vegetables) gently but thoroughly and pat them dry with a clean paper towel; UGA then dips the herbs in a sanitizing solution of 1 teaspoon of household chlorine bleach in 6 cups of water, rinses them thoroughly under cold water and pats them dry.",
   "zrodla": [
    {
     "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
@@ -54266,15 +54303,34 @@
     "szczebel": 3,
     "weryfikacja": "curl+grep",
     "sha12": "cd3bd9578944"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Herbs",
+    "cytat": "are washed and dried, dip them in a sanitizing bleach solution of 1 teaspoon of household",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Herbs",
+    "cytat": "chlorine beach in 6 cups of water. Rinse thoroughly under cold water and pat dry with",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "UGA (przegląd 2011) dodaje zanurzenie ziół w roztworze wybielacza (1 łyżeczka na 6 szklanek wody); OSU (wyd. 12/2025) tego kroku nie ma. Karty go nie podają (decyzja p32-D3, do weta): wybielacze domowe poza USA często mają dodatki zapachowe i środki powierzchniowo czynne.",
+  "uproszczenie": null,
   "krytyczne": true,
   "przeglad": null,
   "wazne_do": "2027-11-02",
   "klaster": "NAP",
-  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)",
+  "uwaga": "p32 V1: sprzeczność tego samego szczebla (OSU 12/2025 bez dezynfekcji) rozstrzygnięta ostrożniej, według UGA (decyzja p32-D3)."
  },
  {
   "id": "NAP-073",
@@ -54433,8 +54489,8 @@
  },
  {
   "id": "NAP-077",
-  "twierdzenie": "UGA, octy smakowe: przecedzony ocet przelewa się do czystych, wysterylizowanych słoików i szczelnie zamyka; przed zamknięciem można dodać kilka czystych owoców albo umytą gałązkę świeżego zioła.",
-  "twierdzenie_en": "UGA, flavored vinegars: pour the strained vinegar into clean, sterilized jars and cap tightly; a few clean berries or a washed sprig of fresh herb may be added before closing.",
+  "twierdzenie": "UGA, octy smakowe: przecedzony ocet przelewa się do czystych, wysterylizowanych słoików i szczelnie zamyka; przed zamknięciem można dodać kilka czystych owoców albo umytą i zdezynfekowaną gałązkę świeżego zioła.",
+  "twierdzenie_en": "UGA, flavored vinegars: pour the strained vinegar into clean, sterilized jars and cap tightly; a few clean berries or a washed and sanitized sprig of fresh herb may be added before closing.",
   "zrodla": [
    {
     "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
@@ -54456,7 +54512,7 @@
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "UGA: „washed and sanitized sprig”; „sanitized” odnosi się do roztworu wybielacza, którego karty nie podają (NAP-072, decyzja p32-D3).",
+  "uproszczenie": null,
   "krytyczne": true,
   "przeglad": null,
   "wazne_do": "2027-11-02",
@@ -54930,8 +54986,8 @@
  },
  {
   "id": "FER-104",
-  "twierdzenie": "Ask Extension (OSU, 2018): cytryny muszą być zanurzone w soku; mogą bezpiecznie stać w temperaturze pokojowej przez pierwsze dni, żeby sól się rozpuściła, potem zaleca się lodówkę; soli musi być odpowiednio dużo; cytryna z solą koroduje metalowe wieczko słoika, więc zaleca się luźną plastikową pokrywkę albo metalowe wieczko podłożone folią spożywczą.",
-  "twierdzenie_en": "Ask Extension (OSU, 2018): the lemons must be submerged in juice; they can be safely left at room temperature for the first few days to let the salt dissolve, and then refrigerator storage is suggested; the salt must be in an adequate amount; lemon and salt corrode a metal canning lid, so a loose plastic lid or a metal lid lined with plastic wrap is suggested.",
+  "twierdzenie": "Ask Extension (odpowiedź z 2018, hrabstwo Tillamook, Oregon): cytryny muszą być zanurzone w soku; mogą bezpiecznie stać w temperaturze pokojowej przez pierwsze dni, żeby sól się rozpuściła, potem zaleca się lodówkę; soli musi być odpowiednio dużo; cytryna z solą koroduje metalowe wieczko słoika, więc zaleca się przykryć słoik luźno: plastikową pokrywką albo metalowym wieczkiem podłożonym folią spożywczą, zostawionym luźno.",
+  "twierdzenie_en": "Ask Extension (2018 answer, Tillamook County, Oregon): the lemons must be submerged in juice; they can be safely left at room temperature for the first few days to let the salt dissolve, and then refrigerator storage is suggested; the salt must be in an adequate amount; lemon and salt corrode a metal canning lid, so the jar is covered loosely: with a loose plastic lid, or a metal lid lined with plastic wrap and left loose.",
   "zrodla": [
    {
     "adres": "https://ask.extension.org/kb/faq.php?id=441067",
@@ -54986,6 +55042,15 @@
     "szczebel": 3,
     "weryfikacja": "curl+grep",
     "sha12": "621b85a13663"
+   },
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=441067",
+    "miejsce": "Expert Response",
+    "cytat": "Cover loosely.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "621b85a13663"
    }
   ],
   "status": "potwierdzone",
@@ -54999,8 +55064,8 @@
  },
  {
   "id": "FER-105",
-  "twierdzenie": "UCCE MFP Solano/Yolo (przepis z Ball), „Preserved Lemons or Limes”: przepis obejmuje limonki; owoce wyszorować w ciepłej wodzie i osuszyć; naciąć od góry do 1/2 cala przed dołem, prawie na ćwiartki; z pozostałych 5 owoców wycisnąć 1 1/2 szklanki soku; 1 łyżka soli do marynat na dno wysterylizowanego słoika; zalać sokiem do 1/2 cala pod brzeg; dojrzewanie 2–4 tygodnie z codziennym wstrząsaniem albo do zmięknięcia skórki; przechowywać w lodówce.",
-  "twierdzenie_en": "UCCE MFP Solano/Yolo (recipe from Ball), “Preserved Lemons or Limes”: the recipe covers limes; scrub the fruit in warm water and dry it; slice each from the top to within 1/2 inch of the bottom, almost into quarters; juice the remaining 5 fruits to measure 1 1/2 cups of juice; sprinkle 1 tablespoon of pickling salt over the bottom of a sterilized jar; fill with juice to within 1/2 inch of the top; ripen 2–4 weeks with daily shaking, or until the rinds are tender to the bite; store in the refrigerator.",
+  "twierdzenie": "UCCE MFP Solano/Yolo (przepis z Ball), „Preserved Lemons or Limes”: przepis obejmuje limonki; owoce wyszorować w ciepłej wodzie i osuszyć; naciąć od góry do 1/2 cala przed dołem, prawie na ćwiartki; z pozostałych 5 owoców wycisnąć 1 1/2 szklanki soku; 1 łyżka soli do marynat na dno wysterylizowanego słoika; zalać sokiem do 1/2 cala pod brzeg; dojrzewanie 2–4 tygodnie z codziennym wstrząsaniem albo do zmięknięcia skórki; przechowywać w lodówce. Przyprawy w przepisie: 4 laski cynamonu, 1 łyżeczka całego czarnego pieprzu, 4 liście laurowe.",
+  "twierdzenie_en": "UCCE MFP Solano/Yolo (recipe from Ball), “Preserved Lemons or Limes”: the recipe covers limes; scrub the fruit in warm water and dry it; slice each from the top to within 1/2 inch of the bottom, almost into quarters; juice the remaining 5 fruits to measure 1 1/2 cups of juice; sprinkle 1 tablespoon of pickling salt over the bottom of a sterilized jar; fill with juice to within 1/2 inch of the top; ripen 2–4 weeks with daily shaking, or until the rinds are tender to the bite; store in the refrigerator. Spices in the recipe: 4 cinnamon sticks, 1 tsp whole black peppercorns, 4 bay leaves.",
   "zrodla": [
    {
     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341442.pdf",
@@ -55055,6 +55120,33 @@
     "szczebel": 3,
     "weryfikacja": "pdftotext -layout+grep",
     "sha12": "37293ff64a19"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341442.pdf",
+    "miejsce": "Preserved Lemons or Limes",
+    "cytat": "4 cinnamon sticks",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "37293ff64a19"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341442.pdf",
+    "miejsce": "Preserved Lemons or Limes",
+    "cytat": "1 tsp whole black peppercorns",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "37293ff64a19"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341442.pdf",
+    "miejsce": "Preserved Lemons or Limes",
+    "cytat": "4 bay leaves",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "37293ff64a19"
    }
   ],
   "status": "potwierdzone",
@@ -55105,6 +55197,62 @@
   "wazne_do": "2027-11-02",
   "klaster": "OLE",
   "pochodzenie": "06 p32 (karty lodówkowe: olej ze szczypiorkiem)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "NAP-086",
+  "twierdzenie": "UGA, octy smakowe: pracować w bardzo czystym miejscu, czystymi narzędziami i bardzo czystymi rękami.",
+  "twierdzenie_en": "UGA, flavored vinegars: work in a very clean area with sanitary utensils and very clean hands.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Significance of Safety Concerns",
+    "cytat": "in a very clean area with sanitary utensils. Also be sure hands are very clean while you work!",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (V1: higiena pracy)"
+ },
+ {
+  "id": "FER-106",
+  "twierdzenie": "UCCE MFP (materiał 02/2017 „Preserved Lemons”): cząstki cytryn mają być zanurzone pod płynem; jeśli nie są, wyciska się dodatkową cytrynę i dolewa sok do słoika.",
+  "twierdzenie_en": "UCCE MFP (02/2017 handout “Preserved Lemons”): the lemon wedges should be submerged beneath the liquid; if they are not, juice an additional lemon and add the juice to the jar.",
+  "zrodla": [
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2021-03/346172.pdf",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "f30793f11f1c",
+    "miejsce": "DIRECTIONS 5",
+    "cytat": "The lemon wedges should be"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2021-03/346172.pdf",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "f30793f11f1c",
+    "miejsce": "DIRECTIONS 5",
+    "cytat": "submerged beneath the liquid. If they are not, juice an additional lemon and add the juice to the"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "06 p32 (V1: sok musi przykrywać owoce)",
   "jednoZrodlo": true
  }
 ]
