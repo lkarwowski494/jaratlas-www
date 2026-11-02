@@ -95,6 +95,7 @@ Akcje: **zostaje** (domyślnie), **usun**, **dysk** (usunięte z repo, kopia dla
 | `CLAUDE.md` | popraw | D5 |
 | `.gitignore` | popraw | D8 (zrobione) |
 | ten dokument, `docs/wydanie/dowody/`, `tools/przeniesienie.*`, `tests/przeniesienie.test.mjs` | usun | narzędzie jednorazowe; lista zawiera wzorce danych osobowych (wzór: trening `docs/46`, pkt 5) |
+| `tests/sprzatanie.test.mjs` | zostaje, zamiana | z listy plików testu znika `przeniesienie.test.mjs` (wykryte w podglądzie `--testy` 2026-11-02: test sprzątania padał w drzewie; od tej poprawki narzędzie łapie też krótkie nazwy w literałach) |
 | historia git, gałęzie, tagi, komunikaty commitów | nie przechodzi | jeden commit (pkt 4.5) |
 | wszystko inne | zostaje | `site/`, `tools/`, `tests/`, `catalog/`, `.github/workflows/`, `docs/adr/`, `docs/architektura/`, `docs/tresci/` |
 
@@ -112,6 +113,7 @@ Odnośniki do usuniętych dokumentów w `.github/workflows/`, `tools/`, `docs/ad
 - `--testy` uruchamia `npm run check` zamiast Jest. JarAtlas nie ma zależności npm (ADR 0001), więc nie podłączamy `node_modules`.
 - Bez generatorów: README nie jest generowany. Bez skrótów `docs/NN`, bo dokumenty JarAtlas nie są numerowane.
 - Przepisanie odnośników zmienia pełne ścieżki i katalogi; puste katalogi po usunięciach znikają.
+- Odwołania: nazwa w apostrofach lub cudzysłowie liczy się jako odczyt (wzór liczy tylko linie z read/join/…). Lista plików w `tests/sprzatanie.test.mjs` nie ma takiego słowa, a test padał.
 
 ## 7. Ryzyka
 

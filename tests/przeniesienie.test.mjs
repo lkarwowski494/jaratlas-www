@@ -116,6 +116,12 @@ test('odwolania: odczyt usuniętego pliku = „czyta”, sam komentarz = „wzmi
   ]);
 });
 
+test('odwolania: krótka nazwa usuniętego pliku w cudzysłowie liczy się, gdy żaden zostający plik nie ma tej samej nazwy (wzór trening)', () => {
+  const zrodla = { 'tests/s.test.mjs': "for (const plik of ['build.test.mjs', 'przeniesienie.test.mjs']) spawnSync(join(dir, plik));" };
+  assert.deepEqual(odwolania(zrodla, ['tests/przeniesienie.test.mjs'], ['tests/build.test.mjs']), [{ plik: 'tests/s.test.mjs', czyta: ['tests/przeniesienie.test.mjs'], wzmianka: [] }]);
+  assert.deepEqual(odwolania({ 'tools/a.mjs': "readFileSync('README.md')" }, ['docs/x/README.md'], ['README.md']), []);
+});
+
 test('sprawdzGitignore: brak .env albo dist/ to uwaga', () => {
   assert.deepEqual(sprawdzGitignore('dist/\nnode_modules/\n.env\n.env.*\n'), []);
   assert.deepEqual(sprawdzGitignore('node_modules/\n'), ['.gitignore nie obejmuje: .env', '.gitignore nie obejmuje: dist/']);

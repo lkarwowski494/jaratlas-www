@@ -133,13 +133,29 @@ export function straznik(pliki, cfg) {
   return wynik;
 }
 
-/** Odwołania kodu, testów i workflowów do usuniętych plików: linia z odczytem = „czyta”, inna = „wzmianka”. */
-export function odwolania(zrodla, usuniete) {
+/**
+ * Odwołania kodu, testów i workflowów do usuniętych plików. „czyta”: linia z odczytem (read/exist/join/…) albo nazwa w apostrofach
+ * lub cudzysłowie (literał: lista plików testu, ścieżka w kodzie); „wzmianka”: reszta (komentarz, opis).
+ * Krótka nazwa (bez katalogu, > 6 znaków) liczy się tylko w literale i tylko wtedy, gdy żaden zostający plik nie ma tej samej nazwy (wzór trening).
+ */
+export function odwolania(zrodla, usuniete, zostajace = []) {
   const czytaRe = /read|exist|join\(|resolve\(|readdir|stat|new URL\(/i;
+  const nazwyZostajace = new Set(zostajace.map((f) => f.split('/').pop()));
+  const wzorce = usuniete.map((u) => {
+    const baza = u.endsWith('/') ? '' : u.split('/').pop();
+    const krotka = baza.length > 6 && !nazwyZostajace.has(baza) ? new RegExp(`['"][^'"\\n]*\\b${esc(baza)}['"]`) : null;
+    return { u, literal: new RegExp(`['"][^'"\\n]*${esc(u)}`), krotka };
+  });
   const wynik = [];
   for (const [plik, tresc] of Object.entries(zrodla)) {
     const czyta = new Set(), wzmianka = new Set();
-    for (const l of tresc.split('\n')) for (const u of usuniete) if (l.includes(u)) (czytaRe.test(l) ? czyta : wzmianka).add(u);
+    for (const l of tresc.split('\n')) {
+      for (const { u, literal, krotka } of wzorce) {
+        const pelna = l.includes(u), wKrotkiej = Boolean(krotka?.test(l));
+        if (!pelna && !wKrotkiej) continue;
+        (czytaRe.test(l) || wKrotkiej || literal.test(l) ? czyta : wzmianka).add(u);
+      }
+    }
     if (czyta.size || wzmianka.size) wynik.push({ plik, czyta: [...czyta].sort(), wzmianka: [...wzmianka].filter((u) => !czyta.has(u)).sort() });
   }
   return wynik;
@@ -240,7 +256,7 @@ function main(args) {
     for (const p of wypiszPliki(drzewo)) if (TEKST.test(p) && statSync(join(drzewo, p)).size < 2e7) pliki[p] = readFileSync(join(drzewo, p), 'utf8');
     const s = straznik(pliki, lista.straznik ?? {});
     const zrodla = Object.fromEntries(Object.entries(pliki).filter(([p]) => /^(tests|tools|site|\.github)\//.test(p) || p === 'package.json'));
-    const odw = odwolania(zrodla, [...usunieteSciezki, ...katalogi]);
+    const odw = odwolania(zrodla, [...usunieteSciezki, ...katalogi], plan.zostaje);
     const uwagi = sprawdzGitignore(pliki['.gitignore'] ?? '');
     if (plan.decyzje.length && opt('decyzje', 'zostaw') === 'zostaw') uwagi.push(`${plan.decyzje.length} plików czeka na decyzję (zostają); wariant: --decyzje=usun`);
     const tekst = raport(plan, s, odw, kroki, uwagi);

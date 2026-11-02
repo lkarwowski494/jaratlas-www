@@ -18,6 +18,7 @@
   ],
   "przepisz": [".github/workflows/", "tools/", "docs/adr/", "docs/architektura/", "docs/tresci/", "CLAUDE.md"],
   "zamiany": [
+    { "sciezka": "tests/sprzatanie.test.mjs", "z": ", 'przeniesienie.test.mjs'", "na": "" },
     { "sciezka": "docs/tresci/E0-rozpoznanie-2026-11-01.md", "z": " Sesja: session_01T66VBydUNZSWLkpAUxjXNL.", "na": "" },
     { "sciezka": "docs/architektura/E0-rozpoznanie-2026-11-01.md", "z": "(artefakt 2m3gT4XfaeuMfT5EGqeT1i)", "na": "(tablica decyzji właściciela)" }
   ],
