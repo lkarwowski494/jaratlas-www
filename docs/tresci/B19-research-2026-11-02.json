@@ -1,0 +1,2103 @@
+{
+ "data": "2026-11-02",
+ "rola": "06-tresci build, zadanie B19 (research, tylko raport)",
+ "galaz": "claude/jaratlas-b19-research",
+ "baza": "claude/happy-brown-yncplj = 965a273",
+ "zakres": {
+  "definicja": "catalog-seed.json: preservationMethod == water-bath, processFamilyId == sweet-preserves, safetyStatus == do-researchu, id poza listą B14 (257 wariantów E1, §8 Z1/Z2/K/B) i poza B16 (45)",
+  "segment_wszystkie": 86,
+  "segment_statusy": {
+   "do-researchu": 61,
+   "ok-zrodlo": 20,
+   "ryzyko-wysokie": 5
+  },
+  "do_researchu_w_B14_B16": 29,
+  "w_zakresie": 32,
+  "uwaga": "B14 §6 szacował ok. 50 na 1f123be według szerszego podziału segmentów; na 965a273 dokładna liczba według definicji koordynatora = 32 (lista w warianty)"
+ },
+ "decyzje_wejscie": [
+  "2026-11-02-jaratlas-polityka-zrodel-ryzyko",
+  "2026-11-02-jaratlas-b14-wlasciciel (pektyna jak Ball; scen. B)",
+  "2026-11-02-jaratlas-wariant-bez-zrodla",
+  "2026-11-01-jaratlas-hierarchia-zrodel",
+  "B14-D1 (lista wydań Ball)",
+  "B16-D1 (kategoria ok-zrodlo-po-zmianie)"
+ ],
+ "grupy": {
+  "A": "owoce w syropie, syropy, sosy, frużeliny",
+  "B": "owoce nietypowe / niepewna kwasowość",
+  "C": "dżemy z owoców pestkowych i truskawek",
+  "D": "dżemy jagodowe i marmolady cytrusowe"
+ },
+ "liczby": {
+  "warianty": 32,
+  "przed": {
+   "do-researchu": 32
+  },
+  "werdykt": {
+   "do-researchu": 15,
+   "ok-zrodlo-po-zmianie": 12,
+   "ryzyko-wysokie": 4,
+   "ok-zrodlo": 1
+  },
+  "wg_grupy": {
+   "A": {
+    "do-researchu": 8,
+    "ok-zrodlo-po-zmianie": 2,
+    "ryzyko-wysokie": 2
+   },
+   "B": {
+    "do-researchu": 3,
+    "ryzyko-wysokie": 2,
+    "ok-zrodlo": 1,
+    "ok-zrodlo-po-zmianie": 2
+   },
+   "C": {
+    "do-researchu": 2,
+    "ok-zrodlo-po-zmianie": 4
+   },
+   "D": {
+    "ok-zrodlo-po-zmianie": 4,
+    "do-researchu": 2
+   }
+  },
+  "kandydaci_nie_publikowac_po_przebiegu_2": [
+   "quince-v06",
+   "lemon-v08",
+   "lime-bergamot-v10",
+   "orange-kumquat-v12",
+   "tomatillo-v08",
+   "green-cherry-tomato-v08",
+   "green-cherry-tomato-v09",
+   "rosehip-rowan-v09",
+   "mirabelle-v08",
+   "strawberry-v13",
+   "currant-v07",
+   "lime-bergamot-v07"
+  ],
+  "do_researchu_po_przebiegu_1": [
+   "pear-v08",
+   "orange-kumquat-v13",
+   "raspberry-blackberry-v13"
+  ]
+ },
+ "uzyte_id": [
+  "ACI-800",
+  "ACI-801",
+  "ACI-802",
+  "ACI-803",
+  "ACI-804",
+  "ACI-805",
+  "ACI-820",
+  "ACI-821",
+  "ACI-835",
+  "ACI-836",
+  "ACI-837",
+  "ACI-838",
+  "ACI-839",
+  "ACI-840",
+  "ACI-847",
+  "ACI-848",
+  "ACI-849",
+  "SLO-780",
+  "SLO-785",
+  "SLO-795",
+  "SLO-796"
+ ],
+ "pula_id": {
+  "przydzial": "ACI-800–859, SLO-780–799",
+  "grupy": {
+   "A": "ACI-800–819, SLO-780–784",
+   "B": "ACI-820–834, SLO-785–789",
+   "C": "ACI-835–846, SLO-790–794",
+   "D": "ACI-847–859, SLO-795–799"
+  },
+  "wolne": "ACI-806–819, ACI-822–834, ACI-841–846, ACI-850–859, SLO-781–784, SLO-786–794, SLO-797–799"
+ },
+ "warianty": [
+  {
+   "grupa": "A",
+   "id": "pear-v08",
+   "nazwa": "gruszki w czerwonym winie do słoików",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Owoce w syropie z winem = WYSOKIE ryzyko (wino to dodatek spoza przepisów NCHFP). Nie znalazłem przepisu NCHFP, Ball (wydania dozwolone) ani extension na gruszki w czerwonym winie; MFP Central Sierra ma tylko gruszki z bourbonem z All New Ball Book 2023 (niedozwolone), „Pears in Red Wine” w ckbk to M. Norwak 1978 (nie Ball). Czasu NCHFP dla gruszek w syropie nie wolno przenieść na wersję z winem (reguła 6).",
+   "twierdzenia": [],
+   "parametry_karty": {},
+   "zmiana_wariantu": null,
+   "uwagi": "Alternatywa poza zakresem wariantu: gruszki w syropie wg NCHFP (bez wina).",
+   "przebieg_uwaga": "wcześniej tylko klaster SZY (notatka „nie suszenie”/inny obszar) — B19 liczony jako przebieg 1"
+  },
+  {
+   "grupa": "A",
+   "id": "quince-v06",
+   "nazwa": "plastry pigwy w syropie do herbaty",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Pigwa kwaśna (ACI-128), ale NCHFP i Ball nie mają przepisu na pigwę w syropie (syropy ACI-067 nie dają czasu procesu). Znalezione przepisy to blogi/szczebel 4 (Creative Canning, Le Parfait) z niespójnymi czasami; przy WYSOKIM ryzyku nie wystarczają.",
+   "twierdzenia": [
+    "ACI-128",
+    "ACI-067"
+   ],
+   "parametry_karty": {},
+   "zmiana_wariantu": null,
+   "uwagi": "NCHFP ma tylko galaretkę z pigwy (archiwum).",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: ACI, SLO)"
+  },
+  {
+   "grupa": "A",
+   "id": "lemon-v08",
+   "nazwa": "plastry cytryny w syropie do herbaty",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Cytryna bardzo kwaśna (ACI-144), ale brak przepisu NCHFP/Ball/extension na plastry cytryny w syropie (NCHFP ma tylko cząstki grejpfruta i pomarańczy). Przeszukane ulotki UC MFP (Ball) zawierają marmolady, koncentraty i cytryny solone, nie plastry w syropie.",
+   "twierdzenia": [
+    "ACI-144",
+    "ACI-067"
+   ],
+   "parametry_karty": {},
+   "zmiana_wariantu": null,
+   "uwagi": null,
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: ACI, SLO)"
+  },
+  {
+   "grupa": "A",
+   "id": "lime-bergamot-v10",
+   "nazwa": "limonki w syropie do napojów",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Limonka bardzo kwaśna (ACI-145), ale brak przepisu szczebla 1–3 na limonki w syropie do kąpieli wodnej; znalezione tylko przepisy producenta sprzętu (Nesco, syrop limonkowy) i blogi. Syrop limonkowy w lodówce opisuje lime-bergamot-v09 (B16, ACI-758).",
+   "twierdzenia": [
+    "ACI-145"
+   ],
+   "parametry_karty": {},
+   "zmiana_wariantu": null,
+   "uwagi": null,
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: ACI, SLO)"
+  },
+  {
+   "grupa": "A",
+   "id": "orange-kumquat-v08",
+   "nazwa": "całe kumkwaty w syropie waniliowym",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "Ball (b)",
+   "podstawa": "Ball „Cinnamon Kumquats” (Ball Complete Book of Home Preserving, przedruk UC ANR El Dorado MFP) to całe kumkwaty w syropie z cynamonem: skład ACI-800, przygotowanie ACI-801, słoiki 8 oz/pint, 1/2 cala, 15 min (ACI-802). Wanilii nie ma w żadnym przeczytanym źródle 1–3 (B16: tylko blogi), więc usunąć ją i przyjąć przepis Ball 1:1. Kumkwat pH 3,64–4,25 (ACI-147).",
+   "twierdzenia": [
+    "ACI-800",
+    "ACI-801",
+    "ACI-802",
+    "ACI-147",
+    "ACI-067"
+   ],
+   "parametry_karty": {
+    "skladniki": {
+     "kumkwaty": "2 1/2 lb (ok. 1,13 kg), małe, jędrne, owalne",
+     "soda_oczyszczona": "2 łyżki (namaczanie 5 min we wrzątku, potem 3 płukania)",
+     "woda": "8 szklanek",
+     "cynamon": "2 laski ok. 10 cm w gazie, usunięte przed nakładaniem",
+     "cukier": "6 szklanek"
+    },
+    "sloik": "8 oz (ok. 250 ml) albo pint (ok. 500 ml)",
+    "wydajnosc": "ok. 6 x 8 oz albo 3 x pint",
+    "wolna_przestrzen": "1/2 cala (ok. 1,3 cm)",
+    "czas_0_1000_ft": "15 min (8 oz i pint)",
+    "wysokosc": "brak w przedruku — do weta",
+    "po_procesie": "zdjąć pokrywę, odczekać 5 min"
+   },
+   "zmiana_wariantu": "Nazwa: „całe kumkwaty w syropie z cynamonem (Ball)”; usunąć wanilię; skład i obróbka wg Ball Cinnamon Kumquats 1:1 (z namaczaniem w sodzie i płukaniem). Wariant miętowy z przepisu (Minted Kumquats) możliwy jako osobna wersja.",
+   "uwagi": "Nie przenosić porady MFP „small bit of cinnamon stick in each jar” ani „fruit can be doubled without doubling syrup” (dopiski ulotki, nie wiadomo, czy z Ball). Strona Ball 403 — nie sprawdzano.",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: ACI, SLO)"
+  },
+  {
+   "grupa": "A",
+   "id": "orange-kumquat-v12",
+   "nazwa": "syrop pomarańczowy",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Syrop = WYSOKIE ryzyko; brak przepisu NCHFP/Ball/extension na syrop pomarańczowy do kąpieli wodnej. Najbliższe przepisy Ball w ulotkach UC MFP to inne produkty: Sunshine Citrus/Dessert Sauce (cząstki klementynek w syropie z miodem, imbirem i cynamonem; Ball Complete Book 2012 s. 181, 10 min), Honey Orange Slices i Oranges in Cointreau (plastry z likierem i winem). Zmiana do nich byłaby zmianą produktu, nie nazwy.",
+   "twierdzenia": [],
+   "parametry_karty": {},
+   "zmiana_wariantu": null,
+   "uwagi": "Możliwa zamiana wariantu na „sos z cząstek klementynek (Ball Sunshine Dessert Sauce)” — do decyzji (zrodla/A/ucanr-362395.pdf.txt, ucanr-341814.pdf.txt); nie zgłaszam jako werdykt.",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "A",
+   "id": "orange-kumquat-v13",
+   "nazwa": "pasta pomarańczowa do wypieków",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Pasta (przecier/masa z całych pomarańczy) = WYSOKIE ryzyko (gęsty produkt, jak masła owocowe); brak przepisu NCHFP/Ball/extension. Bez przepisu szczebla 1–3 nie ma czasu procesu.",
+   "twierdzenia": [],
+   "parametry_karty": {},
+   "zmiana_wariantu": null,
+   "uwagi": null,
+   "przebieg_uwaga": "wcześniej tylko klaster SUS (notatka „nie suszenie”/inny obszar) — B19 liczony jako przebieg 1"
+  },
+  {
+   "grupa": "A",
+   "id": "sour-cherry-v14",
+   "nazwa": "sos wiśniowy do dziczyzny",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "Ball (b)",
+   "podstawa": "Ball „Danish Cherry Sauce” (Ball Complete Book 2020, s. 184; przedruk UC ANR Solano/Yolo MFP) to wiśnie lub czereśnie w syropie z cynamonem, ekstraktem migdałowym i syropem kukurydzianym (ACI-803), 3 słoiki pint, 1/2 cala, 10 min (ACI-804). NCHFP dla całych wiśni, gorące nalewanie, pint podaje 15 min przy 0–1000 ft (ACI-805); przy sprzeczności wygrywa NCHFP, więc karta: dłuższy czas i tabela wysokości NCHFP. Wiśnie kwaśne (ACI-131).",
+   "twierdzenia": [
+    "ACI-803",
+    "ACI-804",
+    "ACI-805",
+    "ACI-131"
+   ],
+   "parametry_karty": {
+    "skladniki": {
+     "cukier": "1 1/2 szklanki",
+     "cynamon": "3 laski ok. 10 cm (usunąć)",
+     "ekstrakt_migdalowy": "1 1/2 łyżeczki",
+     "woda": "1 szklanka",
+     "syrop_kukurydziany": "3/4 szklanki",
+     "wisnie_drylowane": "7 1/2 szklanki"
+    },
+    "sloik": "pint (ok. 500 ml)",
+    "wydajnosc": "3 x pint",
+    "wolna_przestrzen": "1/2 cala (ok. 1,3 cm)",
+    "czas_0_1000_ft": "15 min (NCHFP; Ball podaje 10 min)",
+    "wysokosc": "1001–3000 ft 20 min, 3001–6000 ft 20 min, powyżej 6000 ft 25 min (NCHFP, pint hot pack)",
+    "po_procesie": "zdjąć pokrywę, odczekać 5 min"
+   },
+   "zmiana_wariantu": "Nazwa: „duński sos wiśniowy z cynamonem (Ball)” — skład Ball 1:1 (wiśnie z syropem, cynamon, ekstrakt migdałowy, syrop kukurydziany; bez wina, ziół, cebuli, pieprzu itp. typowych dla sosu do dziczyzny); tylko słoiki pint; „do dziczyzny” najwyżej jako propozycja podania.",
+   "uwagi": "Ball podaje to jako sos do deserów (sernik, biszkopt). Czas: Ball 10 min vs NCHFP 15 min — do weta (D-A1).",
+   "przebieg_uwaga": "wcześniej tylko klaster SUS (notatka „nie suszenie”/inny obszar) — B19 liczony jako przebieg 1"
+  },
+  {
+   "grupa": "A",
+   "id": "raspberry-blackberry-v13",
+   "nazwa": "sos malinowo-chili",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Sos z dodatkiem chili (składnik niskokwasowy) = WYSOKIE ryzyko. Brak przepisu NCHFP/Ball (dozwolone wydania)/extension; znalezione: pickyourown (szczebel 4, z pektyną), blogi, wątek o dżemie Ball Raspberry Chipotle (źródło nieprzeczytane, strona Ball 403).",
+   "twierdzenia": [
+    "ACI-137"
+   ],
+   "parametry_karty": {},
+   "zmiana_wariantu": null,
+   "uwagi": "Ewentualna droga: dżem malinowy z chili/chipotle wg przepisu producenta pektyny — wymaga osobnego researchu i zmiany produktu.",
+   "przebieg_uwaga": "wcześniej tylko klaster SUS (notatka „nie suszenie”/inny obszar) — B19 liczony jako przebieg 1"
+  },
+  {
+   "grupa": "A",
+   "id": "currant-v09",
+   "nazwa": "frużelina porzeczkowa",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ryzyko-wysokie",
+   "ryzyko": "wysokie",
+   "regula": "NCHFP",
+   "podstawa": "Frużelina to nadzienie zagęszczone skrobią. NCHFP ma nadzienia tylko z jabłek, borówki amerykańskiej, wiśni, brzoskwiń, zielonych pomidorów i mincemeat, tylko z Clear Jel; inne skrobie się rozpadają, a ilości soku z cytryny nie wolno zmieniać (SLO-780, SLO-058). Porzeczki brak; frużelina na skrobi ziemniaczanej/kukurydzianej to przepis niezgodny z regułą 7.",
+   "twierdzenia": [
+    "SLO-780",
+    "SLO-058"
+   ],
+   "parametry_karty": {},
+   "zmiana_wariantu": null,
+   "uwagi": "Nie przenosić przepisu Blueberry/Cherry Pie Filling na porzeczki (reguła 5).",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "A",
+   "id": "cranberry-lingonberry-v12",
+   "nazwa": "frużelina żurawinowa",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ryzyko-wysokie",
+   "ryzyko": "wysokie",
+   "regula": "NCHFP",
+   "podstawa": "Jak currant-v09: NCHFP nie ma nadzienia z żurawiny; nadzienia tylko z listy SLO-780 i tylko z Clear Jel (SLO-058). Frużelina na innej skrobi = ryzyko (reguła 7).",
+   "twierdzenia": [
+    "SLO-780",
+    "SLO-058"
+   ],
+   "parametry_karty": {},
+   "zmiana_wariantu": null,
+   "uwagi": "NCHFP ma sos żurawinowy (SLO-105/233), ale to inny produkt (bez skrobi).",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO, NAP)"
+  },
+  {
+   "grupa": "A",
+   "id": "tomatillo-v08",
+   "nazwa": "konfitura z miechunki w syropie",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Tomatillo/miechunka ma pH ok. 3,83 z dużą zmiennością (ACI-098), a NCHFP wekuje tomatillo tylko w salsie z dodanym sokiem z cytryny/limonki i bez zmian proporcji kwasu (ACI-430) — owoc o niepewnym pH = WYSOKIE ryzyko. Brak przepisu NCHFP/Ball/extension na konfiturę z tomatillo lub miechunki (physalis); znalezione tylko blogi (Tyrant Farms 15 min, Practical Self Reliance 5 min — sprzeczne).",
+   "twierdzenia": [
+    "ACI-098",
+    "ACI-430"
+   ],
+   "parametry_karty": {},
+   "zmiana_wariantu": null,
+   "uwagi": "Ostrożniej rozważyć ryzyko-wysokie, jeśli weto uzna brak dodanego kwasu za zagrożenie; niejasne też, czy „miechunka” to tomatillo (P. philadelphica) czy miechunka peruwiańska/pomidorowa (P. peruviana/pruinosa).",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: ACI, SLO)"
+  },
+  {
+   "grupa": "B",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "id": "green-cherry-tomato-v08",
+   "nazwa": "dżem z zielonych pomidorów z cytryną",
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Zielone pomidory to warzywo o granicznej kwasowości (ACI-050: wekuje się je tylko z zakwaszeniem), więc dżem z nich ma ryzyko WYSOKIE i wymaga przepisu szczebla 1–3 pasującego 1:1. NCHFP ma tylko Tomato Jam (Spiced) Pectin i Tomato Marmalade, oba z dojrzałych pomidorów („Wash firm ripe tomatoes”, „3 quarts ripe tomatoes”; kopie nchfp-tomato-*.txt); zamiana dojrzałych na zielone nie jest dopuszczona. Znalezione przepisy na dżem z zielonych pomidorów to blogi i Pomona (szczebel 4) — przy ryzyku wysokim nie wystarczają.",
+   "twierdzenia": [
+    "ACI-050"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Kandydat na nie-publikować z kartą-ostrzeżeniem po przebiegu 2. Ewentualna droga: dojrzałe pomidory wg NCHFP to inny produkt (nie green-cherry-tomato).",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: ACI, SLO)"
+  },
+  {
+   "grupa": "B",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "id": "green-cherry-tomato-v09",
+   "nazwa": "konfitura z zielonych pomidorów z wanilią",
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Jak green-cherry-tomato-v08: brak przepisu szczebla 1–3 na dżem/konfiturę z zielonych pomidorów (NCHFP tylko dojrzałe pomidory), a wanilia to dodatek spoza przepisu. Bez przepisu bazowego nie ma wariantu „po zmianie”.",
+   "twierdzenia": [
+    "ACI-050"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Wanilia: nie wymyślać bezpiecznej ilości (reguła 4).",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: ACI, SLO)"
+  },
+  {
+   "grupa": "B",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "id": "tomatillo-v07",
+   "nazwa": "dżem z miechunki peruwiańskiej z wanilią",
+   "werdykt": "ryzyko-wysokie",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Miechunka peruwiańska nie ma przepisu NCHFP/Ball/producenta pektyny ani pH w tabelach NCHFP; praca recenzowana podaje średnie pH owocu 6,07 (SLO-785), więc owoc może być niskokwasowy — ryzyko WYSOKIE. Niedojrzałe owoce Physalis są toksyczne (SUS-301). Przepis foodpreserving.org (szczebel 4, widziany tylko w wynikach wyszukiwania, nieczytany) i tak nie wystarczałby przy ryzyku wysokim, a wanilia jest dodatkiem spoza przepisu.",
+   "twierdzenia": [
+    "SLO-785",
+    "SUS-301"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Produkt w katalogu to tomatillo (Physalis philadelphica), wariant dotyczy P. peruviana — inny gatunek; do uporządkowania w katalogu. SUS-301 ma status robocze (E1).",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "B",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "id": "rosehip-rowan-v07",
+   "nazwa": "konfitura z jarzębiny i jabłek do dziczyzny",
+   "werdykt": "ryzyko-wysokie",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Surowa jarzębina zawiera kwas parasorbowy (opisany jako kancerogen), a obróbka cieplna tylko „may neutralize” go (SUS-327; cytat sprawdzony ponownie na kopii cias-rowan.txt). NCHFP nie ma przepisu z jarzębiny (indeks nchfp-jam-index.txt), nie znaleziono przepisu extension ani producenta pektyny; są tylko przepisy szczebla 4 na galaretkę z jarzębiny. Toksyczność + brak przepisu 1–3 = ryzyko-wysokie (zgodnie z propozycją B15).",
+   "twierdzenia": [
+    "SUS-327"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "SUS-327 (E1 suszenie p2) trzeba wpisać do rejestru razem z tym werdyktem. NDSU FN-1423 (dżemy z dzikich owoców) — 404.",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "B",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "id": "rosehip-rowan-v09",
+   "nazwa": "dżem z owoców głogu",
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "NCHFP ma tylko galaretki z mayhaw (amerykańskie gatunki Crataegus: Mayhaw Jelly with/without Pectin, Mayhaw-Pepper Jelly; SLO-080), a nie dżem z głogu europejskiego; zamiana gatunku i produktu (galaretka z soku → dżem z miąższem) nie jest dopuszczona. pH głogu europejskiego nieznane w przeczytanych źródłach, więc ryzyko WYSOKIE; przepisy znalezione to blogi szczebla 4.",
+   "twierdzenia": [
+    "SLO-080"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Kandydat na nie-publikować z kartą-ostrzeżeniem po przebiegu 2.",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "B",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "id": "cornelian-cherry-v07",
+   "nazwa": "dżem dereniowy do dziczyzny i serów",
+   "werdykt": "ok-zrodlo",
+   "ryzyko": "niskie",
+   "regula": "(c)",
+   "podstawa": "Dereń jest kwaśny (SUS-347: pH 2,87–3,12; w innej populacji 2,60–4,02, szczebel 2), a przepis bylena.com (ACI-820, szczebel 4) to dżem wysokocukrowy: przecier z cukrem 1:1 wagowo, gotowany 1 h. Proporcje ze szczebla 4 w regule (c); napełnianie, wolną przestrzeń i kąpiel wodną biorę z NCHFP dla dżemów bez pektyny (ACI-625), przechowywanie z ACI-733/SLO-018.",
+   "twierdzenia": [
+    "ACI-820",
+    "SUS-347",
+    "ACI-625",
+    "SLO-003",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002",
+    "SLO-213"
+   ],
+   "parametry_karty": {
+    "sklad": "2 kg derenia jadalnego, woda do przykrycia; przecier bez pestek, cukier = waga przecieru (ok. 1 kg : 1 kg) (ACI-820)",
+    "gotowanie": "owoce w wodzie 30 min na małym ogniu, przetrzeć; przecier z cukrem 1 h na małym ogniu, mieszając (ACI-820)",
+    "proces": {
+     "wekowanie": "kąpiel wodna, hot pack, słoiki 1/2 pinty lub pinty, słoiki sterylne (ACI-625, SLO-003)",
+     "wolna_przestrzen": "1/4 cala (ok. 0,6 cm) (ACI-625)",
+     "czas_min": {
+      "0-1000_ft": 5,
+      "1001-6000_ft": 10,
+      ">6000_ft": 15
+     }
+    },
+    "przechowywanie": {
+     "nieotwarte": "do 1 roku, chłodno, ciemno, sucho, 50–70 °F (ACI-733)",
+     "otwarte": "lodówka ≤40 °F, najlepiej 1 miesiąc (SLO-018); pleśń = wyrzucić (SLO-213)",
+     "uwagi": "nie zmniejszać cukru (SLO-001); bez parafiny (SLO-002)"
+    }
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "„Do dziczyzny i serów” to tylko propozycja podania (źródło jej nie ma, nie zmienia składu). Źródło każe nalewać do „clean, dry jars” bez kąpieli — karta: słoiki sterylne + kąpiel wg ACI-625. Bez dodatków (kardamon z przepisu practicalselfreliance nie wchodzi; ten przepis odrzucony: 2 szklanki cukru na 4 szklanki owoców, proporcja do przecieru nieokreślona).",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "B",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "id": "quince-v10",
+   "nazwa": "konfitura z pigwy z orzechami włoskimi",
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "(c)",
+   "podstawa": "Orzechy włoskie to składnik niskokwasowy (ACI-158: pH 5,42), więc wariant z orzechami ma ryzyko WYSOKIE i wymaga przepisu 1–3; żadnego nie znaleziono (NCHFP: tylko Quince Jelly without Pectin; Certo UK bez orzechów). Po usunięciu orzechów: dżem z pigwy wg Certo UK Quince Jam (ACI-741, szczebel 4, cukier 1:1, sok z cytryny) — ryzyko niskie, reguła (c), wekowanie i przechowywanie z NCHFP (ACI-609, SLO-003, ACI-733).",
+   "twierdzenia": [
+    "ACI-158",
+    "ACI-741",
+    "ACI-750",
+    "ACI-609",
+    "SLO-003",
+    "ACI-617",
+    "ACI-128",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "parametry_karty": {
+    "sklad": "1,4 kg pigwy (obrać, wydrążyć, drobno posiekać; 240 ml wody + sok z 1 cytryny, dusić 15 min pod przykryciem), 1,1 kg masy, 1,4 kg cukru, 1/2 butelki Certo (UK) (ACI-741)",
+    "gotowanie": "z cukrem do rozpuszczenia, pełne wrzenie 1 min, Certo (ACI-741)",
+    "proces": {
+     "wekowanie": "kąpiel wodna wg reguły NCHFP (ACI-609), hot pack, słoiki 1/2 pinty lub pinty, słoiki sterylne",
+     "wolna_przestrzen": "1/4 cala (SLO-003)",
+     "czas_min": {
+      "0-1000_ft": 5,
+      "1001-6000_ft": 10,
+      ">6000_ft": 15
+     }
+    },
+    "przechowywanie": {
+     "nieotwarte": "do 1 roku, chłodno, ciemno, sucho, 50–70 °F (ACI-733)",
+     "otwarte": "lodówka ≤40 °F, najlepiej 1 miesiąc (SLO-018); pleśń = wyrzucić (SLO-213)",
+     "uwagi": "nie zmniejszać cukru (SLO-001); bez parafiny (SLO-002)"
+    }
+   },
+   "zmiana_wariantu": "Usunąć orzechy włoskie i słowo „konfitura”: „dżem z pigwy” wg Certo UK Quince Jam (ACI-741). Uwaga: to ten sam wynik co zmiana quince-v09 (B16) — dwa warianty zbiegają się w jeden.",
+   "uwagi": "Ryzyko wysokie dotyczy wariantu w obecnym brzmieniu (z orzechami); po zmianie niskie. Kopia certo-uk-recipe-2016.txt sprawdzona grep (3 lbs (1.4kg) Quinces / Sugar, Boil hard for 1 minute).",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "B",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "id": "gooseberry-v06",
+   "nazwa": "dżem agrestowy z kwiatem czarnego bzu",
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "NCHFP",
+   "podstawa": "Żadne źródło szczebla 1–3 (NCHFP, Kraft Heinz, Certo UK) nie ma dżemu agrestowego z kwiatem czarnego bzu. Dżem agrestowy bez dodatku: NCHFP Making Jam without added Pectin, wiersz „Berries” z agrestem (ACI-624, ACI-625; ponownie przeczytane, kopia nchfp-jam-no-pectin.txt). Jedyny przepis z bzem (Countryfile, ACI-821, szczebel 4) używa syropu z kwiatów, nie kwiatów — tylko opcja do weta.",
+   "twierdzenia": [
+    "ACI-624",
+    "ACI-625",
+    "ACI-608",
+    "SLO-003",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002",
+    "SLO-063",
+    "ACI-821"
+   ],
+   "parametry_karty": {
+    "sklad": "4 szklanki rozgniecionego agrestu, 4 szklanki cukru, 0 łyżek soku z cytryny; wychodzi 3–4 słoiki 1/2 pinty (ACI-624)",
+    "proces": {
+     "wekowanie": "kąpiel wodna, hot pack, słoiki 1/2 pinty lub pinty, słoiki sterylne (ACI-625, SLO-003)",
+     "wolna_przestrzen": "1/4 cala (ok. 0,6 cm) (ACI-625)",
+     "czas_min": {
+      "0-1000_ft": 5,
+      "1001-6000_ft": 10,
+      ">6000_ft": 15
+     }
+    },
+    "przechowywanie": {
+     "nieotwarte": "do 1 roku, chłodno, ciemno, sucho, 50–70 °F (ACI-733)",
+     "otwarte": "lodówka ≤40 °F, najlepiej 1 miesiąc (SLO-018); pleśń = wyrzucić (SLO-213)",
+     "uwagi": "nie zmniejszać cukru (SLO-001); bez parafiny (SLO-002)"
+    }
+   },
+   "zmiana_wariantu": "Usunąć kwiat czarnego bzu: „dżem agrestowy” wg NCHFP (ACI-624, ACI-625). Opcja do weta: „dżem agrestowy z syropem z kwiatów czarnego bzu” wg Countryfile (ACI-821: 1 kg agrestu, 900 g cukru, 100 ml syropu) w regule (c), proces z ACI-625.",
+   "uwagi": "Wynik po zmianie pokrywa się z drogą NCHFP gooseberry-v10 (B16).",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "C",
+   "id": "mirabelle-v08",
+   "nazwa": "konfitura z całych mirabelek",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Nie znaleziono przepisu szczebla 1–3 na konfiturę ani dżem z mirabelek (NCHFP, Kraft Heinz, extension); wyniki to tylko blogi. Jedyny bliski przepis NCHFP Plum Preserves wymaga „tart plums” (kopia nchfp-plum-preserves.txt: „5 Cups pitted, tart plums (about 2½ pounds)”), a mirabelki są słodkie, a FDA dla śliw żółtych podaje pH 3,90–4,45 (ACI-130), więc owoc o niepewnej kwasowości = ryzyko wysokie i reguła (c) z Certo UK nie wchodzi. Do tego brak źródła 1–3, że mirabelka = śliwa z przepisu (E3 p10–p29).",
+   "twierdzenia": [
+    "ACI-130"
+   ],
+   "parametry_karty": {},
+   "zmiana_wariantu": null,
+   "uwagi": "Kandydat na nie-publikować z kartą-ostrzeżeniem po przebiegu 2. Zamiana na dżem mirabelkowy dublowałaby mirabelle-v06, który sam jest wstrzymany (brak źródła botanicznego).",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "C",
+   "id": "sweet-cherry-v06",
+   "nazwa": "konfitura z jasnych czereśni z cytryną",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "pektyna (b)",
+   "podstawa": "Czereśnie są słabo kwaśne (FDA Cherries, California pH 4,01–4,54, ACI-132), więc ryzyko wysokie i potrzebny przepis 1–3. Sure-Jell Cherry Jam (Kraft Heinz, szczebel 3 wg P-B14-1) to czereśnie z dodanym sokiem z cytryny (1/4 szkl. na 4 szkl. owoców) i ekstraktem migdałowym, 10 min (ACI-835–837), ale owoce są siekane (dżem), a kolor czereśni niepodany. Konfitury z całych czereśni nie ma w żadnym przeczytanym źródle 1–3; Certo UK Cherry Jam (ACI-742, szczebel 4) nie wystarcza przy wysokim ryzyku.",
+   "twierdzenia": [
+    "ACI-835",
+    "ACI-836",
+    "ACI-837",
+    "ACI-132",
+    "ACI-732",
+    "ACI-626",
+    "ACI-609",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002",
+    "SLO-213",
+    "SLO-012"
+   ],
+   "parametry_karty": {
+    "przepis": "Sure-Jell Cherry Jam (Kraft Heinz)",
+    "skladniki": {
+     "czeresnie_przygotowane": "4 szklanki (ok. 3 lb / 1,4 kg czereśni, drobno posiekanych lub zmielonych)",
+     "sok_z_cytryny_swiezy": "1/4 szklanki",
+     "pektyna": "1 opak. SURE-JELL Original",
+     "cukier": "5 szklanek",
+     "ekstrakt_migdalowy": "1/4 łyżeczki"
+    },
+    "gotowanie": "pełne wrzenie, cukier, ponowne pełne wrzenie, dokładnie 1 min",
+    "sloik": "1/2 pinty lub pinta (ACI-626); słoiki sterylne",
+    "wolna_przestrzen": "1/4 cala (0,6 cm)",
+    "czas_kapieli": {
+     "0-1000 ft": "10 min",
+     "1001-3000 ft": "15 min",
+     "3001-6000 ft": "20 min",
+     "6001-8000 ft": "25 min",
+     "8001-10000 ft": "30 min (ACI-732; do weta, B16 ograniczał tabele do 8000 ft)"
+    },
+    "przechowywanie": "nieotwarte do 1 roku, chłodno i ciemno 10–21 °C (ACI-733); po otwarciu lodówka do 1 miesiąca (SLO-018)",
+    "nie_zmniejszac_cukru": "SLO-001"
+   },
+   "zmiana_wariantu": "„Konfitura z jasnych czereśni z cytryną” → „dżem czereśniowy z cytryną” wg Sure-Jell Cherry Jam 1:1: owoce drobno siekane lub mielone (nie całe), sok z cytryny 1/4 szkl. na 4 szkl. owoców, z 1/4 łyżeczki ekstraktu migdałowego (jest w przepisie). Słowo „konfitura” usunąć; „jasnych” usunąć albo zostawić jako „także z jasnych czereśni” (do weta).",
+   "uwagi": "Cytryna jest w przepisie źródła (kwas dodany) — zgodne z zaleceniem 1:1. Źródło: „fresh lemon juice”; czy karta ma wymagać soku butelkowanego (stała kwasowość) — do weta. Czas 10 min dłuższy niż NCHFP 5 min (ACI-626) — karta bierze 10 min i tabelę ACI-732.",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "C",
+   "id": "sweet-cherry-v09",
+   "nazwa": "dżem czereśniowo-truskawkowy",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "pektyna (b)",
+   "podstawa": "Mieszanki czereśni z truskawkami nie ma w NCHFP, u Kraft Heinz (Sure-Jell/Certo) ani w przeczytanych przedrukach extension; wyniki wyszukiwania to blogi. Łączenie przepisów jest zabronione (reguła 5). Czereśnie są słabo kwaśne (ACI-132), więc przy składniku czereśniowym potrzebny przepis 1–3 z dodanym kwasem: Sure-Jell Cherry Jam (ACI-835–837). Wzór B16 gooseberry-v10 (usunięcie drugiego owocu).",
+   "twierdzenia": [
+    "ACI-835",
+    "ACI-836",
+    "ACI-837",
+    "ACI-132",
+    "ACI-732",
+    "ACI-626",
+    "ACI-609",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002",
+    "SLO-213",
+    "SLO-012"
+   ],
+   "parametry_karty": {
+    "przepis": "Sure-Jell Cherry Jam (Kraft Heinz)",
+    "skladniki": {
+     "czeresnie_przygotowane": "4 szklanki (ok. 3 lb / 1,4 kg czereśni, drobno posiekanych lub zmielonych)",
+     "sok_z_cytryny_swiezy": "1/4 szklanki",
+     "pektyna": "1 opak. SURE-JELL Original",
+     "cukier": "5 szklanek",
+     "ekstrakt_migdalowy": "1/4 łyżeczki"
+    },
+    "gotowanie": "pełne wrzenie, cukier, ponowne pełne wrzenie, dokładnie 1 min",
+    "sloik": "1/2 pinty lub pinta (ACI-626); słoiki sterylne",
+    "wolna_przestrzen": "1/4 cala (0,6 cm)",
+    "czas_kapieli": {
+     "0-1000 ft": "10 min",
+     "1001-3000 ft": "15 min",
+     "3001-6000 ft": "20 min",
+     "6001-8000 ft": "25 min",
+     "8001-10000 ft": "30 min (ACI-732; do weta, B16 ograniczał tabele do 8000 ft)"
+    },
+    "przechowywanie": "nieotwarte do 1 roku, chłodno i ciemno 10–21 °C (ACI-733); po otwarciu lodówka do 1 miesiąca (SLO-018)",
+    "nie_zmniejszac_cukru": "SLO-001"
+   },
+   "zmiana_wariantu": "„Dżem czereśniowo-truskawkowy” → „dżem czereśniowy” wg Sure-Jell Cherry Jam 1:1 (bez truskawek). Alternatywa: dżem truskawkowy NCHFP (ACI-459–462) bez czereśni.",
+   "uwagi": "Po zmianie dubluje sweet-cherry-v06 (po zmianie) albo strawberry-v07 — do weta: wycofać jako duplikat.",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "C",
+   "id": "peach-nectarine-v11",
+   "nazwa": "konfitura z nektarynek i lawendy",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "pektyna (b)",
+   "podstawa": "Nektarynki są słabo kwaśne (FDA pH 3,92–4,18, ACI-134; OSU zalicza białe nektaryny do niskokwasowych, SLO-467), a lawenda jest dodatkiem spoza przepisu, więc ryzyko wysokie. Żadne przeczytane źródło 1–3 nie ma przetworu z nektarynek z lawendą; NCHFP Peach Jam nie obejmuje nektarynek (SLO-144). Jest Sure-Jell Nectarine Jam (Kraft Heinz, szczebel 3): nektarynki siekane z sokiem z cytryny, 10 min (ACI-838–840).",
+   "twierdzenia": [
+    "ACI-838",
+    "ACI-839",
+    "ACI-840",
+    "ACI-134",
+    "SLO-144",
+    "ACI-732",
+    "ACI-626",
+    "ACI-609",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002",
+    "SLO-213",
+    "SLO-012"
+   ],
+   "parametry_karty": {
+    "przepis": "Sure-Jell Nectarine Jam (Kraft Heinz)",
+    "skladniki": {
+     "nektarynki_przygotowane": "4 1/2 szklanki (ok. 3 lb / 1,4 kg, bez pestek, drobno posiekane)",
+     "sok_z_cytryny_swiezy": "2 łyżki",
+     "cukier": "6 szklanek",
+     "pektyna": "1 opak. SURE-JELL Original",
+     "maslo_lub_margaryna": "1/2 łyżeczki (przeciw pianie)"
+    },
+    "gotowanie": "pełne wrzenie, cukier, ponowne pełne wrzenie, dokładnie 1 min",
+    "sloik": "1/2 pinty lub pinta (ACI-626); słoiki sterylne",
+    "wolna_przestrzen": "1/4 cala (0,6 cm)",
+    "czas_kapieli": {
+     "0-1000 ft": "10 min",
+     "1001-3000 ft": "15 min",
+     "3001-6000 ft": "20 min",
+     "6001-8000 ft": "25 min",
+     "8001-10000 ft": "30 min (ACI-732; do weta, B16 ograniczał tabele do 8000 ft)"
+    },
+    "przechowywanie": "nieotwarte do 1 roku, 10–21 °C (ACI-733); po otwarciu lodówka do 1 miesiąca (SLO-018)",
+    "nie_zmniejszac_cukru": "SLO-001"
+   },
+   "zmiana_wariantu": "„Konfitura z nektarynek i lawendy” → „dżem nektarynkowy” wg Sure-Jell Nectarine Jam 1:1: bez lawendy, owoce drobno siekane (nie konfitura), sok z cytryny 2 łyżki na 4 1/2 szkl. owoców.",
+   "uwagi": "Cytryna w przepisie źródła — zachować 1:1. Ostrożnie (jak SLO-144): nektarynki o żółtym miąższu (do weta). NCHFP 2025 (SLO-491, status robocze) dopuszcza ≤1 łyżeczki ziół w przetestowanym przepisie owocowym — możliwa podstawa przywrócenia lawendy, do weta; bez decyzji lawendy nie ma.",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "C",
+   "id": "strawberry-v11",
+   "nazwa": "dżem z prosecco",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "NCHFP",
+   "podstawa": "Wino (prosecco) to dodatek spoza przepisu, zmieniający płyn i pH (reguła R3/R4: wino = ryzyko wysokie). Nie znaleziono przepisu 1–3 na dżem truskawkowy z prosecco/szampanem (NCHFP, Kraft Heinz Sure-Jell/Certo; wyszukiwanie zwraca tylko standardowe dżemy). Przepis bazowy 1:1 istnieje: NCHFP Strawberry Jam Pectin (ACI-459–462); truskawki są kwaśne (ACI-136).",
+   "twierdzenia": [
+    "ACI-459",
+    "ACI-460",
+    "ACI-461",
+    "ACI-462",
+    "ACI-136",
+    "SLO-072",
+    "SLO-003",
+    "SLO-001",
+    "SLO-002",
+    "ACI-733",
+    "SLO-018",
+    "SLO-012"
+   ],
+   "parametry_karty": {
+    "przepis": "NCHFP Strawberry Jam Pectin",
+    "skladniki": {
+     "truskawki_rozgniecione": "5 1/2 szklanki (ok. 3 pudełka kwartowe)",
+     "pektyna_w_proszku": "1 opakowanie",
+     "cukier": "8 szklanek"
+    },
+    "gotowanie": "pełne wrzenie, cukier, ponowne pełne wrzenie, 1 min (ACI-460)",
+    "sloik": "1/2 pinty lub pinta; sterylne (ACI-461)",
+    "wolna_przestrzen": "1/4 cala (0,6 cm)",
+    "czas_kapieli": {
+     "0-1000 ft": "5 min",
+     "1001-6000 ft": "10 min",
+     "powyżej 6000 ft": "15 min"
+    },
+    "przechowywanie": "nieotwarte do 1 roku, 10–21 °C (ACI-733); po otwarciu lodówka do 1 miesiąca (SLO-018)"
+   },
+   "zmiana_wariantu": "„Dżem z prosecco” → „dżem truskawkowy” wg NCHFP Strawberry Jam Pectin 1:1, bez prosecco.",
+   "uwagi": "Po zmianie dubluje strawberry-v07 (dżem truskawkowy z pektyną) — do weta: wycofać jako duplikat zamiast publikować drugą kartę.",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "C",
+   "id": "strawberry-v13",
+   "nazwa": "konfitura z poziomek leśnych",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "NCHFP Strawberry Preserves (SLO-085, SLO-164–171) dotyczy truskawek i każe wybrać „large, firm, tart strawberries” (kopia nchfp-strawberry-preserves.txt) — poziomki (Fragaria vesca) to inny gatunek o drobnych owocach, a zamiana owocu jest zabroniona (reguła 5); pH poziomek nie ma w przeczytanym źródle, więc ryzyko traktuję jako wysokie. Jedyny trop szczebla 3 — UAF Cooperative Extension FNH-00105 „Wild Strawberries” (dżem, nie konfitura; dzikie truskawki Alaski, gatunek niesprawdzony) — niedostępny (błąd certyfikatu TLS), przedruk UC ANR 386883 daje 403.",
+   "twierdzenia": [
+    "SLO-085",
+    "SLO-165"
+   ],
+   "parametry_karty": {},
+   "zmiana_wariantu": null,
+   "uwagi": "Do przebiegu 2: odczytać UAF FNH-00105 (sprawdzić gatunek i czy to dżem z pektyną) — nawet wtedy byłaby zmiana konfitura → dżem.",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "D",
+   "id": "raspberry-blackberry-v11",
+   "nazwa": "konfitura jeżynowa z cynamonem",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "NCHFP",
+   "podstawa": "Dżem jeżynowy z pektyną jest w NCHFP 1:1 (ACI-847 skład, SLO-078 czas), ale bez przypraw. Cynamon jest w NCHFP tylko w przepisie na borówki (Blueberry-Spice Jam, ACI-486) i nie wolno go przenieść na jeżyny; przedruk UC MFP El Dorado z cynamonem to „Blackberries in Framboise” (owoce w syropie z brandy), nie dżem. Brak przepisu szczebla 1–3 na dżem jeżynowy z cynamonem, więc usuwamy dodatek (reguła 4, dodatek spoza przepisu).",
+   "twierdzenia": [
+    "ACI-847",
+    "SLO-078",
+    "SLO-003",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002",
+    "ACI-138"
+   ],
+   "parametry_karty": {
+    "przepis": "NCHFP Blackberry Jam Pectin (powdered pectin)",
+    "skladniki": "6 szklanek rozgniecionych jeżyn (ok. 3 pojemniki quart), 1 opakowanie pektyny w proszku, 8 1/2 szklanki cukru",
+    "wydajnosc": "ok. 11–12 słoików 1/2 pinty",
+    "gotowanie": "owoce z pektyną do pełnego wrzenia, cukier, ponownie pełne wrzenie, 1 min intensywnie",
+    "sloik": "1/2 pinty lub pint, sterylne, hot pack",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+    "czas_min": {
+     "0-1000": 5,
+     "1001-6000": 10,
+     ">6000": 15
+    },
+    "po_otwarciu": "lodówka, 1 miesiąc (SLO-018)"
+   },
+   "zmiana_wariantu": "Nazwa „dżem jeżynowy z pektyną (NCHFP)”; usunąć cynamon; skład i proces 1:1 wg NCHFP Blackberry Jam Pectin.",
+   "uwagi": "Bardzo pestkowe owoce wolno częściowo przetrzeć przez sito (źródło). Słowo „konfitura” (całe owoce) zamienić na „dżem”.",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "D",
+   "id": "blueberry-bilberry-v09",
+   "nazwa": "dżem borówkowy z wanilią",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "NCHFP",
+   "podstawa": "Sprawdzone na surowym tekście: NCHFP Blueberry-Spice Jam ma jako przyprawę wyłącznie 1/2 łyżeczki mielonej gałki muszkatołowej albo cynamonu (ACI-486–488), wanilii nie ma. Wanilii nie ma też Certo Blueberry Jam (Kraft Heinz, ACI-848). Wanilia jest dodatkiem spoza przepisu, więc usuwamy ją i bierzemy przepis bazowy 1:1.",
+   "twierdzenia": [
+    "ACI-486",
+    "ACI-487",
+    "ACI-488",
+    "ACI-848",
+    "ACI-140",
+    "ACI-477",
+    "SLO-003",
+    "ACI-733",
+    "ACI-732",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "parametry_karty": {
+    "przepis": "NCHFP Blueberry-Spice Jam with Pectin",
+    "skladniki": "2 1/2 pinty dojrzałych borówek amerykańskich, 1 łyżka soku z cytryny, 1/2 łyżeczki mielonej gałki muszkatołowej lub cynamonu, 5 1/2 szklanki cukru, 3/4 szklanki wody, 1 opakowanie (1 3/4 oz) pektyny w proszku",
+    "wydajnosc": "ok. 5 słoików 1/2 pinty",
+    "sloik": "1/2 pinty lub pint, sterylne, hot pack",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+    "czas_min": {
+     "0-1000": 5,
+     "1001-6000": 10,
+     ">6000": 15
+    },
+    "alternatywa": "Certo Blueberry Jam (ACI-848): 4 1/2 szklanki rozgniecionych borówek, 2 łyżki soku z cytryny, 7 szklanek cukru, 2 saszetki pektyny płynnej; 1/4 cala; 10 min, wysokość wg ACI-732"
+   },
+   "zmiana_wariantu": "Nazwa „dżem z borówki amerykańskiej z gałką muszkatołową albo cynamonem (NCHFP)”; wanilię zastąpić przyprawą z przepisu (1/2 łyżeczki gałki lub cynamonu) albo — wariant bez przypraw — Certo Blueberry Jam 1:1 (ACI-848). Tylko borówka amerykańska (blueberry).",
+   "uwagi": "Produkt to blueberry-bilberry: przepisy NCHFP i Certo US dotyczą borówki amerykańskiej; jagody leśnej (bilberry) nie obejmują (SLO-248). Borówka wymaga dodatku kwasu/pektyny (ACI-477) — nie pomijać soku z cytryny.",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "D",
+   "id": "currant-v07",
+   "nazwa": "francuska konfitura z Bar-le-Duc (wydrylowana)",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Bar-le-Duc to całe porzeczki (z wyjętymi pestkami) w gęstym syropie/galarecie — produkt typu „owoce w syropie” (R4: wysokie). Nie znaleziono przepisu szczebla 1–3: NCHFP ma porzeczki tylko jako całe owoce w słoikach (ACI-068, ACI-248) i w dżemie borówkowo-porzeczkowym (ACI-478–480), Kraft Heinz tylko galaretki porzeczkowe (ACI-734, ACI-735); wyszukiwanie dało wyłącznie stare książki i blogi (szczebel 4–5) bez czasów procesu.",
+   "twierdzenia": [],
+   "parametry_karty": {},
+   "zmiana_wariantu": null,
+   "uwagi": "Kandydat na „nie-publikować z kartą-ostrzeżeniem”. Ewentualna zmiana na galaretkę porzeczkową Sure-Jell (ACI-734) to inny produkt — patrz decyzje_do_weta.",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "D",
+   "id": "gooseberry-v07",
+   "nazwa": "konfitura królewska z zielonego agrestu (szmaragdowa, drylowana)",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "NCHFP",
+   "podstawa": "„Konfitura królewska” to całe agresty (z wyjętym miąższem/pestkami, w tradycji z liśćmi wiśni i czasem orzechami) w syropie — wysokie ryzyko (R4) i brak przepisu szczebla 1–3. NCHFP ma dżem agrestowy bez dodanej pektyny 1:1 (tabela Berries: 4 szklanki owoców, 4 szklanki cukru, ACI-624, ACI-625, SLO-146, SLO-796); agrest jest bardzo kwaśny (ACI-139).",
+   "twierdzenia": [
+    "ACI-624",
+    "ACI-625",
+    "SLO-146",
+    "SLO-796",
+    "ACI-139",
+    "SLO-154",
+    "SLO-155",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "parametry_karty": {
+    "przepis": "NCHFP Making Jam without added Pectin, Table 1 (Berries)",
+    "skladniki": "4 szklanki rozgniecionego agrestu, 4 szklanki cukru, 0 łyżek soku z cytryny",
+    "wydajnosc": "3–4 słoiki 1/2 pinty",
+    "gotowanie": "do zgęstnienia; test temperatury (220 °F / ok. 104 °C na poziomie morza, SLO-154) albo test w zamrażalniku (SLO-155)",
+    "sloik": "1/2 pinty lub pint, sterylne, hot pack",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+    "czas_min": {
+     "0-1000": 5,
+     "1001-6000": 10,
+     ">6000": 15
+    }
+   },
+   "zmiana_wariantu": "Nazwa „dżem agrestowy (NCHFP, bez dodanej pektyny)”; bez drylowania/nadziewania, bez orzechów, liści i całych owoców w syropie; agrest rozgnieciony, proporcje i proces 1:1 wg NCHFP tabela 1 i 2.",
+   "uwagi": "NCHFP: „For best flavor, use fully ripe fruit” (SLO-796) — to uwaga o smaku, nie zakaz zielonego agrestu; „zielony” w nazwie może zostać tylko jako kolor odmiany. Alternatywa szczebla 4 przez (c): Certo UK Gooseberry Jam (ACI-749).",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "D",
+   "id": "lime-bergamot-v07",
+   "nazwa": "marmolada z bergamotki (aromat Earl Grey)",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "niskie",
+   "regula": "brak",
+   "podstawa": "Kwasowość potwierdzona szczeblem 2: sok bergamotki (Citrus bergamia, 3 odmiany kalabryjskie) ma pH 2,2–2,8 (SLO-795), więc reguła (c) byłaby możliwa. Brak jednak przepisu na proporcje: nie ma bergamotki u NCHFP, Ball (dostępne przedruki), Kraft Heinz ani Certo UK; jedyny przeczytany przepis (D. Lebovitz, szczebel 4) sam zaznacza, że francuskie „bergamotes” to bergamotka albo Citrus limetta (słodka limeta, „sweet lemon”), i przechowuje marmoladę w lodówce — owoc nie jest jednoznacznie kwaśny, więc nie spełnia (c).",
+   "twierdzenia": [
+    "SLO-795"
+   ],
+   "parametry_karty": {},
+   "zmiana_wariantu": null,
+   "uwagi": "Gdyby znalazł się przepis szczebla 4 jednoznacznie na Citrus bergamia: (c) z procesem NCHFP (SLO-003, ACI-733, SLO-018) i bez herbaty Earl Grey (dodatek spoza przepisu). Lebovitz: 8 bergamotek (ok. 700 g), 600 g cukru, 1 l wody, koniec przy ok. 218 °F (103 °C) — poniżej punktu NCHFP 220 °F; opcjonalny likier. Sprawdzone, ale nieużyte.",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  },
+  {
+   "grupa": "D",
+   "id": "grapefruit-v03",
+   "nazwa": "dżem grejpfrutowy z rozmarynem",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "NCHFP",
+   "podstawa": "Rozmaryn (ziele) jest dodatkiem spoza przepisu i nie ma go w żadnym źródle 1–3 — usuwamy. Przepis szczebla 1 z grejpfrutem to NCHFP Citrus Marmalade (grejpfrut, pomarańcze, cytryna; SLO-086, SLO-234, SLO-235); grejpfrut kwaśny (ACI-148). Marmolada z samego grejpfruta (UC MFP 1-0014, ACI-849) pochodzi z All New Ball Book 2016, więc wg B14-D1 to tylko szczebel 4 — alternatywa przez (c).",
+   "twierdzenia": [
+    "SLO-086",
+    "SLO-234",
+    "SLO-235",
+    "ACI-148",
+    "ACI-849",
+    "SLO-003",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "parametry_karty": {
+    "przepis": "NCHFP Citrus Marmalade (bez dodanej pektyny)",
+    "skladniki": "3/4 szklanki skórki grejpfruta, 3/4 szklanki skórki pomarańczy (1 pomarańcza), 1/3 szklanki skórki cytryny (1 cytryna), 1 quart (ok. 0,95 l) zimnej wody, miąższ 1 grejpfruta, miąższ 4 średnich pomarańczy, 2 szklanki wrzącej wody, 3 szklanki cukru",
+    "wydajnosc": "ok. 3–4 słoiki 1/2 pinty",
+    "gotowanie": "skórka w zimnej wodzie ok. 30 min, potem z miąższem, wrzątkiem i cukrem do 8 °F powyżej wrzenia wody (220 °F na poziomie morza), ok. 20 min",
+    "sloik": "1/2 pinty lub pint, sterylne, hot pack",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+    "czas_min": {
+     "0-1000": 5,
+     "1001-6000": 10,
+     ">6000": 15
+    }
+   },
+   "zmiana_wariantu": "Nazwa „marmolada cytrusowa z grejpfrutem (NCHFP)”; usunąć rozmaryn; skład (grejpfrut + pomarańcze + cytryna) i proces 1:1 wg NCHFP Citrus Marmalade. Alternatywa do weta: marmolada grejpfrutowa UC MFP 1-0014 przez (c).",
+   "uwagi": "„Dżem” zamienić na „marmolada” (skórka w paskach). Przepis UC 1-0014 zawiera 1/8 łyżeczki sody oczyszczonej do skórki — w regule (c) bierzemy z niego tylko proporcje; czasy UC (5/10/15 min, słoiki sterylne) zgodne z NCHFP.",
+   "przebieg_uwaga": "przebieg 1 = badanie katalogu v1 (researchedBy: SLO)"
+  }
+ ],
+ "twierdzenia": [
+  {
+   "id": "ACI-800",
+   "twierdzenie": "Ball „Cinnamon Kumquats” (Ball Complete Book of Home Preserving, przedruk UC ANR El Dorado MFP): 2 1/2 funta (ok. 1,13 kg) kumkwatów bez szypułek, 2 łyżki sody oczyszczonej, wrzątek do zalania, 2 laski cynamonu (ok. 10 cm) w gazie, 6 szklanek cukru, 8 szklanek wody; wydajność ok. 6 słoików 8 uncji (ok. 250 ml) albo 3 słoiki pint.",
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/343959.pdf",
+     "miejsce": "s. 2, CINNAMON KUMQUATS, lista składników",
+     "cytat": "2 ½ lbs kumquats, stems removed, outside brushed and rinsed clean",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (wydanie nieoznaczone; dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preservers of El Dorado County (UC ANR), 21.01.2021",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "552635606df4",
+     "plik_kopii": "zrodla/A/ucanr-343959.pdf.txt"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/343959.pdf",
+     "miejsce": "s. 2, lista składników",
+     "cytat": "2 Tblsp. baking soda",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (wydanie nieoznaczone; dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preservers of El Dorado County (UC ANR), 21.01.2021",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "552635606df4",
+     "plik_kopii": "zrodla/A/ucanr-343959.pdf.txt"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/343959.pdf",
+     "miejsce": "s. 2, lista składników",
+     "cytat": "6 cups granulated sugar",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (wydanie nieoznaczone; dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preservers of El Dorado County (UC ANR), 21.01.2021",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "552635606df4",
+     "plik_kopii": "zrodla/A/ucanr-343959.pdf.txt"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/343959.pdf",
+     "miejsce": "s. 2, wydajność",
+     "cytat": "Yield: about six 8 ounce jars or 3 pint jars",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (wydanie nieoznaczone; dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preservers of El Dorado County (UC ANR), 21.01.2021",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "552635606df4",
+     "plik_kopii": "zrodla/A/ucanr-343959.pdf.txt"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/343959.pdf",
+     "miejsce": "s. 2, źródło przepisu",
+     "cytat": "Source: Ball Complete Book of Home Preserving",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (wydanie nieoznaczone; dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preservers of El Dorado County (UC ANR), 21.01.2021",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "552635606df4",
+     "plik_kopii": "zrodla/A/ucanr-343959.pdf.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-801",
+   "twierdzenie": "Ball „Cinnamon Kumquats”: kumkwaty zalać wrzątkiem z sodą na 5 minut, odcedzić i 3 razy wypłukać zimną wodą; każdy nakłuć dwa razy; ogrzewać z 8 szklankami wody i cynamonem 7 minut bez wrzenia; dodać cukier i grzać do rozpuszczenia, prawie do wrzenia; cynamon usunąć.",
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/343959.pdf",
+     "miejsce": "s. 2, instrukcja",
+     "cytat": "In a large clean stainless steel saucepan, combine kumquats, 8 cups water and cinnamon sticks.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (wydanie nieoznaczone; dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preservers of El Dorado County (UC ANR), 21.01.2021",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "552635606df4",
+     "plik_kopii": "zrodla/A/ucanr-343959.pdf.txt"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/343959.pdf",
+     "miejsce": "s. 2, instrukcja",
+     "cytat": "Rinse three times in cold running water.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (wydanie nieoznaczone; dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preservers of El Dorado County (UC ANR), 21.01.2021",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "552635606df4",
+     "plik_kopii": "zrodla/A/ucanr-343959.pdf.txt"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/343959.pdf",
+     "miejsce": "s. 2, instrukcja (soda)",
+     "cytat": "cover and set aside for 5 minutes.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (wydanie nieoznaczone; dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preservers of El Dorado County (UC ANR), 21.01.2021",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "552635606df4",
+     "plik_kopii": "zrodla/A/ucanr-343959.pdf.txt"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/343959.pdf",
+     "miejsce": "s. 2, instrukcja",
+     "cytat": "Bring to a boil over high heat. Reduce heat to low and heat gently for 7 minutes.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (wydanie nieoznaczone; dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preservers of El Dorado County (UC ANR), 21.01.2021",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "552635606df4",
+     "plik_kopii": "zrodla/A/ucanr-343959.pdf.txt"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/343959.pdf",
+     "miejsce": "s. 2, instrukcja",
+     "cytat": "Prick each kumquat twice with a toothpick",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (wydanie nieoznaczone; dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preservers of El Dorado County (UC ANR), 21.01.2021",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "552635606df4",
+     "plik_kopii": "zrodla/A/ucanr-343959.pdf.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-802",
+   "twierdzenie": "Ball „Cinnamon Kumquats”: kumkwaty luźno do gorących słoików, zalać gorącym syropem, wolna przestrzeń 1/2 cala (ok. 1,3 cm); kąpiel wodna, słoiki 8 uncji i pint 15 minut (przedruk nie podaje tabeli wysokości); po wyłączeniu odczekać 5 minut.",
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/343959.pdf",
+     "miejsce": "s. 2, instrukcja",
+     "cytat": "Ladle hot syrup into jar to cover kumquats, leaving ½ inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (wydanie nieoznaczone; dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preservers of El Dorado County (UC ANR), 21.01.2021",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "552635606df4",
+     "plik_kopii": "zrodla/A/ucanr-343959.pdf.txt"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/343959.pdf",
+     "miejsce": "s. 2, instrukcja",
+     "cytat": "to a boil and process both 8 oz and pint jars 15 minutes.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (wydanie nieoznaczone; dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preservers of El Dorado County (UC ANR), 21.01.2021",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "552635606df4",
+     "plik_kopii": "zrodla/A/ucanr-343959.pdf.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Brak w przedruku zakresu wysokości dla 15 minut i poprawek wysokościowych.",
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-803",
+   "twierdzenie": "Ball „Danish Cherry Sauce” (Ball Complete Book of Home Preserving 2020, s. 184; przedruk UC ANR Solano/Yolo MFP), na 3 słoiki pint: 1 1/2 szklanki cukru, 3 laski cynamonu (ok. 10 cm), 1 1/2 łyżeczki ekstraktu migdałowego, 1 szklanka wody, 3/4 szklanki syropu kukurydzianego, 7 1/2 szklanki drylowanych czereśni albo wiśni.",
+   "zrodla": [
+    {
+     "adres": "https://ucanr.edu/sites/solanomfp/files/341809.pdf",
+     "miejsce": "s. 1, nagłówek",
+     "cytat": "Reference: Ball Complete Book of Home Preserving (2020) page 184",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (2020) s. 184 w przedruku ulotki UCCE Master Food Preserver Program of Solano and Yolo Counties (UC ANR)",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "ff5b74c743ba",
+     "plik_kopii": "zrodla/A/ucanr-341809.pdf.txt"
+    },
+    {
+     "adres": "https://ucanr.edu/sites/solanomfp/files/341809.pdf",
+     "miejsce": "s. 1, nagłówek",
+     "cytat": "(Makes 3-pint jars)",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (2020) s. 184 w przedruku ulotki UCCE Master Food Preserver Program of Solano and Yolo Counties (UC ANR)",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "ff5b74c743ba",
+     "plik_kopii": "zrodla/A/ucanr-341809.pdf.txt"
+    },
+    {
+     "adres": "https://ucanr.edu/sites/solanomfp/files/341809.pdf",
+     "miejsce": "s. 1, składniki",
+     "cytat": "Pitted sweet or sour cherries",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (2020) s. 184 w przedruku ulotki UCCE Master Food Preserver Program of Solano and Yolo Counties (UC ANR)",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "ff5b74c743ba",
+     "plik_kopii": "zrodla/A/ucanr-341809.pdf.txt"
+    },
+    {
+     "adres": "https://ucanr.edu/sites/solanomfp/files/341809.pdf",
+     "miejsce": "s. 1, składniki",
+     "cytat": "Corn Syrup",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (2020) s. 184 w przedruku ulotki UCCE Master Food Preserver Program of Solano and Yolo Counties (UC ANR)",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "ff5b74c743ba",
+     "plik_kopii": "zrodla/A/ucanr-341809.pdf.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-804",
+   "twierdzenie": "Ball „Danish Cherry Sauce”: syrop z cukru, cynamonu, ekstraktu migdałowego, wody i syropu kukurydzianego zagotować, dodać wiśnie i gotować łagodnie do rozgrzania; cynamon usunąć; gorące wiśnie z syropem do gorących słoików, wolna przestrzeń 1/2 cala (ok. 1,3 cm); kąpiel wodna 10 minut (bez tabeli wysokości), po wyłączeniu odczekać 5 minut.",
+   "zrodla": [
+    {
+     "adres": "https://ucanr.edu/sites/solanomfp/files/341809.pdf",
+     "miejsce": "s. 1, krok 3",
+     "cytat": "Ladle hot cherries and syrup into hot jars, leaving ½ inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (2020) s. 184 w przedruku ulotki UCCE Master Food Preserver Program of Solano and Yolo Counties (UC ANR)",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "ff5b74c743ba",
+     "plik_kopii": "zrodla/A/ucanr-341809.pdf.txt"
+    },
+    {
+     "adres": "https://ucanr.edu/sites/solanomfp/files/341809.pdf",
+     "miejsce": "s. 1, krok 4",
+     "cytat": "process for 10 minutes. Remove canner lid. Wait 5 minutes.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball Complete Book of Home Preserving (2020) s. 184 w przedruku ulotki UCCE Master Food Preserver Program of Solano and Yolo Counties (UC ANR)",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "ff5b74c743ba",
+     "plik_kopii": "zrodla/A/ucanr-341809.pdf.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Brak w przedruku zakresu wysokości dla 10 minut.",
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-805",
+   "twierdzenie": "NCHFP: całe czereśnie lub wiśnie, gorące nalewanie (owoce z 1/2 szklanki wody, soku lub syropu na quart, zagotowane), wolna przestrzeń 1/2 cala; kąpiel wodna, słoiki pint: 0–1000 ft 15 min, 1001–3000 ft 20, 3001–6000 ft 20, powyżej 6000 ft 25 min; quart: 20/25/30/35 min.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+     "miejsce": "Hot pack",
+     "cytat": "Fill jars with cherries and cooking liquid, leaving",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adapt. USDA Complete Guide 2015",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "813c557da1ff",
+     "plik_kopii": "zrodla/A/nchfp-cherries-whole.html.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+     "miejsce": "Table 1 (wiersz Hot | Pints | 15 min | 20 | 20 | 25 w kolejnych liniach kopii 217–222)",
+     "cytat": "Recommended Process Time for  Sweet or Sour Cherries, Whole  in boiling-water canner.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP (UGA)",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "813c557da1ff",
+     "plik_kopii": "zrodla/A/nchfp-cherries-whole.html.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "SLO-780",
+   "twierdzenie": "NCHFP podaje przepisy na nadzienia owocowe do wekowania tylko z jabłek, borówki amerykańskiej, wiśni/czereśni, brzoskwiń, zielonych pomidorów i mincemeat (z Clear Jel); inne dostępne skrobie rozpadają się w tych nadzieniach; ilości soku z cytryny nie wolno zmieniać.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pie-fillings/",
+     "miejsce": "Pie Fillings, General",
+     "cytat": "Other available starches break down when used in these pie fillings, causing a runny sauce consistency.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adapt. USDA Complete Guide 2015",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "dc5ccd8446c9",
+     "plik_kopii": "zrodla/A/nchfp-pie.html.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pie-fillings/",
+     "miejsce": "Pie Fillings, General",
+     "cytat": "The amount of lemon juice should not be altered, as it aids in controlling the safety and storage stability of the fillings.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "dc5ccd8446c9",
+     "plik_kopii": "zrodla/A/nchfp-pie.html.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pie-fillings/",
+     "miejsce": "Pie Fillings, lista przepisów",
+     "cytat": "Blueberry Pie Filling",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP; lista: Apple, Blueberry, Cherry, Peach, Green Tomato Pie Filling, Festive Mincemeat Pie Filling",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "dc5ccd8446c9",
+     "plik_kopii": "zrodla/A/nchfp-pie.html.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Lista przepisów odczytana z sekcji „Pie Fillings” strony (6 pozycji); brak porzeczki i żurawiny.",
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "ACI-820",
+   "twierdzenie": "Według przepisu bylena.com „Cornelian Cherry Jam” (szczebel 4): 2 kg derenia jadalnego zalać wodą tak, by przykryła owoce, po zagotowaniu dusić na małym ogniu 30 min, przetrzeć przez sito (bez pestek), zważyć przecier i dodać tyle samo cukru wagowo (ok. 1 kg przecieru : 1 kg cukru), gotować na małym ogniu 1 h, mieszając; nalać do czystych, suchych słoików i zamknąć. Źródło nie podaje kąpieli wodnej ani wolnej przestrzeni (JarAtlas bierze je z reguły NCHFP, ACI-625).",
+   "zrodla": [
+    {
+     "adres": "https://www.bylena.com/recipe/1382/Cornelian-Cherry-Jam/",
+     "miejsce": "Cornelian Cherry Jam, Step 3",
+     "cytat": "Place over heat and, when it comes to the boil, turn the heat to low and let simmer for 30 minutes.",
+     "odczyt": "2026-11-02",
+     "szczebel": 4,
+     "szczebel_uwaga": "4 (blog z przepisem, bylena.com, Elena Butuc); użyte tylko w regule (c) dla proporcji",
+     "weryfikacja": "curl+grep",
+     "sha12": "a2f401a6b828",
+     "plik_kopii": "zrodla/B/bylena-cornelian.txt"
+    },
+    {
+     "adres": "https://www.bylena.com/recipe/1382/Cornelian-Cherry-Jam/",
+     "miejsce": "Cornelian Cherry Jam, Step 8",
+     "cytat": "Add the same amount of sugar as the paste - so, for",
+     "odczyt": "2026-11-02",
+     "szczebel": 4,
+     "szczebel_uwaga": "4 (blog z przepisem, bylena.com, Elena Butuc); użyte tylko w regule (c) dla proporcji",
+     "weryfikacja": "curl+grep",
+     "sha12": "a2f401a6b828",
+     "plik_kopii": "zrodla/B/bylena-cornelian.txt"
+    },
+    {
+     "adres": "https://www.bylena.com/recipe/1382/Cornelian-Cherry-Jam/",
+     "miejsce": "Cornelian Cherry Jam, Step 9",
+     "cytat": "When it comes to the boil, turn the heat to low and leave to simmer for 1 hour, stirring periodically.",
+     "odczyt": "2026-11-02",
+     "szczebel": 4,
+     "szczebel_uwaga": "4 (blog z przepisem, bylena.com, Elena Butuc); użyte tylko w regule (c) dla proporcji",
+     "weryfikacja": "curl+grep",
+     "sha12": "a2f401a6b828",
+     "plik_kopii": "zrodla/B/bylena-cornelian.txt"
+    },
+    {
+     "adres": "https://www.bylena.com/recipe/1382/Cornelian-Cherry-Jam/",
+     "miejsce": "Cornelian Cherry Jam, Step 11",
+     "cytat": "Pour the jam into clean, dry jars, seal tightly and allow to cool completely.",
+     "odczyt": "2026-11-02",
+     "szczebel": 4,
+     "szczebel_uwaga": "4 (blog z przepisem, bylena.com, Elena Butuc); użyte tylko w regule (c) dla proporcji",
+     "weryfikacja": "curl+grep",
+     "sha12": "a2f401a6b828",
+     "plik_kopii": "zrodla/B/bylena-cornelian.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Ilości 2 kg owoców i 1 kg cukru/przecieru z listy składników (atrybut data-metric-quantity w kopii .html i .txt); cukier = waga przecieru.",
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-821",
+   "twierdzenie": "Według przepisu Countryfile „Elderflower and gooseberry jam” (szczebel 4): 1 kg agrestu, 900 g cukru, 100 ml syropu (cordial) z kwiatów czarnego bzu; agrest rozgotować, dodać cukier, po zgęstnieniu dodać syrop, test na zimnym talerzu, nalać do sterylizowanych słoików. Przepis używa syropu z kwiatów, nie samych kwiatów; nie podaje kąpieli wodnej.",
+   "zrodla": [
+    {
+     "adres": "https://www.countryfile.com/how-to/food-recipes/seasonal-recipes/elderflower-and-gooseberry-jam/",
+     "miejsce": "Ingredients (dane przepisu w stronie)",
+     "cytat": "100 ml Elderflower cordial",
+     "odczyt": "2026-11-02",
+     "szczebel": 4,
+     "szczebel_uwaga": "4 (serwis z przepisem, Countryfile, BBC/Our Media); użyte tylko jako opcja do weta w regule (c)",
+     "weryfikacja": "curl+grep",
+     "sha12": "020fdee70ab3",
+     "plik_kopii": "zrodla/B/countryfile-goos-elder.txt"
+    },
+    {
+     "adres": "https://www.countryfile.com/how-to/food-recipes/seasonal-recipes/elderflower-and-gooseberry-jam/",
+     "miejsce": "Ingredients (dane przepisu w stronie)",
+     "cytat": "900 g Granulated sugar",
+     "odczyt": "2026-11-02",
+     "szczebel": 4,
+     "szczebel_uwaga": "4 (serwis z przepisem, Countryfile, BBC/Our Media); użyte tylko jako opcja do weta w regule (c)",
+     "weryfikacja": "curl+grep",
+     "sha12": "020fdee70ab3",
+     "plik_kopii": "zrodla/B/countryfile-goos-elder.txt"
+    },
+    {
+     "adres": "https://www.countryfile.com/how-to/food-recipes/seasonal-recipes/elderflower-and-gooseberry-jam/",
+     "miejsce": "Method, Step 2",
+     "cytat": "Add the cordial and keep stirring",
+     "odczyt": "2026-11-02",
+     "szczebel": 4,
+     "szczebel_uwaga": "4 (serwis z przepisem, Countryfile, BBC/Our Media); użyte tylko jako opcja do weta w regule (c)",
+     "weryfikacja": "curl+grep",
+     "sha12": "020fdee70ab3",
+     "plik_kopii": "zrodla/B/countryfile-goos-elder.txt"
+    },
+    {
+     "adres": "https://www.countryfile.com/how-to/food-recipes/seasonal-recipes/elderflower-and-gooseberry-jam/",
+     "miejsce": "Method, Step 3",
+     "cytat": "When ready, pot your jam into sterilised jars.",
+     "odczyt": "2026-11-02",
+     "szczebel": 4,
+     "szczebel_uwaga": "4 (serwis z przepisem, Countryfile, BBC/Our Media); użyte tylko jako opcja do weta w regule (c)",
+     "weryfikacja": "curl+grep",
+     "sha12": "020fdee70ab3",
+     "plik_kopii": "zrodla/B/countryfile-goos-elder.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "„1 kg Gooseberries” w tych samych danych przepisu (sprawdzone grep).",
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI"
+  },
+  {
+   "id": "SLO-785",
+   "twierdzenie": "W pracy recenzowanej (Yıldız i in., J Food Sci Technol 2015, PMC4375240) zmierzone pH owoców miechunki peruwiańskiej (Physalis peruviana, goldenberry) wyniosło średnio 6,07 (kwasowość miareczkowa 1,26% jako kwas cytrynowy); inne prace podają pH ok. 3,7 — kwasowość owocu jest niepewna i nie ma go w tabelach NCHFP.",
+   "zrodla": [
+    {
+     "adres": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4375240/",
+     "miejsce": "Results and discussion, akapit o kwasowości",
+     "cytat": "The mean titrateble acidity and pH values of goldenberry were found to be 1.26 % citric acid and 6.07, respectively.",
+     "odczyt": "2026-11-02",
+     "szczebel": 2,
+     "szczebel_uwaga": "2 (artykuł recenzowany, J Food Sci Technol, Springer; PMC)",
+     "weryfikacja": "curl+grep",
+     "sha12": "e0d78488697a",
+     "plik_kopii": "zrodla/B/pmc4375240.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Wartość ok. 3,7 z innych prac (Egypt J Agric Res; Kolumbia) widziana tylko w wynikach wyszukiwania, nieprzeczytana (PDF EKB niedostępny) — w twierdzeniu jako „inne prace podają”, bez liczby krytycznej.",
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "SLO"
+  },
+  {
+   "id": "ACI-835",
+   "twierdzenie": "Według przepisu Sure-Jell „Cherry Jam” (Kraft Heinz): 4 szklanki przygotowanych owoców (ok. 3 funtów, ok. 1,4 kg, w pełni dojrzałych czereśni), 1/4 szklanki świeżego soku z cytryny, 1 opakowanie SURE-JELL Original, 5 szklanek cukru i 1/4 łyżeczki ekstraktu migdałowego.",
+   "zrodla": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501288-sure-jell-cherry-jam",
+     "miejsce": "Ingredients",
+     "cytat": "4 cups prepared fruit (about 3 lb. fully ripe sweet cherries)",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "ad24db0e1709",
+     "plik_kopii": "zrodla/C/kh-501288-sure-jell-cherry-jam.txt"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501288-sure-jell-cherry-jam",
+     "miejsce": "Ingredients",
+     "cytat": "1/4 cup fresh lemon juice",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "ad24db0e1709",
+     "plik_kopii": "zrodla/C/kh-501288-sure-jell-cherry-jam.txt"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501288-sure-jell-cherry-jam",
+     "miejsce": "Ingredients",
+     "cytat": "1 box SURE-JELL Original Premium Fruit Pectin",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "ad24db0e1709",
+     "plik_kopii": "zrodla/C/kh-501288-sure-jell-cherry-jam.txt"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501288-sure-jell-cherry-jam",
+     "miejsce": "Ingredients",
+     "cytat": "5 cups sugar, measured into separate bowl",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "ad24db0e1709",
+     "plik_kopii": "zrodla/C/kh-501288-sure-jell-cherry-jam.txt"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501288-sure-jell-cherry-jam",
+     "miejsce": "Ingredients",
+     "cytat": "1/4 tsp almond extract",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "ad24db0e1709",
+     "plik_kopii": "zrodla/C/kh-501288-sure-jell-cherry-jam.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Źródło nie podaje koloru ani odmiany czereśni (sweet cherries).",
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-836",
+   "twierdzenie": "Sure-Jell „Cherry Jam”: czereśnie bez szypułek i pestek drobno posiekać lub zmielić, odmierzyć dokładnie 4 szklanki, wmieszać sok z cytryny i pektynę, doprowadzić do pełnego wrzenia, dodać cukier i ekstrakt, ponownie do pełnego wrzenia i gotować dokładnie 1 minutę, stale mieszając.",
+   "zrodla": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501288-sure-jell-cherry-jam",
+     "miejsce": "Step 2",
+     "cytat": "Stem and pit cherries. Finely chop or grind fruit.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "ad24db0e1709",
+     "plik_kopii": "zrodla/C/kh-501288-sure-jell-cherry-jam.txt"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501288-sure-jell-cherry-jam",
+     "miejsce": "Step 3",
+     "cytat": "Stir in sugar and extract. Return to full rolling boil and boil exactly 1 min., stirring constantly.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "ad24db0e1709",
+     "plik_kopii": "zrodla/C/kh-501288-sure-jell-cherry-jam.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Owoce siekane: produkt to dżem, nie konfitura z całych owoców.",
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-837",
+   "twierdzenie": "Sure-Jell „Cherry Jam”: nalewać do słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; wekować 10 minut w kąpieli wodnej (wyżej niż 1000 stóp wg tabeli Sure-Jell, ACI-732).",
+   "zrodla": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501288-sure-jell-cherry-jam",
+     "miejsce": "Step 4",
+     "cytat": "filling to within 1/4 inch of tops",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "ad24db0e1709",
+     "plik_kopii": "zrodla/C/kh-501288-sure-jell-cherry-jam.txt"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501288-sure-jell-cherry-jam",
+     "miejsce": "Step 4",
+     "cytat": "Cover; bring water to gentle boil. Process 10 min.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "ad24db0e1709",
+     "plik_kopii": "zrodla/C/kh-501288-sure-jell-cherry-jam.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Strona każe słoiki tylko umyć; karta: słoiki sterylne wg ACI-626/ACI-609 (B16 B-D2).",
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-838",
+   "twierdzenie": "Według przepisu Sure-Jell „Nectarine Jam” (Kraft Heinz): 4 1/2 szklanki przygotowanych owoców (ok. 3 funtów, ok. 1,4 kg, w pełni dojrzałych nektarynek), 2 łyżki świeżego soku z cytryny, 6 szklanek cukru, 1 opakowanie SURE-JELL Original i 1/2 łyżeczki masła lub margaryny (przeciw pienieniu).",
+   "zrodla": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/516202-sure-jell-nectarine-jam",
+     "miejsce": "Ingredients",
+     "cytat": "4-1/2 cups prepared fruit (buy about 3 lb. fully ripe nectarines)",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "61f792cdc9cc",
+     "plik_kopii": "zrodla/C/kh-516202-sure-jell-nectarine-jam.txt"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/516202-sure-jell-nectarine-jam",
+     "miejsce": "Ingredients",
+     "cytat": "2 tbsp fresh lemon juice",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "61f792cdc9cc",
+     "plik_kopii": "zrodla/C/kh-516202-sure-jell-nectarine-jam.txt"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/516202-sure-jell-nectarine-jam",
+     "miejsce": "Ingredients",
+     "cytat": "6 cups sugar, measured into separate bowl",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "61f792cdc9cc",
+     "plik_kopii": "zrodla/C/kh-516202-sure-jell-nectarine-jam.txt"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/516202-sure-jell-nectarine-jam",
+     "miejsce": "Ingredients",
+     "cytat": "1 box SURE-JELL Original Premium Fruit Pectin",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "61f792cdc9cc",
+     "plik_kopii": "zrodla/C/kh-516202-sure-jell-nectarine-jam.txt"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/516202-sure-jell-nectarine-jam",
+     "miejsce": "Ingredients",
+     "cytat": "1/2 tsp butter or margarine",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "61f792cdc9cc",
+     "plik_kopii": "zrodla/C/kh-516202-sure-jell-nectarine-jam.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Źródło nie podaje barwy miąższu nektarynek.",
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-839",
+   "twierdzenie": "Sure-Jell „Nectarine Jam”: nektarynki bez pestek drobno posiekać, odmierzyć dokładnie 4 1/2 szklanki, dodać sok z cytryny, pektynę i masło, doprowadzić do pełnego wrzenia, dodać cukier, ponownie do pełnego wrzenia i gotować dokładnie 1 minutę, stale mieszając.",
+   "zrodla": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/516202-sure-jell-nectarine-jam",
+     "miejsce": "Step 2",
+     "cytat": "Pit and finely chop nectarines. Measure exactly 4-1/2 cups prepared fruit into 6- or 8-qt. saucepot. Add lemon juice; stir.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "61f792cdc9cc",
+     "plik_kopii": "zrodla/C/kh-516202-sure-jell-nectarine-jam.txt"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/516202-sure-jell-nectarine-jam",
+     "miejsce": "Step 3",
+     "cytat": "Stir in sugar. Return to full rolling boil and boil exactly 1 min., stirring constantly.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "61f792cdc9cc",
+     "plik_kopii": "zrodla/C/kh-516202-sure-jell-nectarine-jam.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Przepis nie wspomina o obieraniu; nie dodawać lawendy ani innych dodatków.",
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-840",
+   "twierdzenie": "Sure-Jell „Nectarine Jam”: nalewać do słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; wekować 10 minut w kąpieli wodnej (wyżej niż 1000 stóp wg tabeli Sure-Jell, ACI-732).",
+   "zrodla": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/516202-sure-jell-nectarine-jam",
+     "miejsce": "Step 4",
+     "cytat": "filling to within 1/4 inch of tops",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "61f792cdc9cc",
+     "plik_kopii": "zrodla/C/kh-516202-sure-jell-nectarine-jam.txt"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/516202-sure-jell-nectarine-jam",
+     "miejsce": "Step 4",
+     "cytat": "Cover; bring water to gentle boil. Process 10 min.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "3 (producent pektyny Sure-Jell, Kraft Heinz US: jak Ball wg P-B14-1)",
+     "weryfikacja": "curl+grep (białe znaki znormalizowane; składniki w HTML w osobnych liniach)",
+     "sha12": "61f792cdc9cc",
+     "plik_kopii": "zrodla/C/kh-516202-sure-jell-nectarine-jam.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Strona każe słoiki tylko umyć; karta: słoiki sterylne wg ACI-626/ACI-609 (B16 B-D2).",
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-847",
+   "twierdzenie": "NCHFP Blackberry Jam Pectin (z pektyną w proszku): 6 szklanek rozgniecionych jeżyn (ok. 3 pojemniki quart), 1 opakowanie pektyny w proszku, 8 1/2 szklanki cukru; ok. 11–12 słoików 1/2 pinty; owoce z pektyną do pełnego wrzenia, dodać cukier, ponownie pełne wrzenie, gotować intensywnie 1 minutę; gorący dżem do gorących sterylnych słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni. Przepis nie zawiera przypraw.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/blackberry-jam-pectin/",
+     "miejsce": "Blackberry Jam Pectin, składniki",
+     "cytat": "6 cups crushed blackberries (about 3 quart boxes berries)",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP (UGA), za USDA HG-56",
+     "weryfikacja": "curl+grep",
+     "sha12": "e60d5126e48d",
+     "plik_kopii": "zrodla/D/nchfp-blackberry-jam-pectin.html.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/blackberry-jam-pectin/",
+     "miejsce": "j.w., cukier i wydajność",
+     "cytat": "Yield: About 11 or 12 half-pint jars",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP; w kopii także „8½ cups sugar”",
+     "weryfikacja": "curl+grep",
+     "sha12": "e60d5126e48d",
+     "plik_kopii": "zrodla/D/nchfp-blackberry-jam-pectin.html.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/blackberry-jam-pectin/",
+     "miejsce": "j.w., procedura",
+     "cytat": "Fill hot jam immediately into hot, sterile jars, leaving ¼ inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP",
+     "weryfikacja": "curl+grep",
+     "sha12": "e60d5126e48d",
+     "plik_kopii": "zrodla/D/nchfp-blackberry-jam-pectin.html.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-848",
+   "twierdzenie": "Według przepisu Certo „Blueberry Jam” (Kraft Heinz, US): 4 1/2 szklanki dokładnie rozgniecionych borówek (ok. 4 pinty owoców), 2 łyżki świeżego soku z cytryny, 7 szklanek cukru, 1/2 łyżeczki masła (przeciw pienieniu), 2 saszetki pektyny płynnej SURE-JELL CERTO; po dodaniu pektyny pełne wrzenie dokładnie 1 minutę; 1/4 cala wolnej przestrzeni; kąpiel wodna 10 minut (bez tabeli wysokości). Przepis nie zawiera wanilii ani przypraw.",
+   "zrodla": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/514378-certo-blueberry-jam",
+     "miejsce": "CERTO Blueberry Jam, krok 2",
+     "cytat": "Measure exactly 4-1/2 cups prepared blueberries into 6- or 8-qt. saucepot. Stir in lemon juice.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "producent pektyny Certo (Kraft Heinz, US) — P-B14-1",
+     "weryfikacja": "curl+grep",
+     "sha12": "42f184b3881e",
+     "plik_kopii": "zrodla/D/kh-certo-blueberry-jam.html.txt"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/514378-certo-blueberry-jam",
+     "miejsce": "j.w., krok 4",
+     "cytat": "Process 10 min.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "Kraft Heinz; korekta wysokości wg ACI-732",
+     "weryfikacja": "curl+grep",
+     "sha12": "42f184b3881e",
+     "plik_kopii": "zrodla/D/kh-certo-blueberry-jam.html.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-849",
+   "twierdzenie": "UC Master Food Preserver Program (plik 1-0014, „Grapefruit: Preserve It”) podaje marmoladę grejpfrutową: 3 duże czerwone grejpfruty (ok. 2 3/4 funta), 1 cytryna, 2 1/2 szklanki wody, 1/8 łyżeczki sody oczyszczonej, 6 łyżek pektyny Ball Classic, 4 szklanki cukru; ok. 4 słoiki 1/2 pinty; sterylne słoiki, 1/4 cala; kąpiel wodna 5 min (0–1000 stóp), 10 min (1001–6000), 15 min (powyżej 6000). Źródłem jest The All New Ball Book of Canning and Preserving (2016), więc wg B14-D1 to szczebel 4.",
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333964.pdf",
+     "miejsce": "Grapefruit Marmalade, składniki",
+     "cytat": "6 tablespoons Ball Classic Pectin",
+     "odczyt": "2026-11-02",
+     "szczebel": 4,
+     "szczebel_uwaga": "przedruk UC MFP, ale z All New Ball Book 2016 — wykluczone z szczebla 3 (B14-D1); tylko reguła (c)",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "7ecf2c551b8d",
+     "plik_kopii": "zrodla/D/ucanr-333964.pdf.txt"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333964.pdf",
+     "miejsce": "j.w., źródło przepisu",
+     "cytat": "Source: adapted from The All New Ball Book of Canning and Preserving",
+     "odczyt": "2026-11-02",
+     "szczebel": 4,
+     "szczebel_uwaga": "j.w.",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "7ecf2c551b8d",
+     "plik_kopii": "zrodla/D/ucanr-333964.pdf.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "SLO-795",
+   "twierdzenie": "Sok bergamotki (Citrus bergamia Risso; odmiany Castagnaro, Fantastico, Femminello, Kalabria, zbiór X–III) jest bardzo kwaśny: pH 2,2–2,8, kwasowość miareczkowa 34,98–59,50 g/l (jako kwas cytrynowy); pH zależy od odmiany i terminu zbioru.",
+   "zrodla": [
+    {
+     "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6680538/fullTextXML",
+     "miejsce": "Giuffrè A.M., Antioxidants 2019, 8(7):221 (doi 10.3390/antiox8070221), abstrakt",
+     "cytat": "°Brix (7.9–10.0), pH (2.2–2.8) and formol number (1.47–2.37 mL NaOH 0.1 N/100 mL) were shown to be influenced by both the genotype and harvest date.",
+     "odczyt": "2026-11-02",
+     "szczebel": 2,
+     "szczebel_uwaga": "artykuł recenzowany (MDPI Antioxidants); tekst z Europe PMC (strony PMC i MDPI dały 403/captcha)",
+     "weryfikacja": "curl+grep",
+     "sha12": "c8c739b9cfce",
+     "plik_kopii": "zrodla/D/epmc-PMC6680538.xml.txt"
+    },
+    {
+     "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6680538/fullTextXML",
+     "miejsce": "j.w., 3.2 pH",
+     "cytat": "Bergamot juice is very acidic and mainly contains ascorbic and citric acid",
+     "odczyt": "2026-11-02",
+     "szczebel": 2,
+     "szczebel_uwaga": "j.w.",
+     "weryfikacja": "curl+grep",
+     "sha12": "c8c739b9cfce",
+     "plik_kopii": "zrodla/D/epmc-PMC6680538.xml.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-796",
+   "twierdzenie": "NCHFP (Making Jam without added Pectin): dla najlepszego smaku używać owoców w pełni dojrzałych; owoce jagodowe oczyścić z szypułek i resztek kwiatów i rozgnieść, pestkowe można przetrzeć przez sito.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/making-jam-without-added-pectin/",
+     "miejsce": "Making Jam without added Pectin, akapit 1",
+     "cytat": "For best flavor, use fully ripe fruit.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP",
+     "weryfikacja": "curl+grep",
+     "sha12": "194760c0c2d6",
+     "plik_kopii": "zrodla/D/nchfp-jam-without-pectin.html.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": false,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  }
+ ],
+ "niedostepne": [
+  {
+   "grupa": "A",
+   "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-02/380661.pdf",
+   "kod": "404",
+   "dla": "lemon-v08, lime-bergamot-v10"
+  },
+  {
+   "grupa": "B",
+   "adres": "https://ndsu.edu/agriculture/sites/default/files/2024-07/fn1423.pdf",
+   "kod": "404",
+   "dla": "rosehip-rowan-v07"
+  },
+  {
+   "grupa": "B",
+   "adres": "https://journals.ekb.eg/article_143327_ab46fc024adbdf4f082b170ee0eec56a.pdf",
+   "kod": "000 (brak połączenia)",
+   "dla": "tomatillo-v07"
+  },
+  {
+   "grupa": "C",
+   "adres": "https://uaf.edu/ces/publications/database/food/files/pdfs/FNH-00105_Wild_Strawberries.pdf",
+   "kod": "curl (60) SSL certificate problem: unable to get local issuer certificate; WebFetch 503",
+   "dla": "strawberry-v13"
+  },
+  {
+   "grupa": "C",
+   "adres": "https://ucanr.edu/sites/NSJMFP/files/386883.pdf",
+   "kod": "403",
+   "dla": "strawberry-v13"
+  },
+  {
+   "grupa": "D",
+   "adres": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6680538/",
+   "kod": "200 (strona reCAPTCHA)",
+   "dla": "lime-bergamot-v07"
+  },
+  {
+   "grupa": "D",
+   "adres": "https://www.mdpi.com/2076-3921/8/7/221/htm",
+   "kod": "403",
+   "dla": "lime-bergamot-v07"
+  }
+ ],
+ "decyzje_do_weta": [
+  {
+   "grupa": "A",
+   "dotyczy": "sour-cherry-v14",
+   "tresc": "D-A1: Ball Danish Cherry Sauce podaje 10 min dla pint, NCHFP całe wiśnie hot pack pint 15 min (0–1000 ft) z tabelą wysokości. Proponuję kartę z 15 min i tabelą NCHFP (zasada „przy sprzeczności wygrywa NCHFP”, dłuższy czas). Alternatywa: uznać to za łączenie przepisów → do-researchu."
+  },
+  {
+   "grupa": "A",
+   "dotyczy": "orange-kumquat-v08",
+   "tresc": "D-A2: przedruk Ball Cinnamon Kumquats nie podaje poprawek wysokościowych ani zakresu wysokości dla 15 min. Propozycja: karta tylko dla 0–1000 ft albo dopisać ogólną tabelę wysokości Ball po jej przeczytaniu (nie przenoszono z innego owocu). Kumkwat pH do 4,25 (ACI-147) bez dodanego kwasu — Ball przetestował, ale do potwierdzenia przez weto."
+  },
+  {
+   "grupa": "A",
+   "dotyczy": "currant-v09, cranberry-lingonberry-v12",
+   "tresc": "D-A3: ryzyko-wysokie zamiast do-researchu, bo frużelina z definicji zawiera skrobię, a NCHFP dopuszcza tylko Clear Jel i tylko dla 6 owoców (SLO-780). Jeśli weto woli do-researchu — skutek publikacyjny ten sam (karta-ostrzeżenie)."
+  },
+  {
+   "grupa": "A",
+   "dotyczy": "orange-kumquat-v12",
+   "tresc": "D-A4: czy zamienić „syrop pomarańczowy” na Ball Sunshine Dessert Sauce (cząstki klementynek w syropie, 10 min, 1/4 cala) — to zmiana produktu, więc nie zastosowałem."
+  },
+  {
+   "grupa": "B",
+   "dotyczy": "cornelian-cherry-v07",
+   "tresc": "ok-zrodlo opiera się na blogu szczebla 4 (bylena.com) w regule (c) i na pH derenia ze szczebla 2 (SUS-347; górna wartość 4,02 w jednej populacji). Czy blog bez wekowania wystarcza dla proporcji? Jeśli nie — do-researchu."
+  },
+  {
+   "grupa": "B",
+   "dotyczy": "gooseberry-v06",
+   "tresc": "Czy dopuścić opcję Countryfile (ACI-821: syrop z kwiatów bzu 100 ml na 1 kg agrestu, szczebel 4, reguła (c))? Syrop to dodatek kwaśno-słodki, ale kupny/domowy nieokreślony; domowy syrop z bzu wg SLO-471 nie nadaje się do przechowywania w temperaturze pokojowej. Rekomendacja: droga NCHFP bez bzu."
+  },
+  {
+   "grupa": "B",
+   "dotyczy": "quince-v10",
+   "tresc": "Po zmianie wariant pokrywa się z quince-v09 (B16: dżem z pigwy, ACI-741). Rozstrzygnąć: scalić/ukryć jeden z nich albo zostawić quince-v10 jako do-researchu/ryzyko-wysokie z kartą-ostrzeżeniem (orzechy)."
+  },
+  {
+   "grupa": "B",
+   "dotyczy": "tomatillo-v07",
+   "tresc": "ryzyko-wysokie zamiast do-researchu na podstawie jednej pracy z pH 6,07 (SLO-785) przy innych doniesieniach ok. 3,7 — wybrany wariant ostrożniejszy. Dodatkowo niezgodność gatunku z produktem tomatillo."
+  },
+  {
+   "grupa": "C",
+   "dotyczy": "sweet-cherry-v06",
+   "tresc": "Nazwa po zmianie: „dżem czereśniowy z cytryną” (bez „jasnych”) czy „także z jasnych czereśni” — Sure-Jell podaje tylko „sweet cherries”. Także: czy wymagać butelkowanego soku z cytryny zamiast świeżego z przepisu."
+  },
+  {
+   "grupa": "C",
+   "dotyczy": "sweet-cherry-v09",
+   "tresc": "Po usunięciu truskawek wariant dubluje sweet-cherry-v06 (po zmianie); proponuję wycofać jako duplikat albo zostawić jako dżem czereśniowy, a v06 wycofać."
+  },
+  {
+   "grupa": "C",
+   "dotyczy": "peach-nectarine-v11",
+   "tresc": "(a) zawęzić do nektarynek o żółtym miąższu (analogia SLO-144/SLO-467); (b) czy po potwierdzeniu SLO-491 (≤1 łyżeczka ziół w przetestowanym przepisie) dopuścić suszoną lawendę — bez decyzji wariant bez lawendy."
+  },
+  {
+   "grupa": "C",
+   "dotyczy": "strawberry-v11",
+   "tresc": "Po usunięciu prosecco wariant dubluje strawberry-v07; proponuję wycofać jako duplikat."
+  },
+  {
+   "grupa": "C",
+   "dotyczy": "sweet-cherry-v06, sweet-cherry-v09, peach-nectarine-v11",
+   "tresc": "Tabela wysokości Sure-Jell (ACI-732) sięga 10 000 ft (+20 min); B16 grupa A ograniczała tabele do 8000 ft — ujednolicić."
+  },
+  {
+   "grupa": "D",
+   "dotyczy": "blueberry-bilberry-v09",
+   "tresc": "Zmiana: wanilię zastąpić przyprawą z NCHFP Blueberry-Spice (gałka albo cynamon, 1/2 łyżeczki) — czy wolisz wariant bez przypraw wg Certo Blueberry Jam (ACI-848, 10 min + ACI-732)? Obie drogi 1:1."
+  },
+  {
+   "grupa": "D",
+   "dotyczy": "grapefruit-v03",
+   "tresc": "Główna zmiana: NCHFP Citrus Marmalade (grejpfrut + pomarańcze + cytryna, szczebel 1). Alternatywa: marmolada z samego grejpfruta UC MFP 1-0014 (ACI-849) — przedruk z All New Ball Book 2016, więc tylko szczebel 4 przez (c); zawiera szczyptę sody. Do wyboru."
+  },
+  {
+   "grupa": "D",
+   "dotyczy": "gooseberry-v07",
+   "tresc": "Zmiana z „konfitury królewskiej” (całe owoce w syropie) na dżem agrestowy NCHFP gubi tożsamość wariantu; jeśli to niepożądane — zostawić do-researchu (karta-ostrzeżenie). Tak samo currant-v07: zmiana na galaretkę porzeczkową Sure-Jell (ACI-734) możliwa, ale to inny produkt, więc proponuję do-researchu."
+  },
+  {
+   "grupa": "D",
+   "dotyczy": "lime-bergamot-v07",
+   "tresc": "Kwasowość bergamotki potwierdzona (SLO-795, pH 2,2–2,8), ale bez jednoznacznego przepisu (Lebovitz miesza bergamotkę z Citrus limetta) zostawiam do-researchu. Do decyzji: czy owoc kwaśny + przepis szczebla 4 z niepewnym gatunkiem wystarcza dla (c) — proponuję nie."
+  }
+ ],
+ "kontrole": {
+  "sprawdzenie_cytatow": "python3 -I narz/sprawdz.py (scratchpad): cytat po normalizacji białych znaków i typografii w kopii; A 23/23, B 9/9, C 18/18, D 10/10 = 60/60 zgodne; sha12 zgodne z kopiami",
+  "kolizje_id": "0 względem 965a273 (rejestr.json, git grep całego repo)",
+  "kopie_zrodel": "scratchpad sesji B19 (poza repo publicznym)",
+  "id_spoza_rejestru": "SUS-327 (E1-suszenie-zrodla-p2, jeszcze nie w rejestrze; wpis razem z werdyktem rosehip-rowan-v07)"
+ }
+}
