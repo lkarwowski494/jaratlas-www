@@ -12,4 +12,8 @@ There is no recipe here for Hungarian lecsó, a vegetable stew of peppers, tomat
 
 Most mixtures of low-acid and acid foods are also low-acid, unless their recipes include enough lemon juice, citric acid or vinegar to make them acid foods. [T:SZY-002]
 
+JarAtlas does not treat a dish as an acid food because it tastes sour, or because acid was added without a tested recipe. [T:-]
+
 JarAtlas has found no tested home recipe for canning lecsó from a checked source. [T:-]
+
+The warning about summer squash applies when the stew includes zucchini or other summer squash. [T:-]

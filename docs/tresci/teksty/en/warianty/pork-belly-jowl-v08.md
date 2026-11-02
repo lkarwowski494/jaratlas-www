@@ -1,4 +1,4 @@
-# Tyndallized bacon in aspic in jars: why there is no recipe here
+# Tyndallized pork belly in aspic in jars: why there is no recipe here
 
 There is no recipe here for roasted or simmered pork belly in aspic, heated in jars several times (tyndallization). [T:-]
 

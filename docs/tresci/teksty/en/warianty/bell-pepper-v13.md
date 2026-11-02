@@ -11,6 +11,8 @@ There is no recipe here for a lecsó base of peppers, onion and tomatoes, canned
 
 Most mixtures of low-acid and acid foods are also low-acid, unless the recipe has enough lemon juice, citric acid or vinegar to make them acid foods. [T:SZY-002]
 
+JarAtlas does not treat a dish as an acid food because it tastes sour, or because acid was added without a tested recipe. [T:-]
+
 JarAtlas has found no tested home recipe for a canned lecsó base from a checked source. [T:-]
 
 JarAtlas has a card for pickled bell peppers. [T:-]

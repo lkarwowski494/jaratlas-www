@@ -1,6 +1,6 @@
 # Blood sausage with buckwheat in jars: why there is no recipe here
 
-There is no recipe here for blood sausage with buckwheat groats and offal made in jars (Polish kaszanka). [T:-]
+There is no recipe here for blood sausage with buckwheat groats and offal made in jars (Polish kaszanka). [T:-] This card covers the version made in jars, and JarAtlas also has no recipe for the traditional simmered version in casings. [T:-]
 
 ## !
 

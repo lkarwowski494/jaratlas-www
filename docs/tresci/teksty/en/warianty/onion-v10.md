@@ -5,7 +5,7 @@ There is no recipe here for onions stewed in oil and then sealed in jars to keep
 ## !
 
 - Pressure canning is the only recommended method for canning meat, poultry, seafood and vegetables; using a boiling-water bath for these foods poses a real risk of botulism poisoning. [T:SZY-006]
-- The NCHFP recommends canning low-acid foods, and tomatoes and tomato products, only according to the procedures in the USDA Complete Guide to Home Canning. [T:SZY-007]
+- NCHFP recommends canning low-acid foods, and tomatoes and tomato products, only according to the procedures in the USDA Complete Guide to Home Canning. [T:SZY-007]
 - There are no validated processes for vegetables and herbs in oil made at home; in the USA, the rules for such products apply only to commercial processors. [T:OLE-028]
 - Appearance, smell and taste cannot tell you whether vegetables in oil carry a botulism hazard. [T:OLE-027]
 

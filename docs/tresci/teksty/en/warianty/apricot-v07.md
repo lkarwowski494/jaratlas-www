@@ -4,7 +4,7 @@ There is no recipe here for apricot jam with added apricot kernels (the almond-l
 
 ## !
 
-- Amygdalin is the main cyanogenic glycoside in apricot kernels, and it breaks down to cyanide. [T:SLO-070] EFSA estimates that a toddler can eat only 0.06 g and an adult only 0.37 g of raw apricot kernels without going over the acute reference dose for cyanide. [T:SLO-070]
+- Amygdalin is the main cyanogenic glycoside in apricot kernels, and it breaks down to cyanide. [T:SLO-070] EFSA estimates that a toddler would go over the acute reference dose for cyanide after more than 0.06 g of raw apricot kernels, and an adult after more than 0.37 g. [T:SLO-070]
 
 ## Why
 

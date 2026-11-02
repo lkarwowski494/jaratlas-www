@@ -9,7 +9,7 @@ There is no recipe here for pumpkin ketchup, an acidified pumpkin purée process
 
 ## Why
 
-The whole product must contain a minimum, uniform level of acid so that botulism bacteria cannot grow. [T:ACI-017]
+JarAtlas does not treat added acid as a way to make canned pumpkin purée safe. [T:-]
 
 JarAtlas has found no tested home recipe for pumpkin ketchup from a checked source. [T:-]
 

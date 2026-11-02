@@ -12,6 +12,8 @@ There is no recipe here for braised red cabbage with raisins and cinnamon, canne
 
 Most mixtures of low-acid and acid foods are also low-acid, unless the recipe has enough lemon juice, citric acid or vinegar to make them acid foods. [T:SZY-002]
 
+JarAtlas does not treat a dish as an acid food because it tastes sour, or because acid was added without a tested recipe. [T:-]
+
 JarAtlas has found no tested home recipe for canned braised red cabbage from a checked source. [T:-]
 
 JarAtlas has a card for spiced red cabbage in red wine vinegar. [T:-]

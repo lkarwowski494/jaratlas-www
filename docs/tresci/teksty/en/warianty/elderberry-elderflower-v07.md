@@ -1,6 +1,6 @@
-# Thick elderberry juice and syrup: why there is no recipe here
+# Thick elderberry juice and untested elderberry syrup: why there is no recipe here
 
-There is no recipe here for thick juice or syrup made from cooked ripe elderberries and canned in a water bath. [T:-]
+There is no recipe here for thick elderberry juice, or for elderberry syrup that does not follow a tested high-sugar recipe, canned in a water bath. [T:-]
 
 ## !
 
@@ -12,6 +12,8 @@ There is no recipe here for thick juice or syrup made from cooked ripe elderberr
 
 University of California guidance excludes elderberries from its process for canned juice made in a steam juicer. [T:SLO-052]
 
-Oregon State University Extension has a high-sugar recipe for elderberry jams, jellies and syrups, but it does not cover thick elderberry juice. [T:SLO-109]
+Oregon State University Extension has a high-sugar recipe for elderberry jams, jellies and syrups. [T:SLO-109]
+
+That recipe does not cover thick elderberry juice. [T:-]
 
 JarAtlas has found no tested home recipe for thick elderberry juice from a checked source. [T:-]

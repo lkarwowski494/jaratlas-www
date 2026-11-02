@@ -10,4 +10,4 @@ There is no recipe here for egg yolks cured in salt and sugar until firm enough 
 
 Cured egg yolks are raw yolks that are not cooked. [T:-]
 
-JarAtlas has found no tested home recipe for cured egg yolks from a checked source. [T:-]
+JarAtlas has found no tested home recipe for cured egg yolks from a checked source, whether made with pasteurized eggs or not. [T:-]

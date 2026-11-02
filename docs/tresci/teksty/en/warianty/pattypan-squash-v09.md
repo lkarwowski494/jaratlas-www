@@ -12,6 +12,8 @@ There is no recipe here for lecsó with pattypan squash, a Hungarian-style stew 
 
 Most mixtures of low-acid and acid foods are also low-acid, unless the recipe has enough lemon juice, citric acid or vinegar to make them acid foods. [T:SZY-002]
 
+JarAtlas does not treat a dish as an acid food because it tastes sour, or because acid was added without a tested recipe. [T:-]
+
 JarAtlas has found no tested home recipe for canned pattypan squash lecsó from a checked source. [T:-]
 
 JarAtlas has a card for frozen pattypan squash slices. [T:-]

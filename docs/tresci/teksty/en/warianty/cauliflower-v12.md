@@ -14,4 +14,6 @@ The NCHFP recipe for mixed vegetables does not allow leafy greens, dried beans, 
 
 Most mixtures of low-acid and acid foods are also low-acid, unless the recipe has enough lemon juice, citric acid or vinegar to make them acid foods. [T:SZY-002]
 
+JarAtlas does not treat a dish as an acid food because it tastes sour, or because acid was added without a tested recipe. [T:-]
+
 JarAtlas has found no tested home recipe for canned cauliflower in tomato sauce from a checked source. [T:-]

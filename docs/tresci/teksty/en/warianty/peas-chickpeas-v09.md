@@ -11,3 +11,5 @@ There is no recipe here for canned young broad beans (fava beans). [T:-]
 All fresh vegetables except most tomatoes are low-acid foods. [T:SZY-001]
 
 JarAtlas has found no tested home recipe for canned broad beans from a checked source. [T:-]
+
+JarAtlas does not apply the tested process for lima beans to broad beans. [T:-]

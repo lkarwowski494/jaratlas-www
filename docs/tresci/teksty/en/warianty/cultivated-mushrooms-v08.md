@@ -5,7 +5,7 @@ There is no recipe here for jars of oyster mushrooms in oil with onion and marjo
 ## !
 
 - Pressure canning is the only recommended method for canning meat, poultry, seafood and vegetables; using a boiling-water bath for these foods poses a real risk of botulism poisoning. [T:SZY-006]
-- The NCHFP recommends canning low-acid foods, and tomatoes and tomato products, only according to the procedures in the USDA Complete Guide to Home Canning. [T:SZY-007]
+- NCHFP recommends canning low-acid foods, and tomatoes and tomato products, only according to the procedures in the USDA Complete Guide to Home Canning. [T:SZY-007]
 - Botulism cases have been linked to mushrooms covered in oil: in the USA in 1998 to home-prepared mushrooms, and in the UK to two cases of mushrooms in oil. [T:OLE-026]
 
 ## Why

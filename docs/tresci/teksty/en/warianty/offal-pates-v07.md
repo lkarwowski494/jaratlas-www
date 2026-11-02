@@ -1,6 +1,6 @@
 # Head cheese in jars: why there is no recipe here
 
-There is no recipe here for head cheese, a pressed mass of pork offal in meat jelly, made in jars (Polish salceson). [T:-]
+There is no recipe here for head cheese, a pressed mass of pork offal in meat jelly, made in jars (Polish salceson). [T:-] This card covers the version made in jars, and JarAtlas also has no recipe for the traditional simmered version, including one made in a ham press. [T:-]
 
 ## !
 

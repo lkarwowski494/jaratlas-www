@@ -5,7 +5,7 @@ There is no recipe here for fresh cheese kept in a jar under olive oil with herb
 ## !
 
 - Low-acid foods stored in oil create an oxygen-free environment that is perfect for the growth of Clostridium botulinum bacteria. [T:MLE-060]
-- In Canada, the CFIA recalled a labneh in vegetable oil because it may permit the growth of Clostridium botulinum. [T:MLE-062]
+- In Canada, a labneh in vegetable oil was recalled because it may permit the growth of Clostridium botulinum. [T:MLE-062]
 - Food contaminated with Clostridium botulinum toxin may not look or smell spoiled but can still make you sick. [T:MLE-063]
 - Queso fresco-type cheeses can support the growth of Listeria. [T:MLE-043]
 

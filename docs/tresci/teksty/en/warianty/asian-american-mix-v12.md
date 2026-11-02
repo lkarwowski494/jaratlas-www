@@ -8,6 +8,6 @@ There is no recipe here for a stir-fry vegetable mix (such as Chinese cabbage, b
 
 ## Why
 
-In the NCHFP mixed vegetables recipe, you may substitute other vegetables, except leafy greens, dried beans, cream-style corn, winter squash, sweet potatoes, broccoli, cauliflower or cabbage. [T:SZY-022]
+The NCHFP recipe for mixed vegetables does not allow leafy greens, dried beans, cream-style corn, winter squash, sweet potatoes, broccoli, cauliflower or cabbage as substitutes. [T:SZY-022]
 
 JarAtlas has found no tested home recipe for canning a stir-fry vegetable mix from a checked source. [T:-]

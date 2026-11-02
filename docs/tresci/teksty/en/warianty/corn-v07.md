@@ -8,7 +8,7 @@ There is no recipe here for corn with beans in a thick Mexican-style sauce, cann
 
 ## Why
 
-In the NCHFP mixed vegetables recipe, you may substitute other vegetables, except leafy greens, dried beans, cream-style corn, winter squash, sweet potatoes, broccoli, cauliflower or cabbage. [T:SZY-022]
+The NCHFP recipe for mixed vegetables does not allow leafy greens, dried beans, cream-style corn, winter squash, sweet potatoes, broccoli, cauliflower or cabbage as substitutes. [T:SZY-022]
 
 NCHFP directions for canning soups are meant only for ingredients that already have their own canning recommendations. [T:SZY-018]
 

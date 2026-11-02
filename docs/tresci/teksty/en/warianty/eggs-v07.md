@@ -11,6 +11,8 @@ There is no recipe here for cold-smoked quail eggs covered with olive oil, garli
 
 ## Why
 
-According to the NCHFP, eggs are a low-acid food. [T:MIE-087]
+According to NCHFP, eggs are a low-acid food. [T:MIE-087]
 
 JarAtlas has found no tested home recipe for eggs in oil from a checked source. [T:-]
+
+JarAtlas has found no checked source showing that this keeps safely under oil, in or out of the refrigerator. [T:-]

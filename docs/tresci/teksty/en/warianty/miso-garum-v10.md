@@ -9,8 +9,8 @@ There is no recipe here for fish garum, a fermented sauce made from mackerel or 
 
 ## Why
 
-The Codex standard for fish sauce covers commercial fish sauce made by fermenting fish with salt. [T:NAP-045]
+The Codex standard for fish sauce applies to fish sauce made by fermenting a mixture of fish and salt. [T:NAP-045]
 
 The Codex standard also sets a limit for histamine in fish sauce. [T:NAP-046]
 
-JarAtlas has found no tested home recipe for fish garum, with or without koji from a checked source. [T:-]
+JarAtlas has found no tested home recipe for fish garum, with or without koji, from a checked source. [T:-]

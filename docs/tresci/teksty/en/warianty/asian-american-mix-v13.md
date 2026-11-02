@@ -12,3 +12,5 @@ There is no recipe here for Thai red or green curry paste kept under a layer of 
 Peppers, garlic, mushrooms and eggplant have been involved in botulism outbreaks from vegetables and herbs in oil, mostly homemade products. [T:OLE-024]
 
 JarAtlas has found no tested home recipe for curry paste under oil from a checked source. [T:-]
+
+JarAtlas has found no checked source showing that this keeps safely under oil, in or out of the refrigerator. [T:-]

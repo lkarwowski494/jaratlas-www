@@ -1,6 +1,6 @@
 # German liver sausage in jars: why there is no recipe here
 
-There is no recipe here for German liver sausage (Leberwurst) made in jars. [T:-]
+There is no recipe here for German liver sausage (Leberwurst) made in jars. [T:-] This card covers the version made in jars, and JarAtlas also has no recipe for the version in sausage casings. [T:-]
 
 ## !
 

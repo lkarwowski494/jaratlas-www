@@ -9,6 +9,6 @@ There is no recipe here for grape leaves stuffed with rice (dolma), canned in ja
 
 ## Why
 
-The NCHFP directions for canning soups are meant only for ingredients that already have their own canning recommendations. [T:SZY-018]
+NCHFP directions for canning soups are meant only for ingredients that already have their own canning recommendations. [T:SZY-018]
 
 JarAtlas has found no tested home recipe for canned stuffed grape leaves from a checked source. [T:-]
