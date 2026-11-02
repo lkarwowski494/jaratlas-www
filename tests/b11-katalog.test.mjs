@@ -9,6 +9,8 @@ const cat = JSON.parse(readFileSync('catalog/catalog-seed.json', 'utf8'));
 const rej = JSON.parse(readFileSync('docs/tresci/rejestr.json', 'utf8'));
 const c9 = JSON.parse(readFileSync('docs/tresci/E1-kapiel-zrodla-p2-2026-11-02.json', 'utf8'));
 const V = new Map(cat.variants.map((v) => [v.id, v]));
+// B25 (2026-11-02-jaratlas-b25-katalog): warianty zmienione w porcji B25 (notatka [B25]) sprawdza tests/b25-katalog.test.mjs.
+const B25 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith('[B25]'))).map((v) => v.id));
 const R = new Map(rej.map((t) => [t.id, t]));
 const DEC = '2026-11-02-jaratlas-06-b11-katalog-c9';
 
@@ -91,7 +93,7 @@ test('B11: reszta zostaje do-researchu bez zmiany claims, sources i nazwy (peach
   const PRZED = {"plum-v11":"978cf74e6fda","blueberry-bilberry-v06":"c4424f9bda80","blueberry-bilberry-v12":"603ab230fc9c","currant-v11":"cf012b179bc3","blueberry-bilberry-v10":"5cb5ffa3a470","rhubarb-v06":"105db79e1948","cranberry-lingonberry-v11":"ec14442d2b6f","cornelian-cherry-v08":"c291af2aa246","chokeberry-seabuckthorn-v09":"b900643c44bf","grapefruit-v07":"e4c627c98402","raspberry-blackberry-v10":"2bba94e61c0c","gooseberry-v08":"259de2a9a45e","orange-kumquat-v09":"38111691c16e","grapes-v08":"8f870c702d14","pear-v09":"e2f8027a6271","apple-v12":"36dc79727a5d","quince-v09":"cefb4c7d2333","gooseberry-v10":"da1d2569bd17","cultivated-mushrooms-v01":"05802a9bea05","european-mixed-veg-v01":"815ffb6f738f","peach-nectarine-v01":"873f46122f23"};
   assert.deepEqual(Object.keys(PRZED).sort(), [...ZOSTAJA, ...B17].sort()); // B17: skrót sprzed B11 zostaje jako zapis historii
   for (const id of ZOSTAJA) {
-    if (B18.has(id)) continue;
+    if (B18.has(id) || B25.has(id)) continue;
     const v = V.get(id);
     assert.equal(v.safetyStatus, 'do-researchu', id);
     assert.equal(v.cardType, undefined, id);

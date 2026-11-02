@@ -1,5 +1,5 @@
 {
- "version": "1.0.14",
+ "version": "1.0.15",
  "generated": "2026-11-02",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -4145,8 +4145,12 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "nie-publikowac",
+   "claims": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -4158,7 +4162,8 @@
     "[OLE*] Pikle octowe bez oleju; poza obszarem OLE.",
     "[SUS] Pikle octowe (po królewsku); nie suszenie. Metoda wstępna, decyduje ACI.",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
-    "[B21] zostaje do-researchu: B20 to przebieg 1 bez źródła (nie-publikowac dopiero po przebiegu 2, 2026-11-02-jaratlas-wariant-bez-zrodla). (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] zostaje do-researchu: B20 to przebieg 1 bez źródła (nie-publikowac dopiero po przebiegu 2, 2026-11-02-jaratlas-wariant-bez-zrodla). (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -4166,6 +4171,12 @@
     "OLE",
     "SUS",
     "NAP"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -4208,8 +4219,12 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "nie-publikowac",
+   "claims": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -4221,7 +4236,8 @@
     "[OLE*] Pikle octowe bez oleju; poza obszarem OLE.",
     "[SUS] Pikle octowe (w curry); nie suszenie. Metoda wstępna, decyduje ACI.",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
-    "[B21] zostaje do-researchu: B20 to przebieg 1 bez źródła (nie-publikowac dopiero po przebiegu 2, 2026-11-02-jaratlas-wariant-bez-zrodla). Warunkowo ok-zrodlo-po-zmianie (B20-D1, do weta). (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] zostaje do-researchu: B20 to przebieg 1 bez źródła (nie-publikowac dopiero po przebiegu 2, 2026-11-02-jaratlas-wariant-bez-zrodla). Warunkowo ok-zrodlo-po-zmianie (B20-D1, do weta). (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1); warunkowo: {\"werdykt\":\"ok-zrodlo-po-zmianie\",\"decyzja\":\"B20-D1\",\"zmiana_wariantu\":\"Karta = NCHFP Bread-and-Butter Pickles 1:1 z suszonym curry (proszek) w zalewie; bez świeżych dodatków poza cebulą z przepisu.\",\"parametry_karty\":{\"ocet\":\"ocet 5% (biały albo jabłkowy z etykietą 5%; ACI-404, ACI-018, ACI-211)\",\"proporcje\":\"jak NCHFP Bread-and-Butter 1:1 (ACI-404, ACI-405) + suszona przyprawa curry w miejsce/obok przypraw przepisu (ACI-873, ACI-874)\",\"sloik\":\"pint lub quart\",\"wolna_przestrzen\":\"1/2 cala (ok. 1,3 cm)\",\"czas\":\"hot pack 10 / 15 / 20 min (ACI-406)\",\"wysokosc\":\"0–1000 / 1001–6000 / powyżej 6000 stóp (ok. 0–305 / 305–1829 / powyżej 1829 m)\"}} (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -4229,6 +4245,12 @@
     "OLE",
     "SUS",
     "NAP"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -4242,8 +4264,12 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "nie-publikowac",
+   "claims": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -4255,7 +4281,8 @@
     "[OLE*] Pikle octowe bez oleju; poza obszarem OLE.",
     "[SUS] Pikle octowe (z miodem i chili); nie suszenie. Metoda wstępna, decyduje ACI.",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
-    "[B21] zostaje do-researchu: B20 to przebieg 1 bez źródła (nie-publikowac dopiero po przebiegu 2, 2026-11-02-jaratlas-wariant-bez-zrodla). (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] zostaje do-researchu: B20 to przebieg 1 bez źródła (nie-publikowac dopiero po przebiegu 2, 2026-11-02-jaratlas-wariant-bez-zrodla). (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1); duplikat: cucumber-v12 (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -4263,6 +4290,12 @@
     "OLE",
     "SUS",
     "NAP"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -4904,8 +4937,12 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "nie-publikowac",
+   "claims": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -4916,13 +4953,20 @@
    "notes": [
     "[SUS*] Sałatka octowa w słoikach; nie suszenie.",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
-    "[B21] zostaje do-researchu: B20 to przebieg 1 bez źródła (nie-publikowac dopiero po przebiegu 2, 2026-11-02-jaratlas-wariant-bez-zrodla). (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] zostaje do-researchu: B20 to przebieg 1 bez źródła (nie-publikowac dopiero po przebiegu 2, 2026-11-02-jaratlas-wariant-bez-zrodla). (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS",
     "NAP"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -5209,8 +5253,8 @@
     },
     {
      "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2022-04/365812.pdf",
-     "miejsce": "UCCE MFP El Dorado, Spicy Red Cabbage, Source: Ball Complete Book of Home Preserving, składniki",
-     "cytat": "Spicy Red Cabbage Source:Ball Complete Book of Home Preserving Yield: about 5 quarts or 10 pints 12 lbs of red cabbage(3-4heads), cored and shredded ½ cup canning or pickling salt",
+     "miejsce": "UCCE MFP El Dorado, Spicy Red Cabbage (przepis Ball), składniki",
+     "cytat": "Yield: about 5 quarts or 10 pints 12 lbs of red cabbage(3-4heads), cored and shredded ½ cup canning or pickling salt",
      "odczyt": "2026-11-02",
      "szczebel": 3
     },
@@ -5307,7 +5351,8 @@
    },
    "notes": [
     "[ACI*] Brak przetestowanego przepisu na czerwoną kapustę w occie jabłkowym. Brak przetestowanego przepisu dla tego warzywa w tej zalewie; warzywo niskokwasowe — nie przenosić proporcji z innych przepisów. Alternatywa do sprawdzenia: wersja lodówkowa.",
-    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. B20-D3: po zmianie duplikat red-savoy-cabbage-v03 → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. B20-D3: po zmianie duplikat red-savoy-cabbage-v03 → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B22 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B22 JSON; duplikat: red-savoy-cabbage-v03 (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -6373,7 +6418,8 @@
    },
    "notes": [
     "[ACI*] Najbliższy przetestowany: NCHFP Pickled Cauliflower (ocet biały 5%). Ocet winny nie jest w zaleceniu NCHFP — Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu.",
-    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B22 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B22 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -6609,7 +6655,8 @@
    "notes": [
     "[OLE*] Sałatka/sos octowy; poza obszarem OLE.",
     "[SUS] Sałatka wielowarzywna w zalewie; nie suszenie.",
-    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. B20-D4: zmiana typu produktu → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. B20-D4: zmiana typu produktu → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: B22 do-researchu (przebieg 1); duplikat: european-mixed-veg-v04; warunkowo: {\"werdykt\":\"ok-zrodlo-po-zmianie\",\"decyzja\":\"B22-D3\",\"zmiana_wariantu\":\"Zmienić nazwę na „warzywa mieszane w occie z musztardą (NCHFP Pickled Mixed Vegetables)” i skład 1:1 z ACI-636 (ogórki, cebula, seler, marchew, czerwona papryka, kalafior; biały ocet 5%, musztarda gotowa, sól, cukier, przyprawy); bez innych warzyw (np. brokuł, fasolka) i bez oleju.\"} (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -7456,7 +7503,8 @@
     "[ACI*] Odpowiednik: NCHFP Pickled Cauliflower or Brussel Sprouts (z gorczycą). Ocet jabłkowy 5% zamiast białego 5% — oba zalecane, biały tylko dla koloru (uproszczenie w ACI-vin_color).",
     "[E3] Ocet jabłkowy 5% w miejsce białego 5%: oba zalecane przez NCHFP (ACI-018/019), w tej samej ilości (uproszczenie nazwane).",
     "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → do-researchu: Przepis NCHFP Pickled Cauliflower or Brussel Sprouts (08022add8de8) używa '4 cups white vinegar (5 percent)'; nazwa wariantu podaje ocet jabłkowy, czyli inny ocet niż w przepisie, więc według zasad ok-zrodlo nie przysługuje. ACI-018/ACI-019 dopuszczają ocet jabłkowy 5% ogólnie do pikli (wybór dotyczy koloru), ale to wskazówka ogólna, nie ten przetestowany przepis, a polskie octy jabłkowe mają różną moc (ACI-016: nie używać octu o nieznanej kwasowości). Gorczyca jest w przepisie (2 tbsp mustard seed). Rodzina, metoda i acidBasis są poprawne. Minimalna poprawka: nazwa 'w occie spirytusowym (białym) 5% z gorczycą' i proporcje 1:1 z przepisem, wtedy ok-zrodlo. Źródło nie ma cytatu: można dodać '4 cups white vinegar (5 percent)'.",
-    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B22 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B22 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -7476,8 +7524,12 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "nie-publikowac",
+   "claims": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -7487,12 +7539,19 @@
    },
    "notes": [
     "[SLO*] Marynata octowa, obszar ACI.",
-    "[B21] zostaje do-researchu: B20 to przebieg 1 bez źródła (nie-publikowac dopiero po przebiegu 2, 2026-11-02-jaratlas-wariant-bez-zrodla). (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] zostaje do-researchu: B20 to przebieg 1 bez źródła (nie-publikowac dopiero po przebiegu 2, 2026-11-02-jaratlas-wariant-bez-zrodla). (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1); duplikat: brussels-kohlrabi-v07 (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -7540,8 +7599,12 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "nie-publikowac",
+   "claims": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -7551,12 +7614,19 @@
    },
    "notes": [
     "[SZY*] Kalarepa w occie (ACI).",
-    "[B21] zostaje do-researchu: B20 to przebieg 1 bez źródła (nie-publikowac dopiero po przebiegu 2, 2026-11-02-jaratlas-wariant-bez-zrodla). (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] zostaje do-researchu: B20 to przebieg 1 bez źródła (nie-publikowac dopiero po przebiegu 2, 2026-11-02-jaratlas-wariant-bez-zrodla). (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -7735,7 +7805,8 @@
    },
    "notes": [
     "[ACI*] Brak przetestowanego przepisu „po kaszubsku”. Najbliższy: NCHFP Pickled Bread-and-Butter Zucchini.",
-    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. B20-D3: po zmianie duplikat zucchini-v05 → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. B20-D3: po zmianie duplikat zucchini-v05 → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B22 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B22 JSON; duplikat: zucchini-v05 (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -11301,7 +11372,8 @@
    },
    "notes": [
     "[ACI*] Koktajlowe w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu.",
-    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B22 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B22 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -11335,7 +11407,8 @@
    },
    "notes": [
     "[ACI*] Sałatka z zielonych pomidorów (z dodatkami warzyw): brak przepisu; najbliższe NCHFP Pickled Green Tomato Relish / Piccalilli.",
-    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. B20-D4: zmiana typu produktu → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. B20-D4: zmiana typu produktu → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B22 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B22 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -11739,7 +11812,8 @@
    },
    "notes": [
     "[ACI*] Zalewa miodowa: brak przetestowanego przepisu (miód zamiast cukru nieprzetestowany).",
-    "[B11] wycofany jako duplikat bell-pepper-v01 (C9-D7); status bez zmian, karta nie powstaje (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] wycofany jako duplikat bell-pepper-v01 (C9-D7); status bez zmian, karta nie powstaje (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B25] status bez zmian: B22 do-researchu (wariant wycofany jako duplikat, bez nowego researchu); duplikat: bell-pepper-v01 (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -11850,7 +11924,8 @@
    },
    "notes": [
     "[ACI*] W occie winnym z rozmarynem: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu.",
-    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. B20-D3: po zmianie duplikat bell-pepper-v01 → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. B20-D3: po zmianie duplikat bell-pepper-v01 → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B22 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B22 JSON; duplikat: bell-pepper-v01 (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -12507,7 +12582,8 @@
    "notes": [
     "[ACI*] Escabeche (jalapeño + marchew + cebula): najbliższe NCHFP Pickled Jalapeño Rings (same papryczki); mieszanka nieprzetestowana.",
     "[B10] zostaje do-researchu (C8): zmiana na NCHFP Pickled Jalapeño Rings usuwa escabeche (marchew, cebula) i zmienia tożsamość; sprawdzić duplikat z chili-pepper-v08 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
-    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Nazwa „krążki jalapeño w occie jabłkowym (NCHFP)”; usunąć „escabeche”; skład i proces 1:1 wg NCHFP Pickled Jalapeño Rings (wapno 18 h, trzykrotne płukanie). (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Nazwa „krążki jalapeño w occie jabłkowym (NCHFP)”; usunąć „escabeche”; skład i proces 1:1 wg NCHFP Pickled Jalapeño Rings (wapno 18 h, trzykrotne płukanie). (2026-11-02-jaratlas-b18-katalog)",
+    "[B25] status bez zmian: werdykt B22 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B22 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -12824,7 +12900,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Najbliższy przetestowany: Golden Pepper Jelly / Mayhaw-Pepper Jelly (galaretki z octem), nie dżem."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Najbliższy przetestowany: Golden Pepper Jelly / Mayhaw-Pepper Jelly (galaretki z octem), nie dżem.",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON; metoda water-bath to tylko propozycja B23, preservationMethod null bez zmian (brak decyzji na tablicy, B25-D2) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -14410,7 +14487,8 @@
     "[SZY] Salsa verde z tomatillo: NCHFP ma przetestowaną zakwaszoną salsę (ACI); wersja pieczona do sprawdzenia.",
     "[B10] nazwa „pieczona salsa verde do słoików (pasteryzacja)” → „salsa verde z tomatillo do słoików” (C8: pieczenie tomatillo poza przepisem NCHFP Tomatillo Green Salsa (zmienia proporcje warzyw do kwasu); usunięte słowo „pieczona”) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
     "[B10] zostaje do-researchu (C8): przegląd D-043 (P1): twierdzenie o procedurze ACI-428 robocze po dwóch przebiegach D-027, więc bez ok-zrodlo; przepis NCHFP Tomatillo Green Salsa (ACI-427, ACI-429, ACI-430) potwierdzony (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
-    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Nazwa „salsa verde z tomatillo do słoików (NCHFP)”; usunąć „pieczona”; chili wolno opalić tylko do obrania skórki (ACI-428). (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Nazwa „salsa verde z tomatillo do słoików (NCHFP)”; usunąć „pieczona”; chili wolno opalić tylko do obrania skórki (ACI-428). (2026-11-02-jaratlas-b18-katalog)",
+    "[B25] status bez zmian: werdykt B22 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B22 JSON; ACI-428 w nowym brzmieniu B22 (łuski, bez pieczenia tomatillo) potwierdzone w B25 (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -14744,7 +14822,8 @@
    },
    "notes": [
     "[ACI*] Fasolka słodko-kwaśna: NCHFP ma tylko Dilled Beans (bez cukru); wersja słodka nieprzetestowana.",
-    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. B20-D4: zmiana typu produktu → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B20 ok-zrodlo-po-zmianie (reguła po-zmianie); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B20 JSON. B20-D4: zmiana typu produktu → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B22 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B22 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -14856,7 +14935,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Fasolka w zalewie z kurkumą i gorczycą (ACI)."
+    "[SZY*] Fasolka w zalewie z kurkumą i gorczycą (ACI).",
+    "[B25] status bez zmian: B22 do-researchu (przebieg 1); warunkowo: {\"werdykt\":\"ok-zrodlo-po-zmianie\",\"decyzja\":\"B20-D1\",\"zmiana_wariantu\":\"Karta = NCHFP Dilled Beans 1:1 (fasolka, ocet, woda, sól, wolna przestrzeń, czasy), z suszoną kurkumą i gorczycą w miejsce/obok kopru; bez innych dodatków.\",\"parametry_karty\":{\"ocet\":\"ocet 5% wg ACI-918 (biały albo jabłkowy z etykietą 5%; ACI-018, ACI-211)\",\"proporcje\":\"1:1 z ACI-918 (4 funty fasolki 12,5–15 cm, ocet, woda, sól wg przepisu) + suszona kurkuma i gorczyca (ACI-873, ACI-874)\",\"sloik\":\"tylko pint\",\"wolna_przestrzen\":\"1/2 cala (ok. 1,3 cm) (ACI-919)\",\"czas\":\"raw pack 5 / 10 / 15 min (ACI-920)\",\"wysokosc\":\"0–1000 / 1001–6000 / powyżej 6000 stóp (ok. 0–305 / 305–1829 / powyżej 1829 m)\"}} (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -15025,7 +15105,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Sałatka do słoików zwykle w zalewie octowej (ACI). Wersja bez octu: jak Mixed Vegetables (SZY-022)."
+    "[SZY*] Sałatka do słoików zwykle w zalewie octowej (ACI). Wersja bez octu: jak Mixed Vegetables (SZY-022).",
+    "[B25] status bez zmian: B22 do-researchu (przebieg 1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -15829,11 +15910,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-018",
-    "ACI-102"
+    "ACI-102",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -15843,12 +15926,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Fasola Jaś w occie winnym: brak przepisu; gęsta, niskokwasowa."
+    "[ACI*] Fasola Jaś w occie winnym: brak przepisu; gęsta, niskokwasowa.",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1); duplikat: beans-soy-v01 (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -16528,11 +16618,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-018",
-    "ACI-104"
+    "ACI-104",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -16542,12 +16634,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Buraki w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+    "[ACI*] Buraki w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu.",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1); duplikat: beetroot-v06 (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -16561,12 +16660,14 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-017",
     "ACI-005",
-    "ACI-104"
+    "ACI-104",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -16576,12 +16677,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Buraki tarte w zalewie: inny rozmiar i stosunek do zalewy niż NCHFP Pickled Beets — brak przepisu."
+    "[ACI*] Buraki tarte w zalewie: inny rozmiar i stosunek do zalewy niż NCHFP Pickled Beets — brak przepisu.",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -16644,7 +16752,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Sałatka buraczana w zalewie; nie suszenie."
+    "[SUS*] Sałatka buraczana w zalewie; nie suszenie.",
+    "[B25] status bez zmian: B22 do-researchu (przebieg 1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -17094,7 +17203,8 @@
    "notes": [
     "[ACI*] Odpowiednik: NCHFP Pickled Carrots (ocet biały 5%); ocet jabłkowy 5% zamiast białego (ACI-vin_color); kolendra jako sucha przyprawa — DO USTALENIA tolerancja przypraw.",
     "[E3] Ocet jabłkowy 5% w miejsce białego 5%: oba zalecane przez NCHFP (ACI-018/019), w tej samej ilości (uproszczenie nazwane).",
-    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → do-researchu: Przepis NCHFP Pickled Carrots (99b3c912d33b): '5½ cups white distilled vinegar (5%)', przyprawy to gorczyca i nasiona selera. Nazwa podaje ocet jabłkowy (inny ocet) i kolendrę (spoza przepisu), więc według zasad ok-zrodlo nie przysługuje. Rodzina, metoda (kąpiel wodna, pint 15 min) i acidBasis są poprawne. Minimalna poprawka: nazwa 'w occie spirytusowym (białym) 5%' i przyprawy z przepisu (sucha kolendra w małej ilości zapewne nie zmienia bezpieczeństwa, ale nie jest przetestowana), wtedy ok-zrodlo. Źródło nie ma cytatu."
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → do-researchu: Przepis NCHFP Pickled Carrots (99b3c912d33b): '5½ cups white distilled vinegar (5%)', przyprawy to gorczyca i nasiona selera. Nazwa podaje ocet jabłkowy (inny ocet) i kolendrę (spoza przepisu), więc według zasad ok-zrodlo nie przysługuje. Rodzina, metoda (kąpiel wodna, pint 15 min) i acidBasis są poprawne. Minimalna poprawka: nazwa 'w occie spirytusowym (białym) 5%' i przyprawy z przepisu (sucha kolendra w małej ilości zapewne nie zmienia bezpieczeństwa, ale nie jest przetestowana), wtedy ok-zrodlo. Źródło nie ma cytatu.",
+    "[B25] status bez zmian: werdykt B22 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B22 JSON; warunkowo: {\"werdykt\":\"ok-zrodlo-po-zmianie\",\"decyzja\":\"B20-D1\",\"zmiana_wariantu\":\"Jak niżej, ale z suszonymi nasionami kolendry w miejsce/obok gorczycy i selera (ACI-873, ACI-874); ocet nadal biały 5%.\"} (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -18258,7 +18368,8 @@
    },
    "notes": [
     "[ACI*] Najbliższy: NCHFP Pickled Pearl Onions (gorczyca, seler) — dotyczy cebulek perłowych w całości; zwykła cebula krojona nieprzetestowana.",
-    "[B10] wycofany jako duplikat shallot-pearl-onion-v05 (C8-D9, raport C8); status bez zmian, karta nie powstaje; następca obejmuje tylko cebulki perłowe (NCHFP Pickled Pearl Onions); krojona cebula z gorczycą nie ma przepisu (C8) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] wycofany jako duplikat shallot-pearl-onion-v05 (C8-D9, raport C8); status bez zmian, karta nie powstaje; następca obejmuje tylko cebulki perłowe (NCHFP Pickled Pearl Onions); krojona cebula z gorczycą nie ma przepisu (C8) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B25] status bez zmian: B22 do-researchu (wariant wycofany jako duplikat, bez nowego researchu); duplikat: shallot-pearl-onion-v05 (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -18282,11 +18393,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-018",
-    "ACI-107"
+    "ACI-107",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -18296,12 +18409,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Ocet słodowy: kwasowość nieznana/zmienna; brak przepisu NCHFP."
+    "[ACI*] Ocet słodowy: kwasowość nieznana/zmienna; brak przepisu NCHFP.",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -18350,13 +18470,15 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-017",
     "ACI-005",
     "ACI-019",
-    "ACI-107"
+    "ACI-107",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -18367,13 +18489,20 @@
    },
    "notes": [
     "[ACI*] Cebula w occie jabłkowym z kurkumą: brak przepisu.",
-    "[SZY] Cebula w occie (ACI)."
+    "[SZY] Cebula w occie (ACI).",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1); duplikat: shallot-pearl-onion-v05 (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SZY"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -18844,11 +18973,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-018",
-    "ACI-108"
+    "ACI-108",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -18858,12 +18989,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Szalotka w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+    "[ACI*] Szalotka w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu.",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -19039,7 +19177,8 @@
    },
    "notes": [
     "[OLE*] Cebulki borettane w glazurze balsamicznej; poza obszarem OLE.",
-    "[SUS] Cebulki w glazurze balsamicznej; nie suszenie."
+    "[SUS] Cebulki w glazurze balsamicznej; nie suszenie.",
+    "[B25] status bez zmian: B22 do-researchu (przebieg 1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -22464,11 +22603,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-018",
-    "ACI-119"
+    "ACI-119",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -22478,12 +22619,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Najbliższy: NCHFP Pickled Asparagus (ocet biały destylowany 5%); ocet winny z estragonem — Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+    "[ACI*] Najbliższy: NCHFP Pickled Asparagus (ocet biały destylowany 5%); ocet winny z estragonem — Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu.",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1); duplikat: asparagus-v04 (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -22540,12 +22688,14 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-017",
     "ACI-005",
-    "ACI-119"
+    "ACI-119",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -22556,13 +22706,20 @@
    },
    "notes": [
     "[ACI*] Zalewa miodowo-musztardowa: brak przepisu.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "NAP"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -22850,11 +23007,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-018",
-    "ACI-120"
+    "ACI-120",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -22864,12 +23023,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Fenkuł w białym occie winnym: brak przepisu; Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+    "[ACI*] Fenkuł w białym occie winnym: brak przepisu; Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu.",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -22883,12 +23049,14 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-018",
     "ACI-121",
-    "ACI-002"
+    "ACI-002",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -22898,12 +23066,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Serca karczochów w occie i winie: karczochy są w definicji żywności zakwaszanej (21 CFR 114.3), ale brak domowego przetestowanego przepisu."
+    "[ACI*] Serca karczochów w occie i winie: karczochy są w definicji żywności zakwaszanej (21 CFR 114.3), ale brak domowego przetestowanego przepisu.",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -25042,11 +25217,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-018",
-    "ACI-006"
+    "ACI-006",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -25057,12 +25234,19 @@
    },
    "notes": [
     "[ACI*] Giardiniera w occie winnym: najbliższy NCHFP Pickled Mixed Vegetables (inny skład, ocet biały 5%, musztarda) — brak przepisu w tej formie.",
-    "[B11] zostaje do-researchu (C9: przepis NCHFP Pickled Mixed Vegetables; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] zostaje do-researchu (C9: przepis NCHFP Pickled Mixed Vegetables; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 3, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1); warunkowo: {\"werdykt\":\"ok-zrodlo-po-zmianie\",\"decyzja\":\"B22-D1\",\"zmiana_wariantu\":\"Nazwa np. „giardiniera na ostro w occie białym 5% (wg UW-Madison B2267 Vegetable mix hot pickles)”; ocet winny → biały 5%; skład, solanka, zalewa i proces 1:1 z ACI-880–882; bez oliwy, bez innych warzyw (np. ogórków, oliwek).\",\"parametry_karty\":{\"ocet\":\"biały ocet 5% (5 szklanek) + 1 szklanka wody; nie winny (ACI-880, ACI-509)\",\"proporcje\":\"1:1 z ACI-880: 4 szklanki różyczek kalafiora, 1 czerwona papryka w paskach, 1 1/2 szklanki selera (2,5 cm), 2 szklanki marchwi w plastrach, 2 cebule w ćwiartkach albo 1 szklanka małych cebulek, 5–6 suszonych chili (1 na słoik); solanka 1 kwarta wody + 1/4 szklanki soli, 1 h; zalewa: 5 szklanek octu, 1 szklanka wody, 1/2 szklanki cukru, 1 ząbek czosnku, gotować 15 min (ACI-881)\",\"sloik\":\"tylko pint (5–6 słoików)\",\"wolna_przestrzen\":\"1/2 cala (ok. 1,3 cm) (ACI-881)\",\"czas\":\"10 min (do 1000 stóp); 15 min powyżej 1000 stóp w zakresie wysokości Wisconsin (ACI-882)\",\"wysokosc\":\"0–1000 stóp (ok. 0–305 m): 10 min; powyżej 1000 stóp: +5 min tylko w zakresie, który źródło obejmuje (Wisconsin); wyżej brak danych w źródle\"}} (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -25169,7 +25353,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Sałatka w occie (ACI)."
+    "[SZY*] Sałatka w occie (ACI).",
+    "[B25] status bez zmian: werdykt B22 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B22 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -26882,11 +27067,46 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "water-bath",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
-    "SLO-048"
+    "SLO-048",
+    "SLO-800",
+    "SLO-801",
+    "SLO-802",
+    "SLO-803",
+    "SLO-804",
+    "SLO-805",
+    "ACI-482",
+    "ACI-732",
+    "ACI-481",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+     "miejsce": "s. 1, Apple Scrap Jelly, składniki",
+     "cytat": "4-1/2 cups apple juice prepared from apple peels and cores",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+     "miejsce": "s. 1, krok 1",
+     "cytat": "Sterilize canning jars by boiling for 10 minutes at altitudes of less than 1,000 feet.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+     "miejsce": "s. 1, krok 5",
+     "cytat": "Process 5 minutes in boiling-water or atmospheric steam canner, adding 1 additional minute per 1,000 feet above sea level.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -26897,13 +27117,18 @@
     "[SZY] Galaretka (SLO).",
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Najbliższy: Apple Jelly without Pectin (sok z całych jabłek), nie z samych ogryzków.",
     "[B10] zostaje do-researchu (C8): zmiana na galaretkę bez pektyny z całych jabłek zmienia przepis; decyzja redakcji (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
-    "[B15] zostaje do-researchu (B14 Z1 niewykonane): arkusz UC MFP Apple Scrap Jelly (C-55, adaptacja Ball) nie ma twierdzenia w rejestrze; najpierw wpis z cytatem i D-027 (2026-11-02-jaratlas-b15-katalog)."
+    "[B15] zostaje do-researchu (B14 Z1 niewykonane): arkusz UC MFP Apple Scrap Jelly (C-55, adaptacja Ball) nie ma twierdzenia w rejestrze; najpierw wpis z cytatem i D-027 (2026-11-02-jaratlas-b15-katalog).",
+    "[B25] do-researchu → ok-zrodlo (B23): UC MFP Apple Scrap Jelly (UC ANR, szczebel 3; SLO-800–805); sources SLO-800, SLO-802, SLO-803; requiredWarnings SLO-001, SLO-048; czas karty wg B23 parametry_karty (dłuższa tabela wysokości ACI-732, B23-A-D1/C-D4); nazwa karty do toru A (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY",
     "SLO"
+   ],
+   "requiredWarnings": [
+    "SLO-001",
+    "SLO-048"
    ]
   },
   {
@@ -26929,7 +27154,8 @@
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Mint Jelly i Apple Jelly osobno, nie dżem jabłkowo-miętowy.",
     "[B11] zostaje do-researchu (C9: przepis NCHFP Apple Preserves Pectin; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
-    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: (a) „galaretka miętowa” wg Sure-Jell (ACI-748) lub NCHFP (SLO-082) albo (b) „konfitura jabłkowa” bez mięty wg NCHFP (ACI-622, ACI-623). Mięty do dżemu jabłkowego nie dodawać. (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: (a) „galaretka miętowa” wg Sure-Jell (ACI-748) lub NCHFP (SLO-082) albo (b) „konfitura jabłkowa” bez mięty wg NCHFP (ACI-622, ACI-623). Mięty do dżemu jabłkowego nie dodawać. (2026-11-02-jaratlas-b18-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -27347,12 +27573,14 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-018",
     "ACI-127",
-    "ACI-064"
+    "ACI-064",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -27362,12 +27590,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Gruszki w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+    "[ACI*] Gruszki w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu.",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -27546,7 +27781,8 @@
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Pear Preserves (konfitura w syropie), nie dżem z przyprawami.",
     "[B11] zostaje do-researchu (C9: przepis USDA Guide 7 Pear-Apple Jam; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
-    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Usunąć „lub kardamonem”: „dżem gruszkowy z imbirem” wg Certo UK (ACI-740). (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Usunąć „lub kardamonem”: „dżem gruszkowy z imbirem” wg Certo UK (ACI-740). (2026-11-02-jaratlas-b18-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29638,7 +29874,8 @@
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Cherry Jam, nie konfiturę z całych wiśni.",
     "[B11] wycofany jako duplikat sour-cherry-v11 (C9-D7); status bez zmian, karta nie powstaje (2026-11-02-jaratlas-06-b11-katalog-c9).",
-    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: (a) zalecane: „dżem wiśniowy” (owoce siekane) wg Sure-Jell (ACI-743); (b) do weta: „dżem z całych drylowanych wiśni” wg Certo UK Cherry Jam (ACI-742), gatunek niepodany (wiśnie są kwaśniejsze od czereśni, a przepis i … (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: (a) zalecane: „dżem wiśniowy” (owoce siekane) wg Sure-Jell (ACI-743); (b) do weta: „dżem z całych drylowanych wiśni” wg Certo UK Cherry Jam (ACI-742), gatunek niepodany (wiśnie są kwaśniejsze od czereśni, a przepis i … (2026-11-02-jaratlas-b18-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -30226,7 +30463,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
-    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła pektyna (b)); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła pektyna (b)); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -30352,7 +30590,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma osobno Cherry Jam i Strawberry Jam.",
-    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła pektyna (b)); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. B19-D3: po zmianie duplikat sweet-cherry-v06 → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła pektyna (b)); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. B19-D3: po zmianie duplikat sweet-cherry-v06 → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -30664,7 +30903,8 @@
    "notes": [
     "[ACI*] Salsa brzoskwiniowa z jalapeño: najbliższa NCHFP Peach-Apple Salsa (z jabłkiem) — inny skład; brak przepisu w tej formie.",
     "[SZY] Salsa brzoskwiniowa (ACI).",
-    "[B10] zostaje do-researchu (C8): NCHFP Peach Apple Salsa nie ma jalapeño; zmiana tożsamości (pytania otwarte C8) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (C8): NCHFP Peach Apple Salsa nie ma jalapeño; zmiana tożsamości (pytania otwarte C8) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B25] status bez zmian: werdykt B22 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B22 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -30954,7 +31194,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Lawenda poza przepisem.",
-    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła pektyna (b)); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła pektyna (b)); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -31476,11 +31717,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-017",
-    "ACI-135"
+    "ACI-135",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -31490,12 +31733,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Chutney morelowy z gorczycą: brak przepisu."
+    "[ACI*] Chutney morelowy z gorczycą: brak przepisu.",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -32293,7 +32543,8 @@
    "notes": [
     "[SLO*] Strawberry Jam Pectin (NCHFP). Wersja niskosłodzona tylko z pektyną modyfikowaną według instrukcji producenta (dłuższy czas).",
     "[E3] ok-zrodlo → do-researchu: NCHFP Strawberry Jam Pectin (szczebel 1) to przepis na zwykłą pektynę i pełny cukier (5,5 szklanki owoców, 8 szklanek cukru). Wariant łączy go z wersją 'niskosłodzoną', na którą źródło nie podaje przepisu. SLO-001 zabrania zmniejszania cukru w tradycyjnych przepisach, a SLO-006 odsyła do instrukcji producenta pektyny o niskim metoksylowaniu. Zmiana cukru wpływa na bezpieczeństwo (pleśnie, drożdże), a nazwa wskazuje ją wprost.",
-    "[B10] zostaje do-researchu (C8): podział na klasyczny (ok-zrodlo) i niskosłodzony wymaga nowego wariantu (C8-D11) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (C8): podział na klasyczny (ok-zrodlo) i niskosłodzony wymaga nowego wariantu (C8-D11) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -32470,7 +32721,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Prosecco poza przepisem.",
-    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła NCHFP); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. B19-D3: po zmianie duplikat strawberry-v07 → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła NCHFP); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. B19-D3: po zmianie duplikat strawberry-v07 → decyzja toru A/03. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -32489,9 +32741,51 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "water-bath",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "SLO-810",
+    "SLO-811",
+    "SLO-812",
+    "SLO-813",
+    "ACI-732",
+    "ACI-626",
+    "ACI-143",
+    "ACI-136",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "sources": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+     "miejsce": "Ingredients",
+     "cytat": "prepared fruit (buy about 1 qt. fully ripe strawberries and 1 lb. fully ripe rhubarb)",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+     "miejsce": "Step 3",
+     "cytat": "Return to full rolling boil and boil exactly 1 min., stirring constantly.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+     "miejsce": "s. 7, Rhubarb-Strawberry Jam With Pectin",
+     "cytat": "1 cup cooked red-stalked rhubarb",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://wpcdn.web.wsu.edu/extension/uploads/sites/77/2018/06/Preserving-Strawberries.pdf",
+     "miejsce": "s. 2, Table 1",
+     "cytat": "Hot Half-pints 5 min 10 15",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -32500,12 +32794,16 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma tylko Strawberry-Rhubarb Jelly (galaretka), nie dżem.",
-    "[B10] zostaje do-researchu (C8): przepis tylko w przedrukach szczebla 3 (WSU/NDSU) i wymaga zmiany nazwy; ostrożniej bez ok-zrodlo do źródła szczebla 1 (C8-D10, P7) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (C8): przepis tylko w przedrukach szczebla 3 (WSU/NDSU) i wymaga zmiany nazwy; ostrożniej bez ok-zrodlo do źródła szczebla 1 (C8-D10, P7) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B25] do-researchu → ok-zrodlo (B23): Sure-Jell Rhubarb Strawberry Jam (Kraft Heinz, szczebel 3) + NDSU FN172 / WSU (SLO-810–813); sources SLO-810, SLO-811, SLO-812, SLO-813; requiredWarnings SLO-001; czas karty wg B23 parametry_karty (dłuższa tabela wysokości ACI-732, B23-A-D1/C-D4); nazwa karty do toru A (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "requiredWarnings": [
+    "SLO-001"
    ]
   },
   {
@@ -33090,7 +33388,8 @@
     "[SZY] Galaretka (SLO).",
     "[SLO*] Najbliższy: Blackberry Jelly without Pectin (NCHFP); dodatek jabłka poza przepisem.",
     "[B11] zostaje do-researchu (C9: przepis NCHFP Blackberry Jelly without Pectin; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
-    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: (a) „galaretka jeżynowa” bez jabłka wg Sure-Jell (ACI-745) albo NCHFP (E1: ACI-605–607); albo (b) „dżem jabłkowo-jeżynowy” wg Certo UK (ACI-746). Galaretka z jabłkiem nie ma źródła. (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: (a) „galaretka jeżynowa” bez jabłka wg Sure-Jell (ACI-745) albo NCHFP (E1: ACI-605–607); albo (b) „dżem jabłkowo-jeżynowy” wg Certo UK (ACI-746). Galaretka z jabłkiem nie ma źródła. (2026-11-02-jaratlas-b18-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33121,7 +33420,8 @@
    },
    "notes": [
     "[SLO*] Najbliższy: Blackberry Jam Pectin / Berry Jams (NCHFP); cynamon poza przepisem.",
-    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła NCHFP); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła NCHFP); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33529,7 +33829,8 @@
     "[SZY] Galaretka (SLO).",
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Nie znaleziono galaretki porzeczkowej w zbiorze NCHFP.",
     "[B10] zostaje do-researchu (C8): brak przepisu szczebla 1–3 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
-    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Zawęzić do „klarowna galaretka z czerwonej porzeczki” (bez białej): białej porzeczki żaden przepis nie wymienia. (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Zawęzić do „klarowna galaretka z czerwonej porzeczki” (bez białej): białej porzeczki żaden przepis nie wymienia. (2026-11-02-jaratlas-b18-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -34097,7 +34398,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Kwiat bzu: tylko same kwiaty, bez łodyg i liści.",
-    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła NCHFP); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła NCHFP); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -34127,7 +34429,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
-    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła NCHFP); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła NCHFP); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -34280,7 +34583,8 @@
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
     "[B11] zostaje do-researchu (C9: przepis NCHFP Making Jam without added Pectin (Berries); C9-D13: mieszanka agrest + truskawka nietestowana; bez łączenia wierszy tabeli) (2026-11-02-jaratlas-06-b11-katalog-c9).",
-    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: „Dżem agrestowy” bez truskawek wg NCHFP (ACI-624, ACI-625) albo Certo UK (ACI-749). Mieszanka tylko po decyzji, że owoce z jednego wiersza tabeli NCHFP „Berries” wolno łączyć (pytanie z E1, bez zmian). (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: „Dżem agrestowy” bez truskawek wg NCHFP (ACI-624, ACI-625) albo Certo UK (ACI-749). Mieszanka tylko po decyzji, że owoce z jednego wiersza tabeli NCHFP „Berries” wolno łączyć (pytanie z E1, bez zmian). (2026-11-02-jaratlas-b18-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -34680,7 +34984,8 @@
    },
    "notes": [
     "[SLO*] Najbliższy: Berry Jams / Blueberry-Spice Jam (NCHFP); wanilia poza przepisem.",
-    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła NCHFP); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła NCHFP); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -35146,7 +35451,8 @@
     "difficulty": null
    },
    "notes": [
-    "[NAP*] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SLO."
+    "[NAP*] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SLO.",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON; metoda water-bath to tylko propozycja B23, preservationMethod null bez zmian (brak decyzji na tablicy, B25-D2) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -36133,7 +36439,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Najbliższy: przepis wysokocukrowy OSU (sam miąższ bzu); dodatek jabłek poza przepisem. Owoce gotowane, bez szypułek."
+    "[SLO*] Najbliższy: przepis wysokocukrowy OSU (sam miąższ bzu); dodatek jabłek poza przepisem. Owoce gotowane, bez szypułek.",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON; metoda water-bath to tylko propozycja B23, preservationMethod null bez zmian (brak decyzji na tablicy, B25-D2) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37011,7 +37318,8 @@
    "notes": [
     "[SLO*] Najbliższy: Grape Jam without Pectin (NCHFP, Concord); winogrona bezpestkowe innych odmian - odpowiedniość do potwierdzenia.",
     "[B11] zostaje do-researchu (C9: przepis NCHFP Grape Jam without Pectin; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
-    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Zmienić na „dżem z winogron Concord” wg Sure-Jell (ACI-747) albo NCHFP (E1). Konfitury z winogron bezpestkowych źródło nie ma. (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Zmienić na „dżem z winogron Concord” wg Sure-Jell (ACI-747) albo NCHFP (E1). Konfitury z winogron bezpestkowych źródło nie ma. (2026-11-02-jaratlas-b18-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37328,7 +37636,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Rabarbar jest na liście soków kwaśnych UC (sok), syrop z cukrem: brak przepisu.",
-    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37359,7 +37668,8 @@
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma tylko Strawberry-Rhubarb Jelly.",
     "[B10] zostaje do-researchu (C8): jak strawberry-v12 i podział wariantu (C8-D10) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
-    "[B15] zostaje do-researchu (B14 Z2): wymaga podziału na dwa warianty (rabarbar+truskawka WSU/NDSU; rabarbar+pomarańcza Ball C-20 bez wpisu w rejestrze) — nowy wariant to decyzja roli 03 (2026-11-02-jaratlas-b15-katalog)."
+    "[B15] zostaje do-researchu (B14 Z2): wymaga podziału na dwa warianty (rabarbar+truskawka WSU/NDSU; rabarbar+pomarańcza Ball C-20 bez wpisu w rejestrze) — nowy wariant to decyzja roli 03 (2026-11-02-jaratlas-b15-katalog).",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37829,7 +38139,8 @@
    "notes": [
     "[SLO*] Najbliższy: Citrus Marmalade / Orange Marmalade (NCHFP, z cytryną w składzie); marmolady z samej cytryny nie znaleziono.",
     "[B10] zostaje do-researchu (C8): marmolada z samej cytryny bez przepisu; zmiana na cytrusową nie jest mała (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
-    "[B15] zostaje do-researchu (B14 Z2): zmiana na „szybka marmolada cytrynowo-imbirowa” (Ball, C-29) czeka na wpis twierdzenia z cytatem i D-027; zmiana produktu przepisu (imbir) do toru A (2026-11-02-jaratlas-b15-katalog)."
+    "[B15] zostaje do-researchu (B14 Z2): zmiana na „szybka marmolada cytrynowo-imbirowa” (Ball, C-29) czeka na wpis twierdzenia z cytatem i D-027; zmiana produktu przepisu (imbir) do toru A (2026-11-02-jaratlas-b15-katalog).",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -38516,11 +38827,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-017",
-    "ACI-146"
+    "ACI-146",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -38530,12 +38843,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Chutney pomarańczowy: brak przepisu (NCHFP Cranberry Orange Chutney to inny produkt)."
+    "[ACI*] Chutney pomarańczowy: brak przepisu (NCHFP Cranberry Orange Chutney to inny produkt).",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -38647,7 +38967,8 @@
    "notes": [
     "[SLO*] Najbliższy: Orange Marmalade (NCHFP); gorzka pomarańcza (Citrus aurantium) to inny gatunek, odpowiedniość do potwierdzenia.",
     "[B10] zostaje do-researchu (C8): zmiana na marmoladę pomarańczową zmienia produkt (nie szkocka gorzka) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
-    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Skład wg Certo UK, ale z 1 płaską łyżeczką sody (wersja z książki przepisów 2016, ACI-739), nie z 2 łyżeczkami podanymi na stronie 2026: soda podnosi pH, więc biorę wersję z mniejszą ilością. Nazwa bez słowa „szkocka”… (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Skład wg Certo UK, ale z 1 płaską łyżeczką sody (wersja z książki przepisów 2016, ACI-739), nie z 2 łyżeczkami podanymi na stronie 2026: soda podnosi pH, więc biorę wersję z mniejszą ilością. Nazwa bez słowa „szkocka”… (2026-11-02-jaratlas-b18-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -38681,7 +39002,8 @@
    "notes": [
     "[ACI] Całe kumkwaty w syropie: brak przetestowanego czasu.",
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
-    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła Ball (b)); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła Ball (b)); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -39005,7 +39327,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
-    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła NCHFP); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] status bez zmian: werdykt B19 ok-zrodlo-po-zmianie (reguła NCHFP); zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B19 JSON. (2026-11-02-jaratlas-b21-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -39145,7 +39468,8 @@
     "[SZY] Galaretka (SLO).",
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
     "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
-    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Zmiana metody z kąpieli wodnej na galaretkę mrożoną (freezer jelly) wg Ball 1:1; nazwa „galaretka grejpfrutowa do zamrażarki”. (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] B16: ok-zrodlo-po-zmianie (B16-D1), status do-researchu bez zmian do decyzji toru A / roli 03; proponowana zmiana: Zmiana metody z kąpieli wodnej na galaretkę mrożoną (freezer jelly) wg Ball 1:1; nazwa „galaretka grejpfrutowa do zamrażarki”. (2026-11-02-jaratlas-b18-katalog)",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -39530,7 +39854,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Dojrzałe mango ma pH do 4,6 i jest wykluczone z przecierów NCHFP."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Dojrzałe mango ma pH do 4,6 i jest wykluczone z przecierów NCHFP.",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON; metoda water-bath to tylko propozycja B23, preservationMethod null bez zmian (brak decyzji na tablicy, B25-D2) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -39842,7 +40167,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Rum i wanilia poza przepisem."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Rum i wanilia poza przepisem.",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON; metoda water-bath to tylko propozycja B23, preservationMethod null bez zmian (brak decyzji na tablicy, B25-D2) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -39912,11 +40238,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-017",
-    "ACI-153"
+    "ACI-153",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -39926,12 +40254,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Chutney ananasowy z miętą: brak przepisu."
+    "[ACI*] Chutney ananasowy z miętą: brak przepisu.",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -40068,12 +40403,14 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "ACI-016",
     "ACI-018",
     "ACI-154",
-    "ACI-008"
+    "ACI-008",
+    "SZY-054",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -40083,12 +40420,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Figi w occie balsamicznym: figi niskokwasowe; jedyny przetestowany pikiel to NCHFP Fig Pickles; Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+    "[ACI*] Figi w occie balsamicznym: figi niskokwasowe; jedyny przetestowany pikiel to NCHFP Fig Pickles; Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu.",
+    "[B25] do-researchu → nie-publikowac (B22, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla); do claims dopisana reguła ogólna metody SZY-054, ACI-016, ACI-509 (jak B21-D1) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SZY-054",
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -40218,7 +40562,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Najbliższy: Fig Jam without Pectin (NCHFP, z sokiem z cytryny); orzechy i rozmaryn poza przepisem. Figi mają pH około 4,6 i wymagają dodatku kwasu."
+    "[SLO*] Najbliższy: Fig Jam without Pectin (NCHFP, z sokiem z cytryny); orzechy i rozmaryn poza przepisem. Figi mają pH około 4,6 i wymagają dodatku kwasu.",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON; metoda water-bath to tylko propozycja B23, preservationMethod null bez zmian (brak decyzji na tablicy, B25-D2) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -40257,7 +40602,8 @@
    },
    "notes": [
     "[ACI] Najbliższy: NCHFP Figs (dojrzałe figi w lekkim syropie z obowiązkowym zakwaszeniem). Zielone (niedojrzałe) figi w gęstym syropie — inny produkt, brak przepisu; bez zakwaszenia niedopuszczalne.",
-    "[SLO*] Najbliższe: Fig Preserves / Figs (NCHFP, dojrzałe figi z kwasem); niedojrzałe zielone figi nie są objęte."
+    "[SLO*] Najbliższe: Fig Preserves / Figs (NCHFP, dojrzałe figi z kwasem); niedojrzałe zielone figi nie są objęte.",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON; metoda water-bath to tylko propozycja B23, preservationMethod null bez zmian (brak decyzji na tablicy, B25-D2) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -40330,7 +40676,8 @@
    },
    "notes": [
     "[SZY] Galaretka (SLO).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B25] zostaje do-researchu mimo werdyktu B23 ok-zrodlo (USU Pomegranate Jelly, SLO-876, SLO-877): wariant ma preservationMethod null i acidBasis low-acid; ok-zrodlo wymaga metody (walidator), a water-bath przy produkcie niskokwasowym wymaga zmiany acidBasis i wpisu w WYJATKI_NISKOKWASOWE (kod walidatora, rola 05/07, D-043); metoda water-bath to propozycja B23 bez decyzji na tablicy (B25-D2) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -40615,7 +40962,8 @@
    },
    "notes": [
     "[ACI] Konfitura ze skórki arbuza — rodzina słodka (DO USTALENIA: przepis Watermelon Rind Preserves w Guide 7/So Easy).",
-    "[SLO*] Najbliższy: Watermelon Rind Preserves (NCHFP: imbir, sok z cytryny); wanilia zamiast imbiru poza przepisem. Sok z cytryny obowiązkowy."
+    "[SLO*] Najbliższy: Watermelon Rind Preserves (NCHFP: imbir, sok z cytryny); wanilia zamiast imbiru poza przepisem. Sok z cytryny obowiązkowy.",
+    "[B25] status bez zmian: werdykt B23 ok-zrodlo-po-zmianie; zmiana nazwy/składu/metody należy do toru A / roli 03; proponowana zmiana i parametry karty w B23 JSON; metoda water-bath to tylko propozycja B23, preservationMethod null bez zmian (brak decyzji na tablicy, B25-D2) (2026-11-02-jaratlas-b25-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
