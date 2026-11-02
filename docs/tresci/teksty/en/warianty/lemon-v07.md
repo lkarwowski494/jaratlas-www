@@ -28,7 +28,7 @@ Wash glass jars or bottles in warm, soapy water, then sterilize them by immersin
 
 Close them with non-corrodible metal or plastic screw caps, washed in hot soapy water, rinsed and scalded in boiling water, or with new, pre-sterilized corks dipped in and out of boiling water with tongs 3–4 times. [T:NAP-071]
 
-Work in a very clean area with clean utensils and very clean hands. [T:NAP-086]
+Work in a very clean area with sanitized utensils and very clean hands. [T:NAP-086]
 
 Wash the lemon thoroughly with clean water. [T:NAP-073]
 
@@ -36,7 +36,9 @@ Cut off thinly only the colored part of the peel, avoiding the thick white under
 
 Wash the dill gently but thoroughly and pat it dry with a clean paper towel. [T:NAP-072]
 
-Then dip them in a sanitizing solution of 1 teaspoon of household chlorine bleach in 6 cups of water, rinse them thoroughly under cold water and pat them dry, as UGA directs. [T:NAP-072]
+Then dip it in a sanitizing solution of 1 teaspoon of household chlorine bleach in 6 cups of water, rinse it thoroughly under cold water and pat it dry, as UGA directs. [T:NAP-072]
+
+JarAtlas rule (cautious): use plain, unscented chlorine bleach without added detergents, because bleaches sold outside the USA differ in strength and additives. [T:NAP-072]
 
 Place the peel, dill and peppercorns in the sterilized jar without overpacking it. [T:NAP-083,NAP-073]
 

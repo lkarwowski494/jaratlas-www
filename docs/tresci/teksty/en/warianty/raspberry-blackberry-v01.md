@@ -30,7 +30,7 @@ Wash glass jars or bottles in warm, soapy water, then sterilize them by immersin
 
 Close them with non-corrodible metal or plastic screw caps, washed in hot soapy water, rinsed and scalded in boiling water, or with new, pre-sterilized corks dipped in and out of boiling water with tongs 3–4 times. [T:NAP-071]
 
-Work in a very clean area with clean utensils and very clean hands. [T:NAP-086]
+Work in a very clean area with sanitized utensils and very clean hands. [T:NAP-086]
 
 Wash the raspberries gently but thoroughly and bruise them slightly with the back of a spoon. [T:NAP-080]
 
