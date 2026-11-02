@@ -1,0 +1,145 @@
+PODGLĄD PRZENIESIENIA DO CZYSTEGO REPO (nic nie wypchnięto, nic nie utworzono na GitHubie)
+Plików w HEAD: 330; zostaje: 271; usunięte: 59 (w tym na Dysk: 54); „decyzja”: 0; „popraw”: 6
+
+== USUNIĘTE wg pozycji listy (8) ==
+    13  docs/archiwum/
+    40  docs/jakosc/
+     1  docs/lokalizacja/
+     1  docs/wydanie/10-przeniesienie-czyste-repo.md
+     1  docs/wydanie/dowody/
+     1  tests/przeniesienie.test.mjs
+     1  tools/przeniesienie.json
+     1  tools/przeniesienie.mjs
+
+== NA DYSK (kopia dla właściciela, w podglądzie: na-dysk/) (54) ==
+  docs/archiwum/STAN-SESJI-2026-11-01-05-E1.md
+  docs/archiwum/STAN-SESJI-2026-11-01-05-E4.md
+  docs/archiwum/STAN-SESJI-2026-11-01-06-tresci-koniec.md
+  docs/archiwum/STAN-SESJI-2026-11-01-07-audit.md
+  docs/archiwum/STAN-SESJI-2026-11-01-07-fix.md
+  docs/archiwum/STAN-SESJI-2026-11-01-bramka-02.md
+  docs/archiwum/STAN-SESJI-2026-11-01-karty-p1.md
+  docs/archiwum/STAN-SESJI-2026-11-02-09-skrypt.md
+  docs/archiwum/STAN-SESJI-2026-11-02-karty-p2.md
+  docs/archiwum/STAN-SESJI-2026-11-02-karty-p3.md
+  docs/archiwum/STAN-SESJI-2026-11-02-karty-p4.md
+  docs/archiwum/STAN-SESJI-2026-11-02-karty-p5.md
+  docs/archiwum/STAN-SESJI-2026-11-02-karty-p6.md
+  docs/jakosc/07-jakosc-2026-11-01.md
+  docs/jakosc/07-jakosc-fix-2026-11-01.md
+  docs/jakosc/07-jakosc-fix-p2-2026-11-02.md
+  docs/jakosc/dowody/build.txt
+  docs/jakosc/dowody/check-catalog.txt
+  docs/jakosc/dowody/check-granice.txt
+  docs/jakosc/dowody/check-tresci.txt
+  docs/jakosc/dowody/env-domena.txt
+  docs/jakosc/dowody/fix-p2/004-po.txt
+  docs/jakosc/dowody/fix-p2/004-przed.txt
+  docs/jakosc/dowody/fix-p2/005-mutant-M6.txt
+  docs/jakosc/dowody/fix-p2/005-po.txt
+  docs/jakosc/dowody/fix-p2/008-check-zly-katalog.txt
+  docs/jakosc/dowody/fix-p2/008-check.txt
+  docs/jakosc/dowody/fix-p2/008-przed.txt
+  docs/jakosc/dowody/fix-p2/pelne-kontrole.txt
+  docs/jakosc/dowody/fix-p2/slugi-niewidoczne-po.txt
+  docs/jakosc/dowody/fix-p2/slugi-niewidoczne-przed.txt
+  docs/jakosc/dowody/fix-p2/sprzatanie-po.txt
+  docs/jakosc/dowody/fix-p2/sprzatanie-przed.txt
+  docs/jakosc/dowody/fix-p2/walidator-niskokwasowy-po.txt
+  docs/jakosc/dowody/fix-p2/walidator-niskokwasowy-przed.txt
+  docs/jakosc/dowody/fix/build.txt
+  docs/jakosc/dowody/fix/check-catalog.txt
+  docs/jakosc/dowody/fix/check-granice.txt
+  docs/jakosc/dowody/fix/check-tresci.txt
+  docs/jakosc/dowody/fix/mutacje-001.txt
+  docs/jakosc/dowody/fix/mutacje-002.txt
+  docs/jakosc/dowody/fix/mutacje-003.txt
+  docs/jakosc/dowody/fix/mutacje-006.txt
+  docs/jakosc/dowody/fix/mutacje-dodatkowe.mjs.txt
+  docs/jakosc/dowody/fix/mutacje-przed.txt
+  docs/jakosc/dowody/fix/sondy-po.txt
+  docs/jakosc/dowody/fix/test.txt
+  docs/jakosc/dowody/fix/testy-na-kodzie-przed.txt
+  docs/jakosc/dowody/mutacje.mjs.txt
+  docs/jakosc/dowody/mutacje.txt
+  docs/jakosc/dowody/npm-test.txt
+  docs/jakosc/dowody/sondy.mjs.txt
+  docs/jakosc/dowody/sondy.txt
+  docs/lokalizacja/kosztorys-przekladu-2026-11-02.md
+
+== DECYZJA WŁAŚCICIELA (domyślnie zostają) (0) ==
+
+== DO POPRAWY RĘCZNEJ w dniu przeniesienia (6) ==
+  .gitignore — D8: obejmuje .env (zrobione w tym repo 2026-11-02, przechodzi bez zmian)
+  CLAUDE.md — D5: zostaje po przeglądzie: stan projektu od przeniesienia, bez odwołań do usuniętych dokumentów; identyfikator tablicy zostaje (potrzebny sesjom)
+  docs/STAN-SESJI.md — D2: nowe repo dostaje świeży, krótki stan od dnia przeniesienia, bez ID sesji
+  docs/architektura/E0-rozpoznanie-2026-11-01.md — D5: identyfikator tablicy decyzji zamieniony na opis (zamiana niżej)
+  docs/sztafeta.md — D2: świeża tabela sztafety od przeniesienia (stara: kopia na Dysk w dniu przeniesienia)
+  docs/tresci/E0-rozpoznanie-2026-11-01.md — D4: raport zostaje (pochodzenie treści, D-027), usunąć ID sesji z nagłówka (zamiana niżej)
+
+== ODNOŚNIKI PRZEPISANE NA „Dysk: …” (ile) (3) ==
+    1  .github/workflows/przeklad-tlumaczen.yml
+    1  docs/tresci/E3-karty-p6-2026-11-02.md
+    1  tools/i18n/przeklad-api.mjs
+
+== ZAMIANY WYKONANE (ile wystąpień) (3) ==
+    1  tests/sprzatanie.test.mjs: „, 'przeniesienie.test.mjs'” → „”
+    1  docs/tresci/E0-rozpoznanie-2026-11-01.md: „ Sesja: session_01T66VBydUNZSWLkpAUxjXNL.” → „”
+    1  docs/architektura/E0-rozpoznanie-2026-11-01.md: „(artefakt 2m3gT4XfaeuMfT5EGqeT1i)” → „(tablica decyzji właściciela)”
+
+== ZAMIANY NIEWYKONANE (plik usunięty albo tekst nieobecny — lista nieaktualna, BŁĄD) (0) ==
+
+== BŁĘDY STRAŻNIKA: dane osobowe, sekrety, ślady narzędzi, nazwy firm w zakresie (musi być 0) (1) ==
+  docs/STAN-SESJI.md: slady — ID sesji Claude
+
+== OBJĘTE WYJĄTKIEM (powód w liście) — dozwolone (6) ==
+  catalog/catalog-seed.json: Ball
+  CLAUDE.md: identyfikator tablicy decyzji
+  CLAUDE.md: Porkbun
+  site/konfiguracja.mjs: Porkbun
+  tests/przeklad.test.mjs: klucz API Anthropic
+  tests/przeklad.test.mjs: przypisanie klucza
+
+== WYJĄTKI ZBĘDNE (bez trafienia — usunąć z listy) (0) ==
+
+== NAZWY FIRM W DOKUMENTACH (poza zakresem; cytowane źródła dozwolone, resztę ocenić) (10) ==
+  docs/architektura/konfiguracja.md: Porkbun
+  docs/tresci/badania/E3/twierdzenia-A.json: Ball
+  docs/tresci/badania/E3/warianty-ok-2.json: Ball
+  docs/tresci/badania/FER/rejestr.json: Ball
+  docs/tresci/badania/FER/warianty.json: Ball
+  docs/tresci/badania/NAP/pytania.md: Ball
+  docs/tresci/badania/SLO/pytania.md: Ball
+  docs/tresci/badania/SZY/pytania.md: Ball
+  docs/tresci/pytania-otwarte.md: Ball
+  docs/tresci/rejestr.json: Ball
+
+== ŚLADY MIĘKKIE (do przeglądu; decyzja D9) (13) ==
+  .github/workflows/kontrole.yml: odwołanie do repo trening
+  .github/workflows/przeklad-tlumaczen.yml: „decyzja Claude, do weta”, odwołanie do repo trening
+  CLAUDE.md: odwołanie do repo trening
+  docs/adr/0007-hosting-statyczny.md: odwołanie do repo trening, nazwa organizacji Apps4Brew
+  docs/architektura/ryzyka.md: odwołanie do repo trening
+  docs/tresci/badania/BRIEF.md: nazwa organizacji Apps4Brew
+  docs/tresci/badania/E3/BRIEF-WERYFIKATOR.md: nazwa organizacji Apps4Brew
+  docs/tresci/E0-rozpoznanie-2026-11-01.md: nazwa organizacji Apps4Brew
+  docs/tresci/E3-karty-p4-2026-11-02.md: odwołanie do repo trening
+  docs/tresci/E3-karty-p5-2026-11-02.md: odwołanie do repo trening
+  docs/tresci/E3-karty-p6-2026-11-02.md: odwołanie do repo trening
+  tests/kontrola-wszystko.test.mjs: odwołanie do repo trening
+  tools/i18n/przeklad-api.mjs: „decyzja Claude, do weta”, odwołanie do repo trening
+
+== KOD I TESTY CZYTAJĄCE USUNIĘTE PLIKI (zmienić przed przeniesieniem, BŁĄD) (0) ==
+
+== WZMIANKI O USUNIĘTYCH PLIKACH (komentarze; nie psują testów) (0) ==
+
+WYNIK: BŁĄD (drzewo nie nadaje się jeszcze do przeniesienia)
+
+== npm run check w drzewie (skrót) ==
+# tests 100
+# pass 100
+# fail 0
+OK: 7 plików, bez naruszeń
+OK: 4 plików → <tmp>/drzewo/dist (warianty 0, produkty 0, rodziny 0)
+OK: dist/ 991 B (0.0 MB, 5 plików), limit 1000000000 B
+npm run check w drzewie: kod 0

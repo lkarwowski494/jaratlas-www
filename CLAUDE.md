@@ -2,9 +2,9 @@
 Statyczna strona-katalog domowego przetwórstwa (wekowanie, kiszenie, mrożenie) w 35 językach, z bramką bezpieczeństwa treści. Stan i następny krok: `docs/sztafeta.md`, `docs/STAN-SESJI.md`.
 
 ## Stan projektu (aktualizacja: 2026-11-02)
-- Etap: w budowie; 06 karty fali 1 partie 1–6 (en/pl, 21 wariantów, ukryte) + 07 fix P2 na claude/happy-brown-yncplj, main = 78d9b9a, 0 opublikowanych stron, dane użytkowników: brak
+- Etap: w budowie; 06 karty fali 1 partie 1–6 (en/pl, 21 wariantów, ukryte) + 07 fix P2 + 10 przygotowanie czystego repo (podgląd) na claude/happy-brown-yncplj, main = b566c67, 0 opublikowanych stron, dane użytkowników: brak
 - Sklep: nie dotyczy (strona WWW); hosting GitHub Pages (ADR 0007); domena jaratlas.com (Porkbun, odnowienie przed 2027-11-01)
-- Przed pierwszą publikacją: przeniesienie do czystego repo (wzór: trening `docs/46-przeniesienie-1.0.md`)
+- Przed pierwszą publikacją: przeniesienie do czystego repo: `docs/wydanie/10-przeniesienie-czyste-repo.md`, podgląd `node tools/przeniesienie.mjs [--zachowaj] [--testy]` (wzór: trening `docs/46-przeniesienie-1.0.md`)
 - Polityka języków: szeroka, 35 (fala 1: en, fr, es, de, it, pl)
 - Przegląd treści krytycznych: zastępczy (D-027), przegląd eksperta później (D-027 d)
 - Bramka opłacalności: tablica decyzji `2026-11-01-jaratlas-bramka-wynik` (rola 02)
