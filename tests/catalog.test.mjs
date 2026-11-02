@@ -409,6 +409,7 @@ test('p25 porcja 1 (C7, B7): suszenie — warianty bez źródła ukryte jako do-
   assert.equal(kania.safetyStatus, 'ryzyko-wysokie');
   assert.equal(kania.cardType, 'warning');
   for (const c of ['SUS-035', 'SUS-141', 'SUS-142']) assert.ok(kania.requiredWarnings.includes(c), `kania ${c}`);
+  assert.ok(kania.claims.includes('SUS-145') && !kania.claims.includes('SUS-036'), 'kania: karta-ostrzeżenie bez procedury suszenia (P3 D-043)');
   for (const id of ['boletes-v11', 'boletes-v12', 'chanterelle-milkcap-v13']) {
     for (const c of ['SUS-035', 'SUS-138', 'SUS-142']) assert.ok((V.get(id).requiredWarnings ?? []).includes(c), `${id} ${c}`);
   }

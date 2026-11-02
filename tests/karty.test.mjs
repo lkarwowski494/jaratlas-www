@@ -149,3 +149,33 @@ test('T1-mróz: zamiennik musi być w karcie; usunięcie zdania z blokiem wzoru 
   const bez = { ...k, karta: { ...k.karta, sekcje: k.karta.sekcje.map((s) => ({ ...s, akapity: s.akapity.filter((a) => !/SLO-405|SLO-259/.test(a)) })) } };
   assert.deepEqual(brakiBlokuMrozenia([bez]), ['pl/beef-veal-v15: SLO-258,SLO-259']);
 });
+
+// p25 (A8, wzór C2 §4: docs/tresci/E1-suszenie-wzor-2026-11-02.md), test T1-susz na wzór T1-mróz (p24): każda karta suszenia
+// (dry-storage, poza kartą-ostrzeżeniem) ma blok bezpieczeństwa: temperatura suszenia, tace, studzenie przed pakowaniem,
+// opakowania do żywności, miejsce, próżnia z zastrzeżeniem, susz zawilgocony, kiedy wyrzucić.
+// Dlaczego: karta mrożenia bez bloku przeszła ręczny przegląd (B8-01); ten sam błąd w suszeniu to pleśń albo zbyt niska temperatura (SUS-002).
+const BLOK_SUSZENIA = ['SUS-001', 'SUS-008', 'SUS-024', 'SUS-064', 'SUS-065', 'SUS-066', 'SUS-025', 'SUS-023', 'SUS-022'];
+export const ZAMIENNIKI_SUSZENIA = {};
+export function brakiBlokuSuszenia(lista = wszystkie, zamienniki = ZAMIENNIKI_SUSZENIA) {
+  const braki = [];
+  for (const { lang, id, karta } of lista) {
+    const v = V.get(id);
+    if (v?.preservationMethod !== 'dry-storage' || v.cardType === 'warning') continue;
+    const ids = new Set([...JSON.stringify(karta).matchAll(/\[T:([^\]]*)\]/g)].flatMap((m) => m[1].split(',').map((s) => s.trim())));
+    const z = zamienniki[id] ?? {};
+    const brak = BLOK_SUSZENIA.filter((w) => !ids.has(w) && !(w in z && (z[w] === null || ids.has(z[w]))));
+    if (brak.length) braki.push(`${lang}/${id}: ${brak.join(',')}`);
+  }
+  return braki;
+}
+
+test('T1-susz: karta suszenia ma blok bezpieczeństwa (temperatura, tace, studzenie, opakowania, miejsce, próżnia, zawilgocenie, kiedy wyrzucić)', () => {
+  assert.deepEqual(brakiBlokuSuszenia(), []);
+});
+
+test('T1-susz: usunięcie zdania z blokiem jest wykrywane (mutacja na karcie suszenia)', () => {
+  const k = wszystkie.find((x) => x.lang === 'pl' && V.get(x.id)?.preservationMethod === 'dry-storage' && V.get(x.id)?.cardType !== 'warning');
+  assert.ok(k, 'brak karty suszenia do testu mutacji');
+  const bez = { ...k, karta: { ...k.karta, sekcje: k.karta.sekcje.map((s) => ({ ...s, akapity: s.akapity.filter((a) => !/SUS-024|SUS-065/.test(a)) })) } };
+  assert.deepEqual(brakiBlokuSuszenia([bez]), [`pl/${k.id}: SUS-024,SUS-065`]);
+});

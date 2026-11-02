@@ -1,23 +1,23 @@
 # Stan pracy JarAtlas
 
-Aktualizacja: 2026-11-02, dzień (partia 24). Historia: `docs/archiwum/` (poprzedni stan: `STAN-SESJI-2026-11-02-06-karty-p23.md`).
+Aktualizacja: 2026-11-02, dzień (partia 25). Historia: `docs/archiwum/` (poprzedni stan: `STAN-SESJI-2026-11-02-06-karty-p24.md`).
 
 ## Rola i etap
-06-tresci · build · tor A: partia 24 (A6 czosnek w oleju i pesto, C6 „1 l” + C2-08, A5 mrożenie mięsa, ryb, jaj, nabiału, lemon curd) · **STOP** (przekazanie do koordynatora session_01T66VBx76jnofBiiYw4hSKR, D-051). Prompt: tablica, kolekcja `prompty`, `06-tresci-build-d32b4b8`.
+06-tresci · build · tor A: partia 25 (porcja katalogowa suszenia C7/B7, D-043; rejestr B4 + C7; karty suszenia S2 i S5) · **STOP** (przekazanie do koordynatora session_01T66VBx76jnofBiiYw4hSKR, D-051). Prompt: tablica, kolekcja `prompty`, `06-tresci-build-d32b4b8`.
 
 ## Wynik
-- Rejestr: OLE-051–057 potwierdzone; SLO-303 (reguła JarAtlas, rozmrożony czosnek w oleju i pesto); C5 SLO-400–443 wklejone (434, 435 robocze); SLO-304–308 lemon curd do zamrażarki (NCHFP).
-- Karty en+pl: garlic-v17, garden-herbs-v16, beef-veal-v15, pork-loin-ham-v16, game-lamb-v11, poultry-v15, pork-belly-jowl-v15, sea-fish-v17, freshwater-fish-v12, eggs-v11, butter-whey-cheese-v13, aged-hard-cheese-v16, lemon-v17. Raport `docs/tresci/E3-karty-p24-2026-11-02.md`.
-- B8-01: strawberry-v17 z blokiem bezpieczeństwa mrożenia; test T1-mróz z tabelą zamienników.
-- C6: „1 l” usunięte z currant-v10 i raspberry-blackberry-v07; wyjątek przejściowy C2-08 zdjęty z testem; OLE-002 w WSPOLNE.
-- Liczby: 120 wariantów z kartami, 240 kart, 66 mrożeń.
+- Katalog 1.0.6 (e2d0830): aronia, rokitnik, maliny w całości, chrzan w plastrach, fasolka chińska → do-researchu; kania → ryzyko-wysokie (karta-ostrzeżenie); borowiki i kurki z requiredWarnings SUS-035/138/142; nazwy potato-sunchoke-v12, green-beans-v13, cranberry-lingonberry-v13. Przegląd D-043: P0–P2 brak.
+- Rejestr: SUS-138/141/142/145 (B7), SUS-062–122 (B4), SUS-180–184 (C7), nowe SUS-001; weryfikacja zastępcza; SUS-101 robocze (Clemson 403).
+- Karty en+pl S2 (apple-v17, pear-v13, peach-nectarine-v14, apricot-v13, strawberry-v16, pineapple-banana-v10, watermelon-melon-v10) i S5 (white-cabbage-v16, cauliflower-v13, broccoli-v10, green-beans-v13, peas-chickpeas-v14, bell-pepper-v17, onion-v13). Test T1-susz.
+- Liczby: 134 warianty z kartami, 268 kart, 66 mrożeń, 14 suszenia. Raport `docs/tresci/E3-karty-p25-2026-11-02.md`.
 
 ## Decyzje Claude, do weta
-- `2026-11-02-jaratlas-06-karty-p24`: SLO-303 (rozmrażanie tylko w lodówce, bez czasu, resztki wyrzucić); ostrzeżenia z requiredWarnings dla 8 wariantów; boczek = peklowany; szynka bez liczby miesięcy; lemon curd z osobnej strony NCHFP; zapis słowny „jednego–dwóch dni”, „rok” (wyjątek kontroli granic).
+- `2026-11-02-jaratlas-06-karty-p25` (statusy C7/B7, wklejenie 4 twierdzeń B7, SUS-142 „świeże”, serotyp E. coli, zanurzenie plastrów truskawek i ananasa, T1-susz).
 
 ## Otwarte
-- B5-P1 (czas po rozmrożeniu, ekspert), C5-P1 (boczek: rola 03), C5-P3–P5; szynka 1–2 miesiące jako twierdzenie; 07: kontrola granic bez wielkości.
-- Backlog p22/p23: SLO-253 bez litrów; cytaty SUS-059, SLO-259, SLO-256; SUS-058 wariant ostrożniejszy; nazwy sweet-cherry-v07, raspberry-blackberry-v06.
+- Backlog katalogu po B10 (1.0.7): `sources` kani; red-savoy-cabbage-v11 bez slugu produktu.
+- P25-P1 SUS-101 (Clemson), P25-P2 truskawki w piekarniku (Penn State), P25-P3 kapusta suszona (MSU), B7-P2 (ocena grzybów poza PL).
+- Z p24: B5-P1, C5-P1, C5-P3–P5; backlog p22/p23.
 
 ## Następny krok
-06-tresci: pozostałe warianty `freezing` ok-zrodlo bez kart (red-savoy-cabbage-v13 bez źródła; garlic-v09/v10 z OLE-002 w requiredWarnings), potem suszenie (A8: S1–S6, materiał B7/C7).
+06-tresci: suszenie S6 (pumpkin-v15, eggplant-v15, potato-sunchoke-v12, shallot-pearl-onion-v14, asparagus-v10, tomato-v16, garlic-v15, leafy-greens-v12), potem S1, S3, S4; S7–S9 po wklejeniu B7 SUS-123–149; onion-v15 + SLO-261 i garlic-v09/v10 (punkt 3 p25, niezaczęty).
