@@ -10,6 +10,8 @@ const SLUG_INNY = /^(?!.*\p{Default_Ignorable_Code_Point})[\p{Ll}\p{Lm}\p{Lo}\p{
 export function wariantPublikowalny(v) {
   if (v.publication !== 'opublikowana' || v.scope !== 'in' || v.retired) return false;
   if (!v.content) return false;
+  // Blokada publikacji (B15, przegląd D-043 P2-1): decyzja właściciela albo twierdzenie krytyczne; też dla karty-ostrzeżenia.
+  if (v.publicationHold != null) return false;
   // Lista dozwolonych, nie zakazanych: nieznany albo brakujący status = brak strony (R1).
   if (v.safetyStatus === 'ok-zrodlo') return true;
   return ['ryzyko-wysokie', 'nie-publikowac'].includes(v.safetyStatus) && v.cardType === 'warning';
