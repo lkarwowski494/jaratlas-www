@@ -4,7 +4,7 @@ Ta karta opisuje przepis NCHFP na syrop owocowy (Berry Syrup) z malin, wekowany 
 
 ## Składniki
 
-NCHFP podaje ten przepis dla soków z borówek amerykańskich, wiśni i czereśni (cherries), winogron, malin (czarnych lub czerwonych) i truskawek i każe go stosować tylko do owoców z listy. [T:SLO-049]
+NCHFP podaje ten przepis dla soków z borówek amerykańskich, „cherries” (czereśni lub wiśni; źródło ich nie rozróżnia), winogron, malin (czarnych lub czerwonych) i truskawek i każe go stosować tylko do owoców z listy. [T:SLO-049]
 
 Jeżyn nie ma na liście, więc ta karta obejmuje tylko maliny. [T:SLO-049]
 
@@ -53,6 +53,16 @@ Skrócenie czasu albo studzenie słoików w zimnej wodzie też może prowadzić 
 Tabela NCHFP podaje czasy tylko dla słoików 1/2 pinty i pint. [T:SLO-186]
 
 Reguła JarAtlas (NCHFP nie testuje słoików metrycznych): pinta to ok. 473 ml, więc słoik 0,5 l nie ma w tym przepisie przetestowanego czasu; używaj słoików do 473 ml. [T:ACI-179,ACI-174]
+
+## Przechowywanie
+
+Słoiki studź w temperaturze pokojowej 12–24 godziny, potem sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196]
+
+Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
+
+Słoik, który się nie zamknął, trzymaj w lodówce i zjedz w ciągu kilku dni. [T:SLO-197]
+
+Zamknięte słoiki przechowuj w czystym, chłodnym, ciemnym i suchym miejscu, nie powyżej 95 °F (35 °C) i nie przy gorących rurach, kuchence czy piecu, na nieocieplonym strychu ani w pełnym słońcu; w takich warunkach przetwór może się zepsuć. [T:SLO-198]
 
 ## Kiedy wyrzucić
 

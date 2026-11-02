@@ -4775,7 +4775,7 @@
  },
  {
   "id": "ACI-067",
-  "twierdzenie": "Syrop w wekowanych owocach chroni smak, kolor i kształt, ale nie zapobiega zepsuciu; tabela NCHFP podaje syropy od bardzo lekkiego (ok. 10% cukru) do ciężkiego.",
+  "twierdzenie": "Syrop w wekowanych owocach chroni smak, kolor i kształt, ale nie zapobiega zepsuciu; tabela NCHFP podaje syropy od bardzo lekkiego (ok. 10% cukru) do bardzo ciężkiego (ok. 50% cukru).",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
@@ -4807,7 +4807,7 @@
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
     "miejsce": "NCHFP (nchfp.uga.edu): Preparing and Using Syrups for Canning Fruit",
-    "cytat": "Heavy 40 5 3-1/4 7-3/4 5-1/4",
+    "cytat": "Very Heavy 50 4-1/4 4-1/4 6-1/2 6-3/4",
     "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
@@ -30638,6 +30638,96 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "53e62830246d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-196",
+  "twierdzenie": "NCHFP Cooling Jars and Testing Jar Seals: słoiki studzić w temperaturze pokojowej 12–24 godziny, potem sprawdzić zamknięcie: jeśli wciśnięty środek pokrywki odskakuje po zdjęciu palca, słoik nie jest zamknięty; pokrywka powinna być wklęsła (lekko wgięta w środku), a płaski albo wypukły środek oznacza, że słoik może nie być zamknięty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/cooling-jars-and-testing-jar-seals/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cooling Jars and Testing Jar Seals, Cooling jars",
+    "cytat": "Cool the jars at room temperature for 12 to 24 hours.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f593dd1d47ee"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/cooling-jars-and-testing-jar-seals/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cooling Jars and Testing Jar Seals, Testing jar seals",
+    "cytat": "Press the middle of the lid with a finger or thumb. If the lid springs up when you release your finger, the lid is unsealed.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f593dd1d47ee"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/cooling-jars-and-testing-jar-seals/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cooling Jars and Testing Jar Seals, Testing jar seals",
+    "cytat": "The lid should be concave (curved down slightly in the center). If center of the lid is either flat or bulging, it may not be sealed.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f593dd1d47ee"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-197",
+  "twierdzenie": "NCHFP Cooling Jars and Testing Jar Seals: jedzenie z pojedynczego niezamkniętego słoika można trzymać w lodówce i zjeść w ciągu kilku dni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/cooling-jars-and-testing-jar-seals/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cooling Jars and Testing Jar Seals, Reprocessing unsealed jars",
+    "cytat": "Foods in single unsealed jars could be stored in the refrigerator and consumed within several days.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f593dd1d47ee"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-198",
+  "twierdzenie": "NCHFP Storing Home Canned Foods: słoiki przechowywać w czystym, chłodnym, ciemnym i suchym miejscu; nie przechowywać ich powyżej 95 °F (35 °C) ani przy gorących rurach, kuchence, piecu, na nieocieplonym strychu czy w pełnym słońcu, bo w takich warunkach przetwór traci jakość i może się zepsuć.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/storing-home-canned-foods/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Storing Home Canned Foods, Storing Canned Foods",
+    "cytat": "Label and date the jars and store them in a clean, cool, dark, dry place.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c91a48cb3adf"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/storing-home-canned-foods/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Storing Home Canned Foods, Storing Canned Foods",
+    "cytat": "Do not store jars above 95° F or near hot pipes, a range, a furnace, in an uninsulated attic, or in direct sunlight. Under these conditions, food will lose quality in a few weeks or months and may spoil.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c91a48cb3adf"
    }
   ],
   "status": "potwierdzone",
