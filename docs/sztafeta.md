@@ -1,5 +1,5 @@
 # Stan sztafety
-Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 (dzień, partia 28)
+Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 (dzień, partia 30)
 
 | Rola | Tryb | Stan | Commit | Artefakty | Otwarte decyzje |
 |---|---|---|---|---|---|
@@ -42,7 +42,8 @@
 | 06 Treści | build (partia 28 en/pl: suszenie S7–S9 z rejestrem B7, jerky MIE-100–115, czosnek w oliwie mrożony, onion-v15 SLO-261, dżem niegotowany strawberry-v15) | STOP 2026-11-02 dzień: 352 karty en/pl (176 wariantów, 53 suszenia), weryfikacja zastępcza (rejestr 41 twierdzeń + karty, kilka przebiegów), `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p28-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/`, `tests/karty.test.mjs`, `tools/twierdzenia-metody.mjs` | decyzje do weta `2026-11-02-jaratlas-06-karty-p28`; backlog katalogowy dla B13 |
 | 06 Treści | build (partia 29 en/pl: kąpiel wodna 24 — relishe, warzywa i owoce w occie, chutneye, salsy, ogórki, morele, ananas, mus dla niemowląt; mrożenie 10 — pasty z olejem, banany; suszenie 1 — czosnek; P1 z D1 p1 i p3) | STOP 2026-11-02 dzień (D-051): 422 karty en/pl (211 wariantów), weryfikacja zastępcza 4 przebiegi (0 sprzecznych), przeglad.sha 273, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p29-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/`, `tests/karty.test.mjs` | decyzje do weta `2026-11-02-jaratlas-06-karty-p29`; P1 z D1 p4 i punkty sporne P-12/13/15 do p30; backlog katalogowy |
 
+| 06 Treści | build (partia 30: P1 z D1 p4 — kondycjonowanie, susz w oleju, wybór owoców, sól, miód; punkty sporne P-12/P-13/P-15; parsnip-parsley-v10 tylko en) | STOP 2026-11-02 dzień (D-051): 212 wariantów z kartami (en 212, pl 211), SLO-321–324, weryfikacja zastępcza 4 przebiegi, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p30-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/en.json`, `tests/karty.test.mjs`, `tools/twierdzenia-metody.mjs` | decyzje do weta `2026-11-02-jaratlas-06-karty-p30`; B15: plum-v14, currant-v10/v13 |
 ## Następny krok
-1. **06-tresci**: p30 — P1 z D1 p4, punkty sporne P-12/13/15, P2/P3 z D1, potem karty lodówki (tylko en, decyzja `2026-11-02-jaratlas-en-baza`). Przekład fal: po zgodzie właściciela na kwotę, sekret `ANTHROPIC_API_KEY` i workflow na main — przebieg dowodowy fr, potem drugi przegląd AI i przegląd człowieka (rola 09 E3).
+1. **06-tresci**: p31 — P2/P3 z D1 p1–p4, potem karty lodówki (tylko en, decyzja `2026-11-02-jaratlas-en-baza`). Przekład fal: po zgodzie właściciela na kwotę, sekret `ANTHROPIC_API_KEY` i workflow na main — przebieg dowodowy fr, potem drugi przegląd AI i przegląd człowieka (rola 09 E3).
 2. 10-wydanie: weto D1–D11; przeniesienie według `docs/wydanie/10-przeniesienie-czyste-repo.md` pkt 3–4 tuż przed pierwszym workflow Pages (D11), za zgodą właściciela.
 3. 08 (kod dalej): najpierw domena i kontrole z testami, potem adapter wdrożenia (po ADR 0007), na końcu wygląd (po 04).
