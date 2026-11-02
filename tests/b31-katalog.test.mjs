@@ -56,10 +56,11 @@ test("B31: poza polami werdyktu i notatką [B31] nic się nie zmieniło; publica
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
   assert.equal(cat.variants.length, 1432);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: wszystko ukryta");
-  assert.equal(rej.length, 2037, "rejestr: bez nowych i bez usuniętych ID");
-  // D-027 d: nowe zdanie ostrzeżenia SLO-901 na karcie en wild-mushrooms-v03 → zmienia się tylko przeglad SLO-901 (skrót zdań).
-  const bezPrzegladu = rej.map((t) => (t.id === "SLO-901" ? (({ przeglad, ...x }) => x)(t) : t));
-  assert.equal(h(bezPrzegladu), "211640cbffc3", "rejestr bez zmian poza przeglad SLO-901 (skrót na f36b7b0)");
+  // p37 (decyzja Claude, do weta): skrót całego rejestru (2037 ID, 211640cbffc3 na f36b7b0) łamała każda późniejsza partia z nowymi twierdzeniami;
+  // przypięta treść wpisów B30/B31 bez pól przeglądu (skrót na 6e3dbbe), jak STARE_H w b28 — przegląd zmieniają karty kolejnych partii.
+  assert.ok(rej.length >= 2037, "rejestr: bez usuniętych ID");
+  const b31 = ["SLO-900", "SLO-901", "SLO-902", "SLO-903", "SLO-904"].map((id) => (({ przeglad, ...x }) => x)(R.get(id)));
+  assert.equal(h(b31), "6512e6584dd8", "wpisy SLO-900–904 bez zmian poza przeglad (skrót na 6e3dbbe)");
   assert.deepEqual(R.get("SLO-901").przeglad, { kto: "weryfikacja zastępcza (subagent)", data: "2026-11-02", sha: "8b8e89615aa8" });
 });
 
