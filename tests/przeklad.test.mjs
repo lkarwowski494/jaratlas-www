@@ -7,7 +7,7 @@ import { join, dirname } from 'node:path';
 import { tmpdir } from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { porownaj, uwagi, liczby, znaczniki, jednostki, symbole, slugPoprawny } from '../tools/i18n/niezmienniki.mjs';
-import { segmenty, parsujArgumenty, parsujOdpowiedz, odczytajLinie, budujZadanieBatcha, main, zastosuj, wczytajZrodlo, segmentyJezyka, kosztUsd, maskuj, JEZYKI_DOCELOWE, LIMIT_KOSZTU_USD } from '../tools/i18n/przeklad-api.mjs';
+import { segmenty, parsujArgumenty, parsujOdpowiedz, odczytajLinie, budujZadanieBatcha, main, zastosuj, wczytajZrodlo, segmentyJezyka, raportJezyka, kosztUsd, maskuj, JEZYKI_DOCELOWE, LIMIT_KOSZTU_USD } from '../tools/i18n/przeklad-api.mjs';
 
 const repo = join(dirname(fileURLToPath(import.meta.url)), '..');
 const czytaj = (p) => JSON.parse(readFileSync(p, 'utf8'));
@@ -310,12 +310,85 @@ test('pl: tylko karty i slugi bez wersji pl; inne języki dostają wszystko', ()
   assert.equal(segmentyJezyka('fr', seg).length, seg.length);
 });
 
-test('main --jezyki pl bez braków: pl pominięty w szacunku, zero wywołań sieci', async () => {
+test('main --jezyki pl --wyslij bez braków: pl pominięty, żadnego wywołania API (ani count_tokens, ani batcha)', async () => {
   const root = projekt(); const wy = join(root, 'raport'); const a = atrapa(); const L = [];
   writeFileSync(join(root, 'site/slugi/pl.json'), JSON.stringify({ produkty: { strawberry: 'truskawka' }, warianty: { s: 'mrozone' } }));
-  assert.equal(await main(['--jezyki', 'pl', '--wyjscie', wy], {}, { fetchFn: a.fetchFn, log: (x) => L.push(x), root }), 0);
+  assert.equal(await main(['--wyslij', '--jezyki', 'pl', '--wyjscie', wy], { ANTHROPIC_API_KEY: 'sk-ant-test-0000000000' }, { fetchFn: a.fetchFn, log: (x) => L.push(x), root, spij: async () => {} }), 0);
   assert.equal(a.wywolania.length, 0);
   assert.ok(L.some((x) => /pl: 0 segmentów/.test(x)), L.join('\n'));
+  assert.equal(existsSync(join(wy, 'szacunek.json')), false);
+});
+
+// Projekt z kartą tylko en (t) i częściowymi slugami pl: do pl idzie tylko to, czego w pl brak (przegląd D-043, mutacje seg zamiast segK).
+const PL = {
+  'karta/t/tytul': 'Tylko po angielsku (NCHFP)',
+  'karta/t/wstep': 'Ta karta opisuje, jak NCHFP mrozi truskawki. [T:FRZ-062]',
+  'karta/t/ostrzezenia/0': 'Zamrażaj w 0 °F (−18 °C) lub niżej. [T:SUS-050]',
+  'karta/t/sekcje/0/naglowek': 'Pakowanie',
+  'karta/t/sekcje/0/akapity/0': 'Zostaw 1/2 cala (około 1,3 cm) wolnej przestrzeni. [T:FRZ-065]',
+  'slug/warianty/t': 'tylko-en',
+};
+function projektPl() {
+  const root = projekt();
+  writeFileSync(join(root, 'docs/tresci/karty/en/warianty/t.json'), JSON.stringify({ ...karta, tytul: 'Only in English (NCHFP)' }));
+  writeFileSync(join(root, 'site/slugi/en.json'), JSON.stringify({ produkty: { strawberry: 'strawberry' }, warianty: { s: 'frozen', t: 'only-en' } }));
+  writeFileSync(join(root, 'site/slugi/pl.json'), JSON.stringify({ produkty: { strawberry: 'truskawka' }, warianty: { s: 'mrozone' } }));
+  return root;
+}
+const idsZadania = (w) => JSON.parse(w.cialo.requests[0].params.messages[0].content.split('\n').at(-1)).map((x) => x.id);
+
+test('main --wyslij --jezyki pl: żądanie i raport tylko z kart bez pl i brakujących slugów', async () => {
+  const root = projektPl(); const wy = join(root, 'r'); const a = atrapa({ odpowiedzi: { pl: PL } });
+  assert.equal(await main(['--wyslij', '--jezyki', 'pl', '--wyjscie', wy], { ANTHROPIC_API_KEY: 'sk-ant-test-0000000000' }, { fetchFn: a.fetchFn, log: cicho, root, spij: async () => {} }), 0);
+  const post = a.wywolania.find((w) => w.metoda === 'POST' && w.url.endsWith('/messages/batches'));
+  assert.deepEqual(idsZadania(post).sort(), Object.keys(PL).sort());
+  const r = czytaj(join(wy, 'pl.json'));
+  assert.equal(r.segmentow, segmentyJezyka('pl', wczytajZrodlo(root).segmenty).length);
+  assert.deepEqual(r.odrzucone, []);
+  const sz = czytaj(join(wy, 'szacunek.json'));
+  assert.equal(sz.wiersze[0].segmentow, Object.keys(PL).length);
+});
+
+test('zastosuj pl: zapis tylko karty bez pl i brakujących slugów; zajęty slug pl odrzucony; karty/ i site/ bez zmian', async () => {
+  const root = projektPl(); const wy = join(root, 'r'); const a = atrapa({ odpowiedzi: { pl: PL } });
+  const plPrzed = readFileSync(join(root, 'docs/tresci/karty/pl/warianty/s.json'), 'utf8'), slPrzed = readFileSync(join(root, 'site/slugi/pl.json'), 'utf8');
+  await main(['--wyslij', '--jezyki', 'pl', '--wyjscie', wy], { ANTHROPIC_API_KEY: 'sk-ant-test-0000000000' }, { fetchFn: a.fetchFn, log: cicho, root, spij: async () => {} });
+  const p = zastosuj(root, wy);
+  assert.equal(p.kart, 1); assert.equal(p.slugow, 1);
+  assert.ok(existsSync(join(root, 'docs/tresci/przeklady/pl/warianty/t.json')));
+  assert.equal(existsSync(join(root, 'docs/tresci/przeklady/pl/warianty/s.json')), false);
+  const sl = czytaj(join(root, 'docs/tresci/przeklady/pl/slugi.json'));
+  assert.deepEqual([sl.produkty, sl.warianty], [{}, { t: 'tylko-en' }]);
+  assert.equal(readFileSync(join(root, 'docs/tresci/karty/pl/warianty/s.json'), 'utf8'), plPrzed);
+  assert.equal(existsSync(join(root, 'docs/tresci/karty/pl/warianty/t.json')), false);
+  assert.equal(readFileSync(join(root, 'site/slugi/pl.json'), 'utf8'), slPrzed);
+  // raport ręcznie zmieniony na slug zajęty w pl → zastosuj go nie zapisuje
+  const r = czytaj(join(wy, 'pl.json')); r.propozycje['slug/warianty/t'] = 'mrozone'; writeFileSync(join(wy, 'pl.json'), JSON.stringify(r));
+  const p2 = zastosuj(root, wy, { nadpisz: true });
+  assert.ok(p2.pominiete.some((x) => /pl\/slugi: slug zajęty/.test(x)), p2.pominiete.join('\n'));
+});
+
+test('parsujOdpowiedz/raport pl: slug zderzony z istniejącym slugiem pl odrzucony; inne języki bez tej listy', () => {
+  const seg = [{ id: 'slug/warianty/t', en: 'only-en' }];
+  const z = { warianty: new Set(['mrozone']) };
+  const r = raportJezyka('pl', seg, { tekst: JSON.stringify({ 'slug/warianty/t': 'mrozone' }) }, {}, z);
+  assert.deepEqual(r.propozycje, {});
+  assert.match(r.odrzucone[0].powod, /zajęty/);
+  assert.deepEqual(raportJezyka('fr', seg, { tekst: JSON.stringify({ 'slug/warianty/t': 'mrozone' }) }, {}).propozycje, { 'slug/warianty/t': 'mrozone' });
+});
+
+test('main pl: slug zderzony z istniejącym slugiem pl odrzucony już w raporcie', async () => {
+  const root = projektPl(); const wy = join(root, 'r'); const a = atrapa({ odpowiedzi: { pl: { ...PL, 'slug/warianty/t': 'mrozone' } } });
+  await main(['--wyslij', '--jezyki', 'pl', '--wyjscie', wy], { ANTHROPIC_API_KEY: 'sk-ant-test-0000000000' }, { fetchFn: a.fetchFn, log: cicho, root, spij: async () => {} });
+  const r = czytaj(join(wy, 'pl.json'));
+  assert.ok(!('slug/warianty/t' in r.propozycje));
+  assert.ok(r.odrzucone.some((x) => x.id === 'slug/warianty/t' && /zajęty/.test(x.powod)), JSON.stringify(r.odrzucone));
+});
+
+test('pl: pusty slug w site/slugi/pl.json nie liczy się jako istniejący', () => {
+  const root = projekt();
+  writeFileSync(join(root, 'site/slugi/pl.json'), JSON.stringify({ produkty: { strawberry: ' ' }, warianty: {} }));
+  assert.ok(segmentyJezyka('pl', wczytajZrodlo(root).segmenty).some((x) => x.id === 'slug/produkty/strawberry'));
 });
 
 test('main bez klucza: tylko szacunek, zero wywołań sieci, kod 0, plik szacunek.json', async () => {
