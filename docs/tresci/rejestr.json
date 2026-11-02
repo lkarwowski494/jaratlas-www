@@ -67039,5 +67039,314 @@
   "jednoZrodlo": true,
   "pochodzenie": "06 p37 F (poprawki po D-027 d V3a #7)",
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SZY-080",
+  "twierdzenie": "NCHFP (o gulaszu Brunswick): zaleceń domowego wekowania takich gulaszy nie ustalono naukowo; to mieszanki niskokwasowe, które mogą wspierać wzrost bakterii wywołujących jad kiełbasiany, więc procesu nie można oszacować ani wymyślić; przepisy się różnią i proces trzeba by opracować testami dla każdego wariantu; najlepiej je zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/meats/category/faq-canning",
+    "miejsce": "NCHFP, Canning FAQs: Meats, „Can I get directions for canning my Brunswick stew at home?”",
+    "cytat": "Recommendations for canning Brunswick stews at home have not been scientifically determined. These are low-acid mixtures which could support the growth of bacteria that cause botulism, so a process cannot be estimated or made up. | a process would have to be developed through scientific testing for each variation. | It is best to freeze Brunswick stews.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+html→tekst+grep",
+    "sha12": "877a41caec7f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło mówi o gulaszu Brunswick (mieszanka mięsa i warzyw); JarAtlas stosuje je do innych domowych dań mieszanych niskokwasowych bez procesu USDA, bo uzasadnienie w źródle jest ogólne (mieszanka niskokwasowa, proces dla każdego wariantu) i kierunek jest ostrożniejszy.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SZY",
+  "pochodzenie": "B33 B33-research-2026-11-02 (claude/jaratlas-b33-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP (on Brunswick stew): home canning recommendations for these stews have not been scientifically determined; they are low-acid mixtures that could support the growth of bacteria that cause botulism, so a process cannot be estimated or made up; recipes vary and a process would have to be developed through scientific testing for each variation; it is best to freeze them.",
+  "uwaga": "Wpis B33 (2026-11-02-jaratlas-b33-research)."
+ },
+ {
+  "id": "SZY-081",
+  "twierdzenie": "NCHFP zdecydowanie zaleca do każdego domowego wekowania tylko przepisy przetestowane z wiarygodnych źródeł; nieprzetestowane albo niebezpieczne metody mogą zwiększać ryzyko chorób przenoszonych przez żywność, zwłaszcza jadu kiełbasianego.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/newsflash/safe-home-canning-the-importance-of-using-tested-recipes",
+    "miejsce": "NCHFP Newsflash, „Safe home canning: the importance of using tested recipes”, akapit pierwszy",
+    "cytat": "the National Center for Home Food Preservation (NCHFP) strongly advises using only tested recipes from reliable sources for all home canning. | Using untested or unsafe methods can increase the risk of foodborne illness, particularly botulism",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+html→tekst+grep",
+    "sha12": "d2d59c95c30a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SZY",
+  "pochodzenie": "B33 B33-research-2026-11-02 (claude/jaratlas-b33-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP strongly advises using only tested recipes from reliable sources for all home canning; untested or unsafe methods can increase the risk of foodborne illness, particularly botulism.",
+  "uwaga": "Wpis B33 (2026-11-02-jaratlas-b33-research)."
+ },
+ {
+  "id": "SZY-082",
+  "twierdzenie": "CDC: najlepszym sposobem zapobiegania jadowi kiełbasianemu z żywności jest staranne przestrzeganie instrukcji bezpiecznego wekowania; używać tylko przepisów zgodnych z krokami poradnika USDA, a innych nie używać, nawet od zaufanej osoby z rodziny.",
+  "zrodla": [
+   {
+    "adres": "https://www.cdc.gov/botulism/prevention/home-canned-foods.html",
+    "miejsce": "CDC, Botulism, „Preventing Botulism from Home-Canned Foods”, sekcja „Carefully follow instructions”",
+    "cytat": "The best way to prevent foodborne botulism is by carefully following instructions for safe home canning. | Do not use other recipes, even if you got them from a trusted friend or family member.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+html→tekst+grep",
+    "sha12": "f79ab35e824d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SZY",
+  "pochodzenie": "B33 B33-research-2026-11-02 (claude/jaratlas-b33-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "CDC: the best way to prevent foodborne botulism is to carefully follow instructions for safe home canning; use only recipes that follow the steps in the USDA guide and do not use other recipes, even from a trusted friend or family member.",
+  "uwaga": "Wpis B33 (2026-11-02-jaratlas-b33-research)."
+ },
+ {
+  "id": "SZY-083",
+  "twierdzenie": "Według University of Kentucky Extension (FCS3-586) do zup i gulaszy przed wekowaniem nie dodaje się makaronu, ryżu, mąki, śmietany, mleka ani innych zagęstników; wszystko, co zagęszcza zupę albo gulasz, spowalnia przenikanie ciepła do słoików i przeszkadza w bezpiecznym procesie.",
+  "zrodla": [
+   {
+    "adres": "https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/fcs3586-home-canning-soups-stocks-and-stews.pdf",
+    "miejsce": "University of Kentucky Cooperative Extension, FCS3-586 „Home Canning Soups, Stocks, and Stews”, ramka „Caution”",
+    "cytat": "Do not add noodles, other types of pasta, rice, flour, cream, milk, or other thickening agents to soups and stews before canning. | Anything that makes the soup or stew thicker will slow down the heat penetration into the jars and interfere with safe processing.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "c44e74dfddec"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SZY",
+  "pochodzenie": "B33 B33-research-2026-11-02 (claude/jaratlas-b33-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to University of Kentucky Extension (FCS3-586), do not add noodles, other pasta, rice, flour, cream, milk or other thickening agents to soups and stews before canning; anything that makes the soup or stew thicker slows heat penetration into the jars and interferes with safe processing.",
+  "uwaga": "Wpis B33 (2026-11-02-jaratlas-b33-research)."
+ },
+ {
+  "id": "SZY-084",
+  "twierdzenie": "Według South Dakota State University Extension (karta „Leek”, S-0001-22) NCHFP nie zaleca wekowania pora; wysoka temperatura potrzebna do zabicia szkodliwych bakterii zamienia por w papkę.",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/s-0001-22-leek-preserve_it.pdf",
+    "miejsce": "SDSU Extension, „Leek — Preserve It!” S-0001-22 (kopia na serwerze Illinois Extension), sekcja o wekowaniu",
+    "cytat": "The National Center for Home Food Preservation does not recommend canning leeks. The high heat needed to kill harmful bacteria results in turning the leeks to mush.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "fae373ea8e56"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Stanowisko NCHFP znane z drugiej ręki (SDSU); na stronach NCHFP nie znaleziono tego zdania, jest tylko brak procesu dla pora w USDA Guide 4.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SZY",
+  "pochodzenie": "B33 B33-research-2026-11-02 (claude/jaratlas-b33-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to South Dakota State University Extension (leek sheet S-0001-22), NCHFP does not recommend canning leeks; the high heat needed to kill harmful bacteria turns leeks to mush.",
+  "uwaga": "Wpis B33 (2026-11-02-jaratlas-b33-research)."
+ },
+ {
+  "id": "SZY-085",
+  "twierdzenie": "Według odpowiedzi Ohio State University Extension w Ask Extension (2021) NCHFP nie ma konkretnych zaleceń ani czasów wekowania dla bulionu warzywnego; zamiast wekować, bulion można zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=682081",
+    "miejsce": "Ask Extension, FAQ 682081 (odpowiedź Ohio State University Extension, 2021)",
+    "cytat": "the National Center for Home Food Preservation doesn’t have specific canning recommendations and times for vegetable broth. | Instead of canning the broth, you can freeze it in freezer containers.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+html→tekst+grep",
+    "sha12": "dced275fedfe"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Odpowiedź eksperta w serwisie pytań (szczebel 3, jedno źródło). Inna odpowiedź w tym serwisie (Colorado, 2021) odsyła do przepisu z książki komercyjnej; nie jest to proces USDA, więc nie przeczy brakowi procesu NCHFP.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SZY",
+  "pochodzenie": "B33 B33-research-2026-11-02 (claude/jaratlas-b33-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to an Ohio State University Extension answer on Ask Extension (2021), NCHFP has no specific canning recommendations or times for vegetable broth; instead of canning, the broth can be frozen.",
+  "uwaga": "Wpis B33 (2026-11-02-jaratlas-b33-research)."
+ },
+ {
+  "id": "SZY-086",
+  "twierdzenie": "Według South Dakota State University Extension (karta „Kohlrabi”, S-0001-21) NCHFP nie zaleca wekowania kalarepy; Illinois Extension („Preparing Kohlrabi”): nie zaleca się jej do domowego wekowania.",
+  "zrodla": [
+   {
+    "adres": "https://extension.sdstate.edu/sites/default/files/2024-04/S-0001-21-Kohlrabi-Preserve_It.pdf",
+    "miejsce": "SDSU Extension, „Kohlrabi — Preserve It!” S-0001-21",
+    "cytat": "The National Center for Home Food Preservation does not recommend canning kohlrabi.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "6935b621d7e6"
+   },
+   {
+    "adres": "https://extension.illinois.edu/gardening/preparing-kohlrabi",
+    "miejsce": "Illinois Extension, „Preparing Kohlrabi”, sekcja Preservation, nagłówek „Canning”",
+    "cytat": "Not recommended for home canning.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+html→tekst+grep",
+    "sha12": "21ae0f82ef0e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Brak źródła szczebla 1 (sprawdzone: USDA Guide 4, strony NCHFP o mrożeniu kalarepy i kapustnych, FAQ NCHFP); dwa niezależne źródła szczebla 3. Nie przeczy SZY-025 (Penn State).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SZY",
+  "pochodzenie": "B33 B33-research-2026-11-02 (claude/jaratlas-b33-research)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to South Dakota State University Extension (kohlrabi sheet S-0001-21), NCHFP does not recommend canning kohlrabi; Illinois Extension (Preparing Kohlrabi): not recommended for home canning.",
+  "uwaga": "Wpis B33 (2026-11-02-jaratlas-b33-research)."
+ },
+ {
+  "id": "MIE-165",
+  "twierdzenie": "FDA: świeże jaja, nawet z czystą, niepękniętą skorupką, mogą zawierać bakterie Salmonella, które mogą wywołać chorobę przenoszoną przez żywność (zatrucie pokarmowe).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/egg-safety-what-you-need-know",
+    "miejsce": "FDA, „What You Need to Know About Egg Safety”, akapit wstępny",
+    "cytat": "Fresh eggs, even those with clean, uncracked shells, may contain bacteria called Salmonella that can cause foodborne illness, often called “food poisoning.”",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+html→tekst+grep",
+    "sha12": "0c04d575d90b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "B33 B33-research-2026-11-02 (claude/jaratlas-b33-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "FDA: fresh eggs, even those with clean, uncracked shells, may contain Salmonella bacteria that can cause foodborne illness (food poisoning).",
+  "uwaga": "Wpis B33 (2026-11-02-jaratlas-b33-research)."
+ },
+ {
+  "id": "SLO-905",
+  "twierdzenie": "EFSA (2016): w pestkach moreli występuje naturalnie amygdalina, która po zjedzeniu przekształca się w cyjanek; zatrucie cyjankiem daje m.in. nudności, gorączkę, bóle głowy i spadek ciśnienia, a w skrajnych przypadkach jest śmiertelne.",
+  "zrodla": [
+   {
+    "adres": "https://www.efsa.europa.eu/en/press/news/160427",
+    "miejsce": "EFSA, komunikat prasowy „Apricot kernels pose risk of cyanide poisoning”, 27.04.2016",
+    "cytat": "A naturally-occurring compound called amygdalin is present in apricot kernels and converts to cyanide after eating. | In extreme cases it is fatal.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+html→tekst+grep",
+    "sha12": "3e9ca6eb99a2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Z listy objawów w źródle wybrano cztery; reszta pominięta dla zwięzłości.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B33 B33-research-2026-11-02 (claude/jaratlas-b33-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "EFSA (2016): apricot kernels contain the naturally occurring compound amygdalin, which converts to cyanide after eating; cyanide poisoning can cause nausea, fever, headaches and falling blood pressure, and in extreme cases it is fatal.",
+  "uwaga": "Wpis B33 (2026-11-02-jaratlas-b33-research)."
+ },
+ {
+  "id": "SLO-906",
+  "twierdzenie": "FSANZ: sprzedaż surowych pestek moreli jest zakazana w kodeksie żywnościowym Australii i Nowej Zelandii, bo zawierają glikozydy cyjanogenne, które po zjedzeniu mogą przejść w cyjanek; zgłaszano zatrucia cyjankiem po zjedzeniu surowych pestek moreli w Australii, Nowej Zelandii, Kanadzie, Wielkiej Brytanii i Europie.",
+  "zrodla": [
+   {
+    "adres": "https://www.foodstandards.gov.au/consumer/safety/Apricot-kernels-raw",
+    "miejsce": "FSANZ, „Apricot kernels (raw)”, akapit pierwszy",
+    "cytat": "The sale of raw apricot kernels is prohibited under the Food Standards Code. This is because they contain cyanogenic glycosides that can convert to a type of cyanide when eaten. | There have been reports of cyanide poisoning from eating raw apricot kernels in Australia, New Zealand, Canada, the United Kingdom and Europe.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+html→tekst+grep",
+    "sha12": "c94307aad7b1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B33 B33-research-2026-11-02 (claude/jaratlas-b33-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "FSANZ: the sale of raw apricot kernels is prohibited under the Australia New Zealand Food Standards Code because they contain cyanogenic glycosides that can convert to a type of cyanide when eaten; cyanide poisoning from eating raw apricot kernels has been reported in Australia, New Zealand, Canada, the United Kingdom and Europe.",
+  "uwaga": "Wpis B33 (2026-11-02-jaratlas-b33-research)."
+ },
+ {
+  "id": "SLO-907",
+  "twierdzenie": "CHP (Departament Zdrowia Hongkongu, 2023): surowe pędy bambusa zawierają glikozydy cyjanogenne i zjedzone na surowo w wystarczającej ilości mogą wywołać zatrucie; przed jedzeniem należy je pokroić, namoczyć w wodzie i dokładnie ugotować we wrzącej wodzie; nie jeść surowych pędów bambusa.",
+  "zrodla": [
+   {
+    "adres": "https://www.info.gov.hk/gia/general/202308/10/P2023081000738.htm",
+    "miejsce": "Rząd Hongkongu, komunikat 10.08.2023 „Suspected case of raw bamboo shoot poisoning under CHP investigation”, wypowiedź rzecznika CHP",
+    "cytat": "Raw bamboo shoot contain cyanogenic glycosides. Cyanogenic plant products such as bamboo shoot can cause poisoning when eaten raw and in sufficient amounts. | Cyanogenic plants should be cut into smaller pieces, soaked in water and cooked thoroughly in boiling water before for safe consumption",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+html→tekst+grep",
+    "sha12": "9ca6d00c559b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B33 B33-research-2026-11-02 (claude/jaratlas-b33-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "CHP (Hong Kong Department of Health, 2023): raw bamboo shoots contain cyanogenic glycosides and can cause poisoning when eaten raw in sufficient amounts; before eating they should be cut into smaller pieces, soaked in water and cooked thoroughly in boiling water; do not eat raw bamboo shoots.",
+  "uwaga": "Wpis B33 (2026-11-02-jaratlas-b33-research)."
+ },
+ {
+  "id": "SLO-908",
+  "twierdzenie": "FDA: kiełki rosną z nasion w ciepłych i wilgotnych warunkach, które są też idealne dla wzrostu bakterii, m.in. Salmonella, Listeria i E. coli; jeśli w nasionach jest choć kilka szkodliwych bakterii, mogą one podczas kiełkowania namnożyć się do wysokich poziomów, nawet przy domowej uprawie w warunkach higienicznych.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+    "miejsce": "FDA, „Selecting and Serving Produce Safely”, część wstępna o kiełkach",
+    "cytat": "These conditions are also ideal for the growth of bacteria, including Salmonella, Listeria, and E. coli. | the bacteria can grow to high levels during sprouting, even if you are growing your own sprouts under sanitary conditions at home.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+html→tekst+grep",
+    "sha12": "b1ade5236612"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B33 B33-research-2026-11-02 (claude/jaratlas-b33-research)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "FDA: sprouts are grown from seeds under warm and humid conditions, which are also ideal for the growth of bacteria including Salmonella, Listeria and E. coli; if just a few harmful bacteria are present on the seed, they can grow to high levels during sprouting, even when sprouts are grown under sanitary conditions at home.",
+  "uwaga": "Wpis B33 (2026-11-02-jaratlas-b33-research)."
  }
 ]
