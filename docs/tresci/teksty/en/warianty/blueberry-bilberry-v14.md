@@ -32,8 +32,6 @@ Fruit packed without added sugar or liquid (dry pack) needs 1/2 inch (about 1.3 
 
 Crushed or puréed fruit counts as a liquid pack: in wide-mouth containers leave 1/2 inch (about 1.3 cm) of headspace for a pint (about 0.47 l) and 1 inch (about 2.5 cm) for a quart (about 0.95 l); in narrow-mouth containers leave 3/4 inch (about 1.9 cm) for a pint and 1 1/2 inches (about 3.8 cm) for a quart. [T:SLO-249]
 
-JarAtlas rule (cautious; NCHFP gives no headspace for metric containers): treat a container larger than a pint (about 0.47 l) as a quart, and do not use containers larger than a quart (about 0.95 l) for this fruit, because NCHFP gives no headspace for them. [T:SLO-249]
-
 Use packaging that resists moisture and vapour, is durable and leakproof and does not become brittle and crack in the cold. [T:SLO-251]
 
 Pack the food tightly, leaving as little air as possible, and press as much air as you can out of freezer bags before closing them. [T:SLO-250,SLO-251]
@@ -47,6 +45,8 @@ In standard narrow-mouth canning jars leave extra headspace, because expanding f
 Close rigid containers with a tight lid and keep the sealing edge clean and dry. [T:SLO-250]
 
 Label each package with the name of the product, any added ingredients, the packaging date, the amount and the form of the food, such as whole or sliced. [T:SLO-250]
+
+JarAtlas rule (cautious; NCHFP gives no headspace for metric containers): treat a container larger than a pint (about 0.47 l) as a quart, and for this fruit do not use containers larger than a quart (about 0.95 l; a 1 l container is already larger), even though the general limit above is 1/2 gallon, because NCHFP gives no headspace for them. [T:SLO-249]
 
 ## Freezing and storing
 
