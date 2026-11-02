@@ -1,6 +1,6 @@
-# Cukinia mrożona w plasterkach (NCHFP)
+# Cukinia mrożona w plasterkach i tarta (NCHFP)
 
-Ta karta opisuje instrukcję NCHFP mrożenia dyni letnich, np. cukinii, w plasterkach: blanszowanych we wrzątku, schłodzonych, zapakowanych i zamrożonych w 0 °F (−18 °C) lub niżej. [T:SLO-263,SUS-050]
+Ta karta opisuje instrukcję NCHFP mrożenia dyni letnich, np. cukinii, w plasterkach blanszowanych we wrzątku oraz cukinii tartej do pieczenia i blanszowanej na parze; obie postacie pakuje się i zamraża w 0 °F (−18 °C) lub niżej. [T:SLO-263,SLO-290,SUS-050]
 
 ## Wybór i przygotowanie
 
@@ -8,9 +8,9 @@ Wybierz młode owoce z delikatną skórką. [T:SLO-263]
 
 Umyj je i pokrój w plasterki grubości 1/2 cala (ok. 1,3 cm). [T:SLO-263]
 
-Ta karta dotyczy tylko plasterków; NCHFP podaje osobny sposób, z blanszowaniem na parze, dla tartej cukinii do pieczenia, którego ta karta nie opisuje. [T:SLO-263]
+Dla tartej cukinii do pieczenia NCHFP podaje osobny sposób, opisany w części „Tarta cukinia do pieczenia”. [T:SLO-263,SLO-290]
 
-## Blanszowanie
+## Blanszowanie plasterków
 
 Blanszowanie (krótkie parzenie warzyw we wrzątku albo na parze) jest konieczne dla prawie wszystkich mrożonych warzyw: zatrzymuje działanie enzymów. [T:SUS-053]
 
@@ -27,6 +27,20 @@ NCHFP ostrzega, że blanszowanie w mikrofalówce może nie wystarczyć, bo czę�
 Od razu schłodź warzywa: zanurz koszyk w dużej ilości zimnej wody o temperaturze 60 °F (ok. 16 °C) lub niższej, często ją zmieniając albo używając zimnej bieżącej wody lub wody z lodem (ok. 1 funta lodu na funt warzyw). [T:SUS-056,SLO-254]
 
 Chłodź je tyle samo czasu, ile trwało blanszowanie, a potem dokładnie odsącz: nadmiar wody obniża jakość mrożonki. [T:SUS-056,SLO-254]
+
+## Tarta cukinia do pieczenia
+
+Wybierz młodą, delikatną cukinię, umyj ją i zetrzyj. [T:SLO-290]
+
+Blanszuj ją na parze małymi porcjami 1 do 2 minut, aż stanie się półprzezroczysta; NCHFP podaje dla tartej cukinii tylko parę, nie wrzątek jak dla plasterków. [T:SLO-290]
+
+Do parowania użyj garnka ze szczelną pokrywką i koszyka co najmniej 3 cale (ok. 7,6 cm) nad dnem, zagotuj na dnie cal lub dwa (ok. 2,5–5 cm) wody, ułóż w koszyku jedną małą porcję jedną warstwą, przykryj, trzymaj duży ogień i licz czas od nałożenia pokrywki. [T:SLO-254,SLO-290]
+
+Zapakuj ją do pojemników odmierzonymi porcjami, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:SLO-290]
+
+Schłódź ją, wstawiając pojemniki do zimnej wody, potem zamknij je i zamroź. [T:SLO-290]
+
+Jeśli tarta cukinia po rozmrożeniu jest wodnista, odlej płyn przed użyciem. [T:SLO-290]
 
 ## Pakowanie
 
@@ -62,7 +76,7 @@ Dla najlepszej jakości trzymaj się krótszego czasu i najpierw zużywaj najsta
 
 ## Rozmrażanie i gotowanie
 
-Większość mrożonych warzyw gotuj bez rozmrażania. [T:SLO-257]
+Większość mrożonych warzyw, w tym plasterki, gotuj bez rozmrażania. [T:SLO-257]
 
 Zagotuj wodę w przykrytym rondlu (na większość warzyw wystarczy 1/2 szklanki wody na opakowanie pinty), wrzuć zamrożone warzywa, przykryj i szybko doprowadź wodę z powrotem do wrzenia. [T:SLO-257]
 
@@ -73,6 +87,8 @@ Nigdy nie rozmrażaj żywności w temperaturze pokojowej ani w ciepłej wodzie: 
 Rozmrażaj w lodówce w 40 °F (ok. 4 °C) lub niżej, w zimnej bieżącej wodzie poniżej 70 °F (ok. 21 °C) albo w mikrofalówce, jeśli od razu ją ugotujesz lub podasz. [T:SLO-258]
 
 W zimnej wodzie rozmrażaj tylko w szczelnym opakowaniu lub woreczku, tylko dopóki woda ma poniżej 70 °F (ok. 21 °C) i tylko wtedy, gdy żywność rozmrozi się w mniej niż 2 godziny. [T:SLO-258]
+
+Jeśli rozmrażasz tartą cukinię do pieczenia, rób to tylko jednym z powyższych bezpiecznych sposobów. [T:SLO-258,SLO-290]
 
 ## Kiedy wyrzucić
 

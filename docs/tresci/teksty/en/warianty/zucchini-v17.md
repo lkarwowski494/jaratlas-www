@@ -1,6 +1,6 @@
-# Frozen zucchini slices (NCHFP)
+# Frozen zucchini: slices and grated (NCHFP)
 
-This card describes the NCHFP instructions for freezing summer squash such as zucchini in slices: blanched in boiling water, cooled, packed and frozen at 0 °F (−18 °C) or lower. [T:SLO-263,SUS-050]
+This card describes the NCHFP instructions for freezing summer squash such as zucchini in slices blanched in boiling water, and zucchini grated for baking and blanched in steam; both are packed and frozen at 0 °F (−18 °C) or lower. [T:SLO-263,SLO-290,SUS-050]
 
 ## Choosing and preparing
 
@@ -8,9 +8,9 @@ Choose young squash with tender skin. [T:SLO-263]
 
 Wash it and cut it into slices 1/2 inch (about 1.3 cm) thick. [T:SLO-263]
 
-This card covers only slices; NCHFP gives a separate method, with steam blanching, for grated zucchini for baking, which this card does not describe. [T:SLO-263]
+For grated zucchini for baking, NCHFP gives a separate method, described in the section “Grated zucchini for baking”. [T:SLO-263,SLO-290]
 
-## Blanching
+## Blanching slices
 
 Blanching (scalding vegetables in boiling water or steam for a short time) is a must for almost all vegetables you freeze: it stops enzyme action. [T:SUS-053]
 
@@ -27,6 +27,20 @@ NCHFP warns that blanching in a microwave oven may not be effective, because som
 Cool the vegetables at once: plunge the basket into a large amount of cold water at 60 °F (about 16 °C) or below, changing the water often or using cold running water or ice water (about 1 pound of ice per pound of vegetables). [T:SUS-056,SLO-254]
 
 Cool them for as long as you blanched them, then drain them thoroughly: extra water lowers the quality of frozen vegetables. [T:SUS-056,SLO-254]
+
+## Grated zucchini for baking
+
+Choose young, tender zucchini, wash it and grate it. [T:SLO-290]
+
+Steam blanch it in small quantities for 1 to 2 minutes, until translucent; NCHFP gives only steam blanching for grated zucchini, not boiling water as for the slices. [T:SLO-290]
+
+To steam, use a pot with a tight lid and a basket at least 3 inches (about 7.6 cm) above the bottom, bring an inch or two (about 2.5–5 cm) of water to a boil, put one small portion in the basket in a single layer, cover, keep the heat high and start counting the time as soon as the lid is on. [T:SLO-254,SLO-290]
+
+Pack it in measured amounts into containers, leaving 1/2 inch (about 1.3 cm) of headspace. [T:SLO-290]
+
+Cool it by placing the containers in cold water, then seal and freeze. [T:SLO-290]
+
+If the grated zucchini is watery when thawed, discard the liquid before using it. [T:SLO-290]
 
 ## Packing
 
@@ -62,7 +76,7 @@ For the best quality choose the shorter time and use the oldest packages first. 
 
 ## Thawing and cooking
 
-Most frozen vegetables should be cooked without thawing first. [T:SLO-257]
+Most frozen vegetables, including the slices, should be cooked without thawing first. [T:SLO-257]
 
 Bring water to a boil in a covered pan (for most vegetables 1/2 cup of water is enough for a pint package), add the frozen vegetables, cover and bring the water quickly back to a boil. [T:SLO-257]
 
@@ -73,6 +87,8 @@ Never thaw food at room temperature or in warm water: its outer layer warms into
 Thaw it in the refrigerator at 40 °F (about 4 °C) or below, in cold running water below 70 °F (about 21 °C), or in the microwave oven if you will cook or serve it straight away. [T:SLO-258]
 
 Thaw in cold water only in a leak-proof package or bag, only while the water stays below 70 °F (about 21 °C), and only if the food will thaw in under 2 hours. [T:SLO-258]
+
+If you thaw grated zucchini for baking, use only one of the safe methods above. [T:SLO-258,SLO-290]
 
 ## When to throw away
 
