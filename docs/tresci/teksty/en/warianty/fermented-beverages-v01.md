@@ -2,11 +2,13 @@
 
 This card describes the NCHFP kombucha recipe, made with black and green tea, sugar and a SCOBY, and kept in the refrigerator after fermentation. [T:NAP-087,NAP-003]
 
-## !
+## Safety first
 
-- Before you start, the pH of the starter liquid must be 4.0 or less; if it is greater than 4.0, do not make kombucha with that starter. [T:NAP-001]
-- Do not use glazed ceramic (earthenware) containers for fermenting or storing kombucha, because the acidic drink can leach heavy metals. [T:NAP-007]
-- Storing kombucha in airtight containers builds up carbon dioxide and can lead to an explosion if it is not checked regularly. [T:NAP-004]
+Before you start, the pH of the starter liquid must be 4.0 or less; if it is greater than 4.0, do not make kombucha with that starter. [T:NAP-001]
+
+Do not use glazed ceramic (earthenware) containers for fermenting or storing kombucha, because the acidic drink can leach heavy metals. [T:NAP-007]
+
+Storing kombucha in airtight containers builds up carbon dioxide and can lead to an explosion if it is not checked regularly. [T:NAP-004]
 
 ## Ingredients
 

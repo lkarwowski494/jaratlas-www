@@ -2,10 +2,11 @@
 
 NMSU Extension groups paneer with queso fresco and queso blanco as cheeses made by curdling hot milk with an acid such as vinegar or lemon juice, without bacterial cultures or rennet. [T:MLE-054]
 
-## !
+## Safety first
 
-- Make this cheese only from pasteurized milk; raw milk must be pasteurized before it is used for cheese. [T:MLE-015]
-- FDA recommends that people vulnerable to listeriosis avoid all queso fresco-type cheeses, even those made from pasteurized milk. [T:MLE-046] JarAtlas rule (cautious): because this paneer is made by the NMSU queso blanco method, JarAtlas applies the same advice to it. [T:MLE-046,MLE-054]
+Make this cheese only from pasteurized milk; raw milk must be pasteurized before it is used for cheese. [T:MLE-015]
+
+FDA recommends that people vulnerable to listeriosis avoid all queso fresco-type cheeses, even those made from pasteurized milk. [T:MLE-046] JarAtlas rule (cautious): because this paneer is made by the NMSU queso blanco method, JarAtlas applies the same advice to it. [T:MLE-046,MLE-054]
 
 ## What this card covers
 

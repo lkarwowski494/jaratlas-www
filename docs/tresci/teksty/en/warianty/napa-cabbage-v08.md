@@ -2,10 +2,11 @@
 
 This card describes the Colorado State University (CSU) Extension recipe for baechu kimchi with the Asian pear, which is optional in that recipe. [T:FER-066,FER-115]
 
-## !
+## Safety first
 
-- For safety, kimchi should be stored in the refrigerator. [T:FER-061]
-- Discard kimchi that shows mold, an unpleasant odor different from the normal fermentation smell, or an unusual texture. [T:FER-057]
+For safety, kimchi should be stored in the refrigerator. [T:FER-061]
+
+Discard kimchi that shows mold, an unpleasant odor different from the normal fermentation smell, or an unusual texture. [T:FER-057]
 
 ## What this card covers
 

@@ -2,10 +2,11 @@
 
 This card follows the UCCE whey ricotta recipe, adapted from NMSU Extension: whole milk is added to fresh whey, heated to 185 °F (85 °C), and vinegar is added slowly. [T:MLE-058]
 
-## !
+## Safety first
 
-- Use whey and milk only from pasteurized milk; raw milk must be pasteurized before it is used for cheese. [T:MLE-015]
-- Start heating the whey as soon as it has been separated from the curd. [T:MLE-058]
+Use whey and milk only from pasteurized milk; raw milk must be pasteurized before it is used for cheese. [T:MLE-015]
+
+Start heating the whey as soon as it has been separated from the curd. [T:MLE-058]
 
 ## What this card covers
 

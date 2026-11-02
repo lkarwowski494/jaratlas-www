@@ -2,10 +2,11 @@
 
 This card follows the University of Illinois Extension basic yogurt recipe: the milk is heated to 180–185 °F (82–85 °C) and the yogurt is incubated at 108–115 °F (42–46 °C). [T:MLE-024,MLE-026]
 
-## !
+## Safety first
 
-- FDA lists yogurt made from unpasteurized milk among high-risk foods. [T:MLE-004]
-- Once the yogurt has set, keep it in the refrigerator at 40 °F (4.4 °C) or lower. [T:MLE-027]
+FDA lists yogurt made from unpasteurized milk among high-risk foods. [T:MLE-004]
+
+Once the yogurt has set, keep it in the refrigerator at 40 °F (4.4 °C) or lower. [T:MLE-027]
 
 ## Ingredients
 

@@ -2,10 +2,11 @@
 
 This card follows the NMSU Extension “pizza cheese” (mozzarella) recipe: curd made with yogurt as the culture is stretched in hot water at 180 °F (82 °C), brined for 24 hours and kept in the refrigerator for up to a week. [T:MLE-056]
 
-## !
+## Safety first
 
-- Make this cheese only from pasteurized milk; raw milk must be pasteurized before it is used for cheese. [T:MLE-015]
-- If you keep the fresh cheese in water, eat it within 2 days. [T:MLE-086]
+Make this cheese only from pasteurized milk; raw milk must be pasteurized before it is used for cheese. [T:MLE-015]
+
+If you keep the fresh cheese in water, eat it within 2 days. [T:MLE-086]
 
 ## What this card covers
 

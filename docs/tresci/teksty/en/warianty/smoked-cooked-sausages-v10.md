@@ -2,10 +2,11 @@
 
 This card covers fresh white pork sausage, raw or simmered as a fresh sausage, using the safety rules of the UGA Extension sausage bulletin. [T:MIE-138]
 
-## !
+## Safety first
 
-- Fresh sausage is raw: keep it in the refrigerator and cook it thoroughly before eating. [T:MIE-138]
-- UGA recommends cooking products made from ground pork and beef to an internal temperature of 160 °F. [T:MIE-021]
+Fresh sausage is raw: keep it in the refrigerator and cook it thoroughly before eating. [T:MIE-138]
+
+UGA recommends cooking products made from ground pork and beef to an internal temperature of 160 °F. [T:MIE-021]
 
 ## About this card
 

@@ -2,10 +2,11 @@
 
 This card describes the Colorado State University (CSU) Extension recipe for baechu kimchi, in which ginger is one of the ingredients. [T:FER-066]
 
-## !
+## Safety first
 
-- For safety, kimchi should be stored in the refrigerator. [T:FER-061]
-- Discard kimchi that shows mold, an unpleasant odor different from the normal fermentation smell, or an unusual texture. [T:FER-057]
+For safety, kimchi should be stored in the refrigerator. [T:FER-061]
+
+Discard kimchi that shows mold, an unpleasant odor different from the normal fermentation smell, or an unusual texture. [T:FER-057]
 
 ## What this card covers
 

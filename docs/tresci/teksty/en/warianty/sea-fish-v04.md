@@ -2,11 +2,13 @@
 
 This card describes home-pickled herring fillets according to Wisconsin Sea Grant and University of Minnesota Extension, kept in the refrigerator. [T:ACI-957,ACI-958]
 
-## !
+## Safety first
 
-- According to the FDA, brining and pickling can reduce the parasite hazard in fish, but they do not eliminate it. [T:MIE-049]
-- According to the FDA, freezing and storing fish at −20 °C (−4 °F) or below for 7 days in total kills parasites. [T:MIE-046]
-- Keep home-pickled fish in the refrigerator and eat it within 6 weeks. [T:MIE-080]
+According to the FDA, brining and pickling can reduce the parasite hazard in fish, but they do not eliminate it. [T:MIE-049]
+
+According to the FDA, freezing and storing fish at −20 °C (−4 °F) or below for 7 days in total kills parasites. [T:MIE-046]
+
+Keep home-pickled fish in the refrigerator and eat it within 6 weeks. [T:MIE-080]
 
 ## About this recipe
 

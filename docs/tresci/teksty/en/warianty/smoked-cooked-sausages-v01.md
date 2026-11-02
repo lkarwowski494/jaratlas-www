@@ -2,10 +2,11 @@
 
 This card describes a smoked and cooked garlic and marjoram sausage made with the UGA Extension recipe for Polish sausage (kielbasa). [T:MIE-139]
 
-## !
+## Safety first
 
-- Too much nitrate or nitrite can be toxic: never add more than the recipe calls for. [T:MIE-011]
-- Use a ready-made premixed cure, diluted with salt, instead of weighing pure nitrite or nitrate, to lower the risk of a serious mistake. [T:MIE-012]
+Too much nitrate or nitrite can be toxic: never add more than the recipe calls for. [T:MIE-011]
+
+Use a ready-made premixed cure, diluted with salt, instead of weighing pure nitrite or nitrate, to lower the risk of a serious mistake. [T:MIE-012]
 
 ## Ingredients
 

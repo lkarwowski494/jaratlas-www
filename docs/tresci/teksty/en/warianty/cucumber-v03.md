@@ -2,10 +2,11 @@
 
 This card describes the NCHFP recipe for fermented dill pickles with the optional garlic; the brine in this recipe contains vinegar. [T:FER-042,FER-109]
 
-## !
+## Safety first
 
-- Do not make fermented pickles with a reduced amount of salt. [T:FER-011]
-- If the pickles become soft, slimy or develop a disagreeable odor, discard them. [T:FER-044]
+Do not make fermented pickles with a reduced amount of salt. [T:FER-011]
+
+If the pickles become soft, slimy or develop a disagreeable odor, discard them. [T:FER-044]
 
 ## What this card covers
 

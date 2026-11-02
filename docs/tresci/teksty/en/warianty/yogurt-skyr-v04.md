@@ -2,10 +2,11 @@
 
 The Codex Alimentarius defines yogurt as milk fermented by symbiotic cultures of Streptococcus thermophilus and Lactobacillus delbrueckii subsp. bulgaricus. [T:MLE-031]
 
-## !
+## Safety first
 
-- FDA lists yogurt made from unpasteurized milk among high-risk foods. [T:MLE-004]
-- Once the yogurt has set, keep it in the refrigerator at 40 °F (4.4 °C) or lower. [T:MLE-027]
+FDA lists yogurt made from unpasteurized milk among high-risk foods. [T:MLE-004]
+
+Once the yogurt has set, keep it in the refrigerator at 40 °F (4.4 °C) or lower. [T:MLE-027]
 
 ## What this card covers
 

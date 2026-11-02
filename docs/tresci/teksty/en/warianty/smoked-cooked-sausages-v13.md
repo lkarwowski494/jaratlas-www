@@ -2,10 +2,11 @@
 
 This card describes bratwurst, a mild fresh German-style sausage, following the UGA Extension recipe. [T:MIE-141]
 
-## !
+## Safety first
 
-- Fresh sausage is raw: keep it in the refrigerator and cook it thoroughly before eating. [T:MIE-138]
-- UGA recommends cooking products made from ground pork and beef to an internal temperature of 160 °F. [T:MIE-021]
+Fresh sausage is raw: keep it in the refrigerator and cook it thoroughly before eating. [T:MIE-138]
+
+UGA recommends cooking products made from ground pork and beef to an internal temperature of 160 °F. [T:MIE-021]
 
 ## Ingredients
 

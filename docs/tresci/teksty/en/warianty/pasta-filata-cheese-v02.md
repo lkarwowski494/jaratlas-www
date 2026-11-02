@@ -2,10 +2,11 @@
 
 This card follows the citric-acid mozzarella recipe of the UCCE Master Food Preservers of Amador/Calaveras County, adapted from University of Alaska Fairbanks Extension FNH-00063. [T:MLE-087]
 
-## !
+## Safety first
 
-- Make this cheese only from pasteurized milk; raw milk must be pasteurized before it is used for cheese. [T:MLE-015]
-- Do not pasteurize raw milk in a microwave oven, because it does not heat the milk evenly. [T:MLE-013]
+Make this cheese only from pasteurized milk; raw milk must be pasteurized before it is used for cheese. [T:MLE-015]
+
+Do not pasteurize raw milk in a microwave oven, because it does not heat the milk evenly. [T:MLE-013]
 
 ## What this card covers
 

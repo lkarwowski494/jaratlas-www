@@ -2,11 +2,13 @@
 
 NCHFP has no recipe for pickled eggs in a curry or turmeric brine, so this card describes the NCHFP recipe for dilled eggs, which are kept only in the refrigerator. [T:MIE-135,MIE-082]
 
-## !
+## Safety first
 
-- Home pickled eggs stored at room temperature have caused botulism, according to a CDC report. [T:MIE-083]
-- Never keep pickled eggs at room temperature except when serving, and then for no more than 2 hours in the 40–140 °F (about 4–60 °C) zone. [T:MIE-084,ACI-034]
-- It is not safe to can pickled eggs at home; all NCHFP pickled egg recipes are for the refrigerator. [T:MIE-090,MIE-082]
+Home pickled eggs stored at room temperature have caused botulism, according to a CDC report. [T:MIE-083]
+
+Never keep pickled eggs at room temperature except when serving, and then for no more than 2 hours in the 40–140 °F (about 4–60 °C) zone. [T:MIE-084,ACI-034]
+
+It is not safe to can pickled eggs at home; all NCHFP pickled egg recipes are for the refrigerator. [T:MIE-090,MIE-082]
 
 ## What this card covers
 

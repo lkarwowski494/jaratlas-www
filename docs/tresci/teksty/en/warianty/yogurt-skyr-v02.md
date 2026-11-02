@@ -2,10 +2,11 @@
 
 This card makes yogurt by the University of Illinois Extension basic recipe and then drains it in the refrigerator for 2–4 hours into Greek-style yogurt. [T:MLE-030]
 
-## !
+## Safety first
 
-- FDA lists yogurt made from unpasteurized milk among high-risk foods. [T:MLE-004]
-- Drain the yogurt covered and in the refrigerator, not on the kitchen counter. [T:MLE-076]
+FDA lists yogurt made from unpasteurized milk among high-risk foods. [T:MLE-004]
+
+Drain the yogurt covered and in the refrigerator, not on the kitchen counter. [T:MLE-076]
 
 ## Making the yogurt
 

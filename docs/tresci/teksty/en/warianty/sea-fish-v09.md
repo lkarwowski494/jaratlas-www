@@ -2,11 +2,13 @@
 
 This card describes hot smoking mackerel at home with the method of Wisconsin Sea Grant and University of Minnesota Extension, which has been scientifically tested for safety. [T:MIE-072]
 
-## !
+## Safety first
 
-- The internal temperature of the fish must reach 160 °F and stay there for at least 30 minutes; if your smoker cannot do this, finish cooking the fish in the oven within 2 hours of smoking. [T:MIE-071]
-- According to the FDA, gut any fish before salting, drying, pickling or fermenting it. [T:MIE-061]
-- Even vacuum-packed smoked fish must be kept in the refrigerator or freezer, never at room temperature. [T:MIE-079]
+The internal temperature of the fish must reach 160 °F and stay there for at least 30 minutes; if your smoker cannot do this, finish cooking the fish in the oven within 2 hours of smoking. [T:MIE-071]
+
+According to the FDA, gut any fish before salting, drying, pickling or fermenting it. [T:MIE-061]
+
+Even vacuum-packed smoked fish must be kept in the refrigerator or freezer, never at room temperature. [T:MIE-079]
 
 ## Choosing the fish
 

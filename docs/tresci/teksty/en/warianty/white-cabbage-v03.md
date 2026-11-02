@@ -2,10 +2,11 @@
 
 This card describes the NCHFP recipe for sauerkraut, which lists only cabbage and canning or pickling salt. [T:FER-107]
 
-## !
+## Safety first
 
-- Do not make sauerkraut with a reduced amount of salt. [T:FER-011]
-- According to Oregon State University, slimy sauerkraut is spoiled and must be discarded, and if there is a lot of mold the whole batch must be discarded. [T:FER-055]
+Do not make sauerkraut with a reduced amount of salt. [T:FER-011]
+
+According to Oregon State University, slimy sauerkraut is spoiled and must be discarded, and if there is a lot of mold the whole batch must be discarded. [T:FER-055]
 
 ## What this card covers
 
