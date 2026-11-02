@@ -5,6 +5,7 @@ import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join, extname } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { createHash } from 'node:crypto';
+import { czyPrywatne, sprawdzZrodloPrywatne } from './zrodla-prywatne.mjs';
 
 const ZNACZNIK = /\[T:([^\]]*)\]/g; // [T:ID], [T:ID,ID]; [T:-] = zdanie bez twierdzenia
 const SKROT = /(?:^|[\s(„"])(?:np|ok|r|w|ul|al|pl|św|tzw|m\.in|itd|itp|wg|tj|dr|prof|ks|nr|godz|min|tys|mln|mld|zob|por|gen|płk|cyt|maks|[IVXLCDM]+|[A-ZĄĆĘŁŃÓŚŹŻ])\.$/;
@@ -90,9 +91,12 @@ export function sprawdzRejestr(rejestr, konfiguracja = [], opcje = {}, uwagi = [
   for (const t of rejestr) {
     if (wg.has(t.id)) bledy.push(`rejestr: powtórzone ID ${t.id}`);
     wg.set(t.id, t);
+    // ADR 0008: źródło prywatne (kupione) bez adresu i cytatu, z nieprzejrzystym ref; nazwę i miejsce zna tylko repo prywatne.
+    // Przy każdym statusie (D-043 P1-1): wpis roboczy też leży w publicznym repo.
+    for (const z of (t.zrodla ?? []).filter(czyPrywatne)) for (const b of sprawdzZrodloPrywatne(z)) bledy.push(`rejestr ${t.id}: źródło prywatne ${z.ref ?? '?'}: ${b}`);
     if (t.status !== 'potwierdzone') continue;
     const zr = t.zrodla ?? [];
-    if (!zr.length || zr.some((z) => !z.adres || !(z.cytat || z.miejsce) || !/^\d{4}-\d\d-\d\d$/.test(z.odczyt ?? '') || ![1, 2, 3, 4, 5].includes(z.szczebel))) bledy.push(`rejestr ${t.id}: źródło bez adresu, cytatu lub miejsca, daty odczytu albo szczebla`);
+    if (!zr.length || zr.some((z) => !czyPrywatne(z) && (!z.adres || !(z.cytat || z.miejsce) || !/^\d{4}-\d\d-\d\d$/.test(z.odczyt ?? '') || ![1, 2, 3, 4, 5].includes(z.szczebel)))) bledy.push(`rejestr ${t.id}: źródło bez adresu, cytatu lub miejsca, daty odczytu albo szczebla`);
     else if (zr.every((z) => z.szczebel === 5)) bledy.push(`rejestr ${t.id}: jedyne źródła ze szczebla 5`);
     const p = t.przeglad, zast = p?.kto === ZASTEPCZY && !/^zast[eę]pczy$/.test(opcje.przeglad ?? '');
     if (t.krytyczne && (zast || !(p?.kto && !/^</.test(p.kto) && /^\d{4}-\d\d-\d\d$/.test(p?.data ?? '') && /^[0-9a-f]{12}$/.test(p?.sha ?? '')))) (opcje.przedPrzegladem ? uwagi : bledy).push(`rejestr ${t.id}: krytyczne bez przeglądu człowieka${zast ? ' (zastępczy bez polityki D-027)' : ''}`);

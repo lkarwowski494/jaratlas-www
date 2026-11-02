@@ -4,6 +4,7 @@
 // Słowniki: decyzja 2026-11-01-jaratlas-katalog-v1-model (tablica decyzji).
 import { readFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
+import { sprawdzCatalogBezPrywatnych } from './zrodla-prywatne.mjs';
 
 export const METHODS = ['refrigerator', 'freezer', 'water-bath', 'pressure-canning', 'low-temp-pasteurization', 'dry-storage', 'cool-storage', 'none'];
 export const STATUSES = ['ok-zrodlo', 'do-researchu', 'ryzyko-wysokie', 'nie-publikowac'];
@@ -137,6 +138,7 @@ export function validateCatalog(cat, rejestr = []) {
       if (['ryzyko-wysokie', 'nie-publikowac'].includes(v.safetyStatus) && v.cardType !== 'warning') errors.push(`${g}: ${v.safetyStatus} opublikowana tylko jako karta-ostrzeżenie (cardType warning)`);
     }
   }
+  errors.push(...sprawdzCatalogBezPrywatnych(cat)); // ADR 0008: źródła prywatne nigdy w sources (renderowane na karcie)
   return { errors, warnings };
 }
 
