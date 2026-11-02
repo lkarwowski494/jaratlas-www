@@ -15536,7 +15536,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "d618142c9350"
+   "sha": "3ef88b5aa30f"
   },
   "wielkosc": "temperatura zamrażarki",
   "wartosc": -18,
@@ -15781,7 +15781,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "18c260ca5c7a"
+   "sha": "ff6718c95722"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -32924,7 +32924,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "dc1ebfa7d672"
+   "sha": "19d7fce43130"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33043,7 +33043,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "7cff39a58057"
+   "sha": "1981ba77c643"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33261,7 +33261,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "632cda1d83c4"
+   "sha": "142ba12b8d1d"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33362,7 +33362,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "49b2169d3723"
+   "sha": "c439f4ce522f"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33397,7 +33397,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "d6edd7864aa6"
+   "sha": "e70571bed309"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33432,7 +33432,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "481ed1a9a698"
+   "sha": "ac820b1b7bb6"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -34128,7 +34128,7 @@
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "Tylko pakowanie bez cukru; syrop 30% pominięty (przepisu na syrop 30% nie ma w rejestrze). „Unsweetened Pack” bez dodanego płynu = pakowanie na sucho w tabeli Headspace to Allow (przypis „packed without added sugar or liquid”), stąd 1/2 cala (SLO-249). Zdania o tacy (SLO-252) pominięte, bo strona melona ich nie podaje. Arbuza strona nie wymienia osobno; karta mówi tylko „melon”.",
+  "uproszczenie": "Karta p20 podawała tylko pakowanie bez cukru; od partii 23 karta podaje też syrop 30% (FRZ-081, przepis na syrop: SLO-296). „Unsweetened Pack” bez dodanego płynu = pakowanie na sucho w tabeli Headspace to Allow (przypis „packed without added sugar or liquid”), stąd 1/2 cala (SLO-249). Zdania o tacy (SLO-252) pominięte, bo strona melona ich nie podaje. Arbuza strona nie wymienia osobno; karta mówi tylko „melon”.",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",
@@ -34598,5 +34598,642 @@
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "FRZ-066",
+  "twierdzenie": "Syrop 30% (średni) do mrożenia owoców: 1 3/4 szklanki cukru na 4 szklanki wody, z czego wychodzi ok. 5 szklanek syropu; przygotowuje się go i dawkuje tak jak syrop 40% (SLO-253).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/syrups/",
+    "miejsce": "NCHFP, Syrups for Use in Freezing Fruits (So Easy to Preserve 6th ed.); tabela, wiersz Medium; przypis *",
+    "cytat": "Medium 30% 1 3/4 4 5 cups | * Approximate",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c00122d069e6"
+   },
+   {
+    "adres": "https://extension.colostate.edu/resource/freezing-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Freezing Fruits (peer-reviewed; publ. 08.1994, przegląd 04.2013; P. Kendall); Methods of Packing Fruits, Syrup pack",
+    "cytat": "A 30-percent syrup (1 3/4 cup sugar per 4 cups water) is recommended for most fruits.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f09265a3d9a8"
+   }
+  ],
+  "status": "wycofane",
+  "uproszczenie": "Uwaga B5: Liczby „40%” i „SLO-253” to odsyłacz do istniejącego twierdzenia o przygotowaniu syropu (to samo źródło, ta sama strona).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ",
+  "nastepca": "SLO-296",
+  "wycofane": "Duplikat SLO-296 (ten sam wiersz tabeli NCHFP Syrups, syrop 30%), dopisanego w partii 21 po bazie B5 (main 40ff670); jedna wielkość, jedno twierdzenie (jak SLO-222 w p22). Wycofane przy wklejeniu 2026-11-02 (tor A, p23); ID nie używać ponownie."
+ },
+ {
+  "id": "FRZ-067",
+  "twierdzenie": "Czereśnie do mrożenia: wybrać jaskrawe, w pełni dojrzałe owoce ciemnych odmian; umyć, usunąć szypułki i pestki; w syropie: zimny syrop 40%, a dla lepszej jakości 1/2 łyżeczki (1500 mg) kwasu askorbinowego na każdą kwartę (ok. 0,95 l) syropu; owoce zapakować, zalać syropem, zostawić wolną przestrzeń, zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-cherries-sweet/",
+    "miejsce": "NCHFP, Freezing Cherries: Sweet (So Easy to Preserve 6th ed.); Preparation; Syrup Pack",
+    "cytat": "Preparation – Select bright, fully ripened cherries of dark colored varieties. Wash, stem and pit. | Syrup Pack – Use cold, 40 percent syrup. For a better quality product add 1/2 teaspoon (1500 mg) ascorbic acid to each quart syrup. Pack fruit and cover with syrup, leaving headspace. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "009c5abfb8a5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie kwarty US na 0,95 l to rachunek JarAtlas (1 quart = 0,946 l), zaokrąglony jak w SLO-249.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-068",
+  "twierdzenie": "Brzoskwinie i nektarynki do mrożenia: wybrać dobrze dojrzałe owoce i obchodzić się z nimi ostrożnie, żeby się nie poobijały; przebrać, umyć i obrać. W syropie: syrop 40%, a dla lepszej jakości 1/2 łyżeczki (1500 mg) kwasu askorbinowego na kwartę (ok. 0,95 l) syropu; owoce wkładać od razu do zimnego syropu w pojemniku, zaczynając od 1/2 szklanki syropu na pojemnik pinta (ok. 0,47 l); docisnąć owoce i dolać syropu do przykrycia, zostawiając wolną przestrzeń; na wierzchu położyć zgnieciony kawałek papieru odpornego na wodę, żeby przytrzymał owoce; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-peaches-or-nectarines/",
+    "miejsce": "NCHFP, Freezing Peaches or Nectarines (So Easy to Preserve 6th ed.); Preparation; Syrup Pack",
+    "cytat": "Preparation – Select well-ripened fruit and handle carefully to avoid bruising. Sort, wash and peel. | Syrup Pack – Use 40 percent syrup. For a better quality product, add 1/2 teaspoon (1500 mg) ascorbic acid per quart of syrup. Put peaches directly into cold syrup in container – starting with 1/2 cup syrup to a pint container. Press fruit down and add syrup to cover, leaving headspace. Place a small piece of crumpled water-resistant paper on top to hold fruit down. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "20d3fcf644b3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Strona mówi „Put peaches”; tytuł strony obejmuje nektarynki, więc zdanie mówi „owoce”. Przeliczenia kwarty i pinty to rachunek JarAtlas (SLO-249).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-069",
+  "twierdzenie": "Brzoskwinie i nektarynki z cukrem: na każdą kwartę (1 1/3 funta, ok. 0,6 kg) przygotowanych owoców 2/3 szklanki cukru, dobrze wymieszać; delikatnie mieszać, aż cukier się rozpuści, albo odstawić na 15 minut. Żeby spowolnić ciemnienie, przed dodaniem cukru skropić owoce roztworem 1/4 łyżeczki (750 mg) kwasu askorbinowego w 3 łyżkach zimnej wody na każdą kwartę owoców. Zapakować do pojemników, zostawiając wolną przestrzeń, zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-peaches-or-nectarines/",
+    "miejsce": "NCHFP, Freezing Peaches or Nectarines (So Easy to Preserve 6th ed.); Sugar Pack",
+    "cytat": "Sugar Pack – To each quart (1 1/3 pounds) of prepared fruit add 2/3 cup sugar and mix well. Stir gently until sugar is dissolved or let stand for 15 minutes. To slow darkening, sprinkle ascorbic acid dissolved in water over the peaches before adding sugar. Use 1/4 teaspoon (750 mg) ascorbic acid in 3 tablespoons cold water to each quart of fruit. Pack into containers, leaving headspace. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "20d3fcf644b3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "1 1/3 funta = 0,605 kg, zaokrąglone do ok. 0,6 kg (rachunek JarAtlas, jak SLO-281).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-070",
+  "twierdzenie": "Brzoskwinie i nektarynki rozgniecione lub jako przecier: obrane owoce bez pestek zgrubnie rozgnieść; na przecier przetrzeć przez sito albo zmiksować w blenderze lub malakserze (podgrzanie owoców bez pestek przez 4 minuty w takiej ilości wody, żeby się nie przypaliły, ułatwia miksowanie); dla lepszej jakości dodać 1/8 łyżeczki (375 mg) kwasu askorbinowego na każdą kwartę owoców; zapakować do pojemników, zostawić wolną przestrzeń, zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-peaches-or-nectarines/",
+    "miejsce": "NCHFP, Freezing Peaches or Nectarines (So Easy to Preserve 6th ed.); Crushed or Purée",
+    "cytat": "Crushed or Purée – Coarsely crush peeled and pitted peaches. For purée, press through a sieve or purée in a blender or food processor. (Heating pitted peaches for 4 minutes in just enough water to prevent scorching makes them easier to purée. For better quality, add 1/8 teaspoon (375 mg) ascorbic acid to each quart of fruit. Pack into containers. Leave headspace. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "20d3fcf644b3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Uwaga B5: W źródle brak nawiasu zamykającego po zdaniu o podgrzewaniu; sens jednoznaczny. Wolna przestrzeń jak dla pakowania z płynem (przypis tabeli Headspace to Allow obejmuje owoce rozgniecione i przetarte, SLO-249).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-071",
+  "twierdzenie": "Morele do mrożenia: wybrać jędrne, dojrzałe, równomiernie żółte owoce; przebrać, umyć, przekroić na połówki i usunąć pestki; można obrać i pokroić w plasterki; nieobrane morele zanurzyć na 1/2 minuty we wrzącej wodzie, żeby skórka nie stwardniała podczas mrożenia, potem schłodzić w zimnej wodzie i odsączyć.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-apricots/",
+    "miejsce": "NCHFP, Freezing Apricots (So Easy to Preserve 6th ed.); Preparation",
+    "cytat": "Preparation – Select firm, ripe, uniformly yellow apricots. Sort, wash, halve and pit. Peel and slice if desired. If apricots are not peeled, heat them in boiling water 1/2 minute to keep skins from toughening during freezing. Cool in cold water and drain.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "82644c6ae34c"
+   },
+   {
+    "adres": "https://extension.colostate.edu/resource/freezing-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Freezing Fruits (peer-reviewed; publ. 08.1994, przegląd 04.2013; P. Kendall); tabela owoców, Apricots",
+    "cytat": "If apricots are not peeled, heat in boiling water for 1/2 minute to keep skins from toughening during freezing.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f09265a3d9a8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-072",
+  "twierdzenie": "Morele w syropie: zimny syrop 40%, a dla lepszej jakości 3/4 łyżeczki (2250 mg) kwasu askorbinowego na każdą kwartę (ok. 0,95 l) syropu; morele wkładać prosto do pojemników, zalać syropem, zostawiając wolną przestrzeń; na wierzchu położyć zgnieciony kawałek papieru odpornego na wodę, żeby przytrzymał owoce; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-apricots/",
+    "miejsce": "NCHFP, Freezing Apricots (So Easy to Preserve 6th ed.); Syrup Pack",
+    "cytat": "Syrup Pack – Use cold 40 percent syrup. For a better quality frozen product, add 3/4 teaspoon (2250 mg) ascorbic acid to each quart of syrup. Pack apricots directly into containers. Cover with syrup, leaving headspace. Place a small piece of crumpled water-resistant paper on top to hold fruit down. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "82644c6ae34c"
+   },
+   {
+    "adres": "https://extension.colostate.edu/resource/freezing-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Freezing Fruits (peer-reviewed; publ. 08.1994, przegląd 04.2013; P. Kendall); tabela owoców, Apricots",
+    "cytat": "Pack in 40 percent syrup, adding 3/4 teaspoon crystalline ascorbic acid per quart of syrup.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f09265a3d9a8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-073",
+  "twierdzenie": "Morele z cukrem: przed połączeniem z cukrem, żeby owoce nie ciemniały, rozpuścić 1/4 łyżeczki (750 mg) kwasu askorbinowego w 3 łyżkach zimnej wody i skropić nim 1 kwartę (7/8 funta, ok. 0,4 kg) owoców; z każdą kwartą owoców wymieszać 1/2 szklanki cukru i mieszać, aż się rozpuści; zapakować do pojemników i docisnąć, aż owoce przykryje sok, zostawiając wolną przestrzeń; na wierzchu położyć zgnieciony kawałek papieru odpornego na wodę; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-apricots/",
+    "miejsce": "NCHFP, Freezing Apricots (So Easy to Preserve 6th ed.); Sugar Pack",
+    "cytat": "Sugar Pack – Before combining apricots with sugar, give the fruit the following treatment to prevent darkening: | Dissolve 1/4 teaspoon (750 mg) ascorbic acid in 3 tablespoons cold water and sprinkle over 1 quart (7/8 pound) of fruit. Mix 1/2 cup sugar with each quart of fruit. Stir until sugar is dissolved. Pack apricots into containers and press down until fruit is covered with juice, leaving headspace. Place a small piece of crumpled water-resistant paper on top to hold fruit down. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "82644c6ae34c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "7/8 funta = 0,397 kg, zaokrąglone do ok. 0,4 kg (rachunek JarAtlas).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-074",
+  "twierdzenie": "Jabłka do mrożenia: pakowanie w syropie jest lepsze do deserów bez gotowania i sałatek owocowych, a z cukrem albo bez dodatków (na sucho) do ciast; wybrać jabłka o pełnym smaku, chrupiące i jędrne, nie mączyste; umyć, obrać i usunąć gniazda nasienne; średnie jabłka pokroić na 12 części, duże na 16.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-apples/",
+    "miejsce": "NCHFP, Freezing Apples (So Easy to Preserve 6th ed.); Preparation",
+    "cytat": "Preparation – Syrup Pack is preferred for apples to be used for uncooked desserts or fruit cocktail. A sugar or dry pack is good for pie making. | Select full-flavored apples that are crisp and firm, not mealy in texture. Wash, peel and core. Slice medium apples into twelfths, large ones into sixteenths.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bc4f401f9ae9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-075",
+  "twierdzenie": "Jabłka w syropie: zimny syrop 40%; żeby jabłka nie brązowiały, dodać 1/2 łyżeczki (1500 mg) kwasu askorbinowego na każdą kwartę (ok. 0,95 l) syropu; plasterki kroić od razu do syropu w pojemniku, zaczynając od 1/2 szklanki syropu na pojemnik pinta (ok. 0,47 l); docisnąć owoce i dolać syropu do przykrycia, zostawiając wolną przestrzeń; na wierzchu położyć zgnieciony kawałek papieru odpornego na wodę; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-apples/",
+    "miejsce": "NCHFP, Freezing Apples (So Easy to Preserve 6th ed.); Syrup Pack",
+    "cytat": "Syrup Pack – Use cold 40 percent syrup. To prevent browning, add 1/2 teaspoon (1500 mg) ascorbic acid to each quart of syrup. | Slice apples directly into syrup in container starting with 1/2 cup syrup to a pint container. Press fruit down in containers and add enough syrup to cover. Leave headspace. Place a small piece of crumpled water-resistant paper on top to hold fruit down. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bc4f401f9ae9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-076",
+  "twierdzenie": "Jabłka z cukrem: żeby nie ciemniały, rozpuścić 1/2 łyżeczki (1500 mg) kwasu askorbinowego w 3 łyżkach wody i skropić owoce; na 1 kwartę (1 1/4 funta, ok. 0,57 kg) owoców dodać 1/2 szklanki cukru i wymieszać; zapakować do pojemników i docisnąć, zostawiając wolną przestrzeń; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-apples/",
+    "miejsce": "NCHFP, Freezing Apples (So Easy to Preserve 6th ed.); Sugar Pack",
+    "cytat": "Sugar Pack – To prevent darkening, dissolve 1/2 teaspoon (1500 mg) ascorbic acid in 3 tablespoons water. Sprinkle over the fruit. … Mix 1/2 cup sugar with 1 quart (1 1/4 pounds) of fruit. Pack apples into containers and press fruit down, leaving headspace. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bc4f401f9ae9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Pominięta alternatywa NCHFP „steam blanched for 11/2 to 2 minutes” (w źródle „11/2”, prawdopodobnie 1 1/2; nie da się potwierdzić dosłownie, decyzja B5-D4). 1 1/4 funta = 0,567 kg, ok. 0,57 kg (rachunek JarAtlas).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-077",
+  "twierdzenie": "Jabłka bez cukru (na sucho): postępować jak przy pakowaniu z cukrem (FRZ-076), tylko bez cukru; plasterki skropione roztworem kwasu askorbinowego można też najpierw zamrozić na tacy i zapakować do pojemników zaraz po zamrożeniu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-apples/",
+    "miejsce": "NCHFP, Freezing Apples (So Easy to Preserve 6th ed.); Dry Pack",
+    "cytat": "Dry Pack – Follow the directions for Sugar Pack, omitting the sugar. Treated apple slices can also be frozen first on a tray and then packed into containers as soon as they are frozen.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bc4f401f9ae9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„Treated” oddane jako „skropione roztworem kwasu askorbinowego”, bo jedyną obróbką w FRZ-076 jest kwas askorbinowy (alternatywa parowa pominięta, B5-D4). Numer w nawiasie to odsyłacz.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-078",
+  "twierdzenie": "Figi do mrożenia: wybrać w pełni dojrzałe owoce, umyć, a obrać według uznania; w syropie: syrop 40%, a dla lepszego produktu 3/4 łyżeczki (2250 mg) kwasu askorbinowego albo 1/2 szklanki soku z cytryny na każdą kwartę (ok. 0,95 l) syropu; figi zapakować do pojemników i zalać zimnym syropem, zostawiając wolną przestrzeń; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-figs/",
+    "miejsce": "NCHFP, Freezing Figs (So Easy to Preserve 6th ed.); Preparation; Syrup Pack",
+    "cytat": "Preparation – Select fully ripe fruit, wash and peel if desired. | Syrup Pack – Use 40 percent syrup. For a better product, add 3/4 teaspoon (2250 mg) ascorbic acid or 1/2 cup lemon juice to each quart of syrup. Pack figs into containers and cover with cold syrup, leaving headspace. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f1a00b3983d7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-079",
+  "twierdzenie": "Figi bez dodatków (na sucho): żeby jasne figi nie ciemniały, rozpuścić 3/4 łyżeczki (2250 mg) kwasu askorbinowego w 3 łyżkach zimnej wody i skropić nim 1 kwartę owoców; zapakować do pojemników, zostawiając wolną przestrzeń; figi można też najpierw zamrozić na tacy i zapakować zaraz po zamrożeniu; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-figs/",
+    "miejsce": "NCHFP, Freezing Figs (So Easy to Preserve 6th ed.); Dry Pack",
+    "cytat": "Dry Pack – To prevent darkening of light colored figs, dissolve 3/4 teaspoon (2250 mg) of ascorbic acid in 3 tablespoons cold water and sprinkle over 1 quart of fruit. Pack figs into containers, leaving headspace. Figs can also be frozen first on a tray and then packed into containers as soon as they are frozen. Seal containers and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f1a00b3983d7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-080",
+  "twierdzenie": "Granat do mrożenia: wybrać w pełni dojrzałe owoce; umyć i przekroić na pół; położyć przekrojem w dół i opukać skórkę tępym narzędziem, np. trzonkiem młotka, żeby pękły przegrody i otworzyły się woreczki z sokiem; sok i miąższ zapakować do pojemników, zalać zimnym syropem 30% (SLO-296), zostawić wolną przestrzeń, zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-pomegranates/",
+    "miejsce": "NCHFP, Freezing Pomegranates (So Easy to Preserve 6th ed.); Preparation; Syrup Pack",
+    "cytat": "Preparation – Select fully ripe pomegranates. Wash and cut in half. Place cut side down and rap the shell with a blunt instrument such as a hammer handle. This will break section walls and open juice sacs. | Syrup Pack – Pack juice and pulp into containers. Cover with a cold 30 percent syrup, leaving headspace. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "9052305df98f"
+   }
+  ],
+  "status": "wycofane",
+  "uproszczenie": "Uwaga B5: Strona nie podaje kwasu askorbinowego; jedyny sposób to syrop 30%. Odnośnik „other unsweetened packs” prowadzi do Dry or Tray Packing (SLO-252), ale strona granatu nie podaje pakowania bez syropu dla soku i miąższu; karta nie powinna go dopowiadać.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ",
+  "nastepca": "SLO-298",
+  "wycofane": "Duplikat SLO-298 (NCHFP Freezing Pomegranates, przygotowanie i syrop 30%), dopisanego w partii 21 po bazie B5 (main 40ff670); karta fig-pomegranate-v12 już go używa. Wycofane przy wklejeniu 2026-11-02 (tor A, p23); ID nie używać ponownie."
+ },
+ {
+  "id": "FRZ-081",
+  "twierdzenie": "Melon w syropie: przygotowane plastry, kostki lub kulki melona zapakować do pojemników i zalać zimnym syropem 30% (SLO-296); zostawić wolną przestrzeń, zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-melons/",
+    "miejsce": "NCHFP, Freezing Melons (So Easy to Preserve 6th ed.); Preparation; Syrup Pack",
+    "cytat": "Cut melons into slices, cubes or balls. | Syrup Pack – Pack into containers and cover with cold 30 percent syrup. Leave headspace. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0da9455c0bec"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Uwaga B5: Uzupełnia kartę melona (p20 pominęła syrop 30% z braku przepisu w rejestrze); przygotowanie owoców w SLO-288. Odsyłacz do syropu 30% zmieniony przy wklejeniu z FRZ-066 na SLO-296 (FRZ-066 wycofane jako duplikat).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-082",
+  "twierdzenie": "Gruszki do mrożenia: wybrać gruszki o pełnym smaku, chrupiące i jędrne, nie mączyste; umyć, obrać i usunąć gniazda nasienne; średnie pokroić na 12 części, duże na 16; w syropie: gotować we wrzącym syropie 40% 1–2 minuty, zależnie od wielkości kawałków, odsączyć i ostudzić; zapakować i zalać zimnym syropem 40%, a dla lepszego produktu dodać 3/4 łyżeczki (2250 mg) kwasu askorbinowego na kwartę (ok. 0,95 l) zimnego syropu; zostawić wolną przestrzeń, położyć zgnieciony kawałek papieru odpornego na wodę, zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-pears/",
+    "miejsce": "NCHFP, Freezing Pears (So Easy to Preserve 6th ed.); Preparation; Syrup Pack",
+    "cytat": "Preparation – Select full-flavored pears that are crisp and firm, not mealy in texture. Wash, peel and core. Slice medium pears into twelfths, large ones into sixteenths. | Syrup Pack – Heat pears in boiling 40 percent syrup for 1 to 2 minutes, depending on size of pieces. Drain and cool. | Pack pears and cover with cold 40 percent syrup. For a better product, add 3/4 teaspoon (2250 mg) ascorbic acid to a quart of cold syrup. Leave headspace. Place a small piece of crumpled water-resistant paper on top to hold the fruit down. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4b270a487d22"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-083",
+  "twierdzenie": "Śliwki do mrożenia: wybrać jędrne, dojrzałe owoce, na tyle miękkie, że lekko uginają się pod naciskiem; przebrać i umyć; zostawić całe albo przekroić na połówki lub ćwiartki i usunąć pestki; w syropie: zimny syrop 40–50%, zależnie od kwaśności owoców, a dla lepszej jakości 1/2 łyżeczki (1500 mg) kwasu askorbinowego na kwartę (ok. 0,95 l) syropu; śliwki wkładać od razu do zimnego syropu w pojemniku, zaczynając od 1/2 szklanki syropu na pojemnik pinta (ok. 0,47 l); docisnąć i dolać syropu do przykrycia, zostawiając wolną przestrzeń; położyć zgnieciony kawałek papieru odpornego na wodę, zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-plums/",
+    "miejsce": "NCHFP, Freezing Plums (So Easy to Preserve 6th ed.); Preparation; Syrup Pack",
+    "cytat": "Preparation – Select firm, ripe fruit soft enough to yield to slight pressure. Sort and wash. Leave whole or cut in halves or quarters and pit. | Syrup Pack – Use cold 40 to 50 percent syrup, depending on tartness of fruit. For a better quality product, add 1/2 teaspoon (1500 mg) ascorbic acid per quart of syrup. Put plums directly into cold syrup in container, starting with 1/2 cup syrup to a pint container. Press fruit down and add syrup to cover, leaving headspace. Place a small piece of crumpled water-resistant paper on top to hold fruit down. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "120e21243333"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Uwaga B5: Sos śliwkowy (Plum Sauce) z tej samej strony poza zakresem B5 (bez kwasu askorbinowego).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-084",
+  "twierdzenie": "Kwas askorbinowy (witamina C) skutecznie chroni kolor i smak mrożonych owoców; krystaliczny albo w proszku rozpuszcza się w odrobinie zimnej wody, a tabletki najpierw się kruszy, żeby łatwo się rozpuściły; do syropu dodaje się go krótko przed użyciem i miesza delikatnie, żeby nie wmieszać powietrza.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/freezing-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Freezing Fruits (peer-reviewed; publ. 08.1994, przegląd 04.2013; P. Kendall); Preventing Darkening",
+    "cytat": "Ascorbic acid (vitamin C) is effective in preserving color and flavor and adds nutritive value. … To use, dissolve crystalline or powdered forms in a little cold water. When using tablets, crush first so they dissolve easily. | For syrup packs, dissolve 1/2 teaspoon crystalline ascorbic acid or 1,500 milligrams vitamin C in each quart of cold syrup shortly before using. Stir it in gently so as not to stir in air.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f09265a3d9a8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Uwaga B5: Dawki bierze się z NCHFP dla każdego owocu (FRZ-067–083); CSU podaje inne dawki dla części owoców (np. 1/4 łyżeczki w 1/4 szklanki wody) i syrop 30–40% dla czereśni i brzoskwiń; przy sprzeczności wygrywa NCHFP (B5-D3).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-085",
+  "twierdzenie": "Kwas cytrynowy albo sok z cytryny można stosować przy niektórych owocach, ale żaden z nich nie działa tak skutecznie jak kwas askorbinowy; według CSU rozpuszcza się 1/4 łyżeczki krystalicznego kwasu cytrynowego albo 3 łyżki soku z cytryny w każdej kwarcie (ok. 0,95 l) zimnej wody, zanurza w tym owoce na 1–2 minuty, odsącza i pakuje z cukrem, syropem, wodą albo sokiem.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/freezing-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Freezing Fruits (peer-reviewed; publ. 08.1994, przegląd 04.2013; P. Kendall); Preventing Darkening",
+    "cytat": "Citric acid or lemon juice may be used for treating some fruits. However, neither is as effective as ascorbic acid. Dissolve 1/4 teaspoon crystalline citric acid or 3 tablespoons of lemon juice in each quart of cold water. Dip the prepared fruit in the solution and leave for one to two minutes. Drain and pack with sugar, syrup, water, or fruit juice.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f09265a3d9a8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Uwaga B5: Szczebel 3, jedno źródło: w treści atrybucja („według CSU”). Rekomendacja B5-D6: karta podaje kwas askorbinowy według NCHFP; zamiennik cytrynowy najwyżej jako uwaga „słabiej działa”, sok z cytryny w dawce NCHFP tylko dla fig (FRZ-078).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "FRZ-086",
+  "twierdzenie": "Do spowolnienia ciemnienia można też użyć gotowych preparatów (kwas askorbinowy z cukrem albo z cukrem i kwasem cytrynowym) zgodnie z instrukcją producenta.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/freezing-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Freezing Fruits (peer-reviewed; publ. 08.1994, przegląd 04.2013; P. Kendall); Preventing Darkening",
+    "cytat": "Ascorbic acid mixtures. Special commercial anti-darkening preparations (ascorbic acid mixed with sugar or with sugar and citric acid) also may be used to slow darkening. Follow manufacturer’s directions.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f09265a3d9a8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ"
+ },
+ {
+  "id": "OLE-051",
+  "twierdzenie": "Czosnek w oleju do zamrożenia pakuje się w szklane słoiki do mrożenia albo plastikowe pojemniki do zamrażarki z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, opisuje, datuje i zamraża.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/",
+    "miejsce": "NCHFP, Freezing Garlic-In-Oil; akapit 2",
+    "cytat": "Package in glass freezer jars or plastic freezer boxes, leaving ½-inch headspace. Label, date and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "449989d91d4b"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Uwaga B5: Uzupełnia OLE-003 (to samo zdanie źródła) o nakaz opisania i datowania; OLE-003 bez zmian, bo ma przegląd.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE"
+ },
+ {
+  "id": "OLE-052",
+  "twierdzenie": "Czosnek w oleju trzymany w lodówce opisuje się datą przygotowania, a najlepiej także datą „wyrzucić po”, czyli 4 dni później.",
+  "zrodla": [
+   {
+    "adres": "https://ucfoodsafety.ucdavis.edu/files/250352.pdf",
+    "miejsce": "UC ANR Publication 8568, Garlic: Safe Methods to Store, Preserve, and Enjoy (10.2016), s. 4 (UC Davis Food Safety); Storing Garlic in Oil, s. 4",
+    "cytat": "Label refrigerated garlic in oil mixtures to show the preparation date (or preferably with a “discard after date” label).",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "71c5f5d86e0a"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/es/catalog/pub/sp-50-701-herbs-vegetables-oil",
+    "miejsce": "Oregon State Univ. Extension, SP 50-701 Herbs and Vegetables in Oil; akapit o przechowywaniu olejów smakowych",
+    "cytat": "Label containers with the date that the oil mixture was prepared as well as the date (four days later) by which the mixture must be used or else frozen for longer storage.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d12776b93fa1"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Dwa źródła szczebla 3 (UC ANR, OSU), niezależni wydawcy. Dla pesto 4 dni zastępuje 3 dni NCHFP (OLE-043), więc karta pesto podaje datę „wyrzucić po” 3 dni później (B5-D2).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE"
+ },
+ {
+  "id": "OLE-053",
+  "twierdzenie": "Czosnku w oleju nie przechowuje się w temperaturze pokojowej: niska kwasowość, brak tlenu w oleju i ciepło to idealne warunki, w których Clostridium botulinum rośnie i wytwarza toksynę; to samo zagrożenie dotyczy innych niskokwasowych dodatków w oleju, np. ziół i papryczek chili.",
+  "zrodla": [
+   {
+    "adres": "https://ucfoodsafety.ucdavis.edu/files/250352.pdf",
+    "miejsce": "UC ANR Publication 8568, Garlic: Safe Methods to Store, Preserve, and Enjoy (10.2016), s. 4 (UC Davis Food Safety); Storing Garlic in Oil, s. 4",
+    "cytat": "Do not store garlic in oil at room temperature. Garlic in oil mixtures stored at room temperature provide an ideal environment for Clostridium botulinum to grow and produce toxin (low acidity, no free oxygen in the oil, and warm temperature).",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "71c5f5d86e0a"
+   },
+   {
+    "adres": "https://extension.umn.edu/cottage-food-connection/chili-oil-and-oil-based-products",
+    "miejsce": "Univ. of Minnesota Extension, Minnesota cottage food law: Chili oil and oil-based products; akapit o środowisku beztlenowym",
+    "cytat": "Oil creates a low-oxygen (anaerobic) environment and when low-acid foods such as garlic, herbs, or chili peppers are submerged in oil, the combination of low oxygen, low acidity and room temperature storage creates the ideal condition for the foodborne illness-causing microorganism Clostridium botulinum to grow and produce a dangerous neurotoxin called botulinum toxin that causes botulism.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "48116db3eba9"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE"
+ },
+ {
+  "id": "OLE-054",
+  "twierdzenie": "Pesto trzeba trzymać w lodówce albo zamrozić, nigdy w temperaturze pokojowej: czosnek i zioła to żywność niskokwasowa, która może zawierać Clostridium botulinum, a olej tworzy środowisko beztlenowe sprzyjające tej bakterii.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/es/catalog/pub/sp-50-701-herbs-vegetables-oil",
+    "miejsce": "Oregon State Univ. Extension, SP 50-701 Herbs and Vegetables in Oil; wstęp i akapit o przechowywaniu",
+    "cytat": "These low-acid foods can be a source of Clostridium botulinum bacteria, which are found in soil, water, and air. Low acid foods stored in oil create an oxygen-free environment which is perfect for growth of Clostridium botulinum bacteria. | It is essential for all other flavored oils made at home, including pesto, to be stored in the refrigerator for up to 4 days or frozen for long term storage.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d12776b93fa1"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "„Nigdy w temperaturze pokojowej” to zaprzeczenie nakazu źródła („essential … refrigerator … or frozen”), kierunek zgodny z NCHFP (OLE-043: lodówka, nie dłużej niż 3 dni). Czas w lodówce bierze się z OLE-043 (3 dni), nie z OSU (4 dni), B5-D2. Strona NCHFP o pesto nie nazywa ryzyka botulizmu; robi to OSU (szczebel 3) i Nummer 2011 (szczebel 2, tabela zaleceń: pesto „Refrigerate”).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE"
+ },
+ {
+  "id": "OLE-055",
+  "twierdzenie": "Pesto można zamrozić w foremkach do lodu; zamrożone kostki zawija się pojedynczo w folię i przechowuje w pojemniku do zamrażarki; kostki nadają się do przyprawiania zup, gulaszy i sosów.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/es/catalog/pub/sp-50-701-herbs-vegetables-oil",
+    "miejsce": "Oregon State Univ. Extension, SP 50-701 Herbs and Vegetables in Oil; Basic Pesto, Hint",
+    "cytat": "Hint: Pesto can be frozen in ice cube trays. When frozen, wrap individual cubes in plastic wrap and store in a freezer container. These cubes can be used for seasoning soups, stews and sauces.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d12776b93fa1"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE"
+ },
+ {
+  "id": "OLE-056",
+  "twierdzenie": "Rozgniecione warzywa i zioła w oleju, np. czosnek, można zamrozić w foremkach do lodu, a potem zapakować do szczelnych pojemników jako gotowe porcje przyprawy; mrożone oleje smakowe pakuje się szczelnie, np. w małe słoiki szklane lub plastikowe, żeby zapach nie przechodził na inne produkty w zamrażarce.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/es/catalog/pub/sp-50-701-herbs-vegetables-oil",
+    "miejsce": "Oregon State Univ. Extension, SP 50-701 Herbs and Vegetables in Oil; Fresh vegetables/herbs in oil; Hint",
+    "cytat": "Hint: Package flavored oils to be frozen in airtight containers such as small glass or plastic jars to prevent vibrant aroma of the herbs and vegetables from penetrating other foods in freezer. | Crushed vegetables and herbs in oil can be frozen in ice cube trays and then packaged in airtight containers to be used as seasonings.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d12776b93fa1"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "„Np. czosnek”: publikacja wymienia czosnek wśród warzyw w oleju („vegetables (such as garlic, mushrooms, chili peppers)”). Kolejność zdań w pl odwrotna niż w źródle.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE"
+ },
+ {
+  "id": "OLE-057",
+  "twierdzenie": "Zamrażanie nie zabija większości bakterii, tylko zatrzymuje ich wzrost; zamrażarkę trzyma się w 0°F (-18°C), a lodówkę w 40°F (4°C) lub niżej.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+    "miejsce": "FDA Consumer Updates, Are You Storing Food Safely?; Keep your appliances at the proper temperatures; Freezer Facts",
+    "cytat": "Keep the refrigerator temperature at or below 40° F (4° C). The freezer temperature should be 0° F (-18° C). | While freezing does not kill most bacteria, it does stop bacteria from growing.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f340dc271515"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Uwaga B5: Podstawa zdania karty: rozmrożony czosnek w oleju i pesto to znowu produkt z ryzykiem; rozmrażać w lodówce (SLO-258). Czas zużycia po rozmrożeniu: bez źródła (pytanie B5-P1).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE"
  }
 ]

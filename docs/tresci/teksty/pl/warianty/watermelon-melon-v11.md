@@ -1,6 +1,6 @@
 # Melon mrożony (NCHFP)
 
-Ta karta opisuje instrukcję NCHFP mrożenia kawałków melona bez cukru, w 0 °F (−18 °C) lub niżej; instrukcja nie przewiduje blanszowania. [T:SLO-288,SUS-050]
+Ta karta opisuje instrukcję NCHFP mrożenia kawałków melona bez cukru albo w syropie, w 0 °F (−18 °C) lub niżej; instrukcja nie przewiduje blanszowania. [T:SLO-288,FRZ-081,SUS-050]
 
 ## Wybór i przygotowanie
 
@@ -10,13 +10,21 @@ Przekrój je na pół i usuń pestki oraz skórkę. [T:SLO-288]
 
 Miąższ pokrój w plastry, w kostkę albo w kulki. [T:SLO-288]
 
+NCHFP podaje miary amerykańskie: szklanka (cup) to ok. 237 ml. [T:ACI-195]
+
 ## Sposoby pakowania
 
 Bez cukru: włóż kawałki do pojemników, bez dodawania płynu. [T:SLO-288,SLO-249]
 
-Ta karta podaje tylko pakowanie bez cukru; NCHFP opisuje też pakowanie w syropie 30-procentowym, którego ta karta nie obejmuje. [T:SLO-288]
+W syropie: włóż kawałki do pojemników i zalej je zimnym syropem 30-procentowym; zostaw wolną przestrzeń, potem zamknij i zamroź. [T:FRZ-081]
+
+Na syrop 30-procentowy (średni) NCHFP rozpuszcza 1 3/4 szklanki cukru w 4 szklankach letniej wody, aż syrop będzie klarowny, co daje ok. 5 szklanek; przed użyciem syrop schłódź. [T:SLO-296]
+
+Zimnego syropu użyj tyle, by przykrył owoce, ok. 1/2 do 2/3 szklanki na pintę; żeby owoce zostały pod syropem, połóż na wierzchu zgnieciony kawałek papieru do pieczenia i dociśnij owoce przed zamknięciem. [T:SLO-253]
 
 ## Pakowanie
+
+Melon w syropie pakuje się jak z płynem: w pojemnikach z szerokim otworem zostaw 1/2 cala (ok. 1,3 cm) wolnej przestrzeni dla pinty (ok. 0,47 l) i 1 cal (ok. 2,5 cm) dla pojemnika quart (ok. 0,95 l); w pojemnikach z wąskim otworem 3/4 cala (ok. 1,9 cm) dla pinty i 1 1/2 cala (ok. 3,8 cm) dla pojemnika quart. [T:SLO-249]
 
 Owoce bez dodanego cukru i płynu (pakowanie na sucho) potrzebują 1/2 cala (ok. 1,3 cm) wolnej przestrzeni w pojemnikach pint i quart, z szerokim i z wąskim otworem. [T:SLO-249]
 
@@ -55,6 +63,8 @@ Dla najlepszej jakości trzymaj się krótszego czasu i najpierw zużywaj najsta
 Mrożone owoce podawaj, gdy mają jeszcze trochę kryształków lodu: są wtedy mniej papkowate. [T:SLO-256]
 
 Owoce rozmrażaj w opakowaniu w lodówce, pod bieżącą wodą albo w mikrofalówce, jeśli robisz to tuż przed użyciem. [T:SLO-256]
+
+Opakowanie 1 funta (ok. 0,45 kg) owoców w syropie potrzebuje 6 do 8 godzin w lodówce albo 1/2 do 1 godziny pod chłodną bieżącą wodą; owoce zasypane suchym cukrem rozmrażają się trochę szybciej niż w syropie, a jedne i drugie szybciej niż owoce bez cukru. [T:SLO-256]
 
 Rozmrażaj tylko tyle, ile potrzebujesz naraz; resztki rozmrożonych owoców lepiej się trzymają, gdy je ugotujesz. [T:SLO-256]
 

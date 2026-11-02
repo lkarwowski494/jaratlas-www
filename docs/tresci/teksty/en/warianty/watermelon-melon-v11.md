@@ -1,6 +1,6 @@
 # Frozen melon (NCHFP)
 
-This card describes the NCHFP instructions for freezing melon pieces without sugar (unsweetened pack) at 0 °F (−18 °C) or lower; the instructions do not include blanching. [T:SLO-288,SUS-050]
+This card describes the NCHFP instructions for freezing melon pieces without sugar (unsweetened pack) or in syrup at 0 °F (−18 °C) or lower; the instructions do not include blanching. [T:SLO-288,FRZ-081,SUS-050]
 
 ## Choosing and preparing
 
@@ -10,13 +10,21 @@ Cut them in half and remove the seeds and rind. [T:SLO-288]
 
 Cut the flesh into slices, cubes or balls. [T:SLO-288]
 
+NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
+
 ## Ways of packing
 
 Without sugar (unsweetened pack): pack the pieces into containers without adding liquid. [T:SLO-288,SLO-249]
 
-This card gives only the unsweetened pack; NCHFP also describes a pack in 30 percent syrup, which this card does not cover. [T:SLO-288]
+In syrup: pack the pieces into containers and cover them with cold 30 percent syrup; leave headspace, then seal and freeze. [T:FRZ-081]
+
+For a 30 percent (medium) syrup, NCHFP dissolves 1 3/4 cups of sugar in 4 cups of lukewarm water until the syrup is clear, which gives about 5 cups; chill the syrup before using it. [T:SLO-296]
+
+Use just enough cold syrup to cover the fruit, about 1/2 to 2/3 cup per pint; to keep the fruit under the syrup, put a crumpled piece of parchment paper on top and press the fruit down before closing. [T:SLO-253]
 
 ## Packing
+
+Melon in syrup counts as a liquid pack: in wide-mouth containers leave 1/2 inch (about 1.3 cm) of headspace for a pint (about 0.47 l) and 1 inch (about 2.5 cm) for a quart (about 0.95 l); in narrow-mouth containers leave 3/4 inch (about 1.9 cm) for a pint and 1 1/2 inches (about 3.8 cm) for a quart. [T:SLO-249]
 
 Fruit packed without added sugar or liquid (dry pack) needs 1/2 inch (about 1.3 cm) of headspace in pint and quart containers, with wide or narrow mouths. [T:SLO-249]
 
@@ -55,6 +63,8 @@ For the best quality choose the shorter time and use the oldest packages first. 
 Serve frozen fruit while it still has a few ice crystals: it is then less mushy. [T:SLO-256]
 
 Thaw the fruit in its package in the refrigerator, under running water, or in the microwave oven if you thaw it just before use. [T:SLO-256]
+
+A 1 pound (about 0.45 kg) package of fruit in syrup needs 6 to 8 hours in the refrigerator or 1/2 to 1 hour in cool running water; fruit packed in dry sugar thaws a little faster than fruit in syrup, and both thaw faster than fruit packed without sugar. [T:SLO-256]
 
 Thaw only as much as you need at one time; leftover thawed fruit keeps better if you cook it. [T:SLO-256]
 
