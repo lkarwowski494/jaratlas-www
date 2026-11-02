@@ -36,7 +36,7 @@ Cool them for as long as you blanched them, then drain them thoroughly: extra wa
 
 ## Packing
 
-Package the drained broccoli leaving no headspace: NCHFP lists loose-packed vegetables such as broccoli among foods that need none. [T:SLO-242,SLO-250]
+Package the drained broccoli leaving no headspace: NCHFP lists loose-packed vegetables such as broccoli among foods that need none; this applies to freezer bags and wide-mouth containers, while in narrow-mouth canning jars you should leave extra headspace, as described below. [T:SLO-242,SLO-250,SLO-251]
 
 Use packaging that resists moisture and vapour, is durable and leakproof and does not become brittle and crack in the cold. [T:SLO-251]
 

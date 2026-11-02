@@ -30,7 +30,7 @@ Cool them for as long as you blanched them, then drain them thoroughly: extra wa
 
 ## Packing
 
-Package the drained cauliflower leaving no headspace. [T:SLO-243]
+Package the drained cauliflower leaving no headspace; this applies to freezer bags and wide-mouth containers, while in narrow-mouth canning jars you should leave extra headspace, as described below. [T:SLO-243,SLO-251]
 
 Use packaging that resists moisture and vapour, is durable and leakproof and does not become brittle and crack in the cold. [T:SLO-251]
 
