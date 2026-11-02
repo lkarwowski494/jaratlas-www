@@ -56287,7 +56287,7 @@
  },
  {
   "id": "SLO-780",
-  "twierdzenie": "NCHFP podaje przepisy na nadzienia owocowe do wekowania tylko z jabłek, borówki amerykańskiej, wiśni/czereśni, brzoskwiń, zielonych pomidorów i mincemeat (z Clear Jel); inne dostępne skrobie rozpadają się w tych nadzieniach; ilości soku z cytryny nie wolno zmieniać.",
+  "twierdzenie": "NCHFP podaje przepisy na nadzienia do wekowania: z jabłek, borówki amerykańskiej, wiśni/czereśni i brzoskwiń (z Clear Jel), z zielonych pomidorów oraz Festive Mincemeat (z wołowiną lub dziczyzną i łojem, tylko w szybkowarze); inne dostępne skrobie rozpadają się w tych nadzieniach; ilości soku z cytryny nie wolno zmieniać.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pie-fillings/",
@@ -56321,7 +56321,7 @@
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "Lista przepisów odczytana z sekcji „Pie Fillings” strony (6 pozycji); brak porzeczki i żurawiny.",
+  "uproszczenie": "Lista przepisów odczytana z sekcji „Pie Fillings” strony (6 pozycji; podstrony Green Tomato Pie Filling i Festive Mincemeat bez Clear Jel, mincemeat w szybkowarze); brak porzeczki i żurawiny. „Tylko te” to wniosek z listy, źródło tak nie pisze.",
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
@@ -56332,38 +56332,7 @@
   "klaster": "SLO",
   "pochodzenie": "B19 B19-research-2026-11-02 (claude/jaratlas-b19-research e9004f4)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "NCHFP gives home-canning recipes for fruit pie fillings only from apples, blueberries, cherries, peaches, green tomatoes and mincemeat (with Clear Jel); other available starches break down in these fillings; the amount of lemon juice must not be altered.",
-  "uwaga": "Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
-  "weryfikacjaZastepcza": "2026-11-02"
- },
- {
-  "id": "SLO-785",
-  "twierdzenie": "W pracy recenzowanej (Yıldız i in., J Food Sci Technol 2015, PMC4375240) zmierzone pH owoców miechunki peruwiańskiej (Physalis peruviana, goldenberry) wyniosło średnio 6,07 (kwasowość miareczkowa 1,26% jako kwas cytrynowy); inne prace podają pH ok. 3,7 — kwasowość owocu jest niepewna i nie ma go w tabelach NCHFP.",
-  "zrodla": [
-   {
-    "adres": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4375240/",
-    "miejsce": "Results and discussion, akapit o kwasowości",
-    "cytat": "The mean titrateble acidity and pH values of goldenberry were found to be 1.26 % citric acid and 6.07, respectively.",
-    "odczyt": "2026-11-02",
-    "szczebel": 2,
-    "szczebel_uwaga": "2 (artykuł recenzowany, J Food Sci Technol, Springer; PMC)",
-    "weryfikacja": "curl+grep",
-    "sha12": "e0d78488697a"
-   }
-  ],
-  "status": "potwierdzone",
-  "uproszczenie": "Wartość ok. 3,7 z innych prac (Egypt J Agric Res; Kolumbia) widziana tylko w wynikach wyszukiwania, nieprzeczytana (PDF EKB niedostępny) — w twierdzeniu jako „inne prace podają”, bez liczby krytycznej.",
-  "krytyczne": true,
-  "przeglad": {
-   "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-02",
-   "sha": "e3b0c44298fc"
-  },
-  "wazne_do": "2027-11-02",
-  "klaster": "SLO",
-  "pochodzenie": "B19 B19-research-2026-11-02 (claude/jaratlas-b19-research e9004f4)",
-  "jednoZrodlo": true,
-  "twierdzenie_en": "In a peer-reviewed study (Yıldız et al., J Food Sci Technol 2015, PMC4375240) the measured pH of goldenberry (Physalis peruviana) fruit averaged 6.07 (titratable acidity 1.26% as citric acid); other studies report pH about 3.7 — the acidity of the fruit is uncertain and it is not in the NCHFP tables.",
+  "twierdzenie_en": "NCHFP gives home-canning recipes for pie fillings: apple, blueberry, cherry and peach (with Clear Jel), green tomato, and Festive Mincemeat (with beef or venison and suet, pressure canner only); other available starches break down in these fillings; the amount of lemon juice must not be altered.",
   "uwaga": "Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -56445,7 +56414,7 @@
   "klaster": "ACI",
   "pochodzenie": "B20 B20-research-2026-11-02 (claude/jaratlas-b20-research c83d458)",
   "jednoZrodlo": false,
-  "twierdzenie_en": "Ball Spiced/Spicy Red Cabbage (Ball Complete Book of Home Preserving in a UCCE handout; Ball Blue Book 2014 in Ask Extension), ingredients for about 5 quarts or 10 pints: 12 pounds (about 5.4 kg) red cabbage (3–4 heads), cored and shredded; 1/2 cup canning or pickling salt; 8 cups (2 quarts) red wine vinegar 5%; 1 cup packed light brown sugar; 1/2 cup mustard seed; 1/4 cup mace or nutmeg; in a spice bag: 1/4 cup each of whole cloves, whole allspice, whole peppercorns and celery seed, and 2 cinnamon sticks.",
+  "twierdzenie_en": "Ball Spiced/Spicy Red Cabbage (Ball Complete Book of Home Preserving in a UCCE handout; Ball Blue Book 2014 in Ask Extension), ingredients for about 5 quarts or 10 pints: 12 pounds (about 5.4 kg) red cabbage (3–4 heads), cored and shredded; 1/2 cup canning or pickling salt; 8 cups (2 quarts) red wine vinegar 5%; 1 cup light brown sugar; 1/2 cup mustard seed; 1/4 cup mace or nutmeg; in a spice bag: 1/4 cup each of whole cloves, whole allspice, whole peppercorns and celery seed, and 2 cinnamon sticks.",
   "uwaga": "Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -56502,7 +56471,7 @@
  },
  {
   "id": "ACI-878",
-  "twierdzenie": "Ball Spiced Red Cabbage, kąpiel wodna (ostrożnie, dłuższy z podanych czasów): 0–1000 stóp 20 minut, 1001–6000 stóp 25 minut, powyżej 6000 stóp 30 minut; Ball Blue Book 2014 podaje 20 minut bez rozbicia na wysokości.",
+  "twierdzenie": "Ball Spiced Red Cabbage według ulotki UCCE, kąpiel wodna (ostrożnie, dłuższy z podanych czasów): 0–1000 stóp 20 minut, 1001–6000 stóp 25 minut, powyżej 6000 stóp 30 minut; Ball Blue Book 2014 (w Ask Extension) podaje 20 minut bez rozbicia na wysokości.",
   "zrodla": [
    {
     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2022-04/365812.pdf",
@@ -56537,7 +56506,7 @@
   "klaster": "ACI",
   "pochodzenie": "B20 B20-research-2026-11-02 (claude/jaratlas-b20-research c83d458)",
   "jednoZrodlo": false,
-  "twierdzenie_en": "Ball Spiced Red Cabbage, boiling water bath (cautiously, the longer of the times given): 0–1000 ft 20 minutes, 1001–6000 ft 25 minutes, above 6000 ft 30 minutes; the Ball Blue Book 2014 gives 20 minutes without an altitude breakdown.",
+  "twierdzenie_en": "Ball Spiced Red Cabbage according to the UCCE handout, boiling water bath (cautiously, the longer of the times given): 0–1000 ft 20 minutes, 1001–6000 ft 25 minutes, above 6000 ft 30 minutes; the Ball Blue Book 2014 (in Ask Extension) gives 20 minutes without an altitude breakdown.",
   "uwaga": "Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -56582,7 +56551,7 @@
  },
  {
   "id": "SUS-325",
-  "twierdzenie": "Według ministerstwa rolnictwa Ontario (OMAFRA) owoce rokitnika przetwarza się możliwie szybko po zbiorze, a do tego czasu przechowuje w 4–6°C (do 2 tygodni) albo szybko zamraża; suszy się i miele na herbatę młode liście, nie owoce.",
+  "twierdzenie": "Według ministerstwa rolnictwa Ontario (OMAFRA) owoce rokitnika przetwarza się możliwie szybko po zbiorze, a do tego czasu przechowuje w 4–6°C (do 2 tygodni) albo szybko zamraża; suszenie i mielenie na herbatę źródło wymienia tylko przy młodych liściach.",
   "zrodla": [
    {
     "adres": "https://www.ontario.ca/page/introduction-sea-buckthorn",
@@ -56595,20 +56564,20 @@
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "„Nie owoce” to wniosek redakcji: źródło wymienia suszenie tylko przy liściach.",
+  "uproszczenie": "Źródło opisuje praktykę („have been dried”), nie zalecenie; o suszeniu owoców milczy.",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",
   "klaster": "SUS",
   "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02 (claude/jaratlas-c12-suszenie-zrodla-p2 f014ead)",
   "jednoZrodlo": false,
-  "twierdzenie_en": "According to the Ontario agriculture ministry (OMAFRA), sea buckthorn berries are processed as soon as possible after harvest and until then stored at 4–6°C (up to 2 weeks) or flash frozen; young leaves, not berries, are dried and ground for tea.",
+  "twierdzenie_en": "According to the Ontario agriculture ministry (OMAFRA), sea buckthorn berries are processed as soon as possible after harvest and until then stored at 4–6°C (up to 2 weeks) or flash frozen; the source mentions drying and grinding for tea only for young leaves.",
   "uwaga": "Strona opisuje sad doświadczalny (Wingham); nie jest procedurą domową. Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SUS-326",
-  "twierdzenie": "Według Cape Cod Cooperative Extension (UMass Extension) twarde, świeże owoce dzikiej róży do herbaty suszy się w całości, bez szypułek i końcówek, w piekarniku od bardzo niskiej temperatury 110°F (ok. 43°C) przy otwartych drzwiach, stopniowo podnosząc ją do 130–140°F (ok. 54–60°C) przez 6–8 godzin; suszenie przerywa się, gdy owoce uginają się pod naciskiem palca, bez dosuszania do końca.",
+  "twierdzenie": "Według Cape Cod Cooperative Extension (UMass Extension) twarde, świeże owoce dzikiej róży do herbaty suszy się po odcięciu szypułek lub końcówek, w piekarniku od bardzo niskiej temperatury 110°F (ok. 43°C) przy otwartych drzwiach, stopniowo podnosząc ją do 130–140°F (ok. 54–60°C) przez 6–8 godzin; suszenie przerywa się, gdy owoce uginają się pod naciskiem palca, bez dosuszania do końca.",
   "zrodla": [
    {
     "adres": "https://www.capecod.gov/wp-content/uploads/2022/03/rose-hip-recipes.pdf",
@@ -56628,7 +56597,7 @@
   "klaster": "SUS",
   "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02 (claude/jaratlas-c12-suszenie-zrodla-p2 f014ead)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "According to Cape Cod Cooperative Extension (UMass Extension), hard, fresh rose hips for tea are dried whole, with stems and ends cut off, in an oven starting at a very low 110°F (about 43°C) with the door open, gradually raising it to 130–140°F (about 54–60°C) over 6–8 hours; drying stops when the hips yield to finger pressure, without drying completely.",
+  "twierdzenie_en": "According to Cape Cod Cooperative Extension (UMass Extension), hard, fresh rose hips for tea are dried after cutting off stems or ends, in an oven starting at a very low 110°F (about 43°C) with the door open, gradually raising it to 130–140°F (about 54–60°C) over 6–8 hours; drying stops when the hips yield to finger pressure, without drying completely.",
   "uwaga": "Start 110°F stoi w sprzeczności z SUS-002 (zbyt niska temperatura na początku) i SUS-001 (140°F); koniec „nie do końca suche” – z testem suchości owoców (SUS-063). Brak czasu przechowywania (tylko „airtight container”). C12-D4. Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  },

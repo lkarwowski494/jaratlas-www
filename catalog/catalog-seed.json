@@ -14430,7 +14430,6 @@
    "acidBasis": "acidified",
    "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "SLO-785",
     "SUS-301"
    ],
    "sources": [],
@@ -14442,7 +14441,7 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Miechunka peruwiańska (Physalis peruviana): brak danych o pH w przeczytanych źródłach.",
-    "[B21] do-researchu → ryzyko-wysokie, karta-ostrzeżenie (B19, przebieg 2): Miechunka peruwiańska nie ma przepisu NCHFP/Ball/producenta pektyny ani pH w tabelach NCHFP; praca recenzowana podaje średnie pH owocu 6,07 (SLO-785), więc owoc może być niskokwasowy — ryzyko WYSOKIE. Niedojrzałe owoce Physalis są toksyczne (SUS-301). Przepis foodpreserving.org (szczebel 4, widziany tylko w wynikach wyszukiwania, nieczytany) i tak nie wystarczałby przy ryzyku wysokim, a wanilia jest dodatkiem spoza przepisu. requiredWarnings SLO-785, SUS-301 (2026-11-02-jaratlas-b21-katalog)"
+    "[B21] do-researchu → ryzyko-wysokie, karta-ostrzeżenie (B19, przebieg 2): Miechunka peruwiańska nie ma przepisu NCHFP/Ball/producenta pektyny ani pH w tabelach NCHFP; praca recenzowana podaje średnie pH owocu 6,07 (SLO-785), więc owoc może być niskokwasowy — ryzyko WYSOKIE. Niedojrzałe owoce Physalis są toksyczne (SUS-301). Przepis foodpreserving.org (szczebel 4, widziany tylko w wynikach wyszukiwania, nieczytany) i tak nie wystarczałby przy ryzyku wysokim, a wanilia jest dodatkiem spoza przepisu. [B21-D3: SLO-785 (pH 6,07) niezweryfikowane przy D-027 d (PMC: reCAPTCHA), poza rejestrem; ryzyko-wysokie zostaje jako wariant ostrożniejszy na podstawie SUS-301 i braku przepisu szczebla 1–3.] requiredWarnings SUS-301 (2026-11-02-jaratlas-b21-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -14451,7 +14450,6 @@
    ],
    "cardType": "warning",
    "requiredWarnings": [
-    "SLO-785",
     "SUS-301"
    ]
   },
