@@ -1,5 +1,5 @@
 {
- "version": "1.0.16",
+ "version": "1.0.17",
  "generated": "2026-11-02",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -24972,9 +24972,10 @@
    "processFamilyId": "fermented-beverages",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
-    "NAP-024"
+    "NAP-024",
+    "FER-127"
    ],
    "sources": [],
    "filters": {
@@ -24984,12 +24985,18 @@
     "difficulty": null
    },
    "notes": [
-    "[NAP*] Ginger bug (zaczyn dzikich drożdży i bakterii): brak przetestowanego przepisu; produkty z niego mogą zawierać alkohol (NAP-024)."
+    "[NAP*] Ginger bug (zaczyn dzikich drożdży i bakterii): brak przetestowanego przepisu; produkty z niego mogą zawierać alkohol (NAP-024).",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Trafienie P1 (Illinois „Homemade Ginger Ale”) używa suchych drożdży piekarskich, nie dzikiego zaczynu (FER-127); brak przepisu 1–3 na ginger bug. Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): FER-127 (drożdże zamiast dzikiego zaczynu, nigdy szkło), NAP-024 (etanol w napojach fermentowanych) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "FER-127",
+    "NAP-024"
    ]
   },
   {
@@ -47119,7 +47126,7 @@
    "processFamilyId": "fermented-beverages",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "NAP-004",
     "NAP-005",
@@ -47127,7 +47134,10 @@
     "NAP-011",
     "NAP-012",
     "NAP-013",
-    "NAP-014"
+    "NAP-014",
+    "FER-120",
+    "FER-121",
+    "FER-122"
    ],
    "sources": [],
    "filters": {
@@ -47137,12 +47147,19 @@
     "difficulty": null
    },
    "notes": [
-    "[NAP*] Druga fermentacja z owocami/cukrem w zamkniętej butelce nie jest objęta przepisem NCHFP (NCHFP: dodatki po fermentacji, lodówka do 2 dni). Ryzyko wybuchu butelek i wzrostu alkoholu. Może przekroczyć 0,5% obj. alkoholu (próg USA TTB); w UE próg znakowania 1,2% obj. (NAP-026, robocze)."
+    "[NAP*] Druga fermentacja z owocami/cukrem w zamkniętej butelce nie jest objęta przepisem NCHFP (NCHFP: dodatki po fermentacji, lodówka do 2 dni). Ryzyko wybuchu butelek i wzrostu alkoholu. Może przekroczyć 0,5% obj. alkoholu (próg USA TTB); w UE próg znakowania 1,2% obj. (NAP-026, robocze).",
+    "[B28] do-researchu → ryzyko-wysokie, karta-ostrzeżenie (B26, przebieg 2, B26-D4: tożsamość wymaga procesu poza szczeblem 1 + źródło o zagrożeniu): NCHFP (szczebel 1): dodatki miesza się po fermentacji i pije od razu albo trzyma w lodówce do 2 dni (NAP-005); druga fermentacja w zamkniętej butelce poza przepisem. CSU (szczebel 3, FER-120) i BCCDC (szczebel 1, dla zakładów z pomiarem pH, FER-122) ją opisują, ale przy sporze ze szczeblem 1 wybieram wariant ostrożniejszy. Źródła mówią o zagrożeniach F2: CO2 i rozerwanie butelek (NAP-004, NAP-014), nadmiar alkoholu (FER-121, NAP-013). Tożsamość wariantu to F2, więc „po zmianie” na dodatki w lodówce usuwa tożsamość (analogia B22). Liczby 7–10 dni z FSIC nie należy czytać jako bezpiecznego czasu drugiej fermentacji (FER-121). Ostrzeżenia (B28-D2): NAP-005 (NCHFP: dodatki po fermentacji, bez F2), NAP-014 (rozerwanie butelki), NAP-013 (nadmiar alkoholu); FER-121 (7–10 dni) celowo poza ostrzeżeniami (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "NAP-005",
+    "NAP-014",
+    "NAP-013"
    ]
   },
   {
@@ -47156,14 +47173,17 @@
    "processFamilyId": "fermented-beverages",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SLO-036",
     "NAP-007",
     "NAP-013",
     "NAP-014",
     "NAP-015",
-    "NAP-011"
+    "NAP-011",
+    "FER-123",
+    "FER-124",
+    "FER-125"
    ],
    "sources": [],
    "filters": {
@@ -47174,13 +47194,20 @@
    },
    "notes": [
     "[SLO] Jun (kombucha na miodzie), obszar NAP.",
-    "[NAP*] Jun objęty wytycznymi BCCDC dla zakładów (pH 2,5–4,2), brak przetestowanego przepisu domowego; surowy miód jako substrat niezweryfikowany. Może przekroczyć 0,5% obj. alkoholu (próg USA TTB); w UE próg znakowania 1,2% obj. (NAP-026, robocze)."
+    "[NAP*] Jun objęty wytycznymi BCCDC dla zakładów (pH 2,5–4,2), brak przetestowanego przepisu domowego; surowy miód jako substrat niezweryfikowany. Może przekroczyć 0,5% obj. alkoholu (próg USA TTB); w UE próg znakowania 1,2% obj. (NAP-026, robocze).",
+    "[B28] do-researchu → ryzyko-wysokie, karta-ostrzeżenie (B26, przebieg 2, B26-D4: tożsamość wymaga procesu poza szczeblem 1 + źródło o zagrożeniu): NCHFP: brak danych, że inne cukry zachowują ten sam poziom bezpieczeństwa (FER-123). BCCDC (szczebel 1): surowy miód może zawierać przetrwalniki jadu kiełbasianego, groźne przy niepełnej fermentacji i za wysokim pH; alkohol w jun zwykle wyższy niż w kombuczy (FER-125). FSIC odradza zieloną herbatę (FER-126), ale to spór z NCHFP, BCCDC i CSU i nie jest podstawą werdyktu. Proces BCCDC (FER-124) to wytyczne dla zakładów z obowiązkowym pomiarem pH, nie przepis domowy. Ostrzeżenia (B28-D2): FER-123 (NCHFP: bez innych cukrów), FER-125 (surowy miód: przetrwalniki jadu kiełbasianego), NAP-014 (rozerwanie butelki); FER-121 (7–10 dni) celowo poza ostrzeżeniami (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO",
     "NAP"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "FER-123",
+    "FER-125",
+    "NAP-014"
    ]
   },
   {
@@ -51196,7 +51223,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "MIE-001",
     "MIE-008",
@@ -51206,7 +51233,8 @@
     "MIE-012",
     "MIE-018",
     "MIE-021",
-    "MIE-029"
+    "MIE-029",
+    "MIE-161"
    ],
    "sources": [],
    "filters": {
@@ -51216,14 +51244,20 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Peklowanie na mokro + wędzenie + parzenie. Brak przeczytanego przetestowanego przepisu na szynkę peklowaną na mokro (NCHFP odsyła tylko do szynek peklowanych na sucho). Limity azotynu w MIE-001/008."
+    "[MIE*] Peklowanie na mokro + wędzenie + parzenie. Brak przeczytanego przetestowanego przepisu na szynkę peklowaną na mokro (NCHFP odsyła tylko do szynek peklowanych na sucho). Limity azotynu w MIE-001/008.",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Cztery publikacje wskazane przez NCHFP opisują tylko szynki peklowane na sucho (VT, UKY) albo boczek i kiełbasy (MU, UGA). OSU ANSI-3994 (szczebel 3) opisuje nastrzyk i wędzenie szynki do 142°F, ale każe ją dalej gotować w domu bez podania temperatury końcowej (MIE-161); 148°F dotyczy szynek handlowych. Brak przepisu 1:1 po przebiegu 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), MIE-011 (za dużo azotynu) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
    ],
-   "nameV0": "szynka tradycyjna peklowana na mokro, wędzona dymem olchowo-owocowym i parzona do $75^\\circ\\text{C}$"
+   "nameV0": "szynka tradycyjna peklowana na mokro, wędzona dymem olchowo-owocowym i parzona do $75^\\circ\\text{C}$",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-021",
+    "MIE-011"
+   ]
   },
   {
    "id": "pork-loin-ham-v02",
@@ -51398,7 +51432,8 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Pieczenie w soli to przyrządzenie potrawy, nie utrwalanie."
+    "[MIE*] Pieczenie w soli to przyrządzenie potrawy, nie utrwalanie.",
+    "[B28] werdykt B26 nie-publikowac; wariant wycofany (poza zakresem: danie pieczone na bieżąco), status bez zmian (analogia B27); B26-Q3: danie (pieczenie w soli), już wycofany „poza zakresem” (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "out-of-scope",
    "scopeNote": "danie pieczone na bieżąco",
@@ -51573,7 +51608,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "cool-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "MIE-016",
     "MIE-014",
@@ -51584,7 +51619,9 @@
     "MIE-018",
     "MIE-030",
     "MIE-006",
-    "MIE-007"
+    "MIE-007",
+    "MIE-154",
+    "MIE-155"
    ],
    "sources": [],
    "filters": {
@@ -51595,13 +51632,19 @@
    },
    "notes": [
     "[SUS] szynka dojrzewająca: mięso peklowane/suszone; decyduje MIE.",
-    "[MIE*] Najbliższe: country ham (UKY ASC-213, VT 458-223, szczebel 3, odsyła do nich NCHFP), ale źródła gotują szynkę przed jedzeniem; jedzenie na surowo jak prosciutto poza zakresem źródeł. Przepis VT podaje azotyn sodu powyżej limitu USA (MIE-013)."
+    "[MIE*] Najbliższe: country ham (UKY ASC-213, VT 458-223, szczebel 3, odsyła do nich NCHFP), ale źródła gotują szynkę przed jedzeniem; jedzenie na surowo jak prosciutto poza zakresem źródeł. Przepis VT podaje azotyn sodu powyżej limitu USA (MIE-013).",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Najbliższe: country ham (UKY ASC-213, VT 458-223; trwałość bez chłodzenia przy ≥18% ubytku masy i ≥4% soli, MIE-016), ale UKY podaje szynkę tylko po obróbce cieplnej (MIE-154), a PNW 784 tylko wspomina, że prosciutto je się na surowo, bez procedury (MIE-155). Jedzenie na surowo to tożsamość wariantu i jest poza źródłami; wyrób europejski bez przepisu szczebla 1–3. Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-154 (UKY: szynka tylko po obróbce cieplnej), MIE-155 (PNW: brak procedury prosciutto) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS",
     "MIE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-154",
+    "MIE-155"
    ]
   },
   {
@@ -52307,7 +52350,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "MIE-019",
     "MIE-020",
@@ -52317,7 +52360,15 @@
     "MIE-007",
     "MIE-010",
     "MIE-011",
-    "MIE-012"
+    "MIE-012",
+    "MIE-156",
+    "MIE-157",
+    "MIE-158",
+    "MIE-160",
+    "MIE-164",
+    "MIE-155",
+    "MIE-153",
+    "MIE-021"
    ],
    "sources": [],
    "filters": {
@@ -52328,14 +52379,21 @@
    },
    "notes": [
     "[MIE*] Przepis MU Extension G2528 (odsyła NCHFP). Produkt nietrwały: lodówka lub zamrażarka (MIE-019).",
-    "[E3] ok-zrodlo → do-researchu: MU Extension G2528 (szczebel 3) opisuje boczek peklowany na sucho 7 dni i wędzony 36–48 h jako surowy, nietrwały produkt do obróbki przed jedzeniem. „Wędzony na ciepło i parzony” to inny proces: wędzenie w podwyższonej temperaturze i parzenie do produktu gotowego do jedzenia. Źródło nie podaje dla niego temperatur, czasów ani temperatury wewnętrznej, a zmiana procesu wpływa na bezpieczeństwo."
+    "[E3] ok-zrodlo → do-researchu: MU Extension G2528 (szczebel 3) opisuje boczek peklowany na sucho 7 dni i wędzony 36–48 h jako surowy, nietrwały produkt do obróbki przed jedzeniem. „Wędzony na ciepło i parzony” to inny proces: wędzenie w podwyższonej temperaturze i parzenie do produktu gotowego do jedzenia. Źródło nie podaje dla niego temperatur, czasów ani temperatury wewnętrznej, a zmiana procesu wpływa na bezpieczeństwo.",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: PNW 784 (OSU, 2025, szczebel 3) pokrywa boczek peklowany w lodówce (MIE-158) i wędzony na ciepło albo pieczony do 160°F (MIE-156, MIE-157), ale traktuje go jak boczek do przyrządzenia: przed jedzeniem smażyć, piec albo podgrzać (MIE-164, MIE-155). Boczek „wędzony na ciepło i parzony” to wędlina jedzona na zimno, a parzenia w wodzie źródło nie ma (E3). Zmiana na boczek do smażenia usuwa tożsamość wariantu; przy mięsie bez „po zmianie” na siłę (przegląd D-027 d, P1-1). MU G2528 (wędzenie na zimno, MIE-153) nie pokrywa. Przebieg 2. Opcja dla właściciela: B26-Q6. B26-Q6: zostaje nie-publikowac (opcja a, polecenie koordynatora); boczek do smażenia wg PNW 784 usuwa tożsamość, a dawka Prague #1 prawdopodobnie przekracza limit UE (MIE-008). Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), MIE-011 (za dużo azotynu), MIE-164 (boczek przed jedzeniem smażyć/piec) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
    ],
-   "e3": "zmieniony z ok-zrodlo"
+   "e3": "zmieniony z ok-zrodlo",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-021",
+    "MIE-011",
+    "MIE-164"
+   ]
   },
   {
    "id": "pork-belly-jowl-v02",
@@ -52348,7 +52406,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "MIE-019",
     "MIE-020",
@@ -52358,7 +52416,10 @@
     "MIE-007",
     "MIE-010",
     "MIE-011",
-    "MIE-012"
+    "MIE-012",
+    "MIE-156",
+    "MIE-153",
+    "MIE-021"
    ],
    "sources": [],
    "filters": {
@@ -52369,14 +52430,20 @@
    },
    "notes": [
     "[MIE*] Jak v01; produkt nietrwały.",
-    "[E3] ok-zrodlo → do-researchu: MU Extension G2528 dotyczy płatów boczku (bellies). Boczek rolowany przenosi zewnętrzną, zanieczyszczoną powierzchnię do środka zwoju, co zmienia penetrację peklosoli i wymaga ogrzania środka. Źródło tego nie obejmuje, a zmiana procesu wpływa na bezpieczeństwo."
+    "[E3] ok-zrodlo → do-researchu: MU Extension G2528 dotyczy płatów boczku (bellies). Boczek rolowany przenosi zewnętrzną, zanieczyszczoną powierzchnię do środka zwoju, co zmienia penetrację peklosoli i wymaga ogrzania środka. Źródło tego nie obejmuje, a zmiana procesu wpływa na bezpieczeństwo.",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: PNW 784 i MU G2528 dotyczą płatów boczku. Zwinięcie przenosi powierzchnię do środka zwoju (E3), a żadne źródło szczebla 1–3 nie podaje procesu dla boczku rolowanego. Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), MIE-011 (za dużo azotynu) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
    ],
-   "e3": "zmieniony z ok-zrodlo"
+   "e3": "zmieniony z ok-zrodlo",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-021",
+    "MIE-011"
+   ]
   },
   {
    "id": "pork-belly-jowl-v03",
@@ -52599,7 +52666,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "MIE-021"
    ],
@@ -52611,12 +52678,17 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Boczek gotowany: potrawa z lodówki; bez przepisu."
+    "[MIE*] Boczek gotowany: potrawa z lodówki; bez przepisu.",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Boczek gotowany w wywarze z łupin cebuli: brak przepisu szczebla 1–3 (wyszukiwanie R4 bez trafienia); obróbka w wodzie poza PNW 784. Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-021"
    ]
   },
   {
@@ -52887,7 +52959,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "MIE-021",
     "MIE-029",
@@ -52897,7 +52969,8 @@
     "MIE-010",
     "MIE-011",
     "MIE-012",
-    "MIE-023"
+    "MIE-023",
+    "MIE-031"
    ],
    "sources": [],
    "filters": {
@@ -52908,13 +52981,19 @@
    },
    "notes": [
     "[SUS] kiełbasa krakowska sucha: mięso peklowane/suszone; decyduje MIE.",
-    "[MIE*] Krakowska sucha: wędzona, parzona, podsuszana; bez przepisu. Trwałość bez lodówki dopiero przy parametrach z MIE-023."
+    "[MIE*] Krakowska sucha: wędzona, parzona, podsuszana; bez przepisu. Trwałość bez lodówki dopiero przy parametrach z MIE-023.",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Wyrób europejski o własnej recepturze; UGA B1437 ma proces kiełbasy wędzonej i dogotowanej (Polish Sausage, MIE-031), ale nie etap podsuszania po obróbce cieplnej; trwałość bez chłodzenia dopiero przy aw < 0,85 i pH < 5,3 (MIE-023). Wyszukiwanie R4 (kiełbasy podsuszane po obróbce) bez źródła 1–3. Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), MIE-011 (za dużo azotynu) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS",
     "MIE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-021",
+    "MIE-011"
    ]
   },
   {
@@ -52928,7 +53007,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "MIE-021",
     "MIE-029",
@@ -52937,7 +53016,8 @@
     "MIE-007",
     "MIE-010",
     "MIE-011",
-    "MIE-012"
+    "MIE-012",
+    "MIE-031"
    ],
    "sources": [],
    "filters": {
@@ -52947,12 +53027,18 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Bez przepisu."
+    "[MIE*] Bez przepisu.",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Nazwane wyroby polskie o własnej recepturze; najbliższy jest proces UGA Polish Sausage (MIE-031), ale przepis na te wyroby nie istnieje w źródłach 1–3. Polecenie: wyroby europejskie bez przepisu nie dostają karty „po zmianie”. Możliwa zmiana przez decyzję o nazwie jako stylu (B26-Q1). Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), MIE-011 (za dużo azotynu) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-021",
+    "MIE-011"
    ]
   },
   {
@@ -52966,7 +53052,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "MIE-021",
     "MIE-029",
@@ -52975,7 +53061,9 @@
     "MIE-007",
     "MIE-010",
     "MIE-011",
-    "MIE-012"
+    "MIE-012",
+    "MIE-031",
+    "MIE-023"
    ],
    "sources": [],
    "filters": {
@@ -52985,12 +53073,18 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Bez przepisu."
+    "[MIE*] Bez przepisu.",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Myśliwska jest podsuszana po obróbce (jak v02); jałowcowa to wyrób o własnej recepturze. Brak przepisu szczebla 1–3. Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), MIE-011 (za dużo azotynu) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-021",
+    "MIE-011"
    ]
   },
   {
@@ -53004,7 +53098,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "MIE-021",
     "MIE-029",
@@ -53014,7 +53108,8 @@
     "MIE-010",
     "MIE-011",
     "MIE-012",
-    "MIE-023"
+    "MIE-023",
+    "MIE-031"
    ],
    "sources": [],
    "filters": {
@@ -53024,12 +53119,18 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Kabanosy: bez przepisu."
+    "[MIE*] Kabanosy: bez przepisu.",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Kabanosy: wędzone, pieczone/parzone i suszone; UConn „Snack Sticks” (kopia, oryginał niedostępny) podaje tylko „Smoke and cook.” bez parametrów; MSU (pH i aw snack sticks) zablokowane. Brak przepisu 1–3. Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), MIE-011 (za dużo azotynu) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-021",
+    "MIE-011"
    ]
   },
   {
@@ -53065,7 +53166,8 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Dzik: główne źródło włośnicy; zamrażanie nie zabezpiecza dziczyzny (MIE-033). Wymagane badanie mięsa (MIE-034) i pełne ugotowanie. UGA ma przepis „Venison or Game Sausage” (świeża), ale nie wędzoną kiełbasę z dzika."
+    "[MIE*] Dzik: główne źródło włośnicy; zamrażanie nie zabezpiecza dziczyzny (MIE-033). Wymagane badanie mięsa (MIE-034) i pełne ugotowanie. UGA ma przepis „Venison or Game Sausage” (świeża), ale nie wędzoną kiełbasę z dzika.",
+    "[B28] werdykt B26 ok-zrodlo-po-zmianie (B26-D1; warunek: B26-D1: badanie mięsa dzika na włośnie + 160°F), status bez zmian do decyzji toru A / 03 (jak B21, B25). Zmiana: peklowanie gotową mieszanką peklującą (MIE-012) w dawce nieprzekraczającej limitu UE dla wyrobów poddanych obróbce cieplnej (80 mg/kg dodanego azotynu, MIE-008) zamiast czystego azotanu/azotynu z przepisu UGA; temperatura wewnętrzna 160°F z termometrem zamiast 150°F (MIE-118, MIE-021), parametry komory jak w UGA; dawkę w g/kg wylicza partia karty jako rachunek z metodą (B26-D1, przegląd P1-2). Twierdzenia (rejestr): MIE-150, MIE-151, MIE-031, MIE-021, MIE-118, MIE-033, MIE-034, MIE-026, MIE-029, MIE-012, MIE-008, MIE-011, MIE-001 (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -53084,7 +53186,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "MIE-021",
     "MIE-029",
@@ -53093,7 +53195,8 @@
     "MIE-007",
     "MIE-010",
     "MIE-011",
-    "MIE-012"
+    "MIE-012",
+    "MIE-031"
    ],
    "sources": [],
    "filters": {
@@ -53103,12 +53206,18 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Bez przepisu."
+    "[MIE*] Bez przepisu.",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Wyrób regionalny o własnej specyfikacji; najbliższy proces UGA Polish Sausage (MIE-031), ale brak przepisu 1–3 na ten wyrób. Jak v03 (B26-Q1). Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), MIE-011 (za dużo azotynu) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-021",
+    "MIE-011"
    ]
   },
   {
@@ -53122,7 +53231,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "MIE-021",
     "MIE-029",
@@ -53131,7 +53240,8 @@
     "MIE-007",
     "MIE-010",
     "MIE-011",
-    "MIE-012"
+    "MIE-012",
+    "MIE-152"
    ],
    "sources": [],
    "filters": {
@@ -53141,12 +53251,18 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Parówki/serdelki: UGA opisuje proces kiełbas emulsyjnych, ale nie podaje przepisu na parówki."
+    "[MIE*] Parówki/serdelki: UGA opisuje proces kiełbas emulsyjnych, ale nie podaje przepisu na parówki.",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: UGA opisuje klasę kiełbas emulgowanych bez przepisu (MIE-152). UConn „Home Sausage Making” ma recepturę frankfurterek, ale tylko w kopii na pickyourown.org (oryginał extension.uconn.edu: błąd TLS), bez harmonogramu wędzenia i parzenia; nie liczę kopii jako przeczytanego oryginału. Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), MIE-011 (za dużo azotynu) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-021",
+    "MIE-011"
    ]
   },
   {
@@ -53179,7 +53295,8 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Frankfurterki: jak v08; scalić z v08?"
+    "[MIE*] Frankfurterki: jak v08; scalić z v08?",
+    "[B28] werdykt B26 nie-publikowac; wariant wycofany (duplikat → smoked-cooked-sausages-v08), status bez zmian (analogia B27); B26-Q3: duplikat, już wycofany z następcą smoked-cooked-sausages-v08 (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -53411,7 +53528,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "MIE-021",
     "MIE-029",
@@ -53420,7 +53537,8 @@
     "MIE-007",
     "MIE-010",
     "MIE-011",
-    "MIE-012"
+    "MIE-012",
+    "MIE-152"
    ],
    "sources": [],
    "filters": {
@@ -53430,12 +53548,18 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Mortadela z szynkowaru; bez przepisu."
+    "[MIE*] Mortadela z szynkowaru; bez przepisu.",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: UGA ma tylko grubo mieloną bolonię wędzoną i dogotowaną (bez szynkowaru); brak przepisu 1–3 na mortadelę gotowaną w foremce. Rozważone i odrzucone (nie 1:1): UGA Spiced Luncheon Loaf (gotowanie w wodzie w foremce albo osłonce do 150°F) i Liver Sausage. Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), MIE-011 (za dużo azotynu) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-021",
+    "MIE-011"
    ]
   },
   {
@@ -53449,7 +53573,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "MIE-021",
     "MIE-029",
@@ -53468,12 +53592,18 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Bez przepisu."
+    "[MIE*] Bez przepisu.",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Gotowana w wodzie w osłonce barierowej, bez wędzenia: brak przepisu 1–3 (R4 bez trafienia). Rozważone i odrzucone (nie 1:1): UGA Spiced Luncheon Loaf (gotowanie w wodzie w foremce albo osłonce do 150°F) i Liver Sausage. Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), MIE-011 (za dużo azotynu) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-021",
+    "MIE-011"
    ]
   },
   {
@@ -53931,7 +54061,7 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "MIE-021",
     "MIE-029",
@@ -53946,13 +54076,19 @@
    },
    "notes": [
     "[SUS] kabanosy: mięso peklowane/suszone; decyduje MIE.",
-    "[MIE*] Kabanosy zwykle są parzone/pieczone, potem suszone; jeśli surowe, to jak v03. Bez przepisu."
+    "[MIE*] Kabanosy zwykle są parzone/pieczone, potem suszone; jeśli surowe, to jak v03. Bez przepisu.",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Długie suszenie po obróbce: trwałość bez chłodzenia dopiero przy aw < 0,85 i pH < 5,3 (MIE-023), których nie da się sprawdzić w domu bez pomiaru; brak przepisu 1–3. Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), MIE-023 (trwałość bez chłodzenia tylko przy aw < 0,85 i pH < 5,3) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS",
     "MIE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-021",
+    "MIE-023"
    ]
   },
   {
@@ -56932,10 +57068,13 @@
    "processFamilyId": "fish-curing-smoking",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-007",
-    "OLE-047"
+    "OLE-047",
+    "MIE-073",
+    "MIE-074",
+    "MIE-079"
    ],
    "sources": [],
    "filters": {
@@ -56947,7 +57086,8 @@
    "notes": [
     "[SZY*] Pasztet z wędzonego pstrąga pod masłem: produkt lodówkowy (MIE/OLE); wekować nie (brak procesu).",
     "[OLE] Pasta z wędzonego pstrąga pod masłem: produkt gotowany niesterylizowany – łańcuch chłodniczy.",
-    "[MIE] Pasta z wędzonego pstrąga pod masłem: potrawa z lodówki; przykrycie tłuszczem bada OLE."
+    "[MIE] Pasta z wędzonego pstrąga pod masłem: potrawa z lodówki; przykrycie tłuszczem bada OLE.",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Przepis na pastę z wędzonej ryby (Wisconsin Sea Grant) nie podaje terminu; termin 2 tygodni (MIE-073, MIE-074) dotyczy samej ryby wędzonej, nie pasty z nabiałem; NC Sea Grant niedostępny (TLS). Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-079 (ryba wędzona nigdy w temperaturze pokojowej), OLE-047 (łańcuch chłodniczy dla pasztetu) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -56955,6 +57095,11 @@
     "SZY",
     "OLE",
     "MIE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-079",
+    "OLE-047"
    ]
   },
   {
@@ -57107,7 +57252,8 @@
    "notes": [
     "[ACI] NCHFP Pickled Eggs: wyłącznie lodówka; nie wekować, nie trzymać w temperaturze pokojowej (przypadki jadu kiełbasianego).",
     "[MIE*] Tylko w lodówce; NCHFP nie ma instrukcji wekowania (MIE-082); w temperaturze pokojowej był jad kiełbasiany (MIE-083). Ocet słodowy nie występuje w przepisach NCHFP.",
-    "[E3] ok-zrodlo → do-researchu: Przepisy NCHFP na jaja marynowane (lodówka) używają tylko octu białego lub jabłkowego. Nazwa wskazuje ocet słodowy, czyli inny kwas, a jaja mają niską kwasowość i słabą penetrację octu (MIE-087), więc rodzaj i moc octu są istotne dla bezpieczeństwa. Wersja „w occie białym” jest pokryta; po usunięciu „słodowego” z nazwy przysługuje ok-zrodlo."
+    "[E3] ok-zrodlo → do-researchu: Przepisy NCHFP na jaja marynowane (lodówka) używają tylko octu białego lub jabłkowego. Nazwa wskazuje ocet słodowy, czyli inny kwas, a jaja mają niską kwasowość i słabą penetrację octu (MIE-087), więc rodzaj i moc octu są istotne dla bezpieczeństwa. Wersja „w occie białym” jest pokryta; po usunięciu „słodowego” z nazwy przysługuje ok-zrodlo.",
+    "[B28] werdykt B26 ok-zrodlo-po-zmianie (B26), status bez zmian do decyzji toru A / 03 (jak B21, B25). Zmiana: usunąć „słodowym”; zalewa wg NCHFP Dilled Eggs (ocet biały 5%). Twierdzenia (rejestr): MIE-162, ACI-702, ACI-211, MIE-082, MIE-083, MIE-084, MIE-085, MIE-087, MIE-088, MIE-089 (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -57153,7 +57299,8 @@
     "[ACI] NCHFP Red Beet Eggs (lodówka). Zakwas buraczany zamiast buraków z puszki — DO USTALENIA (zmiana składu).",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster MIE. Jaja w zakwasie buraczanym: produkt niskokwasowy w zalewie – NCHFP ma osobne zasady dla jaj marynowanych.",
     "[MIE*] Przepis NCHFP używa soku z buraków konserwowych, nie zakwasu; zamiana na zakwas buraczany wymaga osobnej oceny. Tylko w lodówce.",
-    "[E3] ok-zrodlo → do-researchu: NCHFP Red Beet Eggs: 1 szkl. soku z buraków z puszki i 1,5 szkl. octu jabłkowego. „Zakwas buraczany” (fermentowany, surowy sok o nieznanej kwasowości) zastępuje składnik przepisu płynem spoza niego, w produkcie o niskiej kwasowości (MIE-087). To nie jest bezpośredni odpowiednik."
+    "[E3] ok-zrodlo → do-researchu: NCHFP Red Beet Eggs: 1 szkl. soku z buraków z puszki i 1,5 szkl. octu jabłkowego. „Zakwas buraczany” (fermentowany, surowy sok o nieznanej kwasowości) zastępuje składnik przepisu płynem spoza niego, w produkcie o niskiej kwasowości (MIE-087). To nie jest bezpośredni odpowiednik.",
+    "[B28] werdykt B26 ok-zrodlo-po-zmianie (B26-D3), status bez zmian do decyzji toru A / 03 (jak B21, B25). Zmiana: tylko sok z buraków z puszki (NCHFP Red Beet Eggs), nie zakwas i nie sok z surowych buraków; nazwa bez „zakwasu”; decyzja B26-D3, do weta. Twierdzenia (rejestr): MIE-163, MIE-087, ACI-211, MIE-082, MIE-083, MIE-084 (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -57244,7 +57391,8 @@
    "notes": [
     "[ACI] Ajitsuke tamago (jajka na miękko w sosie sojowym, bez kwasu): krótko w lodówce; poza procesem octowym.",
     "[SZY] Ajitsuke tamago (MIE).",
-    "[MIE*] Jaja na miękko w sosie sojowym: płynne żółtko nie spełnia zalecenia FDA (MIE-092); marynata nie jest kwaśna. Potrawa na kilka dni w lodówce."
+    "[MIE*] Jaja na miękko w sosie sojowym: płynne żółtko nie spełnia zalecenia FDA (MIE-092); marynata nie jest kwaśna. Potrawa na kilka dni w lodówce.",
+    "[B28] werdykt B26 ryzyko-wysokie; wariant wycofany (poza zakresem: dodatek przygotowywany na bieżąco), status bez zmian (analogia B27); B26 nie uwzględnił pola retired (jak B24 w B27); twierdzenia B26 MIE-091, MIE-092, MIE-087 zostają w JSON (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "out-of-scope",
    "scopeNote": "dodatek przygotowywany na bieżąco",
@@ -57270,9 +57418,10 @@
    "processFamilyId": "egg-preservation",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "nie-publikowac",
    "claims": [
-    "MIE-087"
+    "MIE-087",
+    "MIE-084"
    ],
    "sources": [],
    "filters": {
@@ -57284,7 +57433,8 @@
    "notes": [
     "[FER] Solone jaja w solance.",
     "[SZY] Solone jaja kacze (MIE).",
-    "[MIE*] Solone jaja kacze w solance (kilka tygodni w temperaturze pokojowej w tradycji): brak źródła szczebla 1–3; jaja to produkt niskokwasowy."
+    "[MIE*] Solone jaja kacze w solance (kilka tygodni w temperaturze pokojowej w tradycji): brak źródła szczebla 1–3; jaja to produkt niskokwasowy.",
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Brak procedury domowej szczebla 1–3; praca recenzowana PMC5552285 bada tylko parametry fizykochemiczne solenia, bez wyników mikrobiologicznych. Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-087 (jaja niskokwasowe), MIE-084 (jaja marynowane nigdy w temperaturze pokojowej (analogia, ostrożniej)) (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -57292,6 +57442,11 @@
     "FER",
     "SZY",
     "MIE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-087",
+    "MIE-084"
    ]
   },
   {
@@ -57393,7 +57548,8 @@
    },
    "notes": [
     "[ACI] Thit kho — danie duszone.",
-    "[MIE*] Thit kho to duszona wieprzowina z jajkami."
+    "[MIE*] Thit kho to duszona wieprzowina z jajkami.",
+    "[B28] werdykt B26 nie-publikowac; wariant wycofany (poza zakresem: danie na bieżąco), status bez zmian (analogia B27); B26-Q3: danie duszone, już wycofany „poza zakresem” (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "out-of-scope",
    "scopeNote": "danie na bieżąco",

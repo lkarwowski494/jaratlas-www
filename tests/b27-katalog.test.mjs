@@ -15,6 +15,8 @@ const R = new Map(rej.map((t) => [t.id, t]));
 const DEC = "2026-11-02-jaratlas-b27-katalog";
 const h = (x) => createHash("sha256").update(JSON.stringify(x)).digest("hex").slice(0, 12);
 const bez = (v, keys) => Object.fromEntries(Object.entries(v).filter(([k]) => !keys.includes(k)));
+// B28 (2026-11-02-jaratlas-b28-katalog): warianty z notatką [B28] sprawdza tests/b28-katalog.test.mjs.
+const B28 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith("[B28]"))).map((v) => v.id));
 const nota = (id) => V.get(id).notes.find((n) => n.startsWith("[B27]") && n.includes(DEC));
 
 // Po D-027 d (P3): OLE-073 „zwykle”, OLE-088 dalszy ciąg zdania MMWR; brzmienie B24 w brzmienieB24, nowy cytat na końcu zrodla.
@@ -40,8 +42,8 @@ const EXTRA = ["watermelon-melon-v07","quark-acid-cheese-v07","butter-whey-chees
 // Skrót pól spoza listy sprzed B27 (katalog 1.0.15, warianty bez zmian od 7433d6b do 0ecbac7); wszystkie 30 z B24 były do-researchu.
 const SNAP = {"tomato-v15":"d71c3305592b","tomato-v17":"e79158402bb9","green-cherry-tomato-v12":"00539f5e091b","chili-pepper-v10":"d520600d3734","shallot-pearl-onion-v13":"793328345e92","capers-v06":"083c9cd79091","eggplant-v02":"b7414b74ce96","asian-american-mix-v07":"75657d063980","pork-belly-jowl-v10":"078d14c46911","ginger-turmeric-v12":"1c4166881ebc","cornelian-cherry-v03":"ce57ef812d18","chokeberry-seabuckthorn-v04":"18a84e42fd66","lemon-v03":"36de2d3b18ef","mango-papaya-v01":"9d5a24198e95","pork-belly-jowl-v11":"8a9350651460","pork-belly-jowl-v12":"f4adeb1547f6","pork-belly-jowl-v14":"01a6944e13f8","beef-veal-v13":"9847d190e0bb","poultry-v11":"47653f88b124","offal-pates-v06":"cb64afe2ff0b","olives-v05":"c3b5b9914b8d","olives-v11":"2250f4b1b725","olives-v12":"da83c88e697a","lemon-v14":"988ab7803bf9","fig-pomegranate-v10":"520231121a66","eggplant-v10":"502a8cb4c3c6","beans-soy-v11":"f9ad5d5e453a","onion-v12":"387516a36346","capers-v09":"21a8dc15452d","walnut-nuts-v07":"05844f97e396","watermelon-melon-v07":"82e655e6e080","quark-acid-cheese-v07":"acc2bd6563c6","butter-whey-cheese-v07":"d594679b7515","pasta-filata-cheese-v02":"ad168175dc40","smoked-cooked-sausages-v01":"483a39ee2867","smoked-cooked-sausages-v10":"7ae139e531e0","smoked-cooked-sausages-v14":"2b82516a715c","sea-fish-v04":"b4f8e222307e","freshwater-fish-v01":"986cd4251452","fresh-brined-cheese-v05":"758437a54bb2","white-cabbage-v03":"8f93d9f19827","eggs-v03":"d6db1ae1d747"};
 
-test("B27: katalog 1.0.16 przechodzi walidację bez błędów", () => {
-  assert.equal(cat.version, "1.0.16");
+test("B27: katalog 1.0.16 (lub nowszy) przechodzi walidację bez błędów", () => {
+  assert.ok(Number(cat.version.split(".")[2]) >= 16 && cat.version.startsWith("1.0."), cat.version); // B28: 1.0.17
   assert.deepEqual(validateCatalog(cat, rej).errors, []);
 });
 
@@ -138,7 +140,7 @@ test("B27: poza polami z listy warianty bez cichych zmian; publication ukryta w 
   assert.deepEqual(Object.keys(SNAP).sort(), Object.keys(POLA).sort());
   for (const [id, keys] of Object.entries(POLA)) assert.equal(h(bez(V.get(id), keys)), SNAP[id], `${id}: pola poza ${keys.join(", ")} bez zmian`);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
-  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA))), "219465312ebb", "warianty spoza B27 bez zmian");
+  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B28.has(v.id))), "4c88001f538c", "warianty spoza B27 i B28 bez zmian (skrót na 0ecbac7; B28: przeliczony, stary 219465312ebb)");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
 });
 

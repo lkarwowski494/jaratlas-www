@@ -1,0 +1,141 @@
+// B28 (D-043): werdykty B26 (mięso i ryby lodówka/chłodnia, jaja, napoje fermentowane, 26 wariantów) w katalogu, MIE-150–164 i FER-120–127 w rejestrze; katalog 1.0.17.
+// Decyzja: 2026-11-02-jaratlas-b28-katalog (decyzja Claude, do weta). Wejście: B26 JSON (po przeglądzie D-027 d), decyzje wariant-bez-zrodla,
+// polityka-zrodel-ryzyko, przeglad-agent-zamiast-eksperta (D-027 d) i propozycja b26-research. Wzór: tests/b27-katalog.test.mjs.
+import { test } from "node:test";
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { validateCatalog } from "../tools/validate-catalog.mjs";
+
+const cat = JSON.parse(readFileSync("catalog/catalog-seed.json", "utf8"));
+const rej = JSON.parse(readFileSync("docs/tresci/rejestr.json", "utf8"));
+const b26 = JSON.parse(readFileSync("docs/tresci/B26-research-2026-11-02.json", "utf8"));
+const V = new Map(cat.variants.map((v) => [v.id, v]));
+const R = new Map(rej.map((t) => [t.id, t]));
+const W = new Map(b26.warianty.map((w) => [w.id, w]));
+const DEC = "2026-11-02-jaratlas-b28-katalog";
+const h = (x) => createHash("sha256").update(JSON.stringify(x)).digest("hex").slice(0, 12);
+const bez = (v, keys) => Object.fromEntries(Object.entries(v).filter(([k]) => !keys.includes(k)));
+const nota = (id) => V.get(id).notes?.find((n) => n.startsWith("[B28]") && n.includes(DEC));
+
+export const NOWE = [...Array.from({ length: 15 }, (_, i) => `MIE-${150 + i}`), ...Array.from({ length: 8 }, (_, i) => `FER-${120 + i}`)];
+// requiredWarnings (B28-D2, reguła ogólna kart-ostrzeżeń w porcji; tylko twierdzenia ostrzegawcze, bez terminów przechowywania):
+// wędliny i kiełbasy peklowane gotowane: MIE-021 (160°F) + MIE-011 (za dużo azotynu); boczek parzony + MIE-164 (przed jedzeniem smażyć);
+// bez peklowania w claims: tylko MIE-021; surowe dojrzewające: MIE-154, MIE-155; podsuszane: MIE-021, MIE-023; ryba: MIE-079, OLE-047;
+// jaja w solance: MIE-087, MIE-084; zakwas imbirowy: FER-127, NAP-024; kombucha F2: NAP-005, NAP-014, NAP-013; jun: FER-123, FER-125, NAP-014.
+const PEKL = ["MIE-021", "MIE-011"];
+export const RW = { "fermented-beverages-v02": ["NAP-005", "NAP-014", "NAP-013"], "fermented-beverages-v03": ["FER-123", "FER-125", "NAP-014"] };
+export const NP = {
+  "pork-loin-ham-v01": PEKL, "pork-belly-jowl-v01": [...PEKL, "MIE-164"], "pork-belly-jowl-v02": PEKL, "pork-belly-jowl-v09": ["MIE-021"],
+  "smoked-cooked-sausages-v02": PEKL, "smoked-cooked-sausages-v03": PEKL, "smoked-cooked-sausages-v04": PEKL, "smoked-cooked-sausages-v05": PEKL,
+  "smoked-cooked-sausages-v07": PEKL, "smoked-cooked-sausages-v08": PEKL, "smoked-cooked-sausages-v15": PEKL, "smoked-cooked-sausages-v16": PEKL,
+  "pork-loin-ham-v11": ["MIE-154", "MIE-155"], "dry-cured-sausages-v12": ["MIE-021", "MIE-023"], "freshwater-fish-v08": ["MIE-079", "OLE-047"],
+  "eggs-v05": ["MIE-087", "MIE-084"], "ginger-turmeric-v03": ["FER-127", "NAP-024"],
+};
+// Po zmianie (B26): tylko notatka [B28], status do-researchu (jak B21, B25); karta po decyzji toru A / 03.
+const PO_ZMIANIE = ["smoked-cooked-sausages-v06", "eggs-v01", "eggs-v02"];
+// Wycofane w katalogu (retired, katalog-v1-e1 albo duplikat): B26 tego pola nie uwzględnił; bez zmiany statusu, notatka (analogia B27).
+const WYCOFANE = ["pork-loin-ham-v06", "smoked-cooked-sausages-v09", "eggs-v04", "eggs-v08"];
+// Twierdzenia z terminem przechowywania (dni, tygodnie): nigdy w requiredWarnings kart-ostrzeżeń porcji (nie sugerują bezpiecznego czasu).
+const TERMIN = ["MIE-029", "MIE-073", "MIE-074", "MIE-158", "MIE-160", "FER-120", "FER-121", "FER-124", "FER-126"];
+const ZMIENIAJA = [...Object.keys(RW), ...Object.keys(NP)];
+// Skrót pól spoza listy sprzed B28 (katalog 1.0.16, d85a8aa): RW/NP bez safetyStatus, cardType, claims, requiredWarnings, notes; reszta bez notes.
+const SNAP = {"pork-loin-ham-v01":"c1d3f92d0956","pork-loin-ham-v06":"5e4da6179ee4","pork-loin-ham-v11":"48635fd76dee","pork-belly-jowl-v01":"9d914781c8bb","pork-belly-jowl-v02":"2ad5a5d2a9e8","pork-belly-jowl-v09":"61e7a84c8267","smoked-cooked-sausages-v02":"c01e953bf684","smoked-cooked-sausages-v03":"a07c12b576e3","smoked-cooked-sausages-v04":"7d583b84f5e9","smoked-cooked-sausages-v05":"9d9bf722efd0","smoked-cooked-sausages-v06":"bf852aceaf6f","smoked-cooked-sausages-v07":"5696ee31ad56","smoked-cooked-sausages-v08":"56578fb339da","smoked-cooked-sausages-v09":"3108b2765c42","smoked-cooked-sausages-v15":"f96f3977ee8a","smoked-cooked-sausages-v16":"e73cb375abc0","dry-cured-sausages-v12":"eff42258641a","freshwater-fish-v08":"709f8ae9ee31","eggs-v01":"dee2e307506e","eggs-v02":"09724a0e0216","eggs-v04":"fad0f410a84f","eggs-v05":"7faf132c6fb4","eggs-v08":"ec6a1b452f5b","fermented-beverages-v02":"7902736fe4f2","fermented-beverages-v03":"90c49fbf4331","ginger-turmeric-v03":"9fcd0fe78bf7"};
+// Claims sprzed B28 (d85a8aa): nic nie znika, dochodzą twierdzenia B26 i ostrzeżenia.
+const PRZED = JSON.parse(readFileSync(new URL("./dane/b28-claims-przed.json", import.meta.url), "utf8"));
+
+test("B28: katalog 1.0.17 przechodzi walidację bez błędów", () => {
+  assert.equal(cat.version, "1.0.17");
+  assert.deepEqual(validateCatalog(cat, rej).errors, []);
+});
+
+test("B28: każdy z 26 wariantów B26 rozliczony dokładnie raz, werdykty jak w JSON", () => {
+  const wsz = [...ZMIENIAJA, ...PO_ZMIANIE, ...WYCOFANE];
+  assert.equal(new Set(wsz).size, wsz.length, "bez powtórzeń");
+  assert.deepEqual([...wsz].sort(), [...W.keys()].sort());
+  for (const id of Object.keys(RW)) assert.equal(W.get(id).werdykt_B26, "ryzyko-wysokie", id);
+  for (const id of Object.keys(NP)) { assert.equal(W.get(id).werdykt_B26, "nie-publikowac-kandydat", id); assert.ok(W.get(id).przebieg >= 2, `${id}: przebieg ≥ 2`); }
+  for (const id of PO_ZMIANIE) assert.equal(W.get(id).werdykt_B26, "ok-zrodlo-po-zmianie", id);
+  assert.deepEqual(WYCOFANE.filter((id) => V.get(id).retired).sort(), [...WYCOFANE].sort(), "wycofane w katalogu");
+  assert.deepEqual(ZMIENIAJA.filter((id) => V.get(id).retired), [], "zmiana statusu tylko dla niewycofanych");
+  assert.deepEqual([Object.keys(RW).length, Object.keys(NP).length, PO_ZMIANIE.length, WYCOFANE.length], [2, 17, 3, 4]);
+});
+
+test("B28: MIE-150–164 i FER-120–127 w rejestrze 1:1 z B26 JSON, potwierdzone, przegląd D-027 d, wersja en, bez ścieżek spoza repo", () => {
+  const Z = new Map(b26.twierdzenia.map((t) => [t.id, t]));
+  assert.deepEqual([...Z.keys()].sort(), [...NOWE].sort());
+  for (const id of NOWE) {
+    const t = R.get(id), o = Z.get(id);
+    assert.ok(t && o, id);
+    assert.equal(t.status, "potwierdzone", id);
+    assert.equal(t.twierdzenie, o.twierdzenie, `${id}: brzmienie`);
+    assert.equal(t.krytyczne, o.krytyczne, `${id}: krytyczne`);
+    assert.equal(t.uproszczenie, o.uproszczenie, `${id}: uproszczenie`);
+    if (t.krytyczne) assert.equal(t.przeglad?.kto, "weryfikacja zastępcza (subagent)", `${id}: przegląd D-027 d`);
+    else assert.equal(t.przeglad, null, `${id}: bez przeglądu (niekrytyczne)`);
+    assert.equal(t.weryfikacjaZastepcza, "2026-11-02", id);
+    assert.equal(t.wazne_do, "2027-11-02", id);
+    assert.equal(t.klaster, id.slice(0, 3), id);
+    assert.ok(t.pochodzenie?.includes("B26-research-2026-11-02"), `${id}: pochodzenie`);
+    assert.ok(t.twierdzenie_en?.length > 20, `${id}: twierdzenie_en`);
+    for (const k of ["wielkosc", "wartosc", "jednostka"]) assert.equal(t[k], o[k], `${id}: ${k}`);
+    assert.equal(t.zrodla.length, o.zrodla.length, `${id}: liczba źródeł`);
+    t.zrodla.forEach((s, i) => {
+      for (const k of ["adres", "szczebel", "odczyt", "cytat", "miejsce", "sha12"]) assert.equal(s[k], o.zrodla[i][k], `${id}: ${k}`);
+      assert.equal(s.kopia, undefined, `${id}: bez kopii spoza repo`);
+      assert.equal(s.plik, undefined, `${id}: bez ścieżki scratchpadu`);
+    });
+  }
+  assert.equal(new Set(rej.map((t) => t.id)).size, rej.length, "ID w rejestrze unikalne");
+  assert.ok(!JSON.stringify(rej).includes("/tmp/claude-0/"), "rejestr bez ścieżek scratchpadu");
+});
+
+test("B28: ryzyko-wysokie i nie-publikowac jako karta-ostrzeżenie; ostrzeżenia z reguły B28-D2, bez terminów; nic nie znika z claims", () => {
+  for (const [id, ostrz] of Object.entries({ ...RW, ...NP })) {
+    const v = V.get(id), np = id in NP;
+    assert.equal(v.safetyStatus, np ? "nie-publikowac" : "ryzyko-wysokie", id);
+    assert.equal(v.cardType, "warning", id);
+    assert.deepEqual(v.requiredWarnings, ostrz, `${id}: requiredWarnings`);
+    const oczek = [...new Set([...PRZED[id], ...W.get(id).twierdzenia, ...ostrz])];
+    assert.deepEqual(v.claims, oczek, `${id}: claims = przed ∪ B26 ∪ ostrzeżenia`);
+    for (const c of [...v.claims, ...v.requiredWarnings]) assert.equal(R.get(c)?.status, "potwierdzone", `${id}: ${c}`);
+    for (const c of v.requiredWarnings) assert.ok(!TERMIN.includes(c), `${id}: ${c} ma termin przechowywania`);
+    if (np) assert.ok(nota(id)?.includes("2026-11-02-jaratlas-wariant-bez-zrodla") && nota(id).includes("brak sprawdzonego źródła"), `${id}: notatka [B28] z decyzją właściciela`);
+    else assert.ok(nota(id)?.includes("ryzyko-wysokie") && nota(id).includes("B26-D4"), `${id}: notatka [B28]`);
+    assert.ok(nota(id).includes(W.get(id).podstawa), `${id}: podstawa B26 w notatce`);
+  }
+  assert.ok(nota("pork-belly-jowl-v01").includes("B26-Q6"), "boczek v01: Q6 = zostaje nie-publikowac");
+});
+
+test("B28: 3 „po zmianie” zostają do-researchu z notatką (zmiana i twierdzenia z B26), bez zmian claims", () => {
+  for (const id of PO_ZMIANIE) {
+    const v = V.get(id), w = W.get(id);
+    assert.equal(v.safetyStatus, "do-researchu", id);
+    assert.equal(v.cardType, undefined, id);
+    assert.deepEqual(v.claims, PRZED[id], `${id}: claims bez zmian`);
+    assert.ok(nota(id)?.includes("ok-zrodlo-po-zmianie") && nota(id).includes(w.zmiana) && w.twierdzenia.every((c) => nota(id).includes(c)), `${id}: notatka [B28]`);
+    for (const c of w.twierdzenia) assert.equal(R.get(c)?.status, "potwierdzone", `${id}: ${c} w rejestrze`);
+  }
+  assert.ok(nota("smoked-cooked-sausages-v06").includes("B26-D1"));
+  assert.ok(nota("eggs-v02").includes("B26-D3"));
+});
+
+test("B28 (B26-Q3): wycofane bez zmiany statusu, z notatką; dania i duplikat już wycofane w katalogu", () => {
+  for (const id of WYCOFANE) { const v = V.get(id); assert.equal(v.safetyStatus, "do-researchu", id); assert.equal(v.cardType, undefined, id); assert.ok(nota(id)?.includes("wycofany") && nota(id).includes(W.get(id).werdykt_B26.replace("-kandydat", "")), id); }
+  for (const id of ["pork-loin-ham-v06", "smoked-cooked-sausages-v09", "eggs-v08"]) assert.ok(nota(id).includes("B26-Q3"), `${id}: Q3`);
+  assert.equal(V.get("smoked-cooked-sausages-v09").retired.replacedBy, "smoked-cooked-sausages-v08");
+});
+
+test("B28: poza polami z listy warianty bez cichych zmian; publication ukryta w całym katalogu", () => {
+  assert.deepEqual(Object.keys(SNAP).sort(), [...W.keys()].sort());
+  for (const id of W.keys()) assert.equal(h(bez(V.get(id), ZMIENIAJA.includes(id) ? ["safetyStatus", "cardType", "claims", "requiredWarnings", "notes"] : ["notes"])), SNAP[id], `${id}: pola spoza listy bez zmian`);
+  assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
+  assert.equal(h(cat.variants.filter((v) => !W.has(v.id))), "da60c0366fbf", "warianty spoza B28 bez zmian (skrót na 1.0.16, d85a8aa)");
+  assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
+});
+
+test("B28 (ADR 0008): treść dodana w B28 (twierdzenia, notatki) bez tytułów i wydawców książek", () => {
+  // Rejestr miał wzmianki o książkach przed B28 (listy dopuszczonych wydań UC ANR); test pilnuje tylko tego, co dodaje ta porcja.
+  const s = JSON.stringify(NOWE.map((id) => R.get(id))) + JSON.stringify(cat.variants.flatMap((v) => (v.notes ?? []).filter((n) => n.startsWith("[B28]"))));
+  assert.doesNotMatch(s, /\bBall\b|Bernardin|Blue Book|Complete Book|So Easy to Preserve|Robert Rose|Jarden|ISBN/);
+});
