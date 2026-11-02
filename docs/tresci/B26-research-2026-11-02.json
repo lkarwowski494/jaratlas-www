@@ -18,9 +18,8 @@
   "warianty": 26
  },
  "liczby": {
-  "nie-publikowac-kandydat": 19,
+  "nie-publikowac-kandydat": 20,
   "ok-zrodlo-po-zmianie": 3,
-  "ok-zrodlo": 1,
   "ryzyko-wysokie": 3
  },
  "uzyte_id": [
@@ -45,7 +44,8 @@
   "FER-124",
   "FER-125",
   "FER-126",
-  "FER-127"
+  "FER-127",
+  "MIE-164"
  ],
  "warianty": [
   {
@@ -107,23 +107,21 @@
    "metoda": "refrigerator",
    "przed": "do-researchu",
    "przebieg": 2,
-   "werdykt_B26": "ok-zrodlo-po-zmianie",
+   "werdykt_B26": "nie-publikowac-kandydat",
    "warunkowo": null,
-   "zmiana": "„wędzony na ciepło do 160°F wewnątrz (PNW 784)” zamiast „wędzony na ciepło i parzony”; decyzja B26-D2, do weta",
+   "zmiana": null,
    "ryzyko": "wysokie",
-   "podstawa": "PNW 784 (OSU, 2025, szczebel 3): boczek peklowany w lodówce 5–7 dni (MIE-158) solą Prague Powder #1 (MIE-159), wędzony na ciepło albo pieczony do 160°F wewnątrz (MIE-156, MIE-157), potem lodówka do 7 dni albo zamrażarka (MIE-160). To ten sam produkt i proces co „wędzony na ciepło”. Źródło nie ma parzenia w wodzie (E3: inny proces), więc zmiana: obróbka cieplna wędzeniem na ciepło (albo w piekarniku) do 160°F wewnątrz, bez osobnego parzenia. MU G2528 (wędzenie na zimno, MIE-153) nie pokrywa.",
+   "podstawa": "PNW 784 (OSU, 2025, szczebel 3) pokrywa boczek peklowany w lodówce (MIE-158) i wędzony na ciepło albo pieczony do 160°F (MIE-156, MIE-157), ale traktuje go jak boczek do przyrządzenia: przed jedzeniem smażyć, piec albo podgrzać (MIE-164, MIE-155). Boczek „wędzony na ciepło i parzony” to wędlina jedzona na zimno, a parzenia w wodzie źródło nie ma (E3). Zmiana na boczek do smażenia usuwa tożsamość wariantu; przy mięsie bez „po zmianie” na siłę (przegląd D-027 d, P1-1). MU G2528 (wędzenie na zimno, MIE-153) nie pokrywa. Przebieg 2. Opcja dla właściciela: B26-Q6.",
    "twierdzenia": [
     "MIE-156",
     "MIE-157",
     "MIE-158",
-    "MIE-159",
     "MIE-160",
-    "MIE-153",
-    "MIE-001",
-    "MIE-011",
-    "MIE-012"
+    "MIE-164",
+    "MIE-155",
+    "MIE-153"
    ],
-   "uwaga": null
+   "uwaga": "przegląd D-027 d P1-1: z ok-zrodlo-po-zmianie; P2-4 (dawka Prague #1 a limit UE 80 mg/kg, MIE-008) przeniesione do B26-Q6"
   },
   {
    "id": "pork-belly-jowl-v02",
@@ -233,11 +231,11 @@
    "metoda": "refrigerator",
    "przed": "do-researchu",
    "przebieg": 2,
-   "werdykt_B26": "ok-zrodlo",
+   "werdykt_B26": "ok-zrodlo-po-zmianie",
    "warunkowo": "B26-D1: badanie mięsa dzika na włośnie + 160°F",
-   "zmiana": null,
+   "zmiana": "peklowanie gotową mieszanką peklującą (MIE-012) w dawce nieprzekraczającej limitu UE dla wyrobów poddanych obróbce cieplnej (80 mg/kg dodanego azotynu, MIE-008) zamiast czystego azotanu/azotynu z przepisu UGA; temperatura wewnętrzna 160°F z termometrem zamiast 150°F (MIE-118, MIE-021), parametry komory jak w UGA; dawkę w g/kg wylicza partia karty jako rachunek z metodą (B26-D1, przegląd P1-2)",
    "ryzyko": "wysokie",
-   "podstawa": "UGA B1437 (szczebel 3) dopuszcza zastąpienie całości lub części chudego mięsa dziczyzną we wszystkich przepisach broszury (MIE-150), w tym w przepisie Polish Sausage (Kielbasa), wędzonej i dogotowanej w wędzarni (MIE-031). Warunki: mięso dzika z badaniem na włośnie metodą wytrawiania (UE, MIE-034; zamrażanie nie wystarcza, MIE-033), mięso w chłodzie < 40°F (MIE-151), temperatura wewnętrzna 160°F jak w regule JarAtlas dla dziczyzny (MIE-118, MIE-021), lodówka 2–4 tygodnie (MIE-029).",
+   "podstawa": "UGA B1437 (szczebel 3) dopuszcza zastąpienie całości lub części chudego mięsa dziczyzną we wszystkich przepisach broszury (MIE-150), w tym w przepisie Polish Sausage (Kielbasa), wędzonej i dogotowanej w wędzarni (MIE-031). Warunki: mięso dzika z badaniem na włośnie metodą wytrawiania (UE, MIE-034; zamrażanie nie wystarcza, MIE-033), mięso w chłodzie < 40°F (MIE-151), temperatura wewnętrzna 160°F jak w regule JarAtlas dla dziczyzny (MIE-118, MIE-021), lodówka 2–4 tygodnie (MIE-029). Przepis UGA podaje czysty azotan sodu (opcjonalnie azotyn) i kończy na 150°F, więc nie da się go przenieść dosłownie; stąd werdykt po zmianie (przegląd D-027 d, P1-2).",
    "twierdzenia": [
     "MIE-150",
     "MIE-151",
@@ -248,7 +246,10 @@
     "MIE-034",
     "MIE-026",
     "MIE-029",
-    "MIE-012"
+    "MIE-012",
+    "MIE-008",
+    "MIE-011",
+    "MIE-001"
    ],
    "uwaga": null
   },
@@ -312,7 +313,7 @@
    "warunkowo": null,
    "zmiana": null,
    "ryzyko": "wysokie",
-   "podstawa": "UGA ma tylko grubo mieloną bolonię wędzoną i dogotowaną (bez szynkowaru); brak przepisu 1–3 na mortadelę gotowaną w foremce. Przebieg 2.",
+   "podstawa": "UGA ma tylko grubo mieloną bolonię wędzoną i dogotowaną (bez szynkowaru); brak przepisu 1–3 na mortadelę gotowaną w foremce. Rozważone i odrzucone (nie 1:1): UGA Spiced Luncheon Loaf (gotowanie w wodzie w foremce albo osłonce do 150°F) i Liver Sausage. Przebieg 2.",
    "twierdzenia": [
     "MIE-152",
     "MIE-021"
@@ -329,7 +330,7 @@
    "warunkowo": null,
    "zmiana": null,
    "ryzyko": "wysokie",
-   "podstawa": "Gotowana w wodzie w osłonce barierowej, bez wędzenia: brak przepisu 1–3 (R4 bez trafienia). Przebieg 2.",
+   "podstawa": "Gotowana w wodzie w osłonce barierowej, bez wędzenia: brak przepisu 1–3 (R4 bez trafienia). Rozważone i odrzucone (nie 1:1): UGA Spiced Luncheon Loaf (gotowanie w wodzie w foremce albo osłonce do 150°F) i Liver Sausage. Przebieg 2.",
    "twierdzenia": [
     "MIE-021"
    ],
@@ -402,9 +403,9 @@
    "przebieg": 2,
    "werdykt_B26": "ok-zrodlo-po-zmianie",
    "warunkowo": null,
-   "zmiana": "sok z buraków z puszki zamiast zakwasu (NCHFP Red Beet Eggs); decyzja B26-D3, do weta",
+   "zmiana": "tylko sok z buraków z puszki (NCHFP Red Beet Eggs), nie zakwas i nie sok z surowych buraków; nazwa bez „zakwasu”; decyzja B26-D3, do weta",
    "ryzyko": "wysokie",
-   "podstawa": "NCHFP Red Beet Eggs (szczebel 1): sok z buraków z puszki i ocet jabłkowy (MIE-163). Zakwas buraczany ma nieznaną kwasowość (MIE-087, ACI-211). Zmiana: sok z buraków z puszki zamiast zakwasu; różowy kolor i ocet zostają. Tylko lodówka.",
+   "podstawa": "NCHFP Red Beet Eggs (szczebel 1): sok z buraków z puszki i ocet jabłkowy (MIE-163). Zakwas buraczany to płyn o nieznanej kwasowości, a NCHFP zakazuje zmieniać proporcje i używać płynu o nieznanej kwasowości (ACI-211); jaja mają niską kwasowość i ocet może nie przeniknąć wszystkich części (MIE-087). Zmiana: tylko sok z buraków z puszki; nie zakwas i nie sok wyciskany z surowych buraków. Kolor i ocet zostają. Tylko lodówka.",
    "twierdzenia": [
     "MIE-163",
     "MIE-087",
@@ -473,7 +474,7 @@
    "warunkowo": null,
    "zmiana": null,
    "ryzyko": "wysokie",
-   "podstawa": "NCHFP (szczebel 1): dodatki miesza się po fermentacji i pije od razu albo trzyma w lodówce do 2 dni (NAP-005); druga fermentacja w zamkniętej butelce poza przepisem. CSU (szczebel 3, FER-120) i BCCDC (szczebel 1, dla zakładów z pomiarem pH, FER-122) ją opisują, ale przy sporze ze szczeblem 1 wybieram wariant ostrożniejszy. Źródła mówią o zagrożeniach F2: CO2 i rozerwanie butelek (NAP-004, NAP-014), nadmiar alkoholu (FER-121, NAP-013). Tożsamość wariantu to F2, więc „po zmianie” na dodatki w lodówce usuwa tożsamość (analogia B22).",
+   "podstawa": "NCHFP (szczebel 1): dodatki miesza się po fermentacji i pije od razu albo trzyma w lodówce do 2 dni (NAP-005); druga fermentacja w zamkniętej butelce poza przepisem. CSU (szczebel 3, FER-120) i BCCDC (szczebel 1, dla zakładów z pomiarem pH, FER-122) ją opisują, ale przy sporze ze szczeblem 1 wybieram wariant ostrożniejszy. Źródła mówią o zagrożeniach F2: CO2 i rozerwanie butelek (NAP-004, NAP-014), nadmiar alkoholu (FER-121, NAP-013). Tożsamość wariantu to F2, więc „po zmianie” na dodatki w lodówce usuwa tożsamość (analogia B22). Liczby 7–10 dni z FSIC nie należy czytać jako bezpiecznego czasu drugiej fermentacji (FER-121).",
    "twierdzenia": [
     "NAP-005",
     "FER-120",
@@ -496,12 +497,11 @@
    "warunkowo": null,
    "zmiana": null,
    "ryzyko": "wysokie",
-   "podstawa": "NCHFP: brak danych, że inne cukry zachowują ten sam poziom bezpieczeństwa (FER-123). BCCDC (szczebel 1): surowy miód może zawierać przetrwalniki jadu kiełbasianego, groźne przy niepełnej fermentacji i za wysokim pH; alkohol w jun zwykle wyższy niż w kombuczy (FER-125). FSIC odradza zieloną herbatę (FER-126). Proces BCCDC (FER-124) to wytyczne dla zakładów z obowiązkowym pomiarem pH, nie przepis domowy.",
+   "podstawa": "NCHFP: brak danych, że inne cukry zachowują ten sam poziom bezpieczeństwa (FER-123). BCCDC (szczebel 1): surowy miód może zawierać przetrwalniki jadu kiełbasianego, groźne przy niepełnej fermentacji i za wysokim pH; alkohol w jun zwykle wyższy niż w kombuczy (FER-125). FSIC odradza zieloną herbatę (FER-126), ale to spór z NCHFP, BCCDC i CSU i nie jest podstawą werdyktu. Proces BCCDC (FER-124) to wytyczne dla zakładów z obowiązkowym pomiarem pH, nie przepis domowy.",
    "twierdzenia": [
     "FER-123",
     "FER-124",
     "FER-125",
-    "FER-126",
     "NAP-015"
    ],
    "uwaga": null
@@ -543,7 +543,7 @@
    ],
    "status": "potwierdzone",
    "krytyczne": true,
-   "uproszczenie": null,
+   "uproszczenie": "UGA nie wymienia dzika z nazwy; „other game” obejmuje go według odczytu autora (decyzja B26-D1)",
    "przeglad": null,
    "wazne_do": "2027-11-02"
   },
@@ -706,7 +706,7 @@
   },
   {
    "id": "MIE-158",
-   "twierdzenie": "PNW 784: boczek peklowany na sucho albo w zalewie trzyma się w lodówce przez 5–7 dni, obracając torebkę codziennie; peklowanie w lodówce (40°F).",
+   "twierdzenie": "PNW 784: boczek peklowany na sucho albo w zalewie trzyma się w lodówce przez 5–7 dni, obracając torebkę codziennie; peklowanie w lodówce (40°F). Czas zależy od wielkości płata; gotowy płat jest jędrny.",
    "zrodla": [
     {
      "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
@@ -761,7 +761,7 @@
   },
   {
    "id": "MIE-160",
-   "twierdzenie": "PNW 784: po uwędzeniu lub upieczeniu boczek studzi się, owija i chłodzi przez noc; pokrojony trzyma się w lodówce do siedmiu dni albo zamraża (najlepsza jakość do 4 miesięcy).",
+   "twierdzenie": "PNW 784: po uwędzeniu lub upieczeniu boczek studzi się 1 godzinę w temperaturze otoczenia, owija i chłodzi przez noc; pokrojony trzyma się w lodówce do siedmiu dni albo zamraża (najlepsza jakość do 4 miesięcy).",
    "zrodla": [
     {
      "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
@@ -802,13 +802,13 @@
    ],
    "status": "potwierdzone",
    "krytyczne": true,
-   "uproszczenie": "„nie podaje końcowej temperatury dla szynki domowej” to wniosek z przeczytania całej publikacji",
+   "uproszczenie": "„nie podaje końcowej temperatury dla szynki domowej” to wniosek z przeczytania całej publikacji; źródło podaje jako powód dalszego gotowania pełne skruszenie („for full tenderization”)",
    "przeglad": null,
    "wazne_do": "2027-11-02"
   },
   {
    "id": "MIE-162",
-   "twierdzenie": "NCHFP Pickled Eggs: wszystkie 6 przepisów (na 12 obranych jaj na twardo) używa octu jabłkowego (Red Beet, Sweet and Sour, Dark and Spicy) albo białego (Cidered, Dilled, Pineapple); zalewę doprowadza się do wrzenia, gotuje 5 minut, zalewa gorącą jaja w wyparzonym słoiku 1 qt, zamyka i od razu chłodzi. Octu słodowego żaden przepis nie przewiduje.",
+   "twierdzenie": "NCHFP Pickled Eggs: wszystkie 6 przepisów (na 12 obranych jaj na twardo) używa octu jabłkowego (Red Beet, Sweet and Sour, Dark and Spicy) albo białego (Cidered, Dilled, Pineapple); zalewę doprowadza się do wrzenia, gotuje 5 minut, zalewa gorącą jaja w ciepłym, wcześniej wysterylizowanym słoiku 1 qt (wg NCHFP Sterilization of Empty Jars), luźno, nie więcej niż 12 jaj, zamyka i od razu chłodzi. Octu słodowego żaden przepis nie przewiduje.",
    "zrodla": [
     {
      "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
@@ -923,7 +923,7 @@
    ],
    "status": "potwierdzone",
    "krytyczne": true,
-   "uproszczenie": null,
+   "uproszczenie": "liczba 7–10 dni z FSIC to górna granica ograniczająca alkohol, nie bezpieczny czas drugiej fermentacji w zamkniętej butelce; nie podawać jej jako zalecenia (para z FER-120, przegląd P2-5)",
    "przeglad": null,
    "wazne_do": "2027-11-02"
   },
@@ -1044,7 +1044,7 @@
    ],
    "status": "potwierdzone",
    "krytyczne": true,
-   "uproszczenie": null,
+   "uproszczenie": "BCCDC dodaje, że prawidłowa fermentacja z pH poniżej 4,6 powinna zapobiec rozwojowi przetrwalników; zagrożenie dotyczy fermentacji niepełnej lub źle prowadzonej",
    "przeglad": null,
    "wazne_do": "2027-11-02"
   },
@@ -1077,7 +1077,7 @@
    ],
    "status": "potwierdzone",
    "krytyczne": true,
-   "uproszczenie": null,
+   "uproszczenie": "spór: FSIC (szczebel 3) odradza zieloną herbatę z powodu nadmiaru kwasu, nie patogenów; NCHFP FAQ, BCCDC i CSU ją dopuszczają; twierdzenie nie jest podstawą werdyktu (przegląd P2-6)",
    "przeglad": null,
    "wazne_do": "2027-11-02"
   },
@@ -1113,6 +1113,28 @@
    "uproszczenie": null,
    "przeglad": null,
    "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "MIE-164",
+   "twierdzenie": "PNW 784: boczek peklowany w domu (po wędzeniu lub upieczeniu do 160°F) przed jedzeniem przyrządza się jak boczek ze sklepu: smaży, piecze albo podgrzewa w mikrofalówce.",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+     "miejsce": "Cook (s. 4)",
+     "cytat": "Cook home-cured bacon as you would bacon from the store — fry, bake or microwave.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "eb4daf12bab7",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r4/pnw784.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
   }
  ],
  "niedostepne": [
@@ -1137,5 +1159,32 @@
    "kod": "przekierowanie na /404"
   }
  ],
- "przeglad_D027d": null
+ "przeglad_D027d": {
+  "kto": "weryfikacja zastępcza (subagent Opus, effort medium, świeży kontekst)",
+  "data": "2026-11-02",
+  "zakres": "22 twierdzenia MIE-150–163, FER-120–127 u źródła (31 cytatów, sha12), werdykty 26 wariantów, pary zdań",
+  "wynik": {
+   "POPARTE": 21,
+   "CZESCIOWO": 1,
+   "NIEPOPARTE": 0,
+   "SPRZECZNE": 0,
+   "DO_SPRAWDZENIA": 0,
+   "P0": 0,
+   "P1": 2,
+   "P2": 5,
+   "P3": 7,
+   "warianty_zgoda": 24,
+   "warianty_sprzeciw": 2
+  },
+  "poprawki": {
+   "P1-1": "pork-belly-jowl-v01 ok-zrodlo-po-zmianie → nie-publikowac-kandydat (PNW 784: boczek przed jedzeniem smażyć/piec, MIE-164; parzony jedzony na zimno poza źródłem); B26-D2 wycofana, opcja B26-Q6",
+   "P1-2": "smoked-cooked-sausages-v06 ok-zrodlo → ok-zrodlo-po-zmianie (gotowa mieszanka peklująca w limicie MIE-008, 160°F); dopisane MIE-008, MIE-011, MIE-001",
+   "P2-3": "MIE-162: „wyparzonym” → „ciepłym, wcześniej wysterylizowanym”, luźno, ≤ 12 jaj",
+   "P2-4": "dawka Prague #1 a limit UE: przeniesione do B26-Q6 (wariant bez karty)",
+   "P2-5": "FER-121: uproszczenie „7–10 dni to nie bezpieczny czas F2”; dopisek w podstawie fermented-beverages-v02",
+   "P2-6": "FER-126 usunięte z podstawy fermented-beverages-v03, spór zapisany w uproszczeniu",
+   "P2-7": "eggs-v02: kwasowość zakwasu → ACI-211; wykluczony zakwas i sok z surowych buraków",
+   "P3": "wprowadzone: MIE-150 (dzik = odczyt), MIE-158, MIE-160, MIE-161, FER-125 uproszczenia; v15/v16 Spiced Luncheon Loaf odrzucony; v06 parametry komory jak w UGA"
+  }
+ }
 }
