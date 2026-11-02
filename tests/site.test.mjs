@@ -459,3 +459,12 @@ test('strona języka: język tylko z rodziną; en jako jedyny język; kody pt-BR
   assert.match(c.pliki['zh-hant/index.html'], /<a href="\/zh-hant\/%E8%98%8B%E6%9E%9C\/">Apple<\/a>/);
   assert.match(c.pliki['index.html'], /<a href="\/pt-br\/" hreflang="pt-BR" lang="pt-BR">Português \(Brasil\)<\/a>/);
 });
+
+// B15 (przegląd D-043 P2-1): blokada publikacji (publicationHold) zatrzymuje stronę także w bramce, nie tylko w walidatorze.
+test('B15: wariantPublikowalny odrzuca wariant z publicationHold mimo opublikowana, treści i ok-zrodlo', async () => {
+  const { wariantPublikowalny } = await import('../site/plan.mjs');
+  const v = { id: 'apple-v09', productId: 'apple', safetyStatus: 'ok-zrodlo', ...pub };
+  assert.equal(wariantPublikowalny(v), true);
+  assert.equal(wariantPublikowalny({ ...v, publicationHold: { decyzja: '2026-11-02-jaratlas-x', powod: 'P-16' } }), false);
+  assert.equal(wariantPublikowalny({ ...v, safetyStatus: 'nie-publikowac', cardType: 'warning', publicationHold: { decyzja: '2026-11-02-jaratlas-x', powod: 'P-16' } }), false);
+});

@@ -5,7 +5,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { execFileSync } from 'node:child_process';
+import { createHash } from 'node:crypto';
 import { validateCatalog } from '../tools/validate-catalog.mjs';
 
 const cat = JSON.parse(readFileSync('catalog/catalog-seed.json', 'utf8'));
@@ -13,9 +13,9 @@ const rej = JSON.parse(readFileSync('docs/tresci/rejestr.json', 'utf8'));
 const V = new Map(cat.variants.map((v) => [v.id, v]));
 const R = new Map(rej.map((t) => [t.id, t]));
 const DEC = '2026-11-02-jaratlas-b15-katalog';
-const BAZA = '8001640'; // origin/claude/happy-brown-yncplj przed B15
 const nota = (id) => V.get(id).notes.find((n) => n.startsWith('[B15]') && n.includes(DEC));
-const zBazy = (plik) => { try { return JSON.parse(execFileSync('git', ['show', `${BAZA}:${plik}`], { encoding: 'utf8', maxBuffer: 1 << 28 })); } catch { return null; } };
+const h = (x) => createHash('sha256').update(JSON.stringify(x)).digest('hex').slice(0, 12);
+const bez = (v, keys) => Object.fromEntries(Object.entries(v).filter(([k]) => !keys.includes(k)));
 
 // do-researchu → ok-zrodlo: źródło szczebla 3 już w rejestrze (potwierdzone, D-027), cytat skopiowany 1:1 z rejestru do sources.
 const OK = {
@@ -32,9 +32,15 @@ const HOLD = {
 };
 const NAZWY = { 'plum-v14': 'dżem śliwkowy z pektyną', 'currant-v13': 'kompot z czerwonej porzeczki', 'currant-v10': 'sok z czerwonej porzeczki z sokownika' };
 // Tylko notatka [B15] (warunek z zlecenia niespełniony albo skutek C12 bez twierdzenia w rejestrze).
-const NOTA = ['currant-v11', 'apple-v11', 'lemon-v12', 'orange-kumquat-v11', 'olives-v14', 'rosehip-rowan-v02', 'rosehip-rowan-v07',
+const NOTA = ['peach-nectarine-v01', 'lemon-v13', 'lemon-v15', 'orange-kumquat-v14', 'grapefruit-v09', 'poultry-v14', 'wild-garlic-v09', 'currant-v11', 'apple-v11', 'lemon-v12', 'orange-kumquat-v11', 'olives-v14', 'rosehip-rowan-v02', 'rosehip-rowan-v07',
   'rhubarb-v07', 'lemon-v11', 'peach-nectarine-v10', 'mustard-v10', 'shallot-pearl-onion-v10', 'raspberry-blackberry-v15', 'grapefruit-v06'];
-const ZMIENIONE = new Set([...Object.keys(OK), ...Object.keys(HOLD), ...NOTA]);
+// Pola, które B15 wolno zmienić; reszta wariantu przypięta skrótem stanu sprzed B15 (katalog 8001640 = 07b373d), bez historii git (CI: płytki klon; D-043 P1-2).
+const POLA = Object.fromEntries([
+  ...Object.keys(OK).map((id) => [id, ['safetyStatus', 'claims', 'sources', 'notes', ...(id === 'leek-chives-v04' ? ['name', 'processFamilyId', 'acidBasis'] : [])]]),
+  ...Object.keys(HOLD).map((id) => [id, ['publicationHold', 'notes', ...(NAZWY[id] ? ['name'] : []), ...(id === 'wild-garlic-v07' ? ['safetyStatus'] : [])]]),
+  ...NOTA.map((id) => [id, ['notes']]),
+]);
+const SNAP = {"turnip-rutabaga-v10":"5ab4236b5bb9","celeriac-celery-v11":"5a2fb4106535","sour-cherry-v16":"51738d1c6120","apricot-v14":"5cb658d44985","leek-chives-v04":"0add7a32dc70","apricot-v08":"979cfe7d64bb","corn-v09":"2679b9d33ce3","plum-v14":"b231f3437679","currant-v13":"9a2ffc1c8356","currant-v10":"b4ab5b7ce402","grapes-v07":"99f7ec809b0a","raspberry-blackberry-v07":"e8796d463f94","wild-garlic-v07":"cf981b958ab9","peach-nectarine-v01":"f9c9dff0e482","lemon-v13":"5baf6a3c7cce","lemon-v15":"28ed9500e863","orange-kumquat-v14":"ef7a077d0f37","grapefruit-v09":"0bf1c2aa60f0","poultry-v14":"211dae92480c","wild-garlic-v09":"5b03cfc30629","currant-v11":"741e41ea8c65","apple-v11":"2dafe4a256ad","lemon-v12":"8813d20a7e2a","orange-kumquat-v11":"f4721f42752d","olives-v14":"c687ae513fe8","rosehip-rowan-v02":"aa1e64bbb360","rosehip-rowan-v07":"12f72cfe0d1d","rhubarb-v07":"fa7b61a8fbd0","lemon-v11":"21352862d35c","peach-nectarine-v10":"8ceeabcc5d5b","mustard-v10":"3ef7ace8be34","shallot-pearl-onion-v10":"249c419d0c07","raspberry-blackberry-v15":"a5f3ba345ec5","grapefruit-v06":"16a13ec99701"};
 
 test('B15: katalog 1.0.11 przechodzi walidację bez błędów', () => {
   assert.equal(cat.version, '1.0.11');
@@ -88,26 +94,15 @@ test('B15: blokada publikacji z decyzji d1-punkty-sporne i SUS-338; walidator od
   assert.ok(validateCatalog(k3, rej).errors.some((e) => /corn-v09: publicationHold/.test(e)), 'powód wymagany');
 });
 
-test('B15: warianty tylko z notatką mają status, claims, sources i nazwę jak w bazie', () => {
-  const baza = zBazy('catalog/catalog-seed.json');
-  assert.ok(baza, 'baza w historii git');
-  const B = new Map(baza.variants.map((v) => [v.id, v]));
-  for (const id of NOTA) {
-    const v = V.get(id), b = B.get(id);
-    assert.ok(nota(id), `${id}: notatka [B15]`);
-    for (const k of ['safetyStatus', 'claims', 'sources', 'name', 'publication']) assert.deepEqual(v[k], b[k], `${id}: ${k}`);
+test('B15: poza polami z listy warianty B15 bez cichych zmian (skrót stanu sprzed B15); publication ukryta', () => {
+  assert.deepEqual(Object.keys(SNAP).sort(), Object.keys(POLA).sort());
+  for (const [id, keys] of Object.entries(POLA)) {
+    const v = V.get(id);
+    assert.equal(h(bez(v, keys)), SNAP[id], `${id}: pola poza ${keys.join(', ')} bez zmian`);
+    assert.equal(v.publication, 'ukryta', id);
+    if (NOTA.includes(id)) assert.ok(nota(id), `${id}: notatka [B15]`);
   }
-});
-
-test('B15: poza listą zmian katalog identyczny z bazą; publication 0 zmian; rejestr bez zmian', () => {
-  const baza = zBazy('catalog/catalog-seed.json');
-  const B = new Map(baza.variants.map((v) => [v.id, v]));
-  assert.equal(cat.variants.length, baza.variants.length);
-  for (const v of cat.variants) {
-    assert.equal(v.publication, B.get(v.id).publication, `${v.id}: publication`);
-    if (!ZMIENIONE.has(v.id)) assert.deepEqual(v, B.get(v.id), `${v.id}: bez zmian`);
-  }
-  for (const k of ['categories', 'processFamilies', 'products']) assert.deepEqual(cat[k], baza[k], k);
-  const rb = zBazy('docs/tresci/rejestr.json');
-  assert.deepEqual(rej, rb, 'rejestr bez zmian (0 dodanych, 0 zmienionych, 0 usuniętych)');
+  assert.equal(V.get('wild-garlic-v07').safetyStatus, 'do-researchu', 'SUS-338: wariant ostrożniejszy (bez karty i slugu)');
+  assert.equal(V.get('currant-v11').safetyStatus, 'do-researchu', 'ACI-610 nie wymienia porzeczek');
+  assert.equal(V.get('olives-v14').safetyStatus, 'do-researchu');
 });

@@ -10,6 +10,7 @@ const rej = JSON.parse(readFileSync('docs/tresci/rejestr.json', 'utf8'));
 const c10 = JSON.parse(readFileSync('docs/tresci/E1-lodowka-zrodla-p2-2026-11-02.json', 'utf8'));
 const V = new Map(cat.variants.map((v) => [v.id, v]));
 const R = new Map(rej.map((t) => [t.id, t]));
+const B15_OK = new Set(['turnip-rutabaga-v10', 'celeriac-celery-v11', 'sour-cherry-v16', 'apricot-v14', 'leek-chives-v04']); // B15: ok-zrodlo = szczebel 1–3 (polityka-zrodel-ryzyko); stan pilnuje tests/b15-katalog.test.mjs
 const DEC = '2026-11-02-jaratlas-06-b12-katalog-c10';
 
 // Ostrzeżenia obowiązkowe kart-ostrzeżeń (B12-D4); podzbiór claims.
@@ -87,7 +88,7 @@ test('B12: 8 duplikatów C10-D12 wycofanych z następcą ok-zrodlo; status do-re
 test('B12: reszta zostaje do-researchu bez zmiany claims, sources i nazwy (w tym gianduja i anko, C10-D11)', () => {
   for (const [id, h] of Object.entries(ZOSTAJA)) {
     const v = V.get(id);
-    if (v.notes.some((n) => n.startsWith('[B15]'))) continue; // B15 (polityka źródeł wg ryzyka: szczebel 1–3) zmienia wariant; pilnuje tests/b15-katalog.test.mjs
+    if (B15_OK.has(id)) continue; // B15 (polityka źródeł wg ryzyka: szczebel 1–3) zmienia wariant; pilnuje tests/b15-katalog.test.mjs
     assert.equal(v.safetyStatus, 'do-researchu', id);
     assert.equal(v.cardType, undefined, id);
     assert.equal(v.retired, undefined, id);
@@ -190,7 +191,7 @@ test('B12 (D-043 P2): notatki [B12] wymieniają jako „poza claims” tylko twi
   for (const w of c10.warianty) {
     const v = V.get(w.id);
     const n = v.notes.find((x) => x.startsWith('[B12]'));
-    if (v.notes.some((x) => x.startsWith('[B15]'))) continue; // notatka historyczna; nowsze claims z B15
+    if (B15_OK.has(w.id)) continue; // notatka historyczna; nowsze claims z B15
     const m = n.match(/poza claims: ([^.(]+)/);
     if (m) for (const id of m[1].split(',').map((s) => s.trim()).filter(Boolean)) assert.ok(!v.claims.includes(id), `${w.id}: ${id} jest w claims`);
   }
