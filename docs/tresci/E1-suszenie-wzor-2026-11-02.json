@@ -1,0 +1,373 @@
+{
+  "data": "2026-11-02",
+  "rola": "06-tresci build, tor C2",
+  "galaz": "claude/jaratlas-c2-suszenie",
+  "baza": "5295e54",
+  "kolejka": {
+    "metoda": "dry-storage",
+    "status": "ok-zrodlo",
+    "liczba": 69,
+    "z_karta": 0
+  },
+  "partie": [
+    {
+      "nazwa": "S1 zioła, kwiaty, pestki, fasola z krzaka (tylko NCHFP, szczebel 1)",
+      "liczba": 8,
+      "warianty": [
+        "garden-herbs-v14",
+        "foraged-blossoms-v13",
+        "elderberry-elderflower-v10",
+        "vine-leaves-greens-v11",
+        "vine-leaves-greens-v12",
+        "fennel-artichoke-v10",
+        "pumpkin-v16",
+        "beans-soy-v14"
+      ]
+    },
+    {
+      "nazwa": "S2 owoce w kawałkach (kwas askorbinowy)",
+      "liczba": 8,
+      "warianty": [
+        "apple-v17",
+        "pear-v13",
+        "peach-nectarine-v14",
+        "apricot-v13",
+        "strawberry-v16",
+        "pineapple-banana-v10",
+        "watermelon-melon-v10",
+        "chokeberry-seabuckthorn-v12"
+      ]
+    },
+    {
+      "nazwa": "S3 owoce w całości (nacinanie skórki)",
+      "liczba": 8,
+      "warianty": [
+        "plum-v17",
+        "mirabelle-v11",
+        "sour-cherry-v15",
+        "sweet-cherry-v12",
+        "currant-v14",
+        "blueberry-bilberry-v13",
+        "chokeberry-seabuckthorn-v11",
+        "cranberry-lingonberry-v13"
+      ]
+    },
+    {
+      "nazwa": "S4 skóry owocowe i owoce z blokiem",
+      "liczba": 8,
+      "warianty": [
+        "apple-v18",
+        "plum-v16",
+        "mirabelle-v10",
+        "apricot-v09",
+        "mango-papaya-v10",
+        "grapes-v10",
+        "raspberry-blackberry-v15",
+        "elderberry-elderflower-v11"
+      ]
+    },
+    {
+      "nazwa": "S5 warzywa I (blanszowanie)",
+      "liczba": 8,
+      "warianty": [
+        "white-cabbage-v16",
+        "red-savoy-cabbage-v11",
+        "cauliflower-v13",
+        "broccoli-v10",
+        "green-beans-v13",
+        "peas-chickpeas-v14",
+        "bell-pepper-v17",
+        "onion-v13"
+      ]
+    },
+    {
+      "nazwa": "S6 warzywa II",
+      "liczba": 8,
+      "warianty": [
+        "pumpkin-v15",
+        "eggplant-v15",
+        "potato-sunchoke-v12",
+        "shallot-pearl-onion-v14",
+        "asparagus-v10",
+        "tomato-v16",
+        "garlic-v15",
+        "leafy-greens-v12"
+      ]
+    },
+    {
+      "nazwa": "S7 warzywa III i chipsy",
+      "liczba": 7,
+      "warianty": [
+        "horseradish-v11",
+        "leafy-greens-v10",
+        "green-beans-v14",
+        "cultivated-mushrooms-v11",
+        "zucchini-v16",
+        "beetroot-v15",
+        "parsnip-parsley-v09"
+      ]
+    },
+    {
+      "nazwa": "S8 proszki (SUS-040, tylko Clemson)",
+      "liczba": 8,
+      "warianty": [
+        "red-savoy-cabbage-v12",
+        "broccoli-v11",
+        "leafy-greens-v11",
+        "chili-pepper-v18",
+        "beetroot-v16",
+        "onion-v14",
+        "horseradish-v12",
+        "garlic-v16"
+      ]
+    },
+    {
+      "nazwa": "S9 grzyby dzikie (ostrzeżenie SUS-035)",
+      "liczba": 4,
+      "warianty": [
+        "boletes-v11",
+        "boletes-v12",
+        "chanterelle-milkcap-v13",
+        "wild-mushrooms-v09"
+      ]
+    },
+    {
+      "nazwa": "M jerky (blok mięsa, osobny przegląd)",
+      "liczba": 2,
+      "warianty": [
+        "beef-veal-v08",
+        "game-lamb-v09"
+      ]
+    }
+  ],
+  "luki": [
+    {
+      "id": "C2-01",
+      "p": "P1",
+      "kto": "06",
+      "opis": "brak twierdzeń produktowych dla 69 wariantów"
+    },
+    {
+      "id": "C2-02",
+      "p": "P1",
+      "kto": "06",
+      "opis": "SUS-001 bez źródła dla warzyw (rejestr weryfikacjaE3)"
+    },
+    {
+      "id": "C2-03",
+      "p": "P1",
+      "kto": "06",
+      "opis": "brak twierdzeń: test suchości, piekarnik z termometrem, pojemniki i miejsce, studzenie przed testem"
+    },
+    {
+      "id": "C2-04",
+      "p": "P1",
+      "kto": "tor A",
+      "opis": "jerky bez requiredWarnings MIE-036/MIE-035/MIE-033"
+    },
+    {
+      "id": "C2-05",
+      "p": "P1",
+      "kto": "tor A",
+      "opis": "nazwa beef-veal-v08 65°C sprzeczna z NCHFP 140ºF"
+    },
+    {
+      "id": "C2-06",
+      "p": "P2",
+      "kto": "tor A",
+      "opis": "niezmienniki: percent vs %, mg poza SYMBOL"
+    },
+    {
+      "id": "C2-07",
+      "p": "P2",
+      "kto": "tor A",
+      "opis": "liczby sklejone z literami (O157:H7) poza porównaniem"
+    },
+    {
+      "id": "C2-08",
+      "p": "P2",
+      "kto": "tor A/06",
+      "opis": "ułamki mieszane 2 1/2 w kontrole-tresci"
+    },
+    {
+      "id": "C2-09",
+      "p": "P2",
+      "kto": "05",
+      "opis": "jerky w rodzinie drying, progi MIE w meat-curing-smoking"
+    },
+    {
+      "id": "C2-10",
+      "p": "P2",
+      "kto": "właściciel/06",
+      "opis": "Clemson, PMC, FSIS niedostępne 2026-11-02"
+    }
+  ],
+  "zrodla_odczyt": [
+    {
+      "plik": "01",
+      "curl": 0,
+      "tekst_bajty": 12832,
+      "sha12_html": "2b7b102439dc",
+      "adres": "https://nchfp.uga.edu/how/dry/drying-general/food-dehydrators/"
+    },
+    {
+      "plik": "02",
+      "curl": 0,
+      "tekst_bajty": 17503,
+      "sha12_html": "99cc1ffd7735",
+      "adres": "https://extension.colostate.edu/resource/drying-fruits/"
+    },
+    {
+      "plik": "03",
+      "curl": 0,
+      "tekst_bajty": 16559,
+      "sha12_html": "9c8e3886c292",
+      "adres": "https://extension.colostate.edu/resource/drying-vegetables/"
+    },
+    {
+      "plik": "04",
+      "curl": 0,
+      "tekst_bajty": 13412,
+      "sha12_html": "35c194bec7fc",
+      "adres": "https://nchfp.uga.edu/how/dry/drying-general/sun-drying/"
+    },
+    {
+      "plik": "05",
+      "curl": 0,
+      "tekst_bajty": 11803,
+      "sha12_html": "be62243c3a30",
+      "adres": "https://nchfp.uga.edu/how/dry/drying-general/vine-drying/"
+    },
+    {
+      "plik": "06",
+      "curl": 0,
+      "tekst_bajty": 769,
+      "sha12_html": "18c6f1dbe32e",
+      "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/"
+    },
+    {
+      "plik": "07",
+      "curl": 0,
+      "tekst_bajty": 13980,
+      "sha12_html": "7b2934a0ed2e",
+      "adres": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/"
+    },
+    {
+      "plik": "08",
+      "curl": 0,
+      "tekst_bajty": 768,
+      "sha12_html": "28d9e265475e",
+      "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/"
+    },
+    {
+      "plik": "09",
+      "curl": 0,
+      "tekst_bajty": 18517,
+      "sha12_html": "23cf44a04356",
+      "adres": "https://extension-store.montana.edu/montguides/drying-vegetables"
+    },
+    {
+      "plik": "10",
+      "curl": 0,
+      "tekst_bajty": 16181,
+      "sha12_html": "cf42c3f80989",
+      "adres": "https://nchfp.uga.edu/how/dry/recipes/fruit-leathers/"
+    },
+    {
+      "plik": "11",
+      "curl": 0,
+      "tekst_bajty": 14835,
+      "sha12_html": "662be9158858",
+      "adres": "https://nchfp.uga.edu/how/dry/recipes/mango-leather/"
+    },
+    {
+      "plik": "12",
+      "curl": 0,
+      "tekst_bajty": 12136,
+      "sha12_html": "fc35ca9860ec",
+      "adres": "https://nchfp.uga.edu/how/dry/recipes/vegetable-leathers/"
+    },
+    {
+      "plik": "13",
+      "curl": 0,
+      "tekst_bajty": 14277,
+      "sha12_html": "957451ac949e",
+      "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/"
+    },
+    {
+      "plik": "14",
+      "curl": 0,
+      "tekst_bajty": 11345,
+      "sha12_html": "28b16de01824",
+      "adres": "https://nchfp.uga.edu/how/dry/recipes/pumpkin-seeds/"
+    },
+    {
+      "plik": "15",
+      "curl": 0,
+      "tekst_bajty": 20472,
+      "sha12_html": "96e5cfbd7956",
+      "adres": "https://extension.oregonstate.edu/catalog/pub/em-9446-play-it-safe-when-preserving-elderberries"
+    },
+    {
+      "plik": "16",
+      "curl": 0,
+      "tekst_bajty": 167,
+      "sha12_html": "066530f5679d",
+      "adres": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8401630/"
+    },
+    {
+      "plik": "17",
+      "curl": 0,
+      "tekst_bajty": 13969,
+      "sha12_html": "ce8613a8cfc0",
+      "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/"
+    },
+    {
+      "plik": "18",
+      "curl": 0,
+      "tekst_bajty": 13261,
+      "sha12_html": "9e543535cca2",
+      "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/"
+    },
+    {
+      "plik": "19",
+      "curl": 0,
+      "tekst_bajty": 16787,
+      "sha12_html": "844aa782c3f3",
+      "adres": "https://nchfp.uga.edu/how/dry/recipes/jerky/"
+    },
+    {
+      "plik": "20",
+      "curl": 0,
+      "tekst_bajty": 16773,
+      "sha12_html": "7f422e01dcd9",
+      "adres": "https://nchfp.uga.edu/how/dry/jerky"
+    },
+    {
+      "plik": "21",
+      "curl": 0,
+      "tekst_bajty": 10841,
+      "sha12_html": "66147c463f57",
+      "adres": "https://nchfp.uga.edu/how/dry/drying-general/drying-fruits-and-vegetables/"
+    },
+    {
+      "plik": "22",
+      "adres": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/jerky",
+      "wynik": "Access Denied"
+    }
+  ],
+  "cytaty_rejestru": {
+    "sprawdzone_dzis": 57,
+    "niesprawdzone": [
+      "SUS-006",
+      "SUS-009",
+      "SUS-021",
+      "SUS-039",
+      "SUS-040",
+      "SUS-042",
+      "SUS-043",
+      "SUS-044"
+    ]
+  },
+  "decyzje": "tablica decisions 2026-11-02-jaratlas-06-c2-suszenie"
+}
