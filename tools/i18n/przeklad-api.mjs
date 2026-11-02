@@ -6,7 +6,7 @@
 //   - --limit to limit kosztu w USD na przebieg (we wzorze --max-koszt); podzbiór języków: --jezyki fr,de;
 //   - każde zdanie przechodzi kontrolę niezmienników (tools/i18n/niezmienniki.mjs): [T:ID], liczby, °F/°C, czasy, jednostki, nazwy własne;
 //   - wynik ma status „do przeglądu”; --zastosuj zapisuje do docs/tresci/przeklady/, NIGDY do docs/tresci/karty/ ani site/ (nie trafia na stronę).
-// Źródło: docs/tresci/karty/en/warianty/*.json (ze znacznikami [T:ID]) + karta pl jako drugi tekst odniesienia; slugi: site/slugi/en.json.
+// Źródło: docs/tresci/karty/en/warianty/*.json (ze znacznikami [T:ID]) + karta pl jako drugi tekst odniesienia (dla fr, es, de, it); slugi: site/slugi/en.json.
 // pl (en = baza, decyzja 2026-11-02-jaratlas-en-baza): tylko karty bez karty pl i slugi bez slugu pl (segmentyJezyka); istniejące karty pl zostają.
 // Klucz: wyłącznie zmienna środowiskowa ANTHROPIC_API_KEY (nigdy w logach, raporcie ani argumentach). Bez zależności npm (ADR 0001): fetch.
 // Użycie:
@@ -84,15 +84,21 @@ export function wczytajZrodlo(root) {
     const istniejePl = existsSync(plPlik);
     for (const s of segmenty(JSON.parse(tekst), wariant)) seg.push({ ...s, pl: pl[s.id] ?? null, istniejePl });
   }
+  const slugPlPlik = join(root, 'site/slugi/pl.json');
+  const slugiPl = existsSync(slugPlPlik) ? czytaj(slugPlPlik) : {};
   const slugPlik = join(root, 'site/slugi/en.json');
   if (existsSync(slugPlik)) {
     const tekst = readFileSync(slugPlik, 'utf8'); const sl = JSON.parse(tekst);
     zrodla.slug = { plik: 'site/slugi/en.json', sha256: sha(tekst) };
-    const plSl = existsSync(join(root, 'site/slugi/pl.json')) ? czytaj(join(root, 'site/slugi/pl.json')) : {};
-    for (const grupa of ['produkty', 'warianty']) for (const [k, v] of Object.entries(sl[grupa] ?? {})) seg.push({ id: `slug/${grupa}/${k}`, en: v, pl: null, istniejePl: typeof plSl[grupa]?.[k] === 'string' });
+    for (const grupa of ['produkty', 'warianty']) for (const [k, v] of Object.entries(sl[grupa] ?? {})) seg.push({ id: `slug/${grupa}/${k}`, en: v, pl: null, istniejePl: maSlug(slugiPl, grupa, k) });
   }
-  return { segmenty: seg, zrodla };
+  return { segmenty: seg, zrodla, zajetePl: zajete(slugiPl) };
 }
+const maSlug = (sl, grupa, k) => typeof sl[grupa]?.[k] === 'string' && sl[grupa][k].trim() !== '';
+/** Slugi już użyte w pl, wg grupy: nowy slug pl nie może się z nimi zderzyć (ten sam adres). */
+const zajete = (sl) => Object.fromEntries(['produkty', 'warianty'].map((g) => [g, new Set(Object.values(sl[g] ?? {}).filter((v) => typeof v === 'string' && v.trim()))]));
+/** Zajęte slugi dla języka docelowego: tylko pl ma istniejące slugi uzupełniane częściowo. */
+export const zajeteDla = (kod, z) => (kod === 'pl' ? z : {});
 
 /** Segmenty do przekładu na dany język: dla pl tylko te bez istniejącej wersji pl (przejrzane karty pl nie są tłumaczone ponownie). */
 export const segmentyJezyka = (kod, seg) => (kod === 'pl' ? seg.filter((s) => !s.istniejePl) : seg);
@@ -141,7 +147,7 @@ export function zamkniecieObiektu(s, a) {
 }
 
 /** Odpowiedź modelu → { blad, propozycje: {id: przekład}, odrzucone: [{id, powod, tlumaczenie?}] }. Każde zdanie przechodzi porownaj(). */
-export function parsujOdpowiedz(tekst, seg, kod) {
+export function parsujOdpowiedz(tekst, seg, kod, zajeteSlugi = {}) {
   const s = String(tekst ?? '').trim();
   const a = s.indexOf('{'); const b = zamkniecieObiektu(s, a);
   const wszystkie = (powod) => seg.map((x) => ({ id: x.id, powod }));
@@ -164,6 +170,7 @@ export function parsujOdpowiedz(tekst, seg, kod) {
   const grupy = {};
   for (const [id, v] of Object.entries(propozycje)) if (id.startsWith('slug/')) { const g = id.split('/')[1]; ((grupy[g] ??= {})[v] ??= []).push(id); }
   for (const g of Object.values(grupy)) for (const [v, ids] of Object.entries(g)) if (ids.length > 1) for (const id of ids) { delete propozycje[id]; odrzucone.push({ id, powod: `slug: powtórzony w grupie („${v}”)`, tlumaczenie: v }); }
+  for (const [id, v] of Object.entries(propozycje)) if (id.startsWith('slug/') && zajeteSlugi[id.split('/')[1]]?.has(v)) { delete propozycje[id]; odrzucone.push({ id, powod: `slug: zajęty w istniejących slugach („${v}”)`, tlumaczenie: v }); }
   for (const id of Object.keys(uw)) if (!(id in propozycje)) delete uw[id];
   return { blad: null, propozycje, odrzucone, uwagi: uw };
 }
@@ -179,8 +186,8 @@ export function odczytajLinie(linia) {
   return { kod, blad: null, tekst, uzycie: m.usage ?? null };
 }
 
-export function raportJezyka(kod, seg, odczyt, meta) {
-  const p = odczyt.blad ? { blad: odczyt.blad, propozycje: {}, odrzucone: seg.map((x) => ({ id: x.id, powod: 'brak odpowiedzi' })) } : parsujOdpowiedz(odczyt.tekst, seg, kod);
+export function raportJezyka(kod, seg, odczyt, meta, zajeteSlugi = {}) {
+  const p = odczyt.blad ? { blad: odczyt.blad, propozycje: {}, odrzucone: seg.map((x) => ({ id: x.id, powod: 'brak odpowiedzi' })) } : parsujOdpowiedz(odczyt.tekst, seg, kod, zajeteSlugi);
   return { jezyk: kod, status: STATUS, ...meta, uzycie: odczyt.uzycie ?? null, segmentow: seg.length, przyjete: Object.keys(p.propozycje).length, blad: p.blad, odrzucone: p.odrzucone, uwagi: p.uwagi ?? {}, propozycje: p.propozycje };
 }
 
@@ -245,7 +252,7 @@ const ustaw = (obj, sciezka, v) => { const k = sciezka.split('/'); let o = obj; 
 /** Raport → docs/tresci/przeklady/<język>/warianty/<wariant>.json i slugi.json, status „do przeglądu”. Zapisuje tylko kompletne karty, których źródło en
  * nie zmieniło się od przekładu; każde zdanie ponownie przez porownaj(). Nie dotyka docs/tresci/karty/ ani site/ (publikacja bez zmian). */
 export function zastosuj(root, katalog, { nadpisz = false } = {}) {
-  const { segmenty: seg, zrodla } = wczytajZrodlo(root);
+  const { segmenty: seg, zrodla, zajetePl } = wczytajZrodlo(root);
   const wynik = { jezykow: 0, kart: 0, slugow: 0, pominiete: [] };
   for (const f of readdirSync(katalog).filter((n) => n.endsWith('.json') && n !== 'szacunek.json')) {
     const r = czytaj(join(katalog, f)); const kod = r.jezyk;
@@ -266,6 +273,8 @@ export function zastosuj(root, katalog, { nadpisz = false } = {}) {
         for (const x of xs) { const [, grupa, k] = x.id.split('/'); sl[grupa][k] = prop[x.id]; }
         const dup = Object.entries(sl).filter(([, m]) => new Set(Object.values(m)).size !== Object.values(m).length).map(([gr]) => gr);
         if (dup.length) { wynik.pominiete.push(`${kod}/slugi: powtórzone slugi w grupie ${dup.join(', ')}`); continue; }
+        const z = zajeteDla(kod, zajetePl); const kol = Object.entries(sl).filter(([gr, m]) => Object.values(m).some((v) => z[gr]?.has(v))).map(([gr]) => gr);
+        if (kol.length) { wynik.pominiete.push(`${kod}/slugi: slug zajęty w istniejących slugach grupy ${kol.join(', ')}`); continue; }
         mkdirSync(cel, { recursive: true }); writeFileSync(join(cel, 'slugi.json'), JSON.stringify({ ...meta, zrodlo: { jezyk: 'en', ...zrodla[g] }, ...sl }, null, 2) + '\n');
         wynik.slugow += xs.length; continue;
       }
@@ -320,10 +329,11 @@ export async function main(argv, env, { fetchFn = fetch, log = console.log, root
   for (const zak of ['docs', 'site', 'dist', 'tools', 'tests', 'catalog']) { const z = resolve(root, zak); if (wyj === z || wyj.startsWith(z + '/')) throw new Error(`--wyjscie: katalog raportu nie może leżeć w ${zak}/ (raport to artefakt, nie źródło)`); }
   const klucz = env.ANTHROPIC_API_KEY || '';
   const api = klucz ? klient(fetchFn, klucz) : null;
-  const { segmenty: seg, zrodla } = wczytajZrodlo(root);
+  const { segmenty: seg, zrodla, zajetePl } = wczytajZrodlo(root);
   const segK = Object.fromEntries(o.jezyki.map((k) => [k, segmentyJezyka(k, seg)]));
-  for (const k of o.jezyki) if (!segK[k].length) log(`${k}: 0 segmentów do przekładu (wszystko ma już wersję ${k}), język pominięty`);
-  const kody = o.jezyki.filter((k) => segK[k].length);
+  for (const k of o.jezyki) if (!segK[k].length) log(`${k}: 0 segmentów do przekładu (wszystko ma już wersję ${k})${o.wznow ? '; przy --wznow wynik tego języka nie zostanie użyty' : ', język pominięty'}`);
+  // --wznow: batch już wysłany, więc nie zmieniamy listy języków (wynik języka bez segmentów ląduje w raporcie jako 0 segmentów, nie znika po cichu).
+  const kody = o.wznow ? o.jezyki : o.jezyki.filter((k) => segK[k].length);
   log(`segmentów: ${seg.length} (karty i slugi en); języków: ${kody.length} (${kody.join(', ')}); model ${o.model}, effort ${o.effort}`);
   if (!kody.length) { log('nic do przekładu: nic nie wysłano'); return 0; }
   mkdirSync(o.wyjscie, { recursive: true });
@@ -349,7 +359,7 @@ export async function main(argv, env, { fetchFn = fetch, log = console.log, root
   const linie = (await api.wyniki(batch.results_url)).split('\n').filter((l) => l.trim());
   const odczyty = Object.fromEntries(linie.map((l) => { const r = odczytajLinie(l); return [r.kod, r]; }));
   const meta = { model: o.model, effort: o.effort, batch_id: id, data: teraz().toISOString().slice(0, 10), zrodla };
-  const raporty = kody.map((k) => raportJezyka(k, segK[k], odczyty[k] ?? { blad: 'brak wyniku w batchu', tekst: null }, meta));
+  const raporty = kody.map((k) => raportJezyka(k, segK[k], odczyty[k] ?? { blad: 'brak wyniku w batchu', tekst: null }, meta, zajeteDla(k, zajetePl)));
   for (const r of raporty) writeFileSync(join(o.wyjscie, `${r.jezyk}.json`), JSON.stringify(r, null, 1) + '\n');
   writeFileSync(join(o.wyjscie, 'podsumowanie.md'), podsumowanieMd(raporty, meta));
   log(`raport: ${o.wyjscie}/ (${raporty.length} języków, odrzucone segmenty: ${raporty.reduce((s, r) => s + r.odrzucone.length, 0)}; status „${STATUS}”)`);
