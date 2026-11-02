@@ -56,6 +56,8 @@ Lime curd uses the same recipe: instead of the lemon juice and zest, use 1 cup b
 
 ## When to throw it away
 
+Freezing does not kill all bacteria, yeasts and molds in food; it only stops them multiplying while the food is held at 0 °F (−18 °C) or lower. [T:SLO-401]
+
 Food is safe while it stays frozen, but once it thaws and warms above 40 °F (about 4 °C), bacteria present before freezing can start to multiply. [T:SUS-059]
 
 During a power outage keep the freezer closed: according to the FDA, a full freezer holds its temperature for about 48 hours, a half-full one for 24 hours. [T:SLO-259]

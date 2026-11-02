@@ -10,6 +10,8 @@ The other ingredients are 2 1/2 cups of superfine sugar, 3/4 cup of chilled unsa
 
 Use bottled lime juice, as the variation says: NCHFP uses bottled juice to standardize the acidity, because the acidity of fresh juice can vary. [T:SLO-043,SLO-039]
 
+JarAtlas rule (cautious): NCHFP tested only this recipe and does not recommend canning other citrus or fruit curds, so do not change the amounts of juice, sugar, eggs or butter, and do not replace the bottled juice with fresh juice. [T:SLO-763]
+
 JarAtlas scope: this card covers lime curd only; NCHFP does not recommend other citrus curds, such as bergamot curd, for canning at this time. [T:SLO-043]
 
 If you have no superfine sugar, grind granulated sugar in a grinder or food processor for 1 minute, let it settle and use it instead; do not use powdered sugar. [T:SLO-236]

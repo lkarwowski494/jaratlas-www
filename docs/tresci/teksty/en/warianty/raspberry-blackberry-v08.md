@@ -42,7 +42,7 @@ As the mixture thickens, stir often to keep it from sticking. [T:SLO-147]
 
 Temperature test: at sea level the jam is ready at 220 °F (about 104 °C), 8 °F (about 4.4 °C) above the boiling point of water. [T:SLO-154]
 
-Higher up, use the NCHFP table for jams: 218 °F at 1000 ft, 216 °F at 2000 ft, 214 °F at 3000 ft, 212 °F at 4000 ft, 211 °F at 5000 ft, 209 °F at 6000 ft, 207 °F at 7000 ft and 205 °F at 8000 ft (1000 ft is about 300 m). [T:SLO-154]
+Higher up, use the NCHFP table for jams: 218 °F (about 103.3 °C) at 1000 ft, 216 °F (about 102.2 °C) at 2000 ft, 214 °F (about 101.1 °C) at 3000 ft, 212 °F (100 °C) at 4000 ft, 211 °F (about 99.4 °C) at 5000 ft, 209 °F (about 98.3 °C) at 6000 ft, 207 °F (about 97.2 °C) at 7000 ft and 205 °F (about 96.1 °C) at 8000 ft (1000 ft is about 300 m). [T:SLO-154]
 
 Freezer test: take the jam off the heat, put a little boiling jam on a cold plate and place it in the freezer compartment of the refrigerator for a few minutes; if it gels, the jam is ready to fill. [T:SLO-155]
 

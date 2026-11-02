@@ -100,6 +100,8 @@ Thaw in cold water only in a leak-proof package or bag, only while the water sta
 
 ## When to throw away
 
+Freezing does not kill all bacteria, yeasts and molds in food; it only stops them multiplying while the food is held at 0 °F (−18 °C) or lower. [T:SLO-401]
+
 Food is safe while it stays frozen, but once it thaws and rises above 40 °F (about 4 °C), bacteria that were present before freezing can begin to multiply. [T:SUS-059]
 
 During a power cut keep the freezer door closed: according to the FDA, a full freezer keeps its temperature for about 48 hours, or 24 hours if it is half full. [T:SLO-259]

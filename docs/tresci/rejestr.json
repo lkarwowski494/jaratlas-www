@@ -29654,7 +29654,7 @@
  },
  {
   "id": "SLO-154",
-  "twierdzenie": "NCHFP test temperatury dla dżemu bez dodanej pektyny (Table 3): masa jest gotowa przy 220 °F (ok. 104 °C) na poziomie morza, czyli 8 °F (ok. 4,4 °C) powyżej temperatury wrzenia wody; wyżej według tabeli: 1000 stóp 218 °F, 2000 stóp 216 °F, 3000 stóp 214 °F, 4000 stóp 212 °F, 5000 stóp 211 °F, 6000 stóp 209 °F, 7000 stóp 207 °F, 8000 stóp 205 °F (1000 stóp to ok. 300 m); dżem gęstnieje jeszcze podczas stygnięcia.",
+  "twierdzenie": "NCHFP test temperatury dla dżemu bez dodanej pektyny (Table 3): masa jest gotowa przy 220 °F (ok. 104 °C) na poziomie morza, czyli 8 °F (ok. 4,4 °C) powyżej temperatury wrzenia wody; wyżej według tabeli: 1000 stóp 218 °F (ok. 103,3 °C), 2000 stóp 216 °F (ok. 102,2 °C), 3000 stóp 214 °F (ok. 101,1 °C), 4000 stóp 212 °F (100 °C), 5000 stóp 211 °F (ok. 99,4 °C), 6000 stóp 209 °F (ok. 98,3 °C), 7000 stóp 207 °F (ok. 97,2 °C), 8000 stóp 205 °F (ok. 96,1 °C) (1000 stóp to ok. 300 m); dżem gęstnieje jeszcze podczas stygnięcia.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/testing-jelly-without-added-pectin/",
@@ -29685,7 +29685,7 @@
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "Przeliczenie: 220 °F = 104,4 °C (w karcie „ok. 104 °C”), 8 °F = 4,4 °C, 1000 stóp = 304,8 m (w karcie „ok. 300 m”). Test gotowości dotyczy konsystencji, nie bezpieczeństwa; bezpieczeństwo daje przepis z cukrem i czas wekowania. Reguła „2 °F mniej na 1000 stóp” ze strony o galaretkach pominięta, bo powyżej 4000 stóp rozjeżdża się z tabelą dla dżemu.",
+  "uproszczenie": "Przeliczenie: 220 °F = 104,4 °C (w karcie „ok. 104 °C”), 8 °F = 4,4 °C, 1000 stóp = 304,8 m (w karcie „ok. 300 m”). Test gotowości dotyczy konsystencji, nie bezpieczeństwa; bezpieczeństwo daje przepis z cukrem i czas wekowania. Reguła „2 °F mniej na 1000 stóp” ze strony o galaretkach pominięta, bo powyżej 4000 stóp rozjeżdża się z tabelą dla dżemu. Stopnie Celsjusza w tabeli (p31, D2-2-01) to rachunek JarAtlas (F−32)×5/9 z jednym miejscem po przecinku.",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",
@@ -35734,7 +35734,7 @@
     "sha12": "d1a80ab9e163"
    }
   ],
-  "status": "robocze",
+  "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
   "przeglad": null,
@@ -37476,6 +37476,183 @@
   "twierdzenie_en": "According to Michigan State Univ. Extension (2023), melons are not well suited for canning unless pickled or made into preserves; the University of California does not recommend canning low-acid fruits such as melon, because the boiling-water process is not hot enough to reduce the risk of botulism.",
   "uwaga": "Zgodne z ACI-026/ACI-027/ACI-028 (szczebel 1); dodaje wprost ostrzeżenie o botulizmie dla melonów.",
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "status": "potwierdzone",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p31 (karty lodówkowe)",
+  "id": "ACI-706",
+  "twierdzenie": "NC State i UC MFP, szybkie pikle lodówkowe: warzywa umyć i pokroić w dowolny kształt, bez gotowania; do słoika można dodać do 2 łyżek świeżych lub suszonych ziół i przypraw z listy (m.in. liść laurowy, nasiona selera, kopru, gorczycy i kminu rzymskiego, chili, ziarna pieprzu, kurkuma, mieszanka do pikli, świeży koper, czosnek, oregano, szalotka, chrzan, papryczki jalapeño lub habanero); warzywa ułożyć ciasno w umytych słoikach o pojemności pinty (ok. 473 ml) albo podobnych pojemnikach szklanych lub z tworzywa odpornego na gorąco, z pokrywkami; do zalewy kwaśnej opcjonalnie 2 łyżki cukru.",
+  "twierdzenie_en": "NC State and UC MFP, quick refrigerator pickles: wash the vegetables and cut them into the desired shape, without cooking; up to 2 tablespoons per jar of fresh or dried herbs and spices from the list may be added (e.g. bay leaves, celery, dill, mustard and cumin seed, chile peppers, peppercorns, turmeric, pickling spice, fresh dill, garlic, oregano, shallot, horseradish, jalapeño or habanero peppers); pack the vegetables snugly into washed pint-sized (about 473 ml) canning jars or similar glass or heatproof plastic containers with lids; the sour brine may include 2 tbsp sugar (optional).",
+  "zrodla": [
+   {
+    "adres": "https://foodsafety.ces.ncsu.edu/news/how-to-make-quick-refrigerator-pickles/",
+    "miejsce": "NC State Extension, How to Make Quick Refrigerator Pickles; Step 1–3",
+    "cytat": "Wash and chop vegetables into the desired shape you would like for pickles. These vegetables do not require any cooking prior to pickling. | Mix and match from the following suggested list of fresh and dried herbs and spices to add up to 2 tablespoons per jar. | Pack prepared vegetables snugly into washed pint-sized canning jars or similar sized glass or heatproof plastic containers with lids.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "8d5f8e8b8d0f"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/MFP%20Quick%20Refrigerator%20Pickles.pdf",
+    "miejsce": "UC Master Food Preserver Program, Quick Refrigerator Pickles (07.2025); s. 2, Sour Brine i Dry/Fresh flavorings",
+    "cytat": "3 Tbsp canning/pickling salt 2 Tbsp sugar (optional) | • bay leaves • celery seed • chile peppers • cumin seed • dill seed • mustard seed • pickling spice • peppercorns • turmeric",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "276cacc014c5"
+   }
+  ],
+  "uproszczenie": "Pojemność pinty (ok. 473 ml) z ACI-174; lista przypraw skrócona do przykładów.",
+  "jednoZrodlo": false
+ },
+ {
+  "status": "potwierdzone",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p31 (karty lodówkowe)",
+  "id": "ACI-707",
+  "twierdzenie": "UC MFP, cebula marynowana (Pickled Onions): cebulę obrać, opłukać i pokroić cienko; ułożyć ciasno w słoiku albo pojemniku z pokrywką; do zalewy 2 łyżeczki cukru i opcjonalnie przyprawy; zalewę gotować 2 minuty i wlać, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; przykryć; przepis nie podaje ilości cebuli, bo najważniejsze są proporcje zalewy.",
+  "twierdzenie_en": "UC MFP, Pickled Onions: peel and rinse the onions and slice them thinly; pack them tightly into a jar or container with a lid; the brine also has 2 tsp sugar and optional spices; boil the brine for 2 minutes and fill, leaving 1/2-inch (about 1.3 cm) headspace; cover; the recipe gives no amount of onions, because the brine ratios matter most.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/MFP%20Quick%20Refrigerator%20Pickles.pdf",
+    "miejsce": "UC Master Food Preserver Program, Quick Refrigerator Pickles (07.2025); s. 2, Pickled Onions",
+    "cytat": "2 tsp sugar desired spices (optional) | 1. Peel and rinse onions, then slice thinly. | 3. Bring brine to a boil for 2 minutes and fill containers, leaving 1/2-inch headspace. Cover. | Note: there is no specified amount of onions in this recipe as what’s most important is to have the right ratios in your brine.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "276cacc014c5"
+   }
+  ],
+  "uproszczenie": null,
+  "jednoZrodlo": true
+ },
+ {
+  "status": "potwierdzone",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p31 (karty lodówkowe)",
+  "id": "ACI-708",
+  "twierdzenie": "Mississippi State, szybkie ogórki z cebulą: do zalewy także 2 łyżki cukru, 2 łyżeczki soli i 1 łyżeczka pieprzu; ogórki umyć pod bieżącą wodą i pokroić cienko; cebulę obrać i pokroić w cienkie plasterki; czosnek posiekać; warzywa włożyć do słoika o pojemności kwarty (ok. 946 ml); ocet, wodę, sól, cukier i pieprz mieszać do rozpuszczenia, wlać, przykryć i chłodzić w lodówce do schłodzenia albo przez noc; resztki wstawić do lodówki w ciągu 2 godzin.",
+  "twierdzenie_en": "Mississippi State, quick-pickle cucumbers and onions: the brine also has 2 tbsp sugar, 2 tsp salt and 1 tsp pepper; wash the cucumbers under running water and slice thinly; peel the onion and cut into thin slices; cut the garlic into small pieces; place the vegetables in a one-quart (about 946 ml) jar; stir the vinegar, water, salt, sugar and pepper until dissolved, pour in, cover and refrigerate until chilled or overnight; refrigerate leftovers within 2 hours.",
+  "zrodla": [
+   {
+    "adres": "https://happyhealthy.extension.msstate.edu/recipes/quick-pickle-cucumbers-and-onions",
+    "miejsce": "Mississippi State Univ. Extension, Quick-Pickle Cucumbers and Onions; Ingredients, Directions",
+    "cytat": "2 T sugar 2 tsp salt 1 tsp pepper | Wash cucumbers under running water. Thinly slice cucumbers. | Peel and cut onion into thin slices. | Place the cucumbers, onions, and garlic into a one-quart jar. | Cover and refrigerate until chilled, or overnight. | Refrigerate leftovers within 2 hours.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9d51754acd20"
+   }
+  ],
+  "uproszczenie": "Pojemność kwarty (ok. 946 ml) z ACI-174.",
+  "jednoZrodlo": true
+ },
+ {
+  "status": "potwierdzone",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p31 (karty lodówkowe)",
+  "id": "ACI-709",
+  "twierdzenie": "Wisconsin B2267, przepis „Cucumber pickles with onions or vegetable medley”: do zalewy także 1/3 szklanki soli do przetworów oraz po 1 1/2 łyżeczki nasion selera, gorczycy i kurkumy; składniki zalewy mieszać do rozpuszczenia cukru (podgrzewanie nie jest konieczne, ale przyspiesza rozpuszczanie i marynowanie); warzywa umyć i przygotować, końce kwiatowe ogórków odciąć i wyrzucić; gorące wysterylizowane słoiki pintowe albo kwartowe napełnić warzywami, zalać gorącą zalewą i zamknąć czystymi pokrywkami; wydajność 2 kwarty; słoiki umyć w gorącej wodzie z płynem, wypłukać i wysterylizować, gotując 10 minut.",
+  "twierdzenie_en": "Wisconsin B2267, recipe “Cucumber pickles with onions or vegetable medley”: the pickling solution also has 1/3 cup canning and pickling salt and 1 1/2 tsp each of celery seed, mustard seed and turmeric; mix the solution until the sugar dissolves (heating is not required but dissolves the sugar and pickles the vegetables faster); wash and prepare the vegetables, trim the blossom ends from the cucumbers and discard them; fill hot sterilized pint or quart jars with the vegetables, cover with hot pickling solution and cap with clean lids; yield 2 quarts; wash the jars in hot, soapy water, rinse well and sterilize them by boiling for 10 minutes.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2018-07/287722.pdf",
+    "miejsce": "Univ. of Wisconsin Extension, B2267 (kopia na serwerze UC ANR); s. 52, przepis Cucumber pickles with onions or vegetable medley",
+    "cytat": "1⁄ 3 cup canning and pickling salt | 11⁄2 tsp. each of celery seed, mustard seed and turmeric | Mix pickling solution ingredients together until sugar is dissolved. This mixture does not have to be heated, but heating will more rapidly dissolve the sugar and pickle the vegetables. | Wash and prepare vegetables, trim blossom ends from cucumbers and discard. | Fill hot sterilized** pint or quart jars with thinly sliced cucumbers and other vegetables. | Wash standard home canning jars in hot, soapy water and rinse well. Sterilize jars by boiling for 10 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "813ba68800a1"
+   }
+  ],
+  "uproszczenie": null,
+  "jednoZrodlo": true
+ },
+ {
+  "status": "potwierdzone",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p31 (karty lodówkowe)",
+  "id": "ACI-710",
+  "twierdzenie": "Nebraska–Lincoln, szybki daikon z marchewką: do zalewy 2 łyżki cukru i 1/2 łyżeczki soli; daikon i marchew wyszorować szczoteczką pod bieżącą wodą, obrać i pokroić w słupki; ułożyć w czystych słoikach albo szklanym pojemniku ze szczelną pokrywką; ocet, wodę, cukier i sól zagotować i wlać, całkowicie przykrywając warzywa; szczelnie zamknąć, wstawić do lodówki i chłodzić przez noc przed podaniem.",
+  "twierdzenie_en": "Nebraska–Lincoln, quick pickled daikon and carrots: the brine also has 2 tbsp sugar and 1/2 tsp salt; scrub the daikon and carrots with a clean vegetable brush under running water, peel and julienne them; pack them into clean canning jars or a glass container with a tight-fitting lid; bring the vinegar, water, sugar and salt to a boil and pour in, completely covering the vegetables; close tightly, refrigerate and chill overnight before serving.",
+  "zrodla": [
+   {
+    "adres": "https://food.unl.edu/recipe/quick-pickled-daikon-radish-and-carrots/",
+    "miejsce": "Univ. of Nebraska–Lincoln Extension, Quick Pickled Daikon Radish and Carrots; Ingredients, Directions",
+    "cytat": "2 Tablespoons sugar | ½ teaspoon salt | Pack julienned radish and carrots in clean canning jars or a glass container with a tight-fitting lid. | In a medium saucepan, combine vinegar, water, sugar, and salt. Bring to a boil. | Carefully pour the liquid into the jars, completely covering the vegetables. | Close jars tightly and transfer to the refrigerator. Refrigerate overnight before serving.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "c555e00c775f"
+   }
+  ],
+  "uproszczenie": null,
+  "jednoZrodlo": true
+ },
+ {
+  "status": "potwierdzone",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p31 (karty lodówkowe)",
+  "id": "ACI-711",
+  "twierdzenie": "UC ANR (MFP El Dorado): do czosnku w occie albo winie można dodać trochę suszonych przypraw, np. ziaren pieprzu, płatków chili, kminu rzymskiego albo liści laurowych; płynu i ząbków czosnku używa się do przyprawiania potraw.",
+  "twierdzenie_en": "UC ANR (MFP El Dorado): a small amount of dried spices, such as peppercorns, hot chili flakes, cumin seeds or bay leaves, may be added to garlic in wine or vinegar; the garlic-flavored liquid and the cloves may be used to flavor dishes.",
+  "zrodla": [
+   {
+    "adres": "https://ucanr.edu/sites/default/files/2023-09/388534.pdf",
+    "miejsce": "UCCE Master Food Preservers of El Dorado County, Preserving Garlic, Onions, and Shallots (16.09.2023); Storing Garlic in Wine or Vinegar and Refrigerating",
+    "cytat": "You may also add a small amount of dried spices, such as peppercorns, hot chili flakes, cumin seeds, or bay leaves, if desired. The garlic-flavored liquid and the garlic cloves may be used to flavor dishes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "8679aec48f7a"
+   }
+  ],
+  "uproszczenie": null,
+  "jednoZrodlo": true
+ },
+ {
+  "status": "potwierdzone",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p31 (karty lodówkowe)",
+  "id": "ACI-712",
+  "twierdzenie": "NCHFP, sos chrzanowy: korzenie chrzanu dokładnie umyć i obrać z brązowej skórki; obrane korzenie zetrzeć w malakserze albo pokroić w kostkę i zemleć w maszynce.",
+  "twierdzenie_en": "NCHFP, horseradish sauce: wash the horseradish roots thoroughly and peel off the brown outer skin; grate the peeled roots in a food processor, or cut them into small cubes and put them through a food grinder.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-horseradish-sauce/",
+    "miejsce": "NCHFP, Pickled Horseradish Sauce; Procedure",
+    "cytat": "Wash horseradish roots thoroughly and peel off brown outer skin. The peeled roots may be grated in a food processor or cut into small cubes and put through a food grinder.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1229cdc86045"
+   }
+  ],
+  "uproszczenie": null,
+  "jednoZrodlo": true
  },
  {
   "id": "SLO-157",
@@ -48088,6 +48265,63 @@
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {
+  "id": "MIE-117",
+  "twierdzenie": "FDA, bezpieczne minimalne temperatury wewnętrzne mierzone termometrem do żywności: wołowina, wieprzowina, cielęcina i jagnięcina (kotlety, pieczenie, steki) co najmniej 145°F (ok. 63°C) i 3 minuty odpoczynku; mięso mielone co najmniej 160°F (ok. 72°C); szynka surowa (świeża albo wędzona) co najmniej 145°F (ok. 63°C) i 3 minuty odpoczynku; drób (mielony, części, cały, nadzienie) co najmniej 165°F (ok. 74°C); ryby co najmniej 145°F (ok. 63°C) albo do chwili, gdy mięso jest nieprzezroczyste i łatwo rozdziela się widelcem; barwa i konsystencja nie są wiarygodnym wskaźnikiem bezpieczeństwa, a termometr do żywności jest jedynym sposobem, by się upewnić.",
+  "twierdzenie_en": "FDA, safe minimum internal temperatures measured with a food thermometer: beef, pork, veal and lamb (chops, roasts, steaks) at least 145°F (about 63°C) with a 3-minute rest time; ground meat at least 160°F (about 72°C); uncooked ham (fresh or smoked) at least 145°F (about 63°C) with a 3-minute rest time; poultry (ground, parts, whole, stuffing) at least 165°F (about 74°C); fin fish at least 145°F (about 63°C) or until the flesh is opaque and separates easily with a fork; color and texture are unreliable indicators of safety, and a food thermometer is the only way to ensure it.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+    "miejsce": "FDA, Safe Food Handling; COOK i tabela Safe Minimum Internal Temperatures",
+    "cytat": "Color and texture are unreliable indicators of safety. Using a food thermometer is the only way to ensure the safety of meat, poultry, seafood, and egg products for all cooking methods. | Beef, Pork, Veal, and Lamb (chops, roasts, steaks) 145 o F with a 3 minute rest time Ground Meat 160 o F Ham, uncooked (fresh or smoked) 145 o F with a 3 minute rest time | Poultry (ground, parts, whole, and stuffing) 165 o F | Fin Fish 145 o F or flesh is opaque & separates easily with fork",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "562913a153d2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Stopnie Celsjusza to rachunek JarAtlas ((F−32)×5/9: 62,8; 71,1; 73,9) zaokrąglony w górę, w stronę bezpieczną; tabela FDA podaje tylko °F. Strona FSIS (tabela USDA) zwróciła dziś HTTP 403 dla curl.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p31 (D1 D3-S-05)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-118",
+  "twierdzenie": "Ostrożna reguła JarAtlas dla dziczyzny: tabela FDA (MIE-117) nie podaje osobnej temperatury dla dziczyzny, a według PSU mięso niedźwiedzia i dzika z Ameryki Północnej może zawierać włośnie (Trichinella spiralis) i gotuje się je według tych samych wytycznych co inne mięso, np. jelenia; dlatego karta zaleca kawałki dziczyzny gotować do temperatury wewnętrznej co najmniej 160°F (ok. 72°C), jak mięso mielone, a pierś dzikiego ptactwa do co najmniej 165°F (ok. 74°C) według PSU.",
+  "twierdzenie_en": "Cautious JarAtlas rule for game: the FDA chart (MIE-117) gives no separate temperature for game, and according to PSU bear and wild pig meat from North America may carry Trichinella spiralis and is cooked using the same temperature guidelines as other meats such as venison; so the card advises cooking cuts of game to an internal temperature of at least 160°F (about 72°C), like ground meat, and game bird breast meat to at least 165°F (about 74°C) according to PSU.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/proper-processing-of-wild-game-and-fish",
+    "miejsce": "Penn State Extension, Proper Processing of Wild Game and Fish",
+    "cytat": "Cook ground meats to an internal temperature of at least 160°F (71°C). | Cook game bird breast meat to an internal temperature of at least 165°F (74°C). | An uncommon but severe parasite that may be associated with bear and wild pigs from North America is Trichinella spiralis . | So, bear or wild pig meat should be cooked using the same temperature guidelines as other meats such as venison.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "6d41d3b7a796"
+   },
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+    "miejsce": "FDA, Safe Food Handling; tabela Safe Minimum Internal Temperatures",
+    "cytat": "Ground Meat 160 o F",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "562913a153d2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "PSU podaje 160°F jako 71°C; karta zaokrągla w górę do ok. 72°C (rachunek 71,1). Reguła wybiera wyższą z temperatur FDA dla mięsa (mielone), bo przeczytane źródła nie podają temperatury dla całych kawałków dziczyzny.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p31 (D1 D3-S-05)",
+  "jednoZrodlo": false
+ },
+ {
   "id": "SLO-309",
   "twierdzenie": "NCHFP Berry Jam (Uncooked): słoiki do przetworów wysterylizować, a dwuczęściowe pokrywki przygotować według instrukcji producenta; w pełni dojrzałe owoce posortować i umyć, odsączyć, usunąć szypułki i kielichy, rozgnieść.",
   "twierdzenie_en": "NCHFP Berry Jam (Uncooked): sterilize canning jars and prepare two-piece canning lids according to the manufacturer's directions; sort and wash fully ripe berries, drain, remove caps and stems, crush the berries.",
@@ -53303,6 +53537,54 @@
   "klaster": "SLO",
   "pochodzenie": "06 p29 D1-p3 (D3-S-02)",
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-762",
+  "twierdzenie": "NCHFP: gdy pokrywki ostudzonych słoików są szczelnie zassane, zdjąć pierścienie, umyć pokrywkę i słoik z resztek jedzenia, nie ruszając zamkniętej pokrywki, potem wypłukać i osuszyć; resztki jedzenia albo syropu, których można nie zauważyć, mogą podtrzymywać wzrost pleśni na zewnątrz słoika w czasie przechowywania; wilgoć może skorodować metalowe pokrywki, przerwać zamknięcie i pozwolić na ponowne skażenie i zepsucie.",
+  "twierdzenie_en": "NCHFP: if the lids of cooled jars are tightly vacuum sealed, remove the ring bands and wash the lid and jar to remove food residue without disturbing the sealed lid, then rinse and dry the jars; food or syrup residues you might not notice can support the growth of molds outside the jar during storage; dampness may corrode metal lids, break seals and allow recontamination and spoilage.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/storing-home-canned-foods/",
+    "miejsce": "NCHFP, Storing Home-Canned Foods",
+    "cytat": "If lids are tightly vacuum sealed on cooled jars, remove ring bands, wash the lid and jar to remove food residue without disturbing the sealed lid; then rinse and dry jars. There may be food or syrup residues you might not notice with your eye. These residues can support the growth of molds (which are airborne) outside the jar during storage. | Dampness may corrode metal lids, break seals, and allow recontamination and spoilage.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94cf3c46ac84"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "06 p31 (D1 D2-3-01)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "SLO-763",
+  "twierdzenie": "Ostrożna reguła JarAtlas dla wekowanego curdu (cytrynowego i limonkowego): NCHFP podaje przetestowany przepis z określonymi ilościami (SLO-236, SLO-038), nie zaleca wekowania innych kremów cytrusowych ani owocowych i nie zaleca świeżego soku, bo jego kwasowość bywa różna; dlatego karta mówi: nie zmieniaj ilości soku, cukru, jajek ani masła i nie zastępuj soku butelkowanego świeżym.",
+  "twierdzenie_en": "Cautious JarAtlas rule for canned lemon and lime curd: NCHFP gives a tested recipe with set amounts (SLO-236, SLO-038), does not recommend canning other citrus or fruit curds and does not recommend fresh juice, whose acidity can vary; so the card says: do not change the amounts of juice, sugar, eggs or butter, and do not replace the bottled juice with fresh juice.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP, Canned Lemon Curd; przypisy i uwagi pod przepisem",
+    "cytat": "Bottled lemon juice is used to standardize acidity. Fresh lemon juice can vary in acidity and is not recommended. | Other citrus or fruit curds are not recommended for canning at this time.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b3c107d0788"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "NCHFP nie zakazuje dosłownie zmiany proporcji w tym przepisie; reguła jest wnioskiem JarAtlas z tego, że przetestowano tylko podany skład (D1 D2-5-02).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "06 p31 (D1 D2-5-02)",
+  "jednoZrodlo": true
  },
  {
   "id": "SLO-321",

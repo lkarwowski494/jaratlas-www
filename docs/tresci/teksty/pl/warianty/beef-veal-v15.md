@@ -76,6 +76,10 @@ Mięso, ryby i drób możesz gotować prosto z zamrażarki, ale trzeba doliczyć
 
 Dla najlepszej jakości rozmrożone mięso albo rybę gotuj od razu. [T:SLO-407]
 
+Według FDA kotlety, pieczenie i steki z wołowiny i cielęciny gotuj do temperatury wewnętrznej co najmniej 145 °F (ok. 63 °C) i zostaw na 3 minuty odpoczynku, a mięso mielone do co najmniej 160 °F (ok. 72 °C). [T:MIE-117]
+
+Używaj termometru do żywności: według FDA barwa i konsystencja nie są wiarygodnym wskaźnikiem bezpieczeństwa. [T:MIE-117]
+
 Reguła JarAtlas (ostrożna): bez gotowania ponownie zamrażaj tylko to, co rozmroziło się w lodówce, i włóż to z powrotem do zamrażarki w ciągu jednego–dwóch dni. [T:SLO-409]
 
 To, co rozmroziłeś w zimnej wodzie albo w mikrofalówce, najpierw ugotuj; dopiero potem możesz to zamrozić. [T:SLO-409]

@@ -82,6 +82,8 @@ A sealed lid is concave, curved down slightly in the centre; if the centre is fl
 
 If a jar has not sealed at this check, keep it in the refrigerator and eat it within several days. [T:SLO-197]
 
+If the lids are tightly vacuum sealed, wash the lid and jar to remove food or syrup residue without disturbing the sealed lid, then rinse and dry the jars: residues you might not notice can support mold growth outside the jar during storage, and dampness may corrode the lids, break the seals and allow recontamination. [T:SLO-762]
+
 Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) and not near hot pipes, a stove or a furnace, in an uninsulated attic or in direct sunlight; in such conditions the food may spoil. [T:SLO-198]
 
 JarAtlas rule (cautious): keep an opened jar in the refrigerator and use it within 1 week. [T:SLO-322]

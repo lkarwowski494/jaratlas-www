@@ -92,6 +92,8 @@ Meat, fish and poultry can be cooked straight from the freezer, but extra time i
 
 For best quality, cook thawed meat or fish right away. [T:SLO-407]
 
+According to the FDA, cook fish to an internal temperature of at least 145 °F (about 63 °C), or until the flesh is opaque and separates easily with a fork. [T:MIE-117]
+
 JarAtlas rule (cautious): refreeze without cooking only what thawed in the refrigerator, and put it back in the freezer within one to two days. [T:SLO-409]
 
 Cook anything you thawed in cold water or in the microwave first; only then may you freeze it. [T:SLO-409]

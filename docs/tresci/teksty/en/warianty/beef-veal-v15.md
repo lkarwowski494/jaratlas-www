@@ -76,6 +76,10 @@ Meat, fish and poultry can be cooked straight from the freezer, but extra time i
 
 For best quality, cook thawed meat or fish right away. [T:SLO-407]
 
+According to the FDA, cook beef and veal chops, roasts and steaks to an internal temperature of at least 145 °F (about 63 °C) with a 3-minute rest time, and ground meat to at least 160 °F (about 72 °C). [T:MIE-117]
+
+Use a food thermometer: according to the FDA, color and texture are unreliable indicators of safety. [T:MIE-117]
+
 JarAtlas rule (cautious): refreeze without cooking only what thawed in the refrigerator, and put it back in the freezer within one to two days. [T:SLO-409]
 
 Cook anything you thawed in cold water or in the microwave first; only then may you freeze it. [T:SLO-409]

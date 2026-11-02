@@ -8,6 +8,8 @@ NCHFP uses 2 1/2 cups of superfine sugar, 1/2 cup of freshly grated lemon zest (
 
 Use bottled lemon juice: NCHFP uses it to standardize the acidity and does not recommend fresh lemon juice, whose acidity can vary. [T:SLO-039]
 
+JarAtlas rule (cautious): NCHFP tested only this recipe and does not recommend canning other citrus or fruit curds, so do not change the amounts of juice, sugar, eggs or butter, and do not replace the bottled juice with fresh juice. [T:SLO-763]
+
 If you have no superfine sugar, grind granulated sugar in a grinder or food processor for 1 minute, let it settle and use it instead; do not use powdered sugar. [T:SLO-236]
 
 NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
