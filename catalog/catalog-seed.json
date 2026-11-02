@@ -1,5 +1,5 @@
 {
- "version": "1.0.11",
+ "version": "1.0.12",
  "generated": "2026-11-02",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -30009,13 +30009,40 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
+    "ACI-641",
+    "ACI-642",
+    "ACI-643",
     "ACI-016",
     "ACI-018",
-    "ACI-133"
+    "ACI-133",
+    "SLO-127",
+    "SLO-144"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/pickling/peachesnectarines",
+     "miejsce": "Pickling Peaches/Nectarines, Recipes: Peach Pickles, 2. Ingredients",
+     "cytat": "(Makes about 6 pint jars) 8 pounds peeled peaches (small to medium size, 1 to 1 1/2\" diameter) 1/2 teaspoon ascorbic acid 6 3/4 cups sugar 4 sticks cinnamon (2 inches long) 2 tablespoons whole cloves, crushed 1 tablespoon ginger 1 quart vinegar (5% acidity)",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/pickling/peachesnectarines",
+     "miejsce": "Peach Pickles, 5. Prepare Ingredients i 6. Pack Jars",
+     "cytat": "drop into a cold solution of 1/2 teaspoon ascorbic acid per 2 quarts water. Dissolve sugar in vinegar in saucepot and put on range to heat. Boil 5 minutes and skim. … Remove from range and allow peaches to set in syrup overnight in the refrigerator to plump. Bring to a boil again before packing into hot jars. 6. Pack Jars Fill hot jars with peaches, leaving 1/2 inch headspace. Cover with syrup, leaving 1/2 inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/pickling/peachesnectarines",
+     "miejsce": "Peach Pickles, Water Bath Processing Time- PINTS",
+     "cytat": "Water Bath Processing Time- PINTS 0-1,000 ft 1,001-3,000 ft 3,001-6,000 ft 6,001-10,000 ft 20 minutes 25 minutes 30 minutes 35 minutes",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -30025,12 +30052,17 @@
    "notes": [
     "[ACI*] Pickled peaches: brak przepisu w obecnym indeksie NCHFP (DO USTALENIA: Guide 2/So Easy to Preserve).",
     "[B11] zostaje do-researchu (C9: przepis CSU Extension Preserve Smart, Peach Pickles; C9-D6 proponuje ok-zrodlo na CSU Peach Pickles (szczebel 3, jedno źródło, ACI-641–643); B11-D2: ostrożniej do-researchu do weta C9-D6 (P3); po akceptacji ok-zrodlo, tylko słoiki pint) (2026-11-02-jaratlas-06-b11-katalog-c9).",
-    "[B15] bez zmiany statusu (B14 §5): ACI-641–643 (CSU, szczebel 3) potwierdzone, ale wstrzymanie B11-D2 czeka na weto C9-D6 — decyzja poza B15; propozycja: ok-zrodlo (tylko słoiki pint, jak źródło) po zamknięciu C9-D6 (2026-11-02-jaratlas-b15-katalog)."
+    "[B15] bez zmiany statusu (B14 §5): ACI-641–643 (CSU, szczebel 3) potwierdzone, ale wstrzymanie B11-D2 czeka na weto C9-D6 — decyzja poza B15; propozycja: ok-zrodlo (tylko słoiki pint, jak źródło) po zamknięciu C9-D6 (2026-11-02-jaratlas-b15-katalog).",
+    "[B17] do-researchu → ok-zrodlo (decyzja Claude do weta): C9-D6 (decyzja 2026-11-02-jaratlas-06-c9-kapiel-zrodla-p2, status chosen, bez weta na tablicy) zamyka wstrzymanie B11-D2: CSU Peach Pickles (ACI-641–643, szczebel 3, jedno źródło), tylko słoiki pint (brak czasu dla quart), brzoskwinie o żółtym miąższu (SLO-127, SLO-144); nektarynek źródło nie obejmuje (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "requiredWarnings": [
+    "ACI-643",
+    "SLO-127"
    ]
   },
   {
@@ -32648,7 +32680,8 @@
     "SUS-020",
     "SUS-022",
     "SUS-031",
-    "SUS-033"
+    "SUS-033",
+    "SUS-324"
    ],
    "sources": [
     {
@@ -32682,14 +32715,18 @@
    "notes": [
     "[SUS*] Maliny jako jagody miękkie (CSU/Clemson); liście jak zioła (NCHFP).",
     "[p25] ok-zrodlo → do-researchu (2026-11-02-jaratlas-06-karty-p25): maliny i jeżyny w całości: brak procedury, MSU (SUS-122) i PNW (SUS-184) odradzają (jakość); po S7 zmiana na skórę owocową; liście osobno (NCHFP Herbs); C7-D9. Wariant ukryty, nie wchodzi do kart do czasu źródła szczebla 1–3 (trening CLAUDE.md:121).",
-    "[B15] zostaje do-researchu (B14 Z2): zawężenie do liści malin wymaga requiredWarnings SUS-324 (EMA), które jest poza rejestrem; NCHFP Herbs nie wymienia liści malin (C12-D3) (2026-11-02-jaratlas-b15-katalog)."
+    "[B15] zostaje do-researchu (B14 Z2): zawężenie do liści malin wymaga requiredWarnings SUS-324 (EMA), które jest poza rejestrem; NCHFP Herbs nie wymienia liści malin (C12-D3) (2026-11-02-jaratlas-b15-katalog).",
+    "[B17] requiredWarnings + SUS-324: C12-D3: SUS-324 (EMA: liście malin niezalecane w ciąży, w okresie karmienia i poniżej 18 lat) do requiredWarnings; status bez zmian — NCHFP Herbs nie wymienia liści malin, brak procedury 1:1; zawężenie nazwy do liści dla toru A/roli 03 (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
    ],
-   "e3": "zmieniony z ok-zrodlo"
+   "e3": "zmieniony z ok-zrodlo",
+   "requiredWarnings": [
+    "SUS-324"
+   ]
   },
   {
    "id": "currant-v01",
@@ -35500,11 +35537,12 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-016",
     "ACI-018",
-    "ACI-009"
+    "ACI-009",
+    "SUS-327"
    ],
    "sources": [],
    "filters": {
@@ -35515,12 +35553,17 @@
    },
    "notes": [
     "[ACI*] Jarzębina w occie z miodem: brak przepisu.",
-    "[B15] zostaje do-researchu; skutek C12: SUS-327 (CIAS, krytyczne) — surowa jarzębina zawiera kwas parasorbowy, ciepło „may neutralize” bez warunków; po wpisie SUS-327 do rejestru propozycja ryzyko-wysokie z kartą-ostrzeżeniem (analogia C12-D5: rosehip-rowan-v10, v12) (2026-11-02-jaratlas-b15-katalog)."
+    "[B15] zostaje do-researchu; skutek C12: SUS-327 (CIAS, krytyczne) — surowa jarzębina zawiera kwas parasorbowy, ciepło „may neutralize” bez warunków; po wpisie SUS-327 do rejestru propozycja ryzyko-wysokie z kartą-ostrzeżeniem (analogia C12-D5: rosehip-rowan-v10, v12) (2026-11-02-jaratlas-b15-katalog).",
+    "[B17] do-researchu → ryzyko-wysokie, karta-ostrzeżenie (decyzja Claude do weta, wariant ostrożniejszy): analogia C12-D5: kwas parasorbowy w surowej jarzębinie (SUS-327, krytyczne), neutralizacja ciepłem tylko „may”, bez warunków; przemrażanie neutralizuje słabiej; brak przepisu szczebla 1–3 (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SUS-327"
    ]
   },
   {
@@ -35679,8 +35722,10 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "water-bath",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "SUS-327"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -35690,12 +35735,17 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Surowa jarzębina: kwas parasorbinowy, do sprawdzenia.",
-    "[B15] zostaje do-researchu; skutek C12: SUS-327 (kwas parasorbowy w surowej jarzębinie, neutralizacja ciepłem tylko „may”); po wpisie SUS-327 do rejestru propozycja ryzyko-wysokie z kartą-ostrzeżeniem (analogia C12-D5) (2026-11-02-jaratlas-b15-katalog)."
+    "[B15] zostaje do-researchu; skutek C12: SUS-327 (kwas parasorbowy w surowej jarzębinie, neutralizacja ciepłem tylko „may”); po wpisie SUS-327 do rejestru propozycja ryzyko-wysokie z kartą-ostrzeżeniem (analogia C12-D5) (2026-11-02-jaratlas-b15-katalog).",
+    "[B17] do-researchu → ryzyko-wysokie, karta-ostrzeżenie (decyzja Claude do weta, wariant ostrożniejszy): analogia C12-D5: jak rosehip-rowan-v02; brak przepisu szczebla 1–3 na konfiturę z jarzębiny (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SUS-327"
    ]
   },
   {
@@ -35768,9 +35818,10 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "dry-storage",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "SLO-069"
+    "SLO-069",
+    "SUS-327"
    ],
    "sources": [],
    "filters": {
@@ -35780,12 +35831,17 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B17] do-researchu → ryzyko-wysokie, karta-ostrzeżenie (decyzja Claude do weta, wariant ostrożniejszy): C12-D5: kwas parasorbowy (SUS-327), jedyne badanie kandyzowanej jarzębiny dotyczy wyrobu fabrycznego (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SUS-327"
    ]
   },
   {
@@ -35828,8 +35884,10 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "SUS-327"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -35838,12 +35896,17 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Głogu i jarzębiny brak w tabelach; pytanie o kwas parasorbowy w surowej jarzębinie."
+    "[SUS*] Głogu i jarzębiny brak w tabelach; pytanie o kwas parasorbowy w surowej jarzębinie.",
+    "[B17] do-researchu → ryzyko-wysokie, karta-ostrzeżenie (decyzja Claude do weta, wariant ostrożniejszy): C12-D5: jarzębina bez drogi (SUS-327); głóg do rozdzielenia na osobny wariant (rola 03), do tego czasu cały wariant ostrożniej (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SUS-327"
    ]
   },
   {
@@ -36998,9 +37061,27 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "SUS-329",
+    "SUS-330"
+   ],
+   "sources": [
+    {
+     "adres": "https://ucanr.edu/sites/sacmfp/files/293885.pdf",
+     "miejsce": "UCCE MFP Sacramento, Citrus All Year (17.01.2018), s. 7 „Citrus Salt”",
+     "cytat": "1 cup flake salt or coarse salt | 3 tablespoons citrus zest (any kind) … 1. Mix salt and zest in a bowl; work zest into salt with your fingers to release oils and flavor. | 2. Spread on a baking tray. | 3. Air-dry until dried completely, 8 hours to overnight. | 4. Keep airtight at room temperature for up to 2 months.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://innovate.ucanr.edu/sites/default/files/2025-11/Citrus%20Without%20Canning%20Recipe%20Handout-1.pdf",
+     "miejsce": "UC MFP, Preserving Citrus without Canning (styczeń 2025), s. 2 „Citrus Salts”",
+     "cytat": "Zest the colorful exterior; avoiding the white pith. … Dehydrate at 125°F or bake in a 220°F / 105°C oven. … The salts are done when the zest feels dry and crumbles when pinched. … Your salts will be shelf-stable indefinitely, but will have their best flavor in the first three months.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -37009,7 +37090,8 @@
    },
    "notes": [
     "[SUS*] Sól cytrynowa: mieszanka skórki z solą bez przepisu; suszenie skórki cytrusów ma procedurę CSU.",
-    "[B15] bez zmiany statusu (B14 §5): propozycja ok-zrodlo z C12 (SUS-329–331) czeka na wpis twierdzeń do rejestru i D-027 (2026-11-02-jaratlas-b15-katalog)."
+    "[B15] bez zmiany statusu (B14 §5): propozycja ok-zrodlo z C12 (SUS-329–331) czeka na wpis twierdzeń do rejestru i D-027 (2026-11-02-jaratlas-b15-katalog).",
+    "[B17] do-researchu → ok-zrodlo (decyzja Claude do weta): C12-D7: handout UCCE MFP Sacramento i materiał UC ANR (szczebel 3); przechowywanie 2 miesiące (część wspólna, wariant ostrożniejszy, bez „bezterminowo”) (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37060,9 +37142,22 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "SUS-331",
+    "SUS-001",
+    "SUS-018",
+    "SUS-019"
+   ],
+   "sources": [
+    {
+     "adres": "https://innovate.ucanr.edu/sites/default/files/2025-11/Citrus%20Without%20Canning%20Recipe%20Handout-1.pdf",
+     "miejsce": "UC MFP, Preserving Citrus without Canning (styczeń 2025), s. 1 „Dehydrated Citrus Wheels”",
+     "cytat": "Wash and slice citrus evenly (1/8 to 1/4 inch thick) … Set dehydrator to 130-135 °F … Dry 12-18 hours, flipping halfway … Check for doneness (brittle with a leathery texture) … Condition the citrus slices for 7 days after drying by placing them in a container and shake daily to evenly distribute the moisture … Store in an airtight container with a food safe dessicant packet for up to one year.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -37071,7 +37166,8 @@
    },
    "notes": [
     "[SUS*] CSU podaje tylko suszenie skórki cytrusów (bez białej części); całych plastrów cytrusów brak w tabelach.",
-    "[B15] bez zmiany statusu (B14 §5): propozycja ok-zrodlo z C12 (SUS-329–331) czeka na wpis twierdzeń do rejestru i D-027 (2026-11-02-jaratlas-b15-katalog)."
+    "[B15] bez zmiany statusu (B14 §5): propozycja ok-zrodlo z C12 (SUS-329–331) czeka na wpis twierdzeń do rejestru i D-027 (2026-11-02-jaratlas-b15-katalog).",
+    "[B17] do-researchu → ok-zrodlo (decyzja Claude do weta): C12-D6: materiał UC ANR 2025 (SUS-331, procedura dla cytrusów ogólnie); w karcie 140°F (SUS-001, szczebel 1 wygrywa z 130–135°F), kondycjonowanie i przechowywanie do roku jak w źródle (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37898,9 +37994,23 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "SUS-331",
+    "SUS-001",
+    "SUS-018",
+    "SUS-019",
+    "SUS-184"
+   ],
+   "sources": [
+    {
+     "adres": "https://innovate.ucanr.edu/sites/default/files/2025-11/Citrus%20Without%20Canning%20Recipe%20Handout-1.pdf",
+     "miejsce": "UC MFP, Preserving Citrus without Canning (styczeń 2025), s. 1 „Dehydrated Citrus Wheels”",
+     "cytat": "Wash and slice citrus evenly (1/8 to 1/4 inch thick) … Set dehydrator to 130-135 °F … Dry 12-18 hours, flipping halfway … Check for doneness (brittle with a leathery texture) … Condition the citrus slices for 7 days after drying by placing them in a container and shake daily to evenly distribute the moisture … Store in an airtight container with a food safe dessicant packet for up to one year.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -37909,7 +38019,8 @@
    },
    "notes": [
     "[SUS*] Plastrów pomarańczy brak w tabelach (jest tylko skórka, CSU).",
-    "[B15] bez zmiany statusu (B14 §5): propozycja ok-zrodlo z C12 (SUS-329–331) czeka na wpis twierdzeń do rejestru i D-027 (2026-11-02-jaratlas-b15-katalog)."
+    "[B15] bez zmiany statusu (B14 §5): propozycja ok-zrodlo z C12 (SUS-329–331) czeka na wpis twierdzeń do rejestru i D-027 (2026-11-02-jaratlas-b15-katalog).",
+    "[B17] do-researchu → ok-zrodlo (decyzja Claude do weta): jak lemon-v15; SUS-184: pomarańcze suszą się gorzej (jakość); kumkwat: źródło mówi o cytrusach ogólnie (uproszczenie SUS-331) (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -38213,9 +38324,22 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "SUS-331",
+    "SUS-001",
+    "SUS-018",
+    "SUS-019"
+   ],
+   "sources": [
+    {
+     "adres": "https://innovate.ucanr.edu/sites/default/files/2025-11/Citrus%20Without%20Canning%20Recipe%20Handout-1.pdf",
+     "miejsce": "UC MFP, Preserving Citrus without Canning (styczeń 2025), s. 1 „Dehydrated Citrus Wheels”",
+     "cytat": "Wash and slice citrus evenly (1/8 to 1/4 inch thick) … Set dehydrator to 130-135 °F … Dry 12-18 hours, flipping halfway … Check for doneness (brittle with a leathery texture) … Condition the citrus slices for 7 days after drying by placing them in a container and shake daily to evenly distribute the moisture … Store in an airtight container with a food safe dessicant packet for up to one year.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -38224,7 +38348,8 @@
    },
    "notes": [
     "[SUS*] Plastrów grejpfruta brak w tabelach (jest tylko skórka cytrusów, CSU).",
-    "[B15] bez zmiany statusu (B14 §5): propozycja ok-zrodlo z C12 (SUS-329–331) czeka na wpis twierdzeń do rejestru i D-027 (2026-11-02-jaratlas-b15-katalog)."
+    "[B15] bez zmiany statusu (B14 §5): propozycja ok-zrodlo z C12 (SUS-329–331) czeka na wpis twierdzeń do rejestru i D-027 (2026-11-02-jaratlas-b15-katalog).",
+    "[B17] do-researchu → ok-zrodlo (decyzja Claude do weta): jak lemon-v15 (C12-D6) (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -42388,11 +42513,13 @@
    "processFamilyId": "oil-and-fat",
    "preservationMethod": "freezer",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "OLE-042",
     "OLE-043",
-    "OLE-044"
+    "OLE-044",
+    "SUS-337",
+    "SUS-338"
    ],
    "sources": [
     {
@@ -42411,7 +42538,8 @@
    },
    "notes": [
     "[OLE*] Surowa pasta ziołowo-warzywna z olejem (z czosnku niedźwiedziego) jako odpowiednik pesto NCHFP: lodówka maks. 3 dni, dłużej tylko zamrażarka. Bez pasteryzacji i bez przechowywania w spiżarni.",
-    "[B15] ok-zrodlo → do-researchu + blokada publikacji (wariant ostrożniejszy, decyzja Claude do weta): SUS-338 z C12 (E1-suszenie-zrodla-p2) — mrożenie w −18 °C nie zabija jaj tasiemca lisiego, giną ok. 60 °C; SUS-337 (pomyłki z konwalią i zimowitem) też dotyczy wariantu; oba poza rejestrem (bez D-027), więc bez requiredWarnings; wariant nie ma karty ani slugu; ryzyko-wysokie z kartą-ostrzeżeniem (backlog p29 §4) po wpisie SUS-337/338 do rejestru (2026-11-02-jaratlas-b15-katalog)."
+    "[B15] ok-zrodlo → do-researchu + blokada publikacji (wariant ostrożniejszy, decyzja Claude do weta): SUS-338 z C12 (E1-suszenie-zrodla-p2) — mrożenie w −18 °C nie zabija jaj tasiemca lisiego, giną ok. 60 °C; SUS-337 (pomyłki z konwalią i zimowitem) też dotyczy wariantu; oba poza rejestrem (bez D-027), więc bez requiredWarnings; wariant nie ma karty ani slugu; ryzyko-wysokie z kartą-ostrzeżeniem (backlog p29 §4) po wpisie SUS-337/338 do rejestru (2026-11-02-jaratlas-b15-katalog).",
+    "[B17] do-researchu → ryzyko-wysokie, karta-ostrzeżenie (decyzja Claude do weta, wariant ostrożniejszy): SUS-338: jaja tasiemca lisiego przeżywają −18 °C i giną ok. 60 °C, a pesto z surowych liści jest mrożone bez obróbki cieplnej; SUS-337: pomyłki z konwalią i zimowitem. Karta-ostrzeżenie (backlog p29 §4, B15-D4); blokada publikacji B15 zostaje (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -42420,12 +42548,15 @@
    ],
    "e3": "potwierdzony",
    "requiredWarnings": [
-    "OLE-043"
+    "OLE-043",
+    "SUS-337",
+    "SUS-338"
    ],
    "publicationHold": {
     "decyzja": "2026-11-02-jaratlas-b15-katalog",
     "powod": "SUS-338 (C12, krytyczne): jaja tasiemca lisiego przeżywają −18 °C, giną ok. 60 °C; pesto z surowych liści mrożone nie usuwa zagrożenia"
-   }
+   },
+   "cardType": "warning"
   },
   {
    "id": "wild-garlic-v08",
@@ -42476,7 +42607,8 @@
     "OLE-018",
     "OLE-019",
     "OLE-016",
-    "OLE-003"
+    "OLE-003",
+    "SUS-337"
    ],
    "sources": [
     {
@@ -42495,7 +42627,8 @@
    },
    "notes": [
     "[OLE*] Olej ze świeżymi ziołami (szczypiorek, liście czosnku niedźwiedziego) wg UGA C1334 bez zakwaszania: olej ogrzany do 180°F, lodówka maks. 4 dni lub zamrażarka. Zakwaszanie nieprzetestowane dla tych ziół.",
-    "[B15] skutek C12: SUS-337 (pomyłki z konwalią i zimowitem) dotyczy wszystkich wariantów czosnku niedźwiedziego; SUS-338 nie (olej grzany do 180°F); po wpisie SUS-337 do rejestru propozycja requiredWarnings SUS-337; status bez zmian (2026-11-02-jaratlas-b15-katalog)."
+    "[B15] skutek C12: SUS-337 (pomyłki z konwalią i zimowitem) dotyczy wszystkich wariantów czosnku niedźwiedziego; SUS-338 nie (olej grzany do 180°F); po wpisie SUS-337 do rejestru propozycja requiredWarnings SUS-337; status bez zmian (2026-11-02-jaratlas-b15-katalog).",
+    "[B17] requiredWarnings + SUS-337: SUS-337 (pomyłki z konwalią i zimowitem) dotyczy wszystkich wariantów czosnku niedźwiedziego; SUS-338 nie (olej grzany do 180°F); status bez zmian (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -42506,7 +42639,8 @@
    "requiredWarnings": [
     "OLE-002",
     "OLE-019",
-    "OLE-018"
+    "OLE-018",
+    "SUS-337"
    ]
   },
   {
@@ -42556,9 +42690,11 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "SUS-031"
+    "SUS-031",
+    "SUS-337",
+    "SUS-338"
    ],
    "sources": [],
    "filters": {
@@ -42568,12 +42704,18 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Liście czosnku niedźwiedziego można suszyć jak zioła (NCHFP), ale „sól zielona” (świeże liście z solą) nie ma przepisu. Ryzyko pomylenia z konwalią/zimowitem: do ustalenia."
+    "[SUS*] Liście czosnku niedźwiedziego można suszyć jak zioła (NCHFP), ale „sól zielona” (świeże liście z solą) nie ma przepisu. Ryzyko pomylenia z konwalią/zimowitem: do ustalenia.",
+    "[B17] do-researchu → ryzyko-wysokie, karta-ostrzeżenie (decyzja Claude do weta, wariant ostrożniejszy): C12-D12: zioła suszy się w 35–46°C (SUS-031), a jaja tasiemca lisiego giną ok. 60°C (SUS-338); pomyłki z zimowitem i konwalią (SUS-337); „sól zielona” bez źródła (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SUS-337",
+    "SUS-338"
    ]
   },
   {
@@ -46192,10 +46334,12 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "MLE-021",
-    "MLE-022"
+    "MLE-022",
+    "MLE-070",
+    "MLE-071"
    ],
    "sources": [],
    "filters": {
@@ -46206,13 +46350,18 @@
    },
    "notes": [
     "[SUS] Kashk: suszony nabiał.",
-    "[MLE*] Kashk suszony: brak przetestowanego procesu suszenia (temperatura, aktywność wody) w źródłach szczebla 1–3."
+    "[MLE*] Kashk suszony: brak przetestowanego procesu suszenia (temperatura, aktywność wody) w źródłach szczebla 1–3.",
+    "[B17] do-researchu → ryzyko-wysokie, karta-ostrzeżenie (decyzja Claude do weta, wariant ostrożniejszy): C12-D13: brak procesu z parametrami (temperatura, aw) w źródłach szczebla 1–3; kurut z handlu z S. aureus w 16–60% próbek (MLE-070, dawniej SUS-339); pokrewny Katık Keş aw 0,76 (MLE-071, dawniej SUS-340) (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS",
     "MLE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MLE-070"
    ]
   },
   {
@@ -47158,8 +47307,10 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "MLE-070"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -47169,13 +47320,18 @@
    },
    "notes": [
     "[SUS] Kurt: suszony twaróg.",
-    "[MLE*] Kurt (twaróg suszony na kamień): brak źródła szczebla 1–3 dla procesu suszenia."
+    "[MLE*] Kurt (twaróg suszony na kamień): brak źródła szczebla 1–3 dla procesu suszenia.",
+    "[B17] do-researchu → ryzyko-wysokie, karta-ostrzeżenie (decyzja Claude do weta, wariant ostrożniejszy): C12-D13: brak procesu domowego; kurut z handlu z S. aureus w 16–60% próbek (MLE-070, dawniej SUS-339) (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS",
     "MLE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MLE-070"
    ]
   },
   {
@@ -52566,12 +52722,14 @@
    "processFamilyId": "meat-curing-smoking",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-005",
     "SUS-047",
     "MIE-044",
-    "MIE-045"
+    "MIE-045",
+    "MIE-130",
+    "SUS-003"
    ],
    "sources": [],
    "filters": {
@@ -52583,7 +52741,8 @@
    "notes": [
     "[ACI] Biltong (ocet tylko jako marynata przed suszeniem) — poza ACI.",
     "[SUS] Biltong: suszenie na powietrzu bez podgrzania do 160°F; decyduje MIE.",
-    "[MIE*] Biltong: proces zwalidowany laboratoryjnie (szczebel 2) w kontrolowanych warunkach (temperatura, 55% RH), nie domowy przepis; suszenie „na powietrzu” bez kontroli warunków nie jest objęte."
+    "[MIE*] Biltong: proces zwalidowany laboratoryjnie (szczebel 2) w kontrolowanych warunkach (temperatura, 55% RH), nie domowy przepis; suszenie „na powietrzu” bez kontroli warunków nie jest objęte.",
+    "[B17] do-researchu → ryzyko-wysokie, karta-ostrzeżenie (decyzja Claude do weta, wariant ostrożniejszy): C12-D14: biltong bez etapu letalnego cieplnego (MIE-130, dawniej SUS-341); walidacja tylko w komorze z kontrolą warunków (MIE-044, MIE-045); NCHFP: 160°F i bez suszenia mięsa na wolnym powietrzu (SUS-047, SUS-003). Analogia B7-D1 (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -52591,6 +52750,11 @@
     "ACI",
     "SUS",
     "MIE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "MIE-130",
+    "SUS-003"
    ]
   },
   {
@@ -53282,18 +53446,27 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
-    "MIE-042",
+    "SUS-342",
+    "MIE-021",
     "MIE-036",
     "MIE-037",
     "MIE-038",
     "MIE-039",
     "MIE-040",
     "MIE-041",
-    "MIE-021"
+    "MIE-042"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://blogs.cornell.edu/cceherkimer/files/2021/05/PNW0632-Making-Jerky-at-Home-Safely.pdf",
+     "miejsce": "PNW 632 Making Jerky at Home Safely (rev. 08/2020), s. 2 i s. 5 „Poultry and rabbit”",
+     "cytat": "Jerky can be considered “done” and safe to eat only when meat has been heated sufficiently to 160°F and poultry to 165°F before or immediately after the dehydration process. … Poultry and rabbit. The best cuts of poultry include the breast, thigh, and leg. … Remove the skin and fat before drying.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -53304,7 +53477,8 @@
     "[SUS] jerky z indyka: NCHFP ma stronę Jerky (160°F wewnątrz mięsa); dziczyzna: pytanie o włośnie. Decyduje MIE.",
     "[MIE*] Tylko z wędzonej (ugotowanej) piersi indyka; z surowego drobiu NCHFP nie zaleca. Podgrzanie do 160°F jak przy jerky wołowym; drób gotowany do 165°F (MIE-021).",
     "[E3] ok-zrodlo → do-researchu: NCHFP Jerky wymienia tylko wędzoną pierś indyka, a surowego drobiu do jerky nie zaleca („Raw poultry is generally not recommended”). Procedura z ogrzaniem do 160°F jest podana dla mięsa czerwonego, a drób wymaga 165°F (MIE-021). Nazwa nie mówi o wędzonej piersi, więc nie ma przetestowanej procedury dla surowego indyka.",
-    "[B15] bez zmiany statusu (B14 §5): propozycja ok-zrodlo z C12 (SUS-342, PNW 632: 165°F) czeka na wpis SUS-342 do rejestru i D-027 (2026-11-02-jaratlas-b15-katalog)."
+    "[B15] bez zmiany statusu (B14 §5): propozycja ok-zrodlo z C12 (SUS-342, PNW 632: 165°F) czeka na wpis SUS-342 do rejestru i D-027 (2026-11-02-jaratlas-b15-katalog).",
+    "[B17] do-researchu → ok-zrodlo (decyzja Claude do weta): C12-D15: PNW 632 (szczebel 3; potwierdzają OSU HYG-5362 i UKy FCS3-594 za USDA): drób 165°F przed suszeniem albo zaraz po nim, pomiar termometrem; przechowywanie 2 tygodnie (NCHFP MIE-041, szczebel 1 wygrywa z PNW 1–2 miesiące); NCHFP odradza surowy drób tylko z powodu tekstury i smaku (MIE-042) (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -53312,7 +53486,10 @@
     "SUS",
     "MIE"
    ],
-   "e3": "zmieniony z ok-zrodlo"
+   "e3": "zmieniony z ok-zrodlo",
+   "requiredWarnings": [
+    "SUS-342"
+   ]
   },
   {
    "id": "game-lamb-v01",

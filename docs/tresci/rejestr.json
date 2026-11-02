@@ -21903,6 +21903,71 @@
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {
+  "id": "MLE-070",
+  "twierdzenie": "W badaniach kurutu (suszonego jogurtu lub maślanki) w Turcji Staphylococcus aureus wykryto w 16% próbek z okolic Elazığ (2002, 25 próbek) i w 60% próbek z handlu w Van (2026, 50 próbek), a Escherichia coli w 12% próbek (2002).",
+  "zrodla": [
+   {
+    "adres": "https://journals.tubitak.gov.tr/veterinary/vol26/iss4/14",
+    "miejsce": "Patır, Ateş, Turk J Vet Anim Sci 2002;26(4), abstrakt",
+    "cytat": "Twelve percent of samples contained Escherichia coli 1, and 16% had Staphylococcus aureus microorganisms.",
+    "odczyt": "2026-11-02",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "cc72da8458a4"
+   },
+   {
+    "adres": "https://dergipark.org.tr/tr/download/article-file/5689747",
+    "miejsce": "Tuncay i in., Vet Hekim Der Derg 2026;97(2):143-153, abstrakt EN",
+    "cytat": "Coliform bacteria were present in 36% of samples, S. aureus in 60%, and yeast-mold in all samples (100%).",
+    "odczyt": "2026-11-02",
+    "szczebel": 2,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "09d20c63b248"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przedział z dwóch badań tego samego szczebla podany z różnicą (16% i 60%).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02 (SUS-339)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "In studies of kurut (dried yogurt or buttermilk) in Turkey, Staphylococcus aureus was found in 16% of samples from the Elazığ area (2002, 25 samples) and in 60% of retail samples from Van (2026, 50 samples), and Escherichia coli in 12% of samples (2002).",
+  "uwaga": "Produkty handlowe, nie domowe; pokazują, że tradycyjne suszenie nie zapewnia bezpieczeństwa mikrobiologicznego. Numer z puli C12 (SUS-339) przeniesiony do MLE (B15-D6, B17-D1; MIE-116–129 zarezerwowane w B7-D7, MLE-067–069 to nieużyta pula C10 pilnowana w tests/b12). Wpis B17, przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "MLE-071",
+  "twierdzenie": "W badaniu tureckiego Katık Keş (suszony odciekany jogurt) produkt formuje się zwykle w stożki i suszy na wolnym powietrzu 10–15 dni; średnia aktywność wody próbek wyniosła 0,76, a liczba bakterii z grupy coli 3,36 log CFU/g (jtk/g).",
+  "zrodla": [
+   {
+    "adres": "https://dergipark.org.tr/en/download/article-file/1147558",
+    "miejsce": "Coşkun i in., GIDA 2020;45(3):564-571, abstrakt i Materials and Methods",
+    "cytat": "The desired shape (usually symmetric cone shape) is given to the Keş and dried in open air for 10-15 days. … The numbers of yeasts & molds and coliforms of the samples were 5.98 and 3.36 log CFU/g, respectively. Mean water activity value was obtained as 0.76.",
+    "odczyt": "2026-11-02",
+    "szczebel": 2,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "9e7eee7c28ca"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02 (SUS-340)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "In a study of Turkish Katık Keş (dried strained yogurt), the product is usually shaped into cones and dried in open air for 10–15 days; the mean water activity of the samples was 0.76 and the coliform count 3.36 log CFU/g.",
+  "uwaga": "Katık Keş to produkt pokrewny kashk, nie identyczny; brak procesu z parametrami dla kashk. Numer z puli C12 (SUS-340) przeniesiony do MLE (B15-D6, B17-D1; MIE-116–129 zarezerwowane w B7-D7, MLE-067–069 to nieużyta pula C10 pilnowana w tests/b12). Wpis B17, przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
   "id": "MIE-001",
   "twierdzenie": "USA: azotyny, azotany lub ich połączenie nie mogą dać więcej niż 200 ppm azotynu (liczonego jako azotyn sodu) w produkcie gotowym; boczek ma osobne zasady.",
   "zrodla": [
@@ -47797,6 +47862,270 @@
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {
+  "id": "SUS-324",
+  "twierdzenie": "Według monografii EMA bezpieczeństwo liści malin w ciąży i w okresie karmienia piersią nie zostało ustalone, więc ich stosowanie w tym czasie nie jest zalecane; nie zaleca się go też dzieciom i młodzieży poniżej 18 lat.",
+  "zrodla": [
+   {
+    "adres": "https://www.ema.europa.eu/documents/herbal-monograph/final-community-herbal-monograph-rubus-idaeus-l-folium_en.pdf",
+    "miejsce": "EMA/HMPC/44211/2012, Community herbal monograph on Rubus idaeus L., folium; 4.2 Posology, 4.6 Fertility, pregnancy and lactation",
+    "cytat": "The use in children and adolescents under 18 years of age is not recommended … In the absence of sufficient data, the use during pregnancy and lactation is not recommended.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "61ec70f3c655"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the EMA monograph, the safety of raspberry leaf during pregnancy and lactation has not been established, so its use then is not recommended; use in children and adolescents under 18 years of age is not recommended either.",
+  "uwaga": "Monografia leku roślinnego (herbata 1,5–8 g na 150 ml, 3 razy dziennie), nie procedura suszenia. Ostrzeżenie do requiredWarnings, jeśli wariant (liście) zostanie. Wpis B17, przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-327",
+  "twierdzenie": "Według UW-Madison CIAS surowe owoce jarzębiny pospolitej (Sorbus aucuparia) zawierają kwas parasorbowy, opisany jako znany kancerogen; obróbka cieplna (gotowanie, suszenie w cieple) i w mniejszym stopniu mrożenie mogą go neutralizować, a nasiona prawdopodobnie zawierają cyjanowodór.",
+  "zrodla": [
+   {
+    "adres": "https://uncommonfruit.cias.wisc.edu/?p=157",
+    "miejsce": "UW-Madison Center for Integrated Agricultural Systems, Uncommon Fruits: European Mountain Ash, akapit o spożyciu",
+    "cytat": "Raw European mountain ash, which is too astringent to be eaten, contains parasorbic acid, which is a known carcinogen (Pieters and Vlietinck, 1991). … Heat treatment (cooking, heat drying, etc.) and to a lesser extent, freezing, may neutralize parasorbic acid. The seeds probably contain hydrogen cyanide, also toxic (Plants for a Future).",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "3f3a43845fb2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to UW-Madison CIAS, raw European mountain ash (rowan, Sorbus aucuparia) berries contain parasorbic acid, described as a known carcinogen; heat treatment (cooking, heat drying) and to a lesser extent freezing may neutralize it, and the seeds probably contain hydrogen cyanide.",
+  "uwaga": "Źródło pośrednie (cytuje Pieters i Vlietinck 1991 oraz Plants for a Future); „may neutralize” bez warunków (temperatura, czas). Szczebel 3 jako ośrodek uczelni, nie extension (C12-D16). Dotyczy też innych wariantów z jarzębiną (rosehip-rowan-v02, v07) – dla toru A. Wpis B17, przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-329",
+  "twierdzenie": "Według UCCE Master Food Preservers hrabstwa Sacramento sól cytrusową robi się z 1 szklanki soli płatkowej lub gruboziarnistej i 3 łyżek otartej skórki cytrusów: skórkę wciera się palcami w sól, rozkłada na blasze i suszy na powietrzu do całkowitego wyschnięcia (8 godzin do nocy); przechowuje się ją szczelnie zamkniętą w temperaturze pokojowej do 2 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://ucanr.edu/sites/sacmfp/files/293885.pdf",
+    "miejsce": "UCCE MFP Sacramento, Citrus All Year (17.01.2018), s. 7 „Citrus Salt”",
+    "cytat": "1 cup flake salt or coarse salt | 3 tablespoons citrus zest (any kind) … 1. Mix salt and zest in a bowl; work zest into salt with your fingers to release oils and flavor. | 2. Spread on a baking tray. | 3. Air-dry until dried completely, 8 hours to overnight. | 4. Keep airtight at room temperature for up to 2 months.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "421f62f4ea23"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the Sacramento County UCCE Master Food Preservers, citrus salt is made from 1 cup flake or coarse salt and 3 tablespoons citrus zest: the zest is worked into the salt with the fingers, spread on a baking tray and air-dried until completely dry (8 hours to overnight); it is kept airtight at room temperature for up to 2 months.",
+  "uwaga": "Wpis B17, przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-330",
+  "twierdzenie": "Według materiału UC ANR „Preserving Citrus without Canning” (styczeń 2025) sól cytrusową z otartej skórki (bez białej części) i soli suszy się w suszarce w 125°F (ok. 52°C) albo w piekarniku 220°F (105°C), aż skórka będzie sucha i kruszy się w palcach; przechowuje się ją w czystych, opisanych słoikach (można dodać pochłaniacz wilgoci), a najlepszy smak ma przez pierwsze 3 miesiące.",
+  "zrodla": [
+   {
+    "adres": "https://innovate.ucanr.edu/sites/default/files/2025-11/Citrus%20Without%20Canning%20Recipe%20Handout-1.pdf",
+    "miejsce": "UC MFP, Preserving Citrus without Canning (styczeń 2025), s. 2 „Citrus Salts”",
+    "cytat": "Zest the colorful exterior; avoiding the white pith. … Dehydrate at 125°F or bake in a 220°F / 105°C oven. … The salts are done when the zest feels dry and crumbles when pinched. … Your salts will be shelf-stable indefinitely, but will have their best flavor in the first three months.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "a89fc7c7d0e4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the UC ANR handout “Preserving Citrus without Canning” (January 2025), citrus salt made from zest (without the white pith) and salt is dried in a dehydrator at 125°F (about 52°C) or in a 220°F (105°C) oven until the zest feels dry and crumbles when pinched; it is stored in clean labeled jars (an optional desiccant pack helps keep it dry) and has its best flavor in the first 3 months.",
+  "uwaga": "Przechowywanie: Sacramento „do 2 miesięcy” (SUS-329), UC MFP „bezterminowo, najlepszy smak 3 miesiące”: karta podaje 2 miesiące (część wspólna, wariant ostrożniejszy, C12-D7). Wpis B17, przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-331",
+  "twierdzenie": "Według materiału UC ANR „Preserving Citrus without Canning” (styczeń 2025) plastry cytrusów kroi się równo na grubość 1/8–1/4 cala (ok. 3–6 mm), suszy w suszarce 12–18 godzin w 130–135°F (ok. 54–57°C), odwracając w połowie, aż będą łamliwe, o skórzastej strukturze; potem kondycjonuje 7 dni w pojemniku, codziennie potrząsając, i przechowuje w szczelnym pojemniku z pochłaniaczem wilgoci do 1 roku.",
+  "zrodla": [
+   {
+    "adres": "https://innovate.ucanr.edu/sites/default/files/2025-11/Citrus%20Without%20Canning%20Recipe%20Handout-1.pdf",
+    "miejsce": "UC MFP, Preserving Citrus without Canning (styczeń 2025), s. 1 „Dehydrated Citrus Wheels”",
+    "cytat": "Wash and slice citrus evenly (1/8 to 1/4 inch thick) … Set dehydrator to 130-135 °F … Dry 12-18 hours, flipping halfway … Check for doneness (brittle with a leathery texture) … Condition the citrus slices for 7 days after drying by placing them in a container and shake daily to evenly distribute the moisture … Store in an airtight container with a food safe dessicant packet for up to one year.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "a89fc7c7d0e4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Procedura dotyczy cytrusów ogólnie („slice citrus”), bez listy gatunków; stosowana do cytryny, pomarańczy i grejpfruta. Fragment „Use any citrus fruits for this method” usunięty z cytatu (należy do kolumny o mrożeniu; D-027 d B17).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the UC ANR handout “Preserving Citrus without Canning” (January 2025), citrus slices are cut evenly 1/8–1/4 inch (about 3–6 mm) thick and dried in a dehydrator at 130–135°F (about 54–57°C) for 12–18 hours, flipping halfway, until brittle with a leathery texture; they are then conditioned for 7 days in a container, shaken daily, and stored in an airtight container with a food-safe desiccant packet for up to one year.",
+  "uwaga": "Temperatura w karcie 140°F według SUS-001 (szczebel 1 wygrywa, kierunkowo bezpieczniej; C12-D6). PNW: pomarańcze suszą się gorzej (SUS-184, jakość). Wpis B17, przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-337",
+  "twierdzenie": "Według BfR młode liście czosnku niedźwiedziego są podobne do liści trującej konwalii majowej i bardzo trującego zimowitu jesiennego; w razie wątpliwości lepiej ich nie jeść. Według AGES czosnek niedźwiedzi bywa mylony także z obrazkami plamistymi, kokoryczem wielokwiatowym i zdziczałymi tulipanami.",
+  "zrodla": [
+   {
+    "adres": "https://www.bfr.bund.de/presseinformation/baerlauch-verwechslungen-fuehren-haeufig-zu-vergiftungen/",
+    "miejsce": "BfR, Presseinformation 07/2023 „Bärlauch-Verwechslungen führen häufig zu Vergiftungen”, akapit 2",
+    "cytat": "Die jungen Blätter ähneln denen des giftigen Maiglöckchens (Convallaria majalis) und der sehr giftigen Herbstzeitlosen (Colchicum autumnale).",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a9ba67007094"
+   },
+   {
+    "adres": "https://www.bfr.bund.de/presseinformation/verwechslungsgefahr-bei-baerlauch",
+    "miejsce": "BfR, Presseinformation 10/2005 „Verwechslungsgefahr bei Bärlauch”, akapit 3",
+    "cytat": "rät Sammlern daher, im Zweifelsfall besser auf den Verzehr zu verzichten.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7fbb661b0841"
+   },
+   {
+    "adres": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/baerlauch",
+    "miejsce": "AGES, Lebensmittelinformationen „Bärlauch”, sekcja o pomyłkach",
+    "cytat": "Der Bärlauch wird beim Sammeln in heimischen Laub- und Mischwäldern immer wieder mit Herbstzeitlosen, Maiglöckchen, geflecktem Aronstab, vielblütiger Weißwurz (Salomonssiegel) und verwilderten Tulpen verwechselt.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "82fe972128f7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to BfR, young wild garlic leaves resemble those of the poisonous lily of the valley and the very poisonous autumn crocus; when in doubt, it is better not to eat them. According to AGES, wild garlic is also confused with spotted arum, Solomon’s seal and wild tulips.",
+  "uwaga": "Dotyczy wszystkich wariantów wild-garlic (dla toru A). Przypadki zatrucia zimowitem pomylonym z czosnkiem niedźwiedzim: Brvar 2004 (sekcja 6, kontekst). Wpis B17, przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-338",
+  "twierdzenie": "Według AGES liście czosnku niedźwiedziego przed jedzeniem lub zamrożeniem myje się pojedynczo i dokładnie pod gorącą bieżącą wodą, bo mogą być zanieczyszczone m.in. jajami tasiemca lisiego, które mogą wywołać u ludzi zagrażającą życiu chorobę; jaja przeżywają typowe zamrażanie w -18°C, a giną w temperaturze około +60°C.",
+  "zrodla": [
+   {
+    "adres": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/baerlauch",
+    "miejsce": "AGES, Lebensmittelinformationen „Bärlauch”, sekcja o przygotowaniu",
+    "cytat": "Bärlauchblätter vor dem Verzehr bzw. dem Einfrieren einzeln gründlich unter heißem fließendem Wasser waschen, da diese u.a. mit Fuchsbandwurm-Eiern, Keimen und sonstigen Verunreinigungen kontaminiert sein können. Fuchsbandwurm-Eier können beim Menschen eine lebensbedrohliche Erkrankung mit tumorartigen Wucherungen, meist in der Leber, auslösen … Sie sind mit bloßem Auge nicht erkennbar und überleben übliche Tiefkühltemperaturen von -18° Celsius. Bei Temperaturen um +60° Celsius werden die Eier abgetötet.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "82fe972128f7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to AGES, wild garlic leaves are washed one by one, thoroughly, under hot running water before eating or freezing, because they may be contaminated with, among other things, fox tapeworm eggs, which can cause a life-threatening disease in humans; the eggs survive usual freezing at -18°C and are killed at around +60°C.",
+  "uwaga": "Suszenie ziół w 95–115°F (35–46°C, SUS-031) nie osiąga ok. 60°C. Dotyczy też wild-garlic-v07 (pesto mrożone, ok-zrodlo) – dla toru A. Wpis B17, przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-342",
+  "twierdzenie": "Według PNW 632 (University of Idaho, Oregon State, Washington State) jerky jest gotowe i bezpieczne dopiero, gdy mięso zostało ogrzane do 160°F (ok. 71°C), a drób do 165°F (ok. 74°C), przed suszeniem albo zaraz po nim; najlepsze części drobiu to pierś, udo i podudzie, bez skóry i tłuszczu.",
+  "zrodla": [
+   {
+    "adres": "https://blogs.cornell.edu/cceherkimer/files/2021/05/PNW0632-Making-Jerky-at-Home-Safely.pdf",
+    "miejsce": "PNW 632 Making Jerky at Home Safely (rev. 08/2020), s. 2 i s. 5 „Poultry and rabbit”",
+    "cytat": "Jerky can be considered “done” and safe to eat only when meat has been heated sufficiently to 160°F and poultry to 165°F before or immediately after the dehydration process. … Poultry and rabbit. The best cuts of poultry include the breast, thigh, and leg. … Remove the skin and fat before drying.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "dcc0fb3f01f6"
+   },
+   {
+    "adres": "https://ohioline.osu.edu/factsheet/hyg-5362",
+    "miejsce": "Ohio State University Extension, Ohioline HYG-5362, metoda podgrzania przed suszeniem",
+    "cytat": "Heat the meat strips to an internal temperature of 160 degrees Fahrenheit (165°F for poultry).",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "3b48354d2655"
+   },
+   {
+    "adres": "https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/FCS3594.pdf",
+    "miejsce": "University of Kentucky, FCS3-594, kolumna 1",
+    "cytat": "USDA currently recommends heating meat to 160°F and poultry to 165°F before the dehydrating process begins to make jerky.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "c4ab9e4b3b7f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to PNW 632 (University of Idaho, Oregon State, Washington State), jerky is done and safe only when meat has been heated to 160°F (about 71°C) and poultry to 165°F (about 74°C), before or immediately after dehydration; the best poultry cuts are breast, thigh and leg, without skin and fat.",
+  "uwaga": "PNW 632 podaje trwałość 1–2 miesiące w temperaturze pokojowej; NCHFP (szczebel 1) 2 tygodnie (MIE-041): karta podaje 2 tygodnie (C12-D15). NCHFP: surowy drób „generally not recommended” z powodu tekstury i smaku (MIE-042). Wpis B17, przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
   "id": "MIE-100",
   "twierdzenie": "Surowe mięso może być zanieczyszczone drobnoustrojami chorobotwórczymi, które łatwo namnażają się na wilgotnej, bogatej w białko żywności.",
   "twierdzenie_en": "Raw meat can be contaminated with disease-causing microorganisms, which easily multiply on moist, high-protein foods.",
@@ -48359,6 +48688,45 @@
   "klaster": "MIE",
   "pochodzenie": "06 p31 (D1 D3-S-05)",
   "jednoZrodlo": false,
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "MIE-130",
+  "twierdzenie": "Biltong wytwarza się bez etapu letalnego cieplnego, co budzi wątpliwości, czy podczas produkcji następuje skuteczna redukcja patogenów; wołowina suszona na powietrzu (biltong, droëwors) różni się od amerykańskiego jerky, które podgrzewa się do 160°F (ok. 71°C) lub wyżej.",
+  "zrodla": [
+   {
+    "adres": "https://mdpi-res.com/d_attachment/microorganisms/microorganisms-10-01308/article_deploy/microorganisms-10-01308.pdf",
+    "miejsce": "Gavai, Karolenko, Muriana, Microorganisms 2022;10:1308, abstrakt",
+    "cytat": "Biltong is a dry beef product that is manufactured without a heat lethality step, raising concerns of whether effective microbial pathogen reduction can occur during biltong processing.",
+    "odczyt": "2026-11-02",
+    "szczebel": 2,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "e5e8fa032de4"
+   },
+   {
+    "adres": "https://www.nal.usda.gov/research-tools/food-safety-research-projects/filling-usda-fsis-food-safety-knowledge-gaps-safety-ambient-temperature-air-dried-beef-droewors",
+    "miejsce": "USDA NAL, Food Safety Research Projects: „Filling USDA FSIS Food Safety Knowledge Gaps: Safety of Ambient Temperature Air-Dried Beef (Droëwors)”, opis projektu",
+    "cytat": "Air-dried beef such as biltong and droëwors areprocessed differently than traditional US dried beef (beef jerky) which is heated tolethal temperaturesof 160*F or more.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "b097252c5693"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02 (SUS-341)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "Biltong is manufactured without a heat lethality step, raising concerns about whether effective pathogen reduction occurs during processing; air-dried beef (biltong, droëwors) differs from US beef jerky, which is heated to 160°F (about 71°C) or more.",
+  "uwaga": "Walidacja (MIE-044, MIE-045) tylko w komorze z kontrolą temperatury i 55% RH; domowe suszenie na powietrzu nie jest nią objęte. Cytat NAL z błędami spacji w oryginale. Numer z puli C12 (SUS-341) przeniesiony do MIE (B15-D6, B17-D1; MIE-116–129 zarezerwowane w B7-D7, MLE-067–069 to nieużyta pula C10 pilnowana w tests/b12). Wpis B17, przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {

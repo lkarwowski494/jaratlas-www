@@ -13,22 +13,22 @@ const e1 = JSON.parse(readFileSync('docs/tresci/E1-suszenie-zrodla-p2-2026-11-02
 const V = new Map(cat.variants.map((v) => [v.id, v]));
 const R = new Map(rej.map((t) => [t.id, t]));
 const DEC = '2026-11-02-jaratlas-b17-katalog';
+// Cytat skrócony po D-027 d (fragment z innej kolumny źródła); każdy pozostały fragment musi być w cytacie z pliku E1.
+const CYTAT_POPRAWIONY = new Set(['SUS-331']);
+const s0 = (t) => t.zrodla[0].cytat.split(' … ').map((f) => f.trim()).filter(Boolean);
 const nota = (id) => V.get(id).notes.find((n) => n.startsWith('[B17]') && n.includes(DEC));
 const h = (x) => createHash('sha256').update(JSON.stringify(x)).digest('hex').slice(0, 12);
 const bez = (v, keys) => Object.fromEntries(Object.entries(v).filter(([k]) => !keys.includes(k)));
 
 // Twierdzenia C12 wpisane do rejestru; SUS-339–341 przenumerowane do klastrów tematycznych (B15-D6, B17-D1:
-// MIE-116–129 zarezerwowane w B7-D7 „wolne do toru”, więc biltong dostaje MIE-130).
+// MIE-116–129 zarezerwowane w B7-D7 „wolne do toru”, więc biltong dostaje MIE-130; MLE-067–069 to pula C10 pilnowana w tests/b12, więc nabiał dostaje MLE-070–071). SUS-328 poza rejestrem: źródło HTTP 403 przy D-027 d (B17-D2).
 export const NOWE = {
-  'SUS-324': 'SUS-324', 'SUS-327': 'SUS-327', 'SUS-328': 'SUS-328', 'SUS-329': 'SUS-329', 'SUS-330': 'SUS-330', 'SUS-331': 'SUS-331',
-  'SUS-337': 'SUS-337', 'SUS-338': 'SUS-338', 'MLE-067': 'SUS-339', 'MLE-068': 'SUS-340', 'MIE-130': 'SUS-341', 'SUS-342': 'SUS-342',
+  'SUS-324': 'SUS-324', 'SUS-327': 'SUS-327', 'SUS-329': 'SUS-329', 'SUS-330': 'SUS-330', 'SUS-331': 'SUS-331',
+  'SUS-337': 'SUS-337', 'SUS-338': 'SUS-338', 'MLE-070': 'SUS-339', 'MLE-071': 'SUS-340', 'MIE-130': 'SUS-341', 'SUS-342': 'SUS-342',
 };
 
 // do-researchu → ok-zrodlo: claims i źródła (cytat 1:1 z pierwszego źródła wskazanych twierdzeń rejestru, szczebel 1–3).
 const OK = {
-  'lemon-v12': { claims: ['SUS-328', 'SLO-069', 'SUS-001', 'SUS-018', 'SUS-019'], zrodla: ['SUS-328'], ostrz: ['SLO-069'] },
-  'orange-kumquat-v11': { claims: ['SUS-328', 'SLO-069', 'SUS-001', 'SUS-018', 'SUS-019'], zrodla: ['SUS-328'], ostrz: ['SLO-069'] },
-  'grapefruit-v06': { claims: ['SUS-328', 'ACI-148', 'SLO-069', 'SUS-001', 'SUS-018', 'SUS-019'], zrodla: ['SUS-328'], ostrz: ['SLO-069'], nazwa: 'kandyzowana skórka grejpfruta' },
   'lemon-v13': { claims: ['SUS-329', 'SUS-330'], zrodla: ['SUS-329', 'SUS-330'], ostrz: [] },
   'lemon-v15': { claims: ['SUS-331', 'SUS-001', 'SUS-018', 'SUS-019'], zrodla: ['SUS-331'], ostrz: [] },
   'orange-kumquat-v14': { claims: ['SUS-331', 'SUS-001', 'SUS-018', 'SUS-019', 'SUS-184'], zrodla: ['SUS-331'], ostrz: [] },
@@ -40,7 +40,7 @@ const OK = {
 const RW = {
   'wild-garlic-v07': ['SUS-337', 'SUS-338'], 'wild-garlic-v11': ['SUS-337', 'SUS-338'],
   'rosehip-rowan-v02': ['SUS-327'], 'rosehip-rowan-v07': ['SUS-327'], 'rosehip-rowan-v10': ['SUS-327'], 'rosehip-rowan-v12': ['SUS-327'],
-  'yogurt-skyr-v11': ['MLE-067'], 'quark-acid-cheese-v12': ['MLE-067'], 'beef-veal-v09': ['MIE-130'],
+  'yogurt-skyr-v11': ['MLE-070'], 'quark-acid-cheese-v12': ['MLE-070'], 'beef-veal-v09': ['MIE-130'],
 };
 // Status bez zmian, dochodzi ostrzeżenie (requiredWarnings) z nowego twierdzenia.
 const OSTRZ = { 'wild-garlic-v09': ['SUS-337'], 'raspberry-blackberry-v15': ['SUS-324'] };
@@ -50,7 +50,7 @@ export const POLA = Object.fromEntries([
   ...Object.keys(RW).map((id) => [id, ['safetyStatus', 'cardType', 'claims', 'requiredWarnings', 'notes']]),
   ...Object.keys(OSTRZ).map((id) => [id, ['claims', 'requiredWarnings', 'notes']]),
 ]);
-const SNAP = {"lemon-v12":"de326e41bc96","orange-kumquat-v11":"7d1912c8ac05","grapefruit-v06":"babf3839eedc","lemon-v13":"3eb134996b82","lemon-v15":"c2bef80d9774","orange-kumquat-v14":"77461427d195","grapefruit-v09":"b76abb6078f2","poultry-v14":"91e4b5faa7ca","peach-nectarine-v01":"ac08de31b270","wild-garlic-v07":"d357330bea4f","wild-garlic-v11":"9dee88491ef7","rosehip-rowan-v02":"86574d7de08e","rosehip-rowan-v07":"ded2db06f425","rosehip-rowan-v10":"505d39d8524c","rosehip-rowan-v12":"ba6e24f5f73f","yogurt-skyr-v11":"a0b9c96fd48d","quark-acid-cheese-v12":"f68698303ce4","beef-veal-v09":"5be4ea70ea6b","wild-garlic-v09":"3b1b6f092073","raspberry-blackberry-v15":"8861767fdfd0"};
+const SNAP = {"lemon-v13":"3eb134996b82","lemon-v15":"c2bef80d9774","orange-kumquat-v14":"77461427d195","grapefruit-v09":"b76abb6078f2","poultry-v14":"91e4b5faa7ca","peach-nectarine-v01":"ac08de31b270","wild-garlic-v07":"d357330bea4f","wild-garlic-v11":"9dee88491ef7","rosehip-rowan-v02":"86574d7de08e","rosehip-rowan-v07":"ded2db06f425","rosehip-rowan-v10":"505d39d8524c","rosehip-rowan-v12":"ba6e24f5f73f","yogurt-skyr-v11":"a0b9c96fd48d","quark-acid-cheese-v12":"f68698303ce4","beef-veal-v09":"5be4ea70ea6b","wild-garlic-v09":"3b1b6f092073","raspberry-blackberry-v15":"8861767fdfd0"};
 
 test('B17: katalog 1.0.12 przechodzi walidację bez błędów', () => {
   assert.equal(cat.version, '1.0.12');
@@ -64,12 +64,17 @@ test('B17: twierdzenia C12 w rejestrze jak w pliku E1 (cytaty 1:1), potwierdzone
     assert.ok(t, id);
     assert.equal(t.status, 'potwierdzone', id);
     assert.equal(t.krytyczne, o.krytyczne, `${id}: krytyczne`);
-    assert.equal(t.przeglad?.kto, 'weryfikacja zastępcza (subagent)', `${id}: przegląd D-027 d`);
+    if (t.krytyczne) assert.equal(t.przeglad?.kto, 'weryfikacja zastępcza (subagent)', `${id}: przegląd D-027 d`);
+    assert.equal(t.weryfikacjaZastepcza, '2026-11-02', `${id}: weryfikacja D-027 d także dla niekrytycznych`);
     assert.equal(t.zrodla.length, o.zrodla.length, `${id}: liczba źródeł`);
-    t.zrodla.forEach((s, i) => { for (const k of ['adres', 'cytat', 'szczebel']) assert.equal(s[k], o.zrodla[i][k], `${id}: ${k}`); });
+    t.zrodla.forEach((s, i) => { for (const k of ['adres', 'szczebel', ...(CYTAT_POPRAWIONY.has(id) ? [] : ['cytat'])]) assert.equal(s[k], o.zrodla[i][k], `${id}: ${k}`); });
+    for (const f of s0(t)) assert.ok(o.zrodla[0].cytat.includes(f), `${id}: fragment cytatu „${f.slice(0, 40)}” z pliku E1`);
     if (id !== z) assert.ok(t.pochodzenie.includes(z), `${id}: pochodzenie wskazuje ${z}`);
   }
   for (const id of ['SUS-339', 'SUS-340', 'SUS-341']) assert.equal(R.get(id), undefined, `${id} przeniesione`);
+  assert.equal(R.get('SUS-328'), undefined, 'SUS-328: źródło niedostępne przy D-027 d, poza rejestrem');
+  assert.ok(!R.get('SUS-331').zrodla[0].cytat.includes('any citrus'), 'SUS-331: fragment z kolumny o mrożeniu usunięty (D-027 d)');
+  for (const id of ['lemon-v12', 'orange-kumquat-v11', 'grapefruit-v06']) assert.equal(V.get(id).safetyStatus, 'do-researchu', `${id}: SUS-328 niezweryfikowane`);
   assert.equal(new Set(rej.map((t) => t.id)).size, rej.length, 'ID w rejestrze unikalne');
 });
 
@@ -114,4 +119,7 @@ test('B17: poza polami z listy warianty bez cichych zmian (skrót stanu sprzed B
   assert.deepEqual(Object.keys(SNAP).sort(), Object.keys(POLA).sort());
   for (const [id, keys] of Object.entries(POLA)) assert.equal(h(bez(V.get(id), keys)), SNAP[id], `${id}: pola poza ${keys.join(', ')} bez zmian`);
   assert.equal(cat.variants.filter((v) => v.publication !== 'ukryta').length, 0, 'publication: 0 zmian, wszystko ukryta');
+  // SUS-328 niezweryfikowane (HTTP 403): warianty kandyzowanej skórki bez żadnej zmiany (skrót całego wariantu w 1.0.11).
+  const CALE = { 'lemon-v12': 'c85f9f079485', 'orange-kumquat-v11': '7e496e6edc80', 'grapefruit-v06': '6b58f6e0d198' };
+  for (const [id, x] of Object.entries(CALE)) assert.equal(h(V.get(id)), x, `${id}: bez zmian`);
 });
