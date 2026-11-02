@@ -1,0 +1,1141 @@
+{
+ "data": "2026-11-02",
+ "rola": "06-tresci (build, research)",
+ "zadanie": "B26 = R4 + R5 z P1 (mięso i ryby lodówka/chłodnia, jaja, napoje fermentowane)",
+ "galaz": "claude/jaratlas-b26-research",
+ "baza": "claude/happy-brown-yncplj@198f871",
+ "decyzje_wejsciowe": [
+  "2026-11-02-jaratlas-p1-pokrycie",
+  "2026-11-02-jaratlas-pokrycie-zrodel",
+  "2026-11-02-jaratlas-polityka-zrodel-ryzyko",
+  "2026-11-02-jaratlas-wariant-bez-zrodla",
+  "2026-11-02-jaratlas-zrodla-prywatne",
+  "2026-11-02-jaratlas-przeglad-agent-zamiast-eksperta",
+  "2026-11-02-jaratlas-b24-research"
+ ],
+ "zakres": {
+  "definicja": "P1-dopasowanie: segmenty refrigerator×meat-curing-smoking, cool-storage×meat-curing-smoking, refrigerator×fish-curing-smoking, refrigerator×egg-preservation, refrigerator×fermented-beverages ∧ catalog-seed safetyStatus do-researchu",
+  "warianty": 26
+ },
+ "liczby": {
+  "nie-publikowac-kandydat": 19,
+  "ok-zrodlo-po-zmianie": 3,
+  "ok-zrodlo": 1,
+  "ryzyko-wysokie": 3
+ },
+ "uzyte_id": [
+  "MIE-150",
+  "MIE-151",
+  "MIE-152",
+  "MIE-153",
+  "MIE-154",
+  "MIE-155",
+  "MIE-156",
+  "MIE-157",
+  "MIE-158",
+  "MIE-159",
+  "MIE-160",
+  "MIE-161",
+  "MIE-162",
+  "MIE-163",
+  "FER-120",
+  "FER-121",
+  "FER-122",
+  "FER-123",
+  "FER-124",
+  "FER-125",
+  "FER-126",
+  "FER-127"
+ ],
+ "warianty": [
+  {
+   "id": "pork-loin-ham-v01",
+   "nazwa": "szynka tradycyjna peklowana na mokro, wędzona dymem olchowo-owocowym i parzona do 75°C",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Cztery publikacje wskazane przez NCHFP opisują tylko szynki peklowane na sucho (VT, UKY) albo boczek i kiełbasy (MU, UGA). OSU ANSI-3994 (szczebel 3) opisuje nastrzyk i wędzenie szynki do 142°F, ale każe ją dalej gotować w domu bez podania temperatury końcowej (MIE-161); 148°F dotyczy szynek handlowych. Brak przepisu 1:1 po przebiegu 2.",
+   "twierdzenia": [
+    "MIE-161",
+    "MIE-001",
+    "MIE-008",
+    "MIE-012"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "pork-loin-ham-v06",
+   "nazwa": "szynka pieczona w soli",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Pieczenie w skorupie solnej to przyrządzenie potrawy, nie utrwalanie; żadna z czterech publikacji ani wyszukiwanie R4 nie dały przepisu. Przebieg 2.",
+   "twierdzenia": [],
+   "uwaga": "poza zakresem (danie); do partii katalogowej (B26-Q3)"
+  },
+  {
+   "id": "pork-loin-ham-v11",
+   "nazwa": "szynka dojrzewająca typu prosciutto/jamón (wieloetapowe solenie i suszenie)",
+   "metoda": "cool-storage",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Najbliższe: country ham (UKY ASC-213, VT 458-223; trwałość bez chłodzenia przy ≥18% ubytku masy i ≥4% soli, MIE-016), ale UKY podaje szynkę tylko po obróbce cieplnej (MIE-154), a PNW 784 tylko wspomina, że prosciutto je się na surowo, bez procedury (MIE-155). Jedzenie na surowo to tożsamość wariantu i jest poza źródłami; wyrób europejski bez przepisu szczebla 1–3. Przebieg 2.",
+   "twierdzenia": [
+    "MIE-016",
+    "MIE-154",
+    "MIE-155",
+    "MIE-030",
+    "MIE-013"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "pork-belly-jowl-v01",
+   "nazwa": "boczek wędzony na ciepło i parzony",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "ok-zrodlo-po-zmianie",
+   "warunkowo": null,
+   "zmiana": "„wędzony na ciepło do 160°F wewnątrz (PNW 784)” zamiast „wędzony na ciepło i parzony”; decyzja B26-D2, do weta",
+   "ryzyko": "wysokie",
+   "podstawa": "PNW 784 (OSU, 2025, szczebel 3): boczek peklowany w lodówce 5–7 dni (MIE-158) solą Prague Powder #1 (MIE-159), wędzony na ciepło albo pieczony do 160°F wewnątrz (MIE-156, MIE-157), potem lodówka do 7 dni albo zamrażarka (MIE-160). To ten sam produkt i proces co „wędzony na ciepło”. Źródło nie ma parzenia w wodzie (E3: inny proces), więc zmiana: obróbka cieplna wędzeniem na ciepło (albo w piekarniku) do 160°F wewnątrz, bez osobnego parzenia. MU G2528 (wędzenie na zimno, MIE-153) nie pokrywa.",
+   "twierdzenia": [
+    "MIE-156",
+    "MIE-157",
+    "MIE-158",
+    "MIE-159",
+    "MIE-160",
+    "MIE-153",
+    "MIE-001",
+    "MIE-011",
+    "MIE-012"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "pork-belly-jowl-v02",
+   "nazwa": "boczek rolowany wędzony",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "PNW 784 i MU G2528 dotyczą płatów boczku. Zwinięcie przenosi powierzchnię do środka zwoju (E3), a żadne źródło szczebla 1–3 nie podaje procesu dla boczku rolowanego. Przebieg 2.",
+   "twierdzenia": [
+    "MIE-156",
+    "MIE-153"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "pork-belly-jowl-v09",
+   "nazwa": "boczek gotowany w łupinach cebuli",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Boczek gotowany w wywarze z łupin cebuli: brak przepisu szczebla 1–3 (wyszukiwanie R4 bez trafienia); obróbka w wodzie poza PNW 784. Przebieg 2.",
+   "twierdzenia": [
+    "MIE-021"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "smoked-cooked-sausages-v02",
+   "nazwa": "kiełbasa krakowska sucha (wędzona, parzona i podsuszana)",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Wyrób europejski o własnej recepturze; UGA B1437 ma proces kiełbasy wędzonej i dogotowanej (Polish Sausage, MIE-031), ale nie etap podsuszania po obróbce cieplnej; trwałość bez chłodzenia dopiero przy aw < 0,85 i pH < 5,3 (MIE-023). Wyszukiwanie R4 (kiełbasy podsuszane po obróbce) bez źródła 1–3. Przebieg 2.",
+   "twierdzenia": [
+    "MIE-031",
+    "MIE-023",
+    "MIE-029"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "smoked-cooked-sausages-v03",
+   "nazwa": "kiełbasa żywiecka i podwawelska",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Nazwane wyroby polskie o własnej recepturze; najbliższy jest proces UGA Polish Sausage (MIE-031), ale przepis na te wyroby nie istnieje w źródłach 1–3. Polecenie: wyroby europejskie bez przepisu nie dostają karty „po zmianie”. Możliwa zmiana przez decyzję o nazwie jako stylu (B26-Q1). Przebieg 2.",
+   "twierdzenia": [
+    "MIE-031",
+    "MIE-029"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "smoked-cooked-sausages-v04",
+   "nazwa": "kiełbasa jałowcowa i myśliwska",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Myśliwska jest podsuszana po obróbce (jak v02); jałowcowa to wyrób o własnej recepturze. Brak przepisu szczebla 1–3. Przebieg 2.",
+   "twierdzenia": [
+    "MIE-031",
+    "MIE-023"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "smoked-cooked-sausages-v05",
+   "nazwa": "cienkie kabanosy wieprzowe",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Kabanosy: wędzone, pieczone/parzone i suszone; UConn „Snack Sticks” (kopia, oryginał niedostępny) podaje tylko „Smoke and cook.” bez parametrów; MSU (pH i aw snack sticks) zablokowane. Brak przepisu 1–3. Przebieg 2.",
+   "twierdzenia": [
+    "MIE-023",
+    "MIE-031"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "smoked-cooked-sausages-v06",
+   "nazwa": "polska kiełbasa z dzika/mieszana",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "ok-zrodlo",
+   "warunkowo": "B26-D1: badanie mięsa dzika na włośnie + 160°F",
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "UGA B1437 (szczebel 3) dopuszcza zastąpienie całości lub części chudego mięsa dziczyzną we wszystkich przepisach broszury (MIE-150), w tym w przepisie Polish Sausage (Kielbasa), wędzonej i dogotowanej w wędzarni (MIE-031). Warunki: mięso dzika z badaniem na włośnie metodą wytrawiania (UE, MIE-034; zamrażanie nie wystarcza, MIE-033), mięso w chłodzie < 40°F (MIE-151), temperatura wewnętrzna 160°F jak w regule JarAtlas dla dziczyzny (MIE-118, MIE-021), lodówka 2–4 tygodnie (MIE-029).",
+   "twierdzenia": [
+    "MIE-150",
+    "MIE-151",
+    "MIE-031",
+    "MIE-021",
+    "MIE-118",
+    "MIE-033",
+    "MIE-034",
+    "MIE-026",
+    "MIE-029",
+    "MIE-012"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "smoked-cooked-sausages-v07",
+   "nazwa": "kiełbasa lisiecka",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Wyrób regionalny o własnej specyfikacji; najbliższy proces UGA Polish Sausage (MIE-031), ale brak przepisu 1–3 na ten wyrób. Jak v03 (B26-Q1). Przebieg 2.",
+   "twierdzenia": [
+    "MIE-031"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "smoked-cooked-sausages-v08",
+   "nazwa": "parówki i serdelki domowe (kutrowane z lodem)",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "UGA opisuje klasę kiełbas emulgowanych bez przepisu (MIE-152). UConn „Home Sausage Making” ma recepturę frankfurterek, ale tylko w kopii na pickyourown.org (oryginał extension.uconn.edu: błąd TLS), bez harmonogramu wędzenia i parzenia; nie liczę kopii jako przeczytanego oryginału. Przebieg 2.",
+   "twierdzenia": [
+    "MIE-152",
+    "MIE-021"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "smoked-cooked-sausages-v09",
+   "nazwa": "frankfurterki",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Jak v08 (MIE-152; UConn tylko w kopii). Przebieg 2. Uwaga katalogowa: duplikat v08?",
+   "twierdzenia": [
+    "MIE-152",
+    "MIE-021"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "smoked-cooked-sausages-v15",
+   "nazwa": "mortadela domowa z szynkowaru z pistacjami",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "UGA ma tylko grubo mieloną bolonię wędzoną i dogotowaną (bez szynkowaru); brak przepisu 1–3 na mortadelę gotowaną w foremce. Przebieg 2.",
+   "twierdzenia": [
+    "MIE-152",
+    "MIE-021"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "smoked-cooked-sausages-v16",
+   "nazwa": "kiełbasa szynkowa w osłonce barierowej",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Gotowana w wodzie w osłonce barierowej, bez wędzenia: brak przepisu 1–3 (R4 bez trafienia). Przebieg 2.",
+   "twierdzenia": [
+    "MIE-021"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "dry-cured-sausages-v12",
+   "nazwa": "kabanosy długo podsuszane",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Długie suszenie po obróbce: trwałość bez chłodzenia dopiero przy aw < 0,85 i pH < 5,3 (MIE-023), których nie da się sprawdzić w domu bez pomiaru; brak przepisu 1–3. Przebieg 2.",
+   "twierdzenia": [
+    "MIE-023"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "freshwater-fish-v08",
+   "nazwa": "pasztet rybny z wędzonego pstrąga pod masłem",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Przepis na pastę z wędzonej ryby (Wisconsin Sea Grant) nie podaje terminu; termin 2 tygodni (MIE-073, MIE-074) dotyczy samej ryby wędzonej, nie pasty z nabiałem; NC Sea Grant niedostępny (TLS). Przebieg 2.",
+   "twierdzenia": [
+    "MIE-073",
+    "MIE-074",
+    "MIE-079"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "eggs-v01",
+   "nazwa": "brytyjskie jaja w occie słodowym lub białym (pickled eggs)",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "ok-zrodlo-po-zmianie",
+   "warunkowo": null,
+   "zmiana": "usunąć „słodowym”; zalewa wg NCHFP Dilled Eggs (ocet biały 5%)",
+   "ryzyko": "wysokie",
+   "podstawa": "NCHFP Pickled Eggs (szczebel 1): sześć przepisów z octem białym albo jabłkowym, żaden ze słodowym (MIE-162); octy specjalne, w tym słodowy, tylko w przepisie przetestowanym (ACI-702). Wersja „w occie białym” jest w nazwie wariantu, więc zmiana nie usuwa tożsamości. Tylko lodówka (MIE-082–084).",
+   "twierdzenia": [
+    "MIE-162",
+    "ACI-702",
+    "ACI-211",
+    "MIE-082",
+    "MIE-083",
+    "MIE-084",
+    "MIE-085",
+    "MIE-087",
+    "MIE-088",
+    "MIE-089"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "eggs-v02",
+   "nazwa": "różowe jaja marynowane w zakwasie buraczanym i occie",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "ok-zrodlo-po-zmianie",
+   "warunkowo": null,
+   "zmiana": "sok z buraków z puszki zamiast zakwasu (NCHFP Red Beet Eggs); decyzja B26-D3, do weta",
+   "ryzyko": "wysokie",
+   "podstawa": "NCHFP Red Beet Eggs (szczebel 1): sok z buraków z puszki i ocet jabłkowy (MIE-163). Zakwas buraczany ma nieznaną kwasowość (MIE-087, ACI-211). Zmiana: sok z buraków z puszki zamiast zakwasu; różowy kolor i ocet zostają. Tylko lodówka.",
+   "twierdzenia": [
+    "MIE-163",
+    "MIE-087",
+    "ACI-211",
+    "MIE-082",
+    "MIE-083",
+    "MIE-084"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "eggs-v04",
+   "nazwa": "azjatyckie jaja marynowane w sosie sojowym i mirinie (ajitsuke tamago do ramenu)",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "ryzyko-wysokie",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Jaja na miękko (płynne żółtko) w zalewie bez kwasu: FDA każe do potraw z jajami niedogotowanymi używać jaj pasteryzowanych (MIE-091) i gotować jajka, aż żółtko się zetnie (MIE-092); jaja mają niską kwasowość (MIE-087). Brak przepisu 1–3; płynne żółtko to tożsamość wariantu.",
+   "twierdzenia": [
+    "MIE-091",
+    "MIE-092",
+    "MIE-087"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "eggs-v05",
+   "nazwa": "chińskie solone jaja kacze/kurze w solance (xian ya dan)",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Brak procedury domowej szczebla 1–3; praca recenzowana PMC5552285 bada tylko parametry fizykochemiczne solenia, bez wyników mikrobiologicznych. Przebieg 2.",
+   "twierdzenia": [
+    "MIE-087"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "eggs-v08",
+   "nazwa": "jajka marynowane po wietnamsku (thit kho)",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Thit kho to danie duszone (wieprzowina z jajami), nie przetwórstwo; brak przepisu 1–3. Przebieg 2.",
+   "twierdzenia": [],
+   "uwaga": "poza zakresem (danie); do partii katalogowej (B26-Q3)"
+  },
+  {
+   "id": "fermented-beverages-v02",
+   "nazwa": "kombucha smakowa (F2 z maliną, imbirem, marakują)",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "ryzyko-wysokie",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "NCHFP (szczebel 1): dodatki miesza się po fermentacji i pije od razu albo trzyma w lodówce do 2 dni (NAP-005); druga fermentacja w zamkniętej butelce poza przepisem. CSU (szczebel 3, FER-120) i BCCDC (szczebel 1, dla zakładów z pomiarem pH, FER-122) ją opisują, ale przy sporze ze szczeblem 1 wybieram wariant ostrożniejszy. Źródła mówią o zagrożeniach F2: CO2 i rozerwanie butelek (NAP-004, NAP-014), nadmiar alkoholu (FER-121, NAP-013). Tożsamość wariantu to F2, więc „po zmianie” na dodatki w lodówce usuwa tożsamość (analogia B22).",
+   "twierdzenia": [
+    "NAP-005",
+    "FER-120",
+    "FER-121",
+    "FER-122",
+    "NAP-004",
+    "NAP-013",
+    "NAP-014",
+    "NAP-010"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "fermented-beverages-v03",
+   "nazwa": "jun kombucha (na zielonej herbacie i surowym miodzie)",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "ryzyko-wysokie",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "NCHFP: brak danych, że inne cukry zachowują ten sam poziom bezpieczeństwa (FER-123). BCCDC (szczebel 1): surowy miód może zawierać przetrwalniki jadu kiełbasianego, groźne przy niepełnej fermentacji i za wysokim pH; alkohol w jun zwykle wyższy niż w kombuczy (FER-125). FSIC odradza zieloną herbatę (FER-126). Proces BCCDC (FER-124) to wytyczne dla zakładów z obowiązkowym pomiarem pH, nie przepis domowy.",
+   "twierdzenia": [
+    "FER-123",
+    "FER-124",
+    "FER-125",
+    "FER-126",
+    "NAP-015"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "ginger-turmeric-v03",
+   "nazwa": "zakwas imbirowy (ginger bug)",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B26": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "zmiana": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Trafienie P1 (Illinois „Homemade Ginger Ale”) używa suchych drożdży piekarskich, nie dzikiego zaczynu (FER-127); brak przepisu 1–3 na ginger bug. Przebieg 2.",
+   "twierdzenia": [
+    "FER-127",
+    "NAP-024"
+   ],
+   "uwaga": null
+  }
+ ],
+ "twierdzenia": [
+  {
+   "id": "MIE-150",
+   "twierdzenie": "UGA B1437: dziczyzną i innym mięsem z polowań można zastąpić całość lub część chudego mięsa w przepisach tej broszury; z mięsa dziczyzny usuwa się cały tłuszcz zewnętrzny przed mieleniem.",
+   "zrodla": [
+    {
+     "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+     "miejsce": "Sausage Ingredients, Meat (s. 7)",
+     "cytat": "Venison and other game may be substituted for all or part of the lean meats in the recipes in this booklet.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "a5ab2d48cb28",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/src/uga_b1437.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "MIE-151",
+   "twierdzenie": "UGA B1437: mięso dziczyzny musi być przez cały czas utrzymywane w chłodzie, poniżej 40°F (ok. 4°C).",
+   "zrodla": [
+    {
+     "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+     "miejsce": "Game Meats (s. 8)",
+     "cytat": "the meat MUST be kept cold (below 40 °F) at all times.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "a5ab2d48cb28",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/src/uga_b1437.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "MIE-152",
+   "twierdzenie": "UGA B1437 opisuje frankfurterki, bolonię, knockwurst i kiełbaski wiedeńskie jako kiełbasy z drobno zmielonej, emulgowanej masy, ale nie podaje na nie przepisu (lista przepisów: Polish Sausage, cotto-salami, all-beef, coarse ground bologna).",
+   "zrodla": [
+    {
+     "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+     "miejsce": "Sausage Types, Cooked and Smoked Sausages (s. 4); Sausage Recipes (s. 31)",
+     "cytat": "Frankfurters, bologna, knockwurst, and Vienna sausages are made from finely ground, emulsified",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "a5ab2d48cb28",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/src/uga_b1437.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": false,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "MIE-153",
+   "twierdzenie": "MU G2528: większość domowych wędzarni daje zimny dym (wędzenie na zimno), więc suszenie i wędzenie boczku trwa dłużej niż w zakładzie.",
+   "zrodla": [
+    {
+     "adres": "https://extension.missouri.edu/publications/g2528",
+     "miejsce": "Source of wood for smoke (ostatni akapit)",
+     "cytat": "Since most home smokehouses are designed to give a cold smoke, drying and smoking will take longer than at a commercial facility.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "ce74bee36c5c",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/src/mu.html",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "MIE-154",
+   "twierdzenie": "UKY ASC-213: przed gotowaniem szynkę country oczyszcza się z nadmiaru peklosoli i pleśni; publikacja podaje sposoby obróbki cieplnej (smażenie plastrów, gotowanie, pieczenie do 140°F wewnątrz), nie podaje jedzenia na surowo.",
+   "zrodla": [
+    {
+     "adres": "https://publications.mgcafe.uky.edu/files/ASC213.pdf",
+     "miejsce": "Sliced Ham / Cooking Country Hams (s. 7)",
+     "cytat": "Before cooking your country ham should be thoroughly cleaned to remove excess cure and mold.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "d9e5ef418693",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/src/uky.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "„nie podaje jedzenia na surowo” to wniosek z przeczytania całej części o podaniu (Sliced Ham, Whole Hams, Cooking Country Hams), nie cytat",
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "MIE-155",
+   "twierdzenie": "PNW 784 (OSU, 2025): niektóre wędliny peklowane, jak prosciutto i salami, je się na surowo, a inne, jak boczek, gotuje przed jedzeniem; publikacja nie podaje procedury dla prosciutto.",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+     "miejsce": "What is bacon? (s. 1)",
+     "cytat": "Some cured meats like prosciutto and salami are consumed raw after curing, while others, like bacon, are cooked before eating.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "eb4daf12bab7",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r4/pnw784.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": false,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "MIE-156",
+   "twierdzenie": "PNW 784: boczek peklowany trzeba ugotować albo uwędzić na ciepło do temperatury wewnętrznej 160°F (ok. 71°C), w wędzarni-grillu albo w piekarniku nastawionym powyżej 160°F.",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+     "miejsce": "Smoking and cooking (s. 4)",
+     "cytat": "Pork belly needs to be cooked or hot smoked to an internal temperature of 160° F.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "eb4daf12bab7",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r4/pnw784.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "wielkosc": "boczek_temp_wewnetrzna_F",
+   "wartosc": 160,
+   "jednostka": "°F (granica: co najmniej)"
+  },
+  {
+   "id": "MIE-157",
+   "twierdzenie": "PNW 784: przy temperaturze komory 225–250°F (ok. 107–121°C) boczek osiąga 160°F wewnątrz po około trzech godzinach.",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+     "miejsce": "Smoking and cooking (s. 4)",
+     "cytat": "With the cooking temperature set to 225–250° F, it will take approximately three hours for a pork belly to get to an internal temperature of 160° F.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "eb4daf12bab7",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r4/pnw784.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "MIE-158",
+   "twierdzenie": "PNW 784: boczek peklowany na sucho albo w zalewie trzyma się w lodówce przez 5–7 dni, obracając torebkę codziennie; peklowanie w lodówce (40°F).",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+     "miejsce": "Applying the brine and curing (s. 3)",
+     "cytat": "Cure in refrigerator for five to seven days, flipping the bag each day.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "eb4daf12bab7",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r4/pnw784.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    },
+    {
+     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+     "miejsce": "Safety checklist (s. 1)",
+     "cytat": "Cure in the refrigerator (40° F).",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "eb4daf12bab7",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r4/pnw784.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "MIE-159",
+   "twierdzenie": "PNW 784: do boczku zalecana jest sól peklująca Prague Powder #1 (6,25% azotynu sodu, 93,75% soli); mieszanki z azotanem (Prague Powder #2) nie są zalecane do boczku.",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+     "miejsce": "Purchasing curing salts (s. 2)",
+     "cytat": "contains 6.25% sodium nitrite and 93.75% salt (sodium chloride).",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "eb4daf12bab7",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r4/pnw784.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "MIE-160",
+   "twierdzenie": "PNW 784: po uwędzeniu lub upieczeniu boczek studzi się, owija i chłodzi przez noc; pokrojony trzyma się w lodówce do siedmiu dni albo zamraża (najlepsza jakość do 4 miesięcy).",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+     "miejsce": "Chill (s. 4)",
+     "cytat": "Slice to desired thickness and refrigerate for up to seven days or freeze.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "eb4daf12bab7",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r4/pnw784.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "wielkosc": "boczek_lodowka_dni",
+   "wartosc": 7,
+   "jednostka": "dni (granica: do, włącznie)"
+  },
+  {
+   "id": "MIE-161",
+   "twierdzenie": "OSU ANSI-3994: szynka peklowana i wędzona do 142°F wewnątrz wymaga dalszego gotowania w domu; szynki handlowe „fully cooked” mają dodatkową obróbkę do co najmniej 148°F wewnątrz; publikacja nie podaje końcowej temperatury dla szynki domowej.",
+   "zrodla": [
+    {
+     "adres": "https://pods.okstate.edu/fact-sheets/ANSI-3994pod.pdf",
+     "miejsce": "Smoking (s. 2)",
+     "cytat": "Hams sold as “fully cooked” have received extra heat processing to an internal temperature of at least 148°F.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "3ad495f8c402",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r4/ansi3994.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "„nie podaje końcowej temperatury dla szynki domowej” to wniosek z przeczytania całej publikacji",
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "MIE-162",
+   "twierdzenie": "NCHFP Pickled Eggs: wszystkie 6 przepisów (na 12 obranych jaj na twardo) używa octu jabłkowego (Red Beet, Sweet and Sour, Dark and Spicy) albo białego (Cidered, Dilled, Pineapple); zalewę doprowadza się do wrzenia, gotuje 5 minut, zalewa gorącą jaja w wyparzonym słoiku 1 qt, zamyka i od razu chłodzi. Octu słodowego żaden przepis nie przewiduje.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+     "miejsce": "NCHFP Pickled Eggs, RECIPES (wstęp) i Dilled Eggs",
+     "cytat": "Pour the hot pickling solution over the eggs in the jar, cover, and refrigerate immediately.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "77228bd2eb6c",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/eggs.html",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+     "miejsce": "NCHFP Pickled Eggs, DILLED EGGS",
+     "cytat": "1½ cups white vinegar",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "77228bd2eb6c",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/eggs.html",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "MIE-163",
+   "twierdzenie": "NCHFP Red Beet Eggs: 1 szklanka soku z buraków z puszki, 1½ szklanki octu jabłkowego, 1 łyżeczka brązowego cukru i kilka małych buraczków z puszki (na 12 jaj, przechowywanie w lodówce); przepis nie przewiduje fermentowanego soku (zakwasu).",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+     "miejsce": "NCHFP Pickled Eggs, RED BEET EGGS",
+     "cytat": "1 cup red beet juice (from canned beets)",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "77228bd2eb6c",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/eggs.html",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "FER-120",
+   "twierdzenie": "CSU Extension (przepis na kombuchę): gotową kombuchę aromatyzuje się 10–20% soku albo czystych owoców (także ziołami i przyprawami), szczelnie zamyka i zostawia w temperaturze pokojowej 1–3 dni dla nagazowania albo od razu chłodzi; dłuższe trzymanie zamkniętej butelki w temperaturze pokojowej grozi nagromadzeniem CO2, a nawet rozerwaniem butelki.",
+   "zrodla": [
+    {
+     "adres": "https://extension.colostate.edu/resource/understanding-and-making-kombucha/",
+     "miejsce": "CSU Extension, Understanding and Making Kombucha (rev. 10/2025), Kombucha Recipe, Instructions",
+     "cytat": "Flavor finished kombucha as desired with 10-20% juice or clean fruit, and experiment with clean herbs and spices based on preference.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "c1607ebb4c04",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/csu.html",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    },
+    {
+     "adres": "https://extension.colostate.edu/resource/understanding-and-making-kombucha/",
+     "miejsce": "jw.",
+     "cytat": "Leave at room temperature 1-3 days for potential carbonation or refrigerate immediately.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "c1607ebb4c04",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/csu.html",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "FER-121",
+   "twierdzenie": "FSIC (Australia): druga fermentacja albo dodatek owoców może prowadzić do nadmiernego powstawania alkoholu; drugą fermentację należy ograniczyć do 7–10 dni, a najlepiej napój pasteryzować (podgrzać do co najmniej 83°C).",
+   "zrodla": [
+    {
+     "adres": "https://foodsafety.asn.au/topic/kombucha/",
+     "miejsce": "FSIC, Kombucha (19.10.2019), Chemical hazards",
+     "cytat": "Allowing time for a second fermentation to occur or the adding fruit for flavour can lead to excessive alcohol production by the yeast.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "1fdd02d4a664",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/fsic.html",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    },
+    {
+     "adres": "https://foodsafety.asn.au/topic/kombucha/",
+     "miejsce": "FSIC, Kombucha (19.10.2019), Chemical hazards",
+     "cytat": "To prevent this the second fermentation should be limited to 7-10 days and preferably the tea should be pasteurised, i.e. heated to 83 deg. C or hotter",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "1fdd02d4a664",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/fsic.html",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "FER-122",
+   "twierdzenie": "BCCDC: dodatki smakowe do kombuchy i jun dodaje się po fermentacji pierwotnej, gdy pH spadnie poniżej 4,2; po dodaniu soku lub innych dodatków pH trzeba zmierzyć ponownie (gotowy produkt: poniżej 4,2, ale powyżej 2,5); zalecany sok pasteryzowany, handlowy.",
+   "zrodla": [
+    {
+     "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+     "miejsce": "BCCDC Fermented Foods Guidance 3.11 Kombucha & Jun (upd. 12/2024), s. 10, Flavouring agents in kombucha and jun",
+     "cytat": "Flavouring agents should be added after initial fermentation, when the pH has dropped below 4.2.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "b7aefee0a0d9",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/bccdc-kj.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    },
+    {
+     "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+     "miejsce": "jw.",
+     "cytat": "the pH must again be tested to ensure the pH of the finished product is less than 4.2 but above 2.5.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "b7aefee0a0d9",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/bccdc-kj.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "FER-123",
+   "twierdzenie": "NCHFP (FAQ do przepisu na kombuchę): nie zaleca się innych rodzajów cukru niż w przepisie; brak danych potwierdzających, że cukry alternatywne zachowują ten sam poziom bezpieczeństwa.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/images/uploads/FAQs_Consumer_version_Kombucha.pdf",
+     "miejsce": "UGA Extension/NCHFP, Crafting Kombucha at Home FAQ (2026), pyt. 18",
+     "cytat": "At this time, we don’t have the data to confirm that using alternative sugars will maintain the same level of safety.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "aeb4e934654c",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/nchfp-faq.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "FER-124",
+   "twierdzenie": "BCCDC (opis procesu dla zakładów): jun to fermentowana zielona herbata z miodem (ok. 2 łyżeczki herbaty i 250 ml miodu na 2 l), fermentacja pierwotna 4–7 dni w 21–26°C, kwasowość końcowa pH 2,5–3,5, maksimum pH 4,2; druga fermentacja w szczelnych butelkach z owocami lub sokiem 1–3 dni, potem chłodzenie.",
+   "zrodla": [
+    {
+     "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+     "miejsce": "BCCDC Fermented Foods Guidance 3.11 Kombucha & Jun (upd. 12/2024), s. 10, Description of food preparation for jun",
+     "cytat": "Honey is added (250 mL into the 2 L solution) and stirred until completely dissolved.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "b7aefee0a0d9",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/bccdc-kj.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    },
+    {
+     "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+     "miejsce": "jw.",
+     "cytat": "The primary fermentation usually proceeds for 4 to 7 days at 21-26 °C.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "b7aefee0a0d9",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/bccdc-kj.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "FER-125",
+   "twierdzenie": "BCCDC: surowy miód może zawierać przetrwalniki jadu kiełbasianego; jeśli fermentacja jun jest niepełna albo źle prowadzona i pH nie jest dość niskie, przetrwalniki mogą rozwinąć się w środowisku beztlenowym. Alkohol w jun jest na ogół wyższy niż w kombuczy.",
+   "zrodla": [
+    {
+     "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+     "miejsce": "BCCDC Fermented Foods Guidance 3.11 Kombucha & Jun (upd. 12/2024), Potential health issues, Botulism",
+     "cytat": "Raw honey can contain botulism spores.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "b7aefee0a0d9",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/bccdc-kj.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    },
+    {
+     "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+     "miejsce": "BCCDC Fermented Foods Guidance 3.11 Kombucha & Jun (upd. 12/2024), Description of food preparation for kombucha/jun",
+     "cytat": "The alcohol content of jun is generally higher than kombucha.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "b7aefee0a0d9",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/bccdc-kj.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "FER-126",
+   "twierdzenie": "FSIC: do kombuchy nie zaleca się herbaty zielonej ani oolong, bo powstaje więcej kwasu; fermentować tylko z czarnej herbaty. pH na koniec fermentacji (ok. 7 dni) powinno spaść poniżej 3,0; jeśli do 10. dnia nie spadnie, partię wyrzucić.",
+   "zrodla": [
+    {
+     "adres": "https://foodsafety.asn.au/topic/kombucha/",
+     "miejsce": "FSIC, Kombucha, Safe fermentation conditions",
+     "cytat": "Green or oolong-based tea is not recommended because there is more acid produced which can lead to problems",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "1fdd02d4a664",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/fsic.html",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    },
+    {
+     "adres": "https://foodsafety.asn.au/topic/kombucha/",
+     "miejsce": "jw.",
+     "cytat": "If it has not reached a pH of less than 3.0 by the end of 10 days it is strongly recommended that you discard the batch.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "1fdd02d4a664",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/fsic.html",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  },
+  {
+   "id": "FER-127",
+   "twierdzenie": "Illinois Extension, Homemade Ginger Ale: napój zaszczepia się 1/8 łyżeczki suchych drożdży piekarskich (nie dzikim zaczynem imbirowym), fermentuje 24–48 h w temperaturze pokojowej w plastikowej butelce 2 l, potem 24 h w lodówce; nigdy w szkle, bo nieodgazowana butelka może wybuchnąć.",
+   "zrodla": [
+    {
+     "adres": "https://extension.illinois.edu/media/6876/download?inline",
+     "miejsce": "University of Illinois Extension, Fermenting Foods Recipes, HOMEMADE GINGER ALE (mod. 05/2025)",
+     "cytat": "⅛ teaspoon dry active yeast",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "11a2faef1fe0",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/illinois.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    },
+    {
+     "adres": "https://extension.illinois.edu/media/6876/download?inline",
+     "miejsce": "jw.",
+     "cytat": "Never make this recipe in a glass container.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "11a2faef1fe0",
+     "plik": "/tmp/claude-0/-home-user-jaratlas-www/862ee742-6a14-50a4-acc0-700effe24846/scratchpad/r5/illinois.pdf",
+     "weryfikacja": "curl+pdftotext/html→tekst+grep (sprawdz-cytaty.py)",
+     "kopia": "scratchpad sesji B26 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02"
+  }
+ ],
+ "niedostepne": [
+  {
+   "adres": "https://ncseagrant.ncsu.edu/mariners-menu/smoked-fish-spread",
+   "kod": "TLS: curl (60) unable to get local issuer certificate"
+  },
+  {
+   "adres": "https://extension.uconn.edu/?p=20950",
+   "kod": "TLS: curl (60) unable to get local issuer certificate (oryginał Home Sausage Making EXT203)"
+  },
+  {
+   "adres": "https://webarchive.library.unt.edu/web/20090116024610/http:/www.uga.edu/nchfp/how/cure_smoke/curing_pork.pdf",
+   "kod": "TLS: curl (60)"
+  },
+  {
+   "adres": "https://www.canr.msu.edu/resources/measuring-ph-and-water-activity-in-cured-reduced-oxygen-packaged-snack-sticks",
+   "kod": "200, strona blokady botów Incapsula (nie obchodzono)"
+  },
+  {
+   "adres": "https://nchfp.uga.edu/how/cure_smoke/curing_pork.pdf",
+   "kod": "przekierowanie na /404"
+  }
+ ],
+ "przeglad_D027d": null
+}
