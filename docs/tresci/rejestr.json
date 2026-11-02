@@ -52497,5 +52497,51 @@
    "ACI-026",
    "ACI-156"
   ]
+ },
+ {
+  "id": "SLO-760",
+  "twierdzenie": "FDA (Safe Food Handling): nigdy nie rozmrażać żywności w temperaturze pokojowej, np. na blacie; są trzy bezpieczne sposoby rozmrażania: w lodówce, w zimnej wodzie i w mikrofalówce; żywność rozmrożoną w zimnej wodzie albo w mikrofalówce trzeba od razu ugotować.",
+  "twierdzenie_en": "FDA (Safe Food Handling): never thaw food at room temperature, such as on the counter top; there are three safe ways to defrost food: in the refrigerator, in cold water and in the microwave; food thawed in cold water or in the microwave should be cooked immediately.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+    "miejsce": "FDA, Safe Food Handling; CHILL",
+    "cytat": "Never thaw food at room temperature, such as on the counter top. There are three safe ways to defrost food: in the refrigerator, in cold water, and in the microwave. Food thawed in cold water or in the microwave should be cooked immediately.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "562913a153d2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "06 p29 D1-p3 (D3-S-03)"
+ },
+ {
+  "id": "SLO-761",
+  "twierdzenie": "FDA (Safe Food Handling): duże ilości resztek dzielić na płytkie pojemniki, żeby szybciej schłodziły się w lodówce.",
+  "twierdzenie_en": "FDA (Safe Food Handling): divide large amounts of leftovers into shallow containers for quicker cooling in the refrigerator.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+    "miejsce": "FDA, Safe Food Handling; CHILL",
+    "cytat": "Divide large amounts of leftovers into shallow containers for quicker cooling in the refrigerator.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "562913a153d2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "06 p29 D1-p3 (D3-S-02)"
  }
 ]

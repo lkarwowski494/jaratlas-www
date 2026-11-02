@@ -48,7 +48,9 @@ Keep bacon in the freezer for at most 1 month: according to the FDA, that is how
 
 Thaw best in the refrigerator, in the original wrapping. [T:SLO-405]
 
-Faster: in waterproof wrapping in cold water that you change at least every 30 minutes so it stays cold. [T:SLO-405]
+Faster: in waterproof wrapping in cold water (below 70 °F, about 21 °C) that you change at least every 30 minutes so it stays cold, but only if the food will thaw in under 2 hours. [T:SLO-405,SLO-258]
+
+According to the FDA, cook food thawed in cold water or in the microwave immediately. [T:SLO-760]
 
 Thaw in the microwave only if you will cook it immediately afterwards. [T:SLO-405]
 
