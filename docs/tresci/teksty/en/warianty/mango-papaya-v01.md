@@ -11,4 +11,4 @@ There is no recipe here for Indian green mango pickle (aam ka achar) in mustard 
 
 JarAtlas found no checked source with a home method for fruit in oil, so it applies the same caution as for vegetables in oil. [T:-]
 
-Salt and water-activity barriers, other than drying, are not used as a home safeguard and are not recommended for consumers. [T:OLE-033]
+Salt and water-activity barriers, other than drying, are not generally used as a home safeguard and are not recommended for consumers. [T:OLE-033]

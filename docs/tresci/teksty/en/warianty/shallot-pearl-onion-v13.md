@@ -1,6 +1,6 @@
 # Crispy fried shallots in oil for the refrigerator, eaten by the next day
 
-This card is for crispy fried shallots kept in their oil in the refrigerator and eaten soon. [T:-] This card follows a general rule for vegetables in oil from food-safety authorities, not a recipe tested for this product. [T:-] It gives no amounts or cooking times; it gives the rules for preparing and storing it. [T:-] The German Federal Institute for Risk Assessment (BfR) says homemade vegetables in oil are kept in the refrigerator and eaten no later than the day after they are made. [T:OLE-077] The Swedish Food Agency (Livsmedelsverket) also says homemade vegetables in oil that have not been heat-treated are kept in the refrigerator. [T:OLE-070]
+This card is for crispy fried shallots kept in their oil in the refrigerator and eaten soon. [T:-] This card follows a general rule for vegetables in oil from food-safety authorities, not a recipe tested for this product. [T:-] It gives no amounts or cooking times; it gives the rules for preparing and storing it. [T:-] The German Federal Institute for Risk Assessment (BfR) says homemade vegetables in oil are kept in the refrigerator and eaten no later than the day after they are made. [T:OLE-077]
 
 ## !
 
@@ -13,7 +13,7 @@ This card is for crispy fried shallots kept in their oil in the refrigerator and
 
 Appearance, smell and taste cannot tell you whether vegetables in oil carry a botulism hazard. [T:OLE-027]
 
-According to the Swedish Food Agency, cooking vegetables in oil could in theory inactivate C. botulinum spores, but there are no studies confirming that the method works in practice. [T:OLE-073]
+According to the Swedish Food Agency, boiling vegetables in oil, which usually boils above 121 °C, could in theory inactivate the spores of one type of C. botulinum (type I), but there are no studies confirming that the method works in practice. [T:OLE-073]
 
 Crisp fried shallots are still vegetables in oil, and vegetables in oil, including partly dried ones, give C. botulinum good conditions to grow. [T:OLE-072]
 

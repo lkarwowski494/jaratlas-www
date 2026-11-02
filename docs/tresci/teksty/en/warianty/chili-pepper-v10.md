@@ -1,6 +1,6 @@
 # Chili oil (la-yu) for the refrigerator, eaten by the next day
 
-This card is for chili oil (la-yu), chili in oil kept in the refrigerator and eaten soon. [T:-] This card follows a general rule for vegetables in oil from food-safety authorities, not a recipe tested for this product. [T:-] It gives no amounts or cooking times; it gives the rules for preparing and storing it. [T:-] The German Federal Institute for Risk Assessment (BfR) says homemade vegetables in oil are kept in the refrigerator and eaten no later than the day after they are made. [T:OLE-077] The Swedish Food Agency (Livsmedelsverket) also says homemade vegetables in oil that have not been heat-treated are kept in the refrigerator. [T:OLE-070]
+This card is for chili oil (la-yu), chili in oil kept in the refrigerator and eaten soon. [T:-] This card follows a general rule for vegetables in oil from food-safety authorities, not a recipe tested for this product. [T:-] It gives no amounts or cooking times; it gives the rules for preparing and storing it. [T:-] The German Federal Institute for Risk Assessment (BfR) says homemade vegetables in oil are kept in the refrigerator and eaten no later than the day after they are made. [T:OLE-077]
 
 ## !
 
