@@ -8,11 +8,17 @@ This card describes the Wisconsin Extension recipe for cucumber pickles with oni
 
 Pickling solution: 4 cups vinegar (5% acetic acid), 2 cups sugar, 1/3 cup canning and pickling salt, and 1 1/2 teaspoons each of celery seed, mustard seed and turmeric. [T:ACI-503,ACI-709]
 
+This recipe uses vinegar without water; do not add water. [T:ACI-503,ACI-016]
+
+JarAtlas rule (cautious): if you use more than one vegetable besides the cucumbers, for example onion and peppers, keep their combined amount at 1 cup. [T:ACI-503,ACI-016]
+
 Use only vinegar labelled 5% acidity; white and cider vinegar can be used interchangeably; do not use wine vinegars, homemade vinegar or lemon juice. [T:ACI-509]
 
 Vinegar with less than 5% acidity should never be used in home food preservation. [T:ACI-516]
 
 Do not change the proportions of vinegar, vegetables and water in the recipe. [T:ACI-016]
+
+Do not use vinegar stronger than the 5–7% range Penn State Extension advises for home food preservation, and do not dilute a stronger vinegar with water yourself. [T:ACI-209,ACI-210]
 
 ## Preparing
 
@@ -30,13 +36,11 @@ The recipe yields 2 quarts. [T:ACI-709]
 
 Label and date the jars and store them in the refrigerator at 40 °F (4.4 °C) or colder for up to 2 weeks. [T:ACI-504]
 
-This pickle is not heat processed and must be kept refrigerated. [T:ACI-504]
-
 These pickles are not heat processed, so they are not shelf-stable at room temperature and must be kept in the refrigerator. [T:ACI-501,ACI-022]
 
 Do not decrease the amount of vinegar, because an unsafe product may result; for a milder taste add sugar rather than reduce the vinegar. [T:ACI-501]
 
-JarAtlas rule (cautious): keep the jar on the middle shelf of the refrigerator, not in the door, because US refrigerator-pickle recipes assume 40 °F (4.4 °C) or colder, while the door can be about 10 °C. [T:ACI-523]
+JarAtlas rule (cautious): keep the jar on the middle shelf of the refrigerator, not in the door: US extension guidance (for example Wisconsin Extension) assumes 40 °F (4.4 °C) or colder for refrigerator pickles, while a Polish sanitary inspection office gives about 10 °C for the door, even though it suggests the door for jars of preserves. [T:ACI-523]
 
 ## Why the vinegar matters
 

@@ -1,4 +1,4 @@
-# Kompot z czerwonych porzeczek: całe czerwone porzeczki w bardzo lekkim syropie (NCHFP)
+# Całe czerwone porzeczki w bardzo lekkim syropie (NCHFP)
 
 Ta karta stosuje metodę NCHFP wekowania całych owoców jagodowych (nakładanie na surowo, bardzo lekki syrop, kąpiel wodna) tylko do porzeczek czerwonych. [T:ACI-244,ACI-249,ACI-192,SLO-324]
 

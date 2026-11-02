@@ -35704,7 +35704,7 @@
  },
  {
   "id": "ACI-523",
-  "twierdzenie": "Ostrożna reguła JarAtlas: przetwory lodówkowe (pikle, dżemy, syropy) trzyma się na środkowej półce, nie w drzwiach: amerykańskie przepisy na pikle lodówkowe zakładają 40°F (4,4°C) lub niżej, a w drzwiach bywa ok. 10°C.",
+  "twierdzenie": "Ostrożna reguła JarAtlas: przetwory lodówkowe (pikle, dżemy, syropy) trzyma się na środkowej półce, nie w drzwiach: wytyczne extension w USA (np. Wisconsin B2267) zakładają dla pikli lodówkowych 40°F (4,4°C) lub niżej, a według PSSE Szczecinek w drzwiach jest ok. 10°C (na środkowej półce poniżej 5°C), choć to samo źródło wskazuje drzwi jako miejsce na słoiki z przetworami.",
   "zrodla": [
    {
     "adres": "https://door.extension.wisc.edu/files/2010/10/B2267-Homemade-Pickles-Relishes.pdf",
@@ -35742,8 +35742,8 @@
   "klaster": "ACI",
   "pochodzenie": "B9 E1-lodowka-zrodla-p1-2026-11-02",
   "jednoZrodlo": false,
-  "twierdzenie_en": "Cautious JarAtlas rule: refrigerator preserves (pickles, jams, syrups) are kept on the middle shelf, not in the door: US refrigerator-pickle recipes assume 40°F (4.4°C) or colder, while the door can be about 10°C.",
-  "uwaga": "Reguła (decyzja B9-D6), nie twierdzenie źródła."
+  "twierdzenie_en": "Cautious JarAtlas rule: refrigerator preserves (pickles, jams, syrups) are kept on the middle shelf, not in the door: US extension guidance (e.g. Wisconsin B2267) assumes 40°F (4.4°C) or colder for refrigerator pickles, while according to PSSE Szczecinek the door is about 10°C (the middle shelf below 5°C), even though the same source suggests the door for jars of preserves.",
+  "uwaga": "Reguła (decyzja B9-D6), nie twierdzenie źródła. p31 (V1): reguła odwraca radę PSSE (słoiki z przetworami w drzwiach) na podstawie temperatury z tego samego źródła; środkowa półka „poniżej 5°C” nie gwarantuje 40°F, więc reguła wybiera miejsce chłodniejsze, nie spełnienie progu; temperaturę 40°F podaje z przeczytanych przepisów tylko Wisconsin."
  },
  {
   "id": "ACI-524",

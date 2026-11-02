@@ -28,7 +28,7 @@ Longer storage should not make it unsafe, but mold may develop and the flavor ma
 
 Do not store it at room temperature, because it rapidly develops mold. [T:ACI-435]
 
-JarAtlas rule (cautious): keep the jar on the middle shelf of the refrigerator, not in the door, because US refrigerator-pickle recipes assume 40 °F (4.4 °C) or colder, while the door can be about 10 °C. [T:ACI-523]
+JarAtlas rule (cautious): keep the jar on the middle shelf of the refrigerator, not in the door: US extension guidance (for example Wisconsin Extension) assumes 40 °F (4.4 °C) or colder for refrigerator pickles, while a Polish sanitary inspection office gives about 10 °C for the door, even though it suggests the door for jars of preserves. [T:ACI-523]
 
 ## When to throw it out
 
