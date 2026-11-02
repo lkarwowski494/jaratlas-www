@@ -1,6 +1,6 @@
 # Maliny mrożone (NCHFP)
 
-Ta karta opisuje instrukcję NCHFP mrożenia malin bez dodatków, z cukrem albo w syropie, w 0 °F (−18 °C) lub niżej; owoców się nie blanszuje. [T:SLO-247,SUS-050]
+Ta karta opisuje instrukcję NCHFP mrożenia malin bez dodatków, z cukrem albo w syropie, w 0 °F (−18 °C) lub niżej; instrukcja nie przewiduje blanszowania. [T:SLO-247,SUS-050]
 
 ## Wybór i przygotowanie
 
@@ -30,11 +30,11 @@ Zimnego syropu użyj tyle, by przykrył owoce, ok. 1/2 do 2/3 szklanki na pintę
 
 ## Pakowanie
 
-Owoce bez dodanego cukru i płynu (pakowanie na sucho) potrzebują 1/2 cala (ok. 1,3 cm) wolnej przestrzeni w każdym pojemniku. [T:SLO-249]
+Owoce bez dodanego cukru i płynu (pakowanie na sucho) potrzebują 1/2 cala (ok. 1,3 cm) wolnej przestrzeni w pojemnikach pint i quart, z szerokim i z wąskim otworem. [T:SLO-249]
 
 Owoce z cukrem i w syropie pakuje się jak z płynem: w pojemnikach z szerokim otworem zostaw 1/2 cala (ok. 1,3 cm) wolnej przestrzeni dla pinty (ok. 0,47 l) i 1 cal (ok. 2,5 cm) dla pojemnika quart (ok. 0,95 l); w pojemnikach z wąskim otworem 3/4 cala (ok. 1,9 cm) dla pinty i 1 1/2 cala (ok. 3,8 cm) dla pojemnika quart. [T:SLO-249]
 
-Reguła JarAtlas (ostrożna; NCHFP nie podaje wolnej przestrzeni dla pojemników metrycznych): pojemnik większy niż pinta (ok. 0,47 l) traktuj jak quart. [T:SLO-249]
+Reguła JarAtlas (ostrożna; NCHFP nie podaje wolnej przestrzeni dla pojemników metrycznych): pojemnik większy niż pinta (ok. 0,47 l) traktuj jak quart, a pojemników większych niż quart (ok. 0,95 l) do tych owoców nie używaj, bo NCHFP nie podaje dla nich wolnej przestrzeni. [T:SLO-249]
 
 Używaj opakowań odpornych na wilgoć i parę wodną, trwałych i szczelnych, które nie kruszą się i nie pękają na mrozie. [T:SLO-251]
 
@@ -74,9 +74,11 @@ Opakowanie 1 funta (ok. 0,45 kg) owoców w syropie potrzebuje 6 do 8 godzin w lo
 
 Rozmrażaj tylko tyle, ile potrzebujesz naraz; resztki rozmrożonych owoców lepiej się trzymają, gdy je ugotujesz. [T:SLO-256]
 
-Nigdy nie rozmrażaj żywności w temperaturze pokojowej ani w ciepłej wodzie: jej zewnętrzna warstwa nagrzewa się wtedy do strefy zagrożenia 40–140 °F (ok. 4–60 °C), w której bakterie szybko się namnażają. [T:SLO-258,SUS-060]
+Nigdy nie rozmrażaj żywności w temperaturze pokojowej ani w ciepłej wodzie: jej zewnętrzna warstwa nagrzewa się wtedy do strefy zagrożenia 40–140 °F (ok. 4–60 °C), w której bakterie szybko się namnażają. [T:SLO-258]
 
 Rozmrażaj w lodówce w 40 °F (ok. 4 °C) lub niżej, w zimnej bieżącej wodzie poniżej 70 °F (ok. 21 °C) albo w mikrofalówce, jeśli od razu ją ugotujesz lub podasz. [T:SLO-258]
+
+W zimnej wodzie rozmrażaj tylko w szczelnym opakowaniu lub woreczku, tylko dopóki woda ma poniżej 70 °F (ok. 21 °C) i tylko wtedy, gdy żywność rozmrozi się w mniej niż 2 godziny. [T:SLO-258]
 
 ## Kiedy wyrzucić
 

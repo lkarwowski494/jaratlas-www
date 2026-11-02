@@ -68,9 +68,11 @@ Zagotuj wodę w przykrytym rondlu (na większość warzyw wystarczy 1/2 szklanki
 
 Potem zmniejsz ogień i gotuj pod przykryciem, aż będą miękkie. [T:SLO-257]
 
-Nigdy nie rozmrażaj żywności w temperaturze pokojowej ani w ciepłej wodzie: jej zewnętrzna warstwa nagrzewa się wtedy do strefy zagrożenia 40–140 °F (ok. 4–60 °C), w której bakterie szybko się namnażają. [T:SLO-258,SUS-060]
+Nigdy nie rozmrażaj żywności w temperaturze pokojowej ani w ciepłej wodzie: jej zewnętrzna warstwa nagrzewa się wtedy do strefy zagrożenia 40–140 °F (ok. 4–60 °C), w której bakterie szybko się namnażają. [T:SLO-258]
 
 Rozmrażaj w lodówce w 40 °F (ok. 4 °C) lub niżej, w zimnej bieżącej wodzie poniżej 70 °F (ok. 21 °C) albo w mikrofalówce, jeśli od razu ją ugotujesz lub podasz. [T:SLO-258]
+
+W zimnej wodzie rozmrażaj tylko w szczelnym opakowaniu lub woreczku, tylko dopóki woda ma poniżej 70 °F (ok. 21 °C) i tylko wtedy, gdy żywność rozmrozi się w mniej niż 2 godziny. [T:SLO-258]
 
 ## Kiedy wyrzucić
 

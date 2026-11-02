@@ -66,9 +66,11 @@ Bring water to a boil in a covered pan (for most vegetables 1/2 cup of water is 
 
 Then lower the heat and cook them covered until just tender. [T:SLO-257]
 
-Never thaw food at room temperature or in warm water: its outer layer warms into the danger zone of 40–140 °F (about 4–60 °C), where bacteria multiply rapidly. [T:SLO-258,SUS-060]
+Never thaw food at room temperature or in warm water: its outer layer warms into the danger zone of 40–140 °F (about 4–60 °C), where bacteria multiply rapidly. [T:SLO-258]
 
 Thaw it in the refrigerator at 40 °F (about 4 °C) or below, in cold running water below 70 °F (about 21 °C), or in the microwave oven if you will cook or serve it straight away. [T:SLO-258]
+
+Thaw in cold water only in a leak-proof package or bag, only while the water stays below 70 °F (about 21 °C), and only if the food will thaw in under 2 hours. [T:SLO-258]
 
 ## When to throw away
 

@@ -15641,6 +15641,24 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "0a2a5d52d040"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/blanching-vegetables/",
+    "miejsce": "NCHFP, Blanching Vegetables; Water Blanching",
+    "cytat": "Use one gallon water per pound of prepared vegetables.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c35696e65194"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/blanching-vegetables/",
+    "miejsce": "NCHFP, Blanching Vegetables; Water Blanching",
+    "cytat": "Start counting blanching time as soon as the water returns to a boil.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c35696e65194"
    }
   ],
   "status": "potwierdzone",
@@ -15662,6 +15680,15 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "0a2a5d52d040"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/blanching-vegetables/",
+    "miejsce": "NCHFP, Blanching Vegetables; Cooling",
+    "cytat": "plunge the basket of vegetables immediately into a large quantity of cold water, 60ºF or below.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c35696e65194"
    }
   ],
   "status": "potwierdzone",
@@ -15704,6 +15731,24 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "71d9ddf2b0a8"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/how-long-can-i-store-frozen-foods/",
+    "miejsce": "NCHFP, How Long Can I Store Frozen Foods; tabela",
+    "cytat": "Fruits and Vegetables 8 - 12",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f102f83c360"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/how-long-can-i-store-frozen-foods/",
+    "miejsce": "NCHFP, How Long Can I Store Frozen Foods; akapit 1",
+    "cytat": "assuming the food has been prepared and packaged correctly and stored in the freezer at or below 0°F",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f102f83c360"
    }
   ],
   "status": "potwierdzone",
@@ -15748,7 +15793,7 @@
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/thawing-and-preparing-foods-for-serving/",
-    "miejsce": "NCHFP, Thawing and Preparing Foods; akapit o rozmrażaniu",
+    "miejsce": "NCHFP, Thawing and Preparing Foods; boczne FAQ o mięsie i drobiu (uwaga weryfikacji p14: nie akapit główny; karty mrożenia p14 opierają zdanie o rozmrażaniu na SLO-258)",
     "cytat": "There is greater danger of bacterial growth and food spoilage for food thawed at room temperature.",
     "odczyt": "2026-11-01",
     "szczebel": 1,
@@ -32852,7 +32897,7 @@
  },
  {
   "id": "SLO-249",
-  "twierdzenie": "NCHFP Headspace to Allow (mrożenie): pakowanie z płynem (owoce w soku, cukrze, syropie albo wodzie; owoce zgniecione lub przetarte): w pojemniku z szerokim otworem 1/2 cala (ok. 1,3 cm) dla pinty (ok. 0,47 l) i 1 cal (ok. 2,5 cm) dla quarta (ok. 0,95 l), w pojemniku z wąskim otworem 3/4 cala (ok. 1,9 cm) dla pinty i 1 1/2 cala (ok. 3,8 cm) dla quarta; pakowanie bez dodatków (owoce albo warzywa bez dodanego cukru i płynu): 1/2 cala (ok. 1,3 cm) we wszystkich czterech przypadkach. Reguła JarAtlas (ostrożna; NCHFP nie podaje wolnej przestrzeni dla pojemników metrycznych): pojemnik większy niż pinta (ok. 0,47 l) traktować jak quart.",
+  "twierdzenie": "NCHFP Headspace to Allow (mrożenie): pakowanie z płynem (owoce w soku, cukrze, syropie albo wodzie; owoce zgniecione lub przetarte): w pojemniku z szerokim otworem 1/2 cala (ok. 1,3 cm) dla pinty (ok. 0,47 l) i 1 cal (ok. 2,5 cm) dla quarta (ok. 0,95 l), w pojemniku z wąskim otworem 3/4 cala (ok. 1,9 cm) dla pinty i 1 1/2 cala (ok. 3,8 cm) dla quarta; pakowanie bez dodatków (owoce albo warzywa bez dodanego cukru i płynu): 1/2 cala (ok. 1,3 cm) we wszystkich czterech przypadkach. Reguła JarAtlas (ostrożna; NCHFP nie podaje wolnej przestrzeni dla pojemników metrycznych): pojemnik większy niż pinta (ok. 0,47 l) traktować jak quart; pojemników większych niż quart (ok. 0,95 l) nie używać do owoców pakowanych z płynem ani na sucho, bo tabela NCHFP obejmuje tylko pinty i quarty i nie podaje dla nich wolnej przestrzeni (NCHFP dopuszcza pojemniki do 1/2 galonu, ok. 1,9 l, SLO-251).",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/headspace-to-allow/",
@@ -32874,7 +32919,7 @@
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "Przeliczenia cali, pint i quartów to rachunek JarAtlas, zaokrąglone; „½”, „¾” w źródle zapisane jako 1/2, 3/4. Reguła dla pojemników metrycznych to wniosek JarAtlas (kierunek ostrożny: większa wolna przestrzeń), nie zdanie źródła.",
+  "uproszczenie": "Przeliczenia cali, pint i quartów to rachunek JarAtlas, zaokrąglone; „½”, „¾” w źródle zapisane jako 1/2, 3/4. Reguły dla pojemników metrycznych i większych niż quart to wnioski JarAtlas (kierunek ostrożny: większa wolna przestrzeń albo mniejszy pojemnik), nie zdania źródła.",
   "krytyczne": true,
   "przeglad": null,
   "wazne_do": "2027-11-02",
@@ -33266,7 +33311,7 @@
  },
  {
   "id": "SLO-258",
-  "twierdzenie": "NCHFP Thawing: nigdy nie rozmrażać żywności w temperaturze pokojowej ani w ciepłej wodzie, bo zewnętrzna warstwa jest wtedy w „strefie zagrożenia” 40–140°F (ok. 4–60°C), w której bakterie szybko się namnażają; rozmrażać w lodówce w 40°F (ok. 4°C) lub niżej, w zimnej bieżącej wodzie poniżej 70°F (ok. 21°C) albo w mikrofalówce, jeśli żywność od razu się gotuje lub podaje.",
+  "twierdzenie": "NCHFP Thawing: nigdy nie rozmrażać żywności w temperaturze pokojowej ani w ciepłej wodzie, bo zewnętrzna warstwa jest wtedy w „strefie zagrożenia” 40–140°F (ok. 4–60°C), w której bakterie szybko się namnażają; rozmrażać w lodówce w 40°F (ok. 4°C) lub niżej, w zimnej bieżącej wodzie poniżej 70°F (ok. 21°C) albo w mikrofalówce, jeśli żywność od razu się gotuje lub podaje; rozmrażanie w zimnej wodzie tylko wtedy, gdy woda pozostaje zimna (poniżej 70°F) i żywność rozmrozi się w mniej niż 2 godziny, a opakowanie albo woreczek jest szczelny.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/thawing-and-preparing-foods-for-serving/",
@@ -33281,6 +33326,15 @@
     "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/thawing-and-preparing-foods-for-serving/",
     "miejsce": "NCHFP, Thawing and Preparing Foods for Serving, akapit 1",
     "cytat": "Thaw food in the refrigerator at 40°F or less, in cold running water less than 70°F, or in the microwave if you'll be cooking or serving it immediately.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "cd552155a19d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/thawing-and-preparing-foods-for-serving/",
+    "miejsce": "NCHFP, Thawing and Preparing Foods for Serving, rozmrażanie w zimnej wodzie",
+    "cytat": "This should only be used if the water is kept cold (less than 70°F) and the food will thaw in under 2 hours. The food must be in a leak-proof package or plastic bag.",
     "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
