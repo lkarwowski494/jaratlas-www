@@ -1,0 +1,17 @@
+# Cranberry pie filling (frużelina): why there is no recipe here
+
+There is no recipe here for cranberry pie filling thickened with starch (Polish frużelina). [T:-]
+
+## !
+
+- NCHFP gives home-canning recipes for pie fillings made from apples, blueberries, cherries and peaches (with Clear Jel), from green tomatoes, and for Festive Mincemeat, which is processed only in a pressure canner; other available starches break down in these fillings, and the amount of lemon juice must not be altered. [T:SLO-780]
+
+## Why
+
+None of these NCHFP pie fillings is made from cranberries. [T:SLO-780]
+
+In fruit pie fillings for canning, NCHFP uses only Clear Jel, a modified corn starch, because other starches break down. [T:SLO-058]
+
+According to NCHFP, the amount of lemon juice in these fillings should not be altered, because it helps control their safety and storage stability. [T:SLO-058]
+
+JarAtlas has found no tested recipe for a cranberry pie filling. [T:-]

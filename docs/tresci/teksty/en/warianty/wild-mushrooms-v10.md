@@ -1,0 +1,20 @@
+# Parasol mushroom and honey fungus stem powder: why there is no recipe here
+
+There is no recipe here for a powder made from the stems of parasol mushrooms and honey fungus. [T:-]
+
+## !
+
+- The toxins of poisonous mushrooms are not destroyed by drying or by cooking, and only an expert can tell poisonous varieties from edible ones. [T:SUS-035]
+- According to the Polish State Sanitary Inspection, honey fungus is an edible mushroom, but only young caps are fit to eat. [T:SUS-335]
+- According to ATS Milano, a public health agency, honey fungus (Armillaria mellea) is toxic raw or undercooked; to make it edible it must first be boiled for at least 20 minutes without a lid and the water thrown away, because it contains toxins that are inactivated by heat. [T:SUS-336]
+- In Poland, the most frequent and most dangerous mushroom poisonings are caused by the death cap, which is mistaken for edible species such as the parasol mushroom. [T:SUS-141]
+
+## Why
+
+A powder from honey fungus stems uses the stems, not young caps. [T:SUS-335]
+
+Drying is not the boiling with the water thrown away that ATS Milano requires before honey fungus is eaten. [T:SUS-336]
+
+The Polish Minister of Health reminds people to eat only edible mushrooms that have been heat-treated, such as fried or cooked. [T:SUS-146]
+
+JarAtlas has found no checked source on whether honey fungus dried without cooking is safe to eat. [T:-]
