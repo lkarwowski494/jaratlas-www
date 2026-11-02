@@ -1,0 +1,58 @@
+# Bulgarian-style sour yogurt (Illinois Extension recipe)
+
+The Codex Alimentarius defines yogurt as milk fermented by symbiotic cultures of Streptococcus thermophilus and Lactobacillus delbrueckii subsp. bulgaricus. [T:MLE-031]
+
+## !
+
+- FDA lists yogurt made from unpasteurized milk among high-risk foods. [T:MLE-004]
+- Once the yogurt has set, keep it in the refrigerator at 40 °F (4.4 °C) or lower. [T:MLE-027]
+
+## What this card covers
+
+The sources used here do not describe a separate Bulgarian method, so this card follows the University of Illinois Extension basic yogurt recipe. [T:-]
+
+It does not give other temperatures, times or cultures, and it does not test any. [T:-]
+
+## Ingredients
+
+Illinois Extension uses 1 quart of 1% low-fat milk and 2 tablespoons of plain non-fat yogurt as the starter. [T:MLE-072]
+
+JarAtlas rule (cautious): make this yogurt only from pasteurized milk. [T:MLE-004]
+
+The starter must contain live bacteria, because cultures with dead bacteria will not make yogurt. [T:MLE-073]
+
+If you use purchased yogurt as the starter, use it before its “best by” or “sell by” date. [T:MLE-073]
+
+If you use a purchased yogurt culture, follow the manufacturer’s directions. [T:MLE-073]
+
+## Making
+
+Heat the milk slowly to 180–185 °F (82–85 °C), stirring occasionally and checking the temperature with a thermometer. [T:MLE-024,MLE-074]
+
+Let it cool to 108–115 °F (42–46 °C). [T:MLE-025]
+
+Stir the starter into 1 cup of the warm milk until smooth, then pour it back into the pot and stir. [T:MLE-072]
+
+Pour the milk into containers with lids and incubate at 108–115 °F (42–46 °C) for 6–10 hours without moving them. [T:MLE-026,MLE-074]
+
+## Sourness
+
+In the refrigerator the bacteria stop making more lactic acid, which is what makes yogurt more and more sour. [T:MLE-077]
+
+Incubating for too long makes the yogurt separate. [T:MLE-077]
+
+JarAtlas rule (cautious): do not make the yogurt more sour by incubating it for longer than 10 hours or by leaving it out of the refrigerator after it has set. [T:MLE-026,MLE-027]
+
+## Storing
+
+As soon as the yogurt has set, move it to the refrigerator at 40 °F (4.4 °C) or lower. [T:MLE-027]
+
+Eat the yogurt within 14 days. [T:MLE-028]
+
+## When it goes wrong
+
+Illinois Extension says yogurt does not set when the starter had no live cultures, the incubation was too hot or too cold, or the equipment was not clean. [T:MLE-075]
+
+Fermented dairy products must reach a pH of 4.6 or less within 48 hours to be considered pathogen-free. [T:MLE-021]
+
+JarAtlas rule (cautious): if the yogurt has not set by the end of the incubation time, do not eat it. [T:MLE-021,MLE-026]

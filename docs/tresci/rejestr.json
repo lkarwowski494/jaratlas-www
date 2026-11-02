@@ -22096,6 +22096,483 @@
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {
+  "id": "MLE-072",
+  "twierdzenie": "Illinois Extension, przepis podstawowy na jogurt: 1 kwarta mleka 1% i 2 łyżki naturalnego jogurtu odtłuszczonego jako startera; startera miesza się do gładkości z 1 szklanką (cup) mleka odlaną z garnka i wlewa z powrotem; przy mleku odtłuszczonym 1/4 szklanki mleka odtłuszczonego w proszku wmieszane do zimnego mleka przed podgrzaniem daje gęstszy jogurt.",
+  "twierdzenie_en": "Illinois Extension basic yogurt recipe: 1 quart of 1% low-fat milk and 2 tablespoons of plain non-fat yogurt as the starter; the starter is stirred until smooth into 1 cup of milk taken from the pot and poured back; with nonfat skim milk, 1/4 cup of nonfat milk powder stirred into the cold milk before heating gives a thicker yogurt.",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "miejsce": "Basic Yogurt Recipe, Ingredients, krok 4 i Tip 1",
+    "cytat": "• 1 quart 1% low-fat milk (Tip 1) … • 2 tablespoons plain non-fat yogurt … Stir yogurt starter into 1 cup of milk until smooth. … Tip 1: To use nonfat skim milk, stir ¼ cup of … Step 2. This will produce a thicker yogurt.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "7720510f5cdc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MLE-073",
+  "twierdzenie": "Illinois Extension: starter jogurtu musi zawierać żywe bakterie (kultury z martwymi bakteriami nie dadzą jogurtu); kupny jogurt jako starter używa się przed datą „best by” lub „sell by”, a przy kupnych kulturach bakterii postępuje się według instrukcji producenta.",
+  "twierdzenie_en": "Illinois Extension: a yogurt starter must contain live bacteria (cultures with dead bacteria will not make yogurt); purchased yogurt used as a starter is used before its “best by” or “sell by” date, and purchased bacterial cultures are used according to the manufacturer’s directions.",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "miejsce": "Live cultures; Yogurt Starter",
+    "cytat": "dead bacteria will not make yogurt. … use before the “best by” or “sell by” date. … cultures, follow directions from the manufacturer.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "7720510f5cdc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MLE-074",
+  "twierdzenie": "Illinois Extension: mleko na jogurt podgrzewa się powoli, od czasu do czasu mieszając, żeby nie przywarło, i kontroluje temperaturę termometrem; mleko ze starterem wlewa się do pojemników szklanych, z plastiku do żywności lub metalowych i przykrywa pokrywką; przy jogurtownicy i innych urządzeniach postępuje się według instrukcji producenta.",
+  "twierdzenie_en": "Illinois Extension: milk for yogurt is heated slowly, stirring occasionally so it does not burn on the bottom, and the temperature is checked with a thermometer; the inoculated milk is poured into glass, food-safe plastic or metal containers and covered with a lid; with a yogurt maker or other appliance, follow the manufacturer’s instructions.",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "miejsce": "Basic Yogurt Recipe, kroki 2 i 5, Tip 2, Incubator Options",
+    "cytat": "occasionally stirring to prevent milk from burning … Use a food thermometer or candy … Tip 2: Use glass, food-safe plastic, or metal … containers with lids. … Other options: Follow yogurt-making instructions … from manufacturer when using commercial yogurt",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "7720510f5cdc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MLE-075",
+  "twierdzenie": "Illinois Extension (rozwiązywanie problemów): jogurt nie tężeje, gdy starter nie zawierał żywych kultur, temperatura inkubacji była za wysoka lub za niska albo sprzęt nie był czysty; rozwarstwia się, gdy inkubacja trwała za długo, jogurtu nie schłodzono szybko po inkubacji albo mleko nie było dość podgrzane przed dodaniem startera; obcy smak dają nieświeże mleko, nieświeży starter albo nieczysty sprzęt.",
+  "twierdzenie_en": "Illinois Extension (troubleshooting): yogurt does not set when the starter had no live cultures, the incubation temperature was too hot or too cold, or the equipment was not clean; it separates when it was incubated too long, was not refrigerated soon after incubation, or the milk was not heated enough before the starter was added; off-flavours come from milk or starter that was not fresh, or from equipment that was not clean.",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "miejsce": "Troubleshooting: Problems and Causes",
+    "cytat": "Yogurt incubated for too long. … Temperature too hot or cold … Milk was not heated enough … Equipment not clean. … Milk was not fresh. … Yogurt starter was not fresh.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "7720510f5cdc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MLE-076",
+  "twierdzenie": "Jogurt typu greckiego (Illinois Extension): gazę serowarską dwa razy szerszą od miski składa się na pół (podwójna warstwa), nakłada jogurt i mocuje gazę tak, by wisiała nad dnem miski; pojemnik przykrywa się i jogurt odcieka w lodówce.",
+  "twierdzenie_en": "Greek-style yogurt (Illinois Extension): cheesecloth twice as wide as the bowl is folded in half into a double layer, the yogurt is spooned in and the cloth is secured so it hangs above the bottom of the bowl; the container is covered and the yogurt drains in the refrigerator.",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "miejsce": "Yogurt Cheese and Greek-style Yogurt, kroki 1–3",
+    "cytat": "1. Cut a piece of cheesecloth twice as wide as the … the cheesecloth in half to make a double layer. … Secure the cheesecloth so it hangs … 3. Cover the container and refrigerate. For yogurt",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "7720510f5cdc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MLE-077",
+  "twierdzenie": "Illinois Extension: przeniesienie stężałego jogurtu do lodówki zatrzymuje wytwarzanie przez bakterie kwasu mlekowego, od którego jogurt robi się coraz kwaśniejszy; zbyt długa inkubacja powoduje rozwarstwienie jogurtu.",
+  "twierdzenie_en": "Illinois Extension: moving the set yogurt to the refrigerator stops the bacteria from making more lactic acid, which makes yogurt taste increasingly sour; incubating too long makes the yogurt separate.",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
+    "miejsce": "Basic Yogurt Recipe, krok 7; Troubleshooting",
+    "cytat": "or lower once it is gelled. This will stop bacteria … from making more lactic acid, which can make … yogurt taste increasingly sour. … Yogurt incubated for too long.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "7720510f5cdc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MLE-078",
+  "twierdzenie": "Queso blanco bez podpuszczki (NMSU E-216, przedruk UCCE 2025): 1 galon (3,76 l) mleka poddanego obróbce cieplnej lub pasteryzowanego, 4,6 fl oz (137 ml) octu o kwasowości 5%, 9,2 fl oz (274 ml) wody destylowanej, 1 łyżeczka (4,6 g) soli i przyprawy do smaku; bez kultur bakterii i bez podpuszczki.",
+  "twierdzenie_en": "No-rennet queso blanco (NMSU E-216, reprinted by UCCE 2025): 1 gallon (3.76 l) of heat-treated or pasteurized milk, 4.6 fl oz (137 ml) of 5% acidity vinegar, 9.2 fl oz (274 ml) of distilled water, 1 teaspoon (4.6 g) of salt and spices to taste; no bacterial culture and no rennet.",
+  "zrodla": [
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "miejsce": "s. 6, No-rennet Queso Blanco, Ingredients",
+    "cytat": "• 1.0 gallon (3.76 L; 8 lb; … 3.63 kg) heat-treated or … • 4.6 fl oz (137 mL) vinegar … • 9.2 fl oz (274 mL) distilled water … • 1 teaspoon (4.6 g) salt … cheese made without culture",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "05b5d8d094da"
+   },
+   {
+    "adres": "https://vms-mfp.ucanr.edu/files/mfp/documents/97892025_Handouts106425.pdf",
+    "miejsce": "s. 3, No-rennet Queso Blanco, Ingredients",
+    "cytat": "4.6 fl oz (137 ml) vinegar (5% acidity) … 1 gallon pasteurized milk",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "6d29caa9346e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": false
+ },
+ {
+  "id": "MLE-079",
+  "twierdzenie": "Queso blanco bez podpuszczki (NMSU E-216, UCCE 2025): mleko ogrzewa się do 176 °F (80 °C) przez 20 minut; ocet miesza się z wodą i powoli dolewa do gorącego mleka, aż serwatka będzie półprzejrzysta, a grudki skrzepu zaczną się zlepiać i lekko ciągnąć (kawałek skrzepu da się rozciągnąć o ok. 1 cm (0,39 cala), zanim pęknie); nie zawsze trzeba dodać cały ocet; skrzep oddziela się, przecedzając przez płócienny worek, aż odpłynie wolna serwatka, wgniata sól i przyprawy i odciska (bez dużego nacisku).",
+  "twierdzenie_en": "No-rennet queso blanco (NMSU E-216, UCCE 2025): the milk is heated to 176 °F (80 °C) for 20 minutes; the vinegar is mixed with the water and added slowly to the hot milk until the whey is semi-clear and the curd particles begin to mat together and become slightly stretchy (a piece of curd stretches about 1 cm (0.39 inch) before it breaks); not all the vinegar may be needed; the curd is separated through a cloth bag until free whey is removed, salt and spices are worked in and the curd is pressed (high pressure is not needed).",
+  "zrodla": [
+   {
+    "adres": "https://vms-mfp.ucanr.edu/files/mfp/documents/97892025_Handouts106425.pdf",
+    "miejsce": "s. 3, Queso Blanco Instructions, kroki 1–5",
+    "cytat": "1. Heat milk to 176°F (80°C) over a period of 20 minutes. … 2. Add vinegar (5% acidity) to water and then add slowly to the hot milk until the whey is semi-clear and … piece of curd about 0.39 inches (1 cm) before it breaks. It may not be necessary to add all of the vinegar. … 3. Separate the curd by filtering through a cloth bag until free whey is removed. … 4. Work in salt and spices to taste. … 5. Press the curd (high pressure is not required).",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "6d29caa9346e"
+   },
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "miejsce": "s. 6, No-rennet Queso Blanco, Procedure",
+    "cytat": "1. Heat milk to 176°F (80°C) for 20 minutes. … 3. Separate the curd by filtering through a cloth bag",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "05b5d8d094da"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": false
+ },
+ {
+  "id": "MLE-080",
+  "twierdzenie": "Queso fresco (PNW539, Washington State Univ.; też NMSU E-216): 1 tabletka podpuszczki rozpuszczona w 1/2 szklanki zimnej wody, 1 kwarta pasteryzowanej maślanki hodowlanej, 2 kwarty pasteryzowanego mleka pełnego (krowiego, koziego lub owczego), 7 łyżeczek (2 łyżki + 1 łyżeczka) białego octu (NMSU: o kwasowości 5%) i 3/4 łyżeczki soli; mleko pełne albo 2%, nie chudsze.",
+  "twierdzenie_en": "Queso fresco (PNW539, Washington State Univ.; also NMSU E-216): 1 rennet tablet dissolved in 1/2 cup of cold water, 1 quart of pasteurized cultured buttermilk, 2 quarts of pasteurized whole milk (cow, goat or sheep), 7 teaspoons (2 tablespoons + 1 teaspoon) of white vinegar (NMSU: 5% acidity) and 3/4 teaspoon of salt; whole or 2% milk, no less.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341228.pdf",
+    "miejsce": "Queso Fresco Recipe, Ingredients; Helpful Hints",
+    "cytat": "1 rennet tablet … 1/2 cup cold water … 1 qt pasteurized cultured buttermilk … 2 qt pasteurized whole milk (can be from a goat, … 7 tsp white vinegar (2 tbsp + 1 tsp) … 3/4 tsp salt … Use whole milk or 2% milk, no less than that.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "725091dbdefa"
+   },
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "miejsce": "s. 7, SAFE Queso Fresco, Ingredients",
+    "cytat": "egar (5% acidity) … cultured buttermilk for culture",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "05b5d8d094da"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": false
+ },
+ {
+  "id": "MLE-081",
+  "twierdzenie": "Queso fresco (PNW539, NMSU E-216): maślankę miesza się z mlekiem, dodaje ocet i dobrze miesza; podgrzewa do 90 °F (32,2 °C), często mieszając, zdejmuje z ognia i nie przegrzewa; dodaje rozpuszczoną podpuszczkę i miesza ok. 2 minuty; odstawia na 30–40 minut bez mieszania, aż skrzep będzie zwarty; kroi skrzep w kostkę 1 cal (2,5 cm) i odstawia na ok. 5 minut.",
+  "twierdzenie_en": "Queso fresco (PNW539, NMSU E-216): the buttermilk is mixed with the milk, the vinegar is added and mixed well; the mixture is heated to 90 °F (32.2 °C), stirring frequently, taken off the heat and not overheated; the dissolved rennet is added and stirred for about 2 minutes; the mixture stands for 30–40 minutes without stirring until the curd is firm; the curd is cut into 1-inch (2.5 cm) cubes and left for about 5 minutes.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341228.pdf",
+    "miejsce": "Queso Fresco Recipe, Preparation",
+    "cytat": "Heat milk to 90°F stirring frequently. Remove … pan from heat. Do not overheat. … Add dissolved rennet to heated milk mixture … and stir for about 2 minutes. … Let mixture stand 30–40 minutes until curd is … formed and firm. Do not stir. … Cut curd into 1-inch cubes and let stand for",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "725091dbdefa"
+   },
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "miejsce": "s. 7, SAFE Queso Fresco, Procedure",
+    "cytat": "3. Heat milk to 90°F (32.2°C). Remove pan from heat. … 6. Cut curd into 1-inch (2.5-cm) cubes and let stand",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "05b5d8d094da"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": false
+ },
+ {
+  "id": "MLE-082",
+  "twierdzenie": "Queso fresco (PNW539, NMSU E-216): skrzep z serwatką podgrzewa się do 115 °F (46,1 °C) bez mieszania, zdejmuje z ognia i odstawia na 5 minut; przelewa przez gazę i odsącza 5 minut; formuje kulę i delikatnie skręca gazę, wyciskając serwatkę; rozkrusza, miesza z solą, odstawia na 5 minut i znów odciska; formuje ser i chłodzi w lodówce (NMSU: w formie przez noc w lodówce, potem w szczelnym pojemniku, stale w lodówce).",
+  "twierdzenie_en": "Queso fresco (PNW539, NMSU E-216): the curds and whey are heated to 115 °F (46.1 °C) without stirring, taken off the heat and left for 5 minutes; poured through cheesecloth and drained for 5 minutes; formed into a ball and the cloth gently twisted to squeeze out the whey; broken up, mixed with the salt, left for 5 minutes and squeezed again; the cheese is formed and refrigerated (NMSU: in a mold overnight in the refrigerator, then in an airtight container, kept refrigerated).",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341228.pdf",
+    "miejsce": "Queso Fresco Recipe, Preparation",
+    "cytat": "Heat curds and whey to 115°F (without … stirring). Remove pan from the heat, then let … cheesecloth and allow to drain for 5 minutes. … Form curds into a ball and gently twist the … Let stand for 5 minutes, then squeeze again as … Form the cheese. Refrigerate.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "725091dbdefa"
+   },
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "miejsce": "s. 7, SAFE Queso Fresco, Procedure, kroki 7 i 13–15",
+    "cytat": "7. Heat curds and whey to 115°F (46.1°C) … allow to stand overnight in the refrigerator. … airtight container. … 15. Keep cheese refrigerated during storage.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "05b5d8d094da"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": false
+ },
+ {
+  "id": "MLE-083",
+  "twierdzenie": "Mozzarella („Pizza Cheese”, NMSU E-216): 1 galon (3,79 l) mleka 2% albo 2 kwarty (1,9 l) mleka pełnego i 2 kwarty mleka odtłuszczonego, 1/4 szklanki (57 g) świeżego jogurtu naturalnego, 1 tabletka podpuszczki albo 1 łyżeczka podpuszczki w płynie rozpuszczona w 1/2 szklanki wody; solanka: 2 funty (907 g) soli na galon (3,78 l) wody.",
+  "twierdzenie_en": "Mozzarella (“Pizza Cheese”, NMSU E-216): 1 gallon (3.79 l) of 2% milk, or 2 quarts (1.9 l) of whole milk plus 2 quarts of skim milk, 1/4 cup (57 g) of fresh plain yogurt, 1 rennet tablet or 1 teaspoon of liquid rennet dissolved in 1/2 cup of water; brine: 2 lb (907 g) of salt per gallon (3.78 l) of water.",
+  "zrodla": [
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "miejsce": "s. 10, Pizza Cheese, Ingredients",
+    "cytat": "• 1 gallon (3.79 L; 8.6 lb; 3.9 kg) 2% milk OR … 2 quarts (1.9 L; 4.3 lb; 1.95 kg) whole milk plus … 2 quarts skim milk … • 1/4 cup (2 fl oz; 57 g) fresh, plain yogurt … • 1 tablet rennet or 1 teaspoon liquid rennet, dissolved … • Brine: use 2 lb (907 g) of salt per gallon (3.78 L)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "05b5d8d094da"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MLE-084",
+  "twierdzenie": "Mozzarella NMSU E-216: mleko podgrzewa się do 90 °F (32,2 °C), dodaje jogurt i powoli miesza 15 minut, utrzymując tę temperaturę; dodaje rozpuszczoną podpuszczkę i miesza 3–5 minut; pod przykryciem, w 90 °F (32,2 °C), zostawia na ok. 30 minut do ścięcia; kroi skrzep w kostkę 1/2 cala (1,27 cm) i zostawia na 15 minut, od czasu do czasu mieszając; powoli podnosi temperaturę do 118 °F (47,7 °C) w ciągu 45 minut i utrzymuje ją jeszcze 15 minut; gdy skrzep opadnie, usuwa serwatkę, przekłada płat skrzepu na płaską formę, którą da się utrzymać w cieple, i, nie krojąc, obraca go co 15 minut przez 2 godziny.",
+  "twierdzenie_en": "NMSU E-216 mozzarella: the milk is heated to 90 °F (32.2 °C), the yogurt is added and stirred slowly for 15 minutes at that temperature; the dissolved rennet is added and stirred for 3–5 minutes; covered and held at 90 °F (32.2 °C), it stands about 30 minutes until coagulated; the curd is cut into 1/2-inch (1.27 cm) cubes and left 15 minutes with occasional stirring; the temperature is raised slowly to 118 °F (47.7 °C) over 45 minutes and held 15 minutes more; when the curd settles, the whey is removed, the curd mat is moved to a flat pan that can be kept warm and, without cutting, turned every 15 minutes for 2 hours.",
+  "zrodla": [
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "miejsce": "s. 10, Pizza Cheese, Procedure, kroki 1–6",
+    "cytat": "1. Heat milk to 90°F (32.2°C) and add yogurt. Stir … slowly for 15 minutes while maintaining this con- … 2. Add dissolved rennet and stir for 3–5 minutes. … 3. Cover, maintaining temperature at 90°F (32.2°C). … Allow to stand until coagulated, about 30 minutes. … 4. Cut curd into 1/2-inch (1.27-cm) cubes. Allow to … stand for 15 minutes with occasional stirring. … 5. Slowly increase temperature to 118°F (47.7°C) … over a period of 45 minutes. Hold this tempera- … and transfer the mat of curd to a flat pan that can … over every 15 minutes over a 2-hour period. Mat",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "05b5d8d094da"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MLE-085",
+  "twierdzenie": "Mozzarella NMSU E-216: płat skrzepu kroi się w paski szerokości 1–2 cale (2,5–5 cm), zalewa gorącą wodą 180 °F (82,2 °C) i drewnianymi łyżkami obraca i rozciąga pod wodą ok. 15 minut, aż będzie elastyczny; formuje ręcznie kulę lub bochenek i na ok. 1 godzinę wkłada do zimnej wody 40 °F (4,4 °C); potem do nasyconej solanki utrzymywanej w 40–50 °F (4,4–10 °C), w pojemniku z grubego plastiku, szkła lub ceramiki, odsłonięte miejsca pokrywa solą lub solanką i zostawia w solance na 24 godziny; po wyjęciu suszy kilka godzin, zawija w folię lub szczelny woreczek i przechowuje w lodówce.",
+  "twierdzenie_en": "NMSU E-216 mozzarella: the curd mat is cut into strips 1–2 inches (2.5–5 cm) wide, covered with hot water at 180 °F (82.2 °C), and tumbled and stretched under the water with wooden spoons for about 15 minutes until elastic; it is shaped by hand into a ball or loaf and put into cold water at 40 °F (4.4 °C) for about 1 hour; then into a saturated brine kept at 40–50 °F (4.4–10 °C) in a heavy plastic, glass or pottery container, with exposed areas covered with salt or brine, for 24 hours; after brining it is dried for several hours, wrapped in plastic wrap or a sealable bag and refrigerated.",
+  "zrodla": [
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "miejsce": "s. 10–11, Pizza Cheese, Procedure, kroki 7–10",
+    "cytat": "7. Cut the mat into long strips 1–2 inches (2.5–5 … cm) wide. Put curd in enough hot water (180°F; … 82.2°C) to cover curd. Using wooden spoons, … it becomes elastic, about 15 minutes. … water (40°F; 4.4°C) to cover cheese for approxi- … To prepare salt brine, keep the brine cold (40– … 50°F; 4.4–10°C) while the cheese is in it. Excess … plastic, glass, or pottery container. Cover any … Leave cheese in the brine for 24 hours. … several hours. Wrap in plastic wrap or place in … a sealable bag and refrigerate. This cheese can",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "05b5d8d094da"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MLE-086",
+  "twierdzenie": "Mozzarella NMSU E-216: świeży ser przechowywany w wodzie trzeba zjeść w ciągu 2 dni.",
+  "twierdzenie_en": "NMSU E-216 mozzarella: fresh cheese stored in water must be eaten within 2 days.",
+  "zrodla": [
+   {
+    "adres": "https://pubs.nmsu.edu/_e/E216.pdf",
+    "miejsce": "s. 10, Pizza Cheese, wstęp",
+    "cytat": "Fresh cheese can be stored in water but must be eaten … within two days.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "05b5d8d094da"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MLE-087",
+  "twierdzenie": "Mozzarella na kwasku cytrynowym (UCCE Amador/Calaveras 2025, za Univ. of Alaska FNH-00063): 1 galon mleka nieultrapasteryzowanego (mleko UHT/ultrapasteryzowane nie rozdziela się na skrzep i serwatkę), 1 1/2 łyżeczki kwasku cytrynowego rozpuszczonego w 1 szklance zimnej wody bez chloru, 1/4 tabletki podpuszczki albo 1/4 łyżeczki podpuszczki w płynie rozpuszczonej w 1/4 szklanki zimnej wody bez chloru, 1 łyżeczka soli serowarskiej (opcjonalnie); roztwór kwasku wlewa się do garnka, dodaje mleko i delikatnie miesza; mleko powoli podgrzewa się do 90 °F (ok. 32 °C), mieszając; po zdjęciu z ognia wmieszuje się podpuszczkę ruchem od dołu do góry przez ok. 30 sekund; garnek przykrywa się i zostawia na 5 minut; skrzep kroi się w kratkę co 1 cal (2,5 cm).",
+  "twierdzenie_en": "Citric-acid mozzarella (UCCE Amador/Calaveras 2025, after Univ. of Alaska FNH-00063): 1 gallon of milk that is not ultra-pasteurized (UHT/ultra-pasteurized milk does not separate into curds and whey), 1 1/2 teaspoons of citric acid dissolved in 1 cup of cool chlorine-free water, 1/4 rennet tablet or 1/4 teaspoon of liquid rennet dissolved in 1/4 cup of cool chlorine-free water, 1 teaspoon of cheese salt (optional); the citric acid solution is poured into the pot, the milk added and stirred gently; the milk is heated slowly to 90 °F (about 32 °C) while stirring; off the heat, the rennet is folded in top to bottom for about 30 seconds; the pot is covered and left for 5 minutes; the curd is cut in a 1-inch (2.5 cm) checkerboard.",
+  "zrodla": [
+   {
+    "adres": "https://vms-mfp.ucanr.edu/files/mfp/documents/97892025_Handouts106425.pdf",
+    "miejsce": "s. 2 Milk; s. 4 Mozzarella Cheese, Ingredients i kroki 1–8",
+    "cytat": "Avoid using this milk as … this process changes the protein structure of the milk, preventing it from separating into curds and whey. … 1 gallon milk (not ultra-pasteurized) … 1 ½ teaspoons citric acid … ¼ rennet tablet or ¼ teaspoon liquid rennet … 1 teaspoon cheese salt (optional) … Dissolve tablet/liquid rennet in ¼ cup of cool, chlorine-free water. Stir; set aside. … Mix citric acid into 1 cup cool, chlorine-free water. … Pour the citric acid solution into the large pot and add 1 gallon of milk, stir gently. … Heat milk slowly to 90°F while stirring. … Take pot off burner, add rennet solution while stirring slowly top to bottom (folding) for … Cover pot with lid and leave undisturbed for 5 minutes. … Cut the curds in a 1-inch checkerboard pattern with a long knife.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "6d29caa9346e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MLE-088",
+  "twierdzenie": "Mozzarella na kwasku cytrynowym (UCCE 2025): pokrojony skrzep podgrzewa się do 105 °F (ok. 41 °C), mieszając powoli i delikatnie; po zdjęciu z ognia miesza się jeszcze 2–5 minut; skrzep przekłada się łyżką cedzakową do durszlaka nad miską i dodaje 3/4–1 łyżeczki soli; dwie trzecie serwatki podgrzewa się do 175 °F (ok. 79 °C) i w serwatce o temperaturze 170–175 °F (ok. 77–79 °C), łyżką cedzakową lub w rękawicach żaroodpornych, zanurza się skrzep, zagniata, składa i rozciąga, aż będzie gładki i lśniący; gotowe kule chłodzi się w wodzie z lodem.",
+  "twierdzenie_en": "Citric-acid mozzarella (UCCE 2025): the cut curd is heated to 105 °F (about 41 °C) while stirring slowly and gently; off the heat it is stirred 2–5 minutes more; the curd is moved with a slotted spoon to a colander over a bowl and 3/4–1 teaspoon of salt is added; two-thirds of the whey is heated to 175 °F (about 79 °C), and in whey at 170–175 °F (about 77–79 °C), using the slotted spoon or heat-resistant gloves, the curd is dipped, worked, folded and stretched until smooth and shiny; the finished balls are cooled in ice water.",
+  "zrodla": [
+   {
+    "adres": "https://vms-mfp.ucanr.edu/files/mfp/documents/97892025_Handouts106425.pdf",
+    "miejsce": "s. 4–5, Mozzarella Cheese Instructions, kroki 9–16",
+    "cytat": "Place the pot back on the stove and heat to 105°F while stirring SLOWLY and GENTLY! … Take off the burner and continue slowly stirring for 2-5 minutes. … Using a slotted spoon, scoop the curd from the pot into the colander set in a large bowl. … Add ¾-1 teaspoon salt (or to taste) to the curd. … heat to 175°F. The whey simmering on the stove at 170°F to 175°F is used to heat the curd so it is … This is very hot, so use the slotted spoon (or heat resistant gloves) to … dip the curd in the whey. … Drop cheese balls into ice water to cool.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "6d29caa9346e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MLE-089",
+  "twierdzenie": "Ricotta z serwatki (UCCE 2020, za NMSU E-216): składniki to serwatka poddana obróbce cieplnej lub pasteryzowana, pasteryzowane mleko pełne i ocet o kwasowości 5%; w tabeli zmniejszonych porcji na 1 galon serwatki przypada 12,8 oz mleka i 1,3 oz (2 łyżki + 2 łyżeczki) octu, a na 1 kwartę serwatki 3,2 oz mleka i 0,32 oz (2 łyżeczki) octu.",
+  "twierdzenie_en": "Whey ricotta (UCCE 2020, after NMSU E-216): the ingredients are heat-treated or pasteurized whey, pasteurized whole milk and 5% vinegar; in the reduced-recipe table, 1 gallon of whey takes 12.8 oz of milk and 1.3 oz (2 tablespoons + 2 teaspoons) of vinegar, and 1 quart of whey takes 3.2 oz of milk and 0.32 oz (2 teaspoons) of vinegar.",
+  "zrodla": [
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2020-07/329613.pdf",
+    "miejsce": "s. 4, Whey Ricotta Cheese, Ingredients i Recipe Reductions",
+    "cytat": "1 quart (940 ml) vinegar (5% acetic acid) … treated or pasteurized whey … 2.5 gallons (9.4 L; 20 lb; 9.07 kg) pasteurized … 1 gallon      12.8 oz.              1.3 oz. … (128 oz.)     (12 oz. + 5 tsp.)     (2 tbl. + 2 tsp.) … 1 quart       3.2 oz.               .32 oz. … (32 oz.)      (3 oz. + 11/4 tsp.)   (2 tsp.)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "b3901a831b2f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": true
+ },
+ {
   "id": "MIE-001",
   "twierdzenie": "USA: azotyny, azotany lub ich połączenie nie mogą dać więcej niż 200 ppm azotynu (liczonego jako azotyn sodu) w produkcie gotowym; boczek ma osobne zasady.",
   "zrodla": [
@@ -58010,6 +58487,30 @@
    "sha": "f08d066d8b1d"
   },
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-946",
+  "twierdzenie": "Ricotta z serwatki (UCCE 2020, za NMSU E-216): do podgrzanej serwatki z mlekiem powoli, delikatnie mieszając, dodaje się ok. 2 łyżeczki octu na kwartę serwatki, a w razie potrzeby więcej, aż serwatka będzie prawie przejrzysta; dodawanie octu powoli przez ok. 5 minut daje lepszy skrzep; skrzep oddziela się na płótnie i po odciekaniu jest gotowy do jedzenia.",
+  "twierdzenie_en": "Whey ricotta (UCCE 2020, after NMSU E-216): about 2 teaspoons of vinegar per quart of whey are added slowly, with gentle stirring, to the heated whey and milk, and more if needed, until the whey is quite clear; adding the vinegar slowly over about 5 minutes gives a better curd; the curd is separated in a cloth and is ready to eat once it has drained.",
+  "zrodla": [
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2020-07/329613.pdf",
+    "miejsce": "s. 4, Whey Ricotta Cheese, kroki 2–3",
+    "cytat": "2. Slowly add about 2 teaspoons of vinegar … per quart of whey with gentle agitation. You … vinegar until the whey is quite clear. By … of about 5 minutes you will obtain better … 3. Pour into a cloth to separate the curds. After … the curd is dripped dry it is ready to eat.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
+    "sha12": "b3901a831b2f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p35 (tor B)",
+  "jednoZrodlo": true
  },
  {
   "id": "SUS-358",

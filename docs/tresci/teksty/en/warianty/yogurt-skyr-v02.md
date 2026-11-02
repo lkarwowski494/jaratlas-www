@@ -1,0 +1,52 @@
+# Greek-style yogurt drained in cheesecloth (Illinois Extension recipe)
+
+This card makes yogurt by the University of Illinois Extension basic recipe and then drains it in the refrigerator for 2–4 hours into Greek-style yogurt. [T:MLE-030]
+
+## !
+
+- FDA lists yogurt made from unpasteurized milk among high-risk foods. [T:MLE-004]
+- Drain the yogurt covered and in the refrigerator, not on the kitchen counter. [T:MLE-076]
+
+## Making the yogurt
+
+Illinois Extension uses 1 quart of 1% low-fat milk and 2 tablespoons of plain non-fat yogurt with live cultures as the starter. [T:MLE-072,MLE-073]
+
+JarAtlas rule (cautious): make this yogurt only from pasteurized milk. [T:MLE-004]
+
+Heat the milk slowly to 180–185 °F (82–85 °C), stirring occasionally and checking the temperature with a thermometer. [T:MLE-024,MLE-074]
+
+Let it cool to 108–115 °F (42–46 °C). [T:MLE-025]
+
+Stir the starter into 1 cup of the warm milk until smooth, then pour it back into the pot and stir. [T:MLE-072]
+
+Pour the milk into containers with lids and incubate at 108–115 °F (42–46 °C) for 6–10 hours without moving them. [T:MLE-026,MLE-074]
+
+As soon as the yogurt has set, move it to the refrigerator at 40 °F (4.4 °C) or lower. [T:MLE-027]
+
+## Draining
+
+Cut a piece of cheesecloth twice as wide as the bowl and fold it in half into a double layer. [T:MLE-076]
+
+Spoon the yogurt into the cloth and secure the cloth so it hangs above the bottom of the bowl. [T:MLE-076]
+
+Cover the container and let the yogurt drain in the refrigerator. [T:MLE-076]
+
+For Greek-style yogurt, Illinois Extension drains it for 2–4 hours. [T:MLE-030]
+
+Draining for 8–24 hours gives a thicker yogurt cheese instead. [T:MLE-030]
+
+## Storing
+
+Keep the drained yogurt in the refrigerator at 40 °F (4.4 °C) or lower. [T:MLE-027]
+
+Illinois Extension says to eat home-made yogurt within 14 days. [T:MLE-028]
+
+JarAtlas rule (cautious): count the 14 days from the day you made the yogurt, not from the day you drained it. [T:MLE-028]
+
+## When it goes wrong
+
+Illinois Extension says yogurt does not set when the starter had no live cultures, the incubation was too hot or too cold, or the equipment was not clean. [T:MLE-075]
+
+Fermented dairy products must reach a pH of 4.6 or less within 48 hours to be considered pathogen-free. [T:MLE-021]
+
+JarAtlas rule (cautious): if the yogurt has not set by the end of the incubation time, do not drain it and do not eat it. [T:MLE-021,MLE-026]

@@ -1,0 +1,46 @@
+# Whey ricotta with vinegar (UCCE recipe after NMSU)
+
+This card follows the UCCE whey ricotta recipe, adapted from NMSU Extension: whole milk is added to fresh whey, heated to 185 °F (85 °C), and vinegar is added slowly. [T:MLE-058]
+
+## !
+
+- Use whey and milk only from pasteurized milk; raw milk must be pasteurized before it is used for cheese. [T:MLE-015]
+- Start heating the whey as soon as it has been separated from the curd. [T:MLE-058]
+
+## What this card covers
+
+The recipe heats the whey to 185 °F (85 °C) and uses vinegar of 5% acidity; it gives no amount of lemon juice, so do not replace the vinegar. [T:MLE-058,MLE-089]
+
+## Ingredients
+
+UCCE uses heat-treated or pasteurized whey, pasteurized whole milk and vinegar of 5% acidity. [T:MLE-089]
+
+For 1 gallon of whey, the UCCE table gives 12.8 oz of milk and 1.3 oz (2 tablespoons + 2 teaspoons) of vinegar. [T:MLE-089]
+
+For 1 quart of whey, it gives 3.2 oz of milk and 0.32 oz (2 teaspoons) of vinegar. [T:MLE-089]
+
+JarAtlas rule (cautious): use whey only from cheese made with pasteurized milk. [T:MLE-015,MLE-089]
+
+## Making
+
+Add the whole milk to the fresh whey and heat it to 185 °F (85 °C); small curd particles will form. [T:MLE-058]
+
+Add about 2 teaspoons of vinegar per quart of whey slowly, stirring gently, and more if needed, until the whey is quite clear. [T:ACI-946]
+
+Adding the vinegar slowly over about 5 minutes gives a better curd. [T:ACI-946]
+
+Pour everything into a cloth to separate the curd; once it has drained, the ricotta is ready to eat. [T:ACI-946]
+
+## Storing
+
+The whey ricotta recipe gives no storage time. [T:-]
+
+For its whole-milk ricotta, UCCE says it keeps in an airtight container in the refrigerator for up to a week, or in the freezer for up to 6 months. [T:MLE-059]
+
+NMSU, on which this recipe is based, says soft cheese keeps only 5–7 days in the refrigerator. [T:MLE-050]
+
+JarAtlas rule (cautious): keep whey ricotta in an airtight container in the refrigerator and eat it within 5 days. [T:MLE-050,MLE-059]
+
+## Who should be careful
+
+Pregnant women should avoid cheeses made from unpasteurized milk. [T:MLE-049]
