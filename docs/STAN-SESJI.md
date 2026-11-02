@@ -1,24 +1,24 @@
 # Stan pracy JarAtlas
 
-Aktualizacja: 2026-11-02, dzień (partia 20). Historia: `docs/archiwum/` (poprzedni stan: `STAN-SESJI-2026-11-02-06-karty-p19.md`).
+Aktualizacja: 2026-11-02, dzień (partia 21). Historia: `docs/archiwum/` (poprzedni stan: `STAN-SESJI-2026-11-02-06-karty-p20.md`).
 
 ## Rola i etap
-06-tresci · build · partia 20 kart fali 1 (en, pl): mrożenie (bakłażan, ananas, melon) · **STOP** (przekazanie do koordynatora session_01T66VBwcMqoZMzzYKc7CF9o, tryb dzienny, D-051). Prompt: tablica, kolekcja `prompty`, `06-tresci-build-d32b4b8`.
+06-tresci · build · partia 21 kart fali 1 (en, pl): D5, D6, KAND-2/6/7, mrożenie (pomidory, zielone pomidory, młode ziemniaki, zioła, mango, granat, pieczarki, karczochy) · **STOP** (przekazanie do koordynatora session_01T66VBwcMqoZMzzYKc7CF9o, tryb dzienny, D-051). Prompt: tablica, kolekcja `prompty`, `06-tresci-build-d32b4b8`.
 
 ## Wynik
-- Partia 20 en+pl (6 kart) według wzoru p14 §2; nowe twierdzenia SLO-286–288. Łącznie 91 wariantów, 182 karty. Raport: `docs/tresci/E3-karty-p20-2026-11-02.md`.
-- Weryfikacja zastępcza D-027: przebieg 1 37/38 POPARTE + 1 CZĘŚCIOWO (pl melon, poprawione), cytaty 22/22; przebieg 2 po poprawkach 6/6 POPARTE; stan łączny 38/38. Przegląd zastępczy odnowiony dla SUS-050, SUS-059, SLO-249, 251, 256, 258, 259, 260.
-- Nowe slugi produktów: eggplant, pineapple-banana, watermelon-melon (en, pl).
-- Kontrole: `npm run check` kod 0. Karty `publication: ukryta`; katalog, ścieżki wrażliwe i leksykon pl bez zmian.
-- Mrożenie: zostało 31 wariantów `freezing` ok-zrodlo bez kart (red-savoy-cabbage-v13 świadomie bez karty).
+- Partia 21 en+pl: 8 nowych wariantów (16 kart) + sekcja tartej cukinii (zucchini-v17) + boćwina i jarmuż (leafy-greens-v13); nowe twierdzenia SLO-289–300 (SLO-291 krytyczne, tylko rejestr). Raport: `docs/tresci/E3-karty-p21-2026-11-02.md`.
+- Liczby (poprawione wg C3-07): 97 wariantów z kartami, 194 karty, 43 mrożenia (przed p21: 89 / 178 / 35).
+- Weryfikacja zastępcza D-027 w 3 przebiegach subagenta (porcja 1; porcja 1 po poprawkach + porcja 2; porcja 3): 0 NIEPOPARTE, 0 SPRZECZNE; wszystkie CZĘŚCIOWO poprawione. Przegląd odnowiony: SUS-050, SUS-059, SLO-249, 251, 256, 258, 259, 260, 291.
+- Kontrole: `npm run check` kod 0 przed każdym pushem. Karty `publication: ukryta`; katalog, ścieżki wrażliwe i leksykon pl bez zmian.
+- Mrożenie: zostało 25 wariantów `freezing` ok-zrodlo bez kart (red-savoy-cabbage-v13 świadomie bez karty).
 
-## Decyzje Claude, do weta (tablica `2026-11-02-jaratlas-06-karty-p20`)
-- Kapusta czerwona/włoska bez karty (brak źródła szczebla 1; zgodne z D3 koordynatora); bakłażan z sokiem z cytryny jak w źródle, bez bloku osobnego; ananas bez rozgniecionego; melon bez syropu 30%; „bez dodawania płynu” w ananasie i melonie; figi do bloku z kwasem askorbinowym, granat odłożony (syrop 30% poza rejestrem).
+## Decyzje Claude, do weta (tablica `2026-11-02-jaratlas-06-karty-p21`)
+- Banany odłożone do bloku z kwasem askorbinowym; cytrusy na następną partię; pieczarki: czasy NCHFP mimo dłuższych w MU, chłodzenie tylko w zimnej wodzie; karczochy: „Cook” w NCHFP jako błąd druku („Cool” w MU i NDSU); pomidory „l-inch” = 1 cal (MU); ziemniaki: przy niepewności 5 min; mango: przecier bez cukru, taca z 1/2 cala (reguła JarAtlas); poprawki weryfikatora bez przebiegu kontrolnego (wyjątek nazwany w raporcie).
 
 ## Otwarte
-- Nazwy parsnip-parsley-v11, peas-chickpeas-v17, leafy-greens-v13, red-savoy-cabbage-v13, cranberry-lingonberry-v14: do katalogu (D-043).
-- Od koordynatora: D5 (tarta cukinia jako sekcja zucchini-v17), D6 (boćwina i jarmuż w karcie liści); szczegóły w decisions `2026-11-02-jaratlas-06-pytania-otwarte`.
-- Bez zmian: pytania otwarte p14, backlog p13–p20, 6 odłożonych kąpieli wodnych, D1–D11 czystego repo, teksty UI i D-027 (c).
+- Nazwy do katalogu (D-043): green-cherry-tomato-v15, potato-sunchoke-v14, fennel-artichoke-v11 (karty węższe niż nazwy produktów) oraz z p14–p20.
+- Od koordynatora bez zmian w p21: white-cabbage-v01 (weto), beef-veal-v08 (C2-05, katalog), 24 karty kąpieli wodnej (tor C4).
+- KAND-1, -3, -4, -5, -8 po wecie D1–D4. Backlog p13–p21, 6 odłożonych kąpieli wodnych, D1–D11 czystego repo, teksty UI i D-027 (c).
 
 ## Następny krok
-06-tresci partia 21: D5, D6, potem mrożenie według wzoru (pomidory, mango, banany, młode ziemniaki, karczochy, zioła, pieczarki, cytrusy; granat po dodaniu syropu 30% do rejestru). Osobne bloki później: owoce z kwasem askorbinowym (figi, czereśnie, brzoskwinie, morele, jabłka, gruszki, śliwki — do sprawdzenia), czosnek w oleju i pesto, mięso, ryby, nabiał, jaja.
+06-tresci partia 22: cytrusy (lemon-v16, orange-kumquat-v15, grapefruit-v10; syrop 40% w SLO-253, sok w szkle), potem blok z kwasem askorbinowym (banany, figi, jabłka, czereśnie, brzoskwinie, morele; gruszki, śliwki do sprawdzenia), czosnek w oleju i pesto, lemon curd, mięso, ryby, nabiał, jaja.

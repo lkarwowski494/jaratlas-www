@@ -15536,7 +15536,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "2ae061214c51"
+   "sha": "b5e6ab86af7b"
   },
   "wielkosc": "temperatura zamrażarki",
   "wartosc": -18,
@@ -15781,7 +15781,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "6713ec277f98"
+   "sha": "7f9f71376a5c"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -32924,7 +32924,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "38c726a58e02"
+   "sha": "0a118b07bf4c"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33043,7 +33043,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "c87dd3500a82"
+   "sha": "5bfc87b26a55"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33261,7 +33261,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "65ffc85e7651"
+   "sha": "799acb13e2ec"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33362,7 +33362,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "1a1111bced3a"
+   "sha": "2d22e10d061c"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33397,7 +33397,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "5afd733b6d77"
+   "sha": "5699e1e56ada"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33432,7 +33432,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "7a34f2a1e0da"
+   "sha": "c0c9c368798c"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -34308,6 +34308,147 @@
   ],
   "status": "potwierdzone",
   "uproszczenie": "Strona nie podaje wolnej przestrzeni (woreczek, zawinięte gałązki); karta pomija zdania o słoikach i sztywnych pojemnikach. „Can be chopped” oddane jako tryb rozkazujący („posiekaj”), bez zmiany zakresu. Jakość 8–12 miesięcy (SUS-058) dotyczy owoców i warzyw; zioła NCHFP zalicza do działu warzyw. Zioła w oleju i pesto to osobne bloki (OLE-001–003), poza tą kartą.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-296",
+  "twierdzenie": "NCHFP Syrups for Use in Freezing Fruits: syrop 30% (medium, średni) to 1 3/4 szklanki cukru na 4 szklanki wody, z czego wychodzi ok. 5 szklanek syropu; cukier rozpuścić w letniej wodzie do klarowności i syrop schłodzić przed użyciem.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/syrups/",
+    "miejsce": "NCHFP, Syrups for Use in Freezing Fruits, tabela (wiersz Medium) i zdanie pod tabelą",
+    "cytat": "Medium 30% 1 3/4 4 5 cups … To make the syrup, dissolve sugar in lukewarm water, mixing until the solution is clear. Chill syrup before using.",
+    "sha12": "7a317f1ec9b2",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wiersz tabeli zapisany jako ciąg komórek (typ, procent, szklanki cukru, szklanki wody, wydajność). Procent w źródle oznaczony jako przybliżony („* Approximate”). Zamiennik cukru (syrop kukurydziany, miód) pominięty. Miary amerykańskie (ACI-195). Dopisane w partii 21 na potrzeby mango i granatu (warunek koordynatora: granat po dodaniu syropu 30% do rejestru).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-297",
+  "twierdzenie": "NCHFP Freezing Mangos: wybrać jędrne, dojrzałe mango, które lekko uginają się pod naciskiem; umyć, obrać i pokroić w plastry; w syropie: plastry do pojemników, zalać syropem 30%, zostawić wolną przestrzeń, zamknąć i zamrozić; bez cukru na tacy: rozłożyć plastry na płaskiej blasze i zamrozić, po zamrożeniu zdjąć i przechowywać w szczelnie zamkniętych pojemnikach; przecier: przetrzeć plastry przez sito albo rozdrobnić w blenderze lub malakserze, zapakować do pojemników z cukrem albo bez, zostawić wolną przestrzeń, zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-mangos/",
+    "miejsce": "NCHFP, Freezing Mangos, Preparation, Syrup Pack, Unsweetened Tray Pack, Purée",
+    "cytat": "Preparation – Select firm, ripe mangos that yield to gentle pressure. Wash, peel and slice. Syrup Pack – Pack slices in containers. Cover with a 30 percent syrup . Leave headspace . Seal and freeze. Unsweetened Tray Pack – Arrange slices on a flat pan and freeze. When frozen remove and store in sealed containers. Purée – Press mango slices through a sieve, blender chop or chop in a food processor. Pack into containers with or without sugar. Leave headspace . Seal and freeze.",
+    "sha12": "c111d498cafd",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wolna przestrzeń odnośnikiem do tabeli Headspace to Allow (SLO-249): syrop i przecier jak z płynem, plastry z tacy jak na sucho (1/2 cala; NCHFP zalicza żywność mrożoną na tacy do wyjątków bez wolnej przestrzeni, SLO-250, więc 1/2 cala to kierunek ostrożny). Przecier z cukrem pominięty, bo strona nie podaje ilości cukru. Syrop 30% z SLO-296. „Flat pan” oddane jako „płaska blacha”/„flat pan”, z ogólnymi zdaniami o tacy (SLO-252).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-298",
+  "twierdzenie": "NCHFP Freezing Pomegranates: wybrać w pełni dojrzałe granaty; umyć i przekroić na pół; położyć przekrojem w dół i postukać w skórkę tępym narzędziem, np. trzonkiem młotka, co rozbija przegrody i otwiera woreczki z sokiem; w syropie: zapakować sok i miąższ do pojemników, zalać zimnym syropem 30%, zostawić wolną przestrzeń, zamknąć i zamrozić. Strona odsyła do innych sposobów bez cukru, nie opisując ich dla granatu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-pomegranates/",
+    "miejsce": "NCHFP, Freezing Pomegranates, Preparation, Syrup Pack",
+    "cytat": "Preparation – Select fully ripe pomegranates. Wash and cut in half. Place cut side down and rap the shell with a blunt instrument such as a hammer handle. This will break section walls and open juice sacs. Syrup Pack – Pack juice and pulp into containers. Cover with a cold 30 percent syrup , leaving headspace . Seal and freeze. For more information, see other unsweetened packs .",
+    "sha12": "7497510b81bb",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wolna przestrzeń z tabeli Headspace to Allow jak z płynem (SLO-249). Syrop 30% z SLO-296. Odnośnik „other unsweetened packs” nie opisuje granatu, więc karta podaje tylko syrop (decyzja Claude p20/p21: bez dopisywania sposobu bez cukru).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-299",
+  "twierdzenie": "NCHFP Freezing Mushrooms: wybrać grzyby bez plam i oznak psucia się; posortować według wielkości; dokładnie umyć w zimnej wodzie; odciąć końce trzonów; grzyby większe niż 1 cal (ok. 2,5 cm) średnicy pokroić w plasterki albo na ćwiartki; można je parować albo podgrzać w tłuszczu na patelni, parowane zachowują jakość dłużej; parowane mają lepszy kolor po zanurzeniu na 5 minut w roztworze 1 łyżeczki soku z cytryny albo 1 1/2 łyżeczki kwasu cytrynowego na pintę (ok. 0,47 l) wody; parować całe 5 minut, małe całe (buttons) lub ćwiartki 3 1/2 minuty, plasterki 3 minuty; szybko schłodzić, odsączyć i zapakować z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; na patelni: małe porcje podgrzewać na margarynie albo maśle na otwartej patelni, aż będą prawie gotowe, schłodzić na powietrzu albo wstawiając patelnię do zimnej wody, zapakować z 1/2 cala wolnej przestrzeni; zamknąć i zamrozić. Reguła JarAtlas (ostrożna): w karcie tylko chłodzenie w zimnej wodzie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-mushrooms/",
+    "miejsce": "NCHFP, Freezing Mushrooms, Preparation, To Steam, To Heat in Fry Pan",
+    "cytat": "Preparation – Choose mushrooms free from spots and decay. Sort according to size. Wash thoroughly in cold water. Trim off ends of stems. If mushrooms are larger than 1 inch across, slice them or cut them into quarters. Mushrooms can be steamed or heated in fat in a fry pan. Steamed mushrooms will keep longer than those heated in fat. To Steam – Mushrooms to be steamed have better color if given anti-darkening treatment first. To do this, dip for 5 minutes in a solution containing 1 teaspoon lemon juice or 11/2 teaspoons citric acid to a pint of water. Then steam whole mushrooms 5 minutes, buttons or quarters 31/2 minutes and slices 3 minutes. Cool promptly, drain and package, leaving 1/2-inch headspace. Seal and freeze. To Heat in Fry Pan – Heat small quantities of mushrooms in margarine or butter in an open fry pan until almost done. Cool in air or set pan in which mushrooms were cooked in cold water. Pack into containers, leaving 1/2-inch headspace. Seal and freeze.",
+    "sha12": "ca2aed544feb",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   },
+   {
+    "adres": "https://www.ndsu.edu/agriculture/extension/publications/freezing-vegetables",
+    "miejsce": "NDSU FN187, Table 1, MUSHROOMS (zapis ułamków)",
+    "cytat": "dip for five minutes in a solution containing 1 teaspoon lemon juice or 1½ teaspoons citric acid to a pint of water. … In steam: Whole – 5 minutes; Button or quarters –3½ minutes; Slices – 3 minutes",
+    "sha12": "1942f3c7dc05",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep"
+   },
+   {
+    "adres": "https://extension.missouri.edu/publications/gh1503",
+    "miejsce": "University of Missouri Extension GH1503, Mushrooms, To sauté",
+    "cytat": "Set pan of mushrooms in cold water to cool promptly.",
+    "sha12": "6a449cba9835",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Strona NCHFP zapisuje „11/2” i „31/2” bez spacji (utracony znak ułamka); NDSU FN187 (powtarza NCHFP) zapisuje 1½ i 3½, więc odczyt 1 1/2 i 3 1/2. Sprzeczność: MU GH1503 (szczebel 3) podaje dłuższe parowanie (całe i ćwiartki 9 min, plasterki 5 min) i dodatek kwasu do wody; wygrywa wyższy szczebel (NCHFP, szczebel 1). Blanszowanie służy jakości (enzymy), nie zabija drobnoustrojów, więc różnica nie dotyczy bezpieczeństwa; zapisane do weta. Zanurzenie w roztworze jest opcjonalne (kolor), to nie zakwaszanie. Chłodzenie na powietrzu pominięte (wariant ostrożniejszy, MU podaje tylko zimną wodę). Pint ≈ 0,47 l, 1 cal ≈ 2,5 cm (rachunek JarAtlas). „Buttons” oddane jako „małe całe”. Zdania SLO-257 o gotowaniu we wrzątku poza pierwszym usunięte. „Cultivated mushrooms” w en i „pieczarki” w pl to zakres z katalogu (pieczarka, boczniak, shiitake), nie z NCHFP; karta nie obejmuje grzybów zbieranych.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-300",
+  "twierdzenie": "NCHFP Freezing Artichokes, serca karczocha zwyczajnego (globe): wybrać karczochy o równomiernie zielonym kolorze, zwartych główkach i ściśle przylegających liściach; usunąć wszystkie liście i włochaty środek (choke); to, co zostaje u podstawy, to serce; odciąć łodygę tuż pod sercem i usunąć zdrewniałe części; umyć serca w zimnej wodzie i odsączyć; blanszować w wodzie 7 minut; schłodzić, odsączyć i zapakować bez wolnej przestrzeni; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-artichokes/",
+    "miejsce": "NCHFP, Freezing Artichokes, Globe Artichoke Hearts, Preparation",
+    "cytat": "Preparation – Select those with uniformly green color, compact globes and tightly adhering leaves. Remove all leaves and choke or fuzzy portion. The portion that is left at the base is the heart. Cut away the stem just below the heart and trim any woody portions. Wash hearts in cold water and drain. Water blanch 7 minutes. Cook, drain and pack, leaving no headspace. Seal and freeze.",
+    "sha12": "a94dc5fd7037",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   },
+   {
+    "adres": "https://extension.missouri.edu/publications/gh1503",
+    "miejsce": "University of Missouri Extension GH1503, Artichokes: Globe",
+    "cytat": "Water blanch 7 minutes. Cool, drain and pack, leaving no headspace. Seal and freeze.",
+    "sha12": "6a449cba9835",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep"
+   },
+   {
+    "adres": "https://www.ndsu.edu/agriculture/extension/publications/freezing-vegetables",
+    "miejsce": "NDSU FN187, Table 1, ARTICHOKE HEARTS",
+    "cytat": "Water blanch. Cool, drain and pack, leaving no head space. Seal and freeze. 7 minutes",
+    "sha12": "1942f3c7dc05",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "NCHFP pisze „Cook, drain and pack”; MU i NDSU w tym samym miejscu „Cool, drain and pack”, więc „Cook” to błąd druku i karta podaje schładzanie (ogólne zasady SUS-056, SLO-254). Topinambur (Jerusalem artichokes: jak ziemniaki) poza kartą. Zdania SLO-257 o gotowaniu bez zmian z szablonu.",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",
