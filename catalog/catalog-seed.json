@@ -1,5 +1,5 @@
 {
- "version": "1.0.9",
+ "version": "1.0.10",
  "generated": "2026-11-02",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -4419,7 +4419,8 @@
    },
    "notes": [
     "[SUS*] Clemson wymienia chipsy z ogórka jako ogólne zalecenie, bez tabeli czasu; brak ogórka w tabelach CSU/MSU. Suszyć do stanu kruchego.",
-    "[E3] ok-zrodlo → do-researchu: Clemson HGIC 3085 wymienia ogórek tylko w zdaniu 'Vegetables to try include … cucumber … chips'. W tabeli Clemson nie ma wiersza dla ogórka (przygotowanie, blanszowanie, czas); nie ma go też w tabelach CSU ani MSU. Wzmianka 'warto spróbować' to nie przetestowana procedura. Zagrożenie niskie, ale podstawa słabsza niż wymagana."
+    "[E3] ok-zrodlo → do-researchu: Clemson HGIC 3085 wymienia ogórek tylko w zdaniu 'Vegetables to try include … cucumber … chips'. W tabeli Clemson nie ma wiersza dla ogórka (przygotowanie, blanszowanie, czas); nie ma go też w tabelach CSU ani MSU. Wzmianka 'warto spróbować' to nie przetestowana procedura. Zagrożenie niskie, ale podstawa słabsza niż wymagana.",
+    "[B13] zostaje do-researchu (C11-D2): ogórek tylko w zdaniu Clemson o chipsach (SUS-039), brak wiersza w tabelach suszenia. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -5431,7 +5432,7 @@
    "id": "red-savoy-cabbage-v11",
    "productId": "red-savoy-cabbage",
    "name": {
-    "pl": "susz"
+    "pl": "suszona kapusta czerwona lub włoska"
    },
    "groupV0": "Pasteryzacja i susz",
    "lineV0": 27,
@@ -5470,7 +5471,8 @@
    },
    "notes": [
     "[SUS*] Jak kapusta w tabelach CSU/Clemson (paski, blanszowanie). Odpowiednik: kapusta czerwona/włoska = kapusta.",
-    "[B11] produkt red-savoy-cabbage bez slugu w site/slugi; slug powstaje z kartą (ADR 0002, jak B10-D6), bez zmiany (B11-D11) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] produkt red-savoy-cabbage bez slugu w site/slugi; slug powstaje z kartą (ADR 0002, jak B10-D6), bez zmiany (B11-D11) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B13] susz → suszona kapusta czerwona lub włoska: nazwa samodzielna zamiast „susz”/„puder” (backlog p26), status ok-zrodlo bez zmian (ta sama tożsamość, wymóg szczebla 1 dotyczy nowych ok-zrodlo z C11, B13-D9); slug produktu i wariantu powstaje w site/slugi razem z kartą (B11-D11, tor kart p28 S8), propozycja w raporcie B13 (B13-D10) (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -5483,7 +5485,7 @@
    "id": "red-savoy-cabbage-v12",
    "productId": "red-savoy-cabbage",
    "name": {
-    "pl": "puder"
+    "pl": "puder z suszonej kapusty czerwonej lub włoskiej"
    },
    "groupV0": "Pasteryzacja i susz",
    "lineV0": 27,
@@ -5522,7 +5524,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Puder = zmielony susz kapusty (Clemson: proszki z wysuszonych warzyw)."
+    "[SUS*] Puder = zmielony susz kapusty (Clemson: proszki z wysuszonych warzyw).",
+    "[B13] puder → puder z suszonej kapusty czerwonej lub włoskiej: nazwa samodzielna zamiast „susz”/„puder” (backlog p26), status ok-zrodlo bez zmian (ta sama tożsamość, wymóg szczebla 1 dotyczy nowych ok-zrodlo z C11, B13-D9); slug produktu i wariantu powstaje w site/slugi razem z kartą (B11-D11, tor kart p28 S8), propozycja w raporcie B13 (B13-D10) (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -6081,7 +6084,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Kapusty pekińskiej/pak choi brak w tabelach suszenia (jest tylko w tabeli mrożenia NCHFP razem z kapustą). Najbliższe: kapusta lub liście (CSU)."
+    "[SUS*] Kapusty pekińskiej/pak choi brak w tabelach suszenia (jest tylko w tabeli mrożenia NCHFP razem z kapustą). Najbliższe: kapusta lub liście (CSU).",
+    "[B13] zostaje do-researchu (C11-D2): kapusta pekińska bez procedury suszenia; procedury kapusty głowiastej nie przenoszę (B7-D5). Twierdzenia z raportu poza claims: SUS-108, SUS-200. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -6113,7 +6117,8 @@
    },
    "notes": [
     "[FER] Puder z kimchi (suszenie).",
-    "[SUS*] Puder z suszonego kimchi: brak przetestowanego przepisu; suszenie produktu fermentowanego (FER ocenia kimchi)."
+    "[SUS*] Puder z suszonego kimchi: brak przetestowanego przepisu; suszenie produktu fermentowanego (FER ocenia kimchi).",
+    "[B13] zostaje do-researchu (C11-D2): puder z suszonego kimchi bez procedury szczebla 1–3. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -7464,7 +7469,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Kalarepa tylko w ocenie przydatności MSU („Fair”), bez procedury; brak przetestowanego przepisu na chipsy."
+    "[SUS*] Kalarepa tylko w ocenie przydatności MSU („Fair”), bez procedury; brak przetestowanego przepisu na chipsy.",
+    "[B13] zostaje do-researchu (C11-D2): SDSU (za NCHFP) nie zaleca suszenia kalarepy (SUS-300), powód niepodany; propozycja C11: wycofać jako poza zakresem albo zastąpić mrożeniem — decyzja roli 03. Twierdzenia z raportu poza claims: SUS-300, SUS-121. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -9005,10 +9011,10 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "dry-storage",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "SLO-069",
-    "SLO-045"
+    "SLO-045",
+    "SLO-023"
    ],
    "sources": [],
    "filters": {
@@ -9018,12 +9024,18 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Dynia kandyzowana: przechowywanie według reguły owoców kandyzowanych (lodówka do tygodnia albo całkowite dosuszenie). Przechowywanie w syropie w temp. pokojowej: brak źródła, dynia niskokwasowa."
+    "[SLO*] Dynia kandyzowana: przechowywanie według reguły owoców kandyzowanych (lodówka do tygodnia albo całkowite dosuszenie). Przechowywanie w syropie w temp. pokojowej: brak źródła, dynia niskokwasowa.",
+    "[B13] do-researchu → ryzyko-wysokie, karta-ostrzeżenie bez przepisu (C11-D5, B13-D3): dynia niskokwasowa (SLO-045), żywność o pH powyżej 4,6 może umożliwić wzrost C. botulinum (SLO-023; zamiast SUS-318, które po dwóch przebiegach D-027 zostało robocze); kandyzowanie w syropie trzymane poza lodówką to niskokwasowy produkt bez procesu (analogia C10-D9); SLO-069 usunięte z claims (przepis „adapted from AllRecipes”, C11 §7; na karcie-ostrzeżeniu podsuwałby sposób przechowywania, D-043 P1). Twierdzenia z raportu poza claims: SUS-318, SLO-069 (robocze: SUS-318). (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-045",
+    "SLO-023"
    ]
   },
   {
@@ -10008,7 +10020,7 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SUS-031",
     "SUS-033",
@@ -10031,7 +10043,8 @@
    },
    "notes": [
     "[SUS*] Liście młodego jęczmienia suszone jak zioła liściaste (NCHFP Herbs: liście, kwiaty, nasiona). Odpowiedniość: ten sam proces dla liści.",
-    "[B11] liść jęczmienia / pokrzywa nie pasują do produktu „Liście winogron, sałata łodygowa i rukiew”; przeniesienie do innego produktu zmienia productId i slug (ADR 0002), poza zakresem B11: do toru kart przed kartą (B11-D10) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] liść jęczmienia / pokrzywa nie pasują do produktu „Liście winogron, sałata łodygowa i rukiew”; przeniesienie do innego produktu zmienia productId i slug (ADR 0002), poza zakresem B11: do toru kart przed kartą (B11-D10) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B13] ok-zrodlo → do-researchu (B13-D7, backlog p26): NCHFP Herbs nie wymienia liści jęczmienia (curl 2026-11-02), więc źródło nie pasuje 1:1 (C11-D2); produkt „Liście winogron, sałata łodygowa i rukiew” też nie pasuje — przeniesienie zmienia productId i slug (ADR 0002), decyzja roli 03 (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -10051,7 +10064,7 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SUS-031",
     "SUS-033",
@@ -10074,7 +10087,8 @@
    },
    "notes": [
     "[SUS*] Pokrzywa suszona jak zioło liściaste. Zbiór z dziko rosnących: rozpoznanie i miejsce zbioru poza zakresem źródła.",
-    "[B11] liść jęczmienia / pokrzywa nie pasują do produktu „Liście winogron, sałata łodygowa i rukiew”; przeniesienie do innego produktu zmienia productId i slug (ADR 0002), poza zakresem B11: do toru kart przed kartą (B11-D10) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] liść jęczmienia / pokrzywa nie pasują do produktu „Liście winogron, sałata łodygowa i rukiew”; przeniesienie do innego produktu zmienia productId i slug (ADR 0002), poza zakresem B11: do toru kart przed kartą (B11-D10) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B13] ok-zrodlo → do-researchu (B13-D7, backlog p26): NCHFP Herbs nie wymienia pokrzywy (curl 2026-11-02), roślina dziko zbierana bez źródła o rozpoznaniu (p26: karta pominięta); produkt nie pasuje — decyzja roli 03 (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -10831,7 +10845,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Puder ze skórek pomidorów: brak przepisu; Clemson opisuje proszek pomidorowy z suszu pomidorów, nie ze skórek."
+    "[SUS*] Puder ze skórek pomidorów: brak przepisu; Clemson opisuje proszek pomidorowy z suszu pomidorów, nie ze skórek.",
+    "[B13] zostaje do-researchu (C11-D4): artykuł UC MFP o skórkach pomidorów tylko przez WebFetch (curl 403), cytat niesprawdzony dosłownie; 135°F poniżej 140°F (SUS-001). Twierdzenia z raportu poza claims: SUS-202. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -12042,8 +12057,11 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "SUS-309",
+    "SUS-310"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -12053,14 +12071,25 @@
    },
    "notes": [
     "[OLE] Wędzona mielona papryka; poza obszarem OLE.",
-    "[SUS*] Suszenie papryki przetestowane, wędzenie nie; brak przepisu na wędzoną paprykę mieloną."
+    "[SUS*] Suszenie papryki przetestowane, wędzenie nie; brak przepisu na wędzoną paprykę mieloną.",
+    "[B13] do-researchu → ryzyko-wysokie i wycofany z następcą bell-pepper-v17 (C11-D6, B13-D3, B13-D4; karta-ostrzeżenie wycofanego wariantu nie zostanie opublikowana, plan.mjs pomija retired — ostrzeżenie o wędzeniu dla następcy do toru kart, D-043 P2): domowe wędzenie warzyw bez procedury szczebla 1 (SUS-309), żywność wędzona głównym źródłem WWA (SUS-310); bez wędzenia to papryka suszona (następca); procedura następcy SUS-113 nie w tej karcie. Twierdzenia z raportu poza claims: SUS-113, SUS-134, SUS-135. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "OLE",
     "SUS"
-   ]
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SUS-309",
+    "SUS-310"
+   ],
+   "retired": {
+    "reason": "duplikat bell-pepper-v17 bez wędzenia (C11 sekcja 9: przetestowana procedura następcy)",
+    "replacedBy": "bell-pepper-v17",
+    "decision": "2026-11-02-jaratlas-06-b13-katalog-c11"
+   }
   },
   {
    "id": "chili-pepper-v01",
@@ -13713,7 +13742,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Topinambur (Jerusalem artichoke) jest tylko w tabeli blanszowania do mrożenia, nie w tabelach suszenia."
+    "[SUS*] Topinambur (Jerusalem artichoke) jest tylko w tabeli blanszowania do mrożenia, nie w tabelach suszenia.",
+    "[B13] zostaje do-researchu (C11-D2): topinambur bez procedury suszenia; procedury ziemniaka nie przenoszę. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -13801,7 +13831,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Domowa skrobia ziemniaczana: wyrób spiżarniany, nie suszenie warzywa; brak źródła. Możliwe poza_zakresem."
+    "[SUS*] Domowa skrobia ziemniaczana: wyrób spiżarniany, nie suszenie warzywa; brak źródła. Możliwe poza_zakresem.",
+    "[B13] zostaje do-researchu (C11-D2): domowa skrobia bez procedury szczebla 1–3; propozycja C11: poza zakresem (ekstrakcja, nie utrwalanie) — decyzja roli 03. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -14170,7 +14201,9 @@
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
    "safetyStatus": "do-researchu",
-   "claims": [],
+   "claims": [
+    "SUS-301"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -14179,12 +14212,16 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Physalis (złote jagody) nie ma w tabelach suszenia owoców."
+    "[SUS*] Physalis (złote jagody) nie ma w tabelach suszenia owoców.",
+    "[B13] zostaje do-researchu (C11-D2) z obowiązkowym ostrzeżeniem SUS-301 (niedojrzałe owoce, łodygi i liście miechunki zawierają toksyny; B13-D8); nazwa opisuje miechunkę (Physalis, złote jagody), nie tomatillo — zmiana produktu do roli 03; SUS-302 (sprzeczne OSU/SDSU dla tomatillo) tylko kontekst. Twierdzenia z raportu poza claims: SUS-302. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
+   ],
+   "requiredWarnings": [
+    "SUS-301"
    ]
   },
   {
@@ -14743,7 +14780,8 @@
    },
    "notes": [
     "[SUS*] Jak fasolka szparagowa; tylko suszarka/piekarnik, bo suszenie warzyw na słońcu nie jest zalecane (tradycja chińska bywa słoneczna).",
-    "[p25] ok-zrodlo → do-researchu (2026-11-02-jaratlas-06-karty-p25): fasolka chińska (długostrąkowa): tabele CSU/MSU mają tylko fasolkę szparagową; B7-D5, B7-P4. Wariant ukryty, nie wchodzi do kart do czasu źródła szczebla 1–3 (trening CLAUDE.md:121)."
+    "[p25] ok-zrodlo → do-researchu (2026-11-02-jaratlas-06-karty-p25): fasolka chińska (długostrąkowa): tabele CSU/MSU mają tylko fasolkę szparagową; B7-D5, B7-P4. Wariant ukryty, nie wchodzi do kart do czasu źródła szczebla 1–3 (trening CLAUDE.md:121).",
+    "[B13] zostaje do-researchu (C11-D2): fasolka długostrąkowa (Vigna) bez procedury; procedury Phaseolus nie przenoszę (B7-D5). Twierdzenia z raportu poza claims: SUS-111, SUS-182. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -15328,7 +15366,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Mąka z ciecierzycy: mielenie suchych nasion."
+    "[SUS*] Mąka z ciecierzycy: mielenie suchych nasion.",
+    "[B13] bez zmian: wycofany wcześniej jako poza zakresem (2026-11-01); C11: mąka to produkt surowy (SUS-311), gdyby wariant wrócił — requiredWarnings SUS-311. Twierdzenia z raportu poza claims: SUS-311. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "out-of-scope",
    "scopeNote": "mielenie kupnych suchych nasion, nie utrwalanie",
@@ -15494,10 +15533,11 @@
    "processFamilyId": "koji-soy-ferments",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "NAP-052",
-    "NAP-062"
+    "NAP-062",
+    "NAP-066"
    ],
    "sources": [],
    "filters": {
@@ -15508,13 +15548,19 @@
    },
    "notes": [
     "[FER] Douchi.",
-    "[NAP*] Douchi: najbliższy opisany proces to shiokara-natto (czarna soja + koji, solenie); brak przepisu domowego."
+    "[NAP*] Douchi: najbliższy opisany proces to shiokara-natto (czarna soja + koji, solenie); brak przepisu domowego.",
+    "[B13] do-researchu → ryzyko-wysokie, karta-ostrzeżenie bez przepisu (C11-D7, B13-D3): brak domowej przetestowanej procedury douchi (NAP-062 tylko proces najbliższy); zatrucie B. cereus z cereulidem u 139 osób po douchi (NAP-066, dawniej SUS-312 z C11, szczebel 2); Bacillus w gotowanym ziarnie (NAP-052: ryż, jęczmień, zboża; dla soi uproszczenie kierunkowo ostrożne). (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "FER",
     "NAP"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "NAP-066",
+    "NAP-052"
    ]
   },
   {
@@ -17029,7 +17075,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Włoszczyzna: marchew, pasternak i seler naciowy mają procedury (CSU/Clemson), por i korzeń pietruszki/selera nie. Mieszanka bez przepisu."
+    "[SUS*] Włoszczyzna: marchew, pasternak i seler naciowy mają procedury (CSU/Clemson), por i korzeń pietruszki/selera nie. Mieszanka bez przepisu.",
+    "[B13] zostaje do-researchu (C11-D8): korzeń pietruszki i seler korzeniowy bez procedury; minimalna poprawka C11 = tylko warzywa z procedurą, każde suszone osobno (marchew, pasternak, seler naciowy SUS-305). Twierdzenia z raportu poza claims: SUS-127, SUS-303, SUS-305, SUS-040. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -19199,7 +19246,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Pora nie ma w tabelach suszenia (CSU, MSU, Clemson); najbliższa cebula."
+    "[SUS*] Pora nie ma w tabelach suszenia (CSU, MSU, Clemson); najbliższa cebula.",
+    "[B13] zostaje do-researchu (C11-D9): SDSU (SUS-303) bez czasu, testu suchości i blanszowania. Twierdzenia z raportu poza claims: SUS-303, SUS-017, SUS-114. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -19657,7 +19705,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Mumallaengi: brak przepisu; MSU ocenia rzodkiewki jako nienadające się do suszenia (jakość); tradycyjnie suszone na słońcu, czego dla warzyw się nie zaleca."
+    "[SUS*] Mumallaengi: brak przepisu; MSU ocenia rzodkiewki jako nienadające się do suszenia (jakość); tradycyjnie suszone na słońcu, czego dla warzyw się nie zaleca.",
+    "[B13] zostaje do-researchu (C11-D2): daikon bez procedury suszenia; suszenie na słońcu dla warzyw niezalecane (SUS-003). Twierdzenia z raportu poza claims: SUS-304 (robocze: SUS-304). (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -19725,7 +19774,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Chipsy z rzodkwi: brak przepisu; ocena MSU „Not recommended” (jakość)."
+    "[SUS*] Chipsy z rzodkwi: brak przepisu; ocena MSU „Not recommended” (jakość).",
+    "[B13] zostaje do-researchu (C11-D2): chipsy z rzodkwi bez procedury. Twierdzenia z raportu poza claims: SUS-304 (robocze: SUS-304). (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -20588,14 +20638,20 @@
    },
    "notes": [
     "[SUS*] Tabele podają chrzan tarty, bez blanszowania, do kruchego/proszkowego; plastry zamiast tarcia: dłuższe suszenie.",
-    "[p25] ok-zrodlo → do-researchu (2026-11-02-jaratlas-06-karty-p25): chrzan w plastrach: CSU i MSU opisują tylko chrzan tarty (SUS-129); plastrów brak w źródłach; B7-D5. Wariant ukryty, nie wchodzi do kart do czasu źródła szczebla 1–3 (trening CLAUDE.md:121)."
+    "[p25] ok-zrodlo → do-researchu (2026-11-02-jaratlas-06-karty-p25): chrzan w plastrach: CSU i MSU opisują tylko chrzan tarty (SUS-129); plastrów brak w źródłach; B7-D5. Wariant ukryty, nie wchodzi do kart do czasu źródła szczebla 1–3 (trening CLAUDE.md:121).",
+    "[B13] zostaje do-researchu, wycofany z następcą horseradish-v12 (ok-zrodlo; B13-D4): plastrów chrzanu nie opisuje żadne źródło szczebla 1–3, tylko chrzan tarty (następca). Twierdzenia z raportu poza claims: SUS-129, SUS-130. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
    ],
-   "e3": "zmieniony z ok-zrodlo"
+   "e3": "zmieniony z ok-zrodlo",
+   "retired": {
+    "reason": "duplikat horseradish-v12 (C11-D10: źródła opisują tylko chrzan tarty)",
+    "replacedBy": "horseradish-v12",
+    "decision": "2026-11-02-jaratlas-06-b13-katalog-c11"
+   }
   },
   {
    "id": "horseradish-v12",
@@ -21018,7 +21074,7 @@
    "id": "celeriac-celery-v11",
    "productId": "celeriac-celery",
    "name": {
-    "pl": "suszony seler korzeniowy i naciowy"
+    "pl": "suszony seler naciowy"
    },
    "groupV0": "Olej, pasteryzacja i susz",
    "lineV0": 151,
@@ -21026,7 +21082,9 @@
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
    "safetyStatus": "do-researchu",
-   "claims": [],
+   "claims": [
+    "SUS-305"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -21035,7 +21093,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Seler naciowy (łodygi, liście) ma procedurę CSU/Clemson; korzenia selera brak w tabelach."
+    "[SUS*] Seler naciowy (łodygi, liście) ma procedurę CSU/Clemson; korzenia selera brak w tabelach.",
+    "[B13] suszony seler korzeniowy i naciowy → suszony seler naciowy: seler korzeniowy bez procedury szczebla 1–3, usunięty (C11-D8); zostaje do-researchu, bo SDSU (SUS-305) to szczebel 3 (B13-D5). (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -21066,7 +21125,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Sól selerowa: mieszanka suszu z solą bez przetestowanego przepisu; seler naciowy suszony ma procedurę, proszek selerowy wymienia Clemson."
+    "[SUS*] Sól selerowa: mieszanka suszu z solą bez przetestowanego przepisu; seler naciowy suszony ma procedurę, proszek selerowy wymienia Clemson.",
+    "[B13] zostaje do-researchu (C11-D11): sól selerowa — mieszanie proszku z solą bez procedury. Twierdzenia z raportu poza claims: SUS-305. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -21415,16 +21475,37 @@
    "id": "parsnip-parsley-v10",
    "productId": "parsnip-parsley",
    "name": {
-    "pl": "suszona natka i korzeń"
+    "pl": "suszona natka pietruszki"
    },
    "groupV0": "Olej, pasteryzacja i susz",
    "lineV0": 155,
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "SUS-031",
+    "SUS-033",
+    "SUS-022",
+    "SUS-079",
+    "SUS-081"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+     "miejsce": "NCHFP, Herbs (suszenie ziół); Less Tender Herbs",
+     "cytat": "Less Tender Herbs — The more sturdy herbs such as rosemary, sage, thyme, summer savory and parsley are the easiest to dry without a dehydrator. Tie them into small bundles and hang them to air dry.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+     "miejsce": "NCHFP, Herbs (suszenie ziół); Dehydrator drying",
+     "cytat": "Herbs are dry when they crumble, and stems break when bent.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -21432,7 +21513,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Natka pietruszki ma procedurę (CSU, MSU, Clemson); korzenia pietruszki brak w tabelach."
+    "[SUS*] Natka pietruszki ma procedurę (CSU, MSU, Clemson); korzenia pietruszki brak w tabelach.",
+    "[B13] suszona natka i korzeń → suszona natka pietruszki: korzeń pietruszki bez procedury, pasternak = parsnip-parsley-v09 (C11-D8); do-researchu → ok-zrodlo, bo NCHFP Herbs (szczebel 1, przeczytane curl 2026-11-02) wymienia pietruszkę wśród ziół o twardszych liściach; claims jak w innych wariantach suszenia ziół (SUS-031, SUS-033, SUS-022) + SUS-079 (test suchości), SUS-081 (pęczki); weryfikator D-027: kryterium suchości stoi w akapicie o suszarce, więc cytaty jako osobne źródła; SUS-127 (pasternak) poza wariantem. Twierdzenia z raportu poza claims: SUS-127, SUS-076. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -21791,7 +21873,8 @@
    },
    "notes": [
     "[SUS*] Clemson wymienia chipsy z rzepy; MSU ocenia rzepę i brukiew „Fair to good”, ale bez tabeli czasu. Brukiew bez procedury.",
-    "[E3] ok-zrodlo → do-researchu: Jedyne źródło to Clemson HGIC 3085, które wymienia rzepę tylko w zdaniu o chipsach ('Vegetables to try include … turnip'). W tabeli Clemson rzepa jest tylko jako liście (Greens); korzenia rzepy nie ma też w tabeli CSU. MSU ocenia rzepę do suszenia jako 'Fair to good', ale bez wiersza z przygotowaniem i nie jest cytowane. Brak przetestowanej procedury dla korzenia."
+    "[E3] ok-zrodlo → do-researchu: Jedyne źródło to Clemson HGIC 3085, które wymienia rzepę tylko w zdaniu o chipsach ('Vegetables to try include … turnip'). W tabeli Clemson rzepa jest tylko jako liście (Greens); korzenia rzepy nie ma też w tabeli CSU. MSU ocenia rzepę do suszenia jako 'Fair to good', ale bez wiersza z przygotowaniem i nie jest cytowane. Brak przetestowanej procedury dla korzenia.",
+    "[B13] zostaje do-researchu; ok-zrodlo z C11-D12 wstrzymane (B13-D2): procedury SDSU (SUS-306) i CSU PreserveSmart (SUS-307) to szczebel 3, a zlecenie wymaga przeczytanego cytatu szczebla 1; stopka „Source: NCHFP” w arkuszu SDSU dotyczy ramki Tips/Tricks, nie suszenia (D-027), a tabela NCHFP Drying Vegetables jest niedostępna (404); dział NCHFP Drying nie wymienia rzepy (curl 2026-11-02). Po znalezieniu cytatu szczebla 1: ok-zrodlo z blanszowaniem 5 minut (C11-D12). Twierdzenia z raportu poza claims: SUS-306, SUS-307. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -23029,8 +23112,11 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "SUS-313",
+    "SUS-314"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -23039,12 +23125,17 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Tabele podają tylko kukurydzę cukrową (blanszowaną); suszenie ziarna kukurydzy pastewnej/zwykłej do nixtamalizacji bez przepisu (pytanie o mykotoksyny)."
+    "[SUS*] Tabele podają tylko kukurydzę cukrową (blanszowaną); suszenie ziarna kukurydzy pastewnej/zwykłej do nixtamalizacji bez przepisu (pytanie o mykotoksyny).",
+    "[B13] do-researchu → ryzyko-wysokie, karta-ostrzeżenie bez przepisu (C11-D13, B13-D3): brak procedury domowego suszenia ziarna kukurydzy; ryzyko aflatoksyn zależy od wilgotności ziarna (13% do przechowywania, SUS-313), brak zatwierdzonego odtruwania (SUS-314); SUS-313 tylko w claims, nie jako ostrzeżenie (13% czytałoby się jak instrukcja; zastrzeżenie o pomiarze w domu nie ma źródła, D-043 P2); droga: kupne suche ziarno (zmienia metodę wariantu). (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SUS-314"
    ]
   },
   {
@@ -23553,7 +23644,8 @@
    },
    "notes": [
     "[OLE*] Suszone oliwki; poza obszarem OLE.",
-    "[SUS] Suszone oliwki: jak wyżej; brak przeczytanego przepisu."
+    "[SUS] Suszone oliwki: jak wyżej; brak przeczytanego przepisu.",
+    "[B13] zostaje do-researchu; ok-zrodlo z C11-D14 wstrzymane (B13-D2): UC ANR 8267 to szczebel 3, a zlecenie wymaga przeczytanego cytatu szczebla 1; dodatkowo weryfikator D-027 nie pobrał publikacji (eScholarship HTTP 202), więc SUS-315 i SUS-316 są robocze. Twierdzenia z raportu poza claims: SUS-315, SUS-316, SUS-003 (robocze: SUS-315, SUS-316). (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -23892,7 +23984,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Kapary solone i suszone: brak przepisu."
+    "[SUS*] Kapary solone i suszone: brak przepisu.",
+    "[B13] zostaje do-researchu (C11-D2), bez wycofania: warunkowy następca capers-v01 też do-researchu. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -24179,10 +24272,10 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "dry-storage",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-125",
-    "SLO-069"
+    "SLO-023"
    ],
    "sources": [],
    "filters": {
@@ -24193,13 +24286,19 @@
    },
    "notes": [
     "[ACI] Imbir kandyzowany — rodzina słodka/suszenie.",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Przechowywanie według reguły owoców kandyzowanych."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Przechowywanie według reguły owoców kandyzowanych.",
+    "[B13] do-researchu → ryzyko-wysokie, karta-ostrzeżenie bez przepisu (C11-D5, B13-D3): imbir niskokwasowy (ACI-125), żywność o pH powyżej 4,6 może umożliwić wzrost C. botulinum (SLO-023; dodatkowe poza listą C11, analogia B12 ginger-turmeric-v13); forma w syropie bez źródła szczebla 1–3; SUS-319 (imbir kandyzowany na sucho, przepis powiatowy bez czasu przechowywania) nie w karcie-ostrzeżeniu; SLO-069 usunięte z claims (jak w pumpkin-v14, D-043 P1). Twierdzenia z raportu poza claims: SUS-319, SLO-069. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-125",
+    "SLO-023"
    ]
   },
   {
@@ -24418,7 +24517,8 @@
    },
    "notes": [
     "[SZY] Suszony imbir i kurkuma (SUS).",
-    "[SUS*] Imbiru i kurkumy brak w tabelach suszenia."
+    "[SUS*] Imbiru i kurkumy brak w tabelach suszenia.",
+    "[B13] zostaje do-researchu (C11-D2): jedyne źródło (NC State, powiat, SUS-308) bez temperatury, czasu i testu suchości. Twierdzenia z raportu poza claims: SUS-308, ACI-125. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -24902,7 +25002,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Domowa „vegeta”: mieszanka warzyw z solą (zwykle suszona razem) bez przetestowanego przepisu."
+    "[SUS*] Domowa „vegeta”: mieszanka warzyw z solą (zwykle suszona razem) bez przetestowanego przepisu.",
+    "[B13] zostaje do-researchu (C11-D11): warzywa z solą suszone razem bez procedury. Twierdzenia z raportu poza claims: SUS-040. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -24932,7 +25033,8 @@
    },
    "notes": [
     "[SZY] Susz warzywny (SUS).",
-    "[SUS*] Susz warzywny do bulionu: mieszanka; część składników ma procedury, nie wszystkie (por, korzeń selera)."
+    "[SUS*] Susz warzywny do bulionu: mieszanka; część składników ma procedury, nie wszystkie (por, korzeń selera).",
+    "[B13] zostaje do-researchu (C11-D8), bez wycofania: po poprawce składu taki sam jak carrot-v15, ale warunkowy następca carrot-v15 też do-researchu; zostawić jeden z dwóch przy rozstrzygnięciu. Twierdzenia z raportu poza claims: SUS-127, SUS-305, SUS-040. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -25402,7 +25504,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Szarena sól: suszone zioła z solą i papryką; mieszanka bez przepisu (suszenie ziół ma procedurę NCHFP)."
+    "[SUS*] Szarena sól: suszone zioła z solą i papryką; mieszanka bez przepisu (suszenie ziół ma procedurę NCHFP).",
+    "[B13] zostaje do-researchu (C11-D11): szarena sól bez procedury, kozieradki brak w źródłach suszenia. Twierdzenia z raportu poza claims: SUS-031, SUS-076, SUS-135. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -27143,8 +27246,11 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "SUS-309",
+    "SUS-310"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -27153,13 +27259,24 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Suszenie gruszek przetestowane, wędzenie nie (pytanie o WWA)."
+    "[SUS*] Suszenie gruszek przetestowane, wędzenie nie (pytanie o WWA).",
+    "[B13] do-researchu → ryzyko-wysokie i wycofany z następcą pear-v13 (C11-D6, B13-D3, B13-D4; karta-ostrzeżenie wycofanego wariantu nie zostanie opublikowana, D-043 P2): domowe wędzenie owoców bez procedury szczebla 1 (SUS-309), WWA (SUS-310); bez wędzenia to gruszki suszone (następca, SUS-089, SUS-090). Twierdzenia z raportu poza claims: SUS-089, SUS-090. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
-   ]
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SUS-309",
+    "SUS-310"
+   ],
+   "retired": {
+    "reason": "duplikat pear-v13 bez wędzenia (C11 sekcja 9: przetestowana procedura następcy)",
+    "replacedBy": "pear-v13",
+    "decision": "2026-11-02-jaratlas-06-b13-katalog-c11"
+   }
   },
   {
    "id": "quince-v01",
@@ -27567,7 +27684,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B13] zostaje do-researchu (C11-D2): brak przepisu na kandyzowaną pigwę szczebla 1–3. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -27596,7 +27714,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Pigwowca (Chaenomeles) brak w tabelach suszenia."
+    "[SUS*] Pigwowca (Chaenomeles) brak w tabelach suszenia.",
+    "[B13] zostaje do-researchu (C11-D2): owoce pigwowca jadalne (SUS-323), ale brak procedury suszenia. Twierdzenia z raportu poza claims: SUS-323. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -28167,7 +28286,7 @@
    "id": "plum-v16",
    "productId": "plum",
    "name": {
-    "pl": "gruzińskie tklapi (rulony z suszonego musu)"
+    "pl": "skóra owocowa ze śliwek"
    },
    "groupV0": "Cukier, pasteryzacja i wędzenie",
    "lineV0": 219,
@@ -28196,7 +28315,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Tklapi = skóra z przecieru śliwkowego (odpowiednik skóry owocowej NCHFP; NCHFP podaje 1–2 dni na słońcu). Kwaśny przecier bez cukru: przechowywanie jak skóra."
+    "[SUS*] Tklapi = skóra z przecieru śliwkowego (odpowiednik skóry owocowej NCHFP; NCHFP podaje 1–2 dni na słońcu). Kwaśny przecier bez cukru: przechowywanie jak skóra.",
+    "[B13] gruzińskie tklapi (rulony z suszonego musu) → skóra owocowa ze śliwek: przepis to ogólna skóra owocowa NCHFP, nie tradycyjny wyrób (karta p27: „nie tradycyjne”), status bez zmian (B13-D9); slug w site/slugi (tklapi-ze-sliwek / plum-leather-tklapi) zawiera nazwę tradycyjną: do toru kart (strona nieopublikowana, zmiana bez 301) (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -28269,8 +28389,11 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "SUS-309",
+    "SUS-310"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -28281,7 +28404,8 @@
    "notes": [
     "[SZY] Śliwki wędzone (SUS).",
     "[SLO] Wędzenie/suszenie śliwek, obszar SUS.",
-    "[SUS*] Śliwki wędzone (suska sechlońska): suszenie śliwek przetestowane, wędzenie nie (pytanie o WWA)."
+    "[SUS*] Śliwki wędzone (suska sechlońska): suszenie śliwek przetestowane, wędzenie nie (pytanie o WWA).",
+    "[B13] do-researchu → ryzyko-wysokie i wycofany z następcą plum-v17 (C11-D6, B13-D3, B13-D4; karta-ostrzeżenie wycofanego wariantu nie zostanie opublikowana, D-043 P2): suszenie w dymie (suska sechlońska) bez procedury domowej (SUS-309), WWA (SUS-310); bez wędzenia to śliwki suszone (następca, SUS-100). Twierdzenia z raportu poza claims: SUS-100. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -28289,7 +28413,17 @@
     "SZY",
     "SLO",
     "SUS"
-   ]
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SUS-309",
+    "SUS-310"
+   ],
+   "retired": {
+    "reason": "duplikat plum-v17 bez wędzenia (C11 sekcja 9: przetestowana procedura następcy)",
+    "replacedBy": "plum-v17",
+    "decision": "2026-11-02-jaratlas-06-b13-katalog-c11"
+   }
   },
   {
    "id": "mirabelle-v01",
@@ -28621,7 +28755,7 @@
    "id": "mirabelle-v10",
    "productId": "mirabelle",
    "name": {
-    "pl": "tklapi z ałyczy"
+    "pl": "skóra owocowa z ałyczy"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 223,
@@ -28650,7 +28784,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Tklapi z ałyczy = skóra owocowa."
+    "[SUS*] Tklapi z ałyczy = skóra owocowa.",
+    "[B13] tklapi z ałyczy → skóra owocowa z ałyczy: przepis to ogólna skóra owocowa NCHFP, nie tradycyjny wyrób (karta p27: „nie tradycyjne”), status bez zmian (B13-D9); slug w site/slugi (tklapi-z-alyczy / cherry-plum-leather-tklapi) zawiera nazwę tradycyjną: do toru kart (strona nieopublikowana, zmiana bez 301) (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29293,7 +29428,7 @@
    "id": "sour-cherry-v16",
    "productId": "sour-cherry",
    "name": {
-    "pl": "kandyzowane wiśnie"
+    "pl": "wiśnie suszone po blanszowaniu w syropie"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 227,
@@ -29302,7 +29437,8 @@
    "acidBasis": "sugar-acid",
    "safetyStatus": "do-researchu",
    "claims": [
-    "SLO-069"
+    "SLO-069",
+    "SUS-321"
    ],
    "sources": [],
    "filters": {
@@ -29312,7 +29448,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B13] kandyzowane wiśnie → wiśnie suszone po blanszowaniu w syropie: minimalna poprawka nazwy (C11-D15); zostaje do-researchu, bo Clemson HGIC (SUS-321; SUS-320 robocze) to szczebel 3, a UGA So Easy to Preserve nie przeczytane (B13-D5); rodzina sweet-preserves bez zmiany do decyzji toru kart. Twierdzenia z raportu poza claims: SUS-320, SUS-102 (robocze: SUS-320). (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29719,13 +29856,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B13] zostaje do-researchu, wycofany z następcą sweet-cherry-v12 (ok-zrodlo; B13-D4): kandyzowania czereśni brak w źródłach; zmiana na czereśnie suszone = następca. Twierdzenia z raportu poza claims: SUS-321, SUS-102. (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "retired": {
+    "reason": "duplikat sweet-cherry-v12 (C11-D15: syrop tylko dla wiśni kwaśnych; czereśnie suszone)",
+    "replacedBy": "sweet-cherry-v12",
+    "decision": "2026-11-02-jaratlas-06-b13-katalog-c11"
+   }
   },
   {
    "id": "sweet-cherry-v12",
@@ -30655,7 +30798,7 @@
    "id": "apricot-v09",
    "productId": "apricot",
    "name": {
-    "pl": "syryjska skóra morelowa (qamar al-din)"
+    "pl": "skóra owocowa z moreli"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 239,
@@ -30685,7 +30828,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Qamar al-din = skóra z przecieru morelowego (zwykle z cukrem); odpowiednik skóry owocowej NCHFP."
+    "[SUS*] Qamar al-din = skóra z przecieru morelowego (zwykle z cukrem); odpowiednik skóry owocowej NCHFP.",
+    "[B13] syryjska skóra morelowa (qamar al-din) → skóra owocowa z moreli: przepis to ogólna skóra owocowa NCHFP, nie tradycyjny wyrób (karta p27: „nie tradycyjne”), status bez zmian (B13-D9); slug w site/slugi (skora-morelowa-qamar-al-din / apricot-leather-qamar-al-din) zawiera nazwę tradycyjną: do toru kart (strona nieopublikowana, zmiana bez 301) (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -30874,7 +31018,7 @@
    "id": "apricot-v14",
    "productId": "apricot",
    "name": {
-    "pl": "glazurowane morele"
+    "pl": "morele suszone po blanszowaniu w syropie"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 239,
@@ -30882,7 +31026,9 @@
    "preservationMethod": "dry-storage",
    "acidBasis": "acidified",
    "safetyStatus": "do-researchu",
-   "claims": [],
+   "claims": [
+    "SUS-322"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -30891,7 +31037,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Morele glazurowane (kandyzowane); Clemson opisuje blanszowanie w syropie przed suszeniem, ale to wyrób cukierniczy, decyduje SLO."
+    "[SUS*] Morele glazurowane (kandyzowane); Clemson opisuje blanszowanie w syropie przed suszeniem, ale to wyrób cukierniczy, decyduje SLO.",
+    "[B13] glazurowane morele → morele suszone po blanszowaniu w syropie: minimalna poprawka nazwy (C11-D15): glacé bez źródła; zostaje do-researchu, bo Clemson HGIC (SUS-322; SUS-320 robocze) to szczebel 3 (B13-D5); rodzina sweet-preserves bez zmiany do decyzji toru kart. Twierdzenia z raportu poza claims: SUS-320, SUS-093, SLO-069 (robocze: SUS-320). (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -32911,7 +33058,7 @@
    "id": "currant-v14",
    "productId": "currant",
    "name": {
-    "pl": "suszona porzeczka"
+    "pl": "suszona czarna porzeczka"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 259,
@@ -32951,7 +33098,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] CSU: „Grapes and Black Currants”; nacinanie skórki."
+    "[SUS*] CSU: „Grapes and Black Currants”; nacinanie skórki.",
+    "[B13] suszona porzeczka → suszona czarna porzeczka: zawężenie do zakresu źródła (CSU „Grapes and Black Currants”) i karty p27, status ok-zrodlo bez zmian: wymóg cytatu szczebla 1 dotyczy nowych ok-zrodlo z C11, nie zawężenia nazwy wariantu już ok-zrodlo (B13-D9) (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33774,7 +33922,7 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SUS-001",
     "SUS-011",
@@ -33807,7 +33955,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Clemson: borówki (blueberries) jako jagody twarde, nacinanie wrzątkiem 15–30 s; jagoda czarna (bilberry) jako odpowiednik."
+    "[SUS*] Clemson: borówki (blueberries) jako jagody twarde, nacinanie wrzątkiem 15–30 s; jagoda czarna (bilberry) jako odpowiednik.",
+    "[B13] ok-zrodlo → do-researchu (B13-D7, P27-P3): źródła (CSU, Clemson) opisują borówkę amerykańską; procedury suszenia czarnej jagody (V. myrtillus, cienka skórka) brak; nazwy nie zmieniam na borówkę, bo to inny gatunek (zmiana tożsamości, decyzja roli 03) (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -34307,7 +34456,8 @@
    "notes": [
     "[SUS*] Żurawina: Clemson wymienia ją wśród jagód twardych (nacinanie skórki). Słodzenie sokiem jabłkowym (infuzja) nie jest w przepisie; ocena dotyczy suszenia.",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SUS.",
-    "[p25] opcja A C7-D7: bez słodzenia sokiem jabłkowym (brak źródła); pękanie skórki wg SUS-104 (2026-11-02-jaratlas-06-karty-p25)."
+    "[p25] opcja A C7-D7: bez słodzenia sokiem jabłkowym (brak źródła); pękanie skórki wg SUS-104 (2026-11-02-jaratlas-06-karty-p25).",
+    "[B13] zakres bez zmian (backlog p27): nazwa i źródło już tylko żurawina, zgodnie z kartą p27; borówka brusznica bez procedury suszenia — osobny wariant dopiero ze źródłem (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -35145,7 +35295,7 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SUS-041",
     "SUS-001",
@@ -35167,7 +35317,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] OSU: owoce bzu można suszyć na surowo, ale przed spożyciem zawsze gotować (cyjanogenne glikozydy). Karta musi to podać."
+    "[SUS*] OSU: owoce bzu można suszyć na surowo, ale przed spożyciem zawsze gotować (cyjanogenne glikozydy). Karta musi to podać.",
+    "[B13] ok-zrodlo → do-researchu z obowiązkowym ostrzeżeniem SUS-041 (B13-D7, P27-P2): przepis OSU (szczebel 3) jest, ale brak źródła o rozpoznaniu czarnego bzu i odróżnieniu od hebdu (Sambucus ebulus); owoce przed jedzeniem trzeba ugotować (SUS-041) (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -38254,7 +38405,7 @@
    "id": "mango-papaya-v10",
    "productId": "mango-papaya",
    "name": {
-    "pl": "indyjskie aam papad (skóra owocowa z mango)"
+    "pl": "skóra owocowa z mango"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 315,
@@ -38283,7 +38434,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Aam papad = skóra z mango; przepis NCHFP Mango Leather (140°F, ok. 10 h). Tradycyjne suszenie na słońcu poza przepisem."
+    "[SUS*] Aam papad = skóra z mango; przepis NCHFP Mango Leather (140°F, ok. 10 h). Tradycyjne suszenie na słońcu poza przepisem.",
+    "[B13] indyjskie aam papad (skóra owocowa z mango) → skóra owocowa z mango: przepis NCHFP Mango Leather, bez papai i bez nazwy tradycyjnej aam papad (karta p27), status bez zmian (B13-D9); slug w site/slugi (skora-z-mango-aam-papad / mango-leather-aam-papad) do toru kart (2026-11-02-jaratlas-06-b13-katalog-c11)."
    ],
    "scope": "in",
    "publication": "ukryta",
