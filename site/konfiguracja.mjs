@@ -3,6 +3,8 @@
 export const JEZYKI = ['bg', 'cs', 'da', 'de', 'el', 'en', 'es', 'es-419', 'et', 'fi', 'fr', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'ms', 'nb', 'nl', 'pl', 'pt', 'pt-BR', 'ro', 'ru', 'sk', 'sl', 'sr', 'sv', 'tr', 'uk', 'vi', 'zh-Hant'];
 // Fala 1 (przekazanie §4). Generator buduje każdy język, który ma slugi i treść; lista służy raportom.
 export const FALA_1 = ['en', 'fr', 'es', 'de', 'it', 'pl'];
+// Język bazowy (decyzja właściciela 2026-11-02-jaratlas-en-baza): cel hreflang x-default (ADR 0004).
+export const JEZYK_BAZOWY = 'en';
 // Pisma niełacińskie: slug w swoim piśmie (ADR 0002).
 export const PISMA_NIELACINSKIE = ['bg', 'el', 'ja', 'ko', 'ru', 'sr', 'uk', 'zh-Hant'];
 // Domena: kupiona 2026-11-01 (Porkbun, ważna do 2027-11-01). Bez końcowego ukośnika.
