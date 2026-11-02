@@ -68,7 +68,7 @@ Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsucie
 
 Tabela NCHFP podaje czas tylko dla słoików 1/2 pinty. [T:SLO-038,SLO-241]
 
-Reguła JarAtlas (ostrożna, NCHFP nie bada słoików metrycznych): słoik 1/2 pinty (1 szklanka) mieści ok. 236,6 ml, więc słoik 0,25 l albo 0,3 l nie ma przetestowanego czasu; użyj słoików do 236 ml (zaokrąglone w dół), np. 0,2 l. [T:SLO-241]
+Reguła JarAtlas (ostrożna, NCHFP nie bada słoików metrycznych): słoik 1/2 pinty (1 szklanka amerykańska, cup) mieści ok. 236,6 ml, więc słoik 0,25 l albo 0,3 l nie ma przetestowanego czasu; użyj słoików do 236 ml (zaokrąglone w dół), np. 0,2 l. [T:SLO-241]
 
 ## Studzenie i przechowywanie
 
