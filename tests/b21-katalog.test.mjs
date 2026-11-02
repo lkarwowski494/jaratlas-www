@@ -14,6 +14,8 @@ const b19 = zr("B19-research-2026-11-02"), b20 = zr("B20-research-2026-11-02"), 
 const V = new Map(cat.variants.map((v) => [v.id, v]));
 // B25 (2026-11-02-jaratlas-b25-katalog): warianty zmienione w porcji B25 (notatka [B25]) sprawdza tests/b25-katalog.test.mjs.
 const B25 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith("[B25]"))).map((v) => v.id));
+// B27 (2026-11-02-jaratlas-b27-katalog): warianty z notatką [B27] sprawdza tests/b27-katalog.test.mjs.
+const B27 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith("[B27]"))).map((v) => v.id));
 const R = new Map(rej.map((t) => [t.id, t]));
 const DEC = "2026-11-02-jaratlas-b21-katalog";
 const h = (x) => createHash("sha256").update(JSON.stringify(x)).digest("hex").slice(0, 12);
@@ -42,7 +44,7 @@ const SNAP = {"cornelian-cherry-v07": "49e36175035c", "red-savoy-cabbage-v03": "
 const PRZED = {"cornelian-cherry-v07": "do-researchu", "red-savoy-cabbage-v03": "do-researchu", "currant-v09": "do-researchu", "cranberry-lingonberry-v12": "do-researchu", "tomatillo-v07": "do-researchu", "eggplant-v04": "do-researchu", "watermelon-melon-v07": "do-researchu", "garden-herbs-v13": "do-researchu", "wild-mushrooms-v10": "do-researchu", "quince-v06": "do-researchu", "lemon-v08": "do-researchu", "lime-bergamot-v10": "do-researchu", "orange-kumquat-v12": "do-researchu", "tomatillo-v08": "do-researchu", "green-cherry-tomato-v08": "do-researchu", "green-cherry-tomato-v09": "do-researchu", "rosehip-rowan-v09": "do-researchu", "mirabelle-v08": "do-researchu", "strawberry-v13": "do-researchu", "currant-v07": "do-researchu", "lime-bergamot-v07": "do-researchu", "white-cabbage-v10": "do-researchu", "red-savoy-cabbage-v08": "do-researchu", "red-savoy-cabbage-v10": "do-researchu", "cauliflower-v06": "do-researchu", "broccoli-v04": "do-researchu", "broccoli-v05": "do-researchu", "broccoli-v09": "do-researchu", "zucchini-v02": "do-researchu", "zucchini-v04": "do-researchu", "zucchini-v07": "do-researchu", "zucchini-v09": "do-researchu", "pattypan-squash-v02": "do-researchu", "pattypan-squash-v03": "do-researchu", "pattypan-squash-v04": "do-researchu", "leafy-greens-v03": "do-researchu", "vine-leaves-greens-v02": "do-researchu", "vine-leaves-greens-v04": "do-researchu", "vine-leaves-greens-v06": "do-researchu", "tomato-v07": "do-researchu", "eggplant-v03": "do-researchu", "eggplant-v06": "do-researchu", "tomatillo-v02": "do-researchu", "tomatillo-v04": "do-researchu", "tomatillo-v09": "do-researchu", "green-beans-v05": "do-researchu", "chokeberry-seabuckthorn-v12": "do-researchu", "rosehip-rowan-v11": "do-researchu", "pear-v08": "do-researchu", "orange-kumquat-v13": "do-researchu", "raspberry-blackberry-v13": "do-researchu", "cucumber-v13": "do-researchu", "cucumber-v15": "do-researchu", "cucumber-v16": "do-researchu", "white-cabbage-v12": "do-researchu", "napa-cabbage-v12": "do-researchu", "brussels-kohlrabi-v08": "do-researchu", "brussels-kohlrabi-v10": "do-researchu", "pattypan-squash-v06": "do-researchu", "orange-kumquat-v08": "do-researchu", "sour-cherry-v14": "do-researchu", "quince-v10": "do-researchu", "gooseberry-v06": "do-researchu", "sweet-cherry-v06": "do-researchu", "sweet-cherry-v09": "do-researchu", "peach-nectarine-v11": "do-researchu", "strawberry-v11": "do-researchu", "raspberry-blackberry-v11": "do-researchu", "blueberry-bilberry-v09": "do-researchu", "gooseberry-v07": "do-researchu", "grapefruit-v03": "do-researchu", "red-savoy-cabbage-v05": "do-researchu", "cauliflower-v04": "do-researchu", "cauliflower-v10": "do-researchu", "brussels-kohlrabi-v07": "do-researchu", "zucchini-v03": "do-researchu", "zucchini-v14": "do-researchu", "green-cherry-tomato-v05": "do-researchu", "green-cherry-tomato-v06": "do-researchu", "bell-pepper-v05": "do-researchu", "green-beans-v04": "do-researchu", "rosehip-rowan-v07": "ryzyko-wysokie"};
 
 test("B21: katalog 1.0.14 przechodzi walidację bez błędów", () => {
-  assert.ok(Number(cat.version.split(".")[2]) >= 14 && cat.version.startsWith("1.0."), cat.version); // B25: 1.0.15
+  assert.ok(Number(cat.version.split(".")[2]) >= 14 && cat.version.startsWith("1.0."), cat.version); // B25: 1.0.15, B27: 1.0.16
   assert.deepEqual(validateCatalog(cat, rej).errors, []);
 });
 
@@ -140,7 +142,7 @@ test("B21: poza polami z listy warianty bez cichych zmian; publication ukryta w 
   for (const [id, keys] of Object.entries(POLA)) if (!B25.has(id)) assert.equal(h(bez(V.get(id), keys)), SNAP[id], `${id}: pola poza ${keys.join(", ")} bez zmian`);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
   // D-043 P2-1: reszta katalogu (1350 wariantów spoza porcji i pola najwyższego poziomu poza version) jak w 1.0.13 (4e3dcaa).
-  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B25.has(v.id))), "3484bdfd4940", "warianty spoza B21 i B25 bez zmian (skrót na 1.0.14, 3a2c546)");
+  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B25.has(v.id) && !B27.has(v.id))), "4220749db083", "warianty spoza B21, B25 i B27 bez zmian (skrót na 1.0.14, 3a2c546)");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
 });
 
