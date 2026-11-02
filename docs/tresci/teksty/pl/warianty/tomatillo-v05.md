@@ -1,0 +1,129 @@
+# Pikantny relish z tomatillo (NCHFP Tangy Tomatillo Relish)
+
+Ta karta opisuje przepis NCHFP Tangy Tomatillo Relish: tomatillo z jicamą, cebulą, pomidorami i papryką obgotowane w solance, odsączone, gotowane 30 minut w zalewie z octu jabłkowego, cukru i przypraw, nakładane na gorąco i wekowane w kąpieli wodnej. [T:SLO-523,SLO-524,SLO-525]
+
+## Zanim zaczniesz
+
+NCHFP przy wekowaniu samych tomatillo w wodzie wymaga zakwaszenia, tak jak przy pomidorach. [T:ACI-060]
+
+W tym relishu kwas daje ocet jabłkowy (5%) w ilości podanej w przepisie. [T:SLO-523]
+
+Płatki ostrej czerwonej papryki są w przepisie opcjonalne. [T:SLO-523]
+
+Nie używaj pomidorów z obumarłych ani przemarzniętych krzaków. [T:ACI-049]
+
+## Dlaczego nie wolno zmieniać przepisu
+
+Większość mieszanin żywności niskokwasowej i kwaśnej ma pH powyżej 4,6, chyba że przepis zawiera dość soku z cytryny, kwasu cytrynowego albo octu. [T:ACI-006]
+
+W całym produkcie musi być minimalny, równomierny poziom kwasu, żeby nie rozwinęły się bakterie jadu kiełbasianego. [T:ACI-017]
+
+Nie zmieniaj proporcji octu, warzyw i wody i nie używaj octu o nieznanej kwasowości; korzystaj tylko z przepisów o przetestowanych proporcjach. [T:ACI-016]
+
+Do pikli zalecany jest biały ocet destylowany i ocet jabłkowy o kwasowości 5%. [T:ACI-018]
+
+Penn State Extension zaleca do domowych przetworów ocet o kwasowości 5–7% i odradza rozcieńczanie octu wodą, chyba że przebadany przepis wyraźnie to nakazuje. [T:ACI-209,ACI-210]
+
+Reguła JarAtlas (ostrożna, dla czytelników spoza USA): używaj octu spirytusowego (białego destylowanego) albo jabłkowego z etykietą 5% albo 6%; nie używaj octu 10% i nie rozcieńczaj go wodą, żeby uzyskać 5%; dodawaj tylko tyle wody, ile podaje przepis. [T:ACI-211,ACI-018]
+
+Reguła JarAtlas (ostrożna): nie zmieniaj ilości octu ani warzyw i nie dodawaj innych warzyw; przepis jest przetestowany tylko w podanych proporcjach. [T:ACI-265]
+
+## Składniki
+
+NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
+
+Na ok. 6 lub 7 słoików pint NCHFP podaje 12 szklanek posiekanych tomatillo, 3 szklanki drobno posiekanej jicamy, 3 szklanki posiekanej cebuli i 6 szklanek posiekanych pomidorów podłużnych (typu plum). [T:SLO-523]
+
+Do tego po 1 1/2 szklanki posiekanej papryki zielonej, czerwonej i żółtej. [T:SLO-523]
+
+Do solanki: 1 szklanka soli do konserw i 2 quarty (ok. 1,9 l) wody. [T:SLO-523]
+
+Zalewa: 6 szklanek cukru i 6 1/2 szklanki octu jabłkowego (5%). [T:SLO-523]
+
+Przyprawy: 6 łyżek mieszanki przypraw do pikli w całości i opcjonalnie 1 łyżka płatków ostrej czerwonej papryki. [T:SLO-523]
+
+## Przygotowanie
+
+Umyj i opłucz 6–7 słoików pint i trzymaj je gorące do użycia; przygotuj pokrywki. [T:SLO-524]
+
+Z tomatillo zdejmij łuski, a jicamę i cebulę obierz. [T:SLO-524]
+
+Wszystkie warzywa dobrze umyj przed oczyszczeniem i krojeniem. [T:SLO-524]
+
+Sól rozpuść w wodzie i zalej nią posiekane warzywa. [T:SLO-524]
+
+Doprowadź do wrzenia i gotuj na małym ogniu 5 minut. [T:SLO-524]
+
+Dokładnie odsącz na sicie wyłożonym gazą, aż woda przestanie kapać, ok. 15–20 minut. [T:SLO-524]
+
+## Gotowanie relishu
+
+Przyprawy do pikli i opcjonalne płatki papryki zawiąż w gazie albo w woreczku na przyprawy. [T:SLO-524]
+
+Cukier, ocet i woreczek z przyprawami doprowadź w garnku do wrzenia. [T:SLO-524]
+
+Dodaj odsączone warzywa, znów doprowadź do wrzenia, zmniejsz ogień i gotuj bez przykrycia 30 minut. [T:SLO-524]
+
+Wyjmij woreczek z przyprawami. [T:SLO-524]
+
+## Wekowanie
+
+Relish nakładaj do gorących, czystych słoików pint, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:SLO-524]
+
+Usuń pęcherzyki powietrza i w razie potrzeby wyrównaj wolną przestrzeń. [T:SLO-524]
+
+Przetrzyj brzegi zwilżonym czystym ręcznikiem papierowym, załóż dwuczęściowe metalowe pokrywki i wekuj w kąpieli wodnej. [T:SLO-524,SLO-525]
+
+Na wysokości 0–1000 stóp (do 300 m) wekuj słoiki pint 15 minut. [T:SLO-525,ACI-176]
+
+Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
+
+Na wysokości 1001–6000 stóp (powyżej 300 m do 1800 m) wekuj je 20 minut. [T:SLO-526,ACI-176]
+
+Powyżej 6000 stóp (powyżej 1800 m) wekuj je 25 minut. [T:SLO-527,ACI-176]
+
+Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, a 6000 stóp to 1800 m. [T:ACI-176]
+
+Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsuciem. [T:ACI-015]
+
+Tabela NCHFP podaje czas tylko dla słoików pint. [T:SLO-525]
+
+Reguła JarAtlas (NCHFP nie testuje słoików metrycznych): pinta to ok. 473 ml, więc słoik 0,5 l nie ma w tym przepisie przetestowanego czasu; używaj słoików do 473 ml. [T:ACI-179,ACI-174]
+
+## Studzenie i przechowywanie
+
+Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek ani metalowych pierścieni; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
+
+Słoiki studź w temperaturze pokojowej 12–24 godziny, potem odkręć i zdejmij tylko metalowe pierścienie dwuczęściowych pokrywek, a płaskie pokrywki zostaw na słoikach, i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
+
+NCHFP uznaje słoiki do wekowania typu Mason z samouszczelniającymi się dwuczęściowymi pokrywkami (płaska pokrywka i zakręcany pierścień) za najlepszy wybór i na nich opiera się ten test oraz metoda z tej karty; innych słoików po produktach ze sklepu, których otworu nie da się zamknąć dwuczęściowymi pokrywkami, NCHFP nie zaleca do domowego wekowania żadnej żywności. [T:SLO-223,SLO-212]
+
+Reguła JarAtlas (ostrożna): korzystaj z tej karty tylko ze słoikami zamykanymi dwuczęściowymi pokrywkami; karta nie podaje metody dla słoików twist-off ani ze szklanymi pokrywkami, więc nie używaj ich do tego przepisu. [T:SLO-223]
+
+Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
+
+Słoik, który przy tym sprawdzeniu okazał się niezamknięty, trzymaj w lodówce i zjedz w ciągu kilku dni. [T:SLO-197]
+
+Zamknięte słoiki przechowuj w czystym, chłodnym, ciemnym i suchym miejscu, nie powyżej 95 °F (35 °C) i nie przy gorących rurach, kuchence czy piecu, na nieocieplonym strychu ani w pełnym słońcu; w takich warunkach przetwór może się zepsuć. [T:SLO-198]
+
+## Kiedy wyrzucić
+
+Zanim użyjesz słoika z zapasów, sprawdź, czy pokrywka jest szczelna i trzyma podciśnienie: dobrze zamknięta ma wklęsły środek. [T:SLO-191]
+
+Sprawdź, czy od góry słoika nie biegną zaschnięte zacieki, czy w środku nie unoszą się pęcherzyki powietrza i czy kolor nie jest nienaturalny. [T:SLO-191]
+
+Przy otwieraniu sprawdź, czy nie ma nienaturalnego zapachu, tryskającego płynu i pleśni przypominającej watę na jedzeniu albo pod pokrywką. [T:SLO-191]
+
+Nie próbuj jedzenia ze słoika z niezamkniętą pokrywką ani z oznakami zepsucia. [T:SLO-190]
+
+Reguła JarAtlas (ostrożna): taki słoik wyrzuć. [T:SLO-190]
+
+NCHFP ostrzega, że zepsute produkty o niskiej kwasowości, w tym pomidory, mogą mieć inne oznaki zepsucia albo prawie żadnych, dlatego każdy podejrzany słoik z takim produktem trzeba traktować tak, jakby powstała w nim toksyna botulinowa, i obchodzić się z nim ostrożnie. [T:SLO-350]
+
+Reguła JarAtlas (ostrożna): tak postępuj z każdym podejrzanym słoikiem z tej karty, bo jej główny składnik ma niską kwasowość albo jest blisko granicy kwasowości. [T:SLO-350]
+
+Jeśli podejrzany słoik jest nadal zamknięty, włóż go do grubego worka na śmieci, zamknij worek i wyrzuć go do zwykłego pojemnika na odpady. [T:SLO-350]
+
+Jeśli jest niezamknięty, otwarty albo cieknie, NCHFP zaleca przed wyrzuceniem go odkazić; JarAtlas nie powtarza tu tej procedury, więc postępuj według kroków odkażania i sprzątania ze strony NCHFP „Identifying and Handling Spoiled Canned Food” (nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/) i unikaj kontaktu z podejrzanym jedzeniem albo płynem. [T:SLO-350]
+
+Kontakt z toksyną botulinową może być śmiertelny, gdy zostanie połknięta albo dostanie się przez jakiekolwiek otwory w skórze, dlatego przy podejrzanych słoikach i sprzątaniu noś rękawice gumowe albo z grubego plastiku. [T:SLO-350]

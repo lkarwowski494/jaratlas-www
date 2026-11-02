@@ -1,0 +1,109 @@
+# Gruszki w occie korzennym z goździkami i cynamonem (NCHFP)
+
+Ta karta opisuje przepis NCHFP na marynowane gruszki (pear pickles): obrane gruszki do marynowania gotowane w syropie z octu i cukru z cynamonem, goździkami i zielem angielskim, nakładane na gorąco i wekowane w kąpieli wodnej. [T:SLO-634,SLO-637,SLO-638]
+
+## Jakie gruszki
+
+Przepis używa gruszek Seckel albo innych gruszek do marynowania; duże gruszki przekrój na połówki albo ćwiartki. [T:SLO-634,SLO-636]
+
+NCHFP uznaje gruszki azjatyckie za graniczne pod względem kwasowości i podaje dla nich osobną procedurę zakwaszania; ten przepis ich nie wymienia, więc karta nie obejmuje gruszek azjatyckich (nashi). [T:ACI-064]
+
+Oprócz goździków i cynamonu przepis zawiera też ziele angielskie. [T:SLO-634]
+
+## Dlaczego nie wolno zmieniać przepisu
+
+W całym produkcie musi być minimalny, równomierny poziom kwasu, żeby nie rozwinęły się bakterie jadu kiełbasianego. [T:ACI-017]
+
+Nie zmieniaj proporcji octu, owoców i wody i nie używaj octu o nieznanej kwasowości; korzystaj tylko z przepisów o przetestowanych proporcjach. [T:ACI-016]
+
+Reguła JarAtlas (ostrożna): nie zmieniaj ilości octu, wody ani gruszek i nie dodawaj innych warzyw; przepis jest przetestowany tylko w podanych proporcjach. [T:ACI-265]
+
+Do pikli zalecany jest biały ocet destylowany i ocet jabłkowy o kwasowości 5%. [T:ACI-018]
+
+Penn State Extension zaleca do domowych przetworów ocet o kwasowości 5–7% i odradza rozcieńczanie octu wodą, chyba że przebadany przepis wyraźnie to nakazuje. [T:ACI-209,ACI-210]
+
+Reguła JarAtlas (ostrożna, dla czytelników spoza USA): używaj octu, który podaje przepis, czyli octu spirytusowego (białego destylowanego), z etykietą 5% albo 6%; nie używaj octu 10% i nie rozcieńczaj go wodą, żeby uzyskać 5%; dodawaj tylko tyle wody, ile podaje przepis. [T:ACI-211,ACI-018]
+
+## Składniki
+
+NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
+
+Na ok. 7–8 słoików pint NCHFP podaje 8 szklanek (2 quarty) cukru, 4 szklanki (1 quart) białego octu (5%), 2 szklanki (1 pinta) wody i 8 funtów (ok. 3,6 kg; 4–5 quart) gruszek Seckel albo innych gruszek do marynowania. [T:SLO-634]
+
+Przyprawy: 8 lasek cynamonu w kawałkach długości 2 cali (ok. 5,1 cm), 2 łyżki całych goździków i 2 łyżki całego ziela angielskiego. [T:SLO-634]
+
+## Przygotowanie syropu
+
+Połącz cukier, ocet, wodę i laski cynamonu i dodaj goździki i ziele angielskie zawiązane w czystą, cienką, białą ściereczkę. [T:SLO-635]
+
+Doprowadź do wrzenia i gotuj pod przykryciem na małym ogniu ok. 30 minut. [T:SLO-635]
+
+## Przygotowanie gruszek
+
+Umyj gruszki, obierz je i usuń cały koniec kielichowy; szypułki możesz zostawić. [T:SLO-636]
+
+Duże gruszki przekrój na połówki albo ćwiartki. [T:SLO-636]
+
+Żeby obrane gruszki nie ciemniały, od razu po obraniu włóż je do zimnego roztworu 1/2 łyżeczki kwasu askorbinowego na 2 quarty (ok. 1,9 l) wody. [T:SLO-636]
+
+Odsącz je tuż przed użyciem. [T:SLO-636]
+
+## Gotowanie i napełnianie
+
+Odsączone gruszki włóż do gorącego syropu, doprowadź do wrzenia, potem zmniejsz ogień i gotuj na małym ogniu jeszcze 20–25 minut. [T:SLO-637]
+
+Gorące gruszki nałóż do gorących słoików pint i do każdego słoika dodaj jeden kawałek laski cynamonu długości 2 cali (ok. 5,1 cm). [T:SLO-637]
+
+Zalej gruszki wrzącym syropem, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; syrop musi przykrywać gruszki. [T:SLO-637]
+
+Usuń pęcherzyki powietrza i w razie potrzeby wyrównaj wolną przestrzeń. [T:SLO-637]
+
+Przetrzyj brzegi zwilżonym czystym ręcznikiem papierowym, załóż dwuczęściowe metalowe pokrywki i wekuj. [T:SLO-637]
+
+## Wekowanie
+
+Na wysokości 0–1000 stóp (do 300 m) wekuj słoiki pint w kąpieli wodnej 20 minut. [T:SLO-638,ACI-176]
+
+Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
+
+Na wysokości 1001–3000 stóp (powyżej 300 m do 900 m) wekuj je 25 minut. [T:SLO-639,ACI-176]
+
+Na wysokości 3001–6000 stóp (powyżej 900 m do 1800 m) wekuj je 30 minut. [T:SLO-640,ACI-176]
+
+Powyżej 6000 stóp (powyżej 1800 m) wekuj je 35 minut. [T:SLO-641,ACI-176]
+
+Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, 3000 stóp to 900 m, a 6000 stóp to 1800 m. [T:ACI-176]
+
+Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsuciem. [T:ACI-015]
+
+Tabela NCHFP podaje czasy tylko dla słoików pint. [T:SLO-638]
+
+Reguła JarAtlas (NCHFP nie testuje słoików metrycznych): pinta to ok. 473 ml, więc słoik 0,5 l nie ma w tym przepisie przetestowanego czasu; używaj słoików do 473 ml. [T:ACI-179,ACI-174]
+
+## Studzenie i przechowywanie
+
+Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek ani metalowych pierścieni; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
+
+Słoiki studź w temperaturze pokojowej 12–24 godziny, potem odkręć i zdejmij tylko metalowe pierścienie dwuczęściowych pokrywek, a płaskie pokrywki zostaw na słoikach, i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
+
+NCHFP uznaje słoiki do wekowania typu Mason z samouszczelniającymi się dwuczęściowymi pokrywkami (płaska pokrywka i zakręcany pierścień) za najlepszy wybór i na nich opiera się ten test oraz metoda z tej karty; innych słoików po produktach ze sklepu, których otworu nie da się zamknąć dwuczęściowymi pokrywkami, NCHFP nie zaleca do domowego wekowania żadnej żywności. [T:SLO-223,SLO-212]
+
+Reguła JarAtlas (ostrożna): korzystaj z tej karty tylko ze słoikami zamykanymi dwuczęściowymi pokrywkami; karta nie podaje metody dla słoików twist-off ani ze szklanymi pokrywkami, więc nie używaj ich do tego przepisu. [T:SLO-223]
+
+Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
+
+Słoik, który przy tym sprawdzeniu okazał się niezamknięty, trzymaj w lodówce i zjedz w ciągu kilku dni. [T:SLO-197]
+
+Zamknięte słoiki przechowuj w czystym, chłodnym, ciemnym i suchym miejscu, nie powyżej 95 °F (35 °C) i nie przy gorących rurach, kuchence czy piecu, na nieocieplonym strychu ani w pełnym słońcu; w takich warunkach przetwór może się zepsuć. [T:SLO-198]
+
+## Kiedy wyrzucić
+
+Zanim użyjesz słoika z zapasów, sprawdź, czy pokrywka jest szczelna i trzyma podciśnienie: dobrze zamknięta ma wklęsły środek. [T:SLO-191]
+
+Sprawdź, czy od góry słoika nie biegną zaschnięte zacieki, czy w środku nie unoszą się pęcherzyki powietrza i czy kolor nie jest nienaturalny. [T:SLO-191]
+
+Przy otwieraniu sprawdź, czy nie ma nienaturalnego zapachu, tryskającego płynu i pleśni przypominającej watę na jedzeniu albo pod pokrywką. [T:SLO-191]
+
+Nie próbuj jedzenia ze słoika z niezamkniętą pokrywką ani z oznakami zepsucia. [T:SLO-190]
+
+Reguła JarAtlas (ostrożna): taki słoik wyrzuć. [T:SLO-190]

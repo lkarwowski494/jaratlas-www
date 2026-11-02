@@ -1,0 +1,97 @@
+# Canned pineapple in syrup (NCHFP)
+
+This card describes the NCHFP method for canning pineapple in syrup, water or juice in a boiling-water bath. [T:SLO-101,SLO-310]
+
+## Which fruit
+
+This card covers pineapple only; it does not describe bananas or a mix of pineapple and banana. [T:SLO-101]
+
+Do not add bananas: the NCHFP Pineapple recipe does not cover them, and NCHFP has no home canning recommendations for banana purée. [T:SLO-101,SLO-054]
+
+The US FDA list gives the pH of pineapple as 3.20–4.00, which is within the limit for acid foods: a natural pH of 4.6 or lower. [T:ACI-153,ACI-001]
+
+## Preparing
+
+Choose firm, ripe pineapples. [T:SLO-310]
+
+Wash the pineapple, peel it, remove the eyes and tough fiber, then slice or cube it. [T:SLO-310]
+
+You can pack the pineapple in water, apple juice, white grape juice, or very light, light or medium syrup. [T:SLO-310]
+
+Syrup helps keep the flavor, color and shape of the fruit, but it does not prevent spoilage. [T:ACI-067]
+
+NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
+
+For a very light syrup (about 10% sugar) NCHFP uses 6 1/2 cups of water and 3/4 cup of sugar for a load of 9 pint jars, or 10 1/2 cups of water and 1 1/4 cups of sugar for 7 quart jars. [T:ACI-192]
+
+## Packing
+
+NCHFP gives only a hot pack for pineapple. [T:SLO-311]
+
+In a large saucepan, add the pineapple to the syrup, water or juice and simmer for 10 minutes. [T:SLO-311]
+
+Fill the jars with the hot pieces and cooking liquid, leaving 1/2 inch (about 1.3 cm) of headspace. [T:SLO-311]
+
+Put on the lids and process. [T:SLO-311]
+
+## Processing
+
+At 0–1000 ft (up to 300 m) process pints for 15 minutes and quarts for 20. [T:ACI-076,ACI-176]
+
+Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
+
+At 1001–3000 ft (above 300 m up to 900 m): pints 20 minutes and quarts 25. [T:SLO-312,ACI-176]
+
+At 3001–6000 ft (above 900 m up to 1800 m): pints 20 minutes and quarts 30. [T:SLO-313,ACI-176]
+
+Above 6000 ft (above 1800 m): pints 25 minutes and quarts 35. [T:SLO-314,ACI-176]
+
+The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m, 3000 ft becomes 900 m and 6000 ft becomes 1800 m. [T:ACI-176]
+
+Shortening the time or cooling jars in cold water can also lead to spoilage. [T:ACI-015]
+
+NCHFP times are for US jar sizes: a pint holds about 473 ml and a quart about 946 ml. [T:ACI-174]
+
+JarAtlas rule (NCHFP does not test metric jars): for a jar of up to 473 ml use the pint time, and for a larger jar of up to 946 ml, for example 0.5 l or 0.9 l, use the quart time. [T:ACI-175]
+
+This NCHFP recipe gives no time for jars larger than a quart, such as 1 l, so JarAtlas recommends smaller jars. [T:ACI-175]
+
+## Cooling and storing
+
+When you take the hot jars out of the canner, do not retighten the lids or bands; this can cut through the gasket and cause seal failures. [T:SLO-210]
+
+If any jar loses a lot of liquid during processing, do not open it to add more. [T:SLO-210]
+
+Cool the jars at room temperature for 12 to 24 hours, then remove only the screw bands (the metal rings of two-piece lids), leaving the flat lids on the jars, and test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196,SLO-212]
+
+NCHFP calls Mason-type canning jars with self-sealing two-piece lids (a flat lid and a screw band) the best choice, and this seal test and the method on this card assume them; NCHFP does not recommend other commercial jars whose mouths cannot be sealed with two-piece canning lids for canning any food at home. [T:SLO-223,SLO-212]
+
+JarAtlas rule (cautious): use this card only with jars that take two-piece canning lids; it gives no method for twist-off jars or jars with glass lids, so do not use them for this recipe. [T:SLO-223]
+
+A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
+
+If a jar has not sealed at this check, keep it in the refrigerator and eat it within several days. [T:SLO-197]
+
+Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) and not near hot pipes, a stove or a furnace, in an uninsulated attic or in direct sunlight; in such conditions the food may spoil. [T:SLO-198]
+
+## When to throw it out
+
+Before using a stored jar, check that the lid is tight and holds a vacuum: a good seal has a concave centre. [T:SLO-191]
+
+Look for streaks of dried food running from the top of the jar, rising air bubbles and unnatural colour. [T:SLO-191]
+
+When opening the jar, check for an unnatural smell, spurting liquid and cotton-like mould on the food or under the lid. [T:SLO-191]
+
+Do not taste food from a jar with an unsealed lid or with signs of spoilage. [T:SLO-190]
+
+JarAtlas rule (cautious): throw out such a jar. [T:SLO-190]
+
+NCHFP warns that spoiled low-acid foods, including tomatoes, may show different signs of spoilage or very few, so every suspect jar of such food should be treated as if it had produced botulinum toxin and handled carefully. [T:SLO-350]
+
+JarAtlas rule (cautious): handle every suspect jar from this card this way. [T:SLO-350]
+
+If a suspect jar is still sealed, put it in a heavy garbage bag, close the bag and put it in a regular trash container. [T:SLO-350]
+
+JarAtlas rule (cautious): handle every suspect jar from this card this way. [T:SLO-350]
+
+Contact with botulinum toxin can be fatal if it is swallowed or enters through any openings in the skin, so wear rubber or heavy plastic gloves when handling suspect jars and cleaning up. [T:SLO-350]

@@ -1,0 +1,113 @@
+# Pear relish without mustard (NCHFP Pear Relish)
+
+This card describes the NCHFP Pear Relish recipe: ground pears with onions, peppers and celery, left overnight with sugar, allspice, salt and vinegar, briefly simmered, hot packed and processed in a boiling-water bath. [T:SLO-516,SLO-517,SLO-519]
+
+## What this card covers
+
+Not for Asian pears: NCHFP says all home-canned Asian pears must be acidified before boiling-water canning (1 tablespoon of bottled lemon juice per pint jar, 2 per quart jar) and has a separate recipe for them; this card does not cover them. [T:ACI-063]
+
+The NCHFP Pear Relish recipe contains no mustard and no hot pepper; apart from sugar, salt and vinegar its only spice is allspice. [T:SLO-518]
+
+JarAtlas rule (cautious): JarAtlas has no tested source for a pear relish with mustard, so this card describes the recipe without it; do not add mustard. [T:SLO-518]
+
+## Why you must not change the recipe
+
+Most mixtures of low-acid and acid foods have a pH above 4.6 unless the recipe contains enough lemon juice, citric acid or vinegar. [T:ACI-006]
+
+The whole product must contain a minimum, uniform level of acid so that botulism bacteria cannot grow. [T:ACI-017]
+
+Do not change the proportions of vinegar, vegetables and water and do not use vinegar of unknown acidity; use only recipes with tested proportions. [T:ACI-016]
+
+White distilled vinegar and cider vinegar of 5% acidity are recommended for pickles. [T:ACI-018]
+
+Penn State Extension advises vinegar of 5–7% acidity for home food preservation and advises against diluting vinegar with water unless a research-tested recipe says so. [T:ACI-209,ACI-210]
+
+JarAtlas rule (cautious, for readers outside the USA): use white distilled (spirit) vinegar or cider vinegar labelled 5% or 6% acidity; do not use 10% vinegar and do not dilute it with water to make 5% vinegar; add only the water the recipe lists. [T:ACI-211,ACI-018]
+
+JarAtlas rule (cautious): do not change the amount of vinegar, pears or vegetables and do not add other vegetables; the recipe is tested only in the proportions given. [T:ACI-265]
+
+## Ingredients
+
+NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
+
+For about 10 pint jars NCHFP lists 2 gallons (about 7.6 l) of pears, 6 large onions, 6 each of sweet green and red peppers and 1 bunch of celery. [T:SLO-516]
+
+A US gallon is 3.785 l. [T:SLO-516]
+
+For marinating: 3 cups of sugar, 1 tablespoon of allspice, 1 tablespoon of salt and 5 cups of vinegar (5%). [T:SLO-516]
+
+## Preparing
+
+Wash the pears, onions, peppers and celery in cold water. [T:SLO-517]
+
+Peel and core the pears, remove the stems and seeds from the peppers, clean the celery and peel the onions. [T:SLO-517]
+
+Put the pears and vegetables through a food chopper. [T:SLO-517]
+
+Stir in the sugar, allspice, salt and vinegar and let the mixture stand, covered, overnight in the refrigerator. [T:SLO-517]
+
+## Processing
+
+Heat the relish to boiling and simmer for 5 minutes. [T:SLO-517]
+
+Pack the hot relish into hot pint jars, leaving 1/2 inch (about 1.3 cm) of headspace. [T:SLO-517]
+
+Remove air bubbles and adjust the headspace if needed. [T:SLO-517]
+
+Wipe the jar rims with a dampened clean paper towel, adjust two-piece metal canning lids and process in a boiling-water bath. [T:SLO-517,SLO-519]
+
+At 0–1000 ft (up to 300 m) process pint jars for 20 minutes. [T:SLO-519,ACI-176]
+
+Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
+
+At 1001–3000 ft (above 300 m up to 900 m) process them for 25 minutes. [T:SLO-520,ACI-176]
+
+At 3001–6000 ft (above 900 m up to 1800 m) process them for 30 minutes. [T:SLO-521,ACI-176]
+
+Above 6000 ft (above 1800 m) process them for 35 minutes. [T:SLO-522,ACI-176]
+
+The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m, 3000 ft becomes 900 m and 6000 ft becomes 1800 m. [T:ACI-176]
+
+Shortening the time or cooling jars in cold water can also lead to spoilage. [T:ACI-015]
+
+The NCHFP table gives a time only for pint jars. [T:SLO-519]
+
+JarAtlas rule (NCHFP does not test metric jars): a pint holds about 473 ml, so a 0.5 l jar has no tested time in this recipe; use jars of up to 473 ml. [T:ACI-179,ACI-174]
+
+## Cooling and storing
+
+When you take the hot jars out of the canner, do not retighten the lids or bands; this can cut through the gasket and cause seal failures. [T:SLO-210]
+
+Cool the jars at room temperature for 12 to 24 hours, then remove only the screw bands (the metal rings of two-piece lids), leaving the flat lids on the jars, and test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196,SLO-212]
+
+NCHFP calls Mason-type canning jars with self-sealing two-piece lids (a flat lid and a screw band) the best choice, and this seal test and the method on this card assume them; NCHFP does not recommend other commercial jars whose mouths cannot be sealed with two-piece canning lids for canning any food at home. [T:SLO-223,SLO-212]
+
+JarAtlas rule (cautious): use this card only with jars that take two-piece canning lids; it gives no method for twist-off jars or jars with glass lids, so do not use them for this recipe. [T:SLO-223]
+
+A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
+
+If a jar has not sealed at this check, keep it in the refrigerator and eat it within several days. [T:SLO-197]
+
+Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) and not near hot pipes, a stove or a furnace, in an uninsulated attic or in direct sunlight; in such conditions the food may spoil. [T:SLO-198]
+
+## When to throw it out
+
+Before using a stored jar, check that the lid is tight and holds a vacuum: a good seal has a concave centre. [T:SLO-191]
+
+Look for streaks of dried food running from the top of the jar, rising air bubbles and unnatural colour. [T:SLO-191]
+
+When opening the jar, check for an unnatural smell, spurting liquid and cotton-like mould on the food or under the lid. [T:SLO-191]
+
+Do not taste food from a jar with an unsealed lid or with signs of spoilage. [T:SLO-190]
+
+JarAtlas rule (cautious): throw out such a jar. [T:SLO-190]
+
+NCHFP warns that spoiled low-acid foods, including tomatoes, may show different signs of spoilage or very few, so every suspect jar of such food should be treated as if it had produced botulinum toxin and handled carefully. [T:SLO-350]
+
+JarAtlas rule (cautious): handle every suspect jar from this card this way, because the relish combines pears with vegetables (onions, peppers and celery), and without enough vinegar such a mixture would be low in acid. [T:SLO-350,ACI-006]
+
+If a suspect jar is still sealed, put it in a heavy garbage bag, close the bag and put it in a regular trash container. [T:SLO-350]
+
+If it is unsealed, open or leaking, NCHFP says it should be detoxified before disposal; JarAtlas does not repeat that procedure here, so follow the detoxification and clean-up steps on the NCHFP page “Identifying and Handling Spoiled Canned Food” (nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/) and avoid contact with suspect food or liquid. [T:SLO-350]
+
+Contact with botulinum toxin can be fatal if it is swallowed or enters through any openings in the skin, so wear rubber or heavy plastic gloves when handling suspect jars and cleaning up. [T:SLO-350]

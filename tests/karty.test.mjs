@@ -128,6 +128,16 @@ export const ZAMIENNIKI_MROZENIA = {
   'garlic-v09': { 'SLO-250': 'OLE-051', 'SUS-058': 'OLE-003' }, // p28: czosnek konfitowany w oliwie = czosnek w oleju (OLE-001, OLE-029); jak garlic-v17
   'garlic-v10': { 'SLO-250': 'OLE-051', 'SUS-058': 'OLE-003' }, // p28: pieczony czosnek w oleju (OLE-006); jak garlic-v17
   'garden-herbs-v16': { 'SUS-058': null }, // NCHFP nie podaje czasu dla pesto; czasu owoców i warzyw nie przenosimy (p24)
+  // p29: pasty z innych zielenin, ziół i warzyw z olejem według reguły SLO-721 (jak pesto garden-herbs-v16): źródła nie podają czasu w zamrażarce
+  'leafy-greens-v08': { 'SUS-058': null },
+  'leafy-greens-v09': { 'SUS-058': null },
+  'radish-v10': { 'SUS-058': null },
+  'parsnip-parsley-v06': { 'SUS-058': null },
+  'asparagus-v09': { 'SUS-058': null },
+  'capers-v07': { 'SUS-058': null },
+  'garden-herbs-v02': { 'SUS-058': null },
+  'garden-herbs-v03': { 'SUS-058': null },
+  'garden-herbs-v04': { 'SUS-058': null },
   'lemon-v17': { 'SLO-250': 'SLO-307', 'SLO-251': 'SLO-307', 'SLO-258': 'SLO-308', 'SUS-058': 'SLO-308' }, // przepis NCHFP: pojemniki do zamrażarki z wolną przestrzenią (SLO-307), rozmrażanie 24 h w lodówce, 1 rok (SLO-308); P3-1 D-043
 };
 export function brakiBlokuMrozenia(lista = wszystkie, zamienniki = ZAMIENNIKI_MROZENIA) {
