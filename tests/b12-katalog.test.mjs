@@ -137,7 +137,7 @@ test('B12: rejestr ma 23 nowe wpisy (ACI-700–705, SLO-480–493, NAP-064–065
     assert.ok(!('warianty' in t) && !('klucz_tymczasowy' in t) && !('rejestr_docelowy' in t), `${id}: bez pól roboczych C10`);
   }
   for (const v of cat.variants) for (const c of [...(v.claims ?? []), ...(v.requiredWarnings ?? [])]) assert.notEqual(R.get(c)?.status, 'robocze', `${v.id}: ${c} robocze w katalogu`);
-  assert.ok(!rej.some((t) => /^(SLO-4(7[4-9]|9[4-9])|NAP-06[7-9]|MLE-06[7-9]|ACI-70[6-9])$/.test(t.id)), 'nieużyte numery puli wolne'); // NAP-066: douchi z B13 (B13-D6, przydział koordynatora NAP-066–069)
+  assert.ok(!rej.some((t) => /^(SLO-4(7[4-9]|9[4-9])|NAP-06[7-9]|MLE-06[7-9])$/.test(t.id)), 'nieużyte numery puli wolne'); // ACI-706+ zajęte w p31 (pula od koordynatora); NAP-066: douchi z B13 (B13-D6, przydział koordynatora NAP-066–069)
 });
 
 test('B12: poprawki D-027 zachowane (czasy według wysokości, granice słów źródła)', () => {

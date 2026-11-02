@@ -136,7 +136,8 @@ test('B10: rejestr ma ACI-400–496, ACI-500–525, SLO-460–473, NAP-063 bez k
     if (t.status === 'potwierdzone') assert.equal(t.przeglad?.kto, 'weryfikacja zastępcza (subagent)', id);
   }
   // Niepotwierdzone po D-027 (robocze) nie trafiają do katalogu; wszystkie pozostałe potwierdzone.
-  const robocze = ['ACI-428', 'ACI-515', 'ACI-523', 'SLO-467', 'NAP-063'];
+  // p31: ACI-523 potwierdzone po weryfikacji zastępczej D-027 (V1 + przebieg 2, raport E3-karty-p31), użyte w kartach lodówkowych.
+  const robocze = ['ACI-428', 'ACI-515', 'SLO-467', 'NAP-063'];
   for (const id of ids) assert.equal(R.get(id).status, robocze.includes(id) ? 'robocze' : 'potwierdzone', id);
   for (const v of cat.variants) for (const c of [...(v.claims ?? []), ...(v.requiredWarnings ?? [])]) assert.ok(!robocze.includes(c), `${v.id}: ${c} robocze`);
   // Czasy wekowania przypisane do przedziałów wysokości (SPRZECZNE w 1. przebiegu D-027).

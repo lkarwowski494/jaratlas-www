@@ -17,6 +17,9 @@ export const WSPOLNE = {
   'ACI-209': ['water-bath', 'refrigerator'], // ocet 5–7% (Penn State)
   'ACI-210': ['water-bath', 'refrigerator'], // nie rozcieńczać octu
   'ACI-211': ['water-bath', 'refrigerator'], // reguła JarAtlas: ocet 5% destylowany albo jabłkowy
+  'ACI-005': ['water-bath', 'refrigerator'], // żywność niskokwasowa (pH > 4,6): uzasadnienie octu w piklach wekowanych i lodówkowych (p31)
+  'ACI-016': ['water-bath', 'refrigerator'], // nie zmieniać proporcji octu, warzyw i wody: pikle wekowane i lodówkowe (p31)
+  'ACI-017': ['water-bath', 'refrigerator'], // równomierny poziom kwasu w całym produkcie: pikle wekowane i lodówkowe (p31)
   'SLO-222': ['water-bath', 'freezer'], // wolna przestrzeń przy mrożeniu soku: karty soków z sokownika mają akapit o mrożeniu
   'OLE-029': ['water-bath', 'freezer'], // warzywa i zioła w oleju: zamrożenie najbezpieczniejsze (papryka w oleju bell-pepper-v09 i karty mrożenia garlic-v09/v10, p28)
   'SUS-035': ['dry-storage', 'brak'], // toksyny grzybów: karty suszenia grzybów (p28) i karta-ostrzeżenie kapusty z grzybami (white-cabbage-v13, metoda nieustalona)

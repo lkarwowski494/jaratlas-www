@@ -14,7 +14,7 @@ Vinegar with less than 5% acidity should never be used in home food preservation
 
 Do not change the proportions of vinegar, vegetables and water in the recipe. [T:ACI-016]
 
-Do not use vinegar stronger than the 5–7% range Penn State Extension advises for home food preservation, and do not dilute a stronger vinegar with water yourself. [T:ACI-209,ACI-210]
+Do not replace it with a stronger vinegar and do not dilute a stronger vinegar with water yourself; Penn State Extension advises staying within 5–7% acidity for home food preservation and diluting vinegar only when a tested recipe says so. [T:ACI-209,ACI-210]
 
 ## Preparing
 
@@ -34,7 +34,7 @@ These pickles are not heat processed, so they are not shelf-stable at room tempe
 
 Do not decrease the amount of vinegar, because an unsafe product may result; for a milder taste add sugar rather than reduce the vinegar. [T:ACI-501]
 
-JarAtlas rule (cautious): keep the jar on the middle shelf of the refrigerator, not in the door: US extension guidance (for example Wisconsin Extension) assumes 40 °F (4.4 °C) or colder for refrigerator pickles, while a Polish sanitary inspection office gives about 10 °C for the door, even though it suggests the door for jars of preserves. [T:ACI-523]
+JarAtlas rule (cautious): keep the jar on the middle shelf of the refrigerator, not in the door: Wisconsin Extension assumes 40 °F (4.4 °C) or colder for refrigerator pickles, while a Polish sanitary inspection office gives about 10 °C for the door, even though it suggests the door for jars of preserves. [T:ACI-523]
 
 ## Why the vinegar matters
 
