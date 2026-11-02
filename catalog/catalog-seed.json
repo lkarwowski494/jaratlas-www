@@ -1,5 +1,5 @@
 {
- "version": "1.0.5",
+ "version": "1.0.6",
  "generated": "2026-11-02",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -13465,7 +13465,7 @@
    "id": "potato-sunchoke-v12",
    "productId": "potato-sunchoke",
    "name": {
-    "pl": "suszona kostka ziemniaczana do zup"
+    "pl": "suszone słupki ziemniaczane do zup"
    },
    "groupV0": "Pasteryzacja, olej i susz",
    "lineV0": 91,
@@ -13510,7 +13510,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Ziemniaki obrane, słupki/plastry, blanszowane (CSU 7 min)."
+    "[SUS*] Ziemniaki obrane, słupki/plastry, blanszowane (CSU 7 min).",
+    "[p25] kostka → słupki (C7-D6): kostka grubsza niż wymiary źródeł (CSU słupki 1/4″ lub plastry 1/8″, SUS-117); topinambur poza wariantem (brak źródła szczebla 1–3), do-researchu (2026-11-02-jaratlas-06-karty-p25)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -14381,7 +14382,7 @@
    "id": "green-beans-v13",
    "productId": "green-beans",
    "name": {
-    "pl": "suszona w strąkach"
+    "pl": "suszona w strąkach przekrojonych wzdłuż"
    },
    "groupV0": "Pasteryzacja, olej i susz",
    "lineV0": 99,
@@ -14426,7 +14427,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Fasolka szparagowa, blanszowanie; Clemson/MSU: opcjonalne mrożenie 30–40 min po blanszowaniu."
+    "[SUS*] Fasolka szparagowa, blanszowanie; Clemson/MSU: opcjonalne mrożenie 30–40 min po blanszowaniu.",
+    "[p25] całe strąki → strąki przekrojone wzdłuż (C7-D5, PNW 651, SUS-182); blanszowanie wg CSU Table 2 (SUS-111); bez suszenia na nitce na powietrzu (2026-11-02-jaratlas-06-karty-p25)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -14446,7 +14448,7 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SUS-001",
     "SUS-014",
@@ -14478,14 +14480,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Jak fasolka szparagowa; tylko suszarka/piekarnik, bo suszenie warzyw na słońcu nie jest zalecane (tradycja chińska bywa słoneczna)."
+    "[SUS*] Jak fasolka szparagowa; tylko suszarka/piekarnik, bo suszenie warzyw na słońcu nie jest zalecane (tradycja chińska bywa słoneczna).",
+    "[p25] ok-zrodlo → do-researchu (2026-11-02-jaratlas-06-karty-p25): fasolka chińska (długostrąkowa): tabele CSU/MSU mają tylko fasolkę szparagową; B7-D5, B7-P4. Wariant ukryty, nie wchodzi do kart do czasu źródła szczebla 1–3 (trening CLAUDE.md:121)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
    ],
-   "e3": "potwierdzony"
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "peas-chickpeas-v01",
@@ -20012,7 +20015,7 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SUS-001",
     "SUS-014",
@@ -20050,14 +20053,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Tabele podają chrzan tarty, bez blanszowania, do kruchego/proszkowego; plastry zamiast tarcia: dłuższe suszenie."
+    "[SUS*] Tabele podają chrzan tarty, bez blanszowania, do kruchego/proszkowego; plastry zamiast tarcia: dłuższe suszenie.",
+    "[p25] ok-zrodlo → do-researchu (2026-11-02-jaratlas-06-karty-p25): chrzan w plastrach: CSU i MSU opisują tylko chrzan tarty (SUS-129); plastrów brak w źródłach; B7-D5. Wariant ukryty, nie wchodzi do kart do czasu źródła szczebla 1–3 (trening CLAUDE.md:121)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
    ],
-   "e3": "potwierdzony"
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "horseradish-v12",
@@ -31559,7 +31563,7 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SUS-001",
     "SUS-011",
@@ -31600,14 +31604,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Maliny jako jagody miękkie (CSU/Clemson); liście jak zioła (NCHFP)."
+    "[SUS*] Maliny jako jagody miękkie (CSU/Clemson); liście jak zioła (NCHFP).",
+    "[p25] ok-zrodlo → do-researchu (2026-11-02-jaratlas-06-karty-p25): maliny i jeżyny w całości: brak procedury, MSU (SUS-122) i PNW (SUS-184) odradzają (jakość); po S7 zmiana na skórę owocową; liście osobno (NCHFP Herbs); C7-D9. Wariant ukryty, nie wchodzi do kart do czasu źródła szczebla 1–3 (trening CLAUDE.md:121)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
    ],
-   "e3": "potwierdzony"
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "currant-v01",
@@ -33406,7 +33411,7 @@
    "id": "cranberry-lingonberry-v13",
    "productId": "cranberry-lingonberry",
    "name": {
-    "pl": "żurawina suszona słodzona sokiem jabłkowym"
+    "pl": "żurawina suszona"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 271,
@@ -33447,7 +33452,8 @@
    },
    "notes": [
     "[SUS*] Żurawina: Clemson wymienia ją wśród jagód twardych (nacinanie skórki). Słodzenie sokiem jabłkowym (infuzja) nie jest w przepisie; ocena dotyczy suszenia.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SUS."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SUS.",
+    "[p25] opcja A C7-D7: bez słodzenia sokiem jabłkowym (brak źródła); pękanie skórki wg SUS-104 (2026-11-02-jaratlas-06-karty-p25)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33795,7 +33801,7 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SUS-001",
     "SUS-011",
@@ -33821,14 +33827,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Aronia jako jagoda twarda (ogólna kategoria „Berries” CSU); brak osobnej pozycji."
+    "[SUS*] Aronia jako jagoda twarda (ogólna kategoria „Berries” CSU); brak osobnej pozycji.",
+    "[p25] ok-zrodlo → do-researchu (2026-11-02-jaratlas-06-karty-p25): aronia: brak procedury szczebla 1–3 (jedyne źródło: karta szkolna Nebraska DoE, szczebel 4); C7-D3. Wariant ukryty, nie wchodzi do kart do czasu źródła szczebla 1–3 (trening CLAUDE.md:121)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
    ],
-   "e3": "potwierdzony"
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "chokeberry-seabuckthorn-v12",
@@ -33841,7 +33848,7 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "do-researchu",
    "claims": [
     "SUS-001",
     "SUS-011",
@@ -33866,14 +33873,15 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Rokitnik w ogólnej kategorii „Berries” CSU; brak osobnej pozycji."
+    "[SUS*] Rokitnik w ogólnej kategorii „Berries” CSU; brak osobnej pozycji.",
+    "[p25] ok-zrodlo → do-researchu (2026-11-02-jaratlas-06-karty-p25): rokitnik: brak procedury szczebla 1–3 w NCHFP, CSU, MSU, Penn State, PNW 651, UMN; C7-D2. Wariant ukryty, nie wchodzi do kart do czasu źródła szczebla 1–3 (trening CLAUDE.md:121)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
    ],
-   "e3": "potwierdzony"
+   "e3": "zmieniony z ok-zrodlo"
   },
   {
    "id": "elderberry-elderflower-v01",
@@ -39249,7 +39257,8 @@
    },
    "notes": [
     "[SZY] Grzyby suszone (SUS).",
-    "[SUS*] Grzyby w plastrach wg tabel; grzyby dzikie: identyfikacja przez eksperta, toksyn nie niszczy suszenie ani gotowanie."
+    "[SUS*] Grzyby w plastrach wg tabel; grzyby dzikie: identyfikacja przez eksperta, toksyn nie niszczy suszenie ani gotowanie.",
+    "[p25] requiredWarnings + SUS-138 (tylko grzyby na pewno jadalne), SUS-142 (ocena w stacji sanitarno-epidemiologicznej, Polska) (2026-11-02-jaratlas-06-karty-p25, B7-D3)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -39258,7 +39267,9 @@
     "SUS"
    ],
    "requiredWarnings": [
-    "SUS-035"
+    "SUS-035",
+    "SUS-138",
+    "SUS-142"
    ],
    "e3": "potwierdzony"
   },
@@ -39312,7 +39323,8 @@
    },
    "notes": [
     "[SZY] Puder borowikowy (SUS).",
-    "[SUS*] Puder = zmielony susz grzybów; jak wyżej."
+    "[SUS*] Puder = zmielony susz grzybów; jak wyżej.",
+    "[p25] requiredWarnings + SUS-138 (tylko grzyby na pewno jadalne), SUS-142 (ocena w stacji sanitarno-epidemiologicznej, Polska) (2026-11-02-jaratlas-06-karty-p25, B7-D3)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -39321,7 +39333,9 @@
     "SUS"
    ],
    "requiredWarnings": [
-    "SUS-035"
+    "SUS-035",
+    "SUS-138",
+    "SUS-142"
    ],
    "e3": "potwierdzony"
   },
@@ -39894,7 +39908,8 @@
    },
    "notes": [
     "[SZY] Suszone kurki (SUS).",
-    "[SUS*] Kurki suszone wg ogólnej procedury grzybów (jakość: twardnieją); identyfikacja przez eksperta."
+    "[SUS*] Kurki suszone wg ogólnej procedury grzybów (jakość: twardnieją); identyfikacja przez eksperta.",
+    "[p25] requiredWarnings + SUS-138 (tylko grzyby na pewno jadalne), SUS-142 (ocena w stacji sanitarno-epidemiologicznej, Polska) (2026-11-02-jaratlas-06-karty-p25, B7-D3)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -39903,7 +39918,9 @@
     "SUS"
    ],
    "requiredWarnings": [
-    "SUS-035"
+    "SUS-035",
+    "SUS-138",
+    "SUS-142"
    ],
    "e3": "potwierdzony"
   },
@@ -40244,12 +40261,12 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SUS-035",
-    "SUS-036",
-    "SUS-017",
-    "SUS-022"
+    "SUS-141",
+    "SUS-142",
+    "SUS-145"
    ],
    "sources": [
     {
@@ -40282,7 +40299,8 @@
    },
    "notes": [
     "[SZY] Suszone kanie (SUS).",
-    "[SUS*] Kania: procedura ogólna dla grzybów; ryzyko pomylenia z muchomorem jest krytyczne (toksyn nie niszczy suszenie). Karta musi to wyeksponować."
+    "[SUS*] Kania: procedura ogólna dla grzybów; ryzyko pomylenia z muchomorem jest krytyczne (toksyn nie niszczy suszenie). Karta musi to wyeksponować.",
+    "[p25] ok-zrodlo → ryzyko-wysokie, karta-ostrzeżenie bez przepisu (2026-11-02-jaratlas-06-karty-p25, B7-D3): kania mylona z muchomorem sromotnikowym (SUS-141, PSSE); toksyn nie niszczy suszenie (SUS-035)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -40291,9 +40309,12 @@
     "SUS"
    ],
    "requiredWarnings": [
-    "SUS-035"
+    "SUS-035",
+    "SUS-141",
+    "SUS-142"
    ],
-   "e3": "potwierdzony"
+   "e3": "zmieniony z ok-zrodlo",
+   "cardType": "warning"
   },
   {
    "id": "wild-mushrooms-v10",

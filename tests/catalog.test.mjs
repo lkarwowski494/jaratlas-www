@@ -397,3 +397,26 @@ test('p23 (A2 otwarte): corn-v09 ma ACI-283 w requiredWarnings, a karta en/pl ma
     assert.ok(k.ostrzezenia.some((o) => o.claim === 'ACI-283'), L);
   }
 });
+
+test('p25 porcja 1 (C7, B7): suszenie — warianty bez źródła ukryte jako do-researchu, kania ryzyko-wysokie, grzyby dzikie z ostrzeżeniami', () => {
+  // Dlaczego: C7-D2/B7-D5 (bez źródła szczebla 1–3 wariant nie wchodzi do kart; trening CLAUDE.md:121) i B7-D3 (kania mylona z muchomorem sromotnikowym, SUS-141).
+  const V = new Map(JSON.parse(readFileSync('catalog/catalog-seed.json', 'utf8')).variants.map((v) => [v.id, v]));
+  for (const id of ['chokeberry-seabuckthorn-v11', 'chokeberry-seabuckthorn-v12', 'raspberry-blackberry-v15', 'horseradish-v11', 'green-beans-v14']) {
+    assert.equal(V.get(id).safetyStatus, 'do-researchu', id);
+    assert.equal(V.get(id).publication, 'ukryta', id);
+  }
+  const kania = V.get('wild-mushrooms-v09');
+  assert.equal(kania.safetyStatus, 'ryzyko-wysokie');
+  assert.equal(kania.cardType, 'warning');
+  for (const c of ['SUS-035', 'SUS-141', 'SUS-142']) assert.ok(kania.requiredWarnings.includes(c), `kania ${c}`);
+  for (const id of ['boletes-v11', 'boletes-v12', 'chanterelle-milkcap-v13']) {
+    for (const c of ['SUS-035', 'SUS-138', 'SUS-142']) assert.ok((V.get(id).requiredWarnings ?? []).includes(c), `${id} ${c}`);
+  }
+  for (const [id, n] of Object.entries({
+    'potato-sunchoke-v12': 'suszone słupki ziemniaczane do zup',
+    'green-beans-v13': 'suszona w strąkach przekrojonych wzdłuż',
+    'cranberry-lingonberry-v13': 'żurawina suszona',
+  })) assert.equal(V.get(id).name.pl, n, id);
+  assert.ok(!/topinambur|kostk/i.test(V.get('potato-sunchoke-v12').name.pl));
+  assert.ok(!/sok/i.test(V.get('cranberry-lingonberry-v13').name.pl), 'opcja A C7-D7: bez słodzenia sokiem');
+});

@@ -15835,6 +15835,160 @@
   "klaster": "SUS"
  },
  {
+  "id": "SUS-138",
+  "twierdzenie": "Suszy się tylko grzyby uprawne albo dzikie, które na pewno są jadalne; kto nie jest ekspertem w rozpoznawaniu grzybów, powinien utrwalać tylko grzyby kupione w handlu.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/catalog/sp-50-919-preserving-mushrooms",
+    "miejsce": "Oregon State Univ. Extension, SP 50-919 Preserving mushrooms; wstęp; Drying mushrooms",
+    "cytat": "Unless you are an expert in mushroom identification, it is advisable to only preserve commercially sold mushrooms. … Only dry cultivated or wild mushrooms that are safe to eat.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "690aff0e0d7c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "B7 E1-suszenie-s7-m-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Dry only cultivated or wild mushrooms that are safe to eat; unless you are an expert in mushroom identification, preserve only commercially sold mushrooms.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-141",
+  "twierdzenie": "Najczęstsze i najgroźniejsze zatrucia grzybami w Polsce powoduje muchomor sromotnikowy, mylony z jadalnymi gatunkami, takimi jak czubajka kania i gąska zielona.",
+  "zrodla": [
+   {
+    "adres": "https://www.gov.pl/web/psse-warszawa/grzyby--wybieraj-bezpiecznie",
+    "miejsce": "PSSE Warszawa, Grzyby – wybieraj bezpiecznie; akapit o zatruciach",
+    "cytat": "Najczęstsze i najbardziej niebezpieczne zatrucia spowodowane są po zjedzeniu muchomora sromotnikowego, który mylony jest z takimi grzybami jadalnymi jak: czubajka kania, gąska zielona.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "82ec8c1c4783"
+   },
+   {
+    "adres": "https://www.gov.pl/web/psse-gdansk/bezpieczne-grzybobranie---wiedza-rozwaga-i-zdrowie",
+    "miejsce": "PSSE Gdańsk, Bezpieczne grzybobranie; akapit o zatruciach",
+    "cytat": "Najgroźniejsze zatrucia są spowodowane spożyciem muchomora sromotnikowego, który bywa mylony z jadalnymi gatunkami, takimi jak kania czubajka czy gąska zielona.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "6865268bfdd2"
+   },
+   {
+    "adres": "https://www.gov.pl/web/psse-mysliborz/poznaj-grzyby-unikniesz-zatrucia---kania-czubajka-vs-muchomor-sromotnikowy",
+    "miejsce": "PSSE Myślibórz, Kania czubajka vs muchomor sromotnikowy; akapit 1",
+    "cytat": "jednym z najbardziej niebezpiecznych błędów jest mylenie kani z muchomorem sromotnikowym, który jest wyjątkowo trujący",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "981a882e90fc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "B7 E1-suszenie-s7-m-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "The most frequent and most dangerous mushroom poisonings in Poland are caused by the death cap, which is mistaken for edible species such as the parasol mushroom and the yellow knight (Tricholoma equestre).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-142",
+  "twierdzenie": "W razie wątpliwości, czy grzyby są jadalne, zanosi się je świeże, przed suszeniem, do stacji sanitarno-epidemiologicznej, gdzie grzyboznawcy lub klasyfikatorzy grzybów bezpłatnie ocenią, czy są jadalne, niejadalne czy trujące.",
+  "zrodla": [
+   {
+    "adres": "https://www.gov.pl/web/psse-warszawa/grzyby--wybieraj-bezpiecznie",
+    "miejsce": "PSSE Warszawa, Grzyby – wybieraj bezpiecznie; akapit o ocenie",
+    "cytat": "W takiej sytuacji najlepiej przynieść je do najbliższej stacji sanitarno-epidemiologicznej, w której dyżury pełnią grzyboznawcy lub klasyfikatorzy grzybów. Specjalista bezpłatnie oceni czy grzyby są jadalne, niejadalne, czy też trujące",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "82ec8c1c4783"
+   },
+   {
+    "adres": "https://www.gov.pl/web/psse-gdansk/bezpieczne-grzybobranie---wiedza-rozwaga-i-zdrowie",
+    "miejsce": "PSSE Gdańsk, Bezpieczne grzybobranie; akapit o ocenie",
+    "cytat": "W razie wątpliwości, warto udać się do najbliższej stacji sanitarno-epidemiologicznej, gdzie dyżurują grzyboznawcy lub klasyfikatorzy. Ocena grzybów jest bezpłatna. | Klasyfikatorzy grzybów – oceniają wyłącznie grzyby świeże.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "6865268bfdd2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "B7 E1-suszenie-s7-m-2026-11-02",
+  "twierdzenie_en": "If in doubt whether mushrooms are edible, take them fresh, before drying, to a sanitary-epidemiological station, where mushroom experts or classifiers assess free of charge whether they are edible, inedible or poisonous.",
+  "brzmieniePrzed": "W razie wątpliwości, czy grzyby są jadalne, zanosi się je do stacji sanitarno-epidemiologicznej, gdzie grzyboznawcy lub klasyfikatorzy grzybów bezpłatnie ocenią, czy są jadalne, niejadalne czy trujące.",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "weryfikacjaE3": "p25 D-027: CZĘŚCIOWO, poprawka weryfikatora wprowadzona: Treść poparta, ale to samo źródło (PSSE Gdańsk) zastrzega: 'Klasyfikatorzy grzybów – oceniają wyłącznie grzyby świeże.' Na karcie suszenia brak tego warunku sugeruje, że można oceniać grzyby suszone. Ewentualnie dopisać ten cytat do zrodla."
+ },
+ {
+  "id": "SUS-145",
+  "twierdzenie": "Przy zatruciu najgroźniejszymi, śmiertelnie trującymi grzybami (np. muchomorem sromotnikowym) pierwsze objawy często pojawiają się długo po zjedzeniu, czasem nawet po kilku dniach; po chwilowej poprawie stan chorego może się gwałtownie pogorszyć. Przy objawach zatrucia trzeba natychmiast wezwać lekarza albo zgłosić się do szpitala.",
+  "zrodla": [
+   {
+    "adres": "https://www.gov.pl/web/psse-glogow/poznaj-grzyby",
+    "miejsce": "PSSE Głogów, Poznaj grzyby; Najczęściej mylone grzyby; Zatrucie grzybami",
+    "cytat": "Pierwsze objawy zatrucia często pojawiają się długo po spożyciu, w niektórych przypadkach nawet po kilku dniach. … powinniśmy natychmiast wezwać lekarza lub zgłosić się do szpitala !",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "b8d126216ca0"
+   },
+   {
+    "adres": "https://www.gov.pl/web/psse-pila/grzyby--podstawowe-zasady-bezpiecznego-grzybobrania",
+    "miejsce": "PSSE Piła, Grzyby – podstawowe zasady bezpiecznego grzybobrania; akapit o zatruciu",
+    "cytat": "może nastąpić chwilowa poprawa samopoczucia, po której stan chorego gwałtownie się pogarsza.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d4a1beeaaa28"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "B7 E1-suszenie-s7-m-2026-11-02",
+  "twierdzenie_en": "With the most dangerous, deadly poisonous mushrooms (e.g. the death cap), the first symptoms often appear long after eating, sometimes only after several days; after a temporary improvement the condition can worsen rapidly. With symptoms of poisoning, call a doctor at once or go to hospital.",
+  "brzmieniePrzed": "Pierwsze objawy zatrucia grzybami często pojawiają się długo po zjedzeniu, czasem nawet po kilku dniach; po chwilowej poprawie stan chorego może się gwałtownie pogorszyć. Przy objawach trzeba natychmiast wezwać lekarza albo zgłosić się do szpitala.",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "weryfikacjaE3": "p25 D-027: CZĘŚCIOWO, poprawka weryfikatora wprowadzona: Uogólnienie: w Głogowie zdanie o opóźnionych objawach dotyczy 'grzybów opisanych w lewej kolumnie' (śmiertelnie trujących), a w Pile 'chwilowa poprawa' dotyczy zatrucia muchomorem sromotnikowym. PSSE Warszawa podaje dla zatruć ogólnie: objawy 'już po kilku godzinach ... nawet po kilkunastu godzinach'. Kierunek nie jest niebezpieczny, ale twierdzenie mówi więcej niż źródła."
+ },
+ {
   "id": "NAP-001",
   "twierdzenie": "Przed nastawem kombuchy pH płynu startowego musi wynosić 4,0 lub mniej; przy pH wyższym niż 4,0 nie należy robić kombuchy z tym startem.",
   "zrodla": [
