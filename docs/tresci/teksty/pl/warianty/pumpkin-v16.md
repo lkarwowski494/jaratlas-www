@@ -1,0 +1,41 @@
+# Pestki dyni suszone i prażone (NCHFP)
+
+Ta karta opisuje suszenie pestek dyni w suszarce do żywności albo w piekarniku i ich późniejsze prażenie. [T:SUS-034,SUS-085]
+
+## Wybór i przygotowanie
+
+Suszenie i prażenie pestek to dwa różne procesy. [T:SUS-085]
+
+Przed suszeniem dokładnie umyj pestki z przylegających włókien miąższu. [T:SUS-085]
+
+## Suszenie
+
+Susz pestki w suszarce w 115–120 °F (ok. 46–49 °C) przez 1–2 godziny albo w piekarniku na ustawieniu „ciepło” przez 3–4 godziny; NCHFP nie podaje temperatury tego ustawienia. [T:SUS-034]
+
+W czasie suszenia często mieszaj pestki, żeby się nie przypaliły. [T:SUS-085]
+
+Nie używaj tac ani sit z siatki ocynkowanej; unikaj też siatek miedzianych i aluminiowych. [T:SUS-008]
+
+Suszone pestki możesz wymieszać z olejem lub solą i prażyć w piekarniku nagrzanym do 250 °F (ok. 121 °C) przez 10–15 minut. [T:SUS-034]
+
+## Pakowanie i przechowywanie
+
+Pakuj tylko całkowicie ostudzony susz: ciepły susz „poci się”, a ta wilgoć może wystarczyć do rozwoju pleśni. [T:SUS-024]
+
+Susz jest podatny na owady i ponowne wchłanianie wilgoci, dlatego po całkowitym ostudzeniu od razu pakuj go w czyste, suche pojemniki chroniące przed owadami, jak najciaśniej, ale bez zgniatania. [T:SUS-205]
+
+Susz przechowuj w czystych, suchych słoikach do przetworów, w plastikowych pojemnikach do zamrażarki ze szczelnymi pokrywkami albo w plastikowych torebkach do zamrażarki. [T:SUS-064]
+
+Opakowania muszą być przeznaczone do kontaktu z żywnością: nie używaj worków na śmieci ani pojemników plastikowych lub tekturowych, w których były wcześniej rzeczy inne niż żywność. [T:SUS-065]
+
+Pakuj porcje do zużycia za jednym razem: każde otwarcie opakowania wystawia susz na powietrze i wilgoć, co obniża jakość i może prowadzić do zepsucia. [T:SUS-067]
+
+Pakowanie próżniowe nie jest samodzielną metodą utrwalania: usunięcie tlenu zwiększa ryzyko jadu kiełbasianego, a produkt wymagający chłodzenia nadal go wymaga. [T:SUS-025]
+
+Przechowuj susz w miejscu chłodnym, suchym i ciemnym. [T:SUS-066]
+
+## Kiedy wyrzucić
+
+Sprawdzaj susz często (w szkle widać skroploną parę); susz, który wchłonął wilgoć, ale nie jest zepsuty, zużyj od razu albo dosusz i zapakuj ponownie. [T:SUS-023]
+
+Spleśniały susz wyrzuć; wyrzuć także susz o obcym zapachu. [T:SUS-022]

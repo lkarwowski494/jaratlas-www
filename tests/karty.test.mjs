@@ -155,7 +155,12 @@ test('T1-mróz: zamiennik musi być w karcie; usunięcie zdania z blokiem wzoru 
 // opakowania do żywności, miejsce, próżnia z zastrzeżeniem, susz zawilgocony, kiedy wyrzucić.
 // Dlaczego: karta mrożenia bez bloku przeszła ręczny przegląd (B8-01); ten sam błąd w suszeniu to pleśń albo zbyt niska temperatura (SUS-002).
 const BLOK_SUSZENIA = ['SUS-001', 'SUS-008', 'SUS-024', 'SUS-064', 'SUS-065', 'SUS-066', 'SUS-025', 'SUS-023', 'SUS-022'];
-export const ZAMIENNIKI_SUSZENIA = {};
+// p26 (S1): zioła i pestki mają własną temperaturę suszenia ze źródła szczebla 1 (NCHFP), nie 140 °F z SUS-001.
+export const ZAMIENNIKI_SUSZENIA = {
+  'garden-herbs-v14': { 'SUS-001': 'SUS-031' },
+  'fennel-artichoke-v10': { 'SUS-001': 'SUS-031' },
+  'pumpkin-v16': { 'SUS-001': 'SUS-034' },
+};
 export function brakiBlokuSuszenia(lista = wszystkie, zamienniki = ZAMIENNIKI_SUSZENIA) {
   const braki = [];
   for (const { lang, id, karta } of lista) {
@@ -171,6 +176,13 @@ export function brakiBlokuSuszenia(lista = wszystkie, zamienniki = ZAMIENNIKI_SU
 
 test('T1-susz: karta suszenia ma blok bezpieczeństwa (temperatura, tace, studzenie, opakowania, miejsce, próżnia, zawilgocenie, kiedy wyrzucić)', () => {
   assert.deepEqual(brakiBlokuSuszenia(), []);
+});
+
+test('T1-susz: zamiennik musi być w karcie (zioła bez SUS-031 wykrywane)', () => {
+  const k = wszystkie.find((x) => x.lang === 'pl' && x.id === 'garden-herbs-v14');
+  assert.ok(k, 'brak karty garden-herbs-v14');
+  const bez = { ...k, karta: { ...k.karta, sekcje: k.karta.sekcje.map((s) => ({ ...s, akapity: s.akapity.filter((a) => !/SUS-031/.test(a)) })), wstep: '' } };
+  assert.deepEqual(brakiBlokuSuszenia([bez]), ['pl/garden-herbs-v14: SUS-001']);
 });
 
 test('T1-susz: usunięcie zdania z blokiem jest wykrywane (mutacja na karcie suszenia)', () => {

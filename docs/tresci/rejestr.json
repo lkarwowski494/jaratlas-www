@@ -14296,7 +14296,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "967ec19338d8"
+   "sha": "1b23b7d5c6cf"
   },
   "wielkosc": "temperatura suszenia",
   "wartosc": 60,
@@ -14411,13 +14411,13 @@
  },
  {
   "id": "SUS-006",
-  "twierdzenie": "Produkty suszone na krzaku/słońcu pasteryzuje się przeciw owadom i ich jajom: w zamrażarce w 0°F (-18°C) lub niżej przez co najmniej 48 godzin.",
+  "twierdzenie": "Produkty suszone na krzaku/słońcu pasteryzuje się przeciw owadom i ich jajom: w szczelnie zamkniętych torebkach do zamrażarki, w zamrażarce w 0°F (-18°C) lub niżej przez co najmniej 48 godzin.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/dry/drying-general/vine-drying/",
     "miejsce": "NCHFP, Vine Drying; Pasteurization",
-    "cytat": "Place the bags in a freezer set at 0ºF or below and leave them at least 48 hours.",
-    "odczyt": "2026-11-01",
+    "cytat": "Place the bags in a freezer set at 0ºF or below and leave them at least 48 hours. | Like sun dried fruits, vine dried beans need treatment to kill insects and their eggs. | Seal the food in freezer-type plastic bags.",
+    "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "577d1c2f6684"
@@ -14449,8 +14449,8 @@
    {
     "adres": "https://nchfp.uga.edu/how/dry/drying-general/vine-drying/",
     "miejsce": "NCHFP, Vine Drying; Pasteurization",
-    "cytat": "Place in an oven preheated to 160ºF for 30 minutes.",
-    "odczyt": "2026-11-01",
+    "cytat": "Place in an oven preheated to 160ºF for 30 minutes. | Place the food in a single layer on a tray or in a shallow pan.",
+    "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "577d1c2f6684"
@@ -14495,7 +14495,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "64698415ec62"
+   "sha": "0ad201e53845"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -14892,7 +14892,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "6d7f9fd0962a"
+   "sha": "525e85278824"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -14905,8 +14905,8 @@
    {
     "adres": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
     "miejsce": "NCHFP, Packaging and Storing Dried Foods; akapit o przechowywaniu",
-    "cytat": "Foods affected by moisture, but not spoiled, should be used immediately or redried and repackaged.",
-    "odczyt": "2026-11-01",
+    "cytat": "Foods affected by moisture, but not spoiled, should be used immediately or redried and repackaged. | Check dried foods frequently during storage to see if they are still dry. Glass containers are excellent for storage because any moisture that collects on the inside can be seen easily.",
+    "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "1b7e480dd8a3"
@@ -14918,7 +14918,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "a0c387dc9435"
+   "sha": "0c60ba55b6d9"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -14931,8 +14931,8 @@
    {
     "adres": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
     "miejsce": "NCHFP, Packaging and Storing Dried Foods; akapit 1",
-    "cytat": "Warm food causes sweating which could provide enough moisture for mold to grow.",
-    "odczyt": "2026-11-01",
+    "cytat": "Warm food causes sweating which could provide enough moisture for mold to grow. | First, cool completely.",
+    "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "1b7e480dd8a3"
@@ -14944,7 +14944,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "1863b2c28e6c"
+   "sha": "a790a994a13b"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -14959,8 +14959,8 @@
    {
     "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
     "miejsce": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017); Vacuum Sealing",
-    "cytat": "Vacuum sealing foods can increase the shelf life of some foods, but it is NOT a food preservation method by itself.",
-    "odczyt": "2026-11-01",
+    "cytat": "Vacuum sealing foods can increase the shelf life of some foods, but it is NOT a food preservation method by itself. | If the food required refrigeration or freezing before vacuum sealing, it must still be kept refrigerated or frozen. | But on the other hand, oxygen reduction increases the risk of botulism",
+    "odczyt": "2026-11-02",
     "szczebel": 3,
     "weryfikacja": "curl+grep",
     "sha12": "08d93d22a962"
@@ -14972,7 +14972,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "8464975eae5a"
+   "sha": "e1ce1a93552c"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -15120,13 +15120,13 @@
  },
  {
   "id": "SUS-031",
-  "twierdzenie": "Zioła w suszarce: 95–115°F (ok. 35–46°C); w wilgotnym klimacie do 125°F (ok. 52°C); 1–4 godziny.",
+  "twierdzenie": "Zioła w suszarce: 95–115°F (ok. 35–46°C), w jednej warstwie na tacach; w wilgotnym klimacie może być potrzebne do 125°F (ok. 52°C); 1–4 godziny.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
     "miejsce": "NCHFP, Herbs (suszenie ziół); Dehydrator drying",
-    "cytat": "Pre-heat dehydrator with the thermostat set to 95°F to 115°F.",
-    "odczyt": "2026-11-01",
+    "cytat": "Pre-heat dehydrator with the thermostat set to 95°F to 115°F. | In areas with higher humidity, temperatures as high as 125°F may be needed. | After rinsing under cool, running water and shaking to remove excess moisture, place the herbs in a single layer on dehydrator trays. | Drying times may vary from 1 to 4 hours.",
+    "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "e3e1903fe031"
@@ -15182,22 +15182,22 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "2ffdf13c88e0"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SUS-034",
-  "twierdzenie": "Pestki dyni: suszenie na słońcu, w suszarce 115–120°F (ok. 46–49°C) 1–2 h lub w piekarniku 3–4 h; prażenie suszonych pestek w 250°F (ok. 121°C) 10–15 min.",
+  "twierdzenie": "Pestki dyni: suszenie na słońcu, w suszarce 115–120°F (ok. 46–49°C) 1–2 h lub w piekarniku na ustawieniu „ciepło” (warm) 3–4 h; prażenie suszonych pestek z olejem lub solą w 250°F (ok. 121°C) 10–15 min.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/dry/recipes/pumpkin-seeds/",
     "miejsce": "NCHFP, Pumpkin Seeds; akapit 1",
-    "cytat": "Pumpkin seeds can be dried in the sun, in a dehydrator at 115-120ºF for 1 to 2 hours, or in an oven on warm for 3 to 4 hours.",
-    "odczyt": "2026-11-01",
+    "cytat": "Pumpkin seeds can be dried in the sun, in a dehydrator at 115-120ºF for 1 to 2 hours, or in an oven on warm for 3 to 4 hours. | To roast, take dried pumpkin seeds, toss with oil and/or salt and roast in a preheated oven at 250ºF for 10 to 15 minutes.",
+    "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "d774747984ac"
@@ -15537,13 +15537,13 @@
  },
  {
   "id": "SUS-048",
-  "twierdzenie": "Fasolę (w tym soję) suszy się na krzaku, aż nasiona grzechoczą w strąkach; wilgotne nasiona trzeba dosuszyć, inaczej spleśnieją.",
+  "twierdzenie": "Fasolę na suche nasiona (np. navy, kidney, butter, great northern, lima), soczewicę i soję suszy się na krzaku, aż nasiona grzechoczą w strąkach; gdy łodygi i strąki są suche i pomarszczone, zbiera się je i łuska nasiona; wilgotne nasiona trzeba dosuszyć, inaczej spleśnieją.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/dry/drying-general/vine-drying/",
     "miejsce": "NCHFP, Vine Drying; akapit 1",
-    "cytat": "leave bean pods on the vine in the garden until the beans inside rattle.",
-    "odczyt": "2026-11-01",
+    "cytat": "leave bean pods on the vine in the garden until the beans inside rattle. | When the vines and pods are dry and shriveled, pick the beans and shell them. | If beans are still moist, the drying process is not complete and the beans will mold if not more thoroughly dried.",
+    "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "577d1c2f6684"
@@ -16114,7 +16114,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "67f8803504dd"
+   "sha": "7095eb59023e"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SUS",
@@ -16142,7 +16142,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "861b8e23f5d3"
+   "sha": "7b5da65b3fbb"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SUS",
@@ -16258,7 +16258,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "8c351a257597"
+   "sha": "dec83ad4b5e4"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SUS",
@@ -16437,12 +16437,12 @@
  },
  {
   "id": "SUS-076",
-  "twierdzenie": "Zioła (liście, kwiaty lub nasiona) suszy się, wystawiając je na ciepłe, suche powietrze.",
+  "twierdzenie": "Zioła (liście, kwiaty lub nasiona) suszy się, wystawiając je na ciepłe, suche powietrze w przewiewnym miejscu, aż wilgoć odparuje.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
     "miejsce": "NCHFP, Herbs (So Easy to Preserve 6th ed.); akapit 1",
-    "cytat": "Drying is the easiest method of preserving herbs. | Simply expose the leaves, flowers or seeds to warm, dry air.",
+    "cytat": "Drying is the easiest method of preserving herbs. | Simply expose the leaves, flowers or seeds to warm, dry air. | Leave the herbs in a well ventilated area until the moisture evaporates.",
     "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
@@ -16456,16 +16456,16 @@
   "wazne_do": "2027-11-02",
   "klaster": "SUS",
   "pochodzenie": "B4 E1-suszenie-twierdzenia-2026-11-02",
-  "twierdzenie_en": "Herbs (leaves, flowers or seeds) are dried by exposing them to warm, dry air."
+  "twierdzenie_en": "Herbs (leaves, flowers or seeds) are dried by exposing them to warm, dry air in a well-ventilated place until the moisture evaporates."
  },
  {
   "id": "SUS-077",
-  "twierdzenie": "Zioła płucze się w chłodnej wodzie, delikatnie strząsa nadmiar wody i odrzuca liście i łodygi obite, zabrudzone lub uszkodzone.",
+  "twierdzenie": "Zioła płucze się w chłodnej wodzie, delikatnie strząsa nadmiar wody i odrzuca liście i łodygi obite, zabrudzone lub uszkodzone; po zbiorze nie zostawia się ich na słońcu ani bez dozoru i unika obijania liści.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
     "miejsce": "NCHFP, Herbs (So Easy to Preserve 6th ed.); akapit 2",
-    "cytat": "Rinse herbs in cool water and gently shake to remove excess moisture. | Discard all bruised, soiled or imperfect leaves and stems.",
+    "cytat": "Rinse herbs in cool water and gently shake to remove excess moisture. | Discard all bruised, soiled or imperfect leaves and stems. | Avoid bruising the leaves. They should not lie in the sun or unattended after harvesting.",
     "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
@@ -16479,7 +16479,7 @@
   "wazne_do": "2027-11-02",
   "klaster": "SUS",
   "pochodzenie": "B4 E1-suszenie-twierdzenia-2026-11-02",
-  "twierdzenie_en": "Rinse herbs in cool water, gently shake off excess water and discard bruised, soiled or damaged leaves and stems."
+  "twierdzenie_en": "Rinse herbs in cool water, gently shake off excess water and discard bruised, soiled or damaged leaves and stems; after harvest, do not leave them in the sun or unattended, and avoid bruising the leaves."
  },
  {
   "id": "SUS-078",
@@ -16524,7 +16524,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "e3b0c44298fc"
+   "sha": "9d394bcc13ba"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SUS",
@@ -16589,12 +16589,12 @@
  },
  {
   "id": "SUS-082",
-  "twierdzenie": "Zioła o miękkich liściach i zioła z nasionami suszone bez suszarki wiesza się w papierowych torbach z otworami, po mały pęczek w torbie: duże pęczki pleśnieją.",
+  "twierdzenie": "Zioła o miękkich liściach i zioła z nasionami suszone bez suszarki wiesza się w papierowych torbach z otworami w bokach, po mały pęczek w torbie (duże pęczki pleśnieją), w miejscu, gdzie powietrze krąży przez torbę.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
     "miejsce": "NCHFP, Herbs (So Easy to Preserve 6th ed.); Tender-Leaf Herbs",
-    "cytat": "Try hanging the tender-leaf herbs or those with seeds inside paper bags to dry. … Suspend a small bunch (large amounts will mold) of herbs in a bag and close the top with a rubber band.",
+    "cytat": "Try hanging the tender-leaf herbs or those with seeds inside paper bags to dry. … Suspend a small bunch (large amounts will mold) of herbs in a bag and close the top with a rubber band. | Tear or punch holes in the sides of the bag. | Place where air currents will circulate through the bag.",
     "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
@@ -16607,12 +16607,12 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "e3b0c44298fc"
+   "sha": "5a6a653da564"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SUS",
   "pochodzenie": "B4 E1-suszenie-twierdzenia-2026-11-02",
-  "twierdzenie_en": "Without a dehydrator, hang tender-leaf herbs and herbs with seeds in paper bags with holes, a small bunch per bag: large bunches go mouldy.",
+  "twierdzenie_en": "Without a dehydrator, hang tender-leaf herbs and herbs with seeds in paper bags with holes in the sides, a small bunch per bag (large bunches go mouldy), where air currents circulate through the bag.",
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {
@@ -43286,6 +43286,35 @@
   "wielkosc": "czas moczenia suszu warzywnego bez lodówki",
   "wartosc": 2,
   "jednostka": "h",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-205",
+  "twierdzenie": "Susz jest podatny na owady i ponowne wchłanianie wilgoci, dlatego po całkowitym ostudzeniu od razu pakuje się go w czyste, suche pojemniki chroniące przed owadami, jak najciaśniej, ale bez zgniatania.",
+  "twierdzenie_en": "Dried food is susceptible to insects and moisture reabsorption, so once completely cool it is packed at once into clean, dry insect-proof containers, as tightly as possible without crushing.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+    "miejsce": "NCHFP, Packaging and Storing Dried Foods (So Easy to Preserve 6th ed.); akapit 1",
+    "cytat": "Dried foods are susceptible to insect contamination and moisture reabsorption and must be properly packaged and stored immediately. | First, cool completely. | Pack foods into clean, dry insect-proof containers as tightly as possible without crushing.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0483f010b301"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "c1c4c3e8b66a"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "06 p26 (weryfikacja D-027 S1)",
+  "jednoZrodlo": true,
   "weryfikacjaZastepcza": "2026-11-02"
  }
 ]
