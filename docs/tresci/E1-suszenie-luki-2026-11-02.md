@@ -7,7 +7,7 @@
 
 ## 1. Wynik
 
-Nowe twierdzenia: 5 (SUS-180–SUS-184), krytycznych 3, wszystkie szczebla 3, jedno źródło. Uzupełnienia źródeł: SUS-110 (brokuł), SUS-115 (dynia). Luki bez źródła szczebla 1–3 po researchu: 5 z 9 (rokitnik, aronia, topinambur, maliny w całości, słodzenie żurawiny sokiem jabłkowym); dla kostki i całych strąków źródła opisują inny kształt, więc wariant się zmienia.
+Nowe twierdzenia: 5 (SUS-180–SUS-184), krytycznych 3, wszystkie szczebla 3, jedno źródło. Uzupełnienia źródeł: SUS-110 (brokuł), SUS-115 (dynia). Luki bez źródła szczebla 1–3 po researchu: 5 z 10 (rokitnik, aronia, topinambur, maliny w całości, słodzenie żurawiny sokiem jabłkowym); dla kostki i całych strąków źródła opisują inny kształt, więc wariant się zmienia.
 
 Źródła szczebla 1 (NCHFP, USDA, FDA, EFSA, instytucje polskie i unijne): dla żadnej z luk nie znalazłem procedury szczebla 1. NCHFP „Drying Fruits and Vegetables” odsyła do CSU i MSU; materiał NCHFP/UGA „Put It Up! Method 5” (pobrany) nie podaje procedur dla tych luk (truskawki tylko w skórze owocowej).
 
