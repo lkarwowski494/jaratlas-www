@@ -54,13 +54,13 @@ The NCHFP table gives times only for half-pint and pint jars. [T:SLO-186]
 
 JarAtlas rule (NCHFP does not test metric jars): a pint holds about 473 ml, so a 0.5 l jar has no tested time in this recipe; use jars of up to 473 ml. [T:ACI-179,ACI-174]
 
-## Storing
+## Cooling and storing
 
 Cool the jars at room temperature for 12 to 24 hours, then test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196]
 
 A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
 
-Keep a jar that did not seal in the refrigerator and eat it within several days. [T:SLO-197]
+If a jar has not sealed at this check, keep it in the refrigerator and eat it within several days. [T:SLO-197]
 
 Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) and not near hot pipes, a stove or a furnace, in an uninsulated attic or in direct sunlight; in such conditions the food may spoil. [T:SLO-198]
 
