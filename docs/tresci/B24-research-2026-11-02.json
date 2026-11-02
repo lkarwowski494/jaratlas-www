@@ -17,22 +17,20 @@
   "warianty": 30
  },
  "liczby": {
-  "ok-zrodlo": 13,
-  "ryzyko-wysokie": 3,
+  "ok-zrodlo": 11,
+  "ryzyko-wysokie": 5,
   "nie-publikowac-kandydat": 14
  },
  "warunkowo": [
   "olives-v05 (B24-D2)",
   "olives-v11 (B24-D2)",
   "olives-v12 (B24-D2)",
-  "ginger-turmeric-v12 (B24-D3)",
-  "asian-american-mix-v07 (B24-D3)",
   "lemon-v14 (B24-D2)",
   "fig-pomegranate-v10 (B24-D2)"
  ],
  "regula_klasy": {
   "id": "B24-R1",
-  "tresc": "Domowe warzywa i zioła (w tym czosnek, chili, suszone lub smażone dodatki) w oleju, bez zakwaszenia: lodówka 40°F (4 °C) lub niżej, zjeść najpóźniej następnego dnia po przygotowaniu; nigdy w temperaturze pokojowej; dłużej tylko zamrożenie.",
+  "tresc": "Domowe warzywa i zioła (w tym czosnek, chili, suszone lub smażone dodatki) w oleju, bez zakwaszenia: lodówka 40°F (4 °C) lub niżej, zjeść najpóźniej następnego dnia po przygotowaniu; nigdy w temperaturze pokojowej. Zamrożenie: czosnek NCHFP (szczebel 1), pozostałe OLE-029 (szczebel 2).",
   "urzedy_szczebla_1": {
    "Livsmedelsverket (SE)": "lodówka do 4 dni (OLE-070)",
    "BfR (DE)": "lodówka, najpóźniej następnego dnia; odradza zapas (OLE-076, OLE-077, OLE-087)",
@@ -42,7 +40,7 @@
   "najkrotszy": "BfR: następny dzień (OLE-077)",
   "najostrozniejsza_temperatura": "40°F (4 °C) lub niżej (OLE-002, OLE-057)",
   "odrzucone": {
-   "ISS/MinSal zakwaszanie i pasteryzacja, do 1,5 roku (OLE-079)": "jeden urząd; sprzeczne z Livsmedelsverket (OLE-074); bez czasu blanszowania",
+   "ISS/MinSal zakwaszanie i pasteryzacja, do 1,5 roku (OLE-079)": "jeden urząd; Livsmedelsverket: zakwaszanie przed zalaniem olejem trudne do zrobienia bezpiecznie w domu i słabo zbadane (L 2023 nr 16, s. 25); bez czasu blanszowania",
    "Livsmedelsverket po obróbce 100 °C/15 min bez limitu (OLE-075)": "jeden urząd",
    "Livsmedelsverket 2 tygodnie przy 4 °C (OLE-071)": "jeden urząd, wymaga termometru"
   }
@@ -66,7 +64,8 @@
   "OLE-085",
   "OLE-086",
   "OLE-087",
-  "OLE-088"
+  "OLE-088",
+  "OLE-089"
  ],
  "warianty": [
   {
@@ -98,7 +97,7 @@
     "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
     "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
     "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
-    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "dluzej": "zamrożenie: czosnek w oleju NCHFP (OLE-003, szczebel 1); dla pozostałych warzyw i ziół tylko przegląd naukowy (OLE-029, szczebel 2), poza zgodnością urzędów; warunek rozmrażania [DO USTALENIA]",
     "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
    },
    "zmiana_wariantu": null
@@ -132,7 +131,7 @@
     "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
     "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
     "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
-    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "dluzej": "zamrożenie: czosnek w oleju NCHFP (OLE-003, szczebel 1); dla pozostałych warzyw i ziół tylko przegląd naukowy (OLE-029, szczebel 2), poza zgodnością urzędów; warunek rozmrażania [DO USTALENIA]",
     "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
    },
    "zmiana_wariantu": null
@@ -166,7 +165,7 @@
     "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
     "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
     "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
-    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "dluzej": "zamrożenie: czosnek w oleju NCHFP (OLE-003, szczebel 1); dla pozostałych warzyw i ziół tylko przegląd naukowy (OLE-029, szczebel 2), poza zgodnością urzędów; warunek rozmrażania [DO USTALENIA]",
     "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
    },
    "zmiana_wariantu": null
@@ -181,7 +180,7 @@
    "werdykt_B24": "ok-zrodlo",
    "warunkowo": null,
    "ryzyko": "wysokie",
-   "podstawa": "Olej chili: BfR wymienia chili wprost (OLE-076, OLE-077); ISS: chili w oleju aromatyzowanym tylko po occie lub pełnym wysuszeniu, którego nie da się sprawdzić (OLE-080); smażony czosnek/szalotka to też warzywa w oleju. Klasa: lodówka, następny dzień.",
+   "podstawa": "Olej chili: BfR wymienia chili wprost (OLE-076, OLE-077); ISS: chili w oleju aromatyzowanym tylko po occie lub pełnym wysuszeniu, którego nie da się sprawdzić (OLE-080); smażony czosnek/szalotka to też warzywa w oleju. Klasa: lodówka, następny dzień. Karta musi mówić wprost, że to nie przyprawa na zapas (BfR OLE-076).",
    "twierdzenia": [
     "OLE-070",
     "OLE-077",
@@ -200,7 +199,7 @@
     "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
     "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
     "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
-    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "dluzej": "zamrożenie: czosnek w oleju NCHFP (OLE-003, szczebel 1); dla pozostałych warzyw i ziół tylko przegląd naukowy (OLE-029, szczebel 2), poza zgodnością urzędów; warunek rozmrażania [DO USTALENIA]",
     "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
    },
    "zmiana_wariantu": null
@@ -264,12 +263,14 @@
    "metoda": "none",
    "przed": "do-researchu",
    "przebieg": 2,
-   "werdykt_B24": "nie-publikowac-kandydat",
+   "werdykt_B24": "ryzyko-wysokie",
    "warunkowo": null,
    "ryzyko": "wysokie",
-   "podstawa": "Cebula prażona w temperaturze pokojowej: brak źródła szczebla 1–3; WSU dopuszczało suszone warzywa w oleju poza lodówką (nieaktualne, OLE-022), a stopnia wysuszenia nie da się sprawdzić w domu (OLE-020). Nie jest zalana olejem, więc nie ryzyko-wysokie z reguły klasy. Przebieg 2.",
+   "podstawa": "Cebula prażona w temperaturze pokojowej: brak źródła szczebla 1–3 na przechowywanie; stopnia wysuszenia nie da się sprawdzić w domu (OLE-020), częściowo suszone warzywa dają warunki wzrostu (OLE-072), a CDC opisało ognisko z cebuli trzymanej w tłuszczu bez lodówki (OLE-089). Wariant ostrożniejszy przy sporze (przegląd D-027 d).",
    "twierdzenia": [
     "OLE-020",
+    "OLE-072",
+    "OLE-089",
     "OLE-022"
    ],
    "parametry_karty": null,
@@ -304,7 +305,7 @@
     "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
     "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
     "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
-    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "dluzej": "zamrożenie: czosnek w oleju NCHFP (OLE-003, szczebel 1); dla pozostałych warzyw i ziół tylko przegląd naukowy (OLE-029, szczebel 2), poza zgodnością urzędów; warunek rozmrażania [DO USTALENIA]",
     "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
    },
    "zmiana_wariantu": null
@@ -338,7 +339,7 @@
     "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
     "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
     "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
-    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "dluzej": "zamrożenie: czosnek w oleju NCHFP (OLE-003, szczebel 1); dla pozostałych warzyw i ziół tylko przegląd naukowy (OLE-029, szczebel 2), poza zgodnością urzędów; warunek rozmrażania [DO USTALENIA]",
     "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
    },
    "zmiana_wariantu": null
@@ -372,7 +373,7 @@
     "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
     "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
     "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
-    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "dluzej": "zamrożenie: czosnek w oleju NCHFP (OLE-003, szczebel 1); dla pozostałych warzyw i ziół tylko przegląd naukowy (OLE-029, szczebel 2), poza zgodnością urzędów; warunek rozmrażania [DO USTALENIA]",
     "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
    },
    "zmiana_wariantu": null
@@ -406,7 +407,7 @@
     "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
     "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
     "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
-    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "dluzej": "zamrożenie: czosnek w oleju NCHFP (OLE-003, szczebel 1); dla pozostałych warzyw i ziół tylko przegląd naukowy (OLE-029, szczebel 2), poza zgodnością urzędów; warunek rozmrażania [DO USTALENIA]",
     "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
    },
    "zmiana_wariantu": null
@@ -440,7 +441,7 @@
     "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
     "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
     "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
-    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "dluzej": "zamrożenie: czosnek w oleju NCHFP (OLE-003, szczebel 1); dla pozostałych warzyw i ziół tylko przegląd naukowy (OLE-029, szczebel 2), poza zgodnością urzędów; warunek rozmrażania [DO USTALENIA]",
     "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
    },
    "zmiana_wariantu": null
@@ -455,7 +456,7 @@
    "werdykt_B24": "ryzyko-wysokie",
    "warunkowo": null,
    "ryzyko": "wysokie",
-   "podstawa": "Wariant w temperaturze pokojowej (none): żaden urząd nie dopuszcza przechowywania warzyw w oleju poza lodówką (BfR OLE-077, Livsmedelsverket OLE-072, CDC OLE-078, NCHFP OLE-001). Smażone kapary do podania od razu: po zmianie metody na lodówkę karta klasy (ok-zrodlo-po-zmianie, decyzja koordynatora/03).",
+   "podstawa": "Wariant w temperaturze pokojowej (none): żaden urząd nie dopuszcza przechowywania niezakwaszonych, niepasteryzowanych warzyw w oleju poza lodówką (BfR OLE-077, Livsmedelsverket OLE-072, CDC OLE-078, NCHFP OLE-001; ISS dopuszcza spiżarnię tylko po zakwaszeniu i pasteryzacji, OLE-079). Smażone kapary do podania od razu: po zmianie metody na lodówkę karta klasy (ok-zrodlo-po-zmianie, decyzja koordynatora/03).",
    "twierdzenia": [
     "OLE-070",
     "OLE-077",
@@ -475,7 +476,7 @@
      "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
      "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
      "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
-     "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+     "dluzej": "zamrożenie: czosnek w oleju NCHFP (OLE-003, szczebel 1); dla pozostałych warzyw i ziół tylko przegląd naukowy (OLE-029, szczebel 2), poza zgodnością urzędów; warunek rozmrażania [DO USTALENIA]",
      "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
     }
    },
@@ -488,31 +489,15 @@
    "metoda": "refrigerator",
    "przed": "do-researchu",
    "przebieg": 2,
-   "werdykt_B24": "ok-zrodlo",
-   "warunkowo": "B24-D3",
+   "werdykt_B24": "nie-publikowac-kandydat",
+   "warunkowo": null,
    "ryzyko": "wysokie",
-   "podstawa": "Złota pasta = wilgotna pasta niskokwasowa z olejem; kurkuma w oleju: lodówka 4 dni albo zamrażarka (OLE-086, szczebel 3 Q&A), warzywa w oleju: BfR następny dzień (OLE-077). Pasta, nie warzywo zalane olejem, dlatego warunkowo (B24-D3); termin klasy (najkrótszy).",
+   "podstawa": "Złota pasta to gotowana wodna pasta z olejem jako składnikiem, nie warzywo zalane olejem (poza literą P1-Q1, jak pasta beans-soy-v11). Najbliższe: kurkuma w oleju, lodówka 4 dni albo zamrażarka (OLE-086, szczebel 3 Q&A), nie przepis. Przebieg 2 (po przeglądzie D-027 d).",
    "twierdzenia": [
-    "OLE-070",
-    "OLE-077",
-    "OLE-078",
-    "OLE-002",
-    "OLE-076",
-    "OLE-072",
-    "OLE-073",
-    "OLE-001",
-    "OLE-027",
-    "OLE-029"
+    "OLE-086",
+    "OLE-028"
    ],
-   "parametry_karty": {
-    "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
-    "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
-    "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
-    "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
-    "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
-    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
-    "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
-   },
+   "parametry_karty": null,
    "zmiana_wariantu": null
   },
   {
@@ -522,31 +507,18 @@
    "metoda": "refrigerator",
    "przed": "do-researchu",
    "przebieg": 2,
-   "werdykt_B24": "ok-zrodlo",
-   "warunkowo": "B24-D3",
+   "werdykt_B24": "ryzyko-wysokie",
+   "warunkowo": null,
    "ryzyko": "wysokie",
-   "podstawa": "Giardiniera = warzywa (po solance) w oleju z octem; klasa „warzywa w oleju” (OLE-070, OLE-077); ocet w oleju nie zakwasza warzywa skutecznie (OLE-074), więc ocet nie wydłuża terminu. Najbliższy przepis testowany (NCHFP Marinated Peppers, OLE-038) ma inny skład. Zwyczajowe kilkudniowe marynowanie przekracza termin klasy: karta skraca do następnego dnia (B24-D3).",
+   "podstawa": "Giardiniera chicagowska: warzywa po solance w oleju z octem, zwyczajowo marynowane kilka dni przed jedzeniem. Ocet w oleju nie zakwasza warzywa skutecznie (OLE-074), a najbliższy przepis testowany (NCHFP Marinated Peppers, OLE-038) ma inny skład i proces. Tożsamość wymaga dłuższego przechowywania w oleju niż termin klasy (B24-D1, po przeglądzie D-027 d).",
    "twierdzenia": [
-    "OLE-070",
-    "OLE-077",
-    "OLE-078",
-    "OLE-002",
+    "OLE-074",
     "OLE-076",
-    "OLE-072",
-    "OLE-073",
-    "OLE-001",
-    "OLE-027",
-    "OLE-029"
+    "OLE-077",
+    "OLE-028",
+    "OLE-038"
    ],
-   "parametry_karty": {
-    "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
-    "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
-    "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
-    "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
-    "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
-    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
-    "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
-   },
+   "parametry_karty": null,
    "zmiana_wariantu": null
   },
   {
@@ -631,7 +603,7 @@
     "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
     "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
     "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
-    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "dluzej": "zamrożenie: czosnek w oleju NCHFP (OLE-003, szczebel 1); dla pozostałych warzyw i ziół tylko przegląd naukowy (OLE-029, szczebel 2), poza zgodnością urzędów; warunek rozmrażania [DO USTALENIA]",
     "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
    },
    "zmiana_wariantu": null
@@ -664,7 +636,7 @@
    "werdykt_B24": "ok-zrodlo",
    "warunkowo": "B24-D2",
    "ryzyko": "wysokie",
-   "podstawa": "Suszone figi ze świeżymi ziołami w oliwie: zioła w oleju wprost w BfR i CDC (OLE-076–078); suszony owoc (OLE-072: także częściowo suszone warzywa) poza literą klasy, dlatego warunkowo (B24-D2).",
+   "podstawa": "Suszone figi ze świeżymi ziołami w oliwie: zioła w oleju wprost w BfR i CDC (OLE-076–078); suszone figi (owoc niskokwasowy, częściowo suszony jak w OLE-072) poza literą klasy, dlatego warunkowo (B24-D2).",
    "twierdzenia": [
     "OLE-070",
     "OLE-077",
@@ -683,7 +655,7 @@
     "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
     "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
     "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
-    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "dluzej": "zamrożenie: czosnek w oleju NCHFP (OLE-003, szczebel 1); dla pozostałych warzyw i ziół tylko przegląd naukowy (OLE-029, szczebel 2), poza zgodnością urzędów; warunek rozmrażania [DO USTALENIA]",
     "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
    },
    "zmiana_wariantu": null
@@ -869,6 +841,16 @@
      "sha12": "462ea483ea51",
      "weryfikacja": "curl+pdftotext+grep",
      "kopia": "scratchpad sesji B24 (poza repo)"
+    },
+    {
+     "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
+     "miejsce": "L 2023 nr 16, PDF s. 9",
+     "cytat": "Om kylskåpstemperaturen sänks till 4 °C skulle man kunna förlänga förvaringstiden till två veckor.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "462ea483ea51",
+     "weryfikacja": "curl+pdftotext+grep",
+     "kopia": "scratchpad sesji B24 (poza repo)"
     }
    ],
    "status": "potwierdzone",
@@ -902,7 +884,7 @@
   },
   {
    "id": "OLE-073",
-   "twierdzenie": "Livsmedelsverket: gotowanie (smażenie) warzyw w oleju teoretycznie mogłoby inaktywować przetrwalniki C. botulinum typu I, ale brak badań potwierdzających, że metoda działa w praktyce.",
+   "twierdzenie": "Livsmedelsverket: gotowanie warzyw w oleju (temperatura wrzenia oleju powyżej 121 °C) teoretycznie mogłoby inaktywować przetrwalniki C. botulinum typu I, ale brak badań potwierdzających, że metoda działa w praktyce.",
    "zrodla": [
     {
      "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
@@ -1182,7 +1164,7 @@
   },
   {
    "id": "OLE-085",
-   "twierdzenie": "Ask Extension (Oregon, 2017): wytopiony tłuszcz w temperaturze pokojowej łatwiej jełczeje, a gdy zostały w nim resztki mięsa, zagrożeniem jest jad kiełbasiany.",
+   "twierdzenie": "Ask Extension (2017, pytanie o przechowywanie wytopionego tłuszczu kurzego): w temperaturze pokojowej tłuszcz łatwiej jełczeje, a gdy zostały w nim resztki kurczaka, zagrożeniem jest jad kiełbasiany.",
    "zrodla": [
     {
      "adres": "https://ask.extension.org/kb/faq.php?id=410596",
@@ -1205,7 +1187,7 @@
   },
   {
    "id": "OLE-086",
-   "twierdzenie": "Ask Extension (odpowiedź OSU Extension): świeżej kurkumy w oleju nie zostawia się w temperaturze pokojowej; w lodówce 4 dni, dłużej tylko w zamrażarce.",
+   "twierdzenie": "Ask Extension (odpowiedź eksperta extension): mieszanki świeżej kurkumy w oleju nie zostawia się w temperaturze pokojowej; w lodówce 4 dni, dłużej tylko w zamrażarce.",
    "zrodla": [
     {
      "adres": "https://ask.extension.org/kb/faq.php?id=924127",
@@ -1269,6 +1251,28 @@
    "przeglad": null,
    "wazne_do": "2027-11-02",
    "klaster": "OLE"
+  },
+  {
+   "id": "OLE-089",
+   "twierdzenie": "CDC (MMWR, ognisko botulizmu typu A, Illinois 1983): podejrzaną potrawą była cebula smażona na margarynie, trzymana bez przykrycia w dużej ilości stopionej margaryny na ciepłej kuchence (poniżej 60 °C) i podawana bez ponownego podgrzania.",
+   "zrodla": [
+    {
+     "adres": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00000265.htm",
+     "miejsce": "MMWR „Foodborne Botulism -- Illinois” (1983), opis dochodzenia",
+     "cytat": "they were held uncovered in a pan with a large volume of melted margarine on a warm stove (below 60 C (140 F)) and were not reheated before serving.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "3a6f93647a70",
+     "weryfikacja": "curl+grep (tekst HTML bez znaczników)",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Ognisko dotyczyło cebuli wilgotnej trzymanej na ciepło w tłuszczu, nie suchej prażonej; użyte jako ostrzeżenie dla cebuli w tłuszczu poza lodówką, nie jako dowód dla cebuli suchej.",
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
   }
  ],
  "niedostepne": [
@@ -1310,5 +1314,32 @@
    ]
   }
  ],
- "przeglad_D027d": null
+ "przeglad_D027d": {
+  "kto": "weryfikacja zastępcza (subagent Opus, effort medium, świeży kontekst)",
+  "data": "2026-11-02",
+  "zakres": "19 twierdzeń OLE-070–088 u źródła (20 cytatów), reguła B24-R1, werdykty 30 wariantów, pary zdań",
+  "wynik": {
+   "POPARTE": 17,
+   "CZESCIOWO": 2,
+   "NIEPOPARTE": 0,
+   "SPRZECZNE": 0,
+   "DO_SPRAWDZENIA": 0,
+   "P0": 0,
+   "P1": 0,
+   "P2": 6,
+   "P3": 10,
+   "warianty_zgoda": 27,
+   "warianty_sprzeciw": 3
+  },
+  "poprawki": {
+   "P2-1": "reguła: zamrożenie ma 1 urząd tylko dla czosnku; dla reszty szczebel 2 → opisane wprost, warunek rozmrażania [DO USTALENIA]",
+   "P2-2": "ginger-turmeric-v12 ok-zrodlo → nie-publikowac-kandydat (pasta, jak beans-soy-v11); B24-D3 wycofane",
+   "P2-3": "asian-american-mix-v07 ok-zrodlo → ryzyko-wysokie (B24-D1, tożsamość wymaga dni marynowania)",
+   "P2-4": "onion-v12 nie-publikowac-kandydat → ryzyko-wysokie (OLE-089 MMWR Illinois 1983, OLE-072, OLE-020; wariant ostrożniejszy)",
+   "P2-5": "capers-v09: podstawa zawężona do niezakwaszonych, niepasteryzowanych warzyw (ISS OLE-079)",
+   "P2-6": "eggplant-v02: OLE-025 w rejestr.json („domowy bakłażan”, za Nummer 2011) przeczy MMWR 1995 (OLE-088: wyrób komercyjny) → pytanie B24-Q4 do partii rejestru; werdykt bez zmian",
+   "P3": "OLE-071 drugi cytat (2 tygodnie przy 4 °C); OLE-073 bez „smażenie”; OLE-085 tłuszcz kurzy, bez „Oregon”; OLE-086 bez „OSU”; chili-pepper-v10 „nie przyprawa na zapas”; fig-pomegranate-v10 bez argumentu o kwasowości; uzasadnienie odrzucenia ISS z Livsmedelsverket s. 25; pozostałe P3 (ISS wymaga zakwaszenia ziół, kompensowane terminem 1 dnia; pary OLE-080/081) przyjęte bez zmian"
+  },
+  "ponowna_kontrola": "skrypt cytatów po poprawkach (22 cytaty, 20 twierdzeń): 22/22 OK, kod 0"
+ }
 }
