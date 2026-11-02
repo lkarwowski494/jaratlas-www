@@ -16,4 +16,4 @@ JarAtlas does not treat a dish as an acid food because it tastes sour, or becaus
 
 JarAtlas has found no tested home recipe for canning lecsó from a checked source. [T:-]
 
-The warning about summer squash applies when the stew includes zucchini or other summer squash. [T:-]
+The warning about zucchini applies when the stew includes zucchini or other summer squash; the other warnings apply in every case. [T:-]

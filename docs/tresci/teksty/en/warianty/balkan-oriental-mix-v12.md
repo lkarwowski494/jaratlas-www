@@ -16,4 +16,4 @@ JarAtlas does not treat a dish as an acid food because it tastes sour, or becaus
 
 JarAtlas has found no tested home recipe for canning ajapsandali from a checked source. [T:-]
 
-JarAtlas treats oil or other fat added to jars with the same caution. [T:-]
+JarAtlas applies the same rule to oil and other fats: they should not be added to jars unless a tested recipe calls for them. [T:-]

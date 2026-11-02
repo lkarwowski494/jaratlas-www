@@ -14,6 +14,6 @@ University of California guidance excludes elderberries from its process for can
 
 Oregon State University Extension has a high-sugar recipe for elderberry jams, jellies and syrups. [T:SLO-109]
 
-That recipe does not cover thick elderberry juice. [T:-]
+JarAtlas has not found thick elderberry juice in that recipe. [T:-]
 
 JarAtlas has found no tested home recipe for thick elderberry juice from a checked source. [T:-]

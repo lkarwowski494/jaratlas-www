@@ -15,6 +15,6 @@ All fresh vegetables except most tomatoes are low-acid foods. [T:SZY-001]
 
 JarAtlas has found no tested home recipe for broccoli pesto in jars from a checked source. [T:-]
 
-JarAtlas treats oil or other fat added to jars with the same caution. [T:-]
+JarAtlas applies the same rule to oil and other fats: they should not be added to jars unless a tested recipe calls for them. [T:-]
 
 JarAtlas has a card for frozen broccoli. [T:-]
