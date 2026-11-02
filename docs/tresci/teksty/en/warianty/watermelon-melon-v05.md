@@ -4,7 +4,7 @@ There is no recipe here for syrup made by boiling down watermelon juice (waterme
 
 ## !
 
-- SDSU Extension says NCHFP does not recommend canning watermelon flesh; this does not apply to the tested rind pickles. [T:ACI-066]
+- SDSU Extension says NCHFP does not recommend canning watermelon; for watermelon rind pickles it points to a separate recipe. [T:ACI-066]
 - Melons are low-acid foods with a pH above 4.6. [T:ACI-026]
 - Almost any food that is not very acidic, with a pH above 4.6, can support the growth of Clostridium botulinum and toxin production. [T:SLO-023]
 

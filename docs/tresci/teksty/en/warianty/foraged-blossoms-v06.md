@@ -9,7 +9,7 @@ There is no recipe here for syrup made from meadowsweet flowers (Filipendula ulm
 
 ## Why
 
-Herbs, flowers and infusions made from them are not naturally acidic; to be canned, they need a tested recipe with an added amount of acid, sugar or both, even when the infusion is strained. [T:SLO-068]
+Herbs, flowers and infusions made from them are not naturally high-acid ingredients; to be canned, they need a tested recipe with an added amount of acid, sugar or both, even when the infusion is strained. [T:SLO-068]
 
 According to Ask Extension, there are no research-based recipes for canning infused simple syrups. [T:SLO-481]
 

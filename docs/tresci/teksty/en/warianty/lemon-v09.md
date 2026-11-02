@@ -5,7 +5,7 @@ There is no recipe here for lemons and fresh ginger kept in honey. [T:-]
 ## !
 
 - According to Oregon State University Extension, covering food with honey does not preserve it: lab trials found bacteria growing where the food meets the honey. [T:SLO-465]
-- Oregon State University Extension limits high-moisture, low-acid ingredients, such as fresh garlic or herbs, to no more than 15% of a honey infusion by weight, using hot infusion only, with the honey kept above 140°F (60°C). [T:SLO-468]
+- Oregon State University Extension limits high-moisture, low-acid ingredients, such as fresh garlic or herbs, to no more than 15% of a honey infusion by weight, using hot infusion only, with the honey kept above 140°F (60°C). [T:SLO-468] After the infusion, the hot honey is strained to remove all pieces, so this method does not keep lemon or ginger in the honey. [T:SLO-821]
 - Do not give honey or products made with honey to infants under 1 year of age. [T:SLO-469]
 - The Polish National Centre for Nutrition Education (NCEŻ) lists honey among the foods an infant should avoid because of the risk of poisoning. [T:SLO-470]
 

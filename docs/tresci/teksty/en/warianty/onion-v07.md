@@ -12,7 +12,7 @@ There is no recipe here for caramelized onion jam with wine. [T:-]
 
 The FDA list gives white onions a pH of about 5.37–5.85. [T:ACI-107]
 
-JarAtlas has found no tested recipe that uses wine or vinegar to acidify onion jam. [T:-]
+JarAtlas has found no tested recipe that uses wine to acidify onion jam. [T:-]
 
 This jam is meant to be kept in the refrigerator. [T:-]
 

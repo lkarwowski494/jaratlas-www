@@ -39,4 +39,4 @@ Eat the oil no later than the day after you made it, and throw away what is left
 
 The BfR advises against making herb oils in advance and storing them at home. [T:OLE-076,OLE-087]
 
-Alternatively, freeze the oil until you are ready to use it. [T:OLE-018]
+Alternatively, UGA allows freezing the oil until you are ready to use it. [T:OLE-018]
