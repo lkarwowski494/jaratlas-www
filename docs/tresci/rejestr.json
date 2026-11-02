@@ -20168,6 +20168,36 @@
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {
+  "id": "NAP-066",
+  "twierdzenie": "Douchi (fermentowana czarna soja) było przyczyną zatrucia Bacillus cereus u 139 osób w Chinach; szczepy wyizolowano z wymiocin i z niegotowanego douchi, dwa wytwarzały toksynę wymiotną cereulid.",
+  "zrodla": [
+   {
+    "adres": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=25188780&rettype=abstract&retmode=text",
+    "miejsce": "PubMed 25188780: Zhou i in., Foodborne Pathogens and Disease 2014; abstrakt",
+    "cytat": "The outbreak involved 139 persons who had nausea, vomiting, and diarrhea. … The strains were isolated from vomit and the unprepared douchi. Two of the strains produced the emetic toxin cereulide",
+    "odczyt": "2026-11-02",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "e98d4234e65a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02 (SUS-312)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "Douchi (fermented black soybeans) caused a Bacillus cereus outbreak in China involving 139 persons; the strains were isolated from vomit and from unprepared douchi, and two of them produced the emetic toxin cereulide.",
+  "uwaga": "Szczebel 2 (recenzowane, D-013: jedno wystarcza). Numer z puli C11 (SUS-312) przeniesiony do NAP obok NAP-052 (Bacillus) i NAP-062 (douchi), B13-D6.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
   "id": "MLE-001",
   "twierdzenie": "Surowe (niepasteryzowane) mleko może zawierać groźne drobnoustroje, m.in. Salmonella, E. coli, Listeria i Campylobacter.",
   "zrodla": [
@@ -46828,6 +46858,707 @@
   "klaster": "SUS",
   "jednoZrodlo": false,
   "pochodzenie": "B7 E1-suszenie-s7-m-2026-11-02",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-300",
+  "twierdzenie": "Według SDSU Extension, powołującej się na NCHFP, suszenia kalarepy się nie zaleca.",
+  "zrodla": [
+   {
+    "adres": "https://extension.sdstate.edu/sites/default/files/2024-04/S-0001-21-Kohlrabi-Preserve_It.pdf",
+    "miejsce": "SDSU Extension, Preserve It! Kohlrabi (S-0001-21), kolumna Drying",
+    "cytat": "The National Center for Home Food Preservation does not recommend drying kohlrabi.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "6935b621d7e6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to SDSU Extension, citing NCHFP, drying kohlrabi is not recommended.",
+  "uwaga": "Arkusz nie podaje powodu. MSU daje kalarepie ocenę „Fair” (SUS-121): obie oceny bez procedury.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-301",
+  "twierdzenie": "Niedojrzałe owoce miechunki (Physalis, złote jagody) oraz jej łodygi i liście zawierają toksyny, jak u innych roślin psiankowatych; je się tylko owoce dojrzałe.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/growing-ground-cherries",
+    "miejsce": "Penn State Extension, Growing Ground Cherries; How do you prepare ground cherries to eat?",
+    "cytat": "Dry them like raisins. Warning: Like other nightshade plants, the unripe fruits of ground cherries, as well as their stems and leaves, contain toxins.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "b79d252b1825"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„Je się tylko owoce dojrzałe” to wniosek redakcji z ostrzeżenia (źródło nie podaje tego zdania wprost).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Unripe ground cherry (Physalis) fruits and the plant’s stems and leaves contain toxins, as in other nightshade plants; only ripe fruits are eaten.",
+  "uwaga": "„Dry them like raisins” nie jest procedurą (brak obróbki, temperatury, czasu, testu).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-302",
+  "twierdzenie": "Według Oregon State Extension tomatillo kroi się w plastry ok. 1/4 cala (ok. 6 mm) i suszy w 125–135°F (ok. 52–57°C) do całkowitej suchości bez kieszeni wilgoci; SDSU Extension (za NCHFP) pisze, że suszenia tomatillo się nie zaleca.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/preserving-tomatillos",
+    "miejsce": "Oregon State University Extension, Preserving tomatillos; Drying",
+    "cytat": "Slice tomatillos about ¼ inch thick OR they can be chopped or diced. … Dehydrate 125 -135⁰F until tomatillos are completely dry with no moisture pockets.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "6085db8b19e4"
+   },
+   {
+    "adres": "https://extension.sdstate.edu/sites/default/files/2024-04/S-0001-39-Tomatillo-Preserve_It.pdf",
+    "miejsce": "SDSU Extension, Preserve It! Tomatillo (S-0001-39), kolumna Drying",
+    "cytat": "The National Center for Home Food Preservation does not recommend drying tomatillos.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "e64788e3b78b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to Oregon State Extension, tomatillos are sliced about 1/4 inch (about 6 mm) thick and dried at 125–135°F (about 52–57°C) until completely dry with no moisture pockets; SDSU Extension (citing NCHFP) states that drying tomatillos is not recommended.",
+  "uwaga": "Sprzeczne na tym samym szczeblu (3); 125–135°F jest poniżej 140°F z SUS-001. Dotyczy Physalis philadelphica, nie złotych jagód z wariantu: tylko kontekst. D-027: POPARTE (sprzeczność źródeł opisana w samym zdaniu); 125–135°F tylko jako kontekst, nie do karty.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-303",
+  "twierdzenie": "Według SDSU Extension por do suszenia: odciąć korzenie, umyć, kroić w plastry 1/4 cala (ok. 6 mm), ustawić suszarkę na 145°F (ok. 63°C) i układać plastry w jednej warstwie.",
+  "zrodla": [
+   {
+    "adres": "https://extension.sdstate.edu/sites/default/files/2024-04/S-0001-22-Leek-Preserve_It.pdf",
+    "miejsce": "SDSU Extension, Preserve It! Leek (S-0001-22), kolumna Drying",
+    "cytat": "Trim off roots … Wash … Cut ¼ inch slices … Set dehydrator at 145 degrees F … Arrange slices in single layer on drying racks",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "19c1ca9c2e83"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to SDSU Extension, leeks for drying: trim off the roots, wash, cut 1/4 inch (about 6 mm) slices, set the dehydrator at 145°F (about 63°C) and arrange the slices in a single layer.",
+  "uwaga": "Arkusz nie podaje czasu, blanszowania ani testu suchości; stopka: materiał uzupełniający, nie przewodnik dla początkujących. Kopia na extension.illinois.edu identyczna.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-304",
+  "twierdzenie": "Według Michigan State University Extension rzodkiewek (ulotka obejmuje też typ daikon) nie zaleca się utrwalać, także mrozić, z powodu dużej zawartości wody.",
+  "zrodla": [
+   {
+    "adres": "https://www.canr.msu.edu/uploads/resources/pdfs/radishes_(hni50).pdf",
+    "miejsce": "Michigan State University Extension, Michigan Fresh: Radishes (HNI50); How to preserve",
+    "cytat": "Radishes are not recommended for preserving, including freezing, because of their high water content.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "7dfa568366b7"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Powód jakościowy (woda), nie bezpieczeństwa; uzupełnia SUS-038.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to Michigan State University Extension, radishes (the leaflet also covers the daikon type) are not recommended for preserving, including freezing, because of their high water content.",
+  "uwaga": "B13: robocze, bo weryfikator D-027 nie pobrał źródła (MSU: strona Incapsula); do ponownego sprawdzenia z innej kopii."
+ },
+ {
+  "id": "SUS-305",
+  "twierdzenie": "Według SDSU Extension łodygi selera naciowego kroi się w paski 1/2 cala (ok. 13 mm), blanszuje 2 minuty we wrzątku lub parze i suszy 10–16 godzin, zależnie od wielkości pasków.",
+  "zrodla": [
+   {
+    "adres": "https://extension.sdstate.edu/sites/default/files/2024-04/S-0001-14-Celery-Preseve_It.pdf",
+    "miejsce": "SDSU Extension, Preserve It! Celery (S-0001-14), kolumna Drying",
+    "cytat": "Trim and cut stalks into ½ inch strips … Place in boiling water or steam for 2 minutes … Dry 10-16 hours, depending on size of strips",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "ffd054c01b66"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to SDSU Extension, celery stalks are cut into 1/2 inch (about 13 mm) strips, blanched in boiling water or steam for 2 minutes and dried for 10–16 hours, depending on the size of the strips.",
+  "uwaga": "Seler naciowy; selera korzeniowego (bulwy) nie ma w żadnym źródle szczebla 1–3.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-306",
+  "twierdzenie": "Według SDSU Extension rzepę i brukiew do suszenia: zdjąć nać, obrać, kroić na kawałki grubości 1/4–1/2 cala (ok. 6–13 mm), blanszować 3–5 minut, suszyć w suszarce w 140°F (60°C) w jednej warstwie 10–12 godzin.",
+  "zrodla": [
+   {
+    "adres": "https://extension.sdstate.edu/sites/default/files/2024-04/S-0001-41-Turnip_Rutabaga-Preserve_It.pdf",
+    "miejsce": "SDSU Extension, Preserve It! Turnip/Rutabaga (S-0001-41), Drying, Process: Electric Dehydrator",
+    "cytat": "Remove tops, peel and cut into ¼-½ inch … thick pieces … Blanch for 3-5 minutes … Set dehydrator to 140 degrees F … Arrange strips in single layer on drying racks … Dry 10-12 hours",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "e0a62d1e0cc6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to SDSU Extension, turnips and rutabagas for drying: remove the tops, peel, cut into 1/4–1/2 inch (about 6–13 mm) thick pieces, blanch for 3–5 minutes and dry in a dehydrator at 140°F (60°C) in a single layer for 10–12 hours.",
+  "uwaga": "Arkusz ma w tytule „Turnip/Rutabaga”, w tekście „Dried turnips”. Stopka „Source: National Center for Home Food Preservation” stoi przy ramce Tips/Tricks, nie przy kolumnie Drying (D-027, B13): to nie jest cytat szczebla 1.",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmieniePrzed": {
+   "twierdzenie": "Według SDSU Extension (źródło: NCHFP) rzepę i brukiew do suszenia: zdjąć nać, obrać, kroić na kawałki grubości 1/4–1/2 cala (ok. 6–13 mm), blanszować 3–5 minut, suszyć w suszarce w 140°F (60°C) w jednej warstwie 10–12 godzin.",
+   "twierdzenie_en": "According to SDSU Extension (source: NCHFP), turnips and rutabagas for drying: remove the tops, peel, cut into 1/4–1/2 inch (about 6–13 mm) thick pieces, blanch for 3–5 minutes and dry in a dehydrator at 140°F (60°C) in a single layer for 10–12 hours."
+  }
+ },
+ {
+  "id": "SUS-307",
+  "twierdzenie": "Według CSU Extension (PreserveSmart) brukiew do suszenia: umyć, zdjąć nać, obrać, kroić w plastry 1/4–1/2 cala (ok. 6–13 mm), blanszować 3 1/2–4 1/2 minuty (poniżej 5000 stóp, ok. 1500 m; od 5000 stóp wzwyż 4 1/2–5 1/2 minuty), suszyć w 140°F (60°C), aż będzie łamliwa.",
+  "zrodla": [
+   {
+    "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/drying/rutabaga/",
+    "miejsce": "Colorado State University Extension, PreserveSmart: Drying Rutabaga; kroki 3–4",
+    "cytat": "Wash, remove tops and peel. Cut into slices 1/4-1/2\" thick. … Below 5,000 ft. 5,000 ft. and above 3 1/2-4 1/2 minutes 4 1/2-5 1/2 minutes … Dry at 140 ° F in an oven or dehydrator. … Dried rutabagas should be brittle.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "3a39fd59cdbb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to CSU Extension (PreserveSmart), rutabagas for drying: wash, remove tops and peel, cut into 1/4–1/2 inch (about 6–13 mm) slices, blanch for 3 1/2–4 1/2 minutes (below 5,000 ft, about 1500 m; at 5,000 ft and above, 4 1/2–5 1/2 minutes) and dry at 140°F (60°C) until brittle.",
+  "uwaga": "C7-D10: PreserveSmart i CSU Table 2 to różne źródła CSU; brukwi nie ma w Table 2, więc nie ma konfliktu.",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmieniePrzed": {
+   "twierdzenie": "Według CSU Extension (PreserveSmart) brukiew do suszenia: umyć, zdjąć nać, obrać, kroić w plastry 1/4–1/2 cala (ok. 6–13 mm), blanszować 3 1/2–4 1/2 minuty (poniżej 5000 stóp, ok. 1500 m; wyżej 4 1/2–5 1/2 minuty), suszyć w 140°F (60°C), aż będzie łamliwa.",
+   "twierdzenie_en": "According to CSU Extension (PreserveSmart), rutabagas for drying: wash, remove tops and peel, cut into 1/4–1/2 inch (about 6–13 mm) slices, blanch for 3 1/2–4 1/2 minutes (below 5,000 ft, about 1500 m; above, 4 1/2–5 1/2 minutes) and dry at 140°F (60°C) until brittle."
+  }
+ },
+ {
+  "id": "SUS-308",
+  "twierdzenie": "Według artykułu NC State Extension (Caldwell County) imbir i kurkumę do suszenia kroi się na kawałki 1–2 cale (ok. 2,5–5 cm) i suszy w suszarce do pełnej suchości; kurkumę przed suszeniem gotuje się 45 minut.",
+  "zrodla": [
+   {
+    "adres": "https://caldwell.ces.ncsu.edu/news/ginger-and-turmeric-tropical-superfoods-for-the-garden/",
+    "miejsce": "NC State Extension, Caldwell County Center: Ginger and Turmeric: Tropical Superfoods for the Garden; akapit o przechowywaniu",
+    "cytat": "To dry, cut into 1-2” pieces and place in a food dehydrator until very dry. … Turmeric should be boiled for 45 minutes before dried.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "2ba97bf1c2a3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to an NC State Extension article (Caldwell County), ginger and turmeric for drying are cut into 1–2 inch (about 2.5–5 cm) pieces and dried in a food dehydrator until very dry; turmeric is boiled for 45 minutes before drying.",
+  "uwaga": "Artykuł powiatowy bez temperatury suszarki, czasu i testu suchości: nie wystarcza do karty.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-309",
+  "twierdzenie": "NCHFP w dziale „Curing & Smoking” opisuje tylko wyroby z mięsa (wieprzowina: boczek, szynka, kiełbasa); nie ma tam przetestowanej domowej procedury wędzenia owoców ani warzyw.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/cure-smoke",
+    "miejsce": "NCHFP, Curing & Smoking; menu działu i wstęp",
+    "cytat": "Curing & Smoking Pork Bacon Ham Sausage … Once cured, the meats are subjected to the gentle, controlled application of smoke, which imparts a rich, smoky taste and acts as an additional preservative.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3d90f3f4dd86"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Twierdzenie o braku: oparte na zawartości działu w dniu odczytu.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "In its “Curing & Smoking” section NCHFP covers only meat products (pork: bacon, ham, sausage); that section has no tested home procedure for smoking fruits or vegetables.",
+  "uwaga": "Szukane także: extension „smoking fruit”, „cold smoking” (sekcja 6).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmieniePrzed": {
+   "twierdzenie": "NCHFP w dziale „Curing & Smoking” opisuje tylko wyroby z mięsa (wieprzowina: boczek, szynka, kiełbasa); nie ma tam przetestowanej domowej procedury wędzenia owoców ani warzyw.",
+   "twierdzenie_en": "In its “Curing & Smoking” section NCHFP covers only meat products (pork: bacon, ham, sausage); it has no tested home procedure for smoking fruits or vegetables."
+  }
+ },
+ {
+  "id": "SUS-310",
+  "twierdzenie": "Według brytyjskiej agencji UKHSA żywność jest głównym źródłem narażenia ogółu ludzi na wielopierścieniowe węglowodory aromatyczne (WWA), które występują głównie w żywności wędzonej lub przyrządzanej przez grillowanie i smażenie; według przeglądu FSA WWA występują w żywności zwykle w niskich ilościach i nie trzeba zmieniać nawyków żywieniowych. Benzo(a)piren IARC klasyfikuje jako rakotwórczy dla ludzi.",
+  "zrodla": [
+   {
+    "adres": "https://www.gov.uk/government/publications/benzoapyrene-properties-incident-management-and-toxicology/benzoapyrene-or-pahs-general-information",
+    "miejsce": "UKHSA, Benzo(a)pyrene or PAHs: general information; Exposure to PAHs; PAHs and cancer",
+    "cytat": "For the general public, food is the major source of exposure to PAHs . PAHs largely found in food that has been smoked or cooked using methods such as in charbroiling, grilling and frying. On reviewing a food survey, the Food Standards Agency has determined that PAHs were typically found in low levels in food and that people do not need to change their eating habits. … BaP has been classified by the International Agency for Research on Cancer ( IARC ) as causing cancer in humans.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "34d49275eec4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to the UK agency UKHSA, food is the major source of exposure to PAHs for the general public, found mainly in food that has been smoked or cooked by charbroiling, grilling and frying; the FSA found PAHs typically at low levels in food and that people do not need to change their eating habits. IARC classifies benzo(a)pyrene as causing cancer in humans.",
+  "uwaga": "Urząd (UKHSA) jako szczebel 1, analogia C10-D13 (BfR). Rozporządzenie UE 2023/915 (limity WWA) niedostępne (eur-lex 202).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmieniePrzed": {
+   "twierdzenie": "Według brytyjskiej agencji UKHSA żywność jest głównym źródłem narażenia ogółu ludzi na wielopierścieniowe węglowodory aromatyczne, które występują głównie w żywności wędzonej lub przyrządzanej przez grillowanie i smażenie; benzo(a)piren IARC klasyfikuje jako rakotwórczy dla ludzi.",
+   "twierdzenie_en": "According to the UK agency UKHSA, food is the major source of exposure to PAHs for the general public, found mainly in food that has been smoked or cooked by charbroiling, grilling and frying; IARC classifies benzo(a)pyrene as causing cancer in humans."
+  }
+ },
+ {
+  "id": "SUS-311",
+  "twierdzenie": "Według FDA mielenie ziarna na mąkę nie zabija bakterii chorobotwórczych, a domowa obróbka mąki może nie zabić wszystkich bakterii i nie czyni jej bezpieczną do jedzenia na surowo.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+    "miejsce": "FDA, Handling Flour Safely: What You Need to Know",
+    "cytat": "Processing raw grains into flour does not kill harmful bacteria. … Home treatments of flour may not effectively kill all bacteria and do not make it safe to eat raw.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fb9c48881930"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło mówi o mące ze zbóż (grains); zastosowanie do mąki z ciecierzycy to uproszczenie kierunkowo zgodne (surowy produkt rolny).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to FDA, processing raw grains into flour does not kill harmful bacteria, and home treatments of flour may not kill all bacteria and do not make it safe to eat raw.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-313",
+  "twierdzenie": "Wilgotność ziarna jest najważniejszym czynnikiem rozwoju pleśni wytwarzających aflatoksyny w przechowywanej kukurydzy; ziarno do długiego przechowywania suszy się do 13% wilgotności, a aflatoksyny powstają najszybciej w 75–95°F (ok. 24–35°C) przy wilgotności ziarna powyżej 18%.",
+  "zrodla": [
+   {
+    "adres": "https://extension.missouri.edu/g4155",
+    "miejsce": "University of Missouri Extension, G4155 Aflatoxins in Corn; przechowywanie i ramka Management practices",
+    "cytat": "Moisture content is the most important variable affecting growth of aflatoxin-producing molds in stored corn. … Grain going into long-term storage should be dried to 13 percent moisture.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "3aad8ef3f069"
+   },
+   {
+    "adres": "https://crops.extension.iastate.edu/cropnews/2012/09/aflatoxin-and-grain-storage",
+    "miejsce": "Iowa State University Extension, ICM News 2012: Aflatoxin and Grain Storage",
+    "cytat": "The optimum temperature for aflatoxin production is 75-95F with moistures greater than 18 percent.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "2b5973848e1c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "Moisture content is the most important factor in the growth of aflatoxin-producing molds in stored corn; grain for long-term storage is dried to 13 percent moisture, and aflatoxin production is optimal at 75–95°F (about 24–35°C) with moistures greater than 18 percent.",
+  "uwaga": "Wilgotności ziarna w domu nie da się zmierzyć bez wilgotnościomierza (wniosek redakcji, bez źródła).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-314",
+  "twierdzenie": "Według University of Missouri Extension nie ma zatwierdzonej przez FDA metody „odtruwania” kukurydzy zawierającej aflatoksyny.",
+  "zrodla": [
+   {
+    "adres": "https://extension.missouri.edu/g4155",
+    "miejsce": "University of Missouri Extension, G4155 Aflatoxins in Corn; Reducing aflatoxins in corn and feed",
+    "cytat": "Currently, there is no FDA-approved or sanctioned method for “detoxifying” — through ammoniation or other means — corn that contains aflatoxins.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "3aad8ef3f069"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Nixtamalizacja nie jest w źródle wymieniona; zdanie nie mówi, że nixtamalizacja usuwa lub nie usuwa aflatoksyn.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to University of Missouri Extension, there is no FDA-approved method for “detoxifying” corn that contains aflatoxins.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-315",
+  "twierdzenie": "Według UC ANR (publikacja 8267) dojrzałe naturalnie czarne oliwki przed suszeniem zanurza się na 3 minuty we wrzątku i trzyma 3 dni w mocnej solance (1 funt, 1 1/2 szklanki, soli do pikli na galon zimnej wody; ok. 450 g na 3,8 l), a potem suszy w całości w suszarce w 140°F (60°C) w jednej warstwie, ok. 20–24 godzin; oliwki ługowane suszy się bez dodatkowej obróbki.",
+  "zrodla": [
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "UC ANR Publication 8267, Olives: Safe Methods for Home Pickling (2007); Drying Olives, Naturally black ripe olive pretreatment, Dehydrator drying (s. 18–19)",
+    "cytat": "You can successfully dry lye-cured green and dark ripe style olives, without further treatment, in the sun or in a home dehydrator. … Naturally black ripe olive pretreatment: Place olives in boiling water for 3 minutes. … Cover the olives with strong brine made by adding 1 pound (11⁄2 cups) of pickling salt per gallon of cool water; close container loosely. Store olives in brine for 3 days, and then drain off the brine. … Set the dehydrator temperature at 140°F. … Arrange whole pretreated black ripe olives or lye-cured olives on drying trays in a single layer so the fruits do not touch or overlap. … Olives will be dry in approximately 20 to 24 hours.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep na pliku pobranym dziś curl przez subagenta B (moje ponowne pobranie: HTTP 202 bez treści; C11-D3)",
+    "sha12": "66830cf199b1"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to UC ANR (publication 8267), naturally black ripe olives are placed in boiling water for 3 minutes and kept 3 days in strong brine (1 pound, 1 1/2 cups, of pickling salt per gallon of cool water; about 450 g per 3.8 l) before drying, then dried whole in a dehydrator at 140°F (60°C) in a single layer for approximately 20–24 hours; lye-cured olives are dried without further treatment.",
+  "uwaga": "Suszenie na słońcu źródło odsyła do innych publikacji: w karcie tylko suszarka (SUS-003 ostrożniej). Wydanie 06/2007: aktualność do sprawdzenia przy przeglądzie. B13: robocze, bo weryfikator D-027 nie pobrał źródła (eScholarship: HTTP 202 bez treści); do ponownego sprawdzenia z innej kopii."
+ },
+ {
+  "id": "SUS-316",
+  "twierdzenie": "Według UC ANR (publikacja 8267) suszone oliwki zachowują jakość 3–4 miesiące w chłodnym miejscu, a dłużej w temperaturze pokojowej jełczeją; w lodówce lub zamrażarce (0°F, -18°C) około roku.",
+  "zrodla": [
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "UC ANR Publication 8267; Drying Olives, Packaging and storage (s. 19)",
+    "cytat": "The dried olives will keep for 3 to 4 months in a cool place, but they tend to become rancid if stored longer at room temperature. You can keep dried olives in the refrigerator or home freezer (0°F) for about a year.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep na pliku pobranym dziś curl przez subagenta B (moje ponowne pobranie: HTTP 202 bez treści; C11-D3)",
+    "sha12": "66830cf199b1"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to UC ANR (publication 8267), dried olives keep 3–4 months in a cool place but tend to become rancid if stored longer at room temperature; in the refrigerator or home freezer (0°F, -18°C) about a year.",
+  "uwaga": "B13: robocze, bo weryfikator D-027 nie pobrał źródła (eScholarship: HTTP 202 bez treści); do ponownego sprawdzenia z innej kopii."
+ },
+ {
+  "id": "SUS-317",
+  "twierdzenie": "Według UC ANR (publikacja 8267) do oliwek suszonych w soli na sucho daje się ok. 1 funt (1 1/2 szklanki) soli do pikli na 2 funty oliwek (ok. 450 g na 900 g); gotowe oliwki trzyma się w chłodnym miejscu najwyżej 1 miesiąc, w lodówce do 6 miesięcy, w zamrażarce do roku.",
+  "zrodla": [
+   {
+    "adres": "https://escholarship.org/content/qt55d9628m/qt55d9628m.pdf",
+    "miejsce": "UC ANR Publication 8267; Dry Salt Cured Olives, Preparation pkt 3 i 7 (s. 11–12)",
+    "cytat": "Add about 1 pound (11⁄2 cups) of pickling salt for every 2 pounds of olives. … Store in a cool place and use within 1 month, or refrigerate for up to 6 months, or store in a home freezer for up to a year.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep na pliku pobranym dziś curl przez subagenta B (moje ponowne pobranie: HTTP 202 bez treści; C11-D3)",
+    "sha12": "66830cf199b1"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to UC ANR (publication 8267), dry salt cured olives take about 1 pound (1 1/2 cups) of pickling salt for every 2 pounds of olives (about 450 g per 900 g); finished olives are stored in a cool place for up to 1 month, refrigerated for up to 6 months or frozen for up to a year.",
+  "uwaga": "olives-v08 (salt-preservation, cool-storage) jest poza tą partią: do toru, który ma oliwki; tu tylko jako granica dla olives-v14. B13: robocze, bo weryfikator D-027 nie pobrał źródła (eScholarship: HTTP 202 bez treści); do ponownego sprawdzenia z innej kopii."
+ },
+ {
+  "id": "SUS-318",
+  "twierdzenie": "Dynia jest warzywem niskokwasowym. Według materiałów NCHFP (USDA i Georgia Cooperative Extension, stan z 09/2015) nie ma przetestowanych przepisów na bezpieczne wekowanie słodkich przetworów z dyni (dżemów, galaretek, konfitur, masła dyniowego) do przechowywania w temperaturze pokojowej: należy je przechowywać w lodówce lub zamrażarce i traktować jak świeżą dynię. Nie ma też zaleceń dla wekowania dyni rozgniecionej lub przetartej; zalecane jest tylko wekowanie ciśnieniowe dyni w kostkach.",
+  "zrodla": [
+   {
+    "adres": "https://site.extension.uga.edu/forsyth/have-your-pumpkin-and-eat-it-too/",
+    "miejsce": "University of Georgia Extension (Forsyth County), Have Your Pumpkin and Eat It Too; Home-canned products to avoid (Andress, Harrison, 2019)",
+    "cytat": "Pumpkin is a low acid vegetable and requires special attention when preserving for later use to avoid food safety issues. Even though pumpkin butters are popular, there is no properly-tested, safe home canning method for room temperature storage.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (strona HTML; subagent czytał przez wp-json)",
+    "sha12": "44a479641622"
+   },
+   {
+    "adres": "https://www.ucanr.edu/sites/default/files/2022-07/369703.pdf",
+    "miejsce": "NCHFP, Home Preserving Pumpkins (09/2015), w materiałach UC Master Food Preservers",
+    "cytat": "Only pressure canning methods are recommended for canning cubed pumpkin. We have no properly researched directions to recommend for canning mashed or pureed pumpkin or winter squash, or pumpkin butter. … The USDA and Georgia Cooperative Extension currently do not have any tested recipes to recommend for safely canning pumpkin preserves (jams, jellies, conserves, or pumpkin butter) and storing them at room temperature. These pumpkin products must be stored in the refrigerator or freezer and treated the same as fresh pumpkin.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep",
+    "uwaga": "Kopia tekstu NCHFP; szczebel nadaje oryginał (NCHFP).",
+    "sha12": "44826e2e181a"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Źródła mówią o wekowaniu przetworów z dyni; dyni kandyzowanej nie wymieniają. Przeniesienie na dynię kandyzowaną trzymaną poza lodówką to uproszczenie kierunkowo zgodne (niskokwasowy przetwór słodki w temperaturze pokojowej bez przetestowanego procesu).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "Pumpkin is a low-acid vegetable. According to NCHFP materials (USDA and Georgia Cooperative Extension, as of 09/2015), there are no tested recipes for safely canning pumpkin preserves (jams, jellies, conserves or pumpkin butter) for room-temperature storage: they must be stored in the refrigerator or freezer and treated the same as fresh pumpkin. There are no recommended directions for canning mashed or pureed pumpkin either; only pressure canning of cubed pumpkin is recommended.",
+  "uwaga": "B13: robocze po dwóch przebiegach D-027 (CZĘŚCIOWO); brzmienie poprawione według drugiego weryfikatora, trzeci przebieg otwarty (wzór B10-D4).",
+  "brzmieniePrzed": {
+   "twierdzenie": "Dynia jest warzywem niskokwasowym; dla przetworów z dyni (np. masła dyniowego, dyni rozgniecionej) nie ma przetestowanej, bezpiecznej domowej metody przechowywania w temperaturze pokojowej.",
+   "twierdzenie_en": "Pumpkin is a low-acid vegetable; for pumpkin products (such as pumpkin butter or mashed pumpkin) there is no properly tested, safe home method for room-temperature storage."
+  }
+ },
+ {
+  "id": "SUS-319",
+  "twierdzenie": "Według przepisu UCCE Master Food Preservers (Solano/Yolo) imbir kandyzowany na sucho gotuje się 45 minut w syropie z cukru i wody, osusza 30 minut na kratce, obtacza w cukrze, suszy na papierze woskowanym i przechowuje w szczelnym pojemniku.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-01/343262.pdf",
+    "miejsce": "UCCE Master Food Preserver Program Solano/Yolo; Candied Ginger (s. 2)",
+    "cytat": "When sugar is dissolved, add ginger and boil for 45 minutes until tender. … Place ginger on rack to dry for 30 minutes. … Toss with sugar to coat and dry on wax paper. … Store in airtight container.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "f59015262153"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to a UCCE Master Food Preservers (Solano/Yolo) recipe, dry candied ginger is boiled for 45 minutes in a sugar-and-water syrup, dried on a rack for 30 minutes, tossed with sugar, dried on wax paper and stored in an airtight container.",
+  "uwaga": "Przepis powiatowy bez opisu badań i bez czasu przechowywania; nie obejmuje kurkumy ani formy w syropie.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-320",
+  "twierdzenie": "Według Clemson HGIC (Drying Fruits) blanszowanie owoców w syropie: 1 szklanka cukru, 1 szklanka jasnego syropu kukurydzianego i 2 szklanki wody zagotować, dodać 1 funt (ok. 450 g) przygotowanych owoców, gotować na małym ogniu 10 minut, zostawić w gorącym syropie 30 minut, wyjąć, lekko opłukać zimną wodą, osączyć i suszyć; produkt przypomina owoce kandyzowane. Źródło wymienia do tej metody jabłka, morele, figi, nektarynki, brzoskwinie, gruszki, śliwki i śliwki suszone (prunes).",
+  "zrodla": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "miejsce": "Clemson HGIC, Drying Fruits; Syrup-Blanching",
+    "cytat": "The resulting product is similar to candied fruit. … Combine 1 cup sugar, 1 cup light corn syrup and 2 cups water in a pot. Bring to a boil. Add 1 pound of prepared fruit and simmer 10 minutes. Remove from heat and let fruit stand in hot syrup for 30 minutes. Lift fruit out of syrup, rinse lightly in cold water, drain on paper towels and place on dryer trays.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "178fb3efe46e"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to Clemson HGIC (Drying Fruits), syrup blanching of fruit: bring 1 cup sugar, 1 cup light corn syrup and 2 cups water to a boil, add 1 pound (about 450 g) of prepared fruit, simmer 10 minutes, let stand in the hot syrup 30 minutes, lift out, rinse lightly in cold water, drain and dry; the product is similar to candied fruit. The source lists apples, apricots, figs, nectarines, peaches, pears, plums and prunes for this method.",
+  "uwaga": "Lista owoców w tej sekcji (jabłka, morele, figi, nektaryny, brzoskwinie, gruszki, śliwki) nie ma wiśni; tabela ma wiśnie z czasem syropu „for sour cherries” (SUS-321). B13: robocze po dwóch przebiegach D-027 (CZĘŚCIOWO); brzmienie poprawione według drugiego weryfikatora, trzeci przebieg otwarty (wzór B10-D4).",
+  "brzmieniePrzed": {
+   "twierdzenie": "Według Clemson HGIC (tabela za UGA So Easy to Preserve) blanszowanie owoców w syropie: 1 szklanka cukru, 1 szklanka jasnego syropu kukurydzianego i 2 szklanki wody zagotować, dodać 1 funt (ok. 450 g) przygotowanych owoców, gotować na małym ogniu 10 minut, zostawić w gorącym syropie 30 minut, wyjąć, lekko opłukać zimną wodą, osączyć i suszyć; produkt przypomina owoce kandyzowane.",
+   "twierdzenie_en": "According to Clemson HGIC (table after UGA So Easy to Preserve), syrup blanching of fruit: bring 1 cup sugar, 1 cup light corn syrup and 2 cups water to a boil, add 1 pound (about 450 g) of prepared fruit, simmer 10 minutes, let stand in the hot syrup 30 minutes, lift out, rinse lightly in cold water, drain and dry; the product is similar to candied fruit."
+  }
+ },
+ {
+  "id": "SUS-321",
+  "twierdzenie": "Według tabeli Clemson HGIC wiśnie (kwaśne) po usunięciu szypułek i pestek można blanszować w syropie 10 minut, a czas suszenia wiśni w suszarce to 8–12 godzin.",
+  "zrodla": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "miejsce": "Clemson HGIC, Drying Fruits; tabela Drying Fruits at Home, kolumny: Preparation | Sulfur | Steam | Syrup | Others | Drying Times; wiersz Cherries",
+    "cytat": "Cherries | Stem, wash, drain and pit fully ripe cherries. Cut in half, chop or leave whole. | | | 10 (for sour cherries) | Whole: Dip in boiling water 30 seconds or more to check skins. Cut and pitted: no treatment necessary. | 8 to 12",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "178fb3efe46e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the Clemson HGIC table, sour cherries, stemmed and pitted, may be syrup-blanched for 10 minutes, and the dehydrator drying time for cherries is 8–12 hours.",
+  "uwaga": "Syrop tylko dla wiśni; dla czereśni brak (sweet-cherry-v11).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-322",
+  "twierdzenie": "Według tabeli Clemson HGIC morele (bez pestek, połówki, ewentualnie plastry) można blanszować w syropie 10 minut; suszenie w suszarce 24–36 godzin, plastry krócej.",
+  "zrodla": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "miejsce": "Clemson HGIC, Drying Fruits; tabela Drying Fruits at Home, wiersz Apricots i przypis **",
+    "cytat": "Apricots | Pit and halve. May slice if desired. | 2 | 3 to 4 | 10 | Ascorbic acid solution, ascorbic acid mixture, fruit juice dip, sulfite dip | 24 to 36** … **Drying times are shorter for slices and other cuts of fruit.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "178fb3efe46e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the Clemson HGIC table, apricots (pitted, halved, optionally sliced) may be syrup-blanched for 10 minutes; dehydrator drying takes 24–36 hours, shorter for slices.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-323",
+  "twierdzenie": "Według NC State Extension owoce pigwowca japońskiego (Chaenomeles japonica) są jadalne, na surowo gorzkie; używa się ich do galaretek i innych przetworów.",
+  "zrodla": [
+   {
+    "adres": "https://plants.ces.ncsu.edu/plants/chaenomeles-japonica/",
+    "miejsce": "NC State Extension Gardener Plant Toolbox, Chaenomeles japonica; opis i pole Edibility",
+    "cytat": "The fruits are edible, although have a bitter taste when eaten raw. They can be used in making jellies and other preserves.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "56e17ec28601"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C11 E1-suszenie-zrodla-p1-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to NC State Extension, the fruits of Japanese flowering quince (Chaenomeles japonica) are edible but bitter when eaten raw; they are used for jellies and other preserves.",
+  "uwaga": "Brak procedury suszenia w źródłach szczebla 1–3.",
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {
