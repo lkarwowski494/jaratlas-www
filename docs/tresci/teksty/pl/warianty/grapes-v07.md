@@ -8,15 +8,19 @@ UC ostrzega, że nalewanie soku z sokownika prosto do wysterylizowanych słoikó
 
 NCHFP: słoiki z sokiem owocowym trzeba wekować w kąpieli wodnej wystarczająco długo, by zniszczyć drobnoustroje powodujące psucie. [T:SLO-050]
 
-Jeśli soku nie wekujesz, trzymaj go w lodówce do tygodnia; dłużej przechowuj go tylko zamrożony. [T:SLO-207]
+Według UC niewekowany sok trzymaj w lodówce do tygodnia; dłużej przechowuj go tylko zamrożony. [T:SLO-207]
 
 ## Sok
+
+Według UC używaj owoców dobrej jakości, dojrzałych, ale nie przejrzałych, a owoce uszkodzone albo spleśniałe wyrzuć. [T:SLO-211]
+
+UC zaleca, żeby owoców spadłych z drzewa nie używać do soku ani do wekowania. [T:SLO-211]
 
 Sok uzyskaj według instrukcji sokownika; w razie potrzeby przecedź go przez sitko albo gazę, żeby usunąć pestki. [T:SLO-202]
 
 W czystym garnku z niereaktywnego materiału podgrzej sok tylko do zagotowania, jeśli chcesz z cukrem do smaku, mieszając, aż cukier się rozpuści. [T:SLO-202]
 
-## Wysterylizowane słoiki (dla najkrótszego czasu)
+## Sterylizacja słoików
 
 UC dopuszcza 5 minut dla słoików 1/2 pinty i pint na 0–1000 stóp tylko wtedy, gdy słoiki zostały najpierw wysterylizowane. [T:SLO-205]
 
@@ -30,17 +34,19 @@ Tuż przed napełnianiem wyjmuj gorące, wysterylizowane słoiki po jednym i ods
 
 ## Wekowanie
 
-Gorący sok nalej chochlą do gorących słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni. [T:SLO-202]
+Według UC gorący sok nalej chochlą do gorących słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni. [T:SLO-202]
 
 Brzegi słoików przetrzyj zwilżonym czystym ręcznikiem papierowym albo ściereczką, nałóż pokrywki i dokręć zakrętki tylko palcami. [T:SLO-202]
 
 Według UC na wysokości 0–1000 stóp (do 300 m) wekuj słoiki 1/2 pinty i pint 5 minut, ale tylko wtedy, gdy zostały najpierw wysterylizowane, a słoiki quart 10 minut. [T:SLO-205,ACI-176]
 
+Jeśli słoiki 1/2 pinty i pint nie były wysterylizowane, UC nie podaje dla nich czasu na tej wysokości, więc najpierw je wysterylizuj, jak opisano wyżej. [T:SLO-205,SLO-118]
+
 Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
 
-Na wysokości 1001–6000 stóp (powyżej 300 m do 1800 m) wekuj słoiki 1/2 pinty i pint 10 minut, a quart 15. [T:SLO-205,ACI-176]
+Według UC na wysokości 1001–6000 stóp (powyżej 300 m do 1800 m) wekuj słoiki 1/2 pinty i pint 10 minut, a quart 15. [T:SLO-205,ACI-176]
 
-Powyżej 6000 stóp (powyżej 1800 m) wekuj słoiki 1/2 pinty i pint 15 minut, a quart 25. [T:SLO-205,ACI-176]
+Według UC powyżej 6000 stóp (powyżej 1800 m) wekuj słoiki 1/2 pinty i pint 15 minut, a quart 25. [T:SLO-205,ACI-176]
 
 Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, a 6000 stóp to 1800 m. [T:ACI-176]
 
@@ -56,7 +62,9 @@ UC dopuszcza dla soku winogronowego także słoiki o pojemności pół galona, t
 
 ## Studzenie i przechowywanie
 
-Po wekowaniu wyłącz ogień, zdejmij pokrywę garnka i odczekaj 5 minut, zanim wyjmiesz słoiki. [T:SLO-204]
+Według UC po wekowaniu wyłącz ogień, zdejmij pokrywę garnka i odczekaj 5 minut, zanim wyjmiesz słoiki. [T:SLO-204]
+
+Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
 
 Słoiki studź w temperaturze pokojowej 12–24 godziny, potem sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196]
 

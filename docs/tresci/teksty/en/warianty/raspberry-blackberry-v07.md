@@ -16,9 +16,13 @@ UC warns that pouring steam-juicer juice straight into sterilized jars, capping 
 
 NCHFP: jars of fruit juice must be processed in a boiling-water canner long enough to destroy spoilage organisms. [T:SLO-050]
 
-If you do not can the juice, keep it in the refrigerator for up to one week; for longer storage, freeze it. [T:SLO-207]
+According to UC, if you do not can the juice, keep it in the refrigerator for up to one week; for longer storage, freeze it. [T:SLO-207]
 
 ## Making the juice
+
+According to UC, use good-quality fruit that is ripe but not overripe, and throw out any damaged or moldy fruit. [T:SLO-211]
+
+UC recommends not using windfall fruit, which has fallen to the ground, for juice or for canning. [T:SLO-211]
 
 Extract the juice according to your steam juicer’s instructions; if necessary, strain it through a sieve or cheesecloth to remove seeds. [T:SLO-202]
 
@@ -26,7 +30,7 @@ In a clean, non-reactive saucepan, heat the juice just to a boil, with sugar to 
 
 ## Canning
 
-Ladle the hot juice into hot jars, leaving 1/4 inch (about 0.6 cm) of headspace. [T:SLO-202]
+According to UC, ladle the hot juice into hot jars, leaving 1/4 inch (about 0.6 cm) of headspace. [T:SLO-202]
 
 Wipe the rims with a damp, clean paper towel or cloth, put on the lids and screw the bands on only fingertip-tight. [T:SLO-202]
 
@@ -34,11 +38,11 @@ According to UC, at 0–1000 ft (up to 300 m) process pint and quart jars for 15
 
 Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
 
-At 1001–3000 ft (above 300 m up to 900 m) process them for 20 minutes. [T:SLO-203,ACI-176]
+According to UC, at 1001–3000 ft (above 300 m up to 900 m) process them for 20 minutes. [T:SLO-203,ACI-176]
 
-At 3001–6000 ft (above 900 m up to 1800 m) process them for 25 minutes. [T:SLO-203,ACI-176]
+According to UC, at 3001–6000 ft (above 900 m up to 1800 m) process them for 25 minutes. [T:SLO-203,ACI-176]
 
-At 6001–8000 ft (above 1800 m up to 2400 m) process them for 30 minutes. [T:SLO-203,ACI-176,SLO-209]
+According to UC, at 6001–8000 ft (above 1800 m up to 2400 m) process them for 30 minutes. [T:SLO-203,ACI-176,SLO-209]
 
 Above 8000 ft (above 2400 m) UC gives no time, so this card does not cover canning at that elevation. [T:SLO-203,SLO-209]
 
@@ -56,7 +60,9 @@ UC gives no time for these juices in jars larger than a quart, such as 1 l, so J
 
 ## Cooling and storing
 
-After processing, turn off the heat, remove the canner lid and wait 5 minutes before taking the jars out. [T:SLO-204]
+According to UC, after processing, turn off the heat, remove the canner lid and wait 5 minutes before taking the jars out. [T:SLO-204]
+
+When you take the hot jars out of the canner, do not retighten the lids; this can cut through the seal and cause seal failures. [T:SLO-210]
 
 Cool the jars at room temperature for 12 to 24 hours, then test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196]
 

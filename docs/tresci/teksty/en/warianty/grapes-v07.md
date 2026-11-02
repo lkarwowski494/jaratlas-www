@@ -8,15 +8,19 @@ UC warns that pouring steam-juicer juice straight into sterilized jars, capping 
 
 NCHFP: jars of fruit juice must be processed in a boiling-water canner long enough to destroy spoilage organisms. [T:SLO-050]
 
-If you do not can the juice, keep it in the refrigerator for up to one week; for longer storage, freeze it. [T:SLO-207]
+According to UC, if you do not can the juice, keep it in the refrigerator for up to one week; for longer storage, freeze it. [T:SLO-207]
 
 ## Making the juice
+
+According to UC, use good-quality fruit that is ripe but not overripe, and throw out any damaged or moldy fruit. [T:SLO-211]
+
+UC recommends not using windfall fruit, which has fallen to the ground, for juice or for canning. [T:SLO-211]
 
 Extract the juice according to your steam juicer’s instructions; if necessary, strain it through a sieve or cheesecloth to remove seeds. [T:SLO-202]
 
 In a clean, non-reactive saucepan, heat the juice just to a boil, with sugar to taste if you like, stirring until the sugar dissolves. [T:SLO-202]
 
-## Sterilized jars (for the shortest time)
+## Sterilizing jars
 
 UC allows 5 minutes for half-pint and pint jars at 0–1000 ft only if the jars were sterilized first. [T:SLO-205]
 
@@ -30,17 +34,19 @@ Just before filling, remove and drain the hot sterilized jars one at a time. [T:
 
 ## Canning
 
-Ladle the hot juice into hot jars, leaving 1/4 inch (about 0.6 cm) of headspace. [T:SLO-202]
+According to UC, ladle the hot juice into hot jars, leaving 1/4 inch (about 0.6 cm) of headspace. [T:SLO-202]
 
 Wipe the rims with a damp, clean paper towel or cloth, put on the lids and screw the bands on only fingertip-tight. [T:SLO-202]
 
 According to UC, at 0–1000 ft (up to 300 m) process half-pint and pint jars for 5 minutes, but only if they were sterilized first, and quart jars for 10 minutes. [T:SLO-205,ACI-176]
 
+If the half-pint or pint jars were not sterilized, UC gives no time for them at this elevation, so sterilize them first as described above. [T:SLO-205,SLO-118]
+
 Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
 
-At 1001–6000 ft (above 300 m up to 1800 m) process half-pints and pints for 10 minutes and quarts for 15. [T:SLO-205,ACI-176]
+According to UC, at 1001–6000 ft (above 300 m up to 1800 m) process half-pints and pints for 10 minutes and quarts for 15. [T:SLO-205,ACI-176]
 
-Above 6000 ft (above 1800 m) process half-pints and pints for 15 minutes and quarts for 25. [T:SLO-205,ACI-176]
+According to UC, above 6000 ft (above 1800 m) process half-pints and pints for 15 minutes and quarts for 25. [T:SLO-205,ACI-176]
 
 The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m and 6000 ft becomes 1800 m. [T:ACI-176]
 
@@ -56,7 +62,9 @@ UC also allows half-gallon jars for grape juice, only in a boiling-water canner;
 
 ## Cooling and storing
 
-After processing, turn off the heat, remove the canner lid and wait 5 minutes before taking the jars out. [T:SLO-204]
+According to UC, after processing, turn off the heat, remove the canner lid and wait 5 minutes before taking the jars out. [T:SLO-204]
+
+When you take the hot jars out of the canner, do not retighten the lids; this can cut through the seal and cause seal failures. [T:SLO-210]
 
 Cool the jars at room temperature for 12 to 24 hours, then test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196]
 

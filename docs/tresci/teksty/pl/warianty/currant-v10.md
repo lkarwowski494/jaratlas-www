@@ -16,9 +16,13 @@ UC ostrzega, że nalewanie soku z sokownika prosto do wysterylizowanych słoikó
 
 NCHFP: słoiki z sokiem owocowym trzeba wekować w kąpieli wodnej wystarczająco długo, by zniszczyć drobnoustroje powodujące psucie. [T:SLO-050]
 
-Jeśli soku nie wekujesz, trzymaj go w lodówce do tygodnia; dłużej przechowuj go tylko zamrożony. [T:SLO-207]
+Według UC niewekowany sok trzymaj w lodówce do tygodnia; dłużej przechowuj go tylko zamrożony. [T:SLO-207]
 
 ## Sok
+
+Według UC używaj owoców dobrej jakości, dojrzałych, ale nie przejrzałych, a owoce uszkodzone albo spleśniałe wyrzuć. [T:SLO-211]
+
+UC zaleca, żeby owoców spadłych z drzewa nie używać do soku ani do wekowania. [T:SLO-211]
 
 Sok uzyskaj według instrukcji sokownika; w razie potrzeby przecedź go przez sitko albo gazę, żeby usunąć pestki. [T:SLO-202]
 
@@ -26,7 +30,7 @@ W czystym garnku z niereaktywnego materiału podgrzej sok tylko do zagotowania, 
 
 ## Wekowanie
 
-Gorący sok nalej chochlą do gorących słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni. [T:SLO-202]
+Według UC gorący sok nalej chochlą do gorących słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni. [T:SLO-202]
 
 Brzegi słoików przetrzyj zwilżonym czystym ręcznikiem papierowym albo ściereczką, nałóż pokrywki i dokręć zakrętki tylko palcami. [T:SLO-202]
 
@@ -34,11 +38,11 @@ Według UC na wysokości 0–1000 stóp (do 300 m) wekuj słoiki pint i quart 15
 
 Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
 
-Na wysokości 1001–3000 stóp (powyżej 300 m do 900 m) wekuj je 20 minut. [T:SLO-203,ACI-176]
+Według UC na wysokości 1001–3000 stóp (powyżej 300 m do 900 m) wekuj je 20 minut. [T:SLO-203,ACI-176]
 
-Na wysokości 3001–6000 stóp (powyżej 900 m do 1800 m) wekuj je 25 minut. [T:SLO-203,ACI-176]
+Według UC na wysokości 3001–6000 stóp (powyżej 900 m do 1800 m) wekuj je 25 minut. [T:SLO-203,ACI-176]
 
-Na wysokości 6001–8000 stóp (powyżej 1800 m do 2400 m) wekuj je 30 minut. [T:SLO-203,ACI-176,SLO-209]
+Według UC na wysokości 6001–8000 stóp (powyżej 1800 m do 2400 m) wekuj je 30 minut. [T:SLO-203,ACI-176,SLO-209]
 
 Powyżej 8000 stóp (powyżej 2400 m) UC nie podaje czasu, więc ta karta nie obejmuje wekowania na takiej wysokości. [T:SLO-203,SLO-209]
 
@@ -56,7 +60,9 @@ UC nie podaje czasu dla tych soków w słoikach większych niż quart, np. 1 l, 
 
 ## Studzenie i przechowywanie
 
-Po wekowaniu wyłącz ogień, zdejmij pokrywę garnka i odczekaj 5 minut, zanim wyjmiesz słoiki. [T:SLO-204]
+Według UC po wekowaniu wyłącz ogień, zdejmij pokrywę garnka i odczekaj 5 minut, zanim wyjmiesz słoiki. [T:SLO-204]
+
+Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
 
 Słoiki studź w temperaturze pokojowej 12–24 godziny, potem sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196]
 
