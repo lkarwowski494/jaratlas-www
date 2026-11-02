@@ -68,4 +68,8 @@ JarAtlas rule (NCHFP does not test metric jars): a pint holds about 473 ml, so a
 
 Discard jelly with mold on it; USDA and microbiologists advise against scooping out the mold and eating the rest. [T:SLO-012]
 
+Keep opened jelly in the refrigerator at 40 °F (about 4 °C) or lower. [T:SLO-018]
+
+Regular full-sugar cooked jellies made with added pectin, like this one, are best kept in the refrigerator for 1 month after opening. [T:SLO-018]
+
 Check an opened jar regularly for signs of spoilage such as mold, yeast or an off odor, including a fermented, yeasty or alcohol smell; if you find any, throw out the whole jar. [T:SLO-181,SLO-013]

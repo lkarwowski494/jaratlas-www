@@ -1,0 +1,79 @@
+# Sok porzeczkowy z sokownika (UC Master Food Preservers)
+
+Ta karta opisuje metodę Master Food Preservers Uniwersytetu Kalifornijskiego (UC) wekowania soku porzeczkowego z sokownika parowego w kąpieli wodnej. [T:SLO-108,SLO-203]
+
+## Jakie owoce
+
+UC wymienia kwaśne soki, które można wekować według tego przepisu, wśród nich soki z owoców jagodowych (bez czarnego bzu) i porzeczek. [T:SLO-052]
+
+Porzeczki są na tej liście (przewodnik pisze „currents”). [T:SLO-052]
+
+Nie stosuj go do soków niskokwasowych ani granicznych, osobno ani zmieszanych z sokami z listy; UC wyklucza m.in. gruszki azjatyckie, banany, kokos, daktyle, czarny bez, figi, dojrzałe mango, melony, papaję, białe brzoskwinie i nektaryny, persymony, opuncję i pomidory i zaznacza, że lista nie jest pełna. [T:SLO-052]
+
+## Dlaczego sok trzeba wekować
+
+UC ostrzega, że nalewanie soku z sokownika prosto do wysterylizowanych słoików, zakręcanie ich i przechowywanie w temperaturze pokojowej bez dalszej obróbki („butelkowanie”) nie jest bezpieczne. [T:SLO-051]
+
+NCHFP: słoiki z sokiem owocowym trzeba wekować w kąpieli wodnej wystarczająco długo, by zniszczyć drobnoustroje powodujące psucie. [T:SLO-050]
+
+Jeśli soku nie wekujesz, trzymaj go w lodówce do tygodnia; dłużej przechowuj go tylko zamrożony. [T:SLO-207]
+
+## Sok
+
+Sok uzyskaj według instrukcji sokownika; w razie potrzeby przecedź go przez sitko albo gazę, żeby usunąć pestki. [T:SLO-202]
+
+W czystym garnku z niereaktywnego materiału podgrzej sok tylko do zagotowania, jeśli chcesz z cukrem do smaku, mieszając, aż cukier się rozpuści. [T:SLO-202]
+
+## Wekowanie
+
+Gorący sok nalej chochlą do gorących słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni. [T:SLO-202]
+
+Brzegi słoików przetrzyj zwilżonym czystym ręcznikiem papierowym albo ściereczką, nałóż pokrywki i dokręć zakrętki tylko palcami. [T:SLO-202]
+
+Według UC na wysokości 0–1000 stóp (do 300 m) wekuj słoiki pint i quart 15 minut. [T:SLO-203,ACI-176]
+
+Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
+
+Na wysokości 1001–3000 stóp (powyżej 300 m do 900 m) wekuj je 20 minut. [T:SLO-203,ACI-176]
+
+Na wysokości 3001–6000 stóp (powyżej 900 m do 1800 m) wekuj je 25 minut. [T:SLO-203,ACI-176]
+
+Na wysokości 6001–8000 stóp (powyżej 1800 m do 2400 m) wekuj je 30 minut. [T:SLO-203,ACI-176,SLO-209]
+
+Powyżej 8000 stóp (powyżej 2400 m) UC nie podaje czasu, więc ta karta nie obejmuje wekowania na takiej wysokości. [T:SLO-203,SLO-209]
+
+Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, 3000 stóp to 900 m, a 6000 stóp to 1800 m. [T:ACI-176]
+
+8000 stóp (2438,4 m) to w karcie 2400 m, więc zakres bez podanego czasu jest szerszy niż w źródle. [T:SLO-209]
+
+Skrócenie czasu albo studzenie słoików w zimnej wodzie też może prowadzić do zepsucia. [T:ACI-015]
+
+Te czasy dotyczą amerykańskich słoików: pint mieści ok. 473 ml, a quart ok. 946 ml. [T:ACI-174]
+
+Reguła JarAtlas (źródło nie testuje słoików metrycznych): dla słoika do 473 ml stosuj czas dla pint, a dla większego, do 946 ml, np. 0,5 l albo 0,9 l, czas dla quart. [T:SLO-208]
+
+UC nie podaje czasu dla tych soków w słoikach większych niż quart, np. 1 l, więc JarAtlas zaleca mniejsze słoiki. [T:SLO-203,SLO-208]
+
+## Studzenie i przechowywanie
+
+Po wekowaniu wyłącz ogień, zdejmij pokrywę garnka i odczekaj 5 minut, zanim wyjmiesz słoiki. [T:SLO-204]
+
+Słoiki studź w temperaturze pokojowej 12–24 godziny, potem sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196]
+
+Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
+
+Słoik, który przy tym sprawdzeniu okazał się niezamknięty, trzymaj w lodówce i zjedz w ciągu kilku dni. [T:SLO-197]
+
+Zamknięte słoiki przechowuj w czystym, chłodnym, ciemnym i suchym miejscu, nie powyżej 95 °F (35 °C) i nie przy gorących rurach, kuchence czy piecu, na nieocieplonym strychu ani w pełnym słońcu; w takich warunkach przetwór może się zepsuć. [T:SLO-198]
+
+## Kiedy wyrzucić
+
+Zanim użyjesz słoika z zapasów, sprawdź, czy pokrywka jest szczelna i trzyma podciśnienie: dobrze zamknięta ma wklęsły środek. [T:SLO-191]
+
+Sprawdź, czy od góry słoika nie biegną zaschnięte zacieki, czy w środku nie unoszą się pęcherzyki powietrza i czy kolor nie jest nienaturalny. [T:SLO-191]
+
+Przy otwieraniu sprawdź, czy nie ma nienaturalnego zapachu, tryskającego płynu i pleśni przypominającej watę na jedzeniu albo pod pokrywką. [T:SLO-191]
+
+Nie próbuj jedzenia ze słoika z niezamkniętą pokrywką ani z oznakami zepsucia. [T:SLO-190]
+
+Reguła JarAtlas (ostrożna): taki słoik wyrzuć. [T:SLO-190]

@@ -1,0 +1,79 @@
+# Grape juice from a steam juicer (UC Master Food Preservers)
+
+This card describes the method of the University of California (UC) Master Food Preservers for canning grape juice made in a steam juicer, in a boiling-water bath. [T:SLO-108,SLO-205]
+
+## Why the juice must be processed
+
+UC warns that pouring steam-juicer juice straight into sterilized jars, capping them and storing them at room temperature without further processing (“bottling”) is not safe. [T:SLO-051]
+
+NCHFP: jars of fruit juice must be processed in a boiling-water canner long enough to destroy spoilage organisms. [T:SLO-050]
+
+If you do not can the juice, keep it in the refrigerator for up to one week; for longer storage, freeze it. [T:SLO-207]
+
+## Making the juice
+
+Extract the juice according to your steam juicer’s instructions; if necessary, strain it through a sieve or cheesecloth to remove seeds. [T:SLO-202]
+
+In a clean, non-reactive saucepan, heat the juice just to a boil, with sugar to taste if you like, stirring until the sugar dissolves. [T:SLO-202]
+
+## Sterilized jars (for the shortest time)
+
+UC allows 5 minutes for half-pint and pint jars at 0–1000 ft only if the jars were sterilized first. [T:SLO-205]
+
+NCHFP puts the empty jars right side up on the rack in a boiling-water canner and fills the canner and jars with hot (not boiling) water to 1 inch (about 2.5 cm) above the tops of the jars. [T:SLO-120]
+
+To sterilize empty jars, NCHFP boils them for 10 minutes below 1000 ft, and above that 1 minute longer for each additional thousand feet. [T:SLO-118]
+
+JarAtlas rule for metres: boil the jars for 10 minutes up to 300 m, and add 1 minute for every further 300 m or part of it. [T:SLO-119]
+
+Just before filling, remove and drain the hot sterilized jars one at a time. [T:SLO-120]
+
+## Canning
+
+Ladle the hot juice into hot jars, leaving 1/4 inch (about 0.6 cm) of headspace. [T:SLO-202]
+
+Wipe the rims with a damp, clean paper towel or cloth, put on the lids and screw the bands on only fingertip-tight. [T:SLO-202]
+
+According to UC, at 0–1000 ft (up to 300 m) process half-pint and pint jars for 5 minutes, but only if they were sterilized first, and quart jars for 10 minutes. [T:SLO-205,ACI-176]
+
+Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
+
+At 1001–6000 ft (above 300 m up to 1800 m) process half-pints and pints for 10 minutes and quarts for 15. [T:SLO-205,ACI-176]
+
+Above 6000 ft (above 1800 m) process half-pints and pints for 15 minutes and quarts for 25. [T:SLO-205,ACI-176]
+
+The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m and 6000 ft becomes 1800 m. [T:ACI-176]
+
+Shortening the time or cooling jars in cold water can also lead to spoilage. [T:ACI-015]
+
+The NCHFP Grape Juice recipe (juice from crushed, cooked grapes) gives quarts the same time as pints; for steam-juicer juice UC gives quarts longer times, and JarAtlas uses the UC times. [T:SLO-206]
+
+These times are for US jar sizes: a pint holds about 473 ml and a quart about 946 ml. [T:ACI-174]
+
+JarAtlas rule (the source does not test metric jars): for a jar of up to 473 ml use the pint time, and for a larger jar of up to 946 ml, for example 0.5 l or 0.9 l, use the quart time. [T:SLO-208]
+
+UC also allows half-gallon jars for grape juice, only in a boiling-water canner; this card does not describe them, and JarAtlas recommends jars of up to 946 ml. [T:SLO-208]
+
+## Cooling and storing
+
+After processing, turn off the heat, remove the canner lid and wait 5 minutes before taking the jars out. [T:SLO-204]
+
+Cool the jars at room temperature for 12 to 24 hours, then test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196]
+
+A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
+
+If a jar has not sealed at this check, keep it in the refrigerator and eat it within several days. [T:SLO-197]
+
+Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) and not near hot pipes, a stove or a furnace, in an uninsulated attic or in direct sunlight; in such conditions the food may spoil. [T:SLO-198]
+
+## When to throw it out
+
+Before using a stored jar, check that the lid is tight and holds a vacuum: a good seal has a concave centre. [T:SLO-191]
+
+Look for streaks of dried food running from the top of the jar, rising air bubbles and unnatural colour. [T:SLO-191]
+
+When opening the jar, check for an unnatural smell, spurting liquid and cotton-like mould on the food or under the lid. [T:SLO-191]
+
+Do not taste food from a jar with an unsealed lid or with signs of spoilage. [T:SLO-190]
+
+JarAtlas rule (cautious): throw out such a jar. [T:SLO-190]
