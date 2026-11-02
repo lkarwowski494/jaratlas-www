@@ -1,0 +1,2554 @@
+{
+ "data": "2026-11-02",
+ "rola": "06-tresci (build, research)",
+ "galaz": "claude/jaratlas-b20-research",
+ "baza": "claude/happy-brown-yncplj@2d49015",
+ "zakres": {
+  "definicja": "water-bath + vinegar-pickling + do-researchu, poza B14 (257) i B19 (32)",
+  "segment": 197,
+  "segment_statusy": {
+   "ok-zrodlo": 28,
+   "do-researchu": 134,
+   "ryzyko-wysokie": 23,
+   "nie-publikowac": 12
+  },
+  "do_researchu_w_B14_B19": 9,
+  "poza_B14_B19": 125,
+  "B20": 45,
+  "pozostale": [
+   "green-beans-v07",
+   "green-beans-v11",
+   "peas-chickpeas-v03",
+   "beans-soy-v02",
+   "beetroot-v07",
+   "beetroot-v08",
+   "beetroot-v10",
+   "beetroot-v12",
+   "carrot-v05",
+   "onion-v04",
+   "onion-v06",
+   "onion-v09",
+   "shallot-pearl-onion-v04",
+   "shallot-pearl-onion-v09",
+   "leek-chives-v03",
+   "celeriac-celery-v01",
+   "celeriac-celery-v05",
+   "celeriac-celery-v06",
+   "parsnip-parsley-v03",
+   "parsnip-parsley-v04",
+   "turnip-rutabaga-v08",
+   "turnip-rutabaga-v09",
+   "asparagus-v03",
+   "asparagus-v05",
+   "fennel-artichoke-v02",
+   "fennel-artichoke-v03",
+   "corn-v01",
+   "european-mixed-veg-v04",
+   "balkan-oriental-mix-v02",
+   "balkan-oriental-mix-v03",
+   "asian-american-mix-v11",
+   "pear-v04",
+   "quince-v02",
+   "plum-v01",
+   "plum-v04",
+   "plum-v07",
+   "plum-v15",
+   "mirabelle-v02",
+   "mirabelle-v03",
+   "mirabelle-v09",
+   "sour-cherry-v01",
+   "sweet-cherry-v01",
+   "sweet-cherry-v03",
+   "sweet-cherry-v04",
+   "peach-nectarine-v02",
+   "apricot-v01",
+   "apricot-v10",
+   "cornelian-cherry-v02",
+   "cornelian-cherry-v04",
+   "strawberry-v02",
+   "strawberry-v03",
+   "strawberry-v06",
+   "raspberry-blackberry-v03",
+   "currant-v02",
+   "gooseberry-v01",
+   "gooseberry-v03",
+   "gooseberry-v04",
+   "blueberry-bilberry-v01",
+   "blueberry-bilberry-v11",
+   "cranberry-lingonberry-v03",
+   "chokeberry-seabuckthorn-v02",
+   "rosehip-rowan-v03",
+   "grapes-v02",
+   "rhubarb-v02",
+   "orange-kumquat-v03",
+   "orange-kumquat-v04",
+   "grapefruit-v01",
+   "mango-papaya-v04",
+   "pineapple-banana-v03",
+   "pineapple-banana-v04",
+   "pineapple-banana-v08",
+   "fig-pomegranate-v02",
+   "walnut-nuts-v01",
+   "cultivated-mushrooms-v02",
+   "cultivated-mushrooms-v04",
+   "cultivated-mushrooms-v09",
+   "wild-garlic-v02",
+   "wild-garlic-v03",
+   "foraged-blossoms-v08",
+   "foraged-blossoms-v10"
+  ]
+ },
+ "decyzje_wejscie": [
+  "2026-11-02-jaratlas-b14-wlasciciel",
+  "2026-11-02-jaratlas-wariant-bez-zrodla",
+  "2026-11-01-jaratlas-hierarchia-zrodel",
+  "2026-11-02-jaratlas-b19-research (proposed)",
+  "B14-D1",
+  "B14 R4"
+ ],
+ "liczby": {
+  "warianty": 45,
+  "ok-zrodlo": 1,
+  "ok-zrodlo-po-zmianie": 10,
+  "do-researchu": 33,
+  "ryzyko-wysokie": 1,
+  "warunkowo_B20_D1": 3,
+  "kandydaci_nie_publikowac": [
+   "white-cabbage-v10",
+   "red-savoy-cabbage-v08",
+   "red-savoy-cabbage-v10",
+   "cauliflower-v06",
+   "broccoli-v04",
+   "broccoli-v05",
+   "broccoli-v09",
+   "zucchini-v02",
+   "zucchini-v04",
+   "zucchini-v07",
+   "zucchini-v09",
+   "pattypan-squash-v02",
+   "pattypan-squash-v03",
+   "pattypan-squash-v04",
+   "leafy-greens-v03",
+   "vine-leaves-greens-v02",
+   "vine-leaves-greens-v04",
+   "vine-leaves-greens-v06",
+   "tomato-v07",
+   "eggplant-v03",
+   "eggplant-v06",
+   "tomatillo-v02",
+   "tomatillo-v04",
+   "tomatillo-v09",
+   "green-beans-v05"
+  ],
+  "do_researchu_przebieg1": [
+   "cucumber-v13",
+   "cucumber-v15",
+   "cucumber-v16",
+   "white-cabbage-v12",
+   "napa-cabbage-v12",
+   "brussels-kohlrabi-v08",
+   "brussels-kohlrabi-v10",
+   "pattypan-squash-v06"
+  ]
+ },
+ "uzyte_id": [
+  "ACI-873",
+  "ACI-874",
+  "ACI-875",
+  "ACI-876",
+  "ACI-877",
+  "ACI-878",
+  "ACI-879",
+  "ACI-885",
+  "ACI-886",
+  "ACI-887",
+  "ACI-888",
+  "ACI-889",
+  "ACI-900",
+  "ACI-901",
+  "ACI-902",
+  "ACI-903",
+  "ACI-904",
+  "ACI-905",
+  "ACI-906",
+  "ACI-907",
+  "ACI-915",
+  "ACI-916",
+  "ACI-917",
+  "ACI-918",
+  "ACI-919",
+  "ACI-920"
+ ],
+ "zwolnione_id": [
+  "ACI-870",
+  "ACI-871",
+  "ACI-872"
+ ],
+ "pula_id": {
+  "ACI": "870–929",
+  "SLO": "800–819",
+  "wolne": [
+   "ACI-870",
+   "ACI-871",
+   "ACI-872",
+   "ACI-880",
+   "ACI-881",
+   "ACI-882",
+   "ACI-883",
+   "ACI-884",
+   "ACI-890",
+   "ACI-891",
+   "ACI-892",
+   "ACI-893",
+   "ACI-894",
+   "ACI-895",
+   "ACI-896",
+   "ACI-897",
+   "ACI-898",
+   "ACI-899",
+   "ACI-908",
+   "ACI-909",
+   "ACI-910",
+   "ACI-911",
+   "ACI-912",
+   "ACI-913",
+   "ACI-914",
+   "ACI-921",
+   "ACI-922",
+   "ACI-923",
+   "ACI-924",
+   "ACI-925",
+   "ACI-926",
+   "ACI-927",
+   "ACI-928",
+   "ACI-929",
+   "SLO-800",
+   "SLO-801",
+   "SLO-802",
+   "SLO-803",
+   "SLO-804",
+   "SLO-805",
+   "SLO-806",
+   "SLO-807",
+   "SLO-808",
+   "SLO-809",
+   "SLO-810",
+   "SLO-811",
+   "SLO-812",
+   "SLO-813",
+   "SLO-814",
+   "SLO-815",
+   "SLO-816",
+   "SLO-817",
+   "SLO-818",
+   "SLO-819"
+  ]
+ },
+ "warianty": [
+  {
+   "grupa": "A",
+   "id": "cucumber-v13",
+   "nazwa": "po królewsku",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak w NCHFP (lista Cucumber Pickles) i w przeczytanych publikacjach extension przepisu „po królewsku”; nazwa nie wskazuje jednoznacznie składu, więc nie można dopasować przepisu 1:1 (ACI-016, ACI-017).",
+   "twierdzenia": [
+    "ACI-016",
+    "ACI-017"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Najbliższy przetestowany: NCHFP Bread-and-Butter (ACI-404–407), ale to byłby duplikat cucumber-v12 (duplikat_z: cucumber-v12). Jeśli „po królewsku” = plastry ogórka z cebulą w słodkiej zalewie z kurkumą/curry, możliwe po-zmianie jak cucumber-v15 — do weta."
+  },
+  {
+   "grupa": "A",
+   "id": "cucumber-v15",
+   "nazwa": "w curry",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "warunkowo (B20-D1)",
+   "podstawa": "Brak przetestowanego przepisu „ogórki w curry”; NCHFP Bread-and-Butter (ACI-404–407) to przetestowany przepis ogórków z cebulą w słodkiej zalewie 5%. Dwa źródła szczebla 3 wprost dopuszczają zmianę suszonych przypraw w przetestowanym przepisie, UCCE wymienia curry z nazwy (ACI-873, ACI-874); proporcje octu, warzyw i cukru bez zmian (ACI-016). [Koordynator roli, B20-D1: dopuszczenie zmiany suszonych przypraw ma tylko szczebel 3 (UCCE El Dorado ACI-873, Ask Extension ACI-874), NCHFP go nie podaje; werdykt główny ostrożny do-researchu, „ok-zrodlo-po-zmianie” w polu warunkowo, po akceptacji B20-D1.]",
+   "twierdzenia": [
+    "ACI-404",
+    "ACI-405",
+    "ACI-406",
+    "ACI-407",
+    "ACI-873",
+    "ACI-874",
+    "ACI-016",
+    "ACI-017",
+    "ACI-018"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Prawie duplikat cucumber-v12 (różni się tylko przyprawą). Mielone przyprawy mogą zaciemnić zalewę (jakość, nie bezpieczeństwo). Dopuszczenie przypraw ze szczebla 3 (MFP + Ask Extension), nie z NCHFP — decyzja do weta.",
+   "warunkowo": {
+    "werdykt": "ok-zrodlo-po-zmianie",
+    "decyzja": "B20-D1",
+    "zmiana_wariantu": "Karta = NCHFP Bread-and-Butter Pickles z dodatkiem suszonej przyprawy curry (proszek) do zalewy; bez świeżych dodatków (cebula tylko z przepisu, bez czosnku, świeżego chili, oleju); nazwa np. „ogórki w curry (na bazie NCHFP bread-and-butter)”.",
+    "parametry_karty": {
+     "ocet": "ocet 5% (ACI-404; biały lub jabłkowy: ACI-018, ACI-211)",
+     "proporcje": "jak NCHFP Bread-and-Butter (ACI-404, ACI-405) + suszona przyprawa curry do smaku w miejsce/obok przypraw z przepisu (ACI-873, ACI-874); ocet, cukier, sól, ogórki i cebula bez zmian",
+     "sloik": "pint lub quart (ACI-406)",
+     "wolna_przestrzen": "1/2 cala (ACI-405)",
+     "czas": "hot pack: 10/15/20 min albo pasteryzacja 180–185°F 30 min (ACI-406, ACI-407)",
+     "wysokosc": "0–1000 / 1001–6000 / >6000 stóp (ACI-406)"
+    }
+   }
+  },
+  {
+   "grupa": "A",
+   "id": "cucumber-v16",
+   "nazwa": "z miodem i chili",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak przetestowanego przepisu na ogórki octowe z miodem i chili. NCHFP: miód tylko gdy przewiduje go wiarygodny przepis (ACI-640), a zamiana cukru na miód nie jest opisana; świeże chili to dodatek warzywny niskokwasowy, nie suszona przyprawa, więc dopuszczenie przypraw (ACI-873, ACI-874) go nie obejmuje (ACI-016, ACI-017).",
+   "twierdzenia": [
+    "ACI-640",
+    "ACI-016",
+    "ACI-017",
+    "ACI-873",
+    "ACI-874"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Bez miodu i ze suszonymi płatkami chili zamiast świeżego wariant stałby się NCHFP Bread-and-Butter/Quick Fresh-Pack z przyprawą (prawie duplikat cucumber-v12/v10). Lodówka: brak źródła 1–3 sprawdzonego w tym przebiegu."
+  },
+  {
+   "grupa": "A",
+   "id": "white-cabbage-v10",
+   "nazwa": "marynowana w zalewie słodko-kwaśnej",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "NCHFP nie ma marynaty z kapusty białej (lista Vegetable Pickles bez kapusty); jedyny przetestowany przepis z kapustą w zalewie octowej to Ball Spiced Red Cabbage z kapustą czerwoną (ACI-875, ACI-876). Zmiana warzywa na kapustę białą = przepis nieprzetestowany (ACI-016, ACI-017).",
+   "twierdzenia": [
+    "ACI-875",
+    "ACI-876",
+    "ACI-016",
+    "ACI-017",
+    "ACI-005",
+    "ACI-082"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Ball Blue Book 2014 (w Ask Extension) w składnikach pisze „12 pounds cabbage”, ale tytuł i Complete Book podają kapustę czerwoną; wariant ostrożny: nie przenosić na białą. Pytanie do weta."
+  },
+  {
+   "grupa": "A",
+   "id": "white-cabbage-v12",
+   "nazwa": "sałatka obiadowa z papryką",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak w NCHFP i w przeczytanych źródłach extension przepisu na sałatkę z kapusty białej z papryką w zalewie octowej; mieszanina warzyw niskokwasowych wymaga przepisu przetestowanego (ACI-006, ACI-016, ACI-017).",
+   "twierdzenia": [
+    "ACI-005",
+    "ACI-006",
+    "ACI-016",
+    "ACI-017",
+    "ACI-082"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": ""
+  },
+  {
+   "grupa": "A",
+   "id": "red-savoy-cabbage-v03",
+   "nazwa": "marynowana w occie winnym z goździkami",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo",
+   "ryzyko": "wysokie",
+   "regula": "1:1",
+   "podstawa": "Extension i USDA nie mają przepisu na czerwoną kapustę, ale extension wskazuje przetestowany przepis Ball Spiced Red Cabbage (ACI-875). Przepis Ball (Complete Book w ulotce UCCE MFP; Blue Book 2014 w Ask Extension) to czerwona kapusta w occie z czerwonego wina 5% z goździkami i innymi przyprawami, 1/2 cala wolnej przestrzeni, 20/25/30 min (ACI-876–878); octy specjalne dozwolone, bo podaje je przepis (ACI-702).",
+   "twierdzenia": [
+    "ACI-875",
+    "ACI-876",
+    "ACI-877",
+    "ACI-878",
+    "ACI-702",
+    "ACI-016",
+    "ACI-017"
+   ],
+   "parametry_karty": {
+    "ocet": "ocet z czerwonego wina z etykietą 5% (ACI-876; octy specjalne tylko gdy przepis je podaje: ACI-702, ACI-211)",
+    "proporcje": "12 funtów (ok. 5,4 kg) kapusty : 1/2 szklanki soli (24 h, płukanie, osuszanie) : 8 szklanek octu 5% : 1 szklanka brązowego cukru; przyprawy w woreczku (ACI-876, ACI-877)",
+    "sloik": "pint lub kwarta (wydajność ok. 5 kwart / 10 pint; ACI-876, ACI-878 uproszczenie)",
+    "wolna_przestrzen": "1/2 cala (ok. 1,3 cm) (ACI-877)",
+    "czas": "20 min (0–1000 stóp), 25 min (1001–6000), 30 min (>6000) (ACI-878)",
+    "wysokosc": "0–1000 / 1001–6000 / >6000 stóp (ACI-878)"
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "Tylko kapusta czerwona (nie włoska) — nazwa karty: „czerwona kapusta marynowana w occie z czerwonego wina z goździkami (Ball Spiced Red Cabbage)”. Ocet winny musi mieć etykietę 5%. Słoik pint/kwarta: rozmiar wywnioskowany z wydajności (uproszczenie ACI-878)."
+  },
+  {
+   "grupa": "A",
+   "id": "red-savoy-cabbage-v05",
+   "nazwa": "w occie jabłkowym",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "po-zmianie",
+   "podstawa": "Jedyny przetestowany przepis na czerwoną kapustę w zalewie octowej to Ball Spiced Red Cabbage z octem z czerwonego wina 5% (ACI-875, ACI-876); przepisu z octem jabłkowym brak, a zmiana octu = przepis zmieniony (ACI-016). Po zmianie octu na ocet winny 5% wariant pasuje do przepisu Ball (ACI-876–878).",
+   "twierdzenia": [
+    "ACI-875",
+    "ACI-876",
+    "ACI-877",
+    "ACI-878",
+    "ACI-016",
+    "ACI-017"
+   ],
+   "parametry_karty": {
+    "ocet": "ocet z czerwonego wina z etykietą 5% (ACI-876; octy specjalne tylko gdy przepis je podaje: ACI-702, ACI-211)",
+    "proporcje": "12 funtów (ok. 5,4 kg) kapusty : 1/2 szklanki soli (24 h, płukanie, osuszanie) : 8 szklanek octu 5% : 1 szklanka brązowego cukru; przyprawy w woreczku (ACI-876, ACI-877)",
+    "sloik": "pint lub kwarta (wydajność ok. 5 kwart / 10 pint; ACI-876, ACI-878 uproszczenie)",
+    "wolna_przestrzen": "1/2 cala (ok. 1,3 cm) (ACI-877)",
+    "czas": "20 min (0–1000 stóp), 25 min (1001–6000), 30 min (>6000) (ACI-878)",
+    "wysokosc": "0–1000 / 1001–6000 / >6000 stóp (ACI-878)"
+   },
+   "zmiana_wariantu": "Zmienić ocet jabłkowy na ocet z czerwonego wina 5% wg Ball Spiced Red Cabbage (tylko kapusta czerwona).",
+   "uwagi": "duplikat_z: red-savoy-cabbage-v03 (po zmianie identyczny). Ulotka UCCE El Dorado pisze ogólnie, że można zmienić rodzaj octu, jeśli ma ≥5% (np. biały na jabłkowy) — to by zachowało ocet jabłkowy, ale dotyczy to octów bazowych, a NCHFP zabrania zmian octu w przepisie (ACI-016); przyjęto wariant ostrożny. Do weta."
+  },
+  {
+   "grupa": "A",
+   "id": "red-savoy-cabbage-v08",
+   "nazwa": "sałatka z czerwonej kapusty z cebulą w zalewie",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Przetestowany przepis Ball Spiced Red Cabbage (ACI-876) nie zawiera cebuli; dodanie cebuli to dodatek warzywny niskokwasowy, zmienia proporcje i nie jest objęte dopuszczeniem zmian suszonych przypraw (ACI-874: kapusta, ocet i sól według przepisu). Brak innego przepisu 1–3 (ACI-875, ACI-006, ACI-016).",
+   "twierdzenia": [
+    "ACI-875",
+    "ACI-876",
+    "ACI-874",
+    "ACI-006",
+    "ACI-016",
+    "ACI-017"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Bez cebuli = duplikat red-savoy-cabbage-v03."
+  },
+  {
+   "grupa": "A",
+   "id": "red-savoy-cabbage-v10",
+   "nazwa": "chutney",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "NCHFP ma tylko chutneye jabłkowy, z mango, pomidorowo-jabłkowy i żurawinowo-pomarańczowy (lista Chutneys na stronie NCHFP); extension i USDA nie mają przepisu na wekowanie kapusty czerwonej poza Ball Spiced Red Cabbage (ACI-875). Brak przetestowanego chutneyu z kapusty (ACI-016, ACI-017).",
+   "twierdzenia": [
+    "ACI-875",
+    "ACI-016",
+    "ACI-017",
+    "ACI-082"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": ""
+  },
+  {
+   "grupa": "A",
+   "id": "napa-cabbage-v12",
+   "nazwa": "sałatka azjatycka w słoikach",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak w NCHFP i przeczytanych źródłach extension przepisu na wekowaną sałatkę z kapusty pekińskiej; mieszanina warzyw niskokwasowych wymaga przepisu przetestowanego (ACI-005, ACI-006, ACI-016, ACI-017).",
+   "twierdzenia": [
+    "ACI-005",
+    "ACI-006",
+    "ACI-016",
+    "ACI-017"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": ""
+  },
+  {
+   "grupa": "A",
+   "id": "cauliflower-v04",
+   "nazwa": "w occie winnym",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "po-zmianie",
+   "podstawa": "NCHFP Pickled Cauliflower or Brussels Sprouts to przepis z białym octem 5% (ACI-885–872); octy specjalne (winne) tylko gdy przepis je podaje (ACI-702, ACI-211), a NCHFP zaleca biały ocet dla jasnego koloru kalafiora (ACI-019). Po zmianie octu winnego na biały 5% wariant pasuje 1:1.",
+   "twierdzenia": [
+    "ACI-885",
+    "ACI-886",
+    "ACI-887",
+    "ACI-016",
+    "ACI-017",
+    "ACI-018",
+    "ACI-019",
+    "ACI-702",
+    "ACI-211",
+    "ACI-083"
+   ],
+   "parametry_karty": {
+    "ocet": "biały ocet destylowany (spirytusowy) 5% (ACI-885, ACI-019, ACI-211)",
+    "proporcje": "12 szklanek różyczek 1–2 cale : 4 szklanki octu 5% : 2 szklanki cukru, 2 szklanki cebuli, 1 szklanka czerwonej papryki, gorczyca 2 łyżki, seler 1 łyżka, kurkuma 1 łyżeczka, płatki chili 1 łyżeczka; bez wody; blanszowanie 3 min w osolonej wodzie (ACI-885, ACI-886)",
+    "sloik": "1/2 pinty lub pint (ACI-887)",
+    "wolna_przestrzen": "1/2 cala (ok. 1,3 cm) (ACI-886)",
+    "czas": "hot pack: 10 min (0–1000 stóp), 15 min (1001–6000), 20 min (>6000) (ACI-887)",
+    "wysokosc": "0–1000 / 1001–6000 / >6000 stóp (ok. 0–300 / 300–1830 / >1830 m) (ACI-887)"
+   },
+   "zmiana_wariantu": "Zmienić ocet winny na biały ocet destylowany (spirytusowy) 5%; nazwa np. „kalafior marynowany (NCHFP)”, skład wg ACI-885.",
+   "uwagi": "Brak innego wariantu kalafiora z kartą NCHFP Pickled Cauliflower w catalog-seed (sprawdzono cauliflower-v01–v14) — nie duplikat; ale cauliflower-v06 po zmianie bazuje na tym samym przepisie."
+  },
+  {
+   "grupa": "A",
+   "id": "cauliflower-v06",
+   "nazwa": "w zalewie curry",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "warunkowo (B20-D1)",
+   "podstawa": "Brak przepisu „kalafior w curry”; NCHFP Pickled Cauliflower (ACI-885–872) jest przetestowany i zawiera już kurkumę. Dwa źródła szczebla 3 wprost dopuszczają zmianę suszonych przypraw w przetestowanym przepisie, UCCE wymienia curry z nazwy (ACI-873, ACI-874); ocet, cukier i warzywa bez zmian (ACI-016). [Koordynator roli, B20-D1: dopuszczenie zmiany suszonych przypraw ma tylko szczebel 3 (UCCE El Dorado ACI-873, Ask Extension ACI-874), NCHFP go nie podaje; werdykt główny ostrożny do-researchu, „ok-zrodlo-po-zmianie” w polu warunkowo, po akceptacji B20-D1.]",
+   "twierdzenia": [
+    "ACI-885",
+    "ACI-886",
+    "ACI-887",
+    "ACI-873",
+    "ACI-874",
+    "ACI-016",
+    "ACI-017",
+    "ACI-018",
+    "ACI-083"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Prawie duplikat cauliflower-v04 po zmianie (różni się tylko przyprawą). Dopuszczenie przypraw ze szczebla 3, nie z NCHFP — do weta.",
+   "warunkowo": {
+    "werdykt": "ok-zrodlo-po-zmianie",
+    "decyzja": "B20-D1",
+    "zmiana_wariantu": "Karta = NCHFP Pickled Cauliflower z suszoną przyprawą curry (proszek) w miejsce lub obok gorczycy/selera/kurkumy; ocet biały 5%, bez innych zmian.",
+    "parametry_karty": {
+     "ocet": "biały ocet destylowany (spirytusowy) 5% (ACI-885, ACI-019, ACI-211)",
+     "proporcje": "12 szklanek różyczek 1–2 cale : 4 szklanki octu 5% : 2 szklanki cukru, 2 szklanki cebuli, 1 szklanka czerwonej papryki, gorczyca 2 łyżki, seler 1 łyżka, kurkuma 1 łyżeczka, płatki chili 1 łyżeczka; bez wody; blanszowanie 3 min w osolonej wodzie (ACI-885, ACI-886); suszona przyprawa curry do smaku w miejsce/obok przypraw z przepisu (ACI-873, ACI-874)",
+     "sloik": "1/2 pinty lub pint (ACI-887)",
+     "wolna_przestrzen": "1/2 cala (ok. 1,3 cm) (ACI-886)",
+     "czas": "hot pack: 10 min (0–1000 stóp), 15 min (1001–6000), 20 min (>6000) (ACI-887)",
+     "wysokosc": "0–1000 / 1001–6000 / >6000 stóp (ok. 0–300 / 300–1830 / >1830 m) (ACI-887)"
+    }
+   }
+  },
+  {
+   "grupa": "B",
+   "id": "cauliflower-v10",
+   "nazwa": "sałatka wielowarzywna z kalafiorem",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "po-zmianie",
+   "podstawa": "Nazwa nie określa składu, więc jako „sałatka” nie ma przepisu 1:1. NCHFP Pickled Mixed Vegetables zawiera różyczki kalafiora w mieszance warzyw w occie 5% z musztardą (ACI-636), z procedurą ACI-637 i czasami ACI-638. Zmiana składu lub proporcji zabroniona (ACI-016, ACI-017).",
+   "twierdzenia": [
+    "ACI-636",
+    "ACI-637",
+    "ACI-638",
+    "ACI-016",
+    "ACI-017",
+    "ACI-005",
+    "ACI-006"
+   ],
+   "parametry_karty": {
+    "ocet": "biały ocet 5% (5 szklanek) z 1/4 szklanki musztardy gotowej",
+    "proporcje": "1:1 z ACI-636: 4 funty ogórków, 2 funty małych cebul, 4 szklanki selera, 2 szklanki marchwi, 2 szklanki czerwonej papryki, 2 szklanki różyczek kalafiora; 1/2 szklanki soli, 3 1/2 szklanki cukru, przyprawy wg ACI-636; przygotowanie ACI-637 (lód 3–4 h)",
+    "sloik": "pint (sterylne) lub quart (czyste)",
+    "wolna_przestrzen": "1/2 cala (ok. 1,3 cm)",
+    "czas": "na gorąco: pint 5 min, quart 10 min (0–1000 stóp)",
+    "wysokosc": "pint 5/10/15 min, quart 10/15/20 min dla 0–1000 / 1001–6000 / >6000 stóp (ACI-638)"
+   },
+   "zmiana_wariantu": "Zmienić nazwę na „warzywa mieszane w occie z musztardą (NCHFP Pickled Mixed Vegetables)” i skład 1:1 z ACI-636 (ogórki, cebula, seler, marchew, czerwona papryka, kalafior; biały ocet 5%, musztarda gotowa, sól, cukier, przyprawy); bez innych warzyw (np. brokuł, fasolka) i bez oleju.",
+   "uwagi": "duplikat_z: brak w produkcie cauliflower (żaden wariant cauliflower nie wskazuje NCHFP Pickled Mixed Vegetables). Uwaga: E1-p2 proponował osobny wariant Pickled Mixed Vegetables dla giardiniery/piccalilli; sprawdzić, czy nie powstał w innym produkcie (np. warzywa mieszane), żeby nie dublować."
+  },
+  {
+   "grupa": "B",
+   "id": "broccoli-v04",
+   "nazwa": "brokuł w zalewie octowo-musztardowej",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Penn State: brokuł, w odróżnieniu od kalafiora, nie występuje w przepisach na pikle wekowane w kąpieli wodnej (ACI-029). NCHFP Pickled Mixed Vegetables ma zalewę octowo-musztardową, ale bez brokułu (ACI-636); przeniesienie przepisu na inne warzywo jest zabronione (ACI-016, ACI-017). Brokuł jest niskokwasowy (ACI-084, ACI-005).",
+   "twierdzenia": [
+    "ACI-029",
+    "ACI-016",
+    "ACI-017",
+    "ACI-005",
+    "ACI-084",
+    "ACI-636"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Sprawdzone: lista NCHFP Vegetable Pickles (brak brokułu), USDA Guide 6 (brak „broccoli”), CSU Additional pickling recipes (brak). Lodówka: brak przepisu 1–3 1:1 sprawdzonego w tym przebiegu."
+  },
+  {
+   "grupa": "B",
+   "id": "broccoli-v05",
+   "nazwa": "romanesco w białym occie winnym",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak przepisu 1–3 dla brokułu/romanesco w occie (ACI-029; USDA Guide 6 i lista NCHFP bez brokułu). Ocet winny bez potwierdzonej mocy 5% jest zabroniony (ACI-016); NCHFP zaleca biały destylowany lub jabłkowy 5% (ACI-018).",
+   "twierdzenia": [
+    "ACI-029",
+    "ACI-016",
+    "ACI-018",
+    "ACI-017",
+    "ACI-084"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Romanesco botanicznie bliskie kalafiorowi, ale przepis NCHFP Pickled Cauliflower (ACI-885) wymienia tylko kalafior lub brukselkę; przeniesienie na romanesco = zmiana warzywa (reguła 1), niedozwolone bez źródła."
+  },
+  {
+   "grupa": "B",
+   "id": "broccoli-v09",
+   "nazwa": "sałatka brokułowa w zalewie słodko-kwaśnej",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak przetestowanego przepisu z brokułem do kąpieli wodnej (ACI-029). Mieszanka z warzywem niskokwasowym wymaga przetestowanego zakwaszenia (ACI-006, ACI-017); proporcji z innych przepisów nie wolno przenosić (ACI-016).",
+   "twierdzenia": [
+    "ACI-029",
+    "ACI-016",
+    "ACI-017",
+    "ACI-005",
+    "ACI-006",
+    "ACI-084"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": ""
+  },
+  {
+   "grupa": "B",
+   "id": "brussels-kohlrabi-v07",
+   "nazwa": "brukselka w occie jabłkowym z gorczycą",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "po-zmianie",
+   "podstawa": "NCHFP Pickled Cauliflower or Brussel Sprouts (USDA 2015) obejmuje małe brukselki i gorczycę, ale używa białego octu 5% (ACI-885–887). NCHFP zaleca ocet jabłkowy 5% ogólnie (ACI-018, ACI-019), lecz nie dopuszcza wprost zamiany w tym przepisie, więc ocet trzeba zmienić na biały 5% (zgodnie z rozstrzygnięciem E3).",
+   "twierdzenia": [
+    "ACI-885",
+    "ACI-886",
+    "ACI-887",
+    "ACI-016",
+    "ACI-017",
+    "ACI-018",
+    "ACI-019"
+   ],
+   "parametry_karty": {
+    "ocet": "biały ocet spirytusowy/destylowany 5% (4 szklanki, bez wody)",
+    "proporcje": "12 szklanek małych brukselek : 4 szklanki octu 5% : 2 szklanki cukru; 2 szklanki cebuli, 1 szklanka czerwonej papryki, 2 łyżki gorczycy, 1 łyżka nasion selera, 1 łyżeczka kurkumy, 1 łyżeczka płatków chili (ACI-885); blanszowanie 4 min w osolonej wodzie (ACI-886)",
+    "sloik": "1/2 pinty lub pint (bez quart)",
+    "wolna_przestrzen": "1/2 cala (ok. 1,3 cm)",
+    "czas": "na gorąco: 10 min",
+    "wysokosc": "0–1000 stóp 10 min; 1001–6000 stóp 15 min; powyżej 6000 stóp 20 min (ACI-887)"
+   },
+   "zmiana_wariantu": "Zmienić nazwę na „brukselka w occie spirytusowym (białym) 5% z gorczycą (NCHFP Pickled Brussels Sprouts)” i ocet na biały 5%; skład, blanszowanie 4 min, zalewa i czasy 1:1 z ACI-885–887 (słoiki tylko 1/2 pinty lub pint).",
+   "uwagi": "duplikat_z: brak (żaden inny wariant brussels-kohlrabi nie wskazuje tego przepisu). Uwaga: przepis zawiera też płatki chili, cebulę i czerwoną paprykę — na karcie 1:1."
+  },
+  {
+   "grupa": "B",
+   "id": "brussels-kohlrabi-v08",
+   "nazwa": "brukselka z syropem klonowym i octem",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Syrop klonowy nie występuje w żadnym przepisie 1–3 na pikle z brukselki; NCHFP Pickled Cauliflower or Brussel Sprouts używa cukru (ACI-885). NCHFP ogranicza słodziki spoza przepisu (ACI-888), a zmiana składu zalewy = przepis nieprzetestowany (ACI-016, ACI-017).",
+   "twierdzenia": [
+    "ACI-885",
+    "ACI-888",
+    "ACI-016",
+    "ACI-017",
+    "ACI-085"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Po usunięciu syropu klonowego wariant byłby identyczny z brussels-kohlrabi-v07 po zmianie (duplikat_z: brussels-kohlrabi-v07), dlatego nie proponuję ok-zrodlo-po-zmianie."
+  },
+  {
+   "grupa": "B",
+   "id": "brussels-kohlrabi-v10",
+   "nazwa": "kalarepa konserwowa z koprem",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak przepisu 1–3 na marynowaną kalarepę: lista NCHFP Vegetable Pickles i USDA Guide 6 nie zawierają kalarepy; SDSU (za NCHFP) nie zaleca wekowania kalarepy (ACI-889), a Penn State uznaje ją za nienadającą się do szybkowaru (SZY-025). Przepisy z koprem (np. Dilled Beans) dotyczą innych warzyw i nie wolno ich przenosić (ACI-016).",
+   "twierdzenia": [
+    "ACI-889",
+    "SZY-025",
+    "ACI-016",
+    "ACI-017",
+    "ACI-005"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Wyszukane przepisy kalarepy z czasem kąpieli wodnej to wyłącznie blogi (szczebel 4–5), np. foodpreserving.org, foodinjars.com — nie potwierdzają. ACI-889 dotyczy wekowania kalarepy jako warzywa, nie marynaty; nie traktuję go jako zakazu (ryzyko-wysokie)."
+  },
+  {
+   "grupa": "B",
+   "id": "zucchini-v02",
+   "nazwa": "plastry w zalewie curry",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "warunkowo (B20-D1)",
+   "podstawa": "Jedyny przepis 1–3 na plastry cukinii w occie to NCHFP Bread-and-Butter Zucchini (ACI-253), bez curry; ani strona przepisu, ani NCHFP General Information, ani USDA Guide 6 nie dopuszczają wprost zmiany przypraw (reguła 2). Cukinia jest niskokwasowa (ACI-026, ACI-086). [Koordynator roli, B20-D1: dopuszczenie zmiany suszonych przypraw ma tylko szczebel 3 (UCCE El Dorado ACI-873, Ask Extension ACI-874), NCHFP go nie podaje; werdykt główny ostrożny do-researchu, „ok-zrodlo-po-zmianie” w polu warunkowo, po akceptacji B20-D1.]",
+   "twierdzenia": [
+    "ACI-253",
+    "ACI-016",
+    "ACI-017",
+    "ACI-005",
+    "ACI-026",
+    "ACI-086",
+    "ACI-254",
+    "ACI-255",
+    "ACI-256",
+    "ACI-257",
+    "ACI-258",
+    "ACI-873",
+    "ACI-874"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Bez curry wariant byłby duplikatem zucchini-v05 (NCHFP Bread-and-Butter Zucchini).",
+   "warunkowo": {
+    "werdykt": "ok-zrodlo-po-zmianie",
+    "decyzja": "B20-D1",
+    "zmiana_wariantu": "Nazwa: „plastry cukinii bread-and-butter z curry (NCHFP + suszone przyprawy)”; przepis NCHFP Pickled Bread-and-Butter Zucchini 1:1 (ACI-253–258), curry tylko jako suszona przyprawa zamiast części przypraw przepisu (ACI-873, ACI-874); ocet, cukinia, sól i proporcje bez zmian."
+   }
+  },
+  {
+   "grupa": "B",
+   "id": "zucchini-v03",
+   "nazwa": "cukinia w occie po kaszubsku",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "po-zmianie",
+   "podstawa": "„Po kaszubsku” nie ma przepisu 1–3. Najbliższy jest NCHFP Pickled Bread-and-Butter Zucchini (biały ocet 5%, cukier, cebula, gorczyca, seler, kurkuma; ACI-253–258), dopuszczony też przez USDA (ACI-025). Pasuje tylko po zmianie nazwy i składu 1:1.",
+   "twierdzenia": [
+    "ACI-253",
+    "ACI-254",
+    "ACI-255",
+    "ACI-256",
+    "ACI-257",
+    "ACI-258",
+    "ACI-025",
+    "ACI-016"
+   ],
+   "parametry_karty": {
+    "ocet": "biały ocet 5% (4 szklanki)",
+    "proporcje": "1:1 z ACI-253: 16 szklanek cukinii w plastrach, 4 szklanki cebuli, 1/2 szklanki soli, 4 szklanki octu 5%, 2 szklanki cukru, 4 łyżki gorczycy, 2 łyżki nasion selera, 2 łyżeczki kurkumy; przygotowanie ACI-254/255",
+    "sloik": "pint lub quart",
+    "wolna_przestrzen": "1/2 cala (ok. 1,3 cm)",
+    "czas": "na gorąco: 10 min (0–1000 stóp)",
+    "wysokosc": "0–1000 stóp 10 min; 1001–6000 stóp 15 min; powyżej 6000 stóp 20 min (ACI-256–258)"
+   },
+   "zmiana_wariantu": "Zmienić nazwę na „cukinia słodko-kwaśna w occie (NCHFP Bread-and-Butter Zucchini)” i skład 1:1 z ACI-253; bez dodatków typowych dla wersji kaszubskiej (czosnek, koper, ziele angielskie, pieprz) i bez innych proporcji octu.",
+   "uwagi": "duplikat_z: zucchini-v05 (ok-zrodlo, NCHFP Pickled Bread-and-Butter Zucchini) — po zmianie wariant jest identyczny; zalecam scalenie albo ukrycie (decyzja do weta)."
+  },
+  {
+   "grupa": "B",
+   "id": "zucchini-v04",
+   "nazwa": "w zalewie musztardowej",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "NCHFP Bread-and-Butter Zucchini zawiera nasiona gorczycy (ACI-253), ale nie zalewę musztardową z musztardą gotową; zalewa musztardowa jest w NCHFP tylko w Pickled Mixed Vegetables (ACI-636), bez cukinii. Przenoszenie zalewy na inne warzywo jest zabronione (ACI-016, ACI-017).",
+   "twierdzenia": [
+    "ACI-253",
+    "ACI-636",
+    "ACI-016",
+    "ACI-017",
+    "ACI-005",
+    "ACI-026"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Zmiana na B&B Zucchini dałaby duplikat zucchini-v05."
+  },
+  {
+   "grupa": "B",
+   "id": "zucchini-v07",
+   "nazwa": "w occie jabłkowym",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak przepisu 1–3 na wytrawną cukinię w occie jabłkowym; NCHFP ma tylko Bread-and-Butter Zucchini z białym octem 5% (ACI-253) i nie dopuszcza w nim wprost zamiany octu. Ogólne zalecenie octu jabłkowego 5% (ACI-018) nie zastępuje przetestowanego przepisu.",
+   "twierdzenia": [
+    "ACI-253",
+    "ACI-018",
+    "ACI-016",
+    "ACI-017",
+    "ACI-005",
+    "ACI-019",
+    "ACI-026"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null,
+   "uwagi": "Zmiana octu na biały i składu na B&B dałaby duplikat zucchini-v05 (duplikat_z: zucchini-v05), więc nie proponuję po-zmianie."
+  },
+  {
+   "grupa": "C",
+   "id": "zucchini-v09",
+   "nazwa": "keczup z cukinii",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Cukinia jest niskokwasowa (ACI-026), a dla samej dyni letniej nie ma czasów USDA (ACI-027, SZY-026). NCHFP i Penn State dopuszczają tylko przetestowane pikle, relishe i mieszanki zakwaszone (ACI-905, ACI-906); keczupu ani przecieru z cukinii nie ma w NCHFP, OSU, PSU ani NCSU. Przepisu nie wolno przenosić z keczupu pomidorowego (reguła 3).",
+   "twierdzenia": [
+    "ACI-026",
+    "ACI-027",
+    "SZY-026",
+    "ACI-905",
+    "ACI-906",
+    "ACI-017"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "Żadne przeczytane źródło 1–3 nie zakazuje wprost przecieru lub keczupu z dyni LETNIEJ; zakaz ACI-036 dotyczy dyni zimowej i dyni. Dlatego werdykt to do-researchu, a nie ryzyko-wysokie (patrz decyzje_do_weta). Najbliższe przetestowane przepisy z cukinią to Summer Squash Relish (ACI-900–903), Bread-and-Butter Zucchini (ACI-253–258) i Zucchini-Pineapple (SLO-106); żaden nie jest keczupem."
+  },
+  {
+   "grupa": "C",
+   "id": "zucchini-v14",
+   "nazwa": "sos słodko-kwaśny z cukinią",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "po-zmianie",
+   "podstawa": "NCHFP Summer Squash Relish to przetestowany słodko-kwaśny relish (ocet jabłkowy 5%, cukier, kurkuma, gorczyca, seler), który wprost dopuszcza samą cukinię (ACI-900, ACI-903). Przygotowanie i wolna przestrzeń: ACI-901, czasy w kąpieli wodnej dla słoików pint i 1/2 pinty na trzech progach wysokości: ACI-902. Penn State potwierdza, że relish z dyni letniej według przepisu przetestowanego wekuje się w kąpieli wodnej (ACI-905). Zmiana: z „sosu” na relish według tego przepisu 1:1.",
+   "twierdzenia": [
+    "ACI-900",
+    "ACI-901",
+    "ACI-902",
+    "ACI-903",
+    "ACI-905",
+    "ACI-026",
+    "ACI-016"
+   ],
+   "parametry_karty": {
+    "ocet": "ocet jabłkowy 5% (cider vinegar 5%), 2 szklanki",
+    "proporcje": "4 funty (ok. 1,8 kg) cukinii lub żółtej dyni letniej albo mieszanki, starte lub w kostce; 1/2 szklanki słodkiej cebuli w kostce (ok. 68 g); 2 szklanki octu jabłkowego 5%; 2 1/4 szklanki białego cukru; 2 łyżeczki nasion selera (albo sól selerowa); 2 łyżeczki kurkumy; 4 łyżeczki gorczycy; ok. 5 słoików pint",
+    "sloik": "pint (ok. 0,47 l) lub 1/2 pinty (ok. 0,24 l)",
+    "wolna_przestrzen": "1/2 cala (ok. 1,3 cm); płyn przykrywa warzywa",
+    "czas": "hot pack, kąpiel wodna: 15 min (0–1000 stóp), 20 min (1001–6000 stóp), 25 min (powyżej 6000 stóp)",
+    "wysokosc": "0–1000 / 1001–6000 / powyżej 6000 stóp (ok. 0–305 / 306–1829 / powyżej 1829 m n.p.m.)"
+   },
+   "zmiana_wariantu": "Zmienić nazwę i skład na „słodko-kwaśny relish z cukinii (wg NCHFP Summer Squash Relish)”: skład, proporcje, ocet jabłkowy 5%, słoiki pint/1/2 pinty i czasy dokładnie jak ACI-900–902; nie „sos” (bez zagęszczania, miksowania, skrobi i dodatków spoza przepisu); bez zamiany dyni na patisona ani dynię zimową.",
+   "uwagi": "Brak duplikatu: wśród wariantów zucchini nie ma relishu (v05 to Bread-and-Butter Zucchini, v04 to zalewa musztardowa, v08 to Zucchini-Pineapple). Słoiki metryczne: zastosować istniejącą ostrożną regułę JarAtlas „do 473 ml = pint”, a słoików większych niż pint karta nie obejmuje. OSU SP 50-447 przedrukowuje ten przepis z octem „white or cider vinegar (5%)”; karta zostaje przy oryginale NCHFP (ocet jabłkowy)."
+  },
+  {
+   "grupa": "C",
+   "id": "pattypan-squash-v02",
+   "nazwa": "patisony konserwowe w occie klasycznym",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Patison jest dynią letnią (SLO-271, ACI-907), a Bread-and-Butter z dyni letniej USDA dopuszcza tylko dla cienkiej cukinii lub żółtej dyni letniej (ACI-025). Jedynym przepisem pasującym do „klasycznych” pikli z dyni letniej jest Squash Pickles z bloga NCHFP (So Easy To Preserve 2011; ACI-904): koper, czosnek, ocet 5%, 15 minut. Źródło nie podaje jednak korekty czasu dla wysokości ani tabeli dla rozmiaru słoika, więc nie spełnia wymogu 1:1 (czas i wysokość) z reguły R4.",
+   "twierdzenia": [
+    "ACI-904",
+    "SLO-271",
+    "ACI-907",
+    "ACI-025",
+    "ACI-026",
+    "ACI-016",
+    "ACI-017"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "Kandydat: przepis Squash Pickles (ACI-904), „4 pounds summer squash (or zucchini)”. Patison zalicza się do dyni letniej (ACI-907), ale przepis nie wymienia go z nazwy. Do uzupełnienia: tabela korekty wysokości dla tego przepisu (So Easy To Preserve, wyd. 6, 2020, s. Pickled Products). Sól różni się między przedrukami (1/2 szklanki na blogu NCHFP, 1/4 szklanki w przedrukach widocznych w wyszukiwarce, które nie są dowodem). UC ANR media/246617 podaje patisona w „Refrigerated Dill Slices adapted from Ball Complete Book” (lodówka, przepis „adapted” = zmieniony, szczebel 4), więc tylko jako uwaga. Gdyby właściciel przyjął ACI-904: werdykt ok-zrodlo-po-zmianie (nazwa „patisony z koprem i czosnkiem w occie, wg NCHFP Squash Pickles”), bez duplikatu z pattypan-squash-v01 (to wariant kiszony)."
+  },
+  {
+   "grupa": "C",
+   "id": "pattypan-squash-v03",
+   "nazwa": "w zalewie miodowo-gorczycowej",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak przepisu 1–3 na patisony w zalewie z miodem i musztardą. NCHFP: miód tylko wtedy, gdy przewiduje go wiarygodny przepis (ACI-640); zmiana proporcji lub dodatków to przepis nieprzetestowany (ACI-016). Przepisy z dyni letniej z gorczycą (Summer Squash Relish ACI-900, Bread-and-Butter ACI-253) nie zawierają miodu i nie wymieniają patisona (ACI-903, ACI-025).",
+   "twierdzenia": [
+    "ACI-016",
+    "ACI-017",
+    "ACI-026",
+    "ACI-640",
+    "ACI-903",
+    "ACI-025"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "Nie da się przenieść na Summer Squash Relish (przepis tylko dla żółtej dyni/cukinii, ACI-903) bez zmiany warzywa."
+  },
+  {
+   "grupa": "C",
+   "id": "pattypan-squash-v04",
+   "nazwa": "w zalewie curry",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak przepisu 1–3 na patisony w zalewie curry; curry jest dodatkiem spoza przepisu, a żadne przeczytane źródło 1–3 nie dopuszcza takiej zmiany w piklach z dyni letniej (ACI-016). Przepisy z dyni letniej (ACI-900, ACI-253) nie wymieniają patisona (ACI-903, ACI-025).",
+   "twierdzenia": [
+    "ACI-016",
+    "ACI-017",
+    "ACI-026",
+    "ACI-903",
+    "ACI-025"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": ""
+  },
+  {
+   "grupa": "C",
+   "id": "pattypan-squash-v06",
+   "nazwa": "sałatka z patisonów z papryką i cebulą",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak przepisu 1–3 na sałatkę z patisona z papryką i cebulą. Summer Squash Relish NCHFP dopuszcza tylko żółtą dynię i cukinię, z samą cebulą, bez papryki (ACI-900, ACI-903); dodanie papryki zmienia proporcje warzyw do kwasu (ACI-016).",
+   "twierdzenia": [
+    "ACI-016",
+    "ACI-017",
+    "ACI-026",
+    "ACI-900",
+    "ACI-903"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "Zmiana na Squash Pickles (ACI-904) dałaby wariant identyczny z kandydatem dla pattypan-squash-v02 (duplikat_z: pattypan-squash-v02)."
+  },
+  {
+   "grupa": "C",
+   "id": "leafy-greens-v03",
+   "nazwa": "łodygi boćwiny w occie winnym",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "NCHFP, USDA ani przeczytane źródła extension nie mają przepisu na łodygi boćwiny w occie; w wyszukiwaniu są tylko blogi i pikle lodówkowe. Ocet winny wolno stosować tylko w przepisie przetestowanym (ACI-702), a Wisconsin wprost odradza octy winne w piklach (ACI-509). Boćwina ma pH 6,17–6,78 (ACI-090).",
+   "twierdzenia": [
+    "ACI-016",
+    "ACI-017",
+    "ACI-005",
+    "ACI-090",
+    "ACI-702",
+    "ACI-509"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": ""
+  },
+  {
+   "grupa": "C",
+   "id": "vine-leaves-greens-v02",
+   "nazwa": "liście winogron konserwowe w occie",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak przepisu 1–3 na liście winogron w occie (NCHFP, USDA). Jedyny materiał extension (UC ANR class.ucanr.edu 266942) to przedruk z whatscookingamerica.net (szczebel 4): blanszowanie w solance i mrożenie, bez wekowania. Liście są żywnością niskokwasową (ACI-005); przepisu nie wolno składać z innych pikli (ACI-016).",
+   "twierdzenia": [
+    "ACI-016",
+    "ACI-017",
+    "ACI-005",
+    "ACI-091"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "ACI-091 (pH sałaty) nie dotyczy liści winogron. Do rozważenia przez właściciela: usunąć ACI-091 z twierdzeń tego wariantu. UC ANR 266942 (2017) zaleca mrożenie zblanszowanych liści (szczebel 4, przedruk z whatscookingamerica.net), więc to tylko uwaga, a nie werdykt."
+  },
+  {
+   "grupa": "C",
+   "id": "vine-leaves-greens-v04",
+   "nazwa": "sałata łodygowa w occie",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak przepisu 1–3 na sałatę łodygową (celtuce) w occie; w wyszukiwaniu są tylko blogi (np. zalewa z sosem sojowym i octem ryżowym). Sałata ma pH 5,80–6,15 (ACI-091); zmiana warzywa w innym przepisie to przepis nieprzetestowany (ACI-016).",
+   "twierdzenia": [
+    "ACI-016",
+    "ACI-017",
+    "ACI-005",
+    "ACI-091"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": ""
+  },
+  {
+   "grupa": "C",
+   "id": "vine-leaves-greens-v06",
+   "nazwa": "kapusta morska w occie",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak przepisu 1–3 na wodorosty (kelp) w occie: NCHFP i USDA go nie mają; znalezione przepisy na marynowany kelp to blogi i materiały muzealne bez badań. Wersja Alaska Sea Grant / UAF jest niedostępna (blokada SSL). Wodorosty są niskokwasowe (ACI-005).",
+   "twierdzenia": [
+    "ACI-016",
+    "ACI-017",
+    "ACI-005"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "„Kapusta morska” oznacza wodorosty (Laminaria/kelp), nie roślinę Crambe maritima; dla żadnej z nich nie znaleziono przepisu 1–3."
+  },
+  {
+   "grupa": "C",
+   "id": "tomato-v07",
+   "nazwa": "piklowane w occie winnym",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak przepisu 1–3 na dojrzałe pomidory marynowane w occie winnym. Przepisy NCHFP z pomidorami w occie dotyczą zielonych pomidorów (ACI-410, ACI-644) z octem 5% białym/jabłkowym (ACI-018). Ocet winny tylko w przepisie przetestowanym (ACI-702, ACI-509). Pomidory mają pH 4,30–4,90 (ACI-093).",
+   "twierdzenia": [
+    "ACI-016",
+    "ACI-018",
+    "ACI-093",
+    "ACI-702",
+    "ACI-509"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "Zmiana na zielone pomidory wg NCHFP Pickled Sweet Green Tomatoes dałaby duplikat oceny tomato-v05 (ryzyko-wysokie, ACI-644/645), a wg Kosher Style Dill Green Tomato zmieniłaby produkt (pomidory zielone, osobny produkt green-cherry-tomato). Nie proponuję zmiany."
+  },
+  {
+   "grupa": "D",
+   "id": "green-cherry-tomato-v05",
+   "nazwa": "koktajlowe w occie balsamicznym",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "po-zmianie",
+   "podstawa": "Brak przepisu 1–3 z octem balsamicznym; octy specjalne (w tym balsamiczny) tylko gdy przewiduje je przepis przetestowany (ACI-211, ACI-702), nie wolno używać octu o nieznanej kwasowości (ACI-016, ACI-018). NCHFP Spiced Green Tomatoes to przetestowany słodko-korzenny pikiel z małych całych zielonych pomidorów w occie jabłkowym 5% (ACI-915–917) i pasuje po zamianie octu i przypraw.",
+   "twierdzenia": [
+    "ACI-915",
+    "ACI-916",
+    "ACI-917",
+    "ACI-016",
+    "ACI-018",
+    "ACI-211",
+    "ACI-702",
+    "ACI-017",
+    "ACI-050"
+   ],
+   "parametry_karty": {
+    "ocet": "jabłkowy 5% (1 pinta, ok. 473 ml), nie balsamiczny",
+    "proporcje": "6 funtów (ok. 2,7 kg) małych całych zielonych pomidorów : 9 szklanek cukru : 1 pinta octu jabłkowego 5%; 2 laski cynamonu, 1 łyżka goździków, 1 łyżka ziela angielskiego, 1 łyżka kwiatu muszkatołowego (albo 1/2 łyżki mielonego); pomidory sparzone i obrane, gotowane w syropie do przezroczystości",
+    "sloik": "tylko pint (ok. 473 ml)",
+    "wolna_przestrzen": "1/2 cala (ok. 1,3 cm)",
+    "czas": "nakładanie na gorąco: 15 / 20 / 25 min",
+    "wysokosc": "0–1000 / 1001–6000 / powyżej 6000 stóp (ok. 0–305 / 305–1829 / powyżej 1829 m)"
+   },
+   "zmiana_wariantu": "nazwa → np. „zielone pomidorki korzenne w occie jabłkowym (NCHFP Spiced Green Tomatoes)”; ocet balsamiczny → ocet jabłkowy 5%; przyprawy wg ACI-915; proces wg ACI-916–917; tylko słoiki pint.",
+   "uwagi": "Przepis podaje „small green fig or plum tomatoes”; pomidorki koktajlowe są małe, ale nie są wymienione z nazwy — do weta (decyzje_do_weta). duplikat_z: brak (green-cherry-tomato-v03 to koszerne z koprem, v09 konfitura z wanilią — inne przepisy)."
+  },
+  {
+   "grupa": "D",
+   "id": "green-cherry-tomato-v06",
+   "nazwa": "sałatka z zielonych pomidorów",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "po-zmianie",
+   "podstawa": "Brak przetestowanej „sałatki” z zielonych pomidorów z dodatkami; mieszanki warzyw niskokwasowych wymagają przepisu z przetestowaną ilością kwasu (ACI-006, ACI-016, ACI-017). NCHFP Piccalilli (zielone pomidory, papryka, cebula, kapusta, ocet 5%, brązowy cukier) jest przetestowanym przepisem tego typu (SLO-528–532, ACI-639).",
+   "twierdzenia": [
+    "SLO-528",
+    "SLO-529",
+    "SLO-530",
+    "SLO-531",
+    "SLO-532",
+    "ACI-639",
+    "ACI-006",
+    "ACI-016",
+    "ACI-017"
+   ],
+   "parametry_karty": {
+    "ocet": "ocet 5% (4 1/2 szklanki); wg ACI-211 biały albo jabłkowy z etykietą 5%",
+    "proporcje": "6 szklanek posiekanych zielonych pomidorów, 1 1/2 szklanki czerwonej i 1 1/2 szklanki zielonej papryki, 2 1/4 szklanki cebuli, 7 1/2 szklanki kapusty, 1/2 szklanki soli, 3 łyżki przyprawy do pikli, 4 1/2 szklanki octu 5%, 3 szklanki brązowego cukru; 12 h w soli z gorącą wodą, odcisnąć, gotować 30 min albo do zmniejszenia objętości o połowę",
+    "sloik": "1/2 pinty albo pint, wysterylizowane",
+    "wolna_przestrzen": "1/2 cala (ok. 1,3 cm)",
+    "czas": "nakładanie na gorąco: 5 / 10 / 15 min",
+    "wysokosc": "0–1000 / 1001–6000 / powyżej 6000 stóp"
+   },
+   "zmiana_wariantu": "nazwa → „piccalilli z zielonych pomidorów i kapusty (NCHFP Piccalilli)”; skład i proces dokładnie wg SLO-528–532; bez innych warzyw.",
+   "uwagi": "Kopia: zrodla/D/nchfp-piccalilli.txt (sha12 23985957870b), treść zgodna z istniejącymi SLO-528–532. duplikat_z: w tym produkcie brak (v07 = NCHFP Pickled Green Tomato Relish, inny przepis); ten sam przepis NCHFP ma już asian-american-mix-v10 („kreolski relish z zielonych pomidorów i kapusty”, SLO-533) — duplikat międzyproduktowy, do weta."
+  },
+  {
+   "grupa": "D",
+   "id": "bell-pepper-v05",
+   "nazwa": "w occie winnym z rozmarynem",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "po-zmianie",
+   "podstawa": "Ocet winny wolno użyć tylko, gdy przewiduje go przepis przetestowany (ACI-211, ACI-702; Wisconsin: nie używać octów winnych, ACI-509); rozmaryn to dodatek spoza przepisu, a nie znaleziono źródła 1–3 dopuszczającego go w piklach z papryki. Jedyny pasujący przepis 1–3 to NCHFP Pickled Bell Peppers (ACI-202–208) z octem 5% bez rozmarynu.",
+   "twierdzenia": [
+    "ACI-202",
+    "ACI-203",
+    "ACI-204",
+    "ACI-205",
+    "ACI-206",
+    "ACI-207",
+    "ACI-208",
+    "ACI-016",
+    "ACI-018",
+    "ACI-211",
+    "ACI-702",
+    "ACI-509"
+   ],
+   "parametry_karty": {
+    "ocet": "ocet 5% (biały albo jabłkowy z etykietą 5%, ACI-211), nie winny",
+    "proporcje": "7 funtów (ok. 3,2 kg) papryki : 3 1/2 szklanki cukru : 3 szklanki octu 5% : 3 szklanki wody; 9 ząbków czosnku, 4 1/2 łyżeczki soli",
+    "sloik": "1/2 pinty albo pint",
+    "wolna_przestrzen": "1/2 cala (ok. 1,3 cm)",
+    "czas": "nakładanie na gorąco: 5 / 10 / 15 min",
+    "wysokosc": "0–1000 / 1001–6000 / powyżej 6000 stóp"
+   },
+   "zmiana_wariantu": "ocet winny → ocet 5% biały/jabłkowy; usunąć rozmaryn; przepis NCHFP Pickled Bell Peppers 1:1.",
+   "uwagi": "duplikat_z: bell-pepper-v01 (papryka konserwowa w occie klasyczna = NCHFP Pickled Bell Peppers). Po zmianie wariant traci sens; propozycja: ukryć/scalić z v01 albo zostawić do-researchu (decyzje_do_weta). Kopia: zrodla/D/nchfp-pickled-bell-peppers.txt (sha12 6507086c74b1)."
+  },
+  {
+   "grupa": "D",
+   "id": "eggplant-v03",
+   "nazwa": "włoskie melanzane sott'aceto w occie",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Bakłażan jest niskokwasowy i nie ma dla niego czasów USDA (ACI-026, ACI-027); PSU dopuszcza kąpiel wodną tylko dla przepisów przetestowanych, a w NCHFP/USDA i przeczytanych publikacjach extension (PSU, OSU) nie ma przepisu na bakłażana w occie. Przepis Ball „Eggplant Pickles” istnieje tylko na ballmasonjars.com (403, niezweryfikowany).",
+   "twierdzenia": [
+    "ACI-016",
+    "ACI-017",
+    "ACI-005",
+    "ACI-026",
+    "ACI-027"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "Wersja tradycyjna (po occie przełożona do oleju) = OLE (ryzyko-wysokie jak eggplant-v07). Do sprawdzenia: Ball Eggplant Pickles w Ball Blue Book 37/2020/2024 lub Ball Complete Book (wydanie papierowe/przedruk extension)."
+  },
+  {
+   "grupa": "D",
+   "id": "eggplant-v04",
+   "nazwa": "pikle indyjskie z bakłażana",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ryzyko-wysokie",
+   "ryzyko": "wysokie",
+   "regula": "zakaz",
+   "podstawa": "Pikle indyjskie z bakłażana są na oleju z przyprawami; dla domowych warzyw w oleju nie ma zwalidowanych procesów (OLE-028), bakłażan występował w ogniskach jadu kiełbasianego z warzyw w oleju (OLE-024, OLE-025), a zagrożenia nie da się wykryć zmysłami (OLE-027). Bakłażan jest niskokwasowy bez czasów USDA (ACI-026, ACI-027).",
+   "twierdzenia": [
+    "OLE-028",
+    "OLE-024",
+    "OLE-025",
+    "OLE-027",
+    "OLE-029",
+    "ACI-026",
+    "ACI-027",
+    "ACI-005",
+    "ACI-016"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "Spójne z eggplant-v07 i eggplant-v14 (ryzyko-wysokie, OLE). Karta-ostrzeżenie: najbezpieczniej zamrozić albo lodówka i spożycie w 4 dni (OLE-029)."
+  },
+  {
+   "grupa": "D",
+   "id": "eggplant-v06",
+   "nazwa": "w occie balsamicznym",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Brak przepisu 1–3 na bakłażana w occie (ACI-026, ACI-027), a ocet balsamiczny wolno użyć tylko w przepisie przetestowanym, który go przewiduje (ACI-211, ACI-702). Nie ma przepisu NCHFP dla bakłażana, na który można by zmienić wariant.",
+   "twierdzenia": [
+    "ACI-016",
+    "ACI-018",
+    "ACI-211",
+    "ACI-702",
+    "ACI-026",
+    "ACI-027"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "Kopia PSU: zrodla/D/psu-uncanny-trio.txt (sha12 98cc01bec2b1), zrodla/D/psu-advice-about-vinegar.txt (sha12 5c4efa041d3d) — treść zgodna z ACI-026/027 i ACI-211."
+  },
+  {
+   "grupa": "D",
+   "id": "tomatillo-v02",
+   "nazwa": "tomatillo w occie winnym",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "NCHFP i OSU mają dla tomatillo tylko wekowanie w wodzie z sokiem z cytryny (ACI-060), Tomatillo Green Salsa (ACI-427–430) i Tangy Tomatillo Relish (tomatillo-v05); pikla z tomatillo w occie nie ma. Ocet winny tylko w przepisie przetestowanym, który go przewiduje (ACI-211, ACI-702).",
+   "twierdzenia": [
+    "ACI-016",
+    "ACI-018",
+    "ACI-211",
+    "ACI-702",
+    "ACI-060",
+    "ACI-098"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "Kopia OSU: zrodla/D/osu-preserving-tomatillos.txt (sha12 b1022cbf8d8a): tylko whole tomatillos (zakwaszone), salsa, relish. Zmiana na „tomatillo w całości z sokiem z cytryny” (ACI-060) to inna metoda (nie pikiel) — nie zastosowano."
+  },
+  {
+   "grupa": "D",
+   "id": "tomatillo-v04",
+   "nazwa": "miechunka peruwiańska w occie jabłkowym",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Nie znaleziono przepisu 1–3 na miechunkę peruwiańską (Physalis peruviana) ani na miechunkę (ground cherry) w occie; przepisy NCHFP/OSU dotyczą tylko tomatillo (ACI-060). Zmiana owocu w przepisie = przepis nieprzetestowany (ACI-016, ACI-017).",
+   "twierdzenia": [
+    "ACI-016",
+    "ACI-017",
+    "ACI-018"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "Brak też danych pH w przeczytanych źródłach."
+  },
+  {
+   "grupa": "D",
+   "id": "tomatillo-v09",
+   "nazwa": "chutney z tomatillo",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Dział Chutneys NCHFP ma tylko cztery przepisy (Apple, Mango, Tomato-Apple, Cranberry Orange; ACI-646), żaden z tomatillo; OSU też nie podaje chutneyu z tomatillo. Łączenie przepisów i zmiana owocu są zabronione (ACI-016, ACI-017).",
+   "twierdzenia": [
+    "ACI-016",
+    "ACI-017",
+    "ACI-646",
+    "ACI-098"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "Precedens: green-cherry-tomato-v10 (chutney spoza czterech przepisów NCHFP) dostał ryzyko-wysokie (C9-D10) — do weta, czy tu tak samo. Najbliższy przetestowany: Tangy Tomatillo Relish (tomatillo-v05) — zmiana dałaby duplikat_z tomatillo-v05."
+  },
+  {
+   "grupa": "D",
+   "id": "green-beans-v04",
+   "nazwa": "w zalewie octowej słodko-kwaśnej",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "po-zmianie",
+   "podstawa": "NCHFP ma dla fasolki tylko Dilled Beans bez cukru (ACI-918–920); wersja słodka nie jest przetestowana (ACI-016, ACI-017). Wariant w zalewie octowej pasuje do Dilled Beans po usunięciu słodkiej zalewy (ocet biały 5% : woda 1:1, sól, koper).",
+   "twierdzenia": [
+    "ACI-918",
+    "ACI-919",
+    "ACI-920",
+    "ACI-016",
+    "ACI-017",
+    "ACI-018",
+    "ACI-005",
+    "ACI-099"
+   ],
+   "parametry_karty": {
+    "ocet": "biały ocet destylowany 5% (4 szklanki)",
+    "proporcje": "4 funty (ok. 1,8 kg) fasolki : 4 szklanki octu 5% : 4 szklanki wody : 1/2 szklanki soli; 8–16 baldachów kopru, czosnek i płatki chili opcjonalnie; bez cukru",
+    "sloik": "tylko pint, wysterylizowane",
+    "wolna_przestrzen": "1/2 cala (ok. 1,3 cm)",
+    "czas": "nakładanie na surowo: 5 / 10 / 15 min",
+    "wysokosc": "0–1000 / 1001–6000 / powyżej 6000 stóp"
+   },
+   "zmiana_wariantu": "nazwa → „fasolka w zalewie octowej z koprem (NCHFP Dilled Beans)”; bez cukru (nie słodko-kwaśna); skład i proces wg ACI-918–920.",
+   "uwagi": "Alternatywa słodko-kwaśna: NCHFP Pickled Three-Bean Salad (SLO-573–579), ale to inny produkt i duplikat_z beans-soy-v01. duplikat_z w tym produkcie: brak (green-beans-v01 to kiszona, lodówka). Do weta: czy zmiana słodko-kwaśna → koperkowa nie jest zbyt daleka."
+  },
+  {
+   "grupa": "D",
+   "id": "green-beans-v05",
+   "nazwa": "w zalewie musztardowej",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "do-researchu",
+   "ryzyko": "wysokie",
+   "regula": "brak",
+   "podstawa": "Nie znaleziono przepisu 1–3 na fasolkę w zalewie musztardowej; znalezione przepisy są szczebla 4–5 (Bernardin w przedruku healthycanning, pickyourown sam pisze, że USDA nie ma takiego przepisu). NCHFP ma tylko Dilled Beans (ACI-918–920); dodatek musztardy = przepis zmieniony (ACI-016, ACI-017).",
+   "twierdzenia": [
+    "ACI-016",
+    "ACI-017",
+    "ACI-005",
+    "ACI-099",
+    "ACI-918"
+   ],
+   "parametry_karty": {
+    "ocet": "",
+    "proporcje": "",
+    "sloik": "",
+    "wolna_przestrzen": "",
+    "czas": "",
+    "wysokosc": ""
+   },
+   "zmiana_wariantu": null,
+   "uwagi": "Zmiana na Dilled Beans dałaby duplikat_z green-beans-v04 (po zmianie) — nie zastosowano."
+  }
+ ],
+ "twierdzenia": [
+  {
+   "id": "ACI-873",
+   "twierdzenie": "UCCE Master Food Preservers (El Dorado): suszone zioła i przyprawy nie wpływają na bezpieczeństwo przetestowanego przepisu na pikle; zamiast kopru można dać np. przyprawy włoskie, meksykańskie albo curry.",
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2022-04/365812.pdf",
+     "miejsce": "UCCE MFP El Dorado County, Winter Pickles (2021-02-12), akapit 2",
+     "cytat": "Dried herbs and spices do not affect the safety of a tested pickle recipe. If you do not like dill, maybe you would prefer to substitute Italian seasonings, Mexican seasonings, or even curry.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "Ulotka UCCE Master Food Preservers of El Dorado County (S. Brasuel, 2021-02-12), extension UC ANR.",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "9700e8c9e1f0",
+     "plik_kopii": "zrodla/A/ucce-eldorado-winter-pickles-365812.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Dotyczy tylko suszonych ziół i przypraw (nie świeżych warzyw jak chili, czosnek, cebula) i tylko przepisu przetestowanego; ocet, warzywo, woda, sól i czas bez zmian (ACI-016).",
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-874",
+   "twierdzenie": "Ask Extension (2016): w piklach przyprawy można dowolnie zmieniać, bezpiecznie dodając lub odejmując suszone przyprawy, ale kapustę, ocet i sól trzeba dać według przepisu.",
+   "zrodla": [
+    {
+     "adres": "https://ask.extension.org/kb/faq.php?id=308808",
+     "miejsce": "Ask Extension #308808, Canning German Red Cabbage, odpowiedź eksperta",
+     "cytat": "Spices are always negotiable in pickled products, so you can safely add or subtract dried spices to your taste, or to match the cooked recipe you prefer, but for the cabbage, vinegar and salt do follow the recommendations to ensure it is a safe product.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "Odpowiedź eksperta Ask Extension (N. Oehler, 2016-03-24, pytanie z hrabstwa Multnomah, OR) z przedrukiem Ball Blue Book Guide to Preserving 2014 (wyd. 37); jedna osoba, nie publikacja recenzowana.",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "c81c9bb1e03d",
+     "plik_kopii": "zrodla/A/askext-308808-red-cabbage.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Jedna odpowiedź eksperta Ask Extension; zgodna z ACI-873.",
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-875",
+   "twierdzenie": "Ask Extension (2016): Extension i USDA nie mają przepisu na wekowanie czerwonej kapusty; przetestowany przepis Spiced Red Cabbage jest w Ball Blue Book.",
+   "zrodla": [
+    {
+     "adres": "https://ask.extension.org/kb/faq.php?id=308808",
+     "miejsce": "Ask Extension #308808, odpowiedź eksperta, zdanie 1",
+     "cytat": "Extension and USDA do not have a recipe for canning red cabbage however the Ball Blue book has a tested recipe for spiced red cabbage.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "Odpowiedź eksperta Ask Extension (N. Oehler, 2016-03-24, pytanie z hrabstwa Multnomah, OR) z przedrukiem Ball Blue Book Guide to Preserving 2014 (wyd. 37); jedna osoba, nie publikacja recenzowana.",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "c81c9bb1e03d",
+     "plik_kopii": "zrodla/A/askext-308808-red-cabbage.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-876",
+   "twierdzenie": "Ball Spiced/Spicy Red Cabbage (Ball Complete Book of Home Preserving w ulotce UCCE; Ball Blue Book 2014 w Ask Extension), składniki na ok. 5 kwart albo 10 pint: 12 funtów (ok. 5,4 kg) czerwonej kapusty (3–4 główki) bez głąba, poszatkowanej; 1/2 szklanki soli do konserw lub marynat; 8 szklanek (2 kwarty) octu z czerwonego wina 5%; 1 szklanka jasnego brązowego cukru; 1/2 szklanki gorczycy; 1/4 szklanki gałki muszkatołowej w kwiecie lub gałki; w woreczku: po 1/4 szklanki całych goździków, ziela angielskiego, pieprzu w ziarnach i nasion selera oraz 2 laski cynamonu.",
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2022-04/365812.pdf",
+     "miejsce": "UCCE MFP El Dorado, Spicy Red Cabbage, Source: Ball Complete Book of Home Preserving, składniki",
+     "cytat": "Spicy Red Cabbage Source:Ball Complete Book of Home Preserving Yield: about 5 quarts or 10 pints 12 lbs of red cabbage(3-4heads), cored and shredded ½ cup canning or pickling salt",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "Przedruk Ball Complete Book of Home Preserving w ulotce UCCE Master Food Preservers of El Dorado County (S. Brasuel, 2021-02-12); wydanie Ball nie podane (dopuszczalne 2006/2012/2020).",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "9700e8c9e1f0",
+     "plik_kopii": "zrodla/A/ucce-eldorado-winter-pickles-365812.txt"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2022-04/365812.pdf",
+     "miejsce": "UCCE MFP El Dorado, Spicy Red Cabbage, składniki",
+     "cytat": "¼ cup whole cloves ¼ cup whole allspice ¼ cup whole peppercorns ¼ cup celery seed 2 cinnamon sticks, each about 4 inches and broken into pieces. 8 cups of red wine vinegar (5% acidity) 1 cup light brown sugar ½ cup mustard seed ¼ cup mace or nutmeg",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "Przedruk Ball Complete Book of Home Preserving w ulotce UCCE Master Food Preservers of El Dorado County (S. Brasuel, 2021-02-12); wydanie Ball nie podane (dopuszczalne 2006/2012/2020).",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "9700e8c9e1f0",
+     "plik_kopii": "zrodla/A/ucce-eldorado-winter-pickles-365812.txt"
+    },
+    {
+     "adres": "https://ask.extension.org/kb/faq.php?id=308808",
+     "miejsce": "Ask Extension #308808, Spiced Red Cabbage (Source: Ball Blue Book Guide to Preserving. 2014), składniki",
+     "cytat": "12 pounds cabbage (about 3 large heads) ½ cup Ball ® salt (canning/pickling salt) 1 cup brown sugar ½ cup mustard seed ¼ cup mace 2 quarts red wine vinegar ¼ cup whole cloves",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "Odpowiedź eksperta Ask Extension (N. Oehler, 2016-03-24, pytanie z hrabstwa Multnomah, OR) z przedrukiem Ball Blue Book Guide to Preserving 2014 (wyd. 37); jedna osoba, nie publikacja recenzowana.",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "c81c9bb1e03d",
+     "plik_kopii": "zrodla/A/askext-308808-red-cabbage.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Kwasowość octu (5%) podaje tylko wersja UCCE (Complete Book); Ask Extension (Blue Book 2014) nie podaje. Na kartę: ocet z czerwonego wina z etykietą 5% (ACI-016: nie octu o nieznanej kwasowości).",
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-877",
+   "twierdzenie": "Ball Spiced Red Cabbage, sposób: kapustę przesypać warstwami solą, przykryć i odstawić na 24 godziny w chłodne miejsce; opłukać, odsączyć 1 godzinę i osuszać ok. 6 godzin na tacach z ręcznikiem; ocet, cukier, gorczycę, gałkę i woreczek z przyprawami zagotować i gotować łagodnie 5 minut, woreczek wyjąć; kapustę włożyć do gorących słoików, zalać gorącą zalewą, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, usunąć pęcherze powietrza.",
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2022-04/365812.pdf",
+     "miejsce": "UCCE MFP El Dorado, Spicy Red Cabbage, Day 1–Day 2",
+     "cytat": "In a large crock, glass or stainless steel bowl, layer cabbage and salt. Cover and let stand in a cool place for 24 hours … Transfer cabbage to a colander placed over the sink and drain. Rinse with cool running water. Leave in colander for 1 hour to drain then place on trays lined with paper towels to dry, about 6 hours.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "Przedruk Ball Complete Book of Home Preserving w ulotce UCCE Master Food Preservers of El Dorado County (S. Brasuel, 2021-02-12); wydanie Ball nie podane (dopuszczalne 2006/2012/2020).",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "9700e8c9e1f0",
+     "plik_kopii": "zrodla/A/ucce-eldorado-winter-pickles-365812.txt"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2022-04/365812.pdf",
+     "miejsce": "UCCE MFP El Dorado, Spicy Red Cabbage, napełnianie",
+     "cytat": "Ladle hot pickling liquid into jars to cover the cabbage, leaving ½ inch headspace. Remove air bubbles and adjust headspace, if necessary, by adding more liquid.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "Przedruk Ball Complete Book of Home Preserving w ulotce UCCE Master Food Preservers of El Dorado County (S. Brasuel, 2021-02-12); wydanie Ball nie podane (dopuszczalne 2006/2012/2020).",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "9700e8c9e1f0",
+     "plik_kopii": "zrodla/A/ucce-eldorado-winter-pickles-365812.txt"
+    },
+    {
+     "adres": "https://ask.extension.org/kb/faq.php?id=308808",
+     "miejsce": "Ask Extension #308808, Spiced Red Cabbage (Ball Blue Book 2014), sposób",
+     "cytat": "Boil 5 minutes. Remove spice bag. Pack cabbage into hot jars, leaving ½ inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "Odpowiedź eksperta Ask Extension (N. Oehler, 2016-03-24, pytanie z hrabstwa Multnomah, OR) z przedrukiem Ball Blue Book Guide to Preserving 2014 (wyd. 37); jedna osoba, nie publikacja recenzowana.",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "c81c9bb1e03d",
+     "plik_kopii": "zrodla/A/askext-308808-red-cabbage.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-878",
+   "twierdzenie": "Ball Spiced Red Cabbage, kąpiel wodna (ostrożnie, dłuższy z podanych czasów): 0–1000 stóp 20 minut, 1001–6000 stóp 25 minut, powyżej 6000 stóp 30 minut; Ball Blue Book 2014 podaje 20 minut bez rozbicia na wysokości.",
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2022-04/365812.pdf",
+     "miejsce": "UCCE MFP El Dorado, Spicy Red Cabbage, czas",
+     "cytat": "Process for 20 minutes = 0-1000ft, 25 minutes = 1001-6000ft, 30 minutes = above 6000 ft.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "Przedruk Ball Complete Book of Home Preserving w ulotce UCCE Master Food Preservers of El Dorado County (S. Brasuel, 2021-02-12); wydanie Ball nie podane (dopuszczalne 2006/2012/2020).",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "9700e8c9e1f0",
+     "plik_kopii": "zrodla/A/ucce-eldorado-winter-pickles-365812.txt"
+    },
+    {
+     "adres": "https://ask.extension.org/kb/faq.php?id=308808",
+     "miejsce": "Ask Extension #308808, Spiced Red Cabbage (Ball Blue Book 2014), czas",
+     "cytat": "Process 20 minutes in a boiling water canner.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "Odpowiedź eksperta Ask Extension (N. Oehler, 2016-03-24, pytanie z hrabstwa Multnomah, OR) z przedrukiem Ball Blue Book Guide to Preserving 2014 (wyd. 37); jedna osoba, nie publikacja recenzowana.",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "c81c9bb1e03d",
+     "plik_kopii": "zrodla/A/askext-308808-red-cabbage.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Ulotka UCCE ma pod przepisem drugi, krótszy akapit (10/15/20 min, wrzątek lub para atmosferyczna), który nie pasuje do przepisu (prawdopodobnie z innego przepisu); przyjęto dłuższy czas 20/25/30 min, zgodny z Blue Book (20 min do 1000 stóp). Słoik: pint albo kwarta wg wydajności („about 5 quarts or 10 pints”), ten sam czas — rozmiar słoika nie jest rozpisany w tabeli; do przeglądu.",
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-879",
+   "twierdzenie": "Ask Extension (2016): wekowanie kapusty w szybkowarze nie jest zalecane (kapusta się przebarwia i ma silny smak) i nie ma opartych na badaniach czasów wekowania kapusty; zalewa octowa czyni z niej marynatę, którą można wekować w kąpieli wodnej.",
+   "zrodla": [
+    {
+     "adres": "https://ask.extension.org/kb/faq.php?id=308808",
+     "miejsce": "Ask Extension #308808, odpowiedź eksperta",
+     "cytat": "The vinegar brine makes this a pickled product, so it can be safely boiling water canned. Pressure canning cabbage results in discolored and strong flavored cabbage, so it is not recommended and we do not have research based times for canning cabbage.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "Odpowiedź eksperta Ask Extension (N. Oehler, 2016-03-24, pytanie z hrabstwa Multnomah, OR) z przedrukiem Ball Blue Book Guide to Preserving 2014 (wyd. 37); jedna osoba, nie publikacja recenzowana.",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "c81c9bb1e03d",
+     "plik_kopii": "zrodla/A/askext-308808-red-cabbage.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-885",
+   "twierdzenie": "NCHFP Pickled Cauliflower or Brussel Sprouts (adapt. USDA Complete Guide 2015), składniki na ok. 9 słoików 1/2 pinty: 12 szklanek różyczek kalafiora 1–2 cale (ok. 2,5–5 cm) albo małych brukselek, 4 szklanki białego octu 5%, 2 szklanki cukru, 2 szklanki cienko pokrojonej cebuli, 1 szklanka czerwonej papryki słodkiej w kostkę, 2 łyżki nasion gorczycy, 1 łyżka nasion selera, 1 łyżeczka kurkumy, 1 łyżeczka płatków ostrej papryki. Bez dodatku wody.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-cauliflower-or-brussel-sprouts/",
+     "miejsce": "NCHFP: Pickled Cauliflower or Brussel Sprouts, lista składników",
+     "cytat": "12 cups of 1- to 2-inch cauliflower flowerets or small Brussels sprouts 4 cups white vinegar (5 percent) 2 cups sugar 2 cups thinly sliced onions 1 cup diced sweet red peppers 2 tbsp mustard seed",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "71f6b86e32cb",
+     "plik_kopii": "zrodla/B/nchfp-pickled-cauliflower-brussels.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-cauliflower-or-brussel-sprouts/",
+     "miejsce": "NCHFP: Pickled Cauliflower or Brussel Sprouts, lista składników i wydajność",
+     "cytat": "1 tbsp celery seed 1 tsp turmeric 1 tsp hot red pepper flakes Yield: About 9 half-pints",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "71f6b86e32cb",
+     "plik_kopii": "zrodla/B/nchfp-pickled-cauliflower-brussels.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf",
+     "miejsce": "USDA Complete Guide to Home Canning 2015, Guide 6, s. 6-16, Pickled Cauliflower or Brussels Sprouts",
+     "cytat": "12 cups of 1- to 2-inch cauliflower flowerets or small Brussels sprouts 4 cups white vinegar (5%) 2 cups sugar",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "94cbdc2b4f7c",
+     "plik_kopii": "zrodla/B/usda-guide06.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-886",
+   "twierdzenie": "NCHFP Pickled Cauliflower or Brussel Sprouts, przygotowanie: różyczki kalafiora albo brukselki (bez łodyg i uszkodzonych liści) gotować w osolonej wodzie (4 łyżeczki soli do wekowania na galon, ok. 3,8 l) 3 minuty kalafior, 4 minuty brukselka; odsączyć i ostudzić; ocet, cukier, cebulę, paprykę i przyprawy zagotować i gotować na małym ogniu 5 minut; cebulę i paprykę rozdzielić do słoików, napełnić warzywami i zalewą, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-cauliflower-or-brussel-sprouts/",
+     "miejsce": "NCHFP: Pickled Cauliflower or Brussel Sprouts, Procedure",
+     "cytat": "boil in salt water (4 tsp canning salt per gallon of water) for 3 minutes for cauliflower and 4 minutes for Brussels sprouts. Drain and cool.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "71f6b86e32cb",
+     "plik_kopii": "zrodla/B/nchfp-pickled-cauliflower-brussels.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-cauliflower-or-brussel-sprouts/",
+     "miejsce": "NCHFP: Pickled Cauliflower or Brussel Sprouts, Procedure",
+     "cytat": "Bring to a boil and simmer 5 minutes. Distribute onion and diced pepper among jars. Fill jars with pieces and pickling solution, leaving 1/2-inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "71f6b86e32cb",
+     "plik_kopii": "zrodla/B/nchfp-pickled-cauliflower-brussels.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-887",
+   "twierdzenie": "NCHFP Pickled Cauliflower or Brussel Sprouts, tabela 1, kąpiel wodna, na gorąco (hot), tylko słoiki 1/2 pinty lub pint: 10 minut (0–1000 stóp), 15 minut (1001–6000 stóp), 20 minut (powyżej 6000 stóp); brak czasu dla słoików quart.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-cauliflower-or-brussel-sprouts/",
+     "miejsce": "NCHFP: Pickled Cauliflower or Brussel Sprouts, Table 1 (komórki tabeli złączone spacją)",
+     "cytat": "Hot Half-pints or Pints 10 min 15 20",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "71f6b86e32cb",
+     "plik_kopii": "zrodla/B/nchfp-pickled-cauliflower-brussels.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-888",
+   "twierdzenie": "NCHFP: syrop kukurydziany i miód, o ile nie przewiduje ich wiarygodny przepis, mogą dać niepożądany smak; w piklach używa się zwykle cukru białego lub brązowego (NCHFP nie dopuszcza dodawania słodzików spoza przepisu).",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/pickling-general-information/general-information-on-pickling/",
+     "miejsce": "NCHFP: General Information on Pickling, Ingredients",
+     "cytat": "Corn syrup and honey, unless called for in reliable recipes, may produce undesirable flavors.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "7178cfa33b93",
+     "plik_kopii": "zrodla/B/nchfp-general-pickling.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-889",
+   "twierdzenie": "SDSU Extension (Preserve It! Kohlrabi), powołując się na NCHFP: wekowania kalarepy się nie zaleca (dotyczy kalarepy jako warzywa; NCHFP nie ma przepisu na marynowaną kalarepę).",
+   "zrodla": [
+    {
+     "adres": "https://extension.sdstate.edu/sites/default/files/2024-04/S-0001-21-Kohlrabi-Preserve_It.pdf",
+     "miejsce": "SDSU Extension S-0001-21, Preserve It! Kohlrabi, kolumna Canning",
+     "cytat": "The National Center for Home Food Preservation does not recommend canning kohlrabi.",
+     "odczyt": "2026-11-02",
+     "szczebel": 2,
+     "szczebel_uwaga": "extension uczelni (SDSU) powołujące się na NCHFP",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "31399bb17ac8",
+     "plik_kopii": "zrodla/B/sdsu-kohlrabi.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-900",
+   "twierdzenie": "NCHFP Summer Squash Relish, składniki na ok. 5 słoików pint: 4 funty (ok. 1,8 kg) świeżej, jędrnej żółtej dyni letniej i/lub cukinii (waga przy zakupie), 1/2 szklanki pokrojonej w kostkę słodkiej cebuli (ok. 2,4 uncji, ok. 68 g po obraniu), 2 szklanki octu jabłkowego (5%), 2 1/4 szklanki białego cukru, 2 łyżeczki nasion selera, 2 łyżeczki kurkumy, 4 łyżeczki gorczycy.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/summer-squash-relish/",
+     "miejsce": "NCHFP Summer Squash Relish, składniki",
+     "cytat": "4 pounds fresh, firm yellow and/or zucchini summer squash (as purchased) ½ cup diced sweet onion (about 2.4 ounces prepared) 2 cups cider vinegar (5%) 2¼ cups white sugar",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "4473a3845851",
+     "plik_kopii": "zrodla/C/nchfp-summer-squash-relish.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/summer-squash-relish/",
+     "miejsce": "NCHFP Summer Squash Relish, składniki",
+     "cytat": "2 teaspoons celery seed 2 teaspoons turmeric 4 teaspoons mustard seed Yield: About 5 pint jars",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "4473a3845851",
+     "plik_kopii": "zrodla/C/nchfp-summer-squash-relish.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-01",
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-901",
+   "twierdzenie": "NCHFP Summer Squash Relish, przygotowanie: dynię umyć, odciąć końce i zetrzeć (robot albo ręcznie); cebulę obrać, pokroić w kostkę lub zetrzeć; pozostałe składniki zagotować, dodać dynię i cebulę, ponownie zagotować i gotować łagodnie 5 minut, często mieszając; gorące warzywa z płynem do gorących słoików, 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, płyn ma przykrywać warzywa.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/summer-squash-relish/",
+     "miejsce": "NCHFP Summer Squash Relish, Procedure",
+     "cytat": "Combine remaining ingredients and bring to a boil. Carefully add squash and onions. Return combined ingredients to a boil; boil gently for 5 minutes, stirring often.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "4473a3845851",
+     "plik_kopii": "zrodla/C/nchfp-summer-squash-relish.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/summer-squash-relish/",
+     "miejsce": "NCHFP Summer Squash Relish, Procedure",
+     "cytat": "Pack hot vegetables with liquid into hot jars, leaving ½-inch headspace. Remove air bubbles and adjust headspace if needed. Make sure liquid covers the top of the food pieces.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "4473a3845851",
+     "plik_kopii": "zrodla/C/nchfp-summer-squash-relish.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-01",
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-902",
+   "twierdzenie": "NCHFP Summer Squash Relish, tabela 1, kąpiel wodna, hot pack, słoiki pint lub 1/2 pinty: 15 minut (0–1000 stóp), 20 minut (1001–6000 stóp), 25 minut (powyżej 6000 stóp).",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/summer-squash-relish/",
+     "miejsce": "NCHFP Summer Squash Relish, Table 1",
+     "cytat": "Hot Pints or Half-pints 15 min 20 25",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "4473a3845851",
+     "plik_kopii": "zrodla/C/nchfp-summer-squash-relish.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/summer-squash-relish/",
+     "miejsce": "NCHFP Summer Squash Relish, Table 1 (nagłówek)",
+     "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "4473a3845851",
+     "plik_kopii": "zrodla/C/nchfp-summer-squash-relish.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-01",
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-903",
+   "twierdzenie": "NCHFP Summer Squash Relish, dopuszczone zmiany: sama żółta dynia, sama cukinia albo ich mieszanka; dynię można pokroić w kostkę lub zetrzeć ręcznie; dowolna odmiana cebuli; sól selerowa zamiast nasion selera. Przepis NIE jest do innych typów dyni, np. dyni zimowych (blog NCHFP).",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/summer-squash-relish/",
+     "miejsce": "NCHFP Summer Squash Relish, Notes",
+     "cytat": "Recipe may use all yellow squash, all zucchini squash or a combination of both.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "4473a3845851",
+     "plik_kopii": "zrodla/C/nchfp-summer-squash-relish.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/summer-squash-relish/",
+     "miejsce": "NCHFP Summer Squash Relish, Notes",
+     "cytat": "Any variety of onion is acceptable. Celery salt may be used in place of celery seed as taste preference.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "4473a3845851",
+     "plik_kopii": "zrodla/C/nchfp-summer-squash-relish.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/blog/new-summer-squash-relish",
+     "miejsce": "NCHFP blog: New! Summer Squash Relish (29.07.2015)",
+     "cytat": "It is NOT for use with other types of squash such as winter squashes.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "ff3c506931f2",
+     "plik_kopii": "zrodla/C/nchfp-blog-summer-squash-relish.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-01",
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-904",
+   "twierdzenie": "Blog NCHFP (2013) podaje za So Easy To Preserve (2011) przepis Squash Pickles na ok. 5 słoików pint: 4 funty dyni letniej (lub cukinii), 1/2 szklanki soli do konserw, 1 quart octu 5%, 1 szklanka wody, nasiona kopru 1 łyżeczka na pint, czosnek 1 ząbek na pint (opcjonalnie); słoiki na surowo z 1/2 cala wolnej przestrzeni, wrzącą zalewą; kąpiel wodna 15 minut.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/blog/so-long-summer-squash...see-you-this-winter",
+     "miejsce": "NCHFP blog: So long Summer Squash…see you this winter! (16.09.2013), przepis Squash Pickles",
+     "cytat": "4 pounds summer squash (or zucchini) ½ cup canning salt 1 quart vinegar (5%) 1 cup water Dill seed (1 teaspoon per pint)",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "wpis na blogu NCHFP, przepis z So Easy To Preserve (UGA, 2011); brak strony przepisu w dziale /how/pickle/",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "f381c721ae67",
+     "plik_kopii": "zrodla/C/nchfp-blog-summer-squash.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/blog/so-long-summer-squash...see-you-this-winter",
+     "miejsce": "NCHFP blog, Squash Pickles, Procedure",
+     "cytat": "Process 15 minutes in a boiling water bath (remember to make altitude adjustments as needed).",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "źródło nie podaje wartości korekty wysokości ani wielkości słoika wprost poza „about 5 pint jars”",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "f381c721ae67",
+     "plik_kopii": "zrodla/C/nchfp-blog-summer-squash.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-01",
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-905",
+   "twierdzenie": "Penn State: wyjątkiem od zakazu wekowania dyni letniej jest przepis podnoszący kwasowość, np. pomidory z cukinią albo dynia letnia marynowana lub w relishu; pikle i relishe można wekować w kąpieli wodnej tylko według przepisów przetestowanych badaniami.",
+   "zrodla": [
+    {
+     "adres": "https://extension.psu.edu/the-uncanny-trio-eggplant-summer-squash-melon",
+     "miejsce": "Penn State Extension: The Uncanny Trio—Eggplant, Summer Squash, Melon",
+     "cytat": "The exceptions for not canning these vegetables is when using a recipe developed that increases the product's acidity, such as canned tomatoes with zucchini or when summer squash is pickled or made into a relish.",
+     "odczyt": "2026-11-02",
+     "szczebel": 2,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "d5167eaeec66",
+     "plik_kopii": "zrodla/C/psu-uncanny-trio.txt"
+    },
+    {
+     "adres": "https://extension.psu.edu/the-uncanny-trio-eggplant-summer-squash-melon",
+     "miejsce": "Penn State Extension: The Uncanny Trio",
+     "cytat": "Pickled vegetables and relishes can be safely processed in a boiling water canner or an atmospheric steam canner when research-tested recipes are used.",
+     "odczyt": "2026-11-02",
+     "szczebel": 2,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "d5167eaeec66",
+     "plik_kopii": "zrodla/C/psu-uncanny-trio.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-01",
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-906",
+   "twierdzenie": "NCHFP FAQ: dynie letnie najlepiej mrozić albo marynować (pikle) do wekowania; można je też suszyć (dawne zalecenia wekowania dyni letniej wycofano).",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/faqs/canning-vegetables/category/faq-canning",
+     "miejsce": "NCHFP FAQ Canning Vegetables: Why is canning summer squash or zucchini not recommended?",
+     "cytat": "It is best to freeze summer squashes or pickle them for canning, but they may also be dried.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "cf4d3a6bc392",
+     "plik_kopii": "zrodla/C/nchfp-faq-canning-vegetables.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-01",
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-907",
+   "twierdzenie": "Oregon State SP 50-447 (rev. 2025) wymienia patison (patty pan) wśród odmian dyni letniej i podaje, że dynię letnią można mrozić, suszyć i marynować; wekowanie samej dyni letniej nie jest już zalecane.",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/catalog/sp-50-447-preserving-summer-squash",
+     "miejsce": "OSU Extension SP 50-447 Preserving Summer Squash",
+     "cytat": "Varieties of summer squash include green and yellow zucchini, yellow crookneck, straight neck, scallop, and patty pan.",
+     "odczyt": "2026-11-02",
+     "szczebel": 2,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "458d116dca5b",
+     "plik_kopii": "zrodla/C/osu-sp50-447.txt"
+    },
+    {
+     "adres": "https://extension.oregonstate.edu/catalog/sp-50-447-preserving-summer-squash",
+     "miejsce": "OSU Extension SP 50-447",
+     "cytat": "NOTE: Canning summer squash, including zucchini, is no longer recommended.",
+     "odczyt": "2026-11-02",
+     "szczebel": 2,
+     "szczebel_uwaga": "",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "458d116dca5b",
+     "plik_kopii": "zrodla/C/osu-sp50-447.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-01",
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-915",
+   "twierdzenie": "NCHFP Spiced Green Tomatoes (zielone pomidorki w korzennym syropie octowym), na ok. 4 słoiki pint: 6 funtów (ok. 2,7 kg) małych całych zielonych pomidorów, 9 szklanek cukru, 1 pinta (ok. 473 ml) octu jabłkowego 5%, 2 laski cynamonu, 1 łyżka całych goździków, 1 łyżka całego ziela angielskiego, 1 łyżka całego kwiatu muszkatołowego albo 1/2 łyżki mielonego.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/spiced-green-tomatoes/",
+     "miejsce": "Spiced Green Tomatoes, składniki",
+     "cytat": "6 pounds small whole green tomatoes 9 cups sugar 1 pint cider vinegar (5%)",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP; przepis przejęty z So Easy to Preserve, 6th ed. 2014, UGA Bulletin 989",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "a400d92f1706",
+     "plik_kopii": "zrodla/D/nchfp-spiced-green-tomatoes.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/spiced-green-tomatoes/",
+     "miejsce": "Spiced Green Tomatoes, składniki",
+     "cytat": "2 sticks cinnamon 1 tablespoon whole cloves 1 tablespoon whole allspice 1 tablespoon whole mace or ½ tablespoon ground mace Yield: About 4 pint jars",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP; przepis przejęty z So Easy to Preserve, 6th ed. 2014, UGA Bulletin 989",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "a400d92f1706",
+     "plik_kopii": "zrodla/D/nchfp-spiced-green-tomatoes.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-916",
+   "twierdzenie": "NCHFP Spiced Green Tomatoes: do tego pikla nadają się małe zielone pomidory typu fig albo plum (całe); umyć, sparzyć i obrać; z cukru, octu i przypraw zrobić syrop, wrzucić całe pomidory i gotować, aż staną się przezroczyste; pomidory nałożyć do gorących słoików z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, zalać przecedzonym syropem, znów zostawiając 1/2 cala.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/spiced-green-tomatoes/",
+     "miejsce": "Spiced Green Tomatoes, Procedure",
+     "cytat": "Small green fig or plum tomatoes are suitable for this pickle. Wash, scald and peel. Make a syrup of the sugar, vinegar and spices. Drop in the whole tomatoes and boil until they become clear.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP; przepis przejęty z So Easy to Preserve, 6th ed. 2014, UGA Bulletin 989",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "a400d92f1706",
+     "plik_kopii": "zrodla/D/nchfp-spiced-green-tomatoes.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/spiced-green-tomatoes/",
+     "miejsce": "Spiced Green Tomatoes, Procedure",
+     "cytat": "Pack tomatoes into hot jars, leaving ½-inch headspace. Strain syrup and cover tomatoes with the syrup, again leaving ½-inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP; przepis przejęty z So Easy to Preserve, 6th ed. 2014, UGA Bulletin 989",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "a400d92f1706",
+     "plik_kopii": "zrodla/D/nchfp-spiced-green-tomatoes.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-917",
+   "twierdzenie": "NCHFP Spiced Green Tomatoes, tabela 1 (kąpiel wodna, nakładanie na gorąco, czasy tylko dla słoików pint): 15 minut (0–1000 stóp), 20 minut (1001–6000 stóp), 25 minut (powyżej 6000 stóp).",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/spiced-green-tomatoes/",
+     "miejsce": "Table 1",
+     "cytat": "Table 1. Recommended process time for Spiced Green Tomatoes in a boiling-water canner.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP; przepis przejęty z So Easy to Preserve, 6th ed. 2014, UGA Bulletin 989",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "a400d92f1706",
+     "plik_kopii": "zrodla/D/nchfp-spiced-green-tomatoes.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/spiced-green-tomatoes/",
+     "miejsce": "Table 1, wiersz Hot / Pints",
+     "cytat": "Hot Pints 15 min 20 25",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP; przepis przejęty z So Easy to Preserve, 6th ed. 2014, UGA Bulletin 989",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "a400d92f1706",
+     "plik_kopii": "zrodla/D/nchfp-spiced-green-tomatoes.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-918",
+   "twierdzenie": "NCHFP Dilled Beans (fasolka w zalewie octowej z koprem), na ok. 8 słoików pint: 4 funty (ok. 1,8 kg) świeżej, delikatnej fasolki zielonej albo żółtej (12,5–15 cm), 8–16 baldachów świeżego kopru, 8 ząbków czosnku (opcjonalnie), 1/2 szklanki soli do konserw i pikli, 4 szklanki białego octu 5%, 4 szklanki wody, 1 łyżeczka płatków ostrej czerwonej papryki (opcjonalnie); bez cukru.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/dilled-beans/",
+     "miejsce": "Dilled Beans, składniki",
+     "cytat": "4 lbs fresh tender green or yellow beans (5 to 6 inches long) 8 to 16 heads fresh dill 8 cloves garlic (optional) 1/2 cup canning or pickling salt 4 cups white vinegar (5 percent) 4 cups water 1 tsp hot red pepper flakes (optional)",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP; adaptacja z USDA Complete Guide to Home Canning 2015",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "6ad3ed7ac1b1",
+     "plik_kopii": "zrodla/D/nchfp-dilled-beans.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/dilled-beans/",
+     "miejsce": "Dilled Beans, wydajność",
+     "cytat": "Yield: About 8 pints",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP; adaptacja z USDA Complete Guide to Home Canning 2015",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "6ad3ed7ac1b1",
+     "plik_kopii": "zrodla/D/nchfp-dilled-beans.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-919",
+   "twierdzenie": "NCHFP Dilled Beans: fasolkę umyć, obciąć końce i pokroić na 4 cale (ok. 10 cm); do każdego wysterylizowanego słoika pint 1–2 baldachy kopru i opcjonalnie 1 ząbek czosnku; fasolkę układać pionowo z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; sól, ocet, wodę (i opcjonalnie płatki papryki) zagotować i zalać fasolkę, zostawiając 1/2 cala wolnej przestrzeni.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/dilled-beans/",
+     "miejsce": "Dilled Beans, Procedure",
+     "cytat": "Wash and trim ends from beans and cut to 4-inch lengths.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP; adaptacja z USDA Complete Guide to Home Canning 2015",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "6ad3ed7ac1b1",
+     "plik_kopii": "zrodla/D/nchfp-dilled-beans.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/dilled-beans/",
+     "miejsce": "Dilled Beans, Procedure",
+     "cytat": "In each sterile pint jar, place 1 to 2 dill heads and, if desired, 1 clove of garlic. Place whole beans upright in jars, leaving 1/2-inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP; adaptacja z USDA Complete Guide to Home Canning 2015",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "6ad3ed7ac1b1",
+     "plik_kopii": "zrodla/D/nchfp-dilled-beans.txt"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/dilled-beans/",
+     "miejsce": "Dilled Beans, Procedure",
+     "cytat": "Combine salt, vinegar water, and pepper flakes (if desired). Bring to a boil. Add hot solution to beans, leaving 1/2-inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP; adaptacja z USDA Complete Guide to Home Canning 2015",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "6ad3ed7ac1b1",
+     "plik_kopii": "zrodla/D/nchfp-dilled-beans.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  },
+  {
+   "id": "ACI-920",
+   "twierdzenie": "NCHFP Dilled Beans, tabela 1 (kąpiel wodna, nakładanie na surowo, czasy tylko dla słoików pint): 5 minut (0–1000 stóp), 10 minut (1001–6000 stóp), 15 minut (powyżej 6000 stóp).",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/dilled-beans/",
+     "miejsce": "Table 1, wiersz Raw / Pints",
+     "cytat": "Raw Pints 5 min 10 15",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "NCHFP; adaptacja z USDA Complete Guide to Home Canning 2015",
+     "weryfikacja": "curl+html.parser+grep",
+     "sha12": "6ad3ed7ac1b1",
+     "plik_kopii": "zrodla/D/nchfp-dilled-beans.txt"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "ACI"
+  }
+ ],
+ "niedostepne": [
+  {
+   "adres": "https://webarchive.library.unt.edu/eot2008/20090116063749/http://extension.oregonstate.edu/catalog/pdf/PNW/PNW355.pdf",
+   "kod": "SSL (curl 60)",
+   "warianty": [
+    "white-cabbage-v10",
+    "red-savoy-cabbage-v05"
+   ]
+  },
+  {
+   "adres": "https://extension.illinois.edu/sites/default/files/pickling_fill_your_pantry_final_2021.08.20_ls.pdf",
+   "kod": "404",
+   "warianty": [
+    "brussels-kohlrabi-v10"
+   ]
+  },
+  {
+   "adres": "https://www.ag.ndsu.edu/publications/food-nutrition/summer-squash/fn1837.pdf",
+   "kod": "200 (zwraca HTML zamiast PDF)",
+   "warianty": [
+    "zucchini-v09"
+   ]
+  },
+  {
+   "adres": "uaf.edu (Alaska Sea Grant / Cooperative Extension, przepisy na kelp)",
+   "kod": "SSL (znana blokada, nie ponawiano)",
+   "warianty": [
+    "vine-leaves-greens-v06"
+   ]
+  },
+  {
+   "adres": "hgic.clemson.edu (Preserving Summer Squash, No Canning Zucchini)",
+   "kod": "403 (znana blokada, nie ponawiano)",
+   "warianty": [
+    "zucchini-v09",
+    "pattypan-squash-v02"
+   ]
+  },
+  {
+   "adres": "https://www.ballmasonjars.com/blog?cid=eggplant-pickles",
+   "kod": "403 (znane, nie pobierano)",
+   "warianty": [
+    "eggplant-v03",
+    "eggplant-v06"
+   ]
+  }
+ ],
+ "decyzje_koordynatora": [
+  {
+   "id": "B20-D1",
+   "tekst": "Dopuszczenie zmiany suszonych przypraw w przetestowanym przepisie ma tylko szczebel 3 (UCCE MFP El Dorado, ACI-873: „Dried herbs and spices do not affect the safety of a tested pickle recipe… or even curry”; Ask Extension 2016, ACI-874); NCHFP go nie podaje. Wariant ostrożny: cucumber-v15, cauliflower-v06, zucchini-v02 mają werdykt główny do-researchu i „ok-zrodlo-po-zmianie” tylko w polu `warunkowo` (przepis NCHFP 1:1 + curry jako suszona przyprawa). Odrzucone: od razu po-zmianie (podagent A) — mniej ostrożne przy jedynym źródle szczebla 3 w segmencie wysokiego ryzyka. Jeśli weto przyjmie dopuszczenie: +3 po zmianie, −2 kandydatów nie-publikowac (cauliflower-v06, zucchini-v02)."
+  },
+  {
+   "id": "B20-D2",
+   "tekst": "Ball Spiced Red Cabbage (znany tylko z przedruków extension: UCCE El Dorado z Complete Book, Ask Extension z Blue Book 2014) = szczebel 3 wg B14-D1 pkt 1; red-savoy-cabbage-v03 ok-zrodlo. W ulotce UCCE jest drugi, sprzeczny akapit 10/15/20 min — przyjęto dłuższy 20/25/30 min (kierunek bezpieczny). Alternatywa: do-researchu do odczytu książki Ball (strony Ball 403)."
+  },
+  {
+   "id": "B20-D3",
+   "tekst": "Duplikaty po zmianie (jak B19-D3): zucchini-v03 = zucchini-v05, red-savoy-cabbage-v05 = red-savoy-cabbage-v03, bell-pepper-v05 = bell-pepper-v01 → wycofać duplikat (tor A / rola 03). Warianty, które bez cechy wyróżniającej byłyby duplikatami (cucumber-v13, cucumber-v16, red-savoy-cabbage-v08, brussels-kohlrabi-v08, zucchini-v04, zucchini-v07, green-beans-v05, pattypan-squash-v06, tomato-v07), zostają do-researchu (nie-publikowac z kartą-ostrzeżeniem po przebiegu 2) — nie proponuję po-zmianie."
+  },
+  {
+   "id": "B20-D4",
+   "tekst": "Zmiana typu produktu: zucchini-v14 sos → relish (NCHFP Summer Squash Relish), green-beans-v04 słodko-kwaśna → Dilled Beans (bez cukru), green-cherry-tomato-v06 sałatka → Piccalilli (ten sam przepis co asian-american-mix-v10), cauliflower-v10 → NCHFP Pickled Mixed Vegetables. Proponuję po-zmianie, decyzja o tożsamości wariantu: tor A / 03; alternatywa: do-researchu."
+  },
+  {
+   "id": "B20-D5",
+   "tekst": "zucchini-v09 (keczup z cukinii) i tomatillo-v09 (chutney) zostają do-researchu, nie ryzyko-wysokie: żadne przeczytane źródło 1–3 nie zakazuje ich wprost (ACI-036 dotyczy dyni zimowej). Precedens C9-D10 (green-cherry-tomato-v10 → ryzyko-wysokie) przemawia za ryzyko-wysokie; skutek publikacyjny ten sam (karta-ostrzeżenie). Do weta."
+  },
+  {
+   "id": "B20-D6",
+   "tekst": "Przebieg (B19-D2): 8 wariantów bez wcześniejszego badania klastra ACI (notatki tylko OLE/SUS/NAP/SZY/SLO) ma w B20 przebieg 1 i nie idzie jeszcze do nie-publikowac."
+  }
+ ],
+ "decyzje_do_weta": [
+  {
+   "grupa": "A",
+   "warianty": [
+    "cucumber-v15",
+    "cauliflower-v06"
+   ],
+   "pytanie": "Czy dopuszczenie zmiany suszonych przypraw ze źródeł szczebla 3 (UCCE MFP El Dorado: „…or even curry”, ACI-873; Ask Extension: „Spices are always negotiable…”, ACI-874) wystarcza w segmencie wysokiego ryzyka, by przepis NCHFP z dodatkiem curry uznać za po-zmianie? NCHFP sam tego nie mówi."
+  },
+  {
+   "grupa": "A",
+   "warianty": [
+    "red-savoy-cabbage-v03",
+    "red-savoy-cabbage-v05"
+   ],
+   "pytanie": "Ball Spiced Red Cabbage znany tylko z przedruków (UCCE MFP z Complete Book bez wydania; Ask Extension z Blue Book 2014). Czy przyjąć jako szczebel 3, oraz czy czas 20/25/30 min (z pominięciem sprzecznego akapitu 10/15/20) i słoiki pint/kwarta są wystarczająco pewne? Czy v05 (ocet jabłkowy) scalić z v03?"
+  },
+  {
+   "grupa": "A",
+   "warianty": [
+    "white-cabbage-v10"
+   ],
+   "pytanie": "Ball Blue Book 2014 w składnikach pisze „cabbage” bez koloru; czy wolno przenieść Spiced Red Cabbage na kapustę białą? Przyjęto: nie (zmiana warzywa)."
+  },
+  {
+   "grupa": "A",
+   "warianty": [
+    "cucumber-v13"
+   ],
+   "pytanie": "Co oznacza „po królewsku” (skład)? Jeśli plastry ogórka z cebulą w słodkiej zalewie z kurkumą/curry — po-zmianie na NCHFP Bread-and-Butter (duplikat cucumber-v12) albo jak cucumber-v15."
+  },
+  {
+   "grupa": "B",
+   "warianty": [
+    "zucchini-v03"
+   ],
+   "pytanie": "Po zmianie na NCHFP Bread-and-Butter Zucchini wariant jest duplikatem zucchini-v05. Scalić (ukryć v03) czy zostawić jako osobną nazwę regionalną z identyczną kartą?"
+  },
+  {
+   "grupa": "B",
+   "warianty": [
+    "brussels-kohlrabi-v08",
+    "zucchini-v02",
+    "zucchini-v04",
+    "zucchini-v07"
+   ],
+   "pytanie": "Te warianty po usunięciu cechy wyróżniającej (syrop klonowy, curry, musztarda, ocet jabłkowy) byłyby duplikatami brussels-kohlrabi-v07 / zucchini-v05. Zostawić do-researchu (ukryte) czy usunąć z katalogu?"
+  },
+  {
+   "grupa": "B",
+   "warianty": [
+    "brussels-kohlrabi-v07"
+   ],
+   "pytanie": "Potwierdzić zmianę octu jabłkowego na biały 5% (NCHFP nie dopuszcza wprost zamiany w tym przepisie; ACI-018/019 to zalecenia ogólne)."
+  },
+  {
+   "grupa": "C",
+   "warianty": [
+    "pattypan-squash-v02"
+   ],
+   "pytanie": "Czy przepis Squash Pickles z bloga NCHFP (2013, za So Easy To Preserve 2011; ACI-904) może być podstawą karty, skoro podaje tylko „15 minutes” i „remember to make altitude adjustments as needed” bez tabeli wysokości? A jeśli tak, to czy patison mieści się w „summer squash” (ACI-907, SLO-271)? Teraz: do-researchu."
+  },
+  {
+   "grupa": "C",
+   "warianty": [
+    "zucchini-v09"
+   ],
+   "pytanie": "Keczup z cukinii: brak przepisu 1–3, ale żadne przeczytane źródło nie zakazuje wprost przecieru lub keczupu z dyni letniej (zakaz ACI-036 dotyczy dyni zimowej). Czy podnieść do ryzyko-wysokie przez analogię (ostrożniej), czy zostawić do-researchu? Teraz: do-researchu."
+  },
+  {
+   "grupa": "C",
+   "warianty": [
+    "zucchini-v14"
+   ],
+   "pytanie": "Czy zgoda na zmianę „sos słodko-kwaśny z cukinią” → „słodko-kwaśny relish z cukinii (NCHFP Summer Squash Relish)”, czyli inny typ produktu (relish zamiast sosu)?"
+  },
+  {
+   "grupa": "D",
+   "warianty": [
+    "green-cherry-tomato-v05"
+   ],
+   "pytanie": "NCHFP Spiced Green Tomatoes wymienia „small green fig or plum tomatoes”; czy pomidorki koktajlowe (cherry) mieszczą się w tym przepisie, czy karta ma wymagać odmian fig/plum?"
+  },
+  {
+   "grupa": "D",
+   "warianty": [
+    "bell-pepper-v05"
+   ],
+   "pytanie": "Po zmianie wariant = bell-pepper-v01 (NCHFP Pickled Bell Peppers). Ukryć/scalić v05 z v01, czy zostawić do-researchu?"
+  },
+  {
+   "grupa": "D",
+   "warianty": [
+    "green-cherry-tomato-v06"
+   ],
+   "pytanie": "Piccalilli NCHFP jest już kartą asian-american-mix-v10 (kreolski relish). Dopuścić drugi wariant tego samego przepisu w produkcie green-cherry-tomato?"
+  },
+  {
+   "grupa": "D",
+   "warianty": [
+    "green-beans-v04"
+   ],
+   "pytanie": "Zmiana „słodko-kwaśna” → NCHFP Dilled Beans (bez cukru) zmienia charakter wariantu; akceptować, czy zostawić do-researchu (alternatywa Three-Bean Salad = duplikat beans-soy-v01)?"
+  },
+  {
+   "grupa": "D",
+   "warianty": [
+    "tomatillo-v09"
+   ],
+   "pytanie": "Chutney z tomatillo spoza czterech przepisów NCHFP: do-researchu czy ryzyko-wysokie jak green-cherry-tomato-v10 (C9-D10)?"
+  }
+ ],
+ "kontrole": {
+  "cytaty": "54/54 zgodnych na kopiach (skrypt koordynatora roli, normalizacja białych znaków i typografii; wielokropek = części w kolejności) przed deduplikacją; po deduplikacji 26 twierdzeń",
+  "kopie": "scratchpad sesji, poza repo"
+ }
+}
