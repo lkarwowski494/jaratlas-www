@@ -64,7 +64,7 @@ UC also allows half-gallon jars for grape juice, only in a boiling-water canner;
 
 According to UC, after processing, turn off the heat, remove the canner lid and wait 5 minutes before taking the jars out. [T:SLO-204]
 
-When you take the hot jars out of the canner, do not retighten the lids; this can cut through the seal and cause seal failures. [T:SLO-210]
+When you take the hot jars out of the canner, do not retighten the lids or bands; this can cut through the gasket and cause seal failures. [T:SLO-210]
 
 Cool the jars at room temperature for 12 to 24 hours, then test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196]
 

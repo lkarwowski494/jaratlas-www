@@ -58,9 +58,11 @@ This NCHFP recipe gives no time for jars larger than a quart, such as 1 l, so Ja
 
 ## Cooling and storing
 
-When you take the hot jars out of the canner, do not retighten the lids; this can cut through the seal and cause seal failures. [T:SLO-210]
+When you take the hot jars out of the canner, do not retighten the lids or bands; this can cut through the gasket and cause seal failures. [T:SLO-210]
 
-In raw-packed jars the food and liquid level will be noticeably lower after cooling; if a jar loses a lot of liquid during processing, do not open it to add more. [T:SLO-210]
+In raw-packed jars the food and liquid level will be noticeably lower after cooling. [T:SLO-210]
+
+If any jar loses a lot of liquid during processing, do not open it to add more. [T:SLO-210]
 
 Cool the jars at room temperature for 12 to 24 hours, then test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196]
 

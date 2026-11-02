@@ -22,7 +22,7 @@ Według UC niewekowany sok trzymaj w lodówce do tygodnia; dłużej przechowuj g
 
 Według UC używaj owoców dobrej jakości, dojrzałych, ale nie przejrzałych, a owoce uszkodzone albo spleśniałe wyrzuć. [T:SLO-211]
 
-UC zaleca, żeby owoców spadłych z drzewa nie używać do soku ani do wekowania. [T:SLO-211]
+UC zaleca, żeby owoców, które spadły na ziemię, nie używać do soku ani do wekowania. [T:SLO-211]
 
 Sok uzyskaj według instrukcji sokownika; w razie potrzeby przecedź go przez sitko albo gazę, żeby usunąć pestki. [T:SLO-202]
 
@@ -62,7 +62,7 @@ UC nie podaje czasu dla tych soków w słoikach większych niż quart, np. 1 l, 
 
 Według UC po wekowaniu wyłącz ogień, zdejmij pokrywę garnka i odczekaj 5 minut, zanim wyjmiesz słoiki. [T:SLO-204]
 
-Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
+Po wyjęciu gorących słoików z garnka nie dokręcaj zakrętek ani pokrywek; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
 
 Słoiki studź w temperaturze pokojowej 12–24 godziny, potem sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196]
 

@@ -62,9 +62,11 @@ Ten przepis NCHFP nie podaje czasu dla słoików większych niż quart, np. 1 l,
 
 ## Studzenie i przechowywanie
 
-Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
+Po wyjęciu gorących słoików z garnka nie dokręcaj zakrętek ani pokrywek; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
 
-W słoikach nakładanych na surowo poziom owoców i płynu po wystudzeniu będzie wyraźnie niższy; jeśli słoik straci dużo płynu podczas wekowania, nie otwieraj go, żeby dolać płynu. [T:SLO-210]
+W słoikach nakładanych na surowo poziom owoców i płynu po wystudzeniu będzie wyraźnie niższy. [T:SLO-210]
+
+Jeśli którykolwiek słoik straci dużo płynu podczas wekowania, nie otwieraj go, żeby dolać płynu. [T:SLO-210]
 
 Słoiki studź w temperaturze pokojowej 12–24 godziny, potem sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196]
 

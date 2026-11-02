@@ -30900,7 +30900,7 @@
  },
  {
   "id": "SLO-202",
-  "twierdzenie": "UC Steam Juicing Basics, przepisy na sok jabłkowy albo winogronowy (s. 5) i na kwaśne soki owocowe (s. 6) z sokownika parowego, te same kroki: sok uzyskać według instrukcji sokownika, w razie potrzeby przecedzić przez sitko albo gazę, żeby usunąć pestki; podgrzać w czystym garnku z niereaktywnego materiału, z cukrem do smaku, jeśli się go dodaje, tylko do zagotowania, mieszając do rozpuszczenia cukru; gorący sok nalewać chochlą do gorącego słoika, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni, brzeg słoika przetrzeć zwilżonym czystym ręcznikiem papierowym albo ściereczką, nałożyć pokrywkę i zakrętkę dokręconą tylko palcami.",
+  "twierdzenie": "UC Steam Juicing Basics, przepisy na sok jabłkowy albo winogronowy (s. 6) i na kwaśne soki owocowe (s. 7) z sokownika parowego, te same kroki: sok uzyskać według instrukcji sokownika, w razie potrzeby przecedzić przez sitko albo gazę, żeby usunąć pestki; podgrzać w czystym garnku z niereaktywnego materiału, z cukrem do smaku, jeśli się go dodaje, tylko do zagotowania, mieszając do rozpuszczenia cukru; gorący sok nalewać chochlą do gorącego słoika, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni, brzeg słoika przetrzeć zwilżonym czystym ręcznikiem papierowym albo ściereczką, nałożyć pokrywkę i zakrętkę dokręconą tylko palcami.",
   "zrodla": [
    {
     "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
@@ -30969,7 +30969,7 @@
  },
  {
   "id": "SLO-204",
-  "twierdzenie": "UC Steam Juicing Basics (przepisy na soki z sokownika): po wekowaniu w kąpieli wodnej wyłączyć ogień, zdjąć pokrywę garnka i odczekać 5 minut; potem wyjąć słoiki na kratkę albo ręcznik, studzić bez poruszania 12–24 godziny i sprawdzić zamknięcie; niezamknięte słoiki trzymać w lodówce albo wekować ponownie; zamknięte przechowywać w chłodnym, suchym, ciemnym miejscu.",
+  "twierdzenie": "UC Steam Juicing Basics (przepisy na sok jabłkowy albo winogronowy, krok 7, s. 6, i na kwaśne soki, krok 6, s. 7; ten sam tekst): po wekowaniu w kąpieli wodnej wyłączyć ogień, zdjąć pokrywę garnka i odczekać 5 minut; potem wyjąć słoiki na kratkę albo ręcznik, studzić bez poruszania 12–24 godziny i sprawdzić zamknięcie; niezamknięte słoiki trzymać w lodówce albo wekować ponownie; zamknięte przechowywać w chłodnym, suchym, ciemnym miejscu.",
   "zrodla": [
    {
     "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
@@ -30984,6 +30984,15 @@
     "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
     "miejsce": "UCCE Master Food Preservers of El Dorado County, Steam Juicing Basics (IV 2026), jw.",
     "cytat": "Remove jars to a rack or towel and let cool, undisturbed, for 12-24 hours and then check seals. Store unsealed jars in the refrigerator or reprocess.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "e17f870455a1"
+   },
+   {
+    "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
+    "miejsce": "UCCE Master Food Preservers of El Dorado County, Steam Juicing Basics (IV 2026), Canned Apple or Grape Juice from Steamed Juice, krok 7, s. 6",
+    "cytat": "For boiling water canning, turn off heat, remove canner lid and wait 5 minutes.",
     "odczyt": "2026-11-02",
     "szczebel": 3,
     "weryfikacja": "pdftotext -layout+grep",
