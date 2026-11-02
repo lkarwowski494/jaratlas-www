@@ -2,6 +2,7 @@
 // Decyzja: 2026-11-02-jaratlas-b31-katalog (decyzja Claude, do weta). Raport: docs/tresci/B31-katalog-2026-11-02.md.
 // Skróty „przed” policzone na f36b7b0 (katalog 1.0.18, rejestr 2037).
 import { test } from "node:test";
+import { B32, B32_RW, B32_CLAIMS } from "./dane/b32-warianty.mjs"; // B32: warianty zmienione przez B32 (tests/b32-katalog.test.mjs)
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { createHash } from "node:crypto";
@@ -26,7 +27,7 @@ export const OCZEKIWANE = {
 };
 
 test("B31: katalog 1.0.19 przechodzi walidację bez błędów", () => {
-  assert.equal(cat.version, "1.0.19");
+  assert.ok(Number(cat.version.split(".")[2]) >= 19 && cat.version.startsWith("1.0."), cat.version); // B32: 1.0.20
   assert.deepEqual(validateCatalog(cat, rej).errors, []);
 });
 
@@ -52,7 +53,7 @@ test("B31: poza polami werdyktu i notatką [B31] nic się nie zmieniło; publica
   const SNAP = { "walnut-nuts-v07": "318b0e28bf56", "wild-mushrooms-v03": "1a7bb3516cf5", "fig-pomegranate-v09": "6c9f2c8f3980" };
   for (const id of B31) { const r = { ...V.get(id) }; for (const k of POLA) delete r[k]; assert.equal(h(r), SNAP[id], `${id}: pola poza werdyktem bez zmian`); }
   for (const id of B31) assert.deepEqual(V.get(id).notes.filter((n) => !n.startsWith("[B31]")).length, V.get(id).notes.length - 1, `${id}: dokładnie jedna notatka [B31]`);
-  assert.equal(h(cat.variants.filter((v) => !B31.includes(v.id))), "8a88b91f03b1", "reszta katalogu bez zmian (skrót na f36b7b0)");
+  assert.equal(h(cat.variants.filter((v) => !B31.includes(v.id) && !B32.has(v.id))), "f9950a73d340", "reszta katalogu bez zmian (skrót na f36b7b0; B32: przeliczony na 7b422b9 bez 41 wariantów B32, stary 8a88b91f03b1)");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
   assert.equal(cat.variants.length, 1432);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: wszystko ukryta");

@@ -2,6 +2,7 @@
 // Decyzja: 2026-11-02-jaratlas-b21-katalog (decyzja Claude, do weta). Wejście: raporty B19/B20 (JSON), C12 E1-suszenie-zrodla-p2,
 // decyzje właściciela wariant-bez-zrodla, przeglad-agent-zamiast-eksperta (D-027 d). Wzór: tests/b18-katalog.test.mjs.
 import { test } from "node:test";
+import { B32, B32_RW, B32_CLAIMS } from "./dane/b32-warianty.mjs"; // B32: warianty zmienione przez B32 (tests/b32-katalog.test.mjs)
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { createHash } from "node:crypto";
@@ -147,7 +148,7 @@ test("B21: poza polami z listy warianty bez cichych zmian; publication ukryta w 
   for (const [id, keys] of Object.entries(POLA)) if (!B25.has(id)) assert.equal(h(bez(V.get(id), keys)), SNAP[id], `${id}: pola poza ${keys.join(", ")} bez zmian`);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
   // D-043 P2-1: reszta katalogu (1350 wariantów spoza porcji i pola najwyższego poziomu poza version) jak w 1.0.13 (4e3dcaa).
-  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B25.has(v.id) && !B27.has(v.id) && !B28.has(v.id) && !B29.has(v.id) && !B31.has(v.id))), "6b2b478e416b", "warianty spoza B21, B25, B27, B28, B29 i B31 bez zmian (B31: przeliczony na f36b7b0, stary 67512035265c; skrót na 1.0.14, 3a2c546; B29: przeliczony, stary a682ddb85307; B28 z (h): stary 5826a2f2a7e9)");
+  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B25.has(v.id) && !B27.has(v.id) && !B28.has(v.id) && !B29.has(v.id) && !B31.has(v.id) && !B32.has(v.id))), "1792f0f16b0a", "warianty spoza B21, B25, B27, B28, B29 i B31 bez zmian (B31: przeliczony na f36b7b0, stary 67512035265c; skrót na 1.0.14, 3a2c546; B29: przeliczony, stary a682ddb85307; B28 z (h): stary 5826a2f2a7e9; B32: przeliczony na 7b422b9 bez 41 wariantów B32, stary 6b2b478e416b)");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
 });
 

@@ -5,12 +5,8 @@ Pesto is an uncooked seasoning mixture that usually includes fresh basil, garlic
 ## !
 
 - According to NCHFP, pesto should be made fresh and kept in the refrigerator for no more than 3 days. [T:OLE-043]
-
-## Safety
-
-Keep pesto in the refrigerator or freeze it, never at room temperature: garlic and herbs are low-acid foods that can carry Clostridium botulinum, and oil creates an oxygen-free environment in which this bacterium grows. [T:OLE-054]
-
-JarAtlas rule (cautious): freezing does not kill most bacteria, and the sources do not say how long thawed pesto can be kept, so thaw it only in the refrigerator, only the portion you will use right away, and throw away any leftovers. [T:SLO-303]
+- Keep pesto in the refrigerator or freeze it, never at room temperature: garlic and herbs are low-acid foods that can carry Clostridium botulinum, and oil creates an oxygen-free environment in which this bacterium grows. [T:OLE-054]
+- JarAtlas rule (cautious): freezing does not kill most bacteria, and the sources do not say how long thawed pesto can be kept, so thaw it only in the refrigerator, only the portion you will use right away, and throw away any leftovers. [T:SLO-303]
 
 ## What this card covers
 

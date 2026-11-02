@@ -2,11 +2,13 @@
 
 This card describes how to dry elderflowers with the NCHFP method for drying herbs, in a food dehydrator. [T:SUS-076,SUS-031]
 
+## !
+
+- According to Ask Extension, it is dangerous to eat unripe elderberries or any other parts of the plant, such as stems, leaves and bark; raw, unripe berries and other parts of the plant contain compounds that can become poisonous. [T:ACI-450]
+
 ## Safety
 
 According to NDSU Extension, some flowers should not be eaten, so identify flowers correctly before eating them; flowers from a florist are meant to look at, not to eat, because some pesticides used on them have not been approved for edible plants. [T:SLO-489]
-
-According to Ask Extension, it is dangerous to eat unripe elderberries or any other parts of the plant, such as stems, leaves and bark; raw, unripe berries and other parts of the plant contain compounds that can become poisonous. [T:ACI-450]
 
 OSU Extension describes harvesting elderflowers as whole clusters picked when they are white and open, and removing the flowers while discarding any stray pieces of leaf or stem, which contain higher levels of toxins. [T:SUS-422]
 

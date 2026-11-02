@@ -7,7 +7,6 @@ There is no recipe here for Polish hunter’s stew (bigos), a mix of sauerkraut,
 - Pressure canning is the only recommended method for canning meat, poultry, seafood and vegetables; using a boiling-water bath for these foods poses a real risk of botulism poisoning. [T:SZY-006]
 - NCHFP recommends canning low-acid foods, and tomatoes and tomato products, only according to the procedures in the USDA Complete Guide to Home Canning. [T:SZY-007]
 - NCHFP says not to add noodles or other pasta, rice, flour, cream, milk or other thickening agents to home-canned soups. [T:SZY-017]
-- Penn State Extension says there are no scientifically tested recipes for canning broccoli or cauliflower as a plain vegetable. [T:SZY-024]
 - Penn State Extension says that broccoli, cauliflower, cabbage, kohlrabi and Brussels sprouts are not suitable for pressure canning. [T:SZY-025]
 
 ## Why

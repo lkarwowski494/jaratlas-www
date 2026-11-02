@@ -6,6 +6,8 @@ There is no recipe here for duxelles, a chopped mushroom paste (sometimes with t
 
 - Pressure canning is the only recommended method for canning meat, poultry, seafood and vegetables; using a boiling-water bath for these foods poses a real risk of botulism poisoning. [T:SZY-006]
 - Do not attempt to can pureed vegetables, red meats or poultry at home: proper processing times for pureed foods have not been determined for home use. [T:SZY-014]
+- There are no validated processes for vegetables and herbs in oil made at home; in the USA, the rules for such products apply only to commercial processors. [T:OLE-028]
+- Peppers, garlic, mushrooms and eggplant have been involved in botulism outbreaks from vegetables and herbs in oil, mostly homemade products. [T:OLE-024]
 
 ## Why
 
