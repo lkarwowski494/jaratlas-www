@@ -30,7 +30,7 @@ const HOLD = {
   'apricot-v08': 'P-02', 'corn-v09': 'P-06', 'plum-v14': 'P-15', 'currant-v13': 'P-12',
   'currant-v10': 'P-12', 'grapes-v07': 'P-16', 'raspberry-blackberry-v07': 'P-16', 'wild-garlic-v07': 'SUS-338',
 };
-const NAZWY = { 'plum-v14': 'dżem śliwkowy z pektyną', 'currant-v13': 'kompot z czerwonej porzeczki', 'currant-v10': 'sok z czerwonej porzeczki z sokownika' };
+const NAZWY = { 'plum-v14': 'dżem śliwkowy z pektyną', 'currant-v13': 'całe czerwone porzeczki w bardzo lekkim syropie', 'currant-v10': 'sok z czerwonych porzeczek z sokownika' };
 // Tylko notatka [B15] (warunek z zlecenia niespełniony albo skutek C12 bez twierdzenia w rejestrze).
 const NOTA = ['peach-nectarine-v01', 'lemon-v13', 'lemon-v15', 'orange-kumquat-v14', 'grapefruit-v09', 'poultry-v14', 'wild-garlic-v09', 'currant-v11', 'apple-v11', 'lemon-v12', 'orange-kumquat-v11', 'olives-v14', 'rosehip-rowan-v02', 'rosehip-rowan-v07',
   'rhubarb-v07', 'lemon-v11', 'peach-nectarine-v10', 'mustard-v10', 'shallot-pearl-onion-v10', 'raspberry-blackberry-v15', 'grapefruit-v06'];
@@ -105,4 +105,12 @@ test('B15: poza polami z listy warianty B15 bez cichych zmian (skrót stanu sprz
   assert.equal(V.get('wild-garlic-v07').safetyStatus, 'do-researchu', 'SUS-338: wariant ostrożniejszy (bez karty i slugu)');
   assert.equal(V.get('currant-v11').safetyStatus, 'do-researchu', 'ACI-610 nie wymienia porzeczek');
   assert.equal(V.get('olives-v14').safetyStatus, 'do-researchu');
+});
+
+test('B15 (p30): slugi plum-v14 bez renklod, currant-v13 bez „kompot”', () => {
+  const pl = JSON.parse(readFileSync('site/slugi/pl.json', 'utf8')).warianty, en = JSON.parse(readFileSync('site/slugi/en.json', 'utf8')).warianty;
+  assert.equal(pl['plum-v14'], 'dzem-sliwkowy');
+  assert.equal(en['plum-v14'], 'plum-jam');
+  assert.equal(pl['currant-v13'], 'cale-w-bardzo-lekkim-syropie');
+  for (const s of [pl, en]) assert.ok(!Object.values(s).some((x) => /renklod|greengage/.test(x)), 'brak slugów z renklodą');
 });
