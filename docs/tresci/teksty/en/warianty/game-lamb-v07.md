@@ -1,0 +1,19 @@
+# Venison goulash with mushrooms, tyndallized: why there is no recipe here
+
+There is no recipe here for a hunter’s venison goulash with wild mushrooms and juniper, canned in jars by tyndallization. [T:-]
+
+## !
+
+- Drying and cooking do not destroy the toxins of poisonous mushrooms, and only an expert can tell edible species from poisonous ones. [T:SUS-035]
+
+## Why
+
+Pressure canning is the only recommended method for canning meat, poultry, seafood and vegetables; using a boiling-water bath for these foods poses a real risk of botulism poisoning. [T:SZY-006]
+
+Wild mushrooms must not be canned. [T:SZY-020]
+
+Tyndallization (heating several times, with breaks for the spores to germinate) is not considered fully reliable, because some spores do not germinate between heatings. [T:SZY-009]
+
+Botulinum spores are very hard to destroy at boiling-water temperatures. [T:SZY-004]
+
+JarAtlas has found no tested recipe for canning a venison goulash with wild mushrooms from a checked source. [T:-]

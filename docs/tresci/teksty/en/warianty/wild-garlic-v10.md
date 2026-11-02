@@ -1,0 +1,24 @@
+# Wild garlic butter: why there is no recipe here
+
+There is no recipe here for butter with wild garlic leaves. [T:-]
+
+## !
+
+- According to BfR, young wild garlic leaves resemble those of the poisonous lily of the valley and the very poisonous autumn crocus; when in doubt, it is better not to eat them. [T:SUS-337]
+- According to AGES, wild garlic leaves may be contaminated with fox tapeworm eggs, which can cause a life-threatening disease in humans; the eggs survive usual freezing at -18 °C and are killed at around +60 °C. [T:SUS-338]
+
+## Why
+
+There is no research-based information for consumers showing that adding herbs or vegetables to butter makes a product that is safe at room temperature or in the refrigerator. [T:OLE-034]
+
+In 1993 the US FDA warned consumers not to prepare homemade spices in oil, margarine or butter for extended storage. [T:OLE-035]
+
+The leaves in this butter are raw, so they are not heated to the temperature at which, according to AGES, fox tapeworm eggs are killed. [T:SUS-338]
+
+AGES advises washing wild garlic leaves one by one, thoroughly, under hot running water before eating or freezing them. [T:SUS-338]
+
+According to AGES, wild garlic is also confused with spotted arum, Solomon’s seal and wild tulips. [T:SUS-337]
+
+JarAtlas rule: if you are not sure that every leaf is wild garlic, do not use the leaves. [T:SUS-337]
+
+JarAtlas has found no tested recipe for wild garlic butter from a checked source. [T:-]

@@ -1,0 +1,19 @@
+# Pears in balsamic vinegar: why there is no recipe here
+
+There is no recipe here for pears in balsamic vinegar: JarAtlas has no recipe for them from a checked source. [T:-]
+
+## !
+
+- A boiling-water bath is suitable only for acid foods, such as fruits, pickles, jams and fruit butters, and only with the research-based process times of the USDA Complete Guide to Home Canning. [T:SZY-054]
+- Do not change the proportions of vinegar, vegetables and water and do not use vinegar of unknown acidity; use only recipes with tested proportions. [T:ACI-016]
+- Use only vinegar labelled 5% acidity; white and cider vinegar can be used interchangeably; do not use wine vinegars, homemade vinegar or lemon juice. [T:ACI-509]
+
+## Why
+
+The FDA list gives Bartlett pears a pH of about 3.50–4.60. [T:ACI-127]
+
+NCHFP calls Asian pears borderline in acidity and gives them a separate acidifying procedure. [T:ACI-064]
+
+White distilled vinegar and cider vinegar of 5% acidity are recommended for pickles. [T:ACI-018]
+
+Without a tested recipe, there is no checked process time or vinegar proportion for pears in balsamic vinegar. [T:-]
