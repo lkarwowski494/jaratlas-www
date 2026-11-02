@@ -12,11 +12,11 @@ Jeśli nie masz drobnego cukru, zmiel zwykły cukier w młynku albo malakserze p
 
 NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
 
-Lemon curd i jego wariant z limonką to jedyne kremy typu curd, które NCHFP przetestowało do wekowania: innych kremów cytrusowych i owocowych nie zaleca się wekować. [T:SLO-043]
+NCHFP podaje jeden wariant tego przepisu, lime curd, i obecnie nie zaleca wekować innych kremów cytrusowych i owocowych typu curd. [T:SLO-043]
 
 ## Sprzęt
 
-NCHFP potrzebuje tarki do skórki, trzepaczki balonowej, garnka do gotowania na parze (podwójnego) o pojemności co najmniej 1 1/2 kwarty (ok. 1,4 l), sitka, termometru kuchennego mierzącego co najmniej do 180 °F (ok. 82 °C), miski szklanej albo ze stali nierdzewnej, silikonowej szpatułki albo warząchwi i sprzętu do wekowania w kąpieli wodnej. [T:SLO-236]
+Przepis NCHFP wymaga tarki do skórki, trzepaczki balonowej, garnka do gotowania na parze (podwójnego) o pojemności co najmniej 1 1/2 kwarty (ok. 1,4 l), sitka, termometru kuchennego mierzącego co najmniej do 180 °F (ok. 82 °C), miski szklanej albo ze stali nierdzewnej, silikonowej szpatułki albo warząchwi i sprzętu do wekowania w kąpieli wodnej. [T:SLO-236]
 
 ## Przygotowanie słoików i garnka
 
@@ -64,7 +64,7 @@ Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsucie
 
 Tabela NCHFP podaje czas tylko dla słoików 1/2 pinty. [T:SLO-038,SLO-241]
 
-Reguła JarAtlas (ostrożna, NCHFP nie bada słoików metrycznych): słoik 1/2 pinty mieści ok. 237 ml, więc słoik 0,25 l albo 0,3 l nie ma przetestowanego czasu; użyj słoików do 237 ml, np. 0,2 l. [T:SLO-241]
+Reguła JarAtlas (ostrożna, NCHFP nie bada słoików metrycznych): słoik 1/2 pinty mieści ok. 236 ml, więc słoik 0,25 l albo 0,3 l nie ma przetestowanego czasu; użyj słoików do 236 ml, np. 0,2 l. [T:SLO-241]
 
 ## Studzenie i przechowywanie
 
@@ -72,15 +72,15 @@ Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek ani metalowych p
 
 Słoiki studź w temperaturze pokojowej 12–24 godziny, potem odkręć i zdejmij tylko metalowe pierścienie dwuczęściowych pokrywek, a płaskie pokrywki zostaw na słoikach, i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
 
-Ten test i cała metoda zakładają słoiki do wekowania typu Mason z dwuczęściowymi pokrywkami; NCHFP nie zaleca do domowego wekowania żadnej żywności słoików, których otworu nie da się zamknąć dwuczęściowymi pokrywkami. [T:SLO-223]
+NCHFP uznaje słoiki do wekowania typu Mason z samouszczelniającymi się dwuczęściowymi pokrywkami (płaska pokrywka i zakręcany pierścień) za najlepszy wybór i na nich opiera się ten test oraz metoda z tej karty; innych słoików handlowych, których otworu nie da się zamknąć dwuczęściowymi pokrywkami, NCHFP nie zaleca do domowego wekowania żadnej żywności. [T:SLO-223,SLO-212]
+
+Reguła JarAtlas (ostrożna): ta karta nie podaje metody dla słoików twist-off ani słoików ze szklanymi pokrywkami. [T:SLO-223]
 
 Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
 
-Słoik, który przy tym sprawdzeniu okazał się niezamknięty, trzymaj w lodówce i zjedz w ciągu kilku dni. [T:SLO-197]
-
 Dla najlepszej jakości przechowuj słoiki w chłodnym, ciemnym miejscu, z dala od światła. [T:SLO-239]
 
-Zamknięte słoiki przechowuj w czystym, chłodnym, ciemnym i suchym miejscu, nie powyżej 95 °F (35 °C) i nie przy gorących rurach, kuchence czy piecu, na nieocieplonym strychu ani w pełnym słońcu; w takich warunkach przetwór może się zepsuć. [T:SLO-198]
+Słoik, który przy tym sprawdzeniu okazał się niezamknięty, trzymaj w lodówce i zjedz w ciągu kilku dni. [T:SLO-197]
 
 Wekowany lemon curd zużyj w ciągu 3–4 miesięcy. [T:SLO-041]
 

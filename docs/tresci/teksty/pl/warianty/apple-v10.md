@@ -1,6 +1,6 @@
 # Masło jabłkowe (NCHFP)
 
-Ta karta opisuje przepis NCHFP na masło jabłkowe: jabłka gotowane w cydrze (apple cider) i occie, przetarte, gotowane z białym i brązowym cukrem oraz przyprawami i wekowane w kąpieli wodnej. [T:SLO-087,SLO-224,SLO-225]
+Ta karta opisuje przepis NCHFP na masło jabłkowe: jabłka gotowane w apple cider (nazwa z przepisu) i occie, przetarte, gotowane z białym i brązowym cukrem oraz przyprawami i wekowane w kąpieli wodnej. [T:SLO-087,SLO-224,SLO-225]
 
 ## Składniki
 
@@ -30,7 +30,7 @@ Reguła JarAtlas dla metrów: gotuj słoiki 10 minut do 300 m, a wyżej dodaj 1 
 
 Jabłka umyj, usuń szypułki, pokrój na ćwiartki i wytnij gniazda nasienne. [T:SLO-225]
 
-Gotuj je powoli w cydrze i occie do miękkości. [T:SLO-225]
+Gotuj je powoli w apple cider i occie do miękkości. [T:SLO-225]
 
 Przetrzyj owoce przez durszlak, młynek do przecierania albo sito. [T:SLO-225]
 
@@ -74,7 +74,9 @@ Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek ani metalowych p
 
 Słoiki studź w temperaturze pokojowej 12–24 godziny, potem odkręć i zdejmij tylko metalowe pierścienie dwuczęściowych pokrywek, a płaskie pokrywki zostaw na słoikach, i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
 
-Ten test i cała metoda zakładają słoiki do wekowania typu Mason z dwuczęściowymi pokrywkami; NCHFP nie zaleca do domowego wekowania żadnej żywności słoików, których otworu nie da się zamknąć dwuczęściowymi pokrywkami. [T:SLO-223]
+NCHFP uznaje słoiki do wekowania typu Mason z samouszczelniającymi się dwuczęściowymi pokrywkami (płaska pokrywka i zakręcany pierścień) za najlepszy wybór i na nich opiera się ten test oraz metoda z tej karty; innych słoików handlowych, których otworu nie da się zamknąć dwuczęściowymi pokrywkami, NCHFP nie zaleca do domowego wekowania żadnej żywności. [T:SLO-223,SLO-212]
+
+Reguła JarAtlas (ostrożna): ta karta nie podaje metody dla słoików twist-off ani słoików ze szklanymi pokrywkami. [T:SLO-223]
 
 Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
 

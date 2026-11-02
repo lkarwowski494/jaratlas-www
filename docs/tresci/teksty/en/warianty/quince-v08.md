@@ -6,7 +6,7 @@ This card describes the NCHFP recipe for quince jelly made from quince juice, le
 
 NCHFP uses 3 3/4 cups of quince juice (about 3 1/2 pounds, about 1.6 kg, of quince and 7 cups of water), 1/4 cup of lemon juice and 3 cups of sugar, which makes about 4 half-pint jars. [T:SLO-228]
 
-This card follows the NCHFP recipe for quince; it does not cover Japanese quince (Chaenomeles) or other fruit. [T:SLO-228]
+JarAtlas scope: this card follows the NCHFP recipe for quince and does not cover flowering quince (Chaenomeles) or other fruit. [T:SLO-228]
 
 NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
 
@@ -80,7 +80,9 @@ When you take the hot jars out of the canner, do not retighten the lids or bands
 
 Cool the jars at room temperature for 12 to 24 hours, then remove only the screw bands (the metal rings of two-piece lids), leaving the flat lids on the jars, and test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196,SLO-212]
 
-This seal test and the whole method assume Mason-type canning jars with two-piece lids; NCHFP does not recommend jars whose mouths cannot be sealed with two-piece canning lids for canning any food at home. [T:SLO-223]
+NCHFP calls Mason-type canning jars with self-sealing two-piece lids (a flat lid and a screw band) the best choice, and this seal test and the method on this card assume them; NCHFP does not recommend other commercial jars whose mouths cannot be sealed with two-piece canning lids for canning any food at home. [T:SLO-223,SLO-212]
+
+JarAtlas rule (cautious): this card gives no method for twist-off jars or jars with glass lids. [T:SLO-223]
 
 A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
 

@@ -1,6 +1,6 @@
 # Canned lime curd (NCHFP)
 
-This card describes the tested NCHFP recipe for canned lime curd: a cream of eggs, butter, sugar and bottled lime juice, cooked to a set temperature and processed in half-pint jars in a boiling-water bath. [T:SLO-038,SLO-236,SLO-043]
+This card describes the lime curd variation of the NCHFP recipe for canned lemon curd: a cream of eggs, butter, sugar and bottled lime juice, cooked to a set temperature and processed in half-pint jars in a boiling-water bath. [T:SLO-038,SLO-236,SLO-043]
 
 ## Ingredients
 
@@ -10,15 +10,17 @@ The other ingredients are 2 1/2 cups of superfine sugar, 3/4 cup of chilled unsa
 
 Use bottled lime juice, as the variation says: NCHFP uses bottled juice to standardize the acidity, because the acidity of fresh juice can vary. [T:SLO-043,SLO-039]
 
+JarAtlas scope: this card covers lime curd only; NCHFP does not recommend other citrus curds, such as bergamot curd, for canning at this time. [T:SLO-043]
+
 If you have no superfine sugar, grind granulated sugar in a grinder or food processor for 1 minute, let it settle and use it instead; do not use powdered sugar. [T:SLO-236]
 
 NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
 
-Lemon curd and its lime variation are the only curds NCHFP has tested for canning: other citrus or fruit curds are not recommended for canning. [T:SLO-043]
+NCHFP gives one variation of this recipe, lime curd, and does not recommend other citrus or fruit curds for canning at this time. [T:SLO-043]
 
 ## Equipment
 
-NCHFP needs a zester, a balloon whisk, a double boiler of at least 1 1/2 quarts (about 1.4 l), a strainer, a kitchen thermometer that reads up to at least 180 °F (about 82 °C), a glass or stainless steel bowl, a silicone spatula or spoon and equipment for boiling-water canning. [T:SLO-236]
+The NCHFP recipe calls for a zester, a balloon whisk, a double boiler of at least 1 1/2 quarts (about 1.4 l), a strainer, a kitchen thermometer that reads up to at least 180 °F (about 82 °C), a glass or stainless steel bowl, a silicone spatula or spoon and equipment for boiling-water canning. [T:SLO-236]
 
 ## Preparing the jars and the canner
 
@@ -66,7 +68,7 @@ Shortening the time or cooling jars in cold water can also lead to spoilage. [T:
 
 The NCHFP table gives a time only for half-pint jars. [T:SLO-038,SLO-241]
 
-JarAtlas rule (cautious, NCHFP does not test metric jars): a half-pint holds about 237 ml, so a 0.25 l or 0.3 l jar has no tested time; use jars of up to 237 ml, such as 0.2 l. [T:SLO-241]
+JarAtlas rule (cautious, NCHFP does not test metric jars): a half-pint holds about 236 ml, so a 0.25 l or 0.3 l jar has no tested time; use jars of up to 236 ml, such as 0.2 l. [T:SLO-241]
 
 ## Cooling and storing
 
@@ -74,15 +76,15 @@ When you take the hot jars out of the canner, do not retighten the lids or bands
 
 Cool the jars at room temperature for 12 to 24 hours, then remove only the screw bands (the metal rings of two-piece lids), leaving the flat lids on the jars, and test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196,SLO-212]
 
-This seal test and the whole method assume Mason-type canning jars with two-piece lids; NCHFP does not recommend jars whose mouths cannot be sealed with two-piece canning lids for canning any food at home. [T:SLO-223]
+NCHFP calls Mason-type canning jars with self-sealing two-piece lids (a flat lid and a screw band) the best choice, and this seal test and the method on this card assume them; NCHFP does not recommend other commercial jars whose mouths cannot be sealed with two-piece canning lids for canning any food at home. [T:SLO-223,SLO-212]
+
+JarAtlas rule (cautious): this card gives no method for twist-off jars or jars with glass lids. [T:SLO-223]
 
 A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
 
-If a jar has not sealed at this check, keep it in the refrigerator and eat it within several days. [T:SLO-197]
-
 For best quality, store the jars in a cool, dark place, away from light. [T:SLO-239]
 
-Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) and not near hot pipes, a stove or a furnace, in an uninsulated attic or in direct sunlight; in such conditions the food may spoil. [T:SLO-198]
+If a jar has not sealed at this check, keep it in the refrigerator and eat it within several days. [T:SLO-197]
 
 Plan to use canned lime curd within 3 to 4 months. [T:SLO-041]
 

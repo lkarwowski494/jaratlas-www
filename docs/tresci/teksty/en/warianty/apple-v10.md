@@ -1,6 +1,6 @@
 # Apple butter (NCHFP)
 
-This card describes the NCHFP recipe for apple butter: apples cooked in cider and vinegar, pressed into a pulp, cooked with white and brown sugar and spices, and processed in a boiling-water bath. [T:SLO-087,SLO-224,SLO-225]
+This card describes the NCHFP recipe for apple butter: apples cooked in apple cider and vinegar, pressed into a pulp, cooked with white and brown sugar and spices, and processed in a boiling-water bath. [T:SLO-087,SLO-224,SLO-225]
 
 ## Ingredients
 
@@ -30,7 +30,7 @@ JarAtlas rule for metres: boil the jars for 10 minutes up to 300 m, and add 1 mi
 
 Wash the apples, remove the stems, cut them into quarters and remove the cores. [T:SLO-225]
 
-Cook them slowly in the cider and vinegar until soft. [T:SLO-225]
+Cook them slowly in the apple cider and vinegar until soft. [T:SLO-225]
 
 Press the fruit through a colander, food mill or strainer. [T:SLO-225]
 
@@ -74,7 +74,9 @@ When you take the hot jars out of the canner, do not retighten the lids or bands
 
 Cool the jars at room temperature for 12 to 24 hours, then remove only the screw bands (the metal rings of two-piece lids), leaving the flat lids on the jars, and test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196,SLO-212]
 
-This seal test and the whole method assume Mason-type canning jars with two-piece lids; NCHFP does not recommend jars whose mouths cannot be sealed with two-piece canning lids for canning any food at home. [T:SLO-223]
+NCHFP calls Mason-type canning jars with self-sealing two-piece lids (a flat lid and a screw band) the best choice, and this seal test and the method on this card assume them; NCHFP does not recommend other commercial jars whose mouths cannot be sealed with two-piece canning lids for canning any food at home. [T:SLO-223,SLO-212]
+
+JarAtlas rule (cautious): this card gives no method for twist-off jars or jars with glass lids. [T:SLO-223]
 
 A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
 
