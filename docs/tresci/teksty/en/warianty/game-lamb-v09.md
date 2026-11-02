@@ -1,0 +1,81 @@
+# Venison jerky with a heating step (NCHFP)
+
+This card describes jerky made from thin venison strips, heated in marinade to 160 °F (71 °C) and dried at 140 °F. [T:MIE-036,MIE-107,MIE-038]
+
+## !
+
+- The meat for jerky must reach an internal temperature of 160 °F (71 °C), by heating the strips in marinade before drying or in the oven after drying; a dehydrator alone does not ensure this. [T:MIE-036,MIE-104,MIE-105]
+- Before slicing, freeze game meat against trichinella: pieces up to 6 inches (about 15 cm) thick, at 0 °F (−18 °C) or below, for at least 30 days; this is not enough, because some Trichinella species in game animals are resistant to freezing, so the meat must still be heated to 160 °F (71 °C). [T:MIE-035,MIE-033]
+- According to the EU, freezing under the recommended conditions kills parasites, but some Trichinella species found in game animals and horses are resistant to it. [T:MIE-033]
+
+## Game meat
+
+Raw or undercooked game meat can contain disease-causing bacteria such as Salmonella and pathogenic strains of E. coli; meat is contaminated through the wound, during field dressing, handling and transport. [T:MIE-102]
+
+Chill deer carcasses rapidly to avoid bacterial growth. [T:MIE-103]
+
+Do not use game meat contaminated with intestinal contents for jerky; use it only in thoroughly cooked dishes. [T:MIE-043]
+
+Freezing meat against trichinella does not eliminate bacteria from it. [T:MIE-101]
+
+## Meat and preparation
+
+Raw meat can be contaminated with disease-causing microorganisms, which easily multiply on moist, high-protein foods. [T:MIE-100]
+
+Keep the meat refrigerated at 40 °F (about 4 °C) or below; use red meat within 3–5 days or freeze it. [T:MIE-110]
+
+Trim and discard all fat from the meat, because it becomes rancid quickly. [T:MIE-111]
+
+Cut the meat into strips no thicker than 1/4 inch (about 6 mm). [T:MIE-040]
+
+This card does not cover jerky made from ground meat: disease-causing microorganisms are more difficult to eliminate in it than in whole-muscle strips. [T:MIE-115]
+
+Marinate the meat in the refrigerator; do not save and re-use the marinade. [T:MIE-109]
+
+## Heating before drying
+
+According to Penn State, the USDA recommendation for jerky is to heat the meat to 160 °F (71 °C) before drying. [T:MIE-104]
+
+A dehydrator alone does not kill microorganisms, it only inactivates them, and it may not heat the meat to 160 °F (71 °C); most dehydrator instructions lack the heating step. [T:MIE-105]
+
+Bring the strips and marinade to a boil and boil for 5 minutes, then drain the strips. [T:MIE-037]
+
+Check several strips with a metal stem-type thermometer to make sure they have reached 160 °F (71 °C); strips thicker than 1/4 inch may need a longer boil in the marinade. [T:MIE-107]
+
+If any strip has not reached 160 °F (71 °C), keep boiling and measure again; do not dry strips that have not reached this temperature unless you heat them after drying (below). [T:MIE-107,MIE-036]
+
+According to Penn State, the strips can also be heated before drying by baking them on racks in a 325 °F (163 °C) oven, checking with a thermometer that the meat has reached 160 °F (71 °C). [T:MIE-108]
+
+## Drying
+
+Dry the strips in a dehydrator or oven preheated to 140 °F (60 °C). [T:MIE-038]
+
+Do not dry meat outdoors: dry it under the controlled conditions of an oven or dehydrator. [T:SUS-003]
+
+Do not use trays or screens made of galvanized mesh; also avoid copper and aluminium mesh. [T:SUS-008]
+
+Dry the jerky until a test piece cracks but does not break when bent; strips not heated in marinade take 10–24 hours, and strips heated in marinade dry faster, so begin checking them after 3 hours. [T:MIE-112]
+
+According to Penn State, drying alone may not give a safe product: in 1995, jerky dried at 140 °F (60 °C) for 3 hours and then held at 115 °F (46 °C) for 19 hours, without heating to 160 °F (71 °C), caused Salmonella illness in 93 people. [T:MIE-106]
+
+## Heating after drying, instead of before
+
+If you do not heat the strips before drying, heat them after drying, before packing: put strips originally cut 1/4 inch (about 6 mm) thick or less in an oven preheated to 275 °F (135 °C) for 10 minutes; thicker strips may require longer heating to reach 160 °F (71 °C). [T:MIE-039]
+
+## Packing and storing
+
+After drying, pat off beads of oil with absorbent towels, cool the jerky and package it in glass jars or heavy plastic food storage bags. [T:MIE-113]
+
+Packaging must be food grade: do not use trash bags or plastic or fibreboard containers that previously held non-food items. [T:SUS-065]
+
+NCHFP calls vacuum packaging a good option, but it is not a preservation method by itself: removing oxygen increases the risk of botulism, and a product that needs refrigeration still needs it. [T:MIE-113,SUS-025]
+
+Keep properly dried jerky in a sealed container at room temperature for no more than two weeks (NCHFP); longer in the refrigerator or freezer. [T:MIE-041]
+
+Penn State gives 1–3 weeks in a cool, dark place, depending on the meat, without saying which meats the shorter time applies to; this card gives the NCHFP limit of at most 2 weeks, shorter than Penn State’s upper limit but longer than its lower limit (1 week). [T:MIE-114,MIE-041]
+
+## When to throw away
+
+Check the dried food often (glass shows condensation); if it has taken up moisture but is not spoiled, use it at once or dry it again and repack it. [T:SUS-023]
+
+Throw away mouldy jerky; also throw away any that smells off. [T:SUS-022]

@@ -113,7 +113,7 @@ const ZWIERZ = { 'SUS-052': 'SLO-402' }; // C5: SLO-402 to to samo zalecenie NCH
 const MIESO = { ...ZWIERZ, 'SLO-258': 'SLO-405' }; // C5: rozmrażanie mięsa, ryb i drobiu (NCHFP, FDA, Clemson)
 const NABIAL = { ...ZWIERZ, 'SLO-258': 'SLO-443' }; // C5: rozmrażanie masła, jaj, sera w lodówce (NCHFP)
 export const ZAMIENNIKI_MROZENIA = {
-  'onion-v15': { 'SUS-058': 'SLO-285', 'SLO-261': 'SLO-285' }, // B8: własny czas ze źródła („within a few months”)
+  'onion-v15': { 'SUS-058': 'SLO-285' }, // B8: własny czas ze źródła („within a few months”); p28: SLO-261 w karcie (P3 z p24)
   'beef-veal-v15': { ...MIESO, 'SUS-058': 'SLO-417' }, // czasy jakości dla mięsa (FDA), nie dla owoców i warzyw
   'pork-loin-ham-v16': { ...MIESO, 'SUS-058': 'SLO-417' },
   'game-lamb-v11': { ...MIESO, 'SUS-058': 'SLO-417' },
@@ -125,6 +125,8 @@ export const ZAMIENNIKI_MROZENIA = {
   'butter-whey-cheese-v13': { ...NABIAL, 'SUS-058': 'SLO-440' },
   'aged-hard-cheese-v16': { ...NABIAL, 'SUS-058': 'SLO-441' },
   'garlic-v17': { 'SLO-250': 'OLE-051', 'SUS-058': 'OLE-003' }, // opis i data z NCHFP czosnku w oleju; czas „do kilku miesięcy”
+  'garlic-v09': { 'SLO-250': 'OLE-051', 'SUS-058': 'OLE-003' }, // p28: czosnek konfitowany w oliwie = czosnek w oleju (OLE-001, OLE-029); jak garlic-v17
+  'garlic-v10': { 'SLO-250': 'OLE-051', 'SUS-058': 'OLE-003' }, // p28: pieczony czosnek w oleju (OLE-006); jak garlic-v17
   'garden-herbs-v16': { 'SUS-058': null }, // NCHFP nie podaje czasu dla pesto; czasu owoców i warzyw nie przenosimy (p24)
   'lemon-v17': { 'SLO-250': 'SLO-307', 'SLO-251': 'SLO-307', 'SLO-258': 'SLO-308', 'SUS-058': 'SLO-308' }, // przepis NCHFP: pojemniki do zamrażarki z wolną przestrzenią (SLO-307), rozmrażanie 24 h w lodówce, 1 rok (SLO-308); P3-1 D-043
 };
@@ -166,6 +168,9 @@ export const ZAMIENNIKI_SUSZENIA = {
   'mirabelle-v10': { 'SUS-001': 'SUS-027' },
   'apricot-v09': { 'SUS-001': 'SUS-027' },
   'mango-papaya-v10': { 'SUS-001': 'SUS-030' },
+  // p28 (jerky, B7-D1): temperatura suszenia, studzenie i opakowanie z przepisu NCHFP/Penn State na jerky (MIE-038, MIE-113), miejsce i czas z MIE-041.
+  'beef-veal-v08': { 'SUS-001': 'MIE-038', 'SUS-024': 'MIE-113', 'SUS-064': 'MIE-113', 'SUS-066': 'MIE-041' },
+  'game-lamb-v09': { 'SUS-001': 'MIE-038', 'SUS-024': 'MIE-113', 'SUS-064': 'MIE-113', 'SUS-066': 'MIE-041' },
 };
 export function brakiBlokuSuszenia(lista = wszystkie, zamienniki = ZAMIENNIKI_SUSZENIA) {
   const braki = [];

@@ -44,6 +44,8 @@ Keep the freezer at 0 °F (−18 °C) or lower, because at higher temperatures f
 
 NCHFP says onions frozen this way are best used within a few months. [T:SLO-285]
 
+Storage times assume the food was prepared and packaged correctly and is kept at 0 °F (−18 °C) or below; use the oldest packages first. [T:SLO-261]
+
 ## Thawing
 
 Never thaw food at room temperature or in warm water: its outer layer warms into the danger zone of 40–140 °F (about 4–60 °C), where bacteria multiply rapidly. [T:SLO-258]

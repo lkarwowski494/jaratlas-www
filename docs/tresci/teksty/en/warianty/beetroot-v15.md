@@ -1,0 +1,67 @@
+# Dried beet chips (CSU)
+
+This card describes how to dry cooked beets into chips in a dehydrator or oven at 140 °F (60 °C), without blanching. [T:SUS-001,SUS-126]
+
+## Choosing and preparing
+
+Cook the beets as usual, cool and peel them. [T:SUS-126]
+
+The sources cut cooked beets into shoestring strips 1/8 inch (about 3 mm) thick; for chips, cut them into slices of the same thickness. [T:SUS-126]
+
+Do not blanch the beets: they are already cooked. [T:SUS-126]
+
+MSU rates beets as “fair to good” for drying; MSU gives no reason for this rating. [T:SUS-131]
+
+## Drying
+
+Arrange the prepared vegetables on trays in a single or thin layer, no more than 1/2 inch (about 13 mm) deep. [T:SUS-107]
+
+Dry the vegetables at 140 °F (60 °C) in a dehydrator or oven. [T:SUS-001]
+
+Do not dry vegetables outdoors: dry them under the controlled conditions of an oven or dehydrator. [T:SUS-003]
+
+Do not use trays or screens made of galvanized mesh; also avoid copper and aluminium mesh. [T:SUS-008]
+
+According to CSU, crispy beet chips can safely be made in the oven if you do not have a dehydrator. [T:SUS-125]
+
+Only use an oven if it can be set as low as 140 °F (60 °C); if it cannot go that low, the vegetables cook instead of drying. [T:SUS-069]
+
+In an oven, keep 140–150 °F (about 60–66 °C): place a calibrated oven thermometer on the rack or tray and check it every 2 hours throughout drying. [T:SUS-070]
+
+Leave the oven door open 2–3 inches (about 5–7.5 cm) so moisture can escape. [T:SUS-071]
+
+In a conventional oven, drying can take up to twice as long as in a dehydrator, depending on air circulation. [T:SUS-072]
+
+The sources give 10–12 hours for strips: dry the slices until brittle and dark red, and check their condition, not just the time. [T:SUS-126]
+
+General rule: vegetables are dried until brittle; they then contain about 10% moisture and do not need conditioning. [T:SUS-017]
+
+## Serving
+
+Vegetable chips are made from thinly sliced dried vegetables, including zucchini, parsnip, beets and carrots. [T:SUS-039]
+
+Dried vegetable slices can be eaten as vegetable chips for dips. [T:SUS-124]
+
+## Packing and storing
+
+Pack only completely cooled vegetables: warm dried food sweats, and that moisture can be enough for mould to grow. [T:SUS-024]
+
+Store the dried vegetables in clean, dry canning jars, plastic freezer containers with tight-fitting lids or plastic freezer bags. [T:SUS-064]
+
+Keep the dried food in airtight containers so it does not absorb moisture from the air: dry foods kept out of airtight containers may absorb moisture. [T:SUS-137]
+
+Packaging must be food grade: do not use trash bags or plastic or fibreboard containers that previously held non-food items. [T:SUS-065]
+
+Pack amounts that can be used at one time: each opening exposes the dried food to air and moisture, which lowers quality and can lead to spoilage. [T:SUS-067]
+
+Vacuum packaging is not a preservation method by itself: removing oxygen increases the risk of botulism, and a product that needs refrigeration still needs it. [T:SUS-025]
+
+Store the dried vegetables in a cool, dry, dark place. [T:SUS-066]
+
+Dried vegetables keep about half as long as dried fruit: according to Clemson HGIC, about 6 months at 60 °F and 3 months at 80 °F. [T:SUS-021]
+
+## When to throw away
+
+Check the dried vegetables often (glass shows condensation); if they have taken up moisture but are not spoiled, use them at once or dry them again and repack them. [T:SUS-023]
+
+Throw away mouldy dried vegetables; also throw away any that smell off. [T:SUS-022]

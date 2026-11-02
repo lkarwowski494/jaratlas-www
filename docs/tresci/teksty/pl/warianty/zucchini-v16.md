@@ -1,0 +1,79 @@
+# Chipsy z suszonej cukinii (CSU)
+
+Ta karta opisuje suszenie plastrów cukinii na chipsy w suszarce albo w piekarniku w 140 °F (60 °C), po blanszowaniu. [T:SUS-001,SUS-128]
+
+## Wybór i przygotowanie
+
+Umyj i oczyść cukinię, potem pokrój ją w plastry grubości 1/4 cala (ok. 6 mm). [T:SUS-128]
+
+Plastry blanszuj 4 minuty (CSU). [T:SUS-128]
+
+MSU podaje krótsze blanszowanie: parą 2,5–3 minuty albo we wrzątku 0,5 minuty; ta karta trzyma się czasu CSU. [T:SUS-128]
+
+Według MSU cukinia nadaje się do suszenia „słabo do dostatecznie”; MSU nie podaje powodu tej oceny. [T:SUS-131]
+
+## Blanszowanie
+
+Warzywa blanszuje się przed suszeniem, żeby zatrzymać enzymy i zwiększyć niszczenie drobnoustrojów. [T:SUS-014]
+
+Do wrzącej wody włóż najwyżej 1 kwartę warzyw w woreczku z gazy; czas licz od włożenia, a woda ma wrzeć przez cały czas. [T:SUS-106]
+
+Potem schładzaj warzywa w bardzo zimnej wodzie tyle samo czasu, ile trwało blanszowanie, i odsącz je. [T:SUS-106]
+
+Czasy blanszowania w tej karcie podano dla wysokości 3000–5000 stóp (ok. 900–1500 m); niżej są nieco krótsze, a wyżej i przy dużych ilościach warzyw nieco dłuższe. [T:SUS-105]
+
+## Suszenie
+
+Warzywa po obróbce wstępnej układaj na tacach w jednej albo cienkiej warstwie, najwyżej 1/2 cala (ok. 13 mm). [T:SUS-107]
+
+Susz warzywa w 140 °F (60 °C) w suszarce albo w piekarniku. [T:SUS-001]
+
+Warzyw nie susz na wolnym powietrzu: suszy się je w kontrolowanych warunkach piekarnika albo suszarki. [T:SUS-003]
+
+Nie używaj tac ani sit z siatki ocynkowanej; unikaj też siatek miedzianych i aluminiowych. [T:SUS-008]
+
+Według CSU chrupkie chipsy z cukinii można bezpiecznie zrobić w piekarniku, jeśli nie masz suszarki. [T:SUS-125]
+
+Piekarnik nadaje się tylko wtedy, gdy da się go ustawić na 140 °F (60 °C); jeśli nie schodzi tak nisko, warzywa pieką się zamiast schnąć. [T:SUS-069]
+
+W piekarniku utrzymuj 140–150 °F (ok. 60–66 °C): połóż skalibrowany termometr piekarnikowy na ruszcie lub tacy i sprawdzaj go co 2 godziny przez całe suszenie. [T:SUS-070]
+
+Drzwi piekarnika zostaw uchylone na 2–3 cale (ok. 5–7,5 cm), żeby uchodziła wilgoć. [T:SUS-071]
+
+W zwykłym piekarniku suszenie może trwać do dwóch razy dłużej niż w suszarce, zależnie od obiegu powietrza. [T:SUS-072]
+
+Cukinię susz 10–16 godzin (CSU; MSU podaje 10–12 godzin w suszarce), aż będzie skórzasta albo łamliwa. [T:SUS-128]
+
+Niektóre cienko krojone warzywa, np. cukinia, wysychają na chrupko, jak chipsy. [T:SUS-123]
+
+Ogólna zasada: warzywa suszy się do stanu kruchego (łamliwego); mają wtedy około 10% wilgoci i nie wymagają kondycjonowania. [T:SUS-017]
+
+## Podawanie
+
+Na chipsy suszy się cienko krojone warzywa, m.in. cukinię, pasternak, buraki i marchew. [T:SUS-039]
+
+Suszone plastry warzyw można jeść jako chipsy do dipów. [T:SUS-124]
+
+## Pakowanie i przechowywanie
+
+Pakuj tylko całkowicie ostudzone warzywa: ciepły susz „poci się”, a ta wilgoć może wystarczyć do rozwoju pleśni. [T:SUS-024]
+
+Susz przechowuj w czystych, suchych słoikach do przetworów, w plastikowych pojemnikach do zamrażarki ze szczelnymi pokrywkami albo w plastikowych torebkach do zamrażarki. [T:SUS-064]
+
+Susz trzymaj w szczelnych pojemnikach, żeby nie wchłaniał wilgoci z powietrza: suche produkty poza szczelnym pojemnikiem mogą wchłaniać wilgoć. [T:SUS-137]
+
+Opakowania muszą być przeznaczone do kontaktu z żywnością: nie używaj worków na śmieci ani pojemników plastikowych lub tekturowych, w których były wcześniej rzeczy inne niż żywność. [T:SUS-065]
+
+Pakuj porcje do zużycia za jednym razem: każde otwarcie opakowania wystawia susz na powietrze i wilgoć, co obniża jakość i może prowadzić do zepsucia. [T:SUS-067]
+
+Pakowanie próżniowe nie jest samodzielną metodą utrwalania: usunięcie tlenu zwiększa ryzyko jadu kiełbasianego, a produkt wymagający chłodzenia nadal go wymaga. [T:SUS-025]
+
+Przechowuj susz w miejscu chłodnym, suchym i ciemnym. [T:SUS-066]
+
+Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F i 3 miesiące w 80 °F. [T:SUS-021]
+
+## Kiedy wyrzucić
+
+Sprawdzaj susz często (w szkle widać skroploną parę); susz, który wchłonął wilgoć, ale nie jest zepsuty, zużyj od razu albo dosusz i zapakuj ponownie. [T:SUS-023]
+
+Spleśniały susz wyrzuć; wyrzuć także susz o obcym zapachu. [T:SUS-022]

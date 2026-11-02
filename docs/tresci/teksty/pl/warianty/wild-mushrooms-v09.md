@@ -1,0 +1,23 @@
+# Suszone kapelusze kani: dlaczego tu nie ma przepisu
+
+Na suszenie kapeluszy kani nie ma tu przepisu. [T:-]
+
+## !
+
+- Najczęstsze i najgroźniejsze zatrucia grzybami w Polsce powoduje muchomor sromotnikowy, mylony z jadalnymi gatunkami, takimi jak czubajka kania. [T:SUS-141]
+- Toksyn grzybów trujących nie niszczy ani suszenie, ani gotowanie, a gatunki jadalne od trujących odróżni tylko ekspert. [T:SUS-035]
+- W Polsce: w razie wątpliwości, czy grzyby są jadalne, zanieś je świeże, przed suszeniem, do stacji sanitarno-epidemiologicznej; grzyboznawcy lub klasyfikatorzy grzybów bezpłatnie ocenią, czy są jadalne, niejadalne czy trujące. [T:SUS-142]
+
+## Dlaczego
+
+Suszy się tylko grzyby, które na pewno są jadalne; kto nie jest ekspertem w rozpoznawaniu grzybów, powinien utrwalać tylko grzyby kupione w handlu. [T:SUS-138]
+
+Do oceny przynosi się całe owocniki, z kapeluszem i trzonem, bo ważne cechy rozpoznawcze są też na trzonie; susz z samych kapeluszy nie ma trzonu. [T:SUS-143]
+
+W Polsce grzyboznawca ma uprawnienia do oceny przydatności do spożycia grzybów świeżych i suszonych. [T:SUS-144]
+
+Poza Polską ta karta nie wskazuje instytucji, która ocenia grzyby: jeśli nie masz pewności, że grzyb jest jadalny, nie susz go i nie jedz. [T:SUS-035,SUS-138]
+
+## Objawy zatrucia
+
+Przy zatruciu najgroźniejszymi grzybami, np. muchomorem sromotnikowym, pierwsze objawy często pojawiają się długo po zjedzeniu, czasem nawet po kilku dniach, a po chwilowej poprawie stan chorego może się gwałtownie pogorszyć; przy objawach zatrucia natychmiast wezwij lekarza albo zgłoś się do szpitala, a pomocy szukaj też dla osób, które jadły tę samą potrawę, choć nie mają jeszcze objawów. [T:SUS-145]

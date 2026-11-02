@@ -1,0 +1,33 @@
+# Niegotowany dżem truskawkowy do lodówki lub zamrażarki (NCHFP)
+
+Ta karta opisuje przepis NCHFP na niegotowany dżem truskawkowy z pektyną w proszku: bez gotowania owoców i bez wekowania, przechowywany do 3 tygodni w lodówce albo do roku w zamrażarce. [T:SLO-490,SLO-020]
+
+## Składniki
+
+Na ok. 5–6 słoików 1/2 pinty: 2 szklanki rozgniecionych truskawek (ok. 1 kwarty, ok. 0,95 l, owoców), 4 szklanki cukru, 1 opakowanie sproszkowanej pektyny i 1 szklanka wody. [T:SLO-490]
+
+## Przygotowanie
+
+Wysterylizuj słoiki do przetworów, a dwuczęściowe pokrywki przygotuj według instrukcji producenta. [T:SLO-309]
+
+Posortuj i umyj w pełni dojrzałe truskawki, odsącz je, usuń szypułki i kielichy, potem rozgnieć owoce. [T:SLO-309]
+
+## Dżem
+
+Rozgniecione owoce dokładnie wymieszaj z cukrem i odstaw na 20 minut, od czasu do czasu mieszając. [T:SLO-490]
+
+Pektynę rozpuść w wodzie i gotuj 1 minutę. [T:SLO-490]
+
+Wlej roztwór pektyny do owoców z cukrem i mieszaj 2 minuty. [T:SLO-490]
+
+Nalej dżem do pojemników do zamrażarki albo słoików do przetworów, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:SLO-490]
+
+Zamknij pojemniki i zostaw je na 24 godziny w temperaturze pokojowej. [T:SLO-490]
+
+## Przechowywanie
+
+Potem przechowuj dżem w lodówce do 3 tygodni albo w zamrażarce do roku. [T:SLO-020]
+
+Dżemu niegotowanego nie przechowuj w temperaturze pokojowej: szybko pleśnieje albo fermentuje. [T:SLO-020]
+
+Otwarty pojemnik trzymaj w lodówce i zużyj dżem w ciągu kilku dni. [T:SLO-460]

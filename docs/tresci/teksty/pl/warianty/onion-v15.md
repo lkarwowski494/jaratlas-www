@@ -44,6 +44,8 @@ Trzymaj w zamrażarce 0 °F (−18 °C) lub mniej, bo w wyższej temperaturze ż
 
 Według NCHFP cebulę zamrożoną w ten sposób najlepiej zużyć w ciągu kilku miesięcy. [T:SLO-285]
 
+Czasy przechowywania zakładają, że żywność przygotowano i zapakowano poprawnie i trzyma się ją w 0 °F (−18 °C) lub niżej; najpierw zużywaj najstarsze opakowania. [T:SLO-261]
+
 ## Rozmrażanie
 
 Nigdy nie rozmrażaj żywności w temperaturze pokojowej ani w ciepłej wodzie: jej zewnętrzna warstwa nagrzewa się wtedy do strefy zagrożenia 40–140 °F (ok. 4–60 °C), w której bakterie szybko się namnażają. [T:SLO-258]
