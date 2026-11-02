@@ -37750,6 +37750,772 @@
   "jednoZrodlo": true
  },
  {
+  "id": "ACI-720",
+  "twierdzenie": "Według przepisu Ball „Candied Jalapeños” (strona Ball, przedruk UC MFP San Diego i UCCE El Dorado 2024), na ok. 4 słoiki pint: 3 szklanki octu jabłkowego albo białego (co najmniej 5%), 2 łyżeczki soli, 4 szklanki cukru, 6 ząbków czosnku w plastrach, 2 łyżeczki kurkumy, 1/2 łyżeczki pieprzu cayenne, 2 łyżeczki gorczycy, 4 funty (ok. 1,8 kg) jalapeño w krążkach 1/4 cala (ok. 6 mm).",
+  "zrodla": [
+   {
+    "adres": "https://ucanr.edu/sites/default/files/2025-05/Pickled%20Jalapenos_Fair_Checked.pdf",
+    "miejsce": "Pickled Jalapenos (UC MFP San Diego, „Fair Checked”, 2025), składniki i nagłówek",
+    "cytat": "These pickled jalapenos, also known as candied jalapenos, deliver a real punch of sweet heat.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "ef08b566dcc5",
+    "szczebel_uwaga": "3 (przedruk Ball w materiale UC ANR MFP; Ball liczony jak 3)"
+   },
+   {
+    "adres": "https://ucanr.edu/sites/default/files/2025-05/Pickled%20Jalapenos_Fair_Checked.pdf",
+    "miejsce": "j.w., źródło",
+    "cytat": "Source: Ball Canning",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ef08b566dcc5",
+    "szczebel_uwaga": "3 (przedruk Ball w materiale UC ANR MFP; Ball liczony jak 3)"
+   },
+   {
+    "adres": "https://ucanr.edu/sites/mfp_of_cs/files/402446.pdf",
+    "miejsce": "Preserve It! Ya-Hoo! Barbeque Season! (UCCE El Dorado, Mountain Democrat 5.06.2024), Candied Jalapeños",
+    "cytat": "This recipe hails from the Ball website: ballmasonjars.com.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "c00aa8636bd0",
+    "szczebel_uwaga": "3 (przedruk Ball w materiale UC ANR MFP; Ball liczony jak 3)"
+   },
+   {
+    "adres": "https://ucanr.edu/sites/mfp_of_cs/files/402446.pdf",
+    "miejsce": "j.w., składniki",
+    "cytat": "4 pounds fresh jalapeños, sliced into ¼ inch rings",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "c00aa8636bd0",
+    "szczebel_uwaga": "3 (przedruk Ball w materiale UC ANR MFP; Ball liczony jak 3)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Funty i szklanki US przeliczone w nawiasie w przybliżeniu; nazwa „cowboy candy” = „candied jalapeños” (UC SD: „also known as candied jalapenos”).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to the Ball recipe “Candied Jalapeños” (Ball website, reprinted by UC MFP San Diego and UCCE El Dorado 2024), for about 4 pint jars: 3 cups cider or white vinegar (at least 5%), 2 teaspoons salt, 4 cups sugar, 6 garlic cloves, sliced, 2 teaspoons turmeric, 1/2 teaspoon cayenne pepper, 2 teaspoons mustard seed, 4 pounds (about 1.8 kg) jalapeños in 1/4-inch (about 6 mm) rings.",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-721",
+  "twierdzenie": "Według przepisu Ball „Candied Jalapeños”: zalewę (wszystko poza jalapeño) zagotować, mieszając do rozpuszczenia cukru; dodać krążki i gotować na średnim ogniu 15 minut; nakładać gorące do gorących słoików z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; nie zmieniać podstawowych składników — proporcja octu do warzyw ustalona ze względu na bezpieczeństwo.",
+  "zrodla": [
+   {
+    "adres": "https://ucanr.edu/sites/default/files/2025-05/Pickled%20Jalapenos_Fair_Checked.pdf",
+    "miejsce": "Pickled Jalapenos, Directions 3",
+    "cytat": "and simmer for 15 minutes, until jalapenos are dark green",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "ef08b566dcc5",
+    "szczebel_uwaga": "3 (przedruk Ball w materiale UC ANR MFP; Ball liczony jak 3)"
+   },
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2024-11/404396.pdf",
+    "miejsce": "Candied Jalapeños (UCCE MFP, 2024-11), lewa kolumna; zasób: ballmasonjars.com/blog?cid=candied-jalapenos",
+    "cytat": "vinegar to vegetables has been deter-",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "887d577d9132",
+    "szczebel_uwaga": "3 (przedruk Ball w materiale UC ANR MFP; Ball liczony jak 3)"
+   },
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2024-11/404396.pdf",
+    "miejsce": "j.w., RESOURCE",
+    "cytat": "blog?cid=candied-jalapenos",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "887d577d9132",
+    "szczebel_uwaga": "3 (przedruk Ball w materiale UC ANR MFP; Ball liczony jak 3)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Tekst ulotki 404396 dwukolumnowy; zdanie „Do not alter basic ingedients—ration of vinegar to vegetables has been determined…” złamane na kolumny, cytuję fragment trafiający w grep.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to the Ball recipe “Candied Jalapeños”: bring the syrup (everything except the jalapeños) to a boil, stirring until the sugar dissolves; add the rings and simmer over medium heat for 15 minutes; pack hot into hot jars leaving 1/2-inch (about 1.3 cm) headspace; do not change the basic ingredients, because the ratio of vinegar to vegetables is set for safety.",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-722",
+  "twierdzenie": "Według przepisu Ball „Candied Jalapeños” (przedruk UCCE El Dorado 2024): kąpiel wodna, słoiki pint: 15 min do 1000 stóp, 20 min 1001–3000 stóp, 25 min 3001–6000 stóp, 30 min 6001–8000 stóp; powyżej 8000 stóp przedruk nie podaje czasu.",
+  "zrodla": [
+   {
+    "adres": "https://ucanr.edu/sites/mfp_of_cs/files/402446.pdf",
+    "miejsce": "Candied Jalapeños, krok 5",
+    "cytat": "process pint jars 15 minutes at 0 – 1,000 feet elevation, 20 minutes",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "c00aa8636bd0",
+    "szczebel_uwaga": "3 (przedruk Ball w materiale UC ANR MFP; Ball liczony jak 3)"
+   },
+   {
+    "adres": "https://ucanr.edu/sites/mfp_of_cs/files/402446.pdf",
+    "miejsce": "j.w.",
+    "cytat": "at 1001 – 3,000 feet, 25 minutes at 3,001 – 6,000 feet, and 30 minutes at 6,001 – 8,000 feet.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "c00aa8636bd0",
+    "szczebel_uwaga": "3 (przedruk Ball w materiale UC ANR MFP; Ball liczony jak 3)"
+   },
+   {
+    "adres": "https://ucanr.edu/sites/default/files/2025-05/Pickled%20Jalapenos_Fair_Checked.pdf",
+    "miejsce": "Pickled Jalapenos, Directions 5",
+    "cytat": "Process pint jars 15 minutes, adjusting for altitude.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ef08b566dcc5",
+    "szczebel_uwaga": "3 (przedruk Ball w materiale UC ANR MFP; Ball liczony jak 3)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przedruk mówi też o kotle parowym (atmospheric steam canner) — karta tylko kąpiel wodna; powyżej 8000 stóp brak danych, karta: nie stosować.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to the Ball recipe “Candied Jalapeños” (UCCE El Dorado 2024 reprint): boiling water bath, pint jars: 15 min up to 1,000 ft, 20 min at 1,001–3,000 ft, 25 min at 3,001–6,000 ft, 30 min at 6,001–8,000 ft; the reprint gives no time above 8,000 ft.",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-732",
+  "twierdzenie": "Według Sure-Jell (Kraft Heinz, Tips & Tricks): powyżej 1000 stóp wydłużyć czas procesu w kąpieli wodnej: 1001–3000 stóp +5 min, 3001–6000 +10 min, 6001–8000 +15 min, 8001–10 000 +20 min.",
+  "zrodla": [
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/tips-tricks",
+    "miejsce": "Tips & Tricks, Processing Time Adjustments For High Altitude",
+    "cytat": "At altitudes above 1,000 feet, increase processing time as follows: 1,001 to 3,000 feet — Add 5 minutes to processing time 3,001 to 6,000 feet — Add 10 minutes to processing time 6,001 to 8,000 feet — Add 15 minutes to processing time 8,001 to 10,000 feet — Add 20 minutes to processing time",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "f4ef03b9ceb9",
+    "plik_surowy": "zrodla/B/sj-tips-tricks.html",
+    "sha12_surowy": "5505532e6a01",
+    "szczebel_uwaga": "4 (producent pektyny Sure-Jell/Certo, Kraft Heinz US: traktowany jak Ball wg Illinois 9390)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Tabela producenta; dla galaretek (baza 5 min) daje czasy dłuższe niż NCHFP (ACI-609: 5/10/15) od 3001 stóp; karta przepisu Sure-Jell bierze dłuższy czas (ostrożniej). Ta sama tabela jest w ulotce PDF (obraz, niegrepowalny).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to Sure-Jell (Kraft Heinz, Tips & Tricks): above 1,000 ft, lengthen the boiling water bath processing time: 1,001–3,000 ft +5 min, 3,001–6,000 +10 min, 6,001–8,000 +15 min, 8,001–10,000 +20 min.",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-733",
+  "twierdzenie": "NCHFP: dla najlepszej jakości domowe przetwory zużyć w ciągu roku; dżemy i galaretki z przepisu testowanego, wekowane przez zalecany czas, zachowują najlepszą jakość do roku; przechowywać w chłodnym, ciemnym, suchym miejscu w 50–70 °F (ok. 10–21 °C).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+    "miejsce": "Storing Home-Canned Jams and Jellies, pytanie o trwałość",
+    "cytat": "For best quality, it is recommended that all home-canned foods be used within a year. Most homemade jams and jellies that use a tested recipe, and have been processed in a canner for the recommended time, should retain best quality and flavor for up to that one year recommended time. All home-canned foods should be stored in a cool, dark, dry place, between 50-70°F.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ad7d1c857bd9",
+    "plik_surowy": "zrodla/B/nchfp-storing-jams.html",
+    "sha12_surowy": "a827484e5f24"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Reguła ogólna szczebla 1 dla nieotwartych słoików; otwarte: SLO-018. Certo UK (12 mies.) mieści się w regule.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP: for best quality, use home-canned foods within a year; jams and jellies made from a tested recipe and processed for the recommended time keep best quality for up to a year; store in a cool, dark, dry place at 50–70 °F (about 10–21 °C).",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-736",
+  "twierdzenie": "Według przepisu Sure-Jell „Gooseberry Jelly” (Kraft Heinz): 5 1/2 szklanki soku (ok. 4 1/2 lb, ok. 2 kg, w pełni dojrzałego agrestu), 1 szklanka wody, 1 opakowanie SURE-JELL Original, 7 szklanek cukru; agrest z wodą dusić 10 min, odsączyć; gotować dokładnie 1 min po dodaniu cukru; 1/4 cala; proces 5 min w kąpieli wodnej.",
+  "zrodla": [
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/509441-sure-jell-gooseberry-jelly",
+    "miejsce": "SURE.JELL Gooseberry Jelly, Ingredients",
+    "cytat": "ING: 5-1/2 cups prepared juice (buy about 4-1/2 lb. fully ripe gooseberries)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "69366885edd8",
+    "plik_surowy": "zrodla/B/kh-509441-sure-jell-gooseberry-jelly.html",
+    "sha12_surowy": "dab70451f473",
+    "szczebel_uwaga": "4 (producent pektyny Sure-Jell/Certo, Kraft Heinz US: traktowany jak Ball wg Illinois 9390)"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/509441-sure-jell-gooseberry-jelly",
+    "miejsce": "SURE.JELL Gooseberry Jelly, Ingredients",
+    "cytat": "ING: 7 cups sugar, measured into separate bowl",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "69366885edd8",
+    "szczebel_uwaga": "4 (producent pektyny Sure-Jell/Certo, Kraft Heinz US: traktowany jak Ball wg Illinois 9390)"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/509441-sure-jell-gooseberry-jelly",
+    "miejsce": "SURE.JELL Gooseberry Jelly, krok 4",
+    "cytat": "Cover; bring water to gentle boil. Process 5 min.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "69366885edd8",
+    "szczebel_uwaga": "4 (producent pektyny Sure-Jell/Certo, Kraft Heinz US: traktowany jak Ball wg Illinois 9390)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Słoiki sterylne (ACI-626).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the Sure-Jell recipe “Gooseberry Jelly” (Kraft Heinz): 5 1/2 cups juice (about 4 1/2 lb, about 2 kg, fully ripe gooseberries), 1 cup water, 1 box SURE-JELL Original, 7 cups sugar; simmer the gooseberries with the water for 10 min and strain; boil exactly 1 min after adding the sugar; 1/4 inch headspace; process 5 min in a boiling water bath.",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-737",
+  "twierdzenie": "Według przepisu Certo UK „Blackcurrant Jam”: 900 g czarnych porzeczek, 290 ml wody, 1,5 kg cukru, 1/2 butelki Certo; owoce z wodą dusić pod przykryciem 15 min (do miękkości skórek), rozpuścić cukier, gotować na pełnym wrzeniu 1 min, dodać Certo i gotować mocno jeszcze 1 min; wychodzi ok. 5 lb (ok. 2,3 kg). Źródło nie podaje kąpieli wodnej.",
+  "zrodla": [
+   {
+    "adres": "https://certo.co.uk/blackcurrant-jam/",
+    "miejsce": "Blackcurrant Jam, INGREDIENTS",
+    "cytat": "2 lb (900g) Blackcurrants",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep",
+    "sha12": "9583aa871b68",
+    "plik_surowy": "zrodla/B/certo-uk-blackcurrant-jam.html",
+    "sha12_surowy": "2ecb2476e780",
+    "szczebel_uwaga": "4 (Certo UK, certo.co.uk: marka z listy Illinois, ale inny producent niż Kraft Heinz US; do weta; tu użyte w regule (c))"
+   },
+   {
+    "adres": "https://certo.co.uk/blackcurrant-jam/",
+    "miejsce": "Blackcurrant Jam, INGREDIENTS",
+    "cytat": "3 1⁄4 lb (1.5kg) Sugar",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep",
+    "sha12": "9583aa871b68",
+    "szczebel_uwaga": "4 (Certo UK, certo.co.uk: marka z listy Illinois, ale inny producent niż Kraft Heinz US; do weta; tu użyte w regule (c))"
+   },
+   {
+    "adres": "https://certo.co.uk/blackcurrant-jam/",
+    "miejsce": "Blackcurrant Jam, METHOD",
+    "cytat": "Crush well, and put the fruit into a large saucepan with the water, bring to the boil and simmer, covered, for 15 minutes or until the skins are soft.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep",
+    "sha12": "9583aa871b68",
+    "szczebel_uwaga": "4 (Certo UK, certo.co.uk: marka z listy Illinois, ale inny producent niż Kraft Heinz US; do weta; tu użyte w regule (c))"
+   },
+   {
+    "adres": "https://certo.co.uk/blackcurrant-jam/",
+    "miejsce": "Blackcurrant Jam, METHOD",
+    "cytat": "Place back on the heat and boil hard for 1 minute.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep",
+    "sha12": "9583aa871b68",
+    "szczebel_uwaga": "4 (Certo UK, certo.co.uk: marka z listy Illinois, ale inny producent niż Kraft Heinz US; do weta; tu użyte w regule (c))"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Proporcje ze szczebla 4 w regule (c); wekowanie z reguły NCHFP (ACI-609: 5/10/15 min, słoiki sterylne, 1/4 cala SLO-003), bo źródło UK go nie ma.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the Certo UK recipe “Blackcurrant Jam”: 900 g blackcurrants, 290 ml water, 1.5 kg sugar, 1/2 bottle Certo; simmer the fruit with the water, covered, for 15 min (until the skins are soft), dissolve the sugar, boil at a full rolling boil for 1 min, add Certo and boil hard for 1 more min; makes about 5 lb (about 2.3 kg). The source does not describe a boiling water bath.",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-738",
+  "twierdzenie": "Według przepisu Certo UK „Bilberry Jam”: 2 1/4 lb (ok. 1 kg) jagód czarnych (bilberry), sok z 1 cytryny i starta skórka z 1/2 cytryny, 3 lb (ok. 1,36 kg) cukru, 1 butelka Certo; owoce rozgnieść, z cukrem podgrzewać do rozpuszczenia, gotować na pełnym wrzeniu 2 min, zdjąć z ognia i wmieszać Certo. Źródło nie podaje kąpieli wodnej.",
+  "zrodla": [
+   {
+    "adres": "https://certo.co.uk/bilberry-jam/",
+    "miejsce": "Bilberry Jam, INGREDIENTS",
+    "cytat": "2 1/4 lbs Bilberry Fruit",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep",
+    "sha12": "9431e974dc0b",
+    "plik_surowy": "zrodla/B/certo-uk-bilberry-jam.html",
+    "sha12_surowy": "4d9fae515352",
+    "szczebel_uwaga": "4 (Certo UK, certo.co.uk: marka z listy Illinois, ale inny producent niż Kraft Heinz US; do weta; tu użyte w regule (c))"
+   },
+   {
+    "adres": "https://certo.co.uk/bilberry-jam/",
+    "miejsce": "Bilberry Jam, INGREDIENTS",
+    "cytat": "3 lbs Sugar",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep",
+    "sha12": "9431e974dc0b",
+    "szczebel_uwaga": "4 (Certo UK, certo.co.uk: marka z listy Illinois, ale inny producent niż Kraft Heinz US; do weta; tu użyte w regule (c))"
+   },
+   {
+    "adres": "https://certo.co.uk/bilberry-jam/",
+    "miejsce": "Bilberry Jam, METHOD",
+    "cytat": "Use only fruit which is fully ripe. Crush berries and add juice of 1 lemon and grated rind of half a lemon.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep",
+    "sha12": "9431e974dc0b",
+    "szczebel_uwaga": "4 (Certo UK, certo.co.uk: marka z listy Illinois, ale inny producent niż Kraft Heinz US; do weta; tu użyte w regule (c))"
+   },
+   {
+    "adres": "https://certo.co.uk/bilberry-jam/",
+    "miejsce": "Bilberry Jam, METHOD",
+    "cytat": "Heat slowly until the sugar has dissolved then bring to a full rolling boil for 2 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep",
+    "sha12": "9431e974dc0b",
+    "szczebel_uwaga": "4 (Certo UK, certo.co.uk: marka z listy Illinois, ale inny producent niż Kraft Heinz US; do weta; tu użyte w regule (c))"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„Bilberry” w brytyjskim przepisie = Vaccinium myrtillus (jagoda czarna) — nazwa zwyczajowa, źródło nie podaje łaciny. Wekowanie z reguły NCHFP (ACI-609).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the Certo UK recipe “Bilberry Jam”: 2 1/4 lb (about 1 kg) bilberries, juice of 1 lemon and grated rind of 1/2 lemon, 3 lb (about 1.36 kg) sugar, 1 bottle Certo; crush the fruit, heat with the sugar until dissolved, boil at a full rolling boil for 2 min, remove from the heat and stir in Certo. The source does not describe a boiling water bath.",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-750",
+  "twierdzenie": "Certo UK (How to use / książka 2016): przetwory nalewać na gorąco (85 °C lub więcej) do suchych ciepłych słoików i zamykać od razu; trwałość zwykle 12 miesięcy; źródło nie opisuje wekowania w kąpieli wodnej i twierdzi, że po tym czasie dżem bez pleśni jest bezpieczny — JarAtlas tego nie przejmuje (pleśń = wyrzucić, SLO-213; wekowanie wg ACI-609).",
+  "zrodla": [
+   {
+    "adres": "https://certo.co.uk/how-to-use/",
+    "miejsce": "How To Use, Top tips",
+    "cytat": "Avoid confusion and waste. Shelf life is typically 12 months.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep",
+    "sha12": "6bdd4431f35a",
+    "plik_surowy": "zrodla/B/certo-uk-how-to-use.html",
+    "sha12_surowy": "208301d791e3",
+    "szczebel_uwaga": "4 (Certo UK, certo.co.uk: marka z listy Illinois, ale inny producent niż Kraft Heinz US; do weta; tu użyte w regule (c))"
+   },
+   {
+    "adres": "https://certo.co.uk/wp-content/uploads/Certo-Recipe-2016.pdf",
+    "miejsce": "Certo Recipe Book 2016, s. 32, Top Tips",
+    "cytat": "jars, at a temperature of 85°C or above.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep",
+    "sha12": "cea36a0727c3",
+    "szczebel_uwaga": "4 (Certo UK, certo.co.uk: marka z listy Illinois, ale inny producent niż Kraft Heinz US; do weta; tu użyte w regule (c))"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Kontekst metody UK (zalewanie na gorąco bez kąpieli wodnej) — dlatego parametry procesu na kartach z Certo UK biorą regułę NCHFP, a przechowywanie ACI-733 (rok, równe 12 mies.).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "Certo UK (How to use / 2016 recipe book): pour preserves hot (85 °C or more) into dry warm jars and seal at once; shelf life usually 12 months; the source does not describe a boiling water bath and states that jam without mould after that time is safe — JarAtlas does not adopt this (mould = discard, SLO-213; processing per ACI-609).",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-751",
+  "twierdzenie": "Oregon State University Extension (SP 50-464, Analyzing Pickle Recipes), wytyczne: ocet o kwasowości 5%; w piklach szybkich (fresh/quick pack) co najmniej tyle octu, co wody (ocet : woda ≥ 1 : 1), chyba że to przepis przetestowany OSU/USDA; takie pikle wekuje się od razu albo trzyma w lodówce. Ekspertka Ask Extension (pytanie z Jackson County, Oregon): przepis lodówkowy z proporcją octu do wody co najmniej 1 : 1, w wysterylizowanych słoikach, wstawiony od razu do lodówki, nie powinien stanowić problemu.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/340559.pdf",
+    "miejsce": "OSU SP 50-464 (rev. 2014), Analyzing Pickle Recipes, Type of Pickle: Quick or Fresh Pack (przedruk na stronie UC ANR)",
+    "cytat": "Recipes for fresh or quick pack pickles will have at least as much vinegar as water in the recipe. … 2. Make sure the recipe calls for vinegar that is 5% acidity. 3. For fresh or quick pack pickles, make sure the recipe has at least as much vinegar as water unless it is an OSU/USDA tested recipe.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "9c148b08094f"
+   },
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=880834",
+    "miejsce": "Ask Extension #880834, Quick kosher dills for refrigerator, Expert Response (Nellie Oehler, 2024-08-09)",
+    "cytat": "If you make them and put them in sterilized jars and then refrigerate right away, they should be safe. … If the recipe has at least a 1:1 ratio of vinegar to water and then you make them and refrigerate them right a way it should not be a problem.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "a6c11a3daddc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Reguła ogólna scenariusza B: ocet 5% (ACI-509) w ilości co najmniej równej wodzie; inne płyny (sos sojowy, miód rozcieńczony) JarAtlas liczy ostrożnie jak wodę. Reguła nie mówi o proporcji octu do warzyw. Limit 2 tygodni nie pochodzi z tych źródeł (ACI-508). Odpowiedź Ask Extension to opinia jednej ekspertki, słabsza niż publikacja OSU.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "Oregon State University Extension (SP 50-464, Analyzing Pickle Recipes), guidelines: vinegar of 5% acidity; fresh or quick pack pickles have at least as much vinegar as water (vinegar : water ≥ 1 : 1) unless it is an OSU/USDA tested recipe; such pickles are processed right away or kept in the refrigerator. Ask Extension expert (question from Jackson County, Oregon): a refrigerator recipe with a vinegar-to-water ratio of at least 1 : 1, in sterilized jars and refrigerated right away, should not be a problem.",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst); D-027 d CZĘŚCIOWO: cytat OSU uzupełniony o wytyczne 2 i 3, ekspertka bez przypisania do Oregonu (Oregon = pytający), dodany warunek wysterylizowanych słoików; fragmenty sprawdzone w kopiach (curl/pdftotext).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-752",
+  "twierdzenie": "Przybliżone pH dzikiej borówki brusznicy (Vaccinium vitis-idaea, Łotwa, Litwa, Norwegia, Finlandia): 2,66–3,03 (Molecules 2023; zgodne z wcześniejszymi doniesieniami 2,74–2,90).",
+  "zrodla": [
+   {
+    "adres": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10303544/",
+    "miejsce": "Nutritional and Physicochemical Properties of Wild Lingonberry (Molecules 2023), Results, pH i °Brix",
+    "cytat": "showed that the pH levels ranged from 2.66 to 3.03.",
+    "odczyt": "2026-11-02",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "2e8b38f8bd44"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Owoc kwaśny w rozumieniu reguły (c) (pH ≤ 4,6 z dużym zapasem).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Approximate pH of wild lingonberry (Vaccinium vitis-idaea; Latvia, Lithuania, Norway, Finland): 2.66–3.03 (Molecules 2023; consistent with earlier reports of 2.74–2.90).",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-754",
+  "twierdzenie": "Według przepisu Cocktail Contessa (no-cook strawberry syrup): truskawki i cukier w proporcji 2 : 1 wagowo (8 oz owoców : 4 oz cukru) w czystym słoju, 12–24 godzin w lodówce, potem odcedzić; syrop niegotowany MUSI stać w lodówce i wytrzymuje ok. 10–12 dni.",
+  "zrodla": [
+   {
+    "adres": "https://www.cocktailcontessa.com/no-cook-strawberry-syrup-for-cocktails/",
+    "miejsce": "Easiest Ever Strawberry Syrup for Drinks, sekcje Making…, FAQ i karta przepisu",
+    "cytat": "For my cold process syrups, I use a ratio of 2:1 fruit to sugar by weight.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "7d311b877512"
+   },
+   {
+    "adres": "https://www.cocktailcontessa.com/no-cook-strawberry-syrup-for-cocktails/",
+    "miejsce": "FAQ: How long does strawberry syrup last?",
+    "cytat": "This strawberry simple syrup will last about 10-12 days in the fridge.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "7d311b877512"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Szczebel 4, reguła (c): 10–12 dni mieści się w SLO-020 (3 tygodnie); karta bierze 10 dni (krótsze). Dodatek wódki z przepisu pomijamy.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the Cocktail Contessa recipe (no-cook strawberry syrup): strawberries and sugar 2 : 1 by weight (8 oz fruit : 4 oz sugar) in a clean jar, 12–24 hours in the refrigerator, then strain; the uncooked syrup MUST be refrigerated and keeps about 10–12 days.",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-756",
+  "twierdzenie": "Według przepisu Marthaförbundet (Kallrörda lingon): 1 litr borówki brusznicy i 1 dl cukru, rozgnieść tłuczkiem albo blenderem (mikser daje rzadszą masę), przechowywać w lodówce; kwas benzoesowy daje długą trwałość w lodówce (bez liczby dni).",
+  "zrodla": [
+   {
+    "adres": "https://martha.fi/recept/kallrorda-lingon",
+    "miejsce": "Kallrörda lingon, przepis",
+    "cytat": "Lingon innehåller bensoesyra, vilket gör att rårörda lingon har en lång hållbarhetstid i kylskåp.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "3577ad340101"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Marthaförbundet (fińska organizacja doradztwa domowego, nie uczelnia) liczony ostrożnie jako szczebel 4 (E1 p1 wpisał 3). Limit dni z reguły SLO-020: 3 tygodnie.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the Marthaförbundet recipe (Kallrörda lingon): 1 litre lingonberries and 1 dl sugar, crushed with a masher or a stick blender (a mixer gives a runnier result), stored in the refrigerator; benzoic acid gives a long refrigerator life (no number of days given).",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst); D-027 d: dopisany blender (źródło: „potatisstöt eller stavmixer”).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-758",
+  "twierdzenie": "Według przepisu Irish Times (Eunice Power, Lime cordial, ok. 1 litra): sok z 10 limonek, 1 litr wody, 500 g cukru, 2 łyżeczki kwasku cytrynowego; wodę z cukrem zagotować, dodać sok i kwasek, gotować jeszcze 1–2 minuty, zdjąć z ognia, ostudzić, przelać do wysterylizowanych butelek i trzymać w lodówce (bez liczby dni).",
+  "zrodla": [
+   {
+    "adres": "https://www.irishtimes.com/life-and-style/food-and-drink/recipes/lime-cordial-1.2884474",
+    "miejsce": "Lime cordial, składniki i sposób",
+    "cytat": "Add the lime juice and citric acid, stir well to combine and simmer for a further minute or two.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "861b78967f6d"
+   },
+   {
+    "adres": "https://www.irishtimes.com/life-and-style/food-and-drink/recipes/lime-cordial-1.2884474",
+    "miejsce": "Lime cordial, ostatni krok",
+    "cytat": "Pour the cordial into sterilised bottles and store in the fridge.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "861b78967f6d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Szczebel 4 dla składu; produkt gotowany, nieprzetestowany: limit z ACI-508 (2 tygodnie).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the Irish Times recipe (Eunice Power, lime cordial, about 1 litre): juice of 10 limes, 1 litre water, 500 g sugar, 2 teaspoons citric acid; boil the water with the sugar, add the juice and citric acid, simmer 1–2 more minutes, take off the heat, allow to cool, pour into sterilised bottles and keep in the refrigerator (no number of days given).",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst); D-027 d CZĘŚCIOWO: dodany krok „Take off the heat and allow to cool”, „wyparzonych” → „wysterylizowanych” (źródło: sterilised).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-759",
+  "twierdzenie": "Według przepisu Food Preserving (Quince fruit paste / membrillo): 2,5 kg pigwy, 2 1/2 szklanki wody, 1/3 szklanki soku z cytryny, ok. 1 kg cukru (3/4–1 szklanki cukru na 1 szklankę przecieru); gotować ok. 3 godzin do gęstości; po stężeniu w lodówce (12–24 h) masę pokroić i owinąć folią albo zamknąć w szczelnym pojemniku: w lodówce do 3 miesięcy albo zamrozić do 12 miesięcy (JarAtlas: lodówka do 2 tygodni).",
+  "zrodla": [
+   {
+    "adres": "https://www.foodpreserving.org/2013/05/quince-fruit-paste-membrillo.html",
+    "miejsce": "Quince fruit paste (membrillo), krok 6",
+    "cytat": "add sugar – 3/4 to 1 cup sugar per 1 cup puree is recommended.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "af3b5793c402"
+   },
+   {
+    "adres": "https://www.foodpreserving.org/2013/05/quince-fruit-paste-membrillo.html",
+    "miejsce": "Pour quince paste into a dish (refrigerator/freezer storage), krok 15",
+    "cytat": "store in airtight containers in the refrigerator for up to 3 months (or freeze for up to 12 months",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "af3b5793c402"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Szczebel 4; 3 miesiące w lodówce przekraczają regułę ogólną (ACI-508: 2 tygodnie dla przepisu nieprzetestowanego), karta bierze 2 tygodnie; zamrażarka 12 miesięcy mieści się w SLO-020 (do roku).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the Food Preserving recipe (quince fruit paste / membrillo): 2.5 kg quinces, 2 1/2 cups water, 1/3 cup lemon juice, about 1 kg sugar (3/4–1 cup sugar per 1 cup purée); cook about 3 hours until thick; after setting in the refrigerator (12–24 h), slice the paste and wrap it in plastic wrap or store it in airtight containers: up to 3 months in the refrigerator or up to 12 months frozen (JarAtlas: refrigerator up to 2 weeks).",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst); D-027 d CZĘŚCIOWO: przechowywanie dotyczy masy stężałej, pokrojonej i owiniętej / w szczelnym pojemniku.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-862",
+  "twierdzenie": "Według przepisu Redemption Permaculture (Pickled Radish Seed Pods): 1 szklanka strąków rzodkiewki, 1/2 szklanki białego octu, 1/2 szklanki wody, 1 łyżka soli, 1 łyżka cukru, ząbek czosnku, liść laurowy; zalewę zagotować, strąki dusić pod przykryciem ok. 10 minut, przełożyć do słoika (strąki przykryte zalewą), ostudzić, do lodówki; gotowe po 24 godzinach, w lodówce do miesiąca (JarAtlas: do 2 tygodni).",
+  "zrodla": [
+   {
+    "adres": "https://redemptionpermaculture.com/wp-content/uploads/2023/06/Pickled-Radish-Seed-Pods.pdf",
+    "miejsce": "Pickled Radish Seed Pods, składniki",
+    "cytat": "1/2 cup of white vinegar",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "ef76e4b2a7a8"
+   },
+   {
+    "adres": "https://redemptionpermaculture.com/wp-content/uploads/2023/06/Pickled-Radish-Seed-Pods.pdf",
+    "miejsce": "Instructions, krok 6",
+    "cytat": "can be stored in the refrigerator for up to a month.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "ef76e4b2a7a8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Scenariusz B: ocet : woda = 1 : 1 (≥ ACI-751); miesiąc przekracza ACI-508, karta 2 tygodnie; ocet biały musi mieć 5% (ACI-509; przepis nie podaje mocy).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the Redemption Permaculture recipe (Pickled Radish Seed Pods): 1 cup radish seed pods, 1/2 cup white vinegar, 1/2 cup water, 1 tablespoon salt, 1 tablespoon sugar, a garlic clove, a bay leaf; bring the brine to a boil, simmer the pods covered for about 10 minutes, transfer to a jar (pods covered with brine), cool and refrigerate; ready after 24 hours, keeps up to a month in the refrigerator (JarAtlas: up to 2 weeks).",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-867",
+  "twierdzenie": "Według przepisu RMF24 (ćwikła, Wielkanoc 2025): 1 kg buraków, 2 korzenie chrzanu, szczypta soli, łyżka octu lub soku z cytryny, łyżka cukru; chrzan zalać 5–6 łyżkami wrzątku; trzymać w słoiczkach w lodówce (bez liczby dni).",
+  "zrodla": [
+   {
+    "adres": "https://www.rmf24.pl/raporty/raport-swieta-wielkanoc-2025/news-chrzan-z-jablkiem-mazurek-kajmakowy-przepisy-na-wielkanoc-pa,nId,7944997",
+    "miejsce": "Chrzan z jabłkiem, mazurek kajmakowy…, przepis na ćwikłę",
+    "cytat": "1 kg buraków ćwikłowych, 2 korzenie chrzanu, szczypta soli, łyżka octu lub soku z cytryny, łyżka cukru",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "f359716c2ba6"
+   },
+   {
+    "adres": "https://www.rmf24.pl/raporty/raport-swieta-wielkanoc-2025/news-chrzan-z-jablkiem-mazurek-kajmakowy-przepisy-na-wielkanoc-pa,nId,7944997",
+    "miejsce": "przepis na ćwikłę, przygotowanie",
+    "cytat": "zalewamy 5-6 łyżkami wrzątku, dodajemy sok z cytryny lub ocet, sól i cukier.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "f359716c2ba6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Dowód negatywny dla scenariusza B: ocet (1 łyżka) mniej niż woda (5–6 łyżek), dopuszczony sok z cytryny (ACI-509 zabrania).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to an RMF24 recipe (ćwikła, Easter 2025): 1 kg beetroot, 2 horseradish roots, a pinch of salt, a tablespoon of vinegar or lemon juice, a tablespoon of sugar; pour 5–6 tablespoons of boiling water over the horseradish; keep in small jars in the refrigerator (no number of days given).",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-868",
+  "twierdzenie": "Według przepisu z archiwum przepisów hawaii.edu (Chili Pickled Cabbage – Kim Chee): 2 funty kapusty pekińskiej, 1 łyżka soli (odsączyć po 3–4 godzinach), 1/2 szklanki białego octu, 1/2 szklanki jasnego sosu sojowego, chili, cukier, czosnek, imbir; co najmniej 24 godziny w chłodnym miejscu, potem w lodówce do tygodnia.",
+  "zrodla": [
+   {
+    "adres": "https://hawaii.edu/recipes/kimchee/kimchee9.html",
+    "miejsce": "Chili Pickled Cabbage - Kim Chee (typed by Syd Bigger)",
+    "cytat": "Transfer to a large glass jar, seal and leave in a cool place for at least 24 hours before using. It will keep for up to a week in the refrigerator.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "66bd2240e545"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Dowód dla scenariusza B: ocet : inne płyny = 1 : 1 (sos sojowy), ale ok. 1/2 szklanki octu na 2 funty kapusty i dojrzewanie poza lodówką.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to a recipe from the hawaii.edu recipe archive (Chili Pickled Cabbage – Kim Chee): 2 pounds napa cabbage, 1 tablespoon salt (drain after 3–4 hours), 1/2 cup white vinegar, 1/2 cup light soy sauce, chili, sugar, garlic, ginger; at least 24 hours in a cool place, then in the refrigerator for up to a week.",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
   "id": "SLO-157",
   "twierdzenie": "NCHFP Plum Jam Pectin (sproszkowana pektyna): 6 szklanek rozgniecionych śliwek (ok. 3,5 funta śliwek), 1 opakowanie sproszkowanej pektyny, 8 szklanek cukru; wychodzi ok. 9 słoików 1/2 pinty.",
   "zrodla": [
@@ -48123,6 +48889,105 @@
   "jednoZrodlo": false,
   "twierdzenie_en": "According to PNW 632 (University of Idaho, Oregon State, Washington State), jerky is done and safe only when meat has been heated to 160°F (about 71°C) and poultry to 165°F (about 74°C), before or immediately after dehydration; the best poultry cuts are breast, thigh and leg, without skin and fat.",
   "uwaga": "PNW 632 podaje trwałość 1–2 miesiące w temperaturze pokojowej; NCHFP (szczebel 1) 2 tygodnie (MIE-041): karta podaje 2 tygodnie (C12-D15). NCHFP: surowy drób „generally not recommended” z powodu tekstury i smaku (MIE-042). Wpis B17, przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-346",
+  "twierdzenie": "Owoce aronii czarnoowocowej (Aronia melanocarpa) mają pH 3,3–3,7 i kwasowość miareczkową 0,7–1,2%; w badaniu odmian z Korei kwasowość miareczkowa 1,26–1,30%.",
+  "zrodla": [
+   {
+    "adres": "https://www.ars.usda.gov/ARSUserFiles/1718/PDF/2003/2003ActaHort_626_439_443.pdf",
+    "miejsce": "Acta Horticulturae 626 (2003) s. 439–443 (Proc. XXVI IHC – Berry Crop Breeding), plik na serwerze USDA ARS; wstęp",
+    "cytat": "have a pH of 3.3-3.7 and 0.7 to 1.2 % titratable acidity",
+    "odczyt": "2026-11-02",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "b648160849a9"
+   },
+   {
+    "adres": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6963724/",
+    "miejsce": "Foods 2019, 8(12):598 (PMC6963724), sekcja 3.2 i Tabela 2",
+    "cytat": "The titratable acidity was 1.26%–1.30%, the differences between cultivars and between maturity stages were negligible, and the highest pH was shown at the dark purple stage.",
+    "odczyt": "2026-11-02",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "17d786826da2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "Black chokeberry fruit (Aronia melanocarpa) has pH 3.3–3.7 and titratable acidity 0.7–1.2%; in a study of cultivars from Korea, titratable acidity was 1.26–1.30%.",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-349",
+  "twierdzenie": "Według podręcznika PNW 651 owoce w suszarce suszy się szybko na początku, żeby zapobiec wzrostowi bakterii: start w 140–150°F (ok. 60–66°C), po 2–3 godzinach obniżyć do 130–140°F (ok. 54–60°C).",
+  "zrodla": [
+   {
+    "adres": "https://objects.lib.uidaho.edu/uiext/uiext32185.pdf",
+    "miejsce": "PNW 651 Drying Project Manual (4-H Home Food Preservation Series; Univ. of Idaho, Oregon State, Washington State), s. 18, How to dry fruits in a dehydrator (to samo zdanie s. 26)",
+    "cytat": "start at 140–150°F, and then turn it down to 130°F or 140°F after 2–3 hours.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "fe98b5692f65"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie °F→°C przez badacza; karta trzyma 60°C (SUS-001)",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the PNW 651 handbook, fruit in a dehydrator is dried quickly at first to prevent bacterial growth: start at 140–150°F (about 60–66°C) and after 2–3 hours lower to 130–140°F (about 54–60°C).",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst); D-027 d: miejsce s. 18 (nie s. 19).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-354",
+  "twierdzenie": "Według ulotki Nebraska Department of Education (Harvest of the Month, Aronia Berries) aronię suszy się w piekarniku lub suszarce w 140–150°F (ok. 60–66°C) przez 6–16 godzin, mieszając co kilka godzin; czas zależy od wielkości owoców, wilgotności i obiegu powietrza.",
+  "zrodla": [
+   {
+    "adres": "https://www.education.ne.gov/wp-content/uploads/2022/11/Aronia-Berries-2.pdf",
+    "miejsce": "Nebraska Dept. of Education, Harvest of the Month: Aronia Berries, ramka Drying Activity",
+    "cytat": "Dry the berries at 140-150℉ in an oven or food dehydrator for 6-16 hours.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "weryfikacja": "curl+grep (spacje znormalizowane)",
+    "sha12": "f4be016321ff"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "przeliczenie °F→°C przez badacza",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the Nebraska Department of Education flyer (Harvest of the Month, Aronia Berries), aronia berries are dried in an oven or dehydrator at 140–150°F (about 60–66°C) for 6–16 hours, stirring every few hours; the time depends on berry size, humidity and air circulation.",
+  "uwaga": "Wpis B18 (2026-11-02-jaratlas-b18-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {

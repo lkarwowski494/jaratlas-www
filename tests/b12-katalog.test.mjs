@@ -85,10 +85,12 @@ test('B12: 8 duplikatów C10-D12 wycofanych z następcą ok-zrodlo; status do-re
   }
 });
 
+// B18 (werdykty B16, 2026-11-02-jaratlas-b18-katalog): warianty ze zmienionym statusem; ich stan pilnuje tests/b18-katalog.test.mjs.
+const B18 = new Set(['chili-pepper-v05', 'currant-v08', 'blueberry-bilberry-v08', 'gooseberry-v08', 'strawberry-v09', 'cranberry-lingonberry-v02', 'lime-bergamot-v09', 'quince-v07', 'radish-v09', 'chokeberry-seabuckthorn-v11', 'horseradish-v04', 'white-cabbage-v11', 'cucumber-v11', 'peach-nectarine-v08', 'orange-kumquat-v09', 'chokeberry-seabuckthorn-v07', 'napa-cabbage-v10', 'blueberry-bilberry-v07', 'cornelian-cherry-v10']);
 test('B12: reszta zostaje do-researchu bez zmiany claims, sources i nazwy (w tym gianduja i anko, C10-D11)', () => {
   for (const [id, h] of Object.entries(ZOSTAJA)) {
     const v = V.get(id);
-    if (B15_OK.has(id)) continue; // B15 (polityka źródeł wg ryzyka: szczebel 1–3) zmienia wariant; pilnuje tests/b15-katalog.test.mjs
+    if (B15_OK.has(id) || B18.has(id)) continue; // B15 (polityka źródeł wg ryzyka: szczebel 1–3) zmienia wariant; pilnuje tests/b15-katalog.test.mjs
     assert.equal(v.safetyStatus, 'do-researchu', id);
     assert.equal(v.cardType, undefined, id);
     assert.equal(v.retired, undefined, id);
@@ -191,7 +193,7 @@ test('B12 (D-043 P2): notatki [B12] wymieniają jako „poza claims” tylko twi
   for (const w of c10.warianty) {
     const v = V.get(w.id);
     const n = v.notes.find((x) => x.startsWith('[B12]'));
-    if (B15_OK.has(w.id)) continue; // notatka historyczna; nowsze claims z B15
+    if (B15_OK.has(w.id) || B18.has(w.id)) continue; // notatka historyczna; nowsze claims z B15 i B18
     const m = n.match(/poza claims: ([^.(]+)/);
     if (m) for (const id of m[1].split(',').map((s) => s.trim()).filter(Boolean)) assert.ok(!v.claims.includes(id), `${w.id}: ${id} jest w claims`);
   }
