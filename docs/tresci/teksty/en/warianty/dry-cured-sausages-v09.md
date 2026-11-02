@@ -10,6 +10,4 @@ There is no recipe here for German teewurst, a raw smoked spreadable sausage tha
 
 ## Why
 
-Teewurst is eaten without cooking, so it does not meet this UGA rule. [T:MIE-022]
-
 JarAtlas has found no tested recipe for teewurst from a checked source. [T:-]

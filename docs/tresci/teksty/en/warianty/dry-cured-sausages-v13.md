@@ -9,7 +9,7 @@ There is no recipe here for Bosnian sudžuk, a raw dry sausage made from beef an
 
 ## Why
 
-According to UGA, E. coli O157:H7 in dry fermented sausages is controlled by strict control of fermentation and acidity, and by heating to 145 °F or above after fermentation. [T:MIE-024]
+According to UGA, E. coli contamination of dry sausages can be reduced by closely controlling fermentation and acidity, and by heating to 145 °F or above after fermentation. [T:MIE-024]
 
 In dry sausages, control of Salmonella takes a combination of a starter culture, the fermentation temperature, and control of pH, curing salt and salt. [T:MIE-027]
 

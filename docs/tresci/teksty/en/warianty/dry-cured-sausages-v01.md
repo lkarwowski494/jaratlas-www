@@ -5,7 +5,7 @@ There is no recipe here for raw Polish sausage smoked with cold smoke and eaten 
 ## !
 
 - According to UGA, uncooked smoked sausages are smoked for flavor development and must be fully cooked before eating. [T:MIE-022]
-- Cold-smoke temperatures are not hot enough to kill bacteria and may even help them grow. [T:MIE-076]
+- According to a University of Alaska guide to smoking fish, cold-smoke temperatures are not hot enough to kill bacteria and may even help them grow. [T:MIE-076]
 
 ## Why
 

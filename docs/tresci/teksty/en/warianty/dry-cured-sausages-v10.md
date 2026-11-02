@@ -10,6 +10,4 @@ There is no recipe here for ’nduja, a spicy spreadable Calabrian sausage that 
 
 ## Why
 
-’Nduja is eaten without cooking, so it does not meet this UGA rule. [T:MIE-022]
-
 JarAtlas has found no tested recipe for ’nduja from a checked source. [T:-]

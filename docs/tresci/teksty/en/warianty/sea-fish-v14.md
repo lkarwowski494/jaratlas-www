@@ -5,7 +5,7 @@ There is no recipe here for sprats canned at home in jars with oil. [T:-]
 ## !
 
 - Pressure canning is the only recommended method for canning fish and seafood, and a boiling-water bath means a real risk of botulism for them. [T:SZY-006]
-- According to NCHFP, ingredients that the original instructions do not call for should not be added to the jars, even with liquid, in research-based processes. [T:SZY-013]
+- According to NCHFP, fats such as butter or ghee should not be added to the jars, even with liquid, in research-based processes if the original instructions do not call for them. [T:SZY-013]
 
 ## Why
 

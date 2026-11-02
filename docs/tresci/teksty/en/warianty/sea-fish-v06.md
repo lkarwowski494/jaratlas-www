@@ -5,7 +5,7 @@ There is no recipe here for Spanish boquerones en vinagre, raw anchovies cured i
 ## !
 
 - According to the FDA, brining and pickling can reduce the parasite hazard in fish, but they do not eliminate it. [T:MIE-049]
-- The EU requires marinated, salted and other treated fish products to be frozen if the treatment is not enough to kill live parasites. [T:MIE-053]
+- The EU requires food businesses that sell marinated, salted and other treated fish products to freeze the raw fish or the finished product if the treatment is not enough to kill live parasites. [T:MIE-053]
 
 ## Why
 
