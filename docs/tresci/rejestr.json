@@ -15536,7 +15536,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "89e99ecee4e6"
+   "sha": "a8a4d5e54f08"
   },
   "wielkosc": "temperatura zamrażarki",
   "wartosc": -18,
@@ -15781,7 +15781,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "9d2b25cb6856"
+   "sha": "236e5893a197"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -33043,7 +33043,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "fcb61192bf00"
+   "sha": "d6e89929ff85"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33362,7 +33362,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "6c5f112d8e27"
+   "sha": "1b9d9e9b1828"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33397,7 +33397,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "185ebcfa062a"
+   "sha": "09a9256d994b"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33432,7 +33432,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "f2fb171fd29d"
+   "sha": "700ae4a2305d"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33964,6 +33964,57 @@
   ],
   "status": "potwierdzone",
   "uproszczenie": "Tylko pakowanie z cukrem; syrop 50% pominięty, bo przepis na syrop 50% nie jest w rejestrze (SLO-253 obejmuje 40%) (decyzja Claude, do weta). Wolna przestrzeń według ogólnej tabeli owoców (SLO-249, pakowanie z cukrem jako z płynem).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-282",
+  "twierdzenie": "NCHFP Freezing Corn (karta: całe ziarna i kukurydza kremowa): wybierać tylko delikatną, świeżo zebraną kukurydzę w dojrzałości mlecznej; obrać z liści, przyciąć kolby, usunąć znamiona, umyć; całe ziarna: blanszować w wodzie 4 minuty, szybko schłodzić, odsączyć, odciąć z kolby na ok. 2/3 głębokości ziaren, zapakować z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; kukurydza kremowa: blanszować w wodzie 4 minuty, szybko schłodzić i odsączyć, odciąć końce ziaren i zeskrobać kolby tępą stroną noża, żeby usunąć sok i środek ziarna, zapakować z 1/2 cala wolnej przestrzeni; zamknąć i zamrozić. NCHFP opisuje też kolby w całości i kukurydzę kremową bez blanszowania (podgrzewaną w garnku z podwójnym dnem).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-corn/",
+    "miejsce": "NCHFP, Freezing Corn, Preparation, Corn-on-the-cob, Whole Kernel Corn, Cream Style Corn",
+    "cytat": "Select only tender, freshly-gathered corn in the milk stage. Husk and trim the ears, remove silks and wash. Corn-on-the-cob – Water blanch small ears (1¼ inches or less in diameter) 7 minutes, medium ears (1¼ to 1½ inches in diameter) 9 minutes and large ears (over 1½ inches in diameter) 11 minutes. Cool promptly and completely to prevent a \"cobby\" taste. Drain and package. Seal and freeze. Whole Kernel Corn – Water blanch 4 minutes. Cool promptly, drain and cut from cob. Cut kernels from cob about 2/3 the depth of the kernels. Package, leaving ½-inch headspace. Seal and freeze. Cream Style Corn – Water blanch 4 minutes. Cool promptly and drain. Cut kernel tips and scrape the cobs with the back of a knife to remove the juice and the heart of the kernel. Package, leaving ½-inch headspace. Seal and freeze. Another way to prepare cream style corn for freezing is to cut and scrape the corn from the cob without blanching.",
+    "sha12": "987e250e12ef",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/blanching-times/",
+    "miejsce": "NCHFP, Blanching Times, tabela, Corn",
+    "cytat": "Whole Kernel or Cream Style (ears blanched before cutting corn from cob)",
+    "sha12": "f360b7e09a46",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Karta tylko dla całych ziaren i kukurydzy kremowej z blanszowaniem; kolby w całości pominięte (NCHFP: „Drain and package” bez wielkości wolnej przestrzeni, wariant ostrożniejszy jak puree z brukwi w p18), sposób bez blanszowania (podgrzewanie w garnku z podwójnym dnem) pominięty dla prostoty karty. Blanszowanie obranych kolb przed odcięciem ziaren wprost w tabeli Blanching Times („ears blanched before cutting corn from cob”). „Silks” jako znamiona (włoski).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-283",
+  "twierdzenie": "NCHFP Freezing Pumpkin: wybrać dojrzałą dynię o pełnym kolorze i drobnej strukturze; umyć, pokroić na kawałki wielkości do gotowania i usunąć pestki; ugotować do miękkości we wrzącej wodzie, na parze, w szybkowarze albo w piekarniku; oddzielić miąższ od skórki i rozgnieść; schłodzić, wstawiając garnek do zimnej wody i od czasu do czasu mieszając; zapakować z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-pumpkin/",
+    "miejsce": "NCHFP, Freezing Pumpkin, Preparation",
+    "cytat": "Select full-colored mature pumpkin with fine texture. Wash, cut into cooking-size sections and remove seeds. Cook until soft in boiling water, in steam, in a pressure cooker or in an oven. Remove pulp from rind and mash. To cool, place pan containing pumpkin in cold water and stir occasionally. Package, leaving ½-inch headspace. Seal and freeze.",
+    "sha12": "9a3a55aa8851",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Bez blanszowania (dynia gotowana do miękkości). „Pressure cooker” jako szybkowar. Sekcja gotowania warzyw z mrożonki (SLO-257) pominięta, bo dotyczy warzyw w kawałkach, nie puree.",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",
