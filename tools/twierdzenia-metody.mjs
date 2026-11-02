@@ -8,15 +8,15 @@
 
 /* Twierdzenia wspólne kilku metod, sprawdzone w treści 2026-11-02 (03d6aa7). Nowe wspólne twierdzenie dopisuje tor A z powodem. */
 export const WSPOLNE = {
-  'ACI-195': ['water-bath', 'freezer', 'refrigerator', 'dry-storage'], // miarka „cup” ≈ 237 ml (NIST): przelicznik niezależny od metody; p33: quince-v07, radish-v09 (lodówka), lemon-v13 (suszenie)
+  'ACI-195': ['water-bath', 'freezer', 'refrigerator', 'dry-storage', 'pressure-canning'], // miarka „cup” ≈ 237 ml (NIST): przelicznik niezależny od metody; p33: quince-v07, radish-v09 (lodówka), lemon-v13 (suszenie); p37: karty szybkowaru (fasola w sosie, kukurydza)
   'ACI-509': ['refrigerator', 'water-bath'], // ocet 5%, bez soku z cytryny: reguła ogólna pikli; p33 wymagane ostrzeżenie karty-ostrzeżenia cucumber-v11 (B18-D2)
   'SUS-327': ['water-bath', 'dry-storage'], // kwas parasorbowy w surowej jarzębinie: wymagane ostrzeżenie kart-ostrzeżeń rosehip-rowan-v02/v07 (kąpiel) i v10/v12 (suszenie), p33
   'SUS-337': ['freezer', 'dry-storage', 'refrigerator'], // pomyłki czosnku niedźwiedziego z konwalią i zimowitem: wild-garlic-v07 (mrożenie) i v11 (suszenie), p33; wymagane ostrzeżenie oleju wild-garlic-v09 (lodówka), p35
   'SUS-338': ['freezer', 'dry-storage', 'refrigerator'], // jaja tasiemca lisiego: wild-garlic-v07 (mrożenie) i v11 (suszenie), p33; mycie liści w oleju wild-garlic-v09 (lodówka), p35
-  'SZY-054': ['water-bath', 'brak'], // kąpiel wodna tylko dla żywności kwaśnej i według przetestowanego przepisu: karty-ostrzeżenia kąpieli (p33) i white-cabbage-v13
+  'SZY-054': ['water-bath', 'brak', 'pressure-canning'], // kąpiel wodna tylko dla żywności kwaśnej i według przetestowanego przepisu: karty-ostrzeżenia kąpieli (p33) i white-cabbage-v13; p37: sekcja „tylko szybkowar” pełnych kart szybkowaru
   'ACI-015': ['water-bath', 'refrigerator'], // kwaśna żywność powyżej 1000 stóp: blok wysokości w kartach pikli
-  'ACI-174': ['water-bath', 'refrigerator'], // pinta i quart USA w ml
-  'ACI-175': ['water-bath', 'refrigerator'], // reguła JarAtlas dla słoików metrycznych
+  'ACI-174': ['water-bath', 'refrigerator', 'pressure-canning'], // pinta i quart USA w ml; p37: czasy NCHFP szybkowaru też są dla słoików USA
+  'ACI-175': ['water-bath', 'refrigerator', 'pressure-canning'], // reguła JarAtlas dla słoików metrycznych; p37: źródło (NCHFP Selecting the Correct Processing Time) dotyczy wszystkich tabel, także szybkowaru
   'ACI-176': ['water-bath', 'refrigerator'], // przeliczenie stóp na metry
   'ACI-018': ['water-bath', 'refrigerator'], // ocet 5% do pikli
   'ACI-209': ['water-bath', 'refrigerator'], // ocet 5–7% (Penn State)
@@ -60,16 +60,36 @@ export const WSPOLNE = {
   'MIE-025': ['refrigerator', 'cool-storage'], // jw., p36
   'MIE-011': ['refrigerator', 'cool-storage'], // za dużo azotanu/azotynu toksyczne (UGA): wymagane ostrzeżenie kart-ostrzeżeń wędlin lodówkowych i szynki dojrzewającej pork-loin-ham-v11 (chłodne miejsce), p37
   'SLO-045': ['dry-storage', 'freezer'], // dynia niskokwasowa: karty-ostrzeżenia dyni kandyzowanej (suszenie) i dżemu/masła dyniowego (mrożenie), p36
+  // p37: blok po wekowaniu (strony ogólne NCHFP: Cooling Jars and Testing Jar Seals, Storing, Identifying and Handling Spoiled Canned Food, Recommended Jars and Lids)
+  // dotyczy każdego wekowania, więc pełne karty szybkowaru używają tych samych zdań co karty kąpieli wodnej (test T1-szybkowar)
+  'SLO-190': ['water-bath', 'pressure-canning'], 'SLO-191': ['water-bath', 'pressure-canning'], 'SLO-196': ['water-bath', 'pressure-canning'],
+  'SLO-197': ['water-bath', 'pressure-canning'], 'SLO-198': ['water-bath', 'pressure-canning'], 'SLO-210': ['water-bath', 'pressure-canning'],
+  'SLO-212': ['water-bath', 'pressure-canning'], 'SLO-223': ['water-bath', 'pressure-canning'], 'SLO-350': ['water-bath', 'pressure-canning'],
+  'SLO-322': ['water-bath', 'pressure-canning'], // reguła JarAtlas: otwarty słoik domowego przetworu wekowanego 1 tydzień w lodówce (P-13), niezależna od metody wekowania
+  'ACI-179': ['water-bath', 'pressure-canning'], // reguła JarAtlas: tabela tylko do pinty → słoik do 473 ml; p37 kukurydza kremowa (corn-v08, tylko pint)
+  'SZY-004': ['pressure-canning', 'brak'], // przetrwalniki trudno zniszczyć we wrzątku: pełne karty szybkowaru (p37) i karty-ostrzeżenia metody nieustalonej
+  'SZY-009': ['pressure-canning', 'brak'], // tyndalizacja zawodna: wymagane ostrzeżenie kart szybkowaru (dawna tyndalizacja w nazwie v0, p37) i karty-ostrzeżenia metody nieustalonej
   'SZY-001': ['pressure-canning', 'brak'], // szybkowar dla żywności niskokwasowej: sea-fish-v14 (szybkowar) i karty grzybów w słoikach (metoda nieustalona), p36
   'SZY-006': ['pressure-canning', 'brak'], // jw., p36
   'SZY-013': ['pressure-canning', 'brak'], // jw., p36
   'ACI-030': ['water-bath', 'brak'], // NCHFP: nie wekować grzybów dzikich: karty-ostrzeżenia grzybów w occie (kąpiel) i w słoikach (metoda nieustalona), p36
   'SUS-035': ['dry-storage', 'brak', 'water-bath', 'freezer'], // toksyny grzybów: karty suszenia grzybów (p28) i karta-ostrzeżenie kapusty z grzybami (white-cabbage-v13, metoda nieustalona)
-  'OLE-002': ['water-bath', 'freezer', 'refrigerator'], // czosnek w oleju: lodówka 40°F, 4 dni (NCHFP): ostrzeżenie papryki w oleju (bell-pepper-v09), karta mrożenia garlic-v17 (p24) i wymagane ostrzeżenie oleju szczypiorkowego leek-chives-v08 (p32)
-  'OLE-019': ['freezer', 'refrigerator'], // oleje z niezakwaszonymi ziołami nie w temperaturze pokojowej: karty mrożenia garlic-v09/v10 i wymagane ostrzeżenie leek-chives-v08 (p32)
-  'OLE-020': ['dry-storage', 'refrigerator'], // suszone zioła nie zabezpieczają oleju: susz czosnku garlic-v15 i olej szczypiorkowy leek-chives-v08 (p32)
-  'OLE-023': ['freezer', 'refrigerator'], // warunki toksyny botulinowej w oleju: karty mrożenia ziół/warzyw w oleju i olej lodówkowy leek-chives-v08 (p32)
-  'OLE-027': ['freezer', 'refrigerator', 'water-bath'], // zagrożenia nie widać, nie czuć: karty mrożenia w oleju, olej lodówkowy leek-chives-v08 (p32) i wymagane ostrzeżenie karty-ostrzeżenia eggplant-v04 (p34, B21; zdanie niezależne od metody)
+  'OLE-002': ['water-bath', 'freezer', 'refrigerator', 'cool-storage'], // czosnek w oleju: lodówka 40°F, 4 dni (NCHFP): ostrzeżenie papryki w oleju (bell-pepper-v09), karta mrożenia garlic-v17 (p24) i wymagane ostrzeżenie oleju szczypiorkowego leek-chives-v08 (p32); p37: wymagane ostrzeżenie oliwy rozmarynowo-czosnkowej garden-herbs-v06 (cool-storage w katalogu, karta: lodówka)
+  'OLE-019': ['freezer', 'refrigerator', 'cool-storage'], // oleje z niezakwaszonymi ziołami nie w temperaturze pokojowej: karty mrożenia garlic-v09/v10 i wymagane ostrzeżenie leek-chives-v08 (p32); p37: wymagane ostrzeżenie garden-herbs-v06
+  'OLE-020': ['dry-storage', 'refrigerator', 'cool-storage'], // suszone zioła nie zabezpieczają oleju: susz czosnku garlic-v15 i olej szczypiorkowy leek-chives-v08 (p32); p37: olej garden-herbs-v06
+  'OLE-023': ['freezer', 'refrigerator', 'cool-storage'], // warunki toksyny botulinowej w oleju: karty mrożenia ziół/warzyw w oleju i olej lodówkowy leek-chives-v08 (p32); p37: olej garden-herbs-v06
+  'OLE-027': ['freezer', 'refrigerator', 'water-bath', 'cool-storage'], // zagrożenia nie widać, nie czuć: karty mrożenia w oleju, olej lodówkowy leek-chives-v08 (p32) i wymagane ostrzeżenie karty-ostrzeżenia eggplant-v04 (p34, B21; zdanie niezależne od metody); p37: olej garden-herbs-v06
+  // p37 (autor C): oliwa rozmarynowo-czosnkowa garden-herbs-v06 ma w katalogu metodę cool-storage, a karta idzie za regułą B24-R1 (lodówka, następny dzień) jak oleje lodówkowe leek-chives-v08/wild-garlic-v09
+  'OLE-014': ['freezer', 'cool-storage'], // roztworu kwasu cytrynowego nie zastępować octem ani sokiem z cytryny: pasty z olejem (mrożenie) i olej garden-herbs-v06 (p37)
+  'OLE-018': ['refrigerator', 'cool-storage'], // metoda UGA z olejem 180 °F, lodówka: oleje lodówkowe i garden-herbs-v06 (p37)
+  'OLE-058': ['refrigerator', 'cool-storage'], // UGA: sterylizacja pojemników na oleje smakowe: oleje lodówkowe i garden-herbs-v06 (p37)
+  'OLE-076': ['refrigerator', 'cool-storage'], // BfR: nie robić olejów ziołowych na zapas: oleje lodówkowe (B24) i garden-herbs-v06 (p37)
+  'OLE-077': ['refrigerator', 'cool-storage'], // BfR: lodówka, zjeść najpóźniej następnego dnia (B24-R1): oleje lodówkowe i garden-herbs-v06 (p37)
+  'OLE-087': ['refrigerator', 'cool-storage'], // BfR 2016: nie przechowywać domowych ziół w oleju: oleje lodówkowe i garden-herbs-v06 (p37)
+  'ACI-136': ['water-bath', 'refrigerator'], // pH truskawek (FDA): syrop lodówkowy strawberry-v09 i dżem z rabarbarem strawberry-v12 (kąpiel), p37; zdanie niezależne od metody
+  'ACI-450': ['water-bath', 'dry-storage'], // Ask Extension: szypułki, liście i kora bzu trujące: karta-ostrzeżenie elderberry-elderflower-v01 (kąpiel) i suszone kwiaty bzu elderberry-elderflower-v10 (p37)
+  'SLO-489': ['refrigerator', 'dry-storage'], // NDSU: kwiaty rozpoznać przed jedzeniem: karty-ostrzeżenia syropów z kwiatów (lodówka) i suszone kwiaty elderberry-elderflower-v10, foraged-blossoms-v13 (p37)
+  'NAP-041': ['refrigerator', 'low-temp-pasteurization'], // OSU: ocet z pleśnią lub oznakami fermentacji wyrzucić bez próbowania: octy smakowe (lodówka) i reguła JarAtlas dla domowego octu jabłkowego artisanal-vinegars-v01 (p37)
   'ACI-947': ['water-bath', 'refrigerator'], // NCHFP Using Boiling Water Canners (p35): karty kąpieli i opcja wekowania w kartach kiszonek lodówkowych cucumber-v03, white-cabbage-v03
   'ACI-953': ['water-bath', 'refrigerator'], // NCHFP Using Boiling Water Canners (p35): karty kąpieli i opcja wekowania w kartach kiszonek lodówkowych cucumber-v03, white-cabbage-v03
   'ACI-954': ['water-bath', 'refrigerator'], // NCHFP Using Boiling Water Canners (p35): karty kąpieli i opcja wekowania w kartach kiszonek lodówkowych cucumber-v03, white-cabbage-v03

@@ -139,6 +139,9 @@ export const ZAMIENNIKI_MROZENIA = {
   'garden-herbs-v02': { 'SUS-058': null },
   'garden-herbs-v03': { 'SUS-058': null },
   'garden-herbs-v04': { 'SUS-058': null },
+  // p37 (autor C): pesto genovese z bazylii (NCHFP Freezing Pesto, OLE-042–044) i pesto z rukwi wodnej (reguła SLO-721): NCHFP nie podaje czasu dla pesto, jak garden-herbs-v16
+  'garden-herbs-v01': { 'SUS-058': null },
+  'vine-leaves-greens-v09': { 'SUS-058': null },
   'lemon-v17': { 'SLO-250': 'SLO-307', 'SLO-251': 'SLO-307', 'SLO-258': 'SLO-308', 'SUS-058': 'SLO-308' }, // przepis NCHFP: pojemniki do zamrażarki z wolną przestrzenią (SLO-307), rozmrażanie 24 h w lodówce, 1 rok (SLO-308); P3-1 D-043
 };
 export function brakiBlokuMrozenia(lista = wszystkie, zamienniki = ZAMIENNIKI_MROZENIA) {
@@ -173,6 +176,9 @@ export const ZAMIENNIKI_SUSZENIA = {
   'garden-herbs-v14': { 'SUS-001': 'SUS-031' },
   'parsnip-parsley-v10': { 'SUS-001': 'SUS-031' }, // natka pietruszki: zioła suszy się w 95–115 °F (SUS-031), nie w 140 °F jak warzywa (jak garden-herbs-v14; p30)
   'fennel-artichoke-v10': { 'SUS-001': 'SUS-031' },
+  // p37 (autor C): kwiaty suszone metodą NCHFP dla ziół („leaves, flowers or seeds”, SUS-076): temperatura ziół 95–115 °F (SUS-031), nie 140 °F
+  'elderberry-elderflower-v10': { 'SUS-001': 'SUS-031' },
+  'foraged-blossoms-v13': { 'SUS-001': 'SUS-031' },
   'pumpkin-v16': { 'SUS-001': 'SUS-034' },
   // p27 (S4): skóry owocowe mają temperaturę z przepisu NCHFP na skórę (SUS-027) albo na skórę z mango (SUS-030).
   'apple-v18': { 'SUS-001': 'SUS-027' },
@@ -216,4 +222,55 @@ test('T1-susz: usunięcie zdania z blokiem jest wykrywane (mutacja na karcie sus
   assert.ok(k, 'brak karty suszenia do testu mutacji');
   const bez = { ...k, karta: { ...k.karta, sekcje: k.karta.sekcje.map((s) => ({ ...s, akapity: s.akapity.filter((a) => !/SUS-024|SUS-065/.test(a)) })) } };
   assert.deepEqual(brakiBlokuSuszenia([bez]), [`pl/${k.id}: SUS-024,SUS-065`]);
+});
+
+// p37 (06, E1 szybkowar), test T1-szybkowar na wzór T1-mróz (p24) i T1-susz (p25): każda pełna karta wekowania w szybkowarze
+// (pressure-canning, poza kartą-ostrzeżeniem) ma blok bezpieczeństwa: przygotowanie szybkowaru (SZY-055), rodzaj szybkowaru i brak
+// procesów dla multicookera (SZY-056, SZY-062), korekta ciśnienia wg wysokości (SZY-063), przeliczenie stóp na metry (SZY-064),
+// koniec tabeli manometru (SZY-065), odpowietrzanie (SZY-057), liczenie czasu i czas od nowa po spadku ciśnienia (SZY-058),
+// naturalne opadanie ciśnienia (SZY-059), odczekanie i wyjęcie słoików (SZY-060), sprawdzanie manometru (SZY-061), studzenie i test
+// zamknięcia (SLO-196, SLO-197, SLO-210, SLO-212, SLO-223), przechowywanie (SLO-198), oznaki zepsucia (SLO-191, SLO-190) i postępowanie
+// z podejrzanym słoikiem (SLO-350); do tego twierdzenie przepisu produktu z tabelą ciśnień, w zdaniu o manometrze i w zdaniu o ciężarku.
+// Dlaczego: w szybkowarze brak jednego kroku (odpowietrzania, liczenia czasu od nowa, korekty wysokości, naturalnego stygnięcia) daje
+// niedogrzanie żywności niskokwasowej, czyli ryzyko jadu kiełbasianego (SZY-057, SZY-058, SZY-063); karty kąpieli i mrożenia bez bloku
+// przeszły już przegląd ręczny (C3-01, B8-01), więc blok sprawdza test, nie człowiek.
+const BLOK_SZYBKOWARU = ['SZY-055', 'SZY-056', 'SZY-057', 'SZY-058', 'SZY-059', 'SZY-060', 'SZY-061', 'SZY-062', 'SZY-063', 'SZY-064', 'SZY-065',
+  'SLO-196', 'SLO-197', 'SLO-198', 'SLO-210', 'SLO-212', 'SLO-223', 'SLO-191', 'SLO-190', 'SLO-350'];
+// Wariant → twierdzenie przepisu produktu (strona NCHFP produktu albo Penn State: przygotowanie, wolna przestrzeń, czasy, tabela ciśnień).
+export const PRZEPIS_SZYBKOWARU = {
+  'zucchini-v15': 'SZY-066', 'potato-sunchoke-v08': 'SZY-067', 'green-beans-v08': 'SZY-068', 'peas-chickpeas-v07': 'SZY-069',
+  'peas-chickpeas-v08': 'SZY-070', 'beans-soy-v09': 'SZY-070', 'beans-soy-v08': 'SZY-071', 'carrot-v09': 'SZY-072', 'carrot-v10': 'SZY-073',
+  'turnip-rutabaga-v07': 'SZY-074', 'asparagus-v06': 'SZY-075', 'corn-v06': 'SZY-076', 'corn-v08': 'SZY-077',
+  'pork-shoulder-neck-v10': 'SZY-078', 'beef-veal-v04': 'SZY-078', 'beef-veal-v06': 'SZY-079', 'poultry-v12': 'SZY-079',
+};
+export function brakiBlokuSzybkowaru(lista = wszystkie, przepisy = PRZEPIS_SZYBKOWARU) {
+  const braki = [];
+  for (const { lang, id, karta } of lista) {
+    const v = V.get(id);
+    if (v?.preservationMethod !== 'pressure-canning' || v.cardType === 'warning') continue;
+    const zd = [karta.wstep, ...karta.ostrzezenia.map((o) => o.tekst), ...karta.sekcje.flatMap((s) => s.akapity)];
+    const ids = new Set(zd.flatMap((a) => [...String(a).matchAll(/\[T:([^\]]*)\]/g)].flatMap((m) => m[1].split(',').map((s) => s.trim()))));
+    const brak = BLOK_SZYBKOWARU.filter((w) => !ids.has(w));
+    const p = przepisy[id];
+    if (!p) brak.push('brak przepisu w PRZEPIS_SZYBKOWARU');
+    else {
+      const zp = zd.filter((a) => new RegExp(`\\[T:[^\\]]*\\b${p}\\b`).test(a));
+      if (!zp.some((a) => /dial-gauge/i.test(a))) brak.push(`${p} (manometr)`);
+      if (!zp.some((a) => /weighted-gauge/i.test(a))) brak.push(`${p} (ciężarek)`);
+    }
+    if (brak.length) braki.push(`${lang}/${id}: ${brak.join(',')}`);
+  }
+  return braki;
+}
+
+test('T1-szybkowar: karta szybkowaru ma blok bezpieczeństwa (ciśnienie wg wysokości dla manometru i ciężarka, odpowietrzanie, czas, naturalne stygnięcie, test zamknięcia, przechowywanie, zepsucie, podejrzany słoik)', () => {
+  assert.deepEqual(brakiBlokuSzybkowaru(), []);
+});
+
+test('T1-szybkowar: usunięcie zdania z blokiem albo zdania z ciśnieniem dla ciężarka jest wykrywane (mutacja na karcie szybkowaru)', () => {
+  const k = wszystkie.find((x) => V.get(x.id)?.preservationMethod === 'pressure-canning' && V.get(x.id)?.cardType !== 'warning');
+  assert.ok(k, 'brak pełnej karty szybkowaru do testu mutacji');
+  const p = PRZEPIS_SZYBKOWARU[k.id];
+  const bez = { ...k, karta: { ...k.karta, sekcje: k.karta.sekcje.map((s) => ({ ...s, akapity: s.akapity.filter((a) => !/SZY-057|SZY-059/.test(a) && !(/weighted-gauge/i.test(a) && a.includes(p))) })) } };
+  assert.deepEqual(brakiBlokuSzybkowaru([bez]), [`${k.lang}/${k.id}: SZY-057,SZY-059,${p} (ciężarek)`]);
 });

@@ -64492,5 +64492,2095 @@
   "jednoZrodlo": true,
   "twierdzenie_en": "In Poland the yellow knight mushroom (Tricholoma equestre) is on the list of mushrooms permitted for sale or for producing mushroom products (consolidated text, Journal of Laws 2026 item 258); the grey knight (Tricholoma portentosum) is not on that list.",
   "uwaga": "Krytyczne (przegląd D-027 d B30 P3): zdanie można odczytać jako zielone światło. Dopuszczenie do obrotu w Polsce nie jest oceną bezpieczeństwa; urzędy FR, IT, ES i BfR oceniają inaczej (SLO-900–903). Jurysdykcja: tylko Polska. Wpis B30 (2026-11-02-jaratlas-b30-research), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst): P0 0, P1 0, P2 3 wprowadzone (SLO-900, SLO-901, SLO-902), P3 3 wprowadzone (OLE-092, SLO-903, SLO-904), OLE-091 bez zmian."
+ },
+ {
+  "id": "SZY-055",
+  "twierdzenie": "NCHFP Using Pressure Canners: przed przygotowaniem jedzenia sprawdzić, czy szybkowar działa prawidłowo (uszczelki i części czyścić według instrukcji producenta, rury odpowietrzające mają być drożne, bez zatkań i osadów); włożyć ruszt i gorącą wodę, a jeśli przepis nie podaje jej ilości, tyle, żeby sięgała 2–3 cale (ok. 5–7,6 cm); przy pakowaniu na gorąco wodę można wcześniej podgrzać do 180 °F (ok. 82 °C), uważając, żeby jej nie gotować, przy pakowaniu na surowo tylko do 140 °F (60 °C); słoiki z pokrywkami i pierścieniami stawiać chwytakiem na ruszcie, cały czas pionowo; zamknąć pokrywę szybkowaru, zostawiając ciężarek zdjęty z rury odpowietrzającej albo otwarty zawór (petcock).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Clean lid gaskets and other parts according to the manufacturer’s directions; make sure all vent pipes are clear and contain no trapped material or mineral deposits.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "If the amount of water is not specified with a given food, use enough water so it is 2 to 3 inches high in the canner.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "For hot packed foods, you can bring the water to 180 degrees F. ahead of time, but be careful not to boil the water or heat it long enough for the depth to decrease.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "For raw packed foods, the water should only be brought to 140 degrees F.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Place filled jars, fitted with lids and ring bands, on the jar rack in the canner, using a jar lifter.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Keep the jar upright at all times.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Fasten the canner lid securely. Leave the weight off the vent pipe or open the petcock.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenia: 2 cale = 5,08 cm, 3 cale = 7,62 cm; 180 °F = 82,2 °C; 140 °F = 60 °C (rachunek). Przepis produktu może podawać inną ilość wody; wtedy obowiązuje przepis.",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Using Pressure Canners: before preparing food, make sure the canner works properly (clean gaskets and parts as the manufacturer directs; vent pipes must be clear, with no trapped material or mineral deposits); put the rack and hot water in the canner, and if the amount is not given, enough water to be 2 to 3 inches (about 5 to 7.6 cm) deep; for hot packs the water may be heated to 180 °F (about 82 °C) ahead of time without boiling it, for raw packs only to 140 °F (60 °C); place jars with lids and bands on the rack with a jar lifter, always upright; fasten the canner lid with the weight off the vent pipe or the petcock open.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-056",
+  "twierdzenie": "NCHFP Using Pressure Canners: USDA zaleca, żeby szybkowar mieścił co najmniej 4 słoiki quart, aby uznać go za szybkowar do procesów opublikowanych przez USDA; szybkowar może mieć manometr (dial gauge), który wskazuje ciśnienie, albo ciężarek (weighted gauge), który je wskazuje i reguluje; ciężarek zwykle podskakuje kilka razy na minutę albo stale łagodnie się kołysze, gdy utrzymuje właściwe ciśnienie, a jak dokładnie – podaje instrukcja producenta; w szybkowarze z manometrem ciśnienie pokazuje tylko tarcza i tylko ją należy brać pod uwagę.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "The USDA recommends that a canner be large enough to hold at least 4 quart jars to be considered a pressure canner for the USDA published processes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Today’s pressure canner may have a dial gauge for indicating the pressure or a weighted gauge , for indicating and regulating the pressure.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Weighted gauges are usually designed to \"jiggle\" several times a minute or to keep rocking gently when they are maintaining the correct pressure.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Pressure readings on a dial gauge canner are only registered on the dial and only the dial should be used as an indication of the pressure in the canner.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Using Pressure Canners: USDA recommends that a canner hold at least 4 quart jars to be considered a pressure canner for the USDA published processes; a canner may have a dial gauge, which indicates the pressure, or a weighted gauge, which indicates and regulates it; a weighted gauge usually jiggles several times a minute or keeps rocking gently while it maintains the correct pressure, and the manufacturer’s directions say exactly how; on a dial-gauge canner only the dial shows the pressure and only the dial should be used.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-057",
+  "twierdzenie": "NCHFP Using Pressure Canners: powietrze uwięzione w szybkowarze obniża temperaturę uzyskiwaną przy danym ciśnieniu i prowadzi do niedogrzania, dlatego USDA zaleca odpowietrzać każdy szybkowar przez 10 minut przed podniesieniem ciśnienia: na najwyższym ogniu grzać, aż woda się zagotuje i para swobodnie wypływa w kształcie lejka z otwartej rury odpowietrzającej albo zaworu, i utrzymując najwyższy ogień pozwolić jej wypływać nieprzerwanie przez 10 minut; potem nałożyć przeciwwagę albo ciężarek na rurę odpowietrzającą albo zamknąć zawór; ciśnienie rośnie przez następne 3–10 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Air trapped in a pressure canner lowers the temperature obtained for a given pressure (for example, 10 or 15 pounds pressure) and results in underprocessing.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "To be safe, USDA recommends that all pressure canners must be vented 10 minutes before they are pressurized.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Turn the heat setting to its highest position. Heat until the water boils and steam flows freely in a funnel-shape from the open vent pipe or petcock.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "While maintaining the high heat setting, let the steam flow (exhaust) continuously for 10 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "After this venting, or exhausting, of the canner, place the counterweight or weighted gauge on the vent pipe, or close the petcock. The canner will pressurize during the next 3 to 10 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Using Pressure Canners: air trapped in a pressure canner lowers the temperature reached at a given pressure and causes underprocessing, so USDA recommends venting every pressure canner for 10 minutes before pressurizing it: heat on high until the water boils and steam flows freely in a funnel shape from the open vent pipe or petcock, and, keeping the heat on high, let it flow continuously for 10 minutes; then put the counterweight or weighted gauge on the vent pipe or close the petcock; the canner pressurizes during the next 3 to 10 minutes.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-058",
+  "twierdzenie": "NCHFP Using Pressure Canners: czas wekowania liczy się od chwili, gdy manometr pokaże zalecane ciśnienie, a w szybkowarze bez manometru od chwili, gdy ciężarek zacznie podskakiwać albo kołysać się tak, jak opisuje producent; ogień regulować tak, żeby ciśnienie było stałe, równe właściwemu albo nieco wyższe; spadek ciśnienia w dowolnej chwili może skutkować niedogrzaniem, czyli niebezpieczną żywnością; jeśli ciśnienie w dowolnej chwili spadnie poniżej zalecanego, trzeba z powrotem doprowadzić do niego szybkowar i liczyć czas od nowa, od początku (cały pierwotny czas); szybkie i duże wahania ciśnienia mogą powodować utratę płynu ze słoików.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Start timing the process when the pressure reading on the dial gauge indicates that the recommended pressure has been reached, or, for canners without dial gauges, when the weighted gauge begins to jiggle or rock as the manufacturer describes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Regulate the heat under the canner to maintain a steady pressure at, or slightly above, the correct gauge pressure.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Loss of pressure at any time can result in underprocessing, or unsafe food.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "If at any time pressure goes below the recommended amount, bring the canner back to pressure and begin the timing of the process over, from the beginning (using the total original process time).",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Quick and large pressure variations during processing may cause unnecessary liquid losses from jars.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Using Pressure Canners: start timing when the dial gauge shows the recommended pressure or, on canners without a dial gauge, when the weighted gauge starts to jiggle or rock as the manufacturer describes; adjust the heat to keep a steady pressure at or slightly above the correct pressure; loss of pressure at any time can cause underprocessing, i.e. unsafe food; if at any time the pressure drops below the recommended amount, bring the canner back to pressure and start timing again from the beginning (the full original time); quick, large pressure changes can cause liquid loss from jars.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-059",
+  "twierdzenie": "NCHFP Using Pressure Canners: po upływie czasu wyłączyć ogień, w miarę możliwości zdjąć szybkowar z palnika elektrycznego (podnosić, nie przesuwać; można też zostawić go na miejscu) i pozwolić mu stygnąć naturalnie, bo stygnąc, traci ciśnienie; nie chłodzić szybkowaru na siłę: wymuszone chłodzenie, np. zimną bieżącą wodą albo przez otwarcie rury odpowietrzającej przed pełnym spadkiem ciśnienia, może skutkować zepsuciem żywności, utratą płynu ze słoików i nieszczelnymi zamknięciami; nawet gdy manometr pokazuje zero, ciężarek zdejmować ostrożnie, najpierw lekko go przechylając, żeby sprawdzić, czy nie uchodzi para; nie otwierać pokrywy na siłę, jeśli blokada pokrywy się nie zwolniła.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "When the timed process is completed, turn off the heat, remove the canner from the heat (electric burner) if possible, and let the canner cool down naturally.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Lift the canner to move it; do not slide the canner.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "While the canner is cooling, it is also de-pressurizing. Do not force cool the canner. Forced cooling may result in food spoilage.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Cooling the canner with cold running water or opening the vent pipe before the canner is fully depressurized are types of forced cooling. They will also cause loss of liquid from jars and seal failures.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Even after a dial gauge canner has cooled until the dial reads zero pounds pressure, be cautious in removing the weight from the vent pipe. Tilt the weight slightly to make sure no steam escapes before pulling it all the way off.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Do not force the lid open if the cover locks are not released.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Using Pressure Canners: when the time is up, turn off the heat, remove the canner from an electric burner if possible (lift it, do not slide it; it may also stay in place) and let it cool down naturally, which also depressurizes it; do not force-cool the canner: forced cooling, such as cold running water or opening the vent pipe before the canner is fully depressurized, can cause food spoilage, liquid loss from jars and seal failures; even when the dial reads zero, remove the weight cautiously, tilting it slightly first to make sure no steam escapes; do not force the lid open if the cover lock has not released.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-060",
+  "twierdzenie": "NCHFP Using Pressure Canners: gdy ciśnienie całkowicie spadnie, zdjąć ciężarek z rury odpowietrzającej albo otworzyć zawór, odczekać 10 minut, potem odpiąć pokrywę i zdjąć ją ostrożnie, unosząc spodem od siebie, żeby para nie poparzyła twarzy; słoiki wyjmować chwytakiem po jednym, nie przechylając ich, i stawiać na ręczniku albo kratce, z odstępem co najmniej 1 cal (ok. 2,5 cm) między słoikami, nie na zimnej powierzchni ani w zimnym przeciągu; zostawić je w spokoju do ostygnięcia na 12–24 godziny; nie dokręcać pierścieni ani nie naciskać środka płaskiej pokrywki, dopóki słoik całkowicie nie ostygnie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "After the canner is completely depressurized, remove the weight from the vent pipe or open the petcock. Wait 10 minutes; then unfasten the lid and remove it carefully.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Lift the lid with the underside away from you so that the steam coming out of the canner does not burn your face.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Using a jar lifter, remove the jars one at a time, being careful not to tilt the jars.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Carefully place them directly onto a towel or cake cooling rack, leaving at least one inch of space between the jars during cooling.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Avoid placing the jars on a cold surface or in a cold draft.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Let the jars sit undisturbed while they cool, from 12 to 24 hours.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Do not tighten ring bands on the lids or push down on the center of the flat metal lid until the jar is completely cooled.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie: 1 cal = 2,54 cm (rachunek).",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Using Pressure Canners: when the canner is completely depressurized, remove the weight from the vent pipe or open the petcock, wait 10 minutes, then unfasten the lid and remove it carefully, lifting it with the underside away from you so the steam does not burn your face; lift the jars out one at a time with a jar lifter without tilting them and place them on a towel or cooling rack, at least 1 inch (about 2.5 cm) apart, not on a cold surface or in a cold draft; let them cool undisturbed for 12 to 24 hours; do not tighten the bands or press the centre of the flat lid until the jar has cooled completely.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-061",
+  "twierdzenie": "NCHFP Using Pressure Canners: manometr (dial gauge) sprawdzać pod względem dokładności co roku przed użyciem; jeśli zawyża albo zaniża o więcej niż 2 funty przy 5, 10 lub 15 funtach ciśnienia, wymienić go; przy błędzie mniejszym niż 2 funty można wprowadzić poprawki, żeby mieć w szybkowarze wymagane ciśnienie; niedokładny manometr to jedna z przyczyn poważnych błędów procesu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "An inaccurate dial gauge is used. Dial gauges should be checked for accuracy each year before use.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "If the gauge reads high or low by more than two pounds at 5, 10 or 15 pounds pressure, replace it.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "If it is less than two pounds off in accuracy, you can make adjustments needed to be sure you have the required pressure in your canner.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Karty nie opisują, jak wprowadzać poprawkę przy błędzie mniejszym niż 2 funty (strona tego nie podaje); karta mówi tylko, że NCHFP to dopuszcza.",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Using Pressure Canners: check a dial gauge for accuracy every year before use; if it reads high or low by more than 2 pounds at 5, 10 or 15 pounds pressure, replace it; if it is off by less than 2 pounds, adjustments can be made to be sure of the required pressure in the canner; an inaccurate dial gauge is one cause of serious process errors.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-062",
+  "twierdzenie": "NCHFP (Canning in Electric Multi-Cookers): procesy wekowania USDA nie są obecnie zalecane w elektrycznych wielofunkcyjnych urządzeniach ciśnieniowych (multi-cooker), nawet gdy instrukcja producenta podaje wekowanie; procesy ciśnieniowe NCHFP nie zostały opracowane dla takich urządzeń, a rodzaj szybkowaru ma znaczenie: zalecenia ustalono dla szybkowarów do wekowania stawianych na kuchence, mieszczących cztery lub więcej słoików quart stojących pionowo.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/newsflash/canning-in-electric-multi-cookers",
+    "miejsce": "NCHFP (nchfp.uga.edu): Newsflash, Canning in Electric Multi-Cookers",
+    "cytat": "Even if there are instructions for pressure canning in the manufacturer’s directions, we do not support the use of the USDA canning processes in the electric, multi-cooker appliances",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "40e0d6ab2bea"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/newsflash/canning-in-electric-multi-cookers",
+    "miejsce": "NCHFP (nchfp.uga.edu): Newsflash, Canning in Electric Multi-Cookers",
+    "cytat": "Our pressure process directions have not been developed for that type of appliance, and the canner being used does matter.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "40e0d6ab2bea"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/newsflash/canning-in-electric-multi-cookers",
+    "miejsce": "NCHFP (nchfp.uga.edu): Newsflash, Canning in Electric Multi-Cookers",
+    "cytat": "Our recommendations were determined for stovetop pressure canners which hold four or more quart-size jars standing upright.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "40e0d6ab2bea"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/newsflash/canning-in-electric-multi-cookers",
+    "miejsce": "NCHFP (nchfp.uga.edu): Newsflash, Canning in Electric Multi-Cookers",
+    "cytat": "What we do know is that our canning processes are not recommended for use in electric pressure multi-cookers at this time.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "40e0d6ab2bea"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP (Canning in Electric Multi-Cookers): USDA canning processes are not recommended at this time in electric pressure multi-cookers, even if the manufacturer’s directions include canning; NCHFP pressure processes were not developed for such appliances, and the canner used matters: the recommendations were determined for stovetop pressure canners that hold four or more quart jars standing upright.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-063",
+  "twierdzenie": "NCHFP Using Pressure Canners: poważne błędy procesu w szybkowarze powstają, gdy szybkowar pracuje powyżej poziomu morza bez korekty ciśnienia: na większej wysokości ciśnienie (a więc temperatura) wewnątrz szybkowaru jest niższe, więc im wyżej, tym wyższe ciśnienie trzeba stosować, według rzetelnej instrukcji wekowania.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "The elevation at which the canner is operated is above sea level and adjustments in pressure are not made.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Internal canner pressures (and therefore temperatures) are lower at higher elevations. Canners must be operated at increased pressures as the elevation increases.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8be40e3ea09b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Using Pressure Canners: serious process errors occur when a canner is used above sea level without adjusting the pressure: at higher elevations the pressure (and therefore the temperature) inside the canner is lower, so canners must be operated at higher pressures as elevation increases, following reliable canning instructions.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-064",
+  "twierdzenie": "1 stopa = 0,3048 m dokładnie, więc 1000 stóp = 304,8 m, 2000 stóp = 609,6 m, 4000 stóp = 1219,2 m, 6000 stóp = 1828,8 m, 8000 stóp = 2438,4 m. Karty szybkowaru podają te granice w metrach zaokrąglone w dół: 1000 stóp jako 300 m, 2000 stóp jako 600 m, 4000 stóp jako 1200 m, 6000 stóp jako 1800 m, 8000 stóp jako 2400 m.",
+  "zrodla": [
+   {
+    "adres": "https://nvlpubs.nist.gov/nistpubs/hb/2025/NIST.HB.44-2025.pdf",
+    "miejsce": "NIST Handbook 44 (2025), Appendix C (definicja stopy międzynarodowej)",
+    "cytat": "1 foot = 0.3048 meter",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "9ef2e2eeafe6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Rachunek. Zaokrąglenie w dół przenosi miejsce tuż poniżej granicy do przedziału z wyższym ciśnieniem, a granicę 8000 stóp (koniec tabeli manometru) przesuwa niżej (strona bezpieczna). Wzór ACI-176 (kąpiel wodna).",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "1 foot = 0.3048 m exactly, so 1000 ft = 304.8 m, 2000 ft = 609.6 m, 4000 ft = 1219.2 m, 6000 ft = 1828.8 m, 8000 ft = 2438.4 m. Pressure-canning cards give these limits in metres rounded down: 1000 ft as 300 m, 2000 ft as 600 m, 4000 ft as 1200 m, 6000 ft as 1800 m, 8000 ft as 2400 m.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-065",
+  "twierdzenie": "Tabele NCHFP i Penn State dla szybkowaru z manometrem (dial gauge) w przepisach kart szybkowaru JarAtlas podają ciśnienie tylko do 8000 stóp (ostatnia kolumna: 6001–8000 stóp). Reguła JarAtlas (ostrożna): powyżej 8000 stóp (powyżej 2400 m) karta nie podaje ciśnienia dla szybkowaru z manometrem, więc nie podaje tam dla niego procesu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatoes with Okra or Zucchini",
+    "cytat": "0 - 2,000 ft 2,001 - 4,000 ft 4,001 - 6,000 ft 6,001 - 8,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1bc5e111da05"
+   },
+   {
+    "adres": "https://extension.psu.edu/lets-preserve-root-vegetables-beets-carrots-turnips-and-rutabagas",
+    "miejsce": "Penn State Extension: Let’s Preserve: Root Vegetables (Beets, Carrots, Turnips, and Rutabagas)",
+    "cytat": "0 to 2,000 feet 2,001 to 4,000 feet 4,001 to 6,000 feet 6,001 to 8,000 feet Dial Gauge Canner 11 psi 12 psi 13 psi 14 psi",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "055af743ca71"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat – Strips, Cubes or Chunks",
+    "cytat": "0 - 2,000 ft 2,001 - 4,000 ft 4,001 - 6,000 ft 6,001 - 8,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "dafdedbc5069"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ta sama kolumna 6,001 - 8,000 ft jest ostatnia na stronach wszystkich przepisów NCHFP z kart p37 (sprawdzone 2026-11-02 na kopiach) i w tabeli 1 Penn State („6,001 to 8,000 feet”). Druga część to reguła JarAtlas (kierunek ostrożny), nie zdanie źródła.",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP and Penn State dial-gauge tables in the recipes of JarAtlas pressure-canning cards give pressures only up to 8000 ft (last column: 6001–8000 ft). JarAtlas rule (cautious): above 8000 ft (above 2400 m) the card gives no pressure for a dial-gauge canner, so it gives no process for it there.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-066",
+  "twierdzenie": "NCHFP Tomatoes with Okra or Zucchini (wersja z cukinią): ok. 3 funty pomidorów na 1 funt cukinii; pomidory i cukinię umyć; pomidory zanurzyć we wrzątku na 30–60 sekund albo do pęknięcia skórki, potem w zimnej wodzie, zdjąć skórkę, usunąć gniazda i pokroić w ćwiartki; cukinię pokroić w plastry albo kostkę; pomidory doprowadzić do wrzenia i gotować na wolnym ogniu 10 minut, dodać cukinię i gotować łagodnie 5 minut; opcjonalnie 1 łyżeczka soli na quart do słoika; napełnić słoiki mieszaniną, zostawiając 1 cal (ok. 2,5 cm) wolnej przestrzeni; wariant: do każdego słoika można dodać cztery lub pięć cebulek perłowych albo dwa plastry cebuli; tylko pakowanie na gorąco: pint 30 min, quart 35 min; szybkowar z manometrem (dial gauge): 11 lb przy 0–2000 stóp, 12 lb przy 2001–4000 stóp, 13 lb przy 4001–6000 stóp, 14 lb przy 6001–8000 stóp; szybkowar z ciężarkiem (weighted gauge): 10 lb przy 1000 stóp lub mniej, 15 lb powyżej 1000 stóp; przepis jest żywnością niskokwasową, musi być wekowany w szybkowarze i przy wekowaniu według przepisu nie wymaga dodatku kwasu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatoes with Okra or Zucchini",
+    "cytat": "Use about 3 pounds of tomatoes to 1 pound of okra or zucchini.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1bc5e111da05"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatoes with Okra or Zucchini",
+    "cytat": "Wash tomatoes and okra or zucchini. Dip tomatoes in boiling water 30 to 60 seconds or until skins split. Then dip in cold water, slip off skins and remove cores, and quarter.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1bc5e111da05"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatoes with Okra or Zucchini",
+    "cytat": "Slice or cube zucchini if used. Bring tomatoes to a boil and simmer 10 minutes. Add okra or zucchini and boil gently 5 minutes. Add 1 teaspoon of salt for each quart to the jars, if desired. Fill jars with mixture, leaving 1-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1bc5e111da05"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatoes with Okra or Zucchini",
+    "cytat": "Variation: You may add four or five pearl onions or two onion slices to each jar.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1bc5e111da05"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatoes with Okra or Zucchini",
+    "cytat": "Hot Pints 30 min 11 lb 12 lb 13 lb 14 lb Quarts 35 11 12 13 14",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1bc5e111da05"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatoes with Okra or Zucchini",
+    "cytat": "Hot Pints 30 min 10 lb 15 lb Quarts 35 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1bc5e111da05"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatoes with Okra or Zucchini",
+    "cytat": "0 - 2,000 ft 2,001 - 4,000 ft 4,001 - 6,000 ft 6,001 - 8,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1bc5e111da05"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatoes with Okra or Zucchini",
+    "cytat": "0 - 1,000 ft Above 1,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1bc5e111da05"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatoes with Okra or Zucchini",
+    "cytat": "This recipe is considered a low-acid food and must be processed in a pressure canner for safety.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1bc5e111da05"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatoes with Okra or Zucchini",
+    "cytat": "this recipe does not need added acid when processed as directed.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1bc5e111da05"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony. Okra pominięta (karta tylko z cukinią).",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Tomatoes with Okra or Zucchini (zucchini version): about 3 pounds of tomatoes to 1 pound of zucchini; wash tomatoes and zucchini; dip tomatoes in boiling water 30 to 60 seconds or until the skins split, then in cold water, slip off skins, remove cores and quarter; slice or cube the zucchini; bring tomatoes to a boil and simmer 10 minutes, add zucchini and boil gently 5 minutes; optionally 1 teaspoon of salt per quart in the jar; fill jars with the mixture leaving 1 inch (about 2.5 cm) of headspace; variation: four or five pearl onions or two onion slices may be added to each jar; hot pack only: pints 30 min, quarts 35 min; dial-gauge canner: 11 lb at 0–2000 ft, 12 lb at 2001–4000 ft, 13 lb at 4001–6000 ft, 14 lb at 6001–8000 ft; weighted-gauge canner: 10 lb at 1000 ft or less, 15 lb above 1000 ft; the recipe is a low-acid food, must be processed in a pressure canner and needs no added acid when processed as directed.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-067",
+  "twierdzenie": "NCHFP Potatoes, White – Cubed or Whole: wybierać małe do średnich, dojrzałe ziemniaki dobrej jakości do gotowania; bulwy przechowywane poniżej 45 °F (ok. 7 °C) mogą ciemnieć w słoikach; do pakowania w całości wybierać ziemniaki o średnicy 1–2 cale (ok. 2,5–5 cm); umyć i obrać, włożyć do roztworu kwasu askorbinowego, żeby nie ciemniały; opcjonalnie pokroić w kostkę 1/2 cala (ok. 1,3 cm); odsączyć, gotować 2 minuty we wrzątku i znów odsączyć; całe ziemniaki gotować 10 minut i odsączyć; opcjonalnie 1 łyżeczka soli na quart do słoika; napełnić słoiki gorącymi ziemniakami i zalać ŚWIEŻYM wrzątkiem, przykrywając wszystkie kawałki i zostawiając 1 cal (ok. 2,5 cm) wolnej przestrzeni; nie używać wody, w której gotowały się ziemniaki (za dużo skrobi); tylko pakowanie na gorąco: pint 35 min, quart 40 min; szybkowar z manometrem (dial gauge): 11 lb przy 0–2000 stóp, 12 lb przy 2001–4000 stóp, 13 lb przy 4001–6000 stóp, 14 lb przy 6001–8000 stóp; szybkowar z ciężarkiem (weighted gauge): 10 lb przy 1000 stóp lub mniej, 15 lb powyżej 1000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/potatoes-white-cubed-or-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Potatoes, White – Cubed or Whole",
+    "cytat": "Select small to medium-size mature potatoes of ideal quality for cooking. Tubers stored below 45ºF may discolor when canned. Choose potatoes 1 to 2 inches in diameter if they are to be packed whole.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b690c1fb7800"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/potatoes-white-cubed-or-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Potatoes, White – Cubed or Whole",
+    "cytat": "Wash and peel potatoes. Place in ascorbic acid solution to prevent darkening. If desired, cut into 1/2-inch cubes. Drain. Cook 2 minutes in boiling water and drain again. For whole potatoes, boil 10 minutes and drain. Add 1 teaspoon of salt per quart to the jar, if desired.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b690c1fb7800"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/potatoes-white-cubed-or-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Potatoes, White – Cubed or Whole",
+    "cytat": "Cover hot potatoes with FRESH boiling water, leaving 1-inch headspace and covering all pieces of potato.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b690c1fb7800"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/potatoes-white-cubed-or-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Potatoes, White – Cubed or Whole",
+    "cytat": "Do not use the water you cooked the potatoes in; it contains too much starch.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b690c1fb7800"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/potatoes-white-cubed-or-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Potatoes, White – Cubed or Whole",
+    "cytat": "Hot Pints 35 min 11 lb 12 lb 13 lb 14 lb Quarts 40 11 12 13 14",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b690c1fb7800"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/potatoes-white-cubed-or-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Potatoes, White – Cubed or Whole",
+    "cytat": "Hot Pints 35 min 10 lb 15 lb Quarts 40 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b690c1fb7800"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/potatoes-white-cubed-or-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Potatoes, White – Cubed or Whole",
+    "cytat": "0 - 2,000 ft 2,001 - 4,000 ft 4,001 - 6,000 ft 6,001 - 8,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b690c1fb7800"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/potatoes-white-cubed-or-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Potatoes, White – Cubed or Whole",
+    "cytat": "0 - 1,000 ft Above 1,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b690c1fb7800"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony. Źródło każe najpierw napełnić słoiki ziemniakami z wolną przestrzenią nie większą niż 1 cal, potem zalać wodą do 1 cala; twierdzenie podaje wynik (1 cal), bez słowa granicy.",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Potatoes, White – Cubed or Whole: choose small to medium-size mature potatoes of ideal quality for cooking; tubers stored below 45 °F (about 7 °C) may discolor when canned; for whole packing choose potatoes 1 to 2 inches (about 2.5 to 5 cm) in diameter; wash and peel, place in an ascorbic acid solution to prevent darkening; optionally cut into 1/2-inch (about 1.3 cm) cubes; drain, cook 2 minutes in boiling water and drain again; boil whole potatoes 10 minutes and drain; optionally 1 teaspoon of salt per quart in the jar; fill jars with hot potatoes and cover with FRESH boiling water, covering all pieces and leaving 1 inch (about 2.5 cm) of headspace; do not use the water the potatoes cooked in (too much starch); hot pack only: pints 35 min, quarts 40 min; dial-gauge canner: 11 lb at 0–2000 ft, 12 lb at 2001–4000 ft, 13 lb at 4001–6000 ft, 14 lb at 6001–8000 ft; weighted-gauge canner: 10 lb at 1000 ft or less, 15 lb above 1000 ft.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-068",
+  "twierdzenie": "NCHFP Beans, Snap and Italian – Pieces (Green and Wax): wybierać pełne, ale delikatne i chrupkie strąki, chore i zardzewiałe wyrzucić; fasolkę umyć i obciąć końce; zostawić w całości albo pokroić lub połamać na kawałki 1 cal (ok. 2,5 cm); na gorąco: zalać wrzątkiem i gotować 5 minut, luźno napełnić słoiki, opcjonalnie 1 łyżeczka soli do wekowania na quart do słoika, zalać gorącym płynem z gotowania, zostawiając 1 cal wolnej przestrzeni; na surowo: ciasno napełnić słoiki surową fasolką, opcjonalnie sól jak wyżej, zalać wrzątkiem, zostawiając 1 cal wolnej przestrzeni; pakowanie na gorąco i na surowo: pint 20 min, quart 25 min; szybkowar z manometrem (dial gauge): 11 lb przy 0–2000 stóp, 12 lb przy 2001–4000 stóp, 13 lb przy 4001–6000 stóp, 14 lb przy 6001–8000 stóp; szybkowar z ciężarkiem (weighted gauge): 10 lb przy 1000 stóp lub mniej, 15 lb powyżej 1000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Snap and Italian – Pieces (Green and Wax)",
+    "cytat": "Select filled but tender, crisp pods. Remove and discard diseased and rusty pods.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ca8b056a6b28"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Snap and Italian – Pieces (Green and Wax)",
+    "cytat": "Wash beans and trim ends. Leave whole or cut or snap into 1-inch pieces.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ca8b056a6b28"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Snap and Italian – Pieces (Green and Wax)",
+    "cytat": "Cover with boiling water; boil 5 minutes. Fill jars loosely with beans, leaving 1-inch headspace. Add 1 teaspoon of canning salt per quart to the jar, if desired. Cover beans with hot cooking liquid, leaving 1-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ca8b056a6b28"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Snap and Italian – Pieces (Green and Wax)",
+    "cytat": "Fill jars tightly with raw beans, leaving 1-inch headspace. Add 1 teaspoon of canning salt per quart to the jar, if desired. Add boiling water, leaving 1-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ca8b056a6b28"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Snap and Italian – Pieces (Green and Wax)",
+    "cytat": "Hot and Raw Pints 20 min 11 lb 12 lb 13 lb 14 lb Quarts 25 11 12 13 14",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ca8b056a6b28"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Snap and Italian – Pieces (Green and Wax)",
+    "cytat": "Hot and Raw Pints 20 min 10 lb 15 lb Quarts 25 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ca8b056a6b28"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Snap and Italian – Pieces (Green and Wax)",
+    "cytat": "0 - 2,000 ft 2,001 - 4,000 ft 4,001 - 6,000 ft 6,001 - 8,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ca8b056a6b28"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Snap and Italian – Pieces (Green and Wax)",
+    "cytat": "0 - 1,000 ft Above 1,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "ca8b056a6b28"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony.",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Beans, Snap and Italian – Pieces (Green and Wax): choose filled but tender, crisp pods, discard diseased and rusty ones; wash and trim ends; leave whole or cut or snap into 1-inch (about 2.5 cm) pieces; hot pack: cover with boiling water and boil 5 minutes, fill jars loosely, optionally 1 teaspoon of canning salt per quart in the jar, cover with hot cooking liquid leaving 1 inch of headspace; raw pack: fill jars tightly with raw beans, optional salt as above, add boiling water leaving 1 inch of headspace; hot and raw pack: pints 20 min, quarts 25 min; dial-gauge canner: 11 lb at 0–2000 ft, 12 lb at 2001–4000 ft, 13 lb at 4001–6000 ft, 14 lb at 6001–8000 ft; weighted-gauge canner: 10 lb at 1000 ft or less, 15 lb above 1000 ft.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-069",
+  "twierdzenie": "NCHFP Peas, Green or English, Shelled: wybierać pełne strąki z młodymi, delikatnymi, słodkimi nasionami, chore strąki wyrzucić; groszek wyłuskać i umyć; opcjonalnie 1 łyżeczka soli na quart do słoika; na gorąco: zalać wrzątkiem, doprowadzić do wrzenia w rondlu i gotować 2 minuty, luźno napełnić słoiki gorącym groszkiem i dolać płynu z gotowania, zostawiając 1 cal (ok. 2,5 cm) wolnej przestrzeni; na surowo: napełnić słoiki surowym groszkiem, zalać wrzątkiem, zostawiając 1 cal wolnej przestrzeni, nie potrząsać ani nie dociskać groszku; pakowanie na gorąco i na surowo: pint albo quart 40 min; szybkowar z manometrem (dial gauge): 11 lb przy 0–2000 stóp, 12 lb przy 2001–4000 stóp, 13 lb przy 4001–6000 stóp, 14 lb przy 6001–8000 stóp; szybkowar z ciężarkiem (weighted gauge): 10 lb przy 1000 stóp lub mniej, 15 lb powyżej 1000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/peas-green-or-english-shelled/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peas, Green or English, Shelled",
+    "cytat": "Select filled pods containing young, tender, sweet seeds. Discard diseased pods.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6d20b1c2f98e"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/peas-green-or-english-shelled/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peas, Green or English, Shelled",
+    "cytat": "Shell and wash peas. Add 1 teaspoon of salt per quart to the jar, if desired.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6d20b1c2f98e"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/peas-green-or-english-shelled/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peas, Green or English, Shelled",
+    "cytat": "Cover with boiling water. Bring to a boil in a saucepan, and boil 2 minutes. Fill jars loosely with hot peas, and add cooking liquid, leaving 1-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6d20b1c2f98e"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/peas-green-or-english-shelled/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peas, Green or English, Shelled",
+    "cytat": "Fill jars with raw peas, add boiling water, leaving 1-inch headspace. Do not shake or press down peas.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6d20b1c2f98e"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/peas-green-or-english-shelled/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peas, Green or English, Shelled",
+    "cytat": "Hot and Raw Pints or Quarts 40 min 11 lb 12 lb 13 lb 14 lb",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6d20b1c2f98e"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/peas-green-or-english-shelled/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peas, Green or English, Shelled",
+    "cytat": "Hot and Raw Pints or Quarts 40 min 10 lb 15 lb",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6d20b1c2f98e"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/peas-green-or-english-shelled/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peas, Green or English, Shelled",
+    "cytat": "0 - 2,000 ft 2,001 - 4,000 ft 4,001 - 6,000 ft 6,001 - 8,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6d20b1c2f98e"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/peas-green-or-english-shelled/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Peas, Green or English, Shelled",
+    "cytat": "0 - 1,000 ft Above 1,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6d20b1c2f98e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony.",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Peas, Green or English, Shelled: choose filled pods with young, tender, sweet seeds, discard diseased pods; shell and wash the peas; optionally 1 teaspoon of salt per quart in the jar; hot pack: cover with boiling water, bring to a boil in a saucepan and boil 2 minutes, fill jars loosely with hot peas and add cooking liquid leaving 1 inch (about 2.5 cm) of headspace; raw pack: fill jars with raw peas, add boiling water leaving 1 inch of headspace, do not shake or press down the peas; hot and raw pack: pints or quarts 40 min; dial-gauge canner: 11 lb at 0–2000 ft, 12 lb at 2001–4000 ft, 13 lb at 4001–6000 ft, 14 lb at 6001–8000 ft; weighted-gauge canner: 10 lb at 1000 ft or less, 15 lb above 1000 ft.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-070",
+  "twierdzenie": "NCHFP Beans or Peas – Shelled, Dried, All Varieties: wybierać dojrzałe, suche nasiona, przebarwione wyrzucić; suchą fasolę albo groch zalać wodą w dużym garnku i moczyć 12–18 godzin w chłodnym miejscu, wodę odlać; szybciej: przebraną i umytą fasolę zalać wrzątkiem w rondlu, gotować 2 minuty, zdjąć z ognia, moczyć 1 godzinę i odcedzić; nasiona namoczone którymkolwiek sposobem zalać świeżą wodą i gotować 30 minut; opcjonalnie 1/2 łyżeczki soli na pint albo 1 łyżeczka na quart do słoika; napełnić słoiki fasolą albo grochem i wodą z gotowania, zostawiając 1 cal (ok. 2,5 cm) wolnej przestrzeni; tylko pakowanie na gorąco: pint 75 min, quart 90 min; szybkowar z manometrem (dial gauge): 11 lb przy 0–2000 stóp, 12 lb przy 2001–4000 stóp, 13 lb przy 4001–6000 stóp, 14 lb przy 6001–8000 stóp; szybkowar z ciężarkiem (weighted gauge): 10 lb przy 1000 stóp lub mniej, 15 lb powyżej 1000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-or-peas-shelled-dried-all-varieties/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans or Peas – Shelled, Dried, All Varieties",
+    "cytat": "Select mature, dry seeds. Sort out and discard discolored seeds.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "defd3330378a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-or-peas-shelled-dried-all-varieties/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans or Peas – Shelled, Dried, All Varieties",
+    "cytat": "Place dried beans or peas in a large pot and cover with water. Soak 12 to 18 hours in a cool place. Drain water.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "defd3330378a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-or-peas-shelled-dried-all-varieties/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans or Peas – Shelled, Dried, All Varieties",
+    "cytat": "To quickly hydrate beans, you may cover sorted and washed beans with boiling water in a saucepan. Boil 2 minutes, remove from heat, soak 1 hour and drain. Cover beans soaked by either method with fresh water and boil 30 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "defd3330378a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-or-peas-shelled-dried-all-varieties/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans or Peas – Shelled, Dried, All Varieties",
+    "cytat": "Add ½ teaspoon of salt per pint or 1 teaspoon per quart to the jar, if desired. Fill jars with beans or peas and cooking water, leaving 1-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "defd3330378a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-or-peas-shelled-dried-all-varieties/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans or Peas – Shelled, Dried, All Varieties",
+    "cytat": "Hot Pints 75 min 11 lb 12 lb 13 lb 14 lb Quarts 90 11 12 13 14",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "defd3330378a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-or-peas-shelled-dried-all-varieties/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans or Peas – Shelled, Dried, All Varieties",
+    "cytat": "Hot Pints 75 min 10 lb 15 lb Quarts 90 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "defd3330378a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-or-peas-shelled-dried-all-varieties/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans or Peas – Shelled, Dried, All Varieties",
+    "cytat": "0 - 2,000 ft 2,001 - 4,000 ft 4,001 - 6,000 ft 6,001 - 8,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "defd3330378a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-or-peas-shelled-dried-all-varieties/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans or Peas – Shelled, Dried, All Varieties",
+    "cytat": "0 - 1,000 ft Above 1,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "defd3330378a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony.",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Beans or Peas – Shelled, Dried, All Varieties: choose mature, dry seeds, discard discoloured ones; cover dried beans or peas with water in a large pot and soak 12 to 18 hours in a cool place, drain; quicker: cover sorted, washed beans with boiling water in a saucepan, boil 2 minutes, remove from heat, soak 1 hour and drain; cover beans soaked either way with fresh water and boil 30 minutes; optionally 1/2 teaspoon of salt per pint or 1 teaspoon per quart in the jar; fill jars with beans or peas and cooking water leaving 1 inch (about 2.5 cm) of headspace; hot pack only: pints 75 min, quarts 90 min; dial-gauge canner: 11 lb at 0–2000 ft, 12 lb at 2001–4000 ft, 13 lb at 4001–6000 ft, 14 lb at 6001–8000 ft; weighted-gauge canner: 10 lb at 1000 ft or less, 15 lb above 1000 ft.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-071",
+  "twierdzenie": "NCHFP Beans, Dry, with Tomato or Molasses Sauce: dojrzałe suche nasiona, przebarwione wyrzucić; fasolę przebrać i umyć; na każdą szklankę suchej fasoli 3 szklanki wody; gotować 2 minuty, zdjąć z ognia, moczyć 1 godzinę i odcedzić; doprowadzić do wrzenia w świeżej wodzie, płyn zachować do sosu; sos pomidorowy, wersja 1: 1 quart soku pomidorowego, 3 łyżki cukru, 2 łyżeczki soli, 1 łyżka posiekanej cebuli i po 1/4 łyżeczki mielonych goździków, ziela angielskiego, kwiatu muszkatołowego i pieprzu cayenne, doprowadzić do wrzenia; wersja 2: 1 szklanka ketchupu pomidorowego z 3 szklankami płynu z gotowania fasoli, doprowadzić do wrzenia; sos melasowy: 4 szklanki wody albo płynu z gotowania fasoli, 3 łyżki ciemnej melasy, 1 łyżka octu, 2 łyżeczki soli i 3/4 łyżeczki suchej musztardy w proszku, doprowadzić do wrzenia; słoiki napełnić gorącą fasolą do trzech czwartych; opcjonalnie do każdego słoika kostka 3/4 cala (ok. 2 cm) wieprzowiny, szynki albo boczku; dolać gorącego sosu, zostawiając 1 cal (ok. 2,5 cm) wolnej przestrzeni; tylko pakowanie na gorąco: pint 65 min, quart 75 min; szybkowar z manometrem (dial gauge): 11 lb przy 0–2000 stóp, 12 lb przy 2001–4000 stóp, 13 lb przy 4001–6000 stóp, 14 lb przy 6001–8000 stóp; szybkowar z ciężarkiem (weighted gauge): 10 lb przy 1000 stóp lub mniej, 15 lb powyżej 1000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Dry, with Tomato or Molasses Sauce",
+    "cytat": "Select mature, dry seeds. Sort out and discard discolored seeds.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41b0988a3c76"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Dry, with Tomato or Molasses Sauce",
+    "cytat": "Sort and wash dry beans. Add 3 cups of water for each cup of dried beans or peas. Boil 2 minutes, remove from heat and soak 1 hour and drain. Heat to boiling in fresh water, and save liquid for making sauce.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41b0988a3c76"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Dry, with Tomato or Molasses Sauce",
+    "cytat": "Tomato Sauce - Version 1: Mix 1 quart tomato juice, 3 tablespoons sugar, 2 teaspoons salt, 1 tablespoon chopped onion, and 1/4 teaspoon each of ground cloves, allspice, mace, and cayenne pepper. Heat to boiling.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41b0988a3c76"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Dry, with Tomato or Molasses Sauce",
+    "cytat": "Tomato Sauce - Version 2: Mix 1 cup tomato ketchup with 3 cups of cooking liquid from beans. Heat to boiling.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41b0988a3c76"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Dry, with Tomato or Molasses Sauce",
+    "cytat": "Molasses Sauce - Mix 4 cups water or cooking liquid from beans, 3 tablespoons dark molasses, 1 tablespoon vinegar, 2 teaspoons salt, and 3/4 teaspoon powdered dry mustard. Heat to boiling.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41b0988a3c76"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Dry, with Tomato or Molasses Sauce",
+    "cytat": "Fill jars three-fourths full with hot beans. Add a 3/4-inch cube of pork, ham, or bacon to each jar, if desired. Fill jars with heated sauce, leaving 1-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41b0988a3c76"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Dry, with Tomato or Molasses Sauce",
+    "cytat": "Hot Pints 65 min 11 lb 12 lb 13 lb 14 lb Quarts 75 11 12 13 14",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41b0988a3c76"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Dry, with Tomato or Molasses Sauce",
+    "cytat": "Hot Pints 65 min 10 lb 15 lb Quarts 75 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41b0988a3c76"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Dry, with Tomato or Molasses Sauce",
+    "cytat": "0 - 2,000 ft 2,001 - 4,000 ft 4,001 - 6,000 ft 6,001 - 8,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41b0988a3c76"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Beans, Dry, with Tomato or Molasses Sauce",
+    "cytat": "0 - 1,000 ft Above 1,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "41b0988a3c76"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony. 3/4 cala = 1,9 cm (rachunek, zaokrąglone).",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Beans, Dry, with Tomato or Molasses Sauce: mature dry seeds, discard discoloured ones; sort and wash the beans; add 3 cups of water for each cup of dried beans; boil 2 minutes, remove from heat, soak 1 hour and drain; heat to boiling in fresh water and save the liquid for the sauce; tomato sauce version 1: 1 quart tomato juice, 3 tablespoons sugar, 2 teaspoons salt, 1 tablespoon chopped onion and 1/4 teaspoon each of ground cloves, allspice, mace and cayenne pepper, heated to boiling; version 2: 1 cup tomato ketchup with 3 cups of bean cooking liquid, heated to boiling; molasses sauce: 4 cups water or bean cooking liquid, 3 tablespoons dark molasses, 1 tablespoon vinegar, 2 teaspoons salt and 3/4 teaspoon powdered dry mustard, heated to boiling; fill jars three-fourths full with hot beans; optionally a 3/4-inch (about 2 cm) cube of pork, ham or bacon in each jar; fill with hot sauce leaving 1 inch (about 2.5 cm) of headspace; hot pack only: pints 65 min, quarts 75 min; dial-gauge canner: 11 lb at 0–2000 ft, 12 lb at 2001–4000 ft, 13 lb at 4001–6000 ft, 14 lb at 6001–8000 ft; weighted-gauge canner: 10 lb at 1000 ft or less, 15 lb above 1000 ft.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-072",
+  "twierdzenie": "NCHFP Carrots – Sliced or Diced: wybierać małe marchewki, najlepiej o średnicy 1–1 1/4 cala (ok. 2,5–3,2 cm), większe bywają zbyt włókniste; umyć, obrać i ponownie umyć; pokroić w plastry albo kostkę; na gorąco: zalać wrzątkiem, doprowadzić do wrzenia i gotować na wolnym ogniu 5 minut, napełnić słoiki, zostawiając 1 cal (ok. 2,5 cm) wolnej przestrzeni; na surowo: ciasno napełnić słoiki surową marchewką, zostawiając 1 cal wolnej przestrzeni; opcjonalnie 1 łyżeczka soli na quart do słoika; dolać gorącego płynu z gotowania albo wody, zostawiając 1 cal wolnej przestrzeni; pakowanie na gorąco i na surowo: pint 25 min, quart 30 min; szybkowar z manometrem (dial gauge): 11 lb przy 0–2000 stóp, 12 lb przy 2001–4000 stóp, 13 lb przy 4001–6000 stóp, 14 lb przy 6001–8000 stóp; szybkowar z ciężarkiem (weighted gauge): 10 lb przy 1000 stóp lub mniej, 15 lb powyżej 1000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/carrots-sliced-or-diced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Carrots – Sliced or Diced",
+    "cytat": "Select small carrots, preferably 1 to 1-1/4 inches in diameter. Larger carrots are often too fibrous.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94abad094dcd"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/carrots-sliced-or-diced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Carrots – Sliced or Diced",
+    "cytat": "Wash, peel, and rewash carrots. Slice or dice. Hot pack - Cover with boiling water; bring to boil and simmer for 5 minutes. Fill jars, leaving 1-inch of headspace. Raw pack - Fill jars tightly with raw carrots, leaving 1-inch headspace. Add 1 teaspoon of salt per quart to the jar, if desired. Add hot cooking liquid or water, leaving 1-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94abad094dcd"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/carrots-sliced-or-diced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Carrots – Sliced or Diced",
+    "cytat": "Hot and Raw Pints 25 min 11 lb 12 lb 13 lb 14 lb Quarts 30 11 12 13 14",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94abad094dcd"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/carrots-sliced-or-diced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Carrots – Sliced or Diced",
+    "cytat": "Hot and Raw Pints 25 min 10 lb 15 lb Quarts 30 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94abad094dcd"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/carrots-sliced-or-diced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Carrots – Sliced or Diced",
+    "cytat": "0 - 2,000 ft 2,001 - 4,000 ft 4,001 - 6,000 ft 6,001 - 8,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94abad094dcd"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/carrots-sliced-or-diced/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Carrots – Sliced or Diced",
+    "cytat": "0 - 1,000 ft Above 1,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94abad094dcd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony.",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Carrots – Sliced or Diced: choose small carrots, preferably 1 to 1 1/4 inches (about 2.5 to 3.2 cm) in diameter, larger ones are often too fibrous; wash, peel and rewash; slice or dice; hot pack: cover with boiling water, bring to a boil and simmer 5 minutes, fill jars leaving 1 inch (about 2.5 cm) of headspace; raw pack: fill jars tightly with raw carrots leaving 1 inch of headspace; optionally 1 teaspoon of salt per quart in the jar; add hot cooking liquid or water leaving 1 inch of headspace; hot and raw pack: pints 25 min, quarts 30 min; dial-gauge canner: 11 lb at 0–2000 ft, 12 lb at 2001–4000 ft, 13 lb at 4001–6000 ft, 14 lb at 6001–8000 ft; weighted-gauge canner: 10 lb at 1000 ft or less, 15 lb above 1000 ft.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-073",
+  "twierdzenie": "NCHFP Mixed Vegetables: przepis na 7 słoików quart: 6 szklanek marchwi w plastrach, 6 szklanek ziaren kukurydzy cukrowej, 6 szklanek pokrojonej fasolki szparagowej, 6 szklanek łuskanej fasoli lima, 4 szklanki pomidorów całych albo rozgniecionych, 4 szklanki cukinii w kostce; można zmienić proporcje albo zastąpić warzywa innymi ulubionymi z wyjątkiem warzyw liściastych, suchej fasoli, kukurydzy kremowej, dyni zimowej, batatów, brokułu, kalafiora i kapusty; warzywa poza cukinią umyć i przygotować jak w przepisach NCHFP na te warzywa; połączyć wszystkie warzywa w dużym garnku i dodać tyle wody, żeby je przykryć; opcjonalnie 1 łyżeczka soli na quart do słoika; gotować 5 minut i napełnić słoiki gorącymi kawałkami i płynem, zostawiając 1 cal (ok. 2,5 cm) wolnej przestrzeni; tylko pakowanie na gorąco: pint 75 min, quart 90 min; szybkowar z manometrem (dial gauge): 11 lb przy 0–2000 stóp, 12 lb przy 2001–4000 stóp, 13 lb przy 4001–6000 stóp, 14 lb przy 6001–8000 stóp; szybkowar z ciężarkiem (weighted gauge): 10 lb przy 1000 stóp lub mniej, 15 lb powyżej 1000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mixed-vegetables/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mixed Vegetables",
+    "cytat": "6 cups sliced carrots 6 cups cut, whole kernel sweet corn 6 cups cut green beans 6 cups shelled lima beans 4 cups whole or crushed tomatoes 4 cups diced zucchini",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "591a06768704"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mixed-vegetables/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mixed Vegetables",
+    "cytat": "You may change the suggested proportions or substitute other favorite vegetables except leafy greens, dried beans, cream-style corn, winter squash, sweet potatoes, broccoli, cauliflower or cabbage. Yield: 7 quarts",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "591a06768704"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mixed-vegetables/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mixed Vegetables",
+    "cytat": "Except for zucchini, wash and prepare vegetables as described for carrots , corn , lima beans , snap beans or italian beans and whole or crushed tomatoes .",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "591a06768704"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mixed-vegetables/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mixed Vegetables",
+    "cytat": "combine all vegetables in a large pot or kettle, and add enough water to cover pieces. Add 1 teaspoon salt per quart to the jar, if desired. Boil 5 minutes and fill jars with hot pieces and liquid, leaving 1-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "591a06768704"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mixed-vegetables/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mixed Vegetables",
+    "cytat": "Hot Pints 75 min 11 lb 12 lb 13 lb 14 lb Quarts 90 11 12 13 14",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "591a06768704"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mixed-vegetables/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mixed Vegetables",
+    "cytat": "Hot Pints 75 min 10 lb 15 lb Quarts 90 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "591a06768704"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mixed-vegetables/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mixed Vegetables",
+    "cytat": "0 - 2,000 ft 2,001 - 4,000 ft 4,001 - 6,000 ft 6,001 - 8,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "591a06768704"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mixed-vegetables/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mixed Vegetables",
+    "cytat": "0 - 1,000 ft Above 1,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "591a06768704"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony. Źródło wymienia przygotowanie dla marchwi, kukurydzy, fasoli lima, fasolki i pomidorów; dla zamienionego warzywa (np. groszku) karta stosuje przygotowanie z przepisu NCHFP na to warzywo (wniosek, kierunek: tak jak dla wymienionych).",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Mixed Vegetables: recipe for 7 quarts: 6 cups sliced carrots, 6 cups whole kernel sweet corn, 6 cups cut green beans, 6 cups shelled lima beans, 4 cups whole or crushed tomatoes, 4 cups diced zucchini; you may change the proportions or substitute other favourite vegetables except leafy greens, dried beans, cream-style corn, winter squash, sweet potatoes, broccoli, cauliflower or cabbage; except for zucchini, wash and prepare the vegetables as in the NCHFP directions for those vegetables; combine all vegetables in a large pot and add enough water to cover them; optionally 1 teaspoon of salt per quart in the jar; boil 5 minutes and fill jars with hot pieces and liquid leaving 1 inch (about 2.5 cm) of headspace; hot pack only: pints 75 min, quarts 90 min; dial-gauge canner: 11 lb at 0–2000 ft, 12 lb at 2001–4000 ft, 13 lb at 4001–6000 ft, 14 lb at 6001–8000 ft; weighted-gauge canner: 10 lb at 1000 ft or less, 15 lb above 1000 ft.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-074",
+  "twierdzenie": "Penn State Extension (Let’s Preserve: Root Vegetables), rzepa i brukiew: wybierać młode, średniej wielkości brukwie; odciąć natkę, rzepę i brukiew delikatnie wyszorować czystą szczoteczką pod zimną bieżącą wodą, nie moczyć; do wekowania pokroić w kostkę albo plastry; włożyć do rondla, zalać wrzątkiem i gotować 5 minut; gorące kawałki nakładać do gorących słoików, zostawiając 1 cal (2,5 cm) wolnej przestrzeni; opcjonalnie 1/2 łyżeczki soli do wekowania albo marynowania do słoika pint albo 1 łyżeczka do quart; dolać wrzącego płynu z gotowania do 1 cala (2,5 cm) od góry; usunąć pęcherzyki powietrza i wytrzeć brzegi słoików; wekować w szybkowarze: pint 30 minut, quart 35 minut; tabela 1 (ciśnienie wg wysokości): szybkowar z manometrem 11 psi przy 0–2000 stóp, 12 psi przy 2001–4000 stóp, 13 psi przy 4001–6000 stóp, 14 psi przy 6001–8000 stóp; szybkowar z ciężarkiem 10 psi przy 0–1000 stóp, 15 psi przy 1001 stóp lub więcej; procedura szybkowaru Penn State: ruszt, 2–3 cale (5–7,5 cm) gorącej wody i zamknięte słoiki, odpowietrzanie parą przez 10 minut, czas od osiągnięcia ciśnienia, po wekowaniu naturalne stygnięcie do pełnego spadku ciśnienia, potem powoli zdjąć ciężarek albo otworzyć zawór, odczekać jeszcze 10 minut i zdjąć pokrywę.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/lets-preserve-root-vegetables-beets-carrots-turnips-and-rutabagas",
+    "miejsce": "Penn State Extension: Let’s Preserve: Root Vegetables (Beets, Carrots, Turnips, and Rutabagas)",
+    "cytat": "Select young, medium-sized rutabagas.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "055af743ca71"
+   },
+   {
+    "adres": "https://extension.psu.edu/lets-preserve-root-vegetables-beets-carrots-turnips-and-rutabagas",
+    "miejsce": "Penn State Extension: Let’s Preserve: Root Vegetables (Beets, Carrots, Turnips, and Rutabagas)",
+    "cytat": "Cut off tops and gently scrub turnips and rutabagas with a clean vegetable brush under cold running water. Do not soak produce in water.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "055af743ca71"
+   },
+   {
+    "adres": "https://extension.psu.edu/lets-preserve-root-vegetables-beets-carrots-turnips-and-rutabagas",
+    "miejsce": "Penn State Extension: Let’s Preserve: Root Vegetables (Beets, Carrots, Turnips, and Rutabagas)",
+    "cytat": "into cubes or slices for canning.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "055af743ca71"
+   },
+   {
+    "adres": "https://extension.psu.edu/lets-preserve-root-vegetables-beets-carrots-turnips-and-rutabagas",
+    "miejsce": "Penn State Extension: Let’s Preserve: Root Vegetables (Beets, Carrots, Turnips, and Rutabagas)",
+    "cytat": "Canning Procedure Place turnips in a saucepan, cover with boiling water, and boil for 5 minutes. Pack hot pieces into hot jars, leaving 1 inch (2.5 cm) of headspace. Add ½ teaspoon of canning or pickling salt to pints or 1 teaspoon salt to quarts, if desired. Fill jar to 1 inch (2.5 cm) from the top with boiling-hot cooking liquid. Remove air bubbles. Wipe jar rims.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "055af743ca71"
+   },
+   {
+    "adres": "https://extension.psu.edu/lets-preserve-root-vegetables-beets-carrots-turnips-and-rutabagas",
+    "miejsce": "Penn State Extension: Let’s Preserve: Root Vegetables (Beets, Carrots, Turnips, and Rutabagas)",
+    "cytat": "Process pints for 30 minutes and quarts for 35 minutes in a dial gauge pressure canner at 11 pounds of pressure or in a weighted gauge pressure canner at 10 pounds of pressure. Increase canner pressure at high altitudes as shown in Table 1.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "055af743ca71"
+   },
+   {
+    "adres": "https://extension.psu.edu/lets-preserve-root-vegetables-beets-carrots-turnips-and-rutabagas",
+    "miejsce": "Penn State Extension: Let’s Preserve: Root Vegetables (Beets, Carrots, Turnips, and Rutabagas)",
+    "cytat": "Table 1. Pressure adjustments for elevation. 0 to 2,000 feet 2,001 to 4,000 feet 4,001 to 6,000 feet 6,001 to 8,000 feet Dial Gauge Canner 11 psi 12 psi 13 psi 14 psi 0 to 1,000 feet 1,001 feet and above Weighted Gauge Canner 10 psi 15 psi",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "055af743ca71"
+   },
+   {
+    "adres": "https://extension.psu.edu/lets-preserve-root-vegetables-beets-carrots-turnips-and-rutabagas",
+    "miejsce": "Penn State Extension: Let’s Preserve: Root Vegetables (Beets, Carrots, Turnips, and Rutabagas)",
+    "cytat": "Place jar rack, 2 to 3 inches (5 to 7.5 cm) of hot water, and sealed jars in the canner. Fasten lid and heat canner on the high setting. After exhausting steam for 10 minutes, add a weighted gauge or pressure regulator or close the petcock to pressurize the canner. Start timing the recommended process when the desired pressure is reached. Regulate heat to maintain a uniform pressure.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "055af743ca71"
+   },
+   {
+    "adres": "https://extension.psu.edu/lets-preserve-root-vegetables-beets-carrots-turnips-and-rutabagas",
+    "miejsce": "Penn State Extension: Let’s Preserve: Root Vegetables (Beets, Carrots, Turnips, and Rutabagas)",
+    "cytat": "Let the canner cool down naturally until it is fully depressurized. Then slowly remove the weighted gauge or open the petcock, wait 10 more minutes, and unfasten and carefully remove the canner lid.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "055af743ca71"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Szczebel 3. Przepis dla rzepy; brukiew według źródła można wekować tym przepisem (SZY-051). „1001 stóp lub więcej” = „1,001 feet and above”. Procedura szybkowaru opisana w sekcji buraków tej samej strony, przepis rzepy do niej odsyła.",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Penn State Extension (Let’s Preserve: Root Vegetables), turnips and rutabagas: select young, medium-sized rutabagas; cut off tops and gently scrub turnips and rutabagas with a clean vegetable brush under cold running water, do not soak; for canning cut into cubes or slices; put in a saucepan, cover with boiling water and boil 5 minutes; pack hot pieces into hot jars leaving 1 inch (2.5 cm) of headspace; optionally 1/2 teaspoon of canning or pickling salt per pint or 1 teaspoon per quart; fill to 1 inch (2.5 cm) from the top with boiling-hot cooking liquid; remove air bubbles and wipe jar rims; process in a pressure canner: pints 30 minutes, quarts 35 minutes; Table 1 (pressure by elevation): dial gauge 11 psi at 0–2000 ft, 12 psi at 2001–4000 ft, 13 psi at 4001–6000 ft, 14 psi at 6001–8000 ft; weighted gauge 10 psi at 0–1000 ft, 15 psi at 1001 ft or more; Penn State canner procedure: rack, 2 to 3 inches (5 to 7.5 cm) of hot water and sealed jars, vent steam 10 minutes, time from reaching pressure, after processing let the canner cool naturally until fully depressurized, then slowly remove the weight or open the petcock, wait 10 more minutes and remove the lid.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-075",
+  "twierdzenie": "NCHFP Asparagus – Spears or Pieces: delikatne łodygi z zwartymi główkami, długości 4–6 cali (ok. 10–15 cm); umyć i odciąć twarde łuski, odłamać twarde końce łodyg i ponownie umyć; pokroić na kawałki 1 cal (ok. 2,5 cm) albo wekować w całości; na gorąco: zalać wrzątkiem, gotować 2–3 minuty, luźno napełnić słoiki gorącymi szparagami, zostawiając 1 cal wolnej przestrzeni; na surowo: napełnić słoiki surowymi szparagami jak najciaśniej, ale bez zgniatania, zostawiając 1 cal wolnej przestrzeni; opcjonalnie 1 łyżeczka soli na quart do słoika; zalać wrzątkiem, zostawiając 1 cal wolnej przestrzeni; pakowanie na gorąco i na surowo: pint 30 min, quart 40 min; szybkowar z manometrem (dial gauge): 11 lb przy 0–2000 stóp, 12 lb przy 2001–4000 stóp, 13 lb przy 4001–6000 stóp, 14 lb przy 6001–8000 stóp; szybkowar z ciężarkiem (weighted gauge): 10 lb przy 1000 stóp lub mniej, 15 lb powyżej 1000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/asparagus-spear-or-pieces/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Asparagus – Spears or Pieces",
+    "cytat": "Use tender, tight-tipped spears, 4 to 6 inches long.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "965a21548ef2"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/asparagus-spear-or-pieces/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Asparagus – Spears or Pieces",
+    "cytat": "Wash asparagus and trim off tough scales. Break off tough stems and wash again. Cut into 1-inch pieces or can whole.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "965a21548ef2"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/asparagus-spear-or-pieces/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Asparagus – Spears or Pieces",
+    "cytat": "Cover asparagus with boiling water. Boil 2 or 3 minutes. Loosely fill jars with hot asparagus, leaving 1-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "965a21548ef2"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/asparagus-spear-or-pieces/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Asparagus – Spears or Pieces",
+    "cytat": "Fill jars with raw asparagus, packing as tightly as possible without crushing, leaving 1-inch headspace. Add 1 teaspoon of salt per quart to the jars, if desired. Add boiling water, leaving 1-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "965a21548ef2"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/asparagus-spear-or-pieces/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Asparagus – Spears or Pieces",
+    "cytat": "Hot and Raw Pints 30 min 11 lb 12 lb 13 lb 14 lb Quarts 40 11 12 13 14",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "965a21548ef2"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/asparagus-spear-or-pieces/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Asparagus – Spears or Pieces",
+    "cytat": "Hot and raw Pints 30 min 10 lb 15 lb Quarts 40 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "965a21548ef2"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/asparagus-spear-or-pieces/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Asparagus – Spears or Pieces",
+    "cytat": "0 - 2,000 ft 2,001 - 4,000 ft 4,001 - 6,000 ft 6,001 - 8,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "965a21548ef2"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/asparagus-spear-or-pieces/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Asparagus – Spears or Pieces",
+    "cytat": "0 - 1,000 ft Above 1,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "965a21548ef2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony.",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Asparagus – Spears or Pieces: tender, tight-tipped spears 4 to 6 inches (about 10 to 15 cm) long; wash and trim off tough scales, break off tough stems and wash again; cut into 1-inch (about 2.5 cm) pieces or can whole; hot pack: cover with boiling water, boil 2 or 3 minutes, loosely fill jars with hot asparagus leaving 1 inch of headspace; raw pack: fill jars with raw asparagus as tightly as possible without crushing, leaving 1 inch of headspace; optionally 1 teaspoon of salt per quart in the jar; add boiling water leaving 1 inch of headspace; hot and raw pack: pints 30 min, quarts 40 min; dial-gauge canner: 11 lb at 0–2000 ft, 12 lb at 2001–4000 ft, 13 lb at 4001–6000 ft, 14 lb at 6001–8000 ft; weighted-gauge canner: 10 lb at 1000 ft or less, 15 lb above 1000 ft.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-076",
+  "twierdzenie": "NCHFP Corn – Whole Kernel: wybierać kolby z lekko niedojrzałymi ziarnami albo idealne do jedzenia na świeżo; wekowanie niektórych słodszych odmian albo zbyt niedojrzałych ziaren może powodować brązowienie, więc najpierw zawekować małą ilość i sprawdzić kolor i smak; obrać z liści, usunąć znamiona i umyć; blanszować 3 minuty we wrzątku; odciąć ziarna od kolby na ok. trzy czwarte ich głębokości; nie zeskrobywać kolby; na gorąco: do każdego quarta ziaren w rondlu dodać 1 szklankę gorącej wody, doprowadzić do wrzenia i gotować na wolnym ogniu 5 minut, opcjonalnie 1 łyżeczka soli na quart do słoika, napełnić słoiki kukurydzą i płynem z gotowania, zostawiając 1 cal (ok. 2,5 cm) wolnej przestrzeni; na surowo: napełnić słoiki surowymi ziarnami, zostawiając 1 cal wolnej przestrzeni, nie potrząsać ani nie dociskać, opcjonalnie sól jak wyżej, dolać świeżego wrzątku, zostawiając 1 cal wolnej przestrzeni; pakowanie na gorąco i na surowo: pint 55 min, quart 85 min; szybkowar z manometrem (dial gauge): 11 lb przy 0–2000 stóp, 12 lb przy 2001–4000 stóp, 13 lb przy 4001–6000 stóp, 14 lb przy 6001–8000 stóp; szybkowar z ciężarkiem (weighted gauge): 10 lb przy 1000 stóp lub mniej, 15 lb powyżej 1000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-whole-kernel/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Whole Kernel",
+    "cytat": "Select ears containing slightly immature kernels or of ideal quality for eating fresh. Canning of some sweeter varieties or too immature kernels may cause browning. Can a small amount, check color and flavor before canning large quantities.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "06d1bbaafc3c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-whole-kernel/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Whole Kernel",
+    "cytat": "Husk corn, remove silk, and wash. Blanch 3 minutes in boiling water. Cut corn from cob at about three-fourths the depth of kernel. Caution: Do not scrape cob.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "06d1bbaafc3c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-whole-kernel/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Whole Kernel",
+    "cytat": "To each clean quart of kernels in a saucepan, add 1 cup of hot water, heat to boiling and simmer 5 minutes. Add 1 teaspoon of salt per quart to the jar, if desired. Fill jars with corn and cooking liquid, leaving 1-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "06d1bbaafc3c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-whole-kernel/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Whole Kernel",
+    "cytat": "Fill jars with raw kernels, leaving 1-inch headspace. Do not shake or press down. Add 1 teaspoon of salt per quart to the jar, if desired. Add fresh boiling water, leaving 1-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "06d1bbaafc3c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-whole-kernel/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Whole Kernel",
+    "cytat": "Hot and Raw Pints 55 min 11 lb 12 lb 13 lb 14 lb Quarts 85 11 12 13 14",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "06d1bbaafc3c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-whole-kernel/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Whole Kernel",
+    "cytat": "Hot and Raw Pints 55 min 10 lb 15 lb Quarts 85 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "06d1bbaafc3c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-whole-kernel/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Whole Kernel",
+    "cytat": "0 - 2,000 ft 2,001 - 4,000 ft 4,001 - 6,000 ft 6,001 - 8,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "06d1bbaafc3c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-whole-kernel/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Whole Kernel",
+    "cytat": "0 - 1,000 ft Above 1,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "06d1bbaafc3c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony.",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Corn – Whole Kernel: choose ears with slightly immature kernels or of ideal quality for eating fresh; canning some sweeter varieties or too immature kernels may cause browning, so can a small amount first and check colour and flavour; husk, remove silk and wash; blanch 3 minutes in boiling water; cut corn from the cob at about three-fourths the depth of the kernel; do not scrape the cob; hot pack: to each quart of kernels in a saucepan add 1 cup of hot water, heat to boiling and simmer 5 minutes, optionally 1 teaspoon of salt per quart in the jar, fill jars with corn and cooking liquid leaving 1 inch (about 2.5 cm) of headspace; raw pack: fill jars with raw kernels leaving 1 inch of headspace, do not shake or press down, optional salt as above, add fresh boiling water leaving 1 inch of headspace; hot and raw pack: pints 55 min, quarts 85 min; dial-gauge canner: 11 lb at 0–2000 ft, 12 lb at 2001–4000 ft, 13 lb at 4001–6000 ft, 14 lb at 6001–8000 ft; weighted-gauge canner: 10 lb at 1000 ft or less, 15 lb above 1000 ft.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-077",
+  "twierdzenie": "NCHFP Corn – Cream Style: wybierać kolby z lekko niedojrzałymi ziarnami albo idealne do jedzenia na świeżo; obrać z liści, usunąć znamiona i umyć kolby; kolby blanszować 4 minuty we wrzątku; odciąć ziarna mniej więcej w połowie ich głębokości, resztę zeskrobać z kolb nożem stołowym; na gorąco: na każde 2 szklanki kukurydzy dodać 1 szklankę wody i doprowadzić do wrzenia; opcjonalnie 1/2 łyżeczki soli do każdego słoika pint; napełnić słoik pint gorącą mieszanką, zostawiając 1 cal (ok. 2,5 cm) wolnej przestrzeni; słoiki quart nie są zalecane z powodu gęstości produktu; usunąć pęcherzyki powietrza i w razie potrzeby wyrównać wolną przestrzeń, wytrzeć brzegi słoików; tylko pakowanie na gorąco i tylko słoiki pint: 85 min; szybkowar z manometrem (dial gauge): 11 lb przy 0–2000 stóp, 12 lb przy 2001–4000 stóp, 13 lb przy 4001–6000 stóp, 14 lb przy 6001–8000 stóp; szybkowar z ciężarkiem (weighted gauge): 10 lb przy 1000 stóp lub mniej, 15 lb powyżej 1000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-cream-style/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Cream Style",
+    "cytat": "Select ears containing slightly immature kernels, or of ideal quality for eating fresh.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7664db0415c1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-cream-style/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Cream Style",
+    "cytat": "Husk corn, remove silk, and wash ears. Blanch ears 4 minutes in boiling water. Cut corn from cob at about the center of kernel. Scrape remaining corn from cobs with a table knife.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7664db0415c1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-cream-style/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Cream Style",
+    "cytat": "Add 1 cup water to each 2 cups of corn and heat to a boil. Add 1/2 teaspoon salt to each pint jar, if desired. Fill pint jar with hot corn mixture, leaving 1-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7664db0415c1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-cream-style/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Cream Style",
+    "cytat": "Quart jars are not recommended due to the denseness of the canned product. Remove air bubbles and adjust headspace if needed. Wipe jar rims.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7664db0415c1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-cream-style/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Cream Style",
+    "cytat": "Hot Pints 85 min 11 lb 12 lb 13 lb 14 lb",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7664db0415c1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-cream-style/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Cream Style",
+    "cytat": "Hot Pints 85 min 10 lb 15 lb",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7664db0415c1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-cream-style/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Cream Style",
+    "cytat": "0 - 2,000 ft 2,001 - 4,000 ft 4,001 - 6,000 ft 6,001 - 8,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7664db0415c1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/corn-cream-style/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corn – Cream Style",
+    "cytat": "0 - 1,000 ft Above 1,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7664db0415c1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony.",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Corn – Cream Style: choose ears with slightly immature kernels or of ideal quality for eating fresh; husk, remove silk and wash the ears; blanch the ears 4 minutes in boiling water; cut corn from the cob at about the centre of the kernel and scrape the remaining corn from the cobs with a table knife; hot pack: add 1 cup of water to each 2 cups of corn and heat to a boil; optionally 1/2 teaspoon of salt in each pint jar; fill pint jars with the hot corn mixture leaving 1 inch (about 2.5 cm) of headspace; quart jars are not recommended because the product is dense; remove air bubbles, adjust headspace if needed, wipe jar rims; hot pack and pint jars only: 85 min; dial-gauge canner: 11 lb at 0–2000 ft, 12 lb at 2001–4000 ft, 13 lb at 4001–6000 ft, 14 lb at 6001–8000 ft; weighted-gauge canner: 10 lb at 1000 ft or less, 15 lb above 1000 ft.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-078",
+  "twierdzenie": "NCHFP Meat – Strips, Cubes or Chunks (niedźwiedź, wołowina, jagnięcina, wieprzowina, cielęcina, dziczyzna z jelenia): wybierać schłodzone mięso wysokiej jakości; usunąć nadmiar tłuszczu; mięso dzikie o mocnym zapachu moczyć 1 godzinę w solance z 1 łyżką soli na quart wody i opłukać; usunąć duże kości; pakowanie na gorąco jest zalecane dla najlepszego pokrycia płynem i jakości w przechowywaniu, bo naturalny tłuszcz i soki dzisiejszych chudszych kawałków zwykle nie wystarczają, żeby przykryć mięso przy pakowaniu na surowo; na gorąco: wstępnie ugotować mięso do stanu krwistego (rare) przez pieczenie, duszenie albo obsmażenie w niewielkiej ilości tłuszczu; opcjonalnie 1 łyżeczka soli na quart (1/2 łyżeczki na pint) do słoika; napełnić słoiki kawałkami i dolać wrzącego bulionu, soku z pieczenia (meat drippings), wody albo soku pomidorowego (zwłaszcza do dziczyzny), zostawiając 1 cal (ok. 2,5 cm) wolnej przestrzeni; na surowo: sól jak wyżej, napełnić słoiki surowymi kawałkami mięsa, zostawiając 1 cal wolnej przestrzeni, nie dodawać płynu; pakowanie na gorąco i na surowo: pint 75 min, quart 90 min; szybkowar z manometrem (dial gauge): 11 lb przy 0–2000 stóp, 12 lb przy 2001–4000 stóp, 13 lb przy 4001–6000 stóp, 14 lb przy 6001–8000 stóp; szybkowar z ciężarkiem (weighted gauge): 10 lb przy 1000 stóp lub mniej, 15 lb powyżej 1000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat – Strips, Cubes or Chunks",
+    "cytat": "Bear, Beef, Lamb, Pork, Veal, Venison",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "dafdedbc5069"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat – Strips, Cubes or Chunks",
+    "cytat": "Choose high quality chilled meat. Remove excess fat. Soak strong-flavored wild meats for 1 hour in brine water containing 1 tablespoon of salt per quart. Rinse. Remove large bones.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "dafdedbc5069"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat – Strips, Cubes or Chunks",
+    "cytat": "The hot pack is preferred for best liquid cover and quality during storage. The natural amount of fat and juices in today's leaner meat cuts are usually not enough to cover most of the meat in raw packs.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "dafdedbc5069"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat – Strips, Cubes or Chunks",
+    "cytat": "Precook meat until rare by roasting, stewing, or browning in a small amount of fat. Add 1 teaspoon of salt per quart to the jar (1/2 teaspoon for pints), if desired. Fill jars with pieces and add boiling broth, meat drippings, water, or tomato juice, especially with wild game), leaving 1-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "dafdedbc5069"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat – Strips, Cubes or Chunks",
+    "cytat": "Fill jars with raw meat pieces, leaving 1-inch headspace. Do not add liquid.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "dafdedbc5069"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat – Strips, Cubes or Chunks",
+    "cytat": "Hot and Raw Pints 75 min 11 lb 12 lb 13 lb 14 lb Quarts 90 11 12 13 14",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "dafdedbc5069"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat – Strips, Cubes or Chunks",
+    "cytat": "Hot and Raw Pints 75 min 10 lb 15 lb Quarts 90 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "dafdedbc5069"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat – Strips, Cubes or Chunks",
+    "cytat": "0 - 2,000 ft 2,001 - 4,000 ft 4,001 - 6,000 ft 6,001 - 8,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "dafdedbc5069"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-strips-cubes-or-chunks/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat – Strips, Cubes or Chunks",
+    "cytat": "0 - 1,000 ft Above 1,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "dafdedbc5069"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony.",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Meat – Strips, Cubes or Chunks (bear, beef, lamb, pork, veal, venison): choose high-quality chilled meat; remove excess fat; soak strong-flavoured wild meats for 1 hour in brine with 1 tablespoon of salt per quart of water and rinse; remove large bones; the hot pack is preferred for best liquid cover and quality in storage, because the natural fat and juices of today's leaner cuts are usually not enough to cover the meat in raw packs; hot pack: precook the meat until rare by roasting, stewing or browning in a small amount of fat; optionally 1 teaspoon of salt per quart (1/2 teaspoon per pint) in the jar; fill jars with pieces and add boiling broth, meat drippings, water or tomato juice (especially with wild game), leaving 1 inch (about 2.5 cm) of headspace; raw pack: salt as above, fill jars with raw meat pieces leaving 1 inch of headspace, do not add liquid; hot and raw pack: pints 75 min, quarts 90 min; dial-gauge canner: 11 lb at 0–2000 ft, 12 lb at 2001–4000 ft, 13 lb at 4001–6000 ft, 14 lb at 6001–8000 ft; weighted-gauge canner: 10 lb at 1000 ft or less, 15 lb above 1000 ft.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SZY-079",
+  "twierdzenie": "NCHFP Meat Stock: wywar wołowy: świeże, oczyszczone kości wołowe (bez mięsa) przepiłować albo połamać, opłukać, włożyć do dużego garnka, zalać wodą, przykryć i gotować na wolnym ogniu 3–4 godziny; wyjąć kości, ostudzić wywar, zebrać nadmiar tłuszczu i wyrzucić; opcjonalnie dodać z powrotem drobne kawałki mięsa z kości; ponownie doprowadzić do wrzenia i napełnić słoiki, zostawiając 1 cal (ok. 2,5 cm) wolnej przestrzeni; wytrzeć brzegi słoików wilgotnym czystym ręcznikiem papierowym; wywar z kurczaka albo indyka: duże kości tuszki (bez mięsa) w dużym garnku zalać wodą, przykryć i gotować na wolnym ogniu 30–45 minut albo do chwili, gdy resztki mięsa łatwo odchodzą od kości; wyjąć kości, ostudzić wywar i usunąć nadmiar tłuszczu; opcjonalnie dodać z powrotem drobne kawałki mięsa; ponownie doprowadzić do wrzenia, napełnić słoiki, zostawiając 1 cal wolnej przestrzeni, i wytrzeć brzegi; tylko pakowanie na gorąco: pint 20 min, quart 25 min; szybkowar z manometrem (dial gauge): 11 lb przy 0–2000 stóp, 12 lb przy 2001–4000 stóp, 13 lb przy 4001–6000 stóp, 14 lb przy 6001–8000 stóp; szybkowar z ciężarkiem (weighted gauge): 10 lb przy 1000 stóp lub mniej, 15 lb powyżej 1000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-stock/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat Stock",
+    "cytat": "Beef: Saw or crack fresh trimmed beef bones (with meat removed) to enhance extraction of flavor. Rinse bones and place in a large stockpot, cover bones with water. Place cover on pot and simmer 3 to 4 hours. Remove bones and cool broth; skim off excess fat and discard. If desired, remove any tiny amount of meat tidbits still clinging to bones and add back to the broth. Reheat broth to boiling and fill jars, leaving 1-inch headspace. Wipe rims of jars with a dampened clean paper towel.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8a7c4e186f3d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-stock/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat Stock",
+    "cytat": "Chicken or turkey: Place large carcass bones (with meat removed) in a large stockpot. Add enough water to cover bones. Cover pot and simmer 30 to 45 minutes or until any remaining tidbits of meat on bones easily fall off. Remove bones, cool broth and discard excess fat.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8a7c4e186f3d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-stock/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat Stock",
+    "cytat": "Hot Pints 20 min 11 lb 12 lb 13 lb 14 lb Quarts 25 11 12 13 14",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8a7c4e186f3d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-stock/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat Stock",
+    "cytat": "Hot Pints 20 min 10 lb 15 lb Quarts 25 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8a7c4e186f3d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-stock/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat Stock",
+    "cytat": "0 - 2,000 ft 2,001 - 4,000 ft 4,001 - 6,000 ft 6,001 - 8,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8a7c4e186f3d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-stock/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat Stock",
+    "cytat": "0 - 1,000 ft Above 1,000 ft",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8a7c4e186f3d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony.",
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SZY",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Meat Stock: beef: saw or crack fresh trimmed beef bones (meat removed), rinse, put in a large stockpot, cover with water, cover the pot and simmer 3 to 4 hours; remove bones, cool the broth, skim off excess fat and discard it; optionally add back tiny bits of meat from the bones; reheat to boiling and fill jars leaving 1 inch (about 2.5 cm) of headspace; wipe jar rims with a dampened clean paper towel; chicken or turkey: cover large carcass bones (meat removed) with water in a large stockpot, cover and simmer 30 to 45 minutes or until remaining bits of meat fall off the bones easily; remove bones, cool the broth and discard excess fat; optionally add back tiny bits of meat; reheat to boiling, fill jars leaving 1 inch of headspace and wipe rims; hot pack only: pints 20 min, quarts 25 min; dial-gauge canner: 11 lb at 0–2000 ft, 12 lb at 2001–4000 ft, 13 lb at 4001–6000 ft, 14 lb at 6001–8000 ft; weighted-gauge canner: 10 lb at 1000 ft or less, 15 lb above 1000 ft.",
+  "pochodzenie": "p37 B (E1 szybkowar, karty pressure-canning en)",
+  "wazne_do": "2027-11-02"
+ },
+ {
+  "id": "SUS-420",
+  "twierdzenie": "Według Clemson HGIC (Drying Fruits) blanszowanie owoców w syropie pomaga zachować barwę podczas suszenia i przechowywania, a produkt przypomina owoce kandyzowane; syrop: 1 szklanka cukru, 1 szklanka jasnego syropu kukurydzianego i 2 szklanki wody zagotować, dodać 1 funt (ok. 450 g) przygotowanych owoców i gotować na małym ogniu 10 minut, zdjąć z ognia i zostawić owoce w gorącym syropie na 30 minut, wyjąć, lekko opłukać zimną wodą, osączyć na ręcznikach papierowych i ułożyć na tacach suszarki.",
+  "twierdzenie_en": "According to Clemson HGIC (Drying Fruits), blanching fruit in syrup helps it keep its colour during drying and storage, and the product is similar to candied fruit; syrup: bring 1 cup of sugar, 1 cup of light corn syrup and 2 cups of water to a boil, add 1 pound (about 450 g) of prepared fruit and simmer 10 minutes, remove from heat and let the fruit stand in the hot syrup for 30 minutes, lift it out, rinse lightly in cold water, drain on paper towels and place on dryer trays.",
+  "zrodla": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "miejsce": "Clemson HGIC 3084 Drying Fruits, Pretreatment, Syrup-Blanching",
+    "cytat": "Syrup-Blanching: Blanching fruit in syrup helps it retain color fairly well during drying and storage. The resulting product is similar to candied fruit.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "32b5824ad87e"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+    "miejsce": "Clemson HGIC 3084 Drying Fruits, Pretreatment, Syrup-Blanching, to samo miejsce",
+    "cytat": "Combine 1 cup sugar, 1 cup light corn syrup and 2 cups water in a pot. Bring to a boil. Add 1 pound of prepared fruit and simmer 10 minutes. Remove from heat and let fruit stand in hot syrup for 30 minutes. Lift fruit out of syrup, rinse lightly in cold water, drain on paper towels and place on dryer trays.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "32b5824ad87e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ta sama treść co SUS-320 (robocze, bez sprawdzonego cytatu); SUS-420 ma cytat sprawdzony 2026-11-02 na surowym tekście. Lista owoców do blanszowania w syropie w tym akapicie nie wymienia wiśni, ale tabela Clemson podaje dla wiśni kwaśnych 10 minut w syropie (SUS-321). Rachunek: 1 funt = 0,4536 kg.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "06 p37 (autor C): karty sour-cherry-v16, apricot-v14"
+ },
+ {
+  "id": "ACI-960",
+  "twierdzenie": "NCHFP Whole or Halved Tomatoes (packed raw without added liquid), sposób: pomidory umyć, zanurzyć we wrzątku na 30–60 sekund albo do pęknięcia skórki, potem w zimnej wodzie; zdjąć skórkę i usunąć gniazda; zostawić całe albo przekroić na połówki; do słoików dodać butelkowany sok z cytryny albo kwas cytrynowy, opcjonalnie 1 łyżeczkę soli na słoik quart; napełnić słoiki surowymi pomidorami, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; docisnąć pomidory w słoikach, aż przestrzenie między nimi wypełni sok; zostawić 1/2 cala wolnej przestrzeni; założyć pokrywki i wekować.",
+  "twierdzenie_en": "NCHFP Whole or Halved Tomatoes (packed raw without added liquid), procedure: wash tomatoes, dip in boiling water for 30 to 60 seconds or until skins split, then in cold water; slip off skins and remove cores; leave whole or halve; add bottled lemon juice or citric acid to the jars and, if desired, 1 teaspoon of salt per quart; fill jars with raw tomatoes leaving 1/2-inch headspace; press tomatoes in the jars until spaces between them fill with juice; leave 1/2-inch headspace; adjust lids and process.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-raw-without-added-liquid/",
+    "miejsce": "NCHFP, Whole or Halved Tomatoes (packed raw without added liquid), Procedure",
+    "cytat": "Wash tomatoes. Dip in boiling water for 30 to 60 seconds or until skins split, then dip in cold water. Slip off skins and remove cores. Leave whole or halve.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "5ea9ca82dcf1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-raw-without-added-liquid/",
+    "miejsce": "NCHFP, Whole or Halved Tomatoes (packed raw without added liquid), Procedure, to samo miejsce",
+    "cytat": "Add 1 teaspoon of salt per quart to the jars, if desired. Fill jars with raw tomatoes, leaving 1/2-inch headspace. Press tomatoes in the jars until spaces between them fill with juice. Leave 1/2-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "5ea9ca82dcf1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Strona nie wymienia pomidorów koktajlowych (green-cherry-tomato-v14): karta stosuje ten przepis do pomidorów koktajlowych bez zmian, także obieranie ze skórki (decyzja autora p37, do weta).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p37 (autor C): karta green-cherry-tomato-v14"
+ },
+ {
+  "id": "ACI-961",
+  "twierdzenie": "NCHFP Whole or Halved Tomatoes (packed raw without added liquid), tabela 1 (kąpiel wodna, raw, słoiki pint albo quart), 1001–3000 stóp: 90 min.",
+  "twierdzenie_en": "NCHFP Whole or Halved Tomatoes (packed raw without added liquid), Table 1 (boiling-water canner, raw pack, pints or quarts), 1,001–3,000 ft: 90 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-raw-without-added-liquid/",
+    "miejsce": "NCHFP, Whole or Halved Tomatoes (packed raw without added liquid), Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Raw Pints or Quarts 85 min 90 95 100",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "5ea9ca82dcf1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p37 (autor C): karta green-cherry-tomato-v14"
+ },
+ {
+  "id": "ACI-962",
+  "twierdzenie": "NCHFP Whole or Halved Tomatoes (packed raw without added liquid), tabela 1 (kąpiel wodna, raw, słoiki pint albo quart), 3001–6000 stóp: 95 min.",
+  "twierdzenie_en": "NCHFP Whole or Halved Tomatoes (packed raw without added liquid), Table 1 (boiling-water canner, raw pack, pints or quarts), 3,001–6,000 ft: 95 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-raw-without-added-liquid/",
+    "miejsce": "NCHFP, Whole or Halved Tomatoes (packed raw without added liquid), Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Raw Pints or Quarts 85 min 90 95 100",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "5ea9ca82dcf1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p37 (autor C): karta green-cherry-tomato-v14"
+ },
+ {
+  "id": "ACI-963",
+  "twierdzenie": "NCHFP Whole or Halved Tomatoes (packed raw without added liquid), tabela 1 (kąpiel wodna, raw, słoiki pint albo quart), powyżej 6000 stóp: 100 min.",
+  "twierdzenie_en": "NCHFP Whole or Halved Tomatoes (packed raw without added liquid), Table 1 (boiling-water canner, raw pack, pints or quarts), above 6,000 ft: 100 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-raw-without-added-liquid/",
+    "miejsce": "NCHFP, Whole or Halved Tomatoes (packed raw without added liquid), Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Raw Pints or Quarts 85 min 90 95 100",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "5ea9ca82dcf1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p37 (autor C): karta green-cherry-tomato-v14"
+ },
+ {
+  "id": "NAP-090",
+  "twierdzenie": "Penn State Extension (za Ohio State University Extension), Making Cider Vinegar at Home: kroki dobrego octu jabłkowego: czysty cydr z dojrzałych jabłek; zamiana całego cukru w alkohol (fermentacja drożdżowa); zamiana całego alkoholu w kwas octowy (fermentacja octowa); klarowanie, żeby zapobiec dalszej fermentacji i rozkładowi. Cydr robi się z jesiennych i zimowych odmian jabłek (letnie i zielone mają za mało cukru); owoce zebrać, dobrze umyć, rozgnieść na miazgę i odcedzić sok przez prasę albo gazę.",
+  "twierdzenie_en": "Penn State Extension (from Ohio State University Extension), Making Cider Vinegar at Home: steps for a high-quality cider vinegar: make a clean cider from ripe apples; change all of the fruit sugar to alcohol (yeast fermentation); change all of the alcohol to acetic acid (acetic acid fermentation); clarify to prevent further fermentation and decomposition. Cider is made from fall and winter apple varieties (summer and green apples do not contain enough sugar); gather the fruit, wash it well, crush it to a pulp and strain off the juice with a press or cheesecloth.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension, Making Cider Vinegar at Home (upd. 2025-12-16), Steps for Making Cider Vinegar",
+    "cytat": "Make a clean cider from ripe apples. Change all of the fruit sugar to alcohol. This is called “yeast fermentation.\" Change all of the alcohol to acetic acid. This is called “acetic acid fermentation.\" Clarify the acetic acid to prevent further fermentation and decomposition.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "a6c341fd78c0"
+   },
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension, Making Cider Vinegar at Home, Step 1—Making Cider",
+    "cytat": "Cider is made from the winter and fall varieties of apples (summer and green apples do not contain enough sugar). Fruit should be gathered, then washed well to remove debris. Crush the fruit to produce apple pulp and strain off the juice. Use a press or cheesecloth for straining.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "a6c341fd78c0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p37 (autor C): karta artisanal-vinegars-v01"
+ },
+ {
+  "id": "NAP-091",
+  "twierdzenie": "Penn State Extension, Making Cider Vinegar at Home: dodanie drożdży nie jest konieczne, ale przyspiesza fermentację; używa się specjalnych drożdży hodowlanych ze sklepów winiarskich, drożdże piekarskie nie są zalecane.",
+  "twierdzenie_en": "Penn State Extension, Making Cider Vinegar at Home: adding yeast is not essential but speeds up the process; special cultivated yeasts from wine-making shops are used, and bread yeasts are not recommended.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension, Making Cider Vinegar at Home, Step 1—Making Cider",
+    "cytat": "Adding yeast to activate fermentation is not essential, but will speed up the process. Special cultivated yeasts are available for this purpose at wine-making shops and biological labs—bread yeasts are not recommended.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "a6c341fd78c0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ilość zaczynu ze źródła („one cake of yeast”) pominięta: jednostka nieprzeliczalna bez założeń.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p37 (autor C): karta artisanal-vinegars-v01"
+ },
+ {
+  "id": "NAP-092",
+  "twierdzenie": "Penn State Extension, Making Cider Vinegar at Home: płyn wlewa się do jednego lub kilku pojemników do ok. 3/4 objętości, bez zamykania pokrywek (powietrze dochodzi przez gazę zamiast pokrywki); mieszaninę miesza się codziennie, trzyma z dala od bezpośredniego słońca w 60–80°F; pod koniec fermentacji czuć zapach octu; próbuje się codziennie, aż ocet osiągnie pożądaną moc.",
+  "twierdzenie_en": "Penn State Extension, Making Cider Vinegar at Home: pour the liquid into one or more containers to about three-quarters capacity and do not close the lids (air reaches the liquid through cheesecloth used in place of a lid); stir daily, keep away from direct sunlight at 60–80 °F; near the end a vinegar-like smell appears; taste samples daily until the desired strength is reached.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension, Making Cider Vinegar at Home, wstęp",
+    "cytat": "Oxygen is spread throughout the mixture by stirring it daily and by letting air reach the fluid through a cheesecloth filter, which is used in place of a regular lid.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "a6c341fd78c0"
+   },
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension, Making Cider Vinegar at Home, Steps 2 and 3—Making Alcohol and Acetic Acid",
+    "cytat": "Pour all of the liquid into one or more containers to about three-quarters capacity; do not close the lids on the containers. Stir the mixtures daily. Keep the containers away from direct sunlight and maintain the temperature at 60 to 80 degrees F. Full fermentation will take about 3 to 4 weeks. Near the end of this period, you should notice a vinegar-like smell. Taste samples daily until the desired strength is reached.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "a6c341fd78c0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Rachunek: 60°F ≈ 16°C, 80°F ≈ 27°C (jak NAP-032).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p37 (autor C): karta artisanal-vinegars-v01"
+ },
+ {
+  "id": "NAP-093",
+  "twierdzenie": "Penn State Extension, Making Cider Vinegar at Home: po pełnej fermentacji ocet filtruje się przez kilka warstw drobnej gazy albo bibuły filtracyjnej (dobrze sprawdza się filtr do kawy); usuwa to matkę octową, co zapobiega dalszej fermentacji albo zepsuciu produktu.",
+  "twierdzenie_en": "Penn State Extension, Making Cider Vinegar at Home: when the vinegar is fully fermented, filter it through several layers of fine cheesecloth or filter paper (a coffee filter works well); this removes the mother of vinegar, preventing further fermentation or spoilage of the product.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension, Making Cider Vinegar at Home, Step 4—Filtering",
+    "cytat": "When the vinegar is fully fermented, filter the liquid through several layers of fine cheesecloth or filter paper—a coffee filter works well for this. This removes the mother of vinegar, preventing further fermentation or spoilage of the product.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "a6c341fd78c0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wariant artisanal-vinegars-v01 nazywa się „z matką octową”: przetestowana procedura usuwa matkę przed przechowywaniem; karta nie opisuje octu przechowywanego z matką (decyzja autora p37, do weta).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p37 (autor C): karta artisanal-vinegars-v01"
+ },
+ {
+  "id": "NAP-094",
+  "twierdzenie": "Penn State Extension, Making Cider Vinegar at Home: przefiltrowany ocet przechowuje się w osobnych, zamkniętych pojemnikach; pasteryzowany zachowuje doskonały stan niemal bez końca; pasteryzacja: ocet podgrzać przed przelaniem do wysterylizowanych butelek, a potem wstawić je do kąpieli w gorącej wodzie; temperaturę sprawdzać termometrem kuchennym; pojemniki ostudzić i przechowywać w temperaturze pokojowej z dala od bezpośredniego słońca.",
+  "twierdzenie_en": "Penn State Extension, Making Cider Vinegar at Home: store the filtered vinegar in separate, capped containers; pasteurized vinegar stays in excellent condition almost indefinitely; to pasteurize, heat the vinegar before pouring it into sterilized bottles, then place them in a hot water bath; check the temperature with a cooking thermometer; cool the containers and store them at room temperature out of direct sunlight.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension, Making Cider Vinegar at Home, Storing Your Vinegar",
+    "cytat": "The vinegar is now ready for storage in separate, capped containers. Stored vinegar will stay in excellent condition almost indefinitely if it is pasteurized. To pasteurize, heat the vinegar before pouring it into sterilized bottles, then place in a hot water bath.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "a6c341fd78c0"
+   },
+   {
+    "adres": "https://extension.psu.edu/making-cider-vinegar-at-home",
+    "miejsce": "Penn State Extension, Making Cider Vinegar at Home, Storing Your Vinegar, to samo miejsce",
+    "cytat": "Use a cooking thermometer to ensure the correct temperature is met. Cool the containers and store at room temperature out of direct sunlight.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "a6c341fd78c0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Zakres temperatury pasteryzacji: NAP-034.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p37 (autor C): karta artisanal-vinegars-v01"
  }
 ]
