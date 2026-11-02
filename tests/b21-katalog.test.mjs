@@ -18,6 +18,8 @@ const B25 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.sta
 const B27 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith("[B27]"))).map((v) => v.id));
 // B28 (2026-11-02-jaratlas-b28-katalog): warianty z notatką [B28] sprawdza tests/b28-katalog.test.mjs.
 const B28 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith("[B28]"))).map((v) => v.id));
+// B29 (2026-11-02-jaratlas-b29-katalog): warianty z notatką [B29] (requiredWarnings kart-ostrzeżeń) sprawdza tests/b29-katalog.test.mjs.
+const B29 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith("[B29]"))).map((v) => v.id));
 const R = new Map(rej.map((t) => [t.id, t]));
 const DEC = "2026-11-02-jaratlas-b21-katalog";
 const h = (x) => createHash("sha256").update(JSON.stringify(x)).digest("hex").slice(0, 12);
@@ -144,7 +146,7 @@ test("B21: poza polami z listy warianty bez cichych zmian; publication ukryta w 
   for (const [id, keys] of Object.entries(POLA)) if (!B25.has(id)) assert.equal(h(bez(V.get(id), keys)), SNAP[id], `${id}: pola poza ${keys.join(", ")} bez zmian`);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
   // D-043 P2-1: reszta katalogu (1350 wariantów spoza porcji i pola najwyższego poziomu poza version) jak w 1.0.13 (4e3dcaa).
-  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B25.has(v.id) && !B27.has(v.id) && !B28.has(v.id))), "a682ddb85307", "warianty spoza B21, B25, B27 i B28 bez zmian (skrót na 1.0.14, 3a2c546; B28 z (h): przeliczony, stary 5826a2f2a7e9)");
+  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B25.has(v.id) && !B27.has(v.id) && !B28.has(v.id) && !B29.has(v.id))), "67512035265c", "warianty spoza B21, B25, B27, B28 i B29 bez zmian (skrót na 1.0.14, 3a2c546; B29: przeliczony, stary a682ddb85307; B28 z (h): stary 5826a2f2a7e9)");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
 });
 

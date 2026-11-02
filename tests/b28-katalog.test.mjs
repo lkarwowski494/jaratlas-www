@@ -17,6 +17,8 @@ const DEC = "2026-11-02-jaratlas-b28-katalog";
 const h = (x) => createHash("sha256").update(JSON.stringify(x)).digest("hex").slice(0, 12);
 const bez = (v, keys) => Object.fromEntries(Object.entries(v).filter(([k]) => !keys.includes(k)));
 const nota = (id) => V.get(id).notes?.find((n) => n.startsWith("[B28]") && n.includes(DEC));
+// B29 (2026-11-02-jaratlas-b29-katalog): warianty z notatką [B29] (requiredWarnings kart-ostrzeżeń) sprawdza tests/b29-katalog.test.mjs.
+const B29 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith("[B29]"))).map((v) => v.id));
 
 const Z26 = [...Array.from({ length: 15 }, (_, i) => `MIE-${150 + i}`), ...Array.from({ length: 8 }, (_, i) => `FER-${120 + i}`)];
 // FER-128: brzmienie z przeglądu D-027 d B28 (P2-4) dla karty zakwasu imbirowego, źródło jak FER-127.
@@ -59,7 +61,7 @@ const SNAP_H = {"dry-cured-sausages-v02":"e7c81fec0dd6","dry-cured-sausages-v03"
 const PRZED = JSON.parse(readFileSync(new URL("./dane/b28-claims-przed.json", import.meta.url), "utf8"));
 
 test("B28: katalog 1.0.17 przechodzi walidację bez błędów", () => {
-  assert.equal(cat.version, "1.0.17");
+  assert.ok(Number(cat.version.split(".")[2]) >= 17 && cat.version.startsWith("1.0."), cat.version); // B29: 1.0.18
   assert.deepEqual(validateCatalog(cat, rej).errors, []);
 });
 
@@ -161,7 +163,7 @@ test("B28: poza polami z listy warianty bez cichych zmian; publication ukryta w 
   assert.deepEqual(Object.keys(SNAP).sort(), [...W.keys()].sort());
   for (const id of W.keys()) assert.equal(h(bez(V.get(id), ZMIENIAJA.includes(id) ? ["safetyStatus", "cardType", "claims", "requiredWarnings", "notes"] : ["notes"])), SNAP[id], `${id}: pola spoza listy bez zmian`);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
-  assert.equal(h(cat.variants.filter((v) => !W.has(v.id) && !(v.id in H))), "90b9723fbdd2", "warianty spoza B28 i (h) bez zmian (skrót na 1.0.16, d85a8aa)");
+  assert.equal(h(cat.variants.filter((v) => !W.has(v.id) && !(v.id in H) && !B29.has(v.id))), "88f71f5574bc", "warianty spoza B28, (h) i B29 bez zmian (skrót na 1.0.16, d85a8aa; B29: przeliczony, stary 90b9723fbdd2)");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
 });
 

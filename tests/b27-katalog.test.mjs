@@ -17,6 +17,8 @@ const h = (x) => createHash("sha256").update(JSON.stringify(x)).digest("hex").sl
 const bez = (v, keys) => Object.fromEntries(Object.entries(v).filter(([k]) => !keys.includes(k)));
 // B28 (2026-11-02-jaratlas-b28-katalog): warianty z notatką [B28] sprawdza tests/b28-katalog.test.mjs.
 const B28 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith("[B28]"))).map((v) => v.id));
+// B29 (2026-11-02-jaratlas-b29-katalog): warianty z notatką [B29] (requiredWarnings kart-ostrzeżeń) sprawdza tests/b29-katalog.test.mjs.
+const B29 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith("[B29]"))).map((v) => v.id));
 const nota = (id) => V.get(id).notes.find((n) => n.startsWith("[B27]") && n.includes(DEC));
 
 // Po D-027 d (P3): OLE-073 „zwykle”, OLE-088 dalszy ciąg zdania MMWR; brzmienie B24 w brzmienieB24, nowy cytat na końcu zrodla.
@@ -140,7 +142,7 @@ test("B27: poza polami z listy warianty bez cichych zmian; publication ukryta w 
   assert.deepEqual(Object.keys(SNAP).sort(), Object.keys(POLA).sort());
   for (const [id, keys] of Object.entries(POLA)) assert.equal(h(bez(V.get(id), keys)), SNAP[id], `${id}: pola poza ${keys.join(", ")} bez zmian`);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
-  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B28.has(v.id))), "a4414eadfed5", "warianty spoza B27 i B28 bez zmian (skrót na 0ecbac7; B28 z (h): przeliczony, stary 219465312ebb)");
+  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B28.has(v.id) && !B29.has(v.id))), "8002093a1543", "warianty spoza B27, B28 i B29 bez zmian (skrót na 0ecbac7; B29: przeliczony, stary a4414eadfed5; B28 z (h): stary 219465312ebb)");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
 });
 
