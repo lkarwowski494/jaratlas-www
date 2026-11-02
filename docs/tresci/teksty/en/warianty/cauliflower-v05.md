@@ -6,7 +6,7 @@ There is no recipe here for British-style piccalilli: cauliflower and other vege
 
 - Cauliflower is a vegetable, and all fresh vegetables except most tomatoes are low-acid foods with a pH above 4.6. [T:ACI-005]
 - Most mixtures of low-acid and acid foods have a pH above 4.6 unless the recipe contains enough lemon juice, citric acid or vinegar. [T:ACI-006]
-- In its Pickled Corn Relish, NCHFP allows the relish to be thickened with a flour paste if desired; this is an exception within that recipe and should not be carried over to other preserves. [T:ACI-423]
+- In its Pickled Corn Relish, NCHFP allows the relish to be thickened with a flour paste if desired; JarAtlas treats this as an exception within that recipe and does not carry it over to other preserves. [T:ACI-423]
 
 ## Why
 

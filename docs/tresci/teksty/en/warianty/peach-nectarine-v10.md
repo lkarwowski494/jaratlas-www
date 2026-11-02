@@ -5,7 +5,7 @@ There is no recipe here for peaches canned in syrup with bourbon or brandy. [T:-
 ## !
 
 - Syrup helps keep the flavor, color and shape of the fruit, but it does not prevent spoilage. [T:ACI-067]
-- Do not use this method for white-flesh peaches: some varieties are higher in pH, and there is no tested process or acidification for them. [T:E3-001]
+- Do not use the NCHFP peach canning process for white-flesh peaches: some varieties are higher in pH, and there is no tested process or acidification for them. [T:E3-001]
 
 ## Why
 

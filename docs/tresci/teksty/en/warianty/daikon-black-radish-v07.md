@@ -9,7 +9,7 @@ There is no recipe here for daikon or black radish in soy sauce. [T:-]
 
 ## Why
 
-The FDA list gives white radishes a pH of about 5.52–5.69. [T:ACI-111]
+The FDA list gives white radishes a pH of about 5.52–5.69; it has no entry for black radish. [T:ACI-111]
 
 Radish is a vegetable, and all fresh vegetables except most tomatoes are low-acid foods with a pH above 4.6. [T:ACI-005]
 

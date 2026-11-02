@@ -5,7 +5,7 @@ There is no recipe here for homemade douchi, Chinese fermented black soybeans, w
 ## !
 
 - Douchi caused a Bacillus cereus outbreak in China that affected 139 people; the strains were isolated from vomit and from the unprepared douchi, and two of them produced the emetic toxin cereulide. [T:NAP-066]
-- Bacillus spores may germinate and produce toxin if cooked rice, barley or other cereals are not cooled within 2 hours before inoculation. [T:NAP-052]
+- According to the BC Centre for Disease Control (guidance for koji and miso), Bacillus spores may germinate and produce toxin if the cooling step for cooked rice, barley or other cereals is not controlled. [T:NAP-052]
 
 ## Why
 

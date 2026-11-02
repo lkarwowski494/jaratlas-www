@@ -5,7 +5,7 @@ There is no recipe here for peach chutney with ginger. [T:-]
 ## !
 
 - The Chutneys section of the NCHFP website lists four recipes: Apple, Mango, Tomato-Apple and Cranberry Orange Chutney. [T:ACI-646]
-- The FDA list gives white onions a pH of about 5.37–5.85. [T:ACI-107]
+- If the chutney contains onion: the FDA list gives white onions a pH of about 5.37–5.85. [T:ACI-107]
 - Most mixtures of low-acid and acid foods have a pH above 4.6 unless the recipe contains enough lemon juice, citric acid or vinegar. [T:ACI-006]
 
 ## Why

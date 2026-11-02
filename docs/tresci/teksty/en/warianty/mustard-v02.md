@@ -11,6 +11,6 @@ There is no recipe here for smooth French Dijon-style mustard made with white wi
 
 In this mustard the acid comes from wine and verjus, and JarAtlas has found no checked source for their acidity. [T:-]
 
-The FDA list gives mustard a wide pH range of about 3.55–6.00. [T:ACI-162]
+The FDA list has an entry “Mustard”, without saying whether it is prepared mustard, with a wide pH range of about 3.55–6.00. [T:ACI-162]
 
 JarAtlas has found no tested recipe for Dijon mustard made with wine and verjus from a checked source. [T:-]

@@ -9,7 +9,7 @@ There is no recipe here for canned cucumber pickles in a vinegar brine with oil 
 
 ## Why
 
-The USDA Complete Guide has only 3 tested procedures for vegetables with oil: marinated peppers, marinated whole mushrooms and marinated three-bean salad, and all of them use acid. [T:OLE-036]
+The USDA Complete Guide has only 3 tested procedures for vegetables with oil: marinated peppers, marinated whole mushrooms and pickled three-bean salad, and all of them use acid. [T:OLE-036]
 
 None of them is a cucumber pickle. [T:OLE-036]
 
