@@ -1,4 +1,4 @@
-# Quick citric-acid mozzarella (UCCE recipe)
+# Citric-acid mozzarella (UCCE recipe)
 
 This card follows the citric-acid mozzarella recipe of the UCCE Master Food Preservers of Amador/Calaveras County, adapted from University of Alaska Fairbanks Extension FNH-00063. [T:MLE-087]
 
@@ -51,7 +51,7 @@ Shape the cheese into balls and cool them in ice water. [T:MLE-088]
 
 ## Storing
 
-Eat the cheese within a week, or freeze it for up to a month. [T:MLE-057]
+Keep the cheese in an airtight container or wrapped in plastic wrap in the refrigerator and eat it within a week, or freeze it for up to a month. [T:MLE-057]
 
 ## Who should be careful
 

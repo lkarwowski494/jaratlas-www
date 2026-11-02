@@ -21961,7 +21961,7 @@
  },
  {
   "id": "MLE-057",
-  "twierdzenie": "Mozzarella na kwasku cytrynowym (UC ANR, za Univ. of Alaska FNH-00063): zjeść w ciągu tygodnia albo zamrozić do miesiąca.",
+  "twierdzenie": "Mozzarella na kwasku cytrynowym (UC ANR, za Univ. of Alaska FNH-00063): przechowywać w szczelnym pojemniku albo owiniętą folią spożywczą w lodówce i zjeść w ciągu tygodnia albo zamrozić do miesiąca.",
   "zrodla": [
    {
     "adres": "https://vms-mfp.ucanr.edu/files/mfp/documents/97892025_Handouts106425.pdf",
@@ -21970,6 +21970,15 @@
     "odczyt": "2026-11-01",
     "szczebel": 3,
     "weryfikacja": "curl+grep",
+    "sha12": "be3d39e510d4"
+   },
+   {
+    "adres": "https://vms-mfp.ucanr.edu/files/mfp/documents/97892025_Handouts106425.pdf",
+    "miejsce": "s. 5, Mozzarella, krok 17",
+    "cytat": "Place it in an airtight container or wrap in plastic wrap and refrigerate.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
     "sha12": "be3d39e510d4"
    }
   ],
@@ -21985,7 +21994,8 @@
   "wartosc": 7,
   "jednostka": "dni",
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-01",
+  "twierdzenie_en": "Citric-acid mozzarella (UC ANR, after Univ. of Alaska FNH-00063): keep it in an airtight container or wrapped in plastic wrap in the refrigerator and eat it within a week, or freeze it for up to a month."
  },
  {
   "id": "MLE-058",
@@ -22340,8 +22350,8 @@
  },
  {
   "id": "MLE-074",
-  "twierdzenie": "Illinois Extension: mleko na jogurt podgrzewa się powoli, od czasu do czasu mieszając, żeby nie przywarło, i kontroluje temperaturę termometrem; mleko ze starterem wlewa się do pojemników szklanych, z plastiku do żywności lub metalowych i przykrywa pokrywką; przy jogurtownicy i innych urządzeniach postępuje się według instrukcji producenta.",
-  "twierdzenie_en": "Illinois Extension: milk for yogurt is heated slowly, stirring occasionally so it does not burn on the bottom, and the temperature is checked with a thermometer; the inoculated milk is poured into glass, food-safe plastic or metal containers and covered with a lid; with a yogurt maker or other appliance, follow the manufacturer’s instructions.",
+  "twierdzenie": "Illinois Extension: mleko na jogurt podgrzewa się powoli, od czasu do czasu mieszając, żeby nie przywarło, i kontroluje temperaturę termometrem; mleko ze starterem wlewa się do pojemników szklanych, z plastiku do żywności lub metalowych i przykrywa pokrywką; przy komercyjnych jogurtownicach, elektrycznych szybkowarach i elektrycznych suszarkach postępuje się według instrukcji producenta.",
+  "twierdzenie_en": "Illinois Extension: milk for yogurt is heated slowly, stirring occasionally so it does not burn on the bottom, and the temperature is checked with a thermometer; the inoculated milk is poured into glass, food-safe plastic or metal containers and covered with a lid; with a commercial yogurt maker, electric pressure cooker or electric dehydrator, follow the manufacturer’s instructions.",
   "zrodla": [
    {
     "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
@@ -22364,13 +22374,13 @@
  },
  {
   "id": "MLE-075",
-  "twierdzenie": "Illinois Extension (rozwiązywanie problemów): jogurt nie tężeje, gdy starter nie zawierał żywych kultur, temperatura inkubacji była za wysoka lub za niska albo sprzęt nie był czysty; rozwarstwia się, gdy inkubacja trwała za długo, jogurtu nie schłodzono szybko po inkubacji albo mleko nie było dość podgrzane przed dodaniem startera; obcy smak dają nieświeże mleko, nieświeży starter albo nieczysty sprzęt.",
-  "twierdzenie_en": "Illinois Extension (troubleshooting): yogurt does not set when the starter had no live cultures, the incubation temperature was too hot or too cold, or the equipment was not clean; it separates when it was incubated too long, was not refrigerated soon after incubation, or the milk was not heated enough before the starter was added; off-flavours come from milk or starter that was not fresh, or from equipment that was not clean.",
+  "twierdzenie": "Illinois Extension (rozwiązywanie problemów): jogurt nie tężeje, gdy starter nie zawierał żywych kultur, temperatura inkubacji była za wysoka lub za niska albo sprzęt nie był czysty; rozwarstwia się, gdy inkubacja trwała za długo, jogurtu nie schłodzono szybko po inkubacji albo mleko nie było dość podgrzane przed dodaniem startera; obcy smak dają nieświeże mleko, nieświeży starter albo nieczysty sprzęt. Według tej samej tabeli obcy smak powoduje też brak przykrycia jogurtu podczas inkubacji.",
+  "twierdzenie_en": "Illinois Extension (troubleshooting): yogurt does not set when the starter had no live cultures, the incubation temperature was too hot or too cold, or the equipment was not clean; it separates when it was incubated too long, was not refrigerated soon after incubation, or the milk was not heated enough before the starter was added; off-flavours come from milk or starter that was not fresh, or from equipment that was not clean. The same table also lists yogurt that was not covered while incubating as a cause of off-flavours.",
   "zrodla": [
    {
     "adres": "https://extension.illinois.edu/sites/default/files/2024-05/yogurt_final.pdf",
     "miejsce": "Troubleshooting: Problems and Causes",
-    "cytat": "Yogurt incubated for too long. … Temperature too hot or cold … Milk was not heated enough … Equipment not clean. … Milk was not fresh. … Yogurt starter was not fresh.",
+    "cytat": "Yogurt incubated for too long. … Temperature too hot or cold … Milk was not heated enough … Equipment not clean. … Milk was not fresh. … Yogurt starter was not fresh. … Yogurt was not covered",
     "odczyt": "2026-11-02",
     "szczebel": 3,
     "weryfikacja": "pdftotext -layout + grep -F (każdy fragment cytatu osobno)",
@@ -22502,8 +22512,8 @@
  },
  {
   "id": "MLE-080",
-  "twierdzenie": "Queso fresco (PNW539, Washington State Univ.; też NMSU E-216): 1 tabletka podpuszczki rozpuszczona w 1/2 szklanki zimnej wody, 1 kwarta pasteryzowanej maślanki hodowlanej, 2 kwarty pasteryzowanego mleka pełnego (krowiego, koziego lub owczego), 7 łyżeczek (2 łyżki + 1 łyżeczka) białego octu (NMSU: o kwasowości 5%) i 3/4 łyżeczki soli; mleko pełne albo 2%, nie chudsze.",
-  "twierdzenie_en": "Queso fresco (PNW539, Washington State Univ.; also NMSU E-216): 1 rennet tablet dissolved in 1/2 cup of cold water, 1 quart of pasteurized cultured buttermilk, 2 quarts of pasteurized whole milk (cow, goat or sheep), 7 teaspoons (2 tablespoons + 1 teaspoon) of white vinegar (NMSU: 5% acidity) and 3/4 teaspoon of salt; whole or 2% milk, no less.",
+  "twierdzenie": "Queso fresco (PNW539, Washington State Univ.; też NMSU E-216): 1 tabletka podpuszczki rozpuszczona w 1/2 szklanki zimnej wody, 1 kwarta pasteryzowanej maślanki hodowlanej, 2 kwarty pasteryzowanego mleka pełnego (krowiego, koziego lub owczego), 7 łyżeczek (2 łyżki + 1 łyżeczka) białego octu (NMSU: o kwasowości 5%) i 3/4 łyżeczki soli (ilość soli według PNW539; wersja NMSU podaje inną ilość); mleko pełne albo 2%, nie chudsze.",
+  "twierdzenie_en": "Queso fresco (PNW539, Washington State Univ.; also NMSU E-216): 1 rennet tablet dissolved in 1/2 cup of cold water, 1 quart of pasteurized cultured buttermilk, 2 quarts of pasteurized whole milk (cow, goat or sheep), 7 teaspoons (2 tablespoons + 1 teaspoon) of white vinegar (NMSU: 5% acidity) and 3/4 teaspoon of salt (salt amount from PNW539; the NMSU version gives a different amount); whole or 2% milk, no less.",
   "zrodla": [
    {
     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341228.pdf",

@@ -1,4 +1,4 @@
-# Bulgarian-style sour yogurt (Illinois Extension recipe)
+# Bulgarian-style yogurt (Illinois Extension recipe)
 
 The Codex Alimentarius defines yogurt as milk fermented by symbiotic cultures of Streptococcus thermophilus and Lactobacillus delbrueckii subsp. bulgaricus. [T:MLE-031]
 

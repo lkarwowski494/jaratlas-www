@@ -1,4 +1,4 @@
-# Thick plain yogurt (Illinois Extension recipe)
+# Plain yogurt (Illinois Extension recipe)
 
 This card follows the University of Illinois Extension basic yogurt recipe: the milk is heated to 180–185 °F (82–85 °C) and the yogurt is incubated at 108–115 °F (42–46 °C). [T:MLE-024,MLE-026]
 
@@ -37,7 +37,7 @@ Pour the milk into glass, food-safe plastic or metal containers and cover them w
 
 Incubate at 108–115 °F (42–46 °C) for 6–10 hours without moving the containers. [T:MLE-026]
 
-If you use a yogurt maker or another appliance, follow the manufacturer’s instructions. [T:MLE-074]
+If you use a commercial yogurt maker, electric pressure cooker or electric dehydrator, follow the manufacturer’s instructions. [T:MLE-074]
 
 ## Storing
 
@@ -53,7 +53,7 @@ Illinois Extension says yogurt does not set when the starter had no live culture
 
 It separates when it was incubated too long, was not refrigerated soon after incubation, or the milk was not heated enough before the starter went in. [T:MLE-075]
 
-Off-flavours come from milk or starter that was not fresh, or from equipment that was not clean. [T:MLE-075]
+Off-flavours come from milk or starter that was not fresh, from equipment that was not clean, or from yogurt that was not covered while incubating. [T:MLE-075]
 
 Fermented dairy products must reach a pH of 4.6 or less within 48 hours to be considered pathogen-free. [T:MLE-021]
 

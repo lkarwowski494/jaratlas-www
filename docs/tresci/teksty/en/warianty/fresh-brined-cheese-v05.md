@@ -12,7 +12,7 @@ This card gives two tested Extension recipes: queso fresco with buttermilk and r
 
 Make these cheeses only from pasteurized milk; raw milk must be pasteurized before it is used for cheese. [T:MLE-015]
 
-To pasteurize raw milk for queso fresco, UCCE heats it in an uncovered pan to 145 °F (63 °C) for 30 minutes and then cools it below 90 °F (32 °C). [T:MLE-016]
+To pasteurize raw milk for queso fresco, PNW539 (WSU Extension) heats it in an uncovered pan to 145 °F (63 °C) for 30 minutes and then cools it below 90 °F (32 °C). [T:MLE-016]
 
 Temperatures below 145 °F (63 °C) do not kill harmful bacteria in milk. [T:MLE-012]
 
@@ -22,7 +22,7 @@ If the temperature drops below 145 °F (63 °C), heat the milk again and start t
 
 The PNW539 recipe uses 1 rennet tablet dissolved in 1/2 cup of cold water, 1 quart of pasteurized cultured buttermilk and 2 quarts of pasteurized whole milk from a cow, goat or sheep. [T:MLE-080]
 
-It also uses 7 teaspoons (2 tablespoons + 1 teaspoon) of white vinegar, of 5% acidity in the NMSU version, and 3/4 teaspoon of salt. [T:MLE-080]
+It also uses 7 teaspoons (2 tablespoons + 1 teaspoon) of white vinegar, of 5% acidity in the NMSU version, and 3/4 teaspoon of salt (the salt amount is from PNW539; the NMSU version gives a different amount). [T:MLE-080]
 
 Use whole or 2% milk, nothing with less fat. [T:MLE-080]
 
