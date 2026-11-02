@@ -18,6 +18,7 @@ test('C2-06: „percent” w en to ten sam symbol co „%” w przekładzie', ()
   assert.deepEqual(symbole('about 20 percent moisture'), ['%']);
   assert.deepEqual(porownaj('They should contain about 10 percent moisture. [T:SUS-017]', 'Powinny zawierać ok. 10% wilgoci. [T:SUS-017]', 'pl'), []);
   assert.deepEqual(porownaj('a 30 percent syrup', 'syrop 30 procent', 'pl'), []);
+  assert.deepEqual(porownaj('cover with cold 50 percent syrup', 'zalej zimnym syropem 50-procentowym', 'pl'), []); // forma z prawdziwych kart (currant-v15)
   // „percent” zamieniony na inną jednostkę nadal jest wykrywany
   assert.ok(rodzaje(porownaj('about 10 percent moisture', 'ok. 10 g wilgoci', 'pl')).includes('symbole'));
 });
