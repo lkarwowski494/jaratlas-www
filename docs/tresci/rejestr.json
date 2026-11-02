@@ -27721,5 +27721,807 @@
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-259",
+  "twierdzenie": "NCHFP Zucchini-Pineapple, składniki na ok. 8–9 słoików pint: 4 quarty (ok. 3,8 l) cukinii w kostkę albo startej, 46 uncji niesłodzonego soku ananasowego z puszki, 1 1/2 szklanki butelkowanego soku z cytryny, 3 szklanki cukru.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/zucchini-pineapple/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Zucchini-Pineapple, składniki",
+    "cytat": "4 qts cubed or shredded zucchini 46 oz canned unsweetened pineapple juice 1½ cups bottled lemon juice 3 cups sugar Yield: About 8 to 9 pints",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "31bc43184ec3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "4 quarty = 4 × 946 ml ≈ 3,79 l (ACI-174), w karcie „ok. 3,8 l”.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-260",
+  "twierdzenie": "Uncja płynu USA (fl oz) to 29,573 53 ml, więc 46 uncji płynu to ok. 1360 ml (ok. 1,36 l). Ostrożne odczytanie JarAtlas: „46 oz” soku w przepisie NCHFP karta liczy jako uncje płynu (ok. 1,36 l); to większa z dwóch możliwych ilości soku (46 uncji wagi to ok. 1,30 kg), czyli więcej kwaśnego soku, nie mniej.",
+  "zrodla": [
+   {
+    "adres": "https://nvlpubs.nist.gov/nistpubs/hb/2025/NIST.HB.44-2025.pdf",
+    "miejsce": "NIST Handbook 44 (2025), Appendix C, Units of Liquid Volume",
+    "cytat": "1 fluid ounce (fl oz) = 0.001 044 379 29.573 53 0.029 573 53",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "3f762eb83ea0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Rachunek: 46 × 29,573 53 = 1360,4 ml. Przepis pisze „46 oz” bez „fl”; odczytanie jako uncje płynu to wniosek JarAtlas, nie zdanie źródła.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "decyzja": "2026-11-02-jaratlas-06-karty-p7",
+  "zalezy_od": [
+   "ACI-174"
+  ]
+ },
+ {
+  "id": "ACI-261",
+  "twierdzenie": "NCHFP Zucchini-Pineapple: cukinię obrać i pokroić w kostkę 1/2 cala (ok. 1,3 cm) albo zetrzeć; wymieszać z pozostałymi składnikami w dużym garnku, doprowadzić do wrzenia i gotować na małym ogniu 20 minut; napełnić słoiki gorącą mieszaniną i płynem z gotowania, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; założyć pokrywki i wekować.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/zucchini-pineapple/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Zucchini-Pineapple, Procedure",
+    "cytat": "Peel zucchini and either cut into ½-inch cubes or shred. Mix zucchini with other ingredients in a large saucepan and bring to a boil. Simmer 20 minutes. Fill jars with hot mixture and cooking liquid, leaving ½-inch headspace. Adjust lids and process.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "31bc43184ec3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-262",
+  "twierdzenie": "NCHFP Zucchini-Pineapple, tabela 1 (kąpiel wodna, nakładanie na gorąco): czasy podane tylko dla słoików 1/2 pinty i pint; 0–1000 stóp: 15 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/zucchini-pineapple/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Zucchini-Pineapple, Table 1",
+    "cytat": "Hot Half-pints or Pints 15 min 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "31bc43184ec3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-263",
+  "twierdzenie": "NCHFP Zucchini-Pineapple, tabela 1: słoiki 1/2 pinty i pint, 1001–6000 stóp: 20 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/zucchini-pineapple/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Zucchini-Pineapple, Table 1",
+    "cytat": "Hot Half-pints or Pints 15 min 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "31bc43184ec3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-264",
+  "twierdzenie": "NCHFP Zucchini-Pineapple, tabela 1: słoiki 1/2 pinty i pint, powyżej 6000 stóp: 25 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/zucchini-pineapple/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Zucchini-Pineapple, Table 1",
+    "cytat": "Hot Half-pints or Pints 15 min 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "31bc43184ec3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-265",
+  "twierdzenie": "Ostrożna reguła JarAtlas dla przepisów NCHFP zakwaszanych octem albo sokiem z cytryny: nie zmieniaj ilości składników kwaśnych (ocet, sok z cytryny, sok owocowy) ani warzyw; nie zmniejszaj ilości octu; przepis jest przetestowany tylko w podanych proporcjach.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Golden Pepper Jelly, Notes (3)",
+    "cytat": "The addition of vinegar to the low-acid sweet and hot peppers makes this recipe safe for boiling water canning. Do not reduce the amount of vinegar.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "90a783bdbf7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Uogólnienie JarAtlas z uwagi NCHFP do Golden Pepper Jelly i z ACI-016 (proporcje octu, warzyw i wody) na inne przepisy zakwaszane (sok z cytryny, sok ananasowy); działa w stronę bezpieczną.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "decyzja": "2026-11-02-jaratlas-06-karty-p7",
+  "zalezy_od": [
+   "ACI-016",
+   "ACI-017"
+  ]
+ },
+ {
+  "id": "ACI-266",
+  "twierdzenie": "NCHFP Marinated Peppers (papryka słodka, węgierska, bananowa albo jalapeño), składniki na ok. 9 słoików 1/2 pinty: 4 funty (ok. 1,8 kg) jędrnej papryki, 1 szklanka butelkowanego soku z cytryny, 2 szklanki białego octu (5%), 1 łyżka liści oregano, 1 szklanka oliwy albo oleju sałatkowego, 1/2 szklanki posiekanej cebuli, 2 ząbki czosnku pokrojone na ćwiartki (opcjonalnie), 2 łyżki gotowego chrzanu (opcjonalnie).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-peppers/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Marinated Peppers, składniki",
+    "cytat": "Bell, Hungarian, Banana, or Jalapeno 4 lbs firm peppers* 1 cup bottled lemon juice 2 cups white vinegar (5 percent) 1 tbsp oregano leaves 1 cup olive or salad oil 1/2 cup chopped onions 2 cloves garlic, quartered (optional) 2 tbsp prepared horseradish (optional) Yield: About 9 half-pints.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6cc0ebcc5a10"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "4 funty = 4 × 0,4536 kg ≈ 1,81 kg, w karcie „ok. 1,8 kg”.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-267",
+  "twierdzenie": "NCHFP: przy obieraniu i krojeniu ostrej papryki nosić rękawice plastikowe albo gumowe i nie dotykać twarzy; bez rękawic umyć dokładnie ręce wodą z mydłem przed dotknięciem twarzy albo oczu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-peppers/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Marinated Peppers, Procedure, Caution",
+    "cytat": "Caution: Wear plastic or rubber gloves and do not touch your face while handling or cutting hot peppers. If you do not wear gloves, wash hands thoroughly with soap and water before touching your face or eyes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6cc0ebcc5a10"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Golden Pepper Jelly, Caution",
+    "cytat": "Caution: Wear plastic or rubber gloves and do not touch your face while handling or cutting hot peppers. If you do not wear gloves, wash hands thoroughly with soap and water before touching your face or eyes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "90a783bdbf7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-268",
+  "twierdzenie": "NCHFP Marinated Peppers: papryki można zostawić w całości, duże pokroić na ćwiartki; umyć, naciąć każdą 2–4 razy i zblanszować we wrzącej wodzie albo opalić skórkę, żeby obrać ostre papryki o twardej skórce. Opalanie: w piekarniku albo pod grillem w 400 °F (ok. 204 °C) 6–8 minut, aż skórka zrobi bąble, albo na palniku przykrytym grubą siatką drucianą przez kilka minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-peppers/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Marinated Peppers, Procedure",
+    "cytat": "Peppers may be left whole. Large peppers may be quartered. Wash, slash two to four slits in each pepper, and blanch in boiling water or blister in order to peel tough-skinned hot peppers.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6cc0ebcc5a10"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-peppers/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Marinated Peppers, Procedure",
+    "cytat": "Oven or broiler method: Place peppers in a hot oven (400ºF) or broiler for 6-8 minutes or until skins blister. Range-top method: Cover hot burner, either gas or electric, with heavy wire mesh. Place peppers on burner for several minutes until skins blister.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6cc0ebcc5a10"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "400 °F = (400 − 32) × 5/9 = 204,4 °C, w karcie „ok. 204 °C”.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-269",
+  "twierdzenie": "NCHFP Marinated Peppers: papryki ostudzić, włożyć do garnka i przykryć wilgotną ściereczką (łatwiej obrać); po kilku minutach obrać każdą paprykę; całe papryki spłaszczyć.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-peppers/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Marinated Peppers, Procedure",
+    "cytat": "Allow peppers to cool. Place in pan and cover with a damp cloth. This will make peeling the peppers easier. After several minutes of cooling, peel each pepper. Flatten whole peppers.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6cc0ebcc5a10"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-270",
+  "twierdzenie": "NCHFP Marinated Peppers: pozostałe składniki wymieszać w garnku i doprowadzić do wrzenia; do każdego słoika 1/2 pinty włożyć 1/4 ząbka czosnku (opcjonalnie) i 1/4 łyżeczki soli, do słoika pint 1/2 łyżeczki soli; napełnić słoiki papryką, zalać gorącą, dobrze wymieszaną zalewą z olejem, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; założyć pokrywki i wekować według tabeli 1.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-peppers/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Marinated Peppers, Procedure",
+    "cytat": "Mix all remaining ingredients in a saucepan and heat to boiling. Place 1/4 garlic clove (optional) and 1/4 teaspoon salt in each half pint or 1/2 teaspoon per pint. Fill jars with peppers, add hot, well-mixed oil/pickling solution over peppers, leaving 1/2-inch headspace. Adjust lids and process according to the recommendations in Table 1.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6cc0ebcc5a10"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-271",
+  "twierdzenie": "NCHFP Marinated Peppers, tabela 1 (kąpiel wodna, nakładanie na surowo, czasy tylko dla słoików 1/2 pinty i pint): 0–1000 stóp: 15 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-peppers/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Marinated Peppers, Table 1",
+    "cytat": "Raw Half-pints and pints 15 min 20 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6cc0ebcc5a10"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-272",
+  "twierdzenie": "NCHFP Marinated Peppers, tabela 1 (kąpiel wodna, nakładanie na surowo, czasy tylko dla słoików 1/2 pinty i pint): 1001–3000 stóp: 20 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-peppers/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Marinated Peppers, Table 1",
+    "cytat": "Raw Half-pints and pints 15 min 20 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6cc0ebcc5a10"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-273",
+  "twierdzenie": "NCHFP Marinated Peppers, tabela 1 (kąpiel wodna, nakładanie na surowo, czasy tylko dla słoików 1/2 pinty i pint): 3001–6000 stóp: 20 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-peppers/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Marinated Peppers, Table 1",
+    "cytat": "Raw Half-pints and pints 15 min 20 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6cc0ebcc5a10"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-274",
+  "twierdzenie": "NCHFP Marinated Peppers, tabela 1 (kąpiel wodna, nakładanie na surowo, czasy tylko dla słoików 1/2 pinty i pint): powyżej 6000 stóp: 25 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-peppers/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Marinated Peppers, Table 1",
+    "cytat": "Raw Half-pints and pints 15 min 20 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6cc0ebcc5a10"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-275",
+  "twierdzenie": "NCHFP Corncob Jelly with Pectin, składniki: na wywar 12 (tuzin) średnich świeżych kolb czerwonej kukurydzy pastewnej (same kolby) i 2 quarty (ok. 1,9 l) wody; na galaretkę 3 szklanki wywaru, 1 opakowanie (1 3/4 uncji) pektyny w proszku, 3 szklanki cukru; wychodzi ok. 4 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/corncob-jelly-with-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corncob Jelly with Pectin, składniki",
+    "cytat": "1 dozen medium-sized fresh red corncobs from field corn (cobs only) 2 quarts water To make jelly: 3 cups corncob juice 1 (1¾ ounce) package powdered pectin* 3 cups sugar Yield: About 4 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fbd7d6bf3d61"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "2 quarty = 2 × 946 ml ≈ 1,89 l, w karcie „ok. 1,9 l”.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-276",
+  "twierdzenie": "NCHFP Corncob Jelly: kolby umyć i pokroić na kawałki 4 cale (ok. 10 cm), włożyć do dużego garnka, dodać 2 quarty wody albo tyle, żeby przykryła, doprowadzić do wrzenia; zmniejszyć ogień i gotować powoli 35–40 minut; przecedzić przez podwójną warstwę gazy albo worek do galaretek, nie wyciskając go.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/corncob-jelly-with-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corncob Jelly with Pectin, Procedure, To Prepare Juice",
+    "cytat": "Wash the corncobs and cut into 4-inch lengths. Place in a large stockpot, add 2 quarts water or enough to cover, and bring to a boil. Reduce heat and boil slowly for 35 to 40 minutes. Strain the juice through a double layer of cheesecloth or a jelly bag. Allow juice to drip through the cloth, using a stand or colander; do not press or squeeze the bag or cloth.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fbd7d6bf3d61"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "4 cale = 10,16 cm, w karcie „ok. 10 cm”.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-277",
+  "twierdzenie": "NCHFP Corncob Jelly: odmierzyć 3 szklanki wywaru (w razie potrzeby dolać wody do 3 szklanek), wmieszać pektynę i doprowadzić do wrzenia; dodać cały cukier naraz i mieszając doprowadzić znowu do pełnego, burzliwego wrzenia; gotować 5 minut; zdjąć z ognia i szybko zebrać pianę.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/corncob-jelly-with-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corncob Jelly with Pectin, Procedure, To Make Jelly",
+    "cytat": "Measure 3 cups of corncob juice into a large saucepot. (Water may be added if needed to make 3 cups liquid.) Stir in the pectin and bring to a boil. Add the sugar all at once, and bring the mixture back to a full roiling boil while stirring. Boil for 5 minutes. Remove from heat; skim off foam quickly.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fbd7d6bf3d61"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-278",
+  "twierdzenie": "NCHFP Corncob Jelly: gorącą galaretkę od razu nalać do gorących słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; brzegi przetrzeć zwilżonym czystym ręcznikiem papierowym, założyć dwuczęściowe metalowe pokrywki i wekować w kąpieli wodnej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/corncob-jelly-with-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corncob Jelly with Pectin, Procedure",
+    "cytat": "Pour hot jelly immediately into hot, sterile jars, leaving ¼-inch headspace. Wipe rims of jars with a dampened clean paper towel; adjust two-piece metal canning lids. Process in a Boiling Water Canner.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fbd7d6bf3d61"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "1/4 cala = 0,635 cm, w karcie „ok. 0,6 cm” (o 0,035 cm mniej wolnej przestrzeni; bez znaczenia dla bezpieczeństwa, jak SLO-003).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-279",
+  "twierdzenie": "NCHFP Corncob Jelly, tabela 1: czasy podane tylko dla słoików 1/2 pinty i pint. Uwaga (2): zamiast wcześniejszej sterylizacji słoików można je umyć i wypłukać w gorącej wodzie i trzymać gorące do napełnienia; wtedy czas kąpieli wodnej wydłuża się i wynosi 10 minut na 0–1000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/corncob-jelly-with-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corncob Jelly with Pectin, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fbd7d6bf3d61"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/corncob-jelly-with-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corncob Jelly with Pectin, Additional Notes (2)",
+    "cytat": "Instead of pre-sterilizing jars, you have the option of washing and rinsing jars in hot water and then keeping them hot until filling. Then the process time is increased and becomes 10 min. (0-1,000 ft), 15 min. (1,001-6,000 ft.) or 20 min. (above 6,000 ft).",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fbd7d6bf3d61"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-280",
+  "twierdzenie": "NCHFP Corncob Jelly, słoiki niesterylizowane wcześniej (uwaga 2), 1001–6000 stóp: 15 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/corncob-jelly-with-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corncob Jelly with Pectin, Additional Notes (2)",
+    "cytat": "Then the process time is increased and becomes 10 min. (0-1,000 ft), 15 min. (1,001-6,000 ft.) or 20 min. (above 6,000 ft).",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fbd7d6bf3d61"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-281",
+  "twierdzenie": "NCHFP Corncob Jelly, słoiki niesterylizowane wcześniej (uwaga 2), powyżej 6000 stóp: 20 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/corncob-jelly-with-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corncob Jelly with Pectin, Additional Notes (2)",
+    "cytat": "Then the process time is increased and becomes 10 min. (0-1,000 ft), 15 min. (1,001-6,000 ft.) or 20 min. (above 6,000 ft).",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fbd7d6bf3d61"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-282",
+  "twierdzenie": "NCHFP Corncob Jelly: do testów użyto pektyny SURE-JELL Premium Fruit Pectin; przepis w przetestowanej postaci daje galaretkę kwaśną.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/corncob-jelly-with-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corncob Jelly with Pectin, Additional Notes",
+    "cytat": "* For testing, SURE-JELL Premium Fruit Pectin was used. 1) This recipe does produce an acidic jelly as tested.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fbd7d6bf3d61"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-283",
+  "twierdzenie": "Ostrożna reguła JarAtlas dla galaretki z kolb (NCHFP Corncob Jelly): NCHFP potwierdza kwaśność galaretki tylko w przetestowanej postaci (kolby czerwonej kukurydzy pastewnej, pektyna użyta w teście), a sama kukurydza jest niskokwasowa; JarAtlas nie zna danych dla kolb kukurydzy cukrowej ani innych zamian, więc zaleca trzymać się przepisu dokładnie, bez zamiany kolb i bez zmiany proporcji.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/corncob-jelly-with-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Corncob Jelly with Pectin, Additional Notes",
+    "cytat": "1) This recipe does produce an acidic jelly as tested.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fbd7d6bf3d61"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła: „as tested” ogranicza potwierdzenie kwaśności do przetestowanej postaci; pH kukurydzy cukrowej 7,3 (SLO-035).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "decyzja": "2026-11-02-jaratlas-06-karty-p7",
+  "zalezy_od": [
+   "ACI-282",
+   "SLO-035"
+  ]
+ },
+ {
+  "id": "ACI-284",
+  "twierdzenie": "NCHFP Golden Pepper Jelly, składniki na ok. 5 słoików 1/2 pinty: 5 szklanek posiekanej żółtej papryki (ok. 4 duże mięsiste papryki), 1/2 szklanki posiekanych papryczek serrano (ok. 5 sztuk), 1 1/2 szklanki białego octu destylowanego (5%), 5 szklanek cukru, 1 saszetka (3 uncje) pektyny w płynie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Golden Pepper Jelly, składniki",
+    "cytat": "5 cups chopped yellow bell peppers (about 4 large fleshy peppers as purchased) 1/2 cup chopped Serrano chile peppers (about 5 peppers as purchased) 1-1/2 cups white distilled vinegar (5%) 5 cups sugar 1 pouch (3 ounces) liquid pectin Yield: About 5 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "90a783bdbf7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-285",
+  "twierdzenie": "NCHFP Golden Pepper Jelly, sok z papryki: papryki umyć, usunąć ogonki i nasiona (w ostrych papryczkach zostawić błony, bo tam jest ostrość); zmiksować z taką ilością octu, żeby powstało purée; purée i resztę octu przełożyć do garnka 8–10 quartów, doprowadzić do wrzenia i gotować 10 minut; zdjąć z ognia i przecedzić przez worek do galaretek (albo kilka warstw gazy).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Golden Pepper Jelly, Procedure 2–5",
+    "cytat": "Wash all peppers thoroughly; remove stems and seeds from the peppers. Do not remove the membrane from the hot peppers, since the remaining capsaicin for pepper heat is located there. 3. Place sweet and hot peppers in a blender or food processor. Add enough vinegar to purée the peppers, then purée. 4. Combine the pepper-vinegar purée and remaining vinegar into an 8- or 10-quart saucepan. Heat to a boil; then boil 10 minutes to extract flavors and color. 5. Remove from heat and strain through a jelly bag into a bowl. (The jelly bag is preferred; several layers of cheesecloth may also be used.)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "90a783bdbf7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-286",
+  "twierdzenie": "NCHFP Golden Pepper Jelly, galaretka: odmierzyć 2 1/4 szklanki przecedzonego soku z papryki i octu, wmieszać cukier do rozpuszczenia i znowu doprowadzić do wrzenia; dodać pektynę, doprowadzić do pełnego, burzliwego wrzenia i gotować mocno 1 minutę, cały czas mieszając; zdjąć z ognia i szybko zebrać pianę.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Golden Pepper Jelly, Procedure 6",
+    "cytat": "Measure 2-1/4 cups of the strained pepper-vinegar juice into the 8- to 10-quart saucepan. Stir in sugar until dissolved and return mixture to a boil. Add the pectin, return to a full rolling boil and boil hard for 1 minute, stirring constantly. Remove from heat; skim off foam quickly.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "90a783bdbf7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-287",
+  "twierdzenie": "NCHFP Golden Pepper Jelly: gorącą galaretkę od razu nalać do gorących słoików 1/2 pinty, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; brzegi przetrzeć zwilżonym czystym ręcznikiem papierowym, założyć pokrywki i wekować w kąpieli wodnej według tabeli 1; po wekowaniu zostawić słoiki do ostygnięcia bez ruszania na 12–24 godziny i sprawdzić, czy pokrywki się zassały.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Golden Pepper Jelly, Procedure 7–9",
+    "cytat": "Fill hot jelly immediately into hot, pre-sterilized half-pint jars, leaving 1/4-inch headspace. Wipe rims of jars with a dampened clean paper towel. Apply and adjust prepared lids. 8. Process filled jars in a boiling water canner according to the recommendations in Table 1 . 9. Let processed jars cool, undisturbed, 12 to 24 hours and check for vacuum seals.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "90a783bdbf7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "1/4 cala = 0,635 cm, w karcie „ok. 0,6 cm”.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-288",
+  "twierdzenie": "NCHFP Golden Pepper Jelly, tabela 1: czasy tylko dla słoików 1/2 pinty. Opcjonalny proces 10-minutowy (może dać silniejsze podciśnienie w słoiku): słoików nie trzeba wcześniej sterylizować, wystarczy je umyć, wypłukać i trzymać gorące do napełnienia; 0–1000 stóp: 10 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Golden Pepper Jelly, Table 1",
+    "cytat": "The following optional 10-minute boiling water process can also be used and may provide a stronger vacuum in the jar. Jars would not need to be pre-sterilized, but could be washed, rinsed and kept hot until filling. Hot Half-pints 10 min 15 20",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "90a783bdbf7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-289",
+  "twierdzenie": "NCHFP Golden Pepper Jelly, proces 10-minutowy (słoiki 1/2 pinty niesterylizowane wcześniej), 1001–6000 stóp: 15 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Golden Pepper Jelly, Table 1",
+    "cytat": "Hot Half-pints 10 min 15 20",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "90a783bdbf7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-290",
+  "twierdzenie": "NCHFP Golden Pepper Jelly, proces 10-minutowy (słoiki 1/2 pinty niesterylizowane wcześniej), powyżej 6000 stóp: 20 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Golden Pepper Jelly, Table 1",
+    "cytat": "Hot Half-pints 10 min 15 20",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "90a783bdbf7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-291",
+  "twierdzenie": "NCHFP Golden Pepper Jelly: dodatek octu do niskokwasowej papryki słodkiej i ostrej sprawia, że ten przepis jest bezpieczny do wekowania w kąpieli wodnej; nie zmniejszać ilości octu; ilości octu i cukru są też potrzebne, żeby pektyna utworzyła żel.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Golden Pepper Jelly, Notes (3)",
+    "cytat": "The addition of vinegar to the low-acid sweet and hot peppers makes this recipe safe for boiling water canning. Do not reduce the amount of vinegar. The amounts of vinegar and sugar are also necessary to provide the conditions required to form a gel with the added pectin.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "90a783bdbf7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-292",
+  "twierdzenie": "NCHFP Golden Pepper Jelly: zamiast żółtej można użyć papryki słodkiej w innym kolorze (galaretka będzie miała inny kolor) i innych ostrych papryczek.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Golden Pepper Jelly, Notes (1)",
+    "cytat": "Other color sweet peppers can be substituted, but these will provide a different jelly color. Other hot peppers can also be substituted.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "90a783bdbf7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-293",
+  "twierdzenie": "NCHFP Golden Pepper Jelly: galaretkę, która została po napełnieniu słoików, trzymać w lodówce; po otwarciu zamkniętego słoika trzymać galaretkę w lodówce.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Golden Pepper Jelly, Notes (4)",
+    "cytat": "Refrigerate any leftover jelly from filling jars, if any, and enjoy freshly made. Refrigerate the jelly once sealed jars are opened for use.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "90a783bdbf7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-294",
+  "twierdzenie": "Ostrożna reguła JarAtlas: gdy tabela przepisu NCHFP podaje czasy tylko dla słoików 1/2 pinty, słoik 1/2 pinty to połowa pinty, ok. 236,6 ml (473,18 ml / 2); słoik większy, np. 0,25 l albo 0,5 l, nie ma przetestowanego czasu, więc JarAtlas zaleca słoik do 236 ml (np. 0,2 l albo słoik 1/2 pinty).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Golden Pepper Jelly, Table 1",
+    "cytat": "Hot Half-pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "90a783bdbf7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła (jak ACI-179). Granica 236,6 ml zaokrąglona w dół do 236 ml, jak 473 ml w ACI-179.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "decyzja": "2026-11-02-jaratlas-06-karty-p7",
+  "zalezy_od": [
+   "ACI-174",
+   "ACI-179"
+  ]
  }
 ]
