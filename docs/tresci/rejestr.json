@@ -33596,5 +33596,113 @@
   "przeglad": null,
   "wazne_do": "2027-11-02",
   "klaster": "SLO"
+ },
+ {
+  "id": "SLO-266",
+  "twierdzenie": "NCHFP Freezing Kohlrabi: wybrać zgrubienia w pełni wyrośnięte, ale delikatne; odciąć liście i korzenie; umyć i obrać z twardej skórki; zostawić w całości albo pokroić w kostkę 1/2 cala (ok. 1,3 cm); blanszować w wodzie całe 3 minuty, kostkę 1 minutę; szybko schłodzić, odsączyć i zapakować z 1/2 cala wolnej przestrzeni; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-kohlrabi/",
+    "miejsce": "NCHFP, Freezing Kohlrabi, Preparation",
+    "cytat": "Select stems when fully grown but tender. Cut off tops and roots. Wash and peel off the tough bark. Leave whole or dice in 1/2 inch cubes. Water blanch whole 3 minutes and cubes 1 minute. Cool promptly, drain and package, leaving 1/2-inch headspace. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c284b358e9c9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„stems” (zgrubienie łodygi) oddane jako kalarepa/zgrubienia; „tough bark” jako twarda skórka; przeliczenie cali to rachunek JarAtlas.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-267",
+  "twierdzenie": "NCHFP Freezing Gooseberries: do ciast owoce w pełni dojrzałe, do galaretek trochę niedojrzałe; przebrać, usunąć szypułki i resztki kwiatów, umyć; pakowanie na sucho najlepsze do ciast i przetworów: do pojemników z wolną przestrzenią albo najpierw zamrozić na tacy i zapakować zaraz po zamrożeniu; w syropie: zalać syropem 50% z wolną przestrzenią; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-gooseberries/",
+    "miejsce": "NCHFP, Freezing Gooseberries, Preparation",
+    "cytat": "Choose fully ripe berries if freezing for pie; berries a little underripe for jelly making. Sort, remove stems and blossom ends, and wash. The dry pack is best for use in pies or preserves.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "682255ad1b19"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-gooseberries/",
+    "miejsce": "NCHFP, Freezing Gooseberries, Dry Pack",
+    "cytat": "Dry Pack – Pack berries into containers, leaving headspace . Berries can also be frozen first on a tray and then packed into containers as soon as they are frozen.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "682255ad1b19"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-gooseberries/",
+    "miejsce": "NCHFP, Freezing Gooseberries, Syrup Pack",
+    "cytat": "Syrup Pack – Pack into containers. Cover with 50 percent syrup (see page 214). Leave headspace .",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "682255ad1b19"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Odwołanie „see page 214” (książka So Easy to Preserve) pominięte; skład syropu 50% z SLO-265 (NCHFP Syrups).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-268",
+  "twierdzenie": "NCHFP Freezing Currants: wybrać pełne, w pełni dojrzałe, jaskrawoczerwone porzeczki; umyć w zimnej wodzie i usunąć szypułki; na sucho: do pojemników z wolną przestrzenią albo najpierw zamrozić na tacy i zapakować zaraz po zamrożeniu; w syropie: zalać zimnym syropem 50% z wolną przestrzenią; z cukrem: na każdy quart (1 1/3 funta, ok. 0,6 kg) owoców 3/4 szklanki cukru, mieszać, aż większość cukru się rozpuści, i włożyć do pojemników z wolną przestrzenią; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-currants/",
+    "miejsce": "NCHFP, Freezing Currants, Preparation",
+    "cytat": "Select plump, fully ripe bright-red currants. Wash in cold water and remove stems.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "13f487f7e122"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-currants/",
+    "miejsce": "NCHFP, Freezing Currants, Dry Pack",
+    "cytat": "Dry Pack – Pack currants into containers, leaving headspace . Currants can also be frozen first on a tray and then packed into containers as soon as they are frozen.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "13f487f7e122"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-currants/",
+    "miejsce": "NCHFP, Freezing Currants, Syrup Pack",
+    "cytat": "Syrup Pack – Pack currants into containers and cover with cold 50 percent syrup , leaving headspace .",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "13f487f7e122"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-currants/",
+    "miejsce": "NCHFP, Freezing Currants, Sugar Pack",
+    "cytat": "Sugar Pack – To each quart (11/3 pounds) of fruit add 3/4 cup sugar. Stir until most of the sugar is dissolved. Pack currants into containers, leaving headspace .",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "13f487f7e122"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło opisuje tylko porzeczki czerwone (bright-red); karta nie obejmuje czarnych; „11/3 pounds” to 1 1/3 funta; przeliczenie to rachunek JarAtlas.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
  }
 ]
