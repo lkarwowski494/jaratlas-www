@@ -1,6 +1,6 @@
 # Frozen spinach and other greens, including chard and kale (NCHFP, NDSU, MU)
 
-This card describes the NCHFP instructions for freezing spinach and other greens: blanched in boiling water, cooled, packed and frozen at 0 °F (−18 °C) or lower; according to NDSU and University of Missouri Extension, this includes chard and kale. [T:SLO-270,SLO-350,SUS-050]
+This card describes the NCHFP instructions for freezing spinach and other greens: blanched in boiling water, cooled, packed and frozen at 0 °F (−18 °C) or lower; according to NDSU and University of Missouri Extension, this includes chard and kale. [T:SLO-270,SLO-289,SUS-050]
 
 ## Choosing and preparing
 
@@ -8,9 +8,9 @@ Select young, tender green leaves. [T:SLO-270]
 
 Wash them thoroughly and cut off woody stems. [T:SLO-270]
 
-NCHFP does not name chard or kale; the extension guides of North Dakota State University and the University of Missouri list them among the greens frozen this way. [T:SLO-350]
+NCHFP does not name chard or kale; the extension guides of North Dakota State University and the University of Missouri list them among the greens frozen this way. [T:SLO-289]
 
-According to University of Missouri Extension, cut chard leaves into pieces. [T:SLO-350]
+According to University of Missouri Extension, cut chard leaves into pieces. [T:SLO-289]
 
 ## Blanching
 
@@ -20,9 +20,9 @@ Use 1 gallon (about 3.8 l) of water per pound (about 0.45 kg) of vegetables; put
 
 The water should return to a boil within 1 minute; start counting the blanching time as soon as it boils again, and keep the heat high for the whole time. [T:SUS-055,SLO-254]
 
-Blanch collards in boiling water for 3 minutes and all other greens, such as spinach, chard or kale, for 2 minutes. [T:SLO-270,SLO-350]
+Blanch collards in boiling water for 3 minutes and all other greens, such as spinach, chard or kale, for 2 minutes. [T:SLO-270,SLO-289]
 
-University of Missouri Extension advises not to steam blanch greens; blanch them in boiling water only. [T:SLO-350]
+University of Missouri Extension advises not to steam blanch greens; blanch them in boiling water only. [T:SLO-289]
 
 Do not shorten the time: underblanching stimulates enzyme activity and is worse than no blanching. [T:SUS-054]
 
