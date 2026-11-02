@@ -20058,6 +20058,66 @@
   "uwaga": "Dotyczy samego sosu, nie warzyw w sosie (B9-D7)."
  },
  {
+  "id": "NAP-064",
+  "twierdzenie": "Według OSU Extension (SP 50-736, wyd. popr. 2025) wśród popularnych ziół i kwiatów do octów smakowych są szczypiorek, kwiaty szczypiorku i nasturcje; na każdą pintę (ok. 0,47 l) octu daje się ok. 3–4 gałązki świeżych ziół, 3/4–1 szklanki luźno ułożonych kwiatów albo 3 łyżki suszonych ziół.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/flavored-vinegars-sp-50-736",
+    "miejsce": "OSU Extension SP 50-736 Flavored Vinegars, sekcja „Herbs and edible flowers”",
+    "cytat": "Popular herbs and flowers include mint, basil, tarragon, dill, oregano, chives, chive blossoms and nasturtiums. | ¾-1 cup loosely packed flower blossoms or 3 tablespoons dried herbs for each pint of vinegar.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "80d98c5ad9e1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„3–4 gałązki świeżych ziół” poprzedza w źródle „Use about”; nasturcje w źródle to kwiaty, nie zielone owoce.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-NAP-1)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to OSU Extension (SP 50-736, rev. 2025), popular herbs and flowers for flavored vinegars include chives, chive blossoms and nasturtiums; for each pint (approx. 0.47 l) of vinegar use about 3–4 sprigs of fresh herbs, 3/4–1 cup loosely packed flower blossoms or 3 tablespoons dried herbs.",
+  "uwaga": "Proporcja kwiatów do octu ma znaczenie dla bezpieczeństwa (NAP-036: za dużo materiału roślinnego neutralizuje kwas), stąd karta podaje górną granicę 1 szklanki na pintę.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "NAP-065",
+  "twierdzenie": "Według OSU Extension (SP 50-736) octy smakowe najlepiej przechowywać w lodówce; dla najlepszej jakości zużyć w ciągu 4–6 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/flavored-vinegars-sp-50-736",
+    "miejsce": "OSU Extension SP 50-736, sekcja przechowywania",
+    "cytat": "Refrigeration is best for retention of freshness and flavors. For best quality, use within 4-6 months.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "80d98c5ad9e1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-NAP-2)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to OSU Extension (SP 50-736), flavored vinegars are best kept refrigerated; for best quality use within 4–6 months.",
+  "uwaga": "Sprzeczność tego samego szczebla z NAP-039 (UGA: w lodówce 6–8 miesięcy): karta bierze krótszy limit 4–6 miesięcy (ostrożniej, B9-D5). Limit dotyczy jakości.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
   "id": "MLE-001",
   "twierdzenie": "Surowe (niepasteryzowane) mleko może zawierać groźne drobnoustroje, m.in. Salmonella, E. coli, Listeria i Campylobacter.",
   "zrodla": [
@@ -21704,6 +21764,45 @@
   "krytyczne": false,
   "przeglad": null,
   "klaster": "MLE"
+ },
+ {
+  "id": "MLE-066",
+  "twierdzenie": "Według Alabama Cooperative Extension (HE-0471, 2020; tabela za USDA FSIS) w lodówce o temperaturze 34–40°F (1–4,4°C) domowe dipy na bazie śmietany kwaśnej trzyma się 2 dni, kupne 2 tygodnie, szczelnie przykryte.",
+  "zrodla": [
+   {
+    "adres": "https://higherlogicdownload.s3.amazonaws.com/AAFCS/1d080296-1b21-4c56-92e0-b0ece3a9f9b1/UploadedFiles/xgweqimDTz4M1Kue8JxQ_HE-0471-Better-Safe-Than-Sorry-Food-Storage_072820L-A.pdf",
+    "miejsce": "Alabama Cooperative Extension System, HE-0471 Better-Safe-Than-Sorry Food Storage Charts; Refrigerator, Dairy and Eggs",
+    "cytat": "Dips—sourcream, etc. … commercial 2 weeks Keep tightly covered. homemade 2 days Keep tightly covered.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "dfe2da8f9bc3"
+   },
+   {
+    "adres": "https://higherlogicdownload.s3.amazonaws.com/AAFCS/1d080296-1b21-4c56-92e0-b0ece3a9f9b1/UploadedFiles/xgweqimDTz4M1Kue8JxQ_HE-0471-Better-Safe-Than-Sorry-Food-Storage_072820L-A.pdf",
+    "miejsce": "Alabama Cooperative Extension System, HE-0471; Refrigerator",
+    "cytat": "Keep refrigerator temperature between 34°F and 40°F.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "dfe2da8f9bc3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Chrzan z jabłkiem i śmietaną traktowany jak domowy dip śmietanowy (źródło nie wymienia chrzanu).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "MLE",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-MLE-1)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to Alabama Cooperative Extension (HE-0471, 2020; chart after USDA FSIS), in a refrigerator at 34–40°F (1–4.4°C) homemade sour-cream dips keep 2 days and commercial ones 2 weeks, tightly covered.",
+  "uwaga": "Plik z kopii AAFCS (oryginał aces.edu niedostępny z sandboxa, błąd TLS); tekst ma stopkę ACES „Revised July 2020, HE-0471”. Weryfikacja pdftotext bez -layout (tabela dwukolumnowa).",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-001",
@@ -37051,6 +37150,232 @@
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {
+  "id": "ACI-700",
+  "twierdzenie": "Według NDSU Extension przetestowany sos chrzanowy (2 szklanki, ok. 3/4 funta, świeżo tartego chrzanu, 1 szklanka białego octu 5%, 1/2 łyżeczki soli, 1/4 łyżeczki kwasu askorbinowego) nie nadaje się do wekowania; słoiki szczelnie zamknięte trzyma się w lodówce do 3 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://www.ndsu.edu/agriculture/extension/publications/make-your-own-home-canned-condiments",
+    "miejsce": "NDSU Extension, Make Your Own Home-canned Condiments; Pickled Horseradish Sauce",
+    "cytat": "2 c. (¾ lb.) freshly grated horseradish | 1 c. white vinegar (5%) … *Note: This recipe cannot be canned. Seal jars tightly and store in a refrigerator up to three months.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "5dfef567ef33"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-horseradish-sauce/",
+    "miejsce": "NCHFP, Pickled Horseradish Sauce; Procedure",
+    "cytat": "Combine ingredients and fill into sterile jars, leaving 1/4-inch headspace. Seal jars tightly and store in a refrigerator.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "94b40dae2d24"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Liczbę 3 miesięcy podaje tylko NDSU (szczebel 3); NCHFP (szczebel 1) każe trzymać w lodówce bez liczby, a ostrość zanika w 1–2 miesiące (ACI-514: limit jakościowy, krótszy).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to NDSU Extension, the tested horseradish sauce (2 cups, about 3/4 lb, of freshly grated horseradish, 1 cup white vinegar 5%, 1/2 tsp salt, 1/4 tsp ascorbic acid) cannot be canned; tightly sealed jars are stored in a refrigerator for up to 3 months.",
+  "uwaga": "Uzupełnia ACI-035; dotyczy też horseradish-v01 (ok-zrodlo, dziś bez liczby dni). NDSU podaje źródło: USDA Complete Guide AIB 539 (2009).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-701",
+  "twierdzenie": "Według NDSU Extension (przepis Ball, 2016) musztarda Dijon do wekowania: 2 szklanki posiekanej cebuli, 2 szklanki wytrawnego białego wina, 1 szklanka octu winnego białego 5%, 1 łyżeczka soli, 6 ząbków czosnku, 4 ziarna pieprzu, 1 gałązka rozmarynu, 1 szklanka żółtej gorczycy, 1/3 szklanki gorczycy mielonej, 2 2/3 szklanki wody; ok. 6 słoików 4 uncje; nakładanie na gorąco, słoiki 1/2 pinty w kąpieli wodnej 10/15/20 min (0–1000 / 1001–6000 / powyżej 6000 stóp).",
+  "zrodla": [
+   {
+    "adres": "https://www.ndsu.edu/agriculture/extension/publications/make-your-own-home-canned-condiments",
+    "miejsce": "NDSU Extension, Make Your Own Home-canned Condiments; Dijon Mustard",
+    "cytat": "2 c. Pinot Grigio or other dry white wine | 1 c. white wine vinegar (5%) … Process in a boiling water-bath canner according to the recommendations in Table 1.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "5dfef567ef33"
+   },
+   {
+    "adres": "https://www.ndsu.edu/agriculture/extension/publications/make-your-own-home-canned-condiments",
+    "miejsce": "NDSU Extension, Make Your Own Home-canned Condiments; Table 1 (Recommended Processing Times in a Boiling Water-bath Canner)",
+    "cytat": "Dijon Mustard Hot Half-pints 10 min. 15 min. 20 min.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "5dfef567ef33"
+   },
+   {
+    "adres": "https://www.ndsu.edu/agriculture/extension/publications/make-your-own-home-canned-condiments",
+    "miejsce": "NDSU Extension, Make Your Own Home-canned Condiments; Dijon Mustard, Source",
+    "cytat": "Source: Recipe reprinted with permission from “The All New Ball Book of Canning and Preserving,” published by Oxmoor House (2016).",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "5dfef567ef33"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przepis pochodzi od Ball (szczebel 4), opublikowany przez extension (szczebel 3) w zbiorze przepisów „research-tested”; to wekowanie, nie przechowywanie w lodówce; brak liczby dni w lodówce.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to NDSU Extension (Ball recipe, 2016), Dijon mustard for canning: 2 cups chopped onion, 2 cups dry white wine, 1 cup white wine vinegar 5%, 1 tsp salt, 6 garlic cloves, 4 peppercorns, 1 rosemary sprig, 1 cup yellow mustard seeds, 1/3 cup dry mustard, 2 2/3 cups water; about 6 4-ounce jars; hot pack, half-pint jars in a boiling water bath 10/15/20 min (0–1000 / 1001–6000 / above 6000 ft).",
+  "uwaga": "Jedyny przepis musztardy w źródle szczebla 1–3 znaleziony w tej partii. Droga dla mustard-v02 (bez verjus) przez zmianę metody na kąpiel wodną (poza torem lodówkowym).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-702",
+  "twierdzenie": "Według UCCE Mariposa (Advice about Vinegar) octy specjalne, czyli ocet z czerwonego lub białego wina, słodowy, balsamiczny i inne octy smakowe, stosuje się tylko wtedy, gdy przewiduje je przepis przetestowany badaniami.",
+  "zrodla": [
+   {
+    "adres": "https://ucanr.edu/sites/Mariposa/files/374800.pdf",
+    "miejsce": "UCCE Mariposa, Home Food Preservation: Advice about Vinegar",
+    "cytat": "Specialty vinegars include red or white wine vinegar, malt vinegar, balsamic, and other flavored vinegars. Use these only when specified in a research-tested recipe.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "0f12db22bf16"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to UCCE Mariposa (Advice about Vinegar), specialty vinegars, i.e. red or white wine vinegar, malt vinegar, balsamic and other flavored vinegars, are used only when specified in a research-tested recipe.",
+  "uwaga": "Zgodne z ACI-509 (Wisconsin: nie używać octów winnych). Dotyczy octu winnego; czyste wino jako zalewa ma tylko źródło UC ANR dla czosnku (ACI-512/513).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-703",
+  "twierdzenie": "NCHFP podaje przetestowany przepis z ciecierzycą w zalewie, Pickled Three-Bean Salad (wekowanie): m.in. 1 szklanka ciecierzycy z puszki, 1/2 szklanki białego octu 5% i 1/4 szklanki butelkowanego soku z cytryny na ok. 5–6 słoików 1/2 pinty; marynować 12–14 godzin w lodówce, zagotować całość, wekować na gorąco (słoiki 1/2 pinty lub pinty) 15 minut przy 0–1000 stóp (ok. 0–305 m), 20 minut przy 1001–6000 stóp, 25 minut powyżej 6000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-three-bean-salad/",
+    "miejsce": "NCHFP: Pickled Three-Bean Salad",
+    "cytat": "1 cup canned, drained garbanzo beans | 1/2 cup white vinegar (5 percent) | 1/4 cup bottled lemon juice … Marinate 12 to 14 hours in refrigerator, then heat entire mixture to a boil.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f33acfdcfe73"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-three-bean-salad/",
+    "miejsce": "NCHFP: Pickled Three-Bean Salad, Table 1 (Hot, Half-pints or Pints; 0 - 1,000 ft / 1,001 - 6,000 ft / Above 6,000 ft)",
+    "cytat": "Table 1. Recommended process time for Pickled Three-Bean Salad in a boiling water canner. | Hot | Half-pints or Pints | 15 min | 20 | 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (B12)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Że to jedyny przetestowany przepis NCHFP z ciecierzycą w zalewie, to wniosek z przeglądu NCHFP i rejestru (OLE-036), nie zdanie źródła; dlatego nie jest częścią twierdzenia.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP gives a tested recipe with chickpeas in a pickling liquid, Pickled Three-Bean Salad (canning): among others 1 cup canned garbanzo beans, 1/2 cup white vinegar 5% and 1/4 cup bottled lemon juice for about 5–6 half-pint jars; marinate 12–14 hours in the refrigerator, bring the whole mixture to a boil, process hot pack (half-pints or pints) 15 minutes at 0–1000 ft (approx. 0–305 m), 20 minutes at 1001–6000 ft, 25 minutes above 6000 ft.",
+  "uwaga": "Adres w katalogu beans-soy-v01: /how/pickle/relishes-salads/pickled-three-bean-salad/ (ten sam przepis, inna ścieżka). Proponuję dołączyć do zrodla beans-soy-v01 ten cytat, a twierdzenie zmienić na brzmienie bez „jedyny”, jeśli koordynator woli.",
+  "brzmieniePrzed": "Według NCHFP jedyny przetestowany przepis z ciecierzycą w zalewie to Pickled Three-Bean Salad (wekowanie): m.in. 1 szklanka ciecierzycy z puszki, 1/2 szklanki białego octu 5% i 1/4 szklanki butelkowanego soku z cytryny na ok. 5–6 słoików 1/2 pinty; marynować 12–14 godzin w lodówce, zagotować całość, wekować na gorąco 15 minut (0–1000 stóp, ok. 0–305 m).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-704",
+  "twierdzenie": "Według NCHFP (Cantaloupe Pickles, 2003) marynowany kantalup: 5 funtów (ok. 2,3 kg) kostek 1 cal (ok. 2,5 cm) z ok. 2 średnich, niedojrzałych kantalupów, 4 1/2 szklanki octu jabłkowego 5%, 2 szklanki wody, 1 1/2 szklanki białego cukru i 1 1/2 szklanki ubitego jasnego brązowego cukru (plus przyprawy); ok. 4 słoików pint; kąpiel wodna, hot pack, pint: 15 min przy 0–1000 stóp (ok. 305 m), 20 min przy 1001–6000 stóp (ok. 1829 m), 25 min powyżej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-fruits-vegetables-pickles/cantaloupe-pickles",
+    "miejsce": "Cantaloupe Pickles, Ingredients",
+    "cytat": "4½ cups cider vinegar (5%) 2 cups water 1½ cups white sugar 1½ cups packed light brown sugar",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5604e495b452"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-fruits-vegetables-pickles/cantaloupe-pickles",
+    "miejsce": "Cantaloupe Pickles, Table 1",
+    "cytat": "Hot Pints 15 min 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5604e495b452"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to NCHFP (Cantaloupe Pickles, 2003), pickled cantaloupe: 5 pounds (about 2.3 kg) of 1-inch (about 2.5 cm) cubes from about 2 medium under-ripe cantaloupes, 4 1/2 cups cider vinegar (5%), 2 cups water, 1 1/2 cups white sugar and 1 1/2 cups packed light brown sugar (plus spices); about 4 pint jars; boiling-water canner, hot pack, pints: 15 min at 0–1000 ft (about 305 m), 20 min at 1001–6000 ft (about 1829 m), 25 min above.",
+  "uwaga": "Droga poprawki dla dżemu z kantalupa: inny produkt (pikle, kąpiel wodna), nie dżem lodówkowy. Ilość owoców (5 funtów kostek 1 cal) w tym samym bloku składników, przed octem.",
+  "brzmieniePrzed": "Według NCHFP (Cantaloupe Pickles, 2003) marynowany kantalup: 5 funtów (ok. 2,3 kg) kostek 1 cal (ok. 2,5 cm) z ok. 2 średnich, niedojrzałych kantalupów, 4 1/2 szklanki octu jabłkowego 5%, 2 szklanki wody, 1 1/2 szklanki białego cukru i 1 1/2 szklanki jasnego brązowego cukru (plus przyprawy); ok. 4 słoików pint; kąpiel wodna, hot pack, pint: 15 min przy 0–1000 stóp (ok. 305 m), 20 min przy 1001–6000 stóp (ok. 1829 m), 25 min powyżej.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-705",
+  "twierdzenie": "Według Michigan State Univ. Extension (2023) melony nie nadają się do wekowania, chyba że jako pikle lub konfitury; Uniwersytet Kalifornijski nie zaleca wekowania owoców niskokwasowych, takich jak melon, bo kąpiel wodna nie jest dość gorąca, by ograniczyć ryzyko jadu kiełbasianego.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/Using%2C%20Storing%2C%20and%20Preserving%20Melons-%20Michigan%20State%202023.pdf",
+    "miejsce": "Using, Storing and Preserving Melons, Canning",
+    "cytat": "Melons are not well suited for canning unless pickled or | not recommend canning low-acid fruits, such as melon, | because the traditional water bath canning process is not",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "b2644fdf338b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„konfitury” w źródle = przepisy z dodanym kwasem (np. NCHFP Watermelon Rind Preserves), nie dżem z miąższu.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to Michigan State Univ. Extension (2023), melons are not well suited for canning unless pickled or made into preserves; the University of California does not recommend canning low-acid fruits such as melon, because the boiling-water process is not hot enough to reduce the risk of botulism.",
+  "uwaga": "Zgodne z ACI-026/ACI-027/ACI-028 (szczebel 1); dodaje wprost ostrzeżenie o botulizmie dla melonów.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
   "id": "SLO-157",
   "twierdzenie": "NCHFP Plum Jam Pectin (sproszkowana pektyna): 6 szklanek rozgniecionych śliwek (ok. 3,5 funta śliwek), 1 opakowanie sproszkowanej pektyny, 8 szklanek cukru; wychodzi ok. 9 słoików 1/2 pinty.",
   "zrodla": [
@@ -44590,6 +44915,572 @@
   "jednoZrodlo": true,
   "twierdzenie_en": "UCCE Master Food Preservers (El Dorado County; file hosted by UC ANR): USDA withdrew its canning recommendations for pumpkin butter and there is currently no safe method for canning it at home; refrigerate it or freeze it for longer-term storage.",
   "uwaga": "Uzupełnienie SLO-044 (dopisać źródło); nadal bez liczby dni.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-480",
+  "twierdzenie": "Według MU Extension (Preserve It Fresh, Preserve It Safe 2021, nr 4) owoce czarnego bzu miały w badaniu średnie pH 4,92 (zakres 4,73–5,19), a maksymalne pH dla bezpiecznego wekowania owoców według przetestowanych przepisów to 4,60; nie ma badań, ile i jakiego kwasu trzeba dodać, by bezpiecznie wekować produkty z bzu; do przechowania owoców lub soku Extension zaleca mrożenie.",
+  "zrodla": [
+   {
+    "adres": "https://extension.missouri.edu/publications/hes141",
+    "miejsce": "MU Extension, Preserve It Fresh, Preserve It Safe: 2021, No. 4, „Elderberries: beautiful to look at, not for canning”",
+    "cytat": "The average pH of the fruit was 4.92 across all varieties and samples, with a range of 4.73 to 5.19. | the maximum pH for safe canning of fruits and fruit products is 4.60 … There are no research studies that have been conducted to indicate how much acid … Extension recommends freezing as a safe alternative",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "83265084a03b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło mówi o wekowaniu (kąpiel wodna, parowa, szybkowar); dla lodówkowego sosu z octem stosujemy je jako dowód niskiej kwasowości owoców, nie jako zakaz.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-SLO-1)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to MU Extension (Preserve It Fresh, Preserve It Safe 2021, No. 4), elderberries in the study had an average pH of 4.92 (range 4.73–5.19), while the maximum pH for safe canning of fruits under research-tested recipes is 4.60; there are no studies on how much acid, or what kind, is needed to safely can elderberry products; to preserve the fruit or juice, Extension recommends freezing.",
+  "uwaga": "Uzupełnia SLO-064 (bez amerykański nie ma pH stale poniżej 4,6) liczbami z badania 429 próbek.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-481",
+  "twierdzenie": "Według Ask Extension (2024, 2025) nie ma przepisów opartych na badaniach na wekowanie syropów prostych z naparem (np. rozmarynowego); syrop trzyma się w lodówce i zużywa w ciągu „paru tygodni” (bez liczby dni) albo robi na bieżąco; Extension nie podaje innej metody utrwalania syropu prostego niż lodówka.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=869154",
+    "miejsce": "Ask Extension #869154 Canning herbal syrups (Wexford County, MI; odp. 20.05.2024)",
+    "cytat": "There are not any research based recipes for canning infused simple syrups. If you want to do this, you would need to refrigerate the syrup for storage, only keeping for a couple of weeks, or make fresh.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "c6feded64ee3"
+   },
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=909161",
+    "miejsce": "Ask Extension #909161 (Aleutians East, AK; odp. 17.07.2025, pytanie o syrop prosty z bazylią)",
+    "cytat": "Extension does not have any instructions for preserving Simple Syrup other than refrigeration.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "69f29ce7ee95"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„a couple of weeks” nie jest liczbą; karta nie może zamienić tego na „2 tygodnie” (analogia B9-D9).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-SLO-2)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to Ask Extension (2024, 2025), there are no research-based recipes for canning infused simple syrups (e.g. rosemary); the syrup is kept refrigerated and used within \"a couple of weeks\" (no number of days given) or made fresh; Extension gives no preservation method for simple syrup other than refrigeration.",
+  "uwaga": "Odpowiedzi ekspertów Ask Extension (szczebel 3 wg B9-D12), nie przetestowany przepis; nie daje ok-zrodlo (brak proporcji i liczby dni).",
+  "brzmieniePrzed": "Według Ask Extension (2024, 2025) nie ma przepisów opartych na badaniach na wekowanie syropów prostych z naparem (np. rozmarynowego); syrop trzyma się w lodówce i zużywa w ciągu „kilku tygodni” (bez liczby dni) albo robi na bieżąco; Extension nie podaje innej metody utrwalania syropu prostego niż lodówka.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-482",
+  "twierdzenie": "Według Ask Extension (2020, 2024) imbir i kurkuma mają pH powyżej granicy bezpiecznej dla wekowania w kąpieli wodnej, sok imbirowy jest niskokwasowy i nie ma dla niego zwalidowanego przepisu nawet na wekowanie w szybkowarze (zalecane mrożenie), a syropy z miodem i cukrem mogą zawierać przetrwalniki jadu kiełbasianego.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=709764",
+    "miejsce": "Ask Extension #709764 ginger-turmeric syrup (Fairbanks, AK; odp. 05.08.2020)",
+    "cytat": "honey and sugar syrups can harbor botulism spores. | Both ginger and turmeric have ph levels above the safe level for canning in a boiling water bath.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "e0da91e573f9"
+   },
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=859923",
+    "miejsce": "Ask Extension #859923 ginger juice (Lane County, OR; odp. 02.03.2024, J. Waite-Cusic)",
+    "cytat": "Ginger is a low acid juice and we do not have any validated pressure canning recipes for this type of product. I would recommend that you freeze it",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "7cddc474e7f3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-SLO-3)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to Ask Extension (2020, 2024), ginger and turmeric have pH levels above the safe level for boiling-water canning, ginger juice is low-acid with no validated recipe even for pressure canning (freezing is recommended), and honey and sugar syrups can harbor botulism spores.",
+  "uwaga": "Zgodne z ACI-125 (pH imbiru 5,60–5,90, FDA). Zdanie z #709764 o lodówce „below 38° F” odrzucone jako limit (patrz odrzucone).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-483",
+  "twierdzenie": "USA: według przepisów FDA kora chinowca (czerwonego i żółtego) jest dozwolona jako naturalny aromat tylko w napojach i w ilości nie większej niż 83 ppm łącznych alkaloidów chinowca w gotowym napoju.",
+  "zrodla": [
+   {
+    "adres": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-21?part=172&section=172.510",
+    "miejsce": "eCFR 21 CFR 172.510 Natural flavoring substances, tabela: Cinchona, red, bark (to samo ograniczenie przy Cinchona, yellow, bark)",
+    "cytat": "Cinchona, red, bark | In beverages only; not more than 83 p.p.m. total cinchona alkaloids in finished beverage",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4ed7136e7126"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Domowy syrop z kory nie pozwala zmierzyć zawartości alkaloidów; karta nie może sugerować, że domowy syrop spełnia limit.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-SLO-4)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "USA: under FDA regulations, cinchona bark (red and yellow) is permitted as a natural flavoring only in beverages and at no more than 83 ppm total cinchona alkaloids in the finished beverage.",
+  "uwaga": "Uzupełnia SLO-071 (172.575, chinina jako sól, napoje gazowane, 83 ppm): 172.510 dotyczy wprost kory chinowca, czyli składnika wariantu.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-484",
+  "twierdzenie": "Według BfR (komunikat z 2005 r.) kobiety w ciąży powinny zapobiegawczo unikać napojów z chininą; osoby, którym lekarz odradza chininę (np. szumy uszne, uszkodzenie nerwu wzrokowego, niektóre niedokrwistości hemolityczne, nadwrażliwość na alkaloidy chinowca), też powinny ich unikać, a osoby z zaburzeniami rytmu serca albo przyjmujące leki wchodzące w interakcje z chininą (np. przeciwzakrzepowe) powinny pić napoje z chininą tylko po konsultacji z lekarzem; objawy niepożądane to głównie szumy uszne, zaburzenia widzenia, splątanie, wybroczyny i siniaki. W Niemczech napoje bezalkoholowe mogły wtedy zawierać najwyżej 85 mg chininy na litr.",
+  "zrodla": [
+   {
+    "adres": "https://www.bfr.bund.de/presseinformation/chininhaltige-getraenke-sind-nichts-fuer-schwangere",
+    "miejsce": "BfR Presseinformation „Chininhaltige Getränke sind nichts für Schwangere!” (07.06.2005)",
+    "cytat": "„Insbesondere Schwangere sollten vorsorglich auf den Konsum verzichten“",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "9bc7a5cfb75f"
+   },
+   {
+    "adres": "https://www.bfr.bund.de/presseinformation/chininhaltige-getraenke-sind-nichts-fuer-schwangere",
+    "miejsce": "jw.",
+    "cytat": "Als unerwünschte Wirkungen in Folge von Chininaufnahmen sind vor allem Tinnitus, Sehstörungen, Verwirrtheit oder Hautblutungen und Blutergüsse zu nennen.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "9bc7a5cfb75f"
+   },
+   {
+    "adres": "https://www.bfr.bund.de/presseinformation/chininhaltige-getraenke-sind-nichts-fuer-schwangere",
+    "miejsce": "jw.",
+    "cytat": "In Deutschland dürfen alkoholfreie Erfrischungsgetränke maximal 85 Milligramm Chinin pro Liter",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "9bc7a5cfb75f"
+   },
+   {
+    "adres": "https://www.bfr.bund.de/presseinformation/chininhaltige-getraenke-sind-nichts-fuer-schwangere",
+    "miejsce": "BfR Presseinformation (07.06.2005), akapit o grupach ryzyka",
+    "cytat": "Wer Herzrhythmusstörungen hat oder Arzneien einnimmt, die mit Chinin Wechselwirkungen zeigen, wie etwa blutgerinnungshemmende Medikamente, sollte chininhaltige Limonaden nur nach Rücksprache mit einem Arzt trinken.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (B12)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Limit 85 mg/l to stan prawny z 2005 r. w Niemczech; obecnego limitu UE nie sprawdzono (wyszukiwarka podawała 100 mg/l, nieprzeczytane).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-SLO-5)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to BfR (press release of 2005), pregnant women should avoid quinine-containing drinks as a precaution; people advised by a doctor against quinine (e.g. tinnitus, optic nerve damage, certain haemolytic anaemias, hypersensitivity to cinchona alkaloids) should also avoid them, and people with heart rhythm disorders or taking medicines that interact with quinine (e.g. anticoagulants) should drink quinine-containing drinks only after consulting a doctor; adverse effects are mainly tinnitus, visual disturbances, confusion, skin bleeding and bruising. In Germany soft drinks could then contain at most 85 mg of quinine per litre.",
+  "uwaga": "Komunikat sprzed 20 lat; do weryfikacji, czy BfR go nie zastąpił.",
+  "brzmieniePrzed": "Według BfR (komunikat z 2005 r.) kobiety w ciąży powinny zapobiegawczo unikać napojów z chininą; osoby, którym lekarz odradza chininę (np. szumy uszne, uszkodzenie nerwu wzrokowego, niektóre niedokrwistości hemolityczne, nadwrażliwość na alkaloidy chinowca), też powinny ich unikać; objawy niepożądane to głównie szumy uszne, zaburzenia widzenia, splątanie, wybroczyny i siniaki. W Niemczech napoje bezalkoholowe mogły wtedy zawierać najwyżej 85 mg chininy na litr.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-485",
+  "twierdzenie": "Według NC State Extension (Plant Toolbox) robinia akacjowa (Robinia pseudoacacia) jest rośliną silnie trującą: trujące są kora, liście i nasiona; jadalne są kwiaty.",
+  "zrodla": [
+   {
+    "adres": "https://plants.ces.ncsu.edu/plants/robinia-pseudoacacia/",
+    "miejsce": "NC State Extension Gardener Plant Toolbox: Robinia pseudoacacia, sekcja Poisonous to Humans / Edibility",
+    "cytat": "This plant has high severity poison characteristics.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "addbd591bc45"
+   },
+   {
+    "adres": "https://plants.ces.ncsu.edu/plants/robinia-pseudoacacia/",
+    "miejsce": "jw.",
+    "cytat": "Poison Part: Bark Leaves Seeds",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "addbd591bc45"
+   },
+   {
+    "adres": "https://plants.ces.ncsu.edu/plants/robinia-pseudoacacia/",
+    "miejsce": "jw.",
+    "cytat": "Edibility: flowers are edible.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "addbd591bc45"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-SLO-6)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to NC State Extension (Plant Toolbox), black locust (Robinia pseudoacacia) has high-severity poison characteristics: the bark, leaves and seeds are poisonous; the flowers are edible.",
+  "uwaga": "Karta: tylko kwiaty, bez szypułek, liści i strąków (analogia SLO-063 dla bzu).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-486",
+  "twierdzenie": "Według Missouri Poison Center sosnę trzeba odróżnić od cisu (Taxus): zjedzenie cisu może spowodować ciężkie zatrucie (taksyny we wszystkich częściach), a połknięcie igieł sosny niesie niskie ryzyko, choć celowe jedzenie igieł nie jest zalecane (olejki lotne niektórych gatunków mogą wywołać nudności, wymioty, ból brzucha i biegunkę i są groźniejsze dla kobiet w ciąży); igły cisu są miększe, płaskie i ułożone w dwóch rzędach wzdłuż gałązki.",
+  "zrodla": [
+   {
+    "adres": "https://missouripoisoncenter.org/is-this-a-poison/pine-needles/",
+    "miejsce": "Missouri Poison Center, Is this a poison? Pine Needles (zm. 2026-04-23)",
+    "cytat": "Yew ingestions may cause serious poisoning, while pine ingestions are low risk of harm.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "20e696c9567f"
+   },
+   {
+    "adres": "https://missouripoisoncenter.org/is-this-a-poison/pine-needles/",
+    "miejsce": "jw., How do I tell apart a yew and a pine tree?",
+    "cytat": "Unlike pine needles, yew needles are softer, flatter, and arranged in two rows along the twig. | Yews contain toxic taxines in all parts.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "20e696c9567f"
+   },
+   {
+    "adres": "https://plants.ces.ncsu.edu/plants/taxus-baccata/",
+    "miejsce": "NC State Extension Plant Toolbox: Taxus baccata, Poison Symptoms",
+    "cytat": "If any of the bark, leaves, or seeds of the English Yew are ingested, urgent medical treatment is needed.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "768382e0f3bf"
+   },
+   {
+    "adres": "https://missouripoisoncenter.org/is-this-a-poison/pine-needles/",
+    "miejsce": "Missouri Poison Center, Is this a poison? Pine Needles",
+    "cytat": "Although some use pine needles in food or tea, intentional eating is not recommended. | may contain volatile oils. If swallowed, the oils can cause nausea, vomiting, abdominal pain, and diarrhea. Some volatile oils are more hazardous to pregnant women if consumed.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (B12)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło mówi o igłach sosny; o młodych pędach w cukrze nie mówi.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-SLO-7)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to Missouri Poison Center, pine must be told apart from yew (Taxus): yew ingestion may cause serious poisoning (taxines in all parts), while pine needle ingestion is low risk of harm, although intentional eating of pine needles is not recommended (volatile oils in some species can cause nausea, vomiting, abdominal pain and diarrhea and are more hazardous to pregnant women); yew needles are softer, flatter and arranged in two rows along the twig.",
+  "uwaga": "Szczebel Missouri Poison Center (3, instytucja) do weta; cis potwierdza NC State (3).",
+  "brzmieniePrzed": "Według Missouri Poison Center sosnę trzeba odróżnić od cisu (Taxus): zjedzenie cisu może spowodować ciężkie zatrucie (taksyny we wszystkich częściach), zjedzenie igieł sosny niesie niskie ryzyko; igły cisu są miększe, płaskie i ułożone w dwóch rzędach wzdłuż gałązki.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-487",
+  "twierdzenie": "Według monografii EMA/HMPC (2011) kwiat wiązówki błotnej (Filipendula ulmaria) jako tradycyjny produkt leczniczy jest przeciwwskazany przy nadwrażliwości na salicylany, nie jest zalecany dzieciom i młodzieży poniżej 18 lat ani w ciąży i w okresie karmienia, a łączenie z salicylanami i innymi niesteroidowymi lekami przeciwzapalnymi bez porady lekarza nie jest zalecane.",
+  "zrodla": [
+   {
+    "adres": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-filipendula-ulmaria-l-maxim-flos-first-version_en.pdf",
+    "miejsce": "EMA/HMPC/434894/2010, Community herbal monograph on Filipendula ulmaria (L.) Maxim., flos, 4.3 Contraindications",
+    "cytat": "Hypersensitivity to salicylates.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "53bd7a0b38ee"
+   },
+   {
+    "adres": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-filipendula-ulmaria-l-maxim-flos-first-version_en.pdf",
+    "miejsce": "jw., 4.2 Posology",
+    "cytat": "The use in children and adolescents under 18 years of age is not recommended",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "53bd7a0b38ee"
+   },
+   {
+    "adres": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-filipendula-ulmaria-l-maxim-flos-first-version_en.pdf",
+    "miejsce": "jw., 4.6 Fertility, pregnancy and lactation",
+    "cytat": "the use during pregnancy and lactation is not recommended.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "53bd7a0b38ee"
+   },
+   {
+    "adres": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-filipendula-ulmaria-l-maxim-flos-first-version_en.pdf",
+    "miejsce": "EMA/HMPC/434894/2010, 4.4 Special warnings and precautions for use",
+    "cytat": "Concomitant use with salicylates and other NSAIDs is not recommended without medical advice.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep (B12)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Monografia dotyczy produktu leczniczego (napar 2,5–6 g dziennie), nie syropu spożywczego; ilości salicylanów w syropie źródło nie podaje.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-SLO-8)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the EMA/HMPC monograph (2011), meadowsweet flower (Filipendula ulmaria) as a traditional herbal medicinal product is contraindicated in hypersensitivity to salicylates, is not recommended for children and adolescents under 18 years or during pregnancy and lactation, and concomitant use with salicylates and other NSAIDs without medical advice is not recommended.",
+  "uwaga": "EMA = szczebel 1 (agencja UE). HMPC w przeglądzie 2018/2020 nie zmieniał monografii (wg wyszukiwarki, nieprzeczytane).",
+  "brzmieniePrzed": "Według monografii EMA/HMPC (2011) kwiat wiązówki błotnej (Filipendula ulmaria) jako tradycyjny produkt leczniczy jest przeciwwskazany przy nadwrażliwości na salicylany, nie jest zalecany dzieciom i młodzieży poniżej 18 lat ani w ciąży i w okresie karmienia, a łączenie z salicylanami i innymi niesteroidowymi lekami przeciwzapalnymi bez porady lekarza nie jest zalecane.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-488",
+  "twierdzenie": "Według monografii EMA/HMPC (2013) ziele tymianku to tradycyjny produkt leczniczy na kaszel mokry przy przeziębieniu, którego wskazanie opiera się wyłącznie na długotrwałym stosowaniu; przy duszności, gorączce lub ropnej plwocinie trzeba się zwrócić do lekarza.",
+  "zrodla": [
+   {
+    "adres": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-thymus-vulgaris-l-and-thymus-zygis-l-herba_en.pdf",
+    "miejsce": "EMA/HMPC/342332/2013, Community herbal monograph on Thymus vulgaris L. and Thymus zygis L., herba, 4.1 Therapeutic indications",
+    "cytat": "Traditional herbal medicinal product used in productive cough associated with cold. | exclusively based upon long-standing use.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "77ee37a0980e"
+   },
+   {
+    "adres": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-thymus-vulgaris-l-and-thymus-zygis-l-herba_en.pdf",
+    "miejsce": "jw., 4.4 Special warnings",
+    "cytat": "If dyspnoea, fever or purulent sputum occurs, a doctor or a qualified health care practitioner should be consulted.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "77ee37a0980e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Monografia dotyczy produktów leczniczych o określonej postaci i dawce (np. napar 1–2 g w 150 ml), nie domowego syropu; nie uzasadnia nazwy „na kaszel” w katalogu.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-SLO-9)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the EMA/HMPC monograph (2013), thyme herb is a traditional herbal medicinal product for productive cough associated with cold, with the indication based exclusively upon long-standing use; if dyspnoea, fever or purulent sputum occurs, a doctor should be consulted.",
+  "uwaga": "Kontekst do usunięcia twierdzenia zdrowotnego z nazwy wariantu; monografia ogranicza też niektóre postacie u dzieci poniżej 12 i 4 lat.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-489",
+  "twierdzenie": "Według NDSU Extension niektórych kwiatów nie wolno jeść, więc przed jedzeniem trzeba je poprawnie rozpoznać; kwiaty z kwiaciarni są do oglądania, bo części stosowanych na nich pestycydów nie dopuszczono do roślin jadalnych.",
+  "zrodla": [
+   {
+    "adres": "https://www.ag.ndsu.edu/news/columns/prairie-fare/prairie-fare-edible-flowers-add-beauty-to-the-menu",
+    "miejsce": "NDSU Extension, Prairie Fare: Edible Flowers Add Beauty to the Menu (J. Garden-Robinson)",
+    "cytat": "Some flowers should not be eaten, so be sure to identify the flowers correctly before eating them.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "2ab40c176253"
+   },
+   {
+    "adres": "https://www.ag.ndsu.edu/news/columns/prairie-fare/prairie-fare-edible-flowers-add-beauty-to-the-menu",
+    "miejsce": "jw.",
+    "cytat": "Flowers purchased from a florist are meant to look at, not eat, because some of the pesticides used on flowers have not been approved for use on edible plants.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "2ab40c176253"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-SLO-10)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to NDSU Extension, some flowers should not be eaten, so flowers must be identified correctly before eating; florist flowers are meant to look at, not eat, because some pesticides used on them are not approved for edible plants.",
+  "uwaga": "Kolumna NDSU bez daty na stronie; ta sama kolumna wymienia róże i fiołki (nie fiołki afrykańskie) jako jadalne.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-490",
+  "twierdzenie": "Według NCHFP (Berry Jam (Uncooked), za USDA HG-56) niegotowany dżem z truskawek lub jeżyn: 2 szklanki rozgniecionych owoców (ok. 1 kwarty, ok. 0,95 l, owoców), 4 szklanki cukru, 1 opakowanie sproszkowanej pektyny i 1 szklanka wody; wychodzi ok. 5–6 słoików 1/2 pinty. Owoce z cukrem odstawić na 20 minut, pektynę rozpuszczoną w wodzie gotować 1 minutę, wmieszać (2 minuty), nalać do pojemników z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni i zostawić zamknięte na 24 godziny w temperaturze pokojowej; potem lodówka albo zamrażarka (limity: SLO-020, SLO-460).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jam-uncooked/",
+    "miejsce": "Berry Jam (Uncooked), Ingredients",
+    "cytat": "2 cups crushed strawberries or blackberries (about 1 quart berries) 4 cups sugar 1 package powdered pectin 1 cup water Yield: About 5 or 6 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fd7dda01775a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jam-uncooked/",
+    "miejsce": "Berry Jam (Uncooked), To make jam",
+    "cytat": "Add sugar, mix well, and let stand for 20 minutes, stirring occasionally. Dissolve pectin in water and boil for 1 minute. | Pour jam into freezer containers or canning jars, leaving ½ inch headspace at the top. Close covers on containers and let stand at room temperature for 24 hours.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "fd7dda01775a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-SLO-11)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to NCHFP (Berry Jam (Uncooked), adapted from USDA HG-56), uncooked strawberry or blackberry jam: 2 cups crushed berries (about 1 quart, about 0.95 l, of berries), 4 cups sugar, 1 package powdered pectin and 1 cup water; yield about 5–6 half-pint jars. Let berries and sugar stand 20 minutes, boil the pectin dissolved in water for 1 minute, stir in (2 minutes), pour into containers leaving 1/2 inch (about 1.3 cm) headspace and let stand covered for 24 hours at room temperature; then refrigerator or freezer (limits: SLO-020, SLO-460).",
+  "uwaga": "Limit 3 tygodni w lodówce i rok w zamrażarce z tej samej strony jest już w SLO-020; po otwarciu: SLO-460. Wersję z sokiem z cytryny i pektyną płynną podaje też UGA FDNS-E-43-09 (te same limity) — nie łączyć proporcji obu przepisów.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-491",
+  "twierdzenie": "Według NCHFP (2025) przy wekowaniu dodanie składników niskokwasowych (np. papryczek jalapeño) do dżemu lub galaretki, której przepis ich nie testował, może uczynić końcowe pH nieprzewidywalnym i może je podnieść do poziomu, w którym rosną groźne bakterie; bezpiecznym sposobem dodania smaku jest niewielka ilość (1 łyżeczka lub mniej) ziół lub innych aromatów w przetestowanym przepisie owocowym.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/newsflash/low-acid-additions-can-make-your-jams-and-jellies-unsafeheres-why",
+    "miejsce": "Newsflash, Low-acid additions can make your jams and jellies unsafe (VIII 2025)",
+    "cytat": "These types of changes could raise the pH to a level where harmful bacteria can grow. | A safe way to add extra flavor to your jams and jellies is by incorporating a small amount (1 teaspoon or less) of herbs or other flavorings into a tested fruit recipe.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c8bf4b0eb9a3"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Źródło mówi o wekowaniu i przechowywaniu na półce; dla lodówki daje regułę ostrożności (nieprzewidywalne pH), nie limit dni.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-SLO-12)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to NCHFP (2025), in home canning, adding low-acid ingredients (e.g. jalapeño peppers) to a jam or jelly whose recipe was not tested with them can make the final pH unpredictable and may raise it to a level where harmful bacteria can grow; a safe way to add flavor is a small amount (1 teaspoon or less) of herbs or other flavorings in a tested fruit recipe.",
+  "uwaga": "Uzasadnia, czemu dodatki niskokwasowe (cebula, fenkuł, imbir, czekolada, musztarda) wykluczają przepisy owocowe jako analogię.",
+  "brzmieniePrzed": "Według NCHFP (2025) dodanie składników niskokwasowych (np. papryczek jalapeño) do dżemu lub galaretki, której przepis ich nie testował, czyni końcowe pH nieprzewidywalnym i może je podnieść do poziomu, w którym rosną groźne bakterie; bezpiecznie można dodać tylko niewielką ilość (1 łyżeczka lub mniej) ziół lub innych aromatów do przetestowanego przepisu owocowego."
+ },
+ {
+  "id": "SLO-492",
+  "twierdzenie": "Według Ask Extension (ekspert OSU, 2024) Uniwersytet Wyoming wycofał przepis na wekowaną galaretkę z mniszka po tym, jak specjalista NCHFP uznał go za potencjalnie ryzykowny: kwasowość nie jest dość niska, by zapobiec rozwojowi przetrwalników jadu kiełbasianego, a aktywność wody może pozwalać na wzrost drobnoustrojów. Zastępczy przepis Wyoming jest tylko do lodówki lub zamrażarki, bez podanej liczby dni.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=862444",
+    "miejsce": "Ask Extension #862444, odpowiedź 2024-04-02",
+    "cytat": "A food scientist at the National Center for Home Food Preservation flagged this recipe as potentially risky several years ago and Wyoming decided to pull the recipe. As I suspected, the acidity is not low enough to prevent growth of botulism spores, and the water activity is potentially high enough to still allow for microbial growth.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "9f8a1a12977c"
+   },
+   {
+    "adres": "https://uwyoextension.org/uwnutrition/newsletters/dandelion-completely-edible/",
+    "miejsce": "Fresh Dandelion Jelly, Instructions",
+    "cytat": "store in the refrigerator, or freezer for longer storage.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "876b62be926d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Dotyczy mniszka; dla kwiatów bzu analogia przez SLO-068, SLO-472 (kwiaty i napar nie są kwaśne).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-SLO-13)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to Ask Extension (OSU expert, 2024), the University of Wyoming withdrew its canned dandelion jelly recipe after an NCHFP food scientist flagged it as potentially risky: the acidity is not low enough to prevent growth of botulism spores, and the water activity may allow microbial growth. Wyoming's replacement recipe is for the refrigerator or freezer only, with no number of days given.",
+  "uwaga": "Potwierdza informację w notatce wariantu („Wyoming wycofał”, dotąd niesprawdzone).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-493",
+  "twierdzenie": "Według NC State Extension (hrabstwo Perquimans) przepisy na alkohol z dodatkami (owoce, zioła) nie były testowane pod kątem bezpieczeństwa; produkty mogą wnieść bakterie, które alkohol może zabić albo nie; taki alkohol trzyma się w lodówce albo zamrażarce.",
+  "zrodla": [
+   {
+    "adres": "https://perquimans.ces.ncsu.edu/news/food-gift-safety/",
+    "miejsce": "Food Gift Safety, Infused Alcohol",
+    "cytat": "Infused liquor recipes have not been tested for safety. Produce may introduce bacteria into alcohol that the alcohol may or may not kill. | Refrigerate or freeze infused alcohol.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f0631d6f62ee"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło mówi o alkoholu z dodatkami, nie o owocach w alkoholu jako potrawie; wniosek: alkohol nie jest przetestowanym konserwantem owoców.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "C10 E1-lodowka-zrodla-p2-2026-11-02 (K-C10-SLO-14)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to NC State Extension (Perquimans County), infused liquor recipes (fruit, herbs) have not been tested for safety; produce may introduce bacteria that the alcohol may or may not kill; such alcohol is kept in the refrigerator or freezer.",
+  "uwaga": "Brak liczby dni.",
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {

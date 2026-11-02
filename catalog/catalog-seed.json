@@ -1,5 +1,5 @@
 {
- "version": "1.0.8",
+ "version": "1.0.9",
  "generated": "2026-11-02",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -5935,7 +5935,8 @@
    },
    "notes": [
     "[SUS*] Kapusta słodko-kwaśna po syczuańsku; nie suszenie.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
+    "[B12] zostaje do-researchu (C10 sekcja 3): Brak przepisu lodówkowego szczebla 1–3 na kapustę w occie z cukrem: NC State/UC MFP (ACI-505) nie wymieniają kapusty, B2267 (ACI-503) to ogórki z cebulą/papryką/kalafiorem/marchwią. Twierdzenia z raportu poza claims: ACI-501, ACI-509, ACI-016, ACI-508, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -7932,10 +7933,13 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SLO-047",
-    "SLO-023"
+    "SLO-023",
+    "ACI-086",
+    "ACI-026",
+    "SLO-106"
    ],
    "sources": [],
    "filters": {
@@ -7946,14 +7950,25 @@
    },
    "notes": [
     "[SLO*] Cukinia jest warzywem niskokwasowym, a zalecenia jej wekowania wycofano; brak przetestowanego dżemu z cukinią. Jedyny przetestowany przetwór słodki z cukinią to zucchini-pineapple (inny produkt).",
-    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-047 dotyczy wekowania samej dyni letniej, nie dżemu w lodówce."
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-047 dotyczy wekowania samej dyni letniej, nie dżemu w lodówce.",
+    "[B12] do-researchu → ryzyko-wysokie i wycofany jako duplikat zucchini-v08 (C10-D11, C10-D12): Dżem warzywny z niskokwasowej cukinii (pH 5,69–6,10) bez przetestowanego zakwaszenia; cytrusy jako smak nie są ustaloną dawką kwasu (SLO-491); requiredWarnings ACI-026, SLO-023; poza claims (robocze): SLO-491, ACI-523; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
    ],
-   "e3": "zmieniony z ryzyko-wysokie"
+   "e3": "zmieniony z ryzyko-wysokie",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-026",
+    "SLO-023"
+   ],
+   "retired": {
+    "reason": "duplikat zucchini-v08 (C10-D12: przetestowany przepis następcy)",
+    "replacedBy": "zucchini-v08",
+    "decision": "2026-11-02-jaratlas-06-b12-katalog-c10"
+   }
   },
   {
    "id": "zucchini-v14",
@@ -8423,11 +8438,13 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SLO-047",
     "SLO-023",
-    "SLO-069"
+    "SLO-069",
+    "ACI-026",
+    "ACI-125"
    ],
    "sources": [],
    "filters": {
@@ -8439,7 +8456,8 @@
    "notes": [
     "[ACI] Kandyzowany patison w syropie: warzywo niskokwasowe, brak przepisu.",
     "[SLO*] Patison (dynia letnia) jest niskokwasowy; brak przetestowanego przepisu na owoce kandyzowane w syropie. Karta: tylko ostrzeżenie.",
-    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-047 dotyczy wekowania samej dyni letniej; SLO-069 (owoce kandyzowane: lodówka do tygodnia) dotyczy owoców i pleśni, nie botulizmu."
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-047 dotyczy wekowania samej dyni letniej; SLO-069 (owoce kandyzowane: lodówka do tygodnia) dotyczy owoców i pleśni, nie botulizmu.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Patison (dynia letnia) i imbir są niskokwasowe; brak przepisu na kandyzowane warzywo; requiredWarnings ACI-026, ACI-125, SLO-023; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -8447,7 +8465,13 @@
     "ACI",
     "SLO"
    ],
-   "e3": "zmieniony z ryzyko-wysokie"
+   "e3": "zmieniony z ryzyko-wysokie",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-026",
+    "ACI-125",
+    "SLO-023"
+   ]
   },
   {
    "id": "pumpkin-v01",
@@ -13604,9 +13628,10 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "SLO-023"
+    "SLO-023",
+    "ACI-005"
    ],
    "sources": [],
    "filters": {
@@ -13616,12 +13641,18 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Topinambur jest warzywem; syrop redukowany bez danych o pH i aktywności wody."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Topinambur jest warzywem; syrop redukowany bez danych o pH i aktywności wody.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D9): Topinambur to warzywo (bulwa) niskokwasowe; syrop redukowany bez danych o pH i aktywności wody, bez przepisu szczebla 1–3; requiredWarnings ACI-005, SLO-023; dodane spoza listy C10 (B12-D4): ACI-005; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-005",
+    "SLO-023"
    ]
   },
   {
@@ -14853,13 +14884,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Ciecierzyca marynowana: gęsta, niskokwasowa; brak przepisu do weków (w NCHFP tylko jako składnik Three-Bean Salad)."
+    "[ACI*] Ciecierzyca marynowana: gęsta, niskokwasowa; brak przepisu do weków (w NCHFP tylko jako składnik Three-Bean Salad).",
+    "[B12] wycofany jako duplikat beans-soy-v01 (C10-D12), status do-researchu bez zmian: Ciecierzyca: pH 6,48–6,80 (ACI-100), gęsta, gotowana; przetestowane zakwaszenie istnieje tylko w sałatce z trzech fasoli NCHFP (ACI-703), z dodatkiem soku z cytryny i 12–14 h marynowania przed wekowaniem. Twierdzenia z raportu poza claims: ACI-703, OLE-036. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "retired": {
+    "reason": "duplikat beans-soy-v01 (C10-D12: przetestowany przepis następcy)",
+    "replacedBy": "beans-soy-v01",
+    "decision": "2026-11-02-jaratlas-06-b12-katalog-c10"
+   }
   },
   {
    "id": "peas-chickpeas-v05",
@@ -15768,7 +15805,8 @@
     "difficulty": null
    },
    "notes": [
-    "[OLE*] Anko (słodka pasta fasolowa); poza obszarem OLE."
+    "[OLE*] Anko (słodka pasta fasolowa); poza obszarem OLE.",
+    "[B12] zostaje do-researchu (C10-D11): C10 proponował ryzyko-wysokie, ale usunięcie z katalogu jako wyrobu cukierniczego to decyzja produktowa właściciela; nie rozstrzygam. Twierdzenia z raportu poza claims: ACI-102, SLO-023, ACI-005 (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -16871,11 +16909,12 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SLO-031",
     "SLO-023",
-    "SLO-069"
+    "SLO-069",
+    "ACI-005"
    ],
    "sources": [],
    "filters": {
@@ -16887,7 +16926,8 @@
    "notes": [
     "[ACI] Kandyzowana marchew — rodzina słodka, warzywo niskokwasowe.",
     "[SLO*] Marchew kandyzowana w syropie: produkt niskokwasowy w syropie, brak przetestowanego przepisu.",
-    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-069 dotyczy owoców kandyzowanych (pleśń); przeniesienie na marchew to analogia."
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-069 dotyczy owoców kandyzowanych (pleśń); przeniesienie na marchew to analogia.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Marchew niskokwasowa (pH 4,9–5,2) w syropie bez przetestowanego zakwaszenia; SLO-069 dotyczy owoców kandyzowanych; requiredWarnings ACI-005, SLO-023; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -16895,7 +16935,12 @@
     "ACI",
     "SLO"
    ],
-   "e3": "zmieniony z ryzyko-wysokie"
+   "e3": "zmieniony z ryzyko-wysokie",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-005",
+    "SLO-023"
+   ]
   },
   {
    "id": "carrot-v13",
@@ -17944,10 +17989,13 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SLO-033",
-    "SLO-023"
+    "SLO-023",
+    "ACI-524",
+    "ACI-107",
+    "MIE-059"
    ],
    "sources": [],
    "filters": {
@@ -17958,14 +18006,21 @@
    },
    "notes": [
     "[SLO*] Jak onion-v07.",
-    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-033 to pH cebuli czerwonej, a produkt dotyczy cebuli żółtej i białej."
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-033 to pH cebuli czerwonej, a produkt dotyczy cebuli żółtej i białej.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Jak onion-v07 (B9-D10): dżem warzywny z niskokwasowej cebuli, brak przepisu lodówkowego i limitu; requiredWarnings ACI-524, SLO-023, MIE-059; poza claims (robocze): SLO-491; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
    ],
-   "e3": "zmieniony z ryzyko-wysokie"
+   "e3": "zmieniony z ryzyko-wysokie",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-524",
+    "SLO-023",
+    "MIE-059"
+   ]
   },
   {
    "id": "onion-v09",
@@ -18504,13 +18559,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Cebulka w winie: produkt niskokwasowy, obszar ACI."
+    "[SLO*] Cebulka w winie: produkt niskokwasowy, obszar ACI.",
+    "[B12] wycofany jako duplikat shallot-pearl-onion-v01 (C10-D7; warunek B9 spełniony: następca ok-zrodlo od B10), status do-researchu bez zmian: Jedyne źródło na warzywo w nierozcieńczonym winie to UC ANR dla obranego czosnku (ACI-512/513); B9 (sekcja 9) zastrzega, że nie przechodzi na inne warzywa. Twierdzenia z raportu poza claims: ACI-512, ACI-513, ACI-509, ACI-702, ACI-005, ACI-524. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "retired": {
+    "reason": "duplikat shallot-pearl-onion-v01 (C10-D12: przetestowany przepis następcy; warunek B9 spełniony w B10)",
+    "replacedBy": "shallot-pearl-onion-v01",
+    "decision": "2026-11-02-jaratlas-06-b12-katalog-c10"
+   }
   },
   {
    "id": "shallot-pearl-onion-v09",
@@ -18554,10 +18615,12 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SLO-033",
-    "SLO-023"
+    "SLO-023",
+    "ACI-524",
+    "MIE-059"
    ],
    "sources": [],
    "filters": {
@@ -18569,7 +18632,8 @@
    "notes": [
     "[SLO*] Konfitura z czerwonej cebuli z żurawiną: cebula niskokwasowa, żurawina nie jest przetestowaną dawką kwasu.",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SLO.",
-    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-033 to tylko pH czerwonej cebuli."
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-033 to tylko pH czerwonej cebuli.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Cebula niskokwasowa; żurawina nie jest przetestowaną dawką kwasu; requiredWarnings ACI-524, SLO-023; poza claims (robocze): SLO-491; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -18577,7 +18641,12 @@
     "SLO",
     "NAP"
    ],
-   "e3": "zmieniony z ryzyko-wysokie"
+   "e3": "zmieniony z ryzyko-wysokie",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-524",
+    "SLO-023"
+   ]
   },
   {
    "id": "shallot-pearl-onion-v11",
@@ -18875,7 +18944,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Kwiaty szczypiorku w occie: to raczej ocet smakowy (NAP) niż pikiel; brak przepisu."
+    "[ACI*] Kwiaty szczypiorku w occie: to raczej ocet smakowy (NAP) niż pikiel; brak przepisu.",
+    "[B12] zostaje do-researchu (C10-D3): C10-D3: subagent proponował ok-zrodlo; zmienione na zostaje do-researchu, bo karta wymaga zmiany nazwy i zakresu (ocet smakowy, nie pikle do jedzenia), a 4–6 miesięcy to limit jakości (wzór C9-D7). Zmiana nazwy na „ocet z kwiatów szczypiorku” (C10-D3) nie wchodzi: źródło tylko szczebla 3 (NAP-064, NAP-065), a reguła B12-D3 wymaga przeczytanego cytatu szczebla 1. Twierdzenia z raportu poza claims: NAP-064, NAP-065, NAP-036, NAP-037, NAP-038, NAP-040, NAP-041, NAP-042, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -19510,13 +19580,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Sałatka z białej rzodkwi: brak przepisu."
+    "[ACI*] Sałatka z białej rzodkwi: brak przepisu.",
+    "[B12] wycofany jako duplikat daikon-black-radish-v03 (C10-D12; warunek B9 spełniony: następca ok-zrodlo od B10), status do-researchu bez zmian: Nazwa „sałatka” nie wskazuje proporcji ani kwasu; źródła szczebla 3 mają daikon tylko w UNL (z marchewką). Twierdzenia z raportu poza claims: ACI-511, ACI-505, ACI-506, ACI-501, ACI-509, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "retired": {
+    "reason": "duplikat daikon-black-radish-v03 (C10-D12: przetestowany przepis następcy; warunek B9 spełniony w B10)",
+    "replacedBy": "daikon-black-radish-v03",
+    "decision": "2026-11-02-jaratlas-06-b12-katalog-c10"
+   }
   },
   {
    "id": "daikon-black-radish-v11",
@@ -19993,7 +20069,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Strąki rzodkiewki (mougri) w occie: brak przepisu i danych pH."
+    "[ACI*] Strąki rzodkiewki (mougri) w occie: brak przepisu i danych pH.",
+    "[B12] zostaje do-researchu (C10 sekcja 3): NC State/UC MFP wymieniają rzodkiewki (korzeń) i strąki groszku, nie strąki rzodkiewki; brak pH strąków w liście FDA; przepisy na mougri tylko na blogach (szczebel 5). Twierdzenia z raportu poza claims: ACI-505, ACI-506, ACI-508. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -20251,14 +20328,20 @@
    },
    "notes": [
     "[ACI*] Chrzan z miodem i octem jabłkowym: zmiana składu względem przepisu NCHFP (który jest lodówkowy); brak przepisu.",
-    "[SLO] Chrzan w occie z miodem, obszar ACI; miód: ostrzeżenie dla niemowląt."
+    "[SLO] Chrzan w occie z miodem, obszar ACI; miód: ostrzeżenie dla niemowląt.",
+    "[B12] wycofany jako duplikat horseradish-v01 (C10-D6, C10-D12), status do-researchu bez zmian: NCHFP/NDSU mają biały ocet 5%; ocet jabłkowy zamiennie tylko wg reguły Wisconsin dla szybkich pikli (ACI-509), nie w przepisie chrzanowym. Twierdzenia z raportu poza claims: ACI-700, ACI-514, ACI-501, ACI-509, SLO-465, SLO-466. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "retired": {
+    "reason": "duplikat horseradish-v01 (C10-D12: przetestowany przepis następcy)",
+    "replacedBy": "horseradish-v01",
+    "decision": "2026-11-02-jaratlas-06-b12-katalog-c10"
+   }
   },
   {
    "id": "horseradish-v06",
@@ -20331,8 +20414,14 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "MLE-066",
+    "ACI-700",
+    "ACI-035",
+    "ACI-005",
+    "ACI-006"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -20342,14 +20431,26 @@
    },
    "notes": [
     "[OLE*] Chrzan tarty (z jabłkiem i śmietaną / z groszkiem): dodatek octowy, poza obszarem OLE.",
-    "[SUS] Chrzan ze śmietaną i jabłkiem: świeży dodatek z nabiałem; krótko w lodówce."
+    "[SUS] Chrzan ze śmietaną i jabłkiem: świeży dodatek z nabiałem; krótko w lodówce.",
+    "[B12] do-researchu → ryzyko-wysokie i wycofany jako duplikat horseradish-v01 (C10-D6, C10-D12): Mieszanina z nabiałem i surowym jabłkiem: nabiał niskokwasowy (ACI-005), mieszaniny zwykle powyżej pH 4,6 (ACI-006); brak przetestowanego przepisu; requiredWarnings ACI-005, ACI-006, MLE-066; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "OLE",
     "SUS"
-   ]
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-005",
+    "ACI-006",
+    "MLE-066"
+   ],
+   "retired": {
+    "reason": "duplikat horseradish-v01 (C10-D12: przetestowany przepis następcy)",
+    "replacedBy": "horseradish-v01",
+    "decision": "2026-11-02-jaratlas-06-b12-katalog-c10"
+   }
   },
   {
    "id": "horseradish-v09",
@@ -20362,8 +20463,14 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "ACI-101",
+    "ACI-005",
+    "ACI-006",
+    "ACI-700",
+    "ACI-035"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -20373,14 +20480,25 @@
    },
    "notes": [
     "[OLE*] Chrzan tarty (z jabłkiem i śmietaną / z groszkiem): dodatek octowy, poza obszarem OLE.",
-    "[SUS] Chrzan typu wasabi; nie suszenie."
+    "[SUS] Chrzan typu wasabi; nie suszenie.",
+    "[B12] do-researchu → ryzyko-wysokie i wycofany jako duplikat horseradish-v01 (C10-D6, C10-D12): Zielony groszek to warzywo niskokwasowe (pH 6,22–6,88 po ugotowaniu, ACI-101); mieszanka bez przetestowanego zakwaszenia (ACI-006); requiredWarnings ACI-101, ACI-006; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "OLE",
     "SUS"
-   ]
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-101",
+    "ACI-006"
+   ],
+   "retired": {
+    "reason": "duplikat horseradish-v01 (C10-D12: przetestowany przepis następcy)",
+    "replacedBy": "horseradish-v01",
+    "decision": "2026-11-02-jaratlas-06-b12-katalog-c10"
+   }
   },
   {
    "id": "horseradish-v10",
@@ -22366,9 +22484,10 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "SLO-023"
+    "SLO-023",
+    "ACI-005"
    ],
    "sources": [],
    "filters": {
@@ -22378,12 +22497,18 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Fenkuł: brak pH w przeczytanych źródłach, prawdopodobnie niskokwasowy; traktować ostrożnie."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Fenkuł: brak pH w przeczytanych źródłach, prawdopodobnie niskokwasowy; traktować ostrożnie.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Fenkuł to świeże warzywo (ACI-005: wszystkie świeże warzywa poza większością pomidorów są niskokwasowe); wino nie jest przetestowanym kwasem; requiredWarnings ACI-005, SLO-023; poza claims (robocze): SLO-491; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-005",
+    "SLO-023"
    ]
   },
   {
@@ -23525,7 +23650,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Kapary w occie winnym: zwykle po soleniu (FER); brak przepisu do weków."
+    "[ACI*] Kapary w occie winnym: zwykle po soleniu (FER); brak przepisu do weków.",
+    "[B12] zostaje do-researchu (C10 sekcja 3): Kapary pH 6,00 (ACI-124). Źródła szczebla 3 o kaparach (Wisconsin Horticulture) opisują tylko ogólnie solenie, solankę lub „salt and vinegar solution”, bez proporcji i limitu. Twierdzenia z raportu poza claims: ACI-509, ACI-702. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -23558,7 +23684,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Owoce kaparowca w occie: brak przepisu."
+    "[ACI*] Owoce kaparowca w occie: brak przepisu.",
+    "[B12] zostaje do-researchu (C10 sekcja 3): Jak capers-v03; owoce kaparowca bez przepisu i bez danych pH (ACI-124 dotyczy pąków). Twierdzenia z raportu poza claims: ACI-509. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -23826,7 +23953,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Benishoga w umezu (solanka śliwkowa): brak przepisu."
+    "[ACI*] Benishoga w umezu (solanka śliwkowa): brak przepisu.",
+    "[B12] zostaje do-researchu (C10-D7): Umezu to solanka ze śliwek ume, nie ocet octowy o etykiecie 5%; kwasowość nieznana (ACI-016: nie używać kwasu o nieznanej mocy). Twierdzenia z raportu poza claims: ACI-016, ACI-509, ACI-018. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -23996,7 +24124,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Galangal w occie ryżowym: brak przepisu i danych pH."
+    "[ACI*] Galangal w occie ryżowym: brak przepisu i danych pH.",
+    "[B12] zostaje do-researchu (C10 sekcja 3): Jak radish-v04 i daikon-black-radish-v04 (B9): ocet ryżowy bez etykiety 5% odrzucony; brak przepisu i pH galangalu (ACI-125 dotyczy imbiru). Twierdzenia z raportu poza claims: ACI-515, ACI-516, ACI-509, NAP-037, ACI-125, ACI-005 (robocze: ACI-515). (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -24129,8 +24258,13 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "SLO-482",
+    "ACI-125",
+    "SLO-023",
+    "SLO-481"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -24139,12 +24273,18 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D9): Ask Extension: imbir pH ponad granicą kąpieli wodnej, sok imbirowy niskokwasowy bez zwalidowanego przepisu, syropy cukrowe/miodowe mogą zawierać przetrwalniki; brak przepisu lodówkowego z liczbą dni; requiredWarnings SLO-482, ACI-125; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-482",
+    "ACI-125"
    ]
   },
   {
@@ -24191,8 +24331,11 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "ACI-125",
+    "SLO-023"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -24201,12 +24344,18 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Imbir niskokwasowy (pH 5,60–5,90); dżem z samego imbiru nie ma przepisu szczebla 1–3; requiredWarnings ACI-125, SLO-023; poza claims (robocze): SLO-491; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-125",
+    "SLO-023"
    ]
   },
   {
@@ -24491,14 +24640,20 @@
    },
    "notes": [
     "[FER*] Achards: zwykle ocet/olej z przyprawami.",
-    "[OLE] Achards de légumes (warzywa w occie z kurkumą i olejem); bezpieczeństwo zależy od octu."
+    "[OLE] Achards de légumes (warzywa w occie z kurkumą i olejem); bezpieczeństwo zależy od octu.",
+    "[B12] wycofany jako duplikat european-mixed-veg-v05 (C10-D12; warunek B9 spełniony: następca ok-zrodlo od B10), status do-researchu bez zmian: Achards: warzywa w occie z kurkumą, często z olejem; brak przepisu szczebla 1–3. Twierdzenia z raportu poza claims: ACI-503, ACI-504, ACI-016, OLE-036, OLE-029, ACI-509. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "FER",
     "OLE"
-   ]
+   ],
+   "retired": {
+    "reason": "duplikat european-mixed-veg-v05 (C10-D12: przetestowany przepis następcy; warunek B9 spełniony w B10)",
+    "replacedBy": "european-mixed-veg-v05",
+    "decision": "2026-11-02-jaratlas-06-b12-katalog-c10"
+   }
   },
   {
    "id": "european-mixed-veg-v07",
@@ -25338,8 +25493,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "SLO-023",
+    "ACI-005",
+    "MIE-059",
+    "NAP-055"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -25348,12 +25508,18 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Fukujinzuke (ACI/NAP)."
+    "[SZY*] Fukujinzuke (ACI/NAP).",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D7): B9-D7: warzywa w sosie sojowym (z cukrem/mirinem) bez octu 5% – sos sojowy nie zakwasza, sól rozcieńcza woda z warzyw, C. botulinum nieproteolityczny rośnie od 3,3°C; requiredWarnings SLO-023, MIE-059; poza claims (robocze): NAP-063; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-023",
+    "MIE-059"
    ]
   },
   {
@@ -27083,7 +27249,8 @@
    },
    "notes": [
     "[SZY] Syrop z pigwowca na surowo (SLO).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Syrop z surowych owoców pigwowca zasypanych cukrem: reguła przetworów niegotowanych (lodówka/zamrażarka)."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Syrop z surowych owoców pigwowca zasypanych cukrem: reguła przetworów niegotowanych (lodówka/zamrażarka).",
+    "[B12] zostaje do-researchu (C10-D8): Pigwowiec (Chaenomeles) kwaśny, cukier wysoki, ryzyko niskie, ale brak źródła o tym owocu. Twierdzenia z raportu poza claims: SLO-460. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -27219,7 +27386,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Ser pigwowy (membrillo): brak źródła szczebla 1-3."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Ser pigwowy (membrillo): brak źródła szczebla 1-3.",
+    "[B12] zostaje do-researchu (C10-D11): Pigwa kwaśna (pH 3,12–3,40, grupa I NCHFP) i dużo cukru: niskie ryzyko, ale brak przepisu na membrillo i liczby dni w lodówce w źródłach 1–3. Twierdzenia z raportu poza claims: ACI-128, ACI-617, SLO-001, ACI-627, SLO-083. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -27343,9 +27511,13 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "SLO-036"
+    "SLO-036",
+    "SLO-465",
+    "SLO-466",
+    "SLO-469",
+    "SLO-470"
    ],
    "sources": [],
    "filters": {
@@ -27356,13 +27528,20 @@
    },
    "notes": [
     "[SZY] Pigwa w miodzie (SLO).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Jak currant-v04: miód nie konserwuje zanurzonego produktu (SLO-465), jego pH 3,1–6,1 (SLO-466); pigwa pieczona w miodzie przekracza 15% owoców (SLO-467); requiredWarnings SLO-465, SLO-469, SLO-470; poza claims (robocze): SLO-467; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY",
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-465",
+    "SLO-469",
+    "SLO-470"
    ]
   },
   {
@@ -28981,7 +29160,8 @@
    },
    "notes": [
     "[ACI] Domowe maraschino (barwienie, aromat migdałowy, często wcześniejsze solenie/bielenie): brak przepisu.",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Domowe wiśnie maraschino: brak źródła."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Domowe wiśnie maraschino: brak źródła.",
+    "[B12] zostaje do-researchu (C10-D11): Wiśnie kwaśne w syropie cukrowym: niskie ryzyko, ale brak przepisu i liczby dni w lodówce (szukano: extension „maraschino refrigerator” — tylko blogi 4 tyg.–6 mies., odrzucone). (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29001,8 +29181,11 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "SLO-493",
+    "ACI-067"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -29011,12 +29194,17 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Owoce w alkoholu: nie znaleziono przetestowanego przepisu szczebla 1-3."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Owoce w alkoholu: nie znaleziono przetestowanego przepisu szczebla 1-3.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Alkohol jako „konserwant” bez źródła: NC State — przepisy z alkoholem nietestowane, alkohol może nie zabić bakterii (SLO-493); requiredWarnings SLO-493; poza claims (robocze): SLO-491; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-493"
    ]
   },
   {
@@ -31539,16 +31727,35 @@
    "id": "strawberry-v15",
    "productId": "strawberry",
    "name": {
-    "pl": "owoce w żelu"
+    "pl": "niegotowany dżem truskawkowy (lodówka lub zamrażarka)"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 251,
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "SLO-490",
+    "SLO-020",
+    "SLO-460"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jam-uncooked/",
+     "miejsce": "NCHFP, Berry Jam (Uncooked), Ingredients",
+     "cytat": "2 cups crushed strawberries or blackberries (about 1 quart berries) 4 cups sugar 1 package powdered pectin 1 cup water Yield: About 5 or 6 half-pint jars",
+     "odczyt": "2026-11-02",
+     "szczebel": 1
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jam-uncooked/",
+     "miejsce": "NCHFP, Berry Jam (Uncooked), To store",
+     "cytat": "Store uncooked jams in refrigerator or freezer. They can be held up to 3 weeks in the refrigerator or up to a year in a freezer.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -31556,7 +31763,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Owoce w żelu; nie suszenie."
+    "[SUS*] Owoce w żelu; nie suszenie.",
+    "[B12] do-researchu → ok-zrodlo z minimalną poprawką nazwy (C10-D4, B12-D3): „owoce w żelu” nie miało przepisu; nazwa według NCHFP Berry Jam (Uncooked) (SLO-490, szczebel 1, przeczytany 2026-11-02 curl), lodówka do 3 tygodni albo zamrażarka do roku (SLO-020), po otwarciu kilka dni (SLO-460); ACI-523 (robocze) poza claims; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -32636,7 +32844,8 @@
    },
    "notes": [
     "[SZY] Sos cumberland (SLO/ACI).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Sos z winem i musztardą."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Sos z winem i musztardą.",
+    "[B12] zostaje do-researchu (C10-D11): Porzeczki kwaśne (grupa I NCHFP, ACI-608), produkt cukrowo-kwaśny — niskie ryzyko, ale brak przepisu i liczby dni. Twierdzenia z raportu poza claims: SLO-491, ACI-608 (robocze: SLO-491). (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -34696,10 +34905,15 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SLO-061",
-    "SLO-062"
+    "SLO-062",
+    "SLO-480",
+    "SLO-064",
+    "SLO-067",
+    "ACI-016",
+    "SLO-023"
    ],
    "sources": [],
    "filters": {
@@ -34709,12 +34923,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Sos octowy z owoców bzu (ACI). Owoce bzu muszą być gotowane, bez szypułek."
+    "[SLO*] Sos octowy z owoców bzu (ACI). Owoce bzu muszą być gotowane, bez szypułek.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D7): Owoce bzu mają pH powyżej 4,6 (SLO-480: średnio 4,92) i nie ma badań, ile kwasu potrzeba do ich bezpiecznego utrwalenia; brak przepisu i limitu na sos octowy z bzu; „leżakowany” zakłada wielomiesięczne przechowywanie bez źródła; requiredWarnings SLO-480, SLO-061, SLO-062; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-480",
+    "SLO-061",
+    "SLO-062"
    ]
   },
   {
@@ -34837,10 +35058,14 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SLO-068",
-    "SLO-063"
+    "SLO-063",
+    "SLO-472",
+    "SLO-492",
+    "SLO-066",
+    "SLO-489"
    ],
    "sources": [],
    "filters": {
@@ -34851,13 +35076,20 @@
    },
    "notes": [
     "[SZY] Galaretka z kwiatów bzu (SLO).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Galaretka z naparu kwiatowego wymaga przetestowanej dawki kwasu/cukru; Uniwersytet Wyoming wycofał podobny przepis (wg wyszukiwarki, niesprawdzone)."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Galaretka z naparu kwiatowego wymaga przetestowanej dawki kwasu/cukru; Uniwersytet Wyoming wycofał podobny przepis (wg wyszukiwarki, niesprawdzone).",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Kwiaty i napar nie są kwaśne (SLO-068, SLO-472); analogiczna galaretka z mniszka została wycofana po ocenie NCHFP (kwasowość i aktywność wody, SLO-492); requiredWarnings SLO-068, SLO-492, SLO-489; dodane spoza listy C10 (B12-D4): SLO-489; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY",
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-068",
+    "SLO-492",
+    "SLO-489"
    ]
   },
   {
@@ -34958,9 +35190,12 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "SLO-020"
+    "SLO-020",
+    "SLO-068",
+    "SLO-472",
+    "SLO-489"
    ],
    "sources": [],
    "filters": {
@@ -34971,13 +35206,20 @@
    },
    "notes": [
     "[SZY] Płatki róży z cukrem (SLO).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Płatki ucierane z cukrem na surowo: reguła przetworów niegotowanych."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Płatki ucierane z cukrem na surowo: reguła przetworów niegotowanych.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D9): Płatki (kwiaty) niskokwasowe zostają w produkcie, bez obróbki cieplnej, bez przetestowanego zakwaszenia i bez źródła (SLO-068, SLO-472); reguła „zioła w syropie” z briefu; requiredWarnings SLO-068, SLO-472, SLO-489; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY",
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-068",
+    "SLO-472",
+    "SLO-489"
    ]
   },
   {
@@ -35057,9 +35299,15 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "SLO-036"
+    "SLO-036",
+    "SLO-465",
+    "SLO-466",
+    "SLO-468",
+    "SLO-469",
+    "SLO-470",
+    "SLO-489"
    ],
    "sources": [],
    "filters": {
@@ -35069,12 +35317,21 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D9): OSU EM 9885: miód nie konserwuje zanurzonego składnika; składniki wilgotne niskokwasowe (zioła) najwyżej 15% masy i tylko metodą na gorąco; requiredWarnings SLO-465, SLO-468, SLO-469, SLO-470, SLO-489; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-465",
+    "SLO-468",
+    "SLO-469",
+    "SLO-470",
+    "SLO-489"
    ]
   },
   {
@@ -36670,9 +36927,14 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "SLO-036"
+    "SLO-036",
+    "SLO-465",
+    "SLO-466",
+    "SLO-469",
+    "SLO-470",
+    "ACI-145"
    ],
    "sources": [],
    "filters": {
@@ -36682,12 +36944,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D9): Wprost B9-D8 (lemon-v05/v09): OSU EM 9885 dopuszcza świeże owoce kwaśne (cytrusy) najwyżej 15% masy naparu miodowego; typowe „limonki w miodzie” przekraczają 15%; requiredWarnings SLO-465, SLO-469, SLO-470; poza claims (robocze): SLO-467; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-465",
+    "SLO-469",
+    "SLO-470"
    ]
   },
   {
@@ -36850,7 +37119,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B12] zostaje do-researchu (C10-D8): Produkt kwaśny (limonka pH 2,00–2,80, ACI-145) i cukrowy, ryzyko niskie; brak przepisu i liczby dni. Twierdzenia z raportu poza claims: ACI-145, ACI-518, SLO-481, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37622,9 +37892,11 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "SLO-071"
+    "SLO-071",
+    "SLO-483",
+    "SLO-484"
    ],
    "sources": [],
    "filters": {
@@ -37634,12 +37906,18 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Kora chinowca: domowa dawka chininy niekontrolowana; w USA chinina dozwolona tylko do 83 ppm w napojach gazowanych. Potrzebne źródło o toksyczności."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Kora chinowca: domowa dawka chininy niekontrolowana; w USA chinina dozwolona tylko do 83 ppm w napojach gazowanych. Potrzebne źródło o toksyczności.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D10): Kwasowość nie jest problemem; ryzykiem jest niekontrolowana dawka alkaloidów chinowca z domowej kory: FDA dopuszcza korę chinowca tylko w napojach do 83 ppm łącznych alkaloidów (SLO-483), BfR: kobiety w ciąży powinny unikać napojów z chininą, objawy nietolerancji (SLO-484). Źródło szczebla 1 ostrzega, ale nie mówi „not recommended” o domowym syropie, więc nie nie-publikowac. cardType: warning; requiredWarnings SLO-483, SLO-484; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-483",
+    "SLO-484"
    ]
   },
   {
@@ -38378,11 +38656,12 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SLO-027",
     "SLO-054",
-    "SLO-023"
+    "SLO-023",
+    "ACI-152"
    ],
    "sources": [],
    "filters": {
@@ -38393,14 +38672,20 @@
    },
    "notes": [
     "[SLO*] Banan ma pH 4,5-5,2 i jest wykluczony z przecierów NCHFP; brak przetestowanego dżemu bananowego.",
-    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-054 (NCHFP, szczebel 1) wyklucza banany z przepisu na przeciery do wekowania i mówi o braku zaleceń wekowania, ale nie nazywa zagrożenia i nie dotyczy lodówki; SLO-027 (pH 4,5–5,2) jest graniczne."
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-054 (NCHFP, szczebel 1) wyklucza banany z przepisu na przeciery do wekowania i mówi o braku zaleceń wekowania, ale nie nazywa zagrożenia i nie dotyczy lodówki; SLO-027 (pH 4,5–5,2) jest graniczne.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Banan: pH 5,00–5,29 (ACI-152) albo 4,5–5,2 (SLO-027), wyłączony z przecierów NCHFP (SLO-054); brak przetestowanego dżemu bananowego w źródłach 1–3 (szukano); requiredWarnings SLO-054, SLO-023; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
    ],
-   "e3": "zmieniony z ryzyko-wysokie"
+   "e3": "zmieniony z ryzyko-wysokie",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-054",
+    "SLO-023"
+   ]
   },
   {
    "id": "pineapple-banana-v10",
@@ -38703,8 +38988,12 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "SLO-030",
+    "SLO-054",
+    "SLO-023"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -38714,13 +39003,19 @@
    },
    "notes": [
     "[OLE*] Pasta daktylowa; poza obszarem OLE.",
-    "[SUS] Pasta daktylowa z kardamonem; nie suszenie."
+    "[SUS] Pasta daktylowa z kardamonem; nie suszenie.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Daktyle pH 6,3–6,6, wyłączone z przecierów NCHFP; wilgotna pasta niskokwasowa, brak źródła i limitu (bez_zrodla); requiredWarnings SLO-054, SLO-023; poza claims (robocze): SLO-491; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "OLE",
     "SUS"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-054",
+    "SLO-023"
    ]
   },
   {
@@ -38965,7 +39260,7 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-066",
     "ACI-065",
@@ -38987,7 +39282,8 @@
    "notes": [
     "[ACI] Syrop z soku arbuza: sok niskokwasowy, NCHFP nie zaleca wekowania arbuza, brak przetestowanej procedury. Karta tylko jako ostrzeżenie (albo mrożenie).",
     "[SLO*] Sok z arbuza ma pH 5,2-5,8 (niskokwasowy); melony wykluczone z przecierów i soków; brak przetestowanego syropu.",
-    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). ACI-066 (NCHFP nie zaleca wekowania arbuza, przez SDSU), ACI-065, SLO-054 i SLO-052 (wyłączenia z przecierów i soków) oraz ACI-027 (brak czasów USDA) dotyczą wekowania. Syrop odparowany do lodówki nie ma nazwanego zagrożenia."
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). ACI-066 (NCHFP nie zaleca wekowania arbuza, przez SDSU), ACI-065, SLO-054 i SLO-052 (wyłączenia z przecierów i soków) oraz ACI-027 (brak czasów USDA) dotyczą wekowania. Syrop odparowany do lodówki nie ma nazwanego zagrożenia.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D9): Arbuz niskokwasowy (pH 5,18–5,60, ACI-156; 5,2–5,8, SLO-024), NCHFP nie zaleca wekowania arbuza (ACI-066) i nie ma zaleceń dla przecierów z melonów (SLO-054); redukcja soku bez danych o pH i aw, bez przetestowanego zakwaszenia; requiredWarnings ACI-066, ACI-026, SLO-023; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -38995,7 +39291,13 @@
     "ACI",
     "SLO"
    ],
-   "e3": "zmieniony z ryzyko-wysokie"
+   "e3": "zmieniony z ryzyko-wysokie",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-066",
+    "ACI-026",
+    "SLO-023"
+   ]
   },
   {
    "id": "watermelon-melon-v06",
@@ -39080,11 +39382,16 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SLO-025",
     "SLO-054",
-    "SLO-023"
+    "SLO-023",
+    "ACI-157",
+    "ACI-026",
+    "ACI-027",
+    "ACI-705",
+    "ACI-704"
    ],
    "sources": [],
    "filters": {
@@ -39096,7 +39403,8 @@
    "notes": [
     "[ACI] Dżem z kantalupa: melon niskokwasowy, wyłączony z przecierów NCHFP; brak przepisu. Sygnał ryzyka.",
     "[SLO*] Kantalupa ma pH 6,17-7,13; melony wykluczone z przecierów NCHFP; brak przetestowanego dżemu.",
-    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-054 (wyłączenie melonów z przecierów do wekowania) dotyczy wekowania; SLO-025 to pH."
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-054 (wyłączenie melonów z przecierów do wekowania) dotyczy wekowania; SLO-025 to pH.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Kantalup: pH 6,13–6,58 (ACI-157) albo 6,17–7,13 (SLO-025); melony wyłączone z przecierów; MSU/UC: nie wekować melonów poza piklami i konfiturami z kwasem (ACI-705); requiredWarnings ACI-026, SLO-023; poza claims (robocze): SLO-491; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -39104,7 +39412,12 @@
     "ACI",
     "SLO"
    ],
-   "e3": "zmieniony z ryzyko-wysokie"
+   "e3": "zmieniony z ryzyko-wysokie",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-026",
+    "SLO-023"
+   ]
   },
   {
    "id": "watermelon-melon-v09",
@@ -39117,10 +39430,14 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SLO-024",
-    "SLO-023"
+    "SLO-023",
+    "ACI-156",
+    "ACI-026",
+    "ACI-027",
+    "ACI-705"
    ],
    "sources": [],
    "filters": {
@@ -39133,7 +39450,8 @@
     "[ACI] Galaretka arbuzowa: sok niskokwasowy; brak przetestowanego przepisu. Sygnał ryzyka.",
     "[SZY] Galaretka (SLO).",
     "[SLO*] Sok z arbuza ma pH 5,2-5,8; brak przetestowanej galaretki.",
-    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-024 to pH arbuza."
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-024 to pH arbuza.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Sok z arbuza: pH arbuza 5,18–5,60 (ACI-156) albo 5,2–5,8 (SLO-024); brak przetestowanej galaretki; MSU/UC: melony niskokwasowe (ACI-705); requiredWarnings ACI-026, SLO-023; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -39142,7 +39460,12 @@
     "SZY",
     "SLO"
    ],
-   "e3": "zmieniony z ryzyko-wysokie"
+   "e3": "zmieniony z ryzyko-wysokie",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-026",
+    "SLO-023"
+   ]
   },
   {
    "id": "watermelon-melon-v10",
@@ -39442,7 +39765,8 @@
    },
    "notes": [
     "[SZY] Gianduja (SLO/OLE).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Krem czekoladowo-orzechowy to wyrób cukierniczy z tłuszczem; zakres do decyzji."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Krem czekoladowo-orzechowy to wyrób cukierniczy z tłuszczem; zakres do decyzji.",
+    "[B12] zostaje do-researchu (C10-D11): C10 proponował ryzyko-wysokie, ale usunięcie z katalogu jako wyrobu cukierniczego to decyzja produktowa właściciela; nie rozstrzygam. Twierdzenia z raportu poza claims: ACI-158, SLO-023 (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "out-of-scope",
    "scopeNote": "wyrób cukierniczy (krem orzechowy), nie typowy przetwór owocowy; do decyzji redakcji",
@@ -42303,7 +42627,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Napar z ziół nie jest kwaśny; do wekowania potrzebny przetestowany przepis.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SLO."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SLO.",
+    "[B12] zostaje do-researchu (C10-D8): Syrop przecedzony (bez liści): Ask Extension (SLO-481) podaje lodówkę i „paru tygodni” (SLO-481) bez liczby, brak przepisu. Twierdzenia z raportu poza claims: SLO-481, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -42335,7 +42660,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B12] zostaje do-researchu (C10-D8): Jak garden-herbs-v08; cytryna obniża pH, ale dodatek nieprzetestowany i świeży sok ma zmienne pH (ACI-518). Twierdzenia z raportu poza claims: SLO-481, ACI-518, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -42347,7 +42673,7 @@
    "id": "garden-herbs-v10",
    "productId": "garden-herbs",
    "name": {
-    "pl": "syrop tymiankowy na kaszel"
+    "pl": "syrop tymiankowy"
    },
    "groupV0": "Syropy, cukier i susz",
    "lineV0": 359,
@@ -42366,7 +42692,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Syrop „na kaszel”: twierdzeń zdrowotnych nie oceniamy."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Syrop „na kaszel”: twierdzeń zdrowotnych nie oceniamy.",
+    "[B12] zostaje do-researchu (C10-D10): Bezpieczeństwo jak garden-herbs-v08 (SLO-481, bez liczby). Nazwa bez „na kaszel” (B12-D7, C10-D10): twierdzenie zdrowotne bez źródła; SLO-488 tylko kontekst. Twierdzenia z raportu poza claims: SLO-481, SLO-488, SLO-469, SLO-470, SLO-036. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -42399,7 +42726,8 @@
    },
    "notes": [
     "[ACI] Syrop ziołowy — rodzina słodka.",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B12] zostaje do-researchu (C10-D8): SLO-481 dotyczy wprost syropu rozmarynowego (#869154): lodówka, „paru tygodni” (SLO-481), brak przepisu na wekowanie; brak liczby dni i proporcji. Twierdzenia z raportu poza claims: SLO-481, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -42537,10 +42865,12 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SLO-020",
-    "SLO-068"
+    "SLO-068",
+    "SLO-472",
+    "SLO-486"
    ],
    "sources": [],
    "filters": {
@@ -42551,13 +42881,20 @@
    },
    "notes": [
     "[SZY] Syrop z pędów sosny (SLO).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Pędy sosny zasypane cukrem bez gotowania: reguła przetworów niegotowanych; nazwa „miód” myląca."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Pędy sosny zasypane cukrem bez gotowania: reguła przetworów niegotowanych; nazwa „miód” myląca.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D9): Pędy (materiał roślinny niskokwasowy) zasypane cukrem bez gotowania, bez przetestowanego zakwaszenia i bez źródła; reguła „zioła w syropie”; requiredWarnings SLO-486, SLO-068, SLO-472; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY",
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-486",
+    "SLO-068",
+    "SLO-472"
    ]
   },
   {
@@ -42615,7 +42952,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B12] zostaje do-researchu (C10-D8): Jak garden-herbs-v08 (napar przecedzony, SLO-481 bez liczby); kwiaty pewnie rozpoznane, nie z przydroża (SLO-489). Źródła o toksyczności lipy nie szukałem osobno. Twierdzenia z raportu poza claims: SLO-472, SLO-481, SLO-489. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -42646,7 +42984,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Robinia: inne części rośliny trujące, do sprawdzenia."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Robinia: inne części rośliny trujące, do sprawdzenia.",
+    "[B12] zostaje do-researchu (C10-D10): Robinia: kora, liście, nasiona trujące, kwiaty jadalne (SLO-485, NC State). Twierdzenia z raportu poza claims: SLO-472, SLO-481, SLO-485, SLO-489. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -42677,7 +43016,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B12] zostaje do-researchu (C10-D8): Jak garden-herbs-v08; źródła szczebla 1–3 o babce w żywności nie szukałem (budżet). Twierdzenia z raportu poza claims: SLO-472, SLO-481. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -42696,9 +43036,12 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "SLO-068"
+    "SLO-068",
+    "SLO-481",
+    "SLO-487",
+    "SLO-489"
    ],
    "sources": [],
    "filters": {
@@ -42708,12 +43051,18 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Wiązówka zawiera salicylany, do sprawdzenia."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Wiązówka zawiera salicylany, do sprawdzenia.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D10): EMA (szczebel 1): kwiat wiązówki przeciwwskazany przy nadwrażliwości na salicylany, niezalecany poniżej 18 lat i w ciąży/karmieniu (SLO-487). Źródło ostrzega o składniku → reguła ryzyko-wysokie; requiredWarnings SLO-487, SLO-489; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-487",
+    "SLO-489"
    ]
   },
   {
@@ -42739,7 +43088,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B12] zostaje do-researchu (C10-D8): Jak garden-herbs-v08; fiołki wonne jadalne wg NDSU (nie fiołki afrykańskie), stokrotek źródło nie wymienia. Twierdzenia z raportu poza claims: SLO-472, SLO-481, SLO-489. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -42807,7 +43157,8 @@
    "notes": [
     "[FER*] Owoce nasturcji w solance i occie.",
     "[ACI] Owoce nasturcji w solance i occie: brak przepisu.",
-    "[SZY] Nasturcja w solance i occie (ACI/FER)."
+    "[SZY] Nasturcja w solance i occie (ACI/FER).",
+    "[B12] zostaje do-researchu (C10 sekcja 3): Brak źródła szczebla 1–3 na „kapary z nasturcji”; OSU SP 50-736 (NAP-064) wymienia nasturcje jako kwiaty do octu smakowego, nie zielone owoce. Twierdzenia z raportu poza claims: ACI-508. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -43907,8 +44258,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "ACI-701",
+    "ACI-162",
+    "ACI-509",
+    "ACI-016"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -43917,12 +44273,18 @@
     "difficulty": null
    },
    "notes": [
-    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia."
+    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D5): Wg nazwy kwasem są wino i verjus (moszcz z niedojrzałych winogron) o nieznanej kwasowości, bez octu 5%; reguła: marynata bez octu 5% = ryzyko-wysokie; requiredWarnings ACI-016, ACI-509; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "NAP"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -43946,7 +44308,8 @@
     "difficulty": null
    },
    "notes": [
-    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia."
+    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia.",
+    "[B12] zostaje do-researchu (C10-D5): Nie znaleziono przepisu szczebla 1–3 na musztardę lodówkową ani liczby dni w lodówce (sekcja bez_zrodla); gorczyca/musztarda ma pH 3,55–6,00 (ACI-162), więc bezpieczeństwo zależy od proporcji octu 5%, nieprzetestowanych. Twierdzenia z raportu poza claims: ACI-162, ACI-016, ACI-508. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -43975,7 +44338,8 @@
     "difficulty": null
    },
    "notes": [
-    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia."
+    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia.",
+    "[B12] zostaje do-researchu (C10-D5): Nie znaleziono przepisu szczebla 1–3 na musztardę lodówkową ani liczby dni w lodówce (sekcja bez_zrodla); gorczyca/musztarda ma pH 3,55–6,00 (ACI-162), więc bezpieczeństwo zależy od proporcji octu 5%, nieprzetestowanych. Twierdzenia z raportu poza claims: ACI-162, ACI-016, ACI-501. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -44004,7 +44368,8 @@
     "difficulty": null
    },
    "notes": [
-    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia."
+    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia.",
+    "[B12] zostaje do-researchu (C10-D5): Nie znaleziono przepisu szczebla 1–3 na musztardę lodówkową ani liczby dni w lodówce (sekcja bez_zrodla); gorczyca/musztarda ma pH 3,55–6,00 (ACI-162), więc bezpieczeństwo zależy od proporcji octu 5%, nieprzetestowanych. Twierdzenia z raportu poza claims: ACI-162, ACI-016. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -44033,7 +44398,8 @@
     "difficulty": null
    },
    "notes": [
-    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia."
+    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia.",
+    "[B12] zostaje do-researchu (C10-D5): Nie znaleziono przepisu szczebla 1–3 na musztardę lodówkową ani liczby dni w lodówce (sekcja bez_zrodla); gorczyca/musztarda ma pH 3,55–6,00 (ACI-162), więc bezpieczeństwo zależy od proporcji octu 5%, nieprzetestowanych. Twierdzenia z raportu poza claims: ACI-162, ACI-016. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -44062,7 +44428,8 @@
     "difficulty": null
    },
    "notes": [
-    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia."
+    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia.",
+    "[B12] zostaje do-researchu (C10-D5): Nie znaleziono przepisu szczebla 1–3 na musztardę lodówkową ani liczby dni w lodówce (sekcja bez_zrodla); gorczyca/musztarda ma pH 3,55–6,00 (ACI-162), więc bezpieczeństwo zależy od proporcji octu 5%, nieprzetestowanych. Twierdzenia z raportu poza claims: ACI-162, ACI-016, SLO-036, SLO-469, SLO-466. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -44091,7 +44458,8 @@
     "difficulty": null
    },
    "notes": [
-    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia."
+    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia.",
+    "[B12] zostaje do-researchu (C10-D5): Nie znaleziono przepisu szczebla 1–3 na musztardę lodówkową ani liczby dni w lodówce (sekcja bez_zrodla); gorczyca/musztarda ma pH 3,55–6,00 (ACI-162), więc bezpieczeństwo zależy od proporcji octu 5%, nieprzetestowanych. Twierdzenia z raportu poza claims: ACI-162, ACI-016, ACI-035, ACI-700, ACI-514. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -44120,7 +44488,8 @@
     "difficulty": null
    },
    "notes": [
-    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia."
+    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia.",
+    "[B12] zostaje do-researchu (C10-D5): Nie znaleziono przepisu szczebla 1–3 na musztardę lodówkową ani liczby dni w lodówce (sekcja bez_zrodla); gorczyca/musztarda ma pH 3,55–6,00 (ACI-162), więc bezpieczeństwo zależy od proporcji octu 5%, nieprzetestowanych. Twierdzenia z raportu poza claims: ACI-162, ACI-016. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -44149,7 +44518,8 @@
     "difficulty": null
    },
    "notes": [
-    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia."
+    "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia.",
+    "[B12] zostaje do-researchu (C10-D5): Nie znaleziono przepisu szczebla 1–3 na musztardę lodówkową ani liczby dni w lodówce (sekcja bez_zrodla); gorczyca/musztarda ma pH 3,55–6,00 (ACI-162), więc bezpieczeństwo zależy od proporcji octu 5%, nieprzetestowanych. Twierdzenia z raportu poza claims: ACI-162, ACI-016. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -44168,10 +44538,13 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-009",
-    "ACI-162"
+    "ACI-162",
+    "ACI-026",
+    "ACI-006",
+    "SLO-023"
    ],
    "sources": [],
    "filters": {
@@ -44184,7 +44557,8 @@
     "[ACI*] Mostarda di frutta (owoce w syropie z olejkiem gorczycowym): brak przepisu.",
     "[SLO] Mostarda z olejkiem gorczycowym, obszar NAP/ACI; olejek gorczycowy wymaga osobnego sprawdzenia.",
     "[OLE] Mostarda (owoce w syropie z olejkiem gorczycowym); olejek eteryczny, nie zalewa olejowa.",
-    "[NAP] Mostarda di frutta: owoce kandyzowane w syropie; ocenia SLO."
+    "[NAP] Mostarda di frutta: owoce kandyzowane w syropie; ocenia SLO.",
+    "[B12] do-researchu → ryzyko-wysokie (C10-D5): acidBasis=low-acid w katalogu; owoce w syropie bez przetestowanego zakwaszenia (mostarda bywa z melonem, dynią, figami: niskokwasowe, ACI-026, ACI-009), bez źródła szczebla 1–3 (tylko blogi i Wikipedia); requiredWarnings ACI-006, SLO-023; dodane spoza listy C10 (B12-D4): ACI-006, SLO-023; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -44193,6 +44567,11 @@
     "SLO",
     "OLE",
     "NAP"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-006",
+    "SLO-023"
    ]
   },
   {
@@ -44221,7 +44600,8 @@
    "notes": [
     "[ACI] Kawior gorczycowy (ziarna w occie i syropie): brak przepisu.",
     "[SLO] Ziarna gorczycy w occie i syropie, obszar NAP/ACI.",
-    "[NAP*] Kawior gorczycowy: brak przetestowanego przepisu."
+    "[NAP*] Kawior gorczycowy: brak przetestowanego przepisu.",
+    "[B12] zostaje do-researchu (C10-D5): Nie znaleziono przepisu szczebla 1–3 na musztardę lodówkową ani liczby dni w lodówce (sekcja bez_zrodla); gorczyca/musztarda ma pH 3,55–6,00 (ACI-162), więc bezpieczeństwo zależy od proporcji octu 5%, nieprzetestowanych. Twierdzenia z raportu poza claims: ACI-016. (2026-11-02-jaratlas-06-b12-katalog-c10)."
    ],
    "scope": "in",
    "publication": "ukryta",
