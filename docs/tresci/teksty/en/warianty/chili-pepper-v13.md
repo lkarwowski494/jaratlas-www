@@ -92,7 +92,7 @@ If a jar has not sealed at this check, keep it in the refrigerator and eat it wi
 
 Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) and not near hot pipes, a stove or a furnace, in an uninsulated attic or in direct sunlight; in such conditions the food may spoil. [T:SLO-198]
 
-JarAtlas rule (cautious): keep an opened jar in the refrigerator and use it within 1 week. [T:SLO-322]
+Regular full-sugar cooked jellies made with added pectin, like this one, are best kept in the refrigerator for 1 month after opening. [T:SLO-018]
 
 Keep any jelly left over after filling the jars in the refrigerator. [T:ACI-293]
 

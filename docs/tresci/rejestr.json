@@ -1235,7 +1235,7 @@
  },
  {
   "id": "FER-042",
-  "twierdzenie": "NCHFP ogórki kiszone (dill pickles), na galon pojemności: 4 funty ogórków 4-calowych, 1/2 szklanki soli, 1/4 szklanki octu 5%, 8 szklanek wody; czosnek i suszona czerwona papryka opcjonalnie.",
+  "twierdzenie": "NCHFP ogórki kiszone (dill pickles), na galon pojemności: 4 funty ogórków 4-calowych, 1/2 szklanki soli, 1/4 szklanki octu 5%, 8 szklanek wody, 2 łyżki nasion kopru albo 4–5 baldachów świeżego lub suszonego kopru; czosnek i suszona czerwona papryka opcjonalnie.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
@@ -45681,8 +45681,8 @@
   "jednoZrodlo": true,
   "krytyczne": true,
   "id": "SUS-203",
-  "twierdzenie": "Po suszeniu część kawałków bywa wilgotniejsza od innych z powodu wielkości i miejsca w suszarce; kondycjonowanie wyrównuje resztkową wilgoć w suszu, więc jest mniejsza szansa zepsucia: ostudzony susz warzywny wkłada się do dużych pojemników plastikowych lub szklanych do ok. dwóch trzecich, lekko przykrywa i trzyma w ciepłym, suchym, przewiewnym miejscu 4–10 dni, codziennie mieszając lub potrząsając; jeśli w środku pojawią się krople wilgoci, susz wraca do suszarki, a potem kondycjonuje się go ponownie.",
-  "twierdzenie_en": "When drying is complete, some pieces are moister than others because of their size and location during drying; conditioning distributes residual moisture evenly in dried food, so there is less chance of spoilage: put the cooled dried vegetables in large plastic or glass containers about two-thirds full, cover lightly and keep in a warm, dry, well-ventilated place for 4–10 days, stirring or shaking daily; if beads of moisture form inside, return the food to the dehydrator, then condition it again.",
+  "twierdzenie": "Po suszeniu część kawałków bywa wilgotniejsza od innych z powodu wielkości i miejsca w suszarce; kondycjonowanie wyrównuje resztkową wilgoć w suszu, więc jest mniejsza szansa zepsucia: ostudzony susz warzywny wkłada się do dużych pojemników plastikowych lub szklanych do ok. dwóch trzecich, lekko przykrywa i trzyma w ciepłym, suchym, przewiewnym miejscu 4–10 dni, codziennie mieszając lub potrząsając; jeśli w środku pojawią się krople wilgoci, susz wraca do suszarki, a potem kondycjonuje się go ponownie. CSU dodaje, że warzywa wysychają prawie bez wody, więc ich kondycjonowanie nie zawsze jest konieczne.",
+  "twierdzenie_en": "When drying is complete, some pieces are moister than others because of their size and location during drying; conditioning distributes residual moisture evenly in dried food, so there is less chance of spoilage: put the cooled dried vegetables in large plastic or glass containers about two-thirds full, cover lightly and keep in a warm, dry, well-ventilated place for 4–10 days, stirring or shaking daily; if beads of moisture form inside, return the food to the dehydrator, then condition it again. CSU adds that because vegetables dry to a nearly waterless state, conditioning them is not always necessary.",
   "zrodla": [
    {
     "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
@@ -45692,13 +45692,23 @@
     "sha12": "de4d3ee46205",
     "miejsce": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed, rev. 11.2012); Conditioning",
     "cytat": "When drying is complete, some pieces will be moister than others due to size and location during drying. Conditioning distributes residual moisture evenly in dried food so there is less chance of spoilage. To condition, place the cooled, dried vegetables in large plastic or glass containers to about two-thirds full. Cover lightly and store in a warm, dry, well-ventilated place for four to 10 days. Stir or shake containers daily to separate pieces. If beads of moisture form inside, return the food to the dehydrator for further drying, then repeat the conditioning step."
+   },
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "miejsce": "Colorado State Univ. Extension, Drying Vegetables; Conditioning (zdanie po opisie kondycjonowania)",
+    "cytat": "Because vegetables dry to a nearly waterless state, conditioning them is not always necessary.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "e8daa2e7010f"
    }
   ],
   "wielkosc": "czas kondycjonowania suszu warzywnego",
   "wartosc": 4,
   "jednostka": "dzień",
   "uwaga": "CSU: „Because vegetables dry to a nearly waterless state, conditioning them is not always necessary.” Karty dyni, bakłażana i szparagów (stan końcowy „twardy/skórzasty”) stosują kondycjonowanie zawsze (wariant ostrożniejszy, p26).",
-  "weryfikacjaZastepcza": "2026-11-02"
+  "weryfikacjaZastepcza": "2026-11-02",
+  "uzupelnienieP30": "p30 (V2): dopisane zdanie CSU o tym, że kondycjonowanie warzyw nie zawsze jest konieczne; karty z końcem suszenia „tough/leathery/flexible” stosują kondycjonowanie jako regułę ostrożną."
  },
  {
   "status": "potwierdzone",
@@ -53308,7 +53318,7 @@
   "zrodla": [
    {
     "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
-    "miejsce": "UGA Extension C1334, How to Safely Make Infused Oils (szczebel 3; wydawca NCHFP)",
+    "miejsce": "UGA Extension C1334, How to Safely Make Infused Oils (szczebel 3; UGA Cooperative Extension)",
     "cytat": "Spores of C. botulinum may already be present in garlic and herbs, and when introduced to an ideal environment—no oxygen, low acid content, and ambient temperatures—they can germinate, multiply, and produce a deadly neurotoxin.",
     "odczyt": "2026-11-02",
     "szczebel": 3,

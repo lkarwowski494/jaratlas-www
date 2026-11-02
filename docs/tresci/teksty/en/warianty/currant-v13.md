@@ -1,6 +1,6 @@
 # Red currant compote: whole red currants in very light syrup (NCHFP)
 
-This card describes the NCHFP method for canning whole red currants, packed raw in a very light syrup, in a boiling-water bath. [T:ACI-244,ACI-249,ACI-192,SLO-324]
+This card applies the NCHFP method for canning whole berries (raw pack, very light syrup, boiling-water bath) to red currants only. [T:ACI-244,ACI-249,ACI-192,SLO-324]
 
 ## Preparing
 

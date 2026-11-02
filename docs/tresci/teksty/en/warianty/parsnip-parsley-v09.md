@@ -42,7 +42,9 @@ In a conventional oven, drying can take up to twice as long as in a dehydrator, 
 
 Dry the parsnips for 6–10 hours, until tough to brittle. [T:SUS-127]
 
-When drying is complete, some pieces are moister than others because of their size and location during drying; conditioning distributes residual moisture evenly and lowers the chance of spoilage, so condition these dried pieces. [T:SUS-203]
+When drying is complete, some pieces are moister than others because of their size and location during drying; conditioning distributes residual moisture evenly and lowers the chance of spoilage. [T:SUS-203]
+
+JarAtlas rule (cautious): CSU says that conditioning vegetables is not always necessary because they dry to a nearly waterless state, but drying on this card can end at a tough rather than brittle stage, so condition these dried pieces. [T:SUS-203]
 
 Put the cooled dried pieces in large plastic or glass containers about two-thirds full, cover lightly and keep them in a warm, dry, well-ventilated place for 4–10 days, stirring or shaking daily. [T:SUS-203]
 

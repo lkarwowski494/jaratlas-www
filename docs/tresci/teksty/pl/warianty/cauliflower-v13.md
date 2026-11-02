@@ -40,7 +40,9 @@ W zwykłym piekarniku suszenie może trwać do dwóch razy dłużej niż w susza
 
 Kalafior susz 12–15 godzin, aż będzie twardy lub łamliwy. [T:SUS-109]
 
-Po suszeniu część kawałków bywa wilgotniejsza od innych z powodu wielkości i miejsca w suszarce; kondycjonowanie wyrównuje resztkową wilgoć w suszu, więc jest mniejsza szansa zepsucia, dlatego kondycjonuj ten susz. [T:SUS-203]
+Po suszeniu część kawałków bywa wilgotniejsza od innych z powodu wielkości i miejsca w suszarce; kondycjonowanie wyrównuje resztkową wilgoć w suszu, więc jest mniejsza szansa zepsucia. [T:SUS-203]
+
+Reguła JarAtlas (ostrożna): według CSU kondycjonowanie warzyw nie zawsze jest konieczne, bo wysychają prawie bez wody, ale suszenie w tej karcie może kończyć się na stanie twardym, a nie łamliwym, dlatego kondycjonuj ten susz. [T:SUS-203]
 
 Ostudzony susz włóż do dużych pojemników plastikowych lub szklanych do ok. dwóch trzecich, lekko przykryj i trzymaj w ciepłym, suchym, przewiewnym miejscu 4–10 dni, codziennie mieszając lub potrząsając. [T:SUS-203]
 

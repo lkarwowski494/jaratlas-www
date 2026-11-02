@@ -1,6 +1,6 @@
 # Sok z czerwonych porzeczek z sokownika (UC Master Food Preservers)
 
-Ta karta opisuje metodę Master Food Preservers Uniwersytetu Kalifornijskiego (UC) wekowania soku z czerwonych porzeczek z sokownika parowego w kąpieli wodnej. [T:SLO-108,SLO-203,SLO-324]
+Ta karta stosuje metodę Master Food Preservers Uniwersytetu Kalifornijskiego (UC) wekowania kwaśnych soków owocowych z sokownika parowego w kąpieli wodnej tylko do porzeczek czerwonych. [T:SLO-108,SLO-203,SLO-324]
 
 ## Jakie owoce
 

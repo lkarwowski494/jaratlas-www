@@ -50,13 +50,13 @@ Pakowanie próżniowe nie jest samodzielną metodą utrwalania: usunięcie tlenu
 
 Przechowuj susz w miejscu chłodnym, suchym i ciemnym. [T:SUS-066]
 
+Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F i 3 miesiące w 80 °F. [T:SUS-021]
+
 Nie przechowuj suszonego czosnku w oleju w temperaturze pokojowej: olej odcina tlen, a w czosnku i ziołach mogą już być przetrwalniki Clostridium botulinum; bez tlenu, przy niskiej kwasowości i w temperaturze pokojowej mogą one wytworzyć śmiertelną toksynę. [T:SLO-321]
 
 Suszenie nie czyni tego bezpiecznym: według UGA suszony czosnek i suszone zioła mogą nadal nie być dość suche, by produkt był bezpieczny. [T:SLO-321]
 
 Reguła JarAtlas (ostrożna): jeśli zalewasz suszony czosnek olejem, trzymaj olej w lodówce i zużyj go w ciągu 4 dni od przygotowania albo zamroź. [T:SLO-321]
-
-Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F i 3 miesiące w 80 °F. [T:SUS-021]
 
 ## Kiedy wyrzucić
 

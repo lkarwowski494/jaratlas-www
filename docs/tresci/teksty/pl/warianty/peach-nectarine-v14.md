@@ -6,7 +6,7 @@ Ta karta opisuje suszenie brzoskwiń i nektaryn w suszarce albo w piekarniku w 1
 
 Owoce dokładnie umyj i przebierz: odrzuć owoce z oznakami psucia, obite albo spleśniałe, bo takie wady mogą wpłynąć na cały susz. [T:SUS-223]
 
-Umyj i obierz owoce, przekrój je na pół, usuń pestki i pokrój w ćwiartki albo plasterki. [T:SUS-091]
+Obierz umyte owoce, przekrój je na pół, usuń pestki i pokrój w ćwiartki albo plasterki. [T:SUS-091]
 
 Pokrojone owoce zanurz na 10 minut w roztworze kwasu cytrynowego albo w innym roztworze przeciw ciemnieniu i drobnoustrojom. [T:SUS-091]
 

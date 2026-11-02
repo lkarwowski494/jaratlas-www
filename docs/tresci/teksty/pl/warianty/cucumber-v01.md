@@ -8,7 +8,7 @@ Na każdy galon pojemności naczynia NCHFP podaje 4 funty ogórków o długości
 
 Czosnek i suszona czerwona papryka są opcjonalne. [T:FER-042]
 
-NCHFP podaje też koper: nasiona kopru albo baldachy świeżego lub suszonego kopru. [T:FER-042]
+NCHFP podaje też koper: 2 łyżki nasion kopru albo 4–5 baldachów świeżego lub suszonego kopru. [T:FER-042]
 
 Używaj soli do konserw i kiszenia; nie używaj soli płatkowej, bo ma zmienną gęstość. [T:FER-013]
 

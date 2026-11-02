@@ -84,9 +84,9 @@ Dla najlepszej jakości przechowuj słoiki w chłodnym, ciemnym miejscu, z dala 
 
 Zamknięte słoiki przechowuj w czystym, chłodnym, ciemnym i suchym miejscu, nie powyżej 95 °F (35 °C) i nie przy gorących rurach, kuchence czy piecu, na nieocieplonym strychu ani w pełnym słońcu; w takich warunkach przetwór może się zepsuć. [T:SLO-198]
 
-Reguła JarAtlas (ostrożna): otwarty słoik trzymaj w lodówce i zużyj w ciągu 1 tygodnia. [T:SLO-322]
-
 Wekowany lemon curd zużyj w ciągu 3–4 miesięcy. [T:SLO-041]
+
+Reguła JarAtlas (ostrożna): otwarty słoik trzymaj w lodówce i zużyj w ciągu 1 tygodnia. [T:SLO-322]
 
 Zamiast wekować, krem możesz zamrozić: po przecedzeniu wystudź go do temperatury pokojowej i przełóż do pojemników do zamrażarki; zachowa jakość do 1 roku. [T:SLO-240,SLO-042]
 

@@ -12,7 +12,7 @@ Wychodzą ok. 2 tace suszarki o średnicy 14 cali (ok. 36 cm), czyli 8 rulonów.
 
 Miód możesz pominąć (skóra niesłodzona); dla jaśniejszego koloru dodaj do przecieru razem z przyprawami 1/4 łyżeczki (750 mg) kwasu askorbinowego. [T:SUS-221]
 
-Skóry z miodem nie podawaj niemowlętom poniżej 12. miesiąca życia; dla nich pomiń miód. [T:SLO-036,SUS-221]
+Skóry z miodem nie podawaj niemowlętom poniżej 12. miesiąca życia. [T:SLO-036]
 
 ## Przecier
 

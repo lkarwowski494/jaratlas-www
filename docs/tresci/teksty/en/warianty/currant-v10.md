@@ -1,6 +1,6 @@
 # Red currant juice from a steam juicer (UC Master Food Preservers)
 
-This card describes the method of the University of California (UC) Master Food Preservers for canning red currant juice made in a steam juicer, in a boiling-water bath. [T:SLO-108,SLO-203,SLO-324]
+This card applies the UC Master Food Preservers method for canning high-acid fruit juice made in a steam juicer, in a boiling-water bath, to red currants only. [T:SLO-108,SLO-203,SLO-324]
 
 ## Which fruit
 

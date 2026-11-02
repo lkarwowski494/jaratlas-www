@@ -8,7 +8,7 @@ For each gallon of container capacity, NCHFP lists 4 pounds of 4-inch pickling c
 
 Garlic and dried red pepper are optional. [T:FER-042]
 
-NCHFP also lists dill: dill seed, or heads of fresh or dry dill weed. [T:FER-042]
+NCHFP also lists dill: 2 tablespoons of dill seed, or 4–5 heads of fresh or dry dill weed. [T:FER-042]
 
 Use canning or pickling salt; do not use flake salt, because its density varies. [T:FER-013]
 
