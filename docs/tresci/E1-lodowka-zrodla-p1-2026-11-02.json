@@ -1,0 +1,2308 @@
+{
+ "data": "2026-11-02",
+ "rola": "06-tresci build, tor B9",
+ "galaz": "claude/jaratlas-b9-lodowka-zrodla",
+ "baza": "claude/happy-brown-yncplj 8c70388",
+ "zakres": "Research źródeł dla wariantów lodówkowych (preservationMethod refrigerator, safetyStatus do-researchu) w rodzinach vinegar-pickling i sweet-preserves, partia 1 (40 wariantów). Katalog, karty, rejestry i pliki stanu bez zmian; statusy zmienia tor A (partia katalogowa D-043).",
+ "format": "Twierdzenia: pola rejestr.json plus twierdzenie_en, klaster, jednoZrodlo, warianty, uwaga; status robocze, przeglad null (przegląd zastępczy D-027 po wklejeniu). Twierdzenia innych rejestrów: id null, klucz_tymczasowy, rejestr_docelowy. Cytat: fragmenty „ | ” stoją w tekście kolejno, „ … ” to przerwa (B4-D7).",
+ "zrodla_odczyt": [
+  {
+   "adres": "https://door.extension.wisc.edu/files/2010/10/B2267-Homemade-Pickles-Relishes.pdf",
+   "http": 200,
+   "bajty": 828083,
+   "sha12": "825261722dc2",
+   "uwaga": null
+  },
+  {
+   "adres": "https://www.ndsu.edu/agriculture/extension/publications/food-preservation-making-pickled-products",
+   "http": 200,
+   "bajty": 107176,
+   "sha12": "0f706b9a027d",
+   "uwaga": null
+  },
+  {
+   "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2018-07/287722.pdf",
+   "http": 200,
+   "bajty": 62630,
+   "sha12": "813ba68800a1",
+   "uwaga": null
+  },
+  {
+   "adres": "https://foodsafety.ces.ncsu.edu/news/how-to-make-quick-refrigerator-pickles/",
+   "http": 200,
+   "bajty": 71023,
+   "sha12": "a301a5eaa241",
+   "uwaga": null
+  },
+  {
+   "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/MFP%20Quick%20Refrigerator%20Pickles.pdf",
+   "http": 200,
+   "bajty": 740369,
+   "sha12": "276cacc014c5",
+   "uwaga": null
+  },
+  {
+   "adres": "https://oconto.extension.wisc.edu/files/2017/04/Time-to-Make-Pickles-2.pdf",
+   "http": 200,
+   "bajty": 589181,
+   "sha12": "fe88c89b9233",
+   "uwaga": null
+  },
+  {
+   "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2023-08/fn2102.pdf",
+   "http": 200,
+   "bajty": 443905,
+   "sha12": "9346581f172a",
+   "uwaga": null
+  },
+  {
+   "adres": "https://happyhealthy.extension.msstate.edu/recipes/quick-pickle-cucumbers-and-onions",
+   "http": 200,
+   "bajty": 20841,
+   "sha12": "6332a207e223",
+   "uwaga": null
+  },
+  {
+   "adres": "https://food.unl.edu/recipe/quick-pickled-daikon-radish-and-carrots/",
+   "http": 200,
+   "bajty": 143122,
+   "sha12": "b16b08255db9",
+   "uwaga": null
+  },
+  {
+   "adres": "https://ucanr.edu/sites/default/files/2023-09/388534.pdf",
+   "http": 200,
+   "bajty": 523361,
+   "sha12": "8679aec48f7a",
+   "uwaga": null
+  },
+  {
+   "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-08/387906.pdf",
+   "http": 200,
+   "bajty": 383769,
+   "sha12": "02e38bf401db",
+   "uwaga": null
+  },
+  {
+   "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-horseradish-sauce/",
+   "http": 200,
+   "bajty": 74455,
+   "sha12": "b7a249a2f04b",
+   "uwaga": null
+  },
+  {
+   "adres": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525825-vinegar-definitions-adulteration-vinegar-eels",
+   "http": 200,
+   "bajty": 39448,
+   "sha12": "71452b268553",
+   "uwaga": null
+  },
+  {
+   "adres": "https://news.vt.edu/articles/2023/07/low_acidity_vinegar_warning_expert.html",
+   "http": 200,
+   "bajty": 122394,
+   "sha12": "cd318f907439",
+   "uwaga": null
+  },
+  {
+   "adres": "https://ucanr.edu/site/uc-master-food-preservers-central-sierra/article/central-sierra-about-vinegar-read-label-edc",
+   "http": 200,
+   "bajty": 68817,
+   "sha12": "b20c5efe19ee",
+   "uwaga": null
+  },
+  {
+   "adres": "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/pickling",
+   "http": 200,
+   "bajty": 109323,
+   "sha12": "f3734150f6a3",
+   "uwaga": null
+  },
+  {
+   "adres": "https://extension.oregonstate.edu/ask-extension/featured/can-i-use-fresh-lemon/lime-juice-salsa",
+   "http": 200,
+   "bajty": 93894,
+   "sha12": "ca226460c1e1",
+   "uwaga": null
+  },
+  {
+   "adres": "https://extension.colostate.edu/resource/making-pickles/",
+   "http": 200,
+   "bajty": 148682,
+   "sha12": "7f6cc85cbd7f",
+   "uwaga": null
+  },
+  {
+   "adres": "https://www.gov.pl/web/psse-szczecinek/przechowywanie-zywnosci-w-lodowce",
+   "http": 200,
+   "bajty": 22953,
+   "sha12": "d1a80ab9e163",
+   "uwaga": null
+  },
+  {
+   "adres": "https://ask.extension.org/kb/faq.php?id=596012",
+   "http": 200,
+   "bajty": 73256,
+   "sha12": "ce2a79bc3823",
+   "uwaga": null
+  },
+  {
+   "adres": "https://www.cdc.gov/botulism/prevention/index.html",
+   "http": 200,
+   "bajty": 63328,
+   "sha12": "232e4422a63b",
+   "uwaga": null
+  },
+  {
+   "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jam-uncooked/",
+   "http": 200,
+   "bajty": 81237,
+   "sha12": "2ac94b15adf0",
+   "uwaga": null
+  },
+  {
+   "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+   "http": 200,
+   "bajty": 84227,
+   "sha12": "1de99ec9e98e",
+   "uwaga": null
+  },
+  {
+   "adres": "https://nchfp.uga.edu/how/make-jam-jelly/reduced-sugar-recipes/refrigerator-jelly-with-splenda/",
+   "http": 200,
+   "bajty": 81360,
+   "sha12": "8c1cf462c5cb",
+   "uwaga": null
+  },
+  {
+   "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-strawberries/",
+   "http": 200,
+   "bajty": 78546,
+   "sha12": "1b2930bb603d",
+   "uwaga": null
+  },
+  {
+   "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9885.pdf",
+   "http": 200,
+   "bajty": 1276247,
+   "sha12": "257458d1bb16",
+   "uwaga": null
+  },
+  {
+   "adres": "https://ncez.pzh.gov.pl/dzieci-i-mlodziez/rozszerzanie-diety-niemowlat-co-warto-o-nim-wiedziec/",
+   "http": 200,
+   "bajty": 299756,
+   "sha12": "a26d33f580a5",
+   "uwaga": null
+  },
+  {
+   "adres": "https://extension.oregonstate.edu/catalog/em-9446-play-it-safe-when-preserving-elderberries",
+   "http": 200,
+   "bajty": 83992,
+   "sha12": "cd102f2ef770",
+   "uwaga": null
+  },
+  {
+   "adres": "https://extension.psu.edu/elderberry-in-the-garden-and-the-kitchen",
+   "http": 200,
+   "bajty": 390477,
+   "sha12": "df6ed9f4aa92",
+   "uwaga": null
+  },
+  {
+   "adres": "https://extension.oregonstate.edu/ask-extension/featured/jelly-made-dandelion-or-grape-hyacinth-tea-considered-safe",
+   "http": 200,
+   "bajty": 97907,
+   "sha12": "a8e5dc7ebb2d",
+   "uwaga": null
+  },
+  {
+   "adres": "https://oc4h.ucanr.edu/sites/default/files/2021-11/360435.pdf",
+   "http": 200,
+   "bajty": 121582,
+   "sha12": "dfa1e4c93a64",
+   "uwaga": null
+  },
+  {
+   "adres": "https://news.cahnrs.wsu.edu/podcasts/fsm-288-storing-opened-soy-sauce-refrigerator-of-pantry/",
+   "http": 200,
+   "bajty": 68334,
+   "sha12": "ef6f0fb9e6e4",
+   "uwaga": "ponowne pobranie w kontroli: HTTP 403; tekst z pobrania subagenta B tego dnia (HTTP 200, plik lokalny), B9-D11"
+  }
+ ],
+ "liczby": {
+  "warianty": 40,
+  "wg_statusu": {
+   "ok-zrodlo": 8,
+   "zostaje do-researchu": 21,
+   "ryzyko-wysokie": 11
+  },
+  "twierdzenia_ACI": 26,
+  "twierdzenia_inne_rejestry": 15,
+  "krytyczne": 38
+ },
+ "twierdzenia": [
+  {
+   "id": "ACI-500",
+   "twierdzenie": "Według Wisconsin B2267 niektóre przepisy na pikle z wystarczającą ilością octu 5% można bezpiecznie przechowywać w lodówce w 40°F (4,4°C) lub niżej do 1 miesiąca.",
+   "twierdzenie_en": "According to Wisconsin B2267, some pickle recipes with enough 5% vinegar can be stored safely in the refrigerator at 40°F (4.4°C) or colder for up to 1 month.",
+   "zrodla": [
+    {
+     "adres": "https://door.extension.wisc.edu/files/2010/10/B2267-Homemade-Pickles-Relishes.pdf",
+     "miejsce": "Univ. of Wisconsin Extension, B2267 Homemade Pickles and Relishes (B. Ingham); s. 2, Refrigerator pickles",
+     "cytat": "Some pickle recipes that call for enough vinegar (5 percent acetic acid) can be stored safely in the refrigerator at 40° F or colder for up to 1 month.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "825261722dc2"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": "ogólne",
+   "uwaga": "Górna granica ogólna; karta podaje krótszy limit z przepisu, którego proporcje przytacza (B9-D3)."
+  },
+  {
+   "id": "ACI-501",
+   "twierdzenie": "Pikle lodówkowe nie są pasteryzowane, więc muszą stać w lodówce; nie zmniejsza się w nich ilości octu (może powstać produkt niebezpieczny), a łagodniejszy smak uzyskuje się, dodając cukru, nie odejmując octu.",
+   "twierdzenie_en": "Refrigerator pickles are not heat processed, so they must be kept refrigerated; do not decrease the vinegar in them (an unsafe product may result); for a milder taste add sugar rather than decrease vinegar.",
+   "zrodla": [
+    {
+     "adres": "https://door.extension.wisc.edu/files/2010/10/B2267-Homemade-Pickles-Relishes.pdf",
+     "miejsce": "Univ. of Wisconsin Extension, B2267; s. 2, Refrigerator pickles",
+     "cytat": "These pickles do not require heat processing, but they must be kept refrigerated. Do not decrease the amount of vinegar in these recipes; an unsafe product may result.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "825261722dc2"
+    },
+    {
+     "adres": "https://www.ndsu.edu/agriculture/extension/publications/food-preservation-making-pickled-products",
+     "miejsce": "North Dakota State Univ. Extension, Food Preservation: Making Pickled Products; Vinegar",
+     "cytat": "Do not dilute vinegar unless the recipe so specifies. If a less sour pickle is preferred, add sugar rather than decrease vinegar.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "0f706b9a027d"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": false,
+   "warianty": "ogólne",
+   "uwaga": null
+  },
+  {
+   "id": "ACI-502",
+   "twierdzenie": "Wiele pikli typu fresh pack można bez pasteryzacji trzymać w lodówce krótko (kilka tygodni), ale ich jakość szybko spada, a przy długim przechowywaniu mogą stać się niebezpieczne.",
+   "twierdzenie_en": "Many fresh-pack pickles can be kept in the refrigerator for short periods (several weeks) without heat processing, but quality deteriorates rapidly and they may become unsafe if stored for extended periods.",
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2018-07/287722.pdf",
+     "miejsce": "Univ. of Wisconsin Extension, B2267 (kopia na serwerze UC ANR); s. 52, Refrigerator pickle recipes",
+     "cytat": "Many fresh pack pickles can be stored in the refrigerator for short periods of time (several weeks) without heat processing. However, quality will deteriorate rapidly, and these products may become unsafe if stored for extended periods.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "813ba68800a1"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": "ogólne",
+   "uwaga": null
+  },
+  {
+   "id": "ACI-503",
+   "twierdzenie": "Przepis Wisconsin B2267 „Cucumber pickles with onions or vegetable medley”: 8 szklanek cienko pokrojonych ogórków i 1 szklanka pokrojonej cebuli albo tyle samo innych warzyw (kalafior, papryka, marchew); zalewa: 4 szklanki octu 5% i 2 szklanki cukru (plus sól i przyprawy według przepisu).",
+   "twierdzenie_en": "Wisconsin B2267 recipe “Cucumber pickles with onions or vegetable medley”: 8 cups thinly sliced cucumbers and 1 cup sliced onion or an equal amount of other vegetables (cauliflower, peppers, carrots); pickling solution: 4 cups 5% vinegar and 2 cups sugar (plus salt and spices as in the recipe).",
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2018-07/287722.pdf",
+     "miejsce": "Univ. of Wisconsin Extension, B2267 (kopia na serwerze UC ANR); s. 52, przepis Cucumber pickles with onions or vegetable medley",
+     "cytat": "8 cups cucumbers, thinly sliced | 1 cup onion, peeled and sliced | an equal amount of other vegetables such as cauliflower, peppers or carrots as desired | 4 cups vinegar (5% acetic acid) | 2 cups sugar",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "813ba68800a1"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": "Lista zalewy nie zawiera wody (ocet nierozcieńczony). Pominięto sól (1/3 szklanki) i przyprawy: ułamek w PDF rozbity przez pdftotext; karta przytacza je z przepisu po odczycie strony 52.",
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": [
+    "cucumber-v17",
+    "european-mixed-veg-v03",
+    "european-mixed-veg-v05"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "ACI-504",
+   "twierdzenie": "Wisconsin B2267, ten przepis: słoiki opisać datą i trzymać w lodówce w 40°F (4,4°C) lub niżej do 2 tygodni; pikle nie są pasteryzowane i muszą stać w lodówce.",
+   "twierdzenie_en": "Wisconsin B2267, this recipe: label and date the jars and store in the refrigerator at 40°F (4.4°C) or colder for up to 2 weeks; the pickle is not heat processed and must be kept refrigerated.",
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2018-07/287722.pdf",
+     "miejsce": "Univ. of Wisconsin Extension, B2267 (kopia na serwerze UC ANR); s. 52, przepis Cucumber pickles with onions or vegetable medley",
+     "cytat": "Label and date, and store in the refrigerator at 40° F or colder for up to 2 weeks. This pickle is not heat processed and must be kept refrigerated.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "813ba68800a1"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": [
+    "cucumber-v17",
+    "european-mixed-veg-v03",
+    "european-mixed-veg-v05"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "ACI-505",
+   "twierdzenie": "NC State i UC MFP, szybkie pikle lodówkowe: na początek nadają się cebula, ogórki, szparagi, pasternak, rzodkiewki i strąki groszku; zalewa kwaśna: 3 szklanki octu białego (albo jabłkowego), 3 szklanki wody i 3 łyżki soli do przetworów.",
+   "twierdzenie_en": "NC State and UC MFP, quick refrigerator pickles: onions, cucumbers, asparagus, parsnips, radishes and pea pods are good vegetables to start with; sour brine: 3 cups white (or cider) vinegar, 3 cups water and 3 tbsp canning/pickling salt.",
+   "zrodla": [
+    {
+     "adres": "https://foodsafety.ces.ncsu.edu/news/how-to-make-quick-refrigerator-pickles/",
+     "miejsce": "NC State Extension, How to Make Quick Refrigerator Pickles; wstęp i krok 4 (Sour Brine)",
+     "cytat": "Onions, cucumbers, asparagus, parsnips, radishes, and pea pods are great vegetables to start making quick refrigerator pickles. … 3 cups white vinegar (or apple cider) | 3 cups water | 3 Tbsp. canning/pickling salt",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "a301a5eaa241"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": [
+    "radish-v03",
+    "radish-v05"
+   ],
+   "uwaga": "Przepis UC MFP powtarza tekst NC State (źródło pochodne, liczone raz)."
+  },
+  {
+   "id": "ACI-506",
+   "twierdzenie": "NC State i UC MFP, szybkie pikle lodówkowe: zalewę gotować 2 minuty, wlać do słoików do 1/2 cala (ok. 1,3 cm) od brzegu, zamknąć i wstawić do lodówki; smak rozwija się 1–2 dni; zużyć w ciągu 2 tygodni.",
+   "twierdzenie_en": "NC State and UC MFP, quick refrigerator pickles: boil the brine for 2 minutes, fill jars to within 1/2 inch (about 1.3 cm) of the rim, close and refrigerate; flavour develops in 1–2 days; use within 2 weeks.",
+   "zrodla": [
+    {
+     "adres": "https://foodsafety.ces.ncsu.edu/news/how-to-make-quick-refrigerator-pickles/",
+     "miejsce": "NC State Extension, Home and Community Food Safety, How to Make Quick Refrigerator Pickles (C. Christian, 2020/2021); krok 5",
+     "cytat": "Carefully fill the jars with brine to within 1/2 inch of the top of the rim. Place the lids on the jars and refrigerate. Allow flavor to develop for 1 – 2 days before serving. Use within 2 weeks.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "a301a5eaa241"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/MFP%20Quick%20Refrigerator%20Pickles.pdf",
+     "miejsce": "UC Master Food Preserver Program, Quick Refrigerator Pickles (07.2025; źródła: UMaine Let’s Preserve, NC State); krok 5",
+     "cytat": "Allow flavor to develop for 1–2 days before serving. Use within 2 weeks.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "276cacc014c5"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": [
+    "radish-v03",
+    "radish-v05"
+   ],
+   "uwaga": "Źródło pochodne (UC za NC State)."
+  },
+  {
+   "id": "ACI-507",
+   "twierdzenie": "UC MFP, cebula marynowana (Pickled Onions): na słoik 1 szklanka octu białego (albo jabłkowego), 1 szklanka wody i 1 łyżka soli do przetworów; smak rozwija się dzień lub dwa; zużyć w ciągu 2 tygodni.",
+   "twierdzenie_en": "UC MFP, Pickled Onions: per jar 1 cup white (or cider) vinegar, 1 cup water and 1 tbsp canning/pickling salt; flavour develops in a day or two; use within 2 weeks.",
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/MFP%20Quick%20Refrigerator%20Pickles.pdf",
+     "miejsce": "UC Master Food Preserver Program, Quick Refrigerator Pickles (07.2025); s. 2, Pickled Onions, składniki",
+     "cytat": "1 cup white vinegar (or apple cider) | 1 cup water | 1 Tbsp canning/pickling salt",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "276cacc014c5"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/MFP%20Quick%20Refrigerator%20Pickles.pdf",
+     "miejsce": "UC Master Food Preserver Program, Quick Refrigerator Pickles (07.2025); s. 2, Pickled Onions, krok 4",
+     "cytat": "Give a day or two for flavor to develop. Use within 2 weeks.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "276cacc014c5"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": [
+    "shallot-pearl-onion-v01"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "ACI-508",
+   "twierdzenie": "Przepisy nieprzetestowane można przygotować i trzymać w lodówce do 2 tygodni, nie na blacie (Wisconsin); ulubiony przepis na pikle, który nie nadaje się do wekowania, można trzymać w lodówce do 2 tygodni (NDSU).",
+   "twierdzenie_en": "Untested recipes can be prepared and stored in the refrigerator for up to 2 weeks, not on the counter (Wisconsin); a favourite pickle recipe that is not safe for canning can be kept in the refrigerator for up to 2 weeks (NDSU).",
+   "zrodla": [
+    {
+     "adres": "https://oconto.extension.wisc.edu/files/2017/04/Time-to-Make-Pickles-2.pdf",
+     "miejsce": "Univ. of Wisconsin Extension, Oconto County, Time to Make Pickles (2017); No approved recipe?",
+     "cytat": "Untested recipes can be prepared and stored in the refrigerator for up to 2 weeks. Do not store on the counter.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "fe88c89b9233"
+    },
+    {
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2023-08/fn2102.pdf",
+     "miejsce": "NDSU Extension FN2102 (2023), Pickles; Kitchen tip",
+     "cytat": "Try refrigerating a favorite pickle recipe that isn’t safe for canning. Store in the refrigerator for up to two weeks.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "9346581f172a"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": false,
+   "warianty": "ogólne",
+   "uwaga": "Nie podnosi statusu do ok-zrodlo (B9-D4): to reguła ostrożności dla przepisów bez testu, nie przepis."
+  },
+  {
+   "id": "ACI-509",
+   "twierdzenie": "Wisconsin (szybkie pikle): tylko ocet o kwasowości 5%; biały i jabłkowy zamiennie; nie używać octów winnych, octu domowego ani soku z cytryny.",
+   "twierdzenie_en": "Wisconsin (quick pickles): use only 5% vinegar; white and cider vinegar are interchangeable; do not use wine vinegars, homemade vinegar or lemon juice.",
+   "zrodla": [
+    {
+     "adres": "https://oconto.extension.wisc.edu/files/2017/04/Time-to-Make-Pickles-2.pdf",
+     "miejsce": "Univ. of Wisconsin Extension, Oconto County, Time to Make Pickles (2017); Pickles in a „flash” – Quick Process Pickles",
+     "cytat": "Use only 5% acetic acid vinegar. White or cider vinegar can be used interchangeably; do not use wine vinegars or homemade vinegar. Do not use lemon juice.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "fe88c89b9233"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": "ogólne",
+   "uwaga": "Sprzeczne z OSU (ocet ryżowy, balsamiczny „można”): wygrywa ostrożniejsze, B9-D5."
+  },
+  {
+   "id": "ACI-510",
+   "twierdzenie": "Mississippi State, szybkie ogórki z cebulą: 2 duże ogórki, 1 średnia cebula, 1 ząbek czosnku, 1 szklanka octu białego destylowanego albo jabłkowego i 1 szklanka wody; warzywa mają być przykryte zalewą; trzymają się ok. tygodnia w lodówce.",
+   "twierdzenie_en": "Mississippi State, quick-pickle cucumbers and onions: 2 large cucumbers, 1 medium onion, 1 garlic clove, 1 cup white distilled or cider vinegar and 1 cup water; the vegetables must be covered; they keep for about a week in the refrigerator.",
+   "zrodla": [
+    {
+     "adres": "https://happyhealthy.extension.msstate.edu/recipes/quick-pickle-cucumbers-and-onions",
+     "miejsce": "Mississippi State Univ. Extension, Quick-Pickle Cucumbers and Onions; Ingredients",
+     "cytat": "2 large cucumbers | 1 medium onion | 1 garlic clove | 1 cup white distilled or apple cider vinegar | 1 cup water",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "6332a207e223"
+    },
+    {
+     "adres": "https://happyhealthy.extension.msstate.edu/recipes/quick-pickle-cucumbers-and-onions",
+     "miejsce": "Mississippi State Univ. Extension, Quick-Pickle Cucumbers and Onions; Directions",
+     "cytat": "Pour into the jar, making sure the vegetables are covered. Cover and refrigerate until chilled, or overnight. The vegetables keep for about a week.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "6332a207e223"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": [
+    "cucumber-v17"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "ACI-511",
+   "twierdzenie": "Nebraska–Lincoln, szybki daikon z marchewką: 1 szklanka daikonu i 1 szklanka marchwi w słupkach, 1/2 szklanki octu jabłkowego i 1/2 szklanki wody (plus cukier i sól); resztki w szczelnym słoiku w lodówce do 4 dni.",
+   "twierdzenie_en": "Nebraska–Lincoln, quick pickled daikon and carrots: 1 cup daikon and 1 cup carrots, julienned, 1/2 cup cider vinegar and 1/2 cup water (plus sugar and salt); leftovers in a sealed jar in the refrigerator for up to 4 days.",
+   "zrodla": [
+    {
+     "adres": "https://food.unl.edu/recipe/quick-pickled-daikon-radish-and-carrots/",
+     "miejsce": "Univ. of Nebraska–Lincoln Extension, Quick Pickled Daikon Radish and Carrots; Ingredients",
+     "cytat": "1 cup daikon radish, scrubbed with clean vegetable brush under running water, peeled and julienned | 1 cup carrots, scrubbed with clean vegetable brush under running water, peeled and julienned | ½ cup apple cider vinegar | ½ cup water",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "b16b08255db9"
+    },
+    {
+     "adres": "https://food.unl.edu/recipe/quick-pickled-daikon-radish-and-carrots/",
+     "miejsce": "Univ. of Nebraska–Lincoln Extension, Quick Pickled Daikon Radish and Carrots; Directions",
+     "cytat": "Store leftovers in a sealed jar or container in the refrigerator for up to four days.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "b16b08255db9"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": "Pominięto ilości cukru i soli (nieistotne dla limitu; karta przytacza je z przepisu).",
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": [
+    "daikon-black-radish-v03"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "ACI-512",
+   "twierdzenie": "UC ANR: obrane ząbki czosnku zalewa się nierozcieńczonym winem albo octem i trzyma w lodówce; wino lub ocet dają środowisko kwaśne (pH poniżej 4,6), w którym Clostridium botulinum nie rośnie.",
+   "twierdzenie_en": "UC ANR: peeled garlic cloves are covered with undiluted wine or vinegar and kept in the refrigerator; the wine or vinegar provides an acidic environment (below pH 4.6) in which Clostridium botulinum cannot grow.",
+   "zrodla": [
+    {
+     "adres": "https://ucanr.edu/sites/default/files/2023-09/388534.pdf",
+     "miejsce": "UC ANR (UC Master Food Preservers, za publikacją 8568), Storing Garlic in Wine or Vinegar and Refrigerating",
+     "cytat": "Peeled cloves may be submerged in undiluted (full-strength) wine or vinegar and stored in the refrigerator.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "8679aec48f7a"
+    },
+    {
+     "adres": "https://ucanr.edu/sites/default/files/2023-09/388534.pdf",
+     "miejsce": "UC ANR (UC Master Food Preservers, za publikacją 8568), Storing Garlic in Wine or Vinegar and Refrigerating",
+     "cytat": "Adding wine or vinegar to garlic provides an acidic environment (less than pH 4.6) so Clostridium botulinum cannot grow.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "8679aec48f7a"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": [
+    "garlic-v07"
+   ],
+   "uwaga": "Źródło nie podaje kwasowości octu; JarAtlas: tylko ocet z etykietą 5% (ACI-509, ACI-516)."
+  },
+  {
+   "id": "ACI-513",
+   "twierdzenie": "UC ANR: czosnek w occie albo winie trzyma się w lodówce ok. 4 miesięcy (opisać datą przygotowania i „najlepiej do”); dłuższe przechowywanie nie powinno dać produktu niebezpiecznego, ale może pojawić się pleśń; nie trzymać w temperaturze pokojowej.",
+   "twierdzenie_en": "UC ANR: garlic in vinegar or wine keeps about 4 months in the refrigerator (label with the preparation date and a “best before” date); longer storage should not make it unsafe, but mould may develop; do not store at room temperature.",
+   "zrodla": [
+    {
+     "adres": "https://ucanr.edu/sites/default/files/2023-09/388534.pdf",
+     "miejsce": "UC ANR (UC Master Food Preservers, za publikacją 8568), Storing Garlic in Wine or Vinegar and Refrigerating",
+     "cytat": "The garlic–liquid mixture should keep for about 4 months in the refrigerator. Label the refrigerated garlic–liquid mixtures to show the preparation date and a “best before” date. Longer storage should not result in an unsafe product, but mold growth may develop, and flavors may change.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "8679aec48f7a"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-08/387906.pdf",
+     "miejsce": "UCCE Master Food Preservers of El Dorado County, Garlic in Wine",
+     "cytat": "Cap, label and date the jar, and store in the refrigerator, where it will keep for about 4 months.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "02e38bf401db"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": false,
+   "warianty": [
+    "garlic-v07"
+   ],
+   "uwaga": "Limit 4 miesięcy dotyczy jakości; źródło 8568 (oryginał) zwróciło 403, odczyt z dwóch dokumentów UC."
+  },
+  {
+   "id": "ACI-514",
+   "twierdzenie": "NCHFP: ostrość świeżego chrzanu zanika w ciągu 1–2 miesięcy nawet w lodówce, więc robi się małe ilości.",
+   "twierdzenie_en": "NCHFP: the pungency of fresh horseradish fades within 1–2 months even when refrigerated, so make small quantities.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-horseradish-sauce/",
+     "miejsce": "NCHFP, Pickled Horseradish Sauce; Procedure",
+     "cytat": "Procedure: The pungency of fresh horseradish fades within 1 to 2 months, even when refrigerated. Therefore, make only small quantities at a time.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "b7a249a2f04b"
+    },
+    {
+     "adres": "https://www.ndsu.edu/agriculture/extension/publications/food-preservation-making-pickled-products",
+     "miejsce": "North Dakota State Univ. Extension, Food Preservation: Making Pickled Products; Pickled Horseradish Sauce",
+     "cytat": "Procedure: The pungency of fresh horseradish fades within one to two months, even when refrigerated.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "0f706b9a027d"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": false,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": false,
+   "warianty": [
+    "horseradish-v02",
+    "horseradish-v04"
+   ],
+   "uwaga": "Limit jakościowy; uzupełnia ACI-035 (sos chrzanowy NCHFP w lodówce)."
+  },
+  {
+   "id": "ACI-515",
+   "twierdzenie": "FDA (wytyczna CPG dla octu): odmiany octu w obrocie w USA powinny mieć 4 g kwasu octowego na 100 ml (20°C), czyli mniej niż 5% wymagane w przepisach do przetworów.",
+   "twierdzenie_en": "FDA (vinegar CPG): vinegars sold in the USA should contain 4 g of acetic acid per 100 mL (20°C), i.e. less than the 5% required in preserving recipes.",
+   "zrodla": [
+    {
+     "adres": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525825-vinegar-definitions-adulteration-vinegar-eels",
+     "miejsce": "U.S. FDA, CPG Sec. 525.825 Vinegar, Definitions; Policy",
+     "cytat": "Each of the varieties of vinegar listed below should contain 4 grams of acetic acid per 100 mL.(20oC).",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "71452b268553"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": [
+    "napa-cabbage-v09",
+    "brussels-kohlrabi-v09",
+    "daikon-black-radish-v04",
+    "radish-v04",
+    "turnip-rutabaga-v05"
+   ],
+   "uwaga": "Druga część zdania („mniej niż 5%”) to porównanie z ACI-018, nie treść CPG."
+  },
+  {
+   "id": "ACI-516",
+   "twierdzenie": "Octu o kwasowości poniżej 5% nie używa się w domowych przetworach (Virginia Tech); wszystkie przetestowane przepisy zakładają ocet 5% (UC MFP Central Sierra).",
+   "twierdzenie_en": "Vinegar below 5% acidity should never be used in home food preservation (Virginia Tech); all tested recipes use 5% vinegar (UC MFP Central Sierra).",
+   "zrodla": [
+    {
+     "adres": "https://news.vt.edu/articles/2023/07/low_acidity_vinegar_warning_expert.html",
+     "miejsce": "Virginia Tech (Virginia Cooperative Extension), komunikat 07.2023 o occie o niskiej kwasowości",
+     "cytat": "“Vinegars with less than 5 percent acetic acid concentration should never be used in home food preservation, as they can lead to unsafe pH levels and spoilage.”",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "cd318f907439"
+    },
+    {
+     "adres": "https://ucanr.edu/site/uc-master-food-preservers-central-sierra/article/central-sierra-about-vinegar-read-label-edc",
+     "miejsce": "UC Master Food Preservers Central Sierra, About That Vinegar—Read The Label!",
+     "cytat": "All our tested, safe recipes for home food preservation use 5-percent acidity vinegars. This one percent drop makes a big difference in preserving and pickling your foods safely.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "b20c5efe19ee"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": false,
+   "warianty": "ogólne",
+   "uwaga": null
+  },
+  {
+   "id": "ACI-517",
+   "twierdzenie": "Univ. of Minnesota: sok z cytryny albo limonki (pH 2,0–2,60) stosuje się do pikli owocowych, chutneyów i zakwaszania przetworów pomidorowych; źródło nie wymienia warzyw.",
+   "twierdzenie_en": "University of Minnesota: lemon or lime juice (pH 2.0–2.60) is used for pickled fruits, chutneys and acidified tomato products; the source does not list vegetables.",
+   "zrodla": [
+    {
+     "adres": "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/pickling",
+     "miejsce": "Univ. of Minnesota Extension, Pickling; Acid",
+     "cytat": "Lemon or lime juice can be used to make pickled fruits, chutneys and acidified tomato products. Both kinds of juice have a pH between 2.0 and 2.60. The pH of bottled lemon or lime juice is more consistent than freshly squeezed juice.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "f3734150f6a3"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": [
+    "onion-v05",
+    "shallot-pearl-onion-v02",
+    "shallot-pearl-onion-v03",
+    "horseradish-v02"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "ACI-518",
+   "twierdzenie": "pH świeżo wyciśniętego soku z cytryny lub limonki jest zmienne (dojrzalsze owoce są mniej kwaśne); przepisy oparte na badaniach używają soku butelkowanego.",
+   "twierdzenie_en": "The pH of freshly squeezed lemon or lime juice varies (riper fruit is less acidic); research-based recipes use bottled juice.",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/ask-extension/featured/can-i-use-fresh-lemon/lime-juice-salsa",
+     "miejsce": "Oregon State Univ. Extension, Ask Extension: Can I use fresh lemon/lime juice in salsa?",
+     "cytat": "Most research-based recipes call for bottled lemon or lime juice because the pH (acidity) of the bottled juice is consistent. The pH level can vary with fresh lemons and limes. As they get more ripe, they get less acidic.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "ca226460c1e1"
+    },
+    {
+     "adres": "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/pickling",
+     "miejsce": "Univ. of Minnesota Extension, Pickling; Acid",
+     "cytat": "The pH of bottled lemon or lime juice is more consistent than freshly squeezed juice.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "f3734150f6a3"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": false,
+   "warianty": [
+    "onion-v05",
+    "shallot-pearl-onion-v02",
+    "shallot-pearl-onion-v03",
+    "horseradish-v02"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "ACI-519",
+   "twierdzenie": "Univ. of Minnesota: nie ma uniwersalnej proporcji składnika zakwaszającego do ilości warzyw lub owoców.",
+   "twierdzenie_en": "University of Minnesota: there is no standard ratio of acidifying ingredient to produce.",
+   "zrodla": [
+    {
+     "adres": "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/pickling",
+     "miejsce": "Univ. of Minnesota Extension, Pickling; Acid",
+     "cytat": "There is no standard ratio for the amount of acidifying ingredient to the amount of produce.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "f3734150f6a3"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": "ogólne",
+   "uwaga": "Dlatego proporcje karty pochodzą z jednego przepisu, nie z „reguły 1:1” (B9-D3)."
+  },
+  {
+   "id": "ACI-520",
+   "twierdzenie": "Colorado State: lodówka (do 6 miesięcy) to dopuszczalny sposób przechowywania tylko produktów w pełni ukiszonych; dla pikli typu fresh pack jedyną zalecaną procedurą jest wekowanie.",
+   "twierdzenie_en": "Colorado State: refrigeration (up to 6 months) is acceptable short-term storage only for fully fermented products; canning is the only recommended procedure for fresh-pack pickles.",
+   "zrodla": [
+    {
+     "adres": "https://extension.colostate.edu/resource/making-pickles/",
+     "miejsce": "Colorado State Univ. Extension, Making Pickles; przechowywanie",
+     "cytat": "Refrigeration is an acceptable short-term (up to six months) storage method for fully fermented products such as sauerkraut and long-brined dills. Canning is a better way to store fully fermented pickles and sauerkraut and is the only recommended procedure for fresh-pack pickle products.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "7f6cc85cbd7f"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": "ogólne",
+   "uwaga": "Ostrzejsze niż Wisconsin, NC State i UC (pikle lodówkowe z limitem); kontekst ostrożności, nie granica."
+  },
+  {
+   "id": "ACI-521",
+   "twierdzenie": "PSSE Szczecinek: w drzwiach lodówki, gdzie zwykle stawia się słoiki z przetworami, musztardę, ketchup i chrzan, temperatura wynosi ok. 10°C.",
+   "twierdzenie_en": "PSSE Szczecinek: in the refrigerator door, where jars of preserves, mustard, ketchup and horseradish are usually kept, the temperature is about 10°C.",
+   "zrodla": [
+    {
+     "adres": "https://www.gov.pl/web/psse-szczecinek/przechowywanie-zywnosci-w-lodowce",
+     "miejsce": "PSSE Szczecinek (Państwowa Inspekcja Sanitarna), Przechowywanie żywności w lodówce",
+     "cytat": "Boczne półki, czyli drzwi lodówki służą do przechowywania słoików z przetworami, musztardy, ketchupu, chrzanu, soków w kartonie. Na drzwiach lodówki znajduje się również pojemnik na jajka. Temperatura tu panująca to ok. 10°C.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "d1a80ab9e163"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": "ogólne",
+   "uwaga": null
+  },
+  {
+   "id": "ACI-522",
+   "twierdzenie": "PSSE Szczecinek: na środkowej półce lodówki temperatura jest niższa niż 5°C.",
+   "twierdzenie_en": "PSSE Szczecinek: on the middle shelf of the refrigerator the temperature is below 5°C.",
+   "zrodla": [
+    {
+     "adres": "https://www.gov.pl/web/psse-szczecinek/przechowywanie-zywnosci-w-lodowce",
+     "miejsce": "PSSE Szczecinek (Państwowa Inspekcja Sanitarna), Przechowywanie żywności w lodówce; zasady układania",
+     "cytat": "Środkowa półka to temperatura poniżej 5°C.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "d1a80ab9e163"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": "ogólne",
+   "uwaga": null
+  },
+  {
+   "id": "ACI-523",
+   "twierdzenie": "Ostrożna reguła JarAtlas: przetwory lodówkowe (pikle, dżemy, syropy) trzyma się na środkowej półce, nie w drzwiach: amerykańskie przepisy zakładają 40°F (4,4°C) lub niżej, a w drzwiach bywa ok. 10°C.",
+   "twierdzenie_en": "Cautious JarAtlas rule: refrigerator preserves (pickles, jams, syrups) are kept on the middle shelf, not in the door: US recipes assume 40°F (4.4°C) or colder, while the door can be about 10°C.",
+   "zrodla": [
+    {
+     "adres": "https://door.extension.wisc.edu/files/2010/10/B2267-Homemade-Pickles-Relishes.pdf",
+     "miejsce": "Univ. of Wisconsin Extension, B2267 Homemade Pickles and Relishes (B. Ingham); s. 2, Refrigerator pickles",
+     "cytat": "Some pickle recipes that call for enough vinegar (5 percent acetic acid) can be stored safely in the refrigerator at 40° F or colder for up to 1 month.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "825261722dc2"
+    },
+    {
+     "adres": "https://www.gov.pl/web/psse-szczecinek/przechowywanie-zywnosci-w-lodowce",
+     "miejsce": "PSSE Szczecinek (Państwowa Inspekcja Sanitarna), Przechowywanie żywności w lodówce",
+     "cytat": "Boczne półki, czyli drzwi lodówki służą do przechowywania słoików z przetworami, musztardy, ketchupu, chrzanu, soków w kartonie. Na drzwiach lodówki znajduje się również pojemnik na jajka. Temperatura tu panująca to ok. 10°C.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "d1a80ab9e163"
+    },
+    {
+     "adres": "https://www.gov.pl/web/psse-szczecinek/przechowywanie-zywnosci-w-lodowce",
+     "miejsce": "PSSE Szczecinek (Państwowa Inspekcja Sanitarna), Przechowywanie żywności w lodówce; zasady układania",
+     "cytat": "Środkowa półka to temperatura poniżej 5°C.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "d1a80ab9e163"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": false,
+   "warianty": "ogólne",
+   "uwaga": "Reguła (decyzja B9-D6), nie twierdzenie źródła."
+  },
+  {
+   "id": "ACI-524",
+   "twierdzenie": "Ask Extension: cebula jest warzywem niskokwasowym, więc jej wekowanie wymaga szybkowaru (jad kiełbasiany).",
+   "twierdzenie_en": "Ask Extension: onions are a low-acid vegetable, so they must be pressure canned (botulism).",
+   "zrodla": [
+    {
+     "adres": "https://ask.extension.org/kb/faq.php?id=596012",
+     "miejsce": "Ask Extension (eXtension Foundation), odpowiedź #596012 Canning onions",
+     "cytat": "Because onions are a low acid vegetable they must be pressure canned to prevent botulism.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "ce2a79bc3823"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": [
+    "onion-v07"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": "ACI-525",
+   "twierdzenie": "CDC: każdy wekowany albo marynowany produkt po otwarciu słoika trzyma się w lodówce.",
+   "twierdzenie_en": "CDC: refrigerate any canned or pickled food after opening the jar.",
+   "zrodla": [
+    {
+     "adres": "https://www.cdc.gov/botulism/prevention/index.html",
+     "miejsce": "CDC, Botulism Prevention; Home-canned foods",
+     "cytat": "Refrigerate any canned or pickled foods after opening the jar.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "232e4422a63b"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "ACI",
+   "jednoZrodlo": true,
+   "warianty": "ogólne",
+   "uwaga": null
+  }
+ ],
+ "inne_rejestry": [
+  {
+   "id": null,
+   "klucz_tymczasowy": "K-SLO-1",
+   "rejestr_docelowy": "SLO",
+   "id_uwaga": "ID do nadania przez koordynatora",
+   "twierdzenie": "NCHFP, dżem niegotowany: po otwarciu pojemnika trzyma się go w lodówce i zużywa w ciągu kilku dni.",
+   "twierdzenie_en": "NCHFP, uncooked jam: once a container is opened, keep it in the refrigerator and use within a few days.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jam-uncooked/",
+     "miejsce": "NCHFP, Berry Jam (Uncooked); To store",
+     "cytat": "Once a container is opened, jam should be stored in the refrigerator and used within a few days. If kept at room temperature they will mold or ferment in a short time.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "2ac94b15adf0"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "jednoZrodlo": true,
+   "warianty": [
+    "strawberry-v09",
+    "raspberry-blackberry-v09",
+    "blueberry-bilberry-v07",
+    "cranberry-lingonberry-v02"
+   ],
+   "uwaga": "Uzupełnia SLO-020."
+  },
+  {
+   "id": null,
+   "klucz_tymczasowy": "K-SLO-2",
+   "rejestr_docelowy": "SLO",
+   "id_uwaga": "ID do nadania przez koordynatora",
+   "twierdzenie": "NCHFP: dżemy mrożone po rozmrożeniu trzyma się w lodówce; dobrą jakość zachowują 3–4 tygodnie od otwarcia.",
+   "twierdzenie_en": "NCHFP: freezer jams must be kept in the refrigerator after thawing; they keep good quality for 3–4 weeks after opening.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+     "miejsce": "NCHFP, Storing Home-Canned Jams and Jellies; pytanie o otwarte słoiki",
+     "cytat": "Freezer jams also have to be stored in the refrigerator after thawing and will only retain good quality for 3 to 4 weeks after opening.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "1de99ec9e98e"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": false,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "jednoZrodlo": true,
+   "warianty": "ogólne",
+   "uwaga": "Limit jakościowy."
+  },
+  {
+   "id": null,
+   "klucz_tymczasowy": "K-SLO-3",
+   "rejestr_docelowy": "SLO",
+   "id_uwaga": "ID do nadania przez koordynatora",
+   "twierdzenie": "NCHFP: smarowidła o obniżonej zawartości cukru albo bez dodatku cukru mogą mieć w lodówce krótszą trwałość niż tradycyjne.",
+   "twierdzenie_en": "NCHFP: lower-sugar or no-sugar-added spreads may have a shorter refrigerated shelf life than traditional ones.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+     "miejsce": "NCHFP, Storing Home-Canned Jams and Jellies; pytanie o otwarte słoiki",
+     "cytat": "Lower-sugar or no-sugar-added spreads may have a shorter refrigerated shelf life than those made with the traditional amounts of sugar.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "1de99ec9e98e"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "jednoZrodlo": true,
+   "warianty": "ogólne",
+   "uwaga": "Bez liczby."
+  },
+  {
+   "id": null,
+   "klucz_tymczasowy": "K-SLO-4",
+   "rejestr_docelowy": "SLO",
+   "id_uwaga": "ID do nadania przez koordynatora",
+   "twierdzenie": "NCHFP: kto eksperymentuje ze smarowidłami owocowymi bez przetestowanego przepisu, powinien je mrozić albo trzymać w lodówce.",
+   "twierdzenie_en": "NCHFP: if you experiment with such fruit spreads without a tested recipe, freezing or refrigeration is recommended for storage.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/reduced-sugar-recipes/refrigerator-jelly-with-splenda/",
+     "miejsce": "NCHFP, Refrigerator Jelly with Splenda; panel FAQ",
+     "cytat": "If you want to experiment with making these kind of fruit spreads we recommend freezing or refrigeration for storage.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "8c1cf462c5cb"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "jednoZrodlo": true,
+   "warianty": "ogólne",
+   "uwaga": null
+  },
+  {
+   "id": null,
+   "klucz_tymczasowy": "K-SLO-5",
+   "rejestr_docelowy": "SLO",
+   "id_uwaga": "ID do nadania przez koordynatora",
+   "twierdzenie": "NCHFP: w mrożonych owocach cukier nie jest konserwantem; służy tylko smakowi, barwie i strukturze.",
+   "twierdzenie_en": "NCHFP: in frozen fruit sugar is not used as a preservative, only to maintain flavour, colour and texture.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-strawberries/",
+     "miejsce": "NCHFP, Freezing Strawberries; panel FAQ",
+     "cytat": "Yes; sugar is not used as a preservative but only to maintain flavor, color and texture.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "1b2930bb603d"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "jednoZrodlo": true,
+   "warianty": [
+    "strawberry-v09",
+    "raspberry-blackberry-v09",
+    "blueberry-bilberry-v07"
+   ],
+   "uwaga": "Mówi o mrożeniu; dla owoców zasypanych cukrem w lodówce to tylko wskazówka (uproszczenie nazwane w raporcie)."
+  },
+  {
+   "id": null,
+   "klucz_tymczasowy": "K-SLO-6",
+   "rejestr_docelowy": "SLO",
+   "id_uwaga": "ID do nadania przez koordynatora",
+   "twierdzenie": "Oregon State EM 9885: zanurzenie produktu w miodzie go nie konserwuje; w badaniach bakterie rosły na granicy zanurzonego składnika i miodu.",
+   "twierdzenie_en": "Oregon State EM 9885: submerging food in honey does not preserve it; lab trials found bacteria growing at the interface between the submerged ingredient and the honey.",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9885.pdf",
+     "miejsce": "Oregon State Univ. Extension, EM 9885; Honey’s antimicrobial reputation",
+     "cytat": "Lab trials have confirmed that bacteria grow at the interface between the submerged ingredient and the honey, despite honey’s reputed antimicrobial properties.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "257458d1bb16"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "jednoZrodlo": true,
+   "warianty": [
+    "currant-v04",
+    "lemon-v05",
+    "lemon-v09",
+    "ginger-turmeric-v10"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": null,
+   "klucz_tymczasowy": "K-SLO-7",
+   "rejestr_docelowy": "SLO",
+   "id_uwaga": "ID do nadania przez koordynatora",
+   "twierdzenie": "Oregon State EM 9885: pH miodu waha się od 3,1 do 6,1, a niektóre patogeny rosną już przy pH 3,7; miód chroni niska aktywność wody, nie kwasowość.",
+   "twierdzenie_en": "Oregon State EM 9885: honey pH ranges from 3.1 to 6.1, and some pathogens can grow at pH as low as 3.7; honey is kept safe by its low water activity, not its acidity.",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9885.pdf",
+     "miejsce": "Oregon State Univ. Extension, EM 9885 Honey infusions; Honey’s acidity, s. 2–3",
+     "cytat": "honey can range in pH from 3.1 to 6.1, and some pathogens can grow at a pH as low as 3.7.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "257458d1bb16"
+    },
+    {
+     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9885.pdf",
+     "miejsce": "Oregon State Univ. Extension, EM 9885; Honey’s acidity, s. 3",
+     "cytat": "Honey’s low water activity, not its acidity or antimicrobial components, is what keeps it safe during long storage periods.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "257458d1bb16"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "jednoZrodlo": true,
+   "warianty": [
+    "currant-v04",
+    "lemon-v05",
+    "lemon-v09",
+    "ginger-turmeric-v10"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": null,
+   "klucz_tymczasowy": "K-SLO-8",
+   "rejestr_docelowy": "SLO",
+   "id_uwaga": "ID do nadania przez koordynatora",
+   "twierdzenie": "Oregon State EM 9885: świeże owoce wilgotne i kwaśne (jagody, cytrusy, pestkowe) w naparze miodowym najwyżej 15% masy całości.",
+   "twierdzenie_en": "Oregon State EM 9885: fresh high-moisture, high-acid fruit (berries, citrus, stone fruit) at most 15% of the total honey infusion by weight.",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9885.pdf",
+     "miejsce": "Oregon State Univ. Extension, EM 9885; Category 2: High-moisture, high-acid additions, s. 4",
+     "cytat": "You can use highmoisture, high-acid additions for hot or cold honey infusions, but cap the amount of fresh fruit added at no more than 15% of the total infusion by weight.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "257458d1bb16"
+    },
+    {
+     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9885.pdf",
+     "miejsce": "Oregon State Univ. Extension, EM 9885; Category 2: High-moisture, high-acid additions",
+     "cytat": "Berries, citrus and stone fruits can introduce moisture to honey infusions. Don't use over 15% of the total infusion by weight.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "257458d1bb16"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "jednoZrodlo": true,
+   "warianty": [
+    "currant-v04",
+    "lemon-v05",
+    "lemon-v09"
+   ],
+   "uwaga": null
+  },
+  {
+   "id": null,
+   "klucz_tymczasowy": "K-SLO-9",
+   "rejestr_docelowy": "SLO",
+   "id_uwaga": "ID do nadania przez koordynatora",
+   "twierdzenie": "Oregon State EM 9885: składniki wilgotne i niskokwasowe (np. świeży czosnek, zioła) najwyżej 15% masy i tylko metodą na gorąco, z miodem stale powyżej 140°F (60°C).",
+   "twierdzenie_en": "Oregon State EM 9885: high-moisture, low-acid ingredients (e.g. fresh garlic, herbs) at most 15% by weight and only by hot infusion, keeping the honey above 140°F (60°C).",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9885.pdf",
+     "miejsce": "Oregon State Univ. Extension, EM 9885; Category 3: High-moisture, low-acid additions, s. 4",
+     "cytat": "Cap high-moisture, low-acid ingredients at no more than 15% of the total infusion by weight, using hot infusion processes only.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "257458d1bb16"
+    },
+    {
+     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9885.pdf",
+     "miejsce": "Oregon State Univ. Extension, EM 9885; hot infusions, s. 5",
+     "cytat": "Monitor temperature to ensure honey remains above 140°F",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "257458d1bb16"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "jednoZrodlo": true,
+   "warianty": [
+    "lemon-v09",
+    "ginger-turmeric-v10"
+   ],
+   "uwaga": "Imbir zaliczony do niskokwasowych to wniosek JarAtlas (brak pH imbiru w przeczytanych źródłach)."
+  },
+  {
+   "id": null,
+   "klucz_tymczasowy": "K-SLO-10",
+   "rejestr_docelowy": "SLO",
+   "id_uwaga": "ID do nadania przez koordynatora",
+   "twierdzenie": "CDC: niemowlętom (poniżej 1 roku) nie podaje się miodu ani produktów z miodem.",
+   "twierdzenie_en": "CDC: do not give honey or products made with it to infants (younger than 1 year).",
+   "zrodla": [
+    {
+     "adres": "https://www.cdc.gov/botulism/prevention/index.html",
+     "miejsce": "CDC, Botulism Prevention; Infant botulism",
+     "cytat": "Do not feed honey to a child who is younger than 1 year old.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "232e4422a63b"
+    },
+    {
+     "adres": "https://www.cdc.gov/botulism/prevention/index.html",
+     "miejsce": "CDC, Botulism Prevention; Health Alert (infant botulism)",
+     "cytat": "Do not give honey or products made with it, including honey pacifiers, to infants.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "232e4422a63b"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "jednoZrodlo": true,
+   "warianty": [
+    "currant-v04",
+    "lemon-v05",
+    "lemon-v09",
+    "ginger-turmeric-v10"
+   ],
+   "uwaga": "Rozszerza SLO-036 o produkty z miodem."
+  },
+  {
+   "id": null,
+   "klucz_tymczasowy": "K-SLO-11",
+   "rejestr_docelowy": "SLO",
+   "id_uwaga": "ID do nadania przez koordynatora",
+   "twierdzenie": "NCEŻ (PL): miód jest na liście produktów, których niemowlę ma unikać z powodu ryzyka zatrucia.",
+   "twierdzenie_en": "NCEŻ (Poland): honey is on the list of foods an infant should avoid because of the risk of poisoning.",
+   "zrodla": [
+    {
+     "adres": "https://ncez.pzh.gov.pl/dzieci-i-mlodziez/rozszerzanie-diety-niemowlat-co-warto-o-nim-wiedziec/",
+     "miejsce": "NCEŻ, NIZP PZH-PIB, Rozszerzanie diety niemowląt – co warto o nim wiedzieć",
+     "cytat": "Miód, niedogotowane mięso, ryby i jaja oraz grzyby leśne – ryzyko zatrucia",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "weryfikacja": "curl+grep",
+     "sha12": "a26d33f580a5"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "jednoZrodlo": true,
+   "warianty": [
+    "currant-v04",
+    "lemon-v05",
+    "lemon-v09",
+    "ginger-turmeric-v10"
+   ],
+   "uwaga": "Źródło polskie, bez podanego wieku."
+  },
+  {
+   "id": null,
+   "klucz_tymczasowy": "K-SLO-12",
+   "rejestr_docelowy": "SLO",
+   "id_uwaga": "ID do nadania przez koordynatora",
+   "twierdzenie": "Oregon State EM 9446 i Penn State, syrop z kwiatów czarnego bzu (z cytryną i kwasem cytrynowym): trzymać w lodówce i zużyć w ciągu kilku tygodni albo zamrozić; po przechowywaniu w temperaturze pokojowej albo wekowaniu nie nadaje się do spożycia.",
+   "twierdzenie_en": "Oregon State EM 9446 and Penn State, elderflower syrup (with lemon and citric acid): keep in the refrigerator and use within a few weeks or freeze; it cannot be safely consumed after room-temperature storage or canning.",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/catalog/em-9446-play-it-safe-when-preserving-elderberries",
+     "miejsce": "Oregon State Univ. Extension, EM 9446 Play it safe when preserving elderberries; Elderflower syrup",
+     "cytat": "Pour the clear syrup into a bottle and store in the refrigerator. Use within a few weeks or freeze for later.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "cd102f2ef770"
+    },
+    {
+     "adres": "https://extension.oregonstate.edu/catalog/em-9446-play-it-safe-when-preserving-elderberries",
+     "miejsce": "Oregon State Univ. Extension, EM 9446; Elderflower syrup, Note",
+     "cytat": "Note: Elderflower syrup made from this recipe cannot be safely consumed after being stored at room temperature or canned.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "cd102f2ef770"
+    },
+    {
+     "adres": "https://extension.psu.edu/elderberry-in-the-garden-and-the-kitchen",
+     "miejsce": "Penn State Extension, Elderberry in the Garden and the Kitchen; Elderflower Syrup",
+     "cytat": "Note: Elderflower syrup made from this recipe cannot be safely consumed after being stored at room temperature or canned.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "df6ed9f4aa92"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "jednoZrodlo": true,
+   "warianty": [
+    "elderberry-elderflower-v06"
+   ],
+   "uwaga": "„Kilka tygodni” bez liczby; Penn State to ten sam tekst (źródło pochodne)."
+  },
+  {
+   "id": null,
+   "klucz_tymczasowy": "K-SLO-13",
+   "rejestr_docelowy": "SLO",
+   "id_uwaga": "ID do nadania przez koordynatora",
+   "twierdzenie": "Oregon State (Ask Extension): napar z kwiatów (np. mniszka) prawdopodobnie nie jest dość kwaśny, by zapobiec rozwojowi patogenów; zmienione przepisy bezpieczniej mrozić niż wekować.",
+   "twierdzenie_en": "Oregon State (Ask Extension): a flower tea (e.g. dandelion) is likely not acidic enough to prevent pathogen growth; freezing such modified recipes rather than canning them is a safe alternative.",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/ask-extension/featured/jelly-made-dandelion-or-grape-hyacinth-tea-considered-safe",
+     "miejsce": "Oregon State Univ. Extension, Ask Extension: Is jelly made from dandelion or grape hyacinth tea considered safe?",
+     "cytat": "The tea itself is likely not acidic enough to prevent pathogen growth.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "a8e5dc7ebb2d"
+    },
+    {
+     "adres": "https://extension.oregonstate.edu/ask-extension/featured/jelly-made-dandelion-or-grape-hyacinth-tea-considered-safe",
+     "miejsce": "Oregon State Univ. Extension, Ask Extension: Is jelly made from dandelion or grape hyacinth tea considered safe?",
+     "cytat": "Freezing these modified jam or jelly recipes rather than canning them is a safe alternative for storage.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "a8e5dc7ebb2d"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "jednoZrodlo": true,
+   "warianty": [
+    "foraged-blossoms-v02"
+   ],
+   "uwaga": "Uzupełnia SLO-068."
+  },
+  {
+   "id": null,
+   "klucz_tymczasowy": "K-SLO-14",
+   "rejestr_docelowy": "SLO",
+   "id_uwaga": "ID do nadania przez koordynatora",
+   "twierdzenie": "UCCE MFP Orange County: USDA wycofał zalecenia wekowania masła dyniowego i nie ma bezpiecznej metody domowej; trzymać je w lodówce albo zamrozić.",
+   "twierdzenie_en": "UCCE MFP Orange County: USDA withdrew its recommendations and there is no safe home canning method for pumpkin butter; refrigerate it or freeze it.",
+   "zrodla": [
+    {
+     "adres": "https://oc4h.ucanr.edu/sites/default/files/2021-11/360435.pdf",
+     "miejsce": "UCCE Master Food Preservers Orange County, (Not) Canning Pumpkin Butter (2021)",
+     "cytat": "Based on this research, the USDA withdrew its canning recommendations, and currently there are no safe methods for the home canning of pumpkin butter.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "dfa1e4c93a64"
+    },
+    {
+     "adres": "https://oc4h.ucanr.edu/sites/default/files/2021-11/360435.pdf",
+     "miejsce": "UCCE Master Food Preservers Orange County, (Not) Canning Pumpkin Butter (2021)",
+     "cytat": "In summary, refrigerate pumpkin butter or freeze it for longer-term storage.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "dfa1e4c93a64"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": true,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "jednoZrodlo": true,
+   "warianty": [
+    "pumpkin-v12"
+   ],
+   "uwaga": "Uzupełnienie SLO-044 (dopisać źródło); nadal bez liczby dni."
+  },
+  {
+   "id": null,
+   "klucz_tymczasowy": "K-NAP-1",
+   "rejestr_docelowy": "NAP",
+   "id_uwaga": "ID do nadania przez koordynatora",
+   "twierdzenie": "WSU: sos sojowy chroni przed zepsuciem wysokie zasolenie; po otwarciu dla jakości trzyma się go w lodówce i zużywa w ciągu 1 miesiąca.",
+   "twierdzenie_en": "WSU: soy sauce is protected from spoilage by its high salt content; after opening refrigerate it for quality and use it within 1 month.",
+   "zrodla": [
+    {
+     "adres": "https://news.cahnrs.wsu.edu/podcasts/fsm-288-storing-opened-soy-sauce-refrigerator-of-pantry/",
+     "miejsce": "Washington State Univ. Extension, Food Safety Minute 288: Storing Opened Soy Sauce",
+     "cytat": "High salt concentration inhibits growth of microorganisms causing food spoilage. However, to maintain quality, refrigerate soy sauce after opening. When refrigerated, soy sauce should be used in one month.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "weryfikacja": "curl+grep",
+     "sha12": "ef6f0fb9e6e4"
+    }
+   ],
+   "status": "robocze",
+   "uproszczenie": null,
+   "krytyczne": false,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "jednoZrodlo": true,
+   "warianty": [
+    "napa-cabbage-v11",
+    "daikon-black-radish-v07",
+    "wild-garlic-v06",
+    "cultivated-mushrooms-v05"
+   ],
+   "uwaga": "Dotyczy samego sosu, nie warzyw w sosie (B9-D7)."
+  }
+ ],
+ "warianty": [
+  {
+   "id": "cucumber-v17",
+   "nazwa": "szwedzkie pressgurka",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ok-zrodlo",
+   "twierdzenia": [
+    "ACI-503",
+    "ACI-504",
+    "ACI-510",
+    "ACI-501",
+    "ACI-509",
+    "ACI-523"
+   ],
+   "uwagi": "Karta według jednego przepisu: B2267 (ocet 5% nierozcieńczony, 2 tygodnie) albo Mississippi State (1:1, ok. 1 tydzień); limit z tego przepisu, którego proporcje podaje (B9-D3). Szwedzka ättika 12% rozcieńczana wodą nie ma źródła: karta jej nie podaje."
+  },
+  {
+   "id": "european-mixed-veg-v05",
+   "nazwa": "sałatka z ogórków, papryki i cebuli",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ok-zrodlo",
+   "twierdzenia": [
+    "ACI-503",
+    "ACI-504",
+    "ACI-501",
+    "ACI-523"
+   ],
+   "uwagi": "B2267 wprost dopuszcza ogórki z cebulą albo papryką, kalafiorem, marchwią; 2 tygodnie, 40°F lub niżej."
+  },
+  {
+   "id": "european-mixed-veg-v03",
+   "nazwa": "polska sałatka szwedzka",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ok-zrodlo",
+   "twierdzenia": [
+    "ACI-503",
+    "ACI-504",
+    "ACI-501",
+    "ACI-523"
+   ],
+   "uwagi": "Tylko wersja lodówkowa według B2267 (ogórki, cebula, papryka, marchew). Polska sałatka szwedzka pasteryzowana w słoikach to wekowanie bez przetestowanego przepisu: osobny wariant, nie ten status."
+  },
+  {
+   "id": "shallot-pearl-onion-v01",
+   "nazwa": "szybka czerwona cebula w occie (quick pickled)",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ok-zrodlo",
+   "twierdzenia": [
+    "ACI-507",
+    "ACI-501",
+    "ACI-509",
+    "ACI-523"
+   ],
+   "uwagi": "UC MFP Pickled Onions: 1:1 ocet 5% biały/jabłkowy, 2 tygodnie. Nie ocet ryżowy ani winny (ACI-509)."
+  },
+  {
+   "id": "radish-v03",
+   "nazwa": "w occie jabłkowym z pieprzem",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ok-zrodlo",
+   "twierdzenia": [
+    "ACI-505",
+    "ACI-506",
+    "ACI-501",
+    "ACI-509",
+    "ACI-523"
+   ],
+   "uwagi": "NC State/UC MFP: rzodkiewki wymienione wprost, ocet jabłkowy dozwolony, pieprz z listy przypraw; 2 tygodnie. Przepis UC „Refrigerated Sweet Pickled Radish” z limitem 4 miesięcy (Ball) odrzucony (B9-D5)."
+  },
+  {
+   "id": "radish-v05",
+   "nazwa": "meksykańskie pikle z rzodkiewki i oregano",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ok-zrodlo",
+   "twierdzenia": [
+    "ACI-505",
+    "ACI-506",
+    "ACI-501",
+    "ACI-509",
+    "ACI-523"
+   ],
+   "uwagi": "Jak radish-v03; oregano jest na liście świeżych przypraw NC State. Wersja z sokiem z limonki zamiast octu nie ma źródła (ACI-517, ACI-518)."
+  },
+  {
+   "id": "daikon-black-radish-v03",
+   "nazwa": "wietnamskie do-chua (daikon z marchewką w occie do banh mi)",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ok-zrodlo",
+   "twierdzenia": [
+    "ACI-511",
+    "ACI-501",
+    "ACI-509",
+    "ACI-523"
+   ],
+   "uwagi": "UNL: ocet jabłkowy 1:1, do 4 dni. Przepis WSU MFP z octem ryżowym 1:3 i 3 tygodniami odrzucony (słaby kwas, przepis szefa kuchni; B9-D5). Ocet z etykietą 5% (ACI-509)."
+  },
+  {
+   "id": "garlic-v07",
+   "nazwa": "chiński zielony czosnek laba",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ok-zrodlo",
+   "twierdzenia": [
+    "ACI-512",
+    "ACI-513",
+    "ACI-509",
+    "ACI-516",
+    "ACI-523"
+   ],
+   "uwagi": "Laba: obrany czosnek w nierozcieńczonym occie z etykietą 5% (UC ANR nie podaje kwasowości; JarAtlas wymaga 5%); ok. 4 miesiące (jakość). Tradycyjny ocet ryżowy ma często ok. 4% (ACI-515): karta wymaga 5%."
+  },
+  {
+   "id": "european-mixed-veg-v07",
+   "nazwa": "brytyjskie mixed pickles",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "ACI-509",
+    "ACI-516",
+    "ACI-502"
+   ],
+   "uwagi": "Brytyjskie mixed pickles robi się na occie słodowym; Wisconsin wyklucza octy winne, Penn State dopuszcza octy specjalne tylko w przepisie (ACI-211). Kandydat: wersja według B2267 z octem 5% białym, ale to zmiana tożsamości wariantu."
+  },
+  {
+   "id": "daikon-black-radish-v04",
+   "nazwa": "daikon w occie ryżowym (pickled danmuji)",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "ACI-515",
+    "ACI-516",
+    "ACI-509"
+   ],
+   "uwagi": "Ocet ryżowy: minimum handlowe 4% (FDA), w przetworach tylko 5%. Brak przepisu na danmuji. Etykieta ≥5% to warunek, nie źródło."
+  },
+  {
+   "id": "radish-v04",
+   "nazwa": "w occie ryżowym z imbirem",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "ACI-515",
+    "ACI-516",
+    "ACI-509"
+   ],
+   "uwagi": "Jak daikon-black-radish-v04 (ocet ryżowy, imbir)."
+  },
+  {
+   "id": "napa-cabbage-v09",
+   "nazwa": "pikle w occie ryżowym z sezamem",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "ACI-515",
+    "ACI-516",
+    "ACI-509"
+   ],
+   "uwagi": "Ocet ryżowy z sezamem: brak przepisu; olej sezamowy to obszar OLE (sprawdzić ilość)."
+  },
+  {
+   "id": "brussels-kohlrabi-v09",
+   "nazwa": "kalarepa w occie ryżowym",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "ACI-515",
+    "ACI-516",
+    "ACI-509",
+    "ACI-508"
+   ],
+   "uwagi": "Kalarepa nie jest na liście NC State ani B2267; brak przepisu. Reguła 2 tygodni dla przepisów nieprzetestowanych (ACI-508) nie daje ok-zrodlo (B9-D4)."
+  },
+  {
+   "id": "turnip-rutabaga-v05",
+   "nazwa": "japońska rzepa kabu w occie (senmaizuke)",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "ACI-515",
+    "ACI-516",
+    "ACI-509"
+   ],
+   "uwagi": "Senmaizuke: ocet ryżowy i kombu, brak przepisu."
+  },
+  {
+   "id": "onion-v05",
+   "nazwa": "cebula marynowana w cytrynie i sumaku",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "ACI-517",
+    "ACI-518",
+    "ACI-509",
+    "ACI-005"
+   ],
+   "uwagi": "Sam sok z cytryny: źródła wskazują sok do owoców, chutneyów i pomidorów, nie do warzyw; Wisconsin: nie używać soku z cytryny w szybkich piklach. Brak przepisu."
+  },
+  {
+   "id": "shallot-pearl-onion-v02",
+   "nazwa": "czerwona cebula kiszona z limonką",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "ACI-517",
+    "ACI-518",
+    "ACI-509",
+    "ACI-005"
+   ],
+   "uwagi": "Cebula w limonce: jak onion-v05. Kandydat na kartę „na bieżąco” dopiero ze źródłem limitu."
+  },
+  {
+   "id": "shallot-pearl-onion-v03",
+   "nazwa": "meksykańska cebula z habanero (xnipec)",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "ACI-517",
+    "ACI-518",
+    "ACI-509",
+    "ACI-005"
+   ],
+   "uwagi": "Xnipec (cebula, habanero, sok z gorzkiej pomarańczy lub limonki): brak źródła; świeża salsa wymaga osobnego researchu."
+  },
+  {
+   "id": "horseradish-v02",
+   "nazwa": "tarty na soku z cytryny",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "ACI-517",
+    "ACI-509",
+    "ACI-035",
+    "ACI-514"
+   ],
+   "uwagi": "Sok z cytryny nie jest wskazanym kwasem dla warzyw. Alternatywa ze źródłem: sos chrzanowy NCHFP na occie 5% (ACI-035), ostrość 1–2 miesiące (ACI-514)."
+  },
+  {
+   "id": "horseradish-v04",
+   "nazwa": "ćwikła chrzanowa (70% chrzanu)",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "ACI-035",
+    "ACI-514",
+    "ACI-005"
+   ],
+   "uwagi": "Ćwikła (burak z chrzanem): NCHFP, NDSU i Wisconsin mają tylko chrzan w occie; NCHFP Pickled Beets to przepis do wekowania. Brak przepisu lodówkowego."
+  },
+  {
+   "id": "carrot-v06",
+   "nazwa": "po koreańsku (morkovcha)",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "ACI-508",
+    "ACI-509",
+    "OLE-002"
+   ],
+   "uwagi": "Morkovcha: ocet, czosnek i gorący olej; czosnek w oleju to reguła 4 dni (OLE-002). Brak przepisu; rozważyć ryzyko-wysokie, jeśli przepis wariantu zawiera czosnek w oleju."
+  },
+  {
+   "id": "white-cabbage-v11",
+   "nazwa": "po koreańsku z chili",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "ACI-508",
+    "ACI-509"
+   ],
+   "uwagi": "Kapusta po koreańsku: brak przepisu szczebla 1–3."
+  },
+  {
+   "id": "cranberry-lingonberry-v05",
+   "nazwa": "relish żurawinowo-chrzanowy",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "ACI-141",
+    "ACI-113"
+   ],
+   "uwagi": "Surowy relish żurawina–chrzan: brak źródła; żurawina kwaśna, chrzan niskokwasowy, mieszanina bez pomiaru."
+  },
+  {
+   "id": "napa-cabbage-v11",
+   "nazwa": "pak choi w sosie sojowym i occie chinkiang",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ryzyko-wysokie",
+   "twierdzenia": [
+    "SLO-023",
+    "ACI-005",
+    "MIE-059",
+    "NAP-055",
+    "K-NAP-1"
+   ],
+   "uwagi": "Sos sojowy nie zakwasza (chroni go sól, a w marynacie sól rozcieńcza woda z warzyw); pH sosu sojowego bez źródła szczebla 1–3; C. botulinum nieproteolityczny rośnie od 3,3°C. Ocet chinkiang o nieznanej kwasowości. Karta-ostrzeżenie (B9-D7)."
+  },
+  {
+   "id": "daikon-black-radish-v07",
+   "nazwa": "w sosie sojowym",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ryzyko-wysokie",
+   "twierdzenia": [
+    "SLO-023",
+    "ACI-005",
+    "ACI-111",
+    "MIE-059",
+    "K-NAP-1"
+   ],
+   "uwagi": "Jak napa-cabbage-v11 (rzodkiew pH 5,52–5,69)."
+  },
+  {
+   "id": "wild-garlic-v06",
+   "nazwa": "w sosie sojowym (koreańskie myongi-namul)",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ryzyko-wysokie",
+   "twierdzenia": [
+    "SLO-023",
+    "ACI-005",
+    "MIE-059",
+    "K-NAP-1"
+   ],
+   "uwagi": "Jak napa-cabbage-v11; liście czosnku niedźwiedziego w sosie bez kwasu."
+  },
+  {
+   "id": "cultivated-mushrooms-v05",
+   "nazwa": "grzyby shiitake marynowane w sosie sojowym i mirinie",
+   "rodzina": "vinegar-pickling",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ryzyko-wysokie",
+   "twierdzenia": [
+    "SLO-023",
+    "ACI-159",
+    "MIE-059",
+    "K-NAP-1"
+   ],
+   "uwagi": "Shiitake (pH 6,00–6,70) w sosie sojowym i mirinie, bez kwasu. NCHFP Marinated Whole Mushrooms wymaga octu 5% i soku z cytryny i jest przepisem do wekowania, nie lodówkowym."
+  },
+  {
+   "id": "strawberry-v09",
+   "nazwa": "syrop truskawkowy zasypowy",
+   "rodzina": "sweet-preserves",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "SLO-020",
+    "K-SLO-1",
+    "K-SLO-5"
+   ],
+   "uwagi": "Syrop zasypowy (bez gotowania): SLO-020 dotyczy dżemu niegotowanego z pektyną, nie soku puszczonego z cukrem; brak limitu dla syropu. Alternatywa ze źródłem: Berry Syrup NCHFP (SLO-182–186) albo mrożenie."
+  },
+  {
+   "id": "raspberry-blackberry-v09",
+   "nazwa": "maliny zasypane cukrem w słoikach (do herbaty)",
+   "rodzina": "sweet-preserves",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "SLO-020",
+    "K-SLO-1",
+    "K-SLO-5"
+   ],
+   "uwagi": "Maliny zasypane cukrem: jak strawberry-v09."
+  },
+  {
+   "id": "blueberry-bilberry-v07",
+   "nazwa": "jagody zasypane cukrem",
+   "rodzina": "sweet-preserves",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "SLO-020",
+    "K-SLO-1",
+    "K-SLO-5"
+   ],
+   "uwagi": "Jagody zasypane cukrem: jak strawberry-v09."
+  },
+  {
+   "id": "cranberry-lingonberry-v02",
+   "nazwa": "szwedzka rårörda lingon (ucierana na surowo z cukrem)",
+   "rodzina": "sweet-preserves",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "SLO-020",
+    "K-SLO-1"
+   ],
+   "uwagi": "Rårörda lingon: Marthaförbundet (organizacja fińska, szczebel 3) pisze o długiej trwałości w lodówce dzięki kwasowi benzoesowemu, bez liczby; źródła urzędowego (Livsmedelsverket, Ruokavirasto) nie znaleziono."
+  },
+  {
+   "id": "currant-v04",
+   "nazwa": "czarna porzeczka w miodzie",
+   "rodzina": "sweet-preserves",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ryzyko-wysokie",
+   "twierdzenia": [
+    "K-SLO-6",
+    "K-SLO-7",
+    "K-SLO-8",
+    "K-SLO-10",
+    "K-SLO-11",
+    "SLO-036"
+   ],
+   "uwagi": "Owoce w miodzie konserwuje tylko niska aktywność wody; OSU dopuszcza najwyżej 15% świeżych owoców masy naparu. Przepisy „porzeczka w miodzie” zwykle przekraczają tę proporcję. Karta-ostrzeżenie może podać metodę OSU (do 15%) jako bezpieczną alternatywę (B9-D8)."
+  },
+  {
+   "id": "lemon-v05",
+   "nazwa": "cytryny w miodzie (fermentowane)",
+   "rodzina": "sweet-preserves",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ryzyko-wysokie",
+   "twierdzenia": [
+    "K-SLO-6",
+    "K-SLO-7",
+    "K-SLO-8",
+    "K-SLO-10",
+    "SLO-036"
+   ],
+   "uwagi": "Cytryny w miodzie „fermentowane”: proporcja zwykle ok. 1:1, fermentacja zwiększa wilgotność; jak currant-v04."
+  },
+  {
+   "id": "lemon-v09",
+   "nazwa": "cytryny z imbirem w miodzie",
+   "rodzina": "sweet-preserves",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ryzyko-wysokie",
+   "twierdzenia": [
+    "K-SLO-6",
+    "K-SLO-7",
+    "K-SLO-8",
+    "K-SLO-9",
+    "K-SLO-10",
+    "SLO-036"
+   ],
+   "uwagi": "Cytryna z imbirem w miodzie: imbir jako składnik wilgotny niskokwasowy (wniosek JarAtlas): tylko na gorąco i do 15% (OSU)."
+  },
+  {
+   "id": "ginger-turmeric-v10",
+   "nazwa": "imbir z cytryną w miodzie",
+   "rodzina": "sweet-preserves",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ryzyko-wysokie",
+   "twierdzenia": [
+    "K-SLO-6",
+    "K-SLO-7",
+    "K-SLO-9",
+    "K-SLO-10",
+    "SLO-036"
+   ],
+   "uwagi": "Jak lemon-v09."
+  },
+  {
+   "id": "elderberry-elderflower-v06",
+   "nazwa": "syrop z kwiatów czarnego bzu z cytryną",
+   "rodzina": "sweet-preserves",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "K-SLO-12",
+    "SLO-062",
+    "SLO-068"
+   ],
+   "uwagi": "Jest przepis szczebla 3 (OSU EM 9446, Penn State): cytryna i 1,5 łyżeczki kwasu cytrynowego, tylko lodówka albo mrożenie. Limit „kilka tygodni” bez liczby: kandydat na ok-zrodlo po decyzji koordynatora o brzmieniu (B9-D9)."
+  },
+  {
+   "id": "foraged-blossoms-v02",
+   "nazwa": "syrop („miód”) z kwiatów mniszka lekarskiego z cytryną",
+   "rodzina": "sweet-preserves",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "K-SLO-13",
+    "SLO-068"
+   ],
+   "uwagi": "Syrop („miód”) z mniszka: napar niekwaśny; jedyna wskazówka OSU: mrozić. Brak limitu lodówkowego."
+  },
+  {
+   "id": "pumpkin-v12",
+   "nazwa": "syrop korzenny (pumpkin spice)",
+   "rodzina": "sweet-preserves",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "zostaje do-researchu",
+   "twierdzenia": [
+    "SLO-044",
+    "K-SLO-14",
+    "SLO-023"
+   ],
+   "uwagi": "Syrop korzenny z puree dyniowym: tylko lodówka albo mrożenie, bez liczby dni (NCHFP, UCCE). Sam syrop cukrowy z przyprawami (bez dyni) to inny produkt: brak źródła."
+  },
+  {
+   "id": "onion-v07",
+   "nazwa": "karmelizowana konfitura cebulowa z winem",
+   "rodzina": "sweet-preserves",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ryzyko-wysokie",
+   "twierdzenia": [
+    "ACI-524",
+    "ACI-005",
+    "ACI-107",
+    "SLO-023",
+    "MIE-059"
+   ],
+   "uwagi": "Konfitura cebulowa: warzywo niskokwasowe, brak przepisu i limitu lodówkowego; wino i ocet bez ustalonej dawki. Analogia w repo: pumpkin-v08 (dżem z dyni, ryzyko-wysokie). Karta-ostrzeżenie (B9-D10)."
+  },
+  {
+   "id": "carrot-v11",
+   "nazwa": "dżem marchewkowo-pomarańczowy (portugalski)",
+   "rodzina": "sweet-preserves",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ryzyko-wysokie",
+   "twierdzenia": [
+    "ACI-005",
+    "SLO-031",
+    "SLO-023",
+    "MIE-059"
+   ],
+   "uwagi": "Dżem marchewkowo-pomarańczowy: jak onion-v07. Istnieje przepis do wekowania „Carrot Cake Jam” (Ball, w WSU): marchew z gruszką, ananasem i sokiem z cytryny; to inny wariant (kandydat na kartę wekowania)."
+  },
+  {
+   "id": "beetroot-v13",
+   "nazwa": "konfitura z buraka i czerwonego wina",
+   "rodzina": "sweet-preserves",
+   "status_obecny": "do-researchu",
+   "status_proponowany": "ryzyko-wysokie",
+   "twierdzenia": [
+    "ACI-005",
+    "SLO-032",
+    "SLO-023",
+    "MIE-059"
+   ],
+   "uwagi": "Konfitura z buraka i wina: jak onion-v07."
+  }
+ ],
+ "bez_zrodla": [
+  {
+   "temat": "kapusta po koreańsku, morkovcha",
+   "warianty": "white-cabbage-v11, carrot-v06",
+   "opis": "brak źródła szczebla 1–3 z przepisem lub limitem"
+  },
+  {
+   "temat": "kalarepa w occie",
+   "warianty": "brussels-kohlrabi-v09",
+   "opis": "tylko strony o przechowywaniu surowej kalarepy"
+  },
+  {
+   "temat": "cebula wyłącznie w soku cytrusowym",
+   "warianty": "onion-v05, shallot-pearl-onion-v02, -v03",
+   "opis": "UMN ogranicza sok do owoców, chutneyów i pomidorów; Wisconsin: nie używać soku z cytryny"
+  },
+  {
+   "temat": "surowy relish żurawina–chrzan",
+   "warianty": "cranberry-lingonberry-v05",
+   "opis": "brak"
+  },
+  {
+   "temat": "ćwikła lodówkowa",
+   "warianty": "horseradish-v04",
+   "opis": "NCHFP/NDSU/Wisconsin: tylko chrzan z octem; Pickled Beets to wekowanie"
+  },
+  {
+   "temat": "pH sosu sojowego, jangajji, marynaty sojowe bez octu",
+   "warianty": "napa-cabbage-v11, daikon-black-radish-v07, wild-garlic-v06, cultivated-mushrooms-v05",
+   "opis": "tabela Clemson nie ma sosu sojowego; FSIS i FoodKeeper: 403"
+  },
+  {
+   "temat": "musztarda domowa: czas w lodówce",
+   "warianty": "mustard-v02–v10 (poza partią 1)",
+   "opis": "brak; FSIS/FoodKeeper 403"
+  },
+  {
+   "temat": "syropy ziołowe i kwiatowe (mięta, lipa, pędy sosny, mniszek), syrop prosty",
+   "warianty": "foraged-blossoms-v02 (i v01, v03–v07, garden-herbs-v08–v11 poza partią)",
+   "opis": "brak limitu lodówkowego"
+  },
+  {
+   "temat": "surowe owoce zasypane cukrem: limit w lodówce",
+   "warianty": "strawberry-v09, raspberry-blackberry-v09, blueberry-bilberry-v07",
+   "opis": "brak; NCHFP: sugar pack tylko do mrożenia"
+  },
+  {
+   "temat": "dżemy warzywne (cebula, marchew, burak, cukinia): limit lodówkowy",
+   "warianty": "onion-v07, carrot-v11, beetroot-v13",
+   "opis": "brak; Ask Extension: cebula do szybkowaru"
+  },
+  {
+   "temat": "domowe maraschino w lodówce, owoce w alkoholu",
+   "warianty": "sour-cherry-v12, sour-cherry-v13 (poza partią)",
+   "opis": "jedyny przepis extension (OSU SP 50-492, 1992) jest do wekowania"
+  },
+  {
+   "temat": "masło/syrop dyniowy: liczba dni w lodówce",
+   "warianty": "pumpkin-v12",
+   "opis": "NCHFP i UCCE: lodówka albo mrożenie, bez liczby"
+  },
+  {
+   "temat": "PL/UE: GIS, NCEŻ, EFSA o piklach i dżemach lodówkowych",
+   "warianty": "wszystkie",
+   "opis": "tylko PSSE (temperatury półek) i NCEŻ (miód a niemowlęta)"
+  },
+  {
+   "temat": "UC ANR 8568 (oryginał), Clemson HGIC, Michigan State",
+   "warianty": "garlic-v07 i ogólne",
+   "opis": "403/Incapsula przy curl; nie cytowano"
+  }
+ ],
+ "odrzucone": [
+  {
+   "zrodlo": "Oregon State, Refrigerator Pickled Vegetables / Cucumbers",
+   "adres": "https://extension.oregonstate.edu/imported-publication/refrigerator-pickled-vegetables",
+   "cytat": "„White, cider, white wine and rice vinegar are good choices.” / „Store jars only in the refrigerator. Use within 3 months.”",
+   "powod": "ocet ryżowy bez wymogu 5% i 3 miesiące: sprzeczne z Wisconsin, VT, UC MFP CS (B9-D5)"
+  },
+  {
+   "zrodlo": "Penn State, Advice about Vinegar",
+   "adres": "https://extension.psu.edu/advice-about-vinegar",
+   "cytat": "„The label does include a recipe for refrigerator pickles which would be safe.”",
+   "powod": "dotyczy przepisu producenta z octem 2,5%; nie uogólniać na octy <5% (B9-D5)"
+  },
+  {
+   "zrodlo": "WSU Clark County MFP, Do Chua",
+   "adres": "https://s3.wp.wsu.edu/uploads/sites/2079/2016/05/Do-Chua.pdf",
+   "cytat": "„… store in the refrigerator up to 3 weeks.”",
+   "powod": "ocet ryżowy z wodą 1:3, przepis szefa kuchni (B9-D5); do-chua według UNL"
+  },
+  {
+   "zrodlo": "UC MFP, Refrigerated Sweet Pickled Radish",
+   "adres": "https://ucanr.edu/sites/default/files/2020-09/335051.pdf",
+   "cytat": "„Store in refrigerator up to 4 months.”",
+   "powod": "przepis Ball (szczebel 4 w UC), limit 4 miesiące sprzeczny z 2 tygodniami NC State/UC dla rzodkiewek (B9-D5)"
+  },
+  {
+   "zrodlo": "FDA, Fish and Fishery Products Hazards Guide, tabela A-2",
+   "adres": "https://www.fda.gov/media/80390/download",
+   "cytat": "„37.9-41°F (3.3-5°C) 7 days”",
+   "powod": "wytyczna dla ryb; nie przenosić na warzywa jako limit (MIE-059 wystarcza jako kontekst)"
+  },
+  {
+   "zrodlo": "Marthaförbundet, Kallrörda lingon",
+   "adres": "https://martha.fi/recept/kallrorda-lingon",
+   "cytat": "„Lingon innehåller bensoesyra, vilket gör att rårörda lingon har en lång hållbarhetstid i kylskåp.”",
+   "powod": "szczebel 3, bez liczby; za mało dla ok-zrodlo (cranberry-lingonberry-v02)"
+  }
+ ],
+ "decyzje": [
+  {
+   "id": "B9-D1",
+   "tresc": "Numeracja ACI-500–ACI-525 z puli zarezerwowanej dla B9 (ACI-500–599). Twierdzenia rejestrów SLO (14) i NAP (1) bez numeru, z kluczem tymczasowym K-…: „ID do nadania przez koordynatora”. Kolizje: rejestr.json kończy ACI na ACI-325, git grep ACI-5xx na wszystkich gałęziach origin: 0 trafień."
+  },
+  {
+   "id": "B9-D2",
+   "tresc": "Partia 1 = 40 z 107 wariantów lodówkowych do-researchu w rodzinach vinegar-pickling i sweet-preserves: szybkie pikle (ogórki, cebula, rzodkiewka, daikon, czosnek, mieszanki), marynaty w occie ryżowym, w soku cytrusowym i w sosie sojowym, owoce z cukrem i w miodzie, syropy kwiatowe, dżemy warzywne. Musztardy (9) i pozostałe syropy ziołowe do partii 2: research nie dał źródła (sekcja 6)."
+  },
+  {
+   "id": "B9-D3",
+   "tresc": "Proporcje i limit dni karta bierze z jednego przepisu, którego proporcje przytacza (np. B2267: 2 tygodnie; Mississippi State: ok. tydzień; UNL: 4 dni). Ogólne „do 1 miesiąca” (ACI-500) to górna granica, nie limit karty. Odrzucone: część wspólna 1 tydzień dla wszystkich (gubi związek limitu z proporcją), „reguła 1:1” (UMN: nie ma standardowej proporcji, ACI-519). Decyzja Claude, do weta."
+  },
+  {
+   "id": "B9-D4",
+   "tresc": "Status ok-zrodlo dla wariantu lodówkowego: przepis szczebla 3 (extension) z octem 5% białym albo jabłkowym, z proporcją z przepisu i z limitem dni; czosnek w occie według UC ANR (4 miesiące, jakość). Reguła „przepisy nieprzetestowane do 2 tygodni w lodówce” (ACI-508, Wisconsin, NDSU) nie podnosi statusu: to ostrożność dla przepisów bez testu, nie przepis. Decyzja Claude, do weta."
+  },
+  {
+   "id": "B9-D5",
+   "tresc": "Sprzeczności tego samego szczebla przy bezpieczeństwie rozstrzygam w stronę ostrożniejszą: ocet tylko 5% (Wisconsin, VT, UC MFP CS, NCHFP ACI-018) wbrew OSU (ocet ryżowy, 3 miesiące) i Penn State (etykieta 2,5%); do-chua według UNL (1:1, 4 dni), nie WSU (1:3, 3 tygodnie); rzodkiewka 2 tygodnie (NC State/UC), nie 4 miesiące (Ball). Odrzucone źródła z cytatami w sekcji 7. Decyzja Claude, do weta."
+  },
+  {
+   "id": "B9-D6",
+   "tresc": "Ostrożna reguła JarAtlas ACI-523: przetwory lodówkowe na środkowej półce, nie w drzwiach (PSSE: drzwi ok. 10°C, środkowa półka poniżej 5°C; przepisy USA: 40°F lub niżej). Odrzucone: pominięcie (PSSE poleca drzwi na słoiki z przetworami, co przy 10°C przeczy założeniu przepisów). Decyzja Claude, do weta."
+  },
+  {
+   "id": "B9-D7",
+   "tresc": "Warzywa i grzyby w sosie sojowym bez octu: ryzyko-wysokie (karta-ostrzeżenie). Podstawa: SLO-023, ACI-005, MIE-059 (wzrost od 3,3°C), brak pH sosu sojowego w źródłach szczebla 1–3, sól rozcieńczona wodą z warzyw (bez pomiaru). Analogia w repo: catalog onion-v11 i daikon-black-radish-v09 (warzywo w miodzie, ryzyko-wysokie). Odrzucone: zostaje do-researchu (wariant „lodówkowy” bez limitu i bez kwasu). Wariant ostrożniejszy."
+  },
+  {
+   "id": "B9-D8",
+   "tresc": "Owoce i imbir w miodzie (currant-v04, lemon-v05, lemon-v09, ginger-turmeric-v10): ryzyko-wysokie. OSU EM 9885: miód nie konserwuje zanurzonego składnika; świeże owoce do 15% masy, składniki niskokwasowe do 15% i tylko na gorąco; typowe przepisy przekraczają 15%. Karta-ostrzeżenie może podać metodę OSU jako alternatywę. Analogia w repo częściowa: chili-pepper-v14 (warzywo, nie owoc, w miodzie, ryzyko-wysokie); różnica: owoce kwaśne OSU dopuszcza do 15%. Decyzja Claude, do weta."
+  },
+  {
+   "id": "B9-D9",
+   "tresc": "Syrop z kwiatów bzu (elderberry-elderflower-v06): zostaje do-researchu, choć OSU EM 9446 i Penn State mają przepis (cytryna, kwas cytrynowy, tylko lodówka albo mrożenie): limit „kilka tygodni” nie ma liczby. Alternatywa do weta: ok-zrodlo z brzmieniem źródła („w ciągu kilku tygodni albo zamrozić”). Decyzja Claude, do weta."
+  },
+  {
+   "id": "B9-D10",
+   "tresc": "Dżemy i konfitury warzywne lodówkowe (onion-v07, carrot-v11, beetroot-v13): ryzyko-wysokie. Warzywo niskokwasowe (ACI-005, ACI-524), brak przepisu i limitu dni. Analogia w repo: pumpkin-v08 (dżem z dyni, ryzyko-wysokie). Wariant ostrożniejszy."
+  },
+  {
+   "id": "B9-D11",
+   "tresc": "Źródło niedostępne przy ponownym pobraniu (WSU FSM 288: HTTP 403 dla curl): cytat sprawdzony na pliku, który subagent B pobrał tego dnia (HTTP 200, sha12 ef6f0fb9e6e4); bez obchodzenia blokady. Twierdzenie niekrytyczne (K-NAP-1). UC ANR 8568 (oryginał) 403: cytaty z dwóch dokumentów UC, które go powtarzają."
+  },
+  {
+   "id": "B9-D12",
+   "tresc": "Szczeble: NCHFP, FDA, CDC, gov.pl (PSSE), NCEŻ = 1; uniwersytety extension, Ask Extension, UC MFP = 3. Subagent C nadał szczebel 1 kilku stronom extension; poprawione w tym raporcie."
+  }
+ ],
+ "kontrole": {
+  "cytaty": "62 cytaty (41 twierdzeń) dosłownie w tekście stron pobranych dziś curl (skrypt: tekst z HTML albo pdftotext, normalizacja spacji, cudzysłowów i myślników; każdy ciągły fragment osobno): 0 braków. Wyjątek nazwany: WSU FSM 288 przy ponownym pobraniu HTTP 403, sprawdzony na pliku z pobrania subagenta B tego dnia (B9-D11).",
+  "mutacja": "Zmiana „5 percent” na „6 percent” w cytacie ACI-500 daje 1 błąd i kod 1.",
+  "przeklad": "tools/i18n/niezmienniki.mjs porownaj(en, pl) na 41 parach: 0 różnic (po przeniesieniu numeru CPG 525.825 z treści do pola miejsce).",
+  "kolizje_id": "docs/tresci/rejestr.json: ACI kończy się na ACI-325; git grep ACI-5[0-9][0-9] na 17 gałęziach origin: 0 trafień.",
+  "istniejace": "Odwołania do istniejących twierdzeń (20 ID) sprawdzone w docs/tresci/rejestr.json: wszystkie istnieją, status potwierdzone."
+ }
+}
