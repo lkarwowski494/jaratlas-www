@@ -53,6 +53,18 @@ export function kontrolaTekstowJezyka(strony, ui) {
   return bledy;
 }
 
+// Nazwy na stronie (decyzje koordynatora 2026-11-02, przegląd D-043 P2-1, P3-3; decyzja Claude, do weta): surowe ID ani kod języka nie trafiają na stronę.
+// Produkt ze stroną w języku L wymaga ui[L].nazwyProduktow[id]; język ze stroną wymaga nazwy w site/jezyki.json (odnośniki na „/”).
+const napis = (t) => typeof t === 'string' && t.trim() !== '';
+export function kontrolaNazw(strony, ui, nazwyJezykow = {}) {
+  const bledy = [];
+  for (const st of strony.filter((s) => s.typ === 'produkt')) {
+    if (!napis(ui?.[st.lang]?.nazwyProduktow?.[st.id])) bledy.push(`${st.lang}: brak nazwy produktu „${st.id}” w nazwyProduktow (site/teksty/${st.lang}.json)`);
+  }
+  for (const st of strony.filter((s) => s.typ === 'jezyk')) if (!napis(nazwyJezykow?.[st.lang])) bledy.push(`${st.lang}: brak nazwy języka w site/jezyki.json`);
+  return bledy;
+}
+
 // R4: adres raz opublikowany nie znika bez 301 (ADR 0002, 0003). adresy = { opublikowane: [sciezka], przekierowania: {stara: nowa} }.
 export function kontrolaPrzekierowan(strony, adresy = {}) {
   const bledy = [], plan = new Set(strony.map((s) => s.sciezka));

@@ -18,9 +18,9 @@ Stan: 2026-11-01. Kod: `site/konfiguracja.mjs` jest jedynym miejscem liczb i lis
 | Plik | Właściciel | Uwagi |
 |---|---|---|
 | `site/slugi/{lang}.json` | 06 (treść), 09 (lokalizacja) | ADR 0002; format sprawdza `sprawdzSlugi` |
-| `site/teksty/{lang}.json` | 04 | teksty interfejsu, w tym `uwagaBezpieczenstwa` (D-027 c); strona języka (2026-11-02): `produkty`, `rodziny` (nagłówki list), `opisStronyJezyka` (meta description); brak = błąd budowania, `[DO USTALENIA]` = błąd R2 |
+| `site/teksty/{lang}.json` | 04 | teksty interfejsu, w tym `uwagaBezpieczenstwa` (D-027 c); strona języka (2026-11-02): `produkty`, `rodziny` (nagłówki list), `opisStronyJezyka` (meta description); brak = błąd budowania, `[DO USTALENIA]` = błąd R2; `nazwyProduktow` (od 2026-11-02 wymagana dla każdego produktu ze stroną, jedyne źródło nazwy produktu na stronie) |
 | `site/tresci/{lang}/{warianty,rodziny}/{id}.json` | 06 | treść kart |
-| `site/jezyki.json` | 09 | nazwy języków na stronie wyboru |
+| `site/jezyki.json` | 09 | nazwy języków na stronie wyboru; od 2026-11-02 brak nazwy języka ze stroną = błąd budowania |
 | `site/adresy.json` | krok wdrożenia | rejestr adresów opublikowanych i przekierowań (R4) |
 
 ## Do ustalenia (nazwa, jednostka, kto decyduje)

@@ -30,8 +30,9 @@ const tresci = () => ({
   pl: { warianty: { 'apple-v01': karta('Mus [PRZYKŁAD]', { obraz: 'https://jaratlas.com/i/mus.jpg' }), 'apple-v02': karta('Sok'), 'beans-v01': karta('Fasola [PRZYKŁAD]', { ostrzezenia: [{ claim: 'SZY-006', tekst: 'Tylko szybkowar.' }] }), 'apple-v03': karta('x'), 'apple-v04': karta('y') }, rodziny: { 'canned-foods': karta('Wekowanie') } },
   en: { warianty: { 'apple-v01': karta('Sauce <script>alert(1)</script>'), 'beans-v01': karta('Beans', { ostrzezenia: [{ claim: 'SZY-006', tekst: 'Pressure only.' }] }) }, rodziny: {} },
 });
-const uiL = { uwagaBezpieczenstwa: '[DO USTALENIA]', zrodla: 'Z', ostrzezenia: 'O', wariant: 'W', status: 'S', statusy: {}, produkty: 'P', rodziny: 'R', opisStronyJezyka: 'D' };
-const dane = (zm = {}) => ({ katalog: katalog(), slugi: slugi(), tresci: tresci(), ui: { pl: uiL, en: uiL }, dozwolZaslepki: true, ...zm }); // dane [PRZYKŁAD]: zaślepki dozwolone tylko tu (R2)
+const uiL = { uwagaBezpieczenstwa: '[DO USTALENIA]', zrodla: 'Z', ostrzezenia: 'O', wariant: 'W', status: 'S', statusy: {}, produkty: 'P', rodziny: 'R', opisStronyJezyka: 'D', nazwyProduktow: { apple: 'Apple', beans: 'Beans' } };
+const nazwyJ = { en: 'English', pl: 'Polski' };
+const dane = (zm = {}) => ({ katalog: katalog(), slugi: slugi(), tresci: tresci(), ui: { pl: uiL, en: uiL }, nazwyJezykow: nazwyJ, dozwolZaslepki: true, ...zm }); // dane [PRZYKŁAD]: zaślepki dozwolone tylko tu (R2)
 const D = DOMENA; // 07-jakosc-007: z konfiguracji, nie literał (JARATLAS_DOMENA dla podglądu)
 
 test('bramka: tylko publikowalne warianty i produkty z ≥1 takim wariantem mają strony', () => {
@@ -65,7 +66,7 @@ test('hreflang: dwukierunkowy, z sobą samym, absolutny, x-default = wersja en; 
 test('hreflang: x-default = wersja en niezależnie od kolejności języków (en w środku)', () => {
   const s = slugi(); s.de = { rodziny: {}, produkty: { apple: 'apfel' }, warianty: { 'apple-v01': 'mus' } };
   const t = tresci(); t.de = { warianty: { 'apple-v01': karta('Apfelmus') }, rodziny: {} };
-  const { bledy, pliki } = generuj(dane({ slugi: s, tresci: t, ui: { pl: uiL, en: uiL, de: uiL } }));
+  const { bledy, pliki } = generuj(dane({ slugi: s, tresci: t, ui: { pl: uiL, en: uiL, de: uiL }, nazwyJezykow: { ...nazwyJ, de: 'Deutsch' } }));
   assert.deepEqual(bledy, []);
   const x = (p) => [...pliki[p].matchAll(/hreflang="x-default" href="([^"]+)"/g)].map((m) => m[1]);
   for (const p of ['pl/jablko/mus/index.html', 'en/apple/sauce/index.html', 'de/apfel/mus/index.html']) assert.deepEqual(x(p), [`${D}/en/apple/sauce/`], p);
@@ -307,7 +308,7 @@ test('ostrzeżenia przed treścią: sekcja ostrzeżeń przed wstępem i przed kr
 
 // 07-jakosc-004 (sondy S4, S5 audytu 07): kontrola zaślepek na gotowych plikach łapie każde źródło tekstu (katalog, nazwy języków, rodziny).
 const czyste = (x) => JSON.parse(JSON.stringify(x).replaceAll('[PRZYKŁAD]', '').replaceAll('[DO USTALENIA]', 'U'));
-const daneCzyste = (zm = {}) => ({ ...czyste({ katalog: katalog(), slugi: slugi(), tresci: tresci(), ui: { pl: uiL, en: uiL } }), dozwolZaslepki: false, ...zm });
+const daneCzyste = (zm = {}) => ({ ...czyste({ katalog: katalog(), slugi: slugi(), tresci: tresci(), ui: { pl: uiL, en: uiL }, nazwyJezykow: nazwyJ }), dozwolZaslepki: false, ...zm });
 test('R2 zaślepki w wygenerowanych plikach: katalog, nazwy języków, rodziny, [ZAŁOŻENIE] i [DO DECYZJI] = błąd (07-jakosc-004)', () => {
   // Kontrola pozytywna: dane bez znaczników dają 0 błędów, więc każdy błąd niżej pochodzi z wstrzykniętego znacznika.
   assert.deepEqual(generuj(daneCzyste()).bledy, []);
@@ -317,8 +318,8 @@ test('R2 zaślepki w wygenerowanych plikach: katalog, nazwy języków, rodziny, 
   };
   const k1 = czyste(katalog()); k1.variants[0].sources[0].miejsce = '[DO USTALENIA]';
   blad({ katalog: k1 }, 'pl/jablko/mus/index.html', '[DO USTALENIA]');
-  const k2 = czyste(katalog()); k2.products[0].name = { pl: '[PRZYKŁAD] Ogórek' };
-  blad({ katalog: k2 }, 'pl/jablko/index.html', '[PRZYKŁAD]');
+  // Nazwa produktu tylko z ui.nazwyProduktow (decyzja koordynatora 2026-11-02, P2-1 A); products[].name z katalogu nie trafia na stronę.
+  blad({ ui: { pl: { ...czyste(uiL), nazwyProduktow: { apple: '[PRZYKŁAD] Ogórek', beans: 'B' } }, en: czyste(uiL) } }, 'pl/jablko/index.html', '[PRZYKŁAD]');
   blad({ nazwyJezykow: { pl: 'Polski [DO USTALENIA]' } }, 'index.html', '[DO USTALENIA]');
   for (const z of ['[ZAŁOŻENIE]', '[DO DECYZJI]']) {
     const t = czyste(tresci()); t.en.warianty['apple-v01'].wstep = `w ${z}`;
@@ -357,13 +358,13 @@ test('strona języka: tylko dla języka z ≥1 stroną encji; h1, uwaga D-027 (c
   assert.match(pl, /<html lang="pl">/);
   // Produkty z ≥1 opublikowanym wariantem; gruszka (tylko ukryty) i nic więcej.
   const linki = (h) => [...h.matchAll(/<li><a href="([^"]+)">([^<]*)<\/a><\/li>/g)].map((m) => `${m[1]} ${m[2]}`);
-  assert.deepEqual(linki(pl), ['/pl/jablko/ apple', '/pl/fasola/ beans', '/pl/procesy/wekowanie/ Wekowanie']);
-  assert.deepEqual(linki(en), ['/en/apple/ apple', '/en/beans/ beans']);
+  assert.deepEqual(linki(pl), ['/pl/jablko/ Apple', '/pl/fasola/ Beans', '/pl/procesy/wekowanie/ Wekowanie']);
+  assert.deepEqual(linki(en), ['/en/apple/ Apple', '/en/beans/ Beans']);
   assert.match(pl, /<h2>P<\/h2>/);
   assert.match(pl, /<h2>R<\/h2>/);
   assert.ok(!/<h2>R<\/h2>/.test(en), 'en nie ma stron rodzin: bez listy rodzin');
   // Nazwa produktu z ui.nazwyProduktow, gdy jest.
-  const { pliki: p2 } = generuj(dane({ ui: { pl: { ...uiL, nazwyProduktow: { apple: 'Jabłko' } }, en: uiL } }));
+  const { pliki: p2 } = generuj(dane({ ui: { pl: { ...uiL, nazwyProduktow: { apple: 'Jabłko', beans: 'Fasola' } }, en: uiL } }));
   assert.ok(p2['pl/index.html'].includes('<li><a href="/pl/jablko/">Jabłko</a></li>'));
 });
 
@@ -413,4 +414,48 @@ test('„/”: bez /en/ w planie zostaje stroną wyboru języka bez refresh, kan
   assert.match(h, new RegExp(`<link rel="canonical" href="${D}/">`));
   assert.match(h, /<a href="\/pl\/" hreflang="pl" lang="pl">/);
   assert.ok(!h.includes('/en/'));
+});
+
+// Decyzje koordynatora 2026-11-02 (P2-1 A, P3-3 A, decyzja Claude do weta): surowe ID nigdy na stronę.
+test('brak ui.nazwyProduktow[id] dla produktu ze stroną = błąd; nazwa z katalogu i ID nie są zastępstwem', () => {
+  const k = katalog(); k.products[0].name = { pl: 'Jabłko z katalogu' };
+  const { bledy } = generuj(dane({ katalog: k, ui: { pl: { ...uiL, nazwyProduktow: { beans: 'Fasola' } }, en: uiL } }));
+  assert.ok(bledy.includes('pl: brak nazwy produktu „apple” w nazwyProduktow (site/teksty/pl.json)'), bledy.join('\n'));
+  for (const zla of [{}, '  ', ['x']]) assert.ok(generuj(dane({ ui: { pl: { ...uiL, nazwyProduktow: { apple: zla, beans: 'B' } }, en: uiL } })).bledy.includes('pl: brak nazwy produktu „apple” w nazwyProduktow (site/teksty/pl.json)'), JSON.stringify(zla));
+  // Produkt bez strony w języku (gruszka) nie wymaga nazwy.
+  assert.deepEqual(generuj(dane()).bledy, []);
+});
+
+test('brak nazwy języka w site/jezyki.json dla języka ze stroną = błąd (tekst odnośnika na „/” to nie kod)', () => {
+  const b = generuj(dane({ nazwyJezykow: { pl: 'Polski' } })).bledy;
+  assert.ok(b.includes('en: brak nazwy języka w site/jezyki.json'), b.join('\n'));
+  assert.ok(generuj(dane({ nazwyJezykow: { pl: 'Polski', en: ' ' } })).bledy.includes('en: brak nazwy języka w site/jezyki.json'));
+});
+
+// P3-2 a–c przeglądu D-043: przypadki brzegowe stron języka.
+test('strona języka: język tylko z rodziną; en jako jedyny język; kody pt-BR i zh-Hant (katalogi małymi literami, hreflang z kodem)', () => {
+  // (a) tylko rodzina: /de/ z listą rodzin, bez listy produktów; „/” bez refresh (brak /en/).
+  const k = katalog();
+  const sA = { de: { rodziny: { _prefiks: 'prozesse', 'canned-foods': 'einkochen' }, produkty: {}, warianty: {} } };
+  const tA = { de: { warianty: {}, rodziny: { 'canned-foods': karta('Einkochen') } } };
+  const a = generuj(dane({ katalog: k, slugi: sA, tresci: tA, ui: { de: uiL }, nazwyJezykow: { de: 'Deutsch' } }));
+  assert.deepEqual(a.bledy, []);
+  assert.match(a.pliki['de/index.html'], /<li><a href="\/de\/prozesse\/einkochen\/">Einkochen<\/a><\/li>/);
+  assert.ok(!a.pliki['de/index.html'].includes('<h2>P</h2>'));
+  assert.ok(!/http-equiv="refresh"/i.test(a.pliki['index.html']));
+  // (b) tylko en: „/” → /en/, /en/ ma x-default na siebie.
+  const s = slugi(); delete s.pl;
+  const b = generuj(dane({ slugi: s }));
+  assert.deepEqual(b.bledy, []);
+  assert.match(b.pliki['index.html'], /content="0; url=\/en\/"/);
+  assert.match(b.pliki['en/index.html'], new RegExp(`hreflang="x-default" href="${D}/en/"`));
+  // (c) pt-BR i zh-Hant.
+  const sC = { 'pt-BR': { rodziny: {}, produkty: { apple: 'maca' }, warianty: { 'apple-v01': 'pure' } }, 'zh-Hant': { rodziny: {}, produkty: { apple: '蘋果' }, warianty: { 'apple-v01': '果泥' } } };
+  const tC = { 'pt-BR': { warianty: { 'apple-v01': karta('Purê') }, rodziny: {} }, 'zh-Hant': { warianty: { 'apple-v01': karta('果泥') }, rodziny: {} } };
+  const c = generuj(dane({ slugi: sC, tresci: tC, ui: { 'pt-BR': uiL, 'zh-Hant': uiL }, nazwyJezykow: { 'pt-BR': 'Português (Brasil)', 'zh-Hant': '繁體中文' } }));
+  assert.deepEqual(c.bledy, []);
+  assert.ok(c.pliki['pt-br/index.html'] && c.pliki['zh-hant/index.html']);
+  assert.match(c.pliki['pt-br/index.html'], new RegExp(`hreflang="zh-Hant" href="${D}/zh-hant/"`));
+  assert.match(c.pliki['zh-hant/index.html'], /<a href="\/zh-hant\/%E8%98%8B%E6%9E%9C\/">Apple<\/a>/);
+  assert.match(c.pliki['index.html'], /<a href="\/pt-br\/" hreflang="pt-BR" lang="pt-BR">Português \(Brasil\)<\/a>/);
 });
