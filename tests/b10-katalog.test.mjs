@@ -7,6 +7,8 @@ import { readFileSync } from 'node:fs';
 const cat = JSON.parse(readFileSync('catalog/catalog-seed.json', 'utf8'));
 const rej = JSON.parse(readFileSync('docs/tresci/rejestr.json', 'utf8'));
 const V = new Map(cat.variants.map((v) => [v.id, v]));
+// B25 (2026-11-02-jaratlas-b25-katalog): warianty zmienione w porcji B25 (notatka [B25]) sprawdza tests/b25-katalog.test.mjs.
+const B25 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith('[B25]'))).map((v) => v.id));
 const R = new Map(rej.map((t) => [t.id, t]));
 
 const OK = ['cucumber-v10', 'cucumber-v12', 'green-cherry-tomato-v03', // C8
@@ -121,7 +123,7 @@ test('B10: proste zmiany nazw przy ok-zrodlo (nazwa = przepis)', () => {
 });
 
 test('B10: pozostałe warianty zostają do-researchu (zmiana nie jest prosta albo brak źródła)', () => {
-  for (const id of ZOSTAJA) if (!B18.has(id)) assert.equal(V.get(id).safetyStatus, 'do-researchu', id);
+  for (const id of ZOSTAJA) if (!B18.has(id) && !B25.has(id)) assert.equal(V.get(id).safetyStatus, 'do-researchu', id);
 });
 
 test('B10: rejestr ma ACI-400–496, ACI-500–525, SLO-460–473, NAP-063 bez kluczy tymczasowych', () => {

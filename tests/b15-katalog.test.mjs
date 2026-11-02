@@ -11,6 +11,8 @@ import { validateCatalog } from '../tools/validate-catalog.mjs';
 const cat = JSON.parse(readFileSync('catalog/catalog-seed.json', 'utf8'));
 const rej = JSON.parse(readFileSync('docs/tresci/rejestr.json', 'utf8'));
 const V = new Map(cat.variants.map((v) => [v.id, v]));
+// B25 (2026-11-02-jaratlas-b25-katalog): warianty zmienione w porcji B25 (notatka [B25]) sprawdza tests/b25-katalog.test.mjs.
+const B25 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith('[B25]'))).map((v) => v.id));
 const R = new Map(rej.map((t) => [t.id, t]));
 const DEC = '2026-11-02-jaratlas-b15-katalog';
 const nota = (id) => V.get(id).notes.find((n) => n.startsWith('[B15]') && n.includes(DEC));
@@ -102,7 +104,7 @@ test('B15: poza polami z listy warianty B15 bez cichych zmian (skrót stanu sprz
   assert.deepEqual(Object.keys(SNAP).sort(), Object.keys(POLA).sort());
   for (const [id, keys] of Object.entries(POLA)) {
     const v = V.get(id);
-    if (!B17.has(id)) assert.equal(h(bez(v, keys)), SNAP[id], `${id}: pola poza ${keys.join(', ')} bez zmian`);
+    if (!B17.has(id) && !B25.has(id)) assert.equal(h(bez(v, keys)), SNAP[id], `${id}: pola poza ${keys.join(', ')} bez zmian`);
     assert.equal(v.publication, 'ukryta', id);
     if (NOTA.includes(id)) assert.ok(nota(id), `${id}: notatka [B15]`);
   }

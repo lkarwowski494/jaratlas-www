@@ -33030,7 +33030,7 @@
  },
  {
   "id": "ACI-428",
-  "twierdzenie": "NCHFP Tomatillo Green Salsa: wszystkie składniki łączy się w garnku, doprowadza do wrzenia i gotuje 20 minut; nakładać gorącą do słoików pint z 1/2 cala wolnej przestrzeni (hot pack); tomatillo nie są pieczone — opcjonalne opalanie skórki (np. w piekarniku, 400°F) dotyczy tylko długich chili.",
+  "twierdzenie": "NCHFP Tomatillo Green Salsa: wszystkie składniki łączy się w garnku, doprowadza do wrzenia i gotuje 20 minut; nakładać gorącą do słoików pint z 1/2 cala wolnej przestrzeni (hot pack); przepis nie przewiduje pieczenia tomatillo (usunąć suche łuski, dokładnie umyć; nie trzeba obierać ani usuwać nasion); opalanie skórki (np. w piekarniku, 400°F) opisane tylko dla długich chili.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-salsa/tomatillo-green-salsa/",
@@ -33040,17 +33040,26 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "89e543c35e57"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/tomatillo-green-salsa/",
+    "miejsce": "NCHFP: Tomatillo Green Salsa; Procedure (tomatillo)",
+    "cytat": "Remove the dry outer husks from tomatillos; wash thoroughly. They do not need to be peeled or seeded.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (B25)"
    }
   ],
   "status": "robocze",
-  "uproszczenie": "„Tomatillo nie są pieczone” = wniosek z treści przepisu (pieczenie opisane tylko dla chili).",
+  "uproszczenie": "„Przepis nie przewiduje pieczenia tomatillo” = wniosek z treści przepisu (tomatillo: łuski, mycie; pieczenie opisane tylko dla chili).",
   "krytyczne": true,
   "przeglad": null,
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "C8 E1-kapiel-zrodla-p1-2026-11-02",
   "jednoZrodlo": false,
-  "twierdzenie_en": "NCHFP Tomatillo Green Salsa: all ingredients are combined in a saucepan, brought to a boil and simmered for 20 minutes; ladle hot into pint jars, leaving 1/2-inch headspace (hot pack); the tomatillos are not roasted — optional blistering of the skins (e.g. in a 400°F oven) applies only to the long green chiles."
+  "twierdzenie_en": "NCHFP Tomatillo Green Salsa: all ingredients are combined in a pot, brought to a boil and boiled 20 minutes; pack hot into pint jars with 1/2 inch headspace (hot pack); the recipe does not call for roasting the tomatillos (remove the dry husks, wash thoroughly; no need to peel or seed); roasting the skins (e.g. in an oven, 400°F) is described only for long chilies.",
+  "uwaga": "B25: brzmienie z B22 JSON (tomatillo-v06), status do potwierdzenia przeglądem D-027 d."
  },
  {
   "id": "ACI-429",
@@ -56999,6 +57008,2620 @@
   "jednoZrodlo": false,
   "uproszczenie": null,
   "twierdzenie_en": "According to ATS Milano, in some genera of mushrooms the stems must be discarded, for example in honey fungus (Armillaria mellea).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-880",
+  "twierdzenie": "Wisconsin B2267 Vegetable mix hot pickles (warzywa mieszane na ostro), na 5–6 słoików pint: 4 szklanki różyczek kalafiora (1 średnia główka), 1 czerwona papryka słodka w paskach, 1 1/2 szklanki selera naciowego w kawałkach 1-calowych (ok. 2,5 cm), 2 szklanki marchwi w plastrach, 2 średnie cebule w ćwiartkach albo 1 szklanka małych cebulek w całości, 5–6 suszonych czerwonych papryczek chili; solanka: 1 kwarta wody i 1/4 szklanki soli do konserw i pikli; zalewa: 5 szklanek białego octu (5% kwasu octowego), 1 szklanka wody, 1/2 szklanki cukru, 1 ząbek czosnku zgnieciony.",
+  "zrodla": [
+   {
+    "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+    "miejsce": "B2267 s. 39, Vegetable mix hot pickles, składniki",
+    "cytat": "Pickling solution: 5 cups white vinegar (5% acetic acid) 1 cup water 1⁄ 2 cup sugar",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "UW-Madison/UW-Extension B2267 Homemade Pickles & Relishes (B. H. Ingham, R-05-2008), extension; kopia pdftotext bez -layout (układ dwukolumnowy).",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "71121b540e76"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Lista składników przepisana z kolumny PDF; ilości jak w źródle, przeliczenia metryczne przybliżone.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Wisconsin B2267 Vegetable mix hot pickles (mixed vegetables, spicy), for 5–6 pint jars: 4 cups cauliflower florets (1 medium head), 1 sweet red pepper cut into strips, 1 1/2 cups celery in 1-inch pieces (about 2.5 cm), 2 cups sliced carrots, 2 medium onions quartered or 1 cup small whole onions, 5–6 dried red chili peppers; brine: 1 quart water and 1/4 cup canning or pickling salt; pickling solution: 5 cups white vinegar (5% acetic acid), 1 cup water, 1/2 cup sugar, 1 clove garlic, crushed.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-881",
+  "twierdzenie": "Wisconsin B2267 Vegetable mix hot pickles, przygotowanie: warzywa moczyć 1 godzinę w solance (1 kwarta wody + 1/4 szklanki soli); zalewę (ocet, woda, cukier, zgnieciony czosnek) gotować na małym ogniu 15 minut; odsączone warzywa ułożyć w czystych, gorących słoikach pint, do każdego 1 suszona ostra papryczka, zalać wrzącą zalewą, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+    "miejsce": "B2267 s. 39, Vegetable mix hot pickles, kroki 1–3",
+    "cytat": "2. Prepare pickling solution by combining vinegar, water, sugar and crushed garlic clove. Simmer for 15 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "UW-Madison/UW-Extension B2267 Homemade Pickles & Relishes (B. H. Ingham, R-05-2008), extension; kopia pdftotext bez -layout (układ dwukolumnowy).",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "71121b540e76"
+   },
+   {
+    "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+    "miejsce": "B2267 s. 39, Vegetable mix hot pickles, krok 3",
+    "cytat": "Pour boiling hot pickling solution over vegetables in the jars, leaving 1⁄2-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "UW-Madison/UW-Extension B2267 Homemade Pickles & Relishes (B. H. Ingham, R-05-2008), extension; kopia pdftotext bez -layout (układ dwukolumnowy).",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "71121b540e76"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Warzywa nie są gotowane (tylko zalane wrzącą zalewą); słoiki tylko pint.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Wisconsin B2267 Vegetable mix hot pickles, preparation: soak the vegetables for 1 hour in brine (1 quart water + 1/4 cup salt); simmer the pickling solution (vinegar, water, sugar, crushed garlic) for 15 minutes; pack the drained vegetables into clean, hot pint jars, 1 dried hot pepper in each, cover with boiling pickling solution, leaving 1/2 inch (about 1.3 cm) headspace.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-882",
+  "twierdzenie": "Wisconsin B2267 Vegetable mix hot pickles: kąpiel wodna 10 minut dla słoików pint (czasu dla quart brak); ogólna zasada B2267: dodać 5 minut dla wysokości w Wisconsin powyżej 1000 stóp (ok. 305 m). B2267 nie podaje czasów dla wyższych terenów niż te w Wisconsin.",
+  "zrodla": [
+   {
+    "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+    "miejsce": "B2267 s. 39, Vegetable mix hot pickles, krok 5",
+    "cytat": "5. Process in a boiling water canner: 10 minutes for pints.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "UW-Madison/UW-Extension B2267 Homemade Pickles & Relishes (B. H. Ingham, R-05-2008), extension; kopia pdftotext bez -layout (układ dwukolumnowy).",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "71121b540e76"
+   },
+   {
+    "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+    "miejsce": "B2267 s. 12, Processing in a boiling water canner, krok 6",
+    "cytat": "Add 5 minutes processing time for Wisconsin elevations above 1,000 feet.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "UW-Madison/UW-Extension B2267 Homemade Pickles & Relishes (B. H. Ingham, R-05-2008), extension; kopia pdftotext bez -layout (układ dwukolumnowy).",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "71121b540e76"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Korekta wysokości dotyczy terenów Wisconsin; dla wyższych wysokości źródło nie daje czasu (karta: brak danych).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Wisconsin B2267 Vegetable mix hot pickles: boiling water bath 10 minutes for pint jars (no time given for quarts); general B2267 rule: add 5 minutes for Wisconsin elevations above 1000 feet (about 305 m). B2267 does not give times for elevations higher than those in Wisconsin.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-883",
+  "twierdzenie": "Wisconsin B2267 Fall garden relish (Chowchow): po 2 szklanki (razem 16) kapusty, marchwi, ogórków, fasolki szparagowej, zielonych pomidorów, fasoli limeńskiej, cebuli i papryki słodkiej, w zalewie z białego octu 5% z cukrem, gorczycą, selerem i kurkumą; słoiki pint, 1/2 cala wolnej przestrzeni, kąpiel wodna 10 minut dla pint.",
+  "zrodla": [
+   {
+    "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+    "miejsce": "B2267 s. 46, Fall garden relish (Chowchow), składniki",
+    "cytat": "2 cups of each of the following (16 cups total):",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "UW-Madison/UW-Extension B2267 Homemade Pickles & Relishes (B. H. Ingham, R-05-2008), extension; kopia pdftotext bez -layout (układ dwukolumnowy).",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "71121b540e76"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Relish (posiekane warzywa, 8 rodzajów); podany tylko jako najbliższy przepis do pytań, nie jako karta.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Wisconsin B2267 Fall garden relish (Chowchow): 2 cups each (16 cups total) of cabbage, carrots, cucumbers, green beans, green tomatoes, lima beans, onions and sweet peppers, in a pickling solution of 5% white vinegar with sugar, mustard seed, celery seed and turmeric; pint jars, 1/2 inch headspace, boiling water bath 10 minutes for pints.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-884",
+  "twierdzenie": "Wisconsin B2267: trochę miodu można użyć w słodko-kwaśnym syropie do pikli owocowych, ale zamieniać oszczędnie (za dużo miodu maskuje smak owoców); źródło nie wspomina o miodzie w piklach warzywnych (brak dopuszczenia), a ograniczenie ilości uzasadnia smakiem, nie bezpieczeństwem.",
+  "zrodla": [
+   {
+    "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+    "miejsce": "B2267 s. 8, Sugar",
+    "cytat": "Some honey could be used in making the sweet-sour syrup for fruit pickles. But substitute sparingly — too much honey can mask fruit flavor.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "UW-Madison/UW-Extension B2267 Homemade Pickles & Relishes (B. H. Ingham, R-05-2008), extension; kopia pdftotext bez -layout (układ dwukolumnowy).",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "71121b540e76"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Dotyczy tylko pikli owocowych; dla ogórków/warzyw brak dopuszczenia.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Wisconsin B2267: some honey can be used in the sweet-sour syrup for fruit pickles, but substitute sparingly (too much honey masks the fruit flavor); the source does not mention honey in vegetable pickles (no approval), and it justifies the limit on the amount by flavor, not safety.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-890",
+  "twierdzenie": "Wisconsin B2267 Rummage relish, wariant Curry relish: dodać 2 szklanki rodzynek i 1 1/2 łyżeczki curry w proszku razem z warzywami do zalewy (przetestowany wariant z curry, ale tylko dla tego relishu).",
+  "zrodla": [
+   {
+    "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+    "miejsce": "B2267 s. 51, Rummage relish, Variation",
+    "cytat": "Variation: For Curry relish, add 2 cups raisins and 11⁄2 teaspoons curry powder when vegetables are added to pickling solution.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "UW-Madison/UW-Extension B2267 Homemade Pickles & Relishes (B. H. Ingham, R-05-2008), extension; kopia pdftotext bez -layout (układ dwukolumnowy).",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "71121b540e76"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Nie przenosi się na inne przepisy (ACI-016); tylko informacja dla weta przy B20-D1.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Wisconsin B2267 Rummage relish, Curry relish variation: add 2 cups raisins and 1 1/2 teaspoons curry powder when the vegetables are added to the pickling solution (a tested curry variation, but only for this relish).",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-891",
+  "twierdzenie": "NCHFP Pickled Carrots, przygotowanie: marchew obrać, umyć i pokroić w krążki ok. 1/2 cala (ok. 1,3 cm); zalewę (ocet, woda, cukier, sól) gotować 3 minuty, dodać marchew, ponownie zagotować, potem na małym ogniu podgrzewać do połowy ugotowania (ok. 10 minut); do każdego gorącego słoika pint 2 łyżeczki gorczycy i 1 łyżeczka nasion selera; marchew z 1 calem (ok. 2,5 cm) wolnej przestrzeni, zalewa z 1/2 cala (ok. 1,3 cm).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-carrots/",
+    "miejsce": "NCHFP Pickled Carrots, Procedure",
+    "cytat": "Fill hot jars with the hot carrots, leaving 1-inch headspace. Cover with hot pickling liquid, leaving ½-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "960155439659"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-carrots/",
+    "miejsce": "NCHFP Pickled Carrots, Procedure",
+    "cytat": "cut into rounds that are approximately ½-inch thick.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "960155439659"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Kopia: tekst strony HTML (tagi usunięte); czas kąpieli: ACI-418 (pint, hot: 15/20/25 min).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Pickled Carrots, preparation: peel and wash the carrots and cut into rounds about 1/2 inch (about 1.3 cm) thick; boil the pickling liquid (vinegar, water, sugar, salt) for 3 minutes, add the carrots, bring to a boil again, then heat gently until half cooked (about 10 minutes); in each hot pint jar put 2 teaspoons mustard seed and 1 teaspoon celery seed; carrots with 1 inch (about 2.5 cm) headspace, pickling liquid with 1/2 inch (about 1.3 cm).",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-921",
+  "twierdzenie": "USDA Complete Guide, Guide 2 (s. 2-24), Peach Salsa: według procedury Mango Salsa, z twardymi, niedojrzałymi, ale żółtymi brzoskwiniami w kostce zamiast mango; skład Mango Salsa: 6 szklanek mango w kostce (w Peach Salsa brzoskwinie w miejsce mango, ta sama ilość — wniosek z polecenia USDA „in place of the mango”), 1 1/2 szklanki czerwonej papryki słodkiej w kostce, 1/2 szklanki drobno posiekanej żółtej cebuli, 1/2 łyżeczki płatków chili (crushed red pepper flakes), 2 łyżeczki drobno posiekanego czosnku, 2 łyżeczki drobno posiekanego imbiru, 1 szklanka jasnego brązowego cukru, 1 1/4 szklanki octu jabłkowego 5%, 1/2 szklanki wody; wydajność ok. 6 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE02_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 2, s. 2-24, Peach Salsa (pod Mango Salsa)",
+    "cytat": "Procedure: Follow directions for Mango Salsa using diced hard, underripe but yellow peaches in",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "1ce0566e6c4d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/mango-salsa/",
+    "miejsce": "NCHFP Mango Salsa, lista składników",
+    "cytat": "1¼ cups cider vinegar (5%)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4f8aa938f9f4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ilość 6 szklanek odnosi się w źródle do mango; Guide 2 każe użyć brzoskwiń zamiast mango (wniosek: ta sama objętość brzoskwiń w kostce). Zdanie w PDF łamie się z ramką sąsiedniej tabeli (\"in place of the mango\"). Tylko brzoskwinie o żółtym miąższu (ACI-073). Żadnych dodatków (jalapeño, limonka, kolendra) ani zmian ilości octu, papryki i cebuli (ACI-040, ACI-041). Ilość brzoskwiń (6 szklanek) to wniosek z zamiany 1:1 mango → brzoskwinie; źródło nie podaje jej osobno.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "USDA Complete Guide, Guide 2 (p. 2-24), Peach Salsa: follow the Mango Salsa procedure, using diced hard, underripe but yellow peaches instead of mango; Mango Salsa ingredients: 6 cups diced mango (in Peach Salsa peaches in place of the mango, the same amount — an inference from the USDA instruction \"in place of the mango\"), 1 1/2 cups diced sweet red pepper, 1/2 cup finely chopped yellow onion, 1/2 teaspoon crushed red pepper flakes, 2 teaspoons finely chopped garlic, 2 teaspoons finely chopped ginger, 1 cup light brown sugar, 1 1/4 cups cider vinegar (5%), 1/2 cup water; yield about 6 half-pint jars.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-922",
+  "twierdzenie": "USDA Guide 2 / NCHFP Mango Salsa (procedura dla Peach Salsa): owoc obrać i pokroić w kostkę 1/2 cala (ok. 1,3 cm), paprykę w kostkę 1/2 cala, cebulę drobno posiekać; wszystkie składniki połączyć w garnku 8 qt, zagotować na dużym ogniu, mieszając do rozpuszczenia cukru, i gotować na małym ogniu 5 minut; stałe składniki na gorąco do gorących słoików 1/2 pinty z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, zalać gorącym płynem z 1/2 cala wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE02_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 2, s. 2-24, Mango Salsa, Procedure",
+    "cytat": "Fill hot solids into hot half-pint jars, leaving 1/2-inch headspace. Cover with hot liquid, leaving 1/2-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "1ce0566e6c4d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/mango-salsa/",
+    "miejsce": "NCHFP Mango Salsa, Procedure kroki 3–4",
+    "cytat": "Combine all ingredients in an 8-quart Dutch oven or stockpot. Bring to a boil over high heat, stirring to dissolve sugar. Reduce to simmering, and simmer 5 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4f8aa938f9f4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Procedura przeniesiona z Mango Salsa na brzoskwinie przez samo USDA (Guide 2), nie przez JarAtlas.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "USDA Guide 2 / NCHFP Mango Salsa (procedure for Peach Salsa): peel the fruit and cut into 1/2-inch (about 1.3 cm) dice, dice the pepper 1/2 inch, finely chop the onion; combine all ingredients in an 8 qt pot, bring to a boil over high heat, stirring to dissolve the sugar, and simmer 5 minutes; hot solids into hot half-pint jars with 1/2 inch (about 1.3 cm) headspace, cover with hot liquid, leaving 1/2 inch headspace.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-923",
+  "twierdzenie": "USDA Guide 2 / NCHFP Mango Salsa (dotyczy też Peach Salsa), kąpiel wodna, hot pack, tylko słoiki 1/2 pinty: 10 minut (0–1000 stóp, 0–305 m), 15 minut (1001–6000 stóp, 305–1829 m), 20 minut (powyżej 6000 stóp, powyżej 1829 m).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-salsa/mango-salsa/",
+    "miejsce": "NCHFP Mango Salsa, Table 1",
+    "cytat": "Above 6,000 ft Hot Half-pints 10 min 15 20",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4f8aa938f9f4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE02_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 2, s. 2-24, tabela Mango Salsa (cytat: wydajność w słoikach)",
+    "cytat": "Yield: About 6 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "1ce0566e6c4d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Cytat tabeli po normalizacji spacji (tabela rozbita na wiersze). Brak czasu dla słoików pint: tylko 1/2 pinty. Na s. 2-24 obok Peach Salsa stoi ramka z tabelą Peach-Apple Salsa (pint 15/20/25) — należy do innego przepisu i nie dotyczy Peach Salsa.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "USDA Guide 2 / NCHFP Mango Salsa (also applies to Peach Salsa), boiling water bath, hot pack, half-pint jars only: 10 minutes (0–1000 feet, 0–305 m), 15 minutes (1001–6000 feet, 305–1829 m), 20 minutes (above 6000 feet, above 1829 m).",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-924",
+  "twierdzenie": "Wisconsin B2267: używać octu handlowego standaryzowanego na 5% kwasu octowego i takiego rodzaju, jaki podaje przepis (biały albo jabłkowy); gdy przepis nie podaje rodzaju, można użyć wymienionych octów handlowych 5%; ocet 4% nie jest dopuszczony do przetworów domowych; nie używać octu domowego ani rozcieńczonego, chyba że przepis tak podaje.",
+  "zrodla": [
+   {
+    "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+    "miejsce": "B2267 Homemade Pickles & Relishes, s. 5, Vinegar",
+    "cytat": "Use the type of vinegar the recipe calls for, either white vinegar or cider vinegar.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "71121b540e76"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło wymienia jako octy do pikli tylko biały, jabłkowy i aromatyzowany jabłkowo destylowany; octów balsamicznego, winnego ani słodowego nie wymienia (por. ACI-509, ACI-702).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Wisconsin B2267: use commercial vinegar standardized to 5% acetic acid and of the type the recipe gives (white or cider); when the recipe does not give a type, the commercial 5% vinegars listed may be used; 4% vinegar is not approved for home canning; do not use homemade or diluted vinegar unless the recipe says so.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-800",
+  "twierdzenie": "UC MFP „Apple Scrap Jelly” (galaretka z obierek i gniazd nasiennych jabłek): 4 1/2 szklanki soku z obierek i gniazd, 5 szklanek cukru, 1 opakowanie pektyny w proszku; wychodzi ok. 6 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+    "miejsce": "s. 1, Apple Scrap Jelly, składniki",
+    "cytat": "4-1/2 cups apple juice prepared from apple peels and cores",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "c5b9fa2c9a24"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+    "miejsce": "s. 1, składniki",
+    "cytat": "5 cups sugar 1 box powdered pectin",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "c5b9fa2c9a24"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "UC MFP \"Apple Scrap Jelly\" (jelly from apple peels and cores): 4 1/2 cups juice from peels and cores, 5 cups sugar, 1 box powdered pectin; yields about 6 half-pint jars.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-801",
+  "twierdzenie": "UC MFP „Apple Scrap Jelly”, sok: obierki i gniazda zalać najwyżej 1 szklanką zimnej wody na funt (ok. 450 g), zagotować, dusić 15 min (nie dłużej — nadmierne gotowanie niszczy pektynę), odsączyć przez wilgotny worek do galaretek; klarowna galaretka z soku bez wyciskania.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+    "miejsce": "s. 1, To make juice",
+    "cytat": "Add up to 1 cup of cold water per pound of fruit.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "c5b9fa2c9a24"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+    "miejsce": "s. 1, To make juice",
+    "cytat": "Reduce heat, simmer for 15 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "c5b9fa2c9a24"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+    "miejsce": "s. 1, To make juice",
+    "cytat": "Clear jelly comes from juice dripped through a jelly bag without pressing or squeezing.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "c5b9fa2c9a24"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "UC MFP \"Apple Scrap Jelly\", juice: cover the peels and cores with up to 1 cup of cold water per pound (about 450 g), bring to a boil, simmer 15 min (no longer — overcooking destroys pectin), drain through a damp jelly bag; clear jelly comes from juice dripped without pressing.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-802",
+  "twierdzenie": "UC MFP „Apple Scrap Jelly”, gotowanie i napełnianie: słoiki sterylizować 10 min we wrzątku (+1 min na każde 1000 stóp); sok z pektyną do pełnego wrzenia, dodać cukier, ponownie wrzenie i gotować intensywnie 1 min; gorącą galaretkę do gorących sterylnych słoików, 1/4 cala (ok. 0,6 cm) wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+    "miejsce": "s. 1, krok 1",
+    "cytat": "Sterilize canning jars by boiling for 10 minutes at altitudes of less than 1,000 feet.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "c5b9fa2c9a24"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+    "miejsce": "s. 1, krok 3",
+    "cytat": "Return to a boil over high heat; boil hard 1 minute, stirring constantly.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "c5b9fa2c9a24"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+    "miejsce": "s. 1, krok 4",
+    "cytat": "Ladle hot jelly into hot, sterile jars, leaving 1/4-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "c5b9fa2c9a24"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "UC MFP \"Apple Scrap Jelly\", cooking and filling: sterilize jars by boiling 10 min (+1 min for each 1000 feet); bring the juice with pectin to a full boil, add the sugar, return to a boil and boil hard 1 min; hot jelly into hot sterile jars, 1/4 inch (about 0.6 cm) headspace.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-803",
+  "twierdzenie": "UC MFP „Apple Scrap Jelly”, proces: 5 min we wrzącej kąpieli wodnej (lub atmosferycznym parowarze), +1 min na każde 1000 stóp n.p.m.; przy słoikach niesterylizowanych 10 min.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+    "miejsce": "s. 1, krok 5",
+    "cytat": "Process 5 minutes in boiling-water or atmospheric steam canner, adding 1 additional minute per 1,000 feet above sea level.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "c5b9fa2c9a24"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+    "miejsce": "s. 1, Note",
+    "cytat": "If unsterile jars are used, the filled jars should be processed 10 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "c5b9fa2c9a24"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "UC MFP \"Apple Scrap Jelly\", processing: 5 min in a boiling water canner (or atmospheric steam canner), +1 min for each 1000 feet above sea level; with unsterile jars 10 min.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-804",
+  "twierdzenie": "Arkusz UC MFP „Apple Scrap Jelly” (File 1-0002) jest adaptacją przepisu ze strony Ball (freshpreserving.com) i NCHFP z 2019 r.; nie opisuje własnego testu.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+    "miejsce": "s. 1, Source",
+    "cytat": "Adapted from freshpreserving.com and the National Center for Home Food Preservation, 2019",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "c5b9fa2c9a24"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "The UC MFP \"Apple Scrap Jelly\" sheet (File 1-0002) is an adaptation of a recipe from the Ball website (freshpreserving.com) and NCHFP, 2019; it does not describe its own test.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-805",
+  "twierdzenie": "UCCE MFP El Dorado „Apple Scrap Jelly” (adaptacja Sure-Jell, Kraft): 4 szklanki soku z obierek i gniazd, 1 opakowanie pektyny w proszku, 5 szklanek cukru (opcjonalnie 1/4–1/2 łyżeczki masła); 1/4 cala wolnej przestrzeni; słoiki 1/2 pinty w kąpieli wodnej: 10 min (0–1000 stóp), 15 min (1001–6000), 20 min (powyżej 6000); źródło nie wspomina o sterylizacji słoików (czas procesu co najmniej 10 min).",
+  "zrodla": [
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2023-09/388399.pdf",
+    "miejsce": "s. 1, składniki",
+    "cytat": "4 cups apple juice extracted from peels and cores",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UCCE Master Food Preservers of El Dorado County (UC ANR), aktualizacja 15.09.2023; przepis adaptowany z Sure-Jell (Kraft)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "3bd199bc2891"
+   },
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2023-09/388399.pdf",
+    "miejsce": "s. 1, proces",
+    "cytat": "0-1000ft. = 10 minutes, 1001-6000 ft. = 15 minutes, above 6000 ft. = 20 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UCCE Master Food Preservers of El Dorado County (UC ANR), aktualizacja 15.09.2023; przepis adaptowany z Sure-Jell (Kraft)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "3bd199bc2891"
+   },
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2023-09/388399.pdf",
+    "miejsce": "s. 1, Source",
+    "cytat": "Adapted from Kraft’s Sure-Jell Pectin",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UCCE Master Food Preservers of El Dorado County (UC ANR), aktualizacja 15.09.2023; przepis adaptowany z Sure-Jell (Kraft)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "3bd199bc2891"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "UCCE MFP El Dorado \"Apple Scrap Jelly\" (adaptation of Sure-Jell, Kraft): 4 cups juice from peels and cores, 1 box powdered pectin, 5 cups sugar (optionally 1/4–1/2 teaspoon butter); 1/4 inch headspace; half-pint jars in a boiling water bath: 10 min (0–1000 feet), 15 min (1001–6000), 20 min (above 6000); the source does not mention sterilizing the jars (processing time at least 10 min).",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-806",
+  "twierdzenie": "UC ANR „Reduced-Sugar Strawberry Jam (Sure Jell Less Sugar)”: 6 szklanek rozgniecionych truskawek (ok. 12 szklanek świeżych), 4 szklanki cukru, 1 opakowanie pektyny w proszku dla mniejszej ilości cukru (Less sugar); ok. 8 słoików 8 uncji (ok. 237 ml).",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+    "miejsce": "s. 1, tytuł",
+    "cytat": "Reduced-Sugar Strawberry Jam (Sure Jell® Less Sugar)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "dfb4adc630ef"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+    "miejsce": "s. 1, składniki",
+    "cytat": "Crushed strawberries 6 cups",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "dfb4adc630ef"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+    "miejsce": "s. 1, składniki",
+    "cytat": "Granulated sugar 4 cups Less sugar powdered pectin 1 package",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "dfb4adc630ef"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "UC ANR \"Reduced-Sugar Strawberry Jam (Sure Jell Less Sugar)\": 6 cups crushed strawberries (about 12 cups fresh), 4 cups sugar, 1 package less sugar powdered pectin (Less sugar); about 8 jars of 8 ounces (about 237 ml).",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-807",
+  "twierdzenie": "UC ANR „Reduced-Sugar Strawberry Jam”: 1/4 szklanki cukru z odmierzonej ilości wymieszać z pektyną Less sugar i wmieszać w owoce; doprowadzić do pełnego wrzenia, dodać resztę cukru, ponownie pełne wrzenie dokładnie 1 min; nalewać do 1/4 cala (ok. 0,6 cm) od brzegu.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+    "miejsce": "s. 1, krok 7",
+    "cytat": "Combine ¼ cup sugar from measured amount and 1 package less sugar needed pectin",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "dfb4adc630ef"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+    "miejsce": "s. 1, krok 9",
+    "cytat": "Return to a full rolling boil and boil exactly 1 minute, stirring constantly.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "dfb4adc630ef"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+    "miejsce": "s. 1, krok 10",
+    "cytat": "Ladle immediately into prepared jars, filling to within ¼ inch of tops.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "dfb4adc630ef"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "UC ANR \"Reduced-Sugar Strawberry Jam\": mix 1/4 cup of sugar from the measured amount with the Less sugar pectin and stir into the fruit; bring to a full rolling boil, add the remaining sugar, return to a full rolling boil exactly 1 min; ladle to within 1/4 inch (about 0.6 cm) of the tops.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-808",
+  "twierdzenie": "UC ANR „Reduced-Sugar Strawberry Jam”, tabela 1 (hot, słoiki 1/2 pinty lub pinty, kąpiel wodna lub parowar): 10 min (0–1000 stóp), 15 min (1001–6000), 20 min (powyżej 6000).",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+    "miejsce": "s. 1, krok 11",
+    "cytat": "Process for 10 minutes in a water bath or steam canner.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "dfb4adc630ef"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+    "miejsce": "s. 1, Table 1",
+    "cytat": "Hot 10 min 15 20",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "dfb4adc630ef"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "UC ANR \"Reduced-Sugar Strawberry Jam\", table 1 (hot, half-pint or pint jars, water bath or steam canner): 10 min (0–1000 feet), 15 min (1001–6000), 20 min (above 6000).",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-809",
+  "twierdzenie": "Przepis UC ANR „Reduced-Sugar Strawberry Jam” jest adaptacją wkładki pektyny Sure-Jell Less Sugar Needed (Kraft Heinz US); przepis używa pektyny Less Sugar Needed (źródło nie podaje wersji ze zwykłą pektyną).",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+    "miejsce": "s. 1, stopka",
+    "cytat": "This recipe is adapted from Sure Jell® less sugar needed package insert.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "dfb4adc630ef"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "The UC ANR \"Reduced-Sugar Strawberry Jam\" recipe is an adaptation of the Sure-Jell Less Sugar Needed pectin package insert (Kraft Heinz US); the recipe uses Less Sugar Needed pectin (the source does not give a version with regular pectin).",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-810",
+  "twierdzenie": "Według przepisu Sure-Jell „Rhubarb Strawberry Jam” (Kraft Heinz): 4 szklanki przygotowanych owoców (2 szklanki posiekanego lub cienko pokrojonego nieobranego rabarbaru, reszta rozgniecione truskawki; ok. 1 kwarta truskawek i 1 lb (ok. 450 g) rabarbaru), 1 opakowanie SURE-JELL Original, 1/2 łyżeczki masła, 5 1/2 szklanki cukru.",
+  "zrodla": [
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+    "miejsce": "Ingredients",
+    "cytat": "prepared fruit (buy about 1 qt. fully ripe strawberries and 1 lb. fully ripe rhubarb)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis producenta pektyny Sure-Jell (Kraft Heinz USA), P-B14-1",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "ded7d2ddbfb1"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+    "miejsce": "Step 2",
+    "cytat": "Chop or thinly slice enough unpeeled rhubarb to measure 2 cups.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis producenta pektyny Sure-Jell (Kraft Heinz USA), P-B14-1",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "ded7d2ddbfb1"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+    "miejsce": "Step 2",
+    "cytat": "Measure exactly 4 cups prepared fruit mixture into 6- or 8-qt. saucepot.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis producenta pektyny Sure-Jell (Kraft Heinz USA), P-B14-1",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "ded7d2ddbfb1"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+    "miejsce": "Ingredients",
+    "cytat": "sugar, measured into separate bowl",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis producenta pektyny Sure-Jell (Kraft Heinz USA), P-B14-1",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "ded7d2ddbfb1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the Sure-Jell \"Rhubarb Strawberry Jam\" recipe (Kraft Heinz): 4 cups prepared fruit (2 cups chopped or thinly sliced unpeeled rhubarb, the rest crushed strawberries; about 1 qt strawberries and 1 lb (about 450 g) rhubarb), 1 box SURE-JELL Original, 1/2 teaspoon butter, 5 1/2 cups sugar.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-811",
+  "twierdzenie": "Sure-Jell „Rhubarb Strawberry Jam”: owoce z pektyną do pełnego wrzenia, cukier, ponownie pełne wrzenie dokładnie 1 min; nalewać do 1/4 cala (ok. 0,6 cm) od brzegu; proces 10 min we wrzącej kąpieli wodnej (woda 1–2 cale nad słoikami; wysokość n.p.m. niepodana).",
+  "zrodla": [
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+    "miejsce": "Step 3",
+    "cytat": "Return to full rolling boil and boil exactly 1 min., stirring constantly.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis producenta pektyny Sure-Jell (Kraft Heinz USA), P-B14-1",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "ded7d2ddbfb1"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+    "miejsce": "Step 4",
+    "cytat": "Ladle immediately into prepared jars, filling to within 1/4 inch of tops.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis producenta pektyny Sure-Jell (Kraft Heinz USA), P-B14-1",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "ded7d2ddbfb1"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+    "miejsce": "Step 4",
+    "cytat": "Cover; bring water to gentle boil. Process 10 min.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis producenta pektyny Sure-Jell (Kraft Heinz USA), P-B14-1",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "ded7d2ddbfb1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Sure-Jell \"Rhubarb Strawberry Jam\": fruit with pectin to a full rolling boil, sugar, return to a full rolling boil exactly 1 min; ladle to within 1/4 inch (about 0.6 cm) of the tops; process 10 min in a boiling water canner (water 1–2 inches above the jars; elevation not given).",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-812",
+  "twierdzenie": "NDSU FN172 i WSU „Rhubarb-Strawberry Jam With Pectin” (WSU: adaptacja z USDA HG-56): 1 szklanka ugotowanego rabarbaru o czerwonych łodygach (ok. 1 lb rabarbaru i 1/4 szklanki wody), 2 1/2 szklanki rozgniecionych truskawek, 6 1/2 szklanki cukru, 1 saszetka pektyny płynnej; ok. 7–8 słoików 1/2 pinty; owoce z cukrem pełne wrzenie 1 min, zdjąć z ognia, wmieszać pektynę; gorące sterylne słoiki, 1/4 cala.",
+  "zrodla": [
+   {
+    "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+    "miejsce": "s. 7, Rhubarb-Strawberry Jam With Pectin",
+    "cytat": "1 cup cooked red-stalked rhubarb",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: NDSU Extension FN172 Jellies, Jams and Spreads (Reviewed March 2024)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "99f87a85121b"
+   },
+   {
+    "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+    "miejsce": "s. 7, jw.",
+    "cytat": "Remove from heat and stir in pectin.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: NDSU Extension FN172 Jellies, Jams and Spreads (Reviewed March 2024)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "99f87a85121b"
+   },
+   {
+    "adres": "https://wpcdn.web.wsu.edu/extension/uploads/sites/77/2018/06/Preserving-Strawberries.pdf",
+    "miejsce": "s. 2, Rhubarb-Strawberry Jam",
+    "cytat": "2½ cups crushed strawberries (about 1½ quart boxes)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: WSU Extension, Preserving Strawberries (2018); przepis adaptowany z USDA Home and Garden Bulletin 56 (1982) i NCHFP (2005)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "f161c6d981d1"
+   },
+   {
+    "adres": "https://wpcdn.web.wsu.edu/extension/uploads/sites/77/2018/06/Preserving-Strawberries.pdf",
+    "miejsce": "s. 2, jw.",
+    "cytat": "Fill hot jam immediately into hot, sterile jars, leaving ¼ inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: WSU Extension, Preserving Strawberries (2018); przepis adaptowany z USDA Home and Garden Bulletin 56 (1982) i NCHFP (2005)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "f161c6d981d1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NDSU FN172 and WSU \"Rhubarb-Strawberry Jam With Pectin\" (WSU: adapted from USDA HG-56): 1 cup cooked red-stalked rhubarb (about 1 lb rhubarb and 1/4 cup water), 2 1/2 cups crushed strawberries, 6 1/2 cups sugar, 1 pouch liquid pectin; about 7–8 half-pint jars; fruit with sugar to a full boil for 1 min, remove from heat, stir in the pectin; hot sterile jars, 1/4 inch.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-813",
+  "twierdzenie": "Czas dla „Rhubarb-Strawberry Jam” (pektyna płynna, hot, słoiki 1/2 pinty lub pinty, słoiki sterylne): WSU 5 / 10 / 15 min (0–1000 / 1001–6000 / powyżej 6000 stóp); NDSU tabela 3 dla wszystkich dżemów i galaretek 5 / 10 min (0–1000 / 1001–6000 stóp; brak czasu powyżej 6000), a przy słoikach niesterylnych 10 min.",
+  "zrodla": [
+   {
+    "adres": "https://wpcdn.web.wsu.edu/extension/uploads/sites/77/2018/06/Preserving-Strawberries.pdf",
+    "miejsce": "s. 2, Table 1",
+    "cytat": "Hot Half-pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: WSU Extension, Preserving Strawberries (2018); przepis adaptowany z USDA Home and Garden Bulletin 56 (1982) i NCHFP (2005)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "f161c6d981d1"
+   },
+   {
+    "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+    "miejsce": "s. 4, Table 3",
+    "cytat": "All jellies and Hot Half-pints 5 10",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: NDSU Extension FN172 Jellies, Jams and Spreads (Reviewed March 2024)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "99f87a85121b"
+   },
+   {
+    "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+    "miejsce": "s. 3",
+    "cytat": "If unsterile jars are used, the process",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: NDSU Extension FN172 Jellies, Jams and Spreads (Reviewed March 2024)",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "99f87a85121b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "Times for \"Rhubarb-Strawberry Jam\" (liquid pectin, hot, half-pint or pint jars, sterile jars): WSU 5 / 10 / 15 min (0–1000 / 1001–6000 / above 6000 feet); NDSU table 3 for all jellies and jams 5 / 10 min (0–1000 / 1001–6000 feet; no time above 6000), and with unsterile jars 10 min.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-814",
+  "twierdzenie": "CSU Extension (Preserve Smart) „Mint Jelly without Added Pectin” (galaretka jabłkowo-miętowa bez dodatku pektyny): 3 funty (ok. 1,4 kg) kwaśnych jabłek (1/4 niedojrzałych, 3/4 dojrzałych) + 3 szklanki wody (ok. 4 szklanki soku), 1 ubita szklanka świeżych liści mięty + 1 szklanka wody (1/2 szklanki naparu), 3 szklanki cukru; 5–6 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+    "miejsce": "2. Ingredients",
+    "cytat": "3 pounds apples + 3 cups water (to make ~ 4 cups juice)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "8de00e7341bc"
+   },
+   {
+    "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+    "miejsce": "2. Ingredients",
+    "cytat": "1 firmly-packed cup fresh mint leaves + 1 cup water (to make 1/2 cup mint extract)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "8de00e7341bc"
+   },
+   {
+    "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+    "miejsce": "1. Selection",
+    "cytat": "1 cup firmly packed mint and 3 pounds tart red apples (1/4 underripe, 3/4 ripe) will yield 5 to 6 half-pint jars.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "8de00e7341bc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "CSU Extension (Preserve Smart) \"Mint Jelly without Added Pectin\" (apple-mint jelly without added pectin): 3 pounds (about 1.4 kg) tart apples (1/4 underripe, 3/4 ripe) + 3 cups water (about 4 cups juice), 1 firmly packed cup fresh mint leaves + 1 cup water (1/2 cup mint extract), 3 cups sugar; 5–6 half-pint jars.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-815",
+  "twierdzenie": "CSU „Mint Jelly without Added Pectin”: jabłek nie obierać i nie wycinać gniazd, dusić 20–25 min, sok odsączyć przez worek; liście mięty zalać 1 szklanką wrzątku na 1 h, odcisnąć, wziąć 1/2 szklanki; 4 szklanki soku, 1/2 szklanki naparu i cukier gotować do 8 °F (ok. 4,4 °C) powyżej temperatury wrzenia wody na danej wysokości lub testu łyżki; sterylne słoiki, 1/4 cala wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+    "miejsce": "5. Prepare Ingredients",
+    "cytat": "Do not pare or core.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "8de00e7341bc"
+   },
+   {
+    "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+    "miejsce": "Prepare Mint Extract",
+    "cytat": "Pour 1 cup boiling water over mint leaves. Let stand 1 hour.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "8de00e7341bc"
+   },
+   {
+    "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+    "miejsce": "Make Jelly",
+    "cytat": "In a cooking pot, combine 4 cups apple juice, 1/2 cup mint extract and sugar.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "8de00e7341bc"
+   },
+   {
+    "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+    "miejsce": "Make Jelly",
+    "cytat": "8 degrees F above the boiling point at your elevation.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "8de00e7341bc"
+   },
+   {
+    "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+    "miejsce": "6. Fill Jars",
+    "cytat": "Leave 1/4-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "8de00e7341bc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "CSU \"Mint Jelly without Added Pectin\": do not pare or core the apples, simmer 20–25 min, strain the juice through a bag; pour 1 cup boiling water over the mint leaves for 1 h, press, take 1/2 cup; cook 4 cups juice, 1/2 cup extract and sugar to 8 °F (about 4.4 °C) above the boiling point of water at your elevation or the spoon test; sterile jars, 1/4 inch headspace.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-816",
+  "twierdzenie": "CSU „Mint Jelly without Added Pectin”, kąpiel wodna (hot, słoiki 1/2 pinty lub pinty): 5 min (0–1000 stóp), 10 min (1001–6000), 10 min (6001–10 000); przy czasie poniżej 10 min słoiki sterylizować.",
+  "zrodla": [
+   {
+    "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+    "miejsce": "Boiling water bath processing times",
+    "cytat": "Boiling water bath processing times (hot pack)-Half Pints or Pints 0-1,000 ft 1,001-6,000 ft 6,001-10,000 ft 5 minutes 10 minutes 10 minutes",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "8de00e7341bc"
+   },
+   {
+    "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+    "miejsce": "4. Prepare Canning Equipment",
+    "cytat": "If processing time for your elevation is less than 10 minutes, sterilize jars by placing right side up on the rack in a boiling water bath canner.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+    "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+    "sha12": "8de00e7341bc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "CSU \"Mint Jelly without Added Pectin\", boiling water bath (hot pack, half-pint or pint jars): 5 min (0–1000 feet), 10 min (1001–6000), 10 min (6001–10 000); if the processing time is less than 10 min, sterilize the jars.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-817",
+  "twierdzenie": "Ball „Ginger Pear Marmalade” (przedruk UCCE MFP Lassen County, UC ANR): 3 limonki (skórka w paskach i sok), 8 szklanek cienko pokrojonych obranych gruszek bez gniazd (jędrne, dojrzałe), 4 szklanki cukru, 3 łyżki posiekanego imbiru kandyzowanego, 1 1/4 szklanki wody; ok. 4 słoiki 8 uncji (ok. 250 ml); wariant: zamiast limonek 2 cytryny albo 1 duża pomarańcza.",
+  "zrodla": [
+   {
+    "adres": "https://ucanr.edu/sites/LassenMFP/files/395916.pdf",
+    "miejsce": "s. 1, Ginger Pear Marmalade, składniki",
+    "cytat": "8 cups thinly sliced cored peeled firm ripe pears",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2012, dozwolone wg B14-D1) w przedruku UCCE Master Food Preservers of Lassen County (UC ANR), PDF z 13.03.2024; tytułu książki nie cytuję",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "d1325c6870f2"
+   },
+   {
+    "adres": "https://ucanr.edu/sites/LassenMFP/files/395916.pdf",
+    "miejsce": "s. 1, składniki",
+    "cytat": "3 tablespoons chopped, crystallized ginger",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2012, dozwolone wg B14-D1) w przedruku UCCE Master Food Preservers of Lassen County (UC ANR), PDF z 13.03.2024; tytułu książki nie cytuję",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "d1325c6870f2"
+   },
+   {
+    "adres": "https://ucanr.edu/sites/LassenMFP/files/395916.pdf",
+    "miejsce": "s. 1, Variation",
+    "cytat": "Substitute 2 lemons or 1 large orange for the lime.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2012, dozwolone wg B14-D1) w przedruku UCCE Master Food Preservers of Lassen County (UC ANR), PDF z 13.03.2024; tytułu książki nie cytuję",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "d1325c6870f2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Ball \"Ginger Pear Marmalade\" (reprint of UCCE MFP Lassen County, UC ANR): 3 limes (peel in strips and juice), 8 cups thinly sliced cored peeled pears (firm, ripe), 4 cups sugar, 3 tablespoons chopped crystallized ginger, 1 1/4 cups water; about 4 jars of 8 ounces (about 250 ml); variation: instead of limes 2 lemons or 1 large orange.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-818",
+  "twierdzenie": "Ball „Ginger Pear Marmalade” (przedruk UCCE MFP Lassen): gruszki z sokiem z limonek, cukrem i imbirem odstawić na 1 h; pełne wrzenie 15 min, dodać skórkę, gotować do punktu żelowania (ok. 5 min); 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; proces 10 min we wrzącej kąpieli wodnej (wysokość n.p.m. niepodana).",
+  "zrodla": [
+   {
+    "adres": "https://ucanr.edu/sites/LassenMFP/files/395916.pdf",
+    "miejsce": "s. 1, krok 1",
+    "cytat": "Toss gently until pears are coated with lime juice.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2012, dozwolone wg B14-D1) w przedruku UCCE Master Food Preservers of Lassen County (UC ANR), PDF z 13.03.2024; tytułu książki nie cytuję",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "d1325c6870f2"
+   },
+   {
+    "adres": "https://ucanr.edu/sites/LassenMFP/files/395916.pdf",
+    "miejsce": "s. 1, krok 5",
+    "cytat": "Ladle hot marmalade into hot jars, leaving ¼ inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2012, dozwolone wg B14-D1) w przedruku UCCE Master Food Preservers of Lassen County (UC ANR), PDF z 13.03.2024; tytułu książki nie cytuję",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "d1325c6870f2"
+   },
+   {
+    "adres": "https://ucanr.edu/sites/LassenMFP/files/395916.pdf",
+    "miejsce": "s. 1, krok 6",
+    "cytat": "process for 10 minutes",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2012, dozwolone wg B14-D1) w przedruku UCCE Master Food Preservers of Lassen County (UC ANR), PDF z 13.03.2024; tytułu książki nie cytuję",
+    "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+    "sha12": "d1325c6870f2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Ball \"Ginger Pear Marmalade\" (reprint of UCCE MFP Lassen): let the pears with lime juice, sugar and ginger stand for 1 h; full boil 15 min, add the peel, cook to the gel point (about 5 min); 1/4 inch (about 0.6 cm) headspace; process 10 min in a boiling water canner (elevation not given).",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-840",
+  "twierdzenie": "Według przepisu Ball „Rhubarb-Orange Jam” (przedruk UC MFP, plik 2-0013): 2 1/2 funta (ok. 1,13 kg) rabarbaru (ok. 10–18 łodyg), 2 średnie pomarańcze, 6 łyżek pektyny Ball Classic, 6 szklanek cukru; wydajność ok. 6 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+    "miejsce": "s. 1, Rhubarb-Orange Jam, składniki",
+    "cytat": "2-1/2 pounds rhubarb (about 10 to 18 stalks)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+    "weryfikacja": "curl+pdftotext+grep (po normalizacji ligatur/łączników)",
+    "sha12": "99e14d37c7b5"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+    "miejsce": "s. 1, składniki",
+    "cytat": "6 tablespoons Ball Classic Pectin",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "99e14d37c7b5"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+    "miejsce": "s. 1, składniki",
+    "cytat": "6 cups sugar",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "99e14d37c7b5"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+    "miejsce": "s. 1, wydajność",
+    "cytat": "Yield: about 6 half-pints",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "99e14d37c7b5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the Ball \"Rhubarb-Orange Jam\" recipe (reprint of UC MFP, file 2-0013): 2 1/2 pounds (about 1.13 kg) rhubarb (about 10–18 stalks), 2 medium oranges, 6 tablespoons Ball Classic pectin, 6 cups sugar; yield about 6 half-pint jars.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-841",
+  "twierdzenie": "Ball „Rhubarb-Orange Jam”, przygotowanie: rabarbar bez liści i końcówek pokroić w kawałki 1/2 cala (ok. 1,3 cm); z pomarańczy wycisnąć i odmierzyć 1 szklankę soku, skórkę z połowy jednej pomarańczy (bez albedo) pokroić w cienkie paski; rabarbar z sokiem i skórką dusić pod przykryciem ok. 3 min do miękkości; dodać pektynę, zagotować, dodać cukier, doprowadzić do pełnego wrzenia i gotować intensywnie 1 minutę, zebrać pianę.",
+  "zrodla": [
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+    "miejsce": "s. 1, krok 1",
+    "cytat": "Juice oranges; measuring 1 cup of orange juice.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "99e14d37c7b5"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+    "miejsce": "s. 1, krok 1",
+    "cytat": "Using the peel from half of one orange, remove pith and cut into thin slivers.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "99e14d37c7b5"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+    "miejsce": "s. 1, krok 3",
+    "cytat": "Simmer rhubarb mixture, covered, about 3 minutes or until rhubarb is tender.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "99e14d37c7b5"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+    "miejsce": "s. 1, krok 4",
+    "cytat": "Bring mixture to a full rolling boil; boil hard for 1 minute, stirring constantly.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "99e14d37c7b5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Ball \"Rhubarb-Orange Jam\", preparation: cut the rhubarb, with leaves and ends removed, into 1/2-inch (about 1.3 cm) pieces; juice the oranges and measure 1 cup of juice, cut the peel from half of one orange (pith removed) into thin slivers; simmer the rhubarb with the juice and peel, covered, about 3 min until tender; add the pectin, bring to a boil, add the sugar, bring to a full rolling boil and boil hard for 1 minute, skim off the foam.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-842",
+  "twierdzenie": "Ball „Rhubarb-Orange Jam”, wekowanie: gorący dżem do gorących, wysterylizowanych słoików (sterylizacja: 10 min wrzenia do 1000 stóp, +1 min na każde dalsze 1000 stóp), 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; 10 minut w kąpieli wodnej (albo atmosferycznym wekowniku parowym), +1 minuta na każde 1000 stóp (ok. 305 m) n.p.m.; przy słoikach niesterylizowanych też 10 minut.",
+  "zrodla": [
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+    "miejsce": "s. 1, krok 5",
+    "cytat": "Ladle hot jam into hot, sterile jars, leaving 1/4-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+    "weryfikacja": "curl+pdftotext+grep (po normalizacji ligatur/łączników)",
+    "sha12": "99e14d37c7b5"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+    "miejsce": "s. 1, krok 6",
+    "cytat": "Process 10 minutes in boiling-water or atmospheric steam canner, adding 1 additional minute per 1,000 feet above sea level.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+    "weryfikacja": "curl+pdftotext+grep (po normalizacji ligatur/łączników)",
+    "sha12": "99e14d37c7b5"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+    "miejsce": "s. 1, krok 2",
+    "cytat": "Sterilize canning jars by boiling for 10 minutes at altitudes of less than 1,000 feet.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "99e14d37c7b5"
+   },
+   {
+    "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+    "miejsce": "s. 1, uwaga",
+    "cytat": "Note: If using unsterile jars, process the filled jars for 10 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+    "weryfikacja": "curl+pdftotext+grep (po normalizacji ligatur/łączników)",
+    "sha12": "99e14d37c7b5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Ball \"Rhubarb-Orange Jam\", canning: hot jam into hot, sterilized jars (sterilizing: boil 10 min up to 1000 feet, +1 min for each additional 1000 feet), 1/4 inch (about 0.6 cm) headspace; 10 minutes in a boiling water canner (or atmospheric steam canner), +1 minute for each 1000 feet (about 305 m) above sea level; with unsterilized jars also 10 minutes.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-843",
+  "twierdzenie": "Według przepisu Ball „Quick Lemon Ginger Marmalade” (przedruk UCCE MFP, UC ANR): 6 małych cytryn, 1/2 łyżeczki sody oczyszczonej, 2 1/2 szklanki wody, 1/2 szklanki (6 uncji) grubo startego świeżego imbiru, 1 opakowanie (1,75 uncji) zwykłej pektyny w proszku, 6 1/2 szklanki cukru; wydajność ok. 7 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+    "miejsce": "s. 1, składniki",
+    "cytat": "6 small lemons",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "fbe39e790356"
+   },
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+    "miejsce": "s. 1, składniki",
+    "cytat": "1/2 tsp baking soda",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "fbe39e790356"
+   },
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+    "miejsce": "s. 1, składniki",
+    "cytat": "1/2 cup (6 oz.) coarsely grated gingerroot",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "fbe39e790356"
+   },
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+    "miejsce": "s. 1, składniki",
+    "cytat": "1 (1.75 oz.) package regular powdered fruit pectin",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "fbe39e790356"
+   },
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+    "miejsce": "s. 1, składniki (ułamek w kopii tekstowej zapisany „61/2” = 6 1/2)",
+    "cytat": "61/2 cups sugar",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "fbe39e790356"
+   },
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+    "miejsce": "s. 1, wydajność",
+    "cytat": "Yield: about 7 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "fbe39e790356"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the Ball \"Quick Lemon Ginger Marmalade\" recipe (reprint of UCCE MFP, UC ANR): 6 small lemons, 1/2 teaspoon baking soda, 2 1/2 cups water, 1/2 cup (6 ounces) coarsely grated fresh gingerroot, 1 package (1.75 ounces) regular powdered pectin, 6 1/2 cups sugar; yield about 7 half-pint jars.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-844",
+  "twierdzenie": "Ball „Quick Lemon Ginger Marmalade”, przygotowanie: żółtą skórkę cytryn zdjąć w paskach i pokroić cienko; skórkę z sodą i wodą zagotować i gotować pod przykryciem 5 min; z cytryn usunąć albedo, wyciąć cząstki bez błon, zebrać sok i odmierzyć 1 szklankę cząstek z sokiem; dodać do skórki z imbirem, rozmieszać pektynę; zagotować, wsypać cały cukier, doprowadzić do pełnego wrzenia i gotować intensywnie 1 minutę; zebrać pianę.",
+  "zrodla": [
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+    "miejsce": "s. 1, krok 3",
+    "cytat": "Reduce heat, cover and boil gently for 5 minutes, until peel is softened.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "fbe39e790356"
+   },
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+    "miejsce": "s. 1, krok 4",
+    "cytat": "Measure 1 cup lemon segments and juice. Add to softened rind mixture with gingerroot.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "fbe39e790356"
+   },
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+    "miejsce": "s. 1, krok 5",
+    "cytat": "Boil hard, stirring constantly, for 1 minute.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "fbe39e790356"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Ball \"Quick Lemon Ginger Marmalade\", preparation: remove the yellow peel of the lemons in strips and slice thinly; bring the peel with the baking soda and water to a boil and boil gently, covered, 5 min; remove the pith from the lemons, cut out the segments without membranes, collect the juice and measure 1 cup of segments and juice; add to the peel with the gingerroot, stir in the pectin; bring to a boil, add all the sugar, bring to a full rolling boil and boil hard for 1 minute; skim off the foam.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-845",
+  "twierdzenie": "Ball „Quick Lemon Ginger Marmalade”, wekowanie: gorącą marmoladę do gorących słoików, 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; słoiki całkowicie pod wodą, zagotować i wekować 10 minut; zdjąć pokrywę, odczekać 5 minut. Przedruk nie podaje korekty czasu dla wysokości.",
+  "zrodla": [
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+    "miejsce": "s. 1, krok 6",
+    "cytat": "Ladle hot marmalade into hot jars, leaving ¼-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "fbe39e790356"
+   },
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+    "miejsce": "s. 1, krok 7",
+    "cytat": "Bring to a boil and process for 10 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "fbe39e790356"
+   },
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+    "miejsce": "s. 1, krok 7",
+    "cytat": "Wait 5 minutes, then remove jars, cool and store.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "fbe39e790356"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Ball \"Quick Lemon Ginger Marmalade\", canning: hot marmalade into hot jars, 1/4 inch (about 0.6 cm) headspace; jars completely covered with water, bring to a boil and process 10 minutes; remove the lid, wait 5 minutes. The reprint gives no altitude adjustment.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-846",
+  "twierdzenie": "NCHFP Grape Conserve (bez dodanej pektyny): 4 1/2 szklanki winogron bez skórek (ok. 4 funty winogron Concord), 1 pomarańcza (drobno posiekana ze skórką), 4 szklanki cukru, 1 szklanka rodzynek bez pestek, 1/2 łyżeczki soli, skórki z winogron, 1 szklanka drobno posiekanych orzechów; ok. 8–9 słoików 1/2 pinty. Przepis wymienia tylko winogrona Concord, a pestki usuwa się, przecierając ugotowane winogrona przez sito — winogron bezpestkowych nie wymienia.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+    "miejsce": "Grape Conserve, składniki",
+    "cytat": "4½ cups grapes with skins removed (about 4 pounds Concord grapes)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+    "weryfikacja": "curl+html→txt+grep",
+    "sha12": "0f59855bab35"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+    "miejsce": "Grape Conserve, składniki",
+    "cytat": "1 cup seedless raisins",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+    "weryfikacja": "curl+html→txt+grep",
+    "sha12": "0f59855bab35"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+    "miejsce": "Grape Conserve, składniki",
+    "cytat": "1 cup nuts, chopped fine",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+    "weryfikacja": "curl+html→txt+grep",
+    "sha12": "0f59855bab35"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+    "miejsce": "Grape Conserve, wydajność",
+    "cytat": "Yield: About 8 or 9 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+    "weryfikacja": "curl+html→txt+grep",
+    "sha12": "0f59855bab35"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+    "miejsce": "Grape Conserve, przygotowanie owoców",
+    "cytat": "Press through a sieve to remove seeds.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+    "weryfikacja": "curl+html→txt+grep",
+    "sha12": "0f59855bab35"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Grape Conserve (without added pectin): 4 1/2 cups grapes with skins removed (about 4 pounds Concord grapes), 1 orange (finely chopped with the peel), 4 cups sugar, 1 cup seedless raisins, 1/2 teaspoon salt, the grape skins, 1 cup finely chopped nuts; about 8–9 half-pint jars. The recipe lists only Concord grapes, and the seeds are removed by pressing the cooked grapes through a sieve — it does not list seedless grapes.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-847",
+  "twierdzenie": "NCHFP Grape Conserve, gotowanie i wekowanie: masę gotować do 9 °F (ok. 5 °C) powyżej temperatury wrzenia wody, orzechy dodać na końcu; gorącą konfiturę do gorących, wysterylizowanych słoików, 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna, hot pack, słoiki 1/2 pinty lub pint: 5 min (0–1000 stóp), 10 min (1001–6000), 15 min (powyżej 6000).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+    "miejsce": "Grape Conserve, procedura",
+    "cytat": "Add grape skins and boil, stirring constantly, to 9 degrees F. above the boiling point of water (about 10 minutes).",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+    "weryfikacja": "curl+html→txt+grep",
+    "sha12": "0f59855bab35"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+    "miejsce": "Grape Conserve, procedura",
+    "cytat": "Fill hot conserve immediately into hot, sterile jars, leaving ¼ inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+    "weryfikacja": "curl+html→txt+grep",
+    "sha12": "0f59855bab35"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+    "miejsce": "Grape Conserve, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+    "weryfikacja": "curl+html→txt+grep (komórki tabeli po normalizacji białych znaków)",
+    "sha12": "0f59855bab35"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Grape Conserve, cooking and canning: cook the mixture to 9 °F (about 5 °C) above the boiling point of water, add the nuts last; hot conserve into hot, sterilized jars, 1/4 inch (about 0.6 cm) headspace; boiling water bath, hot pack, half-pint or pint jars: 5 min (0–1000 feet), 10 min (1001–6000), 15 min (above 6000).",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-848",
+  "twierdzenie": "NDSU FN172 (przepis WSU) „Syrups Made With Juice”, na stronie z przepisami z czeremchy wirginijskiej (chokecherry): 4 szklanki soku, 4 szklanki cukru, opcjonalnie 1/4 szklanki soku z cytryny i do 1/2 opakowania pektyny w proszku; gotować 2 min, słoiki 1/2 pinty lub pint, 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; tabela 5: syrop, hot, 1/2 pinty lub pint — 10 min (0–1000 stóp) i 10 min (1001–6000 stóp). Przepis nie wymienia rabarbaru; JarAtlas nie przenosi go na sok z rabarbaru (reguła 4: zmiana owocu).",
+  "zrodla": [
+   {
+    "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+    "miejsce": "s. 8, Syrups Made With Juice",
+    "cytat": "Mix juice, sugar, lemon juice and pectin. Bring to a boil and boil two minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: NDSU Extension FN172 (przegląd 03.2024), przepis podpisany Cooperative Extension, Washington State University",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "c06ec0ef543c"
+   },
+   {
+    "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+    "miejsce": "s. 8, Syrups Made With Juice",
+    "cytat": "pour into ½-pint or 1-pint canning jars to within ½ inch of the top.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: NDSU Extension FN172 (przegląd 03.2024), przepis podpisany Cooperative Extension, Washington State University",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "c06ec0ef543c"
+   },
+   {
+    "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+    "miejsce": "s. 8, Syrups Made With Juice, podpis",
+    "cytat": "Cooperative Extension, Washington State University",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: NDSU Extension FN172 (przegląd 03.2024), przepis podpisany Cooperative Extension, Washington State University",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "99f87a85121b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NDSU FN172 (WSU recipe) \"Syrups Made With Juice\", on the chokecherry recipe page: 4 cups juice, 4 cups sugar, optionally 1/4 cup lemon juice and up to 1/2 package powdered pectin; boil 2 min, half-pint or pint jars, 1/2 inch (about 1.3 cm) headspace; table 5: syrup, hot, half-pint or pint — 10 min (0–1000 feet) and 10 min (1001–6000 feet). The recipe does not mention rhubarb; JarAtlas does not transfer it to rhubarb juice (rule 4: change of fruit).",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-860",
+  "twierdzenie": "NCHFP Fig Jam without Pectin, składniki na ok. 10 słoików 1/2 pinty: 2 quarty (ok. 1,9 l) posiekanych świeżych fig (ok. 5 funtów, ok. 2,3 kg), 3/4 szklanki wody, 6 szklanek cukru, 1/4 szklanki soku z cytryny.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/fig-jam-without-pectin/",
+    "miejsce": "składniki",
+    "cytat": "2 quarts chopped fresh figs (about 5 pounds) ... ¾ cup water ... 6 cups sugar ... ¼ cup lemon juice",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "f7fa36720515"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/fig-jam-without-pectin/",
+    "miejsce": "wydajność",
+    "cytat": "About 10 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "f7fa36720515"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Fig Jam without Pectin, ingredients for about 10 half-pint jars: 2 quarts (about 1.9 l) chopped fresh figs (about 5 pounds, about 2.3 kg), 3/4 cup water, 6 cups sugar, 1/4 cup lemon juice.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-861",
+  "twierdzenie": "NCHFP Fig Jam without Pectin: figi zalać wrzątkiem na 10 min, odsączyć, usunąć szypułki, posiekać; z wodą i cukrem gotować szybko do zgęstnienia, dodać sok z cytryny i gotować jeszcze 1 min; nalać do gorących, wysterylizowanych słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna, hot pack, słoiki 1/2 pinty lub pint: 5 min do 1000 stóp, 10 min 1001–6000 stóp, 15 min powyżej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/fig-jam-without-pectin/",
+    "miejsce": "procedura",
+    "cytat": "Pour boiling water over figs; let stand 10 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "f7fa36720515"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/fig-jam-without-pectin/",
+    "miejsce": "procedura",
+    "cytat": "Add lemon juice and cook 1 minute longer. Pour hot jam into hot jars, leaving ¼-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "f7fa36720515"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/fig-jam-without-pectin/",
+    "miejsce": "tabela 1",
+    "cytat": "Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "f7fa36720515"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Fig Jam without Pectin: pour boiling water over the figs for 10 min, drain, remove the stems, chop; cook rapidly with the water and sugar until thick, add the lemon juice and cook 1 minute longer; pour into hot, sterilized jars with 1/4 inch (about 0.6 cm) headspace; boiling water bath, hot pack, half-pint or pint jars: 5 min up to 1000 feet, 10 min 1001–6000 feet, 15 min above.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-862",
+  "twierdzenie": "NCHFP Fig Preserves (całe figi w gęstym syropie), składniki na ok. 10 słoików 1/2 pinty: 3 quarty fig, 3 quarty wrzącej wody (do sparzenia), 4 szklanki cukru, 1 1/2 quarta wody, 2 cytryny w cienkich plasterkach (w źródle oznaczone jako opcjonalne).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/fig-preserves/",
+    "miejsce": "składniki",
+    "cytat": "3 quarts figs ... 4 cups sugar ... 2 lemons, thinly sliced (optional)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "51a53ea46abc"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/fig-preserves/",
+    "miejsce": "wydajność",
+    "cytat": "About 10 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "51a53ea46abc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Fig Preserves (whole figs in thick syrup), ingredients for about 10 half-pint jars: 3 quarts figs, 3 quarts boiling water (for blanching), 4 cups sugar, 1 1/2 quarts water, 2 lemons, thinly sliced (marked optional in the source).",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-863",
+  "twierdzenie": "NCHFP Fig Preserves: figi sparzyć 15 min wrzątkiem, opłukać; syrop z cukru, wody i cytryny gotować 10 min, plasterki cytryny usunąć; całe figi gotować w syropie do przezroczystości; syrop odparować do gęstości miodu, zalać figi i odstawić na 6–8 h do lodówki; podgrzać do wrzenia, nałożyć do wysterylizowanych słoików, zalać syropem, 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna, hot pack, 1/2 pinty lub pint: 5 min do 1000 stóp, 10 min 1001–6000 stóp, 15 min powyżej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/fig-preserves/",
+    "miejsce": "procedura",
+    "cytat": "the syrup must be boiled down until it becomes as thick as honey",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "51a53ea46abc"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/fig-preserves/",
+    "miejsce": "procedura",
+    "cytat": "Fill whole figs into hot jars and cover with hot syrup, leaving ¼ inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "51a53ea46abc"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/fig-preserves/",
+    "miejsce": "tabela 1",
+    "cytat": "Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "51a53ea46abc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Fig Preserves: blanch the figs 15 min in boiling water, rinse; boil the syrup of sugar, water and lemon for 10 min, remove the lemon slices; cook the whole figs in the syrup until clear; boil the syrup down until as thick as honey, pour over the figs and let stand 6–8 h in the refrigerator; heat to a boil, pack into sterilized jars, cover with syrup, 1/4 inch (about 0.6 cm) headspace; boiling water bath, hot pack, half-pints or pints: 5 min up to 1000 feet, 10 min 1001–6000 feet, 15 min above.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-864",
+  "twierdzenie": "Oregon State Extension: figi powinny dojrzeć na drzewie przed zbiorem; figi to owoc niskokwasowy, więc każdy przepis na wekowanie fig powinien zawierać dodatek kwasu (sok z cytryny, ocet albo kwas cytrynowy), żeby produkt był bezpieczny.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/preserving-figs",
+    "miejsce": "wstęp",
+    "cytat": "Figs should ripen on the tree before picking.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Oregon State University Extension (rev. Jan 2025)",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "72a631870ebf"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/preserving-figs",
+    "miejsce": "wstęp",
+    "cytat": "Figs are a low acid fruit. Any canning recipes should include the addition of an acid, usually either lemon juice, vinegar or citric acid, to ensure that the product is safe.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Oregon State University Extension (rev. Jan 2025)",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "72a631870ebf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Oregon State Extension: figs should ripen on the tree before picking; figs are a low-acid fruit, so any fig canning recipe should include the addition of an acid (lemon juice, vinegar or citric acid) to ensure that the product is safe.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-865",
+  "twierdzenie": "NCHFP Watermelon Rind Preserves, składniki na ok. 6 słoików 1/2 pinty: 1 1/2 quarta oczyszczonej i pokrojonej skórki arbuza, 4 łyżki soli, 2 quarty zimnej wody (solanka), 1 łyżka mielonego imbiru, 4 szklanki cukru, 1/4 szklanki soku z cytryny, 7 szklanek wody, 1 cytryna w cienkich plasterkach (opcjonalnie). Wanilii przepis nie przewiduje.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/watermelon-rind-preserves/",
+    "miejsce": "składniki",
+    "cytat": "1½ quarts trimmed and cut watermelon rind pieces ... 4 tablespoons salt ... 1 tablespoon ground ginger ... 4 cups sugar ... ¼ cup lemon juice ... 7 cups water ... 1 thinly sliced lemon (optional)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "bf6ba13e5e02"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/watermelon-rind-preserves/",
+    "miejsce": "wydajność",
+    "cytat": "About 6 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "bf6ba13e5e02"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Watermelon Rind Preserves, ingredients for about 6 half-pint jars: 1 1/2 quarts trimmed and cut watermelon rind, 4 tablespoons salt, 2 quarts cold water (brine), 1 tablespoon ground ginger, 4 cups sugar, 1/4 cup lemon juice, 7 cups water, 1 lemon, thinly sliced (optional). The recipe does not include vanilla.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-866",
+  "twierdzenie": "NCHFP Watermelon Rind Preserves, procedura: z grubej skórki odciąć zieloną skórę i różowy miąższ, pokroić w kawałki 1 cal (ok. 2,5 cm); moczyć w solance 5–6 h w lodówce, opłukać, 30 min w zimnej wodzie; posypać imbirem, zalać wodą i gotować do miękkości; syrop (cukier, sok z cytryny, 7 szklanek wody) gotować 5 min, dodać skórkę i gotować łagodnie 30 min, dodać plasterki cytryny i gotować do przezroczystości; nakładać na gorąco do wysterylizowanych słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni. Czas: SLO-107.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/watermelon-rind-preserves/",
+    "miejsce": "procedura",
+    "cytat": "Trim green skin and pink flesh from thick watermelon rind; cut into 1 inch pieces. Dissolve salt in 2 quarts water and pour over rind; let stand for 5 to 6 hours in refrigerator.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "bf6ba13e5e02"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/watermelon-rind-preserves/",
+    "miejsce": "procedura",
+    "cytat": "Sprinkle ginger over rind; cover with water and cook until fork tender.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "bf6ba13e5e02"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/watermelon-rind-preserves/",
+    "miejsce": "procedura",
+    "cytat": "add prepared watermelon rind and boil gently for 30 minutes. Add sliced lemon and cook until the melon rind is clear. Pack hot preserves into hot jars, leaving ¼-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "bf6ba13e5e02"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Watermelon Rind Preserves, procedure: trim the green skin and pink flesh from the thick rind, cut into 1 inch (about 2.5 cm) pieces; soak in brine 5–6 h in the refrigerator, rinse, 30 min in cold water; sprinkle with ginger, cover with water and cook until tender; boil the syrup (sugar, lemon juice, 7 cups water) 5 min, add the rind and boil gently 30 min, add the lemon slices and cook until clear; pack hot into sterilized jars with 1/4 inch (about 0.6 cm) headspace. Time: SLO-107.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-867",
+  "twierdzenie": "NCHFP Cranberry Conserve (konfitura żurawinowa z pomarańczą), składniki na ok. 4 słoiki 1/2 pinty: 1 nieobrana, drobno posiekana pomarańcza, 2 szklanki wody, 3 szklanki cukru, 1 quart (ok. 0,95 l) umytej żurawiny, 1/2 szklanki rodzynek bez pestek, 1/2 szklanki posiekanych orzechów.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/cranberry-conserve/",
+    "miejsce": "składniki",
+    "cytat": "1 unpeeled, finely chopped orange ... 2 cups water ... 3 cups sugar ... 1 quart cranberries, washed ... ½ cup seedless raisins ... ½ cup chopped nuts",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "76cf41233cb7"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/cranberry-conserve/",
+    "miejsce": "wydajność",
+    "cytat": "About 4 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "76cf41233cb7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Cranberry Conserve (cranberry-orange conserve), ingredients for about 4 half-pint jars: 1 unpeeled, finely chopped orange, 2 cups water, 3 cups sugar, 1 quart (about 0.95 l) washed cranberries, 1/2 cup seedless raisins, 1/2 cup chopped nuts.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-868",
+  "twierdzenie": "NCHFP Cranberry Conserve: pomarańczę z wodą gotować szybko ok. 20 min do miękkości skórki; dodać żurawinę, cukier i rodzynki, powoli doprowadzić do wrzenia, potem gotować szybko prawie do 220 °F (ok. 104 °C, ok. 8 min); orzechy dodać w ostatnich 5 min; nalać do gorących słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna, hot pack, tylko słoiki 1/2 pinty: 10 min do 1000 stóp, 15 min 1001–6000 stóp, 20 min powyżej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/cranberry-conserve/",
+    "miejsce": "procedura",
+    "cytat": "Combine orange and water; cook rapidly until peel is tender (about 20 minutes).",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "76cf41233cb7"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/cranberry-conserve/",
+    "miejsce": "procedura",
+    "cytat": "Cook rapidly, almost to the jellying point of 220°F (about 8 minutes).",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "76cf41233cb7"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/cranberry-conserve/",
+    "miejsce": "procedura",
+    "cytat": "Add nuts during the last 5 minutes of cooking. Pour hot conserve into hot jars, leaving ¼-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "76cf41233cb7"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/cranberry-conserve/",
+    "miejsce": "tabela 1",
+    "cytat": "Hot Half-pints 10 min 15 20",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "76cf41233cb7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Cranberry Conserve: cook the orange with the water rapidly about 20 min until the peel is tender; add the cranberries, sugar and raisins, bring slowly to a boil, then cook rapidly almost to 220 °F (about 104 °C, about 8 min); add the nuts during the last 5 min; pour into hot jars with 1/4 inch (about 0.6 cm) headspace; boiling water bath, hot pack, half-pint jars only: 10 min up to 1000 feet, 15 min 1001–6000 feet, 20 min above.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-869",
+  "twierdzenie": "NCHFP Cranberry Sauce: przepis zawiera tylko żurawinę, wodę i cukier (SLO-233), bez pomarańczy; dopuszcza dwie odmiany: sos z rozgniecionych owoców (zamiast przecieranego) i sos z całych owoców (bez przecierania), w obu cukier dodaje się do miękkich owoców i gotuje 3 min, dalej jak w przepisie podstawowym; opcjonalnie 1/2 łyżeczki masła przeciw pienieniu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberry-sauce/",
+    "miejsce": "składniki",
+    "cytat": "4 cups cranberries 1 cup water 2 cups sugar",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "184c2f8973bd"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberry-sauce/",
+    "miejsce": "Variations (1)",
+    "cytat": "To make crushed cranberry sauce instead of sieved, cook berries until soft and then mash with a potato masher or back of cooking spoon until desired consistency.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "184c2f8973bd"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberry-sauce/",
+    "miejsce": "Variations (2)",
+    "cytat": "To make whole cranberry sauce, cook berries until soft.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "184c2f8973bd"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberry-sauce/",
+    "miejsce": "Preparation Note",
+    "cytat": "add ½ teaspoon of butter before berries are sieved or crushed and sugar is added",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "184c2f8973bd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Cranberry Sauce: the recipe contains only cranberries, water and sugar (SLO-233), no orange; it allows two variations: crushed cranberry sauce (instead of sieved) and whole cranberry sauce (without sieving), in both the sugar is added to the soft berries and cooked 3 min, then as in the basic recipe; optionally 1/2 teaspoon butter against foaming.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-870",
+  "twierdzenie": "Sure-Jell Jalapeño Jelly (z drobno posiekanych papryk, nieprzecedzona), składniki: 2 czerwone papryki (ok. 1 1/2 szklanki), 2 zielone papryki (ok. 1 1/2 szklanki), 10 dużych jalapeño (ok. 1 szklanki) — wszystkie bez nasion, drobno posiekane; 1 szklanka octu jabłkowego (5%), 1 opakowanie pektyny Sure-Jell Original, 1/2 łyżeczki masła (przeciw pianie), 5 szklanek cukru.",
+  "zrodla": [
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/501272-sure-jell-jalape%C3%B1o-jelly",
+    "miejsce": "składniki",
+    "cytat": "red peppers, seeded, finely chopped (about 1-1/2 cups) 2 green peppers, seeded, finely chopped (about 1-1/2 cups) 10 large jalapeño peppers, seeded, finely chopped (about 1 cup) 1 cup HEINZ Apple Cider Vinegar 1 pkg SURE-JELL Original Premium Fruit Pectin",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "042b76902c92"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/501272-sure-jell-jalape%C3%B1o-jelly",
+    "miejsce": "składniki",
+    "cytat": "5 cups sugar, measured into separate bowl (See tip.)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "042b76902c92"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/501272-sure-jell-jalape%C3%B1o-jelly",
+    "miejsce": "produkt",
+    "cytat": "Apple Cider Vinegar with 5% Acidity",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "042b76902c92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Sure-Jell Jalapeño Jelly (from finely chopped peppers, not strained), ingredients: 2 red peppers (about 1 1/2 cups), 2 green peppers (about 1 1/2 cups), 10 large jalapeño peppers (about 1 cup) — all seeded, finely chopped; 1 cup apple cider vinegar (5%), 1 package SURE-JELL Original pectin, 1/2 teaspoon butter (against foaming), 5 cups sugar.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-871",
+  "twierdzenie": "Sure-Jell Jalapeño Jelly: papryki z octem i pektyną doprowadzić do pełnego wrzenia, wsypać cukier, znów pełne wrzenie i gotować dokładnie 1 min; nalać do słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna 10 min (strona nie podaje wielkości słoika ani korekty wysokości).",
+  "zrodla": [
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/501272-sure-jell-jalape%C3%B1o-jelly",
+    "miejsce": "krok 2",
+    "cytat": "Return to full rolling boil and boil exactly 1 min., stirring constantly.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "042b76902c92"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/501272-sure-jell-jalape%C3%B1o-jelly",
+    "miejsce": "krok 3",
+    "cytat": "Ladle immediately into prepared jars, filling to within 1/4 inch of tops.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "042b76902c92"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/501272-sure-jell-jalape%C3%B1o-jelly",
+    "miejsce": "krok 3",
+    "cytat": "Cover; bring water to gentle boil. Process 10 min.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "042b76902c92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Sure-Jell Jalapeño Jelly: bring the peppers with vinegar and pectin to a full rolling boil, add the sugar, return to a full rolling boil and boil exactly 1 min; ladle into jars to within 1/4 inch (about 0.6 cm) of the tops; boiling water bath 10 min (the page gives neither jar size nor altitude adjustment).",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-872",
+  "twierdzenie": "Sure-Jell Fresh Pineapple Jam, składniki: 4 1/2 szklanki przygotowanego owocu (2 w pełni dojrzałe średnie ananasy, obrane, bez gniazda, drobno posiekane lub zmielone), 1 opakowanie pektyny Sure-Jell Original, 1/2 łyżeczki masła (przeciw pianie), 5 1/2 szklanki cukru. Bez alkoholu i wanilii.",
+  "zrodla": [
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/501672-sure-jell-fresh-pineapple-jam",
+    "miejsce": "składniki",
+    "cytat": "4-1/2 cups prepared fruit (buy 2 fully ripe medium pineapples) 1 box SURE-JELL Original Premium Fruit Pectin",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "87556c235108"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/501672-sure-jell-fresh-pineapple-jam",
+    "miejsce": "składniki",
+    "cytat": "5-1/2 cups sugar, measured into separate bowl",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "87556c235108"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/501672-sure-jell-fresh-pineapple-jam",
+    "miejsce": "krok 2",
+    "cytat": "Peel and core pineapples. Finely chop or grind fruit.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "87556c235108"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Sure-Jell Fresh Pineapple Jam, ingredients: 4 1/2 cups prepared fruit (2 fully ripe medium pineapples, peeled, cored, finely chopped or ground), 1 box SURE-JELL Original pectin, 1/2 teaspoon butter (against foaming), 5 1/2 cups sugar. No alcohol and no vanilla.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-873",
+  "twierdzenie": "Sure-Jell Fresh Pineapple Jam: odmierzyć dokładnie 4 1/2 szklanki ananasa, wmieszać pektynę, pełne wrzenie, cukier, pełne wrzenie dokładnie 1 min; nalać do słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna 5 min (słoiki w przepisie tylko umyte i wypłukane, bez sterylizacji).",
+  "zrodla": [
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/501672-sure-jell-fresh-pineapple-jam",
+    "miejsce": "krok 2",
+    "cytat": "Measure exactly 4-1/2 cups prepared pineapple into 6- or 8-qt. saucepot.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "87556c235108"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/501672-sure-jell-fresh-pineapple-jam",
+    "miejsce": "krok 1",
+    "cytat": "Wash jars and screw bands in hot soapy water; rinse with warm water.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "87556c235108"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/501672-sure-jell-fresh-pineapple-jam",
+    "miejsce": "krok 4",
+    "cytat": "Ladle immediately into prepared jars, filling to within 1/4 inch of tops.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "87556c235108"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/501672-sure-jell-fresh-pineapple-jam",
+    "miejsce": "krok 4",
+    "cytat": "Process 5 min.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "87556c235108"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Sure-Jell Fresh Pineapple Jam: measure exactly 4 1/2 cups pineapple, stir in the pectin, full rolling boil, sugar, full rolling boil exactly 1 min; ladle into jars to within 1/4 inch (about 0.6 cm) of the tops; boiling water bath 5 min (the recipe's jars are only washed and rinsed, not sterilized).",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-874",
+  "twierdzenie": "Certo Mango Jam, składniki: 4 szklanki przygotowanego owocu (ok. 5 średnich w pełni dojrzałych mango, obranych, bez pestki, zmielonych lub rozgniecionych), 2 łyżki soku z cytryny (w źródle świeżego), 7 1/2 szklanki cukru, 1/2 łyżeczki masła, 2 saszetki pektyny płynnej Certo.",
+  "zrodla": [
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/504621-certo-mango-jam",
+    "miejsce": "składniki",
+    "cytat": "4 cups prepared fruit (about 5 medium fully ripe mangoes) 2 tbsp fresh lemon juice 7-1/2 cups sugar, measured into separate bowl",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Certo (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "80cf102ad5f7"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/504621-certo-mango-jam",
+    "miejsce": "składniki",
+    "cytat": "2 pouches CERTO Fruit Pectin",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Certo (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "80cf102ad5f7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Certo Mango Jam, ingredients: 4 cups prepared fruit (about 5 medium fully ripe mangoes, peeled, pitted, ground or crushed), 2 tablespoons lemon juice (fresh in the source), 7 1/2 cups sugar, 1/2 teaspoon butter, 2 pouches CERTO liquid pectin.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-875",
+  "twierdzenie": "Certo Mango Jam: odmierzyć dokładnie 4 szklanki owocu i wmieszać sok z cytryny; wmieszać cukier, pełne wrzenie, dodać pektynę, pełne wrzenie dokładnie 1 min; nalać do słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna 10 min.",
+  "zrodla": [
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/504621-certo-mango-jam",
+    "miejsce": "krok 2",
+    "cytat": "Measure exactly 4 cups prepared fruit into 6- or 8-qt. saucepot. Stir in lemon juice.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Certo (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "80cf102ad5f7"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/504621-certo-mango-jam",
+    "miejsce": "krok 4",
+    "cytat": "Ladle immediately into prepared jars, filling to within 1/4 inch of tops.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Certo (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "80cf102ad5f7"
+   },
+   {
+    "adres": "https://www.kraftheinz.com/sure-jell/recipes/504621-certo-mango-jam",
+    "miejsce": "krok 4",
+    "cytat": "Process 10 min.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Certo (Kraft Heinz USA), strona przepisu",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "80cf102ad5f7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Certo Mango Jam: measure exactly 4 cups fruit and stir in the lemon juice; stir in the sugar, full rolling boil, add the pectin, full rolling boil exactly 1 min; ladle into jars to within 1/4 inch (about 0.6 cm) of the tops; boiling water bath 10 min.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-876",
+  "twierdzenie": "USU Extension Pomegranate Jelly, składniki na 6 słoików 1/2 pinty: 3 1/2 szklanki soku z granatu (świeżego, mrożonego po rozmrożeniu albo butelkowanego), 1/4 szklanki soku z cytryny, 1 opakowanie (2 uncje) pektyny w proszku, 4 1/2 szklanki cukru.",
+  "zrodla": [
+   {
+    "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+    "miejsce": "Pomegranate Jelly, składniki",
+    "cytat": "3 1/2 cups pomegranate juice, fresh, frozen and thawed, or bottled 1/4 cup lemon juice",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Utah State University Extension (Preserve the Harvest)",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "11b984577c7f"
+   },
+   {
+    "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+    "miejsce": "składniki",
+    "cytat": "1 package (2 ounces) powdered pectin",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Utah State University Extension (Preserve the Harvest)",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "11b984577c7f"
+   },
+   {
+    "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+    "miejsce": "składniki",
+    "cytat": "4 1/2 cups sugar",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Utah State University Extension (Preserve the Harvest)",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "11b984577c7f"
+   },
+   {
+    "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+    "miejsce": "wydajność",
+    "cytat": "6 half-pint canning jars.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Utah State University Extension (Preserve the Harvest)",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "11b984577c7f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "USU Extension Pomegranate Jelly, ingredients for 6 half-pint jars: 3 1/2 cups pomegranate juice (fresh, frozen and thawed, or bottled), 1/4 cup lemon juice, 1 package (2 ounces) powdered pectin, 4 1/2 cups sugar.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-877",
+  "twierdzenie": "USU Pomegranate Jelly: sok z granatu, sok z cytryny i pektynę doprowadzić do wrzenia, wmieszać cukier, znów do wrzenia i gotować bez przykrycia 2 min; zebrać pianę, nalać do gorących słoików 1/2 pinty z ok. 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna, hot pack, 1/2 pinty: 5 min do 1000 stóp, powyżej +1 min na każde 1000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+    "miejsce": "procedura",
+    "cytat": "return to a boil and continue boiling, uncovered, stirring occasionally for 2 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Utah State University Extension (Preserve the Harvest)",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "11b984577c7f"
+   },
+   {
+    "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+    "miejsce": "procedura",
+    "cytat": "Pour hot jelly quickly into hot half pint jars, filling jars to within about 1/4 inch of tops.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Utah State University Extension (Preserve the Harvest)",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "11b984577c7f"
+   },
+   {
+    "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+    "miejsce": "tabela",
+    "cytat": "Half Pints 5 min. Add 1 minute for each additional 1000 feet above 1000ft.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: Utah State University Extension (Preserve the Harvest)",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "11b984577c7f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "USU Pomegranate Jelly: bring the pomegranate juice, lemon juice and pectin to a boil, stir in the sugar, return to a boil and boil uncovered 2 min; skim off the foam, pour into hot half-pint jars to about 1/4 inch (about 0.6 cm) from the tops; boiling water bath, hot pack, half-pints: 5 min up to 1000 feet, above that +1 min for each 1000 feet.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-878",
+  "twierdzenie": "Ball Elderberry Jelly (przedruk Penn State Extension, 2026): 650 g soku z czarnego bzu (ok. 3 szklanki), 62 g pektyny Ball Classic, 130 g butelkowanego soku z cytryny z koncentratu, 1100 g cukru; składniki trzeba ważyć, nie odmierzać szklanką, i użyć soku z cytryny z butelki (stała kwasowość); przepis opiera się na określonej proporcji cukru, soku z bzu i soku z cytryny.",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/safe-elderberry-jelly-recipe-for-canning",
+    "miejsce": "składniki",
+    "cytat": "650 grams elderberry juice (about 3 cups) 62 grams Ball Classic pectin 130 grams bottled lemon juice from concentrate 1,100 grams sugar",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (nowy, opracowany przez zespół Ball) w przedruku Penn State Extension, akt. 18.06.2026",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "f72782ee4544"
+   },
+   {
+    "adres": "https://extension.psu.edu/safe-elderberry-jelly-recipe-for-canning",
+    "miejsce": "wstęp",
+    "cytat": "It is critical that the ingredients are weighed and not measured in measuring cups, and that bottled lemon juice is used, as it has a consistent acidity.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (nowy, opracowany przez zespół Ball) w przedruku Penn State Extension, akt. 18.06.2026",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "f72782ee4544"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Ball Elderberry Jelly (reprint of Penn State Extension, 2026): 650 g elderberry juice (about 3 cups), 62 g Ball Classic pectin, 130 g bottled lemon juice from concentrate, 1100 g sugar; the ingredients must be weighed, not measured in cups, and bottled lemon juice must be used (consistent acidity); the recipe is based on a specific ratio of sugar, elderberry juice and lemon juice.",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-879",
+  "twierdzenie": "Ball Elderberry Jelly (przedruk Penn State): sok z gotowanych 5–10 min owoców (bez szypułek) odcedzić przez worek co najmniej 2 h; sok, sok z cytryny i pektynę zagotować, dodać cukier, pełne wrzenie 1 min; nalać do gorących słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna, słoiki 1/2 pinty 10 min, z korektą na wysokość (przedruk jej nie podaje).",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/safe-elderberry-jelly-recipe-for-canning",
+    "miejsce": "przygotowanie",
+    "cytat": "let drip undisturbed for at least 2 hours or overnight.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (nowy, opracowany przez zespół Ball) w przedruku Penn State Extension, akt. 18.06.2026",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "f72782ee4544"
+   },
+   {
+    "adres": "https://extension.psu.edu/safe-elderberry-jelly-recipe-for-canning",
+    "miejsce": "wekowanie",
+    "cytat": "Ladle hot jelly into a hot jar leaving ¼-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (nowy, opracowany przez zespół Ball) w przedruku Penn State Extension, akt. 18.06.2026",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "f72782ee4544"
+   },
+   {
+    "adres": "https://extension.psu.edu/safe-elderberry-jelly-recipe-for-canning",
+    "miejsce": "wekowanie",
+    "cytat": "Process half-pint jars 10 minutes, adjusting for altitude.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "szczebel 3: przepis Ball (nowy, opracowany przez zespół Ball) w przedruku Penn State Extension, akt. 18.06.2026",
+    "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+    "sha12": "f72782ee4544"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Ball Elderberry Jelly (reprint of Penn State): drain the juice from berries (stems removed) cooked 5–10 min through a bag for at least 2 h; bring the juice, lemon juice and pectin to a boil, add the sugar, full rolling boil 1 min; ladle into hot jars to within 1/4 inch (about 0.6 cm) headspace; boiling water bath, half-pint jars 10 min, adjusting for altitude (the reprint does not give it).",
+  "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  }
 ]
