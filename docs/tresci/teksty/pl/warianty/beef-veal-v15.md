@@ -62,7 +62,9 @@ Według FDA świeża wołowina, cielęcina, jagnięcina i wieprzowina zachowują
 
 Najlepiej rozmrażaj w lodówce, w oryginalnym opakowaniu. [T:SLO-405]
 
-Szybciej: w wodoszczelnym opakowaniu w zimnej wodzie, którą zmieniasz co najmniej co 30 minut, żeby stale była zimna. [T:SLO-405]
+Szybciej: w wodoszczelnym opakowaniu w zimnej wodzie (poniżej 70 °F, ok. 21 °C), którą zmieniasz co najmniej co 30 minut, żeby stale była zimna, ale tylko wtedy, gdy produkt rozmrozi się w mniej niż 2 godziny. [T:SLO-405,SLO-258]
+
+Według FDA to, co rozmroziłeś w zimnej wodzie albo w mikrofalówce, od razu ugotuj. [T:SLO-760]
 
 W mikrofalówce rozmrażaj tylko wtedy, gdy zaraz potem gotujesz. [T:SLO-405]
 

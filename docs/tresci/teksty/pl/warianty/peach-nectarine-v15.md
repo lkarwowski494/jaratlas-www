@@ -32,6 +32,8 @@ Rozgniecione albo jako przecier: obrane owoce bez pestek zgrubnie rozgnieć; na 
 
 Podgrzanie owoców bez pestek przez 4 minuty w takiej ilości wody, żeby się nie przypaliły, ułatwia zrobienie przecieru. [T:FRZ-070]
 
+Jeśli owoce podgrzewasz, przed pakowaniem schłodź przecier. [T:SLO-250]
+
 Dla lepszej jakości dodaj 1/8 łyżeczki (375 mg) kwasu askorbinowego na każdy quart owoców; zapakuj do pojemników, zostaw wolną przestrzeń, zamknij i zamroź. [T:FRZ-070]
 
 ## Kwas askorbinowy

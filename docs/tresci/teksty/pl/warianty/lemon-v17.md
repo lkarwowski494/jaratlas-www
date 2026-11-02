@@ -60,6 +60,8 @@ Lime curd robi się według tego samego przepisu: zamiast soku i skórki z cytry
 
 Przy braku prądu nie otwieraj zamrażarki: według FDA pełna zamrażarka utrzymuje temperaturę ok. 48 godzin, a w połowie pełna 24 godziny. [T:SLO-259]
 
+Po powrocie prądu żywność, która ma jeszcze kryształki lodu albo ma 40 °F (ok. 4 °C) lub mniej, według FDA można bezpiecznie ponownie zamrozić albo ugotować; nie da się tego ocenić po wyglądzie ani zapachu. [T:SLO-259]
+
 Według NCHFP żywność dłużej pozostaje zamrożona, gdy zamrażarka jest pełna, zamknięta, stoi w chłodnym miejscu i jest dobrze izolowana; można ją przykryć kocami, z dala od sprężarki. [T:SLO-410]
 
 Reguła JarAtlas (ostrożna) po awarii zamrażarki: wyrzuć opakowanie, które nie ma kryształków lodu i ma powyżej 40 °F (ok. 4 °C), albo którego nie da się sprawdzić. [T:SLO-260]

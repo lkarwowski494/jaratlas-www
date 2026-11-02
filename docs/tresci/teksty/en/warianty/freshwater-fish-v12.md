@@ -72,13 +72,15 @@ This card gives the time for quality: fatty fish 2–3 months, lean fish 3–6 m
 
 According to the FDA, thaw fish gradually in the refrigerator overnight. [T:SLO-432]
 
-Faster: in a sealed plastic bag immersed in cold water or, if you will cook it right away, in the microwave on the defrost setting, stopping while the fish is still icy but pliable. [T:SLO-432]
+Faster: in a sealed plastic bag immersed in cold water (only on the conditions below) or, if you will cook it right away, in the microwave on the defrost setting, stopping while the fish is still icy but pliable. [T:SLO-432,SLO-258]
 
 Thaw fish that is to be breaded and fried at least partially in the refrigerator first. [T:SLO-420]
 
 Thaw best in the refrigerator, in the original wrapping. [T:SLO-405]
 
-Faster: in waterproof wrapping in cold water that you change at least every 30 minutes so it stays cold. [T:SLO-405]
+Faster: in waterproof wrapping in cold water (below 70 °F, about 21 °C) that you change at least every 30 minutes so it stays cold, but only if the food will thaw in under 2 hours. [T:SLO-405,SLO-258]
+
+According to the FDA, cook food thawed in cold water or in the microwave immediately. [T:SLO-760]
 
 Thaw in the microwave only if you will cook it immediately afterwards. [T:SLO-405]
 

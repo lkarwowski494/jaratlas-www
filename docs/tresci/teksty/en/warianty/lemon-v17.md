@@ -60,6 +60,8 @@ Food is safe while it stays frozen, but once it thaws and warms above 40 °F (ab
 
 During a power outage keep the freezer closed: according to the FDA, a full freezer holds its temperature for about 48 hours, a half-full one for 24 hours. [T:SLO-259]
 
+When the power comes back, the FDA says that food which still contains ice crystals or is at 40 °F (about 4 °C) or below is safe to refreeze or cook; you cannot judge this by look or smell. [T:SLO-259]
+
 According to the NCHFP, food stays frozen longer if the freezer is full, unopened, in a cool place and well insulated; it can be covered with blankets, away from the compressor. [T:SLO-410]
 
 JarAtlas rule (cautious) after a freezer failure: throw away any package that has no ice crystals and is above 40 °F (about 4 °C), or that you cannot check. [T:SLO-260]

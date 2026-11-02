@@ -72,13 +72,15 @@ Karta podaje czas dla jakości: ryby tłuste 2–3 miesiące, chude 3–6 miesi�
 
 Według FDA ryby rozmrażaj stopniowo w lodówce przez noc. [T:SLO-432]
 
-Szybciej: w szczelnym woreczku zanurzonym w zimnej wodzie albo, jeśli zaraz będziesz gotować, w mikrofalówce w trybie rozmrażania, przerywając, gdy ryba jest jeszcze oszroniona, ale giętka. [T:SLO-432]
+Szybciej: w szczelnym woreczku zanurzonym w zimnej wodzie (tylko na warunkach podanych niżej) albo, jeśli zaraz będziesz gotować, w mikrofalówce w trybie rozmrażania, przerywając, gdy ryba jest jeszcze oszroniona, ale giętka. [T:SLO-432,SLO-258]
 
 Rybę do panierowania i smażenia najpierw rozmroź przynajmniej częściowo w lodówce. [T:SLO-420]
 
 Najlepiej rozmrażaj w lodówce, w oryginalnym opakowaniu. [T:SLO-405]
 
-Szybciej: w wodoszczelnym opakowaniu w zimnej wodzie, którą zmieniasz co najmniej co 30 minut, żeby stale była zimna. [T:SLO-405]
+Szybciej: w wodoszczelnym opakowaniu w zimnej wodzie (poniżej 70 °F, ok. 21 °C), którą zmieniasz co najmniej co 30 minut, żeby stale była zimna, ale tylko wtedy, gdy produkt rozmrozi się w mniej niż 2 godziny. [T:SLO-405,SLO-258]
+
+Według FDA to, co rozmroziłeś w zimnej wodzie albo w mikrofalówce, od razu ugotuj. [T:SLO-760]
 
 W mikrofalówce rozmrażaj tylko wtedy, gdy zaraz potem gotujesz. [T:SLO-405]
 

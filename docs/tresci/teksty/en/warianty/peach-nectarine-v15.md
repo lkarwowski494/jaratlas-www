@@ -32,6 +32,8 @@ Crushed or purée: coarsely crush the peeled, pitted fruit; for purée, press it
 
 Heating the pitted fruit for 4 minutes in just enough water to prevent scorching makes it easier to purée. [T:FRZ-070]
 
+If you heat the fruit, cool the purée before packing it. [T:SLO-250]
+
 For better quality add 1/8 teaspoon (375 mg) of ascorbic acid to each quart of fruit; pack into containers, leave headspace, seal and freeze. [T:FRZ-070]
 
 ## Ascorbic acid

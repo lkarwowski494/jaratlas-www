@@ -21,6 +21,10 @@ Przechowywanie czosnku w oleju w lodówce dłużej niż 4 dni może pozwolić na
 
 ## Pakowanie
 
+Świeżo przygotowanego czosnku w oleju nie zostawiaj do stygnięcia w temperaturze pokojowej: według Oregon State University Extension czosnek zmiksowany z olejem trzeba od razu zamrozić i nie trzymać go w temperaturze pokojowej, a według NCHFP czosnek w oleju przygotowuje się na świeżo; od razu podziel go więc na porcje i zamroź albo trzymaj w lodówce w 40 °F (4,4 °C) lub niżej najwyżej 4 dni. [T:OLE-005,OLE-002]
+
+Według FDA dużą ilość podziel na płytkie pojemniki, żeby szybciej schłodziła się w lodówce. [T:SLO-761]
+
 Zapakuj czosnek w oleju w szklane słoiki do mrożenia albo plastikowe pojemniki do zamrażarki, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, potem opisz, wpisz datę i zamroź. [T:OLE-051]
 
 Ze szkła wybieraj słoiki z szerokim otworem, przeznaczone do mrożenia i wekowania, bo zwykłe słoiki szklane łatwo pękają w temperaturze zamrażarki. [T:SLO-251]
