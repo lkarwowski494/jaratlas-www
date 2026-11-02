@@ -1,0 +1,15 @@
+# Dried corn for nixtamalization: why there is no recipe here
+
+There is no recipe here for drying corn kernels at home to use for nixtamalization (cooking with lime to make masa). [T:-]
+
+## !
+
+- According to University of Missouri Extension, there is currently no FDA-approved method for “detoxifying” corn that contains aflatoxins. [T:SUS-314]
+
+## Why
+
+Grain moisture is the most important factor in the growth of molds that produce aflatoxins in stored corn. [T:SUS-313]
+
+JarAtlas has found no tested home procedure for drying field corn kernels for storage. [T:-]
+
+JarAtlas has found no checked source on whether nixtamalization removes aflatoxins. [T:-]

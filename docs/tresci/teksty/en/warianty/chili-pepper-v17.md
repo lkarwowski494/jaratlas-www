@@ -1,0 +1,17 @@
+# Chipotles in adobo sauce: why there is no recipe here
+
+There is no recipe here for smoked chipotle peppers canned in adobo sauce. [T:-]
+
+## !
+
+- Low-acid foods, with a pH above 4.6, such as beets, cannot be safely canned in a boiling-water bath unless they are acidified according to a tested recipe. [T:ACI-449]
+
+## Why
+
+The FDA list gives peppers a pH of about 4.65–5.45. [T:ACI-094]
+
+Most mixtures of low-acid and acid foods have a pH above 4.6 unless the recipe contains enough lemon juice, citric acid or vinegar. [T:ACI-006]
+
+JarAtlas has found no checked source for the pH of chipotles in adobo sauce, so it is not known whether the mixture is acidic enough for a boiling-water bath. [T:-]
+
+JarAtlas has found no tested recipe for chipotles in adobo sauce from a checked source. [T:-]

@@ -1,0 +1,18 @@
+# Green tomato and raisin chutney: why there is no recipe here
+
+There is no recipe here for chutney made from green tomatoes and raisins. [T:-]
+
+## !
+
+- The Chutneys section of the NCHFP website lists four recipes: Apple, Mango, Tomato-Apple and Cranberry Orange Chutney. [T:ACI-646]
+- JarAtlas rule (cautious): in tested NCHFP recipes acidified with vinegar, lemon juice or citric acid, do not change the amounts of the acid ingredients, vegetables or fruit, do not add other vegetables and do not reduce the vinegar; such a recipe is tested only in the proportions given. [T:ACI-265]
+- The FDA list gives white onions a pH of about 5.37–5.85. [T:ACI-107]
+- Most mixtures of low-acid and acid foods have a pH above 4.6 unless the recipe contains enough lemon juice, citric acid or vinegar. [T:ACI-006]
+
+## Why
+
+Green tomato and raisin chutney is not one of these four recipes. [T:ACI-646]
+
+The whole product needs a minimum, uniform level of acid to prevent the growth of botulism bacteria. [T:ACI-017]
+
+JarAtlas has found no tested recipe for green tomato and raisin chutney from a checked source. [T:-]

@@ -1,0 +1,22 @@
+# Bok choy in soy sauce and Chinkiang vinegar: why there is no recipe here
+
+There is no recipe here for bok choy in soy sauce and Chinkiang vinegar. [T:-]
+
+## !
+
+- Almost any food that is not very acidic, with a pH above 4.6, can support the growth of Clostridium botulinum and toxin production. [T:SLO-023]
+- According to the FDA, the minimum temperature for growth and toxin production by Clostridium botulinum type E and nonproteolytic types B and F is 38°F (3.3°C). [T:MIE-059]
+
+## Why
+
+Bok choy is a vegetable, and all fresh vegetables except most tomatoes are low-acid foods with a pH above 4.6. [T:ACI-005]
+
+JarAtlas has found no checked source for the acidity of Chinkiang vinegar. [T:-]
+
+White distilled vinegar and cider vinegar of 5% acidity are recommended for pickles. [T:ACI-018]
+
+Do not use vinegar of unknown acidity; use only recipes with tested proportions. [T:ACI-016]
+
+This pickle is meant to be kept in the refrigerator. [T:-]
+
+JarAtlas has found no tested recipe for bok choy in soy sauce and Chinkiang vinegar from a checked source. [T:-]

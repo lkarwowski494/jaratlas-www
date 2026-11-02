@@ -48,6 +48,8 @@ export const WSPOLNE = {
   'OLE-082': ['refrigerator', 'cool-storage'], // tłuszcz z wilgotnymi dodatkami: karty smalcu B27 (lodówka i chłodne miejsce), p36
   'OLE-084': ['refrigerator', 'cool-storage'], // karty smalcu i tłuszczów B27, p36
   'OLE-085': ['refrigerator', 'cool-storage'], // karty smalcu i tłuszczów B27, p36
+  'ACI-159': ['refrigerator', 'water-bath'], // pH grzybów: karty-ostrzeżenia pieczarek marynowanych (lodówka i kąpiel), p36
+  'OLE-001': ['freezer', 'water-bath'], // czosnek w oleju nie w temperaturze pokojowej: karty mrożenia czosnku i wymagane ostrzeżenie karty-ostrzeżenia cucumber-v19 (kąpiel), p36
   'SUS-035': ['dry-storage', 'brak'], // toksyny grzybów: karty suszenia grzybów (p28) i karta-ostrzeżenie kapusty z grzybami (white-cabbage-v13, metoda nieustalona)
   'OLE-002': ['water-bath', 'freezer', 'refrigerator'], // czosnek w oleju: lodówka 40°F, 4 dni (NCHFP): ostrzeżenie papryki w oleju (bell-pepper-v09), karta mrożenia garlic-v17 (p24) i wymagane ostrzeżenie oleju szczypiorkowego leek-chives-v08 (p32)
   'OLE-019': ['freezer', 'refrigerator'], // oleje z niezakwaszonymi ziołami nie w temperaturze pokojowej: karty mrożenia garlic-v09/v10 i wymagane ostrzeżenie leek-chives-v08 (p32)
