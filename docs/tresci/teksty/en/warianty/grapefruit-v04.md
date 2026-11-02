@@ -60,7 +60,7 @@ Cool the jars at room temperature for 12 to 24 hours, then remove only the screw
 
 NCHFP calls Mason-type canning jars with self-sealing two-piece lids (a flat lid and a screw band) the best choice, and this seal test and the method on this card assume them; NCHFP does not recommend other commercial jars whose mouths cannot be sealed with two-piece canning lids for canning any food at home. [T:SLO-223,SLO-212]
 
-JarAtlas rule (cautious): this card gives no method for twist-off jars or jars with glass lids. [T:SLO-223]
+JarAtlas rule (cautious): use this card only with jars that take two-piece canning lids; it gives no method for twist-off jars or jars with glass lids, so do not use them for this recipe. [T:SLO-223]
 
 A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
 

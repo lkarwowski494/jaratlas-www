@@ -4,7 +4,7 @@ Ta karta opisuje przepis NCHFP na masło jabłkowe: jabłka gotowane w apple cid
 
 ## Składniki
 
-NCHFP podaje 8 funtów (ok. 3,6 kg) jabłek, 2 szklanki apple cider (nazwa z przepisu), 2 szklanki octu, 2 1/4 szklanki białego cukru, 2 1/4 szklanki ubitego brązowego cukru, 2 łyżki mielonego cynamonu i 1 łyżkę mielonych goździków; wychodzi ok. 9–10 słoików pint. [T:SLO-224]
+NCHFP podaje 8 funtów (ok. 3,6 kg) jabłek, 2 szklanki apple cider (nazwa z przepisu; to nie ocet jabłkowy), 2 szklanki octu, 2 1/4 szklanki białego cukru, 2 1/4 szklanki ubitego brązowego cukru, 2 łyżki mielonego cynamonu i 1 łyżkę mielonych goździków; wychodzi ok. 9–10 słoików pint. [T:SLO-224]
 
 Mimo nazwy masło jabłkowe nie zawiera masła: to gęsty, przyprawiony przecier jabłkowy gotowany z cukrem. [T:SLO-224,SLO-225]
 
@@ -74,9 +74,9 @@ Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek ani metalowych p
 
 Słoiki studź w temperaturze pokojowej 12–24 godziny, potem odkręć i zdejmij tylko metalowe pierścienie dwuczęściowych pokrywek, a płaskie pokrywki zostaw na słoikach, i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
 
-NCHFP uznaje słoiki do wekowania typu Mason z samouszczelniającymi się dwuczęściowymi pokrywkami (płaska pokrywka i zakręcany pierścień) za najlepszy wybór i na nich opiera się ten test oraz metoda z tej karty; innych słoików handlowych, których otworu nie da się zamknąć dwuczęściowymi pokrywkami, NCHFP nie zaleca do domowego wekowania żadnej żywności. [T:SLO-223,SLO-212]
+NCHFP uznaje słoiki do wekowania typu Mason z samouszczelniającymi się dwuczęściowymi pokrywkami (płaska pokrywka i zakręcany pierścień) za najlepszy wybór i na nich opiera się ten test oraz metoda z tej karty; innych słoików po produktach ze sklepu, których otworu nie da się zamknąć dwuczęściowymi pokrywkami, NCHFP nie zaleca do domowego wekowania żadnej żywności. [T:SLO-223,SLO-212]
 
-Reguła JarAtlas (ostrożna): ta karta nie podaje metody dla słoików twist-off ani słoików ze szklanymi pokrywkami. [T:SLO-223]
+Reguła JarAtlas (ostrożna): korzystaj z tej karty tylko ze słoikami zamykanymi dwuczęściowymi pokrywkami; karta nie podaje metody dla słoików twist-off ani ze szklanymi pokrywkami, więc nie używaj ich do tego przepisu. [T:SLO-223]
 
 Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
 

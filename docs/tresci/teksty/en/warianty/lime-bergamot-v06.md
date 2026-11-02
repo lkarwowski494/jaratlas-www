@@ -16,7 +16,7 @@ If you have no superfine sugar, grind granulated sugar in a grinder or food proc
 
 NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
 
-NCHFP gives one variation of this recipe, lime curd, and does not recommend other citrus or fruit curds for canning at this time. [T:SLO-043]
+Lime curd is the only variation NCHFP gives for its canned lemon curd recipe. [T:SLO-043]
 
 ## Equipment
 
@@ -68,7 +68,7 @@ Shortening the time or cooling jars in cold water can also lead to spoilage. [T:
 
 The NCHFP table gives a time only for half-pint jars. [T:SLO-038,SLO-241]
 
-JarAtlas rule (cautious, NCHFP does not test metric jars): a half-pint holds about 236 ml, so a 0.25 l or 0.3 l jar has no tested time; use jars of up to 236 ml, such as 0.2 l. [T:SLO-241]
+JarAtlas rule (cautious, NCHFP does not test metric jars): a half-pint (1 cup) holds about 236.6 ml, so a 0.25 l or 0.3 l jar has no tested time; use jars of up to 236 ml (rounded down), such as 0.2 l. [T:SLO-241]
 
 ## Cooling and storing
 
@@ -78,13 +78,15 @@ Cool the jars at room temperature for 12 to 24 hours, then remove only the screw
 
 NCHFP calls Mason-type canning jars with self-sealing two-piece lids (a flat lid and a screw band) the best choice, and this seal test and the method on this card assume them; NCHFP does not recommend other commercial jars whose mouths cannot be sealed with two-piece canning lids for canning any food at home. [T:SLO-223,SLO-212]
 
-JarAtlas rule (cautious): this card gives no method for twist-off jars or jars with glass lids. [T:SLO-223]
+JarAtlas rule (cautious): use this card only with jars that take two-piece canning lids; it gives no method for twist-off jars or jars with glass lids, so do not use them for this recipe. [T:SLO-223]
 
 A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
 
+If a jar has not sealed at this check, keep it in the refrigerator and eat it within several days. [T:SLO-197]
+
 For best quality, store the jars in a cool, dark place, away from light. [T:SLO-239]
 
-If a jar has not sealed at this check, keep it in the refrigerator and eat it within several days. [T:SLO-197]
+Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) and not near hot pipes, a stove or a furnace, in an uninsulated attic or in direct sunlight; in such conditions the food may spoil. [T:SLO-198]
 
 Plan to use canned lime curd within 3 to 4 months. [T:SLO-041]
 

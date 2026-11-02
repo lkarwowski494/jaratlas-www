@@ -6,7 +6,7 @@ Ta karta opisuje przepis NCHFP na galaretkę z soku z pigwy, soku z cytryny i cu
 
 NCHFP podaje 3 3/4 szklanki soku z pigwy (ok. 3 1/2 funta, ok. 1,6 kg, pigwy i 7 szklanek wody), 1/4 szklanki soku z cytryny i 3 szklanki cukru; wychodzi ok. 4 słoików 1/2 pinty. [T:SLO-228]
 
-Zakres JarAtlas: ta karta trzyma się przepisu NCHFP z pigwy i nie obejmuje pigwowca ani innych owoców. [T:SLO-228]
+Zakres JarAtlas: ta karta trzyma się przepisu NCHFP z pigwy (pigwa pospolita, Cydonia oblonga) i nie obejmuje pigwowca (Chaenomeles, potocznie też nazywanego pigwą) ani innych owoców. [T:SLO-228]
 
 NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
 
@@ -80,9 +80,9 @@ Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek ani metalowych p
 
 Słoiki studź w temperaturze pokojowej 12–24 godziny, potem odkręć i zdejmij tylko metalowe pierścienie dwuczęściowych pokrywek, a płaskie pokrywki zostaw na słoikach, i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
 
-NCHFP uznaje słoiki do wekowania typu Mason z samouszczelniającymi się dwuczęściowymi pokrywkami (płaska pokrywka i zakręcany pierścień) za najlepszy wybór i na nich opiera się ten test oraz metoda z tej karty; innych słoików handlowych, których otworu nie da się zamknąć dwuczęściowymi pokrywkami, NCHFP nie zaleca do domowego wekowania żadnej żywności. [T:SLO-223,SLO-212]
+NCHFP uznaje słoiki do wekowania typu Mason z samouszczelniającymi się dwuczęściowymi pokrywkami (płaska pokrywka i zakręcany pierścień) za najlepszy wybór i na nich opiera się ten test oraz metoda z tej karty; innych słoików po produktach ze sklepu, których otworu nie da się zamknąć dwuczęściowymi pokrywkami, NCHFP nie zaleca do domowego wekowania żadnej żywności. [T:SLO-223,SLO-212]
 
-Reguła JarAtlas (ostrożna): ta karta nie podaje metody dla słoików twist-off ani słoików ze szklanymi pokrywkami. [T:SLO-223]
+Reguła JarAtlas (ostrożna): korzystaj z tej karty tylko ze słoikami zamykanymi dwuczęściowymi pokrywkami; karta nie podaje metody dla słoików twist-off ani ze szklanymi pokrywkami, więc nie używaj ich do tego przepisu. [T:SLO-223]
 
 Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
 
