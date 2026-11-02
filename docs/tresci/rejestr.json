@@ -55929,5 +55929,47 @@
   "wazne_do": "2027-11-02",
   "klaster": "FER",
   "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "OLE-058",
+  "twierdzenie": "UGA C1334 (2024), oleje smakowe: przy każdej metodzie najpierw sterylizuje się pojemniki — szklane pojemniki dokładnie umyć i gotować 10 minut; składniki wybrać dobrej jakości, dokładnie umyć i osuszyć.",
+  "twierdzenie_en": "UGA C1334 (2024), infused oils: for any method, start by sterilizing the containers — wash glass containers thoroughly and boil them for 10 minutes; select quality ingredients, wash them thoroughly and pat them dry.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+    "miejsce": "UGA Extension C1334, wstęp do metod",
+    "cytat": "For any of the methods below, always start by sterilizing your containers.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ce8613a8cfc0"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+    "miejsce": "UGA Extension C1334, wstęp do metod",
+    "cytat": "Thoroughly wash your glass containers and boil them for 10 min to ensure the destruction of bacteria, yeasts, and molds.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ce8613a8cfc0"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+    "miejsce": "UGA Extension C1334, wstęp do metod",
+    "cytat": "Select quality ingredients, wash them thoroughly, and pat them dry.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ce8613a8cfc0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "06 p32 (karty lodówkowe: olej ze szczypiorkiem)",
+  "jednoZrodlo": true
  }
 ]
