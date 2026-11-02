@@ -31,7 +31,7 @@ export const WSPOLNE = {
   'ACI-512': ['refrigerator', 'water-bath'], // czosnek w occie w lodówce zamiast wekowania: garlic-v07 (lodówka) i karty-ostrzeżenia garlic-v04/v06/v08 (kąpiel), p36
   'SLO-023': ['refrigerator', 'dry-storage'], // pH powyżej 4,6 a C. botulinum: wymagane ostrzeżenie kart-ostrzeżeń imbiru (lodówka) i kandyzowanych dyni/imbiru (suszenie), p36
   'SLO-482': ['refrigerator', 'dry-storage'], // imbir/sok imbirowy bez przepisu kąpieli (Ask Extension): karty-ostrzeżenia imbiru lodówkowe i kandyzowanego, p36
-  'OLE-057': ['freezer', 'refrigerator'], // lodówka 40 °F (4 °C) lub niżej, zamrażarka 0 °F: karty mrożenia i karty oleju w lodówce (B24-Q1, p36)
+  'OLE-057': ['freezer', 'refrigerator', 'cool-storage'], // lodówka 40 °F (4 °C) lub niżej, zamrażarka 0 °F: karty mrożenia i karty oleju w lodówce (B24-Q1, p36)
   'ACI-006': ['refrigerator', 'water-bath'], // p36: karty-ostrzeżenia słodkich przetworów lodówkowych (requiredWarnings albo uzasadnienie „Why”) obok kart innej metody
   'ACI-026': ['refrigerator', 'water-bath'], // p36: karty-ostrzeżenia słodkich przetworów lodówkowych (requiredWarnings albo uzasadnienie „Why”) obok kart innej metody
   'ACI-066': ['refrigerator', 'water-bath'], // p36: karty-ostrzeżenia słodkich przetworów lodówkowych (requiredWarnings albo uzasadnienie „Why”) obok kart innej metody
@@ -42,6 +42,12 @@ export const WSPOLNE = {
   'SLO-068': ['refrigerator', 'water-bath'], // p36: karty-ostrzeżenia słodkich przetworów lodówkowych (requiredWarnings albo uzasadnienie „Why”) obok kart innej metody
   'SLO-024': ['refrigerator', 'dry-storage'], // p36: karty-ostrzeżenia słodkich przetworów lodówkowych (requiredWarnings albo uzasadnienie „Why”) obok kart innej metody
   'SLO-025': ['refrigerator', 'dry-storage'], // p36: karty-ostrzeżenia słodkich przetworów lodówkowych (requiredWarnings albo uzasadnienie „Why”) obok kart innej metody
+  'OLE-024': ['water-bath', 'refrigerator'], // ogniska jadu kiełbasianego z warzyw w oleju: karty-ostrzeżenia bakłażana eggplant-v04 (kąpiel) i v02 (lodówka), p36
+  'OLE-025': ['water-bath', 'refrigerator'], // Włochy 1993, bakłażan w oleju (MMWR): eggplant-v04 i v02, p36
+  'OLE-028': ['water-bath', 'refrigerator'], // brak zwalidowanych procesów dla warzyw w oleju w domu: eggplant-v04 (kąpiel) i karty oleju B27 (lodówka), p36
+  'OLE-082': ['refrigerator', 'cool-storage'], // tłuszcz z wilgotnymi dodatkami: karty smalcu B27 (lodówka i chłodne miejsce), p36
+  'OLE-084': ['refrigerator', 'cool-storage'], // karty smalcu i tłuszczów B27, p36
+  'OLE-085': ['refrigerator', 'cool-storage'], // karty smalcu i tłuszczów B27, p36
   'SUS-035': ['dry-storage', 'brak'], // toksyny grzybów: karty suszenia grzybów (p28) i karta-ostrzeżenie kapusty z grzybami (white-cabbage-v13, metoda nieustalona)
   'OLE-002': ['water-bath', 'freezer', 'refrigerator'], // czosnek w oleju: lodówka 40°F, 4 dni (NCHFP): ostrzeżenie papryki w oleju (bell-pepper-v09), karta mrożenia garlic-v17 (p24) i wymagane ostrzeżenie oleju szczypiorkowego leek-chives-v08 (p32)
   'OLE-019': ['freezer', 'refrigerator'], // oleje z niezakwaszonymi ziołami nie w temperaturze pokojowej: karty mrożenia garlic-v09/v10 i wymagane ostrzeżenie leek-chives-v08 (p32)

@@ -1,0 +1,13 @@
+# Pork cracklings in a jar: why there is no recipe here
+
+There is no recipe here for pork cracklings kept in a jar: JarAtlas has no recipe for them from a checked source. [T:-]
+
+## !
+
+- In an Ask Extension answer about rendered chicken fat: at room temperature the fat goes rancid more easily, and if bits of chicken are left in it, botulism is a concern. [T:OLE-085]
+- According to an OSU Extension answer on Ask Extension, a moist food submerged in lard and kept at room temperature is a risky food that could cause botulism poisoning. [T:OLE-082]
+- Extension and USDA have no canning recommendations at all for tallow or lard. [T:OLE-084]
+
+## Why
+
+Without a checked source, JarAtlas cannot say how long cracklings keep in a jar or how to store them. [T:-]
