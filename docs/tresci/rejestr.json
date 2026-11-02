@@ -33590,7 +33590,7 @@
  },
  {
   "id": "SLO-266",
-  "twierdzenie": "NCHFP Freezing Kohlrabi: wybrać zgrubienia w pełni wyrośnięte, ale delikatne; odciąć liście i korzenie; umyć i obrać z twardej skórki; zostawić w całości albo pokroić w kostkę 1/2 cala (ok. 1,3 cm); blanszować w wodzie całe 3 minuty, kostkę 1 minutę; szybko schłodzić, odsączyć i zapakować z 1/2 cala wolnej przestrzeni; zamknąć i zamrozić.",
+  "twierdzenie": "NCHFP Freezing Kohlrabi: wybrać zgrubienia w pełni wyrośnięte, ale delikatne; odciąć liście i korzenie; umyć i obrać z twardej skórki; zostawić w całości albo pokroić w kostkę 1/2 cala (ok. 1,3 cm); blanszować w wodzie całe 3 minuty, kostkę 1 minutę; szybko schłodzić, odsączyć i zapakować z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; zamknąć i zamrozić.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-kohlrabi/",
@@ -33712,6 +33712,48 @@
   ],
   "status": "potwierdzone",
   "uproszczenie": "Wiersz tabeli (typ, procent, szklanki cukru, szklanki wody, wydajność) zapisany zdaniem.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-270",
+  "twierdzenie": "NCHFP Freezing Greens (Including Spinach): wybrać młode, delikatne zielone liście; dokładnie umyć i odciąć zdrewniałe łodygi; blanszować w wodzie: collards 3 minuty, wszystkie inne liście 2 minuty; schłodzić, odsączyć i zapakować z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-greens-including-spinach/",
+    "miejsce": "NCHFP, Freezing Greens (Including Spinach), Preparation",
+    "cytat": "Select young, tender green leaves. Wash thoroughly and cut off woody stems. Water blanch collards 3 minutes and all other greens 2 minutes. Cool, drain and package, leaving 1/2-inch headspace. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "678124dd9a43"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Jako przykład „innych liści” karta podaje tylko szpinak (nazwany w tytule strony NCHFP); boćwiny i jarmużu źródło nie wymienia, więc karta ich nie przypisuje do 2 minut (wariant ostrożniejszy, przebieg 1 weryfikacji). Collards po polsku „kapusta warzywna liściasta” z nazwą angielską.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-271",
+  "twierdzenie": "Patison (pattypan) należy do dyń letnich (summer squash), tak jak cukinia; dlatego karta stosuje do niego instrukcję NCHFP Freezing Summer Squash (SLO-263).",
+  "zrodla": [
+   {
+    "adres": "https://extension.psu.edu/the-uncanny-trio-eggplant-summer-squash-melon",
+    "miejsce": "Penn State Extension: The Uncanny Trio—Eggplant, Summer Squash, Melon, sekcja Summer Squash",
+    "cytat": "Summer squash includes Cocozelle, Crookneck, Pattypan, Straightneck, White Scallop, and Zucchini.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "f2643479e448"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Zastosowanie instrukcji dla dyni letnich do patisona to wniosek z przynależności do grupy (NCHFP nie wymienia patisona z nazwy).",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",
