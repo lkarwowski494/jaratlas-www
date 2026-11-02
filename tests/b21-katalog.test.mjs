@@ -144,7 +144,7 @@ test("B21: poza polami z listy warianty bez cichych zmian; publication ukryta w 
   for (const [id, keys] of Object.entries(POLA)) if (!B25.has(id)) assert.equal(h(bez(V.get(id), keys)), SNAP[id], `${id}: pola poza ${keys.join(", ")} bez zmian`);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
   // D-043 P2-1: reszta katalogu (1350 wariantów spoza porcji i pola najwyższego poziomu poza version) jak w 1.0.13 (4e3dcaa).
-  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B25.has(v.id) && !B27.has(v.id) && !B28.has(v.id))), "e00d5ca2d4c5", "warianty spoza B21, B25, B27 i B28 bez zmian (skrót na 1.0.14, 3a2c546; B28: przeliczony, stary 5826a2f2a7e9)");
+  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B25.has(v.id) && !B27.has(v.id) && !B28.has(v.id))), "a682ddb85307", "warianty spoza B21, B25, B27 i B28 bez zmian (skrót na 1.0.14, 3a2c546; B28 z (h): przeliczony, stary 5826a2f2a7e9)");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
 });
 

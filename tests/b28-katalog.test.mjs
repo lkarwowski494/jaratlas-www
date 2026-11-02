@@ -48,6 +48,12 @@ const TERMIN_WYJATKI = ["NAP-005", "MIE-084"];
 const ZMIENIAJA = [...Object.keys(RW), ...Object.keys(NP)];
 // Skrót pól spoza listy sprzed B28 (katalog 1.0.16, d85a8aa): RW/NP bez safetyStatus, cardType, claims, requiredWarnings, notes; reszta bez notes.
 const SNAP = {"pork-loin-ham-v01":"c1d3f92d0956","pork-loin-ham-v06":"5e4da6179ee4","pork-loin-ham-v11":"48635fd76dee","pork-belly-jowl-v01":"9d914781c8bb","pork-belly-jowl-v02":"2ad5a5d2a9e8","pork-belly-jowl-v09":"61e7a84c8267","smoked-cooked-sausages-v02":"c01e953bf684","smoked-cooked-sausages-v03":"a07c12b576e3","smoked-cooked-sausages-v04":"7d583b84f5e9","smoked-cooked-sausages-v05":"9d9bf722efd0","smoked-cooked-sausages-v06":"bf852aceaf6f","smoked-cooked-sausages-v07":"5696ee31ad56","smoked-cooked-sausages-v08":"56578fb339da","smoked-cooked-sausages-v09":"3108b2765c42","smoked-cooked-sausages-v15":"f96f3977ee8a","smoked-cooked-sausages-v16":"e73cb375abc0","dry-cured-sausages-v12":"eff42258641a","freshwater-fish-v08":"709f8ae9ee31","eggs-v01":"dee2e307506e","eggs-v02":"09724a0e0216","eggs-v04":"fad0f410a84f","eggs-v05":"7faf132c6fb4","eggs-v08":"ec6a1b452f5b","fermented-beverages-v02":"7902736fe4f2","fermented-beverages-v03":"90c49fbf4331","ginger-turmeric-v03":"9fcd0fe78bf7"};
+// (h) koordynator: requiredWarnings dla 25 kart-ostrzeżeń z pustym requiredWarnings (propozycje p36 dla kart en, sprawdzone w B28);
+// SZY-044 przy sea-fish-v14 to parametr procesu, nie ostrzeżenie: dodany wg zasady „przy wątpliwości dodaj” (B28-D6, do weta); sea-fish-v08 wycofany.
+const T3 = ["MIE-023", "MIE-024", "MIE-025"];
+export const H = {"dry-cured-sausages-v02":T3,"dry-cured-sausages-v03":T3,"dry-cured-sausages-v04":T3,"dry-cured-sausages-v05":T3,"dry-cured-sausages-v06":T3,"dry-cured-sausages-v07":T3,"dry-cured-sausages-v11":T3,"dry-cured-sausages-v13":T3,"dry-cured-sausages-v01":["MIE-022","MIE-076"],"dry-cured-sausages-v08":["MIE-022","MIE-076"],"dry-cured-sausages-v09":["MIE-022","MIE-025"],"dry-cured-sausages-v10":["MIE-022","MIE-023","MIE-025"],"sea-fish-v02":["MIE-050","MIE-053","MIE-067"],"sea-fish-v06":["MIE-049","MIE-053"],"sea-fish-v08":["MIE-059","MIE-076","MIE-077"],"sea-fish-v15":["MIE-059","MIE-076","MIE-077"],"sea-fish-v10":["MIE-061","MIE-066","MIE-067"],"sea-fish-v14":["SZY-006","SZY-013","SZY-044"],"garlic-v01":["FER-068"],"garlic-v02":["FER-068"],"ginger-turmeric-v08":["FER-068"],"garlic-v03":["FER-070","SLO-036","SLO-037"],"garlic-v11":["OLE-033"],"pumpkin-v08":["SLO-045","SLO-046"],"pumpkin-v09":["SLO-044","SLO-045","SLO-046"]};
+// Skrót pól poza requiredWarnings i notes sprzed (h) (d85a8aa).
+const SNAP_H = {"dry-cured-sausages-v02":"e7c81fec0dd6","dry-cured-sausages-v03":"e2023a8e750a","dry-cured-sausages-v04":"855e7d155199","dry-cured-sausages-v05":"8bf58063bc7a","dry-cured-sausages-v06":"80614ba192a9","dry-cured-sausages-v07":"c0b0b8618f68","dry-cured-sausages-v11":"d9775be9d510","dry-cured-sausages-v13":"e58342f1749a","dry-cured-sausages-v01":"d8f0f310f679","dry-cured-sausages-v08":"787a0839615f","dry-cured-sausages-v09":"745eb9470c5e","dry-cured-sausages-v10":"4ffbb1000cfe","sea-fish-v02":"63d0f19a8beb","sea-fish-v06":"fd66518c0ecf","sea-fish-v08":"115f1aca5190","sea-fish-v15":"15eae98b9bec","sea-fish-v10":"8eacabe36f7f","sea-fish-v14":"95ca6779c3eb","garlic-v01":"55930abadbe5","garlic-v02":"b02d9033ab9b","ginger-turmeric-v08":"275852f8ba3d","garlic-v03":"fbe5b0bfec84","garlic-v11":"2e43d2ad3f35","pumpkin-v08":"d166970810dc","pumpkin-v09":"89dc5c849ad2"};
 // Claims sprzed B28 (d85a8aa): nic nie znika, dochodzą twierdzenia B26 i ostrzeżenia.
 const PRZED = JSON.parse(readFileSync(new URL("./dane/b28-claims-przed.json", import.meta.url), "utf8"));
 
@@ -149,7 +155,7 @@ test("B28: poza polami z listy warianty bez cichych zmian; publication ukryta w 
   assert.deepEqual(Object.keys(SNAP).sort(), [...W.keys()].sort());
   for (const id of W.keys()) assert.equal(h(bez(V.get(id), ZMIENIAJA.includes(id) ? ["safetyStatus", "cardType", "claims", "requiredWarnings", "notes"] : ["notes"])), SNAP[id], `${id}: pola spoza listy bez zmian`);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
-  assert.equal(h(cat.variants.filter((v) => !W.has(v.id))), "da60c0366fbf", "warianty spoza B28 bez zmian (skrót na 1.0.16, d85a8aa)");
+  assert.equal(h(cat.variants.filter((v) => !W.has(v.id) && !(v.id in H))), "90b9723fbdd2", "warianty spoza B28 i (h) bez zmian (skrót na 1.0.16, d85a8aa)");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
 });
 
@@ -157,4 +163,17 @@ test("B28 (ADR 0008): treść dodana w B28 (twierdzenia, notatki) bez tytułów 
   // Rejestr miał wzmianki o książkach przed B28 (listy dopuszczonych wydań UC ANR); test pilnuje tylko tego, co dodaje ta porcja.
   const s = JSON.stringify(NOWE.map((id) => R.get(id))) + JSON.stringify(cat.variants.flatMap((v) => (v.notes ?? []).filter((n) => n.startsWith("[B28]"))));
   assert.doesNotMatch(s, /\bBall\b|Bernardin|Blue Book|Complete Book|So Easy to Preserve|Jarden|ISBN/);
+});
+
+test("B28 (h): 25 kart-ostrzeżeń dostaje requiredWarnings z claims; poza requiredWarnings i notes bez zmian; status bez zmian", () => {
+  assert.equal(Object.keys(H).length, 25);
+  for (const [id, w] of Object.entries(H)) {
+    const v = V.get(id);
+    assert.equal(v.cardType, "warning", id);
+    assert.deepEqual(v.requiredWarnings, w, `${id}: requiredWarnings`);
+    for (const c of w) { assert.ok(v.claims.includes(c), `${id}: ${c} w claims`); assert.equal(R.get(c)?.status, "potwierdzone", `${id}: ${c}`); }
+    assert.equal(h(bez(v, ["requiredWarnings", "notes"])), SNAP_H[id], `${id}: reszta bez zmian`);
+    assert.ok(v.notes.some((n) => n.startsWith("[B28] (h)") && n.includes(DEC) && w.every((c) => n.includes(c))), `${id}: notatka [B28] (h)`);
+  }
+  assert.ok(V.get("sea-fish-v08").retired && V.get("sea-fish-v14").notes.some((n) => n.includes("B28-D6")));
 });

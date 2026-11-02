@@ -140,7 +140,7 @@ test("B27: poza polami z listy warianty bez cichych zmian; publication ukryta w 
   assert.deepEqual(Object.keys(SNAP).sort(), Object.keys(POLA).sort());
   for (const [id, keys] of Object.entries(POLA)) assert.equal(h(bez(V.get(id), keys)), SNAP[id], `${id}: pola poza ${keys.join(", ")} bez zmian`);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
-  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B28.has(v.id))), "4c88001f538c", "warianty spoza B27 i B28 bez zmian (skrót na 0ecbac7; B28: przeliczony, stary 219465312ebb)");
+  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B28.has(v.id))), "a4414eadfed5", "warianty spoza B27 i B28 bez zmian (skrót na 0ecbac7; B28 z (h): przeliczony, stary 219465312ebb)");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
 });
 

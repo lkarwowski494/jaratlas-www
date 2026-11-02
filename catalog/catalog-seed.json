@@ -9082,14 +9082,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Dżem z dyni to zmiksowana/rozgotowana dynia z cukrem; NCHFP nie ma procesu dla takich produktów i odradza wekowanie rozgniecionej dyni. Alternatywa: lodówka krótko lub zamrażarka."
+    "[SLO*] Dżem z dyni to zmiksowana/rozgotowana dynia z cukrem; NCHFP nie ma procesu dla takich produktów i odradza wekowanie rozgniecionej dyni. Alternatywa: lodówka krótko lub zamrażarka.",
+    "[B28] (h) requiredWarnings SLO-045, SLO-046 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "SLO-045",
+    "SLO-046"
+   ]
   },
   {
    "id": "pumpkin-v09",
@@ -9120,7 +9125,8 @@
    "notes": [
     "[SLO*] NCHFP wprost: brak procesu wekowania masła dyniowego; zrobić na świeżo do lodówki albo zamrozić. Karta wyjaśnia, dlaczego nie wekować (jad kiełbasiany, gęstość, aktywność wody).",
     "[OLE] Masło owocowe/dyniowe to przetwór słodki, nie tłuszcz. Dla masła dyniowego sprawdzić NCHFP (prawdopodobny zakaz wekowania; niezweryfikowane).",
-    "[E3] nie-publikowac → ryzyko-wysokie: Proces v1 to zamrażarka. SLO-044 (NCHFP FAQ, szczebel 1, przeczytane w kontekście) mówi tylko, że brak procesu wekowania masła dyniowego, i zaleca robić je na świeżo do krótkiego przechowywania w lodówce albo zamrażać. Źródło szczebla 1 nie odradza więc tego procesu, tylko go zaleca. Ryzyko-wysokie tak, jak przy pumpkin-v08 (te same twierdzenia): NCHFP nazywa problem dla tego produktu (SLO-045, SZY-015), a przetestowanego przepisu nie ma."
+    "[E3] nie-publikowac → ryzyko-wysokie: Proces v1 to zamrażarka. SLO-044 (NCHFP FAQ, szczebel 1, przeczytane w kontekście) mówi tylko, że brak procesu wekowania masła dyniowego, i zaleca robić je na świeżo do krótkiego przechowywania w lodówce albo zamrażać. Źródło szczebla 1 nie odradza więc tego procesu, tylko go zaleca. Ryzyko-wysokie tak, jak przy pumpkin-v08 (te same twierdzenia): NCHFP nazywa problem dla tego produktu (SLO-045, SZY-015), a przetestowanego przepisu nie ma.",
+    "[B28] (h) requiredWarnings SLO-044, SLO-045, SLO-046 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -9128,7 +9134,12 @@
     "SLO",
     "OLE"
    ],
-   "e3": "zmieniony z nie-publikowac"
+   "e3": "zmieniony z nie-publikowac",
+   "requiredWarnings": [
+    "SLO-044",
+    "SLO-045",
+    "SLO-046"
+   ]
   },
   {
    "id": "pumpkin-v10",
@@ -17771,7 +17782,8 @@
    },
    "notes": [
     "[FER*] Czosnek niskokwasowy; ekspert extension: fermentacja czosnku nie jest zatwierdzoną metodą, brak zwalidowanych przepisów (szczebel 3, Ask Extension). Karta tylko jako ostrzeżenie.",
-    "[SZY] Czosnek kiszony (FER)."
+    "[SZY] Czosnek kiszony (FER).",
+    "[B28] (h) requiredWarnings FER-068 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -17779,7 +17791,10 @@
     "FER",
     "SZY"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "FER-068"
+   ]
   },
   {
    "id": "garlic-v02",
@@ -17807,14 +17822,18 @@
     "difficulty": null
    },
    "notes": [
-    "[FER*] Jak garlic-v01 (całe główki z burakiem)."
+    "[FER*] Jak garlic-v01 (całe główki z burakiem).",
+    "[B28] (h) requiredWarnings FER-068 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "FER"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "FER-068"
+   ]
   },
   {
    "id": "garlic-v03",
@@ -17846,7 +17865,8 @@
    },
    "notes": [
     "[FER*] Czosnek w surowym miodzie: K-State i Ask Extension wskazują ryzyko jadu kiełbasianego, brak przepisów opartych na badaniach; miód nie dla dzieci <1 r.ż. Tylko ostrzeżenie.",
-    "[SLO] Czosnek fermentowany w surowym miodzie: K-State wskazuje ryzyko botulizmu i nieznane pH/aktywność wody. Karta tylko jako ostrzeżenie; miód nie dla niemowląt."
+    "[SLO] Czosnek fermentowany w surowym miodzie: K-State wskazuje ryzyko botulizmu i nieznane pH/aktywność wody. Karta tylko jako ostrzeżenie; miód nie dla niemowląt.",
+    "[B28] (h) requiredWarnings FER-070, SLO-036, SLO-037 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -17854,7 +17874,12 @@
     "FER",
     "SLO"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "FER-070",
+    "SLO-036",
+    "SLO-037"
+   ]
   },
   {
    "id": "garlic-v04",
@@ -18204,7 +18229,8 @@
    },
    "notes": [
     "[OLE*] Pasta czosnkowa z 20% soli: sól jako jedyna bariera nie jest zalecana konsumentom; surowy czosnek niskokwasowy. Brak przetestowanego przepisu; jeśli pod olejem – reguła czosnku w oleju.",
-    "[SUS] Pasta czosnkowa z solą: brak przetestowanego przepisu; czosnek niskokwasowy."
+    "[SUS] Pasta czosnkowa z solą: brak przetestowanego przepisu; czosnek niskokwasowy.",
+    "[B28] (h) requiredWarnings OLE-033 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -18213,7 +18239,10 @@
     "SUS"
    ],
    "e3": "potwierdzony",
-   "nameV0": "pasta czosnkowa z solą ($20\\%$)"
+   "nameV0": "pasta czosnkowa z solą ($20\\%$)",
+   "requiredWarnings": [
+    "OLE-033"
+   ]
   },
   {
    "id": "garlic-v12",
@@ -25166,14 +25195,18 @@
     "difficulty": null
    },
    "notes": [
-    "[FER*] Fermentowana pasta z czosnkiem: dotyczy jej FER-068 (brak zwalidowanych przepisów na fermentowany czosnek)."
+    "[FER*] Fermentowana pasta z czosnkiem: dotyczy jej FER-068 (brak zwalidowanych przepisów na fermentowany czosnek).",
+    "[B28] (h) requiredWarnings FER-068 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "FER"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "FER-068"
+   ]
   },
   {
    "id": "ginger-turmeric-v09",
@@ -53652,14 +53685,19 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Kiełbasa surowa wędzona na zimno: UGA wymaga pełnego ugotowania kiełbas surowych wędzonych przed jedzeniem (MIE-022). Jedzona na surowo bez kontroli pH/aw = brak przetestowanej procedury."
+    "[MIE*] Kiełbasa surowa wędzona na zimno: UGA wymaga pełnego ugotowania kiełbas surowych wędzonych przed jedzeniem (MIE-022). Jedzona na surowo bez kontroli pH/aw = brak przetestowanej procedury.",
+    "[B28] (h) requiredWarnings MIE-022, MIE-076 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-022",
+    "MIE-076"
+   ]
   },
   {
    "id": "dry-cured-sausages-v02",
@@ -53692,14 +53730,20 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Kindziuk/skilandis: surowe, długo dojrzewające; brak przetestowanego przepisu domowego; bezpieczeństwo zależy od pH, aw i fermentacji, których nie da się zweryfikować bez pomiaru."
+    "[MIE*] Kindziuk/skilandis: surowe, długo dojrzewające; brak przetestowanego przepisu domowego; bezpieczeństwo zależy od pH, aw i fermentacji, których nie da się zweryfikować bez pomiaru.",
+    "[B28] (h) requiredWarnings MIE-023, MIE-024, MIE-025 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-023",
+    "MIE-024",
+    "MIE-025"
+   ]
   },
   {
    "id": "dry-cured-sausages-v03",
@@ -53733,7 +53777,8 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Salami: UGA podaje przepisy na pepperoni i suche salami wołowe, ale bezpieczeństwo zależy od skutecznej kultury starterowej, spadku pH i aw (MIE-023–027); E. coli O157:H7 wymaga podgrzania po fermentacji (MIE-024), którego tradycyjne salami nie ma."
+    "[MIE*] Salami: UGA podaje przepisy na pepperoni i suche salami wołowe, ale bezpieczeństwo zależy od skutecznej kultury starterowej, spadku pH i aw (MIE-023–027); E. coli O157:H7 wymaga podgrzania po fermentacji (MIE-024), którego tradycyjne salami nie ma.",
+    "[B28] (h) requiredWarnings MIE-023, MIE-024, MIE-025 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -53741,7 +53786,12 @@
     "MIE"
    ],
    "e3": "potwierdzony",
-   "nameV0": "włoskie salami milano i napoli (z kulturami starterowymi obniżającymi $\\text{pH}$ i białą pleśnią *Penicillium nalgiovense*)"
+   "nameV0": "włoskie salami milano i napoli (z kulturami starterowymi obniżającymi $\\text{pH}$ i białą pleśnią *Penicillium nalgiovense*)",
+   "requiredWarnings": [
+    "MIE-023",
+    "MIE-024",
+    "MIE-025"
+   ]
   },
   {
    "id": "dry-cured-sausages-v04",
@@ -53775,14 +53825,20 @@
    },
    "notes": [
     "[MIE*] Jak v03 (finocchiona).",
-    "[E1] Propozycja scalenia z dry-cured-sausages-v03 odrzucona: odrębny wyrób."
+    "[E1] Propozycja scalenia z dry-cured-sausages-v03 odrzucona: odrębny wyrób.",
+    "[B28] (h) requiredWarnings MIE-023, MIE-024, MIE-025 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-023",
+    "MIE-024",
+    "MIE-025"
+   ]
   },
   {
    "id": "dry-cured-sausages-v05",
@@ -53814,14 +53870,20 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Chorizo curado: jak v03."
+    "[MIE*] Chorizo curado: jak v03.",
+    "[B28] (h) requiredWarnings MIE-023, MIE-024, MIE-025 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-023",
+    "MIE-024",
+    "MIE-025"
+   ]
   },
   {
    "id": "dry-cured-sausages-v06",
@@ -53853,14 +53915,20 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Fuet: jak v03."
+    "[MIE*] Fuet: jak v03.",
+    "[B28] (h) requiredWarnings MIE-023, MIE-024, MIE-025 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-023",
+    "MIE-024",
+    "MIE-025"
+   ]
   },
   {
    "id": "dry-cured-sausages-v07",
@@ -53892,14 +53960,20 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Saucisson sec: jak v03."
+    "[MIE*] Saucisson sec: jak v03.",
+    "[B28] (h) requiredWarnings MIE-023, MIE-024, MIE-025 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-023",
+    "MIE-024",
+    "MIE-025"
+   ]
   },
   {
    "id": "dry-cured-sausages-v08",
@@ -53934,14 +54008,19 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Metka: surowe mięso mielone, wędzone na zimno, jedzone bez gotowania i bez suszenia; UGA: kiełbasy surowe wędzone muszą być ugotowane (MIE-022)."
+    "[MIE*] Metka: surowe mięso mielone, wędzone na zimno, jedzone bez gotowania i bez suszenia; UGA: kiełbasy surowe wędzone muszą być ugotowane (MIE-022).",
+    "[B28] (h) requiredWarnings MIE-022, MIE-076 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-022",
+    "MIE-076"
+   ]
   },
   {
    "id": "dry-cured-sausages-v09",
@@ -53977,14 +54056,19 @@
    },
    "notes": [
     "[MIE*] Teewurst: jak metka (surowa, smarowna).",
-    "[E1] Propozycja scalenia z dry-cured-sausages-v08 odrzucona: odrębny wyrób."
+    "[E1] Propozycja scalenia z dry-cured-sausages-v08 odrzucona: odrębny wyrób.",
+    "[B28] (h) requiredWarnings MIE-022, MIE-025 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-022",
+    "MIE-025"
+   ]
   },
   {
    "id": "dry-cured-sausages-v10",
@@ -54013,14 +54097,20 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] ’Nduja: surowa, smarowna, fermentowana, wysoka aw; jak metka."
+    "[MIE*] ’Nduja: surowa, smarowna, fermentowana, wysoka aw; jak metka.",
+    "[B28] (h) requiredWarnings MIE-022, MIE-023, MIE-025 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-022",
+    "MIE-023",
+    "MIE-025"
+   ]
   },
   {
    "id": "dry-cured-sausages-v11",
@@ -54053,7 +54143,8 @@
    },
    "notes": [
     "[SLO] Kiełbasa dojrzewająca, obszar MIE.",
-    "[MIE*] Csabai: surowa dojrzewająca, jak v03."
+    "[MIE*] Csabai: surowa dojrzewająca, jak v03.",
+    "[B28] (h) requiredWarnings MIE-023, MIE-024, MIE-025 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -54061,7 +54152,12 @@
     "SLO",
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-023",
+    "MIE-024",
+    "MIE-025"
+   ]
   },
   {
    "id": "dry-cured-sausages-v12",
@@ -54136,14 +54232,20 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Sudżuk surowy dojrzewający (wołowina, baranina): jak v03; E. coli O157:H7 (MIE-024)."
+    "[MIE*] Sudżuk surowy dojrzewający (wołowina, baranina): jak v03; E. coli O157:H7 (MIE-024).",
+    "[B28] (h) requiredWarnings MIE-023, MIE-024, MIE-025 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-023",
+    "MIE-024",
+    "MIE-025"
+   ]
   },
   {
    "id": "beef-veal-v01",
@@ -56236,7 +56338,8 @@
    },
    "notes": [
     "[OLE] Ryby solone/marynowane w oleju: reguła oleju – olej nie konserwuje; pasożyty i solenie w MIE.",
-    "[MIE*] Domowe solenie śledzi w beczce: larwy nicieni przeżywają w mocnej solance (MIE-050), UE wymaga zamrożenia ryb solonych (MIE-053), a niewypatroszone lub częściowo wypatroszone ryby solone to zagrożenie jadem kiełbasianym (MIE-067). Z gotowych płatów matjasa to tylko potrawa."
+    "[MIE*] Domowe solenie śledzi w beczce: larwy nicieni przeżywają w mocnej solance (MIE-050), UE wymaga zamrożenia ryb solonych (MIE-053), a niewypatroszone lub częściowo wypatroszone ryby solone to zagrożenie jadem kiełbasianym (MIE-067). Z gotowych płatów matjasa to tylko potrawa.",
+    "[B28] (h) requiredWarnings MIE-050, MIE-053, MIE-067 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -56244,7 +56347,12 @@
     "OLE",
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-050",
+    "MIE-053",
+    "MIE-067"
+   ]
   },
   {
    "id": "sea-fish-v03",
@@ -56398,7 +56506,8 @@
    "notes": [
     "[ACI] Boquerones (surowa ryba w occie — pasożyty) — poza ACI.",
     "[OLE] Ryby solone/marynowane w oleju: reguła oleju – olej nie konserwuje; pasożyty i solenie w MIE.",
-    "[MIE*] Surowe sardele w occie: ocet nie zabija pasożytów (MIE-049), UE wymaga zamrożenia ryb marynowanych (MIE-053). Bez przepisu szczebla 1–3; najbliższy jest przepis UW Sea Grant na marynowanie filetów (MIE-055, MIE-080). Karta tylko z warunkiem zamrożenia wg FDA/UE."
+    "[MIE*] Surowe sardele w occie: ocet nie zabija pasożytów (MIE-049), UE wymaga zamrożenia ryb marynowanych (MIE-053). Bez przepisu szczebla 1–3; najbliższy jest przepis UW Sea Grant na marynowanie filetów (MIE-055, MIE-080). Karta tylko z warunkiem zamrożenia wg FDA/UE.",
+    "[B28] (h) requiredWarnings MIE-049, MIE-053 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -56407,7 +56516,11 @@
     "OLE",
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-049",
+    "MIE-053"
+   ]
   },
   {
    "id": "sea-fish-v07",
@@ -56479,7 +56592,8 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Wariant łączy dwa procesy: na gorąco ma przetestowane źródła (MIE-071), na zimno nie: temperatury nie zabijają bakterii (MIE-076), cały proces w strefie zagrożenia (MIE-077), C. botulinum typu E rośnie od 3,3°C (MIE-059). Rozdzielić na dwa warianty."
+    "[MIE*] Wariant łączy dwa procesy: na gorąco ma przetestowane źródła (MIE-071), na zimno nie: temperatury nie zabijają bakterii (MIE-076), cały proces w strefie zagrożenia (MIE-077), C. botulinum typu E rośnie od 3,3°C (MIE-059). Rozdzielić na dwa warianty.",
+    "[B28] (h) requiredWarnings MIE-059, MIE-076, MIE-077 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). Wariant wycofany (rozdzielony na sea-fish-v15 i v16): ostrzeżenia tylko dla spójności danych; karty dla wycofanego nie publikuje się. (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -56491,7 +56605,12 @@
     "replacedBy": "sea-fish-v16",
     "decision": "2026-11-01-jaratlas-katalog-v1-e1"
    },
-   "nameV0": "łosoś wędzony na zimno (poniżej $25^\\circ\\text{C}$) oraz na gorąco (stremel)"
+   "nameV0": "łosoś wędzony na zimno (poniżej $25^\\circ\\text{C}$) oraz na gorąco (stremel)",
+   "requiredWarnings": [
+    "MIE-059",
+    "MIE-076",
+    "MIE-077"
+   ]
   },
   {
    "id": "sea-fish-v09",
@@ -56574,14 +56693,20 @@
     "difficulty": null
    },
    "notes": [
-    "[MIE*] Szproty wędzi się zwykle w całości, niewypatroszone: FDA dopuszcza to tylko przy 10% soli w fazie wodnej lub aw/pH trwałości (MIE-066), czego w domu się nie mierzy. Wypatroszone śledzie wędzone na gorąco: jak v09."
+    "[MIE*] Szproty wędzi się zwykle w całości, niewypatroszone: FDA dopuszcza to tylko przy 10% soli w fazie wodnej lub aw/pH trwałości (MIE-066), czego w domu się nie mierzy. Wypatroszone śledzie wędzone na gorąco: jak v09.",
+    "[B28] (h) requiredWarnings MIE-061, MIE-066, MIE-067 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-061",
+    "MIE-066",
+    "MIE-067"
+   ]
   },
   {
    "id": "sea-fish-v11",
@@ -56741,7 +56866,8 @@
    "notes": [
     "[SZY*] Szproty w oleju: przetestowany proces dla ryb tłustych zabrania dodawania płynów; olej spoza przepisu. Alternatywa: szproty jak ryby tłuste, bez oleju, pint 100 min (SZY-044) – do weryfikacji, czy szprot pasuje do „other fatty fish”.",
     "[OLE] Szproty w oleju: sprawdzić NCHFP Fish in pint jars (szybkowar).",
-    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY."
+    "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
+    "[B28] (h) requiredWarnings SZY-006, SZY-013, SZY-044 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). SZY-044 to parametr procesu NCHFP (ryby tłuste bez płynu, 100 min), nie ostrzeżenie: dodany zgodnie z zasadą koordynatora „przy wątpliwości dodaj”, do weta (B28-D6). (2026-11-02-jaratlas-b28-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -56750,7 +56876,12 @@
     "OLE",
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "SZY-006",
+    "SZY-013",
+    "SZY-044"
+   ]
   },
   {
    "id": "freshwater-fish-v01",
@@ -57772,9 +57903,15 @@
    ],
    "sources": [],
    "notes": [
-    "[E2] Część „na zimno” z sea-fish-v08: temperatury nie zabijają bakterii (MIE-076), C. botulinum typu E rośnie od 3,3 °C (MIE-059)."
+    "[E2] Część „na zimno” z sea-fish-v08: temperatury nie zabijają bakterii (MIE-076), C. botulinum typu E rośnie od 3,3 °C (MIE-059).",
+    "[B28] (h) requiredWarnings MIE-059, MIE-076, MIE-077 (propozycja p36 dla kart en, sprawdzona w B28: twierdzenia ostrzegawcze z claims wariantu; status bez zmian). (2026-11-02-jaratlas-b28-katalog)"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-059",
+    "MIE-076",
+    "MIE-077"
+   ]
   },
   {
    "id": "sea-fish-v16",
