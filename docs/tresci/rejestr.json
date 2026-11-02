@@ -15536,7 +15536,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "a8a4d5e54f08"
+   "sha": "303f1e758544"
   },
   "wielkosc": "temperatura zamrażarki",
   "wartosc": -18,
@@ -15781,7 +15781,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "236e5893a197"
+   "sha": "cf8fa221e6f7"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -32924,7 +32924,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "9dc66b12cf88"
+   "sha": "a43cabdc0fda"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33043,7 +33043,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "d6e89929ff85"
+   "sha": "fca812aadee9"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33261,7 +33261,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "818e5771c49f"
+   "sha": "c6dab4e423fe"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33362,7 +33362,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "1b9d9e9b1828"
+   "sha": "822ac02ca46a"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33397,7 +33397,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "09a9256d994b"
+   "sha": "d91fae599530"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33432,7 +33432,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "700ae4a2305d"
+   "sha": "721804107b1a"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -34015,6 +34015,57 @@
   ],
   "status": "potwierdzone",
   "uproszczenie": "Bez blanszowania (dynia gotowana do miękkości). „Pressure cooker” jako szybkowar. Sekcja gotowania warzyw z mrożonki (SLO-257) pominięta, bo dotyczy warzyw w kawałkach, nie puree.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-284",
+  "twierdzenie": "NCHFP Freezing Cranberries: wybrać jędrne, ciemnoczerwone owoce o błyszczącej skórce; usunąć szypułki, przebrać, umyć i odsączyć; pakowanie bez dodatków: włożyć do pojemników z wolną przestrzenią (wielkość według tabeli Headspace to Allow, SLO-249), albo najpierw zamrozić na tacy i zapakować, gdy tylko zamarzną; zamknąć i zamrozić. NCHFP opisuje też pakowanie w zimnym syropie 50%.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-cranberries/",
+    "miejsce": "NCHFP, Freezing Cranberries, Preparation, Dry Pack, Syrup Pack",
+    "cytat": "Choose firm, deep-red berries with glossy skins. Stem and sort. Wash and drain. Dry Pack – Pack cranberries into containers, leaving headspace . Cranberries can also be frozen first on a tray and then packed into containers as soon as they are frozen. Seal containers and freeze. Syrup Pack – Pack into containers. Cover with cold 50 percent syrup , leaving headspace .",
+    "sha12": "c819fe9460fe",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/headspace-to-allow/",
+    "miejsce": "NCHFP, Headspace to Allow, przypisy",
+    "cytat": "*Fruit packed in juice, sugar, syrup or water; crushed or pureéd fruit. **Fruit or vegetable packed without added sugar or liquid.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "50fcec14cf35"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Karta tylko dla pakowania na sucho; syrop 50% pominięty, bo przepisu na syrop 50% nie ma w rejestrze (jak wiśnie w p18). „Leaving headspace” na stronie to odnośnik pod stary adres (dziś 302 na /404); wielkość to wniosek z tabeli ogólnej Headspace to Allow (SLO-249, przypis o pakowaniu bez dodanego cukru i płynu: 1/2 cala). Wariant katalogu „żurawina”; borówki brusznicy NCHFP tu nie opisuje, karta jej nie wymienia.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-285",
+  "twierdzenie": "NCHFP Freezing Onions (karta: cebula w kostkę): cebulę obrać, przyciąć i dokładnie oczyścić; pokroić w kostkę ok. 1/4 cala (ok. 0,6 cm); blanszowanie niepotrzebne; zapakować na sucho do woreczków lub pojemników do mrożenia z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni albo zamrozić rozdzielone kawałki na czystej tacy przed zapakowaniem, usuwając z opakowania jak najwięcej powietrza; cebulę mrożoną w ten sposób najlepiej zużyć w ciągu kilku miesięcy. NCHFP opisuje też dymkę, całe cebule (blanszowane) i krążki cebuli.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-onions/",
+    "miejsce": "NCHFP, Freezing Onions, Diced Onions, Green Onions, Whole Bulb Onions, Onion Rings",
+    "cytat": "Diced Onions – Peel, trim and clean thoroughly. Dice (about 1/4-inch pieces). No blanching is required. Either pack dry into recommended freezer bags or containers , leaving1/2-inch headspace. Or, freeze separated pieces on a clean tray prior to packaging. Eliminate as much air as possible from the package for this method. Onions frozen this way are best used within a few months.",
+    "sha12": "396a18a09681",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Karta tylko dla cebuli w kostkę (wariant katalogu „cebula pokrojona mrożona”); dymka, całe cebule i krążki pominięte. „Leaving1/2-inch” w surowym tekście bez spacji. Zdania o jakości 8–12 miesięcy (SUS-058, SLO-261) i o gotowaniu warzyw z mrożonki (SLO-257) pominięte, bo strona produktu podaje krótszy czas („a few months”), a cebula służy jako dodatek. 1/4 cala ≈ 0,6 cm (rachunek JarAtlas).",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",

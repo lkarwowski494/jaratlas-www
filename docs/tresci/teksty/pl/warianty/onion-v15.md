@@ -1,0 +1,65 @@
+# Cebula pokrojona w kostkę, mrożona (NCHFP)
+
+Ta karta opisuje instrukcję NCHFP mrożenia cebuli pokrojonej w kostkę: pokrojonej, zapakowanej bez blanszowania i zamrożonej w 0 °F (−18 °C) lub niżej. [T:SLO-285,SUS-050]
+
+## Wybór i przygotowanie
+
+Obierz cebulę, przytnij ją i dokładnie oczyść. [T:SLO-285]
+
+Pokrój ją w kostkę o boku ok. 1/4 cala (ok. 0,6 cm). [T:SLO-285]
+
+Cebuli pokrojonej w kostkę nie trzeba blanszować. [T:SLO-285]
+
+NCHFP opisuje też mrożenie dymki, całych cebul (blanszowanych) i krążków cebuli; ta karta obejmuje tylko cebulę pokrojoną w kostkę. [T:SLO-285]
+
+## Pakowanie
+
+Pokrojoną cebulę pakuj na sucho do woreczków albo pojemników do mrożenia, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:SLO-285]
+
+Możesz też najpierw zamrozić rozdzielone kawałki na czystej tacy, a dopiero potem je zapakować; przy tym sposobie usuń z opakowania jak najwięcej powietrza. [T:SLO-285]
+
+Używaj opakowań odpornych na wilgoć i parę wodną, trwałych i szczelnych, które nie kruszą się i nie pękają na mrozie. [T:SLO-251]
+
+Pakuj ciasno, zostawiając jak najmniej powietrza, a z woreczków do mrożenia przed zamknięciem wyciśnij jak najwięcej powietrza. [T:SLO-250,SLO-251]
+
+Nie mroź owoców ani warzyw w pojemnikach o pojemności większej niż 1/2 galon (ok. 1,9 l): w większych żywność zamarza za wolno. [T:SLO-251]
+
+Zwykłe słoiki szklane łatwo pękają w temperaturze zamrażarki; jeśli używasz szkła, wybierz słoiki z szerokim otworem przeznaczone do mrożenia i wekowania. [T:SLO-251]
+
+W zwykłych słoikach do wekowania z wąskim otworem zostaw dodatkową wolną przestrzeń, bo rozszerzająca się żywność może rozsadzić słoik przy szyjce. [T:SLO-251]
+
+Sztywne pojemniki zamykaj szczelną pokrywką i dbaj, żeby krawędź uszczelnienia była czysta i sucha. [T:SLO-250]
+
+Opisz każde opakowanie: nazwa produktu, dodatki, data pakowania, ilość i postać, np. w całości albo w plasterkach. [T:SLO-250]
+
+## Mrożenie i przechowywanie
+
+Zamrażaj w temperaturze 0 °F (−18 °C) lub niższej. [T:SUS-050]
+
+Żeby mrożenie szło szybciej, ustaw zamrażarkę na −10 °F (ok. −23 °C) lub niżej mniej więcej 24 godziny wcześniej. [T:SUS-051]
+
+Nie przeładowuj zamrażarki: wkładaj tylko tyle niezamrożonej żywności, ile zamarznie w ciągu 24 godzin. [T:SUS-052]
+
+Trzymaj w zamrażarce 0 °F (−18 °C) lub mniej, bo w wyższej temperaturze żywność szybciej traci jakość; trzymaj w niej termometr i często go sprawdzaj. [T:SLO-255]
+
+Według NCHFP cebulę zamrożoną w ten sposób najlepiej zużyć w ciągu kilku miesięcy. [T:SLO-285]
+
+## Rozmrażanie
+
+Nigdy nie rozmrażaj żywności w temperaturze pokojowej ani w ciepłej wodzie: jej zewnętrzna warstwa nagrzewa się wtedy do strefy zagrożenia 40–140 °F (ok. 4–60 °C), w której bakterie szybko się namnażają. [T:SLO-258]
+
+Rozmrażaj w lodówce w 40 °F (ok. 4 °C) lub niżej, w zimnej bieżącej wodzie poniżej 70 °F (ok. 21 °C) albo w mikrofalówce, jeśli od razu ją ugotujesz lub podasz. [T:SLO-258]
+
+W zimnej wodzie rozmrażaj tylko w szczelnym opakowaniu lub woreczku, tylko dopóki woda ma poniżej 70 °F (ok. 21 °C) i tylko wtedy, gdy żywność rozmrozi się w mniej niż 2 godziny. [T:SLO-258]
+
+## Kiedy wyrzucić
+
+Żywność jest bezpieczna, dopóki pozostaje zamrożona, ale gdy się rozmrozi i ogrzeje powyżej 40 °F (ok. 4 °C), bakterie obecne przed zamrożeniem mogą zacząć się namnażać. [T:SUS-059]
+
+Przy braku prądu nie otwieraj zamrażarki: według FDA pełna zamrażarka utrzymuje temperaturę ok. 48 godzin, a w połowie pełna 24 godziny. [T:SLO-259]
+
+Po powrocie prądu żywność, która ma jeszcze kryształki lodu albo ma 40 °F (ok. 4 °C) lub mniej, według FDA można bezpiecznie ponownie zamrozić albo ugotować; nie da się tego ocenić po wyglądzie ani zapachu. [T:SLO-259]
+
+Reguła JarAtlas (ostrożna): wyrzuć opakowanie, które nie ma kryształków lodu i ma powyżej 40 °F (ok. 4 °C), albo którego nie da się sprawdzić. [T:SLO-260]
+
+FDA każe też wyrzucić łatwo psującą się żywność, która leżała w temperaturze pokojowej 2 godziny lub dłużej, a 1 godzinę, gdy na zewnątrz jest powyżej 90 °F (ok. 32 °C). [T:SLO-260]

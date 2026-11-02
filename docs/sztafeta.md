@@ -1,5 +1,5 @@
 # Stan sztafety
-Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 (noc, partia 18)
+Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 (dzień, partia 19)
 
 | Rola | Tryb | Stan | Commit | Artefakty | Otwarte decyzje |
 |---|---|---|---|---|---|
@@ -30,7 +30,8 @@
 | 06 Treści | build (karty fali 1, partia 15 en/pl, mrożenie: brukselka, cukinia, szparagi, kalarepa, jeżyny, agrest, porzeczki czerwone) | STOP 2026-11-02 noc: 138 kart en/pl łącznie, E3 zastępczy 2 przebiegi, `npm run check` kod 0 | 1fc2917 | `docs/tresci/E3-karty-p15-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p15` |
 | 06 Treści | build (karty fali 1, partia 16 en/pl, mrożenie: patison, szpinak i inne liście, kapusta biała i pekińska) | STOP 2026-11-02 noc: 146 kart en/pl łącznie, E3 zastępczy 2 przebiegi, `npm run check` kod 0 | a530205 | `docs/tresci/E3-karty-p16-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p16`; nazwa leafy-greens-v13 w katalogu |
 | 06 Treści | build (karty fali 1, partia 18 en/pl, mrożenie: pasternak, brukiew, seler naciowy, winogrona, wiśnie) | STOP 2026-11-02 noc: 168 kart en/pl łącznie, E3 zastępczy, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p18-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p18`; nazwy parsnip-parsley-v11, peas-chickpeas-v17 w katalogu |
+| 06 Treści | build (karty fali 1, partia 19 en/pl, poprawka SLO-251 + mrożenie: kukurydza, dynia, żurawina, cebula) | STOP 2026-11-02 dzień: 176 kart en/pl łącznie, E3 zastępczy, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p19-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p19`; nazwa cranberry-lingonberry-v14 w katalogu |
 ## Następny krok
-1. **06-tresci**: partia 19 en/pl (nowa sesja), dalsze mrożenie według wzoru z raportu E3 p14 §2 (38 wariantów `freezing` ok-zrodlo bez kart); osobne bloki dla owoców z kwasem askorbinowym, czosnku w oleju i pesto, mięsa, ryb, nabiału i jaj. Przekład fal: po zgodzie właściciela na kwotę, sekret `ANTHROPIC_API_KEY` i workflow na main — przebieg dowodowy fr, potem drugi przegląd AI i przegląd człowieka (rola 09 E3).
+1. **06-tresci**: partia 20 en/pl (nowa sesja), dalsze mrożenie według wzoru z raportu E3 p14 §2 (34 warianty `freezing` ok-zrodlo bez kart); osobne bloki dla owoców z kwasem askorbinowym, czosnku w oleju i pesto, mięsa, ryb, nabiału i jaj. Przekład fal: po zgodzie właściciela na kwotę, sekret `ANTHROPIC_API_KEY` i workflow na main — przebieg dowodowy fr, potem drugi przegląd AI i przegląd człowieka (rola 09 E3).
 2. 10-wydanie: weto D1–D11; przeniesienie według `docs/wydanie/10-przeniesienie-czyste-repo.md` pkt 3–4 tuż przed pierwszym workflow Pages (D11), za zgodą właściciela.
 3. 08 (kod dalej): najpierw domena i kontrole z testami, potem adapter wdrożenia (po ADR 0007), na końcu wygląd (po 04).
