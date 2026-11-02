@@ -15536,7 +15536,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "4aac057c630e"
+   "sha": "2980640d6e9f"
   },
   "wielkosc": "temperatura zamrażarki",
   "wartosc": -18,
@@ -15781,7 +15781,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "4c08813a475f"
+   "sha": "1cc3c600d39c"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -32924,7 +32924,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "5c55a7f92af4"
+   "sha": "10f729a0c00b"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33043,7 +33043,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "2e22c07d23a9"
+   "sha": "122b051c6193"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33261,7 +33261,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "530b519af8f7"
+   "sha": "1201ada6a42a"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33362,7 +33362,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "996812b02175"
+   "sha": "193a54f611e8"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33397,7 +33397,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "75b5c64c2253"
+   "sha": "4ce6e0ee6544"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33432,7 +33432,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "a452cf23caf4"
+   "sha": "2d7a741c477f"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33901,6 +33901,48 @@
   ],
   "status": "potwierdzone",
   "uproszczenie": "Tylko sposób w kostce; sposób puree (Mashed) pominięty, bo NCHFP nie podaje dla niego wielkości wolnej przestrzeni (wariant ostrożniejszy, decyzja Claude, do weta). Schłodzenie według ogólnych zasad blanszowania (SUS-056).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-279",
+  "twierdzenie": "NCHFP Freezing Celery: wybrać chrupiące, delikatne łodygi bez twardych włókien; dokładnie umyć, oczyścić i pokroić na kawałki 1 cala (ok. 2,5 cm); blanszować we wrzątku 3 minuty; szybko schłodzić, odsączyć i zapakować bez wolnej przestrzeni; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-celery/",
+    "miejsce": "NCHFP, Freezing Celery, Preparation",
+    "cytat": "Select crisp, tender stalks, free from coarse strings. Wash thoroughly, trim and cut stalks into l-inch lengths. Water blanch for 3 minutes. Cool promptly, drain and package leaving no headspace. Seal and freeze.",
+    "sha12": "78112f041532",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Karta dla selera naciowego (wariant seler naciowy mrożony). W źródle „l-inch” to literówka „1-inch”. Schłodzenie według ogólnych zasad blanszowania (SUS-056).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-280",
+  "twierdzenie": "NCHFP Freezing Grapes (pakowanie w syropie): wybrać w pełni dojrzałe, jędrne, słodkie winogrona; przebrać, oderwać od szypułek i umyć; bezpestkowe zostawić w całości, deserowe z pestkami przekroić na pół i usunąć pestki; zapakować do pojemników i zalać zimnym syropem 40%; zostawić wolną przestrzeń, zamknąć i zamrozić. NCHFP opisuje też przecier i sok.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-grapes/",
+    "miejsce": "NCHFP, Freezing Grapes, Preparation, Syrup Pack",
+    "cytat": "Choose fully ripe, firm, sweet grapes. Sort, stem and wash. Leave seedless grapes whole; cut table grapes with seeds in half and remove seeds. Syrup Pack – Pack into containers and cover with cold 40 percent syrup. Leave headspace. Seal and freeze.",
+    "sha12": "dd165feb7039",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Tylko pakowanie w syropie owoców w całości albo połówkach; przecier i sok pominięte (decyzja Claude, do weta). Wolna przestrzeń według ogólnej tabeli owoców (SLO-249, pakowanie z płynem), syrop 40% według SLO-253.",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",
