@@ -15536,7 +15536,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "2980640d6e9f"
+   "sha": "89e99ecee4e6"
   },
   "wielkosc": "temperatura zamrażarki",
   "wartosc": -18,
@@ -15781,7 +15781,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "1cc3c600d39c"
+   "sha": "9d2b25cb6856"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -32924,7 +32924,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "10f729a0c00b"
+   "sha": "9dc66b12cf88"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33043,7 +33043,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "122b051c6193"
+   "sha": "4a9347859fd1"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33261,7 +33261,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "1201ada6a42a"
+   "sha": "818e5771c49f"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33362,7 +33362,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "193a54f611e8"
+   "sha": "6c5f112d8e27"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33397,7 +33397,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "4ce6e0ee6544"
+   "sha": "185ebcfa062a"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33432,7 +33432,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "2d7a741c477f"
+   "sha": "f2fb171fd29d"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33943,6 +33943,27 @@
   ],
   "status": "potwierdzone",
   "uproszczenie": "Tylko pakowanie w syropie owoców w całości albo połówkach; przecier i sok pominięte (decyzja Claude, do weta). Wolna przestrzeń według ogólnej tabeli owoców (SLO-249, pakowanie z płynem), syrop 40% według SLO-253.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-281",
+  "twierdzenie": "NCHFP Freezing Cherries – Sour (pakowanie z cukrem): wybrać jaskrawoczerwone wiśnie dojrzałe na drzewie; umyć, usunąć szypułki i pestki; do 1 kwarty (1 1/3 funta, ok. 0,6 kg) wiśni dodać 3/4 szklanki cukru i mieszać do rozpuszczenia; zapakować, zostawiając wolną przestrzeń; zamknąć i zamrozić. NCHFP opisuje też pakowanie w syropie 50%.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-cherries-sour/",
+    "miejsce": "NCHFP, Freezing Cherries – Sour, Preparation, Syrup Pack, Sugar Pack",
+    "cytat": "Select bright red, tree ripened cherries. Wash, stem and pit. Syrup Pack – Pack cherries into containers and cover with cold 50 per cent syrup. Leave headspace. Seal and freeze. Sugar Pack – To 1 quart (1 and 1/3 pounds) cherries add 3/4 cup sugar. Mix until sugar is dissolved. Pack into containers, leaving headspace. Seal and freeze.",
+    "sha12": "611a0272176a",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Tylko pakowanie z cukrem; syrop 50% pominięty, bo przepis na syrop 50% nie jest w rejestrze (SLO-253 obejmuje 40%) (decyzja Claude, do weta). Wolna przestrzeń według ogólnej tabeli owoców (SLO-249, pakowanie z cukrem jako z płynem).",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",
