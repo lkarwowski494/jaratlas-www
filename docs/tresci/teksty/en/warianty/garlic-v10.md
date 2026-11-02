@@ -21,9 +21,9 @@ Keeping garlic in oil in the refrigerator for longer than 4 days may allow Clost
 
 ## Packaging
 
-Do not leave freshly made garlic in oil at room temperature to cool: Oregon State University Extension says to freeze garlic puréed with oil immediately and not to hold it at room temperature, and NCHFP says to make garlic in oil fresh; so portion it right away and freeze it, or keep it in the refrigerator at 40 °F (4.4 °C) or lower for no more than 4 days. [T:OLE-005,OLE-002]
+Oregon State University Extension says to freeze garlic puréed with oil immediately and not to hold it at room temperature, and NCHFP says to make garlic in oil fresh. [T:OLE-005,OLE-002]
 
-According to the FDA, divide large amounts into shallow containers so they cool faster in the refrigerator. [T:SLO-761]
+JarAtlas rule (cautious), also for confit and roasted garlic in oil: do not leave it at room temperature to cool; divide it at once into small, shallow containers, cool it in the refrigerator, then freeze it or keep it in the refrigerator at 40 °F (4.4 °C) or lower for no more than 4 days. [T:SLO-250,SLO-761,OLE-002]
 
 Package garlic in oil in glass freezer jars or plastic freezer boxes, leaving 1/2 inch (about 1.3 cm) headspace, then label, date and freeze. [T:OLE-051]
 
