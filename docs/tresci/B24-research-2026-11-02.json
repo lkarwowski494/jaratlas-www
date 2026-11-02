@@ -1,0 +1,1314 @@
+{
+ "data": "2026-11-02",
+ "rola": "06-tresci (build, research)",
+ "zadanie": "B24 = R3 z P1 (olej)",
+ "galaz": "claude/jaratlas-b24-research",
+ "baza": "claude/happy-brown-yncplj@249b6cd",
+ "decyzje_wejsciowe": [
+  "2026-11-02-jaratlas-p1-q1-olej",
+  "2026-11-02-jaratlas-pokrycie-zrodel",
+  "2026-11-02-jaratlas-polityka-zrodel-ryzyko",
+  "2026-11-02-jaratlas-wariant-bez-zrodla",
+  "2026-11-02-jaratlas-przeglad-agent-zamiast-eksperta",
+  "2026-11-02-jaratlas-zrodla-prywatne"
+ ],
+ "zakres": {
+  "definicja": "catalog-seed.json: processFamilyId oil-and-fat ∧ safetyStatus do-researchu",
+  "warianty": 30
+ },
+ "liczby": {
+  "ok-zrodlo": 13,
+  "ryzyko-wysokie": 3,
+  "nie-publikowac-kandydat": 14
+ },
+ "warunkowo": [
+  "olives-v05 (B24-D2)",
+  "olives-v11 (B24-D2)",
+  "olives-v12 (B24-D2)",
+  "ginger-turmeric-v12 (B24-D3)",
+  "asian-american-mix-v07 (B24-D3)",
+  "lemon-v14 (B24-D2)",
+  "fig-pomegranate-v10 (B24-D2)"
+ ],
+ "regula_klasy": {
+  "id": "B24-R1",
+  "tresc": "Domowe warzywa i zioła (w tym czosnek, chili, suszone lub smażone dodatki) w oleju, bez zakwaszenia: lodówka 40°F (4 °C) lub niżej, zjeść najpóźniej następnego dnia po przygotowaniu; nigdy w temperaturze pokojowej; dłużej tylko zamrożenie.",
+  "urzedy_szczebla_1": {
+   "Livsmedelsverket (SE)": "lodówka do 4 dni (OLE-070)",
+   "BfR (DE)": "lodówka, najpóźniej następnego dnia; odradza zapas (OLE-076, OLE-077, OLE-087)",
+   "CDC (US)": "oleje z czosnkiem/ziołami: lodówka, wyrzucić po 4 dniach (OLE-078)",
+   "NCHFP/USDA (US)": "czosnek w oleju: lodówka ≤ 40°F, ≤ 4 dni; zamrażanie (OLE-002, OLE-003)"
+  },
+  "najkrotszy": "BfR: następny dzień (OLE-077)",
+  "najostrozniejsza_temperatura": "40°F (4 °C) lub niżej (OLE-002, OLE-057)",
+  "odrzucone": {
+   "ISS/MinSal zakwaszanie i pasteryzacja, do 1,5 roku (OLE-079)": "jeden urząd; sprzeczne z Livsmedelsverket (OLE-074); bez czasu blanszowania",
+   "Livsmedelsverket po obróbce 100 °C/15 min bez limitu (OLE-075)": "jeden urząd",
+   "Livsmedelsverket 2 tygodnie przy 4 °C (OLE-071)": "jeden urząd, wymaga termometru"
+  }
+ },
+ "uzyte_id": [
+  "OLE-070",
+  "OLE-071",
+  "OLE-072",
+  "OLE-073",
+  "OLE-074",
+  "OLE-075",
+  "OLE-076",
+  "OLE-077",
+  "OLE-078",
+  "OLE-079",
+  "OLE-080",
+  "OLE-081",
+  "OLE-082",
+  "OLE-083",
+  "OLE-084",
+  "OLE-085",
+  "OLE-086",
+  "OLE-087",
+  "OLE-088"
+ ],
+ "warianty": [
+  {
+   "id": "tomato-v15",
+   "produkt": "Pomidor czerwony i malinowy",
+   "nazwa": "konfitowane w oliwie",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ok-zrodlo",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Pomidory konfitowane w oliwie = warzywo w oleju; klasa „warzywa w oleju” (Livsmedelsverket OLE-070, BfR OLE-077). Konfitowanie w oleju nie jest uznaną obróbką (OLE-073), więc obowiązuje krótszy termin klasy.",
+   "twierdzenia": [
+    "OLE-070",
+    "OLE-077",
+    "OLE-078",
+    "OLE-002",
+    "OLE-076",
+    "OLE-072",
+    "OLE-073",
+    "OLE-001",
+    "OLE-027",
+    "OLE-029"
+   ],
+   "parametry_karty": {
+    "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
+    "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
+    "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
+    "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
+    "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
+    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
+   },
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "tomato-v17",
+   "produkt": "Pomidor czerwony i malinowy",
+   "nazwa": "suszone w oliwie z kaparami",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ok-zrodlo",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Suszone pomidory i kapary w oliwie = warzywa (także częściowo suszone, OLE-072) w oleju; klasa (OLE-070, OLE-077). Starsze zalecenie temperatury pokojowej dla suszonych pomidorów nieaktualne (OLE-022).",
+   "twierdzenia": [
+    "OLE-070",
+    "OLE-077",
+    "OLE-078",
+    "OLE-002",
+    "OLE-076",
+    "OLE-072",
+    "OLE-073",
+    "OLE-001",
+    "OLE-027",
+    "OLE-029"
+   ],
+   "parametry_karty": {
+    "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
+    "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
+    "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
+    "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
+    "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
+    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
+   },
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "green-cherry-tomato-v12",
+   "produkt": "Pomidor zielony i koktajlowy",
+   "nazwa": "koktajlowe pieczone w oliwie",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ok-zrodlo",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Pomidory koktajlowe pieczone w oliwie = warzywo w oleju; klasa (OLE-070, OLE-077); pieczenie nie wydłuża terminu (OLE-073, OLE-075 nie stosowane).",
+   "twierdzenia": [
+    "OLE-070",
+    "OLE-077",
+    "OLE-078",
+    "OLE-002",
+    "OLE-076",
+    "OLE-072",
+    "OLE-073",
+    "OLE-001",
+    "OLE-027",
+    "OLE-029"
+   ],
+   "parametry_karty": {
+    "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
+    "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
+    "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
+    "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
+    "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
+    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
+   },
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "chili-pepper-v10",
+   "produkt": "Papryczki ostre",
+   "nazwa": "oliwa chili (la-yu)",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ok-zrodlo",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Olej chili: BfR wymienia chili wprost (OLE-076, OLE-077); ISS: chili w oleju aromatyzowanym tylko po occie lub pełnym wysuszeniu, którego nie da się sprawdzić (OLE-080); smażony czosnek/szalotka to też warzywa w oleju. Klasa: lodówka, następny dzień.",
+   "twierdzenia": [
+    "OLE-070",
+    "OLE-077",
+    "OLE-078",
+    "OLE-002",
+    "OLE-076",
+    "OLE-072",
+    "OLE-073",
+    "OLE-001",
+    "OLE-027",
+    "OLE-029"
+   ],
+   "parametry_karty": {
+    "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
+    "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
+    "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
+    "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
+    "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
+    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
+   },
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "eggplant-v02",
+   "produkt": "Bakłażan",
+   "nazwa": "bliskowschodni makdous (małe bakłażany z orzechami i papryką)",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ryzyko-wysokie",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Makdous dojrzewa w oleju dniami; bakłażan w oleju to wyrób wskazany wprost przez BfR (OLE-076) i CDC MMWR 1995 (OLE-088), a domowa obróbka w oleju nie ma zwalidowanego procesu (OLE-028). Tożsamość wariantu wymaga przechowywania dłuższego niż termin klasy (B24-D1), więc karta pełna niemożliwa. Prace o makdous (2025/2026) tylko izolują drobnoustroje.",
+   "twierdzenia": [
+    "OLE-076",
+    "OLE-088",
+    "OLE-028",
+    "OLE-024",
+    "OLE-025",
+    "OLE-027"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "eggplant-v10",
+   "produkt": "Bakłażan",
+   "nazwa": "gruziński bakłażan z pastą orzechową",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Badridżani to danie (roladki z pastą orzechową), nie warzywo zalane olejem; są tylko reguły ogólne resztek (3–4 dni) i domowych dipów (2 dni), a reguła ogólna zamiast przepisu poza olejem jest odłożona (pokrycie-zrodel pkt 5). Przebieg 2. Uwaga: rodzina oil-and-fat prawdopodobnie błędna.",
+   "twierdzenia": [],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "beans-soy-v11",
+   "produkt": "Fasola sucha i soja",
+   "nazwa": "smalec z białej fasoli z jabłkiem i majerankiem",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Pasta z fasoli: tylko reguły ogólne (domowe dipy 2 dni, resztki 3–4 dni, szczebel 3); brak przepisu. Przebieg 2.",
+   "twierdzenia": [],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "onion-v12",
+   "produkt": "Cebula żółta i biała",
+   "nazwa": "cebula prażona domowa",
+   "metoda": "none",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Cebula prażona w temperaturze pokojowej: brak źródła szczebla 1–3; WSU dopuszczało suszone warzywa w oleju poza lodówką (nieaktualne, OLE-022), a stopnia wysuszenia nie da się sprawdzić w domu (OLE-020). Nie jest zalana olejem, więc nie ryzyko-wysokie z reguły klasy. Przebieg 2.",
+   "twierdzenia": [
+    "OLE-020",
+    "OLE-022"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "shallot-pearl-onion-v13",
+   "produkt": "Cebula czerwona, szalotka i perłowa",
+   "nazwa": "chrupiąca prażona szalotka w oleju",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ok-zrodlo",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Prażona szalotka w oleju = warzywo w oleju; smażenie w oleju bez potwierdzonego działania (OLE-073); klasa (OLE-070, OLE-077).",
+   "twierdzenia": [
+    "OLE-070",
+    "OLE-077",
+    "OLE-078",
+    "OLE-002",
+    "OLE-076",
+    "OLE-072",
+    "OLE-073",
+    "OLE-001",
+    "OLE-027",
+    "OLE-029"
+   ],
+   "parametry_karty": {
+    "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
+    "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
+    "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
+    "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
+    "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
+    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
+   },
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "olives-v05",
+   "produkt": "Oliwki",
+   "nazwa": "oliwki z czosnkiem i cytryną",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ok-zrodlo",
+   "warunkowo": "B24-D2",
+   "ryzyko": "wysokie",
+   "podstawa": "Oliwki gotowe do jedzenia z czosnkiem i cytryną w oliwie: czosnek w oleju (NCHFP OLE-002, CDC OLE-078, BfR OLE-076) i oliwki jako konserwa warzywna (ANSES OLE-046). Klasa: lodówka, następny dzień. Warunek: oliwki i plastry cytryny traktowane jak warzywo klasy (B24-D2).",
+   "twierdzenia": [
+    "OLE-070",
+    "OLE-077",
+    "OLE-078",
+    "OLE-002",
+    "OLE-076",
+    "OLE-072",
+    "OLE-073",
+    "OLE-001",
+    "OLE-027",
+    "OLE-029"
+   ],
+   "parametry_karty": {
+    "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
+    "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
+    "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
+    "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
+    "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
+    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
+   },
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "olives-v11",
+   "produkt": "Oliwki",
+   "nazwa": "oliwki marynowane w harissie",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ok-zrodlo",
+   "warunkowo": "B24-D2",
+   "ryzyko": "wysokie",
+   "podstawa": "Oliwki w harissie (pasta chili, czosnek) w oleju: chili i czosnek wprost w BfR (OLE-076); klasa (OLE-077). Warunek B24-D2 (oliwki jako warzywo klasy).",
+   "twierdzenia": [
+    "OLE-070",
+    "OLE-077",
+    "OLE-078",
+    "OLE-002",
+    "OLE-076",
+    "OLE-072",
+    "OLE-073",
+    "OLE-001",
+    "OLE-027",
+    "OLE-029"
+   ],
+   "parametry_karty": {
+    "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
+    "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
+    "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
+    "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
+    "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
+    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
+   },
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "olives-v12",
+   "produkt": "Oliwki",
+   "nazwa": "oliwki w pomarańczach i kolendrze",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ok-zrodlo",
+   "warunkowo": "B24-D2",
+   "ryzyko": "wysokie",
+   "podstawa": "Oliwki z pomarańczą i kolendrą w oleju: świeże zioła (BfR OLE-076, CDC OLE-078); pomarańcza (owoc) poza literą klasy, dlatego warunkowo (B24-D2). Klasa: lodówka, następny dzień.",
+   "twierdzenia": [
+    "OLE-070",
+    "OLE-077",
+    "OLE-078",
+    "OLE-002",
+    "OLE-076",
+    "OLE-072",
+    "OLE-073",
+    "OLE-001",
+    "OLE-027",
+    "OLE-029"
+   ],
+   "parametry_karty": {
+    "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
+    "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
+    "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
+    "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
+    "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
+    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
+   },
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "capers-v06",
+   "produkt": "Kapary",
+   "nazwa": "kapary w oliwie",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ok-zrodlo",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Kapary w oliwie = warzywo (pąki) w oleju; klasa (OLE-070, OLE-077). Bezpieczeństwo samych kaparów (solone/marynowane) zależy od produktu wyjściowego: na karcie tylko kapary gotowe do jedzenia.",
+   "twierdzenia": [
+    "OLE-070",
+    "OLE-077",
+    "OLE-078",
+    "OLE-002",
+    "OLE-076",
+    "OLE-072",
+    "OLE-073",
+    "OLE-001",
+    "OLE-027",
+    "OLE-029"
+   ],
+   "parametry_karty": {
+    "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
+    "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
+    "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
+    "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
+    "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
+    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
+   },
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "capers-v09",
+   "produkt": "Kapary",
+   "nazwa": "smażone chrupiące kapary w oliwie",
+   "metoda": "none",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ryzyko-wysokie",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Wariant w temperaturze pokojowej (none): żaden urząd nie dopuszcza przechowywania warzyw w oleju poza lodówką (BfR OLE-077, Livsmedelsverket OLE-072, CDC OLE-078, NCHFP OLE-001). Smażone kapary do podania od razu: po zmianie metody na lodówkę karta klasy (ok-zrodlo-po-zmianie, decyzja koordynatora/03).",
+   "twierdzenia": [
+    "OLE-070",
+    "OLE-077",
+    "OLE-078",
+    "OLE-002",
+    "OLE-076",
+    "OLE-072",
+    "OLE-073",
+    "OLE-001",
+    "OLE-027",
+    "OLE-029"
+   ],
+   "parametry_karty": {
+    "po_zmianie": {
+     "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
+     "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
+     "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
+     "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
+     "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
+     "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+     "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
+    }
+   },
+   "zmiana_wariantu": "preservationMethod none → refrigerator (resztki: lodówka, następny dzień)"
+  },
+  {
+   "id": "ginger-turmeric-v12",
+   "produkt": "Imbir, kurkuma i galangal",
+   "nazwa": "złota pasta z kurkumy (golden paste) z olejem kokosowym",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ok-zrodlo",
+   "warunkowo": "B24-D3",
+   "ryzyko": "wysokie",
+   "podstawa": "Złota pasta = wilgotna pasta niskokwasowa z olejem; kurkuma w oleju: lodówka 4 dni albo zamrażarka (OLE-086, szczebel 3 Q&A), warzywa w oleju: BfR następny dzień (OLE-077). Pasta, nie warzywo zalane olejem, dlatego warunkowo (B24-D3); termin klasy (najkrótszy).",
+   "twierdzenia": [
+    "OLE-070",
+    "OLE-077",
+    "OLE-078",
+    "OLE-002",
+    "OLE-076",
+    "OLE-072",
+    "OLE-073",
+    "OLE-001",
+    "OLE-027",
+    "OLE-029"
+   ],
+   "parametry_karty": {
+    "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
+    "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
+    "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
+    "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
+    "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
+    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
+   },
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "asian-american-mix-v07",
+   "produkt": "Mieszanki azjatyckie i amerykańskie",
+   "nazwa": "chicagowska giardiniera w oleju z chili",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ok-zrodlo",
+   "warunkowo": "B24-D3",
+   "ryzyko": "wysokie",
+   "podstawa": "Giardiniera = warzywa (po solance) w oleju z octem; klasa „warzywa w oleju” (OLE-070, OLE-077); ocet w oleju nie zakwasza warzywa skutecznie (OLE-074), więc ocet nie wydłuża terminu. Najbliższy przepis testowany (NCHFP Marinated Peppers, OLE-038) ma inny skład. Zwyczajowe kilkudniowe marynowanie przekracza termin klasy: karta skraca do następnego dnia (B24-D3).",
+   "twierdzenia": [
+    "OLE-070",
+    "OLE-077",
+    "OLE-078",
+    "OLE-002",
+    "OLE-076",
+    "OLE-072",
+    "OLE-073",
+    "OLE-001",
+    "OLE-027",
+    "OLE-029"
+   ],
+   "parametry_karty": {
+    "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
+    "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
+    "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
+    "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
+    "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
+    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
+   },
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "cornelian-cherry-v03",
+   "produkt": "Dereń jadalny",
+   "nazwa": "dereń w oliwie po ukiszeniu",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Etap kiszenia derenia bez przepisu szczebla 1–3 (Czyżowska 2017: fermentacja w solance pod kątem polifenoli, nie bezpieczeństwa); klasa oleju nie obejmuje fermentacji. Przebieg 2.",
+   "twierdzenia": [
+    "OLE-028"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "chokeberry-seabuckthorn-v04",
+   "produkt": "Aronia i rokitnik",
+   "nazwa": "olej rokitnikowy domowy (macerat z wytłoków i pestek)",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Macerat wilgotnych wytłoków w oleju: prace (Chemat 2012, Corbu 2019) badają karotenoidy i utlenianie, nie bezpieczeństwo; owoc/wytłoki poza literą klasy, a maceracja trwa dłużej niż termin klasy. Przebieg 2.",
+   "twierdzenia": [
+    "OLE-072",
+    "OLE-028"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "lemon-v03",
+   "produkt": "Cytryna",
+   "nazwa": "indyjski nimbu ka achar (cytryny fermentowane w przyprawach i oleju)",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Brak źródła szczebla 1–3 z procedurą domową achar z cytryn w oleju (jedyna praca: solenie cytryn bez oleju, Nepal 2021, bez patogenów); bariery solne nie są domowym zabezpieczeniem (OLE-033). Przebieg 2 (FER, OLE, B24).",
+   "twierdzenia": [
+    "OLE-033",
+    "OLE-028"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "lemon-v14",
+   "produkt": "Cytryna",
+   "nazwa": "oliwa cytrynowa",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ok-zrodlo",
+   "warunkowo": "B24-D2",
+   "ryzyko": "wysokie",
+   "podstawa": "Oliwa ze skórką cytryny = olej aromatyzowany świeżym dodatkiem roślinnym; BfR (Kräuter-Öle, OLE-076/077), CDC (oleje z ziołami, OLE-078), ISS (olio aromatizzato, OLE-080). Skórka cytryny (owoc) poza literą „zioła/warzywa”, dlatego warunkowo (B24-D2).",
+   "twierdzenia": [
+    "OLE-070",
+    "OLE-077",
+    "OLE-078",
+    "OLE-002",
+    "OLE-076",
+    "OLE-072",
+    "OLE-073",
+    "OLE-001",
+    "OLE-027",
+    "OLE-029"
+   ],
+   "parametry_karty": {
+    "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
+    "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
+    "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
+    "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
+    "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
+    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
+   },
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "mango-papaya-v01",
+   "produkt": "Mango i papaja",
+   "nazwa": "indyjski aam ka achar (zielone mango w oleju gorczycowym, kozieradce i chili)",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Brak źródła szczebla 1–3 z procedurą domową aam ka achar; znalezione prace mierzą pH pikli handlowych albo dotyczą suszonego mango. Przebieg 2.",
+   "twierdzenia": [
+    "OLE-033",
+    "OLE-028"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "fig-pomegranate-v10",
+   "produkt": "Figa, daktyl i granat",
+   "nazwa": "suszone figi w oliwie z ziołami",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ok-zrodlo",
+   "warunkowo": "B24-D2",
+   "ryzyko": "wysokie",
+   "podstawa": "Suszone figi ze świeżymi ziołami w oliwie: zioła w oleju wprost w BfR i CDC (OLE-076–078); suszony owoc (OLE-072: także częściowo suszone warzywa) poza literą klasy, dlatego warunkowo (B24-D2).",
+   "twierdzenia": [
+    "OLE-070",
+    "OLE-077",
+    "OLE-078",
+    "OLE-002",
+    "OLE-076",
+    "OLE-072",
+    "OLE-073",
+    "OLE-001",
+    "OLE-027",
+    "OLE-029"
+   ],
+   "parametry_karty": {
+    "regula": "B24-R1 (procedura klasy, decyzja P1-Q1)",
+    "przygotowanie": "na świeżo, z czystych składników, w czystym naczyniu (OLE-058)",
+    "przechowywanie": "lodówka, 40°F (4 °C) lub niżej (OLE-002, OLE-057)",
+    "termin": "zjeść najpóźniej następnego dnia po przygotowaniu (OLE-077; granica włączna); BfR odradza robienie na zapas (OLE-076, OLE-087)",
+    "nigdy": "temperatura pokojowa (OLE-001, OLE-072, OLE-076)",
+    "dluzej": "tylko zamrożenie (OLE-029; czosnek OLE-003)",
+    "uwaga": "zagrożenia nie widać, nie czuć i nie smakuje (OLE-027); uwaga D-027 (c)"
+   },
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "walnut-nuts-v07",
+   "produkt": "Orzech włoski, laskowy i migdał",
+   "nazwa": "domowe masło orzechowe i migdałowe",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Masło orzechowe domowe: źródła tylko dla produktów handlowych (naturalne masło orzechowe w lodówce ok. 6 miesięcy, NDSU, UKY, Ask Extension); FoodKeeper (USDA) zwrócił 403. Przebieg 2.",
+   "twierdzenia": [],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "pork-belly-jowl-v10",
+   "produkt": "Boczek, podgardle i słonina",
+   "nazwa": "smalec domowy ze skwarkami, jabłkiem i majerankiem (trwały w słoikach)",
+   "metoda": "cool-storage",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "ryzyko-wysokie",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Smalec z jabłkiem (wilgotny dodatek) „trwały w słoikach” w chłodnej spiżarni: źródło szczebla 3 mówi wprost, że wilgotna żywność w smalcu poza lodówką grozi jadem kiełbasianym (OLE-082), a USDA/extension nie mają procesu wekowania smalcu (OLE-084, SZY-050). Brak zgodnych urzędów, wariant poza lodówką.",
+   "twierdzenia": [
+    "OLE-082",
+    "OLE-083",
+    "OLE-084",
+    "SZY-008",
+    "SZY-050"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "pork-belly-jowl-v11",
+   "produkt": "Boczek, podgardle i słonina",
+   "nazwa": "czysty biały smalec do smażenia i konfitowania",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Czysty smalec: tylko odpowiedź Q&A Ask Extension (czysty smalec i łój w temperaturze pokojowej bez dostępu powietrza; lodówka lub zamrażarka dla jakości), bez terminu w lodówce; mrożenie 10–12 mies. (NDSU); brak procesu wekowania (OLE-084). Q&A to nie przepis (B24-D4). FoodKeeper 403. Przebieg 2.",
+   "twierdzenia": [
+    "OLE-084",
+    "OLE-085"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "pork-belly-jowl-v12",
+   "produkt": "Boczek, podgardle i słonina",
+   "nazwa": "smarowidło z wędzonego boczku i cebuli",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Smarowidło z boczku i cebuli: tylko reguły ogólne (potrawy mięsne 3–4 dni; żywność w tłuszczu ≤ 4 dni, OLE-083). Przebieg 2.",
+   "twierdzenia": [
+    "OLE-083"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "pork-belly-jowl-v14",
+   "produkt": "Boczek, podgardle i słonina",
+   "nazwa": "skwarki w słoiku",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Skwarki w słoiku: brak źródła; resztki mięsa w tłuszczu = ryzyko jadu kiełbasianego (OLE-085), brak wekowania (OLE-084). Przebieg 2.",
+   "twierdzenia": [
+    "OLE-084",
+    "OLE-085"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "beef-veal-v13",
+   "produkt": "Wołowina i cielęcina",
+   "nazwa": "łój wołowy (beef tallow) wytapiany do słoików",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Łój: Q&A Ask Extension (czysty łój w temperaturze pokojowej bez powietrza; brak zaleceń wekowania, OLE-084), bez terminu w lodówce (B24-D4). Przebieg 2.",
+   "twierdzenia": [
+    "OLE-084"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "poultry-v11",
+   "produkt": "Drób",
+   "nazwa": "czysty smalec gęsi i kaczy w słoikach",
+   "metoda": "cool-storage",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Smalec gęsi/kaczy w chłodnej spiżarni: Q&A Ask Extension tylko dla tłuszczu kurzego (jełczenie; resztki mięsa = jad kiełbasiany, OLE-085), bez czasu; gęś i kaczka nie wymienione. Czysty tłuszcz bez dodatków roślinnych, więc nie reguła klasy. Przebieg 2.",
+   "twierdzenia": [
+    "OLE-084",
+    "OLE-085"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  },
+  {
+   "id": "offal-pates-v06",
+   "produkt": "Podroby, pasztety i galarety słoikowe",
+   "nazwa": "smalec z wątróbką i cebulą",
+   "metoda": "refrigerator",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt_B24": "nie-publikowac-kandydat",
+   "warunkowo": null,
+   "ryzyko": "wysokie",
+   "podstawa": "Smalec z wątróbką i cebulą: tylko reguły ogólne (3–4 dni; żywność w tłuszczu ≤ 4 dni, OLE-083); pasztety i smarowidła mięsne chłodzone to ryzyko Listerii dla grup wrażliwych (OSU PNW612). Dokument FSA dla firm 404. Przebieg 2.",
+   "twierdzenia": [
+    "OLE-083"
+   ],
+   "parametry_karty": null,
+   "zmiana_wariantu": null
+  }
+ ],
+ "twierdzenia": [
+  {
+   "id": "OLE-070",
+   "twierdzenie": "Livsmedelsverket (Szwecja, 2023): domowe warzywa w oleju, które nie były poddane obróbce cieplnej, przechowuje się w lodówce do czterech dni.",
+   "zrodla": [
+    {
+     "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
+     "miejsce": "L 2023 nr 16, „Råd om oljeinläggningar av grönsaker” (PDF s. 9); także „Kylförvaring av oljeinläggningar” (PDF s. 35)",
+     "cytat": "Förvara hemgjorda oljeinläggningar av grönsaker som inte har värmebehandlats i kylskåp upp till fyra dagar.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "462ea483ea51",
+     "weryfikacja": "curl+pdftotext+grep",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "wielkosc": "olej_warzywa_lodowka_dni_livsmedelsverket",
+   "wartosc": 4,
+   "jednostka": "dni",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-071",
+   "twierdzenie": "Livsmedelsverket: termin czterech dni przyjęto dla scenariusza lodówki o temperaturze ok. 8 °C i pH 7,0; dłuższy termin (dwa tygodnie) przy 4 °C wymaga sprawdzenia temperatury lodówki termometrem.",
+   "zrodla": [
+    {
+     "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
+     "miejsce": "L 2023 nr 16, PDF s. 9",
+     "cytat": "Rådet om att man kan förvara oljeinläggningar som inte har värmebehandlats i kylskåp i högst fyra dagar utgår från ett scenario där kylskåpstemperaturen är cirka 8 °C och pH-värdet i inläggningen är 7,0.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "462ea483ea51",
+     "weryfikacja": "curl+pdftotext+grep",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Wydłużenia do dwóch tygodni przy 4 °C nie przenosimy do kart (jedno źródło; decyzja P1-Q1: najkrótszy czas).",
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-072",
+   "twierdzenie": "Livsmedelsverket: warzywa w oleju, także częściowo suszone, dają C. botulinum dobre warunki wzrostu (brak tlenu, pH i woda w warzywie); w temperaturze pokojowej bakteria może szybko się namnażać.",
+   "zrodla": [
+    {
+     "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
+     "miejsce": "L 2023 nr 16, „Inläggningar i olja” (PDF s. 24)",
+     "cytat": "Om det skulle finnas C. botulinum-sporer på grönsakerna skapar den anaeroba miljön, grönsakernas pH-värden, näringsinnehåll samt vattentillgång (även i delvis torkade grönsaker) goda förutsättningar för tillväxt.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "462ea483ea51",
+     "weryfikacja": "curl+pdftotext+grep",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-073",
+   "twierdzenie": "Livsmedelsverket: gotowanie (smażenie) warzyw w oleju teoretycznie mogłoby inaktywować przetrwalniki C. botulinum typu I, ale brak badań potwierdzających, że metoda działa w praktyce.",
+   "zrodla": [
+    {
+     "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
+     "miejsce": "L 2023 nr 16, „Upphettning i olja” (PDF s. 21)",
+     "cytat": "Det saknas dock studier som bekräftar att metoden fungerar i praktiken.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "462ea483ea51",
+     "weryfikacja": "curl+pdftotext+grep",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-074",
+   "twierdzenie": "Livsmedelsverket: w domowych warzywach w oleju trudno obniżyć pH; ocet słabo miesza się z olejem, więc samo warzywo nie jest skutecznie zakwaszane.",
+   "zrodla": [
+    {
+     "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
+     "miejsce": "L 2023 nr 16, „Inläggningar i olja” (PDF s. 25)",
+     "cytat": "Därför surgörs inte heller själva grönsaken effektivt.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "462ea483ea51",
+     "weryfikacja": "curl+pdftotext+grep",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-075",
+   "twierdzenie": "Livsmedelsverket: warzywa w oleju po obróbce cieplnej (100 °C przez co najmniej 15 minut) można przechowywać w lodówce bez ograniczenia czasu (zalecenie jednego urzędu; nie stosowane w kartach JarAtlas).",
+   "zrodla": [
+    {
+     "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
+     "miejsce": "L 2023 nr 16, PDF s. 9",
+     "cytat": "Förvara hemgjorda oljeinläggningar av grönsaker som har värmebehandlats i kylskåp under obestämd tid.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "462ea483ea51",
+     "weryfikacja": "curl+pdftotext+grep",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Nie wchodzi do kart: brak zgodnego drugiego urzędu szczebla 1 (BfR nie rozróżnia obróbki cieplnej), decyzja P1-Q1 wymaga ≥ 2 i najkrótszego czasu.",
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-076",
+   "twierdzenie": "BfR (Niemcy, FAQ z 15.06.2023): przy warzywach w oleju (np. papryka, chili, bakłażan, czosnek, świeże zioła) w domu nie da się zapewnić, że C. botulinum nie namnoży się i nie wytworzy toksyny; BfR odradza robienie takich produktów i olejów ziołowych na zapas.",
+   "zrodla": [
+    {
+     "adres": "https://www.bfr.bund.de/cm/343/selten-aber-vermeidbar-fragen-und-antworten-zum-botulismus.pdf",
+     "miejsce": "„Durch welche weiteren Lebensmittel kann Botulismus ausgelöst werden?” (s. 2)",
+     "cytat": "Das BfR rät daher davon ab, selbst erzeugte Produkte wie Gemüse in Öl oder sogenannte Kräuter-Öle im Privathaushalt auf Vorrat zu produzieren und zu lagern.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "d9e9b72970ae",
+     "weryfikacja": "curl+pdftotext+grep",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-077",
+   "twierdzenie": "BfR: domowe oleje ziołowe i warzywa w oleju przechowuje się w lodówce i zjada najpóźniej następnego dnia po przygotowaniu.",
+   "zrodla": [
+    {
+     "adres": "https://www.bfr.bund.de/cm/343/selten-aber-vermeidbar-fragen-und-antworten-zum-botulismus.pdf",
+     "miejsce": "s. 2 (odpowiedź o innych produktach) i lista zaleceń",
+     "cytat": "Sie sollten im Kühlschrank aufbewahrt und spätestens am Tag nach der Herstellung verzehrt werden.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "d9e9b72970ae",
+     "weryfikacja": "curl+pdftotext+grep",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "wielkosc": "olej_warzywa_ziola_lodowka_dni_najkrotszy",
+   "wartosc": 1,
+   "jednostka": "dzień po dniu przygotowania (granica włączna: najpóźniej następnego dnia)",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-078",
+   "twierdzenie": "CDC (USA): domowe oleje z czosnkiem lub ziołami trzyma się w lodówce i wyrzuca po 4 dniach.",
+   "zrodla": [
+    {
+     "adres": "https://www.cdc.gov/botulism/prevention/index.html",
+     "miejsce": "Preventing Botulism, sekcja o żywności przygotowywanej w domu",
+     "cytat": "Refrigerate homemade oils made with garlic or herbs. Throw the oils away after 4 days.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "232e4422a63b",
+     "weryfikacja": "curl+grep (tekst HTML bez znaczników)",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-079",
+   "twierdzenie": "ISS i Ministero della Salute (Włochy, 2016): warzywa pod olej blanszuje się kilka minut w roztworze wody i octu w równych częściach (ocet winny o kwasowości 6% lub wyższej), a po zalaniu olejem pasteryzuje; tak przygotowane mogą stać do półtora roku (procedura jednego urzędu; nie stosowana w kartach JarAtlas).",
+   "zrodla": [
+    {
+     "adres": "https://www.iss.it/documents/20126/2293568/LineeGuidaConserve_light.pdf/f76af27b-51bb-4675-158b-7433f66d07de?t=1575727110064",
+     "miejsce": "Linee guida per la corretta preparazione delle conserve alimentari in ambito domestico (Roma 2016), „Vegetali sott’olio” (PDF s. 87–88)",
+     "cytat": "i vegetali devono essere sbollentati per qualche minuto in una soluzione di acqua e aceto in parti uguali.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "c61bbbee1e7c",
+     "weryfikacja": "WebFetch (zapis binarny PDF)+pdftotext+grep; curl z sieci tej sesji: odmowa serwera",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Nie wchodzi do kart: sprzeczne z Livsmedelsverket (OLE-074: zakwaszanie w domu trudne do zrobienia bezpiecznie) i bez zgodnego drugiego urzędu szczebla 1; „qualche minuto” nie podaje czasu.",
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-080",
+   "twierdzenie": "ISS i Ministero della Salute: do oleju aromatyzowanego zioła lub chili trzeba wcześniej potraktować octem albo wysuszyć do kruchości; stopnia wysuszenia nie da się łatwo zmierzyć, więc zaleca się ocet; najlepiej małe słoiczki w lodówce, zużyte w ciągu tygodnia.",
+   "zrodla": [
+    {
+     "adres": "https://www.iss.it/documents/20126/2293568/LineeGuidaConserve_light.pdf/f76af27b-51bb-4675-158b-7433f66d07de?t=1575727110064",
+     "miejsce": "„Olio aromatizzato” (PDF s. 99)",
+     "cytat": "Purtroppo il grado di disidratazione delle erbe non è facilmente misurabile, si consiglia pertanto il trattamento in aceto.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "c61bbbee1e7c",
+     "weryfikacja": "WebFetch (zapis binarny PDF)+pdftotext+grep",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    },
+    {
+     "adres": "https://www.iss.it/documents/20126/2293568/LineeGuidaConserve_light.pdf/f76af27b-51bb-4675-158b-7433f66d07de?t=1575727110064",
+     "miejsce": "„Olio aromatizzato” (PDF s. 99)",
+     "cytat": "E’ preferibile preparare barattolini di piccole dimensioni da conservare in frigorifero e consumare entro una settimana.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "c61bbbee1e7c",
+     "weryfikacja": "WebFetch (zapis binarny PDF)+pdftotext+grep",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-081",
+   "twierdzenie": "ISS i Ministero della Salute: po otwarciu oleje aromatyzowane i pesto zużywa się w ciągu 4–5 dni.",
+   "zrodla": [
+    {
+     "adres": "https://www.iss.it/documents/20126/2293568/LineeGuidaConserve_light.pdf/f76af27b-51bb-4675-158b-7433f66d07de?t=1575727110064",
+     "miejsce": "„Dopo l’apertura…” (PDF s. 77)",
+     "cytat": "I sughi e le salse, gli oli aromatizzati, i succhi di frutta e il pesto vanno consumati entro 4-5 giorni dall’apertura.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "c61bbbee1e7c",
+     "weryfikacja": "WebFetch (zapis binarny PDF)+pdftotext+grep",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-082",
+   "twierdzenie": "Ask Extension (odpowiedź OSU Extension): wilgotna żywność zatopiona w smalcu i trzymana w temperaturze pokojowej to produkt ryzykowny, który może wywołać zatrucie jadem kiełbasianym.",
+   "zrodla": [
+    {
+     "adres": "https://ask.extension.org/kb/faq.php?id=924327",
+     "miejsce": "Ask Extension #924327 'Foods preserved in Lard', odp. OSU Extension (2026) (grep -F na tekście wyodrębnionym z kopii HTML)",
+     "cytat": "If you were to place a moist food into lard and store it there at room temperature, you would have a risky food that could cause botulism poisoning.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "6c0f8b2b8fd5",
+     "weryfikacja": "curl+grep",
+     "szczebel_uwaga": "Ask Extension: odpowiedź eksperta extension (Q&A), nie publikacja; wsparcie, nie przetestowana procedura.",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-083",
+   "twierdzenie": "Ask Extension (odpowiedź OSU Extension): żywność niskokwasową zatopioną w oleju lub tłuszczu zaleca się trzymać w lodówce nie dłużej niż 4 dni.",
+   "zrodla": [
+    {
+     "adres": "https://ask.extension.org/kb/faq.php?id=924327",
+     "miejsce": "Ask Extension #924327 'Foods preserved in Lard', odp. OSU Extension (2026) (grep -F na tekście wyodrębnionym z kopii HTML)",
+     "cytat": "For any low acid food submerged in oil or fat, we recommend storing in the refrigerator no more than 4 days",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "6c0f8b2b8fd5",
+     "weryfikacja": "curl+grep",
+     "szczebel_uwaga": "Ask Extension: odpowiedź eksperta extension (Q&A), nie publikacja; wsparcie, nie przetestowana procedura.",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-084",
+   "twierdzenie": "Ask Extension (odpowiedź eksperta extension, 2016): Extension i USDA nie mają żadnych zaleceń wekowania łoju ani smalcu.",
+   "zrodla": [
+    {
+     "adres": "https://ask.extension.org/kb/faq.php?id=356751",
+     "miejsce": "Ask Extension #356751 'canning fat', odpowiedź eksperta (2016) (grep -F na tekście wyodrębnionym z kopii HTML)",
+     "cytat": "Extension/USDA does not have canning recommendations for tallow and lard at all.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "074a5af22e91",
+     "weryfikacja": "curl+grep",
+     "szczebel_uwaga": "Ask Extension: odpowiedź eksperta extension (Q&A), nie publikacja; wsparcie, nie przetestowana procedura.",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-085",
+   "twierdzenie": "Ask Extension (Oregon, 2017): wytopiony tłuszcz w temperaturze pokojowej łatwiej jełczeje, a gdy zostały w nim resztki mięsa, zagrożeniem jest jad kiełbasiany.",
+   "zrodla": [
+    {
+     "adres": "https://ask.extension.org/kb/faq.php?id=410596",
+     "miejsce": "Ask Extension #410596 'Rendered fat storage' (Oregon, 2017) (grep -F na tekście wyodrębnionym z kopii HTML)",
+     "cytat": "At room temperature rancidity is a more likely. If there are any bits of chicken left, botulism would be a concern.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "f40b86a554ad",
+     "weryfikacja": "curl+grep",
+     "szczebel_uwaga": "Ask Extension: odpowiedź eksperta extension (Q&A), nie publikacja; wsparcie, nie przetestowana procedura.",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-086",
+   "twierdzenie": "Ask Extension (odpowiedź OSU Extension): świeżej kurkumy w oleju nie zostawia się w temperaturze pokojowej; w lodówce 4 dni, dłużej tylko w zamrażarce.",
+   "zrodla": [
+    {
+     "adres": "https://ask.extension.org/kb/faq.php?id=924127",
+     "miejsce": "Ask Extension #924127 'Preserving Turmeric Root in Oil', odp. OSU Extension (2026) (grep -F na tekście wyodrębnionym z kopii HTML)",
+     "cytat": "Do not leave this mixture at room temperature. You can safely store in in the refrigerator for 4 days, or for longer storage you can fill the mixture into a freezer container and freeze indefinitely.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "sha12": "eb2a7e4e7445",
+     "weryfikacja": "curl+grep",
+     "szczebel_uwaga": "Ask Extension: odpowiedź eksperta extension (Q&A), nie publikacja; wsparcie, nie przetestowana procedura.",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-087",
+   "twierdzenie": "BfR (2016): BfR odradza przechowywanie w domu samodzielnie zrobionych warzyw lub ziół w oleju.",
+   "zrodla": [
+    {
+     "adres": "https://www.bfr.bund.de/cm/349/self-made-herbal-oils-and-vegetables-marinated-in-oil-conceal-health-risks.pdf",
+     "miejsce": "BfR Information (2016) 'Self-made herbal oils and vegetables marinated in oil...', s.1",
+     "cytat": "For this reason, the BfR advises against the storage of self-made products, such as vegetables or herbs in oil, in private households.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "c41a041af1eb",
+     "weryfikacja": "curl+pdftotext+grep",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  },
+  {
+   "id": "OLE-088",
+   "twierdzenie": "CDC (MMWR 1995, botulizm typu B z pieczonego bakłażana w oleju, Włochy 1993): zalanie żywności olejem może dać warunki beztlenowe potrzebne do wytworzenia toksyny botulinowej; osoby przygotowujące w domu pieczone warzywa w oleju powinny wiedzieć, że ta praktyka może być niebezpieczna.",
+   "zrodla": [
+    {
+     "adres": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00035572.htm",
+     "miejsce": "MMWR 1995;44(2), „Type B Botulism Associated with Roasted Eggplant in Oil -- Italy, 1993”, Editorial Note",
+     "cytat": "Covering foods in oil may provide the anaerobic conditions required for the production of botulism toxin.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "sha12": "c3f7afdc03c2",
+     "weryfikacja": "curl+grep (tekst HTML bez znaczników)",
+     "kopia": "scratchpad sesji B24 (poza repo)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": "Ognisko dotyczyło wyrobu komercyjnego; zdanie o praktyce domowej to wniosek redakcji MMWR.",
+   "przeglad": null,
+   "wazne_do": "2027-11-02",
+   "klaster": "OLE"
+  }
+ ],
+ "niedostepne": [
+  {
+   "adres": "https://www.fsis.usda.gov/shared/data/EN/foodkeeper.json",
+   "kod": "403",
+   "warianty": [
+    "pork-belly-jowl-v11",
+    "beef-veal-v13",
+    "walnut-nuts-v07"
+   ]
+  },
+  {
+   "adres": "canada.ca (Health Canada, oleje z czosnkiem i ziołami)",
+   "kod": "HTTP/2 INTERNAL_ERROR / 404",
+   "warianty": [
+    "klasa"
+   ]
+  },
+  {
+   "adres": "https://www.iss.it/... (curl)",
+   "kod": "Request Rejected (WAF); odczyt przez zapis binarny WebFetch",
+   "warianty": [
+    "klasa"
+   ]
+  },
+  {
+   "adres": "food.gov.uk approved pâté recipe",
+   "kod": "404",
+   "warianty": [
+    "offal-pates-v06"
+   ]
+  },
+  {
+   "adres": "NSW Food Authority",
+   "kod": "pusta odpowiedź",
+   "warianty": [
+    "klasa"
+   ]
+  }
+ ],
+ "przeglad_D027d": null
+}
