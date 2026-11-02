@@ -4,7 +4,7 @@ Ta karta opisuje przepis NCHFP na paprykę marynowaną: obrana papryka zalana go
 
 ## !
 
-- Poradnik USDA Complete Guide ma tylko 3 przetestowane procedury warzyw z olejem, w tym paprykę marynowaną, i we wszystkich jest kwas. [T:OLE-036] Czosnek w oleju poza takim przetestowanym przepisem przygotuj na świeżo, trzymaj w lodówce w 40 °F (4,4 °C) lub niżej i zużyj w ciągu 4 dni. [T:OLE-002]
+- Poradnik USDA Complete Guide ma tylko 3 przetestowane procedury warzyw z olejem, w tym paprykę marynowaną, i we wszystkich jest kwas. [T:OLE-036] Czosnek w oleju poza takim przetestowanym przepisem przygotuj na świeżo, trzymaj w lodówce w 40 °F (4,4 °C) lub niżej i zużyj w ciągu 4 dni. [T:OLE-002] Paprykę albo inne warzywa w oleju zrobione poza tym przetestowanym przepisem, np. paprykę pieczoną w oliwie bez soku z cytryny i octu, zamroź albo trzymaj w lodówce i zjedz w ciągu 4 dni albo wyrzuć. [T:OLE-029]
 
 ## Dlaczego nie wolno zmieniać przepisu
 
@@ -34,13 +34,13 @@ Opcjonalnie: 2 ząbki czosnku pokrojone na ćwiartki i 2 łyżki gotowego chrzan
 
 ## Przygotowanie papryki
 
-Przy obieraniu i krojeniu ostrych papryczek noś rękawice plastikowe albo gumowe i nie dotykaj twarzy; bez rękawic przed dotknięciem twarzy albo oczu dokładnie umyj ręce wodą z mydłem. [T:ACI-267]
+Przy pracy z ostrymi papryczkami i przy ich krojeniu noś rękawice plastikowe albo gumowe i nie dotykaj twarzy; bez rękawic przed dotknięciem twarzy albo oczu dokładnie umyj ręce wodą z mydłem. [T:ACI-267]
 
 Papryki można zostawić w całości, a duże pokroić na ćwiartki. [T:ACI-268]
 
 Umyj papryki, natnij każdą dwa do czterech razy i zblanszuj we wrzącej wodzie albo opal skórkę, żeby dało się obrać ostre papryki o twardej skórce. [T:ACI-268]
 
-Żeby opalić skórkę w piekarniku albo pod grillem, piecz papryki w 400 °F (ok. 204 °C) przez 6–8 minut albo do czasu, aż skórka zrobi bąble. [T:ACI-268]
+Żeby opalić skórkę, włóż papryki do gorącego piekarnika (400 °F, ok. 204 °C) albo pod grill na 6–8 minut albo do czasu, aż skórka zrobi bąble. [T:ACI-268]
 
 Na kuchence przykryj gorący palnik gazowy albo elektryczny grubą siatką drucianą i połóż na niej papryki na kilka minut, aż skórka zrobi bąble. [T:ACI-268]
 

@@ -24,7 +24,7 @@ NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
 
 For about 5 half-pint jars NCHFP uses 5 cups of chopped yellow bell peppers (about 4 large, fleshy peppers), 1/2 cup of chopped serrano chiles (about 5 peppers), 1 1/2 cups of white distilled vinegar (5%), 5 cups of sugar and 1 pouch (3 ounces) of liquid pectin. [T:ACI-284]
 
-NCHFP allows sweet peppers of another color, which give the jelly a different color, and other hot peppers; keep the amounts the same. [T:ACI-292,ACI-265]
+NCHFP allows sweet peppers of another color, which give the jelly a different color, and other hot peppers; JarAtlas rule: keep the amounts the same. [T:ACI-292,ACI-265]
 
 ## Preparing the pepper juice
 

@@ -24,11 +24,11 @@ NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
 
 Na ok. 5 słoików 1/2 pinty NCHFP podaje 5 szklanek posiekanej żółtej papryki (ok. 4 duże, mięsiste papryki), 1/2 szklanki posiekanych papryczek serrano (ok. 5 sztuk), 1 1/2 szklanki białego octu destylowanego (5%), 5 szklanek cukru i 1 saszetkę (3 uncje) pektyny w płynie. [T:ACI-284]
 
-NCHFP dopuszcza paprykę słodką w innym kolorze, z którą galaretka ma inny kolor, i inne ostre papryczki; zachowaj te same ilości. [T:ACI-292,ACI-265]
+NCHFP dopuszcza paprykę słodką w innym kolorze, z którą galaretka ma inny kolor, i inne ostre papryczki; reguła JarAtlas: zachowaj te same ilości. [T:ACI-292,ACI-265]
 
 ## Przygotowanie soku z papryki
 
-Przy obieraniu i krojeniu ostrych papryczek noś rękawice plastikowe albo gumowe i nie dotykaj twarzy; bez rękawic przed dotknięciem twarzy albo oczu dokładnie umyj ręce wodą z mydłem. [T:ACI-267]
+Przy pracy z ostrymi papryczkami i przy ich krojeniu noś rękawice plastikowe albo gumowe i nie dotykaj twarzy; bez rękawic przed dotknięciem twarzy albo oczu dokładnie umyj ręce wodą z mydłem. [T:ACI-267]
 
 Wszystkie papryki dokładnie umyj i usuń ogonki i nasiona; w ostrych papryczkach zostaw błony, bo to w nich jest ostrość. [T:ACI-285]
 

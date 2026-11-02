@@ -4,7 +4,7 @@ This card describes the NCHFP recipe for marinated peppers: peeled peppers cover
 
 ## !
 
-- The USDA Complete Guide has only 3 tested procedures for vegetables with oil, among them marinated peppers, and all of them use acid. [T:OLE-036] Garlic in oil outside such a tested recipe should be made fresh, kept in the refrigerator at 40 °F (4.4 °C) or lower and used within 4 days. [T:OLE-002]
+- The USDA Complete Guide has only 3 tested procedures for vegetables with oil, among them marinated peppers, and all of them use acid. [T:OLE-036] Garlic in oil outside such a tested recipe should be made fresh, kept in the refrigerator at 40 °F (4.4 °C) or lower and used within 4 days. [T:OLE-002] Peppers or other vegetables in oil made outside this tested recipe, for example roasted peppers in olive oil without the lemon juice and vinegar, should be frozen, or kept in the refrigerator and eaten within 4 days or thrown away. [T:OLE-029]
 
 ## Why you must not change the recipe
 
@@ -40,7 +40,7 @@ Peppers may be left whole; large peppers may be quartered. [T:ACI-268]
 
 Wash the peppers, cut two to four slits in each one, and blanch them in boiling water or blister them so that tough-skinned hot peppers can be peeled. [T:ACI-268]
 
-To blister them in an oven or under a broiler, heat them at 400 °F (about 204 °C) for 6–8 minutes or until the skins blister. [T:ACI-268]
+To blister them, place them in a hot oven (400 °F, about 204 °C) or under a broiler for 6–8 minutes or until the skins blister. [T:ACI-268]
 
 On a range top, cover a hot gas or electric burner with heavy wire mesh and place the peppers on it for several minutes until the skins blister. [T:ACI-268]
 
