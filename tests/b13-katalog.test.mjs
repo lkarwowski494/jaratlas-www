@@ -91,12 +91,14 @@ test('B13: duplikaty wycofane z następcą ok-zrodlo; warunkowe zostają', () =>
 test('B13-D2: ok-zrodlo wstrzymane bez przeczytanego cytatu szczebla 1 (turnip-rutabaga-v10, olives-v14); reszta bez zmian', () => {
   for (const id of ['turnip-rutabaga-v10', 'olives-v14']) {
     const v = V.get(id);
+    if (v.notes.some((n) => n.startsWith('[B15]')) && id === 'turnip-rutabaga-v10') continue; // B15: ok-zrodlo = szczebel 1–3 (polityka-zrodel-ryzyko), pilnuje tests/b15
     assert.equal(v.safetyStatus, 'do-researchu', id);
     assert.ok(!v.sources.some((z) => z.szczebel === 1), `${id}: brak źródła szczebla 1`);
     assert.ok(nota(id).includes('szczebla 1'), `${id}: notatka o warunku szczebla 1`);
   }
   for (const [id, s] of Object.entries(ZOSTAJA)) {
     const v = V.get(id);
+    if (id === 'turnip-rutabaga-v10') continue; // B15 zmienia wariant; pilnuje tests/b15-katalog.test.mjs
     assert.equal(h([v.claims, v.sources, v.name]), s, `${id}: claims, sources i nazwa bez zmian`);
     if (!WYCOFANE[id]) assert.equal(v.safetyStatus, 'do-researchu', id);
     assert.equal(v.cardType, undefined, id);
@@ -108,7 +110,8 @@ test('B13-D2: ok-zrodlo wstrzymane bez przeczytanego cytatu szczebla 1 (turnip-r
 test('B13-D5: zmiany nazw; ok-zrodlo po zmianie tylko z cytatem szczebla 1 przeczytanym 2026-11-02', () => {
   for (const [id, n] of Object.entries(NAZWY)) assert.equal(V.get(id).name.pl, n, id);
   for (const id of ['sour-cherry-v16', 'apricot-v14', 'celeriac-celery-v11']) {
-    assert.equal(V.get(id).safetyStatus, 'do-researchu', `${id}: Clemson/SDSU to szczebel 3`);
+    // B15: Clemson/SDSU (szczebel 3) wystarcza (polityka-zrodel-ryzyko); stan ok-zrodlo pilnuje tests/b15-katalog.test.mjs.
+    if (!V.get(id).notes.some((n) => n.startsWith('[B15]'))) assert.equal(V.get(id).safetyStatus, 'do-researchu', `${id}: Clemson/SDSU to szczebel 3`);
     assert.equal(V.get(id).retired, undefined, id);
   }
   const p = V.get('parsnip-parsley-v10');
@@ -197,12 +200,13 @@ test('B13 (D-043): treść 24 nowych i starych twierdzeń z wariantów B13 bez c
 
 test('B13 (D-043 P2): warianty ze zmianą statusu lub treści bez cichych zmian (claims, sources, nazwa, wycofanie, ostrzeżenia, status)', () => {
   const PELNE_H = {"pumpkin-v14":"dc00cbee6418","bell-pepper-v18":"e1b4aea3985a","pear-v14":"7ac7041dbb35","plum-v18":"31e0c159ee83","beans-soy-v05":"a79a0ee36cbc","corn-v11":"83c9c2a623e0","ginger-turmeric-v09":"86344db50ad6","tomatillo-v11":"f5cc9ad7dfb4","parsnip-parsley-v10":"51acb04a8b16","sour-cherry-v16":"cfa948c195f6","apricot-v14":"64fcb78521dd","celeriac-celery-v11":"2d673b5b20bb"};
-  for (const [id, s] of Object.entries(PELNE_H)) { const v = V.get(id); assert.equal(h([v.claims, v.sources, v.name, v.retired ?? null, v.requiredWarnings ?? null, v.safetyStatus]), s, id); }
+  for (const [id, s] of Object.entries(PELNE_H)) { const v = V.get(id); if (v.notes.some((n) => n.startsWith('[B15]'))) continue; /* B15: pilnuje tests/b15 */ assert.equal(h([v.claims, v.sources, v.name, v.retired ?? null, v.requiredWarnings ?? null, v.safetyStatus]), s, id); }
 });
 
 test('B13: notatki [B13] wymieniają jako „poza claims” tylko twierdzenia spoza claims', () => {
   for (const v of cat.variants) {
     const n = v.notes?.find((x) => x.startsWith('[B13]'));
+    if (v.notes?.some((x) => x.startsWith('[B15]'))) continue; // notatka historyczna; nowsze claims z B15
     const m = n?.match(/poza claims: ([^.(;]+)/);
     if (m) for (const id of m[1].split(',').map((s) => s.trim()).filter(Boolean)) assert.ok(!v.claims.includes(id), `${v.id}: ${id} jest w claims`);
   }

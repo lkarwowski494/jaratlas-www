@@ -1,5 +1,5 @@
 {
- "version": "1.0.10",
+ "version": "1.0.11",
  "generated": "2026-11-02",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -18680,7 +18680,8 @@
     "[SLO*] Konfitura z czerwonej cebuli z żurawiną: cebula niskokwasowa, żurawina nie jest przetestowaną dawką kwasu.",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SLO.",
     "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-033 to tylko pH czerwonej cebuli.",
-    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Cebula niskokwasowa; żurawina nie jest przetestowaną dawką kwasu; requiredWarnings ACI-524, SLO-023; poza claims (robocze): SLO-491; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10)."
+    "[B12] do-researchu → ryzyko-wysokie (C10-D11): Cebula niskokwasowa; żurawina nie jest przetestowaną dawką kwasu; requiredWarnings ACI-524, SLO-023; poza claims (robocze): SLO-491; karta nie powstaje (2026-11-02-jaratlas-06-b12-katalog-c10).",
+    "[B15] zostaje ryzyko-wysokie (B14 Z2): zmiana metody na kąpiel wodną (UC MFP 334005, Ball 2006/2012) czeka na wpis twierdzenia z cytatem i D-027; wersja lodówkowa bez zmian (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -18970,20 +18971,40 @@
    "id": "leek-chives-v04",
    "productId": "leek-chives",
    "name": {
-    "pl": "kwiaty szczypiorku w occie"
+    "pl": "ocet z kwiatów szczypiorku"
    },
    "groupV0": "Kiszenie i ocet",
    "lineV0": 134,
-   "processFamilyId": "vinegar-pickling",
+   "processFamilyId": "vinegar-making",
    "preservationMethod": "refrigerator",
-   "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "acidBasis": "not-applicable",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
-    "ACI-016",
-    "ACI-018",
-    "ACI-110"
+    "NAP-064",
+    "NAP-065",
+    "NAP-036",
+    "NAP-037",
+    "NAP-038",
+    "NAP-040",
+    "NAP-041",
+    "NAP-042"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://extension.oregonstate.edu/food/preservation/flavored-vinegars-sp-50-736",
+     "miejsce": "OSU Extension SP 50-736 Flavored Vinegars, sekcja „Herbs and edible flowers”",
+     "cytat": "Popular herbs and flowers include mint, basil, tarragon, dill, oregano, chives, chive blossoms and nasturtiums. | ¾-1 cup loosely packed flower blossoms or 3 tablespoons dried herbs for each pint of vinegar.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://extension.oregonstate.edu/food/preservation/flavored-vinegars-sp-50-736",
+     "miejsce": "OSU Extension SP 50-736, sekcja przechowywania",
+     "cytat": "Refrigeration is best for retention of freshness and flavors. For best quality, use within 4-6 months.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -18992,7 +19013,8 @@
    },
    "notes": [
     "[ACI*] Kwiaty szczypiorku w occie: to raczej ocet smakowy (NAP) niż pikiel; brak przepisu.",
-    "[B12] zostaje do-researchu (C10-D3): C10-D3: subagent proponował ok-zrodlo; zmienione na zostaje do-researchu, bo karta wymaga zmiany nazwy i zakresu (ocet smakowy, nie pikle do jedzenia), a 4–6 miesięcy to limit jakości (wzór C9-D7). Zmiana nazwy na „ocet z kwiatów szczypiorku” (C10-D3) nie wchodzi: źródło tylko szczebla 3 (NAP-064, NAP-065), a reguła B12-D3 wymaga przeczytanego cytatu szczebla 1. Twierdzenia z raportu poza claims: NAP-064, NAP-065, NAP-036, NAP-037, NAP-038, NAP-040, NAP-041, NAP-042, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10)."
+    "[B12] zostaje do-researchu (C10-D3): C10-D3: subagent proponował ok-zrodlo; zmienione na zostaje do-researchu, bo karta wymaga zmiany nazwy i zakresu (ocet smakowy, nie pikle do jedzenia), a 4–6 miesięcy to limit jakości (wzór C9-D7). Zmiana nazwy na „ocet z kwiatów szczypiorku” (C10-D3) nie wchodzi: źródło tylko szczebla 3 (NAP-064, NAP-065), a reguła B12-D3 wymaga przeczytanego cytatu szczebla 1. Twierdzenia z raportu poza claims: NAP-064, NAP-065, NAP-036, NAP-037, NAP-038, NAP-040, NAP-041, NAP-042, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10).",
+    "[B15] kwiaty szczypiorku w occie → ocet z kwiatów szczypiorku (C10-D3: ocet smakowy, nie pikle do jedzenia); vinegar-pickling/acidified → vinegar-making/not-applicable jak inne octy smakowe ok-zrodlo (garden-herbs-v07, raspberry-blackberry-v02); do-researchu → ok-zrodlo: ok-zrodlo = szczebel 1–3 (B14 §5, naprawa B12-D3); OSU SP 50-736 (NAP-064: kwiaty szczypiorku, 3/4–1 szklanki kwiatów na pintę octu; NAP-065: lodówka, 4–6 mies. dla jakości), szczebel 3, potwierdzone D-027; zasady ogólne octów smakowych NAP-036–042 jak w octach ok-zrodlo; ACI-016/018/110 (pikle) usunięte; ACI-523 robocze poza claims; NAP-039 (UGA 6–8 mies.) poza claims, krótszy limit OSU ostrożniej (C10-D3) (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -21081,11 +21103,24 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
-    "SUS-305"
+    "SUS-305",
+    "SUS-001",
+    "SUS-014",
+    "SUS-017",
+    "SUS-021",
+    "SUS-022"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://extension.sdstate.edu/sites/default/files/2024-04/S-0001-14-Celery-Preseve_It.pdf",
+     "miejsce": "SDSU Extension, Preserve It! Celery (S-0001-14), kolumna Drying",
+     "cytat": "Trim and cut stalks into ½ inch strips … Place in boiling water or steam for 2 minutes … Dry 10-16 hours, depending on size of strips",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -21094,7 +21129,8 @@
    },
    "notes": [
     "[SUS*] Seler naciowy (łodygi, liście) ma procedurę CSU/Clemson; korzenia selera brak w tabelach.",
-    "[B13] suszony seler korzeniowy i naciowy → suszony seler naciowy: seler korzeniowy bez procedury szczebla 1–3, usunięty (C11-D8); zostaje do-researchu, bo SDSU (SUS-305) to szczebel 3 (B13-D5). (2026-11-02-jaratlas-06-b13-katalog-c11)."
+    "[B13] suszony seler korzeniowy i naciowy → suszony seler naciowy: seler korzeniowy bez procedury szczebla 1–3, usunięty (C11-D8); zostaje do-researchu, bo SDSU (SUS-305) to szczebel 3 (B13-D5). (2026-11-02-jaratlas-06-b13-katalog-c11).",
+    "[B15] do-researchu → ok-zrodlo: polityka źródeł wg ryzyka, ok-zrodlo = szczebel 1–3 (B14 §5, naprawa B13-D5); SDSU Extension Celery (SUS-305, szczebel 3, potwierdzone D-027): paski 1/2 cala, blanszowanie 2 min, 10–16 h; plus ogólne twierdzenia suszu warzywnego (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -21857,14 +21893,25 @@
    "processFamilyId": "drying",
    "preservationMethod": "dry-storage",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
+    "SUS-306",
     "SUS-039",
     "SUS-001",
+    "SUS-014",
     "SUS-017",
-    "SUS-021"
+    "SUS-021",
+    "SUS-022"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://extension.sdstate.edu/sites/default/files/2024-04/S-0001-41-Turnip_Rutabaga-Preserve_It.pdf",
+     "miejsce": "SDSU Extension, Preserve It! Turnip/Rutabaga (S-0001-41), Drying, Process: Electric Dehydrator",
+     "cytat": "Remove tops, peel and cut into ¼-½ inch … thick pieces … Blanch for 3-5 minutes … Set dehydrator to 140 degrees F … Arrange strips in single layer on drying racks … Dry 10-12 hours",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -21874,7 +21921,8 @@
    "notes": [
     "[SUS*] Clemson wymienia chipsy z rzepy; MSU ocenia rzepę i brukiew „Fair to good”, ale bez tabeli czasu. Brukiew bez procedury.",
     "[E3] ok-zrodlo → do-researchu: Jedyne źródło to Clemson HGIC 3085, które wymienia rzepę tylko w zdaniu o chipsach ('Vegetables to try include … turnip'). W tabeli Clemson rzepa jest tylko jako liście (Greens); korzenia rzepy nie ma też w tabeli CSU. MSU ocenia rzepę do suszenia jako 'Fair to good', ale bez wiersza z przygotowaniem i nie jest cytowane. Brak przetestowanej procedury dla korzenia.",
-    "[B13] zostaje do-researchu; ok-zrodlo z C11-D12 wstrzymane (B13-D2): procedury SDSU (SUS-306) i CSU PreserveSmart (SUS-307) to szczebel 3, a zlecenie wymaga przeczytanego cytatu szczebla 1; stopka „Source: NCHFP” w arkuszu SDSU dotyczy ramki Tips/Tricks, nie suszenia (D-027), a tabela NCHFP Drying Vegetables jest niedostępna (404); dział NCHFP Drying nie wymienia rzepy (curl 2026-11-02). Po znalezieniu cytatu szczebla 1: ok-zrodlo z blanszowaniem 5 minut (C11-D12). Twierdzenia z raportu poza claims: SUS-306, SUS-307. (2026-11-02-jaratlas-06-b13-katalog-c11)."
+    "[B13] zostaje do-researchu; ok-zrodlo z C11-D12 wstrzymane (B13-D2): procedury SDSU (SUS-306) i CSU PreserveSmart (SUS-307) to szczebel 3, a zlecenie wymaga przeczytanego cytatu szczebla 1; stopka „Source: NCHFP” w arkuszu SDSU dotyczy ramki Tips/Tricks, nie suszenia (D-027), a tabela NCHFP Drying Vegetables jest niedostępna (404); dział NCHFP Drying nie wymienia rzepy (curl 2026-11-02). Po znalezieniu cytatu szczebla 1: ok-zrodlo z blanszowaniem 5 minut (C11-D12). Twierdzenia z raportu poza claims: SUS-306, SUS-307. (2026-11-02-jaratlas-06-b13-katalog-c11).",
+    "[B15] do-researchu → ok-zrodlo: polityka źródeł wg ryzyka, ok-zrodlo = szczebel 1–3 (B14 §5, naprawa B13-D2); SDSU Extension Turnip/Rutabaga (SUS-306, szczebel 3, potwierdzone D-027 w B13): obranie, kawałki 1/4–1/2 cala, blanszowanie 3–5 min, 140°F, 10–12 h; SUS-306 + ogólne twierdzenia suszu warzywnego jak beetroot-v15 (SUS-014 blanszowanie, SUS-022 pleśń); SUS-307 dotyczy brukwi (nazwa: rzepa), poza claims (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -23047,7 +23095,8 @@
     "[SZY] Galaretka z wywaru z kolb (SLO).",
     "[SLO*] Corncob Jelly NCHFP: bezpośredni odpowiednik (galaretka z wywaru z kolb, pektyna). Uwaga: przepis używa kolb czerwonej kukurydzy pastewnej; kukurydza sama w sobie jest niskokwasowa, więc tylko według przepisu.",
     "[06 A2 2026-11-02] Przepis bez dodatku kwasu, NCHFP: „produce an acidic jelly as tested” (ACI-282), tylko dokładnie według przepisu (ACI-283): acidBasis sugar-acid z wyjątkiem WYJATKI_NISKOKWASOWE. requiredWarnings ACI-283 po zakończeniu toru C4 (karta corn-v09 poza tym torem).",
-    "[06 A2 2026-11-02] Nazwa zgodna z kartą (D-043; było: „galaretka z wywaru z kolb kukurydzianych”)."
+    "[06 A2 2026-11-02] Nazwa zgodna z kartą (D-043; było: „galaretka z wywaru z kolb kukurydzianych”).",
+    "[B15] blokada publikacji P-06 (decyzja właściciela d1-punkty-sporne): status ok-zrodlo bez zmian, bo WYJATKI_NISKOKWASOWE wymaga ok-zrodlo; wycofanie z listy wyjątków to zmiana kodu (osobna decyzja) (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -23061,7 +23110,11 @@
    },
    "requiredWarnings": [
     "ACI-283"
-   ]
+   ],
+   "publicationHold": {
+    "decyzja": "2026-11-02-jaratlas-d1-punkty-sporne-wlasciciel",
+    "powod": "P-06: galaretka z kolb bez karty (nie publikować): kukurydza pH ok. 7,3, przepis bez dodanego kwasu, źródło mówi tylko „acidic jelly as tested”"
+   }
   },
   {
    "id": "corn-v10",
@@ -23645,7 +23698,8 @@
    "notes": [
     "[OLE*] Suszone oliwki; poza obszarem OLE.",
     "[SUS] Suszone oliwki: jak wyżej; brak przeczytanego przepisu.",
-    "[B13] zostaje do-researchu; ok-zrodlo z C11-D14 wstrzymane (B13-D2): UC ANR 8267 to szczebel 3, a zlecenie wymaga przeczytanego cytatu szczebla 1; dodatkowo weryfikator D-027 nie pobrał publikacji (eScholarship HTTP 202), więc SUS-315 i SUS-316 są robocze. Twierdzenia z raportu poza claims: SUS-315, SUS-316, SUS-003 (robocze: SUS-315, SUS-316). (2026-11-02-jaratlas-06-b13-katalog-c11)."
+    "[B13] zostaje do-researchu; ok-zrodlo z C11-D14 wstrzymane (B13-D2): UC ANR 8267 to szczebel 3, a zlecenie wymaga przeczytanego cytatu szczebla 1; dodatkowo weryfikator D-027 nie pobrał publikacji (eScholarship HTTP 202), więc SUS-315 i SUS-316 są robocze. Twierdzenia z raportu poza claims: SUS-315, SUS-316, SUS-003 (robocze: SUS-315, SUS-316). (2026-11-02-jaratlas-06-b13-katalog-c11).",
+    "[B15] zostaje do-researchu (B14 §5): SUS-315/316 robocze, źródło niedostępne dla weryfikatora (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -26392,7 +26446,8 @@
    "notes": [
     "[SZY] Galaretka (SLO).",
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Najbliższy: Apple Jelly without Pectin (sok z całych jabłek), nie z samych ogryzków.",
-    "[B10] zostaje do-researchu (C8): zmiana na galaretkę bez pektyny z całych jabłek zmienia przepis; decyzja redakcji (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (C8): zmiana na galaretkę bez pektyny z całych jabłek zmienia przepis; decyzja redakcji (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B15] zostaje do-researchu (B14 Z1 niewykonane): arkusz UC MFP Apple Scrap Jelly (C-55, adaptacja Ball) nie ma twierdzenia w rejestrze; najpierw wpis z cytatem i D-027 (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -28209,7 +28264,7 @@
    "id": "plum-v14",
    "productId": "plum",
    "name": {
-    "pl": "dżem z renklody"
+    "pl": "dżem śliwkowy z pektyną"
    },
    "groupV0": "Cukier, pasteryzacja i wędzenie",
    "lineV0": 219,
@@ -28240,14 +28295,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Renkloda to odmiana śliwy domowej; Plum Jam (NCHFP) jako odpowiednik. Opisać odpowiedniość na karcie."
+    "[SLO*] Renkloda to odmiana śliwy domowej; Plum Jam (NCHFP) jako odpowiednik. Opisać odpowiedniość na karcie.",
+    "[B15] dżem z renklody → dżem śliwkowy z pektyną (P-15, decyzja właściciela: przepis NCHFP Plum Jam bez renklod, dopóki źródło nie nazwie odmiany); status bez zmian (zawężenie nazwy do przepisu, wzór B13-D9); blokada publikacji do zawężenia karty w torze A; slug „dzem-z-renklod” w site/slugi do zmiany z kartą (strona nieopublikowana, bez 301) (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "publicationHold": {
+    "decyzja": "2026-11-02-jaratlas-d1-punkty-sporne-wlasciciel",
+    "powod": "P-15: bez renklod, dopóki źródło nie nazwie odmiany; karta do zawężenia w torze A"
+   }
   },
   {
    "id": "plum-v15",
@@ -29435,12 +29495,24 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "dry-storage",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
-    "SLO-069",
-    "SUS-321"
+    "SUS-321",
+    "SUS-001",
+    "SUS-016",
+    "SUS-018",
+    "SUS-020",
+    "SUS-022"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+     "miejsce": "Clemson HGIC, Drying Fruits; tabela Drying Fruits at Home, kolumny: Preparation | Sulfur | Steam | Syrup | Others | Drying Times; wiersz Cherries",
+     "cytat": "Cherries | Stem, wash, drain and pit fully ripe cherries. Cut in half, chop or leave whole. | | | 10 (for sour cherries) | Whole: Dip in boiling water 30 seconds or more to check skins. Cut and pitted: no treatment necessary. | 8 to 12",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -29449,7 +29521,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
-    "[B13] kandyzowane wiśnie → wiśnie suszone po blanszowaniu w syropie: minimalna poprawka nazwy (C11-D15); zostaje do-researchu, bo Clemson HGIC (SUS-321; SUS-320 robocze) to szczebel 3, a UGA So Easy to Preserve nie przeczytane (B13-D5); rodzina sweet-preserves bez zmiany do decyzji toru kart. Twierdzenia z raportu poza claims: SUS-320, SUS-102 (robocze: SUS-320). (2026-11-02-jaratlas-06-b13-katalog-c11)."
+    "[B13] kandyzowane wiśnie → wiśnie suszone po blanszowaniu w syropie: minimalna poprawka nazwy (C11-D15); zostaje do-researchu, bo Clemson HGIC (SUS-321; SUS-320 robocze) to szczebel 3, a UGA So Easy to Preserve nie przeczytane (B13-D5); rodzina sweet-preserves bez zmiany do decyzji toru kart. Twierdzenia z raportu poza claims: SUS-320, SUS-102 (robocze: SUS-320). (2026-11-02-jaratlas-06-b13-katalog-c11).",
+    "[B15] do-researchu → ok-zrodlo: polityka źródeł wg ryzyka, ok-zrodlo = szczebel 1–3 (B14 §5, naprawa B13-D5); Clemson HGIC Drying Fruits (SUS-321, szczebel 3, potwierdzone D-027): blanszowanie w syropie 10 min (wiśnie), suszarka 8–12 h; plus ogólne twierdzenia suszu owocowego jak sour-cherry-v15 bez obróbki wstępnej kwasem (syrop zastępuje obróbkę); SLO-069 usunięte z claims (p28 §3: nie nadaje ok-zrodlo); SUS-320 (proporcje syropu) robocze, poza claims, więc karta nie podaje składu syropu z SUS-320; rodzina sweet-preserves bez zmiany (tor kart, B13-D5) (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -30297,7 +30370,8 @@
    "notes": [
     "[ACI*] Brzoskwinie w syropie z bourbonem/brandy: dodatek alkoholu nieprzetestowany; baza NCHFP Peaches.",
     "[SLO] Najbliższy: Peaches-Halved; alkohol poza przepisem.",
-    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-067, E3-001; C9-D8: alkohol bez przepisu szczebla 1–3; wersja bez alkoholu = peach-nectarine-v06 (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-067, E3-001; C9-D8: alkohol bez przepisu szczebla 1–3; wersja bez alkoholu = peach-nectarine-v06 (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B15] zostaje ryzyko-wysokie (B14 Z2): zawężenie do bourbona (Ball „Drunken Peaches”, UCCE El Dorado) czeka na wpis twierdzenia z cytatem i D-027; brandy bez przepisu (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -30777,7 +30851,8 @@
    "notes": [
     "[ACI*] NCHFP Apricots halved w syropie.",
     "[SLO] Apricots-Halved or Sliced (NCHFP).",
-    "[06 2026-11-02] Przepis NCHFP bez dodatku kwasu: acidBasis natural-acid z wyjątkiem acidityException i ostrzeżeniem E3-002 (pH FDA do 4,80); punkt dla eksperta (D-027 d)."
+    "[06 2026-11-02] Przepis NCHFP bez dodatku kwasu: acidBasis natural-acid z wyjątkiem acidityException i ostrzeżeniem E3-002 (pH FDA do 4,80); punkt dla eksperta (D-027 d).",
+    "[B15] blokada publikacji P-02 (decyzja właściciela d1-punkty-sporne): status ok-zrodlo i karta bez zmian, bo acidityException wymaga ok-zrodlo (walidator), a karta należy do toru A; mrożenie: apricot-v12/inne warianty mrożone (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -30792,7 +30867,11 @@
    },
    "requiredWarnings": [
     "E3-002"
-   ]
+   ],
+   "publicationHold": {
+    "decyzja": "2026-11-02-jaratlas-d1-punkty-sporne-wlasciciel",
+    "powod": "P-02: bez karty wekowania moreli bez zakwaszenia (tylko mrożenie), dopóki źródło 1–3 nie poda dawki kwasu albo nie potwierdzi procesu dla pH do 4,80"
+   }
   },
   {
    "id": "apricot-v09",
@@ -31025,11 +31104,24 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "dry-storage",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
-    "SUS-322"
+    "SUS-322",
+    "SUS-001",
+    "SUS-016",
+    "SUS-018",
+    "SUS-020",
+    "SUS-022"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://hgic.clemson.edu/factsheet/drying-fruits/",
+     "miejsce": "Clemson HGIC, Drying Fruits; tabela Drying Fruits at Home, wiersz Apricots i przypis **",
+     "cytat": "Apricots | Pit and halve. May slice if desired. | 2 | 3 to 4 | 10 | Ascorbic acid solution, ascorbic acid mixture, fruit juice dip, sulfite dip | 24 to 36** … **Drying times are shorter for slices and other cuts of fruit.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -31038,7 +31130,8 @@
    },
    "notes": [
     "[SUS*] Morele glazurowane (kandyzowane); Clemson opisuje blanszowanie w syropie przed suszeniem, ale to wyrób cukierniczy, decyduje SLO.",
-    "[B13] glazurowane morele → morele suszone po blanszowaniu w syropie: minimalna poprawka nazwy (C11-D15): glacé bez źródła; zostaje do-researchu, bo Clemson HGIC (SUS-322; SUS-320 robocze) to szczebel 3 (B13-D5); rodzina sweet-preserves bez zmiany do decyzji toru kart. Twierdzenia z raportu poza claims: SUS-320, SUS-093, SLO-069 (robocze: SUS-320). (2026-11-02-jaratlas-06-b13-katalog-c11)."
+    "[B13] glazurowane morele → morele suszone po blanszowaniu w syropie: minimalna poprawka nazwy (C11-D15): glacé bez źródła; zostaje do-researchu, bo Clemson HGIC (SUS-322; SUS-320 robocze) to szczebel 3 (B13-D5); rodzina sweet-preserves bez zmiany do decyzji toru kart. Twierdzenia z raportu poza claims: SUS-320, SUS-093, SLO-069 (robocze: SUS-320). (2026-11-02-jaratlas-06-b13-katalog-c11).",
+    "[B15] do-researchu → ok-zrodlo: polityka źródeł wg ryzyka, ok-zrodlo = szczebel 1–3 (B14 §5, naprawa B13-D5); Clemson HGIC Drying Fruits (SUS-322, szczebel 3, potwierdzone D-027): połówki bez pestek, blanszowanie w syropie 10 min, suszarka 24–36 h; plus ogólne twierdzenia suszu owocowego jak apricot-v13 bez obróbki kwasem askorbinowym (syrop zastępuje obróbkę); SUS-320 robocze poza claims; rodzina sweet-preserves bez zmiany (tor kart) (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -32253,14 +32346,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Sok z sokownika: procedura UC dla kwaśnych soków (owoce jagodowe) z wekowaniem; nie przechowywać „na gorąco” bez wekowania."
+    "[SLO*] Sok z sokownika: procedura UC dla kwaśnych soków (owoce jagodowe) z wekowaniem; nie przechowywać „na gorąco” bez wekowania.",
+    "[B15] blokada publikacji P-16 (decyzja właściciela d1-punkty-sporne: czas procesu tylko UC El Dorado, jedno źródło szczebla 3); status i karta bez zmian (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "publicationHold": {
+    "decyzja": "2026-11-02-jaratlas-d1-punkty-sporne-wlasciciel",
+    "powod": "P-16: bez publikacji, dopóki czas procesu soku z sokownika ma tylko jedno źródło szczebla 3"
+   }
   },
   {
    "id": "raspberry-blackberry-v08",
@@ -32579,7 +32677,8 @@
    },
    "notes": [
     "[SUS*] Maliny jako jagody miękkie (CSU/Clemson); liście jak zioła (NCHFP).",
-    "[p25] ok-zrodlo → do-researchu (2026-11-02-jaratlas-06-karty-p25): maliny i jeżyny w całości: brak procedury, MSU (SUS-122) i PNW (SUS-184) odradzają (jakość); po S7 zmiana na skórę owocową; liście osobno (NCHFP Herbs); C7-D9. Wariant ukryty, nie wchodzi do kart do czasu źródła szczebla 1–3 (trening CLAUDE.md:121)."
+    "[p25] ok-zrodlo → do-researchu (2026-11-02-jaratlas-06-karty-p25): maliny i jeżyny w całości: brak procedury, MSU (SUS-122) i PNW (SUS-184) odradzają (jakość); po S7 zmiana na skórę owocową; liście osobno (NCHFP Herbs); C7-D9. Wariant ukryty, nie wchodzi do kart do czasu źródła szczebla 1–3 (trening CLAUDE.md:121).",
+    "[B15] zostaje do-researchu (B14 Z2): zawężenie do liści malin wymaga requiredWarnings SUS-324 (EMA), które jest poza rejestrem; NCHFP Herbs nie wymienia liści malin (C12-D3) (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -32898,7 +32997,7 @@
    "id": "currant-v10",
    "productId": "currant",
    "name": {
-    "pl": "sok z sokownika"
+    "pl": "sok z czerwonej porzeczki z sokownika"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 259,
@@ -32928,14 +33027,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Sok z sokownika: procedura UC obejmuje porzeczki; wekować."
+    "[SLO*] Sok z sokownika: procedura UC obejmuje porzeczki; wekować.",
+    "[B15] sok z sokownika → sok z czerwonej porzeczki z sokownika (P-12); blokada publikacji P-16 (decyzja właściciela d1-punkty-sporne: czas procesu tylko UC El Dorado, jedno źródło szczebla 3); status i karta bez zmian (karta toru A; do-researchu przy istniejącej karcie łamie test kart) (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "publicationHold": {
+    "decyzja": "2026-11-02-jaratlas-d1-punkty-sporne-wlasciciel",
+    "powod": "P-12: tylko porzeczka czerwona; P-16: bez publikacji, dopóki czas procesu soku z sokownika ma tylko jedno źródło szczebla 3"
+   }
   },
   {
    "id": "currant-v11",
@@ -32961,7 +33065,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Porzeczek nie ma na liście Berry Syrup NCHFP.",
-    "[B11] zostaje do-researchu (C9: przepis OSU Extension SP 50-632 Making berry syrups at home; C9-D5: NCHFP Berry Syrup bez porzeczek, OSU (szczebel 3) rozszerza; do weta) (2026-11-02-jaratlas-06-b11-katalog-c9)."
+    "[B11] zostaje do-researchu (C9: przepis OSU Extension SP 50-632 Making berry syrups at home; C9-D5: NCHFP Berry Syrup bez porzeczek, OSU (szczebel 3) rozszerza; do weta) (2026-11-02-jaratlas-06-b11-katalog-c9).",
+    "[B15] zostaje do-researchu (B14 Z1 niewykonane): cytat OSU SP 50-632 w ACI-610 mówi „berries, cherries, apples, and grapes”, porzeczek nie wymienia; wekowanie czarnej porzeczki wbrew P-12 (tylko czerwona, decyzja właściciela d1-punkty-sporne) — wariant ostrożniejszy (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33005,7 +33110,7 @@
    "id": "currant-v13",
    "productId": "currant",
    "name": {
-    "pl": "kompot"
+    "pl": "kompot z czerwonej porzeczki"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 259,
@@ -33044,7 +33149,8 @@
    },
    "notes": [
     "[ACI*] Kompot ≈ NCHFP Berries whole (porzeczki, hot pack) w syropie bardzo lekkim.",
-    "[SLO] Berries-Whole (NCHFP), porzeczki na liście."
+    "[SLO] Berries-Whole (NCHFP), porzeczki na liście.",
+    "[B15] kompot → kompot z czerwonej porzeczki (P-12, decyzja właściciela: wekowanie tylko porzeczki czerwonej, czarna tylko mrożenie wg D4); status bez zmian (zawężenie nazwy, wzór B13-D9); blokada publikacji do zawężenia karty w torze A (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33052,7 +33158,11 @@
     "ACI",
     "SLO"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "publicationHold": {
+    "decyzja": "2026-11-02-jaratlas-d1-punkty-sporne-wlasciciel",
+    "powod": "P-12: wekowanie tylko porzeczki czerwonej; karta do zawężenia w torze A"
+   }
   },
   {
    "id": "currant-v14",
@@ -35398,7 +35508,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Jarzębina w occie z miodem: brak przepisu."
+    "[ACI*] Jarzębina w occie z miodem: brak przepisu.",
+    "[B15] zostaje do-researchu; skutek C12: SUS-327 (CIAS, krytyczne) — surowa jarzębina zawiera kwas parasorbowy, ciepło „may neutralize” bez warunków; po wpisie SUS-327 do rejestru propozycja ryzyko-wysokie z kartą-ostrzeżeniem (analogia C12-D5: rosehip-rowan-v10, v12) (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -35572,7 +35683,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Surowa jarzębina: kwas parasorbinowy, do sprawdzenia."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Surowa jarzębina: kwas parasorbinowy, do sprawdzenia.",
+    "[B15] zostaje do-researchu; skutek C12: SUS-327 (kwas parasorbowy w surowej jarzębinie, neutralizacja ciepłem tylko „may”); po wpisie SUS-327 do rejestru propozycja ryzyko-wysokie z kartą-ostrzeżeniem (analogia C12-D5) (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -35983,14 +36095,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Sok winogronowy z sokownika: procedura UC (apple or grape juice) oraz Grape Juice NCHFP; wekować, nie „butelkować”."
+    "[SLO*] Sok winogronowy z sokownika: procedura UC (apple or grape juice) oraz Grape Juice NCHFP; wekować, nie „butelkować”.",
+    "[B15] blokada publikacji P-16 (decyzja właściciela d1-punkty-sporne: czas procesu z UC El Dorado, jedno źródło szczebla 3; NCHFP Grape Juice to inny proces); status i karta bez zmian (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "publicationHold": {
+    "decyzja": "2026-11-02-jaratlas-d1-punkty-sporne-wlasciciel",
+    "powod": "P-16: bez publikacji, dopóki czas procesu soku z sokownika ma tylko jedno źródło szczebla 3"
+   }
   },
   {
    "id": "grapes-v08",
@@ -36360,7 +36477,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma tylko Strawberry-Rhubarb Jelly.",
-    "[B10] zostaje do-researchu (C8): jak strawberry-v12 i podział wariantu (C8-D10) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (C8): jak strawberry-v12 i podział wariantu (C8-D10) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B15] zostaje do-researchu (B14 Z2): wymaga podziału na dwa warianty (rabarbar+truskawka WSU/NDSU; rabarbar+pomarańcza Ball C-20 bez wpisu w rejestrze) — nowy wariant to decyzja roli 03 (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -36822,7 +36940,8 @@
    },
    "notes": [
     "[SLO*] Najbliższy: Citrus Marmalade / Orange Marmalade (NCHFP, z cytryną w składzie); marmolady z samej cytryny nie znaleziono.",
-    "[B10] zostaje do-researchu (C8): marmolada z samej cytryny bez przepisu; zmiana na cytrusową nie jest mała (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] zostaje do-researchu (C8): marmolada z samej cytryny bez przepisu; zmiana na cytrusową nie jest mała (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B15] zostaje do-researchu (B14 Z2): zmiana na „szybka marmolada cytrynowo-imbirowa” (Ball, C-29) czeka na wpis twierdzenia z cytatem i D-027; zmiana produktu przepisu (imbir) do toru A (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -36853,7 +36972,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B15] zostaje do-researchu (B14 Z1 niewykonane): SUS-328 (C12, procedura UC MFP Sacramento) poza rejestrem; przechowywanie: SLO-069 nie nadaje ok-zrodlo (p28 §3), „Put ’em Up!” to szczebel 4; po wpisie SUS-328 i D-027 do decyzji (C12-D8 a B14 R3) (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37692,7 +37812,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B15] zostaje do-researchu (B14 Z1 niewykonane): jak lemon-v12 (SUS-328 poza rejestrem; przechowywanie bez szczebla 1–3) (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37991,7 +38112,8 @@
    },
    "notes": [
     "[ACI] Kandyzowana skórka pomelo — rodzina słodka.",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B15] zostaje do-researchu (B14 Z2): zmiana pomelo → skórka grejpfruta (SUS-328, 5 gotowań) czeka na wpis SUS-328 do rejestru; przechowywanie jak lemon-v12 (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -42278,7 +42400,8 @@
     "difficulty": null
    },
    "notes": [
-    "[OLE*] Surowa pasta ziołowo-warzywna z olejem (z czosnku niedźwiedziego) jako odpowiednik pesto NCHFP: lodówka maks. 3 dni, dłużej tylko zamrażarka. Bez pasteryzacji i bez przechowywania w spiżarni."
+    "[OLE*] Surowa pasta ziołowo-warzywna z olejem (z czosnku niedźwiedziego) jako odpowiednik pesto NCHFP: lodówka maks. 3 dni, dłużej tylko zamrażarka. Bez pasteryzacji i bez przechowywania w spiżarni.",
+    "[B15] blokada publikacji (wariant ostrożniejszy, decyzja Claude do weta): SUS-338 z C12 (E1-suszenie-zrodla-p2) — mrożenie w −18 °C nie zabija jaj tasiemca lisiego; SUS-337 (pomyłki z konwalią i zimowitem) też dotyczy wariantu; oba jeszcze poza rejestrem (bez D-027), więc bez requiredWarnings i bez zmiany statusu; status ok-zrodlo i karta bez zmian do decyzji toru A (propozycja: ryzyko-wysokie z kartą-ostrzeżeniem SUS-337/338 po wpisie do rejestru) (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -42288,7 +42411,11 @@
    "e3": "potwierdzony",
    "requiredWarnings": [
     "OLE-043"
-   ]
+   ],
+   "publicationHold": {
+    "decyzja": "2026-11-02-jaratlas-b15-katalog",
+    "powod": "SUS-338 (C12, krytyczne): jaja tasiemca lisiego przeżywają −18 °C, giną ok. 60 °C; pesto z surowych liści mrożone nie usuwa zagrożenia"
+   }
   },
   {
    "id": "wild-garlic-v08",
@@ -44671,7 +44798,8 @@
    },
    "notes": [
     "[NAP*] Musztarda (ocet/wino + gorczyca): nie znaleziono przetestowanego przepisu szczebla 1–3; przechowywanie w lodówce do potwierdzenia.",
-    "[B12] zostaje do-researchu (C10-D5): Nie znaleziono przepisu szczebla 1–3 na musztardę lodówkową ani liczby dni w lodówce (sekcja bez_zrodla); gorczyca/musztarda ma pH 3,55–6,00 (ACI-162), więc bezpieczeństwo zależy od proporcji octu 5%, nieprzetestowanych. Twierdzenia z raportu poza claims: ACI-162, ACI-016. (2026-11-02-jaratlas-06-b12-katalog-c10)."
+    "[B12] zostaje do-researchu (C10-D5): Nie znaleziono przepisu szczebla 1–3 na musztardę lodówkową ani liczby dni w lodówce (sekcja bez_zrodla); gorczyca/musztarda ma pH 3,55–6,00 (ACI-162), więc bezpieczeństwo zależy od proporcji octu 5%, nieprzetestowanych. Twierdzenia z raportu poza claims: ACI-162, ACI-016. (2026-11-02-jaratlas-06-b12-katalog-c10).",
+    "[B15] zostaje do-researchu (B14 Z2): zmiana metody na kąpiel wodną (Ball 2012, UC ANR 388435) czeka na wpis twierdzenia z cytatem i D-027; tor lodówkowy bez zmian (2026-11-02-jaratlas-b15-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",

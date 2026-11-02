@@ -62,6 +62,13 @@ export function validateCatalog(cat, rejestr = []) {
     uniq(v.id, 'wariant');
     if (!prod.has(v.productId)) errors.push(`${g}: nieznany produkt ${v.productId}`);
     if (!PUBLICATION.includes(v.publication)) errors.push(`${g}: publication „${v.publication}” spoza słownika`);
+    // Blokada publikacji (B15, 2026-11-02): decyzja właściciela albo twierdzenie krytyczne wstrzymuje publikację bez zmiany statusu i karty
+    // (karta należy do toru A, a status do-researchu przy istniejącej karcie łamie test kart). Dlaczego w walidatorze: zmiana publication nie może jej ominąć.
+    if (v.publicationHold != null) {
+      const ph = v.publicationHold;
+      if (typeof ph.decyzja !== 'string' || !/^\d{4}-\d\d-\d\d-\S+$/.test(ph.decyzja) || typeof ph.powod !== 'string' || !ph.powod.trim()) errors.push(`${g}: publicationHold wymaga decyzji (ID wpisu tablicy RRRR-MM-DD-…) i powodu`);
+      if (v.publication !== 'ukryta') errors.push(`${g}: blokada publikacji (${ph.decyzja}): wariant musi zostać „ukryta”`);
+    }
     if (v.retired) {
       if (!v.retired.replacedBy && !v.retired.reason?.startsWith('poza zakresem')) errors.push(`${g}: wycofany bez następcy (replacedBy) i bez powodu „poza zakresem…”`);
       else if (v.retired.replacedBy && !vids.has(v.retired.replacedBy)) errors.push(`${g}: następca ${v.retired.replacedBy} nie istnieje`);
