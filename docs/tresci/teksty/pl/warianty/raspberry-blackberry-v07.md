@@ -62,7 +62,7 @@ Te czasy dotyczą amerykańskich słoików: pint mieści ok. 473 ml, a quart ok.
 
 Reguła JarAtlas (źródło nie testuje słoików metrycznych): dla słoika do 473 ml stosuj czas dla pint, a dla większego, do 946 ml, np. 0,5 l albo 0,9 l, czas dla quart. [T:SLO-208]
 
-UC nie podaje czasu dla tych soków w słoikach większych niż quart, np. 1 l, więc JarAtlas zaleca mniejsze słoiki. [T:SLO-203,SLO-208]
+UC nie podaje czasu dla tych soków w słoikach większych niż quart, np. w słoikach litrowych, więc JarAtlas zaleca mniejsze słoiki. [T:SLO-203,SLO-208]
 
 ## Studzenie i przechowywanie
 

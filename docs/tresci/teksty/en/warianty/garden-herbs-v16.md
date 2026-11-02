@@ -1,0 +1,62 @@
+# Frozen pesto (NCHFP)
+
+Pesto is an uncooked seasoning mixture that usually includes fresh basil, garlic, pine nuts and oil; this card describes the NCHFP instructions under which pesto may be frozen for long-term storage. [T:OLE-042,OLE-044]
+
+## !
+
+- Keep pesto in the refrigerator or freeze it, never at room temperature: garlic and herbs are low-acid foods that can carry Clostridium botulinum, and oil creates an oxygen-free environment in which this bacterium grows. [T:OLE-054]
+- JarAtlas rule (cautious): freezing does not kill most bacteria, and the sources do not say how long thawed pesto can be kept, so thaw it only in the refrigerator, only the portion you will use right away, and throw away any leftovers. [T:SLO-303]
+
+## Preparing
+
+Make pesto fresh. [T:OLE-043]
+
+If you are not freezing it, keep it in the refrigerator for no more than 3 days. [T:OLE-043]
+
+Label pesto kept in the refrigerator with the preparation date and preferably also a “discard after” date, that is 3 days later. [T:OLE-052,OLE-043]
+
+## Packaging
+
+Package pesto in glass freezer jars or plastic freezer boxes, leaving 1/2 inch (about 1.3 cm) headspace, then freeze. [T:OLE-044]
+
+If you use glass, choose wide-mouth jars made for freezing and canning, because regular glass jars break easily at freezer temperatures. [T:SLO-251]
+
+According to Oregon State University Extension, pesto can also be frozen in ice cube trays; when frozen, wrap the cubes individually in plastic wrap and store them in a freezer container. [T:OLE-055]
+
+Label each package with the name of the product, any added ingredients, the packaging date and the amount. [T:SLO-250]
+
+## Freezing and storage
+
+Freeze at 0 °F (−18 °C) or lower. [T:SUS-050]
+
+To speed up freezing, set the freezer to −10 °F (about −23 °C) or lower about 24 hours in advance. [T:SUS-051]
+
+Do not overload the freezer: add only as much unfrozen food as will freeze within 24 hours. [T:SUS-052]
+
+Keep the freezer at 0 °F (−18 °C) or lower, because at higher temperatures food loses quality faster; keep a freezer thermometer in it and check it often. [T:SLO-255]
+
+According to the FDA, freezing does not kill most bacteria; it only stops them from growing. [T:OLE-057]
+
+Use the oldest packages first. [T:SLO-261]
+
+## Thawing and use
+
+JarAtlas rule (cautious): the sources we read do not say how long pesto can be kept after thawing, so thaw it only in the refrigerator and only as much as you will use right away. [T:SLO-303]
+
+Do not keep thawed leftovers; throw them away. [T:SLO-303]
+
+Never thaw food at room temperature or in warm water: its outer layer then warms into the danger zone of 40–140 °F (about 4–60 °C), where bacteria multiply rapidly. [T:SLO-258]
+
+Keep the refrigerator at 40 °F (4 °C) or lower. [T:OLE-057]
+
+According to Oregon State University Extension, pesto cubes can be used to season soups, stews and sauces. [T:OLE-055]
+
+## When to throw it away
+
+Food is safe while it stays frozen, but once it thaws and warms above 40 °F (about 4 °C), bacteria present before freezing can start to multiply. [T:SUS-059]
+
+Appearance, smell and taste cannot tell you whether vegetables in oil carry a botulism hazard. [T:OLE-027]
+
+JarAtlas rule (cautious) after a freezer failure: throw away any package that has no ice crystals and is above 40 °F (about 4 °C), or that you cannot check. [T:SLO-260]
+
+The FDA also says to throw away perishable food that has been at room temperature for 2 hours or more, or 1 hour when it is above 90 °F (about 32 °C) outside. [T:SLO-260]

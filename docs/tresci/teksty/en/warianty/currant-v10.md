@@ -62,7 +62,7 @@ These times are for US jar sizes: a pint holds about 473 ml and a quart about 94
 
 JarAtlas rule (the source does not test metric jars): for a jar of up to 473 ml use the pint time, and for a larger jar of up to 946 ml, for example 0.5 l or 0.9 l, use the quart time. [T:SLO-208]
 
-UC gives no time for these juices in jars larger than a quart, such as 1 l, so JarAtlas recommends smaller jars. [T:SLO-203,SLO-208]
+UC gives no time for these juices in jars larger than a quart, such as liter jars, so JarAtlas recommends smaller jars. [T:SLO-203,SLO-208]
 
 ## Cooling and storing
 

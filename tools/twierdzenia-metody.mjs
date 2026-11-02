@@ -18,6 +18,7 @@ export const WSPOLNE = {
   'ACI-210': ['water-bath', 'refrigerator'], // nie rozcieńczać octu
   'ACI-211': ['water-bath', 'refrigerator'], // reguła JarAtlas: ocet 5% destylowany albo jabłkowy
   'SLO-222': ['water-bath', 'freezer'], // wolna przestrzeń przy mrożeniu soku: karty soków z sokownika mają akapit o mrożeniu
+  'OLE-002': ['water-bath', 'freezer'], // czosnek w oleju: lodówka 40°F, 4 dni (NCHFP): ostrzeżenie papryki w oleju (bell-pepper-v09) i karta mrożenia garlic-v17 (p24)
 };
 
 const ZNACZNIK = /\[T:([^\]]*)\]/g;

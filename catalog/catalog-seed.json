@@ -55421,7 +55421,11 @@
    "researchedBy": [
     "E2-FRZ"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-053",
+    "SLO-303"
+   ]
   },
   {
    "id": "onion-v15",
@@ -55820,7 +55824,11 @@
    "researchedBy": [
     "E2-FRZ"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "OLE-054",
+    "SLO-303"
+   ]
   },
   {
    "id": "cultivated-mushrooms-v13",
