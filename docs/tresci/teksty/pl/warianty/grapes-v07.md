@@ -12,7 +12,7 @@ Według UC niewekowany sok trzymaj w lodówce do tygodnia; dłużej przechowuj g
 
 Według UC sok zamrażaj w pojemnikach do zamrażarki, np. metalowych, ze sztywnego plastiku albo w słoikach, i zostaw wolną przestrzeń, bo sok przy zamrażaniu się rozszerza. [T:SLO-214]
 
-Dla soku NCHFP podaje: w pojemnikach z szerokim otworem 1/2 cala (ok. 1,3 cm) wolnej przestrzeni dla pint i 1 cal (ok. 2,5 cm) dla quart, a w pojemnikach z wąską szyjką 1 1/2 cala (ok. 3,8 cm) dla obu wielkości. [T:SLO-222]
+Dla soku NCHFP podaje: w pojemnikach z szerokim otworem 1/2 cala (ok. 1,3 cm) wolnej przestrzeni dla pojemnika pint (ok. 0,47 l) i 1 cal (ok. 2,5 cm) dla pojemnika quart (ok. 0,95 l), a w pojemnikach z wąskim otworem 1 1/2 cala (ok. 3,8 cm) dla obu wielkości. [T:SLO-222]
 
 Do mrożenia UC zaleca słoiki szklane o prostych ściankach, żeby nie pękały. [T:SLO-214]
 
@@ -72,7 +72,7 @@ Według UC po wekowaniu wyłącz ogień, zdejmij pokrywę garnka i odczekaj 5 mi
 
 Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek ani metalowych pierścieni; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
 
-Słoiki studź w temperaturze pokojowej 12–24 godziny, potem zdejmij same metalowe pierścienie dwuczęściowych pokrywek; płaskie pokrywki zostaw na słoikach i niczego nie odkręcaj, a potem sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
+Słoiki studź w temperaturze pokojowej 12–24 godziny, potem odkręć i zdejmij tylko metalowe pierścienie dwuczęściowych pokrywek, a płaskie pokrywki zostaw na słoikach, i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
 
 Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
 
