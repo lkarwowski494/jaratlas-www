@@ -9,7 +9,10 @@ import { createHash } from 'node:crypto';
 const ZNACZNIK = /\[T:([^\]]*)\]/g; // [T:ID], [T:ID,ID]; [T:-] = zdanie bez twierdzenia
 const SKROT = /(?:^|[\s(„"])(?:np|ok|r|w|ul|al|pl|św|tzw|m\.in|itd|itp|wg|tj|dr|prof|ks|nr|godz|min|tys|mln|mld|zob|por|gen|płk|cyt|maks|[IVXLCDM]+|[A-ZĄĆĘŁŃÓŚŹŻ])\.$/;
 const KONIEC = /[.!?…]["”»)]*\s+(?=["„«(]?[A-ZĄĆĘŁŃÓŚŹŻ0-9])|\n(?=[ \t]*(?:[-*+]|\d+[.)])[ \t])|\n[ \t]*\n/g; // koniec zdania, punkt listy, akapit
-const LICZBA = /(?<![\p{L}\d.,])([−-](?=\d))?(\d{1,3}(?:[ \u00a0\u202f]\d{3})+|\d+)(?:[.,](\d+))?(?![\d\p{L}])/gu;
+// C2-08 (07-jakosc C6): ułamek „1/2” i ułamek mieszany „2 1/2” to jedna liczba (0,5 i 2,5); wcześniej „2 1/2” dawało trzy liczby 2, 1, 2,
+// więc karta „2 1/2” nie zgadzała się z rejestrem „2,5”, a przechodziła przy rejestrze z osobnymi „2” i „1/2”.
+const LICZBA = /(?<![\p{L}\d.,/])([−-](?=\d))?(?:(\d+)[ \u00a0](\d+)\/(\d+)|(\d+)\/(\d+)|(\d{1,3}(?:[ \u00a0\u202f]\d{3})+|\d+)(?:[.,](\d+))?)(?![\d\p{L}])/gu;
+const wartoscLiczby = (m) => (m[1] ? -1 : 1) * (m[2] ? Number(m[2]) + Number(m[3]) / Number(m[4]) : m[5] ? Number(m[5]) / Number(m[6]) : Number(m[7].replace(/\D/g, '') + (m[8] ? '.' + m[8] : '')));
 const GRANICE = [ // formy z zaprzeczeniem przed prostymi
   ['<=', /(?<!\p{L})(?:≤|<=|nie więcej niż|nie wyższ\p{L}* niż|najwyżej|maksymalnie|maksimum|maks\.|nie przekracza\p{L}*|at most|no more than)\s*$/iu, /^\s*\S{0,8}\s*(?:lub mniej|lub niższ\p{L}*|or below|or less|or lower)/iu],
   ['>=', /(?<!\p{L})(?:≥|>=|nie mniej niż|nie niższ\p{L}* niż|co najmniej|przynajmniej|minimum|at least|no less than)\s*$/iu, /^\s*\S{0,8}\s*(?:lub więcej|lub wyższ\p{L}*|or above|or more|or higher)/iu],
@@ -35,8 +38,9 @@ export function liczby(t) { // [{ wartosc, granica, jednostka, surowa }], także
   const arabskie = [...t.matchAll(LICZBA)].map((m) => {
     const przed = t.slice(Math.max(0, m.index - 30), m.index), po = t.slice(m.index + m[0].length, m.index + m[0].length + 30);
     const g = GRANICE.find(([, pre, suf]) => pre.test(przed) || suf?.test(po));
-    const wartosc = (m[1] ? -1 : 1) * Number(m[2].replace(/\D/g, '') + (m[3] ? '.' + m[3] : ''));
-    return { wartosc, granica: g?.[0] ?? null, jednostka: po.match(JEDN)?.[1].replace(/\s/g, '') ?? null, surowa: m[0] };
+    const wartosc = wartoscLiczby(m);
+    const czesci = m[2] ? [m[2], m[3], m[4]].map(Number) : m[5] ? [m[5], m[6]].map(Number) : [];
+    return { wartosc, granica: g?.[0] ?? null, jednostka: po.match(JEDN)?.[1].replace(/\s/g, '') ?? null, surowa: m[0], czesci };
   });
   return [...arabskie, ...[...t.matchAll(RZYM)].map((m) => ({ wartosc: rzym(m[1]), granica: null, jednostka: 'wiek', surowa: m[1] }))];
 }
@@ -66,7 +70,10 @@ export function sprawdzTekst(tekst, rejestr, plik = '') {
     const kryt = ids.some((id) => wg.get(id)?.krytyczne);
     for (const n of liczby(tresc)) {
       const w = tw.filter((x) => x.wartosc === n.wartosc), gr = w.filter((x) => x.granica);
-      if (!w.length) bledy.push(`${g}: liczba ${n.surowa} nie występuje w ${ids.join(',')}`);
+      // C2-08, wyjątek przejściowy (decyzja Claude, do weta): liczba równa tylko części ułamka z twierdzenia („1” z „1/2 galona”) dawała przed C6
+      // fałszywe przejście; teraz UWAGA zamiast BŁĘDU, dopóki tor A nie poprawi treści (raport C6). Potem ta gałąź znika i zostaje błąd.
+      if (!w.length && tw.some((x) => x.czesci?.includes(n.wartosc))) uwagi.push(`${g}: liczba ${n.surowa} pasuje tylko do części ułamka w ${ids.join(',')} (C2-08, do poprawy treści)`);
+      else if (!w.length) bledy.push(`${g}: liczba ${n.surowa} nie występuje w ${ids.join(',')}`);
       else if (n.jednostka && w.every((x) => x.jednostka && x.jednostka !== n.jednostka)) bledy.push(`${g}: ${n.surowa} ${n.jednostka}, w rejestrze ${w[0].jednostka} (${ids.join(',')})`);
       else if (n.granica && gr.length && !gr.some((x) => x.granica === n.granica)) bledy.push(`${g}: granica „${n.granica} ${n.surowa}”, w rejestrze „${gr[0].granica}” (${ids.join(',')})`);
       else if (!n.granica && gr.length) (kryt ? bledy : uwagi).push(`${g}: ${n.surowa} bez słowa granicy, w rejestrze „${gr[0].granica}”`);

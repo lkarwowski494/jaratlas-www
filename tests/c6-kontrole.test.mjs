@@ -58,6 +58,13 @@ test('C2-08: karta „2 1/2” zgodna z rejestrem „2,5”; „2 1/2” nie prz
   assert.match(b[0], /liczba 2 1\/2 nie występuje/);
 });
 
+test('C2-08, wyjątek przejściowy: liczba równa tylko części ułamka z rejestru daje UWAGĘ, nie przechodzi po cichu', () => {
+  const r = sprawdzTekst('No time for jars larger than a quart, such as 1 l. [T:X-1]', [{ id: 'X-1', status: 'potwierdzone', twierdzenie: 'słoiki 1/2 galona tylko dla soku jabłkowego' }]);
+  assert.deepEqual(r.bledy, []);
+  assert.equal(r.uwagi.length, 1);
+  assert.match(r.uwagi[0], /liczba 1 pasuje tylko do części ułamka w X-1 \(C2-08/);
+});
+
 /* ---------- C3-09: R3 bez warunku ui[lang] (docs/tresci/C3-audyt-spojnosci-2026-11-02.md) ---------- */
 
 test('C3-09: R3 zgłasza brak uwagi D-027 (c) także wtedy, gdy język nie ma tekstów interfejsu', () => {
