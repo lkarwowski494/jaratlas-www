@@ -12,8 +12,11 @@ const bezZnacznikow = (t) => String(t ?? '').replace(ZNACZNIK, ' ').replace(/(?<
 
 export const znaczniki = (t) => String(t ?? '').match(ZNACZNIK) ?? [];
 
-/* Liczby: znak minus (U+2212 albo „-”) tylko wtedy, gdy przed nim nie stoi litera ani cyfra; półpauza „–” to zakres, nie minus. */
-const LICZBA = /(^|[^\p{L}\p{N}])([−-])?(\d+(?:[.,]\d+)*)(?:\/(\d+))?/gu;
+/* Liczby: znak minus (U+2212 albo „-”) tylko wtedy, gdy przed nim nie stoi litera ani cyfra; półpauza „–” to zakres, nie minus.
+ * C2-07 (07-jakosc C6): liczba sklejona z literą też jest liczbą („O157:H7” daje 157 i 7), bo mutacja serotypu „O157” → „O158” przechodziła;
+ * po literze łącznik nie jest minusem („H-7” to 7). */
+const LICZBA = /(^|[^\p{N}])([−-])?(\d+(?:[.,]\d+)*)(?:\/(\d+))?/gu;
+const minus = (m) => Boolean(m[2]) && !/\p{L}/u.test(m[1]);
 
 /** Wartości liczb jako tekst znormalizowany ('-18', '1.3', '1/2'), posortowane; `problemy` — formaty niejednoznaczne.
  * Źródło en: kropka dziesiętna, przecinek tylko jako separator tysięcy (1,000). Język docelowy (fr, es, de, it, pl): przecinek dziesiętny,
@@ -30,7 +33,7 @@ export function liczby(t, jezyk) {
       if (s.includes(',')) { problemy.push(m[3]); wartosci.push(`?${m[3]}`); continue; }
     }
     const v = String(Number(s));
-    wartosci.push(`${m[2] ? '-' : ''}${v}${m[4] ? `/${m[4]}` : ''}`);
+    wartosci.push(`${minus(m) ? '-' : ''}${v}${m[4] ? `/${m[4]}` : ''}`);
   }
   return { wartosci: [...wartosci].sort(), kolejne: wartosci, problemy };
 }
