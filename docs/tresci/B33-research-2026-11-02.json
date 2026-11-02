@@ -229,8 +229,8 @@
     ],
     "requiredWarnings": [
      "SZY-081",
-     "SZY-084",
-     "SZY-007"
+     "SZY-007",
+     "SZY-084"
     ]
    },
    "przed": {
@@ -246,7 +246,7 @@
      "SZY-007"
     ]
    },
-   "podstawa": "SZY-081 (szczebel 1) i SZY-084 (SDSU, szczebel 3: NCHFP nie zaleca wekowania pora). Na stronach NCHFP zdania o porze nie znaleziono."
+   "podstawa": "Podstawą bezpieczeństwa jest SZY-081 (szczebel 1) i brak procesu USDA (SZY-007). SZY-084 (SDSU, szczebel 3: NCHFP nie zaleca wekowania pora) stoi na końcu, bo powód w źródle to jakość (rozgotowanie). Na stronach NCHFP zdania o porze nie znaleziono."
   },
   {
    "id": "cultivated-mushrooms-v12",
@@ -282,7 +282,7 @@
      "SZY-007"
     ]
    },
-   "podstawa": "SZY-081 (szczebel 1) i SZY-085 (Ask Extension/OSU, szczebel 3: NCHFP nie ma czasów dla bulionu warzywnego; mrozić). USDA Guide 5 ma tylko buliony mięsne, drobiowe i rybne."
+   "podstawa": "SZY-081 (szczebel 1) i SZY-085 (Ask Extension/OSU, szczebel 3: NCHFP nie ma czasów dla bulionu warzywnego; mrozić). USDA Guide 5 ma tylko buliony mięsne, drobiowe i rybne. SZY-085 mówi o bulionie z resztek warzyw; zastosowanie do dashi z grzybów i wodorostów jest uogólnieniem w stronę ostrożniejszą (pole uproszczenie)."
   },
   {
    "id": "freshwater-fish-v07",
@@ -588,7 +588,7 @@
      "SZY-017"
     ]
    },
-   "podstawa": "Danie mieszane niebędące zupą: SZY-080 (NCHFP, szczebel 1: mieszanek niskokwasowych nie da się oszacować, proces dla każdego wariantu, mrozić) i SZY-083 (Univ. of Kentucky, szczebel 3: bez zagęstników, ryżu i mąki w zupach i gulaszach, bo spowalniają przenikanie ciepła) zastępują SZY-017 (dotyczy tylko zup)."
+   "podstawa": "Przetestowana alternatywa: USDA Guide 4 „Beans, dry, with tomato or molasses sauce” (opcjonalnie z kostką wieprzowiny, szynki lub boczku); wariant z tyndalizacją pozostaje bez procesu (SZY-009). Danie mieszane niebędące zupą: SZY-080 (NCHFP, szczebel 1: mieszanek niskokwasowych nie da się oszacować, proces dla każdego wariantu, mrozić) i SZY-083 (Univ. of Kentucky, szczebel 3: bez zagęstników, ryżu i mąki w zupach i gulaszach, bo spowalniają przenikanie ciepła) zastępują SZY-017 (dotyczy tylko zup)."
   },
   {
    "id": "beetroot-v09",
@@ -672,7 +672,7 @@
      "SZY-017"
     ]
    },
-   "podstawa": "Danie mieszane niebędące zupą: SZY-080 (NCHFP, szczebel 1: mieszanek niskokwasowych nie da się oszacować, proces dla każdego wariantu, mrozić) i SZY-083 (Univ. of Kentucky, szczebel 3: bez zagęstników, ryżu i mąki w zupach i gulaszach, bo spowalniają przenikanie ciepła) zastępują SZY-017 (dotyczy tylko zup)."
+   "podstawa": "Przetestowana alternatywa dla gulaszu wołowego istnieje (Beef Stew, Univ. of Kentucky FCS3-586); gulasz wieprzowy według innego przepisu to wariant nieprzetestowany. Danie mieszane niebędące zupą: SZY-080 (NCHFP, szczebel 1: mieszanek niskokwasowych nie da się oszacować, proces dla każdego wariantu, mrozić) i SZY-083 (Univ. of Kentucky, szczebel 3: bez zagęstników, ryżu i mąki w zupach i gulaszach, bo spowalniają przenikanie ciepła) zastępują SZY-017 (dotyczy tylko zup)."
   },
   {
    "id": "beef-veal-v05",
@@ -715,7 +715,7 @@
      "SZY-017"
     ]
    },
-   "podstawa": "Danie mieszane niebędące zupą: SZY-080 (NCHFP, szczebel 1: mieszanek niskokwasowych nie da się oszacować, proces dla każdego wariantu, mrozić) i SZY-083 (Univ. of Kentucky, szczebel 3: bez zagęstników, ryżu i mąki w zupach i gulaszach, bo spowalniają przenikanie ciepła) zastępują SZY-017 (dotyczy tylko zup)."
+   "podstawa": "Przetestowana alternatywa istnieje: gulasz wołowy (Beef Stew) w Univ. of Kentucky FCS3-586; gulasz według innego przepisu (papryka, zagęszczenie) to wariant nieprzetestowany. Danie mieszane niebędące zupą: SZY-080 (NCHFP, szczebel 1: mieszanek niskokwasowych nie da się oszacować, proces dla każdego wariantu, mrozić) i SZY-083 (Univ. of Kentucky, szczebel 3: bez zagęstników, ryżu i mąki w zupach i gulaszach, bo spowalniają przenikanie ciepła) zastępują SZY-017 (dotyczy tylko zup)."
   },
   {
    "id": "beef-veal-v07",
@@ -943,9 +943,7 @@
     ],
     "requiredWarnings": [
      "SZY-025",
-     "SZY-081",
-     "SLO-907",
-     "SLO-908"
+     "SZY-081"
     ]
    },
    "przed": {
@@ -962,7 +960,7 @@
      "SZY-025"
     ]
    },
-   "podstawa": "CHP Hongkong (szczebel 1): surowe pędy bambusa zawierają glikozydy cyjanogenne, gotować dokładnie (SLO-907); FDA (szczebel 1): kiełki rosną w warunkach idealnych dla Salmonella, Listeria i E. coli (SLO-908); SZY-081. Procesu wekowania pędów bambusa ani kiełków brak (sprawdzone: NCHFP, wyszukiwanie extension; jest tylko pytanie bez odpowiedzi w Ask Extension)."
+   "podstawa": "CHP Hongkong (szczebel 1): surowe pędy bambusa zawierają glikozydy cyjanogenne, gotować dokładnie (SLO-907); FDA (szczebel 1): kiełki rosną w warunkach idealnych dla Salmonella, Listeria i E. coli (SLO-908); SZY-081. Po przeglądzie D-027 d SLO-907 i SLO-908 tylko w claims: zagrożenia dotyczą jedzenia na surowo, a nie słoika po procesie w szybkowarze. Ostrzeżenia to SZY-025 i SZY-081. Na karcie SLO-907 może być warunkiem dodatkowym („jeśli w mieszance są pędy bambusa”). Procesu wekowania pędów bambusa ani kiełków brak (sprawdzone: NCHFP, wyszukiwanie extension; jest tylko pytanie bez odpowiedzi w Ask Extension)."
   },
   {
    "id": "eggs-v07",
@@ -1082,7 +1080,7 @@
      "SLO-036"
     ]
    },
-   "podstawa": "Warzywa inne niż czosnek w miodzie: źródła szczebla 1 brak (sprawdzone: NCHFP blog i FAQ, FDA, Health Canada (tylko cytat prasowy), wyszukiwanie urzędów; NC State i Ask Extension niedostępne). Dochodzi istniejące SLO-465 (Oregon State EM 9885, szczebel 3: zanurzenie w miodzie nie konserwuje, bakterie rosną na granicy składnika i miodu), które opisuje ten produkt wprost; SLO-037 zostaje."
+   "podstawa": "EM 9885 wymienia świeże chili wprost w kategorii 3 (wilgotne, niskokwasowe); alternatywa o mniejszym ryzyku w tym samym źródle: suszone chili (kategoria 1). Warzywa inne niż czosnek w miodzie: źródła szczebla 1 brak (sprawdzone: NCHFP blog i FAQ, FDA, Health Canada (tylko cytat prasowy), wyszukiwanie urzędów; NC State i Ask Extension niedostępne). Dochodzi istniejące SLO-465 (Oregon State EM 9885, szczebel 3: zanurzenie w miodzie nie konserwuje, bakterie rosną na granicy składnika i miodu), SLO-037 zostaje."
   },
   {
    "id": "onion-v11",
@@ -1116,7 +1114,7 @@
      "SLO-036"
     ]
    },
-   "podstawa": "Warzywa inne niż czosnek w miodzie: źródła szczebla 1 brak (sprawdzone: NCHFP blog i FAQ, FDA, Health Canada (tylko cytat prasowy), wyszukiwanie urzędów; NC State i Ask Extension niedostępne). Dochodzi istniejące SLO-465 (Oregon State EM 9885, szczebel 3: zanurzenie w miodzie nie konserwuje, bakterie rosną na granicy składnika i miodu), które opisuje ten produkt wprost; SLO-037 zostaje."
+   "podstawa": "Cebula i rzodkiew mieszczą się w kategorii 3 EM 9885 jako „other vegetable ingredients”. Warzywa inne niż czosnek w miodzie: źródła szczebla 1 brak (sprawdzone: NCHFP blog i FAQ, FDA, Health Canada (tylko cytat prasowy), wyszukiwanie urzędów; NC State i Ask Extension niedostępne). Dochodzi istniejące SLO-465 (Oregon State EM 9885, szczebel 3: zanurzenie w miodzie nie konserwuje, bakterie rosną na granicy składnika i miodu), SLO-037 zostaje."
   },
   {
    "id": "daikon-black-radish-v09",
@@ -1152,7 +1150,7 @@
      "SLO-023"
     ]
    },
-   "podstawa": "Warzywa inne niż czosnek w miodzie: źródła szczebla 1 brak (sprawdzone: NCHFP blog i FAQ, FDA, Health Canada (tylko cytat prasowy), wyszukiwanie urzędów; NC State i Ask Extension niedostępne). Dochodzi istniejące SLO-465 (Oregon State EM 9885, szczebel 3: zanurzenie w miodzie nie konserwuje, bakterie rosną na granicy składnika i miodu), które opisuje ten produkt wprost; SLO-037 zostaje."
+   "podstawa": "Cebula i rzodkiew mieszczą się w kategorii 3 EM 9885 jako „other vegetable ingredients”. Warzywa inne niż czosnek w miodzie: źródła szczebla 1 brak (sprawdzone: NCHFP blog i FAQ, FDA, Health Canada (tylko cytat prasowy), wyszukiwanie urzędów; NC State i Ask Extension niedostępne). Dochodzi istniejące SLO-465 (Oregon State EM 9885, szczebel 3: zanurzenie w miodzie nie konserwuje, bakterie rosną na granicy składnika i miodu), SLO-037 zostaje."
   },
   {
    "id": "brussels-kohlrabi-v11",
