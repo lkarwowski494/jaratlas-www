@@ -1,5 +1,5 @@
 # Stan sztafety
-Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 (dzień, partia 38)
+Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 ~14:45 UTC — WSTRZYMANE, wznowienie: `docs/WZNOWIENIE.md`
 
 | Rola | Tryb | Stan | Commit | Artefakty | Otwarte decyzje |
 |---|---|---|---|---|---|
@@ -50,8 +50,7 @@
 | 06 Treści | build (partia 36: karty-ostrzeżenia en ryzyko-wysokie i nie-publikowac; karty oleju B27 — 6 klasy B24-R1 + 14 ostrzeżeń; B24-Q1 olej „następny dzień”; OLE-025 eggplant-v04; 24 karty po B28) | STOP 2026-11-02 dzień (D-051): 503 warianty z kartami en (220 kart-ostrzeżeń), pl 211, SLO-821, przeglad.sha 220, weryfikacja zastępcza 8 przebiegów, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p36-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/`, `tools/twierdzenia-metody.mjs` | decyzje do weta `2026-11-02-jaratlas-06-karty-p36` |
 | 06 Treści | build (partia 37: 19 kart-ostrzeżeń en z requiredWarnings; pierwsze pełne karty szybkowaru en (17, SZY-055–079, test T1-szybkowar); 18 kart ok-zrodlo en — suszenie, kąpiel, mrożenie, olej, ocet) | STOP 2026-11-02 dzień (D-051): 557 wariantów z kartami en (239 kart-ostrzeżeń), pl 211, weryfikacja zastępcza 6 przebiegów (P0 0), `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p37-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/en.json`, `tests/karty.test.mjs`, `tools/twierdzenia-metody.mjs` | decyzje do weta `2026-11-02-jaratlas-06-karty-p37`; propozycje katalogowe p37 §5 |
 | 06 Treści | build (partia 38: 135 kart-ostrzeżeń en — 134 z requiredWarnings B29 + walnut-nuts-v07) | STOP 2026-11-02 dzień: 692 warianty z kartami en (374 karty-ostrzeżenia), pl 211, weryfikacja zastępcza 3 przebiegi (P0 0, P1 0), `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p38-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/en.json`, `tools/twierdzenia-metody.mjs` | decyzje do weta `2026-11-02-jaratlas-06-karty-p38`; propozycje katalogowe p38 §5 |
+| 06 Treści | build (tory B/C po p38: B28–B33 — porcje katalogowe 1.0.17–1.0.20 i research; R7 narzędzia ruchu) | WSTRZYMANE 2026-11-02 po B33: katalog 1.0.20, rejestr 2089 ID, karty en 692 / pl 211, `npm run check` kod 0, 360/360 | ad67930 | `docs/tresci/B28…B33-*`, `docs/tresci/C13-kod-2026-11-02.md`, `tools/ruch/`, `docs/wzrost/` | decyzje do weta: `docs/WZNOWIENIE.md` §4 |
 
 ## Następny krok
-1. **06-tresci**: p39 — po decyzjach katalogowych p37 §5 i p38 §5: vine-leaves-greens-v09, game-lamb-v06, mirabelle-v06/v07; P3 z p35–p38. Przekład fal: po zgodzie właściciela na kwotę
-2. 10-wydanie: weto D1–D11; przeniesienie według `docs/wydanie/10-przeniesienie-czyste-repo.md` pkt 3–4 tuż przed pierwszym workflow Pages (D11), za zgodą właściciela.
-3. 08 (kod dalej): najpierw domena i kontrole z testami, potem adapter wdrożenia (po ADR 0007), na końcu wygląd (po 04).
+Prace wstrzymane (tablica `2026-11-02-jaratlas-wstrzymanie-prac`). Plan kolejnych zadań Z1–Z8 z rolami, wejściem i kryterium „zrobione”: `docs/WZNOWIENIE.md` §3.

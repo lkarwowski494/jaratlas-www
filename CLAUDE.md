@@ -1,8 +1,8 @@
 # JarAtlas.com
 Statyczna strona-katalog domowego przetwórstwa (wekowanie, kiszenie, mrożenie) w 35 językach, z bramką bezpieczeństwa treści. Stan i następny krok: `docs/sztafeta.md`, `docs/STAN-SESJI.md`.
 
-## Stan projektu (aktualizacja: 2026-11-02, partia 38)
-- Etap: w budowie; 06 karty fali 1 partie 1–38 (692 warianty, w tym 374 karty-ostrzeżenia, ukryte; en 692, pl 211; od p30 nowe karty tylko en; szybkowar od p37), katalog 1.0.19 (A2, p24, C7/B7 p25, B10–B13, B17–B21); E1 C11/C12 suszenie źródła p1–p2 (SUS-300–342 w plikach E1) + 07 fix P2 + 10 przygotowanie czystego repo (podgląd) na claude/happy-brown-yncplj, main = 20eac8a, 0 opublikowanych stron, dane użytkowników: brak
+## Stan projektu (aktualizacja: 2026-11-02 ~14:45 UTC, WSTRZYMANE — wznowienie: `docs/WZNOWIENIE.md`)
+- Etap: WSTRZYMANE 2026-11-02 (tablica `2026-11-02-jaratlas-wstrzymanie-prac`); plan wznowienia: `docs/WZNOWIENIE.md`. Katalog 1.0.20 (1432 warianty: ok-zrodlo 322, ryzyko-wysokie 200, nie-publikowac 185, do-researchu 725; wszystkie ukryte); karty en 692 (374 karty-ostrzeżenia), pl 211; rejestr 2089 ID (do B33); testy 360; main = 4e3dcaa, 0 opublikowanych stron, dane użytkowników: brak
 - Sklep: nie dotyczy (strona WWW); hosting GitHub Pages (ADR 0007); domena jaratlas.com (Porkbun, odnowienie przed 2027-11-01)
 - Przed pierwszą publikacją: przeniesienie do czystego repo: `docs/wydanie/10-przeniesienie-czyste-repo.md`, podgląd `node tools/przeniesienie.mjs [--zachowaj] [--testy]` (wzór: trening `docs/46-przeniesienie-1.0.md`)
 - Polityka języków: szeroka, 35 (fala 1: en, fr, es, de, it, pl); pierwsza publikacja pl/en z pełnym katalogiem (wszystkie warianty z kartą pełną albo kartą-ostrzeżeniem), jeśli nie szkodzi indeksowaniu (tablica `2026-11-02-jaratlas-wydanie-pl-en`)
