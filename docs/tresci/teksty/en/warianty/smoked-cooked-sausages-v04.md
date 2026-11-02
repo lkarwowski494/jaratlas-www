@@ -1,0 +1,17 @@
+# Juniper and hunter’s sausages: why there is no recipe here
+
+There is no recipe here for juniper sausage and hunter’s sausage, smoked Polish sausages, the hunter’s sausage also dried after cooking (Polish kiełbasa jałowcowa i myśliwska). [T:-]
+
+## !
+
+- UGA recommends cooking products made from ground pork and beef to an internal temperature of 160 °F. [T:MIE-021]
+- Too much nitrate or nitrite can be toxic to people. [T:MIE-011]
+- According to UGA, a sausage is shelf stable only when its water activity is below 0.85 and its pH is under 5.3. [T:MIE-023]
+
+## Why
+
+UGA has a recipe for a smoked and cooked Polish sausage, but it is not a recipe for juniper or hunter’s sausage. [T:MIE-031]
+
+JarAtlas has no home method to measure water activity or pH. [T:-]
+
+JarAtlas has found no tested home recipe for juniper or hunter’s sausage from a checked source. [T:-]

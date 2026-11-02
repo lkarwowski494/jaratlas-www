@@ -58,6 +58,7 @@ export const WSPOLNE = {
   'ACI-445': ['water-bath', 'freezer'], // dynia: karty-ostrzeżenia dyni w occie (kąpiel) i dżemu dyniowego (mrożenie), p36
   'MIE-023': ['refrigerator', 'cool-storage'], // kiełbasy fermentowane: karty-ostrzeżenia dojrzewających (chłodne miejsce) i smarownych (lodówka), p36
   'MIE-025': ['refrigerator', 'cool-storage'], // jw., p36
+  'MIE-011': ['refrigerator', 'cool-storage'], // za dużo azotanu/azotynu toksyczne (UGA): wymagane ostrzeżenie kart-ostrzeżeń wędlin lodówkowych i szynki dojrzewającej pork-loin-ham-v11 (chłodne miejsce), p37
   'SLO-045': ['dry-storage', 'freezer'], // dynia niskokwasowa: karty-ostrzeżenia dyni kandyzowanej (suszenie) i dżemu/masła dyniowego (mrożenie), p36
   'SZY-001': ['pressure-canning', 'brak'], // szybkowar dla żywności niskokwasowej: sea-fish-v14 (szybkowar) i karty grzybów w słoikach (metoda nieustalona), p36
   'SZY-006': ['pressure-canning', 'brak'], // jw., p36

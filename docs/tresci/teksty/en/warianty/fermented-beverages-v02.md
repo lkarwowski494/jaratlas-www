@@ -1,0 +1,19 @@
+# Flavored kombucha with a second fermentation: why there is no recipe here
+
+There is no recipe here for flavored kombucha, with raspberry, ginger or passion fruit, given a second fermentation in a closed bottle (Polish kombucha smakowa). [T:-]
+
+## !
+
+- If you mix other ingredients into kombucha after fermentation, drink it immediately or keep it in the refrigerator for up to 2 days; the NCHFP recipe does not cover a second fermentation in a closed bottle. [T:NAP-005]
+- According to the BCCDC, too much gas in bottles and cans of kombucha or jun can burst the container under pressure. [T:NAP-014]
+- Under some conditions the alcohol content can exceed 0.5% by volume, the US TTB limit for a non-alcoholic drink. [T:NAP-010]
+
+## Why
+
+Storing kombucha in airtight containers builds up carbon dioxide and can lead to an explosion if it is not checked regularly. [T:NAP-004]
+
+According to the Food Safety Information Council (Australia), a second fermentation or added fruit can lead to too much alcohol forming. [T:FER-121]
+
+Some bottled commercial kombuchas that kept fermenting have been found with up to 3% alcohol in the package, an observed value, not an upper limit. [T:NAP-012]
+
+JarAtlas has found no tested home recipe for a second fermentation of kombucha in a closed bottle from the NCHFP, and where checked sources disagree, JarAtlas follows the more cautious one. [T:-]

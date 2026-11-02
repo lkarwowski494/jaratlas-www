@@ -1,0 +1,14 @@
+# Lisiecka sausage: why there is no recipe here
+
+There is no recipe here for lisiecka, a regional smoked and cooked Polish sausage (Polish kiełbasa lisiecka). [T:-]
+
+## !
+
+- UGA recommends cooking products made from ground pork and beef to an internal temperature of 160 °F. [T:MIE-021]
+- Too much nitrate or nitrite can be toxic to people. [T:MIE-011]
+
+## Why
+
+UGA has a recipe for a smoked and cooked Polish sausage, but it is not a recipe for lisiecka. [T:MIE-031]
+
+JarAtlas has found no tested home recipe for lisiecka from a checked source. [T:-]

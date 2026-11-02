@@ -1,0 +1,15 @@
+# Hot-smoked and cooked bacon: why there is no recipe here
+
+There is no recipe here for bacon that is hot-smoked, then cooked in hot water and eaten cold (Polish boczek wędzony na ciepło i parzony). [T:-]
+
+## !
+
+- According to an Oregon State University Extension guide, cured bacon must be cooked or hot-smoked, in a smoker-grill or in an oven set above 160 °F, until the inside of the bacon reaches that same temperature, about 71 °C. [T:MIE-156]
+- Too much nitrate or nitrite can be toxic to people. [T:MIE-011]
+- According to an Oregon State University Extension guide, bacon cured at home is prepared before eating like store-bought bacon, even after smoking or baking to 160 °F: fried, baked or microwaved. [T:MIE-164]
+
+## Why
+
+According to University of Missouri Extension, bacon cured and smoked at home by its method is perishable: keep it in the freezer or refrigerator until you eat it. [T:MIE-019]
+
+JarAtlas has found no tested home recipe for hot-smoked bacon cooked in water and eaten cold from a checked source. [T:-]
