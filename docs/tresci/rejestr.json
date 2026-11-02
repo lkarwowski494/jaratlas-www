@@ -15535,15 +15535,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "afaa2ff0d927"
+   "data": "2026-11-02",
+   "sha": "668e19408bff"
   },
   "wielkosc": "temperatura zamrażarki",
   "wartosc": -18,
   "jednostka": "°C",
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SUS-051",
@@ -15780,12 +15780,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "d0b542441288"
+   "data": "2026-11-02",
+   "sha": "c8d6a693b347"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SUS-060",
@@ -32921,9 +32921,14 @@
   "status": "potwierdzone",
   "uproszczenie": "Przeliczenia cali, pint i quartów to rachunek JarAtlas, zaokrąglone; „½”, „¾” w źródle zapisane jako 1/2, 3/4. Reguły dla pojemników metrycznych i większych niż quart to wnioski JarAtlas (kierunek ostrożny: większa wolna przestrzeń albo mniejszy pojemnik), nie zdania źródła.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "f0073cf08153"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-250",
@@ -33035,9 +33040,14 @@
   "status": "potwierdzone",
   "uproszczenie": "Przeliczenie galonu to rachunek JarAtlas, zaokrąglone.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "a58ac20836aa"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-252",
@@ -33248,9 +33258,14 @@
   "status": "potwierdzone",
   "uproszczenie": "Przeliczenie funta to rachunek JarAtlas, zaokrąglone; „½” w źródle zapisane jako 1/2.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "cc09230fdce1"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-257",
@@ -33344,9 +33359,14 @@
   "status": "potwierdzone",
   "uproszczenie": "Przeliczenia °F na °C to rachunek JarAtlas, zaokrąglone. Karty świadomie pomijają wariant źródła z wodą zmienianą co 30 minut (mówią mniej niż źródło).",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "de0d435ddbcc"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-259",
@@ -33374,9 +33394,14 @@
   "status": "potwierdzone",
   "uproszczenie": "Przeliczenie °F na °C to rachunek JarAtlas, zaokrąglone (jak SUS-059).",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "cce06723cd5e"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-260",
@@ -33404,9 +33429,14 @@
   "status": "potwierdzone",
   "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła: FDA nie mówi wprost, co zrobić z mrożonką bez kryształków lodu i cieplejszą niż 40°F; karta wybiera wariant ostrożny (wyrzuć), zgodnie z D-027 (b). Przeliczenia °F na °C to rachunek JarAtlas.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "453223e08d77"
+  },
   "wazne_do": "2027-11-02",
-  "klaster": "SLO"
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-261",
