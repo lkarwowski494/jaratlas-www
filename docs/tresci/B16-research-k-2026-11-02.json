@@ -44,15 +44,15 @@
   "ACI-766": "ACI-757",
   "ACI-767": "ACI-758",
   "ACI-768": "ACI-759",
-  "ACI-769": "K-B16-ACI-1",
-  "ACI-772": "K-B16-ACI-2",
-  "ACI-773": "K-B16-ACI-3",
-  "ACI-774": "K-B16-ACI-4",
-  "ACI-710": "K-B16-ACI-5",
-  "ACI-711": "K-B16-ACI-6",
-  "ACI-719": "K-B16-ACI-7",
-  "ACI-770": "K-B16-ACI-8",
-  "ACI-771": "K-B16-ACI-9"
+  "ACI-769": "ACI-860",
+  "ACI-772": "ACI-861",
+  "ACI-773": "ACI-862",
+  "ACI-774": "ACI-863",
+  "ACI-710": "ACI-864",
+  "ACI-711": "ACI-865",
+  "ACI-719": "ACI-866",
+  "ACI-770": "ACI-867",
+  "ACI-771": "ACI-868"
  },
  "decyzje_wejscie": [
   "2026-11-02-jaratlas-polityka-zrodel-ryzyko",
@@ -109,7 +109,7 @@
  },
  "uzyte_id": {
   "ACI": "ACI-720–759 (zakres koordynatora po kolizji z p31)",
-  "tymczasowe": "K-B16-ACI-1…9 (numery nada porcja katalogowa)",
+  "tymczasowe": "brak: K-B16-ACI-1…9 → ACI-860–868 (przydział koordynatora 2026-11-02)",
   "SUS": "SUS-343–357",
   "wolne": "SUS-358–399; MLE nieużyte"
  },
@@ -163,7 +163,7 @@
    },
    "zmiana_wariantu": "Nazwa „krążki jalapeño w occie jabłkowym (NCHFP)”; usunąć „escabeche”; skład i proces 1:1 wg NCHFP Pickled Jalapeño Rings (wapno 18 h, trzykrotne płukanie).",
    "po_przebiegu_2": null,
-   "uwagi": "Druga droga (Ball Escabeche, K-B16-ACI-5/711) ma niejasną wydajność — patrz carrot-v04. Ostrzeżenie o rękawicach ACI-267."
+   "uwagi": "Druga droga (Ball Escabeche, ACI-864/711) ma niejasną wydajność — patrz carrot-v04. Ostrzeżenie o rękawicach ACI-267."
   },
   {
    "grupa": "A",
@@ -178,8 +178,8 @@
    "regula": "Ball (b)",
    "podstawa": "Przeczytany przedruk Ball „Escabeche” (UC MFP San Diego 2025, źródło BallMasonJars.com): ocet biały 5% 4 szklanki + woda 1 szklanka, quart 15 min. Przedruk ma jednak niejasną wydajność („about 2-quart jars”) przy dużej ilości warzyw, brak tabeli wysokości i ślady szablonu („cover rind”); strony Ball nie dało się sprawdzić (403). Wątpliwość = nie ok.",
    "twierdzenia": [
-    "K-B16-ACI-5",
-    "K-B16-ACI-6",
+    "ACI-864",
+    "ACI-865",
     "ACI-723"
    ],
    "parametry_karty": {
@@ -239,14 +239,14 @@
    "werdykt": "do-researchu",
    "ryzyko": "wysokie",
    "regula": "1-3/Ball",
-   "podstawa": "Przeczytany blog UC MFP San Joaquin (K-B16-ACI-7) podaje „typowy” przepis ze świeżym sokiem z 1 cytryny, 10 min, bez tabeli wysokości i bez wskazania wydania Ball; to nie jest przedruk z podanym źródłem. Strona Ball niedostępna (403); przedruku Ball z wydaniem nie znaleziono.",
+   "podstawa": "Przeczytany blog UC MFP San Joaquin (ACI-866) podaje „typowy” przepis ze świeżym sokiem z 1 cytryny, 10 min, bez tabeli wysokości i bez wskazania wydania Ball; to nie jest przedruk z podanym źródłem. Strona Ball niedostępna (403); przedruku Ball z wydaniem nie znaleziono.",
    "twierdzenia": [
-    "K-B16-ACI-7"
+    "ACI-866"
    ],
    "parametry_karty": {},
    "zmiana_wariantu": null,
    "po_przebiegu_2": "kandydat nie-publikowac z kartą-ostrzeżeniem (decyzja 2026-11-02-jaratlas-wariant-bez-zrodla)",
-   "uwagi": "Decyzja D-A3: czy K-B16-ACI-7 + OSU SP 50-304 (ACI-493/494) wystarczą. Moja ocena: nie (świeży sok o zmiennej kwasowości, brak wysokości)."
+   "uwagi": "Decyzja D-A3: czy ACI-866 + OSU SP 50-304 (ACI-493/494) wystarczą. Moja ocena: nie (świeży sok o zmiennej kwasowości, brak wysokości)."
   },
   {
    "grupa": "A",
@@ -1227,10 +1227,10 @@
    "werdykt": "ok-zrodlo",
    "ryzyko": "niskie",
    "regula": "(c)",
-   "podstawa": "Wiśnie kwaśne (FDA Cherries, red, water pack pH 3,25–3,82, ACI-131). Przepis szczebla 4 (K-B16-ACI-1): 300 g wiśni, 1 szklanka wody, 200 g cukru, 1 łyżka soku z cytryny, wanilia; gorący syrop na surowe wiśnie, lodówka; „co najmniej miesiąc” odrzucone — karta 2 tygodnie (ACI-508, krótszy niż SLO-020).",
+   "podstawa": "Wiśnie kwaśne (FDA Cherries, red, water pack pH 3,25–3,82, ACI-131). Przepis szczebla 4 (ACI-860): 300 g wiśni, 1 szklanka wody, 200 g cukru, 1 łyżka soku z cytryny, wanilia; gorący syrop na surowe wiśnie, lodówka; „co najmniej miesiąc” odrzucone — karta 2 tygodnie (ACI-508, krótszy niż SLO-020).",
    "twierdzenia": [
     "ACI-131",
-    "K-B16-ACI-1",
+    "ACI-860",
     "ACI-508",
     "ACI-067",
     "ACI-523"
@@ -1255,9 +1255,9 @@
    "werdykt": "ryzyko-wysokie",
    "ryzyko": "wysokie",
    "regula": "B",
-   "podstawa": "Scenariusz B niespełniony: brak przepisu szczebla 1–3 na ćwikłę lodówkową (E1: NCHFP Pickled Beets to wekowanie); przeczytany przepis szczebla 4 (K-B16-ACI-8) ma 1 łyżkę octu lub soku z cytryny na 1 kg buraków i 5–6 łyżek wrzątku — ocet < woda (wbrew ACI-751), sok z cytryny niedozwolony (ACI-509), brak liczby dni. Wersji „70% chrzanu” z proporcjami nie znalazłem.",
+   "podstawa": "Scenariusz B niespełniony: brak przepisu szczebla 1–3 na ćwikłę lodówkową (E1: NCHFP Pickled Beets to wekowanie); przeczytany przepis szczebla 4 (ACI-867) ma 1 łyżkę octu lub soku z cytryny na 1 kg buraków i 5–6 łyżek wrzątku — ocet < woda (wbrew ACI-751), sok z cytryny niedozwolony (ACI-509), brak liczby dni. Wersji „70% chrzanu” z proporcjami nie znalazłem.",
    "twierdzenia": [
-    "K-B16-ACI-8",
+    "ACI-867",
     "ACI-751",
     "ACI-509",
     "ACI-508",
@@ -1282,9 +1282,9 @@
    "werdykt": "ryzyko-wysokie",
    "ryzyko": "wysokie",
    "regula": "B",
-   "podstawa": "Brak przepisu szczebla 1–3. Przepis szczebla 4 (K-B16-ACI-9, hawaii.edu): ocet : sos sojowy = 1 : 1 (formalnie na granicy ACI-751), lodówka do tygodnia (≤ ACI-508), ale kapusta pekińska (nie biała), ok. 1/2 szklanki octu na 2 funty kapusty (wielokrotnie mniej octu na warzywo niż w przepisach testowanych, np. Wisconsin) i ≥ 24 h dojrzewania poza lodówką. Wątpliwość = nie ok.",
+   "podstawa": "Brak przepisu szczebla 1–3. Przepis szczebla 4 (ACI-868, hawaii.edu): ocet : sos sojowy = 1 : 1 (formalnie na granicy ACI-751), lodówka do tygodnia (≤ ACI-508), ale kapusta pekińska (nie biała), ok. 1/2 szklanki octu na 2 funty kapusty (wielokrotnie mniej octu na warzywo niż w przepisach testowanych, np. Wisconsin) i ≥ 24 h dojrzewania poza lodówką. Wątpliwość = nie ok.",
    "twierdzenia": [
-    "K-B16-ACI-9",
+    "ACI-868",
     "ACI-751",
     "ACI-509",
     "ACI-508",
@@ -1307,7 +1307,7 @@
    "werdykt": "ok-zrodlo-po-zmianie",
    "ryzyko": "wysokie",
    "regula": "B",
-   "podstawa": "Przepisu z miodem i octem jabłkowym z proporcjami nie znalazłem (K-B16-ACI-2: ocet jabłkowy dodany do chrzanu zalanego wrzątkiem, ilość wody nieokreślona, bez miodu i limitu). Pasuje dopiero po zmianie: sos chrzanowy NDSU/NCHFP (ACI-700: 2 szklanki chrzanu : 1 szklanka octu 5%, bez wody — ocet ≥ woda wg ACI-751) z octem jabłkowym 5% zamiast białego (zamiennie wg ACI-509) i limitem ACI-508 2 tygodnie (zmieniony przepis przetestowany = nieprzetestowany); miód dopiero przy podaniu (ACI-016, B9/K-SLO-7).",
+   "podstawa": "Przepisu z miodem i octem jabłkowym z proporcjami nie znalazłem (ACI-861: ocet jabłkowy dodany do chrzanu zalanego wrzątkiem, ilość wody nieokreślona, bez miodu i limitu). Pasuje dopiero po zmianie: sos chrzanowy NDSU/NCHFP (ACI-700: 2 szklanki chrzanu : 1 szklanka octu 5%, bez wody — ocet ≥ woda wg ACI-751) z octem jabłkowym 5% zamiast białego (zamiennie wg ACI-509) i limitem ACI-508 2 tygodnie (zmieniony przepis przetestowany = nieprzetestowany); miód dopiero przy podaniu (ACI-016, B9/K-SLO-7).",
    "twierdzenia": [
     "ACI-700",
     "ACI-035",
@@ -1317,7 +1317,7 @@
     "ACI-501",
     "ACI-016",
     "ACI-514",
-    "K-B16-ACI-2"
+    "ACI-861"
    ],
    "parametry_karty": {
     "proporcja": "2 szklanki świeżo startego chrzanu : 1 szklanka octu jabłkowego 5% : 1/2 łyżeczki soli : 1/4 łyżeczki kwasu askorbinowego",
@@ -1367,9 +1367,9 @@
    "werdykt": "ok-zrodlo",
    "ryzyko": "wysokie",
    "regula": "B",
-   "podstawa": "Scenariusz B spełniony: przepis szczebla 4 (K-B16-ACI-3) ma ocet biały : woda = 1 : 1 (≥ ACI-751), strąki przykryte zalewą (1 szklanka strąków : 1 szklanka zalewy), lodówka; źródło podaje do miesiąca — karta bierze 2 tygodnie (ACI-508).",
+   "podstawa": "Scenariusz B spełniony: przepis szczebla 4 (ACI-862) ma ocet biały : woda = 1 : 1 (≥ ACI-751), strąki przykryte zalewą (1 szklanka strąków : 1 szklanka zalewy), lodówka; źródło podaje do miesiąca — karta bierze 2 tygodnie (ACI-508).",
    "twierdzenia": [
-    "K-B16-ACI-3",
+    "ACI-862",
     "ACI-751",
     "ACI-509",
     "ACI-508",
@@ -1398,9 +1398,9 @@
    "werdykt": "ok-zrodlo-po-zmianie",
    "ryzyko": "wysokie",
    "regula": "B",
-   "podstawa": "Scenariusz B spełniony po zmianie: przepis szczebla 4 (K-B16-ACI-4) zalewa owoce samym octem białym 5% (bez wody, ≥ ACI-751); autorka trzyma je w spiżarni bez limitu i solankę prowadzi w temperaturze pokojowej — karta: solanka i przechowywanie tylko w lodówce, do 2 tygodni (ACI-508).",
+   "podstawa": "Scenariusz B spełniony po zmianie: przepis szczebla 4 (ACI-863) zalewa owoce samym octem białym 5% (bez wody, ≥ ACI-751); autorka trzyma je w spiżarni bez limitu i solankę prowadzi w temperaturze pokojowej — karta: solanka i przechowywanie tylko w lodówce, do 2 tygodni (ACI-508).",
    "twierdzenia": [
-    "K-B16-ACI-4",
+    "ACI-863",
     "ACI-751",
     "ACI-509",
     "ACI-508",
@@ -1825,7 +1825,7 @@
    "klaster": "B16"
   },
   {
-   "id": "K-B16-ACI-5",
+   "id": "ACI-864",
    "twierdzenie": "Według przepisu Ball „Escabeche” (BallMasonJars.com, przedruk UC MFP San Diego 2025): 4 papryki czerwone, 4 żółte i 4 zielone w paskach 1/2 cala, 2 duże cebule, 3 marchewki w plastrach 1/4 cala, 5–6 dużych jalapeño w ćwiartkach bez nasion, 8 zielonych pomidorów albo tomatillo w ćwiartkach; zalewa: 4 szklanki octu białego 5%, 1 szklanka wody, 4 łyżeczki soli, 5 ząbków czosnku; przyprawy: 1 łyżeczka kminu (nasiona), 1 łyżeczka kolendry (nasiona), 2 łyżeczki oregano meksykańskiego, 2 liście laurowe; warzywa lekko opalić nad ogniem albo pod grillem.",
    "zrodla": [
     {
@@ -1859,7 +1859,7 @@
    "klaster": "B16"
   },
   {
-   "id": "K-B16-ACI-6",
+   "id": "ACI-865",
    "twierdzenie": "Według przepisu Ball „Escabeche” (przedruk UC MFP San Diego 2025): gorące warzywa i gorącą zalewę nakładać z 1/2 cala wolnej przestrzeni; kąpiel wodna, słoiki quart: 15 min, z korektą wysokości (przedruk nie podaje tabeli); wydajność w przedruku: „about 2-quart jars (32 oz)”.",
    "zrodla": [
     {
@@ -2131,7 +2131,7 @@
    "klaster": "B16"
   },
   {
-   "id": "K-B16-ACI-7",
+   "id": "ACI-866",
    "twierdzenie": "UC MFP San Joaquin (blog „Fruit Butters – more than just apple”) podaje „typowy przykład” masła brzoskwiniowego: 4 1/2 funta brzoskwiń, 1/2 szklanki wody, skórka i sok z 1 cytryny (świeżej), 8 szklanek przecieru, 4 szklanki cukru, 1/4 cala wolnej przestrzeni, kąpiel wodna 10 min, bez tabeli wysokości i bez wskazania wydania Ball („These and other recipes can be found in Ball Canning Books”).",
    "zrodla": [
     {
@@ -3397,7 +3397,7 @@
    "klaster": "B16"
   },
   {
-   "id": "K-B16-ACI-1",
+   "id": "ACI-860",
    "twierdzenie": "Według przepisu Umami Girl (Homemade maraschino cherries): 300 g (2 szklanki) wiśni bez pestek, 1 szklanka wody, 200 g cukru, 1 łyżka soku z cytryny, 1 łyżeczka wanilii; gorący syrop wlać na wiśnie w słoiku, ostudzić, przykryć, na noc do lodówki; autorka: w lodówce co najmniej miesiąc (JarAtlas: do 2 tygodni).",
    "zrodla": [
     {
@@ -3429,7 +3429,7 @@
    "klaster": "B16"
   },
   {
-   "id": "K-B16-ACI-8",
+   "id": "ACI-867",
    "twierdzenie": "Według przepisu RMF24 (ćwikła, Wielkanoc 2025): 1 kg buraków, 2 korzenie chrzanu, szczypta soli, łyżka octu lub soku z cytryny, łyżka cukru; chrzan zalać 5–6 łyżkami wrzątku; trzymać w słoiczkach w lodówce (bez liczby dni).",
    "zrodla": [
     {
@@ -3461,7 +3461,7 @@
    "klaster": "B16"
   },
   {
-   "id": "K-B16-ACI-9",
+   "id": "ACI-868",
    "twierdzenie": "Według przepisu z archiwum przepisów hawaii.edu (Chili Pickled Cabbage – Kim Chee): 2 funty kapusty pekińskiej, 1 łyżka soli (odsączyć po 3–4 godzinach), 1/2 szklanki białego octu, 1/2 szklanki jasnego sosu sojowego, chili, cukier, czosnek, imbir; co najmniej 24 godziny w chłodnym miejscu, potem w lodówce do tygodnia.",
    "zrodla": [
     {
@@ -3483,7 +3483,7 @@
    "klaster": "B16"
   },
   {
-   "id": "K-B16-ACI-2",
+   "id": "ACI-861",
    "twierdzenie": "Według przepisu ze Smaker (Domowy chrzan): 2 korzenie chrzanu, sól, 1 łyżeczka cukru, zalać wrzątkiem (ilość nie podana), 3 łyżki octu jabłkowego, gdy chrzan ma stać dłużej; bez miodu i bez liczby dni.",
    "zrodla": [
     {
@@ -3505,7 +3505,7 @@
    "klaster": "B16"
   },
   {
-   "id": "K-B16-ACI-3",
+   "id": "ACI-862",
    "twierdzenie": "Według przepisu Redemption Permaculture (Pickled Radish Seed Pods): 1 szklanka strąków rzodkiewki, 1/2 szklanki białego octu, 1/2 szklanki wody, 1 łyżka soli, 1 łyżka cukru, ząbek czosnku, liść laurowy; zalewę zagotować, strąki dusić pod przykryciem ok. 10 minut, przełożyć do słoika (strąki przykryte zalewą), ostudzić, do lodówki; gotowe po 24 godzinach, w lodówce do miesiąca (JarAtlas: do 2 tygodni).",
    "zrodla": [
     {
@@ -3537,7 +3537,7 @@
    "klaster": "B16"
   },
   {
-   "id": "K-B16-ACI-4",
+   "id": "ACI-863",
    "twierdzenie": "Według przepisu Garden Betty (Poor Man's Capers): 2/3 szklanki zielonych owoców nasturcji w solance 1/4 szklanki soli na 2 szklanki wody przez kilka dni (autorka: w temperaturze pokojowej), odcedzić, opłukać; 2/3 szklanki octu destylowanego białego 5% z cukrem zagotować 1 minutę i zalać owoce w słoikach, całkowicie przykryte; autorka trzyma je w spiżarni bez limitu (JarAtlas: tylko lodówka, do 2 tygodni).",
    "zrodla": [
     {
@@ -4168,7 +4168,7 @@
    "grupa": "A",
    "id": "D-A3",
    "dotyczy": "peach-nectarine-v08",
-   "tresc": "Blog UC MFP San Joaquin (K-B16-ACI-7): masło brzoskwiniowe ze świeżym sokiem z cytryny, 10 min, bez wysokości i wydania. Nie uznałem za ok-zrodlo. Do weta."
+   "tresc": "Blog UC MFP San Joaquin (ACI-866): masło brzoskwiniowe ze świeżym sokiem z cytryny, 10 min, bez wysokości i wydania. Nie uznałem za ok-zrodlo. Do weta."
   },
   {
    "grupa": "A",
