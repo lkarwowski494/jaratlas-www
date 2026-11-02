@@ -46768,7 +46768,7 @@
  },
  {
   "id": "SLO-468",
-  "twierdzenie": "Oregon State EM 9885: składniki wilgotne i niskokwasowe (np. świeży czosnek, zioła) najwyżej 15% masy i tylko metodą na gorąco, z miodem stale powyżej 140°F (60°C).",
+  "twierdzenie": "Oregon State EM 9885: składniki wilgotne i niskokwasowe (np. świeży czosnek, zioła) najwyżej 15% masy i tylko metodą na gorąco, z miodem stale powyżej 140°F (60°C); po infuzji gorący miód przecedza się, usuwając wszystkie kawałki.",
   "zrodla": [
    {
     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9885.pdf",
@@ -46787,6 +46787,15 @@
     "szczebel": 3,
     "weryfikacja": "curl+grep",
     "sha12": "257458d1bb16"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9885.pdf",
+    "miejsce": "Oregon State Univ. Extension, EM 9885; hot infusions, krok 5, s. 5",
+    "cytat": "Strain hot honey through a fine sieve or several layers of cheesecloth to remove all residual infusion pieces.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "257458d1bb16"
    }
   ],
   "status": "potwierdzone",
@@ -46801,7 +46810,7 @@
   "klaster": "SLO",
   "pochodzenie": "B9 E1-lodowka-zrodla-p1-2026-11-02 (K-SLO-9)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "Oregon State EM 9885: high-moisture, low-acid ingredients (e.g. fresh garlic, herbs) at most 15% by weight and only by hot infusion, keeping the honey above 140°F (60°C).",
+  "twierdzenie_en": "Oregon State EM 9885: high-moisture, low-acid ingredients (e.g. fresh garlic, herbs) at most 15% by weight and only by hot infusion, keeping the honey above 140°F (60°C); after infusing, the hot honey is strained to remove all pieces.",
   "uwaga": "Imbir zaliczony do niskokwasowych to wniosek JarAtlas (brak pH imbiru w przeczytanych źródłach).",
   "weryfikacjaZastepcza": "2026-11-02"
  },

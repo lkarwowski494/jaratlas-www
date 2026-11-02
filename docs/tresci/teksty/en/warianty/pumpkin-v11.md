@@ -16,6 +16,6 @@ Pumpkin must not be mashed or puréed for canning. [T:ACI-036]
 
 JarAtlas rule (cautious): pumpkin cooked down in a chutney is treated here like puréed pumpkin, for which home canning is not recommended. [T:SZY-015,ACI-036]
 
-NCHFP has no research data on the proportions and parameters needed to acidify puréed pumpkin products for boiling water canning, and it does not make up or estimate canning processes for low-acid foods. [T:ACI-442]
+NCHFP has no research data on the proportions and parameters needed to acidify puréed pumpkin products for boiling water canning, and it does not make up or estimate canning processes for low-acid pumpkin butters. [T:ACI-442]
 
 JarAtlas has found no tested recipe for pumpkin chutney from a checked source. [T:-]

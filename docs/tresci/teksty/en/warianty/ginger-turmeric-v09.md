@@ -11,4 +11,4 @@ There is no recipe here for candied ginger, either kept in syrup (stem ginger) o
 
 According to Ask Extension, ginger and turmeric have pH levels above the safe level for canning in a boiling water bath. [T:SLO-482]
 
-JarAtlas has found no tested recipe for candied ginger from a checked source, and no tested process for ginger kept in syrup. [T:-]
+JarAtlas has found no tested process for ginger kept in syrup, and no checked source that gives a storage time for dried candied ginger. [T:-]
