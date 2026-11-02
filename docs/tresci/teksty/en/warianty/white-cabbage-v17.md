@@ -1,6 +1,6 @@
-# Frozen cabbage (NCHFP)
+# Frozen white cabbage (NCHFP)
 
-This card describes the NCHFP instructions for freezing cabbage: blanched in boiling water, cooled, packed and frozen at 0 °F (−18 °C) or lower. [T:SLO-272,SUS-050]
+This card describes the NCHFP instructions for freezing white cabbage: blanched in boiling water, cooled, packed and frozen at 0 °F (−18 °C) or lower. [T:SLO-272,SUS-050]
 
 ## Choosing and preparing
 

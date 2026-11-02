@@ -8,7 +8,7 @@ Mrożoną kapustę można używać tylko jako warzywo do gotowania. [T:SLO-272]
 
 Wybierz świeżo zebrane, zwarte główki i usuń grube liście zewnętrzne. [T:SLO-272]
 
-Pokrój główkę w średnie lub grube paski albo cienkie ćwiartki (kliny) albo rozdziel ją na liście. [T:SLO-272]
+Pokrój główkę w średnie lub grube paski albo cienkie kliny (cząstki) albo rozdziel ją na liście. [T:SLO-272]
 
 ## Blanszowanie
 
