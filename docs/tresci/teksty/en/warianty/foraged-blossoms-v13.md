@@ -2,9 +2,9 @@
 
 This card describes how to dry linden (lime tree) flowers and chamomile flowers with the NCHFP method for drying herbs, in a food dehydrator. [T:SUS-076,SUS-031]
 
-## Safety
+## !
 
-According to NDSU Extension, some flowers should not be eaten, so identify flowers correctly before eating them; flowers from a florist are meant to look at, not to eat, because some pesticides used on them have not been approved for edible plants. [T:SLO-489]
+- According to NDSU Extension, some flowers should not be eaten, so identify flowers correctly before eating them; flowers from a florist are meant to look at, not to eat, because some pesticides used on them have not been approved for edible plants. [T:SLO-489]
 
 ## Choosing and preparing
 

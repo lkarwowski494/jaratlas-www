@@ -4,14 +4,10 @@ There is no recipe here for pork belly cooked in a broth of onion skins (Polish 
 
 ## !
 
-- UGA recommends cooking products made from ground pork and beef to an internal temperature of 160 °F. [T:MIE-021]
+- According to an Oregon State University Extension guide, cured bacon must be cooked or hot-smoked, in a smoker-grill or in an oven set above 160 °F, until the inside of the bacon reaches that same temperature, about 71 °C. [T:MIE-156]
 - According to ANSES, the French food safety agency, keeping the cold chain is essential for foods that are cooked but not sterilized, such as pâté and ready meals. [T:OLE-047]
 
 ## Why
-
-The UGA rule in the warning above is for products made from ground meat, not for a whole piece of bacon. [T:-]
-
-According to an Oregon State University Extension guide, cured bacon must be cooked or hot-smoked, in a smoker-grill or in an oven set above 160 °F, until the inside of the bacon reaches that same temperature, about 71 °C. [T:MIE-156]
 
 Without a checked source, JarAtlas cannot say how long it keeps, even in the refrigerator. [T:-]
 

@@ -1,5 +1,5 @@
 {
- "version": "1.0.19",
+ "version": "1.0.20",
  "generated": "2026-11-02",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -5057,7 +5057,8 @@
    "notes": [
     "[SZY*] Bigos (kapusta kiszona + świeża, mięso, kiełbasa, grzyby, tłuszcz): danie mieszane bez przetestowanego procesu ani w kąpieli wodnej, ani w szybkowarze. Karta tylko ostrzegawcza; alternatywa: mrożenie porcji.",
     "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-007, SZY-017, SZY-024, SZY-025 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-007, SZY-017, SZY-024, SZY-025 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Przyjęte (E3 p38): SZY-024 (brokuł, kalafior) usunięte z requiredWarnings; kapustę obejmuje SZY-025. SZY-024 zostaje w claims. SZY-017 zostaje do researchu (B32-D3). Karta en dopasowana. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -5069,7 +5070,6 @@
     "SZY-006",
     "SZY-007",
     "SZY-017",
-    "SZY-024",
     "SZY-025"
    ]
   },
@@ -5541,7 +5541,8 @@
    "notes": [
     "[ACI] Gołąbki (mięso/ryż w liściach) w sosie pomidorowym: niskokwasowe, brak przetestowanego procesu domowego; poza obszarem kwaśnym.",
     "[SZY*] Gołąbki: ryż (NCHFP zakazuje ryżu w wekowanych zupach) + kapusta (wyłączona z mieszanek, nie nadaje się do szybkowaru) + mięso mielone w gęstym zwoju; brak przetestowanego procesu. Alternatywa: mrożenie.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-017, SZY-025 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-017, SZY-025 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38, B32-D3): SZY-017 (zupy) zostaje do czasu twierdzenia o daniach mieszanych; usunięcie osłabiłoby ostrzeżenie o zagęstnikach, ryżu i mące. potrzebny research: twierdzenie szczebla 1–3 o wekowaniu dań mieszanych i zagęstników poza zupami. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -7729,7 +7730,8 @@
    "notes": [
     "[FER] Warzywo niskokwasowe w solance bez przetestowanego czasu w Guide 4 (brak sekcji dla tego warzywa/mieszanki): ryzyko jadu kiełbasianego. Zamiast: mrożenie lub marynata wg przepisu.",
     "[SZY*] Kalarepa w solance: PSU w tym samym artykule raz wymienia kalarepę jako nadającą się do wekowania, raz jako nienadającą się do szybkowaru; brak przetestowanego czasu w USDA. Do czasu wyjaśnienia: mrożenie lub pikle.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-025 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-025 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38): SZY-025 (kalarepa niewekowalna) zostaje, wariant ostrożniejszy wobec sprzeczności w artykule Penn State. potrzebny research: kalarepa w źródle szczebla 1. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -8361,7 +8363,7 @@
    "id": "zucchini-v15",
    "productId": "zucchini",
    "name": {
-    "pl": "cukinia w pomidorach"
+    "pl": "pomidory z cukinią (szybkowar)"
    },
    "groupV0": "Pasteryzacja, olej i słodkie",
    "lineV0": 47,
@@ -8389,7 +8391,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Odpowiednik: NCHFP Tomatoes with Okra or Zucchini — tylko szybkowar (niskokwasowe). Kąpiel wodna niedozwolona."
+    "[ACI*] Odpowiednik: NCHFP Tomatoes with Okra or Zucchini — tylko szybkowar (niskokwasowe). Kąpiel wodna niedozwolona.",
+    "[B32] Przyjęte: name.pl → „pomidory z cukinią (szybkowar)”. E3 p37: nazwa zgodna z przetestowanym wyjątkiem SZY-027 (przewaga pomidorów). Slug en bez zmian. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -10390,7 +10393,8 @@
    },
    "notes": [
     "[SZY*] Gołąbki w liściach winogron (dolma, ryż): ryż wykluczony w wekowanych zupach, brak procesu dla dań z ryżem. Alternatywa: mrożenie.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-017 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-017 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38, B32-D3): SZY-017 (zupy) zostaje do czasu twierdzenia o daniach mieszanych; usunięcie osłabiłoby ostrzeżenie o zagęstnikach, ryżu i mące. potrzebny research: twierdzenie szczebla 1–3 o wekowaniu dań mieszanych i zagęstników poza zupami. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -10414,11 +10418,12 @@
    "processFamilyId": "oil-and-fat",
    "preservationMethod": "freezer",
    "acidBasis": "not-applicable",
-   "safetyStatus": "ok-zrodlo",
+   "safetyStatus": "nie-publikowac",
    "claims": [
     "OLE-042",
     "OLE-043",
-    "OLE-044"
+    "OLE-044",
+    "SLO-880"
    ],
    "sources": [
     {
@@ -10436,7 +10441,8 @@
     "difficulty": null
    },
    "notes": [
-    "[OLE*] Surowa pasta ziołowo-warzywna z olejem (z rukwi wodnej) jako odpowiednik pesto NCHFP: lodówka maks. 3 dni, dłużej tylko zamrażarka. Bez pasteryzacji i bez przechowywania w spiżarni."
+    "[OLE*] Surowa pasta ziołowo-warzywna z olejem (z rukwi wodnej) jako odpowiednik pesto NCHFP: lodówka maks. 3 dni, dłużej tylko zamrażarka. Bez pasteryzacji i bez przechowywania w spiżarni.",
+    "[B32] Przyjęte (E3 p37 §4a, B32-D1): ok-zrodlo → nie-publikowac, karta-ostrzeżenie. CDC zaleca nie jeść surowej rukwi wodnej (Fasciola, SLO-880); wariant to surowa pasta. Ostrzeżenie SLO-880; OLE-043 (termin w lodówce) poza ostrzeżeniami (reguła B28-D2 bez terminów). Wariant z obróbką cieplną: brak źródła, nie dodany. Karty en brak (tor A). (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -10445,8 +10451,9 @@
    ],
    "e3": "potwierdzony",
    "requiredWarnings": [
-    "OLE-043"
-   ]
+    "SLO-880"
+   ],
+   "cardType": "warning"
   },
   {
    "id": "vine-leaves-greens-v10",
@@ -11980,7 +11987,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Odpowiednik: NCHFP Whole Tomatoes packed raw without added liquid; pomidorki koktajlowe nie są osobno wymienione — DO USTALENIA, czy całe ze skórką (NCHFP obiera)."
+    "[ACI*] Odpowiednik: NCHFP Whole Tomatoes packed raw without added liquid; pomidorki koktajlowe nie są osobno wymienione — DO USTALENIA, czy całe ze skórką (NCHFP obiera).",
+    "[B32] Przyjęte (E3 p37): DO USTALENIA zamknięte: karta stosuje przepis NCHFP na pomidory całe lub połówki bez zmian, z obieraniem i dodatkiem kwasu (ACI-960); bez wersji ze skórką. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -13287,7 +13295,8 @@
    },
    "notes": [
     "[SLO*] Niskokwasowe warzywo zanurzone w miodzie: ryzyko jak w czosnku w miodzie (K-State), brak przetestowanej procedury. Analogia do czosnku, nie źródło bezpośrednie. Miód: nie dla niemowląt.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SLO-037, SLO-036 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SLO-037, SLO-036 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38): SLO-037 (czosnek w miodzie) zostaje jako najbliższe twierdzenie. potrzebny research: warzywa inne niż czosnek w miodzie (kandydat SLO-905–949, nie dodany). (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -15307,7 +15316,7 @@
    "id": "green-beans-v08",
    "productId": "green-beans",
    "name": {
-    "pl": "konserwowa w solance (szybkowar)"
+    "pl": "konserwowa w zalewie (szybkowar)"
    },
    "groupV0": "Pasteryzacja, olej i susz",
    "lineV0": 99,
@@ -15345,7 +15354,8 @@
     "[FER] Przetestowany proces tylko w autoklawie: Guide 4, sekcja „Beans, snap and Italian” (czasy odczytać u SZY). Tyndalizacja i kąpiel wodna nie są przetestowane (FER-005).",
     "[SZY*] Fasolka szparagowa w zalewie: przepis NCHFP, szybkowar 20/25 min; tyndalizacja z v0 odrzucona – NCHFP: brak bezpiecznej opcji w kąpieli wodnej.",
     "[E3] Weryfikator: Proces szybkowarowy jest przetestowany (NCHFP Beans, Snap and Italian, 20/25 min), ale nazwa wariantu podaje tyndalizację, czyli wielokrotne gotowanie we wrzącej wodzie. NCHFP (szczebel 1) mówi wprost, że jedyną zalecaną metodą dla warzyw jest szybkowar, a kąpiel wodna oznacza ryzyko jadu kiełbasianego (SZY-005, SZY-006; strona źródłowa: 'There is no safe option for processing green beans in a boiling water canner'). SZY-009 (szczebel 2): tyndalizacja nie jest niezawodna. Wariant w obecnym brzmieniu nie może być ok-zrodlo. Jeśli 'tyndalizacja' zniknie z nazwy i zostanie samo wekowanie w szybkowarze wg NCHFP, ok-zrodlo jest uzasadnione. Rozstrzygnięcie: ok-zrodlo dla procesu w szybkowarze; „tyndalizacja” usunięta z nazwy (zostaje w nameV0).",
-    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → ok-zrodlo: Zgodne z NCHFP Beans, Snap (c47820c498dc): szybkowar, pint 20 min, quart 25 min, sól 1 łyżeczka na quart opcjonalnie; nazwa 'konserwowa w solance (szybkowar)' nie wnosi składnika spoza przepisu, o ile nie ma w niej octu ani cukru. requiredWarnings jest puste, choć źródło wprost mówi 'There is no safe option for processing green beans in a boiling water canner', a nazwa v0 brzmiała 'tyndalizacja'. Należy dodać ostrzeżenia."
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → ok-zrodlo: Zgodne z NCHFP Beans, Snap (c47820c498dc): szybkowar, pint 20 min, quart 25 min, sól 1 łyżeczka na quart opcjonalnie; nazwa 'konserwowa w solance (szybkowar)' nie wnosi składnika spoza przepisu, o ile nie ma w niej octu ani cukru. requiredWarnings jest puste, choć źródło wprost mówi 'There is no safe option for processing green beans in a boiling water canner', a nazwa v0 brzmiała 'tyndalizacja'. Należy dodać ostrzeżenia.",
+    "[B32] Przyjęte: name.pl → „konserwowa w zalewie (szybkowar)”. E3 p37: „w solance” → „w zalewie” (wekowanie w szybkowarze, nie kiszenie). Slug en bez zmian. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -15856,7 +15866,7 @@
    "id": "peas-chickpeas-v07",
    "productId": "peas-chickpeas",
    "name": {
-    "pl": "zielony groszek w solance (szybkowar)"
+    "pl": "zielony groszek w zalewie (szybkowar)"
    },
    "groupV0": "Pasteryzacja, olej i susz",
    "lineV0": 103,
@@ -15889,7 +15899,8 @@
    },
    "notes": [
     "[FER] Przetestowany proces tylko w autoklawie: Guide 4, sekcja „Peas, green” (czasy odczytać u SZY). Tyndalizacja i kąpiel wodna nie są przetestowane (FER-005).",
-    "[SZY*] Groszek zielony łuskany w zalewie, szybkowar 40 min (pint lub quart). Groszek cukrowy/strąki – NCHFP zaleca mrożenie."
+    "[SZY*] Groszek zielony łuskany w zalewie, szybkowar 40 min (pint lub quart). Groszek cukrowy/strąki – NCHFP zaleca mrożenie.",
+    "[B32] Przyjęte: name.pl → „zielony groszek w zalewie (szybkowar)”. E3 p37: „w solance” → „w zalewie”. Slug en bez zmian. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -15903,7 +15914,7 @@
    "id": "peas-chickpeas-v08",
    "productId": "peas-chickpeas",
    "name": {
-    "pl": "ciecierzyca w solance"
+    "pl": "ciecierzyca w zalewie"
    },
    "groupV0": "Pasteryzacja, olej i susz",
    "lineV0": 103,
@@ -15936,7 +15947,8 @@
    },
    "notes": [
     "[FER] Przetestowany proces tylko w autoklawie: Guide 4, sekcja „Beans or peas—shelled, dried” (czasy odczytać u SZY). Tyndalizacja i kąpiel wodna nie są przetestowane (FER-005).",
-    "[SZY*] Ciecierzyca z suchych nasion: przepis NCHFP „Beans or Peas – Shelled, Dried, All Varieties”, szybkowar 75/90 min."
+    "[SZY*] Ciecierzyca z suchych nasion: przepis NCHFP „Beans or Peas – Shelled, Dried, All Varieties”, szybkowar 75/90 min.",
+    "[B32] Przyjęte: name.pl → „ciecierzyca w zalewie”. E3 p37: „w solance” → „w zalewie”. Slug en bez zmian. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -16502,7 +16514,8 @@
    "notes": [
     "[SZY*] Fasolka po bretońsku (tyndalizacja): tyndalizacja odrzucona; tradycyjna wersja (dużo kiełbasy, zasmażka) wykracza poza przepis. Przetestowany odpowiednik: fasola w sosie pomidorowym z kostką boczku (SZY-031), patrz beans-soy-v08.",
     "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-009, SZY-017 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-009, SZY-017 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38, B32-D3): SZY-017 (zupy) zostaje do czasu twierdzenia o daniach mieszanych; usunięcie osłabiłoby ostrzeżenie o zagęstnikach, ryżu i mące. potrzebny research: twierdzenie szczebla 1–3 o wekowaniu dań mieszanych i zagęstników poza zupami. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -16520,7 +16533,7 @@
    "id": "beans-soy-v08",
    "productId": "beans-soy",
    "name": {
-    "pl": "fasola w sosie pomidorowym (baked beans)"
+    "pl": "fasola z suchych nasion w sosie pomidorowym (szybkowar)"
    },
    "groupV0": "Pasteryzacja, olej i słodkie",
    "lineV0": 107,
@@ -16552,8 +16565,9 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI] NCHFP Beans, Baked / Beans Dry with Tomato or Molasses — tylko szybkowar.",
-    "[SZY*] Fasola w sosie pomidorowym/melasowym: przepis NCHFP, szybkowar 65/75 min."
+    "[ACI] NCHFP Beans Dry with Tomato or Molasses Sauce — tylko szybkowar.",
+    "[SZY*] Fasola w sosie pomidorowym/melasowym: przepis NCHFP, szybkowar 65/75 min.",
+    "[B32] Przyjęte: name.pl → „fasola z suchych nasion w sosie pomidorowym (szybkowar)”. E3 p37 V2a P2: przepis NCHFP Beans Dry with Tomato or Molasses Sauce, nie baked beans; notes [ACI] poprawione. Slug en bez zmian. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -16567,7 +16581,7 @@
    "id": "beans-soy-v09",
    "productId": "beans-soy",
    "name": {
-    "pl": "czerwona i biała fasola w solance"
+    "pl": "czerwona i biała fasola w zalewie"
    },
    "groupV0": "Pasteryzacja, olej i słodkie",
    "lineV0": 107,
@@ -16600,7 +16614,8 @@
    },
    "notes": [
     "[FER] Przetestowany proces tylko w autoklawie: Guide 4, sekcja „Beans or peas—shelled, dried” (czasy odczytać u SZY). Tyndalizacja i kąpiel wodna nie są przetestowane (FER-005).",
-    "[SZY*] Fasola czerwona i biała z suchych nasion w zalewie: NCHFP, 75/90 min."
+    "[SZY*] Fasola czerwona i biała z suchych nasion w zalewie: NCHFP, 75/90 min.",
+    "[B32] Przyjęte: name.pl → „czerwona i biała fasola w zalewie”. E3 p37: „w solance” → „w zalewie”. Slug en bez zmian. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -17126,7 +17141,8 @@
    "notes": [
     "[SZY*] Tarte buraczki zasmażane: forma tarta i zasmażka (mąka) poza przepisem; NCHFP ma proces tylko dla buraków całych/kostki/plastrów (SZY-053). Wersja zakwaszona octem – ocena ACI.",
     "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-017 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-017 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38, B32-D3): SZY-017 (zupy) zostaje do czasu twierdzenia o daniach mieszanych; usunięcie osłabiłoby ostrzeżenie o zagęstnikach, ryżu i mące. potrzebny research: twierdzenie szczebla 1–3 o wekowaniu dań mieszanych i zagęstników poza zupami. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -17725,7 +17741,7 @@
    "id": "carrot-v09",
    "productId": "carrot",
    "name": {
-    "pl": "marchewka konserwowa w kostkę w solance"
+    "pl": "marchewka konserwowa w kostkę w zalewie"
    },
    "groupV0": "Pasteryzacja, słodkie i susz",
    "lineV0": 119,
@@ -17758,7 +17774,8 @@
    },
    "notes": [
     "[FER] Przetestowany proces tylko w autoklawie: Guide 4, sekcja „Carrots—sliced or diced” (czasy odczytać u SZY). Tyndalizacja i kąpiel wodna nie są przetestowane (FER-005).",
-    "[SZY*] Marchew w kostce w zalewie: NCHFP, szybkowar 25/30 min."
+    "[SZY*] Marchew w kostce w zalewie: NCHFP, szybkowar 25/30 min.",
+    "[B32] Przyjęte: name.pl → „marchewka konserwowa w kostkę w zalewie”. E3 p37: „w solance” → „w zalewie”. Slug en bez zmian. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -19157,7 +19174,8 @@
    },
    "notes": [
     "[SLO*] Surowa cebula w miodzie/cukrze: niskokwasowe warzywo w miodzie, ryzyko jak dla czosnku w miodzie (analogia). Miód nie dla niemowląt.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SLO-037, SLO-036 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SLO-037, SLO-036 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38): SLO-037 (czosnek w miodzie) zostaje jako najbliższe twierdzenie. potrzebny research: warzywa inne niż czosnek w miodzie (kandydat SLO-905–949, nie dodany). (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -20671,7 +20689,8 @@
    },
    "notes": [
     "[SLO*] Surowa rzodkiew w miodzie: niskokwasowe warzywo w miodzie (analogia do czosnku w miodzie). Miód nie dla niemowląt.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SLO-037, SLO-036, SLO-023 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SLO-037, SLO-036, SLO-023 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38): SLO-037 (czosnek w miodzie) zostaje jako najbliższe twierdzenie. potrzebny research: warzywa inne niż czosnek w miodzie (kandydat SLO-905–949, nie dodany). (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -23379,7 +23398,8 @@
    },
    "notes": [
     "[OLE*] Warzywo niskokwasowe w oleju; brak przetestowanego procesu domowego (zakwaszanie Idaho nie obejmuje tego warzywa). Wersja przechowalnicza = tylko ostrzeżenie; ewentualnie lodówka do 4 dni albo zamrażarka.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): OLE-028, OLE-027, OLE-016, OLE-046 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): OLE-028, OLE-027, OLE-016, OLE-046 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odrzucone (E3 p38, B32-D4): OLE-046 (ANSES: domowe konserwy warzywne, m.in. papryka i oliwki) zostaje; wyrób w słoiku pod olejem, usunięcie osłabiłoby ostrzeżenie. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -24766,7 +24786,8 @@
    },
    "notes": [
     "[OLE*] Oliwki pieczone zalane oliwą z rozmarynem: oliwki po obróbce cieplnej tracą solankę/kwas; brak przepisu. Lodówka do 4 dni.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): OLE-028, OLE-046 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): OLE-028, OLE-046 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odrzucone (E3 p38, B32-D4): OLE-046 (ANSES: domowe konserwy warzywne, m.in. papryka i oliwki) zostaje; wyrób w słoiku pod olejem, usunięcie osłabiłoby ostrzeżenie. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -26247,7 +26268,8 @@
    "notes": [
     "[SZY*] Leczo węgierskie: brak przetestowanego procesu; NCHFP zakazuje zwiększania udziału papryki i cebuli w sosach pomidorowych. Alternatywa: SZY-027 lub mrożenie.",
     "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-026, SZY-028 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-026, SZY-028 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odrzucone (E3 p38): SZY-026 zostaje; skład leczo bez źródła, ostrzeżenie o cukinii to wariant ostrożniejszy (B32-D4). (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -26728,7 +26750,8 @@
    "notes": [
     "[OLE*] Pasta z pieczonej papryki/bakłażana z olejem: niskokwasowa, brak przetestowanego przepisu. Wersja w słoikach poza lodówką = ostrzeżenie; zamrażarka lub lodówka do 4 dni.",
     "[SUS] Malidzano: pasta z pieczonej papryki i bakłażana; nie suszenie.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): OLE-028, OLE-027, OLE-016, OLE-046 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): OLE-028, OLE-027, OLE-016, OLE-046 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odrzucone (E3 p38, B32-D4): OLE-046 (ANSES: domowe konserwy warzywne, m.in. papryka i oliwki) zostaje; wyrób w słoiku pod olejem, usunięcie osłabiłoby ostrzeżenie. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -26775,7 +26798,8 @@
    "notes": [
     "[OLE*] Pasta z pieczonej papryki/bakłażana z olejem: niskokwasowa, brak przetestowanego przepisu. Wersja w słoikach poza lodówką = ostrzeżenie; zamrażarka lub lodówka do 4 dni.",
     "[SUS] Kyopolou: pasta warzywna; nie suszenie.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): OLE-028, OLE-027, OLE-016, OLE-046 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): OLE-028, OLE-027, OLE-016, OLE-046 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odrzucone (E3 p38, B32-D4): OLE-046 (ANSES: domowe konserwy warzywne, m.in. papryka i oliwki) zostaje; wyrób w słoiku pod olejem, usunięcie osłabiłoby ostrzeżenie. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -27378,7 +27402,8 @@
    "notes": [
     "[FER] Warzywo niskokwasowe w solance bez przetestowanego czasu w Guide 4 (brak sekcji dla tego warzywa/mieszanki): ryzyko jadu kiełbasianego. Zamiast: mrożenie lub marynata wg przepisu.",
     "[SZY*] Mieszanka stir-fry w solance: typowe składniki (kapusta pekińska, brokuł, pędy bambusa, kiełki) są wyłączone z Mixed Vegetables albo nie mają procesu. Bezpieczne tylko jako Mixed Vegetables z dozwolonych warzyw.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-025 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-025 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38): SZY-025 zostaje; SZY-022 (wyłączenia Mixed Vegetables) w claims jako kandydat. potrzebny research: pędy bambusa i kiełki w wekowaniu domowym. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33578,7 +33603,8 @@
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma tylko Strawberry-Rhubarb Jelly (galaretka), nie dżem.",
     "[B10] zostaje do-researchu (C8): przepis tylko w przedrukach szczebla 3 (WSU/NDSU) i wymaga zmiany nazwy; ostrożniej bez ok-zrodlo do źródła szczebla 1 (C8-D10, P7) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
-    "[B25] do-researchu → ok-zrodlo (B23): Sure-Jell Rhubarb Strawberry Jam (Kraft Heinz, szczebel 3) + NDSU FN172 / WSU (SLO-810–813); sources SLO-810, SLO-811, SLO-812, SLO-813; requiredWarnings SLO-001; czas karty wg B23 parametry_karty (dłuższa tabela wysokości ACI-732, B23-A-D1/C-D4); nazwa karty do toru A (2026-11-02-jaratlas-b25-katalog)"
+    "[B25] do-researchu → ok-zrodlo (B23): Sure-Jell Rhubarb Strawberry Jam (Kraft Heinz, szczebel 3) + NDSU FN172 / WSU (SLO-810–813); sources SLO-810, SLO-811, SLO-812, SLO-813; requiredWarnings SLO-001; czas karty wg B23 parametry_karty (dłuższa tabela wysokości ACI-732, B23-A-D1/C-D4); nazwa karty do toru A (2026-11-02-jaratlas-b25-katalog)",
+    "[B32] Odrzucone (E3 p37, propozycja autora C): ACI-733 to zalecenie jakości (zużyć w ciągu roku), nie ostrzeżenie bezpieczeństwa; reguła B28-D2 bez terminów przechowywania w ostrzeżeniach. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37295,7 +37321,7 @@
    "id": "elderberry-elderflower-v10",
    "productId": "elderberry-elderflower",
    "name": {
-    "pl": "suszone kwiaty bzu"
+    "pl": "suszone kwiaty czarnego bzu"
    },
    "groupV0": "Syropy, dżemy i susz",
    "lineV0": 279,
@@ -37306,7 +37332,8 @@
    "claims": [
     "SUS-031",
     "SUS-033",
-    "SUS-022"
+    "SUS-022",
+    "ACI-450"
    ],
    "sources": [
     {
@@ -37324,14 +37351,18 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Kwiaty bzu suszone jak zioła (NCHFP: kwiaty)."
+    "[SUS*] Kwiaty bzu suszone jak zioła (NCHFP: kwiaty).",
+    "[B32] Przyjęte (E3 p37): nazwa „suszone kwiaty bzu” → „suszone kwiaty czarnego bzu” (SUS-422, karta: tylko bez czarny); ostrzeżenie ACI-450 (niedojrzałe owoce i inne części rośliny niebezpieczne). Zdanie przeniesione na karcie en do ostrzeżeń bez zmiany brzmienia. Slug en bez zmian. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "ACI-450"
+   ]
   },
   {
    "id": "elderberry-elderflower-v11",
@@ -44266,7 +44297,9 @@
     "SZY-003",
     "SZY-006",
     "SZY-008",
-    "SZY-014"
+    "SZY-014",
+    "OLE-028",
+    "OLE-024"
    ],
    "sources": [],
    "filters": {
@@ -44278,7 +44311,8 @@
    "notes": [
     "[SZY*] Duxelles pod oliwą: siekana pasta grzybowa (puree) pod olejem – wekowanie zakazane; tylko lodówka/zamrażarka (OLE).",
     "[OLE] Boczniaki/duxelles pod olejem: przepis NCHFP obejmuje tylko małe całe pieczarki z octem. Bezpieczna alternatywa: grzyby podsmażone na tłuszczu i zamrożone (NCHFP).",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-014 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-014 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Przyjęte (E3 p38): dodane ostrzeżenia olejowe OLE-028 (brak zwalidowanych procesów dla domowych warzyw w oleju) i OLE-024 (grzyby w ogniskach jadu kiełbasianego z warzyw w oleju). Karta en dopasowana. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -44289,7 +44323,9 @@
    "e3": "potwierdzony",
    "requiredWarnings": [
     "SZY-006",
-    "SZY-014"
+    "SZY-014",
+    "OLE-028",
+    "OLE-024"
    ]
   },
   {
@@ -44879,7 +44915,9 @@
    "claims": [
     "OLE-042",
     "OLE-043",
-    "OLE-044"
+    "OLE-044",
+    "OLE-054",
+    "SLO-303"
    ],
    "sources": [
     {
@@ -44897,7 +44935,8 @@
     "difficulty": null
    },
    "notes": [
-    "[OLE*] Surowa pasta ziołowo-warzywna z olejem (genovese) jako odpowiednik pesto NCHFP: lodówka maks. 3 dni, dłużej tylko zamrażarka. Bez pasteryzacji i bez przechowywania w spiżarni."
+    "[OLE*] Surowa pasta ziołowo-warzywna z olejem (genovese) jako odpowiednik pesto NCHFP: lodówka maks. 3 dni, dłużej tylko zamrażarka. Bez pasteryzacji i bez przechowywania w spiżarni.",
+    "[B32] Przyjęte (E3 p37, propozycja autora C): ostrzeżenia OLE-054 (pesto nigdy w temperaturze pokojowej) i SLO-303 (rozmrożone pesto: reguła ostrożna). Zdania przeniesione z sekcji Safety karty en do ostrzeżeń bez zmiany brzmienia. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -44906,7 +44945,9 @@
    ],
    "e3": "potwierdzony",
    "requiredWarnings": [
-    "OLE-043"
+    "OLE-043",
+    "OLE-054",
+    "SLO-303"
    ]
   },
   {
@@ -45084,7 +45125,7 @@
    "groupV0": "Pasty, oliwy i octy",
    "lineV0": 358,
    "processFamilyId": "oil-and-fat",
-   "preservationMethod": "cool-storage",
+   "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
    "safetyStatus": "ok-zrodlo",
    "claims": [
@@ -45095,7 +45136,10 @@
     "OLE-014",
     "OLE-015",
     "OLE-017",
-    "OLE-018"
+    "OLE-018",
+    "OLE-002",
+    "OLE-019",
+    "OLE-077"
    ],
    "sources": [
     {
@@ -45121,7 +45165,8 @@
    },
    "notes": [
     "[ACI] Oliwa z czosnkiem — rodzina olejowa (czosnek w oleju: ryzyko jadu).",
-    "[OLE*] Czosnek i rozmaryn to składniki objęte przetestowanym zakwaszaniem (3% kwas cytrynowy, 24 h, czosnek posiekany osobno). Bez zakwaszenia: lodówka do 4 dni."
+    "[OLE*] Czosnek i rozmaryn to składniki objęte przetestowanym zakwaszaniem (3% kwas cytrynowy, 24 h, czosnek posiekany osobno). Bez zakwaszenia: lodówka, zjeść najpóźniej następnego dnia (OLE-077, BfR; NCHFP dla czosnku w oleju do 4 dni, OLE-002).",
+    "[B32] Przyjęte (E3 p37 §4h): preservationMethod cool-storage → refrigerator (karta en: metoda UGA bez zakwaszenia, lodówka, zjeść następnego dnia, OLE-077); notes poprawione; OLE-002 i OLE-019 (już w requiredWarnings) dopisane do claims, także OLE-077. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -45868,7 +45913,8 @@
    "claims": [
     "SUS-031",
     "SUS-033",
-    "SUS-022"
+    "SUS-022",
+    "SLO-489"
    ],
    "sources": [
     {
@@ -45886,14 +45932,18 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Kwiat lipy i rumianku suszony jak zioła (NCHFP: kwiaty). Identyfikacja roślin dzikich poza zakresem źródła."
+    "[SUS*] Kwiat lipy i rumianku suszony jak zioła (NCHFP: kwiaty). Identyfikacja roślin dzikich poza zakresem źródła.",
+    "[B32] Przyjęte (E3 p37, propozycja autora C): ostrzeżenie SLO-489 (NDSU: rozpoznać kwiat przed jedzeniem). Zdanie przeniesione z sekcji Safety karty en do ostrzeżeń bez zmiany brzmienia. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "SLO-489"
+   ]
   },
   {
    "id": "koji-ferments-v01",
@@ -47208,7 +47258,7 @@
    "id": "artisanal-vinegars-v01",
    "productId": "artisanal-vinegars",
    "name": {
-    "pl": "ocet jabłkowy z matką octową"
+    "pl": "domowy ocet jabłkowy (matka octowa odfiltrowana)"
    },
    "groupV0": "Owocowe i winne",
    "lineV0": 378,
@@ -47240,7 +47290,8 @@
     "difficulty": null
    },
    "notes": [
-    "[NAP*] Przetestowana procedura extension (PSU/OSU): cydr z dojrzałych jabłek, 16–27°C, 3–4 tygodnie, filtracja, pasteryzacja 60–71°C. Gotowy ocet nie nadaje się do marynat, wekowania ani przetworów trzymanych w temperaturze pokojowej."
+    "[NAP*] Przetestowana procedura extension (PSU/OSU): cydr z dojrzałych jabłek, 16–27°C, 3–4 tygodnie, filtracja, pasteryzacja 60–71°C. Gotowy ocet nie nadaje się do marynat, wekowania ani przetworów trzymanych w temperaturze pokojowej.",
+    "[B32] Przyjęte: name.pl → „domowy ocet jabłkowy (matka octowa odfiltrowana)”. E3 p37: przetestowana metoda usuwa matkę filtrowaniem (NAP-093); karta en nie podaje metody z matką. Slug en bez zmian. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -49807,7 +49858,8 @@
     "[SZY] Ser w oliwie (OLE/MLE).",
     "[OLE] Ser w oleju z ziołami/czosnkiem/cebulą: reguła oleju – olej nie konserwuje; przechowywać w lodówce, czosnek w oleju maks. 4 dni.",
     "[MLE*] Ser w oliwie z ziołami: zioła w oleju sprzyjają C. botulinum (lodówka do 4 dni albo zamrożenie); CFIA wycofało ser (labneh) w oleju z tego powodu. Brak przetestowanej procedury długiego przechowywania.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): MLE-060, MLE-062, MLE-063, MLE-043 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): MLE-060, MLE-062, MLE-063, MLE-043 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38, B32-D4): MLE-043 (queso fresco) zostaje do czasu twierdzenia o serach w oleju. potrzebny research: ser świeży w oleju, Listeria. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -51843,7 +51895,8 @@
    },
    "notes": [
     "[MIE*] Peklowanie na mokro + wędzenie + parzenie. Brak przeczytanego przetestowanego przepisu na szynkę peklowaną na mokro (NCHFP odsyła tylko do szynek peklowanych na sucho). Limity azotynu w MIE-001/008.",
-    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Cztery publikacje wskazane przez NCHFP opisują tylko szynki peklowane na sucho (VT, UKY) albo boczek i kiełbasy (MU, UGA). OSU ANSI-3994 (szczebel 3) opisuje nastrzyk i wędzenie szynki do 142°F, ale każe ją dalej gotować w domu bez podania temperatury końcowej (MIE-161); 148°F dotyczy szynek handlowych. Brak przepisu 1:1 po przebiegu 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), MIE-011 (za dużo azotynu) (2026-11-02-jaratlas-b28-katalog)"
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Cztery publikacje wskazane przez NCHFP opisują tylko szynki peklowane na sucho (VT, UKY) albo boczek i kiełbasy (MU, UGA). OSU ANSI-3994 (szczebel 3) opisuje nastrzyk i wędzenie szynki do 142°F, ale każe ją dalej gotować w domu bez podania temperatury końcowej (MIE-161); 148°F dotyczy szynek handlowych. Brak przepisu 1:1 po przebiegu 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), MIE-011 (za dużo azotynu) (2026-11-02-jaratlas-b28-katalog)",
+    "[B32] Przyjęte (E3 p37 V1 P2): ostrzeżenie MIE-021 (mięso mielone 160°F) → MIE-161 (OSU: szynka wędzona do 142°F wymaga dalszego gotowania; brak temperatury końcowej dla szynki domowej). MIE-021 zostaje w claims jako kontekst. Karta en dopasowana (B32-D2). (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -51853,7 +51906,7 @@
    "nameV0": "szynka tradycyjna peklowana na mokro, wędzona dymem olchowo-owocowym i parzona do $75^\\circ\\text{C}$",
    "cardType": "warning",
    "requiredWarnings": [
-    "MIE-021",
+    "MIE-161",
     "MIE-011"
    ]
   },
@@ -52329,7 +52382,8 @@
     "[SZY*] Schab w galarecie: dodatek żelatyny/galarety spoza przepisu. Przetestowany odpowiednik: kawałki schabu na gorąco z wrzącym bulionem, szybkowar 75/90 min (SZY-041) – galareta tworzy się wtedy sama.",
     "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
     "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-007, SZY-013 (2026-11-02-jaratlas-b29-katalog)",
-    "[B29] potrzebny research: twierdzenie „brak przetestowanego procesu w szybkowarze = ryzyko jadu kiełbasianego” (SZY-007 i SZY-013 to odesłanie do procedur USDA i zakaz dodatków, D-043 B29 P2-4) (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] potrzebny research: twierdzenie „brak przetestowanego procesu w szybkowarze = ryzyko jadu kiełbasianego” (SZY-007 i SZY-013 to odesłanie do procedur USDA i zakaz dodatków, D-043 B29 P2-4) (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38): SZY-013 zostaje do czasu twierdzenia o żelatynie i galarecie. potrzebny research: dodatek żelatyny w wekowaniu mięsa (szybkowar). (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -52877,7 +52931,8 @@
     "[SZY*] Gulasz wieprzowy: USDA nie ma przepisu na gulasz; zagęszczanie zakazane. Przetestowana alternatywa: kawałki mięsa z bulionem/sokiem pomidorowym (SZY-041), zagęścić przy podaniu.",
     "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
     "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-007, SZY-017 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-007, SZY-017 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38, B32-D3): SZY-017 (zupy) zostaje do czasu twierdzenia o daniach mieszanych; usunięcie osłabiłoby ostrzeżenie o zagęstnikach, ryżu i mące. potrzebny research: twierdzenie szczebla 1–3 o wekowaniu dań mieszanych i zagęstników poza zupami. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -53326,7 +53381,8 @@
    "safetyStatus": "nie-publikowac",
    "claims": [
     "MIE-021",
-    "OLE-047"
+    "OLE-047",
+    "MIE-156"
    ],
    "sources": [],
    "filters": {
@@ -53337,7 +53393,8 @@
    },
    "notes": [
     "[MIE*] Boczek gotowany: potrawa z lodówki; bez przepisu.",
-    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Boczek gotowany w wywarze z łupin cebuli: brak przepisu szczebla 1–3 (wyszukiwanie R4 bez trafienia); obróbka w wodzie poza PNW 784. Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), OLE-047 (łańcuch chłodniczy dla pasztetu) (2026-11-02-jaratlas-b28-katalog)"
+    "[B28] do-researchu → nie-publikowac (B26, przebieg 2, kandydat): brak sprawdzonego źródła po 2 przebiegach researchu → karta-ostrzeżenie „brak sprawdzonego źródła” (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B26: Boczek gotowany w wywarze z łupin cebuli: brak przepisu szczebla 1–3 (wyszukiwanie R4 bez trafienia); obróbka w wodzie poza PNW 784. Przebieg 2. Ostrzeżenia (B28-D2, reguła ogólna bez terminów przechowywania): MIE-021 (160°F), OLE-047 (łańcuch chłodniczy dla pasztetu) (2026-11-02-jaratlas-b28-katalog)",
+    "[B32] Przyjęte (E3 p37 V1 P2): ostrzeżenie MIE-021 (mięso mielone) → MIE-156 (PNW 784: boczek peklowany ugotować albo uwędzić na ciepło do 160°F wewnątrz). MIE-021 zostaje w claims. Karta en dopasowana (B32-D2). (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -53346,7 +53403,7 @@
    ],
    "cardType": "warning",
    "requiredWarnings": [
-    "MIE-021",
+    "MIE-156",
     "OLE-047"
    ]
   },
@@ -55074,7 +55131,8 @@
     "[SZY*] Gulasz wołowy: jak pork-shoulder-neck-v11; alternatywa SZY-041.",
     "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
     "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-007, SZY-017 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-007, SZY-017 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38, B32-D3): SZY-017 (zupy) zostaje do czasu twierdzenia o daniach mieszanych; usunięcie osłabiłoby ostrzeżenie o zagęstnikach, ryżu i mące. potrzebny research: twierdzenie szczebla 1–3 o wekowaniu dań mieszanych i zagęstników poza zupami. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -55168,7 +55226,8 @@
     "[SLO] Mięso w słoiku, obszar MIE/SZY.",
     "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
     "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-007, SZY-017 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-007, SZY-017 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38, B32-D3): SZY-017 (zupy) zostaje do czasu twierdzenia o daniach mieszanych; usunięcie osłabiłoby ostrzeżenie o zagęstnikach, ryżu i mące. potrzebny research: twierdzenie szczebla 1–3 o wekowaniu dań mieszanych i zagęstników poza zupami. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -56831,7 +56890,8 @@
     "[SZY*] Kaszanka słoikowa: kasza (skrobia) z krwią i podrobami, zwarta masa; ryż/zagęstniki zakazane w wekowanych zupach; brak procesu. Wersja parzona – MIE.",
     "[MIE] Kaszanka parzona; wersja słoikowa: SZY. Bez przepisu.",
     "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-007, SZY-017 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-007, SZY-017 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38, B32-D3): SZY-017 (zupy) zostaje do czasu twierdzenia o daniach mieszanych; usunięcie osłabiłoby ostrzeżenie o zagęstnikach, ryżu i mące. potrzebny research: twierdzenie szczebla 1–3 o wekowaniu dań mieszanych i zagęstników poza zupami. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -57510,7 +57570,8 @@
     "[SZY*] Paprykarz szczeciński (ryba, ryż, koncentrat): gęsta mieszanina z ryżem, brak procesu. Mrożenie.",
     "[MIE] Wekowanie mięsa/ryb: bada klaster SZY.",
     "[DEC 2026-11-01-jaratlas-e3-stop] Status ryzyko-wysokie → nie-publikowac: SZY-006 (szczebel 1) odradza kąpiel wodną dla żywności niskokwasowej; reguła jednolita dla wszystkich takich wariantów.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-007, SZY-017 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): SZY-006, SZY-007, SZY-017 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38, B32-D3): SZY-017 (zupy) zostaje do czasu twierdzenia o daniach mieszanych; usunięcie osłabiłoby ostrzeżenie o zagęstnikach, ryżu i mące. potrzebny research: twierdzenie szczebla 1–3 o wekowaniu dań mieszanych i zagęstników poza zupami. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -58417,7 +58478,8 @@
    "notes": [
     "[OLE*] Jaja wędzone zalane oliwą z czosnkiem i chili: czosnek w oleju (lodówka maks. 4 dni) + jaja niskokwasowe; brak przepisu.",
     "[MIE] Jaja (niskokwasowe, MIE-087) w oliwie z czosnkiem: olej z czosnkiem w temperaturze pokojowej jest niebezpieczny (MIE-095), w lodówce najwyżej 2–4 dni (MIE-094). Wędzenie na zimno nie gotuje jaja. Brak przepisu.",
-    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): OLE-028, OLE-001, MIE-095, MIE-083 (2026-11-02-jaratlas-b29-katalog)"
+    "[B29] Ostrzeżenia karty-ostrzeżenia z claims wariantu według reguły ogólnej metody (B29-D1, wzór B18-D2, B21-D1, B28-D2; bez terminów przechowywania i czasów procesu): OLE-028, OLE-001, MIE-095, MIE-083 (2026-11-02-jaratlas-b29-katalog)",
+    "[B32] Odłożone (E3 p38, B32-D4): MIE-083 (jaja marynowane) zostaje do czasu twierdzenia o jajach w oleju. potrzebny research: jaja w oleju, ryzyko i przechowywanie. (2026-11-02-jaratlas-b32-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",

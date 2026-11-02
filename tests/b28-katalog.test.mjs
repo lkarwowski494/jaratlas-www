@@ -2,6 +2,7 @@
 // Decyzja: 2026-11-02-jaratlas-b28-katalog (decyzja Claude, do weta). Wejście: B26 JSON (po przeglądzie D-027 d), decyzje wariant-bez-zrodla,
 // polityka-zrodel-ryzyko, przeglad-agent-zamiast-eksperta (D-027 d) i propozycja b26-research. Wzór: tests/b27-katalog.test.mjs.
 import { test } from "node:test";
+import { B32, B32_RW, B32_CLAIMS } from "./dane/b32-warianty.mjs"; // B32: warianty zmienione przez B32 (tests/b32-katalog.test.mjs)
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { createHash } from "node:crypto";
@@ -132,8 +133,9 @@ test("B28: ryzyko-wysokie i nie-publikowac jako karta-ostrzeżenie; ostrzeżenia
     const v = V.get(id), np = id in NP;
     assert.equal(v.safetyStatus, np ? "nie-publikowac" : "ryzyko-wysokie", id);
     assert.equal(v.cardType, "warning", id);
-    assert.deepEqual(v.requiredWarnings, ostrz, `${id}: requiredWarnings`);
-    const oczek = [...new Set([...PRZED[id], ...W.get(id).twierdzenia, ...ostrz])];
+    // B32 (E3 p37 V1 P2): MIE-021 → MIE-161 (pork-loin-ham-v01) i MIE-156 (pork-belly-jowl-v09); przypięte w tests/dane/b32-warianty.mjs (B32-D5, do weta).
+    assert.deepEqual(v.requiredWarnings, B32_RW[id] ?? ostrz, `${id}: requiredWarnings`);
+    const oczek = [...new Set([...PRZED[id], ...W.get(id).twierdzenia, ...ostrz, ...(B32_CLAIMS[id] ?? [])])];
     assert.deepEqual(v.claims, oczek, `${id}: claims = przed ∪ B26 ∪ ostrzeżenia`);
     for (const c of [...v.claims, ...v.requiredWarnings]) assert.equal(R.get(c)?.status, "potwierdzone", `${id}: ${c}`);
     for (const c of v.requiredWarnings) assert.ok(TERMIN_WYJATKI.includes(c) || !TERMIN_RE.test(R.get(c).twierdzenie), `${id}: ${c} ma termin przechowywania`);
@@ -167,7 +169,7 @@ test("B28: poza polami z listy warianty bez cichych zmian; publication ukryta w 
   assert.deepEqual(Object.keys(SNAP).sort(), [...W.keys()].sort());
   for (const id of W.keys()) assert.equal(h(bez(V.get(id), ZMIENIAJA.includes(id) ? ["safetyStatus", "cardType", "claims", "requiredWarnings", "notes"] : ["notes"])), SNAP[id], `${id}: pola spoza listy bez zmian`);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
-  assert.equal(h(cat.variants.filter((v) => !W.has(v.id) && !(v.id in H) && !B29.has(v.id) && !B31.has(v.id))), "bf6ac1ef220b", "warianty spoza B28, (h), B29 i B31 bez zmian (B31: przeliczony na f36b7b0, stary 88f71f5574bc; skrót na 1.0.16, d85a8aa; B29: przeliczony, stary 90b9723fbdd2)");
+  assert.equal(h(cat.variants.filter((v) => !W.has(v.id) && !(v.id in H) && !B29.has(v.id) && !B31.has(v.id) && !B32.has(v.id))), "ac19038017da", "warianty spoza B28, (h), B29 i B31 bez zmian (B31: przeliczony na f36b7b0, stary 88f71f5574bc; skrót na 1.0.16, d85a8aa; B29: przeliczony, stary 90b9723fbdd2; B32: przeliczony na 7b422b9 bez 41 wariantów B32, stary bf6ac1ef220b)");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
 });
 

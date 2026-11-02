@@ -2,6 +2,7 @@
 // Decyzja: 2026-11-02-jaratlas-b25-katalog (decyzja Claude, do weta). Wejście: B22/B23 JSON, decyzje wariant-bez-zrodla,
 // przeglad-agent-zamiast-eksperta (D-027 d), r1-nadwyzka-b21 (redakcja źródła red-savoy-cabbage-v03). Wzór: tests/b21-katalog.test.mjs.
 import { test } from "node:test";
+import { B32, B32_RW, B32_CLAIMS } from "./dane/b32-warianty.mjs"; // B32: warianty zmienione przez B32 (tests/b32-katalog.test.mjs)
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { createHash } from "node:crypto";
@@ -128,6 +129,6 @@ test("B25: poza polami z listy warianty bez cichych zmian; publication ukryta w 
   assert.deepEqual(Object.keys(SNAP).sort(), Object.keys(POLA).sort());
   for (const [id, keys] of Object.entries(POLA)) assert.equal(h(bez(V.get(id), keys)), SNAP[id], `${id}: pola poza ${keys.join(", ")} bez zmian`);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
-  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B27.has(v.id) && !B28.has(v.id) && !B29.has(v.id) && !B31.has(v.id))), "71a614e633f0", "warianty spoza B25, B27, B28, B29 i B31 bez zmian (B31: przeliczony na f36b7b0, stary 28be8027b550; skrót na 1.0.15, 7433d6b; B29: przeliczony, stary b0ecbd1fc48c; B28 z (h): stary 5044822785b6)");
+  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B27.has(v.id) && !B28.has(v.id) && !B29.has(v.id) && !B31.has(v.id) && !B32.has(v.id))), "0608a0f1fd06", "warianty spoza B25, B27, B28, B29 i B31 bez zmian (B31: przeliczony na f36b7b0, stary 28be8027b550; skrót na 1.0.15, 7433d6b; B29: przeliczony, stary b0ecbd1fc48c; B28 z (h): stary 5044822785b6; B32: przeliczony na 7b422b9 bez 41 wariantów B32, stary 71a614e633f0)");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
 });

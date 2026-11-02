@@ -80,7 +80,7 @@ export const WSPOLNE = {
   'OLE-023': ['freezer', 'refrigerator', 'cool-storage'], // warunki toksyny botulinowej w oleju: karty mrożenia ziół/warzyw w oleju i olej lodówkowy leek-chives-v08 (p32); p37: olej garden-herbs-v06
   'OLE-027': ['brak', 'cool-storage', 'freezer', 'refrigerator', 'water-bath'], // zagrożenia nie widać, nie czuć: karty mrożenia w oleju, olej lodówkowy leek-chives-v08 (p32) i wymagane ostrzeżenie karty-ostrzeżenia eggplant-v04 (p34, B21; zdanie niezależne od metody); p37: olej garden-herbs-v06; p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 (reguła ogólna metody)
   // p37 (autor C): oliwa rozmarynowo-czosnkowa garden-herbs-v06 ma w katalogu metodę cool-storage, a karta idzie za regułą B24-R1 (lodówka, następny dzień) jak oleje lodówkowe leek-chives-v08/wild-garlic-v09
-  'OLE-014': ['freezer', 'cool-storage'], // roztworu kwasu cytrynowego nie zastępować octem ani sokiem z cytryny: pasty z olejem (mrożenie) i olej garden-herbs-v06 (p37)
+  'OLE-014': ['freezer', 'refrigerator'], // roztworu kwasu cytrynowego nie zastępować octem ani sokiem z cytryny: pasty z olejem (mrożenie) i olej garden-herbs-v06 (p37; B32: garden-herbs-v06 cool-storage → refrigerator)
   'OLE-018': ['refrigerator', 'cool-storage'], // metoda UGA z olejem 180 °F, lodówka: oleje lodówkowe i garden-herbs-v06 (p37)
   'OLE-058': ['refrigerator', 'cool-storage'], // UGA: sterylizacja pojemników na oleje smakowe: oleje lodówkowe i garden-herbs-v06 (p37)
   'OLE-076': ['refrigerator', 'cool-storage'], // BfR: nie robić olejów ziołowych na zapas: oleje lodówkowe (B24) i garden-herbs-v06 (p37)

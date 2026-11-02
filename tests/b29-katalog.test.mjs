@@ -4,6 +4,7 @@
 // OLE-016 tylko przy lodówce i zamrażarce. Bez terminów przechowywania, czasów, temperatur procesu i dawek (wyjątki nazwane niżej). Nowe ID rejestru: 0.
 // Po D-043 B29: bez SZY-008 (P2-1), MIE-092 (P2-2), MIE-087 (P3-d); notatki „potrzebny research” przy RESEARCH (P2-2, P2-3, P2-4).
 import { test } from "node:test";
+import { B32, B32_RW, B32_CLAIMS } from "./dane/b32-warianty.mjs"; // B32: warianty zmienione przez B32 (tests/b32-katalog.test.mjs)
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { createHash } from "node:crypto";
@@ -50,10 +51,12 @@ test("B29-D1: requiredWarnings = reguła ogólna metody, tylko z claims, potwier
   assert.deepEqual(Object.keys(MAPA).sort(), LISTA.filter((id) => !WYCOFANE.includes(id)).sort());
   for (const [id, w] of Object.entries(MAPA)) {
     const v = V.get(id), m = v.preservationMethod ?? "brak", zimno = m === "refrigerator" || m === "freezer";
-    const regula = OSTRZ.filter((c) => v.claims.includes(c) && !(c === "SZY-006" && m === "pressure-canning") && !(c.startsWith("SZY-") && zimno) && !(c === "OLE-016" && !zimno));
+    const claimsB29 = v.claims.filter((c) => !(B32_CLAIMS[id] ?? []).includes(c)); // B32: claims sprzed B32
+    const regula = OSTRZ.filter((c) => claimsB29.includes(c) && !(c === "SZY-006" && m === "pressure-canning") && !(c.startsWith("SZY-") && zimno) && !(c === "OLE-016" && !zimno));
     assert.deepEqual(w, regula, `${id}: tabela = reguła`);
-    assert.deepEqual(v.requiredWarnings ?? [], w, `${id}: requiredWarnings`);
-    for (const c of w) {
+    // B32 (E3 p38): white-cabbage-v14 bez SZY-024, cultivated-mushrooms-v10 + OLE-028, OLE-024; przypięte w tests/dane/b32-warianty.mjs (B32-D5, do weta).
+    assert.deepEqual(v.requiredWarnings ?? [], B32_RW[id] ?? w, `${id}: requiredWarnings`);
+    for (const c of B32_RW[id] ?? w) {
       assert.ok(v.claims.includes(c), `${id}: ${c} w claims`);
       assert.equal(R.get(c)?.status, "potwierdzone", `${id}: ${c}`);
       assert.ok(TERMIN_WYJATKI.includes(c) || !TERMIN_RE.test(R.get(c).twierdzenie), `${id}: ${c} ma termin albo czas procesu`);
@@ -67,11 +70,12 @@ test("B29-D1: requiredWarnings = reguła ogólna metody, tylko z claims, potwier
 
 test("B29: zmienione tylko requiredWarnings i notatka [B29]; safetyStatus, publication, claims bez zmian; wycofane i reszta katalogu bez zmian", () => {
   const L = new Set(LISTA);
-  const bez = (v) => { const { requiredWarnings, ...r } = v; return { ...r, notes: (v.notes ?? []).filter((n) => !n.startsWith("[B29]")) }; };
+  // B32: notatki [B32] i claims dopisane przez B32 odjęte; skrót a3e7271f6006 bez zmian (stan B29).
+  const bez = (v) => { const { requiredWarnings, ...r } = v; return { ...r, claims: v.claims.filter((c) => !(B32_CLAIMS[v.id] ?? []).includes(c)), notes: (v.notes ?? []).filter((n) => !n.startsWith("[B29]") && !n.startsWith("[B32]")) }; };
   assert.equal(h(cat.variants.filter((v) => L.has(v.id)).map(bez)), "a3e7271f6006", "warianty z listy poza requiredWarnings i [B29] bez zmian (skrót na 2d839e3)");
   // B31 zmienia 3 warianty spoza listy (walnut-nuts-v07, wild-mushrooms-v03, fig-pomegranate-v09); ich pilnuje tests/b31-katalog.test.mjs. Skrót na f36b7b0 bez nich.
   const B31 = new Set(["walnut-nuts-v07", "wild-mushrooms-v03", "fig-pomegranate-v09"]);
-  assert.equal(h(cat.variants.filter((v) => !L.has(v.id) && !B31.has(v.id))), "910053358d99", "warianty spoza listy bez zmian (skrót na f36b7b0, bez wariantów B31)");
+  assert.equal(h(cat.variants.filter((v) => !L.has(v.id) && !B31.has(v.id) && !B32.has(v.id))), "0c9a47863488", "warianty spoza listy bez zmian (skrót na f36b7b0, bez wariantów B31; B32: przeliczony na 7b422b9 bez 41 wariantów B32, stary 910053358d99)");
   for (const id of WYCOFANE) { assert.equal(V.get(id).requiredWarnings, undefined, id); assert.equal(nota(id), undefined, id); }
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
