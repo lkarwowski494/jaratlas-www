@@ -49,7 +49,7 @@ export function typPrzepisu(nazwa, metoda) {
 // Rodzaj wariantu z polskiej nazwy (rdzenie po normalizacji) i domyślny z rodziny procesu.
 const TYPY_PL = [
   ['dzem', /\bdzem/], ['galaretka', /\bgalaret/], ['konfitura', /\bkonfitur/], ['mus', /\b(powidl|mus\b|musy\b|maslo|krem)/],
-  ['marmolada', /\bmarmolad/], ['syrop', /\b(syrop|sok\b|soki\b|kordial|cordial|shrub|oxymel)/], ['nadzienie', /\bfruzelin/],
+  ['marmolada', /\bmarmolad/], ['syrop', /\b(syrop(y|u)?\b|sok\b|soki\b|kordial|cordial|shrub|oxymel)/], ['nadzienie', /\bfruzelin/],
   ['sos', /\b(sos\b|sosy\b|ketchup|keczup)/], ['chutney', /\bchutney/], ['relish', /\brelish/], ['salsa', /\bsalsa/],
   ['marynata', /\b(marynow|marynat|occie|octow|konserwow|zalew)/], ['kiszonka', /\b(kiszon|kisz|malosol|fermentow|kimchi)/],
   ['suszone', /\b(suszon|susz\b|chipsy|czipsy|pastil|skork|proszek|jerky)/], ['musztarda', /\bmusztard/], ['pasta', /\bpast[ay]\b/],  ['owoce', /\b(kompot|syropie|wlasnym)/],
@@ -62,6 +62,8 @@ export function typyWariantu(w) {
   for (const [typ, re] of TYPY_PL) if (re.test(n)) s.add(typ);
   if (s.has('marmolada')) s.add('dzem');
   if (s.has('kiszonka') && w.processFamilyId === 'vinegar-pickling') s.add('marynata');
+  if (w.processFamilyId === 'vinegar-pickling') s.delete('musztarda');
+  if (s.has('owoce') && s.size > 1) s.delete('owoce');
   if (s.size === 0 && TYP_RODZINY[w.processFamilyId]) s.add(TYP_RODZINY[w.processFamilyId]);
   return s;
 }
@@ -105,7 +107,7 @@ const SLOWNIK = {
   'elderberry-elderflower': T('elderberr(y|ies)|elder ?flowers?'), 'rosehip-rowan': T('rose ?hips?|rowan|mountain ash'),
   grapes: T('grapes?(?! leaves)|muscadines?|scuppernongs?'), rhubarb: T('rhubarb'), lemon: T('lemons?'), 'lime-bergamot': T('limes?|bergamot'),
   'orange-kumquat': T('oranges?|kumquats?|tangerines?|mandarins?|clementines?'), grapefruit: T('grapefruits?'),
-  'mango-papaya': T('mangos?|mangoes|papayas?'), 'pineapple-banana': T('pineapples?|bananas?'), 'fig-pomegranate': T('figs?|pomegranates?'),
+  'mango-papaya': T('mangos?|mangoes|papayas?'), 'pineapple-banana': T('pineapples?|bananas?(?! peppers?)(?!,? other)'), 'fig-pomegranate': T('figs?|pomegranates?'),
   'watermelon-melon': T('watermelons?|melons?|cantaloupes?'), 'walnut-nuts': T('walnuts?|hazelnuts?|almonds?|pecans?|chestnuts?|nuts'),
   boletes: T('porcini|boletes?|cep', 'mushrooms?'), 'chanterelle-milkcap': T('chanterelles?|milk ?caps?', 'mushrooms?'),
   'wild-mushrooms': T('wild mushrooms?|morels?', 'mushrooms?'), 'cultivated-mushrooms': T('button mushrooms?|oyster mushrooms?|shiitake', 'mushrooms?'),
@@ -196,6 +198,8 @@ function analizaNazwy(w, produkty) {
     const t = tokeny[i];
     if (t === 'bez' && /^cukr/.test(tokeny[i + 1] ?? '')) { dodatki.push(DODATKI.at(-1)[1]); i++; continue; }
     if (NEUTRALNE.has(t) || t.length < 3) continue;
+    if (/^malosol/.test(t)) { dodatki.push(/\b(low|reduced) salt\b/); continue; }
+    if (/^musztard/.test(t) && w.processFamilyId === 'vinegar-pickling') { dodatki.push(/\bmustard/); continue; }
     if (TYPY_PL.some(([, r]) => r.test(t))) continue;
     if (nazwaProduktu.some((p) => { const k = prefiksWspolny(t, p); return k >= 4 && k >= 0.6 * Math.min(t.length, p.length); })) continue;
     const d = DODATKI.find(([r]) => r.test(t));

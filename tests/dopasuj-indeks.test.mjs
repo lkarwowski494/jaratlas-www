@@ -96,7 +96,7 @@ test('dopasujWariant: metoda pomocnicza = możliwe; inny typ, produkt albo metod
 
 test('dopasujWariant: typ przepisu z metody fermentacji; kompot pasuje do owoców w zalewie', () => {
   const z = (p) => [{ ...p, zrodlo: 'T', szczebel: 1 }];
-  const ferm = W('cucumber-v02', 'cucumber', 'małosolne', 'refrigerator', 'lacto-fermentation');
+  const ferm = W('cucumber-v03', 'cucumber', 'ogórki kiszone', 'refrigerator', 'lacto-fermentation');
   assert.equal(dopasujWariant(ferm, z(P('Dill Pickles', 'fermentacja')), produkty).wynik, 'pewne');
   const kompot = W('peach-nectarine-v13', 'peach-nectarine', 'kompot', 'water-bath', 'canned-foods');
   assert.equal(dopasujWariant(kompot, z(P('Peaches-Halved or Sliced', 'kapiel-wodna')), produkty).wynik, 'pewne');
@@ -120,6 +120,23 @@ test('dopasujWariant: termin swoisty przepisu wymaga odpowiednika w nazwie waria
   const szynka = W('pork-loin-ham-v01', 'pork-loin-ham', 'szynka peklowana na mokro', 'refrigerator', 'meat-curing-smoking');
   assert.equal(dopasujWariant(schab, z(P('Ham', 'peklowanie-wedzenie')), pr).wynik, 'brak');
   assert.equal(dopasujWariant(szynka, z(P('Ham', 'peklowanie-wedzenie')), pr).wynik, 'mozliwe');
+});
+
+test('dopasujWariant: poprawki z próby (syrop/w syropie, banana peppers, musztarda w marynacie, małosolne, konfitura w syropie)', () => {
+  const pr = [...produkty, { id: 'apple', name: { pl: 'Jabłko' } }, { id: 'pineapple-banana', name: { pl: 'Ananas i banan' } },
+    { id: 'green-beans', name: { pl: 'Fasolka szparagowa' } }, { id: 'tomatillo', name: { pl: 'Miechunka i tomatillo' } }];
+  const z = (p) => [{ ...p, zrodlo: 'T', szczebel: 1 }];
+  const pol = W('apple-v15', 'apple', 'połówki w syropie', 'water-bath', 'canned-foods');
+  assert.equal(dopasujWariant(pol, z(P('Apple Juice', 'kapiel-wodna')), pr).wynik, 'brak');
+  assert.equal(dopasujWariant(pol, z(P('Apples-Sliced', 'kapiel-wodna')), pr).wynik, 'pewne');
+  const anan = W('pineapple-banana-v03', 'pineapple-banana', 'ananas w occie z jalapeno', 'water-bath', 'vinegar-pickling');
+  assert.equal(dopasujWariant(anan, z(P('Pickled Peppers (Hungarian, Banana, Other Varieties)', 'kapiel-wodna')), pr).wynik, 'brak');
+  const fas = W('green-beans-v05', 'green-beans', 'w zalewie musztardowej', 'water-bath', 'vinegar-pickling');
+  assert.equal(dopasujWariant(fas, z(P('Pickled dilled beans', 'kapiel-wodna')), pr).wynik, 'mozliwe');
+  const mal = W('cucumber-v02', 'cucumber', 'małosolne', 'refrigerator', 'lacto-fermentation');
+  assert.equal(dopasujWariant(mal, z(P('Dill Pickles', 'fermentacja')), pr).wynik, 'mozliwe');
+  const konf = W('tomatillo-v08', 'tomatillo', 'konfitura z miechunki w syropie', 'water-bath', 'sweet-preserves');
+  assert.equal(dopasujWariant(konf, z(P('Tomatillos (packed in water)', 'kapiel-wodna')), pr).wynik, 'brak');
 });
 
 test('dopasujWariant: nieznane słowa w nazwie wariantu blokują pewne', () => {

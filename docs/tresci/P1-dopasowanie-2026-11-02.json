@@ -1,0 +1,5049 @@
+{
+ "opis": "P1 (2026-11-02): warianty do-researchu z catalog-seed.json (katalog 1.0.13) z trafieniem w indeksie P1-indeks-przepisow-2026-11-02.json, wynik tools/dopasuj-indeks.mjs. wynik_1_3 = tylko źródła szczebla 1–3; wynik_z_4 = z Bernardin, Certo UK i konkursowymi Mrs. Wages (szczebel 4: tylko niskie ryzyko, polityka (c)). juz_badany = id występuje w raportach B14/B16/B19/E1. To lista kandydatów do researchu, nie ocena źródła.",
+ "katalog": "1.0.13",
+ "liczba": 192,
+ "warianty": [
+  {
+   "id": "cucumber-v02",
+   "nazwa_pl": "małosolne",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Dill Pickles",
+     "zrodlo": "NCHFP — How do I... Ferment",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Dill pickles",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-7",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Dill Pickles Fermented",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/dill-pickles-fermented.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "cucumber-v04",
+   "nazwa_pl": "z liśćmi dębu",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Dill Pickles",
+     "zrodlo": "NCHFP — How do I... Ferment",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Dill pickles",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-7",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Dill Pickles Fermented",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/dill-pickles-fermented.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "cucumber-v05",
+   "nazwa_pl": "po kaszubsku z gorczycą",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Dill Pickles",
+     "zrodlo": "NCHFP — How do I... Ferment",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Dill pickles",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-7",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Dill Pickles Fermented",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/dill-pickles-fermented.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "cucumber-v06",
+   "nazwa_pl": "z chili i imbirem",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Dill Pickles",
+     "zrodlo": "NCHFP — How do I... Ferment",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Dill pickles",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-7",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Dill Pickles Fermented",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/dill-pickles-fermented.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "cucumber-v07",
+   "nazwa_pl": "koreańskie oi-sobagi",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Dill Pickles",
+     "zrodlo": "NCHFP — How do I... Ferment",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Dill pickles",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-7",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Dill Pickles Fermented",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/dill-pickles-fermented.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "cucumber-v08",
+   "nazwa_pl": "moskiewskie z chrzanem",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Dill Pickles",
+     "zrodlo": "NCHFP — How do I... Ferment",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Dill pickles",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-7",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Dill Pickles Fermented",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/dill-pickles-fermented.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "cucumber-v13",
+   "nazwa_pl": "po królewsku",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Bread-and-Butter Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/bread-and-butter-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Quick Fresh-Pack Dill Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/quick-fresh-pack-dill-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Sweet Gherkin Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/sweet-gherkin-pickles/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "cucumber-v14",
+   "nazwa_pl": "musztardowe",
+   "segment": "brak × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Bread-and-Butter Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/bread-and-butter-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Quick Fresh-Pack Dill Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/quick-fresh-pack-dill-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Sweet Gherkin Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/sweet-gherkin-pickles/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "cucumber-v15",
+   "nazwa_pl": "w curry",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Bread-and-Butter Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/bread-and-butter-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Quick Fresh-Pack Dill Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/quick-fresh-pack-dill-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Sweet Gherkin Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/sweet-gherkin-pickles/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "cucumber-v16",
+   "nazwa_pl": "z miodem i chili",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Bread-and-Butter Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/bread-and-butter-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Quick Fresh-Pack Dill Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/quick-fresh-pack-dill-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Sweet Gherkin Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/sweet-gherkin-pickles/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "white-cabbage-v02",
+   "nazwa_pl": "z marchewką",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Sauerkraut",
+     "zrodlo": "NCHFP — How do I... Ferment",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Sauerkraut",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-8",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Making Sauerkraut",
+     "zrodlo": "NDSU FN433 Sauerkraut: From Garden to Table",
+     "szczebel": 3,
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2026-08/fn433.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "white-cabbage-v04",
+   "nazwa_pl": "w całych główkach (sarma)",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Sauerkraut",
+     "zrodlo": "NCHFP — How do I... Ferment",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Sauerkraut",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-8",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Making Sauerkraut",
+     "zrodlo": "NDSU FN433 Sauerkraut: From Garden to Table",
+     "szczebel": 3,
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2026-08/fn433.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "white-cabbage-v05",
+   "nazwa_pl": "z kurkumą i imbirem (goldkraut)",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Sauerkraut",
+     "zrodlo": "NCHFP — How do I... Ferment",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Sauerkraut",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-8",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Making Sauerkraut",
+     "zrodlo": "NDSU FN433 Sauerkraut: From Garden to Table",
+     "szczebel": 3,
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2026-08/fn433.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "white-cabbage-v06",
+   "nazwa_pl": "z jabłkiem",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Sauerkraut",
+     "zrodlo": "NCHFP — How do I... Ferment",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Sauerkraut",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-8",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Making Sauerkraut",
+     "zrodlo": "NDSU FN433 Sauerkraut: From Garden to Table",
+     "szczebel": 3,
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2026-08/fn433.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "white-cabbage-v07",
+   "nazwa_pl": "z żurawiną",
+   "segment": "brak × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Sauerkraut",
+     "zrodlo": "NCHFP — How do I... Ferment",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Sauerkraut",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-8",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Making Sauerkraut",
+     "zrodlo": "NDSU FN433 Sauerkraut: From Garden to Table",
+     "szczebel": 3,
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2026-08/fn433.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "white-cabbage-v08",
+   "nazwa_pl": "bałkański rasol (sok z kiszenia)",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Sauerkraut",
+     "zrodlo": "NCHFP — How do I... Ferment",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Sauerkraut",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-8",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Making Sauerkraut",
+     "zrodlo": "NDSU FN433 Sauerkraut: From Garden to Table",
+     "szczebel": 3,
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2026-08/fn433.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "white-cabbage-v09",
+   "nazwa_pl": "salwadorskie curtido z oregano",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Sauerkraut",
+     "zrodlo": "NCHFP — How do I... Ferment",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Sauerkraut",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-8",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Making Sauerkraut",
+     "zrodlo": "NDSU FN433 Sauerkraut: From Garden to Table",
+     "szczebel": 3,
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2026-08/fn433.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "white-cabbage-v10",
+   "nazwa_pl": "marynowana w zalewie słodko-kwaśnej",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Cabbage, pickled",
+     "zrodlo": "UW B2267 Homemade Pickles and Relishes",
+     "szczebel": 3,
+     "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled Spiced Red Cabbage",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/pickled-spiced-red-cabbage.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "white-cabbage-v12",
+   "nazwa_pl": "sałatka obiadowa z papryką",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Cabbage, pickled",
+     "zrodlo": "UW B2267 Homemade Pickles and Relishes",
+     "szczebel": 3,
+     "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled Spiced Red Cabbage",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/pickled-spiced-red-cabbage.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "red-savoy-cabbage-v03",
+   "nazwa_pl": "marynowana w occie winnym z goździkami",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Spiced Red Cabbage",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/pickled-spiced-red-cabbage.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "red-savoy-cabbage-v05",
+   "nazwa_pl": "w occie jabłkowym",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Spiced Red Cabbage",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/pickled-spiced-red-cabbage.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "red-savoy-cabbage-v08",
+   "nazwa_pl": "sałatka z czerwonej kapusty z cebulą w zalewie",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Spiced Red Cabbage",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/pickled-spiced-red-cabbage.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "napa-cabbage-v01",
+   "nazwa_pl": "tradycyjne kimchi (tongbaechu)",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Fermented Kimchi",
+     "zrodlo": "OSU SP 50-1007 Kimchi Basics",
+     "szczebel": 3,
+     "adres": "https://extension.oregonstate.edu/catalog/sp50-1007-kimchi-basics",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Newell Kimchi",
+     "zrodlo": "OSU SP 50-1007 Kimchi Basics",
+     "szczebel": 3,
+     "adres": "https://extension.oregonstate.edu/catalog/sp50-1007-kimchi-basics",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "napa-cabbage-v02",
+   "nazwa_pl": "białe łagodne baek-kimchi",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Fermented Kimchi",
+     "zrodlo": "OSU SP 50-1007 Kimchi Basics",
+     "szczebel": 3,
+     "adres": "https://extension.oregonstate.edu/catalog/sp50-1007-kimchi-basics",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Newell Kimchi",
+     "zrodlo": "OSU SP 50-1007 Kimchi Basics",
+     "szczebel": 3,
+     "adres": "https://extension.oregonstate.edu/catalog/sp50-1007-kimchi-basics",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "napa-cabbage-v03",
+   "nazwa_pl": "szybkie wodne mul-kimchi",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Fermented Kimchi",
+     "zrodlo": "OSU SP 50-1007 Kimchi Basics",
+     "szczebel": 3,
+     "adres": "https://extension.oregonstate.edu/catalog/sp50-1007-kimchi-basics",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Newell Kimchi",
+     "zrodlo": "OSU SP 50-1007 Kimchi Basics",
+     "szczebel": 3,
+     "adres": "https://extension.oregonstate.edu/catalog/sp50-1007-kimchi-basics",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "napa-cabbage-v04",
+   "nazwa_pl": "bossam-kimchi z owocami",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Fermented Kimchi",
+     "zrodlo": "OSU SP 50-1007 Kimchi Basics",
+     "szczebel": 3,
+     "adres": "https://extension.oregonstate.edu/catalog/sp50-1007-kimchi-basics",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Newell Kimchi",
+     "zrodlo": "OSU SP 50-1007 Kimchi Basics",
+     "szczebel": 3,
+     "adres": "https://extension.oregonstate.edu/catalog/sp50-1007-kimchi-basics",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "napa-cabbage-v06",
+   "nazwa_pl": "pak choi kimchi",
+   "segment": "refrigerator × lacto-fermentation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "E1"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Fermented Kimchi",
+     "zrodlo": "OSU SP 50-1007 Kimchi Basics",
+     "szczebel": 3,
+     "adres": "https://extension.oregonstate.edu/catalog/sp50-1007-kimchi-basics",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Newell Kimchi",
+     "zrodlo": "OSU SP 50-1007 Kimchi Basics",
+     "szczebel": 3,
+     "adres": "https://extension.oregonstate.edu/catalog/sp50-1007-kimchi-basics",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "cauliflower-v04",
+   "nazwa_pl": "w occie winnym",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Cauliflower or Brussel Sprouts",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-cauliflower-or-brussel-sprouts/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled cauliflower or Brussels sprouts",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-17",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "cauliflower-v06",
+   "nazwa_pl": "w zalewie curry",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Cauliflower or Brussel Sprouts",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-cauliflower-or-brussel-sprouts/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled cauliflower or Brussels sprouts",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-17",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "cauliflower-v10",
+   "nazwa_pl": "sałatka wielowarzywna z kalafiorem",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Cauliflower or Brussel Sprouts",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-cauliflower-or-brussel-sprouts/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled cauliflower or Brussels sprouts",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-17",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "brussels-kohlrabi-v07",
+   "nazwa_pl": "brukselka w occie jabłkowym z gorczycą",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled cauliflower or Brussels sprouts",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-17",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "brussels-kohlrabi-v08",
+   "nazwa_pl": "brukselka z syropem klonowym i octem",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled cauliflower or Brussels sprouts",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-17",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "brussels-kohlrabi-v09",
+   "nazwa_pl": "kalarepa w occie ryżowym",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pickled cauliflower or Brussels sprouts",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-17",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "brussels-kohlrabi-v10",
+   "nazwa_pl": "kalarepa konserwowa z koprem",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled cauliflower or Brussels sprouts",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-17",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "zucchini-v02",
+   "nazwa_pl": "plastry w zalewie curry",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Bread-and-Butter Zucchini",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled bread-and-butter zucchini",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-26",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled Bread-and-Butter Zucchini",
+     "zrodlo": "USU Preserve the Harvest — How to Preserve Zucchini",
+     "szczebel": 3,
+     "adres": "https://extension.usu.edu/preserve-the-harvest/research/zucchini.php",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "zucchini-v03",
+   "nazwa_pl": "cukinia w occie po kaszubsku",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Bread-and-Butter Zucchini",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled bread-and-butter zucchini",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-26",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled Bread-and-Butter Zucchini",
+     "zrodlo": "USU Preserve the Harvest — How to Preserve Zucchini",
+     "szczebel": 3,
+     "adres": "https://extension.usu.edu/preserve-the-harvest/research/zucchini.php",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "zucchini-v04",
+   "nazwa_pl": "w zalewie musztardowej",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Bread-and-Butter Zucchini",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled bread-and-butter zucchini",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-26",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled Bread-and-Butter Zucchini",
+     "zrodlo": "USU Preserve the Harvest — How to Preserve Zucchini",
+     "szczebel": 3,
+     "adres": "https://extension.usu.edu/preserve-the-harvest/research/zucchini.php",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "zucchini-v07",
+   "nazwa_pl": "w occie jabłkowym",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Bread-and-Butter Zucchini",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bread-and-butter-zucchini/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled bread-and-butter zucchini",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-26",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled Bread-and-Butter Zucchini",
+     "zrodlo": "USU Preserve the Harvest — How to Preserve Zucchini",
+     "szczebel": 3,
+     "adres": "https://extension.usu.edu/preserve-the-harvest/research/zucchini.php",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "leafy-greens-v07",
+   "nazwa_pl": "boćwina z koperkiem w słoikach na barszcz",
+   "segment": "pressure-canning × canned-foods",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Spinach and Other Greens",
+     "zrodlo": "NCHFP — How do I... Can Vegetables (incl. Soups)",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/spinach-and-other-greens/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Spinach and other greens",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 4: Selecting, Preparing, and Canning Vegetables and Vegetable Products",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE04_HomeCan_rev0715.pdf#s.4-19",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "tomato-v06",
+   "nazwa_pl": "w galarecie",
+   "segment": "water-bath × canned-foods",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Crushed Tomatoes (with no added liquid)",
+     "zrodlo": "NCHFP — How do I... Can Tomatoes",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/crushed-tomatoes-with-no-added-liquid/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Whole or Halved Tomatoes (packed in water)",
+     "zrodlo": "NCHFP — How do I... Can Tomatoes",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-in-water/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Whole or Halved Tomatoes (packed raw without added liquid)",
+     "zrodlo": "NCHFP — How do I... Can Tomatoes",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-raw-without-added-liquid/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "tomato-v07",
+   "nazwa_pl": "piklowane w occie winnym",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Kosher Style Dill Green Tomato Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/kosher-style-dill-green-tomato-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled Sweet Green Tomatoes",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-sweet-green-tomatoes/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled sweet green tomatoes",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-24",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "tomato-v12",
+   "nazwa_pl": "sos boloński/włoski",
+   "segment": "pressure-canning × canned-foods",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Standard Tomato Sauce",
+     "zrodlo": "NCHFP — How do I... Can Tomatoes",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/standard-tomato-sauce/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Tomato Ketchup",
+     "zrodlo": "NCHFP — How do I... Can Tomatoes",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-ketchup/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Mexican Tomato Sauce",
+     "zrodlo": "NCHFP — How do I... Can Salsa",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-salsa/mexican-tomato-sauce/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "green-cherry-tomato-v05",
+   "nazwa_pl": "koktajlowe w occie balsamicznym",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Kosher Style Dill Green Tomato Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/kosher-style-dill-green-tomato-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled Sweet Green Tomatoes",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-sweet-green-tomatoes/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled sweet green tomatoes",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-24",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "green-cherry-tomato-v06",
+   "nazwa_pl": "sałatka z zielonych pomidorów",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Kosher Style Dill Green Tomato Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/kosher-style-dill-green-tomato-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled Sweet Green Tomatoes",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-sweet-green-tomatoes/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled sweet green tomatoes",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-24",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "bell-pepper-v02",
+   "nazwa_pl": "w zalewie miodowej",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Bell Peppers",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bell-peppers/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled Yellow Pepper Rings",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-yellow-pepper-rings/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled bell peppers",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-21",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "bell-pepper-v05",
+   "nazwa_pl": "w occie winnym z rozmarynem",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Bell Peppers",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-bell-peppers/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled Yellow Pepper Rings",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-yellow-pepper-rings/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled bell peppers",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-21",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "bell-pepper-v10",
+   "nazwa_pl": "bałkański ajwar",
+   "segment": "brak × canned-foods",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Peppers",
+     "zrodlo": "NCHFP — How do I... Can Vegetables (incl. Soups)",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/peppers/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Chiles/Pimientos (Spanish)",
+     "zrodlo": "NCHFP — How do I... Can Vegetables (incl. Soups)",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/chiles-pimientos-spanish/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Marinated Peppers",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-peppers/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "bell-pepper-v11",
+   "nazwa_pl": "pindżur z pomidorami",
+   "segment": "brak × canned-foods",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Peppers",
+     "zrodlo": "NCHFP — How do I... Can Vegetables (incl. Soups)",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/peppers/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Chiles/Pimientos (Spanish)",
+     "zrodlo": "NCHFP — How do I... Can Vegetables (incl. Soups)",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/chiles-pimientos-spanish/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Marinated Peppers",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-peppers/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "bell-pepper-v12",
+   "nazwa_pl": "ljutenica",
+   "segment": "brak × canned-foods",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Peppers",
+     "zrodlo": "NCHFP — How do I... Can Vegetables (incl. Soups)",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/peppers/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Chiles/Pimientos (Spanish)",
+     "zrodlo": "NCHFP — How do I... Can Vegetables (incl. Soups)",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/chiles-pimientos-spanish/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Marinated Peppers",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-peppers/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "chili-pepper-v04",
+   "nazwa_pl": "jalapeno w occie (escabeche)",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14",
+    "B16"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Hot Peppers",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-hot-peppers/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled Jalapeño Rings",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-jalapeno-rings/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled Yellow Pepper Rings",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-yellow-pepper-rings/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "chili-pepper-v12",
+   "nazwa_pl": "dżem chili z pektyną",
+   "segment": "brak × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Hot Pepper (Cooked Jam Recipes)",
+     "zrodlo": "CERTO Premium Liquid Fruit Pectin — Recipes and Instructions (wkładka PDF)",
+     "szczebel": 3,
+     "adres": "https://cdn.allotta.io/image/upload/v1726494349/dxp-images/brands/Brands%20Homepage/Sure-Jell/Certo_Insert_zgro7i.pdf",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Peach-Hot Pepper Jam",
+     "zrodlo": "Sure-Jell Homemade Jam & Jelly Recipes",
+     "szczebel": 3,
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/579451-peach-hot-pepper-jam",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Apricot Jalapeño Jam",
+     "zrodlo": "Mrs. Wages — Recipes (kategorie: canning, canning-fruit, canning-vegetables, jellies-jams, pickles-and-relish, salsa, sauces, tomatoes, juices)",
+     "szczebel": 3,
+     "adres": "https://www.mrswages.com/recipes/apricot-jalapeno-jam/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "eggplant-v03",
+   "nazwa_pl": "włoskie melanzane sott'aceto w occie",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Aubergine Pickles",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/aubergine-pickles.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "eggplant-v04",
+   "nazwa_pl": "pikle indyjskie z bakłażana",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Aubergine Pickles",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/aubergine-pickles.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "eggplant-v06",
+   "nazwa_pl": "w occie balsamicznym",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Aubergine Pickles",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/aubergine-pickles.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "tomatillo-v06",
+   "nazwa_pl": "salsa verde z tomatillo do słoików",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14",
+    "B16"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Tomatillo Green Salsa",
+     "zrodlo": "NCHFP — How do I... Can Salsa",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-salsa/tomatillo-green-salsa/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Salsa Verde de Tomatillo (Spanish)",
+     "zrodlo": "NCHFP — How do I... Can Salsa",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-salsa/tomatillo-green-salsa-spanish/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Tomatillo green salsa",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 3: Selecting, Preparing, and Canning Tomatoes and Tomato Products",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE03_HomeCan_rev0715.pdf#s.3-22",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "green-beans-v04",
+   "nazwa_pl": "w zalewie octowej słodko-kwaśnej",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled dilled beans",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-14",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Food in Jars’ Dilly Beans by Marisa McClellan, Food in Jars",
+     "zrodlo": "Mrs. Wages — Recipes (kategorie: canning, canning-fruit, canning-vegetables, jellies-jams, pickles-and-relish, salsa, sauces, tomatoes, juices)",
+     "szczebel": 3,
+     "adres": "https://www.mrswages.com/recipes/food-jars-dilly-beans/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "green-beans-v05",
+   "nazwa_pl": "w zalewie musztardowej",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled dilled beans",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-14",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Food in Jars’ Dilly Beans by Marisa McClellan, Food in Jars",
+     "zrodlo": "Mrs. Wages — Recipes (kategorie: canning, canning-fruit, canning-vegetables, jellies-jams, pickles-and-relish, salsa, sauces, tomatoes, juices)",
+     "szczebel": 3,
+     "adres": "https://www.mrswages.com/recipes/food-jars-dilly-beans/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "green-beans-v07",
+   "nazwa_pl": "z kurkumą i gorczycą",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled dilled beans",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-14",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Food in Jars’ Dilly Beans by Marisa McClellan, Food in Jars",
+     "zrodlo": "Mrs. Wages — Recipes (kategorie: canning, canning-fruit, canning-vegetables, jellies-jams, pickles-and-relish, salsa, sauces, tomatoes, juices)",
+     "szczebel": 3,
+     "adres": "https://www.mrswages.com/recipes/food-jars-dilly-beans/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "green-beans-v09",
+   "nazwa_pl": "w sosie pomidorowym",
+   "segment": "pressure-canning × canned-foods",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Beans, Baked",
+     "zrodlo": "NCHFP — How do I... Can Vegetables (incl. Soups)",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-baked/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Beans, Fresh Lima -- Shelled",
+     "zrodlo": "NCHFP — How do I... Can Vegetables (incl. Soups)",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-fresh-lima-shelled/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Beans, Snap and Italian – Pieces, Green and Wax",
+     "zrodlo": "NCHFP — How do I... Can Vegetables (incl. Soups)",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "green-beans-v11",
+   "nazwa_pl": "sałatka z fasolki, marchewki i cebuli do słoików",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled dilled beans",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-14",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Food in Jars’ Dilly Beans by Marisa McClellan, Food in Jars",
+     "zrodlo": "Mrs. Wages — Recipes (kategorie: canning, canning-fruit, canning-vegetables, jellies-jams, pickles-and-relish, salsa, sauces, tomatoes, juices)",
+     "szczebel": 3,
+     "adres": "https://www.mrswages.com/recipes/food-jars-dilly-beans/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "beans-soy-v02",
+   "nazwa_pl": "fasola Jaś w occie winnym z czerwoną cebulą",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled dilled beans",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-14",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "beans-soy-v06",
+   "nazwa_pl": "piklowana soja",
+   "segment": "brak × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled dilled beans",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-14",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "beans-soy-v12",
+   "nazwa_pl": "fasola gigant w oliwie (gigantes plaki)",
+   "segment": "pressure-canning × canned-foods",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Beans, Baked",
+     "zrodlo": "NCHFP — How do I... Can Vegetables (incl. Soups)",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-baked/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Beans, Fresh Lima -- Shelled",
+     "zrodlo": "NCHFP — How do I... Can Vegetables (incl. Soups)",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-fresh-lima-shelled/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Beans, Snap and Italian – Pieces, Green and Wax",
+     "zrodlo": "NCHFP — How do I... Can Vegetables (incl. Soups)",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "beetroot-v07",
+   "nazwa_pl": "w occie balsamicznym z rozmarynem",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Beets",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "No Sugar Added Pickled Beets",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/pickles-for-special-diets/no-sugar-added-pickled-beets/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled beets",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-15",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "beetroot-v08",
+   "nazwa_pl": "tarte w zalewie octowej",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Beets",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "No Sugar Added Pickled Beets",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/pickles-for-special-diets/no-sugar-added-pickled-beets/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled beets",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-15",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "beetroot-v10",
+   "nazwa_pl": "buraki z papryką (sałatka)",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Beets",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-beets/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "No Sugar Added Pickled Beets",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/pickles-for-special-diets/no-sugar-added-pickled-beets/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled beets",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-15",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "carrot-v05",
+   "nazwa_pl": "w occie jabłkowym z kolendrą",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Baby Carrots",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-baby-carrots/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled Carrots",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-carrots/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled carrots",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-16",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "carrot-v06",
+   "nazwa_pl": "po koreańsku (morkovcha)",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Baby Carrots",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-baby-carrots/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled Carrots",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-carrots/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled carrots",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-16",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "onion-v03",
+   "nazwa_pl": "w zalewie octowej z gorczycą",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "pewne",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Marrow ‘n Onion Mustard Pickles",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/marrow-n-onion-mustard-pickles.htm",
+     "wynik": "pewne"
+    },
+    {
+     "nazwa": "Pickled Pearl Onions",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-pearl-onions/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled pearl onions",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-20",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "onion-v04",
+   "nazwa_pl": "brytyjska cebula w occie słodowym",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Pearl Onions",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-pearl-onions/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled pearl onions",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-20",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Cucumber pickles with onions or vegetable medley",
+     "zrodlo": "UW B2267 Homemade Pickles and Relishes",
+     "szczebel": 3,
+     "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "onion-v05",
+   "nazwa_pl": "cebula marynowana w cytrynie i sumaku",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Pearl Onions",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-pearl-onions/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled pearl onions",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-20",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Cucumber pickles with onions or vegetable medley",
+     "zrodlo": "UW B2267 Homemade Pickles and Relishes",
+     "szczebel": 3,
+     "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "onion-v06",
+   "nazwa_pl": "w occie jabłkowym z kurkumą",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Pearl Onions",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-pearl-onions/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled pearl onions",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-20",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Cucumber pickles with onions or vegetable medley",
+     "zrodlo": "UW B2267 Homemade Pickles and Relishes",
+     "szczebel": 3,
+     "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "shallot-pearl-onion-v02",
+   "nazwa_pl": "czerwona cebula kiszona z limonką",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Pearl Onions",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-pearl-onions/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled pearl onions",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-20",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "shallot-pearl-onion-v03",
+   "nazwa_pl": "meksykańska cebula z habanero (xnipec)",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Pearl Onions",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-pearl-onions/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled pearl onions",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-20",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "shallot-pearl-onion-v04",
+   "nazwa_pl": "szalotka w ciemnym occie balsamicznym",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Pearl Onions",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-pearl-onions/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled pearl onions",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-20",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "shallot-pearl-onion-v08",
+   "nazwa_pl": "w winie",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Pearl Onions",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-pearl-onions/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled pearl onions",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-20",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "shallot-pearl-onion-v09",
+   "nazwa_pl": "włoskie cebulki borettane w glazurze balsamicznej",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Pearl Onions",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-pearl-onions/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled pearl onions",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-20",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "daikon-black-radish-v04",
+   "nazwa_pl": "daikon w occie ryżowym (pickled danmuji)",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Vietnamese Carrot and Daikon Pickle",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/vietnamese-carrot-and-daikon-pickle.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "daikon-black-radish-v10",
+   "nazwa_pl": "sałatka z białej rzodkwi w zalewie",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14",
+    "B16"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Vietnamese Carrot and Daikon Pickle",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/vietnamese-carrot-and-daikon-pickle.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "radish-v04",
+   "nazwa_pl": "w occie ryżowym z imbirem",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Quick Pickled Radishes",
+     "zrodlo": "Mrs. Wages — Recipes (kategorie: canning, canning-fruit, canning-vegetables, jellies-jams, pickles-and-relish, salsa, sauces, tomatoes, juices)",
+     "szczebel": 3,
+     "adres": "https://www.mrswages.com/recipes/quick-pickled-radishes/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Indiana State Fair – Mrs. Wages® Sweet Radish Dill Pickles",
+     "zrodlo": "Mrs. Wages — przepisy konkursowe i autorskie (osobno)",
+     "szczebel": 4,
+     "adres": "https://www.mrswages.com/recipes/indiana-state-fair-mrs-wages-sweet-radish-dill-pickles/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "horseradish-v02",
+   "nazwa_pl": "tarty na soku z cytryny",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Horseradish Sauce",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-horseradish-sauce/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled horseradish sauce",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-30",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "horseradish-v05",
+   "nazwa_pl": "chrzan w miodzie i occie jabłkowym",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14",
+    "B16"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Horseradish Sauce",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-horseradish-sauce/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled horseradish sauce",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-30",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "horseradish-v07",
+   "nazwa_pl": "chrzan z żurawiną do mięs",
+   "segment": "brak × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Horseradish Sauce",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-horseradish-sauce/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled horseradish sauce",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-30",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "asparagus-v03",
+   "nazwa_pl": "szparagi w białym occie winnym z estragonem",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Asparagus",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-asparagus/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled asparagus",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-13",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Shirley Camp’s Pickled Asparagus",
+     "zrodlo": "Mrs. Wages — przepisy konkursowe i autorskie (osobno)",
+     "szczebel": 4,
+     "adres": "https://www.mrswages.com/recipes/shirley-camps-pickled-asparagus/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "asparagus-v05",
+   "nazwa_pl": "szparagi w zalewie miodowo-musztardowej",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Asparagus",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-asparagus/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled asparagus",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-13",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Shirley Camp’s Pickled Asparagus",
+     "zrodlo": "Mrs. Wages — przepisy konkursowe i autorskie (osobno)",
+     "szczebel": 4,
+     "adres": "https://www.mrswages.com/recipes/shirley-camps-pickled-asparagus/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "fennel-artichoke-v02",
+   "nazwa_pl": "fenkuł w białym occie winnym z gwiazdkami anyżu",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Artichoke (Jerusalem) Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/artichoke-jerusalem-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Artichoke pickles",
+     "zrodlo": "UW B2267 Homemade Pickles and Relishes",
+     "szczebel": 3,
+     "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "fennel-artichoke-v03",
+   "nazwa_pl": "serca karczochów w occie i winie",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Artichoke (Jerusalem) Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/artichoke-jerusalem-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Artichoke pickles",
+     "zrodlo": "UW B2267 Homemade Pickles and Relishes",
+     "szczebel": 3,
+     "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "ginger-turmeric-v03",
+   "nazwa_pl": "zakwas imbirowy (ginger bug)",
+   "segment": "refrigerator × fermented-beverages",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "HOMEMADE GINGER ALE",
+     "zrodlo": "Illinois Extension — Fermenting Foods Recipes (info sheet)",
+     "szczebel": 3,
+     "adres": "https://extension.illinois.edu/media/6876/download?inline",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "european-mixed-veg-v01",
+   "nazwa_pl": "włoska giardiniera w occie winnym",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Mixed Vegetables",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-mixed-vegetables/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Piccalilli",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/piccalilli/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled mixed vegetables",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-25",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "european-mixed-veg-v04",
+   "nazwa_pl": "sałatka wielowarzywna z kurkumą i gorczycą",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Mixed Vegetables",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-mixed-vegetables/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Piccalilli",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/piccalilli/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled mixed vegetables",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-25",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "european-mixed-veg-v06",
+   "nazwa_pl": "francuskie achards de légumes",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Mixed Vegetables",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-mixed-vegetables/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Piccalilli",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/piccalilli/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled mixed vegetables",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-25",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "european-mixed-veg-v07",
+   "nazwa_pl": "brytyjskie mixed pickles",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Mixed Vegetables",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-mixed-vegetables/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Piccalilli",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/piccalilli/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pickled mixed vegetables",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 6: Preparing and Canning Fermented Foods and Pickled Vegetables",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE06_HomeCan_rev0715.pdf#s.6-25",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "european-mixed-veg-v12",
+   "nazwa_pl": "baza warzywna do ryby po grecku",
+   "segment": "pressure-canning × canned-foods",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Mixed Vegetables",
+     "zrodlo": "NCHFP — How do I... Can Vegetables (incl. Soups)",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/mixed-vegetables/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Mixed vegetables",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 4: Selecting, Preparing, and Canning Vegetables and Vegetable Products",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE04_HomeCan_rev0715.pdf#s.4-12",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Spicy Tomato Vegetable Soup",
+     "zrodlo": "So Easy to Preserve, 6th ed. (UGA Extension) — strona książki z „Free Recipes”",
+     "szczebel": 3,
+     "adres": "https://www.fcs.uga.edu/extension/so-easy-to-preserve",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "apple-v08",
+   "nazwa_pl": "jabłka prażone na szarlotkę",
+   "segment": "water-bath × canned-foods",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Apples-Sliced",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apples-sliced/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Apple Rings-Spiced",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-rings-spiced/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Spiced Apple Rings",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/fruit-pickles/spiced-apple-rings/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "apple-v11",
+   "nazwa_pl": "galaretka pektynowa z ogryzków",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Apple Jelly without Pectin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/apple-jelly-without-pectin/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Apple Jelly Illustrated",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/apple-jelly-illustrated/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Refrigerator Apple Jelly with Liquid Sweetener",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/reduced-sugar-recipes/refrigerator-apple-jelly-with-liquid-sweetener/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "apple-v12",
+   "nazwa_pl": "dżem jabłkowo-miętowy",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14",
+    "B16"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pear-apple jam",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 7: Preparing and Canning Jams and Jellies",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE07_HomeCan_rev0715.pdf#s.7-8",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Apple Rosemary Jam",
+     "zrodlo": "Mrs. Wages — Recipes (kategorie: canning, canning-fruit, canning-vegetables, jellies-jams, pickles-and-relish, salsa, sauces, tomatoes, juices)",
+     "szczebel": 3,
+     "adres": "https://www.mrswages.com/recipes/apple-rosemary-jam/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Apple Jam",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/apple-jam.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "apple-v15",
+   "nazwa_pl": "połówki w syropie",
+   "segment": "water-bath × canned-foods",
+   "wynik_1_3": "pewne",
+   "wynik_z_4": "pewne",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Apples-Sliced",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apples-sliced/",
+     "wynik": "pewne"
+    },
+    {
+     "nazwa": "Apple Rings-Spiced",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-rings-spiced/",
+     "wynik": "pewne"
+    },
+    {
+     "nazwa": "Spiced Apple Rings",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/fruit-pickles/spiced-apple-rings/",
+     "wynik": "pewne"
+    }
+   ]
+  },
+  {
+   "id": "pear-v04",
+   "nazwa_pl": "gruszki w occie balsamicznym",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pear Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/fruit-pickles/pear-pickles/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pear pickles",
+     "zrodlo": "UW B2267 Homemade Pickles and Relishes",
+     "szczebel": 3,
+     "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "pear-v09",
+   "nazwa_pl": "dżem gruszkowy z imbirem lub kardamonem",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14",
+    "B16"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pear-apple jam",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 7: Preparing and Canning Jams and Jellies",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE07_HomeCan_rev0715.pdf#s.7-8",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pear (Cooked Jam Recipes)",
+     "zrodlo": "SURE-JELL Premium Fruit Pectin — Recipes and Instructions (wkładka PDF)",
+     "szczebel": 3,
+     "adres": "https://cdn.allotta.io/image/upload/v1726494349/dxp-images/brands/Brands%20Homepage/Sure-Jell/Sure-Jell_Original_Insert_ycd0n7.pdf",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Peach or Pear (Cooked Jam Recipes)",
+     "zrodlo": "MCP Premium Fruit Pectin — Recipes and Instructions (wkładka PDF)",
+     "szczebel": 3,
+     "adres": "https://cdn.allotta.io/image/upload/v1726494347/dxp-images/brands/Brands%20Homepage/Sure-Jell/MCP_Insert_o9yykr.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "pear-v12",
+   "nazwa_pl": "kompot gruszkowy",
+   "segment": "water-bath × canned-foods",
+   "wynik_1_3": "pewne",
+   "wynik_z_4": "pewne",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Pears, Asian",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pears-asian/",
+     "wynik": "pewne"
+    },
+    {
+     "nazwa": "Pears-Halved",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pears-halved/",
+     "wynik": "pewne"
+    },
+    {
+     "nazwa": "Pears—halved",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 2: Selecting, Preparing, and Canning Fruit and Fruit Products",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE02_HomeCan_rev0715.pdf#s.2-19",
+     "wynik": "pewne"
+    }
+   ]
+  },
+  {
+   "id": "plum-v03",
+   "nazwa_pl": "japońskie umeboshi (śliwy solone z liśćmi pachnotki shiso)",
+   "segment": "cool-storage × salt-preservation",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Apple And Damson Jelly",
+     "zrodlo": "Certo (UK) — Recipes",
+     "szczebel": 4,
+     "adres": "https://certo.co.uk/apple-and-damson-jelly/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Plum Jelly",
+     "zrodlo": "Certo (UK) — Recipes",
+     "szczebel": 4,
+     "adres": "https://certo.co.uk/plum-jelly/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Damson Jam",
+     "zrodlo": "Certo (UK) — Recipes",
+     "szczebel": 4,
+     "adres": "https://certo.co.uk/damson-jam/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "plum-v11",
+   "nazwa_pl": "śliwki we własnym soku",
+   "segment": "water-bath × canned-foods",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Plums-Halved or Whole",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/plums-halved-or-whole/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Plums—halved or whole",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 2: Selecting, Preparing, and Canning Fruit and Fruit Products",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE02_HomeCan_rev0715.pdf#s.2-21",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Plums",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/plums.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "sour-cherry-v07",
+   "nazwa_pl": "konfitura z całych wydrylowanych wiśni",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14",
+    "B16"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Cherry Summer Solstice Preserves",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/cherry-summer-solstice-preserves.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "sour-cherry-v12",
+   "nazwa_pl": "domowe wiśnie koktajlowe maraschino w syropie",
+   "segment": "refrigerator × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14",
+    "B16"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Cherries-Whole",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Cherry (Sweet) Topping",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherry-sweet-topping/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Freezing Cherries: Sour",
+     "zrodlo": "NCHFP — How do I... Freeze",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-cherries-sour/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "sweet-cherry-v06",
+   "nazwa_pl": "konfitura z jasnych czereśni z cytryną",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B19"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Cherry Summer Solstice Preserves",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/cherry-summer-solstice-preserves.htm",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Sweet Cherry Preserves",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/sweet-cherry-preserves.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "sweet-cherry-v09",
+   "nazwa_pl": "dżem czereśniowo-truskawkowy",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B19"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Cherry Jam Pectin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/cherry-jam-pectin/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Cherry jam — Low sugar",
+     "zrodlo": "UW B2909 Making Jams, Jellies and Fruit Preserves",
+     "szczebel": 3,
+     "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2909-2020.pdf",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Cherry (sour) (Quick and Easy Freezer Jam Recipes)",
+     "zrodlo": "SURE-JELL Premium Fruit Pectin — Recipes and Instructions (wkładka PDF)",
+     "szczebel": 3,
+     "adres": "https://cdn.allotta.io/image/upload/v1726494349/dxp-images/brands/Brands%20Homepage/Sure-Jell/Sure-Jell_Original_Insert_ycd0n7.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "peach-nectarine-v04",
+   "nazwa_pl": "pikantna salsa brzoskwiniowa z jalapeno do słoików",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Peach Apple Salsa",
+     "zrodlo": "NCHFP — How do I... Can Salsa",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-salsa/peach-apple-salsa/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Peach salsa",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 2: Selecting, Preparing, and Canning Fruit and Fruit Products",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE02_HomeCan_rev0715.pdf#s.2-24",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Peach apple salsa",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 2: Selecting, Preparing, and Canning Fruit and Fruit Products",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE02_HomeCan_rev0715.pdf#s.2-25",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "peach-nectarine-v11",
+   "nazwa_pl": "konfitura z nektarynek i lawendy",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B19"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Classic Peach Preserves",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/classic-peach-preserves.htm",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Peach Berry Conserve",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/peach-berry-conserve.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "peach-nectarine-v13",
+   "nazwa_pl": "kompot",
+   "segment": "water-bath × canned-foods",
+   "wynik_1_3": "pewne",
+   "wynik_z_4": "pewne",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Nectarines-Halved or Sliced",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/nectarines-halved-or-sliced/",
+     "wynik": "pewne"
+    },
+    {
+     "nazwa": "Peaches-Halved or Sliced",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+     "wynik": "pewne"
+    },
+    {
+     "nazwa": "Peach Fruit Topping",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peach-fruit-topping/",
+     "wynik": "pewne"
+    }
+   ]
+  },
+  {
+   "id": "apricot-v02",
+   "nazwa_pl": "japońskie umeboshi z moreli",
+   "segment": "cool-storage × salt-preservation",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Apricot Jam",
+     "zrodlo": "Certo (UK) — Recipes",
+     "szczebel": 4,
+     "adres": "https://certo.co.uk/apricot-jam/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Canned Apricot & Pineapple Jam",
+     "zrodlo": "Certo (UK) — Recipes",
+     "szczebel": 4,
+     "adres": "https://certo.co.uk/canned-apricot-and-pineapple-jam/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Dried Apricot Jam",
+     "zrodlo": "Certo (UK) — Recipes",
+     "szczebel": 4,
+     "adres": "https://certo.co.uk/dried-apricot-jam/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "apricot-v10",
+   "nazwa_pl": "chutney morelowy z gorczycą",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Apricot Chutney",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/apricot-chutney.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "apricot-v12",
+   "nazwa_pl": "morele w koniaku",
+   "segment": "refrigerator × canned-foods",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Apricots-Halved or Sliced",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apricots-halved-or-sliced/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Apricots—halved or sliced",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 2: Selecting, Preparing, and Canning Fruit and Fruit Products",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE02_HomeCan_rev0715.pdf#s.2-9",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Apricots",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/apricots.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "strawberry-v07",
+   "nazwa_pl": "dżem truskawkowy klasyczny i niskosłodzony (z pektyną)",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "pewne",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Light Strawberry Jam – No Sugar Needed Pectin",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/light-strawberry-jam-no-sugar-needed-pectin.htm",
+     "wynik": "pewne"
+    },
+    {
+     "nazwa": "Strawberry Jam Pectin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/strawberry-jam-pectin/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Strawberry-Kiwi Jam Pectin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/strawberry-kiwi-jam-pectin/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "strawberry-v11",
+   "nazwa_pl": "dżem z prosecco",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B19"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Strawberry Jam Pectin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/strawberry-jam-pectin/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Strawberry-Kiwi Jam Pectin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/strawberry-kiwi-jam-pectin/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Rhubarb-Strawberry Jam With Pectin",
+     "zrodlo": "NDSU FN172 Jellies, Jams and Spreads",
+     "szczebel": 3,
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "strawberry-v12",
+   "nazwa_pl": "dżem z rabarbarem",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Strawberry Jam Pectin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/strawberry-jam-pectin/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Strawberry-Kiwi Jam Pectin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/strawberry-kiwi-jam-pectin/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Rhubarb-Strawberry Jam With Pectin",
+     "zrodlo": "NDSU FN172 Jellies, Jams and Spreads",
+     "szczebel": 3,
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "strawberry-v13",
+   "nazwa_pl": "konfitura z poziomek leśnych",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B19"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Fig-Strawberry Preserves with Gelatin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/strawberry-fig-preserves-with-gelatin/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Strawberry Preserves",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/strawberry-preserves/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Strawberry Apricot Conserve",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/strawberry-apricot-conserve.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "raspberry-blackberry-v10",
+   "nazwa_pl": "galaretka jeżynowa z jabłkiem",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14",
+    "B16"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Blackberry Jelly Liquid Pectin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/blackberry-jelly-liquid-pectin/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Blackberry Jelly Powdered Pectin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/blackberry-jelly-powdered-pectin/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Blackberry Jelly without Pectin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/blackberry-jelly-without-pectin/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "raspberry-blackberry-v11",
+   "nazwa_pl": "konfitura jeżynowa z cynamonem",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B19"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Cranberry Raspberry Preserves",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/cranberry-raspberry-preserves.htm",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Light Cherry Raspberry Preserves – No Sugar Needed Pectin",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/light-cherry-raspberry-preserves-no-sugar-needed-pectin.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "currant-v06",
+   "nazwa_pl": "klarowna galaretka z czerwonej lub białej porzeczki",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14",
+    "B16"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Currant (Cooked Jelly Recipes)",
+     "zrodlo": "SURE-JELL Premium Fruit Pectin — Recipes and Instructions (wkładka PDF)",
+     "szczebel": 3,
+     "adres": "https://cdn.allotta.io/image/upload/v1726494349/dxp-images/brands/Brands%20Homepage/Sure-Jell/Sure-Jell_Original_Insert_ycd0n7.pdf",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Currant (Cooked Jelly Recipes)",
+     "zrodlo": "CERTO Premium Liquid Fruit Pectin — Recipes and Instructions (wkładka PDF)",
+     "szczebel": 3,
+     "adres": "https://cdn.allotta.io/image/upload/v1726494349/dxp-images/brands/Brands%20Homepage/Sure-Jell/Certo_Insert_zgro7i.pdf",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Black Currant Jelly",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/black-currant-jelly.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "gooseberry-v06",
+   "nazwa_pl": "dżem agrestowy z kwiatem czarnego bzu",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B19"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Gooseberry Jam",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/gooseberry-jam.htm",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Light Gooseberry Jam – No Sugar Needed Pectin",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/light-gooseberry-jam-no-sugar-needed-pectin.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "gooseberry-v07",
+   "nazwa_pl": "konfitura królewska z zielonego agrestu (szmaragdowa, drylowana)",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B19"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Gooseberry Conserve",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/gooseberry-conserve.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "gooseberry-v10",
+   "nazwa_pl": "dżem agrestowo-truskawkowy",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14",
+    "B16"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Gooseberry Jam",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/gooseberry-jam.htm",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Light Gooseberry Jam – No Sugar Needed Pectin",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/light-gooseberry-jam-no-sugar-needed-pectin.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "blueberry-bilberry-v09",
+   "nazwa_pl": "dżem borówkowy z wanilią",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B19"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Blueberry-Currant Jam without Pectin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/blueberry-currant-jam-without-pectin/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Blueberry-Peach Jam (Spiced) without pectin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/blueberry-peach-jam-spiced-without-pectin/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Blueberry-Spice Jam with Pectin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/blueberry-spice-jam-with-pectin/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "cranberry-lingonberry-v08",
+   "nazwa_pl": "klasyczny sos żurawinowy z pomarańczą",
+   "segment": "brak × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Cranberry Sauce",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberry-sauce/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Cranberry Ketchup",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/cranberry-ketchup.htm",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Jellied Cranberry Sauce",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/jellied-cranberry-sauce.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "cranberry-lingonberry-v11",
+   "nazwa_pl": "sok żurawinowy pasteryzowany",
+   "segment": "water-bath × canned-foods",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "pewne",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Cranberry Juice",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/cranberry-juice.htm",
+     "wynik": "pewne"
+    }
+   ]
+  },
+  {
+   "id": "elderberry-elderflower-v08",
+   "nazwa_pl": "dżem z owoców czarnego bzu i jabłek",
+   "segment": "brak × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Strawberry, Black or Red Raspberry, Blackberry or Elderberry (Quick and Easy Freezer Jam Recipes)",
+     "zrodlo": "MCP Premium Fruit Pectin — Recipes and Instructions (wkładka PDF)",
+     "szczebel": 3,
+     "adres": "https://cdn.allotta.io/image/upload/v1726494347/dxp-images/brands/Brands%20Homepage/Sure-Jell/MCP_Insert_o9yykr.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "grapes-v04",
+   "nazwa_pl": "gruzińskie badagi (zredukowany sok winogronowy)",
+   "segment": "cool-storage × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Grape Juice",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/grape-juice/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Grape juice",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 2: Selecting, Preparing, and Canning Fruit and Fruit Products",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE02_HomeCan_rev0715.pdf#s.2-15",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Grape Juice",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/grape-juice.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "grapes-v08",
+   "nazwa_pl": "konfitura z bezpestkowych winogron",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14",
+    "B16"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Grape Conserve",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Cranberry Grape Preserves",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/cranberry-grape-preserves.htm",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Grape Cranberry Conserve",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/grape-cranberry-conserve.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "rhubarb-v06",
+   "nazwa_pl": "różowy syrop z rabarbaru",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Rhubarb Juice",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/rhubarb-juice.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "rhubarb-v07",
+   "nazwa_pl": "dżem rabarbarowo-truskawkowy i rabarbarowo-pomarańczowy",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Rhubarb-Strawberry Jam With Pectin",
+     "zrodlo": "NDSU FN172 Jellies, Jams and Spreads",
+     "szczebel": 3,
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Rhubarb (Cooked Jam Recipes)",
+     "zrodlo": "MCP Premium Fruit Pectin — Recipes and Instructions (wkładka PDF)",
+     "szczebel": 3,
+     "adres": "https://cdn.allotta.io/image/upload/v1726494347/dxp-images/brands/Brands%20Homepage/Sure-Jell/MCP_Insert_o9yykr.pdf",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "SURE-JELL Strawberry-Rhubarb Jam",
+     "zrodlo": "Sure-Jell Homemade Jam & Jelly Recipes",
+     "szczebel": 3,
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/520657-sure-jell-strawberry-rhubarb-jam",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "lemon-v04",
+   "nazwa_pl": "słodko-ostry pickle cytrynowy",
+   "segment": "brak × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Cucumber Lemon Pickles",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/cucumber-lemon-pickles.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "lemon-v08",
+   "nazwa_pl": "plastry cytryny w syropie do herbaty",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B19"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Lemon Curd, Canned",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Lemon Curd, Freezer",
+     "zrodlo": "NCHFP — How do I... Freeze",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/lemon-curd-freezer/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Canning Lemon Lime Curd",
+     "zrodlo": "USU Preserve the Harvest — Canning Lemon Lime Curd",
+     "szczebel": 3,
+     "adres": "https://extension.usu.edu/preserve-the-harvest/research/canning-lemon-lime-curd.php",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "lemon-v11",
+   "nazwa_pl": "marmolada cytrynowa",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "pewne",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Lemon Ginger Marmalade",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/lemon-ginger-marmalade.htm",
+     "wynik": "pewne"
+    },
+    {
+     "nazwa": "Marmalade Strawberry Lemon",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/marmalade-strawberry-lemon.htm",
+     "wynik": "pewne"
+    }
+   ]
+  },
+  {
+   "id": "lime-bergamot-v07",
+   "nazwa_pl": "marmolada z bergamotki (aromat Earl Grey)",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B19"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Blueberry Lime Jam",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/blueberry-lime-jam.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "lime-bergamot-v10",
+   "nazwa_pl": "limonki w syropie do napojów",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B19"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Canning Lemon Lime Curd",
+     "zrodlo": "USU Preserve the Harvest — Canning Lemon Lime Curd",
+     "szczebel": 3,
+     "adres": "https://extension.usu.edu/preserve-the-harvest/research/canning-lemon-lime-curd.php",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "orange-kumquat-v04",
+   "nazwa_pl": "pikantny chutney pomarańczowy",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Cranberry Orange Chutney",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/chutneys/cranberry-orange-chutney/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Cranberry orange chutney",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 2: Selecting, Preparing, and Canning Fruit and Fruit Products",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE02_HomeCan_rev0715.pdf#s.2-13",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Orange Rhubarb Chutney",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/orange-rhubarb-chutney.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "orange-kumquat-v07",
+   "nazwa_pl": "tradycyjna szkocka marmolada z gorzkich pomarańczy (seville)",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14",
+    "B16"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Orange Marmalade",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/marmalades/orange-marmalade/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Peach-Orange Marmalade",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/marmalades/peach-orange-marmalade/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Orange Marmalade (Cooked Jam Recipes)",
+     "zrodlo": "SURE-JELL Premium Fruit Pectin — Recipes and Instructions (wkładka PDF)",
+     "szczebel": 3,
+     "adres": "https://cdn.allotta.io/image/upload/v1726494349/dxp-images/brands/Brands%20Homepage/Sure-Jell/Sure-Jell_Original_Insert_ycd0n7.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "orange-kumquat-v08",
+   "nazwa_pl": "całe kumkwaty w syropie waniliowym",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B19"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Grapefruit and Orange Sections",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/grapefruit-and-orange-sections/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Grapefruit and orange sections",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 2: Selecting, Preparing, and Canning Fruit and Fruit Products",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE02_HomeCan_rev0715.pdf#s.2-15",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Oranges in Cointreau",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/oranges-in-cointreau.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "orange-kumquat-v10",
+   "nazwa_pl": "kandyzowane plastry pomarańczy w syropie (i w czekoladzie)",
+   "segment": "dry-storage × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Grapefruit and Orange Sections",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/grapefruit-and-orange-sections/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Grapefruit and orange sections",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 2: Selecting, Preparing, and Canning Fruit and Fruit Products",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE02_HomeCan_rev0715.pdf#s.2-15",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Oranges in Cointreau",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/oranges-in-cointreau.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "grapefruit-v03",
+   "nazwa_pl": "dżem grejpfrutowy z rozmarynem",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B19"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Papaya Grapefruit Jam",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/papaya-grapefruit-jam.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "grapefruit-v07",
+   "nazwa_pl": "galaretka grejpfrutowa",
+   "segment": "water-bath × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14",
+    "B16"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Grapefruit (Quick and Easy Freezer Jelly Recipes)",
+     "zrodlo": "SURE-JELL Premium Fruit Pectin — Recipes and Instructions (wkładka PDF)",
+     "szczebel": 3,
+     "adres": "https://cdn.allotta.io/image/upload/v1726494349/dxp-images/brands/Brands%20Homepage/Sure-Jell/Sure-Jell_Original_Insert_ycd0n7.pdf",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Grapefruit (Quick and Easy Freezer Jelly Recipes)",
+     "zrodlo": "SURE-JELL Premium Fruit Pectin for Less or No Sugar Needed Recipes — Recipes and Instructions (wkładka PDF)",
+     "szczebel": 3,
+     "adres": "https://cdn.allotta.io/image/upload/v1726494352/dxp-images/brands/Brands%20Homepage/Sure-Jell/Sure-Jell_Less_or_No_Sugar_Insert_rhkodq.pdf",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Grapefruit (Quick and Easy Freezer Jelly Recipes)",
+     "zrodlo": "CERTO Premium Liquid Fruit Pectin — Recipes and Instructions (wkładka PDF)",
+     "szczebel": 3,
+     "adres": "https://cdn.allotta.io/image/upload/v1726494349/dxp-images/brands/Brands%20Homepage/Sure-Jell/Certo_Insert_zgro7i.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "mango-papaya-v08",
+   "nazwa_pl": "gładkie puree z mango (pasteryzowane)",
+   "segment": "brak × canned-foods",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Mangoes, Green",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/mangoes-green/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Papaya",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/papaya/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "mango-papaya-v09",
+   "nazwa_pl": "dżem z mango i marakui",
+   "segment": "brak × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Mango (Quick and Easy Freezer Jam Recipes)",
+     "zrodlo": "SURE-JELL Premium Fruit Pectin — Recipes and Instructions (wkładka PDF)",
+     "szczebel": 3,
+     "adres": "https://cdn.allotta.io/image/upload/v1726494349/dxp-images/brands/Brands%20Homepage/Sure-Jell/Sure-Jell_Original_Insert_ycd0n7.pdf",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Mango (Quick and Easy Freezer Jam Recipes)",
+     "zrodlo": "CERTO Premium Liquid Fruit Pectin — Recipes and Instructions (wkładka PDF)",
+     "szczebel": 3,
+     "adres": "https://cdn.allotta.io/image/upload/v1726494349/dxp-images/brands/Brands%20Homepage/Sure-Jell/Certo_Insert_zgro7i.pdf",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Light Mango Peach Jam - No Sugar Needed Pectin",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/light-mango-peach-jam-no-sugar-needed-pectin.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "mango-papaya-v12",
+   "nazwa_pl": "suszone paski mango",
+   "segment": "dry-storage × drying",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Mango Leather",
+     "zrodlo": "NCHFP — How do I... Dry",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/dry/recipes/mango-leather/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "pineapple-banana-v06",
+   "nazwa_pl": "dżem ananasowy z wanilią i rumem",
+   "segment": "brak × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "SURE.JELL Fresh Pineapple Jam",
+     "zrodlo": "Sure-Jell Homemade Jam & Jelly Recipes",
+     "szczebel": 3,
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501672-sure-jell-fresh-pineapple-jam",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pineapple Coconut Jam",
+     "zrodlo": "Mrs. Wages — Recipes (kategorie: canning, canning-fruit, canning-vegetables, jellies-jams, pickles-and-relish, salsa, sauces, tomatoes, juices)",
+     "szczebel": 3,
+     "adres": "https://www.mrswages.com/recipes/pineapple-coconut-jam/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Strawberry Pineapple Freezer Jam",
+     "zrodlo": "Mrs. Wages — Recipes (kategorie: canning, canning-fruit, canning-vegetables, jellies-jams, pickles-and-relish, salsa, sauces, tomatoes, juices)",
+     "szczebel": 3,
+     "adres": "https://www.mrswages.com/recipes/strawberry-pineapple-freezer-jam/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "pineapple-banana-v08",
+   "nazwa_pl": "chutney ananasowy z miętą",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Banana Dried Fruit Chutney",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/banana-dried-fruit-chutney.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "fig-pomegranate-v01",
+   "nazwa_pl": "bliskowschodnia melasa z granatu (zredukowany sok)",
+   "segment": "cool-storage × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pomegranate Juice",
+     "zrodlo": "USU Preserve the Harvest — How to Preserve Pomegranates",
+     "szczebel": 3,
+     "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "fig-pomegranate-v02",
+   "nazwa_pl": "figi w occie balsamicznym",
+   "segment": "water-bath × vinegar-pickling",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Fig Pickles",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/fruit-pickles/fig-pickles/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "fig-pomegranate-v06",
+   "nazwa_pl": "konfitura z fig z orzechami włoskimi i rozmarynem (do serów)",
+   "segment": "brak × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Fig-Strawberry Preserves with Gelatin",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/strawberry-fig-preserves-with-gelatin/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Fig Preserves",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/fig-preserves/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "fig-pomegranate-v07",
+   "nazwa_pl": "całe zielone figi w gęstym syropie",
+   "segment": "brak × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Figs",
+     "zrodlo": "NCHFP — How do I... Can Fruits",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/figs/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Freezing Figs",
+     "zrodlo": "NCHFP — How do I... Freeze",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-figs/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Freezing Pomegranates",
+     "zrodlo": "NCHFP — How do I... Freeze",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-pomegranates/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "fig-pomegranate-v09",
+   "nazwa_pl": "galaretka z granatu",
+   "segment": "brak × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pomegranate Jelly",
+     "zrodlo": "USU Preserve the Harvest — How to Preserve Pomegranates",
+     "szczebel": 3,
+     "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Pomegranate Jelly",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/pomegranate-jelly.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "watermelon-melon-v06",
+   "nazwa_pl": "konfitura z białej skórki arbuza z wanilią i cytryną",
+   "segment": "brak × sweet-preserves",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Watermelon Rind Preserves",
+     "zrodlo": "NCHFP — How do I... Make Jam & Jelly",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/watermelon-rind-preserves/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "garden-herbs-v05",
+   "nazwa_pl": "zioła prowansalskie zakonserwowane w soli na mokro",
+   "segment": "refrigerator × salt-preservation",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Apple And Thyme or Apple and Sage Jelly",
+     "zrodlo": "Certo (UK) — Recipes",
+     "szczebel": 4,
+     "adres": "https://certo.co.uk/apple-and-thyme-or-apple-and-sage-jelly/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Mint Jelly",
+     "zrodlo": "Certo (UK) — Recipes",
+     "szczebel": 4,
+     "adres": "https://certo.co.uk/mint-jelly/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "mustard-v03",
+   "nazwa_pl": "gruboziarnista musztarda francuska (à l'ancienne)",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Marrow ‘n Onion Mustard Pickles",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/marrow-n-onion-mustard-pickles.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "mustard-v04",
+   "nazwa_pl": "bawarska słodka musztarda do białej kiełbasy",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Marrow ‘n Onion Mustard Pickles",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/marrow-n-onion-mustard-pickles.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "mustard-v05",
+   "nazwa_pl": "ostra musztarda rosyjska/sarepska",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Marrow ‘n Onion Mustard Pickles",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/marrow-n-onion-mustard-pickles.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "mustard-v06",
+   "nazwa_pl": "musztarda angielska",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Marrow ‘n Onion Mustard Pickles",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/marrow-n-onion-mustard-pickles.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "mustard-v07",
+   "nazwa_pl": "musztarda miodowa",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Marrow ‘n Onion Mustard Pickles",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/marrow-n-onion-mustard-pickles.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "mustard-v08",
+   "nazwa_pl": "musztarda chrzanowa",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Marrow ‘n Onion Mustard Pickles",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/marrow-n-onion-mustard-pickles.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "mustard-v09",
+   "nazwa_pl": "musztarda gruszkowa i śliwkowa",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Marrow ‘n Onion Mustard Pickles",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/marrow-n-onion-mustard-pickles.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "mustard-v10",
+   "nazwa_pl": "musztarda piwna na ciemnym porterze",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Marrow ‘n Onion Mustard Pickles",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/marrow-n-onion-mustard-pickles.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "mustard-v12",
+   "nazwa_pl": "kawior gorczycowy (ziarna gotowane w occie i syropie)",
+   "segment": "refrigerator × vinegar-pickling",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [
+    "B14"
+   ],
+   "trafienia": [
+    {
+     "nazwa": "Marrow ‘n Onion Mustard Pickles",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/marrow-n-onion-mustard-pickles.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "fermented-beverages-v02",
+   "nazwa_pl": "kombucha smakowa (F2 z maliną, imbirem, marakują)",
+   "segment": "refrigerator × fermented-beverages",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Kombucha Tea",
+     "zrodlo": "NCHFP — How do I... Ferment",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Kombucha Recipe",
+     "zrodlo": "CSU Understanding and Making Kombucha",
+     "szczebel": 3,
+     "adres": "https://extension.colostate.edu/resource/understanding-and-making-kombucha/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "fermented-beverages-v03",
+   "nazwa_pl": "jun kombucha (na zielonej herbacie i surowym miodzie)",
+   "segment": "refrigerator × fermented-beverages",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Kombucha Tea",
+     "zrodlo": "NCHFP — How do I... Ferment",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Kombucha Recipe",
+     "zrodlo": "CSU Understanding and Making Kombucha",
+     "szczebel": 3,
+     "adres": "https://extension.colostate.edu/resource/understanding-and-making-kombucha/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "yogurt-skyr-v05",
+   "nazwa_pl": "turecki ayran (jogurt z wodą i solą)",
+   "segment": "none × dairy-cheese",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Basic Yogurt Recipe",
+     "zrodlo": "Illinois Extension — Making Yogurt at Home (info sheet)",
+     "szczebel": 3,
+     "adres": "https://extension.illinois.edu/media/8085/download?inline",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Yogurt Cheese and Greek-style Yogurt",
+     "zrodlo": "Illinois Extension — Making Yogurt at Home (info sheet)",
+     "szczebel": 3,
+     "adres": "https://extension.illinois.edu/media/8085/download?inline",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "yogurt-skyr-v06",
+   "nazwa_pl": "jogurt pieczony (riażenka z mleka pieczonego)",
+   "segment": "refrigerator × dairy-cheese",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Basic Yogurt Recipe",
+     "zrodlo": "Illinois Extension — Making Yogurt at Home (info sheet)",
+     "szczebel": 3,
+     "adres": "https://extension.illinois.edu/media/8085/download?inline",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Yogurt Cheese and Greek-style Yogurt",
+     "zrodlo": "Illinois Extension — Making Yogurt at Home (info sheet)",
+     "szczebel": 3,
+     "adres": "https://extension.illinois.edu/media/8085/download?inline",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "pork-loin-ham-v01",
+   "nazwa_pl": "szynka tradycyjna peklowana na mokro, wędzona dymem olchowo-owocowym i parzona do 75°C",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Ham",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/ham/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "pork-loin-ham-v06",
+   "nazwa_pl": "szynka pieczona w soli",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Ham",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/ham/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "pork-loin-ham-v11",
+   "nazwa_pl": "szynka dojrzewająca typu prosciutto/jamón (wieloetapowe solenie i suszenie)",
+   "segment": "cool-storage × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Ham",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/ham/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "pork-shoulder-neck-v07",
+   "nazwa_pl": "klasyczna tuszonka wieprzowa z łopatki w galarecie (szybkowar)",
+   "segment": "pressure-canning × canned-foods",
+   "wynik_1_3": "brak",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pork Tenderloin",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/pork-tenderloin.htm",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Quebec Pork Meatballs",
+     "zrodlo": "Bernardin — Recipes (9 kategorii, EN)",
+     "szczebel": 4,
+     "adres": "https://www.bernardin.ca/recipes/en/quebec-pork-meatballs.htm",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "pork-belly-jowl-v01",
+   "nazwa_pl": "boczek wędzony na ciepło i parzony",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Bacon",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/bacon2/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "pork-belly-jowl-v02",
+   "nazwa_pl": "boczek rolowany wędzony",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Bacon",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/bacon2/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "pork-belly-jowl-v09",
+   "nazwa_pl": "boczek gotowany w łupinach cebuli",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Bacon",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/bacon2/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "smoked-cooked-sausages-v02",
+   "nazwa_pl": "kiełbasa krakowska sucha (wędzona, parzona i podsuszana)",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Sausage",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/sausage2/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "smoked-cooked-sausages-v03",
+   "nazwa_pl": "kiełbasa żywiecka i podwawelska",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Sausage",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/sausage2/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "smoked-cooked-sausages-v04",
+   "nazwa_pl": "kiełbasa jałowcowa i myśliwska",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Sausage",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/sausage2/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "smoked-cooked-sausages-v05",
+   "nazwa_pl": "cienkie kabanosy wieprzowe",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Sausage",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/sausage2/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "smoked-cooked-sausages-v06",
+   "nazwa_pl": "polska kiełbasa z dzika/mieszana",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Sausage",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/sausage2/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "smoked-cooked-sausages-v07",
+   "nazwa_pl": "kiełbasa lisiecka",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Sausage",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/sausage2/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "smoked-cooked-sausages-v08",
+   "nazwa_pl": "parówki i serdelki domowe (kutrowane z lodem)",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Sausage",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/sausage2/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "smoked-cooked-sausages-v09",
+   "nazwa_pl": "frankfurterki",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Sausage",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/sausage2/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "smoked-cooked-sausages-v15",
+   "nazwa_pl": "mortadela domowa z szynkowaru z pistacjami",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Sausage",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/sausage2/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "smoked-cooked-sausages-v16",
+   "nazwa_pl": "kiełbasa szynkowa w osłonce barierowej",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Sausage",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/sausage2/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "dry-cured-sausages-v12",
+   "nazwa_pl": "kabanosy długo podsuszane",
+   "segment": "refrigerator × meat-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Sausage",
+     "zrodlo": "NCHFP — How do I... Cure & Smoke",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/cure-smoke/pork/sausage2/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "poultry-v10",
+   "nazwa_pl": "kurczak w galarecie w słoiku (szybkowar)",
+   "segment": "pressure-canning × canned-foods",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Chicken or Rabbit",
+     "zrodlo": "NCHFP — How do I... Can Poultry, Red Meats and Seafoods",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/chicken-or-rabbit/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Chicken or Turkey Stock",
+     "zrodlo": "NCHFP — How do I... Can Poultry, Red Meats and Seafoods",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/chicken-or-turkey-stock/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Chicken or rabbit",
+     "zrodlo": "USDA Complete Guide to Home Canning (2015), Guide 5: Preparing and Canning Poultry, Red Meats, and Seafoods",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/papers/guide/GUIDE05_HomeCan_rev0715.pdf#s.5-5",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "sea-fish-v11",
+   "nazwa_pl": "domowy tuńczyk i makrela w oliwie w słoikach (autoklaw/szybkowar)",
+   "segment": "pressure-canning × canned-foods",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Crab Meat, King and Dungeness",
+     "zrodlo": "NCHFP — How do I... Can Poultry, Red Meats and Seafoods",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/crab-meat-king-and-dungeness/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Clams",
+     "zrodlo": "NCHFP — How do I... Can Poultry, Red Meats and Seafoods",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/clams/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Fish (pint jars, USDA)",
+     "zrodlo": "NCHFP — How do I... Can Poultry, Red Meats and Seafoods",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/fish-pint-jars-usda/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "freshwater-fish-v08",
+   "nazwa_pl": "pasztet rybny z wędzonego pstrąga pod masłem",
+   "segment": "refrigerator × fish-curing-smoking",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Smoking fish prior to canning",
+     "zrodlo": "PNW 450 Canning Smoked Fish at Home",
+     "szczebel": 3,
+     "adres": "https://objects.lib.uidaho.edu/uiext/uiext32324.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "eggs-v01",
+   "nazwa_pl": "brytyjskie jaja w occie słodowym lub białym (pickled eggs)",
+   "segment": "refrigerator × egg-preservation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Eggs",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "PINEAPPLE PICKLED EGGS",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Refrigerated Dilled Pickled Eggs",
+     "zrodlo": "NDSU FN189 Making Pickled Products",
+     "szczebel": 3,
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-08/fn189.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "eggs-v02",
+   "nazwa_pl": "różowe jaja marynowane w zakwasie buraczanym i occie",
+   "segment": "refrigerator × egg-preservation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Eggs",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "PINEAPPLE PICKLED EGGS",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Refrigerated Dilled Pickled Eggs",
+     "zrodlo": "NDSU FN189 Making Pickled Products",
+     "szczebel": 3,
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-08/fn189.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "eggs-v04",
+   "nazwa_pl": "azjatyckie jaja marynowane w sosie sojowym i mirinie (ajitsuke tamago do ramenu)",
+   "segment": "refrigerator × egg-preservation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Eggs",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "PINEAPPLE PICKLED EGGS",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Refrigerated Dilled Pickled Eggs",
+     "zrodlo": "NDSU FN189 Making Pickled Products",
+     "szczebel": 3,
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-08/fn189.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "eggs-v05",
+   "nazwa_pl": "chińskie solone jaja kacze/kurze w solance (xian ya dan)",
+   "segment": "refrigerator × egg-preservation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "RED BEET EGGS",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "SWEET AND SOUR EGGS",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "DARK AND SPICY EGGS",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+     "wynik": "mozliwe"
+    }
+   ]
+  },
+  {
+   "id": "eggs-v08",
+   "nazwa_pl": "jajka marynowane po wietnamsku (thit kho)",
+   "segment": "refrigerator × egg-preservation",
+   "wynik_1_3": "mozliwe",
+   "wynik_z_4": "mozliwe",
+   "juz_badany": [],
+   "trafienia": [
+    {
+     "nazwa": "Pickled Eggs",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "PINEAPPLE PICKLED EGGS",
+     "zrodlo": "NCHFP — How do I... Pickle",
+     "szczebel": 1,
+     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+     "wynik": "mozliwe"
+    },
+    {
+     "nazwa": "Refrigerated Dilled Pickled Eggs",
+     "zrodlo": "NDSU FN189 Making Pickled Products",
+     "szczebel": 3,
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-08/fn189.pdf",
+     "wynik": "mozliwe"
+    }
+   ]
+  }
+ ]
+}
