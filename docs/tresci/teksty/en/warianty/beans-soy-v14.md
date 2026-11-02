@@ -49,3 +49,7 @@ Store dried food in a cool, dry, dark place. [T:SUS-066]
 Check dried food often (glass shows condensation); if it has taken up moisture but is not spoiled, use it at once or dry it again and repack it. [T:SUS-023]
 
 Throw away mouldy dried food; also throw away any that smells off. [T:SUS-022]
+
+According to the FDA, raw or undercooked beans, particularly red kidney beans, can cause extreme nausea, severe vomiting and diarrhoea; proper cooking destroys the toxin, but slow cookers do not get hot enough to destroy it. [T:SUS-366]
+
+JarAtlas rule (cautious, after British studies cited by the FDA): before eating dried beans or soybeans from this card, soak them in water for at least 5 hours, pour the water away and boil them in fresh water for at least 30 minutes; do not cook them in a slow cooker. [T:SUS-366]

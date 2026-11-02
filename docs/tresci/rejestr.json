@@ -1,5 +1,95 @@
 [
  {
+  "id": "ACI-953",
+  "twierdzenie": "NCHFP (kąpiel wodna): podczas wekowania poziom wody ma być co najmniej 1 cal (ok. 2,5 cm) nad wieczkami słoików, a gdy czas wekowania przekracza 30 minut, 2 cale (ok. 5 cm) nad słoikami; w razie potrzeby dolać wrzącej wody, wlewając ją obok słoików, nie na nie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-boiling-water-canners/",
+    "miejsce": "NCHFP, Using Boiling Water Canners, procedura, krok o dolewaniu wody",
+    "cytat": "Add more boiling water, if needed, so the water level is at least one inch above the jar tops. Pour the water around the jars and not directly onto them.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "54ebd9d95d36"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-boiling-water-canners/",
+    "miejsce": "NCHFP, Using Boiling Water Canners, procedura, to samo miejsce",
+    "cytat": "For process times over 30 minutes, the water level should be 2 inches above the jars.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "54ebd9d95d36"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p35 (tor A), P3 z p33/p34 §5",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP (boiling-water canning): during processing the water level must be at least 1 inch (about 2.5 cm) above the jar tops, and for process times over 30 minutes 2 inches (about 5 cm) above the jars; if needed, add more boiling water, pouring it around the jars, not onto them."
+ },
+ {
+  "id": "ACI-954",
+  "twierdzenie": "NCHFP (kąpiel wodna): czas wekowania odmierza się dopiero od chwili, gdy woda wrze.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-boiling-water-canners/",
+    "miejsce": "NCHFP, Using Boiling Water Canners, procedura, krok z minutnikiem",
+    "cytat": "Set a timer (after the water is boiling) for the total minutes required for processing the food.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "54ebd9d95d36"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p35 (tor A), P3 z p33/p34 §5",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP (boiling-water canning): start timing the processing only once the water is boiling."
+ },
+ {
+  "id": "ACI-955",
+  "twierdzenie": "NCHFP (kąpiel wodna): po upływie czasu wekowania wyłączyć ogień, zdjąć pokrywę garnka i odczekać 5 minut przed wyjęciem słoików; według NCHFP to oczekiwanie nie jest wymagane dla bezpieczeństwa przy czasach USDA lub University of Georgia.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-boiling-water-canners/",
+    "miejsce": "NCHFP, Using Boiling Water Canners, procedura, po wekowaniu",
+    "cytat": "When the jars have been processed in boiling water for the recommended time, turn off the heat and remove the canner lid.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "54ebd9d95d36"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-boiling-water-canners/",
+    "miejsce": "NCHFP, Using Boiling Water Canners, procedura, to samo miejsce",
+    "cytat": "Wait 5 minutes before removing jars to allow the canner contents to settle. This waiting period is not required for safety of the food when using USDA or University of Georgia processing times, however.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "54ebd9d95d36"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p35 (tor A), P3 z p33/p34 §5",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP (boiling-water canning): when the processing time is up, turn off the heat, remove the canner lid and wait 5 minutes before removing the jars; NCHFP says this wait is not required for food safety when USDA or University of Georgia times are used."
+ },
+ {
   "id": "FER-001",
   "twierdzenie": "USA (21 CFR 114.3): żywność kwaśna to żywność o naturalnym pH 4,6 lub niższym.",
   "zrodla": [
@@ -11717,6 +11807,15 @@
     "szczebel": 3,
     "weryfikacja": "curl+grep",
     "sha12": "e54a4863f5da"
+   },
+   {
+    "adres": "https://extension.missouri.edu/publications/hes173",
+    "miejsce": "ta sama publikacja (HES173, XI/XII 2026) jako strona HTML: Candied fruit for the holidays, Storage Tips",
+    "cytat": "Because candied fruit retains a bit of moisture, store it in an airtight container in the refrigerator to prevent mold, and use it within a week. Try using a food dehydrator after candying to dry the fruit out completely, and then store in a cool, dark place.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200; PDF nadal HTTP 406)",
+    "sha12": "78d39ac2051c"
    }
   ],
   "status": "potwierdzone",
@@ -11730,7 +11829,7 @@
   "wazne_do": "2027-11-01",
   "klaster": "SLO",
   "weryfikacjaZastepcza": "2026-11-02",
-  "uwaga": "p28 (znalezisko C11): HES173 Missouri Extension podaje „Candied fruit process adapted from AllRecipes” (C11, E1-suszenie-zrodla-p1 §6–7); PDF 2026-11-02 HTTP 406, cytat dziś niesprawdzony. Szczebel 3 zostaje (wydawca: extension), ale przepis pochodzi z serwisu kulinarnego: SLO-069 nie może nadać statusu ok-zrodlo; tylko kontekst w kartach-ostrzeżeniach i wariantach do-researchu (dziś 17 wariantów, żaden ok-zrodlo). Do ponownego odczytu (P28-P3)."
+  "uwaga": "p28 (znalezisko C11): HES173 Missouri Extension podaje „Candied fruit process adapted from AllRecipes” (C11, E1-suszenie-zrodla-p1 §6–7); PDF 2026-11-02 HTTP 406, cytat dziś niesprawdzony. Szczebel 3 zostaje (wydawca: extension), ale przepis pochodzi z serwisu kulinarnego: SLO-069 nie może nadać statusu ok-zrodlo; tylko kontekst w kartach-ostrzeżeniach i wariantach do-researchu (dziś 17 wariantów, żaden ok-zrodlo). Do ponownego odczytu (P28-P3). p35: PDF 2026-11-02 nadal HTTP 406; cytat sprawdzony dosłownie na wersji HTML tej samej publikacji (extension.missouri.edu/publications/hes173, HTTP 200), drugie wpisy zrodla to ten sam dokument, nie drugie źródło (jednoZrodlo bez zmian)."
  },
  {
   "id": "SLO-070",
@@ -43968,6 +44067,30 @@
   "klaster": "FRZ"
  },
  {
+  "id": "FRZ-087",
+  "twierdzenie": "NCHFP Freezing Pointers: żywność zamrażać od razu, gdy tylko zostanie zapakowana i zamknięta.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/freezing-pointers/",
+    "miejsce": "NCHFP, Freezing Pointers",
+    "cytat": "Freeze foods as soon as they are packed and sealed.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "3a8d61a82935"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FRZ",
+  "pochodzenie": "06 p35 (tor A), D3-2-01 (D1 p3)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Freezing Pointers: freeze food as soon as it is packed and sealed."
+ },
+ {
   "id": "OLE-051",
   "twierdzenie": "Czosnek w oleju do zamrożenia pakuje się w szklane słoiki do mrożenia albo plastikowe pojemniki do zamrażarki z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, opisuje, datuje i zamraża.",
   "zrodla": [
@@ -57015,6 +57138,48 @@
   "uproszczenie": null,
   "twierdzenie_en": "According to ATS Milano, in some genera of mushrooms the stems must be discarded, for example in honey fungus (Armillaria mellea).",
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-366",
+  "twierdzenie": "FDA (Bad Bug Book): surowa albo niedogotowana fasola, szczególnie czerwona fasola kidney, może wywołać silne nudności, gwałtowne wymioty i biegunkę; właściwe gotowanie niszczy toksynę (fitohemaglutyninę), a wolnowary nie nagrzewają się dostatecznie, by ją zniszczyć; według przytaczanych przez FDA badań brytyjskich fasolę należy namoczyć w wodzie co najmniej 5 godzin, wodę wylać i gotować w świeżej wodzie co najmniej 30 minut.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA, Bad Bug Book, wyd. 2 (2012), Phytohaemagglutinin (kidney bean lectin), ramka „For Consumers: A Snapshot”",
+    "cytat": "If you eat them raw or under‐cooked, they can cause you to have extreme nausea, severe vomiting, and diarrhea.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep (HTTP 200)",
+    "sha12": "b76d65edc9cc"
+   },
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA, Bad Bug Book, wyd. 2 (2012), Phytohaemagglutinin (kidney bean lectin), ramka „For Consumers: A Snapshot”",
+    "cytat": "Cooking the beans properly destroys the toxin.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep (HTTP 200)",
+    "sha12": "b76d65edc9cc"
+   },
+   {
+    "adres": "https://www.fda.gov/media/83271/download",
+    "miejsce": "FDA, Bad Bug Book, wyd. 2 (2012), Phytohaemagglutinin (kidney bean lectin), ramka „For Consumers: A Snapshot”",
+    "cytat": "Slow cookers don’t get hot enough to destroy the toxin in kidney beans. Studies done by British scientists suggest that beans should be soaked in water for at least 5 hours, the water poured away, and the beans boiled in fresh water for at least 30 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep (HTTP 200)",
+    "sha12": "b76d65edc9cc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "06 p35 (tor A), D4-5-01 (D1 p4)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "FDA (Bad Bug Book): raw or undercooked beans, particularly red kidney beans, can cause extreme nausea, severe vomiting and diarrhoea; cooking them properly destroys the toxin (phytohaemagglutinin), and slow cookers do not get hot enough to destroy it; according to British studies cited by the FDA, beans should be soaked in water for at least 5 hours, the water poured away, and the beans boiled in fresh water for at least 30 minutes."
  },
  {
   "id": "ACI-880",

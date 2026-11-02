@@ -62,6 +62,8 @@ Opisz każde opakowanie: nazwa produktu, dodatki, data pakowania, ilość i post
 
 ## Mrożenie i przechowywanie
 
+Zamrażaj opakowania od razu po zapakowaniu i zamknięciu. [T:FRZ-087]
+
 Zamrażaj w temperaturze 0 °F (−18 °C) lub niższej. [T:SUS-050]
 
 Żeby mrożenie szło szybciej, ustaw zamrażarkę na −10 °F (ok. −23 °C) lub niżej mniej więcej 24 godziny wcześniej. [T:SUS-051]

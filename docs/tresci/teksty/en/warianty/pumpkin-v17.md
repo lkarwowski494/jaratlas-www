@@ -36,6 +36,8 @@ Label each package with the name of the product, any added ingredients, the pack
 
 ## Freezing and storing
 
+Freeze the packages as soon as they are packed and sealed. [T:FRZ-087]
+
 Freeze the food at 0 °F (−18 °C) or lower. [T:SUS-050]
 
 For faster freezing, set the freezer to −10 °F (about −23 °C) or lower about 24 hours in advance. [T:SUS-051]

@@ -41,6 +41,10 @@ Just before filling, remove and drain the hot sterilized jars one at a time. [T:
 
 Fill the hot jam into the sterile jars, leaving 1/4 inch (about 0.6 cm) of headspace, seal them with self-sealing two-piece lids and process them in a boiling-water canner. [T:SLO-003]
 
+Keep the water at least 1 inch (about 2.5 cm) above the jar tops during processing, and 2 inches (about 5 cm) above the jars if the processing time is over 30 minutes; if needed, add boiling water around the jars, not onto them. [T:ACI-953]
+
+Start timing only once the water is boiling. [T:ACI-954]
+
 Do not seal the jars with paraffin or wax: NCHFP no longer recommends paraffin or wax seals for any sweet spread, because of possible mold contamination. [T:SLO-002]
 
 Up to 1000 ft (up to 300 m) process half-pint and pint jars for 5 minutes. [T:ACI-609,ACI-176]
@@ -52,6 +56,8 @@ Above 1000 ft (above 300 m) process them for 10 minutes, and above 6000 ft (abov
 The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m and 6000 ft becomes 1800 m. [T:ACI-176]
 
 Shortening the time or cooling jars in cold water can also lead to spoilage. [T:ACI-015]
+
+When the time is up, turn off the heat, remove the canner lid and wait 5 minutes before taking the jars out; NCHFP says this wait is not needed for food safety when USDA or University of Georgia times are used. [T:ACI-955]
 
 The NCHFP table gives times only for half-pint and pint jars. [T:ACI-609]
 

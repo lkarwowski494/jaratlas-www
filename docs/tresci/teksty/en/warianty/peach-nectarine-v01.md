@@ -57,6 +57,10 @@ Fill hot jars with the peaches, leaving 1/2 inch (about 1.3 cm) of headspace, an
 
 Close the jars with two-piece canning lids and process them in a boiling-water bath. [T:SLO-223,ACI-643]
 
+Keep the water at least 1 inch (about 2.5 cm) above the jar tops during processing, and 2 inches (about 5 cm) above the jars if the processing time is over 30 minutes; if needed, add boiling water around the jars, not onto them. [T:ACI-953]
+
+Start timing only once the water is boiling. [T:ACI-954]
+
 Up to 1000 ft (up to 300 m) process pint jars for 20 minutes. [T:ACI-643,ACI-176]
 
 Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
@@ -74,6 +78,8 @@ The card converts feet to metres and rounds the limits down, towards the longer 
 10000 ft (3048 m) becomes 3000 m, so the range without a time is wider than in the source. [T:ACI-930]
 
 Shortening the time or cooling jars in cold water can also lead to spoilage. [T:ACI-015]
+
+When the time is up, turn off the heat, remove the canner lid and wait 5 minutes before taking the jars out; NCHFP says this wait is not needed for food safety when USDA or University of Georgia times are used. [T:ACI-955]
 
 CSU gives times only for pint jars, not for quart jars. [T:ACI-643]
 
