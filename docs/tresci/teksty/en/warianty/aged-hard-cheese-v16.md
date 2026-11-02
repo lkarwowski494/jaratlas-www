@@ -1,0 +1,69 @@
+# Frozen hard cheese (NCHFP)
+
+This card describes freezing hard and semi-hard cheese according to the NCHFP, at 0 °F (−18 °C) or lower. [T:SLO-441,SUS-050]
+
+## Choosing and preparing
+
+Cheese keeps best in the refrigerator; if necessary, hard or semi-hard cheese can be frozen. [T:SLO-441]
+
+Cottage cheese, ricotta and cream cheese do not freeze well; cream cheese combined with heavy cream can be frozen for later use in dips or icing. [T:SLO-442]
+
+According to Clemson University (HGIC), do not freeze yogurt, sour cream, buttermilk or sweet cream, because their texture changes (in cream the fat separates). [T:SLO-442]
+
+## Packaging
+
+Freeze cheese in pieces packaged in moisture-vapor resistant material. [T:SLO-441]
+
+Use packaging that is moisture- and vapor-resistant, durable and leakproof, and does not become brittle or crack in the cold. [T:SLO-251]
+
+Pack tightly, leaving as little air as possible, and press as much air as possible out of freezer bags before sealing. [T:SLO-250,SLO-251]
+
+Label each package with the name of the product, any added ingredients, the packaging date, the number of servings or amount, and the form, such as pieces. [T:SLO-250]
+
+## Freezing and storage
+
+Freeze at 0 °F (−18 °C) or lower. [T:SUS-050]
+
+To speed up freezing, set the freezer to −10 °F (about −23 °C) or lower about 24 hours in advance. [T:SUS-051]
+
+Add to the freezer at one time only as much food as will freeze within 24 hours, because overloading slows freezing and lowers quality. [T:SLO-402]
+
+Spread new, warm packages with space between them, and stack them close together only once they are frozen. [T:SLO-402]
+
+According to Clemson University (HGIC), freeze as quickly as possible, because slow freezing forms large ice crystals that damage cells on thawing. [T:SLO-403]
+
+According to the same source, a refrigerator freezing compartment that cannot hold 0 °F (−18 °C) or is opened often is for short-term storage only. [T:SLO-403]
+
+Keep the freezer at 0 °F (−18 °C) or lower, because at higher temperatures food loses quality faster; keep a freezer thermometer in it and check it often. [T:SLO-255]
+
+Freezing does not kill all bacteria, yeasts and molds; it only stops them multiplying while the food is held at 0 °F (−18 °C) or lower, and after thawing they can multiply again. [T:SLO-401]
+
+Food kept constantly at 0 °F (−18 °C) stays safe indefinitely, and the recommended storage times are for quality only: after them the food is still safe but lower in flavor, color and texture. [T:SLO-400]
+
+Freezer burn, grayish-brown leathery spots, is surface drying of poorly wrapped food caused by air; it does not make food unsafe, it only lowers quality, and the burned spots can be cut away. [T:SLO-404]
+
+For best quality, keep to the shorter time and use the oldest packages first. [T:SLO-261]
+
+After freezing, cheese may become crumbly and mealy, but it keeps its flavor. [T:SLO-441]
+
+The recommended freezer shelf life of cheese is 6 months. [T:SLO-441]
+
+## Thawing and use
+
+According to the NCHFP, thaw butter, eggs, milk and cheese in the refrigerator and then use them as fresh. [T:SLO-443]
+
+Thaw dishes and products containing eggs or dairy in the refrigerator or in the microwave. [T:SLO-408]
+
+## When to throw it away
+
+Do not keep perishable food out of the refrigerator for more than 2 hours, or for more than 1 hour when the temperature is above 90 °F (about 32 °C). [T:SLO-408]
+
+Food is safe while it stays frozen, but once it thaws and warms above 40 °F (about 4 °C), bacteria present before freezing can start to multiply. [T:SUS-059]
+
+During a power outage keep the freezer closed: according to the FDA, a full freezer holds its temperature for about 48 hours, a half-full one for 24 hours. [T:SLO-259]
+
+According to the NCHFP, food stays frozen longer if the freezer is full, unopened, in a cool place and well insulated; it can be covered with blankets, away from the compressor. [T:SLO-410]
+
+JarAtlas rule (cautious) after a freezer failure: throw away any package that has no ice crystals and is above 40 °F (about 4 °C), or that you cannot check. [T:SLO-260]
+
+The FDA also says to throw away perishable food that has been at room temperature for 2 hours or more, or 1 hour when it is above 90 °F (about 32 °C) outside. [T:SLO-260]

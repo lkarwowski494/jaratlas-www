@@ -55,6 +55,8 @@ Według Oregon State University Extension kostki pesto nadają się do przyprawi
 
 Żywność jest bezpieczna, dopóki pozostaje zamrożona, ale gdy się rozmrozi i ogrzeje powyżej 40 °F (ok. 4 °C), bakterie obecne przed zamrożeniem mogą zacząć się namnażać. [T:SUS-059]
 
+Przy braku prądu nie otwieraj zamrażarki: według FDA pełna zamrażarka utrzymuje temperaturę ok. 48 godzin, a w połowie pełna 24 godziny. [T:SLO-259]
+
 Wygląd, zapach ani smak nie pozwalają wykryć zagrożenia jadem kiełbasianym w warzywach w oleju. [T:OLE-027]
 
 Reguła JarAtlas (ostrożna) po awarii zamrażarki: wyrzuć opakowanie, które nie ma kryształków lodu i ma powyżej 40 °F (ok. 4 °C), albo którego nie da się sprawdzić. [T:SLO-260]

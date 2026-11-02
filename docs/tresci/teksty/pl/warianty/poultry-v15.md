@@ -40,7 +40,7 @@ Nowe, ciepłe opakowania rozłóż z odstępami, a ciasno układaj je dopiero po
 
 Według Clemson University (HGIC) mroź jak najszybciej, bo przy powolnym mrożeniu powstają duże kryształki lodu, które uszkadzają komórki, a mięso po rozmrożeniu traci sok. [T:SLO-403]
 
-Według tego samego źródła zamrażalnik w lodówce, który nie utrzymuje 0 °F (−18 °C), nadaje się tylko do krótkiego przechowywania. [T:SLO-403]
+Według tego samego źródła zamrażalnik w lodówce, który nie utrzymuje 0 °F (−18 °C) albo jest często otwierany, nadaje się tylko do krótkiego przechowywania. [T:SLO-403]
 
 Trzymaj w zamrażarce 0 °F (−18 °C) lub mniej, bo w wyższej temperaturze żywność szybciej traci jakość; trzymaj w niej termometr i często go sprawdzaj. [T:SLO-255]
 

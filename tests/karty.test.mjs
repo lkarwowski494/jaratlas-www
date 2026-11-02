@@ -103,3 +103,49 @@ test('T1b: karta kąpieli wodnej produktu o niskiej albo granicznej kwasowości 
     .map(({ lang, id }) => `${lang}/${id}`);
   assert.deepEqual(braki, []);
 });
+
+// p24 (07-jakosc-B8-01), test T1-mróz z docs/tresci/B8-audyt-2026-11-02.md §5: każda karta mrożenia ma blok bezpieczeństwa
+// (opakowanie, opis, szybkie mrożenie, temperatura, czas jakości, rozmrażanie, awaria zamrażarki, „kiedy wyrzucić”).
+// Dlaczego: strawberry-v17 (p2) kończyła się na „zamroź”, bez rozmrażania i awarii; przegląd ręczny tego nie złapał.
+// Zamienniki: karta może mieć zamiast ID wzoru twierdzenie źródłowe dla swojego produktu (null = świadomy brak); każdy z powodem.
+const BLOK_MROZENIA = ['SLO-250', 'SLO-251', 'SLO-255', 'SLO-258', 'SLO-259', 'SLO-260', 'SUS-050', 'SUS-051', 'SUS-052', 'SUS-059', 'SUS-058', 'SLO-261'];
+const ZWIERZ = { 'SUS-052': 'SLO-402' }; // C5: SLO-402 to to samo zalecenie NCHFP rozszerzone o układanie paczek (p24)
+const MIESO = { ...ZWIERZ, 'SLO-258': 'SLO-405' }; // C5: rozmrażanie mięsa, ryb i drobiu (NCHFP, FDA, Clemson)
+const NABIAL = { ...ZWIERZ, 'SLO-258': 'SLO-443' }; // C5: rozmrażanie masła, jaj, sera w lodówce (NCHFP)
+export const ZAMIENNIKI_MROZENIA = {
+  'onion-v15': { 'SUS-058': 'SLO-285', 'SLO-261': 'SLO-285' }, // B8: własny czas ze źródła („within a few months”)
+  'beef-veal-v15': { ...MIESO, 'SUS-058': 'SLO-417' }, // czasy jakości dla mięsa (FDA), nie dla owoców i warzyw
+  'pork-loin-ham-v16': { ...MIESO, 'SUS-058': 'SLO-417' },
+  'game-lamb-v11': { ...MIESO, 'SUS-058': 'SLO-417' },
+  'poultry-v15': { ...MIESO, 'SUS-058': 'SLO-422' },
+  'pork-belly-jowl-v15': { ...MIESO, 'SUS-058': 'SLO-423' },
+  'sea-fish-v17': { ...MIESO, 'SUS-058': 'SLO-430' },
+  'freshwater-fish-v12': { ...MIESO, 'SUS-058': 'SLO-430' },
+  'eggs-v11': { ...NABIAL, 'SUS-058': 'SLO-436' },
+  'butter-whey-cheese-v13': { ...NABIAL, 'SUS-058': 'SLO-440' },
+  'aged-hard-cheese-v16': { ...NABIAL, 'SUS-058': 'SLO-441' },
+  'garlic-v17': { 'SLO-250': 'OLE-051', 'SUS-058': 'OLE-003' }, // opis i data z NCHFP czosnku w oleju; czas „do kilku miesięcy”
+  'garden-herbs-v16': { 'SUS-058': null }, // NCHFP nie podaje czasu dla pesto; czasu owoców i warzyw nie przenosimy (p24)
+  'lemon-v17': { 'SLO-250': 'SLO-307', 'SLO-251': 'SLO-304', 'SLO-258': 'SLO-308', 'SUS-058': 'SLO-308' }, // przepis NCHFP: pojemniki, rozmrażanie 24 h w lodówce, 1 rok
+};
+export function brakiBlokuMrozenia(lista = wszystkie, zamienniki = ZAMIENNIKI_MROZENIA) {
+  const braki = [];
+  for (const { lang, id, karta } of lista) {
+    if (V.get(id)?.preservationMethod !== 'freezer') continue;
+    const ids = new Set([...JSON.stringify(karta).matchAll(/\[T:([^\]]*)\]/g)].flatMap((m) => m[1].split(',').map((s) => s.trim())));
+    const z = zamienniki[id] ?? {};
+    const brak = BLOK_MROZENIA.filter((w) => !ids.has(w) && !(w in z && (z[w] === null || ids.has(z[w]))));
+    if (brak.length) braki.push(`${lang}/${id}: ${brak.join(',')}`);
+  }
+  return braki;
+}
+
+test('T1-mróz: karta mrożenia ma blok bezpieczeństwa (opakowanie, mrożenie, czas, rozmrażanie, awaria, kiedy wyrzucić)', () => {
+  assert.deepEqual(brakiBlokuMrozenia(), []);
+});
+
+test('T1-mróz: zamiennik musi być w karcie; usunięcie zdania z blokiem wzoru jest wykrywane', () => {
+  const k = wszystkie.find((x) => x.lang === 'pl' && x.id === 'beef-veal-v15');
+  const bez = { ...k, karta: { ...k.karta, sekcje: k.karta.sekcje.map((s) => ({ ...s, akapity: s.akapity.filter((a) => !/SLO-405|SLO-259/.test(a)) })) } };
+  assert.deepEqual(brakiBlokuMrozenia([bez]), ['pl/beef-veal-v15: SLO-258,SLO-259']);
+});

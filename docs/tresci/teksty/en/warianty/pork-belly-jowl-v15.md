@@ -30,7 +30,7 @@ Spread new, warm packages with space between them, and stack them close together
 
 According to Clemson University (HGIC), freeze as quickly as possible, because slow freezing forms large ice crystals that damage cells, and the meat loses juiciness when thawed. [T:SLO-403]
 
-According to the same source, a refrigerator freezing compartment that cannot hold 0 °F (−18 °C) is for short-term storage only. [T:SLO-403]
+According to the same source, a refrigerator freezing compartment that cannot hold 0 °F (−18 °C) or is opened often is for short-term storage only. [T:SLO-403]
 
 Keep the freezer at 0 °F (−18 °C) or lower, because at higher temperatures food loses quality faster; keep a freezer thermometer in it and check it often. [T:SLO-255]
 

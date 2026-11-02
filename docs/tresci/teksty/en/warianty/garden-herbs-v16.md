@@ -55,6 +55,8 @@ According to Oregon State University Extension, pesto cubes can be used to seaso
 
 Food is safe while it stays frozen, but once it thaws and warms above 40 °F (about 4 °C), bacteria present before freezing can start to multiply. [T:SUS-059]
 
+During a power outage keep the freezer closed: according to the FDA, a full freezer holds its temperature for about 48 hours, a half-full one for 24 hours. [T:SLO-259]
+
 Appearance, smell and taste cannot tell you whether vegetables in oil carry a botulism hazard. [T:OLE-027]
 
 JarAtlas rule (cautious) after a freezer failure: throw away any package that has no ice crystals and is above 40 °F (about 4 °C), or that you cannot check. [T:SLO-260]
