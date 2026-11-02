@@ -1,0 +1,103 @@
+# Wekowany lemon curd (NCHFP)
+
+Ta karta opisuje przetestowany przepis NCHFP na wekowany lemon curd: krem z jajek, masła, cukru i butelkowanego soku z cytryny, gotowany do określonej temperatury i wekowany w słoikach 1/2 pinty w kąpieli wodnej. [T:SLO-038,SLO-236]
+
+## Składniki
+
+NCHFP podaje 2 1/2 szklanki drobnego cukru, 1/2 szklanki świeżo startej skórki cytryny (opcjonalnie), 1 szklankę butelkowanego soku z cytryny, 3/4 szklanki zimnego niesolonego masła pokrojonego w kawałki ok. 3/4 cala (ok. 1,9 cm), 7 dużych żółtek i 4 duże całe jajka; wychodzi ok. 3–4 słoików 1/2 pinty. [T:SLO-236]
+
+Użyj butelkowanego soku z cytryny: NCHFP używa go, żeby ujednolicić kwasowość, i nie zaleca świeżego soku, bo jego kwasowość bywa różna. [T:SLO-039]
+
+Jeśli nie masz drobnego cukru, zmiel zwykły cukier w młynku albo malakserze przez 1 minutę, odstaw, żeby opadł, i użyj go zamiast drobnego; nie używaj cukru pudru. [T:SLO-236]
+
+NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
+
+Lemon curd i jego wariant z limonką to jedyne kremy typu curd, które NCHFP przetestowało do wekowania: innych kremów cytrusowych i owocowych nie zaleca się wekować. [T:SLO-043]
+
+## Sprzęt
+
+NCHFP potrzebuje tarki do skórki, trzepaczki balonowej, garnka do gotowania na parze (podwójnego) o pojemności co najmniej 1 1/2 kwarty (ok. 1,4 l), sitka, termometru kuchennego mierzącego co najmniej do 180 °F (ok. 82 °C), miski szklanej albo ze stali nierdzewnej, silikonowej szpatułki albo warząchwi i sprzętu do wekowania w kąpieli wodnej. [T:SLO-236]
+
+## Przygotowanie słoików i garnka
+
+Umyj 4 słoiki 1/2 pinty w ciepłej wodzie z płynem, dobrze wypłucz i trzymaj gorące do napełnienia; pokrywki przygotuj według producenta. [T:SLO-237]
+
+Napełnij garnek do wekowania taką ilością wody, żeby przykryła napełnione słoiki o 1–2 cale (ok. 2,5–5 cm). [T:SLO-237]
+
+Z termometrem podgrzej tę wodę do 180 °F (ok. 82 °C) na czas, gdy napełnione słoiki będą gotowe. [T:SLO-237]
+
+Nie podgrzewaj wody w garnku powyżej 180 °F (ok. 82 °C) przed włożeniem słoików: jeśli będzie za gorąca, czas wekowania będzie za krótki. [T:SLO-040]
+
+## Gotowanie kremu
+
+Wymieszaj cukier ze skórką w małej misce i odstaw na ok. 30 minut; odmierz sok i przygotuj zimne masło. [T:SLO-238]
+
+Wodę w dolnym garnku podgrzej do łagodnego wrzenia; nie może wrzeć burzliwie ani dotykać dna górnego naczynia. [T:SLO-238]
+
+W górnym naczyniu, poza kuchenką, ubij żółtka z całymi jajkami, powoli wmieszaj cukier ze skórką, potem sok i dodaj kawałki masła. [T:SLO-238]
+
+Postaw górne naczynie nad wrzącą wodą i mieszaj delikatnie, ale bez przerwy, aż masa osiągnie 170 °F (ok. 77 °C); sprawdzaj termometrem. [T:SLO-238]
+
+Zdejmij z ognia i mieszaj delikatnie dalej, aż krem zgęstnieje, ok. 5 minut. [T:SLO-238]
+
+Przecedź krem przez sitko do miski szklanej albo ze stali nierdzewnej, a skórkę z sitka wyrzuć. [T:SLO-238]
+
+## Wekowanie
+
+Gorący przecedzony krem nałóż do czystych, gorących słoików 1/2 pinty, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:SLO-239]
+
+Usuń pęcherzyki powietrza, w razie potrzeby popraw wolną przestrzeń, przetrzyj brzegi zwilżonym czystym ręcznikiem papierowym i załóż dwuczęściowe metalowe pokrywki. [T:SLO-239]
+
+Po włożeniu słoików woda dochodzi do wrzenia zwykle 25–30 minut; czas wekowania licz dopiero od pełnego wrzenia wody nad słoikami. [T:SLO-237]
+
+Na wysokości 0–1000 stóp (do 300 m) wekuj słoiki 1/2 pinty 15 minut. [T:SLO-038,SLO-239,ACI-176]
+
+Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
+
+Na wysokości 1001–6000 stóp (powyżej 300 m do 1800 m) wekuj je 20 minut. [T:SLO-038,SLO-239,ACI-176]
+
+Powyżej 6000 stóp (powyżej 1800 m) wekuj je 25 minut. [T:SLO-038,SLO-239,ACI-176]
+
+Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, a 6000 stóp to 1800 m. [T:ACI-176]
+
+Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsuciem. [T:ACI-015]
+
+Tabela NCHFP podaje czas tylko dla słoików 1/2 pinty. [T:SLO-038,SLO-241]
+
+Reguła JarAtlas (ostrożna, NCHFP nie bada słoików metrycznych): słoik 1/2 pinty mieści ok. 237 ml, więc słoik 0,25 l albo 0,3 l nie ma przetestowanego czasu; użyj słoików do 237 ml, np. 0,2 l. [T:SLO-241]
+
+## Studzenie i przechowywanie
+
+Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek ani metalowych pierścieni; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
+
+Słoiki studź w temperaturze pokojowej 12–24 godziny, potem odkręć i zdejmij tylko metalowe pierścienie dwuczęściowych pokrywek, a płaskie pokrywki zostaw na słoikach, i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
+
+Ten test i cała metoda zakładają słoiki do wekowania typu Mason z dwuczęściowymi pokrywkami; NCHFP nie zaleca do domowego wekowania żadnej żywności słoików, których otworu nie da się zamknąć dwuczęściowymi pokrywkami. [T:SLO-223]
+
+Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
+
+Słoik, który przy tym sprawdzeniu okazał się niezamknięty, trzymaj w lodówce i zjedz w ciągu kilku dni. [T:SLO-197]
+
+Dla najlepszej jakości przechowuj słoiki w chłodnym, ciemnym miejscu, z dala od światła. [T:SLO-239]
+
+Zamknięte słoiki przechowuj w czystym, chłodnym, ciemnym i suchym miejscu, nie powyżej 95 °F (35 °C) i nie przy gorących rurach, kuchence czy piecu, na nieocieplonym strychu ani w pełnym słońcu; w takich warunkach przetwór może się zepsuć. [T:SLO-198]
+
+Wekowany lemon curd zużyj w ciągu 3–4 miesięcy. [T:SLO-041]
+
+Zamiast wekować, krem możesz zamrozić: po przecedzeniu wystudź go do temperatury pokojowej i przełóż do pojemników do zamrażarki; zachowa jakość do 1 roku. [T:SLO-240,SLO-042]
+
+Rozmrażaj go w lodówce w 40 °F (ok. 4 °C) lub niżej przez 24 godziny przed użyciem i zjedz w ciągu 4 tygodni od rozmrożenia. [T:SLO-240,SLO-042]
+
+## Kiedy wyrzucić
+
+Przy dłuższym przechowywaniu krem może brązowieć albo się rozwarstwiać; wyrzuć go, gdy tylko zauważysz takie zmiany. [T:SLO-041]
+
+Zanim użyjesz słoika z zapasów, sprawdź, czy pokrywka jest szczelna i trzyma podciśnienie: dobrze zamknięta ma wklęsły środek. [T:SLO-191]
+
+Sprawdź, czy od góry słoika nie biegną zaschnięte zacieki, czy w środku nie unoszą się pęcherzyki powietrza i czy kolor nie jest nienaturalny. [T:SLO-191]
+
+Przy otwieraniu sprawdź, czy nie ma nienaturalnego zapachu, tryskającego płynu i pleśni przypominającej watę na jedzeniu albo pod pokrywką. [T:SLO-191]
+
+Nie próbuj jedzenia ze słoika z niezamkniętą pokrywką ani z oznakami zepsucia. [T:SLO-190]
+
+Reguła JarAtlas (ostrożna): taki słoik wyrzuć. [T:SLO-190]

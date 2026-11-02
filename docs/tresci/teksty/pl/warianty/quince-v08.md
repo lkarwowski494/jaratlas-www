@@ -1,0 +1,109 @@
+# Galaretka z pigwy bez dodanej pektyny (NCHFP)
+
+Ta karta opisuje przepis NCHFP na galaretkę z soku z pigwy, soku z cytryny i cukru, bez dodanej pektyny, wekowaną w kąpieli wodnej. [T:SLO-083,SLO-228]
+
+## Składniki
+
+NCHFP podaje 3 3/4 szklanki soku z pigwy (ok. 3 1/2 funta, ok. 1,6 kg, pigwy i 7 szklanek wody), 1/4 szklanki soku z cytryny i 3 szklanki cukru; wychodzi ok. 4 słoików 1/2 pinty. [T:SLO-228]
+
+Ta karta trzyma się przepisu NCHFP z pigwy; nie obejmuje pigwowca ani innych owoców. [T:SLO-228]
+
+NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
+
+NCHFP ostrzega, żeby w tradycyjnych przepisach nie zmniejszać cukru: za mało cukru uniemożliwia żelowanie i może pozwolić na rozwój drożdży i pleśni. [T:SLO-001]
+
+## Przygotowanie
+
+Wysterylizuj słoiki, a dwuczęściowe pokrywki przygotuj według producenta. [T:SLO-228]
+
+NCHFP stawia puste słoiki otworem do góry na kratce w garnku do wekowania i napełnia garnek oraz słoiki gorącą (nie wrzącą) wodą do 1 cala (ok. 2,5 cm) ponad górną krawędź słoików. [T:SLO-120]
+
+Puste słoiki NCHFP sterylizuje, gotując je 10 minut poniżej 1000 stóp, a wyżej o 1 minutę dłużej na każde kolejne tysiąc stóp. [T:SLO-118]
+
+Reguła JarAtlas dla metrów: gotuj słoiki 10 minut do 300 m, a wyżej dodaj 1 minutę za każde kolejne rozpoczęte 300 m. [T:SLO-119]
+
+## Przygotowanie soku
+
+Wybierz ok. jedną czwartą pigw lekko niedojrzałych i trzy czwarte w pełni dojrzałych. [T:SLO-228]
+
+Owoce przebierz i umyj, usuń szypułki i resztki kwiatów; nie obieraj ich i nie wycinaj gniazd. [T:SLO-228]
+
+Pigwy pokrój w bardzo cienkie plastry albo małe kawałki, dodaj wodę, przykryj i zagotuj na dużym ogniu. [T:SLO-228]
+
+Zmniejsz ogień, gotuj na wolnym ogniu 25 minut i wydobądź sok. [T:SLO-228]
+
+NCHFP wydobywa sok w wilgotnym worku do galaretek, zawieszonym, żeby sok ściekał; najklarowniejsza galaretka powstaje z soku, który ściekł bez wyciskania. [T:SLO-230]
+
+Jeśli używasz prasy do owoców, przecedź sok jeszcze raz przez worek do galaretek. [T:SLO-230]
+
+## Gotowanie galaretki
+
+Odmierzony sok z pigwy przelej do garnka, dodaj sok z cytryny i cukier i dobrze wymieszaj. [T:SLO-229]
+
+Gotuj na dużym ogniu, aż temperatura będzie o 8 °F (ok. 4,4 °C) wyższa od temperatury wrzenia wody albo do chwili, gdy w teście na łyżce masa spływa płatem. [T:SLO-229]
+
+NCHFP uważa test temperatury za najpewniejszy: na poziomie morza galaretka jest gotowa w 220 °F (ok. 104 °C), a na każde 1000 stóp (ok. 300 m) wysokości odejmuje się 2 °F (ok. 1,1 °C). [T:SLO-231]
+
+Termometr najpierw sprawdź we wrzącej wodzie, potem trzymaj go w galaretce pionowo i odczytuj na wysokości oczu; bańka musi być całkowicie zanurzona, ale nie może dotykać dna garnka. [T:SLO-231]
+
+Test na łyżce: chłodną metalową łyżką zaczerpnij wrzącej masy i unieś ją z dala od pary; galaretka jest gotowa, gdy dwie krople łączą się i spływają płatem. [T:SLO-231]
+
+Zdejmij z ognia i szybko zbierz pianę. [T:SLO-229]
+
+## Wekowanie
+
+Tuż przed napełnianiem wyjmuj i odsączaj gorące, wysterylizowane słoiki pojedynczo. [T:SLO-120]
+
+Gorącą galaretkę od razu nalej do gorących, wysterylizowanych słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni. [T:SLO-229]
+
+Przetrzyj brzegi słoików zwilżonym czystym ręcznikiem papierowym, załóż dwuczęściowe metalowe pokrywki i wekuj w kąpieli wodnej. [T:SLO-229]
+
+Na wysokości 0–1000 stóp (do 300 m) wekuj słoiki 1/2 pinty i pint 5 minut. [T:SLO-083,SLO-229,ACI-176]
+
+Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
+
+Na wysokości 1001–6000 stóp (powyżej 300 m do 1800 m) wekuj je 10 minut. [T:SLO-083,SLO-229,ACI-176]
+
+Powyżej 6000 stóp (powyżej 1800 m) wekuj je 15 minut. [T:SLO-083,SLO-229,ACI-176]
+
+Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, a 6000 stóp to 1800 m. [T:ACI-176]
+
+Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsuciem. [T:ACI-015]
+
+Tabela NCHFP podaje czasy tylko dla słoików 1/2 pinty i pint. [T:SLO-083,SLO-229]
+
+Reguła JarAtlas (NCHFP nie bada słoików metrycznych): pint mieści ok. 473 ml, więc słoik 0,5 l nie ma w tym przepisie przetestowanego czasu; użyj słoików do 473 ml. [T:ACI-179,ACI-174]
+
+## Studzenie i przechowywanie
+
+Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek ani metalowych pierścieni; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
+
+Słoiki studź w temperaturze pokojowej 12–24 godziny, potem odkręć i zdejmij tylko metalowe pierścienie dwuczęściowych pokrywek, a płaskie pokrywki zostaw na słoikach, i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
+
+Ten test i cała metoda zakładają słoiki do wekowania typu Mason z dwuczęściowymi pokrywkami; NCHFP nie zaleca do domowego wekowania żadnej żywności słoików, których otworu nie da się zamknąć dwuczęściowymi pokrywkami. [T:SLO-223]
+
+Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
+
+Słoik, który przy tym sprawdzeniu okazał się niezamknięty, trzymaj w lodówce i zjedz w ciągu kilku dni. [T:SLO-197]
+
+Zamknięte słoiki przechowuj w czystym, chłodnym, ciemnym i suchym miejscu, nie powyżej 95 °F (35 °C) i nie przy gorących rurach, kuchence czy piecu, na nieocieplonym strychu ani w pełnym słońcu; w takich warunkach przetwór może się zepsuć. [T:SLO-198]
+
+Zalecenie NCHFP dla otwartych domowych dżemów i galaretek, które dotyczy też tej galaretki: otwarty słoik trzymaj w lodówce w 40 °F (ok. 4 °C) lub niżej. [T:SLO-018]
+
+Zwykłe gotowane dżemy i galaretki pełnocukrowe najlepiej trzymać w lodówce przez 1 miesiąc od otwarcia. [T:SLO-018]
+
+## Kiedy wyrzucić
+
+Zanim użyjesz słoika z zapasów, sprawdź, czy pokrywka jest szczelna i trzyma podciśnienie: dobrze zamknięta ma wklęsły środek. [T:SLO-191]
+
+Sprawdź, czy od góry słoika nie biegną zaschnięte zacieki, czy w środku nie unoszą się pęcherzyki powietrza i czy kolor nie jest nienaturalny. [T:SLO-191]
+
+Przy otwieraniu sprawdź, czy nie ma nienaturalnego zapachu, tryskającego płynu i pleśni przypominającej watę na jedzeniu albo pod pokrywką. [T:SLO-191]
+
+Nie próbuj jedzenia ze słoika z niezamkniętą pokrywką ani z oznakami zepsucia. [T:SLO-190]
+
+Reguła JarAtlas (ostrożna): taki słoik wyrzuć. [T:SLO-190]
+
+Jeśli zobaczysz pleśń, wyrzuć cały słoik; USDA i mikrobiolodzy odradzają zbieranie pleśni i jedzenie reszty. [T:SLO-012,SLO-013]
+
+Otwarty słoik regularnie sprawdzaj, czy nie ma oznak zepsucia, takich jak pleśń, drożdże albo obcy zapach, w tym zapach fermentacji, drożdży lub alkoholu; jeśli je zauważysz, wyrzuć cały słoik. [T:SLO-181,SLO-013]

@@ -1,0 +1,99 @@
+# Masło jabłkowe (NCHFP)
+
+Ta karta opisuje przepis NCHFP na masło jabłkowe: jabłka gotowane w cydrze (apple cider) i occie, przetarte, gotowane z białym i brązowym cukrem oraz przyprawami i wekowane w kąpieli wodnej. [T:SLO-087,SLO-224,SLO-225]
+
+## Składniki
+
+NCHFP podaje 8 funtów (ok. 3,6 kg) jabłek, 2 szklanki apple cider (nazwa z przepisu), 2 szklanki octu, 2 1/4 szklanki białego cukru, 2 1/4 szklanki ubitego brązowego cukru, 2 łyżki mielonego cynamonu i 1 łyżkę mielonych goździków; wychodzi ok. 9–10 słoików pint. [T:SLO-224]
+
+Mimo nazwy masło jabłkowe nie zawiera masła: to gęsty, przyprawiony przecier jabłkowy gotowany z cukrem. [T:SLO-224,SLO-225]
+
+NCHFP proponuje odmiany Jonathan, Winesap, Stayman, Golden Delicious, McIntosh albo inne smaczne jabłka. [T:SLO-224]
+
+Używaj świeżych jabłek, bez śladów gnicia i pleśni. [T:SLO-048]
+
+NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
+
+Przepis nie podaje mocy octu; reguła JarAtlas (ostrożna): użyj białego octu destylowanego (spirytusowego) albo jabłkowego z etykietą 5% albo 6% i nie rozcieńczaj octu 10% wodą do 5%. [T:SLO-224,ACI-211]
+
+## Przygotowanie
+
+Słoiki 1/2 pinty i pint wysterylizuj; według NCHFP słoików quart nie trzeba wcześniej sterylizować. [T:SLO-226]
+
+NCHFP stawia puste słoiki otworem do góry na kratce w garnku do wekowania i napełnia garnek oraz słoiki gorącą (nie wrzącą) wodą do 1 cala (ok. 2,5 cm) ponad górną krawędź słoików. [T:SLO-120]
+
+Puste słoiki NCHFP sterylizuje, gotując je 10 minut poniżej 1000 stóp, a wyżej o 1 minutę dłużej na każde kolejne tysiąc stóp. [T:SLO-118]
+
+Reguła JarAtlas dla metrów: gotuj słoiki 10 minut do 300 m, a wyżej dodaj 1 minutę za każde kolejne rozpoczęte 300 m. [T:SLO-119]
+
+## Gotowanie masła jabłkowego
+
+Jabłka umyj, usuń szypułki, pokrój na ćwiartki i wytnij gniazda nasienne. [T:SLO-225]
+
+Gotuj je powoli w cydrze i occie do miękkości. [T:SLO-225]
+
+Przetrzyj owoce przez durszlak, młynek do przecierania albo sito. [T:SLO-225]
+
+Przecier gotuj z cukrem i przyprawami, często mieszając. [T:SLO-225]
+
+Żeby sprawdzić, czy masło jest gotowe, trzymaj próbkę na łyżce 2 minuty z dala od pary: masło jest gotowe, jeśli zostaje na łyżce kopczykiem. [T:SLO-225]
+
+Inny test: nałóż trochę na talerz; gdy wokół brzegu nie oddziela się obwódka płynu, masło jest gotowe do wekowania. [T:SLO-225]
+
+## Wekowanie
+
+Tuż przed napełnianiem wyjmuj i odsączaj gorące, wysterylizowane słoiki pojedynczo. [T:SLO-120]
+
+Gorące masło jabłkowe nałóż do słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni. [T:SLO-226]
+
+Załóż pokrywki i wekuj w kąpieli wodnej. [T:SLO-226]
+
+Na wysokości 0–1000 stóp (do 300 m) wekuj słoiki 1/2 pinty i pint 5 minut, a słoiki quart 10 minut. [T:SLO-226,ACI-176]
+
+Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
+
+Na wysokości 1001–6000 stóp (powyżej 300 m do 1800 m) wekuj słoiki 1/2 pinty i pint 10 minut, a quart 15 minut. [T:SLO-226,ACI-176]
+
+Powyżej 6000 stóp (powyżej 1800 m) wekuj słoiki 1/2 pinty i pint 15 minut, a quart 20 minut. [T:SLO-226,ACI-176]
+
+Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, a 6000 stóp to 1800 m. [T:ACI-176]
+
+Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsuciem. [T:ACI-015]
+
+Czasy NCHFP dotyczą amerykańskich słoików: pint mieści ok. 473 ml, a quart ok. 946 ml. [T:ACI-174]
+
+Reguła JarAtlas (NCHFP nie bada słoików metrycznych): dla słoika do 473 ml stosuj czas dla pint, a dla większego, do 946 ml, np. 0,5 l albo 0,9 l, czas dla quart. [T:ACI-175]
+
+Ten przepis NCHFP nie podaje czasu dla słoików większych niż quart, np. 1 l, więc JarAtlas zaleca mniejsze słoiki. [T:ACI-175]
+
+Reguła JarAtlas (ostrożna): słoik do 473 ml dostaje krótszy czas dla pint, więc wysterylizuj go jak słoik pint. [T:SLO-226,ACI-175]
+
+## Studzenie i przechowywanie
+
+Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek ani metalowych pierścieni; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
+
+Słoiki studź w temperaturze pokojowej 12–24 godziny, potem odkręć i zdejmij tylko metalowe pierścienie dwuczęściowych pokrywek, a płaskie pokrywki zostaw na słoikach, i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
+
+Ten test i cała metoda zakładają słoiki do wekowania typu Mason z dwuczęściowymi pokrywkami; NCHFP nie zaleca do domowego wekowania żadnej żywności słoików, których otworu nie da się zamknąć dwuczęściowymi pokrywkami. [T:SLO-223]
+
+Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
+
+Słoik, który przy tym sprawdzeniu okazał się niezamknięty, trzymaj w lodówce i zjedz w ciągu kilku dni. [T:SLO-197]
+
+Zamknięte słoiki przechowuj w czystym, chłodnym, ciemnym i suchym miejscu, nie powyżej 95 °F (35 °C) i nie przy gorących rurach, kuchence czy piecu, na nieocieplonym strychu ani w pełnym słońcu; w takich warunkach przetwór może się zepsuć. [T:SLO-198]
+
+Reguła JarAtlas (ostrożna): otwarty słoik trzymaj w lodówce; NCHFP mówi tak o swoim maśle jabłkowym o obniżonej zawartości cukru i o otwartych dżemach i galaretkach, ale nie podaje, jak długo można trzymać to masło jabłkowe po otwarciu. [T:SLO-227]
+
+## Kiedy wyrzucić
+
+Zanim użyjesz słoika z zapasów, sprawdź, czy pokrywka jest szczelna i trzyma podciśnienie: dobrze zamknięta ma wklęsły środek. [T:SLO-191]
+
+Sprawdź, czy od góry słoika nie biegną zaschnięte zacieki, czy w środku nie unoszą się pęcherzyki powietrza i czy kolor nie jest nienaturalny. [T:SLO-191]
+
+Przy otwieraniu sprawdź, czy nie ma nienaturalnego zapachu, tryskającego płynu i pleśni przypominającej watę na jedzeniu albo pod pokrywką. [T:SLO-191]
+
+Nie próbuj jedzenia ze słoika z niezamkniętą pokrywką ani z oznakami zepsucia. [T:SLO-190]
+
+Reguła JarAtlas (ostrożna): taki słoik wyrzuć. [T:SLO-190]
+
+Jeśli w otwartym słoiku zobaczysz pleśń albo inne oznaki zepsucia, wyrzuć całą jego zawartość. [T:SLO-013]

@@ -1,0 +1,103 @@
+# Three-citrus marmalade (NCHFP)
+
+This card describes the NCHFP recipe for citrus marmalade without added pectin, made from grapefruit, orange and lemon peel and grapefruit and orange pulp, processed in a boiling-water bath. [T:SLO-086,SLO-234]
+
+## Ingredients
+
+NCHFP uses 3/4 cup of grapefruit peel, 3/4 cup of orange peel (1 orange), 1/3 cup of lemon peel (1 lemon), 1 quart (about 0.95 l) of cold water, the pulp of 1 grapefruit and of 4 medium oranges, 2 cups of boiling water and 3 cups of sugar, which makes about 3 to 4 half-pint jars. [T:SLO-234]
+
+The lemon goes in only as peel; the pulp comes from the grapefruit and oranges. [T:SLO-086,SLO-234]
+
+When peeling, leave some of the white membrane just under the skin: most of the pectin is there. [T:SLO-234]
+
+NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
+
+NCHFP warns not to reduce the sugar in traditional recipes: too little sugar prevents gelling and may allow yeasts and molds to grow. [T:SLO-001]
+
+## Preparing
+
+Sterilize the jars and prepare two-piece lids according to the manufacturer's directions. [T:SLO-235]
+
+NCHFP puts the empty jars right side up on the rack in a boiling-water canner and fills the canner and jars with hot (not boiling) water to 1 inch (about 2.5 cm) above the tops of the jars. [T:SLO-120]
+
+To sterilize empty jars, NCHFP boils them for 10 minutes below 1000 ft, and above that 1 minute longer for each additional thousand feet. [T:SLO-118]
+
+JarAtlas rule for metres: boil the jars for 10 minutes up to 300 m, and add 1 minute for every further 300 m or part of it. [T:SLO-119]
+
+## Preparing the fruit
+
+Wash and peel the fruit. [T:SLO-235]
+
+Cut the peel into thin strips into a saucepan, add the cold water and simmer, covered, until tender, about 30 minutes, then drain. [T:SLO-235]
+
+Remove the seeds and membrane from the peeled fruit and cut it into small pieces. [T:SLO-235]
+
+## Making the marmalade
+
+Combine the peel and fruit in a saucepan and add the boiling water and sugar. [T:SLO-235]
+
+Boil rapidly over high heat, stirring frequently, until the temperature is 8 °F (about 4.4 °C) above the boiling point of water, 220 °F (about 104 °C) at sea level; this takes about 20 minutes. [T:SLO-235]
+
+Above sea level, the NCHFP temperature table for jelly subtracts 2 °F (about 1.1 °C) for each 1000 ft (about 300 m) of elevation. [T:SLO-231]
+
+Check the thermometer in boiling water first, then hold it upright and read it at eye level; the bulb must be fully covered but must not touch the bottom of the pot. [T:SLO-231]
+
+Remove from the heat and skim off the foam. [T:SLO-235]
+
+## Canning
+
+Just before filling, remove and drain the hot sterilized jars one at a time. [T:SLO-120]
+
+Pour the hot marmalade into hot, sterile jars, leaving 1/4 inch (about 0.6 cm) of headspace. [T:SLO-235]
+
+Wipe the jar rims with a damp clean paper towel, put on two-piece metal lids and process in a boiling-water canner. [T:SLO-235]
+
+At 0–1000 ft (up to 300 m) process half-pint and pint jars for 5 minutes. [T:SLO-086,SLO-235,ACI-176]
+
+Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
+
+At 1001–6000 ft (above 300 m up to 1800 m) process them for 10 minutes. [T:SLO-086,SLO-235,ACI-176]
+
+Above 6000 ft (above 1800 m) process them for 15 minutes. [T:SLO-086,SLO-235,ACI-176]
+
+The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m and 6000 ft becomes 1800 m. [T:ACI-176]
+
+Shortening the time or cooling jars in cold water can also lead to spoilage. [T:ACI-015]
+
+The NCHFP table gives times only for half-pint and pint jars. [T:SLO-086,SLO-235]
+
+JarAtlas rule (NCHFP does not test metric jars): a pint holds about 473 ml, so a 0.5 l jar has no tested time in this recipe; use jars of up to 473 ml. [T:ACI-179,ACI-174]
+
+## Cooling and storing
+
+When you take the hot jars out of the canner, do not retighten the lids or bands; this can cut through the gasket and cause seal failures. [T:SLO-210]
+
+Cool the jars at room temperature for 12 to 24 hours, then remove only the screw bands (the metal rings of two-piece lids), leaving the flat lids on the jars, and test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196,SLO-212]
+
+This seal test and the whole method assume Mason-type canning jars with two-piece lids; NCHFP does not recommend jars whose mouths cannot be sealed with two-piece canning lids for canning any food at home. [T:SLO-223]
+
+A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
+
+If a jar has not sealed at this check, keep it in the refrigerator and eat it within several days. [T:SLO-197]
+
+Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) and not near hot pipes, a stove or a furnace, in an uninsulated attic or in direct sunlight; in such conditions the food may spoil. [T:SLO-198]
+
+NCHFP advice for opened home-canned jams and jellies, which applies to this marmalade: keep the opened jar in the refrigerator at 40 °F (about 4 °C) or lower. [T:SLO-018]
+
+Regular full-sugar cooked jams and jellies are best kept in the refrigerator for 1 month after opening. [T:SLO-018]
+
+## When to throw it out
+
+Before using a stored jar, check that the lid is tight and holds a vacuum: a good seal has a concave centre. [T:SLO-191]
+
+Look for streaks of dried food running from the top of the jar, rising air bubbles and unnatural colour. [T:SLO-191]
+
+When opening the jar, check for an unnatural smell, spurting liquid and cotton-like mould on the food or under the lid. [T:SLO-191]
+
+Do not taste food from a jar with an unsealed lid or with signs of spoilage. [T:SLO-190]
+
+JarAtlas rule (cautious): throw out such a jar. [T:SLO-190]
+
+If you see mold, throw out the whole jar; USDA and microbiologists advise against scooping out the mold and eating the rest. [T:SLO-012,SLO-013]
+
+Check an opened jar regularly for signs of spoilage such as mold, yeast or an off odor, including a fermented, yeasty or alcohol smell; if you find any, throw out the whole jar. [T:SLO-181,SLO-013]

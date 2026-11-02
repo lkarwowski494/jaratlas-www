@@ -31829,5 +31829,677 @@
    "sha": "5ba488db51af"
   },
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-223",
+  "twierdzenie": "NCHFP Recommended Jars and Lids: najlepszym wyborem są słoiki do domowego wekowania typu Mason (zwykłe i z szerokim otworem, gwintowane) z samouszczelniającymi pokrywkami; inne słoiki, których otworu nie da się zamknąć dwuczęściowymi pokrywkami do wekowania, nie są zalecane do domowego wekowania żadnej żywności.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/recommended-jars-and-lids/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Recommended Jars and Lids",
+    "cytat": "Regular and wide-mouth Mason-type, threaded, home-canning jars with self-sealing lids are the best choice.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f7711b3084bb"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/recommended-jars-and-lids/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Recommended Jars and Lids",
+    "cytat": "Other commercial jars with mouths that cannot be sealed with two-piece canning lids are not recommended for use in canning any food at home.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f7711b3084bb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Zdanie w kartach („metoda i test zamknięcia zakładają słoiki typu Mason z dwuczęściowymi pokrywkami”) łączy to twierdzenie z SLO-212 (samouszczelniająca pokrywka = płaska pokrywka + pierścień).",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-224",
+  "twierdzenie": "NCHFP Apple Butter: 8 funtów (ok. 3,6 kg) jabłek, 2 szklanki cydru jabłkowego (apple cider), 2 szklanki octu, 2 1/4 szklanki białego cukru, 2 1/4 szklanki ubitego brązowego cukru, 2 łyżki mielonego cynamonu, 1 łyżka mielonych goździków; wychodzi ok. 9–10 słoików pint; odmiany: Jonathan, Winesap, Stayman, Golden Delicious, McIntosh lub inne smaczne. Przepis nie podaje mocy octu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-butter/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apple Butter, Procedure, Table 1",
+    "cytat": "Use Jonathan, Winesap, Stayman, Golden Delicious,",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2e5b29d73bcf"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-butter/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apple Butter, Procedure, Table 1",
+    "cytat": "8 lbs apples 2 cups apple cider 2 cups vinegar 2¼ cups white sugar 2¼ cups packed brown sugar 2 tbsp ground cinnamon 1 tbsp ground cloves Yield: About 9 to 10 pints",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2e5b29d73bcf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie funtów to rachunek JarAtlas (1 lb = 0,4536 kg), zaokrąglone. Źródło pisze „Maclntosh” (literówka), karta „McIntosh”.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-225",
+  "twierdzenie": "NCHFP Apple Butter, procedura: jabłka umyć, usunąć szypułki, pokroić na ćwiartki i wyciąć gniazda; gotować powoli w cydrze i occie do miękkości; przetrzeć przez durszlak, młynek (food mill) lub sito; miąższ gotować z cukrem i przyprawami, często mieszając; test gotowości: łyżka masy trzymana 2 minuty z dala od pary zostaje kopczykiem albo wokół porcji na talerzu nie oddziela się obwódka płynu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-butter/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apple Butter, Procedure, Table 1",
+    "cytat": "Wash, remove stems, quarter and core fruit. Cook slowly in cider and vinegar until soft. Press fruit through a colander, food mill, or strainer. Cook fruit pulp with sugar and spices, stirring frequently.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2e5b29d73bcf"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-butter/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apple Butter, Procedure, Table 1",
+    "cytat": "To test for doneness, remove a spoonful and hold it away from steam for 2 minutes. It is done if the butter remains mounded on the spoon.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2e5b29d73bcf"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-butter/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apple Butter, Procedure, Table 1",
+    "cytat": "When a rim of liquid does not separate around the edge of the butter, it is ready for canning.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2e5b29d73bcf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-226",
+  "twierdzenie": "NCHFP Apple Butter: nalewać na gorąco do sterylnych słoików 1/2 pinty lub pint, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; słoików quart nie trzeba wcześniej sterylizować; tabela 1 (kąpiel wodna, hot): 1/2 pinty lub pint: 0–1000 stóp 5 min, 1001–6000 stóp 10 min, wyżej 15 min; quart: 0–1000 stóp 10 min, 1001–6000 stóp 15 min, wyżej 20 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-butter/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apple Butter, Procedure, Table 1",
+    "cytat": "Fill hot into sterile half-pint or pint jars, leaving ¼-inch headspace. Quart jars need not be presterilized.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2e5b29d73bcf"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-butter/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apple Butter, Procedure, Table 1",
+    "cytat": "0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Half-Pints or Pints 5 min 10 15 Quarts 10 min 15 20",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2e5b29d73bcf"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie cali to rachunek JarAtlas, zaokrąglone.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-227",
+  "twierdzenie": "Ostrożna reguła JarAtlas: otwarty słoik masła jabłkowego NCHFP (pełnocukrowego) trzymać w lodówce. NCHFP mówi to wprost dla wekowanego masła jabłkowego o obniżonej zawartości cukru („Once opened, jars that were processed should then be stored in the refrigerator”) i dla otwartych domowych dżemów i galaretek (40 °F lub niżej); dla pełnocukrowego masła jabłkowego NCHFP nie podaje czasu przechowywania po otwarciu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-butter-reduced-sugar/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apple Butter, Reduced Sugar, Additional Notes",
+    "cytat": "Once opened, jars that were processed should then be stored in the refrigerator.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "9f87b6130281"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Storing Home-Canned Jams and Jellies",
+    "cytat": "Opened home-canned jams and jellies should be kept in the refrigerator at 40°F or lower.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "28730e19765b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła o tym przepisie: przeniesienie zalecenia z wersji o obniżonej zawartości cukru i z dżemów na masło pełnocukrowe. Kierunek ostrożny (lodówka zamiast spiżarni), bez podawania czasu.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-228",
+  "twierdzenie": "NCHFP Quince Jelly without Pectin: 3 3/4 szklanki soku z pigwy (ok. 3 1/2 funta, ok. 1,6 kg, pigwy i 7 szklanek wody), 1/4 szklanki soku z cytryny, 3 szklanki cukru; wychodzi ok. 4 słoików 1/2 pinty; słoiki wysterylizować, dwuczęściowe pokrywki przygotować według producenta; sok: wybrać ok. 1/4 pigw lekko niedojrzałych i 3/4 w pełni dojrzałych, przebrać, umyć, usunąć szypułki i resztki kwiatów, nie obierać i nie wycinać gniazd; pokroić bardzo cienko lub na małe kawałki, dodać wodę, przykryć, zagotować na dużym ogniu, zmniejszyć ogień i gotować 25 minut; wydobyć sok.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/quince-jelly-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Quince Jelly without Pectin, Procedure",
+    "cytat": "3¾ cups quince juice (about 3½ pounds quince and 7 cups water) ¼ cups lemon juice 3 cups sugar Yield: About 4 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d98b52f6a04f"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/quince-jelly-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Quince Jelly without Pectin, Procedure",
+    "cytat": "Sterilize canning jars and prepare two-piece canning lids according to manufacturer's directions.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d98b52f6a04f"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/quince-jelly-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Quince Jelly without Pectin, Procedure",
+    "cytat": "Select about one-fourth underripe and three fourths fully ripe quince. Sort, wash, and remove stems and blossom ends; do not pare or core. Slice quince very thin or cut into small pieces. Add water, cover, and bring to boil on high heat. Reduce heat and simmer for 25 minutes. Extract juice.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d98b52f6a04f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie funtów to rachunek JarAtlas, zaokrąglone. Źródło pisze „¼ cups” (liczba mnoga przy 1/4), karta „1/4 szklanki”.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-229",
+  "twierdzenie": "NCHFP Quince Jelly without Pectin, galaretka: odmierzony sok przelać do garnka, dodać sok z cytryny i cukier, dobrze wymieszać; gotować na dużym ogniu do temperatury o 8 °F (ok. 4,4 °C) wyższej od temperatury wrzenia wody albo aż masa spływa z łyżki płatem (test łyżki); zdjąć z ognia, szybko zebrać pianę; gorącą galaretkę od razu nalać do gorących, sterylnych słoików, 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; przetrzeć brzegi zwilżonym czystym ręcznikiem papierowym, założyć dwuczęściowe metalowe pokrywki, wekować w kąpieli wodnej; tabela 1 (hot, 1/2 pinty lub pint): 0–1000 stóp 5 min, 1001–6000 stóp 10 min, wyżej 15 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/quince-jelly-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Quince Jelly without Pectin, Procedure",
+    "cytat": "Measure quince juice into a kettle. Add lemon juice and sugar and stir well. Boil over high heat to 8 degrees F. above the boiling point of water, or until jelly mixture sheets from a spoon. Remove from heat; skim off foam quickly. Pour hot jelly immediately into hot, sterile jars, leaving ¼ inch headspace. Wipe rims of jars with a dampened clean paper towel; adjust two-piece metal canning lids.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d98b52f6a04f"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/quince-jelly-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Quince Jelly without Pectin, Procedure",
+    "cytat": "0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d98b52f6a04f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenia °F i cali to rachunek JarAtlas (różnica 8 °F = 4,4 °C), zaokrąglone.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-230",
+  "twierdzenie": "NCHFP Extracting Juice for Jelly: całość przelać do wilgotnego worka do galaretek (jelly bag) i zawiesić, żeby sok ściekł; najklarowniejsza galaretka powstaje z soku, który ściekł bez wyciskania; sok z prasy trzeba ponownie przecedzić przez worek; nie rozgotowywać owoców (nadmierne gotowanie niszczy pektynę, smak i kolor).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/extracting-juice-for-jelly/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Extracting Juice for Jelly",
+    "cytat": "Pour everything into a damp jelly bag and suspend the bag to drain the juice. The clearest jelly comes from juice that has dripped through a jelly bag without pressing or squeezing. If a fruit press is used to extract the juice, the juice should be restrained through a jelly bag.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2076cb4156d5"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/extracting-juice-for-jelly/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Extracting Juice for Jelly",
+    "cytat": "Do not overcook; excess boiling will destroy the pectin, flavor and color.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "2076cb4156d5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-231",
+  "twierdzenie": "NCHFP Testing Jelly without Added Pectin: test temperatury jest najpewniejszy; galaretka jest gotowa przy 220 °F (ok. 104 °C), 8 °F powyżej temperatury wrzenia wody, na poziomie morza; na każde 1000 stóp (ok. 300 m) wysokości odjąć 2 °F (ok. 1,1 °C) (tabela: 1000 stóp 218 °F, 2000 stóp 216 °F, 3000 stóp 214 °F, 4000 stóp 212 °F, 5000 stóp 211 °F, 6000 stóp 209 °F, 7000 stóp 207 °F, 8000 stóp 205 °F); termometr pionowo, odczyt na wysokości oczu, bańka całkowicie zanurzona, ale nie dotyka dna; dokładność termometru sprawdzić we wrzącej wodzie; test łyżki: dwie krople łączą się i spływają z łyżki płatem.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/testing-jelly-without-added-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Testing Jelly without Added Pectin, Temperature Test, Table 1",
+    "cytat": "Of these, the temperature test is most dependable.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1707cb71ef6a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/testing-jelly-without-added-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Testing Jelly without Added Pectin, Temperature Test, Table 1",
+    "cytat": "When done, the temperature of the jelly should be 220°F, 8°F above the boiling point of water, if you are at sea level. NOTE : For each 1000 feet of elevation above sea level, subtract 2 degrees F.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1707cb71ef6a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/testing-jelly-without-added-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Testing Jelly without Added Pectin, Temperature Test, Table 1",
+    "cytat": "Sea Level 1,000 ft 2,000 ft 3,000 ft 4,000 ft 5,000 ft 6,000 ft 7,000 ft 8,000 ft 220°F 218°F 216°F 214°F 212°F 211°F 209°F 207°F 205°F",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1707cb71ef6a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/testing-jelly-without-added-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Testing Jelly without Added Pectin, Temperature Test, Table 1",
+    "cytat": "For an accurate thermometer reading, place the thermometer in a vertical position and read at eye level. The bulb of the thermometer must be completely covered with the jelly but must not touch the bottom of the saucepot. (Remember to test the accuracy of the thermometer by placing it in boiling water.)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1707cb71ef6a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/testing-jelly-without-added-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Testing Jelly without Added Pectin, Temperature Test, Table 1",
+    "cytat": "When the two drops form together and \"sheet\" off the spoon, the jellying point has been reached.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1707cb71ef6a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenia °F na °C i stóp na metry to rachunek JarAtlas, zaokrąglone; temperatura gotowości dotyczy jakości (żelowania), nie czasu wekowania.",
+  "krytyczne": false,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-232",
+  "twierdzenie": "NCHFP Cranberries, hot pack: przygotować syrop ciężki; żurawinę umyć i usunąć szypułki; ostrożnie, ale szybko wrzucić do wrzącego syropu i gotować 3 minuty; owoce nałożyć do gorących słoików, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, zalać wrzącym syropem do 1/2 cala; usunąć pęcherzyki powietrza, poprawić wolną przestrzeń, przetrzeć brzegi zwilżonym czystym ręcznikiem papierowym, założyć dwuczęściowe metalowe pokrywki, wekować w kąpieli wodnej; tabela 1 (hot, pint lub quart): 0–1000 stóp 15 min, 1001–3000 stóp 20 min, 3001–6000 stóp 20 min, wyżej 25 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberries/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cranberries, Hot Pack",
+    "cytat": "Hot Pack – Make a heavy syrup . Wash and remove stems from cranberries. Carefully but quickly add to boiling syrup. Boil 3 minutes. Fill fruit into hot jars, leaving ½ inch headspace. Cover with boiling syrup, leaving ½ inch headspace. Remove air bubbles and adjust headspace if needed. Wipe rims of jars with a dampened clean paper towel; adjust two-piece metal canning lids.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "786d5fcb9596"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberries/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cranberries, Hot Pack",
+    "cytat": "0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Hot Pints or Quarts 15 min 20 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "786d5fcb9596"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie cali to rachunek JarAtlas, zaokrąglone.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-233",
+  "twierdzenie": "NCHFP Cranberry Sauce, hot pack: 4 szklanki żurawiny, 1 szklanka wody, 2 szklanki cukru, ok. 4 słoików 1/2 pinty; żurawinę umyć, gotować w wodzie do miękkości, przetrzeć przez drobne sito, dodać cukier i gotować 3 minuty; wrzący sos nalać do gorących słoików, 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; usunąć pęcherzyki, poprawić wolną przestrzeń, przetrzeć brzegi, założyć dwuczęściowe metalowe pokrywki, wekować w kąpieli wodnej; tabela 1 (hot, 1/2 pinty lub pint): 0–1000 stóp 15 min, 1001–3000 stóp 20 min, 3001–6000 stóp 20 min, wyżej 25 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberry-sauce/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cranberry Sauce, Hot Pack",
+    "cytat": "4 cups cranberries 1 cup water 2 cups sugar Yield: About 4 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5324dcfc896d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberry-sauce/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cranberry Sauce, Hot Pack",
+    "cytat": "Hot Pack – Wash cranberries. Cook berries in water until soft. Press through a fine sieve. Add sugar and boil 3 minutes. Pour boiling hot sauce into hot jars, leaving ½-inch headspace. Remove air bubbles and adjust headspace if needed. Wipe rims of jars with a dampened clean paper towel; adjust two-piece metal canning lids.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5324dcfc896d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberry-sauce/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cranberry Sauce, Hot Pack",
+    "cytat": "0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Hot Half-pints or Pints 15 min 20 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5324dcfc896d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie cali to rachunek JarAtlas, zaokrąglone.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-234",
+  "twierdzenie": "NCHFP Citrus Marmalade: przy obieraniu zostawić trochę białej błony pod skórką (tam jest większość pektyny); składniki: 3/4 szklanki skórki grejpfruta, 3/4 szklanki skórki pomarańczy (1 pomarańcza), 1/3 szklanki skórki cytryny (1 cytryna), 1 quart (ok. 0,95 l) zimnej wody, miąższ 1 grejpfruta, miąższ 4 średnich pomarańczy, 2 szklanki wrzącej wody, 3 szklanki cukru; wychodzi ok. 3–4 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/marmalades/citrus-marmalade/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Citrus Marmalade, Procedure",
+    "cytat": "When peeling citrus fruits for marmalades, be sure to include some of the white membrane found just under the skin. This is where most of the pectin is located.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "06057a4cacfb"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/marmalades/citrus-marmalade/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Citrus Marmalade, Procedure",
+    "cytat": "¾ cup grapefruit peel (from grapefruit) ¾ cup orange peel (1 orange) 1/3 cup lemon peel (1 lemon) 1 quart cold water pulp of 1 grapefruit pulp of 4 medium-sized oranges 2 cups boiling water 3 cups sugar Yield: About 3 or 4 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "06057a4cacfb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie quarta to rachunek JarAtlas, zaokrąglone.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-235",
+  "twierdzenie": "NCHFP Citrus Marmalade, procedura: słoiki wysterylizować, dwuczęściowe pokrywki przygotować według producenta; owoce umyć i obrać; skórkę pokroić w cienkie paski do garnka, zalać zimną wodą i gotować pod przykryciem do miękkości (ok. 30 minut), odcedzić; z obranych owoców usunąć pestki i błony, pokroić na małe kawałki; połączyć skórkę i owoce, dodać wrzącą wodę i cukier; gotować szybko na dużym ogniu, często mieszając, do temperatury o 8 °F (ok. 4,4 °C) wyższej od temperatury wrzenia wody (220 °F, ok. 104 °C, na poziomie morza), ok. 20 minut; zdjąć z ognia, zebrać pianę; gorącą marmoladę nalać do gorących, sterylnych słoików, 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; przetrzeć brzegi, założyć dwuczęściowe metalowe pokrywki, wekować w kąpieli wodnej; tabela 1 (hot, 1/2 pinty lub pint): 0–1000 stóp 5 min, 1001–6000 stóp 10 min, wyżej 15 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/marmalades/citrus-marmalade/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Citrus Marmalade, Procedure",
+    "cytat": "Sterilize canning jars and prepare two-piece canning lids according to manufacturer's directions. To Prepare Fruit — Wash and peel fruit. Cut peel in thin strips into a saucepan. Add cold water and simmer, covered, until tender (about 30 minutes). Drain. Remove seeds and membrane from peeled fruit. Cut fruit into small pieces.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "06057a4cacfb"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/marmalades/citrus-marmalade/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Citrus Marmalade, Procedure",
+    "cytat": "Combine peel and fruit in saucepan, add boiling water and sugar. Boil rapidly over high heat, stirring frequently, until the temperature measures 8°F above the boiling point of water (220°F at sea level), about 20 minutes. Remove from heat; skim. Pour hot marmalade into hot, sterile jars, leaving ¼ inch headspace. Wipe rims of jars with a dampened clean paper towel; adjust two-piece metal canning lids.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "06057a4cacfb"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/marmalades/citrus-marmalade/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Citrus Marmalade, Procedure",
+    "cytat": "0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "06057a4cacfb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenia °F i cali to rachunek JarAtlas, zaokrąglone.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-236",
+  "twierdzenie": "NCHFP Lemon Curd, Canned, składniki: 2 1/2 szklanki drobnego cukru (superfine; jeśli go brak, zwykły cukier zmielić 1 minutę w młynku lub malakserze, odstawić, użyć; nie używać cukru pudru), 1/2 szklanki świeżo startej skórki cytryny (opcjonalnie), 1 szklanka butelkowanego soku z cytryny, 3/4 szklanki zimnego niesolonego masła w kawałkach ok. 3/4 cala (ok. 1,9 cm), 7 dużych żółtek, 4 duże całe jajka; sprzęt: tarka do skórki, trzepaczka balonowa, garnek do gotowania na parze (podwójny) 1 1/2 quarta (ok. 1,4 l) albo większy, sitko, termometr kuchenny mierzący do 180 °F (ok. 82 °C) albo wyżej, miska szklana lub ze stali nierdzewnej, szpatułka silikonowa lub łyżka, sprzęt do wekowania w kąpieli wodnej; wychodzi ok. 3–4 słoików 1/2 pinty; wariant lime curd: ten sam przepis z 1 szklanką butelkowanego soku z limonki i 1/4 szklanki świeżej skórki limonki zamiast soku i skórki z cytryny.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "2½ cups superfine sugar* ½ cup lemon zest (freshly zested), optional 1 cup bottled lemon juice** ¾ cup unsalted butter, chilled, cut into approximately ¾\" pieces 7 large egg yolks 4 large whole eggs",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "lemon zester, balloon whisk, 1½ quart double boiler*** (the top double boiler pan should be at least 1½-quart volume), strainer, kitchen thermometer measuring at least up to 180°F, glass or stainless steel medium mixing bowl, silicone spatula or cooking spoon, and equipment for boiling water canning. Yield: About 3 to 4 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "Variation: For Lime Curd, use the same recipe but substitute 1 cup bottled lime juice and ¼ cup fresh lime zest for the lemon juice and zest.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "If superfine sugar is not available, run granulated sugar through a grinder or food processor for 1 minute, let settle, and use in place of superfine sugar. Do not use powdered sugar.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenia to rachunek JarAtlas, zaokrąglone.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-237",
+  "twierdzenie": "NCHFP Lemon Curd, Canned, kroki 1–2: umyć 4 słoiki 1/2 pinty w ciepłej wodzie z detergentem, dobrze wypłukać, trzymać gorące do napełnienia, pokrywki przygotować według producenta; garnek do wekowania napełnić wodą tak, żeby przykryła napełnione słoiki o 1–2 cale (ok. 2,5–5 cm); termometrem podgrzać wodę do 180 °F (ok. 82 °C) na czas, gdy słoiki będą gotowe; po włożeniu słoików dojście do wrzenia trwa zwykle 25–30 minut; czas wekowania liczy się od pełnego wrzenia wody nad słoikami.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "Wash 4 half-pint canning jars with warm, soapy water. Rinse well; keep hot until ready to fill. Prepare canning lids according to manufacturer's directions.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "Fill boiling water canner with enough water to cover the filled jars by 1 to 2 inches. Use a thermometer to preheat the water to 180°F by the time filled jars are ready to be added.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "The time it takes for the canner to reach boiling after the jars are added is expected to be 25 to 30 minutes for this product. Process time starts after the water in the canner comes to a full boil over the tops of the jars.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenia to rachunek JarAtlas, zaokrąglone.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-238",
+  "twierdzenie": "NCHFP Lemon Curd, Canned, kroki 3–7: cukier ze skórką wymieszać i odstawić ok. 30 minut; odmierzyć sok, przygotować masło; wodę w dolnym garnku podgrzać do łagodnego wrzenia (nie burzliwego), woda nie może dotykać dna górnego naczynia; w górnym naczyniu ubić żółtka z jajkami, stopniowo wmieszać cukier ze skórką, potem sok i masło; postawić nad wrzącą wodą i mieszać delikatnie, ale bez przerwy, aż masa osiągnie 170 °F (ok. 77 °C), mierząc termometrem; zdjąć z ognia, mieszać, aż krem zgęstnieje (ok. 5 minut); przecedzić przez sitko do miski, skórkę wyrzucić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "Combine the sugar and lemon zest in a small bowl, stir to mix, and set aside about 30 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "The water should not boil vigorously or touch the bottom of the top double boiler pan or bowl in which the curd is to be cooked.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "In the top of the double boiler, on the counter top or table, whisk the egg yolks and whole eggs together until thoroughly mixed. Slowly whisk in the sugar and zest, blending until well mixed and smooth. Blend in the lemon juice and then add the butter pieces to the mixture.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "Continue cooking until the mixture reaches a temperature of 170°F. Use a food thermometer to monitor the temperature.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "Continue to stir gently until the curd thickens (about 5 minutes). Strain curd through a mesh strainer into a glass or stainless steel bowl; discard collected zest.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie °F to rachunek JarAtlas, zaokrąglone.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-239",
+  "twierdzenie": "NCHFP Lemon Curd, Canned, kroki 8–9: gorący przecedzony krem nalać do czystych, gorących słoików 1/2 pinty, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; usunąć pęcherzyki, poprawić wolną przestrzeń, przetrzeć brzegi zwilżonym czystym ręcznikiem papierowym, założyć dwuczęściowe metalowe pokrywki; wekować według tabeli 1 (hot, 1/2 pinty): 0–1000 stóp 15 min, 1001–6000 stóp 20 min, wyżej 25 min; studzić bez ruszania 12–24 godziny i sprawdzić zamknięcie; dla najlepszej jakości przechowywać w chłodnym, ciemnym miejscu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "Fill hot strained curd into the clean, hot half-pint jars, leaving ½-inch headspace. Remove air bubbles and adjust headspace if needed. Wipe rims of jars with a dampened, clean paper towel; apply two-piece metal canning lids.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "Hot Half-pints 15 min 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "Let cool, undisturbed, for 12 to 24 hours and check for seals.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "For best quality, store in a cool, dark place (away from light).",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie cali to rachunek JarAtlas, zaokrąglone.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-240",
+  "twierdzenie": "NCHFP Lemon Curd, Canned, mrożenie zamiast wekowania: krem po przecedzeniu i wystudzeniu do temperatury pokojowej zapakować do pojemników do zamrażarki; rozmrażać w lodówce w 40 °F (ok. 4 °C) lub niżej przez 24 godziny przed użyciem.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "Package in freezer containers after straining and cooling to room temperature. To thaw, place container in a refrigerator at 40°F or lower for 24 hours before intended use.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-241",
+  "twierdzenie": "Ostrożna reguła JarAtlas dla lemon/lime curd: tabela 1 NCHFP podaje czas tylko dla słoików 1/2 pinty (ok. 237 ml, połowa pinty 473 ml); słoik większy, np. 0,25 l albo 0,3 l, nie ma przetestowanego czasu, więc karta zaleca słoiki do 237 ml (np. 0,2 l).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned",
+    "cytat": "Hot Half-pints 15 min 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d431b41bd6ae"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wniosek JarAtlas, nie zdanie źródła: źródło nie mówi o słoikach metrycznych. 1/2 pinty = 236,6 ml (rachunek z ACI-174), zaokrąglone; kierunek ostrożny jak ACI-179.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "zalezy_od": [
+   "ACI-174",
+   "ACI-179"
+  ]
  }
 ]
