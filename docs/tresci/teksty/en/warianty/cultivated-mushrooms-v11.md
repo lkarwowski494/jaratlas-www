@@ -54,6 +54,10 @@ Vacuum packaging is not a preservation method by itself: removing oxygen increas
 
 Store the dried mushrooms in a cool, dry, dark place. [T:SUS-066]
 
+Do not keep dried mushrooms in oil at room temperature: low-acid foods stored in oil create an oxygen-free environment in which Clostridium botulinum can grow. [T:SLO-321]
+
+JarAtlas rule (cautious): if you put dried mushrooms in oil, keep the oil in the refrigerator and use it within 4 days of making it, or freeze it. [T:SLO-321]
+
 ## When to throw away
 
 Check the dried vegetables often (glass shows condensation); if they have taken up moisture but are not spoiled, use them at once or dry them again and repack them. [T:SUS-023]

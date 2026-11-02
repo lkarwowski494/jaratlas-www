@@ -44,6 +44,12 @@ W zwykłym piekarniku suszenie może trwać do dwóch razy dłużej niż w susza
 
 Papryczki susz 12–24 godzin, aż strąki będą skurczone, ciemnoczerwone i giętkie. [T:SUS-133]
 
+Po suszeniu część kawałków bywa wilgotniejsza od innych z powodu wielkości i miejsca w suszarce; kondycjonowanie wyrównuje resztkową wilgoć w suszu, więc jest mniejsza szansa zepsucia, dlatego kondycjonuj ten susz. [T:SUS-203]
+
+Ostudzony susz włóż do dużych pojemników plastikowych lub szklanych do ok. dwóch trzecich, lekko przykryj i trzymaj w ciepłym, suchym, przewiewnym miejscu 4–10 dni, codziennie mieszając lub potrząsając. [T:SUS-203]
+
+Jeśli w środku pojawią się krople wilgoci, dosusz susz w suszarce, a potem kondycjonuj go ponownie. [T:SUS-203]
+
 ## Rozdrabnianie
 
 Suszone papryczki posiekaj albo zmiel w blenderze; całe suszone strąki ostrej papryki zmielone na proszek dają proszek chili. [T:SUS-135]
@@ -63,6 +69,10 @@ Pakuj porcje do zużycia za jednym razem: każde otwarcie opakowania wystawia su
 Pakowanie próżniowe nie jest samodzielną metodą utrwalania: usunięcie tlenu zwiększa ryzyko jadu kiełbasianego, a produkt wymagający chłodzenia nadal go wymaga. [T:SUS-025]
 
 Przechowuj susz w miejscu chłodnym, suchym i ciemnym. [T:SUS-066]
+
+Nie przechowuj suszonych papryczek w oleju w temperaturze pokojowej: żywność niskokwasowa w oleju tworzy środowisko beztlenowe, w którym może rosnąć Clostridium botulinum. [T:SLO-321]
+
+Reguła JarAtlas (ostrożna): jeśli zalewasz suszone papryczki olejem, trzymaj olej w lodówce i zużyj go w ciągu 4 dni od przygotowania albo zamroź. [T:SLO-321]
 
 Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F i 3 miesiące w 80 °F. [T:SUS-021]
 

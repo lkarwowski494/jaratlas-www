@@ -46,6 +46,12 @@ Pakowanie próżniowe nie jest samodzielną metodą utrwalania: usunięcie tlenu
 
 Przechowuj susz w miejscu chłodnym, suchym i ciemnym. [T:SUS-066]
 
+Nie przechowuj suszonych ziół w oleju w temperaturze pokojowej: olej odcina tlen, a w czosnku i ziołach mogą już być przetrwalniki Clostridium botulinum; bez tlenu, przy niskiej kwasowości i w temperaturze pokojowej mogą one wytworzyć śmiertelną toksynę. [T:SLO-321]
+
+Suszenie nie czyni tego bezpiecznym: według UGA suszony czosnek i suszone zioła mogą nadal nie być dość suche, by produkt był bezpieczny. [T:SLO-321]
+
+Reguła JarAtlas (ostrożna): jeśli zalewasz suszone zioła olejem, trzymaj olej w lodówce i zużyj go w ciągu 4 dni od przygotowania albo zamroź. [T:SLO-321]
+
 Szczelne pojemniki i chłodne, suche, ciemne miejsce chronią barwę i zapach ziół. [T:SUS-080]
 
 Suszone zioła są zwykle 3–4 razy mocniejsze od świeżych; zamiast świeżych użyj 1/4–1/3 ilości z przepisu. [T:SUS-084]

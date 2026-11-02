@@ -1,12 +1,14 @@
-# Sok porzeczkowy z sokownika (UC Master Food Preservers)
+# Sok z czerwonych porzeczek z sokownika (UC Master Food Preservers)
 
-Ta karta opisuje metodę Master Food Preservers Uniwersytetu Kalifornijskiego (UC) wekowania soku porzeczkowego z sokownika parowego w kąpieli wodnej. [T:SLO-108,SLO-203]
+Ta karta opisuje metodę Master Food Preservers Uniwersytetu Kalifornijskiego (UC) wekowania soku z czerwonych porzeczek z sokownika parowego w kąpieli wodnej. [T:SLO-108,SLO-203,SLO-324]
 
 ## Jakie owoce
 
 UC wymienia kwaśne soki, które można wekować według tego przepisu, wśród nich soki z owoców jagodowych (bez czarnego bzu) i porzeczek. [T:SLO-052]
 
 Porzeczki są na tej liście (przewodnik pisze „currents”). [T:SLO-052]
+
+Reguła JarAtlas (ostrożna): stosuj tę kartę tylko do porzeczek czerwonych; UC wymienia porzeczki bez podania koloru, a żadne przeczytane przez nas źródło nie mówi, że ta metoda obejmuje czarną porzeczkę. [T:SLO-324]
 
 Nie stosuj go do soków niskokwasowych ani granicznych, osobno ani zmieszanych z sokami z listy; UC wyklucza m.in. gruszki azjatyckie, banany, kokos, daktyle, czarny bez, figi, dojrzałe mango, melony, papaję, białe brzoskwinie i nektaryny, persymony, opuncję i pomidory i zaznacza, że lista nie jest pełna. [T:SLO-052]
 
@@ -81,6 +83,8 @@ Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli ś
 Słoik, który przy tym sprawdzeniu okazał się niezamknięty, trzymaj w lodówce i zjedz w ciągu kilku dni. [T:SLO-197]
 
 Zamknięte słoiki przechowuj w czystym, chłodnym, ciemnym i suchym miejscu, nie powyżej 95 °F (35 °C) i nie przy gorących rurach, kuchence czy piecu, na nieocieplonym strychu ani w pełnym słońcu; w takich warunkach przetwór może się zepsuć. [T:SLO-198]
+
+Reguła JarAtlas (ostrożna): otwarty słoik trzymaj w lodówce i zużyj w ciągu 1 tygodnia. [T:SLO-322]
 
 ## Kiedy wyrzucić
 

@@ -86,6 +86,8 @@ Chutney, który został po napełnieniu słoików, trzymaj w lodówce i zjedz na
 
 Otwarty słoik trzymaj w lodówce. [T:SLO-633]
 
+Reguła JarAtlas (ostrożna): otwarty słoik trzymaj w lodówce i zużyj w ciągu 1 tygodnia. [T:SLO-322]
+
 ## Kiedy wyrzucić
 
 Zanim użyjesz słoika z zapasów, sprawdź, czy pokrywka jest szczelna i trzyma podciśnienie: dobrze zamknięta ma wklęsły środek. [T:SLO-191]

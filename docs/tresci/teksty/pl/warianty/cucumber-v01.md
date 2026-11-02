@@ -8,6 +8,12 @@ Na każdy galon pojemności naczynia NCHFP podaje 4 funty ogórków o długości
 
 Czosnek i suszona czerwona papryka są opcjonalne. [T:FER-042]
 
+NCHFP podaje też koper: nasiona kopru albo baldachy świeżego lub suszonego kopru. [T:FER-042]
+
+Używaj soli do konserw i kiszenia; nie używaj soli płatkowej, bo ma zmienną gęstość. [T:FER-013]
+
+Do kiszonek nie używaj soli o obniżonej zawartości sodu ani zamienników soli. [T:FER-017]
+
 Penn State Extension zaleca do domowych przetworów ocet o kwasowości 5–7% i odradza rozcieńczanie octu wodą, chyba że przebadany przepis wyraźnie to nakazuje. [T:ACI-209,ACI-210]
 
 Reguła JarAtlas (ostrożna, dla czytelników spoza USA): używaj octu spirytusowego (białego destylowanego) albo jabłkowego z etykietą 5% albo 6%; nie używaj octu 10% i nie rozcieńczaj go wodą, żeby uzyskać 5%; dodawaj tylko tyle wody, ile podaje przepis. [T:ACI-211,ACI-018]

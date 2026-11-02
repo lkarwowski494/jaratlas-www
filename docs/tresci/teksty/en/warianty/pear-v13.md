@@ -4,6 +4,8 @@ This card describes how to dry pears in a dehydrator or oven at 140 °F (60 °C)
 
 ## Choosing and preparing
 
+Wash the fruit thoroughly and sort it: discard any fruit that shows decay, bruises or mould, because such defects can affect all of the dried product. [T:SUS-223]
+
 Halve the pears lengthwise, core them and cut them into quarters, eighths or slices 1/8–1/4 inch (about 3–6 mm) thick. [T:SUS-089]
 
 Dip the cut pears for 10 minutes in citric acid solution or another anti-darkening, antimicrobial solution. [T:SUS-089]

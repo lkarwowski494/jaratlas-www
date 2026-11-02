@@ -96,6 +96,8 @@ Słoik, który przy tym sprawdzeniu okazał się niezamknięty, trzymaj w lodów
 
 Zamknięte słoiki przechowuj w czystym, chłodnym, ciemnym i suchym miejscu, nie powyżej 95 °F (35 °C) i nie przy gorących rurach, kuchence czy piecu, na nieocieplonym strychu ani w pełnym słońcu; w takich warunkach przetwór może się zepsuć. [T:SLO-198]
 
+Reguła JarAtlas (ostrożna): otwarty słoik trzymaj w lodówce i zużyj w ciągu 1 tygodnia. [T:SLO-322]
+
 Pikle są gotowe do jedzenia po 4–6 tygodniach. [T:SLO-693]
 
 ## Kiedy wyrzucić

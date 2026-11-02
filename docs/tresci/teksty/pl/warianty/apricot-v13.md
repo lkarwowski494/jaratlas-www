@@ -4,6 +4,8 @@ Ta karta opisuje suszenie połówek moreli w suszarce albo w piekarniku w 140 °
 
 ## Wybór i przygotowanie
 
+Owoce dokładnie umyj i przebierz: odrzuć owoce z oznakami psucia, obite albo spleśniałe, bo takie wady mogą wpłynąć na cały susz. [T:SUS-223]
+
 Przekrój morele na połówki i usuń pestki; moreli nie obieraj. [T:SUS-093]
 
 Połówki zanurz na 10 minut w roztworze kwasu askorbinowego albo w innym roztworze przeciw ciemnieniu i drobnoustrojom. [T:SUS-093]

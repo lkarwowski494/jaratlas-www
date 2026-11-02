@@ -50,6 +50,12 @@ W zwykłym piekarniku suszenie może trwać do dwóch razy dłużej niż w susza
 
 Grzyby susz 8–12 godzin, aż będą suche i skórzaste. [T:SUS-036]
 
+Po suszeniu część kawałków bywa wilgotniejsza od innych z powodu wielkości i miejsca w suszarce; kondycjonowanie wyrównuje resztkową wilgoć w suszu, więc jest mniejsza szansa zepsucia, dlatego kondycjonuj ten susz. [T:SUS-203]
+
+Ostudzony susz włóż do dużych pojemników plastikowych lub szklanych do ok. dwóch trzecich, lekko przykryj i trzymaj w ciepłym, suchym, przewiewnym miejscu 4–10 dni, codziennie mieszając lub potrząsając. [T:SUS-203]
+
+Jeśli w środku pojawią się krople wilgoci, dosusz susz w suszarce, a potem kondycjonuj go ponownie. [T:SUS-203]
+
 ## Użycie
 
 Minister Zdrowia przypomina, by jeść wyłącznie grzyby jadalne poddane obróbce termicznej, np. smażeniu lub gotowaniu. [T:SUS-146]

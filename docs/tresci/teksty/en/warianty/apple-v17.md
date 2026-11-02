@@ -4,6 +4,8 @@ This card describes how to dry apple rings in a dehydrator or oven at 140 °F (6
 
 ## Choosing and preparing
 
+Wash the fruit thoroughly and sort it: discard any fruit that shows decay, bruises or mould, because such defects can affect all of the dried product. [T:SUS-223]
+
 Peel and core the apples and cut them into rings 1/8–1/4 inch (about 3–6 mm) thick. [T:SUS-087]
 
 Dip the cut apples for 10 minutes in ascorbic acid solution or another anti-darkening, antimicrobial solution. [T:SUS-087]

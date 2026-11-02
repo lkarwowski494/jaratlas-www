@@ -1,10 +1,12 @@
-# Currant compote: whole currants in very light syrup (NCHFP)
+# Red currant compote: whole red currants in very light syrup (NCHFP)
 
-This card describes the NCHFP method for canning whole currants, packed raw in a very light syrup, in a boiling-water bath. [T:ACI-244,ACI-249,ACI-192]
+This card describes the NCHFP method for canning whole red currants, packed raw in a very light syrup, in a boiling-water bath. [T:ACI-244,ACI-249,ACI-192,SLO-324]
 
 ## Preparing
 
 Use these NCHFP directions only for the berries on its list, which includes currants. [T:ACI-244]
+
+JarAtlas rule (cautious): use this card only for red currants; NCHFP lists currants without naming a colour, and no source we have read says that these directions cover blackcurrants. [T:SLO-324]
 
 Choose ripe, sweet berries with uniform color. [T:ACI-245]
 
@@ -73,6 +75,8 @@ A sealed lid is concave, curved down slightly in the centre; if the centre is fl
 If a jar has not sealed at this check, keep it in the refrigerator and eat it within several days. [T:SLO-197]
 
 Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) and not near hot pipes, a stove or a furnace, in an uninsulated attic or in direct sunlight; in such conditions the food may spoil. [T:SLO-198]
+
+JarAtlas rule (cautious): keep an opened jar in the refrigerator and use it within 1 week. [T:SLO-322]
 
 ## When to throw it out
 

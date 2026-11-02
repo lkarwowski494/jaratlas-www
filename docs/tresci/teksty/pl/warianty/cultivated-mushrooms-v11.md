@@ -54,6 +54,10 @@ Pakowanie próżniowe nie jest samodzielną metodą utrwalania: usunięcie tlenu
 
 Przechowuj susz w miejscu chłodnym, suchym i ciemnym. [T:SUS-066]
 
+Nie przechowuj suszonych grzybów w oleju w temperaturze pokojowej: żywność niskokwasowa w oleju tworzy środowisko beztlenowe, w którym może rosnąć Clostridium botulinum. [T:SLO-321]
+
+Reguła JarAtlas (ostrożna): jeśli zalewasz suszone grzyby olejem, trzymaj olej w lodówce i zużyj go w ciągu 4 dni od przygotowania albo zamroź. [T:SLO-321]
+
 ## Kiedy wyrzucić
 
 Sprawdzaj susz często (w szkle widać skroploną parę); susz, który wchłonął wilgoć, ale nie jest zepsuty, zużyj od razu albo dosusz i zapakuj ponownie. [T:SUS-023]

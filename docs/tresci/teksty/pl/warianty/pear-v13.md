@@ -4,6 +4,8 @@ Ta karta opisuje suszenie gruszek w suszarce albo w piekarniku w 140 °F (60 °C
 
 ## Wybór i przygotowanie
 
+Owoce dokładnie umyj i przebierz: odrzuć owoce z oznakami psucia, obite albo spleśniałe, bo takie wady mogą wpłynąć na cały susz. [T:SUS-223]
+
 Przekrój gruszki wzdłuż na połówki, usuń gniazda nasienne i pokrój je w ćwiartki, ósemki albo plasterki grubości 1/8–1/4 cala (ok. 3–6 mm). [T:SUS-089]
 
 Pokrojone gruszki zanurz na 10 minut w roztworze kwasu cytrynowego albo w innym roztworze przeciw ciemnieniu i drobnoustrojom. [T:SUS-089]

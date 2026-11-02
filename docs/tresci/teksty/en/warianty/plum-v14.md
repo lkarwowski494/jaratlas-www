@@ -1,12 +1,10 @@
-# Greengage jam with powdered pectin (NCHFP plum jam recipe)
+# Plum jam with powdered pectin (NCHFP)
 
-This card describes the NCHFP recipe for plum jam with powdered pectin, made with greengages. [T:SLO-157,ACI-325]
+This card describes the NCHFP recipe for plum jam with powdered pectin. [T:SLO-157]
 
 ## Ingredients
 
-The US FDA list of approximate pH values lists greengages among plums ("Plums, Green Gage"), at pH 3.60–4.30. [T:ACI-325]
-
-JarAtlas rule (cautious): NCHFP gives this recipe for plums without naming any variety, including greengages, so make it exactly as written. [T:SLO-157,ACI-325]
+JarAtlas rule (cautious): NCHFP gives this recipe for plums without naming a variety; do not use it for greengages until a source we have read names them for this recipe. [T:SLO-323]
 
 NCHFP uses 6 cups of crushed plums (about 3.5 pounds of plums), 1 package of powdered pectin and 8 cups of sugar, which makes about 9 half-pint jars. [T:SLO-157]
 

@@ -1,12 +1,14 @@
-# Currant juice from a steam juicer (UC Master Food Preservers)
+# Red currant juice from a steam juicer (UC Master Food Preservers)
 
-This card describes the method of the University of California (UC) Master Food Preservers for canning currant juice made in a steam juicer, in a boiling-water bath. [T:SLO-108,SLO-203]
+This card describes the method of the University of California (UC) Master Food Preservers for canning red currant juice made in a steam juicer, in a boiling-water bath. [T:SLO-108,SLO-203,SLO-324]
 
 ## Which fruit
 
 UC lists the high-acid juices that may be canned with this recipe, among them berries (except elderberries) and currants. [T:SLO-052]
 
 Currants are on this list (the guide spells them “currents”). [T:SLO-052]
+
+JarAtlas rule (cautious): use this card only for red currants; UC lists currants without naming a colour, and no source we have read says that this method covers blackcurrants. [T:SLO-324]
 
 Do not use it for low-acid or borderline juices, alone or mixed with the listed ones; UC excludes, among others, Asian pears, bananas, coconut, dates, elderberries, figs, ripe mangoes, melons, papaya, white peaches and nectarines, persimmons, prickly pear and tomatoes, and says the list is not complete. [T:SLO-052]
 
@@ -81,6 +83,8 @@ A sealed lid is concave, curved down slightly in the centre; if the centre is fl
 If a jar has not sealed at this check, keep it in the refrigerator and eat it within several days. [T:SLO-197]
 
 Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) and not near hot pipes, a stove or a furnace, in an uninsulated attic or in direct sunlight; in such conditions the food may spoil. [T:SLO-198]
+
+JarAtlas rule (cautious): keep an opened jar in the refrigerator and use it within 1 week. [T:SLO-322]
 
 ## When to throw it out
 

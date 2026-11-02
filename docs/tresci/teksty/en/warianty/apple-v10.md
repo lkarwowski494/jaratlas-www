@@ -86,6 +86,8 @@ Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) a
 
 JarAtlas rule (cautious): keep an opened jar in the refrigerator; NCHFP says this for its reduced-sugar apple butter and for opened jams and jellies, but gives no storage time for this apple butter after opening. [T:SLO-227]
 
+JarAtlas rule (cautious): keep an opened jar in the refrigerator and use it within 1 week. [T:SLO-322]
+
 ## When to throw it out
 
 Before using a stored jar, check that the lid is tight and holds a vacuum: a good seal has a concave centre. [T:SLO-191]

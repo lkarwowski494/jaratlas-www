@@ -1,10 +1,12 @@
-# Kompot z porzeczek: całe porzeczki w bardzo lekkim syropie (NCHFP)
+# Kompot z czerwonych porzeczek: całe czerwone porzeczki w bardzo lekkim syropie (NCHFP)
 
-Ta karta opisuje metodę NCHFP wekowania całych porzeczek, nakładanych na surowo i zalewanych bardzo lekkim syropem, w kąpieli wodnej. [T:ACI-244,ACI-249,ACI-192]
+Ta karta opisuje metodę NCHFP wekowania całych czerwonych porzeczek, nakładanych na surowo i zalewanych bardzo lekkim syropem, w kąpieli wodnej. [T:ACI-244,ACI-249,ACI-192,SLO-324]
 
 ## Przygotowanie
 
 Stosuj te wskazówki NCHFP tylko do owoców z jej listy, na której są porzeczki. [T:ACI-244]
+
+Reguła JarAtlas (ostrożna): stosuj tę kartę tylko do porzeczek czerwonych; NCHFP wymienia porzeczki bez podania koloru, a żadne przeczytane przez nas źródło nie mówi, że te wskazówki obejmują czarną porzeczkę. [T:SLO-324]
 
 Wybierz dojrzałe, słodkie owoce o równomiernej barwie. [T:ACI-245]
 
@@ -73,6 +75,8 @@ Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli ś
 Słoik, który przy tym sprawdzeniu okazał się niezamknięty, trzymaj w lodówce i zjedz w ciągu kilku dni. [T:SLO-197]
 
 Zamknięte słoiki przechowuj w czystym, chłodnym, ciemnym i suchym miejscu, nie powyżej 95 °F (35 °C) i nie przy gorących rurach, kuchence czy piecu, na nieocieplonym strychu ani w pełnym słońcu; w takich warunkach przetwór może się zepsuć. [T:SLO-198]
+
+Reguła JarAtlas (ostrożna): otwarty słoik trzymaj w lodówce i zużyj w ciągu 1 tygodnia. [T:SLO-322]
 
 ## Kiedy wyrzucić
 

@@ -48,6 +48,10 @@ Vacuum packaging is not a preservation method by itself: removing oxygen increas
 
 Store the dried vegetables in a cool, dry, dark place. [T:SUS-066]
 
+Do not keep dried tomatoes in oil at room temperature: according to OSU, dried tomatoes in oil need cold storage for safety. [T:SLO-321]
+
+JarAtlas rule (cautious): if you put dried tomatoes in oil, keep the oil in the refrigerator and use it within 4 days of making it, or freeze it. [T:SLO-321]
+
 Dried vegetables keep about half as long as dried fruit: according to Clemson HGIC, about 6 months at 60 °F and 3 months at 80 °F. [T:SUS-021]
 
 According to MSU, dried tomatoes readily re-absorb moisture, which causes undesirable colour and flavour changes and shortens shelf life; they can also turn black because of oxidation. [T:SUS-202]

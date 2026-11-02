@@ -8,6 +8,12 @@ For each gallon of container capacity, NCHFP lists 4 pounds of 4-inch pickling c
 
 Garlic and dried red pepper are optional. [T:FER-042]
 
+NCHFP also lists dill: dill seed, or heads of fresh or dry dill weed. [T:FER-042]
+
+Use canning or pickling salt; do not use flake salt, because its density varies. [T:FER-013]
+
+Do not use reduced-sodium salt or salt substitutes in fermented pickles. [T:FER-017]
+
 Penn State Extension advises vinegar of 5–7% acidity for home food preservation and advises against diluting vinegar with water unless a research-tested recipe says so. [T:ACI-209,ACI-210]
 
 JarAtlas rule (cautious, for readers outside the USA): use white distilled (spirit) vinegar or cider vinegar labelled 5% or 6% acidity; do not use 10% vinegar and do not dilute it with water to make 5% vinegar; add only the water the recipe lists. [T:ACI-211,ACI-018]

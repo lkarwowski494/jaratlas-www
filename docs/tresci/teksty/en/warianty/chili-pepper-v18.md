@@ -44,6 +44,12 @@ In a conventional oven, drying can take up to twice as long as in a dehydrator, 
 
 Dry the peppers for 12–24 hours, until the pods are shrunken, dark red and flexible. [T:SUS-133]
 
+When drying is complete, some pieces are moister than others because of their size and location during drying; conditioning distributes residual moisture evenly and lowers the chance of spoilage, so condition these dried pieces. [T:SUS-203]
+
+Put the cooled dried pieces in large plastic or glass containers about two-thirds full, cover lightly and keep them in a warm, dry, well-ventilated place for 4–10 days, stirring or shaking daily. [T:SUS-203]
+
+If beads of moisture form inside, return the food to the dehydrator, then condition it again. [T:SUS-203]
+
 ## Breaking up
 
 Chop the dried peppers or grind them in a blender; whole pods of dried hot peppers ground to a powder make chili powder. [T:SUS-135]
@@ -63,6 +69,10 @@ Pack amounts that can be used at one time: each opening exposes the dried food t
 Vacuum packaging is not a preservation method by itself: removing oxygen increases the risk of botulism, and a product that needs refrigeration still needs it. [T:SUS-025]
 
 Store the dried vegetables in a cool, dry, dark place. [T:SUS-066]
+
+Do not keep dried peppers in oil at room temperature: low-acid foods stored in oil create an oxygen-free environment in which Clostridium botulinum can grow. [T:SLO-321]
+
+JarAtlas rule (cautious): if you put dried peppers in oil, keep the oil in the refrigerator and use it within 4 days of making it, or freeze it. [T:SLO-321]
 
 Dried vegetables keep about half as long as dried fruit: according to Clemson HGIC, about 6 months at 60 °F and 3 months at 80 °F. [T:SUS-021]
 

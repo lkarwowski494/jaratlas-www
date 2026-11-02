@@ -46,7 +46,11 @@ Dry the zucchini for 10–16 hours (CSU; MSU gives 10–12 hours in a dehydrator
 
 Some thinly sliced vegetables, such as zucchini, dry crisp, like chips. [T:SUS-123]
 
-General rule: vegetables are dried until brittle; they then contain about 10% moisture and do not need conditioning. [T:SUS-017]
+When drying is complete, some pieces are moister than others because of their size and location during drying; conditioning distributes residual moisture evenly and lowers the chance of spoilage, so condition these dried pieces. [T:SUS-203]
+
+Put the cooled dried pieces in large plastic or glass containers about two-thirds full, cover lightly and keep them in a warm, dry, well-ventilated place for 4–10 days, stirring or shaking daily. [T:SUS-203]
+
+If beads of moisture form inside, return the food to the dehydrator, then condition it again. [T:SUS-203]
 
 ## Serving
 

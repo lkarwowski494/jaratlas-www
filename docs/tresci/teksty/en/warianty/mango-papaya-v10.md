@@ -12,6 +12,8 @@ This makes about 2 dryer trays 14 inches (about 36 cm) in diameter, or 8 fruit r
 
 You may omit the honey (unsweetened leather); for a lighter colour add 1/4 teaspoon (750 mg) of ascorbic acid to the purée with the spices. [T:SUS-221]
 
+Do not give leather made with honey to infants under 12 months; for them, leave the honey out. [T:SLO-036,SUS-221]
+
 ## Purée
 
 Preheat the dehydrator to 140 °F (60 °C). [T:SUS-217]

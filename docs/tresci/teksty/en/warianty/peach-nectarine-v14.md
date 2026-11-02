@@ -4,6 +4,8 @@ This card describes how to dry peaches and nectarines in a dehydrator or oven at
 
 ## Choosing and preparing
 
+Wash the fruit thoroughly and sort it: discard any fruit that shows decay, bruises or mould, because such defects can affect all of the dried product. [T:SUS-223]
+
 Wash and peel the fruit, halve it, remove the pits and cut it into quarters or slices. [T:SUS-091]
 
 Dip the cut fruit for 10 minutes in citric acid solution or another anti-darkening, antimicrobial solution. [T:SUS-091]

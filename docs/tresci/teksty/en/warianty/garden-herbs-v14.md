@@ -46,6 +46,12 @@ Vacuum packaging is not a preservation method by itself: removing oxygen increas
 
 Store dried food in a cool, dry, dark place. [T:SUS-066]
 
+Do not keep dried herbs in oil at room temperature: oil keeps out oxygen, and spores of Clostridium botulinum may already be present in garlic and herbs; without oxygen, with low acid and at room temperature they can produce a deadly toxin. [T:SLO-321]
+
+Drying does not make this safe: according to UGA, dried garlic and herbs may still not be dry enough to give a safe product. [T:SLO-321]
+
+JarAtlas rule (cautious): if you put dried herbs in oil, keep the oil in the refrigerator and use it within 4 days of making it, or freeze it. [T:SLO-321]
+
 Airtight containers and a cool, dry, dark place protect the colour and fragrance of the herbs. [T:SUS-080]
 
 Dried herbs are usually 3–4 times stronger than fresh; use 1/4–1/3 of the amount of fresh herbs in a recipe. [T:SUS-084]

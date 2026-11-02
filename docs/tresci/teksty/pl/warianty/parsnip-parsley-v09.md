@@ -42,7 +42,11 @@ W zwykłym piekarniku suszenie może trwać do dwóch razy dłużej niż w susza
 
 Pasternak susz 6–10 godzin, aż będzie twardy albo łamliwy. [T:SUS-127]
 
-Ogólna zasada: warzywa suszy się do stanu kruchego (łamliwego); mają wtedy około 10% wilgoci i nie wymagają kondycjonowania. [T:SUS-017]
+Po suszeniu część kawałków bywa wilgotniejsza od innych z powodu wielkości i miejsca w suszarce; kondycjonowanie wyrównuje resztkową wilgoć w suszu, więc jest mniejsza szansa zepsucia, dlatego kondycjonuj ten susz. [T:SUS-203]
+
+Ostudzony susz włóż do dużych pojemników plastikowych lub szklanych do ok. dwóch trzecich, lekko przykryj i trzymaj w ciepłym, suchym, przewiewnym miejscu 4–10 dni, codziennie mieszając lub potrząsając. [T:SUS-203]
+
+Jeśli w środku pojawią się krople wilgoci, dosusz susz w suszarce, a potem kondycjonuj go ponownie. [T:SUS-203]
 
 ## Podawanie
 

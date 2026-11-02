@@ -86,6 +86,8 @@ If a jar has not sealed at this check, keep it in the refrigerator and eat it wi
 
 Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) and not near hot pipes, a stove or a furnace, in an uninsulated attic or in direct sunlight; in such conditions the food may spoil. [T:SLO-198]
 
+JarAtlas rule (cautious): keep an opened jar in the refrigerator and use it within 1 week. [T:SLO-322]
+
 For the best flavour, let the asparagus sit in the processed jars for 3–5 days before eating it. [T:SLO-591]
 
 ## When to throw it out

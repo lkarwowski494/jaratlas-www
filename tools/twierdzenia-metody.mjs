@@ -21,6 +21,7 @@ export const WSPOLNE = {
   'OLE-029': ['water-bath', 'freezer'], // warzywa i zioła w oleju: zamrożenie najbezpieczniejsze (papryka w oleju bell-pepper-v09 i karty mrożenia garlic-v09/v10, p28)
   'SUS-035': ['dry-storage', 'brak'], // toksyny grzybów: karty suszenia grzybów (p28) i karta-ostrzeżenie kapusty z grzybami (white-cabbage-v13, metoda nieustalona)
   'OLE-002': ['water-bath', 'freezer'], // czosnek w oleju: lodówka 40°F, 4 dni (NCHFP): ostrzeżenie papryki w oleju (bell-pepper-v09) i karta mrożenia garlic-v17 (p24)
+  'SLO-036': ['water-bath', 'dry-storage'], // miód a niemowlęta poniżej 12 miesięcy (FDA): mus dla niemowląt peach-nectarine-v12 (p29) i skóra z mango z miodem mango-papaya-v10 (p30, D4-7-02)
 };
 
 const ZNACZNIK = /\[T:([^\]]*)\]/g;

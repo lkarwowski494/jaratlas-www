@@ -50,6 +50,12 @@ In a conventional oven, drying can take up to twice as long as in a dehydrator, 
 
 Dry the mushrooms for 8–12 hours, until dry and leathery. [T:SUS-036]
 
+When drying is complete, some pieces are moister than others because of their size and location during drying; conditioning distributes residual moisture evenly and lowers the chance of spoilage, so condition these dried pieces. [T:SUS-203]
+
+Put the cooled dried pieces in large plastic or glass containers about two-thirds full, cover lightly and keep them in a warm, dry, well-ventilated place for 4–10 days, stirring or shaking daily. [T:SUS-203]
+
+If beads of moisture form inside, return the food to the dehydrator, then condition it again. [T:SUS-203]
+
 ## Using
 
 The Polish Minister of Health reminds people to eat only edible mushrooms that have been heat-treated, such as fried or cooked. [T:SUS-146]

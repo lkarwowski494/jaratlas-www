@@ -53293,5 +53293,160 @@
   "klaster": "SLO",
   "pochodzenie": "06 p29 D1-p3 (D3-S-02)",
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-321",
+  "status": "potwierdzone",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "06 p30 D1-p4 (D4-S-02)",
+  "twierdzenie": "Ostrożna reguła JarAtlas dla suszu w oleju (suszony czosnek, zioła, pomidory, papryka, grzyby): żywność niskokwasowa w oleju tworzy środowisko beztlenowe sprzyjające wzrostowi Clostridium botulinum (OSU); przetrwalniki mogą już być w czosnku i ziołach i bez tlenu, przy niskiej kwasowości i w temperaturze otoczenia mogą wytworzyć śmiertelną toksynę, a użycie suszonego czosnku i ziół nie gwarantuje, że są dość suche, by produkt był bezpieczny (UGA); domowe oleje smakowe poza przetestowanymi przepisami zakwaszanymi trzyma się w lodówce do 4 dni albo zamraża (OSU, UGA), a suszone pomidory w oleju według OSU wymagają dla bezpieczeństwa przechowywania w chłodzie; dlatego karta stosuje do każdego suszu w oleju: nie trzymać w temperaturze pokojowej, w lodówce zużyć w ciągu 4 dni od przygotowania albo zamrozić.",
+  "twierdzenie_en": "Cautious JarAtlas rule for dried food in oil (dried garlic, herbs, tomatoes, peppers, mushrooms): low-acid foods stored in oil create an oxygen-free environment in which Clostridium botulinum grows (OSU); spores may already be present in garlic and herbs and, with no oxygen, low acid and ambient temperatures, can produce a deadly toxin, and using dried garlic and herbs does not ensure that they are dry enough for a safe product (UGA); home-made flavoured oils other than tested acidified recipes are kept in the refrigerator for up to 4 days or frozen (OSU, UGA), and according to OSU dried tomatoes in oil need cold storage for safety; so the card applies to all dried food in oil: do not keep it at room temperature; in the refrigerator use it within 4 days of making it, or freeze it.",
+  "uproszczenie": "UGA mówi o suszonym czosnku i ziołach; OSU o wszystkich domowych olejach smakowych. OSU pozwala trzymać w lodówce do 6 miesięcy całkowicie wysuszone pomidory w oleju bez czosnku i ziół; karta stosuje krótszy termin 4 dni dla każdego suszu w oleju (wariant ostrożniejszy, decyzja p30 do weta), bo stopnia wysuszenia nie da się sprawdzić w domu (UGA: pomiar aktywności wody w laboratorium).",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+    "miejsce": "UGA Extension C1334, How to Safely Make Infused Oils (szczebel 3; wydawca NCHFP)",
+    "cytat": "Spores of C. botulinum may already be present in garlic and herbs, and when introduced to an ideal environment—no oxygen, low acid content, and ambient temperatures—they can germinate, multiply, and produce a deadly neurotoxin.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ce8613a8cfc0"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+    "miejsce": "UGA C1334; Nonacidified Dried or Fresh Garlic and Herbs",
+    "cytat": "Note: Using dried garlic and herbs, which have little available water (lower water activity), still does not ensure that your ingredients are dried enough to provide a safe product.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ce8613a8cfc0"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/",
+    "miejsce": "UGA C1334; Nonacidified Dried or Fresh Garlic and Herbs",
+    "cytat": "Since acidification is not used to prevent bacteria from growing, infused oils made with this method must be kept in the refrigerator and discarded 4 days after being made. Alternatively, you could freeze the oil until you are ready to use it.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ce8613a8cfc0"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/catalog/pub/sp-50-701-herbs-vegetables-oil",
+    "miejsce": "Oregon State Univ. Extension SP 50-701, Herbs and Vegetables in Oil",
+    "cytat": "Low acid foods stored in oil create an oxygen-free environment which is perfect for growth of Clostridium botulinum bacteria.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1e088f00f976"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/catalog/pub/sp-50-701-herbs-vegetables-oil",
+    "miejsce": "OSU SP 50-701; akapit o olejach smakowych",
+    "cytat": "It is essential for all other flavored oils made at home, including pesto, to be stored in the refrigerator for up to 4 days or frozen for long term storage.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1e088f00f976"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/catalog/pub/sp-50-701-herbs-vegetables-oil",
+    "miejsce": "OSU SP 50-701; Dried tomatoes in oil",
+    "cytat": "Store in the refrigerator for up to 6 months, or freeze for long term storage. Cold storage is required for safety, but it will also delay the oil from becoming rancid.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "1e088f00f976"
+   }
+  ]
+ },
+ {
+  "id": "SLO-322",
+  "status": "potwierdzone",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "06 p30 (P-13, decyzja właściciela 2026-11-02-jaratlas-d1-punkty-sporne-wlasciciel)",
+  "twierdzenie": "Ostrożna reguła JarAtlas (decyzja właściciela 2026-11-02, P-13): otwarty słoik domowego przetworu wekowanego trzymać w lodówce i zużyć w ciągu 1 tygodnia, gdy przeczytane źródła nie podają dla tego produktu innego terminu po otwarciu; przeczytane źródła szczebla 1–3 nie podają terminu po otwarciu dla tych produktów, a podstawą jest analogia do NCHFP: jedzenie ze słoików, które się nie zamknęły (wykrytych w ciągu 24 godzin od wekowania), dla zachowania jakości trzyma się w lodówce i zjada w ciągu tygodnia; NCHFP mówi też, że otwarte domowe dżemy i galaretki trzyma się w lodówce w 40 °F lub niżej.",
+  "twierdzenie_en": "Cautious JarAtlas rule (owner decision 2026-11-02, P-13): keep an opened jar of home-canned food in the refrigerator and use it within 1 week, unless the sources read give a different time after opening for that product; the level 1–3 sources read give no time after opening for these products, and the rule is an analogy to NCHFP: food in jars that failed to seal (found within 24 hours of canning) is refrigerated and eaten within one week to preserve quality; NCHFP also says opened home-canned jams and jellies are kept in the refrigerator at 40 °F or lower.",
+  "uproszczenie": "Analogia, nie termin ze źródła: NCHFP mówi o słoikach niezamkniętych zaraz po wekowaniu i o jakości. Termin 1 tydzień wybrany decyzją właściciela (P-13 A) jako wariant ostrożny; karty z terminem ze źródła (np. SLO-018, dżemy pełnocukrowe 1 miesiąc) podają termin ze źródła.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/general-canning/category/faq-canning",
+    "miejsce": "NCHFP, FAQ General Canning; słoiki niezamknięte",
+    "cytat": "To preserve quality of food where jars failed to seal (and discovered within 24 hours of initial canning), refrigerate the jars and consume contents within one week.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "34cc58d65924"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+    "miejsce": "NCHFP, Storing Home-Canned Jams and Jellies",
+    "cytat": "Opened home-canned jams and jellies should be kept in the refrigerator at 40°F or lower.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "92da084f6a43"
+   }
+  ]
+ },
+ {
+  "id": "SLO-323",
+  "status": "potwierdzone",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "06 p30 (P-15, decyzja właściciela 2026-11-02-jaratlas-d1-punkty-sporne-wlasciciel)",
+  "twierdzenie": "Ostrożna reguła JarAtlas (decyzja właściciela 2026-11-02, P-15): przepis NCHFP na dżem śliwkowy z pektyną w proszku podaje śliwki bez nazwy odmiany, więc karta nie stosuje go do renklod, dopóki przeczytane źródło szczebla 1–3 nie nazwie tej odmiany przy przepisie; lista pH FDA wymienia renklody wśród śliwek (ACI-325), ale nie jest przepisem.",
+  "twierdzenie_en": "Cautious JarAtlas rule (owner decision 2026-11-02, P-15): the NCHFP plum jam recipe with powdered pectin gives plums without naming a variety, so the card does not apply it to greengages until a level 1–3 source read names that variety for the recipe; the FDA pH list names greengages among plums (ACI-325), but it is not a recipe.",
+  "uproszczenie": null,
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/plum-jam-pectin/",
+    "miejsce": "NCHFP, Plum Jam (with powdered pectin); Ingredients",
+    "cytat": "6 cups crushed plums (about 3½ pounds plums) 1 package powdered pectin 8 cups sugar Yield: About 9 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a8a67e50ab61"
+   }
+  ]
+ },
+ {
+  "id": "SLO-324",
+  "status": "potwierdzone",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "06 p30 (P-12, decyzja właściciela 2026-11-02-jaratlas-d1-punkty-sporne-wlasciciel)",
+  "twierdzenie": "Ostrożna reguła JarAtlas (decyzja właściciela 2026-11-02, P-12): karty wekowania porzeczek (NCHFP Berries–Whole, sok z sokownika UC) obejmują tylko porzeczkę czerwoną; źródła wekowania wymieniają porzeczki bez koloru, NCHFP przy mrożeniu każe wybierać jaskrawoczerwone porzeczki, a żadne przeczytane źródło szczebla 1–3 nie mówi, że te przepisy wekowania obejmują czarną porzeczkę.",
+  "twierdzenie_en": "Cautious JarAtlas rule (owner decision 2026-11-02, P-12): the currant canning cards (NCHFP Berries–Whole, UC steam-juicer juice) cover only red currants; the canning sources list currants without a colour, NCHFP tells you to select bright-red currants for freezing, and no level 1–3 source read says these canning recipes cover blackcurrants.",
+  "uproszczenie": null,
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "NCHFP, Berries–Whole; lista owoców",
+    "cytat": "Blackberries, blueberries, currants, dewberries, gooseberries, huckleberries, loganberries, mulberries, raspberries.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "16a65a420e8d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-currants/",
+    "miejsce": "NCHFP, Freezing Currants",
+    "cytat": "Select plump, fully ripe bright-red currants.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "feb3155c7005"
+   }
+  ]
  }
 ]

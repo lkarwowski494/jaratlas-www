@@ -1,12 +1,10 @@
-# Dżem z renklod z pektyną w proszku (przepis NCHFP na dżem śliwkowy)
+# Dżem śliwkowy z pektyną w proszku (NCHFP)
 
-Ta karta opisuje przepis NCHFP na dżem śliwkowy z pektyną w proszku, zrobiony z renklod. [T:SLO-157,ACI-325]
+Ta karta opisuje przepis NCHFP na dżem śliwkowy z pektyną w proszku. [T:SLO-157]
 
 ## Składniki
 
-Lista przybliżonego pH żywności amerykańskiej FDA wymienia renklody wśród śliwek („Plums, Green Gage”), z pH 3,60–4,30. [T:ACI-325]
-
-Reguła JarAtlas (ostrożna): NCHFP podaje ten przepis dla śliwek bez wymieniania odmian, także renklod, więc rób go dokładnie według przepisu. [T:SLO-157,ACI-325]
+Reguła JarAtlas (ostrożna): NCHFP podaje ten przepis dla śliwek bez nazwy odmiany; nie stosuj go do renklod, dopóki przeczytane przez nas źródło nie wymieni ich przy tym przepisie. [T:SLO-323]
 
 NCHFP podaje 6 szklanek rozgniecionych śliwek (ok. 3,5 funta śliwek), 1 opakowanie pektyny w proszku i 8 szklanek cukru; wychodzi ok. 9 słoików 1/2 pinty. [T:SLO-157]
 

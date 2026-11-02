@@ -86,6 +86,8 @@ Refrigerate any chutney left over from filling the jars and eat it fresh. [T:SLO
 
 Once a jar is opened, keep it in the refrigerator. [T:SLO-633]
 
+JarAtlas rule (cautious): keep an opened jar in the refrigerator and use it within 1 week. [T:SLO-322]
+
 ## When to throw it out
 
 Before using a stored jar, check that the lid is tight and holds a vacuum: a good seal has a concave centre. [T:SLO-191]

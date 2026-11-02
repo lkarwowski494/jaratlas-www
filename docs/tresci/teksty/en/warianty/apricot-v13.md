@@ -4,6 +4,8 @@ This card describes how to dry apricot halves in a dehydrator or oven at 140 °F
 
 ## Choosing and preparing
 
+Wash the fruit thoroughly and sort it: discard any fruit that shows decay, bruises or mould, because such defects can affect all of the dried product. [T:SUS-223]
+
 Halve the apricots and remove the pits; do not peel them. [T:SUS-093]
 
 Dip the halves for 10 minutes in ascorbic acid solution or another anti-darkening, antimicrobial solution. [T:SUS-093]

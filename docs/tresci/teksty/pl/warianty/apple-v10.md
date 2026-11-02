@@ -86,6 +86,8 @@ Zamknięte słoiki przechowuj w czystym, chłodnym, ciemnym i suchym miejscu, ni
 
 Reguła JarAtlas (ostrożna): otwarty słoik trzymaj w lodówce; NCHFP mówi tak o swoim maśle jabłkowym o obniżonej zawartości cukru i o otwartych dżemach i galaretkach, ale nie podaje, jak długo można trzymać to masło jabłkowe po otwarciu. [T:SLO-227]
 
+Reguła JarAtlas (ostrożna): otwarty słoik trzymaj w lodówce i zużyj w ciągu 1 tygodnia. [T:SLO-322]
+
 ## Kiedy wyrzucić
 
 Zanim użyjesz słoika z zapasów, sprawdź, czy pokrywka jest szczelna i trzyma podciśnienie: dobrze zamknięta ma wklęsły środek. [T:SLO-191]

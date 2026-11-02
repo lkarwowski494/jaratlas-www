@@ -170,6 +170,7 @@ const BLOK_SUSZENIA = ['SUS-001', 'SUS-008', 'SUS-024', 'SUS-064', 'SUS-065', 'S
 // p26 (S1): zioła i pestki mają własną temperaturę suszenia ze źródła szczebla 1 (NCHFP), nie 140 °F z SUS-001.
 export const ZAMIENNIKI_SUSZENIA = {
   'garden-herbs-v14': { 'SUS-001': 'SUS-031' },
+  'parsnip-parsley-v10': { 'SUS-001': 'SUS-031' }, // natka pietruszki: zioła suszy się w 95–115 °F (SUS-031), nie w 140 °F jak warzywa (jak garden-herbs-v14; p30)
   'fennel-artichoke-v10': { 'SUS-001': 'SUS-031' },
   'pumpkin-v16': { 'SUS-001': 'SUS-034' },
   // p27 (S4): skóry owocowe mają temperaturę z przepisu NCHFP na skórę (SUS-027) albo na skórę z mango (SUS-030).
