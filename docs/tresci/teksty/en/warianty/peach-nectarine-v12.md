@@ -10,7 +10,9 @@ This card describes the NCHFP method for canning fruit-based baby food, using a 
 
 ## Which fruit
 
-NCHFP allows any chunk-style or puréed fruit, with or without sugar, to be canned this way, but not the fruits excluded from the fruit purée recipe: bananas, dates, figs, Asian pears, tomatoes, melons, papaya, persimmons, ripe mango or coconut. [T:SLO-315,SLO-059]
+NCHFP allows any chunk-style or puréed fruit, with or without sugar, to be canned this way. [T:SLO-315]
+
+JarAtlas rule (cautious): do not use it for the fruits excluded from the NCHFP Fruit Purées recipe (bananas, dates, figs, Asian pears, tomatoes, melons, papaya, persimmons, ripe mango or coconut); NCHFP has no home canning recommendations for purées of these fruits. [T:SLO-054]
 
 This card describes yellow-flesh peaches only; it does not describe nectarines. [T:SLO-128]
 
@@ -19,6 +21,8 @@ NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
 ## Making the purée
 
 Choose ripe, mature yellow-flesh peaches. [T:SLO-128]
+
+Wash and drain the peaches. [T:SLO-187]
 
 Dip them in boiling water for 30–60 seconds until the skins loosen, dip them quickly in cold water and slip off the skins. [T:SLO-128]
 
@@ -89,3 +93,13 @@ When opening the jar, check for an unnatural smell, spurting liquid and cotton-l
 Do not taste food from a jar with an unsealed lid or with signs of spoilage. [T:SLO-190]
 
 JarAtlas rule (cautious): throw out such a jar. [T:SLO-190]
+
+NCHFP warns that spoiled low-acid foods, including tomatoes, may show different signs of spoilage or very few, so every suspect jar of such food should be treated as if it had produced botulinum toxin and handled carefully. [T:SLO-350]
+
+JarAtlas rule (cautious): handle every suspect jar from this card this way. [T:SLO-350]
+
+If a suspect jar is still sealed, put it in a heavy garbage bag, close the bag and put it in a regular trash container. [T:SLO-350]
+
+If it is unsealed, open or leaking, NCHFP says it should be detoxified before disposal; JarAtlas does not repeat that procedure here, so follow the detoxification and clean-up steps on the NCHFP page “Identifying and Handling Spoiled Canned Food” (nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/) and avoid contact with suspect food or liquid. [T:SLO-350]
+
+Contact with botulinum toxin can be fatal if it is swallowed or enters through any openings in the skin, so wear rubber or heavy plastic gloves when handling suspect jars and cleaning up. [T:SLO-350]

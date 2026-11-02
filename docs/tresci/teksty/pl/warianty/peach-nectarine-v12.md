@@ -10,7 +10,9 @@ Ta karta opisuje metodę NCHFP wekowania owocowej żywności dla niemowląt na p
 
 ## Jakie owoce
 
-NCHFP pozwala tak wekować dowolne owoce w kawałkach albo przecier, z cukrem lub bez, ale nie owoce wyłączone z przepisu na przeciery: banany, daktyle, figi, gruszki azjatyckie, pomidory, melony, papaję, persymony, dojrzałe mango ani kokos. [T:SLO-315,SLO-059]
+NCHFP pozwala tak wekować dowolne owoce w kawałkach albo przecier, z cukrem lub bez. [T:SLO-315]
+
+Reguła JarAtlas (ostrożna): nie stosuj tej metody do owoców wyłączonych z przepisu NCHFP na przeciery (banany, daktyle, figi, gruszki azjatyckie, pomidory, melony, papaja, persymony, dojrzałe mango, kokos); dla przecierów z tych owoców NCHFP nie ma zaleceń domowego wekowania. [T:SLO-054]
 
 Ta karta opisuje tylko brzoskwinie o żółtym miąższu; nektarynek nie opisuje. [T:SLO-128]
 
@@ -19,6 +21,8 @@ NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
 ## Przecier
 
 Wybierz dojrzałe brzoskwinie o żółtym miąższu. [T:SLO-128]
+
+Umyj brzoskwinie i odsącz. [T:SLO-187]
 
 Zanurz je we wrzącej wodzie na 30–60 sekund, aż skórka zacznie odchodzić, szybko zanurz w zimnej wodzie i zdejmij skórkę. [T:SLO-128]
 
@@ -89,3 +93,13 @@ Przy otwieraniu sprawdź, czy nie ma nienaturalnego zapachu, tryskającego płyn
 Nie próbuj jedzenia ze słoika z niezamkniętą pokrywką ani z oznakami zepsucia. [T:SLO-190]
 
 Reguła JarAtlas (ostrożna): taki słoik wyrzuć. [T:SLO-190]
+
+NCHFP ostrzega, że zepsute produkty o niskiej kwasowości, w tym pomidory, mogą mieć inne oznaki zepsucia albo prawie żadnych, dlatego każdy podejrzany słoik z takim produktem trzeba traktować tak, jakby powstała w nim toksyna botulinowa, i obchodzić się z nim ostrożnie. [T:SLO-350]
+
+Reguła JarAtlas (ostrożna): tak postępuj z każdym podejrzanym słoikiem z tej karty. [T:SLO-350]
+
+Jeśli podejrzany słoik jest nadal zamknięty, włóż go do grubego worka na śmieci, zamknij worek i wyrzuć go do zwykłego pojemnika na odpady. [T:SLO-350]
+
+Jeśli jest niezamknięty, otwarty albo cieknie, NCHFP zaleca przed wyrzuceniem go odkazić; JarAtlas nie powtarza tu tej procedury, więc postępuj według kroków odkażania i sprzątania ze strony NCHFP „Identifying and Handling Spoiled Canned Food” (nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/) i unikaj kontaktu z podejrzanym jedzeniem albo płynem. [T:SLO-350]
+
+Kontakt z toksyną botulinową może być śmiertelny, gdy zostanie połknięta albo dostanie się przez jakiekolwiek otwory w skórze, dlatego przy podejrzanych słoikach i sprzątaniu noś rękawice gumowe albo z grubego plastiku. [T:SLO-350]
