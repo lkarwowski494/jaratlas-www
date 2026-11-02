@@ -54,6 +54,8 @@ Ferment the kombucha at room temperature, 68–77 °F (20–25 °C), for 7–10 
 
 The recommended pH of finished kombucha is between 2.5 and 4.2. [T:NAP-015]
 
+On day 7, test the pH of the kombucha with a pH strip. [T:NAP-018,NAP-089]
+
 If the kombucha does not reach a pH of 4.2 or lower within 7 days, the culture is probably contaminated or the temperature too low, and the batch should be discarded. [T:NAP-018]
 
 Fermenting for more than 10 days can raise the acidity of kombucha to a potentially harmful level. [T:NAP-017]

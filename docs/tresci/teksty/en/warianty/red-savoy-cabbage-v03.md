@@ -63,6 +63,8 @@ Keep the water at least 1 inch (about 2.5 cm) above the jar tops during processi
 
 Start timing only once the water is boiling. [T:ACI-954]
 
+If the water stops boiling at any time, turn the heat to its highest setting, bring the water back to a vigorous boil and time the whole process again from the beginning. [T:ACI-947]
+
 According to the UCCE handout, up to 1000 ft (up to 300 m) process the jars for 20 minutes. [T:ACI-878,ACI-176]
 
 Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
@@ -75,7 +77,7 @@ The card converts feet to metres and rounds the limits down, towards the longer 
 
 Shortening the time or cooling jars in cold water can also lead to spoilage. [T:ACI-015]
 
-When the time is up, turn off the heat, remove the canner lid and wait 5 minutes before taking the jars out; NCHFP says this wait is not needed for food safety when USDA or University of Georgia times are used. [T:ACI-955]
+When the time is up, turn off the heat, remove the canner lid and wait 5 minutes before taking the jars out; NCHFP waives this wait only for USDA or University of Georgia times, and this recipe’s times are not from them, so do not skip it. [T:ACI-955]
 
 The UCCE handout gives the yield in quarts or pints, but its times do not say which jar size they are for. [T:ACI-878]
 

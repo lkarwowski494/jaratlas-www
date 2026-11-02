@@ -49,6 +49,8 @@ Keep the water at least 1 inch (about 2.5 cm) above the jar tops during processi
 
 Start timing only once the water is boiling. [T:ACI-954]
 
+If the water stops boiling at any time, turn the heat to its highest setting, bring the water back to a vigorous boil and time the whole process again from the beginning. [T:ACI-947]
+
 Do not seal the jars with paraffin or wax: NCHFP no longer recommends paraffin or wax seals for any sweet spread, because of possible mold contamination. [T:SLO-002]
 
 Up to 1000 ft (up to 300 m) process half-pint and pint jars for 5 minutes. [T:ACI-609,ACI-176]

@@ -53,6 +53,14 @@ At 3001–6000 ft (above 900 m up to 1800 m): hot pack 15 minutes for pints and 
 
 Above 6000 ft (above 1800 m): hot pack 20 minutes for pints and 25 for quarts, raw pack 35 and 40 minutes. [T:FER-101,ACI-176]
 
+Keep the water at least 1 inch (about 2.5 cm) above the jar tops during processing, and 2 inches (about 5 cm) above the jars if the processing time is over 30 minutes; if needed, add boiling water around the jars, not onto them. [T:ACI-953]
+
+Start timing only once the water is boiling. [T:ACI-954]
+
+If the water stops boiling at any time, turn the heat to its highest setting, bring the water back to a vigorous boil and time the whole process again from the beginning. [T:ACI-947]
+
+When the time is up, turn off the heat, remove the canner lid and wait 5 minutes before taking the jars out; NCHFP says this wait is not needed for food safety when USDA or University of Georgia times are used. [T:ACI-955]
+
 The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m, 3000 ft becomes 900 m and 6000 ft becomes 1800 m. [T:ACI-176]
 
 Shortening the time or cooling jars in cold water can lead to spoilage. [T:ACI-015]

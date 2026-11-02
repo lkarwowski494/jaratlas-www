@@ -11797,7 +11797,7 @@
  },
  {
   "id": "SLO-069",
-  "twierdzenie": "Owoce kandyzowane zatrzymują nieco wody: przechowuje się je w szczelnym pojemniku w lodówce i zużywa w ciągu tygodnia, albo dosusza całkowicie i trzyma w chłodnym, ciemnym miejscu.",
+  "twierdzenie": "Owoce kandyzowane zatrzymują nieco wody: przechowuje się je w szczelnym pojemniku w lodówce i zużywa w ciągu tygodnia, albo dosusza całkowicie w suszarce do żywności i trzyma w chłodnym, ciemnym miejscu.",
   "zrodla": [
    {
     "adres": "https://extension.missouri.edu/sites/default/files/2026-09/hes173.pdf",
@@ -58511,6 +58511,30 @@
   "klaster": "ACI",
   "pochodzenie": "06 p35 (tor B)",
   "jednoZrodlo": true
+ },
+ {
+  "id": "ACI-947",
+  "twierdzenie": "NCHFP (kąpiel wodna): jeśli w którymkolwiek momencie wekowania woda przestanie wrzeć, ustawić najwyższy ogień, doprowadzić ją z powrotem do silnego wrzenia i odmierzać cały czas wekowania od początku.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-boiling-water-canners/",
+    "miejsce": "NCHFP, Using Boiling Water Canners, procedura (krok o utrzymaniu wrzenia)",
+    "cytat": "If the water stops boiling at any time during the process, turn the heat on its highest setting, bring the water back to a vigorous boil, and begin the timing of the process over, from the beginning (using the total original process time).",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "54ebd9d95d36"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "06 p35 (tor A), po V1 D-027 d",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP (boiling-water canning): if the water stops boiling at any time during processing, turn the heat to its highest setting, bring the water back to a vigorous boil and time the whole process again from the beginning."
  },
  {
   "id": "SUS-358",

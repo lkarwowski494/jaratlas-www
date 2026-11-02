@@ -1,4 +1,4 @@
-# Pickled eggs: the tested NCHFP dilled eggs, no curry version
+# Pickled eggs: the NCHFP dilled eggs, no curry version
 
 NCHFP has no recipe for pickled eggs in a curry or turmeric brine, so this card describes the NCHFP recipe for dilled eggs, which are kept only in the refrigerator. [T:MIE-135,MIE-082]
 
@@ -38,7 +38,7 @@ Place the eggs in cold water and peel them when cool, starting at the large end;
 
 Bring all the ingredients except the eggs to a boil, reduce the heat and simmer for 5 minutes. [T:MIE-131,MIE-088]
 
-Pack no more than one dozen eggs loosely into a warm, pre-sterilized quart jar, or a similar container that can be closed tightly. [T:MIE-131]
+Pack no more than one dozen eggs loosely into a warm, pre-sterilized quart jar, or another container of similar size that can be closed tightly. [T:MIE-131]
 
 There must be plenty of pickling solution, enough to cover the eggs completely. [T:MIE-131]
 

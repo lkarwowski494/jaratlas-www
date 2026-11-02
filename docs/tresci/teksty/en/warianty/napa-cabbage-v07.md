@@ -65,6 +65,8 @@ According to CSU, the final salt concentration of kimchi is 2–5% and its optim
 
 According to UGA Extension, after about 2 weeks fermentation makes kimchi acidic enough, with a pH below 4.6, to inhibit most foodborne pathogens; early in fermentation the pH may still be too high. [T:FER-063]
 
+JarAtlas rule (cautious): this does not mean fermenting kimchi for 2 weeks at room temperature; after the 1–2 days of option 2, keep it in the refrigerator. [T:FER-114,FER-062]
+
 ## Storing
 
 Store the kimchi tightly covered in the refrigerator, pressed down to minimize air exposure; it may become more sour over time. [T:FER-114]

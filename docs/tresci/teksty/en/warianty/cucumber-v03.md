@@ -13,7 +13,7 @@ In the NCHFP recipe garlic is an optional ingredient: 2 cloves for each gallon o
 
 JarAtlas rule (cautious): NCHFP does not test more garlic or a brine without vinegar, so do not add more garlic, do not leave out the vinegar and do not change the amount of salt. [T:FER-110]
 
-In industry, brines for bulk cucumber fermentation equalize to at least 5% salt; 2% salt is the level used for cabbage and other ready-to-eat fermented vegetables. [T:FER-053]
+This is industrial practice, not a home recipe: in industry, brines for bulk cucumber fermentation equalize to at least 5% salt; 2% salt is the level used for cabbage and other ready-to-eat fermented vegetables. [T:FER-053]
 
 ## Ingredients
 
@@ -72,6 +72,14 @@ Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
 At 1001–6000 ft (above 300 m up to 1800 m) process pints for 15 minutes and quarts for 20. [T:FER-096,ACI-176]
 
 Above 6000 ft (above 1800 m) process pints for 20 minutes and quarts for 25. [T:FER-099,ACI-176]
+
+Keep the water at least 1 inch (about 2.5 cm) above the jar tops during processing, and 2 inches (about 5 cm) above the jars if the processing time is over 30 minutes; if needed, add boiling water around the jars, not onto them. [T:ACI-953]
+
+Start timing only once the water is boiling. [T:ACI-954]
+
+If the water stops boiling at any time, turn the heat to its highest setting, bring the water back to a vigorous boil and time the whole process again from the beginning. [T:ACI-947]
+
+When the time is up, turn off the heat, remove the canner lid and wait 5 minutes before taking the jars out; NCHFP says this wait is not needed for food safety when USDA or University of Georgia times are used. [T:ACI-955]
 
 The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m and 6000 ft becomes 1800 m. [T:ACI-176]
 

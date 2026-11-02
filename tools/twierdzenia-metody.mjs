@@ -33,6 +33,10 @@ export const WSPOLNE = {
   'OLE-020': ['dry-storage', 'refrigerator'], // suszone zioła nie zabezpieczają oleju: susz czosnku garlic-v15 i olej szczypiorkowy leek-chives-v08 (p32)
   'OLE-023': ['freezer', 'refrigerator'], // warunki toksyny botulinowej w oleju: karty mrożenia ziół/warzyw w oleju i olej lodówkowy leek-chives-v08 (p32)
   'OLE-027': ['freezer', 'refrigerator', 'water-bath'], // zagrożenia nie widać, nie czuć: karty mrożenia w oleju, olej lodówkowy leek-chives-v08 (p32) i wymagane ostrzeżenie karty-ostrzeżenia eggplant-v04 (p34, B21; zdanie niezależne od metody)
+  'ACI-947': ['water-bath', 'refrigerator'], // NCHFP Using Boiling Water Canners (p35): karty kąpieli i opcja wekowania w kartach kiszonek lodówkowych cucumber-v03, white-cabbage-v03
+  'ACI-953': ['water-bath', 'refrigerator'], // NCHFP Using Boiling Water Canners (p35): karty kąpieli i opcja wekowania w kartach kiszonek lodówkowych cucumber-v03, white-cabbage-v03
+  'ACI-954': ['water-bath', 'refrigerator'], // NCHFP Using Boiling Water Canners (p35): karty kąpieli i opcja wekowania w kartach kiszonek lodówkowych cucumber-v03, white-cabbage-v03
+  'ACI-955': ['water-bath', 'refrigerator'], // NCHFP Using Boiling Water Canners (p35): karty kąpieli i opcja wekowania w kartach kiszonek lodówkowych cucumber-v03, white-cabbage-v03
   'MLE-021': ['refrigerator', 'dry-storage'], // fermentowane mleko pH 4,6 lub niżej w 48 h: karta-ostrzeżenie kashk yogurt-skyr-v11 (suszenie) i jogurty lodówkowe yogurt-skyr-v01/v02/v04 (p35)
   'SLO-036': ['water-bath', 'dry-storage'], // miód a niemowlęta poniżej 12 miesięcy (FDA): mus dla niemowląt peach-nectarine-v12 (p29) i skóra z mango z miodem mango-papaya-v10 (p30, D4-7-02)
 };
