@@ -8,9 +8,13 @@ Lista FDA podaje dla pomidorów pH ok. 4,30–4,90, więc część pomidorów ma
 
 Pomidory wekowane jako żywność kwaśna trzeba zakwasić do pH 4,6 lub niższego. [T:ACI-008]
 
+Nie używaj pomidorów z obumarłych ani przemarzniętych krzaków. [T:ACI-049]
+
 W tym przepisie kwas cytrynowy trzeba wmieszać do przetartych pomidorów, zanim odparuje się je na koncentrat; dodanie go do słoików, jak przy innych przetworach pomidorowych, nie rozprowadza kwasu równo w koncentracie. [T:ACI-302]
 
 Zachowaj tę samą proporcję kwasu cytrynowego do funtów pomidorów. [T:ACI-302]
+
+Reguła JarAtlas (ostrożna): nie dodawaj innych warzyw i nie zmieniaj ilości pomidorów ani kwasu cytrynowego; mieszaniny żywności niskokwasowej i kwaśnej mają pH powyżej 4,6, chyba że przepis zawiera dość kwasu, a ten przepis jest przetestowany tylko w podanych proporcjach. [T:ACI-265,ACI-006]
 
 ## Składniki
 

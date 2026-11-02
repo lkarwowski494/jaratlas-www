@@ -8,7 +8,9 @@ The FDA list gives tomatoes a pH of about 4.30–4.90, so some tomatoes have a p
 
 Tomatoes canned as an acid food must be acidified to pH 4.6 or lower. [T:ACI-008]
 
-In this recipe the vinegar provides the acid; do not alter the vinegar, food or water proportions and do not use vinegar of unknown acidity. [T:ACI-016]
+Do not use tomatoes from dead or frost-killed vines. [T:ACI-049]
+
+This recipe gets its acid only from the vinegar (most mixtures of low-acid and acid foods have a pH above 4.6 unless the recipe includes enough lemon juice, citric acid or vinegar); do not alter the vinegar, food or water proportions and do not use vinegar of unknown acidity. [T:ACI-006,ACI-016]
 
 JarAtlas rule (cautious): do not change the amounts of the acid ingredients or of the fruit and vegetables; the recipe is tested only in the proportions given. [T:ACI-265]
 

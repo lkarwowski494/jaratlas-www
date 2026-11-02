@@ -27884,7 +27884,7 @@
  },
  {
   "id": "ACI-265",
-  "twierdzenie": "Ostrożna reguła JarAtlas dla przepisów NCHFP zakwaszanych octem albo sokiem z cytryny: nie zmieniaj ilości składników kwaśnych (ocet, sok z cytryny, sok owocowy) ani warzyw; nie zmniejszaj ilości octu; przepis jest przetestowany tylko w podanych proporcjach.",
+  "twierdzenie": "Ostrożna reguła JarAtlas dla przepisów NCHFP zakwaszanych octem, sokiem z cytryny albo kwasem cytrynowym: nie zmieniaj ilości składników kwaśnych (ocet, sok z cytryny, sok owocowy, kwas cytrynowy) ani warzyw, owoców i naparów (np. naparu miętowego); nie dodawaj innych warzyw; nie zmniejszaj ilości octu; przepis jest przetestowany tylko w podanych proporcjach.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
@@ -27897,7 +27897,7 @@
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "Uogólnienie JarAtlas z uwagi NCHFP do Golden Pepper Jelly i z ACI-016 (proporcje octu, warzyw i wody) na inne przepisy zakwaszane (sok z cytryny, sok ananasowy); działa w stronę bezpieczną.",
+  "uproszczenie": "Uogólnienie JarAtlas z uwagi NCHFP do Golden Pepper Jelly i z ACI-016 (proporcje octu, warzyw i wody) na inne przepisy zakwaszane (sok z cytryny, sok ananasowy); działa w stronę bezpieczną. Rozszerzenie 2026-11-02 (partia 8, weryfikacja zastępcza): kwas cytrynowy, napary, zakaz dodawania innych warzyw.",
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",

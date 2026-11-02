@@ -4,7 +4,7 @@ This card describes the NCHFP recipe for apricot jam without added pectin: crush
 
 ## !
 
-- Apricot pH varies: the US FDA list gives 3.30–4.80, so the upper end is above 4.6, the limit for acid foods. [T:ACI-135,ACI-308,ACI-001] This recipe is tested with lemon juice: do not leave it out or reduce it, and do not reduce the sugar. [T:ACI-308]
+- Apricot pH varies: the US FDA list gives 3.30–4.80, so the upper end is above 4.6, the limit for acid foods. [T:ACI-135,ACI-308,ACI-001] This recipe is tested with lemon juice: do not leave it out or reduce it, and do not reduce the sugar. [T:ACI-308,SLO-001]
 
 ## Ingredients
 
@@ -12,7 +12,7 @@ NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
 
 For about 10 half-pint jars NCHFP uses 2 quarts (about 1.9 l) of crushed, peeled apricots, 1/4 cup of lemon juice and 6 cups of sugar. [T:ACI-305]
 
-JarAtlas rule (cautious): use bottled lemon juice in the amount given; NCHFP notes that fresh lemon juice can vary in acidity. [T:ACI-314,SLO-039]
+JarAtlas rule (cautious): use bottled lemon juice in the amount given; NCHFP notes, in its lemon curd recipe, that fresh lemon juice can vary in acidity. [T:ACI-314,SLO-039]
 
 NCHFP warns not to reduce the sugar in traditional recipes: too little sugar prevents gelling and may allow yeasts and molds to grow. [T:SLO-001]
 

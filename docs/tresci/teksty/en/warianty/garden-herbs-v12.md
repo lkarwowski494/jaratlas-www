@@ -4,9 +4,9 @@ This card describes the NCHFP recipe for mint jelly: an infusion of fresh mint m
 
 ## Why you must not change the recipe
 
-The FDA list gives parsley, a garden herb, a pH of about 5.70–6.00, so herbs on their own are not an acid food. [T:ACI-117]
+The FDA list gives parsley, a garden herb, a pH of about 5.70–6.00; herbs and infusions made from them are not naturally acidic, so a herb jelly can be canned only with a tested amount of added acid and sugar, as in this recipe. [T:ACI-117,SLO-068]
 
-JarAtlas rule (cautious): do not change the amounts of the acid ingredients or of the fruit and vegetables; the recipe is tested only in the proportions given. [T:ACI-265]
+JarAtlas rule (cautious): do not change the amounts of the acid ingredient (lemon juice) or of the mint juice; the recipe is tested only in the proportions given. [T:ACI-265]
 
 NCHFP warns not to reduce the sugar in traditional recipes: too little sugar prevents gelling and may allow yeasts and molds to grow. [T:SLO-001]
 
@@ -16,7 +16,7 @@ NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
 
 For about 3 or 4 half-pint jars NCHFP uses 1 3/4 cups of mint juice (made from 1 1/2 cups of firmly packed fresh mint and 2 1/4 cups of water), 3 1/2 cups of sugar, 2 tablespoons of lemon juice and 1 pouch (3 ounces) of liquid pectin. [T:ACI-309]
 
-JarAtlas rule (cautious): use bottled lemon juice in the amount given; NCHFP notes that fresh lemon juice can vary in acidity. [T:ACI-314,SLO-039]
+JarAtlas rule (cautious): use bottled lemon juice in the amount given; NCHFP notes, in its lemon curd recipe, that fresh lemon juice can vary in acidity. [T:ACI-314,SLO-039]
 
 ## Preparing the mint juice
 
