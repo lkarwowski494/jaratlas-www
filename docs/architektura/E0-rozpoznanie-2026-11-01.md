@@ -26,7 +26,7 @@ Prompt roli: `prompts` @ eb3b4e7, `node tools/assemble.mjs 05-architekt --tryb b
 | Wejście z Google na kartę wariantu `/{lang}/{product}/{variant}/` | wariant + produkt + rodzina + rejestr twierdzeń | statyczny HTML z generatora | tylko `publication: opublikowana` |
 | Strona produktu `/{lang}/{product}/` z tabelą wariantów | produkt + jego opublikowane warianty | jw. | **powstaje tylko, gdy ma ≥1 opublikowany wariant** (inaczej strona-zaślepka, §6.7) |
 | Strona rodziny procesu (adres `[DO DECYZJI]`, np. `/{lang}/proces/{family}/`) | rodzina, progi, zakazy | jw. | rodziny nie mają dziś nazw ani treści w katalogu |
-| Wybór języka `/` (x-default) | lista języków z opublikowaną treścią | jw. | bez automatycznego przekierowania (§6.3) |
+| Wybór języka `/` (x-default) | lista języków z opublikowaną treścią | jw. | bez automatycznego przekierowania (§6.3) (nieaktualne od 2026-11-02: `/` → `/en/`, x-default = wersja en; ADR 0002, 0004, zmiana 2026-11-02) |
 | Filtry (smak, czas, sezon, sprzęt) | `variants[].filters` | JS po stronie klienta na fragmencie `#…` | dziś wszystkie `filters` = `null` |
 | Mapa strony | lista opublikowanych stron × języki | `sitemap.xml` (+ indeks przy > 50 000) | |
 | Ostrzeżenia bezpieczeństwa | `ryzyko-wysokie`, `nie-publikowac`, `requiredWarnings` | szablon `cardType: warning`, bez `Recipe`, **bez reklam** | uwaga D-027 (c) na każdej karcie z oceną bezpieczeństwa |
@@ -58,7 +58,7 @@ Offline, praca w tle, uprawnienia, dane użytkownika: **sprawdzone, brak** (stro
 1. Generator: własny skrypt Node bez zależności · Eleventy · Astro.
 2. Adresy i slugi: identyfikator jako slug we wszystkich językach · slug w języku odbiorcy (`slug.{lang}`) z identyfikatorem stałym w danych.
 3. Bramka publikacji: kiedy powstaje strona produktu i rodziny (≥1 opublikowany wariant; własna treść rodziny).
-4. hreflang i kanoniczne adresy: tylko języki, w których strona istnieje; `x-default` → `/`.
+4. hreflang i kanoniczne adresy: tylko języki, w których strona istnieje; `x-default` → `/`. *(Nieaktualne od 2026-11-02: `x-default` → wersja en, `/` → `/en/`; ADR 0004, zmiana 2026-11-02.)*
 5. Mapa strony: jedna albo indeks map, tylko opublikowane; `lastmod` z daty treści.
 6. Filtry: fragment `#` + JS bez wpływu na indeks.
 7. Szablon ostrzeżeń: `cardType: warning`, brak `Recipe`, brak miejsc reklamowych, uwaga D-027 (c).

@@ -22,3 +22,8 @@ Przekazanie Słoika §6.1 i §6.4: osobny adres na język w `/{lang}/`, karta `/
 - Dobre: zgodne z zaleceniem Google; katalog aplikacji bez pól strony. · Złe: slugi trzeba przetłumaczyć (wsadowo przez Claude API, decyzja `2026-11-01-jaratlas-tlumaczenia-api`) i pilnować kolizji. · Zależy od: ADR hostingu (przekierowania).
 ### Potwierdzenie
 Test `tests/site-slugi.test.mjs`: format, unikalność, kolizja z prefiksem, brak slugu → brak strony.
+
+## Zmiana 2026-11-02 (rola 10 za 05, decyzja właściciela `2026-11-02-jaratlas-en-baza`)
+- Nowy adres: `/{lang}/` = strona języka (katalog `katalogJezyka`, np. `/en/`, `/pt-br/`); powstaje tylko dla języka z ≥ 1 stroną encji w planie (bramka ADR 0003). Powód: `/` i okruszki stron produktu linkowały do `/{lang}/`, którego plan nie tworzył (404).
+- `/` kieruje na `/en/`: `rel=canonical` → `https://jaratlas.com/en/`, `<meta http-equiv="refresh" content="0; url=/en/">` i widoczny odnośnik (bez JS), pod spodem lista istniejących `/{lang}/`. Cel stały, nie według języka przeglądarki (przekazanie §6.3 bez zmian). `/` zostaje stroną z planu, nie wpisem 301 (`site/adresy.json` bez zmian; GitHub Pages nie ma serwerowego 301, ADR 0007).
+- Dopóki `/en/` nie ma w planie, `/` jest stroną wyboru języka bez refresh, kanoniczny = `/` (decyzja Claude, do weta). Testy: `tests/site.test.mjs` „„/”: …”.

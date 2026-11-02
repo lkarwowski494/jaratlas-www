@@ -19,3 +19,7 @@ Jedna czysta funkcja `planStron(katalog, slugi, tresci)` zwraca listę stron; ge
 - Dobre: jedno miejsce reguły; mapa nie może zawierać zaślepki. · Złe: strona produktu znika, gdy wycofamy jedyny wariant (wtedy przekierowanie, ADR hostingu).
 ### Potwierdzenie
 Testy: ukryty wariant nie ma pliku i nie jest w mapie; produkt bez opublikowanych wariantów nie ma pliku; podział mapy przy 50 001 adresach.
+
+## Zmiana 2026-11-02 (rola 10 za 05)
+- Strona języka `/{lang}/`: tylko przy ≥ 1 stronie encji (wariant, produkt, rodzina) w tym języku; wymienia tylko produkty i rodziny ze stronami. Jest w mapie strony; `/` nadal nie.
+- `/`: lista języków = języki ze stroną języka. Test: „każdy odnośnik wewnętrzny prowadzi do strony z planu”.

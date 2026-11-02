@@ -1,5 +1,5 @@
 // Szablony HTML (semantyczne, bez systemu wizualnego; wygląd: rola 04). Czyste funkcje.
-import { DOMENA, JEZYK_BAZOWY } from './konfiguracja.mjs';
+import { DOMENA, JEZYK_BAZOWY, katalogJezyka } from './konfiguracja.mjs';
 
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const abs = (sciezka) => DOMENA + encodeURI(sciezka);
@@ -14,7 +14,9 @@ export function glowa(st, tytul, opis) {
     '<meta name="viewport" content="width=device-width, initial-scale=1">',
     `<title>${esc(tytul)}</title>`,
     opis ? `<meta name="description" content="${esc(opis)}">` : '',
-    `<link rel="canonical" href="${esc(abs(st.sciezka))}">`,
+    // „/” z celem (/en/): kanoniczny = cel, bo „/” tylko na niego kieruje (decyzja 2026-11-02-jaratlas-en-baza).
+    `<link rel="canonical" href="${esc(abs(st.cel ?? st.sciezka))}">`,
+    st.cel ? `<meta http-equiv="refresh" content="0; url=${esc(encodeURI(st.cel))}">` : '',
     ...alt,
   ].filter(Boolean).join('\n');
 }
@@ -60,9 +62,18 @@ export function stronaRodziny(st, tr, ui) {
 }
 
 export function stronaWyboruJezyka(st, nazwyJezykow) {
-  const lista = st.jezyki.map((l) => `<li><a href="/${esc(l.toLowerCase())}/" hreflang="${esc(l)}" lang="${esc(l)}">${esc(nazwyJezykow[l] ?? l)}</a></li>`).join('');
-  // Bez automatycznego przekierowania według języka (przekazanie §6.3).
-  return strona(st, 'JarAtlas', null, `<main data-typ="wybor-jezyka">\n<h1>JarAtlas</h1>\n<ul>${lista}</ul>\n</main>`);
+  const odnosnik = (l) => `<a href="/${esc(katalogJezyka(l))}/" hreflang="${esc(l)}" lang="${esc(l)}">${esc(nazwyJezykow[l] ?? l)}</a>`;
+  const lista = st.jezyki.map((l) => `<li>${odnosnik(l)}</li>`).join('');
+  // Bez przekierowania według języka przeglądarki (przekazanie §6.3): cel stały (/en/), refresh w glowa(), widoczny odnośnik bez JS.
+  const doCelu = st.cel ? `<p>${odnosnik(JEZYK_BAZOWY)}</p>\n` : '';
+  return strona(st, 'JarAtlas', null, `<main data-typ="wybor-jezyka">\n<h1>JarAtlas</h1>\n${doCelu}<ul>${lista}</ul>\n</main>`);
+}
+
+// Strona języka /{kat}/ (ADR 0004, zmiana 2026-11-02): uwaga D-027 (c), lista produktów i rodzin; bez reklam (ADR 0005).
+// produkty, rodziny: [{ nazwa, sciezka }]. Teksty nagłówków i opisu z site/teksty/{lang}.json (rola 04).
+export function stronaJezyka(st, produkty, rodziny, ui) {
+  const lista = (naglowek, el) => (el.length ? `<section><h2>${esc(naglowek)}</h2><ul>${el.map((e) => `<li><a href="${esc(encodeURI(e.sciezka))}">${esc(e.nazwa)}</a></li>`).join('')}</ul></section>\n` : '');
+  return strona(st, 'JarAtlas', ui.opisStronyJezyka, `<main data-typ="jezyk">\n<h1>JarAtlas</h1>\n${uwagaD027(ui)}\n${lista(ui.produkty, produkty)}${lista(ui.rodziny, rodziny)}</main>`);
 }
 
 export const okruszki = (elementy) => `<nav aria-label="breadcrumb"><ol>${elementy.map((e) => `<li><a href="${esc(encodeURI(e.sciezka))}">${esc(e.nazwa)}</a></li>`).join('')}</ol></nav>`;

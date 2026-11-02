@@ -1,5 +1,5 @@
 // Plan stron: jedyne miejsce bramki publikacji (ADR 0003). Czysta funkcja, bez I/O.
-import { JEZYKI, PISMA_NIELACINSKIE, katalogJezyka } from './konfiguracja.mjs';
+import { JEZYKI, PISMA_NIELACINSKIE, JEZYK_BAZOWY, katalogJezyka } from './konfiguracja.mjs';
 
 const SLUG_LACINSKI = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 // Lista dozwolonych (07-jakosc-003): małe litery (Ll), znaki modyfikujące (Lm, np. japońskie „ー”), litery bez wielkości (Lo: kana, hangul, han),
@@ -66,22 +66,29 @@ export function planStron(katalog, slugi, tresci) {
       if (!wariantyProduktu.has(k)) wariantyProduktu.set(k, []);
       wariantyProduktu.get(k).push(v.id);
     }
+    const produkty = [], rodziny = [];
     for (const p of katalog.products) {
       const ids = wariantyProduktu.get(`${lang}|${p.id}`);
       if (!ids) continue; // produkt bez opublikowanego wariantu = brak strony (ADR 0003)
       strony.push({ typ: 'produkt', encja: `produkt:${p.id}`, lang, sciezka: `/${kat}/${s.produkty[p.id]}/`, id: p.id, warianty: ids });
+      produkty.push(p.id);
     }
     for (const f of katalog.processFamilies) {
       const sf = s.rodziny?.[f.id];
       if (!sf || !s.rodziny?._prefiks || !t.rodziny?.[f.id]) continue;
       strony.push({ typ: 'rodzina', encja: `rodzina:${f.id}`, lang, sciezka: `/${kat}/${s.rodziny._prefiks}/${sf}/`, id: f.id });
+      rodziny.push(f.id);
     }
+    // Strona języka /{kat}/ tylko przy ≥1 stronie encji w tym języku (ta sama bramka, ADR 0003; zmiana 2026-11-02).
+    if (produkty.length || rodziny.length) strony.push({ typ: 'jezyk', encja: 'jezyk', lang, sciezka: `/${kat}/`, produkty, rodziny });
   }
   const sciezki = strony.map((x) => x.sciezka);
   const dup = sciezki.filter((x, i) => sciezki.indexOf(x) !== i);
   if (dup.length) bledy.push(`kolizja adresów: ${[...new Set(dup)].join(', ')}`);
-  const jezyki = [...new Set(strony.map((x) => x.lang))].sort();
-  strony.push({ typ: 'wybor-jezyka', encja: 'wybor-jezyka', lang: null, sciezka: '/', jezyki });
+  // „/”: języki = te ze stroną języka; cel = /en/ tylko, gdy strona en istnieje (decyzja 2026-11-02-jaratlas-en-baza).
+  const jezyki = strony.filter((x) => x.typ === 'jezyk').map((x) => x.lang).sort();
+  const cel = strony.find((x) => x.typ === 'jezyk' && x.lang === JEZYK_BAZOWY)?.sciezka ?? null;
+  strony.push({ typ: 'wybor-jezyka', encja: 'wybor-jezyka', lang: null, sciezka: '/', jezyki, cel });
   // Alternatywy hreflang: ta sama encja w innych językach (ADR 0004); zbiór symetryczny z konstrukcji.
   const poEncji = new Map();
   for (const st of strony) if (st.lang) (poEncji.get(st.encja) ?? poEncji.set(st.encja, []).get(st.encja)).push(st);
