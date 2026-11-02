@@ -1,0 +1,590 @@
+{
+ "id": "2026-11-02-jaratlas-d1-przeglad-p1",
+ "data": "2026-11-02",
+ "baza": "claude/happy-brown-yncplj de0af15",
+ "metoda": "Organizator (Claude) przygotował 6 pakietów: tekst karty en/pl z numerami linii (docs/tresci/teksty/*/warianty) i lista twierdzeń z rejestru (treść, cytat, adres, szczebel) — bez raportów E3, notatek katalogu, decyzji i uzasadnień autorów. 6 podagentów (Opus, effort medium), każdy w świeżym kontekście, sam pobierał źródła (curl, pdftotext) i sprawdzał cytaty dosłownie. Organizator scalił wyniki, sprawdził w repo jedno zastrzeżenie warunkowe (brak strony o metodzie) i rozstrzygnął punkty sporne B3 wariantem ostrożniejszym.",
+ "karty": [
+  "zucchini-v05",
+  "zucchini-v08",
+  "beetroot-v06",
+  "garden-herbs-v12",
+  "tomato-v08",
+  "tomato-v09",
+  "tomato-v10",
+  "tomato-v11",
+  "tomato-v13",
+  "bell-pepper-v01",
+  "bell-pepper-v09",
+  "chili-pepper-v13",
+  "corn-v09",
+  "apple-v09",
+  "apple-v10",
+  "apple-v13",
+  "apple-v16",
+  "pear-v07",
+  "apricot-v06",
+  "apricot-v08",
+  "peach-nectarine-v06",
+  "peach-nectarine-v07",
+  "quince-v08",
+  "plum-v13",
+  "plum-v14",
+  "sour-cherry-v08",
+  "sour-cherry-v09",
+  "sour-cherry-v10"
+ ],
+ "karty_liczba": 28,
+ "zostalo_partia2": 23,
+ "twierdzenia_sprawdzone": 387,
+ "cytaty_dosłowne_ok": 662,
+ "cytaty_niepotwierdzone": [
+  {
+   "id": "SZY-026",
+   "adres": "https://hgic.clemson.edu/preserving-summer-squash/",
+   "powod": "Źródło niedostępne: Cloudflare blokuje pobranie („Sorry, you have been blocked”), więc tego cytatu nie dało się sprawdzić. Samo twierdzenie potwierdzają dosłownie dwa pozostałe źródła: NCHFP blog („Canning summer squash (without pickling) is not recommended”) i OSU („There is uncertainty related to the determination of research-based processing times.”)."
+  }
+ ],
+ "zrodla_niedostepne": [
+  "https://hgic.clemson.edu/preserving-summer-squash/"
+ ],
+ "liczby": {
+  "P0": 0,
+  "P1": 3,
+  "P2": 18,
+  "P3": 16
+ },
+ "liczby_przed_scaleniem": {
+  "P0": 0,
+  "P1": 11,
+  "P2": 19,
+  "P3": 16
+ },
+ "ustalenia": [
+  {
+   "id": "D1-S-01",
+   "karta": "zucchini-v05, zucchini-v08, beetroot-v06, garden-herbs-v12, tomato-v08, tomato-v09, tomato-v10, tomato-v11, tomato-v13, bell-pepper-v01, bell-pepper-v09, chili-pepper-v13, corn-v09, apple-v09, apple-v10, apple-v13, apple-v16, pear-v07, apricot-v06, apricot-v08, peach-nectarine-v06, peach-nectarine-v07, quince-v08, plum-v13, plum-v14, sour-cherry-v08, sour-cherry-v09, sour-cherry-v10",
+   "poziom": "P1",
+   "plik_linia": "wszystkie 28 kart partii 1 (en i pl); przykłady: docs/tresci/teksty/en/warianty/apple-v09.md:33, zucchini-v05.md, beetroot-v06.md, sour-cherry-v08.md; szablon site/szablony.mjs nie dodaje sekcji o metodzie",
+   "twierdzenie": null,
+   "problem": "Karty podają czasy procesu, ale nie opisują prowadzenia kąpieli wodnej: woda co najmniej 1 cal (2,5 cm) nad słoikami (2 cale, 5 cm, przy procesie > 30 min, np. beetroot-v06 35–45 min na wysokości), odliczanie czasu dopiero od pełnego wrzenia, odliczanie od nowa po przerwaniu wrzenia. Strona nie ma ogólnej strony o metodzie ani linku do niej (sprawdzone: site/szablony.mjs, site/tresci/en/ ma tylko warianty). Czas z tabeli bez tych warunków może dać niedogrzanie.",
+   "zrodlo_cytat": "„Add more boiling water, if needed, so the water level is at least one inch above the jar tops. […] For process times over 30 minutes, the water level should be 2 inches above the jars.” · „Set a timer (after the water is boiling) for the total minutes required for processing the food.” · „If the water stops boiling at any time during the process, turn the heat on its highest setting, bring the water back to a vigorous boil, and begin the timing of the process over”",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/general-information/using-boiling-water-canners/",
+   "poprawka": "Tor A: wspólny blok „Jak prowadzić kąpiel wodną” w każdej karcie water-bath (albo jedna strona ogólna z linkiem z każdej karty), ze znacznikami nowych twierdzeń z tej strony NCHFP; 1 cal = 2,5 cm, 2 cale = 5 cm.",
+   "uwagi": "Scalone z D1-1-01..04 i D1-4-01..05 (P1) oraz D1-6-05 (P2 warunkowo: P1, jeśli brak strony ogólnej; warunek spełniony). Recenzenci pakietów 2, 3 i 5 tego nie zgłosili; ostrożniejsza ocena wybrana przez organizatora. Prawdopodobnie dotyczy też 23 kart partii 2.",
+   "zrodla_ustalen": [
+    "D1-1-01",
+    "D1-1-02",
+    "D1-1-03",
+    "D1-1-04",
+    "D1-4-01",
+    "D1-4-02",
+    "D1-4-03",
+    "D1-4-04",
+    "D1-4-05",
+    "D1-6-05"
+   ]
+  },
+  {
+   "id": "D1-1-05",
+   "karta": "garden-herbs-v12",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/en/warianty/garden-herbs-v12.md:7; docs/tresci/teksty/pl/warianty/garden-herbs-v12.md:7",
+   "twierdzenie": "SLO-068",
+   "problem": "Zdanie mówi, że galaretkę ziołową można wekować tylko z przetestowaną ilością dodanego kwasu „i” cukru, a OSU mówi o kwasie, cukrze „albo” ich połączeniu. Karta jest tu bardziej restrykcyjna niż źródło, więc jest to bezpieczne, ale nie oddaje źródła dosłownie. Poza tym pH pietruszki (ACI-117) to tylko pośredni dowód dla mięty.",
+   "zrodlo_cytat": "To be safe for canning, you would need to add a tested amount of acid (like lemon juice), sugar or a combination of the two.",
+   "zrodlo_adres": "https://extension.oregonstate.edu/ask-extension/featured/jelly-made-dandelion-or-grape-hyacinth-tea-considered-safe",
+   "poprawka": "„…so a herb jelly can be canned only by a tested recipe that adds a tested amount of acid, sugar or both, as this recipe does.” / pl: „…tylko według przetestowanego przepisu z przetestowaną ilością dodanego kwasu, cukru albo obu, jak w tym przepisie.”",
+   "uwagi": "Bez wpływu na bezpieczeństwo, bo w tym przepisie są i kwas, i cukier. Ta sama lista FDA (s. z ACI-117) podaje „Mint Jelly 3.01”, ale to pH gotowego produktu, a nie naparu, więc nie zastępuje dowodu, że napar nie jest kwaśny."
+  },
+  {
+   "id": "D1-1-06",
+   "karta": "zucchini-v08",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/en/warianty/zucchini-v08.md:21",
+   "twierdzenie": "ACI-260",
+   "problem": "Angielskie „so it means more acidic juice, not less” da się przeczytać jako „sok o wyższej kwasowości”, a chodzi o większą ilość kwaśnego soku. Polskie „więcej kwaśnego soku” jest jednoznaczne.",
+   "zrodlo_cytat": "",
+   "zrodlo_adres": "https://nvlpubs.nist.gov/nistpubs/hb/2025/NIST.HB.44-2025.pdf",
+   "poprawka": "„…so it means more of the acidic juice, not less.”",
+   "uwagi": "Przeliczenie 46 fl oz ≈ 1,36 l (NIST 29,573 53 ml/fl oz) jest poprawne. Puszki 46 oz soku w USA to uncje płynu."
+  },
+  {
+   "id": "D1-2-01",
+   "karta": "tomato-v10",
+   "poziom": "P1",
+   "plik_linia": "docs/tresci/teksty/en/warianty/tomato-v10.md:13",
+   "twierdzenie": "ACI-049",
+   "problem": "Karta v10 (pomidory całe/połówki w soku) jako jedyna w pakiecie nie zawiera ostrzeżenia NCHFP, żeby nie wekować pomidorów z obumarłych lub przemarzniętych krzaków (brak też w pl, linia 13). NCHFP podaje je jako 'Caution' dla wszystkich przetworów pomidorowych; pozostałe karty (v08, v09, v11, v13) je mają.",
+   "zrodlo_cytat": "Caution: Do not can tomatoes from dead or frost-killed vines.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/canning-tomatoes-introduction/",
+   "poprawka": "Dodać w sekcji 'Preparing' (en i pl) zdanie jak w v08: 'Caution (NCHFP): do not can tomatoes from dead or frost-killed vines. [T:ACI-049]' / 'Uwaga (NCHFP): nie wekuj pomidorów z obumarłych ani przemarzniętych krzaków. [T:ACI-049]'.",
+   "uwagi": "Dotyczy en:13 i pl:13 (miejsce wstawienia). Twierdzenie ACI-049 istnieje w rejestrze, nie jest tylko użyte w tej karcie."
+  },
+  {
+   "id": "D1-2-02",
+   "karta": "tomato-v09",
+   "poziom": "P1",
+   "plik_linia": "docs/tresci/teksty/en/warianty/tomato-v09.md:23",
+   "twierdzenie": "ACI-171",
+   "problem": "Karta soku pomidorowego nie opisuje przygotowania soku: brak kroków NCHFP (umyć, usunąć szypułki, wyciąć obite/przebarwione miejsca; pokroić, rozgnieść, podgrzać i gotować 5 min; przetrzeć gorące przez sito). Zdanie 'heat the juice to boiling again' / 'sok ponownie zagotuj' odwołuje się do nieopisanego wcześniejszego podgrzewania. Czytelnik może zrobić sok np. z surowych, nieprzebranych pomidorów (bez wycięcia obitych/przebarwionych miejsc).",
+   "zrodlo_cytat": "Procedure: Wash, remove stems, and trim off bruised or discolored portions. [...] If you are not concerned about juice separation, simply slice or quarter tomatoes into a large saucepan. Crush, heat, and simmer for 5 minutes before juicing. Press both types of heated juice through a sieve or food mill to remove skins and seeds.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-juice/",
+   "poprawka": "Dodać sekcję 'Preparing the juice' z trzema zdaniami jak w v08 linie 17–21 (ACI-233): umyć, usunąć szypułki, wyciąć obite/przebarwione miejsca; pokroić do garnka, rozgnieść, podgrzać i gotować 5 minut; gorące przetrzeć przez sito/przecierak. To samo w pl.",
+   "uwagi": "Dwie interpretacje: (a) P2 – proces cieplny jest zachowany, bo sok i tak doprowadza się do wrzenia i nakłada na gorąco; (b) P1 – brak wymaganego przez źródło kroku przygotowania, w tym wycięcia obitych/przebarwionych miejsc. Zgodnie z instrukcją wybrano ostrożniejszą (P1). Cytat ze źródła skrócony w miejscu [...] (opis metody hot break)."
+  },
+  {
+   "id": "D1-2-03",
+   "karta": "tomato-v08",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/tomato-v08.md:15",
+   "twierdzenie": null,
+   "problem": "Brak zalecenia NCHFP co do jakości surowca: do wekowania wybierać tylko zdrowe (wolne od chorób), najlepiej dojrzałe na krzaku, jędrne owoce. Karta ma tylko ostrzeżenie o obumarłych/przemarzniętych krzakach (v10 nawet tego nie ma).",
+   "zrodlo_cytat": "Quality: Select only disease-free, preferably vine-ripened, firm fruit for canning.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/canning-tomatoes-introduction/",
+   "poprawka": "Dodać zdanie: 'Use only disease-free, firm tomatoes, preferably vine-ripened (NCHFP).' / 'Używaj tylko zdrowych, jędrnych pomidorów, najlepiej dojrzałych na krzaku (NCHFP).' z nowym twierdzeniem w rejestrze.",
+   "uwagi": "NCHFP podaje to w części 'Quality', nie jako 'Caution', stąd P2; jednak spleśniałe/chore owoce mogą podnosić pH, więc warto dodać."
+  },
+  {
+   "id": "D1-2-04",
+   "karta": "tomato-v09",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/tomato-v09.md:19",
+   "twierdzenie": null,
+   "problem": "Brak zalecenia NCHFP co do jakości surowca: do wekowania wybierać tylko zdrowe (wolne od chorób), najlepiej dojrzałe na krzaku, jędrne owoce. Karta ma tylko ostrzeżenie o obumarłych/przemarzniętych krzakach (v10 nawet tego nie ma).",
+   "zrodlo_cytat": "Quality: Select only disease-free, preferably vine-ripened, firm fruit for canning.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/canning-tomatoes-introduction/",
+   "poprawka": "Dodać zdanie: 'Use only disease-free, firm tomatoes, preferably vine-ripened (NCHFP).' / 'Używaj tylko zdrowych, jędrnych pomidorów, najlepiej dojrzałych na krzaku (NCHFP).' z nowym twierdzeniem w rejestrze.",
+   "uwagi": "NCHFP podaje to w części 'Quality', nie jako 'Caution', stąd P2; jednak spleśniałe/chore owoce mogą podnosić pH, więc warto dodać."
+  },
+  {
+   "id": "D1-2-05",
+   "karta": "tomato-v10",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/tomato-v10.md:13",
+   "twierdzenie": null,
+   "problem": "Brak zalecenia NCHFP co do jakości surowca: do wekowania wybierać tylko zdrowe (wolne od chorób), najlepiej dojrzałe na krzaku, jędrne owoce. Karta ma tylko ostrzeżenie o obumarłych/przemarzniętych krzakach (v10 nawet tego nie ma).",
+   "zrodlo_cytat": "Quality: Select only disease-free, preferably vine-ripened, firm fruit for canning.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/canning-tomatoes-introduction/",
+   "poprawka": "Dodać zdanie: 'Use only disease-free, firm tomatoes, preferably vine-ripened (NCHFP).' / 'Używaj tylko zdrowych, jędrnych pomidorów, najlepiej dojrzałych na krzaku (NCHFP).' z nowym twierdzeniem w rejestrze.",
+   "uwagi": "NCHFP podaje to w części 'Quality', nie jako 'Caution', stąd P2; jednak spleśniałe/chore owoce mogą podnosić pH, więc warto dodać."
+  },
+  {
+   "id": "D1-2-06",
+   "karta": "tomato-v11",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/tomato-v11.md:11",
+   "twierdzenie": null,
+   "problem": "Brak zalecenia NCHFP co do jakości surowca: do wekowania wybierać tylko zdrowe (wolne od chorób), najlepiej dojrzałe na krzaku, jędrne owoce. Karta ma tylko ostrzeżenie o obumarłych/przemarzniętych krzakach (v10 nawet tego nie ma).",
+   "zrodlo_cytat": "Quality: Select only disease-free, preferably vine-ripened, firm fruit for canning.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/canning-tomatoes-introduction/",
+   "poprawka": "Dodać zdanie: 'Use only disease-free, firm tomatoes, preferably vine-ripened (NCHFP).' / 'Używaj tylko zdrowych, jędrnych pomidorów, najlepiej dojrzałych na krzaku (NCHFP).' z nowym twierdzeniem w rejestrze.",
+   "uwagi": "NCHFP podaje to w części 'Quality', nie jako 'Caution', stąd P2; jednak spleśniałe/chore owoce mogą podnosić pH, więc warto dodać."
+  },
+  {
+   "id": "D1-2-07",
+   "karta": "tomato-v13",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/tomato-v13.md:11",
+   "twierdzenie": null,
+   "problem": "Brak zalecenia NCHFP co do jakości surowca: do wekowania wybierać tylko zdrowe (wolne od chorób), najlepiej dojrzałe na krzaku, jędrne owoce. Karta ma tylko ostrzeżenie o obumarłych/przemarzniętych krzakach (v10 nawet tego nie ma).",
+   "zrodlo_cytat": "Quality: Select only disease-free, preferably vine-ripened, firm fruit for canning.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/canning-tomatoes-introduction/",
+   "poprawka": "Dodać zdanie: 'Use only disease-free, firm tomatoes, preferably vine-ripened (NCHFP).' / 'Używaj tylko zdrowych, jędrnych pomidorów, najlepiej dojrzałych na krzaku (NCHFP).' z nowym twierdzeniem w rejestrze.",
+   "uwagi": "NCHFP podaje to w części 'Quality', nie jako 'Caution', stąd P2; jednak spleśniałe/chore owoce mogą podnosić pH, więc warto dodać."
+  },
+  {
+   "id": "D1-2-08",
+   "karta": "tomato-v13",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/tomato-v13.md:13",
+   "twierdzenie": "ACI-006",
+   "problem": "Zdanie 'This recipe gets its acid only from the vinegar' / 'kwas daje wyłącznie ocet' jest nieścisłe: pomidory same zawierają kwasy; chodzi o to, że ocet jest jedynym DODANYM kwasem. Cytat ACI-006 nie mówi nic o tym przepisie.",
+   "zrodlo_cytat": "3 cups cider vinegar (5 percent)",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-ketchup/",
+   "poprawka": "'In this recipe the only added acid is the vinegar (...)' / 'W tym przepisie jedynym dodanym kwasem jest ocet (...)'.",
+   "uwagi": "Bez skutku dla bezpieczeństwa; wniosek praktyczny (nie zmieniać octu) jest poprawny i poparty ACI-016."
+  },
+  {
+   "id": "D1-2-09",
+   "karta": "tomato-v13",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/tomato-v13.md:21",
+   "twierdzenie": "ACI-211",
+   "problem": "Reguła JarAtlas pozwala zamiast octu jabłkowego użyć białego octu destylowanego oraz octu 6%. Przepis NCHFP wymienia konkretnie ocet jabłkowy 5%, a cytowane źródło PSU dopuszcza zamianę białego/jabłkowego tylko gdy przepis NIE określa rodzaju octu. Kwasowość 6% to zmiana proporcji kwasu (w stronę bezpieczną), ale formalnie wbrew 'do not alter vinegar ... proportions'.",
+   "zrodlo_cytat": "If your research-tested recipe does not specify a particular type of vinegar, you may safely use either white or cider vinegar as long as it is labeled as 5% acidity.",
+   "zrodlo_adres": "https://extension.psu.edu/advice-about-vinegar",
+   "poprawka": "Dla tej karty: 'use cider vinegar labelled 5% acidity, as the recipe specifies; 6% cider vinegar is acceptable only as the more acidic option (stronger taste)'; usunąć wzmiankę o białym occie albo opisać ją jako zmianę smaku poza przepisem NCHFP.",
+   "uwagi": "Bez skutku dla bezpieczeństwa (biały ocet 5% ma tę samą kwasowość, 6% większą), stąd P2. Ta sama reguła ACI-211 może występować w innych kartach – tam, gdzie przepis nie określa rodzaju octu, jest poprawna."
+  },
+  {
+   "id": "D1-2-10",
+   "karta": "tomato-v11",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/tomato-v11.md:67",
+   "twierdzenie": "ACI-294",
+   "problem": "Twierdzenia ACI-294 (reguła słoika 1/2 pinty) i ACI-265 (nie zmieniać proporcji, linia 17) są w rejestrze podparte cytatami z przepisu Golden Pepper Jelly (tabela czasów galaretki i uwaga o occie w papryce), które nie dotyczą koncentratu pomidorowego. Merytorycznie reguły są ostrożne i poprawne, ale źródło nie mówi tego, co zdanie.",
+   "zrodlo_cytat": "Hot Half-pints 45 50 55 60",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+   "poprawka": "Podeprzeć ACI-294 w tej karcie tabelą Tomato Paste (ACI-304) + ACI-174, a ACI-265 cytatem z Tomato Paste: 'The ratio of citric acid to pounds of tomatoes must be kept consistent.' (ACI-302) i ACI-006.",
+   "uwagi": "Zdania są oznaczone jako 'JarAtlas rule', a ich podstawa faktyczna jest w innych twierdzeniach tej samej karty (ACI-302, ACI-304, ACI-174, ACI-006), dlatego P2 zamiast P1. To samo dotyczy ACI-265 w v13 (tam wystarcza ACI-016)."
+  },
+  {
+   "id": "D1-2-11",
+   "karta": "tomato-v08",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/en/warianty/tomato-v08.md:1",
+   "twierdzenie": null,
+   "problem": "Tytuł 'Passata' sugeruje włoską passatę (przetarte, zwykle nieodparowane pomidory), a przepis NCHFP to sos odparowany o 1/3–1/2. Czasy są identyczne jak dla soku pomidorowego, więc bez skutku dla bezpieczeństwa, ale nazwa może mylić.",
+   "zrodlo_cytat": "Boil until volume is reduced by about one-third for thin sauce, or by one-half for thick sauce.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/standard-tomato-sauce/",
+   "poprawka": "Np. 'Standard tomato sauce (NCHFP), passata-style' / 'Standardowy sos pomidorowy NCHFP (typu passata, odparowany)'.",
+   "uwagi": "Styl/nazewnictwo."
+  },
+  {
+   "id": "D1-2-12",
+   "karta": "tomato-v13",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/pl/warianty/tomato-v13.md:13",
+   "twierdzenie": "ACI-016",
+   "problem": "en 'vinegar, food or water proportions' przetłumaczone jako 'proporcji octu, warzyw i wody' – 'food' to szerzej 'żywności/składników'.",
+   "zrodlo_cytat": "Do not alter vinegar, food, or water proportions in a recipe or use a vinegar with unknown acidity.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/",
+   "poprawka": "'nie zmieniaj proporcji octu, pozostałych składników i wody'.",
+   "uwagi": "Drobna rozbieżność pl/en."
+  },
+  {
+   "id": "D1-3-01",
+   "karta": "bell-pepper-v09",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/en/warianty/bell-pepper-v09.md:7",
+   "twierdzenie": "OLE-036",
+   "problem": "Cytat w rejestrze („for marinated whole mushrooms (35)”) występuje w źródle, ale sam nie potwierdza treści zdania karty (tylko 3 procedury, wszystkie z kwasem). Źródło mówi to w szerszym kontekście (s. 337), więc zdanie jest poprawne, tylko cytat jest za wąski.",
+   "zrodlo_cytat": "includes three procedures ... that have oil in the ingredient list. One is for marinated peppers (34), the second for marinated whole mushrooms (35) and the third for pickled three-bean salad (36). Each of these procedures includes acidulants",
+   "zrodlo_adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
+   "poprawka": "W rejestrze OLE-036 zastąpić cytat fragmentem „Each of these procedures includes acidulants as well as preparation steps to insure adequate reduction in pH” (plus fragment o trzech procedurach).",
+   "uwagi": "Tekst PDF w dwóch kolumnach; fragmenty cytatu są rozbite łamaniem kolumn, ale treść jest w źródle."
+  },
+  {
+   "id": "D1-3-02",
+   "karta": "bell-pepper-v09",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/en/warianty/bell-pepper-v09.md:17",
+   "twierdzenie": "ACI-265",
+   "problem": "Reguła o niezmienianiu ilości soku z cytryny, octu, oleju i papryki jest podparta tylko cytatem ze strony Golden Pepper Jelly (inny przepis). Lepszym, ogólnym oparciem jest ACI-016 (General Information on Pickling), który karta już ma w rejestrze innych kart.",
+   "zrodlo_cytat": "Do not alter vinegar, food, or water proportions in a recipe or use a vinegar with unknown acidity.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/",
+   "poprawka": "Dopisać [T:ACI-016] do linii 17 (en i pl) obok ACI-265.",
+   "uwagi": "Bez wpływu na bezpieczeństwo; zdanie jest ostrożne i zgodne z NCHFP."
+  },
+  {
+   "id": "D1-3-03",
+   "karta": "corn-v09",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/en/warianty/corn-v09.md:7",
+   "twierdzenie": "ACI-283",
+   "problem": "Przepis jest kwaśny tylko „as tested” z SURE-JELL Premium Fruit Pectin (pektyna z dodatkiem kwasu); ta marka jest słabo dostępna w Europie i czytelnik może sięgnąć po lokalną pektynę/żelfiks o innym składzie. Karta słusznie każe trzymać się przepisu, ale nie mówi wprost, co zrobić, gdy tej pektyny nie ma.",
+   "zrodlo_cytat": "* For testing, SURE-JELL Premium Fruit Pectin was used. 1) This recipe does produce an acidic jelly as tested.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/corncob-jelly-with-pectin/",
+   "poprawka": "Dodać zdanie: „Jeśli nie masz tej pektyny, nie rób tej galaretki do przechowywania w spiżarni: JarAtlas nie ma czasu ani potwierdzenia kwasowości dla innych pektyn.” (en/pl).",
+   "uwagi": "Interpretacja ostrożniejsza: obecne brzmienie („follow the recipe exactly”) już wyklucza zamianę, więc P3, nie P1."
+  },
+  {
+   "id": "D1-3-04",
+   "karta": "chili-pepper-v13",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/pl/warianty/chili-pepper-v13.md:37",
+   "twierdzenie": "ACI-285",
+   "problem": "Polska odmiana jednostki: „garnka o pojemności 8–10 quart” (podobnie corn-v09 pl:21 i pl:29 „2 quart”). Brak przeliczenia na litry przy pojemności garnka (8–10 qt ≈ 7,6–9,5 l).",
+   "zrodlo_cytat": "Combine the pepper-vinegar purée and remaining vinegar into an 8- or 10-quart saucepan.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/golden-pepper-jelly/",
+   "poprawka": "pl: „garnka o pojemności 8–10 kwart (ok. 7,6–9,5 l)”; corn-v09 pl: „2 kwarty (ok. 1,9 l) wody”. Analogicznie w en dodać „(about 7.6–9.5 l)”.",
+   "uwagi": "Styl/czytelność, bez wpływu na bezpieczeństwo."
+  },
+  {
+   "id": "D1-3-05",
+   "karta": "bell-pepper-v09",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/en/warianty/bell-pepper-v09.md:11",
+   "twierdzenie": "ACI-094",
+   "problem": "Źródło szczebla 1 dla pH papryki to kopia wydruku listy FDA/CFSAN na stronie riverstonehealth.org, nie strona FDA. Wartość 4.65–5.45 jest w kopii dosłownie; ta sama lista jest w FDA Bad Bug Book (https://www.fda.gov/media/83271/download), który rejestr już cytuje dla SLO-035.",
+   "zrodlo_cytat": "Peppers 4.65 - 5.45",
+   "zrodlo_adres": "https://riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+   "poprawka": "Rozważyć dodanie drugiego źródła z fda.gov (Bad Bug Book, Appendix pH) dla ACI-094, jeśli zawiera wiersz dla papryki; dotyczy też chili-pepper-v13:7.",
+   "uwagi": "Ograniczenie proweniencji, nie błąd treści."
+  },
+  {
+   "id": "D1-4-06",
+   "karta": "apple-v10",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/apple-v10.md:7 (też :3, :33)",
+   "twierdzenie": "SLO-224",
+   "problem": "Wersja en mówi '2 cups of apple cider' bez wyjaśnienia; dla czytelnika w Europie (np. UK/IE) 'cider' to napój alkoholowy, a w linii 17 pojawia się 'cider vinegar', co grozi pomyleniem składników. Wersja pl wyjaśnia ('to nie ocet jabłkowy'), en nie: rozbieżność pl/en. Wpływ na bezpieczeństwo mały (zamiana na ocet podnosi kwasowość, na cydr alkoholowy zmienia produkt), ale zmienia przepis testowany.",
+   "zrodlo_cytat": "8 lbs apples 2 cups apple cider 2 cups vinegar",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apple-butter/",
+   "poprawka": "en:7: '2 cups of apple cider (the recipe's name for fresh, unfermented apple juice; not alcoholic cider and not cider vinegar)'. Ewentualnie to samo doprecyzowanie w pl ('niesfermentowany sok jabłkowy, nie cydr alkoholowy').",
+   "uwagi": "Że 'apple cider' w USA to niefermentowany sok, to wiedza ogólna, nie cytat z tej strony NCHFP; jeśli rejestr ma to potwierdzać, potrzebne źródło."
+  },
+  {
+   "id": "D1-4-07",
+   "karta": "apple-v10",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/apple-v10.md:17 (pl: :17)",
+   "twierdzenie": "ACI-211",
+   "problem": "Przepis zawiera ocet, a karta nie mówi wprost, żeby nie zmieniać proporcji octu, jabłek i cukru (np. nie zmniejszać octu). Twierdzenie ACI-211 w rejestrze to obejmuje ('wody dodawać tylko tyle, ile podaje przepis', cytat NCHFP o niezmienianiu proporcji), ale karta przeniosła tylko część o mocy octu.",
+   "zrodlo_cytat": "Do not alter vinegar, food, or water proportions in a recipe or use a vinegar with unknown acidity.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/",
+   "poprawka": "Dopisać do en:17: 'Do not change the amounts of vinegar, apples or cider given in the recipe.' / pl: 'Nie zmieniaj ilości octu, jabłek ani apple cider podanych w przepisie.' [T:ACI-211]",
+   "uwagi": "Cytat pochodzi ze strony o piklach, nie z przepisu na masło jabłkowe, więc nie traktuję tego jako ostrzeżenia wymaganego dla tego produktu przez źródło szczebla 1 (stąd P2, nie P1). Masło jabłkowe jest kwaśne także bez octu."
+  },
+  {
+   "id": "D1-4-08",
+   "karta": "apple-v13",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/pl/warianty/apple-v13.md:1 (en: :1)",
+   "twierdzenie": "SLO-215",
+   "problem": "Tytuł 'Kompot z jabłek' w Polsce oznacza zwykle napój: owoce w dużej ilości płynu, często nakładane na surowo i zalewane. Karta opisuje co innego: plastry jabłek gotowane 5 minut i nakładane na gorąco (NCHFP: raw pack daje słabą jakość). Czytelnik może przenieść na tę kartę domowy sposób robienia kompotu (surowe owoce, inne proporcje) i stosować podane czasy do procesu, którego NCHFP nie testowało.",
+   "zrodlo_cytat": "Raw packs make poor quality products. Place drained slices in large saucepan and add 1 pint water or very light, light, or medium syrup per 5 pounds of sliced apples. Boil 5 minutes",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/apples-sliced/",
+   "poprawka": "pl: 'Jabłka w plastrach w bardzo lekkim syropie (NCHFP)'; en: 'Sliced apples in very light syrup (NCHFP)'. Albo, jeśli 'kompot' zostaje dla wyszukiwarki: dopisać zdanie, że to nie jest przepis na kompot do picia i że czasy dotyczą tylko plastrów nakładanych na gorąco według tej karty.",
+   "uwagi": "Sama treść karty jest poprawna; problem dotyczy tylko tego, czego czytelnik może oczekiwać po nazwie."
+  },
+  {
+   "id": "D1-4-09",
+   "karta": "apple-v16",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/en/warianty/apple-v16.md:11 (pl: :11)",
+   "twierdzenie": "SLO-050",
+   "problem": "Karta mówi 'must be processed' / 'trzeba wekować', a źródło mówi 'should be processed'. Mówi więc odrobinę mocniej niż źródło, ale w stronę ostrożną.",
+   "zrodlo_cytat": "Filled jars of juices should be processed in a boiling water canner long enough to destroy spoilage organisms.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/general-information/causes-and-possible-solutions-for-problems-with-canned-fruit-juices/",
+   "poprawka": "en: 'NCHFP: jars of fruit juice should be processed...'; pl: 'NCHFP: słoiki z sokiem owocowym należy wekować...'.",
+   "uwagi": "Styl/dokładność przypisania; bez wpływu na bezpieczeństwo."
+  },
+  {
+   "id": "D1-4-10",
+   "karta": "apple-v09",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/pl/warianty/apple-v09.md:35 (to samo zdanie we wszystkich 5 kartach: apple-v10:53, apple-v13:43, apple-v16:45, pear-v07:45; en i pl)",
+   "twierdzenie": "ACI-015",
+   "problem": "Zdanie 'Powyżej 1000 stóp przetwór może się zepsuć...' podaje tylko stopy, a pozostałe granice wysokości mają też metry. Dla czytelnika w Europie granica jest mniej czytelna, ale następne zdania podają przeliczenie (300 m).",
+   "zrodlo_cytat": "The food may spoil if you fail to add process time for lower boiling-water temperatures at elevations above 1,000 feet",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/general-information/selecting-the-correct-processing-time/",
+   "poprawka": "'Powyżej 1000 stóp (w tej karcie: powyżej 300 m) przetwór może się zepsuć...' / 'Above 1000 ft (on this card: above 300 m)...'",
+   "uwagi": "Spójność jednostek."
+  },
+  {
+   "id": "D1-5-01",
+   "karta": "peach-nectarine-v07",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/peach-nectarine-v07.md:7 (pl:7)",
+   "twierdzenie": "SLO-136",
+   "problem": "„1 package powdered pectin” / „1 opakowanie sproszkowanej pektyny” bez wielkości opakowania i rodzaju pektyny. Przepis NCHFP zakłada amerykańskie opakowanie pektyny do przepisów z pełną ilością cukru; czytelnik w Europie może użyć pektyny/żelfiksu o innej mocy (np. 2:1, 3:1 do przepisów z mniejszą ilością cukru), co zmienia proporcje przepisu. Skutek głównie jakościowy (żelowanie), przy pełnej ilości cukru bez wpływu na bezpieczeństwo.",
+   "zrodlo_cytat": "1 package powdered pectin",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+   "poprawka": "Dodać uwagę: „NCHFP podaje jedno amerykańskie opakowanie sproszkowanej pektyny do zwykłych przepisów z pełną ilością cukru; nie zastępuj jej pektyną/żelfiksem do przepisów ze zmniejszoną ilością cukru (np. 2:1, 3:1) i nie zmieniaj ilości cukru” (wielkość opakowania podać tylko ze źródła).",
+   "uwagi": "Źródło nie podaje masy opakowania; nie proponuję liczby bez źródła."
+  },
+  {
+   "id": "D1-5-02",
+   "karta": "peach-nectarine-v07",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/peach-nectarine-v07.md:7-11 (pl:7-11)",
+   "twierdzenie": "SLO-001",
+   "problem": "Karta ostrzega tylko przed zmniejszaniem cukru; brak ostrzeżenia, by nie pomijać ani nie zmniejszać soku z cytryny i brak reguły butelkowanego soku (jak w apricot-v06, ACI-314). Proporcje przepisu są częścią przetestowanej receptury. Brzoskwinie żółte są kwaśne, więc bez bezpośredniego skutku dla bezpieczeństwa; niespójność między kartami.",
+   "zrodlo_cytat": "¼ cup lemon juice",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/peach-jam-pectin/",
+   "poprawka": "Dodać: „Ten przepis jest przetestowany z sokiem z cytryny: nie pomijaj go i nie zmniejszaj jego ilości.” oraz regułę JarAtlas o butelkowanym soku z cytryny [T:ACI-314,SLO-039].",
+   "uwagi": "Interpretacja ostrożniejsza: traktuję brak jako P2 (nie P1), bo żadne źródło szczebla 1 nie wymaga tego ostrzeżenia dla tego dżemu, a produkt bazowy jest kwaśny."
+  },
+  {
+   "id": "D1-5-03",
+   "karta": "quince-v08",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/quince-v08.md:7-13 (pl:7-13)",
+   "twierdzenie": "SLO-228",
+   "problem": "Jak w D1-5-02: brak ostrzeżenia, by nie pomijać/nie zmniejszać soku z cytryny, i brak reguły butelkowanego soku z cytryny (obecnej w apricot-v06). Pigwa jest owocem kwaśnym — bez skutku dla bezpieczeństwa, niespójność i ryzyko zmiany proporcji.",
+   "zrodlo_cytat": "¼ cups lemon juice",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/quince-jelly-without-pectin/",
+   "poprawka": "Dodać zdanie o niepomijaniu i niezmniejszaniu soku z cytryny oraz regułę butelkowanego soku [T:ACI-314,SLO-039].",
+   "uwagi": ""
+  },
+  {
+   "id": "D1-5-04",
+   "karta": "peach-nectarine-v07",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/en/warianty/peach-nectarine-v07.md:55 (pl:55)",
+   "twierdzenie": "ACI-015",
+   "problem": "Zdanie „Shortening the time or cooling jars in cold water can also lead to spoilage” („też”) nie ma poprzedzającego zdania „Above 1000 ft the food may spoil if the time is not increased”, które jest w pozostałych kartach (np. quince-v08:63, apricot-v06:49). Tabela wysokości jest kompletna, więc tylko styl/spójność.",
+   "zrodlo_cytat": "The food may spoil if you fail to add process time for lower boiling-water temperatures at elevations above 1,000 feet, process for fewer minutes than specified, or cool jars in cold water.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/general-information/selecting-the-correct-processing-time/",
+   "poprawka": "Dodać po linii 47: „Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]” / „Powyżej 1000 stóp żywność może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]”.",
+   "uwagi": ""
+  },
+  {
+   "id": "D1-5-05",
+   "karta": "peach-nectarine-v06",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/en/warianty/peach-nectarine-v06.md:7 (pl:7)",
+   "twierdzenie": "E3-001",
+   "problem": "Zdanie podaje uzasadnienie (wyższe pH części odmian, brak przetestowanego procesu i zakwaszenia), a cytat w rejestrze E3-001 obejmuje tylko „Do not use this process to can white-flesh peaches.” Treść jest na tej samej stronie i w SLO-127, więc to tylko niepełne otagowanie.",
+   "zrodlo_cytat": "There is evidence that some varieties of white-flesh peaches are higher in pH (i.e., lower in acid) than traditional yellow varieties.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/peaches-halved-or-sliced/",
+   "poprawka": "Zmienić tag na [T:E3-001,SLO-127] albo dopisać do E3-001 cytat z akapitu CAUTION.",
+   "uwagi": ""
+  },
+  {
+   "id": "D1-5-06",
+   "karta": "quince-v08",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/en/warianty/quince-v08.md:9 (pl:9)",
+   "twierdzenie": "SLO-228",
+   "problem": "Zdanie zakresu (Cydonia oblonga, nie Chaenomeles) jest otagowane SLO-228, ale strona NCHFP nie wymienia nazw botanicznych ani pigwowca. Zdanie jest ostrożne i poprawne, lecz to reguła JarAtlas, nie treść źródła.",
+   "zrodlo_cytat": "",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/quince-jelly-without-pectin/",
+   "poprawka": "Oznaczyć jako „JarAtlas rule (cautious)” / „Reguła JarAtlas (ostrożna)” i ewentualnie dodać osobne twierdzenie rejestru dla zakresu.",
+   "uwagi": "Bez wpływu na bezpieczeństwo."
+  },
+  {
+   "id": "D1-6-01",
+   "karta": "sour-cherry-v10",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/sour-cherry-v10.md:59",
+   "twierdzenie": "SLO-210",
+   "problem": "W sekcji 'Cooling and storing' (en i pl, l. 57–59) brak zdania, że po wyjęciu słoików z garnka nie wolno dokręcać pokrywek/pierścieni, które mają pozostałe karty pakietu (plum-v13 l. 57, plum-v14 l. 67, sour-cherry-v08 l. 57, sour-cherry-v09 l. 59). Brak nie wpływa bezpośrednio na bezpieczeństwo (test zamknięcia i postępowanie z niezamkniętym słoikiem są w karcie), ale karta jest niespójna z resztą i pomija zalecenie NCHFP.",
+   "zrodlo_cytat": "When you remove hot jars from a canner, do not retighten their jar lids. Retightening of hot lids may cut through the gasket and cause seal failures.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/general-information/cooling-jars-and-testing-jar-seals/",
+   "poprawka": "Dodać przed l. 59 (en i pl) zdanie jak w innych kartach: 'When you take the hot jars out of the canner, do not retighten the lids or bands; this can cut through the gasket and cause seal failures. [T:SLO-210]' / 'Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek ani metalowych pierścieni; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]' (bez zdań o raw pack — syrop jest nalewany na gorąco).",
+   "uwagi": "Dotyczy en i pl (pl l. 59)."
+  },
+  {
+   "id": "D1-6-02",
+   "karta": "sour-cherry-v08",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/sour-cherry-v08.md:43",
+   "twierdzenie": "ACI-015",
+   "problem": "W odróżnieniu od plum-v14 (l. 51) i sour-cherry-v10 (l. 43) karta nie ma zdania 'Above 1000 ft the food may spoil if the time is not increased.' (en i pl, między l. 41 a 43), a zdanie w l. 49 ('Shortening the time ... can also lead to spoilage' / 'też grozi zepsuciem') odwołuje się do nieistniejącego poprzedniego ostrzeżenia. Tabela wysokości jest kompletna i poprawna (5/10/15 min), więc bez skutku dla bezpieczeństwa, ale ostrzeżenie o korekcie wysokości z ACI-015 jest niepełne.",
+   "zrodlo_cytat": "The food may spoil if you fail to add process time for lower boiling-water temperatures at elevations above 1,000 feet, process for fewer minutes than specified, or cool jars in cold water.",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/general-information/selecting-the-correct-processing-time/",
+   "poprawka": "Wstawić po l. 41 (en i pl): 'Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]' / 'Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]'.",
+   "uwagi": "Dotyczy en i pl (pl l. 41–49)."
+  },
+  {
+   "id": "D1-6-03",
+   "karta": "plum-v14",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/plum-v14.md:11",
+   "twierdzenie": "SLO-157",
+   "problem": "'1 package of powdered pectin' / '1 opakowanie pektyny w proszku' nie mówi czytelnikowi w Europie, jakie to opakowanie (przepis USDA 1982 zakłada standardowe amerykańskie opakowanie zwykłej pektyny do dżemów pełnocukrowych). Europejskie saszetki mają inną masę i często są przeznaczone do dżemów o obniżonej ilości cukru (np. 2:1, 3:1); taki produkt z 8 szklankami cukru da inny wynik, a czytelnik może uznać, że wolno zmniejszyć cukier — czego karta (l. 15) zakazuje. Skutek głównie jakościowy (żelowanie); cytat jest poprawny.",
+   "zrodlo_cytat": "6 cups crushed plums (about 3½ pounds plums) 1 package powdered pectin 8 cups sugar Yield: About 9 half-pint jars",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/plum-jam-pectin/",
+   "poprawka": "Dodać regułę JarAtlas (ostrożną): użyj zwykłej pektyny w proszku do dżemów pełnocukrowych (nie 'do dżemów niskosłodzonych', 2:1, 3:1), w ilości odpowiadającej jednemu standardowemu amerykańskiemu opakowaniu; nie zmieniaj ilości cukru ani owoców. Masę opakowania podać tylko z potwierdzonym źródłem.",
+   "uwagi": "Dotyczy en i pl (pl l. 11). Masy amerykańskiego opakowania nie potwierdzam źródłem z pakietu, dlatego nie podaję jej w poprawce."
+  },
+  {
+   "id": "D1-6-04",
+   "karta": "sour-cherry-v08",
+   "poziom": "P2",
+   "plik_linia": "docs/tresci/teksty/en/warianty/sour-cherry-v08.md:7",
+   "twierdzenie": "SLO-110",
+   "problem": "Jak w D1-6-03: '1 package of powdered pectin' bez określenia rodzaju i wielkości opakowania; czytelnik w Europie może użyć pektyny do dżemów o obniżonej ilości cukru albo saszetki innej wielkości. Skutek głównie jakościowy.",
+   "zrodlo_cytat": "4 cups ground or finely chopped pitted cherries (about 3 pounds or 2 quart boxes sour cherries) 1 package powdered pectin 5 cups sugar",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/cherry-jam-pectin/",
+   "poprawka": "Jak w D1-6-03.",
+   "uwagi": "Dotyczy en i pl (pl l. 7)."
+  },
+  {
+   "id": "D1-6-06",
+   "karta": "sour-cherry-v10",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/pl/warianty/sour-cherry-v10.md:7",
+   "twierdzenie": "SLO-049",
+   "problem": "Wersja pl ma dopisek „cherries” (czereśni lub wiśni; źródło ich nie rozróżnia), którego nie ma w en l. 7; en mówi o tym dopiero w l. 9. Drobna rozbieżność pl/en, bez wpływu na bezpieczeństwo. Ponadto pl l. 51 i 55 brzmią inaczej niż w pozostałych kartach ('studzenie' zamiast 'schłodzenie', 'nie testuje' zamiast 'nie bada').",
+   "zrodlo_cytat": "",
+   "zrodlo_adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+   "poprawka": "Ujednolicić: usunąć nawias z pl l. 7 (treść jest w l. 9) albo dodać go do en; ujednolicić brzmienie pl l. 51 i 55 z innymi kartami.",
+   "uwagi": ""
+  },
+  {
+   "id": "D1-6-07",
+   "karta": "plum-v14",
+   "poziom": "P3",
+   "plik_linia": "docs/tresci/teksty/en/warianty/plum-v14.md:7",
+   "twierdzenie": "ACI-325",
+   "problem": "Źródło 'szczebla 1' dla pH renklod to kopia dokumentu FDA/CFSAN (kwiecień 2007) na serwerze Riverstone Health, a nie adres FDA. Cytat występuje dosłownie (Plums, Green Gage 3.60 - 4.30). Merytorycznie bez zastrzeżeń: ten sam zakres ma 'Plums, Red' (3.60 - 4.30), więc renklody nie są mniej kwaśne od zwykłych śliwek, a przepis NCHFP nie dodaje kwasu dla żadnych śliwek.",
+   "zrodlo_cytat": "Plums, Green Gage                        3.60 - 4.30",
+   "zrodlo_adres": "https://www.riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+   "poprawka": "W rejestrze opisać źródło jako kopię dokumentu FDA (stan z 2007) i, jeśli to możliwe, dodać archiwalny adres FDA.",
+   "uwagi": ""
+  }
+ ],
+ "punkty_sporne": [
+  {
+   "id": "P-02",
+   "karty": "apricot-v08",
+   "rozstrzygniecie": "C: bez karty wekowania moreli bez zakwaszenia (tylko mrożenie), dopóki źródło 1–3 nie poda dawki kwasu albo nie potwierdzi procesu dla pH do 4,80",
+   "skutek": "ukryć/wycofać kartę do decyzji właściciela; recenzent pakietu 5 nie zgłosił błędu cytatów"
+  },
+  {
+   "id": "P-03",
+   "karty": "apricot-v06",
+   "rozstrzygniecie": "A: zostają obie reguły (nie pomijać soku z cytryny, sok butelkowany, nie zmniejszać cukru) — to już wariant ostrożniejszy",
+   "skutek": "bez zmian; D1-5-02/03 rozszerzają tę regułę na peach-nectarine-v07 i quince-v08"
+  },
+  {
+   "id": "P-04",
+   "karty": "tomato-*, bell-pepper-v09, plum-v14 i in. (lista pH FDA)",
+   "rozstrzygniecie": "B: zastąpić kopię riverstonehealth.org dokumentem z fda.gov albo potwierdzić tożsamość treści; do tego czasu twierdzenia ACI-08x–17x nie zatwierdzone przez D1",
+   "skutek": "otwarte; fda.gov odpowiada (HTTP 200 dla /media/83271/download, treści nie sprawdzałem — pytanie otwarte)"
+  },
+  {
+   "id": "P-05",
+   "karty": "tomato-v13, beetroot-v06, bell-pepper-v01, zucchini-v05",
+   "rozstrzygniecie": "B: tylko ocet 5% (jak w przetestowanym przepisie) i rodzaj octu z przepisu; bez 6% i bez rozcieńczania 10%",
+   "skutek": "zgodne z D1-2-09"
+  },
+  {
+   "id": "P-06",
+   "karty": "corn-v09",
+   "rozstrzygniecie": "B: galaretka z kolb bez karty (nie publikować), bo kukurydza pH ok. 7,3, przepis bez dodanego kwasu, źródło mówi tylko „acidic jelly as tested”",
+   "skutek": "recenzent pakietu 3 nie zgłosił błędu; rozstrzygnięcie ostrożniejsze organizatora"
+  },
+  {
+   "id": "P-07",
+   "karty": "wszystkie karty z czasami",
+   "rozstrzygniecie": "A: słoik ≤ 473 ml = czas pint; ≤ 946 ml = czas quart; > 946 ml bez czasu",
+   "skutek": "recenzenci 4–6 potwierdzili, że reguła działa w stronę ostrożną"
+  },
+  {
+   "id": "P-08",
+   "karty": "wszystkie karty z tabelą wysokości",
+   "rozstrzygniecie": "A: granice w metrach w dół (300/900/1800/2400 m)",
+   "skutek": "potwierdzone przez recenzentów"
+  },
+  {
+   "id": "P-13",
+   "karty": "karty z przechowywaniem po otwarciu",
+   "rozstrzygniecie": "A: lodówka, do 1 tygodnia",
+   "skutek": "bez ustaleń w partii 1"
+  },
+  {
+   "id": "P-14",
+   "karty": "peach-nectarine-v06, -v07",
+   "rozstrzygniecie": "A: tylko brzoskwinie o żółtym miąższu, bez nektarynek",
+   "skutek": "D1-5-05: dodać znacznik SLO-127"
+  },
+  {
+   "id": "P-15",
+   "karty": "plum-v14",
+   "rozstrzygniecie": "B: bez zastosowania przepisu NCHFP na dżem śliwkowy do renklod, dopóki źródło nie nazwie odmiany",
+   "skutek": "zawęzić kartę do śliwek z przepisu; D1-6-07 (kopia listy FDA)"
+  }
+ ],
+ "ograniczenia": [
+  "Recenzent to model, nie technolog żywności; ocena merytoryczna ograniczona do zgodności ze źródłami szczebla 1–3.",
+  "Recenzenci różnili się czułością (brak opisu kąpieli wodnej zgłosiły 3 z 6 pakietów); scalenie wybrało ocenę ostrożniejszą.",
+  "Twierdzenia z listy pH FDA sprawdzone tylko w kopii riverstonehealth.org (P-04).",
+  "hgic.clemson.edu zablokowane (Cloudflare): 1 cytat SZY-026 niepotwierdzony; twierdzenie potwierdzają 2 inne źródła.",
+  "Cytaty w dwukolumnowych PDF porównywane po normalizacji białych znaków — pewność niższa.",
+  "Przegląd tylko tekstu kart; nie oceniano wyglądu strony, katalogu ani tłumaczeń innych niż pl."
+ ]
+}
