@@ -13,7 +13,7 @@ Cabbage is not an acid food on its own: the FDA list gives cabbage a pH of about
 
 The whole product must contain a minimum, uniform level of acid so that botulism bacteria cannot grow. [T:ACI-017]
 
-Extension and USDA have no recipe for canning red cabbage; Ask Extension points to a tested Spiced Red Cabbage recipe in the Ball Blue Book. [T:ACI-875]
+Extension and USDA have no recipe for canning red cabbage; Ask Extension points to a tested Spiced Red Cabbage recipe from Ball. [T:ACI-875]
 
 JarAtlas rule (cautious): this card covers only this Ball recipe and only red cabbage, not savoy cabbage or other cabbage pickles with other amounts or extra steps. [T:ACI-875,ACI-876]
 
@@ -65,7 +65,7 @@ Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
 
 Above 1000 ft (above 300 m) process them for 25 minutes, and above 6000 ft (above 1800 m) for 30 minutes. [T:ACI-878,ACI-176]
 
-The Ball Blue Book version gives 20 minutes without altitude times; the UCCE handout also has a second, shorter set of times below the recipe that may belong to another recipe, so JarAtlas uses the longer times above. [T:ACI-878]
+The Ball version quoted by Ask Extension gives 20 minutes without altitude times; the UCCE handout also has a second, shorter set of times below the recipe that may belong to another recipe, so JarAtlas uses the longer times above. [T:ACI-878]
 
 The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m and 6000 ft becomes 1800 m. [T:ACI-176]
 
