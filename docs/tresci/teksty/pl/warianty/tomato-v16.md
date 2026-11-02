@@ -8,7 +8,7 @@ Pomidory sparz parą albo zanurz we wrzątku, żeby skórka odeszła, potem sch�
 
 Krój je w plastry grubości 1/2 cala (ok. 13 mm) albo w cząstki 3/4 cala (ok. 19 mm). [T:SUS-119]
 
-Zanurz je na 10 minut w roztworze 1 łyżeczki kwasu cytrynowego na kwartę wody. [T:SUS-119]
+Zanurz je na 10 minut w roztworze 1 łyżeczki kwasu cytrynowego na kwartę (ok. 0,95 l) wody. [T:SUS-119]
 
 Według CSU, poza sparzeniem parą lub wrzątkiem dla poluzowania skórki, pomidorów nie blanszuje się. [T:SUS-119]
 
@@ -48,7 +48,7 @@ Pakowanie próżniowe nie jest samodzielną metodą utrwalania: usunięcie tlenu
 
 Przechowuj susz w miejscu chłodnym, suchym i ciemnym. [T:SUS-066]
 
-Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F i 3 miesiące w 80 °F. [T:SUS-021]
+Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F (ok. 15,6 °C) i 3 miesiące w 80 °F (ok. 26,7 °C). [T:SUS-021]
 
 Według MSU suszone pomidory łatwo chłoną z powrotem wilgoć, co psuje ich barwę i smak oraz skraca trwałość; z powodu utleniania mogą też sczernieć. [T:SUS-202]
 

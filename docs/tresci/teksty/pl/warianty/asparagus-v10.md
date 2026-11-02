@@ -14,11 +14,13 @@ Według MSU szparagi nadają się do suszenia „słabo do średnio”; MSU nie 
 
 Warzywa blanszuje się przed suszeniem, żeby zatrzymać enzymy i zwiększyć niszczenie drobnoustrojów. [T:SUS-014]
 
-Do wrzącej wody włóż najwyżej 1 kwartę warzyw w woreczku z gazy; czas licz od włożenia, a woda ma wrzeć przez cały czas. [T:SUS-106]
+Do wrzącej wody włóż najwyżej 1 kwartę (ok. 0,95 l) warzyw w woreczku z gazy; czas licz od włożenia, a woda ma wrzeć przez cały czas. [T:SUS-106]
 
 Potem schładzaj warzywa w bardzo zimnej wodzie tyle samo czasu, ile trwało blanszowanie, i odsącz je. [T:SUS-106]
 
-Czasy blanszowania w tej karcie podano dla wysokości 3000–5000 stóp (ok. 900–1500 m); niżej są nieco krótsze, a wyżej i przy dużych ilościach warzyw nieco dłuższe. [T:SUS-105]
+Czasy blanszowania w tej karcie podano dla wysokości 3000–5000 stóp (ok. 900–1500 m); według CSU niżej są nieco krótsze, a wyżej i przy dużych ilościach warzyw nieco dłuższe. [T:SUS-105]
+
+Reguła JarAtlas (ostrożnie): na niższych wysokościach nie skracaj czasów, bo blanszowanie pomaga też niszczyć mikroorganizmy; powyżej ok. 1500 m i przy dużych ilościach warzyw nieco je wydłuż. [T:SUS-105,SUS-014]
 
 ## Suszenie
 
@@ -60,7 +62,7 @@ Pakowanie próżniowe nie jest samodzielną metodą utrwalania: usunięcie tlenu
 
 Przechowuj susz w miejscu chłodnym, suchym i ciemnym. [T:SUS-066]
 
-Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F i 3 miesiące w 80 °F. [T:SUS-021]
+Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F (ok. 15,6 °C) i 3 miesiące w 80 °F (ok. 26,7 °C). [T:SUS-021]
 
 Według MSU, jeśli namaczasz susz warzywny, zalej go zimną wodą i mocz, aż prawie odzyska pierwotną teksturę (1/2–2 godziny); jeśli moczysz go dłużej niż 2 godziny, trzymaj go w lodówce. [T:SUS-204]
 

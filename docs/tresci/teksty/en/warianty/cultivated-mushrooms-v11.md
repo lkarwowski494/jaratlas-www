@@ -6,6 +6,8 @@ This card describes how to dry cultivated shiitake mushrooms in a dehydrator or 
 
 Dry only cultivated or wild mushrooms that are safe to eat; unless you are an expert in mushroom identification, preserve only commercially sold mushrooms. [T:SUS-138]
 
+The toxins of poisonous mushrooms are not destroyed by drying or by cooking, and only an expert can tell poisonous and edible varieties apart. [T:SUS-035]
+
 According to OSU, most mushrooms dry well, including shiitake. [T:SUS-139]
 
 Scrub the mushrooms. [T:SUS-036]

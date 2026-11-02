@@ -6,6 +6,8 @@ Ta karta opisuje suszenie grzybów shiitake z uprawy w suszarce albo w piekarnik
 
 Susz tylko grzyby uprawne albo dzikie, które na pewno są jadalne; jeśli nie jesteś ekspertem w rozpoznawaniu grzybów, utrwalaj tylko grzyby kupione w handlu. [T:SUS-138]
 
+Suszenie ani gotowanie nie niszczy toksyn grzybów trujących, a odróżnić gatunki jadalne od trujących może tylko ekspert. [T:SUS-035]
+
 Według OSU większość grzybów dobrze się suszy, w tym shiitake. [T:SUS-139]
 
 Grzyby oczyść szczoteczką. [T:SUS-036]

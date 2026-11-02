@@ -50,7 +50,7 @@ Pakowanie próżniowe nie jest samodzielną metodą utrwalania: usunięcie tlenu
 
 Przechowuj susz w miejscu chłodnym, suchym i ciemnym. [T:SUS-066]
 
-Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F i 3 miesiące w 80 °F. [T:SUS-021]
+Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F (ok. 15,6 °C) i 3 miesiące w 80 °F (ok. 26,7 °C). [T:SUS-021]
 
 Nie przechowuj suszonego czosnku w oleju w temperaturze pokojowej: olej odcina tlen, a w czosnku i ziołach mogą już być przetrwalniki Clostridium botulinum; bez tlenu, przy niskiej kwasowości i w temperaturze pokojowej mogą one wytworzyć śmiertelną toksynę. [T:SLO-321]
 

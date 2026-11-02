@@ -8,7 +8,7 @@ Na lime curd NCHFP stosuje ten sam przepis co na wekowany lemon curd, ale z 1 sz
 
 Pozostałe składniki to 2 1/2 szklanki drobnego cukru, 3/4 szklanki zimnego niesolonego masła pokrojonego w kawałki ok. 3/4 cala (ok. 1,9 cm), 7 dużych żółtek i 4 duże całe jajka; z przepisu na lemon curd wychodzi ok. 3–4 słoików 1/2 pinty. [T:SLO-236]
 
-Użyj butelkowanego soku z limonki, jak każe wariant przepisu: NCHFP używa soku butelkowanego, żeby ujednolicić kwasowość, bo kwasowość świeżego soku bywa różna. [T:SLO-043,SLO-039]
+Użyj butelkowanego soku z limonki, jak każe wariant przepisu; przy lemon curd NCHFP wyjaśnia, że sok butelkowany ujednolica kwasowość, bo kwasowość świeżego soku z cytryny bywa różna. [T:SLO-043,SLO-039]
 
 Reguła JarAtlas (ostrożna): NCHFP podaje tylko ten przepis (z wariantem z limonką) i obecnie nie zaleca wekowania innych kremów cytrusowych ani owocowych, więc nie zmieniaj ilości soku, cukru, jajek ani masła i nie zastępuj soku butelkowanego świeżym. [T:SLO-763]
 
