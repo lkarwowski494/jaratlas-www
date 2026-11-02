@@ -2,7 +2,7 @@
 import { planStron } from './plan.mjs';
 import { mapyStrony } from './mapa.mjs';
 import { DOMENA } from './konfiguracja.mjs';
-import { kontrolaZaslepek, kontrolaZaslepekPlikow, kontrolaOstrzezen, kontrolaTekstowJezyka, kontrolaNazw, kontrolaPrzekierowan } from './kontrole.mjs';
+import { kontrolaZaslepek, kontrolaZaslepekPlikow, kontrolaOstrzezen, kontrolaTekstowJezyka, kontrolaNazw, kontrolaPrzekierowan, kontrolaPowoduOstrzezenia } from './kontrole.mjs';
 import { stronaWariantu, stronaProduktu, stronaRodziny, stronaWyboruJezyka, stronaJezyka, okruszki } from './szablony.mjs';
 
 const plikDla = (sciezka) => (sciezka === '/' ? 'index.html' : sciezka.slice(1) + 'index.html');
@@ -13,6 +13,7 @@ export function generuj({ katalog, slugi, tresci, ui, nazwyJezykow = {}, adresy 
   if (!dozwolZaslepki) bledy.push(...kontrolaZaslepek(strony, tresci, ui));
   bledy.push(...kontrolaOstrzezen(strony, katalog, tresci, ui));
   bledy.push(...kontrolaTekstowJezyka(strony, ui));
+  bledy.push(...kontrolaPowoduOstrzezenia(strony, katalog, ui));
   bledy.push(...kontrolaNazw(strony, ui, nazwyJezykow));
   const { bledy: bPrzek, przekierowania } = kontrolaPrzekierowan(strony, adresy);
   bledy.push(...bPrzek);
