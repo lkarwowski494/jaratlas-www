@@ -15,6 +15,15 @@ export const SCOPE = ['in', 'out-of-scope', 'bridge'];
 // Produkt graniczny → twierdzenie ostrzeżenia, z którym przepis szczebla 1 bez zakwaszenia może być w kąpieli wodnej (decyzja 2026-11-02-jaratlas-06-katalog-p4).
 export const WYJATKI_KWAS = Object.freeze({ apricot: Object.freeze({ warning: 'E3-002', decyzja: '2026-11-02-jaratlas-06-katalog-p4' }) });
 
+// Wyjątki dla pojedynczych wariantów produktu niskokwasowego w kąpieli wodnej bez acidified (A2, decyzja 2026-11-02-jaratlas-06-katalog-a2).
+// Dlaczego po ID wariantu, nie produktu: kukurydza i grupa „ananas i banan” zostają niskokwasowe dla wszystkich innych wariantów;
+// wyjątek obejmuje tylko przepis szczebla 1 z twierdzeniami, które uzasadniają kwasowość. Nowy wpis = zmiana kodu, test i przegląd D-043.
+// Wzór listy z powodem i testem „wpis dotyczy istniejącej pozycji”: repo trening, tests/architecture-limits.test.ts:17 i :48.
+export const WYJATKI_NISKOKWASOWE = Object.freeze({
+  'corn-v09': Object.freeze({ productId: 'corn', acidBasis: 'sugar-acid', ostrzezenieDoPublikacji: 'ACI-283', claims: Object.freeze(['ACI-282', 'ACI-283']), decyzja: '2026-11-02-jaratlas-06-katalog-a2', powod: 'NCHFP Corncob Jelly: przepis w przetestowanej postaci daje galaretkę kwaśną (ACI-282); tylko dokładnie według przepisu (ACI-283)' }),
+  'pineapple-banana-v07': Object.freeze({ productId: 'pineapple-banana', acidBasis: 'natural-acid', claims: Object.freeze(['ACI-153']), decyzja: '2026-11-02-jaratlas-06-katalog-a2', powod: 'grupa produktu niskokwasowa przez banana; wariant to sam ananas (pH FDA 3,20–4,00, ACI-153), NCHFP Pineapple bez dodatku kwasu' }),
+});
+
 export function validateCatalog(cat, rejestr = []) {
   const errors = [], warnings = [];
   const claims = new Map(rejestr.map((t) => [t.id, t]));
@@ -70,7 +79,11 @@ export function validateCatalog(cat, rejestr = []) {
     if (!ACID_BASIS.includes(v.acidBasis)) errors.push(`${g}: acidBasis „${v.acidBasis}” spoza słownika`);
     if (!SCOPE.includes(v.scope)) errors.push(`${g}: scope „${v.scope}” spoza słownika`);
     // Kwasowość a kąpiel wodna (przekazanie §5.4; NCHFP: żywność niskokwasowa tylko szybkowar).
-    if (p?.acidity === 'low-acid' && v.acidBasis === 'natural-acid') errors.push(`${g}: produkt niskokwasowy nie może mieć acidBasis natural-acid`);
+    const wn = Object.hasOwn(WYJATKI_NISKOKWASOWE, v.id) ? WYJATKI_NISKOKWASOWE[v.id] : undefined; // Object.hasOwn: ID „constructor” nie trafia w prototyp (P3-2 przeglądu D-043 A2)
+    const wynOk = !!wn && v.productId === wn.productId && v.preservationMethod === 'water-bath' && p?.acidity === 'low-acid' && v.acidBasis === wn.acidBasis && v.acidityException?.decyzja === wn.decyzja && v.safetyStatus === 'ok-zrodlo' && wn.claims.every((c) => (v.claims ?? []).includes(c)) && (v.sources ?? []).some((z) => z.szczebel === 1 && z.adres && (z.cytat || z.miejsce) && /^\d{4}-\d\d-\d\d$/.test(z.odczyt ?? ''));
+    // Strażnik (przegląd D-043 A2): wyjątek nie wymaga dziś ostrzeżenia, bo karta corn-v09 była w torze C4; publikacja bez niego = błąd.
+    if (wn?.ostrzezenieDoPublikacji && v.publication !== 'ukryta' && !(v.requiredWarnings ?? []).includes(wn.ostrzezenieDoPublikacji)) errors.push(`${g}: wariant z WYJATKI_NISKOKWASOWE poza „ukryta” wymaga ostrzeżenia ${wn.ostrzezenieDoPublikacji} w requiredWarnings`);
+    if (p?.acidity === 'low-acid' && v.acidBasis === 'natural-acid' && !wynOk) errors.push(`${g}: produkt niskokwasowy nie może mieć acidBasis natural-acid`);
     if (v.preservationMethod === 'water-bath') {
       const niskokwasowy = v.acidBasis === 'low-acid' || v.acidBasis === 'not-applicable';
       if (niskokwasowy) errors.push(`${g}: wariant niskokwasowy z metodą water-bath`);
@@ -85,7 +98,7 @@ export function validateCatalog(cat, rejestr = []) {
       // Produkt niskokwasowy (07-jakosc-fix P2, obserwacja D-043 partii 6, 2026-11-02): w kąpieli wodnej tylko zakwaszony (acidified), wariant ostrożny
       // jak przy produkcie granicznym. fermented też błąd: przyszła karta (np. kapusta kiszona w słoikach) wymaga świadomej decyzji i zmiany reguły.
       // Bez drugiego komunikatu, gdy błąd zgłasza już reguła niskokwasowa wyżej albo reguła natural-acid.
-      if (!niskokwasowy && p?.acidity === 'low-acid' && v.acidBasis !== 'acidified' && v.acidBasis !== 'natural-acid') errors.push(`${g}: produkt niskokwasowy w water-bath wymaga zakwaszenia (acidBasis acidified); fermented i sugar-acid nie wystarczą bez decyzji i zmiany reguły`);
+      if (!niskokwasowy && p?.acidity === 'low-acid' && v.acidBasis !== 'acidified' && v.acidBasis !== 'natural-acid' && !wynOk) errors.push(`${g}: produkt niskokwasowy w water-bath wymaga zakwaszenia (acidBasis acidified); fermented i sugar-acid nie wystarczą bez decyzji i zmiany reguły`);
       if (!niskokwasowy && p?.acidity === 'borderline' && v.acidBasis !== 'acidified' && !(v.acidBasis === 'natural-acid' && wyjOk)) errors.push(`${g}: produkt graniczny w water-bath wymaga zakwaszenia (acidBasis acidified) albo wyjątku acidityException z listy WYJATKI_KWAS (acidBasis natural-acid, ok-zrodlo, przepis szczebla 1, ostrzeżenie w requiredWarnings, decyzja z listy)`);
     }
     // acidityException (P3 z przeglądu D-043, 2026-11-02): wyjątek musi wskazywać decyzję (ID wpisu tablicy decyzji, zaczyna się datą),
@@ -93,7 +106,8 @@ export function validateCatalog(cat, rejestr = []) {
     if (v.acidityException != null) {
       const d = v.acidityException.decyzja;
       if (typeof d !== 'string' || !/^\d{4}-\d\d-\d\d-\S+$/.test(d)) errors.push(`${g}: acidityException bez poprawnej decyzji (jest: ${JSON.stringify(d)}; oczekiwane ID wpisu tablicy decyzji RRRR-MM-DD-…)`);
-      if (!(v.preservationMethod === 'water-bath' && p?.acidity === 'borderline' && v.acidBasis === 'natural-acid')) errors.push(`${g}: acidityException bez zastosowania (wyjątek dotyczy tylko produktu granicznego w water-bath z acidBasis natural-acid); usuń pole albo popraw wariant`);
+      const zastNisk = !!wn && v.productId === wn.productId && v.preservationMethod === 'water-bath' && p?.acidity === 'low-acid' && v.acidBasis === wn.acidBasis; // P3-1: przy acidified pole jest martwe = błąd
+      if (!zastNisk && !(v.preservationMethod === 'water-bath' && p?.acidity === 'borderline' && v.acidBasis === 'natural-acid')) errors.push(`${g}: acidityException bez zastosowania (wyjątek dotyczy tylko produktu granicznego w water-bath z acidBasis natural-acid albo wariantu z listy WYJATKI_NISKOKWASOWE z jej produktem i acidBasis); usuń pole albo popraw wariant`);
     }
     for (const id of v.claims ?? []) claimOk(id, g);
     for (const id of v.requiredWarnings ?? []) claimOk(id, `${g} ostrzeżenie`);

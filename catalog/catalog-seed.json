@@ -1,5 +1,5 @@
 {
- "version": "1.0.4",
+ "version": "1.0.5",
  "generated": "2026-11-02",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -4844,7 +4844,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Kapusta z grzybami w słoikach: zwykle grzyby leśne (NCHFP: nie wekować dzikich grzybów); mieszanina z kapustą bez przetestowanego procesu. Jeśli grzyby hodowlane i kapusta kiszona – nadal brak procesu (ryzyko wysokie)."
+    "[SZY*] Kapusta z grzybami w słoikach: zwykle grzyby leśne (NCHFP: nie wekować dzikich grzybów); mieszanina z kapustą bez przetestowanego procesu. Jeśli grzyby hodowlane i kapusta kiszona – nadal brak procesu (ryzyko wysokie).",
+    "[06 A2 2026-11-02] T2 (C3-03): requiredWarnings + SZY-020 (ostrzeżenie już na karcie)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -4853,7 +4854,8 @@
    ],
    "e3": "potwierdzony",
    "requiredWarnings": [
-    "SUS-035"
+    "SUS-035",
+    "SZY-020"
    ]
   },
   {
@@ -22373,13 +22375,13 @@
    "id": "corn-v09",
    "productId": "corn",
    "name": {
-    "pl": "galaretka z wywaru z kolb kukurydzianych"
+    "pl": "galaretka z wywaru z kolb kukurydzy z pektyną"
    },
    "groupV0": "Pasteryzacja, słodkie i susz",
    "lineV0": 175,
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "water-bath",
-   "acidBasis": "acidified",
+   "acidBasis": "sugar-acid",
    "safetyStatus": "ok-zrodlo",
    "claims": [
     "SLO-001",
@@ -22387,7 +22389,9 @@
     "SLO-012",
     "SLO-018",
     "SLO-035",
-    "SLO-081"
+    "SLO-081",
+    "ACI-282",
+    "ACI-283"
    ],
    "sources": [
     {
@@ -22406,7 +22410,9 @@
    },
    "notes": [
     "[SZY] Galaretka z wywaru z kolb (SLO).",
-    "[SLO*] Corncob Jelly NCHFP: bezpośredni odpowiednik (galaretka z wywaru z kolb, pektyna). Uwaga: przepis używa kolb czerwonej kukurydzy pastewnej; kukurydza sama w sobie jest niskokwasowa, więc tylko według przepisu."
+    "[SLO*] Corncob Jelly NCHFP: bezpośredni odpowiednik (galaretka z wywaru z kolb, pektyna). Uwaga: przepis używa kolb czerwonej kukurydzy pastewnej; kukurydza sama w sobie jest niskokwasowa, więc tylko według przepisu.",
+    "[06 A2 2026-11-02] Przepis bez dodatku kwasu, NCHFP: „produce an acidic jelly as tested” (ACI-282), tylko dokładnie według przepisu (ACI-283): acidBasis sugar-acid z wyjątkiem WYJATKI_NISKOKWASOWE. requiredWarnings ACI-283 po zakończeniu toru C4 (karta corn-v09 poza tym torem).",
+    "[06 A2 2026-11-02] Nazwa zgodna z kartą (D-043; było: „galaretka z wywaru z kolb kukurydzianych”)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -22414,7 +22420,10 @@
     "SZY",
     "SLO"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "acidityException": {
+    "decyzja": "2026-11-02-jaratlas-06-katalog-a2"
+   }
   },
   {
    "id": "corn-v10",
@@ -26181,7 +26190,7 @@
    "id": "pear-v07",
    "productId": "pear",
    "name": {
-    "pl": "połówki gruszek w syropie waniliowym"
+    "pl": "połówki gruszek w bardzo lekkim syropie, bez wanilii"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 211,
@@ -26213,7 +26222,8 @@
    "notes": [
     "[ACI*] NCHFP Pears halved w syropie; wanilia jako aromat. Gruszki azjatyckie: obowiązkowe zakwaszenie (osobny przepis).",
     "[SLO] Najbliższy przetestowany: Pears-Halved (NCHFP); wanilia to dodatek poza przepisem.",
-    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → ok-zrodlo: NCHFP Pears-Halved (9e866e44d160): połówki, hot pack w syropie (bardzo lekki do średniego), kąpiel wodna, pint 20 min, quart 25 min; acidBasis natural-acid jest właściwe dla gruszek europejskich. Wanilia jako aromat w syropie nie zmienia kwasu, cukru, proporcji ani procesu; dopuszczam pod warunkiem, że syrop ma proporcje NCHFP (ACI-067), a do zalewy nie dodaje się skrobi ani nabiału. Do zmiany jest requiredWarnings: przepis nie dotyczy gruszek azjatyckich (nashi), które są graniczne i wymagają zakwaszenia, a ACI-063 jest w claims, ale nie jako ostrzeżenie."
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → ok-zrodlo: NCHFP Pears-Halved (9e866e44d160): połówki, hot pack w syropie (bardzo lekki do średniego), kąpiel wodna, pint 20 min, quart 25 min; acidBasis natural-acid jest właściwe dla gruszek europejskich. Wanilia jako aromat w syropie nie zmienia kwasu, cukru, proporcji ani procesu; dopuszczam pod warunkiem, że syrop ma proporcje NCHFP (ACI-067), a do zalewy nie dodaje się skrobi ani nabiału. Do zmiany jest requiredWarnings: przepis nie dotyczy gruszek azjatyckich (nashi), które są graniczne i wymagają zakwaszenia, a ACI-063 jest w claims, ale nie jako ostrzeżenie.",
+    "[06 A2 2026-11-02] Nazwa zgodna z kartą (D-043; było: „połówki gruszek w syropie waniliowym”)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -28258,7 +28268,7 @@
    "id": "sour-cherry-v09",
    "productId": "sour-cherry",
    "name": {
-    "pl": "wiśnie we własnym soku (do ciast)"
+    "pl": "wiśnie całe w wodzie, bez cukru"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 227,
@@ -28286,7 +28296,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] NCHFP Cherries whole: hot pack z 1/2 szklanki wody, soku lub syropu na 1 qt — sok własny jako płyn."
+    "[ACI*] NCHFP Cherries whole: hot pack z 1/2 szklanki wody, soku lub syropu na 1 qt — sok własny jako płyn.",
+    "[06 A2 2026-11-02] Nazwa zgodna z kartą (D-043; było: „wiśnie we własnym soku (do ciast)”)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29712,7 +29723,7 @@
    "id": "apricot-v06",
    "productId": "apricot",
    "name": {
-    "pl": "tradycyjny dżem morelowy (do tortu Sachera)"
+    "pl": "dżem morelowy bez dodatku pektyny"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 239,
@@ -29743,14 +29754,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Apricot Jam without Pectin (NCHFP)."
+    "[SLO*] Apricot Jam without Pectin (NCHFP).",
+    "[06 A2 2026-11-02] C3-03: requiredWarnings ACI-308 (ostrzeżenie już na karcie).",
+    "[06 A2 2026-11-02] Nazwa zgodna z kartą (D-043; było: „tradycyjny dżem morelowy (do tortu Sachera)”)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "ACI-308"
+   ]
   },
   {
    "id": "apricot-v07",
@@ -29925,13 +29941,14 @@
    "lineV0": 239,
    "processFamilyId": "canned-foods",
    "preservationMethod": "water-bath",
-   "acidBasis": "acidified",
+   "acidBasis": "natural-acid",
    "safetyStatus": "ok-zrodlo",
    "claims": [
     "ACI-072",
     "ACI-067",
     "ACI-135",
-    "SLO-097"
+    "SLO-097",
+    "E3-002"
    ],
    "sources": [
     {
@@ -29957,7 +29974,8 @@
    },
    "notes": [
     "[ACI*] Kompot ≈ morele połówki w syropie bardzo lekkim (NCHFP).",
-    "[SLO] Kompot = morele w syropie (NCHFP)."
+    "[SLO] Kompot = morele w syropie (NCHFP).",
+    "[06 A2 2026-11-02] Przepis NCHFP bez dodatku kwasu (jak apricot-v08): acidBasis natural-acid z wyjątkiem acidityException i ostrzeżeniem E3-002 (decyzja 2026-11-02-jaratlas-06-katalog-p4)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29965,7 +29983,14 @@
     "ACI",
     "SLO"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "acidityException": {
+    "warning": "E3-002",
+    "decyzja": "2026-11-02-jaratlas-06-katalog-p4"
+   },
+   "requiredWarnings": [
+    "E3-002"
+   ]
   },
   {
    "id": "apricot-v12",
@@ -33213,7 +33238,7 @@
    "id": "cranberry-lingonberry-v09",
    "productId": "cranberry-lingonberry",
    "name": {
-    "pl": "konfitura żurawinowa"
+    "pl": "konfitura żurawinowa: żurawina w ciężkim syropie"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 271,
@@ -33249,7 +33274,8 @@
    },
    "notes": [
     "[SLO*] Konfitura żurawinowa: Cranberries w gęstym syropie lub Cranberry Sauce (NCHFP). Dotyczy żurawiny (Vaccinium macrocarpon/oxycoccos), nie borówki brusznicy.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SLO."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SLO.",
+    "[06 A2 2026-11-02] Nazwa zgodna z kartą (D-043; było: „konfitura żurawinowa”)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33263,7 +33289,7 @@
    "id": "cranberry-lingonberry-v10",
    "productId": "cranberry-lingonberry",
    "name": {
-    "pl": "galaretka żurawinowa"
+    "pl": "przetarty sos żurawinowy"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 271,
@@ -33292,7 +33318,8 @@
    "notes": [
     "[SZY] Galaretka (SLO).",
     "[SLO*] Galaretka żurawinowa = przetarty sos żurawinowy (Cranberry Sauce, NCHFP).",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SLO."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SLO.",
+    "[06 A2 2026-11-02] Nazwa zgodna z kartą (D-043; było: „galaretka żurawinowa”)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -35136,7 +35163,7 @@
    "id": "rhubarb-v05",
    "productId": "rhubarb",
    "name": {
-    "pl": "kompot rabarbarowy w słoikach"
+    "pl": "kompot rabarbarowy: rabarbar duszony z cukrem"
    },
    "groupV0": "Cukier, pasteryzacja i susz",
    "lineV0": 291,
@@ -35167,7 +35194,8 @@
    "notes": [
     "[ACI*] Kompot ≈ NCHFP Rhubarb stewed (1/2 szklanki cukru na 1 qt, hot pack). Kompot z większą ilością wody — DO USTALENIA.",
     "[SZY] Kompot rabarbarowy – NCHFP ma „Rhubarb-Stewed” (kąpiel wodna); ACI.",
-    "[SLO] Rhubarb-Stewed (NCHFP)."
+    "[SLO] Rhubarb-Stewed (NCHFP).",
+    "[06 A2 2026-11-02] Nazwa zgodna z kartą (D-043; było: „kompot rabarbarowy w słoikach”)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37541,7 +37569,7 @@
    "lineV0": 319,
    "processFamilyId": "canned-foods",
    "preservationMethod": "water-bath",
-   "acidBasis": "acidified",
+   "acidBasis": "natural-acid",
    "safetyStatus": "ok-zrodlo",
    "claims": [
     "ACI-076",
@@ -37567,7 +37595,8 @@
    "notes": [
     "[ACI*] NCHFP Pineapple (w syropie, soku lub wodzie).",
     "[SZY] Ananas w syropie – NCHFP „Pineapple” (ACI).",
-    "[SLO] Pineapple (NCHFP)."
+    "[SLO] Pineapple (NCHFP).",
+    "[06 A2 2026-11-02] NCHFP Pineapple bez dodatku kwasu; ananas pH FDA 3,20–4,00 (ACI-153): acidBasis natural-acid z wyjątkiem WYJATKI_NISKOKWASOWE (grupa produktu niskokwasowa przez banana)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37576,7 +37605,10 @@
     "SZY",
     "SLO"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "acidityException": {
+    "decyzja": "2026-11-02-jaratlas-06-katalog-a2"
+   }
   },
   {
    "id": "pineapple-banana-v08",
@@ -51029,7 +51061,7 @@
    "id": "beef-veal-v08",
    "productId": "beef-veal",
    "name": {
-    "pl": "amerykańskie beef jerky (cienkie paski marynowane w sosie sojowym/worcestershire i suszone w 65°C)"
+    "pl": "amerykańskie beef jerky (cienkie paski marynowane w sosie sojowym/worcestershire i suszone w 140 °F (60 °C))"
    },
    "groupV0": "Suszona, dojrzewająca i tłuszcze",
    "lineV0": 447,
@@ -51064,7 +51096,8 @@
     "[ACI] Jerky — suszenie mięsa, poza ACI.",
     "[SZY] Beef jerky (SUS/MIE).",
     "[SUS] beef jerky: NCHFP ma stronę Jerky (160°F wewnątrz mięsa); dziczyzna: pytanie o włośnie. Decyduje MIE.",
-    "[MIE*] NCHFP: mięso musi osiągnąć 160°F (podgrzanie w marynacie przed suszeniem lub w piekarniku po), suszenie w 140°F, paski do 1/4 cala. Samo suszenie w temperaturze z v0 nie zastępuje podgrzania. W temperaturze pokojowej 2 tygodnie (MIE-041)."
+    "[MIE*] NCHFP: mięso musi osiągnąć 160°F (podgrzanie w marynacie przed suszeniem lub w piekarniku po), suszenie w 140°F, paski do 1/4 cala. Samo suszenie w temperaturze z v0 nie zastępuje podgrzania. W temperaturze pokojowej 2 tygodnie (MIE-041).",
+    "[06 A2 2026-11-02] C2-05: temperatura w nazwie według NCHFP Jerky „preheated to 140ºF” (było: 65°C). C2-04: requiredWarnings MIE-036."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -51075,7 +51108,10 @@
     "MIE"
    ],
    "e3": "potwierdzony",
-   "nameV0": "amerykańskie beef jerky (cienkie paski marynowane w sosie sojowym/worcestershire i suszone w $65^\\circ\\text{C}$)"
+   "nameV0": "amerykańskie beef jerky (cienkie paski marynowane w sosie sojowym/worcestershire i suszone w $65^\\circ\\text{C}$)",
+   "requiredWarnings": [
+    "MIE-036"
+   ]
   },
   {
    "id": "beef-veal-v09",
@@ -52200,7 +52236,8 @@
    },
    "notes": [
     "[SUS] jerky z jelenia: NCHFP ma stronę Jerky (160°F wewnątrz mięsa); dziczyzna: pytanie o włośnie. Decyduje MIE.",
-    "[MIE*] NCHFP każe zamrozić dziczyznę przeciw włośniom (MIE-035), ale UE wskazuje, że część gatunków Trichinella u zwierzyny jest odporna na zamrażanie (MIE-033): kluczowe jest podgrzanie do 160°F. Nie używać mięsa zanieczyszczonego treścią jelit (MIE-043)."
+    "[MIE*] NCHFP każe zamrozić dziczyznę przeciw włośniom (MIE-035), ale UE wskazuje, że część gatunków Trichinella u zwierzyny jest odporna na zamrażanie (MIE-033): kluczowe jest podgrzanie do 160°F. Nie używać mięsa zanieczyszczonego treścią jelit (MIE-043).",
+    "[06 A2 2026-11-02] C2-04: requiredWarnings MIE-036 (160 °F), MIE-035 i MIE-033 (włośnie)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -52208,7 +52245,12 @@
     "SUS",
     "MIE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "MIE-036",
+    "MIE-035",
+    "MIE-033"
+   ]
   },
   {
    "id": "game-lamb-v10",
@@ -54849,7 +54891,7 @@
    "id": "leafy-greens-v13",
    "productId": "leafy-greens",
    "name": {
-    "pl": "szpinak i boćwina mrożone"
+    "pl": "szpinak i inne liście mrożone, w tym boćwina i jarmuż"
    },
    "groupV0": null,
    "lineV0": null,
@@ -54880,7 +54922,8 @@
     "difficulty": null
    },
    "notes": [
-    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1).",
+    "[06 A2 2026-11-02] Nazwa zgodna z kartą (D-043; było: „szpinak i boćwina mrożone”)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -54937,7 +54980,7 @@
    "id": "green-cherry-tomato-v15",
    "productId": "green-cherry-tomato",
    "name": {
-    "pl": "zielone pomidory mrożone"
+    "pl": "zielone pomidory mrożone do smażenia"
    },
    "groupV0": null,
    "lineV0": null,
@@ -54968,7 +55011,9 @@
     "difficulty": null
    },
    "notes": [
-    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1).",
+    "[06 A2 2026-11-02] Nazwa zgodna z kartą (D-043; było: „zielone pomidory mrożone”).",
+    "[06 A2 2026-11-02] Karta tylko zielone pomidory (plastry do smażenia), bez pomidorów koktajlowych."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -55100,7 +55145,8 @@
     "difficulty": null
    },
    "notes": [
-    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1).",
+    "[06 A2 2026-11-02] Nazwa wariantu zgodna z kartą (młode ziemniaki); karta nie obejmuje topinamburu, nazwa produktu szersza, bez zmiany produktu (D-043)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -55232,7 +55278,8 @@
     "difficulty": null
    },
    "notes": [
-    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1).",
+    "[06 A2 2026-11-02] Nazwa wariantu zgodna z kartą (groszek cukrowy w strąkach); nazwa produktu „groch, bób i ciecierzyca” szersza niż karta, bez zmiany produktu (D-043)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -55598,7 +55645,7 @@
    "id": "fennel-artichoke-v11",
    "productId": "fennel-artichoke",
    "name": {
-    "pl": "karczochy mrożone"
+    "pl": "serca karczochów mrożone"
    },
    "groupV0": null,
    "lineV0": null,
@@ -55629,7 +55676,9 @@
     "difficulty": null
    },
    "notes": [
-    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1).",
+    "[06 A2 2026-11-02] Nazwa zgodna z kartą (D-043; było: „karczochy mrożone”).",
+    "[06 A2 2026-11-02] Karta tylko serca karczocha zwyczajnego, bez fenkułu."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -56522,7 +56571,7 @@
    "id": "lemon-v16",
    "productId": "lemon",
    "name": {
-    "pl": "cytrusy mrożone (cytryna)"
+    "pl": "cytryny mrożone: cząstki i sok"
    },
    "groupV0": null,
    "lineV0": null,
@@ -56553,7 +56602,8 @@
     "difficulty": null
    },
    "notes": [
-    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1).",
+    "[06 A2 2026-11-02] Nazwa zgodna z kartą (D-043; było: „cytrusy mrożone (cytryna)”)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -56610,7 +56660,7 @@
    "id": "orange-kumquat-v15",
    "productId": "orange-kumquat",
    "name": {
-    "pl": "pomarańcze mrożone"
+    "pl": "pomarańcze mrożone: cząstki i sok"
    },
    "groupV0": null,
    "lineV0": null,
@@ -56641,7 +56691,8 @@
     "difficulty": null
    },
    "notes": [
-    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1).",
+    "[06 A2 2026-11-02] Nazwa zgodna z kartą (D-043; było: „pomarańcze mrożone”)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -56654,7 +56705,7 @@
    "id": "grapefruit-v10",
    "productId": "grapefruit",
    "name": {
-    "pl": "grejpfrut mrożony"
+    "pl": "grejpfrut mrożony: cząstki i sok"
    },
    "groupV0": null,
    "lineV0": null,
@@ -56685,7 +56736,8 @@
     "difficulty": null
    },
    "notes": [
-    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1)."
+    "[E2] Wariant dodany: mrożenie wg NCHFP (decyzja 2026-11-01-jaratlas-katalog-v1-e1).",
+    "[06 A2 2026-11-02] Nazwa zgodna z kartą (D-043; było: „grejpfrut mrożony”)."
    ],
    "scope": "in",
    "publication": "ukryta",
