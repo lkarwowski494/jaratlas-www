@@ -53,3 +53,31 @@ NCHFP times are for US jar sizes: a pint holds about 473 ml and a quart about 94
 JarAtlas rule (NCHFP does not test metric jars): for a jar of up to 473 ml use the pint time, and for a larger jar of up to 946 ml, for example 0.5 l or 0.9 l, use the quart time. [T:ACI-175]
 
 This NCHFP recipe gives no time for jars larger than a quart, such as 1 l, so JarAtlas recommends smaller jars. [T:ACI-175]
+
+## Cooling and storing
+
+When you take the hot jars out of the canner, do not retighten the lids or bands; this can cut through the gasket and cause seal failures. [T:SLO-210]
+
+In raw-packed jars the food and liquid level will be noticeably lower after cooling. [T:SLO-210]
+
+If any jar loses a lot of liquid during processing, do not open it to add more. [T:SLO-210]
+
+Cool the jars at room temperature for 12 to 24 hours, then remove the screw bands and test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196,SLO-212]
+
+A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
+
+If a jar has not sealed at this check, keep it in the refrigerator and eat it within several days. [T:SLO-197]
+
+Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) and not near hot pipes, a stove or a furnace, in an uninsulated attic or in direct sunlight; in such conditions the food may spoil. [T:SLO-198]
+
+## When to throw it out
+
+Before using a stored jar, check that the lid is tight and holds a vacuum: a good seal has a concave centre. [T:SLO-191]
+
+Look for streaks of dried food running from the top of the jar, rising air bubbles and unnatural colour. [T:SLO-191]
+
+When opening the jar, check for an unnatural smell, spurting liquid and cotton-like mould on the food or under the lid. [T:SLO-191]
+
+Do not taste food from a jar with an unsealed lid or with signs of spoilage. [T:SLO-190]
+
+JarAtlas rule (cautious): throw out such a jar. [T:SLO-190]

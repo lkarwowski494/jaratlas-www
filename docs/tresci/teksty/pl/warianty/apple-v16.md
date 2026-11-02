@@ -1,0 +1,85 @@
+# Tłoczony sok jabłkowy w słoikach (NCHFP)
+
+Ta karta opisuje metodę NCHFP wekowania świeżo tłoczonego soku jabłkowego w wysterylizowanych słoikach, w kąpieli wodnej. [T:SLO-090,SLO-216]
+
+## Wybór soku
+
+NCHFP utrzymuje swoje przepisy z jabłek, ale zaleca świeże, zdrowe jabłka; jeśli nie masz pewności co do ich pH, przetwory z jabłek trzymaj w lodówce albo zamrażarce zamiast w temperaturze pokojowej. [T:SLO-048]
+
+Dobry sok jabłkowy powstaje z mieszanki odmian; dla najlepszego wyniku NCHFP radzi kupić świeży sok w lokalnej tłoczni w ciągu 24 godzin od tłoczenia. [T:SLO-216]
+
+NCHFP: słoiki z sokiem owocowym trzeba wekować w kąpieli wodnej wystarczająco długo, by zniszczyć drobnoustroje powodujące psucie. [T:SLO-050]
+
+## Sterylizacja słoików
+
+Ten przepis używa wysterylizowanych słoików pint albo quart. [T:SLO-216]
+
+NCHFP stawia puste słoiki otworem do góry na kratce w garnku do wekowania w kąpieli wodnej i napełnia garnek oraz słoiki gorącą (nie wrzącą) wodą do 1 cala (ok. 2,5 cm) ponad górną krawędź słoików. [T:SLO-120]
+
+Do sterylizacji pustych słoików NCHFP gotuje je 10 minut poniżej 1000 stóp, a wyżej o 1 minutę dłużej na każde kolejne tysiąc stóp. [T:SLO-118]
+
+Reguła JarAtlas dla metrów: gotuj słoiki 10 minut do 300 m, a wyżej dodaj 1 minutę za każde kolejne rozpoczęte 300 m. [T:SLO-119]
+
+Tuż przed napełnianiem wyjmuj gorące, wysterylizowane słoiki po jednym i odsączaj je. [T:SLO-120]
+
+## Przygotowanie soku
+
+Sok trzymaj w lodówce 24–48 godzin. [T:SLO-216]
+
+Nie mieszając, ostrożnie zlej klarowny płyn, a osad wyrzuć. [T:SLO-216]
+
+Klarowny płyn przecedź przez papierowy filtr do kawy albo podwójną warstwę wilgotnej gazy. [T:SLO-216]
+
+Podgrzewaj go szybko, od czasu do czasu mieszając, aż sok zacznie wrzeć. [T:SLO-216]
+
+## Napełnianie słoików
+
+Gorący sok od razu wlej do wysterylizowanych słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni. [T:SLO-216]
+
+Załóż pokrywki i wekuj. [T:SLO-216]
+
+## Wekowanie
+
+Na wysokości 0–1000 stóp (do 300 m) wekuj słoiki pint i quart 5 minut. [T:ACI-079,SLO-216,ACI-176]
+
+Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
+
+Na wysokości 1001–6000 stóp (powyżej 300 m do 1800 m) wekuj słoiki pint i quart 10 minut. [T:SLO-216,ACI-176]
+
+Powyżej 6000 stóp (powyżej 1800 m) wekuj słoiki pint i quart 15 minut. [T:SLO-216,ACI-176]
+
+Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, a 6000 stóp to 1800 m. [T:ACI-176]
+
+Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsuciem. [T:ACI-015]
+
+Czasy NCHFP dotyczą amerykańskich słoików: pint mieści ok. 473 ml, a quart ok. 946 ml. [T:ACI-174]
+
+Reguła JarAtlas (NCHFP nie bada słoików metrycznych): dla słoika do 473 ml stosuj czas dla pint, a dla większego, do 946 ml, np. 0,5 l albo 0,9 l, czas dla quart. [T:ACI-175]
+
+NCHFP podaje też czasy dla słoików o pojemności pół galona; ta karta ich nie opisuje i JarAtlas zaleca słoiki do 946 ml. [T:SLO-216,ACI-175]
+
+## Studzenie i przechowywanie
+
+Po wyjęciu gorących słoików z garnka nie dokręcaj zakrętek ani pokrywek; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
+
+Jeśli którykolwiek słoik straci dużo płynu podczas wekowania, nie otwieraj go, żeby dolać płynu. [T:SLO-210]
+
+Słoiki studź w temperaturze pokojowej 12–24 godziny, potem zdejmij zakrętki i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
+
+Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
+
+Słoik, który przy tym sprawdzeniu okazał się niezamknięty, trzymaj w lodówce i zjedz w ciągu kilku dni. [T:SLO-197]
+
+Zamknięte słoiki przechowuj w czystym, chłodnym, ciemnym i suchym miejscu, nie powyżej 95 °F (35 °C) i nie przy gorących rurach, kuchence czy piecu, na nieocieplonym strychu ani w pełnym słońcu; w takich warunkach przetwór może się zepsuć. [T:SLO-198]
+
+## Kiedy wyrzucić
+
+Zanim użyjesz słoika z zapasów, sprawdź, czy pokrywka jest szczelna i trzyma podciśnienie: dobrze zamknięta ma wklęsły środek. [T:SLO-191]
+
+Sprawdź, czy od góry słoika nie biegną zaschnięte zacieki, czy w środku nie unoszą się pęcherzyki powietrza i czy kolor nie jest nienaturalny. [T:SLO-191]
+
+Przy otwieraniu sprawdź, czy nie ma nienaturalnego zapachu, tryskającego płynu i pleśni przypominającej watę na jedzeniu albo pod pokrywką. [T:SLO-191]
+
+Nie próbuj jedzenia ze słoika z niezamkniętą pokrywką ani z oznakami zepsucia. [T:SLO-190]
+
+Reguła JarAtlas (ostrożna): taki słoik wyrzuć. [T:SLO-190]

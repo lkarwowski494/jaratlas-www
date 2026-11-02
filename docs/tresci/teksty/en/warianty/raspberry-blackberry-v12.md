@@ -52,7 +52,7 @@ This NCHFP recipe gives no time for jars larger than a quart, such as 1 l, so Ja
 
 ## Cooling and storing
 
-Cool the jars at room temperature for 12 to 24 hours, then test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196]
+Cool the jars at room temperature for 12 to 24 hours, then remove the screw bands and test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196,SLO-212]
 
 A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
 

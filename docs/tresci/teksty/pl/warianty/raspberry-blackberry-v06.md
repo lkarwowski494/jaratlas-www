@@ -56,7 +56,7 @@ Reguła JarAtlas (NCHFP nie testuje słoików metrycznych): pinta to ok. 473 ml,
 
 ## Studzenie i przechowywanie
 
-Słoiki studź w temperaturze pokojowej 12–24 godziny, potem sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196]
+Słoiki studź w temperaturze pokojowej 12–24 godziny, potem zdejmij zakrętki i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
 
 Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
 
