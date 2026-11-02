@@ -56,6 +56,8 @@ Store the dried vegetables in a cool, dry, dark place. [T:SUS-066]
 
 Dried vegetables keep about half as long as dried fruit: according to Clemson HGIC, about 6 months at 60 °F and 3 months at 80 °F. [T:SUS-021]
 
+Note: according to MSU, dried cabbage readily absorbs moisture from the air and keeps well only if stored at extremely cold temperatures. [T:SUS-200]
+
 ## When to throw away
 
 Check the dried vegetables often (glass shows condensation); if they have taken up moisture but are not spoiled, use them at once or dry them again and repack them. [T:SUS-023]

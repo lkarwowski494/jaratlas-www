@@ -8,7 +8,7 @@ Wash and trim the cauliflower, then cut it into small pieces. [T:SUS-109]
 
 Blanch the pieces for 4–5 minutes. [T:SUS-109]
 
-MSU rates cauliflower as “poor” for drying; this is a quality rating, not a safety one. [T:SUS-121]
+MSU rates cauliflower as “poor” for drying; MSU gives no reason for this rating. [T:SUS-121]
 
 ## Blanching
 
@@ -57,6 +57,8 @@ Vacuum packaging is not a preservation method by itself: removing oxygen increas
 Store the dried vegetables in a cool, dry, dark place. [T:SUS-066]
 
 Dried vegetables keep about half as long as dried fruit: according to Clemson HGIC, about 6 months at 60 °F and 3 months at 80 °F. [T:SUS-021]
+
+According to MSU, if you soak dried vegetables, cover them with cold water until they nearly regain their original texture (1/2–2 hours); if you soak them longer than 2 hours, keep them in the refrigerator. [T:SUS-204]
 
 ## When to throw away
 

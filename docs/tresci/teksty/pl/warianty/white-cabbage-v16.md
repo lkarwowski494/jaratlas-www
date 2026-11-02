@@ -56,6 +56,8 @@ Przechowuj susz w miejscu chłodnym, suchym i ciemnym. [T:SUS-066]
 
 Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F i 3 miesiące w 80 °F. [T:SUS-021]
 
+Uwaga: według MSU suszona kapusta łatwo chłonie wilgoć z powietrza i dobrze się przechowuje tylko w bardzo niskiej temperaturze. [T:SUS-200]
+
 ## Kiedy wyrzucić
 
 Sprawdzaj susz często (w szkle widać skroploną parę); susz, który wchłonął wilgoć, ale nie jest zepsuty, zużyj od razu albo dosusz i zapakuj ponownie. [T:SUS-023]

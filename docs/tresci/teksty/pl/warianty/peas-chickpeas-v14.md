@@ -56,6 +56,8 @@ Przechowuj susz w miejscu chłodnym, suchym i ciemnym. [T:SUS-066]
 
 Susz warzywny ma około połowy trwałości suszu owocowego: według Clemson HGIC ok. 6 miesięcy w 60 °F i 3 miesiące w 80 °F. [T:SUS-021]
 
+Według MSU, jeśli namaczasz susz warzywny, zalej go zimną wodą i mocz, aż prawie odzyska pierwotną teksturę (1/2–2 godziny); jeśli moczysz go dłużej niż 2 godziny, trzymaj go w lodówce. [T:SUS-204]
+
 ## Kiedy wyrzucić
 
 Sprawdzaj susz często (w szkle widać skroploną parę); susz, który wchłonął wilgoć, ale nie jest zepsuty, zużyj od razu albo dosusz i zapakuj ponownie. [T:SUS-023]

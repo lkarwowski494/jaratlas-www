@@ -56,6 +56,8 @@ Store the dried vegetables in a cool, dry, dark place. [T:SUS-066]
 
 Dried vegetables keep about half as long as dried fruit: according to Clemson HGIC, about 6 months at 60 °F and 3 months at 80 °F. [T:SUS-021]
 
+According to MSU, if you soak dried vegetables, cover them with cold water until they nearly regain their original texture (1/2–2 hours); if you soak them longer than 2 hours, keep them in the refrigerator. [T:SUS-204]
+
 ## When to throw away
 
 Check the dried vegetables often (glass shows condensation); if they have taken up moisture but are not spoiled, use them at once or dry them again and repack them. [T:SUS-023]

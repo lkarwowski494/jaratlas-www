@@ -32,7 +32,7 @@ In an oven, keep 140–150 °F (about 60–66 °C): place a calibrated oven ther
 
 Leave the oven door open 2–3 inches (about 5–7.5 cm) so moisture can escape. [T:SUS-071]
 
-In a conventional oven, drying can take up to twice as long as in a dehydrator, depending on air circulation. [T:SUS-072]
+According to Penn State, drying strawberries in a regular oven takes 2–3 times longer than in a dehydrator, because a regular oven has no fan. [T:SUS-201]
 
 Fruit scorches easily near the end of drying: when drying is almost done, turn the oven heat off and open the door wide for one more hour. [T:SUS-073]
 

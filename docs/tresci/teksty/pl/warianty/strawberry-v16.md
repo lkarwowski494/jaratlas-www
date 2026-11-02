@@ -32,7 +32,7 @@ W piekarniku utrzymuj 140–150 °F (ok. 60–66 °C): połóż skalibrowany ter
 
 Drzwi piekarnika zostaw uchylone na 2–3 cale (ok. 5–7,5 cm), żeby uchodziła wilgoć. [T:SUS-071]
 
-W zwykłym piekarniku suszenie może trwać do dwóch razy dłużej niż w suszarce, zależnie od obiegu powietrza. [T:SUS-072]
+Według Penn State suszenie truskawek w zwykłym piekarniku trwa 2–3 razy dłużej niż w suszarce, bo zwykły piekarnik nie ma wentylatora. [T:SUS-201]
 
 Pod koniec suszenia owoce łatwo się przypalają: gdy suszenie jest prawie skończone, wyłącz grzanie i otwórz drzwi piekarnika szeroko na jeszcze godzinę. [T:SUS-073]
 
