@@ -41,6 +41,8 @@ export function stronaWariantu(st, v, tr, ui, okruszki) {
     `<main data-typ="${ostrzezenie ? 'karta-ostrzezenie' : 'karta'}" data-status="${esc(v.safetyStatus)}">`,
     `<h1>${esc(tr.tytul)}</h1>`,
     ostrz ? `<section data-ostrzezenia role="alert"><h2>${esc(ui.ostrzezenia)}</h2><ul>${ostrz}</ul></section>` : '',
+    // Powód karty-ostrzeżenia (C13): tekst tylko z ui (rola 04); brak tekstu łapie kontrolaPowoduOstrzezenia. Miejsce: [DO USTALENIA 04].
+    ostrzezenie && v.warningReason !== undefined ? `<p data-powod="${esc(v.warningReason)}">${esc(ui.powodyOstrzezenia?.[v.warningReason])}</p>` : '',
     uwagaD027(ui),
     tr.wstep ? `<p>${esc(tr.wstep)}</p>` : '',
     sekcje,

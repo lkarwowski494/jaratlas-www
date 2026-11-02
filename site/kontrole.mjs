@@ -77,3 +77,17 @@ export function kontrolaPrzekierowan(strony, adresy = {}) {
   const przekierowania = Object.entries(przek).map(([z, cel]) => ({ z, do: cel })).sort((a, b) => a.z.localeCompare(b.z));
   return { bledy, przekierowania };
 }
+
+// Powód karty-ostrzeżenia (C13): wariant z warningReason na stronie wymaga niepustego tekstu ui[lang].powodyOstrzezenia[powód] (rola 04).
+// Bez zastępstwa kluczem ani pominięcia: brak = błąd buildu. Object.hasOwn: klucz z prototypu („constructor”) nie daje tekstu.
+export function kontrolaPowoduOstrzezenia(strony, katalog, ui) {
+  const bledy = [], V = new Map(katalog.variants.map((v) => [v.id, v]));
+  for (const st of strony.filter((s) => s.typ === 'wariant')) {
+    const powod = V.get(st.id)?.warningReason;
+    if (powod === undefined) continue;
+    const p = ui?.[st.lang]?.powodyOstrzezenia;
+    const t = p && typeof p === 'object' && Object.hasOwn(p, powod) ? p[powod] : undefined;
+    if (!napis(t)) bledy.push(`${st.lang}/${st.id}: brak tekstu powodu karty-ostrzeżenia „${powod}” (site/teksty/${st.lang}.json → powodyOstrzezenia)`);
+  }
+  return bledy;
+}
