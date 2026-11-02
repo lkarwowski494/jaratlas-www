@@ -15536,7 +15536,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "eadc8225b170"
+   "sha": "4aac057c630e"
   },
   "wielkosc": "temperatura zamrażarki",
   "wartosc": -18,
@@ -15781,7 +15781,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "527d11969b38"
+   "sha": "4c08813a475f"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -33043,7 +33043,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "7b2bea7c18a6"
+   "sha": "2e22c07d23a9"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33362,7 +33362,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "8d4b783dcec2"
+   "sha": "996812b02175"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33397,7 +33397,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "778c8fe91400"
+   "sha": "75b5c64c2253"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33432,7 +33432,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "bdf1dc7249c9"
+   "sha": "a452cf23caf4"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33859,6 +33859,48 @@
   ],
   "status": "potwierdzone",
   "uproszczenie": "„½” zapisane jako „1/2”. Buraki gotowane do miękkości, nie blanszowane; z karty usunięto zdania o blanszowaniu i gotowaniu mrożonych warzyw (SLO-257), bo buraki są już ugotowane. Dodane ostrożne zalecenie „używaj buraków małych albo średnich”, bo NCHFP nie podaje czasu dla dużych.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-277",
+  "twierdzenie": "NCHFP Freezing Turnips or Parsnips (karta: pasternak): wybrać małe lub średnie, jędrne korzenie, delikatne i o łagodnym smaku; umyć, obrać i pokroić w kostkę 1/2 cala (ok. 1,3 cm); blanszować we wrzątku 2 minuty; szybko schłodzić w zimnej wodzie i odsączyć; zapakować z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-turnips-or-parsnips/",
+    "miejsce": "NCHFP, Freezing Turnips or Parsnips, Preparation",
+    "cytat": "Select small to medium, firm turnips or parsnips that are tender and have a mild flavor. Wash, peel and cut into 1/2-inch cubes. Water blanch for 2 minutes. Cool promptly in cold water and drain. Pack into containers, leaving 1/2-inch headspace. Seal and freeze.",
+    "sha12": "9b5ff2507a90",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Karta tylko dla pasternaku (wariant pasternak mrożony); rzepa opisana tą samą stroną NCHFP nie wchodzi do karty.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-278",
+  "twierdzenie": "NCHFP Freezing Rutabagas (sposób w kostce): wybrać młode brukwie średniej wielkości; odciąć nać, umyć i obrać; pokroić w kostkę i blanszować we wrzątku 3 minuty; schłodzić, odsączyć i zapakować z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-rutabagas/",
+    "miejsce": "NCHFP, Freezing Rutabagas, Preparation, Cubed",
+    "cytat": "Select young, medium-sized rutabagas. Cut off tops, wash and peel. Cubed – Cut into cubes and water blanch 3 minutes. Cool, drain and pack, leaving 1/2-inch headspace. Seal and freeze.",
+    "sha12": "927c92654281",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Tylko sposób w kostce; sposób puree (Mashed) pominięty, bo NCHFP nie podaje dla niego wielkości wolnej przestrzeni (wariant ostrożniejszy, decyzja Claude, do weta). Schłodzenie według ogólnych zasad blanszowania (SUS-056).",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",
