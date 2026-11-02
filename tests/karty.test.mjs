@@ -160,6 +160,12 @@ export const ZAMIENNIKI_SUSZENIA = {
   'garden-herbs-v14': { 'SUS-001': 'SUS-031' },
   'fennel-artichoke-v10': { 'SUS-001': 'SUS-031' },
   'pumpkin-v16': { 'SUS-001': 'SUS-034' },
+  // p27 (S4): skóry owocowe mają temperaturę z przepisu NCHFP na skórę (SUS-027) albo na skórę z mango (SUS-030).
+  'apple-v18': { 'SUS-001': 'SUS-027' },
+  'plum-v16': { 'SUS-001': 'SUS-027' },
+  'mirabelle-v10': { 'SUS-001': 'SUS-027' },
+  'apricot-v09': { 'SUS-001': 'SUS-027' },
+  'mango-papaya-v10': { 'SUS-001': 'SUS-030' },
 };
 export function brakiBlokuSuszenia(lista = wszystkie, zamienniki = ZAMIENNIKI_SUSZENIA) {
   const braki = [];

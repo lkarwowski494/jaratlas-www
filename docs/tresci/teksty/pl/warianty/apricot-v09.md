@@ -1,0 +1,71 @@
+# Skóra owocowa z moreli (NCHFP)
+
+Ta karta opisuje skórę owocową z moreli według ogólnego przepisu NCHFP: cienką warstwę przecieru suszy się w 140 °F (60 °C) w suszarce albo w piekarniku i zwija w rulon. [T:SUS-027,SUS-214]
+
+## Przecier
+
+NCHFP nie opisuje qamar al-din: ta karta stosuje do moreli ogólny przepis NCHFP na skórę owocową ze świeżych owoców, a nie tradycyjny sposób robienia qamar al-din. [T:SUS-210]
+
+Wybierz owoce dojrzałe albo lekko przejrzałe; umyj je w chłodnej wodzie, usuń skórkę, nasiona i szypułki i pokrój na kawałki. [T:SUS-210]
+
+Odrzuć owoce z oznakami psucia, obite albo spleśniałe: takie wady mogą wpłynąć na cały susz. [T:SUS-223]
+
+Zmiksuj owoce na gładki przecier; 2 szklanki owoców wystarczą na skórę 13 × 15 cali (ok. 33 × 38 cm). [T:SUS-210]
+
+Przecier z jasnych owoców ciemnieje: na każde 2 szklanki jasnych owoców dodaj 2 łyżeczki soku z cytryny albo 1/8 łyżeczki (375 mg) kwasu askorbinowego. [T:SUS-026]
+
+Słodzenie jest opcjonalne: na 2 szklanki owoców dodaj 1/4–1/2 szklanki cukru, syropu kukurydzianego albo miodu. [T:SUS-211]
+
+Do dłuższego przechowywania lepszy jest syrop kukurydziany albo miód, bo zapobiegają krystalizacji; cukier wystarczy, jeśli skórę zjesz szybko albo przechowasz krótko. [T:SUS-211]
+
+## Tace
+
+W piekarniku użyj blachy 13 × 15 cali (ok. 33 × 38 cm) z brzegami, wyłożonej folią spożywczą; wygładź zmarszczki. [T:SUS-212]
+
+Nie używaj papieru woskowanego ani folii aluminiowej. [T:SUS-212]
+
+W suszarce użyj specjalnych arkuszy z tworzywa albo wyłóż tace z tworzywa folią spożywczą. [T:SUS-212]
+
+Nie używaj tac ani sit z siatki ocynkowanej; unikaj też siatek miedzianych i aluminiowych. [T:SUS-008]
+
+## Suszenie
+
+Rozprowadź przecier równo na grubość ok. 1/8 cala (ok. 3 mm), nie za blisko brzegu blachy. [T:SUS-027,SUS-213]
+
+Susz skórę w 140 °F (60 °C). [T:SUS-027]
+
+Piekarnik nadaje się tylko wtedy, gdy da się go ustawić na 140 °F (60 °C); jeśli nie schodzi tak nisko, owoce pieką się zamiast schnąć. [T:SUS-069]
+
+Temperaturę w piekarniku kontroluj: połóż skalibrowany termometr piekarnikowy na ruszcie lub tacy i sprawdzaj go co 2 godziny przez całe suszenie. [T:SUS-070]
+
+Drzwi piekarnika zostaw uchylone na 2–3 cale (ok. 5–7,5 cm), żeby uchodziła wilgoć. [T:SUS-071]
+
+Duże skóry schną dłużej; orientacyjnie suszenie trwa 6–8 godzin w suszarce i do 18 godzin w piekarniku. [T:SUS-213]
+
+Skóra schnie od brzegów do środka; jest sucha, gdy po dotknięciu środka nie zostaje odcisk palca. [T:SUS-214,SUS-027]
+
+Jeszcze ciepłą skórę zdejmij z folii i zwiń w rulon, ostudź i ponownie owiń folią. [T:SUS-214]
+
+## Pakowanie i przechowywanie
+
+Pakuj tylko całkowicie ostudzone rulony: ciepły susz „poci się”, a ta wilgoć może wystarczyć do rozwoju pleśni. [T:SUS-024]
+
+Susz przechowuj w czystych, suchych słoikach do przetworów, w plastikowych pojemnikach do zamrażarki ze szczelnymi pokrywkami albo w plastikowych torebkach do zamrażarki. [T:SUS-064]
+
+Opakowania muszą być przeznaczone do kontaktu z żywnością: nie używaj worków na śmieci ani pojemników plastikowych lub tekturowych, w których były wcześniej rzeczy inne niż żywność. [T:SUS-065]
+
+Pakuj porcje do zużycia za jednym razem: każde otwarcie opakowania wystawia susz na powietrze i wilgoć, co obniża jakość i może prowadzić do zepsucia. [T:SUS-067]
+
+Pakowanie próżniowe nie jest samodzielną metodą utrwalania: usunięcie tlenu zwiększa ryzyko jadu kiełbasianego, a produkt wymagający chłodzenia nadal go wymaga. [T:SUS-025]
+
+Przechowuj susz w miejscu chłodnym, suchym i ciemnym. [T:SUS-066]
+
+Skórę owocową przechowuj do 1 miesiąca w temperaturze pokojowej, a do 1 roku w zamrażarce, szczelnie owiniętą. [T:SUS-028]
+
+Ta karta nie opisuje nadzień; jeśli po wysuszeniu posmarujesz skórę np. serkiem, pastą serową, masłem orzechowym, czekoladą albo dżemem i zwiniesz, takie rulony przechowuj w lodówce. [T:SUS-222]
+
+## Kiedy wyrzucić
+
+Sprawdzaj susz często (w szkle widać skroploną parę); susz, który wchłonął wilgoć, ale nie jest zepsuty, zużyj od razu albo dosusz i zapakuj ponownie. [T:SUS-023]
+
+Spleśniały susz wyrzuć; wyrzuć także susz o obcym zapachu. [T:SUS-022]
