@@ -2,13 +2,15 @@
 
 This card describes the NCHFP recipe for corncob jelly: a jelly made from the liquid of boiled red field corn cobs with powdered pectin and sugar, processed in a boiling-water bath. [T:ACI-275,ACI-278,ACI-279]
 
+## !
+
+- JarAtlas rule (cautious): JarAtlas has no data for sweet corn cobs or for other substitutions, so follow the recipe exactly: red field corn cobs, the powdered pectin used in the test (SURE-JELL Premium Fruit Pectin, 1 3/4 ounces, about 50 g) and unchanged amounts. [T:ACI-283]
+
 ## Why you must follow the recipe exactly
 
 Sweet corn has a pH of 7.3 according to an FDA table of approximate values. [T:SLO-035]
 
 NCHFP tested this recipe with SURE-JELL Premium Fruit Pectin and states that the recipe, as tested, produces an acidic jelly. [T:ACI-282]
-
-JarAtlas rule (cautious): JarAtlas has no data for sweet corn cobs or for other substitutions, so follow the recipe exactly: red field corn cobs, the powdered pectin used in the test (SURE-JELL Premium Fruit Pectin, 1 3/4 ounces, about 50 g) and unchanged amounts. [T:ACI-283]
 
 NCHFP warns not to reduce the sugar in traditional recipes: too little sugar prevents gelling and may allow yeasts and molds to grow. [T:SLO-001]
 

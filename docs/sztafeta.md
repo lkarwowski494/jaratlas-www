@@ -1,5 +1,5 @@
 # Stan sztafety
-Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 (dzień, partia 22 + A2)
+Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 (dzień, partia 23)
 
 | Rola | Tryb | Stan | Commit | Artefakty | Otwarte decyzje |
 |---|---|---|---|---|---|
@@ -34,7 +34,8 @@
 | 06 Treści | build (karty fali 1, partia 20 en/pl, mrożenie: bakłażan, ananas, melon; kapusta czerwona/włoska bez karty) | STOP 2026-11-02 dzień: 182 karty en/pl łącznie, E3 zastępczy 2 przebiegi, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p20-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p20`; red-savoy-cabbage-v13 w katalogu (D-043) |
 | 06 Treści | build (karty fali 1, partia 21 en/pl: D5 tarta cukinia, D6 boćwina i jarmuż, KAND-2/6/7, mrożenie: pomidory, zielone pomidory, młode ziemniaki, zioła, mango, granat, pieczarki, karczochy) | STOP 2026-11-02 dzień: 194 karty en/pl łącznie (97 wariantów), E3 zastępczy 3 przebiegi, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p21-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p21`; nazwy green-cherry-tomato-v15, potato-sunchoke-v14, fennel-artichoke-v11 w katalogu |
 | 06 Treści | build (karty fali 1, partia 22 en/pl: mrożenie cytrusów; A2: katalog 1.0.5, WYJATKI_NISKOKWASOWE, requiredWarnings, nazwy) | STOP 2026-11-02 dzień: 200 kart en/pl (100 wariantów), E3 zastępczy 2 przebiegi, przegląd D-043 bez P0–P2, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p22-2026-11-02.md`, `docs/tresci/E3-katalog-a2-2026-11-02.md`, `catalog/`, `tools/validate-catalog.mjs` | decyzje do weta `2026-11-02-jaratlas-06-karty-p22`, `2026-11-02-jaratlas-06-katalog-a2`; corn-v09 ACI-283 |
+| 06 Treści | build (karty fali 1, partia 23 en/pl: blok A4 kwas askorbinowy — czereśnie, brzoskwinie, morele, jabłka, figi, gruszki, śliwki, melon w syropie; corn-v09 ACI-283) | STOP 2026-11-02 dzień: 214 kart en/pl (107 wariantów), E3 zastępczy 2 porcje, przegląd D-043, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p23-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/`, `catalog/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p23`; A6 czosnek i pesto |
 ## Następny krok
-1. **06-tresci**: blok z kwasem askorbinowym (FRZ-066–086), czosnek w oleju i pesto (OLE-051–057), lemon curd, mięso, ryby, nabiał, jaja (22 warianty `freezing` ok-zrodlo bez kart, w tym red-savoy-cabbage-v13 bez źródła). Przekład fal: po zgodzie właściciela na kwotę, sekret `ANTHROPIC_API_KEY` i workflow na main — przebieg dowodowy fr, potem drugi przegląd AI i przegląd człowieka (rola 09 E3).
+1. **06-tresci**: czosnek w oleju i pesto (OLE-051–057, garlic-v17, garden-herbs-v16), lemon curd, mięso, ryby, nabiał, jaja (15 wariantów `freezing` ok-zrodlo bez kart, w tym red-savoy-cabbage-v13 bez źródła). Przekład fal: po zgodzie właściciela na kwotę, sekret `ANTHROPIC_API_KEY` i workflow na main — przebieg dowodowy fr, potem drugi przegląd AI i przegląd człowieka (rola 09 E3).
 2. 10-wydanie: weto D1–D11; przeniesienie według `docs/wydanie/10-przeniesienie-czyste-repo.md` pkt 3–4 tuż przed pierwszym workflow Pages (D11), za zgodą właściciela.
 3. 08 (kod dalej): najpierw domena i kontrole z testami, potem adapter wdrożenia (po ADR 0007), na końcu wygląd (po 04).

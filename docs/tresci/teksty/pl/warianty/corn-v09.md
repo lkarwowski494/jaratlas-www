@@ -2,13 +2,15 @@
 
 Ta karta opisuje przepis NCHFP na galaretkę z kolb kukurydzy: galaretka z wywaru z gotowanych kolb czerwonej kukurydzy pastewnej z pektyną w proszku i cukrem, wekowana w kąpieli wodnej. [T:ACI-275,ACI-278,ACI-279]
 
+## !
+
+- Reguła JarAtlas (ostrożna): JarAtlas nie ma danych dla kolb kukurydzy cukrowej ani dla innych zamian, więc trzymaj się przepisu dokładnie: kolby czerwonej kukurydzy pastewnej, pektyna w proszku użyta w teście (SURE-JELL Premium Fruit Pectin, 1 3/4 uncji, ok. 50 g) i bez zmiany ilości. [T:ACI-283]
+
 ## Dlaczego trzeba trzymać się przepisu dokładnie
 
 Kukurydza cukrowa ma pH 7,3 według tabeli FDA z wartościami przybliżonymi. [T:SLO-035]
 
 NCHFP testowało ten przepis z pektyną SURE-JELL Premium Fruit Pectin i podaje, że przepis w przetestowanej postaci daje galaretkę kwaśną. [T:ACI-282]
-
-Reguła JarAtlas (ostrożna): JarAtlas nie ma danych dla kolb kukurydzy cukrowej ani dla innych zamian, więc trzymaj się przepisu dokładnie: kolby czerwonej kukurydzy pastewnej, pektyna w proszku użyta w teście (SURE-JELL Premium Fruit Pectin, 1 3/4 uncji, ok. 50 g) i bez zmiany ilości. [T:ACI-283]
 
 NCHFP ostrzega, żeby w tradycyjnych przepisach nie zmniejszać ilości cukru: za mało cukru uniemożliwia żelowanie i może pozwolić na rozwój drożdży i pleśni. [T:SLO-001]
 

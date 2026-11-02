@@ -387,3 +387,13 @@ test('A2 P3-5: nazwy apricot-v06, corn-v09 i cytrusów p22 zgodne z kartami', ()
     'grapefruit-v10': 'grejpfrut mrożony: cząstki i sok',
   })) assert.equal(V.get(id).name.pl, n, id);
 });
+
+test('p23 (A2 otwarte): corn-v09 ma ACI-283 w requiredWarnings, a karta en/pl ma je jako ostrzeżenie', () => {
+  // Dlaczego: reguła „tylko dokładnie według przepisu” chroni kwaśność galaretki z niskokwasowej kukurydzy; jako zwykły akapit mogła zniknąć z karty bez błędu.
+  const V = new Map(JSON.parse(readFileSync('catalog/catalog-seed.json', 'utf8')).variants.map((v) => [v.id, v]));
+  assert.ok((V.get('corn-v09').requiredWarnings ?? []).includes('ACI-283'));
+  for (const L of ['en', 'pl']) {
+    const k = JSON.parse(readFileSync(`docs/tresci/karty/${L}/warianty/corn-v09.json`, 'utf8'));
+    assert.ok(k.ostrzezenia.some((o) => o.claim === 'ACI-283'), L);
+  }
+});

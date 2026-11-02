@@ -1,26 +1,23 @@
 # Stan pracy JarAtlas
 
-Aktualizacja: 2026-11-02, dzień (partia 22 + A2). Historia: `docs/archiwum/` (poprzedni stan: `STAN-SESJI-2026-11-02-06-karty-p21.md`).
+Aktualizacja: 2026-11-02, dzień (partia 23). Historia: `docs/archiwum/` (poprzedni stan: `STAN-SESJI-2026-11-02-06-karty-p22.md`).
 
 ## Rola i etap
-06-tresci · build · tor A: partia 22 (cytrusy) i partia katalogowa A2 (D-043) · **STOP** (przekazanie do koordynatora session_01T66VBwcMqoZMzzYKc7CF9o, tryb dzienny, D-051). Prompt: tablica, kolekcja `prompty`, `06-tresci-build-d32b4b8`.
+06-tresci · build · tor A: partia 23 (blok mrożenia A4: kwas askorbinowy; corn-v09) · **STOP** (przekazanie do koordynatora session_01T66VBx76jnofBiiYw4hSKR, D-051). Prompt: tablica, kolekcja `prompty`, `06-tresci-build-d32b4b8`.
 
 ## Wynik
-- Partia 22 en+pl: lemon-v16, orange-kumquat-v15, grapefruit-v10 (cząstki w syropie 40%, sok); SLO-301 (instrukcja NCHFP), SLO-302 (reguły JarAtlas: szkło i sok, krytyczne); SLO-256 „dry sugar” w 12 kartach. Raport `docs/tresci/E3-karty-p22-2026-11-02.md`.
-- Liczby: 100 wariantów z kartami, 200 kart, 46 mrożeń; zostało 22 wariantów `freezing` ok-zrodlo bez kart.
-- Weryfikacja zastępcza: przebieg 1 242/254 POPARTE + 12 CZĘŚCIOWO (poprawione), kontrolny 54/54; przegląd odnowiony: SLO-222, 249, 251, 256, 258, 259, 260, 302, SUS-050, 059.
-- A2 (katalog 1.0.5): `WYJATKI_NISKOKWASOWE` (corn-v09 sugar-acid, pineapple-banana-v07 natural-acid), apricot-v11 natural-acid + E3-002, requiredWarnings C2-04/C3-03 (+ SZY-020 white-cabbage-v13, test T2), beef-veal-v08 140 °F (60 °C), 13 nazw = tytuły kart. Przegląd D-043: 0 × P0–P2, 5 × P3 wprowadzone. Raport `docs/tresci/E3-katalog-a2-2026-11-02.md`.
-- `npm run check` kod 0 (127/127) po rebase na 20eac8a.
+- Rejestr: FRZ-066–086 i OLE-051–057 z raportu B5; FRZ-066, FRZ-080 wycofane (duplikaty SLO-296, SLO-298); OLE-051–057 robocze.
+- Karty en+pl: sweet-cherry-v13, peach-nectarine-v15, apricot-v15, apple-v19, fig-pomegranate-v11, pear-v15, plum-v19; melon + syrop 30%; corn-v09: ACI-283 jako ostrzeżenie i w requiredWarnings (test p23). Raport `docs/tresci/E3-karty-p23-2026-11-02.md`.
+- Liczby: 107 wariantów z kartami, 214 kart, 53 mrożenia.
+- Weryfikacja zastępcza: 626/632 POPARTE, 6 CZĘŚCIOWO (poprawione), krytyczne 0 rozbieżności; przegląd D-043 corn-v09: P1 rozwiązane, P3 zostawione.
 
 ## Decyzje Claude, do weta
-- `2026-11-02-jaratlas-06-karty-p22`: sok tylko w szerokich słoikach do mrożenia i wekowania, bez szklanych słoików z wąskim otworem (także dla cząstek), sok w szkle rozmrażany w lodówce; cytryny według ogólnej instrukcji dla cytrusów; kumkwaty poza kartą; SLO-256 poprawione w 12 kartach spoza partii; U1–U5 bez trzeciego przebiegu (wyjątek nazwany).
-- `2026-11-02-jaratlas-06-katalog-a2`: corn-v09 sugar-acid, pineapple-banana-v07 natural-acid (wyjątek po ID wariantu), white-cabbage-v13 SZY-020, nazwy apricot-v06/corn-v09/cytrusów poza listą, bez drugiego przebiegu D-043 (same P3).
+- `2026-11-02-jaratlas-06-karty-p23`: FRZ-066/080 wycofane z następcą; ACI-283 przeniesione z sekcji do ostrzeżeń (bez duplikatu); zdania CSU z atrybucją; poprawki weryfikatora bez przebiegu kontrolnego (wyjątek nazwany).
 
 ## Otwarte
-- corn-v09: ACI-283 do requiredWarnings i ostrzeżenie na karcie (karta była w torze C4).
-- Nazwy sweet-cherry-v07, raspberry-blackberry-v06 (następna partia katalogowa). Źródło ACI-153/E3-002 (kopia listy FDA) do przeglądu źródeł.
-- Backlog p22: SLO-253 „na pintę” bez litrów; cytat SUS-059 bez „safe indefinitely while frozen”.
-- Od koordynatora bez zmian: white-cabbage-v01 (weto), KAND-1/3/4/5/8, D1–D11 czystego repo, teksty UI i D-027 (c).
+- Karty garlic-v17 i garden-herbs-v16 (OLE-051–057, krytyczne; B5-D9, pytanie B5-P1).
+- Od C6: „1 l” w currant-v10 i raspberry-blackberry-v07 (SLO-208), potem zdjąć wyjątek przejściowy C2-08.
+- Backlog p22/p23: SLO-253 bez litrów; cytaty SUS-059, SLO-259, SLO-256; SUS-058 wariant ostrożniejszy; nazwy sweet-cherry-v07, raspberry-blackberry-v06.
 
 ## Następny krok
-06-tresci: blok z kwasem askorbinowym (FRZ-066–086, raport B5), czosnek w oleju i pesto (OLE-051–057), potem lemon curd, mięso, ryby, nabiał, jaja.
+06-tresci: blok A6 (czosnek w oleju, pesto: OLE-051–057, karty garlic-v17, garden-herbs-v16), potem lemon curd, mięso (C5: SLO-400–443), ryby, nabiał, jaja.
