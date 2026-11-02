@@ -4055,7 +4055,8 @@
    "safetyStatus": "nie-publikowac",
    "claims": [
     "SZY-054",
-    "ACI-016"
+    "ACI-016",
+    "ACI-509"
    ],
    "sources": [],
    "filters": {
@@ -4069,7 +4070,7 @@
     "[SUS] Pikle octowe (korniszony); nie suszenie. Metoda wstępna, decyduje ACI.",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
     "[B10] zostaje do-researchu (C8): proponowana nazwa „słodkie korniszony” (NCHFP Sweet Gherkin) zmienia tożsamość wariantu (korniszony francuskie są niesłodzone); decyzja redakcji (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
-    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims SZY-054, ACI-016 to reguła ogólna metody, requiredWarnings SZY-054, ACI-016 (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims SZY-054, ACI-016, ACI-509 to reguła ogólna metody, requiredWarnings SZY-054, ACI-016, ACI-509 (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -4081,7 +4082,8 @@
    "cardType": "warning",
    "requiredWarnings": [
     "SZY-054",
-    "ACI-016"
+    "ACI-016",
+    "ACI-509"
    ]
   },
   {
@@ -4864,7 +4866,7 @@
     "[SUS*] Kapusta po koreańsku: sałatka marynowana; nie suszenie.",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
     "[B10] zostaje do-researchu (B9): przepis nieprzetestowany: najwyżej 2 tygodnie (ACI-508) nie podnosi statusu (B9-D4) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
-    "[B18] do-researchu → ryzyko-wysokie (B16, scenariusz B niespełniony: brak przepisu szczebla 1–3, przepis szczebla 4 ma mniej octu niż innych płynów wbrew ACI-751), karta-ostrzeżenie; requiredWarnings ACI-751, ACI-509, ACI-508 (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] do-researchu → ryzyko-wysokie (B16, scenariusz B niespełniony: brak przepisu szczebla 1–3; przepis szczebla 4 (ACI-868) ma ocet i sos sojowy 1 : 1, ale dotyczy kapusty pekińskiej, ma mało zalewy na warzywo (kapusta oddaje sok), ocet bez podanej mocy i co najmniej 24 h poza lodówką przed schłodzeniem), karta-ostrzeżenie; requiredWarnings ACI-751, ACI-509, ACI-508 (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -5968,7 +5970,7 @@
     "[SUS*] Kapusta słodko-kwaśna po syczuańsku; nie suszenie.",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
     "[B12] zostaje do-researchu (C10 sekcja 3): Brak przepisu lodówkowego szczebla 1–3 na kapustę w occie z cukrem: NC State/UC MFP (ACI-505) nie wymieniają kapusty, B2267 (ACI-503) to ogórki z cebulą/papryką/kalafiorem/marchwią. Twierdzenia z raportu poza claims: ACI-501, ACI-509, ACI-016, ACI-508, ACI-523 (robocze: ACI-523). (2026-11-02-jaratlas-06-b12-katalog-c10).",
-    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims ACI-505, ACI-508, ACI-509, ACI-501 to reguła ogólna metody, requiredWarnings ACI-508, ACI-501 (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims ACI-505, ACI-508, ACI-509, ACI-501 to reguła ogólna metody, requiredWarnings ACI-508, ACI-509, ACI-501 (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -5979,6 +5981,7 @@
    "cardType": "warning",
    "requiredWarnings": [
     "ACI-508",
+    "ACI-509",
     "ACI-501"
    ]
   },
@@ -12284,10 +12287,6 @@
     "ACI-016",
     "ACI-017",
     "ACI-265",
-    "ACI-414",
-    "ACI-415",
-    "ACI-416",
-    "ACI-417",
     "ACI-720",
     "ACI-721",
     "ACI-722",
@@ -12325,7 +12324,8 @@
    "notes": [
     "[SLO*] Cowboy candy to marynata octowo-cukrowa (ACI). Pepper jelly NCHFP nie jest odpowiednikiem.",
     "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-094, ACI-016, ACI-017; C9-D10: cowboy candy tylko Ball/blogi (szczebel 4) (2026-11-02-jaratlas-06-b11-katalog-c9).",
-    "[B18] ryzyko-wysokie → ok-zrodlo (B16 §4, reguła Ball (b)): źródła ACI-720, ACI-721, ACI-722; requiredWarnings ACI-094, ACI-016, ACI-017; parametry karty w B16 JSON (tor A) (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] ACI-414–417 (NCHFP Pickled Jalapeño Rings, inny przepis i czas procesu) usunięte z claims po D-043 P2-1; karta wyłącznie wg Ball ACI-720–722, powyżej 8000 stóp nie stosować (2026-11-02-jaratlas-b18-katalog)",
+    "[B18] ryzyko-wysokie → ok-zrodlo (B16 §4, reguła Ball (b)): źródła ACI-720, ACI-721, ACI-722; requiredWarnings ACI-094, ACI-016, ACI-017, ACI-722; parametry karty w B16 JSON (tor A) (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -12335,7 +12335,8 @@
    "requiredWarnings": [
     "ACI-094",
     "ACI-016",
-    "ACI-017"
+    "ACI-017",
+    "ACI-722"
    ]
   },
   {
@@ -20213,6 +20214,13 @@
      "szczebel": 3
     },
     {
+     "adres": "https://oconto.extension.wisc.edu/files/2017/04/Time-to-Make-Pickles-2.pdf",
+     "miejsce": "Univ. of Wisconsin Extension, Oconto County, Time to Make Pickles (2017); No approved recipe?",
+     "cytat": "Untested recipes can be prepared and stored in the refrigerator for up to 2 weeks. Do not store on the counter.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
      "adres": "https://redemptionpermaculture.com/wp-content/uploads/2023/06/Pickled-Radish-Seed-Pods.pdf",
      "miejsce": "Pickled Radish Seed Pods, składniki",
      "cytat": "1/2 cup of white vinegar",
@@ -20229,7 +20237,7 @@
    "notes": [
     "[ACI*] Strąki rzodkiewki (mougri) w occie: brak przepisu i danych pH.",
     "[B12] zostaje do-researchu (C10 sekcja 3): NC State/UC MFP wymieniają rzodkiewki (korzeń) i strąki groszku, nie strąki rzodkiewki; brak pH strąków w liście FDA; przepisy na mougri tylko na blogach (szczebel 5). Twierdzenia z raportu poza claims: ACI-505, ACI-506, ACI-508. (2026-11-02-jaratlas-06-b12-katalog-c10).",
-    "[B18] do-researchu → ok-zrodlo (B16 §4, reguła B): źródła ACI-751, ACI-862; przepis szczebla 4 (ACI-862) tylko w granicach reguły szczebla 1–3 (ACI-751), krótszy limit wygrywa; requiredWarnings ACI-751, ACI-509, ACI-508, ACI-501; parametry karty w B16 JSON (tor A) (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] do-researchu → ok-zrodlo (B16 §4, reguła B): źródła ACI-751, ACI-508, ACI-862; przepis szczebla 4 (ACI-862) tylko w granicach reguły szczebla 1–3 (ACI-751, ACI-508), krótszy limit wygrywa; requiredWarnings ACI-751, ACI-509, ACI-508, ACI-501; parametry karty w B16 JSON (tor A) (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -20466,7 +20474,7 @@
     "[FER*] Ćwikła chrzanowa: zwykle z octem.",
     "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
     "[B10] zostaje do-researchu (B9): brak przepisu lodówkowego z proporcjami i limitem dni (ACI-514 tylko jakość) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
-    "[B18] do-researchu → ryzyko-wysokie (B16, scenariusz B niespełniony: brak przepisu szczebla 1–3, przepis szczebla 4 ma mniej octu niż innych płynów wbrew ACI-751), karta-ostrzeżenie; requiredWarnings ACI-751, ACI-509, ACI-508 (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] do-researchu → ryzyko-wysokie (B16, scenariusz B niespełniony: brak przepisu szczebla 1–3; przepis szczebla 4 (ACI-867) ma 1 łyżkę octu albo soku z cytryny na 5–6 łyżek wrzątku, czyli mniej octu niż wody wbrew ACI-751, i dopuszcza sok z cytryny wbrew ACI-509), karta-ostrzeżenie; requiredWarnings ACI-751, ACI-509, ACI-508 (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -30449,7 +30457,8 @@
    "acidBasis": "sugar-acid",
    "safetyStatus": "nie-publikowac",
    "claims": [
-    "SZY-054"
+    "SZY-054",
+    "SLO-001"
    ],
    "sources": [],
    "filters": {
@@ -30462,7 +30471,7 @@
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Apple Butter; masła brzoskwiniowego nie znaleziono.",
     "[OLE] Masło owocowe/dyniowe to przetwór słodki, nie tłuszcz. Dla masła dyniowego sprawdzić NCHFP (prawdopodobny zakaz wekowania; niezweryfikowane).",
     "[B10] zostaje do-researchu (C8): ogólny schemat OSU bez tabeli wysokości; decyzja, czy wystarcza (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
-    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims SZY-054 to reguła ogólna metody, requiredWarnings SZY-054 (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims SZY-054, SLO-001 to reguła ogólna metody, requiredWarnings SZY-054, SLO-001 (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -30472,7 +30481,8 @@
    ],
    "cardType": "warning",
    "requiredWarnings": [
-    "SZY-054"
+    "SZY-054",
+    "SLO-001"
    ]
   },
   {
@@ -31638,7 +31648,8 @@
    "acidBasis": "not-applicable",
    "safetyStatus": "nie-publikowac",
    "claims": [
-    "SUS-001"
+    "SUS-001",
+    "SUS-002"
    ],
    "sources": [],
    "filters": {
@@ -31649,14 +31660,17 @@
    },
    "notes": [
     "[SUS*] Derenia brak w tabelach suszenia.",
-    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims SUS-001 to reguła ogólna metody, bez requiredWarnings (brak twierdzenia-ostrzeżenia dla suszenia) (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims SUS-001, SUS-002 to reguła ogólna metody, requiredWarnings SUS-002 (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
    ],
-   "cardType": "warning"
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SUS-002"
+   ]
   },
   {
    "id": "strawberry-v01",
@@ -35322,7 +35336,7 @@
    "sources": [
     {
      "adres": "https://objects.lib.uidaho.edu/uiext/uiext32185.pdf",
-     "miejsce": "PNW 651 Drying Project Manual (4-H Home Food Preservation Series; Univ. of Idaho, Oregon State, Washington State), s. 18, How to dry fruits in a dehydrator (to samo zdanie s. 26)",
+     "miejsce": "PNW 651 Drying Project Manual (4-H Home Food Preservation Series; Univ. of Idaho, Oregon State, Washington State), s. 18, How to dry fruits in a dehydrator (podobnie s. 26: „130° or 140°F”)",
      "cytat": "start at 140–150°F, and then turn it down to 130°F or 140°F after 2–3 hours.",
      "odczyt": "2026-11-02",
      "szczebel": 3
@@ -38221,7 +38235,8 @@
    "acidBasis": "sugar-acid",
    "safetyStatus": "nie-publikowac",
    "claims": [
-    "SZY-054"
+    "SZY-054",
+    "SLO-001"
    ],
    "sources": [],
    "filters": {
@@ -38233,7 +38248,7 @@
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
     "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9).",
-    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims SZY-054 to reguła ogólna metody, requiredWarnings SZY-054 (2026-11-02-jaratlas-b18-katalog)"
+    "[B18] do-researchu → nie-publikowac z kartą-ostrzeżeniem „brak sprawdzonego źródła” (decyzja właściciela 2026-11-02-jaratlas-wariant-bez-zrodla; 2 przebiegi: E1 i B16 bez źródła wg polityki-zrodel-ryzyko); claims SZY-054, SLO-001 to reguła ogólna metody, requiredWarnings SZY-054, SLO-001 (2026-11-02-jaratlas-b18-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -38242,7 +38257,8 @@
    ],
    "cardType": "warning",
    "requiredWarnings": [
-    "SZY-054"
+    "SZY-054",
+    "SLO-001"
    ]
   },
   {
