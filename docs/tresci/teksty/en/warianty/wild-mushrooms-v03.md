@@ -5,6 +5,7 @@ There is no recipe here for green and grey knight mushrooms (gąska zielona and 
 ## !
 
 - Drying and cooking do not destroy the toxins of poisonous mushrooms, and only an expert can tell edible species from poisonous ones. [T:SUS-035]
+- No safe intake dose of the yellow knight mushroom (Tricholoma equestre) can be established on scientific grounds; the French food safety agency recommended considering measures so that it is no longer offered for consumption in any form. [T:SLO-901]
 
 ## Why
 

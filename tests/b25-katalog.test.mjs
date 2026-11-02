@@ -23,6 +23,7 @@ const B27 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.sta
 const B28 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith("[B28]"))).map((v) => v.id));
 // B29 (2026-11-02-jaratlas-b29-katalog): warianty z notatką [B29] (requiredWarnings kart-ostrzeżeń) sprawdza tests/b29-katalog.test.mjs.
 const B29 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith("[B29]"))).map((v) => v.id));
+const B31 = new Set(["walnut-nuts-v07", "wild-mushrooms-v03", "fig-pomegranate-v09"]); // B31: werdykty B30 (3 warianty), pilnuje tests/b31-katalog.test.mjs
 
 export const NOWE = { "B22-research-2026-11-02": ["ACI-880","ACI-881","ACI-882","ACI-883","ACI-884","ACI-890","ACI-891","ACI-921","ACI-922","ACI-923","ACI-924"], "B23-research-2026-11-02": ["SLO-800","SLO-801","SLO-802","SLO-803","SLO-804","SLO-805","SLO-806","SLO-807","SLO-808","SLO-809","SLO-810","SLO-811","SLO-812","SLO-813","SLO-814","SLO-815","SLO-816","SLO-817","SLO-818","SLO-840","SLO-841","SLO-842","SLO-843","SLO-844","SLO-845","SLO-846","SLO-847","SLO-848","SLO-860","SLO-861","SLO-862","SLO-863","SLO-864","SLO-865","SLO-866","SLO-867","SLO-868","SLO-869","SLO-870","SLO-871","SLO-872","SLO-873","SLO-874","SLO-875","SLO-876","SLO-877","SLO-878","SLO-879"] };
 const OK = {"apple-v11":{"zrodla":["SLO-800","SLO-802","SLO-803"],"ostrz":["SLO-001","SLO-048"],"claims":["SLO-048","SLO-800","SLO-801","SLO-802","SLO-803","SLO-804","SLO-805","ACI-482","ACI-732","ACI-481","ACI-733","SLO-018","SLO-001","SLO-002"]},"strawberry-v12":{"zrodla":["SLO-810","SLO-811","SLO-812","SLO-813"],"ostrz":["SLO-001"],"claims":["SLO-810","SLO-811","SLO-812","SLO-813","ACI-732","ACI-626","ACI-143","ACI-136","ACI-733","SLO-018","SLO-001","SLO-002"]}};
@@ -127,6 +128,6 @@ test("B25: poza polami z listy warianty bez cichych zmian; publication ukryta w 
   assert.deepEqual(Object.keys(SNAP).sort(), Object.keys(POLA).sort());
   for (const [id, keys] of Object.entries(POLA)) assert.equal(h(bez(V.get(id), keys)), SNAP[id], `${id}: pola poza ${keys.join(", ")} bez zmian`);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
-  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B27.has(v.id) && !B28.has(v.id) && !B29.has(v.id))), "28be8027b550", "warianty spoza B25, B27, B28 i B29 bez zmian (skrót na 1.0.15, 7433d6b; B29: przeliczony, stary b0ecbd1fc48c; B28 z (h): stary 5044822785b6)");
+  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B27.has(v.id) && !B28.has(v.id) && !B29.has(v.id) && !B31.has(v.id))), "71a614e633f0", "warianty spoza B25, B27, B28, B29 i B31 bez zmian (B31: przeliczony na f36b7b0, stary 28be8027b550; skrót na 1.0.15, 7433d6b; B29: przeliczony, stary b0ecbd1fc48c; B28 z (h): stary 5044822785b6)");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
 });

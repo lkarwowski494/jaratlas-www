@@ -53,7 +53,8 @@ test("B30: proponowane werdykty przechodzą walidator na kopii katalogu (bez now
   for (const w of b30.warianty) {
     const v = kopia.variants.find((x) => x.id === w.id);
     assert.ok(v, w.id);
-    assert.equal(v.safetyStatus, w.przed, w.id);
+    // B31: werdykty wpisane do katalogu, więc stan bieżący = werdykt (przed B31 był „przed”).
+    assert.equal(v.safetyStatus, w.werdykt, w.id);
     if (w.werdykt === "do-researchu") continue;
     Object.assign(v, { safetyStatus: w.werdykt, cardType: w.cardType, claims: w.claims, requiredWarnings: w.requiredWarnings });
     for (const id of [...w.claims, ...w.requiredWarnings]) assert.equal(R.get(id)?.status, "potwierdzone", `${w.id}: ${id}`);
@@ -62,10 +63,19 @@ test("B30: proponowane werdykty przechodzą walidator na kopii katalogu (bez now
   assert.deepEqual(nowe, []);
 });
 
-test("B30: katalog bez zmian w tej gałęzi (werdykty tylko w JSON)", () => {
+// B31 (2026-11-02-jaratlas-b31-katalog): werdykty z JSON wpisane do katalogu. Wyjątek B31-D1: wild-mushrooms-v03 ma w claims także SUS-035
+// (było już w requiredWarnings; requiredWarnings ⊆ claims).
+test("B30: werdykty z JSON wpisane do katalogu (B31)", () => {
   const V = new Map(cat.variants.map((v) => [v.id, v]));
-  assert.equal(V.get("walnut-nuts-v07").safetyStatus, "do-researchu");
-  assert.deepEqual(V.get("wild-mushrooms-v03").claims, ["ACI-030", "ACI-159"]);
+  for (const w of b30.warianty) {
+    const v = V.get(w.id);
+    assert.equal(v.safetyStatus, w.werdykt, w.id);
+    if (w.werdykt === "do-researchu") { assert.deepEqual(v.claims, w.claims, w.id); assert.equal(v.cardType, undefined, w.id); continue; }
+    assert.equal(v.cardType, w.cardType, w.id);
+    for (const c of w.claims) assert.ok(v.claims.includes(c), `${w.id}: ${c} w claims`);
+    assert.deepEqual(v.claims.filter((c) => !w.claims.includes(c)), w.id === "wild-mushrooms-v03" ? ["SUS-035"] : [], `${w.id}: claims spoza JSON`);
+    assert.deepEqual(v.requiredWarnings, w.requiredWarnings, w.id);
+  }
 });
 
 test("B30: bez nazw firm i wydawców w raporcie, JSON i nowych twierdzeniach", () => {

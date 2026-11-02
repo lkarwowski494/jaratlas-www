@@ -1,5 +1,5 @@
 {
- "version": "1.0.18",
+ "version": "1.0.19",
  "generated": "2026-11-02",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -41492,7 +41492,8 @@
    "notes": [
     "[SZY] Galaretka (SLO).",
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
-    "[B25] zostaje do-researchu mimo werdyktu B23 ok-zrodlo (USU Pomegranate Jelly, SLO-876, SLO-877): wariant ma preservationMethod null i acidBasis low-acid; ok-zrodlo wymaga metody (walidator), a water-bath przy produkcie niskokwasowym wymaga zmiany acidBasis i wpisu w WYJATKI_NISKOKWASOWE (kod walidatora, rola 05/07, D-043); metoda water-bath to propozycja B23 bez decyzji na tablicy (B25-D2) (2026-11-02-jaratlas-b25-katalog)"
+    "[B25] zostaje do-researchu mimo werdyktu B23 ok-zrodlo (USU Pomegranate Jelly, SLO-876, SLO-877): wariant ma preservationMethod null i acidBasis low-acid; ok-zrodlo wymaga metody (walidator), a water-bath przy produkcie niskokwasowym wymaga zmiany acidBasis i wpisu w WYJATKI_NISKOKWASOWE (kod walidatora, rola 05/07, D-043); metoda water-bath to propozycja B23 bez decyzji na tablicy (B25-D2) (2026-11-02-jaratlas-b25-katalog)",
+    "[B31] zostaje do-researchu, wynik B30-D1: źródła szczebla 1 brak (USDA Complete Guide i NCHFP bez przepisu na galaretkę z granatu); jedyny przetestowany przepis to szczebel 3 (SLO-876, SLO-877); wyjątek WYJATKI_NISKOKWASOWE niedostępny bez źródła szczebla 1; alternatywa acidified ze źródłem szczebla 3 to decyzja toru B/03. (2026-11-02-jaratlas-b31-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -42187,8 +42188,14 @@
    "processFamilyId": "oil-and-fat",
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "nie-publikowac",
+   "cardType": "warning",
+   "claims": [
+    "OLE-090",
+    "OLE-091",
+    "OLE-092",
+    "OLE-093"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -42198,12 +42205,17 @@
    },
    "notes": [
     "[OLE*] Domowe masło orzechowe: problem głównie jełczenie; brak źródła o bezpieczeństwie przechowywania.",
-    "[B27] zostaje do-researchu mimo kandydata nie-publikowac (B24, przebieg 2): walidator wymaga claims przy nie-publikowac, a rejestr nie ma reguły ogólnej dla domowego masła orzechowego (OLE-083 dotyczy żywności zatopionej w oleju lub tłuszczu); nie-publikowac po dopisaniu reguły ogólnej (research) albo decyzji koordynatora (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B24: Masło orzechowe domowe: źródła tylko dla produktów handlowych (naturalne masło orzechowe w lodówce ok. 6 miesięcy, NDSU, UKY, Ask Extension); FoodKeeper (USDA) zwrócił 403. Przebieg 2. (2026-11-02-jaratlas-b27-katalog)"
+    "[B27] zostaje do-researchu mimo kandydata nie-publikowac (B24, przebieg 2): walidator wymaga claims przy nie-publikowac, a rejestr nie ma reguły ogólnej dla domowego masła orzechowego (OLE-083 dotyczy żywności zatopionej w oleju lub tłuszczu); nie-publikowac po dopisaniu reguły ogólnej (research) albo decyzji koordynatora (2026-11-02-jaratlas-wariant-bez-zrodla). Podstawa B24: Masło orzechowe domowe: źródła tylko dla produktów handlowych (naturalne masło orzechowe w lodówce ok. 6 miesięcy, NDSU, UKY, Ask Extension); FoodKeeper (USDA) zwrócił 403. Przebieg 2. (2026-11-02-jaratlas-b27-katalog)",
+    "[B31] do-researchu → nie-publikowac (karta-ostrzeżenie), werdykt B30-D2: przebieg 3 (OLE, B24, B30) bez przepisu szczebla 1–3 dla domowego masła orzechowego (decyzja 2026-11-02-jaratlas-wariant-bez-zrodla); reguła ogólna szczebla 1: NCHFP bez procesu wekowania past z orzechów (OLE-092) i bez wekowania suchych orzechów (OLE-090), Salmonella znosi niską aktywność wody (OLE-091), aflatoksyny (OLE-093). Karta bez terminu przechowywania (brak źródła szczebla 1). (2026-11-02-jaratlas-b31-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "requiredWarnings": [
+    "OLE-092",
+    "OLE-091"
    ]
   },
   {
@@ -43520,7 +43532,13 @@
    "cardType": "warning",
    "claims": [
     "ACI-030",
-    "ACI-159"
+    "ACI-159",
+    "SUS-035",
+    "SLO-900",
+    "SLO-901",
+    "SLO-902",
+    "SLO-903",
+    "SLO-904"
    ],
    "sources": [],
    "filters": {
@@ -43531,7 +43549,8 @@
    },
    "notes": [
     "[ACI*] NCHFP: nie wekować grzybów leśnych. Wersja w occie pasteryzowana w słoikach = wekowanie; karta najwyżej wyjaśnia dlaczego. Wersja lodówkowa bez przetestowanego przepisu — DO USTALENIA. Dodatkowo gąska zielona (Tricholoma equestre) — sygnał toksykologiczny DO USTALENIA.",
-    "[SZY] Gąski w occie. Grzyby dzikie: NCHFP nie wekuje dzikich grzybów (SZY-020); ACI do rozstrzygnięcia, czy zakaz obejmuje marynaty. Gąski (zielonka) – ryzyko toksyczności gatunku, poza zakresem SZY."
+    "[SZY] Gąski w occie. Grzyby dzikie: NCHFP nie wekuje dzikich grzybów (SZY-020); ACI do rozstrzygnięcia, czy zakaz obejmuje marynaty. Gąski (zielonka) – ryzyko toksyczności gatunku, poza zakresem SZY.",
+    "[B31] zostaje nie-publikowac, werdykt B30-D3: dopisany sygnał toksykologiczny gąski zielonki (SLO-900–903, szczebel 1) i stan prawny w PL (SLO-904, kontekst jurysdykcji); ostrzeżenie SLO-901. B31-D1: SUS-035 (było w requiredWarnings bez pokrycia) dopisane do claims, wariant ostrożniejszy niż usunięcie ostrzeżenia. Gąska siwa: brak źródeł o toksyczności (sprawdzone, brak). (2026-11-02-jaratlas-b31-katalog)"
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -43540,7 +43559,8 @@
     "SZY"
    ],
    "requiredWarnings": [
-    "SUS-035"
+    "SUS-035",
+    "SLO-901"
    ],
    "e3": "potwierdzony"
   },
