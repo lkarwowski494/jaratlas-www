@@ -16,7 +16,15 @@ Na słoik pint dodaj 1 łyżkę butelkowanego soku z cytryny albo 1/4 łyżeczki
 
 Reguła JarAtlas dla słoików metrycznych: do słoika większego niż pint, do 946 ml (np. 0,5 l albo 0,9 l), dodaj kwas jak na quart: 2 łyżki butelkowanego soku z cytryny albo 1/2 łyżeczki kwasu cytrynowego. [T:ACI-193]
 
-Nie wekuj pomidorów z obumarłych ani przemarzniętych krzaków. [T:ACI-049]
+## Przygotowanie soku
+
+Uwaga (NCHFP): nie wekuj pomidorów z obumarłych ani przemarzniętych krzaków. [T:ACI-049]
+
+Pomidory umyj, usuń szypułki i wytnij obite albo przebarwione miejsca. [T:ACI-233]
+
+Pokrój je w plastry albo ćwiartki do dużego garnka, rozgnieć, podgrzej i gotuj na wolnym ogniu 5 minut. [T:ACI-233]
+
+Gorące pomidory przetrzyj przez sito albo przecierak, żeby usunąć skórki i pestki. [T:ACI-233]
 
 ## Wekowanie
 

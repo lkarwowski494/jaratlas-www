@@ -10,6 +10,8 @@ Cukier można dodać dla złagodzenia kwaśnego smaku, ale kwasu nie wolno pomin
 
 ## Przygotowanie
 
+Uwaga (NCHFP): nie wekuj pomidorów z obumarłych ani przemarzniętych krzaków. [T:ACI-049]
+
 Umyj pomidory, zanurz je we wrzącej wodzie na 30–60 sekund albo do pęknięcia skórki, a potem w zimnej wodzie. [T:ACI-196]
 
 Zdejmij skórkę, usuń twarde gniazdo przy szypułce i zostaw pomidory całe albo przekrój je na pół. [T:ACI-196]

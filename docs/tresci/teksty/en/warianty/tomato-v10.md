@@ -10,6 +10,8 @@ Sugar may be added to balance the acidic taste, but the acid must not be left ou
 
 ## Preparing
 
+Caution (NCHFP): do not can tomatoes from dead or frost-killed vines. [T:ACI-049]
+
 Wash the tomatoes, dip them in boiling water for 30–60 seconds or until the skins split, then dip them in cold water. [T:ACI-196]
 
 Slip off the skins, remove the cores and leave the tomatoes whole or cut them in half. [T:ACI-196]

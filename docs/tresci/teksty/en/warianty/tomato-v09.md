@@ -16,7 +16,15 @@ For pint jars, use 1 tablespoon of bottled lemon juice or 1/4 teaspoon of citric
 
 JarAtlas rule for metric jars: to a jar larger than a pint, of up to 946 ml (for example 0.5 l or 0.9 l), add acid as for a quart: 2 tablespoons of bottled lemon juice or 1/2 teaspoon of citric acid. [T:ACI-193]
 
-Do not can tomatoes from dead or frost-killed vines. [T:ACI-049]
+## Preparing the juice
+
+Caution (NCHFP): do not can tomatoes from dead or frost-killed vines. [T:ACI-049]
+
+Wash the tomatoes, remove the stems and trim off bruised or discolored parts. [T:ACI-233]
+
+Slice or quarter them into a large saucepan, crush them, heat them and simmer for 5 minutes. [T:ACI-233]
+
+Press the hot tomatoes through a sieve or food mill to remove the skins and seeds. [T:ACI-233]
 
 ## Processing
 
