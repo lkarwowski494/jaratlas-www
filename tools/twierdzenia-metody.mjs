@@ -11,8 +11,8 @@ export const WSPOLNE = {
   'ACI-195': ['water-bath', 'freezer', 'refrigerator', 'dry-storage'], // miarka „cup” ≈ 237 ml (NIST): przelicznik niezależny od metody; p33: quince-v07, radish-v09 (lodówka), lemon-v13 (suszenie)
   'ACI-509': ['refrigerator', 'water-bath'], // ocet 5%, bez soku z cytryny: reguła ogólna pikli; p33 wymagane ostrzeżenie karty-ostrzeżenia cucumber-v11 (B18-D2)
   'SUS-327': ['water-bath', 'dry-storage'], // kwas parasorbowy w surowej jarzębinie: wymagane ostrzeżenie kart-ostrzeżeń rosehip-rowan-v02/v07 (kąpiel) i v10/v12 (suszenie), p33
-  'SUS-337': ['freezer', 'dry-storage'], // pomyłki czosnku niedźwiedziego z konwalią i zimowitem: wild-garlic-v07 (mrożenie) i v11 (suszenie), p33
-  'SUS-338': ['freezer', 'dry-storage'], // jaja tasiemca lisiego: wild-garlic-v07 (mrożenie) i v11 (suszenie), p33
+  'SUS-337': ['freezer', 'dry-storage', 'refrigerator'], // pomyłki czosnku niedźwiedziego z konwalią i zimowitem: wild-garlic-v07 (mrożenie) i v11 (suszenie), p33; wymagane ostrzeżenie oleju wild-garlic-v09 (lodówka), p35
+  'SUS-338': ['freezer', 'dry-storage', 'refrigerator'], // jaja tasiemca lisiego: wild-garlic-v07 (mrożenie) i v11 (suszenie), p33; mycie liści w oleju wild-garlic-v09 (lodówka), p35
   'SZY-054': ['water-bath', 'brak'], // kąpiel wodna tylko dla żywności kwaśnej i według przetestowanego przepisu: karty-ostrzeżenia kąpieli (p33) i white-cabbage-v13
   'ACI-015': ['water-bath', 'refrigerator'], // kwaśna żywność powyżej 1000 stóp: blok wysokości w kartach pikli
   'ACI-174': ['water-bath', 'refrigerator'], // pinta i quart USA w ml

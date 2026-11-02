@@ -1,0 +1,88 @@
+# Fermented garlic dill pickles (NCHFP recipe)
+
+This card describes the NCHFP recipe for fermented dill pickles with the optional garlic; the brine in this recipe contains vinegar. [T:FER-042,FER-109]
+
+## !
+
+- Do not make fermented pickles with a reduced amount of salt. [T:FER-011]
+- If the pickles become soft, slimy or develop a disagreeable odor, discard them. [T:FER-044]
+
+## What this card covers
+
+In the NCHFP recipe garlic is an optional ingredient: 2 cloves for each gallon of container capacity. [T:FER-109]
+
+JarAtlas rule (cautious): NCHFP does not test more garlic or a brine without vinegar, so do not add more garlic, do not leave out the vinegar and do not change the amount of salt. [T:FER-110]
+
+In industry, brines for bulk cucumber fermentation equalize to at least 5% salt; 2% salt is the level used for cabbage and other ready-to-eat fermented vegetables. [T:FER-053]
+
+## Ingredients
+
+For each gallon of container capacity, NCHFP lists 4 pounds of 4-inch pickling cucumbers, 1/2 cup of salt, 1/4 cup of 5% vinegar and 8 cups of water. [T:FER-042]
+
+NCHFP also lists dill: 2 tablespoons of dill seed, or 4–5 heads of fresh or dry dill weed. [T:FER-042]
+
+Add 2 cloves of garlic; the recipe also allows 2 dried red peppers or 2 teaspoons of whole mixed pickling spices, which are optional too. [T:FER-109]
+
+Use canning or pickling salt; do not use flake salt, because its density varies. [T:FER-013]
+
+Do not use reduced-sodium salt or salt substitutes in fermented pickles. [T:FER-017]
+
+Penn State Extension advises vinegar of 5–7% acidity for home food preservation and advises against diluting vinegar with water unless a research-tested recipe says so. [T:ACI-209,ACI-210]
+
+JarAtlas rule (cautious, for readers outside the USA): use white distilled (spirit) vinegar or cider vinegar labelled 5% or 6% acidity; do not use 10% vinegar and do not dilute it with water to make 5% vinegar; add only the water the recipe lists. [T:ACI-211,ACI-018]
+
+## Making
+
+Wash the cucumbers. [T:FER-109]
+
+Cut off and discard a 1/16-inch slice from the blossom end, because it may contain softening enzymes. [T:FER-048]
+
+Leave 1/4 inch of stem attached. [T:FER-109]
+
+Put half of the dill and spices on the bottom of a clean container, then add the cucumbers and the rest of the dill and spices. [T:FER-109]
+
+Dissolve the salt in the vinegar and water, pour it over the cucumbers, and add a cover and a weight. [T:FER-109]
+
+## Fermenting
+
+Throughout fermentation the cucumbers must stay 1–2 inches (about 2.5–5 cm) under the brine. [T:FER-021]
+
+At 70–75 °F (21–24 °C) fermentation takes about 3–4 weeks. [T:FER-043]
+
+At 55–65 °F (13–18 °C) it also works, but takes 5–6 weeks. [T:FER-043]
+
+Avoid temperatures above 80 °F (27 °C), or the pickles will become soft. [T:FER-043]
+
+Check the container several times a week and promptly remove surface scum or mold. [T:FER-044]
+
+## Storing
+
+Fully fermented pickles may be kept in the original container in the refrigerator for about 4–6 months, if surface scum and mold are removed regularly. [T:FER-045]
+
+NCHFP calls canning a better way to store them. [T:FER-045]
+
+To can them, pour the brine into a pan, heat it slowly to a boil and simmer for 5 minutes. [T:FER-046]
+
+Fill the jars with the pickles and hot brine, leaving 1/2 inch (about 1.3 cm) of headspace. [T:FER-095]
+
+Water-bath canning, raw pack, at 0–1000 ft (up to 300 m) above sea level takes 10 minutes for pint jars and 15 minutes for quart jars. [T:FER-046,ACI-176]
+
+Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
+
+At 1001–6000 ft (above 300 m up to 1800 m) process pints for 15 minutes and quarts for 20. [T:FER-096,ACI-176]
+
+Above 6000 ft (above 1800 m) process pints for 20 minutes and quarts for 25. [T:FER-099,ACI-176]
+
+The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m and 6000 ft becomes 1800 m. [T:ACI-176]
+
+NCHFP times are for US jar sizes: a pint holds about 473 ml and a quart about 946 ml. [T:ACI-174]
+
+JarAtlas rule (NCHFP does not test metric jars): for a jar of up to 473 ml use the pint time, and for a larger jar of up to 946 ml, for example 0.5 l or 0.9 l, use the quart time. [T:ACI-175]
+
+This NCHFP recipe gives no time for jars larger than a quart, such as 1 l, so JarAtlas recommends smaller jars. [T:ACI-175]
+
+Shortening the time or cooling jars in cold water can also lead to spoilage. [T:ACI-015]
+
+## When to throw it out
+
+If the pickles become soft, slimy or develop a disagreeable odor, discard them. [T:FER-044]

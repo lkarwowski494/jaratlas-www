@@ -49762,6 +49762,261 @@
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {
+  "id": "MIE-131",
+  "twierdzenie": "NCHFP Pickled Eggs: każdy przepis jest na 12 obranych jaj na twardo; wszystkie składniki oprócz jaj doprowadza się do wrzenia, zmniejsza ogień i gotuje 5 minut; do ciepłego, wcześniej wysterylizowanego słoika quart (lub podobnego, szczelnie zamykanego pojemnika) wkłada się luźno nie więcej niż tuzin jaj; zalewy musi być dużo, tyle, żeby całkowicie przykryła jaja; gorącą zalewę wylewa się na jaja, zamyka i od razu wstawia do lodówki.",
+  "twierdzenie_en": "NCHFP Pickled Eggs: each recipe uses 12 peeled, hard-cooked eggs; bring all the ingredients except the eggs to a boil, reduce the heat and simmer for 5 minutes; pack no more than one dozen eggs loosely into a warm, pre-sterilized quart jar (or a similar container that can be closed tightly); there must be plenty of pickling solution, enough to cover the eggs completely; pour the hot solution over the eggs, cover and refrigerate immediately.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Recipes",
+    "cytat": "Each of these recipes uses 12 peeled, hard-cooked eggs.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Recipes",
+    "cytat": "Pack no more than one dozen peeled, hard-cooked eggs loosely into a warm, pre-sterilized quart jar (or other similar size container which can be closed tightly).",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Recipes",
+    "cytat": "Pour the hot pickling solution over the eggs in the jar, cover, and refrigerate immediately.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-132",
+  "twierdzenie": "NCHFP Dilled Eggs, zalewa na 12 jaj: 1 1/2 szklanki octu białego, 1 szklanka wody, 3/4 łyżeczki suszonego kopru, 1/4 łyżeczki białego pieprzu, 3 łyżeczki soli, 1/4 łyżeczki gorczycy, 1/2 łyżeczki soku z cebuli lub posiekanej cebuli, 1/2 łyżeczki posiekanego czosnku albo 1 obrany ząbek czosnku.",
+  "twierdzenie_en": "NCHFP Dilled Eggs, pickling solution for 12 eggs: 1 1/2 cups white vinegar, 1 cup water, 3/4 teaspoon dill weed, 1/4 teaspoon white pepper, 3 teaspoons salt, 1/4 teaspoon mustard seed, 1/2 teaspoon onion juice or minced onion, 1/2 teaspoon minced garlic or 1 peeled garlic clove.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Recipes, Dilled Eggs",
+    "cytat": "DILLED EGGS",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Recipes, Dilled Eggs",
+    "cytat": "1½ cups white vinegar",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Recipes, Dilled Eggs",
+    "cytat": "1 cup water",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Recipes, Dilled Eggs",
+    "cytat": "¾ teaspoon dill weed",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Recipes, Dilled Eggs",
+    "cytat": "¼ teaspoon white pepper",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Recipes, Dilled Eggs",
+    "cytat": "3 teaspoons salt",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Recipes, Dilled Eggs",
+    "cytat": "¼ teaspoon mustard seed",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Recipes, Dilled Eggs",
+    "cytat": "½ teaspoon onion juice or minced onion",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Recipes, Dilled Eggs",
+    "cytat": "½ teaspoon minced garlic or 1 peeled garlic clove",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-133",
+  "twierdzenie": "NCHFP Pickled Eggs: jaja do marynowania powinny mieć czyste, nieuszkodzone skorupki; małe lub średnie jaja są dobrym wyborem, bo przyprawy łatwiej w nie wnikają; jaja trzymać cały czas w lodówce; małe jaja przechodzą smakiem zwykle w 1–2 tygodnie, średnie lub duże mogą potrzebować 2–4 tygodni.",
+  "twierdzenie_en": "NCHFP Pickled Eggs: eggs for pickling should have clean, sound shells; small or medium eggs are usually a good choice so the seasoning can penetrate; keep the eggs refrigerated at all times; small eggs usually need 1–2 weeks to season, medium or large eggs may need 2–4 weeks.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Pickling tips",
+    "cytat": "Eggs used for pickling should have clean, sound shells.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Pickling tips",
+    "cytat": "Small or medium eggs are usually a good choice for pickling so the seasoning can penetrate into the egg.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Storing Eggs",
+    "cytat": "Keep them refrigerated at all times. If small eggs are used, 1 to 2 weeks are usually allowed for seasoning to occur. Medium or large eggs may require 2 to 4 weeks to become well seasoned.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-134",
+  "twierdzenie": "NCHFP Pickled Eggs, gotowanie jaj (sposób, gdy łatwe obieranie bardzo świeżych jaj nie jest ważne): zrobić dziurkę szpilką w szerszym końcu, ułożyć jaja jedną warstwą w garnku, zalać zimną wodą na cal ponad jaja, przykryć, doprowadzić do wrzenia, zmniejszyć ogień i gotować 15 minut; włożyć do zimnej wody, po ostygnięciu obrać, zaczynając od szerszego końca, można pod zimną bieżącą wodą.",
+  "twierdzenie_en": "NCHFP Pickled Eggs, cooking the eggs (the method for when easy peeling of ultra-fresh eggs matters less): make a pinhole in the large end, place the eggs in a single layer in a saucepan, cover with cold water to an inch above the eggs, put on a lid, bring to a boil, turn down the heat and simmer for 15 minutes; place the eggs in cold water and peel them when cool, starting at the large end, optionally under cold running water.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Cooking and Peeling Eggs",
+    "cytat": "make a pinhole in the large end of the egg, place the eggs in a single layer in a saucepan, and cover with cold water to an inch above the layer of eggs.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Cooking and Peeling Eggs",
+    "cytat": "Peel, starting at the large end of the egg. The peeling may take place under cold running water to help wash the shell off the egg.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Cooking and Peeling Eggs",
+    "cytat": "Place a lid on the pan and bring eggs to a boil. Turn down the heat and simmer for 15 minutes. Place the eggs in cold water and when cool, remove shells.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "MIE-135",
+  "twierdzenie": "Reguła JarAtlas (ostrożna) dla jaj „w zalewie curry z kurkumą”: wśród przepisów NCHFP Pickled Eggs (Red Beet, Sweet and Sour, Dark and Spicy, Cidered, Dilled, Pineapple) nie ma wersji z curry ani kurkumą; karta opisuje przepis NCHFP Dilled Eggs w jego składzie; JarAtlas nie ma przetestowanego źródła na dodanie curry, kurkumy ani innych przypraw spoza przepisu, więc karta ich nie podaje; nie zmieniać ilości octu, wody ani soli.",
+  "twierdzenie_en": "JarAtlas rule (cautious) for eggs “in curry and turmeric brine”: the NCHFP Pickled Eggs recipes (Red Beet, Sweet and Sour, Dark and Spicy, Cidered, Dilled, Pineapple) include no curry or turmeric version; the card describes the NCHFP Dilled Eggs recipe as written; JarAtlas has no tested source for adding curry, turmeric or other spices outside the recipe, so the card does not give them; do not change the amounts of vinegar, water or salt.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Recipes",
+    "cytat": "DILLED EGGS",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "Recipes",
+    "cytat": "PINEAPPLE PICKLED EGGS",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "4dc79eacaee4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
   "id": "SLO-309",
   "twierdzenie": "NCHFP Berry Jam (Uncooked): słoiki do przetworów wysterylizować, a dwuczęściowe pokrywki przygotować według instrukcji producenta; w pełni dojrzałe owoce posortować i umyć, odsączyć, usunąć szypułki i kielichy, rozgnieść.",
   "twierdzenie_en": "NCHFP Berry Jam (Uncooked): sterilize canning jars and prepare two-piece canning lids according to the manufacturer's directions; sort and wash fully ripe berries, drain, remove caps and stems, crush the berries.",
@@ -56325,6 +56580,177 @@
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {
+  "id": "NAP-087",
+  "twierdzenie": "NCHFP Kombucha Tea, składniki: 1 galon wody (podzielony), 3 łyżki (albo 6 torebek) czarnej herbaty, 1/3 szklanki + 2 łyżki (albo 13 torebek) zielonej herbaty, 1 szklanka cukru białego, 1 SCOBY z płynem startowym.",
+  "twierdzenie_en": "NCHFP Kombucha Tea, ingredients: 1 gallon water (divided), 3 tablespoons (or 6 tea bags) black tea, 1/3 cup + 2 tablespoons (or 13 tea bags) green tea, 1 cup granulated sugar, 1 SCOBY with starter liquid.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "Kombucha Tea, Ingredients",
+    "cytat": "1 gallon water, divided",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "0ded6c077fe1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "Kombucha Tea, Ingredients",
+    "cytat": "3 tablespoons (or 6 tea bags) black tea",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "0ded6c077fe1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "Kombucha Tea, Ingredients",
+    "cytat": "1/3 cup + 2 tablespoons (or 13 tea bags) green tea",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "0ded6c077fe1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "Kombucha Tea, Ingredients",
+    "cytat": "1 cup granulated sugar",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "0ded6c077fe1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "Kombucha Tea, Ingredients",
+    "cytat": "1 SCOBY with starter liquid",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "0ded6c077fe1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "NAP-088",
+  "twierdzenie": "NCHFP Kombucha Tea, przygotowanie: umyć ręce wodą z mydłem przez co najmniej 20 sekund; sprzęt umyć i wypłukać, a następnie zanurzyć w gorącej wodzie o temperaturze co najmniej 171 °F (ok. 78 °C) na co najmniej 30 sekund; 4 szklanki wody podgrzać do 160–170 °F (ok. 71–77 °C, sprawdzić termometrem) i parzyć herbatę 2 minuty; herbatę wyjąć lub przecedzić, wlać do naczynia fermentacyjnego, dodać cukier i rozpuścić; dolać 12 szklanek zimnej wody.",
+  "twierdzenie_en": "NCHFP Kombucha Tea, preparation: wash hands with soap and water for at least 20 seconds; wash and rinse the equipment, then submerge it in hot water of at least 171 °F (about 78 °C) for at least 30 seconds to sanitize; heat 4 cups of water to 160–170 °F (about 71–77 °C, checked with a food thermometer) and steep the tea for 2 minutes; remove or strain the tea, pour it into the fermentation container, add the sugar and stir to dissolve; add 12 cups of cold water.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "Kombucha Tea, Instructions",
+    "cytat": "Clean the kitchen area and wash hands with soap and water for at least 20 seconds.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "0ded6c077fe1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "Kombucha Tea, Instructions",
+    "cytat": "Submerge cleaned equipment in hot water (at least 171°F) for at least 30 seconds to sanitize.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "0ded6c077fe1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "Kombucha Tea, Instructions",
+    "cytat": "Heat 4 cups of water to 160° - 170°F (use a food thermometer to check), and add the tea to steep for 2 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "0ded6c077fe1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "Kombucha Tea, Instructions",
+    "cytat": "Add 12 cups of cold water and stir.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "0ded6c077fe1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "NAP-089",
+  "twierdzenie": "NCHFP Kombucha Tea: pH płynu startowego mierzy się w 1 łyżce płynu w małej miseczce paskiem pH lub papierkiem lakmusowym, według instrukcji producenta, a zbadaną próbkę wylewa się; po dodaniu SCOBY i płynu startowego miesza się 10 sekund; otwór naczynia osusza się i przykrywa ręcznikiem papierowym, filtrem do kawy lub czystą gazą, mocując gumką lub sznurkiem; naczynie oznacza się datą (dzień 0 fermentacji).",
+  "twierdzenie_en": "NCHFP Kombucha Tea: the pH of the starter liquid is measured in 1 tablespoon of it in a small bowl with a pH strip or litmus paper, following the test paper maker’s instructions, and the tested sample is discarded; after adding the SCOBY and starter liquid, stir well for 10 seconds; dry the opening of the container and cover it with a paper towel, coffee filter or clean cheese cloth secured with a rubber band or string; mark the container with the date (day 0 of fermentation).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "How to measure pH of the starter liquid",
+    "cytat": "Place 1 tablespoon of starter liquid in a small bowl or cup.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "0ded6c077fe1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "How to measure pH of the starter liquid",
+    "cytat": "Use a pH strip or litmus paper to measure the pH of the starter liquid.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "0ded6c077fe1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "Kombucha Tea, Instructions",
+    "cytat": "Add the SCOBY and starter liquid and stir well for 10 seconds.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "0ded6c077fe1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "Kombucha Tea, Instructions",
+    "cytat": "Dry the opening of the container, then cover with a paper towel, coffee filter, or clean cheese cloth and secure with a rubber band or string.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "0ded6c077fe1"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/kombucha-tea/",
+    "miejsce": "Kombucha Tea, Instructions",
+    "cytat": "Mark the container with the date (this is Day 0 of the fermentation)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "0ded6c077fe1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
   "id": "FER-106",
   "twierdzenie": "UCCE MFP (materiał 02/2017 „Preserved Lemons”): cząstki cytryn mają być zanurzone pod płynem; jeśli nie są, wyciska się dodatkową cytrynę i dolewa sok do słoika.",
   "twierdzenie_en": "UCCE MFP (02/2017 handout “Preserved Lemons”): the lemon wedges should be submerged beneath the liquid; if they are not, juice an additional lemon and add the juice to the jar.",
@@ -56361,6 +56787,510 @@
   "pochodzenie": "06 p32 (V1: sok musi przykrywać owoce)",
   "jednoZrodlo": true,
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "FER-107",
+  "twierdzenie": "NCHFP Sauerkraut: lista składników przepisu to tylko 25 funtów kapusty i 3/4 szklanki soli do konserw lub marynat (partiami po ok. 5 funtów kapusty); przepis nie wymienia kminku ani żadnych przypraw.",
+  "twierdzenie_en": "NCHFP Sauerkraut: the recipe lists only 25 pounds of cabbage and 3/4 cup of canning or pickling salt (worked in batches of about 5 pounds of cabbage); it does not list caraway or any other spice.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Sauerkraut, składniki",
+    "cytat": "25 lbs cabbage",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "7cce722bc09a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Sauerkraut, składniki",
+    "cytat": "3/4 cup canning or pickling salt",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "7cce722bc09a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Sauerkraut, Procedure",
+    "cytat": "Work with about 5 pounds of cabbage at a time.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "7cce722bc09a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "FER-108",
+  "twierdzenie": "Reguła JarAtlas (ostrożna): przepis NCHFP Sauerkraut nie zawiera kminku ani innych przypraw, a JarAtlas nie ma przetestowanego źródła na kiszenie kapusty z kminkiem; karta nie podaje ilości kminku i nie zaleca dodatków spoza przepisu; nie zmieniać ilości kapusty ani soli.",
+  "twierdzenie_en": "JarAtlas rule (cautious): the NCHFP sauerkraut recipe contains no caraway or other spices, and JarAtlas has no tested source for fermenting cabbage with caraway; the card gives no amount of caraway and does not recommend additions outside the recipe; do not change the amounts of cabbage or salt.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+    "miejsce": "Sauerkraut, składniki",
+    "cytat": "3/4 cup canning or pickling salt",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "7cce722bc09a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "FER-109",
+  "twierdzenie": "NCHFP Dill Pickles: oprócz ogórków, kopru, soli, octu i wody na galon pojemności dodaje się jeden lub więcej składników opcjonalnych: 2 ząbki czosnku, 2 suszone czerwone papryczki, 2 łyżeczki całej mieszanki przypraw do marynat; ogórki umyć, odciąć plaster 1/16 cala od strony kwiatu, zostawić 1/4 cala ogonka; połowę kopru i przypraw na dno czystego naczynia, potem ogórki, resztę kopru i przypraw; sól rozpuścić w occie i wodzie i zalać ogórki; przykryć i obciążyć.",
+  "twierdzenie_en": "NCHFP Dill Pickles: besides cucumbers, dill, salt, vinegar and water, for each gallon of container capacity one or more optional ingredients are added: 2 cloves of garlic, 2 dried red peppers, 2 teaspoons of whole mixed pickling spices; wash the cucumbers, cut a 1/16-inch slice off the blossom end, leave 1/4 inch of stem attached; put half of the dill and spices on the bottom of a clean container, then the cucumbers and the rest of the dill and spices; dissolve the salt in the vinegar and water and pour it over the cucumbers; add a cover and weight.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Dill Pickles, składniki",
+    "cytat": "8 cups water and one or more of the following ingredients:",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "450249edd51a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Dill Pickles, składniki",
+    "cytat": "2 cloves garlic (optional)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "450249edd51a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Dill Pickles, składniki",
+    "cytat": "2 tsp whole mixed pickling spices (optional)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "450249edd51a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Dill Pickles, Procedure",
+    "cytat": "Leave 1/4-inch of stem attached. Place half of dill and spices on bottom of a clean, suitable container.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "450249edd51a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Dill Pickles, Procedure",
+    "cytat": "Dissolve salt in vinegar and water and pour over cucumbers. Add suitable cover and weight.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "450249edd51a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "FER-110",
+  "twierdzenie": "Reguła JarAtlas (ostrożna) dla ogórków „po żydowsku z czosnkiem”: karta opisuje przepis NCHFP Dill Pickles, w którym czosnek jest składnikiem opcjonalnym, 2 ząbki na galon pojemności; NCHFP nie testuje większej ilości czosnku ani solanki bez octu, więc nie zwiększać czosnku, nie pomijać octu i nie zmieniać ilości soli.",
+  "twierdzenie_en": "JarAtlas rule (cautious) for “Jewish-style” garlic pickles: the card describes the NCHFP Dill Pickles recipe, in which garlic is an optional ingredient, 2 cloves per gallon of container capacity; NCHFP does not test more garlic or a brine without vinegar, so do not add more garlic, do not leave out the vinegar and do not change the amount of salt.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+    "miejsce": "Dill Pickles, składniki",
+    "cytat": "2 cloves garlic (optional)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML→tekst)",
+    "sha12": "450249edd51a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "FER-111",
+  "twierdzenie": "CSU (szczebel 3), przepis baechu kimchi, pozostałe składniki: 1 galon + 1/2 szklanki zimnej wody (podzielone), 2 łyżki słodkiej mąki ryżowej, 1–10 ząbków czosnku według smaku, ok. 3 plastry świeżego korzenia imbiru (ok. 0,2–0,4 uncji), 1 szklanka koreańskiej papryki w proszku, 1/2 rzodkwi koreańskiej (ok. 1–1,5 funta) albo daikon, 1 gruszka azjatycka (opcjonalnie), 10 dymek, 1 łyżeczka sosu rybnego (opcjonalnie), 2 łyżeczki drobnej soli (opcjonalnie, w razie potrzeby).",
+  "twierdzenie_en": "CSU (tier 3), baechu kimchi recipe, other ingredients: 1 gallon + 1/2 cup cold water (divided), 2 tablespoons sweet rice flour, 1–10 cloves of garlic to taste, about 3 slices of fresh ginger root (about 0.2–0.4 oz), 1 cup Korean red pepper powder, 1/2 Korean radish (about 1–1.5 pounds) or daikon, 1 Asian pear (optional), 10 green onions, 1 teaspoon fish sauce (optional), 2 teaspoons finely ground salt (optional, as needed).",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Ingredients",
+    "cytat": "1 gallon + 1/2 cup cold water, divided",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Ingredients",
+    "cytat": "2 Tbsp. sweet rice flour",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Ingredients",
+    "cytat": "1-10 cloves garlic, depending on taste preference",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Ingredients",
+    "cytat": "About 3 slices fresh ginger root (about 0.2-0.4 oz.)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Ingredients",
+    "cytat": "1 cup Korean red pepper powder",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Ingredients",
+    "cytat": "1/2 Korean radish (about 1-1.5 pounds), or daikon",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Ingredients",
+    "cytat": "1 Asian pear (optional)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Ingredients",
+    "cytat": "10 green onions",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Ingredients",
+    "cytat": "1 tsp. fish sauce (optional)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Ingredients",
+    "cytat": "2 tsp. finely ground salt (optional, as needed)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "FER-112",
+  "twierdzenie": "CSU, kimchi, przygotowanie i solenie kapusty: główki opłukać zimną wodą, odciąć zepsute miejsca, pokroić na ćwiartki, usunąć głąb, pokroić na kawałki 2-calowe; zanurzyć krótko w solance z 1/2 szklanki grubej soli bez jodu na 1 galon zimnej wody, solankę wylać; posypać 1 szklanką grubej soli bez jodu, wmasować, zostawić przykryte w temperaturze pokojowej 3–6 godzin; opłukać 3–4 razy zimną wodą i odsączyć na durszlaku co najmniej 30 minut.",
+  "twierdzenie_en": "CSU, kimchi, preparing and salting the cabbage: rinse the heads under cold water, cut away spoiled spots, cut into quarters, remove the core and chop into 2-inch pieces; dip briefly in a solution of 1/2 cup coarse non-iodized salt in 1 gallon of cold water and discard the solution; sprinkle with 1 cup of coarse non-iodized salt, massage it in and leave covered at room temperature for 3–6 hours; rinse 3–4 times with cold water and drain in a colander for at least 30 minutes.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Prepare Napa cabbage",
+    "cytat": "core from each. Chop quarters into 2-inch pieces.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Salt cabbage",
+    "cytat": "iodized salt and 1 gallon cold water in large mixing",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Salt cabbage",
+    "cytat": "Sprinkle 1 cup of course, non-iodized salt over the",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Salt cabbage",
+    "cytat": "for 3 to 6 hours (a longer time will make it more",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Salt cabbage",
+    "cytat": "4.Rinse cabbage pieces 3 to 4 times with cold",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Salt cabbage",
+    "cytat": "cabbage for at least 30 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "FER-113",
+  "twierdzenie": "CSU, kimchi, przyprawy i pakowanie: słodką mąkę ryżową z 1/2 szklanki wody zagotować i ostudzić; czosnek i imbir drobno posiekać, wymieszać z pastą i papryką; rzodkiew oczyścić i obrać, dymkę oczyścić i przyciąć, gruszkę azjatycką (jeśli używana) oczyścić i obrać; wszystko pokroić w słupki ok. 1 cala; wymieszać w rękawiczkach, dodać sos rybny, sól tylko w razie potrzeby; połączyć z kapustą; ciasno upakować do pojemnika napełnionego do ok. 2/3, bo fermentacja uwalnia CO2; szczelnie zamknąć (słoiki dokręcić „na palce”), postawić na talerzu lub w misce na wypadek wycieku. Nie używać pojemników metalowych ani kamionki z pęknięciami.",
+  "twierdzenie_en": "CSU, kimchi, seasoning and packing: bring the sweet rice flour and 1/2 cup water to a boil and let it cool; finely mince the garlic and ginger and mix them with the paste and the red pepper powder; clean and peel the radish, clean and trim the green onions and, if desired, clean and peel the Asian pear; cut them all into matchsticks about 1 inch long; mix with gloved hands, add the fish sauce, and salt only as needed; combine with the cabbage; pack tightly into a container filled about 2/3 full, because fermentation releases CO2; cover tightly (jars sealed finger-tip tight) and set on a plate or in a bowl to catch overflow. Do not use metal containers or earthenware with cracks or chips.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Prepare seasonings",
+    "cytat": "saucepan. Bring to a boil and set aside to cool.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Prepare seasonings",
+    "cytat": "onions, and if desired, clean and peel Asian pear.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Prepare seasonings",
+    "cytat": "Julienned vegetables together in large mixing",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Prepare seasonings",
+    "cytat": "veggie paste. Add salt only as needed.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Pack container",
+    "cytat": "container about 2/3 of the way full, as fermenting",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Pack container",
+    "cytat": "2. Cover tightly. If using jars, seal to finger-tip",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Pack container",
+    "cytat": "on plate or in bowl to catch potential overflow.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Equipment",
+    "cytat": "earthenware with cracks or chips.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "FER-114",
+  "twierdzenie": "CSU, kimchi, fermentacja i przechowywanie: opcja 1 – w lodówce, powolna fermentacja 3–4 dni (lepsza zwłaszcza w upały); opcja 2 – zamknięty pojemnik w przewiewnym miejscu w stałej temperaturze pokojowej, najlepiej ok. 68 °F (20 °C), tylko 1–2 dni, codziennie próbując; gotowe kimchi trzymać szczelnie przykryte w lodówce, przyciśnięte, żeby ograniczyć dostęp powietrza; z czasem kwaśnieje.",
+  "twierdzenie_en": "CSU, kimchi, fermenting and storing: option 1 – in the refrigerator, fermenting slowly over 3–4 days (may be preferred, especially in hot weather); option 2 – the sealed container in a well-ventilated place at a relatively constant room temperature, around 68 °F (20 °C) being ideal, for only 1–2 days, tasting daily; store fermented kimchi tightly covered in the refrigerator, pressed down to minimize air exposure; it may become more sour over time.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Ferment",
+    "cytat": "refrigerator so it ferments slowly over 3 to 4 days.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Ferment",
+    "cytat": "temperature, around 68°F is ideal. Ferment only 1",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Ferment",
+    "cytat": "to 2 days at room temperature, tasting it daily",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Procedure, Store and enjoy",
+    "cytat": "refrigerator. Keep it pressed down to minimize air",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
+ },
+ {
+  "id": "FER-115",
+  "twierdzenie": "Reguła JarAtlas (ostrożna) dla wariantów kimchi z kapusty pekińskiej (wegańskie, z imbirem, z gruszką): karta opisuje przepis CSU w jego składzie i ilościach; sos rybny jest w przepisie opcjonalny, więc wersja wegańska go pomija bez zamiennika (zamienników nie testowano); imbir to ok. 3 plastry (ok. 0,2–0,4 uncji), gruszka azjatycka 1 sztuka, opcjonalnie; nie zwiększać ilości dodatków i nie dodawać składników spoza przepisu, bo przepis ich nie testuje.",
+  "twierdzenie_en": "JarAtlas rule (cautious) for napa cabbage kimchi variants (vegan, with ginger, with pear): the card describes the CSU recipe with its ingredients and amounts; fish sauce is optional in the recipe, so the vegan version leaves it out without a substitute (substitutes were not tested); ginger is about 3 slices (about 0.2–0.4 oz), Asian pear 1 fruit, optional; do not increase the amounts of these additions and do not add ingredients outside the recipe, because the recipe does not test them.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Ingredients",
+    "cytat": "1 tsp. fish sauce (optional)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Ingredients",
+    "cytat": "About 3 slices fresh ginger root (about 0.2-0.4 oz.)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2023-05/384790.pdf",
+    "miejsce": "Ingredients",
+    "cytat": "1 Asian pear (optional)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "527d9df2d12b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "06 p35 (tor A)",
+  "jednoZrodlo": true
  },
  {
   "id": "ACI-820",
