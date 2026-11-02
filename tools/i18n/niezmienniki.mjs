@@ -1,6 +1,6 @@
 // Niezmienniki przekładu kart (rola 09, zasada roli 3: „przekład twierdzenia to nowe twierdzenie”).
 // Zdanie przetłumaczone przez model przechodzi tylko wtedy, gdy zachowuje: znaczniki [T:ID] (te same, w tej samej kolejności), wartości liczb
-// (z minusem i ułamkami), symbole jednostek (°F, °C, ml, l, cm, mm, m, kg, g, %, pH), jednostki słowne (minuty, godziny, cale, stopy, szklanki,
+// (z minusem i ułamkami), symbole jednostek (°F, °C, mg, ml, l, cm, mm, m, kg, g, %, także „percent”/„procent”, pH), jednostki słowne (minuty, godziny, cale, stopy, szklanki,
 // łyżki, funty, galony, metry; pint i quart zostają jako nazwy słoików US) oraz nazwy własne (NCHFP, USDA, JarAtlas).
 // Dlaczego mechanicznie: zła liczba, °F zamiast °C albo „pinte” (pinta brytyjska ≈ 568 ml) zamiast pint US (≈ 473 ml) szkodzi tak samo jak w oryginale,
 // a przegląd człowieka bywa nieuważny. Kontrola ma fałszywe alarmy po stronie ostrożnej: wątpliwe zdanie wraca do przeglądu, nigdy odwrotnie.
@@ -42,7 +42,11 @@ export function liczby(t, jezyk) {
  * sprzeczne jednostki nie. Kolejność nie odrzuca (polski szyk przestawia liczby w poprawnych przekładach), ale daje uwagę dla recenzenta: uwagi(). */
 const KOTWICE = {};
 const kotwice = (jezyk) => (KOTWICE[jezyk] ??= Object.entries(LEKSYKON[jezyk]).map(([k, re]) => [k, new RegExp(re.source, 'iuy')]));
-const SYMBOL_PO = /[\s]?(°F|°C|ml|mL|cm|mm|kg|g|l|L|m|%)(?![\p{L}])/uy;
+/* C2-06 (07-jakosc C6): „mg” jest symbolem (wcześniej „5 mg” nie dawało żadnego symbolu, więc zgubione „mg” przechodziło), a procent słownie
+ * („20 percent”, „20 procent”, „syrop 50-procentowy”, „pour cent”…) to ten sam symbol co „%”. Jedna lista dla par i dla symboli, żeby nie rozjechały się jak przed C6. */
+const JEDN_SYMBOLE = '°F|°C|mg|ml|mL|cm|mm|kg|g|l|L|m|%|percent|per cent|-?procent(?:y|ów|ach|ow\\p{L}*)?|pour cent|por ciento|Prozent|per cento';
+const symbol = (x) => (x === 'mL' ? 'ml' : x === 'L' ? 'l' : /^-?(?:per|pour|por|proc|Proz)/.test(x) ? '%' : x);
+const SYMBOL_PO = new RegExp(`[\\s]?(${JEDN_SYMBOLE})(?![\\p{L}])`, 'uy');
 export function pary(t, jezyk) {
   const s = bezZnacznikow(t); const wynik = [];
   const lista = [...s.matchAll(LICZBA)].map((m) => ({ koniec: m.index + m[0].length, poczatek: m.index + m[1].length }));
@@ -50,7 +54,7 @@ export function pary(t, jezyk) {
   for (let i = 0; i < lista.length; i++) {
     const k = lista[i].koniec;
     SYMBOL_PO.lastIndex = k; const sym = SYMBOL_PO.exec(s);
-    let jedn = sym ? (sym[1] === 'mL' ? 'ml' : sym[1] === 'L' ? 'l' : sym[1]) : null;
+    let jedn = sym ? symbol(sym[1]) : null;
     if (!jedn) {
       const ws = /[\s]*-?/uy; ws.lastIndex = k; ws.exec(s); const pocz = ws.lastIndex;
       const nast = lista[i + 1];
@@ -64,10 +68,10 @@ export function pary(t, jezyk) {
 }
 
 /* Symbole jednostek bezpośrednio po liczbie (ze spacją, także nierozdzielającą, albo bez) oraz każde „pH”. */
-const SYMBOL = /\d\s?(°F|°C|ml|mL|cm|mm|kg|g|l|L|m|%)(?![\p{L}])/gu;
+const SYMBOL = new RegExp(`\\d\\s?(${JEDN_SYMBOLE})(?![\\p{L}])`, 'gu');
 export function symbole(t) {
   const s = bezZnacznikow(t);
-  const wynik = [...s.matchAll(SYMBOL)].map((m) => (m[1] === 'mL' ? 'ml' : m[1] === 'L' ? 'l' : m[1]));
+  const wynik = [...s.matchAll(SYMBOL)].map((m) => symbol(m[1]));
   for (const _ of s.matchAll(/(?<![\p{L}])pH(?![\p{L}])/gu)) wynik.push('pH');
   return wynik.sort();
 }
