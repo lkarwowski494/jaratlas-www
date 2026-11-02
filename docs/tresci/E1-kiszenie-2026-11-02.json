@@ -1,0 +1,1588 @@
+{
+ "data": "2026-11-02",
+ "katalog": "1.0.4",
+ "liczba": 186,
+ "grupy": {
+  "G1-kapusta-dodatek": {
+   "zrodla": "Z01, Z07, Z09",
+   "przepis": "częściowy: NCHFP/Wisconsin testują tylko kapustę (białą/zieloną, Wisconsin też czerwoną) z solą; dodatek albo inny surowiec poza przepisem",
+   "propozycja": "do-researchu",
+   "uzasadnienie": "Przepis bazowy istnieje, ale dodatek zmienia skład (cukry, pH, woda); E3 już raz cofnął odpowiedniość (red-savoy-cabbage-v06). Ścieżka: przepis szczebla 1–3 z tym dodatkiem albo decyzja o karcie „przepis bazowy + pomiar pH” (D-b).",
+   "liczba": 11
+  },
+  "G2-ogorki-bez-octu": {
+   "zrodla": "Z02, Z03, Z14",
+   "przepis": "brak: NCHFP Dill Pickles ma ocet 5% i 1/2 szklanki soli na galon; wersji bez octu ani małosolnej nie testuje żadne przeczytane źródło",
+   "propozycja": "do-researchu",
+   "uzasadnienie": "FER-053: przemysł ≥5% NaCl; wariant polski ok. 2% bez octu bez testu. Kandydat do badań polskich źródeł (IBPRS, SGGW, normy PN) — pytanie otwarte FER 1.",
+   "liczba": 5
+  },
+  "G3-kimchi-poza-CSU": {
+   "zrodla": "Z10, Z11, Z12",
+   "przepis": "częściowy: CSU baechu (kapusta pekińska krojona) i UGA C1362; Codex 223 tylko kapusta pekińska (skład, sól 1,0–4,0% m/m), nie metoda domowa",
+   "propozycja": "do-researchu",
+   "uzasadnienie": "Inny surowiec (rzodkiew, por, dynia, ogórek) albo inny proces solenia (całe połówki, wodne kimchi) niż w przepisie CSU; ok-zrodlo mają tylko warianty zgodne z CSU (napa v05, v07, v08).",
+   "liczba": 13
+  },
+  "G4-sosy-pasty-chili": {
+   "zrodla": "Z15, Z16, Z17",
+   "przepis": "brak: Ask Extension „no specific recipe” dla fermentowanego sosu z chili; SDSU wymaga pH < 4,6, dodatku kwasu i zagotowania",
+   "propozycja": "do-researchu",
+   "uzasadnienie": "Brak przepisu; wiele wariantów zawiera czosnek (sriracha, adżyka, sambal), dla którego Ask Extension (FER-068) pisze, że fermentacja nie jest zatwierdzoną metodą. Ewentualna karta tylko z wykończeniem wg SDSU (ocet, zagotowanie, pH < 4,6) — to już inny proces (D-c).",
+   "liczba": 8
+  },
+  "G5a-miod-owoce": {
+   "zrodla": "Z18",
+   "przepis": "brak: jedyne przeczytane źródło (K-State) dotyczy czosnku w miodzie",
+   "propozycja": "do-researchu",
+   "uzasadnienie": "Owoce są zwykle kwaśniejsze niż czosnek, ale pH i aw mieszaniny nie są w żadnym źródle; figi (ACI-154) to owoc graniczny. Brak podstaw do oceny w żadną stronę.",
+   "liczba": 6
+  },
+  "G5b-miod-warzywa-niskokwasowe": {
+   "zrodla": "Z18, Z19, Z05",
+   "przepis": "brak",
+   "propozycja": "ryzyko-wysokie (kandydat, analogia do weta)",
+   "uzasadnienie": "Analogia nazwana: K-State o czosnku w miodzie („Garlic is a low acid plant food, and honey varies from low to high acidity”), a cebula szalotka i rzodkiewka to też warzywa niskokwasowe (Guide 1, FER-004). Źródło nie wymienia cebuli ani rzodkiewki, więc status zmienia dopiero partia katalogowa po decyzji D-a; do tego czasu wariant zostaje ukryty.",
+   "liczba": 2
+  },
+  "G6-grzyby": {
+   "zrodla": "Z05, Z13",
+   "przepis": "brak: nie znaleziono żadnego źródła szczebla 1–3 o kiszeniu grzybów w domu",
+   "propozycja": "do-researchu (priorytet: ostatni; kandydat ryzyko-wysokie po znalezieniu źródła)",
+   "uzasadnienie": "Grzyby są niskokwasowe; Guide 4 dopuszcza wekowanie tylko grzybów hodowlanych (FER-006). Bez źródła o fermentacji nie wolno ani dopuścić, ani wystawić oceny ryzyka; ukryty wariant nie szkodzi.",
+   "liczba": 6
+  },
+  "G7-oliwki": {
+   "zrodla": "Z20, (UC ANR 8267: 403)",
+   "przepis": "częściowy: UC ANR 8267 (szczebel 3) — PDF zwraca 403 dla curl (też dziś), cytaty tylko z odczytu narzędziem; Codex 66 (szczebel 1) to norma handlowa, nie przepis domowy",
+   "propozycja": "do-researchu",
+   "uzasadnienie": "Do ok-zrodlo brakuje dosłownego odczytu 8267 (krok właściciela: pobranie PDF w przeglądarce do repo treści). olives-v06 (faszerowane): brak źródła także w 8267 (pytanie FER 11).",
+   "liczba": 6
+  },
+  "G8-inna-rodzina": {
+   "zrodla": "—",
+   "przepis": "nie dotyczy",
+   "propozycja": "przenieść (rodzina/klaster) w partii katalogowej",
+   "uzasadnienie": "Serek z orzechów i jogurt roślinny → MLE; musztarda → przyprawy; jangajji w sosie sojowym → ACI/koji, a czosnek → FER-068; liście porzeczki → SUS; rasol (sok) → fermented-beverages; duńska rødkål to zwykle kapusta duszona z octem → ACI. Wymaga sprawdzenia przy przenosinach, nie odrzucenia.",
+   "liczba": 7
+  },
+  "G9-niskokwasowe-gęste": {
+   "zrodla": "Z04, Z05, Z13",
+   "przepis": "brak",
+   "propozycja": "do-researchu (priorytet niski)",
+   "uzasadnienie": "Surowce niskokwasowe, skrobiowe albo pasty/przeciery (gorsze przenikanie soli i kwasu); melon i arbuz niskokwasowe (ACI-156/157). Jedyne, co mamy, to wymóg pH ≤ 4,6 z pomiarem (UMN, USU) — to nie przepis.",
+   "liczba": 12
+  },
+  "G11-owoce-w-solance": {
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)",
+   "uzasadnienie": "Owoce są zwykle kwaśne, ale cukier sprzyja drożdżom (fermentacja alkoholowa); brak źródła o przebiegu i granicach. skórka banana (pineapple-banana-v05): brak jakichkolwiek danych.",
+   "liczba": 21
+  },
+  "G12-tradycje-specjalne": {
+   "zrodla": "Z04, Z06",
+   "przepis": "brak",
+   "propozycja": "do-researchu",
+   "uzasadnienie": "Takuan (otręby), brovada (wytłoki), kapary w solance 7–10%, pao cai (wieczna solanka), mieszanki — każdy ma własny proces bez przeczytanego przepisu; liczby w nazwach (7–10%) nie mają źródła.",
+   "liczba": 8
+  },
+  "G10-warzywa-metoda-ogolna": {
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu",
+   "uzasadnienie": "Metoda ogólna nie jest przetestowanym przepisem (README katalogu: ok-zrodlo = przetestowany przepis szczebla 1–3). Ścieżka: przepis z extension dla warzywa albo decyzja produktowa o karcie „metoda ogólna + obowiązkowy pomiar pH” (D-b).",
+   "liczba": 81
+  }
+ },
+ "warianty": [
+  {
+   "id": "cucumber-v02",
+   "nazwa": "małosolne",
+   "grupa": "G2-ogorki-bez-octu",
+   "zrodla": "Z02, Z03, Z14",
+   "przepis": "brak: NCHFP Dill Pickles ma ocet 5% i 1/2 szklanki soli na galon; wersji bez octu ani małosolnej nie testuje żadne przeczytane źródło",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "cucumber-v04",
+   "nazwa": "z liśćmi dębu",
+   "grupa": "G2-ogorki-bez-octu",
+   "zrodla": "Z02, Z03, Z14",
+   "przepis": "brak: NCHFP Dill Pickles ma ocet 5% i 1/2 szklanki soli na galon; wersji bez octu ani małosolnej nie testuje żadne przeczytane źródło",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "cucumber-v05",
+   "nazwa": "po kaszubsku z gorczycą",
+   "grupa": "G2-ogorki-bez-octu",
+   "zrodla": "Z02, Z03, Z14",
+   "przepis": "brak: NCHFP Dill Pickles ma ocet 5% i 1/2 szklanki soli na galon; wersji bez octu ani małosolnej nie testuje żadne przeczytane źródło",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "cucumber-v06",
+   "nazwa": "z chili i imbirem",
+   "grupa": "G2-ogorki-bez-octu",
+   "zrodla": "Z02, Z03, Z14",
+   "przepis": "brak: NCHFP Dill Pickles ma ocet 5% i 1/2 szklanki soli na galon; wersji bez octu ani małosolnej nie testuje żadne przeczytane źródło",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "cucumber-v07",
+   "nazwa": "koreańskie oi-sobagi",
+   "grupa": "G3-kimchi-poza-CSU",
+   "zrodla": "Z10, Z11, Z12",
+   "przepis": "częściowy: CSU baechu (kapusta pekińska krojona) i UGA C1362; Codex 223 tylko kapusta pekińska (skład, sól 1,0–4,0% m/m), nie metoda domowa",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "cucumber-v08",
+   "nazwa": "moskiewskie z chrzanem",
+   "grupa": "G2-ogorki-bez-octu",
+   "zrodla": "Z02, Z03, Z14",
+   "przepis": "brak: NCHFP Dill Pickles ma ocet 5% i 1/2 szklanki soli na galon; wersji bez octu ani małosolnej nie testuje żadne przeczytane źródło",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "white-cabbage-v02",
+   "nazwa": "z marchewką",
+   "grupa": "G1-kapusta-dodatek",
+   "zrodla": "Z01, Z07, Z09",
+   "przepis": "częściowy: NCHFP/Wisconsin testują tylko kapustę (białą/zieloną, Wisconsin też czerwoną) z solą; dodatek albo inny surowiec poza przepisem",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "white-cabbage-v04",
+   "nazwa": "w całych główkach (sarma)",
+   "grupa": "G1-kapusta-dodatek",
+   "zrodla": "Z01, Z07, Z09",
+   "przepis": "częściowy: NCHFP/Wisconsin testują tylko kapustę (białą/zieloną, Wisconsin też czerwoną) z solą; dodatek albo inny surowiec poza przepisem",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "white-cabbage-v05",
+   "nazwa": "z kurkumą i imbirem (goldkraut)",
+   "grupa": "G1-kapusta-dodatek",
+   "zrodla": "Z01, Z07, Z09",
+   "przepis": "częściowy: NCHFP/Wisconsin testują tylko kapustę (białą/zieloną, Wisconsin też czerwoną) z solą; dodatek albo inny surowiec poza przepisem",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "white-cabbage-v06",
+   "nazwa": "z jabłkiem",
+   "grupa": "G1-kapusta-dodatek",
+   "zrodla": "Z01, Z07, Z09",
+   "przepis": "częściowy: NCHFP/Wisconsin testują tylko kapustę (białą/zieloną, Wisconsin też czerwoną) z solą; dodatek albo inny surowiec poza przepisem",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "white-cabbage-v07",
+   "nazwa": "z żurawiną",
+   "grupa": "G1-kapusta-dodatek",
+   "zrodla": "Z01, Z07, Z09",
+   "przepis": "częściowy: NCHFP/Wisconsin testują tylko kapustę (białą/zieloną, Wisconsin też czerwoną) z solą; dodatek albo inny surowiec poza przepisem",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "white-cabbage-v08",
+   "nazwa": "bałkański rasol (sok z kiszenia)",
+   "grupa": "G8-inna-rodzina",
+   "zrodla": "—",
+   "przepis": "nie dotyczy",
+   "propozycja": "przenieść (rodzina/klaster) w partii katalogowej"
+  },
+  {
+   "id": "white-cabbage-v09",
+   "nazwa": "salwadorskie curtido z oregano",
+   "grupa": "G1-kapusta-dodatek",
+   "zrodla": "Z01, Z07, Z09",
+   "przepis": "częściowy: NCHFP/Wisconsin testują tylko kapustę (białą/zieloną, Wisconsin też czerwoną) z solą; dodatek albo inny surowiec poza przepisem",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "red-savoy-cabbage-v01",
+   "nazwa": "czerwona kiszona z jabłkiem",
+   "grupa": "G1-kapusta-dodatek",
+   "zrodla": "Z01, Z07, Z09",
+   "przepis": "częściowy: NCHFP/Wisconsin testują tylko kapustę (białą/zieloną, Wisconsin też czerwoną) z solą; dodatek albo inny surowiec poza przepisem",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "red-savoy-cabbage-v02",
+   "nazwa": "kiszona z burakiem i chrzanem",
+   "grupa": "G1-kapusta-dodatek",
+   "zrodla": "Z01, Z07, Z09",
+   "przepis": "częściowy: NCHFP/Wisconsin testują tylko kapustę (białą/zieloną, Wisconsin też czerwoną) z solą; dodatek albo inny surowiec poza przepisem",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "red-savoy-cabbage-v04",
+   "nazwa": "duńska rødkål w porzeczkach",
+   "grupa": "G8-inna-rodzina",
+   "zrodla": "—",
+   "przepis": "nie dotyczy",
+   "propozycja": "przenieść (rodzina/klaster) w partii katalogowej"
+  },
+  {
+   "id": "red-savoy-cabbage-v06",
+   "nazwa": "włoska kiszona",
+   "grupa": "G1-kapusta-dodatek",
+   "zrodla": "Z01, Z07, Z09",
+   "przepis": "częściowy: NCHFP/Wisconsin testują tylko kapustę (białą/zieloną, Wisconsin też czerwoną) z solą; dodatek albo inny surowiec poza przepisem",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "napa-cabbage-v01",
+   "nazwa": "tradycyjne kimchi (tongbaechu)",
+   "grupa": "G3-kimchi-poza-CSU",
+   "zrodla": "Z10, Z11, Z12",
+   "przepis": "częściowy: CSU baechu (kapusta pekińska krojona) i UGA C1362; Codex 223 tylko kapusta pekińska (skład, sól 1,0–4,0% m/m), nie metoda domowa",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "napa-cabbage-v02",
+   "nazwa": "białe łagodne baek-kimchi",
+   "grupa": "G3-kimchi-poza-CSU",
+   "zrodla": "Z10, Z11, Z12",
+   "przepis": "częściowy: CSU baechu (kapusta pekińska krojona) i UGA C1362; Codex 223 tylko kapusta pekińska (skład, sól 1,0–4,0% m/m), nie metoda domowa",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "napa-cabbage-v03",
+   "nazwa": "szybkie wodne mul-kimchi",
+   "grupa": "G3-kimchi-poza-CSU",
+   "zrodla": "Z10, Z11, Z12",
+   "przepis": "częściowy: CSU baechu (kapusta pekińska krojona) i UGA C1362; Codex 223 tylko kapusta pekińska (skład, sól 1,0–4,0% m/m), nie metoda domowa",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "napa-cabbage-v04",
+   "nazwa": "bossam-kimchi z owocami",
+   "grupa": "G3-kimchi-poza-CSU",
+   "zrodla": "Z10, Z11, Z12",
+   "przepis": "częściowy: CSU baechu (kapusta pekińska krojona) i UGA C1362; Codex 223 tylko kapusta pekińska (skład, sól 1,0–4,0% m/m), nie metoda domowa",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "napa-cabbage-v06",
+   "nazwa": "pak choi kimchi",
+   "grupa": "G3-kimchi-poza-CSU",
+   "zrodla": "Z10, Z11, Z12",
+   "przepis": "częściowy: CSU baechu (kapusta pekińska krojona) i UGA C1362; Codex 223 tylko kapusta pekińska (skład, sól 1,0–4,0% m/m), nie metoda domowa",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "cauliflower-v01",
+   "nazwa": "kiszony z czosnkiem i koprem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "cauliflower-v02",
+   "nazwa": "różowy kiszony z burakiem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "cauliflower-v03",
+   "nazwa": "żółty kiszony z kurkumą",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "cauliflower-v07",
+   "nazwa": "po meksykańsku z jalapeno",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "broccoli-v01",
+   "nazwa": "brokuł kiszony z czosnkiem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "broccoli-v02",
+   "nazwa": "kiszone łodygi brokuła w słupkach",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "broccoli-v03",
+   "nazwa": "romanesco kiszone z cytryną",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "broccoli-v06",
+   "nazwa": "z płatkami chili",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "brussels-kohlrabi-v01",
+   "nazwa": "brukselka kiszona w całości",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "brussels-kohlrabi-v02",
+   "nazwa": "brukselka kiszona z chrzanem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "brussels-kohlrabi-v03",
+   "nazwa": "kimchi z brukselki",
+   "grupa": "G3-kimchi-poza-CSU",
+   "zrodla": "Z10, Z11, Z12",
+   "przepis": "częściowy: CSU baechu (kapusta pekińska krojona) i UGA C1362; Codex 223 tylko kapusta pekińska (skład, sól 1,0–4,0% m/m), nie metoda domowa",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "brussels-kohlrabi-v04",
+   "nazwa": "kalarepa kiszona w słupkach",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "brussels-kohlrabi-v05",
+   "nazwa": "kalarepa tarta kiszona (turnip kraut)",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "brussels-kohlrabi-v06",
+   "nazwa": "kiszona kalarepa z jabłkiem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "zucchini-v01",
+   "nazwa": "młode cukinie kiszone jak ogórki",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "zucchini-v06",
+   "nazwa": "z chili i czosnkiem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "pattypan-squash-v01",
+   "nazwa": "mini patisony kiszone z koprem i czosnkiem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "pattypan-squash-v05",
+   "nazwa": "pikantne z papryczką chili",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "pumpkin-v01",
+   "nazwa": "dynia kiszona z imbirem i pomarańczą",
+   "grupa": "G9-niskokwasowe-gęste",
+   "zrodla": "Z04, Z05, Z13",
+   "przepis": "brak",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "pumpkin-v02",
+   "nazwa": "kiszona z czosnkiem i rozmarynem",
+   "grupa": "G9-niskokwasowe-gęste",
+   "zrodla": "Z04, Z05, Z13",
+   "przepis": "brak",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "pumpkin-v06",
+   "nazwa": "po koreańsku",
+   "grupa": "G3-kimchi-poza-CSU",
+   "zrodla": "Z10, Z11, Z12",
+   "przepis": "częściowy: CSU baechu (kapusta pekińska krojona) i UGA C1362; Codex 223 tylko kapusta pekińska (skład, sól 1,0–4,0% m/m), nie metoda domowa",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "leafy-greens-v01",
+   "nazwa": "boćwina kiszona na chłodnik",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "leafy-greens-v02",
+   "nazwa": "łodygi boćwiny kiszone",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "leafy-greens-v04",
+   "nazwa": "jarmuż kiszony z czosnkiem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "leafy-greens-v05",
+   "nazwa": "kimchi z liści jarmużu i boćwiny",
+   "grupa": "G3-kimchi-poza-CSU",
+   "zrodla": "Z10, Z11, Z12",
+   "przepis": "częściowy: CSU baechu (kapusta pekińska krojona) i UGA C1362; Codex 223 tylko kapusta pekińska (skład, sól 1,0–4,0% m/m), nie metoda domowa",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "vine-leaves-greens-v01",
+   "nazwa": "liście winogron kiszone w solance (do dolmy)",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "vine-leaves-greens-v03",
+   "nazwa": "sałata łodygowa (celtuce) kiszona",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "vine-leaves-greens-v05",
+   "nazwa": "liście chrzanu kiszone",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "tomato-v01",
+   "nazwa": "pomidory kiszone w całości z koprem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "tomato-v02",
+   "nazwa": "kiszone z bazylią i czosnkiem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "tomato-v03",
+   "nazwa": "kiszone z gorczycą",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "tomato-v04",
+   "nazwa": "przecier z kiszonych pomidorów",
+   "grupa": "G9-niskokwasowe-gęste",
+   "zrodla": "Z04, Z05, Z13",
+   "przepis": "brak",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "green-cherry-tomato-v01",
+   "nazwa": "zielone pomidory kiszone po gruzińsku (faszerowane ziołami)",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "green-cherry-tomato-v02",
+   "nazwa": "zielone kiszone klasyczne",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "green-cherry-tomato-v04",
+   "nazwa": "koktajlowe kiszone (gazujące)",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "bell-pepper-v03",
+   "nazwa": "kiszona w paskach z czosnkiem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "bell-pepper-v04",
+   "nazwa": "kiszona faszerowana kapustą",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "bell-pepper-v06",
+   "nazwa": "węgierska alma nadziewana",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "bell-pepper-v08",
+   "nazwa": "z gorczycą",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "chili-pepper-v01",
+   "nazwa": "fermentowany sos sriracha",
+   "grupa": "G4-sosy-pasty-chili",
+   "zrodla": "Z15, Z16, Z17",
+   "przepis": "brak: Ask Extension „no specific recipe” dla fermentowanego sosu z chili; SDSU wymaga pH < 4,6, dodatku kwasu i zagotowania",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "chili-pepper-v02",
+   "nazwa": "sos typu tabasco (wieloletni)",
+   "grupa": "G4-sosy-pasty-chili",
+   "zrodla": "Z15, Z16, Z17",
+   "przepis": "brak: Ask Extension „no specific recipe” dla fermentowanego sosu z chili; SDSU wymaga pH < 4,6, dodatku kwasu i zagotowania",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "chili-pepper-v03",
+   "nazwa": "pasta sambal oelek",
+   "grupa": "G4-sosy-pasty-chili",
+   "zrodla": "Z15, Z16, Z17",
+   "przepis": "brak: Ask Extension „no specific recipe” dla fermentowanego sosu z chili; SDSU wymaga pH < 4,6, dodatku kwasu i zagotowania",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "chili-pepper-v06",
+   "nazwa": "habanero z mango (fermentowane)",
+   "grupa": "G4-sosy-pasty-chili",
+   "zrodla": "Z15, Z16, Z17",
+   "przepis": "brak: Ask Extension „no specific recipe” dla fermentowanego sosu z chili; SDSU wymaga pH < 4,6, dodatku kwasu i zagotowania",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "chili-pepper-v07",
+   "nazwa": "kiszone całe czereśniowe",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "chili-pepper-v09",
+   "nazwa": "gruzińska adżyka",
+   "grupa": "G4-sosy-pasty-chili",
+   "zrodla": "Z15, Z16, Z17",
+   "przepis": "brak: Ask Extension „no specific recipe” dla fermentowanego sosu z chili; SDSU wymaga pH < 4,6, dodatku kwasu i zagotowania",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "eggplant-v01",
+   "nazwa": "bakłażan kiszony faszerowany marchewką i czosnkiem (po ukraińsku)",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "eggplant-v05",
+   "nazwa": "kiszony w kostkę",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "potato-sunchoke-v01",
+   "nazwa": "topinambur kiszony z koprem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "potato-sunchoke-v02",
+   "nazwa": "topinambur kiszony z imbirem i kurkumą",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "potato-sunchoke-v04",
+   "nazwa": "ziemniaki kiszone w plastrach (pod frytki)",
+   "grupa": "G9-niskokwasowe-gęste",
+   "zrodla": "Z04, Z05, Z13",
+   "przepis": "brak",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "potato-sunchoke-v06",
+   "nazwa": "topinambur z chili",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "tomatillo-v01",
+   "nazwa": "tomatillo kiszone w całości z kolendrą i jalapeno",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "tomatillo-v03",
+   "nazwa": "fermentowana meksykańska salsa verde",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "green-beans-v01",
+   "nazwa": "kiszona z koprem i czosnkiem (dilly beans)",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "green-beans-v02",
+   "nazwa": "kiszona na ostro z chili",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "green-beans-v03",
+   "nazwa": "kiszona z cząbrem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "green-beans-v06",
+   "nazwa": "po gruzińsku z orzechami",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "peas-chickpeas-v01",
+   "nazwa": "młody bób kiszony z koprem",
+   "grupa": "G9-niskokwasowe-gęste",
+   "zrodla": "Z04, Z05, Z13",
+   "przepis": "brak",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "peas-chickpeas-v02",
+   "nazwa": "strąki groszku cukrowego kiszone",
+   "grupa": "G9-niskokwasowe-gęste",
+   "zrodla": "Z04, Z05, Z13",
+   "przepis": "brak",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "peas-chickpeas-v05",
+   "nazwa": "fermentowana pasta z ciecierzycy",
+   "grupa": "G9-niskokwasowe-gęste",
+   "zrodla": "Z04, Z05, Z13",
+   "przepis": "brak",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "beetroot-v03",
+   "nazwa": "buraki kiszone w plastrach",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "beetroot-v04",
+   "nazwa": "kiszone z kapustą",
+   "grupa": "G1-kapusta-dodatek",
+   "zrodla": "Z01, Z07, Z09",
+   "przepis": "częściowy: NCHFP/Wisconsin testują tylko kapustę (białą/zieloną, Wisconsin też czerwoną) z solą; dodatek albo inny surowiec poza przepisem",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "beetroot-v05",
+   "nazwa": "ćwikła z chrzanem na ostro",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "carrot-v01",
+   "nazwa": "kiszona w słupkach z imbirem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "carrot-v02",
+   "nazwa": "kiszona z czosnkiem i koprem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "carrot-v03",
+   "nazwa": "kiszona z pomarańczą i kardamonem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "garlic-v05",
+   "nazwa": "marynowany w sosie sojowym (koreański jangajji)",
+   "grupa": "G8-inna-rodzina",
+   "zrodla": "—",
+   "przepis": "nie dotyczy",
+   "propozycja": "przenieść (rodzina/klaster) w partii katalogowej"
+  },
+  {
+   "id": "onion-v01",
+   "nazwa": "cebula kiszona w krążkach",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "onion-v02",
+   "nazwa": "kiszona z kminkiem i majerankiem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "shallot-pearl-onion-v06",
+   "nazwa": "perłowe z miodem",
+   "grupa": "G5b-miod-warzywa-niskokwasowe",
+   "zrodla": "Z18, Z19, Z05",
+   "przepis": "brak",
+   "propozycja": "ryzyko-wysokie (kandydat, analogia do weta)"
+  },
+  {
+   "id": "shallot-pearl-onion-v07",
+   "nazwa": "kiszona szalotka",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "leek-chives-v01",
+   "nazwa": "por kiszony w krążkach z jabłkiem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "leek-chives-v02",
+   "nazwa": "kimchi z pora i dymki (pa-kimchi)",
+   "grupa": "G3-kimchi-poza-CSU",
+   "zrodla": "Z10, Z11, Z12",
+   "przepis": "częściowy: CSU baechu (kapusta pekińska krojona) i UGA C1362; Codex 223 tylko kapusta pekińska (skład, sól 1,0–4,0% m/m), nie metoda domowa",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "leek-chives-v05",
+   "nazwa": "dymka kiszona w całości",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "daikon-black-radish-v01",
+   "nazwa": "koreańskie kimchi w kostkę (kkakdugi)",
+   "grupa": "G3-kimchi-poza-CSU",
+   "zrodla": "Z10, Z11, Z12",
+   "przepis": "częściowy: CSU baechu (kapusta pekińska krojona) i UGA C1362; Codex 223 tylko kapusta pekińska (skład, sól 1,0–4,0% m/m), nie metoda domowa",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "daikon-black-radish-v02",
+   "nazwa": "japoński żółty takuan (w otrębach i kurkumie)",
+   "grupa": "G12-tradycje-specjalne",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "daikon-black-radish-v05",
+   "nazwa": "czarna rzodkiew kiszona",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "daikon-black-radish-v06",
+   "nazwa": "dongchimi (wodne kimchi)",
+   "grupa": "G3-kimchi-poza-CSU",
+   "zrodla": "Z10, Z11, Z12",
+   "przepis": "częściowy: CSU baechu (kapusta pekińska krojona) i UGA C1362; Codex 223 tylko kapusta pekińska (skład, sól 1,0–4,0% m/m), nie metoda domowa",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "daikon-black-radish-v08",
+   "nazwa": "z chili",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "radish-v01",
+   "nazwa": "rzodkiewka kiszona w całości z czosnkiem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "radish-v02",
+   "nazwa": "kiszona w plastrach z koprem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "radish-v06",
+   "nazwa": "kimchi z rzodkiewki wraz z liśćmi (chonggak)",
+   "grupa": "G3-kimchi-poza-CSU",
+   "zrodla": "Z10, Z11, Z12",
+   "przepis": "częściowy: CSU baechu (kapusta pekińska krojona) i UGA C1362; Codex 223 tylko kapusta pekińska (skład, sól 1,0–4,0% m/m), nie metoda domowa",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "radish-v07",
+   "nazwa": "kiszona z miodem",
+   "grupa": "G5b-miod-warzywa-niskokwasowe",
+   "zrodla": "Z18, Z19, Z05",
+   "przepis": "brak",
+   "propozycja": "ryzyko-wysokie (kandydat, analogia do weta)"
+  },
+  {
+   "id": "radish-v11",
+   "nazwa": "fermentowana pasta z rzodkiewki i chili",
+   "grupa": "G4-sosy-pasty-chili",
+   "zrodla": "Z15, Z16, Z17",
+   "przepis": "brak: Ask Extension „no specific recipe” dla fermentowanego sosu z chili; SDSU wymaga pH < 4,6, dodatku kwasu i zagotowania",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "horseradish-v03",
+   "nazwa": "chrzan kiszony w słupkach i tarty",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "celeriac-celery-v02",
+   "nazwa": "seler korzeniowy kiszony w słupkach",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "celeriac-celery-v04",
+   "nazwa": "seler naciowy kiszony z cytryną",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "parsnip-parsley-v01",
+   "nazwa": "pasternak kiszony z pomarańczą i rozmarynem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "parsnip-parsley-v02",
+   "nazwa": "pietruszka kiszona z czosnkiem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "turnip-rutabaga-v01",
+   "nazwa": "bliskowschodnia różowa rzepa kiszona z burakiem (torshi lift)",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "turnip-rutabaga-v02",
+   "nazwa": "włoska brovada (rzepa fermentowana w wytłokach winogronowych)",
+   "grupa": "G12-tradycje-specjalne",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "turnip-rutabaga-v03",
+   "nazwa": "rzepa kiszona szatkowana (sauerrüben)",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "turnip-rutabaga-v04",
+   "nazwa": "brukiew kiszona z kminkiem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "turnip-rutabaga-v06",
+   "nazwa": "rzepa z chili",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "asparagus-v01",
+   "nazwa": "zielone szparagi kiszone z koprem i czosnkiem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "asparagus-v02",
+   "nazwa": "białe szparagi kiszone z cytryną",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "fennel-artichoke-v01",
+   "nazwa": "fenkuł kiszony z pomarańczą i pieprzem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "fennel-artichoke-v04",
+   "nazwa": "kiszone serca karczochów",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "fennel-artichoke-v05",
+   "nazwa": "łodygi fenkułu w solance",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "corn-v02",
+   "nazwa": "kolby mini kiszone z chili",
+   "grupa": "G9-niskokwasowe-gęste",
+   "zrodla": "Z04, Z05, Z13",
+   "przepis": "brak",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "corn-v05",
+   "nazwa": "kiszona kukurydza na kolbie (styl apallachijski)",
+   "grupa": "G9-niskokwasowe-gęste",
+   "zrodla": "Z04, Z05, Z13",
+   "przepis": "brak",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "olives-v01",
+   "nazwa": "zielone oliwki rozbijane w solance z fenkułem",
+   "grupa": "G7-oliwki",
+   "zrodla": "Z20, (UC ANR 8267: 403)",
+   "przepis": "częściowy: UC ANR 8267 (szczebel 3) — PDF zwraca 403 dla curl (też dziś), cytaty tylko z odczytu narzędziem; Codex 66 (szczebel 1) to norma handlowa, nie przepis domowy",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "olives-v02",
+   "nazwa": "hiszpańskie manzanilla (ługowane i fermentowane)",
+   "grupa": "G7-oliwki",
+   "zrodla": "Z20, (UC ANR 8267: 403)",
+   "przepis": "częściowy: UC ANR 8267 (szczebel 3) — PDF zwraca 403 dla curl (też dziś), cytaty tylko z odczytu narzędziem; Codex 66 (szczebel 1) to norma handlowa, nie przepis domowy",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "olives-v03",
+   "nazwa": "greckie kalamata w solance i occie winnym",
+   "grupa": "G7-oliwki",
+   "zrodla": "Z20, (UC ANR 8267: 403)",
+   "przepis": "częściowy: UC ANR 8267 (szczebel 3) — PDF zwraca 403 dla curl (też dziś), cytaty tylko z odczytu narzędziem; Codex 66 (szczebel 1) to norma handlowa, nie przepis domowy",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "olives-v04",
+   "nazwa": "sycylijskie castelvetrano",
+   "grupa": "G7-oliwki",
+   "zrodla": "Z20, (UC ANR 8267: 403)",
+   "przepis": "częściowy: UC ANR 8267 (szczebel 3) — PDF zwraca 403 dla curl (też dziś), cytaty tylko z odczytu narzędziem; Codex 66 (szczebel 1) to norma handlowa, nie przepis domowy",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "olives-v06",
+   "nazwa": "faszerowane papryką lub migdałem",
+   "grupa": "G7-oliwki",
+   "zrodla": "Z20, (UC ANR 8267: 403)",
+   "przepis": "częściowy: UC ANR 8267 (szczebel 3) — PDF zwraca 403 dla curl (też dziś), cytaty tylko z odczytu narzędziem; Codex 66 (szczebel 1) to norma handlowa, nie przepis domowy",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "olives-v07",
+   "nazwa": "fermentowane naturalnie przez rok",
+   "grupa": "G7-oliwki",
+   "zrodla": "Z20, (UC ANR 8267: 403)",
+   "przepis": "częściowy: UC ANR 8267 (szczebel 3) — PDF zwraca 403 dla curl (też dziś), cytaty tylko z odczytu narzędziem; Codex 66 (szczebel 1) to norma handlowa, nie przepis domowy",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "capers-v02",
+   "nazwa": "kapary w solance (7–10%)",
+   "grupa": "G12-tradycje-specjalne",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "capers-v05",
+   "nazwa": "kiszone młode liście kaparowca",
+   "grupa": "G12-tradycje-specjalne",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "ginger-turmeric-v04",
+   "nazwa": "imbir kiszony w plastrach",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "ginger-turmeric-v05",
+   "nazwa": "świeża kurkuma kiszona z czarnym pieprzem",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "european-mixed-veg-v02",
+   "nazwa": "giardiniera kiszona (fermentowana)",
+   "grupa": "G12-tradycje-specjalne",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "balkan-oriental-mix-v01",
+   "nazwa": "bałkańska turšija (kiszona mieszanka jesienna w beczce/słoju)",
+   "grupa": "G12-tradycje-specjalne",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "balkan-oriental-mix-v04",
+   "nazwa": "egipskie torshi z rzepą i marchewką",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "balkan-oriental-mix-v05",
+   "nazwa": "rumuńskie murături",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "balkan-oriental-mix-v06",
+   "nazwa": "tureckie karışık turşu",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "balkan-oriental-mix-v07",
+   "nazwa": "ormiańskie kiszonki",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "asian-american-mix-v01",
+   "nazwa": "syczuańskie pao cai (wieczna solanka z pieprzem syczuańskim)",
+   "grupa": "G12-tradycje-specjalne",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "asian-american-mix-v02",
+   "nazwa": "japońskie tsukemono wielowarzywne",
+   "grupa": "G12-tradycje-specjalne",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "apple-v02",
+   "nazwa": "jabłka kiszone w całości (styl wschodni, np. antonówki z liśćmi porzeczki)",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "apple-v03",
+   "nazwa": "jabłka kiszone z kapustą",
+   "grupa": "G1-kapusta-dodatek",
+   "zrodla": "Z01, Z07, Z09",
+   "przepis": "częściowy: NCHFP/Wisconsin testują tylko kapustę (białą/zieloną, Wisconsin też czerwoną) z solą; dodatek albo inny surowiec poza przepisem",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "apple-v05",
+   "nazwa": "kiszony mus jabłkowy",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "pear-v02",
+   "nazwa": "gruszki kiszone w solance z rozmarynem",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "pear-v06",
+   "nazwa": "gruszki fermentowane z miodem",
+   "grupa": "G5a-miod-owoce",
+   "zrodla": "Z18",
+   "przepis": "brak: jedyne przeczytane źródło (K-State) dotyczy czosnku w miodzie",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "quince-v01",
+   "nazwa": "pigwa kiszona w plastrach z miodem",
+   "grupa": "G5a-miod-owoce",
+   "zrodla": "Z18",
+   "przepis": "brak: jedyne przeczytane źródło (K-State) dotyczy czosnku w miodzie",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "plum-v02",
+   "nazwa": "śliwki kiszone w solance z czosnkiem",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "plum-v08",
+   "nazwa": "kiszony sos śliwkowo-chili",
+   "grupa": "G4-sosy-pasty-chili",
+   "zrodla": "Z15, Z16, Z17",
+   "przepis": "brak: Ask Extension „no specific recipe” dla fermentowanego sosu z chili; SDSU wymaga pH < 4,6, dodatku kwasu i zagotowania",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "mirabelle-v01",
+   "nazwa": "zielona ałycza w solance (niedojrzała, a la oliwki)",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "mirabelle-v04",
+   "nazwa": "kiszona mirabelka z imbirem",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "sour-cherry-v02",
+   "nazwa": "wiśnie kiszone z estragonem",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "sour-cherry-v03",
+   "nazwa": "zielone niedojrzałe wiśnie w solance",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "sour-cherry-v06",
+   "nazwa": "wiśnie fermentowane w miodzie",
+   "grupa": "G5a-miod-owoce",
+   "zrodla": "Z18",
+   "przepis": "brak: jedyne przeczytane źródło (K-State) dotyczy czosnku w miodzie",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "sweet-cherry-v02",
+   "nazwa": "czereśnie kiszone z cytryną",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "peach-nectarine-v03",
+   "nazwa": "brzoskwinie kiszone z bazylią",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "apricot-v03",
+   "nazwa": "morele kiszone z rozmarynem",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "cornelian-cherry-v01",
+   "nazwa": "zielony i półdojrzały dereń kiszony w solance z ziołami („polskie oliwki” dawnych dworów)",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "strawberry-v01",
+   "nazwa": "zielone niedojrzałe truskawki kiszone (jak kapary)",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "currant-v05",
+   "nazwa": "liście czarnej porzeczki kiszone lub suszone do kiszonek",
+   "grupa": "G8-inna-rodzina",
+   "zrodla": "—",
+   "przepis": "nie dotyczy",
+   "propozycja": "przenieść (rodzina/klaster) w partii katalogowej"
+  },
+  {
+   "id": "gooseberry-v02",
+   "nazwa": "agrest kiszony z koprem i czosnkiem (do ryb)",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "blueberry-bilberry-v02",
+   "nazwa": "jagody leśne fermentowane w miodzie",
+   "grupa": "G5a-miod-owoce",
+   "zrodla": "Z18",
+   "przepis": "brak: jedyne przeczytane źródło (K-State) dotyczy czosnku w miodzie",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "blueberry-bilberry-v03",
+   "nazwa": "borówki kiszone w solance (styl Noma, 2% soli)",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "cranberry-lingonberry-v04",
+   "nazwa": "żurawina kiszona z miodem i pomarańczą",
+   "grupa": "G5a-miod-owoce",
+   "zrodla": "Z18",
+   "przepis": "brak: jedyne przeczytane źródło (K-State) dotyczy czosnku w miodzie",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "chokeberry-seabuckthorn-v05",
+   "nazwa": "aronia kiszona z jabłkiem",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "grapes-v03",
+   "nazwa": "winogrona kiszone z estragonem",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "rhubarb-v01",
+   "nazwa": "rabarbar kiszony w słupkach z imbirem",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "orange-kumquat-v01",
+   "nazwa": "kumkwaty kiszone w solance z goździkami",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "orange-kumquat-v02",
+   "nazwa": "pomarańcze kiszone w plastrach z rozmarynem",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "mango-papaya-v05",
+   "nazwa": "fermentowany sos mango-habanero",
+   "grupa": "G4-sosy-pasty-chili",
+   "zrodla": "Z15, Z16, Z17",
+   "przepis": "brak: Ask Extension „no specific recipe” dla fermentowanego sosu z chili; SDSU wymaga pH < 4,6, dodatku kwasu i zagotowania",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "pineapple-banana-v05",
+   "nazwa": "kiszona skórka banana (styl brazylijski)",
+   "grupa": "G11-owoce-w-solance",
+   "zrodla": "Z04, Z06",
+   "przepis": "brak: metody ogólne UMN i K-State mówią o warzywach („produce”), żadna nie testuje owoców",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "fig-pomegranate-v05",
+   "nazwa": "figi kiszone z miodem",
+   "grupa": "G5a-miod-owoce",
+   "zrodla": "Z18",
+   "przepis": "brak: jedyne przeczytane źródło (K-State) dotyczy czosnku w miodzie",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "watermelon-melon-v01",
+   "nazwa": "cały mały arbuz kiszony w beczce lub dużym słoju (tradycja ukraińska)",
+   "grupa": "G9-niskokwasowe-gęste",
+   "zrodla": "Z04, Z05, Z13",
+   "przepis": "brak",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "watermelon-melon-v02",
+   "nazwa": "kiszona biała skórka arbuza z koprem i czosnkiem",
+   "grupa": "G9-niskokwasowe-gęste",
+   "zrodla": "Z04, Z05, Z13",
+   "przepis": "brak",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "watermelon-melon-v04",
+   "nazwa": "melon kiszony",
+   "grupa": "G9-niskokwasowe-gęste",
+   "zrodla": "Z04, Z05, Z13",
+   "przepis": "brak",
+   "propozycja": "do-researchu (priorytet niski)"
+  },
+  {
+   "id": "walnut-nuts-v02",
+   "nazwa": "zielone orzechy w solance",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "walnut-nuts-v03",
+   "nazwa": "fermentowany serek z nerkowców/migdałów",
+   "grupa": "G8-inna-rodzina",
+   "zrodla": "—",
+   "przepis": "nie dotyczy",
+   "propozycja": "przenieść (rodzina/klaster) w partii katalogowej"
+  },
+  {
+   "id": "boletes-v03",
+   "nazwa": "grzyby kiszone w solance z koprem",
+   "grupa": "G6-grzyby",
+   "zrodla": "Z05, Z13",
+   "przepis": "brak: nie znaleziono żadnego źródła szczebla 1–3 o kiszeniu grzybów w domu",
+   "propozycja": "do-researchu (priorytet: ostatni; kandydat ryzyko-wysokie po znalezieniu źródła)"
+  },
+  {
+   "id": "chanterelle-milkcap-v01",
+   "nazwa": "rydze kiszone w solance z cebulą",
+   "grupa": "G6-grzyby",
+   "zrodla": "Z05, Z13",
+   "przepis": "brak: nie znaleziono żadnego źródła szczebla 1–3 o kiszeniu grzybów w domu",
+   "propozycja": "do-researchu (priorytet: ostatni; kandydat ryzyko-wysokie po znalezieniu źródła)"
+  },
+  {
+   "id": "chanterelle-milkcap-v02",
+   "nazwa": "rydze kiszone na odrobinie maślanki/serwatki",
+   "grupa": "G6-grzyby",
+   "zrodla": "Z05, Z13",
+   "przepis": "brak: nie znaleziono żadnego źródła szczebla 1–3 o kiszeniu grzybów w domu",
+   "propozycja": "do-researchu (priorytet: ostatni; kandydat ryzyko-wysokie po znalezieniu źródła)"
+  },
+  {
+   "id": "wild-mushrooms-v02",
+   "nazwa": "opieńki kiszone z czosnkiem",
+   "grupa": "G6-grzyby",
+   "zrodla": "Z05, Z13",
+   "przepis": "brak: nie znaleziono żadnego źródła szczebla 1–3 o kiszeniu grzybów w domu",
+   "propozycja": "do-researchu (priorytet: ostatni; kandydat ryzyko-wysokie po znalezieniu źródła)"
+  },
+  {
+   "id": "wild-mushrooms-v05",
+   "nazwa": "sałatka z opieniek z papryką",
+   "grupa": "G6-grzyby",
+   "zrodla": "Z05, Z13",
+   "przepis": "brak: nie znaleziono żadnego źródła szczebla 1–3 o kiszeniu grzybów w domu",
+   "propozycja": "do-researchu (priorytet: ostatni; kandydat ryzyko-wysokie po znalezieniu źródła)"
+  },
+  {
+   "id": "cultivated-mushrooms-v03",
+   "nazwa": "boczniaki kiszone z imbirem",
+   "grupa": "G6-grzyby",
+   "zrodla": "Z05, Z13",
+   "przepis": "brak: nie znaleziono żadnego źródła szczebla 1–3 o kiszeniu grzybów w domu",
+   "propozycja": "do-researchu (priorytet: ostatni; kandydat ryzyko-wysokie po znalezieniu źródła)"
+  },
+  {
+   "id": "wild-garlic-v01",
+   "nazwa": "całe liście czosnku niedźwiedziego kiszone w solance",
+   "grupa": "G10-warzywa-metoda-ogolna",
+   "zrodla": "Z04, Z06, Z13",
+   "przepis": "brak przepisu dla warzywa; tylko metoda ogólna UMN (sól na sucho / solanka, pH ≤ 4,60) i K-State MF3491",
+   "propozycja": "do-researchu"
+  },
+  {
+   "id": "mustard-v01",
+   "nazwa": "musztarda fermentowana z całych ziaren z serwatką lub wodą z kiszonek",
+   "grupa": "G8-inna-rodzina",
+   "zrodla": "—",
+   "przepis": "nie dotyczy",
+   "propozycja": "przenieść (rodzina/klaster) w partii katalogowej"
+  },
+  {
+   "id": "yogurt-skyr-v12",
+   "nazwa": "jogurt kokosowy i sojowy na kulturach starterowych",
+   "grupa": "G8-inna-rodzina",
+   "zrodla": "—",
+   "przepis": "nie dotyczy",
+   "propozycja": "przenieść (rodzina/klaster) w partii katalogowej"
+  }
+ ]
+}
