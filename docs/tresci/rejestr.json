@@ -50699,6 +50699,81 @@
   "jednoZrodlo": true
  },
  {
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "pochodzenie": "06 p35 (tor A), po V1-C D-027 d",
+  "jednoZrodlo": true,
+  "id": "MIE-136",
+  "twierdzenie": "UGA B1437: część przepisów używa skoncentrowanej mieszanki peklującej (commercial cure, 6,25% azotynu) w małej, odmierzonej ilości, np. Fresh Thuringer: 2 łyżki (1,1 oz) na 20 funtów chudego mięsa i 5 funtów tłuszczu, obok osobno odmierzonej soli (3/4 szklanki).",
+  "twierdzenie_en": "UGA B1437: some recipes use a concentrated commercial cure (6.25% nitrite) in a small measured amount, for example Fresh Thuringer: 2 tablespoons (1.1 oz) for 20 pounds of lean meat and 5 pounds of fat, besides separately measured salt (3/4 cup).",
+  "klaster": "MIE",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "UGA Extension Bulletin 1437, s. 32, Fresh Thuringer (tabela składników)",
+    "cytat": "commercial cure (6.25% … nitrite)* … 2 Tbsp. 1.1 oz.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F (fragmenty komórek tabeli)",
+    "sha12": "a5ab2d48cb28"
+   },
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "tamże, składniki",
+    "cytat": "20 pounds of lean meat … 5 pounds of pork or beef fat",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout + grep -F",
+    "sha12": "a5ab2d48cb28"
+   }
+  ]
+ },
+ {
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "pochodzenie": "06 p35 (tor A), po V1-C D-027 d",
+  "jednoZrodlo": true,
+  "id": "MIE-137",
+  "twierdzenie": "FDA (Refrigerator & Freezer Storage Chart, lodówka 40°F (4°C)): surowa kiełbasa z wieprzowiny, wołowiny, kurczaka lub indyka 1–2 dni; ugotowane mięso i dania mięsne 3–4 dni.",
+  "twierdzenie_en": "FDA (Refrigerator & Freezer Storage Chart, refrigerator at 40°F (4°C)): raw sausage from pork, beef, chicken or turkey 1–2 days; cooked meat and meat dishes 3–4 days.",
+  "klaster": "MIE",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/74435/download",
+    "miejsce": "FDA Refrigerator & Freezer Storage Chart, nagłówek",
+    "cytat": "These short but safe time limits will help keep refrigerated food 40° F (4° C) from spoiling or becoming dangerous.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext + grep -F",
+    "sha12": "f987330d7e8a"
+   },
+   {
+    "adres": "https://www.fda.gov/media/74435/download",
+    "miejsce": "tamże, Bacon & Sausage (komórki tabeli)",
+    "cytat": "Sausage, raw from pork, … beef, chicken or turkey 1 - 2 days",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext -layout, normalizacja spacji + grep -F",
+    "sha12": "f987330d7e8a"
+   },
+   {
+    "adres": "https://www.fda.gov/media/74435/download",
+    "miejsce": "tamże, Leftovers",
+    "cytat": "Cooked meat & meat dishes 3 - 4 days",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext -layout, normalizacja spacji + grep -F",
+    "sha12": "f987330d7e8a"
+   }
+  ]
+ },
+ {
   "id": "MIE-138",
   "twierdzenie": "UGA B1437: kiełbasa świeża jest z mięsa mielonego grubo lub drobno, z przyprawami, w osłonkach, luzem albo w formie kotletów; musi być trzymana w lodówce i dokładnie ugotowana przed jedzeniem; przykłady: świeża kiełbasa wieprzowa śniadaniowa, kiełbasa włoska i większość bratwurst. Produkty mięsne trzyma się w lodówce, w 40°F lub niżej (ok. 4°C), także surowe mięso i składniki podczas pracy (sprawdzać termometrem); gotowy produkt, jeśli nie będzie od razu gotowany lub wędzony, wraca do lodówki zaraz po zrobieniu; większość kiełbas uznaje się za w pełni ugotowane przy temperaturze wewnętrznej 160°F (ok. 71°C).",
   "twierdzenie_en": "UGA B1437: fresh sausage is made from coarsely or finely ground meat mixed with seasonings, stuffed into casings, packed in bulk or pressed into patties; it must be refrigerated and thoroughly cooked before eating; examples are fresh pork breakfast sausage, Italian sausage and most bratwurst. Meat products are kept refrigerated at 40°F or below (about 4°C), including raw meat and ingredients while you work (check with a thermometer); a finished product that will not be cooked or smoked right away goes back into the refrigerator as soon as it is made; most sausages are considered fully cooked at an internal temperature of 160°F (about 71°C).",
@@ -50913,8 +50988,8 @@
  },
  {
   "id": "MIE-142",
-  "twierdzenie": "Reguła JarAtlas (ostrożna) dla kiełbas: UGA B1437 ma przepisy na kiełbasy świeże (m.in. Fresh Pork Sausage, Italian Style Pork Sausage, Bratwurst), ale nie ma przepisu na białą kiełbasę ani na chorizo; karty tych wariantów nie podają składu ani przypraw, tylko zasady bezpieczeństwa kiełbasy świeżej. Przepisy UGA kończą gotowanie niżej (bratwurst 155°F, kiełbasa polska 150°F), a ta sama publikacja podaje 160°F jako ogólne zalecenie (MIE-021), więc karty podają 160°F (ok. 71°C), mierzone termometrem. Ugotowany bratwurst bez azotynu karta traktuje jak kiełbasę świeżą: lodówka 7–10 dni (MIE-028), nie 2–4 tygodnie podane dla kiełbas wędzonych z solą i azotynem (MIE-029). Czystego azotanu ani azotynu nie odważać w domu; tylko gotowa mieszanka peklująca (MIE-012, MIE-140).",
-  "twierdzenie_en": "JarAtlas rule (cautious) for sausages: UGA B1437 has fresh sausage recipes (including Fresh Pork Sausage, Italian Style Pork Sausage and Bratwurst) but no recipe for Polish white sausage or for chorizo; the cards for these variants give no ingredients or spices, only the safety rules for fresh sausage. The UGA recipes stop cooking lower (bratwurst 155°F, Polish sausage 150°F), while the same bulletin gives 160°F as the general recommendation (MIE-021), so the cards give 160°F (about 71°C), measured with a thermometer. The card treats cooked bratwurst without nitrite as fresh sausage: 7–10 days in the refrigerator (MIE-028), not the 2–4 weeks given for smoked sausages with salt and nitrite (MIE-029). Do not weigh pure nitrate or nitrite at home; use only a commercial premixed cure (MIE-012, MIE-140).",
+  "twierdzenie": "Reguła JarAtlas (ostrożna) dla kiełbas: UGA B1437 ma przepisy na kiełbasy świeże (m.in. Fresh Pork Sausage, Italian Style Pork Sausage, Bratwurst), ale nie ma przepisu na białą kiełbasę ani na chorizo; karty tych wariantów nie podają składu ani przypraw, tylko zasady bezpieczeństwa kiełbasy świeżej. Przepisy UGA kończą gotowanie niżej (bratwurst 155°F, kiełbasa polska 150°F), a ta sama publikacja podaje 160°F jako ogólne zalecenie (MIE-021), więc karty podają 160°F (ok. 71°C), mierzone termometrem. Ugotowany bratwurst bez azotynu karta traktuje jak ugotowane mięso według FDA: lodówka 3–4 dni (MIE-137), nie 2–4 tygodnie podane dla kiełbas wędzonych z solą i azotynem (MIE-029). Czystego azotanu ani azotynu nie odważać w domu; tylko gotowa mieszanka peklująca (MIE-012, MIE-140).",
+  "twierdzenie_en": "JarAtlas rule (cautious) for sausages: UGA B1437 has fresh sausage recipes (including Fresh Pork Sausage, Italian Style Pork Sausage and Bratwurst) but no recipe for Polish white sausage or for chorizo; the cards for these variants give no ingredients or spices, only the safety rules for fresh sausage. The UGA recipes stop cooking lower (bratwurst 155°F, Polish sausage 150°F), while the same bulletin gives 160°F as the general recommendation (MIE-021), so the cards give 160°F (about 71°C), measured with a thermometer. The card treats cooked bratwurst without nitrite as cooked meat according to the FDA: 3–4 days in the refrigerator (MIE-137), not the 2–4 weeks given for smoked sausages with salt and nitrite (MIE-029). Do not weigh pure nitrate or nitrite at home; use only a commercial premixed cure (MIE-012, MIE-140).",
   "zrodla": [
    {
     "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
@@ -60779,6 +60854,48 @@
   "twierdzenie_en": "Ball \"Ginger Pear Marmalade\" (reprinted by UCCE MFP Lassen): let the pears with lime juice, sugar and ginger stand for 1 h; full boil 15 min, add the peel, cook to the gel point (about 5 min); 1/4 inch (about 0.6 cm) headspace; process 10 min in a boiling water canner (elevation not given).",
   "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "pochodzenie": "06 p35 (tor A), po V1-C D-027 d",
+  "jednoZrodlo": true,
+  "id": "SLO-820",
+  "twierdzenie": "FDA: kobiety w ciąży, dzieci, osoby starsze i osoby z osłabioną odpornością powinny unikać surowych lub niedogotowanych ryb i owoców morza oraz wędzonych owoców morza przechowywanych w lodówce (np. łosoś, pstrąg, sieja, makrela), chyba że w potrawie gotowanej.",
+  "twierdzenie_en": "FDA: pregnant women, children, older adults and people with weakened immune systems should avoid raw or undercooked fish and shellfish, and refrigerated smoked seafood (such as salmon, trout, whitefish or mackerel) except in a cooked recipe.",
+  "klaster": "SLO",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+    "miejsce": "FDA, Selecting and Serving Fresh and Frozen Seafood Safely, Special Health Notes: At-Risk Groups",
+    "cytat": "These susceptible groups should avoid the following foods: Raw or undercooked fish or shellfish, or food containing raw or undercooked seafood (for example, sashimi) found in some sushi or ceviche.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników)",
+    "sha12": "3d409e5d3cd0"
+   },
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+    "miejsce": "tamże",
+    "cytat": "Refrigerated types of smoked seafood except in a cooked recipe, such as a casserole. Refrigerated smoked seafood (such as salmon, trout, whitefish, cod, tuna, or mackerel) is usually labeled as \"nova-style,\" \"lox,\" \"kippered,\" \"smoked,\" or \"jerky.\"",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników)",
+    "sha12": "3d409e5d3cd0"
+   },
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+    "miejsce": "tamże",
+    "cytat": "These groups include: Pregnant women Children Older adults Persons with weakened immune systems",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, elementy listy)",
+    "sha12": "3d409e5d3cd0"
+   }
+  ]
  },
  {
   "id": "SLO-840",

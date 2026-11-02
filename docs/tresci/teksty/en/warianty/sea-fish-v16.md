@@ -90,7 +90,7 @@ Take the fish out of the smoker at once and let it cool at room temperature for 
 
 Then wrap it in butcher paper or cover it, and refrigerate it. [T:MIE-146]
 
-Keep smoked fish in the refrigerator at 40 °F or below for no longer than 2 weeks, or freeze it for up to 4 months. [T:MIE-073]
+Keep smoked fish in the refrigerator at 40 °F or below for no longer than 2 weeks, or freeze it for up to 4 months. [T:MIE-073,MIE-074]
 
 Wisconsin Sea Grant allows up to a month in the refrigerator, but this card uses the shorter limit of 2 weeks from University of Idaho. [T:MIE-073,MIE-074]
 
@@ -101,3 +101,7 @@ Smoking does not keep fish from spoiling. [T:MIE-143]
 Throw away smoked fish that has been in the refrigerator for more than 2 weeks. [T:MIE-074]
 
 Do not keep smoked fish out of the refrigerator for more than 2 hours, or for more than 1 hour when the temperature is above 90 °F (about 32 °C). [T:SLO-408]
+
+## Who should be careful
+
+According to the FDA, pregnant women, children, older adults and people with weakened immune systems should avoid refrigerated smoked fish, such as salmon, trout, whitefish or mackerel, except in a cooked dish. [T:SLO-820]

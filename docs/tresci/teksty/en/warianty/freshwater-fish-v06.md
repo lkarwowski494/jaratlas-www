@@ -18,13 +18,15 @@ According to Wisconsin Sea Grant, any species of fish can be pickled as fillets.
 
 ## Freezing the fish first
 
-Buy commercially frozen fish for pickling if you can. [T:MIE-055]
+Buy commercially frozen fish for pickling. [T:MIE-055]
 
 Wisconsin Sea Grant gives at least 4 days for fish frozen at home, but that is shorter than the FDA requirement, and a home freezer may not get cold enough; this card follows the FDA. [T:MIE-055]
 
 According to the FDA, freezing and storing at −20 °C (−4 °F) or below for 7 days in total kills parasites in fish. [T:MIE-046]
 
 JarAtlas rule (cautious): freeze the fish this way first even though the recipe later simmers it in the pickling solution. [T:ACI-959]
+
+JarAtlas rule (cautious): freeze fish at home only if a freezer thermometer shows −20 °C (−4 °F) or below for all 7 days; otherwise use commercially frozen fish. [T:MIE-046,MIE-055]
 
 ## Ingredients
 

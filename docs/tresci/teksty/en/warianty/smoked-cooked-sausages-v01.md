@@ -22,6 +22,10 @@ The recipe also calls for sodium nitrate and, optionally, sodium nitrite, in fra
 
 UGA strongly recommends a commercial premixed cure instead of pure nitrate or nitrite: use it in place of the amount of salt in the recipe, and it supplies the nitrite needed. [T:MIE-140]
 
+Other UGA recipes use a concentrated commercial cure (6.25% nitrite) in a small measured amount, for example 2 tablespoons for 20 pounds of lean meat and 5 pounds of fat, besides the salt. [T:MIE-136]
+
+JarAtlas rule (cautious): replace the salt only with a premixed cure sold to replace all the salt; never put a concentrated cure such as a 6.25% nitrite cure in place of the salt. [T:MIE-136,MIE-140,MIE-011]
+
 JarAtlas rule (cautious): do not weigh pure nitrate or nitrite at home; use only a commercial premixed cure. [T:MIE-142]
 
 In the EU, nitrite sold for food use may only be sold mixed with salt or a salt substitute, which is where curing salt comes from. [T:MIE-010]
@@ -58,6 +62,6 @@ According to UGA, cooked smoked sausages made with salt and nitrite keep 2–4 w
 
 ## When to throw it away
 
-Throw away smoked sausage that has been in the refrigerator for more than 4 weeks. [T:MIE-029]
+JarAtlas rule (cautious): throw away smoked sausage that has been in the refrigerator for more than 2 weeks, the shorter end of the UGA range. [T:MIE-029]
 
 Do not keep sausage out of the refrigerator for more than 2 hours, or for more than 1 hour when the temperature is above 90 °F (about 32 °C). [T:SLO-408]
