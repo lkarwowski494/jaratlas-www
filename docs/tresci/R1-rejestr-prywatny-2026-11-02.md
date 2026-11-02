@@ -35,5 +35,5 @@ Dodanie repo prywatnego do sesji zostało zablokowane przez klasyfikator uprawni
 - Kontrola lokalna nie łapie parafrazy zbyt bliskiej oryginałowi.
 
 ## Kontrole przed pushem
-- `npm run check`: kod 0 (257 → 274 testów, katalog 0 błędów, treści 0 błędów / 3 uwagi jak przed zmianą).
-- Kontrola lokalna z prawdziwą listą nazw: kod 0 (1670 plików, 6 nazw, 0 błędów po wyjątkach bazowych).
+- `npm run check`: kod 0 (257 → 264 testów, katalog 0 błędów, treści 0 błędów / 3 uwagi jak przed zmianą).
+- Kontrola lokalna z prawdziwą listą nazw: kod 0 (1671 plików, 6 nazw, 0 błędów po wyjątkach bazowych; także po commicie c324d62, z wiadomością commita).
