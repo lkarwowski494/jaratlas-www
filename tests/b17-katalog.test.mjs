@@ -14,7 +14,9 @@ const V = new Map(cat.variants.map((v) => [v.id, v]));
 const R = new Map(rej.map((t) => [t.id, t]));
 const DEC = '2026-11-02-jaratlas-b17-katalog';
 // Cytat skrócony po D-027 d (fragment z innej kolumny źródła); każdy pozostały fragment musi być w cytacie z pliku E1.
-const CYTAT_POPRAWIONY = new Set(['SUS-331']);
+const CYTAT_POPRAWIONY = new Set(['SUS-331', 'SUS-330']);
+// Fragment dopisany po D-043 P2-2 (sprawdzony dosłownie w PDF UC ANR, pdftotext): podstawa „czyste, opisane słoiki” w SUS-330.
+const DOPISANE = ['Store in clean labeled jars; adding an optional desiccant pack will help preserve dryness. Your salts will be shelf-stable indefinitely, but will have their best flavor in the first three months.'];
 const s0 = (t) => t.zrodla[0].cytat.split(' … ').map((f) => f.trim()).filter(Boolean);
 const nota = (id) => V.get(id).notes.find((n) => n.startsWith('[B17]') && n.includes(DEC));
 const h = (x) => createHash('sha256').update(JSON.stringify(x)).digest('hex').slice(0, 12);
@@ -68,7 +70,7 @@ test('B17: twierdzenia C12 w rejestrze jak w pliku E1 (cytaty 1:1), potwierdzone
     assert.equal(t.weryfikacjaZastepcza, '2026-11-02', `${id}: weryfikacja D-027 d także dla niekrytycznych`);
     assert.equal(t.zrodla.length, o.zrodla.length, `${id}: liczba źródeł`);
     t.zrodla.forEach((s, i) => { for (const k of ['adres', 'szczebel', ...(CYTAT_POPRAWIONY.has(id) ? [] : ['cytat'])]) assert.equal(s[k], o.zrodla[i][k], `${id}: ${k}`); });
-    for (const f of s0(t)) assert.ok(o.zrodla[0].cytat.includes(f), `${id}: fragment cytatu „${f.slice(0, 40)}” z pliku E1`);
+    for (const f of s0(t).filter((x) => !DOPISANE.includes(x))) assert.ok(o.zrodla[0].cytat.includes(f), `${id}: fragment cytatu „${f.slice(0, 40)}” z pliku E1`);
     if (id !== z) assert.ok(t.pochodzenie.includes(z), `${id}: pochodzenie wskazuje ${z}`);
   }
   for (const id of ['SUS-339', 'SUS-340', 'SUS-341']) assert.equal(R.get(id), undefined, `${id} przeniesione`);
@@ -122,4 +124,26 @@ test('B17: poza polami z listy warianty bez cichych zmian (skrót stanu sprzed B
   // SUS-328 niezweryfikowane (HTTP 403): warianty kandyzowanej skórki bez żadnej zmiany (skrót całego wariantu w 1.0.11).
   const CALE = { 'lemon-v12': 'c85f9f079485', 'orange-kumquat-v11': '7e496e6edc80', 'grapefruit-v06': '6b58f6e0d198' };
   for (const [id, x] of Object.entries(CALE)) assert.equal(h(V.get(id)), x, `${id}: bez zmian`);
+});
+
+// D-043 P2-3: treść twierdzeń przypięta skrótem [twierdzenie, twierdzenie_en, uproszczenie] (wzór NOWE_H w tests/b12) i jawne liczby krytyczne.
+const TRESC = {"SUS-324":"a0a399fba61f","SUS-327":"c4d2b03e9ac5","SUS-329":"fd2fac366f8f","SUS-330":"a07832edf2f0","SUS-331":"3a244fa09834","SUS-337":"d5fc2f629868","SUS-338":"6d4bd2a49bc9","MLE-070":"be44bb4b0364","MLE-071":"6d1dc21eab94","MIE-130":"330bf08bb5f9","SUS-342":"2115c6b61fdc"};
+test('B17 (D-043): treść 11 twierdzeń bez cichych zmian; liczby krytyczne jak w źródle', () => {
+  assert.deepEqual(Object.keys(TRESC).sort(), Object.keys(NOWE).sort());
+  for (const [id, x] of Object.entries(TRESC)) { const t = R.get(id); assert.equal(h([t.twierdzenie, t.twierdzenie_en, t.uproszczenie]), x, `${id}: treść`); }
+  const m = (id, ...xs) => { for (const x of xs) assert.ok(R.get(id).twierdzenie.includes(x) && R.get(id).twierdzenie_en.includes(x.replace(',', '.')), `${id}: ${x}`); };
+  m('SUS-338', '-18°C', '+60°C'); m('SUS-342', '160°F', '165°F'); m('SUS-331', '130–135°F', '12–18'); m('SUS-330', '125°F', '220°F', '3');
+  m('MLE-070', '16%', '60%', '12%'); m('MLE-071', '0,76', '10–15');
+  assert.ok(R.get('SUS-329').twierdzenie.includes('do 2 miesięcy') && R.get('SUS-329').twierdzenie_en.includes('up to 2 months'), 'SUS-329: 2 miesiące');
+  assert.ok(!/bezterminow|indefinitely/.test(R.get('SUS-330').twierdzenie + R.get('SUS-330').twierdzenie_en), 'SUS-330: bez „bezterminowo” (C12-D7)');
+});
+
+test('B17 (D-043 P2-1): każdy wariant czosnku niedźwiedziego ma SUS-337; warianty z surowych liści także SUS-338', () => {
+  const wg = cat.variants.filter((v) => v.productId === 'wild-garlic' && !v.retired);
+  assert.equal(wg.length, 11);
+  for (const v of wg) assert.ok(v.requiredWarnings?.includes('SUS-337') && v.claims.includes('SUS-337'), `${v.id}: SUS-337`);
+  for (const id of ['wild-garlic-v01', 'wild-garlic-v06', 'wild-garlic-v07', 'wild-garlic-v08', 'wild-garlic-v10', 'wild-garlic-v11']) assert.ok(V.get(id).requiredWarnings.includes('SUS-338'), `${id}: SUS-338`);
+  const ST = { 'wild-garlic-v01': 'do-researchu', 'wild-garlic-v02': 'do-researchu', 'wild-garlic-v03': 'do-researchu', 'wild-garlic-v04': 'do-researchu', 'wild-garlic-v05': 'ryzyko-wysokie',
+    'wild-garlic-v06': 'ryzyko-wysokie', 'wild-garlic-v08': 'do-researchu', 'wild-garlic-v10': 'ryzyko-wysokie' };
+  for (const [id, st] of Object.entries(ST)) assert.equal(V.get(id).safetyStatus, st, `${id}: status bez zmian`);
 });

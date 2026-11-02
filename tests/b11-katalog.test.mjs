@@ -83,7 +83,7 @@ test('B11: 6 duplikatów C9-D7 wycofanych z następcą, następca żywy', () => 
   }
 });
 
-test('B11: reszta zostaje do-researchu bez zmiany claims, sources i nazwy (w tym peach-nectarine-v01, B11-D2)', () => {
+test('B11: reszta zostaje do-researchu bez zmiany claims, sources i nazwy (peach-nectarine-v01 od B17 ok-zrodlo, C9-D6)', () => {
   // Skrót sha256 (12 znaków) z [claims, sources, name] w katalogu 1.0.7 (accaeb3), przed B11.
   const PRZED = {"plum-v11":"978cf74e6fda","blueberry-bilberry-v06":"c4424f9bda80","blueberry-bilberry-v12":"603ab230fc9c","currant-v11":"cf012b179bc3","blueberry-bilberry-v10":"5cb5ffa3a470","rhubarb-v06":"105db79e1948","cranberry-lingonberry-v11":"ec14442d2b6f","cornelian-cherry-v08":"c291af2aa246","chokeberry-seabuckthorn-v09":"b900643c44bf","grapefruit-v07":"e4c627c98402","raspberry-blackberry-v10":"2bba94e61c0c","gooseberry-v08":"259de2a9a45e","orange-kumquat-v09":"38111691c16e","grapes-v08":"8f870c702d14","pear-v09":"e2f8027a6271","apple-v12":"36dc79727a5d","quince-v09":"cefb4c7d2333","gooseberry-v10":"da1d2569bd17","cultivated-mushrooms-v01":"05802a9bea05","european-mixed-veg-v01":"815ffb6f738f","peach-nectarine-v01":"873f46122f23"};
   assert.deepEqual(Object.keys(PRZED).sort(), [...ZOSTAJA, ...B17].sort()); // B17: skrót sprzed B11 zostaje jako zapis historii

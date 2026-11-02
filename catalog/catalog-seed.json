@@ -37077,7 +37077,7 @@
     {
      "adres": "https://innovate.ucanr.edu/sites/default/files/2025-11/Citrus%20Without%20Canning%20Recipe%20Handout-1.pdf",
      "miejsce": "UC MFP, Preserving Citrus without Canning (styczeń 2025), s. 2 „Citrus Salts”",
-     "cytat": "Zest the colorful exterior; avoiding the white pith. … Dehydrate at 125°F or bake in a 220°F / 105°C oven. … The salts are done when the zest feels dry and crumbles when pinched. … Your salts will be shelf-stable indefinitely, but will have their best flavor in the first three months.",
+     "cytat": "Zest the colorful exterior; avoiding the white pith. … Dehydrate at 125°F or bake in a 220°F / 105°C oven. … The salts are done when the zest feels dry and crumbles when pinched. … Store in clean labeled jars; adding an optional desiccant pack will help preserve dryness. Your salts will be shelf-stable indefinitely, but will have their best flavor in the first three months.",
      "odczyt": "2026-11-02",
      "szczebel": 3
     }
@@ -42310,7 +42310,9 @@
     "FER-009",
     "FER-011",
     "FER-021",
-    "FER-020"
+    "FER-020",
+    "SUS-337",
+    "SUS-338"
    ],
    "sources": [],
    "filters": {
@@ -42321,13 +42323,18 @@
    },
    "notes": [
     "[FER*] Brak przetestowanego przepisu szczebla 1–3 dla tego wariantu; obowiązują reguły ogólne kiszenia (sól wg przepisu, pod solanką, pH ≤4,6, potem lodówka).",
-    "[SZY] Czosnek niedźwiedzi kiszony (FER)."
+    "[SZY] Czosnek niedźwiedzi kiszony (FER).",
+    "[B17] requiredWarnings + SUS-337, SUS-338 (D-043 P2-1): SUS-337 (pomyłki z konwalią i zimowitem, BfR/AGES) dotyczy wszystkich wariantów czosnku niedźwiedziego; SUS-338 (jaja tasiemca lisiego giną ok. 60°C, przeżywają −18°C) — wariant z surowych liści bez obróbki cieplnej; status bez zmian (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "FER",
     "SZY"
+   ],
+   "requiredWarnings": [
+    "SUS-337",
+    "SUS-338"
    ]
   },
   {
@@ -42345,7 +42352,8 @@
    "claims": [
     "ACI-016",
     "ACI-017",
-    "ACI-005"
+    "ACI-005",
+    "SUS-337"
    ],
    "sources": [],
    "filters": {
@@ -42355,12 +42363,16 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Ruloniki liści czosnku niedźwiedziego w occie: brak przepisu (liście niskokwasowe — ogólna reguła)."
+    "[ACI*] Ruloniki liści czosnku niedźwiedziego w occie: brak przepisu (liście niskokwasowe — ogólna reguła).",
+    "[B17] requiredWarnings + SUS-337 (D-043 P2-1): SUS-337 (pomyłki z konwalią i zimowitem, BfR/AGES) dotyczy wszystkich wariantów czosnku niedźwiedziego; status bez zmian (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "requiredWarnings": [
+    "SUS-337"
    ]
   },
   {
@@ -42378,7 +42390,8 @@
    "claims": [
     "ACI-016",
     "ACI-017",
-    "ACI-005"
+    "ACI-005",
+    "SUS-337"
    ],
    "sources": [],
    "filters": {
@@ -42388,12 +42401,16 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Pąki czosnku niedźwiedziego w occie („kapary”): brak przepisu."
+    "[ACI*] Pąki czosnku niedźwiedziego w occie („kapary”): brak przepisu.",
+    "[B17] requiredWarnings + SUS-337 (D-043 P2-1): SUS-337 (pomyłki z konwalią i zimowitem, BfR/AGES) dotyczy wszystkich wariantów czosnku niedźwiedziego; status bez zmian (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "requiredWarnings": [
+    "SUS-337"
    ]
   },
   {
@@ -42408,7 +42425,9 @@
    "preservationMethod": "refrigerator",
    "acidBasis": "not-applicable",
    "safetyStatus": "do-researchu",
-   "claims": [],
+   "claims": [
+    "SUS-337"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -42418,13 +42437,17 @@
    },
    "notes": [
     "[FER*] Zielone nasiona czosnku niedźwiedziego w soli: brak źródła.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster FER."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster FER.",
+    "[B17] requiredWarnings + SUS-337 (D-043 P2-1): SUS-337 (pomyłki z konwalią i zimowitem, BfR/AGES) dotyczy wszystkich wariantów czosnku niedźwiedziego; status bez zmian (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "FER",
     "NAP"
+   ],
+   "requiredWarnings": [
+    "SUS-337"
    ]
   },
   {
@@ -42443,7 +42466,8 @@
    "claims": [
     "FER-068",
     "FER-004",
-    "FER-003"
+    "FER-003",
+    "SUS-337"
    ],
    "sources": [],
    "filters": {
@@ -42453,14 +42477,18 @@
     "difficulty": null
    },
    "notes": [
-    "[FER*] Cebulki czosnku niedźwiedziego: ekstrapolacja z czosnku (niskokwasowa cebulka Allium, brak przepisu). Status ostrożny, do przeglądu."
+    "[FER*] Cebulki czosnku niedźwiedziego: ekstrapolacja z czosnku (niskokwasowa cebulka Allium, brak przepisu). Status ostrożny, do przeglądu.",
+    "[B17] requiredWarnings + SUS-337 (D-043 P2-1): SUS-337 (pomyłki z konwalią i zimowitem, BfR/AGES) dotyczy wszystkich wariantów czosnku niedźwiedziego; status bez zmian (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "FER"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "SUS-337"
+   ]
   },
   {
    "id": "wild-garlic-v06",
@@ -42477,7 +42505,9 @@
    "claims": [
     "SLO-023",
     "ACI-005",
-    "MIE-059"
+    "MIE-059",
+    "SUS-337",
+    "SUS-338"
    ],
    "sources": [],
    "filters": {
@@ -42489,7 +42519,8 @@
    "notes": [
     "[SZY*] Myongi-namul w sosie sojowym (ACI/NAP).",
     "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): NAP-063 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
-    "[B10] do-researchu → ryzyko-wysokie (B9), karta-ostrzeżenie; requiredWarnings SLO-023, MIE-059; marynata sojowa bez octu (B9-D7) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
+    "[B10] do-researchu → ryzyko-wysokie (B9), karta-ostrzeżenie; requiredWarnings SLO-023, MIE-059; marynata sojowa bez octu (B9-D7) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B17] requiredWarnings + SUS-337, SUS-338 (D-043 P2-1): SUS-337 (pomyłki z konwalią i zimowitem, BfR/AGES) dotyczy wszystkich wariantów czosnku niedźwiedziego; SUS-338 (jaja tasiemca lisiego giną ok. 60°C, przeżywają −18°C) — wariant z surowych liści bez obróbki cieplnej; status bez zmian (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -42499,7 +42530,9 @@
    "cardType": "warning",
    "requiredWarnings": [
     "SLO-023",
-    "MIE-059"
+    "MIE-059",
+    "SUS-337",
+    "SUS-338"
    ]
   },
   {
@@ -42572,7 +42605,9 @@
    "safetyStatus": "do-researchu",
    "claims": [
     "OLE-032",
-    "OLE-033"
+    "OLE-033",
+    "SUS-337",
+    "SUS-338"
    ],
    "sources": [],
    "filters": {
@@ -42582,14 +42617,19 @@
     "difficulty": null
    },
    "notes": [
-    "[OLE*] Pasta warzywna z ok. 20% soli: sól powyżej 10% w fazie wodnej hamuje grupę I, ale bariera solna nie jest zalecana konsumentom; brak przetestowanego przepisu. Z olejem/czosnkiem – reguły oleju."
+    "[OLE*] Pasta warzywna z ok. 20% soli: sól powyżej 10% w fazie wodnej hamuje grupę I, ale bariera solna nie jest zalecana konsumentom; brak przetestowanego przepisu. Z olejem/czosnkiem – reguły oleju.",
+    "[B17] requiredWarnings + SUS-337, SUS-338 (D-043 P2-1): SUS-337 (pomyłki z konwalią i zimowitem, BfR/AGES) dotyczy wszystkich wariantów czosnku niedźwiedziego; SUS-338 (jaja tasiemca lisiego giną ok. 60°C, przeżywają −18°C) — wariant z surowych liści bez obróbki cieplnej; status bez zmian (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
    ],
-   "nameV0": "pasta z liści zmiksowanych wyłącznie z solą ($20\\%$) i oliwą (baza całoroczna)"
+   "nameV0": "pasta z liści zmiksowanych wyłącznie z solą ($20\\%$) i oliwą (baza całoroczna)",
+   "requiredWarnings": [
+    "SUS-337",
+    "SUS-338"
+   ]
   },
   {
    "id": "wild-garlic-v09",
@@ -42660,7 +42700,9 @@
     "OLE-034",
     "OLE-035",
     "OLE-045",
-    "OLE-001"
+    "OLE-001",
+    "SUS-337",
+    "SUS-338"
    ],
    "sources": [],
    "filters": {
@@ -42670,14 +42712,19 @@
     "difficulty": null
    },
    "notes": [
-    "[OLE*] Masło z czosnkiem/ziołami: brak badań potwierdzających bezpieczeństwo (nawet w lodówce); FDA ostrzegała przed domowymi mieszankami w maśle do dłuższego przechowywania. Karta: robić na bieżąco lub zamrażać."
+    "[OLE*] Masło z czosnkiem/ziołami: brak badań potwierdzających bezpieczeństwo (nawet w lodówce); FDA ostrzegała przed domowymi mieszankami w maśle do dłuższego przechowywania. Karta: robić na bieżąco lub zamrażać.",
+    "[B17] requiredWarnings + SUS-337, SUS-338 (D-043 P2-1): SUS-337 (pomyłki z konwalią i zimowitem, BfR/AGES) dotyczy wszystkich wariantów czosnku niedźwiedziego; SUS-338 (jaja tasiemca lisiego giną ok. 60°C, przeżywają −18°C) — wariant z surowych liści bez obróbki cieplnej; status bez zmian (2026-11-02-jaratlas-b17-katalog)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
    ],
-   "e3": "potwierdzony"
+   "e3": "potwierdzony",
+   "requiredWarnings": [
+    "SUS-337",
+    "SUS-338"
+   ]
   },
   {
    "id": "wild-garlic-v11",
