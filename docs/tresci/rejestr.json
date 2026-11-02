@@ -13869,16 +13869,16 @@
  },
  {
   "id": "OLE-025",
-  "twierdzenie": "We Włoszech w 1993 r. dwa zdarzenia jadu kiełbasianego wywołał domowy bakłażan w oleju.",
+  "twierdzenie": "We Włoszech w 1993 r. dwa ogniska jadu kiełbasianego typu B powiązano z produkowanym komercyjnie pieczonym bakłażanem w oleju (CDC MMWR 1995).",
   "zrodla": [
    {
-    "adres": "https://www.foodprotection.org/files/food-protection-trends/Jun-11-Nummer.pdf",
-    "miejsce": "s. 337",
-    "cytat": "to contaminated home-prepared eggplant",
-    "odczyt": "2026-11-01",
-    "szczebel": 2,
-    "weryfikacja": "curl+grep",
-    "sha12": "a10afa7dac92"
+    "adres": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00035572.htm",
+    "miejsce": "MMWR 44(2):33–36, 1995, wstęp",
+    "cytat": "This report summarizes the outbreak investigations, which indicated that illness was associated with eating commercially prepared roasted eggplant in oil.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+html→tekst+porównanie po normalizacji",
+    "sha12": "c3f7afdc03c2"
    }
   ],
   "status": "potwierdzone",
@@ -13890,7 +13890,11 @@
    "sha": "b5fe977d2a89"
   },
   "klaster": "OLE",
-  "weryfikacjaZastepcza": "2026-11-02"
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmieniePrzed": "We Włoszech w 1993 r. dwa zdarzenia jadu kiełbasianego wywołał domowy bakłażan w oleju.",
+  "twierdzenie_en": "In Italy in 1993, two type B botulism outbreaks were linked to commercially prepared roasted eggplant in oil (CDC MMWR 1995).",
+  "uwaga": "B27 (2026-11-02-jaratlas-b27-katalog, B24-Q4): poprzednie źródło Nummer 2011 (Food Protection Trends, s. 337, szczebel 2) pisze „home-prepared eggplant”, a jego przypis 32 (MMWR 1995) mówi „commercially prepared”; wygrywa szczebel 1. Przegląd D-027 d nowego brzmienia 2026-11-02; sha przeglądu dotyczy zdania karty eggplant-v04 (en), które trzeba poprawić w torze A.",
+  "wazne_do": "2027-11-02"
  },
  {
   "id": "OLE-026",
@@ -62684,6 +62688,638 @@
   "jednoZrodlo": true,
   "twierdzenie_en": "Ball Elderberry Jelly (reprinted by Penn State): drain the juice from berries (stems removed) cooked 5–10 min through a bag for at least 2 h; bring the juice, lemon juice and pectin to a boil, add the sugar, full rolling boil 1 min; ladle into hot jars to within 1/4 inch (about 0.6 cm) headspace; boiling water bath, half-pint jars 10 min, adjusting for altitude (the reprint does not give it).",
   "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-070",
+  "twierdzenie": "Livsmedelsverket (Szwecja, 2023): domowe warzywa w oleju, które nie były poddane obróbce cieplnej, przechowuje się w lodówce do czterech dni.",
+  "zrodla": [
+   {
+    "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
+    "miejsce": "L 2023 nr 16, „Råd om oljeinläggningar av grönsaker” (PDF s. 9); także „Kylförvaring av oljeinläggningar” (PDF s. 35)",
+    "cytat": "Förvara hemgjorda oljeinläggningar av grönsaker som inte har värmebehandlats i kylskåp upp till fyra dagar.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "462ea483ea51",
+    "weryfikacja": "curl+pdftotext+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "wielkosc": "olej_warzywa_lodowka_dni_livsmedelsverket",
+  "wartosc": 4,
+  "jednostka": "dni",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Livsmedelsverket (Sweden, 2023): homemade vegetables in oil that have not been heat-treated are stored in the refrigerator for up to four days.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-071",
+  "twierdzenie": "Livsmedelsverket: termin czterech dni przyjęto dla scenariusza lodówki o temperaturze ok. 8 °C i pH 7,0; dłuższy termin (dwa tygodnie) przy 4 °C wymaga sprawdzenia temperatury lodówki termometrem.",
+  "zrodla": [
+   {
+    "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
+    "miejsce": "L 2023 nr 16, PDF s. 9",
+    "cytat": "Rådet om att man kan förvara oljeinläggningar som inte har värmebehandlats i kylskåp i högst fyra dagar utgår från ett scenario där kylskåpstemperaturen är cirka 8 °C och pH-värdet i inläggningen är 7,0.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "462ea483ea51",
+    "weryfikacja": "curl+pdftotext+grep"
+   },
+   {
+    "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
+    "miejsce": "L 2023 nr 16, PDF s. 9",
+    "cytat": "Om kylskåpstemperaturen sänks till 4 °C skulle man kunna förlänga förvaringstiden till två veckor.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "462ea483ea51",
+    "weryfikacja": "curl+pdftotext+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wydłużenia do dwóch tygodni przy 4 °C nie przenosimy do kart (jedno źródło; decyzja P1-Q1: najkrótszy czas).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Livsmedelsverket: the four-day limit assumes a refrigerator at about 8 °C and pH 7.0; a longer limit (two weeks) at 4 °C requires checking the refrigerator temperature with a thermometer.",
+  "nieDoKart": "dwa tygodnie przy 4 °C: jeden urząd, wymaga termometru; karty klasy biorą następny dzień (OLE-077, B24-R1)",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-072",
+  "twierdzenie": "Livsmedelsverket: warzywa w oleju, także częściowo suszone, dają C. botulinum dobre warunki wzrostu (brak tlenu, pH i woda w warzywie); w temperaturze pokojowej bakteria może szybko się namnażać.",
+  "zrodla": [
+   {
+    "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
+    "miejsce": "L 2023 nr 16, „Inläggningar i olja” (PDF s. 24)",
+    "cytat": "Om det skulle finnas C. botulinum-sporer på grönsakerna skapar den anaeroba miljön, grönsakernas pH-värden, näringsinnehåll samt vattentillgång (även i delvis torkade grönsaker) goda förutsättningar för tillväxt.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "462ea483ea51",
+    "weryfikacja": "curl+pdftotext+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Livsmedelsverket: vegetables in oil, including partly dried ones, give C. botulinum good growth conditions (no oxygen, the vegetable's pH and water); at room temperature the bacterium can multiply quickly.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-073",
+  "twierdzenie": "Livsmedelsverket: gotowanie warzyw w oleju (temperatura wrzenia oleju powyżej 121 °C) teoretycznie mogłoby inaktywować przetrwalniki C. botulinum typu I, ale brak badań potwierdzających, że metoda działa w praktyce.",
+  "zrodla": [
+   {
+    "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
+    "miejsce": "L 2023 nr 16, „Upphettning i olja” (PDF s. 21)",
+    "cytat": "Det saknas dock studier som bekräftar att metoden fungerar i praktiken.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "462ea483ea51",
+    "weryfikacja": "curl+pdftotext+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Livsmedelsverket: cooking vegetables in oil (oil boils above 121 °C) could in theory inactivate group I C. botulinum spores, but there are no studies confirming that the method works in practice.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-074",
+  "twierdzenie": "Livsmedelsverket: w domowych warzywach w oleju trudno obniżyć pH; ocet słabo miesza się z olejem, więc samo warzywo nie jest skutecznie zakwaszane.",
+  "zrodla": [
+   {
+    "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
+    "miejsce": "L 2023 nr 16, „Inläggningar i olja” (PDF s. 25)",
+    "cytat": "Därför surgörs inte heller själva grönsaken effektivt.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "462ea483ea51",
+    "weryfikacja": "curl+pdftotext+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Livsmedelsverket: it is hard to lower the pH of homemade vegetables in oil; vinegar mixes poorly with oil, so the vegetable itself is not effectively acidified.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-075",
+  "twierdzenie": "Livsmedelsverket: warzywa w oleju po obróbce cieplnej (100 °C przez co najmniej 15 minut) można przechowywać w lodówce bez ograniczenia czasu (zalecenie jednego urzędu; nie stosowane w kartach JarAtlas).",
+  "zrodla": [
+   {
+    "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
+    "miejsce": "L 2023 nr 16, PDF s. 9",
+    "cytat": "Förvara hemgjorda oljeinläggningar av grönsaker som har värmebehandlats i kylskåp under obestämd tid.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "462ea483ea51",
+    "weryfikacja": "curl+pdftotext+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Nie wchodzi do kart: brak zgodnego drugiego urzędu szczebla 1 (BfR nie rozróżnia obróbki cieplnej), decyzja P1-Q1 wymaga ≥ 2 i najkrótszego czasu.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Livsmedelsverket: vegetables in oil that were heat-treated (100 °C for at least 15 minutes) can be kept in the refrigerator without a time limit (one authority's advice; not used on JarAtlas cards).",
+  "nieDoKart": "obróbka 100 °C bez limitu: jeden urząd; nie na karty (B24-R1)",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-076",
+  "twierdzenie": "BfR (Niemcy, FAQ z 15.06.2023): przy warzywach w oleju (np. papryka, chili, bakłażan, czosnek, świeże zioła) w domu nie da się zapewnić, że C. botulinum nie namnoży się i nie wytworzy toksyny; BfR odradza robienie takich produktów i olejów ziołowych na zapas.",
+  "zrodla": [
+   {
+    "adres": "https://www.bfr.bund.de/cm/343/selten-aber-vermeidbar-fragen-und-antworten-zum-botulismus.pdf",
+    "miejsce": "„Durch welche weiteren Lebensmittel kann Botulismus ausgelöst werden?” (s. 2)",
+    "cytat": "Das BfR rät daher davon ab, selbst erzeugte Produkte wie Gemüse in Öl oder sogenannte Kräuter-Öle im Privathaushalt auf Vorrat zu produzieren und zu lagern.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "d9e9b72970ae",
+    "weryfikacja": "curl+pdftotext+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "BfR (Germany, FAQ of 15 June 2023): with vegetables in oil (e.g. peppers, chili, eggplant, garlic, fresh herbs) a household cannot ensure that C. botulinum will not grow and form toxin; the BfR advises against making such products and herb oils in advance for storage.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-077",
+  "twierdzenie": "BfR: domowe oleje ziołowe i warzywa w oleju przechowuje się w lodówce i zjada najpóźniej następnego dnia po przygotowaniu.",
+  "zrodla": [
+   {
+    "adres": "https://www.bfr.bund.de/cm/343/selten-aber-vermeidbar-fragen-und-antworten-zum-botulismus.pdf",
+    "miejsce": "s. 2 (odpowiedź o innych produktach) i lista zaleceń",
+    "cytat": "Sie sollten im Kühlschrank aufbewahrt und spätestens am Tag nach der Herstellung verzehrt werden.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "d9e9b72970ae",
+    "weryfikacja": "curl+pdftotext+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "wielkosc": "olej_warzywa_ziola_lodowka_dni_najkrotszy",
+  "wartosc": 1,
+  "jednostka": "dzień po dniu przygotowania (granica włączna: najpóźniej następnego dnia)",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "BfR: homemade herb oils and vegetables in oil are kept in the refrigerator and eaten no later than the day after they are made.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-078",
+  "twierdzenie": "CDC (USA): domowe oleje z czosnkiem lub ziołami trzyma się w lodówce i wyrzuca po 4 dniach.",
+  "zrodla": [
+   {
+    "adres": "https://www.cdc.gov/botulism/prevention/index.html",
+    "miejsce": "Preventing Botulism, sekcja o żywności przygotowywanej w domu",
+    "cytat": "Refrigerate homemade oils made with garlic or herbs. Throw the oils away after 4 days.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "232e4422a63b",
+    "weryfikacja": "curl+grep (tekst HTML bez znaczników)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "CDC (USA): homemade oils with garlic or herbs are kept in the refrigerator and thrown away after 4 days.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-079",
+  "twierdzenie": "ISS i Ministero della Salute (Włochy, 2016): warzywa pod olej blanszuje się kilka minut w roztworze wody i octu w równych częściach (ocet winny o kwasowości 6% lub wyższej), a po zalaniu olejem pasteryzuje; tak przygotowane mogą stać do półtora roku (procedura jednego urzędu; nie stosowana w kartach JarAtlas).",
+  "zrodla": [
+   {
+    "adres": "https://www.iss.it/documents/20126/2293568/LineeGuidaConserve_light.pdf/f76af27b-51bb-4675-158b-7433f66d07de?t=1575727110064",
+    "miejsce": "Linee guida per la corretta preparazione delle conserve alimentari in ambito domestico (Roma 2016), „Vegetali sott’olio” (PDF s. 87–88)",
+    "cytat": "i vegetali devono essere sbollentati per qualche minuto in una soluzione di acqua e aceto in parti uguali.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "c61bbbee1e7c",
+    "weryfikacja": "WebFetch (zapis binarny PDF)+pdftotext+grep; curl z sieci tej sesji: odmowa serwera"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Nie wchodzi do kart: sprzeczne z Livsmedelsverket (OLE-074: zakwaszanie w domu trudne do zrobienia bezpiecznie) i bez zgodnego drugiego urzędu szczebla 1; „qualche minuto” nie podaje czasu.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "ISS and Ministero della Salute (Italy, 2016): vegetables for oil are blanched for a few minutes in equal parts water and vinegar (wine vinegar of 6% acidity or more) and pasteurized after the oil is added; prepared this way they can be kept for up to a year and a half (one authority's procedure; not used on JarAtlas cards).",
+  "nieDoKart": "zakwaszanie i pasteryzacja ISS: jeden urząd; nie na karty (B24-R1)",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-080",
+  "twierdzenie": "ISS i Ministero della Salute: do oleju aromatyzowanego zioła lub chili trzeba wcześniej potraktować octem albo wysuszyć do kruchości; stopnia wysuszenia nie da się łatwo zmierzyć, więc zaleca się ocet; najlepiej małe słoiczki w lodówce, zużyte w ciągu tygodnia.",
+  "zrodla": [
+   {
+    "adres": "https://www.iss.it/documents/20126/2293568/LineeGuidaConserve_light.pdf/f76af27b-51bb-4675-158b-7433f66d07de?t=1575727110064",
+    "miejsce": "„Olio aromatizzato” (PDF s. 99)",
+    "cytat": "Purtroppo il grado di disidratazione delle erbe non è facilmente misurabile, si consiglia pertanto il trattamento in aceto.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "c61bbbee1e7c",
+    "weryfikacja": "WebFetch (zapis binarny PDF)+pdftotext+grep"
+   },
+   {
+    "adres": "https://www.iss.it/documents/20126/2293568/LineeGuidaConserve_light.pdf/f76af27b-51bb-4675-158b-7433f66d07de?t=1575727110064",
+    "miejsce": "„Olio aromatizzato” (PDF s. 99)",
+    "cytat": "E’ preferibile preparare barattolini di piccole dimensioni da conservare in frigorifero e consumare entro una settimana.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "c61bbbee1e7c",
+    "weryfikacja": "WebFetch (zapis binarny PDF)+pdftotext+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "ISS and Ministero della Salute: for flavored oil, herbs or chili must first be treated with vinegar or dried until brittle; the degree of drying is not easy to measure, so vinegar is recommended; small jars kept in the refrigerator and used within a week are preferable.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-081",
+  "twierdzenie": "ISS i Ministero della Salute: po otwarciu oleje aromatyzowane i pesto zużywa się w ciągu 4–5 dni.",
+  "zrodla": [
+   {
+    "adres": "https://www.iss.it/documents/20126/2293568/LineeGuidaConserve_light.pdf/f76af27b-51bb-4675-158b-7433f66d07de?t=1575727110064",
+    "miejsce": "„Dopo l’apertura…” (PDF s. 77)",
+    "cytat": "I sughi e le salse, gli oli aromatizzati, i succhi di frutta e il pesto vanno consumati entro 4-5 giorni dall’apertura.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "c61bbbee1e7c",
+    "weryfikacja": "WebFetch (zapis binarny PDF)+pdftotext+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "ISS and Ministero della Salute: once opened, flavored oils and pesto are used within 4–5 days.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-082",
+  "twierdzenie": "Ask Extension (odpowiedź OSU Extension): wilgotna żywność zatopiona w smalcu i trzymana w temperaturze pokojowej to produkt ryzykowny, który może wywołać zatrucie jadem kiełbasianym.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=924327",
+    "miejsce": "Ask Extension #924327 'Foods preserved in Lard', odp. OSU Extension (2026) (grep -F na tekście wyodrębnionym z kopii HTML)",
+    "cytat": "If you were to place a moist food into lard and store it there at room temperature, you would have a risky food that could cause botulism poisoning.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "6c0f8b2b8fd5",
+    "weryfikacja": "curl+grep",
+    "szczebel_uwaga": "Ask Extension: odpowiedź eksperta extension (Q&A), nie publikacja; wsparcie, nie przetestowana procedura."
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Ask Extension (OSU Extension answer): a moist food submerged in lard and kept at room temperature is a risky food that could cause botulism poisoning.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-083",
+  "twierdzenie": "Ask Extension (odpowiedź OSU Extension): żywność niskokwasową zatopioną w oleju lub tłuszczu zaleca się trzymać w lodówce nie dłużej niż 4 dni.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=924327",
+    "miejsce": "Ask Extension #924327 'Foods preserved in Lard', odp. OSU Extension (2026) (grep -F na tekście wyodrębnionym z kopii HTML)",
+    "cytat": "For any low acid food submerged in oil or fat, we recommend storing in the refrigerator no more than 4 days",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "6c0f8b2b8fd5",
+    "weryfikacja": "curl+grep",
+    "szczebel_uwaga": "Ask Extension: odpowiedź eksperta extension (Q&A), nie publikacja; wsparcie, nie przetestowana procedura."
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Ask Extension (OSU Extension answer): low-acid food submerged in oil or fat is best kept in the refrigerator for no more than 4 days.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-084",
+  "twierdzenie": "Ask Extension (odpowiedź eksperta extension, 2016): Extension i USDA nie mają żadnych zaleceń wekowania łoju ani smalcu.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=356751",
+    "miejsce": "Ask Extension #356751 'canning fat', odpowiedź eksperta (2016) (grep -F na tekście wyodrębnionym z kopii HTML)",
+    "cytat": "Extension/USDA does not have canning recommendations for tallow and lard at all.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "074a5af22e91",
+    "weryfikacja": "curl+grep",
+    "szczebel_uwaga": "Ask Extension: odpowiedź eksperta extension (Q&A), nie publikacja; wsparcie, nie przetestowana procedura."
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Ask Extension (extension expert answer, 2016): Extension and USDA have no canning recommendations at all for tallow or lard.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-085",
+  "twierdzenie": "Ask Extension (2017, pytanie o przechowywanie wytopionego tłuszczu kurzego): w temperaturze pokojowej tłuszcz łatwiej jełczeje, a gdy zostały w nim resztki kurczaka, zagrożeniem jest jad kiełbasiany.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=410596",
+    "miejsce": "Ask Extension #410596 'Rendered fat storage' (Oregon, 2017) (grep -F na tekście wyodrębnionym z kopii HTML)",
+    "cytat": "At room temperature rancidity is a more likely. If there are any bits of chicken left, botulism would be a concern.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "f40b86a554ad",
+    "weryfikacja": "curl+grep",
+    "szczebel_uwaga": "Ask Extension: odpowiedź eksperta extension (Q&A), nie publikacja; wsparcie, nie przetestowana procedura."
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Ask Extension (2017, question on storing rendered chicken fat): at room temperature the fat goes rancid more easily, and if bits of chicken are left in it, botulism is a concern.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-086",
+  "twierdzenie": "Ask Extension (odpowiedź eksperta extension): mieszanki świeżej kurkumy w oleju nie zostawia się w temperaturze pokojowej; w lodówce 4 dni, dłużej tylko w zamrażarce.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=924127",
+    "miejsce": "Ask Extension #924127 'Preserving Turmeric Root in Oil', odp. OSU Extension (2026) (grep -F na tekście wyodrębnionym z kopii HTML)",
+    "cytat": "Do not leave this mixture at room temperature. You can safely store in in the refrigerator for 4 days, or for longer storage you can fill the mixture into a freezer container and freeze indefinitely.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "eb2a7e4e7445",
+    "weryfikacja": "curl+grep",
+    "szczebel_uwaga": "Ask Extension: odpowiedź eksperta extension (Q&A), nie publikacja; wsparcie, nie przetestowana procedura."
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Ask Extension (extension expert answer): a mixture of fresh turmeric in oil is not left at room temperature; it keeps 4 days in the refrigerator, longer only in the freezer.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-087",
+  "twierdzenie": "BfR (2016): BfR odradza przechowywanie w domu samodzielnie zrobionych warzyw lub ziół w oleju.",
+  "zrodla": [
+   {
+    "adres": "https://www.bfr.bund.de/cm/349/self-made-herbal-oils-and-vegetables-marinated-in-oil-conceal-health-risks.pdf",
+    "miejsce": "BfR Information (2016) 'Self-made herbal oils and vegetables marinated in oil...', s.1",
+    "cytat": "For this reason, the BfR advises against the storage of self-made products, such as vegetables or herbs in oil, in private households.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "c41a041af1eb",
+    "weryfikacja": "curl+pdftotext+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "BfR (2016): the BfR advises against storing self-made vegetables or herbs in oil in private households.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-088",
+  "twierdzenie": "CDC (MMWR 1995, botulizm typu B z pieczonego bakłażana w oleju, Włochy 1993): zalanie żywności olejem może dać warunki beztlenowe potrzebne do wytworzenia toksyny botulinowej; osoby przygotowujące w domu pieczone warzywa w oleju powinny wiedzieć, że ta praktyka może być niebezpieczna.",
+  "zrodla": [
+   {
+    "adres": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00035572.htm",
+    "miejsce": "MMWR 1995;44(2), „Type B Botulism Associated with Roasted Eggplant in Oil -- Italy, 1993”, Editorial Note",
+    "cytat": "Covering foods in oil may provide the anaerobic conditions required for the production of botulism toxin.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "c3f7afdc03c2",
+    "weryfikacja": "curl+grep (tekst HTML bez znaczników)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ognisko dotyczyło wyrobu komercyjnego; zdanie o praktyce domowej to wniosek redakcji MMWR.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "CDC (MMWR 1995, type B botulism from roasted eggplant in oil, Italy 1993): covering foods in oil may create the anaerobic conditions needed for botulinum toxin; people who prepare roasted vegetables in oil at home should know this practice may be hazardous.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "OLE-089",
+  "twierdzenie": "CDC (MMWR, ognisko botulizmu typu A, Illinois 1983): podejrzaną potrawą była cebula smażona na margarynie, trzymana bez przykrycia w dużej ilości stopionej margaryny na ciepłej kuchence (poniżej 60 °C) i podawana bez ponownego podgrzania.",
+  "zrodla": [
+   {
+    "adres": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00000265.htm",
+    "miejsce": "MMWR „Foodborne Botulism -- Illinois” (1983), opis dochodzenia",
+    "cytat": "they were held uncovered in a pan with a large volume of melted margarine on a warm stove (below 60 C (140 F)) and were not reheated before serving.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "3a6f93647a70",
+    "weryfikacja": "curl+grep (tekst HTML bez znaczników)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ognisko dotyczyło cebuli wilgotnej trzymanej na ciepło w tłuszczu, nie suchej prażonej; użyte jako ostrzeżenie dla cebuli w tłuszczu poza lodówką, nie jako dowód dla cebuli suchej.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "OLE",
+  "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "CDC (MMWR, type A botulism outbreak, Illinois 1983): the suspected food was onions sautéed in margarine, held uncovered in a large volume of melted margarine on a warm stove (below 60 °C) and served without reheating.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  }
 ]
