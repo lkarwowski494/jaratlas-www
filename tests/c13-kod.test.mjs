@@ -99,3 +99,13 @@ test('C13: fig-pomegranate-v09 nie ma wpisu WYJATKI_NISKOKWASOWE i zostaje do-re
   assert.equal(v.safetyStatus, 'do-researchu');
   assert.notEqual(v.publication, 'opublikowana');
 });
+
+// Przegląd D-043 C13, P2-1: build (nie tylko walidator) pilnuje słownika, statusu i cardType; inaczej build bez check:catalog
+// wypuściłby „brak sprawdzonego źródła” na karcie ryzyko-wysokie albo dowolny klucz z ui.
+test('C13 P2-1: build odrzuca warningReason przy ryzyko-wysokie, spoza słownika i bez cardType warning, mimo tekstu w ui', () => {
+  const ui = { ...uiBaza, powodyOstrzezenia: { 'brak-sprawdzonego-zrodla': 'No checked source', xyz: 'X' } };
+  for (const extra of [{ safetyStatus: 'ryzyko-wysokie', warningReason: 'brak-sprawdzonego-zrodla' }, { warningReason: 'xyz' }, { safetyStatus: 'ok-zrodlo', cardType: undefined, warningReason: 'brak-sprawdzonego-zrodla' }]) {
+    const { bledy } = bud(extra, ui);
+    assert.ok(bledy.some((b) => /en\/beans-v01.*warningReason/.test(b)), `${JSON.stringify(extra)}: ${JSON.stringify(bledy)}`);
+  }
+});
