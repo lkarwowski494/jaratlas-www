@@ -1,5 +1,5 @@
 # Stan sztafety
-Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 (noc)
+Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 (noc, partia 13)
 
 | Rola | Tryb | Stan | Commit | Artefakty | Otwarte decyzje |
 |---|---|---|---|---|---|
@@ -23,9 +23,10 @@
 | 06 Treści | build (karty fali 1, partia 9 en/pl, owoce w syropie i dżemy) | STOP 2026-11-02 noc: 66 kart en/pl łącznie, E3 zastępczy 2 przebiegi, `npm run check` kod 0 | bc33dd2 | `docs/tresci/E3-karty-p9-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p9`; nazwa sour-cherry-v09 w katalogu |
 | 06 Treści | build (karty fali 1, partia 10 en/pl, L1 starszych dżemów, syropy i przeciery) | STOP 2026-11-02 noc: 74 karty en/pl łącznie, E3 zastępczy 3 przebiegi, `npm run check` kod 0 | 72908da | `docs/tresci/E3-karty-p10-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p10` |
 | 06 Treści | build (karty fali 1, partia 11 en/pl, kompoty, owoce w syropie, soki z sokownika) | STOP 2026-11-02 noc: 86 kart en/pl łącznie, E3 zastępczy 3 przebiegi, `npm run check` kod 0 | 7ad0479 | `docs/tresci/E3-karty-p11-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p11`; nazwa sweet-cherry-v07 w katalogu |
-| 06 Treści | build (karty fali 1, partia 12 en/pl, backlog przechowywania, jabłka, gruszki, rabarbar, grejpfrut) | STOP 2026-11-02 noc: 96 kart en/pl łącznie, E3 zastępczy 4 przebiegi, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p12-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p12`; nazwy pear-v07 i rhubarb-v05 w katalogu |
+| 06 Treści | build (karty fali 1, partia 12 en/pl, backlog przechowywania, jabłka, gruszki, rabarbar, grejpfrut) | STOP 2026-11-02 noc: 96 kart en/pl łącznie, E3 zastępczy 4 przebiegi, `npm run check` kod 0 | a251c4d | `docs/tresci/E3-karty-p12-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p12`; nazwy pear-v07 i rhubarb-v05 w katalogu |
+| 06 Treści | build (karty fali 1, partia 13 en/pl, backlog L1 słoiki dwuczęściowe, masło jabłkowe, pigwa, żurawina, curd, marmolada) | STOP 2026-11-02 noc: 110 kart en/pl łącznie, E3 zastępczy 4 przebiegi, `npm run check` kod 0; kąpiel wodna z cytatem wyczerpana poza 6 odłożonymi | (ten commit) | `docs/tresci/E3-karty-p13-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p13`; nazwy cranberry-lingonberry-v09/v10 w katalogu; następna kategoria (rekomendacja: mrożenie) |
 
 ## Następny krok
-1. **06-tresci**: partia 13 en/pl (nowa sesja); kolejka 243 wariantów ok-zrodlo bez kart (224 z cytatem; kąpiel wodna z cytatem 13, w tym 6 odłożonych). Przekład fal: po zgodzie właściciela na kwotę, sekret `ANTHROPIC_API_KEY` i workflow na main — przebieg dowodowy fr, potem drugi przegląd AI i przegląd człowieka (rola 09 E3).
+1. **06-tresci**: partia 14 en/pl (nowa sesja), rekomendacja mrożenie (freezing, 67 wariantów ok-zrodlo z cytatem NCHFP); kolejka 236 wariantów ok-zrodlo bez kart (217 z cytatem; kąpiel wodna z cytatem tylko 6 odłożonych). Przekład fal: po zgodzie właściciela na kwotę, sekret `ANTHROPIC_API_KEY` i workflow na main — przebieg dowodowy fr, potem drugi przegląd AI i przegląd człowieka (rola 09 E3).
 2. 10-wydanie: weto D1–D11; przeniesienie według `docs/wydanie/10-przeniesienie-czyste-repo.md` pkt 3–4 tuż przed pierwszym workflow Pages (D11), za zgodą właściciela.
 3. 08 (kod dalej): najpierw domena i kontrole z testami, potem adapter wdrożenia (po ADR 0007), na końcu wygląd (po 04).
