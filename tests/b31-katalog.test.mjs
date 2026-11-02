@@ -57,7 +57,10 @@ test("B31: poza polami werdyktu i notatką [B31] nic się nie zmieniło; publica
   assert.equal(cat.variants.length, 1432);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: wszystko ukryta");
   assert.equal(rej.length, 2037, "rejestr: bez nowych i bez usuniętych ID");
-  assert.equal(h(rej), "e9c7b7987aab", "rejestr bez zmian (skrót na f36b7b0)");
+  // D-027 d: nowe zdanie ostrzeżenia SLO-901 na karcie en wild-mushrooms-v03 → zmienia się tylko przeglad SLO-901 (skrót zdań).
+  const bezPrzegladu = rej.map((t) => (t.id === "SLO-901" ? (({ przeglad, ...x }) => x)(t) : t));
+  assert.equal(h(bezPrzegladu), "211640cbffc3", "rejestr bez zmian poza przeglad SLO-901 (skrót na f36b7b0)");
+  assert.deepEqual(R.get("SLO-901").przeglad, { kto: "weryfikacja zastępcza (subagent)", data: "2026-11-02", sha: "8b8e89615aa8" });
 });
 
 test("B31: raport ma zmiany po id, decyzje do weta, wynik D-043 i zadania dla toru A; bez nazw firm i wydawców", () => {
