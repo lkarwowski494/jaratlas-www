@@ -141,7 +141,8 @@ test('B10: rejestr ma ACI-400–496, ACI-500–525, SLO-460–473, NAP-063 bez k
   }
   // Niepotwierdzone po D-027 (robocze) nie trafiają do katalogu; wszystkie pozostałe potwierdzone.
   // p31: ACI-523 potwierdzone po weryfikacji zastępczej D-027 (V1 + przebieg 2, raport E3-karty-p31), użyte w kartach lodówkowych.
-  const robocze = ['ACI-428', 'ACI-515', 'SLO-467', 'NAP-063'];
+  // B25: ACI-428 potwierdzone w nowym brzmieniu B22 po przeglądzie D-027 d (2026-11-02-jaratlas-b25-katalog); nadal poza claims katalogu (tests/b25).
+  const robocze = ['ACI-515', 'SLO-467', 'NAP-063'];
   for (const id of ids) assert.equal(R.get(id).status, robocze.includes(id) ? 'robocze' : 'potwierdzone', id);
   for (const v of cat.variants) for (const c of [...(v.claims ?? []), ...(v.requiredWarnings ?? [])]) assert.ok(!robocze.includes(c), `${v.id}: ${c} robocze`);
   // Czasy wekowania przypisane do przedziałów wysokości (SPRZECZNE w 1. przebiegu D-027).

@@ -33030,7 +33030,7 @@
  },
  {
   "id": "ACI-428",
-  "twierdzenie": "NCHFP Tomatillo Green Salsa: wszystkie składniki łączy się w garnku, doprowadza do wrzenia i gotuje 20 minut; nakładać gorącą do słoików pint z 1/2 cala wolnej przestrzeni (hot pack); przepis nie przewiduje pieczenia tomatillo (usunąć suche łuski, dokładnie umyć; nie trzeba obierać ani usuwać nasion); opalanie skórki (np. w piekarniku, 400°F) opisane tylko dla długich chili.",
+  "twierdzenie": "NCHFP Tomatillo Green Salsa: wszystkie składniki łączy się w garnku, doprowadza do wrzenia, a potem na mniejszym ogniu dusi 20 minut; nakładać gorącą do słoików pint z 1/2 cala wolnej przestrzeni (hot pack); przepis nie przewiduje pieczenia tomatillo (usunąć suche łuski, dokładnie umyć; nie trzeba obierać ani usuwać nasion); opalanie skórki (np. w piekarniku, 400°F) opisane tylko dla długich chili.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-salsa/tomatillo-green-salsa/",
@@ -33050,16 +33050,21 @@
     "weryfikacja": "curl+grep (B25)"
    }
   ],
-  "status": "robocze",
+  "status": "potwierdzone",
   "uproszczenie": "„Przepis nie przewiduje pieczenia tomatillo” = wniosek z treści przepisu (tomatillo: łuski, mycie; pieczenie opisane tylko dla chili).",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "C8 E1-kapiel-zrodla-p1-2026-11-02",
   "jednoZrodlo": false,
-  "twierdzenie_en": "NCHFP Tomatillo Green Salsa: all ingredients are combined in a pot, brought to a boil and boiled 20 minutes; pack hot into pint jars with 1/2 inch headspace (hot pack); the recipe does not call for roasting the tomatillos (remove the dry husks, wash thoroughly; no need to peel or seed); roasting the skins (e.g. in an oven, 400°F) is described only for long chilies.",
-  "uwaga": "B25: brzmienie z B22 JSON (tomatillo-v06), status do potwierdzenia przeglądem D-027 d."
+  "twierdzenie_en": "NCHFP Tomatillo Green Salsa: all ingredients are combined in a pot, brought to a boil, then simmered over lower heat for 20 minutes; pack hot into pint jars with 1/2 inch headspace (hot pack); the recipe does not call for roasting the tomatillos (remove the dry husks, wash thoroughly; no need to peel or seed); blistering the skins (e.g. in an oven, 400°F) is described only for long chilies.",
+  "uwaga": "B25: brzmienie z B22 JSON (tomatillo-v06), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst) bez rozbieżności.",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-429",
@@ -57028,7 +57033,11 @@
   "status": "potwierdzone",
   "uproszczenie": "Lista składników przepisana z kolumny PDF; ilości jak w źródle, przeliczenia metryczne przybliżone.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
@@ -57065,7 +57074,11 @@
   "status": "potwierdzone",
   "uproszczenie": "Warzywa nie są gotowane (tylko zalane wrzącą zalewą); słoiki tylko pint.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
@@ -57102,7 +57115,11 @@
   "status": "potwierdzone",
   "uproszczenie": "Korekta wysokości dotyczy terenów Wisconsin; dla wyższych wysokości źródło nie daje czasu (karta: brak danych).",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
@@ -57113,7 +57130,7 @@
  },
  {
   "id": "ACI-883",
-  "twierdzenie": "Wisconsin B2267 Fall garden relish (Chowchow): po 2 szklanki (razem 16) kapusty, marchwi, ogórków, fasolki szparagowej, zielonych pomidorów, fasoli limeńskiej, cebuli i papryki słodkiej, w zalewie z białego octu 5% z cukrem, gorczycą, selerem i kurkumą; słoiki pint, 1/2 cala wolnej przestrzeni, kąpiel wodna 10 minut dla pint.",
+  "twierdzenie": "Wisconsin B2267 Fall garden relish (Chowchow): po 2 szklanki (razem 16) kapusty, marchwi, ogórków, fasolki szparagowej, zielonych pomidorów, fasoli limeńskiej, cebuli i papryki słodkiej, w zalewie z białego octu 5% z cukrem, gorczycą, nasionami selera i kurkumą; słoiki pint, 1/2 cala wolnej przestrzeni, kąpiel wodna 10 minut dla pint.",
   "zrodla": [
    {
     "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
@@ -57129,7 +57146,11 @@
   "status": "potwierdzone",
   "uproszczenie": "Relish (posiekane warzywa, 8 rodzajów); podany tylko jako najbliższy przepis do pytań, nie jako karta.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
@@ -57156,7 +57177,11 @@
   "status": "potwierdzone",
   "uproszczenie": "Dotyczy tylko pikli owocowych; dla ogórków/warzyw brak dopuszczenia.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
@@ -57183,7 +57208,11 @@
   "status": "potwierdzone",
   "uproszczenie": "Nie przenosi się na inne przepisy (ACI-016); tylko informacja dla weta przy B20-D1.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
@@ -57218,7 +57247,11 @@
   "status": "potwierdzone",
   "uproszczenie": "Kopia: tekst strony HTML (tagi usunięte); czas kąpieli: ACI-418 (pint, hot: 15/20/25 min).",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
@@ -57253,7 +57286,11 @@
   "status": "potwierdzone",
   "uproszczenie": "Ilość 6 szklanek odnosi się w źródle do mango; Guide 2 każe użyć brzoskwiń zamiast mango (wniosek: ta sama objętość brzoskwiń w kostce). Zdanie w PDF łamie się z ramką sąsiedniej tabeli (\"in place of the mango\"). Tylko brzoskwinie o żółtym miąższu (ACI-073). Żadnych dodatków (jalapeño, limonka, kolendra) ani zmian ilości octu, papryki i cebuli (ACI-040, ACI-041). Ilość brzoskwiń (6 szklanek) to wniosek z zamiany 1:1 mango → brzoskwinie; źródło nie podaje jej osobno.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
@@ -57288,7 +57325,11 @@
   "status": "potwierdzone",
   "uproszczenie": "Procedura przeniesiona z Mango Salsa na brzoskwinie przez samo USDA (Guide 2), nie przez JarAtlas.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
@@ -57323,7 +57364,11 @@
   "status": "potwierdzone",
   "uproszczenie": "Cytat tabeli po normalizacji spacji (tabela rozbita na wiersze). Brak czasu dla słoików pint: tylko 1/2 pinty. Na s. 2-24 obok Peach Salsa stoi ramka z tabelą Peach-Apple Salsa (pint 15/20/25) — należy do innego przepisu i nie dotyczy Peach Salsa.",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
@@ -57334,7 +57379,7 @@
  },
  {
   "id": "ACI-924",
-  "twierdzenie": "Wisconsin B2267: używać octu handlowego standaryzowanego na 5% kwasu octowego i takiego rodzaju, jaki podaje przepis (biały albo jabłkowy); gdy przepis nie podaje rodzaju, można użyć wymienionych octów handlowych 5%; ocet 4% nie jest dopuszczony do przetworów domowych; nie używać octu domowego ani rozcieńczonego, chyba że przepis tak podaje.",
+  "twierdzenie": "Wisconsin B2267: używać octu handlowego standaryzowanego na 5% kwasu octowego i takiego rodzaju, jaki podaje przepis (biały albo jabłkowy); gdy przepis nie podaje rodzaju, można użyć wymienionych octów handlowych 5%; ocet 4% nie jest dopuszczony do przetworów domowych; nie używać octu domowego; nie rozcieńczać octu, chyba że przepis tak podaje.",
   "zrodla": [
    {
     "adres": "https://cdn.shopify.com/s/files/1/0145/8808/4272/files/B2267.pdf",
@@ -57349,12 +57394,16 @@
   "status": "potwierdzone",
   "uproszczenie": "Źródło wymienia jako octy do pikli tylko biały, jabłkowy i aromatyzowany jabłkowo destylowany; octów balsamicznego, winnego ani słodowego nie wymienia (por. ACI-509, ACI-702).",
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "B22 B22-research-2026-11-02 (claude/jaratlas-b22-research cd85347)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "Wisconsin B2267: use commercial vinegar standardized to 5% acetic acid and of the type the recipe gives (white or cider); when the recipe does not give a type, the commercial 5% vinegars listed may be used; 4% vinegar is not approved for home canning; do not use homemade or diluted vinegar unless the recipe says so.",
+  "twierdzenie_en": "Wisconsin B2267: use commercial vinegar standardized to 5% acetic acid and of the type the recipe gives (white or cider); when the recipe does not give a type, the commercial 5% vinegars listed may be used; 4% vinegar is not approved for home canning; do not use homemade vinegar; do not dilute vinegar unless the recipe says so.",
   "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -57386,7 +57435,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -57480,7 +57533,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -57517,7 +57574,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -57591,7 +57652,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -57638,7 +57703,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -57685,7 +57754,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -57722,7 +57795,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -57806,7 +57883,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -57853,7 +57934,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -57910,7 +57995,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -57957,7 +58046,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58004,7 +58097,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58071,7 +58168,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58108,7 +58209,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58155,12 +58260,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "Ball \"Ginger Pear Marmalade\" (reprint of UCCE MFP Lassen County, UC ANR): 3 limes (peel in strips and juice), 8 cups thinly sliced cored peeled pears (firm, ripe), 4 cups sugar, 3 tablespoons chopped crystallized ginger, 1 1/4 cups water; about 4 jars of 8 ounces (about 250 ml); variation: instead of limes 2 lemons or 1 large orange.",
+  "twierdzenie_en": "Ball \"Ginger Pear Marmalade\" (reprinted by UCCE MFP Lassen County, UC ANR): 3 limes (peel in strips and juice), 8 cups thinly sliced cored peeled pears (firm, ripe), 4 cups sugar, 3 tablespoons chopped crystallized ginger, 1 1/4 cups water; about 4 jars of 8 ounces (about 250 ml); variation: instead of limes 2 lemons or 1 large orange.",
   "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -58202,12 +58311,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "Ball \"Ginger Pear Marmalade\" (reprint of UCCE MFP Lassen): let the pears with lime juice, sugar and ginger stand for 1 h; full boil 15 min, add the peel, cook to the gel point (about 5 min); 1/4 inch (about 0.6 cm) headspace; process 10 min in a boiling water canner (elevation not given).",
+  "twierdzenie_en": "Ball \"Ginger Pear Marmalade\" (reprinted by UCCE MFP Lassen): let the pears with lime juice, sugar and ginger stand for 1 h; full boil 15 min, add the peel, cook to the gel point (about 5 min); 1/4 inch (about 0.6 cm) headspace; process 10 min in a boiling water canner (elevation not given).",
   "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -58259,12 +58372,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "According to the Ball \"Rhubarb-Orange Jam\" recipe (reprint of UC MFP, file 2-0013): 2 1/2 pounds (about 1.13 kg) rhubarb (about 10–18 stalks), 2 medium oranges, 6 tablespoons Ball Classic pectin, 6 cups sugar; yield about 6 half-pint jars.",
+  "twierdzenie_en": "According to the Ball \"Rhubarb-Orange Jam\" recipe (reprinted by UC MFP, file 2-0013): 2 1/2 pounds (about 1.13 kg) rhubarb (about 10–18 stalks), 2 medium oranges, 6 tablespoons Ball Classic pectin, 6 cups sugar; yield about 6 half-pint jars.",
   "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -58316,7 +58433,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58373,7 +58494,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58450,12 +58575,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "According to the Ball \"Quick Lemon Ginger Marmalade\" recipe (reprint of UCCE MFP, UC ANR): 6 small lemons, 1/2 teaspoon baking soda, 2 1/2 cups water, 1/2 cup (6 ounces) coarsely grated fresh gingerroot, 1 package (1.75 ounces) regular powdered pectin, 6 1/2 cups sugar; yield about 7 half-pint jars.",
+  "twierdzenie_en": "According to the Ball \"Quick Lemon Ginger Marmalade\" recipe (reprinted by UCCE MFP, UC ANR): 6 small lemons, 1/2 teaspoon baking soda, 2 1/2 cups water, 1/2 cup (6 ounces) coarsely grated fresh gingerroot, 1 package (1.75 ounces) regular powdered pectin, 6 1/2 cups sugar; yield about 7 half-pint jars.",
   "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -58497,7 +58626,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58544,7 +58677,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58611,7 +58748,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58658,7 +58799,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58705,7 +58850,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58742,7 +58891,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58789,7 +58942,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58826,7 +58983,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58873,7 +59034,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58910,7 +59075,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58947,7 +59116,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -58994,7 +59167,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -59031,7 +59208,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -59088,7 +59269,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -59145,7 +59330,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -59192,7 +59381,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -59239,7 +59432,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -59286,7 +59483,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -59343,7 +59544,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -59380,7 +59585,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -59427,7 +59636,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -59484,7 +59697,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
@@ -59495,7 +59712,7 @@
  },
  {
   "id": "SLO-877",
-  "twierdzenie": "USU Pomegranate Jelly: sok z granatu, sok z cytryny i pektynę doprowadzić do wrzenia, wmieszać cukier, znów do wrzenia i gotować bez przykrycia 2 min; zebrać pianę, nalać do gorących słoików 1/2 pinty z ok. 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna, hot pack, 1/2 pinty: 5 min do 1000 stóp, powyżej +1 min na każde 1000 stóp.",
+  "twierdzenie": "USU Pomegranate Jelly: sok z granatu, sok z cytryny i pektynę doprowadzić do wrzenia, wmieszać cukier, znów do wrzenia i gotować bez przykrycia 2 min; zebrać pianę, nalać do gorących, wysterylizowanych słoików 1/2 pinty (USU: słoiki do procesu krótszego niż 10 min sterylizować 10 min we wrzątku) z ok. 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna, hot pack, 1/2 pinty: 5 min do 1000 stóp, powyżej +1 min na każde 1000 stóp.",
   "zrodla": [
    {
     "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
@@ -59531,12 +59748,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "USU Pomegranate Jelly: bring the pomegranate juice, lemon juice and pectin to a boil, stir in the sugar, return to a boil and boil uncovered 2 min; skim off the foam, pour into hot half-pint jars to about 1/4 inch (about 0.6 cm) from the tops; boiling water bath, hot pack, half-pints: 5 min up to 1000 feet, above that +1 min for each 1000 feet.",
+  "twierdzenie_en": "USU Pomegranate Jelly: bring the pomegranate juice, lemon juice and pectin to a boil, stir in the sugar, return to a boil and boil uncovered 2 min; skim off the foam, pour into hot, sterilized half-pint jars (USU: jars processed for less than 10 minutes are sterilized in boiling water for 10 minutes) to about 1/4 inch (about 0.6 cm) from the tops; boiling water bath, hot pack, half-pints: 5 min up to 1000 feet, above that +1 min for each 1000 feet.",
   "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -59568,12 +59789,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "Ball Elderberry Jelly (reprint of Penn State Extension, 2026): 650 g elderberry juice (about 3 cups), 62 g Ball Classic pectin, 130 g bottled lemon juice from concentrate, 1100 g sugar; the ingredients must be weighed, not measured in cups, and bottled lemon juice must be used (consistent acidity); the recipe is based on a specific ratio of sugar, elderberry juice and lemon juice.",
+  "twierdzenie_en": "Ball Elderberry Jelly (reprinted by Penn State Extension, 2026): 650 g elderberry juice (about 3 cups), 62 g Ball Classic pectin, 130 g bottled lemon juice from concentrate, 1100 g sugar; the ingredients must be weighed, not measured in cups, and bottled lemon juice must be used (consistent acidity); the recipe is based on a specific ratio of sugar, elderberry juice and lemon juice.",
   "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -59615,12 +59840,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "pochodzenie": "B23 B23-research-2026-11-02 (claude/jaratlas-b23-research f9875ff)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "Ball Elderberry Jelly (reprint of Penn State): drain the juice from berries (stems removed) cooked 5–10 min through a bag for at least 2 h; bring the juice, lemon juice and pectin to a boil, add the sugar, full rolling boil 1 min; ladle into hot jars to within 1/4 inch (about 0.6 cm) headspace; boiling water bath, half-pint jars 10 min, adjusting for altitude (the reprint does not give it).",
+  "twierdzenie_en": "Ball Elderberry Jelly (reprinted by Penn State): drain the juice from berries (stems removed) cooked 5–10 min through a bag for at least 2 h; bring the juice, lemon juice and pectin to a boil, add the sugar, full rolling boil 1 min; ladle into hot jars to within 1/4 inch (about 0.6 cm) headspace; boiling water bath, half-pint jars 10 min, adjusting for altitude (the reprint does not give it).",
   "uwaga": "Wpis B25 (2026-11-02-jaratlas-b25-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
  }
