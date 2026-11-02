@@ -5,6 +5,7 @@
 import { readFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 import { sprawdzCatalogBezPrywatnych } from './zrodla-prywatne.mjs';
+import { POWODY_OSTRZEZENIA, bladPowoduOstrzezenia } from '../site/konfiguracja.mjs';
 
 export const METHODS = ['refrigerator', 'freezer', 'water-bath', 'pressure-canning', 'low-temp-pasteurization', 'dry-storage', 'cool-storage', 'none'];
 export const STATUSES = ['ok-zrodlo', 'do-researchu', 'ryzyko-wysokie', 'nie-publikowac'];
@@ -25,12 +26,7 @@ export const WYJATKI_NISKOKWASOWE = Object.freeze({
   'pineapple-banana-v07': Object.freeze({ productId: 'pineapple-banana', acidBasis: 'natural-acid', claims: Object.freeze(['ACI-153']), decyzja: '2026-11-02-jaratlas-06-katalog-a2', powod: 'grupa produktu niskokwasowa przez banana; wariant to sam ananas (pH FDA 3,20–4,00, ACI-153), NCHFP Pineapple bez dodatku kwasu' }),
 });
 
-// Powód karty-ostrzeżenia (C13, B18-D2, E3-karty-p33 §2; decyzja Claude, do weta, 2026-11-02-jaratlas-c13-kod): słownik zamknięty
-// powód → statusy, przy których wolno go podać. „Brak sprawdzonego źródła” tylko przy nie-publikowac: przy ryzyko-wysokie zaniżałby ryzyko.
-// Pole opcjonalne (istniejące karty-ostrzeżenia go nie mają); tekst na stronie tylko z site/teksty/{lang}.json → powodyOstrzezenia (rola 04).
-export const POWODY_OSTRZEZENIA = Object.freeze({
-  'brak-sprawdzonego-zrodla': Object.freeze({ statusy: Object.freeze(['nie-publikowac']) }),
-});
+export { POWODY_OSTRZEZENIA }; // słownik w site/konfiguracja.mjs: wspólny dla walidatora i buildu (przegląd D-043 C13 P2-1)
 
 export function validateCatalog(cat, rejestr = []) {
   const errors = [], warnings = [];
@@ -138,12 +134,7 @@ export function validateCatalog(cat, rejestr = []) {
     if (v.cardType !== undefined && v.cardType !== 'warning') errors.push(`${g}: cardType „${v.cardType}” spoza słownika (tylko warning)`);
     else if (OSTRZEGAWCZE.includes(v.safetyStatus) && v.cardType !== 'warning') errors.push(`${g}: ${v.safetyStatus} wymaga cardType warning`);
     else if (!OSTRZEGAWCZE.includes(v.safetyStatus) && v.cardType === 'warning') errors.push(`${g}: cardType warning tylko przy ryzyko-wysokie i nie-publikowac (jest ${v.safetyStatus})`);
-    if (Object.hasOwn(v, 'warningReason')) {
-      const pw = typeof v.warningReason === 'string' && Object.hasOwn(POWODY_OSTRZEZENIA, v.warningReason) ? POWODY_OSTRZEZENIA[v.warningReason] : undefined;
-      if (!pw) errors.push(`${g}: warningReason „${v.warningReason}” spoza słownika (${Object.keys(POWODY_OSTRZEZENIA).join(', ')})`);
-      else if (v.cardType !== 'warning') errors.push(`${g}: warningReason tylko na karcie-ostrzeżeniu (cardType warning)`);
-      else if (!pw.statusy.includes(v.safetyStatus)) errors.push(`${g}: warningReason „${v.warningReason}” niedozwolony przy ${v.safetyStatus} (tylko ${pw.statusy.join(', ')})`);
-    }
+    if (Object.hasOwn(v, 'warningReason')) { const b = bladPowoduOstrzezenia(v); if (b) errors.push(`${g}: ${b}`); }
     if (v.publication === 'opublikowana') {
       if (v.scope !== 'in') errors.push(`${g}: opublikowana poza zakresem`);
       if (!v.content) errors.push(`${g}: opublikowana bez treści karty (content)`);

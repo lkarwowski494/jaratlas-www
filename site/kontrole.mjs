@@ -1,5 +1,5 @@
 // Kontrole publikacji (ścieżki ryzyka R2–R4, docs/architektura/ryzyka.md). Czyste funkcje: zwracają listy błędów.
-import { ZNACZNIKI_ZASLEPEK } from './konfiguracja.mjs';
+import { ZNACZNIKI_ZASLEPEK, bladPowoduOstrzezenia } from './konfiguracja.mjs';
 
 const teksty = (x) => (typeof x === 'string' ? [x] : x && typeof x === 'object' ? Object.values(x).flatMap(teksty) : []);
 const znalezione = (x) => ZNACZNIKI_ZASLEPEK.filter((re) => teksty(x).some((t) => re.test(t))).map((re) => re.source.replace(/\\b|\\/g, '').replace(/^lorem ipsum$/, 'lorem ipsum'));
@@ -83,8 +83,11 @@ export function kontrolaPrzekierowan(strony, adresy = {}) {
 export function kontrolaPowoduOstrzezenia(strony, katalog, ui) {
   const bledy = [], V = new Map(katalog.variants.map((v) => [v.id, v]));
   for (const st of strony.filter((s) => s.typ === 'wariant')) {
-    const powod = V.get(st.id)?.warningReason;
-    if (powod === undefined) continue;
+    const v = V.get(st.id);
+    if (!v || !Object.hasOwn(v, 'warningReason')) continue;
+    const powod = v.warningReason;
+    const b = bladPowoduOstrzezenia(v); // przegląd D-043 C13 P2-1: słownik, status i cardType także w buildzie, nie tylko w check:catalog
+    if (b) { bledy.push(`${st.lang}/${st.id}: ${b}`); continue; }
     const p = ui?.[st.lang]?.powodyOstrzezenia;
     const t = p && typeof p === 'object' && Object.hasOwn(p, powod) ? p[powod] : undefined;
     if (!napis(t)) bledy.push(`${st.lang}/${st.id}: brak tekstu powodu karty-ostrzeżenia „${powod}” (site/teksty/${st.lang}.json → powodyOstrzezenia)`);
