@@ -4775,7 +4775,7 @@
  },
  {
   "id": "ACI-067",
-  "twierdzenie": "Syrop w wekowanych owocach chroni smak, kolor i kształt, ale nie zapobiega zepsuciu; owoce można pakować w syropie bardzo lekkim (ok. 10% cukru) do ciężkiego, w soku lub wodzie.",
+  "twierdzenie": "Syrop w wekowanych owocach chroni smak, kolor i kształt, ale nie zapobiega zepsuciu; tabela NCHFP podaje syropy od bardzo lekkiego (ok. 10% cukru) do ciężkiego.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
@@ -4800,6 +4800,15 @@
     "miejsce": "NCHFP (nchfp.uga.edu): Preparing and Using Syrups for Canning Fruit",
     "cytat": "Very Light 10 6-1/2 3/4 10-1/2 1-1/4",
     "odczyt": "2026-11-01",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e16de398eeee"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/preparing-and-using-syrups-for-canning-fruit/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Preparing and Using Syrups for Canning Fruit",
+    "cytat": "Heavy 40 5 3-1/4 7-3/4 5-1/4",
+    "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "e16de398eeee"
@@ -30289,5 +30298,353 @@
    "sha": "c9e1401a443a"
   },
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-182",
+  "twierdzenie": "NCHFP Berry Syrup: wydajność ok. 9 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Syrup, Yield",
+    "cytat": "Yield: About 9 half-pints.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b909ff43ac67"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-183",
+  "twierdzenie": "NCHFP Berry Syrup, przygotowanie soku: 6½ szklanki świeżych lub mrożonych owoców z listy; świeże owoce umyć, oczyścić z szypułek i rozgnieść w rondlu; zagotować i dusić do miękkości (5–10 minut); odcedzić na gorąco przez durszlak i zostawić do ostygnięcia na tyle, by dało się je dotknąć; zebrany sok przecedzić przez podwójną gazę albo worek do galaretek; suchą miazgę wyrzucić; wydajność soku ok. 4½–5 szklanek.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Syrup, Procedure",
+    "cytat": "Select 6½ cups of fresh or frozen fruit of your choice from the list above. Wash, cap, and stem fresh fruit and crush in a saucepan.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b909ff43ac67"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Syrup, Procedure",
+    "cytat": "Heat to boiling and simmer until soft (5 to 10 minutes). Strain hot through a colander and drain until cool enough to handle.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b909ff43ac67"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Syrup, Procedure",
+    "cytat": "Strain the collected juice through a double layer of cheesecloth or jelly bag. Discard the dry pulp. The yield of the pressed juice should be about 4½ to 5 cups.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b909ff43ac67"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-184",
+  "twierdzenie": "NCHFP Berry Syrup, gotowanie: sok połączyć z 6¾ szklanki cukru w dużym rondlu, zagotować i gotować na małym ogniu 1 minutę; syrop z kawałkami owoców: odłożyć 1–2 szklanki świeżych lub mrożonych owoców, połączyć je z cukrem i gotować jak zwykły syrop.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Syrup, Procedure",
+    "cytat": "Combine the juice with 6¾ cups of sugar in a large saucepan, bring to boil, and simmer 1 minute.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b909ff43ac67"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Syrup, Procedure",
+    "cytat": "To make a syrup with whole fruit pieces, save 1 or 2 cups of the fresh or frozen fruit, combine these with the sugar, and simmer as in making regular syrup.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b909ff43ac67"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-185",
+  "twierdzenie": "NCHFP Berry Syrup, napełnianie: zdjąć z ognia, zebrać pianę, nalać do czystych słoików 1/2 pinty lub pint, zostawiając ½ cala (ok. 1,3 cm) wolnej przestrzeni; założyć pokrywki i wekować według tabeli 1.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Syrup, Procedure",
+    "cytat": "Remove from heat, skim off foam, and fill into clean half-pint or pint jars, leaving ½-inch headspace. Adjust lids and process according to the recommendations in Table 1 .",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b909ff43ac67"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-186",
+  "twierdzenie": "NCHFP Berry Syrup, tabela 1 (kąpiel wodna, hot): czasy tylko dla słoików 1/2 pinty i pint; 0–1000 stóp: 10 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Syrup, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Half-pints or Pints 10 min 15 20",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b909ff43ac67"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-187",
+  "twierdzenie": "NCHFP Fruit Purées, przygotowanie: owoce oczyścić z szypułek, umyć, odsączyć, obrać i w razie potrzeby usunąć pestki; odmierzyć do dużego rondla, ewentualnie lekko rozgnieść; dodać 1 szklankę gorącej wody na każdy quart owoców; gotować powoli do miękkości, często mieszając; przetrzeć przez sito albo młynek do przecierania.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/fruit-purees/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Fruit Pureés, Procedure",
+    "cytat": "Stem, wash, drain, peel, and remove pits if necessary. Measure fruit into large saucepan, crushing slightly if desired. Add 1 cup hot water for each quart of fruit.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "53e62830246d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/fruit-purees/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Fruit Pureés, Procedure",
+    "cytat": "Cook slowly until fruit is soft, stirring frequently. Press through sieve or food mill.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "53e62830246d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-188",
+  "twierdzenie": "NCHFP Fruit Purées, napełnianie: dla smaku można dodać cukier do smaku; przecier ponownie zagotować albo podgrzać do rozpuszczenia cukru, jeśli dodany; nałożyć na gorąco do czystych słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; założyć pokrywki i wekować.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/fruit-purees/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Fruit Pureés, Procedure",
+    "cytat": "If desired for flavor, add sugar to taste. Reheat pulp to boil, or until sugar dissolves if added. Fill hot into clean jars, leaving 1/4-inch headspace. Adjust lids and process.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "53e62830246d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-189",
+  "twierdzenie": "NCHFP Fruit Purées, tabela 1 (kąpiel wodna, hot): czasy tylko dla słoików pint i quart; 0–1000 stóp: 15 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/fruit-purees/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Fruit Pureés, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Pints or Quarts 15 min 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "53e62830246d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-190",
+  "twierdzenie": "NCHFP Identifying and Handling Spoiled Canned Food: nie próbować jedzenia ze słoika z niezamkniętą pokrywką ani jedzenia z oznakami zepsucia.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Identifying and Handling Spoiled Canned Food, pierwszy akapit",
+    "cytat": "Do not taste food from a jar with an unsealed lid or food that shows signs of spoilage.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "162ea4a886fa"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-191",
+  "twierdzenie": "NCHFP Identifying and Handling Spoiled Canned Food: oznaki zepsucia słoika z przetworami: pokrywka nieszczelna lub bez podciśnienia (dobre zamknięcie ma wklęsły środek), zaschnięte zacieki jedzenia od góry słoika, unoszące się pęcherzyki powietrza i nienaturalny kolor; przy otwieraniu nienaturalny zapach, tryskający płyn i pleśń przypominająca watę na powierzchni jedzenia albo pod pokrywką.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Identifying and Handling Spoiled Canned Food, akapit o sprawdzaniu słoików",
+    "cytat": "As each stored jar is selected for use, examine its lid for tightness and vacuum. Lids with concave centers have good seals.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "162ea4a886fa"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Identifying and Handling Spoiled Canned Food, akapit o sprawdzaniu słoików",
+    "cytat": "Next, while holding the jar upright at eye level, rotate the jar and examine its outside surface for streaks of dried food originating at the top of the jar. Look at the contents for rising air bubbles and unnatural color.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "162ea4a886fa"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Identifying and Handling Spoiled Canned Food, akapit o sprawdzaniu słoików",
+    "cytat": "While opening the jar, smell for unnatural odors and look for spurting liquid and cotton-like mold growth (white, blue, black, or green) on the top food surface and underside of lid.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "162ea4a886fa"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-192",
+  "twierdzenie": "NCHFP Berry Syrup, tabela 1 (kąpiel wodna, hot): słoiki 1/2 pinty i pint, 1001–6000 stóp: 15 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Syrup, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Half-pints or Pints 10 min 15 20",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b909ff43ac67"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-193",
+  "twierdzenie": "NCHFP Berry Syrup, tabela 1 (kąpiel wodna, hot): słoiki 1/2 pinty i pint, powyżej 6000 stóp: 20 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berry-syrup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Berry Syrup, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Half-pints or Pints 10 min 15 20",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b909ff43ac67"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-194",
+  "twierdzenie": "NCHFP Fruit Purées, tabela 1 (kąpiel wodna, hot): słoiki pint i quart, 1001–6000 stóp: 20 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/fruit-purees/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Fruit Pureés, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Pints or Quarts 15 min 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "53e62830246d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-195",
+  "twierdzenie": "NCHFP Fruit Purées, tabela 1 (kąpiel wodna, hot): słoiki pint i quart, powyżej 6000 stóp: 25 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/fruit-purees/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Fruit Pureés, Table 1",
+    "cytat": "Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Pints or Quarts 15 min 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "53e62830246d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
  }
 ]

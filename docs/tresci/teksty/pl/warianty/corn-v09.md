@@ -67,3 +67,5 @@ Reguła JarAtlas (NCHFP nie bada słoików metrycznych): pint mieści ok. 473 ml
 ## Kiedy wyrzucić
 
 Galaretkę z pleśnią wyrzuć; USDA i mikrobiolodzy odradzają zbieranie pleśni i jedzenie reszty. [T:SLO-012]
+
+Otwarty słoik regularnie sprawdzaj, czy nie ma oznak zepsucia, takich jak pleśń, drożdże albo obcy zapach, w tym zapach fermentacji, drożdży lub alkoholu; jeśli je zauważysz, wyrzuć cały słoik. [T:SLO-181,SLO-013]

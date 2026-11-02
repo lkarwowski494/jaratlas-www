@@ -1,0 +1,67 @@
+# Sour cherry syrup (NCHFP Berry Syrup)
+
+This card describes the NCHFP Berry Syrup recipe made with sour cherries, processed in a boiling-water bath. [T:SLO-049,SLO-089]
+
+## Ingredients
+
+NCHFP gives this recipe for juices of blueberries, cherries, grapes, raspberries (black or red) and strawberries, and says to use it only with the fruit listed. [T:SLO-049]
+
+The list says only "cherries"; the NCHFP table for whole cherries covers sweet or sour cherries, so JarAtlas treats sour cherries as included; make the recipe exactly as written. [T:SLO-049,ACI-243]
+
+NCHFP uses 6½ cups of fresh or frozen fruit and 6¾ cups of sugar. [T:SLO-183,SLO-184]
+
+The recipe makes about 9 half-pint jars. [T:SLO-182]
+
+NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
+
+## Making the juice
+
+Wash fresh fruit, remove the stems and crush it in a saucepan. [T:SLO-183]
+
+Bring to a boil and simmer until soft, 5 to 10 minutes. [T:SLO-183]
+
+Strain hot through a colander and let it drain until cool enough to handle. [T:SLO-183]
+
+Strain the collected juice through a double layer of cheesecloth or a jelly bag and discard the dry pulp. [T:SLO-183]
+
+You should get about 4½ to 5 cups of juice. [T:SLO-183]
+
+## Making the syrup
+
+Combine the juice with 6¾ cups of sugar in a large saucepan, bring to a boil and simmer for 1 minute. [T:SLO-184]
+
+For a syrup with whole fruit pieces, set aside 1 or 2 cups of the fresh or frozen fruit, combine them with the sugar and simmer as for regular syrup. [T:SLO-184]
+
+## Canning
+
+Remove from the heat, skim off the foam and fill clean half-pint or pint jars, leaving 1/2 inch (about 1.3 cm) of headspace. [T:SLO-185]
+
+Put on the lids and process in a boiling-water canner. [T:SLO-185]
+
+At 0–1000 ft (up to 300 m) process half-pint and pint jars for 10 minutes. [T:SLO-186,ACI-176]
+
+Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
+
+At 1001–6000 ft (above 300 m up to 1800 m) process them for 15 minutes. [T:SLO-192,ACI-176]
+
+Above 6000 ft (above 1800 m) process them for 20 minutes. [T:SLO-193,ACI-176]
+
+The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m and 6000 ft becomes 1800 m. [T:ACI-176]
+
+Shortening the time or cooling jars in cold water can also lead to spoilage. [T:ACI-015]
+
+The NCHFP table gives times only for half-pint and pint jars. [T:SLO-186]
+
+JarAtlas rule (NCHFP does not test metric jars): a pint holds about 473 ml, so a 0.5 l jar has no tested time in this recipe; use jars of up to 473 ml. [T:ACI-179,ACI-174]
+
+## When to throw it out
+
+Before using a stored jar, check that the lid is tight and holds a vacuum: a good seal has a concave centre. [T:SLO-191]
+
+Look for streaks of dried food running from the top of the jar, rising air bubbles and unnatural colour. [T:SLO-191]
+
+When opening the jar, check for an unnatural smell, spurting liquid and cotton-like mould on the food or under the lid. [T:SLO-191]
+
+Do not taste food from a jar with an unsealed lid or with signs of spoilage. [T:SLO-190]
+
+JarAtlas rule (cautious): throw out such a jar. [T:SLO-190]

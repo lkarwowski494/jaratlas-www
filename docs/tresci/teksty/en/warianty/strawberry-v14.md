@@ -1,0 +1,63 @@
+# Strawberry purée (NCHFP Fruit Purées)
+
+This card describes the NCHFP method for canning fruit purée, made with strawberries, in a boiling-water bath. [T:SLO-093,SLO-187]
+
+## Which fruit
+
+NCHFP says these directions should not be used with bananas, dates, figs, Asian pears, tomatoes, cantaloupe and other melons, papaya, persimmons, ripe mango or coconut; there are no home canning recommendations for purées of these. [T:SLO-054]
+
+Strawberries are not on this list. [T:SLO-054]
+
+NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
+
+## Making the purée
+
+Remove the stems, wash and drain the fruit; peel it and remove pits if necessary. [T:SLO-187]
+
+Measure the fruit into a large saucepan, crushing it slightly if you like. [T:SLO-187]
+
+Add 1 cup of hot water for each quart of fruit (US measures). [T:SLO-187]
+
+Cook slowly until the fruit is soft, stirring often. [T:SLO-187]
+
+Press it through a sieve or food mill. [T:SLO-187]
+
+## Canning
+
+If you like, add sugar to taste. [T:SLO-188]
+
+Reheat the purée to boiling, or until the sugar dissolves if you added it. [T:SLO-188]
+
+Fill it hot into clean jars, leaving 1/4 inch (about 0.6 cm) of headspace. [T:SLO-188]
+
+Put on the lids and process in a boiling-water canner. [T:SLO-188,SLO-093]
+
+At 0–1000 ft (up to 300 m) process pint and quart jars for 15 minutes. [T:SLO-189,ACI-176]
+
+Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
+
+At 1001–6000 ft (above 300 m up to 1800 m) process them for 20 minutes. [T:SLO-194,ACI-176]
+
+Above 6000 ft (above 1800 m) process them for 25 minutes. [T:SLO-195,ACI-176]
+
+The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m and 6000 ft becomes 1800 m. [T:ACI-176]
+
+Shortening the time or cooling jars in cold water can also lead to spoilage. [T:ACI-015]
+
+NCHFP times are for US jar sizes: a pint holds about 473 ml and a quart about 946 ml. [T:ACI-174]
+
+JarAtlas rule (NCHFP does not test metric jars): this table gives one time for pints and quarts, so use it for jars of up to 946 ml, for example 0.5 l or 0.9 l. [T:ACI-175,SLO-189]
+
+This NCHFP recipe gives no time for jars larger than a quart, such as 1 l, so JarAtlas recommends smaller jars. [T:ACI-175]
+
+## When to throw it out
+
+Before using a stored jar, check that the lid is tight and holds a vacuum: a good seal has a concave centre. [T:SLO-191]
+
+Look for streaks of dried food running from the top of the jar, rising air bubbles and unnatural colour. [T:SLO-191]
+
+When opening the jar, check for an unnatural smell, spurting liquid and cotton-like mould on the food or under the lid. [T:SLO-191]
+
+Do not taste food from a jar with an unsealed lid or with signs of spoilage. [T:SLO-190]
+
+JarAtlas rule (cautious): throw out such a jar. [T:SLO-190]

@@ -67,3 +67,5 @@ Regular full-sugar cooked jams like this one are best kept in the refrigerator f
 ## When to throw it out
 
 Discard jam with mold on it; USDA and microbiologists advise against scooping out the mold and eating the rest. [T:SLO-012]
+
+Check an opened jar regularly for signs of spoilage such as mold, yeast or an off odor, including a fermented, yeasty or alcohol smell; if you find any, throw out the whole jar. [T:SLO-181,SLO-013]

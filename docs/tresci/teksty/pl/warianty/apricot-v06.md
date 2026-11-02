@@ -67,3 +67,5 @@ Otwarty dżem trzymaj w lodówce w 40 °F (ok. 4 °C) lub niżej. [T:SLO-018]
 Zwykłe gotowane dżemy z pełną ilością cukru, takie jak ten, najlepiej trzymać w lodówce przez 1 miesiąc od otwarcia. [T:SLO-018]
 
 Dżem z pleśnią wyrzuć; USDA i mikrobiolodzy odradzają zbieranie pleśni i jedzenie reszty. [T:SLO-012]
+
+Otwarty słoik regularnie sprawdzaj, czy nie ma oznak zepsucia, takich jak pleśń, drożdże albo obcy zapach, w tym zapach fermentacji, drożdży lub alkoholu; jeśli je zauważysz, wyrzuć cały słoik. [T:SLO-181,SLO-013]
