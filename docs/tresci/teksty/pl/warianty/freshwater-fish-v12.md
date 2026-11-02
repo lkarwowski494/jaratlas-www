@@ -58,7 +58,7 @@ Według tego samego źródła zamrażalnik w lodówce, który nie utrzymuje 0 °
 
 Trzymaj w zamrażarce 0 °F (−18 °C) lub mniej, bo w wyższej temperaturze żywność szybciej traci jakość; trzymaj w niej termometr i często go sprawdzaj. [T:SLO-255]
 
-Mrożenie nie zabija wszystkich bakterii, drożdży i pleśni, tylko zatrzymuje ich namnażanie, dopóki żywność jest w 0 °F (−18 °C) lub niżej; po rozmrożeniu mogą znów się namnażać. [T:SLO-401]
+Mrożenie nie zabija wszystkich bakterii, drożdży i pleśni, tylko zatrzymuje ich namnażanie, dopóki żywność jest przechowywana w 0 °F (−18 °C) lub niżej; po rozmrożeniu mogą znów się namnażać. [T:SLO-401]
 
 Żywność trzymana stale w 0 °F (−18 °C) jest bezpieczna bezterminowo, a zalecane czasy przechowywania dotyczą tylko jakości: po ich upływie żywność jest nadal bezpieczna, ale gorsza w smaku, barwie i strukturze. [T:SLO-400]
 

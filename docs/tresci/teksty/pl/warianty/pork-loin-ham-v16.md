@@ -52,7 +52,7 @@ Według tego samego źródła zamrażalnik w lodówce, który nie utrzymuje 0 °
 
 Trzymaj w zamrażarce 0 °F (−18 °C) lub mniej, bo w wyższej temperaturze żywność szybciej traci jakość; trzymaj w niej termometr i często go sprawdzaj. [T:SLO-255]
 
-Mrożenie nie zabija wszystkich bakterii, drożdży i pleśni, tylko zatrzymuje ich namnażanie, dopóki żywność jest w 0 °F (−18 °C) lub niżej; po rozmrożeniu mogą znów się namnażać. [T:SLO-401]
+Mrożenie nie zabija wszystkich bakterii, drożdży i pleśni, tylko zatrzymuje ich namnażanie, dopóki żywność jest przechowywana w 0 °F (−18 °C) lub niżej; po rozmrożeniu mogą znów się namnażać. [T:SLO-401]
 
 Żywność trzymana stale w 0 °F (−18 °C) jest bezpieczna bezterminowo, a zalecane czasy przechowywania dotyczą tylko jakości: po ich upływie żywność jest nadal bezpieczna, ale gorsza w smaku, barwie i strukturze. [T:SLO-400]
 
@@ -82,7 +82,7 @@ Mięso, ryby i drób możesz gotować prosto z zamrażarki, ale trzeba doliczyć
 
 Dla najlepszej jakości rozmrożone mięso albo rybę gotuj od razu. [T:SLO-407]
 
-Według FDA kotlety, pieczenie i steki wieprzowe oraz surową szynkę gotuj do temperatury wewnętrznej co najmniej 145 °F (ok. 63 °C) i zostaw na 3 minuty odpoczynku, a mieloną wieprzowinę do co najmniej 160 °F (ok. 72 °C). [T:MIE-117]
+Według FDA kotlety, pieczenie i steki wieprzowe oraz niegotowaną szynkę (świeżą albo wędzoną) gotuj do temperatury wewnętrznej co najmniej 145 °F (ok. 63 °C) i zostaw na 3 minuty odpoczynku, a mieloną wieprzowinę do co najmniej 160 °F (ok. 72 °C). [T:MIE-117]
 
 Używaj termometru do żywności: według FDA barwa i konsystencja nie są wiarygodnym wskaźnikiem bezpieczeństwa. [T:MIE-117]
 

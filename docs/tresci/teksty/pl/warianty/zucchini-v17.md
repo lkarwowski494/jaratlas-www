@@ -92,7 +92,7 @@ Jeśli rozmrażasz tartą cukinię do pieczenia, rób to tylko jednym z powyższ
 
 ## Kiedy wyrzucić
 
-Mrożenie nie zabija wszystkich bakterii, drożdży i pleśni w żywności; tylko zatrzymuje ich namnażanie, dopóki żywność jest w 0 °F (−18 °C) lub niżej. [T:SLO-401]
+Mrożenie nie zabija wszystkich bakterii, drożdży i pleśni w żywności; tylko zatrzymuje ich namnażanie, dopóki żywność jest przechowywana w 0 °F (−18 °C) lub niżej. [T:SLO-401]
 
 Żywność jest bezpieczna, dopóki pozostaje zamrożona, ale gdy się rozmrozi i ogrzeje powyżej 40 °F (ok. 4 °C), bakterie obecne przed zamrożeniem mogą zacząć się namnażać. [T:SUS-059]
 

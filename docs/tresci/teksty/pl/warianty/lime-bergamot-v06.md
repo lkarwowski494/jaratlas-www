@@ -10,7 +10,7 @@ Pozostałe składniki to 2 1/2 szklanki drobnego cukru, 3/4 szklanki zimnego nie
 
 Użyj butelkowanego soku z limonki, jak każe wariant przepisu: NCHFP używa soku butelkowanego, żeby ujednolicić kwasowość, bo kwasowość świeżego soku bywa różna. [T:SLO-043,SLO-039]
 
-Reguła JarAtlas (ostrożna): NCHFP przetestowało tylko ten przepis i nie zaleca wekowania innych kremów cytrusowych ani owocowych, więc nie zmieniaj ilości soku, cukru, jajek ani masła i nie zastępuj soku butelkowanego świeżym. [T:SLO-763]
+Reguła JarAtlas (ostrożna): NCHFP podaje tylko ten przepis (z wariantem z limonką) i obecnie nie zaleca wekowania innych kremów cytrusowych ani owocowych, więc nie zmieniaj ilości soku, cukru, jajek ani masła i nie zastępuj soku butelkowanego świeżym. [T:SLO-763]
 
 Zakres JarAtlas: ta karta dotyczy tylko lime curd; innych kremów cytrusowych typu curd, np. z bergamotki, NCHFP obecnie nie zaleca wekować. [T:SLO-043]
 
