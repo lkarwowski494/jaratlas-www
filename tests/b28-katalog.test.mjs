@@ -118,7 +118,10 @@ test("B28: FER-128 z tego samego źródła co FER-127, krytyczne, z przeglądem;
   assert.equal(t.status, "potwierdzone"); assert.equal(t.krytyczne, true); assert.equal(t.przeglad?.kto, "weryfikacja zastępcza (subagent)");
   assert.ok(t.zrodla.every((z) => z.adres === f.zrodla[0].adres && z.szczebel === 3 && z.sha12 === "11a2faef1fe0"));
   assert.ok(t.zrodla[0].cytat.startsWith("Never make this recipe in a glass container.") && !TERMIN_RE.test(t.twierdzenie));
-  assert.equal(h(t), "5133ce70fa05", "FER-128 przypięte (D-043 B28 P2-4)");
+  // p37 (decyzja Claude, do weta): przypięta treść wpisu bez pól przeglądu; przeglad.sha zmienia pierwsza karta z FER-128 (ginger-turmeric-v03),
+  // tak jak STARE_H wyżej dopuszcza zmianę pól, których B28 nie dotyka. Wartość policzona na 67db60d (przed p37) = treść B28 bez zmian.
+  const { przeglad: _p, weryfikacjaZastepcza: _w, ...tresc } = t;
+  assert.equal(h(tresc), "f93a0f8aa96c", "FER-128 przypięte (D-043 B28 P2-4)");
   const num = (x) => (x.match(/\d+(?:[.,]\d+)?/g) ?? []).map((n) => n.replace(",", ".")).sort().join(" ");
   for (const id of NOWE) assert.equal(num(R.get(id).twierdzenie_en), num(R.get(id).twierdzenie), `${id}: liczby pl/en`);
 });
