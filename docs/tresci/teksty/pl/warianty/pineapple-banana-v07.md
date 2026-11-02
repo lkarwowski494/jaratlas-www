@@ -1,0 +1,97 @@
+# Ananas w syropie w słoikach (NCHFP)
+
+Ta karta opisuje metodę NCHFP wekowania ananasa w syropie, wodzie albo soku w kąpieli wodnej. [T:SLO-101,SLO-310]
+
+## Jakie owoce
+
+Ta karta dotyczy tylko ananasa; nie opisuje bananów ani mieszanki ananasa z bananem. [T:SLO-101]
+
+Bananów nie dodawaj: przepis NCHFP Pineapple ich nie obejmuje, a dla przecieru z bananów NCHFP nie ma zaleceń domowego wekowania. [T:SLO-101,SLO-054]
+
+Lista amerykańskiej FDA podaje pH ananasa 3,20–4,00, czyli w granicy żywności kwaśnej: naturalne pH 4,6 lub niższe. [T:ACI-153,ACI-001]
+
+## Przygotowanie
+
+Wybierz jędrne, dojrzałe ananasy. [T:SLO-310]
+
+Umyj ananas, obierz go, usuń oczka i twarde włókna, a potem pokrój go w plastry albo w kostkę. [T:SLO-310]
+
+Ananas możesz zalać wodą, sokiem jabłkowym, sokiem z białych winogron albo syropem bardzo lekkim, lekkim lub średnim. [T:SLO-310]
+
+Syrop pomaga zachować smak, kolor i kształt owoców, ale nie chroni przed zepsuciem. [T:ACI-067]
+
+NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
+
+Na syrop bardzo lekki (ok. 10% cukru) NCHFP podaje 6 1/2 szklanki wody i 3/4 szklanki cukru na wsad 9 słoików pint albo 10 1/2 szklanki wody i 1 1/4 szklanki cukru na 7 słoików quart. [T:ACI-192]
+
+## Napełnianie słoików
+
+NCHFP podaje dla ananasa tylko nakładanie na gorąco (hot pack). [T:SLO-311]
+
+W dużym rondlu dodaj ananas do syropu, wody albo soku i gotuj na małym ogniu 10 minut. [T:SLO-311]
+
+Napełnij słoiki gorącymi kawałkami i płynem z gotowania, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni. [T:SLO-311]
+
+Załóż pokrywki i wekuj. [T:SLO-311]
+
+## Wekowanie
+
+Na wysokości 0–1000 stóp (do 300 m) wekuj słoiki pint 15 minut, a quart 20. [T:ACI-076,ACI-176]
+
+Powyżej 1000 stóp przetwór może się zepsuć, jeśli nie wydłużysz czasu. [T:ACI-015]
+
+Na wysokości 1001–3000 stóp (powyżej 300 m do 900 m): pint 20 minut, a quart 25. [T:SLO-312,ACI-176]
+
+Na wysokości 3001–6000 stóp (powyżej 900 m do 1800 m): pint 20 minut, a quart 30. [T:SLO-313,ACI-176]
+
+Powyżej 6000 stóp (powyżej 1800 m): pint 25 minut, a quart 35. [T:SLO-314,ACI-176]
+
+Karta przelicza stopy na metry i zaokrągla granice w dół, w stronę dłuższego czasu: 1000 stóp to 300 m, 3000 stóp to 900 m, a 6000 stóp to 1800 m. [T:ACI-176]
+
+Skrócenie czasu albo schłodzenie słoików w zimnej wodzie też grozi zepsuciem. [T:ACI-015]
+
+Czasy NCHFP dotyczą amerykańskich słoików: pint mieści ok. 473 ml, a quart ok. 946 ml. [T:ACI-174]
+
+Reguła JarAtlas (NCHFP nie bada słoików metrycznych): dla słoika do 473 ml stosuj czas dla pint, a dla większego, do 946 ml, np. 0,5 l albo 0,9 l, czas dla quart. [T:ACI-175]
+
+Ten przepis NCHFP nie podaje czasu dla słoików większych niż quart, np. 1 l, więc JarAtlas zaleca mniejsze słoiki. [T:ACI-175]
+
+## Studzenie i przechowywanie
+
+Po wyjęciu gorących słoików z garnka nie dokręcaj pokrywek ani metalowych pierścieni; może to przeciąć uszczelkę i zepsuć zamknięcie. [T:SLO-210]
+
+Jeśli którykolwiek słoik straci dużo płynu podczas wekowania, nie otwieraj go, żeby dolać płynu. [T:SLO-210]
+
+Słoiki studź w temperaturze pokojowej 12–24 godziny, potem odkręć i zdejmij tylko metalowe pierścienie dwuczęściowych pokrywek, a płaskie pokrywki zostaw na słoikach, i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
+
+NCHFP uznaje słoiki do wekowania typu Mason z samouszczelniającymi się dwuczęściowymi pokrywkami (płaska pokrywka i zakręcany pierścień) za najlepszy wybór i na nich opiera się ten test oraz metoda z tej karty; innych słoików po produktach ze sklepu, których otworu nie da się zamknąć dwuczęściowymi pokrywkami, NCHFP nie zaleca do domowego wekowania żadnej żywności. [T:SLO-223,SLO-212]
+
+Reguła JarAtlas (ostrożna): korzystaj z tej karty tylko ze słoikami zamykanymi dwuczęściowymi pokrywkami; karta nie podaje metody dla słoików twist-off ani ze szklanymi pokrywkami, więc nie używaj ich do tego przepisu. [T:SLO-223]
+
+Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
+
+Słoik, który przy tym sprawdzeniu okazał się niezamknięty, trzymaj w lodówce i zjedz w ciągu kilku dni. [T:SLO-197]
+
+Zamknięte słoiki przechowuj w czystym, chłodnym, ciemnym i suchym miejscu, nie powyżej 95 °F (35 °C) i nie przy gorących rurach, kuchence czy piecu, na nieocieplonym strychu ani w pełnym słońcu; w takich warunkach przetwór może się zepsuć. [T:SLO-198]
+
+## Kiedy wyrzucić
+
+Zanim użyjesz słoika z zapasów, sprawdź, czy pokrywka jest szczelna i trzyma podciśnienie: dobrze zamknięta ma wklęsły środek. [T:SLO-191]
+
+Sprawdź, czy od góry słoika nie biegną zaschnięte zacieki, czy w środku nie unoszą się pęcherzyki powietrza i czy kolor nie jest nienaturalny. [T:SLO-191]
+
+Przy otwieraniu sprawdź, czy nie ma nienaturalnego zapachu, tryskającego płynu i pleśni przypominającej watę na jedzeniu albo pod pokrywką. [T:SLO-191]
+
+Nie próbuj jedzenia ze słoika z niezamkniętą pokrywką ani z oznakami zepsucia. [T:SLO-190]
+
+Reguła JarAtlas (ostrożna): taki słoik wyrzuć. [T:SLO-190]
+
+NCHFP ostrzega, że zepsute produkty o niskiej kwasowości, w tym pomidory, mogą mieć inne oznaki zepsucia albo prawie żadnych, dlatego każdy podejrzany słoik z takim produktem trzeba traktować tak, jakby powstała w nim toksyna botulinowa, i obchodzić się z nim ostrożnie. [T:SLO-350]
+
+Reguła JarAtlas (ostrożna): tak postępuj z każdym podejrzanym słoikiem z tej karty. [T:SLO-350]
+
+Jeśli podejrzany słoik jest nadal zamknięty, włóż go do grubego worka na śmieci, zamknij worek i wyrzuć go do zwykłego pojemnika na odpady. [T:SLO-350]
+
+Reguła JarAtlas (ostrożna): tak postępuj z każdym podejrzanym słoikiem z tej karty. [T:SLO-350]
+
+Kontakt z toksyną botulinową może być śmiertelny, gdy zostanie połknięta albo dostanie się przez jakiekolwiek otwory w skórze, dlatego przy podejrzanych słoikach i sprzątaniu noś rękawice gumowe albo z grubego plastiku. [T:SLO-350]
