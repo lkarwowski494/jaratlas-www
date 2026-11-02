@@ -48,14 +48,25 @@ test('mapa strony: tylko strony z planu, bez ukrytych, wycofanych, do-researchu 
   assert.ok(!locs.includes(`${D}/`));
 });
 
-test('hreflang: dwukierunkowy, z sobą samym, absolutny, x-default; tylko istniejące wersje', () => {
+// x-default = wersja en tej samej encji (decyzja właściciela 2026-11-02-jaratlas-en-baza); bez wersji en x-default nie ma (ADR 0004: tylko istniejące wersje).
+test('hreflang: dwukierunkowy, z sobą samym, absolutny, x-default = wersja en; tylko istniejące wersje', () => {
   const { pliki } = generuj(dane());
   const alt = (p) => [...pliki[p].matchAll(/hreflang="([^"]+)" href="([^"]+)"/g)].map((x) => `${x[1]} ${x[2]}`).sort();
   const pl = alt('pl/jablko/mus/index.html'), en = alt('en/apple/sauce/index.html');
   assert.deepEqual(pl, en);
-  assert.deepEqual(pl, [`en ${D}/en/apple/sauce/`, `pl ${D}/pl/jablko/mus/`, `x-default ${D}/`]);
-  assert.deepEqual(alt('pl/procesy/wekowanie/index.html'), [`pl ${D}/pl/procesy/wekowanie/`, `x-default ${D}/`]);
+  assert.deepEqual(pl, [`en ${D}/en/apple/sauce/`, `pl ${D}/pl/jablko/mus/`, `x-default ${D}/en/apple/sauce/`]);
+  assert.deepEqual(alt('pl/procesy/wekowanie/index.html'), [`pl ${D}/pl/procesy/wekowanie/`]);
+  for (const [p, h] of Object.entries(pliki)) if (p.endsWith('.html')) assert.ok(!h.includes(`hreflang="x-default" href="${D}/"`), p);
   assert.match(pliki['pl/jablko/mus/index.html'], new RegExp(`<link rel="canonical" href="${D}/pl/jablko/mus/">`));
+});
+
+test('hreflang: x-default = wersja en niezależnie od kolejności języków (en w środku)', () => {
+  const s = slugi(); s.de = { rodziny: {}, produkty: { apple: 'apfel' }, warianty: { 'apple-v01': 'mus' } };
+  const t = tresci(); t.de = { warianty: { 'apple-v01': karta('Apfelmus') }, rodziny: {} };
+  const { bledy, pliki } = generuj(dane({ slugi: s, tresci: t, ui: { pl: uiL, en: uiL, de: uiL } }));
+  assert.deepEqual(bledy, []);
+  const x = (p) => [...pliki[p].matchAll(/hreflang="x-default" href="([^"]+)"/g)].map((m) => m[1]);
+  for (const p of ['pl/jablko/mus/index.html', 'en/apple/sauce/index.html', 'de/apfel/mus/index.html']) assert.deepEqual(x(p), [`${D}/en/apple/sauce/`], p);
 });
 
 test('karta-ostrzeżenie: bez Recipe i bez miejsc reklam, z ostrzeżeniem i uwagą D-027 (c)', () => {

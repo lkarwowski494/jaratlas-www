@@ -1,12 +1,14 @@
 // Szablony HTML (semantyczne, bez systemu wizualnego; wygląd: rola 04). Czyste funkcje.
-import { DOMENA } from './konfiguracja.mjs';
+import { DOMENA, JEZYK_BAZOWY } from './konfiguracja.mjs';
 
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const abs = (sciezka) => DOMENA + encodeURI(sciezka);
 
 export function glowa(st, tytul, opis) {
   const alt = (st.alternatywy ?? []).map((a) => `<link rel="alternate" hreflang="${esc(a.lang)}" href="${esc(abs(a.sciezka))}">`);
-  if (alt.length) alt.push(`<link rel="alternate" hreflang="x-default" href="${esc(abs('/'))}">`);
+  // x-default = wersja w języku bazowym tej samej encji; bez niej x-default nie ma (tylko istniejące wersje, ADR 0004).
+  const baza = (st.alternatywy ?? []).find((a) => a.lang === JEZYK_BAZOWY);
+  if (baza) alt.push(`<link rel="alternate" hreflang="x-default" href="${esc(abs(baza.sciezka))}">`);
   return [
     '<meta charset="utf-8">',
     '<meta name="viewport" content="width=device-width, initial-scale=1">',
