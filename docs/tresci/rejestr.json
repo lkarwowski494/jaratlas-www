@@ -63370,5 +63370,820 @@
   "twierdzenie_en": "CDC (MMWR, type A botulism outbreak, Illinois 1983): the suspected food was onions sautéed in margarine, held uncovered in a large volume of melted margarine on a warm stove (below 60 °C) and served without reheating.",
   "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "MIE-150",
+  "twierdzenie": "UGA B1437: mięsem jeleniowatych (venison) i innej zwierzyny łownej (game) można zastąpić całość lub część chudego mięsa w przepisach tej broszury; z mięsa zwierzyny usuwa się cały tłuszcz zewnętrzny przed mieleniem.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "Sausage Ingredients, Meat (s. 7)",
+    "cytat": "Venison and other game may be substituted for all or part of the lean meats in the recipes in this booklet.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "a5ab2d48cb28",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "UGA nie wymienia dzika z nazwy; „other game” obejmuje go według odczytu autora (decyzja B26-D1)",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "UGA B1437: venison and other game may replace all or part of the lean meat in the recipes in this booklet; all external fat is removed from game meat before grinding.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach). Brzmienie poprawione po przeglądzie D-027 d B28 (B26 w brzmienieB26).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB26": "UGA B1437: dziczyzną i innym mięsem z polowań można zastąpić całość lub część chudego mięsa w przepisach tej broszury; z mięsa dziczyzny usuwa się cały tłuszcz zewnętrzny przed mieleniem."
+ },
+ {
+  "id": "MIE-151",
+  "twierdzenie": "UGA B1437: mięso dziczyzny musi być przez cały czas utrzymywane w chłodzie, poniżej 40°F (ok. 4°C).",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "Game Meats (s. 8)",
+    "cytat": "the meat MUST be kept cold (below 40 °F) at all times.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "a5ab2d48cb28",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "UGA B1437: venison must be kept cold at all times, below 40°F (about 4°C).",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "MIE-152",
+  "twierdzenie": "UGA B1437 opisuje frankfurterki, bolonię, knockwurst i kiełbaski wiedeńskie jako kiełbasy z drobno zmielonej, emulgowanej masy; wśród przepisów na kiełbasy gotowane (Polish Sausage, cotto-salami, all-beef, coarse ground bologna) nie ma przepisu na kiełbasę drobno zmieloną, emulgowaną.",
+  "zrodla": [
+   {
+    "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
+    "miejsce": "Sausage Types, Cooked and Smoked Sausages (s. 4); Sausage Recipes (s. 31)",
+    "cytat": "Frankfurters, bologna, knockwurst, and Vienna sausages are made from finely ground, emulsified",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "a5ab2d48cb28",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "UGA B1437 describes frankfurters, bologna, knockwurst and Vienna sausages as finely ground, emulsified sausages; among its cooked sausage recipes (Polish Sausage, cotto salami, all-beef, coarse ground bologna) there is no recipe for a finely ground, emulsified sausage.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach). Brzmienie poprawione po przeglądzie D-027 d B28 (B26 w brzmienieB26).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB26": "UGA B1437 opisuje frankfurterki, bolonię, knockwurst i kiełbaski wiedeńskie jako kiełbasy z drobno zmielonej, emulgowanej masy, ale nie podaje na nie przepisu (lista przepisów: Polish Sausage, cotto-salami, all-beef, coarse ground bologna)."
+ },
+ {
+  "id": "MIE-153",
+  "twierdzenie": "MU G2528: większość domowych wędzarni daje zimny dym (wędzenie na zimno), więc suszenie i wędzenie boczku trwa dłużej niż w zakładzie.",
+  "zrodla": [
+   {
+    "adres": "https://extension.missouri.edu/publications/g2528",
+    "miejsce": "Source of wood for smoke (ostatni akapit)",
+    "cytat": "Since most home smokehouses are designed to give a cold smoke, drying and smoking will take longer than at a commercial facility.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "ce74bee36c5c",
+    "weryfikacja": "B26: curl+html→tekst+grep (sha12 ce74bee36c5c); B28: curl HTTP 406, odczyt WebFetch zgodny, niesprawdzony dosłownie w dniu B28"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "MU G2528: most home smokehouses give a cold smoke, so drying and smoking bacon takes longer than at a commercial facility.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "MIE-154",
+  "twierdzenie": "UKY ASC-213: przed gotowaniem szynkę country oczyszcza się z nadmiaru peklosoli i pleśni; publikacja podaje sposoby obróbki cieplnej (smażenie plastrów, gotowanie, pieczenie do 140°F wewnątrz), nie podaje jedzenia na surowo.",
+  "zrodla": [
+   {
+    "adres": "https://publications.mgcafe.uky.edu/files/ASC213.pdf",
+    "miejsce": "Sliced Ham / Cooking Country Hams (s. 7)",
+    "cytat": "Before cooking your country ham should be thoroughly cleaned to remove excess cure and mold.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "d9e5ef418693",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„nie podaje jedzenia na surowo” to wniosek z przeczytania całej części o podaniu (Sliced Ham, Whole Hams, Cooking Country Hams), nie cytat",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "UKY ASC-213: before cooking, country ham is cleaned of excess cure and mold; the publication gives ways to heat it (frying slices, simmering, baking to 140°F internal), not eating it raw.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "MIE-155",
+  "twierdzenie": "PNW 784 (OSU, 2025) nie podaje procedury dla wędlin peklowanych jedzonych bez gotowania (wymienia prosciutto i salami); boczek każe ugotować przed jedzeniem.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+    "miejsce": "What is bacon? (s. 1)",
+    "cytat": "Some cured meats like prosciutto and salami are consumed raw after curing, while others, like bacon, are cooked before eating.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "eb4daf12bab7",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "PNW 784 (OSU, 2025) gives no procedure for cured meats eaten without cooking (it names prosciutto and salami); bacon is to be cooked before eating.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach). Brzmienie poprawione po przeglądzie D-027 d B28 (B26 w brzmienieB26).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB26": "PNW 784 (OSU, 2025): niektóre wędliny peklowane, jak prosciutto i salami, je się na surowo, a inne, jak boczek, gotuje przed jedzeniem; publikacja nie podaje procedury dla prosciutto."
+ },
+ {
+  "id": "MIE-156",
+  "twierdzenie": "PNW 784: boczek peklowany trzeba ugotować albo uwędzić na ciepło do temperatury wewnętrznej 160°F (ok. 71°C), w wędzarni-grillu albo w piekarniku nastawionym powyżej 160°F.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+    "miejsce": "Smoking and cooking (s. 4)",
+    "cytat": "Pork belly needs to be cooked or hot smoked to an internal temperature of 160° F.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "eb4daf12bab7",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "wielkosc": "boczek_temp_wewnetrzna_F",
+  "wartosc": 160,
+  "jednostka": "°F (granica: co najmniej)",
+  "klaster": "MIE",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "PNW 784: cured bacon must be cooked or hot-smoked to an internal temperature of 160°F (about 71°C), in a smoker-grill or in an oven set above 160°F.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "MIE-157",
+  "twierdzenie": "PNW 784: przy temperaturze komory 225–250°F (ok. 107–121°C) boczek osiąga 160°F wewnątrz po około trzech godzinach.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+    "miejsce": "Smoking and cooking (s. 4)",
+    "cytat": "With the cooking temperature set to 225–250° F, it will take approximately three hours for a pork belly to get to an internal temperature of 160° F.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "eb4daf12bab7",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "PNW 784: at a chamber temperature of 225–250°F (about 107–121°C), bacon reaches 160°F inside after about three hours.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "MIE-158",
+  "twierdzenie": "PNW 784: boczek peklowany na sucho albo w zalewie peklowany jest w lodówce (40°F) przez 5–7 dni, z codziennym obracaniem torebki; czas zależy od wielkości płata; gotowy płat jest jędrny.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+    "miejsce": "Applying the brine and curing (s. 3)",
+    "cytat": "Cure in refrigerator for five to seven days, flipping the bag each day.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "eb4daf12bab7",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+    "miejsce": "Safety checklist (s. 1)",
+    "cytat": "Cure in the refrigerator (40° F).",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "eb4daf12bab7",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "PNW 784: bacon cured dry or in brine is cured in the refrigerator (40°F) for 5–7 days, turning the bag daily; the time depends on the size of the slab; a finished slab is firm.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach). Brzmienie poprawione po przeglądzie D-027 d B28 (B26 w brzmienieB26).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB26": "PNW 784: boczek peklowany na sucho albo w zalewie trzyma się w lodówce przez 5–7 dni, obracając torebkę codziennie; peklowanie w lodówce (40°F). Czas zależy od wielkości płata; gotowy płat jest jędrny."
+ },
+ {
+  "id": "MIE-159",
+  "twierdzenie": "PNW 784: do boczku zalecana jest sól peklująca Prague Powder #1 (6,25% azotynu sodu, 93,75% soli); mieszanki z azotanem (Prague Powder #2) nie są zalecane do boczku.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+    "miejsce": "Purchasing curing salts (s. 2)",
+    "cytat": "contains 6.25% sodium nitrite and 93.75% salt (sodium chloride).",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "eb4daf12bab7",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "PNW 784: Prague Powder #1 curing salt (6.25% sodium nitrite, 93.75% salt) is recommended for bacon; nitrate mixes (Prague Powder #2) are not recommended for bacon.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "MIE-160",
+  "twierdzenie": "PNW 784: po uwędzeniu lub upieczeniu boczek studzi się 1 godzinę w temperaturze otoczenia, owija i chłodzi przez noc; pokrojony trzyma się w lodówce do siedmiu dni albo zamraża (najlepsza jakość do 4 miesięcy).",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+    "miejsce": "Chill (s. 4)",
+    "cytat": "Slice to desired thickness and refrigerate for up to seven days or freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "eb4daf12bab7",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "wielkosc": "boczek_lodowka_dni",
+  "wartosc": 7,
+  "jednostka": "dni (granica: do, włącznie)",
+  "klaster": "MIE",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "PNW 784: after smoking or baking, bacon cools for 1 hour at room temperature, is wrapped and chilled overnight; sliced, it keeps in the refrigerator up to seven days or is frozen (best quality up to 4 months).",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "MIE-161",
+  "twierdzenie": "OSU ANSI-3994: szynka peklowana i wędzona do 142°F wewnątrz wymaga dalszego gotowania w domu; szynki handlowe „fully cooked” mają dodatkową obróbkę do co najmniej 148°F wewnątrz; publikacja nie podaje końcowej temperatury dla szynki domowej.",
+  "zrodla": [
+   {
+    "adres": "https://pods.okstate.edu/fact-sheets/ANSI-3994pod.pdf",
+    "miejsce": "Smoking (s. 2)",
+    "cytat": "Hams sold as “fully cooked” have received extra heat processing to an internal temperature of at least 148°F.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "3ad495f8c402",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„nie podaje końcowej temperatury dla szynki domowej” to wniosek z przeczytania całej publikacji; źródło podaje jako powód dalszego gotowania pełne skruszenie („for full tenderization”)",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "OSU ANSI-3994: ham cured and smoked to 142°F internal needs further cooking at home; commercial “fully cooked” hams get extra processing to at least 148°F internal; the publication gives no final temperature for home ham.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "MIE-162",
+  "twierdzenie": "NCHFP Pickled Eggs: wszystkie 6 przepisów (na 12 obranych jaj na twardo) używa octu jabłkowego (Red Beet, Sweet and Sour, Dark and Spicy) albo białego (Cidered, Dilled, Pineapple); zalewę doprowadza się do wrzenia, gotuje 5 minut, zalewa gorącą jaja w ciepłym, wcześniej wysterylizowanym słoiku 1 qt (wg NCHFP Sterilization of Empty Jars), luźno, nie więcej niż 12 jaj, przykrywa i od razu chłodzi. Octu słodowego żaden przepis nie przewiduje.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "NCHFP Pickled Eggs, RECIPES (wstęp) i Dilled Eggs",
+    "cytat": "Pour the hot pickling solution over the eggs in the jar, cover, and refrigerate immediately.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "77228bd2eb6c",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "NCHFP Pickled Eggs, DILLED EGGS",
+    "cytat": "1½ cups white vinegar",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "77228bd2eb6c",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Pickled Eggs: all 6 recipes (for 12 peeled hard-cooked eggs) use cider vinegar (Red Beet, Sweet and Sour, Dark and Spicy) or white vinegar (Cidered, Dilled, Pineapple); the pickling solution is brought to a boil, simmered 5 minutes and poured hot over the eggs in a warm, previously sterilized 1-quart jar (per NCHFP Sterilization of Empty Jars), loosely packed, no more than 12 eggs, then covered and refrigerated at once. No recipe calls for malt vinegar.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach). Brzmienie poprawione po przeglądzie D-027 d B28 (B26 w brzmienieB26).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB26": "NCHFP Pickled Eggs: wszystkie 6 przepisów (na 12 obranych jaj na twardo) używa octu jabłkowego (Red Beet, Sweet and Sour, Dark and Spicy) albo białego (Cidered, Dilled, Pineapple); zalewę doprowadza się do wrzenia, gotuje 5 minut, zalewa gorącą jaja w ciepłym, wcześniej wysterylizowanym słoiku 1 qt (wg NCHFP Sterilization of Empty Jars), luźno, nie więcej niż 12 jaj, zamyka i od razu chłodzi. Octu słodowego żaden przepis nie przewiduje."
+ },
+ {
+  "id": "MIE-163",
+  "twierdzenie": "NCHFP Red Beet Eggs: 1 szklanka soku z buraków z puszki, 1½ szklanki octu jabłkowego, 1 łyżeczka brązowego cukru i kilka małych buraczków z puszki (na 12 jaj, przechowywanie w lodówce); przepis nie przewiduje fermentowanego soku (zakwasu).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
+    "miejsce": "NCHFP Pickled Eggs, RED BEET EGGS",
+    "cytat": "1 cup red beet juice (from canned beets)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "77228bd2eb6c",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP Red Beet Eggs: 1 cup canned beet juice, 1½ cups cider vinegar, 1 teaspoon brown sugar and a few small canned whole beets (for 12 eggs, stored in the refrigerator); the recipe does not include fermented beet juice (beet kvass).",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "FER-120",
+  "twierdzenie": "CSU Extension (przepis na kombuchę): gotową kombuchę aromatyzuje się 10–20% soku albo czystych owoców (także ziołami i przyprawami), szczelnie zamyka i zostawia w temperaturze pokojowej 1–3 dni dla nagazowania albo od razu chłodzi; dłuższe trzymanie zamkniętej butelki w temperaturze pokojowej grozi nagromadzeniem CO2, a nawet rozerwaniem butelki.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/understanding-and-making-kombucha/",
+    "miejsce": "CSU Extension, Understanding and Making Kombucha (rev. 10/2025), Kombucha Recipe, Instructions",
+    "cytat": "Flavor finished kombucha as desired with 10-20% juice or clean fruit, and experiment with clean herbs and spices based on preference.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "c1607ebb4c04",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   },
+   {
+    "adres": "https://extension.colostate.edu/resource/understanding-and-making-kombucha/",
+    "miejsce": "jw.",
+    "cytat": "Leave at room temperature 1-3 days for potential carbonation or refrigerate immediately.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "c1607ebb4c04",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "CSU Extension (kombucha recipe): finished kombucha is flavored with 10–20% juice or pure fruit (also herbs and spices), sealed and left at room temperature 1–3 days for carbonation or refrigerated at once; keeping a sealed bottle longer at room temperature risks CO2 build-up and even a burst bottle.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "FER-121",
+  "twierdzenie": "FSIC (Australia): druga fermentacja albo dodatek owoców może prowadzić do nadmiernego powstawania alkoholu; drugą fermentację należy ograniczyć do 7–10 dni, a najlepiej napój pasteryzować (podgrzać do co najmniej 83°C).",
+  "zrodla": [
+   {
+    "adres": "https://foodsafety.asn.au/topic/kombucha/",
+    "miejsce": "FSIC, Kombucha (19.10.2019), Chemical hazards",
+    "cytat": "Allowing time for a second fermentation to occur or the adding fruit for flavour can lead to excessive alcohol production by the yeast.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "1fdd02d4a664",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   },
+   {
+    "adres": "https://foodsafety.asn.au/topic/kombucha/",
+    "miejsce": "FSIC, Kombucha (19.10.2019), Chemical hazards",
+    "cytat": "To prevent this the second fermentation should be limited to 7-10 days and preferably the tea should be pasteurised, i.e. heated to 83 deg. C or hotter",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "1fdd02d4a664",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "liczba 7–10 dni z FSIC to górna granica ograniczająca alkohol, nie bezpieczny czas drugiej fermentacji w zamkniętej butelce; nie podawać jej jako zalecenia (para z FER-120, przegląd P2-5)",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "FSIC (Australia): a second fermentation or added fruit can lead to excessive alcohol; limit the second fermentation to 7–10 days, and ideally pasteurize the drink (heat to at least 83°C).",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "FER-122",
+  "twierdzenie": "BCCDC: dodatki smakowe do kombuchy i jun dodaje się po fermentacji pierwotnej, gdy pH spadnie poniżej 4,2; po dodaniu soku lub innych dodatków pH trzeba zmierzyć ponownie (gotowy produkt: poniżej 4,2, ale powyżej 2,5); zalecany sok pasteryzowany, handlowy.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.11 Kombucha & Jun (upd. 12/2024), s. 10, Flavouring agents in kombucha and jun",
+    "cytat": "Flavouring agents should be added after initial fermentation, when the pH has dropped below 4.2.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "b7aefee0a0d9",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+    "miejsce": "jw.",
+    "cytat": "the pH must again be tested to ensure the pH of the finished product is less than 4.2 but above 2.5.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "b7aefee0a0d9",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "BCCDC: flavorings are added to kombucha and jun after the primary fermentation, once the pH has dropped below 4.2; after adding juice or other flavorings the pH must be measured again (finished product below 4.2 but above 2.5); pasteurized commercial juice is recommended.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "FER-123",
+  "twierdzenie": "NCHFP (FAQ do przepisu na kombuchę): nie zaleca się innych rodzajów cukru niż w przepisie; brak danych potwierdzających, że cukry alternatywne zachowują ten sam poziom bezpieczeństwa.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/images/uploads/FAQs_Consumer_version_Kombucha.pdf",
+    "miejsce": "UGA Extension/NCHFP, Crafting Kombucha at Home FAQ (2026), pyt. 18",
+    "cytat": "At this time, we don’t have the data to confirm that using alternative sugars will maintain the same level of safety.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "aeb4e934654c",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP (FAQ on the kombucha recipe): sugars other than those in the recipe are not recommended; there are no data showing that alternative sugars keep the same level of safety.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "FER-124",
+  "twierdzenie": "BCCDC (opis procesu dla zakładów): jun to fermentowana zielona herbata z miodem (ok. 2 łyżeczki herbaty i 250 ml miodu na 2 l), fermentacja pierwotna 4–7 dni w 21–26°C, kwasowość końcowa pH 2,5–3,5, maksimum pH 4,2; druga fermentacja w szczelnych butelkach z owocami lub sokiem 1–3 dni, potem chłodzenie.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.11 Kombucha & Jun (upd. 12/2024), s. 10, Description of food preparation for jun",
+    "cytat": "Honey is added (250 mL into the 2 L solution) and stirred until completely dissolved.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "b7aefee0a0d9",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+    "miejsce": "jw.",
+    "cytat": "The primary fermentation usually proceeds for 4 to 7 days at 21-26 °C.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "b7aefee0a0d9",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "BCCDC (process description for food premises): jun is fermented green tea with honey (about 2 teaspoons tea and 250 ml honey per 2 l), primary fermentation 4–7 days at 21–26°C, final acidity pH 2.5–3.5, maximum pH 4.2; second fermentation in sealed bottles with fruit or juice for 1–3 days, then chilling.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "FER-125",
+  "twierdzenie": "BCCDC: surowy miód może zawierać przetrwalniki jadu kiełbasianego; jeśli fermentacja jun jest niepełna albo źle prowadzona i pH nie jest dość niskie, przetrwalniki mogą rozwinąć się w środowisku beztlenowym. Alkohol w jun jest na ogół wyższy niż w kombuczy.",
+  "zrodla": [
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.11 Kombucha & Jun (upd. 12/2024), Potential health issues, Botulism",
+    "cytat": "Raw honey can contain botulism spores.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "b7aefee0a0d9",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   },
+   {
+    "adres": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guideline%20-%203.11%20Kombucha%20and%20Jun.pdf",
+    "miejsce": "BCCDC Fermented Foods Guidance 3.11 Kombucha & Jun (upd. 12/2024), Description of food preparation for kombucha/jun",
+    "cytat": "The alcohol content of jun is generally higher than kombucha.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "sha12": "b7aefee0a0d9",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "BCCDC dodaje, że prawidłowa fermentacja z pH poniżej 4,6 powinna zapobiec rozwojowi przetrwalników; zagrożenie dotyczy fermentacji niepełnej lub źle prowadzonej",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "BCCDC: raw honey may contain botulism spores; if jun fermentation is incomplete or poorly controlled and the pH is not low enough, the spores may develop in the anaerobic environment. Alcohol in jun is generally higher than in kombucha.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "FER-126",
+  "twierdzenie": "FSIC: do kombuchy nie zaleca się herbaty zielonej ani oolong, bo powstaje więcej kwasu; fermentować tylko z czarnej herbaty. pH na koniec fermentacji (ok. 7 dni) powinno spaść poniżej 3,0; jeśli do 10. dnia nie spadnie, partię wyrzucić.",
+  "zrodla": [
+   {
+    "adres": "https://foodsafety.asn.au/topic/kombucha/",
+    "miejsce": "FSIC, Kombucha, Safe fermentation conditions",
+    "cytat": "Green or oolong-based tea is not recommended because there is more acid produced which can lead to problems",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "1fdd02d4a664",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   },
+   {
+    "adres": "https://foodsafety.asn.au/topic/kombucha/",
+    "miejsce": "jw.",
+    "cytat": "If it has not reached a pH of less than 3.0 by the end of 10 days it is strongly recommended that you discard the batch.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "1fdd02d4a664",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "spór: FSIC (szczebel 3) odradza zieloną herbatę z powodu nadmiaru kwasu, nie patogenów; NCHFP FAQ, BCCDC i CSU ją dopuszczają; twierdzenie nie jest podstawą werdyktu (przegląd P2-6)",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "FSIC: green or oolong tea is not recommended for kombucha because more acid is formed; ferment only with black tea. The pH at the end of fermentation (about 7 days) should fall below 3.0; if it has not by day 10, discard the batch.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "FER-127",
+  "twierdzenie": "Illinois Extension, Homemade Ginger Ale: przepis używa 1/8 łyżeczki aktywnych suchych drożdży (zaczynu imbirowego nie używa); napój fermentuje 24–48 h w temperaturze pokojowej w plastikowej butelce 2 l, aż butelki nie da się ścisnąć, potem 24 h w lodówce; nigdy w szkle, bo nieodgazowana butelka może wybuchnąć.",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/media/6876/download?inline",
+    "miejsce": "University of Illinois Extension, Fermenting Foods Recipes, HOMEMADE GINGER ALE (mod. 05/2025)",
+    "cytat": "⅛ teaspoon dry active yeast",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "11a2faef1fe0",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   },
+   {
+    "adres": "https://extension.illinois.edu/media/6876/download?inline",
+    "miejsce": "jw.",
+    "cytat": "Never make this recipe in a glass container.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "11a2faef1fe0",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Illinois Extension, Homemade Ginger Ale: the recipe uses 1/8 teaspoon active dry yeast (it does not use a ginger bug); the drink ferments 24–48 h at room temperature in a 2 l plastic bottle until the bottle can no longer be squeezed, then 24 h in the refrigerator; never in glass, because an unvented bottle may explode.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach). Brzmienie poprawione po przeglądzie D-027 d B28 (B26 w brzmienieB26).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB26": "Illinois Extension, Homemade Ginger Ale: napój zaszczepia się 1/8 łyżeczki suchych drożdży piekarskich (nie dzikim zaczynem imbirowym), fermentuje 24–48 h w temperaturze pokojowej w plastikowej butelce 2 l, potem 24 h w lodówce; nigdy w szkle, bo nieodgazowana butelka może wybuchnąć."
+ },
+ {
+  "id": "MIE-164",
+  "twierdzenie": "PNW 784: boczek peklowany w domu (po wędzeniu lub upieczeniu do 160°F) przed jedzeniem przyrządza się jak boczek ze sklepu: smaży, piecze albo przyrządza w mikrofalówce.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
+    "miejsce": "Cook (s. 4)",
+    "cytat": "Cook home-cured bacon as you would bacon from the store — fry, bake or microwave.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "eb4daf12bab7",
+    "weryfikacja": "curl+pdftotext/html→tekst+grep (B26; powtórzone w B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "MIE",
+  "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "PNW 784: home-cured bacon (after smoking or baking to 160°F) is prepared before eating like store-bought bacon: fried, baked or microwaved.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach). Brzmienie poprawione po przeglądzie D-027 d B28 (B26 w brzmienieB26).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB26": "PNW 784: boczek peklowany w domu (po wędzeniu lub upieczeniu do 160°F) przed jedzeniem przyrządza się jak boczek ze sklepu: smaży, piecze albo podgrzewa w mikrofalówce."
+ },
+ {
+  "id": "FER-128",
+  "twierdzenie": "Illinois Extension (Homemade Ginger Ale): tego przepisu (napój fermentowany w zamkniętej butelce) nigdy nie robi się w szkle; jeśli butelka stoi zbyt długo bez upuszczania dwutlenku węgla, wybuchnie. Jedyny przepis na napój imbirowy w tej publikacji używa drożdży, nie zaczynu imbirowego.",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/media/6876/download?inline",
+    "miejsce": "University of Illinois Extension, Fermenting Foods Recipes, HOMEMADE GINGER ALE (mod. 05/2025)",
+    "cytat": "Never make this recipe in a glass container. It is a fermented product, and if it sits too long without being “burped” of the carbon dioxide it produces during fermentation, it will explode.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "11a2faef1fe0",
+    "weryfikacja": "curl+pdftotext+grep (B28)"
+   },
+   {
+    "adres": "https://extension.illinois.edu/media/6876/download?inline",
+    "miejsce": "jw., Ingredients",
+    "cytat": "⅛ teaspoon dry active yeast",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "11a2faef1fe0",
+    "weryfikacja": "curl+pdftotext+grep (B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "zaczynu imbirowego publikacja nie opisuje ani nie odradza wprost; zakaz szkła dotyczy tego przepisu, a na karcie zakwasu imbirowego służy jako ostrzeżenie przez analogię (ostrożniej)",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "B28 (przegląd D-027 d, brzmienie dla karty ginger-turmeric-v03; źródło jak FER-127 z B26)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Illinois Extension (Homemade Ginger Ale): this recipe (a drink fermented in a closed bottle) is never made in glass; if the bottle sits too long without being burped of carbon dioxide, it will explode. The only ginger drink recipe in this publication uses yeast, not a ginger bug.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog); brzmienie zaproponowane przez przegląd D-027 d B28 (P2-4), cytat sprawdzony skryptem u źródła.",
+  "weryfikacjaZastepcza": "2026-11-02"
  }
 ]
