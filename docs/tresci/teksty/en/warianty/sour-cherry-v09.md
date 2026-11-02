@@ -16,7 +16,7 @@ If you leave the pits in, prick the skin of each cherry on opposite sides with a
 
 NCHFP allows water, apple juice, white grape juice or syrup as the liquid; this card uses water, without sugar. [T:ACI-237]
 
-Syrup helps keep the flavor, color and shape of the fruit, but it does not prevent spoilage; fruit can also be packed in juice or water. [T:ACI-067]
+Syrup helps keep the flavor, color and shape of the fruit, but it does not prevent spoilage; fruit can also be packed in juice or water. [T:ACI-067,ACI-237]
 
 NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
 

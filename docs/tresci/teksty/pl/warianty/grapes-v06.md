@@ -1,10 +1,12 @@
-# Galaretka z ciemnych winogron Concord z pektyną w proszku (NCHFP)
+# Galaretka z winogron Concord z pektyną w proszku (NCHFP)
 
 Ta karta opisuje przepis NCHFP na galaretkę z soku z winogron Concord z pektyną w proszku. [T:SLO-172]
 
 ## Składniki
 
 NCHFP podaje 5 szklanek soku winogronowego (ok. 3,5 funta winogron Concord i 1 szklanka wody), 1 opakowanie pektyny w proszku i 7 szklanek cukru; wychodzi ok. 8–9 słoików 1/2 pinty. [T:SLO-172]
+
+Ta karta trzyma się przepisu NCHFP z winogron Concord; nie obejmuje innych odmian winogron. [T:SLO-172]
 
 NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
 
@@ -71,3 +73,5 @@ Gotowane galaretki pełnocukrowe, takie jak ta, najlepiej trzymać w lodówce pr
 ## Kiedy wyrzucić
 
 Galaretkę z pleśnią wyrzuć; USDA i mikrobiolodzy odradzają zbieranie pleśni i jedzenie reszty. [T:SLO-012]
+
+Otwarty słoik regularnie sprawdzaj, czy nie ma oznak zepsucia, takich jak pleśń, drożdże albo obcy zapach, w tym zapach fermentacji, drożdży lub alkoholu; jeśli je zauważysz, wyrzuć cały słoik. [T:SLO-181,SLO-013]

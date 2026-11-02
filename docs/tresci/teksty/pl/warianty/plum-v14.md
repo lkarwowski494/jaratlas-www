@@ -6,7 +6,7 @@ Ta karta opisuje przepis NCHFP na dżem śliwkowy z pektyną w proszku, zrobiony
 
 Lista przybliżonego pH żywności amerykańskiej FDA wymienia renklody wśród śliwek („Plums, Green Gage”), z pH 3,60–4,30. [T:ACI-325]
 
-Reguła JarAtlas (ostrożna): NCHFP testuje ten przepis na śliwkach i nie wymienia renklod, więc rób go dokładnie według przepisu. [T:SLO-157,ACI-325]
+Reguła JarAtlas (ostrożna): NCHFP podaje ten przepis dla śliwek bez wymieniania odmian, także renklod, więc rób go dokładnie według przepisu. [T:SLO-157,ACI-325]
 
 NCHFP podaje 6 szklanek rozgniecionych śliwek (ok. 3,5 funta śliwek), 1 opakowanie pektyny w proszku i 8 szklanek cukru; wychodzi ok. 9 słoików 1/2 pinty. [T:SLO-157]
 
@@ -71,3 +71,5 @@ Gotowane dżemy pełnocukrowe, takie jak ten, najlepiej trzymać w lodówce prze
 ## Kiedy wyrzucić
 
 Dżem z pleśnią wyrzuć; USDA i mikrobiolodzy odradzają zbieranie pleśni i jedzenie reszty. [T:SLO-012]
+
+Otwarty słoik regularnie sprawdzaj, czy nie ma oznak zepsucia, takich jak pleśń, drożdże albo obcy zapach, w tym zapach fermentacji, drożdży lub alkoholu; jeśli je zauważysz, wyrzuć cały słoik. [T:SLO-181,SLO-013]

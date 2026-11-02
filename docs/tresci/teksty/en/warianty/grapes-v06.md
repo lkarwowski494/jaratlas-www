@@ -6,6 +6,8 @@ This card describes the NCHFP recipe for grape jelly made from Concord grape jui
 
 NCHFP uses 5 cups of grape juice (about 3.5 pounds of Concord grapes and 1 cup of water), 1 package of powdered pectin and 7 cups of sugar, which makes about 8 or 9 half-pint jars. [T:SLO-172]
 
+This card follows the NCHFP recipe made with Concord grapes; it does not cover other grape varieties. [T:SLO-172]
+
 NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
 
 NCHFP warns not to reduce the sugar in traditional recipes: too little sugar prevents gelling and may allow yeasts and molds to grow. [T:SLO-001]
@@ -71,3 +73,5 @@ Regular full-sugar cooked jellies like this one are best kept in the refrigerato
 ## When to throw it out
 
 Discard jelly with mold on it; USDA and microbiologists advise against scooping out the mold and eating the rest. [T:SLO-012]
+
+Check an opened jar regularly for signs of spoilage such as mold, yeast or an off odor, including a fermented, yeasty or alcohol smell; if you find any, throw out the whole jar. [T:SLO-181,SLO-013]

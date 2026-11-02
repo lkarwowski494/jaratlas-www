@@ -6,7 +6,7 @@ This card describes the NCHFP recipe for plum jam with powdered pectin, made wit
 
 The US FDA list of approximate pH values lists greengages among plums ("Plums, Green Gage"), at pH 3.60–4.30. [T:ACI-325]
 
-JarAtlas rule (cautious): NCHFP tests this recipe with plums and does not name greengages, so make it exactly as written. [T:SLO-157,ACI-325]
+JarAtlas rule (cautious): NCHFP gives this recipe for plums without naming any variety, including greengages, so make it exactly as written. [T:SLO-157,ACI-325]
 
 NCHFP uses 6 cups of crushed plums (about 3.5 pounds of plums), 1 package of powdered pectin and 8 cups of sugar, which makes about 9 half-pint jars. [T:SLO-157]
 
@@ -71,3 +71,5 @@ Regular full-sugar cooked jams like this one are best kept in the refrigerator f
 ## When to throw it out
 
 Discard jam with mold on it; USDA and microbiologists advise against scooping out the mold and eating the rest. [T:SLO-012]
+
+Check an opened jar regularly for signs of spoilage such as mold, yeast or an off odor, including a fermented, yeasty or alcohol smell; if you find any, throw out the whole jar. [T:SLO-181,SLO-013]

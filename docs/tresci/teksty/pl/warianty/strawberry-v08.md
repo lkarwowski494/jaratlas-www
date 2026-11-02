@@ -69,3 +69,5 @@ NCHFP zaleca trzymać otwarte domowe dżemy i galaretki w lodówce w 40 °F (ok.
 ## Kiedy wyrzucić
 
 NCHFP zaleca wyrzucić dżemy i galaretki z pleśnią, a USDA i mikrobiolodzy odradzają zbieranie pleśni i jedzenie reszty; JarAtlas stosuje to też do konfitur. [T:SLO-012]
+
+Otwarty słoik regularnie sprawdzaj, czy nie ma oznak zepsucia, takich jak pleśń, drożdże albo obcy zapach, w tym zapach fermentacji, drożdży lub alkoholu; jeśli je zauważysz, wyrzuć cały słoik; NCHFP podaje to dla dżemów i galaretek, a JarAtlas stosuje to też do konfitur. [T:SLO-181,SLO-013]

@@ -16,7 +16,7 @@ Jeśli zostawiasz pestki, nakłuj skórkę każdej wiśni czystą igłą z dwóc
 
 NCHFP dopuszcza jako płyn wodę, sok jabłkowy, sok z białych winogron albo syrop; ta karta używa wody, bez cukru. [T:ACI-237]
 
-Syrop pomaga zachować smak, kolor i kształt owoców, ale nie chroni przed zepsuciem; owoce można też pakować w soku albo w wodzie. [T:ACI-067]
+Syrop pomaga zachować smak, kolor i kształt owoców, ale nie chroni przed zepsuciem; owoce można też pakować w soku albo w wodzie. [T:ACI-067,ACI-237]
 
 NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
 

@@ -69,3 +69,5 @@ NCHFP says opened home-canned jams and jellies should be kept in the refrigerato
 ## When to throw it out
 
 NCHFP says to discard jams and jellies with mold on them, and USDA and microbiologists advise against scooping out the mold and eating the rest; JarAtlas applies this to preserves too. [T:SLO-012]
+
+Check an opened jar regularly for signs of spoilage such as mold, yeast or an off odor, including a fermented, yeasty or alcohol smell; if you find any, throw out the whole jar; NCHFP gives this for jams and jellies, and JarAtlas applies it to preserves too. [T:SLO-181,SLO-013]

@@ -30129,5 +30129,35 @@
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "przeglad": null
+ },
+ {
+  "id": "SLO-181",
+  "twierdzenie": "NCHFP, Storing Home-Canned Jams and Jellies: otwarty słoik dżemu lub galaretki regularnie sprawdzać pod kątem oznak zepsucia, takich jak pleśń, drożdże i obcy zapach (w tym zapach fermentacji, drożdży albo alkoholu); po ich wykryciu wyrzucić całą zawartość.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Storing Home-Canned Jams and Jellies",
+    "cytat": "Do examine the container regularly during storage for any signs of spoilage like molds, yeasts and off odors (including a fermented, “yeasty’,” or “alcohol” odor), once it is opened.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "04669a626de8"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/storing-home-canned-jams-and-jellies/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Storing Home-Canned Jams and Jellies",
+    "cytat": "Discard the entire contents of the container if these are detected.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "04669a626de8"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
  }
 ]
