@@ -8,6 +8,8 @@ This card describes how to dry elderflowers with the NCHFP method for drying her
 
 ## Safety
 
+The Ask Extension answer above is about the berries and other parts of the plant and does not discuss the flowers; this card uses only the flowers, with leaves and stems removed (see below). [T:-]
+
 According to NDSU Extension, some flowers should not be eaten, so identify flowers correctly before eating them; flowers from a florist are meant to look at, not to eat, because some pesticides used on them have not been approved for edible plants. [T:SLO-489]
 
 OSU Extension describes harvesting elderflowers as whole clusters picked when they are white and open, and removing the flowers while discarding any stray pieces of leaf or stem, which contain higher levels of toxins. [T:SUS-422]
