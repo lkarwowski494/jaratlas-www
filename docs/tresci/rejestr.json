@@ -54178,5 +54178,890 @@
    }
   ],
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "NAP-070",
+  "twierdzenie": "UGA, octy smakowe: słoiki lub butelki umyć w ciepłej wodzie z płynem, wysterylizować, zanurzając je całkowicie we wrzącej wodzie na 10 minut, i napełniać octem, póki są jeszcze ciepłe.",
+  "twierdzenie_en": "UGA, flavored vinegars: wash jars or bottles in warm, soapy water, sterilize them by immersing them completely in boiling water for 10 minutes, and fill them with vinegar while they are still warm.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Jars and Bottles",
+    "cytat": "warm jars or bottles by completely immersing them in water and boiling for 10 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Jars and Bottles",
+    "cytat": "with your vinegar while they are still warm.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "NAP-071",
+  "twierdzenie": "UGA, octy smakowe: zakrętki z metalu niekorodującego albo z plastiku, albo nowe, fabrycznie wysterylizowane korki.",
+  "twierdzenie_en": "UGA, flavored vinegars: use non-corrodible metal or plastic screw caps, or new, pre-sterilized corks.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Lids and Caps",
+    "cytat": "Use non-corrodible metal or plastic screw caps.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Lids and Caps",
+    "cytat": "pre-sterilized corks.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "NAP-072",
+  "twierdzenie": "UGA i OSU, octy smakowe: świeże zioła (i warzywa) myć delikatnie, ale dokładnie, i osuszyć czystym ręcznikiem papierowym.",
+  "twierdzenie_en": "UGA and OSU, flavored vinegars: wash fresh herbs (and vegetables) gently but thoroughly and pat them dry with a clean paper towel.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Herbs",
+    "cytat": "Wash the fresh herbs gently but thoroughly. Blot dry on clean paper towels.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/flavored-vinegars-sp-50-736",
+    "miejsce": "OSU Extension SP 50-736 (rev. 12/2025), Making the vinegars",
+    "cytat": "Wash herbs and vegetables and pat dry with a clean towel or paper towel.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "cd3bd9578944"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "UGA (przegląd 2011) dodaje zanurzenie ziół w roztworze wybielacza (1 łyżeczka na 6 szklanek wody); OSU (wyd. 12/2025) tego kroku nie ma. Karty go nie podają (decyzja p32-D3, do weta): wybielacze domowe poza USA często mają dodatki zapachowe i środki powierzchniowo czynne.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "NAP-073",
+  "twierdzenie": "UGA, octy smakowe: owoce dokładnie umyć czystą wodą; małe owoce można zostawić w całości albo przekroić na pół; na pintę octu 1 do 2 szklanek owoców albo skórka z jednej pomarańczy lub cytryny; nie przepełniać słoików.",
+  "twierdzenie_en": "UGA, flavored vinegars: wash fruit thoroughly with clean water; small fruits may be left whole or halved; use 1 to 2 cups of fruit, or the peel of one orange or lemon, per pint of vinegar; avoid overpacking the jars.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Fruits, Vegetables and Spices",
+    "cytat": "Thoroughly wash all fruits and vegetables with clean",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Fruits, Vegetables and Spices",
+    "cytat": "vegetables may be left whole or halved.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Fruits, Vegetables and Spices",
+    "cytat": "1 to 2 cups of fruit per pint of vinegar, or the peel of one",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Flavoring the Vinegar",
+    "cytat": "sterilized jars. Avoid overpacking the jars; use 3 to 4",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "NAP-074",
+  "twierdzenie": "UGA, octy smakowe: ze skórki pomarańczy lub cytryny ścina się cienko tylko kolorową część, bez grubej białej warstwy, najlepiej jedną długą spiralą, żeby łatwo ją potem wyjąć.",
+  "twierdzenie_en": "UGA, flavored vinegars: from orange or lemon peel cut off thinly only the colored part, avoiding the thick white underside, ideally in one long spiral for easy removal later.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Fruits, Vegetables and Spices",
+    "cytat": "ly cut off only the colored portion, avoiding the thick",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Fruits, Vegetables and Spices",
+    "cytat": "white underside. Try to cut the peel in a continuous or",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "NAP-075",
+  "twierdzenie": "UGA, octy smakowe: gorący ocet wlewa się na składniki, zostawiając 1/4 cala wolnej przestrzeni, brzegi przeciera się czystą wilgotną ściereczką, szczelnie zamyka i zostawia do ostygnięcia.",
+  "twierdzenie_en": "UGA, flavored vinegars: pour the hot vinegar over the flavoring ingredients, leaving 1/4 inch of headspace, wipe the rims with a clean, damp cloth, close tightly and let cool undisturbed.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; procedura",
+    "cytat": "jars, leaving 1/4 inch headspace. Wipe rims of jars with",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; procedura",
+    "cytat": "tightly. Let sit to cool undisturbed.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "NAP-076",
+  "twierdzenie": "UGA, octy smakowe: słoik stoi w chłodnym, ciemnym miejscu 3 do 4 tygodni; potem ocet przecedza się przez wilgotną gazę albo filtr do kawy, raz lub kilka razy, aż nie będzie mętny, a owoce, warzywa i zioła się wyrzuca.",
+  "twierdzenie_en": "UGA, flavored vinegars: let the jar stand in a cool, dark place for 3 to 4 weeks; then strain the vinegar through damp cheesecloth or a coffee filter one or more times until it shows no cloudiness, and discard the fruit, vegetables and herbs.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; procedura",
+    "cytat": "Store in a cool, dark place. Let sit undisturbed for 3",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; procedura",
+    "cytat": "through a damp cheesecloth or coffee filter one or",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; procedura",
+    "cytat": "more times until the vinegar shows no cloudiness.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "NAP-077",
+  "twierdzenie": "UGA, octy smakowe: przecedzony ocet przelewa się do czystych, wysterylizowanych słoików i szczelnie zamyka; przed zamknięciem można dodać kilka czystych owoców albo umytą gałązkę świeżego zioła.",
+  "twierdzenie_en": "UGA, flavored vinegars: pour the strained vinegar into clean, sterilized jars and cap tightly; a few clean berries or a washed sprig of fresh herb may be added before closing.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; procedura",
+    "cytat": "Pour the strained vinegar into clean sterilized jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; procedura",
+    "cytat": "sanitized sprig of fresh herb may be added to the",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "UGA: „washed and sanitized sprig”; „sanitized” odnosi się do roztworu wybielacza, którego karty nie podają (NAP-072, decyzja p32-D3).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "NAP-078",
+  "twierdzenie": "UGA, octy smakowe: datę otwarcia zapisuje się na butelce; octy owocowe po 3 miesiącach w chłodzie mogą brązowieć i wyraźnie zmieniać smak.",
+  "twierdzenie_en": "UGA, flavored vinegars: date the bottles when they are opened; fruit vinegars may start to brown and change flavor noticeably after 3 months in cool storage.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Storing the Vinegar",
+    "cytat": "flavors. Date the bottles or jars when they are opened.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Storing the Vinegar",
+    "cytat": "Fruit vinegars in particular may start to brown and",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "NAP-079",
+  "twierdzenie": "UGA, octy smakowe: butelki trzymane jako ozdoba na słonecznym parapecie lub półce dłużej niż kilka tygodni traktuje się jako dekorację i nie używa do jedzenia.",
+  "twierdzenie_en": "UGA, flavored vinegars: bottles kept as decorations on sunny window sills or shelves for more than a few weeks should be treated as permanent decorations and not used in food.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Storing the Vinegar",
+    "cytat": "sunny window sills and shelves as decorative room",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Storing the Vinegar",
+    "cytat": "permanent decorations and not used in food",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "NAP-080",
+  "twierdzenie": "UGA, przepis „Raspberry Vinegar”: 2 szklanki świeżych malin umyć delikatnie, ale dokładnie, lekko zgnieść, włożyć do wysterylizowanego szklanego słoika quart; 3 szklanki octu podgrzać tuż poniżej wrzenia i zalać maliny; szczelnie zamknąć i zostawić na 2 do 3 tygodni w chłodnym, ciemnym miejscu; przecedzić przez wilgotną gazę, owoce wyrzucić; ocet przelać do czystych, wysterylizowanych słoików lub butelek, szczelnie zamknąć; dla najlepszej jakości i smaku przechowywać w lodówce.",
+  "twierdzenie_en": "UGA, “Raspberry Vinegar”: wash 2 cups fresh raspberries gently but thoroughly, bruise them slightly and place them in a sterilized quart glass canning jar; heat 3 cups of vinegar to just below the boiling point and pour it over the raspberries; cap tightly and let stand 2 to 3 weeks in a cool, dark place; strain through damp cheesecloth and discard the fruit; pour the vinegar into clean, sterilized glass jars or bottles and seal tightly; store in the refrigerator for best quality and flavor.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Suggested Flavorings, Raspberry Vinegar",
+    "cytat": "Wash 2 cups fresh raspberries gently but thoroughly. Bruise slightly",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Suggested Flavorings, Raspberry Vinegar",
+    "cytat": "in a sterilized quart glass canning jar. Heat 3 cups of vinegar to just",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Suggested Flavorings, Raspberry Vinegar",
+    "cytat": "and allow to stand 2 to 3 weeks in a cool, dark place. Strain",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Suggested Flavorings, Raspberry Vinegar",
+    "cytat": "vinegar through damp cheesecloth and discard fruit. Pour vinegar",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Suggested Flavorings, Raspberry Vinegar",
+    "cytat": "into clean, sterilized glass jars or bottles. Seal tightly. Store in the",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Suggested Flavorings, Raspberry Vinegar",
+    "cytat": "refrigerator for best quality and flavor.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "NAP-081",
+  "twierdzenie": "UGA, octy smakowe: ocet spirytusowy biały (destylowany) to najlepszy wybór do delikatnych ziół; ocet jabłkowy najlepiej łączy się z owocami.",
+  "twierdzenie_en": "UGA, flavored vinegars: distilled white vinegar is the best choice for delicately flavored herbs; apple cider vinegar blends best with fruits.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Vinegar",
+    "cytat": "best choice for delicately flavored herbs. Apple cider",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Vinegar",
+    "cytat": "vinegar blends best with fruits.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "NAP-082",
+  "twierdzenie": "UGA, przepis „Fresh Tarragon Vinegar”: na każdy słoik pinta octu spirytusowego białego albo z białego wina 3 gałązki świeżego estragonu (3 cale) albo 1 szklanka świeżych liści i łodyżek estragonu; przed włożeniem do słoika lekko zgnieść.",
+  "twierdzenie_en": "UGA, “Fresh Tarragon Vinegar”: for each pint jar of distilled white or white wine vinegar use 3 (3-inch) sprigs of fresh tarragon, or 1 cup of fresh tarragon leaves and stems; lightly crush before placing in jars.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Suggested Flavorings, Fresh Tarragon Vinegar",
+    "cytat": "For each pint jar of distilled white or white wine vinegar to be",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Suggested Flavorings, Fresh Tarragon Vinegar",
+    "cytat": "flavored, use 3 (3 inch) sprigs of fresh tarragon, or 1 cup of fresh",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Suggested Flavorings, Fresh Tarragon Vinegar",
+    "cytat": "tarragon leaves and stems. Lightly crush before placing in jars.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "NAP-083",
+  "twierdzenie": "UGA, przepis „Lemon-Dill-Peppercorn Vinegar”: na każdy słoik pinta octu spirytusowego białego skórka z 1 cytryny ścięta spiralą (tylko kolorowa część), 4 gałązki świeżego koperku i 1/2 łyżeczki całego czarnego pieprzu.",
+  "twierdzenie_en": "UGA, “Lemon-Dill-Peppercorn Vinegar”: for each pint jar of distilled white vinegar use the spiral peel (colored part only) of 1 lemon, 4 sprigs of fresh dill and 1/2 teaspoon whole black peppercorns.",
+  "zrodla": [
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Suggested Flavorings, Lemon-Dill-Peppercorn Vinegar",
+    "cytat": "For each pint jar of distilled white vinegar to be flavored, use the",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Suggested Flavorings, Lemon-Dill-Peppercorn Vinegar",
+    "cytat": "spiral peel (colored part only) of 1 lemon, 4 sprigs of fresh dill, and",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   },
+   {
+    "adres": "https://openscholar.uga.edu/record/22472/files/FDNS-E-43-17.pdf",
+    "miejsce": "UGA/NCHFP FDNS-E-43 (Andress & Harrison), Preserving Food: Flavored Vinegars; Suggested Flavorings, Lemon-Dill-Peppercorn Vinegar",
+    "cytat": "1/2 teaspoon whole black peppercorns.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "9bbe4d5321b6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "NAP-084",
+  "twierdzenie": "OSU, octy owocowe: 2 szklanki owoców na pintę octu; macerować, aż smak będzie odpowiedni, zwykle 2–4 tygodnie.",
+  "twierdzenie_en": "OSU, fruit vinegars: use 2 cups of fruit per pint of vinegar; let steep until the desired flavor is reached, usually 2–4 weeks.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/flavored-vinegars-sp-50-736",
+    "miejsce": "OSU Extension SP 50-736 (rev. 12/2025), Flavorings: Fruits",
+    "cytat": "Use 2 cups of fruit per pint of vinegar.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "cd3bd9578944"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/flavored-vinegars-sp-50-736",
+    "miejsce": "OSU Extension SP 50-736 (rev. 12/2025), Fruit flavored vinegars",
+    "cytat": "Let steep until desired flavor is reached, usually 2-4 weeks.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "cd3bd9578944"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)",
+  "uwaga": "Zbieżne z górną granicą UGA (NAP-073: 1 do 2 szklanek); karty podają 1 do 2 szklanek, nie więcej (NAP-036)."
+ },
+ {
+  "id": "NAP-085",
+  "twierdzenie": "OSU, octy smakowe: na butelce zapisuje się rodzaj octu bazowego, dodatek smakowy i datę.",
+  "twierdzenie_en": "OSU, flavored vinegars: label each bottle with the type of base vinegar used, the flavoring and the date.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/flavored-vinegars-sp-50-736",
+    "miejsce": "OSU Extension SP 50-736 (rev. 12/2025), Labeling",
+    "cytat": "label with type of base vinegar used, flavoring and date.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "cd3bd9578944"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "NAP",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "FER-102",
+  "twierdzenie": "UCCE MFP El Dorado (przepis z Ball), „Traditional Preserved Lemons” na 1 słoik quart: 10 cytryn, 1/2 szklanki soli do marynat lub konserw; przyprawy (liść laurowy, cynamon, pieprz) są opcjonalne; słoik wysterylizować, gotując go w wodzie 10 minut; 5 cytryn umyć w ciepłej wodzie, szorując, i osuszyć; każdą naciąć na ćwiartki, nie przecinając dołu; z pozostałych 5 cytryn wycisnąć 1 1/2 szklanki soku; 1 łyżkę soli rozsypać na dnie słoika, w każdą cytrynę wcisnąć 1 czubatą łyżkę soli, przykryć resztą soli; zalać sokiem do 1/2 cala pod brzeg.",
+  "twierdzenie_en": "UCCE MFP El Dorado (recipe from Ball), “Traditional Preserved Lemons”, for 1 quart jar: 10 lemons and 1/2 cup pickling or canning salt; spices (bay leaf, cinnamon, peppercorns) are optional; sterilize the jar by boiling it in water for 10 minutes; wash 5 lemons in warm water, scrubbing well, and dry them; cut each into quarters without cutting through the bottom end; juice the remaining 5 lemons to measure 1 1/2 cups of juice; sprinkle 1 tablespoon of salt over the bottom of the jar, pack 1 heaping tablespoon of salt into each lemon, cover with the remaining salt; fill the jar with lemon juice to within 1/2 inch of the top.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "Traditional Preserved Lemons",
+    "cytat": "Yield: 1 quart jar",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "69b76eb7cc92"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "Traditional Preserved Lemons",
+    "cytat": "10 lemons, divided",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "69b76eb7cc92"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "Traditional Preserved Lemons",
+    "cytat": "pickling salt or canning salt",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "69b76eb7cc92"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "Traditional Preserved Lemons",
+    "cytat": "jar in water for 10 minutes and keep hot and ready to use.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "69b76eb7cc92"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "Traditional Preserved Lemons",
+    "cytat": "Wash 5 lemons in warm water, scrubbing well to remove any dirt or wax. Dry well, using",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "69b76eb7cc92"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "Traditional Preserved Lemons",
+    "cytat": "quarters, without cutting through the bottom end and leaving it intact. Juice the",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "69b76eb7cc92"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "Traditional Preserved Lemons",
+    "cytat": "remaining 5 lemons to measure 1 ½ cups of juice.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "69b76eb7cc92"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "Traditional Preserved Lemons",
+    "cytat": "Sprinkle 1 Tbsp. pickling salt over the bottom of the sterilized jar. Working over a bowl,",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "69b76eb7cc92"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "Traditional Preserved Lemons",
+    "cytat": "pack 1 heaping Tbsp. salt into each lemon before placing in the jar, end up.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "69b76eb7cc92"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "Traditional Preserved Lemons",
+    "cytat": "Cover with the remaining salt.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "69b76eb7cc92"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "Traditional Preserved Lemons",
+    "cytat": "Fill jar with lemon juice to within ½ “ of top of jar.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "69b76eb7cc92"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "uwagi pod przepisem",
+    "cytat": "Spices are optional. Many Preserved Lemon recipes call for no spices at all.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "69b76eb7cc92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "FER-103",
+  "twierdzenie": "UCCE MFP El Dorado (przepis z Ball): słoik stoi w ciemnej, chłodnej szafce 2 tygodnie, codziennie wstrząsany; potem z cytryn usuwa się miąższ i błony, zostawiając skórkę, płucze ją wodą z nadmiaru soli i osusza; kupuje się owoce najlepszej jakości, bez skaz.",
+  "twierdzenie_en": "UCCE MFP El Dorado (recipe from Ball): keep the jar in a dark, cool cupboard for 2 weeks, shaking it every day; then remove the pulp and membrane, using only the peel, rinse it under water to remove excess salt and dry it; choose top-quality fruit with no blemishes.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "Traditional Preserved Lemons",
+    "cytat": "Place jar in a dark, cool cupboard for 2 weeks, shaking every day to distribute the salt.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "69b76eb7cc92"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "Traditional Preserved Lemons",
+    "cytat": "membrane, using only the peel. Rinse under water to remove excess salt, and dry with",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "69b76eb7cc92"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-01/392468.pdf",
+    "miejsce": "uwagi pod przepisem",
+    "cytat": "select top quality fruit that is heavy for its size and shows no",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "69b76eb7cc92"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
+ },
+ {
+  "id": "FER-104",
+  "twierdzenie": "Ask Extension (OSU, 2018): cytryny muszą być zanurzone w soku; mogą bezpiecznie stać w temperaturze pokojowej przez pierwsze dni, żeby sól się rozpuściła, potem zaleca się lodówkę; soli musi być odpowiednio dużo; cytryna z solą koroduje metalowe wieczko słoika, więc zaleca się luźną plastikową pokrywkę albo metalowe wieczko podłożone folią spożywczą.",
+  "twierdzenie_en": "Ask Extension (OSU, 2018): the lemons must be submerged in juice; they can be safely left at room temperature for the first few days to let the salt dissolve, and then refrigerator storage is suggested; the salt must be in an adequate amount; lemon and salt corrode a metal canning lid, so a loose plastic lid or a metal lid lined with plastic wrap is suggested.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=441067",
+    "miejsce": "Expert Response",
+    "cytat": "the lemons are submerged in juice.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "621b85a13663"
+   },
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=441067",
+    "miejsce": "Expert Response",
+    "cytat": "These can be safely left at room temperature",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "621b85a13663"
+   },
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=441067",
+    "miejsce": "Expert Response",
+    "cytat": "for the first few days to allow the salt to dissolve. Then we suggest storing",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "621b85a13663"
+   },
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=441067",
+    "miejsce": "Expert Response",
+    "cytat": "it needs to be an adequate amount.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "621b85a13663"
+   },
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=441067",
+    "miejsce": "Expert Response",
+    "cytat": "The lemon and salt will corrode a canning jar",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "621b85a13663"
+   },
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=441067",
+    "miejsce": "Expert Response",
+    "cytat": "lid, so a loose plastic lid or lining a metal lid with plastic wrap and leaving",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "621b85a13663"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)",
+  "uwaga": "Sprzeczność tego samego szczebla: UCCE (Ball) 2 tygodnie (El Dorado) albo 2–4 tygodnie (Solano/Yolo, OC) w temperaturze pokojowej; Ask Extension tylko pierwsze dni, potem lodówka. Karty: reguła JarAtlas (ostrożnie) — po pierwszych dniach do lodówki (decyzja p32-D4, do weta)."
+ },
+ {
+  "id": "FER-105",
+  "twierdzenie": "UCCE MFP Solano/Yolo (przepis z Ball), „Preserved Lemons or Limes”: przepis obejmuje limonki; owoce wyszorować w ciepłej wodzie i osuszyć; naciąć od góry do 1/2 cala przed dołem, prawie na ćwiartki; z pozostałych 5 owoców wycisnąć 1 1/2 szklanki soku; 1 łyżka soli do marynat na dno wysterylizowanego słoika; zalać sokiem do 1/2 cala pod brzeg; dojrzewanie 2–4 tygodnie z codziennym wstrząsaniem albo do zmięknięcia skórki; przechowywać w lodówce.",
+  "twierdzenie_en": "UCCE MFP Solano/Yolo (recipe from Ball), “Preserved Lemons or Limes”: the recipe covers limes; scrub the fruit in warm water and dry it; slice each from the top to within 1/2 inch of the bottom, almost into quarters; juice the remaining 5 fruits to measure 1 1/2 cups of juice; sprinkle 1 tablespoon of pickling salt over the bottom of a sterilized jar; fill with juice to within 1/2 inch of the top; ripen 2–4 weeks with daily shaking, or until the rinds are tender to the bite; store in the refrigerator.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341442.pdf",
+    "miejsce": "Preserved Lemons or Limes",
+    "cytat": "Juice the remaining 5 lemons/limes to measure 1 ½ cups",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "37293ff64a19"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341442.pdf",
+    "miejsce": "Preserved Lemons or Limes",
+    "cytat": "Scrub 3-5 organic lemons in warm water and dry with paper towels.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "37293ff64a19"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341442.pdf",
+    "miejsce": "Preserved Lemons or Limes",
+    "cytat": "lemon from the top to within 1/2\" of the bottom, almost cutting them into quarters but",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "37293ff64a19"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341442.pdf",
+    "miejsce": "Preserved Lemons or Limes",
+    "cytat": "Sprinkle 1 Tbsp. pickling salt over the bottom of a sterilized jars.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "37293ff64a19"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341442.pdf",
+    "miejsce": "Preserved Lemons or Limes",
+    "cytat": "Fill the jar with lemon juice to within ½ -inch of top of jar.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "37293ff64a19"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-12/341442.pdf",
+    "miejsce": "Preserved Lemons or Limes",
+    "cytat": "every day for 2-4 weeks, or until the rinds are tender to the bite.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext -layout+grep",
+    "sha12": "37293ff64a19"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "06 p32 (karty lodówkowe: octy smakowe, cytrusy w soli)"
  }
 ]
