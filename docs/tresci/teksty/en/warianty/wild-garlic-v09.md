@@ -1,13 +1,13 @@
-# Green wild garlic oil for the refrigerator, used within days (UGA method)
+# Green wild garlic oil for the refrigerator, eaten by the next day (UGA method)
 
-This card uses the UGA Extension method for oil with non-acidified fresh herbs, here wild garlic leaves: the oil is heated to 180 °F (82 °C) before the leaves are added, and the oil is kept in the refrigerator and thrown away 4 days after it was made, or frozen. [T:OLE-018]
+This card uses the UGA Extension method for oil with non-acidified fresh herbs, here wild garlic leaves: the oil is heated to 180 °F (82 °C) before the leaves are added, and the oil is kept in the refrigerator or frozen. [T:OLE-018] UGA allows at most 4 days in the refrigerator, and NCHFP gives no more than 4 days for garlic in oil. [T:OLE-018,OLE-002] This card uses the shorter limit of the German Federal Institute for Risk Assessment (BfR): eat the oil no later than the day after you make it. [T:OLE-077]
 
 ## !
 
 - According to BfR, young wild garlic leaves resemble those of the poisonous lily of the valley and the very poisonous autumn crocus; when in doubt, it is better not to eat them. [T:SUS-337]
 - Home-made oils with non-acidified garlic or herbs must never be stored at room temperature. [T:OLE-019]
-- Keep this oil in the refrigerator and throw it away 4 days after you made it, or freeze it. [T:OLE-018]
-- NCHFP gives the same limit for garlic in oil: make it fresh and keep it in the refrigerator at 40 °F (4.4 °C) or lower for no more than 4 days. [T:OLE-002]
+- Keep this oil in the refrigerator or freeze it; UGA allows at most 4 days in the refrigerator. [T:OLE-018] JarAtlas uses a shorter limit: eat the oil no later than the day after you make it. [T:OLE-077]
+- For garlic in oil, NCHFP says to make it fresh and keep it in the refrigerator at 40 °F (4.4 °C) or lower for no more than 4 days. [T:OLE-002]
 
 ## Why this oil needs care
 
@@ -29,7 +29,7 @@ JarAtlas rule: if you are not sure that every leaf is wild garlic, do not use th
 
 ## Preparing
 
-Make only as much oil as you will use within 4 days. [T:OLE-018]
+Make only as much oil as you will eat by the day after you make it. [T:OLE-077]
 
 Wash the glass container thoroughly and boil it for 10 minutes. [T:OLE-058]
 
@@ -43,6 +43,10 @@ Put the oil with the leaves into the sterilized container, close it and keep it 
 
 ## Storing
 
-Throw the oil away 4 days after you made it. [T:OLE-018]
+Keep the oil in the refrigerator at 40 °F (4 °C) or lower. [T:OLE-057]
+
+Eat the oil no later than the day after you made it, and throw away what is left. [T:OLE-077]
+
+The BfR advises against making herb oils in advance and storing them at home. [T:OLE-076,OLE-087]
 
 Alternatively, freeze the oil until you are ready to use it. [T:OLE-018]

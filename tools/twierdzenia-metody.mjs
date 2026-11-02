@@ -31,6 +31,7 @@ export const WSPOLNE = {
   'ACI-512': ['refrigerator', 'water-bath'], // czosnek w occie w lodówce zamiast wekowania: garlic-v07 (lodówka) i karty-ostrzeżenia garlic-v04/v06/v08 (kąpiel), p36
   'SLO-023': ['refrigerator', 'dry-storage'], // pH powyżej 4,6 a C. botulinum: wymagane ostrzeżenie kart-ostrzeżeń imbiru (lodówka) i kandyzowanych dyni/imbiru (suszenie), p36
   'SLO-482': ['refrigerator', 'dry-storage'], // imbir/sok imbirowy bez przepisu kąpieli (Ask Extension): karty-ostrzeżenia imbiru lodówkowe i kandyzowanego, p36
+  'OLE-057': ['freezer', 'refrigerator'], // lodówka 40 °F (4 °C) lub niżej, zamrażarka 0 °F: karty mrożenia i karty oleju w lodówce (B24-Q1, p36)
   'SUS-035': ['dry-storage', 'brak'], // toksyny grzybów: karty suszenia grzybów (p28) i karta-ostrzeżenie kapusty z grzybami (white-cabbage-v13, metoda nieustalona)
   'OLE-002': ['water-bath', 'freezer', 'refrigerator'], // czosnek w oleju: lodówka 40°F, 4 dni (NCHFP): ostrzeżenie papryki w oleju (bell-pepper-v09), karta mrożenia garlic-v17 (p24) i wymagane ostrzeżenie oleju szczypiorkowego leek-chives-v08 (p32)
   'OLE-019': ['freezer', 'refrigerator'], // oleje z niezakwaszonymi ziołami nie w temperaturze pokojowej: karty mrożenia garlic-v09/v10 i wymagane ostrzeżenie leek-chives-v08 (p32)

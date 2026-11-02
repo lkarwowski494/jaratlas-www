@@ -12,6 +12,6 @@ There is no recipe here for Indian-style eggplant (brinjal) pickle in oil with s
 
 Peppers, garlic, mushrooms and eggplant have been involved in botulism outbreaks from vegetables and herbs in oil, mostly homemade products. [T:OLE-024]
 
-In Italy in 1993, two botulism events were caused by home-prepared eggplant in oil. [T:OLE-025]
+In Italy in 1993, two type B botulism outbreaks were linked to commercially prepared roasted eggplant in oil. [T:OLE-025]
 
 Eggplant is a low-acid food with a pH above 4.6, and no USDA process times have been developed for canning it at home. [T:ACI-026,ACI-027]
