@@ -1,0 +1,4106 @@
+{
+ "data": "2026-11-02",
+ "rola": "06-tresci (build), zadanie B23 = research R2 (P1)",
+ "galaz": "claude/jaratlas-b23-research",
+ "baza": "claude/happy-brown-yncplj = 232f3f4",
+ "zakres": {
+  "water-bath × sweet-preserves": [
+   "apple-v11",
+   "apple-v12",
+   "pear-v09",
+   "sour-cherry-v07",
+   "sweet-cherry-v06",
+   "sweet-cherry-v09",
+   "peach-nectarine-v11",
+   "strawberry-v07",
+   "strawberry-v11",
+   "strawberry-v12",
+   "raspberry-blackberry-v10",
+   "raspberry-blackberry-v11",
+   "currant-v06",
+   "gooseberry-v06",
+   "gooseberry-v07",
+   "gooseberry-v10",
+   "blueberry-bilberry-v09",
+   "grapes-v08",
+   "rhubarb-v06",
+   "rhubarb-v07",
+   "lemon-v11",
+   "orange-kumquat-v07",
+   "orange-kumquat-v08",
+   "grapefruit-v03",
+   "grapefruit-v07"
+  ],
+  "brak × sweet-preserves": [
+   "chili-pepper-v12",
+   "cranberry-lingonberry-v08",
+   "elderberry-elderflower-v08",
+   "mango-papaya-v09",
+   "pineapple-banana-v06",
+   "fig-pomegranate-v06",
+   "fig-pomegranate-v07",
+   "fig-pomegranate-v09",
+   "watermelon-melon-v06"
+  ]
+ },
+ "liczby": {
+  "ok-zrodlo": 3,
+  "ok-zrodlo-po-zmianie": 31
+ },
+ "uzyte_id": [
+  "SLO-800",
+  "SLO-801",
+  "SLO-802",
+  "SLO-803",
+  "SLO-804",
+  "SLO-805",
+  "SLO-806",
+  "SLO-807",
+  "SLO-808",
+  "SLO-809",
+  "SLO-810",
+  "SLO-811",
+  "SLO-812",
+  "SLO-813",
+  "SLO-814",
+  "SLO-815",
+  "SLO-816",
+  "SLO-817",
+  "SLO-818",
+  "SLO-840",
+  "SLO-841",
+  "SLO-842",
+  "SLO-843",
+  "SLO-844",
+  "SLO-845",
+  "SLO-846",
+  "SLO-847",
+  "SLO-848",
+  "SLO-860",
+  "SLO-861",
+  "SLO-862",
+  "SLO-863",
+  "SLO-864",
+  "SLO-865",
+  "SLO-866",
+  "SLO-867",
+  "SLO-868",
+  "SLO-869",
+  "SLO-870",
+  "SLO-871",
+  "SLO-872",
+  "SLO-873",
+  "SLO-874",
+  "SLO-875",
+  "SLO-876",
+  "SLO-877",
+  "SLO-878",
+  "SLO-879"
+ ],
+ "pula_id": {
+  "A": "SLO-800–819",
+  "B": "SLO-840–859",
+  "C": "SLO-860–879"
+ },
+ "warianty": [
+  {
+   "grupa": "A",
+   "id": "apple-v11",
+   "nazwa": "galaretka pektynowa z ogryzków",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo",
+   "ryzyko": "niskie",
+   "regula": "1-3 (+ (c) jako zapas)",
+   "podstawa": "Arkusz UC MFP „Apple Scrap Jelly” (UC ANR, szczebel 3) to dokładnie galaretka z obierek i gniazd na pektynie w proszku: 4 1/2 szkl. soku, 5 szkl. cukru, 1 opak. pektyny (SLO-800, SLO-801), wrzenie 1 min, sterylne słoiki, 1/4 cala (SLO-802), 5 min +1 min/1000 stóp, 10 min przy słoikach niesterylnych (SLO-803). Drugi arkusz UC ANR (El Dorado, adaptacja Sure-Jell) potwierdza proporcję i podaje 10/15/20 min dla słoików niesterylnych (SLO-805). Galaretka wysokocukrowa z jabłek = niskie ryzyko, więc nawet przy szczeblu 4 (SLO-804: adaptacja strony Ball) reguła (c) daje ten sam wynik.",
+   "twierdzenia": [
+    "SLO-800",
+    "SLO-801",
+    "SLO-802",
+    "SLO-803",
+    "SLO-804",
+    "SLO-805",
+    "ACI-482",
+    "ACI-732",
+    "ACI-481",
+    "SLO-048",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "zmiana_wariantu": null,
+   "parametry_karty": {
+    "przepis": "UC MFP Apple Scrap Jelly (UC ANR)",
+    "sklad": "4 1/2 szklanki soku z obierek i gniazd nasiennych, 5 szklanek cukru, 1 opakowanie pektyny w proszku; ok. 6 słoików 1/2 pinty (SLO-800)",
+    "sok": "obierki i gniazda (ze świeżych, zdrowych jabłek, SLO-048) + najwyżej 1 szklanka zimnej wody na funt, zagotować, dusić 15 min, odsączyć przez worek bez wyciskania (SLO-801)",
+    "gotowanie": "sok z pektyną do pełnego wrzenia, cukier, ponownie wrzenie, intensywnie 1 min (SLO-802)",
+    "sloik": "1/2 pinty (ok. 250 ml); sterylne (SLO-802)",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+    "czas_min": {
+     "0-1000_ft": 5,
+     "1001-3000_ft": 10,
+     "3001-6000_ft": 15,
+     "6001-8000_ft": 20,
+     "8001-10000_ft": 25,
+     "zrodlo_czasu": "dłuższy z: UC MFP 5 min +1 min/1000 stóp (SLO-803), NCHFP 5/10/15 (ACI-482) i tabeli Sure-Jell ACI-732 (5 min +5/+10/+15/+20)"
+    },
+    "sloiki_niesterylne": "tylko gdy słoiki nie są sterylizowane: 10/15/20/25/30 min w tych samych przedziałach (SLO-803, SLO-805, ACI-732)",
+    "przechowywanie": {
+     "nieotwarte": "do 1 roku, chłodno, ciemno, sucho, 50–70 °F (ok. 10–21 °C) (ACI-733)",
+     "otwarte": "lodówka ≤40 °F (ok. 4 °C), najlepiej 1 miesiąc (SLO-018)"
+    },
+    "nie_zmniejszac_cukru": "SLO-001"
+   },
+   "uwagi": "Wykonuje B14 Z1 i warunek B15-D1 (twierdzenia z cytatem). Linia „Source” arkusza wskazuje stronę Ball i NCHFP, bez tytułu książki. Arkusz El Dorado radzi wyciskać obierki — karta idzie za UC MFP (bez wyciskania, jakość, nie bezpieczeństwo).",
+   "zmiana_wzgledem_poprzedniego": "B14 ok-zrodlo potwierdzone; B15 wstrzymanie usunięte: są twierdzenia SLO-800–805 z cytatem. Czas karty wydłużony na wysokości (ACI-732) zamiast samego 5 min z B14."
+  },
+  {
+   "grupa": "A",
+   "id": "apple-v12",
+   "nazwa": "dżem jabłkowo-miętowy",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "1-3",
+   "podstawa": "CSU Extension (Preserve Smart, szczebel 3) ma przepis „Mint Jelly without Added Pectin”, czyli galaretkę z soku jabłkowego z naparem z mięty: 3 lb jabłek, 1 szkl. liści mięty, 3 szkl. cukru (SLO-814, SLO-815), 5/10/10 min (SLO-816). Jabłko i mięta zostają, zmienia się tylko forma (dżem → galaretka), więc zmiana jest mniejsza niż w B16 (galaretka miętowa bez jabłka albo konfitura jabłkowa bez mięty). Mięta jest w przepisie 1–3, więc SLO-068 jest spełnione.",
+   "twierdzenia": [
+    "SLO-814",
+    "SLO-815",
+    "SLO-816",
+    "ACI-492",
+    "ACI-481",
+    "SLO-068",
+    "SLO-048",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "zmiana_wariantu": "„Dżem jabłkowo-miętowy” → „galaretka jabłkowo-miętowa (bez dodatku pektyny)” wg CSU Extension 1:1. Mięty do dżemu jabłkowego (z miąższem) nadal nie dodawać. Drogi B16 (ACI-748, SLO-082; ACI-622, ACI-623) zostają jako alternatywy.",
+   "parametry_karty": {
+    "przepis": "CSU Extension Preserve Smart, Mint Jelly without Added Pectin",
+    "sklad": "3 lb (ok. 1,4 kg) kwaśnych jabłek (1/4 niedojrzałych, 3/4 dojrzałych) + 3 szklanki wody → ok. 4 szklanki soku; 1 ubita szklanka świeżych liści mięty + 1 szklanka wrzątku → 1/2 szklanki naparu; 3 szklanki cukru; 5–6 słoików 1/2 pinty (SLO-814)",
+    "gotowanie": "jabłek nie obierać, nie wycinać gniazd; dusić 20–25 min; sok przez worek; miętę parzyć 1 h, odcisnąć; 4 szkl. soku + 1/2 szkl. naparu + cukier gotować do 8 °F (ok. 4,4 °C) ponad temperaturę wrzenia wody lub testu łyżki (SLO-815)",
+    "sloik": "1/2 pinty lub pinta; sterylne (SLO-815, SLO-816)",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+    "czas_min": {
+     "0-1000_ft": 5,
+     "1001-6000_ft": 10,
+     "powyzej_6000_ft": 15,
+     "zrodlo_czasu": "CSU 5/10/10 (SLO-816); powyżej 6000 stóp dłuższy czas NCHFP dla galaretki jabłkowej bez pektyny 15 min (ACI-492)"
+    },
+    "przechowywanie": {
+     "nieotwarte": "do 1 roku, chłodno, ciemno, sucho, 50–70 °F (ok. 10–21 °C) (ACI-733)",
+     "otwarte": "lodówka ≤40 °F (ok. 4 °C), najlepiej 1 miesiąc (SLO-018)"
+    },
+    "nie_zmniejszac_cukru": "SLO-001"
+   },
+   "uwagi": "Barwnik spożywczy w źródle opcjonalny — karta go pomija. Strona CSU nie podaje pochodzenia przepisu (prawdopodobnie dawny USDA, nie sprawdzono). NCHFP nie ma osobnej strony galaretki miętowej bez pektyny (adresy próbne przekierowują na indeks).",
+   "zmiana_wzgledem_poprzedniego": "Nowe źródło 1–3 z jabłkiem i miętą razem: zmiana mniejsza niż w B16 (tylko dżem → galaretka)."
+  },
+  {
+   "grupa": "A",
+   "id": "pear-v09",
+   "nazwa": "dżem gruszkowy z imbirem lub kardamonem",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "Ball (przedruk extension) / 1-3",
+   "podstawa": "Gruszki mają pH do 4,60 (ACI-127) i są w grupie III NCHFP (ACI-477), więc wg logiki B19-D1 to owoc słabo kwaśny i potrzebny jest przepis 1–3; droga B16 (Certo UK, ACI-740, szczebel 4) tego nie spełnia. Jest przepis Ball z imbirem w przedruku UCCE MFP Lassen (szczebel 3): „Ginger Pear Marmalade” — gruszki, sok i skórka limonki, imbir kandyzowany, 4 szkl. cukru, 1/4 cala, 10 min (SLO-817, SLO-818). Kardamonu nie ma w żadnym źródle 1–3. Wkładki Sure-Jell/MCP „Pear” to zwykły dżem gruszkowy bez przypraw (= ACI-744).",
+   "twierdzenia": [
+    "SLO-817",
+    "SLO-818",
+    "ACI-127",
+    "ACI-477",
+    "ACI-744",
+    "ACI-740",
+    "ACI-732",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001"
+   ],
+   "zmiana_wariantu": "Zalecane: „dżem gruszkowy z imbirem lub kardamonem” → „gruszki z imbirem i limonką — marmolada ze skórką limonki” wg Ball (przedruk UCCE MFP Lassen) 1:1; bez kardamonu. Alternatywa bez przypraw: dżem gruszkowy Sure-Jell (ACI-744). Droga B16 (Certo UK, ACI-740) tylko jeśli weto uzna gruszki za niskie ryzyko.",
+   "parametry_karty": {
+    "przepis": "Ball Ginger Pear Marmalade (przedruk UCCE MFP Lassen County, UC ANR)",
+    "sklad": "3 limonki (skórka w cienkich paskach + sok), 8 szklanek cienko pokrojonych obranych gruszek bez gniazd, 4 szklanki cukru, 3 łyżki posiekanego imbiru kandyzowanego, 1 1/4 szklanki wody; ok. 4 słoiki 8 uncji (SLO-817)",
+    "gotowanie": "gruszki obtoczyć w soku z limonek, dodać cukier i imbir, odstawić 1 h; skórkę gotować w wodzie ok. 15 min, płyn dodać do gruszek; pełne wrzenie 15 min, dodać skórkę, gotować do punktu żelowania (ok. 5 min) (SLO-818)",
+    "sloik": "8 uncji (ok. 250 ml)",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+    "czas_min": {
+     "0-1000_ft": 10,
+     "1001-3000_ft": 15,
+     "3001-6000_ft": 20,
+     "6001-8000_ft": 25,
+     "8001-10000_ft": 30,
+     "zrodlo_czasu": "10 min wg źródła (SLO-818); źródło nie podaje poprawki na wysokość — dodano tabelę ACI-732 (do weta)"
+    },
+    "przechowywanie": {
+     "nieotwarte": "do 1 roku, chłodno, ciemno, sucho, 50–70 °F (ok. 10–21 °C) (ACI-733)",
+     "otwarte": "lodówka ≤40 °F (ok. 4 °C), najlepiej 1 miesiąc (SLO-018)"
+    },
+    "nie_zmniejszac_cukru": "SLO-001"
+   },
+   "uwagi": "Źródło pozwala zamiast limonek użyć 2 cytryn albo 1 dużej pomarańczy (SLO-817) — można podać na karcie. Linii „Source” z tytułem książki nie cytuję. Wkładek PDF Sure-Jell/MCP nie dało się odczytać (skan bez tekstu), ale strona Kraft Heinz Pear Jam (ACI-744) jest już w rejestrze.",
+   "zmiana_wzgledem_poprzedniego": "Ryzyko zmienione z niskiego na wysokie (ACI-127). Nowa droga szczebla 3 z imbirem (SLO-817/818) zastępuje Certo UK (szczebel 4) jako zalecaną."
+  },
+  {
+   "grupa": "A",
+   "id": "sour-cherry-v07",
+   "nazwa": "konfitura z całych wydrylowanych wiśni",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "pektyna (Sure-Jell) / (c)",
+   "podstawa": "Nie znalazłem konfitury z całych wiśni w źródle 1–3: PSU i Purdue „Let's Preserve Cherries” mają tylko owoce w syropie i mrożenie, Kraft Heinz ma dżem wiśniowy z siekanych owoców (ACI-743). Werdykt B16 zostaje; wariant i tak wycofany jako duplikat sour-cherry-v11.",
+   "twierdzenia": [
+    "ACI-743",
+    "ACI-742",
+    "ACI-732",
+    "ACI-626"
+   ],
+   "zmiana_wariantu": "bez zmian wobec poprzedniego werdyktu (zob. B16/B19)",
+   "parametry_karty": {
+    "jak_w": "poprzedni werdykt (B16/B19), bez zmian"
+   },
+   "uwagi": "Wariant wycofany (retired, duplikat sour-cherry-v11) — karta nie powstaje niezależnie od werdyktu.",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "A",
+   "id": "sweet-cherry-v06",
+   "nazwa": "konfitura z jasnych czereśni z cytryną",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "pektyna (b)",
+   "podstawa": "Brak przepisu 1–3 na konfiturę z jasnych czereśni (Rainier); wyszukiwanie zwraca tylko blogi, a extension (PSU, UC) ma czereśnie w syropie. Werdykt B19 (Sure-Jell Cherry Jam, ACI-835–837) zostaje.",
+   "twierdzenia": [
+    "ACI-835",
+    "ACI-836",
+    "ACI-837",
+    "ACI-132"
+   ],
+   "zmiana_wariantu": "bez zmian wobec poprzedniego werdyktu (zob. B16/B19)",
+   "parametry_karty": {
+    "jak_w": "poprzedni werdykt (B16/B19), bez zmian"
+   },
+   "uwagi": "Blogi wprost piszą, że kwasowość czereśni Rainier jest nieznana — to wzmacnia ostrożność B19.",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "A",
+   "id": "sweet-cherry-v09",
+   "nazwa": "dżem czereśniowo-truskawkowy",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "pektyna (b)",
+   "podstawa": "Brak mieszanki czereśni z truskawkami u Kraft Heinz (Sure-Jell/Certo) i w extension; wyniki to przepisy jednoowocowe i Certo Triple Berry (bez czereśni). Werdykt B19 zostaje.",
+   "twierdzenia": [
+    "ACI-835",
+    "ACI-836",
+    "ACI-837",
+    "ACI-132"
+   ],
+   "zmiana_wariantu": "bez zmian wobec poprzedniego werdyktu (zob. B16/B19)",
+   "parametry_karty": {
+    "jak_w": "poprzedni werdykt (B16/B19), bez zmian"
+   },
+   "uwagi": "B19-D3 (duplikat po zmianie) nadal otwarte.",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "A",
+   "id": "peach-nectarine-v11",
+   "nazwa": "konfitura z nektarynek i lawendy",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "pektyna (b)",
+   "podstawa": "Brak przepisu 1–3 z nektarynkami i lawendą; jedyny przepis producenta to Pomona „White Nectarine-Lavender Jam” (szczebel 4, pektyna niskocukrowa), niewystarczający przy wysokim ryzyku. Werdykt B19 (Sure-Jell Nectarine Jam, ACI-838–840) zostaje.",
+   "twierdzenia": [
+    "ACI-838",
+    "ACI-839",
+    "ACI-840",
+    "ACI-134",
+    "SLO-491"
+   ],
+   "zmiana_wariantu": "bez zmian wobec poprzedniego werdyktu (zob. B16/B19)",
+   "parametry_karty": {
+    "jak_w": "poprzedni werdykt (B16/B19), bez zmian"
+   },
+   "uwagi": "Pomony nie pobierałem (szczebel 4, nie zmienia werdyktu).",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "A",
+   "id": "strawberry-v07",
+   "nazwa": "dżem truskawkowy klasyczny i niskosłodzony (z pektyną)",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "NCHFP (klasyczny) + pektyna Sure-Jell Less Sugar przez UC ANR (niskosłodzony)",
+   "podstawa": "Wersja klasyczna ma przepis NCHFP 1:1 (ACI-459–462, SLO-072). Wersja niskosłodzona ma teraz źródło szczebla 3: arkusz UC ANR „Reduced-Sugar Strawberry Jam (Sure Jell Less Sugar)” — 6 szkl. truskawek, 4 szkl. cukru, pektyna Less sugar, 10/15/20 min (SLO-806–808), adaptacja wkładki Kraft Heinz (SLO-809), zgodnie z SLO-006. Oba przepisy istnieją, ale to dwie różne receptury (różna pektyna, cukier i czas), więc nie wolno ich łączyć w jedną (reguła 4).",
+   "twierdzenia": [
+    "ACI-459",
+    "ACI-460",
+    "ACI-461",
+    "ACI-462",
+    "SLO-072",
+    "SLO-806",
+    "SLO-807",
+    "SLO-808",
+    "SLO-809",
+    "SLO-006",
+    "SLO-001",
+    "ACI-732",
+    "ACI-136",
+    "ACI-733",
+    "SLO-018",
+    "SLO-012"
+   ],
+   "zmiana_wariantu": "Rozdzielić na dwie odrębne receptury (zalecane: dwa warianty wg C8-D11): (A) „dżem truskawkowy z pektyną” wg NCHFP; (B) „dżem truskawkowy o obniżonej zawartości cukru (pektyna Sure-Jell Less or No Sugar Needed)” wg UC ANR / Sure-Jell. W wersji B tylko ta pektyna, cukru nie zmniejszać poniżej 4 szkl. na 6 szkl. owoców.",
+   "parametry_karty": {
+    "A_klasyczny_NCHFP": {
+     "sklad": "5 1/2 szklanki rozgniecionych truskawek, 1 opak. pektyny w proszku, 8 szklanek cukru (ACI-459)",
+     "gotowanie": "ACI-460",
+     "sloik": "1/2 pinty lub pinta, sterylne (ACI-461)",
+     "wolna_przestrzen": "1/4 cala",
+     "czas_min": {
+      "0-1000_ft": 5,
+      "1001-6000_ft": 10,
+      "powyzej_6000_ft": 15,
+      "zrodlo": "ACI-462"
+     }
+    },
+    "B_niskoslodzony_UC_SJ_Less_Sugar": {
+     "sklad": "6 szklanek rozgniecionych truskawek (ok. 12 szklanek świeżych), 4 szklanki cukru, 1 opak. pektyny SURE-JELL Less or No Sugar Needed; ok. 8 słoików 250 ml (SLO-806)",
+     "gotowanie": "1/4 szkl. cukru z pektyną wmieszać w owoce, pełne wrzenie, reszta cukru, pełne wrzenie dokładnie 1 min (SLO-807)",
+     "sloik": "1/2 pinty lub pinta",
+     "wolna_przestrzen": "1/4 cala (SLO-807)",
+     "czas_min": {
+      "0-1000_ft": 10,
+      "1001-3000_ft": 15,
+      "3001-6000_ft": 20,
+      "6001-8000_ft": 25,
+      "8001-10000_ft": 30,
+      "zrodlo": "dłuższy z UC ANR 10/15/20 (SLO-808) i tabeli Sure-Jell ACI-732 (10 min +5/+10/+15/+20)"
+     }
+    },
+    "przechowywanie": {
+     "nieotwarte": "do 1 roku, chłodno, ciemno, sucho, 50–70 °F (ok. 10–21 °C) (ACI-733)",
+     "otwarte": "lodówka ≤40 °F (ok. 4 °C), najlepiej 1 miesiąc (SLO-018)"
+    }
+   },
+   "uwagi": "Kraft Heinz ma też wersję bez cukru (słodzik, 3 szkl. owoców, 10 min) na tej samej pektynie — to inny produkt („bez cukru”), nie dodawałem twierdzenia. Krótsza trwałość po otwarciu dla wersji niskosłodzonej — do sprawdzenia w karcie (SLO-018 dotyczy dżemów pełnocukrowych).",
+   "zmiana_wzgledem_poprzedniego": "E3/C8/B14: brak źródła dla wersji niskosłodzonej → teraz jest (SLO-806–809, szczebel 3). Do-researchu → ok-zrodlo-po-zmianie (rozdzielenie receptur)."
+  },
+  {
+   "grupa": "A",
+   "id": "strawberry-v11",
+   "nazwa": "dżem z prosecco",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "NCHFP",
+   "podstawa": "Brak przepisu 1–3 na dżem truskawkowy z prosecco/szampanem; UC MFP ma wino tylko w innych przetworach (dżem figowy z czerwonym winem, mrożony dżem rabarbarowy z chardonnay) — nie wolno ich przenosić. Werdykt B19 (NCHFP Strawberry Jam Pectin, ACI-459–462) zostaje.",
+   "twierdzenia": [
+    "ACI-459",
+    "ACI-460",
+    "ACI-461",
+    "ACI-462",
+    "ACI-136"
+   ],
+   "zmiana_wariantu": "bez zmian wobec poprzedniego werdyktu (zob. B16/B19)",
+   "parametry_karty": {
+    "jak_w": "poprzedni werdykt (B16/B19), bez zmian"
+   },
+   "uwagi": "B19-D3 (duplikat strawberry-v07) nadal otwarte.",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "A",
+   "id": "strawberry-v12",
+   "nazwa": "dżem z rabarbarem",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo",
+   "ryzyko": "niskie",
+   "regula": "1-3 (Sure-Jell + NDSU/WSU)",
+   "podstawa": "Dżem truskawkowo-rabarbarowy ma przepisy 1:1 szczebla 3: Sure-Jell „Rhubarb Strawberry Jam” (Kraft Heinz; 4 szkl. owoców, w tym 2 szkl. rabarbaru, 5 1/2 szkl. cukru, 10 min; SLO-810, SLO-811) oraz NDSU FN172 i WSU „Rhubarb-Strawberry Jam With Pectin” z pektyną płynną (przepis USDA HG-56; SLO-812, SLO-813). Rabarbar i truskawki są kwaśne (ACI-143, ACI-136). Polityka 1–3 pozwala na ok-zrodlo bez czekania na szczebel 1 (wstrzymanie C8-D10).",
+   "twierdzenia": [
+    "SLO-810",
+    "SLO-811",
+    "SLO-812",
+    "SLO-813",
+    "ACI-732",
+    "ACI-626",
+    "ACI-143",
+    "ACI-136",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "zmiana_wariantu": null,
+   "parametry_karty": {
+    "przepis": "Sure-Jell Rhubarb Strawberry Jam (Kraft Heinz)",
+    "sklad": "4 szklanki przygotowanych owoców: 2 szklanki posiekanego lub cienko pokrojonego nieobranego rabarbaru + rozgniecione truskawki (kupić ok. 1 kwartę truskawek i 1 lb rabarbaru); 1 opak. SURE-JELL Original; 1/2 łyżeczki masła (opcjonalnie, przeciw pianie); 5 1/2 szklanki cukru (SLO-810)",
+    "gotowanie": "owoce z pektyną do pełnego wrzenia, cukier, ponownie pełne wrzenie dokładnie 1 min (SLO-811)",
+    "sloik": "1/2 pinty lub pinta; sterylne (ACI-626)",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+    "czas_min": {
+     "0-1000_ft": 10,
+     "1001-3000_ft": 15,
+     "3001-6000_ft": 20,
+     "6001-8000_ft": 25,
+     "8001-10000_ft": 30,
+     "zrodlo_czasu": "przepis 10 min (SLO-811) + tabela ACI-732; dłuższy niż NDSU/WSU 5/10/15 (SLO-813)"
+    },
+    "alternatywa_pektyna_plynna": "NDSU/WSU: 1 szkl. gotowanego rabarbaru, 2 1/2 szkl. truskawek, 6 1/2 szkl. cukru, 1 saszetka pektyny płynnej; sterylne słoiki, 5/10/15 min (SLO-812, SLO-813)",
+    "przechowywanie": {
+     "nieotwarte": "do 1 roku, chłodno, ciemno, sucho, 50–70 °F (ok. 10–21 °C) (ACI-733)",
+     "otwarte": "lodówka ≤40 °F (ok. 4 °C), najlepiej 1 miesiąc (SLO-018)"
+    },
+    "nie_zmniejszac_cukru": "SLO-001"
+   },
+   "uwagi": "Nazwa w produkcie truskawka = dżem truskawkowo-rabarbarowy; można doprecyzować na „dżem truskawkowy z rabarbarem (z pektyną)” bez zmiany przepisu. Kraft Heinz ma też Certo Strawberry-Rhubarb Jam (pektyna płynna, 10 min) — pobrany (zrodla/A/kh-501838-certo-strawberry-rhubarb-jam.txt), nie dodawałem twierdzenia.",
+   "zmiana_wzgledem_poprzedniego": "C8/B14 do-researchu → ok-zrodlo: polityka 1–3 i przeczytane źródła szczebla 3 z cytatem."
+  },
+  {
+   "grupa": "A",
+   "id": "raspberry-blackberry-v10",
+   "nazwa": "galaretka jeżynowa z jabłkiem",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "pektyna (Sure-Jell) / (c)",
+   "podstawa": "Brak galaretki jeżynowo-jabłkowej w źródle 1–3 (NCHFP, Kraft Heinz, extension); trafienia to blogi i UK. Werdykt B16 zostaje; zalecana droga (a) galaretka jeżynowa (ACI-745 / NCHFP).",
+   "twierdzenia": [
+    "ACI-745",
+    "ACI-746",
+    "ACI-138",
+    "ACI-732",
+    "ACI-626"
+   ],
+   "zmiana_wariantu": "bez zmian wobec poprzedniego werdyktu (zob. B16/B19)",
+   "parametry_karty": {
+    "jak_w": "poprzedni werdykt (B16/B19), bez zmian"
+   },
+   "uwagi": "Droga (b) B16 (Certo UK, szczebel 4) — jeżyny mają pH do 4,50 (ACI-138), zbliżone do czereśni z B19-D1; przy wątpliwości wybrać drogę (a).",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "A",
+   "id": "raspberry-blackberry-v11",
+   "nazwa": "konfitura jeżynowa z cynamonem",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "NCHFP",
+   "podstawa": "Bez nowych źródeł 1–3 z cynamonem i jeżynami (B19 sprawdził NCHFP i UC MFP). Werdykt B19 (NCHFP Blackberry Jam Pectin, ACI-847, SLO-078) zostaje.",
+   "twierdzenia": [
+    "ACI-847",
+    "SLO-078"
+   ],
+   "zmiana_wariantu": "bez zmian wobec poprzedniego werdyktu (zob. B16/B19)",
+   "parametry_karty": {
+    "jak_w": "poprzedni werdykt (B16/B19), bez zmian"
+   },
+   "uwagi": "Nie powtarzałem pełnego wyszukiwania B19.",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "A",
+   "id": "currant-v06",
+   "nazwa": "klarowna galaretka z czerwonej lub białej porzeczki",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "pektyna (Sure-Jell) + (c)",
+   "podstawa": "Trafienia P1 to wkładki Sure-Jell i Certo „Currant” (szczebel 3), ale PDF-y są skanami bez warstwy tekstowej (niedostępne do cytatu); te same przepisy są w rejestrze ze stron Kraft Heinz (ACI-734, ACI-735) i wymieniają tylko czerwoną porzeczkę. Białej porzeczki nie ma w źródle 1–3 (wyszukiwanie: tylko blogi). Werdykt B16 zostaje.",
+   "twierdzenia": [
+    "ACI-734",
+    "ACI-735",
+    "ACI-732",
+    "ACI-626"
+   ],
+   "zmiana_wariantu": "bez zmian wobec poprzedniego werdyktu (zob. B16/B19)",
+   "parametry_karty": {
+    "jak_w": "poprzedni werdykt (B16/B19), bez zmian"
+   },
+   "uwagi": "Blog „white currant jelly” bez pektyny (10 min) to szczebel 4 — nie użyty.",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "B",
+   "id": "gooseberry-v06",
+   "nazwa": "dżem agrestowy z kwiatem czarnego bzu",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "NCHFP",
+   "podstawa": "Ponowne wyszukiwanie (NCHFP, extension .edu, Kraft Heinz) nie dało przepisu szczebla 1–3 z kwiatem czarnego bzu; trafienia to tylko przepisy brytyjskie/irlandzkie i blogi (szczebel 4), a kwiat bzu to dodatek wysokiego ryzyka (B19-D1). Werdykt B19 potwierdzony: dżem agrestowy wg NCHFP (ACI-624, ACI-625).",
+   "twierdzenia": [
+    "ACI-624",
+    "ACI-625",
+    "SLO-063"
+   ],
+   "zmiana_wariantu": "bez zmian: jak B19 (usunąć kwiat bzu; „dżem agrestowy” wg NCHFP).",
+   "parametry_karty": {
+    "zrodlo": "bez zmian względem poprzedniego JSON (patrz parametry_karty w B19-research-2026-11-02.json)"
+   },
+   "uwagi": "P1 Bernardin (szczebel 4) nie zmienia oceny.",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "B",
+   "id": "gooseberry-v07",
+   "nazwa": "konfitura królewska z zielonego agrestu (szmaragdowa, drylowana)",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "NCHFP",
+   "podstawa": "Nie znaleziono przepisu szczebla 1–3 na całe drylowane agresty w syropie ani na konfiturę agrestową (P1: tylko Bernardin Gooseberry Conserve, szczebel 4). Werdykt B19 potwierdzony: dżem agrestowy wg NCHFP bez dodanej pektyny (ACI-624, ACI-625).",
+   "twierdzenia": [
+    "ACI-624",
+    "ACI-625"
+   ],
+   "zmiana_wariantu": "bez zmian: jak B19.",
+   "parametry_karty": {
+    "zrodlo": "bez zmian względem poprzedniego JSON (patrz parametry_karty w B19-research-2026-11-02.json)"
+   },
+   "uwagi": "",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "B",
+   "id": "gooseberry-v10",
+   "nazwa": "dżem agrestowo-truskawkowy",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "NCHFP",
+   "podstawa": "Wyszukiwanie ukierunkowane nie znalazło przepisu szczebla 1–3 na mieszankę agrestu z truskawką; mieszanka owoców tylko gdy przepis ją wymienia (reguła 4). Werdykt B16 potwierdzony: dżem agrestowy wg NCHFP (ACI-624, ACI-625) albo Certo UK (ACI-749).",
+   "twierdzenia": [
+    "ACI-624",
+    "ACI-625",
+    "ACI-749"
+   ],
+   "zmiana_wariantu": "bez zmian: jak B16.",
+   "parametry_karty": {
+    "zrodlo": "bez zmian względem poprzedniego JSON (patrz parametry_karty w B16-research-k-2026-11-02.json)"
+   },
+   "uwagi": "Pytanie E1 o łączenie owoców z jednego wiersza tabeli NCHFP „Berries” nadal otwarte.",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "B",
+   "id": "blueberry-bilberry-v09",
+   "nazwa": "dżem borówkowy z wanilią",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "NCHFP",
+   "podstawa": "Wyszukiwanie (NCHFP, extension: UGA, NCSU, OSU Oklahoma, Kraft Heinz) nie dało przepisu 1–3 z wanilią; przepisy z wanilią są wyłącznie na blogach i stronach firmowych (szczebel 4), a wanilia to dodatek wysokiego ryzyka (B19-D1). Werdykt B19 potwierdzony: NCHFP Blueberry-Spice Jam (ACI-486–488) albo Certo Blueberry Jam (ACI-848).",
+   "twierdzenia": [
+    "ACI-486",
+    "ACI-487",
+    "ACI-488",
+    "ACI-848"
+   ],
+   "zmiana_wariantu": "bez zmian: jak B19.",
+   "parametry_karty": {
+    "zrodlo": "bez zmian względem poprzedniego JSON (patrz parametry_karty w B19-research-2026-11-02.json)"
+   },
+   "uwagi": "Bilberry (jagoda leśna) nadal poza przepisami (SLO-248).",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "B",
+   "id": "grapes-v08",
+   "nazwa": "konfitura z bezpestkowych winogron",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "pektyna (Sure-Jell) / NCHFP",
+   "podstawa": "NCHFP Grape Conserve (szczebel 1) przeczytany: przepis wymienia tylko winogrona Concord i usuwa pestki przecieraniem przez sito, ma też pomarańczę, rodzynki i orzechy (SLO-846, SLO-847) — winogron bezpestkowych NIE dopuszcza. Werdykt B16 bez zmian (dżem z winogron Concord wg Sure-Jell ACI-747 albo NCHFP ACI-615/616). Grape Conserve to alternatywa zachowująca typ „konfitura”, ale z innym owocem i dodatkami.",
+   "twierdzenia": [
+    "SLO-846",
+    "SLO-847",
+    "ACI-747",
+    "ACI-615",
+    "ACI-616",
+    "ACI-732",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001"
+   ],
+   "zmiana_wariantu": "bez zmian: jak B16 („dżem z winogron Concord”). Alternatywa do decyzji roli 03: „konfitura winogronowa z pomarańczą, rodzynkami i orzechami (NCHFP Grape Conserve)” 1:1, tylko winogrona Concord.",
+   "parametry_karty": {
+    "droga_glowna": "bez zmian względem poprzedniego JSON (patrz parametry_karty w B16-research-k-2026-11-02.json)",
+    "alternatywa_NCHFP_Grape_Conserve": {
+     "skladniki": "4 1/2 szklanki winogron Concord bez skórek (ok. 4 funty), 1 pomarańcza drobno posiekana ze skórką, 4 szklanki cukru, 1 szklanka rodzynek bez pestek, 1/2 łyżeczki soli, skórki z winogron, 1 szklanka drobno posiekanych orzechów (SLO-846)",
+     "gotowanie": "miąższ ok. 10 min, przetrzeć przez sito (pestki); z pomarańczą, cukrem, rodzynkami, solą do zgęstnienia, dodać skórki, gotować do 9 °F ponad wrzenie wody; orzechy na końcu (SLO-847)",
+     "wydajnosc": "8–9 słoików 1/2 pinty",
+     "sloik": "1/2 pinty lub pint, sterylne, hot pack",
+     "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+     "czas_min": {
+      "0-1000_ft": 5,
+      "1001-6000_ft": 10,
+      ">6000_ft": 15
+     },
+     "przechowywanie": "ACI-733, SLO-018"
+    }
+   },
+   "uwagi": "Wskazówka startowa (czy Grape Conserve dopuszcza bezpestkowe) — odpowiedź: nie.",
+   "zmiana_wzgledem_poprzedniego": "bez zmian werdyktu; nowe twierdzenia SLO-846/847 (NCHFP Grape Conserve) jako alternatywa"
+  },
+  {
+   "grupa": "B",
+   "id": "rhubarb-v06",
+   "nazwa": "różowy syrop z rabarbaru",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "1-3",
+   "podstawa": "Przepisu szczebla 1–3 na syrop z rabarbaru nie znaleziono (NCHFP, OSU SP 50-882, SDSU, Penn State/Cornell, MSU: tylko rabarbar duszony, dżemy, galaretki, mrożenie). Jest za to procedura UC ANR na kwaśne soki z sokownika parowego, która wprost wymienia rabarbar (SLO-052), z cukrem do smaku (SLO-202) i czasem 15/20/25/30 min dla pint i quart (SLO-203, SLO-204). Syrop NDSU/WSU „Syrups Made With Juice” (SLO-848) stoi przy czeremsze i rabarbaru nie wymienia — nie przenoszę (reguła 4).",
+   "twierdzenia": [
+    "SLO-051",
+    "SLO-052",
+    "SLO-202",
+    "SLO-203",
+    "SLO-204",
+    "SLO-207",
+    "SLO-211",
+    "SLO-848"
+   ],
+   "zmiana_wariantu": "Zmiana: „różowy sok z rabarbaru z sokownika parowego (słodzony do smaku)” wg UC Steam Juicing Basics; nie „syrop” (bez gęstego syropu cukrowego i bez zagęszczania). Decyzja o nazwie należy do roli 03.",
+   "parametry_karty": {
+    "przepis": "UC ANR Steam Juicing Basics, Canned High-Acid Fruit Juices from Steamed Juice (rabarbar na liście, SLO-052)",
+    "skladniki": "sok z rabarbaru z sokownika parowego; cukier do smaku, jeśli się dodaje (SLO-202)",
+    "przygotowanie": "przecedzić w razie potrzeby; podgrzać tylko do zagotowania, mieszając do rozpuszczenia cukru (SLO-202)",
+    "sloik": "pint lub quart",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm) (SLO-202)",
+    "czas_min": {
+     "0-1000_ft": 15,
+     "1001-3000_ft": 20,
+     "3001-6000_ft": 25,
+     "6001-8000_ft": 30,
+     ">8000_ft": "brak czasu w źródle — nie wekować"
+    },
+    "po_procesie": "zdjąć pokrywę, 5 min, studzić 12–24 h (SLO-204)",
+    "zakazy": "bez „bottlingu” (SLO-051); owoce zdrowe, nie spadłe (SLO-211)",
+    "przechowywanie": "świeży sok bez wekowania: lodówka do tygodnia, dłużej tylko mrożony (SLO-207)"
+   },
+   "uwagi": "Kolor „różowy” zależy od odmiany rabarbaru — nie wymaga zmiany przepisu. Procedura UC jest tylko dla soku z sokownika parowego.",
+   "zmiana_wzgledem_poprzedniego": "zmiana: z do-researchu (B14: brak źródła) na ok-zrodlo-po-zmianie (sok zamiast syropu, UC szczebel 3)"
+  },
+  {
+   "grupa": "B",
+   "id": "rhubarb-v07",
+   "nazwa": "dżem rabarbarowo-truskawkowy i rabarbarowo-pomarańczowy",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "1-3 / Ball",
+   "podstawa": "Nazwa obejmuje dwa produkty; oba mają przepis szczebla 3. (a) Rabarbar+truskawka z pektyną płynną: WSU/NDSU (ACI-466–470). (b) Rabarbar+pomarańcza: Ball „Rhubarb-Orange Jam” z wydania 2014 (dozwolone wg B14-S2) w przedruku UC MFP 2-0013, przeczytany i zacytowany (SLO-840 skład, SLO-841 przygotowanie, SLO-842 wekowanie 10 min +1 min/1000 stóp). To brakujące twierdzenia, na które czekał B15.",
+   "twierdzenia": [
+    "ACI-466",
+    "ACI-467",
+    "ACI-468",
+    "ACI-469",
+    "ACI-470",
+    "SLO-840",
+    "SLO-841",
+    "SLO-842",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "zmiana_wariantu": "Podzielić (decyzja roli 03): (a) rhubarb-v07 → „dżem rabarbarowo-truskawkowy z pektyną płynną” (WSU/NDSU; rozważyć scalenie ze strawberry-v12); (b) nowy wariant „dżem rabarbarowo-pomarańczowy (Ball, pektyna w proszku)” wg SLO-840–842.",
+   "parametry_karty": {
+    "a_rabarbar_truskawka": {
+     "skladniki": "1 szklanka ugotowanego rabarbaru (ok. 1 funt + 1/4 szklanki wody), 2 1/2 szklanki rozgniecionych truskawek, 6 1/2 szklanki cukru, 1/2 butelki (6 uncji) pektyny płynnej (ACI-466)",
+     "proces": "ACI-467, ACI-468",
+     "wolna_przestrzen": "1/4 cala",
+     "czas_min": {
+      "0-1000_ft": 5,
+      "1001-6000_ft": 10,
+      ">6000_ft": 15
+     },
+     "sloik": "1/2 pinty lub pint, sterylne (ACI-469)"
+    },
+    "b_rabarbar_pomarancza": {
+     "skladniki": "2 1/2 funta (ok. 1,13 kg) rabarbaru, 2 średnie pomarańcze (1 szklanka soku + skórka z 1/2 pomarańczy w paskach), 6 łyżek pektyny w proszku Ball Classic, 6 szklanek cukru (SLO-840, SLO-841)",
+     "wydajnosc": "ok. 6 słoików 1/2 pinty",
+     "gotowanie": "rabarbar z sokiem i skórką ok. 3 min pod przykryciem; pektyna, wrzenie, cukier, pełne wrzenie 1 min (SLO-841)",
+     "sloik": "1/2 pinty, gorące; sterylne albo niesterylne — czas ten sam (SLO-842)",
+     "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+     "czas_min": {
+      "0-1000_ft": 10,
+      "powyzej": "+1 min na każde 1000 stóp (SLO-842)"
+     },
+     "przechowywanie": "ACI-733, SLO-018; nie zmniejszać cukru (SLO-001); bez parafiny (SLO-002)"
+    }
+   },
+   "uwagi": "Pektyna w (b) to Ball Classic w łyżkach — nie zastępować pektyną płynną ani niskocukrową. Ta sama ulotka UC 335063/374861 ma też Ball Rhubarb-Strawberry Jam (inne proporcje, pektyna w proszku) — nie mieszać z WSU/NDSU.",
+   "zmiana_wzgledem_poprzedniego": "B14 Z2 potwierdzone; B23 dodaje twierdzenia z cytatem SLO-840–842 dla części pomarańczowej (B15 wstrzymał z braku cytatu)"
+  },
+  {
+   "grupa": "B",
+   "id": "lemon-v11",
+   "nazwa": "marmolada cytrynowa",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 2,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "Ball",
+   "podstawa": "Marmolady z samej cytryny nie ma w NCHFP/USDA, w ulotkach UC MFP ani na stronach Kraft Heinz (tylko marmolada pomarańczowa z cytryną i truskawkowo-cytrynowa). Najbliższy przepis 1–3: Ball „Quick Lemon Ginger Marmalade” w przedruku UCCE MFP — przeczytany i zacytowany: skład (SLO-843), przygotowanie (SLO-844), 1/4 cala i 10 min (SLO-845). Imbir jest w przepisie 1:1, więc nie jest dodatkiem spoza przepisu.",
+   "twierdzenia": [
+    "SLO-843",
+    "SLO-844",
+    "SLO-845",
+    "ACI-732",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "zmiana_wariantu": "Zmiana nazwy (decyzja toru A / roli 03): „szybka marmolada cytrynowo-imbirowa (Ball, pektyna w proszku)”; skład 1:1 wg SLO-843, imbiru nie pomijać ani nie zmieniać.",
+   "parametry_karty": {
+    "skladniki": "6 małych cytryn, 1/2 łyżeczki sody oczyszczonej, 2 1/2 szklanki wody, 1/2 szklanki (6 uncji) grubo startego świeżego imbiru, 1 opakowanie (1,75 uncji) zwykłej pektyny w proszku, 6 1/2 szklanki cukru (SLO-843)",
+    "wydajnosc": "ok. 7 słoików 1/2 pinty",
+    "gotowanie": "skórka z sodą i wodą 5 min pod przykryciem; 1 szklanka cząstek z sokiem + imbir + pektyna; wrzenie, cały cukier, pełne wrzenie 1 min (SLO-844)",
+    "sloik": "1/2 pinty, gorące",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm) (SLO-845)",
+    "czas_min": {
+     "0-1000_ft": 10,
+     "1001-3000_ft": 15,
+     "3001-6000_ft": 20,
+     "6001-8000_ft": 25,
+     "8001-10000_ft": 30,
+     "zrodlo_czasu": "10 min z SLO-845; przedruk nie podaje korekty wysokości — tabela Sure-Jell ACI-732 (dłuższa niż +1 min/1000 stóp z SLO-004), patrz decyzja B23-B-D1"
+    },
+    "po_procesie": "zdjąć pokrywę, odczekać 5 min (SLO-845)",
+    "przechowywanie": "ACI-733, SLO-018; nie zmniejszać cukru (SLO-001); bez parafiny (SLO-002)"
+   },
+   "uwagi": "Soda oczyszczona jest w przepisie (zmiękcza skórkę) — 1:1, nie zwiększać. Wydanie książki Ball w przedruku nieoznaczone (wszystkie wydania tej książki z listy B14-S2/S4 dozwolone).",
+   "zmiana_wzgledem_poprzedniego": "B14 Z2 potwierdzone; B23 dodaje twierdzenia z cytatem SLO-843–845 (B15 wstrzymał z braku cytatu)"
+  },
+  {
+   "grupa": "B",
+   "id": "orange-kumquat-v07",
+   "nazwa": "tradycyjna szkocka marmolada z gorzkich pomarańczy (seville)",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "(c)",
+   "podstawa": "Wyszukiwanie ukierunkowane (NCHFP, extension .edu/UC ANR, Kraft Heinz US) nie dało przepisu na marmoladę z gorzkich pomarańczy Seville; są tylko źródła brytyjskie i blogi (szczebel 4). Werdykt B16 potwierdzony: Certo UK Seville (ACI-739) przez regułę (c), wekowanie wg NCHFP (ACI-609, ACI-733).",
+   "twierdzenia": [
+    "ACI-739",
+    "ACI-609",
+    "ACI-733"
+   ],
+   "zmiana_wariantu": "bez zmian: jak B16.",
+   "parametry_karty": {
+    "zrodlo": "bez zmian względem poprzedniego JSON (patrz parametry_karty w B16-research-k-2026-11-02.json)"
+   },
+   "uwagi": "Decyzja D4 (ilość sody) nadal otwarta.",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "B",
+   "id": "orange-kumquat-v08",
+   "nazwa": "całe kumkwaty w syropie waniliowym",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "Ball",
+   "podstawa": "Nie znaleziono nowego źródła 1–3 z wanilią; werdykt B19 (Ball Cinnamon Kumquats w przedruku UC ANR El Dorado MFP, ACI-800–802, bez wanilii) potwierdzony.",
+   "twierdzenia": [
+    "ACI-800",
+    "ACI-801",
+    "ACI-802",
+    "ACI-147"
+   ],
+   "zmiana_wariantu": "bez zmian: jak B19.",
+   "parametry_karty": {
+    "zrodlo": "bez zmian względem poprzedniego JSON (patrz parametry_karty w B19-research-2026-11-02.json)"
+   },
+   "uwagi": "",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "B",
+   "id": "grapefruit-v03",
+   "nazwa": "dżem grejpfrutowy z rozmarynem",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "NCHFP",
+   "podstawa": "Rozmarynu nie ma w żadnym źródle 1–3 (wyszukiwanie: tylko blogi). Werdykt B19 potwierdzony: NCHFP Citrus Marmalade (SLO-086, SLO-234, SLO-235) bez rozmarynu.",
+   "twierdzenia": [
+    "SLO-086",
+    "SLO-234",
+    "SLO-235",
+    "ACI-849"
+   ],
+   "zmiana_wariantu": "bez zmian: jak B19.",
+   "parametry_karty": {
+    "zrodlo": "bez zmian względem poprzedniego JSON (patrz parametry_karty w B19-research-2026-11-02.json)"
+   },
+   "uwagi": "",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "B",
+   "id": "grapefruit-v07",
+   "nazwa": "galaretka grejpfrutowa",
+   "metoda": "kapiel",
+   "przed": "do-researchu",
+   "przebieg": 3,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "Ball",
+   "podstawa": "Galaretki grejpfrutowej do kąpieli wodnej nie ma w NCHFP/USDA (ACI-609 jej nie wymienia), w ulotkach UC MFP „Grapefruit: Preserve It” (tylko freezer jelly 1-0013 i marmolada 1-0014) ani na stronach Kraft Heinz. Werdykt B16 potwierdzony: Ball Grapefruit Freezer Jelly (ACI-729, ACI-730).",
+   "twierdzenia": [
+    "ACI-729",
+    "ACI-730",
+    "ACI-609"
+   ],
+   "zmiana_wariantu": "bez zmian: jak B16 (galaretka do zamrażarki).",
+   "parametry_karty": {
+    "zrodlo": "bez zmian względem poprzedniego JSON (patrz parametry_karty w B16-research-k-2026-11-02.json)"
+   },
+   "uwagi": "Wersja do wekowania nadal bez źródła.",
+   "zmiana_wzgledem_poprzedniego": "bez zmian"
+  },
+  {
+   "grupa": "C",
+   "id": "chili-pepper-v12",
+   "nazwa": "dżem chili z pektyną",
+   "metoda": "kapiel",
+   "metoda_propozycja_katalogu": "water-bath",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "1-3 / pektyna",
+   "podstawa": "Papryka (słodka i ostra) jest niskokwasowa, więc liczy się tylko przepis 1–3 1:1 (B19-D1, SLO-491). Sure-Jell Jalapeño Jelly (szczebel 3) to w praktyce dżem z drobno posiekanych, nieprzecedzonych papryk z octem 5% i pektyną: skład SLO-870, proces SLO-871. Trafienia P1: Peach-Hot Pepper Jam ma brzoskwinie (inny produkt), Certo „Hot Pepper” jest tylko we wkładce-obrazie (bez warstwy tekstu).",
+   "twierdzenia": [
+    "SLO-870",
+    "SLO-871",
+    "ACI-732",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002",
+    "SLO-491"
+   ],
+   "zmiana_wariantu": "Zmiana nazwy i składu na przepis 1:1: „dżem z papryki i jalapeño na pektynie (Sure-Jell)”: czerwona + zielona papryka + jalapeño w proporcji ze źródła, ocet jabłkowy 5% obowiązkowy, bez zmiany ilości papryk ani octu. Metoda dla katalogu: water-bath.",
+   "parametry_karty": {
+    "skladniki": "2 czerwone papryki (ok. 1 1/2 szklanki), 2 zielone papryki (ok. 1 1/2 szklanki), 10 dużych jalapeño (ok. 1 szklanki), bez nasion, drobno posiekane; 1 szklanka octu jabłkowego 5%; 1 opakowanie pektyny Sure-Jell Original; 1/2 łyżeczki masła (opcjonalnie); 5 szklanek cukru (SLO-870)",
+    "gotowanie": "papryki + ocet + pektyna do pełnego wrzenia, cukier, pełne wrzenie dokładnie 1 min (SLO-871)",
+    "sloik": "1/2 pinty (strona nie podaje; przyjęto słoik z tabeli NCHFP dla galaretek z papryką, SLO-079; decyzja B23-C-D5)",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+    "czas_min": {
+     "0-1000_ft": 10,
+     "1001-3000_ft": 15,
+     "3001-6000_ft": 20,
+     "6001-8000_ft": 25,
+     "8001-10000_ft": 30,
+     "zrodlo_czasu": "10 min ze źródła; korekta wysokości wg ACI-732 (decyzja B23-C-D4)"
+    },
+    "przechowywanie": "przechowywanie: ACI-733, SLO-018; nie zmniejszać cukru (SLO-001); bez parafiny (SLO-002)"
+   },
+   "uwagi": "Nie stosować przepisu Kraft Heinz 578728 „Quick & Easy Hot Pepper Jelly” do kąpieli wodnej: to wersja tylko do lodówki (do 2 miesięcy). Alternatywa NCHFP: Golden Pepper Jelly (SLO-079, ACI-284–293) — galaretka, nie dżem. Przepis z pektyną „for Less or No Sugar” (Hot Pepper Relish 520370) przeczytany, nie zacytowany — to „relish”, inny typ.",
+   "zmiana_wzgledem_poprzedniego": "pierwszy przebieg z wynikiem: z do-researchu (C8) na ok-zrodlo-po-zmianie (Sure-Jell Jalapeño Jelly)"
+  },
+  {
+   "grupa": "C",
+   "id": "cranberry-lingonberry-v08",
+   "nazwa": "klasyczny sos żurawinowy z pomarańczą",
+   "metoda": "kapiel",
+   "metoda_propozycja_katalogu": "water-bath",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "NCHFP",
+   "podstawa": "NCHFP Cranberry Sauce (szczebel 1) nie przewiduje pomarańczy: tylko żurawina, woda, cukier (SLO-233, SLO-869), czas SLO-105. Dodanie pomarańczy to zmiana składu poza przepisem (reguła 4). Pomarańczę z żurawiną ma tylko NCHFP Cranberry Conserve (SLO-867, SLO-868) — ale z rodzynkami i orzechami i jako konfitura, nie sos.",
+   "twierdzenia": [
+    "SLO-233",
+    "SLO-105",
+    "SLO-869",
+    "SLO-867",
+    "SLO-868",
+    "ACI-733"
+   ],
+   "zmiana_wariantu": "Zmiana (decyzja roli 03): wariant główny „klasyczny sos żurawinowy (NCHFP)” bez pomarańczy — przecierany, z rozgniecionych albo z całych owoców (SLO-869). Alternatywa zachowująca pomarańczę: „konfitura żurawinowa z pomarańczą, rodzynkami i orzechami (NCHFP Cranberry Conserve)” 1:1. Metoda dla katalogu: water-bath.",
+   "parametry_karty": {
+    "droga_glowna_sos": {
+     "skladniki": "4 szklanki żurawiny, 1 szklanka wody, 2 szklanki cukru; opcjonalnie 1/2 łyżeczki masła (SLO-233, SLO-869)",
+     "wydajnosc": "ok. 4 słoików 1/2 pinty (przepis można podwoić)",
+     "gotowanie": "żurawinę ugotować w wodzie do miękkości; przetrzeć, rozgnieść albo zostawić całe; cukier, wrzenie 3 min (SLO-233, SLO-869)",
+     "sloik": "1/2 pinty lub pint, hot pack",
+     "wolna_przestrzen": "1/2 cala (ok. 1,3 cm) (SLO-233)",
+     "czas_min": {
+      "0-1000_ft": 15,
+      "1001-3000_ft": 20,
+      "3001-6000_ft": 20,
+      ">6000_ft": 25
+     },
+     "przechowywanie": "ACI-733"
+    },
+    "alternatywa_conserve": {
+     "skladniki": "1 nieobrana drobno posiekana pomarańcza, 2 szklanki wody, 3 szklanki cukru, 1 quart żurawiny, 1/2 szklanki rodzynek, 1/2 szklanki posiekanych orzechów (SLO-867)",
+     "wydajnosc": "ok. 4 słoików 1/2 pinty",
+     "gotowanie": "SLO-868",
+     "sloik": "tylko 1/2 pinty",
+     "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+     "czas_min": {
+      "0-1000_ft": 10,
+      "1001-6000_ft": 15,
+      ">6000_ft": 20
+     },
+     "przechowywanie": "przechowywanie: ACI-733, SLO-018; nie zmniejszać cukru (SLO-001); bez parafiny (SLO-002)"
+    }
+   },
+   "uwagi": "Przypuszczenie z uwag startowych potwierdzone: NCHFP Cranberry Sauce bez pomarańczy. NCHFP ma też Cranberry Orange Chutney (ACI-646, chutney z octem) i Cranberry Marmalade (z pomarańczami, cytryną i pektyną) — inne produkty; marmolada pobrana (zrodla/C/nchfp-cranberry-marmalade.txt), nie zacytowana. P1 Bernardin (szczebel 4) bez znaczenia.",
+   "zmiana_wzgledem_poprzedniego": "pierwszy przebieg: z do-researchu na ok-zrodlo-po-zmianie"
+  },
+  {
+   "grupa": "C",
+   "id": "elderberry-elderflower-v08",
+   "nazwa": "dżem z owoców czarnego bzu i jabłek",
+   "metoda": "kapiel",
+   "metoda_propozycja_katalogu": "water-bath",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "1-3",
+   "podstawa": "Nie ma przepisu 1–3 na bez z jabłkami (NCHFP, OSU, PSU, K-State, MU; tylko blogi). Owoce bzu mają pH średnio 4,92 (SLO-480), więc dozwolone są wyłącznie przepisy przetestowane 1:1 (SLO-064). Bez jabłek pasuje dżem wysokocukrowy OSU (SLO-065, SLO-109) z zasadami SLO-061/062; alternatywa: nowa galaretka Ball w przedruku Penn State (SLO-878, SLO-879) — z sokiem z cytryny, ważona.",
+   "twierdzenia": [
+    "SLO-061",
+    "SLO-062",
+    "SLO-064",
+    "SLO-065",
+    "SLO-109",
+    "SLO-480",
+    "SLO-878",
+    "SLO-879",
+    "ACI-732",
+    "ACI-733",
+    "SLO-018"
+   ],
+   "zmiana_wariantu": "Zmiana: usunąć jabłka; „dżem z czarnego bzu wysokocukrowy (OSU, składniki ważone)” wg SLO-065. Alternatywa: „galaretka z czarnego bzu z sokiem z cytryny (Ball, przedruk Penn State)” wg SLO-878/879. Metoda dla katalogu: water-bath.",
+   "parametry_karty": {
+    "droga_glowna_OSU": "bez zmian względem SLO-065/SLO-109 (16 uncji miąższu na 19,5 uncji cukru lub więcej, ważone, tylko cukier kryształ, 5 min do 1000 stóp); owoce dojrzałe, gotowane, bez szypułek i liści (SLO-061, SLO-062)",
+    "alternatywa_Ball_PSU": {
+     "skladniki": "650 g soku z bzu, 62 g pektyny Ball Classic, 130 g butelkowanego soku z cytryny, 1100 g cukru — ważone (SLO-878)",
+     "gotowanie": "SLO-879",
+     "sloik": "1/2 pinty",
+     "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+     "czas_min": {
+      "0-1000_ft": 10,
+      "1001-3000_ft": 15,
+      "3001-6000_ft": 20,
+      "6001-8000_ft": 25,
+      "8001-10000_ft": 30,
+      "zrodlo_czasu": "10 min ze źródła; korekta wysokości wg ACI-732 (decyzja B23-C-D4)"
+     },
+     "przechowywanie": "przechowywanie: ACI-733, SLO-018; nie zmniejszać cukru (SLO-001); bez parafiny (SLO-002)"
+    }
+   },
+   "uwagi": "Penn State pisze też, że wcześniej zalecano tylko mrożenie produktów z bzu — to tło, nie przeczy SLO-065. Ruch wcześniejszy (P1 MCP freezer jam z „Elderberry”) to dżem do zamrażarki, wkładka-obraz bez tekstu.",
+   "zmiana_wzgledem_poprzedniego": "pierwszy przebieg: z do-researchu na ok-zrodlo-po-zmianie (bez jabłek)"
+  },
+  {
+   "grupa": "C",
+   "id": "mango-papaya-v09",
+   "nazwa": "dżem z mango i marakui",
+   "metoda": "kapiel",
+   "metoda_propozycja_katalogu": "water-bath",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "1-3 / pektyna",
+   "podstawa": "Mango ma pH 3,4–4,8 (ACI-150, SLO-029), więc obowiązuje przepis 1–3 1:1 z zakwaszeniem. Przepisu 1–3 na mango z marakują nie znaleziono (Kraft Heinz, extension, CTAHR — tylko blogi). Certo Mango Jam (Kraft Heinz, szczebel 3) to dżem z samego mango z sokiem z cytryny: SLO-874, SLO-875.",
+   "twierdzenia": [
+    "SLO-874",
+    "SLO-875",
+    "ACI-150",
+    "SLO-029",
+    "ACI-732",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "zmiana_wariantu": "Zmiana: usunąć marakuję; „dżem z mango z cytryną (Certo, pektyna płynna)” 1:1. Metoda dla katalogu: water-bath.",
+   "parametry_karty": {
+    "skladniki": "4 szklanki zmielonego/rozgniecionego mango (ok. 5 średnich, w pełni dojrzałych), 2 łyżki soku z cytryny (butelkowanego — decyzja B23-C-D3), 7 1/2 szklanki cukru, 1/2 łyżeczki masła, 2 saszetki pektyny płynnej Certo (SLO-874)",
+    "gotowanie": "owoc + sok z cytryny, cukier, pełne wrzenie, pektyna, pełne wrzenie dokładnie 1 min (SLO-875)",
+    "sloik": "1/2 pinty (strona nie podaje; decyzja B23-C-D5)",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+    "czas_min": {
+     "0-1000_ft": 10,
+     "1001-3000_ft": 15,
+     "3001-6000_ft": 20,
+     "6001-8000_ft": 25,
+     "8001-10000_ft": 30,
+     "zrodlo_czasu": "10 min ze źródła; korekta wysokości wg ACI-732 (decyzja B23-C-D4)"
+    },
+    "przechowywanie": "przechowywanie: ACI-733, SLO-018; nie zmniejszać cukru (SLO-001); bez parafiny (SLO-002)"
+   },
+   "uwagi": "Do dalszego researchu (jeśli rola 03 chce marakuję): Sure-Jell Passion Fruit Jelly (kraftheinz 501659) — galaretka z samej marakui, nie mieszanka. Sure-Jell Mango Freezer Jam (501188) — tylko do zamrażarki.",
+   "zmiana_wzgledem_poprzedniego": "pierwszy przebieg: z do-researchu na ok-zrodlo-po-zmianie (bez marakui)"
+  },
+  {
+   "grupa": "C",
+   "id": "pineapple-banana-v06",
+   "nazwa": "dżem ananasowy z wanilią i rumem",
+   "metoda": "kapiel",
+   "metoda_propozycja_katalogu": "water-bath",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "niskie",
+   "regula": "pektyna (Sure-Jell)",
+   "podstawa": "Wanilia i rum (alkohol) to dodatki wysokiego ryzyka (B19-D1); żadne źródło 1–3 ich nie przewiduje. Ananas jest kwaśny (ACI-153, pH 3,2–4,0). Sure-Jell Fresh Pineapple Jam (szczebel 3) pasuje 1:1 do „dżemu ananasowego”: SLO-872, SLO-873.",
+   "twierdzenia": [
+    "SLO-872",
+    "SLO-873",
+    "ACI-153",
+    "SLO-003",
+    "ACI-732",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "zmiana_wariantu": "Zmiana: usunąć wanilię i rum; „dżem ananasowy (Sure-Jell)”. Metoda dla katalogu: water-bath.",
+   "parametry_karty": {
+    "skladniki": "4 1/2 szklanki drobno posiekanego lub zmielonego świeżego ananasa (2 dojrzałe średnie owoce), 1 opakowanie pektyny Sure-Jell Original, 1/2 łyżeczki masła, 5 1/2 szklanki cukru (SLO-872)",
+    "gotowanie": "ananas + pektyna, pełne wrzenie, cukier, pełne wrzenie dokładnie 1 min (SLO-873)",
+    "sloik": "1/2 pinty, wysterylizowane (decyzja B23-C-D2, SLO-003)",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+    "czas_min": {
+     "0-1000_ft": 5,
+     "1001-3000_ft": 10,
+     "3001-6000_ft": 15,
+     "6001-8000_ft": 20,
+     "8001-10000_ft": 25,
+     "zrodlo_czasu": "5 min ze źródła (SLO-873) przy słoikach wysterylizowanych; wyżej +5/+10/+15/+20 min wg ACI-732"
+    },
+    "przechowywanie": "przechowywanie: ACI-733, SLO-018; nie zmniejszać cukru (SLO-001); bez parafiny (SLO-002)"
+   },
+   "uwagi": "Mrs. Wages Pineapple Coconut Jam (P1) — szczebel 4 wg zlecenia, nie użyty (blokada).",
+   "zmiana_wzgledem_poprzedniego": "pierwszy przebieg: z do-researchu na ok-zrodlo-po-zmianie"
+  },
+  {
+   "grupa": "C",
+   "id": "fig-pomegranate-v06",
+   "nazwa": "konfitura z fig z orzechami włoskimi i rozmarynem (do serów)",
+   "metoda": "kapiel",
+   "metoda_propozycja_katalogu": "water-bath",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "NCHFP",
+   "podstawa": "Figi są niskokwasowe (SLO-028, ACI-008, SLO-864), orzechy i rozmaryn to dodatki spoza przepisu (B19-D1); przepisu 1–3 z nimi nie ma (NCHFP, OSU — sprawdzone). NCHFP Fig Jam without Pectin ma obowiązkowy sok z cytryny (SLO-860, SLO-861) i jest najbliższy produktowi „do serów”.",
+   "twierdzenia": [
+    "SLO-860",
+    "SLO-861",
+    "SLO-864",
+    "SLO-028",
+    "ACI-008",
+    "ACI-477",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "zmiana_wariantu": "Zmiana: usunąć orzechy włoskie i rozmaryn; „dżem z fig z cytryną (NCHFP, bez pektyny)”. Dopisek „do serów” może zostać jako sugestia podania. Metoda dla katalogu: water-bath.",
+   "parametry_karty": {
+    "skladniki": "2 quarty posiekanych świeżych fig (ok. 2,3 kg), 3/4 szklanki wody, 6 szklanek cukru, 1/4 szklanki soku z cytryny — butelkowanego (ACI-314) (SLO-860)",
+    "wydajnosc": "ok. 10 słoików 1/2 pinty",
+    "gotowanie": "SLO-861",
+    "sloik": "1/2 pinty lub pint, wysterylizowane",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+    "czas_min": {
+     "0-1000_ft": 5,
+     "1001-6000_ft": 10,
+     ">6000_ft": 15
+    },
+    "przechowywanie": "przechowywanie: ACI-733, SLO-018; nie zmniejszać cukru (SLO-001); bez parafiny (SLO-002)"
+   },
+   "uwagi": "Fig-Strawberry Preserves with Gelatin (P1) pobrany (zrodla/C/nchfp-strawberry-fig-gelatin.txt), nie zacytowany — z żelatyną i galaretką truskawkową, inny produkt.",
+   "zmiana_wzgledem_poprzedniego": "pierwszy przebieg: z do-researchu na ok-zrodlo-po-zmianie"
+  },
+  {
+   "grupa": "C",
+   "id": "fig-pomegranate-v07",
+   "nazwa": "całe zielone figi w gęstym syropie",
+   "metoda": "kapiel",
+   "metoda_propozycja_katalogu": "water-bath",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "NCHFP",
+   "podstawa": "Przepisu 1–3 na niedojrzałe (zielone) figi nie ma — są tylko przepisy południowoafrykańskie z blogów; OSU każe zbierać figi dojrzałe na drzewie i zawsze dodawać kwas (SLO-864). Całe figi w gęstym syropie to NCHFP Fig Preserves (SLO-862, SLO-863), z cukrem wymaganym do utrwalenia (SLO-010).",
+   "twierdzenia": [
+    "SLO-862",
+    "SLO-863",
+    "SLO-864",
+    "SLO-010",
+    "SLO-028",
+    "ACI-154",
+    "ACI-008",
+    "ACI-733",
+    "SLO-018"
+   ],
+   "zmiana_wariantu": "Zmiana: „całe figi w gęstym syropie (NCHFP Fig Preserves)” z dojrzałych, jędrnych fig zamiast zielonych; plasterki cytryny obowiązkowe (decyzja B23-C-D1). Metoda dla katalogu: water-bath.",
+   "parametry_karty": {
+    "skladniki": "3 quarty dojrzałych, jędrnych fig, 3 quarty wrzątku do sparzenia, 4 szklanki cukru, 1 1/2 quarta wody, 2 cytryny w cienkich plasterkach — w JarAtlas obowiązkowe (SLO-862, D1)",
+    "wydajnosc": "ok. 10 słoików 1/2 pinty",
+    "gotowanie": "SLO-863 (syrop do gęstości miodu, 6–8 h w lodówce, ponowne zagotowanie)",
+    "sloik": "1/2 pinty lub pint, wysterylizowane",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+    "czas_min": {
+     "0-1000_ft": 5,
+     "1001-6000_ft": 10,
+     ">6000_ft": 15
+    },
+    "zakaz": "nie zmniejszać cukru ani nie zastępować słodzikiem: bez ciężkiego syropu obowiązują czasy dla fig w lekkim syropie z zakwaszeniem (SLO-010, ACI-061, ACI-062)",
+    "przechowywanie": "ACI-733, SLO-018"
+   },
+   "uwagi": "Wariant z zielonymi figami nadal bez źródła — jeśli rola 03 chce zachować zielone figi: do-researchu (inny produkt niż NCHFP Figs/Fig Preserves, ACI-154 pokazuje pH do 5,98).",
+   "zmiana_wzgledem_poprzedniego": "pierwszy przebieg: z do-researchu na ok-zrodlo-po-zmianie (dojrzałe figi zamiast zielonych)"
+  },
+  {
+   "grupa": "C",
+   "id": "fig-pomegranate-v09",
+   "nazwa": "galaretka z granatu",
+   "metoda": "kapiel",
+   "metoda_propozycja_katalogu": "water-bath",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "ok-zrodlo",
+   "ryzyko": "niskie",
+   "regula": "1-3",
+   "podstawa": "USU Extension (szczebel 3) podaje przepis „Pomegranate Jelly” 1:1: sok z granatu z sokiem z cytryny i pektyną w proszku (SLO-876, SLO-877). Granat jest kwaśny (ACI-155, pH 2,9–3,2). Korekta wysokości: dłuższa z USU i tabeli NCHFP dla galaretek z pektyną (ACI-609).",
+   "twierdzenia": [
+    "SLO-876",
+    "SLO-877",
+    "ACI-155",
+    "ACI-609",
+    "SLO-003",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "zmiana_wariantu": "Bez zmiany nazwy. Metoda dla katalogu: water-bath.",
+   "parametry_karty": {
+    "skladniki": "3 1/2 szklanki soku z granatu (świeży, mrożony albo butelkowany), 1/4 szklanki soku z cytryny (butelkowanego, ACI-314), 1 opakowanie (2 uncje) pektyny w proszku, 4 1/2 szklanki cukru (SLO-876)",
+    "wydajnosc": "6 słoików 1/2 pinty",
+    "gotowanie": "sok + cytryna + pektyna do wrzenia, cukier, wrzenie 2 min, zebrać pianę (SLO-877)",
+    "sloik": "1/2 pinty, wysterylizowane (SLO-003)",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+    "czas_min": {
+     "0-1000_ft": 5,
+     "1001-6000_ft": 10,
+     ">6000_ft": 15,
+     "zrodlo_czasu": "5 min z SLO-877; wyżej tabela ACI-609 (dłuższa niż +1 min/1000 stóp z USU) — decyzja B23-C-D4"
+    },
+    "przechowywanie": "przechowywanie: ACI-733, SLO-018; nie zmniejszać cukru (SLO-001); bez parafiny (SLO-002)"
+   },
+   "uwagi": "Sok z granatu: NCHFP Freezing Pomegranates (SLO-298) opisuje wydobycie soku. Bernardin (szczebel 4) nie użyty.",
+   "zmiana_wzgledem_poprzedniego": "pierwszy przebieg: z do-researchu na ok-zrodlo (USU)"
+  },
+  {
+   "grupa": "C",
+   "id": "watermelon-melon-v06",
+   "nazwa": "konfitura z białej skórki arbuza z wanilią i cytryną",
+   "metoda": "kapiel",
+   "metoda_propozycja_katalogu": "water-bath",
+   "przed": "do-researchu",
+   "przebieg": 1,
+   "werdykt": "ok-zrodlo-po-zmianie",
+   "ryzyko": "wysokie",
+   "regula": "NCHFP",
+   "podstawa": "NCHFP Watermelon Rind Preserves (szczebel 1) ma imbir i obowiązkowy sok z cytryny, wanilii nie (SLO-865, SLO-866; czas SLO-107). Arbuz jest niskokwasowy (ACI-156, SLO-024), więc wanilia zamiast imbiru to zmiana spoza przepisu (B19-D1). Przepisu 1–3 z wanilią nie znaleziono.",
+   "twierdzenia": [
+    "SLO-865",
+    "SLO-866",
+    "SLO-107",
+    "ACI-156",
+    "SLO-024",
+    "ACI-066",
+    "ACI-733",
+    "SLO-018",
+    "SLO-001",
+    "SLO-002"
+   ],
+   "zmiana_wariantu": "Zmiana: wanilię zastąpić imbirem wg przepisu; „konfitura z białej skórki arbuza z imbirem i cytryną (NCHFP)”. Metoda dla katalogu: water-bath.",
+   "parametry_karty": {
+    "skladniki": "1 1/2 quarta skórki arbuza (bez zielonej skóry i różowego miąższu, kawałki 1 cal), 4 łyżki soli + 2 quarty zimnej wody (solanka), 1 łyżka mielonego imbiru, 4 szklanki cukru, 1/4 szklanki soku z cytryny (butelkowanego, ACI-314), 7 szklanek wody, 1 cytryna w plasterkach (opcjonalnie) (SLO-865)",
+    "wydajnosc": "ok. 6 słoików 1/2 pinty",
+    "gotowanie": "SLO-866",
+    "sloik": "1/2 pinty lub pint, wysterylizowane",
+    "wolna_przestrzen": "1/4 cala (ok. 0,6 cm)",
+    "czas_min": {
+     "0-1000_ft": 5,
+     "1001-6000_ft": 10,
+     ">6000_ft": 15
+    },
+    "przechowywanie": "przechowywanie: ACI-733, SLO-018; nie zmniejszać cukru (SLO-001); bez parafiny (SLO-002)"
+   },
+   "uwagi": "Sok z cytryny 1/4 szklanki jest w przepisie bezwarunkowo; opcjonalne są tylko plasterki cytryny. Pikle ze skórki arbuza (SLO-649–655) to inny produkt (z octem).",
+   "zmiana_wzgledem_poprzedniego": "pierwszy przebieg: z do-researchu na ok-zrodlo-po-zmianie (imbir zamiast wanilii)"
+  }
+ ],
+ "twierdzenia": [
+  {
+   "id": "SLO-800",
+   "twierdzenie": "UC MFP „Apple Scrap Jelly” (galaretka z obierek i gniazd nasiennych jabłek): 4 1/2 szklanki soku z obierek i gniazd, 5 szklanek cukru, 1 opakowanie pektyny w proszku; wychodzi ok. 6 słoików 1/2 pinty.",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "apple-v11"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+     "miejsce": "s. 1, Apple Scrap Jelly, składniki",
+     "cytat": "4-1/2 cups apple juice prepared from apple peels and cores",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "c5b9fa2c9a24",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+     "miejsce": "s. 1, składniki",
+     "cytat": "5 cups sugar 1 box powdered pectin",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "c5b9fa2c9a24",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-801",
+   "twierdzenie": "UC MFP „Apple Scrap Jelly”, sok: obierki i gniazda zalać najwyżej 1 szklanką zimnej wody na funt (ok. 450 g), zagotować, dusić 15 min (nie dłużej — nadmierne gotowanie niszczy pektynę), odsączyć przez wilgotny worek do galaretek; klarowna galaretka z soku bez wyciskania.",
+   "klaster": "SLO",
+   "krytyczne": false,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "apple-v11"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+     "miejsce": "s. 1, To make juice",
+     "cytat": "Add up to 1 cup of cold water per pound of fruit.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "c5b9fa2c9a24",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+     "miejsce": "s. 1, To make juice",
+     "cytat": "Reduce heat, simmer for 15 minutes.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "c5b9fa2c9a24",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+     "miejsce": "s. 1, To make juice",
+     "cytat": "Clear jelly comes from juice dripped through a jelly bag without pressing or squeezing.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "c5b9fa2c9a24",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-802",
+   "twierdzenie": "UC MFP „Apple Scrap Jelly”, gotowanie i napełnianie: słoiki sterylizować 10 min we wrzątku (+1 min na każde 1000 stóp); sok z pektyną do pełnego wrzenia, dodać cukier, ponownie wrzenie i gotować intensywnie 1 min; gorącą galaretkę do gorących sterylnych słoików, 1/4 cala (ok. 0,6 cm) wolnej przestrzeni.",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "apple-v11"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+     "miejsce": "s. 1, krok 1",
+     "cytat": "Sterilize canning jars by boiling for 10 minutes at altitudes of less than 1,000 feet.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "c5b9fa2c9a24",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+     "miejsce": "s. 1, krok 3",
+     "cytat": "Return to a boil over high heat; boil hard 1 minute, stirring constantly.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "c5b9fa2c9a24",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+     "miejsce": "s. 1, krok 4",
+     "cytat": "Ladle hot jelly into hot, sterile jars, leaving 1/4-inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "c5b9fa2c9a24",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-803",
+   "twierdzenie": "UC MFP „Apple Scrap Jelly”, proces: 5 min we wrzącej kąpieli wodnej (lub atmosferycznym parowarze), +1 min na każde 1000 stóp n.p.m.; przy słoikach niesterylizowanych 10 min.",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "apple-v11"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+     "miejsce": "s. 1, krok 5",
+     "cytat": "Process 5 minutes in boiling-water or atmospheric steam canner, adding 1 additional minute per 1,000 feet above sea level.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "c5b9fa2c9a24",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+     "miejsce": "s. 1, Note",
+     "cytat": "If unsterile jars are used, the filled jars should be processed 10 minutes.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "c5b9fa2c9a24",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-804",
+   "twierdzenie": "Arkusz UC MFP „Apple Scrap Jelly” (File 1-0002) jest adaptacją przepisu ze strony Ball (freshpreserving.com) i NCHFP z 2019 r.; nie opisuje własnego testu.",
+   "klaster": "SLO",
+   "krytyczne": false,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "apple-v11"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/333956.pdf",
+     "miejsce": "s. 1, Source",
+     "cytat": "Adapted from freshpreserving.com and the National Center for Home Food Preservation, 2019",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC Master Food Preserver Program (UC ANR), „Apple: Preserve It”, File 1-0002 (2020); przepis adaptowany przez UC MFP ze strony Ball (freshpreserving.com) i NCHFP, 2019 — nie z książki Ball",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "c5b9fa2c9a24",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-805",
+   "twierdzenie": "UCCE MFP El Dorado „Apple Scrap Jelly” (adaptacja Sure-Jell, Kraft): 4 szklanki soku z obierek i gniazd, 1 opakowanie pektyny w proszku, 5 szklanek cukru (opcjonalnie 1/4–1/2 łyżeczki masła); 1/4 cala wolnej przestrzeni; słoiki 1/2 pinty w kąpieli wodnej: 10 min (0–1000 stóp), 15 min (1001–6000), 20 min (powyżej 6000); źródło nie wspomina o sterylizacji słoików (czas procesu co najmniej 10 min).",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "apple-v11"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://class.ucanr.edu/sites/default/files/2023-09/388399.pdf",
+     "miejsce": "s. 1, składniki",
+     "cytat": "4 cups apple juice extracted from peels and cores",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UCCE Master Food Preservers of El Dorado County (UC ANR), aktualizacja 15.09.2023; przepis adaptowany z Sure-Jell (Kraft)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "3bd199bc2891",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://class.ucanr.edu/sites/default/files/2023-09/388399.pdf",
+     "miejsce": "s. 1, proces",
+     "cytat": "0-1000ft. = 10 minutes, 1001-6000 ft. = 15 minutes, above 6000 ft. = 20 minutes.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UCCE Master Food Preservers of El Dorado County (UC ANR), aktualizacja 15.09.2023; przepis adaptowany z Sure-Jell (Kraft)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "3bd199bc2891",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://class.ucanr.edu/sites/default/files/2023-09/388399.pdf",
+     "miejsce": "s. 1, Source",
+     "cytat": "Adapted from Kraft’s Sure-Jell Pectin",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UCCE Master Food Preservers of El Dorado County (UC ANR), aktualizacja 15.09.2023; przepis adaptowany z Sure-Jell (Kraft)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "3bd199bc2891",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-806",
+   "twierdzenie": "UC ANR „Reduced-Sugar Strawberry Jam (Sure Jell Less Sugar)”: 6 szklanek rozgniecionych truskawek (ok. 12 szklanek świeżych), 4 szklanki cukru, 1 opakowanie pektyny w proszku dla mniejszej ilości cukru (Less sugar); ok. 8 słoików 8 uncji (ok. 237 ml).",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "strawberry-v07"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+     "miejsce": "s. 1, tytuł",
+     "cytat": "Reduced-Sugar Strawberry Jam (Sure Jell® Less Sugar)",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "dfb4adc630ef",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+     "miejsce": "s. 1, składniki",
+     "cytat": "Crushed strawberries 6 cups",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "dfb4adc630ef",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+     "miejsce": "s. 1, składniki",
+     "cytat": "Granulated sugar 4 cups Less sugar powdered pectin 1 package",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "dfb4adc630ef",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-807",
+   "twierdzenie": "UC ANR „Reduced-Sugar Strawberry Jam”: 1/4 szklanki cukru z odmierzonej ilości wymieszać z pektyną Less sugar i wmieszać w owoce; doprowadzić do pełnego wrzenia, dodać resztę cukru, ponownie pełne wrzenie dokładnie 1 min; nalewać do 1/4 cala (ok. 0,6 cm) od brzegu.",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "strawberry-v07"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+     "miejsce": "s. 1, krok 7",
+     "cytat": "Combine ¼ cup sugar from measured amount and 1 package less sugar needed pectin",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "dfb4adc630ef",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+     "miejsce": "s. 1, krok 9",
+     "cytat": "Return to a full rolling boil and boil exactly 1 minute, stirring constantly.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "dfb4adc630ef",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+     "miejsce": "s. 1, krok 10",
+     "cytat": "Ladle immediately into prepared jars, filling to within ¼ inch of tops.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "dfb4adc630ef",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-808",
+   "twierdzenie": "UC ANR „Reduced-Sugar Strawberry Jam”, tabela 1 (hot, słoiki 1/2 pinty lub pinty, kąpiel wodna lub parowar): 10 min (0–1000 stóp), 15 min (1001–6000), 20 min (powyżej 6000).",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "strawberry-v07"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+     "miejsce": "s. 1, krok 11",
+     "cytat": "Process for 10 minutes in a water bath or steam canner.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "dfb4adc630ef",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+     "miejsce": "s. 1, Table 1",
+     "cytat": "Hot 10 min 15 20",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "dfb4adc630ef",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-809",
+   "twierdzenie": "Przepis UC ANR „Reduced-Sugar Strawberry Jam” jest adaptacją wkładki pektyny Sure-Jell Less Sugar Needed (Kraft Heinz US); przepis używa pektyny Less Sugar Needed (źródło nie podaje wersji ze zwykłą pektyną).",
+   "klaster": "SLO",
+   "krytyczne": false,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "strawberry-v07"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2024-04/396922.pdf",
+     "miejsce": "s. 1, stopka",
+     "cytat": "This recipe is adapted from Sure Jell® less sugar needed package insert.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: arkusz UC ANR (2024-04) adaptowany z wkładki Sure-Jell Less Sugar Needed (Kraft Heinz US, szczebel 3)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "dfb4adc630ef",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-810",
+   "twierdzenie": "Według przepisu Sure-Jell „Rhubarb Strawberry Jam” (Kraft Heinz): 4 szklanki przygotowanych owoców (2 szklanki posiekanego lub cienko pokrojonego nieobranego rabarbaru, reszta rozgniecione truskawki; ok. 1 kwarta truskawek i 1 lb (ok. 450 g) rabarbaru), 1 opakowanie SURE-JELL Original, 1/2 łyżeczki masła, 5 1/2 szklanki cukru.",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "strawberry-v12"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+     "miejsce": "Ingredients",
+     "cytat": "prepared fruit (buy about 1 qt. fully ripe strawberries and 1 lb. fully ripe rhubarb)",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis producenta pektyny Sure-Jell (Kraft Heinz USA), P-B14-1",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "ded7d2ddbfb1",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+     "miejsce": "Step 2",
+     "cytat": "Chop or thinly slice enough unpeeled rhubarb to measure 2 cups.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis producenta pektyny Sure-Jell (Kraft Heinz USA), P-B14-1",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "ded7d2ddbfb1",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+     "miejsce": "Step 2",
+     "cytat": "Measure exactly 4 cups prepared fruit mixture into 6- or 8-qt. saucepot.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis producenta pektyny Sure-Jell (Kraft Heinz USA), P-B14-1",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "ded7d2ddbfb1",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+     "miejsce": "Ingredients",
+     "cytat": "sugar, measured into separate bowl",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis producenta pektyny Sure-Jell (Kraft Heinz USA), P-B14-1",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "ded7d2ddbfb1",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-811",
+   "twierdzenie": "Sure-Jell „Rhubarb Strawberry Jam”: owoce z pektyną do pełnego wrzenia, cukier, ponownie pełne wrzenie dokładnie 1 min; nalewać do 1/4 cala (ok. 0,6 cm) od brzegu; proces 10 min we wrzącej kąpieli wodnej (woda 1–2 cale nad słoikami; wysokość n.p.m. niepodana).",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "strawberry-v12"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+     "miejsce": "Step 3",
+     "cytat": "Return to full rolling boil and boil exactly 1 min., stirring constantly.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis producenta pektyny Sure-Jell (Kraft Heinz USA), P-B14-1",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "ded7d2ddbfb1",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+     "miejsce": "Step 4",
+     "cytat": "Ladle immediately into prepared jars, filling to within 1/4 inch of tops.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis producenta pektyny Sure-Jell (Kraft Heinz USA), P-B14-1",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "ded7d2ddbfb1",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/500895-sure-jell-rhubarb-strawberry-jam",
+     "miejsce": "Step 4",
+     "cytat": "Cover; bring water to gentle boil. Process 10 min.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis producenta pektyny Sure-Jell (Kraft Heinz USA), P-B14-1",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "ded7d2ddbfb1",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-812",
+   "twierdzenie": "NDSU FN172 i WSU „Rhubarb-Strawberry Jam With Pectin” (WSU: adaptacja z USDA HG-56): 1 szklanka ugotowanego rabarbaru o czerwonych łodygach (ok. 1 lb rabarbaru i 1/4 szklanki wody), 2 1/2 szklanki rozgniecionych truskawek, 6 1/2 szklanki cukru, 1 saszetka pektyny płynnej; ok. 7–8 słoików 1/2 pinty; owoce z cukrem pełne wrzenie 1 min, zdjąć z ognia, wmieszać pektynę; gorące sterylne słoiki, 1/4 cala.",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "strawberry-v12"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+     "miejsce": "s. 7, Rhubarb-Strawberry Jam With Pectin",
+     "cytat": "1 cup cooked red-stalked rhubarb",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: NDSU Extension FN172 Jellies, Jams and Spreads (Reviewed March 2024)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "99f87a85121b",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+     "miejsce": "s. 7, jw.",
+     "cytat": "Remove from heat and stir in pectin.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: NDSU Extension FN172 Jellies, Jams and Spreads (Reviewed March 2024)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "99f87a85121b",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://wpcdn.web.wsu.edu/extension/uploads/sites/77/2018/06/Preserving-Strawberries.pdf",
+     "miejsce": "s. 2, Rhubarb-Strawberry Jam",
+     "cytat": "2½ cups crushed strawberries (about 1½ quart boxes)",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: WSU Extension, Preserving Strawberries (2018); przepis adaptowany z USDA Home and Garden Bulletin 56 (1982) i NCHFP (2005)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "f161c6d981d1",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://wpcdn.web.wsu.edu/extension/uploads/sites/77/2018/06/Preserving-Strawberries.pdf",
+     "miejsce": "s. 2, jw.",
+     "cytat": "Fill hot jam immediately into hot, sterile jars, leaving ¼ inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: WSU Extension, Preserving Strawberries (2018); przepis adaptowany z USDA Home and Garden Bulletin 56 (1982) i NCHFP (2005)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "f161c6d981d1",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-813",
+   "twierdzenie": "Czas dla „Rhubarb-Strawberry Jam” (pektyna płynna, hot, słoiki 1/2 pinty lub pinty, słoiki sterylne): WSU 5 / 10 / 15 min (0–1000 / 1001–6000 / powyżej 6000 stóp); NDSU tabela 3 dla wszystkich dżemów i galaretek 5 / 10 min (0–1000 / 1001–6000 stóp; brak czasu powyżej 6000), a przy słoikach niesterylnych 10 min.",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "strawberry-v12"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://wpcdn.web.wsu.edu/extension/uploads/sites/77/2018/06/Preserving-Strawberries.pdf",
+     "miejsce": "s. 2, Table 1",
+     "cytat": "Hot Half-pints 5 min 10 15",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: WSU Extension, Preserving Strawberries (2018); przepis adaptowany z USDA Home and Garden Bulletin 56 (1982) i NCHFP (2005)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "f161c6d981d1",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+     "miejsce": "s. 4, Table 3",
+     "cytat": "All jellies and Hot Half-pints 5 10",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: NDSU Extension FN172 Jellies, Jams and Spreads (Reviewed March 2024)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "99f87a85121b",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+     "miejsce": "s. 3",
+     "cytat": "If unsterile jars are used, the process",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: NDSU Extension FN172 Jellies, Jams and Spreads (Reviewed March 2024)",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "99f87a85121b",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-814",
+   "twierdzenie": "CSU Extension (Preserve Smart) „Mint Jelly without Added Pectin” (galaretka jabłkowo-miętowa bez dodatku pektyny): 3 funty (ok. 1,4 kg) kwaśnych jabłek (1/4 niedojrzałych, 3/4 dojrzałych) + 3 szklanki wody (ok. 4 szklanki soku), 1 ubita szklanka świeżych liści mięty + 1 szklanka wody (1/2 szklanki naparu), 3 szklanki cukru; 5–6 słoików 1/2 pinty.",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "apple-v12"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+     "miejsce": "2. Ingredients",
+     "cytat": "3 pounds apples + 3 cups water (to make ~ 4 cups juice)",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "8de00e7341bc",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+     "miejsce": "2. Ingredients",
+     "cytat": "1 firmly-packed cup fresh mint leaves + 1 cup water (to make 1/2 cup mint extract)",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "8de00e7341bc",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+     "miejsce": "1. Selection",
+     "cytat": "1 cup firmly packed mint and 3 pounds tart red apples (1/4 underripe, 3/4 ripe) will yield 5 to 6 half-pint jars.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "8de00e7341bc",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-815",
+   "twierdzenie": "CSU „Mint Jelly without Added Pectin”: jabłek nie obierać i nie wycinać gniazd, dusić 20–25 min, sok odsączyć przez worek; liście mięty zalać 1 szklanką wrzątku na 1 h, odcisnąć, wziąć 1/2 szklanki; 4 szklanki soku, 1/2 szklanki naparu i cukier gotować do 8 °F (ok. 4,4 °C) powyżej temperatury wrzenia wody na danej wysokości lub testu łyżki; sterylne słoiki, 1/4 cala wolnej przestrzeni.",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "apple-v12"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+     "miejsce": "5. Prepare Ingredients",
+     "cytat": "Do not pare or core.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "8de00e7341bc",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+     "miejsce": "Prepare Mint Extract",
+     "cytat": "Pour 1 cup boiling water over mint leaves. Let stand 1 hour.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "8de00e7341bc",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+     "miejsce": "Make Jelly",
+     "cytat": "In a cooking pot, combine 4 cups apple juice, 1/2 cup mint extract and sugar.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "8de00e7341bc",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+     "miejsce": "Make Jelly",
+     "cytat": "8 degrees F above the boiling point at your elevation.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "8de00e7341bc",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+     "miejsce": "6. Fill Jars",
+     "cytat": "Leave 1/4-inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "8de00e7341bc",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-816",
+   "twierdzenie": "CSU „Mint Jelly without Added Pectin”, kąpiel wodna (hot, słoiki 1/2 pinty lub pinty): 5 min (0–1000 stóp), 10 min (1001–6000), 10 min (6001–10 000); przy czasie poniżej 10 min słoiki sterylizować.",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "apple-v12"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+     "miejsce": "Boiling water bath processing times",
+     "cytat": "Boiling water bath processing times (hot pack)-Half Pints or Pints 0-1,000 ft 1,001-6,000 ft 6,001-10,000 ft 5 minutes 10 minutes 10 minutes",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "8de00e7341bc",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/jam/herbs",
+     "miejsce": "4. Prepare Canning Equipment",
+     "cytat": "If processing time for your elevation is less than 10 minutes, sterilize jars by placing right side up on the rack in a boiling water bath canner.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Colorado State University Extension, Preserve Smart (Jelly/Jam with Herbs), stan 2026",
+     "weryfikacja": "curl+html.parser+grep -F (po normalizacji)",
+     "sha12": "8de00e7341bc",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-817",
+   "twierdzenie": "Ball „Ginger Pear Marmalade” (przedruk UCCE MFP Lassen County, UC ANR): 3 limonki (skórka w paskach i sok), 8 szklanek cienko pokrojonych obranych gruszek bez gniazd (jędrne, dojrzałe), 4 szklanki cukru, 3 łyżki posiekanego imbiru kandyzowanego, 1 1/4 szklanki wody; ok. 4 słoiki 8 uncji (ok. 250 ml); wariant: zamiast limonek 2 cytryny albo 1 duża pomarańcza.",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "pear-v09"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://ucanr.edu/sites/LassenMFP/files/395916.pdf",
+     "miejsce": "s. 1, Ginger Pear Marmalade, składniki",
+     "cytat": "8 cups thinly sliced cored peeled firm ripe pears",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2012, dozwolone wg B14-D1) w przedruku UCCE Master Food Preservers of Lassen County (UC ANR), PDF z 13.03.2024; tytułu książki nie cytuję",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "d1325c6870f2",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://ucanr.edu/sites/LassenMFP/files/395916.pdf",
+     "miejsce": "s. 1, składniki",
+     "cytat": "3 tablespoons chopped, crystallized ginger",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2012, dozwolone wg B14-D1) w przedruku UCCE Master Food Preservers of Lassen County (UC ANR), PDF z 13.03.2024; tytułu książki nie cytuję",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "d1325c6870f2",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://ucanr.edu/sites/LassenMFP/files/395916.pdf",
+     "miejsce": "s. 1, Variation",
+     "cytat": "Substitute 2 lemons or 1 large orange for the lime.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2012, dozwolone wg B14-D1) w przedruku UCCE Master Food Preservers of Lassen County (UC ANR), PDF z 13.03.2024; tytułu książki nie cytuję",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "d1325c6870f2",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-818",
+   "twierdzenie": "Ball „Ginger Pear Marmalade” (przedruk UCCE MFP Lassen): gruszki z sokiem z limonek, cukrem i imbirem odstawić na 1 h; pełne wrzenie 15 min, dodać skórkę, gotować do punktu żelowania (ok. 5 min); 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; proces 10 min we wrzącej kąpieli wodnej (wysokość n.p.m. niepodana).",
+   "klaster": "SLO",
+   "krytyczne": true,
+   "status": "potwierdzone",
+   "przeglad": null,
+   "warianty": [
+    "pear-v09"
+   ],
+   "zrodla": [
+    {
+     "adres": "https://ucanr.edu/sites/LassenMFP/files/395916.pdf",
+     "miejsce": "s. 1, krok 1",
+     "cytat": "Toss gently until pears are coated with lime juice.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2012, dozwolone wg B14-D1) w przedruku UCCE Master Food Preservers of Lassen County (UC ANR), PDF z 13.03.2024; tytułu książki nie cytuję",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "d1325c6870f2",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://ucanr.edu/sites/LassenMFP/files/395916.pdf",
+     "miejsce": "s. 1, krok 5",
+     "cytat": "Ladle hot marmalade into hot jars, leaving ¼ inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2012, dozwolone wg B14-D1) w przedruku UCCE Master Food Preservers of Lassen County (UC ANR), PDF z 13.03.2024; tytułu książki nie cytuję",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "d1325c6870f2",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://ucanr.edu/sites/LassenMFP/files/395916.pdf",
+     "miejsce": "s. 1, krok 6",
+     "cytat": "process for 10 minutes",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2012, dozwolone wg B14-D1) w przedruku UCCE Master Food Preservers of Lassen County (UC ANR), PDF z 13.03.2024; tytułu książki nie cytuję",
+     "weryfikacja": "curl+pdftotext -layout+grep -F (po normalizacji)",
+     "sha12": "d1325c6870f2",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ]
+  },
+  {
+   "id": "SLO-840",
+   "twierdzenie": "Według przepisu Ball „Rhubarb-Orange Jam” (przedruk UC MFP, plik 2-0013): 2 1/2 funta (ok. 1,13 kg) rabarbaru (ok. 10–18 łodyg), 2 średnie pomarańcze, 6 łyżek pektyny Ball Classic, 6 szklanek cukru; wydajność ok. 6 słoików 1/2 pinty.",
+   "zrodla": [
+    {
+     "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+     "miejsce": "s. 1, Rhubarb-Orange Jam, składniki",
+     "cytat": "2-1/2 pounds rhubarb (about 10 to 18 stalks)",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+     "weryfikacja": "curl+pdftotext+grep (po normalizacji ligatur/łączników)",
+     "sha12": "99e14d37c7b5",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+     "miejsce": "s. 1, składniki",
+     "cytat": "6 tablespoons Ball Classic Pectin",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "99e14d37c7b5",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+     "miejsce": "s. 1, składniki",
+     "cytat": "6 cups sugar",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "99e14d37c7b5",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+     "miejsce": "s. 1, wydajność",
+     "cytat": "Yield: about 6 half-pints",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "99e14d37c7b5",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-841",
+   "twierdzenie": "Ball „Rhubarb-Orange Jam”, przygotowanie: rabarbar bez liści i końcówek pokroić w kawałki 1/2 cala (ok. 1,3 cm); z pomarańczy wycisnąć i odmierzyć 1 szklankę soku, skórkę z połowy jednej pomarańczy (bez albedo) pokroić w cienkie paski; rabarbar z sokiem i skórką dusić pod przykryciem ok. 3 min do miękkości; dodać pektynę, zagotować, dodać cukier, doprowadzić do pełnego wrzenia i gotować intensywnie 1 minutę, zebrać pianę.",
+   "zrodla": [
+    {
+     "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+     "miejsce": "s. 1, krok 1",
+     "cytat": "Juice oranges; measuring 1 cup of orange juice.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "99e14d37c7b5",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+     "miejsce": "s. 1, krok 1",
+     "cytat": "Using the peel from half of one orange, remove pith and cut into thin slivers.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "99e14d37c7b5",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+     "miejsce": "s. 1, krok 3",
+     "cytat": "Simmer rhubarb mixture, covered, about 3 minutes or until rhubarb is tender.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "99e14d37c7b5",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+     "miejsce": "s. 1, krok 4",
+     "cytat": "Bring mixture to a full rolling boil; boil hard for 1 minute, stirring constantly.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "99e14d37c7b5",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-842",
+   "twierdzenie": "Ball „Rhubarb-Orange Jam”, wekowanie: gorący dżem do gorących, wysterylizowanych słoików (sterylizacja: 10 min wrzenia do 1000 stóp, +1 min na każde dalsze 1000 stóp), 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; 10 minut w kąpieli wodnej (albo atmosferycznym wekowniku parowym), +1 minuta na każde 1000 stóp (ok. 305 m) n.p.m.; przy słoikach niesterylizowanych też 10 minut.",
+   "zrodla": [
+    {
+     "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+     "miejsce": "s. 1, krok 5",
+     "cytat": "Ladle hot jam into hot, sterile jars, leaving 1/4-inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+     "weryfikacja": "curl+pdftotext+grep (po normalizacji ligatur/łączników)",
+     "sha12": "99e14d37c7b5",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+     "miejsce": "s. 1, krok 6",
+     "cytat": "Process 10 minutes in boiling-water or atmospheric steam canner, adding 1 additional minute per 1,000 feet above sea level.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+     "weryfikacja": "curl+pdftotext+grep (po normalizacji ligatur/łączników)",
+     "sha12": "99e14d37c7b5",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+     "miejsce": "s. 1, krok 2",
+     "cytat": "Sterilize canning jars by boiling for 10 minutes at altitudes of less than 1,000 feet.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "99e14d37c7b5",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335062.pdf",
+     "miejsce": "s. 1, uwaga",
+     "cytat": "Note: If using unsterile jars, process the filled jars for 10 minutes.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (wydanie 2014, na liście wydań dozwolonych B14-S2) w przedruku ulotki UC Master Food Preserver Program, plik 2-0013 „Rhubarb: Preserve It”",
+     "weryfikacja": "curl+pdftotext+grep (po normalizacji ligatur/łączników)",
+     "sha12": "99e14d37c7b5",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-843",
+   "twierdzenie": "Według przepisu Ball „Quick Lemon Ginger Marmalade” (przedruk UCCE MFP, UC ANR): 6 małych cytryn, 1/2 łyżeczki sody oczyszczonej, 2 1/2 szklanki wody, 1/2 szklanki (6 uncji) grubo startego świeżego imbiru, 1 opakowanie (1,75 uncji) zwykłej pektyny w proszku, 6 1/2 szklanki cukru; wydajność ok. 7 słoików 1/2 pinty.",
+   "zrodla": [
+    {
+     "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+     "miejsce": "s. 1, składniki",
+     "cytat": "6 small lemons",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "fbe39e790356",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+     "miejsce": "s. 1, składniki",
+     "cytat": "1/2 tsp baking soda",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "fbe39e790356",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+     "miejsce": "s. 1, składniki",
+     "cytat": "1/2 cup (6 oz.) coarsely grated gingerroot",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "fbe39e790356",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+     "miejsce": "s. 1, składniki",
+     "cytat": "1 (1.75 oz.) package regular powdered fruit pectin",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "fbe39e790356",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+     "miejsce": "s. 1, składniki (ułamek w kopii tekstowej zapisany „61/2” = 6 1/2)",
+     "cytat": "61/2 cups sugar",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "fbe39e790356",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+     "miejsce": "s. 1, wydajność",
+     "cytat": "Yield: about 7 half-pint jars",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "fbe39e790356",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-844",
+   "twierdzenie": "Ball „Quick Lemon Ginger Marmalade”, przygotowanie: żółtą skórkę cytryn zdjąć w paskach i pokroić cienko; skórkę z sodą i wodą zagotować i gotować pod przykryciem 5 min; z cytryn usunąć albedo, wyciąć cząstki bez błon, zebrać sok i odmierzyć 1 szklankę cząstek z sokiem; dodać do skórki z imbirem, rozmieszać pektynę; zagotować, wsypać cały cukier, doprowadzić do pełnego wrzenia i gotować intensywnie 1 minutę; zebrać pianę.",
+   "zrodla": [
+    {
+     "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+     "miejsce": "s. 1, krok 3",
+     "cytat": "Reduce heat, cover and boil gently for 5 minutes, until peel is softened.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "fbe39e790356",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+     "miejsce": "s. 1, krok 4",
+     "cytat": "Measure 1 cup lemon segments and juice. Add to softened rind mixture with gingerroot.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "fbe39e790356",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+     "miejsce": "s. 1, krok 5",
+     "cytat": "Boil hard, stirring constantly, for 1 minute.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "fbe39e790356",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-845",
+   "twierdzenie": "Ball „Quick Lemon Ginger Marmalade”, wekowanie: gorącą marmoladę do gorących słoików, 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; słoiki całkowicie pod wodą, zagotować i wekować 10 minut; zdjąć pokrywę, odczekać 5 minut. Przedruk nie podaje korekty czasu dla wysokości.",
+   "zrodla": [
+    {
+     "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+     "miejsce": "s. 1, krok 6",
+     "cytat": "Ladle hot marmalade into hot jars, leaving ¼-inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "fbe39e790356",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+     "miejsce": "s. 1, krok 7",
+     "cytat": "Bring to a boil and process for 10 minutes.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "fbe39e790356",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://class.ucanr.edu/sites/default/files/2025-03/MFP%20Recipe%20Quick%20Lemon%20Ginger%20Marmalade.pdf",
+     "miejsce": "s. 1, krok 7",
+     "cytat": "Wait 5 minutes, then remove jars, cool and store.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (książka Ball wymieniona w B14-S2/S4; wydanie nieoznaczone, dozwolone 2006/2012/2020) w przedruku ulotki UCCE Master Food Preserver Program (UC ANR), plik 2025-03",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "fbe39e790356",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-846",
+   "twierdzenie": "NCHFP Grape Conserve (bez dodanej pektyny): 4 1/2 szklanki winogron bez skórek (ok. 4 funty winogron Concord), 1 pomarańcza (drobno posiekana ze skórką), 4 szklanki cukru, 1 szklanka rodzynek bez pestek, 1/2 łyżeczki soli, skórki z winogron, 1 szklanka drobno posiekanych orzechów; ok. 8–9 słoików 1/2 pinty. Przepis wymienia tylko winogrona Concord, a pestki usuwa się, przecierając ugotowane winogrona przez sito — winogron bezpestkowych nie wymienia.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+     "miejsce": "Grape Conserve, składniki",
+     "cytat": "4½ cups grapes with skins removed (about 4 pounds Concord grapes)",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+     "weryfikacja": "curl+html→txt+grep",
+     "sha12": "0f59855bab35",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+     "miejsce": "Grape Conserve, składniki",
+     "cytat": "1 cup seedless raisins",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+     "weryfikacja": "curl+html→txt+grep",
+     "sha12": "0f59855bab35",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+     "miejsce": "Grape Conserve, składniki",
+     "cytat": "1 cup nuts, chopped fine",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+     "weryfikacja": "curl+html→txt+grep",
+     "sha12": "0f59855bab35",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+     "miejsce": "Grape Conserve, wydajność",
+     "cytat": "Yield: About 8 or 9 half-pint jars",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+     "weryfikacja": "curl+html→txt+grep",
+     "sha12": "0f59855bab35",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+     "miejsce": "Grape Conserve, przygotowanie owoców",
+     "cytat": "Press through a sieve to remove seeds.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+     "weryfikacja": "curl+html→txt+grep",
+     "sha12": "0f59855bab35",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-847",
+   "twierdzenie": "NCHFP Grape Conserve, gotowanie i wekowanie: masę gotować do 9 °F (ok. 5 °C) powyżej temperatury wrzenia wody, orzechy dodać na końcu; gorącą konfiturę do gorących, wysterylizowanych słoików, 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna, hot pack, słoiki 1/2 pinty lub pint: 5 min (0–1000 stóp), 10 min (1001–6000), 15 min (powyżej 6000).",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+     "miejsce": "Grape Conserve, procedura",
+     "cytat": "Add grape skins and boil, stirring constantly, to 9 degrees F. above the boiling point of water (about 10 minutes).",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+     "weryfikacja": "curl+html→txt+grep",
+     "sha12": "0f59855bab35",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+     "miejsce": "Grape Conserve, procedura",
+     "cytat": "Fill hot conserve immediately into hot, sterile jars, leaving ¼ inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+     "weryfikacja": "curl+html→txt+grep",
+     "sha12": "0f59855bab35",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/grape-conserve/",
+     "miejsce": "Grape Conserve, Table 1",
+     "cytat": "Hot Half-pints or Pints 5 min 10 15",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adaptacja USDA HG-56",
+     "weryfikacja": "curl+html→txt+grep (komórki tabeli po normalizacji białych znaków)",
+     "sha12": "0f59855bab35",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-848",
+   "twierdzenie": "NDSU FN172 (przepis WSU) „Syrups Made With Juice”, na stronie z przepisami z czeremchy wirginijskiej (chokecherry): 4 szklanki soku, 4 szklanki cukru, opcjonalnie 1/4 szklanki soku z cytryny i do 1/2 opakowania pektyny w proszku; gotować 2 min, słoiki 1/2 pinty lub pint, 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; tabela 5: syrop, hot, 1/2 pinty lub pint — 10 min (0–1000 stóp) i 10 min (1001–6000 stóp). Przepis nie wymienia rabarbaru; JarAtlas nie przenosi go na sok z rabarbaru (reguła 4: zmiana owocu).",
+   "zrodla": [
+    {
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+     "miejsce": "s. 8, Syrups Made With Juice",
+     "cytat": "Mix juice, sugar, lemon juice and pectin. Bring to a boil and boil two minutes.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: NDSU Extension FN172 (przegląd 03.2024), przepis podpisany Cooperative Extension, Washington State University",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "c06ec0ef543c",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+     "miejsce": "s. 8, Syrups Made With Juice",
+     "cytat": "pour into ½-pint or 1-pint canning jars to within ½ inch of the top.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: NDSU Extension FN172 (przegląd 03.2024), przepis podpisany Cooperative Extension, Washington State University",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "c06ec0ef543c",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.ndsu.edu/agriculture/sites/default/files/2024-03/fn172.pdf",
+     "miejsce": "s. 8, Syrups Made With Juice, podpis",
+     "cytat": "Cooperative Extension, Washington State University",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: NDSU Extension FN172 (przegląd 03.2024), przepis podpisany Cooperative Extension, Washington State University",
+     "weryfikacja": "curl+pdftotext+grep",
+     "sha12": "99f87a85121b",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-860",
+   "twierdzenie": "NCHFP Fig Jam without Pectin, składniki na ok. 10 słoików 1/2 pinty: 2 quarty (ok. 1,9 l) posiekanych świeżych fig (ok. 5 funtów, ok. 2,3 kg), 3/4 szklanki wody, 6 szklanek cukru, 1/4 szklanki soku z cytryny.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/fig-jam-without-pectin/",
+     "miejsce": "składniki",
+     "cytat": "2 quarts chopped fresh figs (about 5 pounds) ... ¾ cup water ... 6 cups sugar ... ¼ cup lemon juice",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "f7fa36720515",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/fig-jam-without-pectin/",
+     "miejsce": "wydajność",
+     "cytat": "About 10 half-pint jars",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "f7fa36720515",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-861",
+   "twierdzenie": "NCHFP Fig Jam without Pectin: figi zalać wrzątkiem na 10 min, odsączyć, usunąć szypułki, posiekać; z wodą i cukrem gotować szybko do zgęstnienia, dodać sok z cytryny i gotować jeszcze 1 min; nalać do gorących, wysterylizowanych słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna, hot pack, słoiki 1/2 pinty lub pint: 5 min do 1000 stóp, 10 min 1001–6000 stóp, 15 min powyżej.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/fig-jam-without-pectin/",
+     "miejsce": "procedura",
+     "cytat": "Pour boiling water over figs; let stand 10 minutes.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "f7fa36720515",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/fig-jam-without-pectin/",
+     "miejsce": "procedura",
+     "cytat": "Add lemon juice and cook 1 minute longer. Pour hot jam into hot jars, leaving ¼-inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "f7fa36720515",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/fig-jam-without-pectin/",
+     "miejsce": "tabela 1",
+     "cytat": "Half-pints or Pints 5 min 10 15",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "f7fa36720515",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-862",
+   "twierdzenie": "NCHFP Fig Preserves (całe figi w gęstym syropie), składniki na ok. 10 słoików 1/2 pinty: 3 quarty fig, 3 quarty wrzącej wody (do sparzenia), 4 szklanki cukru, 1 1/2 quarta wody, 2 cytryny w cienkich plasterkach (w źródle oznaczone jako opcjonalne).",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/fig-preserves/",
+     "miejsce": "składniki",
+     "cytat": "3 quarts figs ... 4 cups sugar ... 2 lemons, thinly sliced (optional)",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "51a53ea46abc",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/fig-preserves/",
+     "miejsce": "wydajność",
+     "cytat": "About 10 half-pint jars",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "51a53ea46abc",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-863",
+   "twierdzenie": "NCHFP Fig Preserves: figi sparzyć 15 min wrzątkiem, opłukać; syrop z cukru, wody i cytryny gotować 10 min, plasterki cytryny usunąć; całe figi gotować w syropie do przezroczystości; syrop odparować do gęstości miodu, zalać figi i odstawić na 6–8 h do lodówki; podgrzać do wrzenia, nałożyć do wysterylizowanych słoików, zalać syropem, 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna, hot pack, 1/2 pinty lub pint: 5 min do 1000 stóp, 10 min 1001–6000 stóp, 15 min powyżej.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/fig-preserves/",
+     "miejsce": "procedura",
+     "cytat": "the syrup must be boiled down until it becomes as thick as honey",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "51a53ea46abc",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/fig-preserves/",
+     "miejsce": "procedura",
+     "cytat": "Fill whole figs into hot jars and cover with hot syrup, leaving ¼ inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "51a53ea46abc",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/fig-preserves/",
+     "miejsce": "tabela 1",
+     "cytat": "Half-pints or Pints 5 min 10 15",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "51a53ea46abc",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-864",
+   "twierdzenie": "Oregon State Extension: figi powinny dojrzeć na drzewie przed zbiorem; figi to owoc niskokwasowy, więc każdy przepis na wekowanie fig powinien zawierać dodatek kwasu (sok z cytryny, ocet albo kwas cytrynowy), żeby produkt był bezpieczny.",
+   "zrodla": [
+    {
+     "adres": "https://extension.oregonstate.edu/food/preservation/preserving-figs",
+     "miejsce": "wstęp",
+     "cytat": "Figs should ripen on the tree before picking.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Oregon State University Extension (rev. Jan 2025)",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "72a631870ebf",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://extension.oregonstate.edu/food/preservation/preserving-figs",
+     "miejsce": "wstęp",
+     "cytat": "Figs are a low acid fruit. Any canning recipes should include the addition of an acid, usually either lemon juice, vinegar or citric acid, to ensure that the product is safe.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Oregon State University Extension (rev. Jan 2025)",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "72a631870ebf",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-865",
+   "twierdzenie": "NCHFP Watermelon Rind Preserves, składniki na ok. 6 słoików 1/2 pinty: 1 1/2 quarta oczyszczonej i pokrojonej skórki arbuza, 4 łyżki soli, 2 quarty zimnej wody (solanka), 1 łyżka mielonego imbiru, 4 szklanki cukru, 1/4 szklanki soku z cytryny, 7 szklanek wody, 1 cytryna w cienkich plasterkach (opcjonalnie). Wanilii przepis nie przewiduje.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/watermelon-rind-preserves/",
+     "miejsce": "składniki",
+     "cytat": "1½ quarts trimmed and cut watermelon rind pieces ... 4 tablespoons salt ... 1 tablespoon ground ginger ... 4 cups sugar ... ¼ cup lemon juice ... 7 cups water ... 1 thinly sliced lemon (optional)",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "bf6ba13e5e02",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/watermelon-rind-preserves/",
+     "miejsce": "wydajność",
+     "cytat": "About 6 half-pint jars",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "bf6ba13e5e02",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-866",
+   "twierdzenie": "NCHFP Watermelon Rind Preserves, procedura: z grubej skórki odciąć zieloną skórę i różowy miąższ, pokroić w kawałki 1 cal (ok. 2,5 cm); moczyć w solance 5–6 h w lodówce, opłukać, 30 min w zimnej wodzie; posypać imbirem, zalać wodą i gotować do miękkości; syrop (cukier, sok z cytryny, 7 szklanek wody) gotować 5 min, dodać skórkę i gotować łagodnie 30 min, dodać plasterki cytryny i gotować do przezroczystości; nakładać na gorąco do wysterylizowanych słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni. Czas: SLO-107.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/watermelon-rind-preserves/",
+     "miejsce": "procedura",
+     "cytat": "Trim green skin and pink flesh from thick watermelon rind; cut into 1 inch pieces. Dissolve salt in 2 quarts water and pour over rind; let stand for 5 to 6 hours in refrigerator.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "bf6ba13e5e02",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/watermelon-rind-preserves/",
+     "miejsce": "procedura",
+     "cytat": "Sprinkle ginger over rind; cover with water and cook until fork tender.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "bf6ba13e5e02",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/watermelon-rind-preserves/",
+     "miejsce": "procedura",
+     "cytat": "add prepared watermelon rind and boil gently for 30 minutes. Add sliced lemon and cook until the melon rind is clear. Pack hot preserves into hot jars, leaving ¼-inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "bf6ba13e5e02",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-867",
+   "twierdzenie": "NCHFP Cranberry Conserve (konfitura żurawinowa z pomarańczą), składniki na ok. 4 słoiki 1/2 pinty: 1 nieobrana, drobno posiekana pomarańcza, 2 szklanki wody, 3 szklanki cukru, 1 quart (ok. 0,95 l) umytej żurawiny, 1/2 szklanki rodzynek bez pestek, 1/2 szklanki posiekanych orzechów.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/cranberry-conserve/",
+     "miejsce": "składniki",
+     "cytat": "1 unpeeled, finely chopped orange ... 2 cups water ... 3 cups sugar ... 1 quart cranberries, washed ... ½ cup seedless raisins ... ½ cup chopped nuts",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "76cf41233cb7",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/cranberry-conserve/",
+     "miejsce": "wydajność",
+     "cytat": "About 4 half-pint jars",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "76cf41233cb7",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-868",
+   "twierdzenie": "NCHFP Cranberry Conserve: pomarańczę z wodą gotować szybko ok. 20 min do miękkości skórki; dodać żurawinę, cukier i rodzynki, powoli doprowadzić do wrzenia, potem gotować szybko prawie do 220 °F (ok. 104 °C, ok. 8 min); orzechy dodać w ostatnich 5 min; nalać do gorących słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna, hot pack, tylko słoiki 1/2 pinty: 10 min do 1000 stóp, 15 min 1001–6000 stóp, 20 min powyżej.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/cranberry-conserve/",
+     "miejsce": "procedura",
+     "cytat": "Combine orange and water; cook rapidly until peel is tender (about 20 minutes).",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "76cf41233cb7",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/cranberry-conserve/",
+     "miejsce": "procedura",
+     "cytat": "Cook rapidly, almost to the jellying point of 220°F (about 8 minutes).",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "76cf41233cb7",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/cranberry-conserve/",
+     "miejsce": "procedura",
+     "cytat": "Add nuts during the last 5 minutes of cooking. Pour hot conserve into hot jars, leaving ¼-inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "76cf41233cb7",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/make-jam-jelly/conserves/cranberry-conserve/",
+     "miejsce": "tabela 1",
+     "cytat": "Hot Half-pints 10 min 15 20",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "76cf41233cb7",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-869",
+   "twierdzenie": "NCHFP Cranberry Sauce: przepis zawiera tylko żurawinę, wodę i cukier (SLO-233), bez pomarańczy; dopuszcza dwie odmiany: sos z rozgniecionych owoców (zamiast przecieranego) i sos z całych owoców (bez przecierania), w obu cukier dodaje się do miękkich owoców i gotuje 3 min, dalej jak w przepisie podstawowym; opcjonalnie 1/2 łyżeczki masła przeciw pienieniu.",
+   "zrodla": [
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberry-sauce/",
+     "miejsce": "składniki",
+     "cytat": "4 cups cranberries 1 cup water 2 cups sugar",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "184c2f8973bd",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberry-sauce/",
+     "miejsce": "Variations (1)",
+     "cytat": "To make crushed cranberry sauce instead of sieved, cook berries until soft and then mash with a potato masher or back of cooking spoon until desired consistency.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "184c2f8973bd",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberry-sauce/",
+     "miejsce": "Variations (2)",
+     "cytat": "To make whole cranberry sauce, cook berries until soft.",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "184c2f8973bd",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cranberry-sauce/",
+     "miejsce": "Preparation Note",
+     "cytat": "add ½ teaspoon of butter before berries are sieved or crushed and sugar is added",
+     "odczyt": "2026-11-02",
+     "szczebel": 1,
+     "szczebel_uwaga": "szczebel 1: NCHFP",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "184c2f8973bd",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-870",
+   "twierdzenie": "Sure-Jell Jalapeño Jelly (z drobno posiekanych papryk, nieprzecedzona), składniki: 2 czerwone papryki (ok. 1 1/2 szklanki), 2 zielone papryki (ok. 1 1/2 szklanki), 10 dużych jalapeño (ok. 1 szklanki) — wszystkie bez nasion, drobno posiekane; 1 szklanka octu jabłkowego (5%), 1 opakowanie pektyny Sure-Jell Original, 1/2 łyżeczki masła (przeciw pianie), 5 szklanek cukru.",
+   "zrodla": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501272-sure-jell-jalape%C3%B1o-jelly",
+     "miejsce": "składniki",
+     "cytat": "red peppers, seeded, finely chopped (about 1-1/2 cups) 2 green peppers, seeded, finely chopped (about 1-1/2 cups) 10 large jalapeño peppers, seeded, finely chopped (about 1 cup) 1 cup HEINZ Apple Cider Vinegar 1 pkg SURE-JELL Original Premium Fruit Pectin",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "042b76902c92",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501272-sure-jell-jalape%C3%B1o-jelly",
+     "miejsce": "składniki",
+     "cytat": "5 cups sugar, measured into separate bowl (See tip.)",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "042b76902c92",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501272-sure-jell-jalape%C3%B1o-jelly",
+     "miejsce": "produkt",
+     "cytat": "Apple Cider Vinegar with 5% Acidity",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "042b76902c92",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-871",
+   "twierdzenie": "Sure-Jell Jalapeño Jelly: papryki z octem i pektyną doprowadzić do pełnego wrzenia, wsypać cukier, znów pełne wrzenie i gotować dokładnie 1 min; nalać do słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna 10 min (strona nie podaje wielkości słoika ani korekty wysokości).",
+   "zrodla": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501272-sure-jell-jalape%C3%B1o-jelly",
+     "miejsce": "krok 2",
+     "cytat": "Return to full rolling boil and boil exactly 1 min., stirring constantly.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "042b76902c92",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501272-sure-jell-jalape%C3%B1o-jelly",
+     "miejsce": "krok 3",
+     "cytat": "Ladle immediately into prepared jars, filling to within 1/4 inch of tops.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "042b76902c92",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501272-sure-jell-jalape%C3%B1o-jelly",
+     "miejsce": "krok 3",
+     "cytat": "Cover; bring water to gentle boil. Process 10 min.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "042b76902c92",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-872",
+   "twierdzenie": "Sure-Jell Fresh Pineapple Jam, składniki: 4 1/2 szklanki przygotowanego owocu (2 w pełni dojrzałe średnie ananasy, obrane, bez gniazda, drobno posiekane lub zmielone), 1 opakowanie pektyny Sure-Jell Original, 1/2 łyżeczki masła (przeciw pianie), 5 1/2 szklanki cukru. Bez alkoholu i wanilii.",
+   "zrodla": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501672-sure-jell-fresh-pineapple-jam",
+     "miejsce": "składniki",
+     "cytat": "4-1/2 cups prepared fruit (buy 2 fully ripe medium pineapples) 1 box SURE-JELL Original Premium Fruit Pectin",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "87556c235108",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501672-sure-jell-fresh-pineapple-jam",
+     "miejsce": "składniki",
+     "cytat": "5-1/2 cups sugar, measured into separate bowl",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "87556c235108",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501672-sure-jell-fresh-pineapple-jam",
+     "miejsce": "krok 2",
+     "cytat": "Peel and core pineapples. Finely chop or grind fruit.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "87556c235108",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-873",
+   "twierdzenie": "Sure-Jell Fresh Pineapple Jam: odmierzyć dokładnie 4 1/2 szklanki ananasa, wmieszać pektynę, pełne wrzenie, cukier, pełne wrzenie dokładnie 1 min; nalać do słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna 5 min (słoiki w przepisie tylko umyte i wypłukane, bez sterylizacji).",
+   "zrodla": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501672-sure-jell-fresh-pineapple-jam",
+     "miejsce": "krok 2",
+     "cytat": "Measure exactly 4-1/2 cups prepared pineapple into 6- or 8-qt. saucepot.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "87556c235108",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501672-sure-jell-fresh-pineapple-jam",
+     "miejsce": "krok 1",
+     "cytat": "Wash jars and screw bands in hot soapy water; rinse with warm water.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "87556c235108",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501672-sure-jell-fresh-pineapple-jam",
+     "miejsce": "krok 4",
+     "cytat": "Ladle immediately into prepared jars, filling to within 1/4 inch of tops.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "87556c235108",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/501672-sure-jell-fresh-pineapple-jam",
+     "miejsce": "krok 4",
+     "cytat": "Process 5 min.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Sure-Jell (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "87556c235108",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-874",
+   "twierdzenie": "Certo Mango Jam, składniki: 4 szklanki przygotowanego owocu (ok. 5 średnich w pełni dojrzałych mango, obranych, bez pestki, zmielonych lub rozgniecionych), 2 łyżki soku z cytryny (w źródle świeżego), 7 1/2 szklanki cukru, 1/2 łyżeczki masła, 2 saszetki pektyny płynnej Certo.",
+   "zrodla": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/504621-certo-mango-jam",
+     "miejsce": "składniki",
+     "cytat": "4 cups prepared fruit (about 5 medium fully ripe mangoes) 2 tbsp fresh lemon juice 7-1/2 cups sugar, measured into separate bowl",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Certo (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "80cf102ad5f7",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/504621-certo-mango-jam",
+     "miejsce": "składniki",
+     "cytat": "2 pouches CERTO Fruit Pectin",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Certo (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "80cf102ad5f7",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-875",
+   "twierdzenie": "Certo Mango Jam: odmierzyć dokładnie 4 szklanki owocu i wmieszać sok z cytryny; wmieszać cukier, pełne wrzenie, dodać pektynę, pełne wrzenie dokładnie 1 min; nalać do słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna 10 min.",
+   "zrodla": [
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/504621-certo-mango-jam",
+     "miejsce": "krok 2",
+     "cytat": "Measure exactly 4 cups prepared fruit into 6- or 8-qt. saucepot. Stir in lemon juice.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Certo (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "80cf102ad5f7",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/504621-certo-mango-jam",
+     "miejsce": "krok 4",
+     "cytat": "Ladle immediately into prepared jars, filling to within 1/4 inch of tops.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Certo (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "80cf102ad5f7",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://www.kraftheinz.com/sure-jell/recipes/504621-certo-mango-jam",
+     "miejsce": "krok 4",
+     "cytat": "Process 10 min.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Certo (Kraft Heinz USA), strona przepisu",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "80cf102ad5f7",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-876",
+   "twierdzenie": "USU Extension Pomegranate Jelly, składniki na 6 słoików 1/2 pinty: 3 1/2 szklanki soku z granatu (świeżego, mrożonego po rozmrożeniu albo butelkowanego), 1/4 szklanki soku z cytryny, 1 opakowanie (2 uncje) pektyny w proszku, 4 1/2 szklanki cukru.",
+   "zrodla": [
+    {
+     "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+     "miejsce": "Pomegranate Jelly, składniki",
+     "cytat": "3 1/2 cups pomegranate juice, fresh, frozen and thawed, or bottled 1/4 cup lemon juice",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Utah State University Extension (Preserve the Harvest)",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "11b984577c7f",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+     "miejsce": "składniki",
+     "cytat": "1 package (2 ounces) powdered pectin",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Utah State University Extension (Preserve the Harvest)",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "11b984577c7f",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+     "miejsce": "składniki",
+     "cytat": "4 1/2 cups sugar",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Utah State University Extension (Preserve the Harvest)",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "11b984577c7f",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+     "miejsce": "wydajność",
+     "cytat": "6 half-pint canning jars.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Utah State University Extension (Preserve the Harvest)",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "11b984577c7f",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-877",
+   "twierdzenie": "USU Pomegranate Jelly: sok z granatu, sok z cytryny i pektynę doprowadzić do wrzenia, wmieszać cukier, znów do wrzenia i gotować bez przykrycia 2 min; zebrać pianę, nalać do gorących słoików 1/2 pinty z ok. 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna, hot pack, 1/2 pinty: 5 min do 1000 stóp, powyżej +1 min na każde 1000 stóp.",
+   "zrodla": [
+    {
+     "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+     "miejsce": "procedura",
+     "cytat": "return to a boil and continue boiling, uncovered, stirring occasionally for 2 minutes.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Utah State University Extension (Preserve the Harvest)",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "11b984577c7f",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+     "miejsce": "procedura",
+     "cytat": "Pour hot jelly quickly into hot half pint jars, filling jars to within about 1/4 inch of tops.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Utah State University Extension (Preserve the Harvest)",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "11b984577c7f",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://extension.usu.edu/preserve-the-harvest/research/pomegranates.php",
+     "miejsce": "tabela",
+     "cytat": "Half Pints 5 min. Add 1 minute for each additional 1000 feet above 1000ft.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: Utah State University Extension (Preserve the Harvest)",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "11b984577c7f",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-878",
+   "twierdzenie": "Ball Elderberry Jelly (przedruk Penn State Extension, 2026): 650 g soku z czarnego bzu (ok. 3 szklanki), 62 g pektyny Ball Classic, 130 g butelkowanego soku z cytryny z koncentratu, 1100 g cukru; składniki trzeba ważyć, nie odmierzać szklanką, i użyć soku z cytryny z butelki (stała kwasowość); przepis opiera się na określonej proporcji cukru, soku z bzu i soku z cytryny.",
+   "zrodla": [
+    {
+     "adres": "https://extension.psu.edu/safe-elderberry-jelly-recipe-for-canning",
+     "miejsce": "składniki",
+     "cytat": "650 grams elderberry juice (about 3 cups) 62 grams Ball Classic pectin 130 grams bottled lemon juice from concentrate 1,100 grams sugar",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (nowy, opracowany przez zespół Ball) w przedruku Penn State Extension, akt. 18.06.2026",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "f72782ee4544",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://extension.psu.edu/safe-elderberry-jelly-recipe-for-canning",
+     "miejsce": "wstęp",
+     "cytat": "It is critical that the ingredients are weighed and not measured in measuring cups, and that bottled lemon juice is used, as it has a consistent acidity.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (nowy, opracowany przez zespół Ball) w przedruku Penn State Extension, akt. 18.06.2026",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "f72782ee4544",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  },
+  {
+   "id": "SLO-879",
+   "twierdzenie": "Ball Elderberry Jelly (przedruk Penn State): sok z gotowanych 5–10 min owoców (bez szypułek) odcedzić przez worek co najmniej 2 h; sok, sok z cytryny i pektynę zagotować, dodać cukier, pełne wrzenie 1 min; nalać do gorących słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna, słoiki 1/2 pinty 10 min, z korektą na wysokość (przedruk jej nie podaje).",
+   "zrodla": [
+    {
+     "adres": "https://extension.psu.edu/safe-elderberry-jelly-recipe-for-canning",
+     "miejsce": "przygotowanie",
+     "cytat": "let drip undisturbed for at least 2 hours or overnight.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (nowy, opracowany przez zespół Ball) w przedruku Penn State Extension, akt. 18.06.2026",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "f72782ee4544",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://extension.psu.edu/safe-elderberry-jelly-recipe-for-canning",
+     "miejsce": "wekowanie",
+     "cytat": "Ladle hot jelly into a hot jar leaving ¼-inch headspace.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (nowy, opracowany przez zespół Ball) w przedruku Penn State Extension, akt. 18.06.2026",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "f72782ee4544",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    },
+    {
+     "adres": "https://extension.psu.edu/safe-elderberry-jelly-recipe-for-canning",
+     "miejsce": "wekowanie",
+     "cytat": "Process half-pint jars 10 minutes, adjusting for altitude.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3,
+     "szczebel_uwaga": "szczebel 3: przepis Ball (nowy, opracowany przez zespół Ball) w przedruku Penn State Extension, akt. 18.06.2026",
+     "weryfikacja": "curl+h2t.py+grep (narz/sprawdz.mjs)",
+     "sha12": "f72782ee4544",
+     "kopia": "scratchpad sesji B23 (poza repo publicznym)"
+    }
+   ],
+   "status": "potwierdzone",
+   "krytyczne": true,
+   "uproszczenie": null,
+   "przeglad": null,
+   "wazne_do": null,
+   "klaster": "SLO"
+  }
+ ],
+ "niedostepne": [
+  {
+   "adres": "https://cdn.allotta.io/image/upload/v1726494349/dxp-images/brands/Brands%20Homepage/Sure-Jell/Sure-Jell_Original_Insert_ycd0n7.pdf",
+   "blad": "200, ale PDF to skan bez warstwy tekstowej (pdftotext pusty), brak OCR w środowisku — cytatu nie da się sprawdzić grep; kopia zrodla/A/sj-original-insert.pdf",
+   "warianty": [
+    "pear-v09",
+    "currant-v06"
+   ]
+  },
+  {
+   "adres": "https://cdn.allotta.io/image/upload/v1726494347/dxp-images/brands/Brands%20Homepage/Sure-Jell/MCP_Insert_o9yykr.pdf",
+   "blad": "jw. (skan bez tekstu); kopia zrodla/A/mcp-insert.pdf",
+   "warianty": [
+    "pear-v09"
+   ]
+  },
+  {
+   "adres": "https://cdn.allotta.io/image/upload/v1726494349/dxp-images/brands/Brands%20Homepage/Sure-Jell/Certo_Insert_zgro7i.pdf",
+   "blad": "jw. (skan bez tekstu); kopia zrodla/A/certo-insert.pdf",
+   "warianty": [
+    "currant-v06"
+   ]
+  },
+  {
+   "adres": "https://cdn.allotta.io/image/upload/v1726494347/dxp-images/brands/Brands%20Homepage/Sure-Jell/MCP_Insert_o9yykr.pdf",
+   "blad": "PDF pobrany (HTTP 200), ale to obraz bez warstwy tekstu — pdftotext pusty; bez OCR nie da się zacytować",
+   "warianty": [
+    "rhubarb-v07"
+   ]
+  },
+  {
+   "adres": "https://cdn.allotta.io/image/upload/v1726494349/dxp-images/brands/Brands%20Homepage/Sure-Jell/Sure-Jell_Original_Insert_ycd0n7.pdf",
+   "blad": "jw., obraz bez tekstu",
+   "warianty": [
+    "grapefruit-v07",
+    "orange-kumquat-v07"
+   ]
+  },
+  {
+   "adres": "https://cdn.allotta.io/image/upload/v1726494349/dxp-images/brands/Brands%20Homepage/Sure-Jell/Certo_Insert_zgro7i.pdf",
+   "blad": "jw., obraz bez tekstu",
+   "warianty": [
+    "grapefruit-v07"
+   ]
+  },
+  {
+   "adres": "https://www.canr.msu.edu/mi_fresh/uploads/files/2023%20Rhubarb_AA.pdf",
+   "blad": "zwraca stronę HTML (854 B) zamiast PDF",
+   "warianty": [
+    "rhubarb-v06"
+   ]
+  },
+  {
+   "adres": "https://cdn.allotta.io/image/upload/v1726494349/dxp-images/brands/Brands%20Homepage/Sure-Jell/Certo_Insert_zgro7i.pdf",
+   "blad": "wkładka-obraz bez warstwy tekstu (sprawdzone w zrodla/A/certo-insert.pdf.txt, 5 B); bez OCR nie da się zacytować „Hot Pepper” ani „Mango”",
+   "warianty": [
+    "chili-pepper-v12",
+    "mango-papaya-v09"
+   ]
+  },
+  {
+   "adres": "https://cdn.allotta.io/image/upload/v1726494347/dxp-images/brands/Brands%20Homepage/Sure-Jell/MCP_Insert_o9yykr.pdf",
+   "blad": "jw., obraz bez tekstu (Elderberry freezer jam)",
+   "warianty": [
+    "elderberry-elderflower-v08"
+   ]
+  },
+  {
+   "adres": "https://www.mrswages.com/recipes/apricot-jalapeno-jam/ ; https://www.mrswages.com/recipes/pineapple-coconut-jam/",
+   "blad": "nie pobierano — znana blokada (zlecenie)",
+   "warianty": [
+    "chili-pepper-v12",
+    "pineapple-banana-v06"
+   ]
+  }
+ ],
+ "decyzje_do_weta": [
+  {
+   "id": "B23-A-D1",
+   "pytanie": "apple-v11: arkusz UC MFP to adaptacja przepisu ze strony Ball (nie z książki z listy B14-D1) i NCHFP. Szczebel 3 (publikacja extension) czy 4 (E1: „faktycznie szczebel 4”)?",
+   "opcje": [
+    "3 — publikacja UC ANR",
+    "4 — adaptacja bez własnego testu"
+   ],
+   "wybor": "3, ale werdykt nie zależy od tego: galaretka wysokocukrowa z jabłek = niskie ryzyko, więc (c) daje ok-zrodlo także przy 4; czas karty wzięty jako najdłuższy z UC MFP, NCHFP i ACI-732."
+  },
+  {
+   "id": "B23-A-D2",
+   "pytanie": "pear-v09: czy gruszki (pH do 4,60, ACI-127; grupa III NCHFP) traktować jak owoc słabo kwaśny z B19-D1 (wysokie ryzyko, tylko 1–3)?",
+   "opcje": [
+    "tak — zalecana droga Ball/UC MFP (SLO-817/818) albo Sure-Jell bez imbiru (ACI-744); Certo UK (ACI-740) odpada",
+    "nie — droga B16 Certo UK zostaje dopuszczalna"
+   ],
+   "wybor": "tak (ostrożniej; pH gruszek wyższe niż czereśni, które B19-D1 już uznało za wysokie)."
+  },
+  {
+   "id": "B23-A-D3",
+   "pytanie": "pear-v09: polska nazwa dla „marmalade” ze skórką limonki („marmolada” po polsku zwykle znaczy gładki dżem).",
+   "opcje": [
+    "„marmolada gruszkowa z imbirem i skórką limonki”",
+    "„dżem gruszkowy z imbirem i limonką (ze skórką)”"
+   ],
+   "wybor": "pierwsza, z dopiskiem o paskach skórki — zgodna z typem przepisu źródła."
+  },
+  {
+   "id": "B23-A-D4",
+   "pytanie": "pear-v09: źródło Ball podaje 10 min bez poprawki na wysokość. Jaką tabelę dać na kartę?",
+   "opcje": [
+    "tabela ACI-732 (10 +5/+10/+15/+20)",
+    "tylko 0–1000 stóp i ostrzeżenie „wyżej — brak danych”"
+   ],
+   "wybor": "ACI-732 (najdłuższa dostępna; ta sama praktyka co B16/B19)."
+  },
+  {
+   "id": "B23-A-D5",
+   "pytanie": "apple-v12: CSU podaje 10 min powyżej 6000 stóp, NCHFP dla galaretki jabłkowej bez pektyny 15 min (ACI-492).",
+   "opcje": [
+    "15 min (dłuższy)",
+    "10 min (1:1 CSU)"
+   ],
+   "wybor": "15 min (reguła 5: dłuższy)."
+  },
+  {
+   "id": "B23-A-D6",
+   "pytanie": "strawberry-v07: jedna karta z dwiema recepturami czy podział na dwa warianty (C8-D11)?",
+   "opcje": [
+    "podział na dwa warianty",
+    "jedna karta, dwie wyraźnie oddzielne sekcje"
+   ],
+   "wybor": "podział (mniejsze ryzyko pomylenia pektyny, cukru i czasu)."
+  },
+  {
+   "id": "B23-B-D1",
+   "pytanie": "Ball Quick Lemon Ginger Marmalade (przedruk UCCE MFP) podaje 10 min bez korekty wysokości. Jaki czas powyżej 1000 stóp?",
+   "opcje": [
+    "+1 min na każde 1000 stóp (SLO-004, reguła NCHFP dla dżemów)",
+    "tabela Sure-Jell ACI-732 (+5/+10/+15/+20 min)",
+    "karta tylko do 1000 stóp"
+   ],
+   "wybor": "ACI-732 — dłuższy czas (reguła 5)"
+  },
+  {
+   "id": "B23-B-D2",
+   "pytanie": "rhubarb-v06: czy zamiana „syrop z rabarbaru” na „sok z rabarbaru z sokownika parowego, słodzony do smaku” (UC, SLO-052/202/203) to dopuszczalna zmiana wariantu, skoro syropu 1–3 nie ma?",
+   "opcje": [
+    "tak, ok-zrodlo-po-zmianie (sok UC)",
+    "nie, nie-publikowac-kandydat (syropu brak po przebiegu 2)",
+    "syrop NDSU/WSU „Syrups Made With Juice” (SLO-848) z sokiem z rabarbaru"
+   ],
+   "wybor": "sok UC (opcja 1); opcja 3 odrzucona — przepis stoi przy czeremsze i nie wymienia rabarbaru (reguła 4)"
+  },
+  {
+   "id": "B23-B-D3",
+   "pytanie": "rhubarb-v07: część pomarańczowa to nowy wariant — tworzyć czy porzucić?",
+   "opcje": [
+    "nowy wariant „dżem rabarbarowo-pomarańczowy” (SLO-840–842)",
+    "tylko rabarbar+truskawka, pomarańcza poza katalogiem"
+   ],
+   "wybor": "decyzja roli 03; źródło 1:1 jest"
+  },
+  {
+   "id": "B23-C-D1",
+   "pytanie": "NCHFP Fig Preserves podaje plasterki cytryny jako „optional”, a OSU (SLO-864) pisze, że każdy przepis na wekowanie fig powinien mieć dodatek kwasu. Czy na karcie JarAtlas cytryna ma być obowiązkowa?",
+   "opcje": [
+    "cytryna obowiązkowa (2 cytryny w plasterkach, jak w przepisie, bez pomijania)",
+    "cytryna opcjonalna jak w NCHFP",
+    "dodatkowo sok z cytryny w dawce dla fig w syropie (SLO-056) — zmiana przepisu, odrzucona (reguła 4)"
+   ],
+   "wybor": "cytryna obowiązkowa — ostrożniej, bez zmiany składu przepisu"
+  },
+  {
+   "id": "B23-C-D2",
+   "pytanie": "Sure-Jell Fresh Pineapple Jam: 5 min w kąpieli przy słoikach tylko umytych (SLO-873), a NCHFP wymaga sterylizacji słoików przy procesie 5 min (SLO-003).",
+   "opcje": [
+    "słoiki wysterylizowane + 5 min (SLO-003)",
+    "słoiki umyte + 10 min (jak NCHFP dla niesterylizowanych)",
+    "bez zmian wg Sure-Jell"
+   ],
+   "wybor": "słoiki wysterylizowane + 5 min; korekta wysokości ACI-732"
+  },
+  {
+   "id": "B23-C-D3",
+   "pytanie": "Certo Mango Jam podaje świeży sok z cytryny (SLO-874); mango ma pH do 4,8. Czy kartę pisać z sokiem butelkowanym?",
+   "opcje": [
+    "sok butelkowany (analogia do ACI-314: stała kwasowość)",
+    "świeży jak w źródle"
+   ],
+   "wybor": "butelkowany — ostrożniej; ta sama ilość 2 łyżki"
+  },
+  {
+   "id": "B23-C-D4",
+   "pytanie": "Korekta wysokości dla przepisów 1–3 bez własnej tabeli albo z regułą +1 min/1000 stóp (USU Pomegranate Jelly 5 min; Sure-Jell/Certo/PSU 10 min).",
+   "opcje": [
+    "dla 5 min: tabela NCHFP ACI-609 (5/10/15); dla 10 min: tabela Sure-Jell ACI-732 (+5/+10/+15/+20)",
+    "+1 min/1000 stóp (SLO-004)"
+   ],
+   "wybor": "opcja 1 — dłuższe czasy (reguła 5), spójnie z B23-B-D1"
+  },
+  {
+   "id": "B23-C-D5",
+   "pytanie": "Strony Kraft Heinz (Jalapeño Jelly, Mango Jam) nie podają wielkości słoika.",
+   "opcje": [
+    "tylko 1/2 pinty (najmniejszy słoik z tabel NCHFP dla dżemów/galaretek)",
+    "1/2 pinty lub pint"
+   ],
+   "wybor": "tylko 1/2 pinty — ostrożniej"
+  }
+ ],
+ "przeglad_D027d": {
+  "kto": "weryfikacja zastępcza (subagent Opus, effort medium, świeży kontekst), D-027 d",
+  "data": "2026-11-02",
+  "wyniki": [
+   {
+    "id": "SLO-800",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Składniki i wydajność (about 6 half-pints) zgodne z kopią.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-801",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Woda, 15 min, ostrzeżenie przed przegotowaniem, worek bez wyciskania zgodne.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-802",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Sterylizacja 10 min <1000 ft +1 min/1000 ft, 1 min wrzenia, 1/4 cala zgodne.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-803",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "5 min + korekta wysokości; 10 min przy słoikach niesterylnych zgodne.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-804",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Notka Source zgodna; brak opisu testu to stwierdzenie braku, nie dodatek.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-805",
+    "werdykt": "CZĘŚCIOWO",
+    "poziom": "P3",
+    "uwaga": "Kopia nie mówi nic o sterylizacji słoików („Fill hot jars”); „słoiki bez sterylizacji” to wniosek z czasu ≥10 min, nie treść źródła. Reszta (4 szklanki soku, masło 1/4–1/2 łyżeczki opcjonalnie, 1/4 cala, 10/15/20 min, 1/2 pinty) zgodna.",
+    "poprawka": "zamiast „słoiki bez sterylizacji” → „źródło nie wspomina o sterylizacji słoików (czas procesu ≥10 min)”",
+    "poprawka_wprowadzona": true
+   },
+   {
+    "id": "SLO-806",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Zgodne. Uwaga: 8 uncji ≈ 237 ml; „ok. 250 ml” to przybliżenie w górę, nieistotne bezpieczeństwowo (tabela obejmuje też pinty).",
+    "poprawka": null,
+    "poprawka_wprowadzona": true
+   },
+   {
+    "id": "SLO-807",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "1/4 szklanki cukru z pektyną, dokładnie 1 min, 1/4 cala zgodne.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-808",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Tabela 1: Hot, Half-pints or Pints, 10/15/20 zgodna.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-809",
+    "werdykt": "CZĘŚCIOWO",
+    "poziom": "P3",
+    "uwaga": "Atrybucja do wkładki Sure-Jell Less Sugar Needed zgodna; zdanie „tylko z tą pektyną, nie ze zwykłą” nie występuje w kopii (wniosek autora, merytorycznie słuszny).",
+    "poprawka": "„…; przepis używa pektyny Less Sugar Needed (źródło nie podaje wersji ze zwykłą pektyną).”",
+    "poprawka_wprowadzona": true
+   },
+   {
+    "id": "SLO-810",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Składniki i 2 szklanki rabarbaru w 4 szklankach mieszanki zgodne; 1 lb ≈ 454 g, „ok. 450 g” dopuszczalne.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-811",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Zgodne. Kopia nie podaje korekty wysokości; dla spójności z SLO-818/845 można dopisać „(wysokość n.p.m. niepodana)”.",
+    "poprawka": null,
+    "poprawka_wprowadzona": true
+   },
+   {
+    "id": "SLO-812",
+    "werdykt": "CZĘŚCIOWO",
+    "poziom": "P3",
+    "uwaga": "Składniki, wydajność, kolejność (pektyna po zdjęciu z ognia), sterylne słoiki, 1/4 cala zgodne w obu kopiach. Atrybucję do USDA HG-56 podaje tylko WSU i to jako „adapted from”; NDSU jej nie podaje.",
+    "poprawka": "„(przepis USDA HG-56)” → „(WSU: adaptacja z USDA HG-56)”",
+    "poprawka_wprowadzona": true
+   },
+   {
+    "id": "SLO-813",
+    "werdykt": "CZĘŚCIOWO",
+    "poziom": "P3",
+    "uwaga": "WSU 5/10/15 zgodne. Dla NDSU podano „5 / 10 min” bez zakresów; tabela 3 ma tylko 0–1000 i 1001–6000 stóp (brak wiersza >6000). Słoiki niesterylne 10 min zgodne.",
+    "poprawka": "„NDSU tabela 3 … 5 / 10 min (0–1000 / 1001–6000 stóp; brak czasu powyżej 6000)…”",
+    "poprawka_wprowadzona": true
+   },
+   {
+    "id": "SLO-814",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Ilości, proporcja dojrzałości, wydajność 5–6 słoików zgodne; 3 lb ≈ 1,36 kg.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-815",
+    "werdykt": "CZĘŚCIOWO",
+    "poziom": "P3",
+    "uwaga": "Zgodne poza skrótem: kopia mówi „8 degrees F above the boiling point at your elevation”; w zdaniu brak „na danej wysokości”. Kopia podaje też test zamrażarkowy (pominięcie dopuszczalne). 8 °F = 4,4 °C poprawnie.",
+    "poprawka": "„do 8 °F (ok. 4,4 °C) powyżej temperatury wrzenia wody na danej wysokości”",
+    "poprawka_wprowadzona": true
+   },
+   {
+    "id": "SLO-816",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Tabela 5/10/10 i warunek sterylizacji <10 min zgodne.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-817",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Składniki, wydajność 4 słoiki 8 uncji, wariant cytryny/pomarańcza zgodne.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-818",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "1 h, 15 min wrzenia, ok. 5 min do żelowania, 1/4 cala, 10 min, brak korekty wysokości zgodne.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-840",
+    "werdykt": "CZĘŚCIOWO",
+    "poziom": "P3",
+    "uwaga": "Ilości i wydajność zgodne (2,5 lb ≈ 1,13 kg). „(w proszku)” nie występuje w kopii, która mówi tylko „Ball Classic Pectin”.",
+    "poprawka": "usunąć „(w proszku)” albo oznaczyć jako dopowiedzenie redakcji",
+    "poprawka_wprowadzona": true
+   },
+   {
+    "id": "SLO-841",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Przygotowanie zgodne; 1/2 cala ≈ 1,3 cm; kopia: „Skim foam if necessary”.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-842",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Sterylizacja, 1/4 cala, 10 min +1 min/1000 ft, 10 min dla niesterylnych zgodne. Cytaty z kroku 5, 6 i Note różnią się od kopii tylko znakiem łącznika U+2010 i ligaturą „ﬁ” — po normalizacji NFKC obecne.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-843",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Składniki i wydajność zgodne („21/2”, „61/2” w kopii = 2 1/2, 6 1/2).",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-844",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Kroki 2–5 zgodne.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-845",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Krok 6–7 zgodne; brak korekty wysokości poprawnie zaznaczony.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-846",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Składniki, wydajność 8–9, tylko Concord, usuwanie pestek przez sito zgodne.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-847",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "9 °F = 5 °C; orzechy na końcu, sterylne słoiki, 1/4 cala, 5/10/15 zgodne.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-848",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Składniki, 2 min, 1/2 cala, tabela 5 (Syrup Hot 1/2 pinty lub pinty 10/10) i podpis WSU zgodne; przepis nie wymienia rabarbaru.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-860",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-861",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny. Przeliczenie 1/4 cala ≈ 0,6 cm poprawne; 'wysterylizowanych' zgodne z krokiem 'Sterilize canning jars'.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-862",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-863",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny. Pominięto zbieranie piany i studzenie przed lodówką; nie zmienia bezpieczeństwa.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-864",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-865",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-866",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-867",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-868",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny. Tabela podaje wyłącznie słoiki 1/2 pinty, więc 'tylko' jest uprawnione; 220 °F ≈ 104 °C poprawne.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-869",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-870",
+    "werdykt": "CZĘŚCIOWO",
+    "poziom": "P3",
+    "uwaga": "Cytaty dosłownie w kopii, szczebel 3 OK. Źródło nie oznacza masła jako opcjonalnego ('Add butter to reduce foaming'); 'nieprzecedzona' to trafny wniosek, ale nie słowa źródła. 5% kwasowości octu pochodzi z bloku produktu na stronie, nie z listy składników.",
+    "poprawka": "'1/2 łyżeczki masła (opcjonalnie, przeciw pianie)' → '1/2 łyżeczki masła (przeciw pianie)'",
+    "poprawka_wprowadzona": true
+   },
+   {
+    "id": "SLO-871",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-872",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-873",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny. Opis braku sterylizacji przy 5 min jest wierny źródłu (to stan źródła, nie zalecenie USDA).",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-874",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-875",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-876",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-877",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny. Tabela USU: tylko 1/2 pinty, hot; dla ponad 1000 stóp +1 min na każde dodatkowe 1000 stóp. Ta sama strona (przy tabeli soku) wymaga sterylizacji słoików przy czasie poniżej 10 min; twierdzenie tego nie przeczy, ale warto to dodać na karcie.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-878",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   },
+   {
+    "id": "SLO-879",
+    "werdykt": "POPARTE",
+    "poziom": null,
+    "uwaga": "Cytaty dosłownie w kopii; liczby, wolna przestrzeń, czasy i wysokości zgodne; szczebel zgodny. Przedruk rzeczywiście nie zawiera tabeli korekty wysokości.",
+    "poprawka": null,
+    "poprawka_wprowadzona": false
+   }
+  ]
+ }
+}
