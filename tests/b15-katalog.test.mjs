@@ -40,10 +40,14 @@ const POLA = Object.fromEntries([
   ...Object.keys(HOLD).map((id) => [id, ['publicationHold', 'notes', ...(NAZWY[id] ? ['name'] : []), ...(id === 'wild-garlic-v07' ? ['safetyStatus'] : [])]]),
   ...NOTA.map((id) => [id, ['notes']]),
 ]);
+// B17 (2026-11-02-jaratlas-b17-katalog) zmienia te warianty po wpisie twierdzeń C12 do rejestru; ich pola (poza listą B17) przypina skrót stanu 1.0.11
+// w tests/b17-katalog.test.mjs, więc tu skrót B15 jest pomijany (wzór B15_OK w testach B12/B13).
+const B17 = new Set(['lemon-v12', 'orange-kumquat-v11', 'grapefruit-v06', 'lemon-v13', 'lemon-v15', 'orange-kumquat-v14', 'grapefruit-v09', 'poultry-v14',
+  'peach-nectarine-v01', 'wild-garlic-v07', 'rosehip-rowan-v02', 'rosehip-rowan-v07', 'wild-garlic-v09', 'raspberry-blackberry-v15']);
 const SNAP = {"turnip-rutabaga-v10":"5ab4236b5bb9","celeriac-celery-v11":"5a2fb4106535","sour-cherry-v16":"51738d1c6120","apricot-v14":"5cb658d44985","leek-chives-v04":"0add7a32dc70","apricot-v08":"979cfe7d64bb","corn-v09":"2679b9d33ce3","plum-v14":"b231f3437679","currant-v13":"9a2ffc1c8356","currant-v10":"b4ab5b7ce402","grapes-v07":"99f7ec809b0a","raspberry-blackberry-v07":"e8796d463f94","wild-garlic-v07":"cf981b958ab9","peach-nectarine-v01":"f9c9dff0e482","lemon-v13":"5baf6a3c7cce","lemon-v15":"28ed9500e863","orange-kumquat-v14":"ef7a077d0f37","grapefruit-v09":"0bf1c2aa60f0","poultry-v14":"211dae92480c","wild-garlic-v09":"5b03cfc30629","currant-v11":"741e41ea8c65","apple-v11":"2dafe4a256ad","lemon-v12":"8813d20a7e2a","orange-kumquat-v11":"f4721f42752d","olives-v14":"c687ae513fe8","rosehip-rowan-v02":"aa1e64bbb360","rosehip-rowan-v07":"12f72cfe0d1d","rhubarb-v07":"fa7b61a8fbd0","lemon-v11":"21352862d35c","peach-nectarine-v10":"8ceeabcc5d5b","mustard-v10":"3ef7ace8be34","shallot-pearl-onion-v10":"249c419d0c07","raspberry-blackberry-v15":"a5f3ba345ec5","grapefruit-v06":"16a13ec99701"};
 
 test('B15: katalog 1.0.11 przechodzi walidację bez błędów', () => {
-  assert.equal(cat.version, '1.0.11');
+  assert.ok(cat.version.split('.').map(Number).reduce((a, n) => a * 1000 + n) >= 1000011, `wersja ${cat.version} co najmniej 1.0.11 (B17: 1.0.12)`);
   assert.deepEqual(validateCatalog(cat, rej).errors, []);
 });
 
@@ -98,11 +102,11 @@ test('B15: poza polami z listy warianty B15 bez cichych zmian (skrót stanu sprz
   assert.deepEqual(Object.keys(SNAP).sort(), Object.keys(POLA).sort());
   for (const [id, keys] of Object.entries(POLA)) {
     const v = V.get(id);
-    assert.equal(h(bez(v, keys)), SNAP[id], `${id}: pola poza ${keys.join(', ')} bez zmian`);
+    if (!B17.has(id)) assert.equal(h(bez(v, keys)), SNAP[id], `${id}: pola poza ${keys.join(', ')} bez zmian`);
     assert.equal(v.publication, 'ukryta', id);
     if (NOTA.includes(id)) assert.ok(nota(id), `${id}: notatka [B15]`);
   }
-  assert.equal(V.get('wild-garlic-v07').safetyStatus, 'do-researchu', 'SUS-338: wariant ostrożniejszy (bez karty i slugu)');
+  assert.notEqual(V.get('wild-garlic-v07').safetyStatus, 'ok-zrodlo', 'SUS-338: wariant ostrożniejszy (B15 do-researchu, B17 ryzyko-wysokie)');
   assert.equal(V.get('currant-v11').safetyStatus, 'do-researchu', 'ACI-610 nie wymienia porzeczek');
   assert.equal(V.get('olives-v14').safetyStatus, 'do-researchu');
 });

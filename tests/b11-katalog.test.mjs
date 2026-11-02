@@ -29,7 +29,9 @@ const WYCOFANE = {
 // B11-D2: peach-nectarine-v01 (C9-D6, ok-zrodlo na jednym źródle szczebla 3) zostaje do-researchu do czasu weta.
 const ZOSTAJA = ['plum-v11', 'blueberry-bilberry-v06', 'blueberry-bilberry-v12', 'currant-v11', 'blueberry-bilberry-v10', 'rhubarb-v06',
   'cranberry-lingonberry-v11', 'cornelian-cherry-v08', 'chokeberry-seabuckthorn-v09', 'grapefruit-v07', 'raspberry-blackberry-v10', 'gooseberry-v08',
-  'orange-kumquat-v09', 'grapes-v08', 'pear-v09', 'apple-v12', 'quince-v09', 'gooseberry-v10', 'cultivated-mushrooms-v01', 'european-mixed-veg-v01', 'peach-nectarine-v01'];
+  'orange-kumquat-v09', 'grapes-v08', 'pear-v09', 'apple-v12', 'quince-v09', 'gooseberry-v10', 'cultivated-mushrooms-v01', 'european-mixed-veg-v01'];
+// B17: C9-D6 bez weta na tablicy → peach-nectarine-v01 ok-zrodlo (tylko pint); stan pilnuje tests/b17-katalog.test.mjs.
+const B17 = new Set(['peach-nectarine-v01']);
 const NOWE = Array.from({ length: 47 }, (_, i) => `ACI-${600 + i}`);
 const ROBOCZE = ['ACI-631', 'ACI-639']; // po dwóch przebiegach D-027 nadal CZĘŚCIOWO (wady cytatów); bez trzeciego przebiegu (wzór B10-D4)
 
@@ -41,7 +43,7 @@ test('B11: katalog co najmniej 1.0.8', () => {
 });
 
 test('B11: 42 warianty C9 rozliczone dokładnie raz, ukryte, z notatką [B11]', () => {
-  const wszystkie = [...Object.keys(RYZYKO), ...Object.keys(WYCOFANE), ...ZOSTAJA];
+  const wszystkie = [...Object.keys(RYZYKO), ...Object.keys(WYCOFANE), ...ZOSTAJA, ...B17];
   assert.equal(wszystkie.length, 42);
   assert.equal(new Set(wszystkie).size, 42);
   assert.deepEqual([...wszystkie].sort(), c9.warianty.map((w) => w.wariant).sort());
@@ -84,7 +86,7 @@ test('B11: 6 duplikatów C9-D7 wycofanych z następcą, następca żywy', () => 
 test('B11: reszta zostaje do-researchu bez zmiany claims, sources i nazwy (w tym peach-nectarine-v01, B11-D2)', () => {
   // Skrót sha256 (12 znaków) z [claims, sources, name] w katalogu 1.0.7 (accaeb3), przed B11.
   const PRZED = {"plum-v11":"978cf74e6fda","blueberry-bilberry-v06":"c4424f9bda80","blueberry-bilberry-v12":"603ab230fc9c","currant-v11":"cf012b179bc3","blueberry-bilberry-v10":"5cb5ffa3a470","rhubarb-v06":"105db79e1948","cranberry-lingonberry-v11":"ec14442d2b6f","cornelian-cherry-v08":"c291af2aa246","chokeberry-seabuckthorn-v09":"b900643c44bf","grapefruit-v07":"e4c627c98402","raspberry-blackberry-v10":"2bba94e61c0c","gooseberry-v08":"259de2a9a45e","orange-kumquat-v09":"38111691c16e","grapes-v08":"8f870c702d14","pear-v09":"e2f8027a6271","apple-v12":"36dc79727a5d","quince-v09":"cefb4c7d2333","gooseberry-v10":"da1d2569bd17","cultivated-mushrooms-v01":"05802a9bea05","european-mixed-veg-v01":"815ffb6f738f","peach-nectarine-v01":"873f46122f23"};
-  assert.deepEqual(Object.keys(PRZED).sort(), [...ZOSTAJA].sort());
+  assert.deepEqual(Object.keys(PRZED).sort(), [...ZOSTAJA, ...B17].sort()); // B17: skrót sprzed B11 zostaje jako zapis historii
   for (const id of ZOSTAJA) {
     const v = V.get(id);
     assert.equal(v.safetyStatus, 'do-researchu', id);
