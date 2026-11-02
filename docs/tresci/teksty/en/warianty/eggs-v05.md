@@ -4,7 +4,7 @@ There is no recipe here for Chinese salted duck or hen eggs kept in brine (xian 
 
 ## !
 
-- Eggs are a low-acid food (pH 6.4–9.0), and vinegar may not penetrate every part of the egg. [T:MIE-087]
+- According to the NCHFP, eggs are a low-acid food (pH 6.4–9.0); in pickled eggs, vinegar may not reach every part of the egg. [T:MIE-087]
 - According to the NCHFP, never keep pickled eggs at room temperature except when serving, and then for no more than 2 hours in the 40–140 °F zone. [T:MIE-084]
 
 ## Why

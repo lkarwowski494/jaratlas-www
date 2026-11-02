@@ -12,6 +12,6 @@ There is no recipe here for pork belly rolled up, cured and smoked (Polish bocze
 
 According to University of Missouri Extension, bacon cured and smoked at home by its method is perishable: keep it in the freezer or refrigerator until you eat it. [T:MIE-019]
 
-The guides JarAtlas has checked describe flat pieces of bacon, not a rolled belly. [T:-]
+JarAtlas has found no checked guide that covers a rolled belly. [T:-]
 
 JarAtlas has found no tested home recipe for rolled smoked bacon from a checked source. [T:-]

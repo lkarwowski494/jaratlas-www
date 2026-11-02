@@ -11,4 +11,6 @@ There is no recipe here for a traditional ham cured in brine, smoked over alder 
 
 According to Oklahoma State University Extension, a ham cured and smoked to 142 °F inside needs further cooking at home, and the publication gives no final internal temperature for a home-cured ham. [T:MIE-161]
 
+The UGA rule in the warning above is for products made from ground meat, not for a whole ham. [T:-]
+
 JarAtlas has found no tested home recipe for a brine-cured, smoked and cooked ham from a checked source. [T:-]

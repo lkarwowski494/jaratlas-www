@@ -10,6 +10,6 @@ There is no recipe here for ham sausage cooked in water in a plastic barrier cas
 
 ## Why
 
-Without a checked source, JarAtlas cannot say how long it keeps or how to store it. [T:-]
+Without a checked source, JarAtlas cannot say how long it keeps, even in the refrigerator. [T:-]
 
 JarAtlas has found no tested home recipe for ham sausage cooked in a barrier casing from a checked source. [T:-]

@@ -9,6 +9,10 @@ There is no recipe here for pork belly cooked in a broth of onion skins (Polish 
 
 ## Why
 
-Without a checked source, JarAtlas cannot say how long it keeps or how to store it. [T:-]
+The UGA rule in the warning above is for products made from ground meat, not for a whole piece of bacon. [T:-]
+
+According to an Oregon State University Extension guide, cured bacon must be cooked or hot-smoked, in a smoker-grill or in an oven set above 160 °F, until the inside of the bacon reaches that same temperature, about 71 °C. [T:MIE-156]
+
+Without a checked source, JarAtlas cannot say how long it keeps, even in the refrigerator. [T:-]
 
 JarAtlas has found no tested home recipe for bacon cooked in onion skins from a checked source. [T:-]

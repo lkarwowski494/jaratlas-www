@@ -9,6 +9,6 @@ There is no recipe here for a pâté of smoked trout sealed under butter (Polish
 
 ## Why
 
-Without a checked source, JarAtlas cannot say how long it keeps or how to store it. [T:-]
+Without a checked source, JarAtlas cannot say how long it keeps, even in the refrigerator. [T:-]
 
 JarAtlas has found no tested home recipe for smoked trout pâté under butter from a checked source. [T:-]
