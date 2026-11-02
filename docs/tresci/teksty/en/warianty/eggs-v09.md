@@ -1,0 +1,13 @@
+# Eggs stored in limewater (water glassing): why there is no recipe here
+
+There is no recipe here for storing fresh, unwashed eggs in limewater in the pantry (water glassing). [T:-]
+
+## !
+
+- Utah State University Extension says that storing eggs by water glassing, an old method, is unsafe. [T:MIE-093]
+
+## Why
+
+JarAtlas has found no checked source that supports storing eggs this way. [T:-]
+
+JarAtlas has a card for frozen eggs. [T:-]

@@ -42,9 +42,9 @@ export const WSPOLNE = {
   'SLO-068': ['refrigerator', 'water-bath'], // p36: karty-ostrzeżenia słodkich przetworów lodówkowych (requiredWarnings albo uzasadnienie „Why”) obok kart innej metody
   'SLO-024': ['refrigerator', 'dry-storage'], // p36: karty-ostrzeżenia słodkich przetworów lodówkowych (requiredWarnings albo uzasadnienie „Why”) obok kart innej metody
   'SLO-025': ['refrigerator', 'dry-storage'], // p36: karty-ostrzeżenia słodkich przetworów lodówkowych (requiredWarnings albo uzasadnienie „Why”) obok kart innej metody
-  'OLE-024': ['water-bath', 'refrigerator'], // ogniska jadu kiełbasianego z warzyw w oleju: karty-ostrzeżenia bakłażana eggplant-v04 (kąpiel) i v02 (lodówka), p36
+  'OLE-024': ['brak', 'freezer', 'refrigerator', 'water-bath'], // ogniska jadu kiełbasianego z warzyw w oleju: karty-ostrzeżenia bakłażana eggplant-v04 (kąpiel) i v02 (lodówka), p36; p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 (reguła ogólna metody)
   'OLE-025': ['water-bath', 'refrigerator'], // Włochy 1993, bakłażan w oleju (MMWR): eggplant-v04 i v02, p36
-  'OLE-028': ['water-bath', 'refrigerator'], // brak zwalidowanych procesów dla warzyw w oleju w domu: eggplant-v04 (kąpiel) i karty oleju B27 (lodówka), p36
+  'OLE-028': ['brak', 'freezer', 'refrigerator', 'water-bath'], // brak zwalidowanych procesów dla warzyw w oleju w domu: eggplant-v04 (kąpiel) i karty oleju B27 (lodówka), p36; p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 (reguła ogólna metody)
   'OLE-082': ['refrigerator', 'cool-storage'], // tłuszcz z wilgotnymi dodatkami: karty smalcu B27 (lodówka i chłodne miejsce), p36
   'OLE-084': ['refrigerator', 'cool-storage'], // karty smalcu i tłuszczów B27, p36
   'OLE-085': ['refrigerator', 'cool-storage'], // karty smalcu i tłuszczów B27, p36
@@ -69,8 +69,8 @@ export const WSPOLNE = {
   'ACI-179': ['water-bath', 'pressure-canning'], // reguła JarAtlas: tabela tylko do pinty → słoik do 473 ml; p37 kukurydza kremowa (corn-v08, tylko pint)
   'SZY-004': ['pressure-canning', 'brak'], // przetrwalniki trudno zniszczyć we wrzątku: pełne karty szybkowaru (p37) i karty-ostrzeżenia metody nieustalonej
   'SZY-009': ['pressure-canning', 'brak'], // tyndalizacja zawodna: wymagane ostrzeżenie kart szybkowaru (dawna tyndalizacja w nazwie v0, p37) i karty-ostrzeżenia metody nieustalonej
-  'SZY-001': ['pressure-canning', 'brak'], // szybkowar dla żywności niskokwasowej: sea-fish-v14 (szybkowar) i karty grzybów w słoikach (metoda nieustalona), p36
-  'SZY-006': ['pressure-canning', 'brak'], // jw., p36
+  'SZY-001': ['brak', 'none', 'pressure-canning', 'refrigerator'], // szybkowar dla żywności niskokwasowej: sea-fish-v14 (szybkowar) i karty grzybów w słoikach (metoda nieustalona), p36; p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 (reguła ogólna metody)
+  'SZY-006': ['brak', 'low-temp-pasteurization', 'none', 'pressure-canning'], // jw., p36; p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 (reguła ogólna metody)
   'SZY-013': ['pressure-canning', 'brak'], // jw., p36
   'ACI-030': ['water-bath', 'brak'], // NCHFP: nie wekować grzybów dzikich: karty-ostrzeżenia grzybów w occie (kąpiel) i w słoikach (metoda nieustalona), p36
   'SUS-035': ['dry-storage', 'brak', 'water-bath', 'freezer'], // toksyny grzybów: karty suszenia grzybów (p28) i karta-ostrzeżenie kapusty z grzybami (white-cabbage-v13, metoda nieustalona)
@@ -78,7 +78,7 @@ export const WSPOLNE = {
   'OLE-019': ['freezer', 'refrigerator', 'cool-storage'], // oleje z niezakwaszonymi ziołami nie w temperaturze pokojowej: karty mrożenia garlic-v09/v10 i wymagane ostrzeżenie leek-chives-v08 (p32); p37: wymagane ostrzeżenie garden-herbs-v06
   'OLE-020': ['dry-storage', 'refrigerator', 'cool-storage'], // suszone zioła nie zabezpieczają oleju: susz czosnku garlic-v15 i olej szczypiorkowy leek-chives-v08 (p32); p37: olej garden-herbs-v06
   'OLE-023': ['freezer', 'refrigerator', 'cool-storage'], // warunki toksyny botulinowej w oleju: karty mrożenia ziół/warzyw w oleju i olej lodówkowy leek-chives-v08 (p32); p37: olej garden-herbs-v06
-  'OLE-027': ['freezer', 'refrigerator', 'water-bath', 'cool-storage'], // zagrożenia nie widać, nie czuć: karty mrożenia w oleju, olej lodówkowy leek-chives-v08 (p32) i wymagane ostrzeżenie karty-ostrzeżenia eggplant-v04 (p34, B21; zdanie niezależne od metody); p37: olej garden-herbs-v06
+  'OLE-027': ['brak', 'cool-storage', 'freezer', 'refrigerator', 'water-bath'], // zagrożenia nie widać, nie czuć: karty mrożenia w oleju, olej lodówkowy leek-chives-v08 (p32) i wymagane ostrzeżenie karty-ostrzeżenia eggplant-v04 (p34, B21; zdanie niezależne od metody); p37: olej garden-herbs-v06; p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 (reguła ogólna metody)
   // p37 (autor C): oliwa rozmarynowo-czosnkowa garden-herbs-v06 ma w katalogu metodę cool-storage, a karta idzie za regułą B24-R1 (lodówka, następny dzień) jak oleje lodówkowe leek-chives-v08/wild-garlic-v09
   'OLE-014': ['freezer', 'cool-storage'], // roztworu kwasu cytrynowego nie zastępować octem ani sokiem z cytryny: pasty z olejem (mrożenie) i olej garden-herbs-v06 (p37)
   'OLE-018': ['refrigerator', 'cool-storage'], // metoda UGA z olejem 180 °F, lodówka: oleje lodówkowe i garden-herbs-v06 (p37)
@@ -100,6 +100,24 @@ export const WSPOLNE = {
   'SLO-433': ['freezer', 'refrigerator'], // karty mrożenia i gravlax sea-fish-v01 w lodówce (p35)
   'MLE-021': ['refrigerator', 'dry-storage'], // fermentowane mleko pH 4,6 lub niżej w 48 h: karta-ostrzeżenie kashk yogurt-skyr-v11 (suszenie) i jogurty lodówkowe yogurt-skyr-v01/v02/v04 (p35)
   'SLO-036': ['water-bath', 'dry-storage', 'refrigerator'], // miód a niemowlęta poniżej 12 miesięcy (FDA): mus dla niemowląt peach-nectarine-v12 (p29) i skóra z mango z miodem mango-papaya-v10 (p30, D4-7-02)
+  'MIE-033': ['dry-storage', 'refrigerator'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'MIE-043': ['dry-storage', 'refrigerator'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'MIE-061': ['dry-storage', 'refrigerator'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'MIE-067': ['dry-storage', 'refrigerator'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'MIE-070': ['dry-storage', 'refrigerator'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'OLE-016': ['brak', 'refrigerator'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'OLE-026': ['brak', 'freezer'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'OLE-041': ['brak', 'freezer'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'OLE-048': ['freezer', 'refrigerator'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'SLO-061': ['refrigerator', 'water-bath'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'SLO-062': ['refrigerator', 'water-bath'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'SZY-007': ['brak', 'low-temp-pasteurization', 'pressure-canning'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'SZY-014': ['brak', 'refrigerator'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'SZY-015': ['brak', 'water-bath'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'SZY-022': ['brak', 'pressure-canning'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'SZY-024': ['brak', 'pressure-canning'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'SZY-025': ['brak', 'pressure-canning'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
+  'SZY-026': ['brak', 'water-bath'], // p38: wymagane ostrzeżenie albo kontekst kart-ostrzeżeń B29 przy kilku metodach (twierdzenie niezależne od metody)
 };
 
 const ZNACZNIK = /\[T:([^\]]*)\]/g;

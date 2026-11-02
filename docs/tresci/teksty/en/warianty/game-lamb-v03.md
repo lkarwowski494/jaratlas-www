@@ -1,0 +1,17 @@
+# Dry-aged raw venison loin: why there is no recipe here
+
+There is no recipe here for raw red deer or roe deer loin that is aged or cured dry and eaten without cooking. [T:-]
+
+## !
+
+- According to the EU, freezing under the recommended conditions kills parasites, but some Trichinella species found in game animals and horses are resistant to it. [T:MIE-033]
+- In the EU, meat from horses, wild game and other animals that could carry Trichinella must be examined for this parasite. [T:MIE-034]
+- NCHFP says it is best not to make jerky from game meat soiled by gut contents, and to use such meat only in ways that it will be thoroughly cooked. [T:MIE-043]
+
+## Why
+
+JarAtlas has no home method to test game meat for Trichinella. [T:-]
+
+JarAtlas has found no tested home recipe for dry-aged raw venison loin from a checked source. [T:-]
+
+JarAtlas has a card for venison jerky with a heating step. [T:-]

@@ -1,0 +1,16 @@
+# Chili peppers in honey: why there is no recipe here
+
+There is no recipe here for raw chili peppers kept in honey in the refrigerator. [T:-]
+
+## !
+
+- K-State says fermenting garlic in raw honey is risky: garlic is a low-acid food, honey varies from low to high acidity, and botulism has occurred in garlic in oil. [T:SLO-037]
+- Honey should not be fed to infants under 12 months of age: it is the one dietary source of Clostridium botulinum spores linked to infant botulism by both laboratory and epidemiologic studies. [T:SLO-036]
+
+## Why
+
+JarAtlas treats chili peppers in honey with the same caution as garlic in honey. [T:-]
+
+JarAtlas has found no tested home recipe for chili peppers in honey from a checked source. [T:-]
+
+JarAtlas has a card for pickled hot peppers. [T:-]
