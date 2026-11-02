@@ -1,0 +1,59 @@
+{
+  "opis": "Lista przeniesienia JarAtlas do czystego repo (tylko podgląd). Dokument: docs/wydanie/10-przeniesienie-czyste-repo.md. Wzór: trening scripts/przeniesienie-1.0.json. Akcje: zostaje (domyślnie), usun, dysk, decyzja, popraw. Numer D w powodzie = decyzja w dokumencie (pkt 2).",
+  "wpisy": [
+    { "sciezka": "docs/archiwum/", "akcja": "dysk", "powod": "D2: raporty stanu sesji (ID sesji, przebieg pracy); historia zostaje w prywatnym archiwum i na Dysku" },
+    { "sciezka": "docs/STAN-SESJI.md", "akcja": "popraw", "powod": "D2: nowe repo dostaje świeży, krótki stan od dnia przeniesienia, bez ID sesji" },
+    { "sciezka": "docs/sztafeta.md", "akcja": "popraw", "powod": "D2: świeża tabela sztafety od przeniesienia (stara: kopia na Dysk w dniu przeniesienia)" },
+    { "sciezka": "docs/jakosc/", "akcja": "dysk", "powod": "D3: raporty audytu i dowody 07 (login właściciela, ścieżki sesji); w repo zostają testy, które je zastępują" },
+    { "sciezka": "docs/lokalizacja/", "akcja": "dysk", "powod": "D3: kosztorys przekładu (budżet, robocze szacunki); odnośniki w kodzie przepisane na „Dysk: …”" },
+    { "sciezka": "docs/tresci/E0-rozpoznanie-2026-11-01.md", "akcja": "popraw", "powod": "D4: raport zostaje (pochodzenie treści, D-027), usunąć ID sesji z nagłówka (zamiana niżej)" },
+    { "sciezka": "docs/architektura/E0-rozpoznanie-2026-11-01.md", "akcja": "popraw", "powod": "D5: identyfikator tablicy decyzji zamieniony na opis (zamiana niżej)" },
+    { "sciezka": "CLAUDE.md", "akcja": "popraw", "powod": "D5: zostaje po przeglądzie: stan projektu od przeniesienia, bez odwołań do usuniętych dokumentów; identyfikator tablicy zostaje (potrzebny sesjom)" },
+    { "sciezka": ".gitignore", "akcja": "popraw", "powod": "D8: obejmuje .env (zrobione w tym repo 2026-11-02, przechodzi bez zmian)" },
+    { "sciezka": "docs/wydanie/10-przeniesienie-czyste-repo.md", "akcja": "usun", "powod": "narzędzie jednorazowe; po przeniesieniu zbędne (wzór trening docs/46)" },
+    { "sciezka": "docs/wydanie/dowody/", "akcja": "usun", "powod": "dowody podglądu narzędzia jednorazowego (wyniki z dnia przygotowania)" },
+    { "sciezka": "tools/przeniesienie.mjs", "akcja": "usun", "powod": "narzędzie jednorazowe; po przeniesieniu zbędne (wzór trening)" },
+    { "sciezka": "tools/przeniesienie.json", "akcja": "usun", "powod": "lista narzędzia jednorazowego (zawiera wzorce danych osobowych)" },
+    { "sciezka": "tests/przeniesienie.test.mjs", "akcja": "usun", "powod": "test narzędzia jednorazowego; usuwany razem z nim" }
+  ],
+  "przepisz": [".github/workflows/", "tools/", "docs/adr/", "docs/architektura/", "docs/tresci/", "CLAUDE.md"],
+  "zamiany": [
+    { "sciezka": "docs/tresci/E0-rozpoznanie-2026-11-01.md", "z": " Sesja: session_01T66VBydUNZSWLkpAUxjXNL.", "na": "" },
+    { "sciezka": "docs/architektura/E0-rozpoznanie-2026-11-01.md", "z": "(artefakt 2m3gT4XfaeuMfT5EGqeT1i)", "na": "(tablica decyzji właściciela)" }
+  ],
+  "straznik": {
+    "dane": [
+      { "nazwa": "login właściciela", "wzorzec": "lkarwowski494", "flagi": "i" },
+      { "nazwa": "nazwisko właściciela", "wzorzec": "karwowsk", "flagi": "i" },
+      { "nazwa": "imię właściciela", "wzorzec": "(?<![\\p{L}])[łl]ukasz", "flagi": "iu" },
+      { "nazwa": "adres e-mail", "wzorzec": "[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\\.[A-Za-z0-9-]+)*\\.[A-Za-z]{2,}", "flagi": "" }
+    ],
+    "sekrety": [
+      { "nazwa": "klucz prywatny", "wzorzec": "-----BEGIN (?:[A-Z]+ )?PRIVATE KEY-----", "flagi": "" },
+      { "nazwa": "klucz API Anthropic", "wzorzec": "sk-ant-[A-Za-z0-9_-]{20,}", "flagi": "" },
+      { "nazwa": "token GitHub", "wzorzec": "\\b(?:ghp|gho|ghs|ghu|github_pat)_[A-Za-z0-9_]{20,}", "flagi": "" },
+      { "nazwa": "przypisanie klucza", "wzorzec": "\\b[A-Z_]*(?:API_KEY|TOKEN|PASSWORD|SECRET)[\"']?\\s*[:=]\\s*[\"']?(?!\\$\\{\\{|\\$|<|x{4})[A-Za-z0-9_\\-]{16,}", "flagi": "" }
+    ],
+    "slady": [
+      { "nazwa": "ID sesji Claude", "wzorzec": "session_[0-9A-Za-z]{20,}", "flagi": "" },
+      { "nazwa": "adres sesji claude.ai", "wzorzec": "claude\\.ai/code", "flagi": "i" },
+      { "nazwa": "identyfikator tablicy decyzji", "wzorzec": "2m3gT4XfaeuMfT5EGqeT1i", "flagi": "" },
+      { "nazwa": "stopka commitu narzędzia", "wzorzec": "Co-Authored-By:", "flagi": "i" }
+    ],
+    "miekkie": [
+      { "nazwa": "„decyzja Claude, do weta”", "wzorzec": "decyzj[aię] Claude", "flagi": "i" },
+      { "nazwa": "odwołanie do repo trening", "wzorzec": "(?<![\\p{L}])trening(?![\\p{L}])", "flagi": "iu" },
+      { "nazwa": "nazwa organizacji Apps4Brew", "wzorzec": "Apps4Brew", "flagi": "i" }
+    ],
+    "nazwy": ["Ball", "Kerr", "Weck", "Kilner", "Le Parfait", "Bormioli", "Tattler", "Presto", "Porkbun", "Amazon", "Allegro", "Lidl", "Biedronka", "Kaufland", "Walmart"],
+    "zakres": ["site/", "tools/", "tests/", "catalog/", ".github/", "package.json", "CLAUDE.md"],
+    "wyjatki": [
+      { "sciezka": "CLAUDE.md", "nazwa": "identyfikator tablicy decyzji", "powod": "D5: sesje muszą znaleźć tablicę; artefakt prywatny, otwiera go tylko konto właściciela" },
+      { "sciezka": "CLAUDE.md", "nazwa": "Porkbun", "powod": "D7: rejestrator jest publiczny w RDAP; zapis terminu odnowienia" },
+      { "sciezka": "site/konfiguracja.mjs", "nazwa": "Porkbun", "powod": "D7: rejestrator jest publiczny w RDAP (komentarz o domenie)" },
+      { "sciezka": "tests/przeklad.test.mjs", "nazwa": "klucz API Anthropic", "wartosci": "^sk-ant-(?:test-[A-Za-z0-9-]+|api03-abcdefghijklmnop)$", "powod": "atrapy kluczy w testach maskowania i nagłówka (tylko te wartości; inny klucz w pliku = błąd)" },
+      { "sciezka": "tests/przeklad.test.mjs", "nazwa": "przypisanie klucza", "wartosci": "sk-ant-test-[A-Za-z0-9-]+$", "powod": "atrapa ANTHROPIC_API_KEY w testach skryptu przekładu (tylko ta wartość)" },
+      { "sciezka": "catalog/catalog-seed.json", "nazwa": "Ball", "powod": "D6: cytowane źródło przepisu (UCCE MFP za Ball), nie reklama" }
+    ]
+  }
+}

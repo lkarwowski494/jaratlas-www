@@ -7,7 +7,7 @@ import { mkdtempSync, readdirSync, rmSync } from 'node:fs';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 
-for (const plik of ['build.test.mjs', 'przeklad.test.mjs', 'kontrola-wszystko.test.mjs']) {
+for (const plik of ['build.test.mjs', 'przeklad.test.mjs', 'kontrola-wszystko.test.mjs', 'przeniesienie.test.mjs']) {
   test(`${plik}: po przebiegu 0 katalogów w TMPDIR`, () => {
     const tmp = mkdtempSync(join(tmpdir(), 'ja-sprzatanie-'));
     try {
