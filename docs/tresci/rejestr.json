@@ -15536,7 +15536,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "ff50750dba43"
+   "sha": "22a611ef1054"
   },
   "wielkosc": "temperatura zamrażarki",
   "wartosc": -18,
@@ -15781,7 +15781,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "07a9a39dc331"
+   "sha": "4dffe719757c"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -33043,7 +33043,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "f459ed5a72c9"
+   "sha": "856d8a9d2668"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33362,7 +33362,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "9f29addb3c76"
+   "sha": "6d6bada50d82"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33397,7 +33397,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "f4830e62ecfe"
+   "sha": "61a660a626d7"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33432,7 +33432,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "00553c1429b6"
+   "sha": "b00c91e654f7"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33775,6 +33775,48 @@
   ],
   "status": "potwierdzone",
   "uproszczenie": "„1½” zapisane jako „1 1/2”. „Suitable for use only as a cooked vegetable” w karcie także jako „tylko po ugotowaniu, nie na surowo”. Kapusta pekińska = Chinese cabbage (polska nazwa); karta nie podaje odmian (źródło ich nie wymienia; napa usunięta po przebiegu 1). „Cabbage” w kartach en i pl zawężone do kapusty białej; kapusty czerwonej i włoskiej karta nie obejmuje (źródło nie nazywa ich osobno).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-273",
+  "twierdzenie": "NCHFP Freezing Edible Pea Pods: wybrać intensywnie zielone (bright green), płaskie, delikatne strąki; umyć; usunąć szypułki, końcówki po kwiatach i łyka; zostawić w całości; blanszować w wodzie 1 1/2 minuty małe strąki, 2 minuty duże; jeśli ziarna zaczęły się wykształcać, postępować jak z fasolką szparagową, a jeśli są wykształcone, wyłuskać i postępować jak z zielonym groszkiem; schłodzić, odsączyć i zapakować z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-edible-pea-pods/",
+    "miejsce": "NCHFP, Freezing Edible Pea Pods, Preparation",
+    "cytat": "Select bright green, flat, tender pods. Wash. Remove stems, blossom ends and any strings. Leave whole. Water blanch 11/2 minutes for small pods; 2 minutes for large pods. (NOTE: If the peas have started to develop, follow the directions for green beans. If the peas are already developed, shell and follow the directions for green peas.) Cool, drain and package, leaving 1/2-inch headspace. Seal and freeze.",
+    "sha12": "29e163bf8bc9",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„11/2” na stronie NCHFP to 1 1/2 (zapis „1 1/2”). Edible pea pods po polsku: groszek cukrowy w strąkach / jadalne strąki grochu (nazwa wariantu w katalogu); bez nazw odmian (snow peas, sugar snap), bo źródło ich nie wymienia. „Strings” = łyka (nitki).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-274",
+  "twierdzenie": "NCHFP Freezing Bell or Sweet Peppers: wybrać jędrne, delikatne, zielone lub jaskrawoczerwone strąki; umyć, wyciąć szypułki, przekroić na pół, usunąć nasiona; opcjonalnie pokroić w paski lub krążki 1/2 cala (ok. 1,3 cm); metoda z blanszowaniem (do gotowania): połówki 3 minuty, paski lub krążki 2 minuty w wodzie, szybko schłodzić, odsączyć, zapakować z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; metoda bez blanszowania (bardziej chrupka, do potraw na surowo lub gotowanych): zapakować na surowo bez wolnej przestrzeni; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-bell-or-sweet-peppers/",
+    "miejsce": "NCHFP, Freezing Bell or Sweet Peppers, Preparation, Heated, Unheated",
+    "cytat": "Select crisp, tender, green or bright red pods. Wash, cut out stems, cut in half and remove seeds. If desired, cut into 1/2-inch strips or rings. Heated – Good for use in cooking. Water blanch halves 3 minutes, strips or rings 2 minutes. Cool promptly, drain and package, leaving 1/2-inch headspace. Seal and freeze. Unheated – Good for use in uncooked foods because they have a crisper texture, or in cooked foods. Package raw, leaving no headspace. Seal and freeze.",
+    "sha12": "50cdfc8729ac",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„Pods” w karcie jako „papryki”. „Heated/Unheated” jako metoda z blanszowaniem / bez blanszowania (na surowo). 1/2 cala ≈ 1,3 cm.",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",
