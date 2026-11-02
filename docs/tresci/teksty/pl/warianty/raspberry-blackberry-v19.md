@@ -16,7 +16,7 @@ W syropie: włóż owoce do pojemników i zalej zimnym syropem 40- do 50-procent
 
 Na syrop 40-procentowy (ciężki) NCHFP rozpuszcza 2 3/4 szklanki cukru w 4 szklankach letniej wody, aż syrop będzie klarowny, co daje ok. 5 1/3 szklanki; przed użyciem syrop schłódź. [T:SLO-253]
 
-Na syrop 50-procentowy (bardzo ciężki) NCHFP bierze 4 szklanki cukru na 4 szklanki wody, co daje ok. 6 szklanek. [T:SLO-265]
+Na syrop 50-procentowy (bardzo ciężki) NCHFP bierze 4 szklanki cukru na 4 szklanki wody, co daje ok. 6 szklanek. [T:SLO-269]
 
 Zimnego syropu użyj tyle, by przykrył owoce, ok. 1/2 do 2/3 szklanki na pintę; żeby owoce zostały pod syropem, połóż na wierzchu zgnieciony kawałek papieru do pieczenia i dociśnij owoce przed zamknięciem. [T:SLO-253]
 

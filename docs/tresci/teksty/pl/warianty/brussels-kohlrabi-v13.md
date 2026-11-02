@@ -28,7 +28,7 @@ Chłodź je tyle samo czasu, ile trwało blanszowanie, a potem dokładnie odsąc
 
 ## Pakowanie
 
-Odsączoną brukselkę pakuj bez wolnej przestrzeni. [T:SLO-262]
+Odsączoną brukselkę pakuj bez wolnej przestrzeni w woreczkach do mrożenia albo pojemnikach z szerokim otworem; w słoikach do wekowania z wąskim otworem zostaw dodatkową wolną przestrzeń, jak opisano niżej. [T:SLO-262,SLO-251]
 
 Używaj opakowań odpornych na wilgoć i parę wodną, trwałych i szczelnych, które nie kruszą się i nie pękają na mrozie. [T:SLO-251]
 

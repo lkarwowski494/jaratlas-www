@@ -1,6 +1,6 @@
 # Frozen blackberries (NCHFP)
 
-This card describes the NCHFP instructions for freezing blackberries or dewberries in syrup, with sugar or without additions, at 0 °F (−18 °C) or lower; the instructions do not include blanching. [T:SLO-265,SUS-050]
+This card describes the NCHFP instructions for freezing blackberries in syrup, with sugar or without additions, at 0 °F (−18 °C) or lower; the instructions do not include blanching. [T:SLO-265,SUS-050]
 
 ## Choosing and preparing
 
@@ -16,7 +16,7 @@ In syrup (syrup pack): put the berries into containers and cover them with cold 
 
 For a 40 percent (heavy) syrup NCHFP dissolves 2 3/4 cups of sugar in 4 cups of lukewarm water until the syrup is clear, which gives about 5 1/3 cups; chill the syrup before use. [T:SLO-253]
 
-For a 50 percent (very heavy) syrup NCHFP uses 4 cups of sugar to 4 cups of water, which gives about 6 cups. [T:SLO-265]
+For a 50 percent (very heavy) syrup NCHFP uses 4 cups of sugar to 4 cups of water, which gives about 6 cups. [T:SLO-269]
 
 Use just enough cold syrup to cover the fruit, about 1/2 to 2/3 cup per pint; to keep the fruit under the syrup, put a crumpled piece of parchment paper on top and press the fruit down before closing. [T:SLO-253]
 

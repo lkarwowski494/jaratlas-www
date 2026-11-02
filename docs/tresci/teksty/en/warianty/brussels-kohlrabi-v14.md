@@ -4,7 +4,7 @@ This card describes the NCHFP instructions for freezing kohlrabi whole or diced:
 
 ## Choosing and preparing
 
-Choose stems that are fully grown but still tender. [T:SLO-266]
+Choose kohlrabi (the swollen stems) that is fully grown but still tender. [T:SLO-266]
 
 Cut off the tops and roots, wash the stems and peel off the tough outer skin. [T:SLO-266]
 

@@ -33542,7 +33542,7 @@
  },
  {
   "id": "SLO-265",
-  "twierdzenie": "NCHFP Freezing Blackberries or Dewberries: wybrać w pełni dojrzałe, jędrne owoce; ostrożnie umyć w zimnej wodzie, odrzucając miękkie, niedojrzałe i wadliwe; w syropie: zalać zimnym syropem 40–50%, zależnie od słodyczy owoców, z wolną przestrzenią; z cukrem: delikatnie wymieszać 3/4 szklanki cukru z 1 quart (1 1/3 funta, ok. 0,6 kg) owoców i napełnić pojemniki z wolną przestrzenią; bez dodatków: do pojemników z wolną przestrzenią albo najpierw zamrozić na tacy i zapakować zaraz po zamrożeniu. NCHFP Syrups: syrop 50% (very heavy) to 4 szklanki cukru na 4 szklanki wody, ok. 6 szklanek syropu.",
+  "twierdzenie": "NCHFP Freezing Blackberries or Dewberries: wybrać w pełni dojrzałe, jędrne owoce; ostrożnie umyć w zimnej wodzie, odrzucając miękkie, niedojrzałe i wadliwe; w syropie: zalać zimnym syropem 40–50%, zależnie od słodyczy owoców, z wolną przestrzenią; z cukrem: delikatnie wymieszać 3/4 szklanki cukru z 1 quart (1 1/3 funta, ok. 0,6 kg) owoców i napełnić pojemniki z wolną przestrzenią; bez dodatków: do pojemników z wolną przestrzenią albo najpierw zamrozić na tacy i zapakować zaraz po zamrożeniu.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-blackberries-or-dewberries/",
@@ -33579,19 +33579,10 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "744491cc499e"
-   },
-   {
-    "adres": "https://nchfp.uga.edu/how/freeze/fruits/syrups/",
-    "miejsce": "NCHFP, Syrups for Use in Freezing Fruits, tabela",
-    "cytat": "Very Heavy 50% 4 4 6 cups",
-    "odczyt": "2026-11-02",
-    "szczebel": 1,
-    "weryfikacja": "curl+grep",
-    "sha12": "9bf7b79b11c4"
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "Źródło pisze „11/3 pounds” (ułamek 1 1/3 w HTML); przeliczenie funtów to rachunek JarAtlas; jeżyny bez dewberries (nazwa z katalogu).",
+  "uproszczenie": "Źródło pisze „11/3 pounds” (ułamek 1 1/3 w HTML); przeliczenie funtów to rachunek JarAtlas; karta nazywa tylko jeżyny (nazwa z katalogu), źródło obejmuje też dewberries.",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",
@@ -33651,7 +33642,7 @@
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "Odwołanie „see page 214” (książka So Easy to Preserve) pominięte; skład syropu 50% z SLO-265 (NCHFP Syrups).",
+  "uproszczenie": "Odwołanie „see page 214” (książka So Easy to Preserve) pominięte; skład syropu 50% z SLO-269 (NCHFP Syrups).",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",
@@ -33700,6 +33691,27 @@
   ],
   "status": "potwierdzone",
   "uproszczenie": "Źródło opisuje tylko porzeczki czerwone (bright-red); karta nie obejmuje czarnych; „11/3 pounds” to 1 1/3 funta; przeliczenie to rachunek JarAtlas.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-269",
+  "twierdzenie": "NCHFP Syrups for Use in Freezing Fruits: syrop 50% (very heavy, bardzo ciężki) to 4 szklanki cukru na 4 szklanki wody, z czego wychodzi ok. 6 szklanek syropu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/syrups/",
+    "miejsce": "NCHFP, Syrups for Use in Freezing Fruits, tabela",
+    "cytat": "Very Heavy 50% 4 4 6 cups",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "9bf7b79b11c4"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wiersz tabeli (typ, procent, szklanki cukru, szklanki wody, wydajność) zapisany zdaniem.",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",

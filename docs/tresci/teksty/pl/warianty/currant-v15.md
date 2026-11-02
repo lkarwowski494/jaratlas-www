@@ -4,7 +4,7 @@ Ta karta opisuje instrukcję NCHFP mrożenia czerwonych porzeczek bez dodatków,
 
 ## Wybór i przygotowanie
 
-Wybierz pełne, w pełni dojrzałe, jaskrawoczerwone porzeczki; instrukcja NCHFP opisuje tylko porzeczki czerwone. [T:SLO-268]
+Wybierz dorodne, w pełni dojrzałe, jaskrawoczerwone porzeczki; instrukcja NCHFP opisuje tylko porzeczki czerwone. [T:SLO-268]
 
 Umyj je w zimnej wodzie i usuń szypułki. [T:SLO-268]
 
@@ -16,7 +16,7 @@ Bez dodatków (na sucho): włóż porzeczki do pojemników albo najpierw zamroź
 
 W syropie: włóż porzeczki do pojemników i zalej zimnym syropem 50-procentowym. [T:SLO-268]
 
-Na syrop 50-procentowy (bardzo ciężki) NCHFP bierze 4 szklanki cukru na 4 szklanki wody, co daje ok. 6 szklanek; cukier rozpuść w letniej wodzie, aż syrop będzie klarowny, i przed użyciem go schłódź. [T:SLO-265,SLO-253]
+Na syrop 50-procentowy (bardzo ciężki) NCHFP bierze 4 szklanki cukru na 4 szklanki wody, co daje ok. 6 szklanek; cukier rozpuść w letniej wodzie, aż syrop będzie klarowny, i przed użyciem go schłódź. [T:SLO-269,SLO-253]
 
 Zimnego syropu użyj tyle, by przykrył owoce, ok. 1/2 do 2/3 szklanki na pintę; żeby owoce zostały pod syropem, połóż na wierzchu zgnieciony kawałek papieru do pieczenia i dociśnij owoce przed zamknięciem. [T:SLO-253]
 

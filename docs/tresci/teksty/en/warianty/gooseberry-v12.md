@@ -16,7 +16,7 @@ Without additions (dry pack): put the berries into containers, or freeze them fi
 
 In syrup (syrup pack): put the berries into containers and cover them with 50 percent syrup. [T:SLO-267]
 
-For a 50 percent (very heavy) syrup NCHFP uses 4 cups of sugar to 4 cups of water, which gives about 6 cups; dissolve the sugar in lukewarm water until the syrup is clear and chill it before use. [T:SLO-265,SLO-253]
+For a 50 percent (very heavy) syrup NCHFP uses 4 cups of sugar to 4 cups of water, which gives about 6 cups; dissolve the sugar in lukewarm water until the syrup is clear and chill it before use. [T:SLO-269,SLO-253]
 
 Use just enough cold syrup to cover the fruit, about 1/2 to 2/3 cup per pint; to keep the fruit under the syrup, put a crumpled piece of parchment paper on top and press the fruit down before closing. [T:SLO-253]
 

@@ -28,7 +28,7 @@ Chłodź je tyle samo czasu, ile trwało blanszowanie, a potem dokładnie odsąc
 
 ## Pakowanie
 
-Odsączone szparagi pakuj bez wolnej przestrzeni: NCHFP wymienia luźno pakowane warzywa, np. szparagi, wśród żywności, która jej nie potrzebuje. [T:SLO-264,SLO-250]
+Odsączone szparagi pakuj bez wolnej przestrzeni: NCHFP wymienia luźno pakowane warzywa, np. szparagi, wśród żywności, która jej nie potrzebuje; dotyczy to woreczków do mrożenia i pojemników z szerokim otworem, a w słoikach do wekowania z wąskim otworem zostaw dodatkową wolną przestrzeń, jak opisano niżej. [T:SLO-264,SLO-250,SLO-251]
 
 Używaj opakowań odpornych na wilgoć i parę wodną, trwałych i szczelnych, które nie kruszą się i nie pękają na mrozie. [T:SLO-251]
 

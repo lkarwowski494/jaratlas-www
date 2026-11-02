@@ -28,7 +28,7 @@ Cool them for as long as you blanched them, then drain them thoroughly: extra wa
 
 ## Packing
 
-Package the drained sprouts leaving no headspace. [T:SLO-262]
+Package the drained sprouts leaving no headspace in freezer bags or wide-mouth containers; in narrow-mouth canning jars leave extra headspace, as described below. [T:SLO-262,SLO-251]
 
 Use packaging that resists moisture and vapour, is durable and leakproof and does not become brittle and crack in the cold. [T:SLO-251]
 
