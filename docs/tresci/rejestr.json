@@ -15536,7 +15536,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "706cb0cf83e3"
+   "sha": "6665d95cca0d"
   },
   "wielkosc": "temperatura zamrażarki",
   "wartosc": -18,
@@ -15781,7 +15781,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "c1c8bafd92c3"
+   "sha": "1f67b1556392"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -33043,7 +33043,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "a6589951aa1a"
+   "sha": "0b0902556e70"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33397,7 +33397,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "172d2f2efc2e"
+   "sha": "ccf6836806cd"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33432,7 +33432,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "c7e4049e8248"
+   "sha": "fb86955bfe19"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -35295,5 +35295,1286 @@
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-400",
+  "twierdzenie": "FDA i NCHFP: żywność trzymana stale w 0°F (-18°C) jest bezpieczna bezterminowo; zalecane czasy przechowywania w zamrażarce dotyczą tylko jakości, a po ich upływie żywność nadal jest bezpieczna, ale gorsza w smaku, barwie i strukturze.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/74435/download",
+    "miejsce": "FDA, Refrigerator & Freezer Storage Chart (PDF, March 2018); nagłówek tabeli",
+    "cytat": "Because freezing 0° F (-18° C) keeps food safe indefinitely, the following recommended storage times are for quality only.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "f987330d7e8a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/how-long-can-i-store-frozen-foods/",
+    "miejsce": "NCHFP, How Long Can I Store Frozen Foods; akapit 2",
+    "cytat": "For best quality use the shorter storage times. After these times, the food should still be safe, just lower in quality.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3c65dd5e9cbd"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/faqs/general-freezing/category/faq-freezing",
+    "miejsce": "NCHFP, FAQ General Freezing; Will food spoil if it is stays frozen longer than the recommended storage time?",
+    "cytat": "Food stored longer than recommended time is safe but flavor, color and texture will continue to deteriorate.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d7bba13ede8a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie °F na °C podaje FDA. Warunek „stale w 0°F” jest istotny: przy awarii zamrażarki obowiązują SLO-259/260.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "71e2fb0a53a6"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-401",
+  "twierdzenie": "NCHFP: mrożenie nie zabija wszystkich bakterii, drożdży i pleśni, tylko zatrzymuje ich namnażanie w 0°F (-18°C) lub niżej; po rozmrożeniu ocalałe drobnoustroje znów mogą się namnażać.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/general-freezing/category/faq-freezing",
+    "miejsce": "NCHFP, FAQ General Freezing; Does freezing kill germs?",
+    "cytat": "Freezing does not kill all bacteria, yeasts and molds present in food, but it does prevent their multiplication if the food is held at 0°F or less. When thawed, the surviving organisms can multiply again.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d7bba13ede8a"
+   },
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+    "miejsce": "FDA, Selecting and Serving Fresh and Frozen Seafood Safely; Freezing",
+    "cytat": "However, be aware that freezing doesn't kill all harmful germs.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3d409e5d3cd0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie 0°F = -18°C za FDA (fda-chart).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "f09f365faa2c"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-402",
+  "twierdzenie": "NCHFP: do zamrażarki dokładać naraz tylko tyle żywności, ile zamarznie w ciągu 24 godzin, zwykle 2–3 funty na stopę sześcienną pojemności; przeładowanie spowalnia mrożenie i obniża jakość; nowe, ciepłe opakowania rozłożyć z odstępami, układać ciasno dopiero po zamrożeniu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/general-freezing/category/faq-freezing",
+    "miejsce": "NCHFP, FAQ General Freezing; How much food can be frozen at one time?",
+    "cytat": "Add only the amount that will freeze within 24 hours, which is usually two or three pounds of food per cubic foot of storage space. Overloading slows down the freezing rate.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d7bba13ede8a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/how-long-can-i-store-frozen-foods/",
+    "miejsce": "NCHFP, How Long Can I Store Frozen Foods; Was the food stored at an acceptable temperature?",
+    "cytat": "Do not overload the freezer with unfrozen food. | Leave space among new, warm packages so the cold air can circulate freely around them. When the food is frozen, stack and store the packages close together if desired.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3c65dd5e9cbd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„two or three” zapisane cyframi 2–3. Rachunek JarAtlas (bez podania na stronie): 2–3 funty na stopę sześcienną to ok. 32–48 kg/m³; nie przenosić bez oznaczenia jako przeliczenie.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-403",
+  "twierdzenie": "Clemson HGIC: mrozić jak najszybciej, bo powolne mrożenie tworzy duże kryształki lodu, które przy rozmrażaniu uszkadzają komórki i mięso traci sok; paczek do zamrożenia nie układać w stos, tylko jedną warstwą na półkach; zamrażalnik w lodówce, który nie utrzymuje 0°F (-18°C), tylko do krótkiego przechowywania.",
+  "zrodla": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/freezing-meats-seafood/",
+    "miejsce": "Clemson HGIC 3064, Freezing Meats & Seafood (upd. 2012); akapit o szybkim mrożeniu",
+    "cytat": "Slow freezing creates large, disruptive ice crystals. During thawing, they damage the cells and cause meat to \"drip\" or lose juiciness. … Never stack packages to be frozen. Instead, spread them out in one layer on the shelves, stacking them only after frozen solid.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "39b6d9e89ee2"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/freezing-meats-seafood/",
+    "miejsce": "Clemson HGIC 3064, Freezing Meats & Seafood (upd. 2012); akapit o zamrażalniku",
+    "cytat": "If a refrigerator freezing compartment can't maintain 0 °F, or if the door is opened frequently, use it only for short-term food storage.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "39b6d9e89ee2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie °C za FDA. Jedno źródło szczebla 3 dla części o zamrażalniku; NCHFP Freezer Management (SLO-255) daje 0°F i termometr.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-404",
+  "twierdzenie": "NCHFP i Clemson HGIC: oparzelina mrozowa (szarobrązowe, skórzaste plamy) to wysuszenie powierzchni źle opakowanej żywności przez dostęp powietrza; nie czyni żywności niebezpieczną, tylko obniża jakość; zapobiega jej opakowanie bez powietrza i szczelnie zamknięte, a przypalone miejsca można odciąć.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/general-freezing/category/faq-freezing",
+    "miejsce": "NCHFP, FAQ General Freezing; What is freezer burn?",
+    "cytat": "It is dehydration or drying that occurs on the surface of a frozen product if it is improperly wrapped. The food is safe to eat but poorer quality. To prevent freezer burn, the package must be free of air and sealed airtight.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d7bba13ede8a"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/freezing-meats-seafood/",
+    "miejsce": "Clemson HGIC 3064, Freezing Meats & Seafood (upd. 2012); Freezer burn",
+    "cytat": "Freezer burn does not make food unsafe, merely dry in spots. It appears as grayish-brown leathery spots and is caused by air reaching the surface of the food. Cut freezer-burned portions away either before or after cooking the food.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "39b6d9e89ee2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-405",
+  "twierdzenie": "NCHFP, FDA i Clemson HGIC, rozmrażanie mięsa, ryb i drobiu: najlepiej w lodówce w oryginalnym opakowaniu; szybciej w wodoszczelnym opakowaniu w zimnej wodzie zmienianej co najmniej co 30 minut, tak by stale była zimna; w mikrofalówce tylko wtedy, gdy zaraz potem się gotuje; nigdy na blacie kuchennym, w garażu, piwnicy, samochodzie ani na dworze.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/thawing-and-preparing-foods-for-serving/",
+    "miejsce": "NCHFP, Thawing and Preparing Foods for Serving; Animal Products, Meat, Fish and Poultry",
+    "cytat": "Frozen meats, fish and poultry are best when thawed in the refrigerator in their original wrappings. For faster thawing, place the meat or fish in waterproof wrapping in cold, slowly running water. If you can't keep water running slowly over the package, place in a large container of cold water. Change the water at least every 30 minutes, or as needed so that it stays cold. Frozen meat, fish or poultry can also be thawed in a microwave oven, if they will be cooked immediately after thawing.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6327220daefa"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/freezing-meats-seafood/",
+    "miejsce": "Clemson HGIC 3064, Freezing Meats & Seafood (upd. 2012); Thawing",
+    "cytat": "Never defrost foods in a garage, basement, car, plastic garbage bag, out on the kitchen counter, outdoors or on the porch. These methods can leave your foods unsafe to eat. There are three safe ways to defrost food: in the refrigerator, in cold water or in the microwave.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "39b6d9e89ee2"
+   },
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+    "miejsce": "FDA, Selecting and Serving Fresh and Frozen Seafood Safely; Thawing",
+    "cytat": "Thaw frozen seafood gradually by placing it in the refrigerator overnight.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3d409e5d3cd0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Uzupełnia SLO-258 (zakaz rozmrażania w temperaturze pokojowej i w ciepłej wodzie, granica 70°F dla wody, do 2 godzin) o zasady dla produktów zwierzęcych. Clemson każe po rozmrożeniu w zimnej wodzie gotować od razu.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "ea4e60982200"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-406",
+  "twierdzenie": "NCHFP i Clemson HGIC: rozmrażanie w lodówce wymaga planu: duży produkt, np. indyk, potrzebuje co najmniej 1 dnia (24 godziny) na każde 5 funtów (ok. 2,3 kg) masy, a nawet 1 funt (ok. 0,45 kg) mielonego mięsa albo piersi kurczaka bez kości potrzebuje pełnego dnia; w lodówce ustawionej na 35°F (ok. 2°C) trwa to dłużej niż przy 40°F (ok. 4°C).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/thawing-and-preparing-foods-for-serving/",
+    "miejsce": "NCHFP, Thawing and Preparing Foods for Serving; akapit 3",
+    "cytat": "A large frozen item like a turkey requires at least a day (24 hours) for every 5 pounds of weight. Even small amounts of frozen food -- such as a pound of ground meat or boneless chicken breasts -- require a full day to thaw.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6327220daefa"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/thawing-and-preparing-foods-for-serving/",
+    "miejsce": "NCHFP, Thawing and Preparing Foods for Serving; akapit 3, lista",
+    "cytat": "Food takes longer to thaw in a refrigerator set at 35°F than one set at 40°F.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6327220daefa"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/freezing-meats-seafood/",
+    "miejsce": "Clemson HGIC 3064, Freezing Meats & Seafood (upd. 2012); Thawing",
+    "cytat": "For large items like turkeys allow one day for each 5 pounds of weight.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "39b6d9e89ee2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenia na kg i °C to rachunek JarAtlas (1 funt = 0,4536 kg; 35°F = 1,7°C, zaokrąglone).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "7249737d2b82"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-407",
+  "twierdzenie": "NCHFP i Clemson HGIC: mięso, ryby i drób można gotować prosto z zamrażarki, ale trzeba doliczyć czas, przy dużych pieczeniach nawet do 1 1/2 raza dłużej; dla najlepszej jakości rozmrożone mięso albo rybę gotować od razu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/thawing-and-preparing-foods-for-serving/",
+    "miejsce": "NCHFP, Thawing and Preparing Foods for Serving; Animal Products",
+    "cytat": "If meat, fish or poultry is cooked without thawing, additional time must be allowed. How much depends on the size and shape of the product. Large frozen roasts could take up to 1½ times as long. … For best quality cook thawed meat or fish immediately.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6327220daefa"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/freezing-meats-seafood/",
+    "miejsce": "Clemson HGIC 3064, Freezing Meats & Seafood (upd. 2012); Cooking frozen",
+    "cytat": "Raw or cooked meat, poultry or casseroles can be cooked or reheated from the frozen state. However, it will take approximately one and a half times the usual cooking time for food which has been thawed.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "39b6d9e89ee2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„1½” zapisane jako 1 1/2.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-408",
+  "twierdzenie": "NCHFP i FDA: dania i produkty z mięsem, rybami, drobiem, jajami albo nabiałem rozmrażać w lodówce lub w mikrofalówce; łatwo psującej się żywności nie trzymać poza lodówką dłużej niż 2 godziny, a gdy temperatura przekracza 90°F (ok. 32°C), dłużej niż 1 godzinę.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/thawing-and-preparing-foods-for-serving/",
+    "miejsce": "NCHFP, Thawing and Preparing Foods for Serving; Prepared or Cooked Foods",
+    "cytat": "Products containing meat, fish, poultry, eggs or dairy products should be thawed in the refrigerator or in the microwave oven.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6327220daefa"
+   },
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+    "miejsce": "FDA, Selecting and Serving Fresh and Frozen Seafood Safely; Serving",
+    "cytat": "Never leave seafood or other perishable food out of the refrigerator for more than 2 hours or for more than 1 hour when temperatures are above 90°F.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3d409e5d3cd0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Sprzeczność szczebla 1: NCHFP w tym samym akapicie podaje „more than 2 to 4 hours”, FDA 2 godziny (1 godzina powyżej 90°F). Wybrana granica krótsza (FDA), decyzja C5-D3. Przeliczenie °C to rachunek JarAtlas.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "7591c36b6693"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-409",
+  "twierdzenie": "Ostrożna reguła JarAtlas dla surowego mięsa, drobiu i ryb (Clemson HGIC, Penn State): bez gotowania ponownie zamrażać tylko to, co rozmroziło się w lodówce, i wrócić z tym do zamrażarki w ciągu 1–2 dni; co rozmrożono w zimnej wodzie albo w mikrofalówce, najpierw ugotować, potem można zamrozić; czego nie wolno ponownie zamrażać żadną metodą: co stało w strefie zagrożenia ponad 2 godziny (1 godzinę przy temperaturze powyżej 90°F, ok. 32°C) — to wyrzucić.",
+  "zrodla": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/freezing-meats-seafood/",
+    "miejsce": "Clemson HGIC 3064, Freezing Meats & Seafood (upd. 2012); Refreezing",
+    "cytat": "Once food is thawed in the refrigerator, it is safe to refreeze it without cooking, although there may be a loss of quality due to the moisture lost through defrosting. After cooking raw foods that were previously frozen, it is safe to freeze the cooked foods.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "39b6d9e89ee2"
+   },
+   {
+    "adres": "https://extension.psu.edu/freezing-and-refreezing-meat",
+    "miejsce": "Penn State Extension, Freezing and Refreezing Meat (upd. 2024-02-12); lista warunków",
+    "cytat": "Meat or poultry was initially thawed under refrigeration before or after cooking. If it was thawed using a different method, cook the meat or poultry before refreezing. If you have thawed meat and need to refreeze it, return the meat or poultry to the freezer within 1 to 2 days to preserve maximum quality and safety.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "750097eb5f3a"
+   },
+   {
+    "adres": "https://extension.psu.edu/freezing-and-refreezing-meat",
+    "miejsce": "Penn State Extension, Freezing and Refreezing Meat (upd. 2024-02-12); akapit po liście",
+    "cytat": "If the meat or poultry has been left in the temperature danger zone for more than 2 hours, or 1 hour in temperatures above 90°F, it will not be safe to refreeze using any method; this meat will need to be thrown out.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "750097eb5f3a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Reguła ostrożniejsza niż SLO-291 (NCHFP FAQ: ponowne mrożenie przy kryształkach lodu albo zamrażarce do 40°F, bez rozróżnienia metody rozmrażania). Granica 1–2 dni z Penn State, krótsza niż UMN (3–4 dni) — decyzja C5-D4. Penn State powołuje się na FSIS (strona FSIS dziś 403, niesprawdzona). Po awarii zamrażarki obowiązują SLO-259/260.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "f3779863b70d"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-410",
+  "twierdzenie": "NCHFP: przy awarii zasilania żywność dłużej pozostaje zamrożona, jeśli zamrażarka jest zamknięta, pełna, stoi w chłodnym miejscu i jest dobrze izolowana; zamrażarkę można przykryć kocami, z dala od sprężarki; pół pełna utrzymuje mróz tylko ok. 24 godziny.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/faqs/general-freezing/category/faq-freezing",
+    "miejsce": "NCHFP, FAQ General Freezing; How long will food remain frozen if the power goes off?",
+    "cytat": "Foods stay frozen longer if the freezer remains unopened, is full, is in a cool place and is well insulated. … A half-filled freezer will keep food frozen only about 24 hours. Cover the freezer with blankets, keeping them away from the compressor, to help hold the cold.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "d7bba13ede8a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Celowo bez zdania NCHFP „two to four days” dla pełnej zamrażarki: FDA (SLO-259) podaje ok. 48 godzin; obowiązuje krótsza wartość FDA (decyzja C5-D5). Ocena żywności po awarii: SLO-259/260 bez zmian.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "0d1b24dc0c5c"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-411",
+  "twierdzenie": "NCHFP i Clemson HGIC: świeżo ubite tusze albo elementy schłodzić poniżej 40°F (ok. 4°C) w ciągu 24 godzin, żeby nie skwaśniały ani się nie zepsuły, najlepiej do 32–36°F (ok. 0–2°C); podroby (wątroba, serce, grasica) po schłodzeniu są gotowe do zapakowania i zamrożenia; wieprzowina, cielęcina i jagnięcina po 24 godzinach są gotowe do krojenia i mrożenia; mięso ze sklepu można mrozić od razu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-meats/",
+    "miejsce": "NCHFP, Freezing Meats; Chilling and Aging",
+    "cytat": "Freshly slaughtered meat carcasses or primal cuts need to be cooled to below 40°F within 24 hours to prevent souring or spoiling. The meat should be chilled at 32° to 36°F. Variety meats (liver, heart or sweetbreads) are ready to be wrapped and frozen after they are cold. After 24 hours, pork, veal and lamb are ready to be cut, wrapped and frozen.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b60343e41e71"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-meats/",
+    "miejsce": "NCHFP, Freezing Meats; Chilling and Aging, koniec",
+    "cytat": "Meat purchased from grocery stores is ready to be frozen as is, or cut",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b60343e41e71"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/freezing-meats-seafood/",
+    "miejsce": "Clemson HGIC 3064, Freezing Meats & Seafood (upd. 2012); Meat",
+    "cytat": "Freshly slaughtered meat carcasses or pieces need to be cooled to below 40 °F within 24 hours to prevent souring or spoiling.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "39b6d9e89ee2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenia °C to rachunek JarAtlas (36°F = 2,2°C, zaokrąglone). Dojrzewanie wołowiny 5–7 dni w 32–36°F (NCHFP) pominięte: to temat uboju domowego, nie mrożenia; do decyzji roli 03.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "bf6d076370c3"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-412",
+  "twierdzenie": "NCHFP: mrozić tylko świeże mięso dobrej jakości; mięso peklowane, jak szynka i boczek, można trzymać w zamrażarce tylko krótko (1–3 miesiące), bo sól przyspiesza jełczenie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-meats/",
+    "miejsce": "NCHFP, Freezing Meats; akapit 1",
+    "cytat": "Select only high quality, fresh meats to freeze. Cured meats such as ham and bacon can only be frozen for a short period of time (1 to 3 months) because the salt in them hastens rancidity.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b60343e41e71"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Dla boczku ostrożniejsza granica FDA/FMI 1 miesiąc: zob. twierdzenie boczku (grupa C).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-413",
+  "twierdzenie": "NCHFP i FDA: mięso pakować w papier albo folię do mrożenia, owijając „na aptekarza” albo „na rzeźnika”; mięso mielone, gulaszowe i małe porcje można mrozić w woreczkach albo pojemnikach do mrożenia; mięso ze sklepu owinąć dodatkowo, bo przezroczyste opakowanie nie chroni przed utratą wilgoci; jeśli ma leżeć w oryginalnym opakowaniu dłużej niż 2 miesiące, owinąć je szczelnie grubą folią aluminiową, folią spożywczą albo papierem do mrożenia, albo włożyć do woreczka.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-meats/",
+    "miejsce": "NCHFP, Freezing Meats; Packaging",
+    "cytat": "Package the meat in freezer paper or wrap, using either the drugstore or butcher wrap. Freezer bags or containers can be used for ground beef, stew beef or other meats frozen in small portions. | Store-bought meats need to be over-wrapped, since their clear packaging is not moisture-vapor resistant.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b60343e41e71"
+   },
+   {
+    "adres": "https://www.fda.gov/media/74435/download",
+    "miejsce": "FDA, Refrigerator & Freezer Storage Chart (PDF, March 2018); wskazówki nad tabelą",
+    "cytat": "If freezing meat and poultry in its original package longer than 2 months, overwrap these packages with airtight heavy-duty foil, plastic wrap, or freezer paper; or place the package inside a plastic bag.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "f987330d7e8a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wcześniej FRZ-056 (tylko pierwsze zdanie). Clemson podaje „a month or two” — zgodne kierunkowo; przyjęto FDA 2 miesiące.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-414",
+  "twierdzenie": "NCHFP: mięso pakować w porcjach na jeden posiłek, usuwając jak najwięcej kości; między plastry albo kotlety kłaść dwie warstwy papieru albo folii, żeby po zamrożeniu łatwo je rozdzielić, co przyspiesza też rozmrażanie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-meats/",
+    "miejsce": "NCHFP, Freezing Meats; Packaging",
+    "cytat": "Package the meat in meal-size portions, removing as many bones as possible (they take up freezer space). Place two layers of freezer paper or wrap between slices or patties of meat so they are easier to separate when frozen. This will help speed thawing.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b60343e41e71"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-415",
+  "twierdzenie": "NCHFP: dużą zwierzynę (jeleń, łoś, antylopa) mrozi się jak każde inne mięso; przed mrożeniem odciąć i wyrzucić mięso przekrwione; królika, wiewiórkę i drobną zwierzynę obedrzeć ze skóry, wypatroszyć i schłodzić, a potem trzymać w lodówce 24–36 godzin, aż mięso przestanie być sztywne; następnie pokroić albo zostawić w całości, zapakować i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-meats/",
+    "miejsce": "NCHFP, Freezing Meats; Game",
+    "cytat": "Deer, moose, antelope and other large game can be handled for freezing like any other meat or carcass. Trim and discard bloodshot meat before freezing. Package meat, seal and freeze. | Rabbit, squirrel and other game should be skinned, dressed and then chilled. Refrigerate for 24 to 36 hours until meat is no longer rigid. Cut into serving-size pieces or leave whole. Package, seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b60343e41e71"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "c245fa410b65"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-416",
+  "twierdzenie": "Clemson HGIC: włośnie i inne pasożyty mogą zginąć w bardzo niskiej temperaturze tylko przy ściśle określonych warunkach nadzorowanych urzędowo; nie należy polegać na domowym mrożeniu jako sposobie zniszczenia włośni; wszystkie pasożyty niszczy dokładne ugotowanie.",
+  "zrodla": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/freezing-meats-seafood/",
+    "miejsce": "Clemson HGIC 3064, Freezing Meats & Seafood (upd. 2012); akapit 1",
+    "cytat": "Trichina and other parasites can be destroyed by sub-zero freezing temperatures. However, very strict government-supervised conditions must be met. It is not recommended to rely on home freezing to destroy trichina. Thorough cooking will destroy all parasites.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "39b6d9e89ee2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Jedno źródło szczebla 3, ale wariant ostrożny. Relacja z MIE-035 (NCHFP jerky: mrożenie wieprzowiny i dziczyzny 30 dni w 0°F przed suszeniem) do oceny: MIE-035 to protokół wstępny przed suszeniem, nie zamiennik gotowania; karta mrożenia nie obiecuje odpasożycenia. Decyzja C5-D6.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "651672c7e661"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-417",
+  "twierdzenie": "FDA, zalecane czasy w zamrażarce dla jakości, świeża wołowina, cielęcina, jagnięcina i wieprzowina: steki 6–12 miesięcy, kotlety 4–6 miesięcy, pieczenie 4–12 miesięcy, podroby (ozór, nerki, wątroba, serce) 3–4 miesiące; mięso mielone i gulaszowe 3–4 miesiące (tyle samo NCHFP dla mielonego).",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/74435/download",
+    "miejsce": "FDA, Refrigerator & Freezer Storage Chart (PDF, March 2018); tabela, Fresh Meat (Beef, Veal, Lamb, & Pork)",
+    "cytat": "Steaks 3 - 5 days 6 - 12 months … Chops 3 - 5 days 4 - 6 months … Roasts 3 - 5 days 4 - 12 months … chitterlings) 1 - 2 days 3 - 4 months",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "f987330d7e8a"
+   },
+   {
+    "adres": "https://www.fda.gov/media/74435/download",
+    "miejsce": "FDA, Refrigerator & Freezer Storage Chart (PDF, March 2018); tabela, Raw Hamburger, Ground & Stew Meat",
+    "cytat": "Hamburger & stew meats 1 - 2 days 3 - 4 months",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "f987330d7e8a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/how-long-can-i-store-frozen-foods/",
+    "miejsce": "NCHFP, How Long Can I Store Frozen Foods; tabela",
+    "cytat": "Ground Meat 3 - 4",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3c65dd5e9cbd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Tabela FDA ma dwie kolumny; fragmenty sprawdzone osobno na tekście pdftotext -layout. Wiersz podrobów („Variety meats … 1 - 2 days 3 - 4 months”) łamie się między kolumnami: dosłownie sprawdzona jego końcówka „chitterlings) 1 - 2 days 3 - 4 months”, przypisanie do wiersza podrobów odczytane z układu kolumn.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-418",
+  "twierdzenie": "NCHFP: mrozić tylko świeży drób dobrej jakości; pakować w papier albo folię do mrożenia („na aptekarza” albo „na rzeźnika”) albo w woreczki do mrożenia; drób ze sklepu owinąć dodatkowo; kawałki układać w zwarty, płaski, kwadratowy pakunek; po zapakowaniu zamknąć i od razu zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-poultry-and-game-birds/",
+    "miejsce": "NCHFP, Freezing Poultry and Game Birds; akapit 1–2",
+    "cytat": "Select only high quality, fresh poultry to freeze. … Package poultry in freezer paper or wrap using the drugstore or butcher wrap, or place in freezer bags. Storebought poultry needs to be over-wrapped before freezing because its clear wrap is not moisture-vapor resistant. When packaging pieces, arrange them to form a compact, square, flat package so they will stack better in the freezer. After packaging, seal and freeze immediately.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f5e8a91d143"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wcześniej FRZ-057 (tylko zdanie o pakowaniu).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-419",
+  "twierdzenie": "NCHFP i Clemson HGIC: drobiu ani dzikiego ptactwa nie nadziewać przed mrożeniem, bo w nadzieniu podczas mrożenia i rozmrażania łatwo namnażają się bakterie wywołujące zatrucia; fabrycznie nadziewany mrożony drób powstaje w warunkach, których nie da się odtworzyć w domu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-poultry-and-game-birds/",
+    "miejsce": "NCHFP, Freezing Poultry and Game Birds; akapit 4",
+    "cytat": "Do not stuff poultry or game birds before freezing them. During freezing or thawing times, bacteria that cause foodborne illness could easily grow in the stuffing. Commercially stuffed frozen poultry is prepared under special safety conditions that cannot be duplicated at home.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f5e8a91d143"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/freezing-meats-seafood/",
+    "miejsce": "Clemson HGIC 3064, Freezing Meats & Seafood (upd. 2012); Note",
+    "cytat": "Note: Do not stuff poultry or game birds before freezing them.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "39b6d9e89ee2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "f416d347ee35"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-420",
+  "twierdzenie": "NCHFP: drób, który ma być nadziewany, rozmrozić całkowicie; mięso, ryby i drób do panierowania i smażenia rozmrozić najpierw przynajmniej częściowo w lodówce.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/thawing-and-preparing-foods-for-serving/",
+    "miejsce": "NCHFP, Thawing and Preparing Foods for Serving; Animal Products",
+    "cytat": "When frozen meat, fish or poultry are to be breaded and fried, they should be at least partially thawed in the refrigerator first, for easier handling. All poultry which is to be stuffed should be thawed completely for safety.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6327220daefa"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "a9b47cead5b5"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-421",
+  "twierdzenie": "NCHFP: dzikie ptactwo (przepiórki, gołębie, kaczki, bażanty) oskubać i wypatroszyć jak najszybciej po odstrzale, schłodzić i oczyścić; z dzikich kaczek i gęsi usunąć nadmiar tłuszczu, bo bardzo szybko jełczeje; dalej mrozić jak drób.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-poultry-and-game-birds/",
+    "miejsce": "NCHFP, Freezing Poultry and Game Birds; akapit 3",
+    "cytat": "Quail, dove, duck, pheasant and other game birds should be dressed and gutted as soon as possible after shooting. Cool and clean properly. Remove excess fat on wild ducks and geese since it becomes rancid very quickly. Freeze as directed for poultry.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7f5e8a91d143"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„dressed” przetłumaczone jako „oskubać” (przygotować tuszkę); do przeglądu roli 09.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-422",
+  "twierdzenie": "Czasy w zamrażarce dla jakości, surowy drób: NCHFP podaje 6–9 miesięcy; FDA podaje dłużej: kurczak albo indyk w całości 1 rok, w częściach 9 miesięcy, podroby 3–4 miesiące; karta podaje wartość krótszą.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/how-long-can-i-store-frozen-foods/",
+    "miejsce": "NCHFP, How Long Can I Store Frozen Foods; tabela",
+    "cytat": "Poultry 6 - 9",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3c65dd5e9cbd"
+   },
+   {
+    "adres": "https://www.fda.gov/media/74435/download",
+    "miejsce": "FDA, Refrigerator & Freezer Storage Chart (PDF, March 2018); tabela, Fresh Poultry",
+    "cytat": "Chicken or turkey, whole 1 - 2 days 1 year … Chicken or turkey, parts 1 - 2 days 9 months … Giblets 1 - 2 days 3 - 4 months",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "f987330d7e8a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Sprzeczność na szczeblu 1 (jakość, nie bezpieczeństwo): część wspólna i różnica pokazane; karta bierze krótszą wartość NCHFP (decyzja C5-D2).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-423",
+  "twierdzenie": "NCHFP i FDA: mięsa peklowane mają krótką trwałość nawet w zamrażarce, bo są tłuste, a sól peklująca przyspiesza jełczenie; FDA podaje dla boczku 1 miesiąc, FMI zaleca nie mrozić boczku otwartego, a nieotwarty najwyżej 1 miesiąc; NCHFP dopuszcza najwyżej 1–3 miesiące; karta podaje 1 miesiąc.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-bacon/",
+    "miejsce": "NCHFP, Freezing Bacon; akapit 1–2",
+    "cytat": "Cured meats have a short shelf life, even in the freezer, because of the high fat content and the development of rancid flavors. Rancidity develops even in the freezer and the presence of the curing salts hastens its development. | The Food Marketing Institute recommends that opened bacon not be frozen. Their recommendation is that unopened bacon only be frozen up to one month.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "152f7ddfcf54"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-bacon/",
+    "miejsce": "NCHFP, Freezing Bacon; akapit 5",
+    "cytat": "Our maximum recommendation would be 1 to 3 months for bacon and cured meats.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "152f7ddfcf54"
+   },
+   {
+    "adres": "https://www.fda.gov/media/74435/download",
+    "miejsce": "FDA, Refrigerator & Freezer Storage Chart (PDF, March 2018); tabela, Bacon & Sausage",
+    "cytat": "Bacon 7 days 1 month",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "f987330d7e8a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wcześniej FRZ-058. Dotyczy boczku peklowanego (bacon). Wariant pork-belly-jowl-v15 („boczek mrożony”) nie mówi, czy to boczek surowy, czy peklowany/wędzony: surowy boczek to świeża wieprzowina (FDA: wieprzowina świeża, grupa A). Pytanie do roli 03 (C5-P1).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-424",
+  "twierdzenie": "NCHFP: nieotwarty boczek owinąć w sklepowym opakowaniu grubą folią aluminiową albo innym materiałem do mrożenia, wypychając powietrze; jeśli trzeba zamrozić boczek otwarty, i to tylko na bardzo krótko, odłożyć porcję zaraz po otwarciu opakowania, szczelnie owinąć folią albo woreczkiem do mrożenia i szybko zamrozić do 0°F (-18°C) lub niżej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/meat-and-poultry-products/freezing-bacon/",
+    "miejsce": "NCHFP, Freezing Bacon; akapit 3–4",
+    "cytat": "To freeze unopened bacon, overwrap the store package with heavy duty foil or other freezer wrapping, being sure to push all the air out of the package and tightly close the wrapping around the inside package. | If you cannot use a full package and want to try freezing opened bacon for a very short time period, remove the portion you want to freeze from the package as soon as you open it, not after it has been in an open package for a while. Be sure to wrap the portion for freezing in heavy duty freezer plastic wrap or bags, making the package air-tight. Freeze quickly to a temperature of 0 degrees F. or lower.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "152f7ddfcf54"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przeliczenie °C za FDA.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-425",
+  "twierdzenie": "NCHFP i Clemson HGIC: ryby do mrożenia mają być jak najświeższe; umyć, oskrobać łuski od ogona do głowy tępą stroną noża, wypatroszyć, odciąć głowę i płetwę grzbietową, dokładnie umyć w zimnej bieżącej wodzie; duże ryby pokroić na steki grubości 3/4 cala (ok. 1,9 cm) albo filety.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/seafood-products/freezing-fish/",
+    "miejsce": "NCHFP, Freezing Fish; Preparation",
+    "cytat": "Fish for freezing should be as fresh as possible. | Preparation - Wash fish, and remove scales by scraping fish gently from tail to head with the dull edge of a knife or spoon. … Wash fish thoroughly in cold running water. … For steaks, cut fish crosswise into ¾-inch thick steaks.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "11fb66fed5a0"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/freezing-meats-seafood/",
+    "miejsce": "Clemson HGIC 3064, Freezing Meats & Seafood (upd. 2012); Fish",
+    "cytat": "Fish for freezing should be fresh as possible.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "39b6d9e89ee2"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Wcześniej FRZ-059. Przeliczenie cm to rachunek JarAtlas. „¾” zapisane 3/4.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-426",
+  "twierdzenie": "NCHFP: ryby dzieli się na tłuste (cefal, makrela, pstrąg, tuńczyk, łosoś) i chude (flądra, dorsz, witlinek, kulbak, granik, lucjan, strzępiel i większość ryb słodkowodnych); tłuste przed mrożeniem można zanurzyć na 20 sekund w roztworze 2 łyżek krystalicznego kwasu askorbinowego na 1 kwartę zimnej wody (przeciw jełczeniu), chude na 20 sekund w solance z 1/4 szklanki soli na 1 kwartę zimnej wody (jędrność, mniejszy wyciek); przy glazurze cytrynowo-żelatynowej to zbędne.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/seafood-products/freezing-fish/",
+    "miejsce": "NCHFP, Freezing Fish; Pretreating",
+    "cytat": "\"Fat fish\" includes varieties such as mullet, mackerel, trout, tuna and salmon. \"Lean fish\" includes flounder, cod, whiting, redfish, croaker, snapper, grouper, sheepshead and most freshwater fish. | Before freezing, fish can be pretreated to improve the quality of the stored fish. Fat fish should be dipped for 20 seconds in an ascorbic acid solution made from 2 tablespoons crystalline ascorbic acid to one quart of cold water to control rancidity and flavor change. Lean fish may be dipped for 20 seconds in a brine of ¼ cup salt to 1 quart of cold water to firm the fish and to decrease drip loss from thawing.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "11fb66fed5a0"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Polskie nazwy gatunków amerykańskich (redfish, croaker, grouper, sheepshead) przybliżone; do przeglądu roli 09. Clemson zalicza pstrąga do chudych w tabeli czasów, NCHFP do tłustych: sprzeczność odnotowana, przyjęto NCHFP (szczebel 1).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-427",
+  "twierdzenie": "NCHFP, glazura cytrynowo-żelatynowa: wymieszać 1/4 szklanki soku z cytryny i 1 3/4 szklanki wody; 1 saszetkę żelatyny bez smaku rozpuścić w 1/2 szklanki tej mieszaniny; pozostałe 1 1/2 szklanki zagotować, wmieszać rozpuszczoną żelatynę, ostudzić do temperatury pokojowej; zimną rybę zanurzyć, odsączyć, zapakować w materiał odporny na parę wodną, opisać i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/seafood-products/freezing-fish/",
+    "miejsce": "NCHFP, Freezing Fish; Lemon-Gelatin Glaze",
+    "cytat": "To prepare glaze, mix ¼ cup of lemon juice and 1¾ cups of water. Dissolve one packet of unflavored gelatin in ½ cup of the lemon juice-water mixture. Heat the remaining 1½ cups of liquid to boiling. Stir the dissolved gelatin mixture into the boiling liquid. Cool to room temperature. When cool, dip the cold fish into the lemon-gelatin glaze and drain. Wrap the fish in moisture-vapor resistant packaging, label and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "11fb66fed5a0"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Ułamki „¼, 1¾, ½, 1½” zapisane 1/4, 1 3/4, 1/2, 1 1/2.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-428",
+  "twierdzenie": "NCHFP, glazura lodowa: rybę bez opakowania zamrozić, zanurzyć w wodzie z lodem bliskiej zamarzania, na kilka minut włożyć do zamrażarki i powtarzać, aż powstanie równa warstwa lodu, potem zapakować, opisać i zamrozić; zamrażanie ryby w bloku wody daje gorszą jakość niż glazury.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/seafood-products/freezing-fish/",
+    "miejsce": "NCHFP, Freezing Fish; Ice Glaze; Water",
+    "cytat": "Ice Glaze - Place unwrapped fish in the freezer to freeze. As soon as it is frozen, dip fish in near-freezing ice water. Place fish again in the freezer a few minutes to harden the glaze. Take fish out, and repeat the glazing until a uniform cover of ice is formed. … Freezing fish in a block of ice will produce a poorer quality product than using the glaze methods.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "11fb66fed5a0"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-429",
+  "twierdzenie": "NCHFP: ikrę dokładnie umyć i zapakować do pojemników albo woreczków do mrożenia z wolną przestrzenią 1/4 cala (ok. 0,6 cm), zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/seafood-products/freezing-fish/",
+    "miejsce": "NCHFP, Freezing Fish; FISH ROE",
+    "cytat": "FISH ROE - Thoroughly wash and package in freezer containers or bags and boxes, leaving ¼-inch headspace. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "11fb66fed5a0"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Przeliczenie cm to rachunek JarAtlas.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-430",
+  "twierdzenie": "Czasy w zamrażarce dla jakości, ryby: NCHFP podaje 3–6 miesięcy; FDA podaje ryby chude 6–8 miesięcy, tłuste 2–3 miesiące, gotowane 4–6 miesięcy, wędzone 2 miesiące; karta podaje ryby tłuste 2–3 miesiące, chude 3–6 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/how-long-can-i-store-frozen-foods/",
+    "miejsce": "NCHFP, How Long Can I Store Frozen Foods; tabela",
+    "cytat": "Fish 3 - 6",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3c65dd5e9cbd"
+   },
+   {
+    "adres": "https://www.fda.gov/media/74435/download",
+    "miejsce": "FDA, Refrigerator & Freezer Storage Chart (PDF, March 2018); tabela, Fish & Shellfish",
+    "cytat": "Lean fish 1 - 2 days 6 - 8 months … Fatty fish 1 - 2 days 2 - 3 months … Cooked fish 3 - 4 days 4 - 6 months … Smoked fish 14 days 2 months",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "f987330d7e8a"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Sprzeczność na szczeblu 1 (jakość): karta bierze dla każdego rodzaju wartość krótszą (decyzja C5-D2). Clemson: chude 6, tłuste 3 miesiące, zgodne z przedziałem.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-431",
+  "twierdzenie": "FDA: owoce morza po zakupie od razu włożyć na lód, do lodówki albo zamrażarki; jeśli będą użyte w ciągu 2 dni, trzymać w czystej lodówce w 40°F (ok. 4°C) lub niżej; inaczej szczelnie owinąć folią spożywczą, aluminiową albo papierem odpornym na wilgoć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+    "miejsce": "FDA, Selecting and Serving Fresh and Frozen Seafood Safely; Storage",
+    "cytat": "Put seafood on ice or in the refrigerator or freezer soon after buying it. If seafood will be used within 2 days after purchase, store it in a clean refrigerator at a temperature of 40°F or below. … Otherwise, wrap it tightly in plastic, foil, or moisture-proof paper and store it in the freezer.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3d409e5d3cd0"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Przeliczenie °C to rachunek JarAtlas.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-432",
+  "twierdzenie": "FDA: rozmrażać owoce morza stopniowo w lodówce przez noc; szybciej: w szczelnym woreczku zanurzonym w zimnej wodzie albo, jeśli zaraz będą gotowane, w mikrofalówce w trybie rozmrażania, przerywając, gdy ryba jest jeszcze oszroniona, ale giętka.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+    "miejsce": "FDA, Selecting and Serving Fresh and Frozen Seafood Safely; Thawing",
+    "cytat": "Thaw frozen seafood gradually by placing it in the refrigerator overnight. If you have to thaw seafood quickly, either seal it in a plastic bag and immerse it in cold water, or - if the food will be cooked immediately thereafter - microwave it on the \"defrost\" setting and stop the defrost cycle while the fish is still icy but pliable.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3d409e5d3cd0"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-433",
+  "twierdzenie": "FDA: niektóre gatunki ryb mogą zawierać pasożyty, a mrożenie zabija obecne pasożyty, ale nie wszystkie szkodliwe drobnoustroje; dlatego najbezpieczniej jest owoce morza ugotować.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+    "miejsce": "FDA, Selecting and Serving Fresh and Frozen Seafood Safely; Cooking/Freezing",
+    "cytat": "Some species of fish can contain parasites, and freezing will kill any parasites that may be present. | However, be aware that freezing doesn't kill all harmful germs. That's why the safest route is to cook your seafood.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3d409e5d3cd0"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Strona FDA nie podaje temperatury ani czasu mrożenia, które zabijają pasożyty, ani nie mówi, że domowa zamrażarka 0°F wystarcza. Do kart tylko druga część (najbezpieczniej ugotować); bez zdania, że domowo mrożoną rybę można jeść na surowo (decyzja C5-D6, pytanie do eksperta C5-P2).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-434",
+  "twierdzenie": "Clemson HGIC: ostrygi w muszlach mrozić tylko żywe (żywa ostryga trzyma muszlę mocno zamkniętą albo zamyka ją po stuknięciu); martwe wyrzucić; przegrzebki mają być żywe do wyłuskania; wyłuskane ostrygi z płynem i przegrzebki pakować z wolną przestrzenią 1/2 cala (ok. 1,3 cm); mrożenie zmienia strukturę i smak ostryg.",
+  "zrodla": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/freezing-meats-seafood/",
+    "miejsce": "Clemson HGIC 3064, Freezing Meats & Seafood (upd. 2012); Oysters; Scallops",
+    "cytat": "Oysters: Oysters that are still in the shell should only be frozen live. A live oyster will keep its shell tightly closed or will close when tapped. … First, wash the oyster shells, discarding any that have died. … Place oysters and liquor in a plastic container or freezer bag, leaving ½-inch headspace. Seal and freeze. | Note: Freezing does change the texture and flavor of oysters. … Scallops: Scallops for freezing should be live until shucked.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "39b6d9e89ee2"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Jedno źródło szczebla 3. Katalog nie ma wariantu mrożenia owoców morza; twierdzenie w zapasie.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-435",
+  "twierdzenie": "Clemson HGIC: krewetki do mrożenia świeże, dobrej jakości; najdłuższa trwałość i najlepsza jakość: surowe, bez głów, w pancerzykach; surowe umyć i odsączyć, ugotowane szybko schłodzić; pakować z wolną przestrzenią 1/4 cala (ok. 0,6 cm). FDA: świeże krewetki, przegrzebki, raki i kalmary 3–6 miesięcy (jakość).",
+  "zrodla": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/freezing-meats-seafood/",
+    "miejsce": "Clemson HGIC 3064, Freezing Meats & Seafood (upd. 2012); Shrimp",
+    "cytat": "Shrimp: Select high-quality, fresh shrimp for freezing. … For maximum storage life and quality, freeze shrimp raw, with heads removed, but shells still on. … Be sure to wash and drain the shrimp if frozen uncooked. Quickly chill cooked shrimp before freezing. Package in freezer containers or bags, leaving ¼-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "39b6d9e89ee2"
+   },
+   {
+    "adres": "https://www.fda.gov/media/74435/download",
+    "miejsce": "FDA, Refrigerator & Freezer Storage Chart (PDF, March 2018); tabela, Fish & Shellfish",
+    "cytat": "Fresh shrimp, scallops, … crawfish, squid 1 - 2 days 3 - 6 months",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "f987330d7e8a"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Katalog nie ma wariantu; w zapasie. Wiersz FDA łamie się na dwie linie (fragmenty osobno).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-436",
+  "twierdzenie": "FDA: jaj w skorupkach ani jaj ugotowanych na twardo nie mrozić; surowe żółtka i białka można przechowywać w zamrażarce 1 rok (jakość). NCHFP: jaja wytrzymują w lodówce, przykryte, co najmniej 1 miesiąc, więc mrożenie zwykle nie jest potrzebne.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/media/74435/download",
+    "miejsce": "FDA, Refrigerator & Freezer Storage Chart (PDF, March 2018); tabela, Eggs",
+    "cytat": "Fresh, in shell 3 - 5 weeks Don't freeze … Raw yolks, whites 2 - 4 days 1 year … Hard cooked 1 week Don't freeze",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "f987330d7e8a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-eggs/",
+    "miejsce": "NCHFP, Freezing Eggs; akapit 1",
+    "cytat": "Eggs can be stored for at least 1 month, covered in the refrigerator. Freezing is often unnecessary, but it can be done.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e591e375f289"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Wcześniej FRZ-060. FDA w lodówce podaje 3–5 tygodni dla jaj w skorupkach, NCHFP „co najmniej 1 miesiąc”: część wspólna ok. 1 miesiąc; liczba lodówkowa nie trafia do karty mrożenia bez decyzji roli 03.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-437",
+  "twierdzenie": "NCHFP: do mrożenia wybierać świeże jaja; każde rozbić osobno na czysty spodek, sprawdzić świeżość i usunąć kawałki skorupki, zanim połączy się je z innymi.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-eggs/",
+    "miejsce": "NCHFP, Freezing Eggs; Preparation",
+    "cytat": "Preparation - Select fresh eggs and break each separately into a clean saucer. Examine each for freshness and remove any pieces of shell before mixing with other eggs.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e591e375f289"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-438",
+  "twierdzenie": "NCHFP, całe jaja: dokładnie wymieszać żółtka z białkami, nie ubijać powietrza; żeby żółtka nie stały się ziarniste, dodać na szklankę jaj 1 1/2 łyżki cukru, 1 1/2 łyżki syropu kukurydzianego albo 1/2 łyżeczki soli, zależnie od przeznaczenia; przetrzeć przez sito, pakować z wolną przestrzenią 1/2 cala (ok. 1,3 cm), zamknąć i zamrozić; w foremce do lodu 3 łyżki masy (1 kostka) to 1 jajo.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-eggs/",
+    "miejsce": "NCHFP, Freezing Eggs; WHOLE EGGS",
+    "cytat": "WHOLE EGGS - Thoroughly mix yolks and whites. Do not whip in air. To prevent graininess of the yolks, add 1-½ tablespoons sugar, 1-½ tablespoons corn syrup OR ½ teaspoon salt per cup whole eggs, depending on intended use. Strain through a sieve or colander to improve uniformity. Package, allowing ½-inch headspace. Seal and freeze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e591e375f289"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-eggs/",
+    "miejsce": "NCHFP, Freezing Eggs; WHOLE EGGS, ice trays",
+    "cytat": "Three tablespoons of the egg mixture (one cube) equal one whole egg.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e591e375f289"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "„1-½” zapisane 1 1/2. Przeliczenie cm to rachunek JarAtlas. Dopisek na opakowaniu (sól albo cukier) to dobra praktyka, nie twierdzenie źródła: do decyzji roli 03.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-439",
+  "twierdzenie": "NCHFP, żółtka: delikatnie wymieszać, dodać na szklankę żółtek 1 1/2 łyżki cukru, 1 1/2 łyżki syropu kukurydzianego albo 1/2 łyżeczki soli, przetrzeć przez sito, pakować z wolną przestrzenią 1/2 cala (ok. 1,3 cm); 1 łyżka masy to 1 żółtko. Białka: delikatnie wymieszać bez ubijania, przetrzeć, bez cukru i soli, ta sama wolna przestrzeń; 2 łyżki to 1 białko.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-eggs/",
+    "miejsce": "NCHFP, Freezing Eggs; EGG YOLKS",
+    "cytat": "EGG YOLKS - Separate eggs. Stir yolks gently. To prevent graininess, add 1-½ tablespoons sugar, 1-½ tablespoons corn syrup OR ½ teaspoon salt per cup of egg yolks, depending on intended use. Strain through a sieve. Package, allowing ½-inch headspace. Seal and freeze. One tablespoon of the yolk mixture equals one egg yolk.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e591e375f289"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-eggs/",
+    "miejsce": "NCHFP, Freezing Eggs; EGG WHITES",
+    "cytat": "EGG WHITES - Gently mix whites; do not whip. Strain through a sieve. No sugar or salt is needed. Package, leaving ½-inch headspace. Seal and freeze. Two tablespoons of the egg-white mixture equal one egg white.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e591e375f289"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-440",
+  "twierdzenie": "NCHFP i Clemson HGIC: mrozić tylko masło dobrej jakości z pasteryzowanej śmietanki; uformować kostki albo porcje i szczelnie owinąć folią aluminiową, folią przezroczystą albo papierem do mrożenia, albo zamknąć w pojemnikach odpornych na parę wodną (chroni przed obcymi zapachami i oparzeliną); oryginalne opakowanie można owinąć dodatkowo; w 0°F (-18°C) lub niżej zalecana trwałość 6–9 miesięcy.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-butter/",
+    "miejsce": "NCHFP, Freezing Butter; akapit 1",
+    "cytat": "Freeze only high quality butter made from pasteurized cream. Mold into squares, patties or other desired shapes, and wrap tightly in aluminum foil, transparent film or freezer paper, or seal in moisture-vapor resistant containers. | Recommended freezer shelf life: 6 to 9 months",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "efc4c4e42429"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/safe-handling-of-milk-dairy-products/",
+    "miejsce": "Clemson HGIC, Safe Handling of Milk & Dairy Products; Butter",
+    "cytat": "To store butter in the freezer, wrap it in moisture- and vapor-proof freezer packaging material to keep the butter from absorbing odors from other foods and to prevent freezer burn. Butter in its original carton can be overwrapped.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ae41b3e9048a"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Wcześniej FRZ-054. Masło domowe z niepasteryzowanej śmietanki nie jest objęte (NCHFP: tylko z pasteryzowanej); dotyczy też domowego masła z wariantów butter-whey-cheese (pytanie do roli 03, C5-P3).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-441",
+  "twierdzenie": "NCHFP: ser najlepiej trzyma się w lodówce; w razie potrzeby ser twardy albo półtwardy można zamrozić w kawałkach zapakowanych w materiał odporny na parę wodną; po zamrożeniu może się kruszyć i stać się mączysty, ale zachowa smak; zalecana trwałość w zamrażarce 6 miesięcy (twardy, np. cheddar, szwajcarski; miękki, np. brie).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-cheese/",
+    "miejsce": "NCHFP, Freezing Cheese; akapit 1",
+    "cytat": "Cheese keeps best in the refrigerator. If necessary, hard or semi-hard cheese can be frozen if cut in … packaged in moisture-vapor resistant material. This cheese may become crumbly and mealy when frozen, but will retain its flavor. | Recommended freezer shelf life: | Hard cheese (such as cheddar and Swiss), 6 months | Soft cheese (such as Brie), 6 months",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "92d75927a888"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Wcześniej FRZ-055. Rozmiar kawałków w źródle zapisany niejednoznacznie („1-1/2- to 1-pound sizes”, prawdopodobnie 1/2–1 funta): pominięty, pytanie C5-P4. „Swiss” to rodzaj sera, nie kraj; nazwa w pl małą literą.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-442",
+  "twierdzenie": "NCHFP: twarożek (cottage), ricotta i serek śmietankowy źle znoszą mrożenie; serek śmietankowy wymieszany z gęstą śmietanką można zamrozić do późniejszego użycia w dipach albo polewach. Clemson HGIC: jogurtu, śmietany kwaśnej, maślanki i śmietanki słodkiej nie mrozić (zmiana struktury, rozwarstwienie tłuszczu).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-cheese/",
+    "miejsce": "NCHFP, Freezing Cheese; akapit 2",
+    "cytat": "Cream cheese, cottage cheese and ricotta cheese do not freeze well. However, if combined with heavy cream, cream cheese can be frozen for later use in dips or as icing on frozen sandwich loaves.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "92d75927a888"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/safe-handling-of-milk-dairy-products/",
+    "miejsce": "Clemson HGIC, Safe Handling of Milk & Dairy Products; tabela",
+    "cytat": "Sweet and Regular Cream … Do not freeze. (Change of texture, body appearance. Separation of fat emulsion.)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ae41b3e9048a"
+   },
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/safe-handling-of-milk-dairy-products/",
+    "miejsce": "Clemson HGIC, Safe Handling of Milk & Dairy Products; Yogurt",
+    "cytat": "Freezing yogurt is not recommended because of the variable results in texture.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ae41b3e9048a"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Jakość, nie bezpieczeństwo. W katalogu nie ma wariantów mrożenia tych produktów: twierdzenie ogranicza zakres kart (czego nie proponować). Komórki tabeli Clemson (Cultured Buttermilk, Sour Cream: „Do not freeze.”) sprawdzone w tekście, cytat skrócony.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-443",
+  "twierdzenie": "Clemson HGIC: pasteryzowane mleko pełne albo odtłuszczone można trzymać w zamrażarce 3 miesiące; mrożenie może zmienić strukturę; rozmrażać w lodówce. NCHFP: masło, jaja, mleko i ser rozmrażać w lodówce, potem używać jak świeżych; rozmrożoną śmietankę przed użyciem lekko wymieszać.",
+  "zrodla": [
+   {
+    "adres": "https://hgic.clemson.edu/factsheet/safe-handling-of-milk-dairy-products/",
+    "miejsce": "Clemson HGIC, Safe Handling of Milk & Dairy Products; tabela",
+    "cytat": "Pasteurized Fresh Whole or Skimmed Milk … 3 months. Freezing may result in change in texture. Thaw in refrigerator.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "ae41b3e9048a"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/freeze-general-information/thawing-and-preparing-foods-for-serving/",
+    "miejsce": "NCHFP, Thawing and Preparing Foods for Serving; Butter, Eggs, Milk and Cheese",
+    "cytat": "Butter, Eggs, Milk and Cheese - Place the frozen product in the refrigerator to thaw. After thawing, it can be used as fresh. | Cream - Thaw the same as butter, but before using the thawed cream, it should be mixed or blended slightly.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "6327220daefa"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Czas dla mleka: jedno źródło szczebla 3. Sprzeczność z Clemson (śmietanka „Do not freeze”) a NCHFP (instrukcja rozmrażania śmietanki): rozstrzygnięcie ostrożne — karta nie proponuje mrożenia śmietanki (C5-D7). Katalog nie ma wariantu mrożenia mleka; twierdzenie w zapasie i do rozmrażania masła, sera i jaj.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
  }
 ]
