@@ -29556,5 +29556,578 @@
    "sha": "81e3c693dbcf"
   },
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-324",
+  "twierdzenie": "NCHFP Cherries-Whole, ilość: średnio 17,5 funta (ok. 7,9 kg) owoców na wsad 7 słoików quart i 11 funtów (ok. 5 kg) na wsad 9 słoików pint.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/cherries-whole/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Cherries-Whole, Quantity",
+    "cytat": "An average of 17½ pounds is needed per canner load of 7 quarts; an average of 11 pounds is needed per canner load of 9 pints.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0238aefdbb77"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "przeglad": null
+ },
+ {
+  "id": "ACI-325",
+  "twierdzenie": "Lista FDA/CFSAN przybliżonego pH żywności wymienia renklody wśród śliwek („Plums, Green Gage”) z pH 3,60–4,30 (część jadalna w stanie naturalnym, duża zmienność odmian i warunków).",
+  "zrodla": [
+   {
+    "adres": "https://www.riverstonehealth.org/wp-content/uploads/FDA-Approximate-pH-of-Foods.pdf",
+    "miejsce": "FDA/CFSAN Approximate pH of Foods and Food Products (kopia Riverstone Health), s. 6, Plums, Green Gage",
+    "cytat": "Plums, Green Gage                        3.60 - 4.30",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "43697422659c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-157",
+  "twierdzenie": "NCHFP Plum Jam Pectin (sproszkowana pektyna): 6 szklanek rozgniecionych śliwek (ok. 3,5 funta śliwek), 1 opakowanie sproszkowanej pektyny, 8 szklanek cukru; wychodzi ok. 9 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/plum-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Plum Jam Pectin, składniki",
+    "cytat": "6 cups crushed plums (about 3½ pounds plums) 1 package powdered pectin 8 cups sugar Yield: About 9 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5f2cca334db7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-158",
+  "twierdzenie": "NCHFP Plum Jam Pectin: słoiki wysterylizować, a dwuczęściowe pokrywki przygotować według producenta; w pełni dojrzałe śliwki przebrać, umyć, pokroić i usunąć pestki; gdy miąższ mocno przylega do pestek, gotować śliwki powoli w małej ilości wody kilka minut do zmięknięcia, potem usunąć pestki; owoce rozgnieść.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/plum-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Plum Jam Pectin, Procedure",
+    "cytat": "Sterilize canning jars and prepare two-piece canning lids according to manufacturer's directions.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5f2cca334db7"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/plum-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Plum Jam Pectin, Procedure",
+    "cytat": "Sort fully ripe plums, wash, cut into pieces, and remove pits. If flesh clings tightly to pits, cook plums slowly in a small amount of water for a few minutes until they are softened, then remove pits. Crush fruit.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5f2cca334db7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-159",
+  "twierdzenie": "NCHFP Plum Jam Pectin: odmierzone rozgniecione śliwki wymieszać z pektyną, na dużym ogniu, stale mieszając, szybko doprowadzić do pełnego wrzenia (bąble na całej powierzchni); dodać cukier, mieszając znów doprowadzić do pełnego wrzenia, gotować intensywnie 1 minutę; zdjąć z ognia i zebrać pianę.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/plum-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Plum Jam Pectin, Procedure",
+    "cytat": "Measure crushed plums into a kettle. Add pectin and stir well. Place on high heat and, stirring constantly, bring quickly to a full boil with bubbles over the entire surface. Add sugar, continue stirring, and heat again to a full bubbling boil. Boil hard for 1 minute. Remove from heat; skim.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5f2cca334db7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-160",
+  "twierdzenie": "NCHFP Plum Jam Pectin: gorący dżem od razu nalać do gorących, wysterylizowanych słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; brzegi przetrzeć zwilżonym czystym ręcznikiem papierowym, założyć dwuczęściowe metalowe pokrywki i wekować w kąpieli wodnej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/plum-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Plum Jam Pectin, Procedure",
+    "cytat": "Fill hot jam immediately into hot, sterile jars, leaving ¼ inch headspace. Wipe rims of jars with a dampened clean paper towel; adjust two-piece metal canning lids. Process in a Boiling Water Canner .",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5f2cca334db7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-161",
+  "twierdzenie": "NCHFP Plum Jam Pectin, tabela 1 (kąpiel wodna, hot, słoiki sterylne): czasy tylko dla słoików 1/2 pinty i pint; 0–1000 stóp: 5 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/plum-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Plum Jam Pectin, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5f2cca334db7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-162",
+  "twierdzenie": "NCHFP Plum Jam Pectin, tabela 1 (słoiki sterylne): słoiki 1/2 pinty i pint, 1001–6000 stóp: 10 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/plum-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Plum Jam Pectin, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5f2cca334db7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-163",
+  "twierdzenie": "NCHFP Plum Jam Pectin, tabela 1 (słoiki sterylne): słoiki 1/2 pinty i pint, powyżej 6000 stóp: 15 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/plum-jam-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Plum Jam Pectin, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5f2cca334db7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-164",
+  "twierdzenie": "NCHFP Strawberry Preserves: 6 szklanek przygotowanych truskawek (ok. 2 pudełek po kwarcie), 4,5 szklanki cukru; wychodzi ok. 4 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/strawberry-preserves/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Strawberry Preserves, składniki",
+    "cytat": "6 cups prepared strawberries (about 2 quart boxes strawberries) 4½ cups sugar Yield: About 4 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "273c59ae334c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-165",
+  "twierdzenie": "NCHFP Strawberry Preserves: słoiki wysterylizować, a dwuczęściowe pokrywki przygotować według producenta; wybrać duże, jędrne, kwaskowe truskawki; umyć, odsączyć i usunąć szypułki z listkami.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/strawberry-preserves/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Strawberry Preserves, Procedure",
+    "cytat": "Sterilize canning jars and prepare two-piece canning lids according to manufacturer's directions.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "273c59ae334c"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/strawberry-preserves/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Strawberry Preserves, Procedure",
+    "cytat": "Select large, firm, tart strawberries. Wash and drain berries; remove caps.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "273c59ae334c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-166",
+  "twierdzenie": "NCHFP Strawberry Preserves: owoce i cukier ułożyć naprzemiennymi warstwami i odstawić na 8–10 godzin albo na noc do lodówki lub innego chłodnego miejsca.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/strawberry-preserves/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Strawberry Preserves, Procedure",
+    "cytat": "Combine prepared fruit and sugar in alternate layers and let stand for 8 to 10 hours or overnight in the refrigerator or other cool place.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "273c59ae334c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-167",
+  "twierdzenie": "NCHFP Strawberry Preserves: masę owocową podgrzać do wrzenia, delikatnie mieszając; gotować szybko, mieszając w razie potrzeby, żeby nie przywarła; gotować do temperatury o 9 °F (5 °C) wyższej od temperatury wrzenia wody albo do lekkiego zgęstnienia syropu (ok. 15–20 minut); zdjąć z ognia i zebrać pianę.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/strawberry-preserves/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Strawberry Preserves, Procedure",
+    "cytat": "Heat the fruit mixture to a boiling, stirring gently. Boil rapidly, stirring as needed to prevent sticking. Cook to 9 degrees F. above the boiling point of water, or until the syrup is somewhat thick (about 15 or 20 minutes). Remove from heat; skim.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "273c59ae334c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-168",
+  "twierdzenie": "NCHFP Strawberry Preserves: gorące konfitury od razu nalać do gorących, wysterylizowanych słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; brzegi przetrzeć zwilżonym czystym ręcznikiem papierowym, założyć dwuczęściowe metalowe pokrywki i wekować w kąpieli wodnej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/strawberry-preserves/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Strawberry Preserves, Procedure",
+    "cytat": "Fill hot preserves immediately into hot, sterile jars, leaving ¼ inch headspace. Wipe rims of jars with a dampened clean paper towel; adjust two-piece metal canning lids. Process in a Boiling Water Canner .",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "273c59ae334c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-169",
+  "twierdzenie": "NCHFP Strawberry Preserves, tabela 1 (kąpiel wodna, hot, słoiki sterylne): czasy tylko dla słoików 1/2 pinty i pint; 0–1000 stóp: 5 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/strawberry-preserves/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Strawberry Preserves, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "273c59ae334c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-170",
+  "twierdzenie": "NCHFP Strawberry Preserves, tabela 1 (słoiki sterylne): słoiki 1/2 pinty i pint, 1001–6000 stóp: 10 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/strawberry-preserves/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Strawberry Preserves, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "273c59ae334c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-171",
+  "twierdzenie": "NCHFP Strawberry Preserves, tabela 1 (słoiki sterylne): słoiki 1/2 pinty i pint, powyżej 6000 stóp: 15 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/strawberry-preserves/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Strawberry Preserves, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "273c59ae334c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-172",
+  "twierdzenie": "NCHFP Grape Jelly Powdered Pectin: 5 szklanek soku winogronowego (ok. 3,5 funta winogron Concord i 1 szklanka wody), 1 opakowanie sproszkowanej pektyny, 7 szklanek cukru; wychodzi ok. 8–9 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/grape-jelly-powdered-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Grape Jelly Powdered Pectin, składniki",
+    "cytat": "5 cups grape juice (about 3½ pounds Concord grapes and 1 cup water) 1 package powdered pectin 7 cups sugar Yield: About 8 or 9 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bb7e457ffcb6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-173",
+  "twierdzenie": "NCHFP Grape Jelly Powdered Pectin: słoiki wysterylizować, a dwuczęściowe pokrywki przygotować według producenta; w pełni dojrzałe winogrona przebrać, umyć i usunąć szypułki; rozgnieść, dodać wodę, przykryć i zagotować na dużym ogniu; zmniejszyć ogień i gotować na wolnym ogniu 10 minut; wydobyć sok.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/grape-jelly-powdered-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Grape Jelly Powdered Pectin, Procedure",
+    "cytat": "Sterilize canning jars and prepare two-piece canning lids according to manufacturer's directions.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bb7e457ffcb6"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/grape-jelly-powdered-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Grape Jelly Powdered Pectin, Procedure",
+    "cytat": "Sort, wash, and remove stems from fully ripe grapes. Crush grapes, add water, cover, bring to boil on high heat. Reduce heat and simmer for 10 minutes. Extract juice.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bb7e457ffcb6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-174",
+  "twierdzenie": "NCHFP Grape Jelly Powdered Pectin: żeby w galaretce nie tworzyły się kryształy winianu, sok odstawić na noc w chłodne miejsce, a potem przecedzić przez dwie warstwy wilgotnej gazy, żeby usunąć powstałe kryształy.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/grape-jelly-powdered-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Grape Jelly Powdered Pectin, Procedure",
+    "cytat": "To prevent formation of tartrate crystals in the jelly, let juice stand in a cool place overnight, then strain through two thicknesses of damp cheesecloth to remove crystals that have formed.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bb7e457ffcb6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-175",
+  "twierdzenie": "NCHFP Grape Jelly Powdered Pectin: odmierzony sok wymieszać z pektyną, na dużym ogniu, stale mieszając, szybko doprowadzić do pełnego, burzliwego wrzenia, którego nie da się zatrzymać mieszaniem; dodać cukier, mieszając znów doprowadzić do pełnego, burzliwego wrzenia, gotować intensywnie 1 minutę; zdjąć z ognia i szybko zebrać pianę.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/grape-jelly-powdered-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Grape Jelly Powdered Pectin, Procedure",
+    "cytat": "Measure juice into a kettle. Add pectin and stir well. Place on high heat and, stirring constantly, bring quickly to a full rolling boil that cannot be stirred down. Add sugar, continue stirring, and heat again to a full rolling boil. Boil hard for 1 minute. Remove from heat; skim off foam quickly.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bb7e457ffcb6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-176",
+  "twierdzenie": "NCHFP Grape Jelly Powdered Pectin: gorącą galaretkę od razu nalać do gorących, wysterylizowanych słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; brzegi przetrzeć zwilżonym czystym ręcznikiem papierowym, założyć dwuczęściowe metalowe pokrywki i wekować w kąpieli wodnej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/grape-jelly-powdered-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Grape Jelly Powdered Pectin, Procedure",
+    "cytat": "Pour hot jelly immediately into hot, sterile jars, leaving ¼ inch headspace. Wipe rims of jars with a dampened clean paper towel; adjust two-piece metal canning lids. Process in a Boiling Water Canner .",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bb7e457ffcb6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-177",
+  "twierdzenie": "NCHFP Grape Jelly Powdered Pectin, tabela 1 (kąpiel wodna, hot, słoiki sterylne): czasy tylko dla słoików 1/2 pinty i pint; 0–1000 stóp: 5 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/grape-jelly-powdered-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Grape Jelly Powdered Pectin, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bb7e457ffcb6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-178",
+  "twierdzenie": "NCHFP Grape Jelly Powdered Pectin, tabela 1 (słoiki sterylne): słoiki 1/2 pinty i pint, 1001–6000 stóp: 10 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/grape-jelly-powdered-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Grape Jelly Powdered Pectin, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bb7e457ffcb6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-179",
+  "twierdzenie": "NCHFP Grape Jelly Powdered Pectin, tabela 1 (słoiki sterylne): słoiki 1/2 pinty i pint, powyżej 6000 stóp: 15 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/grape-jelly-powdered-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Grape Jelly Powdered Pectin, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bb7e457ffcb6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
+ },
+ {
+  "id": "SLO-180",
+  "twierdzenie": "NCHFP, Types of Jellied Products: konfitury (preserves) to małe całe owoce albo kawałki jednakowej wielkości w klarownym, lekko zżelowanym syropie; owoce powinny być miękkie i jędrne.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/types-of-jellied-products/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Types of Jellied Products",
+    "cytat": "Preserves are small, whole fruit or uniform size pieces in a clear, slightly gelled syrup. The fruit should be tender and plump.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "c5be884c2a0d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": null
  }
 ]
