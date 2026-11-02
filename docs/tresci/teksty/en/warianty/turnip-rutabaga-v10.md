@@ -1,8 +1,10 @@
 # Dried turnip pieces (SDSU)
 
-This card describes how to dry peeled turnip pieces, after blanching, in a dehydrator at 140 °F (60 °C), following South Dakota State University (SDSU) Extension. [T:SUS-306]
+This card describes how to dry peeled turnip pieces, after blanching, in a dehydrator or oven at 140 °F (60 °C), following South Dakota State University (SDSU) Extension. [T:SUS-306,SUS-001]
 
 ## Choosing and preparing
+
+Wash the turnips. [T:SUS-424]
 
 Remove the tops, peel the turnips and cut them into pieces 1/4–1/2 inch (about 6–13 mm) thick. [T:SUS-306]
 
@@ -10,7 +12,7 @@ SDSU blanches the pieces for 3–5 minutes. [T:SUS-306]
 
 JarAtlas rule (cautious): blanch them for the full 5 minutes, because blanching also helps destroy microorganisms. [T:SUS-306,SUS-014]
 
-Clemson HGIC lists turnip among the vegetables that can be dried thinly sliced as vegetable chips. [T:SUS-039]
+Clemson HGIC also mentions turnip chips; this card does not describe them. [T:SUS-039]
 
 ## Blanching
 

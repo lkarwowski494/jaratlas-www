@@ -4,7 +4,7 @@ This card describes how to dry mirabelle plum halves in a dehydrator or oven at 
 
 ## Choosing and preparing
 
-CSU gives these directions for plums; JarAtlas treats mirabelles as small plums and uses the same directions for them. [T:SUS-100]
+CSU gives these directions for plums and does not name mirabelles; CSU leaves small plums whole, but gives drying times only for halves and slices, so this card halves mirabelles as CSU does for large plums. [T:SUS-100]
 
 Wash the fruit thoroughly and sort it: discard any fruit that shows decay, bruises or mould, because such defects can affect all of the dried product. [T:SUS-223]
 
@@ -17,6 +17,8 @@ CSU also describes drying small plums whole after cracking the skins in boiling 
 Dip the halves for 10 minutes in ascorbic acid solution or another antimicrobial solution. [T:SUS-100]
 
 Ascorbic acid solution: 34 g of pure ascorbic acid per 1 quart (about 1 l) of cold water; soak the fruit in it for 10 minutes. [T:SUS-012]
+
+Then lift the halves out and drain them well. [T:SUS-100,SUS-012]
 
 Pretreating with an acid solution increases the destruction of E. coli O157:H7, Salmonella and Listeria monocytogenes bacteria during drying. [T:SUS-011]
 

@@ -43,9 +43,9 @@ An inaccurate dial gauge is one cause of serious errors in pressure canning. [T:
 
 The NCHFP recipe lets you change the proportions of the vegetables or substitute other favourite vegetables, except leafy greens, dried beans, cream-style corn, winter squash, sweet potatoes, broccoli, cauliflower or cabbage. [T:SZY-073]
 
-Green peas are not on this list, but dried beans are, so use only fresh shelled green peas, not dried peas. [T:SZY-073]
+Green peas are not on this list. [T:SZY-073] JarAtlas rule (cautious): dried beans are excluded, so use only fresh shelled green peas, not dried peas. [T:SZY-073]
 
-The process time on this card is the Mixed Vegetables time, not the shorter time for carrots alone. [T:SZY-073]
+The process time on this card is the Mixed Vegetables time, not the shorter time for carrots alone. [T:SZY-073,SZY-072]
 
 ## Preparing the vegetables
 
@@ -93,13 +93,13 @@ Inside the canner the pressure, and so the temperature, is lower at higher eleva
 
 Dial-gauge canner: 11 lb at 0–2000 ft (up to 600 m), 12 lb at 2001–4000 ft (above 600 m up to 1200 m), 13 lb at 4001–6000 ft (above 1200 m up to 1800 m) and 14 lb at 6001–8000 ft (above 1800 m up to 2400 m). [T:SZY-073,SZY-064]
 
-Above 8000 ft (above 2400 m) the dial-gauge table gives no pressure, so this card gives no dial-gauge process there. [T:SZY-065,SZY-064]
+Above 8000 ft the dial-gauge table gives no pressure, so above 2400 m (the card’s rounded limit) this card gives no dial-gauge process. [T:SZY-065,SZY-064]
 
 Weighted-gauge canner: 10 lb at 1000 ft or less (300 m or less) and 15 lb above 1000 ft (above 300 m). [T:SZY-073,SZY-064]
 
 The card converts feet to metres and rounds the limits down: 1000 ft becomes 300 m, 2000 ft 600 m, 4000 ft 1200 m, 6000 ft 1800 m and 8000 ft 2400 m. [T:SZY-064]
 
-Pressures are in pounds per square inch (lb, PSI), as in the NCHFP tables. [T:-]
+Pressures are in pounds per square inch (lb, PSI), as in the NCHFP tables. [T:SZY-073]
 
 NCHFP times are for US jar sizes: a pint holds about 473 ml and a quart about 946 ml. [T:ACI-174]
 

@@ -4,7 +4,7 @@ This card describes the NCHFP instructions for freezing cabbage, used here for r
 
 ## Choosing and preparing
 
-NCHFP gives these instructions for cabbage without naming a type; this card uses them unchanged for red and savoy cabbage. [T:SLO-272]
+NCHFP gives these instructions for cabbage without naming a type; JarAtlas rule: this card uses them unchanged for red and savoy cabbage. [T:SLO-272]
 
 Frozen cabbage is suitable only for use as a cooked vegetable. [T:SLO-272]
 

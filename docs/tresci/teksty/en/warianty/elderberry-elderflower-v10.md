@@ -8,11 +8,19 @@ According to NDSU Extension, some flowers should not be eaten, so identify flowe
 
 According to Ask Extension, it is dangerous to eat unripe elderberries or any other parts of the plant, such as stems, leaves and bark; raw, unripe berries and other parts of the plant contain compounds that can become poisonous. [T:ACI-450]
 
+OSU Extension describes harvesting elderflowers as whole clusters picked when they are white and open, and removing the flowers while discarding any stray pieces of leaf or stem, which contain higher levels of toxins. [T:SUS-422]
+
+Use only black or blue elder: OSU Extension advises against making food products from red elderberry, which may contain higher levels of toxins. [T:SUS-423]
+
 ## Choosing and preparing
 
 NCHFP describes this method for herbs, that is leaves, flowers or seeds; it does not name elderflowers, and this card applies it to them. [T:SUS-076]
 
-JarAtlas rule (cautious): dry only the flowers; remove all leaves and as much of the stems as you can, because stems and leaves of the elder plant contain compounds that can become poisonous. [T:ACI-450]
+This card does not teach how to identify wild plants. [T:-]
+
+JarAtlas rule (cautious): if you are not sure what a plant is, do not pick it and do not eat it. [T:SLO-489]
+
+JarAtlas rule (cautious): dry only the flowers; remove all leaves and as much of the stems as you can, because stems and leaves of the elder plant contain compounds that can become poisonous. [T:ACI-450,SUS-422]
 
 After picking, do not leave the flowers in the sun or unattended. [T:SUS-077]
 

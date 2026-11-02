@@ -9787,10 +9787,10 @@
    {
     "adres": "https://extension.psu.edu/lets-preserve-root-vegetables-beets-carrots-turnips-and-rutabagas",
     "miejsce": "treść strony",
-    "cytat": "Rutabagas may be canned by these directions, but they usually discolor and develop a strong flavor when canned.",
-    "odczyt": "2026-11-01",
+    "cytat": "Rutabagas may be canned by these directions, but they usually discolor and develop a strong flavor when canned. It is better to freeze rutabagas.",
+    "odczyt": "2026-11-02",
     "szczebel": 3,
-    "weryfikacja": "curl+grep",
+    "weryfikacja": "curl+grep na kopii z 2026-11-02 (weryfikacja V2a/V2b, HTTP 200); ponowne pobranie 2026-11-02 w p37 F: HTTP 404",
     "sha12": "e9084255cd53"
    }
   ],
@@ -14963,7 +14963,7 @@
  },
  {
   "id": "SUS-012",
-  "twierdzenie": "Roztwór kwasu askorbinowego do owoców: 34 g (2,5 łyżki) czystego kwasu na 1 litr (1 kwartę) zimnej wody; moczyć 10 minut.",
+  "twierdzenie": "Roztwór kwasu askorbinowego do owoców: 34 g (2,5 łyżki) czystego kwasu na 1 litr (1 kwartę) zimnej wody; moczyć 10 minut, wyjąć łyżką cedzakową i dobrze odsączyć.",
   "zrodla": [
    {
     "adres": "https://extension.colostate.edu/resource/drying-fruits/",
@@ -14973,6 +14973,15 @@
     "szczebel": 3,
     "weryfikacja": "curl+grep",
     "sha12": "a05dfedababc"
+   },
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 2025); Ascorbic Acid Pretreatment",
+    "cytat": "Soak for 10 minutes, remove with a slotted spoon, drain well, and dehydrate.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "390aacf3a74f"
    }
   ],
   "status": "potwierdzone",
@@ -17585,7 +17594,7 @@
  },
  {
   "id": "SUS-100",
-  "twierdzenie": "Śliwki: małe zostawia się w całości i zanurza na 1–2 minuty we wrzątku, żeby popękała skórka; połówki bez pestki zanurza się na 10 minut w roztworze kwasu askorbinowego lub innym roztworze przeciwdrobnoustrojowym. Suszy się do stanu giętkiego i skórzastego (plasterki 6–10 godzin, połówki 24–36 godzin).",
+  "twierdzenie": "Śliwki: małe zostawia się w całości i zanurza na 1–2 minuty we wrzątku, żeby popękała skórka; połówki bez pestki zanurza się na 10 minut w roztworze kwasu askorbinowego lub innym roztworze przeciwdrobnoustrojowym, potem wyjmuje i odsącza; duże owoce kroi się na połówki (bez pestki) albo plasterki. Suszy się do stanu giętkiego i skórzastego (plasterki 6–10 godzin, połówki 24–36 godzin).",
   "zrodla": [
    {
     "adres": "https://extension.colostate.edu/resource/drying-fruits/",
@@ -17604,6 +17613,24 @@
     "szczebel": 3,
     "weryfikacja": "curl+grep",
     "sha12": "99cc1ffd7735"
+   },
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 08.2025); Table 2, wiersz Plums and prunes",
+    "cytat": "Leave whole if small; cut large fruit into halves (pit removed) or slices.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "390aacf3a74f"
+   },
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-fruits/",
+    "miejsce": "Colorado State Univ. Extension, Drying Fruits (peer-reviewed, rev. 08.2025); Table 2, wiersz Plums and prunes",
+    "cytat": "If cut in half, dip in ascorbic acid or other antimicrobial solution for 10 minutes. Remove and drain.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "390aacf3a74f"
    }
   ],
   "status": "potwierdzone",
@@ -17621,7 +17648,7 @@
   "jednostka": "min",
   "pochodzenie": "B4 E1-suszenie-twierdzenia-2026-11-02",
   "jednoZrodlo": true,
-  "twierdzenie_en": "Plums: leave small ones whole and crack the skins in boiling water for 1–2 minutes; dip pitted halves for 10 minutes in ascorbic acid or another antimicrobial solution. Dry until pliable and leathery (slices 6–10 hours, halves 24–36 hours).",
+  "twierdzenie_en": "Plums: leave small ones whole and crack the skins in boiling water for 1–2 minutes; dip pitted halves for 10 minutes in ascorbic acid or another antimicrobial solution, then remove and drain them; cut large fruit into halves (pit removed) or slices. Dry until pliable and leathery (slices 6–10 hours, halves 24–36 hours).",
   "brzmieniePrzed": "Śliwki: małe zostawia się w całości i nacina skórkę we wrzątku przez 1–2 minuty; połówki bez pestki zanurza się na 10 minut w roztworze kwasu askorbinowego lub innym. Suszy się do stanu giętkiego i skórzastego (plasterki 6–10 godzin, połówki 24–36 godzin).",
   "weryfikacjaZastepcza": "2026-11-02",
   "weryfikacjaE3": "p25 D-027: CZĘŚCIOWO, poprawka weryfikatora wprowadzona: „nacina skórkę we wrzątku” to błędny przekład „crack skins in boiling water” (źródło: pękanie skórki od wrzątku, nie nacinanie nożem; por. brzmienie SUS-102). Źródło: „ascorbic acid or other antimicrobial solution”; „lub innym” / „another solution” gubi warunek „przeciwdrobnoustrojowy” (rozszerza zakres na dowolny roztwór). Czasy i liczby zgodne."
@@ -17854,7 +17881,7 @@
  },
  {
   "id": "SUS-108",
-  "twierdzenie": "Kapusta: usunąć liście zewnętrzne, pokroić na ćwiartki, wyciąć głąb i kroić w paski 1/8 cala (ok. 3 mm); blanszować 4 minuty, suszyć 10–12 godzin, do stanu chrupkiego i łamliwego.",
+  "twierdzenie": "Kapusta: umyć, usunąć liście zewnętrzne, pokroić na ćwiartki, wyciąć głąb i kroić w paski 1/8 cala (ok. 3 mm); blanszować 4 minuty, suszyć 10–12 godzin, do stanu chrupkiego i łamliwego.",
   "zrodla": [
    {
     "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
@@ -17864,6 +17891,15 @@
     "szczebel": 3,
     "weryfikacja": "curl+grep",
     "sha12": "3f112e49d126"
+   },
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "miejsce": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed, rev. 11.2012); Table 2, wiersz Cabbage (komórki rozdzielone |)",
+    "cytat": "Cabbage Wash. Remove outer leaves, quarter and core. Cut into strips 1/8″ thick.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "898a675c6d4a"
    }
   ],
   "status": "potwierdzone",
@@ -17881,7 +17917,7 @@
   "jednostka": "min",
   "pochodzenie": "B4 E1-suszenie-twierdzenia-2026-11-02",
   "jednoZrodlo": true,
-  "twierdzenie_en": "Cabbage: remove outer leaves, quarter and core, cut into 1/8-inch (about 3 mm) strips; blanch 4 minutes, dry 10–12 hours, until crisp and brittle.",
+  "twierdzenie_en": "Cabbage: wash, remove outer leaves, quarter and core, cut into 1/8-inch (about 3 mm) strips; blanch 4 minutes, dry 10–12 hours, until crisp and brittle.",
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {
@@ -27222,10 +27258,10 @@
    {
     "adres": "https://nvlpubs.nist.gov/nistpubs/hb/2025/NIST.HB.44-2025.pdf",
     "miejsce": "NIST Handbook 44 (2025), Appendix C, Units of Liquid Volume (miary kuchenne)",
-    "cytat": "1 cup, measuring 237 milliliters",
-    "odczyt": "2026-11-01",
+    "cytat": "1 cup, measuring 8 fluid ounces (exactly) 237 milliliters",
+    "odczyt": "2026-11-02",
     "szczebel": 1,
-    "weryfikacja": "pdftotext -layout+grep",
+    "weryfikacja": "pdftotext (tryb surowy) + grep",
     "sha12": "3f762eb83ea0"
    }
   ]
@@ -64559,6 +64595,24 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Make sure the pressure canner is working properly before preparing food.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "65cc016fbdb2"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Put the rack and hot water into the canner.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "65cc016fbdb2"
    }
   ],
   "status": "potwierdzone",
@@ -64610,6 +64664,15 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Read your manufacturer’s directions to know how a particular weighted gauge should rock or jiggle to indicate that the proper pressure is reached and then maintained during processing.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "65cc016fbdb2"
    }
   ],
   "status": "potwierdzone",
@@ -64799,6 +64862,15 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "It is also okay to leave the canner in place after you have turned off the burner.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "65cc016fbdb2"
    }
   ],
   "status": "potwierdzone",
@@ -65003,6 +65075,15 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "8be40e3ea09b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Using Pressure Canners (UGA, Preserving Food: Using Pressure Canners)",
+    "cytat": "Check reliable canning instructions for elevation adjustments.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "65cc016fbdb2"
    }
   ],
   "status": "potwierdzone",
@@ -65174,6 +65255,15 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "1bc5e111da05"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomatoes-with-okra-or-zucchini/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomatoes with Okra or Zucchini",
+    "cytat": "Unlike many tomato recipes, which are acidified by adding lemon juice, citric acid, or 5% vinegar, this recipe does not need added acid when processed as directed.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "070afb8f8bcc"
    }
   ],
   "status": "potwierdzone",
@@ -65525,7 +65615,7 @@
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony.",
+  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony. Ciecierzyca (suche nasiona) jako odmiana suchego grochu/fasoli: wniosek JarAtlas, strona jej nie wymienia.",
   "krytyczne": true,
   "przeglad": null,
   "klaster": "SZY",
@@ -65559,29 +65649,29 @@
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
     "miejsce": "NCHFP (nchfp.uga.edu): Beans, Dry, with Tomato or Molasses Sauce",
-    "cytat": "Tomato Sauce - Version 1: Mix 1 quart tomato juice, 3 tablespoons sugar, 2 teaspoons salt, 1 tablespoon chopped onion, and 1/4 teaspoon each of ground cloves, allspice, mace, and cayenne pepper. Heat to boiling.",
+    "cytat": "Tomato Sauce – Version 1: Mix 1 quart tomato juice, 3 tablespoons sugar, 2 teaspoons salt, 1 tablespoon chopped onion, and 1/4 teaspoon each of ground cloves, allspice, mace, and cayenne pepper. Heat to boiling.",
     "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
-    "sha12": "41b0988a3c76"
+    "sha12": "e4f12516e6ff"
    },
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
     "miejsce": "NCHFP (nchfp.uga.edu): Beans, Dry, with Tomato or Molasses Sauce",
-    "cytat": "Tomato Sauce - Version 2: Mix 1 cup tomato ketchup with 3 cups of cooking liquid from beans. Heat to boiling.",
+    "cytat": "Tomato Sauce – Version 2: Mix 1 cup tomato ketchup with 3 cups of cooking liquid from beans. Heat to boiling.",
     "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
-    "sha12": "41b0988a3c76"
+    "sha12": "e4f12516e6ff"
    },
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
     "miejsce": "NCHFP (nchfp.uga.edu): Beans, Dry, with Tomato or Molasses Sauce",
-    "cytat": "Molasses Sauce - Mix 4 cups water or cooking liquid from beans, 3 tablespoons dark molasses, 1 tablespoon vinegar, 2 teaspoons salt, and 3/4 teaspoon powdered dry mustard. Heat to boiling.",
+    "cytat": "Molasses Sauce – Mix 4 cups water or cooking liquid from beans, 3 tablespoons dark molasses, 1 tablespoon vinegar, 2 teaspoons salt, and 3/4 teaspoon powdered dry mustard. Heat to boiling.",
     "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
-    "sha12": "41b0988a3c76"
+    "sha12": "e4f12516e6ff"
    },
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-dry-with-tomato-or-molasses/",
@@ -65655,11 +65745,11 @@
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/carrots-sliced-or-diced/",
     "miejsce": "NCHFP (nchfp.uga.edu): Carrots – Sliced or Diced",
-    "cytat": "Wash, peel, and rewash carrots. Slice or dice. Hot pack - Cover with boiling water; bring to boil and simmer for 5 minutes. Fill jars, leaving 1-inch of headspace. Raw pack - Fill jars tightly with raw carrots, leaving 1-inch headspace. Add 1 teaspoon of salt per quart to the jar, if desired. Add hot cooking liquid or water, leaving 1-inch headspace.",
+    "cytat": "Wash, peel, and rewash carrots. Slice or dice. Hot pack – Cover with boiling water; bring to boil and simmer for 5 minutes. Fill jars, leaving 1-inch of headspace. Raw pack – Fill jars tightly with raw carrots, leaving 1-inch headspace. Add 1 teaspoon of salt per quart to the jar, if desired. Add hot cooking liquid or water, leaving 1-inch headspace.",
     "odczyt": "2026-11-02",
     "szczebel": 1,
     "weryfikacja": "curl+grep",
-    "sha12": "94abad094dcd"
+    "sha12": "2323bd640b3a"
    },
    {
     "adres": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/carrots-sliced-or-diced/",
@@ -65960,7 +66050,7 @@
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony.",
+  "uproszczenie": "Ciśnienia (lb = PSI) z dwóch tabel strony: tabela 1 dla manometru, tabela 2 dla ciężarka; czasy te same w obu tabelach. „1000 stóp lub mniej” = kolumna „0 - 1,000 ft”. Przeliczenia cali na cm i °F na °C to rachunek (1 cal = 2,54 cm), zaokrąglony. Przepis nie podaje koloru szparagów: JarAtlas stosuje go do szparagów białych i zielonych przygotowanych jak w przepisie (wniosek JarAtlas, asparagus-v06).",
   "krytyczne": true,
   "przeglad": null,
   "klaster": "SZY",
@@ -66296,6 +66386,15 @@
     "szczebel": 1,
     "weryfikacja": "curl+grep",
     "sha12": "8a7c4e186f3d"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/preparing-and-canning-poultry-red-meats-and-seafoods/meat-stock/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Meat Stock",
+    "cytat": "If desired, remove any tiny amount of meat trimmings still clinging to bones and add back to the broth. Reheat broth to boiling and fill jars, leaving 1-inch headspace. Wipe rims of jars with a dampened clean paper towel.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "f6cfc9365071"
    }
   ],
   "status": "potwierdzone",
@@ -66357,6 +66456,15 @@
    {
     "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-raw-without-added-liquid/",
     "miejsce": "NCHFP, Whole or Halved Tomatoes (packed raw without added liquid), Procedure, to samo miejsce",
+    "cytat": "Add bottled lemon juice or citric acid to the jars (See acidification instructions).",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, HTTP 200)",
+    "sha12": "8789e5981d86"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-raw-without-added-liquid/",
+    "miejsce": "NCHFP, Whole or Halved Tomatoes (packed raw without added liquid), Procedure, to samo miejsce",
     "cytat": "Add 1 teaspoon of salt per quart to the jars, if desired. Fill jars with raw tomatoes, leaving 1/2-inch headspace. Press tomatoes in the jars until spaces between them fill with juice. Leave 1/2-inch headspace.",
     "odczyt": "2026-11-02",
     "szczebel": 1,
@@ -66365,7 +66473,7 @@
    }
   ],
   "status": "potwierdzone",
-  "uproszczenie": "Strona nie wymienia pomidorów koktajlowych (green-cherry-tomato-v14): karta stosuje ten przepis do pomidorów koktajlowych bez zmian, także obieranie ze skórki (decyzja autora p37, do weta).",
+  "uproszczenie": "Strona nie wymienia pomidorów koktajlowych (green-cherry-tomato-v14): karta stosuje ten przepis do pomidorów koktajlowych bez zmian, także obieranie ze skórki (decyzja autora p37, do weta). p37 F (rozstrzygnięcie sesji głównej): na karcie zastosowanie do pomidorków koktajlowych stoi jako osobne zdanie-reguła JarAtlas [T:-], a to twierdzenie popiera tylko zdanie o przepisie.",
   "krytyczne": true,
   "przeglad": null,
   "wazne_do": "2027-11-02",
@@ -66582,5 +66690,169 @@
   "wazne_do": "2027-11-02",
   "klaster": "NAP",
   "pochodzenie": "06 p37 (autor C): karta artisanal-vinegars-v01"
+ },
+ {
+  "id": "SUS-421",
+  "twierdzenie": "Według CSU Extension (Drying Vegetables, tabela 2) seler naciowy: przyciąć łodygi, dokładnie umyć łodygi i liście, pokroić łodygi; blanszować 4 minuty, suszyć 10–16 godzin, do stanu bardzo łamliwego; CSU zaleca blanszowanie w wodzie zamiast w parze albo w mikrofalówce, bo woda daje równiejsze przenikanie ciepła.",
+  "twierdzenie_en": "According to CSU Extension (Drying Vegetables, Table 2), celery: trim the stalks, wash stalks and leaves thoroughly, slice the stalks; blanch 4 minutes, dry 10–16 hours, until very brittle; CSU recommends water blanching over steam or microwave blanching because water blanching heats more evenly.",
+  "zrodla": [
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "miejsce": "Colorado State Univ. Extension, Drying Vegetables; Table 2, wiersz Celery (kolumny: Preparation, blanching Time* (mins.), Drying Time (hrs.), Dryness Test)",
+    "cytat": "Celery Trim stalks. Wash stalks and leaves thoroughly. Slice stalks. 4 10-16 Very brittle",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, encje zdekodowane, HTTP 200)",
+    "sha12": "898a675c6d4a"
+   },
+   {
+    "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
+    "miejsce": "Colorado State Univ. Extension, Drying Vegetables; Blanching",
+    "cytat": "Water blanching is recommended over steam blanching or blanching in a microwave because water blanching achieves a more even heat penetration than the other two methods.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, encje zdekodowane, HTTP 200)",
+    "sha12": "898a675c6d4a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Czas blanszowania z tabeli 2 dotyczy 3000–5000 stóp (SUS-105). SDSU podaje dla selera krótszy czas, 2 min we wrzątku lub parze (SUS-305); karta celeriac-celery-v11 bierze dłuższy czas CSU i blanszowanie w wodzie (wariant ostrożniejszy, werdykt V3a #1).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "jednoZrodlo": true,
+  "pochodzenie": "06 p37 F (poprawki po D-027 d V3a #1)"
+ },
+ {
+  "id": "SUS-422",
+  "twierdzenie": "Według OSU Extension (EM 9446) kwiaty czarnego bzu zbiera się jako całe baldachy, gdy są białe i otwarte; kwiaty oddziela się, pocierając je w misce i wyrzucając przypadkowe kawałki liści albo łodyg, które zawierają więcej toksyn.",
+  "twierdzenie_en": "According to OSU Extension (EM 9446), elderflowers are harvested as whole clusters (cymes) picked when they are white and open; the flowers are removed by rubbing them in a bowl, discarding any stray pieces of leaf or stem, which contain higher levels of toxins.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/catalog/em-9446-play-it-safe-when-preserving-elderberries",
+    "miejsce": "OSU Extension, EM 9446 Play it safe when preserving elderberries, Harvesting",
+    "cytat": "To harvest the flowers of elderberry shrubs, pick whole clusters (cymes) when they are white and open.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, encje zdekodowane, HTTP 200)",
+    "sha12": "8f5657ecb8c6"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/catalog/em-9446-play-it-safe-when-preserving-elderberries",
+    "miejsce": "OSU Extension, EM 9446, Harvesting, to samo miejsce",
+    "cytat": "Remove the flowers by rubbing them in a bowl, being careful to discard any stray pieces of leaf or stem, which contain higher levels of toxins.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, encje zdekodowane, HTTP 200)",
+    "sha12": "8f5657ecb8c6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "To samo miejsce podaje suszenie kwiatów w 80 °F lub niżej „to preserve the best flavor” (jakość); karta elderberry-elderflower-v10 suszy wg NCHFP (SUS-031), bez tej liczby.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "jednoZrodlo": true,
+  "pochodzenie": "06 p37 F (poprawki po D-027 d V3a #2)"
+ },
+ {
+  "id": "SUS-423",
+  "twierdzenie": "Według OSU Extension (EM 9446) bez koralowy (czerwony, Sambucus racemosa) to inny gatunek niż bez czarny, niebieski i amerykański (podgatunki Sambucus nigra); może zawierać więcej toksyn, więc nie należy robić z niego produktów spożywczych.",
+  "twierdzenie_en": "According to OSU Extension (EM 9446), red elderberry (Sambucus racemosa) is a different species from the blue, American and European black elderberries (subspecies of Sambucus nigra); it may contain higher levels of toxins, so food products should not be made from it.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/catalog/em-9446-play-it-safe-when-preserving-elderberries",
+    "miejsce": "OSU Extension, EM 9446, Types of elderberries, Red elderberries (Sambucus racemosa)",
+    "cytat": "Red elderberries are a different species from the elderberries described above.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, encje zdekodowane, HTTP 200)",
+    "sha12": "8f5657ecb8c6"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/catalog/em-9446-play-it-safe-when-preserving-elderberries",
+    "miejsce": "OSU Extension, EM 9446, Types of elderberries, Red elderberries, to samo miejsce",
+    "cytat": "Red elderberries may contain a higher concentration of toxins. Avoid creating food products from red elderberry.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (HTML bez znaczników, encje zdekodowane, HTTP 200)",
+    "sha12": "8f5657ecb8c6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Opisane wyżej na stronie gatunki: blue elderberry (Sambucus nigra ssp. cerulea), American elderberry i European elderberry (Sambucus nigra ssp.), „The European black elder is a small tree…”. Zdanie karty „Use only black or blue elder” to ostrożna reguła JarAtlas wyprowadzona z tego twierdzenia (brzmienie weryfikatora V3a #3).",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "jednoZrodlo": true,
+  "pochodzenie": "06 p37 F (poprawki po D-027 d V3a #3)"
+ },
+ {
+  "id": "SLO-880",
+  "twierdzenie": "Według CDC człowiek może zarazić się motylicą wątrobową (Fasciola) przez jedzenie surowej rukwi wodnej albo innych roślin słodkowodnych zanieczyszczonych larwami; żeby uniknąć zakażenia, CDC zaleca nie jeść surowej rukwi wodnej i innych roślin słodkowodnych, zwłaszcza z terenów, gdzie pasie się bydło, w miejscach występowania Fasciola.",
+  "twierdzenie_en": "According to the CDC, people can get Fasciola (a liver fluke) by eating raw watercress or other freshwater plants contaminated by larvae; to avoid infection, the CDC advises not eating raw watercress and other freshwater plants, especially from areas where livestock graze in places where Fasciola infection occurs.",
+  "zrodla": [
+   {
+    "adres": "https://www.cdc.gov/liver-flukes/fasciola/index.html",
+    "miejsce": "CDC, Liver Flukes: About Fasciola, Causes",
+    "cytat": "A person can get Fasciola infection when they consume raw watercress or other freshwater plants contaminated by larvae.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, encje zdekodowane, HTTP 200)",
+    "sha12": "6b618161b18d"
+   },
+   {
+    "adres": "https://www.cdc.gov/liver-flukes/fasciola/index.html",
+    "miejsce": "CDC, Liver Flukes: About Fasciola, Prevention",
+    "cytat": "To avoid Fasciola infection, do not eat raw watercress and other freshwater plants, especially from areas where livestock feed on land covered by grass (grazing areas) in places where Fasciola infection occurs.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, encje zdekodowane, HTTP 200)",
+    "sha12": "6b618161b18d"
+   },
+   {
+    "adres": "https://www.cdc.gov/liver-flukes/about/index.html",
+    "miejsce": "CDC, About Liver Flukes, Fasciola",
+    "cytat": "In most cases, people can get Fasciola infection by eating raw watercress or other freshwater plants contaminated by larvae.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (HTML bez znaczników, encje zdekodowane, HTTP 200)",
+    "sha12": "95574a5b42e7"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "WHO (fact sheet Foodborne trematode infections) mówi ogólnie o „aquatic vegetables”, bez nazwy rukwi. CDC nie mówi, że rukiew uprawna jedzona na surowo jest bezpieczna; dlatego karta vine-leaves-greens-v09 nie powtarza brzmienia weryfikatora „Use only cultivated watercress bought for eating raw”.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "06 p37 F (poprawki po D-027 d V3b #3)"
+ },
+ {
+  "id": "SUS-424",
+  "twierdzenie": "Według SDSU Extension (Preserve It! Turnip/Rutabaga, kolumna Drying) rzepę i brukiew przed suszeniem najpierw się myje, potem zdejmuje nać, obiera i kroi.",
+  "twierdzenie_en": "According to SDSU Extension (Preserve It! Turnip/Rutabaga, Drying column), turnips and rutabagas for drying are washed first, then the tops are removed and they are peeled and cut.",
+  "zrodla": [
+   {
+    "adres": "https://extension.sdstate.edu/sites/default/files/2024-04/S-0001-41-Turnip_Rutabaga-Preserve_It.pdf",
+    "miejsce": "SDSU Extension, Preserve It! Turnip/Rutabaga (S-0001-41), kolumna Drying, Process: Electric Dehydrator",
+    "cytat": "Process: Electric Dehydrator • Wash • Remove tops, peel and cut into ¼-½ inch thick pieces",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep (HTTP 200)",
+    "sha12": "e0a62d1e0cc6"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Uzupełnienie SUS-306 (przypiętego testem B13) o krok mycia; werdykt V3a #7.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "jednoZrodlo": true,
+  "pochodzenie": "06 p37 F (poprawki po D-027 d V3a #7)"
  }
 ]

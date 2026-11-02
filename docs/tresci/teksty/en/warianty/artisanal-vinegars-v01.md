@@ -9,6 +9,8 @@ This card describes how to make cider vinegar at home following Penn State Exten
 
 ## What this card covers
 
+This variant is named after the mother of vinegar, but the tested method removes the mother by filtering before storage; this card gives no method for keeping vinegar with its mother. [T:NAP-093,NAP-094]
+
 Mother of vinegar forms while the cider ferments; in this method the finished vinegar is filtered to remove the mother, which prevents further fermentation or spoilage. [T:NAP-032,NAP-093]
 
 This card does not describe keeping vinegar unfiltered with its mother; do not leave out the filtering or the pasteurizing. [T:NAP-093,NAP-094]
@@ -57,7 +59,7 @@ The vinegar must reach at least 140 °F (60 °C) and should not go above 160 °F
 
 Cap the containers, let them cool and store them at room temperature out of direct sunlight. [T:NAP-094]
 
-Pasteurized vinegar stays in excellent condition almost indefinitely. [T:NAP-094]
+Penn State says that pasteurized vinegar stays in excellent condition almost indefinitely. [T:NAP-094]
 
 Use it only for salads, cooking and refrigerator or freezer pickles, never for canning or for foods stored at room temperature. [T:NAP-030]
 

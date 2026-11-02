@@ -6,6 +6,8 @@ This card describes how to dry red or savoy cabbage strips in a dehydrator or ov
 
 CSU gives these directions for cabbage without naming a type; this card uses them unchanged for red and savoy cabbage. [T:SUS-108]
 
+Wash the cabbage. [T:SUS-108]
+
 Remove the outer leaves, quarter and core the head, and cut the cabbage into 1/8-inch (about 3 mm) strips. [T:SUS-108]
 
 Blanch the strips for 4 minutes. [T:SUS-108]

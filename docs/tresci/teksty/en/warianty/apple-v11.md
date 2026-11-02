@@ -25,7 +25,7 @@ NCHFP warns not to reduce the sugar in traditional recipes: too little sugar pre
 
 ## Making the juice
 
-Cover the peels and cores with cold water, at most 1 cup per pound (about 450 g) of fruit, and bring to a boil. [T:SLO-801]
+Put the peels and cores in a pan, add cold water, up to 1 cup per pound (about 450 g) of fruit, and bring to a boil. [T:SLO-801]
 
 Simmer for 15 minutes and no longer: overcooking destroys the pectin. [T:SLO-801]
 
@@ -63,7 +63,7 @@ The recipe adds 1 minute for each 1000 ft above sea level; JarAtlas uses the lon
 
 Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
 
-Above 1000 ft Sure-Jell adds time to these 5 minutes: add 5 minutes at 1001–3000 ft (above 300 m up to 900 m), 10 minutes at 3001–6000 ft (above 900 m up to 1800 m), 15 minutes at 6001–8000 ft (above 1800 m up to 2400 m) and 20 minutes at 8001–10000 ft (above 2400 m up to 3000 m). [T:ACI-732,ACI-176,SLO-209,ACI-930,SLO-803]
+JarAtlas rule (cautious): above 1000 ft add the Sure-Jell altitude increases to these 5 minutes: add 5 minutes at 1001–3000 ft (above 300 m up to 900 m), 10 minutes at 3001–6000 ft (above 900 m up to 1800 m), 15 minutes at 6001–8000 ft (above 1800 m up to 2400 m) and 20 minutes at 8001–10000 ft (above 2400 m up to 3000 m). [T:ACI-732,ACI-176,SLO-209,ACI-930,SLO-803]
 
 Above 10000 ft (above 3000 m) Sure-Jell gives no time, so this card does not cover canning at that elevation. [T:ACI-732,ACI-930]
 

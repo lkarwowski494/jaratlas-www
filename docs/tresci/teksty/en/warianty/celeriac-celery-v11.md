@@ -1,14 +1,18 @@
-# Dried celery strips (SDSU)
+# Dried celery strips (SDSU, CSU)
 
-This card describes how to dry celery stalks cut into strips, after blanching, in a dehydrator or oven at 140 °F (60 °C), following South Dakota State University (SDSU) Extension. [T:SUS-305,SUS-001]
+This card describes how to dry celery stalks cut into strips, after blanching, in a dehydrator or oven at 140 °F (60 °C), following South Dakota State University (SDSU) Extension, with the longer blanching time of Colorado State University (CSU) Extension. [T:SUS-305,SUS-421,SUS-001]
 
 ## Choosing and preparing
 
 This card covers celery stalks only. [T:SUS-305]
 
+Wash the celery stalks. [T:SUS-421]
+
 Trim the stalks and cut them into 1/2-inch (about 13 mm) strips. [T:SUS-305]
 
-Blanch the strips in boiling water or steam for 2 minutes. [T:SUS-305]
+Blanch the strips in boiling water for 4 minutes. [T:SUS-421]
+
+SDSU gives 2 minutes in boiling water or steam; this card uses the longer CSU time and water blanching, which CSU recommends over steam because it heats the pieces more evenly. [T:SUS-305,SUS-421]
 
 ## Blanching
 
@@ -17,6 +21,10 @@ Vegetables are blanched before drying to stop enzymes and increase the destructi
 Put at most 1 quart (about 0.95 l) of vegetables in a cheesecloth bag into boiling water; start timing when they go in and keep the water boiling the whole time. [T:SUS-106]
 
 Then cool the vegetables in very cold water for the same time as they were blanched, and drain them. [T:SUS-106]
+
+The blanching times on this card are for 3000–5000 feet (about 900–1500 m); CSU says they are slightly shorter at lower altitudes and slightly longer at higher altitudes or for large amounts of vegetables. [T:SUS-105]
+
+JarAtlas rule (cautious): do not shorten the times at lower altitudes, because blanching also helps destroy microorganisms; lengthen them slightly above about 1500 m or for large amounts of vegetables. [T:SUS-105,SUS-014]
 
 JarAtlas rule (cautious): do not shorten the blanching time, because blanching also helps destroy microorganisms. [T:SUS-014]
 

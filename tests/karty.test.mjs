@@ -141,7 +141,6 @@ export const ZAMIENNIKI_MROZENIA = {
   'garden-herbs-v04': { 'SUS-058': null },
   // p37 (autor C): pesto genovese z bazylii (NCHFP Freezing Pesto, OLE-042–044) i pesto z rukwi wodnej (reguła SLO-721): NCHFP nie podaje czasu dla pesto, jak garden-herbs-v16
   'garden-herbs-v01': { 'SUS-058': null },
-  'vine-leaves-greens-v09': { 'SUS-058': null },
   'lemon-v17': { 'SLO-250': 'SLO-307', 'SLO-251': 'SLO-307', 'SLO-258': 'SLO-308', 'SUS-058': 'SLO-308' }, // przepis NCHFP: pojemniki do zamrażarki z wolną przestrzenią (SLO-307), rozmrażanie 24 h w lodówce, 1 rok (SLO-308); P3-1 D-043
 };
 export function brakiBlokuMrozenia(lista = wszystkie, zamienniki = ZAMIENNIKI_MROZENIA) {

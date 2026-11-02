@@ -1,10 +1,12 @@
-# Whole cherry tomatoes packed raw without added liquid (NCHFP)
+# Whole cherry tomatoes packed raw without added liquid (NCHFP whole-tomato method)
 
 This card describes the NCHFP method for whole or halved tomatoes packed raw without added liquid, with added acid, processed in a boiling-water bath, used here for ripe cherry tomatoes. [T:ACI-960,ACI-054]
 
 ## What this card covers
 
-NCHFP does not name cherry tomatoes; this card uses its recipe for whole or halved tomatoes unchanged for ripe cherry tomatoes, including peeling. [T:ACI-960]
+JarAtlas rule (cautious): NCHFP does not name cherry tomatoes, so this card uses its recipe for whole or halved tomatoes unchanged, including peeling and added acid. [T:-]
+
+In that recipe the tomatoes are dipped in boiling water, peeled and cored, and bottled lemon juice or citric acid is added to the jars. [T:ACI-960]
 
 Do not leave the skins on, do not add liquid and do not leave out the acid: the card gives no method for such changes. [T:ACI-960,ACI-047]
 

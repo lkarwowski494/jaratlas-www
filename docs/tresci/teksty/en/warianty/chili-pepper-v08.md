@@ -4,7 +4,7 @@ This card describes the NCHFP recipe for pickled hot peppers, here with piri-pir
 
 ## What this card covers
 
-NCHFP gives this recipe for Hungarian, banana, chile and jalapeño peppers and does not name piri-piri; this card uses small piri-piri peppers as the hot peppers in the recipe. [T:SLO-560]
+NCHFP gives this recipe for Hungarian, banana, chile and jalapeño peppers and does not name piri-piri; JarAtlas rule (cautious): this card uses small piri-piri peppers, left whole and slit as the recipe describes for small peppers, as the hot peppers in the recipe. [T:SLO-560,SLO-561]
 
 JarAtlas rule (cautious): keep the sweet peppers and all the amounts of the recipe; do not replace the sweet peppers with more hot peppers and do not add other vegetables. [T:ACI-265,SLO-560]
 
