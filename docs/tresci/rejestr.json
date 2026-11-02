@@ -15536,7 +15536,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "22a611ef1054"
+   "sha": "eadc8225b170"
   },
   "wielkosc": "temperatura zamrażarki",
   "wartosc": -18,
@@ -15781,7 +15781,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "4dffe719757c"
+   "sha": "527d11969b38"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -32924,7 +32924,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "cb35cada3ac9"
+   "sha": "5c55a7f92af4"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33043,7 +33043,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "856d8a9d2668"
+   "sha": "7b2bea7c18a6"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33261,7 +33261,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "2ed08725f3a0"
+   "sha": "530b519af8f7"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33362,7 +33362,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "6d6bada50d82"
+   "sha": "8d4b783dcec2"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33397,7 +33397,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "61a660a626d7"
+   "sha": "778c8fe91400"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33432,7 +33432,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "b00c91e654f7"
+   "sha": "bdf1dc7249c9"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33817,6 +33817,48 @@
   ],
   "status": "potwierdzone",
   "uproszczenie": "„Pods” w karcie jako „papryki”. „Heated/Unheated” jako metoda z blanszowaniem / bez blanszowania (na surowo). 1/2 cala ≈ 1,3 cm.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-275",
+  "twierdzenie": "NCHFP Freezing Rhubarb: wybrać jędrne, delikatne, dobrze wybarwione łodygi o dobrym smaku i z małą ilością włókien; umyć, oczyścić i pokroić na długość opakowania; podgrzanie we wrzątku przez 1 minutę i szybkie schłodzenie w zimnej wodzie pomaga zachować kolor i smak; bez cukru (dry pack): surowy lub podgrzany rabarbar ciasno w pojemnikach bez cukru; w syropie: surowy lub podgrzany rabarbar ciasno w pojemnikach, zalany zimnym syropem 40%; zostawić wolną przestrzeń, zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-rhubarb/",
+    "miejsce": "NCHFP, Freezing Rhubarb, Preparation, Dry Pack, Syrup Pack",
+    "cytat": "Choose firm, tender, well-colored stalks with good flavor and few fibers. Wash, trim and cut into lengths to fit the package. Heating rhubarb in boiling water for 1 minute and cooling promptly in cold water helps retain color and flavor. Dry Pack – Pack either raw or preheated rhubarb tightly into containers without sugar. Leave headspace. Seal and freeze. Syrup Pack – Pack either raw or preheated rhubarb tightly into containers, cover with cold 40 percent syrup. Leave headspace. Seal and freeze.",
+    "sha12": "2242d7e27b29",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Podgrzanie 1 minuty opisane jako nieobowiązkowe (źródło: „helps retain color and flavor”, oba sposoby pakowania dopuszczają rabarbar surowy). Wolna przestrzeń według ogólnej tabeli NCHFP dla owoców (SLO-249). Syrop 40% według SLO-253.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-276",
+  "twierdzenie": "NCHFP Freezing Beets: wybrać młode, delikatne buraki o głębokim, równomiernie czerwonym kolorze; umyć i posortować według wielkości; obciąć nać, zostawiając 1/2 cala (ok. 1,3 cm) ogonków i korzeń, żeby kolor nie wypłukał się podczas gotowania; gotować we wrzątku do miękkości: małe 25–30 minut, średnie 45–50 minut; szybko schłodzić w zimnej wodzie; obrać, usunąć ogonki i korzeń, pokroić w plasterki lub kostkę; zapakować z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-beets/",
+    "miejsce": "NCHFP, Freezing Beets, Preparation",
+    "cytat": "Select deep, uniformly-red, tender, young beets. Wash and sort according to size. Trim tops, leaving 1/2 inch of stems and tap root, to prevent bleeding of color during cooking. Cook in boiling water until tender-for small beets 25 to 30 minutes; for medium beets 45 to 50 minutes. Cool promptly in cold water. Peel, remove stem and tap root, and cut into slices or cubes. Package, leaving ½-inch headspace. Seal and freeze.",
+    "sha12": "df6f9dc8fbda",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„½” zapisane jako „1/2”. Buraki gotowane do miękkości, nie blanszowane; z karty usunięto zdania o blanszowaniu i gotowaniu mrożonych warzyw (SLO-257), bo buraki są już ugotowane. Dodane ostrożne zalecenie „używaj buraków małych albo średnich”, bo NCHFP nie podaje czasu dla dużych.",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",

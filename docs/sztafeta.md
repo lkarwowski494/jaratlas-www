@@ -1,5 +1,5 @@
 # Stan sztafety
-Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 (noc, partia 16)
+Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 (noc, partia 17)
 
 | Rola | Tryb | Stan | Commit | Artefakty | Otwarte decyzje |
 |---|---|---|---|---|---|
@@ -28,8 +28,9 @@
 
 | 06 Treści | build (karty fali 1, partia 14 en/pl, pierwsze karty mrożenia: brokuł, kalafior, fasolka, groszek, marchew, maliny, borówki) | STOP 2026-11-02 noc: 124 karty en/pl łącznie, wzór karty mrożenia, E3 zastępczy 3 przebiegi, `npm run check` kod 0 | f38fee5 | `docs/tresci/E3-karty-p14-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p14`; leksykon pl (galonu); nazwy produktów szersze niż karty (D-043) |
 | 06 Treści | build (karty fali 1, partia 15 en/pl, mrożenie: brukselka, cukinia, szparagi, kalarepa, jeżyny, agrest, porzeczki czerwone) | STOP 2026-11-02 noc: 138 kart en/pl łącznie, E3 zastępczy 2 przebiegi, `npm run check` kod 0 | 1fc2917 | `docs/tresci/E3-karty-p15-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p15` |
-| 06 Treści | build (karty fali 1, partia 16 en/pl, mrożenie: patison, szpinak i inne liście, kapusta biała i pekińska) | STOP 2026-11-02 noc: 146 kart en/pl łącznie, E3 zastępczy 2 przebiegi, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p16-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p16`; nazwa leafy-greens-v13 w katalogu |
+| 06 Treści | build (karty fali 1, partia 16 en/pl, mrożenie: patison, szpinak i inne liście, kapusta biała i pekińska) | STOP 2026-11-02 noc: 146 kart en/pl łącznie, E3 zastępczy 2 przebiegi, `npm run check` kod 0 | a530205 | `docs/tresci/E3-karty-p16-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p16`; nazwa leafy-greens-v13 w katalogu |
+| 06 Treści | build (karty fali 1, partia 17 en/pl, mrożenie: papryka, groszek cukrowy w strąkach, rabarbar, buraki) | STOP 2026-11-02 noc: 154 karty en/pl łącznie, E3 zastępczy, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p17-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p17`; nazwa peas-chickpeas-v17 w katalogu |
 ## Następny krok
-1. **06-tresci**: partia 17 en/pl (nowa sesja), dalsze mrożenie według wzoru z raportu E3 p14 §2 (49 wariantów `freezing` ok-zrodlo bez kart); osobne bloki dla owoców z kwasem askorbinowym, czosnku w oleju i pesto, mięsa, ryb, nabiału i jaj. Przekład fal: po zgodzie właściciela na kwotę, sekret `ANTHROPIC_API_KEY` i workflow na main — przebieg dowodowy fr, potem drugi przegląd AI i przegląd człowieka (rola 09 E3).
+1. **06-tresci**: partia 18 en/pl (nowa sesja), dalsze mrożenie według wzoru z raportu E3 p14 §2 (45 wariantów `freezing` ok-zrodlo bez kart); osobne bloki dla owoców z kwasem askorbinowym, czosnku w oleju i pesto, mięsa, ryb, nabiału i jaj. Przekład fal: po zgodzie właściciela na kwotę, sekret `ANTHROPIC_API_KEY` i workflow na main — przebieg dowodowy fr, potem drugi przegląd AI i przegląd człowieka (rola 09 E3).
 2. 10-wydanie: weto D1–D11; przeniesienie według `docs/wydanie/10-przeniesienie-czyste-repo.md` pkt 3–4 tuż przed pierwszym workflow Pages (D11), za zgodą właściciela.
 3. 08 (kod dalej): najpierw domena i kontrole z testami, potem adapter wdrożenia (po ADR 0007), na końcu wygląd (po 04).
