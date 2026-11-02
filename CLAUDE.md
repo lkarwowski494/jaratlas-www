@@ -1,12 +1,12 @@
 # JarAtlas.com
 Statyczna strona-katalog domowego przetwórstwa (wekowanie, kiszenie, mrożenie) w 35 językach, z bramką bezpieczeństwa treści. Stan i następny krok: `docs/sztafeta.md`, `docs/STAN-SESJI.md`.
 
-## Stan projektu (aktualizacja: 2026-11-02, partia 28)
-- Etap: w budowie; 06 karty fali 1 partie 1–28 (en/pl, 176 wariantów, w tym 68 mrożeń i 53 suszenia, ukryte), katalog 1.0.9 (A2, p24, C7/B7 p25, B10 1.0.7, B11 1.0.8, B12 1.0.9); E1 C11 suszenie źródła p1 (SUS-300–323 w pliku E1) + 07 fix P2 + 10 przygotowanie czystego repo (podgląd) na claude/happy-brown-yncplj, main = 20eac8a, 0 opublikowanych stron, dane użytkowników: brak
+## Stan projektu (aktualizacja: 2026-11-02, partia 29 w toku)
+- Etap: w budowie; 06 karty fali 1 partie 1–28 (en/pl, 176 wariantów, w tym 68 mrożeń i 53 suszenia, ukryte), katalog 1.0.9 (A2, p24, C7/B7 p25, B10 1.0.7, B11 1.0.8, B12 1.0.9); E1 C11/C12 suszenie źródła p1–p2 (SUS-300–342 w plikach E1) + 07 fix P2 + 10 przygotowanie czystego repo (podgląd) na claude/happy-brown-yncplj, main = 20eac8a, 0 opublikowanych stron, dane użytkowników: brak
 - Sklep: nie dotyczy (strona WWW); hosting GitHub Pages (ADR 0007); domena jaratlas.com (Porkbun, odnowienie przed 2027-11-01)
 - Przed pierwszą publikacją: przeniesienie do czystego repo: `docs/wydanie/10-przeniesienie-czyste-repo.md`, podgląd `node tools/przeniesienie.mjs [--zachowaj] [--testy]` (wzór: trening `docs/46-przeniesienie-1.0.md`)
-- Polityka języków: szeroka, 35 (fala 1: en, fr, es, de, it, pl)
-- Przegląd treści krytycznych: zastępczy (D-027), przegląd eksperta później (D-027 d)
+- Polityka języków: szeroka, 35 (fala 1: en, fr, es, de, it, pl); pierwsza publikacja pl/en z pełnym katalogiem (wszystkie warianty z kartą pełną albo kartą-ostrzeżeniem), jeśli nie szkodzi indeksowaniu (tablica `2026-11-02-jaratlas-wydanie-pl-en`)
+- Przegląd treści krytycznych: zastępczy (D-027); D-027 d: niezależny agent Claude (Opus, effort medium, świeży kontekst) zamiast eksperta, także szybkowar (tablica `2026-11-02-jaratlas-przeglad-agent-zamiast-eksperta`)
 - Bramka opłacalności: tablica decyzji `2026-11-01-jaratlas-bramka-wynik` (rola 02)
 - Standard marki, cel: `[DO USTALENIA]`
 
