@@ -28689,5 +28689,698 @@
    "ACI-179"
   ],
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-295",
+  "twierdzenie": "NCHFP Tomato Ketchup, składniki na 6–7 słoików pint: 24 funty (ok. 10,9 kg) dojrzałych pomidorów, 3 szklanki posiekanej cebuli, 3/4 łyżeczki mielonej ostrej papryki (cayenne), 3 szklanki octu jabłkowego (5%), 4 łyżeczki goździków, 3 pokruszone laski cynamonu, 1 1/2 łyżeczki ziela angielskiego, 3 łyżki nasion selera, 1 1/2 szklanki cukru, 1/4 szklanki soli.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-ketchup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Ketchup, składniki",
+    "cytat": "3 cups cider vinegar (5 percent)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "82909985aea0"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-ketchup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Ketchup, składniki",
+    "cytat": "Yield: 6 to 7 pints",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "82909985aea0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-296",
+  "twierdzenie": "NCHFP Tomato Ketchup: pomidory umyć, zanurzyć we wrzącej wodzie na 30–60 s albo do pęknięcia skórki, potem w zimnej; zdjąć skórkę, usunąć gniazda, pokroić na ćwiartki do garnka 4 galony (ok. 15 l); dodać cebulę i paprykę, doprowadzić do wrzenia i gotować bez przykrycia 20 min; przykryć, wyłączyć ogień i odstawić na 20 min.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-ketchup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Ketchup, Procedure",
+    "cytat": "Quarter tomatoes into 4-gallon stock pot or a large kettle. Add onions and red pepper. Bring to boil and simmer 20 minutes, uncovered. Cover, turn off heat and let stand for 20 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "82909985aea0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-297",
+  "twierdzenie": "NCHFP Tomato Ketchup: przyprawy w woreczku zagotować z octem w rondlu 2 quart (ok. 1,9 l); wyjąć woreczek, połączyć ocet z masą pomidorową, gotować ok. 30 min; przetrzeć przez młynek albo sito; dodać cukier i sól, gotować na wolnym ogniu, często mieszając, aż objętość zmniejszy się o połowę albo masa ułoży się na łyżce bez oddzielania.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-ketchup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Ketchup, Procedure",
+    "cytat": "Remove spice bag and combine vinegar and tomato mixture. Boil about 30 minutes. Put boiled mixture through a food mill or sieve. Return to pot. Add sugar and salt, boil gently, and stir frequently until volume is reduced by one-half or until mixture rounds up on spoon without separation.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "82909985aea0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-298",
+  "twierdzenie": "NCHFP Tomato Ketchup: napełnić gorące słoiki pint, zostawiając 1/8 cala (ok. 0,3 cm) wolnej przestrzeni; usunąć pęcherzyki powietrza i poprawić wolną przestrzeń; przetrzeć brzegi zwilżonym ręcznikiem papierowym; założyć pokrywki i wekować według tabeli 1.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-ketchup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Ketchup, Procedure",
+    "cytat": "Fill hot pint jars, leaving 1/8-inch headspace. Remove air bubbles and adjust headspace if needed. Wipe rims of jars with a dampened clean paper towel.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "82909985aea0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-299",
+  "twierdzenie": "NCHFP Tomato Ketchup, tabela 1 (kąpiel wodna, hot): czasy tylko dla słoików pint; 0–1000 stóp: 15 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-ketchup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Ketchup, Table 1",
+    "cytat": "Hot Pints 15 min 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "82909985aea0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-300",
+  "twierdzenie": "NCHFP Tomato Paste, składniki na ok. 8–9 słoików 1/2 pinty: 14 funtów (ok. 6,35 kg) pomidorów typu Roma, 1 łyżeczka kwasu cytrynowego, 2 liście laurowe, 1 łyżeczka soli do przetworów, 1 ząbek czosnku (opcjonalnie).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Paste, składniki",
+    "cytat": "14 pounds Roma- or paste-type tomatoes 1 teaspoon citric acid",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "405fb3a96d4b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Paste, składniki",
+    "cytat": "Yield: About 8 or 9 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "405fb3a96d4b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-301",
+  "twierdzenie": "NCHFP Tomato Paste, kroki 1–3: słoiki 1/2 pinty umyć, wypłukać i trzymać gorące; pomidory opłukać, usunąć gniazda, nie obierać; pokroić na kawałki 1/2–3/4 cala (ok. 1,3–1,9 cm), zagotować pod przykryciem, potem gotować bez przykrycia ok. 1 h do zmniejszenia objętości o połowę; przetrzeć przez drobne sito albo młynek, nie używać blendera ani robota (wprowadzają powietrze).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Paste, Procedure 1",
+    "cytat": "Wash and rinse half-pint canning jars; keep hot until ready to fill.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "405fb3a96d4b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Paste, Procedure 2",
+    "cytat": "Rinse tomatoes thoroughly under running water and remove cores; do not peel.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "405fb3a96d4b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Paste, Procedure 3",
+    "cytat": "(Do not use a blender or food processor, as these will incorporate undesired air into the tomatoes.)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "405fb3a96d4b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-302",
+  "twierdzenie": "NCHFP Tomato Paste, krok 4 i uwaga: kwas cytrynowy dokładnie wmieszać do przetartych pomidorów przed odparowaniem na koncentrat (dodanie do słoików nie rozprowadza kwasu równo); proporcja kwasu cytrynowego do funtów pomidorów musi być stała; dodać sól, liście laurowe, czosnek (opcjonalnie); gotować powoli bez przykrycia ok. 2 1/2 h, aż masa ułoży się na łyżce, a objętość znów zmniejszy się o połowę; uwaga na pryskanie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Paste, Note",
+    "cytat": "The citric acid in this recipe needs to be added into the sieved tomatoes before they are cooked down into paste (Step 4). Adding it to the jars, as with other canned tomato products, does not allow for adequate distribution of the acid throughout the product. The ratio of citric acid to pounds of tomatoes must be kept consistent.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "405fb3a96d4b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Paste, Procedure 4",
+    "cytat": "Return sieved tomatoes to stockpot. Stir in citric acid thoroughly.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "405fb3a96d4b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-303",
+  "twierdzenie": "NCHFP Tomato Paste, kroki 5–6: wyjąć liście laurowe i czosnek; gorący koncentrat nałożyć do czystych, gorących słoików 1/2 pinty, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; usunąć pęcherzyki, przetrzeć brzegi, założyć pokrywki; wekować w kąpieli wodnej; studzić bez ruszania 12–24 h i sprawdzić zamknięcie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Paste, Procedure 5",
+    "cytat": "Fill hot paste into clean, hot half-pint jars, leaving ½-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "405fb3a96d4b"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Paste, Procedure 6",
+    "cytat": "Let cool, undisturbed, 12 to 24 hours and check for seals.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "405fb3a96d4b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-304",
+  "twierdzenie": "NCHFP Tomato Paste, tabela 1 (kąpiel wodna, hot): czasy tylko dla słoików 1/2 pinty; 0–1000 stóp: 45 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Paste, Table 1",
+    "cytat": "Hot Half-pints 45 50 55 60",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "405fb3a96d4b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-305",
+  "twierdzenie": "NCHFP Apricot Jam without Pectin, składniki na ok. 10 słoików 1/2 pinty: 2 quarty (ok. 1,9 l) rozgniecionych obranych moreli, 1/4 szklanki soku z cytryny, 6 szklanek cukru.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/apricot-jam-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricot Jam without Pectin, składniki",
+    "cytat": "2 quarts crushed, peeled apricots ¼ cup lemon juice 6 cups sugar",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "aaf83c121fbd"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/apricot-jam-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricot Jam without Pectin, składniki",
+    "cytat": "Yield: About 10 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "aaf83c121fbd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-306",
+  "twierdzenie": "NCHFP Apricot Jam without Pectin: wysterylizować słoiki; połączyć wszystkie składniki, powoli doprowadzić do wrzenia, mieszając, aż cukier się rozpuści; gotować szybko do zgęstnienia ok. 25 min, często mieszając; zdjąć z ognia, gorący dżem nałożyć do gorących sterylnych słoików z 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; przetrzeć brzegi, założyć dwuczęściowe pokrywki, wekować w kąpieli wodnej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/apricot-jam-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricot Jam without Pectin, Procedure",
+    "cytat": "Combine all ingredients; slowly bring to boiling, stirring occasionally until sugar dissolves. Cook rapidly until thick, about 25 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "aaf83c121fbd"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/apricot-jam-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricot Jam without Pectin, Procedure",
+    "cytat": "Remove from heat and fill hot jam into hot, sterile jars, leaving ¼ inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "aaf83c121fbd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-307",
+  "twierdzenie": "NCHFP Apricot Jam without Pectin, tabela 1 (kąpiel wodna, hot, słoiki sterylne): czasy tylko dla słoików 1/2 pinty i pint; 0–1000 stóp: 5 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/apricot-jam-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricot Jam without Pectin, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "aaf83c121fbd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-308",
+  "twierdzenie": "Ostrożne ostrzeżenie JarAtlas dla dżemu morelowego NCHFP: pH moreli według listy FDA wynosi 3,30–4,80, więc górna granica jest powyżej 4,6 (ACI-135, ACI-001), a przepis jest przetestowany z sokiem z cytryny i pełną ilością cukru; soku z cytryny nie pomijać ani nie zmniejszać, cukru nie zmniejszać.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/apricot-jam-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricot Jam without Pectin, składniki",
+    "cytat": "¼ cup lemon juice",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "aaf83c121fbd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wniosek JarAtlas na wzór E3-002 (morele, pH 3,30–4,80): NCHFP nie mówi wprost, że sok z cytryny jest tu potrzebny dla bezpieczeństwa; JarAtlas traktuje go jako składnik przetestowanej proporcji (ACI-265) i zakazuje zmniejszania (wariant ostrożniejszy). Cukier: SLO-001.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "decyzja": "2026-11-02-jaratlas-06-karty-p8",
+  "zalezy_od": [
+   "ACI-135",
+   "ACI-001",
+   "ACI-265",
+   "SLO-001",
+   "E3-002"
+  ]
+ },
+ {
+  "id": "ACI-309",
+  "twierdzenie": "NCHFP Mint Jelly Pectin, składniki na ok. 3–4 słoiki 1/2 pinty: 1 3/4 szklanki naparu miętowego (1 1/2 szklanki mocno ubitej świeżej mięty i 2 1/4 szklanki wody), 3 1/2 szklanki cukru, 2 łyżki soku z cytryny, 1 saszetka (3 uncje) pektyny w płynie.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/mint-jelly-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mint Jelly Pectin, składniki",
+    "cytat": "1-¾ cups mint juice (1½ cups firmly packed fresh mint and 2¼ cups water)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "984de2e73607"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/mint-jelly-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mint Jelly Pectin, składniki",
+    "cytat": "2 tablespoons lemon juice 1 pouch liquid pectin (3 oz.)",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "984de2e73607"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/mint-jelly-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mint Jelly Pectin, składniki",
+    "cytat": "Yield: About 3 or 4 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "984de2e73607"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-310",
+  "twierdzenie": "NCHFP Mint Jelly Pectin: wysterylizować słoiki i przygotować pokrywki; miętę umyć, liście i łodygi zgnieść albo drobno posiekać; w rondlu dodać wodę i szybko zagotować; zdjąć z ognia, przykryć, odstawić 10 min; odcedzić i wyrzucić miętę (opcjonalnie kilka kropli zielonego barwnika).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/mint-jelly-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mint Jelly Pectin, Procedure",
+    "cytat": "Wash mint, crush leaves and stems or finely chop. Place in saucepan, add water and bring quickly to a boil. Remove from heat, cover and let stand 10 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "984de2e73607"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/mint-jelly-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mint Jelly Pectin, Procedure",
+    "cytat": "Strain to remove mint. Discard mint.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "984de2e73607"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-311",
+  "twierdzenie": "NCHFP Mint Jelly Pectin: odmierzyć 1 3/4 szklanki naparu do dużego garnka, wmieszać cukier i sok z cytryny; na dużym ogniu, stale mieszając, doprowadzić do pełnego wrzenia, którego nie da się zatrzymać mieszaniem; dodać pektynę w płynie, znów doprowadzić do pełnego wrzenia i gotować intensywnie 1 min; zdjąć z ognia i szybko zebrać pianę.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/mint-jelly-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mint Jelly Pectin, Procedure",
+    "cytat": "Measure 1-¾ cups mint juice into a large saucepot. Stir in the sugar and lemon juice. Place on high heat, stir constantly and bring to a full boil that cannot be stirred down. Add the liquid pectin and heat again to a full rolling boil. Boil hard for 1 minute. Remove from heat; quickly skim off foam.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "984de2e73607"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-312",
+  "twierdzenie": "NCHFP Mint Jelly Pectin: gorącą galaretkę od razu wlać do gorących sterylnych słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; przetrzeć brzegi, założyć dwuczęściowe metalowe pokrywki, wekować w kąpieli wodnej.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/mint-jelly-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mint Jelly Pectin, Procedure",
+    "cytat": "Pour hot jelly immediately into hot, sterile jars, leaving ¼ inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "984de2e73607"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-313",
+  "twierdzenie": "NCHFP Mint Jelly Pectin, tabela 1 (kąpiel wodna, hot, słoiki sterylne): czasy tylko dla słoików 1/2 pinty i pint; 0–1000 stóp: 5 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/mint-jelly-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mint Jelly Pectin, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "984de2e73607"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-314",
+  "twierdzenie": "Ostrożna reguła JarAtlas: gdy przepis NCHFP na dżem albo galaretkę podaje „lemon juice” bez dookreślenia, JarAtlas zaleca butelkowany sok z cytryny w podanej ilości, bo NCHFP zaznacza (przy lemon curd), że kwasowość świeżego soku z cytryny bywa różna, a do pomidorów i fig wymaga soku butelkowanego.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/lemon-curd-canned/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Lemon Curd, Canned, Ingredients",
+    "cytat": "Fresh lemon juice can vary in acidity and is not recommended.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "42755fd33816"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Uogólnienie JarAtlas ze strony Lemon Curd (SLO-039) i z zakwaszania pomidorów i fig (ACI-044, ACI-061) na dżemy i galaretki z sokiem z cytryny; NCHFP w tych przepisach nie wymaga soku butelkowanego. Działa w stronę bezpieczną (stała kwasowość).",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "decyzja": "2026-11-02-jaratlas-06-karty-p8",
+  "zalezy_od": [
+   "SLO-039",
+   "ACI-044",
+   "ACI-061"
+  ]
+ },
+ {
+  "id": "ACI-315",
+  "twierdzenie": "NCHFP Tomato Ketchup, tabela 1: słoiki pint, 1001–6000 stóp: 20 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-ketchup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Ketchup, Table 1",
+    "cytat": "Hot Pints 15 min 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "82909985aea0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-316",
+  "twierdzenie": "NCHFP Tomato Ketchup, tabela 1: słoiki pint, powyżej 6000 stóp: 25 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-ketchup/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Ketchup, Table 1",
+    "cytat": "Hot Pints 15 min 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "82909985aea0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-317",
+  "twierdzenie": "NCHFP Tomato Paste, tabela 1: słoiki 1/2 pinty, 1001–3000 stóp: 50 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Paste, Table 1",
+    "cytat": "Hot Half-pints 45 50 55 60",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "405fb3a96d4b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-318",
+  "twierdzenie": "NCHFP Tomato Paste, tabela 1: słoiki 1/2 pinty, 3001–6000 stóp: 55 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Paste, Table 1",
+    "cytat": "Hot Half-pints 45 50 55 60",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "405fb3a96d4b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-319",
+  "twierdzenie": "NCHFP Tomato Paste, tabela 1: słoiki 1/2 pinty, powyżej 6000 stóp: 60 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-paste/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Tomato Paste, Table 1",
+    "cytat": "Hot Half-pints 45 50 55 60",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "405fb3a96d4b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-320",
+  "twierdzenie": "NCHFP Apricot Jam without Pectin, tabela 1 (słoiki sterylne): słoiki 1/2 pinty i pint, 1001–6000 stóp: 10 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/apricot-jam-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricot Jam without Pectin, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "aaf83c121fbd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-321",
+  "twierdzenie": "NCHFP Apricot Jam without Pectin, tabela 1 (słoiki sterylne): słoiki 1/2 pinty i pint, powyżej 6000 stóp: 15 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/apricot-jam-without-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Apricot Jam without Pectin, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "aaf83c121fbd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-322",
+  "twierdzenie": "NCHFP Mint Jelly Pectin, tabela 1 (słoiki sterylne): słoiki 1/2 pinty i pint, 1001–6000 stóp: 10 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/mint-jelly-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mint Jelly Pectin, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "984de2e73607"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
+ },
+ {
+  "id": "ACI-323",
+  "twierdzenie": "NCHFP Mint Jelly Pectin, tabela 1 (słoiki sterylne): słoiki 1/2 pinty i pint, powyżej 6000 stóp: 15 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/mint-jelly-pectin/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Mint Jelly Pectin, Table 1",
+    "cytat": "Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "984de2e73607"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI"
  }
 ]

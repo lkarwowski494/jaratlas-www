@@ -1,0 +1,67 @@
+# Tomato ketchup (NCHFP)
+
+This card describes the NCHFP recipe for tomato ketchup: tomatoes cooked with onions, spiced 5% cider vinegar, sugar and salt, reduced by half, hot packed in pint jars and processed in a boiling-water bath. [T:ACI-295,ACI-297,ACI-299]
+
+## Why you must not change the recipe
+
+The FDA list gives tomatoes a pH of about 4.30–4.90, so some tomatoes have a pH slightly above 4.6. [T:ACI-093,ACI-008]
+
+Tomatoes canned as an acid food must be acidified to pH 4.6 or lower. [T:ACI-008]
+
+In this recipe the vinegar provides the acid; do not alter the vinegar, food or water proportions and do not use vinegar of unknown acidity. [T:ACI-016]
+
+JarAtlas rule (cautious): do not change the amounts of the acid ingredients or of the fruit and vegetables; the recipe is tested only in the proportions given. [T:ACI-265]
+
+White distilled vinegar and cider vinegar of 5% acidity are recommended for pickles. [T:ACI-018]
+
+Penn State Extension advises vinegar of 5–7% acidity for home food preservation and advises against diluting vinegar with water unless a research-tested recipe says so. [T:ACI-209,ACI-210]
+
+JarAtlas rule (cautious, for readers outside the USA): use white distilled (spirit) vinegar or cider vinegar labelled 5% or 6% acidity; do not use 10% vinegar and do not dilute it with water to make 5% vinegar; add only the water the recipe lists. [T:ACI-211,ACI-018]
+
+## Ingredients
+
+NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
+
+For 6 to 7 pint jars NCHFP lists 24 pounds (about 10.9 kg) of ripe tomatoes, 3 cups of chopped onions, 3/4 teaspoon of ground red pepper (cayenne), 3 cups of cider vinegar (5%), 4 teaspoons of whole cloves, 3 crushed cinnamon sticks, 1 1/2 teaspoons of whole allspice, 3 tablespoons of celery seeds, 1 1/2 cups of sugar and 1/4 cup of salt. [T:ACI-295]
+
+## Cooking
+
+Wash the tomatoes, dip them in boiling water for 30 to 60 seconds or until the skins split, then dip them in cold water. [T:ACI-296]
+
+Slip off the skins, remove the cores and quarter the tomatoes into a 4-gallon (about 15 l) stockpot or a large kettle. [T:ACI-296]
+
+Add the onions and red pepper, bring to a boil and simmer uncovered for 20 minutes. [T:ACI-296]
+
+Cover, turn off the heat and let stand for 20 minutes. [T:ACI-296]
+
+Put the spices in a spice bag, add it to the vinegar in a 2-quart (about 1.9 l) saucepan and bring to a boil. [T:ACI-297]
+
+Remove the spice bag, combine the vinegar with the tomato mixture and boil for about 30 minutes. [T:ACI-297]
+
+Put the boiled mixture through a food mill or sieve and return it to the pot. [T:ACI-297]
+
+Add the sugar and salt and boil gently, stirring often, until the volume is reduced by half or until the mixture rounds up on a spoon without separating. [T:ACI-297]
+
+## Filling and processing
+
+Fill the hot pint jars, leaving 1/8 inch (about 0.3 cm) of headspace. [T:ACI-298]
+
+Remove air bubbles and adjust the headspace if needed. [T:ACI-298]
+
+Wipe the jar rims with a damp clean paper towel, put on the lids and process. [T:ACI-298]
+
+At 0–1000 ft (up to 300 m) process pint jars in a boiling-water bath for 15 minutes. [T:ACI-299,ACI-176]
+
+Above 1000 ft the food may spoil if the time is not increased. [T:ACI-015]
+
+At 1001–6000 ft (above 300 m up to 1800 m) process them for 20 minutes. [T:ACI-315,ACI-176]
+
+Above 6000 ft (above 1800 m) process them for 25 minutes. [T:ACI-316,ACI-176]
+
+The card converts feet to metres and rounds the limits down, towards the longer time: 1000 ft becomes 300 m and 6000 ft becomes 1800 m. [T:ACI-176]
+
+Shortening the time or cooling jars in cold water can also lead to spoilage. [T:ACI-015]
+
+The NCHFP table gives times only for pint jars. [T:ACI-299]
+
+JarAtlas rule (NCHFP does not test metric jars): a pint holds about 473 ml, so a 0.5 l jar has no tested time in this recipe; use jars of up to 473 ml. [T:ACI-179,ACI-174]
