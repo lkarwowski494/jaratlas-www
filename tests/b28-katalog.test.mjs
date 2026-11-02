@@ -19,6 +19,7 @@ const bez = (v, keys) => Object.fromEntries(Object.entries(v).filter(([k]) => !k
 const nota = (id) => V.get(id).notes?.find((n) => n.startsWith("[B28]") && n.includes(DEC));
 // B29 (2026-11-02-jaratlas-b29-katalog): warianty z notatką [B29] (requiredWarnings kart-ostrzeżeń) sprawdza tests/b29-katalog.test.mjs.
 const B29 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith("[B29]"))).map((v) => v.id));
+const B31 = new Set(["walnut-nuts-v07", "wild-mushrooms-v03", "fig-pomegranate-v09"]); // B31: werdykty B30 (3 warianty), pilnuje tests/b31-katalog.test.mjs
 
 const Z26 = [...Array.from({ length: 15 }, (_, i) => `MIE-${150 + i}`), ...Array.from({ length: 8 }, (_, i) => `FER-${120 + i}`)];
 // FER-128: brzmienie z przeglądu D-027 d B28 (P2-4) dla karty zakwasu imbirowego, źródło jak FER-127.
@@ -166,7 +167,7 @@ test("B28: poza polami z listy warianty bez cichych zmian; publication ukryta w 
   assert.deepEqual(Object.keys(SNAP).sort(), [...W.keys()].sort());
   for (const id of W.keys()) assert.equal(h(bez(V.get(id), ZMIENIAJA.includes(id) ? ["safetyStatus", "cardType", "claims", "requiredWarnings", "notes"] : ["notes"])), SNAP[id], `${id}: pola spoza listy bez zmian`);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
-  assert.equal(h(cat.variants.filter((v) => !W.has(v.id) && !(v.id in H) && !B29.has(v.id))), "88f71f5574bc", "warianty spoza B28, (h) i B29 bez zmian (skrót na 1.0.16, d85a8aa; B29: przeliczony, stary 90b9723fbdd2)");
+  assert.equal(h(cat.variants.filter((v) => !W.has(v.id) && !(v.id in H) && !B29.has(v.id) && !B31.has(v.id))), "bf6ac1ef220b", "warianty spoza B28, (h), B29 i B31 bez zmian (B31: przeliczony na f36b7b0, stary 88f71f5574bc; skrót na 1.0.16, d85a8aa; B29: przeliczony, stary 90b9723fbdd2)");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
 });
 

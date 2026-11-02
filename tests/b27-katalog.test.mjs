@@ -19,6 +19,7 @@ const bez = (v, keys) => Object.fromEntries(Object.entries(v).filter(([k]) => !k
 const B28 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith("[B28]"))).map((v) => v.id));
 // B29 (2026-11-02-jaratlas-b29-katalog): warianty z notatką [B29] (requiredWarnings kart-ostrzeżeń) sprawdza tests/b29-katalog.test.mjs.
 const B29 = new Set(cat.variants.filter((v) => (v.notes ?? []).some((n) => n.startsWith("[B29]"))).map((v) => v.id));
+const B31 = new Set(["walnut-nuts-v07", "wild-mushrooms-v03", "fig-pomegranate-v09"]); // B31: werdykty B30 (3 warianty), pilnuje tests/b31-katalog.test.mjs
 const nota = (id) => V.get(id).notes.find((n) => n.startsWith("[B27]") && n.includes(DEC));
 
 // Po D-027 d (P3): OLE-073 „zwykle”, OLE-088 dalszy ciąg zdania MMWR; brzmienie B24 w brzmienieB24, nowy cytat na końcu zrodla.
@@ -132,7 +133,8 @@ test("B27: 5 warunkowych B24-D2 zostaje do-researchu z notatką", () => {
 test("B27: wycofane i walnut-nuts-v07 bez zmiany statusu, z notatką [B27]", () => {
   const W = new Map(b24.warianty.map((w) => [w.id, w]));
   assert.deepEqual(ZOSTAJE.filter((id) => V.get(id).retired).sort(), [...WYCOFANE].sort(), "wycofane w porcji");
-  for (const id of ZOSTAJE) { const v = V.get(id); assert.equal(v.safetyStatus, "do-researchu", id); assert.equal(v.cardType, undefined, id); assert.ok(nota(id)?.includes(W.get(id).werdykt_B24.replace("-kandydat", "")), `${id}: werdykt B24 w notatce`); }
+  // B31 (B30-D2): walnut-nuts-v07 → nie-publikowac (karta-ostrzeżenie); notatka [B27] zostaje, stan pilnuje tests/b31-katalog.test.mjs.
+  for (const id of ZOSTAJE) { const v = V.get(id); if (id !== "walnut-nuts-v07") { assert.equal(v.safetyStatus, "do-researchu", id); assert.equal(v.cardType, undefined, id); } assert.ok(nota(id)?.includes(W.get(id).werdykt_B24.replace("-kandydat", "")), `${id}: werdykt B24 w notatce`); }
   for (const id of WYCOFANE) assert.ok(nota(id).includes("wycofany"), id);
   for (const id of ["eggplant-v10", "beans-soy-v11"]) assert.ok(nota(id).includes("B24-Q3"), `${id}: notatka dla 03`);
   assert.ok(nota("walnut-nuts-v07").includes("2026-11-02-jaratlas-wariant-bez-zrodla"));
@@ -140,9 +142,9 @@ test("B27: wycofane i walnut-nuts-v07 bez zmiany statusu, z notatką [B27]", () 
 
 test("B27: poza polami z listy warianty bez cichych zmian; publication ukryta w całym katalogu", () => {
   assert.deepEqual(Object.keys(SNAP).sort(), Object.keys(POLA).sort());
-  for (const [id, keys] of Object.entries(POLA)) assert.equal(h(bez(V.get(id), keys)), SNAP[id], `${id}: pola poza ${keys.join(", ")} bez zmian`);
+  for (const [id, keys] of Object.entries(POLA)) if (!B31.has(id)) assert.equal(h(bez(V.get(id), keys)), SNAP[id], `${id}: pola poza ${keys.join(", ")} bez zmian`);
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
-  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B28.has(v.id) && !B29.has(v.id))), "8002093a1543", "warianty spoza B27, B28 i B29 bez zmian (skrót na 0ecbac7; B29: przeliczony, stary a4414eadfed5; B28 z (h): stary 219465312ebb)");
+  assert.equal(h(cat.variants.filter((v) => !(v.id in POLA) && !B28.has(v.id) && !B29.has(v.id) && !B31.has(v.id))), "c86177fbbdcd", "warianty spoza B27, B28, B29 i B31 bez zmian (B31: przeliczony na f36b7b0, stary 8002093a1543; skrót na 0ecbac7; B29: przeliczony, stary a4414eadfed5; B28 z (h): stary 219465312ebb)");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
 });
 

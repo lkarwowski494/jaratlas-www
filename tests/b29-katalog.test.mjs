@@ -30,7 +30,7 @@ const TERMIN_WYJATKI = ["SLO-070", "OLE-048"];
 const RESEARCH = ["eggs-v06","apricot-v07","peas-chickpeas-v09","leek-chives-v10","cultivated-mushrooms-v12","freshwater-fish-v07","pork-loin-ham-v13"];
 
 test("B29: katalog 1.0.18 przechodzi walidację bez błędów", () => {
-  assert.equal(cat.version, "1.0.18");
+  assert.ok(Number(cat.version.split(".")[2]) >= 18 && cat.version.startsWith("1.0."), cat.version); // B31: 1.0.19
   assert.deepEqual(validateCatalog(cat, rej).errors, []);
 });
 
@@ -69,7 +69,9 @@ test("B29: zmienione tylko requiredWarnings i notatka [B29]; safetyStatus, publi
   const L = new Set(LISTA);
   const bez = (v) => { const { requiredWarnings, ...r } = v; return { ...r, notes: (v.notes ?? []).filter((n) => !n.startsWith("[B29]")) }; };
   assert.equal(h(cat.variants.filter((v) => L.has(v.id)).map(bez)), "a3e7271f6006", "warianty z listy poza requiredWarnings i [B29] bez zmian (skrót na 2d839e3)");
-  assert.equal(h(cat.variants.filter((v) => !L.has(v.id))), "cedfb5243932", "warianty spoza listy bez zmian (skrót na 2d839e3)");
+  // B31 zmienia 3 warianty spoza listy (walnut-nuts-v07, wild-mushrooms-v03, fig-pomegranate-v09); ich pilnuje tests/b31-katalog.test.mjs. Skrót na f36b7b0 bez nich.
+  const B31 = new Set(["walnut-nuts-v07", "wild-mushrooms-v03", "fig-pomegranate-v09"]);
+  assert.equal(h(cat.variants.filter((v) => !L.has(v.id) && !B31.has(v.id))), "910053358d99", "warianty spoza listy bez zmian (skrót na f36b7b0, bez wariantów B31)");
   for (const id of WYCOFANE) { assert.equal(V.get(id).requiredWarnings, undefined, id); assert.equal(nota(id), undefined, id); }
   assert.equal(cat.variants.filter((v) => v.publication !== "ukryta").length, 0, "publication: 0 zmian, wszystko ukryta");
   assert.equal(h(Object.fromEntries(Object.entries(cat).filter(([k]) => !["version", "variants"].includes(k)))), "11240685bbc6", "categories, products, processFamilies bez zmian");
