@@ -1,5 +1,5 @@
 {
- "version": "1.0.6",
+ "version": "1.0.7",
  "generated": "2026-11-02",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -3997,16 +3997,33 @@
    "id": "cucumber-v10",
    "productId": "cucumber",
    "name": {
-    "pl": "konserwowe"
+    "pl": "konserwowe z koprem (octowe, wekowane)"
    },
    "groupV0": "Ocet, olej i susz",
    "lineV0": 19,
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-400",
+    "ACI-401",
+    "ACI-402",
+    "ACI-403",
+    "ACI-016",
+    "ACI-017",
+    "ACI-018",
+    "ACI-021"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/quick-fresh-pack-dill-pickles/",
+     "miejsce": "NCHFP: Quick Fresh-Pack Dill Pickles (NCHFP (UGA), adapt. USDA Complete Guide 2015); lista składników",
+     "cytat": "8 lbs of 3- to 5-inch pickling cucumbers 2 gals water 1¼ cups canning or pickling salt 1½ qts vinegar (5 percent) ¼ cup sugar 2 quarts water 2 tbsp whole mixed pickling spice",
+     "odczyt": "2026-11-02",
+     "szczebel": 1
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -4014,7 +4031,9 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Ogórki konserwowe w occie: marynata (ACI)."
+    "[SZY*] Ogórki konserwowe w occie: marynata (ACI).",
+    "[B10] nazwa „konserwowe” → „konserwowe z koprem (octowe, wekowane)” (C8: nazwa ogólna; ostrożniej nazwa = przepis NCHFP Quick Fresh-Pack Dill (kąpiel wodna), bez dodatków spoza przepisu; bez „szybkie” (quick pickled = lodówkowe, ACI-024; przegląd D-043)) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ok-zrodlo (C8, C8-D4): przepis ACI-400; karta trzyma skład 1:1 (bez chrzanu, liści, innych proporcji octu i wody) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -4045,7 +4064,8 @@
    "notes": [
     "[OLE*] Pikle octowe bez oleju; poza obszarem OLE.",
     "[SUS] Pikle octowe (korniszony); nie suszenie. Metoda wstępna, decyduje ACI.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
+    "[B10] zostaje do-researchu (C8): proponowana nazwa „słodkie korniszony” (NCHFP Sweet Gherkin) zmienia tożsamość wariantu (korniszony francuskie są niesłodzone); decyzja redakcji (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -4066,9 +4086,27 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-404",
+    "ACI-405",
+    "ACI-406",
+    "ACI-407",
+    "ACI-016",
+    "ACI-017",
+    "ACI-018",
+    "ACI-021",
+    "ACI-025"
+   ],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/cucumber-pickles/bread-and-butter-pickles/",
+     "miejsce": "NCHFP: Bread-and-Butter Pickles (NCHFP (UGA), adapt. USDA Complete Guide); lista składników",
+     "cytat": "6 lbs of 4- to 5-inch pickling cucumbers 8 cups thinly sliced onions (about 3 pounds) 1/2 cup canning or pickling salt 4 cups vinegar (5 percent) 4-1/2 cups sugar 2 tbsp mustard seed 1-1/2 tbsp celery seed 1 tbsp ground turmeric",
+     "odczyt": "2026-11-02",
+     "szczebel": 1
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -4076,7 +4114,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Pikle octowe, obszar ACI (NCHFP ma przepis Bread-and-Butter Pickles, do sprawdzenia przez ACI)."
+    "[SLO*] Pikle octowe, obszar ACI (NCHFP ma przepis Bread-and-Butter Pickles, do sprawdzenia przez ACI).",
+    "[B10] do-researchu → ok-zrodlo (C8, C8-D4): przepis ACI-404; NCHFP Bread-and-Butter Pickles 1:1 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -4223,9 +4262,30 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-503",
+    "ACI-504",
+    "ACI-510",
+    "ACI-501",
+    "ACI-509"
+   ],
+   "sources": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2018-07/287722.pdf",
+     "miejsce": "Univ. of Wisconsin Extension, B2267 (kopia na serwerze UC ANR); s. 52, przepis Cucumber pickles with onions or vegetable medley",
+     "cytat": "8 cups cucumbers, thinly sliced | 1 cup onion, peeled and sliced | an equal amount of other vegetables such as cauliflower, peppers or carrots as desired | 4 cups vinegar (5% acetic acid) | 2 cups sugar",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
+     "adres": "https://happyhealthy.extension.msstate.edu/recipes/quick-pickle-cucumbers-and-onions",
+     "miejsce": "Mississippi State Univ. Extension, Quick-Pickle Cucumbers and Onions; Ingredients",
+     "cytat": "2 large cucumbers | 1 medium onion | 1 garlic clove | 1 cup white distilled or apple cider vinegar | 1 cup water",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -4235,7 +4295,9 @@
    "notes": [
     "[OLE*] Szybka sałatka octowa (pressgurka); poza obszarem OLE.",
     "[SUS] Pressgurka: szybka surówka octowa na bieżąco; możliwe poza_zakresem. Decyduje ACI.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
+    "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): ACI-523 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ok-zrodlo (B9): przepis ACI-503, ACI-510; karta według jednego przepisu (B2267 2 tygodnie albo Mississippi State ok. 1 tydzień, B9-D3); bez szwedzkiej ättiki 12% (brak źródła); środkowa półka lodówki (ACI-523, do potwierdzenia D-027) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -4298,10 +4360,15 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "OLE-036",
-    "OLE-028"
+    "OLE-028",
+    "OLE-001",
+    "ACI-437",
+    "ACI-438",
+    "ACI-016",
+    "ACI-017"
    ],
    "sources": [],
    "filters": {
@@ -4311,12 +4378,18 @@
     "difficulty": null
    },
    "notes": [
-    "[OLE*] Ogórki w zalewie octowej z olejem: bezpieczeństwo zależy od kwasu, nie od oleju. Brak przetestowanego przepisu z olejem i surowym czosnkiem; NCHFP ma tylko 3 przepisy warzyw z olejem."
+    "[OLE*] Ogórki w zalewie octowej z olejem: bezpieczeństwo zależy od kwasu, nie od oleju. Brak przetestowanego przepisu z olejem i surowym czosnkiem; NCHFP ma tylko 3 przepisy warzyw z olejem.",
+    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D8), karta-ostrzeżenie; requiredWarnings OLE-001, OLE-028; brak przetestowanego przepisu warzyw z olejem i surowym czosnkiem (OLE-036, OLE-028); alternatywa bez oleju: cucumber-v10/v12 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "OLE"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "OLE-001",
+    "OLE-028"
    ]
   },
   {
@@ -4772,7 +4845,8 @@
    },
    "notes": [
     "[SUS*] Kapusta po koreańsku: sałatka marynowana; nie suszenie.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
+    "[B10] zostaje do-researchu (B9): przepis nieprzetestowany: najwyżej 2 tygodnie (ACI-508) nie podnosi statusu (B9-D4) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -5829,7 +5903,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Pikle w occie ryżowym: kwasowość octu ryżowego zmienna (sprawdzić etykietę ≥5%); brak przetestowanego przepisu do weków — kandydat na wersję lodówkową."
+    "[ACI*] Pikle w occie ryżowym: kwasowość octu ryżowego zmienna (sprawdzić etykietę ≥5%); brak przetestowanego przepisu do weków — kandydat na wersję lodówkową.",
+    "[B10] zostaje do-researchu (B9): ocet ryżowy/inny bez gwarancji 5% (ACI-515, ACI-516, B9-D5) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -5879,11 +5954,14 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
+    "SLO-023",
+    "ACI-005",
+    "MIE-059",
+    "NAP-055",
     "ACI-016",
-    "ACI-018",
-    "ACI-005"
+    "ACI-018"
    ],
    "sources": [],
    "filters": {
@@ -5894,13 +5972,20 @@
    },
    "notes": [
     "[ACI*] Sos sojowy + ocet chinkiang: kwasowość nieznana, sos sojowy niskokwasowy; brak przetestowanego przepisu.",
-    "[SZY] Pak choi w sosie sojowym i occie: marynata (ACI); część sojowa NAP."
+    "[SZY] Pak choi w sosie sojowym i occie: marynata (ACI); część sojowa NAP.",
+    "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): NAP-063 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ryzyko-wysokie (B9), karta-ostrzeżenie; requiredWarnings SLO-023, MIE-059; marynata sojowa bez dość kwasu: warzywo niskokwasowe (SLO-023), C. botulinum typu E rośnie od 3,3°C (MIE-059), B9-D7 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SZY"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-023",
+    "MIE-059"
    ]
   },
   {
@@ -7268,7 +7353,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Kalarepa w occie ryżowym: brak przetestowanego przepisu; kandydat na wersję lodówkową."
+    "[ACI*] Kalarepa w occie ryżowym: brak przetestowanego przepisu; kandydat na wersję lodówkową.",
+    "[B10] zostaje do-researchu (B9): ocet bez gwarancji 5%; przepis nieprzetestowany najwyżej 2 tygodnie (ACI-508) nie podnosi statusu (B9-D4) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -8435,8 +8521,12 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
+    "ACI-441",
+    "ACI-442",
+    "ACI-444",
+    "ACI-445",
     "ACI-016",
     "ACI-017",
     "ACI-005",
@@ -8450,12 +8540,18 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Dynia w occie korzennym: brak przetestowanego przepisu NCHFP. Gęsta, niskokwasowa."
+    "[ACI*] Dynia w occie korzennym: brak przetestowanego przepisu NCHFP. Gęsta, niskokwasowa.",
+    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D6), karta-ostrzeżenie; requiredWarnings ACI-444, ACI-445; dynia: brak testowanych przepisów kąpieli wodnej (C8-D6) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-444",
+    "ACI-445"
    ]
   },
   {
@@ -8469,8 +8565,12 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
+    "ACI-441",
+    "ACI-442",
+    "ACI-444",
+    "ACI-445",
     "ACI-016",
     "ACI-017",
     "ACI-005",
@@ -8484,12 +8584,18 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Brak przetestowanego przepisu."
+    "[ACI*] Brak przetestowanego przepisu.",
+    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D6), karta-ostrzeżenie; requiredWarnings ACI-444, ACI-445; dynia: brak testowanych przepisów kąpieli wodnej (C8-D6) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-444",
+    "ACI-445"
    ]
   },
   {
@@ -8503,8 +8609,12 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
+    "ACI-441",
+    "ACI-442",
+    "ACI-444",
+    "ACI-445",
     "ACI-016",
     "ACI-017",
     "ACI-005",
@@ -8518,12 +8628,18 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Brak przetestowanego przepisu."
+    "[ACI*] Brak przetestowanego przepisu.",
+    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D6), karta-ostrzeżenie; requiredWarnings ACI-444, ACI-445; dynia: brak testowanych przepisów kąpieli wodnej (C8-D6) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-444",
+    "ACI-445"
    ]
   },
   {
@@ -8578,8 +8694,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "ACI-441",
+    "ACI-442",
+    "ACI-444",
+    "ACI-445"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -8588,12 +8709,18 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Dynia marynowana z kurkumą (ACI)."
+    "[SZY*] Dynia marynowana z kurkumą (ACI).",
+    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D6), karta-ostrzeżenie; requiredWarnings ACI-444, ACI-445; dynia: brak testowanych przepisów kąpieli wodnej (C8-D6) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-444",
+    "ACI-445"
    ]
   },
   {
@@ -8724,8 +8851,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
+    "ACI-441",
+    "ACI-442",
+    "ACI-443",
+    "ACI-444",
+    "ACI-445",
     "ACI-017",
     "ACI-016",
     "ACI-088",
@@ -8739,12 +8871,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Chutney dyniowo-jabłkowy: brak przepisu; dynia rozgotowana zbliża się do przecieru (NCHFP: nie wekować dyni rozgniecionej)."
+    "[ACI*] Chutney dyniowo-jabłkowy: brak przepisu; dynia rozgotowana zbliża się do przecieru (NCHFP: nie wekować dyni rozgniecionej).",
+    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D6), karta-ostrzeżenie; requiredWarnings ACI-441, ACI-444, ACI-445; chutney rozpada się do przecieru, NCHFP odradza zakwaszanie dyni (ACI-441–443); C8 rozważał nie-publikowac: zostaje karta-ostrzeżenie (analogia pumpkin-v08), do weta (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-441",
+    "ACI-444",
+    "ACI-445"
    ]
   },
   {
@@ -8771,7 +8910,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Syrop korzenny: jeśli zawiera puree dyniowe, obowiązuje reguła masła dyniowego (nie wekować). Sam syrop cukrowy z przyprawami: brak przetestowanego przepisu."
+    "[SLO*] Syrop korzenny: jeśli zawiera puree dyniowe, obowiązuje reguła masła dyniowego (nie wekować). Sam syrop cukrowy z przyprawami: brak przetestowanego przepisu.",
+    "[B10] zostaje do-researchu (B9): USDA wycofał zalecenia wekowania masła dyniowego (SLO-473); brak przepisu lodówkowego z limitem (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -10729,21 +10869,33 @@
    "id": "green-cherry-tomato-v03",
    "productId": "green-cherry-tomato",
    "name": {
-    "pl": "zielone w occie z papryką"
+    "pl": "zielone pomidorki po koszersku z koprem i papryką"
    },
    "groupV0": "Kiszenie i ocet",
    "lineV0": 74,
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
+    "ACI-410",
+    "ACI-411",
+    "ACI-412",
+    "ACI-413",
     "ACI-016",
     "ACI-017",
-    "ACI-005",
-    "ACI-050"
+    "ACI-050",
+    "ACI-005"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/kosher-style-dill-green-tomato-pickles/",
+     "miejsce": "NCHFP: Kosher Style Dill Green Tomato Pickles (NCHFP (UGA), adapt. So Easy to Preserve 6th ed.); lista składników",
+     "cytat": "Small green firm tomatoes (you will need about 5-6 pounds of 1-inch tomatoes as purchased, or about 5 quarts in volume) 6 stalks celery, cut in 2-inch lengths 6 small to medium sweet green peppers, seeded and quartered 6 cloves garlic 2 quarts water 1 quart distilled white vinegar (5%) 1 cup canning or pickling salt Fresh dill to taste",
+     "odczyt": "2026-11-02",
+     "szczebel": 1
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -10751,7 +10903,9 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Zielone pomidory z papryką w occie: najbliższe NCHFP Pickled Sweet Green Tomatoes / Kosher Style Dill Green Tomato Pickles, ale bez papryki; brak przepisu w tej formie."
+    "[zastąpione B10] [ACI*] Zielone pomidory z papryką w occie: najbliższe NCHFP Pickled Sweet Green Tomatoes / Kosher Style Dill Green Tomato Pickles, ale bez papryki; brak przepisu w tej formie.",
+    "[B10] nazwa „zielone w occie z papryką” → „zielone pomidorki po koszersku z koprem i papryką” (C8: przepis NCHFP Kosher Style Dill Green Tomato zawiera koper, seler, czosnek i paprykę słodką; nazwa = przepis) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ok-zrodlo (C8, C8-D4): przepis ACI-410; tylko słoiki quart; papryka słodka, nie ostra; wcześniejsza notatka „bez papryki” była błędna (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -11973,7 +12127,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Escabeche (jalapeño + marchew + cebula): najbliższe NCHFP Pickled Jalapeño Rings (same papryczki); mieszanka nieprzetestowana."
+    "[ACI*] Escabeche (jalapeño + marchew + cebula): najbliższe NCHFP Pickled Jalapeño Rings (same papryczki); mieszanka nieprzetestowana.",
+    "[B10] zostaje do-researchu (C8): zmiana na NCHFP Pickled Jalapeño Rings usuwa escabeche (marchew, cebula) i zmienia tożsamość; sprawdzić duplikat z chili-pepper-v08 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -12430,8 +12585,10 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "ACI-449"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -12440,12 +12597,17 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Chipotle w adobo: sos octowo-pomidorowy (ACI); wędzenie – SUS."
+    "[SZY*] Chipotle w adobo: sos octowo-pomidorowy (ACI); wędzenie – SUS.",
+    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D8), karta-ostrzeżenie; requiredWarnings ACI-449; chipotle w adobo: brak przepisu szczebla 1–3; mieszanka niskokwasowa; alternatywa: mrożenie porcji (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-449"
    ]
   },
   {
@@ -13212,8 +13374,10 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
+    "ACI-446",
+    "ACI-449",
     "ACI-016",
     "ACI-017",
     "ACI-005",
@@ -13229,13 +13393,19 @@
    },
    "notes": [
     "[ACI*] Sałatka ziemniaczana wekowana: ziemniaki gęste, skrobiowe, niskokwasowe; brak przetestowanego przepisu.",
-    "[SZY] Sałatka ziemniaczana w occie: brak przetestowanego przepisu w NCHFP (ACI do oceny); skrobia ziemniaczana – patrz SZY-029."
+    "[SZY] Sałatka ziemniaczana w occie: brak przetestowanego przepisu w NCHFP (ACI do oceny); skrobia ziemniaczana – patrz SZY-029.",
+    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D8), karta-ostrzeżenie; requiredWarnings ACI-446, ACI-449; ziemniaki tylko w szybkowarze (ACI-446) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SZY"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-446",
+    "ACI-449"
    ]
   },
   {
@@ -13736,7 +13906,7 @@
    "id": "tomatillo-v06",
    "productId": "tomatillo",
    "name": {
-    "pl": "pieczona salsa verde do słoików (pasteryzacja)"
+    "pl": "salsa verde z tomatillo do słoików"
    },
    "groupV0": "Pasteryzacja, słodkie i susz",
    "lineV0": 95,
@@ -13757,8 +13927,10 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Pieczona salsa verde: najbliższa NCHFP Tomatillo Green Salsa (bez pieczenia). Pieczenie zmienia produkt — DO USTALENIA, czy dopuszczalne przy zachowaniu odmierzanych objętości.",
-    "[SZY] Salsa verde z tomatillo: NCHFP ma przetestowaną zakwaszoną salsę (ACI); wersja pieczona do sprawdzenia."
+    "[zastąpione B10] [ACI*] Pieczona salsa verde: najbliższa NCHFP Tomatillo Green Salsa (bez pieczenia). Pieczenie zmienia produkt — DO USTALENIA, czy dopuszczalne przy zachowaniu odmierzanych objętości.",
+    "[SZY] Salsa verde z tomatillo: NCHFP ma przetestowaną zakwaszoną salsę (ACI); wersja pieczona do sprawdzenia.",
+    "[B10] nazwa „pieczona salsa verde do słoików (pasteryzacja)” → „salsa verde z tomatillo do słoików” (C8: pieczenie tomatillo poza przepisem NCHFP Tomatillo Green Salsa (zmienia proporcje warzyw do kwasu); usunięte słowo „pieczona”) (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] zostaje do-researchu (C8): przegląd D-043 (P1): twierdzenie o procedurze ACI-428 robocze po dwóch przebiegach D-027, więc bez ok-zrodlo; przepis NCHFP Tomatillo Green Salsa (ACI-427, ACI-429, ACI-430) potwierdzony (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -15953,8 +16125,12 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "ACI-447",
+    "ACI-448",
+    "ACI-449"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -15963,12 +16139,18 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Koncentrat barszczu: płyn z buraków zakwaszony; nie suszenie; decyduje ACI/SZY."
+    "[SUS*] Koncentrat barszczu: płyn z buraków zakwaszony; nie suszenie; decyduje ACI/SZY.",
+    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D8), karta-ostrzeżenie; requiredWarnings ACI-447, ACI-449; buraki tylko w szybkowarze (ACI-447); Oregon 2012 (ACI-449) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SUS"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-447",
+    "ACI-449"
    ]
   },
   {
@@ -16015,10 +16197,12 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
+    "ACI-005",
     "SLO-032",
-    "SLO-023"
+    "SLO-023",
+    "MIE-059"
    ],
    "sources": [],
    "filters": {
@@ -16029,14 +16213,20 @@
    },
    "notes": [
     "[SLO*] Burak jest niskokwasowy; brak przetestowanego dżemu/konfitury z buraka. Dodatek wina nie jest ustaloną dawką kwasu.",
-    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-032 to tylko pH buraka."
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-032 to tylko pH buraka.",
+    "[B10] do-researchu → ryzyko-wysokie (B9), karta-ostrzeżenie; requiredWarnings SLO-023, MIE-059; dżem warzywny lodówkowy, burak niskokwasowy (SLO-032), B9-D10 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
    ],
-   "e3": "zmieniony z ryzyko-wysokie"
+   "e3": "zmieniony z ryzyko-wysokie",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-023",
+    "MIE-059"
+   ]
   },
   {
    "id": "beetroot-v14",
@@ -16305,12 +16495,14 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
+    "ACI-418",
     "ACI-016",
     "ACI-017",
     "ACI-005",
-    "ACI-105"
+    "ACI-105",
+    "ACI-449"
    ],
    "sources": [],
    "filters": {
@@ -16320,12 +16512,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Escabeche marchew+jalapeño: mieszanka nieprzetestowana (NCHFP osobno: Pickled Carrots, Pickled Jalapeño Rings)."
+    "[ACI*] Escabeche marchew+jalapeño: mieszanka nieprzetestowana (NCHFP osobno: Pickled Carrots, Pickled Jalapeño Rings).",
+    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D8), karta-ostrzeżenie; requiredWarnings ACI-005, ACI-016, ACI-449; mieszanka niskokwasowa (marchew ACI-105) bez przetestowanego przepisu; poprawka zmieniłaby tożsamość wariantu (C8) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-005",
+    "ACI-016",
+    "ACI-449"
    ]
   },
   {
@@ -16387,7 +16586,8 @@
    },
    "notes": [
     "[FER*] Morkovcha: sałatka z octem.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
+    "[B10] zostaje do-researchu (B9): przepis nieprzetestowany: najwyżej 2 tygodnie (ACI-508) nie podnosi statusu (B9-D4) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -16570,10 +16770,12 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
+    "ACI-005",
     "SLO-031",
-    "SLO-023"
+    "SLO-023",
+    "MIE-059"
    ],
    "sources": [],
    "filters": {
@@ -16584,14 +16786,20 @@
    },
    "notes": [
     "[SLO*] Marchew jest niskokwasowa; brak przetestowanego dżemu marchewkowego. Pomarańcza nie jest ustaloną dawką kwasu.",
-    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-031 to tylko pH marchwi."
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-031 to tylko pH marchwi.",
+    "[B10] do-researchu → ryzyko-wysokie (B9), karta-ostrzeżenie; requiredWarnings SLO-023, MIE-059; dżem warzywny lodówkowy, marchew niskokwasowa (SLO-031), B9-D10 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
    ],
-   "e3": "zmieniony z ryzyko-wysokie"
+   "e3": "zmieniony z ryzyko-wysokie",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-023",
+    "MIE-059"
+   ]
   },
   {
    "id": "carrot-v12",
@@ -16848,8 +17056,17 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
+    "ACI-431",
+    "ACI-432",
+    "ACI-433",
+    "ACI-434",
+    "ACI-435",
+    "ACI-436",
+    "ACI-437",
+    "ACI-439",
+    "ACI-440",
     "ACI-016",
     "ACI-018",
     "ACI-106"
@@ -16862,12 +17079,18 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Czosnek w occie winnym z ziołami: brak przepisu NCHFP; Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+    "[ACI*] Czosnek w occie winnym z ziołami: brak przepisu NCHFP; Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu.",
+    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D5), karta-ostrzeżenie; requiredWarnings ACI-436, ACI-437; wekowanie czosnku niezalecane (ACI-436), brak wytycznych zakwaszania ząbków (ACI-437); alternatywa lodówkowa: garlic-v07 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-436",
+    "ACI-437"
    ]
   },
   {
@@ -16918,8 +17141,16 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
+    "ACI-431",
+    "ACI-432",
+    "ACI-434",
+    "ACI-435",
+    "ACI-436",
+    "ACI-437",
+    "ACI-439",
+    "ACI-440",
     "ACI-016",
     "ACI-018",
     "ACI-106"
@@ -16932,12 +17163,18 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Czosnek w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu."
+    "[ACI*] Czosnek w occie balsamicznym: Nietypowy ocet (balsamiczny/winny/ryżowy/słodowy) — NCHFP zaleca ocet biały lub jabłkowy 5% i zakazuje octu o nieznanej kwasowości; brak przetestowanego przepisu.",
+    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D5), karta-ostrzeżenie; requiredWarnings ACI-436, ACI-437; wekowanie czosnku niezalecane (ACI-436); ocet balsamiczny poza zaleceniem UC (ACI-432); alternatywa lodówkowa: garlic-v07 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-436",
+    "ACI-437"
    ]
   },
   {
@@ -16951,9 +17188,22 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-512",
+    "ACI-513",
+    "ACI-509",
+    "ACI-516"
+   ],
+   "sources": [
+    {
+     "adres": "https://ucanr.edu/sites/default/files/2023-09/388534.pdf",
+     "miejsce": "UC ANR (UC Master Food Preservers, za publikacją 8568), Storing Garlic in Wine or Vinegar and Refrigerating",
+     "cytat": "Peeled cloves may be submerged in undiluted (full-strength) wine or vinegar and stored in the refrigerator.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -16961,7 +17211,9 @@
     "difficulty": null
    },
    "notes": [
-    "[FER*] Czosnek laba to czosnek w occie."
+    "[FER*] Czosnek laba to czosnek w occie.",
+    "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): ACI-523 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ok-zrodlo (B9): przepis ACI-512; UC ANR 8568: nierozcieńczony ocet 5% biały (bez octu ryżowego i winnego bez etykiety 5%, ACI-509, B9-D5), lodówka ok. 4 miesiące (ACI-513), nie w temperaturze pokojowej (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -16980,8 +17232,16 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
+    "ACI-431",
+    "ACI-433",
+    "ACI-434",
+    "ACI-435",
+    "ACI-436",
+    "ACI-437",
+    "ACI-439",
+    "ACI-440",
     "ACI-016",
     "ACI-017",
     "ACI-005",
@@ -16995,12 +17255,18 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Czosnek w zalewie chili: brak przepisu."
+    "[ACI*] Czosnek w zalewie chili: brak przepisu.",
+    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D5), karta-ostrzeżenie; requiredWarnings ACI-436, ACI-437; wekowanie czosnku niezalecane (ACI-436), brak wytycznych zakwaszania ząbków (ACI-437); alternatywa lodówkowa: garlic-v07 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-436",
+    "ACI-437"
    ]
   },
   {
@@ -17443,13 +17709,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Najbliższy: NCHFP Pickled Pearl Onions (gorczyca, seler) — dotyczy cebulek perłowych w całości; zwykła cebula krojona nieprzetestowana."
+    "[ACI*] Najbliższy: NCHFP Pickled Pearl Onions (gorczyca, seler) — dotyczy cebulek perłowych w całości; zwykła cebula krojona nieprzetestowana.",
+    "[B10] wycofany jako duplikat shallot-pearl-onion-v05 (C8-D9, raport C8); status bez zmian, karta nie powstaje; następca obejmuje tylko cebulki perłowe (NCHFP Pickled Pearl Onions); krojona cebula z gorczycą nie ma przepisu (C8) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "retired": {
+    "reason": "duplikat shallot-pearl-onion-v05 (C8-D9: ten sam przepis NCHFP)",
+    "replacedBy": "shallot-pearl-onion-v05",
+    "decision": "2026-11-02-jaratlas-06-b10-katalog-c8-b9"
+   }
   },
   {
    "id": "onion-v04",
@@ -17510,7 +17782,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Cebula w soku z cytryny i sumaku: typowo na bieżąco/lodówka; brak przepisu."
+    "[ACI*] Cebula w soku z cytryny i sumaku: typowo na bieżąco/lodówka; brak przepisu.",
+    "[B10] zostaje do-researchu (B9): sok z cytrusów o zmiennym pH bez przepisu (ACI-517, ACI-518) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -17566,10 +17839,14 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "SLO-033",
-    "SLO-023"
+    "ACI-524",
+    "ACI-005",
+    "ACI-107",
+    "SLO-023",
+    "MIE-059",
+    "SLO-033"
    ],
    "sources": [],
    "filters": {
@@ -17580,14 +17857,21 @@
    },
    "notes": [
     "[SLO*] Cebula jest niskokwasowa; brak przetestowanego przepisu na konfiturę cebulową. Wino i ocet w przepisach domowych nie mają ustalonej dawki.",
-    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-033 to pH cebuli czerwonej, a produkt dotyczy cebuli żółtej i białej."
+    "[E3] ryzyko-wysokie → do-researchu: Twierdzenia nie nazywają zagrożenia dla tego rodzaju produktu (słodki przetwór z warzywa lub owocu niskokwasowego trzymany w lodówce). Są tylko pH surowca, ogólna zasada z Bad Bug Book (SLO-023: prawie każda żywność o pH powyżej 4,6), a w części wariantów wyłączenie surowca z procesów wekowania (dotyczy wekowania, nie lodówki). To analogia z wekowania. pH gotowego przetworu (cytrusy, wino, ocet, cukier) i aw są nieznane. Podstawa ryzyko-wysokie jest niespełniona, nie-publikowac (szczebel 1 wprost) też nie, więc zostaje do-researchu: nie publikować przepisu, dopóki nie będzie źródła (np. przepisu na dżem lodówkowy z tego surowca albo stanowiska extension). SLO-033 to pH cebuli czerwonej, a produkt dotyczy cebuli żółtej i białej.",
+    "[B10] do-researchu → ryzyko-wysokie (B9), karta-ostrzeżenie; requiredWarnings ACI-524, SLO-023, MIE-059; dżem warzywny lodówkowy, cebula niskokwasowa (ACI-524), B9-D10, analogia pumpkin-v08 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
    ],
-   "e3": "zmieniony z ryzyko-wysokie"
+   "e3": "zmieniony z ryzyko-wysokie",
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-524",
+    "SLO-023",
+    "MIE-059"
+   ]
   },
   {
    "id": "onion-v08",
@@ -17892,14 +18176,25 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
+    "ACI-507",
+    "ACI-501",
+    "ACI-509",
     "ACI-022",
     "ACI-024",
     "ACI-023",
     "ACI-107"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2025-07/MFP%20Quick%20Refrigerator%20Pickles.pdf",
+     "miejsce": "UC Master Food Preserver Program, Quick Refrigerator Pickles (07.2025); s. 2, Pickled Onions, składniki",
+     "cytat": "1 cup white vinegar (or apple cider) | 1 cup water | 1 Tbsp canning/pickling salt",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -17907,7 +18202,9 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Szybka cebula w occie: pikle lodówkowe, brak przetestowanego przepisu do przechowywania; nie jest trwała bez lodówki."
+    "[ACI*] Szybka cebula w occie: pikle lodówkowe, brak przetestowanego przepisu do przechowywania; nie jest trwała bez lodówki.",
+    "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): ACI-523 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ok-zrodlo (B9): przepis ACI-507; UC MFP Pickled Onions; tylko ocet 5% biały albo jabłkowy (ACI-509, B9-D5); środkowa półka (ACI-523, do potwierdzenia D-027) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -17936,7 +18233,8 @@
     "difficulty": null
    },
    "notes": [
-    "[FER*] Cebula z limonką: szybka marynata kwasem."
+    "[FER*] Cebula z limonką: szybka marynata kwasem.",
+    "[B10] zostaje do-researchu (B9): sok z cytrusów o zmiennym pH bez przepisu (ACI-517, ACI-518) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -17966,7 +18264,8 @@
    },
    "notes": [
     "[FER*] Xnipec: świeża salsa na kwaśnym soku; raczej na bieżąco.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
+    "[B10] zostaje do-researchu (B9): sok z cytrusów o zmiennym pH bez przepisu (ACI-517, ACI-518) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -18865,15 +19164,26 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
+    "ACI-511",
+    "ACI-501",
+    "ACI-509",
     "ACI-022",
     "ACI-024",
     "ACI-023",
     "ACI-111",
     "ACI-105"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://food.unl.edu/recipe/quick-pickled-daikon-radish-and-carrots/",
+     "miejsce": "Univ. of Nebraska–Lincoln Extension, Quick Pickled Daikon Radish and Carrots; Ingredients",
+     "cytat": "1 cup daikon radish, scrubbed with clean vegetable brush under running water, peeled and julienned | 1 cup carrots, scrubbed with clean vegetable brush under running water, peeled and julienned | ½ cup apple cider vinegar | ½ cup water",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -18881,7 +19191,9 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Do-chua: tradycyjnie pikle lodówkowe; brak przetestowanego przepisu do weków."
+    "[ACI*] Do-chua: tradycyjnie pikle lodówkowe; brak przetestowanego przepisu do weków.",
+    "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): ACI-523 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ok-zrodlo (B9): przepis ACI-511; Nebraska–Lincoln, proporcje i 4 dni z tego przepisu (B9-D3, B9-D5: nie WSU 1:3) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -18914,7 +19226,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Danmuji w occie ryżowym: brak przepisu; kwasowość octu ryżowego zmienna."
+    "[ACI*] Danmuji w occie ryżowym: brak przepisu; kwasowość octu ryżowego zmienna.",
+    "[B10] zostaje do-researchu (B9): ocet ryżowy/inny bez gwarancji 5% (ACI-515, ACI-516, B9-D5) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -19008,8 +19321,13 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "SLO-023",
+    "ACI-005",
+    "ACI-111",
+    "MIE-059"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -19018,12 +19336,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Rzodkiew w sosie sojowym (ACI/NAP)."
+    "[SZY*] Rzodkiew w sosie sojowym (ACI/NAP).",
+    "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): NAP-063 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ryzyko-wysokie (B9), karta-ostrzeżenie; requiredWarnings SLO-023, MIE-059; marynata sojowa bez octu (B9-D7, analogia daikon-black-radish-v09) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-023",
+    "MIE-059"
    ]
   },
   {
@@ -19355,14 +19680,26 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
+    "ACI-505",
+    "ACI-506",
+    "ACI-501",
+    "ACI-509",
     "ACI-016",
     "ACI-017",
     "ACI-005",
     "ACI-112"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://foodsafety.ces.ncsu.edu/news/how-to-make-quick-refrigerator-pickles/",
+     "miejsce": "NC State Extension, How to Make Quick Refrigerator Pickles; wstęp i krok 4 (Sour Brine)",
+     "cytat": "Onions, cucumbers, asparagus, parsnips, radishes, and pea pods are great vegetables to start making quick refrigerator pickles. … 3 cups white vinegar (or apple cider) | 3 cups water | 3 Tbsp. canning/pickling salt",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -19370,7 +19707,9 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Rzodkiewka w occie: brak przetestowanego przepisu NCHFP; kandydat na pikle lodówkowe."
+    "[ACI*] Rzodkiewka w occie: brak przetestowanego przepisu NCHFP; kandydat na pikle lodówkowe.",
+    "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): ACI-523 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ok-zrodlo (B9): przepis ACI-505; NC State/UC MFP szybkie pikle lodówkowe; limit z przepisu (B9-D3), nie 4 miesiące (Ball, B9-D5); ocet 5% (ACI-509) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -19403,7 +19742,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Rzodkiewka w occie ryżowym: brak przepisu."
+    "[ACI*] Rzodkiewka w occie ryżowym: brak przepisu.",
+    "[B10] zostaje do-researchu (B9): ocet ryżowy/inny bez gwarancji 5% (ACI-515, ACI-516, B9-D5) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -19422,14 +19762,26 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ok-zrodlo",
    "claims": [
+    "ACI-505",
+    "ACI-506",
+    "ACI-501",
+    "ACI-509",
     "ACI-016",
     "ACI-017",
     "ACI-005",
     "ACI-112"
    ],
-   "sources": [],
+   "sources": [
+    {
+     "adres": "https://foodsafety.ces.ncsu.edu/news/how-to-make-quick-refrigerator-pickles/",
+     "miejsce": "NC State Extension, How to Make Quick Refrigerator Pickles; wstęp i krok 4 (Sour Brine)",
+     "cytat": "Onions, cucumbers, asparagus, parsnips, radishes, and pea pods are great vegetables to start making quick refrigerator pickles. … 3 cups white vinegar (or apple cider) | 3 cups water | 3 Tbsp. canning/pickling salt",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -19437,7 +19789,9 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Pikle meksykańskie z rzodkiewki: brak przepisu."
+    "[ACI*] Pikle meksykańskie z rzodkiewki: brak przepisu.",
+    "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): ACI-523 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ok-zrodlo (B9): przepis ACI-505; NC State/UC MFP szybkie pikle lodówkowe; limit z przepisu (B9-D3); ocet 5% (ACI-509) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -19731,7 +20085,8 @@
    },
    "notes": [
     "[FER*] Chrzan na soku z cytryny: zakwaszanie, nie kiszenie.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
+    "[B10] zostaje do-researchu (B9): brak przepisu lodówkowego z proporcjami i limitem dni (ACI-514 tylko jakość) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -19798,7 +20153,8 @@
    },
    "notes": [
     "[FER*] Ćwikła chrzanowa: zwykle z octem.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
+    "[B10] zostaje do-researchu (B9): brak przepisu lodówkowego z proporcjami i limitem dni (ACI-514 tylko jakość) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -21074,7 +21430,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Senmaizuke (rzepa w occie ryżowym z kombu): tradycyjnie lodówka/krótko; brak przepisu."
+    "[ACI*] Senmaizuke (rzepa w occie ryżowym z kombu): tradycyjnie lodówka/krótko; brak przepisu.",
+    "[B10] zostaje do-researchu (B9): ocet ryżowy/inny bez gwarancji 5% (ACI-515, ACI-516, B9-D5) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -22145,14 +22502,20 @@
    },
    "notes": [
     "[ACI*] Ziarna kukurydzy w occie z papryką: najbliższy NCHFP Pickled Corn Relish (z selerem, cebulą, musztardą) — wersja uproszczona nieprzetestowana.",
-    "[SZY] Kukurydza w occie (ACI)."
+    "[SZY] Kukurydza w occie (ACI).",
+    "[B10] wycofany jako duplikat corn-v04 (C8-D9, raport C8); status bez zmian, karta nie powstaje (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SZY"
-   ]
+   ],
+   "retired": {
+    "reason": "duplikat corn-v04 (C8-D9: ten sam przepis NCHFP)",
+    "replacedBy": "corn-v04",
+    "decision": "2026-11-02-jaratlas-06-b10-katalog-c8-b9"
+   }
   },
   {
    "id": "corn-v04",
@@ -23661,10 +24024,15 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "low-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
+    "SLO-465",
+    "SLO-466",
+    "SLO-468",
+    "SLO-469",
     "SLO-036",
-    "SLO-037"
+    "SLO-037",
+    "SLO-470"
    ],
    "sources": [],
    "filters": {
@@ -23674,12 +24042,20 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Imbir z cytryną w miodzie: nieznane pH mieszaniny; miód nie dla niemowląt."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Imbir z cytryną w miodzie: nieznane pH mieszaniny; miód nie dla niemowląt.",
+    "[B10] do-researchu → ryzyko-wysokie (B9), karta-ostrzeżenie; requiredWarnings SLO-465, SLO-468, SLO-469, SLO-470; imbir niskokwasowy w miodzie: najwyżej 15% i tylko na gorąco >60°C (SLO-468); niemowlęta (SLO-469), B9-D8 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-465",
+    "SLO-468",
+    "SLO-469",
+    "SLO-470"
    ]
   },
   {
@@ -23924,9 +24300,21 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-503",
+    "ACI-504",
+    "ACI-501"
+   ],
+   "sources": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2018-07/287722.pdf",
+     "miejsce": "Univ. of Wisconsin Extension, B2267 (kopia na serwerze UC ANR); s. 52, przepis Cucumber pickles with onions or vegetable medley",
+     "cytat": "8 cups cucumbers, thinly sliced | 1 cup onion, peeled and sliced | an equal amount of other vegetables such as cauliflower, peppers or carrots as desired | 4 cups vinegar (5% acetic acid) | 2 cups sugar",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -23935,7 +24323,9 @@
    },
    "notes": [
     "[FER*] Sałatka szwedzka: marynata octowa.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
+    "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): ACI-523 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ok-zrodlo (B9): przepis ACI-503; Wisconsin B2267 vegetable medley; tylko lodówka, bez wekowania; skład karty tylko z przepisu; limit 2 tygodnie (B9-D3); karta mówi wprost „tylko lodówka, 2 tygodnie” (przegląd D-043); środkowa półka (ACI-523, do potwierdzenia D-027) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -23984,9 +24374,21 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
-   "sources": [],
+   "safetyStatus": "ok-zrodlo",
+   "claims": [
+    "ACI-503",
+    "ACI-504",
+    "ACI-501"
+   ],
+   "sources": [
+    {
+     "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2018-07/287722.pdf",
+     "miejsce": "Univ. of Wisconsin Extension, B2267 (kopia na serwerze UC ANR); s. 52, przepis Cucumber pickles with onions or vegetable medley",
+     "cytat": "8 cups cucumbers, thinly sliced | 1 cup onion, peeled and sliced | an equal amount of other vegetables such as cauliflower, peppers or carrots as desired | 4 cups vinegar (5% acetic acid) | 2 cups sugar",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    }
+   ],
    "filters": {
     "flavor": null,
     "readyTime": null,
@@ -23995,7 +24397,9 @@
    },
    "notes": [
     "[FER*] Sałatka z ogórków, papryki i cebuli: zwykle octowa.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
+    "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): ACI-523 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ok-zrodlo (B9): przepis ACI-503; Wisconsin B2267 vegetable medley; limit 2 tygodnie z tego przepisu (B9-D3); środkowa półka (ACI-523, do potwierdzenia D-027) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -24057,7 +24461,8 @@
    },
    "notes": [
     "[FER*] Brytyjskie mixed pickles: octowe.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
+    "[B10] zostaje do-researchu (B9): brak przepisu szczebla 1–3 z proporcjami i limitem dni (B9) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -25529,7 +25934,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Jabłka prażone na szarlotkę w słoikach; nie suszenie."
+    "[SUS*] Jabłka prażone na szarlotkę w słoikach; nie suszenie.",
+    "[B10] zostaje do-researchu (C8): wybór opcji A (mus z kawałkami) albo B (Apple Pie Filling z Clear Jel), C8-D13; decyzja redakcji (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -25655,7 +26061,8 @@
    },
    "notes": [
     "[SZY] Galaretka (SLO).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Najbliższy: Apple Jelly without Pectin (sok z całych jabłek), nie z samych ogryzków."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Najbliższy: Apple Jelly without Pectin (sok z całych jabłek), nie z samych ogryzków.",
+    "[B10] zostaje do-researchu (C8): zmiana na galaretkę bez pektyny z całych jabłek zmienia przepis; decyzja redakcji (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29154,7 +29561,8 @@
    },
    "notes": [
     "[ACI*] Salsa brzoskwiniowa z jalapeño: najbliższa NCHFP Peach-Apple Salsa (z jabłkiem) — inny skład; brak przepisu w tej formie.",
-    "[SZY] Salsa brzoskwiniowa (ACI)."
+    "[SZY] Salsa brzoskwiniowa (ACI).",
+    "[B10] zostaje do-researchu (C8): NCHFP Peach Apple Salsa nie ma jalapeño; zmiana tożsamości (pytania otwarte C8) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29308,7 +29716,8 @@
    },
    "notes": [
     "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Apple Butter; masła brzoskwiniowego nie znaleziono.",
-    "[OLE] Masło owocowe/dyniowe to przetwór słodki, nie tłuszcz. Dla masła dyniowego sprawdzić NCHFP (prawdopodobny zakaz wekowania; niezweryfikowane)."
+    "[OLE] Masło owocowe/dyniowe to przetwór słodki, nie tłuszcz. Dla masła dyniowego sprawdzić NCHFP (prawdopodobny zakaz wekowania; niezweryfikowane).",
+    "[B10] zostaje do-researchu (C8): ogólny schemat OSU bez tabeli wysokości; decyzja, czy wystarcza (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -30668,7 +31077,8 @@
    },
    "notes": [
     "[SLO*] Strawberry Jam Pectin (NCHFP). Wersja niskosłodzona tylko z pektyną modyfikowaną według instrukcji producenta (dłuższy czas).",
-    "[E3] ok-zrodlo → do-researchu: NCHFP Strawberry Jam Pectin (szczebel 1) to przepis na zwykłą pektynę i pełny cukier (5,5 szklanki owoców, 8 szklanek cukru). Wariant łączy go z wersją 'niskosłodzoną', na którą źródło nie podaje przepisu. SLO-001 zabrania zmniejszania cukru w tradycyjnych przepisach, a SLO-006 odsyła do instrukcji producenta pektyny o niskim metoksylowaniu. Zmiana cukru wpływa na bezpieczeństwo (pleśnie, drożdże), a nazwa wskazuje ją wprost."
+    "[E3] ok-zrodlo → do-researchu: NCHFP Strawberry Jam Pectin (szczebel 1) to przepis na zwykłą pektynę i pełny cukier (5,5 szklanki owoców, 8 szklanek cukru). Wariant łączy go z wersją 'niskosłodzoną', na którą źródło nie podaje przepisu. SLO-001 zabrania zmniejszania cukru w tradycyjnych przepisach, a SLO-006 odsyła do instrukcji producenta pektyny o niskim metoksylowaniu. Zmiana cukru wpływa na bezpieczeństwo (pleśnie, drożdże), a nazwa wskazuje ją wprost.",
+    "[B10] zostaje do-researchu (C8): podział na klasyczny (ok-zrodlo) i niskosłodzony wymaga nowego wariantu (C8-D11) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -30745,7 +31155,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Syrop zasypowy (na surowo): reguła przetworów niegotowanych. Wersja gotowana: Berry Syrup NCHFP (truskawki na liście)."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Syrop zasypowy (na surowo): reguła przetworów niegotowanych. Wersja gotowana: Berry Syrup NCHFP (truskawki na liście).",
+    "[B10] zostaje do-researchu (B9): dżem niegotowany bez przepisu dla tego wariantu (SLO-460, SLO-464) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -30838,7 +31249,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma tylko Strawberry-Rhubarb Jelly (galaretka), nie dżem."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma tylko Strawberry-Rhubarb Jelly (galaretka), nie dżem.",
+    "[B10] zostaje do-researchu (C8): przepis tylko w przedrukach szczebla 3 (WSU/NDSU) i wymaga zmiany nazwy; ostrożniej bez ok-zrodlo do źródła szczebla 1 (C8-D10, P7) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -31360,7 +31772,8 @@
    },
    "notes": [
     "[SZY] Maliny z cukrem (SLO).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Maliny zasypane cukrem bez gotowania: reguła przetworów niegotowanych."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Maliny zasypane cukrem bez gotowania: reguła przetworów niegotowanych.",
+    "[B10] zostaje do-researchu (B9): dżem niegotowany bez przepisu dla tego wariantu (SLO-460, SLO-464) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -31725,8 +32138,12 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
+    "SLO-465",
+    "SLO-466",
+    "SLO-469",
+    "SLO-470",
     "SLO-036"
    ],
    "sources": [],
@@ -31737,12 +32154,20 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt.",
+    "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): SLO-467 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ryzyko-wysokie (B9), karta-ostrzeżenie; requiredWarnings SLO-465, SLO-469, SLO-470; miód nie konserwuje (SLO-465); limit 15% świeżych owoców (SLO-467) czeka na potwierdzenie D-027; miód nie dla niemowląt (SLO-469, SLO-470), B9-D8 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-465",
+    "SLO-469",
+    "SLO-470"
    ]
   },
   {
@@ -31808,7 +32233,8 @@
    },
    "notes": [
     "[SZY] Galaretka (SLO).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Nie znaleziono galaretki porzeczkowej w zbiorze NCHFP."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Nie znaleziono galaretki porzeczkowej w zbiorze NCHFP.",
+    "[B10] zostaje do-researchu (C8): brak przepisu szczebla 1–3 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -31867,7 +32293,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Najbliższy: Blueberry-Currant Jam without Pectin (NCHFP), mieszanka; brak dżemu z samej czarnej porzeczki."
+    "[SLO*] Najbliższy: Blueberry-Currant Jam without Pectin (NCHFP), mieszanka; brak dżemu z samej czarnej porzeczki.",
+    "[B10] zostaje do-researchu (C8): zmiana gatunku owocu nie jest poprawką (C8-D12) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -32744,7 +33171,8 @@
    },
    "notes": [
     "[SZY] Jagody z cukrem (SLO).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Bez gotowania: reguła przetworów niegotowanych."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Bez gotowania: reguła przetworów niegotowanych.",
+    "[B10] zostaje do-researchu (B9): dżem niegotowany bez przepisu dla tego wariantu (SLO-460, SLO-464) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -32774,7 +33202,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Najbliższy: Berry Jams without Pectin (NCHFP); jagoda czarna (V. myrtillus) to inny gatunek niż borówka amerykańska, odpowiedniość do potwierdzenia."
+    "[SLO*] Najbliższy: Berry Jams without Pectin (NCHFP); jagoda czarna (V. myrtillus) to inny gatunek niż borówka amerykańska, odpowiedniość do potwierdzenia.",
+    "[B10] zostaje do-researchu (C8): zmiana gatunku owocu nie jest poprawką (C8-D12) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33019,7 +33448,8 @@
    },
    "notes": [
     "[SZY] Rårörda lingon (SLO).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Rårörda (ucierana na surowo): reguła przetworów niegotowanych."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Rårörda (ucierana na surowo): reguła przetworów niegotowanych.",
+    "[B10] zostaje do-researchu (B9): dżem niegotowany bez przepisu dla tego wariantu (SLO-460) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33122,7 +33552,8 @@
    },
    "notes": [
     "[ACI*] Relish żurawinowo-chrzanowy (surowy): wersja lodówkowa/na bieżąco; brak przepisu do weków.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
+    "[B10] zostaje do-researchu (B9): brak przepisu szczebla 1–3 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33205,7 +33636,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Borówka brusznica z gruszką; nie suszenie."
+    "[SUS*] Borówka brusznica z gruszką; nie suszenie.",
+    "[B10] zostaje do-researchu (C8): brak przepisu szczebla 1–3 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33684,7 +34116,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B10] zostaje do-researchu (C8): brak przepisu szczebla 1–3 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33894,8 +34327,12 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
+    "ACI-450",
+    "ACI-451",
+    "ACI-452",
+    "ACI-453",
     "ACI-016",
     "ACI-018"
    ],
@@ -33907,12 +34344,18 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Pąki i niedojrzałe owoce bzu w occie: brak przepisu; surowe/niedojrzałe części bzu — kwestia toksykologiczna DO USTALENIA (poza zakresem kwasowości)."
+    "[ACI*] Pąki i niedojrzałe owoce bzu w occie: brak przepisu; surowe/niedojrzałe części bzu — kwestia toksykologiczna DO USTALENIA (poza zakresem kwasowości).",
+    "[B10] do-researchu → ryzyko-wysokie (C8, C8-D7), karta-ostrzeżenie; requiredWarnings ACI-450, ACI-451; niedojrzałe owoce i pąki bzu: glikozydy cyjanogenne (ACI-450, ACI-451, ACI-453) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-450",
+    "ACI-451"
    ]
   },
   {
@@ -34074,7 +34517,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Syrop z kwiatów (napar kwiatowy) nie jest kwaśny z natury; tylko same kwiaty, bez łodyg i liści."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Syrop z kwiatów (napar kwiatowy) nie jest kwaśny z natury; tylko same kwiaty, bez łodyg i liści.",
+    "[B10] zostaje do-researchu (B9): syrop z kwiatów bzu: limit „kilka tygodni” bez liczby (SLO-471, B9-D9) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -34465,7 +34909,8 @@
    },
    "notes": [
     "[SZY] Dżem (SLO).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B10] zostaje do-researchu (C8): przepis NDSU tylko do lodówki/zamrażarki: zmiana metody, nie nazwy (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -34524,7 +34969,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B10] zostaje do-researchu (C8): brak przepisu szczebla 1–3 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -35269,7 +35715,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma tylko Strawberry-Rhubarb Jelly."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma tylko Strawberry-Rhubarb Jelly.",
+    "[B10] zostaje do-researchu (C8): jak strawberry-v12 i podział wariantu (C8-D10) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -35465,9 +35912,13 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "SLO-036"
+    "SLO-465",
+    "SLO-466",
+    "SLO-469",
+    "SLO-036",
+    "SLO-470"
    ],
    "sources": [],
    "filters": {
@@ -35478,13 +35929,21 @@
    },
    "notes": [
     "[FER] Cytryny w miodzie.",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Fermentacja w miodzie; miód nie dla niemowląt."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Fermentacja w miodzie; miód nie dla niemowląt.",
+    "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): SLO-467 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ryzyko-wysokie (B9), karta-ostrzeżenie; requiredWarnings SLO-465, SLO-469, SLO-470; miód nie konserwuje (SLO-465); limit 15% owoców (SLO-467) czeka na potwierdzenie D-027; fermentacja w miodzie bez źródła; niemowlęta (SLO-469), B9-D8 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "FER",
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-465",
+    "SLO-469",
+    "SLO-470"
    ]
   },
   {
@@ -35616,9 +36075,14 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "refrigerator",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "SLO-036"
+    "SLO-465",
+    "SLO-466",
+    "SLO-468",
+    "SLO-469",
+    "SLO-036",
+    "SLO-470"
    ],
    "sources": [],
    "filters": {
@@ -35628,12 +36092,21 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Miód nie dla niemowląt.",
+    "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): SLO-467 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ryzyko-wysokie (B9), karta-ostrzeżenie; requiredWarnings SLO-465, SLO-468, SLO-469, SLO-470; miód nie konserwuje; imbir to składnik niskokwasowy (SLO-468); niemowlęta (SLO-469), B9-D8 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-465",
+    "SLO-468",
+    "SLO-469",
+    "SLO-470"
    ]
   },
   {
@@ -35704,7 +36177,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Najbliższy: Citrus Marmalade / Orange Marmalade (NCHFP, z cytryną w składzie); marmolady z samej cytryny nie znaleziono."
+    "[SLO*] Najbliższy: Citrus Marmalade / Orange Marmalade (NCHFP, z cytryną w składzie); marmolady z samej cytryny nie znaleziono.",
+    "[B10] zostaje do-researchu (C8): marmolada z samej cytryny bez przepisu; zmiana na cytrusową nie jest mała (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -36431,7 +36905,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Najbliższy: Orange Marmalade (NCHFP); gorzka pomarańcza (Citrus aurantium) to inny gatunek, odpowiedniość do potwierdzenia."
+    "[SLO*] Najbliższy: Orange Marmalade (NCHFP); gorzka pomarańcza (Citrus aurantium) to inny gatunek, odpowiedniość do potwierdzenia.",
+    "[B10] zostaje do-researchu (C8): zmiana na marmoladę pomarańczową zmienia produkt (nie szkocka gorzka) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -40270,23 +40745,16 @@
    ],
    "sources": [
     {
+     "adres": "https://www.gov.pl/web/psse-warszawa/grzyby--wybieraj-bezpiecznie",
+     "miejsce": "PSSE Warszawa, Grzyby – wybieraj bezpiecznie; akapit o zatruciach",
+     "cytat": "Najczęstsze i najbardziej niebezpieczne zatrucia spowodowane są po zjedzeniu muchomora sromotnikowego, który mylony jest z takimi grzybami jadalnymi jak: czubajka kania, gąska zielona.",
+     "odczyt": "2026-11-02",
+     "szczebel": 3
+    },
+    {
      "adres": "https://extension.colostate.edu/resource/drying-vegetables/",
-     "miejsce": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed); Introduction",
-     "cytat": "If the temperature is too low in the beginning, microorganisms may survive and even grow before the food is adequately dried.",
-     "odczyt": "2026-11-01",
-     "szczebel": 3
-    },
-    {
-     "adres": "https://hgic.clemson.edu/factsheet/drying-vegetables/",
-     "miejsce": "Clemson HGIC 3085 Drying Vegetables (2024); Packaging & Storing Dried Foods",
-     "cytat": "Vegetables have about half the shelf-life of fruits, and can generally be stored for six months at 60 °F or three months at 80 °F.",
-     "odczyt": "2026-11-01",
-     "szczebel": 3
-    },
-    {
-     "adres": "https://extension-store.montana.edu/montguides/drying-vegetables",
-     "miejsce": "Montana State Univ. Extension, MontGuide MT200907HR Drying Vegetables (2017); Vacuum Sealing",
-     "cytat": "Vacuum sealing foods can increase the shelf life of some foods, but it is NOT a food preservation method by itself.",
+     "miejsce": "Colorado State Univ. Extension, Drying Vegetables (peer-reviewed); przypis do Table 2",
+     "cytat": "WARNING: The toxins of poisonous varieties of mushrooms are not destroyed by drying or by cooking.",
      "odczyt": "2026-11-01",
      "szczebel": 3
     }
@@ -40300,7 +40768,8 @@
    "notes": [
     "[SZY] Suszone kanie (SUS).",
     "[SUS*] Kania: procedura ogólna dla grzybów; ryzyko pomylenia z muchomorem jest krytyczne (toksyn nie niszczy suszenie). Karta musi to wyeksponować.",
-    "[p25] ok-zrodlo → ryzyko-wysokie, karta-ostrzeżenie bez przepisu (2026-11-02-jaratlas-06-karty-p25, B7-D3): kania mylona z muchomorem sromotnikowym (SUS-141, PSSE); toksyn nie niszczy suszenie (SUS-035)."
+    "[p25] ok-zrodlo → ryzyko-wysokie, karta-ostrzeżenie bez przepisu (2026-11-02-jaratlas-06-karty-p25, B7-D3): kania mylona z muchomorem sromotnikowym (SUS-141, PSSE); toksyn nie niszczy suszenie (SUS-035).",
+    "[B10] sources: procedura suszenia warzyw (CSU, Clemson, Montana) → PSSE Warszawa (SUS-141, mylenie kani z muchomorem sromotnikowym) i CSU przypis o toksynach (SUS-035); backlog p25 koordynatora (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -40515,10 +40984,12 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
-    "ACI-005",
-    "ACI-159"
+    "SLO-023",
+    "ACI-159",
+    "MIE-059",
+    "ACI-005"
    ],
    "sources": [],
    "filters": {
@@ -40529,13 +41000,20 @@
    },
    "notes": [
     "[ACI*] Shiitake w sosie sojowym i mirinie: brak kwasu, brak przepisu; tylko lodówka/na bieżąco DO USTALENIA.",
-    "[SZY] Shiitake w sosie sojowym i mirinie (ACI/NAP)."
+    "[SZY] Shiitake w sosie sojowym i mirinie (ACI/NAP).",
+    "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): NAP-063 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ryzyko-wysokie (B9), karta-ostrzeżenie; requiredWarnings SLO-023, MIE-059; marynata sojowa bez octu; grzyby pH 6,00–6,70 (ACI-159), B9-D7 (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SZY"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-023",
+    "MIE-059"
    ]
   },
   {
@@ -41005,8 +41483,12 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "refrigerator",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "SLO-023",
+    "ACI-005",
+    "MIE-059"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -41015,12 +41497,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SZY*] Myongi-namul w sosie sojowym (ACI/NAP)."
+    "[SZY*] Myongi-namul w sosie sojowym (ACI/NAP).",
+    "[B10] twierdzenia z raportu poza claims do potwierdzenia (D-027): NAP-063 (2026-11-02-jaratlas-06-b10-katalog-c8-b9).",
+    "[B10] do-researchu → ryzyko-wysokie (B9), karta-ostrzeżenie; requiredWarnings SLO-023, MIE-059; marynata sojowa bez octu (B9-D7) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SZY"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-023",
+    "MIE-059"
    ]
   },
   {
@@ -41837,7 +42326,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Napar z kwiatów mniszka nie jest kwaśny; do wekowania tylko przetestowany przepis z kwasem/cukrem (OSU). Nazwa „miód” myląca."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Napar z kwiatów mniszka nie jest kwaśny; do wekowania tylko przetestowany przepis z kwasem/cukrem (OSU). Nazwa „miód” myląca.",
+    "[B10] zostaje do-researchu (B9): napar z kwiatów prawdopodobnie nie jest bezpieczny do wekowania; brak przepisu (SLO-472) (2026-11-02-jaratlas-06-b10-katalog-c8-b9)."
    ],
    "scope": "in",
    "publication": "ukryta",
