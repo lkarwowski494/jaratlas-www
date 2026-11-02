@@ -30,15 +30,15 @@ Reguła JarAtlas (ostrożna): nie zmieniaj ilości octu ani warzyw, w tym kukury
 
 NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
 
-Na ok. 9 słoików pint NCHFP podaje 10 szklanek ziaren kukurydzy (z 16–20 kolb) albo kukurydzę mrożoną, po 2 1/2 szklanki pokrojonej w kostkę słodkiej papryki czerwonej i zielonej, 2 1/2 szklanki selera naciowego i 1 1/4 szklanki cebuli. [T:ACI-421]
+Na ok. 9 słoików pint NCHFP podaje 10 szklanek świeżych ziaren kukurydzy (z 16–20 średnich kolb) albo sześć opakowań mrożonej kukurydzy po 10 uncji (ok. 283 g każde), po 2 1/2 szklanki pokrojonej w kostkę słodkiej papryki czerwonej i zielonej, 2 1/2 szklanki selera naciowego i 1 1/4 szklanki cebuli. [T:ACI-421]
 
-Zalewa: 1 3/4 szklanki cukru, 5 szklanek octu 5% i 2 1/2 łyżki soli. [T:ACI-421]
+Zalewa: 1 3/4 szklanki cukru, 5 szklanek octu 5% i 2 1/2 łyżki soli do konserw i pikli. [T:ACI-421]
 
 Przyprawy: 2 1/2 łyżeczki nasion selera, 2 1/2 łyżki suchej musztardy w proszku i 1 1/4 łyżeczki kurkumy. [T:ACI-421]
 
 ## Gotowanie relishu
 
-Kolby gotuj 5 minut, zanurz w zimnej wodzie i odetnij całe ziarna; możesz też użyć kukurydzy mrożonej. [T:SLO-511]
+Kolby gotuj 5 minut, zanurz w zimnej wodzie i odetnij całe ziarna; zamiast tego możesz użyć sześciu opakowań mrożonej kukurydzy po 10 uncji (ok. 283 g). [T:SLO-511]
 
 Paprykę, seler, cebulę, cukier, ocet, sól i nasiona selera połącz w garnku, doprowadź do wrzenia i gotuj na małym ogniu 5 minut, od czasu do czasu mieszając. [T:SLO-511]
 
@@ -46,7 +46,7 @@ Musztardę w proszku i kurkumę wymieszaj z 1/2 szklanki gotowanej mieszanki. [T
 
 Tę mieszankę i kukurydzę dodaj do gorącej mieszanki i gotuj na małym ogniu jeszcze 5 minut. [T:SLO-511]
 
-Jeśli chcesz, NCHFP pozwala zagęścić relish pastą z 1/4 szklanki mąki wymieszanej z 1/4 szklanki wody; to wyjątek w tym przepisie i nie przenoś go na inne przetwory. [T:ACI-423]
+Jeśli chcesz, NCHFP pozwala zagęścić relish pastą z 1/4 szklanki mąki wymieszanej z 1/4 szklanki wody, często mieszając; to wyjątek w tym przepisie i nie przenoś go na inne przetwory. [T:ACI-423]
 
 ## Wekowanie
 

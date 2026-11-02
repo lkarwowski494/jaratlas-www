@@ -1,6 +1,6 @@
 # Pikantne szparagi w occie z ostrą papryczką (NCHFP)
 
-Ta karta opisuje przepis NCHFP na szparagi w occie (Pickled Asparagus): całe szparagi z czosnkiem i, opcjonalnie, jedną małą ostrą papryczką w słoiku, zalane wrzącą zalewą z białego octu destylowanego 5% i koperku, nakładane na surowo i wekowane w kąpieli wodnej. [T:SLO-587,SLO-590,SLO-592]
+Ta karta opisuje przepis NCHFP na szparagi w occie (Pickled Asparagus): szparagi przycięte do wysokości słoika, z czosnkiem i, opcjonalnie, jedną małą ostrą papryczką w słoiku, zalane wrzącą zalewą z białego octu destylowanego 5% z nasionami kopru, nakładane na surowo i wekowane w kąpieli wodnej. [T:SLO-587,SLO-589,SLO-590,SLO-592]
 
 ## Dlaczego nie wolno zmieniać przepisu
 
@@ -16,7 +16,7 @@ Do pikli zalecany jest biały ocet destylowany i ocet jabłkowy o kwasowości 5%
 
 Penn State Extension zaleca do domowych przetworów ocet o kwasowości 5–7% i odradza rozcieńczanie octu wodą, chyba że przebadany przepis wyraźnie to nakazuje. [T:ACI-209,ACI-210]
 
-Reguła JarAtlas (ostrożna, dla czytelników spoza USA): używaj octu spirytusowego (białego destylowanego) albo jabłkowego z etykietą 5% albo 6%; nie używaj octu 10% i nie rozcieńczaj go wodą, żeby uzyskać 5%; dodawaj tylko tyle wody, ile podaje przepis. [T:ACI-211,ACI-018]
+Reguła JarAtlas (ostrożna, dla czytelników spoza USA): używaj octu, który podaje przepis, czyli octu spirytusowego (białego destylowanego), z etykietą 5% albo 6%; nie używaj octu 10% i nie rozcieńczaj go wodą, żeby uzyskać 5%; dodawaj tylko tyle wody, ile podaje przepis. [T:ACI-211,ACI-018]
 
 ## Składniki
 

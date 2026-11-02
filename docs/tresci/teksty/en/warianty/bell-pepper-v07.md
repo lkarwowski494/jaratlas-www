@@ -1,6 +1,6 @@
 # Pickled hot peppers (peperoni) (NCHFP)
 
-This card describes the NCHFP recipe for pickled hot peppers: peeled hot and sweet peppers covered with a hot 5% vinegar pickling solution, packed raw and processed in a boiling-water bath. [T:SLO-560,SLO-562,SLO-563]
+This card describes the NCHFP recipe for pickled hot peppers: peeled hot and sweet peppers covered with a hot 5% vinegar pickling solution, packed raw and processed in a boiling-water bath. [T:SLO-560,SLO-561,SLO-562,SLO-563]
 
 ## Why you must not change the recipe
 

@@ -1,6 +1,6 @@
 # Pesto ze szparagów: przechowywanie w lodówce i zamrażarce (reguła JarAtlas)
 
-Ta karta opisuje przechowywanie wariantu „pesto ze szparagów”, czyli surowej pasty z olejem, według ostrożnej reguły JarAtlas opartej na zaleceniach dla pesto oraz dla warzyw i ziół w oleju; nie podaje przepisu. [T:SLO-721] Według NCHFP pesto to surowa mieszanka przyprawowa, zwykle ze świeżej bazylii, czosnku, orzeszków piniowych i oleju. [T:OLE-042]
+Ta karta opisuje przechowywanie wariantu „pesto ze szparagów”, czyli pasty z surowych, blanszowanych albo gotowanych szparagów z olejem, według ostrożnej reguły JarAtlas opartej na zaleceniach dla pesto oraz dla warzyw i ziół w oleju; nie podaje przepisu. [T:SLO-721] Według NCHFP pesto to surowa mieszanka przyprawowa, zwykle ze świeżej bazylii, czosnku, orzeszków piniowych i oleju. [T:OLE-042]
 
 ## !
 
@@ -22,7 +22,9 @@ Karta nie podaje przepisu, proporcji ani obróbki składników, na przykład bla
 
 Karta nie obejmuje past z rybą (na przykład anchois), mięsem ani jajkiem. [T:SLO-721]
 
-Ocet albo sok z cytryny w przepisie nie zmienia zasad przechowywania: nie jest to przetestowane zakwaszenie, a dla domowych warzyw i ziół w oleju nie ma zwalidowanych procesów. [T:SLO-721,OLE-028]
+Zasady są te same niezależnie od tego, czy szparagi są surowe, blanszowane czy gotowane: gotowanie nie niszczy przetrwalników jadu kiełbasianego. [T:SLO-721,OLE-048]
+
+Ocet albo sok z cytryny w przepisie nie zmienia zasad przechowywania: przetestowane zakwaszanie istnieje tylko dla niektórych ziół i warzyw do olejów smakowych, jego roztworu kwasu cytrynowego nie wolno zastępować octem ani sokiem z cytryny, a dla tej pasty przetestowanego zakwaszania nie ma. [T:SLO-720,SLO-721,OLE-014]
 
 Nie wekuj tej pasty: według Oregon State University Extension nie zbadano bezpiecznych czasów wekowania pesto. [T:SLO-720,SLO-721]
 

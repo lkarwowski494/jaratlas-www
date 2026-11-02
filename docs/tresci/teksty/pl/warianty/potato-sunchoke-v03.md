@@ -18,7 +18,7 @@ NCHFP podaje w tym przepisie ocet 5% bez rodzaju octu. [T:SLO-566]
 
 Do pikli zalecany jest biały ocet destylowany i ocet jabłkowy o kwasowości 5%. [T:ACI-018]
 
-Biały ocet wybiera się zwykle wtedy, gdy zależy na jasnym kolorze, więc wybór między białym a jabłkowym octem 5% jest w NCHFP kwestią koloru; do tego przepisu możesz użyć octu jabłkowego 5%. [T:ACI-019,ACI-018]
+Biały ocet wybiera się zwykle wtedy, gdy zależy na jasnym kolorze; Penn State Extension podaje, że gdy przebadany przepis nie określa rodzaju octu, można użyć białego albo jabłkowego z etykietą 5%, więc do tego przepisu możesz użyć octu jabłkowego 5%. [T:ACI-019,ACI-018,ACI-211]
 
 Penn State Extension zaleca do domowych przetworów ocet o kwasowości 5–7% i odradza rozcieńczanie octu wodą, chyba że przebadany przepis wyraźnie to nakazuje. [T:ACI-209,ACI-210]
 

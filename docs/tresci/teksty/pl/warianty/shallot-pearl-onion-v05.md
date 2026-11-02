@@ -1,6 +1,6 @@
 # Cebulki perłowe w białym occie (NCHFP)
 
-Ta karta opisuje przepis NCHFP na cebulki perłowe w occie (Pickled Pearl Onions): obrane białe cebulki perłowe podgotowane w słodkiej zalewie z białego octu destylowanego 5%, z gorczycą i nasionami selera, nakładane na gorąco i wekowane w kąpieli wodnej. [T:ACI-419,SLO-582,SLO-584]
+Ta karta opisuje przepis NCHFP na cebulki perłowe w occie (Pickled Pearl Onions): obrane białe cebulki perłowe podgotowane w słodkiej zalewie z białego octu destylowanego 5%, z gorczycą i nasionami selera, nakładane na gorąco i wekowane w kąpieli wodnej. [T:ACI-419,SLO-581,SLO-582,SLO-584]
 
 ## Dlaczego nie wolno zmieniać przepisu
 
@@ -16,7 +16,7 @@ Do pikli zalecany jest biały ocet destylowany i ocet jabłkowy o kwasowości 5%
 
 Penn State Extension zaleca do domowych przetworów ocet o kwasowości 5–7% i odradza rozcieńczanie octu wodą, chyba że przebadany przepis wyraźnie to nakazuje. [T:ACI-209,ACI-210]
 
-Reguła JarAtlas (ostrożna, dla czytelników spoza USA): używaj octu spirytusowego (białego destylowanego) albo jabłkowego z etykietą 5% albo 6%; nie używaj octu 10% i nie rozcieńczaj go wodą, żeby uzyskać 5%; dodawaj tylko tyle wody, ile podaje przepis. [T:ACI-211,ACI-018]
+Reguła JarAtlas (ostrożna, dla czytelników spoza USA): używaj octu, który podaje przepis, czyli octu spirytusowego (białego destylowanego), z etykietą 5% albo 6%; nie używaj octu 10% i nie rozcieńczaj go wodą, żeby uzyskać 5%; dodawaj tylko tyle wody, ile podaje przepis. [T:ACI-211,ACI-018]
 
 ## Składniki
 
@@ -24,7 +24,7 @@ NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
 
 NCHFP podaje ten przepis dla obranych białych cebulek perłowych; karta nie obejmuje szalotek ani czerwonej cebuli. [T:ACI-419]
 
-Na 3–4 słoiki pint NCHFP podaje 8 szklanek obranych białych cebulek perłowych, 5 1/2 szklanki białego octu destylowanego (5%), 1 szklankę wody, 2 łyżeczki soli, 2 szklanki cukru, 8 łyżeczek gorczycy i 4 łyżeczki nasion selera. [T:ACI-419]
+Na 3–4 słoiki pint NCHFP podaje 8 szklanek obranych białych cebulek perłowych, 5 1/2 szklanki białego octu destylowanego (5%), 1 szklankę wody, 2 łyżeczki soli do konserw, 2 szklanki cukru, 8 łyżeczek gorczycy i 4 łyżeczki nasion selera. [T:ACI-419]
 
 ## Obieranie i podgotowanie
 

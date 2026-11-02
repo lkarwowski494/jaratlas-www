@@ -6,7 +6,7 @@ Ta karta opisuje przepis NCHFP Pickled Green Tomato Relish: zielone pomidory, pa
 
 Przepis NCHFP używa małych, twardych zielonych pomidorów. [T:SLO-506]
 
-Reguła JarAtlas (ostrożna): nie zastępuj ich pomidorami dojrzałymi ani koktajlowymi, bo przepis nie był z nimi testowany. [T:ACI-265,SLO-506]
+Reguła JarAtlas (ostrożna): używaj tylko małych, twardych zielonych pomidorów, jak w przepisie; przepis był testowany tylko z nimi. [T:ACI-265,SLO-506]
 
 Nie używaj pomidorów z obumarłych ani przemarzniętych krzaków. [T:ACI-049]
 

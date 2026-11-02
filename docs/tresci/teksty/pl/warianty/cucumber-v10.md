@@ -76,6 +76,8 @@ Grzej wodę tak, żeby przez 30 minut utrzymać jej temperaturę 180–185 °F (
 
 Termometrem do cukierków albo galaretek sprawdzaj, czy woda ma co najmniej 180 °F (83 °C) przez całe 30 minut. [T:SLO-685]
 
+Używaj tych samych słoików co do kąpieli wodnej: do 946 ml, nie 1 l. [T:ACI-175]
+
 Powyżej 185 °F (85 °C) pikle mogą niepotrzebnie zmięknąć. [T:SLO-685]
 
 Karta przelicza stopnie Fahrenheita na stopnie Celsjusza i zaokrągla dolną granicę w górę, żeby woda nigdy nie była chłodniejsza, niż wymaga przepis. [T:SLO-684]

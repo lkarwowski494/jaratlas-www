@@ -12,7 +12,7 @@ Większość mieszanin żywności niskokwasowej i kwaśnej ma pH powyżej 4,6, c
 
 W całym produkcie musi być minimalny, równomierny poziom kwasu, żeby nie rozwinęły się bakterie jadu kiełbasianego. [T:ACI-017]
 
-Reguła JarAtlas (ostrożna): nie zmieniaj ilości octu, jabłek, cebuli ani papryki i nie dodawaj innych warzyw; przepis jest przetestowany tylko w podanych proporcjach. [T:ACI-265]
+Reguła JarAtlas (ostrożna): nie zmieniaj ilości octu, jabłek, cebuli ani słodkiej papryki i nie dodawaj innych warzyw; jedyną zmianą, na którą pozwala NCHFP, jest ostra papryka opisana niżej; przepis jest przetestowany tylko w podanych proporcjach. [T:ACI-265,ACI-646]
 
 NCHFP pozwala użyć innego rodzaju ostrej papryki, jeśli nie przekroczysz podanej ilości, albo pominąć ostrą paprykę. [T:ACI-646]
 
@@ -30,7 +30,7 @@ Na ok. 6 słoików pint NCHFP podaje 16 szklanek (4 quarty) obranych, pozbawiony
 
 Podaje też 12 uncji (ok. 340 g) złotych rodzynek bez pestek, 4 szklanki jasnego brązowego cukru, 3 łyżki gorczycy, 2 łyżki mielonego imbiru, 2 łyżeczki mielonego ziela angielskiego, 2 łyżeczki soli do konserw, 1 zgnieciony ząbek czosnku i 4 szklanki octu jabłkowego (5%). [T:SLO-627]
 
-Przy obieraniu i krojeniu ostrej papryki noś rękawice plastikowe albo gumowe i nie dotykaj twarzy. [T:SLO-628]
+Przy pracy z ostrą papryką i jej krojeniu noś rękawice plastikowe albo gumowe i nie dotykaj twarzy. [T:SLO-628]
 
 Jeśli nie nosisz rękawic, przed dotknięciem twarzy albo oczu dokładnie umyj ręce wodą z mydłem. [T:SLO-628]
 

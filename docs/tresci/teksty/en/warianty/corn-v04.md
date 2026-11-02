@@ -30,15 +30,15 @@ JarAtlas rule (cautious): do not change the amount of vinegar or vegetables, inc
 
 NCHFP uses US measures: a cup holds about 237 ml. [T:ACI-195]
 
-For about 9 pint jars NCHFP lists 10 cups of whole kernel corn (from 16 to 20 ears) or frozen corn, 2 1/2 cups each of diced sweet red and green peppers, 2 1/2 cups of celery and 1 1/4 cups of onions. [T:ACI-421]
+For about 9 pint jars NCHFP lists 10 cups of fresh whole kernel corn (from 16 to 20 medium-size ears) or six 10-ounce (about 283 g each) packages of frozen corn, 2 1/2 cups each of diced sweet red and green peppers, 2 1/2 cups of celery and 1 1/4 cups of onions. [T:ACI-421]
 
-For the pickling mixture: 1 3/4 cups of sugar, 5 cups of 5% vinegar and 2 1/2 tablespoons of salt. [T:ACI-421]
+For the pickling mixture: 1 3/4 cups of sugar, 5 cups of 5% vinegar and 2 1/2 tablespoons of canning or pickling salt. [T:ACI-421]
 
 Spices: 2 1/2 teaspoons of celery seed, 2 1/2 tablespoons of dry mustard and 1 1/4 teaspoons of turmeric. [T:ACI-421]
 
 ## Cooking the relish
 
-Boil the ears of corn for 5 minutes, dip them in cold water and cut the whole kernels from the cob; you can also use frozen corn. [T:SLO-511]
+Boil the ears of corn for 5 minutes, dip them in cold water and cut the whole kernels from the cob; you can instead use six 10-ounce (about 283 g) packages of frozen corn. [T:SLO-511]
 
 Combine the peppers, celery, onions, sugar, vinegar, salt and celery seed in a saucepan, bring to a boil and simmer for 5 minutes, stirring occasionally. [T:SLO-511]
 
@@ -46,7 +46,7 @@ Mix the dry mustard and turmeric in 1/2 cup of the simmered mixture. [T:SLO-511]
 
 Add this mixture and the corn to the hot mixture and simmer for another 5 minutes. [T:SLO-511]
 
-If desired, NCHFP allows thickening the relish with a paste of 1/4 cup of flour blended in 1/4 cup of water; this is an exception within this recipe, so do not carry it over to other preserves. [T:ACI-423]
+If desired, NCHFP allows thickening the relish with a paste of 1/4 cup of flour blended in 1/4 cup of water, stirring frequently; this is an exception within this recipe, so do not carry it over to other preserves. [T:ACI-423]
 
 ## Processing
 
