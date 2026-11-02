@@ -56223,5 +56223,555 @@
   "pochodzenie": "06 p32 (V1: sok musi przykrywać owoce)",
   "jednoZrodlo": true,
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-820",
+  "twierdzenie": "Według przepisu bylena.com „Cornelian Cherry Jam” (szczebel 4): 2 kg derenia jadalnego zalać wodą tak, by przykryła owoce, po zagotowaniu dusić na małym ogniu 30 min, przetrzeć przez sito (bez pestek), zważyć przecier i dodać tyle samo cukru wagowo (ok. 1 kg przecieru : 1 kg cukru), gotować na małym ogniu 1 h, mieszając; nalać do czystych, suchych słoików i zamknąć. Źródło nie podaje kąpieli wodnej ani wolnej przestrzeni (JarAtlas bierze je z reguły NCHFP, ACI-625).",
+  "zrodla": [
+   {
+    "adres": "https://www.bylena.com/recipe/1382/Cornelian-Cherry-Jam/",
+    "miejsce": "Cornelian Cherry Jam, Step 3",
+    "cytat": "Place over heat and, when it comes to the boil, turn the heat to low and let simmer for 30 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "szczebel_uwaga": "4 (blog z przepisem, bylena.com, Elena Butuc); użyte tylko w regule (c) dla proporcji",
+    "weryfikacja": "curl+grep",
+    "sha12": "a2f401a6b828"
+   },
+   {
+    "adres": "https://www.bylena.com/recipe/1382/Cornelian-Cherry-Jam/",
+    "miejsce": "Cornelian Cherry Jam, Step 8",
+    "cytat": "Add the same amount of sugar as the paste - so, for",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "szczebel_uwaga": "4 (blog z przepisem, bylena.com, Elena Butuc); użyte tylko w regule (c) dla proporcji",
+    "weryfikacja": "curl+grep",
+    "sha12": "a2f401a6b828"
+   },
+   {
+    "adres": "https://www.bylena.com/recipe/1382/Cornelian-Cherry-Jam/",
+    "miejsce": "Cornelian Cherry Jam, Step 9",
+    "cytat": "When it comes to the boil, turn the heat to low and leave to simmer for 1 hour, stirring periodically.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "szczebel_uwaga": "4 (blog z przepisem, bylena.com, Elena Butuc); użyte tylko w regule (c) dla proporcji",
+    "weryfikacja": "curl+grep",
+    "sha12": "a2f401a6b828"
+   },
+   {
+    "adres": "https://www.bylena.com/recipe/1382/Cornelian-Cherry-Jam/",
+    "miejsce": "Cornelian Cherry Jam, Step 11",
+    "cytat": "Pour the jam into clean, dry jars, seal tightly and allow to cool completely.",
+    "odczyt": "2026-11-02",
+    "szczebel": 4,
+    "szczebel_uwaga": "4 (blog z przepisem, bylena.com, Elena Butuc); użyte tylko w regule (c) dla proporcji",
+    "weryfikacja": "curl+grep",
+    "sha12": "a2f401a6b828"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ilości 2 kg owoców i 1 kg cukru/przecieru z listy składników (atrybut data-metric-quantity w kopii .html i .txt); cukier = waga przecieru.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "B19 B19-research-2026-11-02 (claude/jaratlas-b19-research e9004f4)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the bylena.com recipe “Cornelian Cherry Jam” (tier 4): cover 2 kg of cornelian cherries with water, bring to the boil and simmer on low heat for 30 min, press through a sieve (without pits), weigh the purée and add the same weight of sugar (about 1 kg purée : 1 kg sugar), simmer on low heat for 1 h, stirring; pour into clean, dry jars and seal. The source gives no boiling water bath or headspace (JarAtlas takes them from the NCHFP rule, ACI-625).",
+  "uwaga": "Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-780",
+  "twierdzenie": "NCHFP podaje przepisy na nadzienia owocowe do wekowania tylko z jabłek, borówki amerykańskiej, wiśni/czereśni, brzoskwiń, zielonych pomidorów i mincemeat (z Clear Jel); inne dostępne skrobie rozpadają się w tych nadzieniach; ilości soku z cytryny nie wolno zmieniać.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pie-fillings/",
+    "miejsce": "Pie Fillings, General",
+    "cytat": "Other available starches break down when used in these pie fillings, causing a runny sauce consistency.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP (UGA), adapt. USDA Complete Guide 2015",
+    "weryfikacja": "curl+html.parser+grep",
+    "sha12": "dc5ccd8446c9"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pie-fillings/",
+    "miejsce": "Pie Fillings, General",
+    "cytat": "The amount of lemon juice should not be altered, as it aids in controlling the safety and storage stability of the fillings.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP",
+    "weryfikacja": "curl+html.parser+grep",
+    "sha12": "dc5ccd8446c9"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/pie-fillings/",
+    "miejsce": "Pie Fillings, lista przepisów",
+    "cytat": "Blueberry Pie Filling",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "szczebel_uwaga": "szczebel 1: NCHFP; lista: Apple, Blueberry, Cherry, Peach, Green Tomato Pie Filling, Festive Mincemeat Pie Filling",
+    "weryfikacja": "curl+html.parser+grep",
+    "sha12": "dc5ccd8446c9"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Lista przepisów odczytana z sekcji „Pie Fillings” strony (6 pozycji); brak porzeczki i żurawiny.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": null,
+  "klaster": "SLO",
+  "pochodzenie": "B19 B19-research-2026-11-02 (claude/jaratlas-b19-research e9004f4)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "NCHFP gives home-canning recipes for fruit pie fillings only from apples, blueberries, cherries, peaches, green tomatoes and mincemeat (with Clear Jel); other available starches break down in these fillings; the amount of lemon juice must not be altered.",
+  "uwaga": "Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-785",
+  "twierdzenie": "W pracy recenzowanej (Yıldız i in., J Food Sci Technol 2015, PMC4375240) zmierzone pH owoców miechunki peruwiańskiej (Physalis peruviana, goldenberry) wyniosło średnio 6,07 (kwasowość miareczkowa 1,26% jako kwas cytrynowy); inne prace podają pH ok. 3,7 — kwasowość owocu jest niepewna i nie ma go w tabelach NCHFP.",
+  "zrodla": [
+   {
+    "adres": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4375240/",
+    "miejsce": "Results and discussion, akapit o kwasowości",
+    "cytat": "The mean titrateble acidity and pH values of goldenberry were found to be 1.26 % citric acid and 6.07, respectively.",
+    "odczyt": "2026-11-02",
+    "szczebel": 2,
+    "szczebel_uwaga": "2 (artykuł recenzowany, J Food Sci Technol, Springer; PMC)",
+    "weryfikacja": "curl+grep",
+    "sha12": "e0d78488697a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wartość ok. 3,7 z innych prac (Egypt J Agric Res; Kolumbia) widziana tylko w wynikach wyszukiwania, nieprzeczytana (PDF EKB niedostępny) — w twierdzeniu jako „inne prace podają”, bez liczby krytycznej.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "pochodzenie": "B19 B19-research-2026-11-02 (claude/jaratlas-b19-research e9004f4)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "In a peer-reviewed study (Yıldız et al., J Food Sci Technol 2015, PMC4375240) the measured pH of goldenberry (Physalis peruviana) fruit averaged 6.07 (titratable acidity 1.26% as citric acid); other studies report pH about 3.7 — the acidity of the fruit is uncertain and it is not in the NCHFP tables.",
+  "uwaga": "Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-875",
+  "twierdzenie": "Ask Extension (2016): Extension i USDA nie mają przepisu na wekowanie czerwonej kapusty; przetestowany przepis Spiced Red Cabbage jest w Ball Blue Book.",
+  "zrodla": [
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=308808",
+    "miejsce": "Ask Extension #308808, odpowiedź eksperta, zdanie 1",
+    "cytat": "Extension and USDA do not have a recipe for canning red cabbage however the Ball Blue book has a tested recipe for spiced red cabbage.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "Odpowiedź eksperta Ask Extension (N. Oehler, 2016-03-24, pytanie z hrabstwa Multnomah, OR) z przedrukiem Ball Blue Book Guide to Preserving 2014 (wyd. 37); jedna osoba, nie publikacja recenzowana.",
+    "weryfikacja": "curl+html.parser+grep",
+    "sha12": "c81c9bb1e03d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": null,
+  "klaster": "ACI",
+  "pochodzenie": "B20 B20-research-2026-11-02 (claude/jaratlas-b20-research c83d458)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Ask Extension (2016): Extension and USDA have no recipe for canning red cabbage; a tested Spiced Red Cabbage recipe is in the Ball Blue Book.",
+  "uwaga": "Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-876",
+  "twierdzenie": "Ball Spiced/Spicy Red Cabbage (Ball Complete Book of Home Preserving w ulotce UCCE; Ball Blue Book 2014 w Ask Extension), składniki na ok. 5 kwart albo 10 pint: 12 funtów (ok. 5,4 kg) czerwonej kapusty (3–4 główki) bez głąba, poszatkowanej; 1/2 szklanki soli do konserw lub marynat; 8 szklanek (2 kwarty) octu z czerwonego wina 5%; 1 szklanka jasnego brązowego cukru; 1/2 szklanki gorczycy; 1/4 szklanki gałki muszkatołowej w kwiecie lub gałki; w woreczku: po 1/4 szklanki całych goździków, ziela angielskiego, pieprzu w ziarnach i nasion selera oraz 2 laski cynamonu.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2022-04/365812.pdf",
+    "miejsce": "UCCE MFP El Dorado, Spicy Red Cabbage, Source: Ball Complete Book of Home Preserving, składniki",
+    "cytat": "Spicy Red Cabbage Source:Ball Complete Book of Home Preserving Yield: about 5 quarts or 10 pints 12 lbs of red cabbage(3-4heads), cored and shredded ½ cup canning or pickling salt",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "Przedruk Ball Complete Book of Home Preserving w ulotce UCCE Master Food Preservers of El Dorado County (S. Brasuel, 2021-02-12); wydanie Ball nie podane (dopuszczalne 2006/2012/2020).",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "9700e8c9e1f0"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2022-04/365812.pdf",
+    "miejsce": "UCCE MFP El Dorado, Spicy Red Cabbage, składniki",
+    "cytat": "¼ cup whole cloves ¼ cup whole allspice ¼ cup whole peppercorns ¼ cup celery seed 2 cinnamon sticks, each about 4 inches and broken into pieces. 8 cups of red wine vinegar (5% acidity) 1 cup light brown sugar ½ cup mustard seed ¼ cup mace or nutmeg",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "Przedruk Ball Complete Book of Home Preserving w ulotce UCCE Master Food Preservers of El Dorado County (S. Brasuel, 2021-02-12); wydanie Ball nie podane (dopuszczalne 2006/2012/2020).",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "9700e8c9e1f0"
+   },
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=308808",
+    "miejsce": "Ask Extension #308808, Spiced Red Cabbage (Source: Ball Blue Book Guide to Preserving. 2014), składniki",
+    "cytat": "12 pounds cabbage (about 3 large heads) ½ cup Ball ® salt (canning/pickling salt) 1 cup brown sugar ½ cup mustard seed ¼ cup mace 2 quarts red wine vinegar ¼ cup whole cloves",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "Odpowiedź eksperta Ask Extension (N. Oehler, 2016-03-24, pytanie z hrabstwa Multnomah, OR) z przedrukiem Ball Blue Book Guide to Preserving 2014 (wyd. 37); jedna osoba, nie publikacja recenzowana.",
+    "weryfikacja": "curl+html.parser+grep",
+    "sha12": "c81c9bb1e03d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Kwasowość octu (5%) podaje tylko wersja UCCE (Complete Book); Ask Extension (Blue Book 2014) nie podaje. Na kartę: ocet z czerwonego wina z etykietą 5% (ACI-016: nie octu o nieznanej kwasowości).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": null,
+  "klaster": "ACI",
+  "pochodzenie": "B20 B20-research-2026-11-02 (claude/jaratlas-b20-research c83d458)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "Ball Spiced/Spicy Red Cabbage (Ball Complete Book of Home Preserving in a UCCE handout; Ball Blue Book 2014 in Ask Extension), ingredients for about 5 quarts or 10 pints: 12 pounds (about 5.4 kg) red cabbage (3–4 heads), cored and shredded; 1/2 cup canning or pickling salt; 8 cups (2 quarts) red wine vinegar 5%; 1 cup packed light brown sugar; 1/2 cup mustard seed; 1/4 cup mace or nutmeg; in a spice bag: 1/4 cup each of whole cloves, whole allspice, whole peppercorns and celery seed, and 2 cinnamon sticks.",
+  "uwaga": "Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-877",
+  "twierdzenie": "Ball Spiced Red Cabbage, sposób: kapustę przesypać warstwami solą, przykryć i odstawić na 24 godziny w chłodne miejsce; opłukać, odsączyć 1 godzinę i osuszać ok. 6 godzin na tacach z ręcznikiem; ocet, cukier, gorczycę, gałkę i woreczek z przyprawami zagotować i gotować łagodnie 5 minut, woreczek wyjąć; kapustę włożyć do gorących słoików, zalać gorącą zalewą, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, usunąć pęcherze powietrza.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2022-04/365812.pdf",
+    "miejsce": "UCCE MFP El Dorado, Spicy Red Cabbage, Day 1–Day 2",
+    "cytat": "In a large crock, glass or stainless steel bowl, layer cabbage and salt. Cover and let stand in a cool place for 24 hours … Transfer cabbage to a colander placed over the sink and drain. Rinse with cool running water. Leave in colander for 1 hour to drain then place on trays lined with paper towels to dry, about 6 hours.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "Przedruk Ball Complete Book of Home Preserving w ulotce UCCE Master Food Preservers of El Dorado County (S. Brasuel, 2021-02-12); wydanie Ball nie podane (dopuszczalne 2006/2012/2020).",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "9700e8c9e1f0"
+   },
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2022-04/365812.pdf",
+    "miejsce": "UCCE MFP El Dorado, Spicy Red Cabbage, napełnianie",
+    "cytat": "Ladle hot pickling liquid into jars to cover the cabbage, leaving ½ inch headspace. Remove air bubbles and adjust headspace, if necessary, by adding more liquid.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "Przedruk Ball Complete Book of Home Preserving w ulotce UCCE Master Food Preservers of El Dorado County (S. Brasuel, 2021-02-12); wydanie Ball nie podane (dopuszczalne 2006/2012/2020).",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "9700e8c9e1f0"
+   },
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=308808",
+    "miejsce": "Ask Extension #308808, Spiced Red Cabbage (Ball Blue Book 2014), sposób",
+    "cytat": "Boil 5 minutes. Remove spice bag. Pack cabbage into hot jars, leaving ½ inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "Odpowiedź eksperta Ask Extension (N. Oehler, 2016-03-24, pytanie z hrabstwa Multnomah, OR) z przedrukiem Ball Blue Book Guide to Preserving 2014 (wyd. 37); jedna osoba, nie publikacja recenzowana.",
+    "weryfikacja": "curl+html.parser+grep",
+    "sha12": "c81c9bb1e03d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": null,
+  "klaster": "ACI",
+  "pochodzenie": "B20 B20-research-2026-11-02 (claude/jaratlas-b20-research c83d458)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "Ball Spiced Red Cabbage, method: layer the cabbage with salt, cover and let stand 24 hours in a cool place; rinse, drain 1 hour and dry about 6 hours on towel-lined trays; bring the vinegar, sugar, mustard seed, mace and spice bag to a boil and boil gently 5 minutes, remove the spice bag; pack the cabbage into hot jars, cover with hot pickling liquid leaving 1/2 inch (about 1.3 cm) headspace, remove air bubbles.",
+  "uwaga": "Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-878",
+  "twierdzenie": "Ball Spiced Red Cabbage, kąpiel wodna (ostrożnie, dłuższy z podanych czasów): 0–1000 stóp 20 minut, 1001–6000 stóp 25 minut, powyżej 6000 stóp 30 minut; Ball Blue Book 2014 podaje 20 minut bez rozbicia na wysokości.",
+  "zrodla": [
+   {
+    "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2022-04/365812.pdf",
+    "miejsce": "UCCE MFP El Dorado, Spicy Red Cabbage, czas",
+    "cytat": "Process for 20 minutes = 0-1000ft, 25 minutes = 1001-6000ft, 30 minutes = above 6000 ft.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "Przedruk Ball Complete Book of Home Preserving w ulotce UCCE Master Food Preservers of El Dorado County (S. Brasuel, 2021-02-12); wydanie Ball nie podane (dopuszczalne 2006/2012/2020).",
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "9700e8c9e1f0"
+   },
+   {
+    "adres": "https://ask.extension.org/kb/faq.php?id=308808",
+    "miejsce": "Ask Extension #308808, Spiced Red Cabbage (Ball Blue Book 2014), czas",
+    "cytat": "Process 20 minutes in a boiling water canner.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "szczebel_uwaga": "Odpowiedź eksperta Ask Extension (N. Oehler, 2016-03-24, pytanie z hrabstwa Multnomah, OR) z przedrukiem Ball Blue Book Guide to Preserving 2014 (wyd. 37); jedna osoba, nie publikacja recenzowana.",
+    "weryfikacja": "curl+html.parser+grep",
+    "sha12": "c81c9bb1e03d"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Ulotka UCCE ma pod przepisem drugi, krótszy akapit (10/15/20 min, wrzątek lub para atmosferyczna), który nie pasuje do przepisu (prawdopodobnie z innego przepisu); przyjęto dłuższy czas 20/25/30 min, zgodny z Blue Book (20 min do 1000 stóp). Słoik: pint albo kwarta wg wydajności („about 5 quarts or 10 pints”), ten sam czas — rozmiar słoika nie jest rozpisany w tabeli; do przeglądu.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": null,
+  "klaster": "ACI",
+  "pochodzenie": "B20 B20-research-2026-11-02 (claude/jaratlas-b20-research c83d458)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "Ball Spiced Red Cabbage, boiling water bath (cautiously, the longer of the times given): 0–1000 ft 20 minutes, 1001–6000 ft 25 minutes, above 6000 ft 30 minutes; the Ball Blue Book 2014 gives 20 minutes without an altitude breakdown.",
+  "uwaga": "Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-347",
+  "twierdzenie": "Owoce derenia jadalnego (Cornus mas) są kwaśne: wybrane genotypy z Turcji miały pH 2,87–3,12 (średnie z 3 lat); w innej populacji pH 2,60–4,02.",
+  "zrodla": [
+   {
+    "adres": "https://journal.americanpomological.org/index.php/jofaps/article/download/2478/2482/5315",
+    "miejsce": "Karadeniz T., Selection of Native 'Cornelian' Cherries Grown in Turkey, Journal American Pomological Society 56(3):164–167 (2002); streszczenie",
+    "cytat": "2.87 to 3.12 pH",
+    "odczyt": "2026-11-02",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "471e739d1831"
+   },
+   {
+    "adres": "https://horticulturejournal.usamv.ro/pdf/2016/Art3.pdf",
+    "miejsce": "Okatan V., Scientific Papers Series B Horticulture LX (2016), Almus (Tokat); streszczenie",
+    "cytat": "the pH between 2.60 and 4.02",
+    "odczyt": "2026-11-02",
+    "szczebel": 2,
+    "weryfikacja": "curl+grep",
+    "sha12": "7642503eb957"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "B16 B16-research-k-2026-11-02 (claude/jaratlas-b16-research 95ef3db, 9d2f34f)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "Cornelian cherry (Cornus mas) fruits are acidic: selected genotypes from Turkey had pH 2.87–3.12 (3-year means); in another population pH 2.60–4.02.",
+  "uwaga": "Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-325",
+  "twierdzenie": "Według ministerstwa rolnictwa Ontario (OMAFRA) owoce rokitnika przetwarza się możliwie szybko po zbiorze, a do tego czasu przechowuje w 4–6°C (do 2 tygodni) albo szybko zamraża; suszy się i miele na herbatę młode liście, nie owoce.",
+  "zrodla": [
+   {
+    "adres": "https://www.ontario.ca/page/introduction-sea-buckthorn",
+    "miejsce": "Ontario.ca (OMAFRA), Introduction to sea buckthorn; Harvesting and post-harvest handling, Uses",
+    "cytat": "After cleaning, the berries should be processed as soon as possible, but may be either stored at low temperature (4 to 6°C), or flash frozen if immediate processing is not feasible. The shelf life of berries stored at low temperature can be up to 2 weeks. … Young leaves have been dried and ground for use as a tea.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "4546fa91078f"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„Nie owoce” to wniosek redakcji: źródło wymienia suszenie tylko przy liściach.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02 (claude/jaratlas-c12-suszenie-zrodla-p2 f014ead)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to the Ontario agriculture ministry (OMAFRA), sea buckthorn berries are processed as soon as possible after harvest and until then stored at 4–6°C (up to 2 weeks) or flash frozen; young leaves, not berries, are dried and ground for tea.",
+  "uwaga": "Strona opisuje sad doświadczalny (Wingham); nie jest procedurą domową. Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-326",
+  "twierdzenie": "Według Cape Cod Cooperative Extension (UMass Extension) twarde, świeże owoce dzikiej róży do herbaty suszy się w całości, bez szypułek i końcówek, w piekarniku od bardzo niskiej temperatury 110°F (ok. 43°C) przy otwartych drzwiach, stopniowo podnosząc ją do 130–140°F (ok. 54–60°C) przez 6–8 godzin; suszenie przerywa się, gdy owoce uginają się pod naciskiem palca, bez dosuszania do końca.",
+  "zrodla": [
+   {
+    "adres": "https://www.capecod.gov/wp-content/uploads/2022/03/rose-hip-recipes.pdf",
+    "miejsce": "Cape Cod Cooperative Extension, Rose Hip Jams, Jellies and Tea, s. 1, ramka „Rose Hip Tea”",
+    "cytat": "To dry the hard, fresh rose hips, inspect, clean and cut off stems or ends. … put in the oven at a very low temperature, (110˚ F) with the oven door left open. The temperature can be gradually raised to 130˚ F-140˚ F over a period of six to eight hours. The drying should be stopped as soon as the berries yield to the pressure of a finger. They should not be dried completely because they again become hard and too difficult to handle.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "4b6de8dcffd2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02 (claude/jaratlas-c12-suszenie-zrodla-p2 f014ead)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to Cape Cod Cooperative Extension (UMass Extension), hard, fresh rose hips for tea are dried whole, with stems and ends cut off, in an oven starting at a very low 110°F (about 43°C) with the door open, gradually raising it to 130–140°F (about 54–60°C) over 6–8 hours; drying stops when the hips yield to finger pressure, without drying completely.",
+  "uwaga": "Start 110°F stoi w sprzeczności z SUS-002 (zbyt niska temperatura na początku) i SUS-001 (140°F); koniec „nie do końca suche” – z testem suchości owoców (SUS-063). Brak czasu przechowywania (tylko „airtight container”). C12-D4. Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-332",
+  "twierdzenie": "Według UC Master Food Preserver Program skórkę arbuza kandyzuje się tak: odcina się różowy miąższ i zieloną skórę, kroi białą część w kostki ok. 1 cala (2,5 cm), gotuje w syropie z 1 szklanki cukru i 2 szklanek wody około 7 minut z każdej strony, aż będzie prawie przezroczysta, i suszy w suszarce w 135°F (ok. 57°C) do 4–6 godzin, aż będzie giętka, ale nie lepka.",
+  "zrodla": [
+   {
+    "adres": "https://class.ucanr.edu/sites/default/files/2020-09/335009.pdf",
+    "miejsce": "UC MFP Program, Melon: Preserve It, „Candied Watermelon Rinds”, File 1-0042",
+    "cytat": "1 cup sugar | 2 cups water … 1. Trim the pink flesh and outer green skin from thick watermelon rinds. Cut into 1-inch squares or fancy shapes as desired. … 3. Add just enough rinds to have a single layer. Simmer on each side for about 7 minutes. Rinds should be fairly translucent when finished. | 4. Dry at 135°F in dehydrator, turning pieces over halfway through. It can take up to 4-6 hours until rinds are pliable but not tacky.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "4525685436fa"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02 (claude/jaratlas-c12-suszenie-zrodla-p2 f014ead)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to the UC Master Food Preserver Program, watermelon rind is candied like this: the pink flesh and green skin are trimmed off, the white rind is cut into about 1-inch (2.5 cm) squares, simmered in a syrup of 1 cup sugar and 2 cups water about 7 minutes on each side until fairly translucent, and dried in a dehydrator at 135°F (about 57°C) for up to 4–6 hours until pliable but not tacky.",
+  "uwaga": "Brak czasu i warunków przechowywania; arbuz niskokwasowy (SLO-024, ACI-156); kantalupy brak. C12-D9. Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-333",
+  "twierdzenie": "Według FDA do potraw, w których jaja są surowe lub niedogotowane w chwili podania, używa się jaj w skorupkach poddanych obróbce niszczącej Salmonellę (pasteryzacji lub innej zatwierdzonej metodzie) albo pasteryzowanych produktów jajecznych.",
+  "zrodla": [
+   {
+    "adres": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+    "miejsce": "FDA, What You Need to Know About Egg Safety; sekcja „Preparing”",
+    "cytat": "For recipes that call for eggs that are raw or undercooked when the dish is served — like Caesar salad dressing and homemade ice cream — use either shell eggs that have been treated to destroy Salmonella, by pasteurization or another approved method, or pasteurized egg products.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "3da77e24e73c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02 (claude/jaratlas-c12-suszenie-zrodla-p2 f014ead)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to FDA, for dishes in which eggs are raw or undercooked when served, use shell eggs treated to destroy Salmonella (by pasteurization or another approved method) or pasteurized egg products.",
+  "uwaga": "Kandyzowane liście i kwiaty zwykle smaruje się surowym białkiem (SUS-334). Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-334",
+  "twierdzenie": "Według Rutgers Cooperative Extension (hrabstwo Ocean) kwiaty jadalne kandyzuje się, smarując je pędzelkiem mieszaniną 1 białka albo 1 łyżeczki białka w proszku z 1 łyżeczką wody lub wódki i obsypując drobnym cukrem; suszy się je 4–24 godziny i przechowuje w szczelnym pojemniku do 2 tygodni.",
+  "zrodla": [
+   {
+    "adres": "https://archive.sebs.rutgers.edu/wp-content/uploads/Edible-Flowers-Handout.pdf",
+    "miejsce": "Rutgers Cooperative Extension of Ocean County, Edible Flowers handout, „Crystallized / Candied / Sugared Edible Flowers”",
+    "cytat": "1 egg white or 1 teaspoon powdered egg whites | 1 teaspoon water or vodka (vodka dries the flowers faster) | ½ cup superfine sugar … With a small paintbrush, apply the egg white mix lightly to the front and back of the flower. … Let dry for 4-24 hours. Can be stored in an airtight container for up to 2 weeks",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "02c6b8c79bfc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02 (claude/jaratlas-c12-suszenie-zrodla-p2 f014ead)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "According to Rutgers Cooperative Extension (Ocean County), edible flowers are crystallized by brushing them with a mix of 1 egg white or 1 teaspoon powdered egg whites with 1 teaspoon water or vodka and sprinkling with superfine sugar; they are dried 4–24 hours and stored in an airtight container for up to 2 weeks.",
+  "uwaga": "Kwiaty, nie liście mięty i szałwii: nie 1:1. Źródło nie wymaga białka pasteryzowanego (zob. SUS-333). Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-335",
+  "twierdzenie": "Według Państwowej Inspekcji Sanitarnej (PSSE Golub-Dobrzyń) opieńka miodowa jest grzybem jadalnym, ale do spożycia nadają się tylko młode kapelusze.",
+  "zrodla": [
+   {
+    "adres": "https://www.gov.pl/web/psse-golub-dobrzyn/pomylka-ktora-moze-byc-smiertelna-czyli-grzybowe-pomylki",
+    "miejsce": "gov.pl, PSSE Golub-Dobrzyń, „Pomyłka, która może być śmiertelna, czyli grzybowe pomyłki” (27.08.2024), sekcja „Opieńka miodowa, a maślanka wiązkowa”",
+    "cytat": "Opieńka miodowa jest jadalnym grzybem, jednak do spożycia nadają się tylko młode kapelusze.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "bc614e195382"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02 (claude/jaratlas-c12-suszenie-zrodla-p2 f014ead)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to the Polish State Sanitary Inspection (PSSE Golub-Dobrzyń), the honey fungus is an edible mushroom, but only young caps are fit to eat.",
+  "uwaga": "Proszek z trzonów opieniek jest sprzeczny z tym zaleceniem. Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SUS-336",
+  "twierdzenie": "Według ATS Milano (agencja zdrowia publicznego) opieńka miodowa (Armillaria mellea) jest toksyczna na surowo lub niedogotowana; żeby była jadalna, trzeba ją najpierw gotować co najmniej 20 minut bez przykrycia i wylać wodę, bo zawiera toksyny niszczone ciepłem.",
+  "zrodla": [
+   {
+    "adres": "https://storico.comune.cesate.mi.it/wp-content/uploads/2020/09/Funghi-Locandina.pdf",
+    "miejsce": "ATS Milano, ulotka „I funghi: consigli per la raccolta, il consumo e la conservazione” (kopia na stronie gminy Cesate), sekcja o spożyciu",
+    "cytat": "L’Armillaria mellea (chiodino), per esempio, è considerato un fungo tossico se consumato crudo o poco cotto … di almeno 20 minuti, senza coperchio e con eliminazione dell’acqua in quanto contiene delle tossine termolabili che si disattivano se esposte al calore",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "1f94dd51177c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "SUS",
+  "pochodzenie": "C12 E1-suszenie-zrodla-p2-2026-11-02 (claude/jaratlas-c12-suszenie-zrodla-p2 f014ead)",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "According to ATS Milano (public health agency), honey fungus (Armillaria mellea) is toxic raw or undercooked; to make it edible it must first be boiled for at least 20 minutes uncovered and the water discarded, because it contains heat-labile toxins.",
+  "uwaga": "Kopia ulotki na stronie gminy; oryginał ATS Milano (szczebel nadaje oryginał, C12-D16). Suszenie bez wcześniejszego gotowania nie spełnia tego wymogu. Wpis B21 (2026-11-02-jaratlas-b21-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
+  "weryfikacjaZastepcza": "2026-11-02"
  }
 ]
