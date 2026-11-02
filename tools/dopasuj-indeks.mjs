@@ -205,6 +205,15 @@ function analizaNazwy(w, produkty) {
   return { dodatki, nieznane };
 }
 
+// Produkty katalogu to szerokie grupy (np. „napoje fermentowane”, „szynka, schab i polędwica”). Gdy nazwa przepisu ma termin
+// swoisty, nazwa wariantu musi mieć polski odpowiednik; inaczej to inny wyrób (kombucha ≠ kwas chlebowy, ham ≠ schab wędzony).
+const SWOISTE = [
+  [/\bkombucha\b/, /\b(kombuch|jun\b)/], [/\bkvass\b/, /\bkwas\b/], [/\b(water kefir|kefir water)\b/, /\b(kefir wodn|tibicos)/],
+  [/\bginger (ale|beer)\b/, /\b(imbir|ginger)/], [/\bhams?\b/, /\bszyn/], [/\bbacon\b/, /\b(boczek|boczk|bekon)/],
+  [/\bsausages?\b/, /\b(kielbas|kabanos|parowk|serdel|frankfurt|mortadel|salami|chorizo|metk)/], [/\bjerky\b/, /\b(jerky|biltong|suszon)/],
+  [/\byogh?urt\b/, /\bjogurt/], [/\bkimchi\b/, /\bkimchi/], [/\bsmok(ed|ing) fish\b|\bsmoked (salmon|trout)\b/, /\bwedzon/],
+  [/\bpickled eggs?\b|\beggs\b.*\bpickled\b/, /\b(occie|octow|marynow|ocet)/],
+];
 export function dopasujWariant(w, przepisy, produkty = []) {
   const typy = typyWariantu(w);
   const { dodatki, nieznane } = analizaNazwy(w, produkty);
@@ -217,7 +226,9 @@ export function dopasujWariant(w, przepisy, produkty = []) {
     const n = normalizuj(p.nazwa);
     const typ = typPrzepisu(p.nazwa, p.metoda);
     const typOk = (typy.size === 0 && !RODZINY_Z_TYPEM.has(w.processFamilyId)) || typy.has(typ ?? 'owoce');
-    if (!typOk) { innyTyp++; continue; }
+    const nazwaW = normalizuj(w?.name?.pl);
+    const swoisteOk = SWOISTE.every(([en, pl]) => !en.test(n) || pl.test(nazwaW));
+    if (!typOk || !swoisteOk) { innyTyp++; continue; }
     const dodatkiOk = dodatki.every((r) => r.test(n));
     const pewne = metoda === 'glowna' && dodatkiOk && nieznane.length === 0;
     trafienia.push({ nazwa: p.nazwa, adres: p.adres, metoda: p.metoda, zrodlo: p.zrodlo, szczebel: p.szczebel,
