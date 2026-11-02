@@ -31,7 +31,12 @@ const ZOSTAJA = ['tomatillo-v06', 'cucumber-v11', 'chili-pepper-v04', 'peach-nec
   'shallot-pearl-onion-v03', 'horseradish-v02', 'horseradish-v04', 'carrot-v06', 'white-cabbage-v11', 'cranberry-lingonberry-v05', 'strawberry-v09', 'raspberry-blackberry-v09',
   'blueberry-bilberry-v07', 'cranberry-lingonberry-v02', 'elderberry-elderflower-v06', 'foraged-blossoms-v02', 'pumpkin-v12'];
 
-test('B10: katalog 1.0.7', () => assert.equal(cat.version, '1.0.7'));
+// Wersja co najmniej 1.0.7: kolejne porcje podnoszą wersję (B11-D8).
+const wersja = (s) => s.split('.').map(Number);
+test('B10: katalog co najmniej 1.0.7', () => {
+  const [a, b] = [wersja(cat.version), wersja('1.0.7')];
+  assert.ok(a[0] > b[0] || (a[0] === b[0] && (a[1] > b[1] || (a[1] === b[1] && a[2] >= b[2]))), cat.version);
+});
 
 test('B10: 78 wariantów C8+B9 rozliczonych dokładnie raz', () => {
   const wszystkie = [...OK, ...Object.keys(RYZYKO), ...Object.keys(WYCOFANE), ...ZOSTAJA];

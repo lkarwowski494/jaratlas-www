@@ -1,5 +1,5 @@
 {
- "version": "1.0.7",
+ "version": "1.0.8",
  "generated": "2026-11-02",
  "source": "katalog v0 (Słoik docs/jaratlas/01-katalog-v0.md) + research 9 klastrów",
  "categories": [
@@ -5469,7 +5469,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Jak kapusta w tabelach CSU/Clemson (paski, blanszowanie). Odpowiednik: kapusta czerwona/włoska = kapusta."
+    "[SUS*] Jak kapusta w tabelach CSU/Clemson (paski, blanszowanie). Odpowiednik: kapusta czerwona/włoska = kapusta.",
+    "[B11] produkt red-savoy-cabbage bez slugu w site/slugi; slug powstaje z kartą (ADR 0002, jak B10-D6), bez zmiany (B11-D11) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -6274,12 +6275,15 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-016",
     "ACI-017",
     "ACI-005",
-    "ACI-006"
+    "ACI-006",
+    "ACI-636",
+    "ACI-638",
+    "ACI-423"
    ],
    "sources": [],
    "filters": {
@@ -6290,13 +6294,20 @@
    },
    "notes": [
     "[ACI*] Brytyjski piccalilli musztardowy (kalafior, zagęszczony mąką/skrobią) ≠ amerykański Piccalilli NCHFP (zielone pomidory+kapusta). Brak przetestowanego przepisu.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster ACI.",
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-005, ACI-006, ACI-423; C9-D10: piccalilli brytyjski z zagęszczaczem bez przepisu; NCHFP Piccalilli to inny produkt (ACI-639, robocze po D-027, poza ostrzeżeniami) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "NAP"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-005",
+    "ACI-006",
+    "ACI-423"
    ]
   },
   {
@@ -9995,7 +10006,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Liście młodego jęczmienia suszone jak zioła liściaste (NCHFP Herbs: liście, kwiaty, nasiona). Odpowiedniość: ten sam proces dla liści."
+    "[SUS*] Liście młodego jęczmienia suszone jak zioła liściaste (NCHFP Herbs: liście, kwiaty, nasiona). Odpowiedniość: ten sam proces dla liści.",
+    "[B11] liść jęczmienia / pokrzywa nie pasują do produktu „Liście winogron, sałata łodygowa i rukiew”; przeniesienie do innego produktu zmienia productId i slug (ADR 0002), poza zakresem B11: do toru kart przed kartą (B11-D10) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -10037,7 +10049,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Pokrzywa suszona jak zioło liściaste. Zbiór z dziko rosnących: rozpoznanie i miejsce zbioru poza zakresem źródła."
+    "[SUS*] Pokrzywa suszona jak zioło liściaste. Zbiór z dziko rosnących: rozpoznanie i miejsce zbioru poza zakresem źródła.",
+    "[B11] liść jęczmienia / pokrzywa nie pasują do produktu „Liście winogron, sałata łodygowa i rukiew”; przeniesienie do innego produktu zmienia productId i slug (ADR 0002), poza zakresem B11: do toru kart przed kartą (B11-D10) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -10209,12 +10222,16 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-016",
     "ACI-017",
     "ACI-093",
-    "ACI-006"
+    "ACI-006",
+    "ACI-644",
+    "ACI-645",
+    "ACI-050",
+    "ACI-107"
    ],
    "sources": [],
    "filters": {
@@ -10224,12 +10241,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Dojrzałe pomidory w zalewie octowej z cebulą: NCHFP ma przepisy tylko dla zielonych pomidorów; brak przepisu."
+    "[ACI*] Dojrzałe pomidory w zalewie octowej z cebulą: NCHFP ma przepisy tylko dla zielonych pomidorów; brak przepisu.",
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-093, ACI-107, ACI-006; C9-D10: dojrzałe pomidory z cebulą w occie bez przepisu (ACI-093, ACI-107) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-093",
+    "ACI-107",
+    "ACI-006"
    ]
   },
   {
@@ -11134,10 +11158,15 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-016",
-    "ACI-017"
+    "ACI-017",
+    "ACI-646",
+    "ACI-050",
+    "ACI-107",
+    "ACI-006",
+    "ACI-265"
    ],
    "sources": [],
    "filters": {
@@ -11147,12 +11176,20 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Chutney z zielonych pomidorów i rodzynek: brak przepisu (NCHFP Tomato-Apple Chutney jest z dojrzałych pomidorów)."
+    "[ACI*] Chutney z zielonych pomidorów i rodzynek: brak przepisu (NCHFP Tomato-Apple Chutney jest z dojrzałych pomidorów).",
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-646, ACI-107, ACI-006, ACI-265; C9-D10: chutney spoza czterech przepisów NCHFP (ACI-646) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-646",
+    "ACI-107",
+    "ACI-006",
+    "ACI-265"
    ]
   },
   {
@@ -11381,13 +11418,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Zalewa miodowa: brak przetestowanego przepisu (miód zamiast cukru nieprzetestowany)."
+    "[ACI*] Zalewa miodowa: brak przetestowanego przepisu (miód zamiast cukru nieprzetestowany).",
+    "[B11] wycofany jako duplikat bell-pepper-v01 (C9-D7); status bez zmian, karta nie powstaje (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
-   ]
+   ],
+   "retired": {
+    "reason": "duplikat bell-pepper-v01 (C9-D7: ten sam przepis co następca)",
+    "replacedBy": "bell-pepper-v01",
+    "decision": "2026-11-02-jaratlas-06-b11-katalog-c9"
+   }
   },
   {
    "id": "bell-pepper-v03",
@@ -12147,8 +12190,17 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "ACI-094",
+    "ACI-016",
+    "ACI-017",
+    "ACI-265",
+    "ACI-414",
+    "ACI-415",
+    "ACI-416",
+    "ACI-417"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -12157,12 +12209,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Cowboy candy to marynata octowo-cukrowa (ACI). Pepper jelly NCHFP nie jest odpowiednikiem."
+    "[SLO*] Cowboy candy to marynata octowo-cukrowa (ACI). Pepper jelly NCHFP nie jest odpowiednikiem.",
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-094, ACI-016, ACI-017; C9-D10: cowboy candy tylko Ball/blogi (szczebel 4) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-094",
+    "ACI-016",
+    "ACI-017"
    ]
   },
   {
@@ -17516,7 +17575,7 @@
    "id": "garlic-v15",
    "productId": "garlic",
    "name": {
-    "pl": "suszone płatki czosnku"
+    "pl": "suszony czosnek drobno posiekany"
    },
    "groupV0": "Olej, temperatura i susz",
    "lineV0": 123,
@@ -17553,7 +17612,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SUS*] Płatki czosnku: MSU/Clemson podają czosnek (drobno posiekany, bez blanszowania, 6–8 h). Plastry zamiast siekania: odpowiednik."
+    "[SUS*] Płatki czosnku: MSU/Clemson podają czosnek (drobno posiekany, bez blanszowania, 6–8 h). Plastry zamiast siekania: odpowiednik.",
+    "[B11] nazwa „suszone płatki czosnku” → „suszony czosnek drobno posiekany”: MSU każe drobno posiekać (SUS-037, „finely chop”); plastry bez źródła; prosta zmiana nazwy (B10-D3), status bez zmian (B11-D9) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -24243,7 +24303,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Giardiniera w occie winnym: najbliższy NCHFP Pickled Mixed Vegetables (inny skład, ocet biały 5%, musztarda) — brak przepisu w tej formie."
+    "[ACI*] Giardiniera w occie winnym: najbliższy NCHFP Pickled Mixed Vegetables (inny skład, ocet biały 5%, musztarda) — brak przepisu w tej formie.",
+    "[B11] zostaje do-researchu (C9: przepis NCHFP Pickled Mixed Vegetables; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -26092,7 +26153,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Mint Jelly i Apple Jelly osobno, nie dżem jabłkowo-miętowy."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Mint Jelly i Apple Jelly osobno, nie dżem jabłkowo-miętowy.",
+    "[B11] zostaje do-researchu (C9: przepis NCHFP Apple Preserves Pectin; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -26223,14 +26285,20 @@
    },
    "notes": [
     "[ACI*] Połówki jabłek: NCHFP podaje czasy tylko dla plastrów; połówki nieprzetestowane (owoc kwaśny — ryzyko głównie zepsucia).",
-    "[SLO] Apples-Sliced NCHFP (ćwiartki/plastry w syropie); połówki nie są opisane wprost, do sprawdzenia przy pisaniu karty."
+    "[SLO] Apples-Sliced NCHFP (ćwiartki/plastry w syropie); połówki nie są opisane wprost, do sprawdzenia przy pisaniu karty.",
+    "[B11] wycofany jako duplikat apple-v13 (C9-D7); status bez zmian, karta nie powstaje (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SLO"
-   ]
+   ],
+   "retired": {
+    "reason": "duplikat apple-v13 (C9-D7: ten sam przepis co następca)",
+    "replacedBy": "apple-v13",
+    "decision": "2026-11-02-jaratlas-06-b11-katalog-c9"
+   }
   },
   {
    "id": "apple-v16",
@@ -26700,7 +26768,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Pear Preserves (konfitura w syropie), nie dżem z przyprawami."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Pear Preserves (konfitura w syropie), nie dżem z przyprawami.",
+    "[B11] zostaje do-researchu (C9: przepis USDA Guide 7 Pear-Apple Jam; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -26719,8 +26788,15 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "ACI-632",
+    "ACI-630",
+    "ACI-627",
+    "ACI-628",
+    "ACI-629",
+    "ACI-477"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -26729,12 +26805,17 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Dodatek czekolady/kakao zmienia skład; brak źródła."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Dodatek czekolady/kakao zmienia skład; brak źródła.",
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-632; C9-D9: czekolada, NCHFP o sosach czekoladowych (ACI-632) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-632"
    ]
   },
   {
@@ -26748,11 +26829,15 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-016",
     "ACI-017",
-    "ACI-127"
+    "ACI-127",
+    "ACI-646",
+    "ACI-107",
+    "ACI-006",
+    "ACI-265"
    ],
    "sources": [],
    "filters": {
@@ -26762,12 +26847,20 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Chutney gruszkowy: brak przepisu (NCHFP ma Pear Relish i Chayote and Pear Relish)."
+    "[ACI*] Chutney gruszkowy: brak przepisu (NCHFP ma Pear Relish i Chayote and Pear Relish).",
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-646, ACI-127, ACI-107, ACI-006; C9-D10: chutney spoza czterech przepisów NCHFP (ACI-646) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-646",
+    "ACI-127",
+    "ACI-107",
+    "ACI-006"
    ]
   },
   {
@@ -26798,7 +26891,8 @@
    "notes": [
     "[ACI*] Kompot ≈ gruszki połówki w syropie bardzo lekkim (NCHFP). Gruszki azjatyckie — zakwasić (c_pears-asian).",
     "[SLO] Kompot gruszkowy = gruszki połówki w lekkim syropie (NCHFP).",
-    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → do-researchu: Źródłem jest przepis na połówki gruszek w syropie (Pears-Halved), a kompot to inny produkt: dużo zalewy na mało owoców (inne proporcje niż w przepisie; strona o syropach, e16de398eeee, podaje ilości syropu na wsad słoików) i zwykle słoje większe niż 1 qt (do 3 l), których NCHFP nie przewiduje. Proporcje i rozmiar słoika wpływają na bezpieczeństwo, a pH gruszek sięga 4,60 (ACI-127), czyli progu. Minimalna poprawka: jeśli wariant to po prostu połówki według NCHFP w bardzo lekkim syropie, w słoikach do 0,95 l, napełnione jak w przepisie, nazwać go 'gruszki w bardzo lekkim syropie' (wtedy ok-zrodlo) i dodać ostrzeżenie ACI-063 (nie dla nashi)."
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → do-researchu: Źródłem jest przepis na połówki gruszek w syropie (Pears-Halved), a kompot to inny produkt: dużo zalewy na mało owoców (inne proporcje niż w przepisie; strona o syropach, e16de398eeee, podaje ilości syropu na wsad słoików) i zwykle słoje większe niż 1 qt (do 3 l), których NCHFP nie przewiduje. Proporcje i rozmiar słoika wpływają na bezpieczeństwo, a pH gruszek sięga 4,60 (ACI-127), czyli progu. Minimalna poprawka: jeśli wariant to po prostu połówki według NCHFP w bardzo lekkim syropie, w słoikach do 0,95 l, napełnione jak w przepisie, nazwać go 'gruszki w bardzo lekkim syropie' (wtedy ok-zrodlo) i dodać ostrzeżenie ACI-063 (nie dla nashi).",
+    "[B11] wycofany jako duplikat pear-v07 (C9-D7); status bez zmian, karta nie powstaje (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -26809,7 +26903,12 @@
    "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → do-researchu",
    "requiredWarnings": [
     "ACI-063"
-   ]
+   ],
+   "retired": {
+    "reason": "duplikat pear-v07 (C9-D7: ten sam przepis co następca)",
+    "replacedBy": "pear-v07",
+    "decision": "2026-11-02-jaratlas-06-b11-katalog-c9"
+   }
   },
   {
    "id": "pear-v13",
@@ -27195,7 +27294,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -27601,10 +27701,17 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "water-bath",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "SLO-021",
-    "SLO-001"
+    "SLO-001",
+    "ACI-627",
+    "ACI-628",
+    "ACI-629",
+    "SLO-088",
+    "ACI-465",
+    "ACI-014",
+    "ACI-477"
    ],
    "sources": [],
    "filters": {
@@ -27614,12 +27721,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu na powidła bez cukru. Tradycyjne zakręcanie na gorąco bez wekowania (open kettle) NCHFP odradza."
+    "[SLO*] Brak przetestowanego przepisu na powidła bez cukru. Tradycyjne zakręcanie na gorąco bez wekowania (open kettle) NCHFP odradza.",
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-465, SLO-021, ACI-014; C9-D11: powidła bez cukru; cukier jest konserwantem (ACI-465), skład zmienia proces (SLO-088: przepis z obniżonym cukrem to inny produkt, poza ostrzeżeniami); bez wekowania odradzane (SLO-021, ACI-014) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-465",
+    "SLO-021",
+    "ACI-014"
    ]
   },
   {
@@ -27633,8 +27747,14 @@
    "processFamilyId": "sweet-preserves",
    "preservationMethod": "water-bath",
    "acidBasis": "sugar-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "ACI-632",
+    "ACI-627",
+    "ACI-628",
+    "ACI-629",
+    "ACI-477"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -27643,12 +27763,17 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Czekolada/kakao poza przepisem."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Czekolada/kakao poza przepisem.",
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-632; C9-D9: czekolada, NCHFP o sosach czekoladowych (ACI-632) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-632"
    ]
   },
   {
@@ -27675,7 +27800,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Śliwki we własnym soku (bez dodatku płynu): NCHFP przewiduje wodę lub syrop; wersja bez płynu nieprzetestowana."
+    "[ACI*] Śliwki we własnym soku (bez dodatku płynu): NCHFP przewiduje wodę lub syrop; wersja bez płynu nieprzetestowana.",
+    "[B11] zostaje do-researchu (C9: przepis NCHFP Plums-Halved or Whole; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -27694,11 +27820,17 @@
    "processFamilyId": "canned-foods",
    "preservationMethod": "water-bath",
    "acidBasis": "natural-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-075",
     "ACI-067",
-    "SLO-100"
+    "SLO-100",
+    "ACI-186",
+    "ACI-187",
+    "ACI-188",
+    "ACI-189",
+    "ACI-190",
+    "ACI-191"
    ],
    "sources": [],
    "filters": {
@@ -27709,13 +27841,18 @@
    },
    "notes": [
     "[ACI*] Połówki w syropie z rumem: dodatek alkoholu nieprzetestowany (owoc kwaśny); baza = NCHFP Plums.",
-    "[SLO] Najbliższy: Plums-Halved or Whole (NCHFP); rum to dodatek poza przepisem."
+    "[SLO] Najbliższy: Plums-Halved or Whole (NCHFP); rum to dodatek poza przepisem.",
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-067; C9-D8: alkohol bez przepisu szczebla 1–3; wersja bez alkoholu = plum-v13 (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-067"
    ]
   },
   {
@@ -28626,13 +28763,19 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Cherry Jam, nie konfiturę z całych wiśni."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. NCHFP ma Cherry Jam, nie konfiturę z całych wiśni.",
+    "[B11] wycofany jako duplikat sour-cherry-v11 (C9-D7); status bez zmian, karta nie powstaje (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
-   ]
+   ],
+   "retired": {
+    "reason": "duplikat sour-cherry-v11 (C9-D7: ten sam przepis co następca)",
+    "replacedBy": "sour-cherry-v11",
+    "decision": "2026-11-02-jaratlas-06-b11-katalog-c9"
+   }
   },
   {
    "id": "sour-cherry-v08",
@@ -29325,11 +29468,21 @@
    "processFamilyId": "canned-foods",
    "preservationMethod": "water-bath",
    "acidBasis": "natural-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-070",
     "ACI-067",
-    "SLO-095"
+    "SLO-095",
+    "ACI-235",
+    "ACI-236",
+    "ACI-237",
+    "ACI-238",
+    "ACI-239",
+    "ACI-240",
+    "ACI-241",
+    "ACI-242",
+    "ACI-243",
+    "SLO-201"
    ],
    "sources": [],
    "filters": {
@@ -29340,13 +29493,19 @@
    },
    "notes": [
     "[ACI*] Syrop z amaretto: dodatek alkoholu nieprzetestowany; baza NCHFP Cherries.",
-    "[SLO] Najbliższy: Cherries-Whole; amaretto (alkohol) poza przepisem."
+    "[SLO] Najbliższy: Cherries-Whole; amaretto (alkohol) poza przepisem.",
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-067, SLO-201; C9-D8: likier bez przepisu szczebla 1–3; wersja bez alkoholu = sweet-cherry-v07/v08 (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-067",
+    "SLO-201"
    ]
   },
   {
@@ -29458,7 +29617,8 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Pickled peaches: brak przepisu w obecnym indeksie NCHFP (DO USTALENIA: Guide 2/So Easy to Preserve)."
+    "[ACI*] Pickled peaches: brak przepisu w obecnym indeksie NCHFP (DO USTALENIA: Guide 2/So Easy to Preserve).",
+    "[B11] zostaje do-researchu (C9: przepis CSU Extension Preserve Smart, Peach Pickles; C9-D6 proponuje ok-zrodlo na CSU Peach Pickles (szczebel 3, jedno źródło, ACI-641–643); B11-D2: ostrożniej do-researchu do weta C9-D6 (P3); po akceptacji ok-zrodlo, tylko słoiki pint) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29737,11 +29897,15 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-016",
     "ACI-017",
-    "ACI-133"
+    "ACI-133",
+    "ACI-646",
+    "ACI-107",
+    "ACI-006",
+    "ACI-265"
    ],
    "sources": [],
    "filters": {
@@ -29751,12 +29915,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Chutney brzoskwiniowy z imbirem: brak przepisu."
+    "[ACI*] Chutney brzoskwiniowy z imbirem: brak przepisu.",
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-646, ACI-107, ACI-006; C9-D10: chutney spoza czterech przepisów NCHFP (ACI-646) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-646",
+    "ACI-107",
+    "ACI-006"
    ]
   },
   {
@@ -29770,11 +29941,20 @@
    "processFamilyId": "canned-foods",
    "preservationMethod": "water-bath",
    "acidBasis": "natural-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-073",
     "ACI-067",
-    "SLO-098"
+    "SLO-098",
+    "SLO-128",
+    "SLO-129",
+    "SLO-130",
+    "SLO-131",
+    "SLO-132",
+    "SLO-133",
+    "SLO-134",
+    "SLO-135",
+    "E3-001"
    ],
    "sources": [],
    "filters": {
@@ -29785,13 +29965,19 @@
    },
    "notes": [
     "[ACI*] Brzoskwinie w syropie z bourbonem/brandy: dodatek alkoholu nieprzetestowany; baza NCHFP Peaches.",
-    "[SLO] Najbliższy: Peaches-Halved; alkohol poza przepisem."
+    "[SLO] Najbliższy: Peaches-Halved; alkohol poza przepisem.",
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-067, E3-001; C9-D8: alkohol bez przepisu szczebla 1–3; wersja bez alkoholu = peach-nectarine-v06 (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-067",
+    "E3-001"
    ]
   },
   {
@@ -29907,7 +30093,8 @@
    "notes": [
     "[ACI*] Kompot ≈ brzoskwinie/nektarynki połówki w syropie bardzo lekkim (NCHFP).",
     "[SLO] Kompot = brzoskwinie w lekkim syropie (NCHFP).",
-    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → do-researchu: Źródłami są przepisy na połówki lub plastry brzoskwiń i nektarynek w syropie. Kompot to inny produkt: większy udział zalewy (inne proporcje) i zwykle słoje większe niż 1 qt (do 3 l), których NCHFP nie przewiduje; proporcje i rozmiar słoika wpływają na bezpieczeństwo. pH (ACI-133 do 4,05, ACI-134 do 4,18) daje margines, ale nie zastępuje przetestowanego procesu. E3-001 jest właściwe; białe nektarynki nie są ujęte (źródło milczy, strona bf75aed25573 nie ma zastrzeżenia). Minimalna poprawka: jeśli to połówki według NCHFP w bardzo lekkim lub lekkim syropie, w słoikach do 0,95 l, napełnione jak w przepisie, nazwać 'brzoskwinie/nektarynki w lekkim syropie', wtedy ok-zrodlo z E3-001."
+    "[E3, weryfikacja rozstrzygnięć] ok-zrodlo → do-researchu: Źródłami są przepisy na połówki lub plastry brzoskwiń i nektarynek w syropie. Kompot to inny produkt: większy udział zalewy (inne proporcje) i zwykle słoje większe niż 1 qt (do 3 l), których NCHFP nie przewiduje; proporcje i rozmiar słoika wpływają na bezpieczeństwo. pH (ACI-133 do 4,05, ACI-134 do 4,18) daje margines, ale nie zastępuje przetestowanego procesu. E3-001 jest właściwe; białe nektarynki nie są ujęte (źródło milczy, strona bf75aed25573 nie ma zastrzeżenia). Minimalna poprawka: jeśli to połówki według NCHFP w bardzo lekkim lub lekkim syropie, w słoikach do 0,95 l, napełnione jak w przepisie, nazwać 'brzoskwinie/nektarynki w lekkim syropie', wtedy ok-zrodlo z E3-001.",
+    "[B11] wycofany jako duplikat peach-nectarine-v06 (C9-D7); status bez zmian, karta nie powstaje (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -29918,7 +30105,12 @@
    "e3": "rozstrzygnięcie zweryfikowane: ok-zrodlo → do-researchu",
    "requiredWarnings": [
     "E3-001"
-   ]
+   ],
+   "retired": {
+    "reason": "duplikat peach-nectarine-v06 (C9-D7: ten sam przepis co następca)",
+    "replacedBy": "peach-nectarine-v06",
+    "decision": "2026-11-02-jaratlas-06-b11-katalog-c9"
+   }
   },
   {
    "id": "peach-nectarine-v14",
@@ -30776,7 +30968,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Dereń nie jest na liście Berry Syrup NCHFP."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Dereń nie jest na liście Berry Syrup NCHFP.",
+    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -31175,11 +31368,17 @@
    "processFamilyId": "canned-foods",
    "preservationMethod": "water-bath",
    "acidBasis": "natural-acid",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-068",
     "ACI-136",
-    "SLO-055"
+    "SLO-055",
+    "ACI-604",
+    "FRZ-061",
+    "FRZ-062",
+    "FRZ-063",
+    "SLO-085",
+    "SLO-072"
    ],
    "sources": [],
    "filters": {
@@ -31190,13 +31389,19 @@
    },
    "notes": [
     "[ACI*] Kompot truskawkowy: truskawek nie ma na liście NCHFP „Berries whole” (instrukcje tylko dla wymienionych owoców); brak przetestowanego czasu.",
-    "[SLO] Brak przetestowanego przepisu dla tego wariantu. Truskawek nie ma na liście owoców jagodowych NCHFP do wekowania w całości."
+    "[SLO] Brak przetestowanego przepisu dla tego wariantu. Truskawek nie ma na liście owoców jagodowych NCHFP do wekowania w całości.",
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-068, ACI-604; C9-D4: NCHFP bez przepisu na truskawki w płynie, SDSU: NCHFP nie zaleca (ACI-604); nie-publikowac wymaga szczebla 1 (B11-D1) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-068",
+    "ACI-604"
    ]
   },
   {
@@ -31804,7 +32009,8 @@
    },
    "notes": [
     "[SZY] Galaretka (SLO).",
-    "[SLO*] Najbliższy: Blackberry Jelly without Pectin (NCHFP); dodatek jabłka poza przepisem."
+    "[SLO*] Najbliższy: Blackberry Jelly without Pectin (NCHFP); dodatek jabłka poza przepisem.",
+    "[B11] zostaje do-researchu (C9: przepis NCHFP Blackberry Jelly without Pectin; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -32399,7 +32605,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Porzeczek nie ma na liście Berry Syrup NCHFP."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Porzeczek nie ma na liście Berry Syrup NCHFP.",
+    "[B11] zostaje do-researchu (C9: przepis OSU Extension SP 50-632 Making berry syrups at home; C9-D5: NCHFP Berry Syrup bez porzeczek, OSU (szczebel 3) rozszerza; do weta) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -32792,7 +32999,8 @@
    },
    "notes": [
     "[SZY] Galaretka (SLO).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -32876,7 +33084,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B11] zostaje do-researchu (C9: przepis NCHFP Making Jam without added Pectin (Berries); C9-D13: mieszanka agrest + truskawka nietestowana; bez łączenia wierszy tabeli) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33138,7 +33347,8 @@
    },
    "notes": [
     "[ACI*] NCHFP Berries whole (borówki, hot pack) — dopuszcza sok/wodę zamiast syropu. Jagoda leśna (Vaccinium myrtillus) nie jest wymieniona wprost (huckleberries/blueberries) — uproszczenie.",
-    "[E3] ok-zrodlo → do-researchu: Jagody leśne (borówka czarna, Vaccinium myrtillus) nie są na liście NCHFP Berries-Whole, a źródło mówi wprost: „Use these directions only with the berries listed.” Pakowanie w soku/bez cukru jest dozwolone, ale owoc spoza listy = brak przetestowanego przepisu. Po zmianie na borówkę amerykańską ok-zrodlo by przysługiwało."
+    "[E3] ok-zrodlo → do-researchu: Jagody leśne (borówka czarna, Vaccinium myrtillus) nie są na liście NCHFP Berries-Whole, a źródło mówi wprost: „Use these directions only with the berries listed.” Pakowanie w soku/bez cukru jest dozwolone, ale owoc spoza listy = brak przetestowanego przepisu. Po zmianie na borówkę amerykańską ok-zrodlo by przysługiwało.",
+    "[B11] zostaje do-researchu (C9: przepis NCHFP Berries-Whole; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33263,7 +33473,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Najbliższy: Berry Syrup (borówki amerykańskie na liście); jagoda czarna to inny gatunek."
+    "[SLO*] Najbliższy: Berry Syrup (borówki amerykańskie na liście); jagoda czarna to inny gatunek.",
+    "[B11] zostaje do-researchu (C9: przepis NCHFP Berry Syrup; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33332,7 +33543,8 @@
    "notes": [
     "[ACI*] Kompot ≈ NCHFP Berries whole (borówki) w syropie bardzo lekkim.",
     "[SLO] Najbliższy: Berries-Whole (borówki amerykańskie); jagoda czarna to inny gatunek.",
-    "[E3] ok-zrodlo → do-researchu: „Kompot jagodowy” po polsku to zwykle kompot z jagód leśnych (borówki czarnej), których nie ma na liście NCHFP Berries-Whole („Use these directions only with the berries listed”). Jeśli wariant dotyczy borówki amerykańskiej, wystarczy zmienić nazwę i ok-zrodlo przysługuje (syrop/woda dozwolone, ACI-067)."
+    "[E3] ok-zrodlo → do-researchu: „Kompot jagodowy” po polsku to zwykle kompot z jagód leśnych (borówki czarnej), których nie ma na liście NCHFP Berries-Whole („Use these directions only with the berries listed”). Jeśli wariant dotyczy borówki amerykańskiej, wystarczy zmienić nazwę i ok-zrodlo przysługuje (syrop/woda dozwolone, ACI-067).",
+    "[B11] zostaje do-researchu (C9: przepis NCHFP Berries-Whole; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -33796,7 +34008,8 @@
    "notes": [
     "[SZY*] Sok żurawinowy (NAP/SLO).",
     "[SLO] Najbliższa: procedura UC dla soków kwaśnych z owoców jagodowych (sok z sokownika); brak przepisu na sok żurawinowy innej metody.",
-    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SLO."
+    "[NAP] Poza obszarem NAP (trafił do listy przez słowo „ocet”/„musztard”/„zakwas” w nazwie lub grupie v0); ocenia klaster SLO.",
+    "[B11] zostaje do-researchu (C9: przepis UC Steam Juicing Basics, Canned High-Acid Fruit Juices from Steamed Juice; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -34077,8 +34290,12 @@
    "processFamilyId": "canned-foods",
    "preservationMethod": "water-bath",
    "acidBasis": "natural-acid",
-   "safetyStatus": "do-researchu",
-   "claims": [],
+   "safetyStatus": "ryzyko-wysokie",
+   "claims": [
+    "SLO-068",
+    "SLO-052",
+    "SLO-051"
+   ],
    "sources": [],
    "filters": {
     "flavor": null,
@@ -34087,12 +34304,18 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Dodatek liści wiśni nie ma źródła (glikozydy cyjanogenne w liściach roślin pestkowych: do sprawdzenia)."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Dodatek liści wiśni nie ma źródła (glikozydy cyjanogenne w liściach roślin pestkowych: do sprawdzenia).",
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings SLO-068, SLO-051; C9-D14: liście wiśni jako dodatek roślinny bez źródła 1–3 (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "SLO"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "SLO-068",
+    "SLO-051"
    ]
   },
   {
@@ -34180,7 +34403,8 @@
    },
    "notes": [
     "[SZY] Galaretka (SLO).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -35381,7 +35605,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Najbliższy: Grape Jam without Pectin (NCHFP, Concord); winogrona bezpestkowe innych odmian - odpowiedniość do potwierdzenia."
+    "[SLO*] Najbliższy: Grape Jam without Pectin (NCHFP, Concord); winogrona bezpestkowe innych odmian - odpowiedniość do potwierdzenia.",
+    "[B11] zostaje do-researchu (C9: przepis NCHFP Grape Jam without Pectin; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -35560,12 +35785,15 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-016",
     "ACI-017",
     "ACI-006",
-    "ACI-143"
+    "ACI-143",
+    "ACI-646",
+    "ACI-107",
+    "ACI-265"
    ],
    "sources": [],
    "filters": {
@@ -35575,12 +35803,19 @@
     "difficulty": null
    },
    "notes": [
-    "[ACI*] Chutney rabarbarowy z cebulą: brak przepisu."
+    "[ACI*] Chutney rabarbarowy z cebulą: brak przepisu.",
+    "[B11] do-researchu → ryzyko-wysokie (C9), karta-ostrzeżenie; requiredWarnings ACI-646, ACI-107, ACI-006; C9-D10: chutney spoza czterech przepisów NCHFP (ACI-646) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI"
+   ],
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-646",
+    "ACI-107",
+    "ACI-006"
    ]
   },
   {
@@ -35686,7 +35921,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Rabarbar jest na liście soków kwaśnych UC (sok), syrop z cukrem: brak przepisu."
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. Rabarbar jest na liście soków kwaśnych UC (sok), syrop z cukrem: brak przepisu.",
+    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -36969,7 +37205,8 @@
     "difficulty": null
    },
    "notes": [
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -37364,7 +37601,8 @@
    },
    "notes": [
     "[SZY] Galaretka (SLO).",
-    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. "
+    "[SLO*] Brak przetestowanego przepisu dla tego wariantu. ",
+    "[B11] zostaje do-researchu (C9: brak przepisu; poprawka C9 zmienia tożsamość albo brak przepisu szczebla 1–3; twierdzenia C9 w raporcie) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -40850,7 +41088,8 @@
    "notes": [
     "[ACI*] Odpowiednik: NCHFP Marinated Whole Mushrooms — małe zamknięte pieczarki, blanszowanie z sokiem z cytryny, ocet 5% (+olej w oryginale). Wersja „klasyczna” bez oleju — tylko według proporcji NCHFP; DO USTALENIA, czy pominięcie oleju jest dopuszczalne.",
     "[SZY] Pieczarki w occie – NCHFP Marinated Whole Mushrooms (ACI).",
-    "[E3] ok-zrodlo → do-researchu: NCHFP Marinated Whole Mushrooms to marynata z oliwą (2 szkl. oleju, 2,5 szkl. octu 5%, 1/2 szkl. butelkowanego soku z cytryny), tylko słoiki half-pint, 20 min. „Klasyczne pieczarki w occie” to polska zalewa octowa o innych proporcjach (bez oleju i soku z cytryny, inne rozcieńczenie i cukier, zwykle inne słoiki). Grzyby mają pH 6,0–6,7 (ACI-159), więc proporcje kwasu są krytyczne (ACI-016, ACI-017). To nie jest bezpośredni odpowiednik."
+    "[E3] ok-zrodlo → do-researchu: NCHFP Marinated Whole Mushrooms to marynata z oliwą (2 szkl. oleju, 2,5 szkl. octu 5%, 1/2 szkl. butelkowanego soku z cytryny), tylko słoiki half-pint, 20 min. „Klasyczne pieczarki w occie” to polska zalewa octowa o innych proporcjach (bez oleju i soku z cytryny, inne rozcieńczenie i cukier, zwykle inne słoiki). Grzyby mają pH 6,0–6,7 (ACI-159), więc proporcje kwasu są krytyczne (ACI-016, ACI-017). To nie jest bezpośredni odpowiednik.",
+    "[B11] zostaje do-researchu (C9: przepis NCHFP Marinated Whole Mushrooms; C9-D12: przepis NCHFP Marinated Whole Mushrooms (ACI-633–635, tylko 1/2 pinty, z oliwą i sokiem z cytryny); wersja klasyczna bez oleju bez testu; zmiana nazwy zmienia tożsamość (B10-D3), bez zmiany) (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
@@ -41027,12 +41266,19 @@
    "processFamilyId": "vinegar-pickling",
    "preservationMethod": "water-bath",
    "acidBasis": "acidified",
-   "safetyStatus": "do-researchu",
+   "safetyStatus": "ryzyko-wysokie",
    "claims": [
     "ACI-016",
     "ACI-017",
     "ACI-005",
-    "ACI-031"
+    "ACI-031",
+    "ACI-633",
+    "ACI-634",
+    "ACI-635",
+    "ACI-159",
+    "ACI-094",
+    "ACI-006",
+    "ACI-265"
    ],
    "sources": [],
    "filters": {
@@ -41043,13 +41289,24 @@
    },
    "notes": [
     "[ACI*] Pieczarki z papryką w occie: NCHFP Marinated Mushrooms ma tylko pimento w małej ilości; mieszanka nieprzetestowana.",
-    "[SZY] Pieczarki z papryką w occie (ACI)."
+    "[SZY] Pieczarki z papryką w occie (ACI).",
+    "[B11] do-researchu → ryzyko-wysokie i wycofany jako duplikat cultivated-mushrooms-v01 (C9-D7, C9-D-3): więcej papryki niż 1/4 szklanki pimento w przepisie NCHFP (ACI-633) bez testu; requiredWarnings ACI-094, ACI-006; następca cultivated-mushrooms-v01 jest do-researchu (C9-D12); karta nie powstaje (2026-11-02-jaratlas-06-b11-katalog-c9)."
    ],
    "scope": "in",
    "publication": "ukryta",
    "researchedBy": [
     "ACI",
     "SZY"
+   ],
+   "retired": {
+    "reason": "duplikat cultivated-mushrooms-v01 (C9-D7: ten sam przepis co następca)",
+    "replacedBy": "cultivated-mushrooms-v01",
+    "decision": "2026-11-02-jaratlas-06-b11-katalog-c9"
+   },
+   "cardType": "warning",
+   "requiredWarnings": [
+    "ACI-094",
+    "ACI-006"
    ]
   },
   {

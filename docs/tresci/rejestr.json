@@ -35600,6 +35600,1454 @@
   "weryfikacjaZastepcza": "2026-11-02"
  },
  {
+  "id": "ACI-600",
+  "twierdzenie": "NCHFP, wekowanie owoców bez cukru (Canned Foods for Special Diets): wybierać owoce w pełni dojrzałe, ale jędrne, najlepszej jakości; przygotować je jak do pakowania na gorąco (hot pack) według przepisu dla danego owocu, ale zamiast syropu użyć wody albo zwykłych niesłodzonych soków owocowych (najlepszy jest sok z wekowanego owocu, dobre są też mieszanki niesłodzonego soku jabłkowego, ananasowego i z białych winogron); wolną przestrzeń, pokrywki i czasy wekowania stosować jak dla zwykłych owoców; słodzik można dodać dopiero przy podawaniu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/canned-foods-for-special-diets/",
+    "miejsce": "Canning without sugar, akapit 1, zdania 1–2",
+    "cytat": "In canning regular fruits without sugar, it is very important to select fully ripe but firm fruits of the best quality. Prepare these as described for hot-packs in Guide 2 (of the USDA Complete Guide to Home Canning), but use water or regular unsweetened fruit juices instead of sugar syrup.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "277673802776"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/canned-foods-for-special-diets/",
+    "miejsce": "Canning without sugar, akapit 1, zdania 3–6",
+    "cytat": "Juice made from the fruit being canned is best. Blends of unsweetened apple, pineapple, and white grape juice are also good for filling over solid fruit pieces. | Adjust headspaces and lids and use the processing recommendations given for regular fruits. Add sugar substitutes, if desired, when serving.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "277673802776"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP, canning fruit without sugar (Canned Foods for Special Diets): select fully ripe but firm fruit of the best quality; prepare it as described for the hot pack in the recipe for that fruit, but use water or regular unsweetened fruit juices instead of sugar syrup (juice made from the fruit being canned is best; blends of unsweetened apple, pineapple and white grape juice are also good); use the headspace, lids and processing times given for regular fruits; sugar substitutes may be added only when serving.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-601",
+  "twierdzenie": "NCHFP Berries-Whole, pakowanie na gorąco (hot pack, tylko borówki amerykańskie, porzeczki, agrest i huckleberry): owoce zanurzyć na 30 sekund we wrzącej wodzie i odsączyć; do każdego słoika wlać najpierw 1/2 szklanki syropu, soku albo wody, napełnić słoiki owocami i zalać gorącym sokiem, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; Table 1, kąpiel wodna, hot pack, słoiki pint lub quart: 0–1000 stóp 15 minut, 1001–3000 stóp 20 minut, 3001–6000 stóp 20 minut, powyżej 6000 stóp 25 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "Procedure (syrop/sok/woda do słoika, hot pack)",
+    "cytat": "Add 1⁄2 cup syrup, juice, or water to each clean jar. Hot pack – For blueberries, currants, gooseberries, and huckleberries. | Heat berries in boiling water for 30 seconds and drain. Fill jars and cover with hot juice, leaving 1⁄2-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "acdc36e937e3"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/berries-whole/",
+    "miejsce": "Table 1 (boiling-water canner), wiersz Hot",
+    "cytat": "0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Hot Pints or Quarts 15 min 20 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "acdc36e937e3"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Berries-Whole, hot pack (only for blueberries, currants, gooseberries and huckleberries): heat the berries in boiling water for 30 seconds and drain; first add 1/2 cup of syrup, juice or water to each jar, then fill the jars with berries and cover them with hot juice, leaving 1/2 inch (about 1.3 cm) of headspace; Table 1, boiling-water canner, hot pack, pint or quart jars: 0–1,000 feet 15 minutes, 1,001–3,000 feet 20 minutes, 3,001–6,000 feet 20 minutes, above 6,000 feet 25 minutes.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-602",
+  "twierdzenie": "NCHFP Nectarines-Halved or Sliced: średnio 11 funtów (ok. 5 kg) owoców na wsad 9 słoików pint i 17 1/2 funta (ok. 7,9 kg) na wsad 7 słoików quart; umyć, przekroić na pół, usunąć pestki, opcjonalnie pokroić w plastry (nektarynek nie sparza się i nie obiera jak brzoskwiń); przeciw ciemnieniu trzymać w roztworze kwasu askorbinowego; płyn: syrop bardzo lekki, lekki lub średni albo woda, sok jabłkowy lub sok z białych winogron; raw pack daje nektarynki słabej jakości; hot pack: odsączone owoce zagotować w syropie, wodzie lub soku, napełnić słoiki gorącymi owocami i płynem z gotowania, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, połówki układać warstwami przekrojem w dół; raw pack: surowe owoce układać przekrojem w dół i zalać gorącą wodą, sokiem lub syropem, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/nectarines-halved-or-sliced/",
+    "miejsce": "Quantity",
+    "cytat": "An average of 17-1/2 pounds is needed per canner load of 7 quarts; an average of 11 pounds is needed per canner load of 9 pints.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b8dc1ead21e"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/nectarines-halved-or-sliced/",
+    "miejsce": "Procedure (przygotowanie, płyn)",
+    "cytat": "Cut in half, remove pits and slice if desired. (Nectarines are not dipped in hot water or peeled like peaches.) … Prepare and boil a very light, light, or medium syrup or pack nectarines in water, apple juice, or white grape juice. Raw packs make poor quality nectarines.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b8dc1ead21e"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/nectarines-halved-or-sliced/",
+    "miejsce": "Procedure (hot pack i raw pack)",
+    "cytat": "Fill jars with hot fruit and cooking liquid, leaving 1/2-inch headspace. Place halves in layers, cut side down. | Raw pack – Fill jars with raw fruit, cut side down, and add hot water, juice, or syrup, leaving 1/2-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b8dc1ead21e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Nectarines-Halved or Sliced: an average of 11 pounds (about 5 kg) of fruit per canner load of 9 pint jars and 17 1/2 pounds (about 7.9 kg) per canner load of 7 quart jars; wash, cut in half, remove the pits and slice if desired (nectarines are not dipped in hot water or peeled like peaches); keep the fruit in an ascorbic acid solution to prevent darkening; liquid: very light, light or medium syrup, or water, apple juice or white grape juice; raw packs make poor quality nectarines; hot pack: bring the drained fruit to a boil in syrup, water or juice, fill the jars with hot fruit and cooking liquid, leaving 1/2 inch (about 1.3 cm) of headspace, and place the halves in layers, cut side down; raw pack: place the raw fruit cut side down and cover it with hot water, juice or syrup, leaving 1/2 inch (about 1.3 cm) of headspace.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-603",
+  "twierdzenie": "NCHFP nektarynki połówki lub plastry, Table 1, kąpiel wodna: 0–1000 stóp: hot pack pint 20 minut, quart 25 minut, raw pack pint 25 minut, quart 30 minut; 1001–3000 stóp: hot pack pint 25 minut, quart 30 minut, raw pack pint 30 minut, quart 35 minut; 3001–6000 stóp: hot pack pint 30 minut, quart 35 minut, raw pack pint 35 minut, quart 40 minut; powyżej 6000 stóp: hot pack pint 35 minut, quart 40 minut, raw pack pint 40 minut, quart 45 minut.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/nectarines-halved-or-sliced/",
+    "miejsce": "Table 1 (boiling-water canner)",
+    "cytat": "0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Hot Pints 20 min 25 30 35 Quarts 25 30 35 40 Raw Pints 25 30 35 40 Quarts 30 35 40 45",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "1b8dc1ead21e"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP nectarines, halved or sliced, Table 1, boiling-water canner: 0–1,000 feet: hot pack pint 20 minutes, quart 25 minutes, raw pack pint 25 minutes, quart 30 minutes; 1,001–3,000 feet: hot pack pint 25 minutes, quart 30 minutes, raw pack pint 30 minutes, quart 35 minutes; 3,001–6,000 feet: hot pack pint 30 minutes, quart 35 minutes, raw pack pint 35 minutes, quart 40 minutes; above 6,000 feet: hot pack pint 35 minutes, quart 40 minutes, raw pack pint 40 minutes, quart 45 minutes.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-604",
+  "twierdzenie": "South Dakota State University Extension (SDSU, Preserve It: Strawberry): NCHFP nie zaleca wekowania samych truskawek (plain strawberries); truskawki weka się zwykle w postaci galaretek lub dżemów.",
+  "zrodla": [
+   {
+    "adres": "https://extension.sdstate.edu/sites/default/files/2024-04/S-0001-36-Strawberry-Preserve_It.pdf",
+    "miejsce": "s. 1, sekcja Canning",
+    "cytat": "The National Center for Home Food Preservation does not recommend canning plain strawberries. Strawberries are commonly canned making jellies or jams.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "6e1d164388a0"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "South Dakota State University Extension (SDSU, Preserve It: Strawberry): NCHFP does not recommend canning plain strawberries; strawberries are commonly canned as jellies or jams.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-605",
+  "twierdzenie": "NCHFP Blackberry Jelly without Pectin (bez dodanej pektyny), skład: 4 szklanki soku z jeżyn (ok. 2 1/2 skrzynki quart owoców i 3/4 szklanki wody) i 3 szklanki cukru; wychodzi ok. 4–5 słoików 1/2 pinty. Przepis nie przewiduje jabłka, soku z cytryny ani innych dodatków.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/blackberry-jelly-without-pectin/",
+    "miejsce": "Blackberry Jelly without Pectin, składniki",
+    "cytat": "4 cups blackberry juice (about 21⁄2 quart boxes of berries and 3⁄4 cup water) 3 cups sugar Yield: About 4 or 5 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "de56e4d32dfb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Blackberry Jelly without Pectin (no added pectin), ingredients: 4 cups blackberry juice (about 2 1/2 quart boxes of berries and 3/4 cup water) and 3 cups sugar; yield about 4–5 half-pint jars. The recipe does not include apple, lemon juice or any other additions.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-606",
+  "twierdzenie": "NCHFP Blackberry Jelly without Pectin, procedura: wybrać ok. 1/4 jędrnych dojrzałych i 3/4 w pełni dojrzałych jeżyn; rozgnieść, dodać wodę, zagotować, dusić 5 minut; sok odsączyć przez podwójną zwilżoną gazę lub worek do galaretek bez wyciskania. Sok z cukrem gotować na dużym ogniu do temperatury o 8 °F (ok. 4,4 °C) wyższej od temperatury wrzenia wody (220 °F, ok. 104 °C, na poziomie morza) albo aż masa zacznie spływać z metalowego sztućca płatem (próba płatu); zebrać pianę, gorącą galaretkę od razu nalać do gorących, wysterylizowanych słoików, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; dwuczęściowe pokrywki, kąpiel wodna.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/blackberry-jelly-without-pectin/",
+    "miejsce": "Blackberry Jelly without Pectin, Procedure",
+    "cytat": "Select about 1⁄4 firm ripe and 3⁄4 fully ripe berries. … Reduce heat and simmer for 5 minutes. … Boil over high heat until the temperature measures 8°F above the boiling point of water (220°F at sea level), or until the jelly mixture sheets from a metal spoon. … Pour hot jelly immediately into hot, sterile jars, leaving 1⁄4 inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "de56e4d32dfb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Blackberry Jelly without Pectin, procedure: select about 1/4 firm-ripe and 3/4 fully ripe blackberries; crush, add the water, bring to a boil and simmer for 5 minutes; drain the juice through a double layer of dampened cheesecloth or a jelly bag without pressing. Boil the juice with the sugar over high heat until it reaches 8 °F (about 4.4 °C) above the boiling point of water (220 °F, about 104 °C, at sea level) or until the mixture sheets from a metal spoon (sheet test); skim off foam and pour the hot jelly immediately into hot, sterile jars, leaving 1/4 inch (about 0.6 cm) headspace; use two-piece lids and process in a boiling water canner.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-607",
+  "twierdzenie": "NCHFP Blackberry Jelly without Pectin, tabela 1 (kąpiel wodna, pakowanie na gorąco, słoiki 1/2 pinty lub pinty): 5 minut na 0–1000 stóp, 10 minut na 1001–6000 stóp, 15 minut powyżej 6000 stóp (ok. 1829 m). Tabela nie podaje czasu dla słoików quart.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jellies/blackberry-jelly-without-pectin/",
+    "miejsce": "Blackberry Jelly without Pectin, Table 1",
+    "cytat": "Table 1. Recommended process time for Blackberry Jelly in a boiling water canner. Process Time at Elevations of Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "de56e4d32dfb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Blackberry Jelly without Pectin, Table 1 (boiling water canner, hot pack, half-pint or pint jars): 5 minutes at 0–1,000 feet, 10 minutes at 1,001–6,000 feet, 15 minutes above 6,000 feet (about 1829 m). The table gives no time for quart jars.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-608",
+  "twierdzenie": "NCHFP (Jellied Product Ingredients), zawartość pektyny i kwasu: grupa I (bez przejrzałości ma dość pektyny i kwasu, wystarczy dodać cukier) obejmuje m.in. kwaśne jabłka, kwaśne jeżyny, żurawinę, porzeczki i agrest; grupa II (mało naturalnego kwasu lub pektyny, może wymagać dodatku kwasu lub pektyny) obejmuje m.in. dojrzałe jabłka, dojrzałe jeżyny, grejpfruty i pomarańcze. Lista nie wymienia aronii, rokitnika ani derenia.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/jellied-product-ingredients/",
+    "miejsce": "Pectin and Acid Content of Common Fruits Used to Make Jelly",
+    "cytat": "Group I: If not overripe, has enough natural pectin and acid for gel formation with only added sugar. Group II: Low in natural acid or pectin, and may need addition of either acid or pectin. … Apples, sour Blackberries, sour Crabapples Cranberries Currants Gooseberries … Apples, ripe Blackberries, ripe Cherries, sour Chokecherries Elderberries Grapefruit … Oranges",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5265f59c177b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP (Jellied Product Ingredients), pectin and acid content: Group I (if not overripe, has enough natural pectin and acid to gel with only added sugar) includes, among others, sour apples, sour blackberries, cranberries, currants and gooseberries; Group II (low in natural acid or pectin, may need added acid or pectin) includes, among others, ripe apples, ripe blackberries, grapefruit and oranges. The list does not name aronia, sea buckthorn or cornelian cherry.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-609",
+  "twierdzenie": "NCHFP/USDA (Making Jams and Jellies with added Pectin): przepisy z ulotek pektyny obejmują galaretki m.in. z jabłek, jeżyn, porzeczek i rabarbaru, a dżemy m.in. z agrestu i porzeczek; galaretki z agrestu, grejpfruta, aronii ani rokitnika lista nie wymienia. Wekowanie według tabeli 1 (kąpiel wodna, pakowanie na gorąco, słoiki 1/2 pinty lub pinty): 5 minut na 0–1000 stóp, 10 minut na 1001–6000 stóp, 15 minut powyżej 6000 stóp.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/making-jams-and-jellies-with-added-pectin/",
+    "miejsce": "Recipes available using packaged pectin; Table 1",
+    "cytat": "Recipes available using packaged pectin include: Jellies – Apple, crab apple, blackberry, boysenberry, dewberry, currant, elderberry, grape, mayhaw, mint, peach, plum, black or red raspberry, loganberry, rhubarb, and strawberry. Jams – Apricot, blackberry, boysenberry, dewberry, loganberry, red raspberry, youngberry, blueberry, cherry, currant, fig, gooseberry, grape, orange marmalade, peach, pear, plum, rhubarb, strawberry, and spiced tomato. … Hot Half-pints or pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "b8d6e9c0d7d2"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP/USDA (Making Jams and Jellies with added Pectin): recipes available with packaged pectin include jellies made from, among others, apple, blackberry, currant and rhubarb, and jams made from, among others, gooseberry and currant; the list does not name gooseberry, grapefruit, aronia or sea buckthorn jelly. Processing per Table 1 (boiling water canner, hot pack, half-pint or pint jars): 5 minutes at 0–1,000 feet, 10 minutes at 1,001–6,000 feet, 15 minutes above 6,000 feet.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-610",
+  "twierdzenie": "OSU Extension SP 50-632 (Making berry syrups at home, rev. 2025), zakres i skład: syropy z soków ze świeżych lub mrożonych owoców jagodowych, wiśni/czereśni, jabłek i winogron; można łączyć owoce. Syrop: 5 szklanek przecedzonego soku i 7 szklanek cukru, wychodzi ok. 9 słoików 1/2 pinty. Ostrzeżenie: nie robić syropu o obniżonej ilości cukru z owoców niskokwasowych (np. figi, gruszki azjatyckie, melony, białe brzoskwinie, czarny bez amerykański i europejski).",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/node/154171",
+    "miejsce": "SP 50-632, wstęp, Drip method, Making the syrup",
+    "cytat": "Juices from fresh or frozen berries, cherries, apples, and grapes all make great syrups. … Caution: Do not attempt to make a reduced sugar syrup from low acid fruits like figs, Asian pears, melons, white peaches, or American and European varieties of elderberries. … A combination of fruits can be used. … Making the syrup Yield: About 9 half-pints 5 cups strained fruit juice* 7 cups sugar",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "665689e13854"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "OSU Extension SP 50-632 (Making berry syrups at home, rev. 2025), scope and ingredients: syrups from juices of fresh or frozen berries, cherries, apples and grapes; a combination of fruits can be used. Syrup: 5 cups strained fruit juice and 7 cups sugar, yield about 9 half-pint jars. Caution: do not make a reduced-sugar syrup from low-acid fruits (e.g. figs, Asian pears, melons, white peaches, American and European elderberries).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-611",
+  "twierdzenie": "OSU Extension SP 50-632, procedura i wekowanie: sok z cukrem zagotować i gotować na małym ogniu 3 minuty, stale mieszając; zebrać pianę, nalać do czystych, gorących słoików 1/2 pinty lub pinty, zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna (pakowanie na gorąco), czas liczyć od ponownego zawrzenia wody: 10 minut na 0–1000 stóp, 15 minut na 1001–6000 stóp, 20 minut powyżej 6000 stóp; po wekowaniu zdjąć pokrywę wekownika i odczekać 5 minut przed wyjęciem słoików. Przed przechowywaniem w temperaturze pokojowej syrop trzeba zawekować; otwarty trzymać w lodówce.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/node/154171",
+    "miejsce": "SP 50-632, Making the syrup; Storing syrups",
+    "cytat": "Bring to boil and simmer for three minutes stirring constantly. Remove from heat, skim off foam, and fill into clean hot half-pint or pint jars, leaving 1⁄4 inch headspace. … Process times for half-pint or pint jars at altitudes of: (hot pack) 0–1,000 feet : 10 minutes 1,001–6,000 feet : 15 minutes Above 6,000 feet : 20 minutes … Syrups must be processed before storing at room temperature. Once opened, the syrups should be stored in the refrigerator.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "665689e13854"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "OSU Extension SP 50-632, procedure and processing: bring the juice and sugar to a boil and simmer for 3 minutes, stirring constantly; skim off foam and fill clean hot half-pint or pint jars, leaving 1/4 inch (about 0.6 cm) headspace; process in a boiling water canner (hot pack), timing from when the water returns to a boil: 10 minutes at 0–1,000 feet, 15 minutes at 1,001–6,000 feet, 20 minutes above 6,000 feet; after processing remove the canner lid and wait 5 minutes before removing the jars. Syrups must be processed before storing at room temperature; once opened, keep them in the refrigerator.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-612",
+  "twierdzenie": "OSU Extension SP 50-780 (Preserving foods: berries, rev. 2026) zalicza porzeczki do owoców jagodowych, które nadają się na przetwory słodkie i syropy, i odsyła po instrukcje syropów do SP 50-632; w SP 50-536 OSU podaje, że dzikie porzeczki (Ribes) nadają się na galaretki, dżemy i syropy.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/catalog/sp-50-780-preserving-foods-berries",
+    "miejsce": "SP 50-780, wstęp; Freeze/Berries in syrup",
+    "cytat": "followed by raspberries, currants, and blackberries … Berries can be canned, frozen, or dried and are excellent as fruit spreads and syrups. … Making Berry Syrups at Home (SP 50-632) is available online and gives detailed instructions for making berry syrups.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "d30be5c853f9"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/preserving-fruits-wild-berries-fruits-sp-50-536",
+    "miejsce": "SP 50-536, Other fruit and berries",
+    "cytat": "Wild currants ( Ribes spp. ) are found along streams and other moist areas in the Cascades or along the foothills to the coastal range. These berries make great jellies, jams, syrups and pies.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "faa3e200b120"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "OSU Extension SP 50-780 (Preserving foods: berries, rev. 2026) lists currants among the berries that make excellent fruit spreads and syrups and refers to SP 50-632 for syrup instructions; in SP 50-536 OSU states that wild currants (Ribes) make great jellies, jams and syrups.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-613",
+  "twierdzenie": "OSU Extension SP 50-536: oregońskie odmiany borówek huckleberry (Vaccinium spp.) są blisko spokrewnione z borówką amerykańską, a huckleberry można używać zamiast borówek w przepisach na przetwory; nadają się m.in. na syropy. OSU nie wymienia borówki czarnej (jagody, Vaccinium myrtillus).",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/preserving-fruits-wild-berries-fruits-sp-50-536",
+    "miejsce": "SP 50-536, Huckleberries",
+    "cytat": "Oregon huckleberry varieties are closely related to the domestic blueberry, and they are similar in flavor. Huckleberries can be used in place of blueberries in recipes for cooking or preserving. They make excellent pies, jams, jellies, and syrups",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "faa3e200b120"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "OSU Extension SP 50-536: Oregon huckleberry varieties (Vaccinium spp.) are closely related to the domestic blueberry, and huckleberries can be used in place of blueberries in recipes for cooking or preserving; they make, among other things, excellent syrups. OSU does not name the European bilberry (Vaccinium myrtillus).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-614",
+  "twierdzenie": "UC Steam Juicing Basics (szczebel 3) wymienia żurawinę jako owoc wyciskany w sokowniku parowym: jej drobne pestki mogą wymagać odcedzenia; przepis na kwaśne soki z sokownika obejmuje owoce jagodowe (bez czarnego bzu), a w kroku 1 każe w razie potrzeby przecedzić sok przez sitko lub gazę, żeby usunąć pestki.",
+  "zrodla": [
+   {
+    "adres": "https://www.ucanr.edu/sites/default/files/2026-05/Steam%20Juicing%20Basics-ADA-2026April-v1.pdf",
+    "miejsce": "s. 2 (Steam juicer); s. 7, Canned High-Acid Fruit Juices from Steamed Juice, krok 1",
+    "cytat": "There may be some exceptions, such as with cranberries, which have tiny seeds that may need to be filtered out. … berries (except elderberries) … If necessary, strain juice through a strainer or cheesecloth to remove any seeds.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "e17f870455a1"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "UC Steam Juicing Basics (level 3) names cranberries as a steam-juiced fruit whose tiny seeds may need to be filtered out; the recipe for high-acid juices from a steam juicer covers berries (except elderberries), and step 1 says to strain the juice through a strainer or cheesecloth if necessary to remove seeds.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-615",
+  "twierdzenie": "NCHFP Grape Jam without Pectin (dżem bez dodanej pektyny): 2 kwarty (ok. 1,9 l) winogron Concord bez szypułek i 6 szklanek cukru; wychodzi ok. 6 słoików 1/2 pinty. Przepis wymienia tylko winogrona Concord.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/grape-jam-without-pectin/",
+    "miejsce": "Grape Jam without Pectin, lista składników",
+    "cytat": "2 quarts stemmed Concord grapes 6 cups sugar Yield: About 6 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "17c669d057bd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Grape Jam without Pectin: 2 quarts (about 1.9 l) of stemmed Concord grapes and 6 cups of sugar; yield about 6 half-pint jars. The recipe names only Concord grapes.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-616",
+  "twierdzenie": "NCHFP Grape Jam without Pectin, przygotowanie i wekowanie: słoiki wysterylizować; miąższ gotować bez wody do miękkości i przetrzeć przez sito lub młynek, żeby usunąć pestki; gorący dżem nalać do gorących słoików (hot pack), zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; tabela 1, kąpiel wodna, słoiki 1/2 pinty lub pinty: 5 minut na wysokości 0–1000 stóp (ok. 0–305 m), 10 minut na 1001–6000 stóp (ok. 305–1830 m), 15 minut powyżej 6000 stóp (ok. 1830 m).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/grape-jam-without-pectin/",
+    "miejsce": "Procedure; Table 1",
+    "cytat": "Sterilize canning jars . … Cook pulp without water until soft; press through a sieve or food mill to remove seeds. … Fill hot jam into hot jars, leaving 1⁄4 inch headspace. … Table 1. Recommended process time for Grape Jam in a boiling water canner. … Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "17c669d057bd"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Grape Jam without Pectin, preparation and processing: sterilize the jars; cook the pulp without water until soft and press it through a sieve or food mill to remove the seeds; fill the hot jam into hot jars (hot pack), leaving 1/4 inch (about 0.6 cm) of headspace; Table 1, boiling water canner, half-pint or pint jars: 5 minutes at 0–1,000 feet (about 0–305 m), 10 minutes at 1,001–6,000 feet (about 305–1830 m) and 15 minutes above 6,000 feet (about 1830 m).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-617",
+  "twierdzenie": "NCHFP, tabela pektyny i kwasu owoców: grupa I (jeśli owoce nie są przejrzałe, mają dość pektyny i kwasu do żelowania z samym dodatkiem cukru) obejmuje m.in. kwaśne jabłka, agrest, winogrona Eastern Concord i pigwy; grupa II (mało naturalnego kwasu lub pektyny, może wymagać dodatku kwasu albo pektyny) obejmuje m.in. dojrzałe jabłka, wiśnie, winogrona kalifornijskie i pomarańcze.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/jellied-product-ingredients/",
+    "miejsce": "Pectin and Acid Content of Common Fruits Used to Make Jelly (tabela grup I–III)",
+    "cytat": "Group I: If not overripe, has enough natural pectin and acid for gel formation with only added sugar. Group II: Low in natural acid or pectin, and may need addition of either acid or pectin. … Apples, sour Blackberries, sour Crabapples Cranberries Currants Gooseberries Grapes (Eastern Concord) Lemons Loganberries Plums (not Italian) Quinces Apples, ripe Blackberries, ripe Cherries, sour Chokecherries Elderberries Grapefruit Grape Juice, bottled (Eastern Concord) Grapes (California) Loquats Oranges",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "05ec1310621b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Tabela w HTML spłaszczona do tekstu; podział na kolumny (grupa I kończy się na „Quinces”, grupa II zaczyna od „Apples, ripe”) odczytano tak samo jak w ACI-477 (grupa III od „Apricots”).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP pectin and acid table: Group I (if not overripe, enough natural pectin and acid to gel with only added sugar) includes, among others, sour apples, gooseberries, Eastern Concord grapes and quinces; Group II (low in natural acid or pectin, may need added acid or pectin) includes, among others, ripe apples, sour cherries, California grapes and oranges.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-618",
+  "twierdzenie": "USDA Complete Guide, Guide 7, Pear-Apple Jam (z pektyną płynną): 2 szklanki obranych, pozbawionych gniazd i drobno posiekanych gruszek (ok. 2 funty, ok. 0,9 kg), 1 szklanka obranych, pozbawionych gniazd i drobno posiekanych jabłek, 6 1/2 szklanki cukru, 1/4 łyżeczki mielonego cynamonu, 1/3 szklanki butelkowanego soku z cytryny i 6 oz pektyny płynnej; wychodzi ok. 7–8 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE07_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 7, s. 7-8, Pear-Apple Jam, składniki",
+    "cytat": "2 cups peeled, cored, and finely chopped pears (about 2 lbs) 1 cup peeled, cored, and finely chopped apples 6-1/2 cups sugar 1/4 tsp ground cinnamon 1/3 cup bottled lemon juice 6 oz liquid pectin Yield: About 7 to 8 half-pints",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "6023faf9ea45"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "USDA Complete Guide, Guide 7, Pear-Apple Jam (with liquid pectin): 2 cups of peeled, cored and finely chopped pears (about 2 lbs, about 0.9 kg), 1 cup of peeled, cored and finely chopped apples, 6 1/2 cups of sugar, 1/4 tsp of ground cinnamon, 1/3 cup of bottled lemon juice and 6 oz of liquid pectin; yield about 7–8 half-pints.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-619",
+  "twierdzenie": "USDA Guide 7, Pear-Apple Jam, przygotowanie i wekowanie: po dodaniu pektyny doprowadzić do pełnego wrzenia i gotować intensywnie 1 minutę, stale mieszając; zdjąć z ognia, szybko zebrać pianę i nalać do sterylnych słoików (hot pack), zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; kąpiel wodna, słoiki 1/2 pinty lub pinty: 5 minut na wysokości 0–1000 stóp (ok. 0–305 m), 10 minut na 1001–6000 stóp (ok. 305–1830 m), 15 minut powyżej 6000 stóp (ok. 1830 m).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE07_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 7, s. 7-8, Pear-Apple Jam, Procedure i tabela czasów",
+    "cytat": "Bring to a full rolling boil and boil hard 1 minute, stirring constantly. Remove from heat, quickly skim off foam, and fill sterile jars (see page 1-14) leaving 1/4-inch headspace. … Recommended process time for Pear-Apple Jam in a boiling-water canner … Hot Half-pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "6023faf9ea45"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "W PDF nagłówek tabeli ma znaki U+FFFD zamiast spacji, a wiersz „or Pints” jest w osobnej linii; w weryfikacji U+FFFD traktowano jako spację.",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "USDA Guide 7, Pear-Apple Jam, preparation and processing: after adding the pectin, bring to a full rolling boil and boil hard for 1 minute, stirring constantly; remove from heat, quickly skim off foam and fill sterile jars (hot pack), leaving 1/4 inch (about 0.6 cm) of headspace; boiling water canner, half-pint or pint jars: 5 minutes at 0–1,000 feet (about 0–305 m), 10 minutes at 1,001–6,000 feet (about 305–1830 m) and 15 minutes above 6,000 feet (about 1830 m).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-620",
+  "twierdzenie": "NCHFP Pear Preserves (konfitura gruszkowa w syropie): 1 1/2 szklanki cukru i 2 1/2 szklanki wody na syrop, 6 średnich twardych, dojrzałych gruszek bez gniazd, obranych, w połówkach lub ćwiartkach (ok. 2 funty, ok. 0,9 kg), potem jeszcze 1 1/2 szklanki cukru i 1 cienko pokrojona cytryna; wychodzi ok. 5 słoików 1/2 pinty; do każdego słoika można dodać kawałek kandyzowanego imbiru (preserved ginger).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/pear-preserves/",
+    "miejsce": "Pear Preserves, składniki i NOTE",
+    "cytat": "11⁄2 cups sugar 21⁄2 cups water 6 medium cored, pared, hard, ripe pears, cut in halves or quarters (about 2 lbs) 11⁄2 cups sugar 1 thinly sliced lemon Yield: About 5 half-pint jars … A piece of preserved ginger may be added to each jar.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7ff9d4393685"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Pear Preserves (pears in syrup): 1 1/2 cups of sugar and 2 1/2 cups of water for the syrup, 6 medium hard, ripe pears, cored, pared and cut in halves or quarters (about 2 lbs, about 0.9 kg), then another 1 1/2 cups of sugar and 1 thinly sliced lemon; yield about 5 half-pint jars; a piece of preserved ginger may be added to each jar.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-621",
+  "twierdzenie": "NCHFP Pear Preserves, przygotowanie i wekowanie: słoiki wysterylizować; gruszki pakować do gorących słoików (hot pack), zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni, i zalać gorącym syropem z tą samą wolną przestrzenią; tabela 1, kąpiel wodna, słoiki 1/2 pinty lub pinty: 5 minut na wysokości 0–1000 stóp (ok. 0–305 m), 10 minut na 1001–6000 stóp (ok. 305–1830 m), 15 minut powyżej 6000 stóp (ok. 1830 m).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/preserves/pear-preserves/",
+    "miejsce": "Procedure; Table 1",
+    "cytat": "Sterilize canning jars . … Pack fruit into hot jars, leaving 1⁄4 inch headspace. … Pour hot syrup over fruit, leaving 1⁄4 inch headspace. … Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7ff9d4393685"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Pear Preserves, preparation and processing: sterilize the jars; pack the fruit into hot jars (hot pack), leaving 1/4 inch (about 0.6 cm) of headspace, and pour the hot syrup over it with the same headspace; Table 1, boiling water canner, half-pint or pint jars: 5 minutes at 0–1,000 feet (about 0–305 m), 10 minutes at 1,001–6,000 feet (about 305–1830 m) and 15 minutes above 6,000 feet (about 1830 m).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-622",
+  "twierdzenie": "NCHFP Apple Preserves Pectin (z pektyną w proszku): 6 szklanek obranych, pozbawionych gniazd, pokrojonych w plasterki jabłek, 1 szklanka wody, 1 łyżka soku z cytryny, 1 opakowanie pektyny w proszku, 1/2 cytryny w cienkich plasterkach (opcjonalnie), 4 szklanki cukru i 2 łyżeczki mielonej gałki muszkatołowej; wychodzi ok. 6 słoików 1/2 pinty. Przepis nie zawiera mięty.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/apple-preserves-pectin/",
+    "miejsce": "Apple Preserves Pectin, składniki",
+    "cytat": "6 cups peeled, cored, sliced apples 1 cup water 1 tablespoon lemon juice 1 package powdered pectin 1⁄2 lemon, thinly sliced (optional) 4 cups sugar 2 teaspoons ground nutmeg Yield: About 6 half-pint jars",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "58436c576530"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Apple Preserves Pectin (with powdered pectin): 6 cups of peeled, cored, sliced apples, 1 cup of water, 1 tablespoon of lemon juice, 1 package of powdered pectin, 1/2 lemon thinly sliced (optional), 4 cups of sugar and 2 teaspoons of ground nutmeg; yield about 6 half-pint jars. The recipe contains no mint.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-623",
+  "twierdzenie": "NCHFP Apple Preserves Pectin, przygotowanie i wekowanie: słoiki wysterylizować; po dodaniu cukru gotować intensywnie 1 minutę, często mieszając, zdjąć z ognia i dodać gałkę; gorącą konfiturę nalać do gorących słoików (hot pack), zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; tabela 1, kąpiel wodna, słoiki 1/2 pinty lub pinty: 5 minut na wysokości 0–1000 stóp (ok. 0–305 m), 10 minut na 1001–6000 stóp (ok. 305–1830 m), 15 minut powyżej 6000 stóp (ok. 1830 m).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams/apple-preserves-pectin/",
+    "miejsce": "Procedure; Table 1",
+    "cytat": "Sterilize canning jars . … Boil hard 1 minute, stirring frequently. Remove from heat; add nutmeg. Pour hot preserves into hot jars, leaving 1⁄4-inch headspace. … Hot Half-pints or Pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "58436c576530"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Apple Preserves Pectin, preparation and processing: sterilize the jars; after adding the sugar, boil hard for 1 minute, stirring frequently, remove from heat and add the nutmeg; pour the hot preserves into hot jars (hot pack), leaving 1/4 inch (about 0.6 cm) of headspace; Table 1, boiling water canner, half-pint or pint jars: 5 minutes at 0–1,000 feet (about 0–305 m), 10 minutes at 1,001–6,000 feet (about 305–1830 m) and 15 minutes above 6,000 feet (about 1830 m).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-624",
+  "twierdzenie": "NCHFP Making Jam without added Pectin, tabela 1: dla owoców jagodowych (berries: jeżyny, boysenberry, dewberry, agrest, loganberry, maliny i truskawki) 4 szklanki rozgniecionych owoców, 4 szklanki cukru i 0 łyżek soku z cytryny; wychodzi 3–4 słoiki 1/2 pinty. Tabela nie mówi o mieszaniu owoców z listy.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/making-jam-without-added-pectin/",
+    "miejsce": "Table 1. Ingredient Quantities",
+    "cytat": "Berries* 4 4 0 3 to 4 … * Includes blackberries, boysenberries, dewberries, gooseberries, loganberries, raspberries, and strawberries.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5d116373379c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Making Jam without added Pectin, Table 1: for berries (blackberries, boysenberries, dewberries, gooseberries, loganberries, raspberries and strawberries) 4 cups of crushed fruit, 4 cups of sugar and 0 tablespoons of lemon juice; yield 3–4 half-pints. The table says nothing about mixing the listed fruits.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-625",
+  "twierdzenie": "NCHFP Making Jam without added Pectin, napełnianie i wekowanie: dżem nalać do sterylnych słoików (hot pack), zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni; tabela 2, kąpiel wodna, słoiki 1/2 pinty lub pinty: 5 minut na wysokości 0–1000 stóp (ok. 0–305 m), 10 minut na 1001–6000 stóp (ok. 305–1830 m), 15 minut powyżej 6000 stóp (ok. 1830 m).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/make-jam-jelly/jams-jellies-general-information/making-jam-without-added-pectin/",
+    "miejsce": "Procedure; Table 2",
+    "cytat": "Fill sterile jars with jam. … leaving 1/4-inch headspace. … Hot Half-pints or pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "5d116373379c"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Making Jam without added Pectin, filling and processing: fill the jam into sterile jars (hot pack), leaving 1/4 inch (about 0.6 cm) of headspace; Table 2, boiling water canner, half-pint or pint jars: 5 minutes at 0–1,000 feet (about 0–305 m), 10 minutes at 1,001–6,000 feet (about 305–1830 m) and 15 minutes above 6,000 feet (about 1830 m).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-626",
+  "twierdzenie": "USDA Guide 7: przepisy z ulotek pektyny obejmują m.in. dżemy wiśniowe/czereśniowe (cherry), agrestowe, winogronowe, gruszkowe, śliwkowe i truskawkowe; trzeba używać sterylnych słoików Mason, samouszczelniających się dwuczęściowych pokrywek i procesu 5 minut we wrzącej wodzie (z korektą na wysokość n.p.m.).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/papers/guide/GUIDE07_HomeCan_rev0715.pdf",
+    "miejsce": "Guide 7, s. 7-7, Making Jams and Jellies with Added Pectin",
+    "cytat": "Jams—Apricot, blackberry, boysenberry, dewberry, loganberry, red raspberry, youngberry, blueberry, cherry, currant, fig, gooseberry, grape, orange marmalade, peach, pear, plum, rhubarb, strawberry, and spiced tomato. Be sure to use pre-sterilized Mason canning jars, self-sealing two-piece lids, and a 5-minute process (corrected for altitude, as necessary) in boiling water.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "pdftotext+grep",
+    "sha12": "6023faf9ea45"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Przepisy są w ulotkach producenta pektyny; JarAtlas ich nie cytuje (ulotki to szczebel 4).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "USDA Guide 7: recipes supplied with packaged pectin include, among others, cherry, gooseberry, grape, pear, plum and strawberry jams; use pre-sterilized Mason jars, self-sealing two-piece lids and a 5-minute process in boiling water (corrected for altitude as necessary).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-627",
+  "twierdzenie": "OSU Extension SP 50-304: masła owocowe (powidła) można robić z większości owoców wysokokwasowych lub ich mieszanek; oprócz jabłek nadają się morele, brzoskwinie, gruszki, śliwki, pigwy i jabłka rajskie; do maseł można używać kombinacji owoców.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/fruit-butters-sp-50-304",
+    "miejsce": "Fruit Butters SP 50-304 (rev. October 2025), wstęp i Preparing the fruits",
+    "cytat": "They can be made from most high acid fruits or mixtures of fruits. Apple is probably the most popular butter, but apricot, peach, pear, plum, quince and crab apple are also suitable. … Note: A combination of fruits can be used to make butters.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0e99442d6901"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "OSU Extension SP 50-304: fruit butters can be made from most high-acid fruits or mixtures of fruits; besides apples, apricot, peach, pear, plum, quince and crab apple are suitable; a combination of fruits can be used to make butters.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-628",
+  "twierdzenie": "OSU Extension SP 50-304, przygotowanie owoców: śliwki wydrylować, rozgnieść i gotować we własnym soku; gruszki: usunąć szypułki i resztki kwiatów, ewentualnie obrać, pokroić na ćwiartki, usunąć gniazda, rozgnieść i gotować we własnym soku; pigwy: usunąć szypułki i resztki kwiatów, pokroić w małe kawałki i dodać wody w ilości połowy owoców; ugotowane owoce przetrzeć przez młynek lub sito na przecier.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/fruit-butters-sp-50-304",
+    "miejsce": "Preparing the fruits; Making the pulp",
+    "cytat": "Pears: Remove stems and blossom ends. Peel if desired. Quarter, core, crush and cook in own juice. … Plums/prunes: Plums, remove pits, crush and cook in own juice. … Quince: Remove stems and blossom ends. Cut into small pieces and add one half as much water as fruit. … When soft, press cooked fruit through a food mill, cone strainer or sieve to make pulp.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0e99442d6901"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "OSU Extension SP 50-304, preparing the fruits: plums are pitted, crushed and cooked in their own juice; pears: remove stems and blossom ends, peel if desired, quarter, core, crush and cook in their own juice; quince: remove stems and blossom ends, cut into small pieces and add one half as much water as fruit; press the cooked fruit through a food mill or sieve to make pulp.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-629",
+  "twierdzenie": "OSU Extension SP 50-304, przepis podstawowy: 2 kwarty (ok. 1,9 l) przecieru, 4 szklanki cukru, 2 łyżeczki mielonego cynamonu; ilość cukru: 1/4–1/2 szklanki cukru na każdą szklankę przecieru (publikacja nie podaje wersji bez cukru, tylko zamianę 3 szklanek cukru na 1 szklankę miodu); typowe przyprawy to cynamon, ziele angielskie, goździki i imbir.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/fruit-butters-sp-50-304",
+    "miejsce": "Basic fruit butter recipe; Flavor and spice options",
+    "cytat": "2 quarts pulp 4 cups sugar 2 tsp. ground cinnamon … To determine the amount of sugar needed, measure the pulp and add 1⁄4-1⁄2 cup sugar to each cup of fruit pulp. Spices such as cinnamon, ground allspice, cloves and ginger are common spices used in butters. … 1 cup honey to replace 3 cups of sugar for a lower sugar option",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0e99442d6901"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "OSU Extension SP 50-304, basic recipe: 2 quarts (about 1.9 l) of pulp, 4 cups of sugar and 2 tsp of ground cinnamon; amount of sugar: 1/4–1/2 cup of sugar for each cup of fruit pulp (the publication gives no sugar-free version, only 1 cup of honey to replace 3 cups of sugar); common spices are cinnamon, allspice, cloves and ginger.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-630",
+  "twierdzenie": "Pear Butter (So Easy to Preserve, 6. wyd., przedruk OSU Extension SP 50-304): 2 kwarty (ok. 1,9 l) przecieru gruszkowego (ok. 20 średnich, w pełni dojrzałych gruszek), 4 szklanki cukru, 1 łyżeczka startej skórki pomarańczy, 1/3 szklanki soku pomarańczowego i 1/2 łyżeczki mielonej gałki muszkatołowej; wychodzi ok. 4 słoików 1/2 pinty.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/fruit-butters-sp-50-304",
+    "miejsce": "Pear butter",
+    "cytat": "2 quarts pear pulp (about 20 medium, fully ripe pears) 4 cups sugar 1 teaspoon grated orange rind 1⁄3 cup orange juice 1⁄2 teaspoon ground nutmeg … Makes about 4 half-pint jars.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0e99442d6901"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Pear Butter (So Easy to Preserve, 6th edition, reprinted in OSU Extension SP 50-304): 2 quarts (about 1.9 l) of pear pulp (about 20 medium, fully ripe pears), 4 cups of sugar, 1 teaspoon of grated orange rind, 1/3 cup of orange juice and 1/2 teaspoon of ground nutmeg; yield about 4 half-pint jars.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-631",
+  "twierdzenie": "Pear Butter (So Easy to Preserve / OSU): gorące masło nalać do gorących, wysterylizowanych słoików (hot pack), zostawiając 1/4 cala (ok. 0,6 cm) wolnej przestrzeni, i wekować 5 minut w kąpieli wodnej lub w atmosferycznym wekowniku parowym; przepis każe skorygować czas na dużych wysokościach, ale sam nie podaje tabeli wysokości (ta sama publikacja podaje dla masła jabłkowego w słoikach 1/2 pinty i pintach 5 / 10 / 15 minut na 0–1000 / 1001–6000 / powyżej 6000 stóp, a w części ogólnej o wekowaniu maseł – 10 minut).",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/fruit-butters-sp-50-304",
+    "miejsce": "Pear butter, procedura",
+    "cytat": "Pour hot butter into hot sterilized jars*, leaving 1⁄4 inch headspace. … Process 5 minutes in a boiling water bath or atmospheric steam canner. (Adjust process times for high altitudes.)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "0e99442d6901"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/fruit-butters-sp-50-304",
+    "miejsce": "Processing the butter (część ogólna)",
+    "cytat": "Pack cooked butters immediately into hot jars leaving 1/4 inch headspace. Adjust lids and process in a boiling water canner for 10 minutes.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (D-027, B11)"
+   },
+   {
+    "adres": "https://extension.oregonstate.edu/food/preservation/fruit-butters-sp-50-304",
+    "miejsce": "Apple butter, tabela czasów (hot pack) i przypis o sterylizacji",
+    "cytat": "Recommended process time for Apple butter in a boiling-water canner | 0 - 1,000 ft | 5 minutes | 1,001 - 6,000 ft | 10 minutes | Above 6,000 ft | 15 minutes | Products processed less than 10 minutes should be filled into sterile empty jars.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep (D-027, B11)"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": "Brak tabeli wysokości w przepisie; ogólna reguła NCHFP dla dżemów (SLO-004: +1 minuta na każde 1000 stóp) dotyczy dżemów i galaretek, nie została tu przeniesiona.",
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Pear Butter (So Easy to Preserve / OSU): pour the hot butter into hot sterilized jars (hot pack), leaving 1/4 inch (about 0.6 cm) of headspace, and process for 5 minutes in a boiling water bath or atmospheric steam canner; the recipe says to adjust the time at high altitudes but itself gives no altitude table (the same publication gives, for apple butter in half-pint or pint jars, 5 / 10 / 15 minutes at 0–1,000 / 1,001–6,000 / above 6,000 feet, and its general section on processing butters says 10 minutes)."
+ },
+ {
+  "id": "ACI-632",
+  "twierdzenie": "NCHFP (B.A. Nummer, 2003): sosy czekoladowe są przepisami niskokwasowymi i stwarzają ryzyko jadu kiełbasianego, więc przepisy z wekowaniem w kąpieli wodnej są szczególnie ryzykowne; nie ma też przetestowanych przepisów na sosy czekoladowe do wekowania w szybkowarze (pod ciśnieniem) ani w USDA Complete Guide, ani w So Easy to Preserve, ani w publikacjach uczelni współpracujących z Cooperative Extension; zamiast wekowania należy je mrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/resources/entry/chocolate-sauce",
+    "miejsce": "Canning Chocolate Sauces Unsafe (July 2003)",
+    "cytat": "Chocolate sauces are low acid recipes and are a risk for botulism food poisoning. Therefore any recipes that use the boiling water canning process are especially at risk. … Instead of canning, freeze your chocolate sauce recipe",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "0af5021632fc"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/resources/entry/chocolate-sauce",
+    "miejsce": "Canning Chocolate Sauces Unsafe (July 2003), zdanie o braku przepisów ciśnieniowych",
+    "cytat": "there are no science-based, tested recipes for chocolate sauces utilizing the pressure canning process in either the “USDA Complete Guide to Home Canning” (1994), the University of Georgia’s “So Easy to Preserve” (1999), or in publications from land grant University partners in the Cooperative Extension System.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (D-027, B11)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Źródło mówi o sosach czekoladowych, nie o powidłach z czekoladą; JarAtlas przenosi je ostrożnie jako czynnik ryzyka (czekolada/kakao to składnik niskokwasowy spoza przetestowanego składu).",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP (B.A. Nummer, 2003): chocolate sauces are low-acid recipes and a risk for botulism, so recipes that use the boiling water canning process are especially at risk; there are also no tested chocolate sauce recipes using the pressure canning process in the USDA Complete Guide, So Easy to Preserve or land-grant university Extension publications; freeze them instead of canning.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-633",
+  "twierdzenie": "NCHFP Marinated Whole Mushrooms (marynowane całe pieczarki), składniki na ok. 9 słoików 1/2 pinty: 7 funtów (ok. 3,2 kg) małych całych pieczarek, 1/2 szklanki butelkowanego soku z cytryny, 2 szklanki oliwy albo oleju sałatkowego, 2 1/2 szklanki białego octu (5%), 1 łyżka liści oregano, 1 łyżka suszonej bazylii, 1 łyżka soli do konserw i pikli, 1/2 szklanki drobno posiekanej cebuli, 1/4 szklanki pimento w kostce, 2 ząbki czosnku pokrojone na ćwiartki, 25 ziaren czarnego pieprzu.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-whole-mushrooms/",
+    "miejsce": "Marinated Whole Mushrooms, lista składników i wydajność",
+    "cytat": "7 lbs small whole mushrooms 1/2 cup bottled lemon juice 2 cups olive or salad oil 2-1/2 cups white vinegar (5 percent) … 1/2 cup finely chopped onions 1/4 cup diced pimento 2 cloves garlic, cut in quarters 25 black peppercorns Yield: About 9 half-pints",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "db5bc7731f7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Marinated Whole Mushrooms, ingredients for about 9 half-pints: 7 lbs (about 3.2 kg) small whole mushrooms, 1/2 cup bottled lemon juice, 2 cups olive or salad oil, 2 1/2 cups white vinegar (5%), 1 tbsp oregano leaves, 1 tbsp dried basil leaves, 1 tbsp canning or pickling salt, 1/2 cup finely chopped onions, 1/4 cup diced pimento, 2 cloves garlic cut in quarters, 25 black peppercorns.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-634",
+  "twierdzenie": "NCHFP Marinated Whole Mushrooms, przygotowanie: pieczarki bardzo świeże, zamknięte, o kapeluszach poniżej 1 1/4 cala (ok. 3 cm); trzony przyciąć, zostawiając 1/4 cala (ok. 0,6 cm); zalać sokiem z cytryny i wodą, doprowadzić do wrzenia i gotować 5 minut, odsączyć; oliwę, ocet, oregano, bazylię i sól zagotować z cebulą i pimento; do słoika 1/2 pinty 1/4 ząbka czosnku i 2–3 ziarna pieprzu; napełnić pieczarkami i gorącą, wymieszaną zalewą olejowo-octową (na gorąco), zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-whole-mushrooms/",
+    "miejsce": "Marinated Whole Mushrooms, Procedure",
+    "cytat": "Select very fresh unopened mushrooms with caps less than 1-1/4 inch in diameter. … Add lemon juice and water to cover. Bring to boil. Simmer 5 minutes. … Place 1/4 garlic clove and 2-3 peppercorns in a half-pint jar. Fill jars with mushrooms and hot, well-mixed oil/vinegar solution, leaving 1/2-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "db5bc7731f7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Marinated Whole Mushrooms, preparation: use very fresh unopened mushrooms with caps less than 1 1/4 inch (about 3 cm) in diameter; cut stems, leaving 1/4 inch (about 0.6 cm) attached; cover with lemon juice and water, bring to a boil and simmer 5 minutes, then drain; heat the oil, vinegar, oregano, basil and salt with the onions and pimento to boiling; place 1/4 garlic clove and 2–3 peppercorns in each half-pint jar; fill jars with mushrooms and hot, well-mixed oil/vinegar solution (hot pack), leaving 1/2 inch (about 1.3 cm) of headspace.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-635",
+  "twierdzenie": "NCHFP Marinated Whole Mushrooms, tabela 1, kąpiel wodna, na gorąco (hot), tylko słoiki 1/2 pinty: 0–1000 stóp 20 minut, 1001–3000 stóp 25 minut, 3001–6000 stóp 30 minut, powyżej 6000 stóp 35 minut; przepis nie podaje czasu dla słoików pint ani quart.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/marinated-whole-mushrooms/",
+    "miejsce": "Marinated Whole Mushrooms, Table 1",
+    "cytat": "Style of Pack Jar Size 0 - 1,000 ft 1,001 - 3,000 ft 3,001 - 6,000 ft Above 6,000 ft Hot Half-pints 20 min 25 30 35",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "db5bc7731f7b"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Marinated Whole Mushrooms, Table 1, boiling-water canner, hot pack, half-pints only: 0–1,000 feet 20 minutes, 1,001–3,000 feet 25 minutes, 3,001–6,000 feet 30 minutes, above 6,000 feet 35 minutes; the recipe gives no time for pint or quart jars.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-636",
+  "twierdzenie": "NCHFP Pickled Mixed Vegetables (warzywa mieszane w occie), składniki na ok. 10 słoików pint: 4 funty (ok. 1,8 kg) ogórków gruntowych 4–5 cali w plastrach 1-calowych, 2 funty (ok. 0,9 kg) obranych małych cebul w ćwiartkach, 4 szklanki selera naciowego (kawałki 1-calowe), 2 szklanki marchwi (kawałki 1/2 cala), 2 szklanki czerwonej papryki słodkiej (kawałki 1/2 cala), 2 szklanki różyczek kalafiora, 5 szklanek białego octu (5%), 1/4 szklanki gotowej musztardy, 1/2 szklanki soli do konserw i pikli, 3 1/2 szklanki cukru, 3 łyżki nasion selera, 2 łyżki gorczycy, 1/2 łyżeczki całych goździków, 1/2 łyżeczki mielonej kurkumy.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-mixed-vegetables/",
+    "miejsce": "Pickled Mixed Vegetables, lista składników",
+    "cytat": "4 lbs of 4- to 5-inch pickling cucumbers, washed, and cut into 1-inch slices … 2 cups cauliflower flowerets 5 cups white vinegar (5 percent) 1/4 cup prepared mustard 1/2 cup canning or pickling salt 3-1/2 cups sugar … Yield: About 10 pints",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7605c37949de"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Pickled Mixed Vegetables, ingredients for about 10 pints: 4 lbs (about 1.8 kg) of 4- to 5-inch pickling cucumbers cut into 1-inch slices, 2 lbs (about 0.9 kg) peeled and quartered small onions, 4 cups cut celery (1-inch pieces), 2 cups carrots (1/2-inch pieces), 2 cups sweet red peppers (1/2-inch pieces), 2 cups cauliflower flowerets, 5 cups white vinegar (5%), 1/4 cup prepared mustard, 1/2 cup canning or pickling salt, 3 1/2 cups sugar, 3 tbsp celery seed, 2 tbsp mustard seed, 1/2 tsp whole cloves, 1/2 tsp ground turmeric.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-637",
+  "twierdzenie": "NCHFP Pickled Mixed Vegetables, przygotowanie: warzywa wymieszać, przykryć 2 calami (ok. 5 cm) lodu i chłodzić 3–4 godziny; ocet z musztardą, solą, cukrem i przyprawami zagotować, dodać odsączone warzywa, przykryć i powoli doprowadzić do wrzenia; warzywa odsączyć (zalewę zachować), nałożyć do sterylnych słoików pint albo czystych słoików quart, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, i zalać zalewą, zostawiając 1/2 cala wolnej przestrzeni (na gorąco).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-mixed-vegetables/",
+    "miejsce": "Pickled Mixed Vegetables, Procedure",
+    "cytat": "Combine vegetables, cover with 2 inches of cubed or crushed ice, and refrigerate 3 to 4 hours. … Fill vegetables in sterile pint jars, or clean quarts, leaving 1/2-inch headspace. Add pickling solution, leaving 1/2-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7605c37949de"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Pickled Mixed Vegetables, preparation: combine the vegetables, cover with 2 inches (about 5 cm) of ice and refrigerate 3 to 4 hours; bring the vinegar with the mustard, salt, sugar and spices to a boil, add the drained vegetables, cover and slowly bring to a boil; drain the vegetables (save the pickling solution), fill them into sterile pint jars or clean quarts, leaving 1/2 inch (about 1.3 cm) of headspace, and add pickling solution, leaving 1/2 inch of headspace (hot pack).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-638",
+  "twierdzenie": "NCHFP Pickled Mixed Vegetables, tabela 1, kąpiel wodna, na gorąco (hot): słoiki pint 5 minut (0–1000 stóp), 10 minut (1001–6000 stóp), 15 minut (powyżej 6000 stóp); słoiki quart 10 minut (0–1000 stóp), 15 minut (1001–6000 stóp), 20 minut (powyżej 6000 stóp).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-mixed-vegetables/",
+    "miejsce": "Pickled Mixed Vegetables, Table 1",
+    "cytat": "Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Pints 5 min 10 15 Quarts 10 15 20",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "7605c37949de"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Pickled Mixed Vegetables, Table 1, boiling-water canner, hot pack: pints 5 minutes (0–1,000 feet), 10 minutes (1,001–6,000 feet), 15 minutes (above 6,000 feet); quarts 10 minutes (0–1,000 feet), 15 minutes (1,001–6,000 feet), 20 minutes (above 6,000 feet).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-639",
+  "twierdzenie": "NCHFP Piccalilli to relish z zielonych pomidorów i kapusty (6 szklanek zielonych pomidorów, 1 1/2 szklanki czerwonej i 1 1/2 szklanki zielonej papryki, 2 1/4 szklanki cebuli, 7 1/2 szklanki kapusty, 1/2 szklanki soli do konserw i pikli, 4 1/2 szklanki octu 5%, 3 szklanki brązowego cukru, 3 łyżki przyprawy do pikli), bez musztardy, mąki i skrobi; warzywa z solą zalewa się gorącą wodą na 12 godzin, odsącza, a potem gotuje delikatnie 30 minut albo do zmniejszenia objętości o połowę; gorącą masę nakłada się do gorących, wysterylizowanych słoików 1/2 pinty lub pint z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; kąpiel wodna: 5 minut (0–1000 stóp), 10 minut (1001–6000 stóp), 15 minut (powyżej 6000 stóp).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/piccalilli/",
+    "miejsce": "Piccalilli, składniki, Procedure i Table 1",
+    "cytat": "Piccalilli 6 cups chopped green tomatoes 1-1/2 cups chopped sweet red peppers … 7-1/2 cups chopped cabbage … 4-1/2 cups vinegar (5 percent) 3 cups brown sugar … Add vegetables and boil gently 30 minutes or until the volume of the mixture is reduced by one-half. … Fill hot sterile jars with hot mixture, leaving 1/2-inch headspace. … Hot Half-pints or pints 5 min 10 15",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "cd40c41f1073"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/relishes-salads/piccalilli/",
+    "miejsce": "Piccalilli, sól (składniki), Procedure: odstawienie i napełnianie",
+    "cytat": "1/2 cup canning or pickling salt | Cover with hot water and let stand 12 hours. | Fill hot sterile jars with hot mixture, leaving 1/2-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep (D-027, B11)"
+   }
+  ],
+  "status": "robocze",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Piccalilli is a relish of green tomatoes and cabbage (6 cups green tomatoes, 1 1/2 cups sweet red and 1 1/2 cups green peppers, 2 1/4 cups onions, 7 1/2 cups cabbage, 1/2 cup canning or pickling salt, 4 1/2 cups vinegar (5%), 3 cups brown sugar, 3 tbsp whole mixed pickling spice) with no mustard, flour or starch; the salted vegetables stand 12 hours covered with hot water, are drained, then boiled gently 30 minutes or until the volume is reduced by one-half; the hot mixture is filled into hot sterile half-pint or pint jars with 1/2 inch (about 1.3 cm) of headspace and processed in a boiling-water canner for 5 minutes (0–1,000 feet), 10 minutes (1,001–6,000 feet) or 15 minutes (above 6,000 feet)."
+ },
+ {
+  "id": "ACI-640",
+  "twierdzenie": "NCHFP o składnikach pikli: najczęściej używa się białego i brązowego cukru; syrop kukurydziany i miód, jeśli nie przewiduje ich wiarygodny przepis, mogą dać niepożądany smak (NCHFP nie podaje zasady zamiany cukru na miód w piklach).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/",
+    "miejsce": "General Information on Pickling, Ingredients",
+    "cytat": "White granulated and brown sugars are most often used. Corn syrup and honey, unless called for in reliable recipes, may produce undesirable flavors.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "e08302f4c8dc"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP on pickling ingredients: white granulated and brown sugars are most often used; corn syrup and honey, unless called for in reliable recipes, may produce undesirable flavors (NCHFP gives no rule for replacing sugar with honey in pickles).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-641",
+  "twierdzenie": "CSU Extension Preserve Smart, Peach Pickles (brzoskwinie marynowane), składniki na ok. 6 słoików pint: 8 funtów (ok. 3,6 kg) obranych brzoskwiń małych do średnich o średnicy 1–1 1/2 cala (ok. 2,5–3,8 cm), 1/2 łyżeczki kwasu askorbinowego (do wody zapobiegającej ciemnieniu), 6 3/4 szklanki cukru, 4 laski cynamonu (2-calowe), 2 łyżki całych goździków (rozgniecionych), 1 łyżka imbiru, 1 kwarta octu o kwasowości 5%.",
+  "zrodla": [
+   {
+    "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/pickling/peachesnectarines",
+    "miejsce": "Pickling Peaches/Nectarines, Recipes: Peach Pickles, 2. Ingredients",
+    "cytat": "(Makes about 6 pint jars) 8 pounds peeled peaches (small to medium size, 1 to 1 1/2\" diameter) 1/2 teaspoon ascorbic acid 6 3/4 cups sugar 4 sticks cinnamon (2 inches long) 2 tablespoons whole cloves, crushed 1 tablespoon ginger 1 quart vinegar (5% acidity)",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "dbb75f6b88c5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "CSU Extension Preserve Smart, Peach Pickles, ingredients for about 6 pint jars: 8 pounds (about 3.6 kg) peeled peaches, small to medium size, 1 to 1 1/2 inch (about 2.5–3.8 cm) in diameter, 1/2 teaspoon ascorbic acid (for the anti-darkening water), 6 3/4 cups sugar, 4 cinnamon sticks (2-inch), 2 tablespoons whole cloves (crushed), 1 tablespoon ginger, 1 quart vinegar (5% acidity).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-642",
+  "twierdzenie": "CSU Peach Pickles, przygotowanie: obrane brzoskwinie trzymać w zimnym roztworze 1/2 łyżeczki kwasu askorbinowego na 2 kwarty wody; cukier rozpuścić w occie, gotować 5 minut, zebrać pianę, dodać przyprawy w gazie; odsączone brzoskwinie gotować w syropie, aż da się je przekłuć widelcem, ale nie będą miękkie; zostawić w syropie na noc w lodówce, ponownie zagotować; napełniać gorące słoiki na gorąco, zostawiając 1/2 cala (ok. 1,3 cm) wolnej przestrzeni, i zalać syropem z 1/2 cala wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/pickling/peachesnectarines",
+    "miejsce": "Peach Pickles, 5. Prepare Ingredients i 6. Pack Jars",
+    "cytat": "drop into a cold solution of 1/2 teaspoon ascorbic acid per 2 quarts water. Dissolve sugar in vinegar in saucepot and put on range to heat. Boil 5 minutes and skim. … Remove from range and allow peaches to set in syrup overnight in the refrigerator to plump. Bring to a boil again before packing into hot jars. 6. Pack Jars Fill hot jars with peaches, leaving 1/2 inch headspace. Cover with syrup, leaving 1/2 inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "dbb75f6b88c5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "CSU Peach Pickles, preparation: keep peeled peaches in a cold solution of 1/2 teaspoon ascorbic acid per 2 quarts water; dissolve the sugar in the vinegar, boil 5 minutes and skim, add the spices tied in cheesecloth; cook the drained peaches in the boiling syrup until they can be pierced with a fork but are not soft; let them stand in the syrup overnight in the refrigerator and bring to a boil again; fill hot jars (hot pack), leaving 1/2 inch (about 1.3 cm) of headspace, and cover with syrup, leaving 1/2 inch of headspace.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-643",
+  "twierdzenie": "CSU Peach Pickles, kąpiel wodna, tylko słoiki pint: 0–1000 stóp 20 minut, 1001–3000 stóp 25 minut, 3001–6000 stóp 30 minut, 6001–10000 stóp 35 minut; źródło nie podaje czasu dla słoików quart.",
+  "zrodla": [
+   {
+    "adres": "https://apps.chhs.colostate.edu/preservesmart/produce/pickling/peachesnectarines",
+    "miejsce": "Peach Pickles, Water Bath Processing Time- PINTS",
+    "cytat": "Water Bath Processing Time- PINTS 0-1,000 ft 1,001-3,000 ft 3,001-6,000 ft 6,001-10,000 ft 20 minutes 25 minutes 30 minutes 35 minutes",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+grep",
+    "sha12": "dbb75f6b88c5"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "CSU Peach Pickles, boiling-water canner, pints only: 0–1,000 feet 20 minutes, 1,001–3,000 feet 25 minutes, 3,001–6,000 feet 30 minutes, 6,001–10,000 feet 35 minutes; the source gives no time for quart jars.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-644",
+  "twierdzenie": "NCHFP Pickled Sweet Green Tomatoes (słodko-kwaśne zielone pomidory z cebulą), na ok. 9 słoików pint: 10–11 funtów (ok. 4,5–5 kg) zielonych pomidorów (16 szklanek w plastrach), 2 szklanki cebuli w plastrach, 1/4 szklanki soli do konserw i pikli, 3 szklanki brązowego cukru, 4 szklanki octu (5%), 1 łyżka każdej z przypraw: gorczycy, ziela angielskiego, nasion selera i całych goździków; plastry pomidorów i cebuli posolić i odstawić na 4–6 godzin, odsączyć, gotować w zalewie 30 minut; napełniać na gorąco z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-sweet-green-tomatoes/",
+    "miejsce": "Pickled Sweet Green Tomatoes, składniki i Procedure",
+    "cytat": "10 to 11 lbs of green tomatoes (16 cups sliced) 2 cups sliced onions 1/4 cup canning or pickling salt 3 cups brown sugar 4 cups vinegar (5 percent) … let stand 4 to 6 hours. … Bring to boil and simmer 30 minutes, stirring as needed to prevent burning. … Fill jar and cover with hot pickling solution, leaving 1/2-inch headspace.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8d13a02ae82a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Pickled Sweet Green Tomatoes, for about 9 pints: 10 to 11 lbs (about 4.5–5 kg) of green tomatoes (16 cups sliced), 2 cups sliced onions, 1/4 cup canning or pickling salt, 3 cups brown sugar, 4 cups vinegar (5%), 1 tbsp each of mustard seed, allspice, celery seed and whole cloves; salt the sliced tomatoes and onions and let stand 4 to 6 hours, drain, simmer in the pickling solution 30 minutes, and fill hot with 1/2 inch (about 1.3 cm) of headspace.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-645",
+  "twierdzenie": "NCHFP Pickled Sweet Green Tomatoes, tabela 1, kąpiel wodna, na gorąco (hot): słoiki pint 10 minut (0–1000 stóp), 15 minut (1001–6000 stóp), 20 minut (powyżej 6000 stóp); słoiki quart 15 minut (0–1000 stóp), 20 minut (1001–6000 stóp), 25 minut (powyżej 6000 stóp).",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/vegetable-pickles/pickled-sweet-green-tomatoes/",
+    "miejsce": "Pickled Sweet Green Tomatoes, Table 1",
+    "cytat": "Style of Pack Jar Size 0 - 1,000 ft 1,001 - 6,000 ft Above 6,000 ft Hot Pints 10 min 15 20 Quarts 15 20 25",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "8d13a02ae82a"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "NCHFP Pickled Sweet Green Tomatoes, Table 1, boiling-water canner, hot pack: pints 10 minutes (0–1,000 feet), 15 minutes (1,001–6,000 feet), 20 minutes (above 6,000 feet); quarts 15 minutes (0–1,000 feet), 20 minutes (1,001–6,000 feet), 25 minutes (above 6,000 feet).",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "ACI-646",
+  "twierdzenie": "Dział Chutneys na stronie NCHFP wymienia cztery przepisy (Apple, Mango, Tomato-Apple, Cranberry Orange); w uwagach do Apple Chutney NCHFP dopuszcza użycie innego rodzaju ostrej papryki w ilości nie większej niż podana albo jej pominięcie, a Mango Chutney wymaga niedojrzałego (twardego) mango odmian Tommy Atkins lub Kent.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/chutneys/apple-chutney/",
+    "miejsce": "NCHFP Pickling, menu: Chutneys",
+    "cytat": "Chutneys Apple Chutney Mango Chutney Tomato-Apple Chutney Cranberry Orange Chutney",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "387305af2329"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/chutneys/apple-chutney/",
+    "miejsce": "Apple Chutney, Notes",
+    "cytat": "Another type of hot pepper may be used as long as you don't exceed the listed measurement, or you may omit the hot pepper.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "387305af2329"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/pickle/chutneys/mango-chutney/",
+    "miejsce": "Mango Chutney, składniki",
+    "cytat": "11 cups or 4 pounds chopped unripe (hard) mango, either Tommy Atkins or Kent varieties",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "64c306a653fe"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "ACI",
+  "pochodzenie": "C9 E1-kapiel-zrodla-p2-2026-11-02",
+  "jednoZrodlo": false,
+  "twierdzenie_en": "The Chutneys section of the NCHFP website lists four recipes (Apple, Mango, Tomato-Apple, Cranberry Orange); in its notes to Apple Chutney NCHFP allows another type of hot pepper as long as the listed measurement is not exceeded, or omitting the hot pepper, and Mango Chutney calls for unripe (hard) mango of the Tommy Atkins or Kent varieties.",
+  "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
   "id": "SLO-157",
   "twierdzenie": "NCHFP Plum Jam Pectin (sproszkowana pektyna): 6 szklanek rozgniecionych śliwek (ok. 3,5 funta śliwek), 1 opakowanie sproszkowanej pektyny, 8 szklanek cukru; wychodzi ok. 9 słoików 1/2 pinty.",
   "zrodla": [
