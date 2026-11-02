@@ -63344,7 +63344,7 @@
  },
  {
   "id": "MIE-150",
-  "twierdzenie": "UGA B1437: dziczyzną i innym mięsem z polowań można zastąpić całość lub część chudego mięsa w przepisach tej broszury; z mięsa dziczyzny usuwa się cały tłuszcz zewnętrzny przed mieleniem.",
+  "twierdzenie": "UGA B1437: mięsem jeleniowatych (venison) i innej zwierzyny łownej (game) można zastąpić całość lub część chudego mięsa w przepisach tej broszury; z mięsa zwierzyny usuwa się cały tłuszcz zewnętrzny przed mieleniem.",
   "zrodla": [
    {
     "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
@@ -63368,9 +63368,10 @@
   "klaster": "MIE",
   "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "UGA B1437: venison and other game may replace all or part of the lean meat in the recipes in this booklet; all external fat is removed from venison before grinding.",
-  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
-  "weryfikacjaZastepcza": "2026-11-02"
+  "twierdzenie_en": "UGA B1437: venison and other game may replace all or part of the lean meat in the recipes in this booklet; all external fat is removed from game meat before grinding.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach). Brzmienie poprawione po przeglądzie D-027 d B28 (B26 w brzmienieB26).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB26": "UGA B1437: dziczyzną i innym mięsem z polowań można zastąpić całość lub część chudego mięsa w przepisach tej broszury; z mięsa dziczyzny usuwa się cały tłuszcz zewnętrzny przed mieleniem."
  },
  {
   "id": "MIE-151",
@@ -63404,7 +63405,7 @@
  },
  {
   "id": "MIE-152",
-  "twierdzenie": "UGA B1437 opisuje frankfurterki, bolonię, knockwurst i kiełbaski wiedeńskie jako kiełbasy z drobno zmielonej, emulgowanej masy, ale nie podaje na nie przepisu (lista przepisów: Polish Sausage, cotto-salami, all-beef, coarse ground bologna).",
+  "twierdzenie": "UGA B1437 opisuje frankfurterki, bolonię, knockwurst i kiełbaski wiedeńskie jako kiełbasy z drobno zmielonej, emulgowanej masy; wśród przepisów na kiełbasy gotowane (Polish Sausage, cotto-salami, all-beef, coarse ground bologna) nie ma przepisu na kiełbasę drobno zmieloną, emulgowaną.",
   "zrodla": [
    {
     "adres": "https://fieldreport.caes.uga.edu/wp-content/uploads/2014/12/B1437-1.pdf",
@@ -63424,9 +63425,10 @@
   "klaster": "MIE",
   "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "UGA B1437 describes frankfurters, bologna, knockwurst and Vienna sausages as finely ground, emulsified sausages but gives no recipe for them (recipes: Polish Sausage, cotto salami, all-beef, coarse ground bologna).",
-  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
-  "weryfikacjaZastepcza": "2026-11-02"
+  "twierdzenie_en": "UGA B1437 describes frankfurters, bologna, knockwurst and Vienna sausages as finely ground, emulsified sausages; among its cooked sausage recipes (Polish Sausage, cotto salami, all-beef, coarse ground bologna) there is no recipe for a finely ground, emulsified sausage.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach). Brzmienie poprawione po przeglądzie D-027 d B28 (B26 w brzmienieB26).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB26": "UGA B1437 opisuje frankfurterki, bolonię, knockwurst i kiełbaski wiedeńskie jako kiełbasy z drobno zmielonej, emulgowanej masy, ale nie podaje na nie przepisu (lista przepisów: Polish Sausage, cotto-salami, all-beef, coarse ground bologna)."
  },
  {
   "id": "MIE-153",
@@ -63490,7 +63492,7 @@
  },
  {
   "id": "MIE-155",
-  "twierdzenie": "PNW 784 (OSU, 2025): niektóre wędliny peklowane, jak prosciutto i salami, je się na surowo, a inne, jak boczek, gotuje przed jedzeniem; publikacja nie podaje procedury dla prosciutto.",
+  "twierdzenie": "PNW 784 (OSU, 2025) nie podaje procedury dla wędlin peklowanych jedzonych bez gotowania (wymienia prosciutto i salami); boczek każe ugotować przed jedzeniem.",
   "zrodla": [
    {
     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
@@ -63510,9 +63512,10 @@
   "klaster": "MIE",
   "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "PNW 784 (OSU, 2025): some cured meats, such as prosciutto and salami, are eaten raw and others, such as bacon, are cooked before eating; the publication gives no procedure for prosciutto.",
-  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
-  "weryfikacjaZastepcza": "2026-11-02"
+  "twierdzenie_en": "PNW 784 (OSU, 2025) gives no procedure for cured meats eaten without cooking (it names prosciutto and salami); bacon is to be cooked before eating.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach). Brzmienie poprawione po przeglądzie D-027 d B28 (B26 w brzmienieB26).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB26": "PNW 784 (OSU, 2025): niektóre wędliny peklowane, jak prosciutto i salami, je się na surowo, a inne, jak boczek, gotuje przed jedzeniem; publikacja nie podaje procedury dla prosciutto."
  },
  {
   "id": "MIE-156",
@@ -63579,7 +63582,7 @@
  },
  {
   "id": "MIE-158",
-  "twierdzenie": "PNW 784: boczek peklowany na sucho albo w zalewie trzyma się w lodówce przez 5–7 dni, obracając torebkę codziennie; peklowanie w lodówce (40°F). Czas zależy od wielkości płata; gotowy płat jest jędrny.",
+  "twierdzenie": "PNW 784: boczek peklowany na sucho albo w zalewie peklowany jest w lodówce (40°F) przez 5–7 dni, z codziennym obracaniem torebki; czas zależy od wielkości płata; gotowy płat jest jędrny.",
   "zrodla": [
    {
     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
@@ -63612,9 +63615,10 @@
   "klaster": "MIE",
   "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "PNW 784: bacon cured dry or in brine stays in the refrigerator for 5–7 days, turning the bag daily; curing is done in the refrigerator (40°F). The time depends on the size of the slab; a finished slab is firm.",
-  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
-  "weryfikacjaZastepcza": "2026-11-02"
+  "twierdzenie_en": "PNW 784: bacon cured dry or in brine is cured in the refrigerator (40°F) for 5–7 days, turning the bag daily; the time depends on the size of the slab; a finished slab is firm.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach). Brzmienie poprawione po przeglądzie D-027 d B28 (B26 w brzmienieB26).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB26": "PNW 784: boczek peklowany na sucho albo w zalewie trzyma się w lodówce przez 5–7 dni, obracając torebkę codziennie; peklowanie w lodówce (40°F). Czas zależy od wielkości płata; gotowy płat jest jędrny."
  },
  {
   "id": "MIE-159",
@@ -63711,7 +63715,7 @@
  },
  {
   "id": "MIE-162",
-  "twierdzenie": "NCHFP Pickled Eggs: wszystkie 6 przepisów (na 12 obranych jaj na twardo) używa octu jabłkowego (Red Beet, Sweet and Sour, Dark and Spicy) albo białego (Cidered, Dilled, Pineapple); zalewę doprowadza się do wrzenia, gotuje 5 minut, zalewa gorącą jaja w ciepłym, wcześniej wysterylizowanym słoiku 1 qt (wg NCHFP Sterilization of Empty Jars), luźno, nie więcej niż 12 jaj, zamyka i od razu chłodzi. Octu słodowego żaden przepis nie przewiduje.",
+  "twierdzenie": "NCHFP Pickled Eggs: wszystkie 6 przepisów (na 12 obranych jaj na twardo) używa octu jabłkowego (Red Beet, Sweet and Sour, Dark and Spicy) albo białego (Cidered, Dilled, Pineapple); zalewę doprowadza się do wrzenia, gotuje 5 minut, zalewa gorącą jaja w ciepłym, wcześniej wysterylizowanym słoiku 1 qt (wg NCHFP Sterilization of Empty Jars), luźno, nie więcej niż 12 jaj, przykrywa i od razu chłodzi. Octu słodowego żaden przepis nie przewiduje.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
@@ -63744,9 +63748,10 @@
   "klaster": "MIE",
   "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "NCHFP Pickled Eggs: all 6 recipes (for 12 peeled hard-cooked eggs) use cider vinegar (Red Beet, Sweet and Sour, Dark and Spicy) or white vinegar (Cidered, Dilled, Pineapple); the pickling solution is brought to a boil, simmered 5 minutes and poured hot over the eggs in a warm, previously sterilized 1-quart jar (per NCHFP Sterilization of Empty Jars), loosely packed, no more than 12 eggs, then sealed and refrigerated at once. No recipe calls for malt vinegar.",
-  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
-  "weryfikacjaZastepcza": "2026-11-02"
+  "twierdzenie_en": "NCHFP Pickled Eggs: all 6 recipes (for 12 peeled hard-cooked eggs) use cider vinegar (Red Beet, Sweet and Sour, Dark and Spicy) or white vinegar (Cidered, Dilled, Pineapple); the pickling solution is brought to a boil, simmered 5 minutes and poured hot over the eggs in a warm, previously sterilized 1-quart jar (per NCHFP Sterilization of Empty Jars), loosely packed, no more than 12 eggs, then covered and refrigerated at once. No recipe calls for malt vinegar.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach). Brzmienie poprawione po przeglądzie D-027 d B28 (B26 w brzmienieB26).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB26": "NCHFP Pickled Eggs: wszystkie 6 przepisów (na 12 obranych jaj na twardo) używa octu jabłkowego (Red Beet, Sweet and Sour, Dark and Spicy) albo białego (Cidered, Dilled, Pineapple); zalewę doprowadza się do wrzenia, gotuje 5 minut, zalewa gorącą jaja w ciepłym, wcześniej wysterylizowanym słoiku 1 qt (wg NCHFP Sterilization of Empty Jars), luźno, nie więcej niż 12 jaj, zamyka i od razu chłodzi. Octu słodowego żaden przepis nie przewiduje."
  },
  {
   "id": "MIE-163",
@@ -64044,7 +64049,7 @@
  },
  {
   "id": "FER-127",
-  "twierdzenie": "Illinois Extension, Homemade Ginger Ale: napój zaszczepia się 1/8 łyżeczki suchych drożdży piekarskich (nie dzikim zaczynem imbirowym), fermentuje 24–48 h w temperaturze pokojowej w plastikowej butelce 2 l, potem 24 h w lodówce; nigdy w szkle, bo nieodgazowana butelka może wybuchnąć.",
+  "twierdzenie": "Illinois Extension, Homemade Ginger Ale: przepis używa 1/8 łyżeczki aktywnych suchych drożdży (zaczynu imbirowego nie używa); napój fermentuje 24–48 h w temperaturze pokojowej w plastikowej butelce 2 l, aż butelki nie da się ścisnąć, potem 24 h w lodówce; nigdy w szkle, bo nieodgazowana butelka może wybuchnąć.",
   "zrodla": [
    {
     "adres": "https://extension.illinois.edu/media/6876/download?inline",
@@ -64077,13 +64082,14 @@
   "klaster": "FER",
   "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "Illinois Extension, Homemade Ginger Ale: the drink is inoculated with 1/8 teaspoon dry baker’s yeast (not a wild ginger bug), fermented 24–48 h at room temperature in a 2 l plastic bottle, then 24 h in the refrigerator; never in glass, because an unvented bottle may explode.",
-  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
-  "weryfikacjaZastepcza": "2026-11-02"
+  "twierdzenie_en": "Illinois Extension, Homemade Ginger Ale: the recipe uses 1/8 teaspoon active dry yeast (it does not use a ginger bug); the drink ferments 24–48 h at room temperature in a 2 l plastic bottle until the bottle can no longer be squeezed, then 24 h in the refrigerator; never in glass, because an unvented bottle may explode.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach). Brzmienie poprawione po przeglądzie D-027 d B28 (B26 w brzmienieB26).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB26": "Illinois Extension, Homemade Ginger Ale: napój zaszczepia się 1/8 łyżeczki suchych drożdży piekarskich (nie dzikim zaczynem imbirowym), fermentuje 24–48 h w temperaturze pokojowej w plastikowej butelce 2 l, potem 24 h w lodówce; nigdy w szkle, bo nieodgazowana butelka może wybuchnąć."
  },
  {
   "id": "MIE-164",
-  "twierdzenie": "PNW 784: boczek peklowany w domu (po wędzeniu lub upieczeniu do 160°F) przed jedzeniem przyrządza się jak boczek ze sklepu: smaży, piecze albo podgrzewa w mikrofalówce.",
+  "twierdzenie": "PNW 784: boczek peklowany w domu (po wędzeniu lub upieczeniu do 160°F) przed jedzeniem przyrządza się jak boczek ze sklepu: smaży, piecze albo przyrządza w mikrofalówce.",
   "zrodla": [
    {
     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/PNW784.pdf",
@@ -64108,7 +64114,47 @@
   "pochodzenie": "B26 B26-research-2026-11-02 (claude/jaratlas-b26-research, w claude/happy-brown-yncplj d85a8aa)",
   "jednoZrodlo": true,
   "twierdzenie_en": "PNW 784: home-cured bacon (after smoking or baking to 160°F) is prepared before eating like store-bought bacon: fried, baked or microwaved.",
-  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach).",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog), przegląd D-027 d B26 (subagent Opus, effort medium, świeży kontekst); sha przeglądu = zbiór pusty (twierdzenie jeszcze bez zdań w tekstach). Brzmienie poprawione po przeglądzie D-027 d B28 (B26 w brzmienieB26).",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB26": "PNW 784: boczek peklowany w domu (po wędzeniu lub upieczeniu do 160°F) przed jedzeniem przyrządza się jak boczek ze sklepu: smaży, piecze albo podgrzewa w mikrofalówce."
+ },
+ {
+  "id": "FER-128",
+  "twierdzenie": "Illinois Extension (Homemade Ginger Ale): napoju fermentowanego w zamkniętej butelce nie robi się w szkle; jeśli butelka stoi zbyt długo bez upuszczania dwutlenku węgla, wybuchnie. Jedyny przepis Illinois na napój imbirowy używa drożdży, nie zaczynu imbirowego.",
+  "zrodla": [
+   {
+    "adres": "https://extension.illinois.edu/media/6876/download?inline",
+    "miejsce": "University of Illinois Extension, Fermenting Foods Recipes, HOMEMADE GINGER ALE (mod. 05/2025)",
+    "cytat": "Never make this recipe in a glass container. It is a fermented product, and if it sits too long without being “burped” of the carbon dioxide it produces during fermentation, it will explode.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "11a2faef1fe0",
+    "weryfikacja": "curl+pdftotext+grep (B28)"
+   },
+   {
+    "adres": "https://extension.illinois.edu/media/6876/download?inline",
+    "miejsce": "jw., Ingredients",
+    "cytat": "⅛ teaspoon dry active yeast",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "sha12": "11a2faef1fe0",
+    "weryfikacja": "curl+pdftotext+grep (B28)"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "„jedyny przepis Illinois na napój imbirowy” dotyczy tej publikacji (Fermenting Foods Recipes); zaczynu imbirowego publikacja nie opisuje ani nie odradza wprost",
+  "krytyczne": true,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e3b0c44298fc"
+  },
+  "wazne_do": "2027-11-02",
+  "klaster": "FER",
+  "pochodzenie": "B28 (przegląd D-027 d, brzmienie dla karty ginger-turmeric-v03; źródło jak FER-127 z B26)",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Illinois Extension (Homemade Ginger Ale): a drink fermented in a closed bottle is not made in glass; if the bottle sits too long without being burped of carbon dioxide, it will explode. Illinois’s only ginger drink recipe uses yeast, not a ginger bug.",
+  "uwaga": "Wpis B28 (2026-11-02-jaratlas-b28-katalog); brzmienie zaproponowane przez przegląd D-027 d B28 (P2-4), cytat sprawdzony skryptem u źródła.",
   "weryfikacjaZastepcza": "2026-11-02"
  }
 ]

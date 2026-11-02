@@ -18,26 +18,33 @@ const h = (x) => createHash("sha256").update(JSON.stringify(x)).digest("hex").sl
 const bez = (v, keys) => Object.fromEntries(Object.entries(v).filter(([k]) => !keys.includes(k)));
 const nota = (id) => V.get(id).notes?.find((n) => n.startsWith("[B28]") && n.includes(DEC));
 
-export const NOWE = [...Array.from({ length: 15 }, (_, i) => `MIE-${150 + i}`), ...Array.from({ length: 8 }, (_, i) => `FER-${120 + i}`)];
-// requiredWarnings (B28-D2, reguła ogólna kart-ostrzeżeń w porcji; tylko twierdzenia ostrzegawcze, bez terminów przechowywania):
-// wędliny i kiełbasy peklowane gotowane: MIE-021 (160°F) + MIE-011 (za dużo azotynu); boczek parzony + MIE-164 (przed jedzeniem smażyć);
-// bez peklowania w claims: tylko MIE-021; surowe dojrzewające: MIE-154, MIE-155; podsuszane: MIE-021, MIE-023; ryba: MIE-079, OLE-047;
-// jaja w solance: MIE-087, MIE-084; zakwas imbirowy: FER-127, NAP-024; kombucha F2: NAP-005, NAP-014, NAP-013; jun: FER-123, FER-125, NAP-014.
-const PEKL = ["MIE-021", "MIE-011"];
-export const RW = { "fermented-beverages-v02": ["NAP-005", "NAP-014", "NAP-013"], "fermented-beverages-v03": ["FER-123", "FER-125", "NAP-014"] };
+const Z26 = [...Array.from({ length: 15 }, (_, i) => `MIE-${150 + i}`), ...Array.from({ length: 8 }, (_, i) => `FER-${120 + i}`)];
+// FER-128: brzmienie z przeglądu D-027 d B28 (P2-4) dla karty zakwasu imbirowego, źródło jak FER-127.
+export const NOWE = [...Z26, "FER-128"];
+// Po D-027 d B28: brzmienie poprawione, B26 w brzmienieB26 (MIE-150 venison, MIE-152 bolonia, MIE-155 bez „je się na surowo” na początku, MIE-158 peklowanie, MIE-162 covered, MIE-164, FER-127).
+const POPRAWIONE = ["MIE-150", "MIE-152", "MIE-155", "MIE-158", "MIE-162", "MIE-164", "FER-127"];
+// requiredWarnings (B28-D2, po D-027 d B28): tylko twierdzenia ostrzegawcze, bez terminów przechowywania (wyjątki niżej).
+// Wędliny i kiełbasy peklowane gotowane: MIE-021 (160°F) + MIE-011 (azotyn); podsuszane + MIE-023; gotowane bez sterylizacji + OLE-047;
+// boczek: MIE-156 (boczek 160°F), MIE-011, MIE-164 (przed jedzeniem przyrządzić); surowe dojrzewające: MIE-154, MIE-155, MIE-011;
+// ryba: MIE-079, OLE-047; jaja w solance: MIE-087, MIE-084; zakwas imbirowy: FER-128, NAP-024; kombucha F2: NAP-005, NAP-014, NAP-010; jun: FER-123, FER-125, NAP-014, SLO-036.
+const PEKL = ["MIE-021", "MIE-011"], PODS = [...PEKL, "MIE-023"], GOT = [...PEKL, "OLE-047"], BOCZEK = ["MIE-156", "MIE-011", "MIE-164"];
+export const RW = { "fermented-beverages-v02": ["NAP-005", "NAP-014", "NAP-010"], "fermented-beverages-v03": ["FER-123", "FER-125", "NAP-014", "SLO-036"] };
 export const NP = {
-  "pork-loin-ham-v01": PEKL, "pork-belly-jowl-v01": [...PEKL, "MIE-164"], "pork-belly-jowl-v02": PEKL, "pork-belly-jowl-v09": ["MIE-021"],
-  "smoked-cooked-sausages-v02": PEKL, "smoked-cooked-sausages-v03": PEKL, "smoked-cooked-sausages-v04": PEKL, "smoked-cooked-sausages-v05": PEKL,
-  "smoked-cooked-sausages-v07": PEKL, "smoked-cooked-sausages-v08": PEKL, "smoked-cooked-sausages-v15": PEKL, "smoked-cooked-sausages-v16": PEKL,
-  "pork-loin-ham-v11": ["MIE-154", "MIE-155"], "dry-cured-sausages-v12": ["MIE-021", "MIE-023"], "freshwater-fish-v08": ["MIE-079", "OLE-047"],
-  "eggs-v05": ["MIE-087", "MIE-084"], "ginger-turmeric-v03": ["FER-127", "NAP-024"],
+  "pork-loin-ham-v01": PEKL, "pork-belly-jowl-v01": BOCZEK, "pork-belly-jowl-v02": BOCZEK, "pork-belly-jowl-v09": ["MIE-021", "OLE-047"],
+  "smoked-cooked-sausages-v02": PODS, "smoked-cooked-sausages-v03": PEKL, "smoked-cooked-sausages-v04": PODS, "smoked-cooked-sausages-v05": PODS,
+  "smoked-cooked-sausages-v07": PEKL, "smoked-cooked-sausages-v08": PEKL, "smoked-cooked-sausages-v15": GOT, "smoked-cooked-sausages-v16": GOT,
+  "pork-loin-ham-v11": ["MIE-154", "MIE-155", "MIE-011"], "dry-cured-sausages-v12": ["MIE-021", "MIE-023", "MIE-011"], "freshwater-fish-v08": ["MIE-079", "OLE-047"],
+  "eggs-v05": ["MIE-087", "MIE-084"], "ginger-turmeric-v03": ["FER-128", "NAP-024"],
 };
 // Po zmianie (B26): tylko notatka [B28], status do-researchu (jak B21, B25); karta po decyzji toru A / 03.
 const PO_ZMIANIE = ["smoked-cooked-sausages-v06", "eggs-v01", "eggs-v02"];
 // Wycofane w katalogu (retired, katalog-v1-e1 albo duplikat): B26 tego pola nie uwzględnił; bez zmiany statusu, notatka (analogia B27).
 const WYCOFANE = ["pork-loin-ham-v06", "smoked-cooked-sausages-v09", "eggs-v04", "eggs-v08"];
 // Twierdzenia z terminem przechowywania (dni, tygodnie): nigdy w requiredWarnings kart-ostrzeżeń porcji (nie sugerują bezpiecznego czasu).
-const TERMIN = ["MIE-029", "MIE-073", "MIE-074", "MIE-158", "MIE-160", "FER-120", "FER-121", "FER-124", "FER-126"];
+// Kontrola po tekście (D-043 B28 P2-2), nie ręczna lista; wyjątki nazwane: NAP-005 (NCHFP, szczebel 1: bez F2, lodówka do 2 dni = krótszy i ostrożny),
+// MIE-084 (granica zagrożenia: najwyżej 2 godziny poza lodówką, nie czas przechowywania).
+const TERMIN_RE = /\d+\s*(–\s*\d+\s*)?(dni|dnia|dzień|tygodni|tydzień|godzin|godziny|h\b|miesi)/;
+const TERMIN_WYJATKI = ["NAP-005", "MIE-084"];
 const ZMIENIAJA = [...Object.keys(RW), ...Object.keys(NP)];
 // Skrót pól spoza listy sprzed B28 (katalog 1.0.16, d85a8aa): RW/NP bez safetyStatus, cardType, claims, requiredWarnings, notes; reszta bez notes.
 const SNAP = {"pork-loin-ham-v01":"c1d3f92d0956","pork-loin-ham-v06":"5e4da6179ee4","pork-loin-ham-v11":"48635fd76dee","pork-belly-jowl-v01":"9d914781c8bb","pork-belly-jowl-v02":"2ad5a5d2a9e8","pork-belly-jowl-v09":"61e7a84c8267","smoked-cooked-sausages-v02":"c01e953bf684","smoked-cooked-sausages-v03":"a07c12b576e3","smoked-cooked-sausages-v04":"7d583b84f5e9","smoked-cooked-sausages-v05":"9d9bf722efd0","smoked-cooked-sausages-v06":"bf852aceaf6f","smoked-cooked-sausages-v07":"5696ee31ad56","smoked-cooked-sausages-v08":"56578fb339da","smoked-cooked-sausages-v09":"3108b2765c42","smoked-cooked-sausages-v15":"f96f3977ee8a","smoked-cooked-sausages-v16":"e73cb375abc0","dry-cured-sausages-v12":"eff42258641a","freshwater-fish-v08":"709f8ae9ee31","eggs-v01":"dee2e307506e","eggs-v02":"09724a0e0216","eggs-v04":"fad0f410a84f","eggs-v05":"7faf132c6fb4","eggs-v08":"ec6a1b452f5b","fermented-beverages-v02":"7902736fe4f2","fermented-beverages-v03":"90c49fbf4331","ginger-turmeric-v03":"9fcd0fe78bf7"};
@@ -63,12 +70,13 @@ test("B28: każdy z 26 wariantów B26 rozliczony dokładnie raz, werdykty jak w 
 
 test("B28: MIE-150–164 i FER-120–127 w rejestrze 1:1 z B26 JSON, potwierdzone, przegląd D-027 d, wersja en, bez ścieżek spoza repo", () => {
   const Z = new Map(b26.twierdzenia.map((t) => [t.id, t]));
-  assert.deepEqual([...Z.keys()].sort(), [...NOWE].sort());
-  for (const id of NOWE) {
+  assert.deepEqual([...Z.keys()].sort(), [...Z26].sort());
+  for (const id of Z26) {
     const t = R.get(id), o = Z.get(id);
     assert.ok(t && o, id);
     assert.equal(t.status, "potwierdzone", id);
-    assert.equal(t.twierdzenie, o.twierdzenie, `${id}: brzmienie`);
+    assert.equal(POPRAWIONE.includes(id) ? t.brzmienieB26 : t.twierdzenie, o.twierdzenie, `${id}: brzmienie`);
+    if (POPRAWIONE.includes(id)) assert.notEqual(t.twierdzenie, o.twierdzenie, `${id}: poprawione`); else assert.equal(t.brzmienieB26, undefined, id);
     assert.equal(t.krytyczne, o.krytyczne, `${id}: krytyczne`);
     assert.equal(t.uproszczenie, o.uproszczenie, `${id}: uproszczenie`);
     if (t.krytyczne) assert.equal(t.przeglad?.kto, "weryfikacja zastępcza (subagent)", `${id}: przegląd D-027 d`);
@@ -88,6 +96,17 @@ test("B28: MIE-150–164 i FER-120–127 w rejestrze 1:1 z B26 JSON, potwierdzon
   }
   assert.equal(new Set(rej.map((t) => t.id)).size, rej.length, "ID w rejestrze unikalne");
   assert.ok(!JSON.stringify(rej).includes("/tmp/claude-0/"), "rejestr bez ścieżek scratchpadu");
+  // D-043 B28 P2-1: stare wpisy bez zmian (skrót całego rejestru na d85a8aa).
+  assert.equal(h(rej.filter((t) => !NOWE.includes(t.id))), "9c4f1c91627b", "stare wpisy rejestru bez zmian");
+});
+
+test("B28: FER-128 z tego samego źródła co FER-127, krytyczne, z przeglądem; liczby w pl i en zgodne (D-043 B28 P3-4)", () => {
+  const t = R.get("FER-128"), f = R.get("FER-127");
+  assert.equal(t.status, "potwierdzone"); assert.equal(t.krytyczne, true); assert.equal(t.przeglad?.kto, "weryfikacja zastępcza (subagent)");
+  assert.ok(t.zrodla.every((z) => z.adres === f.zrodla[0].adres && z.szczebel === 3 && z.sha12 === "11a2faef1fe0"));
+  assert.ok(t.zrodla[0].cytat.startsWith("Never make this recipe in a glass container.") && !TERMIN_RE.test(t.twierdzenie));
+  const num = (x) => (x.match(/\d+(?:[.,]\d+)?/g) ?? []).map((n) => n.replace(",", ".")).sort().join(" ");
+  for (const id of NOWE) assert.equal(num(R.get(id).twierdzenie_en), num(R.get(id).twierdzenie), `${id}: liczby pl/en`);
 });
 
 test("B28: ryzyko-wysokie i nie-publikowac jako karta-ostrzeżenie; ostrzeżenia z reguły B28-D2, bez terminów; nic nie znika z claims", () => {
@@ -99,7 +118,7 @@ test("B28: ryzyko-wysokie i nie-publikowac jako karta-ostrzeżenie; ostrzeżenia
     const oczek = [...new Set([...PRZED[id], ...W.get(id).twierdzenia, ...ostrz])];
     assert.deepEqual(v.claims, oczek, `${id}: claims = przed ∪ B26 ∪ ostrzeżenia`);
     for (const c of [...v.claims, ...v.requiredWarnings]) assert.equal(R.get(c)?.status, "potwierdzone", `${id}: ${c}`);
-    for (const c of v.requiredWarnings) assert.ok(!TERMIN.includes(c), `${id}: ${c} ma termin przechowywania`);
+    for (const c of v.requiredWarnings) assert.ok(TERMIN_WYJATKI.includes(c) || !TERMIN_RE.test(R.get(c).twierdzenie), `${id}: ${c} ma termin przechowywania`);
     if (np) assert.ok(nota(id)?.includes("2026-11-02-jaratlas-wariant-bez-zrodla") && nota(id).includes("brak sprawdzonego źródła"), `${id}: notatka [B28] z decyzją właściciela`);
     else assert.ok(nota(id)?.includes("ryzyko-wysokie") && nota(id).includes("B26-D4"), `${id}: notatka [B28]`);
     assert.ok(nota(id).includes(W.get(id).podstawa), `${id}: podstawa B26 w notatce`);
@@ -137,5 +156,5 @@ test("B28: poza polami z listy warianty bez cichych zmian; publication ukryta w 
 test("B28 (ADR 0008): treść dodana w B28 (twierdzenia, notatki) bez tytułów i wydawców książek", () => {
   // Rejestr miał wzmianki o książkach przed B28 (listy dopuszczonych wydań UC ANR); test pilnuje tylko tego, co dodaje ta porcja.
   const s = JSON.stringify(NOWE.map((id) => R.get(id))) + JSON.stringify(cat.variants.flatMap((v) => (v.notes ?? []).filter((n) => n.startsWith("[B28]"))));
-  assert.doesNotMatch(s, /\bBall\b|Bernardin|Blue Book|Complete Book|So Easy to Preserve|Robert Rose|Jarden|ISBN/);
+  assert.doesNotMatch(s, /\bBall\b|Bernardin|Blue Book|Complete Book|So Easy to Preserve|Jarden|ISBN/);
 });
