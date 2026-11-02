@@ -1,0 +1,21 @@
+# Elderflower jelly: why there is no recipe here
+
+There is no recipe here for jelly made from elderflowers. [T:-]
+
+## !
+
+- Herbs, flowers and infusions made from them are not naturally acidic; to be canned, they need a tested recipe with an added amount of acid, sugar or both, even when the infusion is strained. [T:SLO-068]
+- According to Ask Extension, the University of Wyoming pulled its recipe for canned dandelion jelly after a food scientist at the National Center for Home Food Preservation flagged it as potentially risky: the acidity is not low enough to prevent the growth of botulism spores, and the water activity may be high enough to allow microbial growth. [T:SLO-492]
+- According to NDSU Extension, some flowers should not be eaten, so identify flowers correctly before eating them; flowers from a florist are meant to look at, not to eat, because some pesticides used on them have not been approved for edible plants. [T:SLO-489]
+
+## Why
+
+According to Oregon State University Extension, an infusion made from flowers such as dandelions is likely not acidic enough to prevent the growth of pathogens. [T:SLO-472]
+
+That pulled recipe was for dandelion jelly, not elderflower jelly. [T:-]
+
+Elder leaves and stems contain higher levels of toxins than the flowers, so discard any stray pieces of leaf or stem. [T:SLO-063]
+
+Avoid making food from red elderberry (Sambucus racemosa), which may contain higher levels of toxins. [T:SLO-066]
+
+JarAtlas has found no tested recipe for elderflower jelly from a checked source. [T:-]

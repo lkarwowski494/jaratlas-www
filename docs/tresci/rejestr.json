@@ -46768,7 +46768,7 @@
  },
  {
   "id": "SLO-468",
-  "twierdzenie": "Oregon State EM 9885: składniki wilgotne i niskokwasowe (np. świeży czosnek, zioła) najwyżej 15% masy i tylko metodą na gorąco, z miodem stale powyżej 140°F (60°C); po infuzji gorący miód przecedza się, usuwając wszystkie kawałki.",
+  "twierdzenie": "Oregon State EM 9885: składniki wilgotne i niskokwasowe (np. świeży czosnek, zioła) najwyżej 15% masy i tylko metodą na gorąco, z miodem stale powyżej 140°F (60°C).",
   "zrodla": [
    {
     "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9885.pdf",
@@ -46787,15 +46787,6 @@
     "szczebel": 3,
     "weryfikacja": "curl+grep",
     "sha12": "257458d1bb16"
-   },
-   {
-    "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9885.pdf",
-    "miejsce": "Oregon State Univ. Extension, EM 9885; hot infusions, krok 5, s. 5",
-    "cytat": "Strain hot honey through a fine sieve or several layers of cheesecloth to remove all residual infusion pieces.",
-    "odczyt": "2026-11-02",
-    "szczebel": 3,
-    "weryfikacja": "curl+pdftotext+grep",
-    "sha12": "257458d1bb16"
    }
   ],
   "status": "potwierdzone",
@@ -46810,9 +46801,33 @@
   "klaster": "SLO",
   "pochodzenie": "B9 E1-lodowka-zrodla-p1-2026-11-02 (K-SLO-9)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "Oregon State EM 9885: high-moisture, low-acid ingredients (e.g. fresh garlic, herbs) at most 15% by weight and only by hot infusion, keeping the honey above 140°F (60°C); after infusing, the hot honey is strained to remove all pieces.",
+  "twierdzenie_en": "Oregon State EM 9885: high-moisture, low-acid ingredients (e.g. fresh garlic, herbs) at most 15% by weight and only by hot infusion, keeping the honey above 140°F (60°C).",
   "uwaga": "Imbir zaliczony do niskokwasowych to wniosek JarAtlas (brak pH imbiru w przeczytanych źródłach).",
   "weryfikacjaZastepcza": "2026-11-02"
+ },
+ {
+  "id": "SLO-821",
+  "twierdzenie": "Oregon State EM 9885: po infuzji na gorąco gorący miód przecedza się przez gęste sito albo kilka warstw gazy, usuwając wszystkie kawałki dodatków.",
+  "zrodla": [
+   {
+    "adres": "https://extension.oregonstate.edu/sites/extd8/files/catalog/auto/EM9885.pdf",
+    "miejsce": "Oregon State Univ. Extension, EM 9885; hot infusions, krok 5, s. 5",
+    "cytat": "Strain hot honey through a fine sieve or several layers of cheesecloth to remove all residual infusion pieces.",
+    "odczyt": "2026-11-02",
+    "szczebel": 3,
+    "weryfikacja": "curl+pdftotext+grep",
+    "sha12": "257458d1bb16"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": null,
+  "krytyczne": true,
+  "przeglad": null,
+  "klaster": "SLO",
+  "jednoZrodlo": true,
+  "twierdzenie_en": "Oregon State EM 9885: after a hot infusion, the hot honey is strained through a fine sieve or several layers of cheesecloth to remove all infusion pieces.",
+  "pochodzenie": "p36 V1 (D-027 d) P2 ginger-turmeric-v10",
+  "wazne_do": "2027-11-02"
  },
  {
   "id": "SLO-469",

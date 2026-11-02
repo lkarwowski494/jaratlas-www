@@ -1,0 +1,16 @@
+# Grapefruit and cinchona bark tonic syrup: why there is no recipe here
+
+There is no recipe here for bitter tonic syrup made from grapefruit and cinchona bark. [T:-]
+
+## !
+
+- In the USA, FDA rules allow red and yellow cinchona bark as a natural flavoring only in beverages, with not more than 83 ppm of total cinchona alkaloids in the finished beverage. [T:SLO-483]
+- According to the German Federal Institute for Risk Assessment (BfR), pregnant women should avoid drinks with quinine as a precaution; people who have been advised by a doctor not to take quinine should also avoid them, and people with heart rhythm disorders or who take medicines that interact with quinine, such as blood thinners, should drink them only after talking to a doctor. [T:SLO-484]
+
+## Why
+
+According to the BfR, the main unwanted effects of quinine are ringing in the ears (tinnitus), vision problems, confusion, and bleeding into the skin and bruising. [T:SLO-484]
+
+JarAtlas has found no checked source that says how much quinine a home syrup made from cinchona bark contains. [T:-]
+
+JarAtlas has found no tested recipe for tonic syrup made with cinchona bark from a checked source. [T:-]

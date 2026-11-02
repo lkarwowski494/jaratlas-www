@@ -1,0 +1,20 @@
+# Zucchini jam with lemon and orange: why there is no recipe here
+
+There is no recipe here for zucchini jam with lemon and orange. [T:-]
+
+## !
+
+- Eggplant and summer squash, such as zucchini and pattypan squash, are low-acid foods with a pH above 4.6. [T:ACI-026]
+- Almost any food that is not very acidic, with a pH above 4.6, can support the growth of Clostridium botulinum and toxin production. [T:SLO-023]
+
+## Why
+
+The FDA list gives cooked zucchini a pH of about 5.69–6.10. [T:ACI-086]
+
+JarAtlas has found no tested recipe that uses lemon and orange to acidify zucchini jam. [T:-]
+
+JarAtlas has found no tested recipe for zucchini jam with lemon and orange from a checked source. [T:-]
+
+## What you can do instead
+
+NCHFP has a tested recipe for Zucchini-Pineapple, made from zucchini, pineapple juice, bottled lemon juice and sugar and processed in a boiling water canner. [T:SLO-106]

@@ -1,0 +1,19 @@
+# Pine shoot syrup made with sugar: why there is no recipe here
+
+There is no recipe here for syrup made by covering young pine shoots with sugar, without cooking. [T:-]
+
+## !
+
+- According to Missouri Poison Center, pine must be told apart from yew: eating yew can cause serious poisoning, because all parts of yew contain toxic taxines. [T:SLO-486]
+- Herbs, flowers and infusions made from them are not naturally acidic; to be canned, they need a tested recipe with an added amount of acid, sugar or both, even when the infusion is strained. [T:SLO-068]
+- According to Oregon State University Extension, an infusion made from flowers such as dandelions is likely not acidic enough to prevent the growth of pathogens. [T:SLO-472]
+
+## Why
+
+Unlike pine needles, yew needles are softer, flatter and arranged in two rows along the twig. [T:SLO-486]
+
+Although some people use pine needles in food or tea, eating them on purpose is not recommended: some contain volatile oils that can cause nausea, vomiting, abdominal pain and diarrhea, and some volatile oils are more hazardous to pregnant women. [T:SLO-486]
+
+JarAtlas has found no checked source for the acidity of young pine shoots. [T:-]
+
+JarAtlas has found no tested recipe for pine shoot syrup from a checked source. [T:-]
