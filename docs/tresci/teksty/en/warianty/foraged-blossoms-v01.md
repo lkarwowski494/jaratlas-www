@@ -18,4 +18,4 @@ JarAtlas has found no checked source for the acidity of young pine shoots. [T:-]
 
 JarAtlas has found no tested recipe for pine shoot syrup from a checked source. [T:-]
 
-These sources speak about herbs and flowers; JarAtlas applies them to pine shoots as a precaution. [T:-]
+The OSU Extension statements about acidity speak about herbs and flowers; JarAtlas applies them to pine shoots as a precaution. [T:-]
