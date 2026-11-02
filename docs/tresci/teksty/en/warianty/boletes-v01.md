@@ -10,7 +10,7 @@ There is no recipe here for small porcini and bay boletes pickled in vinegar wit
 
 NCHFP warns: do not can wild mushrooms; its tested canning process is only for small to medium-size cultivated mushrooms with unopened caps. [T:ACI-030]
 
-Mushrooms pickled in vinegar and processed in jars in a boiling-water bath are canned mushrooms, so this warning applies to them too. [T:-]
+JarAtlas treats mushrooms pickled in vinegar and processed in jars in a boiling-water bath as canned mushrooms, so it applies this warning to them too. [T:-]
 
 The FDA list gives mushrooms a pH of about 6.00–6.70, while acid foods are foods with a natural pH of 4.6 or lower. [T:ACI-159,ACI-001]
 

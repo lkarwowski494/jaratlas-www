@@ -8,7 +8,7 @@ There is no recipe here for Italian-style porcini in olive oil with garlic (fung
 
 ## Why
 
-Botulism cases have been linked to mushrooms covered in oil: in the USA in 1998, to home-prepared mushrooms in oil, and in the United Kingdom, to two cases of mushrooms in oil. [T:OLE-026]
+Botulism has been linked to mushrooms covered in oil: in the USA in 1998, one case to home-prepared mushrooms in oil, and in Britain two cases to mushrooms in oil. [T:OLE-026]
 
 NCHFP research found that garlic-in-oil mixtures stored at room temperature are at risk of botulism. [T:OLE-001]
 
@@ -18,4 +18,4 @@ JarAtlas has found no tested recipe for wild mushrooms in oil from a checked sou
 
 ## What you can do instead
 
-NCHFP says that mushrooms can be frozen after they are steamed or heated in fat in a fry pan. [T:OLE-041]
+NCHFP’s page on freezing mushrooms, which does not mention wild mushrooms, says that mushrooms can be frozen after they are steamed or heated in fat in a fry pan. [T:OLE-041]

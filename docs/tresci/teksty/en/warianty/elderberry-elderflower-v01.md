@@ -9,7 +9,7 @@ There is no recipe here for green elder flower buds or unripe elderberries pickl
 
 ## Why
 
-In a study of American elderberry, levels were generally low in all tissues but highest in the stems and unripe (green) berries, and the authors still advise separating stems, green berries and leaves from ripe berries when preparing products. [T:ACI-453]
+In a study of American elderberry, cyanogenic glycoside levels were generally low in all tissues but highest in the stems and unripe (green) berries, and the authors still advise separating stems, green berries and leaves from ripe berries when preparing products. [T:ACI-453]
 
 Oregon State University Extension advises harvesting elderberries when the fruit is fully ripe. [T:ACI-452]
 

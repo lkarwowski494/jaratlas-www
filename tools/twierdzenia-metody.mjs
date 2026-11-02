@@ -62,6 +62,7 @@ export const WSPOLNE = {
   'SZY-001': ['pressure-canning', 'brak'], // szybkowar dla żywności niskokwasowej: sea-fish-v14 (szybkowar) i karty grzybów w słoikach (metoda nieustalona), p36
   'SZY-006': ['pressure-canning', 'brak'], // jw., p36
   'SZY-013': ['pressure-canning', 'brak'], // jw., p36
+  'ACI-030': ['water-bath', 'brak'], // NCHFP: nie wekować grzybów dzikich: karty-ostrzeżenia grzybów w occie (kąpiel) i w słoikach (metoda nieustalona), p36
   'SUS-035': ['dry-storage', 'brak', 'water-bath', 'freezer'], // toksyny grzybów: karty suszenia grzybów (p28) i karta-ostrzeżenie kapusty z grzybami (white-cabbage-v13, metoda nieustalona)
   'OLE-002': ['water-bath', 'freezer', 'refrigerator'], // czosnek w oleju: lodówka 40°F, 4 dni (NCHFP): ostrzeżenie papryki w oleju (bell-pepper-v09), karta mrożenia garlic-v17 (p24) i wymagane ostrzeżenie oleju szczypiorkowego leek-chives-v08 (p32)
   'OLE-019': ['freezer', 'refrigerator'], // oleje z niezakwaszonymi ziołami nie w temperaturze pokojowej: karty mrożenia garlic-v09/v10 i wymagane ostrzeżenie leek-chives-v08 (p32)

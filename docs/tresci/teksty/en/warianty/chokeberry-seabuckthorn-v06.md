@@ -4,7 +4,7 @@ There is no recipe here for chokeberry (aronia) juice made with cherry leaves to
 
 ## !
 
-- According to Oregon State University Extension, writing about herb and flower jellies, herbs, flowers and infusions made from them are not naturally high-acid ingredients; to be canned, they need a tested recipe with an added amount of acid, sugar or both, even when the infusion is strained. [T:SLO-068]
+- According to Oregon State University Extension, writing about herb and flower jellies, a tea made from herbs or flowers is likely not acidic enough to prevent pathogen growth; to be canned, it needs a tested amount of added acid, sugar or both, even when the tea is strained. [T:SLO-068]
 - If the juice is made in a steam juicer: UC warns that pouring the juice straight into sterilized jars, capping them and storing them at room temperature without further processing (“bottling”) is not safe; the juice must be canned by recommendations consistent with NCHFP. [T:SLO-051]
 
 ## Why
