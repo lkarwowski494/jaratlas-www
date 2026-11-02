@@ -1,0 +1,77 @@
+# Melon mrożony (NCHFP)
+
+Ta karta opisuje instrukcję NCHFP mrożenia kawałków melona bez cukru, w 0 °F (−18 °C) lub niżej; instrukcja nie przewiduje blanszowania. [T:SLO-288,SUS-050]
+
+## Wybór i przygotowanie
+
+Wybierz dojrzałe, dobrze wybarwione melony o jędrnym miąższu. [T:SLO-288]
+
+Przekrój je na pół i usuń pestki oraz skórkę. [T:SLO-288]
+
+Miąższ pokrój w plastry, w kostkę albo w kulki. [T:SLO-288]
+
+## Sposoby pakowania
+
+Bez cukru: włóż kawałki do pojemników, bez dodawania płynu. [T:SLO-288,SLO-249]
+
+Ta karta podaje tylko pakowanie bez cukru; NCHFP opisuje też pakowanie w syropie 30-procentowym, którego ta karta nie obejmuje. [T:SLO-288]
+
+## Pakowanie
+
+Owoce bez dodanego cukru i płynu (pakowanie na sucho) potrzebują 1/2 cala (ok. 1,3 cm) wolnej przestrzeni w pojemnikach pint i quart, z szerokim i z wąskim otworem. [T:SLO-249]
+
+Używaj opakowań odpornych na wilgoć i parę wodną, trwałych i szczelnych, które nie kruszą się i nie pękają na mrozie. [T:SLO-251]
+
+Pakuj ciasno, zostawiając jak najmniej powietrza, a z woreczków do mrożenia przed zamknięciem wyciśnij jak najwięcej powietrza. [T:SLO-250,SLO-251]
+
+Nie mroź owoców ani warzyw w pojemnikach o pojemności większej niż 1/2 galon (ok. 1,9 l): w większych żywność zamarza za wolno. [T:SLO-251]
+
+Zwykłe słoiki szklane łatwo pękają w temperaturze zamrażarki; jeśli używasz szkła, wybierz słoiki z szerokim otworem przeznaczone do mrożenia i wekowania. [T:SLO-251]
+
+W zwykłych słoikach do wekowania z wąskim otworem zostaw dodatkową wolną przestrzeń, bo rozszerzająca się żywność może rozsadzić słoik przy szyjce. [T:SLO-251]
+
+Sztywne pojemniki zamykaj szczelną pokrywką i dbaj, żeby krawędź uszczelnienia była czysta i sucha. [T:SLO-250]
+
+Opisz każde opakowanie: nazwa produktu, dodatki, data pakowania, ilość i postać, np. w całości albo w plasterkach. [T:SLO-250]
+
+Reguła JarAtlas (ostrożna; NCHFP nie podaje wolnej przestrzeni dla pojemników metrycznych): pojemnik większy niż pinta (ok. 0,47 l) traktuj jak quart, a do tych owoców nie używaj pojemników większych niż quart (ok. 0,95 l; pojemnik 1 l jest już większy), mimo że ogólny limit podany wyżej to 1/2 galon, bo NCHFP nie podaje dla nich wolnej przestrzeni. [T:SLO-249]
+
+## Mrożenie i przechowywanie
+
+Zamrażaj w temperaturze 0 °F (−18 °C) lub niższej. [T:SUS-050]
+
+Żeby mrożenie szło szybciej, ustaw zamrażarkę na −10 °F (ok. −23 °C) lub niżej mniej więcej 24 godziny wcześniej. [T:SUS-051]
+
+Nie przeładowuj zamrażarki: wkładaj tylko tyle niezamrożonej żywności, ile zamarznie w ciągu 24 godzin. [T:SUS-052]
+
+Trzymaj w zamrażarce 0 °F (−18 °C) lub mniej, bo w wyższej temperaturze żywność szybciej traci jakość; trzymaj w niej termometr i często go sprawdzaj. [T:SLO-255]
+
+W 0 °F (−18 °C) owoce i warzywa zachowują jakość przez ok. 8 do 12 miesięcy; potem powinny być nadal bezpieczne, tylko gorszej jakości. [T:SUS-058]
+
+Dla najlepszej jakości trzymaj się krótszego czasu i najpierw zużywaj najstarsze opakowania. [T:SLO-261]
+
+## Rozmrażanie i użycie
+
+Mrożone owoce podawaj, gdy mają jeszcze trochę kryształków lodu: są wtedy mniej papkowate. [T:SLO-256]
+
+Owoce rozmrażaj w opakowaniu w lodówce, pod bieżącą wodą albo w mikrofalówce, jeśli robisz to tuż przed użyciem. [T:SLO-256]
+
+Rozmrażaj tylko tyle, ile potrzebujesz naraz; resztki rozmrożonych owoców lepiej się trzymają, gdy je ugotujesz. [T:SLO-256]
+
+Nigdy nie rozmrażaj żywności w temperaturze pokojowej ani w ciepłej wodzie: jej zewnętrzna warstwa nagrzewa się wtedy do strefy zagrożenia 40–140 °F (ok. 4–60 °C), w której bakterie szybko się namnażają. [T:SLO-258]
+
+Rozmrażaj w lodówce w 40 °F (ok. 4 °C) lub niżej, w zimnej bieżącej wodzie poniżej 70 °F (ok. 21 °C) albo w mikrofalówce, jeśli od razu ją ugotujesz lub podasz. [T:SLO-258]
+
+W zimnej wodzie rozmrażaj tylko w szczelnym opakowaniu lub woreczku, tylko dopóki woda ma poniżej 70 °F (ok. 21 °C) i tylko wtedy, gdy żywność rozmrozi się w mniej niż 2 godziny. [T:SLO-258]
+
+## Kiedy wyrzucić
+
+Żywność jest bezpieczna, dopóki pozostaje zamrożona, ale gdy się rozmrozi i ogrzeje powyżej 40 °F (ok. 4 °C), bakterie obecne przed zamrożeniem mogą zacząć się namnażać. [T:SUS-059]
+
+Przy braku prądu nie otwieraj zamrażarki: według FDA pełna zamrażarka utrzymuje temperaturę ok. 48 godzin, a w połowie pełna 24 godziny. [T:SLO-259]
+
+Po powrocie prądu żywność, która ma jeszcze kryształki lodu albo ma 40 °F (ok. 4 °C) lub mniej, według FDA można bezpiecznie ponownie zamrozić albo ugotować; nie da się tego ocenić po wyglądzie ani zapachu. [T:SLO-259]
+
+Reguła JarAtlas (ostrożna): wyrzuć opakowanie, które nie ma kryształków lodu i ma powyżej 40 °F (ok. 4 °C), albo którego nie da się sprawdzić. [T:SLO-260]
+
+FDA każe też wyrzucić łatwo psującą się żywność, która leżała w temperaturze pokojowej 2 godziny lub dłużej, a 1 godzinę, gdy na zewnątrz jest powyżej 90 °F (ok. 32 °C). [T:SLO-260]

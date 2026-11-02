@@ -15536,7 +15536,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "303f1e758544"
+   "sha": "9f2361209a24"
   },
   "wielkosc": "temperatura zamrażarki",
   "wartosc": -18,
@@ -15781,7 +15781,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "cf8fa221e6f7"
+   "sha": "f850c8e6f744"
   },
   "wazne_do": "2027-11-01",
   "klaster": "SUS",
@@ -32924,7 +32924,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "a43cabdc0fda"
+   "sha": "38c726a58e02"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33043,7 +33043,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "fca812aadee9"
+   "sha": "6a7406c38b90"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33261,7 +33261,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "c6dab4e423fe"
+   "sha": "65ffc85e7651"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33362,7 +33362,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "822ac02ca46a"
+   "sha": "1b1fefd55836"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33397,7 +33397,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "d91fae599530"
+   "sha": "4a78e3b57347"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -33432,7 +33432,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "721804107b1a"
+   "sha": "6df95da78b0b"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -34066,6 +34066,69 @@
   ],
   "status": "potwierdzone",
   "uproszczenie": "Karta tylko dla cebuli w kostkę (wariant katalogu „cebula pokrojona mrożona”); dymka, całe cebule i krążki pominięte. „Leaving1/2-inch” w surowym tekście bez spacji. Zdania o jakości 8–12 miesięcy (SUS-058, SLO-261) i o gotowaniu warzyw z mrożonki (SLO-257) pominięte, bo strona produktu podaje krótszy czas („a few months”), a cebula służy jako dodatek. 1/4 cala ≈ 0,6 cm (rachunek JarAtlas).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-286",
+  "twierdzenie": "NCHFP Freezing Eggplant: zbierać, zanim nasiona dojrzeją, gdy kolor jest równomiernie ciemny; umyć, obrać i pokroić w plastry grubości 1/3 cala (ok. 0,8 cm); przygotowywać szybko, tyle bakłażana, ile na jedno blanszowanie; blanszować w wodzie 4 minuty w 1 galonie (ok. 3,8 l) wrzątku z dodatkiem 1/2 szklanki (ok. 120 ml) soku z cytryny; schłodzić, odsączyć i zapakować z 1/2 cala (ok. 1,3 cm) wolnej przestrzeni; zamknąć i zamrozić. Do smażenia: odsączone plastry pakować z folią do mrożenia między plastrami.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-eggplant/",
+    "miejsce": "NCHFP, Freezing Eggplant, Preparation, For Frying",
+    "cytat": "Harvest before seeds become mature and when color is uniformly dark. Wash, peel and slice 1/3-inch thick. Prepare quickly, enough eggplant for one blanching at a time. Water blanch 4 minutes in 1 gallon of boiling water containing 1/2 cup lemon juice. Cool, drain and package, leaving 1/2-inch headspace. Seal and freeze. For Frying – Pack the drained slices with freezer wrap between slices.",
+    "sha12": "955ec226bdd7",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Celu soku z cytryny strona nie podaje; karta go nie podaje. Sok z cytryny w wodzie do blanszowania nie jest tu zakwaszaniem w sensie wekowania (mrożenie, acidBasis not-applicable). 1/3 cala ≈ 0,8 cm, 1/2 szklanki (US) ≈ 118 ml, zapisane „ok. 120 ml” (rachunek JarAtlas). „For Frying” w karcie jako zdanie warunkowe („jeśli później będziesz smażyć”). Zdanie „Use frozen … only cooked” z szablonu kapusty pominięte (strona bakłażana go nie podaje).",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-287",
+  "twierdzenie": "NCHFP Freezing Pineapple: wybrać jędrny, dojrzały ananas o pełnym smaku i zapachu; obrać, usunąć gniazdo i oczka; pokroić w plastry, kostkę, rozgnieść albo pokroić w cząstki lub słupki; na sucho: ciasno zapakować owoce do pojemników bez cukru, zostawić wolną przestrzeń, zamknąć i zamrozić.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-pineapple/",
+    "miejsce": "NCHFP, Freezing Pineapple, Preparation, Dry Pack",
+    "cytat": "Select firm, ripe pineapple with full flavor and aroma. Pare and remove core and eyes. Slice, dice, crush or cut the pineapple into wedges or sticks. Dry Pack – Pack fruit tightly into containers without sugar. Leave headspace . Seal and freeze.",
+    "sha12": "7a308c21c4d2",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Wielkość wolnej przestrzeni z tabeli Headspace to Allow (SLO-249, pakowanie na sucho), bo strona produktu odsyła do niej („Leave headspace”). Ananas rozgnieciony („crush”) pominięty: przypis tabeli zalicza owoce rozgniecione do pakowania z płynem (większa wolna przestrzeń); wariant ostrożniejszy i prostszy. Zdania o tacy (SLO-252) z szablonu żurawiny pominięte, bo strona ananasa ich nie podaje.",
+  "krytyczne": false,
+  "przeglad": null,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO"
+ },
+ {
+  "id": "SLO-288",
+  "twierdzenie": "NCHFP Freezing Melons: wybrać melony jędrne, dobrze wybarwione, dojrzałe; przekroić na pół, usunąć pestki i skórkę; pokroić w plastry, kostkę albo kulki; bez cukru (Unsweetened Pack): zapakować do pojemników, zostawiając wolną przestrzeń, zamknąć i zamrozić. NCHFP opisuje też pakowanie w zimnym syropie 30-procentowym.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/freeze/fruits/freezing-melons/",
+    "miejsce": "NCHFP, Freezing Melons, Preparation, Syrup Pack, Unsweetened Pack",
+    "cytat": "Select firm-fleshed, well-colored, ripe melons. Cut in half, remove seeds and rind. Cut melons into slices, cubes or balls. Syrup Pack – Pack into containers and cover with cold 30 percent syrup . Leave headspace . Seal and freeze. Unsweetened Pack – Pack into containers, leaving headspace . Seal and freeze.",
+    "sha12": "299ceee36c53",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Tylko pakowanie bez cukru; syrop 30% pominięty (przepisu na syrop 30% nie ma w rejestrze). „Unsweetened Pack” bez dodanego płynu = pakowanie na sucho w tabeli Headspace to Allow (przypis „packed without added sugar or liquid”), stąd 1/2 cala (SLO-249). Zdania o tacy (SLO-252) pominięte, bo strona melona ich nie podaje. Arbuza strona nie wymienia osobno; karta mówi tylko „melon”.",
   "krytyczne": false,
   "przeglad": null,
   "wazne_do": "2027-11-02",
