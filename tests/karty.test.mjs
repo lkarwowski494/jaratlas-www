@@ -126,7 +126,7 @@ export const ZAMIENNIKI_MROZENIA = {
   'aged-hard-cheese-v16': { ...NABIAL, 'SUS-058': 'SLO-441' },
   'garlic-v17': { 'SLO-250': 'OLE-051', 'SUS-058': 'OLE-003' }, // opis i data z NCHFP czosnku w oleju; czas „do kilku miesięcy”
   'garden-herbs-v16': { 'SUS-058': null }, // NCHFP nie podaje czasu dla pesto; czasu owoców i warzyw nie przenosimy (p24)
-  'lemon-v17': { 'SLO-250': 'SLO-307', 'SLO-251': 'SLO-304', 'SLO-258': 'SLO-308', 'SUS-058': 'SLO-308' }, // przepis NCHFP: pojemniki, rozmrażanie 24 h w lodówce, 1 rok
+  'lemon-v17': { 'SLO-250': 'SLO-307', 'SLO-251': 'SLO-307', 'SLO-258': 'SLO-308', 'SUS-058': 'SLO-308' }, // przepis NCHFP: pojemniki do zamrażarki z wolną przestrzenią (SLO-307), rozmrażanie 24 h w lodówce, 1 rok (SLO-308); P3-1 D-043
 };
 export function brakiBlokuMrozenia(lista = wszystkie, zamienniki = ZAMIENNIKI_MROZENIA) {
   const braki = [];
