@@ -16,7 +16,7 @@ NCHFP używa miar amerykańskich: szklanka (cup) mieści ok. 237 ml. [T:ACI-195]
 
 Jabłka umyj, obierz i usuń gniazda nasienne. [T:SLO-215]
 
-Żeby nie ciemniały, kroj je w plastry do wody z kwasem askorbinowym. [T:SLO-215]
+Żeby nie ciemniały, krój je w plastry do wody z kwasem askorbinowym. [T:SLO-215]
 
 NCHFP dopuszcza wodę albo syrop bardzo lekki, lekki lub średni; ta karta używa syropu bardzo lekkiego. [T:SLO-215,ACI-192]
 
@@ -64,7 +64,7 @@ Po wyjęciu gorących słoików z garnka nie dokręcaj zakrętek ani pokrywek; m
 
 Jeśli którykolwiek słoik straci dużo płynu podczas wekowania, nie otwieraj go, żeby dolać płynu. [T:SLO-210]
 
-Słoiki studź w temperaturze pokojowej 12–24 godziny, potem zdejmij zakrętki i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
+Słoiki studź w temperaturze pokojowej 12–24 godziny, potem zdejmij metalowe pierścienie (zakrętki) dwuczęściowych pokrywek, nie ruszając płaskich pokrywek, i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
 
 Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
 

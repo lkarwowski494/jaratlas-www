@@ -56,7 +56,7 @@ JarAtlas rule (NCHFP does not test metric jars): a pint holds about 473 ml, so a
 
 ## Cooling and storing
 
-Cool the jars at room temperature for 12 to 24 hours, then remove the screw bands and test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196,SLO-212]
+Cool the jars at room temperature for 12 to 24 hours, then remove the screw bands (the metal rings of two-piece lids), leaving the flat lids in place, and test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196,SLO-212]
 
 A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
 

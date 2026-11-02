@@ -66,7 +66,7 @@ Po wyjęciu gorących słoików z garnka nie dokręcaj zakrętek ani pokrywek; m
 
 Jeśli którykolwiek słoik straci dużo płynu podczas wekowania, nie otwieraj go, żeby dolać płynu. [T:SLO-210]
 
-Słoiki studź w temperaturze pokojowej 12–24 godziny, potem zdejmij zakrętki i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
+Słoiki studź w temperaturze pokojowej 12–24 godziny, potem zdejmij metalowe pierścienie (zakrętki) dwuczęściowych pokrywek, nie ruszając płaskich pokrywek, i sprawdź zamknięcie: wciśnij środek pokrywki; jeśli po puszczeniu odskakuje, słoik nie jest zamknięty. [T:SLO-196,SLO-212]
 
 Pokrywka zamkniętego słoika jest wklęsła, lekko wgięta w środku; jeśli środek jest płaski albo wypukły, słoik może nie być zamknięty. [T:SLO-196]
 

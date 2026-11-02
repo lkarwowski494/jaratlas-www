@@ -10,7 +10,7 @@ NCHFP: jars of fruit juice must be processed in a boiling-water canner long enou
 
 According to UC, if you do not can the juice, keep it in the refrigerator for up to one week; for longer storage, freeze it. [T:SLO-207]
 
-According to UC, freeze juice in freezer-safe containers, such as metal or rigid plastic containers or glass jars, and leave headspace because juice expands when frozen: about 1/2 inch (about 1.3 cm) in rigid containers and 1 1/2 inches (about 3.8 cm) in narrow-top containers. [T:SLO-214]
+According to UC, freeze juice in freezer-safe containers, such as metal or rigid plastic containers or glass jars, and leave headspace because juice expands when frozen: about 1/2 inch (about 1.3 cm) in rigid containers, 1/2 inch in pint or 1 inch (about 2.5 cm) in wide-mouth containers, and 1 1/2 inches (about 3.8 cm) in narrow-top containers. [T:SLO-214]
 
 UC recommends straight-sided glass jars for freezing, to help prevent breakage. [T:SLO-214]
 
@@ -70,7 +70,7 @@ According to UC, after processing, turn off the heat, remove the canner lid and 
 
 When you take the hot jars out of the canner, do not retighten the lids or bands; this can cut through the gasket and cause seal failures. [T:SLO-210]
 
-Cool the jars at room temperature for 12 to 24 hours, then remove the screw bands and test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196,SLO-212]
+Cool the jars at room temperature for 12 to 24 hours, then remove the screw bands (the metal rings of two-piece lids), leaving the flat lids in place, and test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196,SLO-212]
 
 A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
 

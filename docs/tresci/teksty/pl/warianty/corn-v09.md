@@ -74,6 +74,6 @@ Zwykłe gotowane galaretki z pełną ilością cukru i dodaną pektyną, takie j
 
 Częste otwieranie słoika albo długie trzymanie go w temperaturze pokojowej skraca ten czas; potrzebną porcję możesz nałożyć łyżką do miseczki i szybko odstawić słoik do lodówki. [T:SLO-213]
 
-Otwarty słoik trzymaj w lodówce do zużycia i często sprawdzaj, czy nie ma oznak zepsucia, takich jak pleśń, drożdże albo zapach fermentacji, alkoholu lub drożdży; przy każdej z nich od razu wyrzuć galaretkę. [T:SLO-213]
+Otwarty słoik trzymaj w lodówce do zużycia. [T:SLO-213]
 
 Otwarty słoik regularnie sprawdzaj, czy nie ma oznak zepsucia, takich jak pleśń, drożdże albo obcy zapach, w tym zapach fermentacji, drożdży lub alkoholu; jeśli je zauważysz, wyrzuć cały słoik. [T:SLO-181,SLO-013]
