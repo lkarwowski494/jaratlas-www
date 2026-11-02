@@ -1,5 +1,5 @@
 # Stan sztafety
-Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 (dzień, partia 36)
+Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 (dzień, partia 37)
 
 | Rola | Tryb | Stan | Commit | Artefakty | Otwarte decyzje |
 |---|---|---|---|---|---|
@@ -48,8 +48,9 @@
 | 06 Treści | build (partia 34: 46 kart en z B21 — 2 pełne: dżem dereniowy, kapusta czerwona Ball; 7 kart-ostrzeżeń ryzyko-wysokie; 37 kart-ostrzeżeń nie-publikowac) | STOP 2026-11-02 dzień (D-051): 312 wariantów z kartami (en 312, pl 211), SUS-358–359 nowe, przeglad.sha 65, weryfikacja zastępcza 3 przebiegi, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p34-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/en.json`, `tools/twierdzenia-metody.mjs` | decyzje do weta `2026-11-02-jaratlas-06-karty-p34`; pole powodu karty-ostrzeżenia (05/04) |
 | 06 Treści | build (partia 35: 29 kart en lodówki — kiszonki, kimchi, olej, kombucha, jaja, nabiał, kiełbasy, ryby; P3 kąpieli ACI-947/953–955; D3-2-01, D4-5-01; SLO-069 źródło HTML) | STOP 2026-11-02 dzień (D-051): 341 wariantów z kartami (en 341, pl 211), 61 nowych twierdzeń, przeglad.sha 175, weryfikacja zastępcza 4 przebiegi (0 P0), `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p35-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/en.json`, `tools/twierdzenia-metody.mjs`, `tests/b13-katalog.test.mjs` | decyzje do weta `2026-11-02-jaratlas-06-karty-p35`; nazwy wariantów do porcji katalogowej; B24-Q1 (olej) czeka na twierdzenia B24 w rejestrze |
 | 06 Treści | build (partia 36: karty-ostrzeżenia en ryzyko-wysokie i nie-publikowac; karty oleju B27 — 6 klasy B24-R1 + 14 ostrzeżeń; B24-Q1 olej „następny dzień”; OLE-025 eggplant-v04; 24 karty po B28) | STOP 2026-11-02 dzień (D-051): 503 warianty z kartami en (220 kart-ostrzeżeń), pl 211, SLO-821, przeglad.sha 220, weryfikacja zastępcza 8 przebiegów, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p36-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/`, `tools/twierdzenia-metody.mjs` | decyzje do weta `2026-11-02-jaratlas-06-karty-p36` |
+| 06 Treści | build (partia 37: 19 kart-ostrzeżeń en z requiredWarnings; pierwsze pełne karty szybkowaru en (17, SZY-055–079, test T1-szybkowar); 18 kart ok-zrodlo en — suszenie, kąpiel, mrożenie, olej, ocet) | STOP 2026-11-02 dzień (D-051): 557 wariantów z kartami en (239 kart-ostrzeżeń), pl 211, weryfikacja zastępcza 6 przebiegów (P0 0), `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p37-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/en.json`, `tests/karty.test.mjs`, `tools/twierdzenia-metody.mjs` | decyzje do weta `2026-11-02-jaratlas-06-karty-p37`; propozycje katalogowe p37 §5 |
 
 ## Następny krok
-1. **06-tresci**: p37 — 19 wariantów z requiredWarnings bez karty en (raport p36 §5); porcja katalogowa requiredWarnings dla 134 wariantów warning (wzór B28), potem ich karty; ok-zrodlo 39 bez karty en; P3 z p35/p36. Przekład fal: po zgodzie właściciela na kwotę
+1. **06-tresci**: p38 — 135 kart-ostrzeżeń po B29 + walnut-nuts-v07; po decyzjach katalogowych p37 §5: vine-leaves-greens-v09, game-lamb-v06, mirabelle-v06/v07; P3 z p35–p37. Przekład fal: po zgodzie właściciela na kwotę
 2. 10-wydanie: weto D1–D11; przeniesienie według `docs/wydanie/10-przeniesienie-czyste-repo.md` pkt 3–4 tuż przed pierwszym workflow Pages (D11), za zgodą właściciela.
 3. 08 (kod dalej): najpierw domena i kontrole z testami, potem adapter wdrożenia (po ADR 0007), na końcu wygląd (po 04).
