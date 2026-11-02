@@ -37,3 +37,16 @@ Dodanie repo prywatnego do sesji zostało zablokowane przez klasyfikator uprawni
 ## Kontrole przed pushem
 - `npm run check`: kod 0 (257 → 264 testów, katalog 0 błędów, treści 0 błędów / 3 uwagi jak przed zmianą).
 - Kontrola lokalna z prawdziwą listą nazw: kod 0 (1671 plików, 6 nazw, 0 błędów po wyjątkach bazowych; także po commicie c324d62, z wiadomością commita).
+
+## Odtworzenie wyjątków bazowych (sesja z dostępem do repo prywatnego)
+`P` = klon repo prywatnego z wypełnionym `jaratlas/zakazane-nazwy.json`; wynik do `jaratlas/wyjatki-nazw.json` (bez nazw, tylko numery).
+```sh
+P=<klon repo prywatnego> node -e "
+const fs=require('fs'),cp=require('child_process'),P=process.env.P;
+import('./tools/zrodla-prywatne.mjs').then(m=>{const nazwy=JSON.parse(fs.readFileSync(P+'/jaratlas/zakazane-nazwy.json')).nazwy,w={};
+for(const f of cp.execFileSync('git',['ls-tree','-r','--name-only','844390a'],{encoding:'utf8',maxBuffer:1<<28}).split('\n').filter(Boolean)){
+const b=cp.execFileSync('git',['show','844390a:'+f],{maxBuffer:1<<28});if(b.includes(0))continue;const t=f+'\n'+b;
+nazwy.forEach((n,i)=>{const k=m.liczWystapienia(t,n);if(k)(w[f]??={})[i+1]=k;});}
+fs.writeFileSync(P+'/jaratlas/wyjatki-nazw.json',JSON.stringify({opis:'stan zastany 2026-11-02 (844390a, przed ADR 0008)',bazaHistorii:'844390a',wyjatki:w},null,1));})"
+```
+Oczekiwane przy liście 6 nazw z tej sesji: 23 pliki, 43 pary; potem `node tools/zrodla-prywatne.mjs --prywatne $P` → kod 0.
