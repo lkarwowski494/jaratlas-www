@@ -7,7 +7,7 @@ import { join, dirname } from 'node:path';
 import { tmpdir } from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { porownaj, uwagi, liczby, znaczniki, jednostki, symbole, slugPoprawny } from '../tools/i18n/niezmienniki.mjs';
-import { segmenty, parsujArgumenty, parsujOdpowiedz, odczytajLinie, budujZadanieBatcha, main, zastosuj, kosztUsd, maskuj, JEZYKI_DOCELOWE, LIMIT_KOSZTU_USD } from '../tools/i18n/przeklad-api.mjs';
+import { segmenty, parsujArgumenty, parsujOdpowiedz, odczytajLinie, budujZadanieBatcha, main, zastosuj, wczytajZrodlo, segmentyJezyka, kosztUsd, maskuj, JEZYKI_DOCELOWE, LIMIT_KOSZTU_USD } from '../tools/i18n/przeklad-api.mjs';
 
 const repo = join(dirname(fileURLToPath(import.meta.url)), '..');
 const czytaj = (p) => JSON.parse(readFileSync(p, 'utf8'));
@@ -71,30 +71,51 @@ test('slugi: małe litery ASCII, cyfry i łączniki', () => {
   for (const z of ['Confiture', 'cornichons-à-l-aneth', 'a--b', '-a', 'a b', '']) assert.equal(slugPoprawny(z), false, z);
 });
 
-test('kalibracja na prawdziwych danych: istniejące karty pl przechodzą kontrolę względem en (0 problemów)', () => {
-  const dir = join(repo, 'docs/tresci/karty');
+// en = baza (decyzja właściciela 2026-11-02-jaratlas-en-baza): karta tylko en jest dozwolona; każdy przekład (karta języka ≠ en) musi mieć źródło en.
+// Kierunek: od przekładu do źródła, nie od en do pl (wcześniej karta tylko en dawała ENOENT).
+const KARTY = join(repo, 'docs/tresci/karty');
+const przeklady = (dir = KARTY) => readdirSync(dir).filter((l) => l !== 'en' && existsSync(join(dir, l, 'warianty')))
+  .flatMap((lang) => readdirSync(join(dir, lang, 'warianty')).filter((n) => n.endsWith('.json')).sort().map((n) => ({ lang, n, w: n.replace('.json', '') })));
+const brakiZrodlaEn = (dir = KARTY) => przeklady(dir).filter(({ n }) => !existsSync(join(dir, 'en/warianty', n))).map(({ lang, w }) => `${lang}/${w}`);
+
+test('en bazą: każdy przekład ma kartę źródłową en; karta tylko en dozwolona, karta tylko pl = błąd', () => {
+  assert.deepEqual(brakiZrodlaEn(), []);
+  const d = mkdtempSync(join(tmpdir(), 'ja-baza-'));
+  try {
+    for (const l of ['en', 'pl']) mkdirSync(join(d, l, 'warianty'), { recursive: true });
+    writeFileSync(join(d, 'en/warianty/tylko-en.json'), '{}');
+    writeFileSync(join(d, 'en/warianty/para.json'), '{}');
+    writeFileSync(join(d, 'pl/warianty/para.json'), '{}');
+    assert.deepEqual(brakiZrodlaEn(d), []);
+    writeFileSync(join(d, 'pl/warianty/tylko-pl.json'), '{}');
+    assert.deepEqual(brakiZrodlaEn(d), ['pl/tylko-pl']);
+  } finally { rmSync(d, { recursive: true, force: true }); }
+});
+
+test('kalibracja na prawdziwych danych: każdy przekład przechodzi kontrolę względem en (0 problemów)', () => {
   const problemy = [];
-  for (const n of readdirSync(join(dir, 'en/warianty'))) {
-    const en = segmenty(czytaj(join(dir, 'en/warianty', n)), n.replace('.json', ''));
-    const pl = Object.fromEntries(segmenty(czytaj(join(dir, 'pl/warianty', n)), n.replace('.json', '')).map((s) => [s.id, s.en]));
-    for (const s of en) for (const p of porownaj(s.en, pl[s.id], 'pl')) problemy.push(`${s.id}: ${p.rodzaj} ${JSON.stringify(p)}`);
+  for (const { lang, n, w } of przeklady()) {
+    const zr = join(KARTY, 'en/warianty', n);
+    if (!existsSync(zr)) continue; // brak źródła zgłasza test „en bazą”
+    const t = Object.fromEntries(segmenty(czytaj(join(KARTY, lang, 'warianty', n)), w).map((s) => [s.id, s.en]));
+    for (const s of segmenty(czytaj(zr), w)) for (const p of porownaj(s.en, t[s.id], lang)) problemy.push(`${lang} ${s.id}: ${p.rodzaj} ${JSON.stringify(p)}`);
   }
   assert.deepEqual(problemy, []);
 });
 
-test('mutacje na prawdziwych danych: każda zmiana jednej liczby, zamiana °F↔°C i usunięcie znacznika w kartach pl są wykrywane', () => {
-  const dir = join(repo, 'docs/tresci/karty');
+test('mutacje na prawdziwych danych: każda zmiana jednej liczby, zamiana °F↔°C i usunięcie znacznika w przekładach są wykrywane', () => {
   let mutacji = 0; const przeoczone = [];
-  for (const n of readdirSync(join(dir, 'en/warianty'))) {
-    const w = n.replace('.json', '');
-    const pl = Object.fromEntries(segmenty(czytaj(join(dir, 'pl/warianty', n)), w).map((s) => [s.id, s.en]));
-    for (const s of segmenty(czytaj(join(dir, 'en/warianty', n)), w)) {
-      const t = pl[s.id]; const warianty = [];
+  for (const { lang, n, w } of przeklady()) {
+    const zr = join(KARTY, 'en/warianty', n);
+    if (!existsSync(zr)) continue;
+    const tl = Object.fromEntries(segmenty(czytaj(join(KARTY, lang, 'warianty', n)), w).map((s) => [s.id, s.en]));
+    for (const s of segmenty(czytaj(zr), w)) {
+      const t = tl[s.id]; const warianty = [];
       for (const m of t.replace(/\[T:[^\]]*\]/g, (x) => '#'.repeat(x.length)).matchAll(/\d+/g)) warianty.push(t.slice(0, m.index) + String(Number(m[0]) + 1) + t.slice(m.index + m[0].length));
       if (t.includes('°F')) warianty.push(t.replace('°F', '°C'));
       if (t.includes('°C')) warianty.push(t.replace('°C', '°F'));
       if (/\[T:/.test(t)) warianty.push(t.replace(/\s*\[T:[^\]]*\]/, ''));
-      for (const z of warianty) { mutacji++; if (porownaj(s.en, z, 'pl').length === 0) przeoczone.push(`${s.id}: ${z}`); }
+      for (const z of warianty) { mutacji++; if (porownaj(s.en, z, lang).length === 0) przeoczone.push(`${lang} ${s.id}: ${z}`); }
     }
   }
   assert.ok(mutacji > 300, `za mało mutacji: ${mutacji}`);
@@ -216,11 +237,12 @@ test('parsujArgumenty: domyślnie tylko szacunek; płatny przebieg wymaga --wysl
   assert.equal(o.model, 'claude-opus-5-5');
   assert.equal(o.limitUsd, LIMIT_KOSZTU_USD);
   assert.deepEqual(o.jezyki, JEZYKI_DOCELOWE);
-  assert.deepEqual(JEZYKI_DOCELOWE, ['fr', 'es', 'de', 'it']);
+  assert.deepEqual(JEZYKI_DOCELOWE, ['fr', 'es', 'de', 'it', 'pl']);
   const p = parsujArgumenty(['--wyslij', '--limit', '1.5', '--jezyki', 'fr,de', '--model', 'sonnet', '--wznow', 'msgbatch_abc123']);
   assert.deepEqual([p.wyslij, p.limitUsd, p.jezyki, p.model, p.wznow], [true, 1.5, ['fr', 'de'], 'claude-sonnet-5-5', 'msgbatch_abc123']);
   assert.equal(parsujArgumenty(['--szacuj', '--wyslij']).wyslij, false, '--szacuj wygrywa z --wyslij');
-  assert.throws(() => parsujArgumenty(['--jezyki', 'pl']), /język/);
+  assert.deepEqual(parsujArgumenty(['--jezyki', 'pl']).jezyki, ['pl'], 'pl tłumaczony jak inne języki (en-baza)');
+  assert.throws(() => parsujArgumenty(['--jezyki', 'en']), /język/);
   assert.throws(() => parsujArgumenty(['--model', 'gpt']), /model/);
   assert.throws(() => parsujArgumenty(['--wznow', 'abc']), /msgbatch_/);
   assert.throws(() => parsujArgumenty(['--limit', '-1']), /limit/);
@@ -275,13 +297,34 @@ function atrapa({ odpowiedzi = { fr: FR }, status = 'ended' } = {}) {
 }
 const cicho = () => {};
 
+// pl jako cel: tłumaczymy tylko to, czego w pl brak (karty bez karty pl, slugi bez slugu pl); istniejące, przejrzane karty pl zostają (decyzja Claude, do weta).
+test('pl: tylko karty i slugi bez wersji pl; inne języki dostają wszystko', () => {
+  const root = projekt();
+  writeFileSync(join(root, 'docs/tresci/karty/en/warianty/t.json'), JSON.stringify({ ...karta, tytul: 'Only en (NCHFP)' }));
+  writeFileSync(join(root, 'site/slugi/pl.json'), JSON.stringify({ produkty: { strawberry: 'truskawka' }, warianty: {} }));
+  const { segmenty: seg } = wczytajZrodlo(root);
+  const pl = segmentyJezyka('pl', seg).map((x) => x.id);
+  assert.ok(pl.every((id) => id.startsWith('karta/t/') || id.startsWith('slug/')), pl.join(','));
+  assert.ok(pl.includes('karta/t/tytul') && pl.includes('slug/warianty/s'));
+  assert.ok(!pl.some((id) => id.startsWith('karta/s/')) && !pl.includes('slug/produkty/strawberry'));
+  assert.equal(segmentyJezyka('fr', seg).length, seg.length);
+});
+
+test('main --jezyki pl bez braków: pl pominięty w szacunku, zero wywołań sieci', async () => {
+  const root = projekt(); const wy = join(root, 'raport'); const a = atrapa(); const L = [];
+  writeFileSync(join(root, 'site/slugi/pl.json'), JSON.stringify({ produkty: { strawberry: 'truskawka' }, warianty: { s: 'mrozone' } }));
+  assert.equal(await main(['--jezyki', 'pl', '--wyjscie', wy], {}, { fetchFn: a.fetchFn, log: (x) => L.push(x), root }), 0);
+  assert.equal(a.wywolania.length, 0);
+  assert.ok(L.some((x) => /pl: 0 segmentów/.test(x)), L.join('\n'));
+});
+
 test('main bez klucza: tylko szacunek, zero wywołań sieci, kod 0, plik szacunek.json', async () => {
   const root = projekt(); const wy = join(root, 'raport'); const a = atrapa();
   const kod = await main(['--wyjscie', wy], {}, { fetchFn: a.fetchFn, log: cicho, root });
   assert.equal(kod, 0);
   assert.equal(a.wywolania.length, 0);
   const s = czytaj(join(wy, 'szacunek.json'));
-  assert.equal(s.jezykow, 4);
+  assert.equal(s.jezykow, 5); // fr, es, de, it + pl (w atrapie brak slugów pl)
   assert.match(s.zrodlo, /przybliżenie/);
   assert.ok(s.koszt_usd > 0);
 });

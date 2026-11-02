@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Przekład kart treści i slugów en → fr, es, de, it przez API Anthropic (Message Batches, −50%). Rola 09, tryb build, 2026-11-02.
+// Przekład kart treści i slugów en → fr, es, de, it, pl przez API Anthropic (Message Batches, −50%). Rola 09, tryb build, 2026-11-02.
 // Wzór (analogia pełna, D-052): repo trening, scripts/i18n/przeklad-api.mjs + .github/workflows/przeklad-tlumaczen.yml + docs/lokalizacja/kosztorys-przekladu-2026-10-23.md.
 // Różnice wobec wzoru (decyzja Claude, do weta, tablica 2026-11-02-jaratlas-09-skrypt-tlumaczen):
 //   - domyślnie TYLKO SZACUNEK; płatny batch wyłącznie z --wyslij (we wzorze odwrotnie: płatny bez --szacuj);
@@ -7,6 +7,7 @@
 //   - każde zdanie przechodzi kontrolę niezmienników (tools/i18n/niezmienniki.mjs): [T:ID], liczby, °F/°C, czasy, jednostki, nazwy własne;
 //   - wynik ma status „do przeglądu”; --zastosuj zapisuje do docs/tresci/przeklady/, NIGDY do docs/tresci/karty/ ani site/ (nie trafia na stronę).
 // Źródło: docs/tresci/karty/en/warianty/*.json (ze znacznikami [T:ID]) + karta pl jako drugi tekst odniesienia; slugi: site/slugi/en.json.
+// pl (en = baza, decyzja 2026-11-02-jaratlas-en-baza): tylko karty bez karty pl i slugi bez slugu pl (segmentyJezyka); istniejące karty pl zostają.
 // Klucz: wyłącznie zmienna środowiskowa ANTHROPIC_API_KEY (nigdy w logach, raporcie ani argumentach). Bez zależności npm (ADR 0001): fetch.
 // Użycie:
 //   node tools/i18n/przeklad-api.mjs                         — szacunek (bez klucza: przybliżenie; z kluczem: count_tokens, darmowe)
@@ -37,8 +38,8 @@ export const LIMIT_KOSZTU_USD = 2;
 export const MAX_TOKENS = 32000;
 export const CZEKAJ_MIN_DOMYSLNIE = 120;
 export const INTERWAL_S = 60;
-/** Fala 1 bez en i pl (CLAUDE.md: „fala 1: en, fr, es, de, it, pl”). */
-export const JEZYKI_DOCELOWE = ['fr', 'es', 'de', 'it'];
+/** Fala 1 bez en (źródło); pl tłumaczony jak inne języki od decyzji 2026-11-02-jaratlas-en-baza. */
+export const JEZYKI_DOCELOWE = ['fr', 'es', 'de', 'it', 'pl'];
 export const STATUS = 'do przeglądu';
 /** Założenia szacunku wyjścia (nie pomiar, zawyżone celowo): tokeny przekładu ≈ tokeny en × WSPOLCZYNNIK; obwiednia JSON na segment; myślenie na żądanie. */
 export const ZALOZENIA = { obwiednia: 20, myslenie: 8000 };
@@ -47,7 +48,7 @@ const API = 'https://api.anthropic.com/v1';
 const WERSJA_API = '2023-06-01';
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const czytaj = (p) => JSON.parse(readFileSync(p, 'utf8'));
-const NAZWY = { fr: 'francuski (French)', es: 'hiszpański (Spanish, Spain)', de: 'niemiecki (German)', it: 'włoski (Italian)' };
+const NAZWY = { fr: 'francuski (French)', es: 'hiszpański (Spanish, Spain)', de: 'niemiecki (German)', it: 'włoski (Italian)', pl: 'polski (Polish)' };
 
 /** Maskowanie wyjścia (repozytorium i logi CI są publiczne; wzór: trening scripts/maskuj.mjs). */
 export const maskuj = (tekst, klucz = '') => {
@@ -80,16 +81,21 @@ export function wczytajZrodlo(root) {
     zrodla[`karta/${wariant}`] = { plik: `docs/tresci/karty/en/warianty/${n}`, sha256: sha(tekst) };
     const plPlik = join(root, 'docs/tresci/karty/pl/warianty', n);
     const pl = existsSync(plPlik) ? Object.fromEntries(segmenty(czytaj(plPlik), wariant).map((s) => [s.id, s.en])) : {};
-    for (const s of segmenty(JSON.parse(tekst), wariant)) seg.push({ ...s, pl: pl[s.id] ?? null });
+    const istniejePl = existsSync(plPlik);
+    for (const s of segmenty(JSON.parse(tekst), wariant)) seg.push({ ...s, pl: pl[s.id] ?? null, istniejePl });
   }
   const slugPlik = join(root, 'site/slugi/en.json');
   if (existsSync(slugPlik)) {
     const tekst = readFileSync(slugPlik, 'utf8'); const sl = JSON.parse(tekst);
     zrodla.slug = { plik: 'site/slugi/en.json', sha256: sha(tekst) };
-    for (const grupa of ['produkty', 'warianty']) for (const [k, v] of Object.entries(sl[grupa] ?? {})) seg.push({ id: `slug/${grupa}/${k}`, en: v, pl: null });
+    const plSl = existsSync(join(root, 'site/slugi/pl.json')) ? czytaj(join(root, 'site/slugi/pl.json')) : {};
+    for (const grupa of ['produkty', 'warianty']) for (const [k, v] of Object.entries(sl[grupa] ?? {})) seg.push({ id: `slug/${grupa}/${k}`, en: v, pl: null, istniejePl: typeof plSl[grupa]?.[k] === 'string' });
   }
   return { segmenty: seg, zrodla };
 }
+
+/** Segmenty do przekładu na dany język: dla pl tylko te bez istniejącej wersji pl (przejrzane karty pl nie są tłumaczone ponownie). */
+export const segmentyJezyka = (kod, seg) => (kod === 'pl' ? seg.filter((s) => !s.istniejePl) : seg);
 
 /* ---------- żądanie ---------- */
 export const SYSTEM = [
@@ -247,7 +253,7 @@ export function zastosuj(root, katalog, { nadpisz = false } = {}) {
     const prop = r.propozycje ?? {}; const cel = join(root, 'docs/tresci/przeklady', kod); wynik.jezykow++;
     const meta = { status: STATUS, jezyk: kod, przeklad: { model: r.model, effort: r.effort, batch_id: r.batch_id, data: r.data } };
     const grupy = new Map();
-    for (const x of seg) { const g = x.id.startsWith('slug/') ? 'slug' : x.id.split('/').slice(0, 2).join('/'); if (!grupy.has(g)) grupy.set(g, []); grupy.get(g).push(x); }
+    for (const x of segmentyJezyka(kod, seg)) { const g = x.id.startsWith('slug/') ? 'slug' : x.id.split('/').slice(0, 2).join('/'); if (!grupy.has(g)) grupy.set(g, []); grupy.get(g).push(x); }
     for (const [g, xs] of grupy) {
       const nazwa = g === 'slug' ? 'slugi' : g.split('/')[1];
       if ((r.zrodla?.[g]?.sha256) !== zrodla[g].sha256) { wynik.pominiete.push(`${kod}/${nazwa}: źródło zmienione po przekładzie (nowy przekład)`); continue; }
@@ -315,14 +321,17 @@ export async function main(argv, env, { fetchFn = fetch, log = console.log, root
   const klucz = env.ANTHROPIC_API_KEY || '';
   const api = klucz ? klient(fetchFn, klucz) : null;
   const { segmenty: seg, zrodla } = wczytajZrodlo(root);
-  const kody = o.jezyki;
+  const segK = Object.fromEntries(o.jezyki.map((k) => [k, segmentyJezyka(k, seg)]));
+  for (const k of o.jezyki) if (!segK[k].length) log(`${k}: 0 segmentów do przekładu (wszystko ma już wersję ${k}), język pominięty`);
+  const kody = o.jezyki.filter((k) => segK[k].length);
   log(`segmentów: ${seg.length} (karty i slugi en); języków: ${kody.length} (${kody.join(', ')}); model ${o.model}, effort ${o.effort}`);
+  if (!kody.length) { log('nic do przekładu: nic nie wysłano'); return 0; }
   mkdirSync(o.wyjscie, { recursive: true });
-  const zadania = kody.map((k) => budujZadanieBatcha(k, seg, o));
+  const zadania = kody.map((k) => budujZadanieBatcha(k, segK[k], o));
 
   if (!o.wznow) {
     const wiersze = [];
-    for (const [i, k] of kody.entries()) { const w = wiersz(k, seg, o.model); if (api) w.we = await api.liczTokeny(o.model, zadania[i].params); wiersze.push(w); }
+    for (const [i, k] of kody.entries()) { const w = wiersz(k, segK[k], o.model); if (api) w.we = await api.liczTokeny(o.model, zadania[i].params); wiersze.push(w); }
     const s = szacunek(wiersze, o.model);
     const zrodlo = api ? 'count_tokens (wejście), wyjście z założeń' : 'przybliżenie bez klucza (wejście i wyjście z założeń)';
     log(`SZACUNEK (${zrodlo}, Batch −${RABAT_BATCH * 100}%): wejście ${s.tokeny_we}, wyjście ${s.tokeny_wy} tokenów; ${Object.entries(s.koszt_wg_modelu).map(([m, c]) => `${m} ≈ ${c.toFixed(2)} USD`).join(', ')}; najgorszy przypadek ${o.model} ${s.koszt_max_usd.toFixed(2)} USD`);
@@ -340,7 +349,7 @@ export async function main(argv, env, { fetchFn = fetch, log = console.log, root
   const linie = (await api.wyniki(batch.results_url)).split('\n').filter((l) => l.trim());
   const odczyty = Object.fromEntries(linie.map((l) => { const r = odczytajLinie(l); return [r.kod, r]; }));
   const meta = { model: o.model, effort: o.effort, batch_id: id, data: teraz().toISOString().slice(0, 10), zrodla };
-  const raporty = kody.map((k) => raportJezyka(k, seg, odczyty[k] ?? { blad: 'brak wyniku w batchu', tekst: null }, meta));
+  const raporty = kody.map((k) => raportJezyka(k, segK[k], odczyty[k] ?? { blad: 'brak wyniku w batchu', tekst: null }, meta));
   for (const r of raporty) writeFileSync(join(o.wyjscie, `${r.jezyk}.json`), JSON.stringify(r, null, 1) + '\n');
   writeFileSync(join(o.wyjscie, 'podsumowanie.md'), podsumowanieMd(raporty, meta));
   log(`raport: ${o.wyjscie}/ (${raporty.length} języków, odrzucone segmenty: ${raporty.reduce((s, r) => s + r.odrzucone.length, 0)}; status „${STATUS}”)`);
