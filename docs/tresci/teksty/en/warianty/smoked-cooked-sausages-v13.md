@@ -52,7 +52,7 @@ NCHFP gives a shorter limit for raw red meat: keep it at 40 °F (about 4 °C) or
 
 The FDA storage chart gives raw sausage from pork, beef, chicken or turkey 1–2 days in the refrigerator at 40 °F (4 °C). [T:MIE-137]
 
-JarAtlas rule (cautious): use raw fresh sausage within 2 days, the shortest of these limits, or freeze it. [T:MIE-137,MIE-110,MIE-028]
+JarAtlas rule (cautious): use raw fresh sausage within 2 days, the FDA limit and the shortest of these sources, or freeze it. [T:MIE-137,MIE-110,MIE-028]
 
 ## When to throw it away
 

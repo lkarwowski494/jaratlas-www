@@ -25,12 +25,17 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "5413070c7f9b"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "06 p35 (tor A), P3 z p33/p34 §5",
   "jednoZrodlo": false,
-  "twierdzenie_en": "NCHFP (boiling-water canning): during processing the water level must be at least 1 inch (about 2.5 cm) above the jar tops, and for process times over 30 minutes 2 inches (about 5 cm) above the jars; if needed, add more boiling water, pouring it around the jars, not onto them."
+  "twierdzenie_en": "NCHFP (boiling-water canning): during processing the water level must be at least 1 inch (about 2.5 cm) above the jar tops, and for process times over 30 minutes 2 inches (about 5 cm) above the jars; if needed, add more boiling water, pouring it around the jars, not onto them.",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-954",
@@ -49,12 +54,17 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "a418414475b8"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "06 p35 (tor A), P3 z p33/p34 §5",
   "jednoZrodlo": false,
-  "twierdzenie_en": "NCHFP (boiling-water canning): start timing the processing only once the water is boiling."
+  "twierdzenie_en": "NCHFP (boiling-water canning): start timing the processing only once the water is boiling.",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-955",
@@ -134,11 +144,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "22f805cef72e"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-957",
@@ -185,11 +200,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "b45e80ba8d26"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-958",
@@ -245,11 +265,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "37171edd3a70"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-959",
@@ -278,11 +303,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "d1953180226b"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-001",
@@ -599,14 +629,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "a34820ce33d6"
+   "data": "2026-11-02",
+   "sha": "27091fb004e2"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
   "brzmienieE2": "Nie robić kiszonej kapusty ani kiszonych ogórków ze zmniejszoną ilością soli (cytat sprawdzony dosłownie; zgodny z research 27).",
   "weryfikacjaE3": "Treść zgodna z NCHFP i PSU; w brzmieniu jest nota redakcyjna („cytat sprawdzony…, research 27”), która nie należy do twierdzenia.",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-012",
@@ -672,7 +702,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "e0cd22596edf"
+   "sha": "5a220f8227d0"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
@@ -781,7 +811,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "2ef8396175f2"
+   "sha": "7c91b8986b60"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
@@ -902,15 +932,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "f8d09c4b488d"
+   "data": "2026-11-02",
+   "sha": "595560be6e91"
   },
   "wazne_do": "2027-11-01",
   "wielkosc": "warstwa solanki nad warzywami",
   "wartosc": 1,
   "jednostka": "cal",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-022",
@@ -1157,12 +1187,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e56aa78a5884"
+   "data": "2026-11-02",
+   "sha": "ff2a93466cd1"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-030",
@@ -1183,12 +1213,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "fe5c0d7b3e7b"
+   "data": "2026-11-02",
+   "sha": "da260e0e6fd7"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-031",
@@ -1209,15 +1239,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "b506238b7d21"
+   "data": "2026-11-02",
+   "sha": "5ce2efbbcc34"
   },
   "wazne_do": "2027-11-01",
   "wielkosc": "sól w kapuście (wagowo)",
   "wartosc": 2.25,
   "jednostka": "%",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-032",
@@ -1318,15 +1348,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "82721a8c7ed9"
+   "data": "2026-11-02",
+   "sha": "e2e253e783ff"
   },
   "wazne_do": "2027-11-01",
   "wielkosc": "temperatura fermentacji kapusty",
   "wartosc": 75,
   "jednostka": "°F",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-035",
@@ -1356,12 +1386,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "7ed58b73a228"
+   "data": "2026-11-02",
+   "sha": "ef944433fa9b"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-036",
@@ -1382,12 +1412,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "45a286b0a855"
+   "data": "2026-11-02",
+   "sha": "dac8fbef84ac"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-037",
@@ -1408,12 +1438,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "02aa4eab6a62"
+   "data": "2026-11-02",
+   "sha": "26cfe38dad79"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-038",
@@ -1538,7 +1568,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "96c641920b56"
+   "sha": "99d4a04f8a31"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
@@ -1572,15 +1602,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "c4bc1f41aa6a"
+   "data": "2026-11-02",
+   "sha": "c52885a410bf"
   },
   "wazne_do": "2027-11-01",
   "wielkosc": "temperatura fermentacji ogórków",
   "wartosc": 80,
   "jednostka": "°F",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-044",
@@ -1610,12 +1640,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "ae17351d7f8a"
+   "data": "2026-11-02",
+   "sha": "4bdf0fd91f40"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-045",
@@ -1636,12 +1666,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "308f77fd6a84"
+   "data": "2026-11-02",
+   "sha": "1d0f5421c4e7"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-046",
@@ -1671,12 +1701,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "ea36cd1dc8f0"
+   "data": "2026-11-02",
+   "sha": "208d14faaa36"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-047",
@@ -1892,14 +1922,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "de9aac926e9a"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
   "brzmienieE2": "Przemysł (USDA-ARS, recenzowane): solanki do masowego kiszenia ogórków wyrównują się do co najmniej 5% NaCl; 2% NaCl to stężenie stosowane dla kapusty i innych warzyw gotowych do spożycia. Żadne przeczytane źródło nie testuje domowych ogórków 2% bez octu ani małosolnych.",
   "weryfikacjaE3": "Liczby z prac ARS zgodne (≥5% NaCl w przemysłowych ogórkach; 2% dla kapusty i innych warzyw RTE); ostatnie zdanie to nota redakcyjna bez źródła i należy do pola uproszczenie.",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-054",
@@ -1966,12 +1996,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "4e808fcf2c3b"
+   "data": "2026-11-02",
+   "sha": "fc45fee9b741"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-056",
@@ -2027,12 +2057,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "58f0b8201d68"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-058",
@@ -2160,15 +2190,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "bee7ea4a57ca"
   },
   "wazne_do": "2027-11-01",
   "wielkosc": "sól w kimchi (CSU)",
   "wartosc": 5,
   "jednostka": "%",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-062",
@@ -2198,15 +2228,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "809c4ad97e3d"
   },
   "wazne_do": "2027-11-01",
   "wielkosc": "temperatura przechowywania kimchi",
   "wartosc": 41,
   "jednostka": "°F",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-063",
@@ -2227,12 +2257,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "b97610362e50"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-064",
@@ -2253,12 +2283,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "dfdf8322faf0"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-065",
@@ -2318,12 +2348,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "27aab1a8ad77"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-067",
@@ -3583,7 +3613,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "fc64026c5ac5"
+   "sha": "750a0dd2d938"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -3661,7 +3691,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "d7a6d56e30a6"
+   "sha": "1123bbd56c64"
   },
   "wielkosc": "kwasowość octu",
   "wartosc": 5,
@@ -4101,15 +4131,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "51e2198f8b1c"
   },
   "wielkosc": "czas w temp. pokojowej",
   "wartosc": 2,
   "jednostka": "h",
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-035",
@@ -13195,7 +13225,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "2e7148011be8"
+   "sha": "7e4e421aa4df"
   },
   "wielkosc": "czas przechowywania w lodówce",
   "wartosc": 4,
@@ -13590,7 +13620,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "92b45e02c9b4"
+   "sha": "da9962130fa8"
   },
   "wazne_do": "2027-11-01",
   "klaster": "OLE",
@@ -13642,7 +13672,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "7e0fcbe36cb8"
+   "sha": "594ce3171bcb"
   },
   "wielkosc": "czas przechowywania w lodówce",
   "wartosc": 4,
@@ -13680,7 +13710,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "00a62795a40e"
+   "sha": "72b810a042a8"
   },
   "wazne_do": "2027-11-01",
   "klaster": "OLE",
@@ -13715,7 +13745,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "fa06137f3c3e"
+   "sha": "71ecaad3cb22"
   },
   "wazne_do": "2027-11-01",
   "klaster": "OLE",
@@ -13804,7 +13834,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "29829fe258ac"
+   "sha": "b1f0be9336dc"
   },
   "wielkosc": "pH graniczne",
   "wartosc": 4.6,
@@ -13909,7 +13939,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "2b7ecaf1453c"
+   "sha": "c0aefd006cc3"
   },
   "klaster": "OLE",
   "weryfikacjaZastepcza": "2026-11-02"
@@ -18467,15 +18497,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "690bcdc5c089"
   },
   "wielkosc": "pH startera",
   "wartosc": 4,
   "jednostka": "pH",
   "wazne_do": "2027-11-01",
   "klaster": "NAP",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-002",
@@ -18496,15 +18526,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "24b466e9dc7a"
   },
   "wielkosc": "czas fermentacji F1",
   "wartosc": "7-10",
   "jednostka": "dni",
   "wazne_do": "2027-11-01",
   "klaster": "NAP",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-003",
@@ -18525,15 +18555,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "6938bcd1d8f7"
   },
   "wielkosc": "przechowywanie w lodówce",
   "wartosc": 30,
   "jednostka": "dni",
   "wazne_do": "2027-11-01",
   "klaster": "NAP",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-004",
@@ -18554,12 +18584,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "93368ee7ddff"
   },
   "wazne_do": "2027-11-01",
   "klaster": "NAP",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-005",
@@ -18580,15 +18610,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "84aa45c8ba83"
   },
   "wielkosc": "trwałość kombuchy z dodatkami",
   "wartosc": 2,
   "jednostka": "dni",
   "wazne_do": "2027-11-01",
   "klaster": "NAP",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-006",
@@ -18609,15 +18639,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "3160cf28b250"
   },
   "wielkosc": "temperatura herbaty przy zaszczepieniu",
   "wartosc": 95,
   "jednostka": "°F",
   "wazne_do": "2027-11-01",
   "klaster": "NAP",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-007",
@@ -18647,12 +18677,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "e5938194814a"
   },
   "wazne_do": "2027-11-01",
   "klaster": "NAP",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-008",
@@ -18708,12 +18738,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "2299dddf0ad8"
   },
   "wazne_do": "2027-11-01",
   "klaster": "NAP",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-010",
@@ -18734,14 +18764,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "25e2ea17c98f"
   },
   "wielkosc": "alkohol · NAP-010",
   "wartosc": 0.5,
   "jednostka": "% obj.",
   "klaster": "NAP",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-011",
@@ -18887,15 +18917,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "2a47fe146548"
   },
   "wielkosc": "pH produktu",
   "wartosc": "2.5-4.2",
   "jednostka": "pH",
   "wazne_do": "2027-11-01",
   "klaster": "NAP",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-016",
@@ -18945,15 +18975,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "eb4692bcfdab"
   },
   "wielkosc": "czas fermentacji (górna granica)",
   "wartosc": 10,
   "jednostka": "dni",
   "wazne_do": "2027-11-01",
   "klaster": "NAP",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-018",
@@ -18983,15 +19013,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "d544457a1cb9"
   },
   "wielkosc": "czas dojścia do pH 4,2",
   "wartosc": 7,
   "jednostka": "dni",
   "wazne_do": "2027-11-01",
   "klaster": "NAP",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-019",
@@ -19059,14 +19089,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "cb51d30eaec1"
   },
   "wazne_do": "2027-11-01",
   "klaster": "NAP",
   "brzmienieE2": "Przy pierwszym nastawie należy użyć kupionej kultury (SCOBY) z handlu; kolejne można zaszczepiać z poprzednich partii bez pleśni.",
   "weryfikacjaE3": "Treść zgodna, ale to zasada z wytycznych NY dla producentów (Process Flow), a twierdzenie podaje ją bez jurysdykcji.",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-021",
@@ -19087,11 +19117,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "fcd5a8b744e1"
   },
   "klaster": "NAP",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-022",
@@ -19121,14 +19151,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "6f27d6d221f6"
   },
   "wielkosc": "porcja dzienna",
   "wartosc": 4,
   "jednostka": "fl oz",
   "klaster": "NAP",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-023",
@@ -20632,11 +20662,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "64cddf665954"
   },
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-005",
@@ -20831,11 +20861,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "9026cc86d5b9"
   },
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-012",
@@ -20865,11 +20895,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "4b7d341321f4"
   },
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-013",
@@ -20899,11 +20929,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "5521bbb851c6"
   },
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-014",
@@ -20949,11 +20979,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "6e4849b061a0"
   },
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-016",
@@ -20974,11 +21004,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "067d021156d6"
   },
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-017",
@@ -21094,7 +21124,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "e90e58b7dabc"
+   "sha": "c789941f6e84"
   },
   "wielkosc": "pH · MLE-021",
   "wartosc": 4.6,
@@ -21213,14 +21243,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "759def817419"
   },
   "wielkosc": "czas inkubacji jogurtu",
   "wartosc": 10,
   "jednostka": "h",
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-027",
@@ -21241,14 +21271,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "e2ff8e87f762"
   },
   "wielkosc": "temperatura lodówki",
   "wartosc": 4.4,
   "jednostka": "°C",
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-028",
@@ -21269,14 +21299,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "ea048a6de61b"
   },
   "wielkosc": "okres przydatności jogurtu w lodówce",
   "wartosc": 14,
   "jednostka": "dni",
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-029",
@@ -21617,11 +21647,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "7021a38d2373"
   },
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-044",
@@ -21667,11 +21697,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "24b58805fbd1"
   },
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-046",
@@ -21701,11 +21731,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "b20d0970a68d"
   },
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-047",
@@ -21726,11 +21756,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "7077b111d6f6"
   },
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-048",
@@ -21751,14 +21781,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "2ba41c5d571a"
   },
   "wielkosc": "temperatura wewnętrzna przy podgrzewaniu sera świeżego",
   "wartosc": 74,
   "jednostka": "°C",
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-049",
@@ -21779,11 +21809,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "c48150bb9567"
   },
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-050",
@@ -21804,14 +21834,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "128596ffd76b"
   },
   "wielkosc": "trwałość sera miękkiego w lodówce",
   "wartosc": 7,
   "jednostka": "dni",
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-051",
@@ -21857,14 +21887,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "a1e1513c8f13"
   },
   "wielkosc": "trwałość queso fresco w lodówce",
   "wartosc": 7,
   "jednostka": "dni",
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-053",
@@ -21925,11 +21955,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "f5781d2e49f7"
   },
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-056",
@@ -21950,14 +21980,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "5a450b535046"
   },
   "wielkosc": "trwałość mozzarelli w lodówce",
   "wartosc": 7,
   "jednostka": "dni",
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-057",
@@ -21987,14 +22017,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "c69aa95cd2c0"
   },
   "wielkosc": "trwałość mozzarelli w lodówce",
   "wartosc": 7,
   "jednostka": "dni",
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01",
+  "weryfikacjaZastepcza": "2026-11-02",
   "twierdzenie_en": "Citric-acid mozzarella (UC ANR, after Univ. of Alaska FNH-00063): keep it in an airtight container or wrapped in plastic wrap in the refrigerator and eat it within a week, or freeze it for up to a month."
  },
  {
@@ -22036,14 +22066,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "b601ed76fd3a"
   },
   "wielkosc": "trwałość ricotty w lodówce",
   "wartosc": 7,
   "jednostka": "dni",
   "klaster": "MLE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-060",
@@ -22414,11 +22444,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "75bfff73f026"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MLE",
   "pochodzenie": "06 p35 (tor B)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-077",
@@ -22471,11 +22506,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "89ece261ba5f"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MLE",
   "pochodzenie": "06 p35 (tor B)",
-  "jednoZrodlo": false
+  "jednoZrodlo": false,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-079",
@@ -22537,11 +22577,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "3a3454302ec4"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MLE",
   "pochodzenie": "06 p35 (tor B)",
-  "jednoZrodlo": false
+  "jednoZrodlo": false,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-081",
@@ -22570,11 +22615,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "9a1f8e1c2666"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MLE",
   "pochodzenie": "06 p35 (tor B)",
-  "jednoZrodlo": false
+  "jednoZrodlo": false,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-082",
@@ -22603,11 +22653,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "07e539a47aad"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MLE",
   "pochodzenie": "06 p35 (tor B)",
-  "jednoZrodlo": false
+  "jednoZrodlo": false,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-083",
@@ -22627,11 +22682,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "e5afe7baf32e"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MLE",
   "pochodzenie": "06 p35 (tor B)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-084",
@@ -22651,11 +22711,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "c8e5025a3eb0"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MLE",
   "pochodzenie": "06 p35 (tor B)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-085",
@@ -22675,11 +22740,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "38f2832bc479"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MLE",
   "pochodzenie": "06 p35 (tor B)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-086",
@@ -22699,11 +22769,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "fe4000314576"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MLE",
   "pochodzenie": "06 p35 (tor B)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-087",
@@ -22723,11 +22798,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "25577f10c8d4"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MLE",
   "pochodzenie": "06 p35 (tor B)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-088",
@@ -22747,11 +22827,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "229b5a8227a6"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MLE",
   "pochodzenie": "06 p35 (tor B)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MLE-089",
@@ -22771,11 +22856,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "ba9af693db20"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MLE",
   "pochodzenie": "06 p35 (tor B)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-001",
@@ -22979,15 +23069,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "8178e810860d"
   },
   "wielkosc": "azotyny_pozostalosc_UE",
   "wartosc": 45,
   "jednostka": "mg/kg NO2",
   "wazne_do": "2027-11-01",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-008",
@@ -23008,15 +23098,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "908dcae29dae"
   },
   "wielkosc": "azotyny_dodane_UE_08.3.2",
   "wartosc": 80,
   "jednostka": "mg/kg NO2",
   "wazne_do": "2027-11-01",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-009",
@@ -23066,12 +23156,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "b2922414ea37"
   },
   "wazne_do": "2027-11-01",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-011",
@@ -23092,11 +23182,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "8ec9a7d8a19f"
   },
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-012",
@@ -23117,11 +23207,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "e90b4075a86c"
   },
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-013",
@@ -23337,14 +23427,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "96e01430b9ff"
   },
   "wielkosc": "temperatura_wewnetrzna_kielbasy",
   "wartosc": 160,
   "jednostka": "°F",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-022",
@@ -23471,14 +23561,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "62cb17586e07"
   },
   "wielkosc": "temperatura_zabijajaca_wlosnie",
   "wartosc": 144,
   "jednostka": "°F",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-027",
@@ -23524,14 +23614,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "8912b44000d5"
   },
   "wielkosc": "lodowka_kielbasa_swieza",
   "wartosc": 10,
   "jednostka": "dni",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-029",
@@ -23603,11 +23693,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "a29f7e601ffe"
   },
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-032",
@@ -24008,15 +24098,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "f6ebcd8038b8"
   },
   "wielkosc": "zamrazanie_ryb_FDA",
   "wartosc": 7,
   "jednostka": "dni w -20°C",
   "wazne_do": "2027-11-01",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-047",
@@ -24089,12 +24179,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "f6fea91a03a3"
   },
   "wazne_do": "2027-11-01",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-050",
@@ -24250,13 +24340,13 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "0ad078e220d6"
   },
   "klaster": "MIE",
   "brzmienieE2": "Ryby do marynowania: najlepiej mrożone przemysłowo; zamrażane w domu trzymać zamrożone co najmniej 4 dni.",
   "weryfikacjaE3": "Cytat Wisconsin Sea Grant jest dokładny (bez podanej temperatury), ale 4 dni domowego mrożenia to mniej niż granica szczebla 1 (FDA: -20°C przez 7 dni; UE: -20°C w całej masie przez 24 h). Bez zastrzeżenia twierdzenie przesuwa granicę w stronę niebezpieczną.",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-056",
@@ -24277,11 +24367,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "5b5498809574"
   },
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-057",
@@ -24302,11 +24392,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "b92c91868a0d"
   },
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-058",
@@ -24327,14 +24417,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "34a6a401c78f"
   },
   "wielkosc": "lodowka_gravlax",
   "wartosc": 7,
   "jednostka": "dni",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-059",
@@ -24410,12 +24500,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "24433ca75782"
   },
   "wazne_do": "2027-11-01",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-062",
@@ -24637,8 +24727,8 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "5aea9139d346"
   },
   "wielkosc": "dlugosc_ryby_niewypatroszonej",
   "wartosc": 5,
@@ -24647,7 +24737,7 @@
   "klaster": "MIE",
   "brzmienieE2": "FDA: działania wobec każdej niewypatroszonej ryby dłuższej niż 5 cali, solonej, suszonej lub wędzonej.",
   "weryfikacjaE3": "Twierdzenie jest niepełne: FDA „rozważy działania regulacyjne (zajęcie lub zatrzymanie)” w obrocie międzystanowym, także wobec produktów z takich ryb.",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-070",
@@ -24694,14 +24784,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "85162be79b2b"
   },
   "wielkosc": "temperatura_wewnetrzna_wedzenie_ryb_dom",
   "wartosc": 160,
   "jednostka": "°F przez 30 min",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-072",
@@ -24742,13 +24832,13 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "34cb26fffc7f"
   },
   "klaster": "MIE",
   "brzmienieE2": "Ryby wędzone przechowywać w lodówce (40°F lub niżej) nie dłużej niż miesiąc albo zamrozić do 4 miesięcy.",
   "weryfikacjaE3": "Cytat Wisconsin Sea Grant dokładny (do miesiąca w lodówce, do 4 miesięcy zamrożone), ale UIdaho (MIE-074, ten sam szczebel) ogranicza lodówkę do 2 tygodni. Uproszczenie przyjmuje 2 tygodnie, a brzmienie twierdzenia zostało przy miesiącu. Wybrać ostrożniejszą granicę.",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-074",
@@ -24769,14 +24859,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "5f77aae0e76f"
   },
   "wielkosc": "lodowka_ryba_wedzona",
   "wartosc": 2,
   "jednostka": "tygodnie",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-075",
@@ -24797,13 +24887,13 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "e0868a8c4dce"
   },
   "klaster": "MIE",
   "brzmienieE2": "Gotowe do jedzenia ryby wędzone osiągają temperaturę wewnętrzną 150–160°F przez co najmniej 30 minut.",
   "weryfikacjaE3": "UIdaho mówi o temperaturze wymaganej dla produktów gotowych do jedzenia (150–160°F przez co najmniej 30 min), a twierdzenie brzmi opisowo („osiągają”). Dolna granica 150°F jest niżej niż 160°F u Wisconsin Sea Grant (MIE-071).",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-076",
@@ -24824,11 +24914,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "9ccbd5cbdace"
   },
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-077",
@@ -24874,11 +24964,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "9af2541c896f"
   },
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-079",
@@ -24899,11 +24989,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "c42cfb5b2ec5"
   },
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-080",
@@ -24924,14 +25014,14 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "dea42ff56c1a"
   },
   "wielkosc": "lodowka_ryba_marynowana",
   "wartosc": 6,
   "jednostka": "tygodnie",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-081",
@@ -24972,12 +25062,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "02f4beae2cbc"
   },
   "wazne_do": "2027-11-01",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-083",
@@ -24998,12 +25088,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "8d5fa0173327"
   },
   "wazne_do": "2027-11-01",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-084",
@@ -25024,15 +25114,15 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "51e2198f8b1c"
   },
   "wielkosc": "jaja_marynowane_poza_lodowka",
   "wartosc": 2,
   "jednostka": "h",
   "wazne_do": "2027-11-01",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-085",
@@ -25095,12 +25185,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "3a20d130b337"
   },
   "wazne_do": "2027-11-01",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-088",
@@ -25121,12 +25211,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "2695b7f196b8"
   },
   "wazne_do": "2027-11-01",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-089",
@@ -25147,12 +25237,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "785e4291256f"
   },
   "wazne_do": "2027-11-01",
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-090",
@@ -25173,11 +25263,11 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e3b0c44298fc"
+   "data": "2026-11-02",
+   "sha": "af5071c7a90e"
   },
   "klaster": "MIE",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-091",
@@ -26627,12 +26717,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "cf71e26ef08f"
+   "data": "2026-11-02",
+   "sha": "3983c531e113"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-096",
@@ -26653,12 +26743,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "c4a126d71f37"
+   "data": "2026-11-02",
+   "sha": "493760de7a93"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-097",
@@ -26697,12 +26787,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "1829a3130070"
+   "data": "2026-11-02",
+   "sha": "763879fb2ab4"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-098",
@@ -26723,12 +26813,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "e7dcc4d7c0cb"
+   "data": "2026-11-02",
+   "sha": "4fff9af64b39"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-099",
@@ -26749,12 +26839,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "b1beabeec67c"
+   "data": "2026-11-02",
+   "sha": "c9d7d4b0bd0a"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-100",
@@ -26775,12 +26865,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "048cb0773201"
+   "data": "2026-11-02",
+   "sha": "83890081fe9d"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-101",
@@ -26801,12 +26891,12 @@
   "krytyczne": true,
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
-   "data": "2026-11-01",
-   "sha": "95867f8beb1f"
+   "data": "2026-11-02",
+   "sha": "ffa478d27d02"
   },
   "wazne_do": "2027-11-01",
   "klaster": "FER",
-  "weryfikacjaZastepcza": "2026-11-01"
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-171",
@@ -26924,7 +27014,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "af370a194354"
+   "sha": "52e4a201e69d"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -26950,7 +27040,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "278fbe59a585"
+   "sha": "c5a5d7acd7b6"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -26981,7 +27071,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "f67e42b68c7f"
+   "sha": "cdf859c56f81"
   },
   "wazne_do": "2027-11-01",
   "klaster": "ACI",
@@ -28919,7 +29009,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "432988104646"
+   "sha": "3775effbf0ee"
   },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
@@ -28945,7 +29035,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "432988104646"
+   "sha": "3775effbf0ee"
   },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
@@ -29007,7 +29097,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "b25b2bd1c279"
+   "sha": "edd81a132add"
   },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
@@ -45313,7 +45403,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "a759a7eeb786"
+   "sha": "0efc23b94674"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -46005,7 +46095,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "abb9e76c7317"
+   "sha": "de5fb79e2938"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -49652,7 +49742,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "40ac464adf73"
+   "sha": "8f85354d12c5"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SUS",
@@ -49682,7 +49772,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "d4c6b133f7f1"
+   "sha": "0b5f6dda43f2"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SUS",
@@ -50188,7 +50278,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "52b0974bd557"
+   "sha": "ee00bb205bf5"
   },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
@@ -50358,7 +50448,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "5a1370a261c5"
+   "sha": "092e7df9b7aa"
   },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
@@ -50446,7 +50536,7 @@
  {
   "id": "MIE-131",
   "twierdzenie": "NCHFP Pickled Eggs: każdy przepis jest na 12 obranych jaj na twardo; wszystkie składniki oprócz jaj doprowadza się do wrzenia, zmniejsza ogień i gotuje 5 minut; do ciepłego, wcześniej wysterylizowanego słoika quart (lub podobnego, szczelnie zamykanego pojemnika) wkłada się luźno nie więcej niż tuzin jaj; zalewy musi być dużo, tyle, żeby całkowicie przykryła jaja; gorącą zalewę wylewa się na jaja, zamyka i od razu wstawia do lodówki.",
-  "twierdzenie_en": "NCHFP Pickled Eggs: each recipe uses 12 peeled, hard-cooked eggs; bring all the ingredients except the eggs to a boil, reduce the heat and simmer for 5 minutes; pack no more than one dozen eggs loosely into a warm, pre-sterilized quart jar (or a similar container that can be closed tightly); there must be plenty of pickling solution, enough to cover the eggs completely; pour the hot solution over the eggs, cover and refrigerate immediately.",
+  "twierdzenie_en": "NCHFP Pickled Eggs: each recipe uses 12 peeled, hard-cooked eggs; bring all the ingredients except the eggs to a boil, reduce the heat and simmer for 5 minutes; pack no more than one dozen eggs loosely into a warm, pre-sterilized quart jar (or another container of similar size that can be closed tightly); there must be plenty of pickling solution, enough to cover the eggs completely; pour the hot solution over the eggs, cover and refrigerate immediately.",
   "zrodla": [
    {
     "adres": "https://nchfp.uga.edu/how/pickle/pickled-eggs/pickled-eggs/",
@@ -50479,11 +50569,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "bb287c738cc5"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-132",
@@ -50575,11 +50670,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "efbe3a2c0ae6"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-133",
@@ -50617,11 +50717,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "98c3ddc13b80"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-134",
@@ -50659,11 +50764,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "503743551090"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-135",
@@ -50692,17 +50802,26 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "cb4b4c7e2f66"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "0731765b3620"
+  },
   "wazne_do": "2027-11-02",
   "pochodzenie": "06 p35 (tor A), po V1-C D-027 d",
   "jednoZrodlo": true,
@@ -50729,13 +50848,18 @@
     "weryfikacja": "pdftotext -layout + grep -F",
     "sha12": "a5ab2d48cb28"
    }
-  ]
+  ],
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "3dd9e9b54959"
+  },
   "wazne_do": "2027-11-02",
   "pochodzenie": "06 p35 (tor A), po V1-C D-027 d",
   "jednoZrodlo": true,
@@ -50771,7 +50895,8 @@
     "weryfikacja": "pdftotext -layout, normalizacja spacji + grep -F",
     "sha12": "f987330d7e8a"
    }
-  ]
+  ],
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-138",
@@ -50827,11 +50952,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "a08d0a044f39"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-139",
@@ -50878,11 +51008,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "870742a8d185"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-140",
@@ -50929,11 +51064,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "a19edd80dd5f"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-141",
@@ -50980,11 +51120,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "05218cad1a83"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-142",
@@ -51013,11 +51158,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "8c3eef0f391f"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-143",
@@ -51064,11 +51214,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "60f31903cbad"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-144",
@@ -51124,11 +51279,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "718e4b3f0aa2"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-145",
@@ -51175,11 +51335,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "68f00127eca8"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-146",
@@ -51253,11 +51418,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "00353255882b"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-147",
@@ -51286,11 +51456,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "df86fd4782a6"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-148",
@@ -51337,11 +51512,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "1f5618723f60"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "MIE-149",
@@ -51397,11 +51577,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "80286f3b44a8"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "MIE",
   "pochodzenie": "06 p35 (tor C)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-309",
@@ -57930,7 +58115,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "2e2887f2dcd2"
+   "sha": "e3155448cfd5"
   },
   "wazne_do": "2027-11-02",
   "klaster": "OLE",
@@ -58020,11 +58205,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "2bf1b94916e5"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "NAP",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-088",
@@ -58071,11 +58261,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "89d547754e7f"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "NAP",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "NAP-089",
@@ -58131,11 +58326,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "9708effe3b01"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "NAP",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-106",
@@ -58211,11 +58411,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "d46dbdee7a65"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "FER",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-108",
@@ -58235,11 +58440,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "a76cd1cb87db"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "FER",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-109",
@@ -58295,11 +58505,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "6eb1134e03a9"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "FER",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-110",
@@ -58319,11 +58534,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "f4c37d088510"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "FER",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-111",
@@ -58424,11 +58644,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "5ec8b9f67055"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "FER",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-112",
@@ -58493,11 +58718,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "a6123564f80f"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "FER",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-113",
@@ -58580,11 +58810,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "7ca95c41d470"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "FER",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-114",
@@ -58631,11 +58866,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "029943d81492"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "FER",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "FER-115",
@@ -58673,11 +58913,16 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "71aefe15eaab"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "FER",
   "pochodzenie": "06 p35 (tor A)",
-  "jednoZrodlo": true
+  "jednoZrodlo": true,
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-820",
@@ -59439,12 +59684,17 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "699d3a949d3e"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "ACI",
   "pochodzenie": "06 p35 (tor A), po V1 D-027 d",
   "jednoZrodlo": false,
-  "twierdzenie_en": "NCHFP (boiling-water canning): if the water stops boiling at any time during processing, turn the heat to its highest setting, bring the water back to a vigorous boil and time the whole process again from the beginning."
+  "twierdzenie_en": "NCHFP (boiling-water canning): if the water stops boiling at any time during processing, turn the heat to its highest setting, bring the water back to a vigorous boil and time the whole process again from the beginning.",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SUS-358",
@@ -59539,12 +59789,17 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "b4d0b0b9b650"
+  },
   "wazne_do": "2027-11-02",
   "klaster": "SUS",
   "pochodzenie": "06 p35 (tor A), D4-5-01 (D1 p4)",
   "jednoZrodlo": false,
-  "twierdzenie_en": "FDA (Bad Bug Book): raw or undercooked beans, particularly red kidney beans, can cause extreme nausea, severe vomiting and diarrhoea; cooking them properly destroys the toxin (phytohaemagglutinin), and slow cookers do not get hot enough to destroy it; according to British studies cited by the FDA, beans should be soaked in water for at least 5 hours, the water poured away, and the beans boiled in fresh water for at least 30 minutes."
+  "twierdzenie_en": "FDA (Bad Bug Book): raw or undercooked beans, particularly red kidney beans, can cause extreme nausea, severe vomiting and diarrhoea; cooking them properly destroys the toxin (phytohaemagglutinin), and slow cookers do not get hot enough to destroy it; according to British studies cited by the FDA, beans should be soaked in water for at least 5 hours, the water poured away, and the beans boiled in fresh water for at least 30 minutes.",
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "ACI-880",
@@ -60859,7 +61114,11 @@
   "status": "potwierdzone",
   "uproszczenie": null,
   "krytyczne": true,
-  "przeglad": null,
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "7eb9c4db8b82"
+  },
   "wazne_do": "2027-11-02",
   "pochodzenie": "06 p35 (tor A), po V1-C D-027 d",
   "jednoZrodlo": true,
@@ -60895,7 +61154,8 @@
     "weryfikacja": "curl+grep (HTML bez znaczników, elementy listy)",
     "sha12": "3d409e5d3cd0"
    }
-  ]
+  ],
+  "weryfikacjaZastepcza": "2026-11-02"
  },
  {
   "id": "SLO-840",
