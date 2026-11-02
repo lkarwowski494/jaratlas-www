@@ -18,7 +18,7 @@ Vinegar with less than 5% acidity should never be used in home food preservation
 
 Do not change the proportions of vinegar, vegetables and water in the recipe. [T:ACI-016]
 
-Do not replace it with a stronger vinegar and do not dilute a stronger vinegar with water yourself; Penn State Extension advises staying within 5–7% acidity for home food preservation and diluting vinegar only when a tested recipe says so. [T:ACI-209,ACI-210]
+JarAtlas rule (cautious): do not replace it with a stronger vinegar and do not dilute a stronger vinegar with water yourself; Penn State Extension advises staying within 5–7% acidity for home food preservation and diluting vinegar only when a tested recipe says so. [T:ACI-209,ACI-210]
 
 ## Preparing
 

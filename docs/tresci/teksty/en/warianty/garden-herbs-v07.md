@@ -8,11 +8,13 @@ For each pint jar of vinegar: 3 sprigs (3 inches long) of fresh tarragon, or 1 c
 
 UGA allows distilled white or white wine vinegar; this card uses distilled white vinegar, which UGA calls the best choice for delicately flavored herbs, because wine vinegars contain some protein that can support bacterial growth. [T:NAP-082,NAP-081,NAP-037]
 
-Use only commercially produced vinegar: wine and rice vinegars contain some protein that is an excellent medium for bacterial growth. [T:NAP-037]
+For added safety, use only commercially produced vinegar. [T:NAP-037]
+
+Wine and rice vinegars contain some protein that is an excellent medium for bacterial growth if they are not handled and stored properly. [T:NAP-037]
 
 Vinegar with less than 5% acidity should never be used in home food preservation. [T:ACI-516]
 
-Do not replace it with a stronger vinegar and do not dilute a stronger vinegar with water yourself; Penn State Extension advises staying within 5–7% acidity for home food preservation and diluting vinegar only when a tested recipe says so. [T:ACI-209,ACI-210]
+JarAtlas rule (cautious): do not replace it with a stronger vinegar and do not dilute a stronger vinegar with water yourself; Penn State Extension advises staying within 5–7% acidity for home food preservation and diluting vinegar only when a tested recipe says so. [T:ACI-209,ACI-210]
 
 Do not add more flavoring than this card gives: too much plant material can destroy the acid and ruin the preservative quality of the vinegar. [T:NAP-036]
 
@@ -22,9 +24,13 @@ A US pint holds about 473 ml and a quart about 946 ml. [T:ACI-174]
 
 Wash glass jars or bottles in warm, soapy water, then sterilize them by immersing them completely in boiling water for 10 minutes; fill them with vinegar while they are still warm. [T:NAP-070]
 
-Close them with non-corrodible metal or plastic screw caps, or with new, pre-sterilized corks. [T:NAP-071]
+Close them with non-corrodible metal or plastic screw caps, washed in hot soapy water, rinsed and scalded in boiling water, or with new, pre-sterilized corks dipped in and out of boiling water with tongs 3–4 times. [T:NAP-071]
+
+Work in a very clean area with clean utensils and very clean hands. [T:NAP-086]
 
 Wash the tarragon gently but thoroughly and pat it dry with a clean paper towel. [T:NAP-072]
+
+Then dip them in a sanitizing solution of 1 teaspoon of household chlorine bleach in 6 cups of water, rinse them thoroughly under cold water and pat them dry, as UGA directs. [T:NAP-072]
 
 Lightly crush it before placing it in the jar. [T:NAP-082]
 
@@ -44,7 +50,7 @@ Label each bottle with the base vinegar, the flavoring and the date. [T:NAP-085]
 
 Keep the vinegar in the refrigerator: some harmful bacteria may survive and even multiply slowly in some vinegars. [T:NAP-040]
 
-For best quality, use it within 4–6 months, as OSU Extension advises for refrigerated flavored vinegars. [T:NAP-065]
+For best quality, use it within 4–6 months, as OSU Extension advises for flavored vinegars. [T:NAP-065]
 
 Date the bottle when you open it. [T:NAP-078]
 
@@ -54,4 +60,4 @@ Bottles kept as decorations on sunny window sills or shelves for more than a few
 
 If the vinegar shows mold or signs of fermentation such as bubbling, cloudiness or sliminess, throw it away without tasting it. [T:NAP-041]
 
-Do not use flavored herb vinegar for making pickles unless it has a 5% acidity level. [T:NAP-042]
+JarAtlas rule (cautious): do not use this vinegar for making pickles; OSU allows flavored herb vinegar for pickle making only when it has a 5% acidity level. [T:NAP-042]

@@ -10,7 +10,7 @@ Spices are optional and many preserved lemon recipes use none, so this version u
 
 Choose top-quality lemons with no blemishes. [T:FER-103]
 
-Ask Extension (Oregon State University) calls the combination of lemons and salt very low risk for pathogens; the salt must be in an adequate amount. [T:FER-086,FER-104]
+An Ask Extension expert answer calls the combination of lemons and salt very low risk for pathogens; the salt must be in an adequate amount. [T:FER-086,FER-104]
 
 Do not reduce the salt. [T:FER-104]
 
@@ -28,7 +28,9 @@ Sprinkle 1 tablespoon of salt over the bottom of the jar, pack 1 heaping tablesp
 
 Fill the jar with lemon juice to within 1/2 inch of the top; the lemons must be submerged in juice. [T:FER-102,FER-104]
 
-Lemon and salt corrode a metal canning lid, so use a plastic lid or line a metal lid with plastic wrap. [T:FER-104]
+If they are not covered, juice an additional lemon and add the juice to the jar. [T:FER-106]
+
+Lemon and salt corrode a metal canning lid, so cover the jar loosely: with a loose plastic lid, or with a metal lid lined with plastic wrap and left loose. [T:FER-104]
 
 ## Ripening
 
