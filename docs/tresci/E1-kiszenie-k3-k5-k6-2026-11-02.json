@@ -1,0 +1,1917 @@
+{
+  "data": "2026-11-02",
+  "rola": "06-tresci build, tor B6",
+  "galaz": "claude/jaratlas-b6-kiszenie",
+  "baza": "main 20eac8a",
+  "zakres": "K3 treść kart-ostrzeżeń (5 wariantów ryzyko-wysokie), K5 źródła PL/UE dla kiszenia ogórków i kapusty z porównaniem z NCHFP, K6 kimchi poza CSU, K2-przygotowanie szkic struktury 5 kart ok-zrodlo. Rejestr, karty i katalog bez zmian.",
+  "format": "Pola jak w rejestr.json; dodatkowo k, twierdzenie_en, warianty, uwaga, jednoZrodlo. status: robocze, przeglad: null (przegląd zastępczy D-027 po wklejeniu do rejestru). Cytat: fragmenty „ | ” stoją w tekście kolejno.",
+  "zrodla_odczyt": [
+    {
+      "klucz": "ucd-fs",
+      "http": 200,
+      "sha12": "71505195393c",
+      "adres": "https://eatlac.ucdavis.edu/sites/g/files/dgvnsk13106/files/media/documents/Safely%20Fermented%20Fruit%20and%20Vegetable%20Factsheet.pdf",
+      "szczebel": 3,
+      "opis": "UC Davis (DiCaprio, Marco i in.), Safely Ferment Fruits and Vegetables at Home, v1.0 (03/15/2022)",
+      "charakter": "poradnik domowy",
+      "cytowane": true
+    },
+    {
+      "klucz": "umn",
+      "http": 200,
+      "sha12": "4424341f69c3",
+      "adres": "https://extension.umn.edu/food-safety-basics/fermentation",
+      "szczebel": 3,
+      "opis": "University of Minnesota Extension, Preserving food at home: Fermentation (przegląd 2026)",
+      "charakter": "poradnik domowy",
+      "cytowane": true
+    },
+    {
+      "klucz": "uc-gar",
+      "http": 200,
+      "sha12": "70ed416d854c",
+      "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335681.pdf",
+      "szczebel": 3,
+      "opis": "UC ANR 8568, Garlic: Safe Methods to Store, Preserve, and Enjoy",
+      "charakter": "poradnik domowy (metody zwalidowane)",
+      "cytowane": true
+    },
+    {
+      "klucz": "kstate",
+      "http": 200,
+      "sha12": "f0d17a0be319",
+      "adres": "https://www.k-state.edu/news/you-asked-it/articles/2020/10/honey-fermented-garlic-may-be-risky.html",
+      "szczebel": 3,
+      "opis": "K-State, Honey Fermented Garlic May Be Risky (2020-10-15)",
+      "charakter": "odczyt ponowny (FER-069)",
+      "cytowane": true
+    },
+    {
+      "klucz": "ask930666",
+      "http": 200,
+      "sha12": "58d269318459",
+      "adres": "https://ask.extension.org/kb/faq.php?id=930666",
+      "szczebel": 3,
+      "opis": "Ask Extension #930666 (05.2026)",
+      "charakter": "odczyt ponowny (FER-068)",
+      "cytowane": true
+    },
+    {
+      "klucz": "ask822985",
+      "http": 200,
+      "sha12": "33a95b6411f6",
+      "adres": "https://ask.extension.org/kb/faq.php?id=822985",
+      "szczebel": 3,
+      "opis": "Ask Extension #822985 (03.2023)",
+      "charakter": "odczyt ponowny (FER-070)",
+      "cytowane": true
+    },
+    {
+      "klucz": "nchfp-kraut",
+      "http": 200,
+      "sha12": "a1ca71ea3f4d",
+      "adres": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/",
+      "szczebel": 1,
+      "opis": "NCHFP, Sauerkraut",
+      "charakter": "przepis przetestowany (porównanie K5)",
+      "cytowane": true
+    },
+    {
+      "klucz": "nchfp-dill",
+      "http": 200,
+      "sha12": "2cd926dd1f7c",
+      "adres": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+      "szczebel": 1,
+      "opis": "NCHFP, Dill Pickles",
+      "charakter": "przepis przetestowany (porównanie K5)",
+      "cytowane": true
+    },
+    {
+      "klucz": "pacjent",
+      "http": 200,
+      "sha12": "c726f097228e",
+      "adres": "https://pacjent.gov.pl/print/pdf/node/3371",
+      "szczebel": 3,
+      "opis": "pacjent.gov.pl (portal MZ/NFZ), artykuł o kiszonkach, aktualizacja 2024-08-30 (wersja do druku)",
+      "charakter": "poradnik domowy, PL",
+      "cytowane": true
+    },
+    {
+      "klucz": "ibprs-kap",
+      "http": 200,
+      "sha12": "3700e05b9f79",
+      "adres": "https://ibprs.pl/wp-content/uploads/2025/01/Kapusta_kiszona_diagnoza_stanu_2024.pdf",
+      "szczebel": 3,
+      "opis": "IBPRS-PIB, Kapusta kiszona: diagnoza stanu (grudzień 2024, dla MRiRW); przytacza PN-A-77700:2006",
+      "charakter": "badanie jakości produktu rynkowego, PL",
+      "cytowane": true
+    },
+    {
+      "klucz": "ibprs-ogo",
+      "http": 200,
+      "sha12": "700564187ce4",
+      "adres": "https://ibprs.pl/wp-content/uploads/2025/01/Ogorki_kiszone_diagnoza_stanu_2024.pdf",
+      "szczebel": 3,
+      "opis": "IBPRS-PIB, Ogórki kiszone: diagnoza stanu (2024); przytacza PN-A-77701:1997",
+      "charakter": "badanie jakości produktu rynkowego, PL",
+      "cytowane": true
+    },
+    {
+      "klucz": "cxs115",
+      "http": 200,
+      "sha12": "f60c7f26fa2f",
+      "adres": "https://www.fao.org/input/download/standards/251/CXS_115e.pdf",
+      "szczebel": 1,
+      "opis": "Codex STAN 115-1981 Pickled Cucumbers (plik skonsolidowany starszy; nowszej rewizji nie pobrano)",
+      "charakter": "norma handlowa",
+      "cytowane": true
+    },
+    {
+      "klucz": "leits",
+      "http": 200,
+      "sha12": "f74843db5df2",
+      "adres": "https://www.bmel.de/SharedDocs/Downloads/DE/_Ernaehrung/Lebensmittel-Kennzeichnung/LeitsaetzeGemueseerzeugnisse.pdf?__blob=publicationFile",
+      "szczebel": 1,
+      "opis": "Deutsches Lebensmittelbuch, Leitsätze für Gemüseerzeugnisse (8.1.2008, zm. 27.9.2024)",
+      "charakter": "wytyczne składu produktu handlowego, DE",
+      "cytowane": true
+    },
+    {
+      "klucz": "vzst",
+      "http": 200,
+      "sha12": "b44fdf37e6a2",
+      "adres": "https://consumer.bz.it/de/print/pdf/node/35123",
+      "szczebel": 3,
+      "opis": "Verbraucherzentrale Südtirol, Fermentieren (07.02.2022)",
+      "charakter": "poradnik domowy, IT/DE",
+      "cytowane": true
+    },
+    {
+      "klucz": "bawue",
+      "http": 200,
+      "sha12": "78147d17eaf7",
+      "adres": "https://www.bodenseekreis.de/fileadmin/03_umwelt_landnutzung/landwirtschaft/downloads/fachinfo_ernaehrung/Fermentieren_Handreichung_und_Rezepte__BaWue_zu_Tisch.pdf",
+      "szczebel": 3,
+      "opis": "Landratsamt Bodenseekreis, Landwirtschaftsamt (BW „zu Tisch”), Fermentieren: Handreichung und Rezepte (bez daty)",
+      "charakter": "poradnik domowy, DE",
+      "cytowane": true
+    },
+    {
+      "klucz": "lgl",
+      "http": 200,
+      "sha12": "fd61a6631944",
+      "adres": "https://www.lgl.bayern.de/lebensmittel/hygiene/verderb/et_schimmelpilzbefall.htm",
+      "szczebel": 3,
+      "opis": "Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheit, Schimmelpilzbefall (bez daty)",
+      "charakter": "urząd, ogólnie o pleśni",
+      "cytowane": true
+    },
+    {
+      "klucz": "bmluk",
+      "http": 200,
+      "sha12": "a7428c2e568e",
+      "adres": "https://www.bmluk.gv.at/themen/lebensmittel/trad-lebensmittel/speisen/sauerkraut.html",
+      "szczebel": 3,
+      "opis": "Ministerstwo AT, rejestr Traditionelle Lebensmittel: Sauerkraut (przytacza Codex Alimentarius Austriacus B24)",
+      "charakter": "opis tradycji i produkcji, AT",
+      "cytowane": true
+    },
+    {
+      "klucz": "fri2024",
+      "http": 200,
+      "sha12": "7edcb3b86c7e",
+      "adres": "https://iris.unito.it/retrieve/handle/2318/1958832/1245212/1-s2.0-S0963996923013996-main.pdf",
+      "szczebel": 2,
+      "opis": "Cardinali i in., Food Research International 177 (2024) 113851 (ogórki tradycyjne z Polski), CC BY",
+      "charakter": "recenzowane",
+      "cytowane": true
+    },
+    {
+      "klucz": "mol2021",
+      "http": 200,
+      "sha12": "cc0b279fa9d4",
+      "adres": "https://rcastoragev2.blob.core.windows.net/096e6e16d21180df63095097449b04c7/PMC8510100.pdf",
+      "szczebel": 2,
+      "opis": "Świder i in. (IBPRS-PIB), Molecules 2021, 26, 5796 (kopia PMC8510100)",
+      "charakter": "recenzowane",
+      "cytowane": true
+    },
+    {
+      "klucz": "cxs302",
+      "http": 200,
+      "sha12": "13b15e079f74",
+      "adres": "https://www.fao.org/input/download/standards/11796/CXS_302e.pdf",
+      "szczebel": 1,
+      "opis": "Codex STAN 302-2011 Fish Sauce (zm. 2012, 2013)",
+      "charakter": "norma handlowa",
+      "cytowane": true
+    },
+    {
+      "klucz": "eu1019",
+      "http": 200,
+      "sha12": "9d0db2a6d58f",
+      "adres": "https://www.legislation.gov.uk/eur/2013/1019/data.html",
+      "szczebel": 1,
+      "opis": "Rozporządzenie Komisji (UE) nr 1019/2013 (histamina w sosie rybnym); tekst z legislation.gov.uk (kopia brytyjska), nie z EUR-Lex",
+      "charakter": "przepis",
+      "cytowane": true
+    },
+    {
+      "klucz": "park2019",
+      "http": 200,
+      "sha12": "2ec87d48f52b",
+      "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6915361/fullTextXML",
+      "szczebel": 2,
+      "opis": "Park, Lee, Mah, Foods 2019 (aminy biogenne w kimchi), przegląd",
+      "charakter": "recenzowane",
+      "cytowane": true
+    },
+    {
+      "klucz": "front2016",
+      "http": 200,
+      "sha12": "78e72bed8a55",
+      "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5039233/fullTextXML",
+      "szczebel": 2,
+      "opis": "Frontiers in Microbiology 2016, przegląd o kimchi (PMC5039233)",
+      "charakter": "recenzowane",
+      "cytowane": true
+    },
+    {
+      "klucz": "heli2024",
+      "http": 200,
+      "sha12": "1a82e2f205a4",
+      "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10926072/fullTextXML",
+      "szczebel": 2,
+      "opis": "Heliyon 2024 (temperatura fermentacji kimchi, PMC10926072)",
+      "charakter": "recenzowane",
+      "cytowane": true
+    },
+    {
+      "klucz": "ecoli2023",
+      "http": 200,
+      "sha12": "0ffd695be6c5",
+      "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10369422/fullTextXML",
+      "szczebel": 2,
+      "opis": "Epidemiology and Infection 2023 (PHAC i in.), ognisko STEC O157 po kimchi w Kanadzie",
+      "charakter": "recenzowane",
+      "cytowane": true
+    },
+    {
+      "klucz": "noro2024",
+      "http": 200,
+      "sha12": "0998946fa6fb",
+      "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12869137/fullTextXML",
+      "szczebel": 2,
+      "opis": "Epidemiology and Health 2025, ognisko norowirusa GII.17 po kimchi w szkołach (Korea, 2024)",
+      "charakter": "recenzowane",
+      "cytowane": true
+    },
+    {
+      "klucz": "oyster2016",
+      "http": 200,
+      "sha12": "b125039a899c",
+      "adres": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9150470",
+      "szczebel": 2,
+      "opis": "Cho i in., Epidemiology and Infection 2016 (ognisko 2013, fermentowane ostrygi); tylko streszczenie",
+      "charakter": "recenzowane, przeczytane tylko streszczenie",
+      "cytowane": true
+    },
+    {
+      "klucz": "gnoto2025",
+      "http": 200,
+      "sha12": "3cac1f7dc389",
+      "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12155097/fullTextXML",
+      "szczebel": 2,
+      "opis": "Foods 2025 (E. coli w fermentacji kimchi, PMC12155097)",
+      "charakter": "recenzowane",
+      "cytowane": true
+    },
+    {
+      "klucz": "gwnoro2014",
+      "http": 200,
+      "sha12": "d7011119a614",
+      "adres": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9151260",
+      "szczebel": 2,
+      "opis": "Epidemiology and Infection 2014 (norowirus z wody gruntowej przez kimchi, 2011); tylko streszczenie",
+      "charakter": "recenzowane, przeczytane tylko streszczenie",
+      "cytowane": true
+    }
+  ],
+  "zrodla_czytane_bez_cytatu": [
+    {
+      "klucz": "lpt-handzlowka",
+      "sha12": "1ed448ded1c0",
+      "adres": "https://www.gov.pl/web/rolnictwo/ogorki-kiszone-z-handzlowki",
+      "opis": "Lista Produktów Tradycyjnych: ok. 40 dag soli na 10 l wody, ogórki „na prędko” lub na zimę; opis tradycji, nie wytyczna bezpieczeństwa"
+    },
+    {
+      "klucz": "lpt-nadnoteckie",
+      "sha12": "c5b41e5ca2be",
+      "adres": "https://www.gov.pl/web/rolnictwo/ogorki-kiszone-nadnoteckie",
+      "opis": "LPT: wyparzanie beczki, ogórki całkowicie pod zalewą; zgodne z FER-021, bez nowego twierdzenia"
+    },
+    {
+      "klucz": "lpt-bobrowa",
+      "sha12": "164472105daa",
+      "adres": "https://www.gov.pl/web/rolnictwo/kapusta-kiszona-z-bobrowy",
+      "opis": "LPT: cytat z książki kucharskiej 1885 (12–14 °R, 8–10 dni, potem piwnica); historia, nie wytyczna"
+    },
+    {
+      "klucz": "spreewald-dpma",
+      "sha12": "45ef2064f063",
+      "adres": "https://register.dpma.de/DPMAregister/geo/detail.detailtabelle.pdfdownload/42439",
+      "opis": "Spreewälder Gurken g.g.A., zmiana specyfikacji (DPMA 16.12.2022): Salz-Dill-Gurken maks. 3% soli w produkcie; specyfikacja handlowa"
+    },
+    {
+      "klucz": "cxs260-fr",
+      "sha12": "4ad881ad7378",
+      "adres": "https://compagnons.educagri-editions.fr/num/compagnons/2022AL02103/res/Codex-alimentarius.pdf",
+      "opis": "CXS 260-2007 (FR, kopia spoza FAO): zakres NIE obejmuje ogórków ani kapusty głowiastej białej; nieprzydatne do K5"
+    },
+    {
+      "klucz": "nchfp-kraut / nchfp-dill",
+      "sha12": "a1ca71ea3f4d / 2cd926dd1f7c",
+      "adres": "https://nchfp.uga.edu/how/ferment/recipes/",
+      "opis": "ponowny odczyt NCHFP do porównania K5 i szkicu K2; cytaty FER-034, 036, 043, 044, 045 nadal w tekście"
+    },
+    {
+      "klucz": "kstate / ask930666 / ask822985",
+      "sha12": "f0d17a0be319 / 58d269318459 / 33a95b6411f6",
+      "adres": "zob. ZRODLA",
+      "opis": "ponowny odczyt źródeł FER-068, 069, 070 do K3; cytaty nadal w tekście (kontrola niżej)"
+    },
+    {
+      "klucz": "uwex-2023",
+      "sha12": "3100cd48b9bf",
+      "adres": "https://stcroix.extension.wisc.edu/files/2023/09/Sept_Oct-2023-newsletter_color.pdf",
+      "opis": "newsletter UW Extension o kimchi powołuje się na CSU (źródło pochodne), odrzucony"
+    }
+  ],
+  "zrodla_nieudane": [
+    "https://www.fao.org/input/download/standards/290/CXS_115e.pdf (404); .../11014/CXS_260e.pdf i .../11018/CXS_260e.pdf (404); sh-proxy FAO zwraca stronę JS",
+    "https://www.bzfe.de/... Sauerkraut, Fermentieren (404, adresy zgadywane)",
+    "ncez.pzh.gov.pl: brak artykułu o kiszonkach z liczbami (wyszukiwanie)",
+    "eAmbrosia, specyfikacja Spreewälder Gurken: nie pobrano (użyto DPMA)",
+    "pmc.ncbi.nlm.nih.gov (PMC12869137, PMC9151260, PMC9507068, PMC9150470, PMC8595448, PMC6915361): strona reCAPTCHA; Europe PMC fullTextXML 500 dla PMC9151260, PMC9150470, PMC8581111, PMC9507068, PMC8595448",
+    "Normy PN-A-77700:2006 i PN-A-77701:1997: płatne, nieczytane; liczby tylko w przytoczeniu IBPRS-PIB",
+    "World Institute of Kimchi, MFDS Food Code: nie znaleziono tekstu do pobrania w tej sesji"
+  ],
+  "liczby_wg_K": {
+    "K3": {
+      "razem": 6,
+      "krytyczne": 4,
+      "szczebel1": 0,
+      "szczebel2": 0,
+      "szczebel3": 6,
+      "jednoZrodlo": 6
+    },
+    "K5": {
+      "razem": 19,
+      "krytyczne": 19,
+      "szczebel1": 4,
+      "szczebel2": 2,
+      "szczebel3": 13,
+      "jednoZrodlo": 13
+    },
+    "K6": {
+      "razem": 12,
+      "krytyczne": 10,
+      "szczebel1": 2,
+      "szczebel2": 10,
+      "szczebel3": 0,
+      "jednoZrodlo": 0
+    }
+  },
+  "twierdzenia": [
+    {
+      "id": "FER-200",
+      "k": "K3",
+      "twierdzenie": "Jad kiełbasiany może wystąpić, gdy fermentacja się nie uda i kwasowość jest niska; bakterie te rosną bez dostępu tlenu w żywności niskokwasowej (pH powyżej 4,6).",
+      "twierdzenie_en": "Botulism can occur if fermentation is not successful and acid levels are low; these bacteria grow without oxygen in low-acid foods (pH above 4.6).",
+      "zrodla": [
+        {
+          "adres": "https://eatlac.ucdavis.edu/sites/g/files/dgvnsk13106/files/media/documents/Safely%20Fermented%20Fruit%20and%20Vegetable%20Factsheet.pdf",
+          "miejsce": "UC Davis (DiCaprio, Marco i in.), Safely Ferment Fruits and Vegetables at Home, v1.0 (03/15/2022); Food Safety Risks, Clostridium botulinum, punkty 1–2",
+          "cytat": "Botulism can occur if fermentation is not | successful and acid levels are low",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "71505195393c"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "garlic-v01",
+        "garlic-v02",
+        "garlic-v03",
+        "ginger-turmeric-v08",
+        "wild-garlic-v05",
+        "cucumber-v03",
+        "white-cabbage-v03",
+        "napa-cabbage-v05",
+        "napa-cabbage-v07",
+        "napa-cabbage-v08"
+      ],
+      "uwaga": "Drugi punkt (pH above 4.6) jest w układzie dwukolumnowym przerwany sąsiednią kolumną; zgodny z FER-004 (szczebel 1)."
+    },
+    {
+      "id": "FER-201",
+      "k": "K3",
+      "twierdzenie": "UC Davis: stosować przepis zbadany i przetestowany; przy niepewności co do bezpieczeństwa kiszonki obowiązuje zasada „w razie wątpliwości wyrzuć”.",
+      "twierdzenie_en": "UC Davis: follow a researched and tested recipe; if you are unsure about the safety of a fermented product, “when in doubt throw it out”.",
+      "zrodla": [
+        {
+          "adres": "https://eatlac.ucdavis.edu/sites/g/files/dgvnsk13106/files/media/documents/Safely%20Fermented%20Fruit%20and%20Vegetable%20Factsheet.pdf",
+          "miejsce": "UC Davis (DiCaprio, Marco i in.), Safely Ferment Fruits and Vegetables at Home, v1.0 (03/15/2022); Fermentation Success Key #3",
+          "cytat": "Follow a researched and tested recipe. | If you are unsure about | the safety of a fermented product, “when in doubt | throw it out.”",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "71505195393c"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "garlic-v01",
+        "garlic-v02",
+        "garlic-v03",
+        "ginger-turmeric-v08",
+        "wild-garlic-v05",
+        "cucumber-v03",
+        "white-cabbage-v03",
+        "napa-cabbage-v05",
+        "napa-cabbage-v07",
+        "napa-cabbage-v08"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-202",
+      "k": "K3",
+      "twierdzenie": "UMN zaleca przepis oparty na badaniach i przetestowany, i jako takie wskazuje przepisy NCHFP: ogórki kiszone (Dill pickles) i kapustę kiszoną (Sauerkraut).",
+      "twierdzenie_en": "UMN recommends a research-based, tested recipe and points to the NCHFP recipes for dill pickles and sauerkraut.",
+      "zrodla": [
+        {
+          "adres": "https://extension.umn.edu/food-safety-basics/fermentation",
+          "miejsce": "University of Minnesota Extension, Preserving food at home: Fermentation (przegląd 2026); What you need to get started, Ingredients",
+          "cytat": "Use a research-based, tested recipe . We recommend these recipes from The National Center for Home Food Preservation: Dill pickles Sauerkraut",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "4424341f69c3"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": false,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "garlic-v01",
+        "garlic-v02",
+        "ginger-turmeric-v08",
+        "wild-garlic-v05"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-203",
+      "k": "K3",
+      "twierdzenie": "Obrane ząbki czosnku można zalać nierozcieńczonym winem albo octem i trzymać w lodówce; wino lub ocet dają środowisko kwaśne (pH poniżej 4,6), w którym Clostridium botulinum nie rośnie.",
+      "twierdzenie_en": "Peeled garlic cloves may be covered with undiluted wine or vinegar and kept in the refrigerator; the wine or vinegar gives an acidic environment (below pH 4.6) in which Clostridium botulinum cannot grow.",
+      "zrodla": [
+        {
+          "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335681.pdf",
+          "miejsce": "UC ANR 8568, Garlic: Safe Methods to Store, Preserve, and Enjoy; Storing Garlic in Wine or Vinegar and Refrigerating",
+          "cytat": "Peeled cloves may be submerged in undiluted (full-strength) wine or vinegar and stored in the refrigerator. Adding wine or vinegar to garlic provides an acidic environment (less than pH 4.6) so that Clostridium botulinum cannot grow.",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "70ed416d854c"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "garlic-v01",
+        "garlic-v02",
+        "garlic-v03",
+        "wild-garlic-v05"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-204",
+      "k": "K3",
+      "twierdzenie": "Czosnek w winie lub occie wytrzymuje w lodówce ok. 4 miesiące; nie trzymać go w temperaturze pokojowej; przy pleśni lub drożdżach na powierzchni wyrzucić ząbki i płyn.",
+      "twierdzenie_en": "Garlic in wine or vinegar keeps about 4 months in the refrigerator; do not store it at room temperature; discard both the cloves and the liquid if mold or yeast grows on the surface.",
+      "zrodla": [
+        {
+          "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335681.pdf",
+          "miejsce": "UC ANR 8568, Garlic: Safe Methods to Store, Preserve, and Enjoy; Storing Garlic in Wine or Vinegar and Refrigerating",
+          "cytat": "The garlic–liquid mixture should keep for about 4 months in the refrigerator. | Do not store the garlic–liquid mixture at room temperature because it will rapidly develop mold growth. Discard both the cloves and the liquid if there are signs of mold or yeast growth on the surface of the wine or vinegar.",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "70ed416d854c"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "garlic-v01",
+        "garlic-v02",
+        "garlic-v03",
+        "wild-garlic-v05"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-205",
+      "k": "K3",
+      "twierdzenie": "Czosnek można zamrozić: posiekać, szczelnie zawinąć w woreczek do mrożenia albo folię i zamrozić.",
+      "twierdzenie_en": "Garlic can be frozen: chop it, wrap it tightly in a freezer bag or plastic wrap, and freeze.",
+      "zrodla": [
+        {
+          "adres": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-09/335681.pdf",
+          "miejsce": "UC ANR 8568, Garlic: Safe Methods to Store, Preserve, and Enjoy; Freezing Garlic, punkt 1",
+          "cytat": "Chop garlic, wrap it tightly in a plastic freezer bag or in plastic wrap, and freeze.",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "70ed416d854c"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": false,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "garlic-v01",
+        "garlic-v02",
+        "garlic-v03",
+        "ginger-turmeric-v08"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-210",
+      "k": "K5",
+      "twierdzenie": "pacjent.gov.pl (poradnik, PL): do kiszenia ogórków 1 łyżka soli, najlepiej kamiennej, na 1 litr wody; bez octu.",
+      "twierdzenie_en": "pacjent.gov.pl (guide, PL): for fermenting cucumbers, 1 tablespoon of salt, preferably rock salt, per 1 litre of water; no vinegar.",
+      "zrodla": [
+        {
+          "adres": "https://pacjent.gov.pl/print/pdf/node/3371",
+          "miejsce": "pacjent.gov.pl (portal MZ/NFZ), artykuł o kiszonkach, aktualizacja 2024-08-30 (wersja do druku); przepis na ogórki kiszone, krok solanki",
+          "cytat": "Na 1 litr wody weź 1 łyżkę soli, najlepiej kamiennej i wymieszaj.",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "c726f097228e"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "cucumber-v02",
+        "cucumber-v04",
+        "cucumber-v05",
+        "cucumber-v08"
+      ],
+      "uwaga": "„bez octu” = brak octu w liście składników przepisu (odczyt całego tekstu). Mniej soli niż NCHFP Dill Pickles (1/2 szklanki na 8 szklanek wody, FER-042) i brak octu: porównanie w §3."
+    },
+    {
+      "id": "FER-211",
+      "k": "K5",
+      "twierdzenie": "pacjent.gov.pl: naczynie szczelnie zamknąć i na początku trzymać w ok. 20 °C; kiszenie trwa od kilku do 8 dni; potem przechowywać w chłodnym miejscu, aby zatrzymać fermentację.",
+      "twierdzenie_en": "pacjent.gov.pl: close the vessel tightly and keep it at about 20 °C at first; fermentation takes from a few to 8 days; then store in a cool place to stop fermentation.",
+      "zrodla": [
+        {
+          "adres": "https://pacjent.gov.pl/print/pdf/node/3371",
+          "miejsce": "pacjent.gov.pl (portal MZ/NFZ), artykuł o kiszonkach, aktualizacja 2024-08-30 (wersja do druku); przepis na ogórki kiszone, kolejne kroki",
+          "cytat": "Zamknij szczelnie naczynie. Na początku możesz je trzymać w temperaturze ok. 20°C. | Proces kiszenia trwa od kilku do 8 dni. | Po zakiszeniu przechowuj kiszonki w chłodnym miejscu, by zatrzymać proces fermentacji.",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "c726f097228e"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "cucumber-v02"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-212",
+      "k": "K5",
+      "twierdzenie": "Według IBPRS-PIB Polska Norma PN-A-77701:1997 określa zawartość soli w ogórkach kiszonych na 12–25 g/l (1,2–2,5%); to wymaganie dla produktu, nie przepis domowy.",
+      "twierdzenie_en": "According to IBPRS-PIB, Polish Standard PN-A-77701:1997 sets the salt content of fermented cucumbers at 12–25 g/l (1.2–2.5%); this is a product requirement, not a home recipe.",
+      "zrodla": [
+        {
+          "adres": "https://ibprs.pl/wp-content/uploads/2025/01/Ogorki_kiszone_diagnoza_stanu_2024.pdf",
+          "miejsce": "IBPRS-PIB, Ogórki kiszone: diagnoza stanu (2024); przytacza PN-A-77701:1997; wstęp i omówienie wyników",
+          "cytat": "Podstawowe parametry jakości ogórków kiszonych określa Polska Norma PN-A-77701:1997 | W PN jest określona zawartość soli na poziomie 12-25 g/l. | ogórkach została określona od 1,2 do 2,5 %.",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "700564187ce4"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "cucumber-v02",
+        "cucumber-v04",
+        "cucumber-v05",
+        "cucumber-v08"
+      ],
+      "uwaga": "Normy nie czytano (płatna); liczba z przytoczenia IBPRS-PIB."
+    },
+    {
+      "id": "FER-213",
+      "k": "K5",
+      "twierdzenie": "IBPRS-PIB: mięknienie ogórków kiszonych może wynikać z rozwoju drobnoustrojów rozkładających celulozę i pektyny, a „gazowanie” z aktywności drożdży i bakterii grupy coli.",
+      "twierdzenie_en": "IBPRS-PIB: softening of fermented cucumbers may result from growth of microorganisms that break down cellulose and pectin, and “gassing” from yeasts and coliform bacteria.",
+      "zrodla": [
+        {
+          "adres": "https://ibprs.pl/wp-content/uploads/2025/01/Ogorki_kiszone_diagnoza_stanu_2024.pdf",
+          "miejsce": "IBPRS-PIB, Ogórki kiszone: diagnoza stanu (2024); przytacza PN-A-77701:1997; wady ogórków kiszonych",
+          "cytat": "„mięknienia ogórków” może być wynikiem rozwoju mikroorganizmów o aktywności celulolitycznej i pektynolitycznej | „gazowania” spowodowane aktywnością drożdży Saccharomyces, Hansenula, Torulopsis, a także bakterii grupy coli.",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "700564187ce4"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "cucumber-v03"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-214",
+      "k": "K5",
+      "twierdzenie": "Według IBPRS-PIB kapusta kiszona według PN-A-77700:2006 ma pH 3,4–4,0, a zawartość chlorków w przeliczeniu na chlorek sodu 1,2–2,5%; wymaganie dla produktu.",
+      "twierdzenie_en": "According to IBPRS-PIB, sauerkraut under PN-A-77700:2006 has a pH of 3.4–4.0 and a chloride content, as sodium chloride, of 1.2–2.5%; a product requirement.",
+      "zrodla": [
+        {
+          "adres": "https://ibprs.pl/wp-content/uploads/2025/01/Kapusta_kiszona_diagnoza_stanu_2024.pdf",
+          "miejsce": "IBPRS-PIB, Kapusta kiszona: diagnoza stanu (grudzień 2024, dla MRiRW); przytacza PN-A-77700:2006; wymagania PN, lista",
+          "cytat": "pH: 3,4 – 4,0 | zawartość chlorków w przeliczeniu na chlorek sodu: 1,2 – 2,5%",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "3700e05b9f79"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "white-cabbage-v03"
+      ],
+      "uwaga": "Normy nie czytano (płatna)."
+    },
+    {
+      "id": "FER-215",
+      "k": "K5",
+      "twierdzenie": "IBPRS-PIB: dla prawidłowej fermentacji kapusty zalecane stężenie soli to 2,0–2,5%; w zaleceniach raportu przyjęto jednak 1,5–2,0% ze względu na trend zmniejszania soli w diecie.",
+      "twierdzenie_en": "IBPRS-PIB: for proper cabbage fermentation the recommended salt concentration is 2.0–2.5%; the report’s recommendations nevertheless use 1.5–2.0% because of the trend to reduce dietary salt.",
+      "zrodla": [
+        {
+          "adres": "https://ibprs.pl/wp-content/uploads/2025/01/Kapusta_kiszona_diagnoza_stanu_2024.pdf",
+          "miejsce": "IBPRS-PIB, Kapusta kiszona: diagnoza stanu (grudzień 2024, dla MRiRW); przytacza PN-A-77700:2006; wyniki: zawartość soli; zalecenia",
+          "cytat": "Zalecane stężenie soli, z punktu widzenia prawidłowości procesu fermentacji, powinno mieścić się w zakresie od 2,0 do 2,5 %, przy czym, obecne trendy żywieniowe propagują zmniejszenie udziału soli w diecie. | W zaleceniach uwzględniono zatem dodatek soli w ilości od 1,5 do 2,0 %.",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "3700e05b9f79"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "white-cabbage-v03"
+      ],
+      "uwaga": "Dolny zakres 1,5–2,0% to zalecenie dla przemysłu z powodów żywieniowych, nie bezpieczeństwa; w kartach nie stosujemy (B6-D3, FER-011)."
+    },
+    {
+      "id": "FER-216",
+      "k": "K5",
+      "twierdzenie": "IBPRS-PIB: w wyniku kiszenia pH produktów spada poniżej 4,2, zazwyczaj do 3,5–4.",
+      "twierdzenie_en": "IBPRS-PIB: fermentation lowers the pH of the products below 4.2, usually to 3.5–4.",
+      "zrodla": [
+        {
+          "adres": "https://ibprs.pl/wp-content/uploads/2025/01/Kapusta_kiszona_diagnoza_stanu_2024.pdf",
+          "miejsce": "IBPRS-PIB, Kapusta kiszona: diagnoza stanu (grudzień 2024, dla MRiRW); przytacza PN-A-77700:2006; wstęp: przebieg kiszenia",
+          "cytat": "W wyniku kiszenia pH produktów jest obniżane do wartości poniżej 4,2, zazwyczaj 3,5 - 4.",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "3700e05b9f79"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "white-cabbage-v03",
+        "cucumber-v03"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-217",
+      "k": "K5",
+      "twierdzenie": "IBPRS-PIB: wady kapusty kiszonej to m.in. niewłaściwa barwa, mętność zalewy, obce nuty zapachowe i widoczne oznaki zepsucia; zbyt miękka, rozpadająca się przy ucisku palca kapusta może oznaczać nadmierną fermentację lub złe przechowywanie.",
+      "twierdzenie_en": "IBPRS-PIB: defects of sauerkraut include wrong colour, cloudy brine, foreign odours and visible signs of spoilage; cabbage that is too soft and falls apart under finger pressure may indicate over-fermentation or poor storage.",
+      "zrodla": [
+        {
+          "adres": "https://ibprs.pl/wp-content/uploads/2025/01/Kapusta_kiszona_diagnoza_stanu_2024.pdf",
+          "miejsce": "IBPRS-PIB, Kapusta kiszona: diagnoza stanu (grudzień 2024, dla MRiRW); przytacza PN-A-77700:2006; ocena sensoryczna, punkty c–e",
+          "cytat": "niewłaściwa barwa, mętność zalewy, obce nuty zapachowe, widoczne oznaki zepsucia. | Zbyt miękka, rozpadająca się przy ucisku palca kapusta może oznaczać nadmierną fermentację lub nieprawidłowe przechowywanie.",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "3700e05b9f79"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "white-cabbage-v03"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-218",
+      "k": "K5",
+      "twierdzenie": "Codex STAN 115-1981 (norma handlowa): ogórki marynowane zakwasza się do pH 4,6 lub niższego przez fermentację naturalną lub kontrolowaną albo przez dodatek kwasu.",
+      "twierdzenie_en": "Codex STAN 115-1981 (trade standard): pickled cucumbers are acidified to a pH of 4.6 or less by natural or controlled fermentation or by adding acid.",
+      "zrodla": [
+        {
+          "adres": "https://www.fao.org/input/download/standards/251/CXS_115e.pdf",
+          "miejsce": "Codex STAN 115-1981 Pickled Cucumbers (plik skonsolidowany starszy; nowszej rewizji nie pobrano); §2.1(d), s. 1",
+          "cytat": "to include acidulation to a pH of 4.6 or less either by natural or controlled fermentation or",
+          "odczyt": "2026-11-02",
+          "szczebel": 1,
+          "weryfikacja": "curl+grep",
+          "sha12": "f60c7f26fa2f"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "cucumber-v03"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-219",
+      "k": "K5",
+      "twierdzenie": "Codex STAN 115-1981 (norma handlowa), zawartość soli w ogórkach: typ „Dill” 1,0–4,5%, typ „Salt sour” 5,0–10%.",
+      "twierdzenie_en": "Codex STAN 115-1981 (trade standard), salt content of cucumbers: “Dill” type 1.0–4.5%, “Salt sour” type 5.0–10%.",
+      "zrodla": [
+        {
+          "adres": "https://www.fao.org/input/download/standards/251/CXS_115e.pdf",
+          "miejsce": "Codex STAN 115-1981 Pickled Cucumbers (plik skonsolidowany starszy; nowszej rewizji nie pobrano); §2.2.3, tabela, wiersze (a) i (g), s. 3",
+          "cytat": "(a) Dill 0.4% to 2.0% 1.0% to 4.5% | (g) Salt sour 0.5% to 3.5% 5.0% to 10%",
+          "odczyt": "2026-11-02",
+          "szczebel": 1,
+          "weryfikacja": "curl+grep",
+          "sha12": "f60c7f26fa2f"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "cucumber-v03"
+      ],
+      "uwaga": "Tabela: kolumna 2 = kwasowość, kolumna 3 = sól; kolumny odczytane z nagłówka tabeli w tekście."
+    },
+    {
+      "id": "FER-220",
+      "k": "K5",
+      "twierdzenie": "Leitsätze (DE, produkt handlowy): kapusta kiszona ma pH poniżej 4,1, kwasowość co najmniej 0,75 g/100 ml w przeliczeniu na kwas mlekowy i zwykle nie więcej niż 3 g/100 ml soli.",
+      "twierdzenie_en": "Leitsätze (DE, trade product): sauerkraut has a pH below 4.1, an acidity of at least 0.75 g/100 ml as lactic acid and usually no more than 3 g/100 ml of salt.",
+      "zrodla": [
+        {
+          "adres": "https://www.bmel.de/SharedDocs/Downloads/DE/_Ernaehrung/Lebensmittel-Kennzeichnung/LeitsaetzeGemueseerzeugnisse.pdf?__blob=publicationFile",
+          "miejsce": "Deutsches Lebensmittelbuch, Leitsätze für Gemüseerzeugnisse (8.1.2008, zm. 27.9.2024); §8.2 Sauerkraut",
+          "cytat": "Der pH-Wert liegt unter 4,1. Der Säuregehalt, berechnet als Milchsäure, beträgt mindestens 0,75 g/100 ml. Der Kochsalzgehalt beträgt üblicherweise nicht mehr als 3 g/100 ml.",
+          "odczyt": "2026-11-02",
+          "szczebel": 1,
+          "weryfikacja": "curl+grep",
+          "sha12": "f74843db5df2"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "white-cabbage-v03"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-221",
+      "k": "K5",
+      "twierdzenie": "Leitsätze (DE): ogórki kiszone w solance (Salzdillgurken) mają kwasowość ogólną co najmniej 0,6% w przeliczeniu na kwas mlekowy, w tym co najmniej 0,2% kwasu mlekowego.",
+      "twierdzenie_en": "Leitsätze (DE): brine-fermented cucumbers (Salzdillgurken) have a total acidity of at least 0.6% as lactic acid, including at least 0.2% lactic acid.",
+      "zrodla": [
+        {
+          "adres": "https://www.bmel.de/SharedDocs/Downloads/DE/_Ernaehrung/Lebensmittel-Kennzeichnung/LeitsaetzeGemueseerzeugnisse.pdf?__blob=publicationFile",
+          "miejsce": "Deutsches Lebensmittelbuch, Leitsätze für Gemüseerzeugnisse (8.1.2008, zm. 27.9.2024); §6.2 Salzdillgurken",
+          "cytat": "Der Gesamtsäuregehalt, berechnet als Milchsäure, beträgt mindestens 0,6 %, der Gehalt an Milchsäure beträgt mindestens 0,2 %",
+          "odczyt": "2026-11-02",
+          "szczebel": 1,
+          "weryfikacja": "curl+grep",
+          "sha12": "f74843db5df2"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "cucumber-v03"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-222",
+      "k": "K5",
+      "twierdzenie": "Verbraucherzentrale Südtirol: na 1 kg warzyw potrzeba co najmniej 20 g soli; słoik stoi 5–10 dni w temperaturze pokojowej, potem warzywa fermentują jeszcze tydzień w lodówce.",
+      "twierdzenie_en": "Verbraucherzentrale Südtirol: at least 20 g of salt is needed per 1 kg of vegetables; the jar stands 5–10 days at room temperature, then the vegetables ferment another week in the refrigerator.",
+      "zrodla": [
+        {
+          "adres": "https://consumer.bz.it/de/print/pdf/node/35123",
+          "miejsce": "Verbraucherzentrale Südtirol, Fermentieren (07.02.2022); Fermentieren, Anleitung",
+          "cytat": "Pro Kilo Gemüse werden mindestens 20 Gramm Salz benötigt. | Das befüllte Glas lässt man fünf bis zehn Tage lang bei Raumtemperatur stehen. | Nach fünf bis zehn Tagen lässt man das Gemüse im Kühlschrank eine weitere Woche lang, nun langsamer, fermentieren",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "b44fdf37e6a2"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "white-cabbage-v03",
+        "cucumber-v03"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-223",
+      "k": "K5",
+      "twierdzenie": "BW „zu Tisch” (DE): 20 g soli na 1 kg warzyw; warzywa muszą być pod solanką, inaczej grozi pleśń; kożuch drożdżowy (Kahmhefe) według źródła nie szkodzi zdrowiu, ale psuje smak i należy go zebrać.",
+      "twierdzenie_en": "BW “zu Tisch” (DE): 20 g of salt per 1 kg of vegetables; vegetables must stay under brine, otherwise mould is a risk; according to the source a yeast film (Kahmhefe) is not harmful to health but spoils the taste and should be removed.",
+      "zrodla": [
+        {
+          "adres": "https://www.bodenseekreis.de/fileadmin/03_umwelt_landnutzung/landwirtschaft/downloads/fachinfo_ernaehrung/Fermentieren_Handreichung_und_Rezepte__BaWue_zu_Tisch.pdf",
+          "miejsce": "Landratsamt Bodenseekreis, Landwirtschaftsamt (BW „zu Tisch”), Fermentieren: Handreichung und Rezepte (bez daty); Hinweise; Grundrezept; Kahmhefe",
+          "cytat": "Gemüse muss unter Salzlake sein - sonst Schimmelgefahr. | (Pro Kilogramm Gemüse 20 g Salz bzw. 1 Esslöffel Salz) | kann zur Bildung von Kahmhefe führen. Diese ist zwar gesundheitlich unbedenklich, beeinträchtigt aber den Geschmack.",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "78147d17eaf7"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "white-cabbage-v03",
+        "cucumber-v03"
+      ],
+      "uwaga": "Zdanie „należy go zebrać”: źródło dalej „Kahmhefe sollte von der Oberf[läche]…” (ucięte w odczycie liniowym); w kartach bez uspokajania (B6-D5)."
+    },
+    {
+      "id": "FER-224",
+      "k": "K5",
+      "twierdzenie": "BW „zu Tisch”: słoik stoi zwykle tydzień w temperaturze pokojowej, potem ok. 2–3 tygodnie w lodówce; przy pH poniżej 3,5–3,8 kiszonka w chłodzie wytrzymuje ok. 6 miesięcy.",
+      "twierdzenie_en": "BW “zu Tisch”: the jar usually stands one week at room temperature, then about 2–3 weeks in the refrigerator; at a pH below 3.5–3.8 the ferment keeps about 6 months chilled.",
+      "zrodla": [
+        {
+          "adres": "https://www.bodenseekreis.de/fileadmin/03_umwelt_landnutzung/landwirtschaft/downloads/fachinfo_ernaehrung/Fermentieren_Handreichung_und_Rezepte__BaWue_zu_Tisch.pdf",
+          "miejsce": "Landratsamt Bodenseekreis, Landwirtschaftsamt (BW „zu Tisch”), Fermentieren: Handreichung und Rezepte (bez daty); Grundrezept, Gärung und Lagerung",
+          "cytat": "Das Glas bleibt, je nach Gemüse, meist eine Woche bei Zimmertemperatur | Danach kommt es für ca 2-3 Wochen in den Kühlschrank. | (ab einem pH-Wert unter 3,5 – 3,8 ist es gekühlt etwa 6 Monate haltbar).",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "78147d17eaf7"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "white-cabbage-v03",
+        "cucumber-v03"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-225",
+      "k": "K5",
+      "twierdzenie": "LGL Bayern: żywność z widoczną pleśnią, poza nielicznymi wyjątkami (np. ser twardy), należy wyrzucić, a nie jeść ani dalej przetwarzać.",
+      "twierdzenie_en": "LGL Bayern: food with visible mould should, with few exceptions (e.g. hard cheese), be discarded rather than eaten or processed further.",
+      "zrodla": [
+        {
+          "adres": "https://www.lgl.bayern.de/lebensmittel/hygiene/verderb/et_schimmelpilzbefall.htm",
+          "miejsce": "Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheit, Schimmelpilzbefall (bez daty); Schimmelpilzbefall, zasada ogólna",
+          "cytat": "Generell gilt, dass ein Lebensmittel mit sichtbarem Schimmelbefall, von wenigen Ausnahmen abgesehen ( z. B. Hartkäse), weder verzehrt noch weiterverarbeitet, sondern entsorgt werden sollte.",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "fd61a6631944"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "white-cabbage-v03",
+        "cucumber-v03",
+        "napa-cabbage-v05",
+        "napa-cabbage-v07",
+        "napa-cabbage-v08"
+      ],
+      "uwaga": "Zasada ogólna, nie o kiszonkach; kierunkowo popiera D-d i P-01 opcję A."
+    },
+    {
+      "id": "FER-226",
+      "k": "K5",
+      "twierdzenie": "Ministerstwo AT (opis tradycji): w naczyniu z kapustą nie może zostać powietrze, bo zamiast kwaśnej fermentacji może zacząć się gnicie.",
+      "twierdzenie_en": "Austrian ministry (tradition description): no air may remain in the cabbage vessel, because putrefaction could start instead of acid fermentation.",
+      "zrodla": [
+        {
+          "adres": "https://www.bmluk.gv.at/themen/lebensmittel/trad-lebensmittel/speisen/sauerkraut.html",
+          "miejsce": "Ministerstwo AT, rejestr Traditionelle Lebensmittel: Sauerkraut (przytacza Codex Alimentarius Austriacus B24); Herstellung",
+          "cytat": "Wichtig ist, dass keine Luft im Gefäß verbleibt, da sonst anstatt der sauren Gärung ein Fäulnisprozess einsetzen könnte.",
+          "odczyt": "2026-11-02",
+          "szczebel": 3,
+          "weryfikacja": "curl+grep",
+          "sha12": "a7428c2e568e"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": true,
+      "warianty": [
+        "white-cabbage-v03"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-227",
+      "k": "K5",
+      "twierdzenie": "Listeria monocytogenes może przeżyć i rosnąć w żywności chłodzonej, także w ogórkach kiszonych, przy pH ok. 4,0–5,0 i stężeniu soli 3–4% (przytoczenie Kim i in. 2005).",
+      "twierdzenie_en": "Listeria monocytogenes can survive and grow in refrigerated foods, including pickled or fermented cucumbers, at a pH of about 4.0 to 5.0 and salt concentrations of 3 to 4% (citing Kim et al. 2005).",
+      "zrodla": [
+        {
+          "adres": "https://iris.unito.it/retrieve/handle/2318/1958832/1245212/1-s2.0-S0963996923013996-main.pdf",
+          "miejsce": "Cardinali i in., Food Research International 177 (2024) 113851 (ogórki tradycyjne z Polski), CC BY; Introduction",
+          "cytat": "Listeria monocytogenes is an opportunistic human pathogen that can survive and grow in refrigerated foods (including pickled or fermented cucumbers) with pH values of approximately 4.0 to 5.0 and salt concentrations of 3 to 4 %.",
+          "odczyt": "2026-11-02",
+          "szczebel": 2,
+          "weryfikacja": "curl+grep",
+          "sha12": "7edcb3b86c7e"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "cucumber-v03",
+        "cucumber-v02"
+      ],
+      "uwaga": "Przytoczenie wtórne w pracy recenzowanej; oryginału Kim i in. 2005 nie czytano."
+    },
+    {
+      "id": "FER-228",
+      "k": "K5",
+      "twierdzenie": "Stężenie soli w solance i temperatura to główne czynniki wpływające na powstawanie amin biogennych podczas fermentacji; badano ogórki przy 0,5%, 1,5% i 5,0% NaCl w 11 i 23 °C.",
+      "twierdzenie_en": "Brine salt concentration and temperature are the major factors affecting biogenic amine formation during fermentation; cucumbers were studied at 0.5%, 1.5% and 5.0% NaCl at 11 and 23 °C.",
+      "zrodla": [
+        {
+          "adres": "https://rcastoragev2.blob.core.windows.net/096e6e16d21180df63095097449b04c7/PMC8510100.pdf",
+          "miejsce": "Świder i in. (IBPRS-PIB), Molecules 2021, 26, 5796 (kopia PMC8510100); Abstract",
+          "cytat": "Salt concentrations in brine and temperature are the major environmental factors that affect activity of microorganisms and, thus may affect formation of biogenic amines (BAs) during the fermentation process. | A model system to ferment cucumbers with low salt (0.5%, 1.5% or 5.0% NaCl) at two temperatures (11 or 23",
+          "odczyt": "2026-11-02",
+          "szczebel": 2,
+          "weryfikacja": "curl+grep",
+          "sha12": "cc0b279fa9d4"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "cucumber-v02"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-230",
+      "k": "K6",
+      "twierdzenie": "Codex STAN 302-2011: sos rybny nie może zawierać więcej niż 40 mg histaminy na 100 g w żadnej badanej jednostce; sól co najmniej 200 g/l.",
+      "twierdzenie_en": "Codex STAN 302-2011: fish sauce shall not contain more than 40 mg histamine per 100 g in any sample unit tested; salt not less than 200 g/l.",
+      "zrodla": [
+        {
+          "adres": "https://www.fao.org/input/download/standards/11796/CXS_302e.pdf",
+          "miejsce": "Codex STAN 302-2011 Fish Sauce (zm. 2012, 2013); §3.2 (sól) i §3.3 (histamina)",
+          "cytat": "The product shall not contain more than 40 mg histamine /100g of fish sauce in any sample unit tested.",
+          "odczyt": "2026-11-02",
+          "szczebel": 1,
+          "weryfikacja": "curl+grep",
+          "sha12": "13b15e079f74"
+        },
+        {
+          "adres": "https://www.fao.org/input/download/standards/11796/CXS_302e.pdf",
+          "miejsce": "Codex STAN 302-2011 Fish Sauce (zm. 2012, 2013); §3.2",
+          "cytat": "salt: not less than 200g/l, calculated as NaCl.",
+          "odczyt": "2026-11-02",
+          "szczebel": 1,
+          "weryfikacja": "curl+grep",
+          "sha12": "13b15e079f74"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "napa-cabbage-v07",
+        "napa-cabbage-v08"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-231",
+      "k": "K6",
+      "twierdzenie": "UE (rozp. 1019/2013): sos rybny wytwarzany przez fermentację produktów rybołówstwa ma kryterium histaminy 400 mg/kg (jedna próbka) dla produktów w obrocie przez cały okres przydatności.",
+      "twierdzenie_en": "EU (Reg. 1019/2013): fish sauce produced by fermentation of fishery products has a histamine criterion of 400 mg/kg (one sample) for products on the market during their shelf life.",
+      "zrodla": [
+        {
+          "adres": "https://www.legislation.gov.uk/eur/2013/1019/data.html",
+          "miejsce": "Rozporządzenie Komisji (UE) nr 1019/2013 (histamina w sosie rybnym); tekst z legislation.gov.uk (kopia brytyjska), nie z EUR-Lex; Załącznik, wiersz 1.27a",
+          "cytat": "Fish sauce produced by fermentation of fishery products Histamine 1 400 mg/kg",
+          "odczyt": "2026-11-02",
+          "szczebel": 1,
+          "weryfikacja": "curl+grep",
+          "sha12": "9d0db2a6d58f"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "napa-cabbage-v07",
+        "napa-cabbage-v08"
+      ],
+      "uwaga": "Tekst z legislation.gov.uk (wersja brytyjska aktu UE); krok kontrolny: porównać z EUR-Lex (curl nie próbowano w tej sesji)."
+    },
+    {
+      "id": "FER-232",
+      "k": "K6",
+      "twierdzenie": "Przegląd (Foods 2019): w części produktów kimchi histamina i tyramina przekraczały zalecany limit 100 mg/kg; wiele badań wskazuje, że jeotgal i aekjeot (solone i fermentowane owoce morza, sos rybny) mogą zwiększać ich zawartość.",
+      "twierdzenie_en": "Review (Foods 2019): some kimchi products contained histamine and tyramine above the recommended limit of 100 mg/kg; many studies suggest that jeotgal and aekjeot (salted and fermented seafood, fish sauce) may add to their content.",
+      "zrodla": [
+        {
+          "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6915361/fullTextXML",
+          "miejsce": "Park, Lee, Mah, Foods 2019 (aminy biogenne w kimchi), przegląd; Abstract",
+          "cytat": "some kimchi products were found to contain histamine and tyramine at potentially hazardous concentrations exceeding the recommended limit of 100 mg/kg for both histamine and tyramine. | Many studies have suggested that Jeotgal and Aekjeot may contribute to the histamine and tyramine content in kimchi.",
+          "odczyt": "2026-11-02",
+          "szczebel": 2,
+          "weryfikacja": "curl+grep",
+          "sha12": "2ec87d48f52b"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "napa-cabbage-v07",
+        "napa-cabbage-v08"
+      ],
+      "uwaga": "Objaśnienie „jeotgal, aekjeot” w nawiasie to dopowiedzenie redakcji (kontekst przeglądu), nie cytat."
+    },
+    {
+      "id": "FER-233",
+      "k": "K6",
+      "twierdzenie": "Przegląd (Foods 2019): wszystkie badane produkty kkanari-aekjeot i myeolchi-aekjeot (sosy rybne) miały powyżej 100 mg/kg histaminy.",
+      "twierdzenie_en": "Review (Foods 2019): all tested kkanari-aekjeot and myeolchi-aekjeot (fish sauce) products contained more than 100 mg/kg histamine.",
+      "zrodla": [
+        {
+          "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6915361/fullTextXML",
+          "miejsce": "Park, Lee, Mah, Foods 2019 (aminy biogenne w kimchi), przegląd; Histamine in fish sauces",
+          "cytat": "All Kkanari - aekjeot and Myeolchi - aekjeot products contained histamine concentrations which exceeded 100 mg/kg",
+          "odczyt": "2026-11-02",
+          "szczebel": 2,
+          "weryfikacja": "curl+grep",
+          "sha12": "2ec87d48f52b"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "napa-cabbage-v07",
+        "napa-cabbage-v08"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-234",
+      "k": "K6",
+      "twierdzenie": "Przegląd (Frontiers 2016): kimchi zwykle przechowuje się na dwa sposoby: 3 tygodnie w 4 °C (dobrze dojrzałe) albo tylko 3–4 dni w temperaturze pokojowej.",
+      "twierdzenie_en": "Review (Frontiers 2016): kimchi is usually stored in two ways, either 3 weeks at 4 °C (well ripened) or only 3–4 days at room temperature.",
+      "zrodla": [
+        {
+          "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5039233/fullTextXML",
+          "miejsce": "Frontiers in Microbiology 2016, przegląd o kimchi (PMC5039233); Kimchi fermentation",
+          "cytat": "Kimchi is usually stored in two ways, either for 3 weeks at 4°C, which is considered as well ripened or for only 3–4 d at room temperature.",
+          "odczyt": "2026-11-02",
+          "szczebel": 2,
+          "weryfikacja": "curl+grep",
+          "sha12": "78e72bed8a55"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": false,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "napa-cabbage-v05",
+        "napa-cabbage-v07",
+        "napa-cabbage-v08"
+      ],
+      "uwaga": "Opis praktyki, nie wytyczna bezpieczeństwa; w kartach krótszy czas UGA (48 h, FER-062), B6-D6."
+    },
+    {
+      "id": "FER-235",
+      "k": "K6",
+      "twierdzenie": "Heliyon 2024: kimchi zwykle przechowuje się w niskiej temperaturze (2–6 °C); można je też trzymać kilka dni w temperaturze pokojowej (20 °C), a potem przenieść do chłodu.",
+      "twierdzenie_en": "Heliyon 2024: kimchi is commonly stored at low temperature (2–6 °C); it can also be kept for several days at room temperature (20 °C) before moving to colder storage.",
+      "zrodla": [
+        {
+          "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10926072/fullTextXML",
+          "miejsce": "Heliyon 2024 (temperatura fermentacji kimchi, PMC10926072); Introduction",
+          "cytat": "Kimchi is commonly stored at a low temperature (2–6 °C). | Alternatively, kimchi can be stored at a relatively high temperature, typically at room temperature (20 °C), for several days before being moved to colder storage.",
+          "odczyt": "2026-11-02",
+          "szczebel": 2,
+          "weryfikacja": "curl+grep",
+          "sha12": "1a82e2f205a4"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": false,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "napa-cabbage-v05",
+        "napa-cabbage-v07",
+        "napa-cabbage-v08"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-236",
+      "k": "K6",
+      "twierdzenie": "Kanada: ognisko STEC O157 z 14 przypadkami w dwóch prowincjach; 10 z 11 chorych z danymi jadło kimchi jednej marki; pierwsze takie ognisko opisane poza Azją Wschodnią.",
+      "twierdzenie_en": "Canada: an STEC O157 outbreak with 14 cases in two provinces; 10 of 11 cases with data ate kimchi of one brand; the first such outbreak reported outside East Asia.",
+      "zrodla": [
+        {
+          "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10369422/fullTextXML",
+          "miejsce": "Epidemiology and Infection 2023 (PHAC i in.), ognisko STEC O157 po kimchi w Kanadzie; Abstract; Discussion",
+          "cytat": "A total of 14 cases of STEC O157 were identified in this outbreak across two provinces in Western Canada. | This was the first outbreak of its kind to be reported outside of East Asia",
+          "odczyt": "2026-11-02",
+          "szczebel": 2,
+          "weryfikacja": "curl+grep",
+          "sha12": "0ffd695be6c5"
+        },
+        {
+          "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10369422/fullTextXML",
+          "miejsce": "Epidemiology and Infection 2023 (PHAC i in.), ognisko STEC O157 po kimchi w Kanadzie; Abstract",
+          "cytat": "Of 11 cases with information available on fermented vegetable exposures, 91% (10/11) reported consuming Kimchi Brand A during their exposure period.",
+          "odczyt": "2026-11-02",
+          "szczebel": 2,
+          "weryfikacja": "curl+grep",
+          "sha12": "0ffd695be6c5"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "napa-cabbage-v05",
+        "napa-cabbage-v07",
+        "napa-cabbage-v08"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-237",
+      "k": "K6",
+      "twierdzenie": "Kiszone warzywa są kwaśne, więc często uważa się je za środowisko nieprzyjazne patogenom i mało prawdopodobne źródło zatruć; ognisko w Kanadzie pokazuje ryzyko takich produktów jak kimchi.",
+      "twierdzenie_en": "Fermented vegetables are acidic and so are often thought to be an inhospitable environment for pathogens and an unlikely vehicle for foodborne outbreaks; the Canadian outbreak shows the risk of products like kimchi.",
+      "zrodla": [
+        {
+          "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10369422/fullTextXML",
+          "miejsce": "Epidemiology and Infection 2023 (PHAC i in.), ognisko STEC O157 po kimchi w Kanadzie; Introduction; Discussion",
+          "cytat": "Fermented vegetable products are acidic in nature and are therefore often thought to be an inhospitable environment to pathogens, and an unlikely vehicle for foodborne outbreaks | highlights the potential food safety risks of fermented vegetable products like kimchi.",
+          "odczyt": "2026-11-02",
+          "szczebel": 2,
+          "weryfikacja": "curl+grep",
+          "sha12": "0ffd695be6c5"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "napa-cabbage-v05",
+        "napa-cabbage-v07",
+        "napa-cabbage-v08"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-238",
+      "k": "K6",
+      "twierdzenie": "Korea 2024: ognisko norowirusa GII.17 w 24 szkołach, 862 przypadki na 4276 narażonych; wirusa wykryto w kimchi z kapusty, a skażenie nastąpiło prawdopodobnie przez składniki albo pracowników przy produkcji.",
+      "twierdzenie_en": "Korea 2024: a norovirus GII.17 outbreak in 24 schools, 862 cases among 4276 exposed; the virus was detected in cabbage kimchi, and contamination likely occurred through ingredients or food handlers during manufacturing.",
+      "zrodla": [
+        {
+          "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12869137/fullTextXML",
+          "miejsce": "Epidemiology and Health 2025, ognisko norowirusa GII.17 po kimchi w szkołach (Korea, 2024); Abstract; Discussion",
+          "cytat": "862 cases among 4,276 individuals exposed across 24 affected schools. | Norovirus GII.17 was detected in symptomatic individuals, asymptomatic food handlers, and cabbage kimchi products.",
+          "odczyt": "2026-11-02",
+          "szczebel": 2,
+          "weryfikacja": "curl+grep",
+          "sha12": "0998946fa6fb"
+        },
+        {
+          "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12869137/fullTextXML",
+          "miejsce": "Epidemiology and Health 2025, ognisko norowirusa GII.17 po kimchi w szkołach (Korea, 2024); Discussion",
+          "cytat": "Kimchi contamination likely occurred either through ingredients or food handlers during the manufacturing process.",
+          "odczyt": "2026-11-02",
+          "szczebel": 2,
+          "weryfikacja": "curl+grep",
+          "sha12": "0998946fa6fb"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "napa-cabbage-v05",
+        "napa-cabbage-v07",
+        "napa-cabbage-v08"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-239",
+      "k": "K6",
+      "twierdzenie": "Korea 2013: badanie kliniczno-kontrolne wykazało silny związek objawów zapalenia żołądka i jelit z jedzeniem fermentowanych ostryg; autorzy wskazują ryzyko norowirusa z surowych ostryg.",
+      "twierdzenie_en": "Korea 2013: a case-control study showed a strong association between gastroenteritis symptoms and eating fermented oysters; the authors point to the norovirus risk from raw oysters.",
+      "zrodla": [
+        {
+          "adres": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9150470",
+          "miejsce": "Cho i in., Epidemiology and Infection 2016 (ognisko 2013, fermentowane ostrygi); tylko streszczenie; Abstract (tylko streszczenie)",
+          "cytat": "Our case-control study showed that a strong association was observed between AGE symptoms and fermented oyster consumption. | proper management of raw oysters is necessary and the food industry should be aware of the risk of viral gastroenteritis posed by fermented oysters contaminated with NoVs.",
+          "odczyt": "2026-11-02",
+          "szczebel": 2,
+          "weryfikacja": "curl+grep",
+          "sha12": "b125039a899c"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "napa-cabbage-v07",
+        "napa-cabbage-v08"
+      ],
+      "uwaga": "Przeczytane tylko streszczenie (pełny tekst za reCAPTCHA)."
+    },
+    {
+      "id": "FER-240",
+      "k": "K6",
+      "twierdzenie": "Foods 2025: fermentacja zwykle skutecznie eliminuje E. coli, ale część badań opisuje jej przeżycie we wczesnej fazie fermentacji kimchi; według nowszych badań liczba E. coli spada w ciągu 1–2 dni.",
+      "twierdzenie_en": "Foods 2025: fermentation is typically effective at eliminating E. coli, but some studies report its survival in the early stages of kimchi fermentation; recent research found E. coli reduced within 1–2 days.",
+      "zrodla": [
+        {
+          "adres": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12155097/fullTextXML",
+          "miejsce": "Foods 2025 (E. coli w fermentacji kimchi, PMC12155097); Introduction",
+          "cytat": "While fermentation is typically effective at eliminating E. coli , some studies report its survival in early fermentation stages. | Recent research found that E. coli can be reduced within 1–2 days of kimchi fermentation",
+          "odczyt": "2026-11-02",
+          "szczebel": 2,
+          "weryfikacja": "curl+grep",
+          "sha12": "3cac1f7dc389"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "napa-cabbage-v05",
+        "napa-cabbage-v07",
+        "napa-cabbage-v08"
+      ],
+      "uwaga": null
+    },
+    {
+      "id": "FER-241",
+      "k": "K6",
+      "twierdzenie": "Korea 2011: kimchi z kapusty po raz pierwszy wskazano jako nośnik norowirusa między wodą gruntową a chorymi.",
+      "twierdzenie_en": "Korea 2011: cabbage kimchi was first identified as the vehicle of norovirus transmission between groundwater and infected patients.",
+      "zrodla": [
+        {
+          "adres": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9151260",
+          "miejsce": "Epidemiology and Infection 2014 (norowirus z wody gruntowej przez kimchi, 2011); tylko streszczenie; Abstract (tylko streszczenie)",
+          "cytat": "cabbage kimchi was first identified as the vehicle of transmission between groundwater and infected patients in an outbreak in 2011.",
+          "odczyt": "2026-11-02",
+          "szczebel": 2,
+          "weryfikacja": "curl+grep",
+          "sha12": "d7011119a614"
+        }
+      ],
+      "status": "robocze",
+      "uproszczenie": null,
+      "krytyczne": true,
+      "przeglad": null,
+      "jednoZrodlo": false,
+      "warianty": [
+        "napa-cabbage-v05",
+        "napa-cabbage-v07",
+        "napa-cabbage-v08"
+      ],
+      "uwaga": "Tylko streszczenie."
+    }
+  ],
+  "ponowny_odczyt": [
+    {
+      "id": "FER-068",
+      "klucz": "ask930666",
+      "cytat": "Fermentation is not an approved, safe method of preserving garlic. There are currently no validated recipes for fermenting garlic."
+    },
+    {
+      "id": "FER-069",
+      "klucz": "kstate",
+      "cytat": "Garlic is a low acid plant food, and honey varies from low to high acidity."
+    },
+    {
+      "id": "FER-070",
+      "klucz": "ask822985",
+      "cytat": "There are no research-based recipes to prove that fermenting garlic in raw honey is a safe practice or how to do it safely."
+    },
+    {
+      "id": "FER-034",
+      "klucz": "nchfp-kraut",
+      "cytat": "At temperatures between 70º and 75ºF, kraut will be fully fermented in about 3 to 4 weeks"
+    },
+    {
+      "id": "FER-044",
+      "klucz": "nchfp-dill",
+      "cytat": "Caution: If the pickles become soft, slimy, or develop a disagreeable odor, discard them."
+    },
+    {
+      "id": "FER-045",
+      "klucz": "nchfp-dill",
+      "cytat": "Fully fermented pickles may be stored in the original container for about 4 to 6 months, provided they are refrigerated and surface scum and molds are removed regularly."
+    }
+  ],
+  "porownanie_K5": [
+    {
+      "wielkosc": "Sól, ogórki",
+      "nchfp": "Dill Pickles: 1/2 szklanki soli + 1/4 szklanki octu 5% na 8 szklanek wody (FER-042); nie zmniejszać soli (FER-011)",
+      "europa": "pacjent.gov.pl 1 łyżka na 1 l, bez octu (FER-210); PN-A-77701 w produkcie 1,2–2,5% (FER-212); Codex 115 „Dill” 1,0–4,5% (FER-219); Listeria przeżywa w chłodzonych ogórkach przy 3–4% soli i pH 4,0–5,0 (FER-227)",
+      "rozstrzygniecie": "NCHFP (szczebel 1, jedyny przetestowany przepis). Poradnik PL ma mniej soli i nie ma octu, a nie jest przepisem przetestowanym. Ogórki bez octu i małosolne zostają `do-researchu` (B6-D2)."
+    },
+    {
+      "wielkosc": "Sól, kapusta",
+      "nchfp": "3 łyżki soli na 5 funtów (FER-029); Wisconsin 2,25–2,5% wagowo (FER-031)",
+      "europa": "IBPRS-PIB: dla fermentacji 2,0–2,5%, ale zalecenie raportu 1,5–2,0% (FER-215); PN-A-77700 1,2–2,5% w produkcie (FER-214); VZ Südtirol i BW: co najmniej 20 g/kg, czyli 2% (rachunek: 20 g / 1000 g) (FER-222, FER-223); Leitsätze w produkcie zwykle ≤ 3 g/100 ml (FER-220)",
+      "rozstrzygniecie": "NCHFP i Wisconsin (2,25–2,5%). To górna część wspólnego przedziału, a 1,5–2,0% odrzucamy (FER-011; B6-D3)."
+    },
+    {
+      "wielkosc": "Temperatura",
+      "nchfp": "kapusta 70–75 °F (21–24 °C), 60–65 °F wolniej, < 60 °F może nie fermentować, > 75 °F miękka (FER-034); ogórki 70–75 °F, 55–65 °F dopuszczalne, unikać > 80 °F (FER-043)",
+      "europa": "pacjent.gov.pl ok. 20 °C na początku (FER-211); VZ, BW „temperatura pokojowa” bez liczby (FER-222, FER-224); IBPRS bez zakresu dla domu",
+      "rozstrzygniecie": "NCHFP: zakres liczbowy i termometr (D-e). 20 °C mieści się w przedziale NCHFP „wolniej” (60–65 °F ≈ 16–18 °C) i pod dolną granicą zakresu zalecanego (70 °F ≈ 21 °C; rachunek °C = (°F − 32) / 1,8). Karta podaje zakres NCHFP."
+    },
+    {
+      "wielkosc": "Czas",
+      "nchfp": "kapusta i ogórki: pełna fermentacja 3–4 tyg. w 70–75 °F; 5–6 tyg. w chłodniej (FER-034, FER-043)",
+      "europa": "pacjent.gov.pl od kilku do 8 dni (FER-211); VZ 5–10 dni, potem tydzień w lodówce (FER-222); BW tydzień, potem 2–3 tyg. w lodówce (FER-224)",
+      "rozstrzygniecie": "NCHFP 3–4 tygodnie. Krótkie czasy europejskie zakładają przeniesienie do lodówki przed pełnym zakwaszeniem, a bez pomiaru pH nie da się tego sprawdzić (FER-008). Wybieramy wariant dłuższy, czyli bardziej kwaśny (B6-D4)."
+    },
+    {
+      "wielkosc": "pH (kontekst)",
+      "nchfp": "dom: gotowe przy pH ≤ 4,60 i ustaniu bąbelków (FER-007, UMN)",
+      "europa": "produkt: PN kapusta 3,4–4,0 (FER-214); po kiszeniu < 4,2, zwykle 3,5–4 (FER-216); Leitsätze kapusta < 4,1 (FER-220); Codex 115 ogórki ≤ 4,6 (FER-218); BW ok. 6 mies. w chłodzie przy pH < 3,5–3,8 (FER-224)",
+      "rozstrzygniecie": "W kartach próg domowy FER-007. Normy produktowe tylko jako kontekst „kiszonka handlowa ma zwykle…”, nigdy jako próg dla domu (B6-D3)."
+    },
+    {
+      "wielkosc": "Oznaki zepsucia",
+      "nchfp": "ogórki miękkie, śliskie, nieprzyjemny zapach = wyrzucić (FER-044); kapusta śliska = wyrzucić, małe plamy pleśni zebrać (FER-055)",
+      "europa": "IBPRS: barwa, mętna zalewa, obcy zapach, zbyt miękka (FER-217); mięknienie i gazowanie od drobnoustrojów (FER-213); powietrze w naczyniu = gnicie (FER-226); bez solanki pleśń (FER-223); LGL: widoczna pleśń = wyrzucić (FER-225)",
+      "rozstrzygniecie": "D-d wzmocnione przez LGL (szczebel 3, urząd): poza cienkim białym kożuchem każda pleśń, śluz, obcy zapach albo rozpadanie się = wyrzuć całość. P-01: rekomendacja A bez zmian (B6-D5)."
+    },
+    {
+      "wielkosc": "Przechowywanie",
+      "nchfp": "kapusta: lodówka, szczelnie, kilka miesięcy albo wekowanie (FER-036, FER-037); ogórki: lodówka ok. 4–6 mies. (FER-045)",
+      "europa": "pacjent.gov.pl: chłodne miejsce (FER-211); BW ok. 6 mies. przy pH < 3,5–3,8 (FER-224); UMN do 9 mies. (E1 §4.5)",
+      "rozstrzygniecie": "NCHFP (krótsze i z wyższego szczebla). „Chłodne miejsce” bez liczby w karcie zastępujemy lodówką."
+    }
+  ],
+  "kimchi_K6": [
+    {
+      "temat": "Sól",
+      "zrodla": "Codex 223: 1,0–4,0% m/m (FER-059); CSU 2–5% (FER-061). Nowe źródła szczebla 1–3 nie podają soli w kimchi; Codex 302: sos rybny ≥ 200 g/l (FER-230)",
+      "rozstrzygniecie": "Bez zmian: przepis CSU (FER-066) i część wspólna 2,0–4,0% jako kontekst. Procent soli w domowym kimchi spoza CSU: pytanie otwarte B6-P1."
+    },
+    {
+      "temat": "Temperatura i czas fermentacji",
+      "zrodla": "UGA: 48 h w temperaturze pokojowej, potem lodówka (FER-062); przegląd 2016: 3–4 dni w temperaturze pokojowej albo 3 tyg. w 4 °C (FER-234); Heliyon 2024: kilka dni w 20 °C, potem chłód (FER-235); E. coli może przeżyć wczesną fazę, spada w ciągu 1–2 dni (FER-240)",
+      "rozstrzygniecie": "Najkrócej w cieple: najwyżej 48 h w temperaturze pokojowej (UGA), potem lodówka (B6-D6)."
+    },
+    {
+      "temat": "Lodówka",
+      "zrodla": "UGA: 41 °F (5 °C) lub niżej (FER-062); Heliyon: zwykle 2–6 °C (FER-235); czas: CSU „najlepiej w ciągu tygodnia”, OSU do 6 mies. (FER-067); przegląd: 3 tyg. w 4 °C (FER-234)",
+      "rozstrzygniecie": "Lodówka 5 °C lub niżej (UGA; górna granica 6 °C z Heliyon jest wyższa, więc odrzucona). Czas w karcie: CSU „najlepiej w ciągu tygodnia” i „wyrzuć przy oznakach zepsucia” (FER-057). Bez „6 miesięcy” (B6-D6)."
+    },
+    {
+      "temat": "Sos rybny, jeotgal, surowe owoce morza",
+      "zrodla": "Codex 302: histamina ≤ 40 mg/100 g (FER-230); UE 1019/2013: 400 mg/kg dla sosu rybnego z fermentacji (FER-231); przegląd 2019: kimchi > 100 mg/kg histaminy i tyraminy, udział jeotgal/aekjeot; wszystkie badane sosy kkanari i myeolchi > 100 mg/kg (FER-232, FER-233); fermentowane ostrygi i norowirus (FER-239); alergeny (FER-064)",
+      "rozstrzygniecie": "W kartach tylko sos rybny kupny, z etykietą, w ilości z przepisu CSU. Bez domowego jeotgal i bez surowych ostryg i owoców morza. Wariant wegański (v05) bez sosu rybnego. Ostrzeżenie o alergenach (B6-D7)."
+    },
+    {
+      "temat": "Higiena (dlaczego kwaśne nie znaczy bezpieczne)",
+      "zrodla": "STEC O157 w Kanadzie, 14 przypadków (FER-236, FER-237); norowirus GII.17 w 24 szkołach, 862 przypadki (FER-238); norowirus z wody gruntowej przez kimchi (FER-241)",
+      "rozstrzygniecie": "Karta kimchi ma krótki akapit „kwaśne nie znaczy bezpieczne”: mycie rąk i sprzętu, woda pitna, świeże składniki (UC Davis Key #1–2; źródło E1 Z21). To fakty o ogniskach, nie straszenie; brzmienie ustala rola 04."
+    }
+  ],
+  "karty_ostrzezenia_K3": [
+    {
+      "wariant": "garlic-v01",
+      "nazwa": "czosnek kiszony w ząbkach w solance",
+      "dlaczego": "Fermentacja nie jest zatwierdzoną metodą utrwalania czosnku i nie ma zwalidowanych przepisów (FER-068). Czosnek jest niskokwasowy: pH ok. 5,80 (ACI-106), a żywność niskokwasowa ma pH powyżej 4,6 (FER-004). Gdy fermentacja się nie uda, grozi jad kiełbasiany (FER-200).",
+      "zamiast": "Obrany czosnek w winie albo occie w lodówce, ok. 4 miesiące, wyrzucić przy pleśni (FER-203, FER-204). Mrożenie (FER-205) albo suszenie (SUS-037). Nie wekować (OLE-008). Przetestowane przepisy kiszonek: ogórki i kapusta NCHFP (FER-202), czyli karty cucumber-v01/v03 i white-cabbage-v01/v03.",
+      "tw": [
+        "FER-068",
+        "ACI-106",
+        "FER-004",
+        "FER-200",
+        "FER-201",
+        "FER-202",
+        "FER-203",
+        "FER-204",
+        "FER-205",
+        "SUS-037",
+        "OLE-008"
+      ]
+    },
+    {
+      "wariant": "garlic-v02",
+      "nazwa": "kiszone całe główki z burakiem",
+      "dlaczego": "Jak garlic-v01 (FER-068, FER-004, FER-200). Burak też jest niskokwasowy: pH 5,30–6,60 (ACI-104; SLO-032 podaje 4,9–5,6, obie wartości powyżej 4,6), więc nie zakwasza czosnku.",
+      "zamiast": "Jak garlic-v01. Do zakwaszania kwasem cytrynowym (metoda Idaho, olej) czosnek trzeba posiekać, całe ząbki nie osiągają wymaganej kwasowości (OLE-017). Tej metody nie podajemy jako zamiennika kiszenia główek.",
+      "tw": [
+        "FER-068",
+        "FER-004",
+        "FER-200",
+        "ACI-104",
+        "SLO-032",
+        "FER-203",
+        "FER-204",
+        "FER-205",
+        "OLE-017",
+        "OLE-008"
+      ]
+    },
+    {
+      "wariant": "garlic-v03",
+      "nazwa": "czosnek fermentowany w surowym miodzie",
+      "dlaczego": "K-State: ryzykowne; czosnek niskokwasowy, kwasowość miodu zmienna, aktywność wody mieszaniny nieznana, obawa przed jadem kiełbasianym (FER-069). Nie ma przepisów opartych na badaniach; pomiar paskiem pH jest niedokładny (FER-070). Miód nie dla niemowląt poniżej 12 miesięcy (SLO-036).",
+      "zamiast": "Czosnek w winie lub occie w lodówce (FER-203, FER-204); mrożenie (FER-205). Miód i czosnek osobno, bez fermentowania razem.",
+      "tw": [
+        "FER-069",
+        "FER-070",
+        "SLO-036",
+        "SLO-037",
+        "FER-200",
+        "FER-201",
+        "FER-203",
+        "FER-204",
+        "FER-205"
+      ]
+    },
+    {
+      "wariant": "ginger-turmeric-v08",
+      "nazwa": "pasta imbirowo-czosnkowa fermentowana",
+      "dlaczego": "Pasta zawiera czosnek, a dla fermentowanego czosnku nie ma zwalidowanych przepisów (FER-068). Imbir ma pH 5,60–5,90 (ACI-125), czyli też powyżej 4,6 (FER-004). To wniosek redakcji z dwóch twierdzeń, nie twierdzenie źródła o paście.",
+      "zamiast": "Czosnek mrozić (FER-205). Dla imbiru nie przeczytano dziś źródła o mrożeniu ani suszeniu, więc karta nie podaje zamiennika dla imbiru [DO USTALENIA] (B6-P2).",
+      "tw": [
+        "FER-068",
+        "ACI-125",
+        "FER-004",
+        "FER-200",
+        "FER-201",
+        "FER-205"
+      ]
+    },
+    {
+      "wariant": "wild-garlic-v05",
+      "nazwa": "kiszone cebulki czosnku niedźwiedziego",
+      "dlaczego": "Żadne przeczytane źródło nie podaje pH cebulek czosnku niedźwiedziego ani przepisu na ich kiszenie. Karta mówi to wprost i traktuje je jak czosnek, z nazwaną analogią (B6-D8). Nie twierdzi, że źródło pisze o czosnku niedźwiedzim.",
+      "zamiast": "Nie podajemy zamiennika: metody UC (FER-203) przetestowano dla czosnku, nie dla czosnku niedźwiedziego. Odsyłamy do przetestowanych kiszonek: ogórki i kapusta (FER-202). Uwaga D-027 (c).",
+      "tw": [
+        "FER-068",
+        "FER-004",
+        "FER-200",
+        "FER-201",
+        "FER-202"
+      ]
+    }
+  ],
+  "szkic_K2": [
+    {
+      "wariant": "cucumber-v03",
+      "przepis": "NCHFP Dill Pickles z czosnkiem (z octem 5%)",
+      "sekcje": [
+        [
+          "Składniki",
+          "FER-042 (1/2 szklanki soli, 1/4 szklanki octu 5%, 8 szklanek wody na 4 funty ogórków; czosnek 2 ząbki)"
+        ],
+        [
+          "Sól",
+          "FER-011 (nie zmniejszać), FER-017 (bez soli o obniżonej zawartości sodu)"
+        ],
+        [
+          "Fermentacja",
+          "FER-043 (70–75 °F 3–4 tyg.; 55–65 °F 5–6 tyg.; > 80 °F mięknie), FER-021 (1–2 cale pod solanką)"
+        ],
+        [
+          "Kontrola w trakcie",
+          "FER-044 (kilka razy w tygodniu zbierać kożuch), FER-007 (opcjonalnie pH ≤ 4,60)"
+        ],
+        [
+          "Kiedy wyrzucić",
+          "FER-044 (miękkie, śliskie, zapach), FER-225 + D-d (pleśń poza cienkim kożuchem), FER-201"
+        ],
+        [
+          "Przechowywanie",
+          "FER-045 (lodówka ok. 4–6 mies.), FER-046…048 (wekowanie wg NCHFP)"
+        ],
+        [
+          "Bezpieczeństwo",
+          "FER-053 (wersja bez octu nietestowana), FER-200, uwaga D-027 (c)"
+        ],
+        [
+          "Nie w karcie",
+          "FER-212, FER-218, FER-219, FER-221 (normy produktowe, B6-D3), FER-210/211 (inny przepis)"
+        ]
+      ]
+    },
+    {
+      "wariant": "white-cabbage-v03",
+      "przepis": "NCHFP Sauerkraut + kminek (uproszczenie z E3)",
+      "sekcje": [
+        [
+          "Składniki",
+          "FER-029 (3 łyżki soli na 5 funtów), FER-031 (2,25–2,5% wagowo)"
+        ],
+        [
+          "Sól",
+          "FER-011, FER-030 (dolewka solanki 1,5 łyżki na kwartę)"
+        ],
+        [
+          "Fermentacja",
+          "FER-034 (70–75 °F 3–4 tyg.; < 60 °F może nie fermentować; > 75 °F mięknie), FER-021, FER-226 (bez powietrza)"
+        ],
+        [
+          "Kontrola w trakcie",
+          "FER-056 (przebarwienie w górnym calu usunąć), FER-007 (opcjonalnie pH)"
+        ],
+        [
+          "Kiedy wyrzucić",
+          "FER-055 (śliska = wyrzucić; różowa tylko gdy nie śliska), FER-217 (mętna zalewa, obcy zapach, rozpada się), FER-225 + D-d"
+        ],
+        [
+          "Przechowywanie",
+          "FER-036 (lodówka, szczelnie, kilka miesięcy), FER-037 (wekowanie)"
+        ],
+        [
+          "Bezpieczeństwo",
+          "FER-200, FER-201, uwaga D-027 (c)"
+        ],
+        [
+          "Nie w karcie",
+          "FER-214, FER-215 (1,5–2,0% odrzucone), FER-220, FER-222–224 (krótkie czasy, B6-D4)"
+        ]
+      ]
+    },
+    {
+      "wariant": "napa-cabbage-v05",
+      "przepis": "CSU baechu kimchi bez sosu rybnego",
+      "sekcje": [
+        [
+          "Składniki",
+          "FER-066 (bez sosu rybnego)"
+        ],
+        [
+          "Sól",
+          "FER-066 (solanka, potem sól na 3–6 h, płukanie), FER-059/FER-061 (2,0–4,0% jako kontekst)"
+        ],
+        [
+          "Fermentacja",
+          "FER-062 (najwyżej 48 h w temperaturze pokojowej, potem lodówka), FER-240"
+        ],
+        [
+          "Kontrola w trakcie",
+          "FER-063 (pH < 4,6 po ok. 2 tyg.; wcześniej może być za wysokie)"
+        ],
+        [
+          "Kiedy wyrzucić",
+          "FER-057 (pleśń, obcy zapach, tekstura), FER-225 + D-d, FER-201"
+        ],
+        [
+          "Przechowywanie",
+          "FER-062 (≤ 41 °F, 5 °C), FER-067 (CSU: najlepiej w ciągu tygodnia; B6-D6)"
+        ],
+        [
+          "Bezpieczeństwo",
+          "FER-064 (alergeny), FER-237/FER-238 (higiena), uwaga D-027 (c)"
+        ],
+        [
+          "Nie w karcie",
+          "FER-234 (3–4 dni w cieple), FER-235 (do 6 °C), „6 miesięcy” z FER-067"
+        ]
+      ]
+    },
+    {
+      "wariant": "napa-cabbage-v07",
+      "przepis": "CSU baechu kimchi (imbir w przepisie)",
+      "sekcje": [
+        [
+          "Składniki",
+          "FER-066 (sos rybny opcjonalny, kupny: FER-230, FER-231, FER-232, B6-D7)"
+        ],
+        [
+          "Sól",
+          "FER-066 (solanka, potem sól na 3–6 h, płukanie), FER-059/FER-061 (2,0–4,0% jako kontekst)"
+        ],
+        [
+          "Fermentacja",
+          "FER-062 (najwyżej 48 h w temperaturze pokojowej, potem lodówka), FER-240"
+        ],
+        [
+          "Kontrola w trakcie",
+          "FER-063 (pH < 4,6 po ok. 2 tyg.; wcześniej może być za wysokie)"
+        ],
+        [
+          "Kiedy wyrzucić",
+          "FER-057 (pleśń, obcy zapach, tekstura), FER-225 + D-d, FER-201"
+        ],
+        [
+          "Przechowywanie",
+          "FER-062 (≤ 41 °F, 5 °C), FER-067 (CSU: najlepiej w ciągu tygodnia; B6-D6)"
+        ],
+        [
+          "Bezpieczeństwo",
+          "FER-064 (alergeny), FER-239 (bez surowych ostryg), FER-237/FER-238 (higiena), uwaga D-027 (c)"
+        ],
+        [
+          "Nie w karcie",
+          "FER-234 (3–4 dni w cieple), FER-235 (do 6 °C), „6 miesięcy” z FER-067"
+        ]
+      ]
+    },
+    {
+      "wariant": "napa-cabbage-v08",
+      "przepis": "CSU baechu kimchi z gruszką azjatycką (opcja przepisu)",
+      "sekcje": [
+        [
+          "Składniki",
+          "FER-066 (sos rybny opcjonalny, kupny: FER-230, FER-231, FER-232, B6-D7)"
+        ],
+        [
+          "Sól",
+          "FER-066 (solanka, potem sól na 3–6 h, płukanie), FER-059/FER-061 (2,0–4,0% jako kontekst)"
+        ],
+        [
+          "Fermentacja",
+          "FER-062 (najwyżej 48 h w temperaturze pokojowej, potem lodówka), FER-240"
+        ],
+        [
+          "Kontrola w trakcie",
+          "FER-063 (pH < 4,6 po ok. 2 tyg.; wcześniej może być za wysokie)"
+        ],
+        [
+          "Kiedy wyrzucić",
+          "FER-057 (pleśń, obcy zapach, tekstura), FER-225 + D-d, FER-201"
+        ],
+        [
+          "Przechowywanie",
+          "FER-062 (≤ 41 °F, 5 °C), FER-067 (CSU: najlepiej w ciągu tygodnia; B6-D6)"
+        ],
+        [
+          "Bezpieczeństwo",
+          "FER-064 (alergeny), FER-239 (bez surowych ostryg), FER-237/FER-238 (higiena), uwaga D-027 (c)"
+        ],
+        [
+          "Nie w karcie",
+          "FER-234 (3–4 dni w cieple), FER-235 (do 6 °C), „6 miesięcy” z FER-067"
+        ]
+      ]
+    }
+  ],
+  "bez_zrodla": [
+    {
+      "grupa": "G2 ogórki bez octu",
+      "warianty": "cucumber-v02, v04, v05, v06, v08",
+      "opis": "brak przetestowanego przepisu; poradnik PL (FER-210, FER-211) nie jest testem (B6-D2)"
+    },
+    {
+      "grupa": "G1 kapusta z dodatkiem",
+      "warianty": "11 wariantów (white-cabbage-v02, v04–v07, v09; red-savoy-cabbage-v01, v02, v06; beetroot-v04; apple-v03)",
+      "opis": "źródła PL/UE opisują tylko kapustę z solą; dodatków nie testują"
+    },
+    {
+      "grupa": "G3 kimchi poza CSU",
+      "warianty": "13 wariantów (napa v01–v04, v06; cucumber-v07; brussels-kohlrabi-v03; pumpkin-v06; leafy-greens-v05; leek-chives-v02; daikon-black-radish-v01, v06; radish-v06)",
+      "opis": "nowe źródła K6 to normy, ogniska i badania, a nie przepisy domowe"
+    },
+    {
+      "grupa": "K3",
+      "warianty": "ginger-turmeric-v08 (zamiennik dla imbiru), wild-garlic-v05 (pH, przepis)",
+      "opis": "karta-ostrzeżenie możliwa; zamiennika brak (B6-D8, B6-D9)"
+    }
+  ],
+  "pytania_otwarte": [
+    {
+      "id": "B6-P1",
+      "tresc": "Procent soli w domowym kimchi spoza przepisu CSU: brak źródła szczebla 1–3 (przeczytane: Codex 223, CSU, UGA, OSU, 10 prac recenzowanych). Do pakietu eksperta."
+    },
+    {
+      "id": "B6-P2",
+      "tresc": "Imbir: przetestowana metoda mrożenia albo suszenia (zamiennik w karcie ginger-turmeric-v08). Nie szukano w tej sesji."
+    },
+    {
+      "id": "B6-P3",
+      "tresc": "Normy PN-A-77700:2006 i PN-A-77701:1997: płatne. Liczby znamy tylko z przytoczenia IBPRS-PIB. Krok właściciela, opcjonalny: zakup albo odczyt w czytelni PKN (ok. 30 min). Nie blokuje kart, bo normy są tylko kontekstem (B6-D3)."
+    },
+    {
+      "id": "B6-P4",
+      "tresc": "Rozp. (UE) 1019/2013 przeczytane w kopii legislation.gov.uk. Porównać z EUR-Lex przed użyciem FER-231 w karcie (curl, ok. 2 min agenta)."
+    },
+    {
+      "id": "B6-P5",
+      "tresc": "Pełne teksty trzech prac przeczytanych tylko w streszczeniu (FER-239, FER-241; oraz PMC8581111): strona PMC za reCAPTCHA. Twierdzenia oparte na streszczeniu."
+    }
+  ],
+  "decyzje": [
+    {
+      "id": "B6-D1",
+      "typ": "polecenie koordynatora (zapis)",
+      "tresc": "Numeracja FER-200–249 (rezerwacja koordynatora): K3 FER-200–205, K5 FER-210–228, K6 FER-230–241. Sprawdzone: brak tych ID w rejestr.json i na 11 gałęziach origin (git grep)."
+    },
+    {
+      "id": "B6-D2",
+      "typ": "decyzja Claude, do weta",
+      "tresc": "Ogórki po polsku bez octu i małosolne (G2: cucumber-v02, v04, v05, v06, v08) zostają `do-researchu`. Jedyny domowy przepis PL szczebla 3 (pacjent.gov.pl: 1 łyżka soli na 1 l, bez octu, kilka do 8 dni) nie jest przepisem przetestowanym i ma mniej soli niż NCHFP. Wariant ostrożniejszy (FER-011). Analogia: próg D-f (E1 kiszenie, ok-zrodlo tylko przy przetestowanym przepisie) i trening docs/research/24-przypisanie-partii.md:31 (jedno źródło szczebla 3 nie podnosi pewności). Odrzucone: karta „po polsku” z pacjent.gov.pl i atrybucją."
+    },
+    {
+      "id": "B6-D3",
+      "typ": "decyzja Claude, do weta",
+      "tresc": "Normy produktowe (PN-A-77700, PN-A-77701 przez IBPRS, Codex 115, Leitsätze, Spreewald g.g.A.) nie dają progu dla domu. W kartach są najwyżej kontekstem („kiszonka handlowa ma zwykle pH …”), a próg domowy zostaje FER-007. Zalecenie IBPRS 1,5–2,0% soli odrzucone: uzasadnienie żywieniowe, nie bezpieczeństwo, a sprzeczne z FER-011. Bez pełnej analogii."
+    },
+    {
+      "id": "B6-D4",
+      "typ": "decyzja Claude, do weta",
+      "tresc": "Czas fermentacji w kartach według NCHFP (3–4 tyg.), nie według poradników europejskich (5–10 dni + lodówka). Dłuższa fermentacja daje więcej kwasu, a bez pH-metru krótszej nie da się sprawdzić (FER-008). Wariant ostrożniejszy. Bez pełnej analogii."
+    },
+    {
+      "id": "B6-D5",
+      "typ": "decyzja Claude, do weta",
+      "tresc": "Pleśń: LGL Bayern (FER-225) wzmacnia D-d i P-01 opcję A. Kahmhefe „nieszkodliwa” (BW, FER-223) nie wchodzi do kart jako uspokojenie. Karta mówi: cienki biały kożuch zebrać (NCHFP), wszystko inne wyrzucić. Analogia: D-d (E1 kiszenie)."
+    },
+    {
+      "id": "B6-D6",
+      "typ": "decyzja Claude, do weta",
+      "tresc": "Kimchi: w cieple najwyżej 48 h (UGA), nie 3–4 dni (przegląd 2016); lodówka 5 °C lub niżej (UGA), nie do 6 °C; czas w lodówce „najlepiej w ciągu tygodnia” (CSU), bez „6 miesięcy” (OSU). We wszystkich trzech punktach wariant ostrożniejszy. Bez pełnej analogii."
+    },
+    {
+      "id": "B6-D7",
+      "typ": "decyzja Claude, do weta",
+      "tresc": "Sos rybny w kartach kimchi: tylko kupny, z etykietą, w ilości z przepisu CSU; bez domowego jeotgal i bez surowych ostryg i owoców morza (FER-232, FER-233, FER-239). Warianty z surowymi owocami morza: osobna ocena w partii katalogowej (D-043), do tego czasu `do-researchu`. Bez pełnej analogii."
+    },
+    {
+      "id": "B6-D8",
+      "typ": "decyzja Claude, do weta",
+      "tresc": "Karty-ostrzeżenia ginger-turmeric-v08 i wild-garlic-v05 przez nazwaną analogię do czosnku. Analogia pełna: trening docs/research/24-przypisanie-partii.md:31 („analogia do niego = uproszczenie (analogia)”). Karta mówi, czego nie wiemy, i nie przypisuje źródłu wariantu."
+    },
+    {
+      "id": "B6-D9",
+      "typ": "decyzja Claude, do weta",
+      "tresc": "Zamienniki w kartach-ostrzeżeniach tylko z przetestowanych metod dla tego surowca (UC: wino/ocet w lodówce, mrożenie; SUS-037 suszenie). Bez ścieżki „kiś, ale mierz pH”. Dla czosnku niedźwiedziego i imbiru bez zamiennika do czasu źródła. Analogia: E1 D-b (metoda ogólna nie jest przepisem)."
+    }
+  ],
+  "kontrole": {
+    "cytaty": "40 cytatów (68 fragmentów „ | ” w kolejności) w 37 twierdzeniach + 6 cytatów istniejących twierdzeń (ponowny odczyt) są dosłownie w tekście stron pobranych dziś curl (HTML → tekst skryptem, PDF → pdftotext; normalizacja spacji, cudzysłowów i półpauz). Braki: 0.",
+    "mutacja": "node kontrola.mjs --mutacja: „40 mg” → „45 mg” w cytacie FER-230 daje brak cytatu (1); pl „20 g” → „25 g” (FER-222) wykryte jako „liczby”; pl „23 °C” → „23 °F” (FER-228) wykryte jako „liczby z jednostkami” i „symbole”; razem 3 różnice przekładu, kod 1.",
+    "przeklad": "tools/i18n/niezmienniki.mjs porownaj(en, pl) na 37 parach: 0 różnic.",
+    "kolizje_id": "rejestr.json (FER kończy się na FER-101) i git grep 'FER-2[0-4][0-9]' na 11 gałęziach origin (docs, catalog, site, tools; bez tego raportu): 0 trafień. Zakres 200–249 i unikalność ID sprawdzone skryptem.",
+    "odsylacze": "wszystkie warianty istnieją w catalog-seed.json, a ID ponownie czytanych twierdzeń istnieją w rejestrze: 0 braków.",
+    "okno_D051": "get_session: used_tokens 0, max_tokens 1000000 (pole nieaktualizowane); szacunek ostrożny ok. 20% okna, poniżej progu 30%."
+  }
+}
