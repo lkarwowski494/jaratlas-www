@@ -1,0 +1,38 @@
+# Chive oil for the refrigerator, used within days (UGA method)
+
+This card uses the UGA Extension method for oil with non-acidified fresh herbs, here chives: the oil is heated to 180 °F (82 °C) before the herbs are added, and the oil is kept in the refrigerator and thrown away 4 days after it was made, or frozen. [T:OLE-018]
+
+## !
+
+- Home-made oils with non-acidified garlic or herbs must never be stored at room temperature. [T:OLE-019]
+- NCHFP gives the same limit for garlic in oil: make it fresh and keep it in the refrigerator at 40 °F (4.4 °C) or lower for no more than 4 days. [T:OLE-002]
+
+## Why this oil needs care
+
+Vegetables and herbs in oil meet the conditions for botulinum toxin production: spores can be present, oil keeps oxygen out, and the pH is above 4.6. [T:OLE-023]
+
+You cannot tell from the look, smell or taste of the oil whether botulism is a risk. [T:OLE-027]
+
+## What this card covers
+
+It covers fresh chives added to heated oil; the acidification method, which allows room-temperature storage, was developed only for garlic, basil, oregano and rosemary and must not be used for chives. [T:OLE-016]
+
+Dried chives do not make the oil safer: without a laboratory measurement nobody knows whether dried herbs are dry enough. [T:OLE-020]
+
+## Preparing
+
+Make only as much oil as you will use within 4 days. [T:OLE-018]
+
+Wash the glass container thoroughly and boil it for 10 minutes. [T:OLE-058]
+
+Choose good-quality chives, wash them thoroughly and pat them dry. [T:OLE-058]
+
+Heat the oil to 180 °F (82 °C), checking it with a kitchen thermometer, and only then add the chives. [T:OLE-018]
+
+Put the oil with the chives into the sterilized container, close it and keep it in the refrigerator. [T:OLE-018]
+
+## Storing
+
+Throw the oil away 4 days after you made it. [T:OLE-018]
+
+Alternatively, freeze the oil until you are ready to use it. [T:OLE-018]
