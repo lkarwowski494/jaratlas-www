@@ -62,7 +62,7 @@ Według Penn State samo suszenie może nie dać bezpiecznego produktu: w 1995 r.
 
 Jeśli nie ogrzewasz pasków przed suszeniem, ogrzej je po suszeniu, przed pakowaniem: paski pokrojone na grubość do 1/4 cala (ok. 6 mm) trzymaj 10 minut w piekarniku nagrzanym do 275 °F (135 °C); grubsze paski mogą wymagać dłuższego ogrzewania, żeby osiągnęły 160 °F (71 °C). [T:MIE-039]
 
-Reguła JarAtlas (ostrożnie): przy dziczyźnie bezpieczniejsza jest droga z ogrzaniem w marynacie przed suszeniem i pomiarem termometrem; jeśli ogrzewasz po suszeniu, sprawdź kilka pasków metalowym termometrem szpilkowym, czy osiągnęły 160 °F (71 °C). [T:MIE-107,MIE-039]
+Reguła JarAtlas (ostrożnie): przy dziczyźnie JarAtlas woli drogę z ogrzaniem w marynacie przed suszeniem, bo temperaturę sprawdza się termometrem, zanim paski trafią do suszarki; jeśli ogrzewasz po suszeniu, sprawdź kilka pasków metalowym termometrem szpilkowym, czy osiągnęły 160 °F (71 °C), a jeśli nie, ogrzewaj dłużej i zmierz ponownie. [T:MIE-107,MIE-039]
 
 ## Pakowanie i przechowywanie
 

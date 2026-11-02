@@ -18,7 +18,9 @@ Do wrzącej wody włóż najwyżej 1 kwartę (ok. 0,95 l) warzyw w woreczku z ga
 
 Potem schładzaj warzywa w bardzo zimnej wodzie tyle samo czasu, ile trwało blanszowanie, i odsącz je. [T:SUS-106]
 
-Czasy blanszowania w tej karcie podano dla wysokości 3000–5000 stóp (ok. 900–1500 m); niżej są nieco krótsze, a wyżej i przy dużych ilościach warzyw nieco dłuższe. [T:SUS-105]
+Czasy blanszowania w tej karcie podano dla wysokości 3000–5000 stóp (ok. 900–1500 m); według CSU niżej są nieco krótsze, a wyżej i przy dużych ilościach warzyw nieco dłuższe. [T:SUS-105]
+
+Reguła JarAtlas (ostrożnie): na niższych wysokościach nie skracaj czasów, bo blanszowanie pomaga też niszczyć mikroorganizmy; powyżej ok. 1500 m i przy dużych ilościach warzyw nieco je wydłuż. [T:SUS-105,SUS-014]
 
 ## Suszenie
 

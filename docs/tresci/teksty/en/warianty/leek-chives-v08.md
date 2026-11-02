@@ -15,9 +15,9 @@ You cannot tell from the look, smell or taste of the oil whether botulism is a r
 
 ## What this card covers
 
-It covers fresh chives added to heated oil; the acidification method, which allows room-temperature storage, was developed only for garlic, basil, oregano and rosemary and must not be used for chives. [T:OLE-016]
+It covers fresh chives added to heated oil; the acidification method was developed only for garlic, basil, oregano and rosemary and must not be used for chives. [T:OLE-016]
 
-Dried chives do not make the oil safer: without a laboratory measurement nobody knows whether dried herbs are dry enough. [T:OLE-020]
+Using dried chives instead does not ensure a safe oil: without a laboratory measurement you cannot know whether dried herbs are dry enough. [T:OLE-020]
 
 ## Preparing
 
