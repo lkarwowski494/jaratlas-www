@@ -12,7 +12,7 @@ Most mixtures of low-acid and acid foods have a pH above 4.6 unless the recipe i
 
 The whole product must contain a minimum, uniform level of acid so that botulism bacteria cannot grow. [T:ACI-017]
 
-JarAtlas rule (cautious): do not change the amounts of vinegar, apples, onions or peppers and do not add other vegetables; the recipe is tested only in the proportions given. [T:ACI-265]
+JarAtlas rule (cautious): do not change the amounts of vinegar, apples, onions or sweet peppers and do not add other vegetables; the only change NCHFP allows is the hot pepper, described below; the recipe is tested only in the proportions given. [T:ACI-265,ACI-646]
 
 NCHFP allows another type of hot pepper as long as you do not exceed the listed measurement, or you may leave the hot pepper out. [T:ACI-646]
 

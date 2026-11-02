@@ -1,10 +1,10 @@
 # Piccalilli, a green tomato and cabbage relish (NCHFP)
 
-This card describes the NCHFP Piccalilli recipe: green tomatoes, peppers, onions and cabbage salted overnight, pressed, cooked in a vinegar, brown sugar and spice mixture, hot packed into sterile jars and processed in a boiling-water bath. [T:SLO-528,SLO-529,SLO-530]
+This card describes the NCHFP Piccalilli recipe: green tomatoes, peppers, onions and cabbage salted and left in hot water for 12 hours, pressed, cooked in a vinegar, brown sugar and spice mixture, hot packed into sterile jars and processed in a boiling-water bath. [T:SLO-528,SLO-529,SLO-530]
 
 ## What this card covers
 
-The NCHFP green tomato and cabbage relish recipe is called Piccalilli; NCHFP does not call it Creole. [T:SLO-533]
+The NCHFP green tomato and cabbage relish this card follows is called Piccalilli; NCHFP does not call it Creole. [T:SLO-533]
 
 JarAtlas rule (cautious): this card describes only this NCHFP recipe in its proportions and does not cover other Creole recipes or similar relishes, because NCHFP has not tested them. [T:SLO-533]
 

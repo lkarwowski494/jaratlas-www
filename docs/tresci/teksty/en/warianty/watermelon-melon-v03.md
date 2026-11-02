@@ -44,7 +44,7 @@ Trim the pink flesh and the outer green skin from thick watermelon rind. [T:SLO-
 
 Cut it into 1-inch (about 2.5 cm) squares; NCHFP also allows fancy shapes as desired. [T:SLO-650]
 
-JarAtlas rule (cautious): NCHFP gives no size for fancy shapes, so make every piece at most 1 inch (about 2.5 cm) in every direction, because watermelon rind is low in acid. [T:SLO-655]
+JarAtlas rule (cautious): NCHFP gives no size for fancy shapes, so make every piece no larger than the 1-inch (about 2.5 cm) square the recipe gives, because this is the only size the recipe gives and watermelon is a low-acid food. [T:SLO-655,ACI-026,ACI-156]
 
 Cover the pieces with a brine made by mixing the salt with 3 quarts of cold water, add the ice cubes and let stand for 3 to 4 hours. [T:SLO-650]
 

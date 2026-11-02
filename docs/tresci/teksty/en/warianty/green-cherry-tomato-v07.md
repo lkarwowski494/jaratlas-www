@@ -6,7 +6,7 @@ This card describes the NCHFP Pickled Green Tomato Relish recipe: green tomatoes
 
 The NCHFP recipe uses small, hard green tomatoes. [T:SLO-506]
 
-JarAtlas rule (cautious): do not replace them with ripe or cherry tomatoes, because the recipe was not tested with them. [T:ACI-265,SLO-506]
+JarAtlas rule (cautious): use only small, hard green tomatoes, as in the recipe; the recipe was tested only with them. [T:ACI-265,SLO-506]
 
 Do not use tomatoes from dead or frost-killed vines. [T:ACI-049]
 

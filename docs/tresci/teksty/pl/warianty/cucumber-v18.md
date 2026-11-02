@@ -4,7 +4,7 @@ Ta karta opisuje przepis NCHFP Pickle Relish: posiekane ogórki, papryka i cebul
 
 ## Co obejmuje ta karta
 
-Przepis NCHFP na relish z ogórków nazywa się Pickle Relish, nie „relish bostoński”. [T:SLO-505]
+Przepis NCHFP, według którego jest ta karta, nazywa się Pickle Relish; NCHFP nie nazywa go „relishem bostońskim”. [T:SLO-505]
 
 Reguła JarAtlas (ostrożna): ta karta opisuje relish bostoński wyłącznie jako przepis NCHFP Pickle Relish w jego proporcjach i nie obejmuje innych przepisów na relish bostoński, bo NCHFP ich nie przetestowało. [T:SLO-505]
 

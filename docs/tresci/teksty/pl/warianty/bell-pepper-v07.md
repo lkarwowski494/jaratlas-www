@@ -1,6 +1,6 @@
 # Peperoni: ostre papryki w occie (NCHFP)
 
-Ta karta opisuje przepis NCHFP na ostre papryki w occie (Pickled Hot Peppers): obrane ostre i słodkie papryki zalane gorącą zalewą z octu 5%, nakładane na surowo i wekowane w kąpieli wodnej. [T:SLO-560,SLO-562,SLO-563]
+Ta karta opisuje przepis NCHFP na ostre papryki w occie (Pickled Hot Peppers): obrane ostre i słodkie papryki zalane gorącą zalewą z octu 5%, nakładane na surowo i wekowane w kąpieli wodnej. [T:SLO-560,SLO-561,SLO-562,SLO-563]
 
 ## Dlaczego nie wolno zmieniać przepisu
 

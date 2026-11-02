@@ -4,9 +4,9 @@ Ta karta opisuje przepis NCHFP na korzenne krążki jabłek (spiced apple rings)
 
 ## Przeczytaj najpierw
 
-NCHFP nazywa ten przepis starszym przepisem USDA, nadal dostępnym i ważnym, ale o bardzo wysokim stężeniu cukru, którego większość osób dziś nie lubi. [T:SLO-621]
+NCHFP nazywa ten przepis starszym przepisem USDA, nadal dostępnym i ważnym, ale o skrajnie wysokim stężeniu cukru, którego większość osób dziś nie lubi. [T:SLO-621]
 
-NCHFP pracuje nad zaktualizowaną wersją na przyszły rok i pisze, że można poczekać i nie próbować tej wersji. [T:SLO-621]
+NCHFP pisze, że pracuje nad zaktualizowaną wersją i że można poczekać i nie próbować tej wersji. [T:SLO-621]
 
 Ten wariant katalogu, jabłka w zalewie octowo-korzennej, karta opisuje tylko tym przepisem: krążki jabłek w słodkim korzennym syropie z octem. [T:SLO-620,SLO-622]
 

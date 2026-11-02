@@ -22,7 +22,7 @@ The card gives no recipe, proportions or ingredient treatment, for example blanc
 
 The card does not cover pastes with fish (for example anchovies), meat or egg. [T:SLO-721]
 
-Vinegar or lemon juice in the recipe does not change the storage rules: it is not a tested acidification, and there are no validated processes for home-prepared vegetables and herbs in oil. [T:SLO-721,OLE-028]
+Vinegar or lemon juice in the recipe does not change the storage rules: tested acidification exists only for some herbs and vegetables infused in oil, its citric acid solution must not be replaced with vinegar or lemon juice, and no tested acidification exists for this paste. [T:SLO-720,SLO-721,OLE-014]
 
 Do not can this paste: according to Oregon State University Extension, no research has been done on safe canning times for pesto. [T:SLO-720,SLO-721]
 

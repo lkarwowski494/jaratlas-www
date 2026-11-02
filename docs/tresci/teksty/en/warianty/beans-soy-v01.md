@@ -18,7 +18,7 @@ White distilled vinegar and cider vinegar of 5% acidity are recommended for pick
 
 Penn State Extension advises vinegar of 5–7% acidity for home food preservation and advises against diluting vinegar with water unless a research-tested recipe says so. [T:ACI-209,ACI-210]
 
-JarAtlas rule (cautious, for readers outside the USA): use white distilled (spirit) vinegar or cider vinegar labelled 5% or 6% acidity; do not use 10% vinegar and do not dilute it with water to make 5% vinegar; add only the water the recipe lists. [T:ACI-211,ACI-018]
+JarAtlas rule (cautious, for readers outside the USA): use the white distilled (spirit) vinegar the recipe lists, labelled 5% or 6% acidity; do not use 10% vinegar and do not dilute it with water to make 5% vinegar; add only the water the recipe lists. [T:ACI-211,ACI-018]
 
 ## Ingredients
 

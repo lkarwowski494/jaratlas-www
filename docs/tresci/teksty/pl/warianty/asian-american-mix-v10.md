@@ -1,10 +1,10 @@
 # Piccalilli, relish z zielonych pomidorów i kapusty (NCHFP)
 
-Ta karta opisuje przepis NCHFP Piccalilli: zielone pomidory, papryka, cebula i kapusta solone przez noc, odciśnięte, gotowane w zalewie z octu, brązowego cukru i przypraw, nakładane na gorąco do wysterylizowanych słoików i wekowane w kąpieli wodnej. [T:SLO-528,SLO-529,SLO-530]
+Ta karta opisuje przepis NCHFP Piccalilli: zielone pomidory, papryka, cebula i kapusta solone i zalane gorącą wodą na 12 godzin, odciśnięte, gotowane w zalewie z octu, brązowego cukru i przypraw, nakładane na gorąco do wysterylizowanych słoików i wekowane w kąpieli wodnej. [T:SLO-528,SLO-529,SLO-530]
 
 ## Co obejmuje ta karta
 
-Przepis NCHFP na relish z zielonych pomidorów i kapusty nazywa się Piccalilli; NCHFP nie nazywa go kreolskim. [T:SLO-533]
+Przepis NCHFP na relish z zielonych pomidorów i kapusty, według którego jest ta karta, nazywa się Piccalilli; NCHFP nie nazywa go kreolskim. [T:SLO-533]
 
 Reguła JarAtlas (ostrożna): ta karta opisuje wyłącznie ten przepis NCHFP w jego proporcjach i nie obejmuje innych przepisów kreolskich ani podobnych relishy, bo NCHFP ich nie przetestowało. [T:SLO-533]
 

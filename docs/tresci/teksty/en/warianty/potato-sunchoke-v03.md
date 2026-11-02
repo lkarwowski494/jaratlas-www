@@ -18,7 +18,7 @@ In this recipe NCHFP gives 5% vinegar without naming a type of vinegar. [T:SLO-5
 
 White distilled vinegar and cider vinegar of 5% acidity are recommended for pickles. [T:ACI-018]
 
-White vinegar is usually chosen when a light colour is wanted, so for NCHFP the choice between white and cider vinegar of 5% is a matter of colour; you can use 5% cider vinegar for this recipe. [T:ACI-019,ACI-018]
+White vinegar is usually preferred when a light colour is wanted; Penn State Extension says that when a tested recipe does not name a type of vinegar, white or cider vinegar labelled 5% acidity can be used, so you can use 5% cider vinegar for this recipe. [T:ACI-019,ACI-018,ACI-211]
 
 Penn State Extension advises vinegar of 5–7% acidity for home food preservation and advises against diluting vinegar with water unless a research-tested recipe says so. [T:ACI-209,ACI-210]
 

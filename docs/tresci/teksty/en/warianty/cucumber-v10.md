@@ -76,6 +76,8 @@ Heat the water enough to keep it at 180–185 °F (83–85 °C) for 30 minutes. 
 
 Check with a candy or jelly thermometer that the water is at least 180 °F (83 °C) for the whole 30 minutes. [T:SLO-685]
 
+Use the same jars as for the bath: up to 946 ml, not 1 l. [T:ACI-175]
+
 Above 185 °F (85 °C) the pickles may soften unnecessarily. [T:SLO-685]
 
 The card converts Fahrenheit to Celsius and rounds the lower limit up, so that the water is never colder than the recipe requires. [T:SLO-684]
