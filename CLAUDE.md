@@ -1,8 +1,8 @@
 # JarAtlas.com
 Statyczna strona-katalog domowego przetwórstwa (wekowanie, kiszenie, mrożenie) w 35 językach, z bramką bezpieczeństwa treści. Stan i następny krok: `docs/sztafeta.md`, `docs/STAN-SESJI.md`.
 
-## Stan projektu (aktualizacja: 2026-11-02, partia 26)
-- Etap: w budowie; 06 karty fali 1 partie 1–26 (en/pl, 145 wariantów, w tym 66 mrożeń i 25 suszenia, ukryte), katalog 1.0.6 (A2 + corn-v09 ACI-283 + requiredWarnings p24 + suszenie C7/B7 p25) + 07 fix P2 + 10 przygotowanie czystego repo (podgląd) na claude/happy-brown-yncplj, main = 20eac8a, 0 opublikowanych stron, dane użytkowników: brak
+## Stan projektu (aktualizacja: 2026-11-02, partia 27)
+- Etap: w budowie; 06 karty fali 1 partie 1–27 (en/pl, 155 wariantów, w tym 66 mrożeń i 35 suszenia, ukryte), katalog 1.0.8 (A2, p24, C7/B7 p25, B10 1.0.7, B11 1.0.8) + 07 fix P2 + 10 przygotowanie czystego repo (podgląd) na claude/happy-brown-yncplj, main = 20eac8a, 0 opublikowanych stron, dane użytkowników: brak
 - Sklep: nie dotyczy (strona WWW); hosting GitHub Pages (ADR 0007); domena jaratlas.com (Porkbun, odnowienie przed 2027-11-01)
 - Przed pierwszą publikacją: przeniesienie do czystego repo: `docs/wydanie/10-przeniesienie-czyste-repo.md`, podgląd `node tools/przeniesienie.mjs [--zachowaj] [--testy]` (wzór: trening `docs/46-przeniesienie-1.0.md`)
 - Polityka języków: szeroka, 35 (fala 1: en, fr, es, de, it, pl)

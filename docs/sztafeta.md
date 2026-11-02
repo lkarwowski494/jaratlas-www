@@ -1,5 +1,5 @@
 # Stan sztafety
-Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 (dzień, partia 26)
+Ścieżka: greenfield (strona JarAtlas.com) · Aktualizacja: 2026-11-02 (dzień, partia 27)
 
 | Rola | Tryb | Stan | Commit | Artefakty | Otwarte decyzje |
 |---|---|---|---|---|---|
@@ -38,7 +38,8 @@
 | 06 Treści | build (karty fali 1, partia 24 en/pl: A6 czosnek w oleju i pesto; C6 „1 l” + wyjątek C2-08 zdjęty; A5 mrożenie mięsa, drobiu, boczku, ryb, jaj, masła, sera; lemon curd) | STOP 2026-11-02 dzień: 240 kart en/pl (120 wariantów), E3 zastępczy 5 przebiegów, B8-01 (T1-mróz), przegląd D-043, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p24-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/`, `catalog/`, `tools/kontrole-tresci.mjs` | decyzje do weta `2026-11-02-jaratlas-06-karty-p24`; B5-P1, C5-P1 |
 | 06 Treści | build (partia 25 en/pl: porcja katalogowa suszenia C7/B7, katalog 1.0.6; rejestr B4 + C7; karty suszenia S2 i S5; T1-susz) | STOP 2026-11-02 dzień: 268 kart en/pl (134 warianty, 14 suszenia), weryfikacja zastępcza 5 przebiegów, przegląd D-043 bez P0–P2, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p25-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/`, `catalog/`, `tests/` | decyzje do weta `2026-11-02-jaratlas-06-karty-p25`; backlog katalogu po B10 |
 | 06 Treści | build (partia 26 en/pl: karty suszenia S6 i S1; rejestr SUS-200–205; T1-susz z zamiennikami) | STOP 2026-11-02 dzień: 290 kart en/pl (145 wariantów, 25 suszenia), weryfikacja zastępcza 4 przebiegi, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p26-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/`, `tests/karty.test.mjs` | decyzje do weta `2026-11-02-jaratlas-06-karty-p26`; backlog katalogu po B10 |
+| 06 Treści | build (partia 27 en/pl porcja 1: karty suszenia S3 i S4; rejestr SUS-206–223) | STOP 2026-11-02 dzień (D-051): 310 kart en/pl (155 wariantów, 35 suszenia), weryfikacja zastępcza 3 przebiegi, `npm run check` kod 0 | (ten commit) | `docs/tresci/E3-karty-p27-2026-11-02.md`, `docs/tresci/karty/`, `site/slugi/`, `tests/karty.test.mjs` | decyzje do weta `2026-11-02-jaratlas-06-karty-p27`; backlog katalogu |
 ## Następny krok
-1. **06-tresci**: suszenie S3, S4 (A8), potem S7–S9 i jerky; onion-v15 + SLO-261, garlic-v09/v10 mrożenie. Przekład fal: po zgodzie właściciela na kwotę, sekret `ANTHROPIC_API_KEY` i workflow na main — przebieg dowodowy fr, potem drugi przegląd AI i przegląd człowieka (rola 09 E3).
+1. **06-tresci**: suszenie S7–S9 (po wklejeniu B7) i jerky; onion-v15 + SLO-261, garlic-v09/v10 mrożenie. Przekład fal: po zgodzie właściciela na kwotę, sekret `ANTHROPIC_API_KEY` i workflow na main — przebieg dowodowy fr, potem drugi przegląd AI i przegląd człowieka (rola 09 E3).
 2. 10-wydanie: weto D1–D11; przeniesienie według `docs/wydanie/10-przeniesienie-czyste-repo.md` pkt 3–4 tuż przed pierwszym workflow Pages (D11), za zgodą właściciela.
 3. 08 (kod dalej): najpierw domena i kontrole z testami, potem adapter wdrożenia (po ADR 0007), na końcu wygląd (po 04).
