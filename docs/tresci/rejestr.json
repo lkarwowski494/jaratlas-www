@@ -13893,7 +13893,7 @@
   "weryfikacjaZastepcza": "2026-11-02",
   "brzmieniePrzed": "We Włoszech w 1993 r. dwa zdarzenia jadu kiełbasianego wywołał domowy bakłażan w oleju.",
   "twierdzenie_en": "In Italy in 1993, two type B botulism outbreaks were linked to commercially prepared roasted eggplant in oil (CDC MMWR 1995).",
-  "uwaga": "B27 (2026-11-02-jaratlas-b27-katalog, B24-Q4): poprzednie źródło Nummer 2011 (Food Protection Trends, s. 337, szczebel 2) pisze „home-prepared eggplant”, a jego przypis 32 (MMWR 1995) mówi „commercially prepared”; wygrywa szczebel 1. Przegląd D-027 d nowego brzmienia 2026-11-02; sha przeglądu dotyczy zdania karty eggplant-v04 (en), które trzeba poprawić w torze A.",
+  "uwaga": "B27 (2026-11-02-jaratlas-b27-katalog, B24-Q4): poprzednie źródło Nummer 2011 (Food Protection Trends, s. 337, szczebel 2) pisze „home-prepared eggplant”, a jego przypis 32 (MMWR 1995) mówi „commercially prepared”; wygrywa szczebel 1. Nowe brzmienie: D-027 d 2026-11-02 (B27) POPARTE. Pole przeglad (data, sha b5fe977d2a89) dotyczy STAREGO zdania karty eggplant-v04 (en, „home-prepared”), które przekłamuje źródło: do poprawy w torze A przed publikacją, potem nowy sha.",
   "wazne_do": "2027-11-02"
  },
  {
@@ -62795,7 +62795,7 @@
  },
  {
   "id": "OLE-073",
-  "twierdzenie": "Livsmedelsverket: gotowanie warzyw w oleju (temperatura wrzenia oleju powyżej 121 °C) teoretycznie mogłoby inaktywować przetrwalniki C. botulinum typu I, ale brak badań potwierdzających, że metoda działa w praktyce.",
+  "twierdzenie": "Livsmedelsverket: gotowanie warzyw w oleju (temperatura wrzenia oleju zwykle powyżej 121 °C) teoretycznie mogłoby inaktywować przetrwalniki C. botulinum typu I, ale brak badań potwierdzających, że metoda działa w praktyce.",
   "zrodla": [
    {
     "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
@@ -62805,6 +62805,15 @@
     "szczebel": 1,
     "sha12": "462ea483ea51",
     "weryfikacja": "curl+pdftotext+grep"
+   },
+   {
+    "adres": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/rapporter/2023/l-2023-nr-16-heminlaggning-och-hemkonservering-av-gronsaker.pdf",
+    "miejsce": "L 2023 nr 16, „Upphettning i olja” (PDF s. 21)",
+    "cytat": "har i regel en högre kokpunkt än 121 °C",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+pdftotext+porównanie po normalizacji",
+    "sha12": "462ea483ea51"
    }
   ],
   "status": "potwierdzone",
@@ -62819,9 +62828,10 @@
   "klaster": "OLE",
   "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "Livsmedelsverket: cooking vegetables in oil (oil boils above 121 °C) could in theory inactivate group I C. botulinum spores, but there are no studies confirming that the method works in practice.",
-  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
-  "weryfikacjaZastepcza": "2026-11-02"
+  "twierdzenie_en": "Livsmedelsverket: cooking vegetables in oil (oil usually boils above 121 °C) could in theory inactivate group I C. botulinum spores, but there are no studies confirming that the method works in practice.",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst). Po D-027 d (P3): brzmienie uzupełnione do źródła, dodany cytat; poprzednie w brzmienieB24.",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB24": "Livsmedelsverket: gotowanie warzyw w oleju (temperatura wrzenia oleju powyżej 121 °C) teoretycznie mogłoby inaktywować przetrwalniki C. botulinum typu I, ale brak badań potwierdzających, że metoda działa w praktyce."
  },
  {
   "id": "OLE-074",
@@ -63264,7 +63274,7 @@
  },
  {
   "id": "OLE-088",
-  "twierdzenie": "CDC (MMWR 1995, botulizm typu B z pieczonego bakłażana w oleju, Włochy 1993): zalanie żywności olejem może dać warunki beztlenowe potrzebne do wytworzenia toksyny botulinowej; osoby przygotowujące w domu pieczone warzywa w oleju powinny wiedzieć, że ta praktyka może być niebezpieczna.",
+  "twierdzenie": "CDC (MMWR 1995, botulizm typu B z pieczonego bakłażana w oleju, Włochy 1993): zalanie żywności olejem może dać warunki beztlenowe potrzebne do wytworzenia toksyny botulinowej; osoby przygotowujące w domu pieczone warzywa w oleju powinny wiedzieć, że ta praktyka może być niebezpieczna, zwłaszcza gdy taka żywność stoi powyżej temperatury lodówki (zwykle powyżej 39 °F, ok. 4 °C).",
   "zrodla": [
    {
     "adres": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00035572.htm",
@@ -63274,6 +63284,15 @@
     "szczebel": 1,
     "sha12": "c3f7afdc03c2",
     "weryfikacja": "curl+grep (tekst HTML bez znaczników)"
+   },
+   {
+    "adres": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00035572.htm",
+    "miejsce": "Editorial Note",
+    "cytat": "Persons who prepare roasted vegetables in oil at home should be aware that this practice may be hazardous, especially if such foods are allowed to remain above refrigerator temperature",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+html→tekst+porównanie po normalizacji",
+    "sha12": "c3f7afdc03c2"
    }
   ],
   "status": "potwierdzone",
@@ -63288,9 +63307,10 @@
   "klaster": "OLE",
   "pochodzenie": "B24 B24-research-2026-11-02 (claude/jaratlas-b24-research 198f871)",
   "jednoZrodlo": true,
-  "twierdzenie_en": "CDC (MMWR 1995, type B botulism from roasted eggplant in oil, Italy 1993): covering foods in oil may create the anaerobic conditions needed for botulinum toxin; people who prepare roasted vegetables in oil at home should know this practice may be hazardous.",
-  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst).",
-  "weryfikacjaZastepcza": "2026-11-02"
+  "twierdzenie_en": "CDC (MMWR 1995, type B botulism from roasted eggplant in oil, Italy 1993): covering foods in oil may create the anaerobic conditions needed for botulinum toxin; people who prepare roasted vegetables in oil at home should know this practice may be hazardous, especially if such foods stay above refrigerator temperature (generally above 39 °F, about 4 °C).",
+  "uwaga": "Wpis B27 (2026-11-02-jaratlas-b27-katalog), przegląd D-027 d (subagent Opus, effort medium, świeży kontekst). Po D-027 d (P3): brzmienie uzupełnione do źródła, dodany cytat; poprzednie w brzmienieB24.",
+  "weryfikacjaZastepcza": "2026-11-02",
+  "brzmienieB24": "CDC (MMWR 1995, botulizm typu B z pieczonego bakłażana w oleju, Włochy 1993): zalanie żywności olejem może dać warunki beztlenowe potrzebne do wytworzenia toksyny botulinowej; osoby przygotowujące w domu pieczone warzywa w oleju powinny wiedzieć, że ta praktyka może być niebezpieczna."
  },
  {
   "id": "OLE-089",
