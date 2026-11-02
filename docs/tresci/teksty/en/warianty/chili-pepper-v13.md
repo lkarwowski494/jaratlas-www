@@ -76,7 +76,21 @@ JarAtlas rule (NCHFP does not test metric jars): half a pint is about 236.6 ml, 
 
 Let the processed jars cool undisturbed for 12 to 24 hours, then check that the lids have sealed. [T:ACI-287]
 
-## Storing
+## Cooling and storing
+
+When you take the hot jars out of the canner, do not retighten the lids or bands; this can cut through the gasket and cause seal failures. [T:SLO-210]
+
+Cool the jars at room temperature for 12 to 24 hours, then remove only the screw bands (the metal rings of two-piece lids), leaving the flat lids on the jars, and test the seal: press the middle of the lid, and if it springs up when you release it, the jar is not sealed. [T:SLO-196,SLO-212]
+
+NCHFP calls Mason-type canning jars with self-sealing two-piece lids (a flat lid and a screw band) the best choice, and this seal test and the method on this card assume them; NCHFP does not recommend other commercial jars whose mouths cannot be sealed with two-piece canning lids for canning any food at home. [T:SLO-223,SLO-212]
+
+JarAtlas rule (cautious): use this card only with jars that take two-piece canning lids; it gives no method for twist-off jars or jars with glass lids, so do not use them for this recipe. [T:SLO-223]
+
+A sealed lid is concave, curved down slightly in the centre; if the centre is flat or bulging, the jar may not be sealed. [T:SLO-196]
+
+If a jar has not sealed at this check, keep it in the refrigerator and eat it within several days. [T:SLO-197]
+
+Store sealed jars in a clean, cool, dark, dry place, not above 95 °F (35 °C) and not near hot pipes, a stove or a furnace, in an uninsulated attic or in direct sunlight; in such conditions the food may spoil. [T:SLO-198]
 
 Keep any jelly left over after filling the jars in the refrigerator. [T:ACI-293]
 
@@ -85,3 +99,25 @@ Once you open a sealed jar, keep the jelly in the refrigerator. [T:ACI-293]
 Discard jelly with mold on it; USDA and microbiologists advise against scooping out the mold and eating the rest. [T:SLO-012]
 
 Check an opened jar regularly for signs of spoilage such as mold, yeast or an off odor, including a fermented, yeasty or alcohol smell; if you find any, throw out the whole jar. [T:SLO-181,SLO-013]
+
+## When to throw it out
+
+Before using a stored jar, check that the lid is tight and holds a vacuum: a good seal has a concave centre. [T:SLO-191]
+
+Look for streaks of dried food running from the top of the jar, rising air bubbles and unnatural colour. [T:SLO-191]
+
+When opening the jar, check for an unnatural smell, spurting liquid and cotton-like mould on the food or under the lid. [T:SLO-191]
+
+Do not taste food from a jar with an unsealed lid or with signs of spoilage. [T:SLO-190]
+
+JarAtlas rule (cautious): throw out such a jar. [T:SLO-190]
+
+NCHFP warns that spoiled low-acid foods, including tomatoes, may show different signs of spoilage or very few, so every suspect jar of such food should be treated as if it had produced botulinum toxin and handled carefully. [T:SLO-350]
+
+JarAtlas rule (cautious): handle every suspect jar from this card this way, because its main ingredient is low in acid or close to the acidity limit. [T:SLO-350]
+
+If a suspect jar is still sealed, put it in a heavy garbage bag, close the bag and put it in a regular trash container. [T:SLO-350]
+
+If it is unsealed, open or leaking, NCHFP says it should be detoxified before disposal; JarAtlas does not repeat that procedure here, so follow the detoxification and clean-up steps on the NCHFP page “Identifying and Handling Spoiled Canned Food” (nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/) and avoid contact with suspect food or liquid. [T:SLO-350]
+
+Contact with botulinum toxin can be fatal if it is swallowed or enters through any openings in the skin, so wear rubber or heavy plastic gloves when handling suspect jars and cleaning up. [T:SLO-350]

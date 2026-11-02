@@ -1,6 +1,6 @@
 # Szpinak i inne liście mrożone, w tym boćwina i jarmuż (NCHFP, NDSU, MU)
 
-Ta karta opisuje instrukcję NCHFP mrożenia szpinaku i innych zielonych liści: blanszowanych we wrzątku, schłodzonych, zapakowanych i zamrożonych w 0 °F (−18 °C) lub niżej; według NDSU i University of Missouri Extension należą do nich też boćwina i jarmuż. [T:SLO-270,SLO-289,SUS-050]
+Ta karta opisuje instrukcję NCHFP mrożenia szpinaku i innych zielonych liści: blanszowanych we wrzątku, schłodzonych, zapakowanych i zamrożonych w 0 °F (−18 °C) lub niżej; według NDSU i University of Missouri Extension należą do nich też boćwina i jarmuż. [T:SLO-270,SLO-350,SUS-050]
 
 ## Wybór i przygotowanie
 
@@ -8,9 +8,9 @@ Wybierz młode, delikatne zielone liście. [T:SLO-270]
 
 Dokładnie je umyj i odetnij zdrewniałe łodygi. [T:SLO-270]
 
-NCHFP nie wymienia boćwiny ani jarmużu z nazwy; poradniki North Dakota State University i University of Missouri Extension zaliczają je do liści mrożonych w ten sposób. [T:SLO-289]
+NCHFP nie wymienia boćwiny ani jarmużu z nazwy; poradniki North Dakota State University i University of Missouri Extension zaliczają je do liści mrożonych w ten sposób. [T:SLO-350]
 
-Według University of Missouri Extension liście boćwiny pokrój na kawałki. [T:SLO-289]
+Według University of Missouri Extension liście boćwiny pokrój na kawałki. [T:SLO-350]
 
 ## Blanszowanie
 
@@ -20,9 +20,9 @@ Na funt (ok. 0,45 kg) warzyw weź 1 galon (ok. 3,8 l) wody; warzywa włóż do k
 
 Woda powinna znowu zawrzeć w ciągu 1 minuty; czas blanszowania licz od chwili, gdy znowu wrze, i przez cały ten czas trzymaj duży ogień. [T:SUS-055,SLO-254]
 
-Kapustę warzywną liściastą (ang. collards) blanszuj we wrzątku 3 minuty, a wszystkie inne liście, np. szpinak, boćwinę albo jarmuż, 2 minuty. [T:SLO-270,SLO-289]
+Kapustę warzywną liściastą (ang. collards) blanszuj we wrzątku 3 minuty, a wszystkie inne liście, np. szpinak, boćwinę albo jarmuż, 2 minuty. [T:SLO-270,SLO-350]
 
-University of Missouri Extension odradza blanszowanie liści na parze; blanszuj je tylko we wrzątku. [T:SLO-289]
+University of Missouri Extension odradza blanszowanie liści na parze; blanszuj je tylko we wrzątku. [T:SLO-350]
 
 Nie skracaj czasu: zbyt krótkie blanszowanie pobudza enzymy i jest gorsze niż żadne. [T:SUS-054]
 

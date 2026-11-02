@@ -64,3 +64,42 @@ test('karty: wariant w katalogu, wymagane ostrzeżenia, karta-ostrzeżenie z ost
 test('karty: każde zdanie ze znacznikiem potwierdzonego twierdzenia, liczby zgodne z rejestrem', () => {
   for (const { lang, id, karta } of wszystkie) assert.deepEqual(sprawdzTekst(doMd(karta), rejestr, `${lang}/${id}`).bledy, []);
 });
+
+// C4 (07-jakosc-C3-01, C3-02), test T1 z docs/tresci/C3-audyt-spojnosci-2026-11-02.md §5:
+// każda karta kąpieli wodnej ma blok po wekowaniu (wzór strawberry-v14), a karta z raw pack także SLO-210.
+// Dlaczego: 24 karty kończyły się na czasie wekowania, bez testu zamknięcia, przechowywania i oznak zepsucia.
+// karta z wariantem raw pack (nie zdanie „only the hot pack … raw packs make poor quality”)
+const RAW_PACK = /"Raw pack:|packed raw|hot or raw pack|raw or hot pack/i;
+const PO_WEKOWANIU = ['SLO-190', 'SLO-191', 'SLO-196', 'SLO-197', 'SLO-198', 'SLO-212', 'SLO-223'];
+function brakiPoWekowaniu(lista = wszystkie) {
+  const braki = [];
+  for (const { lang, id, karta } of lista) {
+    if (V.get(id)?.preservationMethod !== 'water-bath') continue;
+    const t = JSON.stringify(karta);
+    const ids = new Set([...t.matchAll(/\[T:([^\]]*)\]/g)].flatMap((m) => m[1].split(',')));
+    const wym = [...PO_WEKOWANIU];
+    const en = lista.find((k) => k.lang === 'en' && k.id === id);
+    const brak = wym.filter((w) => !ids.has(w));
+    // raw pack: samo zdanie SLO-210 o niższym poziomie po wystudzeniu (wzór currant-v13), nie dowolne zdanie z tym ID
+    const rawZdanie = karta.sekcje.some((s) => s.akapity.some((a) => /\bSLO-210\b/.test(a) && /raw-packed|na surowo/i.test(a)));
+    if (RAW_PACK.test(JSON.stringify(en?.karta ?? karta)) && !rawZdanie) brak.push('SLO-210 (raw pack)');
+    if (brak.length) braki.push(`${lang}/${id}: ${brak.join(',')}`);
+  }
+  return braki;
+}
+
+test('T1: karta kąpieli wodnej ma studzenie, test zamknięcia, przechowywanie, oznaki zepsucia i regułę pokrywek', () => {
+  assert.deepEqual(brakiPoWekowaniu(), []);
+});
+
+// C4, weryfikacja zastępcza (rozbieżność 1): NCHFP każe podejrzane słoiki produktów o niskiej kwasowości, w tym pomidorów,
+// traktować jak zawierające toksynę botulinową. Dlaczego: samo „wyrzuć” przy takim słoiku jest słabsze od źródła.
+// Zakres ostrożny: produkty z acidity low-acid albo borderline w katalogu (decyzja 2026-11-02-jaratlas-06-c4-fix-p1).
+test('T1b: karta kąpieli wodnej produktu o niskiej albo granicznej kwasowości ma postępowanie z podejrzanym słoikiem (SLO-350)', () => {
+  const P = new Map(katalog.products.map((p) => [p.id, p]));
+  const braki = wszystkie
+    .filter(({ id }) => V.get(id)?.preservationMethod === 'water-bath' && ['low-acid', 'borderline'].includes(P.get(V.get(id).productId)?.acidity))
+    .filter(({ karta }) => !/\[T:[^\]]*\bSLO-350\b/.test(JSON.stringify(karta)))
+    .map(({ lang, id }) => `${lang}/${id}`);
+  assert.deepEqual(braki, []);
+});

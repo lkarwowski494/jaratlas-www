@@ -30605,7 +30605,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "bb4b4732c15b"
+   "sha": "dddf43d8bc25"
   },
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -30649,7 +30649,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "7c9a137347cf"
+   "sha": "a0ef36fddc1b"
   },
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -30797,7 +30797,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "455904f9dc7c"
+   "sha": "200afd091500"
   },
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -30823,7 +30823,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "eae1aa4fe849"
+   "sha": "ee0c31670207"
   },
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -30858,7 +30858,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "cd49599407f1"
+   "sha": "d6fd17e22ec7"
   },
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -31293,7 +31293,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "ffb91f26cf96"
+   "sha": "3bc5ac39dd44"
   },
   "wazne_do": "2027-11-02",
   "klaster": "SLO",
@@ -31374,7 +31374,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "7f3dd2a56108"
+   "sha": "688043d33271"
   },
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -31906,7 +31906,7 @@
   "przeglad": {
    "kto": "weryfikacja zastępcza (subagent)",
    "data": "2026-11-02",
-   "sha": "2e0203905df6"
+   "sha": "7fae47019e28"
   },
   "weryfikacjaZastepcza": "2026-11-02"
  },
@@ -34453,5 +34453,85 @@
   "przeglad": null,
   "wazne_do": "2027-11-02",
   "klaster": "SLO"
+ },
+ {
+  "id": "SLO-350",
+  "twierdzenie": "NCHFP Identifying and Handling Spoiled Canned Food: zepsuta żywność o niskiej kwasowości, w tym pomidory, może mieć inne oznaki zepsucia albo prawie żadnych, więc każdy podejrzany pojemnik należy traktować jak zawierający toksynę botulinową i obchodzić się z nim ostrożnie: zamknięty podejrzany słoik włożyć do grubego worka na śmieci, zamknąć worek i wyrzucić do zwykłego pojemnika na odpady; niezamknięty, otwarty albo cieknący przed wyrzuceniem odkazić (procedura na tej stronie); kontakt z toksyną botulinową może być śmiertelny przy połknięciu albo przez otwory w skórze, przy podejrzanej żywności i sprzątaniu nosić rękawice gumowe albo z grubego plastiku.",
+  "zrodla": [
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Identifying and Handling Spoiled Canned Food, akapit o zepsutej żywności o niskiej kwasowości",
+    "cytat": "Spoiled low-acid foods, including tomatoes, may exhibit different kinds of spoilage evidence or very little evidence.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a67601599dcb"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Identifying and Handling Spoiled Canned Food, akapit o zepsutej żywności o niskiej kwasowości",
+    "cytat": "Therefore, all suspect containers of spoiled low-acid foods, including tomatoes, should be treated as having produced botulinum toxin and handled carefully in one of two ways:",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a67601599dcb"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Identifying and Handling Spoiled Canned Food, akapit o zepsutej żywności o niskiej kwasowości",
+    "cytat": "If the swollen metal cans or suspect glass jars are still sealed, place them in a heavy garbage bag. Close and place the bag in a regular trash container or dispose in a nearby landfill.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a67601599dcb"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Identifying and Handling Spoiled Canned Food, akapit o zepsutej żywności o niskiej kwasowości",
+    "cytat": "If the suspect cans or glass jars are unsealed, open, or leaking, they should be detoxified before disposal.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a67601599dcb"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Identifying and Handling Spoiled Canned Food, akapit o zepsutej żywności o niskiej kwasowości",
+    "cytat": "Contact with botulinum toxin can be fatal whether it is ingested or enters through any openings in the skin.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a67601599dcb"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Identifying and Handling Spoiled Canned Food, akapit o zepsutej żywności o niskiej kwasowości",
+    "cytat": "Wear rubber or heavy plastic gloves when handling suspect foods or cleaning up contaminated work surfaces and equipment.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a67601599dcb"
+   },
+   {
+    "adres": "https://nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/",
+    "miejsce": "NCHFP (nchfp.uga.edu): Identifying and Handling Spoiled Canned Food, akapit o zepsutej żywności o niskiej kwasowości",
+    "cytat": "Take care to avoid contact with suspect foods or liquids.",
+    "odczyt": "2026-11-02",
+    "szczebel": 1,
+    "weryfikacja": "curl+grep",
+    "sha12": "a67601599dcb"
+   }
+  ],
+  "status": "potwierdzone",
+  "uproszczenie": "Karty nie powtarzają procedury odkażania (gotowanie, liczby) ani czyszczenia wybielaczem, tylko odsyłają do strony NCHFP (adres w zdaniu) i każą unikać kontaktu z podejrzanym jedzeniem albo płynem. Reguła JarAtlas (ostrożna): to postępowanie stosujemy w kartach wszystkich produktów o kwasowości low-acid albo borderline w katalogu (także zakwaszonych warzyw, ziół, kukurydzy i moreli), nie tylko w kartach pomidorów i produktów nisko kwaśnych w ścisłym sensie NCHFP.",
+  "krytyczne": true,
+  "wazne_do": "2027-11-02",
+  "klaster": "SLO",
+  "przeglad": {
+   "kto": "weryfikacja zastępcza (subagent)",
+   "data": "2026-11-02",
+   "sha": "23c49ba0ce00"
+  },
+  "weryfikacjaZastepcza": "2026-11-02"
  }
 ]
