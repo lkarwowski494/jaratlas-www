@@ -34,7 +34,8 @@ export function kontrolaOstrzezen(strony, katalog, tresci, ui) {
     for (const o of ostrz) if (!String(o.tekst ?? '').trim()) bledy.push(`${st.lang}/${st.id}: puste ostrzeżenie ${o.claim}`);
   }
   for (const lang of new Set(strony.map((s) => s.lang).filter(Boolean))) {
-    if (ui[lang] && !String(ui[lang].uwagaBezpieczenstwa ?? '').trim()) bledy.push(`${lang}: pusta uwaga D-027 (c)`);
+    // C3-09 (07-jakosc C6): bez warunku ui[lang] — brak tekstów interfejsu to też brak uwagi; R3 nie polega na błędzie z generuj.mjs.
+    if (!String(ui?.[lang]?.uwagaBezpieczenstwa ?? '').trim()) bledy.push(`${lang}: pusta uwaga D-027 (c)`);
   }
   return bledy;
 }
